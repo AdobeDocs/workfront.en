@@ -88,9 +88,8 @@ Consider the following when using the [!UICONTROL Portfolio Optimizer]:
 
 ## Change the priority of the projects in the [!UICONTROL Portfolio Optimizer]
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+{{#step1-to-portfolios}}
 
-1. Click **[!UICONTROL Portfolios]**.
 1. (Optional) Select the correct filter in the **[!UICONTROL Filter]** drop-down menu, to view the correct list of portfolios.
 1. Click the name of a portfolio to open it.
 1. Click **[!UICONTROL Portfolio Optimization]** in the left panel.

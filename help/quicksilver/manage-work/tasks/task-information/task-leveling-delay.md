@@ -9,9 +9,9 @@ exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
 ---
 # Update task Leveling Delay
 
-At times, there might be conflicts between task schedules on a project. You can level resources or address resource conflicts by rescheduling resources and tasks so that all tasks can be completed within a realistic&nbsp;schedule. For information about leveling tasks, see [Level Resources in the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).
+At times, there might be conflicts between task schedules on a project. You can level resources or address resource conflicts by rescheduling resources and tasks so that all tasks can be completed within a realistic schedule. For information about leveling tasks, see [Level Resources in the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).
 
-As the project manager, or the task assignee, you can also add a Leveling Delay on individual tasks to account for any resource or scheduling conflicts. In other words, a task might be scheduled with a delay to ensure that when Adobe Workfront levels&nbsp;the tasks a more realistic schedule overcomes resource conflicts.
+As the project manager, or the task assignee, you can also add a Leveling Delay on individual tasks to account for any resource or scheduling conflicts. In other words, a task might be scheduled with a delay to ensure that when Adobe Workfront levels the tasks a more realistic schedule overcomes resource conflicts.
 
 Adding a leveling delay to a task adjusts the Projected Completion Date of the task. For information about the projected completion date, see [Overview of the Projected Completion Date for projects, tasks, and issues](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
@@ -87,7 +87,7 @@ For more information, see [Access requirements in Workfront documentation](/help
    Select from the following options for units of time:
 
    * Minutes
-   * Hours.&nbsp;This is the default.
+   * Hours. This is the default.
    * Days
    * Weeks
    * Months
@@ -101,6 +101,6 @@ For more information, see [Access requirements in Workfront documentation](/help
    >
    >Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days.
 
-1. Click **Save**.&nbsp;
+1. Click **Save**. 
 
-&nbsp;
+ 

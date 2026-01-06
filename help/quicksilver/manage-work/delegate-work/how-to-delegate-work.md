@@ -79,7 +79,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 +++
 
 <!--note from the table for Object permissions:
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project Owner (NOTE: you cannot delegate projects yet)</p>
     -->
 
 ## Prerequisites
@@ -148,7 +148,7 @@ To delegate your tasks and issues to others:
    * The [!UICONTROL **Delegate**] button in the [!UICONTROL **Home**] area changes to [!UICONTROL **Edit delegation**] to indicate that there is a delegation in place.
       <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-      (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
+      (NOTE: is this shot correct? See UI - this is a mock)
       </MadCap:conditionalText>
       -->
 

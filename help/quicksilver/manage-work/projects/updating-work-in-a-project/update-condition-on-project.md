@@ -11,7 +11,7 @@ exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
 
 The Condition of a project is a flag placed on it to indicate whether the work associated with it is going smoothly or whether you have encountered any roadblocks. This is different than the Status of the project, which indicates whether you are actively working on it or not.
 
-You can set the Condition of a project either automatically or manually. In order to change the Condition of a project manually, you must be the Project&nbsp;Owner or have Manage rights to it.
+You can set the Condition of a project either automatically or manually. In order to change the Condition of a project manually, you must be the Project Owner or have Manage rights to it.
 
 The Adobe Workfront administrator can create custom Conditions for your environment, as described in [Create or edit a custom condition](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 

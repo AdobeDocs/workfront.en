@@ -10,7 +10,7 @@ exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
 ---
 # Overview of the project Actual Start Date
 
-Projects, tasks, and issues have an&nbsp;Actual Start&nbsp;Date in&nbsp;Adobe Workfront. For tasks, and issues, this is the date when they have been marked as In Progress. For projects, this is the date when the first task on the project is marked as In Progress or has been completed.
+Projects, tasks, and issues have an Actual Start Date in Adobe Workfront. For tasks, and issues, this is the date when they have been marked as In Progress. For projects, this is the date when the first task on the project is marked as In Progress or has been completed.
 
 ## Access requirements
 
@@ -69,20 +69,20 @@ For information, see [Access requirements in Workfront documentation](/help/quic
  </tbody> 
 </table>-->
 
-## Considerations about Actual&nbsp;Start&nbsp;Dates in&nbsp;Workfront
+## Considerations about Actual Start Dates in Workfront
 
-* The Actual Start Date is located in the Details section of projects, tasks, and issues.&nbsp;
-* The Actual&nbsp;Start Date of a project, task, or issue is not populated when these items are created. 
-* The Actual&nbsp;Start&nbsp;Date is populated when work actually starts on the project, task, or issue. 
-* The Actual&nbsp;Start Date does not display on the Project Details tab if the work on the project has not started yet.
+* The Actual Start Date is located in the Details section of projects, tasks, and issues. 
+* The Actual Start Date of a project, task, or issue is not populated when these items are created. 
+* The Actual Start Date is populated when work actually starts on the project, task, or issue. 
+* The Actual Start Date does not display on the Project Details tab if the work on the project has not started yet.
 
-  The Actual Start&nbsp;Date displays blank on the Task and&nbsp;Issue Details tabs if the work has not yet started on them. 
+  The Actual Start Date displays blank on the Task and Issue Details tabs if the work has not yet started on them. 
 
-* You can manually modify the Actual&nbsp;Start&nbsp;Date of a task or an issue, but you cannot modify the Actual&nbsp;Start&nbsp;Date of a project.
+* You can manually modify the Actual Start Date of a task or an issue, but you cannot modify the Actual Start Date of a project.
 
-## Considerations about Actual Start&nbsp;Dates for projects
+## Considerations about Actual Start Dates for projects
 
-* Workfront automatically sets the Actual&nbsp;Date of a project when any of the following occur:
+* Workfront automatically sets the Actual Date of a project when any of the following occur:
 
    * A task assignee changes the status of a task from *New* to any other status that does not equate *New*.
    
@@ -90,24 +90,25 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
      >[!IMPORTANT]
      >
-     >The Project&nbsp;Actual Start&nbsp;Date does not populate when the project is marked as Current.&nbsp;Actual work must start on the tasks of the project before the Actual&nbsp;Start&nbsp;Date of the project populates.
+     >The Project Actual Start Date does not populate when the project is marked as Current. Actual work must start on the tasks of the project before the Actual Start Date of the project populates.
 
      In these cases, the Actual Start Date of the project is set to the date and time when these actions occurred for the earliest task on the project. This indicates that the project actually started on this date and time.
 
-## Locate the Actual Start&nbsp;Date of a project
+## Locate the Actual Start Date of a project
 
-You can locate the Actual&nbsp;Start&nbsp;Date of a project in the following areas:
+You can locate the Actual Start Date of a project in the following areas:
 
 * In the Details section of a Project.
-* In a project report or view, when you add the Actual&nbsp;Start&nbsp;Date for the object Project in the report.
+* In a project report or view, when you add the Actual Start Date for the object Project in the report.
 
   For information about creating reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-To locate the Actual Start&nbsp;Date in the Details section of the project:
+To locate the Actual Start Date in the Details section of the project:
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Projects**. 
+{{step1-to-projects}}
+
 1. Click the project you want to view the Actual Start Date for.
-1. Click&nbsp;**Project Details** in the left panel, then go to the **Overview** section.
+1. Click **Project Details** in the left panel, then go to the **Overview** section.
 
    The Actual Start Date displays along other project dates .
 
