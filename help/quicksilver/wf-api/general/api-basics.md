@@ -259,16 +259,16 @@ GET /attask/api/v15.0/task/search?percentComplete=100
 
 The following table lists some of the modifiers you can use with the Workfront API.
 
-| **Modifier** |**Description** |**Example** |
-|---|---|---|
-| eq |returns results that are in the status of closed |<pre>...status=cls&status_Mod=eq...</pre> |
-| ne |returns results that are not in the status of closed |<pre>...status=cls&status_Mod=ne...</pre> |
-| gte |returns results that have a percent complete greater than&nbsp;or equal to 50 |<pre>...percentComplete=50&percentComplete_Mod=gte...</pre> |
-| lte |returns results that have a percent complete less than or equal to 50 |<pre>...percentComplete=50&percentComplete_Mod=lte...</pre> |
-| isnull |returns results where the description is Null |<pre>...description_Mod=isnull...</pre> |
-| notnull |returns results where the description is not Null |<pre>...description_Mod=notnull...</pre> |
-| contains |returns results where name contains "Workfront" |<pre>...name=Workfront&name_Mod=contains...</pre> |
-| between |returns results that have an entry date within the last 7 days |<pre>...entryDate=$$TODAY-7d&entryDate_Range=$$TODAY&entryDate_Mod=between...</pre> |
+| **Modifier** | **Description** | **Example** |
+| --- | --- | --- |
+| eq | returns results that are in the status of closed | <pre>...status=cls&status_Mod=eq...</pre> |
+| ne | returns results that are not in the status of closed | <pre>...status=cls&status_Mod=ne...</pre> |
+| gte | returns results that have a percent complete greater than&nbsp;or equal to 50 | <pre>...percentComplete=50&percentComplete_Mod=gte...</pre> |
+| lte | returns results that have a percent complete less than or equal to 50 | <pre>...percentComplete=50&percentComplete_Mod=lte...</pre> |
+| isnull | returns results where the description is Null | <pre>...description_Mod=isnull...</pre> |
+| notnull | returns results where the description is not Null | <pre>...description_Mod=notnull...</pre> |
+| contains | returns results where name contains "Workfront" | <pre>...name=Workfront&name_Mod=contains...</pre> |
+| between | returns results that have an entry date within the last 7 days | <pre>...entryDate=$$TODAY-7d&entryDate_Range=$$TODAY&entryDate_Mod=between...</pre> |
 
 {style="table-layout:auto"}
 
