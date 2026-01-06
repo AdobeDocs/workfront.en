@@ -68,9 +68,9 @@ For more information, see [Access requirements in Workfront documentation](/help
  </tbody> 
 </table>-->
 
-## Update the Task&nbsp;Constraint of a task
+## Update the Task Constraint of a task
 
-1. Click **Main Menu** >&nbsp;**Projects**, then click a project to access it.
+1. Click **Main Menu** > **Projects**, then click a project to access it.
 1. Click the **Tasks** section in the left panel. 
 1. Click **Task Details** in the left panel, then in the Overview area click **Task Constraint**.
 
@@ -85,14 +85,14 @@ For more information, see [Access requirements in Workfront documentation](/help
    | As Soon As Possible |For information, see [Task Constraint overview: As Soon As Possible](../../../manage-work/tasks/task-constraints/as-soon-as-possible.md). |
    | As Late As Possible |For information, see [Task Constraint overview: As Late As Possible](../../../manage-work/tasks/task-constraints/as-late-as-possible.md).  |
    | Earliest Available Time |For information, see [Task Constraint overview: Earliest Available Time](../../../manage-work/tasks/task-constraints/earliest-available-time.md).  |
-   | Latest&nbsp;Available Time |For information, see [Task Constraint overview: Latest Available Time](../../../manage-work/tasks/task-constraints/latest-available-time.md).  |
+   | Latest Available Time |For information, see [Task Constraint overview: Latest Available Time](../../../manage-work/tasks/task-constraints/latest-available-time.md).  |
    | Start No Later Than |For information, see [Task Constraint overview: Start No Later Than](../../../manage-work/tasks/task-constraints/start-no-later-than.md). |
    | Start No Earlier Than |For information, see [Task Constraint overview: Start No Earlier Than](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md).  |
    | Finish No Later Than |For information, see [Task Constraint overview: Finish No Later Than](../../../manage-work/tasks/task-constraints/finish-no-later-than.md).  |
-   | Finish No&nbsp;Earlier Than |For information, see [Task Constraint overview: Finish No Earlier Than](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md).  |
+   | Finish No Earlier Than |For information, see [Task Constraint overview: Finish No Earlier Than](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md).  |
 
    {style="table-layout:auto"}
 
-1. Click **Save**&nbsp;**Changes**.
+1. Click **Save** **Changes**.
 
-&nbsp;
+ 

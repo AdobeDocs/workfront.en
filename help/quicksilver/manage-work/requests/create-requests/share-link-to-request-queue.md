@@ -52,11 +52,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. Start submitting a request as described in [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. Do one of the following:
 
-   * Select a request queue in the Request&nbsp;Type field
+   * Select a request queue in the Request Type field
    * Select a request queue and up to 10 Topic Groups
-   * Select a request queue, a Topic group, and a Queue&nbsp;Topic
+   * Select a request queue, a Topic group, and a Queue Topic
 
-1. Before you submit the request, click&nbsp;**Share Path** in the upper-right corner of the page.
+1. Before you submit the request, click **Share Path** in the upper-right corner of the page.
 
    This copies a link to the request queue, topic group, or queue topic that you selected in the previous step to your clipboard.
 
