@@ -114,7 +114,7 @@ To copy a project:
 
 {{step1-to-projects}}
 
-1. Select the project that you want to copy from the project list, then click&nbsp;the **More** icon ![More menu](assets/more-icon.png) to the right of the project name.
+1. Select the project that you want to copy from the project list, then click the **More** icon ![More menu](assets/more-icon.png) to the right of the project name.
 
    Or
 

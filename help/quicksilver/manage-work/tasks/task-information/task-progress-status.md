@@ -33,7 +33,7 @@ The following criteria determine the Progress Status of a task:
  </thead> 
  <tbody> 
   <tr valign="top"> 
-   <td scope="col"> <p>&nbsp;</p> <p><strong>On Time</strong> </p> </td> 
+   <td scope="col"> <p> </p> <p><strong>On Time</strong> </p> </td> 
    <td scope="col"> <p>A task is considered <strong>On Time</strong> when all the Planned Dates match the Projected Dates. This Progress Status could also mean that the project is ahead of schedule and the Projected Dates could be before the Planned Dates.</p> <p>For more information about Projected Dates, see <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Overview of the Projected Completion Date for projects, tasks, and issues</a>.</p> <p>For more information about task Planned Completion Date, see the following articles:</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Overview of the task Planned Start Date</a> </p> </li> 

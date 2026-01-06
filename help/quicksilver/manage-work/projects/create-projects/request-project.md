@@ -95,7 +95,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Do one of the following:
 
-   * Click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![Main Menu lines](assets/lines-main-menu.png) in the upper-left corner, if available, click **Projects**, then expand **New Project**.  
+   * Click the **Main Menu** icon![Main Menu lines](assets/lines-main-menu.png) in the upper-left corner, or the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, click **Projects**, then expand **New Project**.  
    * Go to a portfolio, then expand **New Project**. 
    * Go to a program, then expand **New Project**. 
    * If you are a group administrator, you can also create a project in the Projects section of a group you manage. For more information, see [Create and modify a group's projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).

@@ -172,12 +172,10 @@ Deactivating goals differs depending on which environment you use.
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper right corner, then click **Goals**.
+{{step1-to-goals}}
 
    The goal list displays.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
 
 1. (Optional) Modify your filters to display only goals that are active.
 
@@ -229,12 +227,10 @@ Deleting  goals differs depending on which environment you use.
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. Click the Main Menu icon ![Main Menu icon](assets/main-menu-icon.png) in the upper right corner, then click **Goals**.
+{{step1-to-goals}}
 
    The goal list displays. 
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+   
 1. Click the name of a goal. This opens the goal page. 
 1. Click the **More** menu ![More icon](assets/more-icon.png) to the right of the goal name, then click **Delete Goal**, then **Delete**. 
 

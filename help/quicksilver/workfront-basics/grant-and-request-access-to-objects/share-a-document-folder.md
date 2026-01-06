@@ -88,7 +88,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Share a folder
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Documents**.
+{{step1-to-documents}}
 
    Or
 
@@ -133,7 +133,7 @@ For more detail about the information in this table, see [Access requirements in
 ## How users access the contents of a folder shared with them
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story &nbsp;<a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story   <a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
 -->
 
 Currently, when you share a folder, your recipients don't see the folder in their Documents area. However, they can access its documents by running a document report.
