@@ -112,7 +112,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
        <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Choose a Workfront project when sending a review in Creative Cloud Express<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Choose a Workfront project when sending a review in Adobe Express<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
             <p>You can choose a Workfront project to send a proof to. This helps keep all related assets and proofs organized within the same project.</p>
         </td>
         <td>December 15, 2025</td>
