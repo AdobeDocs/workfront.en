@@ -75,6 +75,10 @@ The procedure for creating requests from drafts differs between the new requesti
    * In the requests list in the Requests area
    * In the requests list in the My Requests widget in Home
    * In the New request dialog (includes only drafts of requests created with the selected form)
+
+   >[!NOTE]
+   >
+   >Drafts created in the legacy requesting experience are not available in the new requesting experience.
    
 1. Update the information for the request as described in [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. (Optional and conditional) At any point during entering the request, click **Discard** draft if you want to delete the draft. This deletes the draft. 
@@ -105,11 +109,11 @@ The procedure for creating requests from drafts differs between the new requesti
 
 1. Review the information about each draft in the following columns of the Drafts list:
 
-   | Subject |This is the name you gave your request as you started to create it.  |
-   |---|---|
-   | Path |The name of the request queue, topic groups, and queue topics where you originally intended to submit the request. |
-   | Entry Date |The date when you initiated creating the request. |
-   | Last Update Date |The last of your last update. If you did not update it since you first started the request the Entry Date and the Last Update Date should be the same.  |
+   | Subject | This is the name you gave your request as you started to create it. |
+   | --- | --- |
+   | Path | The name of the request queue, topic groups, and queue topics where you originally intended to submit the request. |
+   | Entry Date | The date when you initiated creating the request. |
+   | Last Update Date | The last of your last update. If you did not update it since you first started the request the Entry Date and the Last Update Date should be the same. |
 
    {style="table-layout:auto"}
 
@@ -135,9 +139,4 @@ The procedure for creating requests from drafts differs between the new requesti
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      When you submit the request, the draft is deleted and cannot be restored.
-     
-   >[!NOTE]
-   >
-   >In the new requesting experience, drafts are in the same list as submitted requests.
-   >For more information on creating requests in the new experience, see [Create requests and generate drafts in the Workfront web app](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) in the article Create and submit requests.
 
