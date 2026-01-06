@@ -31,15 +31,21 @@ We partner with Adobe Workfront customers to turn everyday bottlenecks into repe
 
 ### Workfocus 
 
-Workfocus delivers advanced automation and integration solutions for Workfront. Their apps focus on: 
+WorkFocus is an Adobe Gold Solutions Partner specializing in Adobe Workfront, Workfront Fusion, Workfront Planning, Firefly, AEM Assets and enterprise automation. We help organizations scale automation responsibly by establishing a Fusion Center of Excellence (FCoE) powered by our proprietary FCoE application.
 
-* Streamlining timelines 
+#### Fusion Center of Excellence (FCoE) Application
 
-* Automating Fusion workflows 
+The WorkFocus Fusion Center of Excellence application enables organizations to govern, scale, and maximize the value of Adobe Workfront Fusion across the enterprise.
 
-* Enabling cross-instance collaboration 
+Many teams struggle with fragmented Fusion scenarios, limited visibility into automation ownership and value, inconsistent standards, and automation sprawl. The FCoE application solves these challenges by providing a central system of record for Fusion automation.
 
-Workfocus apps are designed to operate natively within Workfront, leveraging UI Extensions to provide users with powerful tools that enhance productivity and reduce manual effort. 
+Key capabilities include:
+Centralized governance and ownership of Fusion scenarios
+Scenario lifecycle management from intake through support
+ROI and value realization tracking
+Enterprise-grade standards, documentation, and error handling
+Scalable operating model for enterprise adoption
+The result is faster time-to-value, reduced risk, and measurable business impact from Fusion.
 
 ## Prerequisites and permissions
 
