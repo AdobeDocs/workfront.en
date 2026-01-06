@@ -12,7 +12,7 @@ This page describes Document and approval enhancements made with the First Quart
 
 For a list of all changes available at this point in the First Quarter 2026 release cycle, see [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## Choose a Workfront project when sending a review in Creative Cloud Express
+## Choose a Workfront project when sending a review in Adobe Express
 
 >[!NOTE]
 >
