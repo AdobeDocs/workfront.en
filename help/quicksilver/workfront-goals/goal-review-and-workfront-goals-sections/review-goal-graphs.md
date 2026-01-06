@@ -15,7 +15,7 @@ You can view the overall health of your goals and their progress trend in time i
 
 >[!IMPORTANT]
 >
->You can see a total count for your goals in the Graphs section for a selected period of time.&nbsp;However, Workfront Goals takes into account only goals with a status of Active and Closed when calculating the overall goal progress status and percent complete.
+>You can see a total count for your goals in the Graphs section for a selected period of time. However, Workfront Goals takes into account only goals with a status of Active and Closed when calculating the overall goal progress status and percent complete.
 
 ## Access requirements
 
@@ -142,8 +142,8 @@ The following charts are available in the Graphs section or Workfront Goals:
    <td role="rowheader">The Goal Progress Chart</td> 
    <td> <p>A line chart that displays updates made to goals in weekly increments during the goal's duration. The goal progress chart displays the following:</p> 
     <ul> 
-     <li>An average expected and actual percent complete of all&nbsp;active and closed goals in the selected period. The percent complete progress is broken down into weekly increments marked by nodes. </li> 
-     <li>The overall average percentage of progress for active and&nbsp;closed goals since the previous week. </li> 
+     <li>An average expected and actual percent complete of all active and closed goals in the selected period. The percent complete progress is broken down into weekly increments marked by nodes. </li> 
+     <li>The overall average percentage of progress for active and closed goals since the previous week. </li> 
     </ul> <p>Tip: The goal progress chart might not display any information when updates are made on the goals outside of the time period selected. </p> </td> 
   </tr> 
  </tbody> 
@@ -151,10 +151,7 @@ The following charts are available in the Graphs section or Workfront Goals:
 
 ## Review goal progress in graphs
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+{{step1-to-goals}}
 
    This opens the Workfront Goals area. 
 
@@ -218,4 +215,4 @@ The following charts are available in the Graphs section or Workfront Goals:
 
    Click **Baseline** at the bottom of the progress chart to remove the expected progress from the chart.
 
-&nbsp;
+ 

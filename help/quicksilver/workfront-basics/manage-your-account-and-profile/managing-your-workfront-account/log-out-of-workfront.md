@@ -54,5 +54,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Log out of your [!DNL Workfront] account
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Logout]** ![Logout icon](assets/logout-icon.png).
+{{step1-click-main-menu}}
+
+1. Click **[!UICONTROL Logout]** ![Logout icon](assets/logout-icon.png).
 1. This returns you to the login page where you can re-enter your username and password.

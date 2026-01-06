@@ -59,7 +59,7 @@ To change your language settings in Chrome:
 1. Click the 3-dots in the top right corner of your Chrome interface, then click **Settings**.
 1. On the left area of the Settings page, expand **Advanced**, then click **Languages**.  
    Or  
-   Search for *language*&nbsp;at the top of the Settings page, then click **Languages**.
+   Search for *language*  at the top of the Settings page, then click **Languages**.
 
 1. In the **Language** list, locate the language and region that use your preferred date format.
 

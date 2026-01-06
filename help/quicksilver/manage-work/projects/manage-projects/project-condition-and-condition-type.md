@@ -72,25 +72,25 @@ In this case, the values for the Project Condition can be:
    <td><strong>Project Condition</strong></td> 
    <td><strong>Project Progress Status</strong></td> 
    <td><strong>Workfront Condition Indicator</strong></td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>On Target</td> 
    <td>When Progress Status of the project of On Time, the Condition of the project is <strong>On Target</strong>. </td> 
    <td> <img src="assets/on-target-condition-icon.png"> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>At Risk</td> 
    <td>When the Progress Status of the project is <strong>Behind</strong> or <strong>At Risk</strong>, then the Condition of the project is <strong>At Risk</strong>.</td> 
    <td> <img src="assets/at-risk-project-condition-icon.png"> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>In Trouble</td> 
    <td>When the Progress Status of the project is <strong>Late</strong>, then the Condition of the project is <strong>In Trouble</strong>. </td> 
    <td> <img src="assets/in-trouble-project-condition-icon.png"> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>

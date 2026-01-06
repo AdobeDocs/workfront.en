@@ -124,12 +124,12 @@ Consider the following when viewing or editing information in the Finance area:
       <td> <p>Revenue billed to clients or other parties which is captured in Billing Records. For more information about billing records, see the article <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Create billing records</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">&nbsp;</td> 
-      <td>&nbsp;</td> 
+      <td role="rowheader"> </td> 
+      <td> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">&nbsp;</td> 
-      <td>&nbsp;</td> 
+      <td role="rowheader"> </td> 
+      <td> </td> 
      </tr> 
     </tbody> 
    </table>

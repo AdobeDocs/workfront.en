@@ -78,7 +78,7 @@ For more detail about the information in this table, see [Access requirements in
     <ul> 
      <li> <p>Projects</p> </li> 
      <li> <p>Reports, Dashboards, Calendars</p> </li> 
-     <li> <p>Filters, Views,&nbsp;Groupings</p> </li> 
+     <li> <p>Filters, Views, Groupings</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

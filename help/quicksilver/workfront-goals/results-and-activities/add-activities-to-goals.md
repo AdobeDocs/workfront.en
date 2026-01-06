@@ -146,7 +146,7 @@ Adding activities to goals differs depending on which environment you use.
 
    ![Add activity inside goal](assets/add-activity-inside-goal-details-highlighted-350x152.png)
 
-1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal.&nbsp;Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
+1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal. Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
 1. (Conditional) Depending on which activity type you selected, do the following:
 
    1. If you selected **Manual progress bar**:
