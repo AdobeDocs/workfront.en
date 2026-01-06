@@ -37,6 +37,8 @@ For more information, see [Adobe Express and Workfront Proof integration](/help/
 
 We've upgraded the asset selector in the Adobe Workfront for Experience Manager Assets integration. With this upgrade, you can now select and pull AEM Collections directly into Workfront.
 
+<!--
+
 ## New version of Salesforce integration now available
 
 >[!IMPORTANT]
@@ -52,4 +54,6 @@ We've upgraded the asset selector in the Adobe Workfront for Experience Manager 
 To stay up-to-date with recent changes to the Workfront API, we've created a new Salesforce integration. The new integration features the same functionality as the previous version, and was updated to avoid losing functionality deprecated in the API.
 
 For instructions and links for downloading and installing the new integration, see [Install Adobe Workfront for Salesforce](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+
+-->
 
