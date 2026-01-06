@@ -112,7 +112,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
        <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Choose a Workfront project when sending a review in Creative Cloud Express<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Choose a Workfront project when sending a review in Adobe Express<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
             <p>You can choose a Workfront project to send a proof to. This helps keep all related assets and proofs organized within the same project.</p>
         </td>
         <td>December 15, 2025</td>
@@ -195,7 +195,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>December 11, 2025</td>
         <td>January 15, 2026</td>
     </tr>   
-     <tr>
+    <!-- <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">New version of Salesforce integration now available </a>
             <p>To stay up-to-date with recent changes to the Workfront API, we've created a new Salesforce integration. The new integration features the same functionality as the previous version, and was updated to avoid losing functionality deprecated in the API.</p><p>NOTE: The Workfront for Salesforce integration, including the new version, will not be available after **February 28, 2026**. </p>
@@ -203,7 +203,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>October 30, 2025</td>
         <td>October 30, 2025</td>
         <td>October 30, 2025</td>
-    </tr>   
+    </tr>   -->
   </tbody>
 </table> 
 
