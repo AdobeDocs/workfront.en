@@ -45,77 +45,14 @@ The entity relationship diagrams (ERDs) below provide a high-level mapping of ob
 >The diagrams are centered around single objects and do not represent a complete entity relationship diagram for the entire Workfront application. <br>
 >These diagrams are meant to provide examples of how the relationships can be used to join data to adjacent objects.
 
-### Assignments entity relationship diagram
-
-+++ Expand to view the diagram
-
-![Assignments entity relationship diagram](assets/Assignment-centered%20ERD.png)
-
-+++
-
-### Documents and document approval entity relationship diagram
-
-+++ Expand to view the diagram
-
-![Documents and document approval entity relationship diagram](assets/Document%20and%20Document%20Approvals-centered%20ERD.png)
-
-+++
-
-
-### Hours and Timesheets entity relationship diagram
-
-+++ Expand to view the diagram
-
-![Hours and Timesheets entity relationship diagram](assets/Hours%20and%20Timesheet-centered%20ERD.png)
-
-+++
-
-### Issues entity relationship diagram
-
-+++ Expand to view the diagram
-
-![Issues entity relationship diagram](assets/OpTask%20(Issue)-centered%20ERD.png)
-
-+++
-
-### Projects entity relationship diagram
-
-+++ Expand to view the diagram
-
-![Projects entity relationship diagram](assets/Project-centered%20ERD.png)
-
-+++
-
-### Tasks entity relationship diagram
-
-+++ Expand to view the diagram
-
-![Tasks entity relationship diagram](assets/Task-centered%20ERD.png)
-
-+++
-
-### Users entity relationship diagram
-
-+++ Expand to view the diagram
-
-![Users entity relationship diagram](assets/User-centered%20ERD.png)
-
-+++
-
-## Entity relationship diagrams
-
-Objects in Workfront (and, therefore, in your Data Connect data lake) are defined not only by their individual values, but by their relationships with other objects. 
-
-The entity relationship diagrams (ERDs) below provide a high-level mapping of object relationships in Data Connect for core Workfront objects.
-
->[!IMPORTANT]
->
->The diagrams are centered around single objects and do not represent a complete entity relationship diagram for the entire Workfront application. <br>
->These diagrams are meant to provide examples of how the relationships can be used to join data to adjacent objects.
-
 ### Example entity relationship diagrams
 
 +++ Expand to view the example diagrams
+
+>[!TIP]
+>
+>To view a diagram in more detail, right-click on the image and select **Open image in new tab**.
+
 
 ### Assignments
 
