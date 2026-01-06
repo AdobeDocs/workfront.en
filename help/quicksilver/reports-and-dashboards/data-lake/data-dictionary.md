@@ -56,35 +56,35 @@ The entity relationship diagrams (ERDs) below provide a high-level mapping of ob
 
 ### Assignments
 
-![Assignments entity relationship diagram](assets/Assignment-centered%20ERD.png)
+![Assignments entity relationship diagram](assets/Assignment-centered-ERD.png)
 
 
 ### Documents and document approvals
 
-![Documents and document approval entity relationship diagram](assets/Document%20and%20Document%20Approvals-centered%20ERD.png)
+![Documents and document approval entity relationship diagram](assets/Document-and-Document-Approvals-centered-ERD.png)
 
 ### Hours and Timesheets
 
-![Hours and Timesheets entity relationship diagram](assets/Hours%20and%20Timesheet-centered%20ERD.png)
+![Hours and Timesheets entity relationship diagram](assets/Hours-and-Timesheet-centered-ERD.png)
 
 
 ### Issues
 
-![Issues entity relationship diagram](assets/OpTask%20(Issue)-centered%20ERD.png)
+![Issues entity relationship diagram](assets/Issue-centered-ERD.png)
 
 ### Projects
 
-![Projects entity relationship diagram](assets/Project-centered%20ERD.png)
+![Projects entity relationship diagram](assets/Project-centered-ERD.png)
 
 
 ### Tasks 
 
-![Tasks entity relationship diagram](assets/Task-centered%20ERD.png)
+![Tasks entity relationship diagram](assets/Task-centered-ERD.png)
 
 
 ### Users 
 
-![Users entity relationship diagram](assets/User-centered%20ERD.png)
+![Users entity relationship diagram](assets/User-centered-ERD.png)
 
 +++
 
