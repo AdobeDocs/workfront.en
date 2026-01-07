@@ -71,6 +71,16 @@ To create a brand:
 
 1. (Optional) Click Add manually to create a brand with individual elements. 
 
+When to use
+Voice guidelines
+Image guidelines
+Channel guidelines
+logos
+Colors
+
+Publish brand
+
+
 customer questions:
 
 Lilly has some questions on this
