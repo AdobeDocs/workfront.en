@@ -23,11 +23,19 @@ You must have Genstudio Foundations provisioned and tied to your org.
 1. In the left panel, go to **Review and Approval** > **Brands**.
 1. Click **Add brand** in the top-right corner of the screen.
 1. Name the brand. 
-1. Choose to create the brand by Uploading PDFs or adding manually:
+1. Click Upload PDFs to upload brand files. 
+1. Upload one or more PDF files that contain your brand guidelines. 
+1. Click **Add brand**. 
+1. Once the files are uploaded, review the extracted brand elements to ensure they align with your brand guidelines. 
+
+    >[!IMPORTANT]
+    >
+    >Guidelines are generated using your file(s) and generative AI technology and may be inaccurate. Review extracted guidelines for missing or incorrect details and edit them before you publish this brand.
+
+1. When finished, click Publish to make them available for the AI Reviewer.
 
 
 
-1. (Optional) Click Upload PDFs to upload brand files. 
 
 
 ## Create a brand manually
