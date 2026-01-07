@@ -120,8 +120,6 @@ To make it easier to create and submit requests, we've added the ability to save
 
 Previously, this feature was not available in the new requesting experience.
 
-Drafts created in the legacy requesting experience are available in the new requesting experience. 
-
 For more information on request drafts, see [Create requests from drafts](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md).
 
 ## Delete submitted requests in the new requesting experience

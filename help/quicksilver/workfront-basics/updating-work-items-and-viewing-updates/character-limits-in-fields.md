@@ -51,7 +51,7 @@ Workfront or group administrators cannot modify the character limits in fields.
    <td>4,000</td> 
   </tr> 
   <tr> 
-   <td> <p>Custom Data Paragraph or Single Line Text&nbsp;</p> </td> 
+   <td> <p>Custom Data Paragraph or Single Line Text  </p> </td> 
    <td> <p>2,000</p> </td> 
   </tr> 
   <tr> 

@@ -116,7 +116,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 1. Edit any field that is available for editing, by single-clicking the field or click **+Add** to add information to an empty field.
 1. View or edit any of the following fields listed.
 
-   Not all fields are editable. &nbsp;
+   Not all fields are editable.  
 
    <table style="table-layout:auto"> 
     <col> 
@@ -193,7 +193,7 @@ For more information, see [Access requirements in Workfront documentation](/help
             <td>H</td> 
            </tr> 
            <tr> 
-            <td>Days.&nbsp;This is the default. </td> 
+            <td>Days. This is the default. </td> 
             <td>D</td> 
            </tr> 
            <tr> 
@@ -238,11 +238,11 @@ For more information, see [Access requirements in Workfront documentation](/help
       <td> <p>The difference in days between the projected start date and the projected completion date. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Actual&nbsp;Duration</td> 
+      <td role="rowheader">Actual Duration</td> 
       <td> <p>The difference in days between the actual start date and the actual completion date. This is how long it actually took to complete the work. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Planned&nbsp;Hours</td> 
+      <td role="rowheader">Planned Hours</td> 
       <td> <p>Specify the amount of Planned Hours for the task, in hours. This is the amount of actual time it would take the assignees of the task to complete it. You can only specify the amount of Planned Hours for a task when the Duration Type is set to Calculated Assignment. For more information about duration types, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -255,7 +255,7 @@ For more information, see [Access requirements in Workfront documentation](/help
        <div> 
         <p>The amount of effort required to complete the task. Your project manager might decide to use this field instead of Planned Hours to estimate the effort needed to complete a task. This field is visible only when the following conditions are met:</p> 
         <ul> 
-         <li> <p>The task has a Simple Duration&nbsp;Type. </p> <p>Tip: If you change the task Duration&nbsp;Type, this field becomes dimmed. </p> </li> 
+         <li> <p>The task has a Simple Duration Type. </p> <p>Tip: If you change the task Duration Type, this field becomes dimmed. </p> </li> 
          <li>Your project manager has enabled the Use Work Effort to automatically calculate task Planned Hours field on the project. </li> 
         </ul> 
         <p>Select from the following options:</p> 
@@ -303,11 +303,11 @@ For more information, see [Access requirements in Workfront documentation](/help
       <td> <p>The "real life" date of when the task is going to start based on the progress and completion of prior tasks. This is a calculated field and you cannot edit it manually.</p> <p> The projected start date and the planned start date start out by being the same, when a project is first planned. The projected start date can move away from the planned start, if the project evolves and the task is not started yet. For more information about projected start dates, see <a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">Overview of the project Projected Start Date</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Actual&nbsp;Start Date</td> 
+      <td role="rowheader">Actual Start Date</td> 
       <td> <p>Specify an Actual Start Date for the task. The default is typically automatically populated when you change the status of the task to In Progress. The actual start date can also be manually modified by the project manager, or the task owner. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Planned Completion&nbsp;Date</td> 
+      <td role="rowheader">Planned Completion Date</td> 
       <td> <p>The anticipated completion date as shown when the task is planned. The planned completion date can be set by a number of factors:</p> 
        <ul> 
         <li>The planned completion date is calculated from the planned start date by adding the Duration of the task to the planned start date. When the project manager or Workfront specifies the Duration of the task, this triggers an update to the planned completion date. If the planned date changes, it will often be because the Duration of the has been updated.</li> 
@@ -320,7 +320,7 @@ For more information, see [Access requirements in Workfront documentation](/help
       <td> <p>The "real life" date of when the task is going to be completed based on the progress of prior tasks and on the progress updates made on the task by the assignee. This is a calculated field and you cannot edit it manually.</p> <p> The projected completion date and the planned completion date start out by being the same, when a project is first planned. The projected completion date can move away from the planned completion, if the project evolves and the task is not started yet. For more information about projected completion dates, see <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Overview of the Projected Completion Date for projects, tasks, and issues</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Actual&nbsp;Completion&nbsp;Date</td> 
+      <td role="rowheader">Actual Completion Date</td> 
       <td> <p>Specify the actual date and time when the task completes. The default date and time when a task is completed always coincides with the actual time when the status becomes Completed. The actual completion date can also be manually modified by the project manager, or the task owner. </p> </td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
@@ -337,7 +337,7 @@ For more information, see [Access requirements in Workfront documentation](/help
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Last Updated Date</td> 
-      <td> <p>The date when the task was last updated. </p> <p>Tip: Workfront records an Updated&nbsp;Date every time someone edits and saves a task.</p> </td> 
+      <td> <p>The date when the task was last updated. </p> <p>Tip: Workfront records an Updated Date every time someone edits and saves a task.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Last Updated By</td> 
@@ -359,7 +359,7 @@ For more information, see [Access requirements in Workfront documentation](/help
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms.&nbsp;</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms. </p>
    -->
 
    <!--
@@ -379,7 +379,7 @@ For more information, see [Access requirements in Workfront documentation](/help
      -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click&nbsp;<strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
    -->
 
    <!--
