@@ -81,25 +81,29 @@ To edit an item in the list, double-click in the cell you want to edit and type 
 
 ![Enhanced list example](assets/glist-exchange-rates.png)
 
-## Use the action bar and More menu in an enhanced list
+## Use the action bar and the More menu in an enhanced list
 
-When you select the check box next to an item in the enhanced list, the action bar appears at the bottom of the screen and shows actions you can take on the item. Some actions might be specific to that list and do not appear on any other lists.
+The action bar shows actions you can take on a list item. Some actions might be specific to that list and do not appear on any other lists.
 
->[!NOTE]
->
->Different enhanced lists might allow selecting a single item, bulk editing (selecting more than one item), or no item selection.
+1. Select the check box next to an item in the enhanced list.
 
-Click a button on the action bar to take that action, such as viewing the list item, deleting the item, or editing the item.
+   The action bar appears at the bottom of the screen.
 
-If no actions are available for the selected item, the action bar states "No available actions."
+   >[!NOTE]
+   >
+   >Different enhanced lists might allow selecting a single item, bulk editing (selecting more than one item), or no item selection.
 
-![Action bar example](assets/glist-action-bar-statuses.png)
+1. Click a button on the action bar to take that action, such as viewing the list item, deleting the item, or editing the item.
 
-The **More** menu is the three-dot menu that appears next to a primary field on a list item when you hover over it. (The primary field is the left-most column in the table.)
+   If no actions are available for the selected item, the action bar states "No available actions."
 
-Click the menu to see additional actions for the item. Some actions might be specific to that list and do not appear on any other lists.
+   ![Action bar example](assets/glist-action-bar-statuses.png)
 
-![More menu example](assets/glist-more-menu-priorities.png)
+1. Hover over a primary field on a list item to see the **More** menu. (The primary field is the left-most column in the table.)
+
+1. Click the menu to see additional actions for the item. Some actions might be specific to that list and do not appear on any other lists.
+
+   ![More menu example](assets/glist-more-menu-priorities.png)
 
 ## Customize columns in an enhanced list
 
@@ -223,18 +227,26 @@ Filters help you reduce the amount of information you display in the list. Group
 
 ## Sort and search in an enhanced list
 
-To sort individual columns, go to the column and click the down arrow. An icon next to a column name indicates that the list is sorted by the values in that column, and the direction of the sort.
+To sort individual columns:
 
->[!NOTE]
->
->Some columns might not be sortable.
+1. Go to the column and click the down arrow.
 
-![Sort by a column](assets/glist-sort-by-column.png)
+   An icon next to a column name indicates that the list is sorted by the values in that column, and the direction of the sort.
 
-To sort your work within a grouping, open **Group** and select if you want to sort in ascending or descending order.
+   >[!NOTE]
+   >
+   >Some columns might not be sortable, depending on the list.
 
-![Sort in a grouping](assets/sort-in-groups.png)
+   ![Sort by a column](assets/glist-sort-by-column.png)
 
-To search, type your search term in the search field above the list. The results are highlighted in the list as you type.
+To sort your work within a grouping:
 
-![Search term highlighted](assets/glist-search-highlighted.png)
+1. Click **Group** and select if you want to sort in ascending or descending order.
+
+   ![Sort in a grouping](assets/sort-in-groups.png)
+
+To search:
+
+1. Type your search term in the search field above the list. The results are highlighted in the list as you type.
+
+   ![Search term highlighted](assets/glist-search-highlighted.png)
