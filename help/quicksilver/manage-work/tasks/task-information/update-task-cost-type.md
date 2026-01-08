@@ -7,13 +7,13 @@ author: Alina
 feature: Work Management
 exl-id: bc30ecab-7347-4dff-8e06-e8ea3f50d5b3
 ---
-# Update task&nbsp;Cost Type
+# Update task Cost Type
 
 The Planned and Actual Cost of the tasks and their Labor Costs are determined by the Cost Type of each task.
 
 You can configure the Cost Type for individual tasks within the project. Each cost type affects the Planned Cost and Actual Cost values.
 
-For information about tracking costs in&nbsp;Adobe Workfront, see [Track costs](../../../manage-work/projects/project-finances/track-costs.md).
+For information about tracking costs in Adobe Workfront, see [Track costs](../../../manage-work/projects/project-finances/track-costs.md).
 
 ## Access requirements
 
@@ -63,7 +63,7 @@ For more information, see [Access requirements in Workfront documentation](/help
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects, Tasks, and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects, Tasks, and Financial Data</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 

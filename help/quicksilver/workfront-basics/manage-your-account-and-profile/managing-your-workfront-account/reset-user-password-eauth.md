@@ -42,9 +42,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 ## Reset a user's password in an eAuth enabled environment
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of [!DNL Workfront], then click **[!UICONTROL Users]** ![Users icon](assets/users-icon-in-main-menu.png).
-
-
+{{step-1-to-users}}
 
 1. Select the **[!UICONTROL User]** that requires a password reset.
    ![Select the user](assets/100520classicnweselectuser-350x105.png)

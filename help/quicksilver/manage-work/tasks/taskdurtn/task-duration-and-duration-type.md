@@ -63,13 +63,13 @@ The following are two scenarios that exist when calculating duration in Adobe Wo
 
 You can indicate task Duration in both the regular time and the elapsed time between the Planned Start and Planned Completion Dates.
 
-When updating the Duration of tasks in a list, you can use the following abbreviations for indicating units of time in&nbsp;Workfront: 
+When updating the Duration of tasks in a list, you can use the following abbreviations for indicating units of time in Workfront: 
 
 | Unit of Time |Abbreviation |
 |---|---|
 | Minutes |M |
 | Hours |H |
-| Days.&nbsp;This is the default.  |D |
+| Days. This is the default.  |D |
 | Weeks |W |
 | Months |T, MO |
 | Elapsed Minutes |EM |

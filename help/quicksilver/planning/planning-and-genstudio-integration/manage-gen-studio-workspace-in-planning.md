@@ -208,7 +208,8 @@ CAN YOU DO THIS??
 >
 
 1. Log in to Workfront as a user who also has access to GenStudio. 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Planning]**.
+
+{{step1-to-planning}}
 
    The Workfront Planning main page opens. 
     

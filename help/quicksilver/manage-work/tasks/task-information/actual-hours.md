@@ -72,7 +72,7 @@ For more information, see [Access requirements in Workfront documentation](/help
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>View or higher access to Tasks,&nbsp;Projects, or Issues</p> </td> 
+   <td> <p>View or higher access to Tasks, Projects, or Issues</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 

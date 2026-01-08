@@ -156,11 +156,11 @@ However, you can not do the following:
 
 The following scenarios exist: 
 
-|   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
+|   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)|
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, Remove permissions*           | 
+| Manage |   Manage    |   Manage, Remove permissions*           |
 | Contribute |     Contribute |  Contribute, View, Remove permissions*        |
-| View   |  View     |      View, Remove permissions*        |     
+| View   |  View     |      View, Remove permissions*        |
 
 >[!NOTE]
 >
@@ -233,7 +233,7 @@ The following are the levels of permissions for views and view elements:
 | Delete | ✓      |       |                            
 | Share  | ✓       |       |                           
 | View   | ✓      | ✓     |                         
-| Apply  | ✓      | ✓     |  
+| Apply  | ✓      | ✓     |
 
 
 |        | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|

@@ -34,4 +34,4 @@ This section contains the following articles:
 * [Show role allocation for projects and initiatives in the task list](../scenario-planner/show-role-allocation-task-list-nwe.md) 
 * [Show role allocation for projects and initiatives in the [!UICONTROL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md)
 
-&nbsp;
+ 

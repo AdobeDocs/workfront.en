@@ -68,8 +68,6 @@ To provide more consistency with other areas of Setup such as the custom form de
 
 For more information, see [Create and manage layout templates](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-
-
 ## Improved field management with Active flag on custom fields
 
 >[!NOTE]
@@ -84,6 +82,10 @@ If you mark a field inactive:
 
 * It is excluded from reports, filters, views, or other places in Workfront where you can add a custom field
 * It is not available in the field library to add to other custom forms
+
+>[!NOTE]
+>
+>The exclusion from reports, filters, views, and groupings takes place after the field becomes inactive. Existing report elements that use the field are not changed or removed when the field is marked inactive.
 
 For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 

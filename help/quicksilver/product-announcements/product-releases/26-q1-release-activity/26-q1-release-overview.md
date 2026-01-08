@@ -195,7 +195,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>December 11, 2025</td>
         <td>January 15, 2026</td>
     </tr>   
-     <tr>
+    <!-- <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">New version of Salesforce integration now available </a>
             <p>To stay up-to-date with recent changes to the Workfront API, we've created a new Salesforce integration. The new integration features the same functionality as the previous version, and was updated to avoid losing functionality deprecated in the API.</p><p>NOTE: The Workfront for Salesforce integration, including the new version, will not be available after **February 28, 2026**. </p>
@@ -203,7 +203,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>October 30, 2025</td>
         <td>October 30, 2025</td>
         <td>October 30, 2025</td>
-    </tr>   
+    </tr>   -->
   </tbody>
 </table> 
 
@@ -327,16 +327,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>November 6, 2025</td>
         <td>November 13, 2025</td>
         <td>January 15, 2026</td>
-    </tr>   
-       <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Improved display of grouping count in Canvas Dashboards</a>
-            <p>When a table report has multiple pages of results and the table is configured with groupings, the table now displays both the record amount for the current page and the overall record count for all pages. For example, if your table report has 7 groupings and the first page shows 3, the table will display 3 of 7.</p>
-        </td>
-       <td>November 6, 2025</td>
-        <td>November 13, 2025</td>
-        <td>January 15, 2026</td>
-    </tr>   
+    </tr>    
        <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">New guardrails to improve loading times in Canvas Dashboards</a>

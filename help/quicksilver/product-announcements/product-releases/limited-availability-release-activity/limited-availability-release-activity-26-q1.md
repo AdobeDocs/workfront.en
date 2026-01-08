@@ -61,13 +61,13 @@ The Planned Hours KPI on the Advanced Assignments screen is no longer editable w
 
 The **Exchange Rate Date** field in the Project Details > Finance area is now hidden when the **Use date-effective exchange rates from the system** check box is not selected. Previously, when editing a project, the date field was displayed on the project details even when date-effective exchange rates were not enabled.
 
-<!--### Maintenance Updates week of January 4-10, 2026
+### Maintenance Updates week of January 4-10, 2026
 
-**Title**
+**Job role rates now allow gaps in effective dates**
 
-text
+The effective dates on job role rates now permit gaps, though overlapping dates are not permitted. During a gap, other areas of the billing rate hierarchy are used to determine the billing rate, based on a task's revenue type.
 
-### Maintenance Updates week of January 11-17, 2026
+<!--### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 

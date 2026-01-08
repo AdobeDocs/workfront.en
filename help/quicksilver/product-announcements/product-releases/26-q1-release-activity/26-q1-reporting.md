@@ -147,16 +147,6 @@ The following field options are available as alternatives:
 * Other Roles: ID
 * Other Teams: ID
 
-## Improved display of grouping count in Canvas Dashboards
-
->[!NOTE]
->
->Preview: November 6, 2025 
->Production fast release: November 13, 2025 
->Production for everyone:  January 15, 2026 
-
-When a table report has multiple pages of results and the table is configured with groupings, the table now displays both the record amount for the current page and the overall record count for all pages. For example, if your table report has 7 groupings and the first page shows 3, the table will display 3 of 7.
-
 
 ## New guardrails to improve loading times in Canvas Dashboards
 
