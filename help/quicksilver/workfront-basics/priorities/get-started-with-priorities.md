@@ -9,6 +9,8 @@ exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
 ---
 # Get started with [!DNL Priorities]
 
+{{preview-fast-release-general}}
+
 Priorities is a streamlined, intuitive experience tailored for task owners. Priorities will be rolled out in phases, starting with the worklist.
 
 With Priorities, you can enjoy
@@ -18,6 +20,8 @@ With Priorities, you can enjoy
 * Personalized features: Benefit from features uniquely designed for task owners
 
 The Priorities Worklist and Calendar display work items assigned to you. You cannot see work items assigned to your team.
+
+<span class="preview">A Workfront administrator can enable priorities for your user in the Layout Template. For more information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).</span>
 
 ## Find and organize your work
 
@@ -196,7 +200,8 @@ For more information, see [Catch up on work in Priorities](/help/quicksilver/wor
 
 You can view real-time updates on the Details page of a task or issue. You can also see if others are viewing the page at the same time as you with real-time presence indicators. 
 
+
+<!--
 ## Considerations
 
-* Workfront Administrators cannot customize priorities through the Layout Template at this time.
-* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.
+* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.-->
