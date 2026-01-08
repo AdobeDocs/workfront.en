@@ -21,6 +21,8 @@ For a list of all changes available at this point in the First Quarter 2026 rele
 
 To make it easier for you to go to the object created by a specific request, we've added links to the Created object column. Now, you can click on the link in this column to be taken directly to the created object's page.
 
+This link is available only when the request itself created an object. If a request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience.
+
 Previously, this column contained only the name of the object, and not its link.
 
 For information on locating these links, see For instructions on adding columns, see:
