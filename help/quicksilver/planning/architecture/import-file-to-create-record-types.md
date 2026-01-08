@@ -34,7 +34,7 @@ Record types are the object types of Adobe Workfront Planning. In Workfront Plan
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <p>Any Workfront and any Planning package</p>
-<p>Or</p>
+Or
 <p>Any Workflow and any Planning package</p>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 

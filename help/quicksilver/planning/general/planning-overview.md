@@ -21,14 +21,7 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 >
 >The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
 >
->You must have the following to full access to all capabilities in Workfront Planning:
->
->* A new Workfront package and license. Workfront Planning is not available for legacy Workfront packages or licenses. 
->* A Workfront Planning package. 
->* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
->
-> For a complete list of requirements to access Workfront Planning, see [Adobe Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
-> 
+>For a list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 
 This article contains general information about Workfront Planning. 
 
@@ -130,7 +123,7 @@ The following features are currently available in Workfront Planning:
 |   Search for records in the timeline view    | ✓    |   |
 |     Connect Workfront Planning records to Workfront projects, programs, portfolios, companies, groups  |   ✓                            |                                 |                  |
 |     Connect Workfront Planning records to Adobe Experience Manager assets                                  |      ✓                         |                                  |                 |
-|     Connect Planning records from different workspaces                                  |      ✓                         |                                  |                 | 
+|     Connect Planning records from different workspaces                                  |      ✓                         |                                  |                 |
 |     Record page with detailed information                            |   ✓                           |                                  |                  |
 |     Update the layout of the record's page              |    ✓                           |                                 |                  |
 |  Share workspaces | ✓| |  |
@@ -146,9 +139,9 @@ The following features are currently available in Workfront Planning:
 |     Receive email notifications                                 | ✓                              |                                  |                 |
 |     Add thumbnails to records                                 | ✓                              |                                  |                 |
 |     View history of changes on a record                                 | ✓                              |                                  |                 |
-|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 | 
-|     Adobe Workfront Planning modules for Adobe Workfront Fusion                                 |      ✓                         |                                  |                 | 
-|     Copy and paste information from one field to another                                  |      ✓                         |                                  |                 | 
+|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 |
+|     Adobe Workfront Planning modules for Adobe Workfront Fusion                                 |      ✓                         |                                  |                 |
+|     Copy and paste information from one field to another                                  |      ✓                         |                                  |                 |
 |     Access Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
 |     Connect Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
 |     Workfront Planning public API                                 |      ✓                         |                                  |                 |

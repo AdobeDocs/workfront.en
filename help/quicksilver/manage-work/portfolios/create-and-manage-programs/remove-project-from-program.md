@@ -82,8 +82,8 @@ You may remove a project from a program by doing one of the following:
 1. Go to a program and click **[!UICONTROL Projects]** in the left panel.
 
 1. Select the project you want to remove
-1. Click the **[!UICONTROL Remove Projects]**&nbsp;drop-down menu.
-1. Click **[!UICONTROL Delete]** >&nbsp;**[!UICONTROL Yes, Delete it]** to delete the project from Workfront.
+1. Click the **[!UICONTROL Remove Projects]** drop-down menu.
+1. Click **[!UICONTROL Delete]** > **[!UICONTROL Yes, Delete it]** to delete the project from Workfront.
 
    or
 

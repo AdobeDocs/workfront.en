@@ -91,12 +91,11 @@ Consider the following about connecting record types:
     
         * A linked record field is created on the record type you're connecting from. No linked record field is automatically created on the other application's object type. 
         * Planning records fields are not accessible from Workfront objects.
-        * Planning records are visible from the Workfront object's Planning tab. For information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+        * Planning records are visible from the Workfront object's Planning section. For information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
         * You can create a Planning connection custom field and attach it to a Workfront object's custom form. For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). 
         * Planning record fields are accessible from Experience Manager assets when your Workfront administrator configures the metadata mapping through the integration between Workfront and Adobe Experience Manager Assets. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
         * Planning record fields are not accessible from the Brands in GenStudio for Performance Marketing. 
         
-
     * **When you add lookup fields from the record or object you connect to**: In addition to creating a linked record field, you can also connect to fields from the connected record or object type which are called lookup fields. A linked (or lookup field) with information from the record you're connecting to displays on the record that you're connecting from.
 
         You can connect fields from other record types or another application's objects to the Workfront Planning record type. 
@@ -120,6 +119,7 @@ Consider the following about connecting record types:
         >Workfront objects' date field information displays in 24 hour format in Workfront Planning, regardless of how it displays in Workfront. 
         >
         >For example, if a project's Planned Start Date displays as 3:00 PM in Workfront, it will display as 15:00 in Workfront Planning in an imported lookup field. 
+    * <span class="preview">You must connect record types to be able to create hierarchies in Workfront Planning. When record type connections don't exist, they are automatically created when you create a hierarchy. For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).</span>
 
 
 ## Connection types

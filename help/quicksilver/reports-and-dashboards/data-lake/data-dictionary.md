@@ -14,7 +14,7 @@ This page contains information about the structure and content of the data in Wo
 
 >[!NOTE]
 >
->The data in Data Connect refreshes every four hours, so recent changes may not be immediately reflected.
+>The data in Data Connect refreshes every 4 hours, so recent changes may not be immediately reflected.
 
 ## View types
 
@@ -34,16 +34,59 @@ There are a number of view types you can utilize in Data Connect to view your Wo
 
 <!-- Custom view -->
 
-## Entity relationship diagram
+## Entity relationship diagrams
 
-Objects in Workfront (and, therefore, in your Data Connect data lake) are defined not only by their individual values, but by their relationships with other objects. The entity relationship diagram below provides a high-level mapping of object relationships in Data Connect. The diagram can be viewed and downloaded using the following link:
+Objects in Workfront (and, therefore, in your Data Connect data lake) are defined not only by their individual values, but by their relationships with other objects. 
 
-[Data Connect entity relationship diagram](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+The entity relationship diagrams (ERDs) below provide a high-level mapping of object relationships in Data Connect for core Workfront objects.
 
 >[!IMPORTANT]
 >
->The provided entity relationship diagram (ERD) is purposely incomplete as a complete ERD would become unreadable due to the high number of relationships within the application.<br>
->This diagram provides an example of how the relationships documented in Project table in the [Terminology table](#terminology-table) section below can be used to join data from Project data view to adjacent objects. It's expected that a complete ERD is not necessary once this pattern is understood for the Project object relationships
+>The diagrams are centered around single objects and do not represent a complete entity relationship diagram for the entire Workfront application. <br>
+>These diagrams are meant to provide examples of how the relationships can be used to join data to adjacent objects.
+
+### Example entity relationship diagrams
+
++++ Expand to view the example diagrams
+
+>[!TIP]
+>
+>To view a diagram in more detail, right-click on the image and select **Open image in new tab**.
+
+
+### Assignments
+
+![Assignments entity relationship diagram](assets/Assignment-centered-ERD.png)
+
+
+### Documents and document approvals
+
+![Documents and document approval entity relationship diagram](assets/Document-and-Document-Approvals-centered-ERD.png)
+
+### Hours and Timesheets
+
+![Hours and Timesheets entity relationship diagram](assets/Hours-and-Timesheet-centered-ERD.png)
+
+
+### Issues
+
+![Issues entity relationship diagram](assets/Issue-centered-ERD.png)
+
+### Projects
+
+![Projects entity relationship diagram](assets/Project-centered-ERD.png)
+
+
+### Tasks 
+
+![Tasks entity relationship diagram](assets/Task-centered-ERD.png)
+
+
+### Users 
+
+![Users entity relationship diagram](assets/User-centered-ERD.png)
+
++++
 
 ## Date types
 
@@ -1654,17 +1697,21 @@ The following table correlates object names in Workfront (as well as their names
         </tr>
     </tbody>
 </table>
-<div>* The type of record is identified through the `enumClass` property. The following are the expected types:<br>
-<ul><li>CONDITION_OPTASK</li>
-<li>CONDITION_PROJ</li>
-<li>CONDITION_TASK</li>
-<li>PRIORITY_OPTASK</li>
-<li>PRIORITY_PROJ</li>
-<li>PRIORITY_TASK</li>
-<li>SEVERITY_OPTASK</li>
-<li>STATUS_OPTASK</li>
-<li>STATUS_PROJ</li>
-<li>STATUS_TASK</li></ul></div>
+
+>[!NOTE]
+>
+>The type of record is identified through the `enumClass` property. The following are the expected types:<br>
+><ul><li>CONDITION_OPTASK</li>
+><li>CONDITION_PROJ</li>
+><li>CONDITION_TASK</li>
+><li>PRIORITY_OPTASK</li>
+><li>PRIORITY_PROJ</li>
+><li>PRIORITY_TASK</li>
+><li>SEVERITY_OPTASK</li>
+><li>STATUS_OPTASK</li>
+><li>STATUS_PROJ</li>
+><li>STATUS_TASK</li></ul>
+
 
 ### Document
 
@@ -6595,6 +6642,11 @@ Limited customer availability
         </tr>
     </tbody>
 </table>
+
+>[!NOTE]
+>
+>There are 3 team types that are stored in the Team object tables: PROJECT, TEMPLATE, and ADHOC. <br>
+>Each of these team types are represented together in the Data Connect data lake views. To isolate the specific type of team you want returned, you'll need to filter on the `teamtype` column. For example, if you only want the traditional teams that are part of your organizational structures, which are configured in the Teams area of the application, you might have a query that looks something like this: <code>select * from teams_current where teamtype = 'ADHOC';</code>
 
 ### Team Member
 

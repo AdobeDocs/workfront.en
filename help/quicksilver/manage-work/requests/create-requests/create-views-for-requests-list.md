@@ -1,15 +1,23 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Create views in the Requests area
+title: Create and manage views in the Requests area
 description: If you are using the new requesting experience, you can create and save views for the Requests area.
 author: Becky
 feature: Work Management
 ---
-# Create or edit views in the Requests area
+# Create and manage views in the Requests area
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 If you are using the new requesting experience, you can create and save views for the Requests area. These views include filters and column arrangements. 
+
+Views can be created and managed in the Requests area of Workfront.
+
+>[!IMPORTANT]
+>
+>* This functionality is available only in the new requesting experience. 
+>* View settings are not available in the My Requests widget in Home.
 
 ## Access requirements
 
@@ -48,18 +56,13 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Create a view in the Requests area
 
-{{step1-to-requests}}
+You can create a view in the Requests area of Workfront,. 
 
-1. (Optional and conditional) Select the **Switch to new experience** setting in the upper-right of the screen, if the following things apply to your organization and your Workfront instance: 
+1. To access the Requests list:
 
-    * Your organization has purchased a Workfront package
-    * Your organization has been onboarded to the Adobe Unified Experience. 
-    * Your administrator has granted you access to Workfront Planning
-    * You have at least view permissions to a Workfront Planning workspace
+   {{step1-to-requests}}
 
-    For more information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
-
-1. Click the **Views** dropdown ![Views dropdown](assets/view-icon-requests.png) and select **New view**.
+1. In the Requests list, click the **Views** dropdown ![Views dropdown](assets/view-icon-requests.png) and select **New view**.
 
    ![New view](assets/create-new-view.png)
 
@@ -70,19 +73,28 @@ For more detail about the information in this table, see [Access requirements in
 
 You can edit existing views, including views you have just created.
 
-{{step1-to-requests}}
-
-1. (Optional and conditional) Select the **Switch to new experience** setting in the upper-right of the screen, if the following things apply to your organization and your Workfront instance: 
-
-    * Your organization has purchased a Workfront package
-    * Your organization has been onboarded to the Adobe Unified Experience. 
-    * Your administrator has granted you access to Workfront Planning
-    * You have at least view permissions to a Workfront Planning workspace
-
-    For more information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)1. 
+1. To access the Requests list:
+   
+   {{step1-to-requests}}
+1. In the Requests list, locate the view that you want to edit.
 
 1. (Optional) To rename a view, click the **Views** dropdown ![Views dropdown](assets/view-icon-requests.png) and click the three-dot menu next to the view, select **Rename**, then type in the new name for the view.
 1. Click the **Views** dropdown ![Views dropdown](assets/view-icon-requests.png) and select the view you want to edit.
+1. <span class="preview">To add a custom field as a column, click the **Add column** icon ![Add column](assets/add-column.png) near the right of the screen, and click the plus icon next to the custom form field that you want to add as a column to the view.</span>
+
+   <span class="preview">Custom fields on forms attached to the object in the list are available to add as columns.</span>
+
+    >[!TIP]
+    >
+    >You cannot currently add columns in the production environment. 
+1. (Optional) Click **Columns** and hide, show, or rearrange the columns in the request list.  
+
+    ![Columns box](assets/columns-editing-box-in-requests-planning-tab.png)
+
+    >[!TIP]
+    >
+    >You cannot currently add any more column in the production environment..  
+
 1. (Optional) Click **Filters** and start adding conditions for what requests you want to view in the Planning tab. 
 
     ![Editing filters in the Planning requests tab](assets/filters-editing-box-in-requests-planning-tab.png)
@@ -96,16 +108,12 @@ You can edit existing views, including views you have just created.
     * **Status**: The status of the request.
     * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
 
+    <span class="preview">In the Preview environment, you can also filter by any custom fields that have been added to the view.</span>
+
     You can have multiple filters joined by either **And** or **Or**.
     The request list is filtered automatically, as you add the filter conditions. 
  
-1. (Optional) Click **Columns** and hide, show, or rearrange the columns in the request list.  
 
-    ![Columns box](assets/columns-editing-box-in-requests-planning-tab.png)
-
-    >[!TIP]
-    >
-    >You cannot add any more columns.  
 
 >[!IMPORTANT]
 >
@@ -114,6 +122,21 @@ You can edit existing views, including views you have just created.
 
 ## Add the view to a layout template.
 
-A Workfront dministrator can add the new view to layout templates.
+A Workfront administrator can add the new view to layout templates.
 
 For instructions, see [Customize Filters, Views, and Groupings using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+
+## Share a view
+
+You can share views that you create with other users, teams, or groups.
+
+1. To access the Requests list:
+
+   {{step1-to-requests}}
+
+1. In the Requests list, locate the view that you want to share.
+1. Hover over the view that you want to share, then click on the three-dot menu when it appears.
+1. Select **Share**.
+1. In the dialog that opens, enter the names of the users, teams, or groups that you want to share the view with, then select them from the list when they appear.
+1. Click **Save**.
+

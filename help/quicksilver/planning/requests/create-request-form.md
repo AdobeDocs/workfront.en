@@ -166,6 +166,10 @@ Form details are divided into tabs.
 #### Set up Form details
 
 1. Begin creating or editing a request form, as described in the section [Begin creating a request form](#begin-creating-a-request-form).
+
+   Or
+
+   Locate the request form on the Request forms list, click the box next to the form name, and click **Edit form** in the blue bar at the bottom of the screen.
    
     The request form for the selected record type opens in the Form tab. 
 
@@ -189,8 +193,6 @@ Form details are divided into tabs.
       The fields contained in the request form will be visible to everyone submitting a request to this record type. 
 
 1. (Optional) Hover over any fields on the form that you want to remove, then click the **x** icon to remove them. They are added to the **Fields** tab to the left of the form. 
-
-   For example, remove the **Subject** field, as this is not visible in Workfront Planning. <!--remove this example if this becomes visible in Planning?-->
 
 1. (Optional) To remove the **Default section** from the form, do the following:
 
@@ -229,19 +231,18 @@ On the Configuration tab, you can set the approval process and configure when a 
     The request form for the selected record type opens in the Form tab. 
 1. (Optional) Set up any form details, as described in [Set up Form details](#set-up-form-details).    
 
-1. (Optional) Click the **Configuration** tab, then add at least one user or team to the **Approvers** field to approve new requests for this record form. 
+1. (Optional) If you want to add approvers, click the **Configuration** tab, then add at least one user or team to the **Approvers** field to approve new requests for this record form. 
 
    ![Configuration tab](assets/configuration-tab.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
-   * When you associate a request form with approvers, any new request must first be approved by all approvers before it generates a new record. 
-   * You can add one or several approvers to a request form. 
-   * If at least one approver rejects the request, the request is rejected and the record is not created. 
-   * All approvers must make a decision before a request is either approved or rejected.
+   * You can add one or several approvers to a request form.
+   * If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
+   * If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
    * If a team is set as an approver, only one decision is required from the team.
 
-      For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
+   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
 
 1. (Conditional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox.
 

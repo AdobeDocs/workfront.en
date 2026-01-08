@@ -1,28 +1,31 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Locate Submitted Requests
-description: Learn about the areas of Adobe Workfront where you can locate requests that you or someone else submitted or requests that you never submitted and were saved as drafts. 
+title: View Submitted Requests
+description: Learn about the areas of Adobe Workfront where you can view requests that you or someone else submitted or requests that you never submitted and were saved as drafts. 
 author: Becky
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 ---
-# Locate submitted requests
+# View submitted requests
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
-You can locate the following types of requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront:
+You can view the requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront:
 
-* The **Workfront** tab of the Requests area in Workfront: Locate requests submitted to Workfront request queues in the following sections: 
+* The **Workfront** tab of the Requests area in Workfront: View requests submitted to Workfront request queues in the following sections: 
    * **Submitted section**: All requests that you or someone else submitted and you have access to at least View. 
    * **Draft section** : All requests that you started but you never finished and you never submitted. For more information about draft requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
-
-   >[!TIP]
+   
+   >[!NOTE]
    >
-   >You can only view your own draft requests.
+   >* You can only view your own draft requests.
+   >* <span class="preview">In the new requesting experience, submitted requests and drafts are found in the same list. </span>
+   >* <span class="preview">Drafts created in the legacy experience do not appear in the new Requesting experience.</span>
 
-* The **Planning** tab of the Requests area in Workfront: Locate requests submitted to Workfront Planning request forms. Your organization must purchase a Workfront Planning package. For information, see the following articles:
+* The **Planning** tab of the Requests area in Workfront: View requests submitted to Workfront Planning request forms. Your organization must purchase a Workfront Planning package. For information, see the following articles:
 
    * [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
    * [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
@@ -65,9 +68,59 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Locate submitted requests
+## View submitted requests in the Requests area
 
-To locate requests that you or other users have submitted:
+Viewing submitted requests differs based on whether you are using the new or legacy requesting experience.
+
+* [View submitted requests in the new requesting experience](#view-submitted-requests-in-the-new-requesting-experience)
+* [View submitted requests in the legacy requesting experience](#view-submitted-requests-in-the-legacy-requesting-experience)
+
+### View submitted requests in the new requesting experience
+
+You can view submitted requests in the Requests area, <span class="preview">which include links to objects created by those requests.</span>
+
+To view requests that you or other users have submitted in the new requesting experience:
+
+{{step1-to-requests}}
+
+1. Ensure that the **Use new experience** toggle in the upper-right corner of the screen is enabled.
+
+   The Requests list appears.
+
+1. (Optional) To search for a request, begin typing in the search bar at the upper-right of the list. Search results appear as you type.
+1. (Optional) Click **Filters** and start adding conditions for the requests you want to display.
+
+    You can filter by the following fields:  
+
+    * **Workspace**: The workspace the request form is associated with.
+    * **Record type**: The record type the request form is associated with.
+    * **Entry date**: The date when the request was submitted.
+    * **Request form**: The name of the request form used to submit the request.
+    * **Status**: The status of the request.
+    * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
+
+    You can have multiple filters joined by either **And** or **Or**.
+    The request list is filtered automatically, as you add the filter conditions. 
+1. (Optional) Use views to focus on the requests you want to display.
+
+   For instructions, see [Create or edit views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+1. (Optional) Check the status of a request by checking the Status column. The following statuses are available in the new requesting experience:
+
+   * Draft: This request has not yet been submitted.
+   * Pending Review
+   * In Review
+   * Rejected
+   * In Progress
+   * Complete
+
+>[!NOTE]
+>
+>* If you have Workfront Planning, your Workfront and Planning requests appear in the same list. Workfront requests display the value `Issue` in the Object type column.
+>* The Requests list appears with 50 requests displayed. To view more requests, scroll to the bottom of the list.
+
+### View submitted requests in the legacy requesting experience
+
+To view requests that you or other users have submitted in the legacy requesting experience:
 
 {{step1-to-requests}}
 
@@ -204,5 +257,12 @@ To locate requests that you or other users have submitted:
    ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+
+   
+1. (Optional) Check the status of a request by checking the Status column. The following statuses are available in the new requesting experience:
+
+   * Draft: This request has not yet been submitted.
+   * In Progress
+   * Complete
 
 

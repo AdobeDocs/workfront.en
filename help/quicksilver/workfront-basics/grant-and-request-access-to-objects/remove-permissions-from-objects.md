@@ -109,7 +109,7 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
 1. In the `<User Name>`'s Workfront access will be removed from this drop-down menu, select whether you want their access to be removed just from the objects that you have selected, or from all other children objects associated with it.  
    The following scenarios exist:
 
-   * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.&nbsp;
+   * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.  
    * If you remove the entity from the object and all the children objects, that entity loses their permissions to the object as well as all children objects, even when they were previously given individual permission on each child object.
 
    **Example:** Select whether to remove permissions to just the tasks you selected in a list, or to the issues and documents attached to the tasks as well.
@@ -126,7 +126,7 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
 
 ## Remove inherited permissions
 
-Inherited permissions can be removed from objects allowing for owners to specifically&nbsp;identify who will get access to children objects regardless of the access of a user to a parent object.
+Inherited permissions can be removed from objects allowing for owners to specifically  identify who will get access to children objects regardless of the access of a user to a parent object.
 
 >[!IMPORTANT]
 >
@@ -144,11 +144,11 @@ To remove inherited permissions:
    >
    >You cannot remove individual entities from the Inherited Permissions list. You can only disable the Inherited Permissions for all entities listed.
 
-1. Click **Save**.&nbsp;
+1. Click **Save**.  
 
 ## Make an object private
 
-If you have shared an object system-wide, or you have shared it with external uses by making it public, you can make it private again by removing the system-wide or public permissions.&nbsp;
+If you have shared an object system-wide, or you have shared it with external uses by making it public, you can make it private again by removing the system-wide or public permissions.  
 
 For more information about making an object available system-wide, or publicly, see [Share an object](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 

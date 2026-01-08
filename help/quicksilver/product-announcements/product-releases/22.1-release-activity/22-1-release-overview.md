@@ -178,7 +178,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>Available on these dates:</strong> <p>Preview release:&nbsp;November 18, 2021 <br></p> <p>Production release:&nbsp;With the 22.1 release </p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#filter" class="MCXref xref" xrefformat="{para}">Filter by user list on agile boards shows users with most assignments first</a> </p> <p>Now the filter shows the users with the most assignments first so they are easier to locate without scrolling through the list.</p> <p>Previously, the filter by user list on both Kanban and Scrum boards was displayed alphabetically. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#filter" class="MCXref xref" xrefformat="{para}">Filter by user list on Agile boards shows users with most assignments first</a> </p> <p>Now the filter shows the users with the most assignments first so they are easier to locate without scrolling through the list.</p> <p>Previously, the filter by user list on both Kanban and Scrum boards was displayed alphabetically. </p> </td> 
    <td><strong>Available on these dates:</strong> <p>Preview release:&nbsp;November 11, 2021 <br></p> <p>Production release:&nbsp;With the 22.1 release <b style="color: #ff0000;">(Removed from the 22.1 release. No longer available in Preview.)</b></p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 

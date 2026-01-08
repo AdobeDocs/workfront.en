@@ -28,7 +28,7 @@ The following articles describe how you can create and manage records and their 
 * [Edit records](/help/quicksilver/planning/records/edit-records.md)
 * [Delete records](/help/quicksilver/planning/records/delete-records.md)
 * [Restore deleted records](/help/quicksilver/planning/records/restore-deleted-records.md)
-* [Share records](/help/quicksilver/planning/records/share-records.md)
+* [Share records using a link](/help/quicksilver/planning/records/share-records.md)
 * [Connected records overview](/help/quicksilver/planning/records/connected-records-overview.md)
 * [Connect records](/help/quicksilver/planning/records/connect-records.md)
 * [Duplicate records](/help/quicksilver/planning/records/copy-or-duplicate-records.md)

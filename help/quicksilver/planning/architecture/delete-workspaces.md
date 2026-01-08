@@ -10,9 +10,9 @@ exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
 
 # Delete workspaces
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -40,7 +40,7 @@ We recommend recreating some or all of the record types, records, fields, and vi
    <td> 
 <ul> 
 <li><p>Any Workfront and any Planning package</p></li>
-<p>Or</p>
+Or
 <li><p>Any Workflow and any Planning package</p></li></ul>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
@@ -128,15 +128,20 @@ For more information about Workfront access requirements, see [Access requiremen
 
 {{step1-to-planning}}
 
-1. (Conditional) If you are a Workfront administrator, click **Workspaces I'm on** to access workspaces you created, or **Other workspaces** to access workspaces others shared with you. 
+1. (Conditional) If you are a Workfront administrator, click one of the following:
+
+   * **Workspaces I'm on** to access workspaces you created
+   * **Other workspaces** to access workspaces others shared with you
+      Or
+      <span class="preview">**All workspaces** to access workspaces shared with you or workspaces you created</span>
 
 1. (Optional) Click **Show all** to display additional workspaces. The **Show all** link displays only when you have more than two rows of workspace cards.
 1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
 1. To delete a workspace, do one of the following:
 
    * Hover over the workspace card, then click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the card
-      Or
-   * Click a workspace card to open the workspace, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the workspace name. 
+      Or 
+   * <span class="preview"> Click the **search** icon ![Search icon](assets/search-icon.png) in the upper-right corner of the Workspaces page to search for a workspace by name</span> and click a workspace card to open the workspace, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the workspace name.
 1. Click **Delete**.
 
    ![Permanently delete workspace confirmation](assets/permanently-delete-workspace-confirmation.png)
@@ -144,3 +149,5 @@ For more information about Workfront access requirements, see [Access requiremen
 1. Type "**delete**" in the space provided, then click **Permanently delete**. This is not case sensitive. 
 
     The workspace is deleted and cannot be recovered. Any record types, records, fields, and views associated with them are also deleted. <!--ensure this is right at or before GA-->
+
+

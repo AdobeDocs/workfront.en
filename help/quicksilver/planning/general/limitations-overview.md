@@ -25,18 +25,18 @@ The following table shows the limits for how many objects you can create in Work
 
 |       Adobe Workfront Planning  object                                                          |                                                        Limit                                                    |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-|     Number of workspaces for one Workfront instance                                      |   unlimited*                                                                                                        |
+|     Number of workspaces for one Workfront instance                                      |   Unlimited*                                                                                                        |
 |     Number of sections for one workspace                                      |   50                                                                                                         |
 |     Number of record types for one workspace                                            |   100 (this includes record types from all sections and those that are created when using a workspace template)  |
 |     Number of records for one record type                                               |   25,000                                                                                                        |
-|     Number of records for one workspace                                               |   25,000 for customers with Planning <br> 500,000 for customers with Planning Plus                                                                                                         |
-|     Number of total records for one instance of Workfront Planning                                               |   500,000 for customers with Planning <br>2 million for customers with Planning Plus                                                                                                         |
+|     Number of records for one workspace                                               |   Planning Select: 25,000 <br> Planning Prime: 500,000 <br> Planning Ultimate: 1,000,000                                                      |
+|     Number of total records for one instance of Workfront Planning                                               |   Planning Select: 500,000 <br> Planning Prime: 2,000,000 <br> Planning Ultimate: Unlimited                                                                                                       |
 |     Number of fields for one record type or taxonomy                            |   500                                                                                                           |
 |     Number of characters for a Single-line text field                                                               |   1,000 characters                                                                                              |
 |     Number of characters for a paragraph  field                                                               |   10,000 characters                                                                                              |
 |     Number of paragraph fields for one record type                                                               |   20 paragraph fields                                                                                              |
-|     Size of file that you can paste in a record type table                    |   1MB                                                                                                           |
-|     Size of file that you can import through the API for a record type table  |   1.5MB                                                                                                         |
+|     Size of file that you can use to import information in a record type table                    |   1MB                                                                                                           |
+|     Size of file that you can use to import information in a record type table through the API  |   1.5MB                                                                                                         |
 |     The rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
 | Number of views one user can create for one record type | 100 |
 | Size of CSV of Excel file you can import to create record types | 5MB |
@@ -45,10 +45,15 @@ The following table shows the limits for how many objects you can create in Work
 | Number of formula fields for one record type | 20 |
 | <span class="preview">Number of connection fields for one record type</span> | <span class="preview">30</span> |
 | Number of characters in a formula field expression | 50,000 |
+| Number of entities (users, roles, teams, companies, groups) you can share a Planning object with | 100 |
+| <span class="preview">Number of record types in a hierarchy</span> | 4 |
+| <span class="preview">Number of hierarchies in a workspace</span> | 5 |
+| <span class="preview">Number of records from a parent record type connected to one record from a child record type, inside a hierarchy</span> | 10 |
+| Number of records connected to one record in a multi-select connection type, <span class="preview">without a hierarchy configured between the records</span> | 500 |
 
 *We recommend to not have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.
 
-For information about Workfront Planning pricing and packaging, contact your account manager.
+For information about Workfront Planning pricing and packaging, contact your account manager. 
 
 <!--
 ****************KEEP THIS COMMENTED OUT:

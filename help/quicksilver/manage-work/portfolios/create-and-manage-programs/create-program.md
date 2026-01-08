@@ -104,7 +104,7 @@ You can create a program in Workfront using one of the following methods:
 
 ## Create a program
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner.
+{{step1-click-main-menu}}
 
 1. Do one of the following.
 

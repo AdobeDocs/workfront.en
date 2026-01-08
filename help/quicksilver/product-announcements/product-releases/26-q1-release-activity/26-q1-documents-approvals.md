@@ -12,6 +12,32 @@ This page describes Document and approval enhancements made with the First Quart
 
 For a list of all changes available at this point in the First Quarter 2026 release cycle, see [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+<!--## Set up brands for the AI reviewer in Workfront
+
+>[!NOTE]
+>
+>Preview: January 8, 2026 
+>Production fast release: January 8, 2026  
+>Production for everyone: January 8, 2026  
+
+You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.
+
+The AI reviewer is currently in beta.-->
+
+## Choose a Workfront project when sending a review in Adobe Express
+
+>[!NOTE]
+>
+>Preview: December 15, 2025 
+>Production fast release: December 15, 2025  
+>Production for everyone: December 15, 2025  
+
+You can choose a Workfront project to send a proof to. This helps keep all related assets and proofs organized within the same project.
+
+Previously, the proof was automatically added to an Express-specific project. 
+
+For more information, see [Adobe Express and Workfront Proof integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
+
 ## Cross-organization support for Adobe Express with Workfront Proofing
 
 >[!NOTE]

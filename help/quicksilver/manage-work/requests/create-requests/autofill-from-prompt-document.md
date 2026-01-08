@@ -1,21 +1,16 @@
 ---
-title: Use AI Form Fill to fill in a request using prompts or documents
+title: Use Form Fill powered by AI to fill in a request using prompts or documents
 content-type: reference
 description: You can use AI to auto-fill request fields by entering a prompt or supplying a document.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 ---
-# Use AI Form Fill to fill in a request using prompts or documents
+# Use Form Fill powered by AI to fill in a request using prompts or documents
 
 >[!NOTE]
 >
->* This functionality will be available as an open beta on the following schedule:
->
->   * Monthly release: September 11, 2025
->   * Quarterly release: October 16, 2025
->
->* To use this functionality, your organization must meet the requirements to use the Workfront AI Assistant. For details, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
+>To use this functionality, your organization must meet the requirements to use the Workfront AI Assistant. For details, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 AI Form Fill can help you auto-fill request fields based on a prompt you enter. It can also fill fields based on text such as emails ar uploaded documents. You can approve or reject these suggestions before submitting the request.
 
@@ -163,7 +158,7 @@ We're planning a campaign similar to the holiday social ads we ran last year. Bu
    
 ## Get suggestions based on a document you upload
 
-Auto-fill can suggest field values based on a document you upload. 
+Form Fill powered by AI can fill in a request using prompts or documents can suggest field values based on a document you upload. 
 
 This type of suggestion also checks previous requests for similar contexts. For example if the prompt mentions that the request is for a certain client, Workfront can locate and enter the billing address for that client automatically, based on previous requests.
 
@@ -183,24 +178,25 @@ The following file types are supported:
 <li>DOCX</li>
 <li>GIF</li>
 <li>JPEG</li>
+<li>ODP</li>
 </ul>
 </td>
 <td>
 <ul>
-<li>ODP</li>
 <li>ODS</li>
 <li>ODT</li>
 <li>PDF</li>
 <li>PNG</li>
 <li>PPT</li>
+<li>PPTX</li>
 </ul>
 </td>
 <td>
 <ul>
-<li>PPTX</li>
 <li>RTF</li>
 <li>TIFF</li>
 <li>TXT</li>
+<li>WEBP</li>
 <li>XLS</li>
 <li>XLSX</li>
 </ul>
@@ -228,8 +224,8 @@ Workfront field types affect whether a given field can be auto-filled.
 
 <table>
 <tr>
-<td><b>Supported </b><br> Auto-fill can fill</td>
-<td><b>Unsupported</b> <br>Auto-fill does not fill</td>
+<td><b>Supported </b><br> Form Fill powered by AI can fill</td>
+<td><b>Unsupported</b> <br>Form Fill powered by AI does not fill</td>
 </tr>
 <tr>
 <td>

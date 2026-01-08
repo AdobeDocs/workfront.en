@@ -207,6 +207,11 @@ You can adjust permissions to individual record types of a workspace if you have
 
 1. (Optional) In the **Who has access** area, the **Everyone in the workspace can view** option is selected by default.  All users that have View or higher permissions to the workspace can view the record type. 
 
+   >[!WARNING]
+   >
+   >You cannot share record types with individual users. If you add individual users to the record type, they are also added to the workspace.
+
+
 1. (Optional) Click the number of users under the **Inherited permissions** option to view users, teams, groups, companies, or job roles that inherit permissions from the workspace.
 
    >[!TIP]
@@ -269,7 +274,7 @@ You can remove users' permissions from a record type. However, they will retain 
 
    People no longer have the indicated permissions to the record type. However, they they still have permissions to the workspace, unless you also remove them from workspace permissions. 
    
-   There is no notification for the users that have been removed from accessing the view that they no longer have this access.
+   There is no notification for the users that have been removed from accessing the record type that they no longer have these permissions.
 
 <!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 
