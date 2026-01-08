@@ -54,7 +54,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Manage Priorities in the Layout Template</a>
-            <p>Temporarily unavailable in the Preview environment</p>
+            <p><span class="preview">Temporarily unavailable in the Preview environment</span></p>
             <p>You can now enable or disable Priorities for specific users in the Layout Template. If you previously had Priorities disabled for your organization, it will remain disabled in the layout template with this change.</p>
         </td>
         <td>December 18, 2025</td>
@@ -118,8 +118,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>The AI reviewer is currently in beta.</p>
         </td>
         <td>January 8, 2026</td>
-        <td>January 15, 2026</td>
-        <td>January 15, 2026</td>
+        <td>January 8, 2026</td>
+        <td>January 8, 2026</td>
     </tr> 
     </tr>
        <tr>
