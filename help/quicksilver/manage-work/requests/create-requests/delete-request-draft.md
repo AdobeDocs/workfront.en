@@ -70,11 +70,12 @@ You can delete requests in the Requests area of Workfront, or in the My Requests
 
 ### Delete a request from the three-dot menu
 
-1. To access the Requests list, click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Requests]**.
+{{step1-to-requests}}
 
 1. To access the My Requests widget in Home:
    
-   1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Home]**.
+   {{step1-to-home}}
+
    1. Locate the My Requests widget. 
 
       For more information on the My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
@@ -100,11 +101,12 @@ You can delete requests in the Requests area of Workfront, or in the My Requests
 
 ### Bulk delete requests
 
-1. To access the Requests list, click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Requests]**.
+{{step1-to-requests}}
 
 1. To access the My Requests widget in Home:
    
-   1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Home]**.
+   {{step1-to-home}}
+   
    1. Locate the My Requests widget. 
 
       For more information on the My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
@@ -124,7 +126,7 @@ You can delete drafted requests after they are saved as drafts if you no longer 
 
 ### Prerequisites for deleting request drafts
 
-You must do the following before you can delete&nbsp;a request draft:
+You must do the following before you can delete a request draft:
 
 * Start creating a request. This saves the request as a draft automatically in the Drafts section .
 

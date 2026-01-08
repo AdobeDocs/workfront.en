@@ -14,7 +14,7 @@ Effort Driven is a duration type that you can set for a task in Adobe Workfront.
 
 ## Overview of the Effort Driven Duration Type
 
-Your Workfront or a group administrator can set the default Duration&nbsp;Type of your system or group as Effort Driven.&nbsp;In this case, all new tasks will be created with this Duration Type. For information about changing your task and issue preferences as part of your system-level or group-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Your Workfront or a group administrator can set the default Duration Type of your system or group as Effort Driven. In this case, all new tasks will be created with this Duration Type. For information about changing your task and issue preferences as part of your system-level or group-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 In this scenario, there is a risk of arbitrarily shortening the project plan, unless you, as the project manager, take the time to consider whether the task is actually an Effort Driven task.
 

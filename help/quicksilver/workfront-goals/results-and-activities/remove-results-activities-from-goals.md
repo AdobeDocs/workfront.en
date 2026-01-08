@@ -181,10 +181,8 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
    This opens the Workfront Goals area and the Goal List displays by default.
 
 1. Click the name of a goal you want to remove results and activities from.
@@ -226,10 +224,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 -->
 
 
-1. Click the **Main Menu** icon  in the upper-right corner, then click **Goals**.
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+{{step1-to-goals}}
 
    This opens the Workfront Goals area and the Goal List displays by default.
 

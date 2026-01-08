@@ -48,7 +48,6 @@ Additional instructions are available on the [Adobe Developer site](https://deve
 >Make sure you have selected the right IMS organization for all of the following steps. If you belong to multiple organizations, it's possible to select the wrong one. Make sure you are acting under the right organization, which is usually listed in the top-right corner. 
 
 1. Navigate to Production: https://adminconsole.adobe.com/  
-
 1. In the **Users** section, click **Developers** > **Add developers**.
 
     ![add users in the admin console](assets/manage-users-admin-console.png)
@@ -58,8 +57,8 @@ Additional instructions are available on the [Adobe Developer site](https://deve
     >If you do not see an option to manage developers, you do not have a product that allows developer access.  
 
 1. Add the user's email. It should search existing users that have already been added from within the Admin Console.  
+1. Add necessary products to the developer profile and click **Save**. 
 
-1. Add necessary products to the developer profile and click **Save**.  
     ![add developers](assets/add-developer.png)
 
 ### Get access to App Builder  
@@ -75,9 +74,7 @@ You must use the Adobe Developer Console to build your UI extension.
 Additional instructions are available on the [Adobe Developer site](https://developer.adobe.com/uix/docs/guides/creating-project-in-dev-console/).
 
 1. Sign in to the Adobe Developer Console with your Adobe ID.  
-
 1. Choose your account, and your profile or organization.  
-
 1. Click **Create project from template** in the Quick Start area, or click **Create new project > Project from template**.
 
     >[!IMPORTANT]
@@ -87,11 +84,8 @@ Additional instructions are available on the [Adobe Developer site](https://deve
     ![Create from template](assets/create-from-template.png)
 
 1. Select **App Builder**.  
-
 1. Enter a **Project title** and **App name**. Both have defaults, but it is easier to identify the project you want later if you customize the value.  
-
 1. Leave **Include runtime** selected.  
-
 1. Click **Save**.  
 
 ## Use Adobe Developer (aio) CLI
@@ -152,7 +146,7 @@ To allow custom applications in the Workfront Main Menu:
 
 1. Go to ExtensionRegistration.js.  
 
-In the ExtensionRegistration function you should see the following code. This code was created for you by the template. This code can be added to create additional menu items. Be sure to replace IDs and URLs.
+    In the ExtensionRegistration function you should see the following code. This code was created for you by the template. This code can be added to create additional menu items. Be sure to replace IDs and URLs.
 
     ```
     mainMenu: { 
