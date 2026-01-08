@@ -21,6 +21,8 @@ For a list of all changes available at this point in the First Quarter 2026 rele
 
 To make it easier for you to go to the object created by a specific request, we've added links to the Created object column. Now, you can click on the link in this column to be taken directly to the created object's page.
 
+This link is available only when the request itself created an object. If a request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience.
+
 Previously, this column contained only the name of the object, and not its link.
 
 For information on locating these links, see For instructions on adding columns, see:
@@ -53,8 +55,6 @@ For more information on creating views for the Request list and My Requests widg
 >Production for everyone: January 15, 2026  
 
 To make it easier to ensure to see the information you need, we've added the ability to share views to the new requesting experience. Now, you can share views with other users, teams, or groups.
-
-You can share request list views from both the Requests area in Workfront and the My Requests widget in Home. Sharing functionality is identical in both places, and view settings, including sharing, are preserved when moving between the My Requests widget and the Requests area.
 
 For information on request views, including sharing, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
