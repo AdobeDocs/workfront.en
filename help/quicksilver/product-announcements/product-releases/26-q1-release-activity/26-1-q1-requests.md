@@ -54,8 +54,6 @@ For more information on creating views for the Request list and My Requests widg
 
 To make it easier to ensure to see the information you need, we've added the ability to share views to the new requesting experience. Now, you can share views with other users, teams, or groups.
 
-You can share request list views from both the Requests area in Workfront and the My Requests widget in Home. Sharing functionality is identical in both places, and view settings, including sharing, are preserved when moving between the My Requests widget and the Requests area.
-
 For information on request views, including sharing, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
 ## Add custom fields to Requests list and My Requests widget
