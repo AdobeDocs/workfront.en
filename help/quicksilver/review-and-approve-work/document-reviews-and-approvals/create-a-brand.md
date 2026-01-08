@@ -59,9 +59,10 @@ For more detail about the information in this table, see [Access requirements in
 1. In the left panel, go to **Review and Approval** > **Brands**.
 1. Click **Add brand** in the top-right corner of the screen.
 1. Name the brand. 
-1. Click Upload PDFs to upload brand files. 
-1. Upload one or more PDF files that contain your brand guidelines. 
-1. Click **Add brand**. 
+1. Click Upload PDFs to upload brand files.
+    ![upload brand pdfs](assets/upload-PDF.png)
+1. Click **Continue**.
+1. Upload one or more PDF files that contain your brand guidelines, then click **Add brand**. 
 1. Once the files are uploaded, review the extracted brand elements to ensure they align with your brand guidelines. 
 
     >[!IMPORTANT]
@@ -69,10 +70,6 @@ For more detail about the information in this table, see [Access requirements in
     >Guidelines are generated using your file(s) and generative AI technology and may be inaccurate. Review extracted guidelines for missing or incorrect details and edit them before you publish this brand.
 
 1. When finished, click **Publish** to make the brand available for the AI Reviewer.
-
-
-
-
 
 ## Create a brand manually
 
