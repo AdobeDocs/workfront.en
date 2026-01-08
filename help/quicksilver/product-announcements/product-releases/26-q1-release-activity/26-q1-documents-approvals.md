@@ -17,8 +17,8 @@ For a list of all changes available at this point in the First Quarter 2026 rele
 >[!NOTE]
 >
 >Preview: January 8, 2026 
->Production fast release: January 15, 2026  
->Production for everyone: January 15, 2026  
+>Production fast release: January 8, 2026  
+>Production for everyone: January 8, 2026  
 
 You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.
 
