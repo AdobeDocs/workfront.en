@@ -185,7 +185,7 @@ To assign tasks in a list:
 1. (Optional) Click the **Autosave** drop-down menu and select from the following options: 
 
    | Option |Option description |
-   |---|---| 
+   |---|---|
    | Autosave |Changes you make to the tasks are automatically saved and you cannot revert them |
    | Manual save |You must manually save your changes. You can revert your changes before you save them.  |
    | Timeline Planning |You must manually save your changes. You can revert your changes before you save them. Saving your changes and all the project dependencies is faster than when selecting Manual save.  |
