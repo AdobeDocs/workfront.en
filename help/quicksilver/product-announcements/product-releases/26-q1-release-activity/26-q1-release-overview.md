@@ -110,6 +110,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Preview</strong></td>
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
+        </tr>
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Set up brands for the AI reviewer in Workfront<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <p>You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.</p>
+            <p>The AI reviewer is currently in beta.</p>
+        </td>
+        <td>January 8, 2026</td>
+        <td>January 15, 2026</td>
+        <td>January 15, 2026</td>
+    </tr> 
     </tr>
        <tr>
         <td>
