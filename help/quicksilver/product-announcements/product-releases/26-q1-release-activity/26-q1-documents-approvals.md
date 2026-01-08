@@ -12,6 +12,18 @@ This page describes Document and approval enhancements made with the First Quart
 
 For a list of all changes available at this point in the First Quarter 2026 release cycle, see [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Set up brands for the AI reviewer in Workfront
+
+>[!NOTE]
+>
+>Preview: January 8, 2026 
+>Production fast release: January 15, 2026  
+>Production for everyone: January 15, 2026  
+
+You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.
+
+The AI reviewer is currently in beta.
+
 ## Choose a Workfront project when sending a review in Adobe Express
 
 >[!NOTE]
