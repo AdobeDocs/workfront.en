@@ -71,7 +71,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
   For more information about the hierarchy of objects in Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-* You can remove inherited permissions from the program. For more information about removing permissions from objects, see&nbsp; [Remove permissions from objects](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* You can remove inherited permissions from the program. For more information about removing permissions from objects, see   [Remove permissions from objects](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Share a program
 
@@ -149,18 +149,18 @@ The following table displays what permissions you can grant users when allowing 
 
 | **Actions** |**Manage** |**View** |
 |---|---|---|
-| Edit program details |✓ |&nbsp; |
+| Edit program details |✓ |   |
 | View a program |✓ |✓ |
-| Delete a program |✓ |&nbsp; |
-| Attach a Custom Form |✓ |&nbsp; |
-| Edit a custom field |✓ |&nbsp; |
-| Add or remove a project&#42; |✓ |&nbsp; |
-| Approve a project |✓ |&nbsp; |
+| Delete a program |✓ |   |
+| Attach a Custom Form |✓ |   |
+| Edit a custom field |✓ |   |
+| Add or remove a project&#42; |✓ |   |
+| Approve a project |✓ |   |
 | Add a document folder&#42; |✓ |✓ |
 | Add a document |✓ |✓ |
 | Add updates/ comments |✓ |✓ |
 | Share |✓ |✓ |
-| Share system-wide |&nbsp; |✓ |
+| Share system-wide |   |✓ |
 
 *These permissions are controlled by the access level and permissions on other objects, like projects.
 

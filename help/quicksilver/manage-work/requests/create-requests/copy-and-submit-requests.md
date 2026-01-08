@@ -121,13 +121,13 @@ You must have a request that you or someone in your organization previously subm
 1. (Optional) Update the following information, if needed:
 
    * **Request Type**: the request queue where the copied request is saved. By default, the copied request is saved to the request queue of the original request.
-   * **Topic Groups** and **Queue&nbsp;Topics**, if they are selected. The names or topic groups and queue topics are customized for your environment. By default, the copied request is saved to the topic groups and the queue topics of the original request.
+   * **Topic Groups** and **Queue Topics**, if they are selected. The names or topic groups and queue topics are customized for your environment. By default, the copied request is saved to the topic groups and the queue topics of the original request.
 
      >[!TIP]
      >
      >If the path changes from the path of the original request, then the creator of the request queue modified the queue.
 
-1. (Optional) Update any information from the copied request. Depending on what fields the request queue creator enabled in the **New Issue Fields** section of the **Queue Details**&nbsp;subtab on the project, you might find&nbsp;any of the following fields:
+1. (Optional) Update any information from the copied request. Depending on what fields the request queue creator enabled in the **New Issue Fields** section of the **Queue Details** subtab on the project, you might find any of the following fields:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -135,7 +135,7 @@ You must have a request that you or someone in your organization previously subm
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Subject</strong> </td> 
-      <td>Displays the name of the original request. Update it, if necessary.&nbsp;Otherwise, Workfront names the copied request <b>Copy of &lt;Name of original request&gt;</b>. This is a mandatory field.</td> 
+      <td>Displays the name of the original request. Update it, if necessary. Otherwise, Workfront names the copied request <b>Copy of &lt;Name of original request&gt;</b>. This is a mandatory field.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Description</strong> </td> 
@@ -147,7 +147,7 @@ You must have a request that you or someone in your organization previously subm
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Priority</strong> </td> 
-      <td> <p>Specify the priority of your request. The priority should define how fast you think this request should be resolved. The default&nbsp;options are:</p> 
+      <td> <p>Specify the priority of your request. The priority should define how fast you think this request should be resolved. The default options are:</p> 
        <ul> 
         <li>None</li> 
         <li>Low</li> 
@@ -158,7 +158,7 @@ You must have a request that you or someone in your organization previously subm
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Severity</strong> </td> 
-      <td> <p>Specify the severity for your request. The severity should define the impact this request has on your work should it not be resolved in time. The default&nbsp;options are:</p> 
+      <td> <p>Specify the severity for your request. The severity should define the impact this request has on your work should it not be resolved in time. The default options are:</p> 
        <ul> 
         <li>Cosmetic</li> 
         <li>Causes Confusion</li> 
@@ -224,11 +224,12 @@ You must have a request that you or someone in your organization previously subm
 
 You can copy and submit requests in the Requests area of Workfront, or from the My Requests widget in Home.
 
-1. To access the Requests list, click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Requests]**.
+{{step1-to-requests}}
 
 1. To access the My Requests widget in Home:
    
-   1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Home]**.
+   {{step1-to-home}}
+
    1. Locate the My Requests widget. 
 
       For more information on the My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).

@@ -11,7 +11,7 @@ exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
 
 You can delete tasks that might be duplicates, or have been created in error.
 
-For tasks that have historical information (updates, changes of schedule, status, or other fields), we recommend that you close them or mark them Dead, instead of deleting them.&nbsp;This helps you keep the historical information for your projects.
+For tasks that have historical information (updates, changes of schedule, status, or other fields), we recommend that you close them or mark them Dead, instead of deleting them. This helps you keep the historical information for your projects.
 
 ## Access requirements
 
@@ -62,7 +62,7 @@ For more information, see [Access requirements in Workfront documentation](/help
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects with access to&nbsp;Delete</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Tasks and Projects with access to Delete</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -83,7 +83,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 * If the task has logged hours, the Workfront  or group administrator must allow the deletion of these tasks by configuring the Task & Issue Preferences in your Workfront instance. This also applies when you try to delete projects that have tasks with hours logged on them. 
 
   <!--
-  (NOTE: the last statement is NWE&nbsp;only; not possible in classic)
+  (NOTE: the last statement is NWE only; not possible in classic)
   -->
 
   For more information about enabling the deletion of tasks where hours are logged, see the "Deletion" section in [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
@@ -134,9 +134,8 @@ Consider the following:
 
 ### Delete multiple tasks in a project simultaneously  {#delete-multiple-tasks-in-a-project-simultaneously}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+{{step1-to-projects}}
 
-1. Click **Projects**. 
 1. Click the project name that contains the tasks you want to delete.
 1. Click **Tasks** in the left panel.  
 1. Do one of the following:
@@ -164,9 +163,8 @@ Consider the following:
 
 ### Delete a single task {#delete-a-single-task}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+{{step1-to-projects}}
 
-1. Click **Projects**.  
 1. Click the project name that contains the task you want to delete.
 1. Click **Tasks** in he left panel. 
 1. Click the name of the task you want to delete.

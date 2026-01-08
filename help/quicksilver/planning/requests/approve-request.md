@@ -132,7 +132,7 @@ You can approve requests to create records from the request itself, <span class=
 
 ### Approve a request from the My Approvals widget in Home
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Home]**.
+{{step1-to-home}}
 
    Or
 
