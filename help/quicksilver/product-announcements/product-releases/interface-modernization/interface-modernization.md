@@ -1557,9 +1557,13 @@ We have added a new Edit Text Mode button and editing modal to the following are
 
 +++
 
+<!--
 ### Updates and Comments
 
 +++Expand to view Updates and Comments interface updates made in Q2
+
++++
+-->
 
 ### Interface update for the More menu options for comments
 
