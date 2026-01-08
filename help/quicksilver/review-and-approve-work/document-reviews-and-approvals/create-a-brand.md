@@ -95,10 +95,10 @@ Publish brand
 
 customer questions:
 
-Lilly has some questions on this
+Lilly has some questions on this - Yes
 1- Do brands update directly to GS Brands when updated in WF?
 2- Is there a way to block this aspect in WF for users so they have to use brands in GS?
 
-Yes
+
 It's the same brands in both places, its just reflected in WF so they dont have to go back and forth. Brands created in GS show here and vice versa
 Yes (once enabled)
