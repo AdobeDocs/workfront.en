@@ -86,7 +86,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 1. Drag a form ![](assets/move-icon---dots.png) to a new location in the list.
 1. For projects, tasks, and issues custom forms, click **Save**.
 
-   For all other objects, click **I'm done managing** >&nbsp;**Save Changes**.
+   For all other objects, click **I'm done managing** >  **Save Changes**.
 
 ## Remove a custom form from an object {#remove-a-custom-form-from-an-object}
 
@@ -163,7 +163,7 @@ To edit multiple custom forms when editing objects in bulk:
    * If you have made changes to the form, removing it results in your changes being lost and they cannot be recovered.
    * After you remove a form, any fields from that form that were in the **Common Fields** section are removed from this section and can no longer be edited here.
 
-1. Click&nbsp;**Restore Form** to restore the form to the state it was in before you edited the objects.
+1. Click  **Restore Form** to restore the form to the state it was in before you edited the objects.
 1. (Optional) Click the collapse arrow next to the name of the form to collapse one form at a time.
 
    Or
@@ -174,6 +174,6 @@ To edit multiple custom forms when editing objects in bulk:
 
    Or
 
-   Click **Expand Forms** to expand all forms at the same time.&nbsp;
+   Click **Expand Forms** to expand all forms at the same time.  
 
 1. Click **Save Changes**.

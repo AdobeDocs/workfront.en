@@ -240,7 +240,7 @@ For information on about leveling resources in the [!UICONTROL Gantt chart], see
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE:&nbsp;this is drafted because I moved the whole content to the article linked above)</p>
+<p>(NOTE: this is drafted because I moved the whole content to the article linked above)</p>
 <ol>
 <li value="1">Go to the project you want to level.</li>
 <li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> In the <strong>Tasks</strong> area, click the <strong>Gantt chart</strong> icon.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">All changes are saved automatically when the <strong>Autosave</strong> option is enabled. It is enabled by default. </p> </li>

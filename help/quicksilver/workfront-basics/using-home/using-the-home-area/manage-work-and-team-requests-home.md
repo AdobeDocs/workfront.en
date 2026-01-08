@@ -12,8 +12,6 @@ exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
 
 When work tasks and issues are assigned to you, they are listed in the My Work widget, My Tasks widget, and My Issues widget.  You can view, work on, or remove work items and requests. 
 
-+++ Expand to view access requirements for the functionality in this article.
-
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article. 

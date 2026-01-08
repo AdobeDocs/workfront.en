@@ -42,7 +42,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 To enable AI Assistant for a given access level:
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
+{{step-1-to-setup}}
+
 1. Select **Access Levels** in the left navigation.
 1. Select the desired access level, then click the **Edit** ![Edit icon](assets/edit-icon.png) icon above the list. 
 1. In the **Set additional restrictions...** area of the **Edit Access Level** box, uncheck the **Disable the Workfront AI Assistant** checkbox.

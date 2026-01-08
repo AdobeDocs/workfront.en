@@ -233,10 +233,10 @@ You can edit a template task using the Edit Template Task or Template Task Detai
      </tr> 
      <tr> 
       <td role="rowheader"><span style="font-weight: bold;">Start Day</span><span style="font-weight: normal;"> (Optional and conditional)</span> </td> 
-      <td> <p> You can specify the Start Day of a template task only when the Task&nbsp;Constraint is one of the following:</p> 
+      <td> <p> You can specify the Start Day of a template task only when the Task Constraint is one of the following:</p> 
        <ul> 
         <li>Must Start On</li> 
-        <li>Start No&nbsp;Earlier Than</li> 
+        <li>Start No Earlier Than</li> 
         <li>Start No Later Than</li> 
         <li>Fixed Dates</li> 
        </ul> <p>This will correspond to the date within the timeline of the future project when the task will start. For all other constraints, Workfront calculates the Start Day based on predecessor dependency between the tasks. </p> </td> 
@@ -513,10 +513,10 @@ After opening the **Edit Template Task** box in the new experience, consider spe
      </tr> 
      <tr> 
       <td role="rowheader"><span style="font-weight: bold;">Start Day</span><span style="font-weight: normal;"> (Optional and conditional)</span> </td> 
-      <td> <p> You can specify the Start Day of a template task only when the Task&nbsp;Constraint is one of the following:</p> 
+      <td> <p> You can specify the Start Day of a template task only when the Task Constraint is one of the following:</p> 
        <ul> 
         <li>Must Start On</li> 
-        <li>Start No&nbsp;Earlier Than</li> 
+        <li>Start No Earlier Than</li> 
         <li>Start No Later Than</li> 
         <li>Fixed Dates</li> 
        </ul> <p>This will correspond to the date within the timeline of the future project when the task will start. For all other constraints, Workfront calculates the Start Day based on predecessor dependency between the tasks. </p> </td> 

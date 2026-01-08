@@ -151,7 +151,7 @@ When entering your prompt, include the phrase `using (keyword)`.
 |`help`| Returns information from Experience League documentation. |
 |`formula`| Checks and returns formulas for use in Planning, Setup, or custom forms. |
 |`health`| Checks project health with Project Health Advisor. |
-|`summarize`| Summarizes items, such as when uploading a file or summarizing a project. | 
+|`summarize`| Summarizes items, such as when uploading a file or summarizing a project. |
 
 >[!NOTE]
 >
