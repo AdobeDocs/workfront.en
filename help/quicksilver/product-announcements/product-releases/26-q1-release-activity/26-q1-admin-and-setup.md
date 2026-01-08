@@ -89,7 +89,7 @@ If you mark a field inactive:
 >
 >Marking an existing field inactive makes it unavailable to use in reporting elements and custom forms from that point forward. If the inactive field is currently used in a report or a form, the field and its historical data remain in place.
 
-For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+For more information, see [Add or edit a custom field, section break, or widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md).
 
 
 
