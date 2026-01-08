@@ -10,11 +10,47 @@ recommendations: noDisplay, noCatalog
 ---
 # Set up brands for the AI Reviewer
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >This feature is currently in beta. 
 
-You must have Genstudio Foundations provisioned and tied to your org.
+The AI Reviewer uses brand guidelines to evaluate content during the review process. You can create brands in Workfront by uploading PDF files that contain your brand guidelines or by manually entering brand elements.
+
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a system administrator.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+
+## Prerequisites 
+
+* Your organization must have migrated to Adobe IMS (Identity Management System).
+* Your Workfront instance must have Unified Approvals enabled. 
+* Your organization must have GenStudio Foundation.
+* Adobe must have a signed Adobe Gen AI agreement on file.
+    For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
 ## Create a brand using a PDF
 
@@ -40,7 +76,12 @@ You must have Genstudio Foundations provisioned and tied to your org.
 
 ## Create a brand manually
 
-1. (Optional) Click Add manually to create a brand with individual elements. 
+{{step-1-to-setup}}
+
+1. In the left panel, go to **Review and Approval** > **Brands**.
+1. Click **Add brand** in the top-right corner of the screen.
+1. Name the brand.
+1. Click **Add manually** to create a brand with individual elements.
 
 When to use
 Voice guidelines

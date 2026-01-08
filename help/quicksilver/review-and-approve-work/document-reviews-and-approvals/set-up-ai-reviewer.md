@@ -46,7 +46,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Prerequisites
 
-Before you begin, you must set up image brand guidelines in Workfront. <!--For more information, see [add article]. -->
+Before you begin, you must set up image brand guidelines in Workfront. For more information, see [Set up brands for the AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 ## Add an AI reviewer
 
