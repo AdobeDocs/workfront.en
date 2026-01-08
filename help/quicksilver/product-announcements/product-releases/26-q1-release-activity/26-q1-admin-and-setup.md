@@ -16,9 +16,11 @@ For a list of all changes available at this point in the First Quarter 2026 rele
 
 >[!NOTE]
 >
+>This feature is temporarily unavailable in the Preview environment
 >Preview: December 2, 2025 
 >Production fast release: January 14, 2026 
 >Production for everyone: January 15, 2026 
+
 
 You can now enable or disable Priorities for specific users in the Layout Template. If you previously had Priorities disabled for your organization, it will remain disabled in the layout template with this change.
 
