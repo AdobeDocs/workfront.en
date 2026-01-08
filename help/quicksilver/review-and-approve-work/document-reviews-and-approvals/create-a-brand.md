@@ -68,7 +68,7 @@ For more detail about the information in this table, see [Access requirements in
     >
     >Guidelines are generated using your file(s) and generative AI technology and may be inaccurate. Review extracted guidelines for missing or incorrect details and edit them before you publish this brand.
 
-1. When finished, click Publish to make them available for the AI Reviewer.
+1. When finished, click **Publish** to make the brand available for the AI Reviewer.
 
 
 
