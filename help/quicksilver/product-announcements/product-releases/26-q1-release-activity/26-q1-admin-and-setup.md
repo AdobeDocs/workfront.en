@@ -87,7 +87,7 @@ If you mark a field inactive:
 
 >[!NOTE]
 >
->The exclusion from reports, filters, views, and groupings takes place after the field becomes inactive. Existing report elements that use the field are not changed or removed when the field is marked inactive.
+>Marking an existing field inactive makes it unavailable to use in reporting elements and custom forms from that point forward. If the inactive field is currently used in a report or a form, the field and its historical data remain in place.
 
 For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
