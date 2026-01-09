@@ -47,8 +47,18 @@ Depending on what capabilities you want to define for a record type, you can con
    <td> 
 <p>Any Workfront and Planning package</p>
 <p>Any Workflow and Planning package</p>
-<div class="preview">
+
 <p><b>NOTE</b></p>
+
+<p>To configure connectable record types:</p>
+
+<ul> 
+<li><p>Any Workfront and Planning package</p></li>
+Or
+<li><p>Any Workflow package and a Planning Prime or Ultimate package</p></li></ul>
+
+<div class="preview">
+
 <p>To configure global record types:</p>
 
 <ul> 

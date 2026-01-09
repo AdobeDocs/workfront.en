@@ -56,7 +56,7 @@ For information, see one of the following articles:
 <ul> 
 <li><p>Any Workfront package and any Planning package</p></li>
 Or
-<li><p>Any Workflow and any Planning</p></li></ul>
+<li>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
 
 <div class="preview">
 <p>To configure global record types:</p>
