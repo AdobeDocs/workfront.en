@@ -20,7 +20,23 @@ You can enable cross-workspace capabilities for a record type in Adobe Workfront
 
 >[!IMPORTANT]
 >
->There are enhanced Workfront package requirements to be able to enable cross-workspace capabilities for record types in your system. For information, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+>Your organization must purchase the following packages to be able to enable cross-workspace capabilities for record types:
+>
+>* To configure connectable record types:
+>
+>   * Any Workfront package and any Planning package
+>
+>     Or
+>
+>   * Any Workflow and a Planning Prime or Ultimate package
+>* <span class="preview">To configure global record types:</span>
+>  * <span class="preview">Any Workfront package and a Planning Plus package</span>
+>     
+>    Or
+>
+>  * <span class="preview">Any Workflow and a Planning Prime or Ultimate package</span>
+>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. 
+>For information, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 
 
 The following are cross-workspace capabilities of record types:
@@ -39,7 +55,7 @@ Global record types can be added to multiple workspaces from a central or primar
 
 When implementing Workfront Planning for a multi-team organization with common workflows, you might need to define a cohesive structure and metadata for key record types (like Campaigns or Deliverables) that can be added to each team's workspaces to capture and manage their work. 
 
-Also, you might need each team's work to roll up to a central level. 
+You might also need each team's work to roll up to a central level. 
 
 In such a workflow, you can ensure that teams capture their work consistently while unlocking cross-team visibility, without the need to add everything to one workspace, or everyone in the organization to every workspace. You can use global record types to achieve this. 
 

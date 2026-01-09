@@ -40,7 +40,7 @@ Consider the following about connecting record types:
 
     * Two record types. 
 
-        By default, you can connect two record types from the same workspace. You can also set up record types to connect with record types from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md).
+        By default, you can connect two record types from the same workspace. You can also set up record types to connect with record types from other workspaces, if your organization purchased a higher Workfront or Planning package. For more information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
     * A record type and an object type from another application. 
 
 * You can connect Workfront Planning record types with the following object types from the following applications:
