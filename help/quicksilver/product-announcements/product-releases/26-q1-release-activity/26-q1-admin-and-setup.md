@@ -16,9 +16,11 @@ For a list of all changes available at this point in the First Quarter 2026 rele
 
 >[!NOTE]
 >
+>This feature is temporarily unavailable in the Preview environment
 >Preview: December 2, 2025 
 >Production fast release: January 14, 2026 
 >Production for everyone: January 15, 2026 
+
 
 You can now enable or disable Priorities for specific users in the Layout Template. If you previously had Priorities disabled for your organization, it will remain disabled in the layout template with this change.
 
@@ -85,9 +87,9 @@ If you mark a field inactive:
 
 >[!NOTE]
 >
->The exclusion from reports, filters, views, and groupings takes place after the field becomes inactive. Existing report elements that use the field are not changed or removed when the field is marked inactive.
+>Marking an existing field inactive makes it unavailable to use in reporting elements and custom forms from that point forward. If the inactive field is currently used in a report or a form, the field and its historical data remain in place.
 
-For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+For more information, see [Add or edit a custom field, section break, or widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md).
 
 
 

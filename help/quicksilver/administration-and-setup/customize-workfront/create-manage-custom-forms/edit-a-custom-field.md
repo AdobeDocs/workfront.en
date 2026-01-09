@@ -19,7 +19,7 @@ Setting a custom field as Inactive excludes it from reports, filters, and views,
 
 >[!NOTE]
 >
->The exclusion from reports, filters, views, and groupings takes place after the field becomes inactive. Existing report elements that use the field are not changed or removed when the field is marked inactive.
+>Marking an existing field inactive makes it unavailable to use in reporting elements and custom forms from that point forward. If the inactive field is currently used in a report or a form, the field and its historical data remain in place.
 
 If you remove a custom field from a custom form, it still exists on all other forms it was added to, and you can edit it on a form or in the Fields area. For information on deleting a field, see [Delete a custom field or widget from the system](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 

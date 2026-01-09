@@ -98,6 +98,10 @@ Custom forms are limited to 500 fields. A counter on the bottom left displays ho
    >
    >Examples of complex forms include forms with cascading parameters, calculated custom data fields, and multiple value options in a single field.
 
+   >[!NOTE]
+   >
+   >Marking an existing field inactive makes it unavailable to use in reporting elements and custom forms from that point forward. If the inactive field is currently used in a report or a form, the field and its historical data remain in place.
+
 1. To save your changes, click **Apply** and move on to another section to continue building your form.
 
     Or

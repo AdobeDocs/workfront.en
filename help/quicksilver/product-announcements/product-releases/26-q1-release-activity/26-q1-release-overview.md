@@ -54,6 +54,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Manage Priorities in the Layout Template</a>
+            <p><span class="preview">Temporarily unavailable in the Preview environment</span></p>
             <p>You can now enable or disable Priorities for specific users in the Layout Template. If you previously had Priorities disabled for your organization, it will remain disabled in the layout template with this change.</p>
         </td>
         <td>December 18, 2025</td>
@@ -109,6 +110,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Preview</strong></td>
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
+        </tr>
+       <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Set up brands for the AI reviewer in Workfront<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <p>You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.</p>
+            <p>The AI reviewer is currently in beta.</p>
+        </td>
+        <td>January 8, 2026</td>
+        <td>January 8, 2026</td>
+        <td>January 8, 2026</td>
+    </tr> -->
     </tr>
        <tr>
         <td>
@@ -361,7 +373,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Created object links now available in the Requests area and My Requests widget</a>
-            <p>To make it easier for you to go to the object created by a specific request, we've added links to the Created object column. Now, you can click on the link in this column to be taken directly to the created object's page./p>
+            <p>To make it easier for you to go to the object created by a specific request, we've added links to the Created object column. Now, you can click on the link in this column to be taken directly to the created object's page.</p>
         </td>
         <td>December 18, 2025</td>
         <td>January 14, 2026</td>
@@ -406,7 +418,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
-            <p>To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups. </p>
+            <p>To make it easier to ensure to see the information you need, we've added the ability to share views to the new requesting experience. Now, you can share views with other users, teams, or groups. </p>
         </td>
         <td>December 4, 2025</td>
         <td>January 14, 2026</td>
