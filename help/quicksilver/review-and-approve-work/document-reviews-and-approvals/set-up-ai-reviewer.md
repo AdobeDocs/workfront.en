@@ -2,7 +2,7 @@
 product-area: documents
 navigation-topic: approvals
 title: Create AI Reviewers
-description: Once you have at least one brand set up in GenStudio Foundation, you can create multiple AI Reviewers, which you can then assign to approval templates and individual review and approval requests.
+description: Once you have at least one brand set up in Workfront, you can create multiple AI Reviewers, which you can then assign to approval templates and individual review and approval requests.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
