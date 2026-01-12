@@ -77,7 +77,7 @@ Viewing submitted requests differs based on whether you are using the new or leg
 
 ### View submitted requests in the new requesting experience
 
-You can view submitted requests in the Requests area, <span class="preview">which include links to objects created by those requests.</span>
+You can view submitted requests in the Requests area, <span class="preview">which include links to objects created by Planning requests.</span>
 
 To view requests that you or other users have submitted in the new requesting experience:
 
@@ -107,11 +107,15 @@ To view requests that you or other users have submitted in the new requesting ex
 1. (Optional) Check the status of a request by checking the Status column. The following statuses are available in the new requesting experience:
 
    * Draft: This request has not yet been submitted.
-   * Pending Review
-   * In Review
-   * Rejected
-   * In Progress
-   * Complete
+   * Pending Review: (Planning only) This request has approvers, and none of the approvers have opened the request. 
+   * In Review: (Planning only) This request has approvers and at least one approver has opened the request, but no decision has been made. 
+   * Rejected: (Planning only) This request has approvers and has been rejected.
+   * In Progress: 
+      * Workfront Workflow: The request has been converted and the work is ongoing.
+      * Workfront Planning: The request completion is mapped to a specific Planning field, and the field value does not yet match the completion value. 
+
+         For more information, see [Set up Configuration details](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) in the article Create and manage a request form in Adobe Workfront Planning.
+   * Complete: The request is completed.
 
 >[!NOTE]
 >
