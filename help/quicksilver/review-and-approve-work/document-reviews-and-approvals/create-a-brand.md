@@ -43,6 +43,8 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
+<!--Hi @minuganti What user permissions are needed to see this menu item?   I assume the customer still needs to be part of the Genstudio Brand Managers role in Admin Console, but is there specific Workfront permissions required as well?-->
+
 
 ## Prerequisites 
 
@@ -67,7 +69,7 @@ For more detail about the information in this table, see [Access requirements in
 
     >[!IMPORTANT]
     >
-    >Guidelines are generated using your file(s) and generative AI technology and may be inaccurate. Review extracted guidelines for missing or incorrect details and edit them before you publish this brand.
+    >Guidelines are generated using your files and generative AI technology and may be inaccurate. Review extracted guidelines for missing or incorrect details and edit them before you publish this brand.
 
 1. When finished, click **Publish** to make the brand available for the AI Reviewer.
 
@@ -79,23 +81,36 @@ For more detail about the information in this table, see [Access requirements in
 1. Click **Add brand** in the top-right corner of the screen.
 1. Name the brand.
 1. Click **Add manually** to create a brand with individual elements.
+1. Fill in the brand details as needed. You can add the following elements:
 
-When to use
-Voice guidelines
-Image guidelines
-Channel guidelines
-logos
-Colors
+    <table>
+    <tr>
+        <td>When to use</td>
+        <td>Let marketers know when to use this brand.</td>
+    </tr>
+    <tr>
+        <td>Voice guidelines</td>
+        <td>Provide guidance on the tone and style of the brand's voice.</td>
+    </tr>
+    <tr>
+        <td>Image guidelines</td>
+        <td>Specify the types of images that align with the brand's identity.</td>
+    </tr>
+    <tr>
+        <td>Channel guidelines</td>
+        <td>Outline the appropriate channels for brand communication.</td>
+    </tr>
+    <tr>
+        <td>logos</td>
+        <td>Include the official logos associated with the brand.</td>
+    </tr>
+    <tr>
+        <td>Colors</td>
+        <td>Specify the brand's color palette.</td>
+    </tr>
+    </table>
 
-Publish brand
+    ![add brand elements manually](assets/brand-elements.png)
 
 
-customer questions:
-
-Lilly has some questions on this
-
-1- Do brands update directly to GS Brands when updated in WF?  - Yes
-2- Is there a way to block this aspect in WF for users so they have to use brands in GS? - It's the same brands in both places, its just reflected in WF so they dont have to go back and forth. Brands created in GS show here and vice versa
-Yes (once enabled)
-
-
+1. When finished, click **Publish** to make the brand available for the AI Reviewer.
