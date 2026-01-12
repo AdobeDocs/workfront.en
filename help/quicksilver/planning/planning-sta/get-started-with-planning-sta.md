@@ -37,7 +37,7 @@ With the integrated version of Workfront Planning, you can:
 With the stanalone version of Workfront Planning, you can: 
 
 * Use the Workfront Planning Standalone open API to integrate Planning objects with any other applications <!--ask Lilit and I think this is an Integrated benefit also-->
-* 
+
 
 ## Workfront Planning Standalone terminology
 
