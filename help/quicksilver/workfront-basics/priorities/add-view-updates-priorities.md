@@ -17,8 +17,6 @@ Priorities displays work items assigned to you. You cannot see work items assign
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -26,14 +24,14 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront package</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
    <td> 
-   <p>Current: Request or higher for issues <!--and documents-->; Review or higher for all other objects</p>
-   <p>New: Contributor or higher for issues <!--and documents-->: Light or higher for all other objects</p> 
+   <p>Request or higher for issues and documents; Review or higher for all other objects</p>
+   <p>Contributor or higher for issues and documents: Light or higher for all other objects</p> 
    </td> 
   </tr> 
   <tr> 
@@ -47,7 +45,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,9 +79,9 @@ You can add comments and view comments and system updates in an individual work 
 
 1. Click on a work item name to open the **Overview** page.
 1. Locate the **Updates** area in the botton-right corner of the screen.
-1. (Optional) Use the **Comments** tab to updates others have made on the work item.
+1. (Optional) Use the **Comments** tab to view updates others have made on the work item.
 1. (Optional) Use the **System activity** tab to view the system activity related to the work item.
-1. (Optional) To add a comment, go to the **Comment** tab and begin typing in the New comment box. Click **Submit** when you are finished. 
+1. (Optional) To add a comment, go to the **Comment** tab and begin typing in the **New comment** box. Click **Submit** when you are finished. 
 ![Updates area](assets/updates-area-in-overview.png)
 
 ## Reply to a comment
@@ -95,12 +93,12 @@ You can reply to a comment in a work item:
 1. Click on a work item name to open the **Overview** page.
 1. Locate the **Updates** area in the botton-right corner of the screen.
 1. On the **Comments** tab, find the comment you want to reply to, then click **Reply**. 
-1. (Conditional) If you want to reply to bring the content of a message into your reply, click the **More** menu icon ![More menu](assets/more-icon.png) next to the body of the message and choose **Quote reply**.
+1. (Conditional) If you want to bring the content of a message into your reply, click the **More** menu icon ![More menu](assets/more-icon.png) next to the body of the message and choose **Quote reply**.
     
 1. Type your reply, then click **Submit**. 
 
     >[!IMPORTANT]
     >
-    >You can edit your comment only within 15 minutes from submitting it. To edit a comment, click the More menu in the upper-right corner of the comment, then click Edit.
+    >You can edit your comment only within 15 minutes from submitting it. To edit a comment, click the **More** menu in the upper-right corner of the comment, then click **Edit**.
 
     ![Reply to comment](assets/reply-to-comment.png)

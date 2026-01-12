@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: Overview of converting issues in Adobe Workfront
+title: Overview of Converting Issues in Adobe Workfront
 description: If more work needs to be done to complete an issue after the issue is submitted, you can convert the issue to a project or to a task.
 author: Alina
 feature: Work Management
@@ -11,11 +11,13 @@ exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
 ---
 # Overview of converting issues in Adobe Workfront
 
+<!--Audited: 08/2025-->
+
 If more work needs to be done to complete an issue after the issue is submitted, you can convert the issue to a project or to a task.
 
-For information about converting issues to tasks, see [Convert an issue to a task in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
+For information about converting issues to tasks, see [Convert an issue to a task](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
 
-For information about converting issues to projects, see [Convert an issue to a project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+For information about converting issues to projects, see [Convert an issue to a project](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Considerations when converting issues
 
@@ -45,7 +47,7 @@ For information about converting issues to projects, see [Convert an issue to a 
    * Versions
    * Proofs are included only when the option **Keep the original issue and tie its resolution to this task** is unselected.
    * Document approvals are not included when you convert an issue that has documents and document links attached.
-
+* There is a 5-minute processing limit when converting an issue. If the issue has a large number of documents attached to it and fails to convert, you might need to remove some of the documents and try again.
 * If you decided to keep the issue in the conversion and it has documents attached, the document and its versions are copied to the project or the task. The proofs and the document approvals are not copied to the project or the task.  
 * If you decided to not keep the issue in the conversion, and it has documents attached, the document, its versions, and the proofs transfer to the project or the task. The document approvals will not transfer to the project or the task.  
 * If you have documents and folders linked to the original issue from third party services, like Google Drive, regardless of whether you are keeping the issue or not during the conversion, those links will be copied to the new object.
@@ -56,7 +58,7 @@ For information about converting issues to projects, see [Convert an issue to a 
 
 When converting an issue to a project, you can either convert it to a blank project or use a template.
 
-For information, see [Convert an issue to a project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+For information, see [Convert an issue to a project](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 When using a template, some fields that are populated on the template transfer to the project created from the converted issue. Other fields transfer to the project from the converted issue.
 

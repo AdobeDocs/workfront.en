@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Manage Subtasks on Boards
 description: Using subtasks on cards allows you to establish a parent-child relationship between tasks and create a hierarchy of work.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
 ---
@@ -17,24 +17,21 @@ Subtasks are only available on connected cards, and they are not available on is
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-   <p>New: [!UICONTROL Contributor] or higher</p> 
-   <p>or</p>
-   <p>Current: [!UICONTROL Request] or higher</p>
+   <p>Contributor or higher</p> 
+   <p>Request or higher</p>
    </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 

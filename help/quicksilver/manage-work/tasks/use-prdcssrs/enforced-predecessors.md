@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: use-predecessors
-title: Enforce predecessors
+title: Enforce Predecessors
 description: Predecessors are tasks on which other tasks are dependent for completion. Predecessor relationships affect the Start and Completion Dates of the tasks and ultimately impact the timeline of the project.
 author: Alina
 feature: Work Management
@@ -9,7 +9,7 @@ exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
 ---
 # Enforce predecessors
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 11/2025 -->
 
 Predecessors are tasks on which other tasks are dependent for completion. Predecessor relationships affect the Start and Completion Dates of the tasks and ultimately impact the timeline of the project.
 
@@ -33,7 +33,35 @@ If a predecessor is enforced, the successor task cannot start before the predece
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p> 
+   <p>Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks and Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the tasks and the project</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,11 +88,7 @@ You must have the following access to perform the steps in this article:
    <td><p>Manage permissions to the tasks and the project</p></td> 
   </tr> 
  </tbody> 
-</table>
-
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Enforce a predecessor at the task level
 
@@ -89,4 +113,6 @@ For more detail about the information in this table, see [Access requirements in
 1. In the **Predecessors** column, start entering the number of the predecessor task followed by "e". For example, type "1e" to add task number 1 as a predecessor to the selected task. 
 1. Click Enter to save your predecessor information for the task.
 
-   ![predecessor_enforced_in_list.png](assets/predecessor-enforced-in-list-350x308.png)
+   ![Predecessor enforced list](assets/predecessor-enforced-in-list-350x308.png)
+
+   The information about the predecessor being enforced is immediately saved.

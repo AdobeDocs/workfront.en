@@ -18,6 +18,7 @@ You can organize information in reports in Adobe Workfront. You can place multip
 
 For more information about reports and dashboards, see the articles in the following subsections:
 
+* [Canvas Dashboards](../reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
 * [Reports](../reports-and-dashboards/reports/reports-overview.md) 
 * [Dashboards](../reports-and-dashboards/dashboards/dashboards-overview.md)
-* [Canvas Dashboards](../reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+

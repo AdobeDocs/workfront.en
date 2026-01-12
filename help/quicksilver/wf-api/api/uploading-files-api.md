@@ -16,7 +16,7 @@ To upload documents, see the instructions for **Uploading Documents** in WorkFro
 
 **When using API tools to upload files, follow these guidelines:**
 
-* Use your API tool option to upload your file. These is often a **Choose File** button on the request screen. 
+* Use your API tool option to upload your file. There is often a **Choose File** button on the request screen. 
 
 * Use the POST HTTP method to make the request to upload the file. 
 
@@ -25,12 +25,12 @@ To upload documents, see the instructions for **Uploading Documents** in WorkFro
 * Use the handle value, the object type, and the GUID value for the objID in a JSON payload to make a subsequent call. This is for creating the object for your file, as in the following example:
 
 ```
-}
+{
 "name": "TestPDF",
 "handle": "7af257e64aba4a22c33ccdfc40bbb87",
 "docObjCode": "PROJ",
 "objID": "0398450f8345980843445534354",
-"currentVersion": {"version": "v1.0", "fileName" : "TestPDF"},
+"currentVersion": {"version": "1", "fileName" : "TestPDF"},
 }
 ```     
         

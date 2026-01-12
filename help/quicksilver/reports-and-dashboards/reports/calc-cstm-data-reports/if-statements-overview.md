@@ -4,7 +4,7 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: IF statements overview
 description: You can use "IF" statements in general programming languages. In Adobe Workfront, "IF" statements allow you to compare, format, and string together fields of data for both reporting and custom data purposes. Also, thinking mathematically about "IF" statements leads to a better conceptual understanding since variables for expressions are commonly used.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
 ---

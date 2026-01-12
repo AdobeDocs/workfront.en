@@ -8,6 +8,8 @@ exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
 ---
 # Export custom forms and object details
 
+<!--Audited: 10/2025-->
+
 You can export the Overview and the custom form information from the Details section of an object to a PDF file. You can then print or share the PDF with other users.
 
 This functionality is supported for the following objects:
@@ -28,8 +30,42 @@ This functionality is supported for the following objects:
 
 ## Access requirements
 
-You must have the following:
++++ Expand to view access requirements for the functionality in this article.
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront package</p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront license</p> </td> 
+   <td><p>For issues:</p>
+   <ul><li><p>Contributor or higher</p></li>
+   <li><p>Requestor or higher</p> </li></ul>
+   <p>For projects and tasks:</p>
+   <ul><li><p>Light or higher</p></li>
+   <li><p>Reviewer or higher</p></li></ul>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View or higher for Projects, Tasks, and Issues</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Object permissions</p> </td> 
+   <td> <p>View or higher permissions to the project, task, or issue whose form you want to export</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -51,9 +87,7 @@ You must have the following:
    <td> <p>View or higher permissions to the project, task, or issue whose form you want to export</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+</table>-->
 
 ## Prerequisites
 

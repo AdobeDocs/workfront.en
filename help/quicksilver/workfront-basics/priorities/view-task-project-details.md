@@ -22,8 +22,6 @@ Priorities displays work items assigned to you. You cannot see work items assign
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -31,14 +29,14 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront package</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
    <td> 
-   <p>Current: Reviewer or higher</p>
-   <p>New: Light or higher</p> 
+   <p>Reviewer or higher</p>
+   <p>Light or higher</p> 
    </td> 
   </tr> 
   <tr> 
@@ -52,7 +50,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,7 +66,7 @@ You must have the following access to perform the steps in this article:
     * View and add comments on the project
     * Log time
     * Add a file
-    * <span class="preview">Go directly to the project</span>
+    * Go directly to the project
 
     ![project details](assets/project-details-new.png)
 
@@ -95,7 +93,7 @@ You must have the following access to perform the steps in this article:
 
 1. In the worklist, hover over the work name, then click **Summary** icon ![open summary icon](assets/summary-icon.png).
 
-1. Issue is selected by default. Here you can
+1. Issue is selected by default. Here you can:
     * View and edit project and issue details and description
     * View and add comments on the project
     * View and add documents
@@ -110,7 +108,7 @@ You must have the following access to perform the steps in this article:
 
 You can view real-time updates on the Details page of a task or issue. You can also see if others are viewing the page at the same time as you with real-time presence indicators.
 
-## View work item details
+### View work item details
 
 {{step1-to-priorities}}
 

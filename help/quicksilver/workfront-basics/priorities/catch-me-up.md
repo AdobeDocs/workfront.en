@@ -9,7 +9,7 @@ exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
 ---
 # Catch up on work in Priorities
 
-Catch me up—-powered by Workfront's AI Assistant—summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days, which helps reduce the amount of time looking for information on active projects.
+Catch me up—powered by Workfront's AI Assistant—summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days. This helps reduce the amount of time looking for information on active projects.
 
 >[!NOTE]
 >
@@ -17,23 +17,19 @@ Catch me up—-powered by Workfront's AI Assistant—summarizes updates, uploade
 
 ## Access requirements
 
-+++You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td><p>New: Any</p>
-       <p>or</p>
-       <p>Current: Not available</p></td>
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td>Any</td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p>
-       <p>or</p>
-       <p>Current: Not available</p></td>
+   <td><p>Standard</td>
   </tr> 
  </tbody> 
 </table>
@@ -49,9 +45,12 @@ For more detail about the information in this table, see [Access requirements in
 
 1. At the top of the page, click the **Catch me up**.
     ![catch me up button](assets/catch-me-up-button.png)
-1. Choose the timeframe you want to summarize:
-    1. 24 hours
-    1. 3 Days
-    1. 7 Days
+1. Select the desired timeframe:
+    * **Summarize the last 24 hours**
+    * **Summarize the last 3 Days**
+    * **Summarize the last 7 Days**
 
-   If you cannot interact with this panel, your organization does not have a signed Adobe Gen AI agreement on file.
+    >[!NOTE]
+    >
+    > If you cannot interact with this panel, your organization does not have a signed Adobe Gen AI agreement on file.
+

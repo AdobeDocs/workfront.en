@@ -1,8 +1,7 @@
 ---
 title: Projects FAQs
-description: Projects FAQs
+description: This article contains the most common frequently-asked questions about projects in Adobe Workfront.
 author: Alina
-draft: Probably
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
 ---
@@ -45,7 +44,7 @@ You cannot change the status of a project to complete if you have any of the fol
 
 ### Answer
 
-If the project has the Completion Mode set to Automatic, once all the tasks and issues are completed, the status of the project automatically turns to Complete and you cannot modify it to any other status. The Completion&nbsp;Mode of the project must be set to Manual to be able to turn a complete project to Current. For information, see [Project status will not change from Complete to Current](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
+If the project has the Completion Mode set to Automatic, once all the tasks and issues are completed, the status of the project automatically turns to Complete and you cannot modify it to any other status. The Completion Mode of the project must be set to Manual to be able to turn a complete project to Current. For information, see [Project status will not change from Complete to Current](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
 
 ## Why can I not add a Project to a Portfolio, although I have the correct permissions to do so?
 

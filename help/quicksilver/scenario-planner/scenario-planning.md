@@ -2,14 +2,14 @@
 content-type: reference
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Adobe Workfront Scenario Planner
+title: "Adobe Workfront Scenario Planner: Article Index"
 description: A list of articles that describe functionality about the Workfront Scenario Planner.
 author: Alina
 feature: Workfront Scenario Planner
 recommendations: noDisplay, noCatalog
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
 ---
-# [!DNL Adobe Workfront Scenario Planner]
+# [!DNL Adobe Workfront Scenario Planner]: article index
 
 This section contains the following articles:
 
@@ -27,11 +27,11 @@ This section contains the following articles:
 * [Delete initiatives in the [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md) 
 * [Resolve initiative conflicts in the [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md) 
 * [Import projects to plans in the [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) 
-* [Request access to a plan in the [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md) 
+* [Request permissions to a plan in the [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md) 
 * [Share a plan in the [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) 
 * [Update or create projects by publishing initiatives in the [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) 
 * [Overview of reconciling resource allocations between projects and initiatives](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md) 
 * [Show role allocation for projects and initiatives in the task list](../scenario-planner/show-role-allocation-task-list-nwe.md) 
 * [Show role allocation for projects and initiatives in the [!UICONTROL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md)
 
-&nbsp;
+ 

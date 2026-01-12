@@ -135,7 +135,7 @@ To learn about this, continue working on the sample custom form you created in t
 
    *Membership* 
 
-1. Open the **Add a field** tab, create a **Text Field with Formatting **field called*What is the goal for the website?*, then click **Apply**.
+1. Open the **Add a field** tab, create a **Text Field with Formatting** field called *What is the goal for the website?*, then click **Apply**.
 
    In this organization, a Help documentation site is created by the Technical Writing team, not the Marketing department. So no further information is needed from a user who selects Help documentation in the second field. We will create a line of text (a descriptive text field) telling them to see the Technical Writing team instead. And we will use a skip logic rule that skips that user to that line of text.
 

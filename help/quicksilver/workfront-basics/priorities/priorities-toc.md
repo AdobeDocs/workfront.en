@@ -11,7 +11,6 @@ exl-id: 26f13890-5d79-44b6-9cf8-70ef05e4564d
 
 This section contains the following subsections:
 
-* [Priorities: Upcoming releases](/help/quicksilver/workfront-basics/priorities/priorities-upcoming-releases.md)
 * [Get started with Priorities](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 * [View project and work item details in Priorities](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)
 * [Filter and group your work in Priorities](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)

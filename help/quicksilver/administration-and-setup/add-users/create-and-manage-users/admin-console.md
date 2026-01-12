@@ -33,8 +33,6 @@ When making changes to users' profiles from the Admin Console, an update is adde
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -42,8 +40,8 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any<p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe administrator rights</td> 
@@ -52,7 +50,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -154,7 +152,8 @@ You must add a user to your Production instance of Workfront before you can make
 
    >[!IMPORTANT]
    >
-   >Do not make any changes to the Product Profile itself.
+   >* Do not make any changes to the Product Profile itself.
+   >* Ensure that you are on the page with the header "Add product profile administrators." Product administrators serve a different function than product profile administrators in the Adobe Admin Console, and are not discussed in this article. 
 
 
 ## Create users in Workfront with the Adobe Admin Console {#create-users-in-workfront-with-the-adobe-admin-console}

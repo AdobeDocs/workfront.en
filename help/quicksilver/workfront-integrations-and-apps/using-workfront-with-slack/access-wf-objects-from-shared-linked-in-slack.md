@@ -19,24 +19,26 @@ When a user is sharing a link to an object in [!DNL Workfront] with you, additio
 
 ## Access requirements
 
-You must have the following access to use the functionality described in this article:
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Any</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites
 
@@ -64,7 +66,7 @@ Before you can access your favorites and recent items from [!DNL Slack], you mus
 
    * **[!UICONTROL Planned Completion Date]**: For more information about the Planned Completion Date, see [Set the project Planned Completion Date](../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
-   * **[!UICONTROL Portfolio]** Name: For more information about portfolios, see [Portfolio overview in Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+   * **[!UICONTROL Portfolio]** Name: For more information about portfolios, see [Understand portfolio methodology](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
    * **[!UICONTROL Condition]**: For more information about Project Condition, see [Overview of Project Condition and Condition Type](../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 

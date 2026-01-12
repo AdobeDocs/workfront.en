@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: As the Adobe Workfront administrator, sometimes you might need to access Workfront on behalf of another user.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
@@ -42,31 +42,31 @@ Some users, such as executives, need to be able to control which administrators 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: Standard</p>
-   <p>Or</p>
-   <p>Current: Plan</p></td> 
-  </tr> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td> 
+  </tr>
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>With the System Administrator access level, you can log in as anyone.</p> <p>With a Standard or Planner access level, you can log in as a user with a lower license level if the Users setting in the access level is configured to Edit access, with Create and at least one of the two User Admin options enabled under Fine-tune your settings <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p>NOTE: Of these two options, if User Admin (Group Users) is enabled, you must be a group administrator of a group where the user is a member.</p></td>
+   <td>Access level configurations</td> 
+   <td> <p>You must have one of the following:</p> 
+    <ul> 
+     <li> <p>The System Administrator access level. This allows you to log in as anyone.</li> 
+     <li> <p><b>Users</b> setting in your access level configured to <b>Edit</b> access, with <b>Create</b> and at least one of the two <b>User Admin</b> options enabled under <b>Fine-tune your settings</b> <img src="assets/gear-icon-in-access-levels.png">. This allows you to log in as a user with a lower license level. </p> <p>Of these two options, if <b>User Admin (Group Users)</b> is enabled, you must be a group administrator of a group where the user is a member.</p> </li> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

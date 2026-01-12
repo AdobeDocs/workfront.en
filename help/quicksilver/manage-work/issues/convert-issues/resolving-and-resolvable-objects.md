@@ -10,7 +10,7 @@ exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
 ---
 # Overview of Resolving and Resolvable Objects
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 08/2025 -->
 
 A Resolvable Object is an issue whose resolution is tied to a Resolving Object. A Resolving Object is a project, task, or another issue.
 
@@ -34,7 +34,7 @@ For information about setting up preferences for handling Resolvable Objects, se
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: drafted and just pointed the user to the article linked above)&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: drafted and just pointed the user to the article linked above) </p>
 <p>To establish the system default for what happens to the issue as it is being converted to a task or a project:</p>
 <ol>
 <li value="1">Log in to Workfront as a Workfront administrator <span>or group administrator.</span></li>
@@ -70,7 +70,7 @@ The default status of the issue is controlled by the status of the project or ta
 
 ## Handle the Resolvable Object during the conversion to a project or a task
 
-Depending on the way the Workfront or group administrator configured the system or group level issue preferences, you might be able to handle the resolvable object during the conversion of an issue to a project or a task.   
+Depending on the way the Workfront or group administrator configured the system- or group-level Issue Preferences, you might be able to handle the resolvable object during the conversion of an issue to a project or a task.   
 
 The following scenarios exist:
 
@@ -101,7 +101,7 @@ For more information about converting issues to tasks and projects, see [Overvie
 <li><p><strong>Issue</strong></p></li>
 </ul><p>The field for the resolving object displays. </p></li>
 <li value="5">After selecting the object, start typing the name of a specific project, task, or issue in the available field and select it when it appears in the drop-down list. </li>
-<li value="6">Click <strong>Save</strong>&nbsp;<strong>Changes</strong>.<br>The original issue becomes the Resolvable Object for the project, task, or issue you selected in step 4 and 5.<br><note type="note">
+<li value="6">Click <strong>Save</strong> <strong>Changes</strong>.<br>The original issue becomes the Resolvable Object for the project, task, or issue you selected in step 4 and 5.<br><note type="note">
 One project, task, or issue may have multiple issues as Resolvable Objects.
 </note></li>
 </ol>

@@ -23,28 +23,27 @@ You can't create billing records for tasks; you can only create billing records 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Adobe Workfront package</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td>Adobe Workfront license</td> 
    <td>
-   <p>New: Standard</p>
-   <p>or</p>
-   <p>Current: Plan</p></td> 
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Access level configurations</td> 
    <td>Edit access to Projects and Financial Data</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td>Object permissions</td> 
    <td>Manage permissions to the project with permissions to Manage Finance</td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +69,7 @@ Consider the following when planning to use billing records:
 1. On the **Projects** page, select a project.
 1. Click **Billing Records** in the left panel.
 1. Click **New Billing Record**.
-1. In the **New Billing Record** box that displays, specify the following information:
+1. In the **New billing record** box that displays, enter the following information:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -81,20 +80,20 @@ Consider the following when planning to use billing records:
       <td>(Required) Enter a description for the billing record.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Billing Status</td> 
+      <td role="rowheader">Billing status</td> 
       <td> <p>Select <strong>Not Billed</strong> if this record hasn't been billed yet.</p> <p>Select <strong>Billed</strong> if the billing record has been billed.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Billing Date</td> 
+      <td role="rowheader">Billing date</td> 
       <td>Select the date that this billing record was billed by clicking the calendar icon.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">PO Number</td> 
-      <td>Enter the PO Number associated with this billing record.</td> 
+      <td role="rowheader">PO number</td> 
+      <td>Enter the PO number associated with this billing record.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Invoice ID</td> 
-      <td>Enter the Invoice associated with this billing record.</td> 
+      <td>Enter the invoice associated with this billing record.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Additional Amount</td> 
@@ -118,7 +117,7 @@ You can include hours that have been logged on tasks, issues, or the project in 
 If the user who logs the hours or their primary job role is associated with a Billing per Hour Rate, the revenue from these hours is added to the billing record.
 
 * [What hours can be added to a billing record](#what-hours-can-be-added-to-a-billing-record) 
-* [Add Hours to a billing record](#add-hours-to-a-billing-record)
+* [Add hours to a billing record](#add-hours-to-a-billing-record)
 
 #### What hours can be added to a billing record {#what-hours-can-be-added-to-a-billing-record}
 

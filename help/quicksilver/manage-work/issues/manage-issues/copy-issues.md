@@ -1,13 +1,15 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Copy issues
+title: Copy Issues
 description: You can copy an issue or a request and save them on the same or another project. You can also copy an issue from a task to another project.
 author: Alina
 feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
 ---
 # Copy issues
+
+<!--Audited: 08/2025-->
 
 You can copy an issue or a request and save them on the same or another project. You can also copy an issue from a task to another project.
 
@@ -24,7 +26,41 @@ You can copy issues from the following objects:
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+   <ul><li><p>Contributor or higher</p> </li>
+   <li><p>Light or higher license to copy an issue in the Issues section of a project</p></li></ul>
+   Or
+   <ul><li><p>Requestor or higher</p> </li>
+   <li><p>Reviewer or higher license to copy an issue in the Issues section of a project</p></li></ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are copying the issue to with the ability to Add Issues.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,9 +83,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are copying the issue to with the ability to Add Issues.</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+</table>-->
 
 ## Considerations when copying issues
 
@@ -103,7 +137,7 @@ You can copy one or multiple issues from a list of issues or from an issue repor
 
 You can copy one issue when viewing it.
 
-1. Go to an issue that you want to copy, then click the **More** menu ![More menu](assets/more-icon.png) to the right of the issue name, then **Copy** to.
+1. Go to an issue that you want to copy, then click the **More** menu ![More menu](assets/more-icon.png) to the right of the issue name, then **Copy to**.
 
    ![Copy at issue level](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 

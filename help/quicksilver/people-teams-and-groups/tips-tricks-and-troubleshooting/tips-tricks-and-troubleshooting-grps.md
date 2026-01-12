@@ -4,7 +4,7 @@ product-area: user-management
 navigation-topic: people-teams-and-groups
 title: Tips, Tricks, and Troubleshooting for Teams and Groups
 description: Review these article for troubleshooting tips on Teams and Groups.
-author: Lisa
+author: Becky
 feature: People Teams and Groups
 recommendations: noDisplay, noCatalog
 exl-id: 439ed2b6-3580-4239-931e-125b725a7866

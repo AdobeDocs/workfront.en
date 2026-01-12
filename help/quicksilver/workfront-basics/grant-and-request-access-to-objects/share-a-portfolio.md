@@ -2,7 +2,6 @@
 title: Share a portfolio
 description: You can share a portfolio with other users if you have permissions to access it. 
 author: Courtney
-draft: Probably
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
 ---
@@ -19,21 +18,18 @@ Permissions are specific to one item in Workfront and define which actions users
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following to share objects:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any </p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: Standard</p> 
-   Or
-   <p>Current: Work or higher</p>
+   <td> <p>Standard</p> 
+   <p>Work or higher</p> 
    </td> 
   </tr> 
   <tr> 
@@ -47,7 +43,7 @@ You must have the following to share objects:
  </tbody> 
 </table>
 
-For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -144,19 +140,19 @@ The following table displays what permissions you can grant users when allowing 
 
 | **Actions** |**Manage** |**View** |
 |---|---|---|
-| Edit Portfolio details |✓ |&nbsp; |
+| Edit Portfolio details |✓ |   |
 | View a Portfolio |✓ |✓ |
-| Delete a Portfolio |✓ |&nbsp; |
-| Attach a Custom Form |✓ |&nbsp; |
-| Edit a custom field |✓ |&nbsp; |
-| Add or remove a program&#42; |✓ |&nbsp; |
-| Add or remove a project&#42; |✓ |&nbsp; |
-| Approve a project |✓ |&nbsp; |
-| Portfolio optimization&#42; |✓ |&nbsp; |
+| Delete a Portfolio |✓ |   |
+| Attach a Custom Form |✓ |   |
+| Edit a custom field |✓ |   |
+| Add or remove a program&#42; |✓ |   |
+| Add or remove a project&#42; |✓ |   |
+| Approve a project |✓ |   |
+| Portfolio optimization&#42; |✓ |   |
 | Add a document folder&#42; |✓ |✓ |
 | Add a document |✓ |✓ |
 | Updates/ comments |✓ |✓ |
 | Share |✓ |✓ |
-| Share system-wide |&nbsp; |✓ |
+| Share system-wide |   |✓ |
 
 *These permissions are controlled by the access level and permissions on other objects, like projects, programs, documents.

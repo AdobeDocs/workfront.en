@@ -24,27 +24,27 @@ The total amount of your expenses from all the tasks and project contributes to 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Adobe Workfront package</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td>Adobe Workfront license</td> 
    <td>
-   <p>New: Standard</p>
-   <p>Current: Work or higher</p></td> 
+   <p>Standard</p>
+   <p>Work or higher</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Access level configurations</td> 
    <td>Edit access to Projects and Financial Data</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td>Contribute or higher permissions to the project with permissions to View or Manage Finance</td> 
+   <td>Object permissions</td> 
+   <td>Contribute or higher permissions to the project, with permissions to View or Manage Finance</td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

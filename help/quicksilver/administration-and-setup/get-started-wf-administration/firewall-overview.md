@@ -47,11 +47,11 @@ Provide your network administrator with the following information:
   </tr> 
   <tr> 
    <td role="rowheader">Your cluster</td> 
-   <td>To locate your organization's cluster, see <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">View your organization's cluster and Workfront plan</a>.</td> 
+   <td>To locate your organization's cluster, see <a href="#view-your-organization-s-cluster-and-workfront-package" class="MCXref xref">View your organization's cluster and Workfront package</a>.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Your Workfront Plan</td> 
-   <td> <p>To locate your organization's plan, see <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">View your organization's cluster and Workfront plan.</a></p> </td> 
+   <td role="rowheader">Your Workfront Package</td> 
+   <td> <p>To locate your organization's package, see <a href="#view-your-organization-s-cluster-and-workfront-package" class="MCXref xref">View your organization's cluster and Workfront package.</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Your domain</td> 
@@ -87,7 +87,7 @@ Provide your network administrator with the following information:
 >
 >If you add any of these products, integrations, or functionalities at a later date, you must contact your network administrator so they can adjust the allowlist.
 
-### View your organization's cluster and Workfront plan {#view-your-organization-s-cluster-and-workfront-plan}
+### View your organization's cluster and Workfront package {#view-your-organization-s-cluster-and-workfront-package}
 
 {{step-1-to-setup}}
 
@@ -98,8 +98,8 @@ Provide your network administrator with the following information:
 
    ![Locate cluster](assets/locate-cluster.png)
 
-1. To view your Workfront plan, select **Licenses**.
+1. To view your Workfront package, select **Licenses**.
 
-   Your plan displays near the upper-right corner of the page.
+   Your package displays near the upper-right corner of the page.
 
    ![Locate plan](assets/locate-plan.png)

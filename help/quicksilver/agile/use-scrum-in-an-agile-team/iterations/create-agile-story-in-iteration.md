@@ -2,36 +2,33 @@
 product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: Create an Agile story in an Iteration
-description: This article describes how to create a new agile story when you are already in the iteration.
-author: Lisa
+description: This article describes how to create a new Agile story when you are already in the iteration.
+author: Jenny
 feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
 ---
-# Create an agile story in an iteration
+# Create an Agile story in an iteration
 
-This article describes how to create a new agile story when you are already in the iteration. For information about creating an agile story from a task, issue, or other area of [!DNL Adobe Workfront], see [Add stories to an existing iteration](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+This article describes how to create a new Agile story when you are already in the iteration. For information about creating an Agile story from a task, issue, or other area of [!DNL Adobe Workfront], see [Add stories to an existing iteration](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>New: [!UICONTROL Standard]</p> 
-   or
-   <p>Current: [!UICONTROL Work] or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p> 
+   <p>Work or higher</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td>[!UICONTROL Manage] access to the project the story is on </td> 
+   <td>Manage access to the project the story is on </td> 
   </tr>
  </tbody> 
 </table>
@@ -40,9 +37,9 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Create an agile story in an iteration
+## Create an Agile story in an iteration
 
-1. Go to the agile iteration where you want to create the story:
+1. Go to the Agile iteration where you want to create the story:
 
    {{step1-to-team}}
 

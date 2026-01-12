@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: "Projects: article index"
+title: "Projects: Article Index"
 description: Find out information about projects in the following sections.
 author: Alina
 feature: Work Management

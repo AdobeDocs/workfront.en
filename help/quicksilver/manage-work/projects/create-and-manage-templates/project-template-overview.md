@@ -31,9 +31,9 @@ The following are some of the benefits of using templates for creating your proj
    * Approvals
    * Queue Details
    * Queue Topics
-   * Topic&nbsp;Groups
+   * Topic Groups
    * Routing Rules
-   * Custom&nbsp;Forms
+   * Custom Forms
    * Company and Group information
 
 ## Best practices for creating templates
@@ -44,7 +44,7 @@ The following are some of the benefits of using templates for creating your proj
 
 Consider the following when creating templates:
 
-* Don't assign users to template tasks.&nbsp;Although you can leave the tasks unassigned, we recommend that you assign job roles to tasks. This will give you an idea what users might be able to be assigned to the tasks when you create the project using the template.
+* Don't assign users to template tasks. Although you can leave the tasks unassigned, we recommend that you assign job roles to tasks. This will give you an idea what users might be able to be assigned to the tasks when you create the project using the template.
 * Always give your template tasks a Duration and Planned Hours value. Every task in the project should be associates with a duration for how long the task can stay open and with a Planned Hour value for how much time will actually take for the task to complete. Tasks without this information cannot be properly budgeted for resources when using resource management tools in Workfront.
 
   For information about Duration, see the following articles:

@@ -11,7 +11,7 @@ exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
 ---
 # Create an approval process for work items
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 08/2025-->
 
 <!--see below the "hidden" content for the redesigned tabs - August 2023--> 
 
@@ -38,7 +38,38 @@ For information about approvals associated with documents or proofs, see the fol
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article: 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package*</td> 
+   <td><p>For system-level or single-use approval process:</p><ul><li><p>Any package</p></li></ul>
+   <p>For group-level approval process:</p>
+   <ul><li><p>Workflow Prime or Ultimate</p></li>
+   <li><p>Workfront Prime or Ultimate</p></li></ul>
+   </td> 
+   
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+ <p>Plan</p> 
+</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>If you are a system administrator or you have administrative access to Approval processes, you can create a system-level approval process, or a group-level approval process for a particular group.</p> 
+   <p>If you are a group administrator and you have administrative access to Approval processes, you can create group-level approval processes for groups that you manage.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -64,9 +95,8 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-+++
 
 ## Create a system-level or group-level global approval process for work items
 
@@ -93,7 +123,7 @@ For more detail about the information in this table, see [Access requirements in
     <tbody> 
      <tr> 
       <td role="rowheader">Approval process name</td> 
-      <td><p>Type a descriptive name for the approval process. Users see this name when applying the approval process to an object, as described in <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associate a new or existing approval process with work</a>.</p></td> 
+      <td><p>Type a descriptive name for the approval process. Users see this name when applying the approval process to an object, as described in <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associate a new or existing approval process with work</a>.</p> <p> This is a required field. </p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
@@ -110,8 +140,9 @@ For more detail about the information in this table, see [Access requirements in
        <li>If you are a system administrator or you have administrative access to approval processes, you can see any group in the system when you type its name. <b>All groups</b> is selected by default. </li> 
        <li>If you are a group administrator without administrative access to approval processes, you can assign the approval process to any group you manage when you type its name. The <b>All Groups</b> option is not available.</li> 
        </ul> 
+       <p>This is a required field.</p>
        <p>This option is not available for single-use approval processes.</p> 
-       <p><b>WARNING</b>: When you make changes to the group-specific approval process, the existing approval processes that have already been associated with work items might change. For information about these changes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>.</p> 
+       <p><b>WARNING</b></p> <p> When you make changes to the group-specific approval process, the existing approval processes that have already been associated with work items might change. For information about these changes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>.</p> 
        <p>For information about listing and managing your group's approval processes from your group's page, see <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Group-level approval processes</a>. </p> 
        <p>For information about administrative access to approval processes, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
      </tr> 
@@ -128,7 +159,9 @@ For more detail about the information in this table, see [Access requirements in
     <tbody> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Start approval process when the status is set to</p> </td> 
-      <td> <p>Select the status that will trigger the approval process on work items. When someone updates a work item to this status, its approval process begins. </p> <p>The same status cannot be selected for multiple approval process paths.</p> <p>The statuses available are based on what is selected under the option <b>This approval can be used by</b> (explained in the table above):</p> 
+      <td> <p>Select the status that will trigger the approval process on work items. When someone updates a work item to this status, its approval process begins. </p> 
+      <p>This is a required field. </p>
+      <p>The same status cannot be selected for multiple approval process paths.</p> <p>The statuses available are based on what is selected under the option <b>This approval can be used by</b> (explained in the table above):</p> 
        <ul> 
        <li> If <b>All groups</b> is selected, only system-wide statuses are available
        <li> <p>If a specific group is selected, only the statuses available for that group are available</p> </li> 
@@ -141,17 +174,18 @@ For more detail about the information in this table, see [Access requirements in
      <tr> 
       <td role="rowheader">Approvers</td> 
       <td> <p>Begin typing the name of the user, team, or job role that you want to designate as an approver for this stage, then click the name when it appears in the drop-down list. You can add only active users, <span>job roles</span>, and teams. </p> 
+      <p>This is a required field.</p>
 
-      <p><b>TIP</b>:</p>
+      <p><b>TIP</b></p>
 
       <p>When adding a user as an approver, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</p>
       <p>You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Grant access to users</a>. </p>
       
-      <p><b>NOTE</b>:
+      <p><b>NOTE</b>
       
       Adding a user, team, or role as an approver does not automatically give them permissions to the object associated with that approval. They receive permissions to the object when the approval step is triggered. Otherwise, the objects must be shared with them before they can make an approval decision. </p> <p>You can also designate an individual as an approver by specifying the individual's role. For example, you can assign a Project Owner, Project Sponsor, Portfolio Owner, Program Owner, or Manager as an approver. These options automatically appear when you begin typing.</p> 
       
-      <p><b>IMPORTANT</b>:  
+      <p><b>IMPORTANT</b>  
        <ul> 
        <li> <p>When you assign an approval to the Project Sponsor and no one is designated as the sponsor of a project, the approval is reassigned to the Project Owner. If no one is designated as the owner of the project, the approval is assigned to the Workfront administrator. </p> </li> 
       </ul> 
@@ -160,7 +194,7 @@ For more detail about the information in this table, see [Access requirements in
        </ul> 
        <ul> 
        <li> <p>When you assign an approval to the Project Owner and no one is designated as the owner of a project, the approval is reassigned to the main Workfront administrator as indicated in the Customer Info section in the Setup area. For information, see <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configure basic information for your system</a>.  </p> </li> 
-       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>You can repeat this process to add multiple approvers to the stage. A single stage can include a combination of users, teams, and job roles as approvers. There is no limit to the number of approvers you can add to a stage.</p> <p><b>IMPORTANT</b>:  <p>When you assign job roles as approvers, all users associated with that job role that are also on the project team can make a decision on the approval. </p> <p>When you assign a team as an approver, any user in that team can make a decision on the approval. </p> <p>For more information about the project team, see <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Project Team overview</a>. For more information about approving work, see <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approving work </a>.</p> </p> </td> 
+       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>You can repeat this process to add multiple approvers to the stage. A single stage can include a combination of users, teams, and job roles as approvers. There is no limit to the number of approvers you can add to a stage.</p> <p><b>IMPORTANT</b></p> <p>When you assign job roles as approvers, all users associated with that job role that are also on the project team can make a decision on the approval. </p> <p>When you assign a team as an approver, any user in that team can make a decision on the approval. </p> <p>For more information about the project team, see <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Project Team overview</a>. For more information about approving work, see <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approving work </a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Only one decision is required <br> <br>(Displays only if you add multiple approvers to the stage) </td> 
@@ -217,4 +251,4 @@ For instructions on associating an approval process with a work item, see [Assoc
 
 By default, users who have manage permissions on projects, tasks, and issues can create single-use approval processes on them. For information about adding single-use approval processes to projects, tasks, and issues, see the section [Associate a single-use approval process with a project, task, issue, template, or template task](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process) in the article [Associate a new or existing approval process with work](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
-Users can also change settings for a global approval processes associated with a work item. These changes affect only the project, task, or issue associated with the system-level approval process. For more information, see the section [Modify a global approval process for use on a specific object](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#modifying-a-global-approval-process) in the article [Associate a new or existing approval process with work](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)).
+Users can also change settings for a global approval processes associated with a work item. These changes affect only the project, task, or issue associated with the system-level approval process. For more information, see the section "Modify a global approval process for use on a specific object" in the article [Associate a new or existing approval process with work](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).

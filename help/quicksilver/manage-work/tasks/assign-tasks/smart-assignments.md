@@ -12,14 +12,6 @@ exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
 
 <!--Audited: 07/2024-->
 
-<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
-
-<span class="preview">The highlighted information on this page refers to functionality available only in the Preview environment.</span>
-
-<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
-
 When managing task and issues assignments, you can use smart assignments to identify who the best resource is to complete the work. 
 
 Smart assignments are suggestions that Adobe Workfront presents to you when you assign work items to resources based on an algorithm that determines the most appropriate resource for the job. Smart assignments can be users, job roles, or teams. 
@@ -137,7 +129,7 @@ Workfront calculates smart assignments for tasks in the same way that it calcula
 
 <!--For more information, see the section [Smart assignments criteria for tasks and issues](#smart-assignments-criteria-for-tasks-and-issues) in this article. -->
 
-The identified assignments are listed in the **Users and teams**, **Job role assignments**, and <span class="preview">**Rate card roles**</span>  sections of the Assignments field. <span class="preview">For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+The identified assignments are listed in the **Users and teams** and **Job roles**<!--, and <span class="preview">**Rate card roles**</span>--> sections of the Assignments field. <!--<span class="preview">For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 <!--
 ### Smart assignments criteria for tasks and issues 
@@ -194,7 +186,7 @@ Users are recommended in the smart assignments drop-down list based on a combina
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Make smart assignments</h2>
-<p>(NOTE:&nbsp;this was moved to its own article: make-smart-assignments.) </p>
+<p>(NOTE: this was moved to its own article: make-smart-assignments.) </p>
 <p>Smart assignments are available in most locations where you can make assignments in Workfront.</p>
 <p>You can use smart assignments on tasks and issues that have previously been assigned to a job role or a team.</p> <note type="note">
 You must have a Plan or a Work license and have at least Contribute permissions to a task or an issue to be able to make assignments to the task or the issue. You must have the Make Assignments option enabled in your permission level to make assignments.

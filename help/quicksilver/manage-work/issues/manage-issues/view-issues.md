@@ -9,12 +9,47 @@ exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
 ---
 # View issues
 
+<!--Audited: 10/2025-->
+
 You can view issues that are associated with a project, task, or iteration.
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+   <ul><li><p>Contributor or higher</p></li> <li><p>Light or higher license to view issues in the Issues section of a project.</p></li>
+
+   Or
+
+   <ul><li><p>Request or higher</p></li> <li><p>Review or higher license to view issues in the Issues section of a project.</p></li></ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View access to Issues</p> <p>View or higher access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the issue</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -38,7 +73,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+-->
 
 ## View issues based on Status
 
@@ -132,11 +167,14 @@ To access an issue and view information about it:
 
 ## View which projects and tasks have issues
 
-You can add icons in the view of a project or task report or list to show whether they have issues attached. Adding icons to the view of a report or list is similar for projects and tasks. 
+You can add icons in the view of a project or task report or list to show whether they have issues attached. 
+
+Adding icons to the view of a report or list is similar for projects and tasks. 
 
 To add icons that display whether a project has issues in a project report:
 
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+{{step1-click-main-menu}}
+
 1. Click **Reporting** > **New Report** > **Project Report**. 
 1. In the **Show in this column** field, start typing **Status Icons**, then select it when it appears in the list.
 
@@ -144,4 +182,4 @@ To add icons that display whether a project has issues in a project report:
 
    The issue icons display on the projects that have issues in the **Status Icons** column.
 
-   ![project_list_with_issue_icon.png](assets/project-list-with-issue-icon-350x132.png)
+   ![Project list with issue icon](assets/project-list-with-issue-icon-350x132.png)

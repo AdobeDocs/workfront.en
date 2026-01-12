@@ -40,11 +40,14 @@ To search the [!DNL Workfront Proof] site:
 
 1. (Optional) In the Search results that appear, sort by column by clicking the header at the top of a column. (Optional) Add filtering to your results results by clicking the [!UICONTROL search] icon at the end of the header row. ![Search_filter_in_Search_results.png](assets/search-filter-in-search-results-350x90.png)
 
-This adds dropdown menus in which you can select filters to narrow your search.
-1. ![Search_filter_boxes_appear_in_Search_results.png](assets/search-filter-boxes-appear-in-search-results-350x154.png)
+   This adds dropdown menus in which you can select filters to narrow your search.
 
-1. (Optional) Narrow your search by opening the [!UICONTROL Tags] tab and clicking a tag in the navigation sidebar on the left. Items associated with that tag appear in the Search results.\
-   ![Searching_by_tag.png](assets/searching-by-tag-350x209.png)\
+   ![Search_filter_boxes_appear_in_Search_results.png](assets/search-filter-boxes-appear-in-search-results-350x154.png)
+
+1. (Optional) Narrow your search by opening the [!UICONTROL Tags] tab and clicking a tag in the navigation sidebar on the left. Items associated with that tag appear in the Search results.
+
+   ![Searching_by_tag.png](assets/searching-by-tag-350x209.png)
+
    The tag name appears in the search field in the upper-right corner of Workfront Proof. You can refine your search by selecting additional tags or by typing further keywords into the search field. You can remove a tag from the search field by clicking the x icon next to the tag name.
 
 For information about searching for text within proof content, see [Search content within a proof](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).

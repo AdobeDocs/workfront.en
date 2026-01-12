@@ -14,8 +14,8 @@ exl-id: 55787c1e-45af-4b9f-bdbc-10cfacb326e6
 >
 >&nbsp;The 2018.3 release was made available in the Production environment on the following dates (for detailed dates and times, see trust.workfront.com):
 
-* *Workfront Proof Production environment - November 6 * 
-* *Workfront Production environment for clusters 2 and 4 * 
+* *Workfront Proof Production environment - November 6*
+* *Workfront Production environment for clusters 2 and 4* 
 * *Workfront Production environment for clusters 1, 3, and 5*
 
 The 2018.3 release contains enhancements both for Workfront administrators and other users:
@@ -132,7 +132,7 @@ For more information, see&nbsp; [TLS 1.2 to be required in Adobe Workfront](../.
 
 ### JSONP Support is Ending {#jsonp-support-is-ending}
 
-Because JSONP (Javascript with Padding) is an old standard with known security vulnerabilities, Workfront will no longer support JSONP as of November 2018. For more information, see [Ending support for JSONP](../../../../wf-api/api/ending-support-jsonp.md).
+Because JSONP (Javascript with Padding) is an old standard with known security vulnerabilities, Workfront will no longer support JSONP as of November 2018. 
 
 ### Flash Application Removal {#flash-application-removal}
 

@@ -4,7 +4,7 @@ product-area: system-administration
 navigation-topic: organization-setup
 title: Manage Company Memberships
 description: In the [!UICONTROL Companies] area in Setup, you can add and remove a company's members. You can also edit their user profiles, remind them to register in [!DNL Workfront], deactivate them in [!DNL Workfront], and remove them from the [!DNL Workfront] system.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
@@ -19,45 +19,40 @@ For information about creating a new company, see [Create and edit companies](..
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto">
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Workfront] plan</p> </td> 
-   <td><p>Current: [!UICONTROL Team] or higher</p>
-   <p>Or</p>
-   <p>New: Any</p>
+   <td> <p>[!DNL Workfront] package</p> </td> 
+   <td><p>Any</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] license</p> </td> 
-   <td><p>Current: [!UICONTROL Plan]</p>
-   <p>Or</p>
-   <p>New: [!UICONTROL Standard]</p>
+   <td> <p>[!DNL Adobe Workfront] license</p> </td> 
+   <td><p>[!UICONTROL Plan]</p>
+   <p>[!UICONTROL Standard]</p>
    </td> 
   </tr>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Access level configurations</strong> </td> 
-   <td> <p>One of the following:</p> 
+  <tr> 
+   <td>Access level configurations</td> 
+  <td> <p>You must have one of the following:</p> 
     <ul> 
      <li> <p>The [!UICONTROL System Administrator] access level, which allows you to edit any company in the system.</p> </li> 
      <li> <p>Administrative access to manage companies, which allows you to edit any company in the system.</p> </li> 
     </ul> <p><b>NOTE</b>:  
      <ul> 
       <li> <p>You can also manage companies associated with any group where you are assigned as a group administrator.</p> </li> 
-      <li> <p>In order to add to and remove users from the [!DNL Workfront] system, you must have one of the following:</p> 
+      <li> <p>To add and remove users from the [!DNL Workfront] system, you must have one of the following:</p> 
        <ul> 
-        <li> <p>The [!UICONTROL System Administrator] access level.</p> </li> 
-        <li> <p>In your access level, [!UICONTROL Edit] must be selected for the [!UICONTROL Users] setting. Also, for the [!UICONTROL Users] setting, under [!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png"> , the [!UICONTROL Create] option and at least one of the two [!UICONTROL User Admin] options must be enabled. </p> <p> <img src="assets/access-req-users.png"> </p> <p>If you are using the [!UICONTROL User Admin (Group Users)] option, you must be a group administrator of a group where the user is a member.</p> </li> 
+        <li> <p>The [!UICONTROL System Administrator] access level. </p> </li> 
+        <li> <p><b>[!UICONTROL Users]</b> setting in your access level configured to <b>[!UICONTROL Edit]</b> access, with <b>[!UICONTROL Create]</b> and at least one of the two <b>[!UICONTROL User Admin]</b> options enabled under <b>[!UICONTROL Fine-tune your settings]</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Of these two options, if <b>[!UICONTROL User Admin (Group Users)]</b> is enabled, you must be a group administrator of a group where the user is a member.</p> </li> 
        </ul>
        </li> 
-     </ul> </p> </td> 
+     </ul> </p> </td>
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,7 +62,8 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click **[!UICONTROL Companies]**.
 1. Click the name of the company.
-1. With the **[!UICONTROL Company Members]** section selected in the left panel, do any of the following:
+1. Click **[!UICONTROL Company Members]** in the left panel.
+1. Do any of the following:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -119,9 +115,11 @@ For more detail about the information in this table, see [Access requirements in
       <td role="rowheader">Send a comment to users and to their [!UICONTROL Updates] areas</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Select at least one user, then click the [!UICONTROL Comment] icon <img src="assets/comment-icon.png"> in the toolbar.</p> </li> 
-        <li value="2"> <p>Type the comment you want to send to the users and to the [!UICONTROL Updates] area of their user profiles.</p> </li> 
-       </ol> </td> 
+        <li value="1"> <p>Select at least one user, then click <b>Send Update to User</b> in the toolbar.</p> </li> 
+        <li value="2"> <p>Type the comment you want to send to the users and to the [!UICONTROL Updates] area of their user profiles.</p>
+         <p>For more information, see <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Send direct messages to other users</a>.</p></li> 
+       </ol>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Export the list of company members</td> 

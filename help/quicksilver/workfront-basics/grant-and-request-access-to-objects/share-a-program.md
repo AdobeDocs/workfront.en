@@ -22,21 +22,18 @@ Permissions are specific to each item in Workfront and define which actions user
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following to share objects:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any </p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: Standard</p> 
-   Or
-   <p>Current: Work or higher</p>
+   <td> <p>Standard</p> 
+   <p>Work or higher</p> 
    </td> 
   </tr> 
   <tr> 
@@ -50,7 +47,7 @@ You must have the following to share objects:
  </tbody> 
 </table>
 
-For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,7 +71,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
   For more information about the hierarchy of objects in Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-* You can remove inherited permissions from the program. For more information about removing permissions from objects, see&nbsp; [Remove permissions from objects](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* You can remove inherited permissions from the program. For more information about removing permissions from objects, see   [Remove permissions from objects](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Share a program
 
@@ -152,18 +149,18 @@ The following table displays what permissions you can grant users when allowing 
 
 | **Actions** |**Manage** |**View** |
 |---|---|---|
-| Edit program details |✓ |&nbsp; |
+| Edit program details |✓ |   |
 | View a program |✓ |✓ |
-| Delete a program |✓ |&nbsp; |
-| Attach a Custom Form |✓ |&nbsp; |
-| Edit a custom field |✓ |&nbsp; |
-| Add or remove a project&#42; |✓ |&nbsp; |
-| Approve a project |✓ |&nbsp; |
+| Delete a program |✓ |   |
+| Attach a Custom Form |✓ |   |
+| Edit a custom field |✓ |   |
+| Add or remove a project&#42; |✓ |   |
+| Approve a project |✓ |   |
 | Add a document folder&#42; |✓ |✓ |
 | Add a document |✓ |✓ |
 | Add updates/ comments |✓ |✓ |
 | Share |✓ |✓ |
-| Share system-wide |&nbsp; |✓ |
+| Share system-wide |   |✓ |
 
 *These permissions are controlled by the access level and permissions on other objects, like projects.
 

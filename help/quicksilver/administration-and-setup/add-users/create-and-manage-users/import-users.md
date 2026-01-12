@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: You can import users to the Adobe Workfront site by synchronizing users from a network directory service (such as Active Directory or another LDAP directory), or you can import users using a spreadsheet import file.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
@@ -31,22 +31,20 @@ Before you create a new user, first ensure that you have created all objects tha
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p><p>Or</p><p>Current: Plan</p></td> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Access level configurations</td> 
    <td> <p>You must have one of the following:</p> 
     <ul> 
      <li> <p>The System Administrator access level. </li> 
@@ -56,7 +54,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +64,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click the **New User** drop-down arrow, then click **Import Users**.
 
-1. In the **Import Users** box that displays, download the sample file, then update the sample file to include your own user's personal information.
+1. In the **Import users** box that displays, download the sample file, then update the sample file to include your own user's personal information.
 
    Each row includes the following fields:
 
@@ -91,20 +89,24 @@ For more detail about the information in this table, see [Access requirements in
      ![importing-new-users.png](assets/importing-new-users.png)
 
 1. Save the file to a location on your workstation.
-1. Click **Choose File** in the **Import Users** box.
+1. Click **Choose file** in the **Import users** box.
 
-1. Navigate to and select the file that you saved.  
+1. Navigate to and select the file that you saved.
+
+<!--
 1. (Optional) Select the **Send an invite email to this user** option to send an email invitation to the user, notifying them that a Workfront account has been created and prompting them to set their password.
 
    Deselect this option if you want to set the password for the user.
 
+-->  
+
 1. Click **Import**.
 
-   You receive a confirmation message at the top of the screen that the user was successfully imported.
+   You receive a confirmation message at the top of the screen that the users were successfully imported.
 
 >[!NOTE]
 >
->The users are created in a Deactivated and Pending Approval status. 
+>The users are created in a Deactivated and Pending Approval status.
 > 
 >If a user does not move out of Deactivated and Pending Approval status within a few minutes, and a screen refresh does not remove the Pending Approval badge, you can add the batch of users to the Adobe Admin Console directly.
 >

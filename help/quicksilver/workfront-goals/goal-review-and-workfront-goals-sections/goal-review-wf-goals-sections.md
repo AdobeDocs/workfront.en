@@ -10,7 +10,17 @@ exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
 ---
 # Goal review and the Adobe Workfront Goals sections: article index
 
-<!--Audited: 4/2025-->
+<!--Audited: 10/2025-->
+
+>[!NOTE]
+>
+>Your company might choose to continue using Adobe Workfront Goals if they bought this package in the past. You must speak with your account representative for details. 
+>
+>Adobe Workfront Goals is no longer available for purchase.
+>
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
 
 >[!IMPORTANT]
 >
@@ -28,8 +38,9 @@ exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
 >For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
+-->
 
-This section contains the following articles:
+Learn about reviewing goals and understand the sections where you can manage goals in Adobe Workfront in the following articles: 
 
 * [Overview of the Adobe Workfront Goals sections](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md) 
 * [Manage goals in the Goal List of Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md) 

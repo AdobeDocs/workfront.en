@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: 'Duration Type overview: Simple'
+title: 'Duration Type Overview: Simple'
 description: The Simple Duration Type is a Duration Type that you can set for a task in Adobe Workfront.
 author: Alina
 feature: Work Management

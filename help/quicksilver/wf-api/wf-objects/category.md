@@ -13,8 +13,8 @@ exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
 
 <!-- Audited: 5/2025 -->
 
-Fieldsclass: "java.lang.IllegalArgumentException",  
-message: "APIModel INTERNAL does not support field projectid (OpTask)"
+<!--Fieldsclass: "java.lang.IllegalArgumentException",  
+message: "APIModel INTERNAL does not support field projectid (OpTask)"-->
 
 <table style="table-layout:auto"> 
  <col width="100"> 
@@ -137,9 +137,9 @@ message: "APIModel INTERNAL does not support field projectid (OpTask)"
 
 | Name |Label |Type |Type Object Code |
 |---|---|---|---|
-| Customer |customer |Customer |CUST | 
-| Entered By |enteredBy |User |USER | 
-| Group |group |Group |GROUP |  
+| Customer |customer |Customer |CUST |
+| Entered By |enteredBy |User |USER |
+| Group |group |Group |GROUP |
 | Last Updated By |lastUpdatedBy |User |USER |
 
 

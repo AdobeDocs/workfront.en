@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: use-predecessors
-title: Create a predecessor relationship using the Predecessors area
+title: Create a Predecessor Relationship Using the Predecessors Area
 description: You can use predecessor tasks (or just predecessors) to link tasks that depend on other tasks to start or complete.
 author: Alina
 feature: Work Management
@@ -29,49 +29,54 @@ For information about predecessors, see [Overview of task predecessors](../../..
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> 
-   <p>New: Standard </p>
-   <p>Or </p>
-   <p>Current: Plan </p> </td> 
+   <td><p>Standard</p> 
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks and Projects</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the tasks and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p> </td> 
+   <td> <p>Manage permissions to the tasks and the project</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
- +++
++++
 
 ## Create a predecessor for a task
+
+Creating a predecessor for a project task using the Predecessors area is similar to creating predecessors for a template task on a template. 
+
+To create a predecessor task for a project task: 
 
 1. Navigate to the task you want to designate as a dependent task.
 
 1. In the left panel, click **Predecessors**.
 
-1. In the **Predecessors** section, click **+Add Predecessor**. The **Add Predecessor** dialog box opens. 
+1. In the **Predecessors** section, click **Add Predecessor**. The **Add Predecessor** dialog box opens. 
 
 1. (Optional) To add a cross-project predecessor, replace the name of the project in the **Parent Project** field with another project.
 
    For information, see [Create cross-project predecessors](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+
+   >[!TIP]
+   >
+   >You cannot create cross-template predecessors for template tasks.
+
 
 1. In the **Tasks** field, type in the name of the task or tasks you want to designate as the predecessors, then select them when they appear in the drop-down.
 
@@ -90,3 +95,7 @@ For more detail about the information in this table, see [Access requirements in
    For information, see [Enforce predecessors](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 1. Click **Save**.
+
+1. (Optional) To remove a predecessor, select it from the list of predecessors, then click the **Remove** icon ![Remove icon](assets/remove-or-delete-icon.png).
+
+   The predecessor is removed from the list. The predecessor task is not deleted from its project. 

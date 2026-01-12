@@ -1,7 +1,7 @@
 ---
 navigation-topic: betas
 title: Beta programs
-description: Learn about the current beta releases in Adobe Workfront. 
+description: Learn about new Adobe Workfront features that are currently available to all or a limited number of customers in a beta release. 
 author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -9,11 +9,27 @@ exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
 ---
 # Beta programs
 
-The articles linked from this page describe the current beta programs available in Adobe Workfront. Features that are available in beta might not be available to all customers. 
+The articles linked from this page describe the current beta programs available in Adobe Workfront. 
 
-The following articles contain information about features currently in beta: 
+Beta programs that are running in limited release and are managed privately may not be listed on this page. 
 
-* [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+Features that are available in beta might not be available to all customers. 
+
+The following features are currently available in beta: 
+
+* Canvas Dashboard
+
+    For information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md). 
+
+* Project Health
+
+    For information, see [Project Health overview](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+
+* The Workfront AI Reviewer
+    For information, see [Get started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+
+* AI Form Fill
+    For information, see [Use AI Form Fill to fill in a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 
 <!--

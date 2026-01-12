@@ -2,20 +2,18 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Create an Iteration
-description: Iterations are a key component for Scrum agile teams in planning out work capacity. [!DNL Adobe Workfront] allows Scrum agile teams to manage their work by creating multiple iterations to accommodate team needs.
-author: Lisa
+description: Iterations are a key component for Scrum Agile teams in planning out work capacity. [!DNL Adobe Workfront] allows Scrum Agile teams to manage their work by creating multiple iterations to accommodate team needs.
+author: Jenny
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
 ---
 # Create an iteration
 
-Iterations are a key component for Scrum agile teams in planning out work capacity. [!DNL Adobe Workfront] allows Scrum agile teams to manage their work by creating multiple iterations to accommodate team needs.
+Iterations are a key component for Scrum Agile teams in planning out work capacity. [!DNL Adobe Workfront] allows Scrum Agile teams to manage their work by creating multiple iterations to accommodate team needs.
 
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -24,14 +22,13 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>New: [!UICONTROL Light] or higher</p> 
-   or
-   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Light or higher</p> 
+   <p>Review or higher</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -72,7 +69,7 @@ You can add an iteration in the list to quickly create an iteration, and add tas
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL End Date]</strong></td> 
-      <td><p>Enter the date the iteration should end. [!DNL Workfront] recommends setting an end date no longer than 4 weeks from the start date.</p><p>Tip: Make sure to choose a working day as the end date. The burndown chart uses only working days in its calculations.<br>By default, the burndown chart uses the default schedule to define working days (as described in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>). Or, to incorporate team-specific non-working days, agile teams can choose to use an alternate schedule (as described in"Defining an Alternate Team Schedule for Burndown Charts" in <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Create an agile team</a>).</p></td> 
+      <td><p>Enter the date the iteration should end. [!DNL Workfront] recommends setting an end date no longer than 4 weeks from the start date.</p><p>Tip: Make sure to choose a working day as the end date. The burndown chart uses only working days in its calculations.<br>By default, the burndown chart uses the default schedule to define working days (as described in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>). Or, to incorporate team-specific non-working days, Agile teams can choose to use an alternate schedule (as described in"Defining an Alternate Team Schedule for Burndown Charts" in <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Create an Agile team</a>).</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Capacity]</strong></td> 
@@ -120,7 +117,7 @@ Use the [!UICONTROL Plan Iteration] feature to create an iteration using tasks o
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL End Date]</strong> </td> 
-      <td><p>Specify the date the iteration should end. [!DNL Workfront] recommends setting an end date no longer than 4 weeks from the start date.</p><p>Tip: Make sure to choose a working day as the end date. The burndown chart uses only working days in its calculations.<br>By default, the burndown chart uses the default schedule to define working days (as described in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>). Or, to incorporate team-specific non-working days, agile teams can choose to use an alternate schedule (as described in <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">Use an alternate team schedule for burndown charts</a>).</p></td> 
+      <td><p>Specify the date the iteration should end. [!DNL Workfront] recommends setting an end date no longer than 4 weeks from the start date.</p><p>Tip: Make sure to choose a working day as the end date. The burndown chart uses only working days in its calculations.<br>By default, the burndown chart uses the default schedule to define working days (as described in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>). Or, to incorporate team-specific non-working days, Agile teams can choose to use an alternate schedule (as described in <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">Use an alternate team schedule for burndown charts</a>).</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Focus]</strong></td> 

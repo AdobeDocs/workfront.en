@@ -25,11 +25,43 @@ For general information about workspaces, see [Workspaces overview](/help/quicks
 
 ## Access requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view the access requirements for the functionality in this article. 
 
-You must have the following access to perform the steps in this article:  
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Workfront and any Planning package</p> <p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace</p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table> 
 
- <table style="table-layout:auto"> 
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--Old:
+
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -82,11 +114,7 @@ You must have the following access to perform the steps in this article:
    <td>   <p>You receive Manage permissions to the workspaces you create. </p> </td> 
   </tr> 
 </tbody> 
-</table> 
-
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++   
+</table> -->
 
 ## Create a workspace
 
@@ -148,5 +176,15 @@ You can create a workspace and add record types to it to organize your objects i
    For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
 
    For more information about editing and deleting record types in a workspace, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+1. (Optional) Click the back arrow to the left of the new workspace to open the Planning main page. A new workspace card is created for the new workspace in the **Workspaces I'm on** tab. 
+
+   The name of the user who created the workspace is saved on the workspace card as the Owner. 
+
+   >[!NOTE]
+   >
+   >For users that are currently being transitioned to the Adobe Identity Management System (IMS), workspaces created by Workfront-only users who are not IMS users display as created by the **System**. 
+   >
+   >For information about IMS, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 

@@ -22,7 +22,7 @@ As a [!DNL Workfront Proof] administrator, you can choose the language to be use
 [!DNL Workfront Proof] is available in the following languages:
 
 * English (US / UK)
-* Brazilian (Portuguese)
+* Brazilian Portuguese
 * Chinese
 * Dutch
 * French
@@ -40,7 +40,7 @@ To change your account's default language, follow the steps below.
 
 1. In **[!UICONTROL Account details]** section, click **[!UICONTROL Edit]** for the **[!UICONTROL Default language]** settings.
 
-1. In the drop-down menu select your default language.\
+1. In the drop-down menu select your default language.
    ![account_language_setting.png](assets/account-language-setting-350x230.png)
 
 1. Click **[!UICONTROL Save].**

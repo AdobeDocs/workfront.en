@@ -10,6 +10,10 @@ exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
 
 # Record types overview
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
 Unlike Workfront where the object types are predefined, in Adobe Workfront Planning, you can create your own object types. 
@@ -41,6 +45,7 @@ For information about creating record types, see [Create record types](/help/qui
 * When you create a record type, only you and those you give permissions to access the workspace can view the record type. 
 * You must create a workspace before you can create record types for the workspace.  
 * For limitations about how many record types you can have in one workspace or Workfront instance, see [Adobe Workfront Planning object limitations overview](/help/quicksilver/planning/general/limitations-overview.md).  
+* <span class="preview">You can designate record types as global. Global record types can be added as existing record types to other workspaces. For more information, see [ConfConfigure cross-workspace capabilities for record typesigure](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span> 
 
 
 <!--
