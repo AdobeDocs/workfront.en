@@ -68,6 +68,9 @@ You can temporarily customize table reports on dashboards. These changes only ap
     >These changes only apply to your current session and do not affect the original report configuration. To make permanent these changes, you need to edit the report.
 
 <!--
+
+### Quick Search 
+
 ### Filter
 
 ### Drilldowns
