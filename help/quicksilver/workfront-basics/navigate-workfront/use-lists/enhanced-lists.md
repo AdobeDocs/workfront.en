@@ -179,7 +179,10 @@ To share a view:
 1. Select **Share**.
 1. In the Share dialog, enter the names of the users, teams, or groups that you want to share the view with, then select them from the list when they appear.
 
-   You can give View or Manage access to the recipients.
+   You can give the following permissions to the recipients:
+
+   * **View**: Users can apply the view to the list but not share it.
+   * **Manage**: Users can rename the view, share it with others, and delete it.
 
 1. Click **Save**.
 
