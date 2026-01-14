@@ -50,7 +50,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Quarterly</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience now available for more Workfront organizations</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience now available for more Workfront organizations</a><p></p>
             <p>To allow organizations access to the benefits of the Adobe Unified Experience, we're continuing to make it available to existing Workfront customers.</p>
         </td>
         <td><p>December 11, 2025</p></td>

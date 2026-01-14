@@ -13,6 +13,9 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 2026 Q2 Release {#release-26-q2}
+      * [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
+      * [First Quarter 2026 Other enhancements](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md)
     * 2026 Q1 Release {#release-26-q1}
       * [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
       * [First Quarter 2026 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md)

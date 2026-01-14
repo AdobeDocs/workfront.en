@@ -10,7 +10,7 @@ recommendations: noDisplay, noCatalog
 
 This page describes enhancements made with the First Quarter 2026 release to the Preview environment. These enhancements will be made available in the Production environment as noted.
 
-For a list of all changes available at this point in the Fourth Quarter 2025 release cycle, see [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+For a list of all changes available at this point in the First Quarter 2026 release cycle, see [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
 
 ## Selection limits on multi-select fields
