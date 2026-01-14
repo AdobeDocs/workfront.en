@@ -12,9 +12,9 @@ exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 
 In the Documents area, you can organize, manage, and view metadata for documents uploaded to Adobe Workfront. You can also see the proof decision.
 
-Documents added to individual tasks and issues are all available in the Project > Documents area. 
+Workfront currently has two versions of the Documents area: the legacy documents area and the new documents area. The version that your organization uses depends on whether your organization is on Workfront Storage or Enterprise Storage. For more information about Workfront Storage and Enterprise Storage, see [Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-![Documents area](assets/documents-area-v2-350x199.png)
+## Legacy documents area
 
 There are two types of Documents areas. Features and functionality are the same for both:
 
@@ -32,7 +32,7 @@ The documents area records a count of the following items:
 * Files added to Workfront from integrations
 * Linked Experience Manager Assets
 
-## Summary panel
+### Summary panel
 
 When you select a document in the documents area, you can use the Summary on the right to view document Details, manage document updates and approvals, view versions of the document, and add and edit Custom Forms for the document.
 
@@ -44,13 +44,13 @@ You can click the Details heading to go to the full Document Details area when y
 
 For information about the Summary, see [Summary for documents overview](../../documents/managing-documents/summary-for-documents.md).
 
-## Proof decision
+### Proof decision
 
 Once a proof decision is made, it appears in the Document list.
 
 ![Proof decision in document list](assets/proof-decision---doc-list-350x168.png)
 
-## Folders
+### Folders
 
 On a project, task, or issue where documents are uploaded, you can set up folders to organize the documents. For more information, see [Create document folders](../../documents/organizing-documents/create-documents-folder.md).
 
@@ -60,6 +60,35 @@ In the global Documents area, you can set up two types of folders to organize th
 
 * **My Folders:**&nbsp;Organize documents the way you want them. For more information, see [Create document folders](../../documents/organizing-documents/create-documents-folder.md).
 
-## Expanded Document Details
+### Expanded Document Details
 
 The Document Details page provides a more full-scale version of the Document Details in the Summary on the right.
+
+## New document area
+
+
+
+>[!NOTE]
+>
+>The global documents area is not available in the new documents area experience. You can only access documents from a project, task, or issue.
+
+![new documents area](assets/doc)
+
+
+### Folders and permissions
+
+### System level folder for permissions
+
+Permissions for documents is managed at the folder level. 
+
+When the first documet is uploaded to a task or issue, Workfront automatically creates a primary folder to contain all documents for that task or issue. Any user with permissions to the task or issue also has access to the primary folder and all documents within it.
+
+Primary task and issue folders display at the project level in the new documents area.
+
+### Review and approve with Frame.io
+
+You can review and approve documents in the new documents area using the Frame.io viewer.
+
+For more information, see [Get started with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+
+

@@ -44,16 +44,16 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Download an individual document
+## Download an individual document in the legacy documents area
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
 
 1. Click the **Download Selected** icon ![Download Selected icon](assets/download-icon.png).
 
-## Download multiple documents simultaneously
+## Download multiple documents simultaneously in the legacy documents area
 
-You can download multiple documents simultaneously.&nbsp;
+You can download multiple documents simultaneously.
 
 1. Go to the Documents area containing the documents you want to download.
 1. (Optional) Select the individual documents that you want to download from the list of documents.
@@ -66,3 +66,20 @@ You can download multiple documents simultaneously.&nbsp;
 1. Click the Download Selected icon ![Download Selected icon](assets/download-icon.png).
 
    Folders are downloaded as .zip files and are limited to 4GB.
+
+## Download an individual document in the new documents area
+
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+1. Find the document you need, then click **Download**.
+   ![Download Selected icon](assets/download-individual-doc-new.png).
+
+## Download multiple documents simultaneously in the new documents area
+
+You can download multiple documents simultaneously.
+
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+1. Hold Shift then click the individual documents that you want to download.
+1. Click **Download**.
+   ![Download Selected icon](assets/download-multiple-docs-new.png).
+
+Folders are downloaded as .zip files and are limited to 4GB. <!--true for ESM?-->
