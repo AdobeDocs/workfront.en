@@ -144,7 +144,7 @@ The table below tells you the highest level of access (Edit or View) that each o
 
 &#42; Users with a Contributor license can view only reports, dashboards, and calendars that are shared with them.
 
-&#42;&#42; Users with a Light license can can only log time at the project level when Edit access is enabled. They cannot create, edit, delete, or share projects. The default access level on Projects for Light users is View.
+&#42;&#42; Users with a Light license can only log time at the project level when Edit access is enabled. They cannot create, edit, delete, or share projects. The default access level on Projects for Light users is View.
 
 >[!NOTE]
 >
