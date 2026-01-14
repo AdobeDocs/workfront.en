@@ -36,6 +36,10 @@ The AI Reviewer uses brand guidelines to evaluate content during the review proc
    <td role="rowheader">Access level configurations</td> 
    <td> <p>You must be a system administrator.</p></td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">Admin Console permissions</td> 
+   <td> <p>You must GenStudio Brand Manager.</p></td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -43,14 +47,12 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-<!--Hi @minuganti What user permissions are needed to see this menu item?   I assume the customer still needs to be part of the Genstudio Brand Managers role in Admin Console, but is there specific Workfront permissions required as well?-->
-
 
 ## Prerequisites 
 
 * Your organization must have migrated to Adobe IMS (Identity Management System).
 * Your Workfront instance must have Unified Approvals enabled. 
-* Your organization must have GenStudio Foundation.
+<!--* Your organization must have GenStudio Foundation.-->
 * Adobe must have a signed Adobe Gen AI agreement on file.
     For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
