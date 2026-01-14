@@ -77,7 +77,11 @@ Viewing submitted requests differs based on whether you are using the new or leg
 
 ### View submitted requests in the new requesting experience
 
-You can view submitted requests in the Requests area, <span class="preview">which include links to objects created by Planning requests.</span>
+You can view submitted requests in the Requests area, which include links to objects created by Planning requests.
+
+>[!NOTE]
+>
+>Links to created objects are available in the new requesting experience only for Planning requests, in cases where the request itself created an object. If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience.
 
 To view requests that you or other users have submitted in the new requesting experience:
 

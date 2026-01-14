@@ -92,7 +92,7 @@ To configure the filter in the My Requests widget:
    * Status
    * Entered by
 
-    <span class="preview">In the Preview environment, you can also filter by any custom fields that have been added as a column      to the view.</span>
+    In the Preview environment, you can also filter by any custom fields that have been added as a column to the view.
 
 1. In the next field, select the operator that you want to use for this filter condition. Available operators depend on the chosen field.
 1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
@@ -147,11 +147,13 @@ To search for specific requests in the My Requests widget:
 
 1. (Optional) To jump to the highlighted requests, click the up or down arrows in the search bar.
 
-<div class="preview">
-
 ## Go to an object created by a request
 
 You can find objects created by a request in the My Requests widget.
+
+>[!NOTE]
+>
+>Links to created objects are available in the new requesting experience only for Planning requests, in cases where the request itself created an object. If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience.
 
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**. 
@@ -160,4 +162,3 @@ You can find objects created by a request in the My Requests widget.
 
    The object's page opens.
 
-</div>
