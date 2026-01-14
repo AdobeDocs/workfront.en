@@ -9,8 +9,6 @@ exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
 ---
 # Use the My Requests widget
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 >[!IMPORTANT]
 >
 >This article describes the new My Requests widget. You must have the new requesting experience enabled to see the new widget.
@@ -64,15 +62,11 @@ You can create a request directly from the My Requests widget.
 
 For instructions, see [Create a request](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) in the article Create work items and projects from the Home area.
 
-<div class="preview">
-
 ## Copy a request
 
 You can copy a request in the My Requests widget, edit it, and submit it as a new request.
 
 For instructions, see [Copy and submit requests in the new requesting experience](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) in the article Copy and submit requests.
-
-</div>
 
 ## Filter requests
 
@@ -92,7 +86,7 @@ To configure the filter in the My Requests widget:
    * Status
    * Entered by
 
-    In the Preview environment, you can also filter by any custom fields that have been added as a column to the view.
+    You can also filter by any custom fields that have been added as a column to the view.
 
 1. In the next field, select the operator that you want to use for this filter condition. Available operators depend on the chosen field.
 1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
