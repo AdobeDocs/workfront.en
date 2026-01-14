@@ -67,14 +67,40 @@ You can temporarily customize table reports on dashboards. These changes only ap
     >
     >These changes only apply to your current session and do not affect the original report configuration. To make permanent these changes, you need to edit the report.
 
-<!--
-### Filter
+### Filter and group reports
 
-### Drilldowns
+You can filter and group reports on Canvas Dashboards to focus on specific data points.
+
+1. In the left panel, click **Canvas Dashboards**.
+1. Click the name of an existing dashboard to open it.
+    ![Open a dashboard](assets/open-dashboard.png)
+1. Locate the table report that you want to customize.
+
+### Use drilldowns
+
+You can use drilldowns in Canvas Dashboards to sort and group data within reports.
+
+1. In the left panel, click **Canvas Dashboards**.
+1. Click the name of an existing dashboard to open it.
+    ![Open a dashboard](assets/open-dashboard.png)
+1. Locate the report that you want to look at.
+1. Click on a data point within the report to drill down into more detailed information.
+1. Click the Show build table icon to open the drilldown settings. 
+1. Click Add Column to add additional columns to the drilldown table.
+
+ >[!IMPORTANT]
+>
+>These changes only apply to your current session and do not affect the original report configuration. To make permanent these changes, you need to edit the report.
 
 ### Add additional columns to table reports
 
-### Exporting Data
+
+
+## View reports with grouped data
+
+
+
+<!--
 
 ## Saving and Sharing Dashboards
 
