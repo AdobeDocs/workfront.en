@@ -132,7 +132,7 @@ And
 
       * All original fields
       * All record connections
-   * You can view records added from other workspaces that use the same global record type, only when you have at least View permissions to those workspaces. 
+   * You can view records added from other workspaces that use the same global record type, only when you have at least View permissions to those workspaces. <!--replace this bullet by this with Jan 15 release: You can view records added from the original workspace of the global record type only when you have at least View permissions to that workspace.--> 
    * The read-only **Workspace** field is added to the new record type table view. The field displays the workspace where each record was created. 
    
       >[!NOTE]

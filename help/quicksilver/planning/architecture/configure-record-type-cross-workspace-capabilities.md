@@ -56,7 +56,7 @@ For information, see one of the following articles:
 <ul> 
 <li><p>Any Workfront package and any Planning package</p></li>
 Or
-<li><p>Any Workflow and any Planning</p></li></ul>
+<li>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
 
 <div class="preview">
 <p>To configure global record types:</p>
@@ -206,9 +206,10 @@ To configure a record type as global:
 
    The record type added from a global record type in the secondary workspace also displays a **global record type** icon ![Global record type icon](assets/global-icon.png). 
 1. (Optional) Go back to the original workspace where you created the global record type and edit the record type by following steps 1-4 above <!--ensure this stays accurate-->
-1. (Optional) Review the list of workspaces where the global record has been added in the **Workspaces where this record type is used section**. The workspace owner is also listed next to the workspace name. 
+1. (Optional) Review the list of workspaces where the global record has been added in the **Workspaces where this record type is used** section. The workspace owner is also listed next to the workspace name. 
 
    ![Workspaces where this record type is used](assets/workspaces-where-this-record-type-is-used.png)
+1. (Optional) Click the name of one of workspaces listed in the **Workspaces where this record type is used** section to open that workspace. 
 
 </div>
 
