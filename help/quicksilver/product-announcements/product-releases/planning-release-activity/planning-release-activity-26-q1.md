@@ -24,9 +24,15 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 >Preview: January 15, 2026 
 >Production fast release: January 15, 2026 
 >Production for everyone: January 15, 2026 
+>[!BADGE Off schedule]{type=Neutral}
 
-You can now share global record types that you added to a secondary workspace from that workspace. 
-Prior to this change, you could share the global record type only from its original, primary workspace. 
+You can now share global record types that you added to a secondary workspace from that workspace. Users will also receive the same permissions to all the records in the secondary workspace you are sharing.
+
+>[!NOTE]
+>
+>Users can have different permissions for the same global record type in the primary workspace or any other secondary workspace where the record type was added. Workspace and record type permissions transfer to the records.
+
+Prior to this change, you could share the global record type only from its original, primary workspace.
 
 For more information see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
@@ -38,6 +44,7 @@ For more information see [Cross-workspace record type overview](/help/quicksilve
 >Preview: January 15, 2026 
 >Production fast release: January 15, 2026 
 >Production for everyone: January 15, 2026 
+>[!BADGE Off schedule]{type=Neutral}
 
 Records added to a global record type in a secondary workspace are visible only from that workspace or from the record type's original primary workspace. Prior to this update, records added to a secondary workspace were also visible from other secondary workspaces where you might have had permissions to view. 
 
