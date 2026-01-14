@@ -11,8 +11,6 @@ exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 ---
 # View submitted requests
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 You can view the requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront:
 
 * The **Workfront** tab of the Requests area in Workfront: View requests submitted to Workfront request queues in the following sections: 
@@ -22,8 +20,8 @@ You can view the requests that you or someone else submitted, or requests you st
    >[!NOTE]
    >
    >* You can only view your own draft requests.
-   >* <span class="preview">In the new requesting experience, submitted requests and drafts are found in the same list. </span>
-   >* <span class="preview">Drafts created in the legacy experience do not appear in the new Requesting experience.</span>
+   >* In the new requesting experience, submitted requests and drafts are found in the same list. 
+   >* Drafts created in the legacy experience do not appear in the new Requesting experience.
 
 * The **Planning** tab of the Requests area in Workfront: View requests submitted to Workfront Planning request forms. Your organization must purchase a Workfront Planning package. For information, see the following articles:
 

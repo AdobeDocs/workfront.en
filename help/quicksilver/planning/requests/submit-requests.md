@@ -12,9 +12,9 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -266,8 +266,6 @@ The following must be in place before you can submit a request to a Workfront Pl
 
    The record type page opens in Workfront Planning. 
 
-<div class="preview">
-
 ## Create a request by copying an existing request
 
 You can copy a request in the requests list in Workfront, then edit the details and submit it as a new request.
@@ -284,6 +282,5 @@ This is available only in the new requesting experience.
 
 For instructions, see [Create requests from drafts](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md).
 
-</div>
   
 
