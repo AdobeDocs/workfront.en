@@ -81,5 +81,3 @@ You can download multiple documents simultaneously.
 1. Hold Shift then click the individual documents that you want to download.
 1. Click **Download**.
    ![Download Selected icon](assets/download-multiple-docs-new.png).
-
-Folders are downloaded as .zip files and are limited to 4GB. <!--true for ESM?-->
