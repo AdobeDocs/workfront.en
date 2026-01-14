@@ -120,6 +120,60 @@ To add a document:
     </tbody> 
    </table>
 
+## Add documents to Workfront in the new documents area 
+
+You can add new documents to Workfront from the file system on your workstation. You can also link documents from third-party applications such as Google Drive and SharePoint.
+
+>[!IMPORTANT]
+>
+>* You can upload up to 150 documents at one time.
+>* There is no limit on the file size. 
+>* Document downloads are limited to 4GB.
+
+To add a document:
+
+1. Go to the project, task, or issue where you want to add a new document.
+1. Click the **Documents** tab, then click the **Add New** drop-down menu.
+
+   ![Add new document](assets/add-new-doc.png)
+
+1. Depending on the type of document you want to add, do any of the following: 
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Upload documents from your file system on your workstation</td> 
+      <td> 
+       <ol> 
+        <li value="1">From the <strong>Add New</strong> drop-down menu, select <strong>Document.</strong></li> 
+        <li value="2"> <p>Browse to and select the document that you want to add from the file system on your workstation.<br></p> <p>You can select multiple documents by pressing the Shift key as you select additional files.</p> </li> 
+        <li value="3">Click <strong>Open</strong>.</li> 
+       </ol> 
+       <p><b>NOTE</b>: You can also drag and drop files directly from your file manager into the document list.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Upload documents from a third-party application such as Google Drive or SharePoint</td> 
+      <td> 
+       <ol> 
+        <li value="1"> <p>From the <strong>Add New</strong> drop-down menu, select <strong>From &lt;name_of_third-party_application&gt;</strong>.</p> <p>For example, to upload a document from Google Drive, click <strong>From Google Drive</strong>.</p> </li> 
+        <li value="2"> <p>Follow the prompts to select the document in the third-party application.<br></p> <p>For more information about linked documents, see <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">Link documents from external applications</a>.</p> </li> 
+       </ol> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Request a document from another Workfront user</td> 
+      <td> 
+       <ol> 
+        <li value="1">From the <strong>Add New</strong> drop-down menu, select <strong>Request a Document</strong>.</li> 
+        <li value="2">In the <strong>Who are you requesting it from</strong> box, type the name of the user from whom you are requesting the document.</li> 
+        <li value="3">In the <strong>Tell them what you're requesting</strong> box, type the name of the document.</li> 
+        <li value="4"> <p>Click <strong>Send Request</strong>.</p> <p>Your request displays on your Documents tab.</p> <p>For more information about requesting documents, see <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Request a Document</a>.</p> </li> 
+       </ol> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
 ## Document security <!-- need to check and see if this is accurate for ESM-->
 
 The Workfront site prevents viruses and other malicious content from entering the site via documents in the following ways:
