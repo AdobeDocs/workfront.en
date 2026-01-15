@@ -9,8 +9,6 @@ exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
 ---
 # Filter a Canvas Dashboard
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>  
-
 >[!IMPORTANT]
 >
 >The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.<br>
@@ -174,7 +172,6 @@ All users with access to a dashboard can apply a dashboard prompt to a Canvas Da
 
 1. Click the **Close** icon ![Close icon](assets/close-icon.png) in the upper-right corner to hide the panel.
 
-<span class="preview">
 
 ## Filter a dashboard by currency type
 
@@ -190,5 +187,3 @@ To change the currency type for the dashboard,
 1. Select the desired currency type from the list.
 
     ![change currency drop down](assets/filter-by-currency.png)
-
-</span>
