@@ -87,15 +87,7 @@ You can edit existing views, including views you have just created.
     >You cannot currently add columns in the production environment. 
 1. (Optional) Click **Columns** and hide, show, or rearrange the columns in the request list.  
 
-    ![Columns box](assets/columns-editing-box-in-requests-planning-tab.png)
-
-    >[!TIP]
-    >
-    >You cannot currently add any more column in the production environment..  
-
-1. (Optional) Click **Filters** and start adding conditions for what requests you want to view in the Planning tab. 
-
-    ![Editing filters in the Planning requests tab](assets/filters-editing-box-in-requests-planning-tab.png)
+1. (Optional) Click **Filters** and start adding conditions for what requests you want to view. 
 
     You can filter by the following fields:  
 
