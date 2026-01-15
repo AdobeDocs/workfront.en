@@ -105,6 +105,8 @@ For more detailed instructions on creating, managing, and customizing Canvas Das
 
 Report creators can configure reports to display grouped data. When a report has a grouping, you can expand or collapse the grouped data to see more or less detail.
 
-By default, data within each group is sorted alphabetically or chronologically, depending on the field type. You can click a column header to sort the data within each group. When you sort by a field that is different from the grouping field, the order of the groups does not change.
+By default, the groupings themselves are sorted alphabetically or chronologically, depending on field type. Data within each grouping is sorted independently from the grouping sort order.
+
+You can click a column header to sort the data within each group. When you sort by a field that is different from the grouping field, the order of the groups does not change.
 
 However, when you sort by the same field that the report is grouped by, the group order can change. For example, a text-based grouping that normally runs A–Z may switch to Z–A.
