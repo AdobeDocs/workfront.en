@@ -11,25 +11,16 @@ exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 ---
 # View submitted requests
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 You can view the requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront:
 
-* The **Workfront** tab of the Requests area in Workfront: View requests submitted to Workfront request queues in the following sections: 
-   * **Submitted section**: All requests that you or someone else submitted and you have access to at least View. 
-   * **Draft section** : All requests that you started but you never finished and you never submitted. For more information about draft requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* The Requests area of Workfront
+* the My Requests widget in Home
    
    >[!NOTE]
    >
    >* You can only view your own draft requests.
-   >* <span class="preview">In the new requesting experience, submitted requests and drafts are found in the same list. </span>
-   >* <span class="preview">Drafts created in the legacy experience do not appear in the new Requesting experience.</span>
-
-* The **Planning** tab of the Requests area in Workfront: View requests submitted to Workfront Planning request forms. Your organization must purchase a Workfront Planning package. For information, see the following articles:
-
-   * [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
-   * [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
-
+   >* In the new requesting experience, submitted requests and drafts are found in the same list. 
+   >* Drafts created in the legacy experience do not appear in the new Requesting experience.
 
 ## Access requirements
 
@@ -77,7 +68,11 @@ Viewing submitted requests differs based on whether you are using the new or leg
 
 ### View submitted requests in the new requesting experience
 
-You can view submitted requests in the Requests area, <span class="preview">which include links to objects created by Planning requests.</span>
+You can view submitted requests in the Requests area, which include links to objects created by Planning requests.
+
+>[!NOTE]
+>
+>Links to created objects are available in the new requesting experience only for Planning requests, in cases where the request itself created an object. If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience.
 
 To view requests that you or other users have submitted in the new requesting experience:
 
