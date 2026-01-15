@@ -16,7 +16,7 @@ exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
 >This article describes the new My Requests widget. You must have the new requesting experience enabled to see the new widget.
 >You can enable the new requesting experience in your Requests area.
 
-The My Requests widget displays requests that hyou ahve submitted. You can filter the requests, search for specific requests, or adjust column order and visibility. You can also create a new request from the My Requests widget.
+The My Requests widget displays requests that you have submitted. You can filter the requests, search for specific requests, or adjust column order and visibility. You can also create a new request from the My Requests widget.
 
 >[!NOTE]
 >
