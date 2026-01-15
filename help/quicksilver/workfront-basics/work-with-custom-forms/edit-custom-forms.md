@@ -10,8 +10,6 @@ exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
 ---
 # Edit information in custom form fields
 
-{{preview-fast-release-general}}
-
 <!--Audited: 10/2025-->
 
 You can edit information on a custom form after the form is attached to an object. For information about adding custom forms to objects, see [Add a custom form to an object](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
@@ -116,7 +114,7 @@ For information about what objects can have a custom form, see [Custom forms ove
 
    >[!NOTE]
    >
-   ><span class="preview">Fields that allow multiple selections may limit how many options you can choose. Check boxes and multi-select dropdowns are limited to 5000 selections.</span>
+   >Fields that allow multiple selections may limit how many options you can choose. Check boxes and multi-select dropdowns are limited to 5000 selections.
 
    For information about all of the field types, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 

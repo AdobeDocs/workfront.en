@@ -10,8 +10,6 @@ exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 # Copy and submit requests
 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 When you submit similar requests frequently you can copy an existing submitted request. In this case, you can copy an existing request, make minimal changes to it, and resubmit it as a new request.
 
 ## Access requirements
@@ -218,8 +216,6 @@ You must have a request that you or someone in your organization previously subm
 
    The copied request is submitted as a new request in the request queue you specified.
 
-<div class="preview">
-
 ## Copy and submit requests in the new requesting experience
 
 You can copy and submit requests in the Requests area of Workfront, or from the My Requests widget in Home.
@@ -257,5 +253,4 @@ You can copy and submit requests in the Requests area of Workfront, or from the 
 
    The copied request is submitted as a new request.
 
-</div>
 

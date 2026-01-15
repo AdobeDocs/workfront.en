@@ -9,8 +9,6 @@ exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
 ---
 # Create requests from drafts
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 In addition to using the available drafts that Workfront suggests to you when you enter a new request, you can also access a draft request from the Drafts section and finish submitting it from there.
 
 ## Access requirements
@@ -58,16 +56,11 @@ You must do the following before you can create a request from a draft:
 
 The procedure for creating requests from drafts differs between the new requesting experience and the legacy experience.
 
-* <span class="preview">[Create requests from drafts in the new requesting experience](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
+* [Create requests from drafts in the new requesting experience](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [Create requests from drafts in the legacy requesting experience](#create-requests-from-drafts-in-the-legacy-requesting-experience)
-
-<div class="preview">
 
 ### Create requests from drafts in the new requesting experience
 
-
-
-   
 1. Open the draft.
 
    Drafts can be found in the following locations:
@@ -92,8 +85,6 @@ The procedure for creating requests from drafts differs between the new requesti
 1. After completing the information for the request, click **Submit**.
 
      When you submit the request, the draft is deleted and cannot be restored.
-
-</div>
 
 ### Create requests from drafts in the legacy requesting experience
 
