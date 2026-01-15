@@ -1,6 +1,6 @@
 ---
 title: Hierarchy and Breadcrumb Overview
-description: You can create multiple workspace hierarchies between the record types in a workspace, after you connected the record types.
+description: As a workspace manager, you can define flexible but structured hierarchies between connected record types and other object types in Adobe Workfront Planning. Hierarchies are connections between record types, or between record types and a Workfront project. 
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -10,9 +10,9 @@ recommendations: noDisplay, noCatalog
 
 # Hierarchy and breadcrumb overview
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 As a workspace manager, you can define flexible but structured hierarchies between connected record types and other object types in Adobe Workfront Planning. 
 
