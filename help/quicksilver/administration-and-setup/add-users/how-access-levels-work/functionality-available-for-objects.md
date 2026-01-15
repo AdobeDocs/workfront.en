@@ -119,7 +119,7 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Convert an issue to a project | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Convert an issue to a to task | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Accept assignments            | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Make assignments              | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
+| Make assignments              | ✓        | ✓ | ✓     | &nbsp;        |
 | Add updates and comments      | ✓        | ✓      | ✓           | &nbsp;        |
 
 {style="table-layout:auto"}
