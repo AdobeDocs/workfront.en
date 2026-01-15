@@ -13,21 +13,14 @@ exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 
 You can view the requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront:
 
-* The **Workfront** tab of the Requests area in Workfront: View requests submitted to Workfront request queues in the following sections: 
-   * **Submitted section**: All requests that you or someone else submitted and you have access to at least View. 
-   * **Draft section** : All requests that you started but you never finished and you never submitted. For more information about draft requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* The Requests area of Workfront
+* the My Requests widget in Home
    
    >[!NOTE]
    >
    >* You can only view your own draft requests.
    >* In the new requesting experience, submitted requests and drafts are found in the same list. 
    >* Drafts created in the legacy experience do not appear in the new Requesting experience.
-
-* The **Planning** tab of the Requests area in Workfront: View requests submitted to Workfront Planning request forms. Your organization must purchase a Workfront Planning package. For information, see the following articles:
-
-   * [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
-   * [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
-
 
 ## Access requirements
 
