@@ -10,11 +10,9 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 
 # Edit records
 
-<!--keep the choice values information in yellow till Jan 2026-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -135,15 +133,21 @@ For more information about Workfront access requirements, see [Access requiremen
 * The following types of fields are automatically updated, and you cannot edit their values manually: 
     * Linked fields from other records
     * Formula-type fields
-    * System fields (Created by, Created date, Last modified by, Last modified date) 
+    * System fields (Created by, Created date, Last modified by, Last modified date, Approved date, Approved by) 
 * If the records you display are linked to other records, the new information of the records that you are editing reflects on the linked records in all workspaces where that record is linked. 
 * You cannot edit records in bulk. <!--this will probably change-->
 * URLs are recognized as links in single-line text field types only when they start with the following: http://, https://, ftp://, or www. . 
-* You can add a cover image to each record. The image is unique for each record, and it does not apply to all records of the same time. 
-* You can edit the order of the fields in a record page and add a cover image for a record. For more information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+* You can add a cover image to each record. The image is unique for each record, and it does not apply to all records of the same time. For information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+* You can edit the order of the fields in a record's details page. For more information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 * You can edit a record's Start and End dates by resizing or repositioning the records in the timeline and calendar views. 
 
-    You cannot resize or reposition records when the Start and the End date you chose for the record are read-only. For example, using lookup or formula fields for the Start and End date of a record does not allow you to resize or reposition the record in a timeline and calendar view. <!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
+    You cannot resize or reposition records when the Start and the End date you chose for the record are read-only. For example, you cannot resize or reposition the record in a timeline and calendar view when using lookup or formula fields for the Start and End date of a record. <!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
+
+    To edit the records' dates, see one of the following sections in this article:
+
+    * [Edit a record in the calendar view of a record type](#edit-a-record-in-the-calendar-view-of-a-record-type)
+    * [Edit a record in the timeline view of a record type](#edit-a-record-in-the-timeline-view-of-a-record-type)
+
 
 ## Edit records
 
@@ -155,10 +159,6 @@ You can edit a record from the following areas:
 * [The record's preview in a view](#edit-a-record-from-the-records-preview-in-a-view)
 * [The record's page](#edit-a-record-from-the-records-page)
 * [A Workfront object in the Planning section](#edit-a-record-from-a-workfront-object-in-the-planning-section)
-
-To edit the records' dates, do the following:
-
-* [Resize the records' bars in the timeline and calendar view]
 
 ### Edit a record inline in the table view of a record type
 
@@ -265,15 +265,13 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 
     >[!IMPORTANT]
     >
-    >You cannot drag and drop the ends of a record bar, nor drag and drop the record to another date when the Start and the End date you chose for the record are read-only. For example, using lookup or formula fields for the Start and End date of a record does not allow you to resize or reposition the record in a timeline view. <!--this also repeats in Considerations and in editing in the calendar view; also update there, if this changes-->
+    >You cannot drag and drop the ends of a record bar, nor drag and drop the record to another date when the Start and the End date you chose for the record are read-only. For example, you cannot resize or reposition the record in a timeline view when using lookup or formula fields for the Start and End date of a record. <!--this also repeats in Considerations and in editing in the calendar view; also update there, if this changes-->
 
 1. Click the bar of a record to open its details area and edit all fields. 
 
     For information, see the [Edit a record from the record's preview in a view](#edit-a-record-from-the-records-preview-in-a-view) section in this article. 
 
 ### Edit a record in the calendar view of a record type
-
-<!--add another step about drag and drop here when that is available-->
 
 1. Open the record type page in a calendar view. For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 1. (Conditional) Hover over the ends of a record's bar in the calendar view, then click, drag and drop its margins to another date. This automatically updates either the start or end date of the record. 
@@ -284,7 +282,7 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 
     >[!IMPORTANT]
     >
-    >You cannot drag and drop the ends of a record bar, nor drag and drop the record to another date when the Start and the End date you chose for the record are read-only. For example, using lookup or formula fields for the Start and End date of a record does not allow you to resize or reposition the record in a calendar view. <!--this also repeats in Considerations and in editing in the timeline view; also update there, if this changes-->
+    >You cannot drag and drop the ends of a record bar, nor drag and drop the record to another date when the Start and the End date you chose for the record are read-only. For example, you cannot resize or reposition the record in a calendar view when using lookup or formula fields for the Start and End date of a record. <!--this also repeats in Considerations and in editing in the timeline view; also update there, if this changes-->
 
 1. Click the bar of a record to open its details area and edit all fields. 
 
@@ -438,5 +436,5 @@ To add a new choice to an existing select field when editing a record:
 
     The new choice is added immediately to the single-select field. 
 
-    <span class="preview">A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). </span>
+    A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 

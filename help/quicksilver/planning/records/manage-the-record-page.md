@@ -290,7 +290,7 @@ To add a section to a record preview or page:
 
 ## Add a Connected records page to a record
 
-You can view information from connected records or objects by adding a tab for a Connected records page to a record. This adds the connected records in a table view to the tab.
+You can view information from connected records or objects by adding a tab for a Connected records page to a record's details area. This adds the connected records in a table or list view to the tab. 
 
 For more information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md). 
 

@@ -10,9 +10,9 @@ exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
 
 # Cross-workspace record type overview
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
 
 {{planning-important-intro}}
 
@@ -31,27 +31,24 @@ You can enable cross-workspace capabilities for a record type in Adobe Workfront
 >
 >* Any Workflow and a Planning Prime or Ultimate package
 >
-><span class="preview">To configure global record types:</span>
+>To configure global record types:
 >
->* <span class="preview">Any Workfront package and a Planning Plus package</span>
+>* Any Workfront package and a Planning Plus package
 >     
 >   Or
 >
->* <span class="preview">Any Workflow and a Planning Prime or Ultimate package</span>
+>* Any Workflow and a Planning Prime or Ultimate package
 >
 >For more information about what is included in each Workfront Planning package, contact your Workfront account representative. 
 >For information, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 
-
 The following are cross-workspace capabilities of record types:
 
-* <span class="preview">**Global record types**: Users can add global record types to other workspaces they manage.</span>
+* **Global record types**: Users can add global record types to other workspaces they manage.
 
 * **Connectable record types**: Users can connect to this record type from other workspaces. 
 
 This article gives you an overview of cross-workspace record types. For information about defining a record type's cross-workspace capabilities, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). 
-
-<div class="preview">
 
 ## Overview of global record types
 
@@ -135,21 +132,22 @@ The record type configured to be global has the following properties:
 
     * Delete it. 
 
-        Deleting the record type from a secondary workspace only removes it from the secondary workspace. The records and fields added to it from the secondary workspace are also deleted. This does not delete the record type from its original workspace or from any other secondary workspaces where it has been added. 
+        Deleting the record type from a secondary workspace only removes it from the secondary workspace. The records and fields added to it from the secondary workspace are also deleted from the secondary space. The records added in the secondary space remain in the primary workspace. This does not delete the record type from its original workspace or from any other secondary workspaces where it has been added. 
 
         For more information, see [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md).
+
+    * Share it
+    
+        By sharing a global record type in a secondary workspace, the following also occur:
+
+        * Users are added to the workspace with View permissions.
+        * Users receive the same permissions to all the records of the global record type in the secondary workspace.
     * Share the record types's views. 
 
         You cannot share a view publicly from a global record type in a secondary workspace. You can only share views internally from a secondary workspace. You can share a view internally and publicly for a global record type in its original workspace. 
         
         For information, see [Share views](/help/quicksilver/planning/access/share-views.md).
 
-<!--Uncomment this at prod on Jan 15: * Share it-->
-
-<!--You can share a global record type added to a secondary workspace from the secondary space. By sharing a global record type in a secondary workspace, the following also occur:
-
-    * Users are added to the workspace with View permissions.
-    * Users receive the same permissions to all the records of the global record type in the secondary workspace.-->
 
 <!--when they will be able to add fields to the secondary space, this bullet will need this extra information: 
     After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added.-->
@@ -165,7 +163,6 @@ The record type configured to be global has the following properties:
     * Edit it
 
         You cannot edit its appearance, cross-workspace capabilities, or the fields added from the original workspace. 
-    * Share it <!-- remove this at Prod on Jan 15-->
     * Create and manage request forms
     * Create and manage automations
 
@@ -186,6 +183,7 @@ The record type configured to be global has the following properties:
     * If you have Manage permissions on the original workspace, and no permissions on a secondary workspaces, you can view records added from the secondary workspaces in the original workspace, but you cannot manage them from the original workspace. 
     * If you have Manage permissions on the secondary workspace, you can manage the records from both the global record type's original workspace and from the secondary workspace where they were added. 
     * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces. <!-- take this bullet out when we change this functionality on Jan 15-->
+* You cannot publicly share views from a global record type in a secondary workspace. 
 
 ### Access to the connections of a global record type
 
@@ -200,8 +198,6 @@ The following cases exist:
 * If the user has access, the record is created in the global record types's original workspace. 
 
 * If the user doesn't have access, the user gets an error that they don't have access to the global record type's original workspace and they need to provide the workspace ID where they have access to create records.
-
-</div>
 
 ## Overview of connectable record types
 
