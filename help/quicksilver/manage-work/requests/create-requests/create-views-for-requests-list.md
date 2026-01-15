@@ -8,8 +8,6 @@ feature: Work Management
 ---
 # Create and manage views in the Requests area
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 If you are using the new requesting experience, you can create and save views for the Requests area. These views include filters and column arrangements. 
 
 Views can be created and managed in the Requests area of Workfront.
@@ -80,9 +78,9 @@ You can edit existing views, including views you have just created.
 
 1. (Optional) To rename a view, click the **Views** dropdown ![Views dropdown](assets/view-icon-requests.png) and click the three-dot menu next to the view, select **Rename**, then type in the new name for the view.
 1. Click the **Views** dropdown ![Views dropdown](assets/view-icon-requests.png) and select the view you want to edit.
-1. <span class="preview">To add a custom field as a column, click the **Add column** icon ![Add column](assets/add-column.png) near the right of the screen, and click the plus icon next to the custom form field that you want to add as a column to the view.</span>
+1. To add a custom field as a column, click the **Add column** icon ![Add column](assets/add-column.png) near the right of the screen, and click the plus icon next to the custom form field that you want to add as a column to the view.
 
-   <span class="preview">Custom fields on forms attached to the object in the list are available to add as columns.</span>
+   >Custom fields on forms attached to the object in the list are available to add as columns.
 
     >[!TIP]
     >
@@ -108,7 +106,7 @@ You can edit existing views, including views you have just created.
     * **Status**: The status of the request.
     * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
 
-    <span class="preview">In the Preview environment, you can also filter by any custom fields that have been added to the view.</span>
+    You can also filter by any custom fields that have been added to the view.
 
     You can have multiple filters joined by either **And** or **Or**.
     The request list is filtered automatically, as you add the filter conditions. 
@@ -119,6 +117,7 @@ You can edit existing views, including views you have just created.
 >
 > * Changes to views are saved automatically.
 > * Changes to views are visible to anyone that uses the view.
+> * To ensure that the view applies to the person who is using the view, regardless of who created it, you can use the "Me (logged-in user)" filter wildcard in any field that has users as the value.
 
 ## Add the view to a layout template.
 

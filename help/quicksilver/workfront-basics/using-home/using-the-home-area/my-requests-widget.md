@@ -9,8 +9,6 @@ exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
 ---
 # Use the My Requests widget
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 >[!IMPORTANT]
 >
 >This article describes the new My Requests widget. You must have the new requesting experience enabled to see the new widget.
@@ -64,15 +62,11 @@ You can create a request directly from the My Requests widget.
 
 For instructions, see [Create a request](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) in the article Create work items and projects from the Home area.
 
-<div class="preview">
-
 ## Copy a request
 
 You can copy a request in the My Requests widget, edit it, and submit it as a new request.
 
 For instructions, see [Copy and submit requests in the new requesting experience](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) in the article Copy and submit requests.
-
-</div>
 
 ## Filter requests
 
@@ -92,7 +86,7 @@ To configure the filter in the My Requests widget:
    * Status
    * Entered by
 
-    <span class="preview">In the Preview environment, you can also filter by any custom fields that have been added as a column      to the view.</span>
+    You can also filter by any custom fields that have been added as a column to the view.
 
 1. In the next field, select the operator that you want to use for this filter condition. Available operators depend on the chosen field.
 1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
@@ -129,9 +123,9 @@ To adjust the columns on the My Requests widget:
 1. In the My Requests widget, click **Columns**.
 1. (Optional)To reorder columns, click the drag handle ![drag handle](assets/drag-handle.png) of the column you want to move and drag it to the desired locations. The column at the top of the list appears in the My Requests widget as the leftmost column.
 1. (Optional) Use the toggle to control whether a column is displayed in the My Requests widget.
-1. <span class="preview">To add a custom field as a column, click the **Add column** icon ![Add column](assets/add-column.png) near the right of the screen, and click the plus icon next to the custom form field that you want to add as a column to the widget.</span>
+1. To add a custom field as a column, click the **Add column** icon ![Add column](assets/add-column.png) near the right of the screen, and click the plus icon next to the custom form field that you want to add as a column to the widget.
 
-   <span class="preview">Custom fields on forms attached to the object in the list are available to add as columns.</span>
+   Custom fields on forms attached to the object in the list are available to add as columns.
 
 Column preferences are saved automatically.
 
@@ -147,11 +141,13 @@ To search for specific requests in the My Requests widget:
 
 1. (Optional) To jump to the highlighted requests, click the up or down arrows in the search bar.
 
-<div class="preview">
-
 ## Go to an object created by a request
 
 You can find objects created by a request in the My Requests widget.
+
+>[!NOTE]
+>
+>Links to created objects are available in the new requesting experience only for Planning requests, in cases where the request itself created an object. If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience.
 
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**. 
@@ -160,4 +156,3 @@ You can find objects created by a request in the My Requests widget.
 
    The object's page opens.
 
-</div>

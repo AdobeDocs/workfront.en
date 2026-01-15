@@ -11,8 +11,6 @@ exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 ---
 # View submitted requests
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 You can view the requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront:
 
 * The **Workfront** tab of the Requests area in Workfront: View requests submitted to Workfront request queues in the following sections: 
@@ -22,8 +20,8 @@ You can view the requests that you or someone else submitted, or requests you st
    >[!NOTE]
    >
    >* You can only view your own draft requests.
-   >* <span class="preview">In the new requesting experience, submitted requests and drafts are found in the same list. </span>
-   >* <span class="preview">Drafts created in the legacy experience do not appear in the new Requesting experience.</span>
+   >* In the new requesting experience, submitted requests and drafts are found in the same list. 
+   >* Drafts created in the legacy experience do not appear in the new Requesting experience.
 
 * The **Planning** tab of the Requests area in Workfront: View requests submitted to Workfront Planning request forms. Your organization must purchase a Workfront Planning package. For information, see the following articles:
 
@@ -77,7 +75,11 @@ Viewing submitted requests differs based on whether you are using the new or leg
 
 ### View submitted requests in the new requesting experience
 
-You can view submitted requests in the Requests area, <span class="preview">which include links to objects created by Planning requests.</span>
+You can view submitted requests in the Requests area, which include links to objects created by Planning requests.
+
+>[!NOTE]
+>
+>Links to created objects are available in the new requesting experience only for Planning requests, in cases where the request itself created an object. If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience.
 
 To view requests that you or other users have submitted in the new requesting experience:
 
