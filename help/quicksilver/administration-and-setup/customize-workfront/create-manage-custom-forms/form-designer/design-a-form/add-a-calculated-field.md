@@ -11,8 +11,6 @@ exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
 ---
 # Add calculated fields to a form
 
-{{preview-fast-release-general}}
-
 <!-- Audited: 5/2025 -->
 
 You can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object.
@@ -89,10 +87,6 @@ To reuse an existing calculated custom field:
 
 1. In the left panel, click **Custom Forms**, then **Forms**.
 
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
-
 1. Click **New Custom Form**.
 
 1. In the **New Custom Form** dialog, select which object types you'd like to attach the custom form to, then click **Continue**.
@@ -102,9 +96,9 @@ To reuse an existing calculated custom field:
 
 1. Use the search box or expand the **Calculated** section to locate the calculated field you need, then drag the field where you want it to appear in the custom form.
 
-1. <span class="preview">(Conditional) Click **Check for conflicts** to review all objects that might be affected by changing the formula on this calculated field.</span>
+1. (Conditional) Click **Check for conflicts** to review all objects that might be affected by changing the formula on this calculated field.
 
-   <span class="preview">If two or more forms containing the same calculated field are attached to an object, then the formulas must be identical on all of the forms. Editing the formula is not allowed if the change could cause a conflict.</span>
+   If two or more forms containing the same calculated field are attached to an object, then the formulas must be identical on all of the forms. Editing the formula is not allowed if the change could cause a conflict.
 
 1. (Optional) Repeat the previous step to add any other fields.
 
@@ -132,10 +126,6 @@ To reuse an existing calculated custom field:
 1. In the left panel, click **Custom Forms**, then **Forms**.
 
 1. Click **New custom form**.
-
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
 1. In the **New Custom Form** dialog, select which object types you'd like to attach the custom form to, then click **Continue**.
 
@@ -170,8 +160,8 @@ To reuse an existing calculated custom field:
       <p><strong>NOTE</strong>: Calculated fields with a <strong>Currency</strong> format should not include quotation marks. (For example, use 800.00 and not "800.00.") Using quotation marks can cause unexpected consequences due to nuances with language formatting for currency types.</p></td>
      </tr> 
      <tr>
-      <td><span class="preview">Active</span></td>
-      <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
+      <td>Active</td>
+      <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
      </tr>
     </tbody> 
    </table>

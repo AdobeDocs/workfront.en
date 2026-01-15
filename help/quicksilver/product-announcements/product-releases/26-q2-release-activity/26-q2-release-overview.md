@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 ---
 # Second Quarter 2026 release overview
 
-This page provides information about functionality that is included in the Second Quarter 2026 release scheduled for January 2026.
+This page provides information about functionality that is included in the Second Quarter 2026 release scheduled for April 2026.
 
 The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the Second Quarter 2026 release nears its planned Production release.
 

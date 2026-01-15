@@ -11,8 +11,6 @@ exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
 ---
 # Customize Home using a layout template
 
-{{preview-fast-release-general}}
-
 You can use a layout template to configure what users see when they first open Home.
 
 You can configure:
@@ -146,18 +144,12 @@ To customize Home using a layout template:
       </tbody> 
       </table>
 
-1. <span class="preview">In the Preview environment: Continue customizing the layout template. You can click **Apply** at any time to save your progress.</span>
-
-   <span class="preview">Or</span>
-
-   <span class="preview">If you are finished customizing, click **Save and Close**.</span>
-
-1. In the Production environment: Continue customizing the layout template.
+1. Continue customizing the layout template. You can click **Apply** at any time to save your progress.
 
    Or
 
-   If you are finished customizing, click **Save** in the bottom-left corner.
+   If you are finished customizing, click **Save and Close**.
 
    >[!IMPORTANT]
    >
-   >Users must refresh their Home page to see customizations from the Layout Template. 
+   >Users must refresh their Home page to see customizations from the layout template. 
