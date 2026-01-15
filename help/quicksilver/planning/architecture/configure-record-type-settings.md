@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 
 # Configure the Settings area of a record type
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -57,8 +57,6 @@ Depending on what capabilities you want to define for a record type, you can con
 Or
 <li><p>Any Workflow package and a Planning Prime or Ultimate package</p></li></ul>
 
-<div class="preview">
-
 <p>To configure global record types:</p>
 
 <ul> 
@@ -66,7 +64,7 @@ Or
 Or
 <li><p>Any Workflow package and a Planning Prime or Ultimate package</p></li></ul>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
-</div>
+
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 

@@ -10,6 +10,8 @@ exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
 
+<!--take production and preview references out at prod-->
+
 # Connect record types
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -198,11 +200,11 @@ For an example of connecting record types and records, see [Example of connectin
         
         >[!TIP]
         >
-        >The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the **Advanced settings** or the **Cross-workspace settings** tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display. 
+        >The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the **Cross-workspace settings** tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display. 
         >
         >For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production-->
         >
-        >![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
+        >![Edit record type box cross-workspace settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
         
         <!--Old:
         [!TIP]
@@ -233,7 +235,7 @@ For an example of connecting record types and records, see [Example of connectin
     >You can have multiple connections to the same record or object type. If you do not edit the connected field name, Workfront adds a numeral after the name of the connected record, to indicate the number of connected record types by the same name. 
 
 1. Update the **Description** field by adding information about the connected record field. The description of a field displays when you hover over the field's column in a table. 
-1. (Conditional) When you connect record types from two different workspaces, a record type and an Adobe Experience Manager asset object, or a record type and a GenStudio Brand select the **Allow multiple records**. By selecting it, you indicate that you allow users to add multiple records when the connected record type field displays on the original records. This is selected by default.  
+1. (Conditional) When you connect record types from two different workspaces, a record type and an Adobe Experience Manager asset object, or a record type and a GenStudio Brand, select the **Allow multiple records**. By selecting it, you indicate that you allow users to add multiple records when the connected record type field displays on the original records. This is selected by default.  
     
     ![New connection to record type from another workspace](assets/new-connection-allow-multiple-records-box.png)
     
@@ -403,9 +405,8 @@ For an example of connecting record types and records, see [Example of connectin
         >[!TIP]
         >
         > A linked record field is not created for objects from another application in their respective applications. 
-        >We recommend not creating links to taxonomical record types, as there is a limit of 500 fields, in addition to the limit of 30 connected fields for every record type.
+        > We recommend not creating links to taxonomical record types, as there is a limit of 500 fields, in addition to the limit of 30 connected fields for every record type.
 
-    <!--see the span preview text in the TIP above; it might not show up in green-->
 
 1. (Optional and conditional) From either the original record type or the linked record type table view, click the downward-pointing arrow in the header of the linked record fields, then click one of the following:
 
