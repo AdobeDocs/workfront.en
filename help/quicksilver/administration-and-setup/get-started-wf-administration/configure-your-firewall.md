@@ -118,13 +118,16 @@ If your Production environment is on Cluster 1, 2, 3, 5, 7, 8, or 9 you must all
      <li>35.161.82.137</li> 
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
-     <li>54.71.252.65</li> 
-    </ul> <p>For information about the following IP addresses, see <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">New IP addresses for Adobe Workfront email with the 21.1 release</a></p> 
-    <ul> 
+     <li>54.71.252.65</li>
      <li>23.251.237.107</li> 
      <li>23.251.237.108</li> 
      <li>23.251.237.109</li> 
      <li>23.251.237.106</li> 
+     <li>206.55.149.212</li>
+     <li>206.55.149.214</li>
+     <li>206.55.149.215</li>
+     <li>206.55.149.213</li>
+     <li>206.55.149.211</li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -155,11 +158,10 @@ If your Production environment is on Cluster 4, add the following IP addresses f
 * 34.242.62.80/32
 * 46.51.194.192/32
 * 54.229.129.66/32
-
-For information about the following IP addresses, see [New IP addresses for Adobe Workfront email with the 21.1 release](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
-
 * 23.251.239.98
 * 23.251.239.99
+* 24.110.76.224
+* 24.110.76.223
 
 ### IP addresses to allow for Cluster 6 {#ip-addresses-to-allow-for-cluster-6}
 
@@ -181,6 +183,11 @@ If your Production environment is on Cluster 6, add the following IP addresses.
      <li>34.66.82.65</li> 
      <li>34.66.82.66</li> 
      <li>34.66.82.67</li> 
+    <li>206.55.149.212</li>
+   <li>206.55.149.214</li>
+   <li>206.55.149.215</li>
+   <li>206.55.149.213</li>
+   <li>206.55.149.211</li>
     </ul> </td> 
   </tr> 
   <tr> 
@@ -214,6 +221,13 @@ If your Production environment is on Cluster 6, add the following IP addresses.
 * 20.36.133.48/28
 * 20.81.156.240/28
 * 172.172.84.48/28
+
+### IP addresses to allow for Cluster 11
+
+To receive email from the Workfront application on cluster 11, add the following IP addresses:
+
+* 24.110.76.224
+* 24.110.76.223
 
 ### IP addresses to allow for a Test Drive
 

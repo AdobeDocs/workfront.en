@@ -11,10 +11,6 @@ exl-id: de161674-5b61-4853-a16a-c70db10a1c95
 ---
 # Create requests
 
-<!--
-{{highlighted-preview}}
--->
-
 Requests and issues are interchangeable in Adobe Workfront. You can create requests by doing one of the following:
 
 * Submit a request in Workfront

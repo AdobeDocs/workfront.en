@@ -32,7 +32,7 @@ After the connection fields are created, you can connect individual records betw
 
 >[!NOTE]
 >
-><span class="preview">You can have up to 30 connection fields for one record type.</span>
+>You can have up to 30 connection fields for one record type.
 
 This article describes how you can connect two Workfront Planning record types, or a Workfront Planning record type with an object from another application. 
 
@@ -198,7 +198,7 @@ For an example of connecting record types and records, see [Example of connectin
         
         >[!TIP]
         >
-        >The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the **Advanced settings** <span class="preview">or the **Cross-workspace settings**</span> tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display. 
+        >The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the **Advanced settings** or the **Cross-workspace settings** tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display. 
         >
         >For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production-->
         >
@@ -246,9 +246,9 @@ For an example of connecting record types and records, see [Example of connectin
 
     >[!TIP]
     >
-    >* In addition to <span class="preview">the limit of 30 connection fields for one record type</span>, there is a limit of 500 fields for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit.
+    >* In addition to the limit of 30 connection fields for one record type, there is a limit of 500 fields for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit.
     >
-    >* <span class="preview">Selecting the **Create corresponding field on linked record type** is a prerequisite for creating hierarchies.</span>
+    >* Selecting the **Create corresponding field on linked record type** is a prerequisite for creating hierarchies.
 
 1. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
 
@@ -303,6 +303,8 @@ For an example of connecting record types and records, see [Example of connectin
     >* Workfront objects' date field information displays in 24 hour format in Workfront Planning, regardless of how it displays in Workfront. 
     >
     >   For example, if a project's Planned Start Date displays as 3:00 PM in Workfront, it will display as 15:00 in Workfront Planning in an imported lookup field. 
+    >* In the Production environment, you cannot add People fields as lookup fields. <span class="preview">You can add People fields as lookup fields in the Preview environment.</span>
+    >
 
 1. Click **Create**.
 
@@ -401,7 +403,7 @@ For an example of connecting record types and records, see [Example of connectin
         >[!TIP]
         >
         > A linked record field is not created for objects from another application in their respective applications. 
-        >We recommend not creating links to taxonomical record types, as there is a limit of 500 fields, <span class="preview"> in addition to the limit of 30 connected fields</span> for every record type.
+        >We recommend not creating links to taxonomical record types, as there is a limit of 500 fields, in addition to the limit of 30 connected fields for every record type.
 
     <!--see the span preview text in the TIP above; it might not show up in green-->
 
