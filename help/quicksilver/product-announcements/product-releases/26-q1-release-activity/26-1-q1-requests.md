@@ -25,7 +25,7 @@ This link is available only for Planning requests, in cases where the request it
 
 Previously, this column contained only the name of the object, and not its link.
 
-For information on locating these links, see For instructions on adding columns, see:
+For information on locating these links, see:
 
 * [Locate submitted requests](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
 * [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)

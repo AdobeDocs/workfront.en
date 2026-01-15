@@ -34,7 +34,7 @@ There are two steps to connections in Workfront Planning:
 
 Consider the following about connecting record types: 
 
-* <span class="preview">You can have up to 30 connected fields for one record type in Workfront Planning.</span>
+* You can have up to 30 connected fields for one record type in Workfront Planning.
 
 * You can connect the following entities in Adobe Workfront Planning:
 
@@ -120,7 +120,7 @@ Consider the following about connecting record types:
         >
         >For example, if a project's Planned Start Date displays as 3:00 PM in Workfront, it will display as 15:00 in Workfront Planning in an imported lookup field. 
     
-    * <span class="preview">You must connect record types to be able to create hierarchies in Workfront Planning. When record type connections don't exist, they are automatically created when you create a hierarchy. For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).</span>
+    * You must connect record types to be able to create hierarchies in Workfront Planning. When record type connections don't exist, they are automatically created when you create a hierarchy. For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 
 
 ## Connection types
