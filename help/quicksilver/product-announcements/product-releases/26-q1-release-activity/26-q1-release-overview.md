@@ -493,8 +493,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>To allow organizations access to the benefits of the Adobe Unified Experience, we're continuing to make it available to existing Workfront customers.</p>
         </td>
         <td><p>December 11, 2025</p></td>
-        <td><p>January 15, 2026</p></td>
-        <td><p>January 15, 2026</p></td>
+        <td><p>February 11, 2026</p></td>
+        <td><p>February 11, 2026</p></td>
     <tr>
             </tbody>
         </table>   
