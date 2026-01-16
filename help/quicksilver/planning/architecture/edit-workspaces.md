@@ -10,9 +10,9 @@ exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
 
 # Edit workspaces
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -126,9 +126,7 @@ For more information about Workfront access requirements, see [Access requiremen
 1. (Conditional) If you are a Workfront administrator, click one of the following:
 
    * **Workspaces I'm on** to access workspaces you created
-   * **Other workspaces** to access workspaces others shared with you
-      Or
-      <span class="preview">**All workspaces** to access workspaces shared with you or workspaces you created</span>
+   * **All workspaces** to access workspaces shared with you or workspaces you created
 
 1. (Optional) Click **Show all** to display additional workspaces. The **Show all** link displays only when you have more than two rows of workspace cards.
 1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
@@ -136,7 +134,7 @@ For more information about Workfront access requirements, see [Access requiremen
 
    * Hover over the workspace card, then click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the card
       Or 
-   * <span class="preview"> Click the **search** icon ![Search icon](assets/search-icon.png) in the upper-right corner of the Workspaces page to search for a workspace by name</span> and click a workspace card to open the workspace, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the workspace name. 
+   * Click the **search** icon ![Search icon](assets/search-icon.png) in the upper-right corner of the Workspaces page to search for a workspace by name and click a workspace card to open the workspace, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the workspace name. 
 1. Click **Edit**.
 
    The **Edit workspace** box displays.
