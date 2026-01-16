@@ -44,13 +44,32 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
+## Delete a document in the legacy documents area
+
 To delete a document:
 
-1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel..
 1. Find the document you need.
 
 1. Click the **Delete** icon ![Delete icon](assets/delete.png) above the Documents area.
 
 1. In the box that appears, click **Yes, Delete it**&nbsp;to confirm.
 
-A system or group administrator can restore a document within 30 days of being deleted, as described in [Restore deleted items](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+    A system or group administrator can restore a document within 30 days of being deleted, as described in [Restore deleted items](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+
+    ![delete documents](assets/delete-documents-legacy.png)
+
+
+## Delete a document in the new documents area
+
+To delete a document:
+
+1. Go to the project, task, or issue that contains the document, then select **Document** in the left panel.
+
+1. Find the document you need, then click **Delete**. 
+
+1. In the box that appears, click **Delete** to confirm.
+
+    A system or group administrator can restore a document within 30 days of being deleted, as described in [Restore deleted items](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+
+    ![delete documents](assets/delete-documents-new.png)
