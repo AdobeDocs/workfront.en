@@ -48,7 +48,7 @@ For more detail about the information in this table, see [Access requirements in
 
 To delete a document:
 
-1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel..
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 1. Find the document you need.
 
 1. Click the **Delete** icon ![Delete icon](assets/delete.png) above the Documents area.

@@ -9,7 +9,7 @@ exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
 ---
 # Preview documents
 
-You can preview a&nbsp;document from the Documents area. This is especially useful for images.
+You can preview a document from the Documents area. This is especially useful for images.
 
 ## Access requirements
 
@@ -44,7 +44,7 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Preview a document
+## Preview a document in the legacy documents area
 
 You can preview a document in Workfront. 
 
@@ -54,12 +54,33 @@ You can preview a document in Workfront.
    * If you have not prepared the document for review, it displays in a new browser tab.
    * If you have prepared the document for review, the proofing viewer opens to display it.
 
-The following file formats are unable to display in the preview window:
+   The following file formats are unable to display in the preview window:
 
-* .mp4
-* .gif
-* .jpeg
-* .png
-* .tiff
-* .plain
-* .pdf
+   * .mp4
+   * .gif
+   * .jpeg
+   * .png
+   * .tiff
+   * .plain
+   * .pdf
+
+## Preview a document in the new documents area
+
+You can preview a document in Workfront. 
+To preview a document:
+
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+1. Find the document you need, then click the document name.
+   ![Document preview](assets/preview-new-doc.png)
+
+>[!NOTE]
+>
+>The following file formats are unable to display in the preview window:
+>
+>   * .mp4
+>   * .gif
+>   * .jpeg
+>   * .png
+>   * .tiff
+>   * .plain
+>   * .pdf

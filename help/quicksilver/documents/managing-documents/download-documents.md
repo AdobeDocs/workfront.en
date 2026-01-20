@@ -44,14 +44,20 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Download an individual document in the legacy documents area
+## Download documents in the legacy documents area
+
+You can download individual documents or multiple documents simultaneously in the legacy documents area.
+
+### Download an individual document in the legacy documents area
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
 
 1. Click the **Download Selected** icon ![Download Selected icon](assets/download-icon.png).
 
-## Download multiple documents simultaneously in the legacy documents area
+![download an individual document](assets/legacy-doc-download.png)
+
+### Download multiple documents simultaneously in the legacy documents area
 
 You can download multiple documents simultaneously.
 
@@ -67,17 +73,11 @@ You can download multiple documents simultaneously.
 
    Folders are downloaded as .zip files and are limited to 4GB.
 
-## Download an individual document in the new documents area
+## Download documents in the new documents area
+
+You can download individual documents or multiple documents simultaneously in the new documents area. You are not able to download folders in the new documents area.
 
 1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
-1. Find the document you need, then click **Download**.
-   ![Download Selected icon](assets/download-individual-doc-new.png).
+1. Find the documents you need, then click **Download**.
 
-## Download multiple documents simultaneously in the new documents area
-
-You can download multiple documents simultaneously.
-
-1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
-1. Hold Shift then click the individual documents that you want to download.
-1. Click **Download**.
-   ![Download Selected icon](assets/download-multiple-docs-new.png).
+![Download document](assets/download-new-doc.png)

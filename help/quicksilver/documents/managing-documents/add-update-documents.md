@@ -48,7 +48,11 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Add or reply to an update for a document
+## Add an update to a document in the legacy documents area
+
+You can add updates to documents and proofs in the legacy documents area.
+
+### Add or reply to an update for a document
 
 1. Go to the object that contains the document, then select **Documents** in the left panel.
 1. Find the document you need, and do one of the following:
@@ -60,7 +64,7 @@ For more detail about the information in this table, see [Access requirements in
    The updates and replies are added to the document and also to the higher-ranking objects. For more information, see [Update section overview](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
 
 
-## Add a reply to a proofing comment for a document
+### Add a reply to a proofing comment for a document
 
 In the Updates area, when you reply to a comment someone made while proofing a document, the proofing viewer launches so that you can type your reply there with the context you need. Your reply displays both in the proofing viewer and in the Updates area for the document.
 
@@ -70,3 +74,10 @@ In the Updates area, when you reply to a comment someone made while proofing a d
 1. Click **Reply in proof**, type the comment in the proofing viewer that launches, then click **Reply**.
 
    If you need information about typing comments and replies in the proofing viewer, see [Comment on a proof](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).
+
+## Add an update to a document in the new documents area
+
+1. Go to the object that contains the document, then select **Documents** in the left panel.
+1. Find the document you need, then click the comment icon ![Comment icon](assets/new-doc-comment-icon.png) to open the Comments panel.
+1. Type your comment in the text box, then click **Submit**.
+   ![New document comments panel](assets/comments-new-doc.png)
