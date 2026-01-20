@@ -139,6 +139,10 @@ For more information on configuring project connection views, including filters,
 
 ## Workspace main page improvements 
 
+>[!IMPORTANT]
+>
+>This has been temporarily removed from  the Preview and Production environments.
+
 >[!NOTE]
 >
 >Preview: December 18, 2025 
