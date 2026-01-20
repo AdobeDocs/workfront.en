@@ -11,6 +11,12 @@ exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
 
 While there are no restrictions on the types and sizes of individual files that users can upload to your Workfront instance, there is a limit on your Workfront Plan on the total amount of storage used by your Workfront instance. As an Adobe Workfront administrator, you monitor your instance's document storage from the Setup area.
 
+>[!NOTE]
+>
+>This functionality is not available in the new documents area.<br>
+>If your organization uses Enterprise Storage, you will see the new documents area when you access documents in Workfront. For more information about >Enterprise Storage, see [Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.

@@ -51,7 +51,11 @@ For information about adding a new version of a document linked to Workfront fro
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 +++
 
-## Use drag-and-drop to add a new version
+## Upload a new document version in the legacy documents area
+
+If your organization is on Workfront Storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront Storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+
+### Use drag-and-drop to add a new version
 
 >[!NOTE]
 >
@@ -68,7 +72,7 @@ For more detail about the information in this table, see [Access requirements in
 
    For information about managing document versions, see [Manage document versions](../../documents/managing-documents/manage-document-versions.md).
 
-## Use the More menu to add a new version
+### Use the More menu to add a new version
 
 1. Select the document where you want to add a new version. 
 1. Click **Add New** > **Version**.
@@ -76,3 +80,7 @@ For more detail about the information in this table, see [Access requirements in
    ![Add new version](assets/add-new-version-350x185.png)
 
 1. Select the type of document you want to upload, then follow the prompts.
+
+## Upload a new document version in the new documents area
+
+If your organization uses Enterprise Storage, you will see the new documents area when you access documents in Workfront. For more information about Enterprise Storage, see [Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
