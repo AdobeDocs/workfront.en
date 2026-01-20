@@ -2099,6 +2099,10 @@ feature-set: Workfront
     * [Adobe Workfront Planning release activity for 2023](planning/general/release-activity-archives-2023.md)
     * [Adobe Workfront Planning object limitations overview](planning/general/limitations-overview.md)
     * [Get started with the Adobe Workfront Planning free trial](planning/general/trial-workfront-planning.md)
+  * Adobe Workfront Planning best practices {#adobe-workfront-planning-best-practices}
+    * [Adobe Workfront best practices: article index](planning/best-practices.md/best-practices-article-index.md)
+    * [The 30-day launchpad: roll out your strategic home ](planning/best-practices.md/30-day-launchpad.md)
+    * [The framework for success: model your campaign hierarchy](planning/best-practices.md/model-campaign-hierarchy.md)
   * Adobe Workfront Planning architecture {#adobe-workfront-planning-architecture}
     * [Architecture: article index](planning/architecture/architecture-information.md)
     * [Workspaces overview](planning/architecture/workspaces-overview.md)

@@ -1,5 +1,5 @@
 ---
-title: "The Blueprint of Success: Modeling Your Campaign Hierarchy"
+title: "The Framework of Success: Model Your Campaign Hierarchy"
 description: Learn how to translate your complex business processes into a scalable, governed campaign hierarchy using "Centers of Gravity" and a multi-workspace architecture. 
 feature: Workfront Planning
 role: User, Admin
@@ -9,7 +9,7 @@ hidefromtoc: yes
 hide: yes
 ---
 
-# The Blueprint of Success: Modeling Your Campaign Hierarchy 
+# The framework for success: model your campaign hierarchy 
 
  
 
@@ -25,7 +25,7 @@ As your marketing operations scale, so does the complexity of your data. Without
 
  
 
-The "Blueprint of Success" is a framework for modeling your campaign hierarchy in Workfront Planning (WFP). It moves you from "spreadsheet chaos" to a governed, object-oriented model that ensures every team speaks the same language while maintaining the agility they need to execute. 
+The "Blueprint of Success" is a framework for modeling your campaign hierarchy in Workfront Planning. It moves you from "spreadsheet chaos" to a governed, object-oriented model that ensures every team speaks the same language while maintaining the agility they need to execute. 
 
  
 
@@ -71,7 +71,7 @@ Once the core path is established, organizations may choose to add additional la
 
 * **Channel Plans:** A layer between *Campaigns* and *Tactics* to group cross-functional strategies (e.g., "Digital Strategy"). 
 
-* **WFP Activities:** In lower-volume environments (typically <5,000 deliverables/year), some teams prefer to track individual "Experiences" as WFP records before they become projects. 
+* **Workfront Planning Activities:** In lower-volume environments (typically <5,000 deliverables/year), some teams prefer to track individual "Experiences" as Workfront Planning records before they become projects. 
 
 
 >[!TIP]
@@ -150,9 +150,9 @@ While Workfront Planning is the future of strategic intent, its native reporting
 
 * **The Recommendation:** Don't delete your Portfolios and Programs yet. Instead, use **Fusion automations** to create a bridge.  
 
-* **How it Works:** When a Tactic or Campaign is created in WFP, Fusion can automatically mirror that record into a corresponding Portfolio or Program in the Workflow module. This allows you to: 
+* **How it Works:** When a Tactic or Campaign is created in Workfront Planning, Fusion can automatically mirror that record into a corresponding Portfolio or Program in the Workflow module. This allows you to: 
 
-    1. Enjoy WFP's superior **strategic visualization** (Timelines/Calendars). 
+    1. Enjoy Workfront Planning's superior **strategic visualization** (Timelines/Calendars). 
 
     2. Maintain your **legacy reporting** in the Workflow module for stakeholders who aren't yet ready to move to Canvas. 
 
@@ -164,7 +164,7 @@ While Workfront Planning is the future of strategic intent, its native reporting
 
 * **Designate Primary Workspaces.** Ensure each record type has one "home" workspace (its center of gravity) that acts as the aggregator for reporting. 
 
-* **Prioritize Forms for Intake.** Use record forms for groups with less sophistication in WFP to ensure metadata integrity. While Power Users may benefit from direct data entry in Table views, this should be approached with caution—bulk changes in a table can easily create data headaches for other stakeholders. 
+* **Prioritize Forms for Intake.** Use record forms for groups with less sophistication in Workfront Planning to ensure metadata integrity. While Power Users may benefit from direct data entry in Table views, this should be approached with caution—bulk changes in a table can easily create data headaches for other stakeholders. 
  
 
 ### Don't: 
