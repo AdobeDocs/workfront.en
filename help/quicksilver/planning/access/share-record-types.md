@@ -180,7 +180,6 @@ Or
    For information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
 
 
-
 ## Share permissions to a record type
 
 You can adjust permissions to individual record types of a workspace if you have Manage permission to the workspace. 

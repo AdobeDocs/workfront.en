@@ -103,12 +103,12 @@ The record type configured to be global has the following properties:
     * Create and manage request forms
     * Create and manage automations
 
-* The records that you add to a global record type are visible only to users who have View permissions to the workspace where they were added. <!-- this needs to be more specific: what does "o the workspace where they were added" mean? - added in which kind of workspaces? secondary or primary; asking Lilit-->
+* The records that you add to a global record type are visible only to users who have View permissions to the workspace where they were added. 
 * The records that you add from a secondary workspace roll up and display in the original workspace. All members of the original workspace gain View permissions to them.
 * When the original global record type is added to multiple secondary workspaces the following scenarios exist: 
 
     * Members of the original workspace automatically gain View permissions to all records added from any workspace, even if they are  not members of those workspaces.
-    * Secondary workspace members can view only records from workspaces where they are a member. <!--change this to: Secondary workspace members can view only records from the workspace the records were added and where they have at least permissions to view the record workspace and the record type.-->
+    * Secondary workspace members can view only records from workspaces where they are a member.
 
 * The record types connected to a global record type will become available for connection from the workspaces where this record type is added. 
         
@@ -166,23 +166,16 @@ The record type configured to be global has the following properties:
     * Create and manage request forms
     * Create and manage automations
 
-* Records added in a secondary workspace are visible from the following workspaces, only if you have View or higher permissions to these workspaces: 
+* Records added in a secondary workspace are visible from the following workspaces, when if you have View or higher permissions to these workspaces: 
 
-    * The secondary workspace where they are added. 
-    * The global record type's original workspace.
-    * All other workspaces where the global workspace is added.
-
-    <!--replace he above bullet with this: 
-        * Records added in a secondary workspace are visible from the following workspaces, only if you have View or higher permissions to these workspaces:
-        * The secondary place where they were added
-        * The global record type's original workspace
-    -->
-
+    * The secondary place where they were added
+    * The global record type's original workspace
+    
 * The following scenarios exist for records created in secondary workspaces: 
 
     * If you have Manage permissions on the original workspace, and no permissions on a secondary workspaces, you can view records added from the secondary workspaces in the original workspace, but you cannot manage them from the original workspace. 
     * If you have Manage permissions on the secondary workspace, you can manage the records from both the global record type's original workspace and from the secondary workspace where they were added. 
-    * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces. <!-- take this bullet out when we change this functionality on Jan 15-->
+    <!--not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces-->
 * You cannot publicly share views from a global record type in a secondary workspace. 
 
 ### Access to the connections of a global record type
