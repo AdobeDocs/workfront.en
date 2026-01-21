@@ -13,7 +13,7 @@ hide: yes
 
 Adobe Workfront is currently offering a 60-day free trial of Adobe Workfront Planning. 
 
-The trial is available between the following dates: March 1 - May 1, 2026. 
+The trial is available between the following dates: March 2 - May 1, 2026. 
 
 >[!NOTE]
 >
@@ -46,13 +46,13 @@ Your company must have the following to be able to join the Workfront Planning f
 
 One of your Workfront Administrators must review and sign a legal agreement before everyone in your organization receives access to the Workfront Planning free trial. 
 
-You will be able to review and sign the agreement before the trial starts on March 1, 2026. 
+You will be able to review and sign the agreement before the trial starts on March 2, 2026. 
 
 <!--check the steps here at release-->
 
 1. To review and accept the legal agreement, do one of the following: 
 
-    1. Before March 1, 2026, do the following: 
+    1. Before March 2, 2026, do the following: 
         1. Log in to Adobe Workfront as a System Administrator. 
         1. Follow the in-app banner that contains information about the **Workfront Planning trial**
 
@@ -62,7 +62,7 @@ You will be able to review and sign the agreement before the trial starts on Mar
         1. Click **Review Trial Agreement**. <!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here--> 
         1. Click **Accept**, after reviewing the agreement. 
 
-    1. After March 1, 2026, when the trial launches, do the following:
+    1. After March 2, 2026, when the trial launches, do the following:
 
         1. Log in to Adobe Workfront as a System Administrator. 
         1. Follow the in-app banner that contains information about the **Workfront Planning trial**
@@ -79,11 +79,11 @@ You will be able to review and sign the agreement before the trial starts on Mar
 
             Your organization is now enrolled in the Workfront Planning trial until May 1, 2026. 
 
-            After March 1, 2026, the following permissions are granted to the data available in the **Best practice workspaces** tab in the  **Planning Trial** area:  
+            After March 2, 2026, the following permissions are granted to the data available in the **Best practice workspaces** tab in the  **Planning Trial** area:  
 
             * All System Administrators have Manage permissions.
             * All other users have View permissions.
-        1. (Conditional) After March 1, 2026, start exploring the **Best practice workspaces** tab and share workspaces or their object with others.
+        1. (Conditional) After March 2, 2026, start exploring the **Best practice workspaces** tab and share workspaces or their object with others.
 
             For more information about using Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md). 
 
@@ -95,9 +95,10 @@ You will be able to review and sign the agreement before the trial starts on Mar
 
 The following are some important dates associated with the Adobe Workfront Planning free trial offering:
 
-* **March 1, 2026** - The Workfront Planning trial launches.
+* **March 2, 2026** - The Workfront Planning trial launches.
 * **May 1, 2026** - The Workfront Planning trial closes and your access to Planning is removed. Workfront secures your data after the trial is over until November 30, 2026. If you purchase Workfront Planning during this time, you regain access to Planning and your data. 
-* **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date. 
+<!--Lauren wanted this out: 
+* **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date. -->
 
 <!--## Overview of the access to Workfront Planning -->
 

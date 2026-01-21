@@ -1,6 +1,6 @@
 ---
 title: "The 30-Day Launchpad: Rolling Out Your Strategic Home"
-description: Learn how to roll out Workfront Planning (WFP) using a strategy that prioritizes psychological safety, minimizes disruption, and delivers quick wins. 
+description: Learn how to roll out Workfront Planning using a strategy that prioritizes psychological safety, minimizes disruption, and delivers quick wins. 
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -14,7 +14,7 @@ hide: yes
 
 ## Goal 
 
-Learn how to roll out Workfront Planning (WFP) using a strategy that prioritizes psychological safety, minimizes disruption, and delivers quick wins. 
+Learn how to roll out Workfront Planning using a strategy that prioritizes psychological safety, minimizes disruption, and delivers quick wins. 
 
  
 
@@ -42,9 +42,9 @@ To activate this evolutionary shift, choose a pilot team that is ready and willi
 
  
 
-* **The Parallel Path (Dual-Tracking):** The team maintains their current workflow while simultaneously modeling their next planning cycle in WFP. This builds "muscle memory" and confidence without the risk of a single point of failure. 
+* **The Parallel Path (Dual-Tracking):** The team maintains their current workflow while simultaneously modeling their next planning cycle in Workfront Planning. This builds "muscle memory" and confidence without the risk of a single point of failure. 
 
-* **The Clean Break:** After an initial design exercise using sample data to validate the model, the team moves their "live" planning start point directly into WFP for their next cycle. 
+* **The Clean Break:** After an initial design exercise using sample data to validate the model, the team moves their "live" planning start point directly into Workfront Planning for their next cycle. 
 
  
 
@@ -76,7 +76,7 @@ This **Team-First** architecture allows you to:
 
 * **Connect strategy to work:** Enable the link between your planning records and the workflow module. 
 
-* **Mirror current data:** Use the team's existing tools (Excel/Core) to populate WFP, ensuring the data feels familiar and relevant. 
+* **Mirror current data:** Use the team's existing tools (Excel/Core) to populate Workfront Planning, ensuring the data feels familiar and relevant. 
 
 * **Built for flexibility:** Remember that Workfront Planning is designed to evolve. You can start with team-level processes and easily elevate or migrate them to enterprise-level governance when the business is ready. 
 
@@ -96,7 +96,7 @@ Aim for your first major win by Day 15: **automated project creation**.
 
 ### Days 16-30: Gradual transition toward Enterprise Scale 
 
-With the "lightning moment" achieved, move the team's start point into WFP. As this **Team-First** model succeeds, you begin the path toward **Enterprise Scale** by identifying patterns that work. 
+With the "lightning moment" achieved, move the team's start point into Workfront Planning. As this **Team-First** model succeeds, you begin the path toward **Enterprise Scale** by identifying patterns that work. 
 
  
 
@@ -104,7 +104,7 @@ With the "lightning moment" achieved, move the team's start point into WFP. As t
 
 * **Observe and standardize:** Use the Primary Workspace to observe how the pilot team uses the tool. These real-world examples will shape your eventual enterprise design. 
 
-* **Decommission legacy spreadsheets:** Move fully into WFP as the process matures. 
+* **Decommission legacy spreadsheets:** Move fully into Workfront Planning as the process matures. 
 
 * **Shift power users:** Use the **table view** for direct, high-velocity plan management. 
 
@@ -120,7 +120,7 @@ Look for these early indicators of health:
 
 * **Efficiency:** Automation reduces the time from strategic approval to project start. 
 
-* **Trust:** Stakeholders use WFP timelines rather than manual status decks for reviews. 
+* **Trust:** Stakeholders use Workfront Planning timelines rather than manual status decks for reviews. 
 
  
 
