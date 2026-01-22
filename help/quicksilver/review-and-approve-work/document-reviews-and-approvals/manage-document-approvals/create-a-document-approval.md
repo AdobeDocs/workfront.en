@@ -60,7 +60,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Scroll down to the **Approvals** section, then click **Create workflow**.
 
-  ![Add approvers in document summary](assets/doc-summary-add-approvers.png)
+   ![Add approvers in document summary](assets/doc-summary-add-approvers.png)
 
 1. Fill in the following details:
 
@@ -96,15 +96,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. Click on the document you need and the Document Summary panel for that document will open.
+1. Click on the document, then click the Approvals icon on the right side of the page. 
 
-1. Select the version of the document you would like to create an approval for in the version dropdown. The latest version is selected by default.
+   ![Add approvers in document summary](assets/approvals-icon-new.png)
 
-1. Scroll down to the **Approvals** section, then click **Create workflow**.
-
-  ![Add approvers in document summary](assets/approvals-icon-new.png)
-
-1. Fill in the following details:
+1. Click **Create workflow**, then fill in the following details:
 
    <table>
    <tr>
