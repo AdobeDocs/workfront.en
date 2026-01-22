@@ -1,13 +1,13 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Create a document review or approval request
+title: Create a document approval workflow
 description: You can request approval from other users for a document in Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 ---
-# Create a document review or approval request
+# Create a document approval workflow
 
 You can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.
 
@@ -50,48 +50,88 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Create a document review or approval request from the document page
+## Create an approval workflow from the Summary panel <!--in the legacy document area-->
 
-1. Hover over the document, then click Document Details.
-   ![Document details](assets/doc-details.png)
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. Near the document name, select the version of the document you would like to create an approval for in the version dropdown. The latest version will be selected by default.
+1. Click on the document you need and the Document Summary panel for that document will open.
 
-1. Click **Approvals** in the left pane.
+1. Select the version of the document you would like to create an approval for in the version dropdown. The latest version is selected by default.
 
-1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
-
-1. To add an approver, click the **Approver** and and begin typing in a user or team name. 
-
-1. To add a reviewer, click the **Reviewer** checkbox and begin typing in a user or team name. 
-
-   ![Add approver and deadline](assets/add-approver-and-deadline.png)
-
-1. Repeat the previous step to add additional approvers or reviewers.
-
-## Create a document review or approval request from the Document Summary panel
-
-1. Go to the project, task, or issue that contains the document, then select **Documents**.
-
-1. Click on the document you need and the Document Summary pane for that document will open.
-
-1. Select the version of the document you would like to create an approval for in the version dropdown. The latest version will be selected by default.
-
-1. Scroll down to the **Approvals** section in the Document Summary pane, then click **Add**.
+1. Scroll down to the **Approvals** section, then click **Create workflow**.
 
   ![Add approvers in document summary](assets/doc-summary-add-approvers.png)
 
-1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
+1. Fill in the following details:
 
-1. To add an approver, click the **Approver** and and begin typing in a user or team name. 
+   <table>
+   <tr>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
+   </tr>
+   <tr>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
+   </tr>
+   <tr>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
+   </tr>
+   </table>
 
-1. To add a reviewer, click the **Reviewer** checkbox and begin typing in a user or team name. 
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
-   ![Add approver and deadline](assets/add-approver-and-deadline.png)
+   >[!NOTE]
+   >
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
-1. Repeat the previous step to add additional approvers or reviewers.
+   ![Document details](assets/new-stage.png)
 
 
+## Create an approval workflow from the Summary panel in the new document area
+
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+
+1. Click on the document you need and the Document Summary panel for that document will open.
+
+1. Select the version of the document you would like to create an approval for in the version dropdown. The latest version is selected by default.
+
+1. Scroll down to the **Approvals** section, then click **Create workflow**.
+
+  ![Add approvers in document summary](assets/approvals-icon-new.png)
+
+1. Fill in the following details:
+
+   <table>
+   <tr>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
+   </tr>
+   <tr>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
+   </tr>
+   <tr>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
+   </tr>
+   </table>
+
+1. (Optional) Repeat the previous step to add additional stages as needed.
+
+   >[!NOTE]
+   >
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
+
+   ![Document details](assets/new-stage.png)
 
 
 
