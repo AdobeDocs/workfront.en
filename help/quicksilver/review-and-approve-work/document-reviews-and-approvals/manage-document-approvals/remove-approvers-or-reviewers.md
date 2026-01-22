@@ -51,32 +51,64 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Remove approvers or reviewers from the Document Details page
+## Remove approvers or reviewers to an approval<!--in the legacy document area-->
 
-1. Go to the document page by clicking on the name of the document, then select the version of the document you would like to remove an approval for in the version dropdown. The latest version will be selected by default.
+<!--If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).-->
 
-1. Select **Approvals** in the left pane.
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. Hover over the name of the approver or reviewer you would like to remove, then click on the **Delete** icon ![Delete icon](../assets/delete.png) that appears after their name.
+1. Click on the document you need and the Document Summary panel for that document will open.
 
-    The approval or review request is removed and the approver receives a notification that their approval is no longer needed. Their approval-related share access is also removed.
+1. Scroll down to the **Approvals** section in the Document Summary panel. 
 
-1. (Optional) To demote an approver to a reviewer rather than remove them entirely, uncheck the **Approver** checkbox in line with their name.
-
-1. Repeat the previous step to remove any additional approvers or reviewers.
-
-## Remove approvers or reviewers from the Document Summary
-
-1. Go to the project, task, or issue that contains the document, then select **Documents**.
-
-1. Click on the document you need and the Document Summary pane for that document will open.
-
-1. Select the version of the document you would like to remove an approver or reviewer for in the version dropdown. The latest version will be selected by default.
-
-1. Scroll down to the **Approvals** section in the Document Summary pane. Hover over the name of the approver or reviewer you would like to remove, then click on the **Delete** icon ![Delete icon](../assets/delete.png) that appears after their name.
+1. Click **Edit workflow**, then 
 
     The approval or review request is removed and the approver receives a notification that their approval is no longer needed. Their approval-related share access is also removed.
 
 1. (Optional) To demote an approver to a reviewer rather than remove them entirely, uncheck the **Approver** checkbox in line with their name.
 
 1. Repeat the previous step to remove any additional approvers or reviewers.
+
+<!--Need to see this in the new docs area to finish 
+## Remove approvers or reviewers to an approval workflow in the new document area
+
+If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+To create a an approval workflow:
+
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+
+1. Click on the document, then click the Approvals icon on the right side of the page. 
+
+   ![Add approvers in document summary](assets/approvals-icon-new.png)
+
+1. Click **Create workflow**, then fill in the following details:
+
+   <table>
+   <tr>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
+   </tr>
+   <tr>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
+   </tr>
+   <tr>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
+   </tr>
+   </table>
+
+1. (Optional) Repeat the previous step to add additional stages as needed.
+
+   >[!NOTE]
+   >
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
+
+   ![Document details](assets/new-stage.png)
+
+-->
