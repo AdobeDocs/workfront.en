@@ -38,7 +38,6 @@ For more detail about the information in this table, see [Access requirements in
 
  +++
 
-
 ## View recent items
 
 1. Click the **[!UICONTROL Recents]** icon ![[!UICONTROL Recents]](assets/recents-icon-40x43.png) in the upper-right corner of any page.
@@ -48,6 +47,5 @@ For more detail about the information in this table, see [Access requirements in
    Under each object type, you can see up to 5 of the last items that you recently viewed.
 
 1. (Optional) To expand the list of recent items, click **[!UICONTROL View More]** just below the last item under an object type to display the previous 10 items viewed. You can expand the list to display up to 20 items per object type.
-1. Click the X on the top right to close the list.
 
 For information about how to mark recent items as favorites, see [View and manage favorites](../../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
