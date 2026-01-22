@@ -609,7 +609,7 @@ You can use the People field type to add a user <!--, job role, or team--> to a 
 
 >[!TIP]
 >
->* When you add the name of a user in a People field, the name of the user and their primary job role display in the field.  
+>* When you add the name of a user in a People field, their primary job role <span class="preview">and their email</span> also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email.   
 >
 >* People fields display as a reference (or connection) field type in a request form builder. 
 >
