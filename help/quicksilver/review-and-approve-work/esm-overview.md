@@ -34,6 +34,6 @@ The Workfront and Frame.io integration leverages Adobe enterprise storage to pro
 
 For more information about the Workfront and Frame.io integration, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
 
-## Workfront Storage vs. Adobe enterprise storage 
+## Workfront Storage vs. Adobe Enterprise Storage
 
-<!--linked in Doc details overview. Need to update link if name changes-->
+<!--linked in multiple places. Update link if name changes-->
