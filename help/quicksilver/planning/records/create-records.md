@@ -142,12 +142,11 @@ For more information about Workfront access requirements, see [Access requiremen
 
 ## Considerations when creating records
 
-<!--
 * Depending which workspace they are added from, records added to global record types are visible by the following types of users:
 
-    * Records added to the original workspace of a global record type are visible from the original workspace and all secondary workspaces where the record type is added. (***************check with Lilit on this one*************)
+    * Records added to the original workspace of a global record type are visible from the original workspace. 
     * Records added to a secondary workspace of a global record type are visible only from the workspace they were created and the original workspace of the global record type. 
-    For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). -->
+    For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
 
 * Depending on their permissions to the workspace and record types, users can create records in the following ways: 
 

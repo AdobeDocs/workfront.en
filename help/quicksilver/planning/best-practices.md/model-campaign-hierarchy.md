@@ -11,7 +11,7 @@ hide: yes
 
 # The framework for success: model your campaign hierarchy 
 
- 
+ <!--see the file again for additional comments from Seth and others-->
 
 ## Goal 
 

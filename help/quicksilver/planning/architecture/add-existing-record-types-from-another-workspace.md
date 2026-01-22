@@ -132,7 +132,8 @@ And
 
       * All original fields
       * All record connections
-   * You can view records added from other workspaces that use the same global record type, only when you have at least View permissions to those workspaces. <!--replace this bullet by this with Jan 15 release: You can view records added from the original workspace of the global record type only when you have at least View permissions to that workspace.--> 
+   * You cannot view records added from the original workspace of the record type from the secondary workspace.
+   * You can view records added from the original workspace of the record type in that workspace, only in the original workspace, if you have at least View permissions to that workspace.
    * The read-only **Workspace** field is added to the new record type table view. The field displays the workspace where each record was created. 
    
       >[!NOTE]
@@ -141,7 +142,12 @@ And
       >
 
 1. (Optional) Click, then drag and drop the newly added record type to any section within the workspace. 
-1. (Optional) Click the **More** menu on the new record type's card or to the right of the record type name on its page, then click **Delete**.
+1. (Optional) Click the **More** menu on the new record type's card or to the right of the record type name on its page, then click one of the following: 
+
+   * **Share** to share the record type from the secondary workspace.
+   * **Delete** to delete the record type from the secondary workspace. Deleting record types from the secondary workspace also deletes records added from the secondary workspace. 
+
+      Views added from the secondary workspace are not deleted. <!--checking with Lilit - not sure if this is by design??-->
 
    For more information, see the section "Delete global record types" in the article [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md).
 
