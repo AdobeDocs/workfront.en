@@ -52,7 +52,7 @@ Key features available for Unified Approvals:
 * Use Canvas Dashboards, currently in beta, to view reporting details about Unified Approvals
     For more information on reporting, see [Create a report dashboard for review and approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 
-* Create multiple stage approvals [!BADGE Coming soon]{type=Informative}
+* Create multiple stage approvals
 
 * Access review and approval requests in the My Approvals widget in the Home area
 
