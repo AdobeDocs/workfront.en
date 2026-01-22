@@ -100,6 +100,7 @@ Comments and asset markup is visible in the Frame.io viewer. For more informatio
 Once all review activity is complete, approvers must make one of the following decisions:
 
 * **Approve**: The asset does not need changes and is ready for use.
+* **Approved with changes**: The asset is mostly complete but needs minor changes before it can be used. Once the specified changes are made, the asset is ready and does not need to go through another round of approvals. 
 * **Needs work**: The asset needs changes and is not ready for use. Once the specified changes are made, the asset must be uploaded as a new version and go through another round of approvals. <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
 
 Reviewers can mark their review complete inside of Workfront, but this is not required for the asset to move forward in the approval process. 
