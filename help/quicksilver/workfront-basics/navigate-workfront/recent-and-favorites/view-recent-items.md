@@ -43,7 +43,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click the **[!UICONTROL Recents]** icon ![[!UICONTROL Recents]](assets/recents-icon-40x43.png) in the upper-right corner of any page.
 
-   ![Recents list](assets/recents-list-2022-350x319.png)
+   ![Recents list](assets/recents-list.png)
 
    Under each object type, you can see up to 5 of the last items that you recently viewed.
 
