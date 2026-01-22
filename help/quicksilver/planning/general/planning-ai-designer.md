@@ -158,8 +158,7 @@ You can create or update objects in Workfront Planning either by using the Plann
 
     The **Planning Designer** window opens.
 
-    ![Planning Designer window
-    ](assets/planning-designer-window.png)
+    ![Planning Designer window](assets/planning-designer-window.png)
 
 1. In the space provided, start typing commands for the AI Assistant, then click Enter when you are done. 
 
