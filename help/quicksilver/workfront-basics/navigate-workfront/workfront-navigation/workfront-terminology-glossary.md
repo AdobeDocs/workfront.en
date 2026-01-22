@@ -1257,7 +1257,11 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL Last Note]</td> 
    <td> <p>This field displays the update last entered on an object by any user. This is the most recent activity or interaction on an object.</p> <p>The [!UICONTROL Last Note] column is empty if the text of the last note of an object has been deleted. When a new note is entered on the object, it becomes the last note and it displays again in the column.</p>
-   <p>When this field is added to a [!UICONTROL Task] report, any updates left on child objects — such as issues, subtasks, documents, etc. — of the task do not display in this column.</p> </td> 
+   <p>When this field is added to a [!UICONTROL Task] report, any updates left on child objects — such as issues, subtasks, or documents — of the task do not display in this column.</p> 
+   <p><b>NOTE</p>
+   <p>The last note added to an object using the API does not display in a report in Workfront. The [!DNL Last Note] field is empty if the latest update on an object was added using the API. </p>
+   
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Last Viewed By]</td> 

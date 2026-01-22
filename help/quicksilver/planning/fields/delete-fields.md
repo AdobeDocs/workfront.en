@@ -11,9 +11,9 @@ exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
 
 # Delete fields
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -44,10 +44,10 @@ You can delete Workfront Planning fields that are no longer relevant.
 Or
 <li><p>Any Workflow and any Planning package</p></li></ul>
 
-<p><span class="preview">To delete fields from global record types:</span></p>
-<ul><li><p><span class="preview">Any Workfront package and a Planning Plus package</span></p></li>
+<p>To delete fields from global record types:</p>
+<ul><li><p>Any Workfront package and a Planning Plus package</p></li>
 Or
-<li><p><span class="preview">Any Workflow and Planning Prime and Ultimate packages</span></p></li></ul>
+<li><p>Any Workflow and Planning Prime and Ultimate packages</p></li></ul>
 
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
@@ -143,7 +143,7 @@ For more information about Workfront access requirements, see [Access requiremen
 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
-* <span class="preview">You cannot delete fields from global records that have been added to a secondary workspaces from the secondary workspaces.</span>
+* You cannot delete fields from global records that have been added to a secondary workspaces from the secondary workspaces.
 
 ## Delete fields
 
@@ -178,4 +178,4 @@ For more information about Workfront access requirements, see [Access requiremen
       * If you delete a field that belongs to the record you selected, the field is deleted and can no longer be associated with any records. If this field is added as a lookup field on other records, those fields are also deleted. 
       * If you delete a connection field, the field is deleted from the record you selected. Also, the corresponding connection field from its original record is also deleted. 
       * If you delete a lookup field that was added from a connected record, the field is deleted from the record type you selected, but it remains on its original record type. 
-      * <span class="preview">If you delete a field from a global record type in its primary workspace, it is deleted from all the workspaces where that record type has been added. You cannot delete fields from global record types from their secondary workspaces.</span>
+      * If you delete a field from a global record type in its primary workspace, it is deleted from all the workspaces where that record type has been added. You cannot delete fields from global record types from their secondary workspaces.

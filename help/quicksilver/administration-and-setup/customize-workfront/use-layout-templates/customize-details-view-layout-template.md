@@ -11,13 +11,7 @@ exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
 ---
 # Customize the Details view using a layout template
 
-{{preview-fast-release-general}}
-
 As an Adobe Workfront administrator, you can use a layout template to determine what information appears when a user clicks the Details icon ![Details icon](assets/project-details-icon.png) in the left panel while viewing a task, issue, document, program, or portfolio.
-
-<!--
-or billing record
--->
 
 You can also change the order of the information in which this information appears. For example, for all tasks that your users see, you can move Custom Forms information to the top of the Details view for all tasks that your users see.
 
@@ -102,24 +96,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
      All of the fields are enabled by default. You can select or clear the **Select all** check box in an area to display or hide all of the fields in that area.
   
-   <span class="preview">Sample image in the Preview environment:</span>
-   ![Details view in layout template](assets/layout-template-details-view-updated-save-buttons.png)
-   
-   Sample image in the Production environment:
-   ![Details view in layout template](assets/layout-template-details-view.png)
+     ![Details view in layout template](assets/layout-template-details-view-updated-save-buttons.png)
 
-1. <span class="preview">In the Preview environment: Continue customizing the layout template. You can click **Apply** at any time to save your progress.</span>
-
-   <span class="preview">Or</span>
-
-   <span class="preview">If you are finished customizing, click **Save and Close**.</span>
-
-1. In the Production environment: Continue customizing the layout template.
+1. Continue customizing the layout template. You can click **Apply** at any time to save your progress.
 
    Or
 
-   If you are finished customizing, click **Save**.
+   If you are finished customizing, click **Save and Close**.
 
-   >[!TIP]
-   >
-   >You can click **Save** at any time to save your progress, then continue to modify the template later.

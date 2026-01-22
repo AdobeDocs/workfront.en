@@ -10,13 +10,11 @@ exl-id: 99fac041-a235-4991-b826-d19944164bc9
 
 # Adobe Workfront Planning access overview
 
-<!--leave the global record type reference in yellow till Jan 2026-->
-
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -59,11 +57,10 @@ You must have the following access to use Workfront Planning:
    <ul><li><p>Any Workfront package and a Planning package</p></li>
    <li><p>Any Workflow and a Planning Prime and Ultimate package</p></li></ul>
 
-   <div class="preview">
    <p>For access to global record types:</p>
    <ul><li><p>Any Workfront package and a Planning Plus package</p></li>
    <li><p>Any Workflow package and a Planning Prime and Ultimate package</p></li></ul> </td></tr>
-   </div>
+   
    <tr>
    <td role="rowheader"><p>Adobe Workfront platform</p></td>
    <td>

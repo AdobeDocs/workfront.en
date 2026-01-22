@@ -12,9 +12,9 @@ exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
 
 # Adobe Workfront Planning object limitations overview
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.</span>   
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.</span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -43,13 +43,13 @@ The following table shows the limits for how many objects you can create in Work
 | Number of rows you can import in a CSV or Excel file to create record types | 25,000 |
 | Number of columns you can import in a CSV or Excel file to create record types | 500 |
 | Number of formula fields for one record type | 20 |
-| <span class="preview">Number of connection fields for one record type</span> | <span class="preview">30</span> |
+| Number of connection fields for one record type | 30 |
 | Number of characters in a formula field expression | 50,000 |
 | Number of entities (users, roles, teams, companies, groups) you can share a Planning object with | 100 |
-| <span class="preview">Number of record types in a hierarchy</span> | 4 |
-| <span class="preview">Number of hierarchies in a workspace</span> | 5 |
-| <span class="preview">Number of records from a parent record type connected to one record from a child record type, inside a hierarchy</span> | 10 |
-| Number of records connected to one record in a multi-select connection type, <span class="preview">without a hierarchy configured between the records</span> | 500 |
+| Number of record types in a hierarchy | 4 |
+| Number of hierarchies in a workspace | 5 |
+| Number of records from a parent record type connected to one record from a child record type, inside a hierarchy | 10 |
+| Number of records connected to one record in a multi-select connection type, without a hierarchy configured between the records | 500 |
 
 *We recommend to not have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.
 

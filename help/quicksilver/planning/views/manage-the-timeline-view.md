@@ -9,9 +9,9 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 ---
 # Manage the timeline view
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -276,9 +276,9 @@ To add a filter to a timeline view:
 1. Select a timeline view, then click **Filters** in the upper-right corner of the table.    
 1. Click **Add condition** and add the following information: 
 
-    * **Select a field** to <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list
+    * **Select a field** to Search for a field or and select it from the list.
 
-    * **Select an option** (or a filter modifier) to define what kind of condition the field must meet
+    * **Select an option** (or a filter modifier) to define what kind of condition the field must meet.
 
         The table below displays the available modifiers for each type of field.
 
@@ -542,6 +542,8 @@ Update the timeline view settings to indicate what and how information displays 
 You can display connected records in a record's timeline view by using the Breakdown feature. Breaking down records by their connections allows you to view the timelines of other connected records and understand how they might affect the performance and deadlines of your records. 
 
 #### Considerations when using the Breakdown feature
+
+Consider the following when breaking down the records' timeline by their connected record types: 
 
 * You can display connected records or objects under the records of the selected record type in the timeline view.
 * You can display connected records in the timeline view only when viewing the records in Standard mode. You cannot use the Breakdown option in the Compact mode of the timeline view.  

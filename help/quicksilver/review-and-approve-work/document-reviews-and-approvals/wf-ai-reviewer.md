@@ -10,9 +10,10 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 ---
 # Get started with the Workfront AI Reviewer
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >This feature is currently in beta. 
+
 
 With the Workfront AI Reviewer, you can increase content velocity and optimize brand compliance in the review and approval workflow. You can add AI Reviewers to approval templates or individual review and approval requests in Workfront. 
 
@@ -22,12 +23,11 @@ To set up AI Reviewers in Workfront, you must be a system administrator.
 
 Any user can add the AI Reviewer to a review and approval request.
 
-
 ## Prerequisites 
 
 * Your organization must have migrated to Adobe IMS (Identity Management System).
 * Your Workfront instance must have Unified Approvals enabled. 
-* Your organization must have GenStudio Foundation.
+<!--* Your organization must have GenStudio Foundation.-->
 * Adobe must have a signed Adobe Gen AI agreement on file.
     For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
@@ -54,12 +54,14 @@ If you upload an unsupported file type, the AI Reviewer option will not appear w
 
 ## Set up brand guidelines
 
-The Workfront AI Reviewer uses the brand guidelines set up in Genstudio Foundation when reviewing your content. Currently, you can only set up brand guidelines for images. For more information, see [Get started with Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
+The Workfront AI Reviewer uses the brand guidelines when reviewing your content. Workfront administrators can set up brand guidelines in the Workfront Setup area. <!--Brands created in GenStudio Foundation are also available in Workfront.
+
+For more information, see [Set up brands for the AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 
 ## Create AI Reviewers
 
-Once there is at least one brand set up in GenStudio Foundation, Workfront administrators can begin creating AI Reviewers in the Setup area. Those AI Reviewers can then be assigned to approval templates and individual review and approval requests. Right now, AI reviewers can only review against image brand guidelines.
+Once there is at least one brand set up, Workfront administrators can begin creating AI Reviewers in the Setup area. Those AI Reviewers can then be assigned to approval templates and individual review and approval requests. Right now, AI reviewers can only review against image brand guidelines.
 
 For more information, see [Create AI Reviewers](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md).
 
@@ -104,6 +106,6 @@ For more information on viewing scores and feedback, see [View AI Reviewer score
 ![AI reviewer feedback](assets/ai-reviewer-feedback.png)
 
 
-## Video Walkthrough
+<!--## Video Walkthrough
 
->[!VIDEO](https://video.tv.adobe.com/v/3470847/)
+>[!VIDEO](https://video.tv.adobe.com/v/3470847/)-->

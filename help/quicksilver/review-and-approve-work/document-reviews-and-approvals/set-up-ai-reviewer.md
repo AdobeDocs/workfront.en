@@ -2,7 +2,7 @@
 product-area: documents
 navigation-topic: approvals
 title: Create AI Reviewers
-description: Once you have at least one brand set up in GenStudio Foundation, you can create multiple AI Reviewers, which you can then assign to approval templates and individual review and approval requests.
+description: Once you have at least one brand set up in Workfront, you can create multiple AI Reviewers, which you can then assign to approval templates and individual review and approval requests.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -14,11 +14,8 @@ exl-id: 4673049e-119e-4315-95f0-f10d8b286856
 >
 >This feature is currently in beta. 
 
-Once you have at least one brand set up in GenStudio Foundation, you can create multiple AI Reviewers, which you can then assign to approval templates and individual review and approval requests. 
+Once you have at least one brand set up in Workfront, you can create multiple AI Reviewers, which you can then assign to approval templates and individual review and approval requests. 
 
->[!NOTE]
->
->The AI Reviewer is not designed to be a decision-maker in the review and approval workflow. It only provides a score and recommendations to align the asset with the specified brand requirements. 
 
 ## Access requirements
 
@@ -49,11 +46,15 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Prerequisites
 
-Before you begin, you must set up image brand guidelines in GenStudio Foundation.
-
-To learn more about image brand guidelines, see [Get started with Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Before you begin, you must set up image brand guidelines in Workfront. For more information, see [Set up brands for the AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 ## Add an AI reviewer
+
+>[!NOTE]
+>
+>The AI Reviewer is not designed to be a decision-maker in the review and approval workflow. It only provides a score and recommendations to align the asset with the specified brand requirements. 
+
+To add an AI Reviewer:
 
 {{step-1-to-setup}}
 

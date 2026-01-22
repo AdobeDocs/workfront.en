@@ -12,9 +12,9 @@ exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
 
 # Connected record types overview
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>   
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>   -->
 
 You can indicate that individual record types relate to one another or to objects from other applications by connecting them. 
 
@@ -34,7 +34,7 @@ There are two steps to connections in Workfront Planning:
 
 Consider the following about connecting record types: 
 
-* <span class="preview">You can have up to 30 connected fields for one record type in Workfront Planning.</span>
+* You can have up to 30 connected fields for one record type in Workfront Planning.
 
 * You can connect the following entities in Adobe Workfront Planning:
 
@@ -119,7 +119,8 @@ Consider the following about connecting record types:
         >Workfront objects' date field information displays in 24 hour format in Workfront Planning, regardless of how it displays in Workfront. 
         >
         >For example, if a project's Planned Start Date displays as 3:00 PM in Workfront, it will display as 15:00 in Workfront Planning in an imported lookup field. 
-    * <span class="preview">You must connect record types to be able to create hierarchies in Workfront Planning. When record type connections don't exist, they are automatically created when you create a hierarchy. For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).</span>
+    
+    * You must connect record types to be able to create hierarchies in Workfront Planning. When record type connections don't exist, they are automatically created when you create a hierarchy. For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 
 
 ## Connection types
@@ -179,9 +180,6 @@ After you select this connection type, you cannot change the connection type aft
 
 * One to many
 * One to one
-
-</div>
-
 
 <!--
 * [Many to many](#many-to-many-connection-type)

@@ -10,9 +10,9 @@ exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 
 # Edit record types
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -43,7 +43,7 @@ Record types are the object types of Adobe Workfront Planning. You can edit the 
 Or
 <li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
 
-<div class="preview">
+
 <p>To configure global record types:</p>
 
 <ul> 
@@ -52,7 +52,6 @@ Or
 <li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
 
-</div>
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
@@ -139,14 +138,13 @@ For more information about Workfront access requirements, see [Access requiremen
    The workspace page opens and the record types display. 
 1. Do one of the following:
 
-   * Hover over the card of a record type and click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the record type card, then click **Edit** 
-   <span class="preview">or **Settings**</span>
+   * Hover over the card of a record type and click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the record type card, then click **Edit** or **Settings**
       Or
-   * Click a record type card to open the record type page, click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click **Edit** <span class="preview">or **Settings**</span>. 
+   * Click a record type card to open the record type page, click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click **Edit** or **Settings**. 
 
-   <span class="preview">![More menu options from record type card with Settings](assets/more-menu-options-from-record-type-card-with-settings-link.png)</span>
+   ![More menu options from record type card with Settings](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
-1. In the **Edit record type** box, the **Appearance** tab opens by default. <!--update screen shot below at production-->
+1. In the **Edit record type** box, the **Appearance** tab opens by default. 
 
    ![Edit record type box appearance tab ](assets/edit-record-type-box-appearance-tab.png) 
 
@@ -158,17 +156,17 @@ For more information about Workfront access requirements, see [Access requiremen
         * Select a color to identify the record type. This is the color of the record type icon. 
         * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default.
 
-1. (Optional and conditional) If you are a system administrator, click the **Advanced settings** <span class="preview">or **Cross-workspace settings**</span> tab and update information about the cross-workspace capabilities of the record type. 
+1. (Optional and conditional) If you are a system administrator, click the **Cross-workspace settings** tab and update information about the cross-workspace capabilities of the record type. 
 
-   For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production - Jan 2026-->
+   For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). 
 
-   ![Edit record type box with advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![Edit record type box with cross-workspace settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
 
 1. Click **Save**.
 
    If you selected to connect this record from other workspaces, the **Connectable record** icon ![Connect from other spaces icon](assets/connect-from-other-workspaces-icon.png) displays on the record card. 
 
-    <span class="preview">If you selected to allow adding this record to other workspaces, the **Global record** icon ![Global record type icon](assets/global-icon.png) displays on the record card. </span>
+    If you selected to allow adding this record to other workspaces, the **Global record** icon ![Global record type icon](assets/global-icon.png) displays on the record card.
 
 1. (Optional) Click the record type card from the workspace area to open the record type's page, then rename the record type in the header.  
 

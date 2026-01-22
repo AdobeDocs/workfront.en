@@ -12,9 +12,9 @@ exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 
 {{planning-important-intro}} 
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 As a workspace manager, you can add a record type that exists in another workspace to a workspace that you manage in Adobe Workfront Planning. 
 
@@ -132,7 +132,7 @@ And
 
       * All original fields
       * All record connections
-   * You can view records added from other workspaces that use the same global record type, only when you have at least View permissions to those workspaces. 
+   * You can view records added from other workspaces that use the same global record type, only when you have at least View permissions to those workspaces. <!--replace this bullet by this with Jan 15 release: You can view records added from the original workspace of the global record type only when you have at least View permissions to that workspace.--> 
    * The read-only **Workspace** field is added to the new record type table view. The field displays the workspace where each record was created. 
    
       >[!NOTE]

@@ -10,13 +10,11 @@ exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 
 <!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
-<!--keep global record types in yellow till Jan 2026-->
-
 # Share record types
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -177,16 +175,11 @@ Or
 * You cannot share record types externally, with users outside of Workfront.
 * To give a user that does not have workspace permissions higher than View permissions to a record type, you must first share the workspace with them with a higher permission than View. The higher permissions for the workspace will then apply to the record types. 
 
-<div class="preview">
-
-* The following scenarios exist when sharing global record types:
-   
-   * You can share global record types from their original workspace.
-   * You cannot share global record types after they were added to a secondary workspace. 
+* You can share a global record type both from its original and other secondary workspaces where it was added.  
 
    For information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
 
-</div>
+
 
 ## Share permissions to a record type
 

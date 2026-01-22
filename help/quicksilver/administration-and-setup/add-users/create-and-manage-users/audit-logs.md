@@ -230,7 +230,7 @@ The system generates a Group audit log entry when a user does one of the followi
    * Adds or removes users
    * Adds or removes subgroups
 
-### s {#job-role}
+### Job Roles {#job-role}
 
 The system generates a Job Roles audit log entry when a user does one of the following actions:
 

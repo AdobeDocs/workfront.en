@@ -12,9 +12,9 @@ exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 
 <!--there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -165,7 +165,7 @@ For more information about Workfront access requirements, see [Access requiremen
 
    >[!NOTE]
    >
-   ><span class="preview">You cannot share a view publicly from a global record type in a secondary workspace. For more information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).</span> 
+   >You cannot share a view publicly from a global record type in a secondary workspace. For more information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 
 * People outside your organization who have access to a view cannot create other views, edit the shared view, or add, delete, or edit record information in the view. 
@@ -237,7 +237,7 @@ You can share views you created or views you have Manage permissions to with use
 
 You can share views you created or views you have Manage permissions to with people that do not have a Workfront license and who might be external to your organization.
 
-<span class="preview">You cannot share a view publicly from a global record type in its secondary workspace. </span>
+You cannot share a view publicly from a global record type in its secondary workspace.
 
 >[!IMPORTANT]
 >
@@ -271,7 +271,7 @@ To share a view publicly in Workfront Planning:
 
    >[!TIP]
    >
-   ><span class="preview">The **Public sharing** tab is removed for a global record type in its secondary workspace.</span>
+   >The **Public sharing** tab is removed for a global record type in its secondary workspace.
 
 
 1. Click the **Copy link** icon ![Copy link view](assets/copy-link-view.png) to copy the link to your clipboard. 

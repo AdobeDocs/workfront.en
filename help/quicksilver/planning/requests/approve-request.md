@@ -91,7 +91,7 @@ Approvers receive the following notifications about a request pending their appr
 >
 >Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience for users to be able to receive email and in-app notifications.
 
-You can approve requests to create records from the request itself, <span class="preview">or from the My Approvals widget in Home.</span>
+You can approve requests to create records from the request itself, or from the My Approvals widget in Home.
 
 * [Approve a request from the request in Workfront Planning](#approve-a-request-from-the-request-in-workfront-planning)
 * [Approve a request from the My Approvals widget in Home](#approve-a-request-from-the-my-approvals-widget-in-home)
@@ -128,8 +128,6 @@ You can approve requests to create records from the request itself, <span class=
 
     The request remains in the Requests area of Workfront.
 
-<div class="preview">
-
 ### Approve a request from the My Approvals widget in Home
 
 {{step1-to-home}}
@@ -154,4 +152,3 @@ You can approve requests to create records from the request itself, <span class=
     * **Completed**: The request is approved.
     * **Rejected**: The request is rejected. 
 
-</div>
