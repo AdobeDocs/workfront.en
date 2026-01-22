@@ -8,6 +8,8 @@ exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 ---
 # Use enhanced lists
 
+{{preview-fast-release-general}}
+
 Enhanced lists are available in some areas of Adobe Workfront. These lists use a table format for displaying the list items, and they have a different look and feel than the standard lists. The management of views is also enhanced, including filtering, grouping, managing columns, and searching.
 
 For information about the standard lists, see [Get started with lists in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
@@ -161,9 +163,7 @@ To create a new view:
 1. (Optional) Hide, show, or rearrange the columns. For more information, see [Customize columns in an enhanced list](#customize-columns-in-an-enhanced-list).
 1. (Optional) Filter and group the list items. For more information, see [Filter and group items in an enhanced list](#filter-and-group-items-in-an-enhanced-list).
 
-   Changes to views are saved automatically, and the changes are visible to anyone who uses the view.
-
-   The next time you apply this view, the column and filter settings remain the way you set them.
+   Changes to views are saved automatically. The next time you apply this view, the column and filter settings remain the way you set them.
 
 ### Share a view
 
@@ -182,9 +182,54 @@ To share a view:
    You can give the following permissions to the recipients:
 
    * **View**: Users can apply the view to the list but not share it.
+     
+     <span class="preview">When View access users update the view, those changes are saved to the user's personal preferences. A blue dot on the view name (in the user's **Shared Views**) shows that personal updates are applied to the view.</span>
+
    * **Manage**: Users can rename the view, share it with others, and delete it.
 
+      <span class="preview">When Manage access users make changes to the view, all users who have the view shared with them will see those updates when the view is applied to the list.</span>
+
 1. Click **Save**.
+
+   <span class="preview">If you share a view with a user and then remove that access, the view is removed from the user's **Shared Views**. If the user had the shared view applied to the list when their access is removed, then the system default view is applied.</span>
+
+<div class="preview">
+
+### Copy a view
+
+To copy a view that was shared with you (with View permissions) and you have updated:
+
+1. In the Views dropdown, hover over the view in **Shared Views** that you want to copy, then click on the three-dot menu when it appears.
+1. Select **Copy with preferences**.
+
+   A new view is created automatically. It uses the original view name with (copy) at the end, and it appears in the **My Views** section of views.
+   
+   You are the owner of this view, and you can rename, share, or delete it. If the owner of the original view removes your shared access to that view, you still have access to this view that you created.
+
+   >[!NOTE]
+   >
+   >The **Copy with preferences** option is only available when you have made changes to a view that was shared with you.
+
+</div>
+
+<div class="preview">
+
+### Reset a view
+
+To reset a view that was shared with you (with View permissions) and you have updated:
+
+1. In the **Views** dropdown, hover over the view in **Shared Views** that you want to reset, then click on the three-dot menu when it appears.
+1. Select **Reset to default**.
+
+   The view is reset to its original settings that were shared with you, such as columns and filters.
+
+   >[!NOTE]
+   >
+   >The Reset to default option is only available when you have made changes to a view that was shared with you.
+
+   ![Copy and reset a view options](assets/glist-copy-view-shared-with-you.png)
+
+</div>
 
 ## Filter and group items in an enhanced list
 
