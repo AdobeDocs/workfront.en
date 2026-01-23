@@ -66,7 +66,7 @@ For information about Workfront Planning, see the following articles:
 
 ## Enrolling in the Closed Beta program for the Planning Designer
 
-Currently, you can request to participate in the Closed Beta program for the Planning Designer by [sending an email](sargism@adobe.com) to our Engineering team. 
+Currently, you can request to participate in the Closed Beta program for the Planning Designer by sending us an email to sargism@adobe.com.
 
 After we receive the email, our Engineering team will turn on the Planning Designer in your Workfront instance. 
 
