@@ -13,9 +13,9 @@ exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -160,7 +160,11 @@ You can create a request form from the record type associated with the form<!--s
 Form details are divided into tabs. 
 
 * The **Form** tab allows you to add fields and content elements to the form
-* The **Configuration** tab allows you to set an approval process for the form, and to set request completion options<.
+* The **Configuration** tab allows you to set an approval process for the form, and to set request completion options.
+   
+   >[!NOTE]
+   >
+   ><span class="preview">In the Preview environment, the Settings tab replaces the Configuration tab.</span>
 <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### Set up Form details
@@ -220,9 +224,17 @@ Form details are divided into tabs.
    For more information about building a custom form, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). 
 
 1. (Optional) Click **Preview** to view how the form will display for other users when they will use it to submit a new record. 
-1. Continue to [Set up Configuration details](#set-up-configuration-details) if you want to configure more details for the form, or go to [Complete request form creation](#complete-request-form-creation).
+1. Continue to one of the following:
+
+   * [Set up Configuration details](#set-up-configuration-details) if you want to configure more details for the form in the Production environment
+   * <span class="preview">[Configure settings](#configure-settings) if you want to configure more details for the form in the Production environment</span>
+   * [Complete request form creation](#complete-request-form-creation) if you do not want to configure further settings.
 
 #### Set up Configuration details
+
+>[!NOTE]
+>
+>This tab is available only in the Production environment.
 
 On the Configuration tab, you can set the approval process and configure when a request created from this form will be marked as Completed.
 
@@ -249,6 +261,50 @@ On the Configuration tab, you can set the approval process and configure when a 
 1. Select whether you want a request created from this form to be marked complete when the requested object is created, or when the requested object is completed.
 1. (Conditional) If you have selected for the request to be marked complete when the requested object is completed, select the field and value that indicate when the object is complete. For example, you could select the field Status and the value Complete to complete the request when the created object's status is set to Complete.
 1. Continue to <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Complete request form creation](#complete-request-form-creation).
+
+<div class="preview">
+
+### Configure settings
+
+>[!NOTE]
+>
+>This tab is available only in the Preview environment.
+
+On the Settings tab, you can set approval rules and configure when a request created from this form will be marked as Completed.
+
+#### Configure approval rules
+
+Approval rules define the approval process based on field values on in the submitted requests. 
+
+For example, if a request form has the field "Campaign type," a rule can be created that sends the request to one person when the field has the value "Digital", and a different person when it has the value "Print."
+
+1. Begin creating or editing a request form, as described in the section [Begin creating a request form](#begin-creating-a-request-form).
+   
+    The request form for the selected record type opens in the Form tab. 
+1. (Optional) Set up any form details, as described in [Set up Form details](#set-up-form-details).   
+
+1. To begin configuring approval rules, click 
+
+1. (Optional) If you want to add approvers, click the **Configuration** tab, then add at least one user or team to the **Approvers** field to approve new requests for this record form. 
+
+   ![Configuration tab](assets/configuration-tab.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+   * You can add one or several approvers to a request form.
+   * If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
+   * If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
+   * If a team is set as an approver, only one decision is required from the team.
+
+   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
+
+1. (Conditional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox.
+
+1. Select whether you want a request created from this form to be marked complete when the requested object is created, or when the requested object is completed.
+1. (Conditional) If you have selected for the request to be marked complete when the requested object is completed, select the field and value that indicate when the object is complete. For example, you could select the field Status and the value Complete to complete the request when the created object's status is set to Complete.
+1. Continue to <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Complete request form creation](#complete-request-form-creation).
+
+</div>
 
 <!--
  
