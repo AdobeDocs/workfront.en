@@ -278,27 +278,52 @@ Approval rules define the approval process based on field values on in the submi
 
 For example, if a request form has the field "Campaign type," a rule can be created that sends the request to one person when the field has the value "Digital", and a different person when it has the value "Print."
 
+Consider the following when adding approval rules:
+
+   * You can add one or several approvers to an approval rule.
+   * If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
+   * If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
+   * If a team is set as an approver, only one decision is required from the team.
+
+   For more information about adding approvals, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
+
+To set approval rules for a request form:
+
 1. Begin creating or editing a request form, as described in the section [Begin creating a request form](#begin-creating-a-request-form).
    
     The request form for the selected record type opens in the Form tab. 
 1. (Optional) Set up any form details, as described in [Set up Form details](#set-up-form-details).   
 
-1. To begin configuring approval rules, click 
+1. To begin configuring approval rules, click Approvals ![Approvals icon](assets/approvals-icon-on-form.png) in the left navigation.
 
-1. (Optional) If you want to add approvers, click the **Configuration** tab, then add at least one user or team to the **Approvers** field to approve new requests for this record form. 
+1. (Optional) If you want to set a default approval process, add at least one user or team to the **Approvers** field of the Default approval rule area, then click the **Only one decision is required** checkbox if you want the record to be created after any one of the default approvers has approved it.  
 
-   ![Configuration tab](assets/configuration-tab.png)
+   ![Default approval rule area](assets/default-approvers.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
-   * You can add one or several approvers to a request form.
-   * If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
-   * If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
-   * If a team is set as an approver, only one decision is required from the team.
+1. (Optional) For each additional approval rule, do the following:
 
-   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
+   1. Click **Add approval rule**
+   1. Click the placeholder title "Untitled approval rule" and enter a name for the approval rule.
+   1. Click **Select a field** and select the field that activates the rule.
+   1. Select the operator for the rule. Operators vary based on the type of field.
+   1. If the selected operator requires a value, click the plus icon and add one or more values.
+   1. (Optional) Add more conditions using AND or OR by clicking Add condition and configuring the additional condition as in steps C-E.
+   1. In the Actions area of the approval rule, in the **Approvers** field, add at lease one user or team to be set at the approver when the condition is met.
+   1. 1. (Conditional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox.
 
-1. (Conditional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox.
+1. Click **Save** to save the approval rules.
+1. Continue to [Set request completion options](#set-request-completion-options)
+
+#### Set request completion options
+
+Completion options allow you to set whether a request is marked complete when the requested object is created, or when the created object is completed. You define when the object is complete based on a specified condition.
+
+1. Begin creating or editing a request form, as described in the section [Begin creating a request form](#begin-creating-a-request-form).
+   
+    The request form for the selected record type opens in the Form tab. 
+1. (Optional) Set up any form details, as described in [Set up Form details](#set-up-form-details).   
 
 1. Select whether you want a request created from this form to be marked complete when the requested object is created, or when the requested object is completed.
 1. (Conditional) If you have selected for the request to be marked complete when the requested object is completed, select the field and value that indicate when the object is complete. For example, you could select the field Status and the value Complete to complete the request when the created object's status is set to Complete.
