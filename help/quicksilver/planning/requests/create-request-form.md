@@ -125,7 +125,7 @@ You can create a request form from the record type associated with the form<!--s
 1. Click **Create**. 
 
    The request form for the selected record type opens in the Form tab.
-1. Continue to [Configure the form](#configure-the-form).
+1. Continue to [Set up details for the request form](#set-up-details-for-the-request-form).
 
 <!--
 

@@ -117,7 +117,11 @@ For more information about Workfront access requirements, see [Access requiremen
 
 <div class="preview">
 
-## Add approval rules to a request form in the Preview environment
+## Add approval rules to a request form
+
+>[!NOTE]
+>
+>This functionality is available only in the Preview environment.
 
 Approval rules define the approval process based on field values on in the submitted requests. 
 
