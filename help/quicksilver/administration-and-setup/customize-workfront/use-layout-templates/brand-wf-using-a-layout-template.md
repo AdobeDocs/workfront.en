@@ -15,6 +15,13 @@ exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
 
 >[!IMPORTANT]
 >
+>Branding is no longer available for Adobe Workfront. This feature was deprecated as part of the onboarding of Workfront into Adobe Experience Cloud.
+
+<!-- COMMENT OUT THE REST OF THE ARTICLE; update metadata description as well
+-->
+
+>[!IMPORTANT]
+>
 >The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
 >
 > If your organization has been onboarded to [!DNL Adobe Experience Cloud], branding is not available.
