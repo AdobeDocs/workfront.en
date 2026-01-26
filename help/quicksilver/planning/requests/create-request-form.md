@@ -280,6 +280,8 @@ For example, if a request form has the field "Campaign type," a rule can be crea
 
 Consider the following when adding approval rules:
 
+   * Rules are prioritized by order. If the first rule conditions are met, then that rule is applied, even if conditions for rules further down the list are also met. 
+   * If no conditions are met, then the default rule is applied.
    * You can add one or several approvers to an approval rule.
    * If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
    * If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
@@ -309,10 +311,15 @@ To set approval rules for a request form:
    1. Click **Select a field** and select the field that activates the rule.
    1. Select the operator for the rule. Operators vary based on the type of field.
    1. If the selected operator requires a value, click the plus icon and add one or more values.
-   1. (Optional) Add more conditions using AND or OR by clicking Add condition and configuring the additional condition as in steps C-E.
+   1. (Optional) Add more conditions using AND or OR by clicking Add condition and configuring the additional condition.
    1. In the Actions area of the approval rule, in the **Approvers** field, add at lease one user or team to be set at the approver when the condition is met.
-   1. 1. (Conditional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox.
+   1. (Conditional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox.
 
+1. (Optional) To reorder routing rules, click the drag handle on the left side of the rule and drag the rule to the desired location.
+
+   The default rule cannot be reordered.
+   
+1. (Optional)To delete a routing rule, click the **X** to the right of the rule.
 1. Click **Save** to save the approval rules.
 1. Continue to [Set request completion options](#set-request-completion-options)
 
