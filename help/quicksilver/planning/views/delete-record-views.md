@@ -20,10 +20,49 @@ You can delete a record view you no longer use in Adobe Workfront Planning.
 
 The view is deleted for all users who have permissions to access it. Deleted views cannot be recovered.
 
+You cannot delete the original table view of a record type. 
+
 ## Access requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view the access requirements for the functionality in this article. 
 
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+   <p>Any Workfront and any Planning package</p>
+   
+   <p>Any Workflow and any Planning package</p>
+   <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+</td> 
+  </tr>  
+</tbody> 
+</table> 
+
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+
+
+<!--Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -78,11 +117,7 @@ The view is deleted for all users who have permissions to access it. Deleted vie
    </td> 
   </tr> 
 </tbody> 
-</table> 
-
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++   
+</table> -->
 
 ## Delete a record view
 
@@ -98,15 +133,11 @@ The view is deleted for all users who have permissions to access it. Deleted vie
 
     By default, all the records of the selected type display in the table view. 
 
-1. Hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Delete**.
 
-    ![View more menu on a record view](assets/view-more-menu-with-duplicate-option.png)
+1. From the view's tab, click the view's tab, hover over the view in the drop-down menu, click the **More** menu ![More menu](assets/more-menu.png), then click **Delete**.</span>
 
-   >[!TIP]
-   >
-   >You might need to click **More** to the right of the last tab to find the view you want to delete.
+      ![More menu with options](assets/more-menu-for-views-expanded-with-delete-option.png)
 
-
-1. Click **Delete** to confirm. <!--ensure there is not another saving step here?!-->
+1. Click **Delete** to confirm. 
     
     The view is deleted for all users who can access the records area.

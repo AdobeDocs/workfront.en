@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Manage Board Columns
 description: A new board contains three columns by default. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don't need. You can also define column policies.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
 ---
@@ -21,8 +21,6 @@ For information about sorting the cards in columns, see [Filter and search in a 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,14 +28,15 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>New: Contributor or higher </p>
-        <p>or</p> 
-        <p>Current: [!UICONTROL Request] or higher </p></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+   <p>Contributor or higher</p> 
+   <p>Request or higher</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -114,12 +113,6 @@ The policy for updating the status automatically works for both the card and the
 * When an ad hoc or connected card status is updated on the card to match the column status in the policy, or a connected card status is updated elsewhere in Workfront, the card is automatically moved to that column. Also, if a custom status on a card matches the system status assigned to the column, the card is moved to that column.
 
 A card will remain in a column where it is placed if the card status does not match any status set in any existing column policies.
-
->[!NOTE]
->
->Dynamic boards always place cards in the column that matches their status, regardless of whether column policies are enabled or disabled. Cards will return to their assigned columns when you refresh the board.
-> 
->Also, for all board types, if you move a card from one column to another column with the same status, the card will return to the original column when you refresh the board.
 
 1. Access the board.
 1. Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the column, and select **[!UICONTROL Edit]**.

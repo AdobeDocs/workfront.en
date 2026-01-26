@@ -33,7 +33,7 @@ Use Workfront Proof with Adobe Express to
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront packagae</td> 
    <td> 
    <p>Any</p> 
    </td> 
@@ -45,27 +45,20 @@ Use Workfront Proof with Adobe Express to
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Additional products</td> 
    <td> 
    <p> You must have Adobe Express, and you must be added to the product as a user in the Admin Console. </p> </td> 
   </tr>
-
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
  +++
 
 ## Integration requirements 
 
-* Workfront and Adobe Express must be deployed to the same IMS Org.
-
-* The integration must be enabled for your accounts by the Adobe Product Team.
-
-  >[!IMPORTANT]
-  >
-  >The Adobe Express and Workfront Proof integration will be available to users over the course of several releases, starting with accounts that have Workfront and Adobe Express associated with the same Organization ID in the Adobe Admin Console, followed by customers with users working across IMS orgs. If you would like to have the integration enabled, please reach out to your Customer Success or Strategic Account Manager. 
+* You must have entitlements to access Adobe Express and at least one Workfront environment with a Workfront Standard license.
 
 * Users must install the [Review interactive content with the Adobe Workfront review tool](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) before they can start reviewing drafts in Adobe Express.
 
@@ -98,8 +91,13 @@ Throughout the content production and review and approval process, users can
 * Read comments 
 * and more
 
-<!--Learn how to get approval on designs.   
-need link to help article-->
+### Choose a Workfront project when requesting approval
+
+When requesting approval on a remixed Express template, users can choose a Workfront project to send the proof to. This helps keep all related assets and proofs organized within the same project.
+
+If no project is selected, the proof will default into an Express-specific project.
+
+For more information, see [Send templates for review and approval](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
 
 ## Review and approve remixed Express file 
 

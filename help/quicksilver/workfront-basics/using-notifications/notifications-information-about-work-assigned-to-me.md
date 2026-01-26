@@ -3,7 +3,7 @@ content-type: reference
 navigation-topic: notifications
 title: 'Notifications: Information about work assigned to me'
 description: The following notifications alert you about activities happening on a work item assigned to you.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
 ---

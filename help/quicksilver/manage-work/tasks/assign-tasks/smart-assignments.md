@@ -186,7 +186,7 @@ Users are recommended in the smart assignments drop-down list based on a combina
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Make smart assignments</h2>
-<p>(NOTE:&nbsp;this was moved to its own article: make-smart-assignments.) </p>
+<p>(NOTE: this was moved to its own article: make-smart-assignments.) </p>
 <p>Smart assignments are available in most locations where you can make assignments in Workfront.</p>
 <p>You can use smart assignments on tasks and issues that have previously been assigned to a job role or a team.</p> <note type="note">
 You must have a Plan or a Work license and have at least Contribute permissions to a task or an issue to be able to make assignments to the task or the issue. You must have the Make Assignments option enabled in your permission level to make assignments.

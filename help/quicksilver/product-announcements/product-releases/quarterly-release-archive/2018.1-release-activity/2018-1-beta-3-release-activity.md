@@ -46,7 +46,7 @@ As a group administrator, when you reset the password for another user, you are 
 
 For more information about resetting passwords for other users, see [Edit a user's profile](../../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-For more information about the capabilities of a group administrator, see the “Capabilities of group administrators” section in [Create a group](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+For more information about the capabilities of a group administrator, see the "Capabilities of group administrators" section in [Create a group](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 ### Access Level Setup Options for group administrators {#access-level-setup-options-for-group-administrators}
 
@@ -54,7 +54,7 @@ As a Workfront administrator, you can now control whether group administrators c
 
 For more information about configuring access level for users, see [Grant access to users](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-For more information about the capabilities of a group administrator, see the “Capabilities of group administrators” section in [Create a group](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+For more information about the capabilities of a group administrator, see the "Capabilities of group administrators" section in [Create a group](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 ### Create Timesheet Profiles for Groups {#create-timesheet-profiles-for-groups}
 
@@ -64,7 +64,7 @@ Prior to this change, only a Workfront administrator could create Timesheet Prof
 
 For more information about creating Timesheet Profiles, see [Create, edit, and assign timesheet profiles](../../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
-For more information about the capabilities of a group administrator, see the “Capabilities of group administrators” section in [Create a group](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+For more information about the capabilities of a group administrator, see the "Capabilities of group administrators" section in [Create a group](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 ### Recover Deleted Items for Users as a group administrator {#recover-deleted-items-for-users-as-a-group-administrator}
 
@@ -72,7 +72,7 @@ If a project is associated with a Group for which you are the group administrato
 
 For more information about recovering deleted items in Workfront, see [Restore deleted items](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
-For more information about the capabilities of a group administrator, see the “Capabilities of group administrators” section in [Create a group](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).&nbsp;
+For more information about the capabilities of a group administrator, see the "Capabilities of group administrators" section in [Create a group](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).&nbsp;
 
 ## HTML5 proofing viewer Improvements&nbsp; {#html5-proofing-viewer-improvements}
 
@@ -170,7 +170,7 @@ For more information, see "Creating and Managing Layout Templates.
 
 ### Add Tasks and Issues to the Iteration Directly from the Task or Issue Details Page {#add-tasks-and-issues-to-the-iteration-directly-from-the-task-or-issue-details-page}
 
-You can now add tasks and issues that are currently assigned to an agile team to an iteration directly from the task or issue.
+You can now add tasks and issues that are currently assigned to an Agile team to an iteration directly from the task or issue.
 
 Previously, you could add tasks to an iteration only from the backlog.&nbsp;
 
@@ -178,19 +178,19 @@ For more information, see [Create an iteration](../../../../agile/use-scrum-in-a
 
 ### Include Issues on the Scrum Backlog and Story Board for an Agile Team {#include-issues-on-the-scrum-backlog-and-story-board-for-an-agile-team}
 
-Issues are now included by default on the backlog of your agile team when using the Scrum agile methodology (issues are not displayed on the backlog of an agile team when using the Kanban methodology).
+Issues are now included by default on the backlog of your Agile team when using the Scrum Agile methodology (issues are not displayed on the backlog of an Agile team when using the Kanban methodology).
 
 Prior to this change, only tasks could be added to&nbsp;the backlog. If you wanted to add an issue, you first had to convert the issue to a task before it could be added.
 
-For information about using issues on the backlog, see&nbsp; [Manage the agile backlog](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+For information about using issues on the backlog, see&nbsp; [Manage the Agile backlog](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ### Apply Groupings and Filters to the Backlog for an Agile Team {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
-The Grouping and Filter options are now available on the agile backlog, allowing you to organize your backlog by groupings, as well as filter for specific tasks and issues.
+The Grouping and Filter options are now available on the Agile backlog, allowing you to organize your backlog by groupings, as well as filter for specific tasks and issues.
 
-Prior to this change, you could apply on views to the agile backlog.
+Prior to this change, you could apply on views to the Agile backlog.
 
-For more information,&nbsp;see&nbsp; [Manage the agile backlog](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)&nbsp;in&nbsp; [Manage the agile backlog](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+For more information,&nbsp;see&nbsp; [Manage the Agile backlog](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)&nbsp;in&nbsp; [Manage the Agile backlog](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ### Create a Blank Iteration and Update it Later {#create-a-blank-iteration-and-update-it-later}
 

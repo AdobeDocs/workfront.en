@@ -11,14 +11,21 @@ exl-id: 98d26160-a097-473d-8d66-e6d619cb2908
 
 >[!IMPORTANT]
 >
->The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.<br>
+>If you have feedback regarding a possible bug or technical issue, please submit a ticket to Workfront Support. For more information, see [Contact Customer Support](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Please note that this beta is not available on the following cloud providers:
+>
+>* Bring Your Own Key for Amazon Web Services
+>* Azure
+>* Google Cloud Platform 
 
 Once a Canvas Dashboard is created and you've added reports to it, you can delete older reports that are no longer applicable for that specific dashboard. 
 
 Deleting a report is permanent. If you need to re-add a report after it's been deleted, you will need to recreate the report.  
  
+## Access Requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view access requirements for the functionality in this article. 
 
  <table style="table-layout:auto"> 
 <col> 
@@ -27,7 +34,7 @@ Deleting a report is permanent. If you need to re-add a report after it's been d
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <p>Any </p> 
    </td> 
@@ -35,8 +42,8 @@ Deleting a report is permanent. If you need to re-add a report after it's been d
  <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td> 
-<p>Current: Plan </p> 
-<p>New: Standard</p> 
+<p>Standard </p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 
@@ -66,7 +73,8 @@ For more information, see [Create a Canvas dashboard](/help/quicksilver/reports-
 
 >[!WARNING]
 >
->Once a report is deleted, it cannot be recovered. 
+>Once a report is deleted, it cannot be recovered. <br>
+>If you added an existing classic report to a Canvas dashboard, deleting it from the dashboard will not delete the original report.
 
 {{step1-to-dashboards}}
 

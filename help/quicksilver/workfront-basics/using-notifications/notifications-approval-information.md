@@ -3,7 +3,7 @@ content-type: reference
 navigation-topic: notifications
 title: 'Notifications: Approval information'
 description: The following notifications alert you about approval activities happening on a work item you are involved with. For information about configuring which notifications you receive, see Modify your own email notifications.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
 ---

@@ -11,6 +11,8 @@ exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
 ---
 # View and export audit logs
 
+<!--Audited: 08/2025-->
+
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 -->
@@ -19,13 +21,12 @@ You can view all audit logs in the system, or those that meet certain filtering 
 
 Audit logs list user-changes triggered in the system during the past 90 days.
 
-For information about all the audit log types and what generates them, see [Audit logs](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+For information about all the audit log types and what generates them, see [Audit logs overview](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,6 +54,30 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
+<!--Old: 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td><p>System Administrator</p></td>
+  </tr> 
+ </tbody> 
+</table>-->
+
 ## View audit logs
 
 {{step-1-to-setup}}
@@ -68,7 +93,7 @@ For more detail about the information in this table, see [Access requirements in
 
    **All Log Types** is selected by default.
 
-   For a list of all the audit log types you can view and the information they include, see [Audit logs](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+   For a list of all the audit log types you can view and the information they include, see [Audit logs overview](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 1. (Optional) Set any of the available filters for the following fields:
 

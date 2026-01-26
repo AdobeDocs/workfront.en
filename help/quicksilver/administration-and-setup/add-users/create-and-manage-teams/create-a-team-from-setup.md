@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-teams-admin
 description: As an Adobe Workfront administrator, you can create a team from the Setup area.
-author: Lisa
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 29a84e52-0bd3-45c2-a8b8-80bfec894196
@@ -85,7 +85,7 @@ For more detail about the information in this table, see [Access requirements in
      </tr> 
      <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
       <td role="rowheader">This is an Agile Team</td> 
-      <td>Select this item if you want to configure this new team to be an agile team. For more information about agile teams, see <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Create an agile team</a>.</td> 
+      <td>Select this item if you want to configure this new team to be an Agile team. For more information about Agile teams, see <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Create an Agile team</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Work On It</td> 

@@ -26,10 +26,10 @@ When login required is enabled, reviewers are required to log in using their ema
 
 >[!TIP]
 >
->To streamline the login process, we recommend setting SSO up in Workfront and Workfront proof. For more information on enabling SSO, see >
+>To streamline the login process, we recommend setting SSO up in Workfront and Workfront proof. For more information on enabling SSO, see 
+>
 >* [Single sign-on in Workfront: article index](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
 >* [Configure Single Sign-On for Workfront Proof users](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
->
 
 ## Electronic signature
 
@@ -41,6 +41,6 @@ When the electronic signature setting is enabled on a proof, an electronic signa
 
 >[!IMPORTANT]
 >
->To electronically sign a proof with SSO credentials, you must set SSO up in Workfront Proof. For more information on enabling SSO, see >
->* [Configure Single Sign-On for Workfront Proof users](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>To electronically sign a proof with SSO credentials, you must set SSO up in Workfront Proof. For more information on enabling SSO, see 
 >
+>* [Configure Single Sign-On for Workfront Proof users](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)

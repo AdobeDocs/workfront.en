@@ -3,7 +3,7 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Request Access to Objects
 description: Your visibility to objects in Adobe Workfront depends on your access to that type of object as well as your permissions on an individual object.
-author: Becky
+author: Courtney
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
 ---
@@ -17,7 +17,7 @@ Your visibility to objects in Adobe Workfront depends on your access to that typ
 >
 >This article describes how you can request permissions to all objects except for the following:
 >
->* Scenario Planner plans in the Adobe Workfront Scenario Planner. For more information, see [Request access to a plan in the Scenario Planner](../../scenario-planner/request-access-to-plan.md). This requires an additional license.
+>* Scenario Planner plans in the Adobe Workfront Scenario Planner. For more information, see [Request permissions to a plan in the Scenario Planner](../../scenario-planner/request-access-to-plan.md). This requires an additional license.
 >
 >* Views and workspaces in Workfront Planning. For more information, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). This requires an additional license. 
 
@@ -32,21 +32,18 @@ You can request initial access to objects if someone shares a link to the object
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following to share objects:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any </p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: Standard</p> 
-   <p>Or</p>
-   <p>Current: Work or higher</p> 
+   <td> <p>Standard</p> 
+   <p>Work or higher</p> 
    </td> 
   </tr> 
   <tr> 
@@ -56,7 +53,7 @@ You must have the following to share objects:
  </tbody> 
 </table>
 
-For more details about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

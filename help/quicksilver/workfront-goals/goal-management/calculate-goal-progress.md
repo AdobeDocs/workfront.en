@@ -11,6 +11,15 @@ exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
 
 <!--Audited for P&P only: 4/2025-->
 
+>[!NOTE]
+>
+>Your company might choose to continue using Adobe Workfront Goals if they bought this package in the past. You must speak with your account representative for details. 
+>
+>Adobe Workfront Goals is no longer available for purchase.
+>
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
 >[!IMPORTANT]
 >
 >Your organization must have the following to use the functionality described in this article:
@@ -25,9 +34,8 @@ exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
 >   * A Pro or higher 
 >   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
-> Contact your Workfront account manager to learn about a Workfront Goals license.
->
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+> Contact your Workfront account manager to learn about a Workfront Goals license.-->
+
 
 Adobe Workfront calculates goal progress automatically, based on the progress of its progress indicators.
 

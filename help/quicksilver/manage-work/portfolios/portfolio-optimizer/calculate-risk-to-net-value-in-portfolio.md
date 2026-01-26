@@ -9,9 +9,9 @@ exl-id: 9e86f6eb-dd82-4731-aebb-ce8da1df5614
 ---
 # Calculate the [!UICONTROL Risk to Net Value] in a portfolio
 
-In the [!UICONTROL Portfolio Optimizer], the [!UICONTROL Risk to Net Value] indicator measures the Potential Risk taking into account the [!UICONTROL Net Value] provided by all projects displayed in the [!UICONTROL Portfolio Optimizer].&nbsp;
+In the [!UICONTROL Portfolio Optimizer], the [!UICONTROL Risk to Net Value] indicator measures the Potential Risk taking into account the [!UICONTROL Net Value] provided by all projects displayed in the [!UICONTROL Portfolio Optimizer]. 
 
-For achieving the most efficiency within the portfolio, you want to see that the [!UICONTROL Risk] indicator is low and the [!UICONTROL Net Value] indicator is high.&nbsp;
+For achieving the most efficiency within the portfolio, you want to see that the [!UICONTROL Risk] indicator is low and the [!UICONTROL Net Value] indicator is high. 
 
 The [!UICONTROL Risk] and [!UICONTROL Net Value] indicators are represented from the perspective of how they relate to each other.
 
@@ -37,4 +37,4 @@ The [!UICONTROL Risk] and [!UICONTROL Net Value] indicators are represented from
 
 >[!NOTE]
 >
->The [!UICONTROL Risk to Net Value] indicator calculates based on the projects that you display in the [!UICONTROL Portfolio Optimizer], and not on all the projects which are associated with the portfolio.&nbsp;
+>The [!UICONTROL Risk to Net Value] indicator calculates based on the projects that you display in the [!UICONTROL Portfolio Optimizer], and not on all the projects which are associated with the portfolio. 

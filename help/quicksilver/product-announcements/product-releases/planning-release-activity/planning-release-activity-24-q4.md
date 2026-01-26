@@ -62,4 +62,4 @@ The following are some of the main capabilities of Adobe Workfront Planning:
 
 * Connect to object types from other systems, creating a coherent framework for all your processes. 
 
-For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).

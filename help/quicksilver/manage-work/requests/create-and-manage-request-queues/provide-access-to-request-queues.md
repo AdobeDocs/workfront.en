@@ -3,7 +3,7 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Provide Access to Request Queues
 description: When you provide access to a request queue, you determine who in your organization can view the request queue in the Requests area of Adobe Workfront.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
 ---
@@ -26,14 +26,14 @@ This is useful in organizations that invite external stakeholders into Workfront
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-   <p>New: Standard </p>
-   <p>Current: Plan </p> </td> 
+   <p>Standard </p>
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -46,7 +46,7 @@ This is useful in organizations that invite external stakeholders into Workfront
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

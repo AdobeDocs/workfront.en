@@ -20,16 +20,14 @@ If you are creating a project through Workfront Fusion and want to include Adobe
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following:
-
 <table>
   <tr>
-    <td><strong>Adobe Workfront plan*</strong></td>
-    <td>Any</td>
+    <td><strong>Adobe Workfront package</strong></td>
+   <td> <p>Any Adobe Workfront Workflow package and any Adobe Workfront Automation and Integration package</p><p>Workfront Ultimate</p><p>Workfront Prime and Select packages, with an additional purchase of Workfront Fusion.</p> </td> 
   </tr>
   <tr>
-   <td><strong>Adobe Workfront licenses*</strong></td>
-   <td>Request or higher</td>
+   <td><strong>Adobe Workfront licenses</strong></td>
+   <td><p>Contributor or higher</p><p>Request or higher</p></td>
   </tr>
   <tr>
    <td><strong>Product</strong></td>
@@ -44,26 +42,17 @@ You must have the following:
        </li>
      </ul>
      <p><b>Workfront Fusion:</b></p>
-     <p>New:</p>
      <ul>
        <li>
-         <p>Select or Prime Workfront Plan: Your organization must purchase Adobe Workfront Fusion.</p>
-       </li>
-       <li> 
-         <p>Ultimate Workfront Plan: Workfront Fusion is included.</p>
+        <p>If your organization has a Select or Prime Workfront package that does not include Workfront Automation and Integration, your organization must purchase Adobe Workfront Fusion.</li></ul>
        </li>
      </ul>
-     <p>Or</p>
-     <p>Current: Your organization must purchase Adobe Workfront Fusion.</p>
    </td>
   </tr>
   <tr>
-   <td><strong>Access level configurations*</strong>
+   <td><strong>Access level configurations</strong>
    </td>
-   <td>Edit access to Documents
-     <p>
-       <strong>Note: </strong>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <strong>Create or modify custom access levels</strong>.
-     </p>
+   <td><p>Edit access to Documents</p>
    </td>
   </tr>
 </table>

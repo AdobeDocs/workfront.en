@@ -21,13 +21,11 @@ AI Assistant can help you locate projects, tasks, and issues in Workfront.
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td><p>New: Any</p>
-       <p>Current: Not available</p></td>
+   <td><p>Any</p>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p>
-       <p>Current: Not available</p></td>
+   <td><p>Standard</p>
   </tr> 
  </tbody> 
 </table>

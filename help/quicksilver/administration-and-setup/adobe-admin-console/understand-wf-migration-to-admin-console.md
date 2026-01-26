@@ -12,14 +12,6 @@ exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
 ---
 # Understanding the Workfront Migration to the Adobe Admin Console  
 
-<!--DELETE ME MARCH 2026-->
-
->[!IMPORTANT] 
->
->All Workfront organizations have now been onboarded to the Adobe Admin Console.
->
->This article will be removed in the near future.
-
 Adobe is changing how you manage your Adobe Workfront users, bringing increased productivity to you and your organization. As part of this change, Adobe is migrating your Workfront instance and users to the Adobe Admin Console. This is a necessary migration, and will not affect any reporting, approval paths, content, or assets. It will impact how you manage user access and how your users sign in.  
 
 This article describes in general terms the process of moving an organization to the Adobe Admin Console, so that you as a Workfront administrator can know what to expect.

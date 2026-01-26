@@ -2,8 +2,8 @@
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
-title: Project status will not change from Complete to Current
-description: (Although this can be added as an FAQ, I have left this as its own article for search-ability reasons)
+title: Project Status Will not Change from Complete to Current
+description: This article describes a scenario where you cannot update the Project Status from Complete to Current. 
 author: Alina
 feature: Work Management
 exl-id: 774c103f-8785-4d8b-83e9-a074e6518293

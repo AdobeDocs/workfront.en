@@ -12,6 +12,16 @@ exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
 
 <!--Audited: 4/2025-->
 
+>[!NOTE]
+>
+>Your company might choose to continue using Adobe Workfront Goals if they bought this package in the past. You must speak with your account representative for details. 
+>
+>Adobe Workfront Goals is no longer available for purchase.
+>
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
+
 >[!IMPORTANT]
 >
 >Your organization must have the following to use the functionality described in this article:
@@ -27,7 +37,7 @@ exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
 
 ## Consideration when updating goal statuses in Workfront Goals
 
@@ -42,14 +52,14 @@ exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
   | Closed  |No |Yes |No |-  |
 
 * Opening a closed goal also updates the goal's progress. 
-* Certain actions you perform on a goal also update its status.&nbsp;For information about how you can update goal statuses, see the following articles:
+* Certain actions you perform on a goal also update its status. For information about how you can update goal statuses, see the following articles:
 
    * [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md) 
    * [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md) 
    * [Delete and deactivate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/delete-and-deactivate-goals.md) 
    * [Close and reopen goals in Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 
-## Overview of goal statuses in&nbsp;Workfront Goals
+## Overview of goal statuses in Workfront Goals
 
 For information about creating Workfront Goals goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 

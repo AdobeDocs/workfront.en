@@ -4,7 +4,7 @@ product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: "Timesheets: article index"
 description: Learn more about how to create, edit, approve, and manage timesheets, timesheet profiles, and hour types in the following sections. 
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: aff5e7a9-e1a0-460e-bb6b-be9c50db5755
 ---

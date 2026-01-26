@@ -5,6 +5,7 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Change the format for dates in [!DNL Adobe Workfront]
 description: To change the date format for the dates in [!DNL Adobe Workfront] you must change the language settings in your browser.
 feature: Get Started with Workfront
+author: Becky
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
 ---
 # Change the format for dates in [!DNL Adobe Workfront]
@@ -58,7 +59,7 @@ To change your language settings in Chrome:
 1. Click the 3-dots in the top right corner of your Chrome interface, then click **Settings**.
 1. On the left area of the Settings page, expand **Advanced**, then click **Languages**.  
    Or  
-   Search for *language*&nbsp;at the top of the Settings page, then click **Languages**.
+   Search for *language*  at the top of the Settings page, then click **Languages**.
 
 1. In the **Language** list, locate the language and region that use your preferred date format.
 

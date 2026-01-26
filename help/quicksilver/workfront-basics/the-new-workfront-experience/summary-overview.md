@@ -97,36 +97,6 @@ For information about accessing the [!UICONTROL Summary] in the [!UICONTROL Work
 
 For information about accessing the [!UICONTROL Summary] for documents, see [[!UICONTROL Summary] for documents overview](../../documents/managing-documents/summary-for-documents.md).
 
-## Access requirements
-
-You must have the following access to perform the steps in this article:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>New: Contributor or higher</p>
-   Or
-   <p>Current:[!UICONTROL Request] or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Access level configuration</strong></td> 
-   <td> <p>[!UICONTROL View] or higher access to Tasks, Issues, Documents</p> <p>[!UICONTROL View] or higher access to any objects for which you want to view documents [!UICONTROL Summary]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>[!UICONTROL View] or higher permissions to a task, issue, or document</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## View the [!UICONTROL Summary] panel in a list of tasks or issues
 

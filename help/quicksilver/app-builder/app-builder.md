@@ -10,18 +10,18 @@ exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
 
 Workfront UI Extensions, powered by Adobe App Builder, allow customers and partners to create customized user experiences. These tools enhance efficiency, deliver seamless, connected experiences, and significantly improve user satisfaction, and help enterprises realize their unique vision.
 
-For example, without Workfront UI Extensions, a project manager might need to switch between Workfront and a separate time-tracking system to log hours. With UI Extensions, time-tracking can be integrated directly in the Workfront experience, streamlining workflow and saving time. Additionally, you can add custom components to improve usability, automate repetitive tasks, and enhance content management with features like metadata tagging and content previews. Adobe App Builder also offers scalability and robust identity management (IMS), ensuring secure and efficient customization at any scale.
+For example, without Workfront UI Extensions, a project manager might need to switch between Workfront and a separate time-tracking system to log hours. With UI Extensions, time-tracking can be integrated directly in the Workfront experience, streamlining the workflow and saving time. Additionally, you can add custom components to improve usability, automate repetitive tasks, and enhance content management with features like metadata tagging and content previews. Adobe App Builder also offers scalability and robust identity management (IMS), ensuring secure and efficient customization at any scale.
 
 Workfront UI extensions offer several key benefits:
 
 * Precise customization: Standard software interfaces often fall short of meeting all business requirements. UI extensions allow developers to modify and extend the default user interface to address specific business needs.
-* System integration: UI extensions facilitate the integration of other systems ensuring seamless workflows and data consistency.
-* Scalability: As businesses grow, UI extensions can be developed to add new functionalities without the need for a complete system overhaul.
+* System integration: UI extensions facilitate the integration of other systems, ensuring seamless workflows and data consistency.
+* Scalability: As businesses grow, UI Extensions can be developed to add new functionalities without the need for a complete system overhaul.
 * Reduced development time: Pre-built extension points and tools significantly reduce the time and effort required to implement custom features.
 * Enhanced user adoption: An optimized user experience can significantly boost software adoption. Custom UI elements designed to match user preferences can enhance adoption rates and overall satisfaction.
 * Leveraging Workfront UI Extensions, businesses can create tailored user experiences that drive efficiency, integration, and user satisfaction.
 
-After an application is created in the Adobe App Builder, a Workfront administrator can add it to the Workfront Main Menu and left navigation panel using layout templates. A user with the layout template who clicks on the application will see the application embedded in Workfront, instead of having to open it separately.
+After an application is created in the Adobe App Builder, a Workfront administrator can add it to the Workfront Main Menu and left navigation panel using layout templates. A user with the layout template who clicks on the application sees the application embedded in Workfront, instead of having to open it separately.
 
 This article describes how to access the App Builder and use a template to create an application.
 
@@ -37,7 +37,7 @@ You must have the following:
 
 ## Access Adobe App Builder  
 
-To create UI extensions, you must have access to Adobe App Builder in the Adobe Developer Console.  
+To create UI Extensions, you must have access to Adobe App Builder in the Adobe Developer Console.  
 
 Additional instructions are available on the [Adobe Developer site](https://developer.adobe.com/uix/docs/guides/get-access/).
 
@@ -48,7 +48,6 @@ Additional instructions are available on the [Adobe Developer site](https://deve
 >Make sure you have selected the right IMS organization for all of the following steps. If you belong to multiple organizations, it's possible to select the wrong one. Make sure you are acting under the right organization, which is usually listed in the top-right corner. 
 
 1. Navigate to Production: https://adminconsole.adobe.com/  
-
 1. In the **Users** section, click **Developers** > **Add developers**.
 
     ![add users in the admin console](assets/manage-users-admin-console.png)
@@ -57,9 +56,9 @@ Additional instructions are available on the [Adobe Developer site](https://deve
     >
     >If you do not see an option to manage developers, you do not have a product that allows developer access.  
 
-1. Add the user's email. It should search existing users that have already been added from within the admin console.  
+1. Add the user's email. It should search existing users that have already been added from within the Admin Console.  
+1. Add necessary products to the developer profile and click **Save**. 
 
-1. Add necessary products to the developer profile and click **Save**.  
     ![add developers](assets/add-developer.png)
 
 ### Get access to App Builder  
@@ -75,26 +74,21 @@ You must use the Adobe Developer Console to build your UI extension.
 Additional instructions are available on the [Adobe Developer site](https://developer.adobe.com/uix/docs/guides/creating-project-in-dev-console/).
 
 1. Sign in to the Adobe Developer Console with your Adobe ID.  
-
 1. Choose your account, and your profile or organization.  
-
 1. Click **Create project from template** in the Quick Start area, or click **Create new project > Project from template**.
 
     >[!IMPORTANT]
     >
-    >If you do not see the option to create a project from a template, then you are misconfigured in the admin console and do not have access to the app builder catalog. This option only shows when you have access to AppBuilder.
+    >If you do not see the option to create a project from a template, then you are misconfigured in the Admin Console and do not have access to the App Builder catalog. This option only shows when you have access to AppBuilder.
 
     ![Create from template](assets/create-from-template.png)
 
 1. Select **App Builder**.  
-
-1. Enter a **Project title** and **App name**. Both have defaults, but it will be easier to identify the project you want later if you customize the value.  
-
+1. Enter a **Project title** and **App name**. Both have defaults, but it is easier to identify the project you want later if you customize the value.  
 1. Leave **Include runtime** selected.  
-
 1. Click **Save**.  
 
-## Use Adobe IO (aio) CLI
+## Use Adobe Developer (aio) CLI
 
 Adobe provides an open source CLI that you can use to create the App Builder application.  
 
@@ -107,12 +101,16 @@ Additional instructions are available on GitHub and the Adobe Developer site:
 1. Launch your terminal and log in to AIO with the command: `aio login`. If you have issues logging into the correct IMS org, try `aio login -f` to force a login prompt. Use `aio where` to see which organization you are logged into the correct IMS org. for more details, use `aio config`.
 1. Begin setting up your app by running: `aio app init example-app` be sure to replace "example-app" with your app name. If you are not sure of app names, you can see a list of app names with the command `aio console project list`.
 1. Select your Organization and Project from the provided options.
+
     ![command result](assets/1-command-result.png)
     ![Select a project](assets/2-select-a-project.png)
 
 1. Browse all available templates and choose the **@adobe/workfront-ui-ext-tpl** for your project.
+
     ![Choose a template](assets/3-choose-template.png)
+
 1. Select and enter the project name you created in the Adobe Developer Console.
+
     ![select and enter project name](assets/4-select-and-enter-project-name.png)
 
 1. Answer the prompts for the application:  
@@ -120,15 +118,19 @@ Additional instructions are available on GitHub and the Adobe Developer site:
     * Name the extension.  
     * Provide a descriptive summary of the extension's functionality.  
     * Select an initial version number to start with.  
-    * The template will create the code for a primary navigation button if you select "Add a custom button to Main Menu Item" when prompted for "What would you like to do next?".
+    * The template creates the code for a primary navigation button if you select "Add a custom button to Main Menu Item" when prompted for "What would you like to do next?".
 
     ![select done](assets/5-select-done.png)
 
 1. Confirm completion by selecting I'm done. The code generation from the template is in process.
+
     ![generation in process](assets/6-generation-in-process.png)
+
 1. Wait until you see a message that the app initialization is finished. Then you can open the project in an IDE (Visual Studio Code is recommended) and access the src folder.  
 
-    For more information on the folders and files in your project, see the [Adobe developer site](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#5-anatomy-of-an-appbuilder-application).
+    For more information on the folders and files in your project, see the [Adobe developer site](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
+
+For more information on the folders and files in your project, see the [Adobe Developer site](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
 
 ## Build the extensions in VSCode  
 
@@ -136,7 +138,7 @@ The App.js file configuration is required for enabling navigation via the Workfr
 
 The ExtensionRegistration.js file configuration is required to display the extensions in Workfront layout templates.  
 
-The following examples show you how to add custom applications to the Workfront Main Menu and an object's left panel, using the UI extensions.
+The following examples show you how to add custom applications to the Workfront Main Menu and an object's left panel, using the UI Extensions.
 
 ### Configure ExtensionRegistration.js  
 
@@ -144,7 +146,7 @@ To allow custom applications in the Workfront Main Menu:
 
 1. Go to ExtensionRegistration.js.  
 
-In the ExtensionRegistration function you should see the following code. This code was created for you by the template. This code can be added to create additional menu items. Be sure to replace IDs and URLs.
+    In the ExtensionRegistration function you should see the following code. This code was created for you by the template. This code can be added to create additional menu items. Be sure to replace IDs and URLs.
 
     ```
     mainMenu: { 
@@ -173,8 +175,10 @@ In the ExtensionRegistration function you should see the following code. This co
     ```
 
 1. Add the following code snippet:
+
     ![code snippet ](assets/7-extension-registration-step1-from-sam.png)
-    This example shows a Main Menu item. You must update the ID, label, icon, and URL to the correct names for your application. When adding multiple items make sure that the ID is unique.
+
+    This example shows a Main Menu Item. You must update the ID, label, icon, and URL to the correct names for your application. When adding multiple items make sure that the ID is unique.
 
 1. Save your work. 
 
@@ -186,39 +190,196 @@ To allow custom applications in the Workfront left panel navigation:
 1. In the ExtensionRegistration function, add the following code snippet:
 
     ```
-    secondaryNav: {  
-
+    secondaryNav: {
+    
     TASK: {  
-
+    
         getItems() {       return [         {           id: "TASK", 
-
+    
     label: "My TASK",           icon: metricsIcon,           url: "/myTask",  
-
+    
             },  
-
+    
         ];  
-
+    
         },  
-
+    
     },  
-
+    
     },  
-
     ```
 
-    ![extension registration](assets/8-extension-registration-file-step2.png)
+   ![extension registration](assets/8-extension-registration-file-step2.png)
 
-    * This example shows a left panel navigation item called My Task. You must update the ID, label, icon, and URL to the correct names for your application.  
-
-    * This example shows a left panel navigation item for the Project object type. You must create these items separately for each object where they are supported in Workfront. The following objects are available: project, task, issue, portfolio, and program.  
+   * This example shows a left panel navigation item called My Task. You must update the ID, label, icon, and URL to the correct names for your application.  
+   * This example shows a left panel navigation item for the Project object type. You must create these items separately for each object where they are supported in Workfront. The following objects are available: project, task, issue, portfolio, and program.  
 
 1. Save your work.
+
+### Embed an app using a Workfront custom form 
+
+The forms widget extension point is a UI extension capability in Adobe Workfront that allows you to create custom widgets that can be embedded within Workfront custom forms. Unlike other extension points that add navigation items or menu options, widgets provide a way to display custom content in dedicated panels within custom form fields.  
+
+Widgets are modular UI components that can be added to Workfront custom forms as form fields. They provide a way to surface custom functionality, data visualizations, or external content directly within custom form interfaces, allowing users to interact with custom logic while filling out forms. 
+
+#### Configure a widget extension 
+
+Like UI extension points for the Main Menu and secondary navigation, the "widgets" extension point is configured within the `ExtensionRegistration` component's methods object usually in the `ExtensionRegistration.js` field. This means that using the forms widget only requires adding a "widget" item in `extesionregistration` with a valid route in your app.js: 
+
+```
+javascript 
+
+
+Apply to ExtensionReg... 
+
+widgets: { 
+
+  getItems() { 
+
+    return [ 
+
+      { 
+
+        id: "test2", 
+
+        url: "/index.html#/widgets1", 
+
+        label: "Test Widget with dimensions", 
+
+        dimensions: { 
+
+          height: 450, 
+
+          width: 300, 
+
+          maxHeight: 600, 
+
+          maxWidth: 400, 
+
+        }, 
+
+      }, 
+
+      { 
+
+        id: "test", 
+
+        url: "/index.html#/widgets1", 
+
+        label: "Test Widget without dimensions", 
+
+      }, 
+
+    ]; 
+
+  }, 
+
+}, 
+```
+
+#### Widget Configuration Properties 
+
+**Required Properties**
+
+* id (string): Unique identifier for the widget. Must be unique across all widgets in your extension. 
+
+* url (string): The URL path to the widget's content. This should point to a route in your extension that renders the widget component. 
+
+* label (string): Display name for the widget that appears in the custom form field selection interface. 
+
+**Optional Properties**
+
+* dimensions (object): Specifies the widget's display dimensions. All properties are optional, and these are the only dimensions possible: 
+
+* height (number): Height of the widget in pixels 
+
+* width (number): Width of the widget in pixels 
+
+* maxHeight (number): Maximum height of the widget in pixels 
+
+* maxWidth (number): Maximum width of the widget in pixels 
+
+**Dimension Properties**
+
+The dimensions object allows you to control the size and layout constraints of your widget: 
+
+* height and width: Set the initial/preferred size of the widget 
+
+* maxHeight and maxWidth: Set upper limits to prevent the widget from becoming too large 
+
+* Responsive Behavior: Widgets can be responsive within these constraints 
+
+* Form Integration: Dimensions help ensure that the widget fits well within form field layouts 
+
+#### Example Dimension Configurations 
+
+```
+// Fixed size widget 
+
+dimensions: { 
+
+  height: 300, 
+
+  width: 250, 
+
+} 
+
+// Flexible height with width constraint 
+
+dimensions: { 
+
+  width: 300, 
+
+  maxHeight: 500, 
+
+} 
+
+// Height constraint only 
+
+dimensions: { 
+
+  height: 400, 
+
+  maxWidth: 350, 
+
+} 
+
+// No dimensions - uses default sizing 
+
+{} 
+```
+
+#### Context Data 
+
+Widgets have access to the same shared context as other extension points, including: 
+
+* auth: Authentication information including IMS token 
+
+* objCode: Object type code (TASK, PROJECT, ISSUE, etc.) 
+
+* objID: Object identifier 
+
+* hostname: Workfront instance hostname 
+
+* protocol: Connection protocol 
+
+* user: Current user information 
+
+* isLoginAs: Whether the user is logged in as another user 
+
+* isInBulkEditing: if the form is currently in bulk editing mode. If so, the context includes multiple values for Object ID.  
+
+#### Add a Widget to a Workfront Custom Form 
+
+An app can be embedded on a Workfront custom form using the "UI Extensions" field type. Once you've added the field, select a forms widget, the list of widgets is based on active apps in your IMS org or locally active application when `extensionoverride=TRUE`. 
+
+![UI Extensions field in a custom form](assets/ui-extensions-field.png)
 
 ### Configure App.js  
 
 1. Go to App.js.  
 
-1. The template will a route for a main menu option. A route defines the mapping between URL paths and the components rendered for those paths. To add a route, use the following code snippet, be sure to replace the exact path and element with yours.
+1. The template will a route for a Main Menu option. A route defines the mapping between URL paths and the components rendered for those paths. To add a route, use the following code snippet, be sure to replace the exact path and element with yours.
 
     ```
         <Route 
@@ -233,39 +394,53 @@ To allow custom applications in the Workfront left panel navigation:
     ![code example](assets/9-app-file-step-1-from-sam.png)
 1. Save your work.  
 
-For more information on developing and running the application, see the [Adobe developer site](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#6developing-the-application).
+For more information on developing and running the application, see the [Adobe developer site](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application).
+
 
 ## Shared Context 
 
-Shared context is used to share data from Workfront to a UI Extension. The data available through shared context includes user data and the application context.  
+Shared context is used to share data from Workfront to a UI extension. The data available through shared context includes user data and the application context.  
  
 
 ### User 
 
 Workfront's UI Extensions share user data. The user object available through shared context includes a Workfront user ID and the user's email address.  
 
-`user = (conn?.sharedContext?.get("user")); // {ID: '1', email: 'test@aaa.com'} userID = user.ID userEmail = user.email `
+`user = (conn?.sharedContext?.get("user")); // {ID: '1', email: 'test@aaa.com'} userID = user.ID userEmail = user.email`
 
 ### Application context 
 
-When adding a custom application using a Secondary Navigation extension point it's common for the custom application to use context data like a project ID or document ID. For these data, the shared context includes an object code and object ID.
+When adding a custom application using a Secondary Navigation extension point it's common for the custom application to use context data like a project ID or document ID. For these data, the shared context includes an object code and Object ID.
 
 Here is an example for getting the application context for documents: 
 
-`context = conn?.sharedContext; // Using the connection created above, grab the document details from the host tunnel. // conn?.host?.document?.getDocumentDetails().then(setDocDetails); `
+`context = conn?.sharedContext; // Using the connection created above, grab the document details from the host tunnel. // conn?.host?.document?.getDocumentDetails().then(setDocDetails);`
 
 ## Test the app in Workfront  
 
 While developing your App Builder application for Workfront, you might need to test your app within Workfront without publishing it.  
 
-Within your App Builder app, you can initiate `aio app run` for local development. This will provide you with a URL, typically something like `https://localhost:9080`. Alternatively, you can execute `aio app deploy` to obtain a static Adobe domain. Make sure to note these URLs for future use.  
+Within your App Builder app, you can initiate `aio app run` for local development. This provides you with a URL, typically something like `https://localhost:9080`. Alternatively, you can execute `aio app deploy` to obtain a static Adobe domain. Make sure to note these URLs for future use.  
 
-Next, navigate to the specific page you want to develop against in your browser. Open the developer tools and access the Local Storage for either workfront.com or workfront.adobe.com. Here, you must add an entry. Use `extensionOverride` as the key and the previously noted app builder URL as the value.  
+Next, navigate to the specific page you want to develop against in your browser. Open the developer tools and access the Local Storage for either workfront.com or workfront.adobe.com. Here, you must add an entry. Use `extensionOverride` as the key and the previously noted App Builder URL as the value.  
 
 If the configuration was completed correctly, when you reload the layout template page in Workfront, you will see the buttons from your App Builder application. Add the app buttons to the Main Menu and left panel for an object and verify that they appear correctly in those areas.  
 
-Additional instructions are available on the Adobe developer site, using an example from AEM: https://developer.adobe.com/uix/docs/guides/preview-extension-locally/ 
+Additional instructions are available on the Adobe Developer site, using an example from AEM: https://developer.adobe.com/uix/docs/guides/preview-extension-locally/ 
+
+### Disable flag to allow local testing on Chrome version 142 and later
+
+Chrome version 142 introduces Local Network Access Restrictions. These restrictions can interfere with local testing environments. 
+
+To resolve the problem, you must disable the Local Network Access Check by turning off the corresponding flag in Chrome settings: `chrome://flags/#local-network-access-check`.
+
+To disable the flag
+
+1. Open Chrome and type `chrome://flags` into the address bar, then press **Enter**.
+1. In the search bar at the top, type **Local Network Access Checks**.
+1. Click the dropdown menu next to the **Local Network Access Checks** flag and select Disabled.
+1. Click the **Relaunch** button that appears at the bottom of the screen to apply the changes.
 
 ## Publish applications and approve the submission  
 
-To publish the application and approve it, follow the instructions on the [Adobe developer site](https://developer.adobe.com/uix/docs/guides/publication/).
+To publish the application and approve it, follow the instructions on the [Adobe Developer site](https://developer.adobe.com/uix/docs/guides/publication/).

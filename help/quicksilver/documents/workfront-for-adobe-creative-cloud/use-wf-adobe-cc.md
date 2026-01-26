@@ -31,26 +31,24 @@ The Workfront&nbsp;Extension is supported for Adobe Creative Cloud 2017 and newe
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Current: Pro or higher</p>
-   Or
-   <p>New: Any plan</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p>
+ </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current: Work or higher</p>
-   Or
-   <p>New: Standard</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+      <p>Standard</p> 
+   <p>Work or higher</p>
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Additional products</td> 
    <td>You must have an Adobe Creative Cloud license in addition to a Workfront license.</td> 
   </tr> 
   <tr> 
@@ -60,7 +58,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

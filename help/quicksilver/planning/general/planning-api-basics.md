@@ -343,7 +343,7 @@ We recommend that you consider using paginated responses for large datasets by a
 
 For example, if you want to return the results 2001-4000, you can use the following request. This example returns 2000 records that are in active status, starting from the 2001st result: 
 
-`POST /v1/records/search `
+`POST /v1/records/search`
 
   
 

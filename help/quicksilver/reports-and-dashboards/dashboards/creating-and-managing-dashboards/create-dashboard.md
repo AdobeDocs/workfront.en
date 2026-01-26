@@ -19,36 +19,33 @@ To learn more about dashboards, see [Get started with dashboards](../../../repor
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following:
-
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Adobe Workfront plan</strong></p> </td> 
-   <td>Any</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront license</strong></p> </td> 
-   <td> <p>Current: Plan </p>
-   Or
-   <p>New: Standard </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+      <p>Standard</p>
+      <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
-   <td><strong>Access level configurations</strong> </td> 
-   <td> <p>Edit access to Reports, Dashboards, and Calendars</p> </td> 
-  </tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Reports, Dashboards, and Calendars</p></td> 
+  </tr>  
   <tr> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td role="rowheader">Object permissions</td> 
    <td> <p>You will obtain Manage permissions to the dashboards you create</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -17,23 +17,19 @@ Catch me up—powered by Workfront's AI Assistant—summarizes updates, uploaded
 
 ## Access requirements
 
-+++You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td><p>New: Any</p>
-       <p>or</p>
-       <p>Current: Not available</p></td>
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td>Any</td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p>
-       <p>or</p>
-       <p>Current: Not available</p></td>
+   <td><p>Standard</td>
   </tr> 
  </tbody> 
 </table>

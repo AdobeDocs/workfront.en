@@ -3,7 +3,7 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Create Queue Topics
 description: Queue Topics work in conjunction with Routing Rules to automatically assign incoming work to a user, job role, team, or to place it on a project. Queue Topics define the conditions that need to exist for the Routing Rule to be implemented.
-author: Alina
+author: Becky
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
@@ -11,8 +11,6 @@ exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
 # Create Queue Topics
 
 <!-- Audited: 12/2023 -->
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 Queue Topics work in conjunction with Routing Rules to automatically assign incoming work to a user, job role, team, or to place it on a project. Queue Topics define the conditions that need to exist for the Routing Rule to be implemented.
 
@@ -54,22 +52,19 @@ Once created, you cannot move queue topics from one project or template to anoth
 </table>
 -->
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td>
-    <p>New: Standard</p>
-    <p>or</p>
-    <p>Current: Plan</p></td>  
+    <p>Standard</p>
+    <p>Plan</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -82,7 +77,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -176,8 +171,7 @@ To edit an existing Queue Topic:
 
 1. Go to the project or template that contains the Queue Topic you want to edit. 
 1. Click **Queue Topics** in the left panel. 
-1. In the Production environment, select the Queue Topic that you want to edit. On the Details page that opens, click **Edit Queue Topic**.
-1. <span class="preview">In the Preview environment, click the queue topic that you want to edit. 
+1. Click the queue topic that you want to edit. 
 
 For information about available edit options, see [Create a Queue Topic](#create-a-queue-topic) in this article.
 

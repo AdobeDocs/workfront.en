@@ -3,8 +3,8 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: "Agile planning tools overview: article index"
-description: As you create a board using ad hoc and connected cards, you can take advantage of additional agile planning tools on boards.
-author: Lisa
+description: As you create a board using ad hoc and connected cards, you can take advantage of additional Agile planning tools on boards.
+author: Jenny
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
 ---
@@ -12,7 +12,7 @@ exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
 
 <!-- Audited: 5/2025 -->
 
-As you create a board using ad hoc and connected cards, you can take advantage of additional agile planning tools.
+As you create a board using ad hoc and connected cards, you can take advantage of additional Agile planning tools.
 
 Tools useful for Kanban include:
 
@@ -30,7 +30,7 @@ Tools useful for Scrum include:
 >
 >Workstreams and their related tools are only available to a specific group of customers.
 
-You can use any or all of these tools in a way that works for you and your team, without committing to a specific agile methodology.
+You can use any or all of these tools in a way that works for you and your team, without committing to a specific Agile methodology.
 
 This section contains the following articles:
 
@@ -38,7 +38,7 @@ This section contains the following articles:
 * [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [Use groups on a board](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [Configure card falloff](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-* [Migrate agile team Kanban cards to Workfront boards](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+* [Migrate Agile team Kanban cards to Workfront boards](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
 * [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
 * [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
 * [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)

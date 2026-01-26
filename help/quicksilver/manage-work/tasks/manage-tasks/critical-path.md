@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: manage-tasks
-title: Overview of the project Critical Path
+title: Overview of the Project Critical Path
 description: Determining the Critical Path of a project is an automatic way for Adobe Workfront to flag a sequence of tasks in a project that have the potential to impact the timeline of the project. Tasks that can impact the timeline of the project are flagged as being Critical Path tasks.
 author: Alina
 feature: Work Management
@@ -45,7 +45,37 @@ Any delay in the activity of a task on the Critical Path directly impacts the Pr
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+   <p>Standard<p>
+   <p>Work or higher</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View or higher access to Tasks</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions on a task </p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,12 +102,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>View or higher permissions on a task </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-
- +++
+</table>-->
 
 ## View the Critical Path
 

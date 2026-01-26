@@ -3,7 +3,7 @@ product-area: user-management
 navigation-topic: workfront-navigation
 title: Understand the navigation for a Review-license user
 description: The Main Menu changes with the access level you have been assigned by your [!DNL Adobe Workfront] administrator. By default, you are given access only to the areas that include functionality allowed by your access level.
-author: Lisa
+author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
 ---
