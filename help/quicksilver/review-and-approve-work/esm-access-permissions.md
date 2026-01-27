@@ -10,9 +10,17 @@ hide: yes
 hidefromtoc: yes
 ---
 
-# Adobe enterprise storage permissions and access overview
+# Adobe enterprise storage Object permissions and access overview
 
 <!--linked in UI -->
+
+Permissions and access level overview for Adobe enterprise storage
+
+Adobe enterprise storage overview for object permissions and access levels 
+
+Object permissions and access level overview for the Adobe enterprise storage model
+
+Workfront 
 
 
 
