@@ -218,6 +218,23 @@ For an example of connecting record types and records, see [Example of connectin
 
         ![Workfront project connection selection](assets/multi-select-connection-picker-project.png)
 
+    <!--<div class="preview">    
+    
+    * An **Original request** object type from the **Workfront Object Types** section. 
+
+        The original request connection field created will display the name of the submitted Planning request that created the object. 
+
+        >[!NOTE]
+        >
+        >You must create request forms and make them public in order to submit Planning requests to create records in Workfront Planning. 
+        >
+        >For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+
+        ![Original request connection selection](assets/original-request-connection-selection.png)
+
+    </div>-->
+
+
     * **Experience Manager Assets** from the **Adobe Applications** section.
 
         ![AEM Assets connection selection](assets/aem-assets-connection-selection.png)
