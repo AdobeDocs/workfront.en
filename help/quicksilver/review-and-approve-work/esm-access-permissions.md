@@ -14,50 +14,49 @@ hidefromtoc: yes
 
 <!--linked in UI -->
 
-Adobe enterprise storage is a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products. Workfront environments that use Adobe enterprise storage have different permission and access level behaviors than legacy Workfront document storage. 
+Adobe enterprise storage is a cloud-based storage solution that serves as the central storage repository for assets across Adobe enterprise products. Workfront environments that use Adobe enterprise storage have slightly different object permissions and access level behaviors than those using legacy Workfront document storage. 
 
 ## Access levels
 
-Workfront access levels apply only within Workfront. Users with project-level permissions on Adobe enterprise storage projects can still view and manage documents for those projects in other Adobe tools, such as Frame.io and Adobe Creative Cloud.
+Workfront access levels apply only within Workfront. Document restriction within Workfront doesn't always apply in other Adobe applications.
 
-### Key differences between Adobe enterprise storage and legacy Workfront storage
+### Environments using both Adobe enterprise storage and legacy Workfront storage
 
 Document access behaves differently depending on whether the project is on Adobe enterprise storage or legacy Workfront storage: 
 
-* **Legacy Workfront storage**: Projects, programs, and portfolios that use legacy Workfront storage follow standard Workfront access level logic for document access. When has "no access" they are unable to see documents in Workfront or other Adobe products like Frame.io or Creative Cloud.
-* **Adobe enterprise storage**: Projects, programs, and portfolios that use Adobe enterprise storage follow Adobe enterprise storage access level logic for document access. Users with project-level permissions can view and manage documents for those projects in other Adobe tools, even if they have "no access" in Workfront.
-
-If you have Adobe enterprise storage enabled in your Workfront environment, you can create both Adobe enterprise storage projects and legacy Workfront storage projects. 
-
-Legacy Workfront storage projects show an icon next to the project name whereever it displays in Workfront. Adobe enterprise storage projects do not show an icon.
+* **Legacy Workfront storage**: Projects, programs, and portfolios that use legacy Workfront storage follow standard Workfront access level logic for document access. When an access level has **No access** selected for documents, they are unable to see documents in Workfront or other Adobe products like Frame.io or Creative Cloud.
+* **Adobe enterprise storage**: Projects, programs, and portfolios that use Adobe enterprise storage follow Adobe enterprise storage access level logic for other Adobe products. When an access level as **No access** selected for documents, they are unable to see documents in Workfront, but they can still view and manage documents for those projects in other Adobe tools, such as Frame.io and Adobe Creative Cloud. This is because document access is determined by project-level permissions in Adobe enterprise storage, rather than Workfront access levels alone.
 
 
-### Specific behaviors environments that only use Adobe enterprise storage 
+If you have Adobe enterprise storage enabled in your Workfront environment, you can create both Adobe enterprise storage projects and legacy Workfront storage projects. Legacy Workfront storage projects show an icon next to the project name wherever it displays in Workfront. Adobe enterprise storage projects do not show an icon.
 
-If ESM, Documents access - you cannot change access levels to have no access or view access to document. They also always have the option to create, delete, and share. - esm only envs?
+[image of icon]
 
-Also if ESM, the option to never inherit document access permissions is no longer there. - esm only envs?
+
+### Environments using only Adobe enterprise storage
+
+You cannot modify document permissions at the access level for projects, programs, and portfolios that use Adobe enterprise storage. All access levels have edit access to documents. Project-level permissions determine document access in other Adobe tools.
+
+You cannot restrict document inheritance access.
 
 Document access cannot be restricted at the access level for ESM projects.- ESM only envs?
 
 project name also available outside of WF for ESM projects, programs, portfolios. templates
 
 
-Option 1
-This setting only applies within Workfront. Users with project-level permissions on enterprise storage projects can still view and manage documents for those projects in other Adobe tools. Learn more.
-Option 2
-This setting only applies within Workfront. If a user has project-level permissions on an enterprise storage project, they can manage and view related documents in other Adobe tools. Learn more.
+### Environments using only legacy Workfront storage
+
+No changes to document access levels or behavior.
 
 
 ## Projects
 
-Projects that use Adobe enterprise storage are available in other Adobe tools like Frame.io and Adobe Creative Cloud. 
-
-
-Users with project-level permissions can manage and view documents for this project in other Adobe tools.
+Users with project-level permissions can view and manage documents for projects in other Adobe products like Frame.io and Adobe Creative Cloud.
 
 Project names are also visible outside of Workfront for ESM projects.
 
+Financial data is not visible outside of Workfront for ESM projects.
+
 ## Tasks and issues
 
-Documents are stored at the project level but able to be shared to individual tasks and issues as needed. Users with task and issue access automatically in herit document access from the project. YOu cannot modify their level of access. They hava manage access or no access. 
+Documents are stored at the project level but able to be shared to individual tasks and issues as needed. Users with task and issue access automatically inherit document access from the project. YOu cannot modify their level of access. They have manage access or no access. 
