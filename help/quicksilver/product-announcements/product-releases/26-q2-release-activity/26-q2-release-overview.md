@@ -98,7 +98,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Quarterly</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Updated experience when single- or bulk-assigning tasks </a><p>[!BADGE Off schedule]{type=Neutral}</p><p> We have updated the Assignments section in the Edit Tasks box when editing single tasks or editing them in bulk. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">Updated experience when single- or bulk-assigning tasks </a><p>[!BADGE Off schedule]{type=Neutral}</p><p> We have updated the Assignments section in the Edit Tasks box when editing single tasks or editing them in bulk. </p>
         </td>
         <td><p>January 26, 2026</p></td>
         <td><p>Starting February 5, 2026</p></td>

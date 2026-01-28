@@ -26,7 +26,7 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 
 We have introduced a setting that allows you to show or hide record fields in the Details preview and page areas, based on the fields displayed in the table view.  
 
-You can choose whether to include or exclude fields that are hidden in the table view from the Details area of a record. When this setting is turned off, those hidden fields are not shown in the Details area. 
+You can choose whether to include or exclude fields that are hidden in the table view from the Details area of a record. When this setting is turned off, hidden fields are not shown in the Details area. 
 
 For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 
