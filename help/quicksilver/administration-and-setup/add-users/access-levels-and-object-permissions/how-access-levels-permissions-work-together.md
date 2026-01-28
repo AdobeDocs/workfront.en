@@ -1,5 +1,5 @@
 ---
-title: How Access Levels and Permissions Work Together
+title: How Legacy Access Levels and Permissions Work Together
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -11,7 +11,7 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
 ---
-# How access levels and permissions work together
+# How legacy access levels and permissions work together
 
 >[!NOTE]
 >
