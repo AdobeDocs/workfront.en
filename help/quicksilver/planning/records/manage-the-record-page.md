@@ -166,7 +166,7 @@ Consider the following when adding sections to a record page:
 
 * There is no limit to how many sections you can have on a page. 
 * You cannot have an empty section. You must have at least one field in a section. 
-* You can drag and drop fields from one section to another. For more information, see the section [Rearrange fields in the record preview or details page](#rearrange-fields-in-the-record-preview-or-details-page) in this article. 
+* You can drag and drop fields from one section to another. For more information, see the section [Manage fields in the record preview or details page](#manage-fields-in-the-records-details-tab) in this article. 
 * When you remove all the fields from a section, the section is automatically deleted and cannot be recovered. 
 
 To add a section to a record preview or page: 
@@ -199,7 +199,7 @@ To add a section to a record preview or page:
 
 1. In the **Details** tab of the record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![Add section icon](assets/add-section-icon.png) to add a section. 
 1. Click inside the section's name and replace **Untitled section** with a name, then click Enter. The fields displayed under the section are automatically part of the new section. 
-1. Start dragging and dropping fields to the new section, as described in the section [Rearrange fields in the record preview or details page](#rearrange-fields-in-the-record-preview-or-details-page) in this article. 
+1. Start dragging and dropping fields to the new section, as described in the section [Manage fields in the record preview or details page](#manage-fields-in-the-records-details-tab) in this article. 
 
 1. (Optional) Hover over the name of a section and click the **More** menu ![More menu](assets/more-menu.png). 
 
@@ -248,7 +248,7 @@ To add a section to a record preview or page:
    * The Workfront object is also removed from the record's connected field from Workfront Planning. 
    * The values for the Workfront lookup fields connected to the Planning record are also deleted.
 
-## Rearrange fields in the record's Details tab
+## Manage fields in the record's Details tab
 
 {{step1-to-planning}}
 
@@ -275,6 +275,15 @@ To add a section to a record preview or page:
     The **Details** tab of the record opens by default. 
 
    ![Details page](assets/details-page.png)
+
+1. <span class="preview">(Optional and conditional) Depending on which fields you want to display in the Details page, do one of the following:</span>
+
+   <div class="preview">
+
+   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
+
+   </div> 
 
 1. In the record **Details** tab, click the **grab** icon ![Grab icon](assets/grab-icon.png) to the left of a field name, then drag and drop it in a desired spot. 
 
