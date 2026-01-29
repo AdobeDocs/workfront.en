@@ -30,18 +30,16 @@ Document access behaves differently depending on whether the project is on Adobe
 
 If you have Adobe enterprise storage enabled in your Workfront environment, you can create both Adobe enterprise storage projects and legacy Workfront storage projects. Legacy Workfront storage projects show an icon next to the project name wherever it displays in Workfront. Adobe enterprise storage projects do not show an icon.
 
-[image of icon]
+![legacy workfront storage icon next to project name](assets/legacy-project-icon.png)
 
 
 ### Environments using only Adobe enterprise storage
 
-You cannot modify document permissions at the access level for projects, programs, and portfolios that use Adobe enterprise storage. All access levels have edit access to documents. Project-level permissions determine document access in other Adobe tools.
+You cannot modify document permissions at the access level for projects, programs, and portfolios that use Adobe enterprise storage. 
+
+All access levels have edit access to documents. Project-level permissions determine document access in other Adobe tools.
 
 You cannot restrict document inheritance access.
-
-Document access cannot be restricted at the access level for ESM projects.- ESM only envs?
-
-project name also available outside of WF for ESM projects, programs, portfolios. templates
 
 
 ### Environments using only legacy Workfront storage
