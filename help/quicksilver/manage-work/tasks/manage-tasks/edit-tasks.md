@@ -22,13 +22,13 @@ exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
 </div>
 -->
 
-<!--<div class="preview"> 
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div> 
 
 You can edit information on tasks that you have created, or that you have Contribute or Manage permissions to.
 
@@ -370,7 +370,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
 Editing assignments is different in the Edit Task box depending on which environment you choose.
 
-#### Edit tasks in the Production environment
+#### Edit the Assignments area in the Production environment
 
 1. Begin editing your task as described above.
 1. Click **Assignments** in the left panel.
@@ -534,7 +534,7 @@ Editing assignments is different in the Edit Task box depending on which environ
       >* Reassign the work item to active resources. 
       >* Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
 
-   1. (Optional) Indicate whether an assignee is the primary assignee on the task, by hovering over their name and clicking **Make Primary**. A team cannot be the primary assignee of a task. 
+   1. (Optional) Hover over an assignee's name, then click **Make Primary** to indicate whether an assignee is the primary assignee or the owner of the task. A team cannot be the primary assignee of a task. 
    1. (Optional) Update the following fields: 
 
       <table style="table-layout:auto"> 
@@ -669,7 +669,7 @@ Editing assignments is different in the Edit Task box depending on which environ
 
 <div class="preview">
 
-#### Edit tasks in the Preview environment
+#### Edit the Assignments area in the Preview environment
 
 >[!TIP]
 >
@@ -695,7 +695,7 @@ Editing assignments is different in the Edit Task box depending on which environ
    >* Reassign the work item to active resources. 
    >* Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
 
-1. (Optional) Indicate whether an assignee is the primary assignee on the task, by hovering over their name, then clicking **Make Primary**.
+1. (Optional) Hover over an assignee's name, then click **Make Primary** to indicate whether an assignee is the primary assignee or the owner of the task. A team cannot be the primary assignee of a task.
 1. (Optional) Update the following fields: 
 
    <table style="table-layout:auto"> 

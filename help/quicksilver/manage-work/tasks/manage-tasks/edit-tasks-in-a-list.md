@@ -11,15 +11,13 @@ exl-id: 2af81907-3657-459e-b780-65983e224ca8
 
 <!-- Audited: 10/2025 -->
 
-<!--
-
 <div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
 
 You can edit task information in a list of tasks by editing the fields displayed in the list. For information about other ways to edit tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -552,7 +550,7 @@ Editing multiple tasks at the same time differs depending on what environment yo
 
 <div class="preview">
 
-#### Edit tasks in bulk in the Preview environment
+### Edit tasks in bulk in the Preview environment
 
 {{step1-to-projects}}
 
