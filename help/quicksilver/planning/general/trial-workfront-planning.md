@@ -138,10 +138,11 @@ To review and accept the legal agreement, do one of the following:
 
 * **Between March 2 - May 1, 2026**: 
 
-    You are granted the following permissions to the data available in the **Best practice workspaces** tab in the  **Planning Trial** area:
+    You are granted the following permissions to the workspaces in the Planning area during the free trial: 
 
-    * All System Administrators have Manage permissions to the Best practice workspaces tab in the Planning area.
-    * All other users have View permissions to the Best practice workspaces tab in the Planning area.
+    * All System Administrators have Manage permissions to the Workspaces tab.
+    * All other users have View permissions to the Workspaces tab, but the System Administrator can grant them Manage permissions to workspaces.
+    * All users, including the System Administrator, have View permissions to the Best practice workspaces tab in the Planning area.
 
 * **After May 1, 2026:**
 

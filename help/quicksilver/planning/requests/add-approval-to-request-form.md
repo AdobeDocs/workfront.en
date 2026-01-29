@@ -132,9 +132,7 @@ Consider the following when adding approval rules:
 * You can add one or several approvers to an approval rule.
 * If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
 * If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
-* If a team is set as an approver, only one decision is required from the team.
-
-For more information about adding approvals, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
+* If a team is set as an approver, only one decision is required from one member of the team.  
 
 To set approval rules for a request form:
 
@@ -143,24 +141,24 @@ To set approval rules for a request form:
 
    The Settings tab displays.
    
-1. To begin configuring approval rules, click Approvals ![Approvals icon](assets/approvals-icon-on-form.png) in the left navigation.
+1. To begin configuring approval rules, click **Approvals** ![Approvals icon](assets/approvals-icon-on-form.png) in the left panel.
 
-1. (Optional) If you want to set a default approval process, add at least one user or team to the **Approvers** field of the Default approval rule area, then click the **Only one decision is required** checkbox if you want the record to be created after any one of the default approvers has approved it.  
+1. (Optional) If you want to set a default approval process, add at least one user or team to the **Approvers** field of the **Default approval rule** area, then click the **Only one decision is required** checkbox if you want the record to be created after any one of the default approvers has approved it.  
 
    ![Default approval rule area](assets/default-approvers.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
-1. (Optional) For each additional approval rule, do the following:
+1. (Optional) Start adding approval rules. For each  approval rule, do the following:
 
    1. Click **Add approval rule**
-   1. Click the placeholder title "Untitled approval rule" and enter a name for the approval rule.
+   1. Click the placeholder title **Untitled approval rule** and enter a name for the approval rule.
    1. Click **Select a field** and select the field that activates the rule.
    1. Select the operator for the rule. Operators vary based on the type of field.
    1. If the selected operator requires a value, click the plus icon and add one or more values.
-   1. (Optional) Add more conditions using AND or OR by clicking Add condition and configuring the additional condition as in steps C-E.
-   1. In the Actions area of the approval rule, in the **Approvers** field, add at lease one user or team to be set at the approver when the condition is met.
-   1. 1. (Conditional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox.
+   1. (Optional) Click **Add condition** to add more conditions and connect them by **And** or **Or** statements by configuring the additional conditions as in steps C-E.
+   1. In the **Actions** area of the approval rule, in the **Approvers** field, add at lease one user or team to be set at the approver when the condition is met.
+   1. (Conditional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox.
 
 1. Click **Save** to save the approval rules.
 1. (Optional) Click **Publish** if you have never shared the request form before.

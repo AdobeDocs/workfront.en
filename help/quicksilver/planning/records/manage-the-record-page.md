@@ -269,12 +269,6 @@ To add a section to a record preview or page:
 
     ![Details box](assets/details-box.png) 
 
-1. (Optional) Click the **Open in new tab** icon ![Open details box in a new tab icon](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
-
-    The **Details** tab of the record opens by default. 
-
-   ![Details page](assets/details-page.png)
-
 1. <span class="preview">(Optional and conditional) Depending on which fields you want to display in the Details page, do one of the following:</span>
 
    <div class="preview">
@@ -282,12 +276,23 @@ To add a section to a record preview or page:
    * Select the **Show table fields** setting to view only fields that are not hidden in the record's table view. This is the default setting
    * Deselect the **Show table fields** setting to view field all fields from the record's table view, including the hidden ones. 
 
+   >[!TIP]
+   >
+   >The **Show table fields** setting is available only in the record's Details preview box. It is not available in the record's Details page.
+
+
    <!--replace with this when they fix the UI text:
    * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
    * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
    -->
 
    </div> 
+
+1. (Optional) Click the **Open in new tab** icon ![Open details box in a new tab icon](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
+
+    The **Details** tab of the record opens by default. 
+
+   ![Details page](assets/details-page.png)
 
 1. In the record **Details** tab, click the **grab** icon ![Grab icon](assets/grab-icon.png) to the left of a field name, then drag and drop it in a desired spot. 
 
