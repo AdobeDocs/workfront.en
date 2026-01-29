@@ -16,6 +16,50 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Configure fields displayed in a record's Details page 
+
+>[!NOTE]
+>
+>Preview: January 29, 2026
+>Production fast release: February 12, 2026
+>Production for everyone: April 16, 2026
+
+We have introduced a setting that allows you to show or hide record fields in the Details preview and page areas, based on the fields displayed in the table view.  
+
+You can choose whether to include or exclude fields that are hidden in the table view from the Details area of a record. When this setting is turned off, hidden fields are not shown in the Details area. 
+
+For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+## New Planning connection field for Original request  
+
+>[!NOTE]
+>
+>Preview: January 29, 2026
+>Production fast release: February 12, 2026
+>Production for everyone: April 16, 2026
+
+You can now add the "Original request" connection field to a record type. When a record is created by submitting a Planning request form, the name of the original request populates the Original request connected field.  
+
+Prior to this enhancement, the you could view and access the original request that created the record only from the Requests area.  
+
+For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+## Create approval rules for requests in Workfront Planning 
+
+>[!NOTE]
+>
+>Preview: January 29, 2026
+>Production fast release: February 12, 2026
+>Production for everyone: April 16, 2026
+
+To make request approvals more dynamic and flexible, we've added the ability to create approval rules. These rules allow requests to be routed to different approvers based on field values in the request. 
+
+For example, if a request form has the field "Campaign type," a rule can be created that sends the request to one person when the field has the value "Digital", and a different person when it has the value "Print."
+
+Approval rules are created on the request form.
+
+For information and instructions, see [Add approval rules to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md#add-approval-rules-to-a-request-form) in the article Add an approval to a request form in Adobe Workfront Planning.
+
 ## Display emails in user typeahead fields in Workfront Planning 
 
 >[!NOTE]
