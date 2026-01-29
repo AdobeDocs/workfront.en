@@ -1,5 +1,5 @@
 ---
-title: New Licenses Overview
+title: Licenses Overview
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -11,7 +11,7 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
 ---
-# New licenses overview
+# Licenses overview
 
 <!-- Audited: 12/2023 -->
 
