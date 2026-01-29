@@ -129,12 +129,12 @@ For example, if a request form has the field "Campaign type," a rule can be crea
 
 Consider the following when adding approval rules:
 
-   * You can add one or several approvers to an approval rule.
-   * If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
-   * If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
-   * If a team is set as an approver, only one decision is required from the team.
+* You can add one or several approvers to an approval rule.
+* If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
+* If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
+* If a team is set as an approver, only one decision is required from the team.
 
-   For more information about adding approvals, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
+For more information about adding approvals, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
 
 To set approval rules for a request form:
 
