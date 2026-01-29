@@ -1,5 +1,5 @@
 ---
-title: New Access Levels Overview
+title: Access Levels Overview
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -11,7 +11,7 @@ feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
 ---
-# New access levels overview
+# Access levels overview
 
 >[!NOTE]
 >
