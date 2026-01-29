@@ -222,11 +222,11 @@ For an example of connecting record types and records, see [Example of connectin
       
     * An **Original request** object type from the **Workfront Object Types** section. 
 
-        The original request connection field created will display the name of the submitted Planning request that created the object. 
+        The original request connection field created will display the name of the submitted Planning request that created the object. The name of the request is also visible in the **Subject** field of the request.
 
         >[!NOTE]
         >
-        >You must create request forms and make them public in order to submit Planning requests to create records in Workfront Planning. 
+        >You must create request forms and publish them in order to submit Planning requests to create records in Workfront Planning. 
         >
         >For information, see the following articles: 
         >* [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)

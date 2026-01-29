@@ -231,7 +231,7 @@ You can add up to 500 fields (or columns) in a table view.
     >
     >The number of hidden fields displays to the left of the Fields icon in the toolbar.
     >
-    ><span class="preview">By default, hidden fields do not display in the **Details** page of a record. For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
+    ><span class="preview">By default, hidden fields do not display in the record's **Details** preview box. For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
 
 
 1. Click the **Fields** icon and enable the toggle associated with the fields you want to display in the columns of the table. All fields display by default.

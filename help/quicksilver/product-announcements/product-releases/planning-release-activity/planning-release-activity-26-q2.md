@@ -16,7 +16,7 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Configure fields displayed in a record's Details page 
+## Configure fields displayed in a record's Details preview box 
 
 >[!NOTE]
 >
@@ -24,9 +24,9 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 >Production fast release: February 12, 2026
 >Production for everyone: April 16, 2026
 
-We have introduced a setting that allows you to show or hide record fields in the Details preview and page areas, based on the fields displayed in the table view.  
+We have introduced a setting that allows you to show or hide record fields in a record's Details preview box, based on the fields displayed in the table view.  
 
-You can choose whether to include or exclude fields that are hidden in the table view from the Details area of a record. When this setting is turned off, hidden fields are not shown in the Details area. 
+With this new setting, you can choose whether to include or exclude fields that are hidden in the table view from the record's Details preview area. 
 
 For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 

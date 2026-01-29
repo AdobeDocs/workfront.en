@@ -65,7 +65,7 @@ For information about you connect record types, see [Connect record types](/help
 
             For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
 
-            You can view the original request in the Requests area of Workfront, <span class="preview">or in the Original request connection field in Workfront Planning.</span>. 
+            You can view the original request in the **Subject** field in the Requests area of Workfront, <span class="preview">or in the Original request connection field in Workfront Planning.</span>. 
 
     * You can connect Workfront Planning record types with the following object types from the following applications:
 

@@ -115,7 +115,7 @@ You can create a request form from the record type associated with the form<!--s
 1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Create request form** or **Manage request forms**, if you already have a form and you want to create additional ones.
 1. (Conditional) If you want to add another form, click **New request form**.
 
-   The Create request form box opens.
+   The **Create request form** box opens.
 
 1. In the Create request form box, update the name of the request form. By default, the name of the form is **Untitled form**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?--> 
 1. (Optional) Add a **Description** for the request form. 
@@ -164,7 +164,7 @@ Form details are divided into tabs.
    
    >[!NOTE]
    >
-   ><span class="preview">In the Preview environment, the Settings tab replaces the Configuration tab.</span>
+   ><span class="preview">In the Preview environment, the Settings tab replaced the Configuration tab.</span>
 <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### Set up Form details
