@@ -104,7 +104,7 @@ If you set your project's Condition Type to Manual instead of Progress Status, y
 
 1. Ensure that the **Condition Type** field is set to **Manual**. 
 
-   ![](assets/project-details-overview-select-condition.png)
+   ![Project details overview select condition](assets/project-details-overview-select-condition.png)
 
 1. In the **Condition** field, select from the following options the one that matches your understanding of whether the work associated with it is going smoothly or whether there are any delays:
 

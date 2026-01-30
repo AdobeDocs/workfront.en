@@ -100,15 +100,22 @@ The following must be in place before you can submit a request to a Workfront Pl
 
    For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
 * Records created by submitting request forms are connected to the original request. This connection cannot be removed. 
-* You can view both the records created and the request in the following areas: 
+* You can view both the records created and the requests used to create them in the following areas: 
    * Requests area in Workfront
    
    <div class="preview">
 
-   * Records in any record type page in the Original request connection field
-   * Record's Details preview box in the Original request connection field
+   * Record type pages in Workfront Planning
+   * A record's Details area in Workfront Planning
 
    </div>
+
+   >[!TIP]
+   >
+   ><span class="preview">You can view the request's name in the Subject field in the Requests area of Workfront or the Original request connection field in Workfront Planning. </span>
+
+
+   
 * Submitted requests display in the Requests area of Workfront.
 * Submitted Planning requests are visible only in the new requesting experience. You cannot see Planning requests in the legacy request experience. 
    For information, see [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md). 
@@ -161,7 +168,7 @@ The following must be in place before you can submit a request to a Workfront Pl
    
       For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-   * <span class="preview">You can add the Original request connection field to a record type in Planning that displays the name of the original request. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). </span>
+   * <span class="preview">You can add the Original request connection field to a record type in Planning to display the name of the original request that created a record. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). </span>
    * The request is visible only to the owner, approver, and the people who have at least View permissions to the workspace. Workfront administrators can view all requests submitted to any workspace in the system. 
 
    * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.

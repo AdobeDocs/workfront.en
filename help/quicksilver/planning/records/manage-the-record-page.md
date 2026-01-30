@@ -276,9 +276,11 @@ To add a section to a record preview or page:
    * Select the **Show table fields** setting to view only fields that are not hidden in the record's table view. This is the default setting
    * Deselect the **Show table fields** setting to view field all fields from the record's table view, including the hidden ones. 
 
+   </div>
+
    >[!TIP]
    >
-   >The **Show table fields** setting is available only in the record's Details preview box. It is not available in the record's Details page.
+   ><span class="preview">The **Show table fields** setting is available only in the record's Details preview box. It is not available in the record's Details page.</span>
 
 
    <!--replace with this when they fix the UI text:
@@ -290,7 +292,7 @@ To add a section to a record preview or page:
 
 1. (Optional) Click the **Open in new tab** icon ![Open details box in a new tab icon](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
 
-    The **Details** tab of the record opens by default. 
+    The record **Details** page opens in a new tab. 
 
    ![Details page](assets/details-page.png)
 

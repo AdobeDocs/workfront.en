@@ -76,7 +76,17 @@ For information about you connect record types, see [Connect record types](/help
             * Programs
             * Companies
             * Group
+        
+        <div class="preview">
 
+        * Adobe Workfront:
+
+            * Original request
+
+                The Original request connection field displays the name of the original request that creates a record after a request form is submitted for Workfront Planning. The request's name is visible in the Subject field of the request in Workfront. 
+
+        </div>
+        
         * Adobe Experience Manager Assets:
 
             * Images
