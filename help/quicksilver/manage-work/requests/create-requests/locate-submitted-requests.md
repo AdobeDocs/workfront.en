@@ -11,10 +11,17 @@ exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 ---
 # View submitted requests
 
-You can view the requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront:
+You can view the requests that you or someone else submitted, or requests you started but you never finished submitting. The unfinished requests are saved as drafts. 
+
+You can locate submitted requests in the following areas of Adobe Workfront:
 
 * The Requests area of Workfront
-* the My Requests widget in Home
+* The My Requests widget in Home
+
+The Requests area displays the following requests, depending on how you choose to view it:
+
+* Workfront requests when you use the legacy experience
+* Workfront as well as Planning requests when you use the new experience. 
    
    >[!NOTE]
    >
@@ -101,16 +108,16 @@ To view requests that you or other users have submitted in the new requesting ex
    For instructions, see [Create or edit views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 1. (Optional) Check the status of a request by checking the Status column. The following statuses are available in the new requesting experience:
 
-   * Draft: This request has not yet been submitted.
-   * Pending Review: (Planning only) This request has approvers, and none of the approvers have opened the request. 
-   * In Review: (Planning only) This request has approvers and at least one approver has opened the request, but no decision has been made. 
-   * Rejected: (Planning only) This request has approvers and has been rejected.
-   * In Progress: 
-      * Workfront Workflow: The request has been converted and the work is ongoing.
-      * Workfront Planning: The request completion is mapped to a specific Planning field, and the field value does not yet match the completion value. 
+   * **Draft**: This request has not yet been submitted.
+   * **Pending Review**: (Planning only) This request has approvers, and none of the approvers have opened the request. 
+   * **In Review**: (Planning only) This request has approvers and at least one approver has opened the request, but no decision has been made. 
+   * **Rejected**: (Planning only) This request has approvers and has been rejected.
+   * **In Progress**: 
+      * Workfront requests: The request has been converted and the work is ongoing.
+      * Workfront Planning requests: The request completion is mapped to a specific Planning field, and the field value does not yet match the completion value. 
 
          For more information, see [Set up Configuration details](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) in the article Create and manage a request form in Adobe Workfront Planning.
-   * Complete: The request is completed.
+   * **Complete**: The request is completed.
 
 >[!NOTE]
 >

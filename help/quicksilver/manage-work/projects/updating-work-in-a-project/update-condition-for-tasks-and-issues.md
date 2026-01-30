@@ -161,7 +161,7 @@ You can manually update the Condition of tasks and issues in various areas of Wo
      * Some Concerns
      * Major Roadblocks
 
-     ![](assets/condition-in-task-header-0925.png)
+     ![Condition in the task header](assets/condition-in-task-header-0925.png)
 
 <!--1. Click Enter to save the Condition.-->
 
@@ -179,7 +179,7 @@ You can manually update the Condition of tasks and issues in various areas of Wo
 
 1. Update the **Condition** of the issue or task inline, by double-clicking the existing condition and selecting a new value from the drop-down menu. 
 
-     ![](assets/condition-values-in-task-list-0925.png)
+     ![Condition values in the task list](assets/condition-values-in-task-list-0925.png)
 
      >[!NOTE]
      >

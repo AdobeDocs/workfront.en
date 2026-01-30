@@ -270,7 +270,7 @@ Assigning multiple tasks in bulk from a list differs depending on which environm
 1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
 
 
-### Assign multiple tasks in bulk from a list in the new experience
+#### Assign multiple tasks in bulk from a list in the new experience
 
 1. Go to a list of tasks that you want to assign in bulk.
 1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.

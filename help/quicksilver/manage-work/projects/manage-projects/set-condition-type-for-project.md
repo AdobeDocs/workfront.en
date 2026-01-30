@@ -85,7 +85,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    * Click the **More** menu ![More menu](assets/qs-more-menu.png) to the right of the project name, then click **Edit**.  
    * Click **Project Details** in the left panel.
 
-   ![](assets/update-condition-type-nwe-350x108.png)
+   ![Update condition type](assets/update-condition-type-nwe-350x108.png)
 
 1. In the **Condition Type** field, choose one of the following:
 

@@ -90,7 +90,7 @@ By default, project timelines are automatically recalculated daily when the proj
 > An example of a complex project might be a project with multiple dependencies, large number of tasks, several cross-project predecessors, or multiple task indentations. 
 > Workfront places a warning to the right of the project name on the project page to advise users that the project timeline must be recalculated manually. Only users with Manage permissions to the project can manually recalculate the timeline. 
 >
->   ![](assets/project-warning-to-manually-recalculate-timeline.png)
+>   ![Project warning to recalculate timeline](assets/project-warning-to-manually-recalculate-timeline.png)
 >
 
 * [Automatic recalculation of project timelines](#automatic-recalculation-of-project-timelines) 
@@ -177,7 +177,7 @@ You can recalculate the timeline of a project in Workfront from the project page
 
    Go to a project list or report and select one or several projects, then click the **More** icon ![More menu](assets/qs-more-menu.png) at the top of the list.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Recalculate expressions timeline with finances drop-down](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >

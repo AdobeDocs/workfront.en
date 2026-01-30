@@ -532,11 +532,13 @@ Click its name to open the details page and add information there.
 
 ## Create records by submitting a request form to a record type
 
-After someone creates a request form for a record type and shares a link to it with you, you can submit a request which creates a record for that record type. 
+After someone creates a request form for a record type and either publishes it to the Requests area or shares a link to the request form with you, you can submit a request which creates a record for that record type. 
 
 For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 Both Workfront users and users external to your organization can submit requests to Planning record types and create records, if they have a link to the request form.
+
+Only Workfront users can add requests that create records from the Requests area of Workfront. 
 
 For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
 

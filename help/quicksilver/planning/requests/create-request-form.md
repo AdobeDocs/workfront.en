@@ -184,13 +184,14 @@ Form details are divided into tabs.
    * Record fields available in the table view of the selected record type. <!--they are working on removing the limitation below-->
    
    * **Default section**: This is the default section break that Workfront applies to the request form. All record fields display in the **Default section** area. 
-   * **Subject** field: The field which will identify the request in Workfront. The configuration and the value of the Subject field are not editable.
+   * **Subject** field: The field which will identify the request in Workfront. The configuration and the value of the **Subject** field are not editable.
 
       >[!NOTE]
       >
       >* The **Subject** field requires a value when it is visible on the request form. However, you can remove the **Subject** field, if needed, and requestors will not see it on the form when they submit the request.   
-      >* When the Subject field is missing on a request form, but there is a Name field for the future record's name, the name of the request is automatically assigned the same name as the created record. 
-      >* When both the Subject and the Name fields are missing on the request form, the request is named using the following pattern: `< Record name > request form < Entry date of the request >`; the record is named **Untitled**. 
+      >* When the **Subject** field is missing on a request form, but there is a Name field for the future record's name, the name of the request is automatically assigned the same name as the created record. 
+      >* When both the **Subject** and the **Name** fields are missing on the request form, the request is named using the following pattern: `< Request form name > < Entry date of the request >`; the record is named **Untitled**.
+      >* <span class="preview">To view the **Subject** field's information in Workfront Planning, you can add the **Original request** connection field to the record type associated with the request form. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).</span> 
 
    * All the fields associated with the record type. 
 
