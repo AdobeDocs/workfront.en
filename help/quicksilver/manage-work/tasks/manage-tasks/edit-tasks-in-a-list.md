@@ -173,7 +173,7 @@ To edit tasks in a list and save changes automatically:
 
    Or
 
-   Click the **More** menu ![](assets/more-icon-task-list.png) to the right of the task name. 
+   Click the **More** menu ![More icon on the task list](assets/more-icon-task-list.png) to the right of the task name. 
 
 1. (Optional) Select from the following options:
 
@@ -293,7 +293,7 @@ To edit tasks in a list when selecting the Manual save Standard option:
 
    Or
 
-   Click the **More** menu ![](assets/more-icon-task-list.png). 
+   Click the **More** menu ![Mode icon on the task list](assets/more-icon-task-list.png). 
 
 1. (Optional) Select from the following options:
 
@@ -401,7 +401,7 @@ To edit tasks in a list when using the Manual save Timeline Planning option:
 
    Or
 
-   Click the **More** menu ![](assets/more-icon-task-list.png). 
+   Click the **More** menu ![More icon on the ask list](assets/more-icon-task-list.png). 
 
 1. Select from the following options:
 

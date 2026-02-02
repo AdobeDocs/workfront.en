@@ -95,7 +95,7 @@ Before you can associate a milestone with a task, the following must exist:
 
 After a milestone path is associated with a project, tasks can be assigned a milestone.
 
-1. Go to a task, then click the **More** icon ![](assets/more-icon.png) to the right of the task name, then **Edit**.
+1. Go to a task, then click the **More** icon ![More icon](assets/more-icon.png) to the right of the task name, then **Edit**.
 
    Tasks and Milestones have a 1:1 relationship. You cannot attach the same milestone to multiple tasks. Each task can be linked to a single milestone, or each milestone can be mapped to one task.
 
@@ -105,8 +105,8 @@ After a milestone path is associated with a project, tasks can be assigned a mil
 
    For information, see [Create or edit views in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md). 
 
-   ![](assets/amwt3.png)
+   ![Status icons](assets/amwt3.png)
 
 1. (Optional) Go to a list of projects, select the **Milestone** view to identify the progress of your milestone tasks.
 
-   ![](assets/milestone-view-project-list.png)
+   ![Milestone view project list](assets/milestone-view-project-list.png)

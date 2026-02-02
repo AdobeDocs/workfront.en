@@ -1,5 +1,5 @@
 ---
-title: "The Framework of Success: Model Your Campaign Hierarchy"
+title: "The Architecture of Success: Model Your Campaign Hierarchy"
 description: Learn how to translate your complex business processes into a scalable, governed campaign hierarchy using "Centers of Gravity" and a multi-workspace architecture. 
 feature: Workfront Planning
 role: User, Admin
@@ -9,7 +9,7 @@ hidefromtoc: yes
 hide: yes
 ---
 
-# The framework for success: model your campaign hierarchy 
+# The architecture of success: model your campaign hierarchy 
 
  <!--see the file again for additional comments from Seth and others-->
 
