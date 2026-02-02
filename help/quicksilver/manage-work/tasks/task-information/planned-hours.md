@@ -124,7 +124,7 @@ For information about creating reports, see [Create a custom report](../../../re
 <!--
 ### The Scheduling areas  {#the-scheduling-areas}
 
-![](assets/task-detail-expanded-in-scheduler-with-planned-hours-and-adjusted-daily-allocations-nwe-350x323.png)
+![Task detail expanded in scheduler with Planned Hours and Adjusted Daily allocations](assets/task-detail-expanded-in-scheduler-with-planned-hours-and-adjusted-daily-allocations-nwe-350x323.png)
 
 The Planned Hours for tasks and issues display in the Scheduling areas in the Planned Hours field.
 

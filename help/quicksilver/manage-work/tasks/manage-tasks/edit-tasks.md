@@ -156,7 +156,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 1. Click the task that you want to edit.
 1. (Conditional) To edit limited information about a task, click **Task Details** in the left panel.
 
-   ![](assets/nwe-task-details-expanded-350x273.png)
+   ![Task details expanded](assets/nwe-task-details-expanded-350x273.png)
 
    Consider editing information in the following areas in the Task Details section:
 
@@ -178,15 +178,15 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
    To edit information in the Details section, do the following:
 
-   1. (Optional) Click the **Collapse All** icon ![](assets/collapse-all-icon.png) in the upper-right corner to collapse all areas. 
-   1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. 
+   1. (Optional) Click the **Collapse All** icon ![Collapse all icon](assets/collapse-all-icon.png) in the upper-right corner to collapse all areas. 
+   1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![Right-pointing arrow](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. 
    1. For more information about editing information in the Task Details tab, see the following articles:
 
       * [Manage task information in the Task Details Overview area](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md) 
       * [Manage task finances in the Task Details section](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. (Optional) If there are no custom forms attached to the task, start typing the name of a form in the **Add custom form** field, then select it when it displays in the list, then click **Save Changes**.
-   1. (Optional) Click the **Export** icon ![](assets/export.png) to export the Overview and custom forms information to a PDF file, then click **Export**. Select from the following:
+   1. (Optional) Click the **Export** icon ![Export icon](assets/export.png) to export the Overview and custom forms information to a PDF file, then click **Export**. Select from the following:
 
       * Select all (displays only when there is at least one custom form attached)
       * Overview
@@ -194,15 +194,15 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
       The PDF file downloads to your computer.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![Export issue details selection box with Export button](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       For more information, see [Export custom forms and object details](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-1. (Conditional) To edit all information about the task, as a user with Manage permissions to the task, click the **More** menu ![](assets/more-icon.png) next to the name of the task, then click **Edit**.
+1. (Conditional) To edit all information about the task, as a user with Manage permissions to the task, click the **More** menu ![More icon](assets/more-icon.png) next to the name of the task, then click **Edit**.
 
    Or
 
-   From a list of tasks, select a task, then click the **Edit** icon ![](assets/edit-icon.png) at the top of the list.
+   From a list of tasks, select a task, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) at the top of the list.
 
    The Edit Task box opens.
 
@@ -235,7 +235,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 1. Begin editing your task as described above.
 1. Click **Task Name** in the left panel.
 
-   ![](assets/nwe-task-name-section-edit-task-box-350x122.png)
+   ![Task name section in Edit task box](assets/nwe-task-name-section-edit-task-box-350x122.png)
 
 1. Update the name of the task.  
 
@@ -246,7 +246,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 1. Begin editing your task as described above.
 1. Click **Overview** in the left panel.
 
-   ![](assets/nwe-overview-section-edit-task-box-350x257.png)
+   ![Overview section edit task box](assets/nwe-overview-section-edit-task-box-350x257.png)
 
 1. Update the following information about the task: 
 
@@ -837,7 +837,7 @@ You can define default custom forms to be automatically attached to tasks when t
 1. Begin editing the task as described above.
 1. Click **Custom Forms** in the left panel, or click the name of a custom form if it is already attached.
 
-   ![](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
+   ![Custom forms section edit task box](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
 
 1. Click **Add custom form** and select the custom form or forms that you want to associate with the task. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list.
 
@@ -856,7 +856,7 @@ You can define default custom forms to be automatically attached to tasks when t
 1. Begin editing your task as described in the [Edit tasks](#Edit2) section in this article.
 1. Click **Finance** in the left panel.
 
-   ![](assets/nwe-finance-section-edit-task-box-350x298.png)
+   ![Finance section edit task box](assets/nwe-finance-section-edit-task-box-350x298.png)
 
 1. Update the following fields:
 
@@ -899,7 +899,7 @@ You can define default custom forms to be automatically attached to tasks when t
 1. Begin editing your task as described in the [Edit tasks](#Edit2) section in this article. 
 1. Click **Settings** in the left panel.
 
-   ![](assets/nwe-settings-section-edit-task-box-350x304.png)
+   ![Settings section on the Edit task box](assets/nwe-settings-section-edit-task-box-350x304.png)
 
 1. Update the following fields: 
 
@@ -986,7 +986,7 @@ You can edit a limited amount of information in the task header.
 Your system or group administrator can customize the fields you see in the task header. For more information, see [Customize object headers using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 
-![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
+![Task header without approvals and with dependencies](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
 The following fields are included in the task header, by default:
 

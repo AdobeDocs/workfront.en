@@ -119,7 +119,7 @@ When assigning users to work, their availability according to their schedules af
       >
       >Do not use the **Assigned to** field. This finds only the Primary Owner for the task instead of any of the users that could be assigned to them.
 
-1. Select the tasks for which you want to modify assignments, then click the **Edit** icon ![](assets/edit-icon.png). 
+1. Select the tasks for which you want to modify assignments, then click the **Edit** icon ![Edit icon](assets/edit-icon.png). 
 
    Editing assignments on tasks differs depending on which environment you choose. 
 

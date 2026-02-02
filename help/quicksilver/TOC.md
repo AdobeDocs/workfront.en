@@ -2104,7 +2104,10 @@ feature-set: Workfront
   * Adobe Workfront Planning best practices {#adobe-workfront-planning-best-practices}
     * [Adobe Workfront best practices: article index](planning/best-practices.md/best-practices-article-index.md)
     * [The 30-day launchpad: roll out your strategic home ](planning/best-practices.md/30-day-launchpad.md)
-    * [The framework for success: model your campaign hierarchy](planning/best-practices.md/model-campaign-hierarchy.md)
+    * [The architecture of success: model your campaign hierarchy](planning/best-practices.md/model-campaign-hierarchy.md)    
+    * [The marketing calendar you've been missing: no decks, just clarity](planning/best-practices.md/marketing-calendar.md)
+    * [Playbook: managed scaling, after the first win](planning/best-practices.md/playbook-how-to-scale.md)
+    * [The bridge: connecting strategic intent to projects](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
   * Adobe Workfront Planning architecture {#adobe-workfront-planning-architecture}
     * [Architecture: article index](planning/architecture/architecture-information.md)
     * [Workspaces overview](planning/architecture/workspaces-overview.md)
