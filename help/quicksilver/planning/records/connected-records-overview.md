@@ -17,14 +17,23 @@ exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
 
 You can connect Adobe Workfront Planning records to one another or to objects from other applications. 
 
-This article describes considerations that you must take into account when connecting records in Adobe Workfront Planning. 
+This article describes considerations that you must take into account when connecting records in Workfront Planning. 
 
 For information about how you can connect records to one another or to another object, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+
+## Prerequisites
+
+You must connect the following before you can connect records in Workfront Planning: 
+
+* Two record types
+* A record type with an object from another application
+
+For more information, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). 
 
 
 ## Considerations about connecting records
 
-* After you connect record types, the connected record types display as linked record fields in the table of the record types they are linked from and on the records' pages. 
+* After you connect record types, the connected record types display as connection fields in the table of the record types they are linked from and on the records' pages. 
 * You can browse and add records and objects of the linked record and object types from the linked record fields. 
 * You can add fields (lookup fields) of the linked record types in the table of the record type you are linking from. 
 
@@ -43,14 +52,17 @@ For information about how you can connect records to one another or to another o
 
 ## Areas where you can connect records 
 
-You can connect records to other records or to objects from another application in the following areas: 
+You can connect records manually or automatically in Workfront. 
+
+### Connect records manually
+
+You can manually connect records to other records or to objects from another application in the following areas: 
 
 * You can connect records from Workfront Planning to Workfront objects, Experience Manager Assets objects, or GenStudio Brands in the following areas of a Planning record:
 
   * The connected record fields in the table view of a record type in Planning.
-  * The record's preview or details page in the connected record fields on the Details tab.
-  * The record's preview or details page on the Connections tab.
-  * The record's page in a Connected records page tab of a connected record.
+  * The connected record fields in a record's preview or details page. 
+  * The record's preview or details page on the Connected records page of a record.
 
 * You can connect Workfront objects to Workfront Planning records in the following areas of Workfront: 
     
@@ -58,3 +70,25 @@ You can connect records to other records or to objects from another application 
     * A Planning connection field on a Workfront object's custom form. 
 
     For information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+
+### Connect records automatically
+
+After connecting record types to one another or a record type to an object type from another application, you can automatically connect records and objects in the following ways: 
+
+* Using automations
+
+  You can create records or Workfront objects from a Planning record where you configure automations. 
+
+  When a condition you define is met, a record or an objects is created and it is automatically connected to the record from which you are triggering the automation. 
+  
+  For information, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md). 
+
+* Using request forms to create records
+
+  You can create records when you submit a Planning request. The request and the record are automatically connected. 
+
+  >[!NOTE]
+  >
+  >You cannot disconnect a record from its original request. 
+
+  For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
