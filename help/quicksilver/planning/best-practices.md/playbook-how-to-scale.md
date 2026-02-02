@@ -131,10 +131,6 @@ Once a pattern of "known needs" emerges across teams, the enterprise can move to
 
  
 
---- 
-
- 
-
 ## 5. Scaling Mechanics: The Pattern-Based Growth Model 
 
 Applying this philosophy requires a thoughtful approach to data structure. To avoid "Governance Sprawl," resist the urge to build global fields for every individual request. Instead, use the **Field Maturity Path** to let real-world usage guide your enterprise standards: 
@@ -162,10 +158,6 @@ Because WFP does not currently have a native "Archive" feature for fields, retir
 3.  **Form Removal**: **This is the most critical step.** Remove the deprecated field from all **Record Forms**. This prevents new data from being entered while keeping the old data visible in existing table views or reports if needed. 
 
 4.  **The "Sunset" Period**: Keep the deprecated field (prefixed and off-form) for 30-60 days to ensure no data was missed during migration. After this period, if the data is fully reconciled in the Global Lane, the local field can be deleted from the workspace. 
-
- 
-
---- 
 
  
 
@@ -313,12 +305,12 @@ Success in a managed scaling model requires more than just tool configuration; i
 
 ## 10. Checklist for Scaling the Next Team 
 
-- [ ] **Identify the Champion**: Who is the "Process Owner" or "Champion" of this new team? 
+* [ ] **Identify the Champion**: Who is the "Process Owner" or "Champion" of this new team? 
 
-- [ ] **Define the "Local Delta"**: What 2-3 fields does this team need that the Global standard doesn't currently provide? 
+* [ ] **Define the "Local Delta"**: What 2-3 fields does this team need that the Global standard doesn't currently provide? 
 
-- [ ] **Map to Global Lanes**: Which existing Global fields can satisfy 80% of their needs? 
+* [ ] **Map to Global Lanes**: Which existing Global fields can satisfy 80% of their needs? 
 
-- [ ] **Grant Global Visibility**: Give them Read-Only access to the relevant Primary Workspaces and the Global Taxonomy workspace on Day 1. 
+* [ ] **Grant Global Visibility**: Give them Read-Only access to the relevant Primary Workspaces and the Global Taxonomy workspace on Day 1. 
 
-- [ ] **Establish the Handoff**: How does their work "feed" the relevant Primary Workspaces? (e.g., via a Global Record Type or a specific lookup). 
+* [ ] **Establish the Handoff**: How does their work "feed" the relevant Primary Workspaces? (e.g., via a Global Record Type or a specific lookup). 
