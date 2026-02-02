@@ -9,6 +9,41 @@ feature: Get Started with Workfront
 
 With Workflow Optimization Agent, you can use natural language to interact with Workfront Workflow and Workfront Planning. 
 
+## Access requirements
+
+<!--Add info about how to qualify for agent orchestrator stuff-->
+
++++ Expand to view access requirements for the functionality in this article.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p>
+  </tr> 
+ </tbody> 
+</table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+## Prerequisites
+
+* Your Workfront administrator must have enabled AI Assistant for your organization.
+
+    For more information, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) in the article AI Assistant overview.
+* Your Workfront administrator must have enabled AI Assistant for your access level.
+
+   For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+
+
 ## General-use foundational skills
 
 These features are available to all users whose organization has a signed Adobe AI Agreement on file.
