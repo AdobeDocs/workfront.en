@@ -9,6 +9,11 @@ feature: Get Started with Workfront
 
 With Workflow Optimization Agent, you can use natural language to interact with Workfront Workflow and Workfront Planning. 
 
+>[!NOTE]
+>
+>Workflow Optimization Agent is part of the Adobe Experience Cloud Agent Orchestrator.
+>For more information on Agent Orchestrator, see [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator).
+
 ## Access requirements
 
 <!--Add info about how to qualify for agent orchestrator stuff-->
@@ -26,6 +31,14 @@ With Workflow Optimization Agent, you can use natural language to interact with 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td><p>Standard</p>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td><p>For any functionality outside of the Foundational skills, your organization must have purchased Adobe Agent Orchestrator.</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td><p>You must have the appropriate permissions to interact with any object through the Workfront Optimization Agent.</p> <p>For example, to receive information about a project through the Workfront Optimization Agent, you must have at least View permission to that project.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -46,7 +59,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## General-use foundational skills
 
-These features are available to all users whose organization has a signed Adobe AI Agreement on file.
+>[!IMPORTANT]
+>
+>These features are available to all users whose organization has a signed Adobe AI Agreement on file.
 
 ### Product knowledge
 
