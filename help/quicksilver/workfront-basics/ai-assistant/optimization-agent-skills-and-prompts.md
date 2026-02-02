@@ -100,7 +100,7 @@ Use natural language filters to replace status, pre-built views to help you filt
    * need a list of projects in the Q4 Campaigns portfolio under the "Digital" category.
    * Show me projects managed by users in the Creative Services company who are Project Managers.
 * Tasks
-   * Get me all tasks assigned to Jamie Wahlin.
+   * Get me all tasks assigned to Joan Harris.
    * Show me tasks in the "Design" category assigned to the UX team.
    * I need tasks assigned to Copywriters in the Holiday Promotions program.
 * Issues
@@ -244,7 +244,7 @@ Use natural language filters to replace status, pre-built views to help you filt
 
 * Apply the 'Marketing Launch' approval template to asset with the name 'Spring Campaign Video.
 * Create a new approval template with 3 stages: Creative Review, Legal, and Final Approval. 
-* Add Rayna and Clark to stage 1.
-* Edit the 'Product Launch' template to add James to the final approval stage.
-* Create a template called 'Urgent Review' with one stage and assign it to Paul Vaughn.
-* Update the 'Creative Review' template by removing Helen and adding Lauren to stage 2.
+* Add Julia Santos and Shane Baker to stage 1.
+* Edit the 'Product Launch' template to add Elizabeth Peterson to the final approval stage.
+* Create a template called 'Urgent Review' with one stage and assign it to Olivia Kim.
+* Update the 'Creative Review' template by removing Rick Kuvec and adding Karen Sterling to stage 2.
