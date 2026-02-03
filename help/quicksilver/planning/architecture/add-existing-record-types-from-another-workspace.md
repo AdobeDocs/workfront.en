@@ -124,7 +124,7 @@ And
 1. Click **Continue**.
 1. In the **Choose the record type** box, click the card for the record type that you want to add from an existing workspace, then click **Add**.
 
-   The record type is added to the secondary workspace that you selected and the **global record type** icon ![](assets/global-icon.png) displays on the record type's card. 
+   The record type is added to the secondary workspace that you selected and the **global record type** icon ![Global record icon primary workspace](assets/global-icon.png) displays on the record type's card. 
     
    The following things occur:
 

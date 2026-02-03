@@ -124,7 +124,7 @@ For information about what objects can have a custom form, see [Custom forms ove
    >
    >You must complete all required fields on the form before you can save the form. The name of a required field is followed by an asterisk.
    >
-   >![](assets/nwe-required-custom-field.png)
+   >![Required custom field](assets/nwe-required-custom-field.png)
 
    When someone changes data in another object that is referenced by calculated custom fields in your object, the changes are not reflected automatically in your object. For information about manually updating all calculated custom fields in your object, see [Recalculate all calculated custom fields for an object](#recalculate-all-calculated-custom-fields-for-an-object) in this article.
 
@@ -171,7 +171,7 @@ The following sections describe how you can recalculate custom expressions for o
    * Program
    * Document
 
-1. Click the **More** menu ![](assets/more-icon.png) to the right of the object's name, then click **Recalculate Expressions**.
+1. Click the **More** menu ![More menu](assets/more-icon.png) to the right of the object's name, then click **Recalculate Expressions**.
 
    This recalculates all custom fields on the object's form.
 
@@ -211,9 +211,9 @@ To recalculate custom expressions from a list of objects:
    * Portfolios
    * Programs
    * Expenses
-1. Click the **More** menu ![](assets/more-icon.png), then click **Recalculate Custom Expressions**. 
+1. Click the **More** menu ![More menu](assets/more-icon.png), then click **Recalculate Custom Expressions**. 
 
-![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+![Recalculate expressions timeline finances drop-down in project lists](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
 Workfront immediately calculates all custom fields for all the selected projects.
 Not all lists of all objects have this capability.
