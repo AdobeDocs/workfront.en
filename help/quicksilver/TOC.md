@@ -2184,6 +2184,7 @@ feature-set: Workfront
     * [Manage the table view](planning/views/manage-the-table-view.md)
     * [Manage the timeline view](planning/views/manage-the-timeline-view.md)
     * [Manage the calendar view](planning/views/manage-the-calendar-view.md)
+    * [Manage the list view](planning/views/manage-the-list-view.md)
     * [Delete record views](planning/views/delete-record-views.md)
     * [Duplicate record views](planning/views/duplicate-record-views.md)
   * Adobe Workfront Planning notifications {#adobe-workfront-planning-notifications}
