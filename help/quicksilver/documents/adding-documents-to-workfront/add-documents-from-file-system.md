@@ -9,17 +9,11 @@ exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
 ---
 # Add documents to Adobe Workfront from your file system
 
-You can add documents to projects, tasks, or issues in the following areas in Adobe Workfront:
 
-* The global Documents area 
-* The Documents area for a Workfront object
-* A connected card on a Workfront board
+add docs from file system in 2 diff areas
 
-You can also upload new versions of documents and add links to documents from third-party cloud vendors, such as Google Drive, Dropbox, and Microsoft OneDrive. For information about adding new versions of documents, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md). For information about adding documents from third-party cloud vendors, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-There are no restrictions on the types and sizes of files that you can upload to Workfront. However, in order to be successful, the upload must be completed within five minutes and you must have adequate storage space available.
 
-If you need information about uploading new versions of a document to Workfront, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md).
 
 ## Access requirements
 
@@ -50,23 +44,22 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Add documents to the new Documents area
+## Add documents to Adobe Workfront from your file system in the legacy document area
 
-You can add new documents to Workfront from the file system on your workstation. 
+You can add documents to projects, tasks, or issues in the following areas in Adobe Workfront:
 
-<!--get upload parameters if any-->
+* The global Documents area 
+* The Documents area for a Workfront object
+* A connected card on a Workfront board
 
-To add a document:
+You can also upload new versions of documents and add links to documents from third-party cloud vendors, such as Google Drive, Dropbox, and Microsoft OneDrive. For information about adding new versions of documents, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md). For information about adding documents from third-party cloud vendors, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-1. Go to the project <!--, task, or issue--> where you want to add a new document.
-1. Click the **Documents** tab, then click the **New** > **Document**.
-or
-Drag and drop files directly from your file manager into the document list.
+There are no restrictions on the types and sizes of files that you can upload to Workfront. However, in order to be successful, the upload must be completed within five minutes and you must have adequate storage space available.
 
-<!--add screen when stable-->
+If you need information about uploading new versions of a document to Workfront, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md).
 
 
-## Add documents to Workfront in the legacy documents area 
+### Add documents to Workfront in the legacy documents area 
 
 You can add new documents to Workfront from the file system on your workstation. You can also link documents from third-party applications such as Google Drive and SharePoint.
 
@@ -119,6 +112,7 @@ To add a document:
      </tr> 
     </tbody> 
    </table>
+
 
 ## Add documents to Workfront in the new documents area 
 
@@ -174,7 +168,37 @@ To add a document:
     </tbody> 
    </table>
 
-## Document security <!-- need to check and see if this is accurate for ESM-->
+## Document security for enterprise storage 
+
+The Workfront site prevents viruses and other malicious content from entering the site via documents in the following ways:
+
+* [How Workfront detects corrupted files](#how-workfront-detects-corrupted-files) 
+* [File name restrictions](#file-name-restrictions)
+
+### How Workfront detects corrupted files
+
+Document scanning is enabled for your organization only upon request.
+
+If document scanning is enabled, files under 25 MB are scanned when they are uploaded. Files over 25 MB are not scanned.
+
+If Workfront detects a corrupted document, a message appears indicating that the file is corrupt. You also receive an email notification when Workfront detects potentially malicious content and the file is slated for removal.
+
+Corrupted files are removed within 24 hours of detection unless you remove it manually. If you delete a corrupted file, Workfront tracks this action as an update. If you allow Workfront to remove it, then no updates are recorded.
+
+### File name restrictions
+
+Because this integration is built using Adobe Enterprise Storage, there are some enforced structure and naming conventions to be aware of when managing projects and documents.
+
+* Object names must be unique and can't be duplicated
+* Adobe Enterprise Storage requires unique names for peer objects with the same parent in the hierarchy tree
+* Documents can't have the same name if they belong to the same project
+* Document names can't contain any of the following special characters: `\ / : * ? " | < >`
+* Document names are limited to 255 characters maximum
+
+With these limitations in mind, Workfront automatically renames objects or documents as needed to prevent conflicts.
+
+
+## Document security for legacy Workfront storage
 
 The Workfront site prevents viruses and other malicious content from entering the site via documents in the following ways:
 
