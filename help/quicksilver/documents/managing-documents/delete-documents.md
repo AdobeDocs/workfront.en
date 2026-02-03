@@ -46,7 +46,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Delete a document in the legacy documents area
 
-If your organization is on Workfront Storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront Storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 To delete a document:
 
@@ -64,7 +64,7 @@ To delete a document:
 
 ## Delete a document in the new documents area
 
-If your organization uses Enterprise Storage, you will see the new documents area when you access documents in Workfront. For more information about Enterprise Storage, see [Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 To delete a document:
 

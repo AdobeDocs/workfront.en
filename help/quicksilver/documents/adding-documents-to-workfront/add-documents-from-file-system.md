@@ -9,9 +9,12 @@ exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
 ---
 # Add documents to Adobe Workfront from your file system
 
+Workfront currently has two versions of the Documents area: the legacy documents area and the new documents area. The version that your organization uses depends on whether your organization is on Workfront Storage or Enterprise Storage. For more information about Workfront Storage and Enterprise Storage, see [Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-add docs from file system in 2 diff areas
+Adding documents to Workfront differs depending on which version of the documents area your organization uses. 
 
+* [Add documents to Adobe Workfront from your file system in the legacy document area](#add-documents-to-adobe-workfront-from-your-file-system-in-the-legacy-document-area)
+* [Add documents to Workfront in the new documents area](#add-documents-to-workfront-in-the-new-documents-area)
 
 
 
@@ -35,7 +38,9 @@ add docs from file system in 2 diff areas
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>Edit access to Documents</p> </td> 
+   <td> <p>Legacy Workfront Storage: Edit access to Documents</p> 
+   <p>Enterprise storage: Edit access to Documents is enabled by default and cannot be changed</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -45,6 +50,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 +++
 
 ## Add documents to Adobe Workfront from your file system in the legacy document area
+
+If your organization is on legacy Workfront Storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront Storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
 You can add documents to projects, tasks, or issues in the following areas in Adobe Workfront:
 
@@ -116,74 +123,49 @@ To add a document:
 
 ## Add documents to Workfront in the new documents area 
 
-You can add new documents to Workfront from the file system on your workstation. You can also link documents from third-party applications such as Google Drive and SharePoint.
 
+You can add documents to projects, tasks, or issues using the enterprise storage model. For more information about Enterprise Storage, see [Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Functionality not currently supported in the new documents area:
+
+* Uploading documents to the global Documents area
+* Uploading new versions of documents and adding links to documents from third-party cloud vendors, such as Google Drive, Dropbox, and Microsoft OneDrive.
+* Requesting documents
+* Copying a link to folder
+* Checking out documents
+* Pasting images from clipboard
+* Adding Smart folders
+
+
+### Add documents to Workfront in the new documents area 
+
+<!--
 >[!IMPORTANT]
 >
 >* You can upload up to 150 documents at one time.
 >* There is no limit on the file size. 
 >* Document downloads are limited to 4GB.
+-->
 
 To add a document:
 
 1. Go to the project, task, or issue where you want to add a new document.
-1. Click the **Documents** tab, then click the **Add New** drop-down menu.
+1. Click the **Documents** in the left panel.
+1. Click **New** on the right side of the page or drag and drop the file into the dropzone that appears. You can add multiple documents at one time.
 
-   ![Add new document](assets/add-new-doc.png)
+   ![Add a new document](assets/add-new-doc-new-doc.png)
 
-1. Depending on the type of document you want to add, do any of the following: 
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Upload documents from your file system on your workstation</td> 
-      <td> 
-       <ol> 
-        <li value="1">From the <strong>Add New</strong> drop-down menu, select <strong>Document.</strong></li> 
-        <li value="2"> <p>Browse to and select the document that you want to add from the file system on your workstation.<br></p> <p>You can select multiple documents by pressing the Shift key as you select additional files.</p> </li> 
-        <li value="3">Click <strong>Open</strong>.</li> 
-       </ol> 
-       <p><b>NOTE</b>: You can also drag and drop files directly from your file manager into the document list.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Upload documents from a third-party application such as Google Drive or SharePoint</td> 
-      <td> 
-       <ol> 
-        <li value="1"> <p>From the <strong>Add New</strong> drop-down menu, select <strong>From &lt;name_of_third-party_application&gt;</strong>.</p> <p>For example, to upload a document from Google Drive, click <strong>From Google Drive</strong>.</p> </li> 
-        <li value="2"> <p>Follow the prompts to select the document in the third-party application.<br></p> <p>For more information about linked documents, see <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">Link documents from external applications</a>.</p> </li> 
-       </ol> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Request a document from another Workfront user</td> 
-      <td> 
-       <ol> 
-        <li value="1">From the <strong>Add New</strong> drop-down menu, select <strong>Request a Document</strong>.</li> 
-        <li value="2">In the <strong>Who are you requesting it from</strong> box, type the name of the user from whom you are requesting the document.</li> 
-        <li value="3">In the <strong>Tell them what you're requesting</strong> box, type the name of the document.</li> 
-        <li value="4"> <p>Click <strong>Send Request</strong>.</p> <p>Your request displays on your Documents tab.</p> <p>For more information about requesting documents, see <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Request a Document</a>.</p> </li> 
-       </ol> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+If you need information about uploading new versions of a document to Workfront, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md).
 
 ## Document security for enterprise storage 
 
-The Workfront site prevents viruses and other malicious content from entering the site via documents in the following ways:
-
-* [How Workfront detects corrupted files](#how-workfront-detects-corrupted-files) 
-* [File name restrictions](#file-name-restrictions)
+Workfront prevents viruses and other malicious content from entering the site via documents in the following ways:
 
 ### How Workfront detects corrupted files
 
-Document scanning is enabled for your organization only upon request.
+Document scanning is automatically enabled for objects using the enterprise storage model.
 
-If document scanning is enabled, files under 25 MB are scanned when they are uploaded. Files over 25 MB are not scanned.
-
-If Workfront detects a corrupted document, a message appears indicating that the file is corrupt. You also receive an email notification when Workfront detects potentially malicious content and the file is slated for removal.
-
-Corrupted files are removed within 24 hours of detection unless you remove it manually. If you delete a corrupted file, Workfront tracks this action as an update. If you allow Workfront to remove it, then no updates are recorded.
+All files under 500 MB are scanned when they are uploaded. Files over 500 MB are not scanned. If Workfront detects a corrupted document, it is automatically removed.
 
 ### File name restrictions
 
@@ -200,10 +182,7 @@ With these limitations in mind, Workfront automatically renames objects or docum
 
 ## Document security for legacy Workfront storage
 
-The Workfront site prevents viruses and other malicious content from entering the site via documents in the following ways:
-
-* [How Workfront detects corrupted files](#how-workfront-detects-corrupted-files) 
-* [File name restrictions](#file-name-restrictions)
+Workfront site prevents viruses and other malicious content from entering the site via documents in the following ways:
 
 ### How Workfront detects corrupted files {#how-workfront-detects-corrupted-files}
 

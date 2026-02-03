@@ -14,7 +14,7 @@ The Document Details page lets you view, communicate about, and manage the prope
 
 ## Legacy document area
 
-If your organization is on Workfront Storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront Storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 
 
@@ -62,7 +62,7 @@ You can perform the following actions from the document details page if you are 
 
 ## New document area
 
-If your organization uses Enterprise Storage, you will see the new documents area when you access documents in Workfront. For more information about Enterprise Storage, see [Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 You can perform the following actions for documents from the Document Details page:
 
