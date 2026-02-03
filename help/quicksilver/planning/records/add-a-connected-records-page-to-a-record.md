@@ -281,7 +281,7 @@ When you create a connected records page for connected Planning records in the P
       * **Delete**
          For information, see [Delete record views](/help/quicksilver/planning/views/delete-record-views.md).
 
-         ![](assets/view-more-menu-projects-connected-records-page.png)
+         ![View more menu on Projects Connected records page](assets/view-more-menu-projects-connected-records-page.png)
 
          >[!NOTE]
          >
@@ -334,7 +334,7 @@ When you create a connected records page for connected Workfront projects, do th
       * **Delete**
          For information, see [Delete record views](/help/quicksilver/planning/views/delete-record-views.md).
 
-         ![](assets/view-more-menu-projects-connected-records-page.png)
+         ![View more menu on Projects Connected records page](assets/view-more-menu-projects-connected-records-page.png)
 
          >[!NOTE]
          >

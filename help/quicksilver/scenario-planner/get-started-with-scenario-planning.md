@@ -2,7 +2,6 @@
 title: Get Started with the Scenario Planner
 description: You can use the Adobe Workfront Scenario Planner to build enterprise-level plans that outline your company's overall strategic outcomes. You can define several initiatives for a plan and place them in various scenarios to find the optimal solution for executing the plan.
 author: Alina
-draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
 ---
