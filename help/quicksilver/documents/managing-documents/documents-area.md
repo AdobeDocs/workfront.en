@@ -12,7 +12,7 @@ exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 
 In the Documents area, you can organize, manage, and view metadata for documents uploaded to Adobe Workfront. You can also see the proof decision.
 
-Workfront currently has two versions of the Documents area: the legacy documents area and the new documents area. The version that your organization uses depends on whether your organization is on Workfront Storage or Enterprise Storage. For more information about Workfront Storage and Enterprise Storage, see [Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront currently has two versions of the Documents area: the legacy documents area and the new documents area. The version that your organization uses depends on whether your organization is on legacy Workfront storage or enterprise etorage. For more information about these storage types, see [Enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Legacy documents area
 

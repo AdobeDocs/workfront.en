@@ -9,7 +9,7 @@ exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
 ---
 # Add documents to Adobe Workfront from your file system
 
-Workfront currently has two versions of the Documents area: the legacy documents area and the new documents area. The version that your organization uses depends on whether your organization is on Workfront Storage or Enterprise Storage. For more information about Workfront Storage and Enterprise Storage, see [Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront currently has two versions of the Documents area: the legacy documents area and the new documents area. The version that your organization uses depends on whether your organization is on legacy Workfront storage or enterprise etorage. For more information about these storage types, see [Enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Adding documents to Workfront differs depending on which version of the documents area your organization uses. 
 
@@ -123,17 +123,16 @@ To add a document:
 
 ## Add documents to Workfront in the new documents area 
 
-
-You can add documents to projects, tasks, or issues using the enterprise storage model. For more information about Enterprise Storage, see [Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+You can add documents to projects, tasks, or issues using the enterprise storage model. For more information about enterprise storage, see [Enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Functionality not currently supported in the new documents area:
 
 * Uploading documents to the global Documents area
 * Uploading new versions of documents and adding links to documents from third-party cloud vendors, such as Google Drive, Dropbox, and Microsoft OneDrive.
 * Requesting documents
-* Copying a link to folder
+* Copying a link to a folder
 * Checking out documents
-* Pasting images from clipboard
+* Pasting images from the clipboard
 * Adding Smart folders
 
 
@@ -151,7 +150,7 @@ To add a document:
 
 1. Go to the project, task, or issue where you want to add a new document.
 1. Click the **Documents** in the left panel.
-1. Click **New** on the right side of the page or drag and drop the file into the dropzone that appears. You can add multiple documents at one time.
+1. Click **New** on the right side of the page or drag and drop the file into the drop zone that appears. You can add multiple documents at one time.
 
    ![Add a new document](assets/add-new-doc-new-doc.png)
 
