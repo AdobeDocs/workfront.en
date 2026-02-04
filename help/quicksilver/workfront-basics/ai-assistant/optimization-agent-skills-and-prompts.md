@@ -94,7 +94,9 @@ For more information on Catch me up, see [Catch up on work in Priorities](/help/
 
 ### Smart filters
 
-Use natural language filters to replace status, pre-built views to help you filter your work.
+Use natural language filters in Priorities to replace status, pre-built views to help you filter your work.
+
+For more information on using Smart Filters, see [Filter your work with Smart filters](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md) in the article Filter and group your work with Priorities.
 
 ## Workflow Insights agent
 
