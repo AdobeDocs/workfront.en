@@ -16,6 +16,22 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Improvements to global record types in secondary workspaces 
+
+>[!NOTE]
+>
+>Preview: February 5, 2026
+>Production fast release: March 12, 2026
+>Production for everyone: April 16, 2026
+
+We have improved visibility for the global record types added to a secondary workspace from a primary workspace. The improvements include the following:  
+
+* A slightly modified global icon that indicates that the record type was added from another workspace.  
+
+* An improved tooltip on the new icon that clearly identifies the workspace where the record type was created.  
+
+For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
+
 ## Configure fields displayed in a record's Details preview box 
 
 >[!NOTE]
