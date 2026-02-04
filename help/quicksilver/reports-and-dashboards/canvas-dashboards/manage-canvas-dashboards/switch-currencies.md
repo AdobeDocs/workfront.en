@@ -68,7 +68,7 @@ For more detail about the information in this table, see [Access requirements in
 
    >[!IMPORTANT]
    >
-   >The functionality described in this article applies only to native currency fields. If you have currency exchange rates set up  Support for custom currency fields is coming soon.
+   >The functionality described in this article applies only to native currency fields. Support for custom currency fields is coming soon.
 
 
 ## Set a default currency for a Canvas Dashboard
