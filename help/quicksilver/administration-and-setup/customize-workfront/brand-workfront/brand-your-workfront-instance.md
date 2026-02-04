@@ -3,7 +3,7 @@ title: Brand your Adobe Workfront Instance
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
-description: As a Workfront administrator, you can brand Workfront with logos in the login screen, top navigation area, and Main Menu. You can also change the background image and color of the login screen.
+description: Branding is no longer available for Adobe Workfront. This feature was deprecated as part of the onboarding of Workfront into Adobe Experience Cloud.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -19,8 +19,8 @@ exl-id: 94603393-bdea-4673-9256-08da14f6916e
 >
 >Branding is no longer available for Adobe Workfront. This feature was deprecated as part of the onboarding of Workfront into Adobe Experience Cloud.
 
-<!-- COMMENT OUT THE REST OF THE ARTICLE; update metadata description as well
--->
+<!-- 
+
 
 >[!IMPORTANT]
 >
@@ -50,7 +50,6 @@ You can also change the background image and color of the login screen:
 >
 >* Changing the login background image and color is not available if your organization's Workfront instance uses a custom SSO portal. See your network or IT administrator if you need more information.
 >
-><!-- or is enabled with Adobe IMS -->
 >
 >* A Workfront administrator or group administrator can also brand Workfront for certain groups and users using a layout template. Branding in a layout template overrides the system-level branding explained in this article. For instructions on branding in a layout template, see [Brand Adobe Workfront using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
 
@@ -134,8 +133,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >
    >This is not available if your organization's Workfront instance uses a custom SSO portal.
    >
-   ><!--  or is enabled with Adobe IMS -->   
    >
    >See your network or IT administrator if you need more information.
 
 1. Click **Save**.
+
+-->
