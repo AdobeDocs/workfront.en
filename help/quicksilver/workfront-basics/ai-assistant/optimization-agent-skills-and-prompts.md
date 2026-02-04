@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 ---
 # Workflow Optimization Agent (AI Assistant)
 
-With Workflow Optimization Agent, you can use natural language to interact with Workfront Workflow and Workfront Planning. 
+With Workflow Optimization Agent (WOA), you can use natural language to interact with Workfront Workflow and Workfront Planning. 
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 Consider the following when using Workflow Optimization Agent:
 
-* Because Workflow Optimization Agent is part of the Adobe Experience Platform Agent Orchestrator, data from your interactions with WOA are stored in Adobe Experience Platform, not in Workfront. Therefore, this data is not covered by Workfront BYOK agreements.
+* Because Workflow Optimization Agent is part of the Adobe Experience Platform Agent Orchestrator, data from your interactions with WOA are stored in Adobe Experience Platform, not in Workfront. Therefore, this data is not covered by Workfront Customer Managed Keys (BYOK) agreements.
                                              
 ## General-use foundational skills
 
@@ -125,6 +125,49 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 * "Show me the health of my active projects"
 * "Show me the health of this program"
 
+## Project Management functional agent
+
+### Create project from scratch or from identified template (Project CRUD)
+
+* Create a blank project called Q2 Innovation Sandbox starting March 10 and ending April 30. Set me as the owner.
+* Create a project called Lucent AI Launch – NA using the Integrated Marketing Campaign template. Start February 5 and set it to Current.
+* Create a project called Website Redesign – EMEA starting March 1 and ending June 15. It's high priority, owned by EMEA Marketing, sponsored by the VP of Marketing, budgeted at $250K with about 1,200 planned hours, focused on Europe with the goal of improving conversions.
+* For the Lucent AI Launch – NA project, move it to Q2, change the objective to driving free trials, push the finish to mid-April, increase the budget to $150K, and mark it as urgent.
+* Show me all current marketing projects finishing in Q2 that are high or urgent priority, sorted by earliest end date.
+* Delete the project called Q1 Test Campaign.
+
+### Identify the right template based on user prompt
+
+* We're launching a new product feature with a landing page, emails, paid ads, and social posts. Which project template should we use?
+* Create a project for a global marketing campaign with multiple channels and regional rollouts. (should suggest a template if provided more info)
+* For Website Redesign – EMEA project, recommend and attach the correct project template.
+
+### Customize task list of the selected template based on user prompt (Task CRUD, including predecessors)
+
+* Add a new task called Landing Page QA to the project and schedule it from April 22 to April 26.
+* Update the Design Review task so it finishes on April 18 and assign it to the creative team.
+* Remove the Print Asset Production task from the project.
+* Show me all tasks in this project that are not completed and are scheduled to start between April 1 and April 30.
+* Set Legal Approval as a predecessor of the Campaign Launch task.
+* Add a new task called Final Copy Polish scheduled from April 15 to April 16, move the Copy Review task to April 10, remove the Extra Review Round task, and set Final Copy Polish as a predecessor of Email Build.
+* During project creation flow try providing as much info as you can about deliverables that should ideally become tasks under the project.
+
+### Identify best matching job role assignments and estimated effort hours based on task title/description
+
+* For the project 'Design Landing Page for Product Launch', identify the appropriate job roles and recommended planned hours for all currently unassigned tasks.
+* I have several unassigned tasks, including 'Implement GA4 tracking for campaign site', 'Set up conversion events', and 'Validate analytics data'. Can you suggest the right job roles and estimated hours for each?
+* For the creative tasks 'Create 3 banner variants for EMEA display ads', 'Apply revisions', and 'Export final assets', assign the best job roles and estimate the required effort for each task.
+* Across the projects 'Q2 Product Launch', 'Website Redesign – EMEA', and 'Paid Media Campaign – NA', identify all unassigned tasks and assign the appropriate job roles with recommended planned hours for each.
+
+### Recommend best matching user assignments for the task based on users' job role and availability
+
+* Who is the best available user to assign to 'Design Landing Page Hero', considering who still has capacity today?
+* Who should be assigned to 'Backend API integration for campaign reporting', considering engineering role alignment?
+* For all unassigned tasks in this project, recommend the best users based on job role match and daily availability.
+* Recommend users for the tasks 'QA testing for website launch' and 'Content review', prioritizing users whose job roles match and who are not over-allocated today.
+
+
+
 ## Planning Functional agent
 
 ### Record creation, deletion, duplication, and restore
@@ -159,47 +202,6 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 * Show me the change history for the Summer Campaign record
 * Can you display who modified this project and what they changed?
 * I need to see all the updates made to this record in the last week
-
-## Project Management functional agent
-
-### Create project from scratch of from identified template (Project CRUD)
-
-* Create a blank project called Q2 Innovation Sandbox starting March 10 and ending April 30. Set me as the owner.
-* Create a project called Lucent AI Launch – NA using the Integrated Marketing Campaign template. Start February 5 and set it to Current.
-* Create a project called Website Redesign – EMEA starting March 1 and ending June 15. It's high priority, owned by EMEA Marketing, sponsored by the VP of Marketing, budgeted at $250K with about 1,200 planned hours, focused on Europe with the goal of improving conversions.
-* For the Lucent AI Launch – NA project, move it to Q2, change the objective to driving free trials, push the finish to mid-April, increase the budget to $150K, and mark it as urgent.
-* Show me all current marketing projects finishing in Q2 that are high or urgent priority, sorted by earliest end date.
-* Delete the project called Q1 Test Campaign – DO NOT USE.
-
-### Identify the right template based on user prompt
-
-* We're launching a new product feature with a landing page, emails, paid ads, and social posts. Which project template should we use?
-* Create a project for a global marketing campaign with multiple channels and regional rollouts. (should suggest a template if provided more info)
-* For Website Redesign – EMEA project, recommend and attach the correct project template.
-
-### Customize task list of the selected template based on user prompt (Task CRUD, including predecessors)
-
-* Add a new task called Landing Page QA to the project and schedule it from April 22 to April 26.
-* Update the Design Review task so it finishes on April 18 and assign it to the creative team.
-* Remove the Print Asset Production task from the project.
-* Show me all tasks in this project that are not completed and are scheduled to start between April 1 and April 30.
-* Set Legal Approval as a predecessor of the Campaign Launch task.
-* Add a new task called Final Copy Polish scheduled from April 15 to April 16, move the Copy Review task to April 10, remove the Extra Review Round task, and set Final Copy Polish as a predecessor of Email Build.
-* During project creation flow try providing as much info as you can about deliverables that should ideally become tasks under the project.
-
-### Identify best matching job role assignments and estimated effort hours based on task title/description
-
-* For the project 'Design Landing Page for Product Launch', identify the appropriate job roles and recommended planned hours for all currently unassigned tasks.
-* I have several unassigned tasks, including 'Implement GA4 tracking for campaign site', 'Set up conversion events', and 'Validate analytics data'. Can you suggest the right job roles and estimated hours for each?
-* For the creative tasks 'Create 3 banner variants for EMEA display ads', 'Apply revisions', and 'Export final assets', assign the best job roles and estimate the required effort for each task.
-* Across the projects 'Q2 Product Launch', 'Website Redesign – EMEA', and 'Paid Media Campaign – NA', identify all unassigned tasks and assign the appropriate job roles with recommended planned hours for each.
-
-### Recommend best matching user assignments for the task based on users' job role and availability
-
-* Who is the best available user to assign to 'Design Landing Page Hero', considering who still has capacity today?
-* Who should be assigned to 'Backend API integration for campaign reporting', considering engineering role alignment?
-* For all unassigned tasks in this project, recommend the best users based on job role match and daily availability.
-* Recommend users for the tasks 'QA testing for website launch' and 'Content review', prioritizing users whose job roles match and who are not over-allocated today.
 
 ## System Designer functional agent
 
