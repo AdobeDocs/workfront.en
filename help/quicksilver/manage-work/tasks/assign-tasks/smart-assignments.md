@@ -57,12 +57,12 @@ You can view smart assignments in the following areas where you can assign tasks
 
 <!--* The Assignments field in the New Task box, when adding a task to a project
 
-  ![](assets/smart-assignments-new-task-modal.png)-->
+  (![Smart assignments new task]assets/smart-assignments-new-task-modal.png)-->
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
 
-  ![](assets/smart-assignments-in-home-nwe-350x216.png)
+  ![Smart assignments in Home](assets/smart-assignments-in-home-nwe-350x216.png)
 -->
 
 * Workload Balancer in the Assigned this to area when you assign a task or issue
@@ -79,7 +79,7 @@ The task smart assignments calculation works in <span class="preview">two phases
 
 <span class="preview">Depending on which algorithm finds the smart assignment, the assignments are listed under two separate sections in the Assignments field.</span> For information, see [Make smart assignments](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md). 
 
-![](assets/smart-assignments-task-list.png)
+![Smart assignments in tasks list](assets/smart-assignments-task-list.png)
 
 <div class="preview">
 

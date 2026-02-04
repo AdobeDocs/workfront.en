@@ -9,8 +9,6 @@ role: Developer
 ---
 # What's new in API version 21
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 >[!IMPORTANT]
 >
 >This API version change features a breaking change that may affect your existing API calls. This is due to the fact that API version 21 uses Event Subscriptions version 2.
@@ -674,8 +672,6 @@ A Rate object represents a billing rate in Workfront.
 
 A Role object (job role) represents a functional capacity or a skill set a user might fill, such as Designer or Product Manager.
 
-<div class="preview">
-
 <table>
   <col/>
   <col/>
@@ -703,8 +699,6 @@ A Role object (job role) represents a functional capacity or a skill set a user 
     </tr>
   </tbody>
 </table>
-
-</div>
 
 ### ScheduledReport (SCHREP)
 

@@ -96,5 +96,5 @@ Consider the following when using task priorities:
 
 1. Go to the task whose priority you want to modify. 
 1. Click **Task Details** in the left panel. 
-1. Click the **Edit** icon ![](assets/qs-edit-icon.png), then in the **Overview** area, select a value for the **Priority** field. 
+1. Click the **Edit** icon ![Edit icon](assets/qs-edit-icon.png), then in the **Overview** area, select a value for the **Priority** field. 
 1. Click **Save** **Changes**.

@@ -20,9 +20,9 @@ Dependency loops happen when you have two or more tasks that depend on each othe
 
 If you try to make Task 1 a predecessor to Task 2, you get a dependency loop error because you cannot start Task 1 until Task 2 has been completed, but task 2 cannot be started until Task 1 is finished.
 
-![](assets/dependency-loop-error-message-350x209.png)
+![Dependency loop error message](assets/dependency-loop-error-message-350x209.png)
 
-![](assets/dependency-loop-in-task-list-nwe-350x97.png)
+![Dependency loop in task list](assets/dependency-loop-in-task-list-nwe-350x97.png)
 
 ## Considerations about dependency loops
 

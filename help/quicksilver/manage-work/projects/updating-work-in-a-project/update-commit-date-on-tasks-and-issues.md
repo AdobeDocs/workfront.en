@@ -137,13 +137,13 @@ Updating the Commit Date is identical for tasks and issues.
 
 1. (Conditional and optional) If your Workfront or group administrator added the Commit Date to your task or issue header, click the **Commit Date** field in the header, then select a date from the calendar. If the Commit Date is not in the header, proceed with the following steps. 
 
-   ![](assets/commit-date-task-header.png)
+   ![Commit date in task header](assets/commit-date-task-header.png)
 
 1. Click **Task Details** or **Issue Details** in the left panel. 
 1. Click **Overview** to expand it.
 1. Update the **Commit Date** field.
 
-   ![](assets/task-commit-date-edit-highlighted-details-page.png)
+   ![Task commit date edit highlighted in the details page](assets/task-commit-date-edit-highlighted-details-page.png)
 
 1. Click **Save Changes**.
 
@@ -153,15 +153,15 @@ Updating the Commit Date is identical for tasks and issues.
 
      Instead, the Commit Date and the Projected Completion Date of the task or issue become the same.
 
-     ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
+     ![Task projected completion date in details highlighted](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
    * The Project Owner is notified in a Workfront in-app notification that you have suggested a new Commit Date for the task or issue. 
    * The Project Owner is notified in the Updates section that you have suggested a new Commit Date and they can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested. 
 
-      ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
+      ![Project owner notification in update stream that commit date affects the project timeline](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
       
 
-     <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+     <!--![Project owner notification in update stream that commit date affects the project timeline](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
      For information about the notifications and updates that are triggered by this change, see the section "Notifications and updates triggered by changing the Commit Date" in the article [Commit Date overview](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 

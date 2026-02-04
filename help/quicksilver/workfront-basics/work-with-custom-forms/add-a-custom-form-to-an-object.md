@@ -108,7 +108,7 @@ You can add a custom form to an object in two ways:
 ### Add a custom form to an object by editing the object {#add-a-custom-form-to-an-object-by-editing-the-object}
 
 1. Go to the object where you want to add the custom form.
-1. Click the **More** menu ![](assets/more-icon.png), then click **Edit** ![](assets/edit-icon.png).  
+1. Click the **More** menu ![More menu](assets/more-icon.png), then click **Edit** ![Edit icon](assets/edit-icon.png).  
 1. Click **Custom Forms** > **Add Forms**, then select up to 10 forms from the drop-down menu.
 
 1. (Optional) Update the information in the editable fields on the custom form.
@@ -152,11 +152,11 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 1. Navigate to a list of objects.
 1. Select multiple objects in the list.  
 
-1. Click the **More** menu ![](assets/more-icon.png), then click the **Edit** icon  ![](assets/edit-icon.png).
+1. Click the **More** menu ![More menu](assets/more-icon.png), then click the **Edit** icon  ![Edit icon](assets/edit-icon.png).
 
    Or
 
-   Click the **Edit** icon ![](assets/edit-icon.png) at the top of the list.
+   Click the **Edit** icon ![Edit icon](assets/edit-icon.png) at the top of the list.
 1. Click **Custom Forms** in the left panel.
 1. in the **Make a selection** drop-down menu, select the form you want to associate with all the selected objects.
 

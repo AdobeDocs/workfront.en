@@ -93,7 +93,7 @@ If you want to indicate that a task's Duration is 3 Elapsed Day, you would type 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
 -->
 
-![](assets/duration-elapsed-days-tasks-nwe-350x282.png)
+![Duration elapsed days on tasks](assets/duration-elapsed-days-tasks-nwe-350x282.png)
 
 Consider the following when indicating the Duration of a task:
 

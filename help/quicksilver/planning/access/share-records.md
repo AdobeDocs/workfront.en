@@ -192,7 +192,7 @@ As a workspace manager, you can adjust permissions to individual records.
 
    >[!TIP]
    >
-   >You cannot remove individual entities from the Inherited permissions list.
+   >You cannot remove individual entities from the Inherited permissions list. <!--test this!-->
 
 1. (Optional and conditional) If you want to share the record with specific entities and give them a different access to the record type than they already have for the workspace, do the following:
 
@@ -218,6 +218,7 @@ As a workspace manager, you can adjust permissions to individual records.
    >* If users have Contribute or Manage permissions to the workspace and the record type, they will keep Manage permissions to the record. The View permission is dimmed. <!--this is not dimmed at this time, Lilit to check-->
    >* You cannot give users a lesser permission to the record if they have Contribute or higher to the record type. 
    > For more information, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
+   >* When you share a record with a user, their primary job role <span class="preview">and their email</span> also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email. 
 
 1. To give users who do not have permissions to the workspace access to view a record, in the **Grant access to this view** field, start typing the name of a user, a group, team, company, or job role, then click it when it displays in the list. 
 

@@ -75,12 +75,9 @@ You can delete requests in the Requests area of Workfront, or in the My Requests
 
       For more information on the My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. In the Requests list or the My Requests widget, hover over the request or draft that you want to delete.
+1. In the **Requests** list or the **My Requests** widget in Home, hover over the request or draft that you want to delete, then click the **More** menu ![More menu](assets/more-menu.png) 
 
-   A three-dot More menu appears.
-   ![](assets/more-menu.png) 
-
-1. Click the **More** menu to the right of the request or draft name, then click **Delete**. 
+1. Click **Delete** 
 
      Or
 

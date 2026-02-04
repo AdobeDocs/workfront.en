@@ -181,13 +181,21 @@ For more detail about the information in this table, see [Access requirements in
 
 You can disconnect a connected card from its Workfront object, and the card remains on the board as an ad hoc card that you can edit.
 
-To disconnect at the board level:
+>[!NOTE]
+>
+>If you disconnect a connected card on a dynamic board, it will reappear when you refresh the board because this board type pulls in all tasks and issues from a specific project.
+>
+>If you disconnect a connected card from any other board type that has an intake column, the card will reappear in the intake column when you refresh the board if the connected task or issue is not yet marked complete.
+>
+>In both of these scenarios, after a refresh you will have two cards for the same task or issue: an ad hoc card and a connected card.
+
+To disconnect a card at the board level:
 
 1. Access the board.
 1. Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the connected card and select **[!UICONTROL Disconnect]**.
 1. Click **[!UICONTROL Disconnect]** on the confirmation message.
 
-To disconnect at the card level:
+To disconnect a card at the card level:
 
 1. Access the board and open the connected card.
 1. Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) in the Connection area of the card details, and select **[!UICONTROL Disconnect]**.

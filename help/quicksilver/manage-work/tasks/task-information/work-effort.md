@@ -124,15 +124,15 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 ## Enable using Work Effort instead of Planned Hours
 
-1. Go to a project and click the **More** menu ![](assets/more-icon.png), then click **Edit**.  
+1. Go to a project and click the **More** menu ![More icon](assets/more-icon.png), then click **Edit**.  
 1. Click **Task Settings**, then select the option**Use Work Effort to automatically calculate task Planned hours**. This is deselected by default.
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![Work effort on projects](assets/nwe-work-effort-on-projects-350x182.png)
 
    For more information about enabling the use of Work Effort on a project, see the "Tasks Settings" section in the [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md) article. 
 
 1. Click **Tasks** on the left panel , then click the name of a task to access it. 
-1. Click the **More** menu ![](assets/more-icon.png), then click **Edit**. Ensure the task has a Simple Duration Type.
+1. Click the **More** menu ![More icon](assets/more-icon.png), then click **Edit**. Ensure the task has a Simple Duration Type.
 
    >[!TIP]
    >
@@ -140,7 +140,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 1. In the **Overview** area, click the Work Effort drop-down menu to correct the amount of effort needed to complete the task.
 
-   ![](assets/work-effort-on-edit-task-page-350x239.png)
+   ![Work effort on Edit Task page](assets/work-effort-on-edit-task-page-350x239.png)
 
    For more information about updating the Work Effort field on a task, see the following articles:
 

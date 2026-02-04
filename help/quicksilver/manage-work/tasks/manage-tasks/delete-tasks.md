@@ -168,9 +168,9 @@ Consider the following:
 1. Click the project name that contains the task you want to delete.
 1. Click **Tasks** in he left panel. 
 1. Click the name of the task you want to delete.
-1. Click the **More** icon ![](assets/qs-more-menu.png)in the upper-right corner.
+1. Click the **More** icon ![More menu](assets/qs-more-menu.png)in the upper-right corner.
 
-   ![](assets/delete-tasks-task-level-nwe-350x225.png)
+   ![Delete tasks at the task level](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. Click **Delete Task**.
 1. If the deletion is allowed, click **Delete**.

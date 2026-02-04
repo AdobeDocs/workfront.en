@@ -1,8 +1,7 @@
 ---
-title: Export custom forms and object details
-description: Export custom forms and object details
+title: Export Custom Forms and Object Details
+description: You can export the Overview and the custom form information from the Details section of an object to a PDF file. You can then print or share the PDF with other users.
 author: Alina
-draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
 ---
@@ -119,7 +118,7 @@ Exporting information from the Details section of an object is identical for all
 
    You can also select **Select all** if you want to export the Overview area and all the custom forms.
 
-   ![](assets/export-custom-form-button-menu.png)
+   ![Export custom form button](assets/export-custom-form-button-menu.png)
 
    >[!TIP]
    >

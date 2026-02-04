@@ -69,7 +69,7 @@ Smart assignments are available in most locations where you can make assignments
    <!--For issues, the smart assignments display in the following sections: 
       * **Users and teams**
       * **Job roles**
-        ![](assets/smart-assignments-issue-header.png)-->
+        ![Smart assignments issue header](assets/smart-assignments-issue-header.png)-->
 
    Smart assignments display in the following sections<!--, depending on which phase of the algorithm's calculation identified the assignments-->: 
 

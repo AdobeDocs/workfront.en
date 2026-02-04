@@ -32,7 +32,7 @@ The following features can impact the Critical Path of a project:
      >When a task's successor date doesn't directly impact the date of their dependent tasks or the project's dates, the successor task isn't on the Critical Path. 
      >
      >
-     >![](assets/successor-not-on-critical-path-350x150.png)     >
+     >![Successor not on critical path](assets/successor-not-on-critical-path-350x150.png)     >
      >
 
    * When a subtask is identified as a Critical Path task, the parent task is also identified as a Critical Path task if the Projected Start Date and parent task's time is the same as that of the subtask.

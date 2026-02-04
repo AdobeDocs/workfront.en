@@ -60,7 +60,7 @@ When the tasks update, their parent objects (parent tasks or the project) update
 
 1. Click  **Project** **Settings**.
 
-   ![](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
+   ![Update type field on project edit box](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
 
 1. In the **Update Type** field, select whether you want Workfront to calculate the timeline of the project automatically daily, when there is a change, or if you want the project manager to calculate it manually.
 
@@ -75,7 +75,7 @@ When the tasks update, their parent objects (parent tasks or the project) update
 
      When you update a task or the project and trigger a timeline recalculation, all available dates are immediately displayed, allowing you to continue working. On projects with more than 100 tasks, dates that require longer calculations are dimmed.
 
-     ![](assets/dates-dimmed-when-insline-editing-350x146.png)
+     ![Dates dimmed when inline editing](assets/dates-dimmed-when-insline-editing-350x146.png)
 
      This indicates that the recalculation is not yet finished, and the dates are subject to change. 
    

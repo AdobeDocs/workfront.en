@@ -193,13 +193,13 @@ For more information, see [Access requirements in Workfront documentation](/help
 ## Convert a task to a project
 
 1. Go to the task that you want to convert to a project.
-1. Click the **More** icon ![](assets/more-icon.png), then **Convert to Project**. 
+1. Click the **More** icon ![More icon](assets/more-icon.png), then **Convert to Project**. 
 1. Choose either the following options:
 
    * **New Project**, to create a project without using a template
    * A template in the **Select From Templates** section
 
-     ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![Convert task to project template option drop-down menu](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. Click **Continue** on the notification that appears.
 1. In the **Convert to Project** box, specify the following:

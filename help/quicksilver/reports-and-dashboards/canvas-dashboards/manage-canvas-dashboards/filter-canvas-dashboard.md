@@ -173,17 +173,3 @@ All users with access to a dashboard can apply a dashboard prompt to a Canvas Da
 1. Click the **Close** icon ![Close icon](assets/close-icon.png) in the upper-right corner to hide the panel.
 
 
-## Filter a dashboard by currency type
-
-You can toggle between different currency types at the dashboard level. Reports that contain currency fields will update to reflect the selected currency type.
-
->[!NOTE]
->
->Currency fields can be locked at the report level. If a currency field is locked, the currency type for that report will not change when you change the currency type for the dashboard.
-
-To change the currency type for the dashboard,
-
-1. Click the currency drop-down menu in the upper-right corner of the dashboard details page.
-1. Select the desired currency type from the list.
-
-    ![change currency drop down](assets/filter-by-currency.png)

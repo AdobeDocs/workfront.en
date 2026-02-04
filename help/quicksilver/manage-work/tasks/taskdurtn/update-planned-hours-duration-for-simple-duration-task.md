@@ -85,13 +85,13 @@ To edit the Planned Hours and Duration of a task with a Simple Duration Type in 
 1. In a task list, click the name of the task for which you want to change the duration type.
 1. Do one of the following:
 
-   * Click the **More** icon ![](assets/qs-more-icon-on-an-object.png) next to the name of the task, click **Edit**, then **Assignments**. 
+   * Click the **More** icon ![More icon on an object](assets/qs-more-icon-on-an-object.png) next to the name of the task, click **Edit**, then **Assignments**. 
    * Click the **Assigned to** or the name of the assignments in the Assignments area of the task header, then click **Advanced**.
 
 1. Enter a total value for the **Planned Hours** for all the assignments, for example, 10 hours. The total number of Planned Hours is distributed equally between all the resources assigned to the task.
 1. (Optional) Manually adjust the Planned Hours of each resource assigned to the task. The total number of Planned Hours for the task updates to reflect the new hours individually assigned to your resources.
 1. Enter a value for the task **Duration**, for example 2 Days.
 
-   ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
+   ![Advanced assignments simple duration multiple resources](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
 
 1. Click **Save**.

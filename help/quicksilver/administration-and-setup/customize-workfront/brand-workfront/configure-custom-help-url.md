@@ -13,7 +13,7 @@ exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
 
 If you create a custom internal help site containing information about how your organization uses Workfront, you can configure the Main Menu Help icon to go to that site.
 
- ![Custom help button](assets/custom-help-button.png)
+ ![Custom help button](assets/custom-help-with-left-menu.png)
 
 This does not affect the context-sensitive help links throughout Workfront, which take users to the Workfront Help site.
 
@@ -47,15 +47,15 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Configure a custom Help URL
+## Configure a custom help URL
 
 {{step-1-to-setup}}
 
 1. Click **System** > **Preferences**.
-1. In the **General Preferences** section, in the **Custom Help URL** field, type the URL where your custom help site is located.
+1. In the **General preferences** section, in the **Custom Help URL** field, type the URL where your custom help site is located.
 
    If your custom help location requires login credentials, those credentials are required for users when they access the site from Workfront. The credentials to your custom help site might need to be managed separately from the Workfront credentials if you are not using Single Sign-On (SSO).
 
 1. Click **Save**.
 
-   Once you have saved a custom help URL, you can return to the default Workfront help site by deleting the custom URL and clicking **Save**.
+   Once you have saved a custom help URL, you can return to using the default Workfront help site by deleting the custom URL and clicking **Save**.
