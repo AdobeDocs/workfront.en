@@ -11,6 +11,11 @@ exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
 
 You can request a document on any object that supports Documents.
 
+>[!NOTE]
+>
+>This functionality is not available in the new documents area.<br>
+>If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about Enterprise Storage, see [Enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.

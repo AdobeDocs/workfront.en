@@ -15,6 +15,11 @@ For information about linking external document services to Workfront, see [Link
 
 Since the document service is the one allowing permission to link to Workfront, it is not possible for Workfront&nbsp;to remove the permission granted by the document service. You must remove the permission from within the document service application or you must call our Support Team to remove this link from our servers.
 
+>[!NOTE]
+>
+>This functionality is not available in the new documents area.<br>
+>If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about Enterprise Storage, see [Enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.

@@ -13,6 +13,11 @@ Smart folders are used to manage documents outside of a project, task, or issue,
 
 Two smart folders are available to you by default the first time you access the Documents&nbsp;area: All Documents, and Recent. You can edit, rename, or copy default smart folders, but you cannot delete them. You can&nbsp;create additional smart folders to meet other asset management needs.
 
+>[!NOTE]
+>
+>This functionality is not available in the new documents area.<br>
+>If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
