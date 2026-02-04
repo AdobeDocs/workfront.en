@@ -56,7 +56,12 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
+## Considerations
 
+Consider the following when using Workflow Optimization Agent:
+
+* Because Workflow Optimization Agent is part of the Adobe Experience Platform Agent Orchestrator, data from your interactions with WOA are stored in Adobe Experience Platform, not in Workfront. Therefore, this data is not covered by Workfront BYOK agreements.
+                                             
 ## General-use foundational skills
 
 >[!IMPORTANT]
