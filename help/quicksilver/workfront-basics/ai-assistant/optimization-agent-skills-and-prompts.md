@@ -72,11 +72,15 @@ Consider the following when using Workflow Optimization Agent:
 
 WOA can provide instructions or reference information pulled from the Workfront documentation. 
 
+For more information about pulling information from Workfront documentation, see [Get help from AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
+
 Example: How do I change task duration type?
 
 ### Project, task, and issue summarization
 
 WOA can summarize project, tasks, issues, or documents that have been uploaded to Workfront.
+
+For more information about project, task, and issue summaries, see [Summarize using AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
 
 Example: Summarize the project called Fall Campaign 2026.
 
@@ -85,6 +89,8 @@ Example: Summarize the project called Fall Campaign 2026.
 Find work items like projects, tasks, and issues
 
 Example: Find all tasks assigned to me that are due this week.
+
+For more information on using AI Assistant to locate project, tasks, and issues, see [se AI Assistant to work with projects, tasks, and issues](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
 
 ### Catch Me Up 
 
@@ -97,6 +103,8 @@ For more information on Catch me up, see [Catch up on work in Priorities](/help/
 Use natural language filters in Priorities to replace status, pre-built views to help you filter your work.
 
 For more information on using Smart Filters, see [Filter your work with Smart filters](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md) in the article Filter and group your work with Priorities.
+
+## WOA in Workfront
 
 ## Workflow Insights agent
 
@@ -166,7 +174,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 * For all unassigned tasks in this project, recommend the best users based on job role match and daily availability.
 * Recommend users for the tasks 'QA testing for website launch' and 'Content review', prioritizing users whose job roles match and who are not over-allocated today.
 
-
+## WOA in Workfront Planning
 
 ## Planning Functional agent
 
