@@ -141,6 +141,7 @@ And
       >
       >You cannot edit the new record type's appearance, additional settings, or original fields. You can edit the record type and all its original fields and settings only from the original workspace.
       >
+
 1. <span class="preview">(Optional) Hover over the global record type icon ![Global record icon on the secondary workspace](assets/global-icon-secondary-workspace.png) to view the name of the original workspace where the record type was added from. </span>
 1. (Optional) Click, then drag and drop the newly added record type to any section within the workspace. 
 1. (Optional) Click the **More** menu on the new record type's card or to the right of the record type name on its page, then click one of the following: 
