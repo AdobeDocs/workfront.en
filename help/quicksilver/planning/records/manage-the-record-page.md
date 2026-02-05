@@ -186,7 +186,7 @@ To add a section to a record preview or page:
     
     From the table table view, click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) in the first column. 
     
-    The record's preview opens in the view.
+    <span class="preview">The record's preview opens in the view.</span>
 
     ![Details box](assets/details-box.png)  
 
@@ -265,7 +265,7 @@ To add a section to a record preview or page:
     
     From the table table view, click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) in the first column. 
     
-    The record's preview opens in the view.
+    <span class="preview">The record's preview opens in the view.</span>
 
     ![Details box](assets/details-box.png) 
 

@@ -65,15 +65,29 @@ The following are important dates associated with the Adobe Workfront Planning f
     * The trial agreement acceptance window. Only a Workfront administrator can accept the agreement. You can accept the trial agreement at any time starting with this date.
 * **March 2, 2026**: The Workfront Planning trial launches. 
 
+    The following items are added to your Workfront instance:
+
+    * The Workfront Planning banners continue to display for all users. 
+    * The **Review trial agreement** preference is added to the **Setup** area.
+    
     The following scenarios exist:
     
     * If your Workfront administrator has accepted the agreement prior to this date, you can find the Planning area in your Main Menu and start using Workfront Planning. 
     * If your  Workfront administrator has not accepted the agreement prior to this date, they must first accept it before you can have access to Workfront Planning. 
+* **April 1, 2026**: You can no longer enroll in the trial. 
+
+    The following items are removed from your Workfront instance:
+
+    * The Workfront Planning trial banners. 
+    * The **Review trial agreement** preference is removed from the **Setup** area.
+
 * **May 1, 2026**: The Workfront Planning trial closes and your access to Planning is removed. 
 
-    Workfront secures your data after the trial is over, but you have no access to it any longer. 
+    If you participated in the trial, Workfront secures your data after the trial is over. However, you have no access to it any longer after this date. 
     
     Regardless of when you accept the agreement, your access to Planning ceases on this date. 
+
+    All Workfront Planning trial 
 * **November 30, 2026**: Workfront no longer secures your data after this date. If you purchase Workfront Planning before this date, you regain access to Planning and your data. 
 
 <!--Lauren wanted this out: 
@@ -138,7 +152,9 @@ To review and accept the legal agreement, do one of the following:
 
 * **Between March 2 - May 1, 2026**: 
 
-    You are granted the following permissions to the workspaces in the Planning area during the free trial: 
+    Regardless of your Workfront or Workflow license access level, when you accept to participate in the Workfront Planning trial program you receive a Workfront Planning Prime license. 
+
+    The users in your system receive the following permissions to the workspaces in the Planning area during the free trial: 
 
     * All System Administrators have Manage permissions to the Workspaces tab.
     * All other users have View permissions to the Workspaces tab, but the System Administrator can grant them Manage permissions to workspaces.

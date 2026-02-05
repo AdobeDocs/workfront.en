@@ -12,9 +12,9 @@ exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 
 {{planning-important-intro}} 
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 As a workspace manager, you can add a record type that exists in another workspace to a workspace that you manage in Adobe Workfront Planning. 
 
@@ -124,7 +124,8 @@ And
 1. Click **Continue**.
 1. In the **Choose the record type** box, click the card for the record type that you want to add from an existing workspace, then click **Add**.
 
-   The record type is added to the secondary workspace that you selected and the **global record type** icon ![Global record icon primary workspace](assets/global-icon.png) displays on the record type's card. 
+   <span class="preview">The record type is added to the secondary workspace that you selected and the **global record type** icon ![Global record icon on the secondary workspace](assets/global-icon-secondary-workspace.png) displays on the record type's card. </span>
+   <span class="preview">The global record type icon includes an arrow when displayed on a record type in the secondary workspace, to indicate that the record type was added from an existing record type.</span>
     
    The following things occur:
 
@@ -140,7 +141,7 @@ And
       >
       >You cannot edit the new record type's appearance, additional settings, or original fields. You can edit the record type and all its original fields and settings only from the original workspace.
       >
-
+1. <span class="preview">(Optional) Hover over the global record type icon ![Global record icon on the secondary workspace](assets/global-icon-secondary-workspace.png) to view the name of the original workspace where the record type was added from. </span>
 1. (Optional) Click, then drag and drop the newly added record type to any section within the workspace. 
 1. (Optional) Click the **More** menu on the new record type's card or to the right of the record type name on its page, then click one of the following: 
 
