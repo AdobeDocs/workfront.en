@@ -16,9 +16,9 @@ exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
 
 {{planning-important-intro}}
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 You can configure record types to work across multiple workspaces in Adobe Workfront Planning. 
 
@@ -192,7 +192,7 @@ To configure a record type as global:
       >
       >You can edit the record type's appearance and settings and its original fields only from its original workspace. 
          
-      * The record type card displays a **global record type** icon ![Global record type icon](assets/global-icon.png) to indicate that the record type is available to be added to other workspaces. 
+      * The record type card displays a **global record type** icon ![Global record type icon primary workspace](assets/global-icon.png) to indicate that the record type is available to be added to other workspaces. 
       * A system-generated **Workspace** field is added to the table view of the record type and its records' details. 
       
          The Workspace field displays the workspace from where each record is created.
@@ -208,7 +208,7 @@ To configure a record type as global:
 
    For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). 
 
-   The record type added from a global record type in the secondary workspace also displays a **global record type** icon ![Global record type icon](assets/global-icon.png). 
+   The record type added from a global record type in the secondary workspace displays <span class="preview">a similar  **global record type** icon ![Global record type icon on secondary workspace](assets/global-icon-secondary-workspace.png) that includes an arrow, indicating that the record type was imported from another workspace. When you hover over the secondary workspace global icon, you can learn the name of the original workspace.</span>
 1. (Optional) Go back to the original workspace where you created the global record type and edit the record type by following steps 1-4 above <!--ensure this stays accurate-->
 1. (Optional) Review the list of workspaces where the global record has been added in the **Workspaces where this record type is used** section. The workspace owner is also listed next to the workspace name. 
 
