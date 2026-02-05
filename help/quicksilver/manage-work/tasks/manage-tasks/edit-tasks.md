@@ -372,6 +372,12 @@ Editing assignments is different in the Edit Task box depending on which environ
 
 #### Edit the Assignments area in the Production environment
 
+>[!NOTE]
+>
+><span class="preview">Some customers can edit Assignments in the Edit Task box in their Production environments the same way they edit them in their Preview environment.</span>
+>
+><span class="preview">For information about editing tasks in the Preview environment, see the section [Edit the Assignments area in the Preview environment](#edit-the-assignments-area-in-the-preview-environment) in this article. </span>
+
 1. Begin editing your task as described above.
 1. Click **Assignments** in the left panel.
 
