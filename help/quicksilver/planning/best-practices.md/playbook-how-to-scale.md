@@ -1,5 +1,5 @@
 ---
-title: "Playbook: Managed Scaling, After the First Win"
+title: 'Playbook: Managed Scaling, After the First Win'
 description: Learn how to roll out Adobe Workfront Planning after your first successful implementation
 feature: Workfront Planning
 role: User, Admin
@@ -7,8 +7,8 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: yes
 hide: yes
+exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
 ---
-
 # Playbook: managed scaling, after the first win 
 
 **Version**: 1.0 
@@ -313,4 +313,4 @@ Success in a managed scaling model requires more than just tool configuration; i
 
 * [ ] **Grant Global Visibility**: Give them Read-Only access to the relevant Primary Workspaces and the Global Taxonomy workspace on Day 1. 
 
-* [ ] **Establish the Handoff**: How does their work "feed" the relevant Primary Workspaces? (e.g., via a Global Record Type or a specific lookup). 
+* [ ] **Establish the Handoff**: How does their work "feed" the relevant Primary Workspaces? (e.g., via a Global Record Type or a specific lookup).

@@ -4,7 +4,7 @@ description: First Quarter 2026 Reporting enhancements
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-
+exl-id: 326ca4c6-f5d6-4060-9e2b-712d8bcd2ff1
 ---
 # First Quarter 2026 Reporting enhancements
 
@@ -164,7 +164,3 @@ To avoid loading time delays and improve overall performance in Canvas Dashboard
 * Distance from the report's base object: 10 limit
 * Columns on a table view: 25 limit
 * Dashboard-level filter prompts: 10 limit
-
-
-
-

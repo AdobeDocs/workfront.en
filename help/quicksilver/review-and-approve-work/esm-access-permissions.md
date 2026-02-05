@@ -8,8 +8,8 @@ feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 hide: yes
 hidefromtoc: yes
+exl-id: 758d17e6-f31f-42b7-a9e6-6bd1821f5c15
 ---
-
 # Object permissions and access level overview for the Adobe enterprise storage model
 
 <!--linked in UI -->
@@ -60,4 +60,4 @@ Financial data is not visible outside of Workfront for ESM projects.
 
 ## Tasks and issues
 
-Documents are stored at the project level but able to be shared to individual tasks and issues as needed. Users with task and issue access automatically inherit document access from the project. YOu cannot modify their level of access. They have manage access or no access. 
+Documents are stored at the project level but able to be shared to individual tasks and issues as needed. Users with task and issue access automatically inherit document access from the project. YOu cannot modify their level of access. They have manage access or no access.

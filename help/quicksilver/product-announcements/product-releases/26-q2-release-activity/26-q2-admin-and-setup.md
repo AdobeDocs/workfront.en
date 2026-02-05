@@ -4,7 +4,7 @@ description: Second Quarter 2026 Administrator enhancements
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-
+exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 ---
 # Second Quarter 2026 Administrator enhancements
 
@@ -48,6 +48,3 @@ EU:
 * 24.110.76.223
 
 For more information, see [Configure your firewall's allowlist](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
-
-
-

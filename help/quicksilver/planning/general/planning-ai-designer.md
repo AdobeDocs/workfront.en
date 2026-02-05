@@ -5,8 +5,8 @@ recommendations: noDisplay, noCatalog
 author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
+exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
 ---
-
 # Get started with the Adobe Workfront Planning Designer
 
 >[!IMPORTANT]
@@ -232,10 +232,4 @@ To turn it off:
     ![Planning Designer setting in System Preferences](assets/planning-designer-toggle-in-system-preferences.png) 
 1. Click **Save**.
 
-    This removes the Planning Designer for all users in the system. 
-
-
-
-
-
-
+    This removes the Planning Designer for all users in the system.

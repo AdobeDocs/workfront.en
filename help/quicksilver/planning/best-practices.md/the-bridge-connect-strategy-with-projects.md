@@ -1,14 +1,14 @@
 ---
-title: "The Bridge: Connecting Strategic Intent to Projects"
-description: Learn how to create a "strategic thread" between your high-level plans in Adobe Workfront Planning and your daily execution of workflows in Adobe Workfront. 
+title: 'The Bridge: Connecting Strategic Intent to Projects'
+description: Learn how to create a "strategic thread" between your high-level plans in Adobe Workfront Planning and your daily execution of workflows in Adobe Workfront.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: yes
 hide: yes
+exl-id: 567ab223-b282-4b98-9655-7b9766fba869
 ---
-
 # The bridge: connecting strategic intent to projects 
  
 
@@ -126,8 +126,4 @@ The ultimate value of the bridge is **real-time visibility**. By connecting inte
 
 *   **Don't over-sync.** You don't need to sync every project-level detail back to Planning. Keep the strategic layer high-level and noise-free. 
 
-*   **Don't bypass the bridge.** If work starts in the Workflow module without a link to Planning, you've created a "Shadow Plan" that is invisible to leadership. 
-
- 
-
- 
+*   **Don't bypass the bridge.** If work starts in the Workflow module without a link to Planning, you've created a "Shadow Plan" that is invisible to leadership.

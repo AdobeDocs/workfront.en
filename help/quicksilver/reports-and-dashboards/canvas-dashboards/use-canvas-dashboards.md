@@ -6,7 +6,7 @@ description: Use Canvas Dashboards
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-
+exl-id: 25f045d9-a291-423d-81ee-6fbd2fb12607
 ---
 # Use Canvas Dashboards
 

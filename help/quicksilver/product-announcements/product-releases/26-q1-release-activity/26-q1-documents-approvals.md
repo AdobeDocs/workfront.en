@@ -4,7 +4,7 @@ description: First Quarter 2026 Document and approval enhancements
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-
+exl-id: 2c3133c3-aaa9-424c-81f5-9e4e1f4a486f
 ---
 # First Quarter 2026 Document and approval enhancements
 
@@ -62,4 +62,3 @@ For more information, see [Get started with the Adobe Express and Workfront Proo
 Now, you can use the Experience Manager Assets​ to manage and store your digital assets that have gone through the review and approval cycle. This integration allows you to leverage the capabilities of Adobe Experience Manager, Frame.io, and Workfront to streamline your content management and collaboration processes.
 
 For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
-

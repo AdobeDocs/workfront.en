@@ -1,14 +1,14 @@
 ---
-title: "The Architecture of Success: Model Your Campaign Hierarchy"
-description: Learn how to translate your complex business processes into a scalable, governed campaign hierarchy using "Centers of Gravity" and a multi-workspace architecture. 
+title: 'The Architecture of Success: Model Your Campaign Hierarchy'
+description: Learn how to translate your complex business processes into a scalable, governed campaign hierarchy using "Centers of Gravity" and a multi-workspace architecture.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: yes
 hide: yes
+exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
 ---
-
 # The architecture of success: model your campaign hierarchy 
 
  <!--see the file again for additional comments from Seth and others-->
@@ -173,8 +173,4 @@ While Workfront Planning is the future of strategic intent, its native reporting
 
 * **Don't over-complicate.** Every additional level of hierarchy adds a "management tax." Only add levels that answer a business question you can't currently answer. 
 
-* **Don't create silos.** Ensure your record types are shared across workspaces so teams aren't re-typing the same data. 
-
- 
-
- 
+* **Don't create silos.** Ensure your record types are shared across workspaces so teams aren't re-typing the same data.
