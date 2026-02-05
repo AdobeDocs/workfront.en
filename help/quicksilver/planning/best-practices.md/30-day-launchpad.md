@@ -1,14 +1,14 @@
 ---
-title: "The 30-Day Launchpad: Rolling Out Your Strategic Home"
-description: Learn how to roll out Workfront Planning using a strategy that prioritizes psychological safety, minimizes disruption, and delivers quick wins. 
+title: 'The 30-Day Launchpad: Rolling Out Your Strategic Home'
+description: Learn how to roll out Workfront Planning using a strategy that prioritizes psychological safety, minimizes disruption, and delivers quick wins.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: yes
 hide: yes
+exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
 ---
-
 # The 30-day launchpad: roll out your strategic home 
 
 
@@ -148,4 +148,4 @@ Look for these early indicators of health:
 
 * **Don't ignore the "why."** Ensure every team member understands how the strategic thread makes their work more visible. 
 
-* **Don't wait for perfection.** Your taxonomy will evolve. Start with your best guess and refine as you go. 
+* **Don't wait for perfection.** Your taxonomy will evolve. Start with your best guess and refine as you go.

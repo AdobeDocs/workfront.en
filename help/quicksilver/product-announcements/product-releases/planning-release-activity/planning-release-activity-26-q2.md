@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-
+exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
 ---
 # Second Quarter 2026 release activity for Adobe Workfront Planning
 
@@ -106,5 +106,3 @@ For more information, see the following articles:
 You can now add People fields to lookup fields when connecting two Planning record types.  
 
 For information, see [Connect Record Types](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-

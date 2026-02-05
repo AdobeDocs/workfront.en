@@ -4,7 +4,7 @@ description: Second Quarter 2026 Project enhancements
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-
+exl-id: def76c9c-d808-489b-82c7-b1f44c241116
 ---
 # Second Quarter 2026 Project enhancements
 
@@ -55,6 +55,3 @@ The following changes are included in this update:
 * The "Switch back to old experience" option has been removed.  
 
 For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
-
-
-

@@ -1,10 +1,10 @@
 ---
-title: "Adobe Planning Standalone: Article Index"
+title: 'Adobe Planning Standalone: Article Index'
 description: This article describes how you can benefit from using the standalone version of Adobe Workfront Planning.
 hidefromtoc: yes
 hide: yes
+exl-id: efd3c0a4-0c30-4780-93fe-46157c51d89a
 ---
-
 <!--Update metadata with this at release:
 
 ---

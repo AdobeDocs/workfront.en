@@ -1,12 +1,12 @@
 ---
 title: Manage the List View in Adobe Workfront Planning
-description: You can display objects and their fields in a list view, when accessing them in the Connected records page of a record, in Adobe Workfront Planning. This article describes how you can create or edit a list view in the Connected records page of a record. 
+description: You can display objects and their fields in a list view, when accessing them in the Connected records page of a record, in Adobe Workfront Planning. This article describes how you can create or edit a list view in the Connected records page of a record.
 feature: Workfront Planning
 role: User
 hidefromtoc: yes
 hide: yes
+exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 ---
-
 <!--add these to the metadata above when publishing:
 
 author: Alina

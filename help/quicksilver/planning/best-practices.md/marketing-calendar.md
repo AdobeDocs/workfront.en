@@ -1,5 +1,5 @@
 ---
-title: "The Marketing Calendar You've Been Missing"
+title: The Marketing Calendar You've Been Missing
 description: Create a single-place environment in Adobe Workfront Planning, where strategy and execution meet by adding a campaign calendar that does not touch production work, so you can visualize campaign with clariry
 feature: Workfront Planning
 role: User, Admin
@@ -7,8 +7,8 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: yes
 hide: yes
+exl-id: e95ca8a2-6261-4f04-8c7c-1a0bfb1925f3
 ---
-
 # The marketing calendar you've been missing: no decks, just clarity 
 
  
@@ -142,4 +142,4 @@ Workfront Planning is available to paying customers and is enabled through admin
 
 * **Don't ignore shadow work:** Identify where reporting lives outside the system—and bring it into Planning. 
 
-* **Don't wait for a crisis:** Establish your strategic home before visibility becomes urgent. 
+* **Don't wait for a crisis:** Establish your strategic home before visibility becomes urgent.

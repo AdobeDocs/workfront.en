@@ -6,7 +6,7 @@ description: Set up brands for the AI Reviewer
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-
+exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 ---
 # Set up brands for the AI Reviewer
 
