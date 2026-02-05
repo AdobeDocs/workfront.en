@@ -9,10 +9,11 @@ feature: Get Started with Workfront
 
 With Workflow Optimization Agent (WOA), you can use natural language to interact with Workfront Workflow and Workfront Planning. 
 
->[!NOTE]
->
->Workflow Optimization Agent is part of the Adobe Experience Cloud Agent Orchestrator.
->For more information on Agent Orchestrator, see [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator).
+Workflow Optimization Agent is part of the Adobe Experience Cloud Agent Orchestrator.
+
+For more information on Agent Orchestrator, see [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator).
+
+Because Workflow Optimization Agent is part of the Adobe Experience Platform Agent Orchestrator, data from your interactions with WOA are stored in Adobe Experience Platform, not in Workfront. Therefore, this data is not covered by Workfront Customer Managed Keys (BYOK) agreements.
 
 ## Access requirements
 
@@ -56,11 +57,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
-## Considerations
-
-Consider the following when using Workflow Optimization Agent:
-
-* Because Workflow Optimization Agent is part of the Adobe Experience Platform Agent Orchestrator, data from your interactions with WOA are stored in Adobe Experience Platform, not in Workfront. Therefore, this data is not covered by Workfront Customer Managed Keys (BYOK) agreements.
                                              
 ## General-use foundational skills
 
@@ -106,7 +102,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 ## WOA in Workfront
 
-### Workflow Insights agent
+### Insights and reporting
 
 #### Data retrieval M1 - Workflow PTI and adjacent records
 
@@ -133,7 +129,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 * "Show me the health of my active projects"
 * "Show me the health of this program"
 
-### Project Management functional agent
+### Project and work Management
 
 #### Create project from scratch or from identified template (Project CRUD)
 
@@ -180,7 +176,9 @@ Workflow Orchestration Agent can help manage document and asset approvals in Wor
 
 Consider the following when working with document and asset approvals:
 
-* AI cannot approve or reject on behalf of humans. Decisions rely on users, with the exception of brand checks.
+* AI cannot approve or reject on behalf of humans. Decisions rely on users, with the exception of the Workfront AI Reviewer.
+
+   For more information on the Workfront AI Reviewer, see [Get started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 * This functionality exists within Workfront, and cannot be used to interact with external tools or document providers.
 * For the best experience, use this functionality with the Unified Approvals experience. 
 
