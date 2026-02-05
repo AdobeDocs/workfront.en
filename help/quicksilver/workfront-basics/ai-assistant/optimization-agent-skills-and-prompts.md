@@ -63,17 +63,17 @@ Consider the following constraints when using Workflow Agent Orchestrator:
 
 ### Data / object coverage constraints
 
-* Custom-field semantics are limited: the underlying AI stack is just beginning to support querying/reporting against custom fields, and some skills (like API-based query helpers) do not yet handle arbitrary custom fields for aggregation/filtering.
+* **Custom fields**: Querying and reporting on custom fields is in early stages, and some skills (like API-based query helpers) do not yet handle arbitrary custom fields for aggregation and filtering.
 
 ### Interaction / UX limitations
 
-* No persistent personalization: AI Assistant / WOA does not currently "learn" long-term from an individual user's style or preferences; every chat uses just the current conversation plus product knowledge.
-* Session-scoped memory only: context is kept within a single chat session; opening a new page or closing the assistant resets the conversational history.
-* No external URL crawling: if approval procedures live in Confluence/SharePoint and are only linked via URL fields, the agent does not fetch and reason over those pages in the first release.
+* No persistent personalization: Workflow Optimization Agent does not currently "learn" long-term from an individual user's style or preferences. Every chat uses only the current conversation and product knowledge.
+* Session-scoped memory only: Context is kept within a single chat session. Opening a new page or closing the assistant resets the conversation history.
+* No external URLs: if approval procedures live in an outside application like Confluence or SharePoint, and are only linked via URL fields, Workflow Optimization Agent does not currently fetch and reason over those pages.
 
 ### Data storage / Customer managed keys
 
-* Because Workflow Optimization Agent is part of the Adobe Experience Platform Agent Orchestrator, data from your interactions with WOA are stored in Adobe Experience Platform, not in Workfront. Therefore, this data is not covered by Workfront Customer Managed Keys (BYOK) agreements.
+* Because Workflow Optimization Agent is part of the Adobe Experience Platform Agent Orchestrator, data from your interactions with Workflow Optimization Agent are stored in Adobe Experience Platform, not in Workfront. Therefore, this data is not covered by Workfront Customer Managed Keys (BYOK) agreements.
 
                                              
 ## General-use foundational AI skills
@@ -82,9 +82,11 @@ Consider the following constraints when using Workflow Agent Orchestrator:
 >
 >These general-use features are available to all users whose organization has a signed Adobe AI Agreement on file.
 
+For best practices and prompts for these general-use skills, see [AI Assistant prompts and best practices](/help/quicksilver/workfront-basics/ai-assistant/ai-prompts-best-practices.md).
+
 ### Product knowledge
 
-Workflow Organization Agent can provide instructions or reference information pulled from the Workfront documentation. 
+Workflow Optimization Agent can provide instructions or reference information pulled from the Workfront documentation. 
 
 For more information about pulling information from Workfront documentation, see [Get help from AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
 
@@ -92,7 +94,7 @@ Example: How do I change task duration type?
 
 ### Project, task, and issue summarization
 
-Workflow Organization Agent can summarize project, tasks, issues, or documents that have been uploaded to Workfront.
+Workflow Optimization Agent can summarize project, tasks, issues, or documents that have been uploaded to Workfront.
 
 For more information about project, task, and issue summaries, see [Summarize using AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
 
@@ -100,7 +102,7 @@ Example: Summarize the project called Fall Campaign 2026.
 
 ### Locate work items
 
-Workflow Organization Agent can find work items like projects, tasks, and issues
+Workflow Optimization Agent can find work items like projects, tasks, and issues
 
 Example: Find all tasks assigned to me that are due this week.
 
