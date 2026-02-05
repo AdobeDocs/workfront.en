@@ -57,16 +57,34 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
+## Considerations
+
+Consider the following constraints when using Workflow Agent Orchestrator:
+
+### Data / object coverage constraints
+
+* Custom-field semantics are limited: the underlying AI stack is just beginning to support querying/reporting against custom fields, and some skills (like API-based query helpers) do not yet handle arbitrary custom fields for aggregation/filtering.
+
+### Interaction / UX limitations
+
+* No persistent personalization: AI Assistant / WOA does not currently "learn" long-term from an individual user's style or preferences; every chat uses just the current conversation plus product knowledge.
+* Session-scoped memory only: context is kept within a single chat session; opening a new page or closing the assistant resets the conversational history.
+* No external URL crawling: if approval procedures live in Confluence/SharePoint and are only linked via URL fields, the agent does not fetch and reason over those pages in the first release.
+
+### Data storage / Customer managed keys
+
+* Because Workflow Optimization Agent is part of the Adobe Experience Platform Agent Orchestrator, data from your interactions with WOA are stored in Adobe Experience Platform, not in Workfront. Therefore, this data is not covered by Workfront Customer Managed Keys (BYOK) agreements.
+
                                              
-## General-use foundational skills
+## General-use foundational AI skills
 
 >[!IMPORTANT]
 >
->These features are available to all users whose organization has a signed Adobe AI Agreement on file.
+>These general-use features are available to all users whose organization has a signed Adobe AI Agreement on file.
 
 ### Product knowledge
 
-WOA can provide instructions or reference information pulled from the Workfront documentation. 
+Workflow Organization Agent can provide instructions or reference information pulled from the Workfront documentation. 
 
 For more information about pulling information from Workfront documentation, see [Get help from AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
 
@@ -74,7 +92,7 @@ Example: How do I change task duration type?
 
 ### Project, task, and issue summarization
 
-WOA can summarize project, tasks, issues, or documents that have been uploaded to Workfront.
+Workflow Organization Agent can summarize project, tasks, issues, or documents that have been uploaded to Workfront.
 
 For more information about project, task, and issue summaries, see [Summarize using AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
 
@@ -82,7 +100,7 @@ Example: Summarize the project called Fall Campaign 2026.
 
 ### Locate work items
 
-Find work items like projects, tasks, and issues
+Workflow Organization Agent can find work items like projects, tasks, and issues
 
 Example: Find all tasks assigned to me that are due this week.
 
@@ -96,7 +114,7 @@ For more information on Catch me up, see [Catch up on work in Priorities](/help/
 
 ### Smart filters
 
-Use natural language filters in Priorities to replace status, pre-built views to help you filter your work.
+You can use natural language filters in Priorities to replace status, pre-built views to help you filter your work.
 
 For more information on using Smart Filters, see [Filter your work with Smart filters](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md) in the article Filter and group your work with Priorities.
 
