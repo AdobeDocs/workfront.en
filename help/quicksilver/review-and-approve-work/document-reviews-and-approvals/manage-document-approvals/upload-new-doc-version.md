@@ -53,7 +53,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Use drag-and-drop to add a new version
+## Use drag-and-drop to add a new version <!--in the legacy document area-->
+
+<!--If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).-->
 
 >[!NOTE]
 >
@@ -69,11 +71,20 @@ To add a new version:
 1. Navigate to the document in Workfront.
 1. Drag and drop the new file on top of the previous document. This automatically creates a new version. 
 
-1. Once the document finishes uploading, select the document, then click **Document Details**.
+1. Once the document finishes uploading, select the document to open the Document Summary panel. Here you'll see the version number at the top of the panel. 
     ![Open the document details page](assets/open-doc-details.png)
 
 
-1. In the left panel, click **Approvals**, then click **Add**.
+1. Scroll down to the **Approvals** section, then click **Create workflow**.
+
+
+
+
+
+
+
+
+
 
 1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.
 

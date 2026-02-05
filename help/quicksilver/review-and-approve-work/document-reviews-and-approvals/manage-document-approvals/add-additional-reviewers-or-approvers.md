@@ -52,7 +52,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Go to the document page by clicking on the name of the document, then select the version of the document you would like to add an approver or reviewer to in the version dropdown. The latest version will be selected by default.
 
-1. Select **Approvals** in the left pane. All existing approvers and reviewers are listed here.
+1. Select **Approvals** in the left panel. All existing approvers and reviewers are listed here.
 
 1. To add an approver, ensure that the **Approver** checkbox is checked then begin typing in the **Reviewers** text box. You can add Workfront users or teams by name. If you would like to add a reviewer instead, simply uncheck the **Approver** checkbox before typing.
 

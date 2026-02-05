@@ -96,7 +96,7 @@ To create a an approval workflow:
    ![Document details](assets/new-stage.png)
 
 
-## Create an approval workflow from the Summary panel in the new document area
+<!--## Create an approval workflow from the Summary panel in the new document area
 
 If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -135,7 +135,7 @@ To create a an approval workflow:
    >
    >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
-   ![Document details](assets/new-stage.png)
+   ![Document details](assets/new-stage.png)-->
 
 
 

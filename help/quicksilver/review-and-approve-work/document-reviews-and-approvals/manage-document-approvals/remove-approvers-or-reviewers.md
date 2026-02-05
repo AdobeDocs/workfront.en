@@ -57,7 +57,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. Click on the document you need and the Document Summary panel for that document will open.
+1. Click on the document you need and the Document Summary panel for that document opens.
 
 1. Scroll down to the **Approvals** section in the Document Summary panel. 
 
@@ -65,7 +65,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
     The approval or review request is removed and the approver receives a notification that their approval is no longer needed. Their approval-related share access is also removed.
 
-1. (Optional) To demote an approver to a reviewer rather than remove them entirely, uncheck the **Approver** checkbox in line with their name.
+    ![edit approval workflow](assets/edit-approval-in-legacy.png)
+
+1. (Optional) To change the role of an approver to a reviewer, or vice versa, click the drop-down menu next to the  username, and select the new role.
 
 1. Repeat the previous step to remove any additional approvers or reviewers.
 
