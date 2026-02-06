@@ -29,26 +29,24 @@ You can calculate the difference between the following:
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: </p><ul><li><p>Contributor to modify a view </p></li><li>
-   <p>Standard to modify a report</p></li></ul><p>Or</p><p>Current:</p><ul><li><p>Request to modify a view </p></li><li>
-   <p>Plan to modify a report</p> </li><ul></td> 
+   <td> 
+   <p>Contributor or Request to modify a filter </p>
+   <p>Standard or Plan to modify a report</p>
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>Edit access to Reports, Dashboards, Calendars to modify a report</p> <p>Edit access to Filters, Views, Groupings to modify a view</p> </td> 
-  </tr>  
+   <td> <p>Edit access to Reports, Dashboards, Calendars to modify a report</p> <p>Edit access to Filters, Views, Groupings to modify a filter</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
    <td> <p>Manage permissions to a report</p>  </td> 

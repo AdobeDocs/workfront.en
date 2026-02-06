@@ -18,23 +18,23 @@ If an asset is deleted or moved from a linked folder inside of Experience Manage
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following:
-
 <table>
   <tr>
-   <td><strong>Adobe Workfront plan*</strong>
+   <td><strong>Adobe Workfront package</strong>
    </td>
    <td>Any
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront licenses*</strong>
+   <td><strong>Adobe Workfront licenses</strong>
    </td>
-   <td>Plan
+   <td>
+   <p>Standard</p>
+   <p>Plan</p>
    </td>
   </tr>
   <tr>
-   <td><strong>Product</strong>
+   <td><strong>Additional products</strong>
    </td>
    <td>You must have Experience Manager Assets as a Cloud Service or Assets Essentials, and you must be added to the product as a user.
    </td>
@@ -53,8 +53,7 @@ You must have the following:
   </tr>
 </table>
 
-
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

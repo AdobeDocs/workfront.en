@@ -17,21 +17,19 @@ Priorities displays work items assigned to you. You cannot see work items assign
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p> Any</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses*</td> 
    <td> 
-   <p>New: Contributor or higher</p> 
-   <p>Current: Request or higher</p> </td> 
+   <p>Contributor or higher</p> 
+   <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -40,7 +38,7 @@ You must have the following:
  </tbody> 
 </table>
 
-To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,16 +67,21 @@ Click **Add files** to browse files or import files from a Document Cloud provid
 {{step1-to-priorities}}
 
 1. Click on a work item name to open the **Overview** page.
- 1. In the **Quick actions** section, click **Upload** and then select **Document**. 
+1. In the **Quick actions** section, click **Upload** and then select **Document**. 
 1. (Optional) In the **Upload Files** box, select a folder.
 1. Drag and drop your file or Cmd/Ctrl + V to paste from your clipboard
-or
-Click **Add files** to browse files or import files from a Document Cloud provider.
-![Add files](assets/add-files.png)
+
+   or
+
+   Click **Add files** to browse files or import files from a Document Cloud provider.
+
+   ![Add files](assets/add-files.png)
+
 1. (Optional) Add a comment.
 1. (Optional) Add more files.
 
     >[!NOTE]
     >
     >Additional files are uploaded as separate documents. 
+
 1. Click **Upload**. 

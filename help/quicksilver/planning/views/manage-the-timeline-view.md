@@ -9,9 +9,10 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 ---
 # Manage the timeline view
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+
 
 {{planning-important-intro}}
 
@@ -21,8 +22,50 @@ For information about record views, see [Manage record views](/help/quicksilver/
 
 ## Access requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view the access requirements for the functionality in this article. 
 
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Workfront and any Planning package</p>
+
+<p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr> 
+</tbody> 
+</table> 
+
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++ 
+
+<!--Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -83,11 +126,7 @@ For information about record views, see [Manage record views](/help/quicksilver/
 </td>
   </tr>
 </tbody> 
-</table> 
-
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++     
+</table> -->
 
 ## Manage a timeline view {#manage-a-timeline-view}
 
@@ -107,12 +146,6 @@ Consider the following:
     * When the Start and End dates have no values
     * When the Start or the End dates have no value
     * When the Start date is after the End date 
-
-<div class="preview">
-
-* You can create and edit records in the timeline view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
-
-</div>
 
 To manage a timeline view: 
 
@@ -173,7 +206,7 @@ To manage a timeline view:
 
 1. Do the following to quickly find records that match a keyword:
 
-    1. Click the **Search** icon ![Search icon](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the record with the correct match is highlighted.
+    1. Click the **Search** icon ![Search icon](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the record with the correct match is highlighted. 
 
         ![Search box and results timeline view](assets/search-box-and-results-timeline-view.png)
 
@@ -185,17 +218,36 @@ To manage a timeline view:
     1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table.
     1. Click the **x** icon in the search box to clear the search keyword.
 
-    1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
+    1. (Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.
+
+1. (Optional) Click **Breakdown** to display connected records on the timeline. 
+
+    For information, see the section [Use the Breakdown feature to display connected records in the timeline view](#break-down-connected-records-in-the-timeline-view) in this article. 
+1. To create records in the timeline view or edit their dates do one of the following:
+
+    * Double-click anywhere on the timeline to create a record. 
+    
+        For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
+    >[!TIP]
+    >
+    >Double-clicking to create records in the timeline is not possible inside of a grouping.
+    
+    * Click on the left or right margin of a record bar, then drag and drop it in a new position. Resizing the records' bars updates their start or end dates immediately. 
+    
+    * Drag and drop records to update their position and dates in the timeline. Moving the records' bars updates their start and end dates immediately.
+        
+        For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
+    >[!TIP]
+    >
+    >Resizing and dragging and dropping records is not possible in the timeline for Workfront and AEM Assets object types displayed in breakdowns.
 
 1. Update the following view elements as described in the subsections below:
     * [Filters](#add-filters)
     * [Grouping](#add-grouping)
     * [Settings](#edit-the-timeline-view-settings)
     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
-
-1. (Optional) Click **Breakdown** to display connected records on the timeline. 
-
-    For information, see the section [Use the Breakdown feature to display connected records in the timeline view](#break-down-connected-records-in-the-timeline-view) in this article. 
 
 ### Add filters
 
@@ -224,9 +276,9 @@ To add a filter to a timeline view:
 1. Select a timeline view, then click **Filters** in the upper-right corner of the table.    
 1. Click **Add condition** and add the following information: 
 
-    * **Select a field** that you want to filter by <!-- the tip below might change-->
+    * **Select a field** to Search for a field or and select it from the list.
 
-    * **Select an option** (or a filter modifier) to define what kind of condition the field must meet
+    * **Select an option** (or a filter modifier) to define what kind of condition the field must meet.
 
         The table below displays the available modifiers for each type of field.
 
@@ -345,19 +397,17 @@ To add a grouping in the timeline view:
 
     ![Grouping UI timeline view with linked fields](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
-1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list. 
+1. Click one of the suggested fields, or click **Choose a different field**, and search for a different field, then click it when it displays in the list. 
 
     The grouping is applied automatically to the timeline and records display inside the grouping box. 
-
-    <!-- add a step that you can rearrange the groupings here, when this will be possible-->
     
 1. (Optional) Repeat the above steps to add up to 3 groupings.
 
     The number of fields selected for the grouping displays next to the Grouping icon.
 
-    <!-- update screen shot with view redesign-->
+    ![Grouping applied in timeline view](assets/grouping-applied-in-timeline-view.png)
 
-    ![Grouping applies in timeline view](assets/grouping-applied-in-timeline-view.png)
+1. In the **Group records by** box, drag and drop the groupings in the correct order.
 
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
@@ -493,6 +543,8 @@ You can display connected records in a record's timeline view by using the Break
 
 #### Considerations when using the Breakdown feature
 
+Consider the following when breaking down the records' timeline by their connected record types: 
+
 * You can display connected records or objects under the records of the selected record type in the timeline view.
 * You can display connected records in the timeline view only when viewing the records in Standard mode. You cannot use the Breakdown option in the Compact mode of the timeline view.  
 * You can display the following in the timeline view, using the Breakdown feature:
@@ -507,6 +559,8 @@ You can display connected records in a record's timeline view by using the Break
     For example, tasks, are connected to projects in Workfront. Using the Breakdown feature, you can display projects that are connected to campaigns in Planning, but not tasks connected to projects in Workfront. 
 
     If you want to display both portfolios and projects in the timeline view of a Workfront Planning record type, both the portfolios and the projects must be connected to the Planning record or to a record connected to the Planning record whose timeline view you are managing.
+* You cannot display Adobe GenStudio Brands connected to Planning record types. 
+    For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 * You can only display record types that are associated with at least two date fields. 
 * The date fields for the record types you want to display in the timeline view must be visible in the table view of the selected record type, as lookup fields. 
 * The Start and End dates of the record types you want to display in the timeline view must by in chronological order. For example, if a record has a Start date of January 31 and an End date of January 1, it does not display in the timeline view. For more information, see the section [Manage a timeline view](#manage-a-timeline-view) in this article. 
@@ -531,7 +585,7 @@ You can display connected records in a record's timeline view by using the Break
     >    The Start and End dates must be sequential. If the End date is before the Start date, no records will display in the timeline. 
 
     A right-pointing arrow displays on the selected record's bar in the timeline, if they they are connected with other records. 
-1. Click the right-pointing arrow to expand a record type and display its connections. 
+1. Click the right-pointing arrow to expand a record type and display its connections. <!--update screen shot at production-->
 
     ![Campaigns broken down by programs in the timeline view](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)    
 

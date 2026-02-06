@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Tasks overview
+title: Tasks Overview
 description: A task is a work item inside of a project. It represents a finite amount of work smaller than the project.
 author: Alina
 feature: Work Management

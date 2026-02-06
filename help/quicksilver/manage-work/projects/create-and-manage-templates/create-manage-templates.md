@@ -23,7 +23,7 @@ You can use project templates to capture most of the repeatable processes, infor
 * [Overview of attaching a template to a project](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md) 
 * [Attach a template to a project](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md) 
 * [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) 
-* [Edit a template task](../../../manage-work/projects/create-and-manage-templates/edit-template-task.md) 
+* [Edit template tasks](../../../manage-work/projects/create-and-manage-templates/edit-template-task.md) 
 * [Create template from project](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md) 
 * [Share project templates](../../../manage-work/projects/create-and-manage-templates/share-project-template.md) 
 * [Remove template information from a project](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md) 

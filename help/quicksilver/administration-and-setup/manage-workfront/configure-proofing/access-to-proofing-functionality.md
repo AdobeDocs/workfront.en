@@ -12,19 +12,15 @@ exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
 ---
 # Access to proofing functionality in Workfront
 
-The proofing functionality available to your users depends on which Workfront plan your organization purchased.
+Proofing is automatically included for all licenses in the Workfront. Licenses determine what users can do. 
 
-## Proofing in Workfront
+<!--Workfront instances using enterprise storage do not have access to proofing functionality. Instead, they use the native integration with Frame.io. For more information, see -->
 
-There are currently three plan options for Proofing in Workfront:
+The legacy 2017 Workfront packages include proofing automatically for Work and Plan licenses if you have the pro, business or enterprise Workfront plans. These plans are being phased out.
 
-* **New Workfront plans**: Proofing is automatically included for all licenses in the new Workfront plans.
-* **Current Workfront Pro+ Plans**: Proofing is automatically included for Work and Plan licenses if you have the pro, business or enterprise Workfront plans. 
-* **Legacy Workfront Premium plans**: This option is for legacy Workfront Plans—Select, Enterprise, Premium. Proofing is not automatically included with licenses in this plan. You must grant proofing access to specific users in their user profile.
+If you are a Workfront administrator, you can check and see which plan your instance is on by going to Setup > System > Licenses.
 
-  If you are a Workfront administrator, you can check and see which plan your instance is on by going to Setup > System > Licenses.
-
-### Proofing capabilities in Workfront
+## Proofing capabilities in Workfront
 
 For information about granting and revoking a user's access to create and view proofs in Workfront, see [Configure a user's proofing access](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 

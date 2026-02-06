@@ -1,12 +1,12 @@
 ---
-title: AI Assistant overview
+title: AI Assistant in Workfront
 content-type: reference
-description: AI Assistant overview
+description: Learn about AI Assistant in Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
 ---
-# AI Assistant overview
+# AI Assistant in Workfront
 
 Workfront's AI Assistant helps you accomplish your work by offering in-app information and suggestions in a natural-language conversation. AI Assistant can give you a smoother work experience by
 
@@ -43,10 +43,8 @@ For more detail about the information in this table, see [Access requirements in
 
 To enable AI Assistant for your organization, **all** of the following must apply:
 
-<!--DELETE THIS SECTION MARCH 2026-->
-
-<!--* Your organization must have migrated to Adobe IMS (Identity Management System)
-* The Adobe Unified Experience must be enabled-->
+* Your organization must have migrated to Adobe IMS (Identity Management System)
+* The Adobe Unified Experience must be enabled
 * Your organization must have a Select, Prime, or Ultimate Workfront plan
 * Adobe must have a signed Adobe Gen AI agreement on file
 
@@ -136,6 +134,10 @@ To request the Adobe Gen AI agreement:
 
    The agreement will be sent to this individual for signing. After it is signed and returned, the agreement is reviewed by Adobe, and then AI Assistant is enabled for your organization.
 
+   >[!NOTE]
+   >
+   >Please allow 1-3 business days after signing and returning the agreement for Adobe to review and enable AI Assistant.
+
 ## Tips for creating prompts in AI Assistant
 
 Use the following keywords in your prompts to provide context and aid in locating the correct information. Keywords are not case-sensitive.
@@ -145,11 +147,11 @@ When entering your prompt, include the phrase `using (keyword)`.
 | Keyword | Effect |
 |---|---|
 |`workfront` | Interacts with Workfront. |
-|`planning ` | Interacts with Workfront Planning. |
+|`planning` | Interacts with Workfront Planning. |
 |`help`| Returns information from Experience League documentation. |
 |`formula`| Checks and returns formulas for use in Planning, Setup, or custom forms. |
-| `health`| Checks project health with Project Health Advisor. |
-|`summarize`| Summarizes items, such as when uploading a file or summarizing a project. | 
+|`health`| Checks project health with Project Health Advisor. |
+|`summarize`| Summarizes items, such as when uploading a file or summarizing a project. |
 
 >[!NOTE]
 >

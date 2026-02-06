@@ -2,7 +2,7 @@
 navigation-topic: business-case-and-scorecards
 title: Approve a Business Case
 description: After you complete and submit the Business Case for a project request, the Business Case must be approved. This depends on the workflow in your organization. A project can start without the Business Case having to be approved, but your Adobe Workfront administrator and project owners might not consider it ideal to do so.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
 ---
@@ -23,18 +23,16 @@ For more information about completing and submitting a Business Case, see the ar
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-   <p>Current: Prime or higher</p>
-   <p>or</p>
-   <p>Legacy: Business or higher</p> 
+   <p>Prime or higher</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-   <p>Current: Standard </p> 
-   <p>Legacy: Plan </p> </td> 
+   <p>Standard </p> 
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -47,7 +45,7 @@ For more information about completing and submitting a Business Case, see the ar
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -74,15 +72,15 @@ To build a report for projects which are pending approval of their Business Case
 
 1. Select the **View** tab of the report, then click **Add Column**.
 
-1. Start typing "Status" in the **Show in this column** field, and select this field when it appears in the list.
+1. Start typing *Status* in the **Show in this column** field, and select this field when it appears in the list.
 
     This column will display the status of the projects.
 
 1. Select the **Filters** tab of the report, then click **Add a Filter Rule**.
 
-1. Start typing "Status" in the **Only show me Projects in which the ...** field, and select it when it appears in the list.
+1. Start typing *Status* in the **Only show me Projects in which the ...** field, and select it when it appears in the list.
 1. Select **Equal** for the filter modifier.
-1. Start typing "Requested" in the available field. 
+1. Start typing *Requested* in the available field. 
 
    This ensures that the report includes only projects which are in the Requested status.
 
@@ -118,9 +116,9 @@ To build a report for projects which are pending approval of their Business Case
 
 1. Click the name of a project in the report to open it.
 1. Click **Business Case** in the left panel. 
-1. Click **Approve** or **Reject** in the Business Case Summary area to approve or reject the Business Case.
+1. Click **Approve** or **Reject** in the Business Case Summary area to approve or reject the Business Case. 
 
-   <!--![Business case](assets/business-case-summary-with-rp-information--1-.png)-->
+  <!-- ![Business case](assets/business-case-summary-with-rp-information--1-.png) -->
 
    The project status is changed to **Approved** if the Business Case is approved.
 

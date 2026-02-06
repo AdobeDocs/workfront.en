@@ -4,9 +4,14 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Multiple browser tabs cause Workfront to log out
 description: When a user has multiple browser tabs open, Workfront may automatically log out.
 feature: Get Started with Workfront
+author: Becky
 exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
 ---
 # Multiple browser tabs cause Workfront to log out
+
+>[!IMPORTANT]
+>
+>This issue is present only for organizations that have been onboarded to Adobe IMS.
 
 ## Problem
 

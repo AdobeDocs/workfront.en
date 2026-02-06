@@ -11,11 +11,19 @@ exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
 
 >[!IMPORTANT]
 >
->The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.<br>
+>If you have feedback regarding a possible bug or technical issue, please submit a ticket to Workfront Support. For more information, see [Contact Customer Support](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Please note that this beta is not available on the following cloud providers:
+>
+>* Bring Your Own Key for Amazon Web Services
+>* Azure
+>* Google Cloud Platform 
 
 With Canvas Dashboards, you can create and add reports to a customizable dashboard to quickly visualize your account data. 
 
-+++ Expand to view access requirements. 
+## Access Requirements
+
++++ Expand to view access requirements for the functionality in this article. 
 
  <table style="table-layout:auto"> 
 <col> 
@@ -24,7 +32,7 @@ With Canvas Dashboards, you can create and add reports to a customizable dashboa
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <p>Any </p> 
    </td> 
@@ -32,8 +40,8 @@ With Canvas Dashboards, you can create and add reports to a customizable dashboa
  <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td> 
-<p>Current: Plan </p> 
-<p>New: Standard</p> 
+<p>Standard </p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 
@@ -48,6 +56,10 @@ With Canvas Dashboards, you can create and add reports to a customizable dashboa
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
+## Prerequisites
+
+ Canvas Dashboards must be enabled on the layout template configuration of the Dashboards page left navigation items.
+
 ## Create a dashboard
 
 Canvas Dashboards offer a wide variety of options and configurations that you can use when building a dashboard. In this section, we will walk you through the general process of creating a dashboard.  
@@ -58,7 +70,29 @@ Canvas Dashboards offer a wide variety of options and configurations that you ca
 
 1. Click **New Dashboard** in the top-right corner.  
 
-1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**.  
+1. In the **Create dashboard** box, 
+
+1. Specify the following: 
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader"><strong>Name</strong></td>
+      <td><p>Enter a name for your dashboard. We recommend using only UTF-8 characters to avoid compatibility issues.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><strong>Description (Optional)</strong></td>
+      <td>Enter a description of your dashboard.</td>
+     </tr>
+      <tr>
+      <td role="rowheader"><strong>Currency</strong></td>
+      <td>Choose the default currency type for the dashboard. <br>
+      <br>Users can toggle between different currency types when filtering the dashboard. For more information, see <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filter a dashboard by currency type</a>.</td>
+     </tr>
+    </tbody>
+   </table> 
 
 1. Click **Create**. The **Add report box** opens. From here, you can create a new report or add an existing report to the dashboard. 
 

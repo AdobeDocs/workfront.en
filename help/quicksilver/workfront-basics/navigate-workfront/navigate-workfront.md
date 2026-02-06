@@ -4,7 +4,7 @@ navigation-topic: get-started-with-workfront
 title: "Navigate [!DNL Adobe Workfront]: article index"
 description: Review these articles to get an understanding of how to navigate Adobe Workfront and learn Workfront terminology.
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
 ---
@@ -29,7 +29,7 @@ This section contains the following subsections and articles:
 * [Object headers overview](../../workfront-basics/the-new-workfront-experience/new-object-headers.md)
 * [Pin pages to customize your workspace](../../workfront-basics/the-new-workfront-experience/pin-pages.md)
 * [Lists in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/use-lists/lists.md)
-* [Create custom sections](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
+* [Add a dashboard in the left panel of a Workfront object or area](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
 * [Access [!DNL Adobe Workfront] help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
 * [Overview of the Project, Task, and Issue dates in [!DNL Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
 * [Understand the navigation for a [!UICONTROL Work]-license user](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)

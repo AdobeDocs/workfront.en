@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: You can use a Layout Template to configure what users see when they open Home in Adobe Workfront.
-author: Lisa
+author: Lisa and Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
 ---
-# Customize Home using a Layout Template
+# Customize Home using a layout template
 
-You can use a Layout Template to configure what users see when they first open Home.
+You can use a layout template to configure what users see when they first open Home.
 
 You can configure:
 
@@ -37,31 +37,29 @@ After configuring a layout template, you must assign it to users for changes you
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article: 
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td><p>New: Standard</p>
-  <p> Current: Plan</p>
-   </td> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>To perform these steps at the system level, you need the System Administrator access level.
-To perform them for a group, you must be a manager of that group.</p> </td> 
+   <td>Access level configurations</td> 
+   <td> <p>To perform these steps at the system level, you need the System Administrator access level.</p>
+        <p>To perform them for a group, you must be a manager of that group.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -124,14 +122,12 @@ To customize Home using a layout template:
       <p> You can:</p>
       <ul>
       <li><p>Select and order the Filters, Columns, or Groups available to users by checking the box next to the options in the list. Unchecked options will not appear for users.</p></li>
-      <li> <p>Drag and drop options in the list to set an order.</p></li>
       <p>
 
       >[!IMPORTANT]
       >
       >* The Filter, Columns, and Group options are linked to the list customization options in the Layout Template. Changes made here will apply to those settings as well.
       >* Users must have at least Create access to Views in order for administrator column configuration to properly apply to their Home pages.
-
       </p>
       <li><p>Set a default Filter or Group for the widget, by hovering over an option and clicking <b>Set as default</b>. The current default displays a blue <b>Default</b> badge to its right.</p></li>
       <li><p>Add an existing Filter, Column, or Group to the list of available options by clicking the plus sign button at the bottom of each list to add an option to that list. Note that only existing Filters, Fields (for Columns), or Groups can be added in this way.</p></li>
@@ -148,12 +144,12 @@ To customize Home using a layout template:
       </tbody> 
       </table>
 
-1. Continue customizing the layout template.
+1. Continue customizing the layout template. You can click **Apply** at any time to save your progress.
 
    Or
 
-   If you are finished customizing, click **Save** in the bottom-left corner.
+   If you are finished customizing, click **Save and Close**.
 
    >[!IMPORTANT]
    >
-   >Users must refresh their Home page to see customizations from the Layout Template. 
+   >Users must refresh their Home page to see customizations from the layout template. 

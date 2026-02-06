@@ -15,36 +15,31 @@ Projects are listed in order of priority in the Resource Planner with the most i
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-    <td><p>New: Any</p>
-       <p>or</p>
-       <p>Current: Pro or higher</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p>
-       <p>or</p>
-       <p>Current: Plan</p></td> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Access level configurations</td> 
    <td> <p>Edit access to Resource Management that includes access to Edit priorities and budget hours in the Resource Planner</p> <p>Edit access to Financial Data, Projects, and Users</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the projects you want to budget information for with ability to Manage Finances</p></td> 
+   <td>Object permissions</td> 
+   <td> <p>Manage permissions to the projects you want to budget information for with ability to Manage Finances</p></td>
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -104,9 +99,9 @@ To edit the Project Planning Priority:
 
 >[!IMPORTANT]
 >
->Your company must have a Business or higher Workfront plan to prioritize projects in the Portfolio Optimizer. 
+>Your company must have a Prime or higher Workfront package to prioritize projects in the Portfolio Optimizer. 
 >
->For more information on the Workfront plans, see [Our Plans](https://business.adobe.com/products/workfront/pricing.html). 
+>For more information on the Workfront packages, see [Adobe Workfront packages and pricing](https://business.adobe.com/products/workfront/pricing.html). 
 >
 >For information about prioritizing projects in the Portfolio Optimizer, see [Prioritize projects in the Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 

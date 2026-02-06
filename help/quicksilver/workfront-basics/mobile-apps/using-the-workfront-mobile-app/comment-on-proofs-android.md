@@ -3,7 +3,7 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Comment on proofs in Android
 description: You can review and resolve existing comments on a proof, and add new comments and annotations to the proof document.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 5124144e-b613-46c4-8697-b40caf22af04
 ---
@@ -87,7 +87,7 @@ You can associate your proof comments to a specific area on the document. Use th
    ![Drawing tool settings](assets/android-drawingtoolsettings-350x328.png)
 
 1. Draw the shape on the proof document. Select the **[!UICONTROL Undo]** icon ![Undo](assets/android-undo-icon-30x31.png) to undo the drawing.
-1. (Conditional)&nbsp;Select the shape and choose **[!UICONTROL Settings]** to edit the shape settings, or **[!UICONTROL Remove]** to delete the shape.
+1. (Conditional)  Select the shape and choose **[!UICONTROL Settings]** to edit the shape settings, or **[!UICONTROL Remove]** to delete the shape.
 
    ![Drawing menu](assets/android-drawing-settingsremove-350x166.png)
 

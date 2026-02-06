@@ -55,7 +55,36 @@ This article describes what Work Effort is and how you should use it when estima
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a project and its tasks</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -81,11 +110,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>Manage permissions to a project and its tasks</p>  </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 ## Considerations for using Work Effort
 
@@ -99,15 +124,15 @@ You must have the following access to perform the steps in this article:
 
 ## Enable using Work Effort instead of Planned Hours
 
-1. Go to a project and click the **More** menu ![](assets/more-icon.png), then click **Edit**.  
+1. Go to a project and click the **More** menu ![More icon](assets/more-icon.png), then click **Edit**.  
 1. Click **Task Settings**, then select the option**Use Work Effort to automatically calculate task Planned hours**. This is deselected by default.
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![Work effort on projects](assets/nwe-work-effort-on-projects-350x182.png)
 
    For more information about enabling the use of Work Effort on a project, see the "Tasks Settings" section in the [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md) article. 
 
 1. Click **Tasks** on the left panel , then click the name of a task to access it. 
-1. Click the **More** menu ![](assets/more-icon.png), then click **Edit**. Ensure the task has a Simple Duration Type.
+1. Click the **More** menu ![More icon](assets/more-icon.png), then click **Edit**. Ensure the task has a Simple Duration Type.
 
    >[!TIP]
    >
@@ -115,7 +140,7 @@ You must have the following access to perform the steps in this article:
 
 1. In the **Overview** area, click the Work Effort drop-down menu to correct the amount of effort needed to complete the task.
 
-   ![](assets/work-effort-on-edit-task-page-350x239.png)
+   ![Work effort on Edit Task page](assets/work-effort-on-edit-task-page-350x239.png)
 
    For more information about updating the Work Effort field on a task, see the following articles:
 

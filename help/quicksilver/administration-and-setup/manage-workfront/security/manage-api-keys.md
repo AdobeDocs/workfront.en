@@ -14,6 +14,21 @@ exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
 
+
+
+>[!IMPORTANT]
+>
+>Workfront no longer recommends the use of the `/login` endpoint or API keys. Instead, use one of the following authentication methods:
+>
+>* Server authentication with JWT
+>* User authentication with OAuth2
+>
+>For instructions on setting up these authentication methods, see [Create OAuth2 applications for Workfront integrations](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+>
+>For instructions on using server authentication in Workfront, see [Configure and use your organization's custom OAuth 2 applications using JWT flow](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
+>
+>For instructions on using user authentication in Workfront, see [Configure and use your organization's custom OAuth 2 applications using authorization code flow](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
+
 In order to minimize API security vulnerabilities, Adobe Workfront administrators can manage the API Keys used to enable applications to access Workfront on behalf of a user.
 
 You can reset or remove your current administrator API Key, configure API Keys to expire, and remove the API Keys for all users.
@@ -31,26 +46,26 @@ Examples of applications that leverage the Workfront API are:
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article: 
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -68,10 +83,6 @@ Workfront administrators also have a unique API Key. When an application uses an
 
 You can generate, reset, or remove the API Key for your administrator user account. 
 
->[!NOTE]
->
->You can also generate an API Key through the API. For more information, see the [Event Subscription API](../../../wf-api/general/event-subs-api.md) section in [Event Subscription API](../../../wf-api/general/event-subs-api.md).
-
 {{step-1-to-setup}} 
 
 1. Click **System >** **Customer Info.**
@@ -86,17 +97,9 @@ You can generate, reset, or remove the API Key for your administrator user accou
 
    To remove the API Key: In the **API Key Settings** section, click **Remove**, then **Remove**. 
 
-## Generate an API Key for Non-Admin Users-->
+## Generate an API Key for Non-Admin Users
 
-<!--DELETE THIS SECTION MARCH 2026-->
-
->[!IMPORTANT]
->
->The procedure described In this section has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
->
->All Workfront organizations have now been onboarded to the Adobe Admin Console.
-
-<!--You can generate and manage API Keys for users in roles other than Workfront administrator.
+You can generate and manage API Keys for users in roles other than Workfront administrator.
 
 >[!NOTE]
 >
@@ -126,7 +129,7 @@ You can generate, reset, or remove the API Key for your administrator user accou
    1. Expand **System**, then click **Single Sign-on (SSO)**.
    
    1. Select your SSO method in the **Type** drop down menu.
-   1. Check the checkbox requiring SSO authentication.-->
+   1. Check the checkbox requiring SSO authentication.
 
 ## Configure when API keys expire
 

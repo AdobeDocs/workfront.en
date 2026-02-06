@@ -14,6 +14,7 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
+
 {{planning-important-intro}}
 
 You can edit record information in Adobe Workfront Planning by editing the values of the fields associated with the records. 
@@ -28,8 +29,41 @@ For information about creating records, see [Create records](/help/quicksilver/p
 
 ## Access requirements
 
-+++ Expand to view access requirements.
++++ Expand to view the access requirements for the functionality in this article. 
 
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Workfront and any Planning package</p> <p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Contribute or higher permissions to a workspace and record type  </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
+  </tr>   
+</tbody> 
+</table> 
+
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -82,15 +116,7 @@ For information about creating records, see [Create records](/help/quicksilver/p
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>  <p>Contribute or higher permissions to a workspace and record type </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
-  </tr> 
-
-</tbody> 
-</table> 
-
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++   
-
+  </tr> -->
 
 ## Considerations about editing records
 
@@ -100,24 +126,36 @@ For information about creating records, see [Create records](/help/quicksilver/p
     * The record's preview in a record view
     * The record's details page
     * Inline, in a table view. 
+    * The calendar and timeline view, when resizing or dragging and dropping the records. This updates the records' dates.
 
 * When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users.
 
 * The following types of fields are automatically updated, and you cannot edit their values manually: 
     * Linked fields from other records
     * Formula-type fields
-    * System fields (Created by, Created date, Last modified by, Last modified date) 
-* If the records you display are linked to other records, the new information of the records that you are editing reflects on the linked records. 
+    * System fields (Created by, Created date, Last modified by, Last modified date, Approved date, Approved by) 
+* If the records you display are linked to other records, the new information of the records that you are editing reflects on the linked records in all workspaces where that record is linked. 
 * You cannot edit records in bulk. <!--this will probably change-->
 * URLs are recognized as links in single-line text field types only when they start with the following: http://, https://, ftp://, or www. . 
-* You can add a cover image to each record. The image is unique for each record, and it does not apply to all records of the same time. 
-* You can edit the order of the fields in a record page and add a cover image for a record. For more information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+* You can add a cover image to each record. The image is unique for each record, and it does not apply to all records of the same time. For information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+* You can edit the order of the fields in a record's details page. For more information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+* You can edit a record's Start and End dates by resizing or repositioning the records in the timeline and calendar views. 
+
+    You cannot resize or reposition records when the Start and the End date you chose for the record are read-only. For example, you cannot resize or reposition the record in a timeline and calendar view when using lookup or formula fields for the Start and End date of a record. <!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
+
+    To edit the records' dates, see one of the following sections in this article:
+
+    * [Edit a record in the calendar view of a record type](#edit-a-record-in-the-calendar-view-of-a-record-type)
+    * [Edit a record in the timeline view of a record type](#edit-a-record-in-the-timeline-view-of-a-record-type)
+
 
 ## Edit records
 
 You can edit a record from the following areas:
 
-* [The table view of a record type](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [The table view](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [The timeline view](#edit-a-record-in-the-timeline-view-of-a-record-type)
+* [The calendar view](#edit-a-record-in-the-calendar-view-of-a-record-type)
 * [The record's preview in a view](#edit-a-record-from-the-records-preview-in-a-view)
 * [The record's page](#edit-a-record-from-the-records-page)
 * [A Workfront object in the Planning section](#edit-a-record-from-a-workfront-object-in-the-planning-section)
@@ -185,7 +223,7 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
         * Workfront Planning connection fields.  
         * People fields. Only fields with one value are supported. 
 
-        You cannot copy information from an external source and paste it in any other field types, including Workfront or AEM Assets connection fields.
+        You cannot copy information from an external source and paste it in any other field types, including Workfront or other applications' connections fields.
 
     >[!NOTE]
     >
@@ -211,6 +249,44 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
     >    You can use the keyboard shortcuts multiple times in a row to undo multiple changes.
 
 1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+
+
+### Edit a record in the timeline view of a record type
+
+<!--add another step about drag and drop here when that is available-->
+
+1. Open the record type page in a timeline view. For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+1. Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record. 
+
+    ![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)
+
+1. Click and hold a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.
+
+    >[!IMPORTANT]
+    >
+    >You cannot drag and drop the ends of a record bar, nor drag and drop the record to another date when the Start and the End date you chose for the record are read-only. For example, you cannot resize or reposition the record in a timeline view when using lookup or formula fields for the Start and End date of a record. <!--this also repeats in Considerations and in editing in the calendar view; also update there, if this changes-->
+
+1. Click the bar of a record to open its details area and edit all fields. 
+
+    For information, see the [Edit a record from the record's preview in a view](#edit-a-record-from-the-records-preview-in-a-view) section in this article. 
+
+### Edit a record in the calendar view of a record type
+
+1. Open the record type page in a calendar view. For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+1. (Conditional) Hover over the ends of a record's bar in the calendar view, then click, drag and drop its margins to another date. This automatically updates either the start or end date of the record. 
+
+    ![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)
+
+1. Click and hold a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.
+
+    >[!IMPORTANT]
+    >
+    >You cannot drag and drop the ends of a record bar, nor drag and drop the record to another date when the Start and the End date you chose for the record are read-only. For example, you cannot resize or reposition the record in a calendar view when using lookup or formula fields for the Start and End date of a record. <!--this also repeats in Considerations and in editing in the timeline view; also update there, if this changes-->
+
+1. Click the bar of a record to open its details area and edit all fields. 
+
+    For information, see the [Edit a record from the record's preview in a view](#edit-a-record-from-the-records-preview-in-a-view) section in this article. 
 
 ### Edit a record from the record's preview in a view
 
@@ -332,19 +408,15 @@ After you connect records with Workfront objects, you can edit Workfront Plannin
 
 For more information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md). 
 
+## Edit single- or multi-select field settings when updating their values
 
-<!--
+<!--some of this information is also available in Edit fields article - update both when necessary-->
 
-<div class="preview">
-
-## Add new choices to an existing select field when editing records in the table view
-
-You can add new choices to an existing single- or multi-select field when editing records in the table view. 
+When you update information in a single-or multi-select field, you can add new choices to the field, without having to edit the field. 
 
 >[!IMPORTANT]
 >
 >The functionality described in this section is available only in the table view. It is not available in any other areas where single- or multi-select fields display.
-
 
 **EXAMPLE**
 
@@ -352,7 +424,6 @@ You might have a single-select field called Status that has the choices New and 
 
 * Editing the field. For information, see [Edit fields](/help/quicksilver/planning/fields/edit-fields.md)
 * Adding a new option while editing the record in the table view, as described below. 
-
 
 To add a new choice to an existing select field when editing a record: 
 
@@ -365,6 +436,5 @@ To add a new choice to an existing select field when editing a record:
 
     The new choice is added immediately to the single-select field. 
 
-</div>
+    A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 
--->

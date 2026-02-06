@@ -14,14 +14,6 @@ exl-id: 4b481215-36a1-4945-828a-1598502529d8
 
 >[!IMPORTANT]
 >
->The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. This procedure is not necessary for organizations on the Adobe Admin Console.
->
->Because all Workfront organizations have now been onboarded to the Adobe Admin Console, this article will be removed in the near future.
-
-<!--DELETE ME MARCH 2026-->
-<!--
->[!IMPORTANT]
->
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, no action is necessary.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
@@ -32,7 +24,7 @@ The Adobe Workfront servers utilize the SAML 2.0 protocol for authentication and
 
 You must take action to update the metadata in your identity provider with the information from the renewed certificate before the specified date. Mismatched certificates can keep your users from logging in to Workfront after November 22, 2022.
  
-
+-->
 
 >[!NOTE]
 >
@@ -42,31 +34,26 @@ You must take action to update the metadata in your identity provider with the i
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article: 
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
- <tr> 
-  <td role="rowheader">Adobe Workfront license</td> 
-  <td> <p>New: Standard </p>
- <p>or</p> 
-<p>Current: Plan </p> 
-</td> 
- </tr>   
- <tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p><p>Plan</p></td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> </td> 
+   <td> <p>You must be a Workfront administrator.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -114,5 +101,3 @@ To review the warning message and acknowledge the update of the SAML 2.0 metadat
    You should see a message confirming that the connection was successful.
 
 For more information, or for assistance with the manual configuration of metadata, please contact our Support Team, as explained in [Contact Customer Support](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
-
--->

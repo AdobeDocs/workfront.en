@@ -16,13 +16,9 @@ exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
 
 >[!IMPORTANT]
 >
->The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
+>The procedure described on this page applies only to organizations that are not yet onboarded to the [!UICONTROL Adobe Admin Console].
 >
->All Workfront organizations have now been onboarded to the Adobe Admin Console.
-
-<!--DELETE ME MARCH 2026-->
-
-<!--
+>If your organization has been onboarded to the [!UICONTROL Adobe Admin Console], see [Platform-based administration differences ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Problem
 
@@ -34,22 +30,19 @@ If the problem persists, contact the administrator of this site and provide the 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe [!DNL Workfront] package</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe [!DNL Workfront] license</td> 
-   <td> 
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan</p></td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -58,7 +51,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,4 +64,3 @@ For more detail about the information in this table, see [Access requirements in
 1. **[!UICONTROL Endpoint Type]** = SAML Logout, Binding = POST, URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
 
    You can set a response URL if you want it to redirect to another page. But we recommend the ADFS site because it warns that you are logged off, but you should still close your browser.
--->

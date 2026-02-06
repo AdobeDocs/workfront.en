@@ -51,8 +51,42 @@ Rather than include those users on the object by assigning them to it or making 
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following access to perform the steps in this article:
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront package</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
+   <td> <p>For issues and documents:</p>
 
+   <ul><li><p>Contributor or higher</p></li>
+   <li><p>Request or higher</p></li></ul>
+
+   <p>For all other objects:</p>
+   <ul><li><p>Light or higher</p></li>
+   <li><p>Review or higher</p></li></ul>
+   
+   </td>  
+  </tr>
+   <td role="rowheader"><strong>Access level configuration</strong></td> 
+   <td> <p>View or higher access to the objects where you want to tag users</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permission</strong></td> 
+   <td> <p>View or higher permissions to the objects where you want to tag users</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
 <table style="table-layout:auto">
  <col> 
  <col> 
@@ -75,11 +109,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>View or higher permissions to the objects where you want to post the reply</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 ## Tag others on updates
 
@@ -112,12 +142,13 @@ You can also remove users who are tagged by mistake when you edit or reply to a 
 
       ![Tag a user](assets/tag-others-unified-commenting-with-all-tab.png)
 
-1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. The **Private to my company** option is available only when a Company is specified in your Workfront profile. 
+1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. 
+
+   The **Private to my company** option is available only when a Company is specified in your Workfront profile. 
 
    >[!NOTE]
    >
-   >* This option displays only when the user is associated with a Company.
-   >* Tagged users outside the company could still receive an in-app notification or email, even though they will not see the private comments on the Updates tab. We recommend not to tag external users on an update if you do not want to share the information with them.
+   >Tagged users outside the company could still receive an in-app notification or email, even though they will not see the private comments on the Updates tab. We recommend not to tag external users on an update if you do not want to share the information with them.
       
 1. (Optional) To add multiple users and teams, repeat step 2. <!--insure this stays accurate-->
 
@@ -130,13 +161,13 @@ You can also remove users who are tagged by mistake when you edit or reply to a 
 
    The names of the tagged entities display next to their avatars, up to two entities. If more than two entities are tagged the name of the first one displays, in addition to a number of how many additional entities are tagged.
 
-   ![](assets/members-icons-expanded-unshimmed.png)
+   ![Members icons expanded](assets/members-icons-expanded-unshimmed.png)
 
    When you are tagged in the comment text, your name is highlighted in those comments.
 
    For information about the additional functionality that is available when updating a work item, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optional) Click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**. Remove any of the tagged users, then click **Submit**. 
+1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**. Remove any of the tagged users, then click **Submit**. 
 
    >[!IMPORTANT]
    >
@@ -169,7 +200,7 @@ You can manually tag users in the legacy Updates section.
    >
    >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-   ![](assets/tag-users-in-update.png)
+   ![Tag users in update](assets/tag-users-in-update.png)
 
 1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. The **Private to my company** option is available only when a Company is specified in your Workfront profile. 
 
@@ -188,7 +219,7 @@ You can manually tag users in the legacy Updates section.
 
    You can see who has been tagged in each reply at the top of the update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object.
 
-   ![](assets/tagging-transparency-350x192.png)
+   ![Tagging transparency](assets/tagging-transparency-350x192.png)
 -->
 
    For information about the additional functionality that is available when updating a work item, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

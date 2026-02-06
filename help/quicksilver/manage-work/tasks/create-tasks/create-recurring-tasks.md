@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: create-tasks
-title: Create recurring tasks
+title: Create Recurring Tasks
 description: You can create recurring tasks for tasks you have to repeat as part of a single project.
 author: Alina
 feature: Work Management, Tasks
@@ -20,7 +20,37 @@ For general information about recurring tasks, including the impact of editing a
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p> 
+   <p>Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks and Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> 
+   <p>When you create a task you automatically receive Manage permissions to the task</p> 
+    </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,9 +78,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## Create a recurring task
 
@@ -63,7 +91,7 @@ You must have the following access to perform the steps in this article:
 
    The New Task dialog box displays.
 
-   ![](assets/nwe-create-task-small-screen-350x272.png)
+   ![Create task small screen](assets/nwe-create-task-small-screen-350x272.png)
 
 1. Click **More options** then enter a name for the task in the **Task Name** field.
 1. Continue updating the task the same way you would if you added a new task. For more information about adding a new task, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
@@ -75,7 +103,7 @@ You must have the following access to perform the steps in this article:
 1. Click **Overview** in the left panel.
 1. Scroll down to the **Recurrence Schedule** section, then select the **Make this a recurring task** option.
 
-   ![](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
+   ![Recurrence schedule seection new recurring tasks](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
 1. In the **Frequency** drop-down list, select the number of time units when you want the task to occur and the type of time units. Select from the following options: 
 
@@ -129,7 +157,7 @@ You must have the following access to perform the steps in this article:
    
    For more information about what fields are auto-filled from the parent recurring task, see [Recurring tasks overview](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
 
-   ![](assets/recurring-tasks-in-task-list-nwe-350x87.png)
+   ![REcurring tasks in task list](assets/recurring-tasks-in-task-list-nwe-350x87.png)
 
 1. (Optional) Modify each recurring task as you would any other task in the project.
 

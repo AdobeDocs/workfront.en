@@ -42,7 +42,7 @@ For information, see [Document Details overview](/help/quicksilver/documents/man
 
 We have updated the Iteration details > Custom Forms page to a more modern design that is consistent with other areas of Workfront. The page now supports advanced custom form features such as External Lookup fields.
 
-For information, see [Create an agile story in an iteration](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md).
+For information, see [Create an Agile story in an iteration](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md).
 
 ## Look-and-feel updates for the Groups area
 

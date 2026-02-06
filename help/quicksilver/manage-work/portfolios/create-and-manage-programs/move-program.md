@@ -9,7 +9,7 @@ exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
 ---
 # Add an existing program to a portfolio
 
-<!--Audited: 5/2025-->
+<!--Audited: 10/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -21,7 +21,34 @@ You can add existing programs to a portfolio. Because programs cannot exist in t
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>[!UICONTROL Standard]</p><p>[!UICONTROL Plan]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to [!UICONTROL Portfolios] and [!UICONTROL Programs] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio and the program</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,11 +71,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>[!UICONTROL Manage] permissions to the portfolio and the program</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 ## Add an existing program to a portfolio
 
@@ -56,7 +79,7 @@ You must have the following access to perform the steps in this article:
 1. Click **[!UICONTROL New Program]**.
 1. Click **[!UICONTROL Existing Program]**.
 
-   The **Add Programs** box opens. <!--check screen shot - I logged changes for this casing-->
+   The **Add programs** box opens. <!--check screen shot - I logged changes for this casing-->
 
    ![Add program box](assets/add-programs-box.png)
 
@@ -64,12 +87,12 @@ You must have the following access to perform the steps in this article:
    >
    >Adding an existing program carries all projects associated with that program to the portfolio. Be careful not to unintentionally move projects this way.
 
-1. In the **[!UICONTROL Add Programs to this Portfolio]** field, type the name of a program, then select it when it displays in the list. <!--see the name of this field, I suggested changes here-->
+1. In the **[!UICONTROL Add programs to this portfolio]** field, type the name of a program, then select it when it displays in the list. <!--see the name of this field, I suggested changes here-->
 
    You can add more than one program.
 
 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a program if you decide not to add it to the portfolio.
 
-1. Click **[!UICONTROL Add Programs]**. <!--check this button in the UI after they implemented the changes??-->
+1. Click **[!UICONTROL Add programs]**. 
 
    The program displays in the **[!UICONTROL Programs]** tab on the portfolio you selected.

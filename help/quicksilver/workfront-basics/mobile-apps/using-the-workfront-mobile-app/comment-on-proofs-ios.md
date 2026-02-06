@@ -3,7 +3,7 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Comment on proofs in iOS
 description: You can review and resolve existing comments on a proof, and add new comments and annotations to the proof document.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: c38f0d80-11e0-4d5a-9591-602543177fe6
 ---
@@ -77,7 +77,7 @@ You can associate your proof comments to a specific area on the document. Use th
    ![Drawing tool settings](assets/ios-drawingtoolsettings-350x359.png)
 
 1. Draw the shape on the proof document. Select the **[!UICONTROL Undo]** icon ![Undo](assets/android-undo-icon-30x31.png) to undo the drawing.
-1. (Conditional)&nbsp;Select the shape and choose **[!UICONTROL Settings]** to edit the shape settings, or **[!UICONTROL Remove]** to delete the shape.
+1. (Conditional)  Select the shape and choose **[!UICONTROL Settings]** to edit the shape settings, or **[!UICONTROL Remove]** to delete the shape.
 
    ![Drawing menu](assets/ios-drawing-settingsremove-350x190.png)
 

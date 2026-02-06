@@ -24,31 +24,27 @@ For more information, see [Overview of converting issues in Adobe Workfront](../
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
-   <td>Any</td> 
+  <tr> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td>
-   <p>New: Standard</p>
-   <p>or</p>
-   <p>Current: Plan</p></td> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations</td> 
+  <tr> 
+   <td>Access level configurations</td> 
    <td> <p>Administrative access to custom forms</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,8 +69,8 @@ For more detail about the information in this table, see [Access requirements in
 1. Add additional objects to the custom form on the issue or task you are converting, as explained in the section [First: Add additional objects to the custom form](#first-add-additonal-objects-to-the-custom-form) in this article.
 1. Convert the issue or task using the **Custom Forms** option in the box that displays to select the custom form you need. For instructions, see the following articles:
 
-   * [Convert an issue to a project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
-   * [Convert an issue to a task in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
+   * [Convert an issue to a project](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
+   * [Convert an issue to a task](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [Convert a task to a project](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
 1. In the **Convert to (object type)** dialog box that displays, click the **Add Forms** drop-down menu and select the form you copied in the previous section.

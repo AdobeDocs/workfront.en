@@ -11,7 +11,7 @@ exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
 ---
 # Configure preferences for user updates
 
-<!--Audited: 06/2025-->
+<!--Audited: 08/2025-->
 
 You can configure preferences that give users access to certain features when they are adding comments in an object's [!UICONTROL Updates] area.
 
@@ -19,8 +19,34 @@ You can configure preferences that give users access to certain features when th
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td><p>Any</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td><p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p>
+   </td> 
+  </tr>  
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td><p>System administrator, to perform these steps at the system level. </p>
+   <p>Planner, to perform these steps for a group, in addition to being the manager of that group.</p></td>
+  </tr> 
+ </tbody> 
+</table>
 
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -41,11 +67,7 @@ You must have the following access to perform the steps in this article:
    <td><p>To perform these steps at the system level, you need the [!UICONTROL System Administrator] access level.</p><p>To perform them for a group, you must be a manager of that group.</p></td>
   </tr> 
  </tbody> 
-</table>
-
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Allow users to add images in updates
 

@@ -3,7 +3,7 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Add a Subtask to an Existing Story on the Scrum Board
 description: When creating subtasks for existing stories, keep in mind the Completion Mode setting for the project, because this affects how stories are updated.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
 ---
@@ -56,7 +56,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
 
-1. Go to the agile iteration or project that contains the story where you want to add a subtask. For information about how to navigate to an iteration, see [View an iteration](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
+1. Go to the Agile iteration or project that contains the story where you want to add a subtask. For information about how to navigate to an iteration, see [View an iteration](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
 1. Go to the story tile on the story board where you want to add a subtask.
 1. Click **[!UICONTROL Add Subtask]** on the main story card to create a subtask to the story.
 
@@ -66,7 +66,7 @@ For more detail about the information in this table, see [Access requirements in
 
    Click **[!UICONTROL Add Subtask]** on a subtask tile to create a subtask to the subtask.
 
-   [!DNL Workfront] supports infinite levels of subtasks, but only two levels (subtasks of subtasks) are displayed on the agile story board.
+   [!DNL Workfront] supports infinite levels of subtasks, but only two levels (subtasks of subtasks) are displayed on the Agile story board.
 
    ![Add subtask](assets/agile-story-addsubtask2-NWE.png)
 

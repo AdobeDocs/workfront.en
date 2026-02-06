@@ -3,7 +3,7 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: View total hours on the timesheet
 description: You can view the total number of hours on your timesheet. The total number of timesheet hours includes hours logged for projects, tasks, issues, and all general hours.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: ff0823f2-61d0-453f-ae1c-68f0f1465d73
 ---
@@ -19,33 +19,31 @@ The total hours reflect hours submitted through the timesheet, the Updates area,
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New: Light or higher </p>
-   <p>Current: Review or higher</p> </td> 
+   <td>Adobe Workfront license</td> 
+   <td> <p>Light or higher </p>
+   <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configuration</td> 
+   <td>Access level configuration</td> 
    <td> <p>View or higher access to Tasks and Issues</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td>Object permissions</td> 
    <td> <p>View or higher permissions on tasks and issues</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

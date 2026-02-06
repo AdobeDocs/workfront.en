@@ -275,8 +275,8 @@ The 23.3 release webinar was on June 29, 2023. You can [register for the webinar
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Migrate agile team Kanban cards to Boards</a></p>
-                        <p>A new <b>Add to Boards</b> button on agile team Kanban boards allows you to add all cards from the Kanban board to a Workfront board. You can choose to create a new Workfront board or add the cards to an existing board.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Migrate Agile team Kanban cards to Boards</a></p>
+                        <p>A new <b>Add to Boards</b> button on Agile team Kanban boards allows you to add all cards from the Kanban board to a Workfront board. You can choose to create a new Workfront board or add the cards to an existing board.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>

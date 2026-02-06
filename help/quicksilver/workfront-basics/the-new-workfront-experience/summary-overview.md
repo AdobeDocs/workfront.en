@@ -1,7 +1,7 @@
 ---
 content-type: overview
 title: Summary overview
-description: ou can use the Summary panel to review and update work item information directly from a list of tasks issues, documents, or from other areas of [!DNL Adobe Workfront] that display tasks and issues.
+description: You can use the Summary panel to review and update work item information directly from a list of tasks issues, documents, or from other areas of [!DNL Adobe Workfront] that display tasks and issues.
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
@@ -97,45 +97,15 @@ For information about accessing the [!UICONTROL Summary] in the [!UICONTROL Work
 
 For information about accessing the [!UICONTROL Summary] for documents, see [[!UICONTROL Summary] for documents overview](../../documents/managing-documents/summary-for-documents.md).
 
-## Access requirements
-
-You must have the following access to perform the steps in this article:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>New: Contributor or higher</p>
-   Or
-   <p>Current:[!UICONTROL Request] or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Access level configuration</strong></td> 
-   <td> <p>[!UICONTROL View] or higher access to Tasks, Issues, Documents</p> <p>[!UICONTROL View] or higher access to any objects for which you want to view documents [!UICONTROL Summary]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>[!UICONTROL View] or higher permissions to a task, issue, or document</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## View the [!UICONTROL Summary] panel in a list of tasks or issues
 
 1. Go to a task or issue and select an item in the list.
-1. Click the **[!UICONTROL Summary]** icon ![](assets/qs-summary-in-new-toolbar-small.png)
+1. Click the **[!UICONTROL Summary]** icon ![Summary in new toolbar](assets/qs-summary-in-new-toolbar-small.png)
 
    or
 
-   Click the **[!UICONTROL Open Summary]** icon ![](assets/open-summary-with-text-nwe.png) in the [!UICONTROL Submitted] section of the [!UICONTROL Requests] area.
+   Click the **[!UICONTROL Open Summary]** icon ![Open Summary with text](assets/open-summary-with-text-nwe.png) in the [!UICONTROL Submitted] section of the [!UICONTROL Requests] area.
 
    After you open the Summary, it stays open as you click or select other tasks or issues and remains open until you manually close it.
 
@@ -147,13 +117,13 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) To close the [!UICONTROL Summary] panel, do one of the following:
 
-   * In a task or issue list, click the **[!UICONTROL Open Summary]** icon ![](assets/summary-panel-icon.png)
+   * In a task or issue list, click the **[!UICONTROL Open Summary]** icon ![Summary panel icon](assets/summary-panel-icon.png)
 
       Or
 
       Click the **X** icon in the upper-right corner of the [!UICONTROL Summary] panel.
 
-   * In the [!UICONTROL Submitted] section of the [!UICONTROL Requests] area, click the **[!UICONTROL Close Summary]** icon ![](assets/close-summary-with-text-nwe.png)
+   * In the [!UICONTROL Submitted] section of the [!UICONTROL Requests] area, click the **[!UICONTROL Close Summary]** icon ![Close Summary with text](assets/close-summary-with-text-nwe.png)
 
       Or
 

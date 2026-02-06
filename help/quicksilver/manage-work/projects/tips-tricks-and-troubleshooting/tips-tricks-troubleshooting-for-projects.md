@@ -1,8 +1,7 @@
 ---
-title: "Tips, tricks, and troubleshooting for projects: article index"
-description: Tips, tricks, and troubleshooting for projects
+title: "Tips, Tricks, and Troubleshooting for Projects: Article Index"
+description: This article offers tips on how to troubleshoot common problems when working with projects in Adobe Workfront. 
 author: Alina
-draft: Probably
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: dd849f4e-aa48-4e27-80b7-af321f730708

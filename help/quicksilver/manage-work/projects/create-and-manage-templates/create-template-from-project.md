@@ -10,6 +10,8 @@ exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
 ---
 # Create template from project
 
+<!--Audited: 10/2025-->
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: Keep this article in the Creating and Managing Templates area with the detailed information that this contains. Since this is an article about creating TEMPLATES, this needs to be detailed under Templates; there is a similar article with almost the same title in Managing projects that points to this one - since this functionality is in the UI under Projects, this article must have a presence in that areas as well. Keep both, but make this one the only editable one (iterative))</p>
 -->
@@ -26,8 +28,37 @@ After you save an existing project as a template, you can use the new template t
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p> 
+   <p>Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Templates</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions to a project </p> <p>You obtain Manage permissions to the template after you create it</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+ +++
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -49,14 +80,12 @@ You must have the following access to perform the steps in this article:
    <td> <p>View or higher permissions to a project </p> <p>You obtain Manage permissions to the template after you create it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+</table>-->
 
 ## Create template from project
 
 1. Go to the project that you want to save as a template. 
-1. Click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png), then **Save as Template**. 
+1. Click the **More** menu ![More icon](assets/more-icon.png), then **Save as Template**. 
 1. Specify the following information for the template:
 
    <table style="table-layout:auto"> 
@@ -64,7 +93,7 @@ You must have the following access to perform the steps in this article:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Name</td> 
+      <td role="rowheader">Template Name</td> 
       <td>Specify a name for the template.</td> 
      </tr> 
      <tr> 
@@ -79,29 +108,32 @@ You must have the following access to perform the steps in this article:
         <li><strong>No</strong>: Other users cannot find the template and cannot attach it to projects.</li> 
        </ul> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Custom Forms</td> 
-      <td>Use the drop-down list to select any custom forms to attach to the template. If any custom forms have already been associated with the project, all of the data fields from those custom forms are displayed.<br>You can include up to 10 custom forms on a single template.</td> 
-     </tr> 
     </tbody> 
    </table>
 
-1. Click **Manage Forms** to remove or reorder the forms. For information about how to remove and reorder custom forms on the template, see [Custom forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. Click **Custom Forms** in the left panel.   
+1. Click the **Add custom form** field and either start typing the name of a project custom for, or select one from the list. 
 
-   ![Save as template first step](assets/save-as-template-first-step-350x159.png)
+   If any custom forms are already associated with the project, all of the information in the existing fields from those custom forms displays on the forms.
+   
+   You can include up to 10 custom forms on a single template.
 
-1. Click **Next Step.**
-1. In the**Options** section, select the checkbox beside any information you want to clear from the template.
+1. Hover over a form's name, then click to drag and drop it in a new place.
 
-   ![Save as template options](assets/save-as-template-options-step-350x109.png)
+   ![Save project as template top of the box](assets/save-project-as-template-top-of-the-form.png)
 
-1. Click **Next Step.**
-1. In the **Exclude** section, select any tasks that you want to exclude from the project.
+1. Click **Options** in the left panel, then select the fields or items you want to transfer to the template.
 
-   ![Save as template exclude](assets/save-as-template-exclude-350x205.png)
+   All items are checked by default. Deselected items are not transferred to the template. 
+
+   ![Save as template options](assets/save-project-as-template-options-area.png)
+
+1. Click **Exclude** in the left panel, then select any tasks that you want to exclude from the project.
+
+   ![Save as template exclude](assets/save-project-as-template-exclude-area.png)
 
 1. Click **Finish and Save Template.**
 
-   Your template now appears in the list of available templates and can either be attached to an existing project or used to create a new one.
+   Your template now appears in the list of available templates. Users can either attach the new template to an existing project or use it to create a project. 
 
-&nbsp;
+

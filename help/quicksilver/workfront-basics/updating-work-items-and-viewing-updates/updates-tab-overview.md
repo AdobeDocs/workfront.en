@@ -182,7 +182,7 @@ There are differences between how comments and updates display for different obj
 <!--
 ### Overview of the legacy Updates section 
 
-![](assets/updates-tab-before-unified-experience-for-tasks.png)
+![Updates tab](assets/updates-tab-before-unified-experience-for-tasks.png)
 
 The legacy Updates section shows the following information:
 
