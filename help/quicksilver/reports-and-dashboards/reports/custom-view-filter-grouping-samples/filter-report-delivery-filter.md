@@ -60,8 +60,7 @@ To apply this filter:
 1. In the **Set Filter Rules for your Report** area, copy and paste the following code:
 
     ```
-    scheduledReportID=0
-    scheduledReportID_Mod=notnull
+     scheduledReportsOM:ID_Mod=notblank
     ```
 
 1. Click **Save Filter**.
