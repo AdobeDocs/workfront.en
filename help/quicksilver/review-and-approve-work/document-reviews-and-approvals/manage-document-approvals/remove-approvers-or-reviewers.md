@@ -61,13 +61,15 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Scroll down to the **Approvals** section in the Document Summary panel. 
 
-1. Click **Edit workflow**, then 
+1. Click **Edit workflow**.
+
+1. Locate the participant you want to remove, then click the **Remove** icon next to their name.
 
     The approval or review request is removed and the approver receives a notification that their approval is no longer needed. Their approval-related share access is also removed.
 
     ![edit approval workflow](assets/edit-approval-in-legacy.png)
 
-1. (Optional) To change the role of an approver to a reviewer, or vice versa, click the drop-down menu next to the  username, and select the new role.
+1. (Optional) To change the role of an approver to a reviewer, or vice versa, click the drop-down menu next to the username, and select the new role.
 
 1. Repeat the previous step to remove any additional approvers or reviewers.
 
@@ -93,7 +95,7 @@ To create a an approval workflow:
    </tr>
    <tr>
    <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
    <td><strong>One decision required (optional)</strong></td>
