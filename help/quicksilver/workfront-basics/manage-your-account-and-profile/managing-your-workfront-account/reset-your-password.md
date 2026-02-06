@@ -34,10 +34,6 @@ You can reset your [!DNL Adobe Workfront] password. As an important security mea
 You must have the following:
 
 <table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
