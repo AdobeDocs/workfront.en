@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Use Connected Cards on Boards
 description: You can add a card on your board that is connected to existing tasks and issues in Workfront.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 ---
@@ -34,21 +34,18 @@ To synchronize connected cards with Workfront, click the **[!UICONTROL More]** m
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td>
-   <p>New: Contributor or higher</p>
-   <p>Or</p>
-   <p>Current: Request or higher</p>
- </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+   <p>Contributor or higher</p> 
+   <p>Request or higher</p>
+   </td> 
   </tr> 
   <tr>
    <td role="rowheader">Access level configurations</td>
@@ -57,7 +54,7 @@ You must have the following access to perform the steps in this article:
   <tr>
    <td role="rowheader">Object permissions</td>
    <td><p>View or higher permissions to the Workfront task or issue</p>
-   <p><strong>Note:</strong> Users with View permissions to a task or issue cannot take any action on cards connected to it, including moving the card to another column on the board. View users can only open the card to see its properties, and open the connected task or issue. To request additional access, open the task or issue and request access there.</td>
+</td>
   </tr>
  </tbody> 
 </table>
@@ -184,13 +181,21 @@ For more detail about the information in this table, see [Access requirements in
 
 You can disconnect a connected card from its Workfront object, and the card remains on the board as an ad hoc card that you can edit.
 
-To disconnect at the board level:
+>[!NOTE]
+>
+>If you disconnect a connected card on a dynamic board, it will reappear when you refresh the board because this board type pulls in all tasks and issues from a specific project.
+>
+>If you disconnect a connected card from any other board type that has an intake column, the card will reappear in the intake column when you refresh the board if the connected task or issue is not yet marked complete.
+>
+>In both of these scenarios, after a refresh you will have two cards for the same task or issue: an ad hoc card and a connected card.
+
+To disconnect a card at the board level:
 
 1. Access the board.
 1. Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the connected card and select **[!UICONTROL Disconnect]**.
 1. Click **[!UICONTROL Disconnect]** on the confirmation message.
 
-To disconnect at the card level:
+To disconnect a card at the card level:
 
 1. Access the board and open the connected card.
 1. Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) in the Connection area of the card details, and select **[!UICONTROL Disconnect]**.

@@ -5,7 +5,7 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Manage Hour Types
 description: You can associate hour types with your hour entries. Hour types are labels you use to define your hour entries. Hour types can be for general time or for project-specific time.
-author: Alina, Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
@@ -51,29 +51,29 @@ For information about logging hours and associating them with hour types, see [L
 
 ## Access requirements
 
-+++ Expand to view access requirements.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Standard or Plan</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] license</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level</td> 
-   <td>System Administrator</td>
+   <td>Access level configurations</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -4,7 +4,7 @@ content-type: reference
 navigation-topic: boards
 title: Early Feature Opt-In for [!DNL Workfront] Boards
 description: Read this article to learn about the [!DNL Workfront Boards] early feature opt-in.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
 ---

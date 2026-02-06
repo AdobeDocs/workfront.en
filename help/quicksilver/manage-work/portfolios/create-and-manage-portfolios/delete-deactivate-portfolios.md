@@ -1,7 +1,7 @@
 ---
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
-title: Delete and deactivate portfolios
+title: Delete and Deactivate Portfolios
 description: Portfolios are collections of projects or programs in Adobe Workfront. You can delete or deactivate a portfolio if you find that it's irrelevant for your system.
 author: Alina
 feature: Work Management, Strategic Planning
@@ -9,7 +9,7 @@ exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
 ---
 # Delete and deactivate portfolios
 
-<!--Audited: 2/2024-->
+<!--Audited: 08/2025-->
 
 Portfolios are collections of projects or programs in [!DNL Adobe Workfront]. You can delete or deactivate a portfolio if you find that it's irrelevant for your system.
 
@@ -17,7 +17,37 @@ We recommend deactivating a portfolio that no longer needs to be associated with
 
 ## Access requirements
 
-+++ Expand to view access requirements.
++++ Expand to view access requirements.Expand to view access requirements for the functionality in this article. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions on the portfolio </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,8 +74,7 @@ We recommend deactivating a portfolio that no longer needs to be associated with
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+-->
 
 ## Overview of deleting and deactivating portfolios
 
@@ -61,6 +90,18 @@ Consider the following when deciding whether to delete or deactivate portfolios:
 * You cannot recover deleted portfolios.
 * Deactivating a portfolio ensures that the name of the portfolio and its programs can no longer be assigned to projects when creating a project.
 * Deactivating a portfolio that is already attached to a project does not remove it from the project. If you remove a deactivated portfolio from a project you must reactivate it before you can reattach it to the project.
+
+## Delete a portfolio
+
+{{step1-to-portfolios}}
+
+1. Do one of the following:
+
+   * Select the portfolio in the list, then click the **[!UICONTROL Delete]** icon ![Delete icon](assets/delete.png).
+   * Click the portfolio to open it, then click the **More** menu ![More menu](assets/more-icon.png) to the right of the portfolio name, then **Delete Portfolio**. 
+1. Click **[!UICONTROL Yes, Delete It]** to confirm.
+
+   The portfolio is deleted and cannot be recovered. 
 
 ## Deactivate a portfolio
 
@@ -78,14 +119,4 @@ When you deactivate a portfolio, you can still access it from the [!UICONTROL Po
    The portfolio is immediately deactivated. 
 1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png) to the right of the portfolio name, then click **[!UICONTROL Activate Portfolio]** to reactivate it. 
 
-## Delete a portfolio
 
-{{step1-to-portfolios}}
-
-1. Do one of the following:
-
-   * Select the portfolio in the list, then click the **[!UICONTROL Delete]** icon ![Delete icon](assets/delete.png).
-   * Click the portfolio to open it, then click the **More** menu ![More menu](assets/more-icon.png) to the right of the portfolio name, then **Delete Portfolio**. 
-1. Click **[!UICONTROL Yes, Delete It]** to confirm.
-
-   The portfolio is deleted and cannot be recovered. 

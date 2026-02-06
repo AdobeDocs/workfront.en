@@ -4,7 +4,7 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View: display the result of a calculation between two fields in a column'
 description: You can use text mode in a column to display a calculation between two fields.
-author: Lisa and Nolan
+author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 303f8824-311a-4de0-9777-cfa11ecad1e1
 ---
@@ -24,26 +24,19 @@ For more information about calculated data expressions, see [Overview of calcula
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-    <p>New:</p>
-   <ul><li><p>Contributor to modify a filter </p></li>
-   <li><p>Standard to modify a report</p></li> </ul>
-
-   <p>Current:</p>
-   <ul><li><p>Request to modify a filter </p></li>
-   <li><p>Plan to modify a report</p></li> </ul></td> 
+   <p>Contributor or Request to modify a filter </p>
+   <p>Standard or Plan to modify a report</p>
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -56,7 +49,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -4,7 +4,7 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: Review Iteration Metrics
 description: Metrics are available for each iteration in a workstream, on the iteration process board.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
 ---
@@ -20,22 +20,19 @@ Metrics are available for each iteration in a workstream, on the iteration proce
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-   <p>New: [!UICONTROL Contributor] or higher</p> 
-   <p>or</p>
-   <p>Current: [!UICONTROL Request] or higher</p>
+   <p>Contributor or higher</p> 
+   <p>Request or higher</p>
    </td> 
   </tr> 
  </tbody> 

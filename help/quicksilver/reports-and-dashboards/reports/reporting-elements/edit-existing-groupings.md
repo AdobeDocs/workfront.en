@@ -17,42 +17,35 @@ You can customize an existing grouping that you originally created or that was s
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader">Adobe Workfront license</strong></td> 
    <td> 
-      <p>New:</p>
-         <ul>
-         <li><p>Contributor or higher</p></li>
-         </ul>
-      <p>Current:</p>
-         <ul>
-         <li><p>Request or higher</p></li>
-         </ul>
+    <p>Contributor or higher</p>
+    <p>Request or higher</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to Reports, Dashboards, Calendars to edit a grouping in a report</p></td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to Reports, Dashboards, Calendars to edit a grouping in a report</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>Manage permissions to a report to edit a grouping in a report</p> <p>Manage permissions to a grouping</p></td> 
+   <td role="rowheader">Object permissions</td> 
+    <td> <p>Manage permissions to a report to edit a grouping in a report</p> <p>Manage permissions to a grouping</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Prerequisites

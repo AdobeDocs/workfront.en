@@ -48,7 +48,11 @@ For information, see [Use the My Updates area](/help/quicksilver/workfront-basic
 >* Production fast release: June 12, 2025 
 >* Production for all customers:  July 17, 2025
 
-We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent approvals to appear at the top of the list.
+We have updated the My Approvals widget in home to sort by deadline (ascending) by default. This allows the most urgent approvals to appear at the top of the list. Approvals are ordered as follows:
+
+* Overdue deadlines
+* Upcoming deadlines
+* Items with no deadline
 
 Currently, only Proof Approvals can be sorted by deadline in the My Approvals widget.
 

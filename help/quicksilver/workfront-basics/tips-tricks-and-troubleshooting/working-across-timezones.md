@@ -4,6 +4,7 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Working across time zones
 description: It can be helpful to understand how [!DNL Adobe Workfront] uses time zones to calculate time fields for objects and times in other areas such as emails.
 feature: Get Started with Workfront
+author: Becky
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
 ---
 # Working across time zones

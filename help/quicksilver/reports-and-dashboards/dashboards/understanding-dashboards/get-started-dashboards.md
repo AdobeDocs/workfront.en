@@ -18,43 +18,34 @@ The purpose of a dashboard is to provide quick access to information that comes 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following:
 
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Adobe Workfront plan</strong></p> </td> 
-   <td>Any</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront license</strong></p> </td> 
-      <td> 
-      <p>New:</p>
-         <ul>
-         <li><p>Contributor or higher</p></li>
-         </ul>
-      <p>Current:</p>
-         <ul>
-         <li><p>Review or higher</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+      <p>Contributor or higher</p>
+      <p>Review or higher</p>
    </td> 
   </tr> 
   <tr> 
-   <td><strong>Access level</strong> </td> 
-   <td> <p>View or higher access to Reports, Dashboards, and Calendars</p> </td> 
-  </tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View access to Reports, Dashboards, and Calendars</p></td> 
+  </tr>  
   <tr> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>View permissions to the dashboard</p>  </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,8 +71,8 @@ You can share a dashboard with users in the following ways:
 * Sharing on an individual basis.  
   For more information about sharing dashboards, see [Share reports, dashboards, and calendars](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) and [Share a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
 
-* Add a dashboard to any area or object in Workfront with a custom section.  
-  For more information on creating custom sections, see [Left navigation in the Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+* Add a dashboard to any area or object in Workfront in the left panel.  
+  For more information on adding dashboards to the left panel, see [Left navigation in the Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Place the dashboards on layout templates, which you can share with users.  
   For more information about sharing dashboards through layout templates, see [Customize the left panel using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
@@ -102,8 +93,8 @@ When you share a dashboard with users, all the reports, calendars, and external 
 
 You can display a dashboard in the following ways:
 
-* Access the custom section where the dashboard is placed.  
-  For more information on placing dashboards on custom sections, see [Left navigation in Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+* Access the dashboard via the left panel of an object.
+  For more information on placing dashboards on the left panel, see [Left navigation in Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Search for and manually access the dashboard.
 

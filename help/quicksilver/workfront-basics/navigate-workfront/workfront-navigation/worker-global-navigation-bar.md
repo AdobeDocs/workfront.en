@@ -4,7 +4,7 @@ product-area: user-management
 navigation-topic: workfront-navigation
 title: Understand the navigation for a Work-license user
 description: The Main Menu changes with the access level you have been assigned by your [!DNL Adobe Workfront] administrator. By default, you are given access only to the areas that include functionality allowed by your access level.
-author: Lisa
+author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
 ---

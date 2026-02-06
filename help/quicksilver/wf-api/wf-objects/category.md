@@ -137,9 +137,9 @@ message: "APIModel INTERNAL does not support field projectid (OpTask)"-->
 
 | Name |Label |Type |Type Object Code |
 |---|---|---|---|
-| Customer |customer |Customer |CUST | 
-| Entered By |enteredBy |User |USER | 
-| Group |group |Group |GROUP |  
+| Customer |customer |Customer |CUST |
+| Entered By |enteredBy |User |USER |
+| Group |group |Group |GROUP |
 | Last Updated By |lastUpdatedBy |User |USER |
 
 

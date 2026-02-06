@@ -12,9 +12,9 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 <!-- Audited: 4/2025 -->
 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>   
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> --> 
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -30,7 +30,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 >
 >For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
-><Span class="preview"> The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. </span>
+>The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. 
 >
 >The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
 >
@@ -39,7 +39,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 > * Summary panel in timesheets 
 > * Summary panel in the Workload Balancer
 >
-><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
+>The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. 
 -->
 
 You can add an update to an Adobe Workfront object by adding a comment to it to inform others about the status or the progress on the object, or to ask for more information or additional resources. 
@@ -64,8 +64,45 @@ For additional information about commenting on cards, goals, and records in Work
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront package</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
+   <td> <p>For issues and documents:</p>
 
+   <ul><li><p>Contributor or higher</p></li>
+   <li><p>Request or higher</p></li></ul>
+
+   <p>For all other objects:</p>
+   <ul><li><p>Light or higher</p></li>
+   <li><p>Review or higher</p></li></ul>
+   
+</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>View or Edit access for the object the update is on</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>View access to the object</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -93,10 +130,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+-->
 
 ## Considerations about commenting on objects
 
@@ -235,9 +269,9 @@ This article describes how you can update projects, tasks, or issues. Updating m
 1. Click  **Updates** in the left panel. 
    The **Comments** tab is selected by default.
 
-1. <span class="preview">Start entering a comment in the **New comment** box.</span>
+1. Start entering a comment in the **New comment** box.
 
-   <span class="preview">![New comment box](assets/comment-box-all-tabs.png)</span>
+   ![New comment box](assets/comment-box-all-tabs.png)
    
    >[!TIP]
    >
@@ -247,7 +281,7 @@ This article describes how you can update projects, tasks, or issues. Updating m
       * CTRL + Z (⌘+z for Mac) to undo a change 
       * CTRL + Y (⌘+y for Mac) to redo a change
 
-1. <span class="preview">(Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, or select it when it displays in the list. </span>
+1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, or select it when it displays in the list. 
 1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article. 
 
       >[!TIP]
@@ -330,7 +364,7 @@ You can enhance your comments by using Rich Text, or adding various items to it,
    | Bulleted List | ![Bulleted list icon](assets/mceclip6.png)|⌘+Shift+8 |Ctrl+Shift+8 |
    | Numbered List | ![Numbered list icon](assets/mceclip5.png)|⌘+Shift+7 |Ctrl+Shift+7 |
    
-   <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
+   <!--| Block Quote | ![Block quote icon](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
    
    <!--remove the last row when we remove legacy from the system-->
 
@@ -346,11 +380,11 @@ You can enhance your comments by using Rich Text, or adding various items to it,
    >* If your organization uses Workfront with Internet Explorer, any formatted text pasted into an update loses its Rich Text formatting and displays as plain text. You can reformat the text using the attributes on the Rich Text toolbar.
    >* Rich Text formatting is not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
 
-   <!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
+   <!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![Block quote icon](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
 
       <!--remove this picture below and the bullet above when we remove legacy-->
 
-      <!--![](assets/block-quote-marked-350x144.png)-->
+      <!--![Block quote](assets/block-quote-marked-350x144.png)-->
 
 1. (Optional) Click the **emoji** icon ![Emoji icon](assets/emoji-icon.png) to add emojis to your update. 
 
@@ -381,7 +415,7 @@ You can enhance your comments by using Rich Text, or adding various items to it,
    >
    >* Goals
    >* Ad hoc cards on boards
-   >* Records in Workfront Planning. For information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md)
+   >* Records in Workfront Planning. For information, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
    >
    
    To attach an image to your update, do one of the following: 
@@ -394,7 +428,7 @@ You can enhance your comments by using Rich Text, or adding various items to it,
    >[!IMPORTANT]
    >
    >
-   ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
+   >* You cannot add images to goals or ad-hoc cards on boards.
    >
    >* Your Workfront administrator must enable adding images in the Update Feeds Preferences section of the Workfront Interface area before you can see the Image or the Add attachment icons. For information, see [Configure preferences for user updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md). 
    >* The maximum image file size is 7 MB. Supported image file types are .jpg, .gif, and .png.
@@ -520,7 +554,7 @@ This option copies the text from a specific update to the clipboard.
 1. Go to the update or reply you want to copy.
 1. Click the **More** menu, then click **Copy body text**.
 
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
+   ![Update stream comment menu](assets/update-stream-comment-menu-marked-350x152.png)
 
 #### Copy the thread link {#copy-the-thread-link}
 
@@ -530,7 +564,7 @@ This option copies the full thread link to the clipboard so you can share the th
 
 1. Click the **More** menu, then click **Copy thread link**.
 
-   ![](assets/update-stream-comment-menu-marked-350x152.png) 
+   ![Stream comment menu marked](assets/update-stream-comment-menu-marked-350x152.png) 
 
 1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
 
@@ -541,7 +575,7 @@ This option copies a specific update link to the clipboard. When you share the u
 1. Go to the update or reply you want to copy.
 1. Click the **More** menu next to the individual update, then click **Copy update link**.
 
-   ![](assets/copy-update-link-old-ui.png)
+   ![Copy update link](assets/copy-update-link-old-ui.png)
 
 1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
 

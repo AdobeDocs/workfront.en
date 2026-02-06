@@ -12,7 +12,7 @@ exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 
 # Share record types
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -30,13 +30,62 @@ You can share a record type with others to ensure collaboration when working wit
 
 ## Access requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view access requirements for the functionality in this article. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
-You must have the following access to perform the steps in this article:  
+
 
  <table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Workfront and Planning package</p> 
+Or
+<p>Any Workflow and Planning package</p> 
+ </tr>
+   
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Any</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>Manage permissions to a workspace and a record type</p>  
+   <p><b>IMPORTANT</b></p>
+   <p>Only users with Manage permissions to a workspace can share Manage permissions to a record type</p></td> 
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+  
+</td>
+  </tr>
+ 
+</tbody> 
+</table> 
+
+
+ For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -92,11 +141,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
  
 </tbody> 
-</table> 
-
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Considerations when sharing record types
 
@@ -128,7 +173,12 @@ You must have the following access to perform the steps in this article:
 
    Workfront users, groups, teams, companies, and job roles
 * You cannot share record types externally, with users outside of Workfront.
-* To give a user that does not have workspace permissions higher than View permissions to a record type, you must first share the workspace with them with a higher permission than View. The higher permissions for the workspace will then apply to the record types.   
+* To give a user that does not have workspace permissions higher than View permissions to a record type, you must first share the workspace with them with a higher permission than View. The higher permissions for the workspace will then apply to the record types. 
+
+* You can share a global record type both from its original and other secondary workspaces where it was added.  
+
+   For information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
+
 
 ## Share permissions to a record type
 
@@ -140,7 +190,7 @@ You can adjust permissions to individual record types of a workspace if you have
 
 1. Do one of the following: 
 
-   * <span class="preview">From the record type card, click the **More** menu > **Share**.</span>
+   * From the record type card, click the **More** menu > **Share**.
    * Click a record type card to open the record type's page, then click **Share** > **Share the record type** from any record type view.
 
    The **Share** box opens.
@@ -173,6 +223,7 @@ You can adjust permissions to individual record types of a workspace if you have
    >* You cannot give users a lesser permission than Manage to a record type, if they have Manage permissions to the workspace. 
    >* You can give users a lesser permission to the record type if they have Contribute permissions to the workspace. 
    > For more information, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
+   >* When you share a record type with a user, their primary job role <span class="preview">and their email</span> also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email. 
 
 1. To give users who do not have permissions to the workspace access to view a record type, in the **Grant access to this view** field, start typing the name of a user, a group, team, company, or job role, then click it when it displays in the list. 
 
@@ -211,7 +262,7 @@ You can remove users' permissions from a record type. However, they will retain 
 
    People no longer have the indicated permissions to the record type. However, they they still have permissions to the workspace, unless you also remove them from workspace permissions. 
    
-   There is no notification for the users that have been removed from accessing the view that they no longer have this access.
+   There is no notification for the users that have been removed from accessing the record type that they no longer have these permissions.
 
 <!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 

@@ -2,14 +2,14 @@
 content-type: reference
 product-area: portfolios;projects
 navigation-topic: portfolios-navigation-topic
-title: Manage projects in the [!UICONTROL Portfolio Optimizer]
+title: "Manage projects in the [!UICONTROL Portfolio Optimizer]: Article Index"
 description: The [!UICONTROL Portfolio Optimizer] is the tool used for project evaluation and comparison. The process of reviewing and comparing Business Case values for projects assigned to a portfolio is how a portfolio manager can prioritize projects and generate the most value for an organization.
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 662d4975-3af5-4de6-befa-abadeedf2b0d
 ---
-# Manage projects in the [!UICONTROL Portfolio Optimizer]
+# Manage projects in the [!UICONTROL Portfolio Optimizer]: article index
 
 The [!UICONTROL Portfolio Optimizer] is the tool used for project evaluation and comparison. The process of reviewing and comparing Business Case values for projects assigned to a portfolio is how a portfolio manager can prioritize projects and generate the most value for an organization.
 

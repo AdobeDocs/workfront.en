@@ -14,21 +14,28 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
 
 >[!TAB Latest release]
 
-* [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
-* [Third Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
-* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
-* [Adobe Workfront Planning Fourth Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
-* [Adobe Workfront Planning Third Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
+* [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
+* [Adobe Workfront Planning release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
+* [Adobe Workfront Fusion release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+
+>[!TAB 2026 releases]
+
+* [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
+* [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
+* [Adobe Workfront Planning release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
+
+
 
 >[!TAB 2025 releases]
 
+* [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
 * [Third Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
 * [Second Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
 * [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
-* [Adobe Workfront Planning Third Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
-* [Adobe Workfront Planning Second Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
-* [Adobe Workfront Planning First Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
+* [Adobe Workfront Planning release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
+* [Adobe Workfront Fusion release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
 
+<!--
 
 >[!TAB 2024 releases]
 
@@ -39,13 +46,16 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
 * [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 * [Adobe Workfront Planning Fourth Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
+-->
+
 >[!TAB Betas]
 
-* [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+* [Beta programs](/help/quicksilver/product-announcements/betas/betas.md)
 
 >[!TAB Known Issues]
 
 * [Known Issues](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
+* [Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)
 
 
 >[!ENDTABS]
@@ -65,6 +75,7 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Get started with Workfront Administration</a></li>
     <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Get started with Workfront Fusion</li>
+    <li><a href="/help/quicksilver/app-builder/install-apps-on-exchange.md">Acquire and install apps from Adobe Exchange</a></li>
     </ul>
  </td>
     <td>
@@ -85,6 +96,7 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
         <li><a href="/help/quicksilver/wf-api/general/api-basics.md">API Basics</a></li>
         <li><a href="https://developer.adobe.com/workfront/api-explorer/">API Explorer</a></li>
         <li><a href="/help/quicksilver/workfront-integrations-and-apps/workfront-integrations.md">Workfront Integrations</a></li>
+        <li><a href="/help/quicksilver/app-builder/app-builder.md">Create custom applications for Workfront with Adobe App Builder</a></li>
         </ul></td>
   </tr>
 </table>

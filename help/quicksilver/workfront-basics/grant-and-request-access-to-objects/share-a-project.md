@@ -22,21 +22,18 @@ Permissions are specific to one item in Workfront and define what actions one ca
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following to share objects:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any </p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: Standard</p> 
-   Or
-   <p>Current: Work or higher</p>
+   <td> <p>Standard</p> 
+   <p>Work or higher</p> 
    </td> 
   </tr> 
   <tr> 
@@ -50,7 +47,7 @@ You must have the following to share objects:
  </tbody> 
 </table>
 
-For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -108,7 +105,7 @@ You can share a project in the following ways:
      >
      >When attaching or saving a template, you can clear the Template Project Sharing rules.
 
-   * Edit a project and defining the **When someone is given access to this project** setting.&nbsp;For more information, see [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Edit a project and defining the **When someone is given access to this project** setting.  For more information, see [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -124,7 +121,7 @@ You can share a project in the following ways:
 
 <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li value="1">Go to a project whose sharing permissions you want for all projects you create from scratch. (NOTE: drafted because linked above)&nbsp;</li>
+<li value="1">Go to a project whose sharing permissions you want for all projects you create from scratch. (NOTE: drafted because linked above)  </li>
 <li value="2"> Click the More menu, then click <strong>Sharing</strong>. </li>
 <li value="3"> <p>In the Project Access box that displays, near the upper-right corner, click the gear icon <img src="assets/gear-icon-settings.png">, then click <strong>Set as my project access template</strong>.</p> <p>The entities that are granted permissions on the selected project have the same permissions for all the projects you create from scratch in the future.</p> <p> The project access template overrides the sharing defaults granted to you by the Workfront administrator in your Access Level.<br>For more information about specifying sharing defaults for projects in the Access Level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>.</p> </li>
 <li value="4">Click <strong>Save</strong>.</li>
@@ -217,18 +214,18 @@ You can share a project in the following ways:
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Configure default permissions for a project</h2>
 <p>(NOTE: drafted because I added one more way to automatically share the project above in the bullet list and linked it to Edit Projects) </p>
-<p>As a project owner, you can configure the default permissions for View, Manage, and Contribute access that are used when sharing&nbsp;the project with others. When users share a project, the default permissions are used. Users can then adjust the default permissions when sharing the project, as described in <a title="Project Permissions" href="#ways-to-share-a-project" class="MCXref xref">Ways to share a project</a>. </p>
+<p>As a project owner, you can configure the default permissions for View, Manage, and Contribute access that are used when sharing  the project with others. When users share a project, the default permissions are used. Users can then adjust the default permissions when sharing the project, as described in <a title="Project Permissions" href="#ways-to-share-a-project" class="MCXref xref">Ways to share a project</a>. </p>
 <p>To configure the default permissions that are included with each access level:</p>
 <ol>
 <li value="1">Go to the project where you want to set the default permissions.</li>
 <li value="2"> <p>Click the More menu <img src="assets/more-icon.png">, then click <strong>Edit</strong>. <img src="assets/edit-icon.png"></p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
 <li value="3">Click <strong>Access</strong> in the list on the left.</li>
-<li value="4"> <p>In the <strong>When someone is given access to this PROJECT</strong> section, select permissions that you want to be available when users are given access to the project via sharing.</p> <p>Ensure that any permissions that you want to include in the selected access level are selected and deselect any permissions that you do not want to include in the selected permissions level.</p> <p>To view which permissions are available for each level, see&nbsp;<a title="Project Permissions" href="#Understanding_Project_Permissions" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <note type="note">
+<li value="4"> <p>In the <strong>When someone is given access to this PROJECT</strong> section, select permissions that you want to be available when users are given access to the project via sharing.</p> <p>Ensure that any permissions that you want to include in the selected access level are selected and deselect any permissions that you do not want to include in the selected permissions level.</p> <p>To view which permissions are available for each level, see  <a title="Project Permissions" href="#Understanding_Project_Permissions" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <note type="note">
 The
 <strong>Delete</strong> access in the
-<strong>Manage</strong> permission level determines whether users can&nbsp;delete the project itself. Users with
+<strong>Manage</strong> permission level determines whether users can  delete the project itself. Users with
 <strong>Manage</strong> access to the project can delete tasks and issues within the project regardless of whether this option is selected, if they have
-<strong>Manage</strong> permissions to the tasks and issues.&nbsp;
+<strong>Manage</strong> permissions to the tasks and issues.  
 </note> </li>
 <li value="5">Click <strong>Save Changes</strong>.</li>
 </ol>
@@ -256,20 +253,20 @@ The following table lists the permissions that users can grant when sharing a pr
   <tr> 
    <td> <p>Add Custom Form</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Update Custom Fields</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Add An Approval Process</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Approve a Project</p> </td> 
@@ -280,14 +277,14 @@ The following table lists the permissions that users can grant when sharing a pr
   <tr> 
    <td> <p>Approve hours</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>✓&nbsp;</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>✓  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Create A Project</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Add Document(s)</p> </td> 
@@ -305,25 +302,25 @@ The following table lists the permissions that users can grant when sharing a pr
    <td> <p>Add Task(s)</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Copy Project</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Delete Project</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Modify Planned Dates</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Share Project</p> </td> 
@@ -333,8 +330,8 @@ The following table lists the permissions that users can grant when sharing a pr
   </tr> 
   <tr> 
    <td> <p>Share System-wide</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
@@ -352,44 +349,44 @@ The following table lists the permissions that users can grant when sharing a pr
   <tr> 
    <td> <p>Change Status</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Log Hours</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Edit Assignments</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Manage Baseline</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Manage Risks*</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Manage Finance*</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Add/ Edit Expenses*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>View Finance*</p> </td> 
@@ -400,8 +397,8 @@ The following table lists the permissions that users can grant when sharing a pr
   <tr> 
    <td> <p>Attach Template</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Save As Template</p> </td> 
@@ -412,20 +409,20 @@ The following table lists the permissions that users can grant when sharing a pr
   <tr> 
    <td> <p>Add/ Edit Business Case</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Edit Project Details</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Edit Staffing</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Export to MS Project</p> </td> 
@@ -436,20 +433,20 @@ The following table lists the permissions that users can grant when sharing a pr
   <tr> 
    <td> <p>Recalculate Finance/ Timeline*</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Set Queue Properties</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
-   <td> <p>&nbsp;&nbsp;</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>    </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Edit Project in Bulk in a List</p> </td> 
    <td> <p>✓</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
  </tbody> 
 </table>

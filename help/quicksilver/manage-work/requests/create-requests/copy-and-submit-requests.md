@@ -1,7 +1,7 @@
 ---
 title: Copy and Submit Requests
 description: When you submit similar requests frequently you can copy an existing submitted request. In this case, you can copy an existing request, make minimal changes to it, and resubmit it as a new request.
-author: Alina
+author: Becky
 feature: Work Management
 role: User
 topic: Collaboration
@@ -9,79 +9,43 @@ exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 ---
 # Copy and submit requests
 
+
 When you submit similar requests frequently you can copy an existing submitted request. In this case, you can copy an existing request, make minimal changes to it, and resubmit it as a new request.
 
-<!--Old?? 
-
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p><b>NOTE</b> 
-   
-   If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Access to add requests to a request queue</p> <p>View or higher permissions on the existing request</p> <p>For information on setting up a request queue, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
--->
-
-## Access requirements
-
-+++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: Contributor or higher</p>
-   Or
-   <p>Current: Request or higher</p>
+   <td> <p>Contributor or higher</p>
+   <p>Request or higher</p>
     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Issues</p>  </td> 
   </tr> 
+  <tr>
    <td role="rowheader">Object permissions</td> 
    <td><p>Access to add requests to a request queue</p> <p>View or higher permissions on the existing request</p> <p>For information on setting up a request queue, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. </p> </td> 
-  <tr>
   </tr>
+  <tr> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
+  </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -122,7 +86,7 @@ You must have a request that you or someone in your organization previously subm
   >
   >The copied request is not linked to a resolving object.
 
-## Copy and submit requests
+## Copy and submit requests in the legacy requesting experience
 
 {{step1-to-requests}}
 
@@ -134,19 +98,19 @@ You must have a request that you or someone in your organization previously subm
 
 1. Locate the request that you want to copy and submit as new, and do one of the following:
 
-   * Select it, then click **Copy** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list. 
+   * Select it, then click **Copy** ![Copy and submit icon](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list. 
 
    >[!TIP]
    >
    > If you did not select a request first, the Copy icon is dimmed. 
 
-   * Click the **More** menu ![](assets/more-icon.png) to the right of the request name, then click **Copy and submit as new** 
+   * Click the **More** menu ![More icon](assets/more-icon.png) to the right of the request name, then click **Copy and submit as new** 
 
      Or
 
      Right-click on the selected request, then click **Copy and submit as new**.
 
-     ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+     ![Request selected more menu options](assets/request-selected-more-menu-options-nwe-350x191.png)
 
      >[!TIP]
      >
@@ -155,13 +119,13 @@ You must have a request that you or someone in your organization previously subm
 1. (Optional) Update the following information, if needed:
 
    * **Request Type**: the request queue where the copied request is saved. By default, the copied request is saved to the request queue of the original request.
-   * **Topic Groups** and **Queue&nbsp;Topics**, if they are selected. The names or topic groups and queue topics are customized for your environment. By default, the copied request is saved to the topic groups and the queue topics of the original request.
+   * **Topic Groups** and **Queue Topics**, if they are selected. The names or topic groups and queue topics are customized for your environment. By default, the copied request is saved to the topic groups and the queue topics of the original request.
 
      >[!TIP]
      >
      >If the path changes from the path of the original request, then the creator of the request queue modified the queue.
 
-1. (Optional) Update any information from the copied request. Depending on what fields the request queue creator enabled in the **New Issue Fields** section of the **Queue Details**&nbsp;subtab on the project, you might find&nbsp;any of the following fields:
+1. (Optional) Update any information from the copied request. Depending on what fields the request queue creator enabled in the **New Issue Fields** section of the **Queue Details** subtab on the project, you might find any of the following fields:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -169,7 +133,7 @@ You must have a request that you or someone in your organization previously subm
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Subject</strong> </td> 
-      <td>Displays the name of the original request. Update it, if necessary.&nbsp;Otherwise, Workfront names the copied request <b>Copy of &lt;Name of original request&gt;</b>. This is a mandatory field.</td> 
+      <td>Displays the name of the original request. Update it, if necessary. Otherwise, Workfront names the copied request <b>Copy of &lt;Name of original request&gt;</b>. This is a mandatory field.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Description</strong> </td> 
@@ -181,7 +145,7 @@ You must have a request that you or someone in your organization previously subm
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Priority</strong> </td> 
-      <td> <p>Specify the priority of your request. The priority should define how fast you think this request should be resolved. The default&nbsp;options are:</p> 
+      <td> <p>Specify the priority of your request. The priority should define how fast you think this request should be resolved. The default options are:</p> 
        <ul> 
         <li>None</li> 
         <li>Low</li> 
@@ -192,7 +156,7 @@ You must have a request that you or someone in your organization previously subm
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Severity</strong> </td> 
-      <td> <p>Specify the severity for your request. The severity should define the impact this request has on your work should it not be resolved in time. The default&nbsp;options are:</p> 
+      <td> <p>Specify the severity for your request. The severity should define the impact this request has on your work should it not be resolved in time. The default options are:</p> 
        <ul> 
         <li>Cosmetic</li> 
         <li>Causes Confusion</li> 
@@ -251,3 +215,39 @@ You must have a request that you or someone in your organization previously subm
 1. Click **Submit**.
 
    The copied request is submitted as a new request in the request queue you specified.
+
+## Copy and submit requests in the new requesting experience
+
+You can copy and submit requests in the Requests area of Workfront, or from the My Requests widget in Home.
+
+{{step1-to-requests}}
+
+1. To access the My Requests widget in Home:
+   
+   {{step1-to-home}}
+
+   1. Locate the My Requests widget. 
+
+      For more information on the My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. In the **Requests** list or the **My Requests** widget in Home, hover over the request that you want to copy, then click the **More** menu ![More menu](assets/more-menu.png).  
+
+1. Click **Copy** 
+
+     Or
+
+     Right-click on the selected request, then click **Copy**.
+
+     >[!TIP]
+     >
+     >When you do not have access to create issues, you receive a warning that your administrator restricted you from creating requests.
+
+1. (Optional) Update any information from the copied request. Available fields depend on the Request Queue or Request Form used for the request.
+
+   When you enter or change any field values in the copied request, it is saved as a draft.
+
+1. Click **Submit**.
+
+   The copied request is submitted as a new request.
+
+

@@ -1,19 +1,50 @@
 ---
 navigation-topic: use-the-gantt-chart
-title: View information in the  [!UICONTROL Gantt Chart]
-description: The task list Gantt Chart and project list Gantt Chart display information about projects and tasks.
+title: View Information in the [!UICONTROL Gantt Chart]
+description: The Adobe Workfront task and project [!UICONTROL Gantt Charts] display information about tasks and projects. 
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
 ---
 # View information in the  [!UICONTROL Gantt Chart]
 
-The task list [!UICONTROL Gantt Chart] and project list [!UICONTROL Gantt Chart] display information about projects and tasks.
+<!--Audited: 08/2025-->
+
+The Adobe Workfront task and project [!UICONTROL Gantt Charts] display information about tasks and projects. 
 
 ## Access requirements
 
-You must have the following to follow the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td><p>[!UICONTROL Light] or higher</p>
+    <p>[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL View] or higher access to Projects and Tasks</p></td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] or higher access to the project and tasks</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++ 
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -37,9 +68,7 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
    <td> <p>[!UICONTROL View] or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+</table>-->
 
 ## Locate the  [!UICONTROL Gantt Chart]
 
@@ -69,17 +98,13 @@ To view tasks in a project from a list of projects:
 
 1. Go to one of the areas mentioned above.
 
-   For example, from the [!UICONTROL Main Menu], click **[!UICONTROL Projects]**.
+   For example, from the [!UICONTROL **Main Menu**] ![Main menu icon](assets/lines-main-menu.png) in Workfront, click **[!UICONTROL Projects]**.
 
    A list of projects displays.
 
 1. Click the **[!UICONTROL Gantt chart]** icon ![Gantt icon](assets/gantt-icon-nwe.png) in the upper-right corner of the screen.
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
-   -->
-
-1. Click the **[!UICONTROL Show Task List]** icon.
+1. Click the **[!UICONTROL Show Task List]**  ![Show task list icon](assets/show-task-list-icon.png) icon.
 
 1. In the project list to the left, click the drop-down arrow next to the name of the project to display any tasks under that project.\
    This displays task information on the  [!UICONTROL Gantt Chart].\
@@ -126,7 +151,7 @@ You can adjust the time period shown on the [!UICONTROL Gantt Chart] to display 
    >
    >The timeline snapshot displays only after you click the horizontal scroll bar.
 
-   ![stretchy_gantt_minimap_with_outline__1_.png](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
+   ![Timeline snapshot mini-map](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
 
 1. (Optional) Click anywhere inside the time line snapshot to navigate to a specific point in the life of the project.\
    Or\

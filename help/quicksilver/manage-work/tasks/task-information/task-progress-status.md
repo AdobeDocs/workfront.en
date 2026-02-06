@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Task Progress Status overview
+title: Task Progress Status Overview
 description: Adobe Workfront determines the Progress Status of a task by looking at the progression of the task across its timeline. You can configure Workfront to determine the Condition of a project based on the value of the Progress Status of the tasks. For more information about configuring the Condition of the project, see the article Overview of Project Condition and Condition Type.
 author: Alina
 feature: Work Management
@@ -33,7 +33,7 @@ The following criteria determine the Progress Status of a task:
  </thead> 
  <tbody> 
   <tr valign="top"> 
-   <td scope="col"> <p>&nbsp;</p> <p><strong>On Time</strong> </p> </td> 
+   <td scope="col"> <p> </p> <p><strong>On Time</strong> </p> </td> 
    <td scope="col"> <p>A task is considered <strong>On Time</strong> when all the Planned Dates match the Projected Dates. This Progress Status could also mean that the project is ahead of schedule and the Projected Dates could be before the Planned Dates.</p> <p>For more information about Projected Dates, see <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Overview of the Projected Completion Date for projects, tasks, and issues</a>.</p> <p>For more information about task Planned Completion Date, see the following articles:</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Overview of the task Planned Start Date</a> </p> </li> 
@@ -63,18 +63,18 @@ The different date types in our projects tell us how tasks are progressing over 
 
 * On Time
 
-  ![](assets/on-time-progress-status-350x233.png)
+  ![On time progress status](assets/on-time-progress-status-350x233.png)
 
 * At Risk
 
-  ![](assets/at-risk-progress-status-350x233.png)
+  ![At risk progress status](assets/at-risk-progress-status-350x233.png)
 
 * Behind
 
-  ![](assets/behind-progress-status-350x233.png)
+  ![Behind progress status](assets/behind-progress-status-350x233.png)
 
 * Late
 
-  ![](assets/late-progress-status-350x233.png)
+  ![Late progress status](assets/late-progress-status-350x233.png)
 
 -->

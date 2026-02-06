@@ -16,8 +16,36 @@ The URL that you create for the API call depends on the URL that you use to conn
 
 | Workfront URL begins with: | URL for API calls: |
 |---|---|
-|`<yourdomain>.my.workfront.com`|`<yourdomain>.my.workfront.com`|
 |`experience.adobe.com`|`<yourdomain>.my.workfront.adobe.com`|
+
+## Access requirements 
+
++++ Expand to view access requirements for the functionality in this article.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p>
+   <p>Plan</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
 
 To locate your domain: 
 

@@ -3,7 +3,7 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Add Stories and Issues from the Scrum Board
 description: You can quickly create a new story or issue directly from the Scrum board, or add an existing story or issue from the board.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
 ---

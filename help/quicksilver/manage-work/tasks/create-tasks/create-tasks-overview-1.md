@@ -3,7 +3,7 @@ content-type: overview;reference
 product-area: projects
 navigation-topic: tasks
 title: "Create Tasks: Article Index"
-description: You can create tasks in a specific project. 
+description: You can create tasks in a specific project in Adobe Workfront. 
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog

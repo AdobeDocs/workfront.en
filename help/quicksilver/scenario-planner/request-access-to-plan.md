@@ -2,20 +2,53 @@
 product-area: enterprise-scenario-planner-product-area
 keywords: plan,permissions,share,initiatives,,scenarios,scenario
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Request access to a plan in the Scenario Planner
+title: Request Permissions to a Plan in the Scenario Planner
 description: You can request access to a plan in the Adobe Workfront Scenario Planner when the link to the plan is shared with you.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
 ---
-# Request access to a plan in the [!DNL Scenario Planner]
+# Request permissions to a plan in the [!DNL Scenario Planner]
 
-You can request access to a plan in the [!DNL Adobe Workfront Scenario Planner] when the link to the plan is shared with you.
+<!--Audited: 11/2025-->
+
+You can request permissions to a plan in the [!DNL Adobe Workfront Scenario Planner] when the link to the plan is shared with you.
 
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article. 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] package</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>NOTE</b></p>
+<p>Speak with your Workfront representative if you have a different Workfront package.</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license</p> </td> 
+   <td> <p>[!UICONTROL Light] or higher</p> 
+   <p>[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+    <tr> 
+   <td>Access level configurations</td> 
+   <td> <p>[!UICONTROL View] or higher access to the [!DNL Scenario Planner]</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information about access to the Scenario Planner, see [Access needed to use the [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+
+For information about Workfront access requirements, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -46,11 +79,7 @@ You can request access to a plan in the [!DNL Adobe Workfront Scenario Planner] 
    <td>  <p>[!UICONTROL View] or higher access to the [!DNL Scenario Planner]</p>  </td> 
   </tr>
  </tbody> 
-</table>
-
-*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 ## Prerequisites
 
@@ -62,7 +91,7 @@ Before you can request access to a plan in the [!DNL Scenario Planner], you must
 >
 >If you do not have access level rights to the [!DNL Scenario Planner] and you try to access a plan from a link, you cannot request access to the plan. Instead, a screen displays informing you to contact the [!DNL Workfront] administrator.
 
-## Request access for plans in the [!DNL Workfront Scenario Planner]
+## Request permissions for plans in the [!DNL Workfront Scenario Planner]
 
 If you do not already have permissions to a plan and you navigate to it from a link shared with you, a screen displays to inform you that you do not have permissions to view the plan. You are prompted to request permissions from the plan creator.
 
@@ -74,7 +103,7 @@ To request permissions:
 
 1. Click a link to a plan.
 
-   ![Request access to plan](assets/request-access-to-plan-350x277.png)
+   ![Request permissions to plan](assets/request-access-to-plan-350x277.png)
 
 1. In the **[!UICONTROL Request access to]** drop-down menu, indicate what level of permissions you wish to be granted. Select from the following:
 

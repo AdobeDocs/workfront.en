@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Planned Hours overview
+title: Planned Hours Overview
 description: The Planned Hours associated with a task, issue, or project represent the amount of time required for the assigned users to complete the task, issue, or project.
 author: Alina
 feature: Work Management
@@ -55,7 +55,7 @@ Whether issues are included in the calculation for Planned Hours depends on the 
 
 * **Project Details section and the Edit Project box**: Only the Planned Hours for the tasks on the project are taken into account. The Planned Hours for the issues on the project are not taken into account when viewing the total number of Planned Hours for the project in the Project Details  section  or the Edit Project box.
 
-* **The Workload Balancer**: Only the Planned Hours associated with the tasks visible in the Workload Balancer display in the Workload Balancer for projects. User daily allocations can change the project&nbsp;daily Planned Hours in the Workload Balancer. 
+* **The Workload Balancer**: Only the Planned Hours associated with the tasks visible in the Workload Balancer display in the Workload Balancer for projects. User daily allocations can change the project daily Planned Hours in the Workload Balancer. 
 * **Utilization section**: The Planned Hours associated with the users assigned to the tasks and the issues on the project are taken into account when viewing the total number of Planned Hours for the project in the Utilization section.
 * **Role Allocation panel** in the task list: The Planned Hours for the tasks and the issues on the project that are assigned to a job role or a user associated with a job role display in this area. Planned Hours associated with tasks and issues that are unassigned or assigned to teams do not display in this area. For more information, see [View project Planned Hours in the Role Allocation panel](../../../manage-work/projects/planning-a-project/view-planed-hours-in-role-allocation-panel.md).
 
@@ -124,7 +124,7 @@ For information about creating reports, see [Create a custom report](../../../re
 <!--
 ### The Scheduling areas  {#the-scheduling-areas}
 
-![](assets/task-detail-expanded-in-scheduler-with-planned-hours-and-adjusted-daily-allocations-nwe-350x323.png)
+![Task detail expanded in scheduler with Planned Hours and Adjusted Daily allocations](assets/task-detail-expanded-in-scheduler-with-planned-hours-and-adjusted-daily-allocations-nwe-350x323.png)
 
 The Planned Hours for tasks and issues display in the Scheduling areas in the Planned Hours field.
 
@@ -153,7 +153,7 @@ The following Planned Hours for tasks, issues, and projects display in the Workl
 
 You can view the daily allocation of Planned Hours for each user assigned to a task or an issue in the Workload Balancer.
 
-The daily hour amount of Planned Hours represents one of the following:&nbsp;
+The daily hour amount of Planned Hours represents one of the following: 
 
 * the default amount equally distributed by Workfront for each day of the Duration of the tasks, issues, or the project
 * the adjusted daily allocation managed by resource managers
@@ -172,7 +172,7 @@ You can view weekly allocations of Planned Hours for the users and job roles ass
 >
 >Daily allocation adjustments in the Workload Balancer influence weekly allocations for tasks and issues in the Resource Planner.
 
-The number of Planned Hours for each object differ depending on which view you apply to the&nbsp;Resource Planner. For more information, see [Overview of hours, FTE, and cost information in the Project and Role views of the Resource Planner](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+The number of Planned Hours for each object differ depending on which view you apply to the Resource Planner. For more information, see [Overview of hours, FTE, and cost information in the Project and Role views of the Resource Planner](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 The weekly hour amount of Planned Hours for tasks and issues represents one of the following:
 
@@ -189,7 +189,7 @@ The project Planned Hours are the ones associated with the assignments on each t
 
 >[!IMPORTANT]
 >
->Note that the Planned Hours in the Utilization report are associated with the assignments and not with the tasks and issues themselves. The Planned Hours in the Utilization report do not always match the Planned Hours on the tasks and issues of the project.&nbsp;However, the Planned Hours do match the hours associated with the assignments on tasks and issues.
+>Note that the Planned Hours in the Utilization report are associated with the assignments and not with the tasks and issues themselves. The Planned Hours in the Utilization report do not always match the Planned Hours on the tasks and issues of the project. However, the Planned Hours do match the hours associated with the assignments on tasks and issues.
 
 You can view the following types of Planned Hours in the Utilization report:
 
@@ -274,7 +274,7 @@ For information about using Work Effort to estimate task effort, see [Work Effor
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>Anna Asatryan</p>
 <p>3/22/2022 At 3:16 PM</p>
-<p>&nbsp;</p>
+<p> </p>
 <p>to Mark Paul, Corrie Butler, Arman Simonyan, Gagik Khalatyan, Alina Wilson, Artur Sargsyan, Vazgen Babayan, Anna Asatryan</p>
 <p>I have done some rough calculations on what the planned hours/revenues should look like Book.xlsx . And if we look, for example at the 2 users highlighted in one of the screenshots their planned hours look way off from what the calculation looks like in the spreadsheet (i.e. equally distributed allocation). When looking at the Workload balancer (the second screenshot), as an example for the user Yashas Mitta, I can see that the allocation has been modified. Obviously the utilization report calculates the allocations based on the modified contouring using the new work per day calculation. The project financial report uses the old, equal distribution of allocation along the full duration of the task. Hence. there is a difference when grouping per periods.</p>
 <p>Vazgen Babayan</p>

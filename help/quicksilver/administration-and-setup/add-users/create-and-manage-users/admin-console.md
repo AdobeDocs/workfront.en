@@ -12,6 +12,12 @@ exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
+>[!IMPORTANT]
+>
+>The functionality in this article is available only if your organization's instance of Workfront has been onboarded to the Adobe Business Platform.
+>
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+
 As an Adobe administrator, you can create Adobe Workfront system administrators using the Adobe Admin Console. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the [Admin Console Overview](https://helpx.adobe.com/enterprise/using/admin-console.html).
 
 >[!NOTE]
@@ -27,8 +33,6 @@ When making changes to users' profiles from the Admin Console, an update is adde
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -36,8 +40,8 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any<p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe administrator rights</td> 
@@ -46,7 +50,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -148,7 +152,8 @@ You must add a user to your Production instance of Workfront before you can make
 
    >[!IMPORTANT]
    >
-   >Do not make any changes to the Product Profile itself.
+   >* Do not make any changes to the Product Profile itself.
+   >* Ensure that you are on the page with the header "Add product profile administrators." Product administrators serve a different function than product profile administrators in the Adobe Admin Console, and are not discussed in this article. 
 
 
 ## Create users in Workfront with the Adobe Admin Console {#create-users-in-workfront-with-the-adobe-admin-console}

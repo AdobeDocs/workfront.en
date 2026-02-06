@@ -3,7 +3,7 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Change the Order of Stories on the Scrum Board
 description: The order in which stories appear on the story board does not indicate priority. However, it can affect the perceived priority by making stories more visible. By default, stories are displayed in alphabetical order within each [!UICONTROL status] column on the story board.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
 ---
@@ -51,6 +51,6 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Change story order in a project
 
-Unlike agile iterations, you cannot change story order when viewing a project in an agile view. To modify story order for a project, you must view the project in a standard view.
+Unlike Agile iterations, you cannot change story order when viewing a project in an Agile view. To modify story order for a project, you must view the project in a standard view.
 
-For information about how to change the project view, see [[!UICONTROL Manage a project] in the [!UICONTROL Agile] View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Instead of selecting an agile view, select a standard view.
+For information about how to change the project view, see [[!UICONTROL Manage a project] in the [!UICONTROL Agile] View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Instead of selecting an Agile view, select a standard view.

@@ -4,7 +4,7 @@ product-area: agile-and-teams
 navigation-topic: people-teams-and-groups
 title: Create and Manage Teams
 description: Review these articles to learn how to create and manage teams in Adobe Workfront.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 recommendations: noDisplay, noCatalog
 exl-id: a5bf6aee-e41f-44d8-a377-baeea6a0a911

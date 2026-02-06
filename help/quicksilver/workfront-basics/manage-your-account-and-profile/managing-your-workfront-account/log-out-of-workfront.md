@@ -29,28 +29,32 @@ For security reasons, it is important to log out of [!DNL Adobe Workfront] regul
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td>Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+   <td>Adobe Workfront license</td> 
+   <td> 
+   <p>Contributor or higher</p>
+   <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Log out of your [!DNL Workfront] account
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Logout]** ![Logout icon](assets/logout-icon.png).
+{{step1-click-main-menu}}
+
+1. Click **[!UICONTROL Logout]** ![Logout icon](assets/logout-icon.png).
 1. This returns you to the login page where you can re-enter your username and password.

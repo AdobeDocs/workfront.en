@@ -37,6 +37,9 @@ Reviewers and approvers must install the Adobe Workfront review tool. in one of 
 
 * [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen) 
 
+* [Safari extension](https://apps.apple.com/us/app/adobe-workfront-review-tool/id6741517062?mt=12)
+
+
 
 For interactive proofs to open in the Adobe Workfront review tool automatically, a Workfront Administrator must update Proofing settings in workfront as described in the sections below.
 

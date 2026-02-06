@@ -24,6 +24,10 @@ When a Workfront project is connected with Frame.io, you can
 
 +++ Expand to view access requirements for the functionality in this article. 
 
+>[!IMPORTANT]
+>
+>This functionality is available only to organizations that have been onboarded to the [!DNL Adobe Admin Console].
+
 You must have the following:
 
 <table style="table-layout:auto"> 
@@ -58,7 +62,6 @@ For more detail about the information in this table, see [Access requirements in
 * Set up the default Frame.io account in the Workfront setup area 
 * Enable Frame.io users in the Workfront user profile
 
-For more information about the prerequisites above, see [Configure the [!DNL Workfront] and [!DNL Frame.io] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
 
 ## Create a new project template

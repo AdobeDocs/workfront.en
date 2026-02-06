@@ -9,8 +9,6 @@ exl-id: 98779b67-b975-4501-8426-63e255b1d7df
 ---
 # Overview of assigning work in the Workload Balancer
 
-{{preview-fast-release-general}}
-
 <!-- Audited: 5/2025 -->
 
 As a resource manager, you can use the Adobe Workfront Workload Balancer to view work items that have not yet been assigned to users as well as assign these items to them.
@@ -140,7 +138,7 @@ The following table describes which items display in each area based on their as
  </tbody> 
 </table>
 
-&#42;When a work item is assigned to a user and a role, it displays in the Unassigned Work area only when the role is the Primary Assignee. <span class="preview">Role assignments are displayed under work items in the Unassigned Work area when the **Show Role Assignments** setting is enabled.</span>
+&#42;When a work item is assigned to a user and a role, it displays in the Unassigned Work area only when the role is the Primary Assignee. Role assignments are displayed under work items in the Unassigned Work area when the **Show Role Assignments** setting is enabled.
 
 &#42;&#42;When a work item is assigned to a user and another entity, it displays in the Assigned Work area only when the user is the Primary Assignee.
 

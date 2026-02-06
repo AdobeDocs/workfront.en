@@ -16,6 +16,8 @@ exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 
 # Create fields
 
+<!--information about choice values must stay in yellow till Jan 2026-->
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
@@ -30,7 +32,7 @@ You must create record types before you can create fields to associate with them
 You can create fields in the following ways in Workfront Planning:
 
 * [From scratch](#create-fields-from-scratch)
-* [By connecting record types](#create-fields-from-scratch)
+* [By connecting record types](#create-fields-by-connecting-record-types)
 * [By creating a record type](#create-fields-by-creating-a-record-type)
 * [By creating a workspace from a template](#create-fields-by-creating-a-workspace-from-a-template)
 * [By importing record types using an Excel or CSV file](#create-fields-when-importing-record-types-from-a-csv-or-excel-file)
@@ -40,9 +42,44 @@ For more information about Workfront Planning fields, see [Field overview](/help
 
 ## Access requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view the access requirements for the functionality in this article. 
 
-You must have the following access to perform the steps in this article:  
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul> 
+<li><p>Any Workfront and any Planning package</p></li>
+Or
+<li><p>Any Workflow and any Planning package</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace</p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table> 
+
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--Old:
 
  <table style="table-layout:auto"> 
 <col> 
@@ -98,11 +135,7 @@ You must have the following access to perform the steps in this article:
    <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p> </td> 
   </tr> 
 </tbody> 
-</table> 
-
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++   
+</table> -->
 
 ## Create fields by connecting record types 
 
@@ -199,8 +232,8 @@ For information, see [Import fields from Workfront](/help/quicksilver/planning/f
     * [Created date](#created-date)
     * [Last modified by](#last-modified-by)
     * [Last modified date](#last-modified-date)
-    * <span class="preview">[Approved date](#approved-date)</span>
-    * <span class="preview">[Approved by](#approved-by)</span>
+    * [Approved date](#approved-date)
+    * [Approved by](#approved-by)
     <!--* [Object](#object-field-type)-->
     
     >[!IMPORTANT]
@@ -258,6 +291,11 @@ Paragraph fields capture additional alphanumeric information about a record, sim
 
 You can use a multi-select field to capture additional information in any format by selecting more than one option from a drop-down menu. 
 
+>[!NOTE]
+>
+>In addition to the functionality described in this section, you can add new choices when editing a record's multi-select field value inline, in the table view. For more information, see the "Edit information on single- or multi-select fields" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).
+>
+
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Multi-select** field type.
 
     ![Multi-select field type](assets/multi-select-field-type.png)
@@ -281,17 +319,36 @@ You can use a multi-select field to capture additional information in any format
 1. Click outside the color box to close it.    
 1. Click **Create**. 
 
-    The new multi-select field is added as a column to the record type, and its values can be associated with records.  
+    The new multi-select field is added as a column to the record type, and its values can be associated with records. 
+
+1. (Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.
+1. Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. 
+
+    >[!NOTE]
+    >
+    >* Workfront assigns unique values for each choice. 
+    >
+    >* Values match the choice name in lowercase format. Multiple words are separated by an underscore. 
+    >
+    >* Values can be repeated between multiple fields, but they must be unique for one field.
+    >
+    > ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)
+
+1. (Optional) Use the choice values in your API calls and other integrations.  
 
 ### Single-select {#single-select}
 
 Single-select fields capture additional information in any format by selecting one option from a drop-down menu. 
 
+>[!NOTE]
+>
+>In addition to the functionality described in this section, you can add new choices when editing a record's single-select field value inline, in the table view. For more information, see the "Edit information on single- or multi-select fields" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).
+>
+
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Single-select** field type.
 
     ![Single-select field type](assets/single-select-field-type.png)
  
-
 1. Add the following information in the **New field** tab:
      * **Name**: The name of the field, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
@@ -310,7 +367,22 @@ Single-select fields capture additional information in any format by selecting o
 1. Click outside the color box to close it.
 1. Click **Create**. 
 
-    The new single-select field is added as a column to the record type, and its values can be associated with records.  
+    The new single-select field is added as a column to the record type, and its values can be associated with records. 
+
+1. (Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.
+1. Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. 
+
+    >[!NOTE]
+    >
+    >* Workfront assigns unique values for each choice. 
+    >
+    >* Values match the choice name in lowercase format. Multiple words are separated by an underscore. 
+    >
+    >* Values can be repeated between multiple fields, but they must be unique for one field.
+    >
+    > ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)
+
+1. (Optional) Use the choice values in your API calls and other integrations. 
 
 ### Date {#date}
 
@@ -332,7 +404,7 @@ You can use a date field to capture additional information in date and time form
         * **Long**: May 16, 2023
         * **European**: 16/05/2023
         * **ISO**: 2023-05-16
-        * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you safe the field. 
+     * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field. 
     
         Select from the following options:
         
@@ -537,7 +609,7 @@ You can use the People field type to add a user <!--, job role, or team--> to a 
 
 >[!TIP]
 >
->* When you add the name of a user in a People field, the name of the user and their primary job role display in the field.  
+>* When you add the name of a user in a People field, their primary job role <span class="preview">and their email</span> also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email.   
 >
 >* People fields display as a reference (or connection) field type in a request form builder. 
 >
@@ -599,7 +671,7 @@ You can use the Created date field type to add the date when the record was crea
         * **Long**: May 16, 2023
         * **European**: 16/05/2023
         * **ISO**: 2023-05-16
-     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. <!--submitted a UI text change for this - check the UI-->
+     * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field. 
     
         Select from the following options:
         
@@ -609,7 +681,6 @@ You can use the Created date field type to add the date when the record was crea
 1. Click **Create**.
 
     The new Created date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record was created.   
-
 
 ### Last modified by
 
@@ -627,7 +698,6 @@ You can use the Last modified by field type to add the user who last modified th
 1. Click **Create**.
 
     The new Last modified by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.   
-
 
 ### Last modified date
 
@@ -650,8 +720,7 @@ You can use the Last modified date field type to add the date when a record was 
         * **Long**: May 16, 2023
         * **European**: 16/05/2023
         * **ISO**: 2023-05-16
-     
-     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. <!--submitted a UI text change for this - check the UI-->
+     * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field. 
     
         Select from the following options:
         
@@ -662,8 +731,6 @@ You can use the Last modified date field type to add the date when a record was 
 
     The new Last modified date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record was last modified.   
 
-<div class="preview">
-
 ### Approved date
 
 You can use the Approved date field type to add the date when a request was approved and it resulted in the creation of the record. This is a read-only field, and it automatically populates with the date (and optionally with the time) when the request was approved by the last approver. In this case, the approval date should coincide with the date the record was created. 
@@ -673,7 +740,6 @@ You can use the Approved date field type to add the date when a request was appr
 >The Approved date field populates with information only for records that were created by submitting a request form associated with approvers. 
 >
 >If the form is associated with more than one approver, only the date of the last approval decision is recorded in the Approved date field.
- 
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
  
@@ -691,7 +757,7 @@ You can use the Approved date field type to add the date when a request was appr
         * **European**: 16/05/2023
         * **ISO**: 2023-05-16
      
-     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. 
+     * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field.  
     
         Select from the following options:
         
@@ -724,8 +790,6 @@ You can use the Approved by field type to add the user who last approved the req
 1. Click **Create**.
 
     The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
-
-</div>
 
 <!--
 

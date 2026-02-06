@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
-title: Lag Types overview
+title: Lag Types Overview
 description: Lag is the amount of time that must pass after the completion of an enforced predecessor until the dependent task can begin (Positive Lag), or the amount of time that a dependent task could start before the predecessor starts (Negative Lag).
 author: Alina
 feature: Work Management
@@ -19,6 +19,36 @@ The Planned, Projected, and Estimated dates of the successor tasks are calculate
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p> 
+   <p>Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks and Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the tasks and the project</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,11 +73,7 @@ The Planned, Projected, and Estimated dates of the successor tasks are calculate
    <td> <p>Manage permissions to the tasks and the project</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Lag Types {#lag-types}
 

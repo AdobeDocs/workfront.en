@@ -3,7 +3,7 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: View Calendar Reports and Event Details
 description: You can view calendar reports and event details that you created or were shared with you in Adobe Workfront.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
 ---
@@ -15,8 +15,6 @@ You can view calendar reports and event details that you created or were shared 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -24,22 +22,21 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td><p>New: Contributor</p>
-       <p>or</p>
-       <p>Current: Request</p></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Contributor</p>
+       <p>Request</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>[!UICONTROL View] or higher access to [!UICONTROL Reports], [!UICONTROL Dashboards], and [!UICONTROL Calendars]</p></td> 
+   <td> <p>View or higher access to Reports, Dashboards, and Calendars</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td>[!UICONTROL View] or higher permissions to the calendar report</td> 
+   <td>View or higher permissions to the calendar report</td> 
   </tr> 
  </tbody> 
 </table>

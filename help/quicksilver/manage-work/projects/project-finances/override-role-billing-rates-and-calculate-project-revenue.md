@@ -13,40 +13,6 @@ exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
 
 You can use billing rates to calculate revenue on your projects when you multiply them by the hours spent on the project. For more information about billing rates and revenue, see the article [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: drafted because the only procedure here was moved to a different article.&nbsp;This stays as an overview)</p>
-<h2>Access requirements</h2>
-<p>You must have the following access to perform the steps in this article:</p>
-<table style="table-layout:auto">
-<col>
-<col>
-<tbody>
-<tr>
-<td role="rowheader">Adobe Workfront plan*</td>
-<td> <p>Any</p> </td>
-</tr>
-<tr>
-<td role="rowheader">Adobe Workfront license*</td>
-<td> <p>Plan </p> </td>
-</tr>
-<tr>
-<td role="rowheader">Access level configurations*</td>
-<td> <p>Edit access to Projects and Financial&nbsp;Data</p> <note type="note">
-If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see
-<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.
-</note> </td>
-</tr>
-<tr>
-<td role="rowheader">Object permissions</td>
-<td> <p>Manage permissions to the project with permissions to Manage Finance</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td>
-</tr>
-</tbody>
-</table>
-<p>*To find out what plan, license type, or access you have, contact your Workfront administrator.</p>
-</div>
--->
-
 ## Overview of Job Role Billing Rates and Role Hourly Revenue Types
 
 As an Adobe Workfront administrator, you can associate billing rates with both users and job roles.  
@@ -114,38 +80,6 @@ For more information about which job role is used to calculate revenue on the pr
 >[!NOTE]
 >
 >In the case of Actual Revenue, the billing rates applied to hours that are added to a Billing Record which is marked as Billed, should not be affected by billing rate overrides that occur after the Billing Record has been billed.
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: drafted and linked above to the stand-alone article for overriding billing rates on projects.)</p>
-<p>You can override the billing rate of a job role on a project in the following ways:</p>
-<ul>
-<li>One time, by selecting a new rate for the job role.<br>The new rate is used for the entire duration of the project, to calculate revenue. </li>
-</ul>
-<ul>
-<li>Several times, by selecting several new rates for specific date ranges. <br>A different rate can be used during each specified date range.</li>
-</ul>
-<p>To override a billing rate for a project:</p>
-<ol>
-<li value="1">Go to the project you want to override billing rates for.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Billing Rates</strong> in the left panel. </p> </li>
-<li value="3"> <p>Click <strong>Add Billing Rate</strong> > <strong>New Billing Rate</strong>.</p> <p>The New Billing Rate box opens</p> <p> <img src="assets/override-billing-rate-on-project-nwe-350x310.png" style="width: 350;height: 310;"> </p> <p> <br>The <strong>Default Billing Rate</strong> field displays the system-level rate for this job role.</p> </li>
-<li value="4">In the <strong>Job Role</strong> field, select the job role you want to change the billing rate for.<br></li>
-<li value="5">In the <strong>Billing Rates 1</strong> field, enter the one time billing rate override, then click <strong>Save</strong> to override the billing rate one time, <br>Or Click <strong>Add Rate</strong> to add more billing rate overrides.</li>
-<li value="6">(Conditional) If you are adding more than one billing rate override, specify the following information:<br>- <strong>Billing Rates 1</strong>: the value of the Billing Rate from the beginning of the project to the first date of the first override. This is typically the same amount as the <strong>Default Rate</strong>.<br>- <strong>Start Date</strong>: this is the date when the Default Rate ends.<br>- <strong>End Date</strong>: the date when the new billing rate override ends. <br>Workfront applies the override job role rate to the hours that occur during the time frames specified when calculating revenue on the project.<br>There should be no gaps between the time frames of two override rates. The <strong>Start Date</strong> of an override rate should be the day immediately following the <strong>End Date</strong> of the previous override date.<br><note type="note">
-You cannot specify a
-<strong>Start Date</strong> for the first override rate, nor an
-<strong>End Date</strong> for the last override rate. We recommend that you use the Default Rate for the first override rate.
-<br>Workfront assumes that the first override rate is applied for all hours with a date older than the
-<strong>End Date</strong> of the first override, and that the last override rate is applied for all hours with a date newer than the
-<strong>Start Date</strong> of the last override.
-<br>If an hour is logged before the Planned Start Date of the project the very first billing rate is used.
-<br>If an hour is logged after the Planned Completion Date of the project the very last billing rate is used.
-</note><br></li>
-<li value="7">Click <strong>Save</strong>.</li>
-</ol>
-</div>
--->
 
 ## Overview of the Billing Rates section of a project
 

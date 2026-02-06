@@ -5,7 +5,7 @@ product-area: system-administration;user-management
 navigation-topic: groups-overview
 title: Subgroups Overview
 description: You can create up to 14 levels of subgroups under one group. On any one of these levels, you can create an unlimited number of parallel subgroups.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a4280498-6719-4911-a69a-b715a5438eed

@@ -4,7 +4,7 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Calendar Reports Overview
 description: A calendar report is a dynamic report that provides a visual representation of your work. You can display date information in a calendar report for tasks, issues, and projects.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
 ---

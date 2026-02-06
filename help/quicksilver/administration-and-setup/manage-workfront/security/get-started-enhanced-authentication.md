@@ -13,9 +13,7 @@ exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
 
 {{important-admin-console-onboard}}
 
-<!--REMOVE ME MARCH 2026-->
-
-<!--Adobe Workfront is changing the system management of users and passwords. These changes will roll out in a phased release called **Enhanced Authentication** experience. Enhanced Authentication offers users a more consistent and secure sign-in experience across all Workfront products and services.
+Adobe Workfront is changing the system management of users and passwords. These changes will roll out in a phased release called **Enhanced Authentication** experience. Enhanced Authentication offers users a more consistent and secure sign-in experience across all Workfront products and services.
 
 The following table provides details about current and future functionality:
 
@@ -114,7 +112,7 @@ The following table provides details about current and future functionality:
     <td> <p>✓</p> </td> 
    </tr>
   --> 
-  <!--<tr> 
+  <tr> 
    <td colspan="3"> <p><strong>Single Sign-On Protocol support</strong></p> </td> 
    <td>&nbsp;</td> 
   </tr> 
@@ -177,5 +175,6 @@ The following table provides details about current and future functionality:
     <td> ✓</td> 
     <td> <p>✓</p> </td> 
    </tr>
-   </tbody> 
-</table>--> 
+  --> 
+ </tbody> 
+</table>

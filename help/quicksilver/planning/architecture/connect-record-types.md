@@ -8,11 +8,15 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 ---
 
+<!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
+
+<!--take production and preview references out at prod-->
+
 # Connect record types
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -22,11 +26,19 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 You can connect record types to one another or you can connect record types with object types from other applications. 
 
-Connecting record types is helpful when you have several types of work objects affecting one another. For example, you might work with campaigns and each campaign might cater to multiple brands. To indicate this relationship, you can connect campaigns to brands. Additionally, the work for each campaign might be planned out in multiple projects in Workfront. To indicate this, you can connect the campaigns to the relevant projects. Connecting record types, and subsequently connecting individual records achieves this relationship in Workfront Planning. 
+Connecting record types is helpful when you have several types of work objects affecting one another. For example, you might work with campaigns and each campaign might cater to multiple brands. To indicate this relationship, you can connect campaigns to brands. This creates a connection field for Brands on the Campaign record. 
+
+Additionally, the work for each campaign might be planned out in multiple projects in Workfront. To indicate this, you can connect the campaigns to the relevant projects. This creates a connection field for Projects on the Campaign record. 
+
+After the connection fields are created, you can connect individual records between the two record or object types. 
+
+>[!NOTE]
+>
+>You can have up to 30 connection fields for one record type.
 
 This article describes how you can connect two Workfront Planning record types, or a Workfront Planning record type with an object from another application. 
 
-After you establish the connection between records or object types, you can connect individual records to one another, and display fields from the linked record or object types on a Workfront Planning record. 
+After you establish the connection between records or object types, a connection field is added to a Planning record type. In the connection field, you can connect individual records to one another, and display fields from the linked record or object types on a Workfront Planning record. 
 
 For general information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -36,10 +48,65 @@ For an example of connecting record types and records, see [Example of connectin
 
 <!--ensure this last linked article is right; the title and the link should have changed-->
 
+
 ## Access requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view the access requirements for the functionality in this article.
 
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>To connect record types from the same workspace: </p>
+<ul> 
+<li><p>Any Workfront and any Planning package</p></li>
+<li><p>Any Workflow and any Planning package</li></ul>
+
+<p>To connect record types from different workspaces:</p>
+
+<ul> 
+<li><p>Any Workfront and any Planning package</p></li>
+<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+<tr> 
+<td> 
+   <p> Additional products</p> </td> 
+   <td> 
+   <p> In addition to Adobe Workfront, you must have the following, if you want to connect record types with objects from the following applications:</p>
+   <ul><li><p>An Adobe Experience Manager Assets license and an integration between AEM Assets and Workfront to connect AEM assets with Planning record types.</p>
+   <p>For information, see <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p></li>
+   <li><p> An Adobe GenStudio for Performance Marketing license to connect record types with GenStudio Brands</p>
+   <p>For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Get started with Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace</p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table> 
+
+ For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).   
+
++++
+
+
+<!--Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -95,16 +162,12 @@ For an example of connecting record types and records, see [Example of connectin
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Manage permissions to a workspace</a> </p>  
+   <td>   <p>Manage permissions to a workspace</p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p></td> 
   </tr> 
  
 </tbody> 
-</table> 
-
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).   
-
-+++
+</table> -->
 
 ## Connect record types
 
@@ -120,94 +183,121 @@ For an example of connecting record types and records, see [Example of connectin
 1. Click the card of a record type to open the record type page. 
 1. Click the **+** icon in the upper-right corner of the table view, then click the **New connection** tab.
 
-    ![New connection tab with Workfront AEM options](assets/new-connection-tab-with-workfront-aem-options.png)
+    ![New connection tab with Workfront AEM options](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
-1. In the **Record type** field, search for a record type, or select one of the following: 
+1. Search for a record type, or select one of the following: 
 
-    * Another record type from the current workspace
+    * A record type from the current workspace
 
-        ![Many to many connection picker](assets/many-to-many-connection-picker.png)
+        ![Multi-select connection picker for same-workspace record type](assets/multi-select-connection-picker-record-type.png)
 
         >[!TIP]
         >
         > 
         >If you don't have other record types in the selected workspace, the workspace section does not display. 
         
-
     * A record type from another workspace that was configured to connect from other workspaces. 
-    
+        
         >[!TIP]
         >
-        >The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the **Advanced settings** tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display.
-        > ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
+        >The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the **Cross-workspace settings** tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display. 
+        >
+        >For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production-->
+        >
+        >![Edit record type box cross-workspace settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
+        
+        <!--Old:
+        [!TIP]
+        The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the **Advanced settings** tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display.
+        ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
+        -->
 
-        For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
-
-        ![New connection to allow multiple records box](assets/new-connection-allow-multiple-records-box.png)
+    For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
 
     * A **Project, Portfolio, Program, Company**, or **Group** from the **Workfront Object Types** section.
 
-        ![Workfront project connection selection](assets/workfront-project-connection-selection.png)
+        ![Workfront project connection selection](assets/multi-select-connection-picker-project.png)
 
-    * **Experience Manager Assets** from the **Adobe Applications** section. 
+    <div class="preview">
+      
+    * An **Original request** object type from the **Workfront Object Types** section. 
+
+        The original request connection field created will display the name of the submitted Planning request that created the object. The name of the request is also visible in the **Subject** field of the request.
+
+        >[!NOTE]
+        >
+        >You must create request forms and publish them in order to submit Planning requests to create records in Workfront Planning. 
+        >
+        >For information, see the following articles: 
+        >* [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
+        >* [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+
+        ![Original request connection selection](assets/original-request-connection-selection.png)
+
+    </div>
+
+
+    * **Experience Manager Assets** from the **Adobe Applications** section.
 
         ![AEM Assets connection selection](assets/aem-assets-connection-selection.png)
 
-1. Update the following information: 
+        A New connection tab opens for your selected record or object type. 
 
-    * **Name**: The name of connected field, as it will appear in the table view or the record page of the original record type. This creates the linked record column in the table view of the original record type or the linked record field for the original records. By default, the name of the field is the name of the record or object you connect to. 
+    * A **Brand** from Adobe GenStudio for Performance Marketing from the **Adobe GenStudio** section
+
+        ![GenStudio Brand connection selection](assets/brand-genstudio-connection-selection.png)
+
+1. Update the **Name** field with the name of the new connected field, as it will appear in the table view or the record page of the original record type. This creates the connected record column (or field) in the table view of the original record type. By default, the name of the field is the name of the record or object you connect to. 
 
     >[!TIP]
     >
     >You can have multiple connections to the same record or object type. If you do not edit the connected field name, Workfront adds a numeral after the name of the connected record, to indicate the number of connected record types by the same name. 
 
-     * **Description**: Additional information about the connected record field. The description of a field displays when you hover over the field's column in a table. 
-     * **Allow multiple records**: Select this option to indicate that you allow users to add multiple records when the linked record type field displays on the original records. This is selected by default. 
-     
-        This option is available only when connecting records from two different workspaces or a record and an Adobe Experience Manager asset object. 
+1. Update the **Description** field by adding information about the connected record field. The description of a field displays when you hover over the field's column in a table. 
+1. (Conditional) When you connect record types from two different workspaces, a record type and an Adobe Experience Manager asset object, or a record type and a GenStudio Brand, select the **Allow multiple records**. By selecting it, you indicate that you allow users to add multiple records when the connected record type field displays on the original records. This is selected by default.  
+    
+    ![New connection to record type from another workspace](assets/new-connection-allow-multiple-records-box.png)
+    
+1. (Conditional) When you connect record types from the same workspace, or a Planning record type with a Workfront object type, select one of the following:
 
-        ![New connection to allow multiple records box](assets/new-connection-allow-multiple-records-box.png)
-     
-     * **Connection type**: Select one of the following options to indicate how many records they can connect to and from:
+    * **Multi-select**: Select this to allow one record from the current record type to connect with multiple records from the connection record type.
+    * **Single-select**: Select this to allow one record from the current record type to connect with one record from the connection record type.
 
-        * Many to many
-        * One to many
-        * Many to one
-        * One to one
-     
-        This option is available only when connecting records from the same workspace or a record and a Workfront object type.        
-
-        ![Many to many connection picker](assets/many-to-many-connection-picker.png)
-                
-        For more information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-
-        >[!NOTE]
-        >
-        > If you select One to many or One to one for the Connection type and you later want to connect a record or an object that is already connected elsewhere, you will receive a warning that connecting it again will remove it from the original connection. You can allow the removal or select another record.
-
-     * **Select lookup fields**: Select this option to add fields from the selected record type. The lookup fields are fields associated with the record or object type that you are linking to. Linking them displays information from the record or object you're linking to on the record you are linking from. This is selected by default. 
+1. Select the **Create corresponding field on linked record type**. When selected, a connection field is created on the record type you are connected to, in addition to the connection field added to the current record type. This is disabled by default.
 
     >[!TIP]
     >
-    >* You cannot add Workfront typeahead fields (including fields like Project Owner, or Project Sponsor) as lookup fields.
+    >* In addition to the limit of 30 connection fields for one record type, there is a limit of 500 fields for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit.
     >
-    >* Workfront objects' date field information displays in 24 hour format in Workfront Planning, regardless of how it displays in Workfront. 
-    >
-    >   For example, if a project's Planned Start Date displays as 3:00 PM in Workfront, it will display as 15:00 in Workfront Planning in an imported lookup field. 
+    >* Selecting the **Create corresponding field on linked record type** is a prerequisite for creating hierarchies.
 
-1. (Conditional and optional) If you selected to connect a Workfront object, select a **Custom form** from the **Link only objects that match these criteria** section. Only objects that have the selected custom forms attached can be linked to the selected record type. You can select more than one form.  
+1. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
+
+    * Many to many
+    * One to many
+    * Many to one
+    * One to one    
+
+    For more information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+    >[!NOTE]
+    >
+    >If you select One to many or One to one for the Connection type and you later want to connect a record or an object that is already connected elsewhere, you will receive a warning that connecting it again will remove it from the original connection. You can allow the removal or select another record.
+
+1. (Conditional and optional) When you select to connect a Workfront object, choose a **Custom form** from the **Link only objects that match these criteria** section. Only objects that have the selected custom forms attached can be linked to the selected record type. You can select more than one form.  
 
     >[!NOTE]
     >
     > You must create custom forms in Workfront for the selected objects before they display in this list.
 
-1. (Conditional) If you selected to connect to Experience Manager Assets, select a repository from the **Experience Manager repository** drop-down menu in the **Link assets from the following repository** section. This is a required field. Only repositories you have access to in Experience Manager Assets display in this field. 
+1. (Conditional) When you select to connect to Experience Manager Assets, choose a repository from the **Experience Manager repository** drop-down menu in the **Link assets from the following repository** section. This is a required field. Only repositories you have access to in Experience Manager Assets display in this field. 
 
     >[!NOTE]
     >
     >Your Workfront administrator can map Workfront Planning fields to Experience Manager Assets fields through the Metadata mapping in Workfront. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). 
 
-1. (Conditional) If you selected to connect to Experience Manager Assets or to a Workfront Planning record type, select one of the following options in the **Record appearance** area:
+
+1. (Conditional) When you select to connect to Experience Manager Assets, to a Workfront Planning record type, or to a GenStudio Brand, choose one of the following options in the **Record appearance** area:
 
     * **Name and image**: Both the name and the thumbnail or icon of the connected records will display in the connected record field. This is the default option. 
     * **Name**: Only the name of the connected records will display in the connected record field.
@@ -224,6 +314,18 @@ For an example of connecting record types and records, see [Example of connectin
     >* Selecting a record appearance is not available when selecting Workfront object types. 
     >
     >* What you select in the Record appearance area determines how the records display in connections everywhere in the system, including all the views and details pages. 
+
+1. Select the **Select lookup fields** to add fields from the  record type you are connecting to. The lookup fields are fields associated with the record or object type that you are linking to. Linking them displays information from the record or object you're linking to on the record you are linking from. This is selected by default. 
+
+    >[!TIP]
+    >
+    >* You cannot add Workfront typeahead fields (including fields like Project Owner, or Project Sponsor) as lookup fields.
+    >
+    >* Workfront objects' date field information displays in 24 hour format in Workfront Planning, regardless of how it displays in Workfront. 
+    >
+    >   For example, if a project's Planned Start Date displays as 3:00 PM in Workfront, it will display as 15:00 in Workfront Planning in an imported lookup field. 
+    >* In the Production environment, you cannot add People fields as lookup fields. <span class="preview">You can add People fields as lookup fields in the Preview environment.</span>
+    >
 
 1. Click **Create**.
 
@@ -272,7 +374,10 @@ For an example of connecting record types and records, see [Example of connectin
 
     >[!NOTE]
     >
-    > Aggregators are not available when connecting record types to Experience Manager Assets.  
+    > Aggregators are not available when connecting record types to the following: 
+    >* Experience Manager Assets
+    >* GenStudio Brands.
+    >
 
     Select from the following:
 
@@ -312,13 +417,15 @@ For an example of connecting record types and records, see [Example of connectin
 
         For example, if you linked a Campaign record type with a Program record type and name the Program linked record field "Program information," then selected to also display the Program's Budget field in the Campaign's table view, the linked field is automatically named `Budget (from Program information)` in the campaign's table view. 
 
-    * When you link record types to one another, a linked record field is also added on the record type you are linking to. The name of the linked record field on the linked record type is the name of the record type that you link from. 
+    * When you link record types to one another, a linked record field is also added on the record type you are linking to, only when you enable the **Create corresponding field on linked record type** setting. The name of the linked record field on the linked record type is the name of the record type that you link from. 
     
         For example, if you link the "Product" record type from the "Campaign" record type and you named the connected field of the Campaign "Linked Product", a "Campaign" linked record field is created for the Product record type. 
 
         >[!TIP]
         >
-        > A linked record field  is not created for objects from another application to the record type you are linking from in Workfront Planning.
+        > A linked record field is not created for objects from another application in their respective applications. 
+        > We recommend not creating links to taxonomical record types, as there is a limit of 500 fields, in addition to the limit of 30 connected fields for every record type.
+
 
 1. (Optional and conditional) From either the original record type or the linked record type table view, click the downward-pointing arrow in the header of the linked record fields, then click one of the following:
 

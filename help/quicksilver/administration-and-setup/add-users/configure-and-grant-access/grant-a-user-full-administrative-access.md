@@ -10,17 +10,15 @@ exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
 
 <!--Audited: 12/2024-->
 
-<!--DELETE ME MARCH 2026-->
-
 >[!IMPORTANT]
 >
->The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
->
->All Workfront organizations have now been onboarded to the Adobe Admin Console.
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
 >For instructions on granting full administrator access in the Adobe Admin Console, see [Manage users in the Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-<!--As an Adobe Workfront administrator, you can create another Workfront administrator by assigning them the System Administrator access level. A user with this access level has full administrative access to everything in Workfront, including items they did not create themselves.
+As an Adobe Workfront administrator, you can create another Workfront administrator by assigning them the System Administrator access level. A user with this access level has full administrative access to everything in Workfront, including items they did not create themselves.
 
 >[!NOTE]
 >
@@ -34,20 +32,18 @@ exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article: 
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New: Standard</p>
-   <p>Current: Plan</p></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -56,7 +52,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Grant full System Administrator access to a single user
@@ -419,4 +415,3 @@ Users with a Plan license who can edit functionality in one area have full acces
   </tr> 
  </tbody> 
 </table>
--->

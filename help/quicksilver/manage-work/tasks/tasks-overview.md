@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: "Tasks: article index"
+title: "Tasks: Article Index"
 description: Tasks are smaller work items in Adobe Workfront that contribute to the completion of a project. Learn information about managing tasks in the following articles. 
 author: Alina
 feature: Work Management
@@ -21,5 +21,5 @@ Tasks are smaller work items in Adobe Workfront that contribute to the completio
 * [Manage tasks](../../manage-work/tasks/manage-tasks/manage-tasks.md) 
 * [Task Constraints](../../manage-work/tasks/task-constraints/task-constraints.md) 
 * [Task Duration and Duration Types: article index](../../manage-work/tasks/taskdurtn/task-duration-duration-type.md) 
-* [Use task predecessors](../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md) 
+* [Use task predecessors: article index](../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md) 
 * [Tips, tricks, and troubleshooting for tasks](../../manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)

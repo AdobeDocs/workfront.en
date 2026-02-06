@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Task Handoff Date overview
+title: Task Handoff Date Overview
 description: The Handoff Date is the date that a task becomes available for work. This typically means that its predecessors have resolved and the assignee of the task can start working on it.
 author: Alina
 feature: Work Management

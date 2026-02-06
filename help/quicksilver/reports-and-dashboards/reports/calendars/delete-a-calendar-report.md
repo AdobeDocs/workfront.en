@@ -3,7 +3,7 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Delete a Calendar Report
 description: You can delete a calendar that you own or that others shared with you. Once deleted, the calendar becomes inaccessible to users with whom you have shared it.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
 ---
@@ -17,8 +17,6 @@ You can't delete your default calendar unless you have an existing alternative c
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -26,22 +24,21 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td><p>New: Standard</p>
-       <p>or</p>
-       <p>Current: Plan</p></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>[!UICONTROL Edit] access to [!UICONTROL Reports], [!UICONTROL Dashboards], and [!UICONTROL Calendars]</p></td> 
+   <td> <p> Edit access to Reports, Dashboards, and Calendars</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td>[!UICONTROL Manage] access to the calendar report, with access to delete it</td> 
+   <td>Manage access to the calendar report, with access to delete it</td> 
   </tr> 
  </tbody> 
 </table>
