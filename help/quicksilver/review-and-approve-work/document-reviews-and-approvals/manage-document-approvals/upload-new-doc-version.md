@@ -106,25 +106,22 @@ To add a new version:
 
 
 
-
-
-
-
-
-1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.
-
-
-1. To add an existing approval template, click the Template button and begin typing in a template name.
+<!--1. To add an existing approval template, select a template from the left side of the dialog.
 
    >[!TIP]
    >
    >   Users with a Standard license can create resuable Approval Templates from the Setup area. For more information, see [Create an Approval Template for assets and documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
+-->
 
-1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
- 
-1. Once you've added all reviewers and approvers, click **Submit Request**. Participants are notified via email.
- 
-    ![submit new version for approval](assets/add-previous-participants.png)
+1. Once you have added all the stages and participants you need, click **Request approval**.
+
+   The approval workflow starts and the approvers receive a notification that their approval is needed on the new document version. The previous document version is locked and any outstanding approvals on the previous version are withdrawn.
+
+    ![request approval](assets/request-approval.png)
+<!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
+
+
+
 
 
