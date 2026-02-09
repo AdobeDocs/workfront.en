@@ -33,16 +33,9 @@ The articles in the following sections describe how you can configure the Adobe 
 * [Delete workspaces](/help/quicksilver/planning/architecture/delete-workspaces.md)
 * [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md)
 * [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md)
-
-<div class="preview">
-
 * [Cross-workspace record types overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 * [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 * [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 * [Configure the Settings area of a record type](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
-
-</div>
-
-<!--* [Hierarchies and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)-->
-<!--* [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)-->
-
+* [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
+* [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)

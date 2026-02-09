@@ -74,7 +74,7 @@ To create a Topic Group:
 1. Click **Topic Groups** in the left panel. 
 1. Click **New Topic Group**.
 
-   <!--   ![](assets/new-topic-group-box-nwe-350x306.png) -->
+   <!--   ![New topic group box](assets/new-topic-group-box-nwe-350x306.png) -->
 
 1. Specify the following information:
 

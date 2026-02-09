@@ -134,6 +134,10 @@ To request the Adobe Gen AI agreement:
 
    The agreement will be sent to this individual for signing. After it is signed and returned, the agreement is reviewed by Adobe, and then AI Assistant is enabled for your organization.
 
+   >[!NOTE]
+   >
+   >Please allow 1-3 business days after signing and returning the agreement for Adobe to review and enable AI Assistant.
+
 ## Tips for creating prompts in AI Assistant
 
 Use the following keywords in your prompts to provide context and aid in locating the correct information. Keywords are not case-sensitive.
@@ -147,7 +151,7 @@ When entering your prompt, include the phrase `using (keyword)`.
 |`help`| Returns information from Experience League documentation. |
 |`formula`| Checks and returns formulas for use in Planning, Setup, or custom forms. |
 |`health`| Checks project health with Project Health Advisor. |
-|`summarize`| Summarizes items, such as when uploading a file or summarizing a project. | 
+|`summarize`| Summarizes items, such as when uploading a file or summarizing a project. |
 
 >[!NOTE]
 >

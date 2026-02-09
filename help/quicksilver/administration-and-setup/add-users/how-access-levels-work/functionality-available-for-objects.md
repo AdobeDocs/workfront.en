@@ -4,14 +4,14 @@ content-type: reference
 product-area: system-administration
 keywords: access,model,funnel,diagram,levels,permissions
 navigation-topic: access-levels
-title: Functionality Available for Each Object Type for New Access Levels
+title: Functionality Available for Each Object Type
 description: The following tables lists the functionality available for each object type in the various access levels.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
 ---
-# Functionality available for each object type for new access levels
+# Functionality available for each object type
 
 {{highlighted-preview}}
 
@@ -47,7 +47,7 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Add tasks                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Give updates/comments        | ✓        | ✓      | ✓      | &nbsp;        |
 | Change status                | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Log hours                    | ✓        | <span class="preview">✓</span>      | &nbsp;      | &nbsp;        |
+| Log hours                    | ✓        | ✓      | &nbsp;      | &nbsp;        |
 | Edit assignments             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Manage a baseline            | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Manage risks                 | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
@@ -119,7 +119,7 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Convert an issue to a project | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Convert an issue to a to task | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Accept assignments            | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Make assignments              | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
+| Make assignments              | ✓        | ✓ | ✓     | &nbsp;        |
 | Add updates and comments      | ✓        | ✓      | ✓           | &nbsp;        |
 
 {style="table-layout:auto"}

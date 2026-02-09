@@ -74,4 +74,4 @@ To view details about a project in [!DNL Workfront View]:
 
 1. Swipe from right to left to display the following project in the list.\
    The same widgets display for each project, as you scroll through them.\
-   ![Image-1__6__copy.jpg](assets/image-1--6--copy-350x262.jpg)&nbsp;
+   ![Image-1__6__copy.jpg](assets/image-1--6--copy-350x262.jpg)  

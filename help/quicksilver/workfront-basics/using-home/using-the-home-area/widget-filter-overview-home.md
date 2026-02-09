@@ -270,7 +270,7 @@ In the Production environment:
       <td> <p>Displays requests 
       <ul>
       <li>That you submitted and are still open. </li> 
-      <li>Without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the My Open Requests subtab.&nbsp;</li> 
+      <li>Without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the My Open Requests subtab.  </li> 
       </ul>
       <p><b>NOTE</b> 
       Requests that are not in a status that equates with Closed are considered open.</p> </td> 

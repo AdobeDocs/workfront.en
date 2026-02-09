@@ -11,10 +11,6 @@ exl-id: de161674-5b61-4853-a16a-c70db10a1c95
 ---
 # Create requests
 
-<!--
-{{highlighted-preview}}
--->
-
 Requests and issues are interchangeable in Adobe Workfront. You can create requests by doing one of the following:
 
 * Submit a request in Workfront
@@ -33,5 +29,5 @@ For more information about how to create, submit, or email requests in to Workfr
 * [Share a link to a request queue](../../../manage-work/requests/create-requests/share-link-to-request-queue.md) 
 * [Delete a submitted request or request draft](../../../manage-work/requests/create-requests/delete-request-draft.md)
 * [Auto-fill a request from previous data](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
+* [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
 * [Use Form Fill powered by AI to fill in a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
-* [Create views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)

@@ -1,5 +1,5 @@
 ---
-title: New Access Levels Overview
+title: Access Levels Overview
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -11,7 +11,7 @@ feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
 ---
-# New access levels overview
+# Access levels overview
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ Attached to the Light license, this access level is designed for users who:
 * View all items and updates tied to work
 * Approve projects, tasks, and issues
 * View dashboards and reports
-* Track time on tasks and issues and approve timesheets
+* Track time on projects, tasks, and issues and approve timesheets
 * Create and manage issues
 
 Users with the Light access level:
@@ -119,6 +119,7 @@ Users with the Light access level:
 * Can be assigned work items but can't complete them.
 * Can access requests and documents in the Main Menu.
 * Have limited ability to create objects—they can't create projects, portfolios, programs, or reports.
+* Can only log time at the project level when Edit access is enabled. They cannot create, edit, delete, or share projects.
 
 >[!NOTE]
 >
@@ -145,8 +146,8 @@ The following are the highest access settings available for objects in the Light
   <tr> 
    <td>Projects</td> 
    <td>&nbsp;</td> 
-   <td>✓</td> 
    <td>&nbsp;</td> 
+   <td>✓ (for logging time at the project level)</td> 
   </tr> 
   <tr> 
    <td>Tasks</td> 

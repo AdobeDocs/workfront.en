@@ -11,8 +11,6 @@ exl-id: d4f02102-0378-472f-9ebb-753502ec048b
 ---
 # Customize the Main Menu using a layout template
 
-{{preview-fast-release-general}}
-
 <!--Audited: 01/2024-->
 
 As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the options users see when they open the Main Menu in Workfront.
@@ -71,7 +69,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
      >[!TIP]
      >
      >By default, the Home icon in the Main Menu displays the My Updates area for Review-license users (in the current license plan), unless they have a layout template associated with their profile that includes the My Updates area in the Main Menu, in addition to the Home area.
-
+  
+   * Priorities
    * Portfolios
    * Programs
    * Projects
@@ -127,20 +126,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    You can also click **Cancel** at any time if you want to discard your changes.
 
-1. <span class="preview">In the Preview environment: Continue customizing the layout template. You can click **Apply** at any time to save your progress.</span>
-
-   <span class="preview">Or</span>
-
-   <span class="preview">If you are finished customizing, click **Save and Close**.</span>
-
-1. In the Production environment: Continue customizing the layout template.
+1. Continue customizing the layout template. You can click **Apply** at any time to save your progress.
 
    Or
 
-   If you are finished customizing, click **Save**.
-
-   >[!TIP]
-   >
-   >You can click **Save** at any time to save your progress, then continue to modify the template later.
+   If you are finished customizing, click **Save and Close**.
 
 For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

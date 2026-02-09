@@ -5,7 +5,7 @@ title: Manage your approvals with the My Approvals widget
 description: The My Approvals widget displays all of your pending, assigned, delegated, and submitted approvals in one place. Here, you can filter and organize your approvals, make decisions, and delegate approvals as needed.
 author: Courtney
 feature: Get Started with Workfront
-
+exl-id: 276a33f5-92de-440c-ae3a-8cd01731434f
 ---
 # Manage your approvals with the My Approvals widget
 
@@ -123,4 +123,4 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    </tr>
    </table>
       
-After you make a decision, the approval is removed from the My Approval widget.   
+After you make a decision, the approval is removed from the My Approval widget.

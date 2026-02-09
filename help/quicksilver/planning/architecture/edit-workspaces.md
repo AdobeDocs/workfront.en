@@ -119,22 +119,22 @@ For more information about Workfront access requirements, see [Access requiremen
 </tbody> 
 </table> -->
 
-
 ## Edit a workspace
 
 {{step1-to-planning}}
     
-1. (Conditional) If you are a Workfront administrator, click **Workspaces I'm on** to access workspaces you created, or **Other workspaces** to access workspaces others shared with you. 
+1. (Conditional) If you are a Workfront administrator, click one of the following:
 
-<!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******-->
+   * **Workspaces I'm on** to access workspaces you created
+   * **All workspaces** to access workspaces shared with you or workspaces you created
 
 1. (Optional) Click **Show all** to display additional workspaces. The **Show all** link displays only when you have more than two rows of workspace cards.
 1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
 1. To edit a workspace, do one of the following:
 
    * Hover over the workspace card, then click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the card
-      Or <!--Add this to the next bullet: <span class="preview"> Search for a workspace by name and</span>--> 
-   * Click a workspace card to open the workspace, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the workspace name. 
+      Or 
+   * Click the **search** icon ![Search icon](assets/search-icon.png) in the upper-right corner of the Workspaces page to search for a workspace by name and click a workspace card to open the workspace, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the workspace name. 
 1. Click **Edit**.
 
    The **Edit workspace** box displays.

@@ -12,9 +12,9 @@ exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
 
 # Adobe Workfront Planning object limitations overview
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.</span>   
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.</span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -35,21 +35,25 @@ The following table shows the limits for how many objects you can create in Work
 |     Number of characters for a Single-line text field                                                               |   1,000 characters                                                                                              |
 |     Number of characters for a paragraph  field                                                               |   10,000 characters                                                                                              |
 |     Number of paragraph fields for one record type                                                               |   20 paragraph fields                                                                                              |
-|     Size of file that you can paste in a record type table                    |   1MB                                                                                                           |
-|     Size of file that you can import through the API for a record type table  |   1.5MB                                                                                                         |
+|     Size of file that you can use to import information in a record type table                    |   1MB                                                                                                           |
+|     Size of file that you can use to import information in a record type table through the API  |   1.5MB                                                                                                         |
 |     The rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
 | Number of views one user can create for one record type | 100 |
 | Size of CSV of Excel file you can import to create record types | 5MB |
 | Number of rows you can import in a CSV or Excel file to create record types | 25,000 |
 | Number of columns you can import in a CSV or Excel file to create record types | 500 |
 | Number of formula fields for one record type | 20 |
-| <span class="preview">Number of connection fields for one record type</span> | <span class="preview">30</span> |
+| Number of connection fields for one record type | 30 |
 | Number of characters in a formula field expression | 50,000 |
 | Number of entities (users, roles, teams, companies, groups) you can share a Planning object with | 100 |
+| Number of record types in a hierarchy | 4 |
+| Number of hierarchies in a workspace | 5 |
+| Number of records from a parent record type connected to one record from a child record type, inside a hierarchy | 10 |
+| Number of records connected to one record in a multi-select connection type, without a hierarchy configured between the records | 500 |
 
 *We recommend to not have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.
 
-For information about Workfront Planning pricing and packaging, contact your account manager.
+For information about Workfront Planning pricing and packaging, contact your account manager. 
 
 <!--
 ****************KEEP THIS COMMENTED OUT:

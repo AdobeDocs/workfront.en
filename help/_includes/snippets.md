@@ -46,7 +46,7 @@
 
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
+>The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud]. 
 >
 > If your organization has been onboarded to [!DNL Adobe Experience Cloud], see [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
@@ -364,8 +364,8 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 **Latest version**: 
 
-* Mac: 2.1.52 as of 7/31/2025
-* Windows: 2.1.52 of 7/31/2025
+* Mac: 2.1.54 as of 12/11/2025
+* Windows: 2.1.54 of 12/11/2025
 
 <!-- Release -->
 

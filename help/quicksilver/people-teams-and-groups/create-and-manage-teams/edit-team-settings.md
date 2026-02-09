@@ -71,9 +71,9 @@ For more detail about the information in this table, see [Access requirements in
 
      For more information on applying a custom layout template to a team, see the "Applying a Custom Template to a Team" section in Change the [!UICONTROL My Work] and [!UICONTROL Work Requests] areas with Layout Templates.
    
-   * Decide if this team is an agile team, by selecting the **[!UICONTROL This is an Agile Team]** option.
+   * Decide if this team is an Agile team, by selecting the **[!UICONTROL This is an Agile Team]** option.
 
-     For more information on agile teams and how to manage work inside an agile team, see [Create an agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     For more information on Agile teams and how to manage work inside an Agile team, see [Create an Agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
    
    * Change the [!UICONTROL Work On It] button to a [!UICONTROL Start] button. For more information on how to configure the [!UICONTROL Start] button, see [Replace the Work On It button with a [!UICONTROL Start] button](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Customize the **[!UICONTROL Done]** button. For more information on how to customize the [!UICONTROL Done] button, see:

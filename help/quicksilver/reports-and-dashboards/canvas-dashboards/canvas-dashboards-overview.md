@@ -35,6 +35,10 @@ With Canvas Dashboards, you can report on newly added Workfront features, includ
 
 ## Canvas Dashboard articles
 
+* Use Canvas Dashboards
+
+    * [Use Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
+
 * Canvas Dashboards beta
 
     * [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)

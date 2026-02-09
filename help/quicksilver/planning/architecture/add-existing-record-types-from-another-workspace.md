@@ -124,7 +124,8 @@ And
 1. Click **Continue**.
 1. In the **Choose the record type** box, click the card for the record type that you want to add from an existing workspace, then click **Add**.
 
-   The record type is added to the secondary workspace that you selected and the **global record type** icon ![](assets/global-icon.png) displays on the record type's card. 
+   <span class="preview">The record type is added to the secondary workspace that you selected and the **global record type** icon ![Global record icon on the secondary workspace](assets/global-icon-secondary-workspace.png) displays on the record type's card. </span>
+   <span class="preview">The global record type icon includes an arrow when displayed on a record type in the secondary workspace, to indicate that the record type was added from an existing record type.</span>
     
    The following things occur:
 
@@ -132,7 +133,8 @@ And
 
       * All original fields
       * All record connections
-   * You can view records added from other workspaces that use the same global record type, only when you have at least View permissions to those workspaces. 
+   * You cannot view records added from the original workspace of the record type from the secondary workspace.
+   * You can view records added from the original workspace of the record type in that workspace, only in the original workspace, if you have at least View permissions to that workspace.
    * The read-only **Workspace** field is added to the new record type table view. The field displays the workspace where each record was created. 
    
       >[!NOTE]
@@ -140,8 +142,14 @@ And
       >You cannot edit the new record type's appearance, additional settings, or original fields. You can edit the record type and all its original fields and settings only from the original workspace.
       >
 
+1. <span class="preview">(Optional) Hover over the global record type icon ![Global record icon on the secondary workspace](assets/global-icon-secondary-workspace.png) to view the name of the original workspace where the record type was added from. </span>
 1. (Optional) Click, then drag and drop the newly added record type to any section within the workspace. 
-1. (Optional) Click the **More** menu on the new record type's card or to the right of the record type name on its page, then click **Delete**.
+1. (Optional) Click the **More** menu on the new record type's card or to the right of the record type name on its page, then click one of the following: 
+
+   * **Share** to share the record type from the secondary workspace.
+   * **Delete** to delete the record type from the secondary workspace. Deleting record types from the secondary workspace also deletes records added from the secondary workspace. 
+
+      Views added from the secondary workspace are not deleted. <!--checking with Lilit - not sure if this is by design??-->
 
    For more information, see the section "Delete global record types" in the article [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md).
 

@@ -10,11 +10,9 @@ exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 
 <!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
-<!--keep global record types in yellow till Jan 2026-->
-
 # Share record types
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -177,16 +175,10 @@ Or
 * You cannot share record types externally, with users outside of Workfront.
 * To give a user that does not have workspace permissions higher than View permissions to a record type, you must first share the workspace with them with a higher permission than View. The higher permissions for the workspace will then apply to the record types. 
 
-<div class="preview">
-
-* The following scenarios exist when sharing global record types:
-   
-   * You can share global record types from their original workspace.
-   * You cannot share global record types after they were added to a secondary workspace. 
+* You can share a global record type both from its original and other secondary workspaces where it was added.  
 
    For information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
 
-</div>
 
 ## Share permissions to a record type
 
@@ -231,6 +223,7 @@ You can adjust permissions to individual record types of a workspace if you have
    >* You cannot give users a lesser permission than Manage to a record type, if they have Manage permissions to the workspace. 
    >* You can give users a lesser permission to the record type if they have Contribute permissions to the workspace. 
    > For more information, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
+   >* When you share a record type with a user, their primary job role <span class="preview">and their email</span> also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email. 
 
 1. To give users who do not have permissions to the workspace access to view a record type, in the **Grant access to this view** field, start typing the name of a user, a group, team, company, or job role, then click it when it displays in the list. 
 
@@ -269,7 +262,7 @@ You can remove users' permissions from a record type. However, they will retain 
 
    People no longer have the indicated permissions to the record type. However, they they still have permissions to the workspace, unless you also remove them from workspace permissions. 
    
-   There is no notification for the users that have been removed from accessing the view that they no longer have this access.
+   There is no notification for the users that have been removed from accessing the record type that they no longer have these permissions.
 
 <!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 

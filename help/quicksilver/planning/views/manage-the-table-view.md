@@ -185,7 +185,7 @@ You can add up to 500 fields (or columns) in a table view.
 
     The columns you add are visible to all users who access the record type and are added as new fields on the record's page.
 
-1. (Optional) Click the **Fields** icon ![Fields icon](assets/fields-icon.png) in the toolbar, find the field in the list or <span class="preview"> search for a field</span>, and unselect the toggle to the right of the field name to hide the field. 
+1. (Optional) Click the **Fields** icon ![Fields icon](assets/fields-icon.png) in the toolbar, search for a field, then unselect the toggle to the right of the field name to hide the field. 
    
 1. Do one of the following to reorder columns in the table:
 
@@ -230,6 +230,8 @@ You can add up to 500 fields (or columns) in a table view.
     >[!TIP]
     >
     >The number of hidden fields displays to the left of the Fields icon in the toolbar.
+    >
+    ><span class="preview">By default, hidden fields do not display in the record's **Details** preview box. All fields display in the record's Details page. For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
 
 
 1. Click the **Fields** icon and enable the toggle associated with the fields you want to display in the columns of the table. All fields display by default.
@@ -305,7 +307,7 @@ To add a filter to a table view:
 1. Select a table view, then click **Filters** in the upper-right corner of the table.    
 1. Click **Add condition** and add the following information: 
 
-    * <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list.
+    * Search for a field and select it when it disaplays in the list when.
 
     * **Select an option** (or a filter modifier) to define what kind of condition the field must meet
 
@@ -536,7 +538,7 @@ To sort grouped records:
 
 1. (Optional) Click **Row colors** to define conditions and choose configure diferent colors for table rows.
 
-1. Click **Add color**, then <span class="preview">search for a field or </span> click the drop-down menu to display a list of fields and select it from the list. This is the field whose value you want to determine the color of a row.
+1. Click **Add color**, then search for a field then select it when it displays in the list. This is the field whose value you want to determine the color of a row.
 
     For example, to display campaigns with a status of Active in green, select **Status**, then choose a modifier and a value for the field. 
 

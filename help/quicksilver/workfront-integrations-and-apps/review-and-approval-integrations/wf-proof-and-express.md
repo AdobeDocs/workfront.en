@@ -91,8 +91,13 @@ Throughout the content production and review and approval process, users can
 * Read comments 
 * and more
 
-<!--Learn how to get approval on designs.   
-need link to help article-->
+### Choose a Workfront project when requesting approval
+
+When requesting approval on a remixed Express template, users can choose a Workfront project to send the proof to. This helps keep all related assets and proofs organized within the same project.
+
+If no project is selected, the proof will default into an Express-specific project.
+
+For more information, see [Send templates for review and approval](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
 
 ## Review and approve remixed Express file 
 

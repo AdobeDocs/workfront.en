@@ -221,7 +221,7 @@ The 2020.3 release contains the following enhancements for all users:
    <td> <p>Beta Preview release:&nbsp;June 17, 2020</p> <p>Production release:&nbsp;July 2, 2020</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md#agile" class="MCXref xref">Agile boards load 50 work items at a time</a> </p> <p>To increase the speed and performance of the agile tools, up to 50 cards now load in various locations. If there are more than 50 work items on an agile board, a button appears at the bottom of the board or backlog, allowing you to load additional work items.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md#agile" class="MCXref xref">Agile boards load 50 work items at a time</a> </p> <p>To increase the speed and performance of the Agile tools, up to 50 cards now load in various locations. If there are more than 50 work items on an Agile board, a button appears at the bottom of the board or backlog, allowing you to load additional work items.</p> </td> 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;June 19, 2020</p> <p>Production release:&nbsp;With the 20.3 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 

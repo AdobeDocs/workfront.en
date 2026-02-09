@@ -70,7 +70,29 @@ Canvas Dashboards offer a wide variety of options and configurations that you ca
 
 1. Click **New Dashboard** in the top-right corner.  
 
-1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**.  
+1. In the **Create dashboard** box, 
+
+1. Specify the following: 
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader"><strong>Name</strong></td>
+      <td><p>Enter a name for your dashboard. We recommend using only UTF-8 characters to avoid compatibility issues.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><strong>Description (Optional)</strong></td>
+      <td>Enter a description of your dashboard.</td>
+     </tr>
+      <tr>
+      <td role="rowheader"><strong>Currency</strong></td>
+      <td>Choose the default currency type for the dashboard. <br>
+      <br>Users can toggle between different currency types when filtering the dashboard. For more information, see <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filter a dashboard by currency type</a>.</td>
+     </tr>
+    </tbody>
+   </table> 
 
 1. Click **Create**. The **Add report box** opens. From here, you can create a new report or add an existing report to the dashboard. 
 
