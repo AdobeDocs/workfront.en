@@ -279,11 +279,12 @@ You can create up to 100 linked folders per folder tree.
 
 1. Click **[!UICONTROL Save]**, or move on to the [Publish assets that are sent to Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) section in this article.
 
->[!NOTE]
+> [!NOTE]
 >
->* This integration will create no more than 100 folders, regardless of how many folder trees are created. For example, an integration with 4 folder trees can create up to 100 folders, not 400 folders.
->* The first folder in folder tree is automatically marked as linked to Workfront. If you do not want this folder linked, you can unlink it.
->* If no folder tree is provided, the root folder becomes the linked folder.
+> * The Workfront AEM Native Integration can create **no more than 100 folders per project per integration**, regardless of how many folder trees are included.  
+>   *For example, an integration with 4 folder trees in a single project can create up to 100 total folders — not 400.*
+> * The first folder in each folder tree is automatically marked as linked to Workfront. If you do not want this folder linked, you can unlink it.
+> * If no folder tree is provided, the root folder becomes the linked folder.
 
 
 ### Publish assets that are sent to Adobe Experience Manager Assets
