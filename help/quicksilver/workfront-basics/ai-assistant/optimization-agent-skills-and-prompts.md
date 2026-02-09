@@ -176,7 +176,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 * Add a new task called Final Copy Polish scheduled from April 15 to April 16, move the Copy Review task to April 10, remove the Extra Review Round task, and set Final Copy Polish as a predecessor of Email Build.
 * During project creation flow try providing as much info as you can about deliverables that should ideally become tasks under the project.
 
-#### Identify best matching job role assignments and estimated effort hours based on task title/description
+#### Create, update, delete assignments (user & role)
 
 * For the project 'Design Landing Page for Product Launch', identify the appropriate job roles and recommended planned hours for all currently unassigned tasks.
 * I have several unassigned tasks, including 'Implement GA4 tracking for campaign site', 'Set up conversion events', and 'Validate analytics data'. Can you suggest the right job roles and estimated hours for each?
