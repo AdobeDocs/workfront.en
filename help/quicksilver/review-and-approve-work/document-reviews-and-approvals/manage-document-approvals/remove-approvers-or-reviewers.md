@@ -1,13 +1,13 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Remove approvers or reviewers from an asset or document
+title: Remove approvers or reviewers from a document approval workflow
 description: You can remove individual approvers or reviewers from a document.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
 ---
-# Remove approvers or reviewers from an asset or document
+# Remove approvers or reviewers from a document approval workflow
 
 You can remove individual approvers or reviewers from an asset or document after they have been assigned.
 
@@ -51,9 +51,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Remove approvers or reviewers to an approval<!--in the legacy document area-->
+## Remove approvers or reviewers from an approval worklow<!--in the legacy documents area-->
 
 <!--If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).-->
+
+To remove approvers or reviewers from an approval workflow:
 
 1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 

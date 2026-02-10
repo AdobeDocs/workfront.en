@@ -1,15 +1,15 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Add additional approvers or reviewers to an asset or document
+title: Add additional approvers or reviewers to a document approval workflow
 description: You can add additional approvers or reviewers to a document that already has pending approvals.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
 ---
-# Add additional approvers or reviewers to an asset or document
+# Add additional approvers or reviewers to a document approval workflow
 
-You can add additional approvers or reviewers to an asset or document that already has pending approvals.
+You can Add additional approvers or reviewers to a document approval workflow that already has pending approvals.
 
 >[!IMPORTANT]
 >
@@ -48,31 +48,61 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Add additional approvers or reviewers from the Document Details page
 
-1. Go to the document page by clicking on the name of the document, then select the version of the document you would like to add an approver or reviewer to in the version dropdown. The latest version will be selected by default.
+## Add additional approvers or reviewers from the Document Summary <!--in the legacy documents area-->
 
-1. Select **Approvals** in the left panel. All existing approvers and reviewers are listed here.
+<!--If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).-->
 
-1. To add an approver, ensure that the **Approver** checkbox is checked then begin typing in the **Reviewers** text box. You can add Workfront users or teams by name. If you would like to add a reviewer instead, simply uncheck the **Approver** checkbox before typing.
+To Add additional approvers or reviewers from the Document Summary:
 
-1. Repeat the previous step to add additional approvers or reviewers.
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-## Add additional approvers or reviewers from the Document Summary 
+1. Click on the document you need and the Document Summary panel for that document will open.
 
-1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Select the version of the document you would like to add an approver or reviewer to in the version drop-down menu. The latest version is selected by default.
 
-1. Click on the document you need and the Document Summary pane will open.
+1. Scroll down to the **Approvals** section, then click **Edit workflow**.
 
-1. Select the version of the document you would like to add an approver or reviewer to in the version dropdown. The latest version will be selected by default.
+   ![edit approval workflow](assets/edit-approval-in-legacy.png)
 
-1. Scroll down to the **Approvals** section in the Document Summary pane, where all of the existing approvers and reviewers are listed. To add an approver, ensure that the **Approver** checkbox is checked then begin typing in the **Reviewers** text box. You can add Workfront users or teams by name. If you would like to add a reviewer instead, simply uncheck the **Approver** checkbox before typing.
+1. Locate the stage you would like to add approvers or reviewers to, then add the user's name or email in the textbox. You can also add an entire team if needed. 
 
-1. Repeat the previous step to add additional approvers or reviewers.
+1. Once their name is added, choose if they are an approver or reviewer. 
 
-## Add additional reviews and approvers from a previous version
+   ![approver or reviewer drop-down](assets/choose-approver-or-reviewer.png)
 
-If you need approval on a new document version, you can easily add 
+1. Repeat steps 5-6 to add additional approvers or reviewers.
+ Once you save, the participants added receive an email notification that their approval or review is needed on the document.
+
+
+
+## Add additional approvers or reviewers from the Document Summary in the new documents area
+
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+
+1. Click on the document you need and the Document Summary panel for that document will open.
+
+1. Select the version of the document you would like to add an approver or reviewer to in the version drop-down menu. The latest version is selected by default.
+
+1. Scroll down to the **Approvals** section, then click **Edit workflow**.
+
+   ![edit approval workflow](assets/edit-approval-in-legacy.png)
+
+1. Locate the stage you would like to add approvers or reviewers to, then add the user's name or email in the textbox. You can also add an entire team if needed. 
+
+1. Once their name is added, choose if they are an approver or reviewer. 
+
+   ![approver or reviewer drop-down](assets/choose-approver-or-reviewer.png)
+
+1. Repeat steps 5-6 to add additional approvers or reviewers.
+ Once you save, the participants added receive an email notification that their approval or review is needed on the document.
+
+
+
+
+
+
+
 
 <!--
 ## Add additional approvers or reviewers from Home
