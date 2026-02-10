@@ -47,7 +47,7 @@ Below are some types of Workfront object lists that use the enhanced list format
 
 >[!NOTE]
 >
->This list is not comprehensive. Each of these object lists can also appear on a report or a dashboard. For example, a Project report or a dashboard that contains a Project report also displays a list of projects.
+>This list is not comprehensive. Each of these object lists can also appear on a report or a dashboard. For example, a Request report or a dashboard that contains a Request report also displays a list of requests.
 
 | Workfront list | Location of object list |
 |--- |--- |
@@ -55,12 +55,15 @@ Below are some types of Workfront object lists that use the enhanced list format
 | List of requests | <ul><li>Requests (new experience only)</li><li>My Requests widget on Home</li></ul> |
 | Lists of statuses, priorities, severities, and exchange rates in Setup | <ul><li>Setup &gt; Project Preferences &gt; Statuses</li><li>Setup &gt; Project Preferences &gt; Priorities</li><li>Setup &gt; Project Preferences &gt; Severities</li><li>Setup &gt; Project Preferences &gt; Exchange Rates</li></ul> |
 
-## Add and edit items in an enhanced list
+## Add items to an enhanced list
 
-Depending on the configuration of the enhanced list, there could be two ways to add an item to the list:
+Depending on which enhanced list you are viewing, do one of the following:
 
-* Click a button above the list. This option opens a dialog where you enter information and save it.
-* Click **New row** at the bottom of the list. This option adds a new row to the table, and you enter information in each cell.
+1. Click the blue button on the upper right of the list. This option opens a dialog where you can enter information. The data is saved as a new row in the table.
+
+   OR
+
+1. Click **New row** at the bottom of the list. This option adds a new row to the table. Double-click in a cell to enter information in it. Each cell represents a field for the list item. Fields must exist before you see them in the list.
 
    Enhanced lists support these field types:
 
@@ -75,9 +78,9 @@ Depending on the configuration of the enhanced list, there could be two ways to 
    * Assignee (one or multiple)
    * Color picker
 
-   When you edit a cell, each field type has its own editing options.
-
-To edit an item in the list, double-click in the cell you want to edit and type the information. Some cells may be read-only.
+   >[!NOTE]
+   >
+   >Each field type has its own editing options. Some fields might be read-only.
 
 ![Enhanced list example](assets/glist-exchange-rates.png)
 
