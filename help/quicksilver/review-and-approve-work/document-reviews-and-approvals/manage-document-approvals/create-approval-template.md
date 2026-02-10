@@ -52,6 +52,13 @@ For more detail about the information in this table, see [Access requirements in
     |----------------------------|---|
     | **(Optional) Timeframe**|Enter the timeframe in days . The approval deadline is calculated from this field once the template is applied to an asset.   |
     | **Add approvers or reviewers** |Begin typing the name of users or teams, then designate them as a reviewer or approver.   |
+
+1. Create a stage: 
+
+    1. Click **Add stage**.
+    1. Enter a name for the stage.
+    1. Click **Save**.
+    1. Add approvers or reviewers to the stage:
     
 1. Click **Save**.
 
