@@ -136,23 +136,23 @@ The following are a few recommendations on how you can lead a successful impleme
 
 ### Dos: 
 
-* **Start with an excited pilot team.** Acknowledge that a global rollout is a significant lift. Focus on a proof-of-concept with a team that is eager to innovate and can provide a blueprint for others. 
+* **Start with an excited pilot team:** Acknowledge that a global rollout is a significant lift. Focus on a proof-of-concept with a team that is eager to innovate and can provide a blueprint for others. 
 
-* **Define lanes, not walls.** Use guided autonomy to provide structure without killing exploration. 
+* **Define lanes, not walls:** Use guided autonomy to provide structure without killing exploration. 
 
-* **Prioritize psychological safety.** Let teams know that legacy tools stay in place until they are comfortable with the new workflow. 
+* **Prioritize psychological safety:** Let teams know that legacy tools stay in place until they are comfortable with the new workflow. 
 
-* **Celebrate quick wins.** Highlight the first automated project creation to the entire team. 
+* **Celebrate quick wins:** Highlight the first automated project creation to the entire team. 
 
-* **Establish a champion.** Identify a power user in each team to lead the transition. 
+* **Establish a champion:** Identify a power user in each team to lead the transition. 
 
 ### Don'ts: 
 
-* **Don't mandate large-scale changes.** Forcing everyone to switch on the first day causes technology-blame. 
+* **Don't mandate large-scale changes:** Forcing everyone to switch on the first day causes technology-blame. 
 
-* **Don't ignore the why** Ensure every team member understands how the strategic thread makes their work more visible. 
+* **Don't ignore the why:** Ensure every team member understands how the strategic thread makes their work more visible. 
 
-* **Don't wait for perfection.** Your taxonomy will evolve. Start with your best guess and refine as you go.
+* **Don't wait for perfection:** Your taxonomy will evolve. Start with your best guess and refine as you go.
 
 <!--
 
