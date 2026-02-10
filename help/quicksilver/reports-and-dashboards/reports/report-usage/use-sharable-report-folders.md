@@ -11,6 +11,8 @@ hidefromtoc: yes
 
 # Use sharable report folders
 
+<!-- This article is linked in the UI -->
+
 ## Access requirements
 
 ## Understand folder permissions
