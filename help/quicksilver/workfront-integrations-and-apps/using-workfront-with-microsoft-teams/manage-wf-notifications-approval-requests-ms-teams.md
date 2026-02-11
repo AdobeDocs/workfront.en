@@ -62,7 +62,7 @@ For information about installing [!DNL Workfront for Microsoft Teams] and loggin
 
 ## Managing [!DNL Workfront] Notifications in [!DNL Microsoft Teams]
 
-When the [!DNL Workfront for Microsoft Teams] app is installed, a [!DNL Workfront] chat channel is created in [!DNL Microsoft Teams] for every member of that team. When an certain action is performed in [!DNL Workfront], you can configure the settings for [!DNL Workfront for Microsoft Teams] to receive notifications about that action in the [!DNL Workfront] chat channel of [!DNL Microsoft Teams].
+When the [!DNL Workfront for Microsoft Teams] app is installed, a [!DNL Workfront] chat channel is created in [!DNL Microsoft Teams] for every member of that team. When a certain action is performed in [!DNL Workfront], you can configure the settings for [!DNL Workfront for Microsoft Teams] to receive notifications about that action in the [!DNL Workfront] chat channel of [!DNL Microsoft Teams].
 
 Consider the following when working with [!DNL Workfront] notifications from [!DNL Microsoft Teams]:
 
@@ -215,7 +215,7 @@ You receive approval notifications when you are asked to approve an object, such
    <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">A document approval request that you requested is approved</td> 
+   <td role="rowheader">A document approval request that you requested is approved*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -223,7 +223,7 @@ You receive approval notifications when you are asked to approve an object, such
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">A document approval request that you requested is approved with changes</td> 
+   <td role="rowheader">A document approval request that you requested is approved with changes*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -231,7 +231,7 @@ You receive approval notifications when you are asked to approve an object, such
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">A document approval request that you requested is rejected</td> 
+   <td role="rowheader">A document approval request that you requested is rejected*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -248,6 +248,8 @@ You receive approval notifications when you are asked to approve an object, such
   </tr> 
  </tbody> 
 </table>
+
+*These notifications refer to legacy document approvals. Unified document approval notifications are not currently supported in [!DNL Microsoft Teams]. For more information about the different approval systems in Workfront, see [Available functionality for document approvals](help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
 
 ### Assignment notifications {#assignment-notifications}
 
