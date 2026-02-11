@@ -151,7 +151,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
 1. Continue editing the template tasks as described in the sections below. 
 
-#### Template Task Name
+### Template Task Name
 
 >[!TIP]
 >
@@ -169,7 +169,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
    Click **Save**. 
 
-#### Overview {#overview}
+### Overview {#overview}
 
 1. Begin editing a template task as described above.
 1. In the **Edit Template Task** box, click **Overview** in the left panel. 
@@ -260,7 +260,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
    Click **Save**.
 
-#### Assignments {#assignments}
+### Assignments {#assignments}
 
 1. Begin editing your template task as described above.
 1. Click **Assignments** in the left panel.
@@ -406,7 +406,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
 1. Click **Save** or continue with the following sections.
 
-#### Finance {#finance-2}
+### Finance {#finance-2}
 
 1. Begin editing a template task as described above.
 1. In the **Edit Template Task** box, click **Finance** in the left panel.
@@ -453,7 +453,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
    Click **Save**.
 
-#### Custom Forms {#custom-forms-2}
+### Custom Forms {#custom-forms-2}
 
 You can define custom forms to be automatically attached by default to tasks when the tasks are added to a project. For information about setting up the project to include default task custom forms, see the "Tasks" section in the article [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -488,7 +488,7 @@ You can also add custom forms to the future tasks of a project when the project 
 
    Click **Save**.
 
-#### Settings {#settings-2}
+### Settings {#settings-2}
 
 1. Begin editing a template task as described above.
 1. In the **Edit Template Task Box**, click **Settings** in the left panel.
@@ -549,7 +549,7 @@ You can also add custom forms to the future tasks of a project when the project 
 
    Click **Save**.
 
-#### Comment {#comment-2}
+### Comment {#comment-2}
 
 1. Begin editing a template task as described above.
 1. In the **Edit Template Task** box, click **Comment** in the left panel.
