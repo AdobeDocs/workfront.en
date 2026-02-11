@@ -7,8 +7,8 @@ author: Courtney
 feature: Reports and Dashboards
 hide: yes
 hidefromtoc: yes
+exl-id: 65831f2e-9092-4e99-a86b-40df42c713bf
 ---
-
 # Use sharable report folders
 
 <!-- This article is linked in the UI -->
