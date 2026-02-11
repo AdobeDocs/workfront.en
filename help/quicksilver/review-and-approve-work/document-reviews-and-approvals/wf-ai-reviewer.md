@@ -88,7 +88,7 @@ When users create individual review and approval requests, they can add an AI Re
 For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 
-![AI reviewer added to individual approval request](assets/ad-ai-reviewer-to-request.png)
+
 
 ## View AI Reviewer score and feedback 
 

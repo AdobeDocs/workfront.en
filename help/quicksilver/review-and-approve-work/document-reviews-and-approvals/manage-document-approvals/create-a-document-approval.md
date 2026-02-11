@@ -64,7 +64,6 @@ To create a an approval workflow:
 
 1. Scroll down to the **Approvals** section, then click **Create workflow**.
 
-   ![Add approvers in document summary](assets/doc-summary-add-approvers.png)
 
 1. Fill in the following details:
 
@@ -75,7 +74,7 @@ To create a an approval workflow:
    </tr>
    <tr>
    <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
    <td><strong>One decision required (optional)</strong></td>

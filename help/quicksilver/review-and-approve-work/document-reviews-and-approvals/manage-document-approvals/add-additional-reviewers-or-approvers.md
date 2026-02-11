@@ -75,18 +75,20 @@ To Add additional approvers or reviewers from the Document Summary:
  Once you save, the participants added receive an email notification that their approval or review is needed on the document.
 
 
-
+<!--
 ## Add additional approvers or reviewers from the Document Summary in the new documents area
+
+If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 
 1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. Click on the document you need and the Document Summary panel for that document will open.
+1. Click on the document, then click the **Approvals** icon on the right side of the page. 
 
-1. Select the version of the document you would like to add an approver or reviewer to in the version drop-down menu. The latest version is selected by default.
+   ![Add approvers in document summary](assets/approvals-icon-new.png)
 
-1. Scroll down to the **Approvals** section, then click **Edit workflow**.
 
-   ![edit approval workflow](assets/edit-approval-in-legacy.png)
+1. Click **Edit workflow**.
 
 1. Locate the stage you would like to add approvers or reviewers to, then add the user's name or email in the textbox. You can also add an entire team if needed. 
 
@@ -96,8 +98,7 @@ To Add additional approvers or reviewers from the Document Summary:
 
 1. Repeat steps 5-6 to add additional approvers or reviewers.
  Once you save, the participants added receive an email notification that their approval or review is needed on the document.
-
-
+-->
 
 
 

@@ -82,7 +82,3 @@ Features available for proofing:
 * Use basic or automated workflows
 
 * Access approval requests in the My Approvals widget in the Home area
-
-<!--
-## Upcoming deprecations
--->

@@ -145,13 +145,3 @@ The following capabilities will not be included in this integration:
 * Document viewer in Workfront
 * Favorite documents
 * Request documents
-
-
-<!--#### Temporary limitations
-
-For now, the following capabilities are not available:
-
-* Send documents to Adobe Experience Manager Assets
-* Multi-stage approvals
-* Upload documents to comments or updates in Workfront
-* Upload documents to tasks or issues in Workfront-->

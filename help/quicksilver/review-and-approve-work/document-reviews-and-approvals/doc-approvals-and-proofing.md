@@ -13,7 +13,7 @@ Unified Approvals in Workfront introduces a new set of features to help you revi
 
 There are some key differences in the workflow when using Unified Approvals and proofing together:
 
-* Participants are shown in the document Summary, not the proofing workflow 
+* Participants are shown in the document Summary, not the proofing workflow.
 
 * Sent, Opened, Comment, Decision (SOCD) details in the document list is proofing related and does not reflect the decision status of the document.
 
@@ -44,19 +44,40 @@ To assign participants:
 1. Select the document you uploaded and open the document Summary.
     ![Open document summary](assets/open-doc-summary.png)
 
-1. Scroll down to the Approvals section, then click **Add**.
+1. Scroll down to the **Approvals** section, then click **Create workflow**.
 
-1. (Optional) Choose an existing approval template. Users with a Standard license can create resuable Approval Templates from the Setup area. For more information, see [Create an Approval Template for assets and documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
-1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
+1. Fill in the following details:
 
-1. To add an approver, click the Approver button and begin typing in a user or team name.
+   <table>
+   <tr>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
+   </tr>
+   <tr>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
+   </tr>
+   <tr>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
+   </tr>
+   </table>
 
-1. To add a reviewer, click the Reviewer button and begin typing in a user or team name.
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
-    ![Add approvers](assets/add-approvers.png)
- 
-1. Once you've added all reviewers and approvers, click **Submit Request**. Participants are notified via email.
+   >[!NOTE]
+   >
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
+
+   ![new stage](assets/new-stage.png)
+
+1. Once you've added all reviewers and approvers, click **Request approvals**. Participants are notified via email.
+
 
 ## Create a new version as needed
 
@@ -71,21 +92,40 @@ To add a new version:
 1. Select the document again, and open the document Summary.
     ![Open document summary](assets/open-doc-summary.png)
 
-1. Scroll down to the Approvals section, then click **Add**.
+1. Scroll down to the **Approvals** section, then click **Create workflow**.
 
-1. (Optional) Choose an existing approval template. Users with a Standard license can create resuable Approval Templates from the Setup area. For more information, see [Create an Approval Template for assets and documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
-1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
+1. Fill in the following details:
 
-1. To add an approver, click the Approver button and begin typing in a user or team name, or choose an approver from the previous version.
+   <table>
+   <tr>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
+   </tr>
+   <tr>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
+   </tr>
+   <tr>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
+   </tr>
+   </table>
 
-1. To add a reviewer, click the Reviewer button and begin typing in a user or team name, choose a reviewer from the previous version.
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
-    ![Add approvers](assets/add-approvers.png)
- 
-1. Once you've added all reviewers and approvers, click **Submit Request**. Participants are notified via email.
- 
-<!-- add info about reusing previous participants once released -->
+   >[!NOTE]
+   >
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
+
+   ![new stage](assets/new-stage.png)
+
+1. Once you've added all reviewers and approvers, click **Request approvals**. Participants are notified via email.
+
 
 
 ## Review the proof and make a decision

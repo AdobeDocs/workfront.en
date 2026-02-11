@@ -75,7 +75,7 @@ To remove approvers or reviewers from an approval workflow:
 
 1. Repeat the previous step to remove any additional approvers or reviewers.
 
-<!--Need to see this in the new docs area to finish 
+<!--
 ## Remove approvers or reviewers to an approval workflow in the new document area
 
 If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
@@ -84,37 +84,22 @@ To create a an approval workflow:
 
 1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. Click on the document, then click the Approvals icon on the right side of the page. 
+1. Click on the document, then click the **Approvals** icon on the right side of the page. 
 
    ![Add approvers in document summary](assets/approvals-icon-new.png)
 
-1. Click **Create workflow**, then fill in the following details:
 
-   <table>
-   <tr>
-   <td><strong>Stage name</strong></td>
-   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
-   </tr>
-   <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
-   </tr>
-   <tr>
-   <td><strong>One decision required (optional)</strong></td>
-   <td>The first person who makes a decision completes the stage.</td>
-   </tr>
-   <tr>
-   <td><strong>Due date (optional)</strong></td>
-   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
-   </tr>
-   </table>
+1. Click **Edit workflow**.
 
-1. (Optional) Repeat the previous step to add additional stages as needed.
+1. Locate the participant you want to remove, then click the **Remove** icon next to their name.
 
-   >[!NOTE]
-   >
-   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
+    The approval or review request is removed and the approver receives a notification that their approval is no longer needed.
 
-   ![Document details](assets/new-stage.png)
+1. (Optional) To change the role of an approver to a reviewer, or vice versa, click the drop-down menu next to the username, and select the new role.
+
+1. Repeat the previous step to remove any additional approvers or reviewers.
+
+   ![remove participants from a stage](assets/add-or-remove-participants.png)
+1. Click **Save**.
 
 -->
