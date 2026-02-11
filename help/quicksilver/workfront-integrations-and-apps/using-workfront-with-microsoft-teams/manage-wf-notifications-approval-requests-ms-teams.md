@@ -249,7 +249,7 @@ You receive approval notifications when you are asked to approve an object, such
  </tbody> 
 </table>
 
-*These notifications refer to legacy document approvals. Unified document approval notifications are not currently supported in [!DNL Microsoft Teams]. For more information about the different approval systems in Workfront, see [Available functionality for document approvals](help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
+*These notifications refer to legacy document approvals. Unified document approval notifications are not currently supported in [!DNL Microsoft Teams]. For more information about the different approval systems in Workfront, see [Available functionality for document approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
 
 ### Assignment notifications {#assignment-notifications}
 
