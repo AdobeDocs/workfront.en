@@ -84,11 +84,11 @@ Depending on which enhanced list you are viewing, do one of the following:
 
 ![Enhanced list example](assets/glist-exchange-rates.png)
 
-## Use the action bar and the More menu in an enhanced list
+## Edit items using the action bar
 
-The action bar shows actions you can take on a list item. Some actions might be specific to that list and do not appear on any other lists.
+You can use the action bar in an enhanced list to edit items in the list. Not all action bars include the same options.
 
-1. Select the check box next to an item in the enhanced list.
+1. Select the check box next to an item in an enhanced list.
 
    The action bar appears at the bottom of the screen.
 
@@ -98,7 +98,7 @@ The action bar shows actions you can take on a list item. Some actions might be 
 
 1. Click a button on the action bar to take that action, such as viewing the list item, deleting the item, or editing the item.
 
-   If no actions are available for the selected item, the action bar states "No available actions."
+   If no actions are available for the selected item, the action bar displays "No available actions."
 
    ![Action bar example](assets/glist-action-bar-statuses.png)
 
@@ -108,7 +108,7 @@ The action bar shows actions you can take on a list item. Some actions might be 
 
    ![More menu example](assets/glist-more-menu-priorities.png)
 
-## Customize columns in an enhanced list
+## Customize columns
 
 Some enhanced lists allow you to hide and display columns, and reorder the columns.
 
@@ -129,7 +129,7 @@ Some enhanced lists allow you to hide and display columns, and reorder the colum
 
    ![Indicator for hidden columns](assets/glist-columns-hidden-indicator.png)
 
-## Add and remove columns in a list with the Column manager
+## Add and remove columns with the Column manager
 
 Some enhanced lists offer the **Column manager**, which allows you to easily add columns to the list and remove columns. Native and custom fields are both available to select as columns. Custom fields must exist in the system before you can add them as list columns.
 
@@ -149,7 +149,7 @@ To add and remove columns:
 
 <!-- Add info about Properties and KPIs when something gets released with those options -->
 
-## Display data with views in an enhanced list
+## Display data with views
 
 A view is a personalized set of column arrangements and filters that you can apply to a list. You can create new views and edit existing views.
 
@@ -189,7 +189,7 @@ To share a view:
 
 1. Click **Save**.
 
-## Filter and group items in an enhanced list
+## Filter and group items
 
 Filters help you reduce the amount of information you display in the list. Groupings separate the objects on the list in areas based on specific criteria.
 
