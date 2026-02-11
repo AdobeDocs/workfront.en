@@ -1713,6 +1713,7 @@ feature-set: Workfront
     * Report usage overview {#report-usage-overview}
       * [Report usage overview](reports-and-dashboards/reports/report-usage/report-usage-overview.md)
       * [Access and organize reports](reports-and-dashboards/reports/report-usage/access-organize-reports.md)
+      * [Use sharable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md)
       * [Create a report on reporting activities](reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
       * [Understand how to organize reports on a dashboard](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
       * [View report usage](reports-and-dashboards/reports/report-usage/view-report-usage.md)
