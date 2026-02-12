@@ -44,7 +44,19 @@ For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tas
 >
 >Production release date: February 19, 2026
 
+We have added the **Preserve Billing** field to the Finance section of the Staffing Plan Details page.
 
+When this flag is set to False (off), the billing rates are not preserved and the rate hierarchy is used for billing rate calculations.
+
+When this flag is set to True (on):
+
+* The current billing rates of the assigned resources on the staffing plan are preserved, and any changes to rates in the hierarchy are not reflected on the Resources area of the staffing plan.
+* If you add a new row to the Resources table, the initial billing rate that comes from the billing rates hierarchy is preserved.
+* If a user has overridden the billing rate value manually before the flag was turned on, the override rate is preserved. Once the flag is turned on, manual billing rate overrides are not permitted.
+
+Once preservation is activated, it cannot be turned off.
+
+When you copy a staffing plan that has the flag turned on, the flag is automatically turned off on the copy. The resource manager must turn the flag on if it is needed on the new staffing plan.
 
 <!--### Title
 
