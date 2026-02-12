@@ -133,7 +133,7 @@ As a workspace manager, you can configure a record type to be a global record ty
 
 A workspace manager can add a global record type to a workspace they manage. The record type's original fields are also added to the secondary workspace. 
 
-Users can add records to a global record type from any workspace where they have Contribute permissions and where the global record type is added, including its original workspace. They can view records from workspaces they have only View permissions to.
+Users can add records to a global record type from any workspace where they have Contribute permissions and where the global record type is added, including its original workspace. They can view records from workspaces they have only View permissions to from the primary workspace of the global record type.
 
 For more information, see [Cross-workspace record types overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
