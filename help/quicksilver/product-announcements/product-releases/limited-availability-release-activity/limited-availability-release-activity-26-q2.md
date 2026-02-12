@@ -22,6 +22,22 @@ For a list of all limited availability features released for Adobe Workfront, se
 
 This section includes the release notes for new functionality.
 
+### Updated experience when single- or bulk-assigning tasks
+
+>[!NOTE]
+>
+>Production release date: February 12, 2026
+
+We have updated the Assignments section in the Edit Tasks box when editing single tasks or editing them in bulk.
+
+There is a new experience for assigning resources to tasks. This is now available both when editing one task or editing several tasks in bulk. We have added the following fields to the Assignments section:  
+
+* Allocations  
+* Owner or Task Owner  
+* Assignee's Role  
+
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
 <!--### Title
 
 >[!NOTE]
@@ -35,19 +51,19 @@ text
 
 This section describes the issues fixed in the weekly Workfront updates for limited availability features.
 
-<!--### Maintenance Updates week of January 18-24, 2026
+<!--### Maintenance Updates week of February 8-14, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of January 25-31, 2026
+### Maintenance Updates week of February 15-21, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of February 1-7, 2026
+### Maintenance Updates week of February 22-28, 2026
 
 **Title**
 

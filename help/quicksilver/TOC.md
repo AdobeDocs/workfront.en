@@ -1713,6 +1713,7 @@ feature-set: Workfront
     * Report usage overview {#report-usage-overview}
       * [Report usage overview](reports-and-dashboards/reports/report-usage/report-usage-overview.md)
       * [Access and organize reports](reports-and-dashboards/reports/report-usage/access-organize-reports.md)
+      * [Use sharable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md)
       * [Create a report on reporting activities](reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
       * [Understand how to organize reports on a dashboard](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
       * [View report usage](reports-and-dashboards/reports/report-usage/view-report-usage.md)
@@ -1843,7 +1844,7 @@ feature-set: Workfront
     * [Recall submitted approvals](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
   * Unified approvals {#document-reviews-and-approvals}
     * [Unified document approvals: article index](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
-    * [Available functionality for unified approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+    * [Available functionality for document approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
     * [Unified Approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
     * [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
     * [Get Started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)

@@ -11,12 +11,13 @@ exl-id: 2af81907-3657-459e-b780-65983e224ca8
 
 <!-- Audited: 10/2025 -->
 
-<div class="preview"> 
+<!--<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
-</div>
+
+</div>-->
 
 You can edit task information in a list of tasks by editing the fields displayed in the list. For information about other ways to edit tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -486,6 +487,50 @@ To edit tasks in a list when using the Manual save Timeline Planning option:
 
 You can edit multiple tasks at the same time. Ensure you have manage permissions to the tasks you select in bulk to be able to edit them.
 
+{{step1-to-projects}}
+
+1. On the **Projects** page, select a project.
+1. In the left panel, click the **Tasks** section.
+
+1. Click the **Plan Mode** icon ![Plan Mode icon](assets/plan-mode-icon.png) at the top of the list and make sure the **Autosave** option is selected.
+
+   ![Enable the autosave setting](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
+
+   >[!IMPORTANT]
+   >
+   >You can't edit tasks in bulk when saving tasks manually.
+
+1. Select more than one task in the tasks list. 
+1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then **Recalculate Expressions** to update all information in calculated custom fields.
+1. Click the **Edit** icon ![Edit icon](assets/qs-edit-icon.png). The **Edit Tasks** box opens.
+
+   Editing the information on all tasks is identical to editing information on one task.
+
+   For more information about editing a task, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+   
+1. Specify the information you want to change for all the tasks you selected in any of the following areas: 
+
+   * Overview
+   * Assignments
+   * Custom Forms
+   * Finance
+   * Settings
+   * Settings
+   * Comment
+
+   >[!NOTE]
+   >
+   >* The information you are changing on all the tasks selected will override the existing information on individual tasks, except for the **Assignments** field. Adding a new assignee in bulk edit will add that assignee to all the selected tasks. If other assignees are assigned to the selected tasks, they will remain assigned in addition to the one added through bulk edit.
+   >* If you want to edit task Duration, the tasks selected must have the same Task Constraint. Otherwise, the **Duration** field does not populate.
+   >
+   >* Only active custom forms display in the list. If the tasks selected do not have any common custom forms, no forms are listed in this section.
+   >* You can edit only the fields on the forms that are attached to all tasks selected and which you have permissions to edit.  For information about bulk editing custom forms, see [Manage custom forms attached to objects](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
+
+1. Click **Save**. 
+
+
+<!--Temporary content while changing the Assignments area:
+
 Editing multiple tasks at the same time differs depending on what environment you choose. 
 
 ### Edit tasks in bulk in the Production environment
@@ -549,48 +594,4 @@ Editing multiple tasks at the same time differs depending on what environment yo
 
 <div class="preview">
 
-### Edit tasks in bulk in the Preview environment
-
-{{step1-to-projects}}
-
-1. On the **Projects** page, select a project.
-1. In the left panel, click the **Tasks** section.
-
-1. Click the **Plan Mode** icon ![Plan Mode icon](assets/plan-mode-icon.png) at the top of the list and make sure the **Autosave** option is selected.
-
-   ![Enable the autosave setting](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
-
-   >[!IMPORTANT]
-   >
-   >You can't edit tasks in bulk when saving tasks manually.
-
-1. Select more than one task in the tasks list. 
-1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then **Recalculate Expressions** to update all information in calculated custom fields.
-1. Click the **Edit** icon ![Edit icon](assets/qs-edit-icon.png). The **Edit Tasks** box opens.
-
-   Editing the information on all tasks is identical to editing information on one task.
-
-   For more information about editing a task, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
-   
-1. Specify the information you want to change for all the tasks you selected in any of the following areas: 
-
-   * Overview
-   * Assignments
-   * Custom Forms
-   * Finance
-   * Settings
-   * Settings
-   * Comment
-
-   >[!NOTE]
-   >
-   >* The information you are changing on all the tasks selected will override the existing information on individual tasks, except for the **Assignments** field. Adding a new assignee in bulk edit will add that assignee to all the selected tasks. If other assignees are assigned to the selected tasks, they will remain assigned in addition to the one added through bulk edit.
-   >* If you want to edit task Duration, the tasks selected must have the same Task Constraint. Otherwise, the **Duration** field does not populate.
-   >
-   >* Only active custom forms display in the list. If the tasks selected do not have any common custom forms, no forms are listed in this section.
-   >* You can edit only the fields on the forms that are attached to all tasks selected and which you have permissions to edit.  For information about bulk editing custom forms, see [Manage custom forms attached to objects](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
-
-1. Click **Save**. 
-
-</div>
-
+### Edit tasks in bulk in the Preview environment-->

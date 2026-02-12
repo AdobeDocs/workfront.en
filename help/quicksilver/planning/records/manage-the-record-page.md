@@ -273,14 +273,14 @@ To add a section to a record preview or page:
 
    <div class="preview">
 
-   * Select the **Show table fields** setting to view only fields that are not hidden in the record's table view. This is the default setting
-   * Deselect the **Show table fields** setting to view field all fields from the record's table view, including the hidden ones. 
+   * Select the **Show all fields** setting to view all fields from the record's table view, including the hidden ones. 
+   * Deselect the **Show all fields** setting to view only fields that are not hidden in the record's table view. This is the default setting
 
    </div>
 
    >[!TIP]
    >
-   ><span class="preview">The **Show table fields** setting is available only in the record's Details preview box. It is not available in the record's Details page.</span>
+   ><span class="preview">The **Show all fields** setting is available only in the record's Details preview box. It is not available in the record's Details page.</span>
 
 
    <!--replace with this when they fix the UI text:

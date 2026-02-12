@@ -9,6 +9,8 @@ exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
 ---
 # Get started with the Adobe Workfront Planning Designer
 
+<!--remove the Beta tags in the screen shots on this page when this is released to GA - maybe March 2, 2026-->
+
 >[!IMPORTANT]
 >
 >The Planning Designer is currently only available for users participating in the Closed Beta program.
@@ -85,7 +87,7 @@ You can submit feedback about the Planning Designer during the beta program.
 
 1. Click **Create with AI**. <!--update this tag name when they change it--> 
 
-    The **Workspace setup** area of the **Planning Designer** window opens. <!--replace shot below when they rename the area to Planning Designer-->
+    The **Planning Designer** window opens.
 
 1. Click **Submit feedback here** at the bottom of the page.
 1. Add your feedback in the space provided, then click **Submit**.
@@ -172,7 +174,7 @@ You can create or update objects in Workfront Planning either by using the Plann
 
 1. Click **Create with AI**. <!--update this when they change it--> 
 
-    The **Workspace setup** area of the **Planning Designer** window opens. <!--replace shot below when they rename the area to Planning Designer-->
+    The **Planning Designer** window opens. <!--remove the Beta tag here when this removes from Beta-->
 
     ![Planning Designer window](assets/planning-designer-window.png)
 
