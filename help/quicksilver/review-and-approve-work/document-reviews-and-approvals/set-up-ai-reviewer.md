@@ -62,7 +62,9 @@ To add an AI Reviewer:
 1. Click **Add new**.
 1. Name the reviewer.
 1. Select a **Brand**.
-1. Select a **Category**.
+1. Select one of the following in the **Guideline Type** drop-down menu:
+    * **Image**: The AI Reviewer will review the asset against the image brand guidelines you set up in Workfront.
+    * **Brand voice**: The AI Reviewer will review the asset against brand voice guidelines you set up in Workfront.
 1. Click **Create**.
 
     Once the AI Reviewer is created, users can add the AI Reviewer to approval templates or individual approvals. 

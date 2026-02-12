@@ -18,7 +18,7 @@ Seconds after you submit the review and approval request, you can view the score
 
 The AI Reviewer is not designed to be a decision-maker in the review and approval workflow. It only provides a score and recommendations to align the asset with the specified brand requirements. 
 
-![AI reviewer feedback](assets/ai-reviewer-feedback.png)
+![AI reviewer feedback](assets/ai-reviewer-output.png)
 
 ## View score and feedback 
 

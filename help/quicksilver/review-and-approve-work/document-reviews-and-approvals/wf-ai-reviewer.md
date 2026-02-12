@@ -61,7 +61,12 @@ For more information, see [Set up brands for the AI Reviewer](/help/quicksilver/
 
 ## Create AI Reviewers
 
-Once there is at least one brand set up, Workfront administrators can begin creating AI Reviewers in the Setup area. Those AI Reviewers can then be assigned to approval templates and individual review and approval requests. Right now, AI reviewers can only review against image brand guidelines.
+Once there is at least one brand set up, Workfront administrators can begin creating AI Reviewers in the Setup area. You can create muultiple AI Reviewers focused on different guidelines:
+
+* **Image**: This AI Reviewer will review the asset against the image brand guidelines you set up in Workfront.
+* **Brand voice**: The AI Reviewer will review the asset against brand voice guidelines you set up in Workfront.
+
+AI Reviewers can then be assigned to approval templates and individual review and approval requests.
 
 For more information, see [Create AI Reviewers](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md).
 
@@ -98,12 +103,12 @@ Approval owners also receive an email notifying them that a review has been comp
 
 The AI Reviewer is not designed to be a decision-maker in the review and approval workflow. It only provides a score and recommendations to align the asset with the specified brand requirements. 
 
-If the image does long meet brand guidelines, the creative can upload a new version and the approval owner can create a second review and approval request with the AI Reviewer, allowing you to switch between versions and compare feedback.
+If the asset does not meet brand guidelines, the creative can upload a new version and the approval owner can create a second review and approval request with the AI Reviewer.
 
 For more information on viewing scores and feedback, see [View AI Reviewer score and feedback](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md).
 
 
-![AI reviewer feedback](assets/ai-reviewer-feedback.png)
+![AI reviewer feedback](assets/ai-reviewer-output.png)
 
 
 <!--## Video Walkthrough
