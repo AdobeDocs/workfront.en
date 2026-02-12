@@ -30,13 +30,21 @@ This section includes the release notes for new functionality.
 
 We have updated the Assignments section in the Edit Tasks box when editing single tasks or editing them in bulk.
 
-There is a new experience for assigning resources to tasks. This is now available both when editing one task or editing several tasks in bulk. We have added the following fields to the Assignments section:  
+There is a new experience for assigning resources to tasks. This is now available both when editing one task or editing several tasks in bulk. We have added the following fields to the Assignments section:
 
-* Allocations  
-* Owner or Task Owner  
-* Assignee's Role  
+* Allocations
+* Owner or Task Owner
+* Assignee's Role
 
 For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
+### Preserve billing rates on staffing plans
+
+>[!NOTE]
+>
+>Production release date: February 19, 2026
+
+
 
 <!--### Title
 
