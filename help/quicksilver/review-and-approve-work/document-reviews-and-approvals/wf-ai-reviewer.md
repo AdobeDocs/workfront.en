@@ -49,6 +49,8 @@ The AI Reviewer can review the following file types:
 * JPEG (.jpeg, .jpg)
 * WEBP (.webp)
 * Non-animated GIF (.gif)
+* PDF (.pdf)
+* PPT (.ppt, .pptx)
 
 If you upload an unsupported file type, the AI Reviewer option will not appear when creating an approval.
 
