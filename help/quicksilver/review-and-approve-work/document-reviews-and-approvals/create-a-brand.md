@@ -37,11 +37,17 @@ The AI Reviewer uses brand guidelines to evaluate content during the review proc
    <td> <p>You must be a system administrator.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Admin Console permissions</td> 
-   <td> <p>You must GenStudio Brand Manager.</p></td> 
+   <td role="rowheader">Admin Console permissions*</td> 
+   <td> <p>You must GenStudio Brand Manager.</p>
+    <p>NOTE: In order to select GenStudio Brand Manager, you must follow the steps outlined in <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/configure-brand-permissions">Assign Brand permissions</a>.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
+
+
+
+
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
@@ -55,6 +61,7 @@ For more detail about the information in this table, see [Access requirements in
 * Your organization must have GenStudio Foundation.
 * Adobe must have a signed Adobe Gen AI agreement on file.
     For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
+
 
 ## Create a brand using a PDF
 
