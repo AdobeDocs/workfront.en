@@ -120,11 +120,23 @@ You can use natural language filters in Priorities to replace status, pre-built 
 
 For more information on using Smart Filters, see [Filter your work with Smart filters](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md) in the article Filter and group your work with Priorities.
 
-## WOA in Workfront
+## Workflow Orchestration Agent in Workfront
 
-### Insights and reporting
+* [Project, task, and issue information](#project-task-and-issue-information)
+* [Project and work management](#project-and-work-management)
+* [Content and Approvals](#content-and-approvals)
 
-#### Data retrieval M1 - Workflow PTI and adjacent records
+### Project, task, and issue information
+
+WOA can give you information about project, tasks, and issues, including summaries and project health.
+
+See example prompts for document and asset approvals in the following areas:
+
+* [Find information about projects, tasks, or issues](#find-information-about-projects-tasks-or-issues)
+* [Summarize projects, tasks, or issues](#summarize-projects-tasks-or-issues)
+* [Show Project Health for projects, programs, or portfolios](#show-project-health-for-projects-programs-or-portfolios)
+
+#### Find information about projects, tasks, or issues
 
 * Projects
    * Show me all active projects for the Brand Marketing team
@@ -139,19 +151,29 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
    * Get me all unresolved issues reported by the QA group.
    * I need issues assigned to Developers in the Global Tech company.
 
-#### Summarize PTI objects
+#### Summarize projects, tasks, or issues
 
 * "Summarize this project"
 * "Summarize the last week on this project"
 
-#### Show Project Health for programs/portfolios/projects
+#### Show Project Health for projects, programs, or portfolios
 
 * "Show me the health of my active projects"
 * "Show me the health of this program"
 
-### Project and work Management
+### Project and work management
 
-#### Create project from scratch or from identified template (Project CRUD)
+You can use WOA to create and manage projects, including tasks, templates, and assignments. 
+
+See example prompts for document and asset approvals in the following areas:
+
+* [Create, update, or delete projects](#create-update-or-delete-projects)
+* [Identify the right project template based on user prompt](#identify-the-right-project-template-based-on-user-prompt)
+* [Add, edit, or customize tasks in a project](#add-edit-or-customize-tasks-in-a-project)
+* [Create, update, or delete assignments](#create-update-or-delete-assignments)
+* [Recommend best matching user assignments for the task based on users' job role and availability](#recommend-best-matching-user-assignments-for-the-task-based-on-users-job-role-and-availability)
+
+#### Create, update, or delete projects
 
 * Create a blank project called Q2 Innovation Sandbox starting March 10 and ending April 30. Set me as the owner.
 * Create a project called Lucent AI Launch – NA using the Integrated Marketing Campaign template. Start February 5 and set it to Current.
@@ -160,13 +182,13 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 * Show me all current marketing projects finishing in Q2 that are high or urgent priority, sorted by earliest end date.
 * Delete the project called Q1 Test Campaign.
 
-#### Identify the right template based on user prompt
+#### Identify the right project template based on user prompt
 
 * We're launching a new product feature with a landing page, emails, paid ads, and social posts. Which project template should we use?
 * Create a project for a global marketing campaign with multiple channels and regional rollouts. (should suggest a template if provided more info)
 * For Website Redesign – EMEA project, recommend and attach the correct project template.
 
-#### Customize task list of the selected template based on user prompt (Task CRUD, including predecessors)
+#### Add, edit, or customize tasks in a project
 
 * Add a new task called Landing Page QA to the project and schedule it from April 22 to April 26.
 * Update the Design Review task so it finishes on April 18 and assign it to the creative team.
@@ -176,7 +198,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 * Add a new task called Final Copy Polish scheduled from April 15 to April 16, move the Copy Review task to April 10, remove the Extra Review Round task, and set Final Copy Polish as a predecessor of Email Build.
 * During project creation flow try providing as much info as you can about deliverables that should ideally become tasks under the project.
 
-#### Create, update, delete assignments (user & role)
+#### Create, update, or delete assignments
 
 * For the project 'Design Landing Page for Product Launch', identify the appropriate job roles and recommended planned hours for all currently unassigned tasks.
 * I have several unassigned tasks, including 'Implement GA4 tracking for campaign site', 'Set up conversion events', and 'Validate analytics data'. Can you suggest the right job roles and estimated hours for each?
@@ -206,11 +228,11 @@ Consider the following when working with document and asset approvals:
 
 See example prompts for document and asset approvals in the following areas:
 
-* [Add/Remove Participants to an Approval](#addremove-participants-to-an-approval)
-* [Remind Stakeholders of a Single Asset Waiting for Review](#remind-stakeholders-of-a-single-asset-waiting-for-review)
-* [Add/Update/Apply Approval Templates for Single Asset](#addupdateapply-approval-templates-for-single-asset)
+* [Add or remove approval participants](#add-or-remove-approval-participants)
+* [Remind stakeholders of a single asset waiting for review](#remind-stakeholders-of-a-single-asset-waiting-for-review)
+* [Add, update, or apply approval templates for a single asset](#add-update-or-apply-approval-templates-for-a-single-asset)
 
-#### Add/Remove Participants to an Approval
+#### Add or remove approval participants
 
 * Add Sarah Chen and Miguel Alvarez as approvers on the current document.
 * Remove Jennifer Otto from this approval.
@@ -222,13 +244,13 @@ See example prompts for document and asset approvals in the following areas:
 * Add Mark Jones to the fall-campaign.png to the first and last stages as a reviewer.
 * Let's get a multistage approval created for the fall-campaign.png with 3 stages, 1 Design 2 Copywriting and 3 Legal. I only need one decision required for each stage. Add Mike, Sally, Jane to design, Chris, Richard, Mark to copywriting and Phil, Tom, and Sarah to Legal. 
 
-#### Remind Stakeholders of a Single Asset Waiting for Review
+#### Remind stakeholders of a single asset waiting for review
 
 * Send a reminder to approvers on the asset 'Spring Campaign Video' who haven't responded.
 * Remind everyone who hasn't approved this asset 'Spring Campaign Video'.
 * Who hasn't made a decision yet on the asset 'Brand Guidelines PDF'? Remind them.
 
-#### Add/Update/Apply Approval Templates for Single Asset
+#### Add, update, or apply approval templates for a single asset
 
 * Apply the 'Marketing Launch' approval template to asset with the name 'Spring Campaign Video.
 * Create a new approval template with 3 stages: Creative Review, Legal, and Final Approval. 
@@ -240,9 +262,14 @@ See example prompts for document and asset approvals in the following areas:
 
 ## WOA in Workfront Planning
 
-### Planning Functional agent
+### Work with Planning records
 
-#### Record creation, deletion, duplication, and restore
+* [Create, delete, duplicate, or restore records](#create-delete-duplicate-or-restore-records)
+* [Link records to other records](#link-records-to-other-records)
+* [Edit, update, or append a field to a record](#edit-update-or-append-a-field-to-a-record)
+* [Access record change history](#access-record-change-history)
+
+#### Create, delete, duplicate, or restore records
 
 * Create a new campaign record called Summer Sale 2026
 * Add a new product record with name Widget Pro and price $299
@@ -263,7 +290,7 @@ See example prompts for document and asset approvals in the following areas:
 * Can you connect this product to the related marketing campaigns?
 * I need to associate these three leads with the Enterprise Account record
 
-#### Edit/update/append a field in a record
+#### Edit, update, or append a field to a record
 
 * Update the budget field in the Summer Campaign to $75,000
 * an you change the status of this project record to Completed?
@@ -275,7 +302,13 @@ See example prompts for document and asset approvals in the following areas:
 * Can you display who modified this project and what they changed?
 * I need to see all the updates made to this record in the last week
 
-### System Designer functional agent
+### Use System Designer in Workfront Planning
+
+* [Create and configure workspaces](#create-and-configure-workspaces)
+* [Define record types](#define-record-types)
+* [Design fields and formula fields](#design-fields-and-formula-fields)
+* [Build custom views](#build-custom-views)
+
 
 #### Create and configure workspaces
 
@@ -283,19 +316,19 @@ See example prompts for document and asset approvals in the following areas:
 * Update my Product Planning workspace to change the color to blue and add a description
 * Show me all the Planning workspaces I have access to
 
-#### Define Record Types
+#### Define record types
 
 * Create a new record type called Campaigns in my Planning workspace
 * Update the Initiatives record type to change its icon and description
 * Show me all the record types in my Marketing Planning workspace
 
-#### Design Fields and Formula Fields
+#### Design fields and formula fields
 
 * Add a Budget field to my Planning Campaigns record type with currency type
 * Create a formula field in Planning that calculates days remaining until campaign end date
 * Update the Priority field in my Planning workspace to add more dropdown options
 
-#### Build Custom Views
+#### Build custom views
 
 * Create a timeline view in Planning to see my campaign schedule by start and end dates
 * Add a new table view to my Planning Initiatives that filters only active status
