@@ -149,7 +149,7 @@ To add and remove columns:
    >
    >Some fields might be fixed and cannot be removed.
 
-<!-- Add info about Properties and KPIs when something gets released with those options -->
+   <!-- Add info about Properties and KPIs when something gets released with those options -->
 
 1. Click **Save**.
 
