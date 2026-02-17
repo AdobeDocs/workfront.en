@@ -52,10 +52,11 @@ Below are some types of Workfront object lists that use the enhanced list format
 >This list is not comprehensive. Each of these object lists can also appear on a report or a dashboard. For example, a Request report or a dashboard that contains a Request report also displays a list of requests.
 
 | Workfront list | Location of object list |
-|--- |--- |
+| --- | --- |
 | Priorities | <ul><li>Home &gt; select the Priorities icon in the left menu</li><li>Main Menu &gt; Priorities</li></ul> |
 | List of requests | <ul><li>Requests (new experience only)</li><li>My Requests widget on Home</li></ul> |
 | Lists of statuses, priorities, severities, and exchange rates in Setup | <ul><li>Setup &gt; Project Preferences &gt; Statuses</li><li>Setup &gt; Project Preferences &gt; Priorities</li><li>Setup &gt; Project Preferences &gt; Severities</li><li>Setup &gt; Project Preferences &gt; Exchange Rates</li></ul> |
+| List of reports | Main Menu &gt; Reports <p>The enhanced list format is only applied when **Use shareable folders** is turned on. For information, see [Use shareable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md). |
 
 ## Add items to an enhanced list
 
@@ -159,94 +160,44 @@ To add and remove columns:
 
    The list updates the columns according to the choices you made.
 
-## Display data with views in an enhanced list
+## Update enhanced list elements
 
-A view is a personalized set of column arrangements and filters that you can apply to a list. You can create new views and edit existing views.
+The following elements are components of an enhanced list: 
+
+* View: Defines the columns, filters, and groupings in the list with preset settings
+* Filters: Limits the amount of information displayed in the list
+* Groupings: Organize the list items according to common fields
+* Sort: Arranges the items in a list according to the order you identify for a given field
+* Search: Quickly finds an item using a search keyword
 
 ### Apply and create views
 
-To apply a view, click the **Views** dropdown and select the view you want to apply to the list.
+>[!NOTE]
+>
+>Not all enhanced lists have all the elements described in this section.
 
-To create a new view:
+To apply or create a view:
 
-1. Click the **Views** dropdown and select **New view**.
-1. Enter a name for the view, and click **Create**.
+1. Click the **Views** dropdown and select an existing view to apply it to the list
+   
+   OR
+
+   Click **New view** to create one.
+
+1. (Conditional) For adding a new view, enter a name for the view, then click **Create**.
 1. (Optional) Hide, show, or rearrange the columns. For more information, see [Customize columns in an enhanced list](#customize-columns-in-an-enhanced-list).
-1. (Optional) Filter and group the list items. For more information, see [Filter and group items in an enhanced list](#filter-and-group-items-in-an-enhanced-list).
+1. (Optional) Filter the list. For more information, see [Filter items in an enhanced list](#filter-items-in-an-enhanced-list).
+1. (Optional) Group the items in the list. For more information, see [Group items in an enhanced list](#group-items-in-an-enhanced-list).
 
    Changes to views are saved automatically. The next time you apply this view, the column and filter settings remain the way you set them.
 
-### Share a view
+### Filter items in an enhanced list
 
-In the **Views** dropdown, you may see three categories of views:
+>[!NOTE]
+>
+>Not all enhanced lists have all the elements described in this section.
 
-* **System Views**: Views that the system administrator assigned to you.
-* **Shared Views**: Views that have been shared with you by other users.
-* **My Views**: Views that you created and can share with others. You can share views with other users, teams, or groups.
-
-To share a view:
-
-1. In the **Views** dropdown, hover over the view in **My Views** that you want to share, then click on the three-dot menu when it appears.
-1. Select **Share**.
-1. In the Share dialog, enter the names of the users, teams, or groups that you want to share the view with, then select them from the list when they appear.
-
-   You can give the following permissions to the recipients:
-
-   * **View**: Users can apply the view to the list but not share it.
-     
-     <span class="preview">When View access users update the view, those changes are saved to the user's personal preferences. A blue dot on the view name (in the user's **Shared Views**) shows that personal updates are applied to the view.</span>
-
-   * **Manage**: Users can rename the view, share it with others, and delete it.
-
-      <span class="preview">When Manage access users make changes to the view, all users who have the view shared with them will see those updates when the view is applied to the list.</span>
-
-1. Click **Save**.
-
-   <span class="preview">If you share a view with a user and then remove that access, the view is removed from the user's **Shared Views**. If the user had the shared view applied to the list when their access is removed, then the system default view is applied.</span>
-
-<div class="preview">
-
-### Copy a view
-
-To copy a view that was shared with you (with View permissions) and you have updated:
-
-1. In the Views dropdown, hover over the view in **Shared Views** that you want to copy, then click on the three-dot menu when it appears.
-1. Select **Copy with preferences**.
-
-   A new view is created automatically. It uses the original view name with (copy) at the end, and it appears in the **My Views** section of views.
-   
-   You are the owner of this view, and you can rename, share, or delete it. If the owner of the original view removes your shared access to that view, you still have access to this view that you created.
-
-   >[!NOTE]
-   >
-   >The **Copy with preferences** option is only available when you have made changes to a view that was shared with you.
-
-</div>
-
-<div class="preview">
-
-### Reset a view
-
-To reset a view that was shared with you (with View permissions) and you have updated:
-
-1. In the **Views** dropdown, hover over the view in **Shared Views** that you want to reset, then click on the three-dot menu when it appears.
-1. Select **Reset to default**.
-
-   The view is reset to its original settings that were shared with you, such as columns and filters.
-
-   >[!NOTE]
-   >
-   >The Reset to default option is only available when you have made changes to a view that was shared with you.
-
-   ![Copy and reset a view options](assets/glist-copy-view-shared-with-you.png)
-
-</div>
-
-## Filter and group items in an enhanced list
-
-Filters help you reduce the amount of information you display in the list. Groupings separate the objects on the list in areas based on specific criteria.
-
-### Use filters
+Filters help you reduce the amount of information you display in the list.
 
 1. Click **Filter** above the list.
 1. In the Filter box, click **Add condition**.
@@ -262,20 +213,32 @@ Filters help you reduce the amount of information you display in the list. Group
    >
    >To apply a current user wildcard, select **Me (logged in user)** as the field value. The filter will then apply to the user who is viewing the list. This wildcard is available in fields where the value is a user.
 
-1. Click **Add condition** to add another condition to the filter as an OR statement.
+1. Click **Add condition** to add another condition to the filter.
+
+   You can join multiple filters by an AND or an OR connector.
+
 1. When the filter is applied, you can open the **Filter** options again to change the filter options or clear all of the filters.
 
    An indicator appears on the **Filter** button when a filter is applied to the list.
 
    ![Filter applied indicator](assets/glist-filter-applied-indicator.png)
 
-### Use groupings
+### Group items in an enhanced list
+
+>[!NOTE]
+>
+>Not all enhanced lists have all the elements described in this section.
+
+Groupings separate the objects on the list into areas based on specific criteria.
+
+Workfront provides a limited number of predefined groupings and you cannot modify them.
 
 1. Click **Group** above the list.
 1. Select a grouping to organize your list.
 
    ![Select a grouping](assets/glist-grouping-choose-a-group-by.png)
 
+1. Click **Collapse all** to display the list with all the groupings collapsed. The default option is to display the list with all groupings expanded.
 1. When the grouping is applied, you can open the Group options again to collapse or expand all of the groupings at once, change the grouping to group by a different field, or clear all of the groupings.
 
    ![Grouping in enhanced lists](assets/glist-group-by-due-date-priorities.png)
@@ -284,11 +247,15 @@ Filters help you reduce the amount of information you display in the list. Group
 
    ![Grouping applied indicator](assets/glist-grouping-applied-indicator.png)
 
-## Sort and search in an enhanced list
+### Sort in an enhanced list
+
+>[!NOTE]
+>
+>Not all enhanced lists have all the elements described in this section.
 
 To sort individual columns:
 
-1. Go to the column and click the down arrow.
+1. Hover over the column, then click the down arrow and select **Sort**.
 
    An icon next to a column name indicates that the list is sorted by the values in that column, and the direction of the sort.
 
@@ -300,12 +267,97 @@ To sort individual columns:
 
 To sort your work within a grouping:
 
-1. Click **Group** and select if you want to sort in ascending or descending order.
+1. Click **Group**, go to the line of the applied grouping, click on the sorter dropdown, and select an ascending or descending order.
 
    ![Sort in a grouping](assets/sort-in-groups.png)
 
-To search:
+### Search in an enhanced list
 
-1. Type your search term in the search field above the list. The results are highlighted in the list as you type.
+>[!NOTE]
+>
+>Not all enhanced lists have all the elements described in this section.
+
+1. type a keyword you want search by in the Search box in the upper-right corner of the list. The results are highlighted in the list as you type.
 
    ![Search term highlighted](assets/glist-search-highlighted.png)
+
+   >[!NOTE]
+   >
+   >The search looks at all columns in all list items. If the list is long, the search includes items that you may need to scroll to see. When the list is filtered, the search only looks at what is currently displayed.
+
+### Share a view
+
+>[!NOTE]
+>
+>Not all enhanced lists have all the elements described in this section.
+
+In the **Views** dropdown, you may see three categories of views:
+
+* **System Views**: Views that the system administrator assigned to you. You cannot share System views.
+* **Shared Views**: Views that have been shared with you by other users.
+* **My Views**: Views that you created and can share with others. You can share views with other users, teams, or groups.
+
+When you share a view, all of the view elements (columns, filters, and groupings) are included.
+
+To share a view:
+
+1. In the **Views** dropdown, hover over the view in **My Views** that you want to share, click the **More** menu ![More menu](assets/more-icon.png), and click **Share**.
+1. In the Share dialog, enter the names of the users, teams, groups, companies, or job roles that you want to share the view with, then select them from the list when they appear.
+
+   You can give the following permissions to the recipients:
+
+   * **View**: Users can apply the view to the list but not share it.
+     
+     <span class="preview">When View access users update the view, those changes are saved to the user's personal preferences. A blue dot on the view name (in the user's **Shared Views**) shows that personal updates are applied to the view.</span>
+
+   * **Manage**: Users can rename, share, or delete the view, and edit the view's elements.
+
+      <span class="preview">When Manage access users make changes to the view, all users who have the view shared with them will see those updates when the view is applied to the list.</span>
+
+1. Click **Save**.
+
+   <span class="preview">If you share a view with a user and then remove that access, the view is removed from the user's **Shared Views**. If the user had the shared view applied to the list when their access is removed, then the system default view is applied.</span>
+
+<div class="preview">
+
+### Copy a view
+
+>[!NOTE]
+>
+>Not all enhanced lists have all the elements described in this section.
+
+When a view is shared with you that you do not have permission to edit, you can copy the view and save it with a new name. You must first make changes to the view before you can copy it.
+
+1. In the Views dropdown, hover over the view in **Shared Views** that you want to copy, click the **More** menu ![More menu](assets/more-icon.png), and click **Copy with preferences**.
+
+   A new view is created automatically. It uses the original view name with (copy) at the end, and it appears in the **My Views** section of views.
+   
+   You are the owner of this view, and you can rename, edit, share, or delete it. If the owner of the original view removes your shared access to that view, you still have access to this view that you created.
+
+   >[!NOTE]
+   >
+   >The **Copy with preferences** option is only available when you have made changes to a view that was shared with you.
+
+</div>
+
+<div class="preview">
+
+### Reset a view
+
+>[!NOTE]
+>
+>Not all enhanced lists have all the elements described in this section.
+
+When a view is shared with you that you do not have permission to edit, and you update that view, you can reset it back to the original view.
+
+1. In the **Views** dropdown, hover over the view in **Shared Views** that you want to reset, click the **More** menu ![More menu](assets/more-icon.png), and click **Reset to default**.
+
+   The view elements (columns, filters, and groupings) are reset to their original settings that were shared with you.
+
+   >[!NOTE]
+   >
+   >The **Reset to default** option is only available when you have made changes to a view that was shared with you.
+
+   ![Copy and reset a view options](assets/glist-copy-view-shared-with-you.png)
+
+</div>
