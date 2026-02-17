@@ -1,12 +1,12 @@
 ---
 title: Configure the Settings Area of a Record Type
-description: In addition to editing a record type in the Edit record type box, you can also edit record types in the Settings page. 
+description: In addition to editing a record type in the Edit record type box, you can also edit record types in the Settings page.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+exl-id: 4674d539-7a16-4d51-a564-e79dc9b4afca
 ---
-
 # Configure the Settings area of a record type
 
 <!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   

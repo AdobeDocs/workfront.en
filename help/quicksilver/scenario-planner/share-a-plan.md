@@ -215,7 +215,7 @@ For information about project permissions, see [Share a project in [!DNL Adobe W
 
    Or
 
-   If you selected several plans to share them in bulk, click the **[!UICONTROL Share]** icon ![](assets/share-icon-26x26.png) at the top of the list of plans to open the [!UICONTROL Plan] access box.
+   If you selected several plans to share them in bulk, click the **[!UICONTROL Share]** icon ![Share icon](assets/share-icon-26x26.png) at the top of the list of plans to open the [!UICONTROL Plan] access box.
 
    >[!TIP]
    >

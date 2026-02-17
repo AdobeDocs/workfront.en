@@ -49,7 +49,7 @@ Below are some types of Workfront object lists that use the enhanced list format
 
 >[!NOTE]
 >
->This list is not comprehensive. Each of these object lists can also appear on a report or a dashboard. For example, a Project report or a dashboard that contains a Project report also displays a list of projects.
+>This list is not comprehensive. Each of these object lists can also appear on a report or a dashboard. For example, a Request report or a dashboard that contains a Request report also displays a list of requests.
 
 | Workfront list | Location of object list |
 |--- |--- |
@@ -57,12 +57,15 @@ Below are some types of Workfront object lists that use the enhanced list format
 | List of requests | <ul><li>Requests (new experience only)</li><li>My Requests widget on Home</li></ul> |
 | Lists of statuses, priorities, severities, and exchange rates in Setup | <ul><li>Setup &gt; Project Preferences &gt; Statuses</li><li>Setup &gt; Project Preferences &gt; Priorities</li><li>Setup &gt; Project Preferences &gt; Severities</li><li>Setup &gt; Project Preferences &gt; Exchange Rates</li></ul> |
 
-## Add and edit items in an enhanced list
+## Add items to an enhanced list
 
-Depending on the configuration of the enhanced list, there could be two ways to add an item to the list:
+Depending on which enhanced list you are viewing, do one of the following:
 
-* Click a button above the list. This option opens a dialog where you enter information and save it.
-* Click **New row** at the bottom of the list. This option adds a new row to the table, and you enter information in each cell.
+1. Click the blue button on the upper right of the list. This option opens a dialog where you can enter information. The data is saved as a new row in the table.
+
+   OR
+
+1. Click **New row** at the bottom of the list. This option adds a new row to the table. Double-click in a cell to enter information in it. Each cell represents a field for the list item. Fields must exist before you see them in the list.
 
    Enhanced lists support these field types:
 
@@ -77,50 +80,56 @@ Depending on the configuration of the enhanced list, there could be two ways to 
    * Assignee (one or multiple)
    * Color picker
 
-   When you edit a cell, each field type has its own editing options.
-
-To edit an item in the list, double-click in the cell you want to edit and type the information. Some cells may be read-only.
+   >[!NOTE]
+   >
+   >Each field type has its own editing options. Some fields might be read-only.
 
 ![Enhanced list example](assets/glist-exchange-rates.png)
 
-## Use the action bar and the More menu in an enhanced list
+## Edit items using the action bar
 
-The action bar shows actions you can take on a list item. Some actions might be specific to that list and do not appear on any other lists.
+You can use the action bar in an enhanced list to edit items in the list. Not all action bars include the same options. Also, some lists may not allow you to select items and the action bar is not available.
 
-1. Select the check box next to an item in the enhanced list.
+1. Select the check box next to an item in an enhanced list.
 
    The action bar appears at the bottom of the screen.
 
    >[!NOTE]
    >
-   >Different enhanced lists might allow selecting a single item, bulk editing (selecting more than one item), or no item selection.
+   >Depending on which list you edit, you can select one item or multiple items to use the action bar.
 
-1. Click a button on the action bar to take that action, such as viewing the list item, deleting the item, or editing the item.
+1. Click an action on the bar to edit items. Examples of actions you can choose are:
 
-   If no actions are available for the selected item, the action bar states "No available actions."
+   * View
+   * Edit
+   * Delete
+
+   If no actions are available for the selected item, the action bar displays "No available actions."
 
    ![Action bar example](assets/glist-action-bar-statuses.png)
 
-1. Hover over a primary field on a list item to see the **More** menu. (The primary field is the left-most column in the table.)
+1. Hover over the primary field of a list item, then click the **More** menu ![More menu icon](assets/more-icon.png) to see additional actions. Some actions might be specific to that list.
 
-1. Click the menu to see additional actions for the item. Some actions might be specific to that list and do not appear on any other lists.
+   >[!TIP]
+   >
+   >The primary field displays in the first column of the list.
 
    ![More menu example](assets/glist-more-menu-priorities.png)
 
-## Customize columns in an enhanced list
+## Customize columns
 
-Some enhanced lists allow you to hide and display columns, and reorder the columns.
+Depending on which objects you are viewing in an enhanced list, you can hide, show, or reorder columns in the list.
 
 1. Click **Columns** above the list.
 
    ![Display columns example](assets/glist-display-move-columns.png)
 
 1. Use the toggles to display or hide columns in the list.
-1. To reorder the columns, click the **Drag** icon and move a column to your desired location. Moving columns changes the list automatically.
+1. To reorder the columns, click the **Drag** icon ![Drag icon](assets/drag-icon.png) and move a column to your desired location. Moving columns changes the list automatically.
 
    >[!NOTE]
    >
-   >The primary field is the left-most column in the table. It is fixed in the first position, and you cannot change its column. If the number of columns is large, then the primary field is frozen to the left, and when you scroll horizontally you will always see it.
+   >The primary field is the first column in the list. It is fixed in the first position, and you cannot change its column. If the number of columns is large, then the primary field is frozen to the left, and when you scroll horizontally you will always see it.
    >
    >The icon next to a field name shows the field type, such as text or date field.
 
@@ -128,13 +137,13 @@ Some enhanced lists allow you to hide and display columns, and reorder the colum
 
    ![Indicator for hidden columns](assets/glist-columns-hidden-indicator.png)
 
-## Add and remove columns in a list with the Column manager
+## Add and remove columns with the Column manager
 
-Some enhanced lists offer the **Column manager**, which allows you to easily add columns to the list and remove columns. Native and custom fields are both available to select as columns. Custom fields must exist in the system before you can add them as list columns.
+You can use the **Column manager** in some enhanced lists to easily add and remove columns on the list. You can add or remove both system and custom fields that already exist in Workfront as columns to an enhanced list.
 
 To add and remove columns:
 
-1. Click the + icon on the top right of the table to open the **Column manager** box.
+1. Click the + icon on the upper-right corner of the table to open the **Column manager** box.
 1. Search for an existing object field in the **Available** column, then click + to the right of the field name it to add it to the **Selected** column.
 1. Click - to the right of a field in the **Selected** column to remove it from the list.
 
@@ -142,11 +151,13 @@ To add and remove columns:
    >
    >Some fields might be fixed and cannot be removed.
 
+   <!-- Add info about Properties and KPIs when something gets released with those options -->
+
 1. Click **Save**.
 
    ![Column manager](assets/glist-column-manager.png)
 
-<!-- Add info about Properties and KPIs when something gets released with those options -->
+   The list updates the columns according to the choices you made.
 
 ## Display data with views in an enhanced list
 

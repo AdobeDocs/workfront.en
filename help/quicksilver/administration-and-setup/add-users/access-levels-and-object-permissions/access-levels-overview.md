@@ -1,5 +1,5 @@
 ---
-title: Access Levels Overview
+title: Legacy access Levels Overview
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -11,7 +11,7 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
 ---
-# Access levels overview
+# Legacy access levels overview
 
 <!-- Audited: 12/2023 -->
 

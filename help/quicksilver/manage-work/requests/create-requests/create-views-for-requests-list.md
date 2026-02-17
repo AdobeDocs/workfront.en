@@ -5,6 +5,7 @@ title: Create and manage views in the Requests area
 description: If you are using the new requesting experience, you can create and save views for the Requests area.
 author: Becky
 feature: Work Management
+exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 ---
 # Create and manage views in the Requests area
 
@@ -130,4 +131,3 @@ You can share views that you create with other users, teams, or groups.
 1. Select **Share**.
 1. In the dialog that opens, enter the names of the users, teams, or groups that you want to share the view with, then select them from the list when they appear.
 1. Click **Save**.
-

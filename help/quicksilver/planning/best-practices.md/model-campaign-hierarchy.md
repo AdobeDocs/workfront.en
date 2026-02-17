@@ -1,17 +1,199 @@
 ---
-title: "The Framework of Success: Model Your Campaign Hierarchy"
-description: Learn how to translate your complex business processes into a scalable, governed campaign hierarchy using "Centers of Gravity" and a multi-workspace architecture. 
+title: "Architect Your Success: Modeling Your Campaign Hierarchy"
+description: Learn how to translate your complex business processes into a scalable, governed campaign hierarchy using "Centers of Gravity" and a multi-workspace architecture.
 feature: Workfront Planning
-role: User, Admin
+role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: yes
 hide: yes
+exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
 ---
-
-# The framework for success: model your campaign hierarchy 
+# Architect your success: modeling your campaign hierarchy 
 
  <!--see the file again for additional comments from Seth and others-->
+
+{{planning-important-intro}}
+
+Learn how to translate your complex business processes into a scalable, governed campaign hierarchy using centers of gravity and a multi-workspace architecture in Adobe Workfront Planning. 
+
+This guide is intended for Workfront administrators and Power Users who are implementing and designing your environment's architecture in Workfront Planning. 
+
+## Overview of the architecture of success 
+
+As your marketing operations mature, so does the complexity of your data. Without a clear blueprint, your Marketing System of Record can quickly become a junk drawer of disconnected records, conflicting terminology, and reporting silos.  
+
+When you build an architecture of success you establish a framework for modeling your campaign hierarchy in Workfront Planning. It moves you from spreadsheet chaos to a governed, object-oriented model that ensures every team speaks the same language while maintaining the agility they need to execute. 
+
+## Build a hierarchy to define your levels of intent
+
+To maintain clarity and scalability, we recommend starting with a proven core path when designing your workflow in Workfront Planning. 
+
+From there, you can expand your strategy by adding more levels to your architecture.  
+
+### The core path: how to get from strategy to action 
+
+While organizations can expand this hierarchy as their operational needs evolve, beginning with the three levels described in the sections below ensures a strong bridge between strategy and execution.
+
+From our findings, we have noticed that most successful implementations of Workfront Planning thrive on a clean, three-tier model that spans both Planning and Workfront. 
+
+The following are the levels of a successful Planning implementation and the artifacts you might consider creating to support you in the process: 
+
+* **Level 1: Campaigns (Workfront Planning)** 
+
+    * **Focus:** Define the long-term strategic pillars and annual initiatives. For example, define an initiative for your organization called "FY26 Global Brand Awareness". This is your focus for a given time frame. Create campaigns to support this initiative. 
+
+    * **Personas:** Stakeholders for this level can be Marketing Officer, a VP of Marketing, or other strategic leads. 
+
+    For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
+
+* **Level 2: Channel Tactics (Workfront Planning)** 
+
+    * **Focus:** Define the operational briefs that outline the "what" for specific channels. This is the final layer of strategic intent before work begins. For example, create a "Q1 Social Media Blitz" tactic. You can then pair it with your campaigns.  
+
+    * **Personas:** Main stakeholders are a Marketing Operations leader, channel leaders, or campaign managers. 
+
+* **Level 3: Projects (Planning and Workfront)** 
+
+    * **Focus:** Execute on the exact experiences or activities that will eventually accomplish your initiative. Some of the deliverables are specific, like social posts, emails, web pages. 
+
+    * **Implementation:** You can create Tactics in Planning and link them directly to **Projects** in Workfront, where individual deliverables are managed as tasks and issues. 
+
+    * **Persona:** Main stakeholders here are creatives, individual contributors, anyone who is responsible for doing the work to support the initiative. 
+ 
+### Strategic expansion: how to add more levels 
+
+Once you establish the core path, you may choose to add additional layers after careful consideration of their specific business complexity. 
+
+You may find useful to create the following additional items:  
+
+* **Channel Plans:** A layer between Campaigns and Tactics to group cross-functional strategies. For example, a Plan called "Digital Strategy". 
+
+* **Activities:** If you work in a lower-volume environment (you might have 5,000 or fewer deliverables per year), some teams might prefer to track individual experiences as Workfront Planning records before they become Workfront projects. 
+
+>[!IMPORTANT]
+>
+>If your organization produces more than 5,000 activities per year, you should move individual deliverable tracking to Workfront. 
+>
+>Managing high-volume experience records in Planning can lead to data accumulation that obscures your strategic visibility. 
+>We recommend this broad guideline for maximum efficiency: 
+>
+>* Use Planning for the "why" and "what"
+>* Use Workfront for the high-volume "how".
+
+## Understand centers of gravity to build your architecture
+
+An enterprise-grade Marketing System of Record is not built in a single workspace. It uses a "hub-and-spoke" architecture where record types are managed in their natural centers of gravity. 
+
+For more information, see [Roll out your strategic home: a 30-day launchpad](/help/quicksilver/planning/best-practices.md/30-day-launchpad.md). 
+
+To build your architecture using the hub-and-spoke approach, you must create the following:
+
+* A taxonomy hub
+* A strategic planning workspace
+* Functional spokes
+
+### Build the taxonomy hub as your classifications
+
+You must first establish one centralized workspace for your global classifications to define the main concepts everyone in your organization must understand. For example, create the following record types in a central workspace: Brands, Regions, Products, Personas. 
+
+For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+
+Establish the following when you create your classifications: 
+
+* **Primary location:** Choose a primary workspace. This workspace should be the source of truth for the record types you create.
+
+* **The benefit:** By syndicating these definitions to the rest of the business, you solve clarify that concepts like "Region: EMEA" means the same thing to every team.  
+
+### Create the strategic Planning workspace as your executive center
+
+The executive center is where high-level Campaigns (and any Channel Plans) live.  
+
+* **Primary location:** This is the executive center of gravity, providing a noise-free environment for strategic decision-making. 
+
+* **The benefit:** Leadership can manage the portfolio of campaigns without listening to the day-to-day tactical noise.  
+
+### Define the functional spokes as your teams' workspaces
+
+Functional units (Social, Creative, Email) have their own workspaces to manage their Tactics. 
+
+* **Primary location:** These workspaces are the individual centers of gravity for local team execution.  
+
+* **The benefit:** Teams consume the global campaigns and classifications from the hubs, while maintaining their own local objects. 
+
+    For example, the team can add the Campaign record type from the central workspace into their team's workspace but create campaigns relevant only to their workspace. Examples of campaigns are "Media outlets" or "Usage rights". 
+
+## Use a noun-based governance approach
+
+To ensure your architecture holds up under pressure, follow the principle of noun-based governance.
+
+We recommend the following when creating your entities in Workfront Planning:
+
+* **Use nouns, not verbs:** Name your record types after the things you are tracking (name them "Campaign" or "Tactic"), not the actions to be done (do not name them "Campaigning" or "Planning"). 
+
+* **Standardize nomenclature:** Use the same names across all workspaces. This allows you to aggregate data across the entire portfolio for executive reporting.  
+
+## What about existing Portfolios and Programs? 
+
+A common question for mature organizations is how to handle the Portfolios and Programs they've already built in Workfront. In the past, these objects were often used to mimic strategic planning. 
+
+Now, we recommend you shift that approach to Workfront Planning which naturally fits a the strategic approach to planning. 
+
+### Replace Portfolios and Programs with Record Types 
+
+In many organizations, Portfolios are used to represent high-level Brands or Business Units, while Programs represent strategic themes. 
+
+In Workfront Planning, these are best modeled as Record Types in your taxonomy hub. 
+
+By treating a Brand or Business Unit as a record type, you can link them to a Campaign or Tactic across the entire enterprise, providing much more flexible reporting than a static Portfolio - Program structure.  
+
+### Use a reporting-bridge strategy 
+
+While Workfront Planning is the future of strategic intent, its native reporting via Canvas Dashboard is still maturing. 
+
+Many organizations still rely on the robust reporting capabilities tied to their legacy Portfolio and Program structures in Workfront. 
+
+We recommend the following:
+
+* Do not delete your Portfolios and Programs. 
+* Use Planning automations to create a bridge between your record types and portfolios and programs. 
+
+    When a Tactic or Campaign is created in Workfront Planning, that record can generate a corresponding Portfolio or Program in Workfront.
+
+    For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
+
+This allows you to: 
+
+* Enjoy Workfront Planning's superior strategic visualization by using timelines and calendars. 
+
+* Maintain your legacy reporting in Workfront for stakeholders who are not yet ready to move to Canvas. 
+
+## Best practices and tips 
+
+### Dos 
+
+* **Stick to the core path-first approach:** Establish your Campaign-to-Tactic-to-Project flow before adding more complexity. 
+
+* **Designate primary workspaces:** Ensure each record type has one home workspace (consider that its center of gravity) that acts as the aggregator for reporting. 
+
+* **Prioritize request forms for the intake process:** Use record forms for groups with less sophistication in Workfront Planning to ensure metadata integrity. 
+
+    >[!CAUTION]
+    >
+    >While Power Users may benefit from direct data entry in table views, this should be approached with caution. 
+    >Bulk changes in a table can easily create data headaches for other stakeholders. 
+ 
+### Don'ts 
+
+* **Don't use generalizations:** For example, instead of speaking about a "core" environment, refer specifically to Workfront and the Project object when talking about execution. 
+
+* **Don't over-complicate:** Every additional level of hierarchy adds a management tax. Only add levels that answer a business question you cannot currently answer. 
+
+* **Don't create silos:** Ensure your record types are shared across workspaces so teams are not retyping the same data.
+
+
+<!--original content:
+
 
 ## Goal 
 
@@ -173,8 +355,5 @@ While Workfront Planning is the future of strategic intent, its native reporting
 
 * **Don't over-complicate.** Every additional level of hierarchy adds a "management tax." Only add levels that answer a business question you can't currently answer. 
 
-* **Don't create silos.** Ensure your record types are shared across workspaces so teams aren't re-typing the same data. 
-
- 
-
- 
+* **Don't create silos.** Ensure your record types are shared across workspaces so teams aren't re-typing the same data.
+-->

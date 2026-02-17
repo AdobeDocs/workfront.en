@@ -6,7 +6,7 @@ description: Set up brands for the AI Reviewer
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-
+exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 ---
 # Set up brands for the AI Reviewer
 
@@ -52,7 +52,7 @@ For more detail about the information in this table, see [Access requirements in
 
 * Your organization must have migrated to Adobe IMS (Identity Management System).
 * Your Workfront instance must have Unified Approvals enabled. 
-<!--* Your organization must have GenStudio Foundation.-->
+* Your organization must have GenStudio Foundation.
 * Adobe must have a signed Adobe Gen AI agreement on file.
     For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 

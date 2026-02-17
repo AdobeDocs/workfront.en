@@ -8,8 +8,8 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: yes
 hidefromtoc: yes
+exl-id: 1f24affa-1d3a-4bbf-a044-f8e5ca98b0e2
 ---
-
 # Adobe Workfront limited availability features release activity: article index
 
 This article contains a list of release activity articles about limited availability features in Adobe Workfront.
@@ -28,5 +28,3 @@ For information about earlier feature releases, see the following articles:
 
 * 2026
     * [First Quarter 2026 release activity for Adobe Workfront limited availability features](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
-
-

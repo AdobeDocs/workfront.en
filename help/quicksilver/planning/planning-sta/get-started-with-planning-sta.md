@@ -3,8 +3,8 @@ title: Get Started with Adobe Planning Standalone
 description: This article describes how you can benefit from using the standalone version of Adobe Workfront Planning.
 hidefromtoc: yes
 hide: yes
+exl-id: 99ebed04-0440-4990-a122-4d29f73c2201
 ---
-
 <!--Update metadata with this at release:
 
 ---
@@ -42,4 +42,3 @@ With the stanalone version of Workfront Planning, you can:
 ## Workfront Planning Standalone terminology
 
 <!--should we link to the regular Planning terminology? - help/quicksilver/planning/general/planning-overview.md -->
-

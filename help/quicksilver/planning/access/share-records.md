@@ -1,14 +1,14 @@
 ---
 title: Share Records
-description: You can share records using the Share button to increase collaboration in Adobe Workfront Planning. 
+description: You can share records using the Share button to increase collaboration in Adobe Workfront Planning.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: yes
 hide: yes
+exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
 ---
-
 <!--update metadata with real information at release-->
 
 # Share records
@@ -263,4 +263,4 @@ You can remove users' permissions from a record. However, they will retain at le
 
    People no longer have the indicated permissions to the record. However, they they still have permissions to the record type and the workspace, unless you also remove them from those permissions. 
    
-   There is no notification for the users that have been removed from accessing the record that they no longer have these permissions. 
+   There is no notification for the users that have been removed from accessing the record that they no longer have these permissions.

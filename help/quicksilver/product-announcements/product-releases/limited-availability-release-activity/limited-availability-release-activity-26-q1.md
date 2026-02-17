@@ -8,8 +8,8 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: yes
 hidefromtoc: yes
+exl-id: 850576d3-4edb-4942-9f21-065bf941b01c
 ---
-
 # First Quarter 2026 release activity for Adobe Workfront limited availability features
 
 This article describes the limited availability Workfront features that are releasing during the First Quarter of 2026.
