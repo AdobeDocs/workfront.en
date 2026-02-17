@@ -56,7 +56,7 @@ Below are some types of Workfront object lists that use the enhanced list format
 | Priorities | <ul><li>Home &gt; select the Priorities icon in the left menu</li><li>Main Menu &gt; Priorities</li></ul> |
 | List of requests | <ul><li>Requests (new experience only)</li><li>My Requests widget on Home</li></ul> |
 | Lists of statuses, priorities, severities, and exchange rates in Setup | <ul><li>Setup &gt; Project Preferences &gt; Statuses</li><li>Setup &gt; Project Preferences &gt; Priorities</li><li>Setup &gt; Project Preferences &gt; Severities</li><li>Setup &gt; Project Preferences &gt; Exchange Rates</li></ul> |
-| List of reports | Main Menu &gt; Reports <p>The enhanced list format is only applied when **Use shareable folders** is turned on. For information, see [Use shareable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md). |
+| <span class="preview">List of reports</span> | <span class="preview">Main Menu &gt; Reports</span> <p><span class="preview">The enhanced list format is only applied when **Use shareable folders** is turned on. For information, see [Use shareable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).</span> |
 
 ## Add items to an enhanced list
 
@@ -137,6 +137,18 @@ Depending on which objects you are viewing in an enhanced list, you can hide, sh
    An indicator appears on the **Columns** button when columns are hidden. The indicator does not appear when you reorder columns.
 
    ![Indicator for hidden columns](assets/glist-columns-hidden-indicator.png)
+
+### Rename columns
+
+Some columns allow you to save a customized name for the column title.
+
+1. Hover over the column, then click the down arrow and select **Rename**.
+
+   ![Select Rename on column](assets/glist-rename-or-sort-column.png)
+
+1. On the **Rename** dialog, type the name for the column in the **Custom label** field, and click **Save**.
+
+   The new column name appears on the list.
 
 ## Add and remove columns with the Column manager
 
