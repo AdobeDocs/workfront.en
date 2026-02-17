@@ -148,6 +148,12 @@ To review and accept the legal agreement, do one of the following:
 
         For best practices about using Workfront Planning, see [Adobe Workfront Planning best practices](/help/quicksilver/planning/general/planning-best-practices.md). 
 
+## Additional information about Workfront Planning
+
+For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+For best practices on how to implement Workfront Planning, see [Adobe Workfront Planning best practices: article index](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md). 
+
 ## Permissions to Workfront Planning data during the free trial
 
 * **Between March 2 - May 1, 2026**: 

@@ -5,8 +5,6 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: yes
-hide: yes
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
 ---
 
