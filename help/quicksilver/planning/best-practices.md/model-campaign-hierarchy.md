@@ -5,8 +5,6 @@ feature: Workfront Planning
 role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: yes
-hide: yes
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
 ---
 # Architect your success: modeling your campaign hierarchy 
