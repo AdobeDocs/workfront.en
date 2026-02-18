@@ -124,7 +124,7 @@ Some file formats cannot be previewed.
 <li>tif</li>
 <li>webp</li>
 <li>eps</li>
-<li>text</li>
+<li>txt</li>
 <li>rtf</li>
 <li>ps</li>
 <li>avi</li>
