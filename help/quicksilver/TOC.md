@@ -1212,6 +1212,7 @@ feature-set: Workfront
       * [Create a project using a template](manage-work/projects/create-projects/create-project-from-template.md)
       * [Import a project from Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
       * [Create project baselines](manage-work/projects/create-projects/create-baselines.md)
+      * [Create and view project snapshots](manage-work/projects/create-projects/create-snapshots.md)
     * Update work on a project {#update-work-on-a-project}
       * [Update work on a project: article index](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
       * [Apply statuses to work that is associated with a group](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
