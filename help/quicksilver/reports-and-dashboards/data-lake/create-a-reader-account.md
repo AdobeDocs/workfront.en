@@ -61,7 +61,7 @@ To create a reader account:
 
 1. In the left panel, click **System** > **Data Connect**.
 
-1. Click the **Create Reader Account** button to begin creating your organization's reader account. The process is automatic, but may take a few minutes to complete.
+1. Click the **Create Reader Account** button to begin creating your organization's reader account. The process is automatic, but may take up to 24 hours to complete.
 
 1. Once complete, a dialog window displays explaining that your reader account is now active. Refresh the browser page to gain access to the **Create New Connection** button.
 

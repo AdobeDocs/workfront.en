@@ -5,8 +5,6 @@ feature: Workfront Planning
 role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: yes
-hide: yes
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
 ---
 # Roll out your strategic home: a 30-day launchpad
@@ -116,7 +114,7 @@ To move from team-first to enterprise scale, consider the following:
 
 ## Overview of success metrics for the launchpad 
 
-We recommend that you constantly look for markers of success and adjust from your findings. 
+We recommend that you constantly look for markers of success and adjust based on your findings. 
 
 Look for these early indicators of health: 
 

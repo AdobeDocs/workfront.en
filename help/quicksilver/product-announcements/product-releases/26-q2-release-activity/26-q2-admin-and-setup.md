@@ -18,9 +18,11 @@ For a list of all changes available at this point in the Second Quarter 2026 rel
 
 >[!NOTE]
 >
->Preview: January 29, 2026 
->Production fast release: February 12, 2026  
->Production for everyone: April 16, 2026 
+>Preview: January 29, 2026
+>Production fast release: February 12, 2026
+>Production for everyone: April 16, 2026
+>
+>This feature has been temporarily removed from the Production environment on February 13, 2026.
 
 The new **Rich text** field type in custom forms is a robust text editor, with formatting options such as superscript and subscript, headings, and tables, in addition to the traditional options of bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. The character limit remains 15,000.
 
