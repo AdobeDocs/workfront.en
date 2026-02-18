@@ -13,7 +13,7 @@ exl-id: 65831f2e-9092-4e99-a86b-40df42c713bf
 
 <!-- This article is linked in the UI -->
 
-Use sharable report folders to organize reports and share those folders with other users. This feature is designed for teams that manage large volumes of reports and need scalable, consistent access control.
+You can use sharable report folders to organize reports and share those folders with other users. This feature is designed for teams that manage large volumes of reports and need scalable, consistent access control.
 
 ## Access requirements
 
@@ -35,26 +35,60 @@ Additional behavior:
 
 ## Create a sharable report folder
 
-1. Go to **Main Menu** > **Reports**.
+{{step1-to-reports}}
+
 1. Turn on the **Sharable report folders** toggle.
 1. Click **Create folder**.
-1. (Optional) Add a description and choose a location for the folder.
+1. Enter a name for the folder.
+1. Click **Create**.
+
+![create a sharable folder](assets/add-sharable-folder.png)
+
+## Create a subfolder in a sharable report folder
+
+{{step1-to-reports}}
+
+1. Find the folder you want to create a sub-folder in.
+1. Click **More** > **Create sub-folder**.
+1. Enter a name for the sub-folder.
 1. Click **Create**.
 
 ## Share a report folder with other users
 
-1. Go to **Main Menu** > **Reports**.
-1. Open the folder you want to share.
-1. Click **More** (three dots) > **Share**.
-1. Add users, teams, or groups.
-1. Choose **View** or **Manage** access. (Optional) Allow resharing for **View**.
+
+>[!NOTE]
+>
+>When a folder is shared with users, they inherit access to all subfolders within that folder tree. They must have access to the reports to view and open the reports. 
+
+{{step1-to-reports}}
+
+1. Find the folder you want to share.
+1. Click **More** > **Share**.
+1. Add users, teams, roles, groups or companies. 
+1. Choose **View** or **Manage** access:
+    * View access allows users to open reports in the folder. You can also allow users with view access to reshare the folder by selecting **Share** in the additional settings. 
+    * Manage access allows users to open reports in the folder. You can also allow users with manage access to delete folders or share the folder by selecting **Delete** and **Share** in the additional settings.
 1. Click **Save**.
+
+![share a folder and fine-tune access](assets/share-settings-sharable-folders.png)
 
 ## Move a report to a sharable folder
 
-To move a report into a folder, you must have **Manage** rights to both the report and the target folder.
+To move a report into a folder, you must have **Manage** rights to both the report and the sharable folder.
 
-1. Go to **Main Menu** > **Reports**.
-1. Select the report you want to move.
-1. Click **More** (three dots) > **Move**.
-1. Select the destination folder, then click **Move**.
+{{step1-to-reports}}
+
+1. Select the checkbox next to the report you want to move.
+1. Click Move to folder in the action bar at the bottom of the screen.
+1. Find the folder you want to move the report to, then click **Move**. The report tree is collapsed by default, so you may need to expand the folders to find the destination folder.
+
+
+## Delete a sharable report folder
+
+what happens with reports in the folder when it's deleted?
+
+{{step1-to-reports}}
+
+## list of sharable folders
+
+glist link
