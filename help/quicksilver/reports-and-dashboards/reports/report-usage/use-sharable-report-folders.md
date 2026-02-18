@@ -1,27 +1,27 @@
 ---
 product-area: reporting
 navigation-topic: report-usage
-title: Use sharable report folders
-description: Use sharable report folders to organize the reports that you create and share those folders with other users in Adobe Workfront.
+title: Use shareable report folders
+description: Use shareable report folders to organize the reports that you create and share those folders with other users in Adobe Workfront.
 author: Courtney
 feature: Reports and Dashboards
 hide: yes
 hidefromtoc: yes
 exl-id: 65831f2e-9092-4e99-a86b-40df42c713bf
 ---
-# Use sharable report folders
+# Use shareable report folders
 
 <!-- This article is linked in the UI -->
 
-You can use sharable report folders to organize reports and share those folders with other users. This feature is designed for teams that manage large volumes of reports and need scalable, consistent access control.
+You can use shareable report folders to organize reports and share those folders with other users. This feature is designed for teams that manage large volumes of reports and need scalable, consistent access control.
 
 ## Access requirements
 
-You must be a system administrator to create top-level sharable report folders. Other users can access folders only when permissions are granted.
+You must be a system administrator to create top-level shareable report folders. Other users can access folders only when permissions are granted.
 
 ## Understand folder permissions
 
-Sharable report folders use two permission levels:
+Shareable report folders use two permission levels:
 
 * **View**: Users can open reports in the folder. Optionally allow resharing.
 * **Manage**: Users can edit folder details, add or remove items, and share the folder.
@@ -33,18 +33,18 @@ Additional behavior:
 * Permissions granted to a parent folder apply to all subfolders and reports within that folder tree.
 * Users with access to a subfolder can see its parent folders for navigation, but not sibling folders unless access is granted.
 
-## Create a sharable report folder
+## Create a shareable report folder
 
 {{step1-to-reports}}
 
-1. Turn on the **Sharable report folders** toggle.
+1. Turn on the **Shareable report folders** toggle.
 1. Click **Create folder**.
 1. Enter a name for the folder.
 1. Click **Create**.
 
-![create a sharable folder](assets/add-sharable-folder.png)
+![create a shareable folder](assets/add-sharable-folder.png)
 
-## Create a subfolder in a sharable report folder
+## Create a subfolder in a shareable report folder
 
 {{step1-to-reports}}
 
@@ -72,9 +72,9 @@ Additional behavior:
 
 ![share a folder and fine-tune access](assets/share-settings-sharable-folders.png)
 
-## Move a report to a sharable folder
+## Move a report to a shareable folder
 
-To move a report into a folder, you must have **Manage** rights to both the report and the sharable folder.
+To move a report into a folder, you must have **Manage** rights to both the report and the shareable folder.
 
 {{step1-to-reports}}
 
@@ -83,12 +83,12 @@ To move a report into a folder, you must have **Manage** rights to both the repo
 1. Find the folder you want to move the report to, then click **Move**. The report tree is collapsed by default, so you may need to expand the folders to find the destination folder.
 
 
-## Delete a sharable report folder
+## Delete a shareable report folder
 
 what happens with reports in the folder when it's deleted?
 
 {{step1-to-reports}}
 
-## list of sharable folders
+## list of shareable folders
 
 glist link
