@@ -67,8 +67,11 @@ Consider the following when using Form Fill powered by AI
 
 * AI Form Fill does not overwrite any fields that you have already filled in.
 * Users do not receive suggestions of data that they do not otherwise have access to.
+
+<!--
 * Files that you use in Form Fill powered by AI are uploaded to Azure storage for 24 hours. This is necessary for document processing. 
 * All files uploaded to Azure are currently stored in US Azure clusters for the 24 hour storage window. 
+-->
 
 ## Get suggestions from a text prompt
 
