@@ -35,6 +35,8 @@ Additional behavior:
 
 ## Create a shareable report folder
 
+Only system administrators can create folders at the top-level folders. Once a shareable folder is created, users with manage access can create subfolders within it.
+
 {{step1-to-reports}}
 
 1. Turn on the **Shareable report folders** toggle.
@@ -45,6 +47,8 @@ Additional behavior:
 ![create a shareable folder](assets/add-sharable-folder.png)
 
 ## Create a subfolder in a shareable report folder
+
+You can create up to 4 levels of subfolders within a shareable report folder. Subfolders inherit permissions from the parent folder, but you can also set unique permissions for each subfolder.
 
 {{step1-to-reports}}
 
