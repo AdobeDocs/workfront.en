@@ -110,10 +110,27 @@ Users can modify the currency for a job role when the following conditions are m
 
 For information about how users can change the default currency on a given job role, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-## Set effective dates on an exchange rates
+## Set effective dates on a currency's exchange rates
 
 NOTE HERE: ADD SNIPPET
 
-Effective dates for an exchange rate are configured so that a rate value ends on a specific date and another rate begins. The exchange rate for the correct date is then used in financial calculations.
+Effective dates for a currency's exchange rates are configured so that a rate value ends on a specific date and another rate begins. The exchange rate for the correct date is then used in financial calculations.
 
+{{step-1-to-setup}}
+
+1. Click **Project Preferences** > **Exchange Rates**.
+1. Select a currency in the list, and click **Manage dates** in the action bar.
+1. On the **(currency name) date effective rates** dialog, choose an **End Date** for the current exchange rate.
+
+   Or
+
+   Choose a **Start Date** for the new exchange rate.
+
+   The first exchange rate will not have a start date and the last rate will not have an end date. Some dates are added automatically. For example, if the first rate does not have an end date, and you add an exchange rate with a start date of December 1, 2025, an end date of November 30, 2025 is added to the first rate so that no gaps exist.
+
+   ![Date effective exchange rates dialog](assets/euro-date-effective-rates.png)
+
+1. Type the new **Exchange rate** value.
+1. (Optional) Click **Add date effective rate** to add more exchange rates with effective dates for this currency.
+1. Click **Save**.
 
