@@ -43,10 +43,25 @@ For more detail about the information in this table, see [Access requirements in
 
 
 
+## Create an Approval Template in your production environment
+
+{{step-1-to-setup}}
+
+1. In the left panel, click **Review and Approval** > **Approval Templates**.
+1. Click **New Template** on the right side of the page. 
+1. Specify the following information:
+
+    | Template name              |Begin typing a name for this template.   |
+    |----------------------------|---|
+    | **(Optional) Timeframe**|Enter the timeframe in days . The approval deadline is calculated from this field once the template is applied to an asset.   |
+    | **Add approvers or reviewers** |Begin typing the name of users or teams, then designate them as a reviewer or approver.   |
+    
+1. Click **Save**.
 
 
 
 <div class="preview">
+
 ## Create an Approval Template in your Preview environment
 
 {{step-1-to-setup}}
