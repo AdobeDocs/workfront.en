@@ -113,12 +113,14 @@ To move a report into a folder, you must have **Manage** rights to both the repo
 
     ![move a report to a sharable folder](assets/move-to-folder.png)
 
-
+<!--
 ## Delete a shareable report folder
 
 what happens with reports in the folder when it's deleted?
 
 {{step1-to-reports}}
+
+-->
 
 ## New list experience for sharable folders
 
