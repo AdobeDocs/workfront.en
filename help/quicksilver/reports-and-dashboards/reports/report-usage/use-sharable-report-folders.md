@@ -11,7 +11,7 @@ exl-id: 65831f2e-9092-4e99-a86b-40df42c713bf
 ---
 # Use shareable report folders
 
-
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 <!-- This article is linked in the UI -->
 
@@ -53,8 +53,8 @@ For more detail about the information in this table, see [Access requirements in
 
 Shareable report folders use two permission levels:
 
-* **View**: Users can open reports in the folder and share the folder with other users, but they can't edit folder details, add or remove items, or delete the folder.
-* **Manage**: Users can edit folder details, add or remove items, and share the folder with others. Additionally, users are granted manage access to all reports within the folder.
+* **View**: Users can open reports in the folder, but they can't edit folder details, add or remove items, or delete the folder. You can allow users with View access to share the folder by enabling the **Share** setting when you grant access.
+* **Manage**: Users can edit folder details and add or move report items. They are also granted Manage access to reports within the folder. You can allow users with Manage access to share the folder or delete folders by enabling the **Share** and **Delete** settings when you grant access.
 
 Additional behavior:
 
@@ -65,7 +65,7 @@ Additional behavior:
 
 ## Create a shareable report folder
 
-Only system administrators can create folders at the top-level folders. Once a shareable folder is created, users with manage access can create subfolders within it.
+Only system administrators can create folders at the top level. After a shareable folder is created, users with Manage access can create subfolders within it.
 
 {{step1-to-reports}}
 
@@ -89,7 +89,7 @@ You can create up to 4 levels of subfolders within a shareable report folder. Su
 
 ## Share a report folder with other users
 
-When a folder is shared with users, they inherit access to all subfolders within that folder tree. They must have access to the reports to view and open the reports. 
+When you share a folder with users, they inherit access to all subfolders in that folder tree. Users must also have access to each report, either through folder permissions or direct report sharing.
 
 {{step1-to-reports}}
 
@@ -97,8 +97,8 @@ When a folder is shared with users, they inherit access to all subfolders within
 1. Click **More** > **Share**.
 1. Add users, teams, roles, groups or companies. 
 1. Choose **View** or **Manage** access:
-    * View access allows users to open reports in the folder. You can also allow users with view access to reshare the folder by selecting **Share** in the additional settings. 
-    * Manage access allows users to open reports in the folder. You can also allow users with manage access to delete folders or share the folder by selecting **Delete** and **Share** in the additional settings.
+    * View access allows users to open reports in the folder. You can also allow users with View access to reshare the folder by selecting **Share** in the additional settings. 
+    * Manage access allows users to edit folder details and add or remove items. You can also allow users with Manage access to delete folders or share the folder by selecting **Delete** and **Share** in the additional settings.
 1. Click **Save**.
 
     ![share a folder and fine-tune access](assets/share-settings-sharable-folders.png)
@@ -110,10 +110,10 @@ To move a report into a folder, you must have **Manage** rights to both the repo
 {{step1-to-reports}}
 
 1. Select the checkbox next to the report you want to move.
-1. Click Move to folder in the action bar at the bottom of the screen.
+1. Click **Move to folder** in the action bar at the bottom of the screen.
 1. Find the folder you want to move the report to, then click **Move**. The report tree is collapsed by default, so you may need to expand the folders to find the destination folder.
 
-    ![move a report to a sharable folder](assets/move-to-folder.png)
+    ![move a report to a shareable folder](assets/move-to-folder.png)
 
 <!--
 ## Delete a shareable report folder
@@ -124,6 +124,6 @@ what happens with reports in the folder when it's deleted?
 
 -->
 
-## New list experience for sharable folders
+## New list experience for shareable folders
 
 When you access shareable folders in the Reports area, you will see a new list experience that allows you to easily view and manage your folders and reports. For more information about the new list experience, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
