@@ -17,14 +17,42 @@ You can use shareable report folders to organize reports and share those folders
 
 ## Access requirements
 
-You must be a system administrator to create top-level shareable report folders. Other users can access folders only when permissions are granted.
++++ Expand to view access requirements for the functionality in this article. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+   <p>any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Reports, Dashboards, Calendars</p> <p>Edit access to Filters, Views, Groupings</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a report</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Understand folder permissions
 
 Shareable report folders use two permission levels:
 
-* **View**: Users can open reports in the folder. Optionally allow resharing.
-* **Manage**: Users can edit folder details, add or remove items, and share the folder.
+* **View**: Users can open reports in the folder and share the folder with other users, but they can't edit folder details, add or remove items, or delete the folder.
+* **Manage**: Users can edit folder details, add or remove items, and share the folder with others. Additionally, users are granted manage access to all reports within the folder.
 
 Additional behavior:
 
@@ -53,7 +81,7 @@ You can create up to 4 levels of subfolders within a shareable report folder. Su
 {{step1-to-reports}}
 
 1. Find the folder you want to create a sub-folder in.
-1. Click **More** > **Create sub-folder**.
+1. Click **More** > **Add sub-folder**.
 1. Enter a name for the sub-folder.
 1. Click **Create**.
 
@@ -71,7 +99,7 @@ When a folder is shared with users, they inherit access to all subfolders within
     * Manage access allows users to open reports in the folder. You can also allow users with manage access to delete folders or share the folder by selecting **Delete** and **Share** in the additional settings.
 1. Click **Save**.
 
-![share a folder and fine-tune access](assets/share-settings-sharable-folders.png)
+    ![share a folder and fine-tune access](assets/share-settings-sharable-folders.png)
 
 ## Move a report to a shareable folder
 
@@ -82,6 +110,8 @@ To move a report into a folder, you must have **Manage** rights to both the repo
 1. Select the checkbox next to the report you want to move.
 1. Click Move to folder in the action bar at the bottom of the screen.
 1. Find the folder you want to move the report to, then click **Move**. The report tree is collapsed by default, so you may need to expand the folders to find the destination folder.
+
+    ![move a report to a sharable folder](assets/move-to-folder.png)
 
 
 ## Delete a shareable report folder
