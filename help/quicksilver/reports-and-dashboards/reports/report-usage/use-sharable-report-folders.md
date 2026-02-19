@@ -11,6 +11,8 @@ exl-id: 65831f2e-9092-4e99-a86b-40df42c713bf
 ---
 # Use shareable report folders
 
+
+
 <!-- This article is linked in the UI -->
 
 You can use shareable report folders to organize reports and share those folders with other users. This feature is designed for teams that manage large volumes of reports and need scalable, consistent access control.
