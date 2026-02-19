@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: create-projects
 title: Create and View Project Snapshots
-description: Project managers often need to compare the past data of the project, known as snapshots, with the current status to make informed decisions and see how their projects have changed over time.
+description: Snapshots in Adobe Workfront give you a way to see differences between snapshots (taken on a specific date and time) and the project's current data.
 author: Lisa
 feature: Work Management
 ---
 # Create and view project snapshots
 
-Project managers often need to compare the past data of the project, known as snapshots, with the current status to make informed decisions and see how their projects have changed over time.
+Project managers often need to compare the past data of a project with the current status to make informed decisions and see how their projects have changed over time.
 
 Snapshots in Adobe Workfront give you a way to see these differences between snapshots (taken on a specific date and time) and the project's current data quickly and accurately, helping you to manage projects more effectively and make better decisions. Snapshot comparisons show side-by-side how the project has evolved.
 
@@ -22,7 +22,7 @@ Snapshots in Adobe Workfront give you a way to see these differences between sna
  <tbody> 
   <tr> 
    <td>Adobe Workfront package</td> 
-   <td> <p>Ultimate</p> </td> 
+   <td> <p>Workflow Ultimate</p> </td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront license</td> 
@@ -51,13 +51,13 @@ For more information, see [Access requirements in Workfront documentation](/help
    ![Snapshots for a project](assets/snapshot-list.png)
 
 1. Click **New snapshot**.
-1. Enter a name for the snapshot, and click **Save**.
+1. Type a name for the snapshot on the **New snapshot** dialog, and click **Save**.
    
    The snapshot name appears in the list.
 
    >[!NOTE]
    >
-   >When you create a snapshot, it is not available for viewing right away. Based on data running in the background, it could take up to 4 hours to be ready.
+   >When you create a snapshot, it is not available for viewing right away. Based on data running in the background, it could take up to 4 hours to be ready. The Creation Status is **Pending** when the snapshot is not available yet, and **Ready** when you can view it.
 
 ## Customize snapshot lists
 
