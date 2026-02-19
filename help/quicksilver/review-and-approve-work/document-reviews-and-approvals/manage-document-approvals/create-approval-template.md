@@ -40,31 +40,58 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Create an Approval Template
+
+
+
+
+
+
+<div class="preview">
+## Create an Approval Template in your Preview environment
 
 {{step-1-to-setup}}
 
 1. In the left panel, click **Review and Approval** > **Approval Templates**.
 1. Click **New Template** on the right side of the page. 
-1. Specify the following information:
 
-    | Template name              |Begin typing a name for this template.   |
-    |----------------------------|---|
-    | **(Optional) Timeframe**|Enter the timeframe in days . The approval deadline is calculated from this field once the template is applied to an asset.   |
-    | **Add approvers or reviewers** |Begin typing the name of users or teams, then designate them as a reviewer or approver.   |
+1. Fill in the following details:
 
-1. Create a stage: 
+   <table>
+     <tr>
+   <td><strong>Template name</strong></td>
+   <td>Add a template name. </td>
+   </tr>
+   <tr>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
+   </tr>
+   <tr>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
+   </tr>
+   <tr>
+   <td><strong>Workdays until due date</strong></td>
+   <td>Choose how many workdays until the approval is due after a stage is activated.</td>
+   </tr>
+   </table>
 
-    1. Click **Add stage**.
-    1. Enter a name for the stage.
-    1. Click **Save**.
-    1. Add approvers or reviewers to the stage:
+1. (Optional) Repeat the previous step to add additional stages as needed.
+
+   >[!NOTE]
+   >
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
+
+   ![Document details](assets/new-stage.png)
     
 1. Click **Save**.
 
+One the template is created, it can be applied to documents in the Documents area of a project, task, or issue to begin the formal review and approval process in Workfront.
 
-
-
+</div>
 
 
 <!-- Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
