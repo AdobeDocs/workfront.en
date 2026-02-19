@@ -60,7 +60,9 @@ Before you begin,
 
 * Your Workfront Administrator must configure an Experience Manager integration. For more information, see [Configure the Experience Manager Assets as a Cloud Service integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) or [Configure the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
-## Link an asset from Experience Manager Assets or Assets Essentials
+## Link an asset from Experience Manager Assets or Assets Essentials in your Production environment
+
+### Link an asset from Experience Manager Assets or Assets Essentials
 
 You can link an asset from Experience Manager Assets or Assets Essentials to Workfront. Once the asset is linked you can
 
@@ -80,7 +82,7 @@ You can link an asset from Experience Manager Assets or Assets Essentials to Wor
 
 1. Click **Select**.
 
-## Link a folder from Experience Manager Assets or Assets Essentials
+### Link a folder from Experience Manager Assets or Assets Essentials
 
 Permissions to view individual assets inside of a folder rely on Experience Manager Assets or Assets Essentials permissions.
 
@@ -97,7 +99,7 @@ Permissions to view individual assets inside of a folder rely on Experience Mana
 
 1. Click **Select**.
 
-## Link a new version from Experience Manager Assets or Assets Essentials
+### Link a new version from Experience Manager Assets or Assets Essentials
 
 You can pull a new asset over from Assets Essentials and add it to an existing asset as a new version. If the document is already linked and a new version is added in Assets Essentials, the new version appears automatically in Workfront.
 
@@ -120,3 +122,81 @@ To link a new version from Assets Essentials:
 >[!TIP]
 >
 >You can view all versions of an asset if you go to **Document Details** > **Versions**.
+
+
+<div class="preview">
+
+## Link an asset from Experience Manager Assets or Assets Essentials in your Preview environment
+
+### Link an asset from Experience Manager Assets or Assets Essentials
+
+You can link an asset from Experience Manager Assets or Assets Essentials to Workfront. Once the asset is linked you can
+
+* [Proof a linked asset for Experience Manager Assets or Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md) 
+* [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md)
+
+1. Go to the **Documents** area in Workfront where you want to add the document.
+1. Select **Add New**, then select the Experience Manager integration your administrator set up.
+
+   >[!NOTE]
+   >
+   >The Workfront administrator can choose any name for this integration, so it may not specifically mention Assets or Assets Essentials.
+
+1. Select the content you want to link:
+
+   * Select the Assets tab to find assets, folders, or collections in Experience Manager Assets or Assets Essentials.
+
+   * Select Content Fragments to find content fragments in Experience Manager Assets or Assets Essentials.
+
+      ![Content advisor](assets/content-advisor.png)
+
+
+1. Click **Select**.
+
+### Link a folder from Experience Manager Assets or Assets Essentials
+
+Permissions to view individual assets inside of a folder rely on Experience Manager Assets or Assets Essentials permissions.
+
+1. Go to the **Documents** area in Workfront where you want the folder.
+1. Select **Add New**, then select the Experience Manager integration your administrator set up.
+
+   >[!NOTE]
+   >
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Assets or Assets Essentials.
+
+1. Click Assets > Files & Folders to find the folder you want to link.
+
+      ![Content advisor](assets/content-advisor.png)
+
+1. Click **Select**.
+
+### Link a new version from Experience Manager Assets or Assets Essentials
+
+You can pull a new asset over from Assets Essentials and add it to an existing asset as a new version. If the document is already linked and a new version is added in Assets Essentials, the new version appears automatically in Workfront.
+
+To link a new version from Assets Essentials:
+
+1. Go to the **Documents** area in Workfront where you want to add the document.
+1. Select the asset you want to replace with a new version. You can't create a new version of an asset in a linked folder. 
+1. Select **Add New** > **Version**, then select the Experience Manager integration your administrator set up.
+
+   >[!NOTE]
+   >
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Assets or Assets Essentials.
+
+1. Select the content you want to link:
+
+   * Select the Assets tab to find assets, folders, or collections in Experience Manager Assets or Assets Essentials.
+
+      ![Content advisor](assets/content-advisor.png)
+
+   Content fragments do not support versions. If you select a content fragment, the new version will replace the existing content fragment instead of creating a new version.
+
+1. Click **Select**.
+
+>[!TIP]
+>
+>You can view all versions of an asset if you go to **Document Details** > **Versions**.
+
+
+</div>
