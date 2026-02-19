@@ -62,6 +62,18 @@
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user name next to your profile picture. Or (if available), click your profile picture in the top navigation area, then click **[!UICONTROL Workfront Profile]**.
 
+## Note for Workflow Ultimate {#ultimate-package}
+
+>[!IMPORTANT]
+>
+>You must have the Workflow Ultimate package to use this feature.
+
+## Note for Workflow Prime/Ultimate {#prime-or-ultimate-package}
+
+>[!IMPORTANT]
+>
+>You must have the Workflow Prime or the Workflow Ultimate package to use this feature.
+
 <!-- Admin and Setup -->
 
 ## Step 1 - Getting to Setup {#step-1-to-setup}
