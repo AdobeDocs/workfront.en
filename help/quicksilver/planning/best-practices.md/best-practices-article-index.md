@@ -9,6 +9,16 @@ exl-id: 699bc34b-98c8-4620-9fdc-992d1ab9f501
 ---
 # Adobe Workfront Planning best practices: article index
 
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>
+>Your organization must have a Workfront Planning Prime or higher package to be able to support the features recommended in this article. 
+>
+>For a list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+> 
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
 In the following articles, learn tips on how to roll out Adobe Workfront Planning in your organization using a strategy that prioritizes safety, minimizes disruption, and delivers quick wins.
 
 * [Roll out your strategic home: a 30-day launchpad](/help/quicksilver/planning/best-practices.md/30-day-launchpad.md)

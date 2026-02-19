@@ -9,7 +9,15 @@ exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
 ---
 # Turn your first win into sustainable momentum: a playbook for managed scaling
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>
+>Your organization must have a Workfront Planning Prime or higher package to be able to support the features recommended in this article. 
+>
+>For a list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+> 
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 
 Landing your first successful Adobe Workfront Planning use case is a breakthrough moment: demand surges, new teams want access, and leadership sees the potential for enterprise-wide visibility. 
