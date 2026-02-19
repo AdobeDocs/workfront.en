@@ -26,7 +26,7 @@ With the native Experience Manager integration, you can
 * Easily sync metadata for existing linked assets
 * Automatically update portfolio, program, project, task, issue, and document metadata when it's changed in Workfront
 * Smoothly connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs
-* Utilize Experience Manager Assets Content Advisor feature. With Content advisor, you can
+* Utilize Experience Manager Assets' Content Advisor feature. With Content Advisor, you can
     * Upload content to search for similar assets
     * View quick details about an asset
     * Access content fragments
