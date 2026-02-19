@@ -132,11 +132,11 @@ For best practices on how to implement Workfront Planning, see [Adobe Workfront 
 
 <!--
 
-this information will be live on March 2 - the How to sign up below will be a ### instead of a ## section and the Navigate the trial section will be visible: 
+this information will be live on March 2 - the How to sign up below will be a ### instead of a ## section and the Navigate the trial section will be visible; also adjust ALL the ##s when you make this live: 
 
 ## Get started with the Adobe Workfront Planning free trial-->
 
-## Get access to the free trial
+## Enroll in the Workfront Planning free trial
 
 One of your Workfront Administrators must review and sign the legal trial agreement before everyone in your organization receives access to the Workfront Planning free trial. 
 
@@ -150,56 +150,56 @@ You will be able to review and sign the agreement starting on January 26, 2026, 
 
 To review and accept the legal agreement and agree to start the trial on March 2, do one of the following: 
 
-* Between January 26 and March 2, 2026: 
+### Enroll in the Planning trial between January 26 and March 2, 2026 
 
-    1. (Conditional) Log in to Adobe Workfront as a System Administrator. 
-    1. Do one of the following: 
+1. (Conditional) Log in to Adobe Workfront as a System Administrator. 
+1. Do one of the following: 
+    
+    * Follow the in-app banner that contains information about the **Workfront Planning trial**
+
+    * Go to the **Workfront Notifications area** in the upper-right corner of the screen, then click **All Announcements** and find the Announcement Center message about the Workfront Planning trial. 
+1. Click **Review trial agreement**. <!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here--> 
+1. Click **Accept**, after reviewing the agreement.
+1. (Conditional) If you are not a System Administrator, follow the in-app banner that contains information about the **Workfront Planning trial**, then click **Learn more**.  
+
+    You can read more about the Workfront Planning trial and about Workfront Planning in this article. 
+
+### Enroll in the Planning trial between March 2 and April 1, 2026
+
+>[!WARNING]
+>
+>The opt-in period ends on April 1, 2026.
+
+1. (Conditional) Log in to Adobe Workfront as a System Administrator. 
+
+1. Do one of the following:
+    
+    * Follow the in-app banner that contains information about the **Workfront Planning trial**
+
+    * Go to the **Workfront Notifications area** in the upper-right corner of the screen, then click **All Announcements** and find the Announcement Center message about the Workfront Planning trial
+
+    * Go to **Setup** > **System** > **Preferences**. 
+1. (Conditional) If you are in the **Setup** area, go to the **Other preferences** section, then click **Review trial agreement**. 
+1. Click **Accept**, after reviewing the agreement. 
+
+    Your organization is now enrolled in the Workfront Planning trial until May 1, 2026. 
+
+    The following things occur after you accept the trial agreement:
+
+    * The Planning area is added to the Main Menu for you and all users in your system and it shows a **Trial** indicator. 
+    * As a System Administrator, you receive Manage access to the **Sample workspaces** tab in the Planning area. 
+    * Standard users receive View access to the **Sample workspaces** tab in Planning and can create their own workspaces, record types, records, fields and views and share them with others. 
+    * All other users receive View access to the **Sample workspaces** tab in the Planning area and can gain access to other workspaces when others share them with them. 
+1. (Conditional) If you are not a System Administrator, and your System Administrator has not accepted the trial agreement yet, follow the in-app banner that contains information about the **Workfront Planning trial**, then click **Learn more**.  
+
+    You can read more about the Workfront Planning trial and about Workfront Planning in this article. 
+1. (Conditional) If you are not a System Administrator, and your System Administrator has accepted the trial agreement, follow the in-app banner that contains information about the **Workfront Planning trial** and click **Open Planning**.
+
+    Start exploring the **Sample workspaces** tab and review, use, or share workspaces shared with you.
         
-        * Follow the in-app banner that contains information about the **Workfront Planning trial**
+    For more information about using Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md). 
 
-        * Go to the **Workfront Notifications area** in the upper-right corner of the screen, then click **All Announcements** and find the Announcement Center message about the Workfront Planning trial. 
-    1. Click **Review trial agreement**. <!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here--> 
-    1. Click **Accept**, after reviewing the agreement.
-    1. (Conditional) If you are not a System Administrator, follow the in-app banner that contains information about the **Workfront Planning trial**, then click **Learn more**.  
-
-        You can read more about the Workfront Planning trial and about Workfront Planning in this article. 
-
-* Between March 2 and April 1, 2026:
-
-    1. (Conditional) Log in to Adobe Workfront as a System Administrator. 
-
-        >[!WARNING]
-        >
-        >The opt-in period ends on April 1, 2026.
-
-    1. Do one of the following:
-        
-        * Follow the in-app banner that contains information about the **Workfront Planning trial**
-
-        * Go to the **Workfront Notifications area** in the upper-right corner of the screen, then click **All Announcements** and find the Announcement Center message about the Workfront Planning trial
-
-        * Go to **Setup** > **System** > **Preferences**. 
-    1. (Conditional) If you are in the **Setup** area, go to the **Other preferences** section, then click **Review trial agreement**. 
-    1. Click **Accept**, after reviewing the agreement. 
-
-        Your organization is now enrolled in the Workfront Planning trial until May 1, 2026. 
-
-        The following things occur after you accept the trial agreement:
-
-        * The Planning area is added to the Main Menu for you and all users in your system and it shows a **Trial** indicator. 
-        * As a System Administrator, you receive Manage access to the **Sample workspaces** tab in the Planning area. 
-        * Standard users receive View access to the **Sample workspaces** tab in Planning and can create their own workspaces, record types, records, fields and views and share them with others. 
-        * All other users receive View access to the **Sample workspaces** tab in the Planning area and can gain access to other workspaces when others share them with them. 
-    1. (Conditional) If you are not a System Administrator, and your System Administrator has not accepted the trial agreement yet, follow the in-app banner that contains information about the **Workfront Planning trial**, then click **Learn more**.  
-
-        You can read more about the Workfront Planning trial and about Workfront Planning in this article. 
-    1. (Conditional) If you are not a System Administrator, and your System Administrator has accepted the trial agreement, follow the in-app banner that contains information about the **Workfront Planning trial** and click **Open Planning**.
-
-        Start exploring the **Sample workspaces** tab and review, use, or share workspaces shared with you.
-          
-        For more information about using Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md). 
-
-        For best practices on how to implement Workfront Planning, see [Adobe Workfront Planning best practices: article index](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+    For best practices on how to implement Workfront Planning, see [Adobe Workfront Planning best practices: article index](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
 <!--uncomment this on March 2: 
 
@@ -209,7 +209,7 @@ You can review sample Planning workspaces and their objects as well as create yo
 
 1. (Conditional and required) As a Workfront administrator, sign the free trial agreement. 
 
-    For information, see the section [How to sign up for the free trial](#how-to-sign-up-for-the-free-trial). 
+    For information, see the section [Enroll in the Workfront Planning free trial](#enroll-in-the-workfront-planning-free-trial)
 1. Click the **Main Menu** icon ![](assets/main-menu-shell.png), then click **Planning**. The icon displays a **Trial** label next to it. 
     
     The **Planning** area opens in the **Sample workspaces** tab. 
