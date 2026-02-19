@@ -11,7 +11,15 @@ exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
 
  <!--see the file again for additional comments from Seth and others-->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>
+>Your organization must have a Workfront Planning Prime or higher package to be able to support the features recommended in this article. 
+>
+>For a list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+> 
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 Learn how to translate your complex business processes into a scalable, governed campaign hierarchy using centers of gravity and a multi-workspace architecture in Adobe Workfront Planning. 
 
