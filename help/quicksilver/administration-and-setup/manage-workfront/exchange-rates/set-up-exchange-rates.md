@@ -21,7 +21,7 @@ As an Adobe Workfront administrator, you can set up currency exchange rates in W
 * Updating exchange rates in Workfront to match current exchange rates
 * Configuring the exchange rates for multiple currencies (doing so enables users to choose a default currency for individual projects)
 
-Exchange rates impact all financial elements in Workfront. The base currency is the default currency for all projects throughout the system, unless it is overridden for a given project or job role. The current base or default currency is indicated with an icon ![Default currency icon](assets/default-icon.png) in the list. You can also select to display financial information in currencies available in your system that are different than the base currency or that of the project when viewing them in a report or list. For more information, see [Create financial data reports with unique exchange rates](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+Exchange rates impact all financial elements in Workfront. The base currency is the default currency for all projects and reports throughout the system, unless it is overridden for a given project or job role. The current base or default currency is indicated with an icon ![Default currency icon](assets/default-icon.png) in the list. You can also select to display financial information in currencies available in your system that are different than the base currency or that of the project when viewing them in a report or list. For more information, see [Create financial data reports with unique exchange rates](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
 For more information about overriding the base currency in Workfront for projects and job roles, see the following articles:
 
@@ -44,7 +44,8 @@ The way that you set up exchange rates affects whether users can modify exchange
  <tbody> 
   <tr> 
    <td>Adobe Workfront package</td> 
-   <td><p>Any</p></td> 
+   <td><p>For access to set up exchange rates: Any Workfront or Workflow package</p>
+       <p>For access to apply effective dates to exchange rates: Workflow Ultimate package</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront license</td> 
@@ -77,7 +78,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    * Select the check box next to the currency name and select **Make Default** in the action bar at the bottom of the screen.
    * Hover over the currency name and click the **More** menu that appears. Then, select **Make Default**.
 
-     The new default currency is updated with the icon.
+     The new default currency is updated with the icon ![Default currency icon](assets/default-icon.png).
 
      >[!NOTE]
      >
@@ -89,7 +90,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 Users can modify the default currency for a project when the following conditions are met:
 
-* The user has a Standard or Plan license with the administrative access to Exchange Rates.
+* The user has a Standard or Plan license with administrative access to Exchange Rates.
 
   For more information, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
@@ -109,5 +110,10 @@ Users can modify the currency for a job role when the following conditions are m
 
 For information about how users can change the default currency on a given job role, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
+## Set effective dates on an exchange rates
 
-   <!--The default currency is the currency that is used as the default for all projects and reports throughout the system. The current default is indicated with an icon ![Default currency icon](assets/default-icon.png).-->
+NOTE HERE: ADD SNIPPET
+
+Effective dates for an exchange rate are configured so that a rate value ends on a specific date and another rate begins. The exchange rate for the correct date is then used in financial calculations.
+
+
