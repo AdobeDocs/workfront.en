@@ -112,7 +112,7 @@ For information about how users can change the default currency on a given job r
 
 ## Set effective dates on a currency's exchange rates
 
-NOTE HERE: ADD SNIPPET
+{{ultimate-package}}
 
 Effective dates for a currency's exchange rates are configured so that a rate value ends on a specific date and another rate begins. The exchange rate for the correct date is then used in financial calculations.
 
