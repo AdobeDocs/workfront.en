@@ -59,10 +59,7 @@ You can create up to 4 levels of subfolders within a shareable report folder. Su
 
 ## Share a report folder with other users
 
-
->[!NOTE]
->
->When a folder is shared with users, they inherit access to all subfolders within that folder tree. They must have access to the reports to view and open the reports. 
+When a folder is shared with users, they inherit access to all subfolders within that folder tree. They must have access to the reports to view and open the reports. 
 
 {{step1-to-reports}}
 
@@ -93,6 +90,6 @@ what happens with reports in the folder when it's deleted?
 
 {{step1-to-reports}}
 
-## list of shareable folders
+## New list experience for sharable folders
 
-glist link
+When you access shareable folders in the Reports area, you will see a new list experience that allows you to easily view and manage your folders and reports. For more information about the new list experience, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
