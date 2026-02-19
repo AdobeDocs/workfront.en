@@ -59,6 +59,57 @@ For more information, see [Access requirements in Workfront documentation](/help
    >
    >When you create a snapshot, it is not available for viewing right away. Based on data running in the background, it could take up to 4 hours to be ready. The Creation Status is **Pending** when the snapshot is not available yet, and **Ready** when you can view it.
 
+## View a single snapshot
+
+1. Go to a project and click **Snapshots** in the left panel.
+1. Click a snapshot name in the list to open it. The status must be **Ready** before you can open it.
+
+   >[!TIP]
+   >
+   >The breadcrumbs at the top of the screen link back to the project and help you identify that you are viewing a snapshot.
+
+   The snapshot displays the following items as they existed at the time the snapshot was created:
+
+   * The hierarchy of tasks and subtasks in the project
+   * Project details and any custom forms attached to the details
+   * Associated projects and their hierarchy
+   * Issues
+   * Rates
+   * Billing records
+   * Expenses <!--* Bookings (on its own line of course when they get released)-->
+   * Project team (People tab)
+
+   You can customize any lists in the snapshot by filtering, sorting, adding and removing columns, or applying a view. Time-phased KPIs are available to add to the snapshot view. For more information, see [Customize snapshot lists](#customize-snapshot-lists) in this article.
+
+## Compare snapshots
+
+1. Go to a project and click **Snapshots** in the left panel.
+1. Select an option for comparing snapshots:
+
+   * To compare two or more snapshots to each other, select the check boxes next to the snapshots in the list, and click **Compare** in the action bar at the bottom of the screen.
+   * To compare snapshots to the current project, select the check boxes next to the snapshots in the list, and click **Compare with current** in the action bar at the bottom of the screen.
+
+      >[!NOTE]
+      >
+      >The status of each snapshot you want to compare must be **Ready**.
+
+1. On the Comparison screen, expand each snapshot and the current project to see the hierarchy underneath.
+
+   ![Snapshot Comparison screen](assets/snapshot-comparison.png)
+
+1. You can customize the comparison by sorting, adding and removing columns, or applying a view. For more information, see [Customize snapshot lists](#customize-snapshot-lists) in this article.
+
+## Export snapshots
+
+You can export the list of all snapshots or a snapshot comparison in .xlsx or .csv format. All displayed columns are included in the exported file.
+
+1. Click the **Export** icon ![Export icon](assets/export-icon.png) on the snapshot list or snapshot comparison.
+1. Select the format for the export file.
+
+   The file is saved to your computer. You may be prompted to choose the location.
+
+1. (Optional) Open the exported list using the appropriate application.
+
 ## Customize snapshot lists
 
 You can customize the list of all snapshots, as well as any lists within a snapshot or comparison, by filtering, sorting, adding and removing columns, or applying a view.
@@ -79,7 +130,10 @@ Filters help you reduce the amount of information you display in the list.
 
    The filter is applied to the list automatically.
 
-1. Click **Add condition** to add another condition to the filter as an OR statement.
+1. Click **Add condition** to add another condition to the filter.
+
+   You can join multiple filters by an AND or an OR connector.
+
 1. When the filter is applied, you can open the **Filter** options again to change the filter options or clear all of the filters.
 
    An indicator appears on the **Filter** button when a filter is applied to the list.
@@ -90,7 +144,7 @@ Filters help you reduce the amount of information you display in the list.
 
 To sort individual columns:
 
-1. Hover over the column, then click the down arrow and select Sort.
+1. Hover over the column, then click the down arrow and select **Sort**.
 
    An icon next to a column name indicates that the list is sorted by the values in that column, and the direction of the sort.
    
@@ -151,53 +205,5 @@ To apply or create a view:
 1. (Optional) Hide, show, or rearrange the columns. For more information, see [Customize columns in a list](#customize-columns-in-a-list).
 1. (Optional) Filter the list. For more information, see [Filter items in a list](#filter-items-in-a-list).
 
-Changes to views are saved automatically. The next time you apply this view, the column and filter settings remain the way you set them.
-
-## View a single snapshot
-
-Click a snapshot name in the list to open it.
-
->[!TIP]
->
->The breadcrumbs at the top of the screen link back to the project and help you identify that you are viewing a snapshot.
-
-The snapshot displays the following items as they existed at the time the snapshot was created:
-
-* The hierarchy of tasks and subtasks in the project
-* Project details and any custom forms attached to the details
-* Associated projects and their hierarchy
-* Issues
-* Rates
-* Billing records
-* Expenses
-* Bookings
-* Project team (People tab)
-
-You can customize any lists in the snapshot by filtering, sorting, adding and removing columns, or applying a view. Time-phased KPIs are available to add to the snapshot view. For more information, see [Customize snapshot lists](#customize-snapshot-lists) in this article.
-
-## Compare snapshots
-
-1. Select an option for comparing snapshots:
-
-   * To compare two or more snapshots to each other, select the check boxes next to the snapshots you want to compare, and click **Compare** in the action bar at the bottom of the screen.
-   * To compare snapshots to the current project, select the check boxes next to the snapshots in the list, and click **Compare with current** in the action bar at the bottom of the screen.
-
-1. On the Comparison screen, expand each snapshot and the current project to see the hierarchy underneath.
-
-   ![Snapshot Comparison screen](assets/snapshot-comparison.png)
-
-1. You can customize the comparison by sorting, adding and removing columns, or applying a view. For more information, see [Customize snapshot lists](#customize-snapshot-lists) in this article.
-
-## Export snapshots
-
-You can export the list of all snapshots or a snapshot comparison in .xlsx or .csv format. All displayed columns are included in the exported file.
-
-1. Click the **Export** icon ![Export icon](assets/export-icon.png).
-1. Select the format for the export file.
-
-   The file is saved to your computer. You may be prompted to choose the location.
-
-1. (Optional) Open the exported list using the appropriate application.
-
-
+Changes to views are saved automatically. The next time you apply this view, the column and filter settings remain the way you set them. For more information about views, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
