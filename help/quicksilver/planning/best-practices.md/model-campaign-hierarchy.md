@@ -103,7 +103,11 @@ To build your architecture using the hub-and-spoke approach, you must create the
 
 You must first establish one centralized workspace for your global classifications to define the main concepts everyone in your organization must understand. For example, create the following record types in a central workspace: Brands, Regions, Products, Personas. 
 
-For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+For information, see:
+
+* [Create record types](/help/quicksilver/planning/architecture/create-record-types.md)
+
+* [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
 Establish the following when you create your classifications: 
 
