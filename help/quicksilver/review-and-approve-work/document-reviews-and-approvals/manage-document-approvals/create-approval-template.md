@@ -9,6 +9,8 @@ exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 ---
 # Create an Approval Template for assets and documents
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 In the Workfront Setup area, users with a Standard license can create reusable Approval Templates. Once created, Approval Templates can be applied to assets in the Documents area of a project, task, or issue. 
 
 >[!IMPORTANT]
