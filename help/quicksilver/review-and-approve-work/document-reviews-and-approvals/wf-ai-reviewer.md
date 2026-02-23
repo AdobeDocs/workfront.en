@@ -77,7 +77,7 @@ Users can add AI Reviewers to approval templates to automatically check for bran
 
 Once created, approval templates can be applied to assets in the Documents area of a project, task, or issue.
 
-For more information, see [Create an Approval Template for assets and documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 ![template list showing AI reviewwers](assets/ai-review-templates.png)
 
