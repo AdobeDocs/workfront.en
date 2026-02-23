@@ -49,10 +49,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 ## Considerations when changing a project's currency in Workfront
 
 * You cannot change the currency of a project if there is any financial information in the project.
-* Rates are used for Labor Costs; Revenue calculations and are used in the future for reporting purposes.
+* Rates are used for labor costs, revenue calculations, and reporting purposes.
 * If you do not specify a different currency for a project, Workfront assumes that the project's currency is the default currency of the system. For information on system-level default currency, see [Set up exchange rates](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 * By default, all full license users have access to view currencies and exchange rates. The Workfront administrator needs to grant additional administrative access for **Exchange rates** to enable users to set specific rates on projects. 
-* Exchange rates in Workfront are not dynamic. The value is set by an administrator and must be updated when changes in exchange rates occur. 
+* Exchange rates in Workfront are not dynamic. The value is set by an administrator and must be updated when changes in exchange rates occur.
+* If effective dates are applied to a currency and its exchange rates, then the exchange rate could change during the lifetime of the project. For information on effective-dated exchange rates, see [Set up exchange rates](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 * When you create a report to reflect currency on a project, by default all reports are grouped by the project's default currency. If you create a report with multiple project's that have different exchange rates, then any groupings applied to the project reflect the default exchange rate at the system level. For more information, see the article [Create financial data reports with unique exchange rates](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
 ## Configure the currency for a project
@@ -66,7 +67,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. Click **Project Details** in the left panel, then go to the **Finance** area. 
 1. Click **Add** in the **Currency** field and select the currency that you want to use as the default currency for the project. All the currencies that your Workfront administrator set for your Workfront instance display.
 
-   ![Currency on project](assets/currency-on-project-expanded-nwe.png)
+   ![Currency on project](assets/currency-on-project.png)
 
 1. (Conditional) If you select a currency other than the default currency that is set for your Workfront system, specify the rate for the currency that you selected, as it relates to the currency that is set as the base currency in the system.
 1. Click **Save Changes**.
