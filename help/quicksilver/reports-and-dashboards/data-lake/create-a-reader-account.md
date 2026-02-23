@@ -86,6 +86,8 @@ To create a reader account:
 
 ### Password authentication
 
+1. Click **Password**, then **Generate Connection**.
+
 1. A **Default password** will be generated, as well as a URL where your data can be viewed through Snowflake. You will need to use the password in conjunction with the username you chose to sign in to Snowflake for the first time, so ensure that you keep a record of it as well as the URL. Check the box claiming you have done so, then click **Close**.
 
     ![Default account password](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
@@ -100,7 +102,26 @@ To create a reader account:
 
 ### Programmatic Access Token authentication
 
+1. Click **Programmatic Access Token**.
+
+1. Enter an expiration date for your token in the **Expiration date** field. You can choose an experiation date up to 365 days in the future. 
+
+1. Click **Generate Connection**.
+
+1. A PAT token will be generated, as well as a URL where your data can be viewed through Snowflake. You will need to use the token in conjunction with the username you chose to sign in to Snowflake, so ensure that you keep a record of it as well as the URL. Check the box claiming you have done so, then click **Close**.
+
+
 ### RSA Key authentication
+
+1. Click **RSA Key**.
+
+1. Enter an RSA public key in the **RSA Public Key** field. 
+
+1. Enter an expiration date for your token in the **Expiration date** field. You can choose an experiation date up to 365 days in the future. 
+
+1. Click **Generate Connection**.
+
+1. A connection will be generated, as well as a URL where your data can be viewed through Snowflake. You will need to use the RSA key in conjunction with the username you chose to sign in to Snowflake, so ensure that you keep a record of it as well as the URL. Check the box claiming you have done so, then click **Close**.
 
 ## Revoke a reader account
 
