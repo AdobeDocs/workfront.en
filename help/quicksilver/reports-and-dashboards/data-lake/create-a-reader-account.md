@@ -73,11 +73,18 @@ To create a reader account:
 
 1. In the left panel, click **System** > **Data Connect**.
 
-1. Click **Create New Connection**
+1. Click **Create New Connection**.
 
 1. In the window that appears, enter a name for your connection in **Connection reference description** and a username in **Connection user**, then click **Generate Connection**.
 
     ![Create new connection](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
+
+1. Choose an authentication method for your connection:
+    * [Password authentication](#password-authentication)
+    * [Programmatic Access Token authentication](#programmatic-access-token-authentication)
+    * [RSA Key authentication](#rsa-key-authentication)
+
+### Password authentication
 
 1. A **Default password** will be generated, as well as a URL where your data can be viewed through Snowflake. You will need to use the password in conjunction with the username you chose to sign in to Snowflake for the first time, so ensure that you keep a record of it as well as the URL. Check the box claiming you have done so, then click **Close**.
 
@@ -90,6 +97,10 @@ To create a reader account:
     ![Reset Snowflake password](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
 1. You may now use your username and new password to access your Data Connect data lake in Snowflake or the business visualization tool of your choice.
+
+### Programmatic Access Token authentication
+
+### RSA Key authentication
 
 ## Revoke a reader account
 
