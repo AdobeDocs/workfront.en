@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: set-up-workfront
 title: "Manage Enterprise Operations: article index"
-description: text here
+description: Advanced enterprise operations capabilities are a unified and scalable way to manage finances, resources, projects, and enterprise access.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -12,9 +12,7 @@ recommendations: noDisplay, noCatalog
 ---
 # Manage enterprise operations: article index
 
-Summary of enterprise ops - use for metadata description also
-
-UPDATE TOC!!!!!!
+Advanced enterprise operations capabilities are a unified and scalable way to manage finances, resources, projects, and enterprise access. These capabilities provide the visibility and control that enterprises need to operate profitably and efficiently.
 
 This section contains the following articles:
 
