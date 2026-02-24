@@ -78,13 +78,13 @@ Only system administrators can create folders at the top level. After a shareabl
 
 ## Create a subfolder in a shareable report folder
 
-You can create up to 4 levels of subfolders within a shareable report folder. Subfolders inherit permissions from the parent folder, but you can also set unique permissions for each subfolder.
+You can create up to 3 levels of subfolders within a shareable report folder. Subfolders inherit permissions from the parent folder, but you can also set unique permissions for each subfolder.
 
 {{step1-to-reports}}
 
-1. Find the folder you want to create a sub-folder in.
-1. Click **More** > **Add sub-folder**.
-1. Enter a name for the sub-folder.
+1. Find the folder you want to create a subfolder in.
+1. Click **More** > **Add subfolder**.
+1. Enter a name for the subfolder.
 1. Click **Create**.
 
 ## Share a report folder with other users
@@ -115,14 +115,18 @@ To move a report into a folder, you must have **Manage** rights to both the repo
 
     ![move a report to a shareable folder](assets/move-to-folder.png)
 
-<!--
 ## Delete a shareable report folder
 
-what happens with reports in the folder when it's deleted?
+When you delete a folder, any subfolders within that folder are also deleted. You must have **Manage** access to the folder to delete it. Reports in the folder are not deleted and can still be found in the main report list. 
+
+Report permissions granted through the folder permissions are removed when the folder is deleted. Report permissions granted directly from the report or inherited from a dashboard remain in place.  
+
 
 {{step1-to-reports}}
 
--->
+1. Click **More** > **Delete**.
+1. Click **Yes, delete it** to confirm.
+
 
 ## New list experience for shareable folders
 
