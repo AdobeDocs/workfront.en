@@ -87,7 +87,7 @@ For more information about managing list views in Workfront, see [Use enhanced l
 
     The Connected records page displays projects connected to the record in the list view. 
 
-    <!--add new screen shot when they release Row colors/ special formatting for rows-->
+    <!--add new screen shot when they release Conditional formatting MVP -->
 
     ![Projects on connected records page in list view](assets/projects-on-connected-records-page-list-view.png)
 
@@ -108,7 +108,7 @@ For more information about managing list views in Workfront, see [Use enhanced l
         >
         >* You cannot modify System Views. 
         >
-        <!--* <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+        <!--For Feb 26 and add the Preview disclaimer at the top: * <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
         -->
     1. Click the **Filter** icon ![Filter icon](assets/filter-icon.png) to add a filter to the view. Results are filtered immediately in the list. You cannot save and name filters. Filters are remembered when you access the page in future and they are part of shared views.
     1. Click the **Columns** icon ![Columns icon](assets/columns-icon.png) to select which columns to display or to hide in the view. 
@@ -123,23 +123,28 @@ For more information about managing list views in Workfront, see [Use enhanced l
         You cannot remove the primary field in the list view which displays in the first column. 
 
     
-    <!--
-    1. <span class="preview">Click **Row colors** <!-insert icon and edit the name of the icon if they changed it->. The **Format** box opens. <!-change the name of the box when they update it-></span>
+    <!--For Feb 26: make available at release and fix the formatting - this will be broken, if not: 
+    1. <span class="preview">Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens. (*********change the name of the box when they update it***********)</span>
         <span class="preview">Do the following: </span>
         <div class="preview">
-        1. Define the formatting conditions in the **If** area by clicking **Add condition**, then select a field you want to format by and choose a field value. 
+        1. In the **If** line, click **Add condition**, then select a field you want to format by and choose a field value. 
             >[!TIP]
             >
-            >Only field visible in the list view are available for conditional formatting.
-        1. (Optional) Click **Add condition** in the If area to add more conditions. 
-        1. Click the **Or** connector between conditions to change to **And**. **Or** is the default connector.  
-        1. In the **Format** area, select a field to indicate which column will be formatted. <!-edit this area, if it changes names???->
-        1. Click on the color circle to expand and choose another color.
-        1. Turn on the **Apply to row** setting to apply the formatting to the entire row that meets the conditions. 
+            >Only fields visible in the list view are available for conditional formatting.
+        1. (Optional) Click **Add condition** in the **If** line to add more conditions to same rule. 
+            >[!TIP]
+            >
+            >You can add up to 10 conditions in a conditioning rule and you can have up to 20 rules for a field.
+        1. Click the **Or** connector between conditions to change to **And** and to indicate that multiple conditions must be met at the same time. **Or** is the default connector.  
+        1. In the **Format** line, select a field to indicate which column will be formatted. (*******edit this area, if it changes names??***********)
+        1. (Optional) Click the **color circle** icon ![Color circle icon](assets/color-circle.png) next to the field selected, to expand it and choose another color.
+        1. Turn on the **Apply to row** setting to apply the formatting to the entire row of the field that meets the conditions. 
+        1. (Optional) Click **Add condition** in the **Format** box to add another rule for another field and the repeat the steps above. 
         1. (Optional) Click **Clear all** to remove all formatting.
-            The formatting is applies immediately.
         1. Click outside the **Format** box to close it. 
-            This returns you to the list view. There is a blue dot next to the **Row colors** icon to indicate that the view has special formatting applied. <!-might need to edit the icon name and get a screen shot of the icon with the dot and insert it here->
+            This returns you to the list view. 
+            The formatting is applied immediately to the list view.
+            There is a blue dot next to the **Format cells** icon to indicate that the view has special formatting applied.
         </div>
     -->
 
