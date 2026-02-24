@@ -24,7 +24,7 @@ You can configure record types to work across multiple workspaces in Adobe Workf
 
 You can designate a record type as one of the following: 
 
-* <span class="preview">**A global record type**: users can add global record types to other workspaces they can manage.</span> 
+* **A global record type**: users can add global record types to other workspaces they can manage.
 * **A connectable record type**: users can connect to this record type from other workspaces. 
 
 You must first define the cross-workspace capabilities of a record type before workspace managers can either add it to or connect it from other workspaces.
@@ -56,9 +56,9 @@ For information, see one of the following articles:
 <ul> 
 <li><p>Any Workfront package and any Planning package</p></li>
 Or
-<li><p>Any Workflow and any Planning</p></li></ul>
+<li>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
 
-<div class="preview">
+
 <p>To configure global record types:</p>
 
 <ul> 
@@ -67,7 +67,6 @@ Or
 <li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
 
-</div> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
@@ -125,7 +124,6 @@ And
 </tbody> 
 </table> -->
 
-<div class="preview">
 
 ## Configure global record types
 
@@ -135,7 +133,7 @@ As a workspace manager, you can configure a record type to be a global record ty
 
 A workspace manager can add a global record type to a workspace they manage. The record type's original fields are also added to the secondary workspace. 
 
-Users can add records to a global record type from any workspace where they have Contribute permissions and where the global record type is added, including its original workspace. They can view records from workspaces they have only View permissions to.
+Users can add records to a global record type from any workspace where they have Contribute permissions and where the global record type is added, including its original workspace. They can view records from workspaces they have only View permissions to from the primary workspace of the global record type.
 
 For more information, see [Cross-workspace record types overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
@@ -148,7 +146,7 @@ To configure a record type as global:
    The workspace page opens and the record types display. 
 1. Do one of the following:
 
-   * Hover over the card of a record type and click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the record type card. <!--add new screen shot without Share for now-->
+   * Hover over the card of a record type and click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the record type card. 
 
       ![More menu options from record type card](assets/more-menu-options-from-record-type-card.png)
 
@@ -157,7 +155,7 @@ To configure a record type as global:
 
    >[!TIP]
    >
-   >When a record type is added to another workspace, it displays as a global record type in that workspace. In this case, the Edit and Settings options are dimmed. 
+   >When a record type is added to another workspace, it displays as a global record type in that workspace. In this case, the Edit and Settings options are removed. 
 
 1. (Conditional) If you clicked **Edit**, in the **Edit record type** box, click the **Cross-workspace settings** tab
 
@@ -184,7 +182,7 @@ To configure a record type as global:
    >
    >You must designate at least one entity (user, team, group, role, or company) to be able to enable this setting. 
 
-1. (Conditional) Click **Save** in the **Edit record type** box, or click the back arrow to the left of **Settings** in the page header to save your changes.
+1. (Conditional) Click **Save** in the **Edit record type** box, or click the back arrow to the left of **Settings** section in the page header to save your changes.
 
    The following things occur:
 
@@ -194,75 +192,33 @@ To configure a record type as global:
       >
       >You can edit the record type's appearance and settings and its original fields only from its original workspace. 
          
-      * The record type card displays a **global record type** icon ![Global record type icon](assets/global-icon.png) to indicate that the record type is available to be added to other workspaces. 
+      * The record type card displays a **global record type** icon ![Global record type icon primary workspace](assets/global-icon.png) to indicate that the record type is available to be added to other workspaces. 
       * A system-generated **Workspace** field is added to the table view of the record type and its records' details. 
       
          The Workspace field displays the workspace from where each record is created.
          
          This field is read-only and cannot be deleted.
+
+         >[!TIP]
+         >
+         >If the field value for the **Workspace** field is empty, the record was created from a secondary workspace where the global record type was deleted after the record was created. 
+
 1. (Optional) Go to another workspace and create a record type by using an existing record type. Select the record type you enabled in the steps above. 
+
 
    For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). 
 
-   The record type added from a global record type in the secondary workspace also displays a **global record type** icon ![Global record type icon](assets/global-icon.png). 
+   The record type added from a global record type in the secondary workspace displays <span class="preview">a similar  **global record type** icon ![Global record type icon on secondary workspace](assets/global-icon-secondary-workspace.png) that includes an arrow, indicating that the record type was imported from another workspace. When you hover over the secondary workspace global icon, you can learn the name of the original workspace.</span>
 1. (Optional) Go back to the original workspace where you created the global record type and edit the record type by following steps 1-4 above <!--ensure this stays accurate-->
-1. (Optional) Review the list of workspaces where the global record has been added in the **Workspaces where this record type is used section**. The workspace owner is also listed next to the workspace name. 
+1. (Optional) Review the list of workspaces where the global record has been added in the **Workspaces where this record type is used** section. The workspace owner is also listed next to the workspace name. 
 
    ![Workspaces where this record type is used](assets/workspaces-where-this-record-type-is-used.png)
+1. (Optional) Click the name of one of workspaces listed in the **Workspaces where this record type is used** section to open that workspace. 
 
-</div>
 
 ## Configure connectable record types
 
 <!--this is a UI term; don't change the title of this section-->
-
-You can configure a record type to be connected to from other workspaces when you create or edit the record type. 
-
-Configuring a record type to be connectable differs depending on the environment you choose for your configuration. 
-
-### Configure connectable record types in the Production environment
-
-{{step1-to-planning}}
-
-1. Click the workspace whose record types you want to configure as connectable. 
-
-   The workspace page opens and the record types display. 
-1. Do one of the following:
-
-   * Hover over the card of a record type and click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the record type card
-
-      ![More menu options from record type card](assets/more-menu-options-from-record-type-card.png) 
-
-   * Click a record type card to open the record type page, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click **Edit**. 
-
-1. Click the **Advanced settings** tab.
-   
-1. Enable the **Allow connecting to this record type from other workspaces** setting. 
-
-   ![Edit record advanced settings tab with connect from other workspaces enabled](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
-
-   When enabled, the record type becomes connectable and is accessible to be connected to from other workspaces.
-
-1. Choose from which workspaces the record type can be accessed. Choose from the following options:
-
-   <!--check names of the setting: System wide?? OR All workspaces??-->
-
-   * **System wide**: Users can connect to this record type from all workspaces where they have Manage permissions.
-   * **Specific workspaces**: From the drop-down menu, add the names of the workspaces where workspace managers can connect to this record type.
-1. (Conditional) Click **Save** in the **Edit record type** box to save your changes.
-
-   The following things occur:
-
-      * The record type and its fields are now available to connect to from the workspaces you designated. 
-      * The record type card displays a connectable record type icon ![Connectable record type icon](assets/connect-from-other-workspaces-icon.png) to indicate that the record type is available to be connected to from any workspace you designated in your configuration.
-
-1. (Optional) Go to another workspace and add a connection to the record type you enabled for cross-workspace connectability in the steps above. 
-
-   For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
-
-<div class="preview">
-
-### Configure connectable record types in the Preview environment
 
 {{step1-to-planning}}
 
@@ -307,7 +263,9 @@ Configuring a record type to be connectable differs depending on the environment
 
    For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 
-</div>
+
+
+
 
 
 

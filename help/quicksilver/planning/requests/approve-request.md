@@ -31,7 +31,7 @@ We recommend that you also see the following articles:
 
 ## Considerations about approving requests 
 
-* Submitted requests display in the Planning tab of the Submitted section in the Requests area of Workfront  with one of the following request statuses: 
+* Submitted requests display in the Requests area of Workfront with one of the following request statuses: 
 
    * **Pending review**: This status is shown when none of the approvers has opened the request object.
    * **In review**: The **Pending review** status changes to **In review** when at least one approver opens the request object. The status of the request remains **In review** until all approvers have approved the request.
@@ -63,7 +63,7 @@ Or
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p> 
+   <td><p>Any</p> 
   </td> 
   </tr> 
   <tr> 
@@ -91,7 +91,12 @@ Approvers receive the following notifications about a request pending their appr
 >
 >Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience for users to be able to receive email and in-app notifications.
 
-To approve a request:
+You can approve requests to create records from the request itself, or from the My Approvals widget in Home.
+
+* [Approve a request from the request in Workfront Planning](#approve-a-request-from-the-request-in-workfront-planning)
+* [Approve a request from the My Approvals widget in Home](#approve-a-request-from-the-my-approvals-widget-in-home)
+
+### Approve a request from the request in Workfront Planning
 
 1. (Conditional) If you are using the legacy requesting experience in Workfront, open the request by doing one of the following: 
 
@@ -107,7 +112,7 @@ To approve a request:
     The request page opens in read-only mode.
 
     ![Read-only request page in review status](assets/read-only-reqeust-page-in-review-status.png) 
-1. If you are using the new requesting experience in Workfront, click **Main Menu** ![Dots main menu](assets/dots-menu.png) in the upper-right corner of the screen, or the **Main Menu** ![Lines main menu](assets/lines-menu.png) in the upper-left corner, if available, then click **Requests**, and click the request that you want to approve with the status of **Pending review** or **In review**.
+1. If you are using the new requesting experience in Workfront, click **Main Menu** ![Dots main menu](assets/dots-menu.png) in the upper-right corner of the screen, or the **Main Menu** ![Lines main menu](assets/lines-menu.png) in the upper-left corner, if available, then click **Requests**, and click the request that you want to approve with the status of **Pending review**.
 1. (Optional) Click the **Approvals** icon ![Approvals icon](assets/approvals-icon.png) in the upper-right corner of the request to view the approvers.
 1. Click **Review and approve**, then choose one of the following: 
 
@@ -121,4 +126,29 @@ To approve a request:
     * **Completed**: The request is approved.
     * **Rejected**: The request is rejected. 
 
-    The request remains in the Planning tab of the Submitted section in the Requests area of Workfront.
+    The request remains in the Requests area of Workfront.
+
+### Approve a request from the My Approvals widget in Home
+
+{{step1-to-home}}
+
+   Or
+
+   Click the [!UICONTROL Home] icon ![Home icon](/help/_includes/assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront, then locate the My Approvals widget.
+
+1. Locate the object that you want to approve or reject.
+
+1. (Optional) Add a comment by clicking the drop-down arrow next to Approve or Reject, typing in the note, and clicking Add.
+
+1. Choose one of the following: 
+
+    * **Approve**: This approves the request. A record is immediately created for the record type associated with the request form after all approvers approve the request.
+    * **Reject**: This rejects the request, even when you are the only approver that rejects it. No record is created for the record type associated with the request form. 
+
+    The user who submitted the request receives an email and in an-app notifications when their request is approved or rejected. 
+
+    The status of the request changes to the following, depending on the approval decision: 
+    
+    * **Completed**: The request is approved.
+    * **Rejected**: The request is rejected. 
+

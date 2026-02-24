@@ -672,7 +672,7 @@ Campaigns were released to Preview beta with the 22.3 release, in July 2022.</p>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Expanded team description</a></p>
                         <p>In the Teams area, you can now view the full team description by clicking the description to display it in a pop-up. Any URLs in the description are clickable in the pop-up, and you can click in the description text to edit it (if you have access to edit the team settings).</p>
                         <p>Previously, scrolling through the description in a narrow area was the only way to see all of the content.</p>
-<p>This enhancement to the description applies to both agile and non-agile teams.</p>
+<p>This enhancement to the description applies to both Agile and non-Agile teams.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>

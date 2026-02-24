@@ -41,7 +41,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## View the [!UICONTROL Work In Progress] (WIP) limit on the [!UICONTROL Kanban] board
 
-When a WIP limit is configured for your agile team, it is displayed in the upper-right corner of each column on the Kanban board (except for the [!UICONTROL Complete] column).
+When a WIP limit is configured for your Agile team, it is displayed in the upper-right corner of each column on the Kanban board (except for the [!UICONTROL Complete] column).
 
 Any time the limit is exceeded for any column on the [!UICONTROL Kanban] board, the limit is highlighted in red and a message is displayed.
 ![WIP limit](assets/kanban-wip.png)

@@ -165,7 +165,7 @@ For more information about Workfront access requirements, see [Access requiremen
 
    >[!NOTE]
    >
-   ><span class="preview">You cannot share a view publicly from a global record type in a secondary workspace. For more information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).</span> 
+   >You cannot share a view publicly from a global record type in a secondary workspace. For more information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 
 * People outside your organization who have access to a view cannot create other views, edit the shared view, or add, delete, or edit record information in the view. 
@@ -204,7 +204,9 @@ You can share views you created or views you have Manage permissions to with use
 
    >[!NOTE]
    >
-   >In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. You cannot add Workfront-only users. For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md). 
+   >* In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. You cannot add Workfront-only users. For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md). 
+   >
+   >* When you share a view with a user, their primary job role <span class="preview">and their email</span> also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email.  
 
 
    * **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. 
@@ -237,7 +239,7 @@ You can share views you created or views you have Manage permissions to with use
 
 You can share views you created or views you have Manage permissions to with people that do not have a Workfront license and who might be external to your organization.
 
-<span class="preview">You cannot share a view publicly from a global record type in its secondary workspace. </span>
+You cannot share a view publicly from a global record type in its secondary workspace.
 
 >[!IMPORTANT]
 >
@@ -271,7 +273,7 @@ To share a view publicly in Workfront Planning:
 
    >[!TIP]
    >
-   ><span class="preview">The **Public sharing** tab is removed for a global record type in its secondary workspace.</span>
+   >The **Public sharing** tab is removed for a global record type in its secondary workspace.
 
 
 1. Click the **Copy link** icon ![Copy link view](assets/copy-link-view.png) to copy the link to your clipboard. 

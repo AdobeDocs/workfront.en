@@ -51,6 +51,6 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Change story order in a project
 
-Unlike agile iterations, you cannot change story order when viewing a project in an agile view. To modify story order for a project, you must view the project in a standard view.
+Unlike Agile iterations, you cannot change story order when viewing a project in an Agile view. To modify story order for a project, you must view the project in a standard view.
 
-For information about how to change the project view, see [[!UICONTROL Manage a project] in the [!UICONTROL Agile] View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Instead of selecting an agile view, select a standard view.
+For information about how to change the project view, see [[!UICONTROL Manage a project] in the [!UICONTROL Agile] View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Instead of selecting an Agile view, select a standard view.

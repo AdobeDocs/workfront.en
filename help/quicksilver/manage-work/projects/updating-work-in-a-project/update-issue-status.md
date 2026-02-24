@@ -116,13 +116,13 @@ To manually update the issue status in the issue header:
 
    Click inside the bubble in the header of the issue to enter a percentage.
 
-   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+   ![Update task percent complete in header](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 1. (Optional) Do any of the following to provide additional information about the update:
 
    * To add a note about the update, go to the **Updates** section and click **New comment**, then type a note.
 
-     ![](assets/nwe-issue-update-stream-message-box-350x125.png)
+     ![Issue update stream message box](assets/nwe-issue-update-stream-message-box-350x125.png)
 
    * To notify certain users about the update, type their names in the **Tag people or teams** field that appears when you type a comment. For more information, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md). 
    * To update the Commit Date of the issue, click **Issue Details**, then edit the **Commit Date** field. For information, see [Edit issues](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).  
@@ -141,7 +141,7 @@ When you are updating an issue status, you can also add an explanation about the
 1. Go to an issue that you are assigned to for which you want to update the status.
 1. Click the **Status** field in the issue header and select a new status.
 
-   ![](assets/nwe-issue-status-expanded-in-header-350x370.png)
+   ![Issue status expanded in header](assets/nwe-issue-status-expanded-in-header-350x370.png)
 
 1. To provide a visual indication of issue completion, drag or double-click the bubble under **Percent Complete** in the header of the issue.
 
@@ -149,7 +149,7 @@ When you are updating an issue status, you can also add an explanation about the
 
    Click inside the bubble in the header of the issue to enter a percentage.
 
-   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+   ![Update task percent in header](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 -->
 

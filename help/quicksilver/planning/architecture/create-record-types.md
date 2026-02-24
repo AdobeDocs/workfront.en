@@ -14,9 +14,9 @@ exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 
 # Create record types
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -49,7 +49,6 @@ For more information about record types, see [Record types overview](/help/quick
 Or
 <li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
 
-<div class="preview">
 <p>To configure global record types:</p>
 
 <ul> 
@@ -58,7 +57,6 @@ Or
 <li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
 
-</div>
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
@@ -157,8 +155,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
             This article describes how you create record types from scratch.    
 
-        * <span class="preview">By adding them from another workspace</span>
-            <span class="preview">For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>
+        * By adding them from another workspace
+            For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). 
 
 
 * You can move record types within a section and from one section of a workspace to another. You cannot move record types from one workspace to another workspace. 
@@ -202,9 +200,9 @@ You can manually add record types in both the Operational Record Types and Taxon
         * Select a color to identify your new record type. This is the color of the record type icon. Gray is selected by default.
         * Select an icon from the list, or start typing the name of an icon in the search field to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default. 
 
-1. (Optional and conditional) If you are a system administrator, click the **Advanced settings** <span class="preview">or **Cross-workspace settings**</span> tab and <span class="preview">update information about the cross-workspace capabilities of the record type. 
+1. (Optional and conditional) If you are a system administrator, click the **Cross-workspace settings** tab and update information about the cross-workspace capabilities of the record type. 
 
-   ![Edit record type box with advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png) </span>
+   ![Edit record type box with cross-workspace settings tab](assets/edit-record-type-box-advanced-settings-tab.png) </span>
 
    For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).    
 
@@ -217,9 +215,9 @@ You can manually add record types in both the Operational Record Types and Taxon
 
     If you selected to connect this record from other workspaces, the **Connectable record** icon ![Connect from other spaces icon](assets/connect-from-other-workspaces-icon.png) displays on the record card. 
 
-    <span class="preview">If you selected to allow adding this record to other workspaces, the **Global record** icon ![Global record type icon](assets/global-icon.png) displays on the record card. </span>
+    If you selected to allow adding this record to other workspaces, the **Global record** icon ![Global record type icon](assets/global-icon.png) displays on the record card. 
 
-1. (Optional) Hover over the record type card, click the **More** icon ![More menu](assets/more-menu.png) in the upper-right corner, then click **Edit** or <span class="preview">**Settings**</span> to modify information about the record type. 
+1. (Optional) Hover over the record type card, click the **More** icon ![More menu](assets/more-menu.png) in the upper-right corner, then click **Edit** or **Settings** to modify information about the record type. 
 
     For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md).
 
@@ -271,12 +269,8 @@ You can import the following when importing information from a CSV or Excel file
 
 For more information, see [Create Record Types by importing information from a CSV or Excel file](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md). 
 
-<div class="preview">
-
 ## Create record types by adding existing ones from another workspace 
 
 You can add record types to a workspace by adding existing ones from another workspace. You can only add record types that have been configured as global record types. 
 
 For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
-
-</div>

@@ -10,8 +10,6 @@ exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
 ---
 # Edit information in custom form fields
 
-{{preview-fast-release-general}}
-
 <!--Audited: 10/2025-->
 
 You can edit information on a custom form after the form is attached to an object. For information about adding custom forms to objects, see [Add a custom form to an object](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
@@ -116,7 +114,7 @@ For information about what objects can have a custom form, see [Custom forms ove
 
    >[!NOTE]
    >
-   ><span class="preview">Fields that allow multiple selections may limit how many options you can choose. Check boxes and multi-select dropdowns are limited to 5000 selections.</span>
+   >Fields that allow multiple selections may limit how many options you can choose. Check boxes and multi-select dropdowns are limited to 5000 selections.
 
    For information about all of the field types, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -126,7 +124,7 @@ For information about what objects can have a custom form, see [Custom forms ove
    >
    >You must complete all required fields on the form before you can save the form. The name of a required field is followed by an asterisk.
    >
-   >![](assets/nwe-required-custom-field.png)
+   >![Required custom field](assets/nwe-required-custom-field.png)
 
    When someone changes data in another object that is referenced by calculated custom fields in your object, the changes are not reflected automatically in your object. For information about manually updating all calculated custom fields in your object, see [Recalculate all calculated custom fields for an object](#recalculate-all-calculated-custom-fields-for-an-object) in this article.
 
@@ -173,7 +171,7 @@ The following sections describe how you can recalculate custom expressions for o
    * Program
    * Document
 
-1. Click the **More** menu ![](assets/more-icon.png) to the right of the object's name, then click **Recalculate Expressions**.
+1. Click the **More** menu ![More menu](assets/more-icon.png) to the right of the object's name, then click **Recalculate Expressions**.
 
    This recalculates all custom fields on the object's form.
 
@@ -213,9 +211,9 @@ To recalculate custom expressions from a list of objects:
    * Portfolios
    * Programs
    * Expenses
-1. Click the **More** menu ![](assets/more-icon.png), then click **Recalculate Custom Expressions**. 
+1. Click the **More** menu ![More menu](assets/more-icon.png), then click **Recalculate Custom Expressions**. 
 
-![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+![Recalculate expressions timeline finances drop-down in project lists](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
 Workfront immediately calculates all custom fields for all the selected projects.
 Not all lists of all objects have this capability.

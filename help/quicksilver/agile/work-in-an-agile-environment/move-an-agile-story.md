@@ -2,14 +2,14 @@
 product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: Move an Agile Story
-description: You can move an agile story either to a different iteration (for Scrum teams), or to the backlog (for Kanban and Scrum teams).
+description: You can move an Agile story either to a different iteration (for Scrum teams), or to the backlog (for Kanban and Scrum teams).
 author: Jenny
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
 ---
-# Move an agile story
+# Move an Agile story
 
-You can move an agile story either to a different iteration (for Scrum teams), or to the backlog (for Kanban and Scrum teams).
+You can move an Agile story either to a different iteration (for Scrum teams), or to the backlog (for Kanban and Scrum teams).
 
 ## Access requirements
 

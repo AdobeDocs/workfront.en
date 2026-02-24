@@ -23,23 +23,6 @@ For information about creating custom fields in Workfront Planning, see [Create 
 
 You can delete Workfront Planning fields that are no longer relevant. 
 
-## Considerations about deleting Workfront Planning fields:
-
-* You can delete a field only in the record type table view.
-* You cannot delete the primary field of a record. 
-* Any information stored in the field is deleted and cannot be recovered. 
-* When you delete a connected record field, all the connected lookup fields are also deleted from the record type you connect from. The connected record fields of the record types you connect to are also deleted from the record you connect to.
-
-   For example, when you connect campaigns to another record type called product, and you delete the Product connected field and the Product's Status lookup field from the campaign, the following are deleted:
-      
-   * The Product connected field from the campaign
-   * The Product Status lookup field from the campaign
-   * The Campaign connected field from the product. 
-
-   For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
-
-<!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
-
 ## Access requirements
 
 +++ Expand to view the access requirements for the functionality in this article. 
@@ -61,12 +44,10 @@ You can delete Workfront Planning fields that are no longer relevant.
 Or
 <li><p>Any Workflow and any Planning package</p></li></ul>
 
-<!--
-<p><span class="preview">To delete global record types:</span</p>
-<ul><li><p><span class="preview">Any Workfront package and a Planning Plus package</span></p></li>
+<p>To delete fields from global record types:</p>
+<ul><li><p>Any Workfront package and a Planning Plus package</p></li>
 Or
-<li><p><span class="preview">Workflow and Planning Prime and Ultimate packages</span></p></li></ul>
--->
+<li><p>Any Workflow and Planning Prime and Ultimate packages</p></li></ul>
 
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
@@ -145,6 +126,25 @@ For more information about Workfront access requirements, see [Access requiremen
 </tbody> 
 </table> -->
 
+## Considerations about deleting Workfront Planning fields:
+
+* You can delete a field only in the record type table view.
+* You cannot delete the primary field of a record. 
+* Any information stored in the field is deleted and cannot be recovered. 
+* When you delete a connected record field, all the connected lookup fields are also deleted from the record type you connect from. The connected record fields of the record types you connect to are also deleted from the record you connect to.
+
+   For example, when you connect Campaigns to another record type called Product, and you delete the Product connected field and the Product's Status lookup field from the campaign, the following are deleted:
+      
+   * The Product connected field from the campaign
+   * The Product Status lookup field from the campaign
+   * The Campaign connected field from the product 
+
+   For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
+
+<!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
+
+* You cannot delete fields from global records that have been added to a secondary workspaces from the secondary workspaces.
+
 ## Delete fields
 
 <!--When they release the sharing of fields between other records, revise this section.  -->
@@ -171,4 +171,11 @@ For more information about Workfront access requirements, see [Access requiremen
 
 1. Click **Delete** to confirm. 
 
-    The field is deleted, cannot be recovered, and can no longer be associated with any records.
+   Deleted fields cannot be recovered.
+
+   Depending on what type of field you deleted, the following happens: 
+   
+      * If you delete a field that belongs to the record you selected, the field is deleted and can no longer be associated with any records. If this field is added as a lookup field on other records, those fields are also deleted. 
+      * If you delete a connection field, the field is deleted from the record you selected. Also, the corresponding connection field from its original record is also deleted. 
+      * If you delete a lookup field that was added from a connected record, the field is deleted from the record type you selected, but it remains on its original record type. 
+      * If you delete a field from a global record type in its primary workspace, it is deleted from all the workspaces where that record type has been added. You cannot delete fields from global record types from their secondary workspaces.

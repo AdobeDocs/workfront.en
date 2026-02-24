@@ -23,7 +23,8 @@ Review the following articles:
 * [Adobe Workfront Planning release activity for 2024](/help/quicksilver/planning/general/release-activity.md)
 * [Adobe Workfront Planning release activity for 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
 * [Adobe Workfront Planning object limitations overview](/help/quicksilver/planning/general/limitations-overview.md)
-* [Adobe Workfront Planning best practices](/help/quicksilver/planning/general/planning-best-practices.md)
+* [Adobe Workfront Planning implementation recommendations](/help/quicksilver/planning/general/planning-best-practices.md)
+* [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md)
 <!--* [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md)-->
 
 

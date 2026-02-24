@@ -17,8 +17,8 @@ You can receive in-app notifications from Workfront Planning when the following 
 * Someone tags you or your teams in a record comment
    
    For information about tagging others in a record comment, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
-* Someone asks for your permission to access a view or a workspace
-* Someone confirms your access has been granted for a view or a workspace <!--Isk confirmed there is no notification for denying permissions - did not test-->
+* Someone asks for your permission to access a view or a workspace <!--<span class="preview">or record</span>-->
+* Someone confirms your access has been granted for a view or a workspace <!--<span class="preview">or record</span>--> <!--Isk confirmed there is no notification for denying permissions - did not test-->
 
 ## Access requirements
 
@@ -149,8 +149,8 @@ OLD:
 
 ## Manage in-app notifications when requesting and granting permissions
 
-You receive in-app notifications when someone requests or grants you permissions to a view or a workspace. 
+You receive in-app notifications when someone requests or grants you permissions to a view or a workspace. <!--<span class="preview">or record</span>-->
 
-For information about requesting, granting, or denying permissions to a view or a workspace, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). 
+For information about requesting, granting, or denying permissions, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). 
 
 For information about managing your Workfront Planning notifications, see [Manage Adobe Workfront Planning notification preferences](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

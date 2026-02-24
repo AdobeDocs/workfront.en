@@ -11,9 +11,9 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 ---
 # Create a custom form
 
-{{preview-fast-release-general}}
-
 <!-- Audited: 6/2025 -->
+
+{{preview-fast-release-general}}
 
 You can design a custom form with the form designer in Adobe Workfront. You can attach custom forms to different Workfront objects to capture data about those objects.
 
@@ -100,6 +100,10 @@ Custom forms are limited to 500 fields. A counter on the bottom left displays ho
    >
    >Examples of complex forms include forms with cascading parameters, calculated custom data fields, and multiple value options in a single field.
 
+   >[!NOTE]
+   >
+   >Marking an existing field inactive makes it unavailable to use in reporting elements and custom forms from that point forward. If the inactive field is currently used in a report or a form, the field and its historical data remain in place.
+
 1. To save your changes, click **Apply** and move on to another section to continue building your form.
 
     Or
@@ -149,6 +153,10 @@ The following special characters are not supported in custom field labels and na
 
 * **Single line text field**: Allows users to type a single line of text in the field.
 * **Paragraph field**: Allows users to type multiple lines of text in the field.
+* <span class="preview">**Rich text**: Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, subscript and superscript, hyperlinks, block quotes, headings, and tables. A character limit of 15,000 provides a large space for text and formatting.</span>
+
+  <span class="preview">The Rich text field type is replacing the Text with formatting field type. You can quickly convert existing Text with formatting fields to Rich text, by clicking the **Convert to rich text** button in the field options on the right.</span>
+
 * **Text field with formatting**: Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. A character limit of 15,000 allows for plenty of text and formatting.
 
     This custom field type is not supported in filters on lists and reports.
@@ -169,6 +177,7 @@ To add a text field:
 
     * Single line text
     * Paragraph
+    * <span class="preview">Rich text</span>
     * Text with formatting
     * Descriptive text
 
@@ -189,6 +198,7 @@ To add a text field:
     <td><ul>
     <li>Single line text</li>
     <li>Paragraph</li>
+    <li><span class="preview">Rich text</span></li>
     <li>Text with formatting</li>
     <li>Descriptive text</li>
     </ul></td>
@@ -200,6 +210,7 @@ To add a text field:
     <td><ul>
     <li>Single line text</li>
     <li>Paragraph</li>
+    <li><span class="preview">Rich text</span></li>
     <li>Text with formatting</li>
     </ul></td>
     </tr>
@@ -211,6 +222,7 @@ To add a text field:
     <td><ul>
     <li>Single line text</li>
     <li>Paragraph</li>
+    <li><span class="preview">Rich text</span></li>
     <li>Text with formatting</li>
     <li>Descriptive text</li>
     </ul></td>
@@ -223,6 +235,7 @@ To add a text field:
     <td><ul>
     <li>Single line text</li>
     <li>Paragraph</li>
+    <li><span class="preview">Rich text</span></li>
     <li>Text with formatting</li>
     </ul></td>
     </tr>
@@ -253,20 +266,22 @@ To add a text field:
     <td><ul><li>Descriptive text</li></ul></td>
     </tr>
     <tr>
-     <td><span class="preview">Active</span></td>
-     <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
-     <td><ul><span class="preview">
+     <td>Active</td>
+     <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
+     <td><ul>
      <li>Single line text</li>
      <li>Paragraph</li>
+     <li><span class="preview">Rich text</span></li>
      <li>Text with formatting</li>
-     <li>Descriptive text</li></span></ul></td>
+     <li>Descriptive text</li></ul></td>
     </tr>
     <tr> 
-      <td role="rowheader">Make a required field</td>
+      <td>Make a required field</td>
       <td><p>Select this option if you want the field to be required in order for the user to complete the custom form.</p></td>
     <td><ul>
     <li>Single line text</li>
     <li>Paragraph</li>
+    <li><span class="preview">Rich text</span></li>
     <li>Text with formatting</li>
     </ul></td> 
     </tr> 
@@ -411,13 +426,13 @@ To add radio buttons, checkbox groups, and drop-downs:
     </td>
      </tr>
     <tr>
-     <td><span class="preview">Active</span></td>
-     <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
-     <td><ul><span class="preview">
+     <td>Active</td>
+     <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
+     <td><ul>
      <li>Radio buttons</li>
      <li>Checkbox group</li>
      <li>Single-select dropdown</li>
-     <li>Multi-select dropdown</li></span></ul></td>
+     <li>Multi-select dropdown</li></ul></td>
     </tr>
     <tr> 
     <td role="rowheader">Make a required field</td> 
@@ -552,11 +567,11 @@ To add typeahead and date fields:
       </td>
      </tr>
      <tr>
-      <td><span class="preview">Active</span></td>
-      <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
-      <td><ul><span class="preview">
+      <td>Active</td>
+      <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
+      <td><ul>
       <li>Typeahead</li>
-      <li>Date</li></span></ul></td>
+      <li>Date</li></ul></td>
      </tr>
      <tr> 
       <td role="rowheader">Make a required field</td> 
@@ -664,8 +679,8 @@ To add an external lookup:
       <td><p>Select this option to allow the user to select more than one value in the drop-down.</p></td>
      </tr>
      <tr>
-      <td><span class="preview">Active</span></td>
-      <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
+      <td>Active</td>
+      <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Make a required field</td>
@@ -757,8 +772,8 @@ The Workfront Mobile app -->
       <td> <p>Type any additional information about the widget. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.</p> </td> 
      </tr> 
      <tr>
-      <td><span class="preview">Active</span></td>
-      <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
+      <td>Active</td>
+      <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
      </tr>
     </tbody> 
    </table>
@@ -894,8 +909,8 @@ This table lists the available native fields for specific Workfront objects in a
       <td>
      </tr>
      <tr>
-      <td><span class="preview">Active</span></td>
-      <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
+      <td>Active</td>
+      <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Make a required field</td>
@@ -951,8 +966,8 @@ This table lists the available native fields for specific Workfront objects in a
     <img src="assets/instructions-form-designer.png"></p> </td> 
      </tr>
      <tr>
-      <td><span class="preview">Active</span></td>
-      <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
+      <td>Active</td>
+      <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
      </tr>
     </tbody> 
    </table>
@@ -1047,8 +1062,8 @@ To add a Planning connection field:
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
      </tr>
      <tr>
-      <td><span class="preview">Active</span></td>
-      <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
+      <td>Active</td>
+      <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
      </tr>
       </tbody> 
    </table>

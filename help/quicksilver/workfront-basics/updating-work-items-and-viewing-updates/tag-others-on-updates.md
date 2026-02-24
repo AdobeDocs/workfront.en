@@ -161,13 +161,13 @@ You can also remove users who are tagged by mistake when you edit or reply to a 
 
    The names of the tagged entities display next to their avatars, up to two entities. If more than two entities are tagged the name of the first one displays, in addition to a number of how many additional entities are tagged.
 
-   ![](assets/members-icons-expanded-unshimmed.png)
+   ![Members icons expanded](assets/members-icons-expanded-unshimmed.png)
 
    When you are tagged in the comment text, your name is highlighted in those comments.
 
    For information about the additional functionality that is available when updating a work item, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optional) Click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**. Remove any of the tagged users, then click **Submit**. 
+1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**. Remove any of the tagged users, then click **Submit**. 
 
    >[!IMPORTANT]
    >
@@ -200,7 +200,7 @@ You can manually tag users in the legacy Updates section.
    >
    >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-   ![](assets/tag-users-in-update.png)
+   ![Tag users in update](assets/tag-users-in-update.png)
 
 1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. The **Private to my company** option is available only when a Company is specified in your Workfront profile. 
 
@@ -219,7 +219,7 @@ You can manually tag users in the legacy Updates section.
 
    You can see who has been tagged in each reply at the top of the update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object.
 
-   ![](assets/tagging-transparency-350x192.png)
+   ![Tagging transparency](assets/tagging-transparency-350x192.png)
 -->
 
    For information about the additional functionality that is available when updating a work item, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

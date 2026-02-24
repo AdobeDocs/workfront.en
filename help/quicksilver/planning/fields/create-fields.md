@@ -321,20 +321,20 @@ You can use a multi-select field to capture additional information in any format
 
     The new multi-select field is added as a column to the record type, and its values can be associated with records. 
 
-1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
-1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+1. (Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.
+1. Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. 
 
     >[!NOTE]
     >
-    >* <span class="preview">Workfront assigns unique values for each choice. </span>
+    >* Workfront assigns unique values for each choice. 
     >
-    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
+    >* Values match the choice name in lowercase format. Multiple words are separated by an underscore. 
     >
-    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
+    >* Values can be repeated between multiple fields, but they must be unique for one field.
     >
-    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
+    > ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)
 
-1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span> 
+1. (Optional) Use the choice values in your API calls and other integrations.  
 
 ### Single-select {#single-select}
 
@@ -369,20 +369,20 @@ Single-select fields capture additional information in any format by selecting o
 
     The new single-select field is added as a column to the record type, and its values can be associated with records. 
 
-1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
-1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+1. (Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.
+1. Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. 
 
     >[!NOTE]
     >
-    >* <span class="preview">Workfront assigns unique values for each choice. </span>
+    >* Workfront assigns unique values for each choice. 
     >
-    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
+    >* Values match the choice name in lowercase format. Multiple words are separated by an underscore. 
     >
-    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
+    >* Values can be repeated between multiple fields, but they must be unique for one field.
     >
-    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
+    > ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)
 
-1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span>
+1. (Optional) Use the choice values in your API calls and other integrations. 
 
 ### Date {#date}
 
@@ -609,7 +609,7 @@ You can use the People field type to add a user <!--, job role, or team--> to a 
 
 >[!TIP]
 >
->* When you add the name of a user in a People field, the name of the user and their primary job role display in the field.  
+>* When you add the name of a user in a People field, their primary job role <span class="preview">and their email</span> also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email.   
 >
 >* People fields display as a reference (or connection) field type in a request form builder. 
 >

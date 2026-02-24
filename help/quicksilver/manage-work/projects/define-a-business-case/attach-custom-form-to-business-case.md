@@ -8,7 +8,7 @@ exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
 ---
 # Attach a Custom Form to a Business Case
 
-Custom Forms are used to collect information that is not displayed in existing Adobe Workfront fields.&nbsp;
+Custom Forms are used to collect information that is not displayed in existing Adobe Workfront fields. 
 
 For more information about creating Custom Forms, see the article [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -69,13 +69,13 @@ To attach a custom form:
 
 1. Go to the project you want to attach the form to, then click **Business Case** in the left panel. The Business Case displays.
 
-1. In the&nbsp;**Custom Form** section, select the custom form you want to attach from the drop-down menu. The custom form appears in the **Added forms** section below. 
+1. In the **Custom Form** section, select the custom form you want to attach from the drop-down menu. The custom form appears in the **Added forms** section below. 
 
 1. (Optional) To expand the custom form details, click the arrow to the left of the custom form name.
 
       ![Expand custom form details](assets/expand-custom-form-details.png)
 
-<!--1. (Optional) Select&nbsp;**Edit Custom Form**.  
+<!--1. (Optional) Select **Edit Custom Form**.  
   ![Edit custom form](assets/acf1-350x122.png)
 
-1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** . -->
+1. (Optional) Specify information in the fields of the custom form, then click **Save** . -->

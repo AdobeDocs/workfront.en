@@ -54,7 +54,7 @@ Consider the following when connecting and creating Workfront objects to Workfro
 
     * The table view of a record type
     * The Details area of a record in the connection field
-    * The Connected record page of a record, in the Details area
+    * The Connected record page of a record
 
 * You can create portfolios and programs from the following areas of Workfront Planning:
 
@@ -221,7 +221,7 @@ To create projects as you are connecting them from other records:
 
 1. Add a **Connected records page** for projects. 
     
-    For information, see the "Add a Connected records page to a record" section in the article [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md). 
+    For information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md). 
 
     The Connected records page displays in the table view. Connected projects display in the table. 
 

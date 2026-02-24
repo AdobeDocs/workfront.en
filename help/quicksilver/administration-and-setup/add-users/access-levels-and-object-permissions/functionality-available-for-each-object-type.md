@@ -4,16 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: access,model,funnel,diagram,levels,permissions
 navigation-topic: access-levels
-title: Functionality Available for Each Object Type for Various Access Levels
+title: Functionality Available for Each Object Type for Various Access Levels (Legacy)
 description: The following tables lists the functionality available for each object type in the various access levels.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
 ---
-# Functionality available for each object type for various access levels
+# Functionality available for each object type for various access levels (Legacy)
 
 {{highlighted-preview}}
+
+>[!NOTE]
+>
+>The information in this article refers to the legacy access levels. For information about the current access levels, see [New access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 The following tables lists the functionality available for each object type in the various access levels.
 

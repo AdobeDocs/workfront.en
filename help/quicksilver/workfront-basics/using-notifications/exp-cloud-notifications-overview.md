@@ -6,8 +6,8 @@ author: Courtney
 feature: Get Started with Workfront
 hide: yes
 hidefromtoc: yes
+exl-id: 5efa1912-e827-42ef-8001-4de63a63a6c4
 ---
-
 # Experience Cloud Notifications overview
 
 Adobe Workfront notifications are moving to Adobe's centralized notification system called Experience Cloud Notifications. This notifications system is used by all digital experience products.  
@@ -95,4 +95,3 @@ If you need to reschedule the transition, please coordinate with your account te
 
 No. All existing integrations and automations will continue to function as usual.  
 +++
-

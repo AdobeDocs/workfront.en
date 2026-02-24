@@ -9,7 +9,7 @@ exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
 ---
 # 23.2 Agile enhancements
 
-This page describes all agile enhancements made with the 23.2 release to the Preview environment. These enhancements will be made available in the Production environment with the 23.2 release. 
+This page describes all Agile enhancements made with the 23.2 release to the Preview environment. These enhancements will be made available in the Production environment with the 23.2 release. 
 
 For a list of all changes available at this point in the 23.2 release cycle, see [23.2 Release overview](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
@@ -21,7 +21,7 @@ For more information, see [Add existing tasks or issues to a board](/help/quicks
 
 ## Iteration functionality available in Adobe Workfront Boards
 
-Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
+Several new features available in Workfront Boards make it possible to use Agile Scrum functionality. These features include:
 
 * Workstreams for grouping boards related to the same team, and collaborating on work
 * A list of cards, or backlog of work, with the option to use sources to connect cards to Workfront tasks and issues

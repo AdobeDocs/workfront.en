@@ -46,7 +46,7 @@
 
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
+>The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud]. 
 >
 > If your organization has been onboarded to [!DNL Adobe Experience Cloud], see [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
@@ -61,6 +61,18 @@
 ## Step 1 - Click your profile picture - {#step1-click-profile-pic}
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user name next to your profile picture. Or (if available), click your profile picture in the top navigation area, then click **[!UICONTROL Workfront Profile]**.
+
+## Note for Workflow Ultimate {#ultimate-package}
+
+>[!IMPORTANT]
+>
+>You must have the Workflow Ultimate package to use this feature.
+
+## Note for Workflow Prime/Ultimate {#prime-or-ultimate-package}
+
+>[!IMPORTANT]
+>
+>You must have the Workflow Prime or the Workflow Ultimate package to use this feature.
 
 <!-- Admin and Setup -->
 
@@ -364,8 +376,8 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 **Latest version**: 
 
-* Mac: 2.1.52 as of 7/31/2025
-* Windows: 2.1.52 of 7/31/2025
+* Mac: 2.1.54 as of 12/11/2025
+* Windows: 2.1.54 of 12/11/2025
 
 <!-- Release -->
 

@@ -80,13 +80,13 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 1. Go to the object where you want to change the order of the added custom forms, ,then start to edit the object.
 
-   **Example:** For example, to manage the custom forms of a project, go to the project,  click the **More** menu ![](assets/more-icon.png), then click **Edit** .
+   **Example:** For example, to manage the custom forms of a project, go to the project,  click the **More** menu ![More menu](assets/more-icon.png), then click **Edit** .
 
-1. In the **Custom Forms** section for projects, tasks, and issues, click the ![](assets/move-icon---dots.png) icon next to the name of a custom form. For all other objects, click **Manage Forms**. This option displays only if at least one custom form is attached to the object.
-1. Drag a form ![](assets/move-icon---dots.png) to a new location in the list.
+1. In the **Custom Forms** section for projects, tasks, and issues, click the ![Move icon](assets/move-icon---dots.png) icon next to the name of a custom form. For all other objects, click **Manage Forms**. This option displays only if at least one custom form is attached to the object.
+1. Drag a form ![Move icon](assets/move-icon---dots.png) to a new location in the list.
 1. For projects, tasks, and issues custom forms, click **Save**.
 
-   For all other objects, click **I'm done managing** >&nbsp;**Save Changes**.
+   For all other objects, click **I'm done managing** >  **Save Changes**.
 
 ## Remove a custom form from an object {#remove-a-custom-form-from-an-object}
 
@@ -99,7 +99,7 @@ For more information, see [Access requirements in Workfront documentation](/help
    For example, go to a project,  click the **Project Details** section. 
 
 1. Click the **Edit** icon ![Edit icon](assets/edit-icon.png) in the upper-right corner of the object's page, then click **Edit all**. 
-1. Click the **Delete** icon ![](assets/delete-icon.png) to the right of a custom form name, then click **Delete** to confirm and remove the form from the object, or **Cancel** to prevent the removal.
+1. Click the **Delete** icon ![Delete icon](assets/delete-icon.png) to the right of a custom form name, then click **Delete** to confirm and remove the form from the object, or **Cancel** to prevent the removal.
 1. Click **Save Changes** .
 
 ## Manage multiple custom forms that contain the same custom fields
@@ -129,7 +129,7 @@ Only the custom forms that are attached to all selected objects can be edited in
 
 To edit multiple custom forms when editing objects in bulk:
 
-1. In a list objects, select the objects where the custom forms are attached, then click  the **Edit** icon ![](assets/edit-icon.png).
+1. In a list objects, select the objects where the custom forms are attached, then click  the **Edit** icon ![Edit icon](assets/edit-icon.png).
 1. Click **Custom Forms**.
 
    You can edit only the custom forms attached to all of the selected objects.
@@ -163,7 +163,7 @@ To edit multiple custom forms when editing objects in bulk:
    * If you have made changes to the form, removing it results in your changes being lost and they cannot be recovered.
    * After you remove a form, any fields from that form that were in the **Common Fields** section are removed from this section and can no longer be edited here.
 
-1. Click&nbsp;**Restore Form** to restore the form to the state it was in before you edited the objects.
+1. Click  **Restore Form** to restore the form to the state it was in before you edited the objects.
 1. (Optional) Click the collapse arrow next to the name of the form to collapse one form at a time.
 
    Or
@@ -174,6 +174,6 @@ To edit multiple custom forms when editing objects in bulk:
 
    Or
 
-   Click **Expand Forms** to expand all forms at the same time.&nbsp;
+   Click **Expand Forms** to expand all forms at the same time.  
 
 1. Click **Save Changes**.

@@ -2,24 +2,24 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-agile-in-workfront
 title: Create an Agile Team
-description: Adobe Workfront enables agile teams to complete work in an incremental, organized way.
+description: Adobe Workfront enables Agile teams to complete work in an incremental, organized way.
 author: Jenny
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
 ---
-# Create an agile team
+# Create an Agile team
 
 <!--Audited: 01/2024-->
 
-[!DNL Adobe Workfront] enables agile teams to complete work in an incremental, organized way.
+[!DNL Adobe Workfront] enables Agile teams to complete work in an incremental, organized way.
 
-Any user in the organization can see the agile team and view all agile components for the team, including the backlog, iterations, story board, and individual stories. However, only members of the team with [!UICONTROL Edit] access to work can make changes to work assigned to the team.
+Any user in the organization can see the Agile team and view all Agile components for the team, including the backlog, iterations, story board, and individual stories. However, only members of the team with [!UICONTROL Edit] access to work can make changes to work assigned to the team.
 
-[!DNL Workfront] supports the following agile methodologies:
+[!DNL Workfront] supports the following Agile methodologies:
 
-* **[!UICONTROL Scrum]**: Teams have a backlog of work that needs to be done. When the team is ready to work on a specific chunk of work, the work is moved from the backlog to an iteration. For more detailed information about managing a Scrum team, see [Scrum in an agile team](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md).
+* **[!UICONTROL Scrum]**: Teams have a backlog of work that needs to be done. When the team is ready to work on a specific chunk of work, the work is moved from the backlog to an iteration. For more detailed information about managing a Scrum team, see [Scrum in an Agile team](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md).
 
-* **[!UICONTROL Kanban]:** Teams move work in the Kanban view across predetermined statuses. Default statuses are: backlog, in-process, and done. For more detailed information about managing a Kanban team, see [Kanban in an agile team](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
+* **[!UICONTROL Kanban]:** Teams move work in the Kanban view across predetermined statuses. Default statuses are: backlog, in-process, and done. For more detailed information about managing a Kanban team, see [Kanban in an Agile team](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
 
 ## Access requirements
 
@@ -38,8 +38,8 @@ Any user in the organization can see the agile team and view all agile component
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Standard</p>
-   <p>Plan to create a new agile team</p>
-  <p>Work or higher to convert a team to an agile team</p> </td> 
+   <p>Plan to create a new Agile team</p>
+  <p>Work or higher to convert a team to an Agile team</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,42 +48,42 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Decide on an agile methodology
+## Decide on an Agile methodology
 
-You can use either a Scrum or Kanban agile methodology for your agile team. Each methodology provides various benefits. The way your agile team works determines the agile methodology you choose to use.
+You can use either a Scrum or Kanban Agile methodology for your Agile team. Each methodology provides various benefits. The way your Agile team works determines the Agile methodology you choose to use.
 
-Both Scrum and Kanban agile methodologies in [!DNL Workfront] allow you to move stories across a story board to indicate a status change and progress of the story.
+Both Scrum and Kanban Agile methodologies in [!DNL Workfront] allow you to move stories across a story board to indicate a status change and progress of the story.
 
-Scrum and Kanban agile methodologies in [!DNL Workfront] differ in the following ways:
+Scrum and Kanban Agile methodologies in [!DNL Workfront] differ in the following ways:
 
 ### Benefits of using Kanban in [!DNL Workfront]
 
-The [!DNL Kanban] agile methodology in [!DNL Workfront] enables you to more easily move stories across an agile story board while limiting the amount of work in progress. There are no start and end dates when using the [!DNL Kanban] agile methodology.
+The [!DNL Kanban] Agile methodology in [!DNL Workfront] enables you to more easily move stories across an Agile story board while limiting the amount of work in progress. There are no start and end dates when using the [!DNL Kanban] Agile methodology.
 
 The following functionality supports this methodology:
 
-* Display the backlog on the [!DNL Kanban] agile story board.
+* Display the backlog on the [!DNL Kanban] Agile story board.
    For more information, see [Add the backlog to the [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
 
-* Configure items on the backlog to be automatically added to the [!UICONTROL Kanban] agile story board when other items are moved to a status that equates with Complete.
+* Configure items on the backlog to be automatically added to the [!UICONTROL Kanban] Agile story board when other items are moved to a status that equates with Complete.
    For more information, see the section [Configure stories to be automatically added from the backlog](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) in the article [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-* Configure a Work In Progress (WIP) limit to be displayed on the [!UICONTROL Kanban] agile story board.
+* Configure a Work In Progress (WIP) limit to be displayed on the [!UICONTROL Kanban] Agile story board.
    For more information, see [Manage the work in progress (WIP) limit on the Kanban board](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 ### Benefits of using Scrum in [!DNL Workfront]
 
-The Scrum agile methodology in [!DNL Workfront] enables you to add a set of stories to an agile iteration and create a story board for that iteration. The iteration is based on the start and end dates that you define.
+The Scrum Agile methodology in [!DNL Workfront] enables you to add a set of stories to an Agile iteration and create a story board for that iteration. The iteration is based on the start and end dates that you define.
 
 The following functionality supports this methodology:
 
 * Include issues on the [!UICONTROL Scrum] story board
-* Include issues on the backlog of an agile team
+* Include issues on the backlog of an Agile team
 * Subtasks can be displayed on the [!UICONTROL Scrum] story board
 * View a burndown chart to see progress against stories during the iteration
    For more information, see [Agile burndown chart overview](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
-## Create an agile team
+## Create an Agile team
 
 {{step1-to-team}}
 
@@ -101,11 +101,11 @@ The following functionality supports this methodology:
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Team Name]</strong> </td> 
-      <td>Type a name for the new agile team.</td> 
+      <td>Type a name for the new Agile team.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL This is an Agile Team]</strong> </td> 
-      <td>Select this option to configure this new team to be an agile team.</td> 
+      <td>Select this option to configure this new team to be an Agile team.</td> 
      </tr> 
 
       <tr> 
@@ -120,7 +120,7 @@ The following functionality supports this methodology:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Team Members]</strong> </td> 
-      <td>Begin typing the name of a user to be on the team, then select the name when it appears in the drop-down list.<br>Repeat this process to add multiple users to the team.<br>Because users can be on more than one team, they can be on both agile and non-agile teams.</td> 
+      <td>Begin typing the name of a user to be on the team, then select the name when it appears in the drop-down list.<br>Repeat this process to add multiple users to the team.<br>Because users can be on more than one team, they can be on both Agile and non-Agile teams.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong> </td> 
@@ -137,15 +137,15 @@ The following functionality supports this methodology:
    * [Configure [!UICONTROL Kanban]](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
    * [Configure [!UICONTROL Scrum]](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
 
-## Convert an existing team into an agile team
+## Convert an existing team into an Agile team
 
-You can convert an existing team to be an agile team:
+You can convert an existing team to be an Agile team:
 
 {{step1-to-team}}
 
 1. Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
-1. Select the team that you want to convert to an agile team.
+1. Select the team that you want to convert to an Agile team.
 1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.
 
    Only team members with a [!UICONTROL Standard], [!UICONTROL Plan], or [!UICONTROL Work] license see this option.
@@ -153,7 +153,7 @@ You can convert an existing team to be an agile team:
 
 1. In the **[!UICONTROL Agile]** section, select **[!UICONTROL This is an Agile Team]**.
 
-1. In the **[!UICONTROL Methodology]** section, select whether the team will be using a **[!UICONTROL Scrum]** or **[!UICONTROL Kanban]** agile methodology.
+1. In the **[!UICONTROL Methodology]** section, select whether the team will be using a **[!UICONTROL Scrum]** or **[!UICONTROL Kanban]** Agile methodology.
 
 1. Click **Save Changes**.
 

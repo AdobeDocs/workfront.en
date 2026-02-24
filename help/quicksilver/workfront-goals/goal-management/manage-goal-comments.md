@@ -132,8 +132,10 @@ You can add comments to all goals that you can view in Adobe Workfront Goals.
 
 You can add comments to goals in the Updates section of a goal's page.
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** icon ![Main menu lines](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Goals**. 
+{{step1-to-goals}}
+
 This opens the goal list. 
+
 1. Locate the goal you want to add comments to, then click its name to open the goal page. 
 1. Click  **Updates** in the left panel. 
 

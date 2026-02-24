@@ -29,17 +29,17 @@ This option applies only to Scrum teams and not to Kanban teams.
 
 For more information, see [Configure Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-## Changes to agile view on projects
+## Changes to Agile view on projects
 
 >[!NOTE]
 >
 >This feature was released to the Preview environment on September 16, 2021.
 
-As part of the 21.3 release, we made improvements to the agile card header and story boards (see [Agile card header and story board updates](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). These updates applied to iterations as well as to the agile view on projects.
+As part of the 21.3 release, we made improvements to the Agile card header and story boards (see [Agile card header and story board updates](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). These updates applied to iterations as well as to the Agile view on projects.
 
-With the 21.4 release, we are reverting these enhancements for the agile view on projects. No changes are being made to agile iterations.
+With the 21.4 release, we are reverting these enhancements for the Agile view on projects. No changes are being made to Agile iterations.
 
-Following are the changes that are being reverted regarding the agile view on projects:
+Following are the changes that are being reverted regarding the Agile view on projects:
 
 * The story cards and board columns have adjustable widths.
 * Columns do not have background shading.

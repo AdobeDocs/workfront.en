@@ -17,7 +17,7 @@ When you disable the connection between [!DNL Workfront] and a document provider
 
 ## Access requirements 
 
-+++ Expand to view access requirements for the functionality in this article.
++++Expand to view access requirements for the functionality in this article.
 
 <table>
   <tr>
@@ -43,6 +43,8 @@ When you disable the connection between [!DNL Workfront] and a document provider
 </table>
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Disable cloud provider integrations
 

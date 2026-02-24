@@ -4,16 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: access,model,funnel,diagram,levels,permissions
 navigation-topic: access-levels
-title: Functionality Available for Each Object Type for New Access Levels
+title: Functionality Available for Each Object Type
 description: The following tables lists the functionality available for each object type in the various access levels.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
 ---
-# Functionality available for each object type for new access levels
+# Functionality available for each object type
 
 {{highlighted-preview}}
+
+>[!NOTE]
+>
+>The information in this article refers to the current access levels. For information about the legacy access levels, see [Access levels overview](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). 
 
 The following tables lists the functionality available for each object type in the various access levels.
 
@@ -21,8 +25,8 @@ It also indicates which actions Workfront administrators can disable or enable u
 
 >[!NOTE]
 >
->* This article describes functionality available to access levels in the new Workfront plan model. To see functionality available in the current plan model, see [Functionality available for each object type for various access levels](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* For a list of functionality available to the different plans in the new plan model, see [Adobe Workfront Pricing and Packaging](https://business.adobe.com/products/workfront/pricing.html).
+>* This article describes functionality available to access levels in the new Workfront package model. To see functionality available in the current package model, see [Functionality available for each object type for various access levels](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+>* For a list of functionality available to the different packages in the latest model, see [Adobe Workfront Pricing and Packaging](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projects
 
@@ -43,7 +47,7 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Add tasks                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Give updates/comments        | ✓        | ✓      | ✓      | &nbsp;        |
 | Change status                | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Log hours                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
+| Log hours                    | ✓        | ✓      | &nbsp;      | &nbsp;        |
 | Edit assignments             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Manage a baseline            | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Manage risks                 | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
@@ -115,7 +119,7 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Convert an issue to a project | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Convert an issue to a to task | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Accept assignments            | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Make assignments              | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
+| Make assignments              | ✓        | ✓ | ✓     | &nbsp;        |
 | Add updates and comments      | ✓        | ✓      | ✓           | &nbsp;        |
 
 {style="table-layout:auto"}

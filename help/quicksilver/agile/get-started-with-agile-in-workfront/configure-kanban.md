@@ -2,7 +2,7 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Configure Kanban
-description: You can configure the following options for Kanban agile teams during or after the team is created.
+description: You can configure the following options for Kanban Agile teams during or after the team is created.
 author: Jenny
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
@@ -11,16 +11,16 @@ exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 
 <!--Audited: 12/2023-->
 
-You can create an agile team in [!DNL Adobe Workfront] as described in [Create an agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). While creating an agile team you can choose the methodology that the team uses to complete their work. You can choose from the following options:
+You can create an Agile team in [!DNL Adobe Workfront] as described in [Create an Agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). While creating an Agile team you can choose the methodology that the team uses to complete their work. You can choose from the following options:
 
 * Scrum
 * Kanban
 
-This article describes how to configure the settings for a Kanban team. After you create an agile team and choose the Kanban methodology, you can refer to this article to update the following settings:
+This article describes how to configure the settings for a Kanban team. After you create an Agile team and choose the Kanban methodology, you can refer to this article to update the following settings:
 
 * Whether stories are estimated in points or hours
-* The status columns on the agile story board
-* Additional fields to display on story cards on the agile story board
+* The status columns on the Agile story board
+* Additional fields to display on story cards on the Agile story board
 * The work in progress (WIP) limit
 * How to automatically add stories from the backlog
 * How long cards stay on the Kanban board
@@ -64,12 +64,12 @@ For more detail about the information in this table, see [Access requirements in
 
 You can configure stories to be estimated either using points or hours.
 
-To configure how stories are estimated for your agile team:
+To configure how stories are estimated for your Agile team:
 
 {{step1-to-team}}
 
 1. Click the **[!UICONTROL Switch Teams]** icon ![](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search box.
-1. Select the agile team that you want to manage.
+1. Select the Agile team that you want to manage.
 1. Click the **[!UICONTROL More]** menu ![](assets/more-menu.png) , then select **[!UICONTROL Edit]**.
 
    ![Edit team](assets/edit-team-settings-350x205.png)
@@ -80,17 +80,17 @@ To configure how stories are estimated for your agile team:
 
 1. Click **[!UICONTROL Save Changes]**.
 
-## Configure status columns on the agile story board
+## Configure status columns on the Agile story board
 
-You can define the statuses that exist on the story board for the agile team. These are the only statuses that display on the story board.
+You can define the statuses that exist on the story board for the Agile team. These are the only statuses that display on the story board.
 
-To define the statuses that are available for the story board associated with the agile team:
+To define the statuses that are available for the story board associated with the Agile team:
 
 {{step1-to-team}}
 
 1. Click the **[!UICONTROL Switch Teams]** icon ![Switch Teams icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
-1. Select the agile team that you want to manage.
+1. Select the Agile team that you want to manage.
 1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.
 
    ![Edit team](assets/edit-team-settings-350x205.png)
@@ -112,7 +112,7 @@ To define the statuses that are available for the story board associated with th
 
 1. Click **[!UICONTROL Save Changes]**.
 
-## Configure additional fields to display on story cards on the agile story board
+## Configure additional fields to display on story cards on the Agile story board
 
 When you add fields to story cards, fields are view-only and display only when the field is populated.
 
@@ -132,13 +132,13 @@ You can display additional data (including custom data) on story cards. You migh
 >
 >If you use a custom field on a story card, it cannot contain a period (or dot) in the name.
 
-To configure story cards that are assigned to the agile team to display additional fields:
+To configure story cards that are assigned to the Agile team to display additional fields:
 
 {{step1-to-team}}
 
 1. Click the **[!UICONTROL Switch Teams]** icon ![Switch Teams icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
-1. Select the agile team that you want to manage.
+1. Select the Agile team that you want to manage.
 1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.
    
    ![Edit team](assets/edit-team-settings-350x205.png)
@@ -155,7 +155,7 @@ To configure story cards that are assigned to the agile team to display addition
 
 When you define the WIP limit of a Kanban team, you can control the number of items the team is currently working on by limiting the number of tasks that can appear in the [!UICONTROL New] or the [!UICONTROL In Progress] column on the [!UICONTROL Kanban] board.
 
-After you configure the WIP limit for a Kanban team, you can view the WIP limit and update it from the [!UICONTROL Kanban] agile story board, as described in [Manage the work in progress (WIP) limit on the [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
+After you configure the WIP limit for a Kanban team, you can view the WIP limit and update it from the [!UICONTROL Kanban] Agile story board, as described in [Manage the work in progress (WIP) limit on the [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 To limit WIP for your Kanban team:
 
@@ -170,8 +170,8 @@ To limit WIP for your Kanban team:
 
 1. In the **[!UICONTROL Agile]** section, in the **[!UICONTROL Methodology]** section, ensure Kanban is selected.
 
-1. In the **[!UICONTROL Story Board]** section, in the **[!UICONTROL WIP Limit]** field, specify the maximum number of items allowed in each column of the [!UICONTROL Kanban] agile story board. You can set a different limit for each column. The maximum limit you can set for each column is 100.
-   When set, the WIP limit displays a warning message on the [!UICONTROL Kanban] agile story board any time the limit is exceeded for any column on the story board. This warning message is displayed only the first time the WIP limit is exceeded. This warning message does not display on any columns that have a status that equates with [!UICONTROL Complete].
+1. In the **[!UICONTROL Story Board]** section, in the **[!UICONTROL WIP Limit]** field, specify the maximum number of items allowed in each column of the [!UICONTROL Kanban] Agile story board. You can set a different limit for each column. The maximum limit you can set for each column is 100.
+   When set, the WIP limit displays a warning message on the [!UICONTROL Kanban] Agile story board any time the limit is exceeded for any column on the story board. This warning message is displayed only the first time the WIP limit is exceeded. This warning message does not display on any columns that have a status that equates with [!UICONTROL Complete].
    The WIP limit is simply a visual warning and does not restrict your team from having more items in a single column than the limit you set.
 
    ![WIP limit](assets/wip-limit-350x193.png)

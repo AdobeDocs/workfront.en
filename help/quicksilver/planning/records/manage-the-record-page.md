@@ -10,10 +10,9 @@ exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 
 # Manage the record page layout
 
-<!--
 <span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -136,9 +135,9 @@ For more information about Workfront access requirements, see [Access requiremen
  </tbody>
 </table>-->
 
-## Considerations about editing record pages
+## Considerations about working with record pages
 
-* By default, the details and the preview pages of a record display all the fields associated with the record. 
+* By default, the details page of a record display all the fields associated with the record.  
 
 * You cannot add new fields for a record in the preview or details page. You must add new fields in the table view to display them in the preview and details pages. 
 
@@ -148,10 +147,17 @@ For more information about Workfront access requirements, see [Access requiremen
 
    * Rearranging fields
    * Adding or removing sections
+   * Adding or removing connected records pages
 
 * Display changes that you make in the record preview are immediately visible in the record details page. Changes made in the record page are also visible in the record preview box. 
 
 * Adding a cover image or a thumbnail to a record is not part of the overall layout of the record preview or page. You can add unique cover images or thumbnails to each record. For information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) and [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md). 
+
+* You can add additional pages of the following types to a record's page:
+
+   * Connected records page
+
+      For information, see the section [Add a Connected records page to a record](#add-a-connected-records-page-to-a-record).
 
 ## Add sections to a record preview or page
 
@@ -159,7 +165,7 @@ Consider the following when adding sections to a record page:
 
 * There is no limit to how many sections you can have on a page. 
 * You cannot have an empty section. You must have at least one field in a section. 
-* You can drag and drop fields from one section to another. For more information, see the section [Rearrange fields in the record preview or details page](#rearrange-fields-in-the-record-preview-or-details-page) in this article. 
+* You can drag and drop fields from one section to another. For more information, see the section [Manage fields in the record preview or details page](#manage-fields-in-the-records-details-tab) in this article. 
 * When you remove all the fields from a section, the section is automatically deleted and cannot be recovered. 
 
 To add a section to a record preview or page: 
@@ -180,7 +186,7 @@ To add a section to a record preview or page:
     
     From the table table view, click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) in the first column. 
     
-    The record's preview opens in the view.
+    <span class="preview">The record's preview opens in the view.</span>
 
     ![Details box](assets/details-box.png)  
 
@@ -192,7 +198,7 @@ To add a section to a record preview or page:
 
 1. In the **Details** tab of the record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![Add section icon](assets/add-section-icon.png) to add a section. 
 1. Click inside the section's name and replace **Untitled section** with a name, then click Enter. The fields displayed under the section are automatically part of the new section. 
-1. Start dragging and dropping fields to the new section, as described in the section [Rearrange fields in the record preview or details page](#rearrange-fields-in-the-record-preview-or-details-page) in this article. 
+1. Start dragging and dropping fields to the new section, as described in the section [Manage fields in the record preview or details page](#manage-fields-in-the-records-details-tab) in this article. 
 
 1. (Optional) Hover over the name of a section and click the **More** menu ![More menu](assets/more-menu.png). 
 
@@ -241,7 +247,7 @@ To add a section to a record preview or page:
    * The Workfront object is also removed from the record's connected field from Workfront Planning. 
    * The values for the Workfront lookup fields connected to the Planning record are also deleted.
 
-## Rearrange fields in the record's Details tab
+## Manage fields in the record's Details tab
 
 {{step1-to-planning}}
 
@@ -259,13 +265,34 @@ To add a section to a record preview or page:
     
     From the table table view, click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) in the first column. 
     
-    The record's preview opens in the view.
+    <span class="preview">The record's preview opens in the view.</span>
 
     ![Details box](assets/details-box.png) 
 
+1. <span class="preview">(Optional and conditional) Depending on which fields you want to display in the Details page, do one of the following:</span>
+
+   <div class="preview">
+
+   * Select the **Show all fields** setting to view all fields from the record's table view, including the hidden ones. 
+   * Deselect the **Show all fields** setting to view only fields that are not hidden in the record's table view. This is the default setting
+
+   </div>
+
+   >[!TIP]
+   >
+   ><span class="preview">The **Show all fields** setting is available only in the record's Details preview box. It is not available in the record's Details page.</span>
+
+
+   <!--replace with this when they fix the UI text:
+   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
+   -->
+
+   </div> 
+
 1. (Optional) Click the **Open in new tab** icon ![Open details box in a new tab icon](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
 
-    The **Details** tab of the record opens by default. 
+    The record **Details** page opens in a new tab. 
 
    ![Details page](assets/details-page.png)
 
@@ -283,7 +310,7 @@ To add a section to a record preview or page:
 
 ## Add a Connected records page to a record
 
-You can view information from connected records or objects by adding a tab for a Connected records page to a record. This adds the connected records in a table view to the tab.
+You can view information from connected records or objects by adding a tab for a Connected records page to a record's details area. This adds the connected records in a table or list view to the tab. 
 
 For more information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md). 
 
