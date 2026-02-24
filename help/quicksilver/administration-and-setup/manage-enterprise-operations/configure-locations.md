@@ -27,12 +27,11 @@ Rate cards allow your organization to easily manage billing rates for projects. 
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] package</td> 
-   <td><p>Workflow Ultimate</p></td> 
+   <td>Workflow Ultimate</td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] license</td> 
-   <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL Plan]</p></td>
+   <td>[!UICONTROL Standard]</td>
   </tr> 
   <tr> 
    <td>Access level configurations</td> 

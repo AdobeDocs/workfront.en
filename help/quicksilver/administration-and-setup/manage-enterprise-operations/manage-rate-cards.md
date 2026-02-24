@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: manage-rate-cards
 title: Manage Rate Cards
-description: Rate cards allow you to define multiple billing rates per role, based on location.
+description: A rate card represents the contractual agreement with your client in which hourly rates are defined for the job roles that will complete the work. In a rate card, you can define multiple billing rates per job role, based on attributes.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -13,7 +13,11 @@ exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
 
 {{highlighted-preview-article-level}}
 
-Rate cards allow you to define multiple billing rates per role, based on location. You could have a job role of Designer based in Paris and a second Designer based in New York, each with different billing rates. However, a location is not required for job roles on a rate card. A billing rate for a job role (and possibly location) on a rate card can also include effective dates.
+A rate card represents the contractual agreement with your client in which hourly rates are defined for the job roles that will complete the work. In a rate card, you can define multiple billing rates per job role, based on attributes such as agency, location, or cost center. Your unique rate attributes are configured in the Setup area. For more information, see [Define rate attributes](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+
+For example, you could have a job role of Designer based in Paris for Agency A, another Designer based in Paris for Agency B, and a third Designer based in New York not assigned to an agency, each with different billing rates. However, attributes are not required for job roles on a rate card. The attributes serve as tools to establish more granular rates. A billing rate on a rate card can also be date effective, so that the rate starts and ends on specified dates.
+
+You can also lock rates on a rate card to prevent them from being overridden at the project or task level. Locked rates are the highest in the billing rate hierarchy, except for preserved rates on a project. For more information, see Overview of revenue and cost hierarchy.
 
 ## Access requirements
 
@@ -25,16 +29,19 @@ Rate cards allow you to define multiple billing rates per role, based on locatio
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] package</td> 
-   <td><p>Any</p></td> 
+   <td>Workflow Ultimate</td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] license</td> 
-   <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL Plan]</p></td>
+   <td>[!UICONTROL Standard]</td>
   </tr> 
   <tr> 
    <td>Access level configurations</td> 
-   <td>[!UICONTROL System Administrator]</td> 
+   <td>Edit access to [!UICONTROL Rate Cards]</td> 
+  </tr> 
+  <tr> 
+   <td>Object permissions</td> 
+   <td>To edit a rate card shared with you, you must have Manage permissions to the rate card.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,39 +55,123 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 {{step-1-to-setup}}
 
 1. In the left panel, click [!UICONTROL **Rate cards**].
-1. Click [!UICONTROL **New rate card**], then type a name for the rate card in the [!UICONTROL New rate card] box, to replace "Untitled Rate Card."
-1. (Optional) On the Rate Card Details screen, add a [!UICONTROL **Description**].
-1. (Optional) To attach a custom form to the rate card, click the [!UICONTROL **Add custom form**] field in the upper-right corner and select a custom form from the list that displays.
+1. Click [!UICONTROL **New rate card**], then click [!UICONTROL **Create new rate card**].
+1. Type a name and a description for the rate card in the [!UICONTROL **New rate card**] box.
+
+   The name must be unique.
+
+   ![New rate card dialog](assets/new-rate-card-dialog.png)
+
+1. (Optional) Select a [!UICONTROL **Group**] for the rate card. This is the agency that defines the rate card.
+1. (Optional) Select a [!UICONTROL **Company**] for the rate card. This is the client that the rates are contracted for.
+
+   >[!NOTE]
+   >
+   >The Group and the Company are used not only in the rate card details, but also as filters when attaching a rate card to a project.
+
+1. Click **Create**.
+
+   The Rate Card > Job Roles and Rates screen appears.
+
+1. Click [!UICONTROL **Add job role**].
+1. In the [!UICONTROL **New Billing Rate**] box, select a [!UICONTROL **Job Role**] to define billing rates for.
+
+   ![New Billing Rate dialog](assets/new-job-role-rate-on-rate-card.png)
+
+1. (Optional) Select attributes for the billing rate such as Agency, Location, or Cost Center.
+
+   >[!NOTE]
+   >
+   >These attributes are defined separately and may affect revenue and cost calculations. For more information, see [Define rate attributes](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+
+1. Select a [!UICONTROL **Currency**] for the billing rate.
+1. In the [!UICONTROL **Billing Rate**] field, enter the billing rate for this job role and its attributes.
+1. (Optional) Select [!UICONTROL **Lock rate**] to lock this rate and not allow it to be changed at the project or task level. You can unlock it later if needed.
+1. (Optional) Click [!UICONTROL **Add date effective rate**] to apply effective dates to the billing rate.
+1. (Optional) Click [!UICONTROL **Add date effective rate**] again to add more billing rates with effective dates for this job role and its attributes.
+1. (Conditional) If you are adding more than one billing rate for this job role, enter the following information:
+
+   * [!UICONTROL **Billing Rate**]: The value of the billing rate for the time period.
+   * [!UICONTROL **Start Date**]: The date when the rate begins.
+   * [!UICONTROL **End Date**]: The date when the rate ends.
+
+     The first billing rate is not required to have a start date, and the last billing rate is not required to have an end date. Gaps are permitted between the rate dates, but overlapping dates are not permitted. During a gap, other areas of the billing rate hierarchy are used to determine the billing rate, based on a task's revenue type. For more information, see Overview of revenue and cost hierarchy.
+
+1. Click [!UICONTROL **Save**].
+1. (Optional) To add another billing rate, either for the same job role with different attributes or for a separate job role, click [!UICONTROL **Add job role**].
+
+   The rates for each role are added to the rate card as you create them. The currently effective rate, based on the dates, is indicated with an icon ![Current rate icon](assets/current-rate-icon.png).
+   
+   ![Rate card with rates displayed](assets/rates-on-rate-card.png)
+
+## Edit rate card details and rates
+
+{{step-1-to-setup}}
+
+1. In the left panel, click [!UICONTROL **Rate cards**].
+1. To edit an existing rate card, click the rate card name in the Rate Cards list.
+1. To update the rate card details, click [!UICONTROL **Details**] in the left panel.
+1. (Optional) To attach a custom form to the rate card, click the [!UICONTROL **Add custom form**] field in the upper-right corner of the Details page, and select a custom form from the list that displays.
 
    For more information on attaching a custom form, see [Add a custom form to an object](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-1. Click [!UICONTROL **Job Roles and Rates**] in the left navigation panel.
-1. On the Rate Card Job Roles and Rates screen, click [!UICONTROL **Add job role**].
-1. In the dialog, select a [!UICONTROL **Job Role**] to define billing rates for.
+1. Click [!UICONTROL **Save Changes**] after editing the rate card details.
+1. Click [!UICONTROL **Job Roles and Rates**] in the left panel to edit the billing rates.
+1. To edit a rate, select the check box next to the rate and click [!UICONTROL **Edit**] in the action bar at the bottom of the screen.
 
-   The Default Billing Rate displays the system-level rate for this job role, if one is defined.
+   For more information about the action bar, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
-   ![New Billing Rate dialog](assets/location-rate-for-rate-card.png)
+   >[!NOTE]
+   >
+   >Because each rate is associated with the combination of the role and attributes to create a unique rate, the role and the attributes cannot be changed when you edit a rate.
 
-1. Select a [!UICONTROL **Currency**] for the job role.
-1. (Optional) Select a [!UICONTROL **Location**] for the job role.
-1. In the [!UICONTROL **Billing Rate 1**] field, enter the billing rate for this location. Then, click [!UICONTROL **Save**] to override the billing rate one time.
-   
-   Or
-   
-   Click [!UICONTROL **Add Rate**] to add more location-specific billing rates with effective dates.
+1. To delete a billing rate from the rate card, select the check box next to the rate and click [!UICONTROL **Delete**] on the action bar.
+1. To lock a rate, select the check box next to the rate and click [!UICONTROL **Lock**] on the action bar.
 
-1. (Conditional) If you are adding more than one billing rate for this location, enter the following information:
+   Locked rates cannot be changed at the project or task level. A lock icon appears next to locked rates in the list.
 
-   * **[!UICONTROL Billing Rate 1], 2, etc.:** The value of the billing rate for the time period.
-   * **[!UICONTROL Start Date]:** The date when the rate override begins.
-   * **[!UICONTROL End Date]:** The date when the rate override ends.
+   You can also unlock a locked rate from the action bar.
 
-     Billing Rate 1 will not have a start date and the last billing rate will not have an end date. Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add Billing Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.
+1. To adjust rates by a percentage, follow these steps:
 
+   1. Select all of the rates you want to adjust on the Rate Card > Job Roles and Rates screen.
+
+      You can choose one rate or multiple rates. All will be adjusted by the same percentage.
+
+   1. Click [!UICONTROL **Adjust rates**] on the action bar.
+   1. In the [!UICONTROL **Adjust job role rates**] box, choose whether you want the rate adjustment to happen during the selected time period (the existing effective dates) or a custom date range that you define.
+
+      ![Adjust job role rates box](assets/adjust-job-role-rates-dialog.png)
+
+   1. Enter the adjustment value for the rates.
+
+      This value is applied as a percentage. For example, if you enter 10, the selected rates will increase by 10%.
+
+   1. Click [!UICONTROL **Update rates**].
+   1. Click [!UICONTROL **Update**] on the confirmation message.
+
+      The selected rates are increased by the percentage.
+
+## Push rate changes to projects
+
+When a rate card is attached to a project <!--or a staffing plan-->, the rates on the rate card can still be adjusted. Then, you can optionally push those rates to the projects <!--and staffing plans -->the rate card is attached to. If you do not push the new rates, then the original rates remain on the project<!-- or staffing plan-->.
+
+For information about attaching a rate card to a project, see [Attach a rate card to a project](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
+
+{{step-1-to-setup}}
+
+1. In the left panel, click [!UICONTROL **Rate cards**].
+1. Click the rate card name in the Rate Cards list.
+1. On the Rate Card > Job Roles and Rates screen, verify that the rates are correct and edit any rates as needed.
+1. Click [!UICONTROL **Push changes**].
+1. On the [!UICONTROL **Apply to all projects**]<!--/staffing plans--> dialog, all of the projects <!--and staffing plans -->that use this rate card are selected by default. If you do not want a project <!--or staffing plan -->to apply the rate changes, you must deselect it.
 1. Click [!UICONTROL **Save**].
-1. (Optional) To add another billing rate, either for the same job role in another location or for a separate job role, click [!UICONTROL **Add job role**].
-1. (Optional) To edit a rate card, click the rate card name in the Rate Cards list in Setup. To edit a billing rate, click [!UICONTROL **Job Roles and Rates**] in the left navigation panel of the rate card. Then, select the rate and click the **Edit** icon ![Edit icon](assets/edit-icon.png).
+
+   The new rates are now reflected on the projects <!--and staffing plans -->that use the rate card.
+
+## Import a rate card
+
+See the article [Import rate cards from a template](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md).
 
 ## Copy a rate card
 
@@ -88,7 +179,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. In the left panel, click [!UICONTROL **Rate cards**].
 1. Select the check box next to the rate card in the list and click the **Copy** icon ![Copy icon](assets/copy-icon.png).
-1. Type a name for the rate card in the [!UICONTROL Copy rate card] box, to replace "Untitled Rate Card." Then, click **Save**.
+1. Type a name for the new rate card in the [!UICONTROL **Copy rate card**] box. Then, click [!UICONTROL **Create**].
 
    The new rate card is saved. Edit the rate card details, job roles, and rates as needed.
 
@@ -102,3 +193,21 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >[!NOTE]
    >
    >A rate card attached to a project will be deleted from the project.
+
+## Share a rate card
+
+You can share a rate card with users, job roles, groups, teams, companies, and business profiles.
+
+{{step-1-to-setup}}
+
+1. In the left panel, click [!UICONTROL **Rate cards**].
+1. Select the check box next to one or more rate cards in the list, and click the **Share** icon ![Share icon](assets/share-icon.png).
+1. In the box that displays, under [!UICONTROL **Grant rate card access to**], start typing the name of the entity you want to share the rate card with, then select it from the list of options.
+1. To adjust access, click the advanced options icon next to the permission level you've granted to configure specific permissions on the rate card.
+
+   ![Share rate card](assets/share-rate-card-options.png)
+
+1. Click [!UICONTROL **Save**].
+
+   For more information on sharing, see [Share an object](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+

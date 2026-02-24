@@ -11,6 +11,8 @@ role: Admin
 
 # Define rate attributes
 
+{{highlighted-preview-article-level}}
+
 Rate attributes extend Adobe Workfront's rate card and rates functionality by allowing you to add additional dimensions to rates beyond the job role. This is critical for agencies and enterprises where rates vary not only by job role but also by factors such as agency, location, brand, cost center, or others.
 By combining these attributes, Workfront can automatically select the correct rate for assignments, ensuring financial accuracy and consistency across projects.
 
@@ -98,12 +100,11 @@ When you can create placeholder assignments tied to the correct attribute values
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] package</td> 
-   <td><p>Workflow Ultimate</p></td> 
+   <td>Workflow Ultimate</td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] license</td> 
-   <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL Plan]</p></td>
+   <td><p>[!UICONTROL Standard]</p></td>
   </tr> 
   <tr> 
    <td>Access level configurations</td> 

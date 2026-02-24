@@ -10,6 +10,8 @@ exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
 ---
 # Import rate cards from a template
 
+{{highlighted-preview-article-level}}
+
 You can use a template file to build your rate cards in Excel and import them into Adobe Workfront, instead of adding all of the job roles and rates manually.
 
 To see the example rate cards described in this article, download the [sample file](assets/rate-cards-sample.zip).
@@ -35,13 +37,11 @@ For more information about rate cards, see [Manage rate cards](/help/quicksilver
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] package</td> 
-   <td>Any</td> 
+   <td>Workflow Ultimate</td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] license</td> 
-   <td><p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL Plan]</p>
-   </td> 
+   <td>[!UICONTROL Standard]</td> 
   </tr> 
   <tr> 
    <td>Access level configurations</td> 

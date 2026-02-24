@@ -18,8 +18,7 @@ UPDATE TOC!!!!!!
 
 This section contains the following articles:
 
-Link to overview article
-
+<!--Link to overview article-->
 
 * [Configure locations](/help/quicksilver/administration-and-setup/manage-enterprise-operations/configure-locations.md)
 * [Define rate attributes](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)
