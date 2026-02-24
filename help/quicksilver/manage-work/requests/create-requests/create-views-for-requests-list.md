@@ -1,18 +1,20 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Create or edit views in the Requests area and My Requests widget
+title: Create or edit views in the Requests area
 description: If you are using the new requesting experience, you can create and save views for the Requests area.
 author: Becky
 feature: Work Management
 ---
-# Create or edit views in the Requests area and My Requests widget
+# Create or edit views in the Requests area
+
+<!--
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
-If you are using the new requesting experience, you can create and save views for the Requests area. These views include filters, column arrangements, <span class="preview"> and groupings.</span> 
+-->
 
-You can create and manage view in the Requests area of Workfront <span class="preview"> or in the My Requests widget in Home.</span>
+If you are using the new requesting experience, you can create and save views for the Requests area. These views include filters, and column arrangements. <!--<span class="preview"> and groupings.</span> -->
 
 ## Access requirements
 
@@ -109,8 +111,10 @@ You can edit existing views, including views you have just created.
     >[!TIP]
     >
     >You cannot add any more columns.  
-
+<!--
 1. <Span class="preview">(Optional) Click **Group** and select the column that you want to group by.</span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -119,6 +123,6 @@ You can edit existing views, including views you have just created.
 
 ## Add the view to a layout template.
 
-A Workfront dministrator can add the new view to layout templates.
+A Workfront administrator can add the new view to layout templates.
 
 For instructions, see [Customize Filters, Views, and Groupings using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
