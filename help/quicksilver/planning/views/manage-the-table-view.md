@@ -498,7 +498,9 @@ To add a grouping:
 
     ![Grouping applied in table view](assets/grouping-applied-in-table-view.png)
 
-    
+    <!--For Feb 26, and change indent to the left:
+    1. <span class="preview">(Optional) Choose A-Z or Z-A from the sorting drop-down menu to the right of a selected field. This sorts the groupings in the timeline, accordingly.</span>
+    -->    
 
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
@@ -576,9 +578,13 @@ When you display the table view, you can also view which field another user is e
 
 1. Go to a record type page and open any view.
 1. (Conditional) If there are other users editing the records of the selected type at the same time, their avatars display in the upper-right corner of the view. 
-1. Click the drop-down menu next to the avatars, the select the **Show collaborators** toggle. The toggle is selected by default. 
+1. Click the drop-down menu next to the avatars, the turn on the **Show collaborators** setting. The setting is on by default. 
 
     ![Show collaborators toggle selected](assets/show-collaborators-toggle-selected.png)
+
+    >[!TIP]
+    >
+    >You can select the **Show collaborators** toggle from any view. The field currently edited by others is outlined only in the table view. 
 
 1. (Conditional) Open a table view, and the field which another person is actively editing is highlighted in the color corresponding to the outline of their avatar in the table view. 
 
@@ -586,9 +592,18 @@ When you display the table view, you can also view which field another user is e
 
     ![Real-time indicator table field and avatar connection](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
-    >[!TIP]
-    >
-    >You can select the **Show collaborators** toggle from any view. The field currently edited by others is outlined only in the table view. 
+<!--maybe include a screen shot after release if they update the UI text in this list of users-->
+
+<!--For Feb 26: 
+
+1. <span class="preview">(Optional) Click the triangle in the upper-right corner of the cell that contains the field edited by others. A list of users currently editing the field displays.</span> 
+
+>[!TIP]
+>
+><span class="preview">Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.</span>
+
+-->
+
 
 
 

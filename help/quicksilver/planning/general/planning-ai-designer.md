@@ -131,6 +131,8 @@ You can use either the Planning Designer or the AI Assistant to perform any of t
 
 * Create and configure workspaces 
 
+<!--On March 2: * Edit workspaces-->
+
 * Create record types, including defining and adding global record types to workspaces
 
 * Design fields or formula fields 
@@ -172,7 +174,7 @@ You can create or update objects in Workfront Planning either by using the Plann
 
     ![Design with AI button on the Workspaces page](assets/design-with-ai-button-on-workspaces-page.png)
 
-1. Click **Create with AI**. <!--update this when they change it--> 
+1. Click **Create with AI**. <!--update this when they change it to Generate with AI--> 
 
     The **Planning Designer** window opens. <!--remove the Beta tag here when this removes from Beta-->
 
@@ -219,6 +221,12 @@ You can create or update objects in Workfront Planning either by using the Plann
 1. Click the **Open workspace in new tab icon** ![Open workspace in new tab icon](assets/open-workspace-on-new-tab-icon.png) to open the workspace you're updating in a new tab. 
 1. Click the **Close** icon **X** to close the Planning Designer and open the Workspaces area. 
 1. Open the  workspace you edited using the Planning Designer and make further changes to its objects.
+
+<!-- for March 2 -- replace the last step with this: 
+1. (Optional) To edit a workspace, do one of the following:
+
+    * Open the workspace and manually make changes to it. For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
+    * Click **Edit with AI**. This opens the Planning Designer. Repeat the steps above to use AI and make further changes to the workspace.-->
 
 ## Turn off the Planing Designer for your organization
 
