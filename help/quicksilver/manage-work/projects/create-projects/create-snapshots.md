@@ -8,6 +8,8 @@ feature: Work Management
 ---
 # Create and view project snapshots
 
+{{highlighted-preview-article-level}}
+
 Project managers often need to compare the past data of a project with the current status to make informed decisions and see how their projects have changed over time.
 
 Snapshots in Adobe Workfront give you a way to see these differences between snapshots (taken on a specific date and time) and the project's current data quickly and accurately, helping you to manage projects more effectively and make better decisions. Snapshot comparisons show side-by-side how the project has evolved.
