@@ -9,17 +9,23 @@ exl-id: 6e039b80-e3bf-412c-8c86-8f801f5861e3
 ---
 <!--drafted because Kari Woolf will write something for Field Readiness instead, nothing for ExL, public-facing documentation-->
 
-# Adobe Workfront Planning recommendations for implementation
+# Adobe Workfront Planning implementation recommendations
 
 <!-- this used to be called Adobe WFP best practices, but the best practice piece was replaced by this folder of articles: [Adobe Workfront Planning best practices: article index](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md) -->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront.
+>
+>For a list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md).
+> 
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>
+>For more information, we also recommend consulting the articles in [Adobe Workfront Planning best practices: article index](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
 As a marketing operations leader, you can use Adobe Workfront Planning to organize work across the marketing lifecycle for all your teams. 
 
-This article documents some frequently-asked questions and best practices that we recommend when starting with Workfront Planning. 
-
-For more information, we also recommend consulting the articles in [Adobe Workfront Planning best practices: article index](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md). 
+This article documents some frequently-asked questions and best practices that we recommend when starting with Workfront Planning.  
 
 
 ## Configuration best practices

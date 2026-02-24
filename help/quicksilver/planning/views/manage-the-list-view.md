@@ -87,6 +87,8 @@ For more information about managing list views in Workfront, see [Use enhanced l
 
     The Connected records page displays projects connected to the record in the list view. 
 
+    <!--add new screen shot when they release Row colors/ special formatting for rows-->
+
     ![Projects on connected records page in list view](assets/projects-on-connected-records-page-list-view.png)
 
 1. (Optional) Do one of the following to modify the list view: 
@@ -102,10 +104,12 @@ For more information about managing list views in Workfront, see [Use enhanced l
             
         >[!NOTE]
         >
-        >You must have Manage permissions to a view to be able to edit, share, or delete it.
+        >* You must have Manage permissions to a view to be able to edit, share, or delete it.
         >
-        >You cannot modify System Views. 
+        >* You cannot modify System Views. 
         >
+        <!--* <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+        -->
     1. Click the **Filter** icon ![Filter icon](assets/filter-icon.png) to add a filter to the view. Results are filtered immediately in the list. You cannot save and name filters. Filters are remembered when you access the page in future and they are part of shared views.
     1. Click the **Columns** icon ![Columns icon](assets/columns-icon.png) to select which columns to display or to hide in the view. 
     1. Hover over the name of a column, then click the down-pointing arrow to the left of the column name, then click one of the following:
@@ -117,7 +121,30 @@ For more information about managing list views in Workfront, see [Use enhanced l
     
         You can add only existing fields to the list view. 
         You cannot remove the primary field in the list view which displays in the first column. 
+
+    
+    <!--
+    1. <span class="preview">Click **Row colors** <!-insert icon and edit the name of the icon if they changed it->. The **Format** box opens. <!-change the name of the box when they update it-></span>
+        <span class="preview">Do the following: </span>
+        <div class="preview">
+        1. Define the formatting conditions in the **If** area by clicking **Add condition**, then select a field you want to format by and choose a field value. 
+            >[!TIP]
+            >
+            >Only field visible in the list view are available for conditional formatting.
+        1. (Optional) Click **Add condition** in the If area to add more conditions. 
+        1. Click the **Or** connector between conditions to change to **And**. **Or** is the default connector.  
+        1. In the **Format** area, select a field to indicate which column will be formatted. <!-edit this area, if it changes names???->
+        1. Click on the color circle to expand and choose another color.
+        1. Turn on the **Apply to row** setting to apply the formatting to the entire row that meets the conditions. 
+        1. (Optional) Click **Clear all** to remove all formatting.
+            The formatting is applies immediately.
+        1. Click outside the **Format** box to close it. 
+            This returns you to the list view. There is a blue dot next to the **Row colors** icon to indicate that the view has special formatting applied. <!-might need to edit the icon name and get a screen shot of the icon with the dot and insert it here->
+        </div>
+    -->
+
 1. (Optional) Add a keyword in the search box in the upper-right corner of the list to search for an item. 
+
 
     Items that match your search term are highlighted in the list. 
 1. (Optional) To add more items to the list and automatically connect them to the selected record, do one of the following:

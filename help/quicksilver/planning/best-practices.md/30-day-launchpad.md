@@ -74,6 +74,8 @@ With this team-first architecture you can:
 
 * **Design the hub to support the spoke:** You can focus the global classification workspace specifically on the objects that matter most to your pilot team (their specific Brands or Products). This firms up the collaborative handshake between enterprise governance and team autonomy while keeping the design effort manageable. 
 
+    For information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+
 * **Act as an enabler, not a guardian:** Shift your role from rule-setting to capability-building. Partner with the team to structure their planning environment. 
 
 * **Collaborate on design:** Work directly with your pilot team to define the record types and fields that reflect their real-world needs, not an abstract corporate ideal. 
