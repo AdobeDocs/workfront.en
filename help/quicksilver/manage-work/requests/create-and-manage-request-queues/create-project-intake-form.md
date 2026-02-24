@@ -6,6 +6,8 @@ description: You can use project intake forms to simplify the process of creatin
 author: Becky
 feature: Work Management, Requests
 role: User, Admin
+hide: yes
+hidefromtoc: yes
 ---
 # Create project intake forms
 
