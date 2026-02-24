@@ -22,44 +22,40 @@ When a Project is created using a Project Template to which a workflow is assign
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following:
-
-<table>
-  <tr>
-   <td><strong>Adobe Workfront plan*</strong>
-   </td>
-   <td>Any
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Adobe Workfront licenses*</strong>
-   </td>
-   <td>Request or higher
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Product</strong>
-   </td>
-   <td><p>You must have Experience Manager Assets as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console.</p><p>You must have write access to the repository in Adobe Experience Manager.</p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Access level configurations*</strong>
-   </td>
-   <td>Edit access to Documents
-<p>
-<strong>Note: </strong>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <strong>Create or modify custom access levels</strong>.
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Object permissions</strong>
-   </td>
-   <td>Manage access or higher on the project 
-<p>
-For information on requesting additional access, see <strong>Request access to objects </strong>.
-   </td>
-  </tr>
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p> Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront licenses</td> 
+   <td> 
+   <p>Contributor or higher</p> 
+   <p>Request or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Additional products</td> 
+   <td>You must have Experience Manager as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console.</td> 
+  </tr> 
+   <tr> 
+    <td role="rowheader">Experience Manager Permissions</td> 
+    <td>You must have write access to the folder.</td> 
+   </tr>
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Documents</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View access or higher</p> </td> 
+  </tr> 
+ </tbody> 
 </table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

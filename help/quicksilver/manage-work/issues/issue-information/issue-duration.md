@@ -9,9 +9,11 @@ exl-id: 5a8f7c74-21e4-4e90-bb55-b4ff6e35a751
 ---
 # Issue Duration overview
 
+<!--Audited: 08/2025-->
+
 The Duration of an issue is the number of days between the Planned Start Date and the Planned Completion Date of the issue.
 
-The duration of an issue is automatically calculated by Adobe Workfront and it cannot be manually modified.
+Adobe Workfront automatically calculates the duration of an issue, and it cannot be manually modified.
 
 You can display the Duration of an issue in an issue report or the view of a list of issues.
 

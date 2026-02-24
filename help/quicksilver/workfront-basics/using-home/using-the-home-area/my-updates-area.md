@@ -27,21 +27,18 @@ If you have a license type different than Review, the [!DNL Workfront] or Group 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>New: Contributor or higher</p>
-   Or   
-   <p>Current: [!UICONTROL Request] or higher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
+   <td> <p>Contributor or higher</p>
+   <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configuration</strong></td> 
@@ -54,7 +51,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

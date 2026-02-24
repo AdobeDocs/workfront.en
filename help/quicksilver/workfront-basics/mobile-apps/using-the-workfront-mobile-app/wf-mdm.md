@@ -4,7 +4,7 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront for Mobile Device Management (MDM)
 description: Adobe [!DNL Workfront] has partnered with a few Mobile Device Management (MDM) platforms to provide organizations a more secure and controlled mobile experience. 
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 6f989fb8-5e33-4626-92cf-1d3a629698b0
 ---
@@ -21,17 +21,11 @@ See [!DNL MobileIron]'s help documentation to install the [!DNL Workfront] mobil
 
 For information on configuring [!DNL Workfront] for [!DNL MobileIron], see [Configure [!DNL Adobe Workfront] for [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
 
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Blackberry Dynamics</h2>
--->
+## Intune
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">See Blackberry Dynamics' help documentation to install the Workfront mobile app from their platform:</p>
--->
+The Workfront mobile app is now available in the [!DNL Microsoft Intune] app store. Your Workfront administrator can assign the app to your device through Intune.
 
-<!--
-<ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li>iOS</li>
-<li>Android</li>
-</ul>
--->
+* iOS
+* Android
+
+Your Workfront instance must be on Adobe Identity Management System (IMS).

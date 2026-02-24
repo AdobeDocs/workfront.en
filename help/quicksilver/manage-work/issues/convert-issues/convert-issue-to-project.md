@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: Convert an issue to a project in Adobe Workfront
-description: Convert an issue to a project in Adobe Workfront
+title: Convert an Issue to a Project
+description: If more work needs to be done to complete an issue after the issue is submitted, you can convert the issue to a project in Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 ---
-# Convert an issue to a project in Adobe Workfront
+# Convert an issue to a project
 
-<!--Audited: 01/2024-->
+<!--Audited: 08/2025-->
 
 If more work needs to be done to complete an issue after the issue is submitted, you can convert the issue to a project.
 
-You can convert an issue to a new project or you can convert it to a project using a template. This article describes both ways for converting issues to projects.
+You can convert an issue to a project with our without using a project template. This article describes both ways for converting issues to projects.
 
 >[!IMPORTANT]
 >
@@ -25,7 +25,36 @@ When creating a project from an issue, some of the fields on the project populat
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>Standard</p> 
+    <p>Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Issues, Tasks, and Projects</p> <p>Edit access to Financial Data to update financial information for a projected converted from the issue</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the issue</p> <p>You obtain Manage permissions to the project after you convert the issue</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,10 +80,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
-
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+-->
 
 ## Considerations
 

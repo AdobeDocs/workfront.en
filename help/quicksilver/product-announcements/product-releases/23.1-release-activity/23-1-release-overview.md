@@ -19,13 +19,10 @@ The 23.1 release webinar was held on Tuesday, January 10, 2023. You can [registe
 
 ## Adobe Workfront enhancements
     
-*   [Project and Resource Management enhancements](#project-and-resource-management-enhancements)
-
-*   [Agile enhancements](#agile-enhancements)
-
-*   [Mobile enhancements](#mobile-enhancements)
-
-*   [Other enhancements](#other-enhancements)
+* [Project and Resource Management enhancements](#project-and-resource-management-enhancements)
+* [Agile enhancements](#agile-enhancements)
+* [Mobile enhancements](#mobile-enhancements)
+* [Other enhancements](#other-enhancements)
     
 ### Project and Resource Management enhancements
 
@@ -120,7 +117,7 @@ The 23.1 release webinar was held on Tuesday, January 10, 2023. You can [registe
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Scrum planning for Workfront Boards</a><span style="color: #ff0000;"> Coming soon!</span></p>
-                        <p>The new Scrum planning features in Adobe Workfront Boards offer flexible options to manage your agile processes. Using these tools, you can:
+                        <p>The new Scrum planning features in Adobe Workfront Boards offer flexible options to manage your Agile processes. Using these tools, you can:
                         <ul>
                         <li>Track work in iterations or sprints</li>
                         <li>Use velocity to guide team commitments</li>
@@ -550,6 +547,7 @@ Some list control functionality is moving to the Setup > Interface > Filters/Vie
 We are replacing the [Workfront extension for Illustrator and InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) with updated Creative Cloud plugins. Starting late 2022, this extension will no longer be available to install in the Adobe Exchange.
  
 The functionality in this extension, along with several enhancements, is available in the updated Adobe Workfront for Creative Cloud Plugins:
+
 * [Adobe Workfront for Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * [Adobe Workfront for XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * [Adobe Workfront for design and video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)

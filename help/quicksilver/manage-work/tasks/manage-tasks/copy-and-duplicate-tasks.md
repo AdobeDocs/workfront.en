@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Copy and duplicate tasks
+title: Copy and Duplicate Tasks
 description: You can copy a task from a project to another project, or you can duplicate a task within the same project.
 author: Alina
 feature: Work Management
@@ -15,7 +15,38 @@ You can copy or duplicate one or several tasks or parent tasks at a time.
 
 ## Access requirements
 
-<!-- drafted for P&P:
++++ Expand to view access requirements for the functionality in this article. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p> 
+   <p>Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks and Projects</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a task</p> <p>Contribute or higher permissions to the project</p> 
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,37 +74,7 @@ You can copy or duplicate one or several tasks or parent tasks at a time.
    <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
---> 
-
-You must have the following access to perform the steps in this article:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Work or higher </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a task </p> <p>Contribute or higher permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+</table>-->
 
 ## Considerations for copying tasks
 
@@ -101,9 +102,9 @@ Consider the following when copying a task:
    Go to a task report. 
 
 1. (Conditional) Click **Tasks** in the left panel, if you opened the project that contains the tasks. 
-1. Click the **Plan Mode** icon ![](assets/qs-list-mode-or-save-mode-icon-small.png), and ensure that the **Autosave** option is enabled.
+1. Click the **Plan Mode** icon ![List mode or save mode icon](assets/qs-list-mode-or-save-mode-icon-small.png), and ensure that the **Autosave** option is enabled.
 
-   ![](assets/autosave-icon-on-highlighted-350x202.png)
+   ![Autosave icon on and highlighted](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
@@ -113,9 +114,9 @@ Consider the following when copying a task:
 
    * Click the **More menu** at the top of the task list, then click **Copy to**. 
    * Right click the selected tasks, then click **Copy to**.
-   * When selecting one task, click the **More** menu ![](assets/more-icon-task-list.png) next to the task name in the list, then click **Copy to**.
+   * When selecting one task, click the **More** menu ![More icon on task list](assets/more-icon-task-list.png) next to the task name in the list, then click **Copy to**.
 
-   ![](assets/copy-task-in-list-nwe-350x131.png)
+   ![Copy task in list](assets/copy-task-in-list-nwe-350x131.png)
 
 1. Continue with copying the task, as described in the section [Copy a task at the task level](#copy-a-task-at-the-task-level) starting with Step 4. 
 
@@ -129,9 +130,9 @@ In addition to copying tasks in a list of tasks, you can also copy a task after 
 
 1. Find a task in your Workfront system by searching for it.
 1. Click the name of the task to open it. 
-1. Click the **More** drop-down menu ![](assets/qs-more-menu.png) next to the name of the task, then click **Copy to**.
+1. Click the **More** drop-down menu ![More menu](assets/qs-more-menu.png) next to the name of the task, then click **Copy to**.
 
-   ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
+   ![Task Copy to option at the task level](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
 
    The Copy Task box displays. 
 
@@ -141,7 +142,7 @@ In addition to copying tasks in a list of tasks, you can also copy a task after 
    >
    >This field is dimmed and not editable when selecting to copy multiple tasks in a list. You can hover over the Task Name field and a list of all selected tasks displays.
    >
-   >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
+   >![Copy task in a multiple tasks box](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
 1. Type the name of the **Destination Project** where you want to copy the task in the **Select Destination Project** field. 
 
@@ -156,7 +157,7 @@ In addition to copying tasks in a list of tasks, you can also copy a task after 
 1. (Conditional) Click **request access** to request access to the project, if you don't have access to the selected project.
 1. (Conditional) Continue to copy the task to the selected destination project without requesting access if you have access to add tasks to one of the tasks on the destination project.
 
-   ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
+   ![Copy task request access from project](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
@@ -283,11 +284,11 @@ You can quickly duplicate a task in a task list, if you need an identical task o
 1. Click **Tasks** in the left panel.
 1. Do one of the following:
 
-   * (Conditional) Click the **Plan Mode** icon ![](assets/qs-list-mode-or-save-mode-icon-small.png) and ensure the **Autosave** option is enabled, select the tasks you want to duplicate, then click the **More menu** ![](assets/qs-more-menu-29x11.png) > **Duplicate**.
+   * (Conditional) Click the **Plan Mode** icon ![List mode or save mode small icon](assets/qs-list-mode-or-save-mode-icon-small.png) and ensure the **Autosave** option is enabled, select the tasks you want to duplicate, then click the **More menu** ![More menu](assets/qs-more-menu-29x11.png) > **Duplicate**.
 
-     ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
+     ![Duplicate tasks in list menu item](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (Conditional) Click the **Plan Mode** icon ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Manual save** > **Standard** or **Timeline Planning**, then do the following:
+   * (Conditional) Click the **Plan Mode** icon ![List mode or save mode small icon](assets/qs-list-mode-or-save-mode-icon-small.png) > **Manual save** > **Standard** or **Timeline Planning**, then do the following:
 
       1. Select the task or tasks you want to duplicate, and click **Duplicate**. 
       1. (Optional) Click **Undo** to reverse your changes and not duplicate the tasks.

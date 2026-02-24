@@ -3,16 +3,20 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: Access to Objects and Areas by New Licenses
+title: Access to Objects and Areas by Licenses
 description: The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
 ---
-# Access to objects and areas by new licenses
+# Access to objects and areas by licenses
 
 <!-- Audited: 2/2024 -->
+
+>[!NOTE]
+>
+>The information in this article refers to the current access levels. For information about the legacy access levels, see [Access levels overview](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
 
@@ -34,7 +38,7 @@ The table below tells you the highest level of access (Edit or View) that each o
     <tr>
         <td>Projects</td>
         <td>Edit</td>
-        <td>View</td>
+        <td>Edit**</td>
         <td>View</td>
         <td>No Access</td>
     </tr>
@@ -43,7 +47,7 @@ The table below tells you the highest level of access (Edit or View) that each o
         <td>Edit</td>
         <td>View</td>
         <td>View</td>
-        <td>View</td>
+        <td>No Access</td>
     </tr>
     <tr>
         <td>Issues</td>
@@ -139,6 +143,8 @@ The table below tells you the highest level of access (Edit or View) that each o
 </table>
 
 &#42; Users with a Contributor license can view only reports, dashboards, and calendars that are shared with them.
+
+&#42;&#42; Users with a Light license can only log time at the project level when Edit access is enabled. They cannot create, edit, delete, or share projects. The default access level on Projects for Light users is View.
 
 >[!NOTE]
 >

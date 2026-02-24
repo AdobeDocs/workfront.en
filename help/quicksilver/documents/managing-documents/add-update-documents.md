@@ -17,20 +17,19 @@ You can add or reply to updates on a document to communicate with collaborators 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront licenses*</td> 
-   <td> <p>New: Contributor or higher</p> 
-   <p>Current: Request or higher</p>
+   <td role="rowheader">Adobe Workfront licenses</td> 
+   <td> <p>Contributor or higher</p> 
+   <p>Request or higher</p>
    </td> 
   </tr> 
   <tr> 
@@ -45,7 +44,7 @@ You must have the following:
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

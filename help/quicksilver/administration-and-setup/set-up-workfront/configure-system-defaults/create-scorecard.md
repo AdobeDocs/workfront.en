@@ -4,14 +4,14 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Create a Scorecard
 description: A scorecard measures how well a project aligns with the previously established criteria of a portfolio. A scorecard often reflects an organization's mission, values, and strategic goals.Portfolio managers usually define the scorecard questions and answers to ensure they are meaningful and valuable during project prioritization and selection. An [!DNL Adobe Workfront] administrator builds the scorecards based on the recommendations from portfolio managers.
-author: Lisa, Alina
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
 ---
 # Create a scorecard
 
-<!--Audited: 05/2025-->
+<!--Audited: 11/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -41,26 +41,21 @@ You can create a scorecard in the following way:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>New: Ultimate</p>
-   <p>Current: [!UICONTROL Business] or higher</p> 
-   </td> 
+   <td role="rowheader">Workfront package</td> 
+   <td><p>Workfront or Workflow Prime or higher</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td><p>New: [!UICONTROL Standard]</p>
-   <p>Current: [!UICONTROL Plan]</p>
-   </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p> <p>Plan</p></td> 
   </tr> 
-   <tr> 
-   <td role="rowheader"><p>Access level</p></td> 
-   <td><p>System Administrator</p>
-   </td> 
-  </tr>
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td>You must be a Workfront administrator. </td> 
+  </tr> 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

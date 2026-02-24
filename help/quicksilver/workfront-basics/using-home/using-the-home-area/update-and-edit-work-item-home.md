@@ -3,7 +3,7 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Update or Edit a Work Item in the Home Area
 description: You can view and add updates to a work item within the [!UICONTROL Home] area in Adobe Workfront. You can also edit other data related to the work item if you have access to edit it.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
 ---
@@ -21,8 +21,6 @@ You can view and add updates to a work item within the [!UICONTROL Home] area in
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,15 +28,13 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>New: Standard</p>
-   Or
-   
-   <p>Current: [!UICONTROL Work] or higher</p> </td> 
+   <td> <p>Standard</p>
+   <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configuration</strong></td> 
@@ -51,7 +47,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -113,7 +113,7 @@ The process of managing resources in Workfront includes the following stages:
   For more information about resource planning and assigning work, see the following sections:
 
    * [Resource Planning: article index](../../resource-mgmt/resource-planning/resource-planning-overview.md)
-   * [Adobe Workfront Scenario Planner](../../scenario-planner/scenario-planning.md)
+   * [[!DNL Adobe Workfront Scenario Planner]: article index](../../scenario-planner/scenario-planning.md)
    * [The Workload Balancer: article index](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
 <!--

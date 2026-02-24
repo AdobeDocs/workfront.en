@@ -11,13 +11,7 @@ exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
 ---
 # Customize the Details view using a layout template
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
-
 As an Adobe Workfront administrator, you can use a layout template to determine what information appears when a user clicks the Details icon ![Details icon](assets/project-details-icon.png) in the left panel while viewing a task, issue, document, program, or portfolio.
-
-<!--
-or billing record
--->
 
 You can also change the order of the information in which this information appears. For example, for all tasks that your users see, you can move Custom Forms information to the top of the Details view for all tasks that your users see.
 
@@ -63,42 +57,36 @@ For information about layout templates for groups, see [Create and modify a grou
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article: 
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td><p>New: Standard</p>
-  <p> Current: Plan</p>
-   </td> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>To perform these steps at the system level, you need the System Administrator access level.
-To perform them for a group, you must be a manager of that group.</p> </td> 
+   <td>Access level configurations</td> 
+   <td> <p>To perform these steps at the system level, you need the System Administrator access level.</p>
+        <p>To perform them for a group, you must be a manager of that group.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
 ## Customize what users see in the Details view
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Click the down arrow ![Down arrow](assets/dropdown-arrow-12x12.png) under **Customize what users see**, then click **Project**, **Task**, **Issue**, **Program**, or **Portfolio.**
-<!--
-, or billing record
--->
-
+1. Click the down arrow ![Down arrow](assets/dropdown-arrow-12x12.png) under **Customize what users see**, then click **Project**, **Task**, **Issue**, **Program**, or **Portfolio.**<!--, or billing record-->
 1. In the **Details** section, do any of the following to customize what users see in the Details view:
 
    * Drag any section headers ![Move icon](assets/move-icon---dots.png) to change their order.
@@ -107,15 +95,12 @@ To perform them for a group, you must be a manager of that group.</p> </td>
      If you hide all fields in one of these sections, the entire section is hidden.
 
      All of the fields are enabled by default. You can select or clear the **Select all** check box in an area to display or hide all of the fields in that area.
+  
+     ![Details view in layout template](assets/layout-template-details-view-updated-save-buttons.png)
 
-   ![Details view in layout template](assets/layout-template-details-view.png)
-
-1. Continue customizing the layout template.
+1. Continue customizing the layout template. You can click **Apply** at any time to save your progress.
 
    Or
 
-   If you are finished customizing, click **Save**.
+   If you are finished customizing, click **Save and Close**.
 
-   >[!TIP]
-   >
-   >You can click Save at any time to save your progress, then continue to modify the template later.

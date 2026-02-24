@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Overview of saving concurrent changes within a task list
+title: Overview of Saving Concurrent Changes within a Task List
 description: When you edit tasks in a list, you can use separate saving settings for indicating whether you want your changes saved automatically on manually when editing tasks in a list.
 author: Alina
 feature: Work Management

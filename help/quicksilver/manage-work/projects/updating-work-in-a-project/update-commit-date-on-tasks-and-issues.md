@@ -31,6 +31,47 @@ You can manually update the Commit date of a task or an issue that you are assig
  <col> 
  <tbody> 
   <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+   <ul>
+   <li><p>Standard for tasks</p> </li>
+   <li><p>Contributor or higher for issues</p></li>
+   </ul>
+   <p>Or</p>
+<ul>
+   <li><p>Work or higher for tasks</p></li> 
+   <li><p>Request or higher for issues</p></li>
+</ul>
+
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks and Issues</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions on the task or issue</p>
+   <p> You must be assigned to the task or issue to update the commit date </p>
+    </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -61,11 +102,7 @@ You can manually update the Commit date of a task or an issue that you are assig
     </td> 
   </tr> 
  </tbody> 
-</table>
-
-* For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 ## Prerequisites
 
@@ -100,13 +137,13 @@ Updating the Commit Date is identical for tasks and issues.
 
 1. (Conditional and optional) If your Workfront or group administrator added the Commit Date to your task or issue header, click the **Commit Date** field in the header, then select a date from the calendar. If the Commit Date is not in the header, proceed with the following steps. 
 
-   ![](assets/commit-date-task-header.png)
+   ![Commit date in task header](assets/commit-date-task-header.png)
 
 1. Click **Task Details** or **Issue Details** in the left panel. 
 1. Click **Overview** to expand it.
 1. Update the **Commit Date** field.
 
-   ![](assets/task-commit-date-edit-highlighted-details-page.png)
+   ![Task commit date edit highlighted in the details page](assets/task-commit-date-edit-highlighted-details-page.png)
 
 1. Click **Save Changes**.
 
@@ -116,15 +153,15 @@ Updating the Commit Date is identical for tasks and issues.
 
      Instead, the Commit Date and the Projected Completion Date of the task or issue become the same.
 
-     ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
+     ![Task projected completion date in details highlighted](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
    * The Project Owner is notified in a Workfront in-app notification that you have suggested a new Commit Date for the task or issue. 
    * The Project Owner is notified in the Updates section that you have suggested a new Commit Date and they can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested. 
 
-      ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
+      ![Project owner notification in update stream that commit date affects the project timeline](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
       
 
-     <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+     <!--![Project owner notification in update stream that commit date affects the project timeline](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
      For information about the notifications and updates that are triggered by this change, see the section "Notifications and updates triggered by changing the Commit Date" in the article [Commit Date overview](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 

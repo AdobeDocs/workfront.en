@@ -10,6 +10,18 @@ exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
 ---
 # Get started with results and activities in Adobe Workfront Goals
 
+<!--Audited for P& P only: 10/2025-->
+
+>[!NOTE]
+>
+>Your company might choose to continue using Adobe Workfront Goals if they bought this package in the past. You must speak with your account representative for details. 
+>
+>Adobe Workfront Goals is no longer available for purchase.
+>
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
+
 >[!IMPORTANT]
 >
 >Your organization must have the following to use the functionality described in this article:
@@ -25,7 +37,7 @@ exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
 
 When you create a goal, the goal has a status of Draft. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
@@ -127,7 +139,7 @@ The following table displays similarities and differences between results, activ
    <td><b><p>Feature</p></b></td> 
    <td><b><p>Results</p></b></td> 
    <td><b><p>Activities</p></b></td> 
-   <td> <p><strong>Projects</strong> </p> <p>&nbsp;</p> </td> 
+   <td> <p><strong>Projects</strong> </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td><span style="font-weight: normal;">You can customize the object name in the Workfront interface</span> </td> 
@@ -149,8 +161,8 @@ The following table displays similarities and differences between results, activ
   </tr> 
   <tr> 
    <td>You can associate one of them with multiple goals.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
    <td>✔</td> 
   </tr> 
   <tr> 
@@ -163,13 +175,13 @@ The following table displays similarities and differences between results, activ
    <td>They must be manually updated in Workfront Goals</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>They are due to complete on the goal's End Date</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>They can be assigned only to a user, and not to a team, group, or the company. </td> 
@@ -183,7 +195,7 @@ The following table displays similarities and differences between results, activ
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> 
+  <tr> ****
    <td>They offer a range of values between the start and end values that illustrates how close you are to achieving them. The closeness to the ending value calculates a Progress value for your goal. </td> 
    <td>✔</td> 
    <td>✔</td> 

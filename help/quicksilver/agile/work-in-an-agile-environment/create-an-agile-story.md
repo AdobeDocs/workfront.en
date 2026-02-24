@@ -2,14 +2,14 @@
 product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: Create an Agile Story
-description: You can create an agile story on an iteration in various ways. After you create an agile story, you can add subtasks to the story.
-author: Lisa
+description: You can create an Agile story on an iteration in various ways. After you create an Agile story, you can add subtasks to the story.
+author: Jenny
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
 ---
-# Create an agile story
+# Create an Agile story
 
-You can create an agile story on an iteration in various ways. After you create an agile story, you can add subtasks to the story.
+You can create an Agile story on an iteration in various ways. After you create an Agile story, you can add subtasks to the story.
 
 When you add a story or subtask in an iteration, the Duration Type is set to [!UICONTROL Simple] and the Task Constraint is set to Fixed Dates, with the dates locked within the iteration. You cannot modify the Duration Type or Task Constraint in an iteration. Also, the task duration must be greater than 0 minutes.
 
@@ -19,8 +19,6 @@ For information about how to manage the story after it is added to the iteration
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -28,18 +26,17 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>New: [!UICONTROL Standard]</p> 
-   or
-   <p>Current: [!UICONTROL Work] or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p> 
+   <p>Work or higher</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td>[!UICONTROL Manage] access to the project the story is on </td> 
+   <td>Manage access to the project the story is on </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,9 +45,9 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Create an agile story in an iteration
+## Create an Agile story in an iteration
 
-1. Go to the agile iteration where you want to create the story:
+1. Go to the Agile iteration where you want to create the story:
 
    {{step1-to-team}}
 
@@ -82,7 +79,7 @@ For more detail about the information in this table, see [Access requirements in
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimate] (points)</strong></td>
-      <td>Specify the estimate for the story. If your agile team is configured to estimate stories in points, then by default 1 point equals 8 hours. Estimates are added as [!UICONTROL Planned Hours] on the story.<br>For example, if you estimate a story as 3 points, the default behavior is to add 24 [!UICONTROL Planned Hours] to the story.<br>If a story contains subtasks, remember that the combined estimates for all subtasks determines the estimate of the parent story. For more information, see <a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">Add stories to an existing iteration</a>.</td>
+      <td>Specify the estimate for the story. If your Agile team is configured to estimate stories in points, then by default 1 point equals 8 hours. Estimates are added as [!UICONTROL Planned Hours] on the story.<br>For example, if you estimate a story as 3 points, the default behavior is to add 24 [!UICONTROL Planned Hours] to the story.<br>If a story contains subtasks, remember that the combined estimates for all subtasks determines the estimate of the parent story. For more information, see <a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">Add stories to an existing iteration</a>.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Parent Project]</strong></td>
@@ -101,17 +98,17 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click **[!UICONTROL Save Story]**.
 
-## Create an agile story in the backlog
+## Create an Agile story in the backlog
 
-You can create an agile story from the agile backlog, as described in the section [Create new stories on the backlog](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) in the article [[!UICONTROL Manage] the agile backlog](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+You can create an Agile story from the Agile backlog, as described in the section [Create new stories on the backlog](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) in the article [[!UICONTROL Manage] the Agile backlog](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
-## Add a task or issue as an agile story
+## Add a task or issue as an Agile story
 
 You can add an existing task or issue as a story to an iteration. For more information, see [Add stories to an existing iteration](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) or [Add stories and issues from the [!UICONTROL Scrum] board](../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
 
-## Create subtasks to an agile story
+## Create subtasks to an Agile story
 
-You can create a subtask to an agile story by using either of the following methods:
+You can create a subtask to an Agile story by using either of the following methods:
 
 * By using the **[!UICONTROL Subtasks]** tab, as described in [Create subtasks](../../manage-work/tasks/create-tasks/create-subtasks.md#creating-subtasks) in [Create subtasks](../../manage-work/tasks/create-tasks/create-subtasks.md).
 

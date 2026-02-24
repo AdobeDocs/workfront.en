@@ -11,51 +11,47 @@ exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 
 <!--remove Preview and Production references-->
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 110/2025 -->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Projects represent a large amount of work that needs to be done in Adobe Workfront.
 
 ## Access requirements
 
-<!--drafted for P&P - replace table below with this:
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront license*</td> 
-   <td> <p>Current license: Standard </p>
-   Or
-   <p>Legacy license: Plan </p>
-    </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+        <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>When you create a project you automatically receive Manage permissions to the project </p> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>When you create a project, you automatically receive Manage permissions to the project.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
--->
-+++ Expand to view access requirements for the functionality in this article.
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-You must have the following access to perform the steps in this article:
++++
 
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -79,11 +75,8 @@ You must have the following access to perform the steps in this article:
    <td> <p>When you create a project, you automatically receive Manage permissions to the project.</p> </td> 
   </tr> 
  </tbody> 
-</table>
+</table>-->
 
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
 
 ## Ways to create projects
 
@@ -110,16 +103,11 @@ You can create a project in Workfront using one of the following methods:
 
 * Publish an initiative from a scenario in the Adobe Workfront Scenario Planner. 
 
-  The Scenario Planner requires one of the following:
-
-    * An additional license for the current Workfront license structure. 
-    * An Ultimate license for the new Workfront License structure. 
+  For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md). 
   
-  For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md). For information about creating projects from publishing initiatives, see  [Update or create projects by publishing initiatives in the Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
+  For information about creating projects from publishing initiatives, see  [Update or create projects by publishing initiatives in the Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
 
-* Add projects as you connect them from a record type in Workfront Planning. In the Production environment, you can create only projects without templates from Workfront Planning. <span class="preview">You can create projects using a template in the Preview environment.</span>
-
-  You must have a new Workfront license and an additional Workfront Planning license for Workfront Planning. 
+* Add projects as you connect them from a record type in Workfront Planning. 
 
   For information about access to Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
 
@@ -173,10 +161,9 @@ Consider the following:
 >
 >If you are creating a project using a template, we recommend that you also see the article [Create a project using a template](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
 
-
 1. Do one of the following:
 
-   * Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner. Click **Projects**, then expand **New Project**.
+   * Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, or the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, if available, then click **Projects** and expand **New Project**.
    * Go to a portfolio, then expand **New Project**.
    * Go to a program, then expand **New Project**.
    * If you are a group administrator, you can also create a project in the Projects section of a group you manage. For more information, see [Create and modify a group's projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
@@ -198,13 +185,21 @@ Consider the following:
 
    For more information about adding tasks to a project, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Edit the project details by clicking the **More** menu and then **Edit** ![Edit icon](assets/qs-edit-icon.png) next to the name of the project.
+1. Edit the project details by clicking the **More** menu to the right of the project name, in the header, then **Edit** ![Edit icon](assets/qs-edit-icon.png) next to the name of the project.
 
-   The **Edit Project** dialog box opens.
+   The **Edit Project** box opens.
+
+1. Add information about the project. 
 
    For more information about editing a project, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. (Optional) After configuring the project settings and adding the tasks, you can change the status of the project to **Current**.
+    >[!TIP]
+    >
+    >The Status of the project should be Planning, or another status that is not Current. This allows you to make changes to the project without generating notifications to the project participants. 
+
+1. Click **Save** to save your changes.
+
+1. (Optional) After configuring the project settings and adding the tasks, you can change the status of the project to **Current** in the project header.
 
    This indicates that the project is now ready to start and users assigned to the tasks can now start working on them.
 

@@ -17,7 +17,7 @@ A Workfront customer who is, as defined in HIPAA, a Business Associate and/or th
 | **Security Setting** | **What Is It?** | **Requirement** |
 |----------------------|------------------|------------------|
 | Minimum password strength for agreements | What is the minimum strength for agreement passwords? | No less than 8 characters |
-| Minimum password strength for user passwords | What is the minimum strength for users' passwords? | Characters from three of the following categories:<br>* Uppercase letters (Latin alphabet)<br>* Lowercase letters (Latin alphabet)<br>* Base 10 digits<br>* Non-alphanumeric characters |
+| Minimum password strength for user passwords | What is the minimum strength for users' passwords? | Characters from three of the following categories:<br> Uppercase letters (Latin alphabet)<br> Lowercase letters (Latin alphabet)<br> Base 10 digits<br> Non-alphanumeric characters |
 | Password Duration | How long should passwords be allowed to remain unchanged? | Passwords should be changed at least every 90 days |
 | Password History | How many past passwords should be remembered and disallowed? | Not less than 5 |
 

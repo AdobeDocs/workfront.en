@@ -17,32 +17,37 @@ You can integrate [!DNL JumpSeat] with [!DNL Workfront] to create custom, in-pro
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Enterprise] </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td>[!UICONTROL Plan]</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Product</td> 
-   <td>You must have an active [!DNL JumpSeat] plan.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p> You must be a [!DNL Workfront] administrator. For information on [!DNL Workfront] administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront package
+   </td>
+    <p>Workflow Ultimate</p>
+   <td> <p>Prime or Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Adobe Workfront licenses
+   </td>
+   <td>Standard
+   <p>Plan</p>
+   </td>
+  </tr>
+  </tr>
+  <tr>
+   <td>Product
+   </td>
+   <td>You must have an active [!DNL JumpSeat] plan.
+   </td>
+  </tr>
+   <tr>
+   <td>Access level configurations
+   </td>
+   <td>You must be a [!DNL Workfront] administrator.
+   </td>
+  </tr>
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

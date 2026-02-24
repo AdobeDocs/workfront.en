@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Workfront administrators can deactivate or reactivate a user.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
@@ -43,38 +43,38 @@ You can reactivate a user at any time.
 >* Deactivating a user in Workfront removes the user's licenses to both Workfront and digital proofing. Additionally, the user can no longer be assigned work. When a user is deactivated, that user's Workfront license and proofing license become available to be used by another user. All other information in the deactivated user's profile remains unchanged.
 >
 >* Deactivating a user in Workfront does not remove the user from the Workfront Product Profile in the Adobe Admin Console. For more information, see [Delete users](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>
+>* If a user is in an Admin Console User Group(s), and the product profile has been added to one or more of those User Groups, deactivating the user from Workfront will not actually remove them from the product. The user must be removed from the User Group(s) in Admin Console.
 
 
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p><p>Or</p><p>Current: Plan</p></td> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Access level configurations</td> 
    <td> <p>You must have one of the following:</p> 
     <ul> 
      <li> <p>The System Administrator access level. </li> 
-     <li> <p>Users setting in your access level configured to Edit access, with Create and at least one of the two User Admin options enabled under Fine-tune your settings <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Of these two options, if User Admin (Group Users) is enabled, you must be a group administrator of a group where the user is a member.</p> </li> 
+     <li> <p><b>Users</b> setting in your access level configured to <b>Edit</b> access, with <b>Create</b> and at least one of the two <b>User Admin</b> options enabled under <b>Fine-tune your settings</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Of these two options, if <b>User Admin (Group Users)</b> is enabled, you must be a group administrator of a group where the user is a member.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -82,7 +82,7 @@ For more detail about the information in this table, see [Access requirements in
 
 Before you deactivate a Workfront administrator or Standard or Plan license user, you must associate their objects and activities with another user. 
 
-For more information, see [About deactivating Workfront administrators and Plan license users](#about-deactivating-workfront-administrators-and-plan-license-users) in this article.
+For more information, see [About deactivating Workfront administrators and Standard or Plan license users](#about-deactivating-workfront-administrators-and-plan-license-users) in this article.
 
 ## Deactivate a user
 
@@ -121,9 +121,9 @@ To schedule a user for deactivation:
 
 1. Click the **Edit** icon ![Edit icon](assets/edit-icon.png).
 1. In the left panel of the **Edit User** box, click **Resource Planning**.
-1. Select the **Schedule Deactivation** checkbox.  
+1. Click **Set deactivation date**.
 
-1. Select the date and the time for the **Scheduled Deactivation Date**.
+1. Select the date and the time for the **Deactivation Date**.
 
    >[!NOTE]
    >
@@ -131,7 +131,7 @@ To schedule a user for deactivation:
    >* If you select a time for the current day that has passed, Workfront will schedule the deactivation for the following day at 12:00 AM. 
    >* The time selected matches the computer timezone of the user who is scheduling the deactivation.
 
-1. Click **Save Changes**.
+1. Click **Save**.
 
 The user is deactivated on the selected day sometime after the selected time. If you selected multiple users to deactivate in bulk, all selected users are deactivated on the selected day sometime after the selected time.
 

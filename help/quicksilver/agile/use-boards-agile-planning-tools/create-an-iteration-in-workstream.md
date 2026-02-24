@@ -3,8 +3,8 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
 title: Create an Iteration in a Workstream
-description: An iteration is a set amount of time reserved for completing work. Some agile teams may refer to an iteration as a sprint.
-author: Lisa
+description: An iteration is a set amount of time reserved for completing work. Some Agile teams may refer to an iteration as a sprint.
+author: Jenny
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
 ---
@@ -14,30 +14,27 @@ exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
 >
 >Workstreams are only available to a specific group of customers.
 
-An iteration is a set amount of time reserved for completing work. Some agile teams may refer to an iteration as a sprint.
+An iteration is a set amount of time reserved for completing work. Some Agile teams may refer to an iteration as a sprint.
 
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-   <p>New: [!UICONTROL Contributor] or higher</p> 
-   <p>or</p>
-   <p>Current: [!UICONTROL Request] or higher</p>
+   <p>Contributor or higher</p> 
+   <p>Request or higher</p>
    </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 

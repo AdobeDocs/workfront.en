@@ -19,8 +19,38 @@ For information about the permissions you can give users when sharing a template
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Templates</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a template</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -42,9 +72,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>Manage permissions to a template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+</table>-->
 
 ## Share a template {#share-a-template}
 
@@ -56,14 +84,14 @@ You can share your templates with other users using Template Sharing. This actio
 
 To share a template:
 
-1. From the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png), click **Templates**.  
+{{step1-to-templates}}
 
 1. Do one of the following:  
-   Click the name of a template to open it, then click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png), then **Template Sharing**.
+   Click the name of a template to open it, then click the **More** menu ![More icon](assets/more-icon.png), then **Template Sharing**.
 
    Or
 
-   Select a template from the list, click the Share icon ![](assets/share-icon.png), then click**Template.**
+   Select a template from the list, click the Share icon ![Share template](assets/share-icon.png), then click**Template.**
 
    >[!TIP]
    >
@@ -83,7 +111,7 @@ To share a template:
 
    * **Manage**: Users with these permissions are able to edit or delete the template.
 
-     For information about the Advanced Settings ![](assets/gear-icon-in-access-levels.png) available here, see the section [Advanced Settings for template sharing](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) in the article [Share a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     For information about the Advanced Settings ![Gear icon](assets/gear-icon-in-access-levels.png) available here, see the section [Advanced Settings for template sharing](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) in the article [Share a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 1. Click **Save**.
 
@@ -94,7 +122,7 @@ With template Project Sharing, you can define who has permissions on the project
 To share future projects created from a template with users:
 
 1. Do one of the following:  
-   Click the name of a template to open it, then click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png), then **Template Sharing**.
+   Click the name of a template to open it, then click the **More** menu ![More icon](assets/more-icon.png), then **Template Sharing**.
 
    ![Share project from template](assets/project-sharing-on-template-nwe-2022-350x172.png)
 
@@ -111,9 +139,9 @@ To share future projects created from a template with users:
 1. From the drop-down menu for each entity, select from the following:
 
    * **No access**: You can specify which users will not have any access to the template.  
-     This option is available only when bulk sharing projects from templates.&nbsp;
+     This option is available only when bulk sharing projects from templates. 
    * **View**: Users with these permissions can view projects created from the template.
-   * **Contribute**: Users with these permissions can contribute to projects created from the template&nbsp;
+   * **Contribute**: Users with these permissions can contribute to projects created from the template 
    * **Manage**: Users with these permissions can manage or delete projects created from this template.
 
 1. (Optional) Click the **Options** icon to make the projects available system-wide.

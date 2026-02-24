@@ -13,10 +13,12 @@ You must uninstall the Workfront with Adobe Experience Manager legacy connector 
 
 ## Unsubscribe from Workfront 
 
- 1. Open Adobe Experience Manger.
- 1. In Experience Manager, go to **Tools** > **Cloud Services** > **Workfront Integration Configuration**. 
- 1. Select your configuration (global-workfront by default), and click **Properties**. 
-    ![unsubscribe from workfront](assets/unsubscribe-from-workfront.png)
+1. Open Adobe Experience Manger.
+1. In Experience Manager, go to **Tools** > **Cloud Services** > **Workfront Integration Configuration**. 
+1. Select your configuration (global-workfront by default), and click **Properties**. 
+
+   ![unsubscribe from workfront](assets/unsubscribe-from-workfront.png)
+
 1. Disable Document, Comment, and Metadata Sync. The label should day Disabled. 
  This will remove the subscriptions in Workfront and allow the user to create a new subscription using the same url defined in Day CQ Link Externalizer. 
 
@@ -25,7 +27,8 @@ You must uninstall the Workfront with Adobe Experience Manager legacy connector 
 After removing the subscription, it is now safe to delete the Workfront Integration Configuration.
 
 1. Open the configuration, and select **Delete**.
-    ![delete configuration](assets/delete-wf-configuration.png)
+
+   ![delete configuration](assets/delete-wf-configuration.png)
 
 ## Remove mapping
 

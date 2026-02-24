@@ -31,7 +31,7 @@ For more information about review and approval in GenStudio for Performance Mark
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> 
    <p>Any</p> 
    </td> 
@@ -39,11 +39,11 @@ For more information about review and approval in GenStudio for Performance Mark
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-   <p>Current: Standard </p> 
-   <p>Legacy: Plan </p></td> 
+   <p>Standard </p> 
+   <p>Plan </p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Additional products</td> 
    <td> 
    <p> You must have GenStudio for Performance Marketing, and you must be added to the product as a user in the Admin Console. </p> </td> 
   </tr> 
@@ -54,16 +54,16 @@ For more information about review and approval in GenStudio for Performance Mark
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
  +++
 
 
 ## Integration requirements 
 
-* Workfront and GenStudio for Performance Marketing must be deployed to the same IMS Org.
+* Workfront and GenStudio for Performance Marketing must be deployed to the same Identity Management system (IMS) organization.
 
-* Users can belong to only one Workfront instance within the IMS org.
+* Users can belong to only one Workfront instance within the IMS organization.
 
 * The Workfront instance must be enabled on the Adobe Unified Experience.
 

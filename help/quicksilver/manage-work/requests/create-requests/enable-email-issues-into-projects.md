@@ -3,7 +3,7 @@ product-area: requests
 navigation-topic: create-requests
 title: Enable Users to Email an Issue into a Request Queue Project
 description: You can configure a project to allow users to add issues to the project via email.
-author: Alina, Courtney
+author: Becky
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
 ---
@@ -12,7 +12,7 @@ exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
 <!-- Audited: 4/2025 -->
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
 You can configure a project to allow users to add issues to the project via email. You can only allow issues to be emailed into a project if the project is designated as a Request Queue. For more information about creating a Request Queue project, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
@@ -21,31 +21,32 @@ You can configure a project to allow users to add issues to the project via emai
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: Contributor or higher</p>
-   Or
-   <p>Current: Request or higher</p>
+   <td> <p>Contributor or higher</p>
+   <p>Request or higher</p>
     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Issues</p>  </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
+  </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -87,7 +88,7 @@ The following conditions are required to configure a project to allow users to a
    >
    >* Because this email address must be unique, it may not be available in the future if deleted.
    <!--
-   >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
+   >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in Workfront. Only emails created from this email address are added as issues.
    -->
 
 1. (Optional) Select the **Forward all issues that fail to submit via email**, then enter a forwarding email address in the box below.
@@ -109,6 +110,11 @@ When a Workfront user sends an email to Workfront, the following things happen:
 * The Subject line of the email becomes the Issue Name.
 * The body of the email becomes the Description of the Issue.
 * If there are any documents attached to the email, those documents are attached to the issue in Workfront.
+
+   >[!NOTE]
+   >
+   > MSG files are not supported and won't be attached to the issue in Workfront.
+   
 * The user who is sending the email becomes the Primary Contact of the new issue in Workfront.
 * The body text of the email cannot exceed 4,000 characters.
 * Email attachments cannot exceed 7 MB total.

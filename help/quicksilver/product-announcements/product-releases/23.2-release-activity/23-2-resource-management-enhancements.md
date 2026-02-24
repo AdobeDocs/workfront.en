@@ -30,9 +30,9 @@ The field's default is 1, indicating that a user spends their entire FTE on actu
 As a result of this update, Workfront calculates the user's availability using the formulas below, depending on your selection in the Resource Management preferences area:
 
 * Default Schedule:
-* User Capacity = [(Schedule Hours – Schedule Exceptions) * FTE – Time off] * Work Time
+* User Capacity = [(Schedule Hours – Schedule Exceptions) `*` FTE – Time off] `*` Work Time
 * User's Schedule:
-* User Capacity = (Schedule Hours – Schedule Exceptions - Time off) * Work Time.
+* User Capacity = (Schedule Hours – Schedule Exceptions - Time off) `*` Work Time.
 
 For more information, see [Configure [!UICONTROL Resource Management] preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 

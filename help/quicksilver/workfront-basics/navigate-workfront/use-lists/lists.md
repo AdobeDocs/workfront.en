@@ -20,3 +20,4 @@ This section contains the following articles about lists:
 * [Inline edit items in a list in [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
 * [Modify how a list displays](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
 * [Export a list](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md)
+* [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)

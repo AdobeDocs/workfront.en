@@ -3,7 +3,7 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Left navigation in [!DNL Adobe Workfront]
 description: The left navigation panel in [!DNL Workfront] makes it easy to navigate through the system.
-author: Courtney
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
 ---
@@ -24,7 +24,7 @@ Most areas and objects in WF use a simple navigation panel on the left side of t
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,17 +33,22 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] package</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
+   <td>
+   <p>Contributor or higher</p>
+   <p>Request or higher</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Default sections in the left navigation panel 
 
@@ -68,7 +73,7 @@ The left panel is available for the following objects:
 
 >[!IMPORTANT]
 >
->If the left panel displays only one section by default—such as **[!UICONTROL All Projects]** in the **[!UICONTROL Projects]** area—a [!DNL Workfront] administrator must add at least one custom section to this area when building a Layout Template and assign you to that template before the left panel displays in that area.\
+>If the left panel displays only one section by default—such as **[!UICONTROL All Projects]** in the **[!UICONTROL Projects]** area—a [!DNL Workfront] administrator must add at least one dashboard to this area when building a Layout Template and assign you to that template before the left panel displays in that area.
 >For information about how a [!DNL Workfront] administrator customizes the left panel in a layout template, see [Customize the left panel using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 The left panel is available for the following areas:
@@ -157,8 +162,8 @@ The following sections display in the left panel for the **[!UICONTROL Projects]
         <td>Displays all projects that you have access to view. Use the [!UICONTROL Filter] drop-down menu to change what projects you want to view</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Custom sections]</strong></td>
-        <td>You can view all the custom sections that your [!DNL Workfront] administrator has added to the left panel for the [!UICONTROL Projects] area in your Layout Template. Custom sections have names that have been customized for your environment.</td>
+        <td><strong>[!UICONTROL Dashboards]</strong></td>
+        <td>You can view all the dashboards that your [!DNL Workfront] administrator has added to the left panel for the [!UICONTROL Projects] area in your Layout Template. These dashboards have names that have been customized for your environment.</td>
     </tr>
 </table>
 
@@ -233,14 +238,16 @@ Finding and editing information in the left panel is similar for these objects. 
 
 To learn what sections are available for specific areas, see [[!UICONTROL Default sections] in the left navigation panel](#default-sections-in-the-left-navigation-panel).
 
-1. Click the **[!UICONTROL Main menu]** icon ![](assets/main-menu-icon-16x12.png), then click the name of an object to access it.
+{{step1-click-main-menu}}
+
+1. Click the name of an object to access it.
 
    The object page displays.
 
 1. (Conditional) If you selected an area that contains a list of objects—such as **[!UICONTROL Projects]** or **[!UICONTROL Portfolios]**—you must do the following to access the left panel navigation:
 
    1. Click an object in the list.
-   1. (Optional) In the left panel navigation, you can select another object—such as **[!UICONTROL Tasks]** or **[!UICONTROL Issues]** within a project—in the left panel to access a list of objects, then click the name of the specific object.\
+   1. (Optional) In the left panel navigation, you can select another object—such as **[!UICONTROL Tasks]** or **[!UICONTROL Issues]** within a project—in the left panel to access a list of objects, then click the name of the specific object.
 
       The object page displays.
 
@@ -248,12 +255,12 @@ To learn what sections are available for specific areas, see [[!UICONTROL Defaul
 
    You must have permissions to edit the object before you can edit the information.
 
-   ![Left panel sections](assets/NWE-left-navigation-panel.png)
+   ![Left panel sections](assets/left-navigation-panel.png)
 
-1. (Optional) To add a dashboard quick link, click **[!UICONTROL Add Dashboard]** at the bottom of the left panel, then do the following:
+1. (Optional) To add a dashboard quick link, click **[!UICONTROL Add a Dashboard]** at the bottom of the left panel, then do the following:
 
    1. Type a name for the dashboard in the **[!UICONTROL Quick link name]** field.
-   1. Start typing the name of an existing dashboard in the **[!UICONTROL Choose a Dashboard]** field, then click the dashboard when it displays in the list.
+   1. Start typing the name of an existing dashboard in the **[!UICONTROL Choose a dashboard]** field, then click the dashboard when it displays in the list.
 
       >[!TIP]
       >
@@ -261,9 +268,9 @@ To learn what sections are available for specific areas, see [[!UICONTROL Defaul
 
 1. (Optional) To remove a dashboard quick link, hover over the dashboard in the left navigation, then click the **Remove** icon ![Remove icon](assets/remove-dashboard-from-left.png) when it appears.
 
-1. (Optional) To change the order of a section in the left panel, click the **[!UICONTROL Drag]** icon ![](assets/drag-icon.png) to the right of a section and drag it up or down.
+1. (Optional) To change the order of a section in the left panel, click the **[!UICONTROL Drag]** icon ![](assets/drag-icon.png) next to a section and drag it up or down.
 
-   ![Drag a section](assets/drag-section-right.png)
+   ![Drag a section](assets/drag-section.png)
 
 1. (Optional) To close the left panel, click the **[!UICONTROL Collapse]** icon ![](assets/left-panel-collapse-icon.png).
 

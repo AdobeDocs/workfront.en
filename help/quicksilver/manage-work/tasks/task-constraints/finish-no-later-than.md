@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Task Constraint overview: Finish No Later Than'
+title: 'Task Constraint Overview: Finish No Later Than'
 description: Finish No Later Than (FNLT) is a Task Constraint that schedules a task to complete before the date you specify.
 author: Alina
 feature: Work Management
@@ -34,7 +34,7 @@ Consider the following when using the Finish No Later Than (FNLT) constraint for
 
   For information about moving tasks, see [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md). For information about copying tasks, see [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-For information about how to update the Task&nbsp;Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+For information about how to update the Task Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

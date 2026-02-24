@@ -27,7 +27,7 @@ This table describes some features that differ between the two experiences.
 | Navigation includes a top level navigation area for [!DNL Adobe] products, [!DNL Adobe] notifications, help, and your user profile, in addition to the [!DNL Workfront] navigation bar | Navigation includes the [!DNL Workfront] navigation bar only |
 | Help is accessible via the [!UICONTROL Main Menu] and top navigation area | Help is accessible via the [!UICONTROL Main Menu] and [!DNL Workfront] navigation bar |
 | The proofing viewer opens in a new tab | The proofing viewer opens inside Workfront |
-| URL used to access Workfront is `experience.adobe.com` | URL used to access Workfront is `(CompanyName).my.workfront.com` |
+| URL used to access Workfront is `experience.adobe.com` | URL used to access Workfront is `(CompanyName).my.workfront.adobe.com` |
 | Date format (such as MM/DD/YYYY) is based on Unified Experience language settings. If the user has not updated their language settings, `en-US` settings are used. | Date format (such as MM/DD/YYYY) is based on browser preferences |
 
 {style="table-layout:auto"}
@@ -53,11 +53,7 @@ For information about the [!DNL Admin Console], review these articles:
 
 ### What do I as a customer need to do to facilitate the migration?
 
-Existing customers will be contacted to schedule migrations. The migration team support colleagues will walk customers through the process, advise on [!DNL Admin Console] setup, and provide links to documentation needed to make the move as simple and hassle-free as possible.
-
-* [[!DNL Adobe Workfront] Support overview](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
-* [[!DNL Workfront Admin Console] information](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
-* [[!DNL Adobe Business Platform] and [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
+Existing customers will be contacted to schedule migrations. The migration team support colleagues will walk customers through the process, advise on [!DNL Admin Console] setup, and provide links to documentation needed to make the move as simple and hassle-free as possible. Review the [[!DNL Adobe Business Platform] and [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq) for more information.
 
 ### How are you handling [!DNL Adobe Admin Console] for companies that already have this enabled for federated IDs differently than [!DNL Workfront] SSO is set up?
 

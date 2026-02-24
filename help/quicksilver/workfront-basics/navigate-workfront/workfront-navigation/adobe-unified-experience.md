@@ -24,25 +24,23 @@ If your organization is on the Adobe Unified Experience, the URL that you use to
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront package</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>New: [!UICONTROL Contributor] or higher</p> 
-   <p>Current: [!UICONTROL Request] or higher</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
+   <td> <p>Contributor or higher</p> 
+   <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -104,6 +102,9 @@ This menu allows you to:
 
 * Choose **[!UICONTROL Dark theme]** formatting for [!DNL Adobe Experience Cloud].
 * Set **[!UICONTROL Preferences]** for [!DNL Adobe Experience Cloud], including primary and secondary language preferences.
+   >[!NOTE]
+   >
+   >Your date settings are based on your primary language settings. For example, selecting **English (United States)** displays dates in MM/DD/YYYY format, while selecting **English (United Kingdom)** dispays dates in DD/MM/YYYY format.
 * Access your **[!UICONTROL [!DNL Workfront] Profile]**. Once you are on the profile, click the **[!UICONTROL More]** menu ![More menu](assets/more-icon.png) and select **[!UICONTROL Edit]**. For more information about the profile, see [Configure My Settings](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Sign out]** of Adobe Experience Cloud.
 

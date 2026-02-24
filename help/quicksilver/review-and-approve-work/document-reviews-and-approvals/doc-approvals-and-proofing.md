@@ -92,8 +92,6 @@ To add a new version:
 
 The document does not move to an approved status until all assigned approvers choose "approved".
 
-If any one approver chooses "needs work", the status of the document immediately changes to Needs work. The document needs to be revised and uploaded as a new version with a new approval workflow. 
-
 To review and approve a document:
 
 1. Go to your review email notification, and click to **Go to review**.
@@ -106,7 +104,7 @@ To review and approve a document:
 
     * **Approve**: The document does not need changes and is ready for use.
     * **Approve with changes**: The document needs changes and is ready for use once they are made. Additional approval is not required. 
-    * **Needs work**: The document needs changes and is not ready for use. Once the specified changes are made, the document must be uploaded as a new version and go through another round of approvals. For more information on uploading a new version, see [ Create a new version as needed](#create-a-new-version-as-needed) in this article.
+    * **Needs work**: The document needs changes and is not ready for use. Once the specified changes are made, the document must be uploaded as a new version and go through another round of approvals. For more information on uploading a new version, see [Create a new version as needed](#create-a-new-version-as-needed) in this article.
 
 Once you make a decision, the document owner is notified via email.
 

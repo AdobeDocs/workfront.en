@@ -13,7 +13,58 @@ When you share a goal you give Manage permissions to a goal to someone who did n
 
 ## Access requirements
 
-You must have the follwoing: 
+>[!NOTE]
+>
+>Your company might choose to continue using Adobe Workfront Goals if they bought this package in the past. You must speak with your account representative for details. 
+>
+>Adobe Workfront Goals is no longer available for purchase. 
+
++++ Expand to view access requirements for the functionality in this article. 
+
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+  <td> <p>Adobe Workfront package</p> </td> 
+   <td> 
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
+  </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront license</td>
+ <td>
+ <p>Contributor or higher</p>
+<p>Request or higher</p></td>
+ </tr>
+  <tr>
+ <td role="rowheader">Access level configuration</td>
+ <td> <p>Edit access to Goals</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <div>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  </div> </td>
+ </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including System Administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+</tbody>
+</table> 
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+
+<!--Old:
 
 <table style="table-layout:auto">
 <col>
@@ -68,9 +119,7 @@ You must have the follwoing:
 </td>
   </tr>
 </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+</table>-->
 
 ## Considerations about sharing goals
 
@@ -111,10 +160,7 @@ You must have the follwoing:
 
 ## Share a goal
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+{{step1-to-goals}}
 
    The Goal List displays. 
 
@@ -193,32 +239,32 @@ The following table lists the permissions that you can grant when sharing a goal
   <tr> 
    <td>Edit results or activities</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Add results or activities for the goal</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Associate a project as an activity to the goal**</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Delete goal</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Delete results or activities</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>Disconnect projects from the goal</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -231,4 +277,4 @@ For information about project access level, see [Grant access to projects](../..
 
 For information about project permissions, see [Share a project in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-&nbsp;
+ 

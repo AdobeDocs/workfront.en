@@ -5,7 +5,7 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Change the Password for an Auto-provisioned User
 description: We recommend that you change a new user's user name to their Workfront mail address, then allow them to change their password.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
@@ -37,32 +37,27 @@ Because GUID user names can be difficult to use, we recommend you first change a
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article: 
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p>
-       <p>Or</p>
-       <p>Current: Plan</p></td>
-  </tr> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Access level configurations</td> 
+   <td>System Administrator</td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

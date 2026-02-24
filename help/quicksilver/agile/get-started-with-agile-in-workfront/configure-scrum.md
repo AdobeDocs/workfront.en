@@ -2,24 +2,24 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Configure Scrum
-description: You can configure the following options for Scrum agile teams during or after the team is created.
-author: Lisa
+description: You can configure the following options for Scrum Agile teams during or after the team is created.
+author: Jenny
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
 ---
 # Configure [!UICONTROL Scrum]
 
-You can create an agile team in [!DNL Adobe Workfront] as described in [Create an agile team](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). While creating an agile team you can choose the methodology that the team uses to complete their work. You can choose from the following options:
+You can create an Agile team in [!DNL Adobe Workfront] as described in [Create an Agile team](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). While creating an Agile team you can choose the methodology that the team uses to complete their work. You can choose from the following options:
 
 * Scrum
 * Kanban
 
-This article describes how to configure the settings for a Scrum team. After you create an agile team and choose the Scrum methodology, you can refer to this article to update the following settings:
+This article describes how to configure the settings for a Scrum team. After you create an Agile team and choose the Scrum methodology, you can refer to this article to update the following settings:
 
 * Whether stories are estimated in points or hours
-* The status columns on the agile story board  for iterations and projects
-* Additional fields to display on story cards on the agile story board
-* How color indicators are used for stories on the agile story board
+* The status columns on the Agile story board  for iterations and projects
+* Additional fields to display on story cards on the Agile story board
+* How color indicators are used for stories on the Agile story board
 * How dates are applied when adding work items to an iteration
 
 For information about configuring a Kanban team, see [Configure Kanban](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md). 
@@ -28,8 +28,6 @@ For information about configuring a Kanban team, see [Configure Kanban](/help/qu
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -37,15 +35,14 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>New: [!UICONTROL Standard]</p> 
-   or
-   <p>Current: [!UICONTROL Work] or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p> 
+   <p>Work or higher</p> </td> 
   </tr>
 
   <tr> 
@@ -68,12 +65,12 @@ For more detail about the information in this table, see [Access requirements in
 
 You can configure stories to be estimated either using points or hours.
 
-To configure how stories are estimated for your agile team:
+To configure how stories are estimated for your Agile team:
 
 {{step1-to-team}}
 
 1. Click the **[!UICONTROL Switch team]** icon, then either select a new team from the drop-down menu or search for a team in the search bar.
-1. Select the agile team that you want to manage.
+1. Select the Agile team that you want to manage.
 1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.
 
    Only team members with a [!UICONTROL Standard], [!UICONTROL Plan], or [!UICONTROL Work] license see this option.
@@ -85,24 +82,24 @@ To configure how stories are estimated for your agile team:
 
 1. Click **[!UICONTROL Save changes]**.
 
-## Configure status columns on the agile story board
+## Configure status columns on the Agile story board
 
-You can configure which columns are displayed on the agile story board for all iterations assigned to your team, or for a given project.
+You can configure which columns are displayed on the Agile story board for all iterations assigned to your team, or for a given project.
 
 * [Configure status columns for iterations](#configure-status-columns-for-iterations)
 * [Configure status columns for projects](#configure-status-columns-for-projects)
 
 ### Configure status columns for iterations {#configure-status-columns-for-iterations}
 
-You can define the statuses that exist on the story board for the agile team. These are the only statuses that display on the story board.
+You can define the statuses that exist on the story board for the Agile team. These are the only statuses that display on the story board.
 
-To define the statuses that are available for the story board associated with the agile team:
+To define the statuses that are available for the story board associated with the Agile team:
 
 {{step1-to-team}}
 
 1. Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
-1. Select the agile team that you want to manage.
+1. Select the Agile team that you want to manage.
 1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.
 
    Only team members with either a [!UICONTROL Plan] or [!UICONTROL Work] license see this option.
@@ -134,7 +131,7 @@ To define the statuses that are available for the story board associated with th
 
 For information about how to configure status columns for a project, see the section [Create or customize an [!UICONTROL Agile] view](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) in the article [Create or edit views in [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-## Configure additional fields to display on story cards on the agile story board
+## Configure additional fields to display on story cards on the Agile story board
 
 When you add fields to story cards, fields are view-only and display-only when the field is populated.
 
@@ -154,13 +151,13 @@ You can display additional data (including custom data) on story cards. You migh
 >
 >If you use a custom field on a story card, it cannot contain a period/dot in the name.
 
-To configure story cards that are assigned to the agile team to display additional fields:
+To configure story cards that are assigned to the Agile team to display additional fields:
 
 {{step1-to-team}}
 
 1. Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
-1. Select the agile team that you want to manage.
+1. Select the Agile team that you want to manage.
 1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.
    Only team members with either a [!UICONTROL Plan] or [!UICONTROL Work] license see this option.
 
@@ -174,17 +171,17 @@ To configure story cards that are assigned to the agile team to display addition
 1. Type the **[!UICONTROL Display name]** for the field to show on the story or issue card.
 1. Click **[!UICONTROL Save changes]**.
 
-## Configure how color indicators are used for stories on the agile story board
+## Configure how color indicators are used for stories on the Agile story board
 
-By default, story board tiles in an agile iteration are color-coded according to the project that the story is associated with. Each project is arbitrarily assigned a color on the story board. You can change this default behavior for each agile team. Colors for agile stories can be tied to story priority, owner, and so forth.
+By default, story board tiles in an Agile iteration are color-coded according to the project that the story is associated with. Each project is arbitrarily assigned a color on the story board. You can change this default behavior for each Agile team. Colors for Agile stories can be tied to story priority, owner, and so forth.
 
-To change the behavior of how colors are assigned to stories for an agile team:
+To change the behavior of how colors are assigned to stories for an Agile team:
 
 {{step1-to-team}}
 
 1. Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
-1. Select the agile team that you want to manage.
+1. Select the Agile team that you want to manage.
 1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.
 
    Only team members with either a [!UICONTROL Plan] or [!UICONTROL Work] license see this option.

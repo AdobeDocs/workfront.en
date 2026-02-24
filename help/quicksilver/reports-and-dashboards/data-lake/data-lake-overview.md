@@ -11,7 +11,7 @@ exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
 ---
 # Workfront Data Connect overview
 
-Workfront Data Connect delivers unprecedented access to Workfront data using Snowflake technology, allowing you to answer business-critical questions and measure the value of your processes. This capability allows enterprise customers to interrogate their data using data visualization tools directly from a Workfront data lake, or to export Workfront data to a customer-owned data warehouses.
+Workfront Data Connect delivers access to Workfront data using Snowflake technology, allowing you to answer business-critical questions and measure the value of your processes. This capability allows enterprise customers to analyze their data using data visualization tools directly from a Workfront data lake, or to export Workfront data to a customer-owned data warehouses.
 
 Subscribers will be able to connect their business intelligence tool of choice (Tableau, Power BI, Domo, Looker, etc.) to Data Connect to create data visualizations with the following types of data:
 
@@ -28,3 +28,5 @@ For more information about Data Connect, see the following articles:
 * [Workfront Data Connect data dictionary](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
 * [Workfront Data Connect query examples](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md)
 * [View Workfront Data Connect usage metrics](/help/quicksilver/reports-and-dashboards/data-lake/view-usage-metrics.md)
+* [Use the Job History Data view in Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
+* [Use the Monitoring Data Refreshes view in Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/use-the-monitoring-data-refreshes-view.md)

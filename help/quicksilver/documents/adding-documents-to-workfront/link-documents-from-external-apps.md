@@ -33,19 +33,16 @@ You can link documents and folders to Adobe Workfront from the following sources
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>You can make proofs that were originally created within Workfront Proof available within Workfront. For the current licenses, a Pro Workfront Plan or higher is required to use this feature. For the new licenses, all plans include this feature. For more information about the various plans available, see <a href="https://business.adobe.com/products/workfront/pricing.html">Workfront Plans</a>.</td> 
+   <td>You can make proofs that were originally created within Workfront Proof available within Workfront.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
    <td>You can link documents to Workfront from Experience Manager Assets Essentials. For more information, see <a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref"> Adobe Workfront for Experience Manager Assets Essentials</a>.</td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Workfront DAM </td> 
-   <td>This requires an additional purchase. </td> 
-  </tr> 
+ 
   <tr> 
    <td role="rowheader">Other document providers (through custom document integrations)</td> 
-   <td> <p class="workfront_plans">For the current licenses, a Pro Workfront Plan or higher is required to use this feature. For the new licenses, all plans include this feature. For more information about the various plans available, see <a href="https://business.adobe.com/products/workfront/pricing.html">Workfront Plans</a>.</p> </td>
+   <td> <p class="workfront_plans">These integrations can be configured in the Setup area.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -58,21 +55,18 @@ You can proof and approve documents linked to an external cloud provider the sam
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td>
+   <td role="rowheader">Adobe Workfront package</td>
    <td> <p> Any</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td>
-   <td><p>New: Contributor or higher</p>
-    <p>or</p>
-    <p>Current: Request or higher</p> </td>
+   <td><p>Contributor or higher</p>
+    <p>Request or higher</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -81,7 +75,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -93,6 +87,13 @@ The following exceptions apply:
 
 * When provided by the document service, thumbnails and preview images might be stored on Workfront servers.
 * When you use proofing in Workfront, the document is copied and added to the proofing servers. 
+
+## File size limits
+
+Third-party cloud providers:
+
+* Single file: 5 GB or less
+* Multiple file: 1 GB or less (total of all files)
 
 ## Link a document from an external application to Workfront
 

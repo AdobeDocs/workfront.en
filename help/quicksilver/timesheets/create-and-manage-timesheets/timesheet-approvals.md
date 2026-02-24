@@ -3,7 +3,7 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Approve a Timesheet
 description: The process of approving timesheets provides managers with visibility into the work hours of their direct reports. Approvers can verify that all time recorded has been allocated in the correct areas and that a sufficient number of hours have been recorded for the period.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
 ---
@@ -19,35 +19,30 @@ For information on submitting a timesheet, see [Submit a timesheet for approval]
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
++++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan</p></td> 
-   <td> <p>Any</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td> <p>New: Standard</p>
-   <p>Current: Plan </p> 
-   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>Administrative access to Timesheets & hours </p> </td> 
+   <td>Adobe Workfront license</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
-   
-   </td> 
+  <tr> 
+   <td>Access level configurations</td> 
+   <td><p>Administrative access to Timesheets and Hours</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).   
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

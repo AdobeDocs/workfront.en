@@ -1,7 +1,7 @@
 ---
 content-type: overview
 navigation-topic: use-the-gantt-chart
-title: Get started with the [!UICONTROL Gantt] Chart
+title: Get Started with the [!UICONTROL Gantt] Chart
 description: The Gantt charts in Adobe Workfront provide a visual representation of the timeline of a list of tasks or projects. 
 author: Alina
 feature: Work Management
@@ -9,7 +9,7 @@ exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
 ---
 # Get started with the [!UICONTROL Gantt Chart]
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 08/2025 -->
 
 The Gantt charts in Adobe Workfront provide a visual representation of the timeline of a list of tasks or projects.
 

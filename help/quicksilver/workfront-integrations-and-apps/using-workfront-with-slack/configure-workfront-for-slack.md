@@ -18,26 +18,28 @@ Integrating [!DNL Adobe Workfront] with [!DNL Slack] allows you to do the follow
 
 Depending on how your [!DNL Slack] environment is configured, you can install and configure [!DNL Workfront for Slack] yourself, or your [!DNL Workfront] administrator must install and configure it first before you can configure it for yourself. 
 
-When you integrate your [!DNL Slack] instance with [!DNL Workfront] users can use [!DNL Workfront] while collaborating within their [!DNL Slack] channels. The integration can be used from any [!DNL Slack] environment, including the [!DNL Slack] mobile app. 
+When you integrate your [!DNL Slack] instance with [!DNL Workfront] users can use [!DNL Workfront] while collaborating within their [!DNL Slack] channels. The integration can be used from any [!DNL Slack] environment, including the [!DNL Slack] mobile app. ## Access requirements
 
-## Access requirements
-
-You must have the following:
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Any</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.\
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites for using [!DNL Workfront] with [!DNL Slack]
 

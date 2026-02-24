@@ -4,7 +4,7 @@ navigation-topic: notifications
 keywords: modify,email,notification,settings
 title: Modify your own email notifications
 description: This article describes how you can manage your email notifications in your user profile.
-author: Lisa
+author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
 ---
@@ -30,8 +30,6 @@ For more information about email notifications, see [[!DNL Adobe Workfront] noti
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -39,21 +37,19 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
-   <td>  <p>New:</p> 
-   <ul><li>Contributor or Higher</li></ul>
-   <p>Current:</p>
-   <ul><li>Request or Higher</li></ul>
+   <td> <p>Contributor or Higher</p>
+   <p>Request or Higher</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

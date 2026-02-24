@@ -157,6 +157,8 @@ Below are the 11 widgets currently available to choose from, as well as a summar
 * **My requests**\
     Displays all requests you have submitted, a filter to only display open requests, and a button that opens the summary panel for a request.
 
+    <span class="preview">In the Preview environment, this widget displays all requests you have submitted, a filter to display only requests that meet criteria you specify, and a button that allows you to rearrange the columns in the widget.</span>
+
 * **Team requests**\
     Displays all pending requests for teams that you are on sorted by team, as well as buttons to directly assign a request to a user or to work on it yourself.
 

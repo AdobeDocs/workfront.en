@@ -16,47 +16,43 @@ You can see a real-time view of mapped metadata in the Document Details and Summ
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following:
-
 <table>
   <tr>
-   <td><strong>Adobe Workfront plan*</strong>
+   <td><strong>Adobe Workfront package</strong>
    </td>
    <td>Any
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront licenses*</strong>
+   <td><strong>Adobe Workfront licenses</strong>
    </td>
-   <td>Request or higher
+   <td>
+   <p>Contributor or higher</p>
+   <p>Request or higher</p>
    </td>
   </tr>
   <tr>
-   <td><strong>Product</strong>
+   <td><strong>Additional products</strong>
    </td>
    <td>You must have Experience Manager Assets as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console.
    </td>
   </tr>
   <tr>
-   <td><strong>Access level configurations*</strong>
+   <td><strong>Access level configurations</strong>
    </td>
-   <td>Edit access to Documents
-<p>
-<strong>Note: </strong>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <strong>Create or modify custom access levels</strong>.
+   <td><p>Edit access to Documents</p>
    </td>
   </tr>
   <tr>
    <td><strong>Object permissions</strong>
    </td>
    <td>View access or higher
-<p>
-For information on requesting additional access, see <strong>Request access to objects </strong>.
    </td>
   </tr>
 </table>
 
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

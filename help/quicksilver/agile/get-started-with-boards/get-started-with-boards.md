@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: "Get Started with Boards: Article Index"
 description: Review these articles to learn how to use boards in Workfront.
-author: Lisa
+author: Jenny
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e

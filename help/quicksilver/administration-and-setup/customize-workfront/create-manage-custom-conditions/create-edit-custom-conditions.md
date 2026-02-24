@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: As an Adobe Workfront administrator, you can create or edit a custom condition for projects, tasks, and issues to match the needs of your organization.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
@@ -17,32 +17,27 @@ As an Adobe Workfront administrator, you can create or edit a custom condition f
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article: 
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p>
-       <p>Or</p>
-       <p>Current: Plan</p></td>
-  </tr> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Access level configurations</td> 
+   <td>System Administrator</td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -112,18 +107,23 @@ For more detail about the information in this table, see [Access requirements in
 
      ![Change condition when editing project](assets/change-condition-edit-project-0825.png)
 
-   <!-- 
-   * When a user is changing the condition for a task or issue on the Updates tab:
-
-     ![Change condition when updating comment](assets/change-condition-update-comment.png)
-   -->
-
    * When a user is changing the condition for a task or issue in a list view:
 
-     ![Change condition in list](assets/change-conditions-list-dropdown-only.png)
+     ![Change condition in list](assets/change-conditions-list-dropdown-0925.png)
+
+     >[!NOTE]
+     >
+     >In the default Condition view, the **Condition** field is a type of field that can't be edited inline. When you add the **Condition** field separately to a view, it is editable. For information about inline editing, see [Inline edit items in a list in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
 1. Click **Save**.
 
 You can set your custom condition as a default condition for projects or for tasks and issues. For more information, see [Set a custom condition as the default for projects](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md) and [Set a custom condition as the default for tasks and issues](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
 
 For more information about custom conditions, see [Custom conditions](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+
+
+   <!-- THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.
+   * When a user is changing the condition for a task or issue on the Updates tab:
+
+     ![Change condition when updating comment](assets/change-condition-update-comment.png)
+   -->

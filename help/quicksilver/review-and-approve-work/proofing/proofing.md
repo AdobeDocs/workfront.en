@@ -9,7 +9,7 @@ feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
 ---
-# Proofing: article index
+# Proof approvals: article index
 
 <!-- Audited: 12/2023 -->
 

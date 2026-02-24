@@ -31,34 +31,30 @@ After configuring a layout template, you must assign it to users for changes you
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article: 
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td>Adobe Workfront package</td> 
    <td><p>Any</p>
-   
-   <p>Adding custom applications to the Main Menu is only available for organizations licensed for Adobe App Builder.</p></td> 
+       <p>Adding custom applications to the Main Menu is only available for organizations licensed for Adobe App Builder.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td><p>Current: Plan</p>
-   Or
-   <p>New: Standard</p></td> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configuration</strong></td> 
+   <td>Access level configurations</td> 
    <td> <p>To perform these steps at the system level, you need the System Administrator access level.</p>
-    <p>To perform them for a group, you must be a manager of that group.</p> 
-     </td> 
+        <p>To perform them for a group, you must be a manager of that group.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -73,7 +69,8 @@ You must have the following access to perform the steps in this article:
      >[!TIP]
      >
      >By default, the Home icon in the Main Menu displays the My Updates area for Review-license users (in the current license plan), unless they have a layout template associated with their profile that includes the My Updates area in the Main Menu, in addition to the Home area.
-
+  
+   * Priorities
    * Portfolios
    * Programs
    * Projects
@@ -98,7 +95,6 @@ You must have the following access to perform the steps in this article:
    * Timesheets
    * Documents
    * Templates
-   * Proofing
    * Goals
 
      >[!NOTE]
@@ -112,7 +108,7 @@ You must have the following access to perform the steps in this article:
 
      >[!NOTE]
      >
-     >Planning requires an additional license. For information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+     >Planning requires an additional license. For information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
    
    * Custom Application
 
@@ -130,14 +126,10 @@ You must have the following access to perform the steps in this article:
 
    You can also click **Cancel** at any time if you want to discard your changes.
 
-1. Continue customizing the layout template.
+1. Continue customizing the layout template. You can click **Apply** at any time to save your progress.
 
    Or
 
-   If you are finished customizing, click **Save**.
-
-   >[!TIP]
-   >
-   >You can click **Save** at any time to save your progress, then continue to modify the template later.
+   If you are finished customizing, click **Save and Close**.
 
 For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

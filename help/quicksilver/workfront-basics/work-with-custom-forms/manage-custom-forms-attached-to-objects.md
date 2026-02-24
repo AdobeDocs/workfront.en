@@ -15,32 +15,59 @@ You can update the order in which the custom forms attached to one object displa
 
 ## Access requirements
 
-You must have the following access to perform the actions described in this article:
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Contributor or higher</p> 
+   <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to the objects for which you manage custom forms</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to the objects for which you manage custom forms</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the objects for which you manage custom forms</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the objects for which you manage custom forms</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Request or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to the objects for which you manage custom forms</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute permissions or higher to the objects for which you manage custom forms</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Prerequisites
 
@@ -53,13 +80,13 @@ You must have the following access to perform the actions described in this arti
 
 1. Go to the object where you want to change the order of the added custom forms, ,then start to edit the object.
 
-   **Example:** For example, to manage the custom forms of a project, go to the project,  click the **More** menu ![](assets/more-icon.png), then click **Edit** .
+   **Example:** For example, to manage the custom forms of a project, go to the project,  click the **More** menu ![More menu](assets/more-icon.png), then click **Edit** .
 
-1. In the **Custom Forms** section for projects, tasks, and issues, click the ![](assets/move-icon---dots.png) icon next to the name of a custom form. For all other objects, click **Manage Forms**. This option displays only if at least one custom form is attached to the object.
-1. Drag a form ![](assets/move-icon---dots.png) to a new location in the list.
+1. In the **Custom Forms** section for projects, tasks, and issues, click the ![Move icon](assets/move-icon---dots.png) icon next to the name of a custom form. For all other objects, click **Manage Forms**. This option displays only if at least one custom form is attached to the object.
+1. Drag a form ![Move icon](assets/move-icon---dots.png) to a new location in the list.
 1. For projects, tasks, and issues custom forms, click **Save**.
 
-   For all other objects, click **I'm done managing** >&nbsp;**Save Changes**.
+   For all other objects, click **I'm done managing** >  **Save Changes**.
 
 ## Remove a custom form from an object {#remove-a-custom-form-from-an-object}
 
@@ -67,16 +94,13 @@ You must have the following access to perform the actions described in this arti
 >
 >When you remove a custom form from an object, all the information captured in the custom fields of the form is lost and cannot be recovered.
 
-1. Go to the object where you want to remove&nbsp;the custom form and start editing the object.
+1. Go to the object where you want to remove the custom form, then click the **Details** section in the left panel for the object.
 
-   For example, go to a project,  click the **More** menu ![](assets/more-icon.png), then click **Edit** .
+   For example, go to a project,  click the **Project Details** section. 
 
-1. Click **Custom Forms**.
-1. For projects, tasks, and issues custom forms, click the **X**&nbsp;icon to the right of a form to remove it from the object.
-
-   For all other objects, click **Manage Forms**, then click the **X** icon to the right of a form to remove it from the object.
-
-1. Click **Save** .
+1. Click the **Edit** icon ![Edit icon](assets/edit-icon.png) in the upper-right corner of the object's page, then click **Edit all**. 
+1. Click the **Delete** icon ![Delete icon](assets/delete-icon.png) to the right of a custom form name, then click **Delete** to confirm and remove the form from the object, or **Cancel** to prevent the removal.
+1. Click **Save Changes** .
 
 ## Manage multiple custom forms that contain the same custom fields
 
@@ -105,7 +129,7 @@ Only the custom forms that are attached to all selected objects can be edited in
 
 To edit multiple custom forms when editing objects in bulk:
 
-1. In a list objects, select the objects where the custom forms are attached, then click  the **Edit** icon ![](assets/edit-icon.png).
+1. In a list objects, select the objects where the custom forms are attached, then click  the **Edit** icon ![Edit icon](assets/edit-icon.png).
 1. Click **Custom Forms**.
 
    You can edit only the custom forms attached to all of the selected objects.
@@ -139,7 +163,7 @@ To edit multiple custom forms when editing objects in bulk:
    * If you have made changes to the form, removing it results in your changes being lost and they cannot be recovered.
    * After you remove a form, any fields from that form that were in the **Common Fields** section are removed from this section and can no longer be edited here.
 
-1. Click&nbsp;**Restore Form** to restore the form to the state it was in before you edited the objects.
+1. Click  **Restore Form** to restore the form to the state it was in before you edited the objects.
 1. (Optional) Click the collapse arrow next to the name of the form to collapse one form at a time.
 
    Or
@@ -150,6 +174,6 @@ To edit multiple custom forms when editing objects in bulk:
 
    Or
 
-   Click **Expand Forms** to expand all forms at the same time.&nbsp;
+   Click **Expand Forms** to expand all forms at the same time.  
 
 1. Click **Save Changes**.

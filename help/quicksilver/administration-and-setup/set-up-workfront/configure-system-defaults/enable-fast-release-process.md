@@ -25,6 +25,33 @@ Example:
 >* Customers who purchased Workfront after the 23.3 release (July 2023) have the fast release process enabled by default, and can opt out. 
 >* Customers who purchased Workfront before the 23.3 release have the fast release process disabled by default, and can opt in.
 
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront package</td> 
+   <td><p>Any</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p> <p>Plan</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td>You must be a Workfront administrator. </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
 ## Considerations when enabling or disabling the fast release process
 
 Consider the following when enabling or disabling the fast release process:

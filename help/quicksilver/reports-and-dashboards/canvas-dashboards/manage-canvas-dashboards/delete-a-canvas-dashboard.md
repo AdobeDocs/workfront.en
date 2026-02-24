@@ -11,12 +11,20 @@ exl-id: 075df18c-08b8-467d-a0e4-60cd3abd5807
 
 >[!IMPORTANT]
 >
->The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.<br>
+>If you have feedback regarding a possible bug or technical issue, please submit a ticket to Workfront Support. For more information, see [Contact Customer Support](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Please note that this beta is not available on the following cloud providers:
+>
+>* Bring Your Own Key for Amazon Web Services
+>* Azure
+>* Google Cloud Platform 
+
 
 Once you no longer have a need for a Canvas Dashboard, you can remove it from Adobe Workfront.
 
+## Access Requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view access requirements for the functionality in this article.
 
  <table style="table-layout:auto"> 
 <col> 
@@ -25,7 +33,7 @@ Once you no longer have a need for a Canvas Dashboard, you can remove it from Ad
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <p>Any </p> 
    </td> 
@@ -33,8 +41,8 @@ Once you no longer have a need for a Canvas Dashboard, you can remove it from Ad
  <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td> 
-<p>Current: Plan </p> 
-<p>New: Standard</p> 
+<p>Standard </p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 
@@ -65,7 +73,8 @@ For more information, see [Create a Canvas Dashboard](/help/quicksilver/reports-
 
 >[!WARNING]
 >
->Once a dashboard is deleted, it cannot be recovered. 
+> Once a dashboard is deleted, the dashboard and all of its customized reports and/or visualizations cannot be recovered.<br> 
+> If you delete a dashboard that contains a classic report, the classic report will not be deleted. 
 
 {{step1-to-dashboards}}
 

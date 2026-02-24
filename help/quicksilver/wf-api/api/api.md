@@ -15,7 +15,6 @@ exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
 This section contains the following articles:
 
 * [Uploading files via the API](../../wf-api/api/uploading-files-api.md) 
-* [Ending support for JSONP](../../wf-api/api/ending-support-jsonp.md) 
 * [Filter event subscription messages](../../wf-api/api/filter-event-sub-messages.md) 
 * [Event subscription retries](../../wf-api/api/event-sub-retries.md) 
 * [Event subscription certificates](../../wf-api/api/event-sub-certs.md) 
@@ -29,6 +28,7 @@ This section contains the following articles:
 * [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md)
 * [Configure and use your organization's custom OAuth 2 applications using JWT flow](../../wf-api/api/oauth-app-jwt-flow.md)
 * [Configure and use your organization's custom OAuth 2 applications using PKCE flow](../../wf-api/api/oauth-app-pkce-flow.md)
+* [What's new in API version 21](../../wf-api/api/new-api-version-21.md) 
 * [What's new in API version 20](../../wf-api/api/new-api-version-20.md) 
 * [What's new in API version 19](../../wf-api/api/new-api-version-19.md) 
 * [What's new in API version 18](../../wf-api/api/new-api-version-18.md) 

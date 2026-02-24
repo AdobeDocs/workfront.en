@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Commit Date overview
+title: Commit Date Overview
 description: The Commit Date is the date a user assigned to task or an issue commits to complete the task or the issue. This is different than the Planned Completion Date as it's a more realistic estimate of the completion date given by the user who is directly in charge of the work. 
 author: Alina
 feature: Work Management
@@ -92,7 +92,7 @@ Manually setting the Commit Date for a task or issue triggers the following chan
 >If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the task list where you can evaluate the date changes and the project timeline.
 >
 >
->![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
+>![Project owner notification update stream about commit date change](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
 >
 -->
 
@@ -101,7 +101,7 @@ Manually setting the Commit Date for a task or issue triggers the following chan
 
   For more information, see [Overview of the Projected Completion Date for projects, tasks, and issues](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
-  ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
+  ![Task projected completion date in detils highlighted](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
 * The Project Owner is notified in the Notifications area that a task or issue Commit Date has changed. 
 

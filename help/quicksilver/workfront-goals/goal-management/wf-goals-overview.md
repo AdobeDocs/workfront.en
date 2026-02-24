@@ -12,6 +12,16 @@ exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
 
 <!--Audited: 4/2025-->
 
+>[!NOTE]
+>
+>Your company might choose to continue using Adobe Workfront Goals if they bought this package in the past. You must speak with your account representative for details. 
+>
+>Adobe Workfront Goals is no longer available for purchase.
+>
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old: 
+
 >[!IMPORTANT]
 >
 >Your organization must have the following to use the functionality described in this article:
@@ -29,6 +39,8 @@ exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
 > 
 >For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
 
+-->
+
 Workfront Goals helps you define, communicate, and achieve strategic outcomes by connecting strategy to work execution and delivery. You can focus everyone's efforts on what truly matters, make progress measurable, and enable teams to accomplish amazing results. People can do their best work knowing their contributions have a meaningful impact.
 
 Workfront Goals is an add-on module for the core Workfront work management platform. It is intended to work together with Workfront, with which it shares many of the setup elements and configuration entities, such as users, teams, groups, and projects.
@@ -37,7 +49,9 @@ For more information about best practices for using Workfront Goals, see [Get st
 
 >[!IMPORTANT]
 >
->Strategic goals that you manage using Workfront Goals should not be confused with project-level goals that are part of the project's Business Case. For information about project-level goals, see [Create Business Case goals](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+>You should not confuse strategic goals that you manage using Workfront Goals with project-level goals that are part of the project's Business Case. 
+>
+>For information about project-level goals, see [Create Business Case goals](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
 ## Workfront Goals capabilities
 

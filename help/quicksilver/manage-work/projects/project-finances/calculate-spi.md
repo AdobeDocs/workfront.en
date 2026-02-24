@@ -20,35 +20,32 @@ The Schedule Performance Index (SPI) describes the relationship between the plan
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Adobe Workfront package</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td>Adobe Workfront license</td> 
    <td>
-   <p>New: Light or higher</p>
-   <p>or</p>
-   <p>Current: Review or higher</p></td>  
+   <p>Light or higher</p>
+   <p>Review or higher</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Access level configurations</td> 
    <td>View access to Projects and Financial Data</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td>Object permissions</td> 
    <td>View or higher permissions to the project with permissions to View Finance</td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,9 +54,9 @@ For more detail about the information in this table, see [Access requirements in
 * [What the SPI value shows](#what-the-spi-value-shows) 
 * [How Workfront calculates SPI](#how-workfront-calculates-spi)
 
-### What the SPI&nbsp;value shows {#what-the-spi-value-shows}
+### What the SPI value shows {#what-the-spi-value-shows}
 
-Project managers understand that a SPI&nbsp;value of 1 means the project is on plan or on schedule. &nbsp;Values greater than 1 indicate a project is ahead of schedule, and values less than 1 mean a project is behind schedule. &nbsp;The further from 1, the greater deviation from the plan.
+Project managers understand that a SPI value of 1 means the project is on plan or on schedule.  Values greater than 1 indicate a project is ahead of schedule, and values less than 1 mean a project is behind schedule.  The further from 1, the greater deviation from the plan.
 
 | **SPI Value** |**Indication of "On Schedule"** |
 |---|---|
@@ -79,9 +76,9 @@ SPI = (Total Planned Hours x % Complete) / Planned Hours Scheduled to Date*
 
 *&#42;If Planned Hours Scheduled to Date = 0, SPI = 1*.
 
-Planned Hours Schedule to Date are calculated at the minute when you perform&nbsp;the calculations. It shows the number of Planned Hours planned to the current date.&nbsp;It can be recalculated automatically when you change your finance data to be accurate. There is no&nbsp;field in Workfront that indicates&nbsp;this value.
+Planned Hours Schedule to Date are calculated at the minute when you perform the calculations. It shows the number of Planned Hours planned to the current date. It can be recalculated automatically when you change your finance data to be accurate. There is no field in Workfront that indicates this value.
 
-For example, if you have a project with 1 task and the task has 10 planned hours and a 10-day Duration, the Planned Hours Schedule to Date on the 5th day are&nbsp;5.&nbsp;
+For example, if you have a project with 1 task and the task has 10 planned hours and a 10-day Duration, the Planned Hours Schedule to Date on the 5th day are 5. 
 
 ## Locate SPI in a project or task
 

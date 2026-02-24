@@ -24,11 +24,46 @@ We recommend recreating some or all of the record types, records, fields, and vi
 
 ## Access requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view the access requirements for the functionality in this article. 
 
-You must have the following access to perform the steps in this article:  
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul> 
+<li><p>Any Workfront and any Planning package</p></li>
+Or
+<li><p>Any Workflow and any Planning package</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace</p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table> 
 
- <table style="table-layout:auto"> 
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--Old:
+
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -78,15 +113,11 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Manage permissions to a workspace</a> </p>  
+   <td>   <p>Manage permissions to a workspace</p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 
-</table> 
-
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++   
+</table> -->
 
 ## Considerations about deleting workspaces
 
@@ -97,15 +128,18 @@ You must have the following access to perform the steps in this article:
 
 {{step1-to-planning}}
 
-1. (Conditional) If you are a Workfront administrator, click **Workspaces I'm on** to access workspaces you created, or **Other workspaces** to access workspaces others shared with you. 
+1. (Conditional) If you are a Workfront administrator, click one of the following:
+
+   * **Workspaces I'm on** to access workspaces you created
+   * **All workspaces** to access workspaces shared with you or workspaces you created
 
 1. (Optional) Click **Show all** to display additional workspaces. The **Show all** link displays only when you have more than two rows of workspace cards.
 1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
 1. To delete a workspace, do one of the following:
 
    * Hover over the workspace card, then click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the card
-      Or
-   * Click a workspace card to open the workspace, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the workspace name. 
+      Or 
+   * Click the **search** icon ![Search icon](assets/search-icon.png) in the upper-right corner of the Workspaces page to search for a workspace by name and click a workspace card to open the workspace, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the workspace name.
 1. Click **Delete**.
 
    ![Permanently delete workspace confirmation](assets/permanently-delete-workspace-confirmation.png)
@@ -113,3 +147,5 @@ You must have the following access to perform the steps in this article:
 1. Type "**delete**" in the space provided, then click **Permanently delete**. This is not case sensitive. 
 
     The workspace is deleted and cannot be recovered. Any record types, records, fields, and views associated with them are also deleted. <!--ensure this is right at or before GA-->
+
+

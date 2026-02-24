@@ -3,19 +3,49 @@ content-type: overview;how-to-procedural
 product-area: projects
 keywords: analytics,metrics,project,tasks,assignee,complete,status,overdue,upcoming
 navigation-topic: manage-projects
-title: Overview of project metrics
+title: Understand Project Metrics
 description: Project metrics give you a visualization of what is happening in a project, allowing you quickly assess the needs and status of a project. Find out how to interpret the Metrics area in the left panel of a project.
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
 ---
-# Overview of project metrics
+# Understand project metrics
 
 Project metrics give you a general view in chart format about how a project is performing.
 
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Light or higher</p>
+   <p>Review or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View access to Projects</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to a project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,11 +69,7 @@ Project metrics give you a general view in chart format about how a project is p
    <td> <p>View permissions to a project</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 ## Prerequisites
 
@@ -57,7 +83,7 @@ To access the Metrics area from the left panel of a project, you must:
 
 Project metrics give you a visualization of what is happening in a project, allowing you quickly assess the needs and status of a project.
 
-![](assets/project-metrics-full-screen-350x238.png)
+![Project metrics](assets/project-metrics-full-screen-350x238.png)
 
 In the Metrics area, you can see the overall health of a project, as well as:
 
@@ -79,7 +105,7 @@ To learn more about looking at these tasks or issues, see [View Metrics details]
 
 Key performance indicators (KPIs) display at the top of the Metrics area.
 
-![](assets/project-metrics-kpis-350x52.png)
+![Project metrics](assets/project-metrics-kpis-350x52.png)
 
 These KPIs are broken down into the following categories:
 
@@ -92,7 +118,7 @@ These KPIs are broken down into the following categories:
 >[!TIP]
 >
 >To display a list of work items for a specific KPI, click that KPI. In that list, you can click a specific work item to view more details in a new tab.  
->![](assets/completed-tasks-dialog-350x75.png)  
+>![Completed tasks](assets/completed-tasks-dialog-350x75.png)  
 >For more information, see [View Metrics details](#view-metrics-details).
 
 ## Task or issue bar chart
@@ -101,23 +127,23 @@ In the bar chart that appears below the project KPIs, you can look at the status
 
 When status is selected in this chart, you can view all statuses of tasks or issues in a project. Each status is grouped into a bar in the chart. All default system statuses and custom statuses display in this chart.
 
-![](assets/project-metrics-task-issue-by-status-350x120.png)
+![Task issue by status](assets/project-metrics-task-issue-by-status-350x120.png)
 
 When priority is selected in this chart, you can view all priorities of tasks or issues in a project.
 
-![](assets/project-metrics-task-issue-by-priority-350x121.png)
+![Tasks and issues by priority](assets/project-metrics-task-issue-by-priority-350x121.png)
 
 >[!TIP]
 >
 >To display a list of work items with a specific status or priority, click a bar in the chart. In that list, you can click a specific work item to view more details in a new tab.  
->![](assets/completed-tasks-dialog-350x75.png)  
+>![Completed tasks box](assets/completed-tasks-dialog-350x75.png)  
 >For more information, see [View Metrics details](#view-metrics-details).
 
 ## Donut chart
 
 The donut chart located below the project KPIs allows you to look at the ratio of completed work items vs. incomplete work items in a project.
 
-![](assets/tasks-issues-by-complete-status-350x250.png)
+![Tasks or issues by complete status](assets/tasks-issues-by-complete-status-350x250.png)
 
 In the drop-down menu above the chart, you can select:
 
@@ -128,14 +154,14 @@ In the drop-down menu above the chart, you can select:
 >[!TIP]
 >
 >To display a list of work items that are completed or incomplete, click that section in the donut chart. In that list, you can click a specific work item to view more details in a new tab.  
->![](assets/completed-tasks-dialog-350x75.png)  
+>![Completed tasks box](assets/completed-tasks-dialog-350x75.png)  
 >For more information, see [View Metrics details](#view-metrics-details).
 
 ## Assignee bar chart
 
 The assignee bar chart shows you the number of tasks assigned to each person in the project. This number varies based on the category you select from the drop-down menu.
 
-![](assets/tasks-issues-by-assignee-350x104.png)
+![Task and issues by assignee](assets/tasks-issues-by-assignee-350x104.png)
 
 You can choose to look at task assignments for a project in the following categories:
 
@@ -148,7 +174,7 @@ You can choose to look at task assignments for a project in the following catego
 >[!TIP]
 >
 >To display a list of work items in the selected category that are assigned to a specific user, click the bar next to the user's name in the chart. In that list, you can click a specific work item to view more details in a new tab.  
->![](assets/completed-tasks-dialog-350x75.png)  
+>![Completed tasks box](assets/completed-tasks-dialog-350x75.png)  
 >For more information, see [View Metrics details](#view-metrics-details).
 
 ## View Metrics details {#view-metrics-details}
@@ -158,9 +184,9 @@ You can interact with the charts in the Metrics area to look at different aspect
 1. Go to the project you want to see metrics for.
 1. In the left panel, click **Metrics**.  
    The charts in the Metrics area display information for tasks by default.  
-   ![](assets/metrics-section-350x298.png)
+   ![Metrics section](assets/metrics-section-350x298.png)
 
-1. (Conditional) If a drop-down arrow displays on a chart, click the **Drop-down arrow** icon ![](assets/dropdown-arrow.png) on the chart and select the option you want from the menu.  
+1. (Conditional) If a drop-down arrow displays on a chart, click the **Drop-down arrow** icon ![Dropdown arrow](assets/dropdown-arrow.png) on the chart and select the option you want from the menu.  
    For information on the options that appear in the menus on each chart, see the relevant section above.
 
 1. (Optional) To look more closely at tasks or issues for any metric on the page, do the following:
@@ -169,7 +195,7 @@ You can interact with the charts in the Metrics area to look at different aspect
 
       A list of tasks or issues displays.
 
-      ![](assets/completed-tasks-dialog-350x75.png)
+      ![Completed tasks box](assets/completed-tasks-dialog-350x75.png)
 
    1. Use the arrows at the bottom of the list to locate the task or issue you want to look at.
 
@@ -177,13 +203,13 @@ You can interact with the charts in the Metrics area to look at different aspect
 
       Select a specific number to display tasks or issues on a specific page.
 
-      ![](assets/pagination-300x152.png)
+      ![Pagination](assets/pagination-300x152.png)
 
    1. Select a task or issue to view more details.
 
       The task or issue opens in a new tab.
 
-1. (Optional) To export the project metrics dashboard to a .png file, click the **Export** icon ![](assets/export.png), then select **Export as PNG** from the drop-down menu.
+1. (Optional) To export the project metrics dashboard to a .png file, click the **Export** icon ![Export icon](assets/export.png), then select **Export as PNG** from the drop-down menu.
 
    >[!TIP]
    >

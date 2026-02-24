@@ -5,7 +5,7 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: System Task Statuses
 description: The three built-in system task statuses in Workfront are required, which means that you can unlock, rename, and reorder them, but you cannot hide or delete them. You can also add new system task statuses to match the needs in your organization. Changing the status of a task is typically a manual process, but sometimes the status of a task is changed automatically, depending on other factors that are happening in the system.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421

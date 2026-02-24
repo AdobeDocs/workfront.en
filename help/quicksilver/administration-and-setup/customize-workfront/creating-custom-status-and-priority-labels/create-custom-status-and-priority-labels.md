@@ -5,7 +5,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
 description: As an Adobe Workfront administrator, you can create custom statuses for projects, tasks, and issues. These can be for users throughout the entire Workfront system or for specific groups or subgroups. A work item's status represents its current state of development.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog

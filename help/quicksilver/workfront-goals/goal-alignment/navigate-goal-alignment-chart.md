@@ -20,9 +20,50 @@ For information about goal alignment and how to achieve it, also see the followi
 
 ## Access requirements
 
+>[!NOTE]
+>
+>Your company might choose to continue using Adobe Workfront Goals if they bought this package in the past. You must speak with your account representative for details. 
+>
+>Adobe Workfront Goals is no longer available for purchase. 
+
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following to perform the activities described in this article:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr>
+  <td> <p>Adobe Workfront package</p> </td> 
+   <td> 
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront license</p> </td> 
+   <td> <p>Contributor or higher</p> 
+     <p>Requestor or higher</p> </td> 
+  </tr> 
+  
+   <td><p>Access level configurations</p> </td> 
+   <td> <p>Edit access to Goals</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>View or higher permissions to the goal to view it</p>
+<p>Manage permissions to the goal to edit it</p>
+  <tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including System Administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+ </tbody> 
+</table>
+
+For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++ 
+
+<!--Old:
 
 <table style="table-layout:auto">
 <col>
@@ -74,17 +115,12 @@ Or
 </td>
 </tr>
 </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>--> 
 
 ## Navigate the Goal Alignment section
 
-1. Click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/dots-main-menu-icon.png) in the upper-right corner of your screen, then click **Goals**. 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+{{step1-to-goals}}
+
 1. Click **Goal Alignment** in the left panel.
 1. Use the filters in the upper-right corner of the alignment chart to select only goals that are important to you. For information about using filters in Workfront Goals, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
@@ -106,7 +142,7 @@ Or
      </tr> 
      <tr> 
       <td role="rowheader">Owner name</td> 
-      <td>The name of the user, team, group, or the organization designated as the goal&nbsp;Owner. </td> 
+      <td>The name of the user, team, group, or the organization designated as the goal Owner. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Goal name</td> 
@@ -116,11 +152,11 @@ Or
       <td role="rowheader">Goal Progress bar <span>and Progress</span></td> 
       <td> <p>The goal progress indicates how much of the goal has currently been achieved. This is an automatic calculation of the average of the progress of all aligned goals, results, and activities for the goal based on the time elapsed since the start of the goal's time period. For information about calculating progress on goals, see <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Overview of goal progress and condition in Adobe Workfront Goals</a>. </p> 
        <div> 
-        <p>The actual progress of the goal by the current date.&nbsp;The following progress values and colors indicate how likely the goal is to being achieved on time: </p> 
+        <p>The actual progress of the goal by the current date. The following progress values and colors indicate how likely the goal is to being achieved on time: </p> 
         <ul> 
          <li><span>On Target</span> (green indicator): the goal is on time and will be achieved on time.</li> 
-         <li> <span>At Risk</span> (yellow indicator):&nbsp;the goal runs behind and might not be achieved on time.</li> 
-         <li> <span>In&nbsp;Trouble</span> (red indicator): the goal is in danger of not being achieved on time. </li> 
+         <li> <span>At Risk</span> (yellow indicator): the goal runs behind and might not be achieved on time.</li> 
+         <li> <span>In Trouble</span> (red indicator): the goal is in danger of not being achieved on time. </li> 
         </ul> 
        </div> </td> 
      </tr> <!--
@@ -152,7 +188,7 @@ Or
 
    ![Parent goal excluded](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
-1. Click&nbsp;**Show them** to display the goals currently eliminated by the filter.
+1. Click **Show them** to display the goals currently eliminated by the filter.
 
    Notice the following changes in the alignment chart:
 

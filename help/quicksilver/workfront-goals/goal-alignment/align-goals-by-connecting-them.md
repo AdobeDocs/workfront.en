@@ -9,7 +9,7 @@ exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
 ---
 # Align goals by connecting them in Adobe Workfront Goals
 
-<!--Audited P&P only: 04/2025-->
+<!--Audited P&P only: 10/2025-->
 
 If you are an individual contributor who has a personal goal, you may want to align it to your team's goals in order to effectively display the progress of your own goal in the larger context of your organization's strategy.
 
@@ -29,10 +29,50 @@ This article describes how you can align goals by connecting them to one another
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
+>[!NOTE]
+>
+>Your company might choose to continue using Adobe Workfront Goals if they bought this package in the past. You must speak with your account representative for details. 
+>
+>Adobe Workfront Goals is no longer available for purchase.
 
-You must have the following:
++++Expand to view access requirements for the functionality in this article. 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  
+  <td> <p>Adobe Workfront package</p> </td> 
+   <td> 
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront license</p> </td> 
+   <td> <p>Contributor or higher</p> 
+     <p>Requestor or higher</p> </td> 
+  </tr> 
+  
+   <td><p>Access level configurations</p> </td> 
+   <td> <p>Edit access to Goals</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>Manage permissions to a goal</p>  </td> 
+  </tr> 
+  <tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including System Administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+ </tbody> 
+</table>
+
+For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -83,11 +123,7 @@ You must have the following:
 </td>
   </tr>
 </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 ## Align goals by connecting them to one another
 

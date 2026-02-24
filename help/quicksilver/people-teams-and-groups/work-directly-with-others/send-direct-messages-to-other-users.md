@@ -4,7 +4,7 @@ product-area: user-management
 navigation-topic: people-teams-and-groups
 title: Send Direct Messages to Other Users
 description: Adobe Workfront enables you to quickly and easily send messages that are unrelated to any work item directly to other Workfront users.
-author: Lisa
+author: Becky
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
 ---
@@ -23,32 +23,28 @@ The user you are sending the message to receives the following types of notifica
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+  <tr> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td>Adobe Workfront license</td> 
    <td>
-   <p>To send a message from the user's profile page, you must have:<br>
-   New: Light or higher<br>
-   or<br>
-   Current: Review or higher</p>
-   <p>To send a message from the User list, you must have:<br>
-   New: Standard<br>
-   or<br>
-   Current: Work or higher</p></td>
+   <p>To send a message from the user's profile page, you must have:</P>
+   <p>Light or higher</p>
+   <p>Review or higher</p>
+   <p>To send a message from the User list, you must have:</p>
+   <p>Standard</p>
+   <p>Work or higher</p></td>
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,6 +63,10 @@ For more detail about the information in this table, see [Access requirements in
 
 1. (Optional) Select **[!UICONTROL Private to my company]** to make this message visible only to other users in your company.  
 
+      >[!TIP]
+      >
+      >The [!UICONTROL **Private to my company**] setting is only available only when your Workfront profile is associated with a company.
+
 1. Click **[!UICONTROL Update].** 
    The message is posted at the top of the list of messages on the **[!UICONTROL Updates]** tab on the user's profile page.
 
@@ -83,5 +83,9 @@ This option is only available if you have a Standard, Plan, or Work license.
 
 1. (Optional) Click **Tag people** to tag any additional users on the message. For more information, see [Tag others on updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Optional) Select **[!UICONTROL Private to my company]** to make this message visible only to other users in your company.
+
+   >[!TIP]
+   >
+   >The [!UICONTROL **Private to my company**] setting is only available only when your Workfront profile is associated with a company.
 1. Click [!UICONTROL **Send**].
    The message is posted at the top of the list of messages on the **[!UICONTROL Updates]** tab on each tagged user's profile page.

@@ -4,7 +4,7 @@ navigation-topic: get-started-with-workfront
 title: Supported languages in Adobe Workfront
 description: You can change the language in which you display Adobe Workfront and emails coming from Workfront, by adjusting the language preferences on your browser and your default Email Locale within Workfront.
 feature: Get Started with Workfront
-author: Nolan
+author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
 ---
 # Supported languages in Adobe Workfront
@@ -20,11 +20,11 @@ Workfront supports the following languages:
 * English (en-US)
 * French (fr-FR)
 * German (de-DE)
-* Japanese (ja)
-* Spanish (es)
-* Italian (it_IT)
+* Japanese (ja-JP)
+* Spanish (es-ES)
+* Italian (it-IT)
 * Portuguese (pt-BR)
-* Korean (ko)
+* Korean (ko-KR)
 * Chinese - Simplified (zh-CN)
 * Chinese - Traditional (zh-TW)
 
@@ -66,9 +66,8 @@ The Web Proofing Viewer within Workfront supports most languages that are suppor
 
 The following languages are not supported in the proofing tool:
 
-* Chinese - Simplified (zh-CN)
 * Chinese - Traditional (zh-TW)
-* Portuguese (pt-BR)
+* Korean (ko-KR)
 
 Your company must purchase a proofing license for you to access the Web Proofing Viewer.
 
@@ -101,10 +100,10 @@ In order to see all available translations for your chosen language, both the Wo
 
 To determine whether your organization has been migrated to the Adobe Admin Console, examine the URL you use to view Workfront.
 
-|URL|Adobe Experience|
-|---|---|
-|(CompanyName).my.workfront.com|Not migrated to Adobe Admin Console|
-|experience.adobe.com|Migrated to Adobe Admin Console |
+|URL|Adobe Experience|Language control|
+|---|---|---|
+|(CompanyName).my.workfront.com|Not migrated to Adobe Admin Console|[Change the browser language](#change-the-browser-language)|
+|experience.adobe.com|Migrated to Adobe Admin Console|[Change the Adobe Experience Cloud language](#change-the-adobe-experience-cloud-language)|
 
 * [Change the browser language](#change-the-browser-language)
 * [Change the Adobe Experience Cloud language](#change-the-adobe-experience-cloud-language)
@@ -141,7 +140,8 @@ When changing the default Workfront Email Locale, you modify the language, date,
 To change the default Workfront Email Locale:
 
 1. Log in to Workfront as the Workfront administrator.
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. Click **System** > **Customer Info.**
 
@@ -159,7 +159,9 @@ When changing your User Email Locale, you modify the language, date, and number 
 
 To change your User Email Locale:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user profile picture.
+{{step1-click-main-menu}}
+
+1. Click your user profile picture.
 
 1. Click the More menu ![](assets/more-icon.png), then click **Edit**.
 

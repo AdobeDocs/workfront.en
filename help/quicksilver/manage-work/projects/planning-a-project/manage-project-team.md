@@ -41,7 +41,38 @@ You can manage the users in the project and template's teams by adding them (onl
 
 ## Access requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view access requirements for the functionality in this article. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+    <p>Plan</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects and Templates</p> <p>View or higher access to Users</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions to a project or to a template</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old access: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -70,38 +101,7 @@ You can manage the users in the project and template's teams by adding them (onl
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
 
-<!--Old access: 
-
-You must have the following access to perform the steps in this article:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>View or higher access to Users</p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Add users to a Project Team
 
@@ -141,7 +141,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 >
 >You can add to the Project Team only users that belong to the Group associated with the project. You cannot add users that belong to the Subgroups of the project's group. 
 
--->
+
 
 ## Manage people on a project
 
@@ -180,14 +180,14 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    For more information see the "Role-based approvals" section in the article [Project Team overview](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
 
-1. Select one or several users in the list then click the **Remove** icon ![Remove icon](assets/remove-icon.png) to remove them from the team. 
+1. Select one or several users in the list, then click the **Remove** icon ![Remove icon](assets/remove-icon.png) to remove them from the team. 
  
 1. Click **Yes, Remove Selected Users** to confirm and remove the users.
 
    Users are removed and unassigned from incomplete work items.
 
    For more information, see the [Considerations for removing users from a project team](#considerations-for-removing-users-from-a-project-team) section in this article.
-1. (Optional) To send an update for this project to users, click Update All to send the update to everyone on the team
+1. (Optional) To send an update for this project to users, click **Update All** to send the update to everyone on the team
 
    Or 
 
@@ -229,7 +229,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. Click **People** in the left panel. 
 
-1. Select one or several users in the list then click  **Remove** to remove them from the team. 
+1. Select one or several users in the list, then click the **Remove** icon to remove them from the team. 
 
 1. Click **Yes, Remove Selected Users** to confirm and remove the users.
 
@@ -237,11 +237,11 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    For more information, see the [Considerations for removing users from a project team](#considerations-for-removing-users-from-a-project-team) section in this article.
 
-1. (Optional) To send an update to users, click Update All to send the update to all the users in the list 
+1. (Optional) To send an update to users, click **Update All** to send the update to all the users in the list 
 
    Or
    
-   Select one or multiple users in the list, then click **Update**.
+   Select one or multiple users in the list, then click **Send Update to User**.
 
    <!--update screen shot for unshim production, notice the text above the box - it needs to say "Post an update to each person's profile"-->
 
@@ -256,15 +256,19 @@ If users that don't fulfill any role on the project want to be notified about ce
       * Select the **Private to my company** option to to make the update private to the users in your company. 
       * Click **Send**. 
 
+         >[!TIP]
+         >
+         >The **Private to my company** setting is only available only when your Workfront profile is associated with a company.
+
    The update is added to the **Updates** section of each tagged user's profile. 
 
    Users might receive an email notification, if they are enabled for them, and they receive an in-app notification about the new update.
 
-1. (Optional) Click **Export** to export the list of users to a file 
+1. Click the **Export** icon ![Export icon](assets/export-icon.png) to export the list of users to a file 
    
    Or 
    
-   Select users, then click **Export** to export only specific users. 
+   Select users, then click the **Export** icon to export only specific users.
 
 ## Considerations for removing users from a Project Team
 

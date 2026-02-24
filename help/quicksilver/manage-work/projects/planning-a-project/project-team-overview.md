@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
-title: Project Team overview
+title: Project Team Overview
 description: Users that are associated with a project in some capacity make up the project team. Users listed under the People area of a project or a template are the users who make up the project team.
 author: Alina
 feature: Work Management
@@ -58,7 +58,7 @@ If a user is listed in the People area of a project, that project appears when t
 
 You can see if the Projects I'm On filter is selected in the Projects area header. You can apply it from either the Filters panel or from the header.
 
-![](assets/nwe-project-list-buttons-350x187.png)
+![Project filter buttons](assets/nwe-project-list-buttons-350x187.png)
 
 >[!NOTE]
 >

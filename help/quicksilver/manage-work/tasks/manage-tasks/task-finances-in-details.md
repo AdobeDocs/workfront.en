@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Manage task finances in the Task Details section
-description: Manage task finances in the Task Details section
+title: Manage Task Finances in the Task Details Section
+description: You can view or edit the financial information of a task by accessing the Overview area of the Task Details section. There is a limited number of fields that you can view or edit in the Task Details section.
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
@@ -13,12 +13,43 @@ exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, to it in both articles)</p>
 -->
 
-You can view or edit the financial information of a task by accessing the Overview area of the Task&nbsp;Details  section . There is a limited number of fields that you can view or edit in this area. For information about editing all financial information for a task see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+You can view or edit the financial information of a task by accessing the Overview area of the Task Details  section. There is a limited number of fields that you can view or edit in this area. 
+
+For information about editing all financial information for a task see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p> 
+   <p>Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects and Tasks</p> <p>View access to Financial Data or higher</p> <p>You must have Edit access to Financial Data to edit financial information on tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the task that include View Finance or higher</p> <p>You must have Manage permissions on the task that include Edit Finance to edit financial information on tasks</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -33,16 +64,14 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and Tasks</p> <p>View access to&nbsp;Financial&nbsp;Data or higher</p> <p>You must have Edit access to&nbsp;Financial Data to edit financial information on tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects and Tasks</p> <p>View access to Financial Data or higher</p> <p>You must have Edit access to Financial Data to edit financial information on tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
    <td> <p>View permissions to the task that include View Finance or higher</p> <p>You must have Manage permissions on the task that include Edit Finance to edit financial information on tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+</table>-->
 
 ## Edit task finances in the Task Details section
 
@@ -57,7 +86,7 @@ You must have the following access to perform the steps in this article:
 1. Click **Task Details**.
 1. (Optional) Click the **Collapse all** icon in the top right of the Task Details page.
 
-   ![](assets/collapse-all-icon-on-details-page.png)
+   ![Collapse all icon on Details page](assets/collapse-all-icon-on-details-page.png)
 
    >[!NOTE]
    >
@@ -65,7 +94,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Finance** to expand and view the financial information for the task.
 
-   Click the **Edit** icon ![](assets/edit-icon.png) in the upper-right corner of the Details section, then click&nbsp;**Finance**. 
+   Click the **Edit** icon ![Edit icon](assets/edit-icon.png) in the upper-right corner of the Details section, then click **Finance**. 
 
 1. Edit any field that is available for editing, by single-clicking the field or click **+Add** to add information to an empty field.
 1. Review or edit the following information  in the **Finance** area : 
@@ -104,7 +133,7 @@ You must have the following access to perform the steps in this article:
       <td> <p>This is a calculation that shows the cost of the task based on the planned hours, the cost type, and the hourly rate for users or job roles. For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Actual&nbsp;Cost</td> 
+      <td role="rowheader">Actual Cost</td> 
       <td> <p> This is a calculation that shows the cost of the task based on the actual hours, the cost type, and the hourly rate for users or job roles. For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -112,7 +141,7 @@ You must have the following access to perform the steps in this article:
       <td> <p>This is a calculation that shows the revenue associated with the task based on the planned hours, the revenue type, and the hourly rate for users or job roles. For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Actual&nbsp;Revenue</td> 
+      <td role="rowheader">Actual Revenue</td> 
       <td> <p>This is a calculation that shows the revenue associated with the task based on the actual hours, the revenue type, and the hourly rate for users or job roles. For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
      </tr> 
      <tr> 

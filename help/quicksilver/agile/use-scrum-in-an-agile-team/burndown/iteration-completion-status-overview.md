@@ -4,7 +4,7 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: Iteration Completion Status Overview
 description: The completion information described in this article is displayed above the burndown chart.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
 ---
@@ -31,7 +31,7 @@ The following information is available:
 
    Points and hours are associated with stories. When a story is marked [!UICONTROL Complete], the points or hours associated with that story are marked Complete.
 
-   By default, points are used. You can change this by modifying the settings for your team, as described in [Create an agile team](../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+   By default, points are used. You can change this by modifying the settings for your team, as described in [Create an Agile team](../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 * **[!UICONTROL Points / Hours Per Day]:** (Available only in iterations) The average number of points or hours marked [!UICONTROL Complete] each day since the beginning of the iteration through the current day.
 

@@ -4,7 +4,7 @@ content-type: reference
 navigation-topic: projects-navigation-topic
 title: Delegate Work
 description: When you plan to be out of the office for a short period of time, you can temporarily delegate your work to other users to ensure that your absence does not become a roadblock to work being completed. The articles in this section contain information about how you can delegate work while you are temporarily out of the office.
-author: Alina
+author: Becky
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: e449366e-3bfa-4710-a597-91de404112d4

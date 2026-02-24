@@ -1,8 +1,7 @@
 ---
 title: Share a Link to a Request Queue
 description: You can share a link to a request queue, a topic group, or a queue topic as you are submitting the request.
-author: Alina
-draft: Probably
+author: Becky
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
 ---
@@ -18,31 +17,32 @@ You can share a link to a request queue, a topic group, or a queue topic as you 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: Contributor or higher</p>
-   Or
-   <p>Current: Request or higher</p>
+   <td> <p>Contributor or higher</p>
+   <p>Request or higher</p>
     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Issues</p>  </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
+  </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -51,11 +51,11 @@ For more detail about the information in this table, see [Access requirements in
 1. Start submitting a request as described in [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. Do one of the following:
 
-   * Select a request queue in the Request&nbsp;Type field
+   * Select a request queue in the Request Type field
    * Select a request queue and up to 10 Topic Groups
-   * Select a request queue, a Topic group, and a Queue&nbsp;Topic
+   * Select a request queue, a Topic group, and a Queue Topic
 
-1. Before you submit the request, click&nbsp;**Share Path** in the upper-right corner of the page.
+1. Before you submit the request, click **Share Path** in the upper-right corner of the page.
 
    This copies a link to the request queue, topic group, or queue topic that you selected in the previous step to your clipboard.
 

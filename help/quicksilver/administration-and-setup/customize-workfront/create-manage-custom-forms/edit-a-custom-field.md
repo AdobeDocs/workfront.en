@@ -15,6 +15,12 @@ You can add a new custom field or widget directly from the Fields area in Workfr
 
 You can also edit the properties of a custom field, section break, or widget that is used in custom forms. These include the item's label, name, instructions, and so on.
 
+Setting a custom field as Inactive excludes it from reports, filters, and views, and the field is no longer available in the custom forms field library. All new fields are set to Active by default.
+
+>[!NOTE]
+>
+>Marking an existing field inactive makes it unavailable to use in reporting elements and custom forms from that point forward. If the inactive field is currently used in a report or a form, the field and its historical data remain in place.
+
 If you remove a custom field from a custom form, it still exists on all other forms it was added to, and you can edit it on a form or in the Fields area. For information on deleting a field, see [Delete a custom field or widget from the system](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 
 For information about custom fields and widgets in custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -23,31 +29,27 @@ For information about custom fields and widgets in custom forms, see [Create a c
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
-   <td>Any</td> 
+  <tr> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td>
-   <p>New: Standard</p>
-   <p>or</p>
-   <p>Current: Plan</p></td>
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations</td> 
+  <tr> 
+   <td>Access level configurations</td> 
    <td> <p>Administrative access to custom forms</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

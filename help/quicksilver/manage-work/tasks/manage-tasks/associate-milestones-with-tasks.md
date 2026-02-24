@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Associate milestones with tasks
+title: Associate Milestones with Tasks
 description: You can associate milestones with tasks to indicate when you reach important steps in the lifetime of the project. You must associate a milestone path with a project before you can associate milestones with tasks on the project.
 author: Alina
 feature: Work Management
@@ -16,6 +16,37 @@ You can associate milestones with tasks to indicate when you reach important ste
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p> 
+   <p>Work or higher</p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the task</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,11 +73,7 @@ You can associate milestones with tasks to indicate when you reach important ste
    <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-To find out what plan, license type, or access you have, contact your Workfront administrator.
-
-+++
+</table>-->
 
 ## Prerequisites
 
@@ -68,7 +95,7 @@ Before you can associate a milestone with a task, the following must exist:
 
 After a milestone path is associated with a project, tasks can be assigned a milestone.
 
-1. Go to a task, then click the **More** icon ![](assets/more-icon.png) to the right of the task name, then **Edit**.
+1. Go to a task, then click the **More** icon ![More icon](assets/more-icon.png) to the right of the task name, then **Edit**.
 
    Tasks and Milestones have a 1:1 relationship. You cannot attach the same milestone to multiple tasks. Each task can be linked to a single milestone, or each milestone can be mapped to one task.
 
@@ -78,8 +105,8 @@ After a milestone path is associated with a project, tasks can be assigned a mil
 
    For information, see [Create or edit views in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md). 
 
-   ![](assets/amwt3.png)
+   ![Status icons](assets/amwt3.png)
 
 1. (Optional) Go to a list of projects, select the **Milestone** view to identify the progress of your milestone tasks.
 
-   ![](assets/milestone-view-project-list.png)
+   ![Milestone view project list](assets/milestone-view-project-list.png)

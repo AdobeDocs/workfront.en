@@ -4,7 +4,7 @@ content-type: reference
 navigation-topic: boards
 title: Configure Card Falloff
 description: You can configure a board so that cards are archived, or fall off the board, on a schedule.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
 ---
@@ -18,22 +18,19 @@ When a card falls off the board, it is archived. You can display archived cards 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-   <p>New: [!UICONTROL Contributor] or higher</p> 
-   <p>or</p>
-   <p>Current: [!UICONTROL Request] or higher</p>
+   <p>Contributor or higher</p> 
+   <p>Request or higher</p>
    </td> 
   </tr> 
  </tbody> 

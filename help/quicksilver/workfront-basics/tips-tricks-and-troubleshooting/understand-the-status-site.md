@@ -3,6 +3,7 @@ title: The [!DNL Adobe Workfront] Status site
 description: You can view the health of the [!DNL Workfront] platform, including incidents, scheduled maintenance windows, and the current status of all [!DNL Workfront] clusters by accessing the [!DNL Workfront Status] site.
 draft: Probably
 feature: Get Started with Workfront
+author: Becky
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
 ---
 # The [!DNL Adobe Workfront] Status site

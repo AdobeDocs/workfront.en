@@ -2,8 +2,8 @@
 content-type: overview
 product-area: projects
 navigation-topic: manage-projects
-title: Manage information in the project Overview area
-description: Manage information in the project Overview area
+title: Manage Information in the Project Overview area
+description: You can view or edit the information of a project by accessing the Overview area of the Project Details section. There is a limited number of fields that you can view or edit in this area.
 author: Alina
 feature: Work Management, Projects
 role: User
@@ -19,7 +19,38 @@ You can view or edit the information of a project by accessing the Overview area
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for the functionality in this article. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront license</p> </td> 
+   <td><p>Light or higher</p> 
+   <p>Review or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View access or higher to Projects</p>
+</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,15 +76,13 @@ You must have the following access to perform the steps in this article:
    <p>Manage access to the project to edit information about the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+</table>-->
 
 ## Access the Overview section
 
 1. Go to the project whose Overview section you want to view.
 1. Click **Project Details** in the left panel. 
-1. The **Overview** section should display first as part of the Project&nbsp;Details and should be expanded by default
+1. The **Overview** section should display first as part of the Project Details and should be expanded by default
 
    Or
 
@@ -92,27 +121,27 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Priority</td> 
-      <td>Serves as the designated&nbsp;priority or importance of the project.</td> 
+      <td>Serves as the designated priority or importance of the project.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Status</td> 
-      <td> <p>The project&nbsp;Status. </p> <p>Tip: You cannot complete a project unless all tasks and issues have also completed. If the Completion&nbsp;Mode of the Project is set to Automatic, you cannot manually complete a project. </p> </td> 
+      <td> <p>The project Status. </p> <p>Tip: You cannot complete a project unless all tasks and issues have also completed. If the Completion Mode of the Project is set to Automatic, you cannot manually complete a project. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Condition&nbsp;Type</td> 
-      <td>Determines if the manager sets the Condition&nbsp;of the project or if Workfront does.&nbsp;For information about Project&nbsp;Condition, see the article <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of Project Condition and Condition Type</a>.</td> 
+      <td role="rowheader">Condition Type</td> 
+      <td>Determines if the manager sets the Condition of the project or if Workfront does. For information about Project Condition, see the article <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of Project Condition and Condition Type</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Schedule Mode</td> 
-      <td>Sets how the project is scheduled.&nbsp;For example, whether the project is scheduled from Start Date or from the Completion Date.&nbsp;</td> 
+      <td>Sets how the project is scheduled. For example, whether the project is scheduled from Start Date or from the Completion Date. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Planned Start Date and Time</td> 
-      <td> When the project is planned to start. This is manually set by the project manager when the project is scheduled from Start&nbsp;Date. Workfront automatically sets this date when the project is scheduled from&nbsp;Completion&nbsp;Date, based on the duration of the tasks in the project.</td> 
+      <td> When the project is planned to start. This is manually set by the project manager when the project is scheduled from Start Date. Workfront automatically sets this date when the project is scheduled from Completion Date, based on the duration of the tasks in the project.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Planned Completion Date and Time</td> 
-      <td> When the project is planned to complete. This is manually set by the project manager when the project is scheduled from Completion Date. Workfront automatically sets this date when the project is scheduled from&nbsp;Start Date, based on the duration of the tasks in the project. </td> 
+      <td> When the project is planned to complete. This is manually set by the project manager when the project is scheduled from Completion Date. Workfront automatically sets this date when the project is scheduled from Start Date, based on the duration of the tasks in the project. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Portfolio</td> 
@@ -174,7 +203,7 @@ You must have the following access to perform the steps in this article:
    | Entered By |The name of the user who created the project.  |
    | Last Update Date |The date and time when the project was last updated.  |
    | Last Updated By |The name of the user who last updated the project.  |
-   | Template |&nbsp; |
+   | Template |  |
 
   
 1. If your company has purchased an additional license for the Adobe Workfront Scenario Planner, and the project has information published from a linked initiative, review the following initiative information in the Scenario Planner area:
@@ -201,15 +230,15 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader"><span>Initiative End Date</span> </td> 
-      <td><span>The last day of the end month of the initiative, when the project is linked to an initiative.&nbsp;</span> </td> 
+      <td><span>The last day of the end month of the initiative, when the project is linked to an initiative. </span> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>Initiative Job&nbsp;Roles in FTEs and Hours</span> </td> 
-      <td> <p>Information about the associated job roles and their time allocations for the initiative.&nbsp;This includes:</p> 
+      <td role="rowheader"><span>Initiative Job Roles in FTEs and Hours</span> </td> 
+      <td> <p>Information about the associated job roles and their time allocations for the initiative. This includes:</p> 
        <ul> 
-        <li>Job&nbsp;Role name</li> 
+        <li>Job Role name</li> 
         <li>Number of FTEs</li> 
-        <li> <p>Number of Hours for all&nbsp;FTEs</p> <p>You can estimate the amount of job roles needed for your plan or initiative using hours or FTEs.&nbsp;</p> <p>For more information, see <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Scenario Planner</a>. </p> </li> 
+        <li> <p>Number of Hours for all FTEs</p> <p>You can estimate the amount of job roles needed for your plan or initiative using hours or FTEs. </p> <p>For more information, see <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Scenario Planner</a>. </p> </li> 
        </ul> <p>Tip: <span>If the number of job role is different for each month in the initiative, this field displays the maximum amount of roles needed for the initiative. For example, if you need 1 Consultant for January and 2 for February, the column displays 2FTE and the corresponding amount of hours for 2 FTEs for all months.</span> </p> </td> 
      </tr> 
     </tbody> 

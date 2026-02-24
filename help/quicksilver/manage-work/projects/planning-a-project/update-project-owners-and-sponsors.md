@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: plan-a-project
-title: Update project owners and sponsors
+title: Update Project Owners and Sponsors
 description: When you create a project in Adobe Workfront, you are automatically set as the Project Owner of the project. You can update this field with another user. You can also update the Project Sponsor field of a project.
 author: Alina
 feature: Work Management
@@ -26,38 +26,37 @@ For information about projects owners and sponsors, see [Overview of project own
 
 ## Access requirements
 
-<!--drafted for P&P:
++++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> <p>  </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p> 
-   </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p> 
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Edit permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Edit permissions to a project</p> </td> 
   </tr> 
  </tbody> 
 </table>
--->
 
-+++ Expand to view access requirements for the functionality in this article. 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -81,11 +80,7 @@ For information about projects owners and sponsors, see [Overview of project own
    <td> <p>Edit permissions to a project</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Update the Project Owner of a project
 

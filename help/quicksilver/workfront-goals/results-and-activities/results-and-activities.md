@@ -12,6 +12,16 @@ exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
 
 # Results and activities in Adobe Workfront Goals
 
+>[!NOTE]
+>
+>Your company might choose to continue using Adobe Workfront Goals if they bought this package in the past. You must speak with your account representative for details. 
+>
+>Adobe Workfront Goals is no longer available for purchase.
+>
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
+
 >[!IMPORTANT]
 >
 >Your organization must have the following to use the functionality described in this article:
@@ -27,7 +37,7 @@ exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
 
 To record progress on Workfront Goals, you must associate progress indicators to goals. In addition to results and activities, you can also associate projects or children goals to a goal to record progress. 
 

@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Reorder Group Statuses
 description: As a group administrator, you can change the order of project, task, and issue statuses for a group you manage.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 0cdb4d10-7792-4140-8dec-ef805f668f90
@@ -33,32 +33,27 @@ If there are any groups above the group you manage, their administrators can als
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p>
-       <p>Or</p>
-       <p>Current: Plan</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Access level configurations</td> 
    <td>You must be a group administrator of the group or a system administrator.</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

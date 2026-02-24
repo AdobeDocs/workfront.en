@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Add or Remove Members from a Board
 description: People must be added to the board as members before they can view the board and be assigned to cards.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
 ---
@@ -17,22 +17,19 @@ The creator of a board is the owner by default. The board owner is the only pers
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-   <p>New: [!UICONTROL Contributor] or higher</p> 
-   <p>or</p>
-   <p>Current: [!UICONTROL Request] or higher</p>
+   <p>Contributor or higher</p> 
+   <p>Request or higher</p>
    </td> 
   </tr> 
  </tbody> 

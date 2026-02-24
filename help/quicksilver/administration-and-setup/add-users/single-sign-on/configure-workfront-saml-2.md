@@ -17,7 +17,13 @@ exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
 
 <!-- Audited: 12/2023 -->
 
-{{important-admin-console-onboard}}
+
+
+>[!IMPORTANT]
+>
+>The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
+>
+>To map user attributes in organizations that have been onboarded to the Adobe Admin Console, see [Map user attributes in the Adobe unified experience](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) in the article Map user attributes.
 
 As an Adobe Workfront administrator, you can configure the Workfront web and mobile applications to integrate with a Security Assertion Markup Language (SAML) 2.0 solution for single sign-on (SSO).
 
@@ -27,31 +33,26 @@ After you have configured SAML 2.0 in Workfront, as described in the following s
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard </p>
-       <p>or</p> 
-       <p>Current: Plan </p>
-   </td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> </td> 
+   <td> <p>You must be a Workfront administrator.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

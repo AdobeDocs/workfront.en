@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: create-tasks
-title: Create tasks overview
+title: Create Tasks Overview
 description: You can create tasks in a project only after you created the project.
 author: Alina
 feature: Work Management
@@ -50,7 +50,7 @@ There are two types of default information that Workfront automatically updates 
 
 * System-level default information
 
-  Your Workfront administrator or a group administrator establishes the system-level defaults for tasks in the Tasks &&nbsp;Issues area of Project Preferences. For information about task and issue preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) or [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  Your Workfront administrator or a group administrator establishes the system-level defaults for tasks in the Tasks & Issues area of Project Preferences. For information about task and issue preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) or [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 * Project-level default information
 
@@ -80,7 +80,7 @@ When defining default information to be associated with tasks added to a project
 * When you copy tasks from one project to another and the destination project has different default settings for tasks, the copied tasks preserve the default settings from the original project, unless they are cleared in the copying process.
 * When you duplicate a task on the same project, the custom forms and approval process are transferred to the duplicate task.
 
-  For information about copying and duplicating tasks, see [ [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  For information about copying and duplicating tasks, see [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 * When you move the task to another project, the default task settings are saved on the tasks from the original project, regardless of the task default settings on the new project.
 

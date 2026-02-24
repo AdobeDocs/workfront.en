@@ -19,36 +19,32 @@ Using filters, you can modify what information displays in the Resource Planner 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td><p>New: Any</p>
-       <p>or</p>
-       <p>Current: Pro or higher</p> </td> 
+  <tr> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Light or higher</p>
-       <p>or</p>
-       <p>Current: Review or higher</p></td>
+   <td>Adobe Workfront license</td> 
+   <td><p>Light or higher</p>
+       <p>Review or higher</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>View access or higher to Projects, Users, and Resource Management</p> </td> 
+   <td>Access level configurations</td> 
+   <td> <p>View access or higher to Projects, Users, and Resource Management</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher for projects</p> </td> 
+   <td>Object permissions</td> 
+   <td> <p>View or higher permissions for projects</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

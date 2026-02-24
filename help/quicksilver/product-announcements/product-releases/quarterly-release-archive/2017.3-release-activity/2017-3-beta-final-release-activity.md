@@ -88,29 +88,29 @@ For more information, see "Customizing Home" in "Creating and Managing Layout Te
 
 ## Kanban for Agile&nbsp; {#kanban-for-agile}
 
-Agile teams can now use a Kanban methodology within Workfront, in addition to the Scrum agile methodology already supported.
+Agile teams can now use a Kanban methodology within Workfront, in addition to the Scrum Agile methodology already supported.
 
-Scrum and Kanban agile methodologies in Workfront differ in the following ways:
+Scrum and Kanban Agile methodologies in Workfront differ in the following ways:
 
 **Benefits of Using Kanban in Workfront**
 
-* Display the backlog on the Kanban agile story board.
+* Display the backlog on the Kanban Agile story board.
 
   For more information, see in .
 
-* Configure items on the backlog to be automatically added to the Kanban agile story board when other items are moved to a status that equates with Complete.
+* Configure items on the backlog to be automatically added to the Kanban Agile story board when other items are moved to a status that equates with Complete.
 
   For more information, see [Configure stories to be automatically added from the backlog](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)&nbsp;in [Configure Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-* Configure a Work In Progress (WIP) limit to be displayed on the Kanban agile story board.
+* Configure a Work In Progress (WIP) limit to be displayed on the Kanban Agile story board.
 
   For more information, see [Configure the work in progress (WIP) limit](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) in [Configure Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 **Benefits of Using Scrum in Workfront**
 
-* Add a set of stories to an agile iteration and create a story board for that iteration.
+* Add a set of stories to an Agile iteration and create a story board for that iteration.
 * Include issues on the Scrum story board.
-* Include issues on the backlog&nbsp;of an agile team.
+* Include issues on the backlog&nbsp;of an Agile team.
 
   For more information, see [Configure how dates are applied when adding work items to an iteration](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)&nbsp;in [Configure Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
@@ -119,7 +119,7 @@ Scrum and Kanban agile methodologies in Workfront differ in the following ways:
 
   For more information, see [Agile burndown chart overview](../../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
-For more information about enabling and configuring Kanban for an agile team, see [Decide on an agile methodology](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) in [Create an agile team](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+For more information about enabling and configuring Kanban for an Agile team, see [Decide on an Agile methodology](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) in [Create an Agile team](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 ## Include Issues on the Scrum Backlog for an Agile Team {#include-issues-on-the-scrum-backlog-for-an-agile-team}
 
@@ -127,15 +127,15 @@ For more information about enabling and configuring Kanban for an agile team, se
 >
 >This functionality was removed from the Production environment on November 14, 2017. It is planned to be reintroduced to the Preview environment early in 2018 with an enhanced design and increased stability. It will be available in the Production environment with the 2018.1 release.
 
-You can now include issues on the backlog of your agile team when using the Scrum agile methodology (issues are not displayed on the backlog of an agile team when using the Kanban methodology). Existing Scrum agile teams must enable this functionality in order for issues to be included. Issues are automatically included on the backlog for Scrum agile teams that are created after the 2017.3 release.
+You can now include issues on the backlog of your Agile team when using the Scrum Agile methodology (issues are not displayed on the backlog of an Agile team when using the Kanban methodology). Existing Scrum Agile teams must enable this functionality in order for issues to be included. Issues are automatically included on the backlog for Scrum Agile teams that are created after the 2017.3 release.
 
 Prior to this change, only tasks could be added to&nbsp;the backlog. If you wanted to add an issue, you first had to convert the issue to a task before it could be added.
 
 Because you now have access to more than just tasks on the backlog, any custom task views previously available on the backlog are copied and added to the backlog as custom Backlog Work Item views.
 
-For information about using issues on the backlog, see&nbsp; [Manage the agile backlog](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+For information about using issues on the backlog, see&nbsp; [Manage the Agile backlog](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
-For information about enabling issues to be available on the backlog of an agile Scrum team, see&nbsp; [Configure how dates are applied when adding work items to an iteration](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)&nbsp;in [Configure Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+For information about enabling issues to be available on the backlog of an Agile Scrum team, see&nbsp; [Configure how dates are applied when adding work items to an iteration](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)&nbsp;in [Configure Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Include Issues on the Scrum Agile Story Board {#include-issues-on-the-scrum-agile-story-board}
 
@@ -143,9 +143,9 @@ For information about enabling issues to be available on the backlog of an agile
 >
 >This functionality was removed from the Production environment on November 14, 2017. It is planned to be reintroduced to the Preview environment early in 2018 with an enhanced design and increased stability. It will be available in the Production environment with the 2018.1 release.
 
-You can now include issues on the story board when using the Scrum agile methodology.
+You can now include issues on the story board when using the Scrum Agile methodology.
 
-For more information, see [Configure status columns on the agile story board](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2) in [Configure Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+For more information, see [Configure status columns on the Agile story board](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2) in [Configure Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Apply Groupings and Filters to the Backlog for an Agile Team {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
@@ -153,11 +153,11 @@ For more information, see [Configure status columns on the agile story board](..
 >
 >This functionality was removed from the Production environment on November 14, 2017. It is planned to be reintroduced to the Preview environment early in 2018 with an enhanced design and increased stability. It will be available in the Production environment with the 2018.1 release.
 
-The Grouping and Filter options are now available on the agile backlog, allowing you to organize your backlog by groupings, as well as filter for specific tasks and issues.
+The Grouping and Filter options are now available on the Agile backlog, allowing you to organize your backlog by groupings, as well as filter for specific tasks and issues.
 
-Prior to this change, you could apply on views to the agile backlog.
+Prior to this change, you could apply on views to the Agile backlog.
 
-For more information,&nbsp;see&nbsp; [Manage the agile backlog](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) in&nbsp; [Manage the agile backlog](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+For more information,&nbsp;see&nbsp; [Manage the Agile backlog](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) in&nbsp; [Manage the Agile backlog](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ## Rich Text Formatting for Updates and Emails {#rich-text-formatting-for-updates-and-emails}
 
@@ -446,8 +446,6 @@ We have made the following improvements to the Workfront add-in for&nbsp; Outloo
 
 * Add a task or an issue to a project in Workfront: You can now convert an email to a task or an issue in Workfront, using the Outlook 365 add-in. In this process, you can specify a project you want the task or the issue to be added to, as well as an assignee and a due date. Prior to this enhancement, you could only submit a request to a request queue or add a personal task to your Working On list from Outlook 365.&nbsp;
 * Preserve a link to Workfront objects in the original email converted to tasks, issues, or requests: When you convert an email from Outlook 365 to a task, an issue, or a request, Outlook 365 preserves a link to the task or issue that was converted from that email inside the original email. Prior to this change, there was no indication in Outlook whether an email had been converted to a task or submitted as a request.&nbsp;
-
-  For more information about converting an email to a task or an issue from Outlook 365, see [Add an Outlook email to a project as a task or an issue](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md).
 
 ## API Changes {#api-changes}
 

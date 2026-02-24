@@ -3,8 +3,8 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: scrum-board
 title: Scrum Board Overview
-description: The Scrum agile story board displays together with the completion status and the burndown chart.
-author: Lisa
+description: The Scrum Agile story board displays together with the completion status and the burndown chart.
+author: Jenny
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
 ---
@@ -12,10 +12,10 @@ exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
 
 <!-- Audited: 5/2025 -->
 
-The [!UICONTROL Scrum] agile story board displays together with the completion status and the burndown chart. These agile components are available in the following situations in [!UICONTROL Adobe Workfront]:
+The [!UICONTROL Scrum] Agile story board displays together with the completion status and the burndown chart. These Agile components are available in the following situations in [!UICONTROL Adobe Workfront]:
 
-* On agile iterations. For more details about using the agile story board, burndown chart, and completion status in a pure agile environment (with backlogs and an iteration), see [Work in an agile environment](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
-* When viewing a project in an agile view. For information about how you can leverage the agile story board, burndown chart, and completion status within an existing project, see [Manage a project in the Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+* On Agile iterations. For more details about using the Agile story board, burndown chart, and completion status in a pure Agile environment (with backlogs and an iteration), see [Work in an Agile environment](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+* When viewing a project in an Agile view. For information about how you can leverage the Agile story board, burndown chart, and completion status within an existing project, see [Manage a project in the Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 ![Agile iteration](assets/agile-iteration-with-callouts.png)
 
@@ -29,7 +29,7 @@ The story board consists of the following elements:
 
    In an iteration, this column appears on the story board only when one or more stories on the story board contains at least one subtask that meets the following requirements:
 
-    * Assigned to the same agile team as the parent task.
+    * Assigned to the same Agile team as the parent task.
     * Belongs to the iteration.
 
       In a project, this column appears any time a task has at least one subtask.
@@ -38,13 +38,13 @@ The story board consists of the following elements:
 
 * **Task Statuses**: Indicate how a story is progressing through the iteration or project based on which status column the story is in.
 
-   Task statuses can be customized for the project by modifying the agile view.
+   Task statuses can be customized for the project by modifying the Agile view.
 
 * **Swim Lane**: When a parent story and its subtasks appear on the story board, a swim lane is created specifically for the story and its subtasks. This provides a visual distinction to better view how a story's subtasks are progressing across the story board.
 
    In an iteration, swim lanes appear on the story board only when a story on the story board contains at least one subtask that meets the following requirements:
 
-    * Assigned to the same agile team as the parent task.
+    * Assigned to the same Agile team as the parent task.
     * Belongs to the iteration.
 
    In a project, swim lanes appear any time a task has at least one subtask or one parent task.
@@ -61,10 +61,10 @@ This same logic applies to second-level subtasks (subtasks of subtasks). If a su
 
 ## Relationship between the Story Board and the Backlog
 
-The iteration backlog shows only stories or subtasks where you can set an estimate. If a parent story has subtasks that are displayed on the story board (because they are assigned to the same agile team and belong to the iteration), the parent task is not displayed on the backlog. In this situation, only the subtasks are displayed on the backlog, while the subtasks and the parent story are displayed on the story board.
+The iteration backlog shows only stories or subtasks where you can set an estimate. If a parent story has subtasks that are displayed on the story board (because they are assigned to the same Agile team and belong to the iteration), the parent task is not displayed on the backlog. In this situation, only the subtasks are displayed on the backlog, while the subtasks and the parent story are displayed on the story board.
 
-For example, suppose that Story A contains Subtask 1 and Subtask 2 (and both subtasks are assigned to the same agile team). In this situation, Story A is displayed on the story board in a swim lane with Subtask 1 and Subtask 2. However, only Subtask 1 and Subtask 2 are displayed in the backlog.
+For example, suppose that Story A contains Subtask 1 and Subtask 2 (and both subtasks are assigned to the same Agile team). In this situation, Story A is displayed on the story board in a swim lane with Subtask 1 and Subtask 2. However, only Subtask 1 and Subtask 2 are displayed in the backlog.
 
-This same logic applies to second-level subtasks (subtasks of subtasks). If a subtask has one or more second-level subtasks assigned to the same agile team and belong to the iteration, only the second-level subtask is displayed in the backlog.
+This same logic applies to second-level subtasks (subtasks of subtasks). If a subtask has one or more second-level subtasks assigned to the same Agile team and belong to the iteration, only the second-level subtask is displayed in the backlog.
 
-For more information about the backlog, see [Manage the agile backlog](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+For more information about the backlog, see [Manage the Agile backlog](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

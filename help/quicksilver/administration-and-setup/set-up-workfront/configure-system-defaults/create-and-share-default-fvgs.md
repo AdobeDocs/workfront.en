@@ -17,7 +17,7 @@ exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-You can create filters, views, and groupings and make them available to users system-wide in your organization. 
+You can create filters, views, and groupings and make them available to users system-wide in your organization.
 
 When you create system-wide filters, views, and groupings as described in this article, users who you share them with can leverage them when viewing their lists. Users can create their own filters, views, and groupings based on those you create, but they cannot directly change them.
 
@@ -27,32 +27,27 @@ Please note that system-wide filters, views, and groupings that you create are d
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article: 
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Any</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td><p>New: [!UICONTROL Standard]</p>
-   Or
-   <p>Current: [!UICONTROL Plan]</p>
-   </td> 
-  </tr>
+   <td>[!DNL Adobe Workfront] license</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
+  </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Access level configurations</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

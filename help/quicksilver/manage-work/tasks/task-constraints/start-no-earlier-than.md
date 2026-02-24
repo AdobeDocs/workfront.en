@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Task Constraint overview: Start No Earlier Than'
+title: 'Task Constraint Overview: Start No Earlier Than'
 description: Use the Start No Earlier Than (SNET) Task Constraint to schedule a task to start after the date you specify.
 author: Alina
 feature: Work Management
@@ -37,12 +37,12 @@ Consider the following when using the Start No Earlier Than Task Constraint:
 
   For information about moving tasks, see [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md). For information about copying tasks, see [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-For information about how to update the Task&nbsp;Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+For information about how to update the Task Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Use the Start No Earlier Than Task Constraint</h2>
-<p>(NOTE:&nbsp;replaced with new article linked above)&nbsp;</p>
+<p>(NOTE: replaced with new article linked above) </p>
 <p>To update the Task Constraint to Start No Later Than:</p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>

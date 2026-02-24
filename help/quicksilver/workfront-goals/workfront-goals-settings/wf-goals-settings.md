@@ -11,6 +11,18 @@ exl-id: 7cdef9d5-e37b-4f1f-9293-39c79781590a
 ---
 # Adobe Workfront Goals settings
 
+<!--Audited for P&P only: 10/2025-->
+
+>[!NOTE]
+>
+>Your company might choose to continue using Adobe Workfront Goals if they bought this package in the past. You must speak with your account representative for details. 
+>
+>Adobe Workfront Goals is no longer available for purchase.
+>
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
+
 >[!IMPORTANT]
 >
 >Your organization must have the following to use the functionality described in this article:
@@ -26,9 +38,9 @@ exl-id: 7cdef9d5-e37b-4f1f-9293-39c79781590a
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).  --> 
 
-This section contains the following articles:
+Learn about goal-related notifications and how to share a goal in Adobe Workfront Goals in the following articles:
 
 * [Enable Adobe Workfront Goals notifications](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md) 
 * [Share a goal in Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md)

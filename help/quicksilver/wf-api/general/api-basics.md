@@ -259,16 +259,16 @@ GET /attask/api/v15.0/task/search?percentComplete=100
 
 The following table lists some of the modifiers you can use with the Workfront API.
 
-| **Modifier** |**Description** |**Example** |
-|---|---|---|
-| eq |returns results that are in the status of closed |<pre>...status=cls&status_Mod=eq...</pre> |
-| ne |returns results that are not in the status of closed |<pre>...status=cls&status_Mod=ne...</pre> |
-| gte |returns results that have a percent complete greater than&nbsp;or equal to 50 |<pre>...percentComplete=50&percentComplete_Mod=gte...</pre> |
-| lte |returns results that have a percent complete less than or equal to 50 |<pre>...percentComplete=50&percentComplete_Mod=lte...</pre> |
-| isnull |returns results where the description is Null |<pre>...description_Mod=isnull...</pre> |
-| notnull |returns results where the description is not Null |<pre>...description_Mod=notnull...</pre> |
-| contains |returns results where name contains "Workfront" |<pre>...name=Workfront&name_Mod=contains...</pre> |
-| between |returns results that have an entry date within the last 7 days |<pre>...entryDate=$$TODAY-7d&entryDate_Range=$$TODAY&entryDate_Mod=between...</pre> |
+| **Modifier** | **Description** | **Example** |
+| --- | --- | --- |
+| eq | returns results that are in the status of closed | <pre>...status=cls&status_Mod=eq...</pre> |
+| ne | returns results that are not in the status of closed | <pre>...status=cls&status_Mod=ne...</pre> |
+| gte | returns results that have a percent complete greater than&nbsp;or equal to 50 | <pre>...percentComplete=50&percentComplete_Mod=gte...</pre> |
+| lte | returns results that have a percent complete less than or equal to 50 | <pre>...percentComplete=50&percentComplete_Mod=lte...</pre> |
+| isnull | returns results where the description is Null | <pre>...description_Mod=isnull...</pre> |
+| notnull | returns results where the description is not Null | <pre>...description_Mod=notnull...</pre> |
+| contains | returns results where name contains "Workfront" | <pre>...name=Workfront&name_Mod=contains...</pre> |
+| between | returns results that have an entry date within the last 7 days | <pre>...entryDate=$$TODAY-7d&entryDate_Range=$$TODAY&entryDate_Mod=between...</pre> |
 
 {style="table-layout:auto"}
 
@@ -529,7 +529,7 @@ DELETE removes an object. In every case, the URI may include the parameter force
 ## Bulk Updates
 
 A bulk update statement updates multiple objects at the same time within a single API call. A bulk create API call is built similarly to a normal update call, as shown in the following examples:
-<pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&method=POST&apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>which results in a return similar to the following:
+<pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&method=POST&apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>or <pre>PUSH /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&method=POST&apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>which results in a return similar to the following:
 <pre>data: [{<br>&nbsp;&nbsp;&nbsp;&nbsp;ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>&nbsp;&nbsp;&nbsp;&nbsp;name: "Test_Project_1",<br>&nbsp;&nbsp;&nbsp;&nbsp;objCode: "PROJ",<br>&nbsp;&nbsp;&nbsp;&nbsp;percentComplete: 0,<br>&nbsp;&nbsp;&nbsp;&nbsp;plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp;plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp;priority: 0,<br>&nbsp;&nbsp;&nbsp;&nbsp;projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp;status: "CUR"<br>},<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>&nbsp;&nbsp;&nbsp;&nbsp;name: "Test_Project_2",<br>&nbsp;&nbsp;&nbsp;&nbsp;objCode: "PROJ",<br>&nbsp;&nbsp;&nbsp;&nbsp;percentComplete: 0usi,<br>&nbsp;&nbsp;&nbsp;&nbsp;plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp;plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp;priority: 0,<br>&nbsp;&nbsp;&nbsp;&nbsp;projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp;status: "CUR"<br>}]</pre>You also can do a bulk update similar to the following:
 <pre>PUT /attask/api/v15.0/proj?Umethod=PUT&updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}]&apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>which results in a return similar to the following:
 <pre>data: [ {<br>&nbsp;&nbsp;&nbsp;&nbsp; ID: "53ff8e15003b461d4560f7f65a440078",<br>&nbsp;&nbsp;&nbsp;&nbsp; name: "Test_Project_1_Edit",<br>&nbsp;&nbsp;&nbsp;&nbsp; objCode: "PROJ",<br>&nbsp;&nbsp;&nbsp;&nbsp; percentComplete: 0,<br>&nbsp;&nbsp;&nbsp;&nbsp; plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp; plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp; priority: 0,<br>&nbsp;&nbsp;&nbsp;&nbsp; projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp; status: "CUR"<br>},<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;ID: "53ff8e19003b46238a58d303608de502",<br>&nbsp;&nbsp;&nbsp;&nbsp;name: "Test_Project_2_Edit",<br>&nbsp;&nbsp;&nbsp;&nbsp;objCode: "PROJ",<br>&nbsp;&nbsp;&nbsp;&nbsp;percentComplete: 0,<br>&nbsp;&nbsp;&nbsp;&nbsp;plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp;plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp;priority: 0,<br>&nbsp;&nbsp;&nbsp;&nbsp;projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp;status: "CUR"<br>}]</pre>If you want all operations to happen in the same transaction, add "atomic=true" to your batch API call as a request parameter. This way, if any of the operations fail, all of the operations rolled back.

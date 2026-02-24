@@ -9,6 +9,7 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 ---
 # Manage the table view
 
+
 <span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
@@ -28,9 +29,50 @@ For information about exporting the table view to an Excel or CSV file, see [Exp
 
 ## Access requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view the access requirements for the functionality in this article. 
 
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Workfront and any Planning package</p>
+<p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr> 
+</tbody> 
+</table> 
+
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++ 
+
+<!--Old:
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -90,11 +132,7 @@ For information about exporting the table view to an Excel or CSV file, see [Exp
 </td>
   </tr>
 </tbody> 
-</table> 
-
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++   
+</table> -->
 
 ## Edit records using the table view
 
@@ -108,7 +146,7 @@ When creating a table view, all records of the selected type display in a table.
 
 To manage a table view: 
 
-1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
 
     ![Table view example](assets/table-view-example.png)
 
@@ -117,7 +155,7 @@ To manage a table view:
     * Medium
     * Tall 
 
-1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
+1. (Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.
 
 1. Update the following view elements as described in the subsections below:
     * [Columns (or fields)](#add-columns-or-fields)
@@ -146,15 +184,16 @@ You can add up to 500 fields (or columns) in a table view.
 1. Start adding fields (or columns), as described in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
 
     The columns you add are visible to all users who access the record type and are added as new fields on the record's page.
+
+1. (Optional) Click the **Fields** icon ![Fields icon](assets/fields-icon.png) in the toolbar, search for a field, then unselect the toggle to the right of the field name to hide the field. 
    
 1. Do one of the following to reorder columns in the table:
 
     * Grab the column header and drag and drop it in the desired position. The column you moved briefly displays with a blue background until you make other adjustments to the table. 
 
     * Click **Fields** in the table's toolbar, then drag and drop the fields in the desired order, then click outside the **Fields visibility and order** box to close it.
-
+        
         ![Fields setting table view toolbar expanded](assets/fields-setting-table-view-toolbar-expanded.png)
-
 
         >[!TIP]
         >
@@ -191,13 +230,15 @@ You can add up to 500 fields (or columns) in a table view.
     >[!TIP]
     >
     >The number of hidden fields displays to the left of the Fields icon in the toolbar.
+    >
+    ><span class="preview">By default, hidden fields do not display in the record's **Details** preview box. All fields display in the record's Details page. For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
 
 
 1. Click the **Fields** icon and enable the toggle associated with the fields you want to display in the columns of the table. All fields display by default.
 
 1. Do the following to quickly find records that match a keyword:
 
-    1. Click the **Search** icon ![Search icon](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
+    1. In the **Search** box ![Search icon](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
 
         ![Search box with results blue outline in table view](assets/search-box-with-results-blue-outline-table-view.png)
 
@@ -266,7 +307,7 @@ To add a filter to a table view:
 1. Select a table view, then click **Filters** in the upper-right corner of the table.    
 1. Click **Add condition** and add the following information: 
 
-    * **Select a field** that you want to filter by <!-- the tip below might change-->
+    * Search for a field and select it when it disaplays in the list when.
 
     * **Select an option** (or a filter modifier) to define what kind of condition the field must meet
 
@@ -457,6 +498,8 @@ To add a grouping:
 
     ![Grouping applied in table view](assets/grouping-applied-in-table-view.png)
 
+    
+
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
     Or
@@ -495,7 +538,7 @@ To sort grouped records:
 
 1. (Optional) Click **Row colors** to define conditions and choose configure diferent colors for table rows.
 
-1. Click **Add color**, then **Select a field** whose value you want to determine the color of a row. 
+1. Click **Add color**, then search for a field then select it when it displays in the list. This is the field whose value you want to determine the color of a row.
 
     For example, to display campaigns with a status of Active in green, select **Status**, then choose a modifier and a value for the field. 
 

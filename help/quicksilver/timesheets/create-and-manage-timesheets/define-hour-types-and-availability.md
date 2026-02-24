@@ -3,7 +3,7 @@ product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: Define Hour Types and Availability
 description: An Hour Type is a label that allows you to categorize time entry. Depending on the reporting requirements of your organization for hours, this can be an essential part of logging time.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
 ---
@@ -30,32 +30,30 @@ After the appropriate hour types have been configured, you can log time from mul
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New: Standard</p> 
-   <p>Current: Plan</p>
+   <td>Adobe Workfront license</td> 
+   <td> <p>Standard</p> 
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Access level configurations</td> 
    <td> <p>System administrator access to define system-wide hour types and to edit all users</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td>Object permissions</td> 
    <td>Manage access on the project to define hour types on a project</td> 
   </tr> 
  </tbody> 
 </table>
 
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

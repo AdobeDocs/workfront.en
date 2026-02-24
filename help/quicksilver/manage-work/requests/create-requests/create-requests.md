@@ -4,16 +4,12 @@ product-area: requests
 navigation-topic: requests-navigation-topic
 title: Create Requests
 description: Requests and issues are interchangeable in Adobe Workfront. You can create requests by submitting a request in Workfront, submitting a request in another application, or emailing a request into a project which is set up as a Request Queue.
-author: Alina
+author: Becky
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
 ---
 # Create requests
-
-<!--
-{{highlighted-preview}}
--->
 
 Requests and issues are interchangeable in Adobe Workfront. You can create requests by doing one of the following:
 
@@ -31,6 +27,7 @@ For more information about how to create, submit, or email requests in to Workfr
 * [Enable users to email an issue into a Request Queue project](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md) 
 * [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md) 
 * [Share a link to a request queue](../../../manage-work/requests/create-requests/share-link-to-request-queue.md) 
-* [Delete a request draft](../../../manage-work/requests/create-requests/delete-request-draft.md)
+* [Delete a submitted request or request draft](../../../manage-work/requests/create-requests/delete-request-draft.md)
 * [Auto-fill a request from previous data](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
-* [Auto-fill a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+* [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
+* [Use Form Fill powered by AI to fill in a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)

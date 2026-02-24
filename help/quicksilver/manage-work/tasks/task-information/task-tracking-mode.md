@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Task Tracking Mode overview
+title: Task Tracking Mode Overview
 description: You can adjust the Tracking Mode setting of a task when creating or editing a task to control how and when the Progress Status indicators of a task display. Adobe Workfront displays Progress Status flags when you configure certain settings for tracking progress on tasks.
 author: Alina
 feature: Work Management
@@ -23,9 +23,9 @@ For more information about the Progress Status of tasks, see [Task Progress Stat
 <p>To set the tracking mode:</p>
 <ol>
 <li value="1">Go to the task you want to set the tracking mode for.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png">next to the name of the task, then click&nbsp;<strong>Edit</strong>.</p> <p>The Edit Task dialog box opens. </p> </li>
-<li value="3"> <p>In the&nbsp;<strong>Settings</strong> section, use the&nbsp;<strong>Tracking Mode</strong> drop-down menu to select the Tracking Mode for the task.</p> <p>For more information about the tracking mode options, see the <a href="#tracking-mode-options" class="MCXref xref" xrefformat="{para}">Tracking Mode options</a> section in this article. </p> </li>
-<li value="4">Click&nbsp;<strong>Save Changes.</strong></li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png">next to the name of the task, then click <strong>Edit</strong>.</p> <p>The Edit Task dialog box opens. </p> </li>
+<li value="3"> <p>In the <strong>Settings</strong> section, use the <strong>Tracking Mode</strong> drop-down menu to select the Tracking Mode for the task.</p> <p>For more information about the tracking mode options, see the <a href="#tracking-mode-options" class="MCXref xref" xrefformat="{para}">Tracking Mode options</a> section in this article. </p> </li>
+<li value="4">Click <strong>Save Changes.</strong></li>
 </ol>
 </div>
 -->

@@ -7,7 +7,7 @@ author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
 ---
-# Review in-trouble goals in&nbsp;Adobe Workfront Goals
+# Review in-trouble goals in Adobe Workfront Goals
 
 <!--Audited: 4/2025-->
 
@@ -19,10 +19,57 @@ Goals with a Progress of In Trouble are in danger of not being achieved and are 
 
 ## Access requirements
 
+>[!NOTE]
+>
+>Your company might choose to continue using Adobe Workfront Goals if they bought this package in the past. You must speak with your account representative for details. 
+>
+>Adobe Workfront Goals is no longer available for purchase. 
+
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following: 
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+  <td> <p>Adobe Workfront package</p> </td> 
+   <td> 
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
+  </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront license</td>
+ <td>
+ <p>Contributor or higher</p>
+<p>Request or higher</p></td>
+ </tr>
+  <tr>
+ <td role="rowheader">Access level configuration</td>
+ <td> <p>Edit access to Goals</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <div>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  </div> </td>
+ </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including System Administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+</tbody>
+</table>
 
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -73,15 +120,11 @@ You must have the following:
 </td>
   </tr>
 </tbody>
-</table>
+</table>-->
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+## Recommendations for preventing goals to reach a progress of In Trouble
 
-+++
-
-## Recommendations for preventing goals to reach a progress of In&nbsp;Trouble
-
-Before goals reach a progress of In&nbsp;Trouble, you can monitor them often and adjust their progress when they reach a progress of At Risk. Goals that are at risk are in danger of becoming in trouble.&nbsp;For more information about goal progress, see [Overview of goal progress and condition in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md)
+Before goals reach a progress of In Trouble, you can monitor them often and adjust their progress when they reach a progress of At Risk. Goals that are at risk are in danger of becoming in trouble. For more information about goal progress, see [Overview of goal progress and condition in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md)
 
 Before your goals reach a progress of In Trouble, we recommend the following:
 
@@ -90,14 +133,11 @@ Before your goals reach a progress of In Trouble, we recommend the following:
 
 ## Review in-trouble goals in the Goal List
 
-You can review goals in any section of Workfront Goals.&nbsp;For information about the Workfront Goals sections, see [Overview of the Adobe Workfront Goals sections](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+You can review goals in any section of Workfront Goals. For information about the Workfront Goals sections, see [Overview of the Adobe Workfront Goals sections](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 This article describes how to review goals in the Goal List.
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+{{step1-to-goals}}
 
    This opens the Workfront Goals area and the Goal List section displays by default.
 

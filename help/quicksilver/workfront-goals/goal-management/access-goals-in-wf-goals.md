@@ -16,10 +16,57 @@ This article describes how you can find and manage strategic goals in Adobe Work
 
 ## Access requirements
 
+>[!NOTE]
+>
+>Your company might choose to continue using Adobe Workfront Goals if they bought this package in the past. You must speak with your account representative for details. 
+>
+>Adobe Workfront Goals is no longer available for purchase.
+
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following:
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr>
+  <td> <p>Adobe Workfront package</p> </td> 
+   <td> 
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+   <p>Contributor or higher</p>
+   <p>Request or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Goals</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <div> 
+     <p>View or higher permissions to the goal to view it</p> 
+     <p>Manage permissions to the goal to edit it</p> 
+      </div> </td> 
+  </tr> 
+  <tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including System Administrators, must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+ </tbody> 
+</table>
 
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -71,20 +118,13 @@ You must have the following:
 </td>
   </tr>
  </tbody> 
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 ## Access Workfront Goals
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
+{{step1-to-goals}}
 
-   <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-      The Goal List displays.
+   The Goal List displays.
 
    
    >[!IMPORTANT]
@@ -147,9 +187,12 @@ To access an individual goal in the Production environment:
 
 To access an individual goal: 
 
-1. Click the **Main Menu** icon  in the upper-right corner of Workfront, then click **Goals** .
+{{step1-to-goals}}
+
 The Goal List displays by default. 
+
 ![Goal list](assets/goal-list-unshimmed.png)
+
 1. Click the name of a goal in the list. 
 The goal's page displays. 
 ![Goal page](assets/goal-page-unshimmed.png)

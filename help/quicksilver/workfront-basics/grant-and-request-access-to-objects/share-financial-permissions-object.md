@@ -3,7 +3,7 @@ title: Share financial permissions on an object
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: Your Adobe Workfront administrator can grant you access to view or edit financial data when assigning your access level. For more information, see Grant access to financial data.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
 ---
@@ -35,7 +35,7 @@ For information about what users in each access level can do with financial data
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial&nbsp;Data</p> <p><b>NOTE</b>
+   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial  Data</p> <p><b>NOTE</b>
    
    If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
@@ -48,32 +48,33 @@ For information about what users in each access level can do with financial data
 -->
 
 +++ Expand to view access requirements for the functionality in this article. 
-You must have the following to share financial data information on objects:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p> 
+   <p>Plan</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial  Data</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher to projects, tasks, and issues that include at least View Finance permissions</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View permissions or higher to projects, tasks, and issues that include at least View Finance permissions</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -110,7 +111,7 @@ To grant financial permissions to an object:
 
 ## Financial permission for all sharing levels
 
-The following table displays what financial permissions users gain when you grant them View, Contribute, or Manage permissions on objects:&nbsp;
+The following table displays what financial permissions users gain when you grant them View, Contribute, or Manage permissions on objects:  
 
 <table style="table-layout:auto"> 
  <col> 
@@ -129,26 +130,26 @@ The following table displays what financial permissions users gain when you gran
   <tr> 
    <td>Manage Billing Records</td> 
    <td>✓</td> 
-   <td> <p>&nbsp;</p> </td> 
-   <td>&nbsp;</td> 
+   <td> <p>  </p> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Manage/ View Role Billing and Cost Rates</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Manage/ View User Billing and Cost Rates</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>View Finance</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>&nbsp;✓</td> 
+   <td>  ✓</td> 
   </tr> 
   <tr> 
    <td>View information by Cost in the Resource Planning tools</td> 
@@ -159,8 +160,8 @@ The following table displays what financial permissions users gain when you gran
   <tr> 
    <td>Budget resources in the Resource Planning tools*</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>View resources in the Resource Planning tools*</td> 

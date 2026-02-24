@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: "Plan a project: article index"
+title: "Plan a Project: Article Index"
 description: The following articles contain information about projects, the Project Team, and how to plan a project. 
 author: Alina
 feature: Work Management

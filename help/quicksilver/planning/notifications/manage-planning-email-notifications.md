@@ -21,15 +21,56 @@ You can receive email notifications from Workfront Planning when the following s
 * Someone tags you or your teams in a record comment
    
    For information about tagging others in a record comment, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
-* Someone asks for your permission to access a view or a workspace
-* Someone confirms your access has been granted for a view or a workspace <!--Isk confirmed that there is nno email for denying access but did not test-->
+* Someone asks for your permission to access a view, a workspace, or record type <!--or <span class="preview">or a record</span>-->
+* Someone confirms your access has been granted for a view, workspace, or record type <!--<span class="preview">or record</span>--> <!--Isk confirmed that there is nno email for denying access but did not test-->
 * You submit a Workfront Planning request. For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * Someone approves or rejects a Workfront Planning request that you submitted. For information, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
 * The status changes to a Workfront Planning request that you submitted.
 
 ## Access requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view the access requirements for the functionality in this article. 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Workfront and any Planning package</p> <p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Light or higher</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>View or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr> 
+</tbody> 
+</table> 
+
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--
+OLD: 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -94,65 +135,6 @@ You can receive email notifications from Workfront Planning when the following s
   </tr>
 
 </tbody> 
-</table> 
-
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
-
-<!--
-OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> 
-   <p>In order to receive notifications from Workfront Planning and manage notification preferences, your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls in Workfront Planning. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
 </table>
 -->
 
@@ -172,17 +154,17 @@ OLD:
 
 ## Manage email notifications when requesting and granting permissions
 
-1. (Conditional and optional) After someone requests or grants you permissions to access a view or a workspace, go to the email that informs you of the permission request. The sender of the email is Adobe Experience Cloud. 
+1. (Conditional and optional) After someone requests or grants you permissions to access a Planning object type, go to the email that informs you of the permission request. The sender of the email is Adobe Experience Cloud. 
 
 1. (Optional) Click the message in the **Workfront** box inside the email. 
 
-   The record details page opens in Workfront. You can make updates to the record, or reply to the comment. 
+   The object you asked permissions for opens in Workfront. 
 
 1. (Conditional) If available, click **View all notifications**. 
     The **Notifications** page opens in Adobe Experience Cloud. All notifications from all Adobe Experience Cloud applications display. 
 
 
-For information about requesting, granting, or denying permissions to a view or a workspace, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). 
+For information about requesting, granting, or denying permissions, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). 
 
 For information about managing your Workfront Planning notifications, see [Manage Adobe Workfront Planning notification preferences](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
 

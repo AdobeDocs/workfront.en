@@ -4,7 +4,7 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Delete or Archive a Board
 description: You can delete or archive a board in Workfront. Deleting a board permanently removes it from Workfront, while archiving a board retains all cards and allows it to be restored at a later time.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
 ---
@@ -18,22 +18,19 @@ Only the board owner can delete the board.
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-   <p>New: [!UICONTROL Contributor] or higher</p> 
-   <p>or</p>
-   <p>Current: [!UICONTROL Request] or higher</p>
+   <p>Contributor or higher</p> 
+   <p>Request or higher</p>
    </td> 
   </tr> 
  </tbody> 

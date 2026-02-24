@@ -24,4 +24,4 @@ For more information, see [Configure Kanban](../../../agile/get-started-with-agi
 
 ## Agile boards load 50 work items at a time
 
-To increase the speed and performance of the agile tools, up to 50 cards now load in various locations. If there are more than 50 work items on an agile board, a button appears at the bottom of the board or backlog, allowing you to load additional work items.
+To increase the speed and performance of the Agile tools, up to 50 cards now load in various locations. If there are more than 50 work items on an Agile board, a button appears at the bottom of the board or backlog, allowing you to load additional work items.

@@ -3,14 +3,14 @@ content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 'Calculated custom field example: display a Status timestamp in a Custom Form'
-description: The following calculated field displays the date when the object status is marked as In Progress (INP.) You can use the same information for calculated custom fields for issues, tasks, or projects.
-author: Nolan
+description: The following calculated field displays the date when the object status is marked as In Progress (INP). You can use the same information for calculated custom fields for issues, tasks, or projects.
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
 ---
 # Calculated custom field example: display a Status timestamp in a custom form
 
-The following calculated field displays the date when the object status is marked as In Progress (INP.) You can use the same information for calculated custom fields for issues, tasks, or projects.
+The following calculated field displays the date when the object status is marked as In Progress (INP). You can use the same information for calculated custom fields for issues, tasks, or projects.
 
 >[!NOTE]
 >
@@ -18,35 +18,36 @@ The following calculated field displays the date when the object status is marke
 
 ## Access requirements
 
-You must have the following:
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;"> 
-  <p>*To find out what plan, license type, or access you have, contact your Workfront administrator.</p> 
- </caption> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
-   <td>Any</td> 
+   <td> <p>Adobe Workfront package</p> </td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Adobe Workfront license</p> </td> 
+   <td>
+      <p>Standard</p>
+      <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access to Create Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td><p>Access level configurations</p></td> 
+   <td> <p>Edit access to Create Reports, Dashboards, and Calendars</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>Manage permissions on the object where the form is attached</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.<br>For more information on permissions for dashboards, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Share reports, dashboards, and calendars </a>.</p> </td> 
+   <td> <p>Object permissions</p> </td> 
+   <td> <p>Manage permissions on the object where the form is attached</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisite
 
@@ -56,7 +57,7 @@ To add a calculated field that displays a field's edit history to a custom form,
 
 1. Go to a custom form where you want to add the field.
 1. Click **Calculated** to add a calculated custom field to the form.  
-1. Type a **Label** for the custom field. For example,"Status Timestamp Custom Field".
+1. Type a **Label** for the custom field. For example, "Status Timestamp Custom Field".
 1. Click **Save+Close**.
 1. Re-open the custom form, then select the new **Status Timestamp Custom Field** on the form.
 1. In the **Calculation** box, copy and paste the following calculation for your custom field:  

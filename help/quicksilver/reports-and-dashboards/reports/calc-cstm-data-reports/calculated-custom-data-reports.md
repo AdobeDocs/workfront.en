@@ -4,7 +4,7 @@ product-area: reporting
 navigation-topic: reports
 title: Calculated custom data in reports
 description: Learn about custom data in reports.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 673792b6-7369-47ce-b0df-9bda4254781c

@@ -2,7 +2,7 @@
 product-area: enterprise-scenario-planner-product-area
 keywords: plan,permissions,share,initiatives,scenarios,scenario
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Share a plan in the Scenario Planner
+title: Share a Plan in the Scenario Planner
 description: You can share a plan that you created in the Adobe Workfront Scenario Planner with other users.
 author: Alina
 feature: Workfront Scenario Planner
@@ -22,6 +22,41 @@ You can share a plan in the [!DNL Adobe Workfront Scenario Planner] with other u
 
 +++ Expand to view access requirements for the functionality in this article. 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] package</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>NOTE</b></p>
+<p>Speak with your Workfront representative if you have a different Workfront package.</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license</p> </td> 
+   <td> <p>[!UICONTROL Light] or higher</p> 
+   <p>[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+    <tr> 
+   <td>Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to a plan</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information about access to the Scenario Planner, see [Access needed to use the [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+
+For information about Workfront access requirements, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -56,11 +91,7 @@ You can share a plan in the [!DNL Adobe Workfront Scenario Planner] with other u
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 ## Prerequisites
 
@@ -81,7 +112,7 @@ For more information about access to the [!DNL Scenario Planner] for various lic
 * You cannot view plans that you did not create or that are not shared with you.
 * You can only share a plan with other users. You cannot share plans with groups, teams, or companies.
 * You must first save a plan before you can share it.
-* You can share a URL to a plan with another user. If the user does not have permissions to at least view the plan, they can request access to the plan from another user when they receive the URL. For information about requesting access to a plan, see [Request access to a plan in the [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md). 
+* You can share a URL to a plan with another user. If the user does not have permissions to at least view the plan, they can request access to the plan from another user when they receive the URL. For information about requesting access to a plan, see [Request permissions to a plan in the [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md). 
 * When sharing multiple plans that have already been shared with others, the users you share with do not replace but are added to the existing users on each plan you selected.
 
 ## Plan permission options
@@ -184,7 +215,7 @@ For information about project permissions, see [Share a project in [!DNL Adobe W
 
    Or
 
-   If you selected several plans to share them in bulk, click the **[!UICONTROL Share]** icon ![](assets/share-icon-26x26.png) at the top of the list of plans to open the [!UICONTROL Plan] access box.
+   If you selected several plans to share them in bulk, click the **[!UICONTROL Share]** icon ![Share icon](assets/share-icon-26x26.png) at the top of the list of plans to open the [!UICONTROL Plan] access box.
 
    >[!TIP]
    >

@@ -4,8 +4,8 @@ product-area: agile-and-teams
 keywords: agile
 navigation-topic: agile-navigation-topic
 title: Get Started with [!DNL Agile] in [!DNL Adobe Workfront]
-description: Review these articles to get started with agile in Workfront.
-author: Lisa
+description: Review these articles to get started with Agile in Workfront.
+author: Jenny
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 151aec93-3ccb-475f-b894-61be20a8544a
@@ -14,6 +14,6 @@ exl-id: 151aec93-3ccb-475f-b894-61be20a8544a
 
 This section contains the following articles:
 
-* [Create an agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
+* [Create an Agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
 * [Configure [!UICONTROL Kanban]](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
 * [Configure [!UICONTROL Scrum]](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)

@@ -11,6 +11,8 @@ exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
 ---
 # Edit an approval process
 
+<!--Audited: 08/2025-->
+
 If you are an Adobe Workfront administrator, or you have administrative access to approval processes, you can see and edit all approval processes in the system.
 
 If you are a group administrator, you can see and edit the approval processes associated with the group or groups you manage.
@@ -31,7 +33,41 @@ For information about creating approval processes, see [Create an approval proce
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package*</td> 
+   <td><p>For system-level or single-use approval process:</p><ul><li><p>Any package</p></li></ul>
+   <p>For group-level approval process:</p>
+   <ul><li><p>Workflow Prime or Ultimate</p></li>
+   <li><p>Workfront Prime or Ultimate</p></li></ul>
+   </td> 
+   
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+ <p>Plan</p> 
+</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>If you are a system administrator or you have administrative access to Approval processes, you can create a system-level approval process, or a group-level approval process for a particular group.</p> 
+   <p>If you are a group administrator and you have administrative access to Approval processes, you can create group-level approval processes for groups that you manage.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--
+
+I made the above match what we had for Create approval process - seemed more complete; 
+For this article, the old access was: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,11 +86,7 @@ You must have the following:
    <td> <p>Administrative access to Approval Processes if you are not a System Administrator</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
-
-+++
+</table>-->
 
 ## Edit an existing approval process
 
@@ -84,7 +116,9 @@ You must have the following:
     <tbody> 
      <tr> 
       <td role="rowheader">Approval process name</td> 
-      <td>Type a descriptive name for the approval process. Users see this name when applying the approval process to an object, as described in <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associate a new or existing approval process with work</a>.</td> 
+      <td><p>Type a descriptive name for the approval process. Users see this name when applying the approval process to an object, as described in <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associate a new or existing approval process with work</a>.</p>
+      <p>This is a required field.</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
@@ -100,7 +134,9 @@ You must have the following:
        <ul> 
         <li>If you are a system administrator or you have administrative access to approval processes, you can see any group in the system when you type its name. <b>All groups</b> is selected by default. </li> 
         <li>If you are a group administrator without administrative access to approval processes, you can assign the approval process to any group you manage when you type its name. The <b>All Groups</b> option is not available.</li> 
-       </ul> <p>This option is not available for single-use approval processes.</p> <p><b>WARNING</b>: When you make changes to the group-specific approval process, the existing approval processes that have already been associated with work items might change. For information about these changes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>.</p> <p>For information about listing and managing your group's approval processes from your group's page, see <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Group-level approval processes</a>. </p> <p>For information about administrative access to approval processes, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+       </ul> 
+       <p>This is a required field.</p>
+       <p>This option is not available for single-use approval processes.</p> <p><b>WARNING</b>: When you make changes to the group-specific approval process, the existing approval processes that have already been associated with work items might change. For information about these changes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>.</p> <p>For information about listing and managing your group's approval processes from your group's page, see <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Group-level approval processes</a>. </p> <p>For information about administrative access to approval processes, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -115,7 +151,9 @@ You must have the following:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Start approval process when the status is set to</p> </td> 
-      <td> <p>Select the status that will trigger the approval process on work items. When someone updates a work item to this status, its approval process begins. </p> <p>The same status cannot be selected for multiple approval process paths.</p> <p>The statuses available are based on what is selected under the option <b>This approval can be used by</b> (explained in the table above):</p> 
+      <td> <p>Select the status that will trigger the approval process on work items. When someone updates a work item to this status, its approval process begins. </p> 
+      <p>This is a required field.</p>
+      <p>The same status cannot be selected for multiple approval process paths.</p> <p>The statuses available are based on what is selected under the option <b>This approval can be used by</b> (explained in the table above):</p> 
       <ul> 
       <li> If <b>All groups</b> is selected, only system-wide locked statuses are available. <!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
       </li> 
@@ -129,17 +167,19 @@ You must have the following:
      <tr> 
       <td role="rowheader">Approvers</td> 
       <td> <p>Begin typing the name of the user, team, or job role that you want to designate as an approver for this stage, then click the name when it appears in the drop-down list. You can add only active users, job roles, and teams. </p> 
+
+      <p>This is a required field.</p>
       
-      <p><b>TIP</b>:</p>
+      <p><b>TIP</b></p>
 
       <p>When adding a user as an approver, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</p>
       <p>You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Grant access to users</a></p>. 
 
-      <p><b>NOTE</b>:
+      <p><b>NOTE</b>
       
       Adding a user, team, or role as an approver does not automatically give them permissions to the object associated with that approval. They receive permissions to the object when the approval step is triggered. Otherwise, the objects must be shared with them before they can make an approval decision. </p> 
       <p>You can also designate an individual as an approver by specifying the individual's role. For example, you can assign a Project Owner, Project Sponsor, Portfolio Owner, Program Owner, or Manager as an approver. These options automatically appear when you begin typing.</p> 
-      <p><b>IMPORTANT</b>:  
+      <p><b>IMPORTANT</b>
       <ul> 
       <li> When you assign an approval to the Project Sponsor and no one is designated as the sponsor of a project, the approval is reassigned to the Project Owner. If no one is designated as the owner of the project, the approval is assigned to the Workfront administrator. </li> 
       <li> When you assign an approval to a role and the option <b>Approver not required to be on the project team</b> is disabled, but no roles in the project team  match the role on the approval, the approval is reassigned to the Project Owner. For information about approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configure global approval settings</a>.

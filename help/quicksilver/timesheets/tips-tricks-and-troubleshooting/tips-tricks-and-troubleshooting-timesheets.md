@@ -4,7 +4,7 @@ product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: "Tips, tricks, and troubleshooting for timesheets: article index"
 description: Learn more about common timesheet behavior or how to troubleshoot potential problems with timesheets in the following articles. 
-author: Alina
+author: Lisa
 feature: Timesheets
 recommendations: noDisplay, noCatalog
 exl-id: cf5f93d1-e517-421e-8740-1b80af2ed127

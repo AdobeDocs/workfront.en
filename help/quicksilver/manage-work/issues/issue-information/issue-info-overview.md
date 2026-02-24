@@ -2,14 +2,16 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: issues
-title: Issue information
+title: "Issue Information: Article Index"
 description: Issues are work items that represent unexpected or unplanned work on a project. The following articles contain information about issues. 
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 95ea93d7-6cc3-4aaa-a8f7-8a59dda6b5f1
 ---
-# Issue information
+# Issue information: article index
+
+<!--Audited: 08/2025-->
 
 While working on a project, you might discover that unexpected events arise. You can log those unexpected events as issues for a particular project or for a task. 
 

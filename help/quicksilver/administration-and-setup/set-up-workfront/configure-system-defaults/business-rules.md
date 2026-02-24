@@ -4,7 +4,7 @@ product-area: system-administration
 navigation-topic: business rules
 title: Create and Edit Business Rules
 description: A business rule allows you to apply validation to Workfront objects and prevent users from creating, editing, or deleting an object when certain conditions are met. Business rules help to improve data quality and operational efficiency by preventing actions that could compromise data integrity.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
@@ -29,15 +29,16 @@ Business rules apply to creating, editing, and deleting objects through the API 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td>Adobe Workfront plan</td> 
-   <td>Ultimate</td> 
+  <tr>
+   <td>Adobe Workfront package
+   </td>
+   <td> <p>Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
   </tr> 
   <tr> 
    <td>Adobe Workfront license</td> 
@@ -50,7 +51,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -129,18 +130,14 @@ IF(
    * Document
    * Program
    * Expense
-   * User
    * Company
    * Iteration
    * Billing Record
    * Group
+   * Non-labor resource
    * Risk
+   * Rate card
    * Assignment
-   * Job Role
-   * Resource Pool
-   * Time Off
-   * Hour
-   * Template
 
 1. Type the **Name** for the business rule on the rule builder dialog.
 1. In the **Is Active** field, select whether the rule should be active when you save it.

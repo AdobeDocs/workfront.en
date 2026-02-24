@@ -25,37 +25,40 @@ Metadata fields are first mapped when you send an asset from Workfront to Experi
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to complete the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront plan</a>*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Legacy licenses overview</a>*</td> 
-   <td> <p>Request or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront licenses</td> 
+   <td> 
+   <p>Contributor or higher</p> 
+   <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
-   <td>You must have Experience Manager as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console.
-</td> 
+   <td role="rowheader">Additional products</td> 
+   <td>You must have Experience Manager as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console.</td> 
   </tr> 
+   <tr> 
+    <td role="rowheader">Experience Manager Permissions</td> 
+    <td>You must have write access to the folder.</td> 
+   </tr>
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Documents</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View access or higher on Documents</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View access or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

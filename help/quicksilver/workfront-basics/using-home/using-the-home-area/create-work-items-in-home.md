@@ -21,35 +21,36 @@ From Home, you can
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
    <td>
-    <p>New: [!UICONTROL Standard]</p> 
-    <p>Current: [!UICONTROL Work] or higher</p> </td> 
+    <p>Standard</p> 
+    <p>Work or higher</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>[!UICONTROL Worker]</p> <p><b>NOTE</b></p> 
-   <p>If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    <tr> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>View or Edit access for the object the update is on</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Additional products</strong></td> 
+   <td>You must have Adobe Workfront Planning to view Planning requests or request forms</td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>[!UICONTROL Edit] access or higher on tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] access or higher on tasks</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -124,11 +125,11 @@ You can add an issue to an existing project directly from the Home area:
 You can create a request directly from the Home area:
 
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. (Conditional) Add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**. 
+1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**. 
 1. Go to the **My Requests** widget, then click **New**. 
-   ![Create new request](assets/create-new-request.png)
+   ![Create new request](assets/create-new-request-new.png)
 
-1. In the **New request** dialog, begin typing the name of the request queue. 
+1. In the **New request** dialog, begin typing the name of the Workfront request queue or Workfront Planning request form into the search bar, then select it when it appears. 
 1. Fill out the relevant fields.
 1. Click **Submit**.
 

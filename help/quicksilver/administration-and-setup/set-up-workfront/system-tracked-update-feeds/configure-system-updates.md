@@ -11,7 +11,7 @@ exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
 ---
 # Configure system updates
 
-<!-- Audited: 6/2025 -->
+<!-- Audited: 08/2025 -->
 
 <!--
 
@@ -49,6 +49,32 @@ For example, you could have [!DNL Workfront] track all changes users make to the
  <col> 
  <tbody> 
   <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td><p>Any</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td><p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p>
+   </td> 
+  </tr>  
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td><p>[!UICONTROL System Administrator]</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
@@ -64,11 +90,7 @@ For example, you could have [!DNL Workfront] track all changes users make to the
    <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
-</table>
-
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table> -->
 
 ## Determine which fields [!DNL Workfront] tracks for an object type
 

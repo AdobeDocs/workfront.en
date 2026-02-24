@@ -3,7 +3,7 @@ content-type: overview
 product-area: projects
 keywords: recurrent,reoccur,reoccurring
 navigation-topic: manage-tasks
-title: Recurring tasks overview
+title: Recurring Tasks Overview
 description: Recurring tasks overview
 author: Alina
 feature: Work Management, Tasks
@@ -94,4 +94,4 @@ The following table illustrates whether changes made to the parent trigger updat
 
 &#42;&#42; Assignments made on the parent task are applied to all subtasks in the recurrence. Any changes made to the assignment on the parent task override any individual assignments on the subtask. If the task shows progress, the assignment does not change.
 
-&nbsp;
+ 

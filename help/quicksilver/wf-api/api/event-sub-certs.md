@@ -105,9 +105,9 @@ For more information, see
 
 Click the following links to download the client certificates.
 
-* [Client certificate - Production environment](assets/prod-environment-nov-2024.crt)
-* [Client certificate - Preview environment](assets/preview-environment-nov-2024.crt)
-* [Client certificate - Sandbox environment](assets/sandbox-environment-nov-2024.crt)
+* [Client certificate - Production environment](assets/prod-ES-client-cert-oct25.crt)
+* [Client certificate - Preview environment](assets/preview-ES-client-cert-oct25.crt)
+* [Client certificate - Sandbox environment](assets/sandbox-ES-client-cert-oct25.crt)
 
 >[!NOTE]
 >

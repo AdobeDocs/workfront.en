@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Manage task information in the Task Details Overview area
-description: Manage task information in the Task Details Overview area
+title: Manage Task Information in the Task Details Overview Area
+description: You can view or edit the information of a task by accessing the Overview area of the Task Details  section. There is a limited number of fields that you can view or edit in the Task Details section.
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
@@ -13,7 +13,9 @@ exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, do it in both articles)</p>
 -->
 
-You can view or edit the information of a task by accessing the Overview area of the Task&nbsp;Details  section . There is a limited number of fields that you can view or edit in this area. For information about editing all information for a task see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+You can view or edit the information of a task by accessing the Overview area of the Task Details  section. There is a limited number of fields that you can view or edit in the Task Details section. 
+
+For information about editing all information for a task see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 This article describes how to view or edit information in the Overview area of Task Details. For information about updating other areas of Task Details , see the following articles:
 
@@ -23,12 +25,46 @@ This article describes how to view or edit information in the Overview area of T
 
 ## Access requirements
 
-You must have the following:
++++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;">
-   *To find out what plan, license type, or access you have, contact your Workfront administrator. 
- </caption> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront package</p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront license </p> </td> 
+   <td><p>Standard</p> 
+   <p>Work or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level configurations</td> 
+   <td> <p>View or higher access to Projects and Tasks</p> <p>If you have the correct access level but still can't edit the Details section  of the task, ask your Adobe Workfront if they set additional restrictions in your access level. </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions</p> </td> 
+   <td> <p>Contribute or higher permissions for the project</p> <p>View permissions for the task to view information in the Details section. </p> 
+   <p>Contribute permissions for the task to update the following information in the Details section:</p>
+
+   <ul>
+   <li>Description</li>
+   <li>Status</li>
+   </ul>
+   
+   <p>Manage permissions for the task to update all information in the Details section.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -57,7 +93,7 @@ You must have the following:
    <p>Manage permissions for the task to update all information in the Details section.</p> </td> 
   </tr> 
  </tbody> 
-</table>
+</table>-->
 
 ## Edit task information in the Task Details Overview section
 
@@ -71,7 +107,7 @@ You must have the following:
    >
    >Depending on how your Workfront administrator or Group administrator sets up our Layout Template, the fields in the Task Details section might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. Click the **Edit** icon ![](assets/edit-icon.png) in the upper-right corner of the Details section, then click **Overview**.
+1. Click the **Edit** icon ![Edit icon](assets/edit-icon.png) in the upper-right corner of the Details section, then click **Overview**.
 
    >[!TIP]
    >
@@ -80,7 +116,7 @@ You must have the following:
 1. Edit any field that is available for editing, by single-clicking the field or click **+Add** to add information to an empty field.
 1. View or edit any of the following fields listed.
 
-   Not all fields are editable. &nbsp;
+   Not all fields are editable.  
 
    <table style="table-layout:auto"> 
     <col> 
@@ -157,7 +193,7 @@ You must have the following:
             <td>H</td> 
            </tr> 
            <tr> 
-            <td>Days.&nbsp;This is the default. </td> 
+            <td>Days. This is the default. </td> 
             <td>D</td> 
            </tr> 
            <tr> 
@@ -202,11 +238,11 @@ You must have the following:
       <td> <p>The difference in days between the projected start date and the projected completion date. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Actual&nbsp;Duration</td> 
+      <td role="rowheader">Actual Duration</td> 
       <td> <p>The difference in days between the actual start date and the actual completion date. This is how long it actually took to complete the work. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Planned&nbsp;Hours</td> 
+      <td role="rowheader">Planned Hours</td> 
       <td> <p>Specify the amount of Planned Hours for the task, in hours. This is the amount of actual time it would take the assignees of the task to complete it. You can only specify the amount of Planned Hours for a task when the Duration Type is set to Calculated Assignment. For more information about duration types, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -219,7 +255,7 @@ You must have the following:
        <div> 
         <p>The amount of effort required to complete the task. Your project manager might decide to use this field instead of Planned Hours to estimate the effort needed to complete a task. This field is visible only when the following conditions are met:</p> 
         <ul> 
-         <li> <p>The task has a Simple Duration&nbsp;Type. </p> <p>Tip: If you change the task Duration&nbsp;Type, this field becomes dimmed. </p> </li> 
+         <li> <p>The task has a Simple Duration Type. </p> <p>Tip: If you change the task Duration Type, this field becomes dimmed. </p> </li> 
          <li>Your project manager has enabled the Use Work Effort to automatically calculate task Planned Hours field on the project. </li> 
         </ul> 
         <p>Select from the following options:</p> 
@@ -267,11 +303,11 @@ You must have the following:
       <td> <p>The "real life" date of when the task is going to start based on the progress and completion of prior tasks. This is a calculated field and you cannot edit it manually.</p> <p> The projected start date and the planned start date start out by being the same, when a project is first planned. The projected start date can move away from the planned start, if the project evolves and the task is not started yet. For more information about projected start dates, see <a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">Overview of the project Projected Start Date</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Actual&nbsp;Start Date</td> 
+      <td role="rowheader">Actual Start Date</td> 
       <td> <p>Specify an Actual Start Date for the task. The default is typically automatically populated when you change the status of the task to In Progress. The actual start date can also be manually modified by the project manager, or the task owner. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Planned Completion&nbsp;Date</td> 
+      <td role="rowheader">Planned Completion Date</td> 
       <td> <p>The anticipated completion date as shown when the task is planned. The planned completion date can be set by a number of factors:</p> 
        <ul> 
         <li>The planned completion date is calculated from the planned start date by adding the Duration of the task to the planned start date. When the project manager or Workfront specifies the Duration of the task, this triggers an update to the planned completion date. If the planned date changes, it will often be because the Duration of the has been updated.</li> 
@@ -284,7 +320,7 @@ You must have the following:
       <td> <p>The "real life" date of when the task is going to be completed based on the progress of prior tasks and on the progress updates made on the task by the assignee. This is a calculated field and you cannot edit it manually.</p> <p> The projected completion date and the planned completion date start out by being the same, when a project is first planned. The projected completion date can move away from the planned completion, if the project evolves and the task is not started yet. For more information about projected completion dates, see <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Overview of the Projected Completion Date for projects, tasks, and issues</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Actual&nbsp;Completion&nbsp;Date</td> 
+      <td role="rowheader">Actual Completion Date</td> 
       <td> <p>Specify the actual date and time when the task completes. The default date and time when a task is completed always coincides with the actual time when the status becomes Completed. The actual completion date can also be manually modified by the project manager, or the task owner. </p> </td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
@@ -301,7 +337,7 @@ You must have the following:
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Last Updated Date</td> 
-      <td> <p>The date when the task was last updated. </p> <p>Tip: Workfront records an Updated&nbsp;Date every time someone edits and saves a task.</p> </td> 
+      <td> <p>The date when the task was last updated. </p> <p>Tip: Workfront records an Updated Date every time someone edits and saves a task.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Last Updated By</td> 
@@ -323,7 +359,7 @@ You must have the following:
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms.&nbsp;</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms. </p>
    -->
 
    <!--
@@ -343,7 +379,7 @@ You must have the following:
      -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click&nbsp;<strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
    -->
 
    <!--

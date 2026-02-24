@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: Change the status of a project
+title: Change the Status of a Project
 description: You can manually update the Status of a project to any other status, if needed. You can manually update the Status of a project to a status that equates Complete only when the Completion Mode of the project is set to Manual. 
 author: Alina
 feature: Work Management
@@ -21,7 +21,39 @@ For more information about the project's Completion Mode, see [Edit projects](/h
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p> 
+   <p>Plan</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions on the project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,14 +79,12 @@ You must have the following access to perform the steps in this article:
    <td> <p>Manage permissions on the project</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+</table>-->
 
 ## Considerations about updating to specific statuses
 
 * **When updating a project to Complete:** Ensure that all tasks and issues are completed on the project. You cannot select the Complete status for a project, or any other status that equates Complete when there are tasks or issues that have not been completed on the project. This includes approving any task or issue that is in a Complete-Pending Approval status.
-* **When updating a project from Complete to Current:** If all the tasks and issues on the project are completed, ensure that the project's Completion Mode is set to Manual. If the project's Completion&nbsp;Mode is Automatic, the status of the project remains Complete.
+* **When updating a project from Complete to Current:** If all the tasks and issues on the project are completed, ensure that the project's Completion Mode is set to Manual. If the project's Completion Mode is Automatic, the status of the project remains Complete.
 
 ## Change project status
 

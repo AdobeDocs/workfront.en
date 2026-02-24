@@ -10,6 +10,18 @@ exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
 ---
 # Enable Adobe Workfront Goals notifications
 
+<!--Audited for P&P only: 10/2025-->
+
+>[!NOTE]
+>
+>Your company might choose to continue using Adobe Workfront Goals if they bought this package in the past. You must speak with your account representative for details. 
+>
+>Adobe Workfront Goals is no longer available for purchase.
+>
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
+
 >[!IMPORTANT]
 >
 >Your organization must have the following to use the functionality described in this article:
@@ -25,7 +37,7 @@ exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
 
 Adobe Workfront Goals comes with a set of event notifications that you can enable for your account. These event notifications trigger email communication every time the condition defined by the event is met.
 
@@ -56,7 +68,7 @@ For information about managing notifications in Adobe Workfront, see [Modify you
 </tr>
 <tr>
 <td role="rowheader">Access level*</td>
-<td> <p>View or higher access to&nbsp;Goals</p> <note type="note">
+<td> <p>View or higher access to Goals</p> <note type="note">
 <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
 <ul>
 <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
@@ -78,7 +90,7 @@ For information about managing notifications in Adobe Workfront, see [Modify you
 <h2>Prerequisites: </h2>
 <p>You must have the following before you can start:</p>
 <ul>
-<li> <p>A Layout Template that includes the Goals area in the Main&nbsp;Menu.</p> </li>
+<li> <p>A Layout Template that includes the Goals area in the Main Menu.</p> </li>
 </ul>
 <h2>Understand Workfront Goals notifications settings</h2>
 <p>Consider the following when configuring and receiving Workfront Goals notifications:</p>
@@ -91,7 +103,7 @@ For information about managing notifications in Adobe Workfront, see [Modify you
 </ul>
 <h2>Configure email notifications for Workfront Goals</h2>
 <ol>
-<li value="1"> <p>Log in to Workfront and ensure that your Workfront administrator gave you access to&nbsp;Workfront Goals.</p> <p>For information about access to&nbsp;Workfront Goals, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>.</p> </li>
+<li value="1"> <p>Log in to Workfront and ensure that your Workfront administrator gave you access to Workfront Goals.</p> <p>For information about access to Workfront Goals, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>.</p> </li>
 <li value="2"> <p> <p>Click the <strong>Main Menu icon</strong> <img src="assets/main-menu-icon.png"> in the upper-right corner of your screen, then click <strong>Goals</strong>.</p> <p>This opens the Workfront Goals area. </p> </p> </li>
 <li value="3"> <p>Click <strong>Goal Settings</strong> in the left panel.</p> <p> <img src="assets/notifications-settings-list-highlighted-350x124.png" style="width: 350;height: 124;"> </p> </li>
 <li value="4"> <p>Select any of the check boxes below to enable notifications for the following events:</p>

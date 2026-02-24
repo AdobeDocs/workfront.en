@@ -41,31 +41,29 @@ After configuring a layout template, you must assign it to users for changes you
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article: 
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td><p>New: Standard</p>
-  <p> Current: Plan</p>
-   </td> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>To perform these steps at the system level, you need the System Administrator access level.
-To perform them for a group, you must be a manager of that group.</p> </td> 
+   <td>Access level configurations</td> 
+   <td> <p>To perform these steps at the system level, you need the System Administrator access level.</p>
+        <p>To perform them for a group, you must be a manager of that group.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -133,11 +131,11 @@ To perform them for a group, you must be a manager of that group.</p> </td>
    >
    >After you click Done (and even after you save your layout template), you can always return to the Set Terminology settings and click Reset next to any custom terms to return them to their default state.
 
-1. Continue customizing the layout template.
+1. Continue customizing the layout template. You can click **Apply** at any time to save your progress.
 
    Or
 
-   If you are finished customizing, click **Save**.
+   If you are finished customizing, click **Save and Close**.
 
 1. To see your terminology changes:
 

@@ -28,8 +28,57 @@ You can remove the alignment between goals by removing the connection between th
 
 ## Access requirements
 
-You must have the following:
+>[!NOTE]
+>
+>Your company might choose to continue using Adobe Workfront Goals if they bought this package in the past. You must speak with your account representative for details. 
+>
+>Adobe Workfront Goals is no longer available for purchase. 
 
++++ Expand to view access requirements for the functionality in this article. 
+
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+  <td> <p>Adobe Workfront package</p> </td> 
+   <td> 
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
+  </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront license</td>
+ <td>
+ <p>Contributor or higher</p>
+<p>Request or higher</p></td>
+ </tr>
+  <tr>
+ <td role="rowheader">Access level configuration</td>
+ <td> <p>Edit access to Goals</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <div>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  </div> </td>
+ </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including System Administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+</tbody>
+</table> 
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -83,9 +132,7 @@ You must have the following:
 </td>
   </tr>
 </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+</table>-->
 
 ## Prerequisites
 
@@ -134,10 +181,8 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
    This opens the Workfront Goals area and the Goal List displays by default.
 
 1. Click the name of a goal you want to remove results and activities from.
@@ -179,10 +224,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 -->
 
 
-1. Click the **Main Menu** icon  in the upper-right corner, then click **Goals**.
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+{{step1-to-goals}}
 
    This opens the Workfront Goals area and the Goal List displays by default.
 

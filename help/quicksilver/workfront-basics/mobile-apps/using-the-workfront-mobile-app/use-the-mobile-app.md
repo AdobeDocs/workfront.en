@@ -3,7 +3,7 @@ product-previous: mobile
 navigation-topic: mobile-apps
 title: Use the [!DNL Adobe Workfront] mobile app
 description: Accelerate engagement and streamline work for teams and individuals in your organization through [!DNL Adobe Workfront's] mobile app, available on any iOS or Android device. 
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
@@ -16,7 +16,7 @@ Accelerate engagement and streamline work for teams and individuals in your orga
 
 * Access important information quickly
 * Keep your workflow going with one-step actions
-* Stay productive on the go
+* Stay productive on the go 
 
 You can download and install the app from the [Apple App Store](https://apps.apple.com/us/app/adobe-workfront/id1033282981) or the [Google Play store](https://play.google.com/store/apps/details?id=com.workfront.android.aware).
 

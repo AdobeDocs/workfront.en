@@ -1,14 +1,12 @@
 ---
 title: Get Started with the Workfront Planning and GenStudio for Performance Marketing Integration
 description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products. Learn some of the basics about how you can streamline your workflows using this integration.
-hide: yes
-hidefromtoc: yes
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
 ---
-# Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration
-
-<!--update the text in the title everywhere this article is linked from - it changed a few times-->
-
 <!--Better metadata, at publishing:
 ---
 title: Get Started with the Workfront Planning and GenStudio for Performance Marketing Integration
@@ -23,39 +21,55 @@ recommendations: noDisplay, noCatalog
 
 <!--use this article to make this one similar to it: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/review-approval-integrations/wf-proof-and-genstudio-->
 
-Organizations using both Adobe Workfront Planning and Adobe GenStudio for Performance Marketing often define marketing concepts like Campaigns, Products, and Personas in more detail than what GenStudio supports by default. 
+
+# Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration
+
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+
+Organizations using both Adobe Workfront Planning and Adobe GenStudio for Performance Marketing often define marketing concepts like Campaigns, Products, Activations, and Personas in more detail than what GenStudio supports by default. 
 
 There is a native integration between GenStudio for Performance Marketing and Workfront Planning. This integration allows users in Workfront Planning to manage the Campaigns, Products, Personas, Activations, Channels, and Regions used in GenStudio. It also enables them to configure GenStudio to reference existing record types from Workfront Planning, creating a more connected and consistent marketing workflow.
 
-This integration helps you to avoid duplicate data entry, maintain alignment across planning and activation efforts, and supports your marketing system of record. 
-
 The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products.
+
+## Integration benefits
 
 With the integration between Workfront Planning and GenStudio for Performance Marketing, you can:
 
 <!--check this list and ensure it's accurate and add/ remove some of the benefits-->
 
 * View the GenStudio workspace in Workfront Planning. 
-* Modify your campaigns in GenStudio and have real-time updates of the same information in Workfront Planning. 
-* Modify your campaigns in Workfront Planning and have real-time updates of the same information in GenStudio. 
+* Modify your campaigns, products, personas, and activations in GenStudio for Performance Marketing and have real-time updates of the same information in Workfront Planning. 
+* Modify your campaigns, products, personas, and activations in Workfront Planning and have real-time updates of the same information in GenStudio for Performance Marketing. 
+* Avoid duplicate data entry.
+* Maintain alignment across planning and activation efforts. 
+* Connect GenStudio Brands and their information to Workfront Planning records. 
 
 ## Integration requirements
+
+Your organization must meet the following requirements for the integration between Workfront Planning and GenStudio for Performance Marketing to exist: 
 
 * Workfront and GenStudio for Performance Marketing must be enabled to the same organization. 
 
     For more information about GenStudio, see [Adobe GenStudio for Performance Marketing User Guide](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
     
-* GenStudio will not be available in Workfront Planning when your company has multiple Workfront instances. <!--this will change-->
+<!--No longer the case: * Your organization must have only one Workfront instance. GenStudio will not be available in Workfront Planning when your company has multiple Workfront instances. -->
 
-* The Workfront instance is part of the Adobe Unified Experience, including using the Identity Management System (IMS). 
+* Your Workfront instance is part of the Adobe Unified Experience, including using the Identity Management System (IMS). 
 
     For information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-* Users using both Planning and GenStudio can belong to only one Workfront instance within the IMS organization.
+* Users using both Workfront Planning and GenStudio for Performance Marketing must belong to only one Workfront instance within the IMS organization.
+
+    Workfront-only users can view the GenStudio workspace, even if they are not GenStudio for Performance Marketing users. 
 
 <!--not sure: true for Planning? This is true for GenS and WF Proof: * The integration must be enabled in the Workfront Setup area.-->
 
 ## Access requirements
+
+The following table describes the access and permissions requirements to use Adobe Workfront Planning with Adobe GenStudio for Performance Marketing: 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -65,59 +79,96 @@ With the integration between Workfront Planning and GenStudio for Performance Ma
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Products</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe GenStudio for Performance Marketing</p></li>
-   </ul></td> 
-  </tr>   
+</tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront Workflow package</p>  
-<p>Any Workfront Planning package</p>
-   </td> </tr>
-
-<tr> 
-   <td role="rowheader"><p>Adobe GenStudio package</p></td> 
-   <td> 
-<p>???</p>  
-
-   </td> </tr>
- 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
-   <td> 
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
-<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+<p>Any Workfront and any Planning package</p> <p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
-   </tr> 
-  </tr> 
+   <tr> 
+<td> 
+   <p> Additional products</p> </td> 
+   <td> 
+   <p> Adobe GenStudio for Performance Marketing</p></td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p> System administrator</p>
-  </td> 
+   <td><p>Standard</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe GenStudio license</p></td> 
-   <td><p> ???</p>
+   <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+   <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+   <li>GenSudio System Manager to access Activations <!--and Events--></li></ul>
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   </p>
   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
-   <p>Configuration for GenStudio: ???</p> 
-</td> 
-  </tr> 
+  </tr>   
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>  
    <p>In Workfront Planning: </p>
    <ul>
-   <li><p>Contribute or higher permissions to a workspace and record type  </p> </li> 
-   <li><p>System Administrators have permissions to all workspaces, including the ones they did not create</p></li>
+   <li><p>Manage permissions to the GenStudio workspace to add new fields or record types to the GenStudio workspace</p></li>
+   <li><p>Contribute permissions to the GenStudio workspace to add, update, or delete records in the GenStudio workspace</p> </li>  
    </ul>
+   <p>No users can remove GenStudio for Performance Marketing record types or fields from the GenStudio workspace in Workfront Planning</p>
+   <p>In Adobe GenStudio for Performance Marketing: <p>
+   <ul>
+   <li><p> Any permissions in Adobe GenStudio for Performance Marketing</p></li>
+   <li><p> Create permissions in Adobe GenStudio for Performance Marketing to create items</p></li></ul>
+   </td>  
+</tbody> 
+</table> 
+
+For information about Adobe Workfront Planning access, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md).
+
+For more information about Adobe GenStudio for Performance Marketing, see [Adobe GenStudio for Performance Marketing User Guide](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+    <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Workfront package</p>
+<p>Any Planning package</p>  
+
+   </td> </tr>
+   <tr> 
+<td> 
+   <p> Additional products</p> </td> 
+   <td> 
+   <p> Adobe GenStudio for Performance Marketing</p></td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p> Standard</p>
+  </td> 
+  </tr> 
+   
+  <tr> 
+   <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+   <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+   <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   </p>
+  </td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  
+   <p>In Workfront Planning: </p>
+   <ul>
+   <li><p>Manage permissions to the GenStudio workspace to add new fields or record types to the GenStudio workspace</p></li>
+   <li><p>Contribute permissions to the GenStudio workspace to add, update, or delete records in the GenStudio workspace</p> </li>  
+   </ul>
+   <p>No users can remove GenStudio for Performance Marketing record types or fields from the GenStudio workspace in Workfront Planning</p>
    <p>In Adobe GenStudio for Performance Marketing: <p>
    <ul>
    <li><p> Any permissions in Adobe GenStudio for Performance Marketing</p></li>
@@ -125,114 +176,221 @@ With the integration between Workfront Planning and GenStudio for Performance Ma
    </td> 
   </tr> 
 </tbody> 
+</table> -->
+
+## Overview of the Workfront Planning and GenStudio for Performance Marketing integration capabilities
+
+Depending on how many Workfront instances your organization has, you automatically have the following permissions to the GenStudio workspace in Planning:  
+
+<!--this table exists in the article Manage GenStudio workspace in Planning-->
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+    <td role="rowheader"><p>One instance of Workfront</p></td> 
+   <td> 
+<p>The GenStudio workspace is visible in your instance of Workfront Planning</p>
+<p>All users, including Workfront administrators have Contribute access to the GenStudio workspace in Planning by default</p>
+<p>Workfront administrators can modify and grant Manage permissions on the GenStudio workspace to anyone</p>
+</td> </tr>
+   <tr> 
+<td> 
+   <p> Multiple instances of Workfront</p> </td> 
+   <td> 
+   <p>The following are the scenarios for when your organization has more than one instance of Workfront with Workfront Planning:</p>
+   <ul><li>If your company has multiple instances of Workfront at the moment when they purchase Adobe GenStudio for Performance Marketing, the GenStudio workspace is visible from all Workfront instances.</li>
+   <li>If your company adds more Workfront instances after their original instance has already been integrated with Adobe GenStudio for Performance Marketing, the GenStudio workspace is visible only from the original Workfront instance. For information about connecting additional instance of Workfront to Adobe GenStudio, contact your account representative. </li></ul>    
+</td> 
+  </tr>
+   </tbody> 
 </table> 
 
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
- *For more information about Adobe GenStudio for Performance Marketing, see [Adobe GenStudio for Performance Marketing User Guide](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
+<!--Old for the second row in the table:
 
+<p>The GenStudio workspace is visible from all Workfront instances</p>
+<p>All users with access to GenStudio for Performance Marketing and Workfront Planning have Contribute permissions on the GenStudio in Planning by default</p> 
+<p>Workfront administrators cannot grant Manage permissions to the GenStudio workspace to anyone</p>-->
 
-## Overview of the Workfront Planning and GenStudio integration
+For information about Workfront Planning permissions, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
 
-The following sections describe the following:
+The sections below describe the following:
 
-* Capabilities for updating Workfront Planning information from GenStudio
-* Capabilities for updating GenStudio information from Workfront Planning
+* Capabilities for updating Workfront Planning information from GenStudio for Performance Marketing
+* Capabilities for updating GenStudio for Performance Marketing information from Workfront Planning
 * Limitations for what you can and cannot manage in a GenStudio workspace from Workfront Planning. 
+
+<!--maybe make 2 sections here once Iskuhi answers - one for one instance and one for multiple WF instances??-->
 
 <!--add here a link from the GenS articles about what you can/ cannot do from GenStudio that might in the end reflect in Planning - this should come from the GenS team-->
 
 ### The GenStudio workspace in Workfront Planning
 
-* If your organization has multiple Workfront instances, the GenStudio workspace is not visible from any of your Workfront instance. <!-- this might change-->
-* The GenStudio workspace displays a visual indicator that makes it clear that it is imported from GenStudio. For information, see [Manage the GenStudio workspace in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md). 
-* All users who have access to both GenStudio and Workfront Planning can also see the GenStudio workspace in Workfront Planning. 
-* Workfront Planning users must be managed through the Adobe Identity Management System (IMS) to be able to view and use the GenStudio workspace from Workfront. 
+* The GenStudio workspace displays a visual indicator in Workfront Planning to identify it as representing the GenStudio for Performance Marketing workspace. 
 
-    Workfront-only users cannot see the GenStudio workspace, even when it is available in Workfront. 
+    ![GenStudio card in Planning](assets/genstudio-card-with-tag-highlighted.png)
+
+    For information, see [Manage the GenStudio workspace in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md). 
+* The GenStudio workspace is automatically shared with all GenStudio users who also have access to Workfront when it's created in Workfront Planning. 
+* As a workspace manager for the GenStudio workspace in Planning, you can:
+
+    * Update the GenStudio workspace in Planning (name, description, icon)
+    * Create sections
+    * Add record types
+    * Share it with others
+
+        >[!NOTE]
+        >
+        >* You can share the GenStudio workspace with others who don't have a GenStudio account. You can share it only with users available in the Identity Management System (IMS) of your organization. 
+        >* You cannot remove GenStudio users from the GenStudio workspace or its record types' sharing.
+                
+    <!--* Delete the workspace - check to see if this is possible; the link is there, but???-->
+
+* When you have Contribute permissions to the GenStudio workspace in Planning, you cannot modify the workspace from Workfront Planning. 
+
+### Record types in the GenStudio workspace
+
+* Record types visible both in GenStudio for Performance Marketing and Planning have a GenStudio indicator in Workfront Planning. 
+
+    ![GenStudio record type card in Workfront Planning](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
+* Record types in the GenStudio workspace are automatically shared with all GenStudio users who also have access to Workfront when the workspace is created in Planning. 
+* When you have Manage permissions to the GenStudio workspace in Planning, you can do the following from Workfront Planning: 
+    * Edit GenStudio record types information (their appearance, advanced settings). 
+    * Share GenStudio record types with others. You cannot remove GenStudio users from the GenStudio record types' sharing. 
+    * Create record types. These record types remain only in Workfront Planning. They do not display in GenStudio. 
+    * Enable record types from the GenStudio workspace to connect from other workspaces.
+    * Enable record types from the GenStudio workspace to be added to other workspaces. 
+* When you have Contribute permissions to the GenStudio workspace in Planning, you cannot modify the GenStudio record types from Planning. 
+
+### Records in the GenStudio workspace
+
+* All GenStudio records are automatically shared with all GenStudio users who also have access to Workfront when the workspace is created in Planning.
+* When you edit GenStudio records from GenStudio for Performance Marketing, the changes are visible in the GenStudio workspace in all your instances of Workfront. 
+* You cannot create or delete Activation records from the GenStudio workspace in Workfront Planning. 
+* When you have Manage or Contribute permissions to the GenStudio workspace in Planning, you can do the following from Workfront Planning: 
+    * Add or delete records and they become visible in (or are removed from) GenStudio for Performance Marketing. 
     
-    For information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
+        Deleted records from either Workfront Planning or GenStudio for Performance Marketing are placed in the Workfront Planning Recently deleted bin for 30 days. GenStudio for Performance Marketing does not have a Recently deleted bin. 
+    * Restore a record from the Recently deleted bin. Restoring deleted records places them back in Workfront Planning and GenStudio for Performance Marketing. 
+    * Add records in the following ways:
 
-
-### Record types
-
-* You can edit record types information (for example, their appearance) from GenStudio in Workfront Planning. 
-* You can share GenStudio record types with others in Planning.  
-* You can create record types from Planning on the GenStudio workspace. These record types remain only in Planning. They do not display in GenStudio. 
-* Record types that are synced with GenStudio display a visual indicator in Workfront Planning that makes it clear that the record types is imported from GenStudio. 
-
-### Records
-
-* You can add or delete records in GenStudio and they become visible in (or are removed from) Workfront Planning. 
-* You can add or delete records in Workfront Planning and they become visible in (or are removed from) GenStudio. 
-* When you delete records from either Workfront Planning or GenStudio, they are placed in the Recently deleted bin for 30 days. GenStudio does not have a Recently deleted bin. 
-* Restoring a record from the Recently deleted bin places them back in Workfront Planning and GenStudio. 
-* You can add records from Workfront Planning in the following ways:
-
-    * Manually, from scratch, from any view using the New record button
-    * By importing them using a CSV or Excel file
-    * Manually, inline, in the table view
-    * Manually, directly in the timeline view
+        * Manually, from scratch, from any view using the New record button
+        * By importing them using a CSV or Excel file in the table view
+        * Manually, in any view in Workfront Planning
+        * By submitting a request to a record type request form in Workfront. 
 
     For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
-* You cannot create or delete Activation records from Workfront Planning. 
-* You can edit record information on all records in the GenStudio workspace oin Planning in any of the visible fields from Workfront Planning. 
+* You can edit record information on all records in the GenStudio workspace from Workfront Planning.
 
     For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 
-    <!--asking Ani if I delete a record in GS - will it move to Recovery box in Planning?-->
+### Record type fields in the GenStudio workspace
 
-### Fields
+Record type fields are imported from GenStudio for Performance Marketing to Workfront Planning by default. 
 
-* Record fields are imported from GenStudio. You can edit the field settings in Workfront Planning. 
-* You can create fields for GenStudio record types in Workfront Planning if you have Manage access in Gen Studio. 
-* When you create fields for GenStudio record types in Planning, they are visible from the following areas:
-    * Planning views
-    * Planning record details pages
-    * GenStudio record details pages
+Consider the following about GenStudio record type fields: 
 
-    >[!TIP]
-    >
-    >Fields created in Workfront Planning are not visible in the GenStudio list view.
+* When you have Manage permissions to the GenStudio workspace in Planning, you can do the following from Workfront Planning: 
+
+    * Edit GenStudio field settings. 
+    * Create fields for GenStudio record types.
     
-* You can hide fields in the table view of a GenStudio record type in Planning. 
-* You cannot delete fields imported from GenStudio from Workfront Planning.
-* You can delete fields created in Workfront Planning for GenStudio record types from Workfront Planning. 
+        When you create fields for GenStudio record types in Planning, they are visible from the following areas:
+        
+        * Workfront Planning views
+        * Workfront Planning record details pages
+        * GenStudio record details pages
 
+        >[!TIP]
+        >
+        >Fields created in Workfront Planning are not visible in GenStudio lists.
+    
+    * Hide fields in the table view of a GenStudio record type in Workfront Planning. 
+    * You cannot delete fields created in GenStudio from Workfront Planning.
 
-### The Created by and Approved by fields
+* When you have Contribute permissions to the GenStudio workspace in Planning:
+
+    * You cannot edit field settings, delete or add fields from the GenStudio workspace in Workfront Planning. 
+    * You can hide fields from the table view in Workfront Planning.
+
+#### The Created by and Approved by fields
 
 * You can add the Created by and Approved by fields for the GenStudio record types in Workfront Planning from Workfront Planning. 
 * The records that display in the Channel and Region record types will display "System" as the Created by user. These records are created automatically when the GenStudio workspace is created in Workfront Planning. 
 * The records created in GenStudio after the workspace was made available in Workfront Planning will display the name of the IMS user who created the record in the Created by field, even if the user created the records in GenStudio and is not a Workfront user. 
-* The Approved by field displays the name of the approver when a request form is submitted to create a record. 
+* The Approved by field displays the name of the approver when a request form is submitted to create a record in the GenStudio record type in Workfront Planning. 
+* The Created by and Approved by fields display in the records' details in GenStudio for Performance Marketing. They do not display in the list view.
 
-### Views
+### Record views in the GenStudio workspace
 
-* You can create views for GenStudio record types. 
+>[!NOTE]
+>
+>The GenStudio record types display in the default table view imported from the GenStudio for Performance Marketing list view. 
+>
+>You cannot delete the original table view that was imported by default from GenStudio for Performance Marketing.
 
-    For information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+* You cannot create multiple views in GenStudio for Performance Marketing. 
 
-* You can share the view of a GenStudio record type as you'd share a view for a Planning record type. 
-* You cannot create multiple views in GenStudio. 
+* When you have Manage permissions to the GenStudio workspace in Planning, you can do the following from Workfront Planning:
 
-### Connections
+    * Create views for GenStudio record types. 
 
-* You can make the following connections between GenStudio record types and other record or object types in Workfront Planning:
+        For information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 
-    * Two GenStudio record types
-    * A GenStudio record type and a Planning record type from the same workspace
-    * A GenStudio record type and a Planning record type from another workspace, if the record types are configured to connect from another workspace. 
-    * A GenStudio record type and a Workfront object type (projects, portfolios, programs, companies, groups)
-    * A GenStudio record type and an AEM Assets object type.
+    * Rename, share, export, duplicate, or delete any custom views from the GenStudio record types. 
 
-### Request forms and automations
+* When you have Contribute permissions to the GenStudio workspace in Planning, you can do the following from Workfront Planning:
 
-* You can add request forms and automations to a GenStudio record type in Workfront Planning. 
+    * Create views for GenStudio record types. 
 
-### The Preview environment
+        For information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 
-* The GenStudio workspace accessible from your Production environment also displays in your Preview environment. 
-* You can perform all the activities described in this article on the GenStudio workspace in Workfront Planning in your Preview environment but these changes will not transfer to GenStudio.
+    * Rename, export, duplicate, or delete custom views from the GenStudio record types.
+
+        You cannot share views from the GenStudio workspace in Workfront Planning    
+
+### Record connections in the GenStudio workspace
+
+You can create connections between record types in GenStudio workspaces where you have Manage permissions. 
+
+You can make the following connections between GenStudio record types and other record or object types in Workfront Planning:
+
+* Two GenStudio record types
+* A GenStudio record type and a Planning record type from the same workspace
+* A GenStudio record type and a Planning record type from another workspace, if the record types are configured to connect from another workspace. 
+* A GenStudio record type and a Workfront object type (projects, portfolios, programs, companies, groups)
+* A GenStudio record type and an AEM Assets object type.
+* GenStudio record types and GenStudio Brands. The Brands connection is added to the Products and Personas record types by default. 
+
+### Request forms and automations in the GenStudio record type
+
+* You can add request forms to a GenStudio record type in Workfront Planning. 
+
+    For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+* You can configure automations for a GenStudio record type in Workfront Planning.
+    
+    For information, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+### Connection to GenStudio Brands from Workfront Planning workspaces
+
+When your organization has an integration between Workfront Planning and Adobe GenStudio, you can connect Planning record types to GenStudio Brands from any record type in any workspace in Workfront Planning. 
+
+Brands are connected by default to the following GenStudio workspace record types:
+
+* Products
+* Personas
+
+Brands are available for manually connecting to all other GenStudio workspace record types, or record types from all other workspaces you have permissions to manage. 
+
+## The Preview environment
+
+* The GenStudio workspace accessible from your Production environment also displays in your Preview environment of the same Workfront instance. 
+* You can perform all the activities described in this article on the GenStudio workspace in Workfront Planning in your Preview environment, but these changes will not be visible from GenStudio.
+
     Only changes you make to items in the Production environment sync between Workfront Planning and GenStudio. 
+    
     GenStudio does not have a Preview environment. 
 

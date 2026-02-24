@@ -20,21 +20,18 @@ Permissions are specific to one item in Workfront and define what actions one ca
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following to share objects:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any </p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: Standard</p> 
-   Or
-   <p>Current: Work or higher</p>
+   <td> <p>Standard</p> 
+   <p>Work or higher</p> 
    </td> 
   </tr> 
   <tr> 
@@ -48,7 +45,7 @@ You must have the following to share objects:
  </tbody> 
 </table>
 
-For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,7 +59,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 * The creator of an issue has Manage permissions for it by default.
 * You can share issues individually, or you can share several of them at a time. Sharing issues is identical to sharing other items in Workfront. For more information about sharing items in Workfront, see [Share an object](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md). 
-* You can grant the following permissions to an issue:&nbsp;
+* You can grant the following permissions to an issue:  
 
    * View
    * Contribute  
@@ -104,7 +101,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Automatically share an issue at the project level</h2>
-<p>(NOTE: this info duplicates in Edit projects - linked there instead (above).)&nbsp;</p>
+<p>(NOTE: this info duplicates in Edit projects - linked there instead (above).)  </p>
 <p>As the Project Owner, you can grant permissions automatically to users as the issues are added to a project.</p>
 <ol>
 <li value="1">Go to the project whose issues you want to share automatically.</li>
@@ -114,7 +111,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 <ul>
 <li><strong>View</strong></li>
 <li><strong>Contribute</strong></li>
-<li><strong>Manage</strong><br>Now, when someone is assigned to an issue on the selected project, they are granted the specified permissions to the issue.&nbsp;</li>
+<li><strong>Manage</strong><br>Now, when someone is assigned to an issue on the selected project, they are granted the specified permissions to the issue.  </li>
 </ul></li>
 <li value="5">(Optional) Select the <strong>Also grant ... access to the project</strong> field to also grant View, Contribute, or Manage permissions to the projects to the user assigned to the issue</li>
 <li value="6">In the <strong>When someone submits a REQUEST ...</strong> field, select from the following permissions levels:
@@ -129,7 +126,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 </ul>
 </note></li>
 </ul></li>
-<li value="7"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong> field.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.&nbsp;</p> </li>
+<li value="7"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong> field.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.  </p> </li>
 <li value="8">Click <strong>Save Changes</strong>.</li>
 </ol>
 </div>
@@ -138,7 +135,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Automatically share an issue in request queues</h2>
-<p>(NOTE: drafted because it's duplicated from Create a Request Queue which is linked above)&nbsp;</p>
+<p>(NOTE: drafted because it's duplicated from Create a Request Queue which is linked above)  </p>
 <p>As the Project Owner, you can grant permissions automatically to users as the issues are submitted to a request queue.</p>
 <ol>
 <li value="1">Go to the project whose issues you want to share automatically.</li>
@@ -150,7 +147,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 <li><strong>Contribute Access</strong> </li>
 <li> <p><strong>Manage Access</strong> </p> </li>
 </ul> <p>Now, when someone submits a request to the selected project, they are granted the specified permissions to the request.</p> </li>
-<li value="5"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong>.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.&nbsp;</p> </li>
+<li value="5"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong>.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.  </p> </li>
 <li value="6">Click <strong>Save</strong>.</li>
 </ol>
 </div>
@@ -242,26 +239,26 @@ The following table displays what permissions you can grant users when allowing 
   <tr> 
    <td> <p>Add issues</p> </td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
-   <td>Delete&nbsp;</td> 
+   <td>Delete  </td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Attach Custom Form</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Edit Custom Fields</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Approve Issue</td> 
@@ -272,8 +269,8 @@ The following table displays what permissions you can grant users when allowing 
   <tr> 
    <td>Add An Approval Process</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Add Documents</td> 
@@ -290,26 +287,26 @@ The following table displays what permissions you can grant users when allowing 
   <tr> 
    <td>Move Issue</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Log Hours</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Convert to Project*</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Accept Assignment</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Updates/ comments</td> 
@@ -320,14 +317,14 @@ The following table displays what permissions you can grant users when allowing 
   <tr> 
    <td>Modify Planned Dates</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Make Assignments</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Share</td> 
@@ -337,8 +334,8 @@ The following table displays what permissions you can grant users when allowing 
   </tr> 
   <tr> 
    <td>Share System-wide</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

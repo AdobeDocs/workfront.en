@@ -24,26 +24,31 @@ These notifications contain [!DNL Workfront] actions that you can take within [!
 >[!DNL Microsoft Teams] no longer supports [!DNL Internet Explorer]. To use the [!DNL Adobe Workfront for Microsoft Teams integration], you must use a web browser other than [!DNL Internet Explorer].
 
 
+
+
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+   <p>Work or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites for Receiving [!DNL Workfront] Notifications in [!DNL Microsoft Teams]
 
@@ -57,7 +62,7 @@ For information about installing [!DNL Workfront for Microsoft Teams] and loggin
 
 ## Managing [!DNL Workfront] Notifications in [!DNL Microsoft Teams]
 
-When the [!DNL Workfront for Microsoft Teams] app is installed, a [!DNL Workfront] chat channel is created in [!DNL Microsoft Teams] for every member of that team. When an certain action is performed in [!DNL Workfront], you can configure the settings for [!DNL Workfront for Microsoft Teams] to receive notifications about that action in the [!DNL Workfront] chat channel of [!DNL Microsoft Teams].
+When the [!DNL Workfront for Microsoft Teams] app is installed, a [!DNL Workfront] chat channel is created in [!DNL Microsoft Teams] for every member of that team. When a certain action is performed in [!DNL Workfront], you can configure the settings for [!DNL Workfront for Microsoft Teams] to receive notifications about that action in the [!DNL Workfront] chat channel of [!DNL Microsoft Teams].
 
 Consider the following when working with [!DNL Workfront] notifications from [!DNL Microsoft Teams]:
 
@@ -210,7 +215,7 @@ You receive approval notifications when you are asked to approve an object, such
    <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">A document approval request that you requested is approved</td> 
+   <td role="rowheader">A document approval request that you requested is approved*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -218,7 +223,7 @@ You receive approval notifications when you are asked to approve an object, such
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">A document approval request that you requested is approved with changes</td> 
+   <td role="rowheader">A document approval request that you requested is approved with changes*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -226,7 +231,7 @@ You receive approval notifications when you are asked to approve an object, such
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">A document approval request that you requested is rejected</td> 
+   <td role="rowheader">A document approval request that you requested is rejected*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -243,6 +248,8 @@ You receive approval notifications when you are asked to approve an object, such
   </tr> 
  </tbody> 
 </table>
+
+*These notifications refer to legacy document approvals. Unified document approval notifications are not currently supported in [!DNL Microsoft Teams]. For more information about the different approval systems in Workfront, see [Available functionality for document approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
 
 ### Assignment notifications {#assignment-notifications}
 

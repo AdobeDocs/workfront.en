@@ -5,7 +5,7 @@ product-area: system-administration;setup
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Configure POP in Microsoft Exchange
 description: A POP email account in [!DNL Microsoft Exchange] is disabled.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7b6f40-cfbd-4f02-8c3e-de26b05db13b
@@ -20,39 +20,31 @@ A POP email account in [!DNL Microsoft Exchange] is disabled.
 
 Before spending time troubleshooting the problem, ensure the user's POP account is configured properly. If you continue to experience problems after you confirm the POP account is correctly configured, contact [!DNL Microsoft] Support or one of their partners for additional help.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For instructions on integrating a POP account in Adobe Workfront, see .</p>
--->
-
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Any</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td>
-   <p>New: Standard</p>
-   <p>or</p>
-   <p>Current: Plan</p></td> 
+   <td>[!DNL Adobe Workfront] license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Access level configurations</td> 
    <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

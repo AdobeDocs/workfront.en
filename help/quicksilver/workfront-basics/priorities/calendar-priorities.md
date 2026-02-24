@@ -31,14 +31,14 @@ Easily track your work with a clear, visual calendar. With the Priorities calend
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-   <p>Current: Reviewer or higher</p>
-   <p>New: Light or higher</p> 
+   <p>Reviewer or higher</p>
+   <p>Light or higher</p> 
    </td> 
   </tr> 
   <tr> 

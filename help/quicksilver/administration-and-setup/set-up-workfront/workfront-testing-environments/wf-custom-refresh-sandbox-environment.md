@@ -36,21 +36,24 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Workfront] plan</td> 
-   <td> <p>[!UICONTROL Business] or higher</p> </td> 
+   <td role="rowheader">Workfront package</td> 
+   <td> <p>Prime or Ultimate</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">[!DNL Workfront] license</p> </td> 
-   <td> <p>[!UICONTROL Plan] </p> <p>You must be a [!DNL Workfront] administrator. For information on [!DNL Workfront] administrators, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+   <td role="rowheader"> Workfront license</td> 
+   <td> <p>Standard</p><p>Plan</p>  </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Support package</td> 
-   <td> <p>[!UICONTROL Plus], [!UICONTROL Preferred], or [!UICONTROL Enterprise]</p> <p>The standard support package does not have access to the Custom Refresh Sandbox, but it does have access to the Preview Sandbox.</p> </td> 
-  </tr> 
+  </tr>
+   <tr>
+   <td>Access level configurations
+   </td>
+   <td><p>You must be a Workfront administrator.</p>
+   </td>
+  </tr>
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -214,3 +217,8 @@ For the Custom Refresh Sandbox environment, the nightly recalculation is disable
 * [!DNL Workfront] Custom Refresh Sandbox environments are intended to be always available. Any outage to a Workfront Custom Refresh Sandbox environment during regular business hours will be a first priority immediately after any Production issues are resolved if any exist. Any outage to a Workfront Custom Refresh Sandbox environment on weekends (Saturdays and Sundays) will be addressed so that the environment is running for business hours on Monday.
 
 * Proofing is not available in the Custom Refresh Sandbox environments.
+
+* The following notifications are not avaiilable for use in the Custom Refresh Sandbox environments:
+
+   * Reminder notifications
+   * Automatic late or early reminder notifications

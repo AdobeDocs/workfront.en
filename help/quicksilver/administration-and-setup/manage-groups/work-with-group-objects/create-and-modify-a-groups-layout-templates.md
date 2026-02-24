@@ -5,7 +5,7 @@ keywords: group,layout,templates
 navigation-topic: work-with-a-groups-objects
 title: Create and Modify a Group's Layout Templates
 description: When you are viewing a group that you manage in the Groups area, you can view and work with the Layout Template for which the administrators of the group, or one of its subgroups, have administrative access.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
@@ -20,30 +20,27 @@ If there are any groups above the group you manage, their administrators can als
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td>
-   <td><p>New: Standard</p>
-       <p>Or</p>
-       <p>Current: Plan</p></td>
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Access level configurations</td> 
    <td>You must be a group administrator of the group or a system administrator.</td>
   </tr>
-  </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,15 +61,15 @@ For more detail about the information in this table, see [Access requirements in
 
      Or
 
-     To create a new template for the group that is based on an existing one, select the existing template, then click **Copy**.
+     To create a new template for the group that is based on an existing one, select the existing template, then click the **Copy** icon ![Copy icon](assets/copy-icon.png).
 
      For information on creating a Layout Template, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
      For information about copying a layout template to create a new one, see [Copy a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
    
-   * To edit an existing group layout template, select it, then click **Edit**.
+   * To edit an existing group layout template, select it, then click the **Edit** icon ![Edit icon](assets/edit-icon.png).
 
      For information on editing a layout template, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
    
-   * To delete one or more layout templates, select them, then click **Delete**. 
-   * **Export** the list of layout templates.
+   * To delete one or more layout templates, select them, then click the **Delete** icon ![Delete icon](assets/delete.png).
+   * To export the list of layout templates, click the **Export** icon ![Export icon](assets/export-icon.png).

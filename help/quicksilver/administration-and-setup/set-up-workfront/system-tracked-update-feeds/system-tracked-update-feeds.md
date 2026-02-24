@@ -12,7 +12,7 @@ exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
 ---
 # System-tracked updates overview
 
-<!-- Audited: 06/2025-->
+<!-- Audited: 08/2025-->
 
 [!DNL Adobe Workfront] captures the activity taking place on certain objects by logging status information in the object's [!UICONTROL Updates] section. 
 

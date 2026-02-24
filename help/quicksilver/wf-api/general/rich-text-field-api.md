@@ -23,8 +23,11 @@ A custom field with rich-text formatting is called Field with rich text, and can
 
 Example: A basic GET request to retrieve the value of the Field with rich text custom form field:
 
-<!-- [Copy](javascript:void(0);) --> 
-<pre><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GET /attask/api-internal/<OBJ Code>/<OBJ ID>?fields=parameterValues#&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OR<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GET /attask/api/v12.0/<OBJ Code>/<OBJ ID>?fields=parameterValues</code></pre>&nbsp;
+```
+GET /attask/api-internal/<OBJ Code>/<OBJ ID>?fields=parameterValues#
+OR
+GET /attask/api/v12.0/<OBJ Code>/<OBJ ID>?fields=parameterValues
+```
 
 Example: This request will return the value of Field with rich text in JSON stored in the parameterValue DE:Field with rich text
 

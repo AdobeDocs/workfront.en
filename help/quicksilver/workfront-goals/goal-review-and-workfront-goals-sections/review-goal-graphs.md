@@ -15,14 +15,61 @@ You can view the overall health of your goals and their progress trend in time i
 
 >[!IMPORTANT]
 >
->You can see a total count for your goals in the Graphs section for a selected period of time.&nbsp;However, Workfront Goals takes into account only goals with a status of Active and Closed when calculating the overall goal progress status and percent complete.
+>You can see a total count for your goals in the Graphs section for a selected period of time. However, Workfront Goals takes into account only goals with a status of Active and Closed when calculating the overall goal progress status and percent complete.
 
 ## Access requirements
 
+>[!NOTE]
+>
+>Your company might choose to continue using Adobe Workfront Goals if they bought this package in the past. You must speak with your account representative for details. 
+>
+>Adobe Workfront Goals is no longer available for purchase. 
+
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following: 
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+  <td> <p>Adobe Workfront package</p> </td> 
+   <td> 
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
+  </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront license</td>
+ <td>
+ <p>Contributor or higher</p>
+<p>Request or higher</p></td>
+ </tr>
+  <tr>
+ <td role="rowheader">Access level configuration</td>
+ <td> <p>Edit access to Goals</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <div>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  </div> </td>
+ </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including System Administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+</tbody>
+</table>
 
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -73,11 +120,7 @@ You must have the following:
 </td>
   </tr>
 </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 ## Types of graphs in Workfront Goals
 
@@ -99,8 +142,8 @@ The following charts are available in the Graphs section or Workfront Goals:
    <td role="rowheader">The Goal Progress Chart</td> 
    <td> <p>A line chart that displays updates made to goals in weekly increments during the goal's duration. The goal progress chart displays the following:</p> 
     <ul> 
-     <li>An average expected and actual percent complete of all&nbsp;active and closed goals in the selected period. The percent complete progress is broken down into weekly increments marked by nodes. </li> 
-     <li>The overall average percentage of progress for active and&nbsp;closed goals since the previous week. </li> 
+     <li>An average expected and actual percent complete of all active and closed goals in the selected period. The percent complete progress is broken down into weekly increments marked by nodes. </li> 
+     <li>The overall average percentage of progress for active and closed goals since the previous week. </li> 
     </ul> <p>Tip: The goal progress chart might not display any information when updates are made on the goals outside of the time period selected. </p> </td> 
   </tr> 
  </tbody> 
@@ -108,10 +151,7 @@ The following charts are available in the Graphs section or Workfront Goals:
 
 ## Review goal progress in graphs
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+{{step1-to-goals}}
 
    This opens the Workfront Goals area. 
 
@@ -175,4 +215,4 @@ The following charts are available in the Graphs section or Workfront Goals:
 
    Click **Baseline** at the bottom of the progress chart to remove the expected progress from the chart.
 
-&nbsp;
+ 

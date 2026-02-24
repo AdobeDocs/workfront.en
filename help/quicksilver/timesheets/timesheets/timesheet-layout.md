@@ -4,7 +4,7 @@ product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: Timesheet Layout Overview
 description: This article describes the layout of timesheets in Adobe Workfront, allowing you to better understand how to customize and utilize timesheets to record time.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
 ---
