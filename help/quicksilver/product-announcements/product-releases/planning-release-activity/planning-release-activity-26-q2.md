@@ -38,13 +38,12 @@ For information, see [Configure Adobe Workfront Planning automations](/help/quic
 >Production fast release: March 12, 2026
 >Production for everyone: April 16, 2026
 
-We are now allowing only System Administrators to choose between the following options when sharing a workspace:  
-*Everyone in the system can view 
-*Only invited people can access 
+We are now allowing only System Administrators to choose between the following options when sharing a workspace:
+
+* Everyone in the system can view 
+* Only invited people can access 
 
 By default, workspaces are set to the "Only invited people can access" permission. 
-
-All other workspace creators will see the selected permission, but they will not be able to change it. 
 
 Prior to this change, the ability to choose these workspace sharing permissions did not exit. 
 
