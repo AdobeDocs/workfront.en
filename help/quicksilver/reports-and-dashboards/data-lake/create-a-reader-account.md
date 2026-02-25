@@ -108,7 +108,7 @@ To create a reader account:
 
 1. Click **Generate Connection**.
 
-1. A PAT token is generated, as well as a URL where your data can be viewed through Snowflake. You need to use the token with the username you chose to sign in to Snowflake, so ensure that you keep a record of it as well as the URL. Check the box claiming you have done so, then click **Close**.
+1. A PAT token is generated that can be used to authenticate, and your Snowflake environment URL is provided. You can use the PAT and the username you provided to connect to Snowflake from your third-party visualization tool or data processor. Ensure that you keep a record of it as well as the URL. Check the box claiming you have done so, then click **Close**.
 
     ![programmatic access token dialog](/help/quicksilver/reports-and-dashboards/data-lake/assets/pat-test.png)
 
@@ -121,7 +121,11 @@ To create a reader account:
 
 1. Click **Generate Connection**.
 
-1. A connection is generated, as well as a URL where your data can be viewed through Snowflake. You need to use the RSA key with the username you chose to sign in to Snowflake, so ensure that you keep a record of it as well as the URL. Check the box claiming you have done so, then click **Close**.
+1. A connection is generated, and your Snowflake environment URL is provided. You can use the RSA key and the username you provided to connect to Snowflake from your third-party visualization tool or data processor.
+
+
+
+You need to use the RSA key with the username you chose to sign in to Snowflake, so ensure that you keep a record of it as well as the URL. Check the box claiming you have done so, then click **Close**.
 
     ![RSA key dialog](Assets/rsa-test.png)
 
