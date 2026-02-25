@@ -58,13 +58,13 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. Hover over the document, then click Document Details.
    ![Document details](assets/doc-details.png)
 
-1. Near the document name, select the version of the document you would like to create an approval for in the version dropdown. The latest version will be selected by default.
+1. Near the document name, select the version of the document you would like to create an approval for in the version dropdown. The latest version is selected by default.
 
-1. Click **Approvals** in the left pane.
+1. Click **Approvals** in the left panel.
 
 1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
 
-1. To add an approver, click the **Approver** and and begin typing in a user or team name. 
+1. To add an approver, click the **Approver** and begin typing in a user or team name. 
 
 1. To add a reviewer, click the **Reviewer** checkbox and begin typing in a user or team name. 
 
@@ -76,9 +76,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 
-1. Click on the document you need and the Document Summary pane for that document will open.
+1. Click on the document you need and the Document Summary left panelfor that document opens.
 
-1. Select the version of the document you would like to create an approval for in the version dropdown. The latest version will be selected by default.
+1. Select the version of the document you would like to create an approval for in the version dropdown. The latest version is selected by default.
 
 1. Scroll down to the **Approvals** section in the Document Summary pane, then click **Add**.
 
@@ -86,7 +86,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
 
-1. To add an approver, click the **Approver** and and begin typing in a user or team name. 
+1. To add an approver, click the **Approver** and begin typing in a user or team name. 
 
 1. To add a reviewer, click the **Reviewer** checkbox and begin typing in a user or team name. 
 
@@ -100,11 +100,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 <!--If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).-->
 
-To create a an approval workflow:
+To create an approval workflow:
 
 1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. Click on the document you need and the Document Summary panel for that document will open.
+1. Click on the document you need and the Document Summary panel for that document opens.
 
 1. Select the version of the document you would like to create an approval for in the version dropdown. The latest version is selected by default.
 

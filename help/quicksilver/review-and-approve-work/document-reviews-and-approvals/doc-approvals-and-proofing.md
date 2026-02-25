@@ -17,7 +17,15 @@ There are some key differences in the workflow when using Unified Approvals and 
 
 * Sent, Opened, Comment, Decision (SOCD) details in the document list is proofing related and does not reflect the decision status of the document.
 
-## Upload a document and create a proof 
+
+
+
+<div class="preview">
+
+
+## Use Unified Approvals and proofing together in your preview environment
+
+### Upload a document and create a proof 
 
 1. Go to the project, task, or issue where you want to add a new document.
 1. Click the **Documents** tab, then click the **Add New** drop-down menu.
@@ -32,7 +40,7 @@ Drag and drop the document into the document list.
 
 Users assigned as participants can use the proofing viewer to add comments and markup on the document. Continue to the next section to learn how to add review participants. 
 
-## Open the document Summary and assign participants
+### Open the document Summary and assign participants
 
 You have the option to assign reviewers, approvers, or a mix of both:
 
@@ -79,7 +87,7 @@ To assign participants:
 1. Once you've added all reviewers and approvers, click **Request approvals**. Participants are notified via email.
 
 
-## Create a new version as needed
+### Create a new version as needed
 
 If you need another round of review and approval, you can create a new proof version and add the previous participants, new participants, or a mix of both. You can view information about previous versions and participants in the document Summary.
 
@@ -128,7 +136,7 @@ To add a new version:
 
 
 
-## Review the proof and make a decision
+### Review the proof and make a decision
 
 The document does not move to an approved status until all assigned approvers choose "approved".
 
@@ -148,3 +156,4 @@ To review and approve a document:
 
 Once you make a decision, the document owner is notified via email.
 
+</div>
