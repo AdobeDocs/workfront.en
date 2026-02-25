@@ -52,7 +52,51 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Create an approval workflow from the Summary panel <!--in the legacy documents area-->
+
+## Create a document review or approval request from the document page in your production environment
+
+1. Hover over the document, then click Document Details.
+   ![Document details](assets/doc-details.png)
+
+1. Near the document name, select the version of the document you would like to create an approval for in the version dropdown. The latest version will be selected by default.
+
+1. Click **Approvals** in the left pane.
+
+1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
+
+1. To add an approver, click the **Approver** and and begin typing in a user or team name. 
+
+1. To add a reviewer, click the **Reviewer** checkbox and begin typing in a user or team name. 
+
+   ![Add approver and deadline](assets/add-approver-and-deadline.png)
+
+1. Repeat the previous step to add additional approvers or reviewers.
+
+## Create a document review or approval request from the Document Summary panel in your production environment
+
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+
+1. Click on the document you need and the Document Summary pane for that document will open.
+
+1. Select the version of the document you would like to create an approval for in the version dropdown. The latest version will be selected by default.
+
+1. Scroll down to the **Approvals** section in the Document Summary pane, then click **Add**.
+
+  ![Add approvers in document summary](assets/doc-summary-add-approvers.png)
+
+1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
+
+1. To add an approver, click the **Approver** and and begin typing in a user or team name. 
+
+1. To add a reviewer, click the **Reviewer** checkbox and begin typing in a user or team name. 
+
+   ![Add approver and deadline](assets/add-approver-and-deadline.png)
+
+1. Repeat the previous step to add additional approvers or reviewers.
+
+<div class="preview">
+
+## Create an approval workflow from the Summary panel in your preview environment <!--in the legacy documents area-->
 
 <!--If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).-->
 
@@ -96,6 +140,7 @@ To create a an approval workflow:
 
    ![Document details](assets/new-stage.png)
 
+</div>
 
 <!--## Create an approval workflow from the Summary panel in the new document area
 
