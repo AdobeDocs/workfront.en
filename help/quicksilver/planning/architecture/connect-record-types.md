@@ -317,9 +317,13 @@ For an example of connecting record types and records, see [Example of connectin
 
 1. Select the **Select lookup fields** to add fields from the  record type you are connecting to. The lookup fields are fields associated with the record or object type that you are linking to. Linking them displays information from the record or object you're linking to on the record you are linking from. This is selected by default. 
 
+<!--For Feb 26: replace the first bullet below in the TIP with this: 
+
+* In the Production environment, you cannot add Workfront user fields (including fields like Project Owner, or Project Sponsor) as lookup fields. <span class="preview">You can add user fields as lookup fields in the Preview environment.</span>-->
+
     >[!TIP]
     >
-    >* You cannot add Workfront typeahead fields (including fields like Project Owner, or Project Sponsor) as lookup fields.
+    >* You cannot add Workfront typeahead or user fields (including fields like Project Owner, or Project Sponsor) as lookup fields.
     >
     >* Workfront objects' date field information displays in 24 hour format in Workfront Planning, regardless of how it displays in Workfront. 
     >

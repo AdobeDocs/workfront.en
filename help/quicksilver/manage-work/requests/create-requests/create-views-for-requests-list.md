@@ -7,9 +7,16 @@ author: Becky
 feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 ---
+
 # Create and manage views in the Requests area
 
-If you are using the new requesting experience, you can create and save views for the Requests area. These views include filters and column arrangements. 
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
+-->
+
+If you are using the new requesting experience, you can create and save views for the Requests area. These views include filters, and column arrangements. <!--<span class="preview"> and groupings.</span> -->
 
 Views can be created and managed in the Requests area of Workfront.
 
@@ -53,7 +60,7 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Create a view in the Requests area
+## Create a view for requests
 
 You can create a view in the Requests area of Workfront,. 
 
@@ -68,7 +75,7 @@ You can create a view in the Requests area of Workfront,.
 1. Enter a name for the new view, and click **Create**.
 1. Continue to [Edit a view in the Requests area](#edit-a-view-in-the-requests-area).
 
-## Edit a view in the Requests area
+## Edit a view for requests
 
 You can edit existing views, including views you have just created.
 
@@ -105,6 +112,10 @@ You can edit existing views, including views you have just created.
     The request list is filtered automatically, as you add the filter conditions. 
  
 
+<!--
+1. <Span class="preview">(Optional) Click **Group** and select the column that you want to group by.</span>
+
+-->
 
 >[!IMPORTANT]
 >
