@@ -4,7 +4,7 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Create a  reader account for Snowflake
 description: In order to access Data Connect data, you must first create a Snowflake reader account.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
 ---
@@ -88,7 +88,7 @@ To create a reader account:
 
 1. Click **Password**, then **Generate Connection**.
 
-1. A **Default password** will be generated, as well as a URL where your data can be viewed through Snowflake. You will need to use the password in conjunction with the username you chose to sign in to Snowflake for the first time, so ensure that you keep a record of it as well as the URL. Check the box claiming you have done so, then click **Close**.
+1. A **Default password** is generated, as well as a URL where your data can be viewed through Snowflake. You need to use the password with the username you chose to sign in to Snowflake for the first time, so ensure that you keep a record of it as well as the URL. Check the box claiming you have done so, then click **Close**.
 
     ![Default account password](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
 
@@ -104,11 +104,11 @@ To create a reader account:
 
 1. Click **Programmatic Access Token**.
 
-1. Enter an expiration date for your token in the **Expiration date** field. You can choose an experiation date up to 365 days in the future. 
+1. Enter an expiration date for your token in the **Expiration date** field. You can choose an expiration date up to 365 days in the future. 
 
 1. Click **Generate Connection**.
 
-1. A PAT token will be generated, as well as a URL where your data can be viewed through Snowflake. You will need to use the token in conjunction with the username you chose to sign in to Snowflake, so ensure that you keep a record of it as well as the URL. Check the box claiming you have done so, then click **Close**.
+1. A PAT token is generated, as well as a URL where your data can be viewed through Snowflake. You need to use the token with the username you chose to sign in to Snowflake, so ensure that you keep a record of it as well as the URL. Check the box claiming you have done so, then click **Close**.
 
     ![programmatic access token dialog](/help/quicksilver/reports-and-dashboards/data-lake/assets/pat-test.png)
 
@@ -119,11 +119,11 @@ To create a reader account:
 
 1. Enter an RSA public key in the **RSA Public Key** field. 
 
-1. Enter an expiration date for your token in the **Expiration date** field. You can choose an experiation date up to 365 days in the future. 
+1. Enter an expiration date for your token in the **Expiration date** field. You can choose an expiration date up to 365 days in the future. 
 
 1. Click **Generate Connection**.
 
-1. A connection will be generated, as well as a URL where your data can be viewed through Snowflake. You will need to use the RSA key in conjunction with the username you chose to sign in to Snowflake, so ensure that you keep a record of it as well as the URL. Check the box claiming you have done so, then click **Close**.
+1. A connection is generated, as well as a URL where your data can be viewed through Snowflake. You need to use the RSA key with the username you chose to sign in to Snowflake, so ensure that you keep a record of it as well as the URL. Check the box claiming you have done so, then click **Close**.
 
     ![RSA key dialog](Assets/rsa-test.png)
 
