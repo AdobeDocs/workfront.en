@@ -35,7 +35,6 @@ You can create the following items using automations in Workfront Planning:
 * A group
 * A program
 * A portfolio
-* A project
 
 ## Access requirements
 
@@ -155,10 +154,21 @@ For more information about Workfront access requirements, see [Access requiremen
 
 * New objects or records don't override existing ones in the same field. Triggering the same automation multiple times for the same record adds the new objects or records in the same connected field of the original record, in addition to the ones created before. 
 
+
+
 <!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
  
 
 ## Use a Workfront Planning automation to create an object or a record
+
+<!--For Feb 26 and add Preview disclosure at the top:
+
+<span class="preview">When you choose a Field value change-automation, Workfront Planning creates the objects automatically, when the conditions you define are met. </span>
+
+For information, see [Configure Adobe Workfront Planning automations to create records](/help/quicksilver/planning/records/configure-automations-to-create-records.md).</span>
+-->
+
+This section describes how to create objects using a Button click-automation. 
 
 1. In Workfront Planning, open the record type page that contains the automation you want to use to automatically create and connect records or objects. 
 1. Open the table view. 
