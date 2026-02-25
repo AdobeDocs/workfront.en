@@ -9,6 +9,8 @@ exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 ---
 # Create a document approval workflow
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 You can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.
 
 >[!IMPORTANT]
