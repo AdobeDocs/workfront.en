@@ -56,6 +56,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 +++
 
 
+
 <div class="preview">
 
 ## Use drag-and-drop to add a new version in your preview environment <!--in the legacy documents area-->
