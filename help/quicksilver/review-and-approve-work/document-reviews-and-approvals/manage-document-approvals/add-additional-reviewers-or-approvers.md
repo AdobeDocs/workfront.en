@@ -9,7 +9,7 @@ exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
 ---
 # Add additional approvers or reviewers to a document approval workflow
 
-You can Add additional approvers or reviewers to a document approval workflow that already has pending approvals.
+You can add additional approvers or reviewers to a document approval workflow that already has pending approvals.
 
 >[!IMPORTANT]
 >
@@ -49,11 +49,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 +++
 
 
-## Add additional approvers or reviewers from the Document Summary <!--in the legacy documents area-->
+## Add additional approvers or reviewers from the Document Summary in the preview environment <!--in the legacy documents area-->
 
 <!--If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).-->
 
-To Add additional approvers or reviewers from the Document Summary:
+To add additional approvers or reviewers from the Document Summary:
 
 1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
