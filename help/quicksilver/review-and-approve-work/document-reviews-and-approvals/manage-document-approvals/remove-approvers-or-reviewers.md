@@ -9,6 +9,8 @@ exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
 ---
 # Remove approvers or reviewers from a document approval workflow
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 You can remove individual approvers or reviewers from an asset or document after they have been assigned.
 
 >[!IMPORTANT]
@@ -51,6 +53,36 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
+
+## Remove approvers or reviewers from the Document Details page in your production environment
+
+1. Go to the document page by clicking on the name of the document, then select the version of the document you would like to remove an approval for in the version dropdown. The latest version will be selected by default.
+
+1. Select **Approvals** in the left pane.
+
+1. Hover over the name of the approver or reviewer you would like to remove, then click on the **Delete** icon ![Delete icon](../assets/delete.png) that appears after their name.
+
+    The approval or review request is removed and the approver receives a notification that their approval is no longer needed. Their approval-related share access is also removed.
+
+1. (Optional) To demote an approver to a reviewer rather than remove them entirely, uncheck the **Approver** checkbox in line with their name.
+
+1. Repeat the previous step to remove any additional approvers or reviewers.
+
+## Remove approvers or reviewers from the Document Summary in your production environment
+
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+
+1. Click on the document you need and the Document Summary pane for that document will open.
+
+1. Select the version of the document you would like to remove an approver or reviewer for in the version dropdown. The latest version will be selected by default.
+
+1. Scroll down to the **Approvals** section in the Document Summary pane. Hover over the name of the approver or reviewer you would like to remove, then click on the **Delete** icon ![Delete icon](../assets/delete.png) that appears after their name.
+
+    The approval or review request is removed and the approver receives a notification that their approval is no longer needed. Their approval-related share access is also removed.
+
+1. (Optional) To demote an approver to a reviewer rather than remove them entirely, uncheck the **Approver** checkbox in line with their name.
+
+1. Repeat the previous step to remove any additional approvers or reviewers.
 
 
 <div class="preview">

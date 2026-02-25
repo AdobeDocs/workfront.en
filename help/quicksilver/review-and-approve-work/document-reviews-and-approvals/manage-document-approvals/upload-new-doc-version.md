@@ -9,6 +9,8 @@ exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 ---
 # Upload a new document version and request an approval
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 If a document is marked needs work in a previous review, you can upload a new version to the original document and start another round of approvals. Once you upload a new version of the document, the previous versions are locked. 
 
 If the file name of the new version is different from the file name of the previous version, Workfront displays the document with the newer file name.
@@ -53,7 +55,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Use drag-and-drop to add a new version <!--in the legacy documents area-->
+
+<div class="preview">
+
+## Use drag-and-drop to add a new version in your preview environment <!--in the legacy documents area-->
 
 <!--If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).-->
 
@@ -106,13 +111,13 @@ To add a new version:
 
 
 
-<!--1. To add an existing approval template, select a template from the left side of the dialog.
+1. (Optional) To add an existing approval template, select a template from the left side of the dialog.
 
    >[!TIP]
    >
    >   Users with a Standard license can create resuable Approval Templates from the Setup area. For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
--->
+
 
 1. Once you have added all the stages and participants you need, click **Request approval**.
 
@@ -123,5 +128,5 @@ To add a new version:
 
 
 
-
+</div>
 
