@@ -51,7 +51,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Remove approvers or reviewers from an approval worklow<!--in the legacy documents area-->
+
+
+<div class="preview">
+
+## Remove approvers or reviewers from an approval workflow in your preview environment<!--in the legacy documents area-->
 
 <!--If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).-->
 
@@ -74,6 +78,8 @@ To remove approvers or reviewers from an approval workflow:
 1. (Optional) To change the role of an approver to a reviewer, or vice versa, click the drop-down menu next to the username, and select the new role.
 
 1. Repeat the previous step to remove any additional approvers or reviewers.
+
+</div>
 
 <!--
 ## Remove approvers or reviewers to an approval workflow in the new document area

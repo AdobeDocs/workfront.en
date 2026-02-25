@@ -64,7 +64,7 @@ For more detail about the information in this table, see [Access requirements in
 
 <div class="preview">
 
-## Create an Approval Template in your Preview environment
+## Create an Approval Template in your preview environment
 
 {{step-1-to-setup}}
 
