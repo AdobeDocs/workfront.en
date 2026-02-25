@@ -119,8 +119,6 @@ To create a reader account:
 
 1. Enter an RSA public key in the **RSA Public Key** field. 
 
-1. Enter an expiration date for your token in the **Expiration date** field. You can choose an expiration date up to 365 days in the future. 
-
 1. Click **Generate Connection**.
 
 1. A connection is generated, as well as a URL where your data can be viewed through Snowflake. You need to use the RSA key with the username you chose to sign in to Snowflake, so ensure that you keep a record of it as well as the URL. Check the box claiming you have done so, then click **Close**.
