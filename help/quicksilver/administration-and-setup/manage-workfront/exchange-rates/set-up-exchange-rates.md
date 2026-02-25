@@ -70,7 +70,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 {{step-1-to-setup}}
 
 1. Click **Project Preferences** > **Exchange Rates**.
-
 1. Click **Add currency**.
 1. In the **Add currency** box, begin typing the name of the currency, then click it when it appears in the drop-down list.
 1. In the **Exchange rate** field, enter the rate for the currency that you selected, compared to the currency that is set as the base currency in the system.
@@ -99,7 +98,7 @@ Effective dates for a currency's exchange rates are configured so that a rate va
 {{step-1-to-setup}}
 
 1. Click **Project Preferences** > **Exchange Rates**.
-1. Select a currency in the list, and click **Manage dates** in the action bar.
+1. Select a currency in the list, and click **Manage dates** on the action bar.
 1. On the **(currency name) date effective rates** dialog, choose an **End Date** for the current exchange rate.
 
    Or
