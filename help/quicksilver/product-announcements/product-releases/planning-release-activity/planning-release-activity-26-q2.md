@@ -16,6 +16,104 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Trigger-based automation
+
+>[!NOTE]
+>
+>Preview: February 26, 2026
+>Production fast release: March 12, 2026
+>Production for everyone: April 16, 2026
+
+You can now automatically create Planning records or Workfront objects based on a record field change using Planning automations.  
+
+Prior to this enhancement, you could automatically create Planning records or Workfront objects only when you clicked a preconfigured button.  
+
+For information, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+## Only system administrators can share workspaces system-wide 
+
+>[!NOTE]
+>
+>Preview: February 26, 2026
+>Production fast release: March 12, 2026
+>Production for everyone: April 16, 2026
+
+We are now allowing only System Administrators to choose between the following options when sharing a workspace:  
+*Everyone in the system can view 
+*Only invited people can access 
+
+By default, workspaces are set to the "Only invited people can access" permission. 
+
+All other workspace creators will see the selected permission, but they will not be able to change it. 
+
+Prior to this change, the ability to choose these workspace sharing permissions did not exit. 
+
+For information, see Share workspaces (help/quicksilver/planning/access/share-workspaces.md).
+
+## Sort groupings in the timeline view  
+
+>[!NOTE]
+>
+>Preview: February 26, 2026
+>Production fast release: March 12, 2026
+>Production for everyone: April 16, 2026
+
+You can now sort groupings in the timeline view. For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+## Support user references for connected fields  
+
+>[!NOTE]
+>
+>Preview: February 26, 2026
+>Production fast release: March 12, 2026
+>Production for everyone: April 16, 2026
+
+You can now connect Workfront user fields to Workfront Planning record types by adding a new connection between a Workfront object and a Workfront Planning record type.  
+
+For example, you can now add Project Sponsor or Portfolio Owner as a lookup field in Workfront Planning, when adding a connection to projects or portfolios. 
+
+For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+## Real time presence indicators now display users in the table view 
+
+>[!NOTE]
+>
+>Preview: February 26, 2026
+>Production fast release: March 12, 2026
+>Production for everyone: April 16, 2026
+
+You can now view the users updating record fields at the same time as you by clicking the real-time presence indicator in the upper-right corner of a cell in the table view. Users listed in the upper-right corner of the record table view are those who have the same view open. 
+
+You must turn on the Show collaborators setting in the table view header. Other users may update fields either in the table view or the Details area of a record.  
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Updated sharing experience for list views 
+
+>[!NOTE]
+>
+>Preview: February 26, 2026
+>Production fast release: March 12, 2026
+>Production for everyone: April 16, 2026
+
+When you share the list view in the projects connected records page of a record with View permissions, the user you share the view with can modify the view elements and those changes are saved to the user's personal preferences. They now have the option to save a copy of the view that includes their changes or to reset the shared view to its original settings. They can further share the copied view with others.  
+
+This update is available only in the list view, for the connected records page of a record when displaying projects.  
+
+For more information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Apply conditional formatting to the list view 
+
+>[!NOTE]
+>
+>Preview: February 26, 2026
+>Production fast release: March 12, 2026
+>Production for everyone: April 16, 2026
+
+You can now apply conditional formatting to projects in a list view in the Connected records page of a record. This functionality did not exist in the list view before this enhancement.  
+
+For more information, see [Manage list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+
 ## Improvements to global record types in secondary workspaces 
 
 >[!NOTE]

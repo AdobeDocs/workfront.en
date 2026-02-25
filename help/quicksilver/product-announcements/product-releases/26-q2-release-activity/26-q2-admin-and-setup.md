@@ -12,7 +12,11 @@ This page describes Administrator enhancements made with the Second Quarter 2026
 
 For a list of all changes available at this point in the Second Quarter 2026 release cycle, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Collapse custom form section by default
 
+By default, all sections on a custom form are expanded when the form itself is expanded. A new option on the custom form designer allows you to mark a section to be collapsed by default when a user opens the form. This option is applied at the section level, not on fields.
+
+For more information, see [Organize and preview a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## Rich text field type is now available on custom forms
 
