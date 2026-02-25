@@ -218,6 +218,25 @@ For an example of connecting record types and records, see [Example of connectin
 
         ![Workfront project connection selection](assets/multi-select-connection-picker-project.png)
 
+    <div class="preview">
+      
+    * An **Original request** object type from the **Workfront Object Types** section. 
+
+        The original request connection field created will display the name of the submitted Planning request that created the object. The name of the request is also visible in the **Subject** field of the request.
+
+        >[!NOTE]
+        >
+        >You must create request forms and publish them in order to submit Planning requests to create records in Workfront Planning. 
+        >
+        >For information, see the following articles: 
+        >* [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
+        >* [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+
+        ![Original request connection selection](assets/original-request-connection-selection.png)
+
+    </div>
+
+
     * **Experience Manager Assets** from the **Adobe Applications** section.
 
         ![AEM Assets connection selection](assets/aem-assets-connection-selection.png)
@@ -298,9 +317,13 @@ For an example of connecting record types and records, see [Example of connectin
 
 1. Select the **Select lookup fields** to add fields from the  record type you are connecting to. The lookup fields are fields associated with the record or object type that you are linking to. Linking them displays information from the record or object you're linking to on the record you are linking from. This is selected by default. 
 
+<!--For Feb 26: replace the first bullet below in the TIP with this: 
+
+* In the Production environment, you cannot add Workfront user fields (including fields like Project Owner, or Project Sponsor) as lookup fields. <span class="preview">You can add user fields as lookup fields in the Preview environment.</span>-->
+
     >[!TIP]
     >
-    >* You cannot add Workfront typeahead fields (including fields like Project Owner, or Project Sponsor) as lookup fields.
+    >* You cannot add Workfront typeahead or user fields (including fields like Project Owner, or Project Sponsor) as lookup fields.
     >
     >* Workfront objects' date field information displays in 24 hour format in Workfront Planning, regardless of how it displays in Workfront. 
     >

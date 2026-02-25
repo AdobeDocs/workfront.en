@@ -215,15 +215,15 @@ Consider the following:
 
 * When you delete a global record type from a secondary workspace, the following are also deleted:
 
-   * The records added from the secondary workspace are deleted from the secondary workspace and cannot be recovered.
-
-      Records added in the secondary workspace remain in the primary workspace of the global record type. The **Workspace** field is empty for these records in the primary workspace of the global record type. <!--checking on this with Lilit-->
+   * The records added from the secondary workspace are deleted from the secondary workspace and from the original workspace, and cannot be recovered.
 
    <!--Coming later: * The fields added from the secondary workspace.-->
 
 * Global record types deleted from their secondary workspaces cannot be recovered. 
 
 * The original record type remains in its original workspace as well as in other workspaces where it's been added. 
+
+* Views added to the record type in the secondary workspace are preserved and are visible in other workspaces, if they are shared with you. 
 
 To delete a global record type from a secondary workspace: 
 

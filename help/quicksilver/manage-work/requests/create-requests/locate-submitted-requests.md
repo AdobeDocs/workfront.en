@@ -11,10 +11,17 @@ exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 ---
 # View submitted requests
 
-You can view the requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront:
+You can view the requests that you or someone else submitted, or requests you started but you never finished submitting. The unfinished requests are saved as drafts. 
+
+You can locate submitted requests in the following areas of Adobe Workfront:
 
 * The Requests area of Workfront
-* the My Requests widget in Home
+* The My Requests widget in Home
+
+The Requests area displays the following requests, depending on how you choose to view it:
+
+* Workfront requests when you use the legacy experience
+* Workfront as well as Planning requests when you use the new experience. 
    
    >[!NOTE]
    >
@@ -101,16 +108,16 @@ To view requests that you or other users have submitted in the new requesting ex
    For instructions, see [Create or edit views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 1. (Optional) Check the status of a request by checking the Status column. The following statuses are available in the new requesting experience:
 
-   * Draft: This request has not yet been submitted.
-   * Pending Review: (Planning only) This request has approvers, and none of the approvers have opened the request. 
-   * In Review: (Planning only) This request has approvers and at least one approver has opened the request, but no decision has been made. 
-   * Rejected: (Planning only) This request has approvers and has been rejected.
-   * In Progress: 
-      * Workfront Workflow: The request has been converted and the work is ongoing.
-      * Workfront Planning: The request completion is mapped to a specific Planning field, and the field value does not yet match the completion value. 
+   * **Draft**: This request has not yet been submitted.
+   * **Pending Review**: (Planning only) This request has approvers, and none of the approvers have opened the request. 
+   * **In Review**: (Planning only) This request has approvers and at least one approver has opened the request, but no decision has been made. 
+   * **Rejected**: (Planning only) This request has approvers and has been rejected.
+   * **In Progress**: 
+      * Workfront requests: The request has been converted and the work is ongoing.
+      * Workfront Planning requests: The request completion is mapped to a specific Planning field, and the field value does not yet match the completion value. 
 
          For more information, see [Set up Configuration details](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) in the article Create and manage a request form in Adobe Workfront Planning.
-   * Complete: The request is completed.
+   * **Complete**: The request is completed.
 
 >[!NOTE]
 >
@@ -132,7 +139,7 @@ To view requests that you or other users have submitted in the legacy requesting
    >
    >You cannot customize the columns in the Submitted request list.
 
-   ![](assets/nwe-submitted-requests-new-list-350x57.png)
+   ![Submitted requests new list](assets/nwe-submitted-requests-new-list-350x57.png)
 
  
 1. The following columns display by default:
@@ -176,17 +183,17 @@ To view requests that you or other users have submitted in the legacy requesting
    >
    >When you navigate away from the Submitted requests list, the selected sorting option is preserved.
 
-1. (Optional) Select a request in the list, then click the **Open Summary** icon ![](assets/open-summary-with-text-nwe.png) to open the Summary panel and display additional information about the request, add comments, documents, or assign it. For information about the Summary panel, see [Summary overview](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+1. (Optional) Select a request in the list, then click the **Open Summary** icon ![Open summary with text](assets/open-summary-with-text-nwe.png) to open the Summary panel and display additional information about the request, add comments, documents, or assign it. For information about the Summary panel, see [Summary overview](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
    >[!TIP]
    >
    >If the Summary panel is already opened, the Open Summary icon changes to Close Summary.
 
-1. (Optional and conditional) Click the **X** icon in the upper-right corner or the **Close Summary** icon ![](assets/close-summary-with-text-nwe.png) to close the Summary Panel.
+1. (Optional and conditional) Click the **X** icon in the upper-right corner or the **Close Summary** icon ![Close summary with text](assets/close-summary-with-text-nwe.png) to close the Summary Panel.
 
    If an issue was converted to a task or project and the issue was deleted in the conversion process, the Summary panel is blank. For information about converting issues, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md). 
 
-1. From the **Filter icon** ![](assets/filter-nwepng.png) in the top right of the list, select any of the filters listed in the table below.
+1. From the **Filter icon** ![Filter icon](assets/filter-nwepng.png) in the top right of the list, select any of the filters listed in the table below.
 
    >[!TIP]
    >
@@ -219,7 +226,7 @@ To view requests that you or other users have submitted in the legacy requesting
     </tbody> 
    </table>
 
-1. (Optional) Click the **Filter page** icon ![](assets/search-icon.png) at the top of the list to search for a request by name. The list updates with results that match your search criteria.
+1. (Optional) Click the **Filter page** icon ![Search icon](assets/search-icon.png) at the top of the list to search for a request by name. The list updates with results that match your search criteria.
 
 1. (Conditional) To display only Workfront Request queues, search or filter for `Issue` object types.</span>
 
@@ -253,7 +260,7 @@ To view requests that you or other users have submitted in the legacy requesting
 
    Use **Filters** and **Columns** to update the information in the Planning request list. 
 
-   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+   ![Planning tab submitted section in Requests area](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
 

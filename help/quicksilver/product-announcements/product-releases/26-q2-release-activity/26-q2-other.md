@@ -4,7 +4,7 @@ description: Other enhancements during the Second Quarter 2026 release time fram
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-
+exl-id: be95161b-2443-464a-b91c-82a96d5354a2
 ---
 # Other enhancements during the Second Quarter 2026 release timeframe
 

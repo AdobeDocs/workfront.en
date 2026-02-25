@@ -107,7 +107,7 @@ To manually update the task status in the task header:
 
    Double-click inside the **Percent Complete** bubble to manually enter a new percentage.
 
-   ![](assets/percent-complete-status-widgets-task-header.png)
+   ![Percent complete status widgets task header](assets/percent-complete-status-widgets-task-header.png)
 
 1. (Optional) Do any of the following to provide additional information about the update:
 
@@ -136,7 +136,7 @@ To manually update the task status in the task header:
    
    * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
    * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
-     ![](assets/drag-the-progress-bar-350x155.png)-->
+     ![Drag the progress bar]](assets/drag-the-progress-bar-350x155.png)-->
 
 ## Automatically update task status
 

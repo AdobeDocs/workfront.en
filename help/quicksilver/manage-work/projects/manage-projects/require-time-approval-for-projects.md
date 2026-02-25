@@ -146,12 +146,12 @@ To approve or reject hours on a project:
 1. The hours logged for issues, tasks, and the project display and should have a status of **Submitted**.  
    Click the box to the left of the hour entries to select the hours you want to approve.
 
-1. Click the **Approve** icon ![](assets/approve-hours-icon.png) at the top of the hour list.  
+1. Click the **Approve** icon ![Approve icon](assets/approve-hours-icon.png) at the top of the hour list.  
    The status of the hours changes to **Approved**.  
    If you later reject the approved hours, the status of the hours changes to **Not Approved**.  
    When you include the approved hours in a billing record, the status of the hours changes to **Billed and Approved**. Hours added to a billing record cannot be deleted. For more information about creating billing records, see the article [Create billing records](../../../manage-work/projects/project-finances/create-billing-records.md)
 
-1. (Optional) Click **Reject** icon ![](assets/reject-hours-icon.png) to reject the time entries on the project.  
+1. (Optional) Click **Reject** icon ![Reject hours icon](assets/reject-hours-icon.png) to reject the time entries on the project.  
    The status of the hours changes to **Rejected**.
 
    >[!NOTE]

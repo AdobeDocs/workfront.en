@@ -6,10 +6,9 @@ description: Adobe Workfront released API version 21 on October 23, 2025. API ve
 author: Becky
 feature: Workfront API
 role: Developer
+exl-id: 7fb9131a-b815-4990-acba-cc75a24f389f
 ---
 # What's new in API version 21
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 >[!IMPORTANT]
 >
@@ -674,8 +673,6 @@ A Rate object represents a billing rate in Workfront.
 
 A Role object (job role) represents a functional capacity or a skill set a user might fill, such as Designer or Product Manager.
 
-<div class="preview">
-
 <table>
   <col/>
   <col/>
@@ -703,8 +700,6 @@ A Role object (job role) represents a functional capacity or a skill set a user 
     </tr>
   </tbody>
 </table>
-
-</div>
 
 ### ScheduledReport (SCHREP)
 
@@ -983,5 +978,3 @@ A Work object is a common interface that both Task and OpTask inherit, and share
     </tr>
   </tbody>
 </table>
-
-

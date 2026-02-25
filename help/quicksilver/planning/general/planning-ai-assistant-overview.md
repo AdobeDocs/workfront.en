@@ -72,7 +72,7 @@ The user's commands and the AI's execution of those commands work together to en
 
 * Changes made by the AI Assistant on the user's behalf are tracked in the record's history panel. 
 
-* You can use commands to undo your actions. For example, you can type "Undo last change" to revert your change. 
+* Actions done by the AI Assistant are permanent and could be irreversible. For example, deleting a field cannot be reversed. Review all actions that are proposed by the AI Assistant before accepting them.
 
 * When creating, updating, or deleting an object through AI Assistant, AI Assistant displays the intended actions and asks for confirmation. You can then confirm or cancel the actions. 
 

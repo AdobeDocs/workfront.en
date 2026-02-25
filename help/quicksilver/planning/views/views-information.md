@@ -20,5 +20,6 @@ The following articles describe how you can create and manage record views in Ad
 * [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 * [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md)
+* [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md)
 * [Delete record views](/help/quicksilver/planning/views/delete-record-views.md)
 * [Duplicate record views](/help/quicksilver/planning/views/duplicate-record-views.md)

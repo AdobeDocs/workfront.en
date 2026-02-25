@@ -94,7 +94,7 @@ You can update the percent complete for a task in any of the following areas:
 
 * **In the task header**: You can update the percent complete of a task in the task header. 
 
-  ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+  ![Update percent in header](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 * **In the Summary panel of a task**: You can update the percent complete of a task at the top of the Summary panel when viewing the task in the following areas: 
 
@@ -102,7 +102,7 @@ You can update the percent complete for a task in any of the following areas:
   * Timesheet
   * Workload Balancer
 
-  ![](assets/update-percent-complete-in-task-summary-highlighted.png)
+  ![Update percent in task Summary highlighted](assets/update-percent-complete-in-task-summary-highlighted.png)
   
   For more information, see [Summary overview](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 

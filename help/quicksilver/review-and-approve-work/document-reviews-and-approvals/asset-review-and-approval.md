@@ -1,15 +1,15 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Available Functionality for Unified Document Approvals 
+title: Available Functionality for Document Approvals 
 description: Overview of the systems available for review and approval in Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
 ---
-# Available functionality for unified document approvals
+# Available functionality for document approvals
 
-There are currently 3 different systems available in Workfront for unified document approvals:
+There are currently 3 different systems available in Workfront for document approvals:
 
 * [Legacy document approvals](#legacy-document-approvals)
 
@@ -19,7 +19,7 @@ There are currently 3 different systems available in Workfront for unified docum
 
 ## Legacy document approvals
 
-Legacy document approvals will be removed from Workfront in 2025. The Unified Approvals system has been designed to replace Legacy document approvals.
+Legacy document approvals will be removed from Workfront at a future date. The Unified Approvals system has been designed to replace Legacy document approvals.
 
 Key features available for legacy document approvals:
 

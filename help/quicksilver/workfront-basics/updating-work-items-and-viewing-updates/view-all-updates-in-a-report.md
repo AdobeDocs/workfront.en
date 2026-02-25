@@ -109,7 +109,7 @@ For example, to create a Note report for all the notes on a project:
 1. (Optional) Click **Filters**, then **Add a Filter Rule**.
 1. Add a filter for **Note** > **Note Text** > **Is Not Blank**.
 
-   ![](assets/note-note-text-not-blank-filter.png)
+   ![Note note text field not blank filter](assets/note-note-text-not-blank-filter.png)
 
    >[!TIP]
    >

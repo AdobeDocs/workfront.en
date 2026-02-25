@@ -78,7 +78,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 1. Click **Task Details** in the left panel, then expand the **Finance** area. 
 1. Double click **Cost Type** and select the cost type that you want to apply to the task.
 
-   ![](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
+   ![Task cost type options in Task Details](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
 
    Select from the following options:
 

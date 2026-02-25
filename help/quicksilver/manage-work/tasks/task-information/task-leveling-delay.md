@@ -79,7 +79,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 1. Click **Settings**.
 
-   ![](assets/leveling-delay-edit-task-nwe-350x345.png)
+   ![Leveling delay when editing task](assets/leveling-delay-edit-task-nwe-350x345.png)
 
 1. Specify the **Leveling Delay**, in hours, then choose a unit of time.  
    This is the time that the resource will be delayed starting the task due to resource conflicts.

@@ -86,7 +86,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 1. Click **Task Details**.
 1. (Optional) Click the **Collapse all** icon in the top right of the Task Details page.
 
-   ![](assets/collapse-all-icon-on-details-page.png)
+   ![Collapse all icon on Details page](assets/collapse-all-icon-on-details-page.png)
 
    >[!NOTE]
    >
@@ -94,7 +94,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 1. Click **Finance** to expand and view the financial information for the task.
 
-   Click the **Edit** icon ![](assets/edit-icon.png) in the upper-right corner of the Details section, then click **Finance**. 
+   Click the **Edit** icon ![Edit icon](assets/edit-icon.png) in the upper-right corner of the Details section, then click **Finance**. 
 
 1. Edit any field that is available for editing, by single-clicking the field or click **+Add** to add information to an empty field.
 1. Review or edit the following information  in the **Finance** area : 

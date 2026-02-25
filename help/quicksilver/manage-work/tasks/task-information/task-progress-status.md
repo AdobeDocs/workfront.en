@@ -63,18 +63,18 @@ The different date types in our projects tell us how tasks are progressing over 
 
 * On Time
 
-  ![](assets/on-time-progress-status-350x233.png)
+  ![On time progress status](assets/on-time-progress-status-350x233.png)
 
 * At Risk
 
-  ![](assets/at-risk-progress-status-350x233.png)
+  ![At risk progress status](assets/at-risk-progress-status-350x233.png)
 
 * Behind
 
-  ![](assets/behind-progress-status-350x233.png)
+  ![Behind progress status](assets/behind-progress-status-350x233.png)
 
 * Late
 
-  ![](assets/late-progress-status-350x233.png)
+  ![Late progress status](assets/late-progress-status-350x233.png)
 
 -->

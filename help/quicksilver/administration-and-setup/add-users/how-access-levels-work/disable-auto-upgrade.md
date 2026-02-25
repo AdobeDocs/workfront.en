@@ -1,5 +1,5 @@
 ---
-title: Disable the Auto-Upgrade Option for Non-Paid Users on the New Licensing Plan
+title: Disable the Auto-Upgrade Option for Non-Paid Users
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -11,7 +11,7 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
 ---
-# Disable the auto-upgrade option for non-paid users on the new licensing plan 
+# Disable the auto-upgrade option for non-paid users 
 
 Proof and document decisions are limited for all non-paid Workfront licenses on the new plans. When users reach their allotted number of decisions, they are upgraded to a Light license by default.
 

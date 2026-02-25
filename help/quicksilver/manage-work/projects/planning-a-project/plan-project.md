@@ -173,4 +173,4 @@ Consider asking the following questions:
   
   * [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)  
   * [Review and approve work](/help/quicksilver/review-and-approve-work/review-and-approve-work.md)
-  * [Available functionality for unified document approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md) 
+  * [Available functionality for document approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md) 

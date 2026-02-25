@@ -22,7 +22,7 @@ this article is similar and updates on this one might need to be repeated here: 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).  
 
 </div>-->
 
@@ -119,87 +119,145 @@ When assigning users to work, their availability according to their schedules af
       >
       >Do not use the **Assigned to** field. This finds only the Primary Owner for the task instead of any of the users that could be assigned to them.
 
-1. Select the tasks for which you want to modify assignments, then click the **Edit** icon ![](assets/edit-icon.png).
+1. Select the tasks for which you want to modify assignments, then click the **Edit** icon ![Edit icon](assets/edit-icon.png). 
 
-   The **Edit Tasks** box opens in the new experience. Do one of the following:
+   1. To add or remove assignees, do one of the following:
 
-   * To add assignees, start typing the name of an assignee in the **Search people, roles, or teams** field, then select them when they display in the list. 
-   * To remove assignees, click the **x** icon to the right of their name. Only assignees that are common to all tasks display in the list. 
-   * Click Assign to me to assign the selected tasks to yourself.
+      * To add assignees, start typing the name of an assignee in the **Search people, roles, or teams** field, then select them when they display in the list. 
 
-1. (Conditional) When using the new experience, click **Save**.
+         The new assignee is added to the existing ones on the selected tasks. 
+      * To remove assignees, click the name of an assignee in the **Remove assignee** box
 
-1. (Optional) Click **Switch to old experience** at the bottom of the **Edit Tasks** box.
-   
-   The **Edit Tasks** box opens in the old experience.
+         Or
+      
+         Click **Remove all existing assignees**.  
 
-   <!--
-   >[!TIP]
-   >
-   >The old experience is available by default in the Production environment.-->
+         Assignees are removed from all selected tasks. 
 
-1. (Conditional) In the old experience, do the following to modify the assignees:
-
-   1. Go to the **Assignments** section.
-
-      >[!IMPORTANT]
-      >
-      >Removing assignees can affect the task hours and allocation percentages. For more information, see the section [How removing assignees affects task hours and allocation percentages](#how-removing-assignees-affects-task-hours-and-allocation-percentages) in this article.
-
-   1. Do one of the following to add or remove assignees:
-
-      * To add a new assignee:
-
-         1. In the **Assignments** section, select **Assignee**.
-
-            Information that is common across all tasks selected displays. For example, if the same user is assigned to all tasks, that user displays in the **Assignee** column. If information is not common across the tasks selected, no information displays.
-         
-         1. Start typing the name of a user, role, or team, then select it when it displays in the list. The assignment is added and does not replace the current assignments on the selected tasks.
+         Removing users from tasks can affect task hours and allocation percentages.
+            
+         For more information, see [Overview of modifying task assignments](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 
          >[!TIP]
          >
-         > * You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
+         >* You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
          >   
-         > * When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them. You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+         >* When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them. You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
          > 
          >   If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
          >   
-         >     * Reassign the work item to active resources.
-         >     * Associate the users in a deactivated team with an active team and reassign the work item to the active team.
-
-
-      * To remove individual assignees:
-
-         1. Click the **X icon** next to the name of the assignee that you want to remove if the assignee displays in the Assignments list.
-
-            Or
-
-            (Conditional) If the assignee that you want to remove does not display in the Assignments section because the assignee is assigned to only some of the tasks that you have selected, click **Remove Assignee** and start typing the name of the assignee that you want to remove, then click the name when it appears in the drop-down list.
-
-      * To remove all existing assignees:
-
-         1. Click **Remove All Existing Assignees**, then click **Yes, Delete All Assignees**.
-
-            This removes not only common assignees (assignees that are displayed in the edit dialog box), but also all assignees on all the selected tasks.
-
-         Removing users from tasks can affect task hours and allocation percentages.
-         
-         For more information, see [Overview of modifying task assignments](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+         >* Reassign the work item to active resources.
+         >* Associate the users in a deactivated team with an active team and reassign the work item to the active team.  
+                  
 
    1. (Optional) Modify any of the following options for assignees:
 
-      * (Conditional) **Allocation % or Hours**: Specify a new allocation percentage or hours.
+         * (Conditional) **Allocation % or Hours**: Specify a new allocation percentage or hours.
 
-      >[!NOTE]
-      >
-      >This option can be modified only if the Duration Type is the same across all tasks that are being edited. When the Duration Type is Calculated Work or Effort Driven you can update the Allocation %. When the Duration Type is Simple you can update the Hours. For information about Duration Type, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-      >
-      >
-      >If the field is blank, this means that the value is different across tasks; however, you are still able to modify it.
+         >[!NOTE]
+         >
+         >This option can be modified only if the Duration Type is the same across all tasks that are being edited. When the Duration Type is Calculated Work or Effort Driven you can update the Allocation %. When the Duration Type is Simple you can update the Hours. For information about Duration Type, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+         >
+         >
+         >If the field is blank, this means that the value is different across tasks; however, you are still able to modify it.
 
-      * **Task Owner**: Select this option to make the assignee the owner of the task for all tasks being edited.
-      * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Adobe Workfront automatically selects the Primary Role of the user. 
+         * **Make Primary**: Hover over the selected tasks and select this option to make the assignee the owner of the task for all tasks being edited.
+         * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Adobe Workfront automatically selects the Primary Role of the user. 
+         * **Duration Type**
+         * **Duration**
+         * **Planned Hours**
+      
+   1. Click **Save**.
+   
+<!-- temporary content - for Assignments redesign:
 
-   1. Click **Save Changes.**
+Editing assignments on tasks differs depending on which environment you choose. 
+
+1. (Conditional) If you are using the Production environment to assign tasks, the **Edit Tasks** box opens in the new experience. Do the following in the Production environment: 
+
+   1. To add or remove assignees, do one of the following:
+
+      * To add assignees, start typing the name of an assignee in the **Search people, roles, or teams** field, then select them when they display in the list. 
+      * To remove assignees, click the **x** icon to the right of their name. Only assignees that are common to all tasks display in the list. 
+      * Click Assign to me to assign the selected tasks to yourself.
+
+   1. (Conditional) When using the new experience, click **Save**.
+
+   1. (Optional) Click **Switch to old experience** at the bottom of the **Edit Tasks** box.
+      
+      The **Edit Tasks** box opens in the old experience.
+
+   1. (Conditional) In the old experience, do the following to modify the assignees:
+
+      1. Go to the **Assignments** section.
+
+         >[!IMPORTANT]
+         >
+         >Removing assignees can affect the task hours and allocation percentages. For more information, see the section [How removing assignees affects task hours and allocation percentages](#how-removing-assignees-affects-task-hours-and-allocation-percentages) in this article.
+
+      1. Do one of the following to add or remove assignees:
+
+         * To add a new assignee:
+
+            1. In the **Assignments** section, select **Assignee**.
+
+               Information that is common across all tasks selected displays. For example, if the same user is assigned to all tasks, that user displays in the **Assignee** column. If information is not common across the tasks selected, no information displays.
+            
+            1. Start typing the name of a user, role, or team, then select it when it displays in the list. The assignment is added and does not replace the current assignments on the selected tasks.
+
+            >[!TIP]
+            >
+            > * You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
+            >   
+            > * When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them. You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+            > 
+            >   If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
+            >   
+            >     * Reassign the work item to active resources.
+            >     * Associate the users in a deactivated team with an active team and reassign the work item to the active team.
+
+
+         * To remove individual assignees:
+
+            1. Click the **X icon** next to the name of the assignee that you want to remove if the assignee displays in the Assignments list.
+
+               Or
+
+               (Conditional) If the assignee that you want to remove does not display in the Assignments section because the assignee is assigned to only some of the tasks that you have selected, click **Remove Assignee** and start typing the name of the assignee that you want to remove, then click the name when it appears in the drop-down list.
+
+         * To remove all existing assignees:
+
+            1. Click **Remove All Existing Assignees**, then click **Yes, Delete All Assignees**.
+
+               This removes not only common assignees (assignees that are displayed in the edit dialog box), but also all assignees on all the selected tasks.
+
+            Removing users from tasks can affect task hours and allocation percentages.
+            
+            For more information, see [Overview of modifying task assignments](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+
+      1. (Optional) Modify any of the following options for assignees:
+
+         * (Conditional) **Allocation % or Hours**: Specify a new allocation percentage or hours.
+
+         >[!NOTE]
+         >
+         >This option can be modified only if the Duration Type is the same across all tasks that are being edited. When the Duration Type is Calculated Work or Effort Driven you can update the Allocation %. When the Duration Type is Simple you can update the Hours. For information about Duration Type, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+         >
+         >
+         >If the field is blank, this means that the value is different across tasks; however, you are still able to modify it.
+
+         * **Task Owner**: Select this option to make the assignee the owner of the task for all tasks being edited.
+         * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Adobe Workfront automatically selects the Primary Role of the user. 
+
+      1. Click **Save Changes.**
+        
+
+1. <span class="preview">(Conditional) If you are using the Preview environment to assign tasks, the **Edit Tasks** box opens. Do the following in the Preview environment: </span>
+
+   <div class="preview">-->
+
+   
+
+   
 

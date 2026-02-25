@@ -4,6 +4,7 @@ description: First Quarter 2026 Requests enhancements
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 8ea2668c-cab9-4ee3-95c9-44996e951c29
 ---
 # First Quarter 2026 Requests enhancements
 
@@ -150,10 +151,3 @@ To make it easier to submit requests, we've added the ability to copy requests t
 Previously, this functionality was not available in the new requesting experience.
 
 For information on copying and submitting a request, see [Copy and submit requests](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
-
-
-
-
-
-
-

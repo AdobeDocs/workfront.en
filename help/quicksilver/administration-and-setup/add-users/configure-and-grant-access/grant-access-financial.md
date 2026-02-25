@@ -52,6 +52,7 @@ For more detail about the information in this table, see [Access requirements in
 
 Consider the following when granting users access to financial data in Workfront:
 
+* A user whose access level doesn't allow access to financial data cannot grant access that would allow others to view financial data. This includes giving access to projects that would show financial data, or modifying an access level to allow viewing financial data.
 * A user whose access level doesn't allow access to financial data cannot create a risk for a project. For more information, see [Create and edit risks on projects](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 * You can also use an access level to determine which Resource Management activities a user can employ to budget or view resource allocation. For information, see [Grant access to Resource Management](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 

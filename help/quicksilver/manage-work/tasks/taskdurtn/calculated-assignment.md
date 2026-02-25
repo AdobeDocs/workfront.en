@@ -40,7 +40,7 @@ Planned Hours / Duration / Number of Resources = Allocation Percentage for each 
 
 For example, in the scenario outlined below, each task has a Duration of 3 days. The project manager manually enters both the Duration (3 days or 24 hours) and Planned Hours, and as a result, the allocation percentage (or assignment percentage) is calculated:
 
-![](assets/calcassign-350x80.png)
+![Calculated assignment duration type](assets/calcassign-350x80.png)
 
 ## Change the Duration Type of a task to Calculated Assignment
 

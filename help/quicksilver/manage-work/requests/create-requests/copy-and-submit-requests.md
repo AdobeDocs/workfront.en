@@ -98,19 +98,19 @@ You must have a request that you or someone in your organization previously subm
 
 1. Locate the request that you want to copy and submit as new, and do one of the following:
 
-   * Select it, then click **Copy** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list. 
+   * Select it, then click **Copy** ![Copy and submit icon](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list. 
 
    >[!TIP]
    >
    > If you did not select a request first, the Copy icon is dimmed. 
 
-   * Click the **More** menu ![](assets/more-icon.png) to the right of the request name, then click **Copy and submit as new** 
+   * Click the **More** menu ![More icon](assets/more-icon.png) to the right of the request name, then click **Copy and submit as new** 
 
      Or
 
      Right-click on the selected request, then click **Copy and submit as new**.
 
-     ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+     ![Request selected more menu options](assets/request-selected-more-menu-options-nwe-350x191.png)
 
      >[!TIP]
      >
@@ -230,12 +230,9 @@ You can copy and submit requests in the Requests area of Workfront, or from the 
 
       For more information on the My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. In the Requests list or the My Requests widget, hover over the request that you want to copy.
+1. In the **Requests** list or the **My Requests** widget in Home, hover over the request that you want to copy, then click the **More** menu ![More menu](assets/more-menu.png).  
 
-   A three-dot More menu appears.
-   ![](assets/more-menu.png) 
-
-1. Click the **More** menu to the right of the request name, then click **Copy**. 
+1. Click **Copy** 
 
      Or
 

@@ -152,7 +152,7 @@ To create a request in the Workfront web app:
      >
      >Workfront saves a path only when you have actually submitted a request to it. It does not create paths for drafted requests.
 
-     ![](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
+     ![List of recent paths and request queues when entering a new request](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
 
    * From the **Request Queues** section, select a request queue. 
    * Enter a keyword that belongs to a previously accessed path to search for a request queue.
@@ -163,7 +163,7 @@ To create a request in the Workfront web app:
      >
      >When you type a name that contains a special character, the request queue, queue topic, or topic group display even when you omit typing the character.
 
-     ![](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
+     ![Request queue search findings with highlighted results](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
 
      The list of available request queues and recent paths dynamically updates to include only paths that contain the keyword which is highlighted in the results.
 
@@ -200,7 +200,7 @@ To create a request in the Workfront web app:
 
      The three most recent drafts from three different queue topics display by default.
 
-     ![](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
+     ![New drafts after new request area was removed](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
 
    * Start entering a new request in the selected queue.
 
@@ -213,7 +213,7 @@ To create a request in the Workfront web app:
    >When you hover over a Topic Group or a Queue Topic the Description field displays to the right. This contains additional information about the topic group or queue topic. 
    >
    >
-   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)   
+   >![Show description on queue topic when submitting request](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)   
    >
 
    You can have up to 10 tiers of Topic Groups built into your Request Queue.   
@@ -321,7 +321,7 @@ To create a request in the Workfront web app:
 
      Click **Close** if you are not quite ready to submit it and you might come back and finish it later. Your request is saved in the Drafts  section and it will be available to you next time you submit a request for this request queue.
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![Submit, close, discard draft button on new request](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
    When you submit the request, the draft automatically deletes and cannot be restored.
 

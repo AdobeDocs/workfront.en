@@ -106,6 +106,10 @@ For more detail about the information in this table, see [Access requirements in
  </tbody> 
 </table>-->
 
+## Considerations
+
+* There is a 5-minute processing limit when copying a project. If the project has a large number of documents attached to it and fails to copy, you might need to remove some of the documents and try again.
+
 ## Copy a single project
 
 Copying a project also copies some information from the original project to the new project. You can also specify which items should not be copied to the new project during the copying process.

@@ -1,14 +1,13 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Use the Adobe Experience Manager with the Frame.io integration 
-description: Use the Adobe Experience Manager with the Frame.io integration 
+title: Use the Adobe Experience Manager with the Frame.io integration
+description: Use the Adobe Experience Manager with the Frame.io integration
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-
+exl-id: 04d0f295-5206-4c5d-8003-bdf333150903
 ---
-
 # Use the Adobe Experience Manager with the Frame.io integration 
 
 You can use the [!DNL Experience Manager Assets]​​ to manage and store your digital assets that have gone through the review and approval cycle. This integration allows you to leverage the capabilities of Adobe Experience Manager, Frame.io, and Workfront to streamline your content management and collaboration processes.

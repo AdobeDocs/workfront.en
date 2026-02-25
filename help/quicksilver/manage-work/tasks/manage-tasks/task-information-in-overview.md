@@ -107,7 +107,7 @@ For more information, see [Access requirements in Workfront documentation](/help
    >
    >Depending on how your Workfront administrator or Group administrator sets up our Layout Template, the fields in the Task Details section might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. Click the **Edit** icon ![](assets/edit-icon.png) in the upper-right corner of the Details section, then click **Overview**.
+1. Click the **Edit** icon ![Edit icon](assets/edit-icon.png) in the upper-right corner of the Details section, then click **Overview**.
 
    >[!TIP]
    >

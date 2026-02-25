@@ -647,6 +647,15 @@ For information about how these settings affect creating new tasks, see the sect
 
 ### Access {#access}
 
+You can define what permissions users receive for the project, as well as the tasks and issues in the project when they interact with any of these object types. 
+
+>[!IMPORTANT]
+>
+>Modifying the permissions to the project, tasks, and issues when editing the project establishes how the permissions are granted when users interact with these object types after the access is changed.
+>
+>Changing this configuration does not modify users' permissions to these object types retroactively, to items the users have already been assigned or included in. 
+
+
 1. Begin editing your project as described above.
 1. Click **Access** in the left panel.
 

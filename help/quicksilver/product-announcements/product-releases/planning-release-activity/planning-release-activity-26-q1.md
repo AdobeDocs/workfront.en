@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-
+exl-id: af1a54ea-1717-45fa-bb94-55774eb28f28
 ---
 # First Quarter 2026 release activity for Adobe Workfront Planning
 
@@ -141,7 +141,7 @@ For more information on configuring project connection views, including filters,
 
 >[!IMPORTANT]
 >
->This has been temporarily removed from  the Preview and Production environments.
+>This was temporarily removed from  the Preview and Production environments between January 20 - February 17, 2026.
 
 >[!NOTE]
 >
@@ -295,9 +295,3 @@ Consider the following with this improvement:
 * Choice values display in lowercase and are separated by underscores in the case of multi-word choices. If you use a label already used as another choice name for the same field, Workfront adds a sequential number to the value. 
 
 For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
-
-
-
-
-
-

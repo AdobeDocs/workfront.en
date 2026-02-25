@@ -94,7 +94,7 @@ The procedure for creating requests from drafts differs between the new requesti
 
    A draft for each queue topic of each request queue displays in this list.
 
-   ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
+   ![Drafts section with list of drafts](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
 
 1. (Optional) Click a column header to sort the list by that column. 
 
@@ -127,7 +127,7 @@ The procedure for creating requests from drafts differs between the new requesti
 
      Click **Close** if you are not quite ready to submit it and you might come back and finish it later. Your request is saved in the Drafts section  and it will be available to you next time you submit a request for this request queue.
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![Submit, close, discard buttons on new request](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      When you submit the request, the draft is deleted and cannot be restored.
 

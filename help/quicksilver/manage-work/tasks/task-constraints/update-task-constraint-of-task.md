@@ -74,7 +74,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 1. Click the **Tasks** section in the left panel. 
 1. Click **Task Details** in the left panel, then in the Overview area click **Task Constraint**.
 
-   ![](assets/task-constraint-all-options-in-overview-350x254.png)
+   ![Task constraint all options in Overview](assets/task-constraint-all-options-in-overview-350x254.png)
 
 1. Select from the following options
 

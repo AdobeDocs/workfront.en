@@ -2,9 +2,10 @@
 product-area: programs
 navigation-topic: Create and manage programs
 title: Delete and Deactivate Programs
-description: A program represents a collection of projects that share a common strategy, objective, or goal that transcends project boundaries. Programs are a subdivision of portfolios and they cannot exist outside of a portfolio. Programs typically share the same resources as other programs within the same portfolio. You can delete or deactivate a program when it becomes irrelevant. 
+description: A program represents a collection of projects that share a common strategy, objective, or goal that transcends project boundaries. Programs are a subdivision of portfolios and they cannot exist outside of a portfolio. Programs typically share the same resources as other programs within the same portfolio. You can delete or deactivate a program when it becomes irrelevant.
 author: Alina
 feature: Work Management, Strategic Planning
+exl-id: 605d1ec5-ca2e-4ff0-87e1-fa53d8ac4a95
 ---
 # Delete and deactivate programs
 

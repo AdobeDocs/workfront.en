@@ -4,7 +4,7 @@ description: First Quarter 2026 Home enhancements
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-
+exl-id: 8f86d1af-d981-470e-a83f-ac7789b596c2
 ---
 # First Quarter 2026 Home enhancements
 
@@ -27,4 +27,3 @@ We have made the following improvements to the Mentions widget in home:
 * The Mentions widget now contains the comments that the user made or has been tagged in for the past two weeks. Prior to this update, the widget displayed comments made on tasks and issues that you were assigned to, that you assigned to another user, that you owned, that you were the primary contact on, or that you created and that had been updated in the last 30 days. 
 
 For more information, see [Get started with Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
-
