@@ -2095,7 +2095,7 @@ feature-set: Workfront
   * Adobe Workfront Planning general information {#adobe-workfront-planning-general-information}
     * [Adobe Workfront Planning general information: article index](planning/general/planning-general-article-index.md)
     * [Get started with Adobe Workfront Planning](planning/general/planning-overview.md)
-    * [Adobe Workfront Planning best practices](planning/general/planning-best-practices.md)
+    * [Adobe Workfront Planning implementation recommendations](planning/general/planning-best-practices.md)
     * [Adobe Workfront Planning API basics](planning/general/planning-api-basics.md)
     * [Adobe Workfront Planning AI Assistant overview](planning/general/planning-ai-assistant-overview.md)
     * [Get started with the Adobe Workfront Planning Designer](planning/general/planning-ai-designer.md)
@@ -2105,11 +2105,11 @@ feature-set: Workfront
     * [Get started with the Adobe Workfront Planning free trial](planning/general/trial-workfront-planning.md)
   * Adobe Workfront Planning best practices {#adobe-workfront-planning-best-practices}
     * [Adobe Workfront best practices: article index](planning/best-practices.md/best-practices-article-index.md)
-    * [The 30-day launchpad: roll out your strategic home ](planning/best-practices.md/30-day-launchpad.md)
-    * [The architecture of success: model your campaign hierarchy](planning/best-practices.md/model-campaign-hierarchy.md)    
-    * [The marketing calendar you've been missing: no decks, just clarity](planning/best-practices.md/marketing-calendar.md)
-    * [Playbook: managed scaling, after the first win](planning/best-practices.md/playbook-how-to-scale.md)
-    * [The bridge: connecting strategic intent to projects](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
+    * [Roll out your strategic home: a 30-day launchpad](planning/best-practices.md/30-day-launchpad.md)
+    * [Architect your success: modeling your campaign hierarchy](planning/best-practices.md/model-campaign-hierarchy.md)    
+    * [Build your marketing calendar: no decks, just clarity](planning/best-practices.md/marketing-calendar.md)
+    * [Turn your first win into sustainable momentum: a playbook for managed scaling](planning/best-practices.md/playbook-how-to-scale.md)
+    * [Build the bridge: connecting strategic intent to projects](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
   * Adobe Workfront Planning architecture {#adobe-workfront-planning-architecture}
     * [Architecture: article index](planning/architecture/architecture-information.md)
     * [Workspaces overview](planning/architecture/workspaces-overview.md)

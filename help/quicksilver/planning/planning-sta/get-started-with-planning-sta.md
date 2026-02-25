@@ -19,6 +19,8 @@ recommendations: noDisplay, noCatalog
 
 # Get started with Adobe Planning Standalone
 
+<!--I think we will need to delete this folder and just use the Planning existing folder with all capabilities to speak about Planning; then, we'll speak about WF proper as a third party application (like GenS and AEM etc)>
+
 This article describes how you can benefit from using the standalone version of Adobe Workfront Planning.
 
 ## How your company can acquire an Adobe Workfront Standalone Planning license
