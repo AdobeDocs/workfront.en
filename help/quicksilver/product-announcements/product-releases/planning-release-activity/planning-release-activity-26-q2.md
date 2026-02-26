@@ -16,6 +16,8 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+<!--
+
 ## Trigger-based automation
 
 >[!NOTE]
@@ -29,6 +31,8 @@ You can now automatically create Planning records or Workfront objects based on 
 Prior to this enhancement, you could automatically create Planning records or Workfront objects only when you clicked a preconfigured button.  
 
 For information, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+-->
 
 ## Only system administrators can share workspaces system-wide 
 
@@ -49,6 +53,8 @@ Prior to this change, the ability to choose these workspace sharing permissions 
 
 For information, see Share workspaces (help/quicksilver/planning/access/share-workspaces.md).
 
+<!--
+
 ## Sort groupings in the timeline view  
 
 >[!NOTE]
@@ -58,6 +64,10 @@ For information, see Share workspaces (help/quicksilver/planning/access/share-wo
 >Production for everyone: April 16, 2026
 
 You can now sort groupings in the timeline view. For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+-->
+
+<!--
 
 ## Support user references for connected fields  
 
@@ -73,6 +83,10 @@ For example, you can now add Project Sponsor or Portfolio Owner as a lookup fiel
 
 For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
 
+-->
+
+<!--
+
 ## Real time presence indicators now display users in the table view 
 
 >[!NOTE]
@@ -86,6 +100,8 @@ You can now view the users updating record fields at the same time as you by cli
 You must turn on the Show collaborators setting in the table view header. Other users may update fields either in the table view or the Details area of a record.  
 
 For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+-->
 
 ## Updated sharing experience for list views 
 

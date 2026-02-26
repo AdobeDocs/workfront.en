@@ -23,8 +23,8 @@ For more information, see [Organize and preview a form](/help/quicksilver/admini
 >[!NOTE]
 >
 >Preview: January 29, 2026
->Production fast release: February 12, 2026
->Production for everyone: April 16, 2026
+>Production fast release: TBD
+>Production for everyone: TBD
 >
 >This feature has been temporarily removed from the Production environment on February 13, 2026.
 
