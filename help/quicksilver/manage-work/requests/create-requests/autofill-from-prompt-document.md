@@ -14,6 +14,8 @@ exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 
 AI Form Fill can help you auto-fill request fields based on a prompt you enter. It can also fill fields based on text such as emails ar uploaded documents. You can approve or reject these suggestions before submitting the request.
 
+This functionality is available when creating a request in the Workfront Requests area, and in Workfront Planning.
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
