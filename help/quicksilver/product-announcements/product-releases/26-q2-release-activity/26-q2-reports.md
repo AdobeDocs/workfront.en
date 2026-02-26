@@ -26,8 +26,6 @@ The custom field label is intended for the system interface, while the field nam
 
 For more information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-<!--
-
 ## Shareable Report Folders
 
 >[!NOTE]
@@ -47,8 +45,6 @@ You can now organize and share reports using shareable report folders. This new 
 
 
 For more information, see [Use shareable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).
-
--->
 
 ## Improved Date Labels for Chart Groupings in Canvas Dashboards
 
