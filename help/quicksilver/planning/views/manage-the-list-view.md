@@ -10,9 +10,9 @@ exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 
 # Manage the list view in Adobe Workfront Planning
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -108,8 +108,8 @@ For more information about managing list views in Workfront, see [Use enhanced l
         >
         >* You cannot modify System Views. 
         >
-        <!--For Feb 26 and add the Preview disclaimer at the top: * <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
-        -->
+        >* <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+        
     1. Click the **Filter** icon ![Filter icon](assets/filter-icon.png) to add a filter to the view. Results are filtered immediately in the list. You cannot save and name filters. Filters are remembered when you access the page in future and they are part of shared views.
     1. Click the **Columns** icon ![Columns icon](assets/columns-icon.png) to select which columns to display or to hide in the view. 
     1. Hover over the name of a column, then click the down-pointing arrow to the left of the column name, then click one of the following:
@@ -123,35 +123,41 @@ For more information about managing list views in Workfront, see [Use enhanced l
         You cannot remove the primary field in the list view which displays in the first column. 
 
     
-    <!--For Feb 26: make available at release and fix the formatting - this will be broken, if not: 
-    1. <span class="preview">Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens. (*********change the name of the box when they update it***********)</span>
+    1. <span class="preview">Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens.</span> <!--change the name of the box when they update it-->
         <span class="preview">Do the following: </span>
+
         <div class="preview">
+
         1. In the **If** line, click **Add condition**, then select a field you want to format by and choose a field value. 
+
             >[!TIP]
             >
             >Only fields visible in the list view are available for conditional formatting.
-        1. (Optional) Click **Add condition** in the **If** line to add more conditions to same rule. 
+
+        1. (Optional) Click **Add condition** in the **If** line to add more conditions to same rule.
+
             >[!TIP]
             >
             >You can add up to 10 conditions in a conditioning rule and you can have up to 20 rules for a field.
+
         1. Click the **Or** connector between conditions to change to **And** and to indicate that multiple conditions must be met at the same time. **Or** is the default connector.  
-        1. In the **Format** line, select a field to indicate which column will be formatted. (*******edit this area, if it changes names??***********)
+        1. In the **Format** line, select a field to indicate which column will be formatted. <!--edit this area, if it changes names??-->
         1. (Optional) Click the **color circle** icon ![Color circle icon](assets/color-circle.png) next to the field selected, to expand it and choose another color.
         1. Turn on the **Apply to row** setting to apply the formatting to the entire row of the field that meets the conditions. 
         1. (Optional) Click **Add condition** in the **Format** box to add another rule for another field and the repeat the steps above. 
         1. (Optional) Click **Clear all** to remove all formatting.
-        1. Click outside the **Format** box to close it. 
+        1. Click outside the **Format** box to close it.
+
             This returns you to the list view. 
             The formatting is applied immediately to the list view.
             There is a blue dot next to the **Format cells** icon to indicate that the view has special formatting applied.
+
         </div>
-    -->
 
 1. (Optional) Add a keyword in the search box in the upper-right corner of the list to search for an item. 
 
+    Items that match your search term are highlighted in the list.
 
-    Items that match your search term are highlighted in the list. 
 1. (Optional) To add more items to the list and automatically connect them to the selected record, do one of the following:
 
     * Click **Connect records** in the upper-right corner of the list to add existing items.
