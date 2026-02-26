@@ -4,7 +4,6 @@ description: Second Quarter 2026 Requesting enhancements
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-exl-id: def76c9c-d808-489b-82c7-b1f44c241116
 ---
 # Second Quarter 2026 Requesting enhancements
 
