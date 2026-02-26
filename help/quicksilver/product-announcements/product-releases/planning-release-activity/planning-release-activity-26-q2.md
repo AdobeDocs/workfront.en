@@ -16,8 +16,6 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-<!--
-
 ## Trigger-based automation
 
 >[!NOTE]
@@ -31,8 +29,6 @@ You can now automatically create Planning records or Workfront objects based on 
 Prior to this enhancement, you could automatically create Planning records or Workfront objects only when you clicked a preconfigured button.  
 
 For information, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
-
--->
 
 ## Only system administrators can share workspaces system-wide 
 
