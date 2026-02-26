@@ -66,7 +66,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>January 29, 2026</p></td>
         <td><p>February 12, 2026</p>
             <p>This feature has been temporarily removed from the Production environment on February 13, 2026.</p></td>
-        <td><p>April 16, 2026</p></td>
+        <td><p>TBD</p></td>
     </tr>
     <tr>
         <td>

@@ -4,6 +4,7 @@ description: Second Quarter 2026 Reporting enhancements
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 ---
 # Second Quarter 2026 Reporting enhancements
 
@@ -62,5 +63,3 @@ Charts that group data by date now display clearer, more readable date labels. W
 <table> <tbody> <tr> <td>Day</td> <td>Displays the full date. Example: 3/12/2026</td> </tr> <tr> <td>Week</td> <td>Displays a formatted week start date. Example, Mar 8, 2026</td> </tr> <tr> <td>Month</td> <td>Displays the month and year. Example Mar 2026</td> </tr> <tr> <td>Year</td> <td>Displays the year only. Example: 2026</td> </tr> </tbody> </table>
 
 Previously, chart groupings always showed the start date of the selected period in a numeric format.
-
-

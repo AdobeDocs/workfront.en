@@ -4,6 +4,7 @@ description: Second Quarter 2026 Requesting enhancements
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 3ffdd2e9-4c9f-412e-8d7c-3a58a832a973
 ---
 # Second Quarter 2026 Requesting enhancements
 
@@ -24,7 +25,3 @@ In the New requests area, when you share an enhanced view with a user and give t
 This update is available only for the New requests area enhanced view.  
 
 For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-
-
-
-
