@@ -13,7 +13,7 @@ exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
 
 >[!IMPORTANT]
 >
->To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Jira integration will not be available after **February 28, 2026**. 
+>To deliver more stable and scalable integrations, we've shifted to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Jira integration **is no longer available**. 
 >
 >We recommend using Workfront Automation and Integration for your organization's integration needs with Jira. 
 >
@@ -36,6 +36,8 @@ exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
 >For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
+
+<!--
 
 You can link [!DNL Jira] issues to [!DNL Adobe Workfront] tasks or issues either automatically or manually.
 
@@ -232,3 +234,5 @@ To unlink a [!DNL Jira] issue from a [!DNL Workfront] item:
 1. Click the **[!UICONTROL Unlink]** icon, then click **[!UICONTROL Unlink]**. The previously linked [!DNL Jira] and [!DNL Workfront] items unlink. 
 
    Any of their fields, comments, or documents that are updated in the future are not updated on their previous counterpart in the other application. 
+
+-->

@@ -11,7 +11,7 @@ exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
 
 >[!IMPORTANT]
 >
->To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Jira integration will not be available after **February 28, 2026**. 
+>To deliver more stable and scalable integrations, we've shifted to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Jira integration **is no longer available**. 
 >
 >We recommend using Workfront Automation and Integration for your organization's integration needs with Jira. 
 >
@@ -34,6 +34,8 @@ exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
 >For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
+
+<!--
 
 You can use [!DNL Adobe Workfront for Jira] to integrate your [!DNL Jira] and [!DNL Workfront] systems.
 
@@ -126,3 +128,5 @@ Although installing the [!DNL Workfront] add-on in the two [!DNL Jira] environme
    `18.205.251.4`
 
    For more information about configuring your firewall for optimal functionality with [!DNL Workfront], see [Configuring Your Firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+
+-->
