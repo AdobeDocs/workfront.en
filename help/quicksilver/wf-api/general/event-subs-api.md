@@ -319,12 +319,12 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 }
 ```
 
-| Response Code |Description |
+|Response Code|Description|
 |---|---|
-| 201 (Created) |The event subscription was successfully created. |
-| 400 (Bad Request) |The URL field of the subscription resource was deemed invalid. |
-| 401 (Unauthorized) |The sessionID provided was empty or deemed invalid. |
-| 403 (Forbidden) |The user that matches the provided sessionID does not have administrator access. |
+|201 (Created)|The event subscription was successfully created.|
+|400 (Bad Request)|The URL field of the subscription resource was deemed invalid.|
+|401 (Unauthorized)|The sessionID provided was empty or deemed invalid.|
+|403 (Forbidden)|The user that matches the provided sessionID does not have administrator access.|
 
 Passing a subscription resource as the body of a request (with the content-type being "application/json") results in an event subscription being created for the object specified. A response code of 201 (Created) indicates the subscription was created. A response code other than 201 means the subscription was **NOT** created.
 
@@ -334,12 +334,12 @@ Passing a subscription resource as the body of a request (with the content-type 
 
 **Response Headers Example:** 
 
-| Response Headers |Example |
+|Response Headers|Example|
 |---|---|
-| Content-Length |`→0` |
-| Date |`→Wed, 05 Apr 2017 21:23:33 GMT` |
-| Location |`→https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/750a636c-5628-48f5-ba26-26b7ce537ac2` |
-| Server |`→Apache-Coyote/1.1` |
+|Content-Length|`→0`|
+|Date|`→Wed, 05 Apr 2017 21:23:33 GMT`|
+|Location|`→https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/750a636c-5628-48f5-ba26-26b7ce537ac2`|
+|Server|`→Apache-Coyote/1.1`|
 
 ## Querying Event Subscriptions
 
@@ -383,21 +383,21 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 **Response Codes** 
 
-| Response Code |Description |
+|Response Code|Description|
 |---|---|
-| 200 (OK)  |The request returned with all event subscriptions found for the customer matching the provided sessionID. |
-| 401 (Unauthorized) |The sessionID provided was empty. |
-| 403 (Forbidden) |The user, which matches the provided sessionID, does not have administrator access. |
+|200 (OK)|The request returned with all event subscriptions found for the customer matching the provided sessionID.|
+|401 (Unauthorized)|The sessionID provided was empty.|
+|403 (Forbidden)|The user, which matches the provided sessionID, does not have administrator access.|
 
 
 **Response Headers Example** 
 
-| Response Header |Example |
+|Response Header|Example|
 |---|---|
-| Content-Type |`→application/json;charset=UTF-8` |
-| Date |`→Wed, 05 Apr 2017 21:29:32 GMT` |
-| Server |`→Apache-Coyote/1.1` |
-| Transfer-Encoding |`→chunked` |
+|Content-Type|`→application/json;charset=UTF-8`|
+|Date|`→Wed, 05 Apr 2017 21:29:32 GMT`|
+|Server|`→Apache-Coyote/1.1`|
+|Transfer-Encoding|`→chunked`|
 
 
 **Response Body Example** 
@@ -465,11 +465,11 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 **Response Codes** 
 
-| Response Code |Description |
+|Response Code|Description|
 |---|---|
-| 200 (OK) |The request returned with the event subscription matching the provided subscription ID.  |
-| 401 (Unauthorized)  |The sessionID provided was empty. |
-| 403 (Forbidden) |The user, which matches the provided sessionID, does not have administrator access. |
+|200 (OK)|The request returned with the event subscription matching the provided subscription ID.|
+|401 (Unauthorized)|The sessionID provided was empty.|
+|403 (Forbidden)|The user, which matches the provided sessionID, does not have administrator access.|
 
 
 **Response Body Example** 
@@ -607,7 +607,7 @@ For example, an **UPDATE - TASK** event subscription can be set to trigger only 
 * When a filter field has a non-empty value only messages with a **newState** containing the filter keys and values are sent to the subscribed URL
 * You may filter by custom data included in the **newState** AND/OR **oldState**of the object
 * Filters are evaluated solely on whether or not they are equal to a specific value
-* If your filter syntax is incorrect or does not match any data contained in the **newState** of the payload, a validation message will not be returned to indicate an error has occured
+* If your filter syntax is incorrect or does not match any data contained in the **newState** of the payload, a validation message will not be returned to indicate an error has occurred
 * Filters can't be updated on a subscription that currently exists; a new subscription must be created with new filter parameters.
 * Multiple filters can be applied to a single subscription and the subscription will only be delivered when all filter conditions have been met.
 * Applying multiple filters to a single subscription is a practice equivalent to using an **AND** logical operator.
@@ -873,7 +873,7 @@ This connector makes the filter apply to the new state or old state of the objec
 
 ### Using nested filters
 
-Event Subscription supports filtering on nested fields of events by using the nested field names. For example, to filter a message where `newState.data.customField1 = 'myCustomeFieldValue'`, the following subscription with filter can be created:
+Event Subscription supports filtering on nested fields of events by using the nested field names. For example, to filter a message where `newState.data.customField1 = 'myCustomFieldValue'`, the following subscription with filter can be created:
 
 ```
 
@@ -918,6 +918,17 @@ Doubly nested filters can be addressed as well.
 "filterConnector": 'AND'
 
 ```
+
+
+#### Performance and Limits
+
+To ensure consistent performance and maintainability:
+
+* Each subscription supports up to 10 filter groups (with each group containing multiple filters).
+* Each filter group can include up to 5 filters to prevent potential performance degradation during event processing.
+* While having up to 10 filter groups (each with 5 filters) is supported, please note that a large number of active subscriptions with complex filter logic may result in a delay during event evaluation.
+
+If you find yourself exceeding these limits, consider simplifying your logic or splitting the subscription into multiple smaller ones.
 
 ### Using connector fields
 
@@ -1093,10 +1104,10 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
 
 **Response Headers Example:** 
 
-| Response Header |Example |
+|Response Header|Example|
 |---|---|
-| Date |`→Wed, 05 Apr 2017 21:33:41 GMT` |
-| Server |`→Apache-Coyote/1.1` |
+|Date|`→Wed, 05 Apr 2017 21:33:41 GMT`|
+|Server|`→Apache-Coyote/1.1`|
 
 
 **Response Body Example:** N/A
