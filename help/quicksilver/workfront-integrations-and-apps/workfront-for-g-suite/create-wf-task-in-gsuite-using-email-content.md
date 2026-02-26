@@ -130,4 +130,4 @@ Before you can create a [!DNL Workfront] task in [!DNL Google Workspace], you mu
 
 You can repeat these steps to convert the same email to multiple tasks. When you refresh your browser or return to the email at another time, all links you have created for the email are listed at the bottom of the [!DNL Workfront for Google Workspace] panel.
 
---
+-->
