@@ -12,7 +12,7 @@ exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
 
 >[!IMPORTANT]
 >
->To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the following Workfront for Google Workspace functionality will not be available after **February 28, 2026**: 
+>To deliver more stable and scalable integrations, we've shifted to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the following Workfront for Google Workspace functionality **is no longer available**: 
 >
 >* Accessing Google Workspace functionality from within Workfront 
 >
@@ -23,6 +23,8 @@ exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
 >For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
 >For information about the specific capabilities of the Workfront Automation and Integration modules for Google Workspace, see [Gmail modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) and [Google Calendar modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules). 
+
+<!--
 
 When you receive a notification about an update in [!DNL Adobe Workfront], you can quickly post a reply from [!DNL Workfront for Google Workspace].
 
@@ -66,3 +68,5 @@ Before you can create a [!DNL Workfront] task in [!DNL Google Workspace], you mu
    You can repeat this step for any other names you want to add.
 
 1. Click **[!DNL Post]**.
+
+-->

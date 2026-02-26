@@ -12,7 +12,7 @@ exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
 
 >[!IMPORTANT]
 >
->To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the following Workfront for Google Workspace functionality will not be available after **February 28, 2026**: 
+>To deliver more stable and scalable integrations, we've shifted to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the following Workfront for Google Workspace functionality **is no longer available**: 
 >
 >* Accessing Google Workspace functionality from within Workfront 
 >
@@ -23,6 +23,8 @@ exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
 >For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
 >For information about the specific capabilities of the Workfront Automation and Integration modules for Google Workspace, see [Gmail modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) and [Google Calendar modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules). 
+
+<!--
 
 You can update an existing project, task, or issue with information from a non-[!DNL Adobe Workfront] email.
 
@@ -108,3 +110,5 @@ Before you can update a [!DNL Workfront] item using email content from [!DNL Goo
       For both of the options above, you can click **[!UICONTROL Notify]** to specify recipients for the reply as in step 5. When you are ready, click **[!UICONTROL Post]** to add the update or reply.
 
    * Click the **[!UICONTROL Details]** tab to view the details for the new project, task, or issue.
+
+   -->

@@ -12,7 +12,7 @@ exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
 
 >[!IMPORTANT]
 >
->To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the following Workfront for Google Workspace functionality will not be available after **February 28, 2026**: 
+>To deliver more stable and scalable integrations, we've shifted to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the following Workfront for Google Workspace functionality **is no longer available**: 
 >
 >* Accessing Google Workspace functionality from within Workfront 
 >
@@ -23,6 +23,8 @@ exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
 >For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
 >For information about the specific capabilities of the Workfront Automation and Integration modules for Google Workspace, see [Gmail modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) and [Google Calendar modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules). 
+
+<!--
 
 You can install the [!DNL Adobe Workfront for Google Workspace] add-on from the [!DNL Google Workspace] Marketplace.
 
@@ -61,3 +63,5 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. (Conditional) In your [!DNL Google Workspace] app, if you don't see the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page, refresh the page.
 
 For information about logging in, see [Log in and out of [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).
+
+-->
