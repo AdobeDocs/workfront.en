@@ -14,6 +14,12 @@ For a list of all changes available at this point in the Second Quarter 2026 rel
 
 ## Collapse custom form section by default
 
+>[!NOTE]
+>
+>Preview: February 26, 2026
+>Production fast release: March 12, 2026
+>Production for everyone: April 16, 2026
+
 By default, all sections on a custom form are expanded when the form itself is expanded. A new option on the custom form designer allows you to mark a section to be collapsed by default when a user opens the form. This option is applied at the section level, not on fields.
 
 For more information, see [Organize and preview a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
@@ -23,7 +29,7 @@ For more information, see [Organize and preview a form](/help/quicksilver/admini
 >[!NOTE]
 >
 >Preview: January 29, 2026
->Production fast release: TBD
+>Production fast release: February 12, 2026
 >Production for everyone: TBD
 >
 >This feature has been temporarily removed from the Production environment on February 13, 2026.
