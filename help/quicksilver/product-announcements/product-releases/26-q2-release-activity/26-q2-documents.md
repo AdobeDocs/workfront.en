@@ -8,9 +8,13 @@ exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 ---
 # Second Quarter 2026 Documents enhancements
 
+<!--hide this article until multi stage goes out-->
+
 This page describes Documents enhancements made with the Second Quarter 2026 release to the Preview environment. These enhancements will be made available in the Production environment as noted.
 
 For a list of all changes available at this point in the Second Quarter 2026 release cycle, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+<!--
 
 ## Multi‑stage approval workflows available for unified approvals
 
@@ -29,6 +33,8 @@ Multi‑stage approval workflows are now available in unified approvals, helping
 * Maintain visibility into approval progress
 
 For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+-->
 
 ## Set up and use multi-stage approval workflow templates
 

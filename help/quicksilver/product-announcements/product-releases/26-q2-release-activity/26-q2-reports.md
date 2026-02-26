@@ -25,41 +25,7 @@ The custom field label is intended for the system interface, while the field nam
 
 For more information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-## Multi‑stage approval workflows available for unified approvals
-
->[!NOTE]
->
->Preview: February 26, 2026
->Production fast release: March 12, 2026
->Production for everyone: April 16, 2026
-
-Multi‑stage approval workflows are now available in unified approvals, helping organizations enforce structured, repeatable approval processes that reflect how work is reviewed in the real world. With multi‑stage approvals, you can:
-
-* Route work through defined sequential stages 
-* Assign the people or teams to each stage and choose their decision role
-* Set stage‑specific deadlines 
-* Ensure approvals progress only when required decisions are complete
-* Maintain visibility into approval progress
-
-For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
-
-## Set up and use multi-stage approval workflow templates
-
->[!NOTE]
->
->Preview: February 26, 2026
->Production fast release: March 12, 2026
->Production for everyone: April 16, 2026
-
-You can now configure and reuse multi-stage approval workflow templates, making it easier to apply consistent governance across repeatable approval workflows. 
-
-With approval workflow templates, you can: 
-
-* Create sequential approval stages with unique participants and deadlines
-* Reduce manual setup time during approval initiation
-* Ensure required stakeholders are engaged at the right stage
-
-For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+<!--
 
 ## Shareable Report Folders
 
@@ -81,6 +47,7 @@ You can now organize and share reports using shareable report folders. This new 
 
 For more information, see [Use shareable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).
 
+-->
 
 ## Improved Date Labels for Chart Groupings in Canvas Dashboards
 
