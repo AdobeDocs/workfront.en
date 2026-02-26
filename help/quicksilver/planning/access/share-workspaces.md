@@ -145,18 +145,19 @@ To share a workspace with others:
 
     ![Share button on workspace top right](assets/share-button-on-workspace-top-right.png)
 
+   <!--only for March 4: * <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>-->
+
+1. <span class="preview">(Conditional) If you are a System Administrator, select from the following options:</span>
+
+   <div class="preview">
+
+   * **Only invited people can access**: You must select entities in the sharing box and choose their access to the workspace. This is the default selection. 
+   * **Everyone in the system can view**: Everyone in the system with access to Planning can view the workspace in their **Workspaces** area in Planning.
+         
+   </div>
    
-   <!--For Feb 26:1. <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>
+   <!--only  for March 4:
 
-      * <span class="preview">If you are a System Administrator, select from the following options:</span>
-
-         <div class="preview">
-
-         * **Only invited people can access**: You must select entities in the sharing box and choose their access to the workspace. This is the default selection. 
-         * **Everyone in the system can view**: Everyone in the system with access to Planning can view the workspace in their **Workspaces** area in Planning.
-         
-         </div> 
-         
       * <span class="preview">If you are a workspace manager with a Standard license, you can see one of the following selections but you cannot change them:</span>
 
          <div class="preview">
@@ -227,4 +228,4 @@ Users who access a link to a workspace to which they do not have permissions can
 
    The users removed no longer have access to the workspace or its objects.
   
-   There is no notification for the users that have been removed from accessing the workspace that they no longer have these permissions. 
+   There is no notification for the users that have been removed from accessing the workspace that they no longer have these permissions.
