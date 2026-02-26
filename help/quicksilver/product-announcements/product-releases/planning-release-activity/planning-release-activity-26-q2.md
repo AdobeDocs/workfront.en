@@ -53,8 +53,6 @@ Prior to this change, the ability to choose these workspace sharing permissions 
 
 For information, see Share workspaces (help/quicksilver/planning/access/share-workspaces.md).
 
-<!--
-
 ## Sort groupings in the timeline view  
 
 >[!NOTE]
@@ -64,10 +62,6 @@ For information, see Share workspaces (help/quicksilver/planning/access/share-wo
 >Production for everyone: April 16, 2026
 
 You can now sort groupings in the timeline view. For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
-
--->
-
-<!--
 
 ## Support user references for connected fields  
 
@@ -83,9 +77,6 @@ For example, you can now add Project Sponsor or Portfolio Owner as a lookup fiel
 
 For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
 
--->
-
-<!--
 
 ## Real time presence indicators now display users in the table view 
 
@@ -101,7 +92,6 @@ You must turn on the Show collaborators setting in the table view header. Other 
 
 For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
 
--->
 
 ## Updated sharing experience for list views 
 
