@@ -147,15 +147,14 @@ To share a workspace with others:
 
    <!--only for March 4: * <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>-->
 
-   <!--For Feb 26:
-   1. <span class="preview">(Conditional) If you are a System Administrator, select from the following options:</span>
+1. <span class="preview">(Conditional) If you are a System Administrator, select from the following options:</span>
 
-         <div class="preview">
+   <div class="preview">
 
-         * **Only invited people can access**: You must select entities in the sharing box and choose their access to the workspace. This is the default selection. 
-         * **Everyone in the system can view**: Everyone in the system with access to Planning can view the workspace in their **Workspaces** area in Planning.
+   * **Only invited people can access**: You must select entities in the sharing box and choose their access to the workspace. This is the default selection. 
+   * **Everyone in the system can view**: Everyone in the system with access to Planning can view the workspace in their **Workspaces** area in Planning.
          
-         </div> -->
+   </div>
    
    <!--only  for March 4:
 
@@ -229,4 +228,4 @@ Users who access a link to a workspace to which they do not have permissions can
 
    The users removed no longer have access to the workspace or its objects.
   
-   There is no notification for the users that have been removed from accessing the workspace that they no longer have these permissions. 
+   There is no notification for the users that have been removed from accessing the workspace that they no longer have these permissions.

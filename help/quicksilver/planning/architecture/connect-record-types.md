@@ -315,27 +315,22 @@ For an example of connecting record types and records, see [Example of connectin
     >
     >* What you select in the Record appearance area determines how the records display in connections everywhere in the system, including all the views and details pages. 
 
-1. Select the **Select lookup fields** to add fields from the  record type you are connecting to. The lookup fields are fields associated with the record or object type that you are linking to. Linking them displays information from the record or object you're linking to on the record you are linking from. This is selected by default. 
-
-<!--For Feb 26: replace the first bullet below in the TIP with this: 
-
-* In the Production environment, you cannot add Workfront user fields (including fields like Project Owner, or Project Sponsor) as lookup fields. <span class="preview">You can add user fields as lookup fields in the Preview environment.</span>-->
+1. Select the **Select lookup fields** to add fields from the  record type you are connecting to. The lookup fields are fields associated with the record or object type that you are linking to. Linking them displays information from the record or object you're linking to on the record you are linking from. This is selected by default.
 
     >[!TIP]
     >
-    >* You cannot add Workfront typeahead or user fields (including fields like Project Owner, or Project Sponsor) as lookup fields.
+    >* In the Production environment, you cannot add Workfront user fields (including fields like Project Owner, or Project Sponsor) as lookup fields. <span class="preview">You can add user fields as lookup fields in the Preview environment.</span>
     >
     >* Workfront objects' date field information displays in 24 hour format in Workfront Planning, regardless of how it displays in Workfront. 
     >
     >   For example, if a project's Planned Start Date displays as 3:00 PM in Workfront, it will display as 15:00 in Workfront Planning in an imported lookup field. 
     >* In the Production environment, you cannot add People fields as lookup fields. <span class="preview">You can add People fields as lookup fields in the Preview environment.</span>
-    >
 
 1. Click **Create**.
 
 1. (Conditional) If you selected the **Select lookup field** setting, the **Add lookup fields** box opens. 
 
-    Click the **+** icon  to add fields from the **Unselected fields** area. 
+    Click the **+** icon  to add fields from the **Unselected fields** area.
 
     Or
   
