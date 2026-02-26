@@ -218,6 +218,7 @@ Workflow Orchestration Agent can help manage document and asset approvals in Wor
 
 Consider the following when working with document and asset approvals:
 
+* Content approvals must be enabled for your organization before you can use this functionality in WOA.
 * AI cannot approve or reject on behalf of humans. Decisions rely on users, with the exception of the Workfront AI Reviewer.
 
    For more information on the Workfront AI Reviewer, see [Get started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
