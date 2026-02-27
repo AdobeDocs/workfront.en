@@ -152,6 +152,8 @@ Before you can manage your work and approvals from [!DNL Slack], you must
 
 ## Manage your approvals from [!DNL Slack] {#manage-your-approvals-from-slack}
 
+Approvals refer to legacy document approvals. Unified document approvals are not currently supported in [!DNL Microsoft Teams]. For more information about the different approval systems in Workfront, see [Available functionality for document approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
+
 1. Log in to your [!DNL Slack] instance and log in to [!DNL Workfront] from [!DNL Slack].  
    For more information about logging in to [!DNL Workfront] from [!DNL Slack], see the "Logging In to [!DNL Workfront] from [!DNL Slack]" section in [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 

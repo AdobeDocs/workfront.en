@@ -5,13 +5,19 @@ feature: Workfront Planning
 role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: yes
-hide: yes
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
 ---
 # Roll out your strategic home: a 30-day launchpad
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>
+>Your organization must have a Workfront Planning Prime or higher package to be able to support the features recommended in this article. 
+>
+>For a list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+> 
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 Use this guide to learn how to roll out Adobe Workfront Planning to design a strategy that prioritizes psychological safety, minimizes disruption, and delivers quick wins. 
 
@@ -68,6 +74,8 @@ With this team-first architecture you can:
 
 * **Design the hub to support the spoke:** You can focus the global classification workspace specifically on the objects that matter most to your pilot team (their specific Brands or Products). This firms up the collaborative handshake between enterprise governance and team autonomy while keeping the design effort manageable. 
 
+    For information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+
 * **Act as an enabler, not a guardian:** Shift your role from rule-setting to capability-building. Partner with the team to structure their planning environment. 
 
 * **Collaborate on design:** Work directly with your pilot team to define the record types and fields that reflect their real-world needs, not an abstract corporate ideal. 
@@ -116,7 +124,7 @@ To move from team-first to enterprise scale, consider the following:
 
 ## Overview of success metrics for the launchpad 
 
-We recommend that you constantly look for markers of success and adjust from your findings. 
+We recommend that you constantly look for markers of success and adjust based on your findings. 
 
 Look for these early indicators of health: 
 

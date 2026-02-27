@@ -1,6 +1,8 @@
 ---
 cloud: Experience Cloud
 solution: Workfront
+landing-page-name: workfront
+landing-page-breadcrumb-title: Workfront
 product-previous: experience cloud
 type: Documentation
 mini-toc-levels: 2
