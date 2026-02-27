@@ -54,6 +54,10 @@ For more information, see [Use shareable report folders](/help/quicksilver/repor
 >Production fast release: March 12, 2026
 >Production for everyone: April 16, 2026
 
+>[!NOTE]
+>
+>Canvas Dashboards is currently in beta.
+
 Charts that group data by date now display clearer, more readable date labels. With this update, date labels dynamically adjust based on the selected Group by option—such as day, week, month, or year—making charts easier to read and interpret at a glance:
 
 <table> <tbody> <tr> <td>Day</td> <td>Displays the full date. Example: 3/12/2026</td> </tr> <tr> <td>Week</td> <td>Displays a formatted week start date. Example, Mar 8, 2026</td> </tr> <tr> <td>Month</td> <td>Displays the month and year. Example Mar 2026</td> </tr> <tr> <td>Year</td> <td>Displays the year only. Example: 2026</td> </tr> </tbody> </table>
