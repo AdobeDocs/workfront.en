@@ -70,6 +70,12 @@ Before you can receive [!DNL Workfront] notifications in [!DNL Slack], you must
    * [!UICONTROL I'm assigned to a new task or issue]
    * [!UICONTROL My team is assigned to a new task or issue]
    * [!UICONTROL I receive a new approval or access request]
+
+      >[!NOTE]
+      >
+      >Approvals refer to legacy document approvals. Unified document approvals are not currently supported in [!DNL Slack]. For more information about the different approval systems in Workfront, see [Available functionality for document approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
+
+
    * [!UICONTROL Someone includes me on a directed update]
    * [!UICONTROL Someone comments on a thread I'm in]
    * [!UICONTROL An update is made to a task, issue or project I am subscribed to]

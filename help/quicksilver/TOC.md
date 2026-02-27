@@ -17,6 +17,8 @@ feature-set: Workfront
       * [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
       * [Second Quarter 2026 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
       * [Second Quarter 2026 Project enhancements](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md)
+      * [Second Quarter 2026 Reporting enhancements](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md)
+      * [Second Quarter 2026 Requesting enhancements](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md)
       * [Second Quarter 2026 Other enhancements](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md)
     * 2026 Q1 Release {#release-26-q1}
       * [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
@@ -2095,7 +2097,7 @@ feature-set: Workfront
   * Adobe Workfront Planning general information {#adobe-workfront-planning-general-information}
     * [Adobe Workfront Planning general information: article index](planning/general/planning-general-article-index.md)
     * [Get started with Adobe Workfront Planning](planning/general/planning-overview.md)
-    * [Adobe Workfront Planning best practices](planning/general/planning-best-practices.md)
+    * [Adobe Workfront Planning implementation recommendations](planning/general/planning-best-practices.md)
     * [Adobe Workfront Planning API basics](planning/general/planning-api-basics.md)
     * [Adobe Workfront Planning AI Assistant overview](planning/general/planning-ai-assistant-overview.md)
     * [Get started with the Adobe Workfront Planning Designer](planning/general/planning-ai-designer.md)

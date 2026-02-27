@@ -22,6 +22,4 @@ This section contains the following articles:
 * [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) 
 * [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
-  <!--
-  <li><a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref" xrefformat="{para}">Overview of the Queue Details tab in a project</a> </li>
-  -->
+
