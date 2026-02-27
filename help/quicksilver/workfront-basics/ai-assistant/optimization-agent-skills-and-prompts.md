@@ -27,7 +27,7 @@ Because Workflow Optimization Agent is part of the Adobe Experience Platform Age
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any </p> </td> 
+   <td> <p>Select, Prime, or Ultimate </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -59,7 +59,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Considerations
 
-Consider the following constraints when using Workflow Agent Orchestrator:
+Consider the following constraints when using Workflow Optimization Agent:
 
 ### Data / object coverage constraints
 
@@ -84,6 +84,8 @@ Consider the following constraints when using Workflow Agent Orchestrator:
 
 For best practices and prompts for these general-use skills, see [AI Assistant prompts and best practices](/help/quicksilver/workfront-basics/ai-assistant/ai-prompts-best-practices.md).
 
+<!--Follow up with Oznur-->
+
 ### Product knowledge
 
 Workflow Optimization Agent can provide instructions or reference information pulled from the Workfront documentation. 
@@ -94,11 +96,13 @@ Example: How do I change task duration type?
 
 ### Project, task, and issue summarization
 
-Workflow Optimization Agent can summarize project, tasks, issues, or documents that have been uploaded to Workfront.
+Workflow Optimization Agent can summarize project, tasks, or issues<!--, or documents--> that have been uploaded to Workfront.
 
 For more information about project, task, and issue summaries, see [Summarize using AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
 
 Example: Summarize the project called Fall Campaign 2026.
+
+<!--
 
 ### Locate work items
 
@@ -108,11 +112,19 @@ Example: Find all tasks assigned to me that are due this week.
 
 For more information on using AI Assistant to locate project, tasks, and issues, see [se AI Assistant to work with projects, tasks, and issues](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
 
+-->
+
+<!--
+
 ### Catch Me Up 
 
 Catch Me Up summarizes updates, uploaded documents, and other notable changes that have about your projects that have occurred in the last 24 hours, 3 days, or 7 days.  
 
 For more information on Catch me up, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+
+-->
+
+<!--
 
 ### Smart filters
 
@@ -120,7 +132,9 @@ You can use natural language filters in Priorities to replace status, pre-built 
 
 For more information on using Smart Filters, see [Filter your work with Smart filters](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md) in the article Filter and group your work with Priorities.
 
-## Workflow Orchestration Agent in Workfront
+-->
+
+## Workflow Optimization Agent in Workfront
 
 * [Project, task, and issue information](#project-task-and-issue-information)
 * [Project and work management](#project-and-work-management)
@@ -158,6 +172,10 @@ See example prompts for document and asset approvals in the following areas:
 
 #### Show Project Health for projects, programs, or portfolios
 
+>[!NOTE]
+>
+>Your organization must be enrolled in the Project Health beta to use this feature.
+
 * "Show me the health of my active projects"
 * "Show me the health of this program"
 
@@ -171,7 +189,7 @@ See example prompts for document and asset approvals in the following areas:
 * [Identify the right project template based on user prompt](#identify-the-right-project-template-based-on-user-prompt)
 * [Add, edit, or customize tasks in a project](#add-edit-or-customize-tasks-in-a-project)
 * [Create, update, or delete assignments](#create-update-or-delete-assignments)
-* [Recommend best matching user assignments for the task based on users' job role and availability](#recommend-best-matching-user-assignments-for-the-task-based-on-users-job-role-and-availability)
+<!--* [Recommend best matching user assignments for the task based on users' job role and availability](#recommend-best-matching-user-assignments-for-the-task-based-on-users-job-role-and-availability)-->
 
 #### Create, update, or delete projects
 
@@ -205,6 +223,8 @@ See example prompts for document and asset approvals in the following areas:
 * For the creative tasks 'Create 3 banner variants for EMEA display ads', 'Apply revisions', and 'Export final assets', assign the best job roles and estimate the required effort for each task.
 * Across the projects 'Q2 Product Launch', 'Website Redesign – EMEA', and 'Paid Media Campaign – NA', identify all unassigned tasks and assign the appropriate job roles with recommended planned hours for each.
 
+<!--
+
 #### Recommend best matching user assignments for the task based on users' job role and availability
 
 * Who is the best available user to assign to 'Design Landing Page Hero', considering who still has capacity today?
@@ -212,9 +232,11 @@ See example prompts for document and asset approvals in the following areas:
 * For all unassigned tasks in this project, recommend the best users based on job role match and daily availability.
 * Recommend users for the tasks 'QA testing for website launch' and 'Content review', prioritizing users whose job roles match and who are not over-allocated today.
 
+-->
+
 ### Content and Approvals
 
-Workflow Orchestration Agent can help manage document and asset approvals in Workfront. 
+Workflow Optimization Agent can help manage document and asset approvals in Workfront. 
 
 Consider the following when working with document and asset approvals:
 
