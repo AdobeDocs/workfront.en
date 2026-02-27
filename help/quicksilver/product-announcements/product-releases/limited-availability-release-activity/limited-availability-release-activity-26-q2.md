@@ -42,7 +42,7 @@ For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tas
 
 >[!NOTE]
 >
->Production release date: February 26, 2026
+>Production release date: March 3, 2026
 
 We have added the **Preserve Billing** field to the Finance section of the Staffing Plan Details page.
 
@@ -72,12 +72,6 @@ text
 This section describes the issues fixed in the weekly Workfront updates for limited availability features.
 
 <!--
-
-### Maintenance Updates week of February 22-28, 2026
-
-**Title**
-
-text
 
 ### Maintenance Updates week of March 1-7, 2026
 
