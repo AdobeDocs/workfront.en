@@ -17,6 +17,8 @@ feature-set: Workfront
       * [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
       * [Second Quarter 2026 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
       * [Second Quarter 2026 Project enhancements](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md)
+      * [Second Quarter 2026 Reporting enhancements](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md)
+      * [Second Quarter 2026 Requesting enhancements](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md)
       * [Second Quarter 2026 Other enhancements](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md)
     * 2026 Q1 Release {#release-26-q1}
       * [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
@@ -486,7 +488,7 @@ feature-set: Workfront
       * [Create or edit an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
       * [Install an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
       * [Roll back an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md)
-      * [Compare objects between enviroments](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md)
+      * [Compare objects between environments](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md)
       * [Environment promotion using the API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
       * [Environment promotion FAQ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
       * [Environment promotion troubleshooting](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)

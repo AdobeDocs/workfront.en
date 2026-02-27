@@ -592,7 +592,6 @@ When you display the table view, you can also view which field another user is e
 
 <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 
-
 1. <span class="preview">(Optional) Click the triangle in the upper-right corner of the cell that contains the field edited by others. A list of users currently editing the field displays.</span> 
 
 >[!TIP]
