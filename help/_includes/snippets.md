@@ -62,6 +62,8 @@
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user name next to your profile picture. Or (if available), click your profile picture in the top navigation area, then click **[!UICONTROL Workfront Profile]**.
 
+<!-- Notes for Workflow packaging -->
+
 ## Note for Workflow Ultimate {#ultimate-package}
 
 >[!IMPORTANT]
@@ -73,6 +75,12 @@
 >[!IMPORTANT]
 >
 >You must have the Workflow Prime or the Workflow Ultimate package to use this feature.
+
+## Note for Workflow package for the cost / billing split {#workflow-package-for-cost-billing}
+
+>[!IMPORTANT]
+>
+>You must have the Workflow Select, Prime, or Ultimate package to see separate billing and cost permissions.
 
 <!-- Admin and Setup -->
 
