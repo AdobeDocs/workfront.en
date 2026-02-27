@@ -64,7 +64,7 @@ To add a custom form to a document:
    >
    >Only active custom forms display in the drop-down menu. You can add up to 10 custom forms per document. If you need to create a custom form, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-## Edit a custom form
+## Edit a custom form in the legacy document area
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
