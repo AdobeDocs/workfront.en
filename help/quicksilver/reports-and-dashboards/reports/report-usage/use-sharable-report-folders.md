@@ -5,8 +5,6 @@ title: Use shareable report folders
 description: Use shareable report folders to organize the reports that you create and share those folders with other users in Adobe Workfront.
 author: Courtney
 feature: Reports and Dashboards
-hide: yes
-hidefromtoc: yes
 exl-id: 65831f2e-9092-4e99-a86b-40df42c713bf
 ---
 # Use shareable report folders
