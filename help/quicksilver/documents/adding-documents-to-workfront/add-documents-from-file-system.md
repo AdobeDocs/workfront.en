@@ -138,6 +138,8 @@ Functionality not currently supported in the new documents area:
 
 ### Add documents to Workfront in the new documents area 
 
+If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 <!--
 >[!IMPORTANT]
 >
