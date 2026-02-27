@@ -304,7 +304,7 @@ Workfront API version 21 was released on October 23, 2025. For API version 21, w
 >
 >This API version change features a breaking change that may affect your existing API calls. This is due to the fact that API version 21 uses Event Subscriptions version 2.
 >
-> For multi-select fields, Event Subsscriptions version 2 always sends as an array. Version 1 sent an array if more than one value selected. If only one value was selected, it sent a string.
+> For multi-select fields, Event Subscriptions version 2 always sends as an array. Version 1 sent an array if more than one value selected. If only one value was selected, it sent a string.
 
 For information on what's new and updated, see [What's new in API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md).
 
