@@ -81,4 +81,4 @@ Before you can log in or out of [!DNL Workfront for Google Workspace], you must
 
    This does not log you out of [!DNL Google Workspace].
 
-   --
+   -->

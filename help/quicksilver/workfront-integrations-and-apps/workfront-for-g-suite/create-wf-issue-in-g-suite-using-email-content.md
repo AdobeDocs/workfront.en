@@ -125,4 +125,4 @@ Before you can create an issue from [!DNL Google Workspace], you must
 
    * Click the **[!UICONTROL Documents]** tab to see any documents saved with the issue.
 
-   --
+   -->
