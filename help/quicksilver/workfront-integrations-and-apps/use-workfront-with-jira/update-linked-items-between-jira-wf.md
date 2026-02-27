@@ -11,7 +11,7 @@ exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
 
 >[!IMPORTANT]
 >
->To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Jira integration will not be available after **February 28, 2026**. 
+>To deliver more stable and scalable integrations, we've shifted to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Jira integration **is no longer available**. 
 >
 >We recommend using Workfront Automation and Integration for your organization's integration needs with Jira. 
 >
@@ -34,6 +34,8 @@ exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
 >For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
+
+<!--
 
 When you link [!DNL Jira] issues to [!DNL Adobe Workfront] tasks or issues, your users can update items in one application and the counterpart of that item also updates for the users working in the second application.
 
@@ -271,3 +273,5 @@ To comment from [!DNL Jira] to a [!DNL Workfront] item:
    * The **[!DNL Workfront]** tab of the [!DNL Jira] issue.
    * The **[!UICONTROL Comments]** tab of the [!DNL Jira] issue.
    * The **[!UICONTROL Updates]** tab of the linked item in Workfront.
+
+-->
