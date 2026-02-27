@@ -85,5 +85,15 @@ To add a custom form to a document:
 1. Select the document you need.
 1. In the **Details** section on the right, click **Edit**. 
    ![edit button in details section](assets/edit-custom-form.png)
-1. In the Custom Forms field, begin typing and select a custom form. 
+1. In the **Custom Forms** field, begin typing and select a custom form. 
 1. Click **Save**. The custom form appears in the details section. 
+
+
+## Edit a custom form in the new document area
+
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Select the document you need.
+1. In the **Details** section on the right, click **Edit**. 
+   ![edit button in details section](assets/edit-custom-form.png)
+1. In the **Custom Forms** section, find the form you want to edit. 
+1. Make the needed changes, then click **Save**.
