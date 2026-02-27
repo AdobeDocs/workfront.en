@@ -4,7 +4,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: add-users-to-workfront
-description: As an Adobe Workfront administrator, can grant users access to view or edit objects by assigning them an access level.
+description: Business profiles are an enhanced permission model that allows customers such as agencies to efficiently manage user access and ensure precise control over permissions at the group level. In a business profile, users have distinct permissions to group-specific objects. Additional objects can also be shared directly with the business profile.
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -25,6 +25,8 @@ The Workfront system administrator:
 * Assigns layout templates to the access levels
 
 Any user who has access to share objects can share them with the business profile, and all users with the profile will see the object.
+
+For instructions on creating business profiles, see []().
 
 ## Business profile example
 
