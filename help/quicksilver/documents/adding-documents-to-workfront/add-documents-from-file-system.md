@@ -13,7 +13,7 @@ Workfront currently has two versions of the Documents area: the legacy documents
 
 Adding documents to Workfront differs depending on which version of the documents area your organization uses. 
 
-* [Add documents to Adobe Workfront from your file system in the legacy document area](#add-documents-to-adobe-workfront-from-your-file-system-in-the-legacy-document-area)
+* [Add documents to Adobe Workfront from your file system in the legacy documents area](#add-documents-to-adobe-workfront-from-your-file-system-in-the-legacy-document-area)
 * [Add documents to Workfront in the new documents area](#add-documents-to-workfront-in-the-new-documents-area)
 
 
@@ -49,7 +49,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Add documents to Adobe Workfront from your file system in the legacy document area
+## Add documents to Adobe Workfront from your file system in the legacy documents area
 
 If your organization is on legacy Workfront Storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront Storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 

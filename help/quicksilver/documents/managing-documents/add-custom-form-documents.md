@@ -48,7 +48,7 @@ For more detail about the information in this table, see [Access requirements in
 
 * The custom form must be shared with you
 
-## Add a custom form in the legacy document area
+## Add a custom form in the legacy documents area
 
 If your organization is on legacy Workfront Storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront Storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
@@ -64,7 +64,7 @@ To add a custom form to a document:
    >
    >Only active custom forms display in the drop-down menu. You can add up to 10 custom forms per document. If you need to create a custom form, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-## Edit a custom form in the legacy document area
+## Edit a custom form in the legacy documents area
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.

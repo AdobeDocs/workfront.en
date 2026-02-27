@@ -60,7 +60,9 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Edit documents in bulk
+## Edit documents in bulk in the legacy documents area
+
+If your organization is on legacy Workfront Storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront Storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
 To edit documents in bulk:
 
@@ -87,6 +89,31 @@ To edit documents in bulk:
     </table>
 1. Click **Save**.
 
+## Edit documents in bulk in the new documents area
+
+
+If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+To edit documents in bulk:
+
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Press ctrl or cmd on your keyboard, and select the documents you want to edit. 
+1. Click Edit at the bottom of the page.
+    ![edit multiple documents](assets/bulk-edit-documents.png)
+1. (Optional) Add or edit the **Description**. If the description on each document is different, you will see _Multiple values_ in the description box. You can add the same description for all documents, but you cannot edit individual document descriptions when editing in bulk.
+1. Make the following changes with custom forms:
+
+    <table>
+    <tr>
+    <td><strong>Add forms</strong></td>
+    <td>In the <strong>Custom form</strong> section, you can add a new custom form to the selected documents. Custom forms attached to all selected documents display in the <strong>Custom forms in common</strong> section.  </td>
+    </tr>
+    <tr>
+    <td><strong>Edit forms</strong></td>
+    <td>Edit any attached custom forms. The information you change overwrites the existing information on individual documents. Fields with different values across documents display as "Multiple values". </td>
+    </tr>
+    </table>
+1. Click **Save**.
 
 ## Edit documents in bulk in a Document report
 
@@ -95,7 +122,6 @@ or
 Create a document report as described in [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Select the documents you want to edit.
 1. Click the Edit icon ![edit icon](assets/edit-icon.png).
-    ![edit icon location on page](assets/edit-multiple-documents.png)
 1. (Optional) Add or edit the **Description**. If the description on each document is different, you will see _Multiple values_ in the description box. You can add the same description for all documents, but you cannot edit individual document descriptions when editing in bulk.
 1. Make the following changes with custom forms:
 
