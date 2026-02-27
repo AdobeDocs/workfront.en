@@ -85,6 +85,17 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >These attributes are defined separately and may affect revenue and cost calculations. For more information, see [Define rate attributes](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
 1. Select a [!UICONTROL **Currency**] for the billing rate.
+1. (Optional) Enter a [!UICONTROL **Job role alias**] for the job role.
+
+   If the alias name you type does not already exist, you can add it.
+   
+   When the rate card is attached to a project, the alias appears on information such as placeholder assignments, expenses, and reports, instead of the internal job role name.
+
+   >[!NOTE]
+   >
+   >* Only one alias can exist for each job role and attribute combination within a single rate card.
+   >* An alias must be updated on the rate card and cannot be edited on a project.
+
 1. In the [!UICONTROL **Billing Rate**] field, enter the billing rate for this job role and its attributes.
 1. (Optional) Select [!UICONTROL **Lock rate**] to lock this rate and not allow it to be changed at the project or task level. You can unlock it later if needed.
 1. (Optional) Click [!UICONTROL **Add date effective rate**] to apply effective dates to the billing rate.
