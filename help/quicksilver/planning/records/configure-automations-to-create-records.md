@@ -9,9 +9,9 @@ exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
 ---
 # Configure Adobe Workfront Planning automations
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 <!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 
@@ -153,9 +153,8 @@ You must configure an automation for a record type in Workfront Planning before 
    * **Trigger**: Select an action that will trigger the automation:
 
       * Button click 
-      <!--For Feb 26 and add Preview disclaimer at the top: * <span class="preview">Field value change</span>-->
+      * <span class="preview">Field value change</span>
 
-   <!-- For Feb 26:
    1. (Conditional) If you selected **Button click**, go to the step below that describes the **Actions** area. 
 
    1. <span class="preview">(Conditional) If you selected **Field value change**, do the following in the **Settings** section: </span>
@@ -185,10 +184,6 @@ You must configure an automation for a record type in Workfront Planning before 
          >[!TIP]
          >
          ><span class="preview">The modifier in each condition changes with the type of fields you select.</span>
-         >
-         
-   
-   --> 
 
 1. Update the following fields in the **Actions** section: <!--submitted bugs for these fields - see if they need changing here-->
    * **Actions**: Select the action that you want Workfront to perform when triggering the automation. This is a required field. 
