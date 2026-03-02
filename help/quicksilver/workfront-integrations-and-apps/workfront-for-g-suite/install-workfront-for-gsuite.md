@@ -6,6 +6,7 @@ title: Install [!DNL Adobe Workfront] for Google Workspace
 description: You can install the [!DNL Adobe Workfront] for Google Workspace add-on from the Google Workspace Marketplace.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
 ---
 # Install [!DNL Adobe Workfront for Google Workspace]

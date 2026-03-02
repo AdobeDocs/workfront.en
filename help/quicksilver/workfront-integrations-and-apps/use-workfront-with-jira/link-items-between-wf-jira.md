@@ -5,6 +5,7 @@ title: Link items between [!DNL Adobe Workfront] and [!DNL Jira]
 description: You can link [!DNL Jira] issues to [!DNL Adobe Workfront] tasks or issues either automatically or manually.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
 ---
 # Link items between [!DNL Adobe Workfront] and [!DNL Jira]

@@ -6,6 +6,7 @@ title: View [!DNL Adobe Workfront] object updates from Google Workspace
 description: Without leaving Google Workspace, you can view updates and replies to updates on a [!DNL Adobe Workfront] object.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 13cd0478-4557-4d4c-915e-5b7b70aee8ce
 ---
 # View [!DNL Adobe Workfront] object updates from [!DNL Google Workspace]

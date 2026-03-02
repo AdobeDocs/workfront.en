@@ -6,6 +6,7 @@ title: Reply to a [!DNL Adobe Workfront] update notification from Google Workspa
 description: When you receive a notification about an update in [!DNL Adobe] [!DNL Workfront], you can quickly post a reply from Workfront for Google Workspace.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
 ---
 # Reply to a [!DNL Adobe Workfront] update notification from [!DNL Google Workspace]

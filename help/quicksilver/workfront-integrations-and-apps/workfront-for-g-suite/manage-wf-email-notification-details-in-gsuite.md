@@ -6,6 +6,7 @@ title: Manage [!DNL Adobe Workfront] notification details from Google Workspace
 description: In Google Workspace, when you open a notification email Adobe [!DNL Workfront] has sent, you can view the associated work item details and respond without leaving your Inbox. If actions are available, such as approving a request, you can perform those actions directly from Workfront for Google Workspace.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
 ---
 # Manage [!DNL Adobe Workfront] notification details from [!DNL Google Workspace]

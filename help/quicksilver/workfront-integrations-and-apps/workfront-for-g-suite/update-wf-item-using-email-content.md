@@ -6,6 +6,7 @@ title: Update an [!DNL Adobe Workfront] item from Google Workspace using email c
 description: You can update an existing project, task, or issue with information from a non-Adobe Workfront email.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
 ---
 # Update an [!DNL Adobe Workfront] item from [!DNL Google Workspace] using email content

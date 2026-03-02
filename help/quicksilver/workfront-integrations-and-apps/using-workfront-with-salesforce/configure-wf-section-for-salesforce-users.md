@@ -5,6 +5,7 @@ title: Configure the [!DNL Adobe Workfront] section for [!DNL Salesforce] users
 description: After you install [!DNL Adobe Workfront] for Salesforce as a [!DNL Workfront] administrator, you can make it available to your users by adding it in a new section to their Opportunity and Account page layouts in Salesforce.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
 ---
 # Configure the [!DNL Adobe Workfront] section for [!DNL Salesforce] users

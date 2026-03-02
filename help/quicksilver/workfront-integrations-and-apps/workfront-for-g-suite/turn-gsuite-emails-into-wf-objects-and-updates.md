@@ -6,6 +6,7 @@ title: Turn Google Workspace emails into [!DNL Adobe Workfront] objects and upda
 description: You can turn regular non-Workfront emails into [!DNL Adobe Workfront] objects and updates without leaving G Mail.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 62df8503-fe6e-4b37-b2ce-0fb5678c21d7
 ---
 # Turn Google Workspace emails into [!DNL Adobe Workfront] objects and updates

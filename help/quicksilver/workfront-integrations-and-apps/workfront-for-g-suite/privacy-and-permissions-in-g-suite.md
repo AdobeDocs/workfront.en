@@ -6,6 +6,7 @@ title: Privacy and permissions in Workfront for Google Workspace
 description: Privacy and permissions in Workfront for Google Workspace
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: abb8ffa1-1da6-46dd-a929-18b17014839a
 ---
 # Privacy and permissions in Workfront for Google Workspace

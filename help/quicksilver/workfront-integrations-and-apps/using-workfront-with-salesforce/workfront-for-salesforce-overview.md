@@ -6,6 +6,7 @@ title: Adobe Workfront for Salesforce overview
 description: You can install [!DNL Adobe Workfront] for Salesforce to allow your Salesforce users to submit [!DNL Workfront] requests and automatically create projects without ever leaving Salesforce.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
 ---
 # [!DNL Adobe Workfront for Salesforce] overview

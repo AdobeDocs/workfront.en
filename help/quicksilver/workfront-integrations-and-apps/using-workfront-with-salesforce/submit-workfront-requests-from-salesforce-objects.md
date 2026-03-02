@@ -5,6 +5,7 @@ title: Submit [!DNL Adobe Workfront] requests from [!DNL Salesforce] objects
 description: After installing [!DNL Adobe Workfront] for [!DNL Salesforce], you can submit [!DNL Workfront] requests from [!DNL Salesforce] Opportunities and Accounts. This functionality exists in both the Classic and Lightning Experience frameworks.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
 ---
 # Submit [!DNL Adobe Workfront] requests from [!DNL Salesforce] objects

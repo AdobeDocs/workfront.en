@@ -6,6 +6,7 @@ title: Update a [!DNL Adobe Workfront] object from Google Workspace
 description: Without leaving Google Workspace, you can post a new update or a reply to an existing update on an [!DNL Adobe Workfront] object.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 8e3edfb6-6822-4970-aa59-5fe5ee97d3b2
 ---
 # Update an [!DNL Adobe Workfront] object from [!DNL Google Workspace]

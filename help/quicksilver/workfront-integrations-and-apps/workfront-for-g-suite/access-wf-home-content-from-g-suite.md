@@ -6,6 +6,7 @@ title: Access [!DNL Adobe Workfront] Home content from Google Workspace
 description: You can access your [!DNL Adobe Workfront] Home content, including all tasks, issues, approvals, and access requests assigned to you, without leaving Google Workspace.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
 ---
 # Access [!DNL Adobe Workfront] [!UICONTROL Home] content from [!DNL Google Workspace]

@@ -5,6 +5,7 @@ title: Update linked items between [!DNL Jira] and [!DNL Adobe Workfront]
 description: When you link [!DNL Jira] issues to [!DNL Adobe Workfront] tasks or issues, your users can update items in one application and the counterpart of that item also updates for the users working in the second application.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
 ---
 # Update linked items between [!DNL Jira] and [!DNL Adobe Workfront]

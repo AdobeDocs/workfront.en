@@ -6,6 +6,7 @@ title: Log in and out of [!DNL Adobe Workfront] for Google Workspace
 description: This article describes how to log into or out of the [!DNL Adobe Workfront for] Google Workspace integration.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
 ---
 # Log in and out of [!DNL Adobe Workfront for Google Workspace]
