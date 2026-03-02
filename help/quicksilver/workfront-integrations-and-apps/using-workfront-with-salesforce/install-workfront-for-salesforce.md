@@ -5,6 +5,7 @@ title: Install [!DNL Adobe Workfront] for [!DNL Salesforce]
 description: To install the app before it becomes available in the [!DNL Salesforce] AppExchange, see Installing [!DNL Workfront] for Salesforce before It Becomes Available in the AppExchange Marketplace.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
 ---
 # Install [!DNL Adobe Workfront for Salesforce]

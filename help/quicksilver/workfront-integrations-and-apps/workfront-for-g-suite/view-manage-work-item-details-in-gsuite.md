@@ -6,6 +6,7 @@ title: View and manage [!DNL Adobe Workfront] object details from Google Workspa
 description: You can view and manage the details of a work item without leaving Google Workspace. For example, you can read a task's description, view its parent object, change its status, and mark it as complete, all within [!DNL Adobe Workfront] for Google Workspace.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
 ---
 # View and manage [!DNL Adobe Workfront] object details from [!DNL Google Workspace]

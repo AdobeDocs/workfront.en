@@ -5,6 +5,7 @@ title: Install [!DNL Adobe Workfront] for [!DNL Jira]
 description: You can use [!DNL Adobe Workfront] for [!DNL Jira] to integrate your [!DNL Jira] and [!DNL Workfront] systems.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
 ---
 # Install [!DNL Adobe Workfront for Jira]

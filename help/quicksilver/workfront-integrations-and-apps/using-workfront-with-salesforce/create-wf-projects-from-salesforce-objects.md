@@ -5,6 +5,7 @@ title: Create [!DNL Adobe Workfront] projects from [!DNL Salesforce] objects
 description: After installing [!DNL Adobe Workfront] for Salesforce, you can define triggers that create [!DNL Workfront] projects when certain criteria are met on [!DNL Salesforce] Opportunities and Accounts.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
 ---
 # Create [!DNL Adobe Workfront] projects from [!DNL Salesforce] objects

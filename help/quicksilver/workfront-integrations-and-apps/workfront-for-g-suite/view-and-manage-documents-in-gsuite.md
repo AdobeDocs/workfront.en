@@ -6,6 +6,7 @@ title: View and manage documents from Google Workspace
 description: You can view and manage documents associated with a [!DNL Adobe Workfront] object without leaving Google Workspace.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 20c9e1a6-fce0-44a2-a4c3-f89c94db6635
 ---
 # View and manage documents from [!DNL Google Workspace]
