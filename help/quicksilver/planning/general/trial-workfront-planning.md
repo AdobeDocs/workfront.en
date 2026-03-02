@@ -18,7 +18,7 @@ Adobe Workfront Planning provides centralized visibility into your marketing lif
 
 >[!IMPORTANT]
 >
->* Adobe Workfront is offering a 60-day free trial of Adobe Workfront Planning. 
+>* Adobe Workfront is offering a 60-day free trial of Adobe Workfront Planning to all Adobe Workfront customers who are not also Workfront Planning customers. 
 >
 >* The trial is available between the following dates: March 2 - May 1, 2026. 
 >
@@ -63,14 +63,14 @@ Your company must meet the following requirements to be able to join the Workfro
 
 The following are important dates associated with the Adobe Workfront Planning free trial offering:
 
-* **January 26, 2026**: The Workfront Planning free trial banners were released to Workfront customers. The banners include the following: 
+* **January 26, 2026**: The Workfront Planning free trial banners were released to Workfront customers. The banners included the following: 
     * A link to this document. 
     * The trial agreement acceptance window. Only a Workfront administrator can accept the agreement. You can accept the trial agreement at any time starting with this date.
 * **March 2, 2026**: The Workfront Planning trial launched. 
 
     With the launch of the trial, the following items are added to your Workfront instance:
 
-    * The Workfront Planning banners continue to display for all users. 
+    * The Workfront Planning banners continue to display for all users. A link to this document is included in the banners.
     * The **Review trial agreement** preference is added to the **Setup** area.
     
     The following scenarios exist:
@@ -81,7 +81,8 @@ The following are important dates associated with the Adobe Workfront Planning f
     >
     >The Planning area displays in the Main Menu for all users in the system, regardless of their Workfront license type.
 
-    * If your  Workfront administrator has not accepted the agreement prior to this date, they must first accept it before you can have access to Workfront Planning. 
+    * If your Workfront administrator has not accepted the agreement prior to this date, the banners announcing the Planning trial programs display for all users, but Planning is not yet available in the Main Menu. Your System Administrator must first accept the agreement before you can have access to Workfront Planning. 
+
 * **April 1, 2026**: You can no longer enroll in the trial. 
 
     The following items are removed from your Workfront instance:

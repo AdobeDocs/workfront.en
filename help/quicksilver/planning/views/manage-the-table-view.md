@@ -498,8 +498,6 @@ To add a grouping:
 
     ![Grouping applied in table view](assets/grouping-applied-in-table-view.png)
 
-1. <span class="preview">(Optional) Choose A-Z or Z-A from the sorting drop-down menu to the right of a selected field. This sorts the groupings in the timeline, accordingly.</span>  
-
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
     Or
@@ -590,7 +588,7 @@ When you display the table view, you can also view which field another user is e
 
     ![Real-time indicator table field and avatar connection](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
-<!--maybe include a screen shot after release if they update the UI text in this list of users-->
+    <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 
 1. <span class="preview">(Optional) Click the triangle in the upper-right corner of the cell that contains the field edited by others. A list of users currently editing the field displays.</span> 
 
