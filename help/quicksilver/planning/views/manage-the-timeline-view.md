@@ -9,9 +9,9 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 ---
 # Manage the timeline view
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -400,7 +400,7 @@ To add a grouping in the timeline view:
 1. Click one of the suggested fields, or click **Choose a different field**, and search for a different field, then click it when it displays in the list. 
 
     The grouping is applied automatically to the timeline and records display inside the grouping box. 
-    
+1. <span class="preview">(Optional) Click the **A -> Z** or **Z -> A** drop-down menu next to the name of the selected field to select an ascending or descending sorting order for the grouping. The groupings display in the alphabetical order you selected in the timeline view. </span>
 1. (Optional) Repeat the above steps to add up to 3 groupings.
 
     The number of fields selected for the grouping displays next to the Grouping icon.
