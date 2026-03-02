@@ -26,8 +26,6 @@ The custom field label is intended for the system interface, while the field nam
 
 For more information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-<!--
-
 ## Shareable Report Folders
 
 >[!NOTE]
@@ -48,8 +46,6 @@ You can now organize and share reports using shareable report folders. This new 
 
 For more information, see [Use shareable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).
 
--->
-
 ## Improved Date Labels for Chart Groupings in Canvas Dashboards
 
 >[!NOTE]
@@ -57,6 +53,10 @@ For more information, see [Use shareable report folders](/help/quicksilver/repor
 >Preview: February 26, 2026
 >Production fast release: March 12, 2026
 >Production for everyone: April 16, 2026
+
+>[!NOTE]
+>
+>Canvas Dashboards is currently in beta.
 
 Charts that group data by date now display clearer, more readable date labels. With this update, date labels dynamically adjust based on the selected Group by option—such as day, week, month, or year—making charts easier to read and interpret at a glance:
 

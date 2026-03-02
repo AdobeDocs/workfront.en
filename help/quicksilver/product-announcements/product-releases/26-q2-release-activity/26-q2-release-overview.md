@@ -186,7 +186,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>March 12, 2026</p></td>
         <td><p>April 16, 2026</p></td>
     </tr>
-<!--    <tr>
+   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Shareable Report Folders</a><p></p>
             <p>You can now organize and share reports using shareable report folders. This new feature helps teams that manage large volumes of reports maintain scalable and consistent access control.</p>
@@ -194,16 +194,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>February 26, 2025</p></td>
         <td><p>March 12, 2026</p></td>
         <td><p>April 16, 2026</p></td>
-    </tr>-->
-    <!--<tr>
+    </tr>
+    <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Improved Date Labels for Chart Groupings in Canvas Dashboards</a><p></p>
-            <p>Charts that group data by date now display clearer, more readable date labels. With this update, date labels dynamically adjust based on the selected Group by option—such as day, week, month, or year—making charts easier to read and interpret at a glance.</p>
+            <p>Charts that group data by date now display clearer, more readable date labels. With this update, date labels dynamically adjust based on the selected Group by option—such as day, week, month, or year—making charts easier to read and interpret at a glance.</p><p>Note: Canvas Dashboards is currently in beta.</p>
         </td>
         <td><p>February 26, 2025</p></td>
         <td><p>March 12, 2026</p></td>
         <td><p>April 16, 2026</p></td>
-    </tr>-->
+    </tr>
              </tbody>
         </table>   
 
@@ -296,6 +296,30 @@ This update is for both Mac and Windows.
 
 ## Announcements
 
+### Workfront Planning Trial is now available 
+
+[!BADGE Off schedule]{type=Neutral}
+
+>[!NOTE]
+>
+>* Preview and Production for everyone: March 2, 2026
+>* You must accept the Trial Agreement available in your environment before you can access the Planning Trial environment.
+>* You do not need to sign the Adobe AI Agent agreement to use the Planning Designer during the trial period. 
+
+The Workfront Planning Trial is now available for all Workfront customers. 
+
+The free trial offers Workfront customers a 60-day Prime license access to Workfront Planning, starting on March 2, 2026. The trial period ends on May 1, 2026. 
+
+The free Workfront Planning trial offers the following: 
+
+* A curated, multi-workspace Planning environment
+* Sample data to give you an idea where to start
+* In-product training and guidance
+* Clear indication of milestones during your setup which are tailored for specific roles.
+* The Planning Designer - an AI-powered assistant that can help you build the environment you want
+
+For more information, see [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md).
+
 ### API version 21
 
 Workfront API version 21 was released on October 23, 2025. For API version 21, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
@@ -304,7 +328,7 @@ Workfront API version 21 was released on October 23, 2025. For API version 21, w
 >
 >This API version change features a breaking change that may affect your existing API calls. This is due to the fact that API version 21 uses Event Subscriptions version 2.
 >
-> For multi-select fields, Event Subsscriptions version 2 always sends as an array. Version 1 sent an array if more than one value selected. If only one value was selected, it sent a string.
+> For multi-select fields, Event Subscriptions version 2 always sends as an array. Version 1 sent an array if more than one value selected. If only one value was selected, it sent a string.
 
 For information on what's new and updated, see [What's new in API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md).
 
