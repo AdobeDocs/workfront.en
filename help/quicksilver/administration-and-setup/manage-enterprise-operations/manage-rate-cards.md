@@ -205,20 +205,3 @@ See the article [Import rate cards from a template](/help/quicksilver/administra
    >
    >A rate card attached to a project will be deleted from the project.
 
-## Share a rate card
-
-You can share a rate card with users, job roles, groups, teams, companies, and business profiles.
-
-{{step-1-to-setup}}
-
-1. In the left panel, click [!UICONTROL **Rate cards**].
-1. Select the check box next to one or more rate cards in the list, and click the **Share** icon ![Share icon](assets/share-icon.png).
-1. In the box that displays, under [!UICONTROL **Grant rate card access to**], start typing the name of the entity you want to share the rate card with, then select it from the list of options.
-1. To adjust access, click the advanced options icon next to the permission level you've granted to configure specific permissions on the rate card.
-
-   ![Share rate card](assets/share-rate-card-options.png)
-
-1. Click [!UICONTROL **Save**].
-
-   For more information on sharing, see [Share an object](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-
