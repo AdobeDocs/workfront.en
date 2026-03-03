@@ -1,5 +1,5 @@
 ---
-title: Share a document
+title: Share a document on legacy Workfront storage
 content-type: reference
 product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
@@ -8,7 +8,7 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
 ---
-# Share a document
+# Share a document on legacy Workfront storage
 
 The Workfront administrator controls who can view or edit documents in the Access Levels area in Setup. For more information, see [Grant access to documents](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
@@ -17,10 +17,6 @@ Users can also share documents they've uploaded or have access to, giving others
 * Permissions apply to individual items and define what actions someone can take.
 * The person who uploads a document automatically gets full control (Manage permissions).
 * To share an entire folder, see [Share a document folder](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
-
->[!NOTE]
->
->If your Workfront instance uses Adobe enterprise storage, you cannot share individual documents. Instead, you grant access at the project level. Keep in mind that sharing the project can grants access to sensitive project information like finanicals depending on the level of permission chosen. 
 
 
 
@@ -59,7 +55,11 @@ For more detail about the information in this table, see [Access requirements in
 
 
 
-## Share a document
+## Share documents in the legacy documents area
+
+If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Share an individual document in the legacy documents area
 
 The user who uploads a document to Workfront has Manage permissions to it, by default.
 
@@ -106,7 +106,7 @@ The user who uploads a document to Workfront has Manage permissions to it, by de
 
 1. Click **Save**.
 
-## Share documents in bulk
+### Share documents in bulk in the legacy documents area
 
 {{step1-to-documents}}
 
@@ -139,21 +139,11 @@ The user who uploads a document to Workfront has Manage permissions to it, by de
 
 1. Click **Save**.
 
-## Document Sharing with Adobe enterprise storage
-
-Workfront is transitioning to the Adobe enterprise storage solution in order to provide greater connectivity with Adobe Creative Cloud products. Existing customers will be moved to the new model in phases. For more information about the benefits of Adobe enterprise storage, visit [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
-
-If your Workfront instance uses Adobe enterprise storage, you cannot share individual documents directly. Instead, you must grant access at the project level.
-
->[!IMPORTANT]
->
->Sharing a project may also give users access to sensitive project information, such as financials, depending on the permission level you choose.
->
->Be sure to review permission settings carefully before sharing.
-
-## Document permissions
+### Document permissions in the legacy document experience
 
 Permissions are specific to one item in Workfront and define what actions one can take on that item. For information about object permissions, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+
++++ Expand to view a detailed list of document permissions
 
 The following table displays what permissions you can grant users when allowing them to view or manage documents:
 
@@ -310,6 +300,24 @@ The following table displays what permissions you can grant users when allowing 
 &#42; Action is shared by both Documents and Document Folders.
 
 &#42;&#42; You must have a separate proofing license associated with your Workfront account to be able to proof documents. Contact your account manager about acquiring a proofing license. For more information about proofing in Workfront, see [Proofing](../../review-and-approve-work/proofing/proofing.md).
+
++++
+
+## Share documents in the new documents area
+
+If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Workfront is transitioning to the Adobe enterprise storage solution in order to provide greater connectivity with Adobe Creative Cloud products. Existing customers will be moved to the new model in phases. For more information about the benefits of Adobe enterprise storage, visit [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+If your Workfront instance uses Adobe enterprise storage, you cannot share individual documents directly. Instead, you must grant access at the project level.
+
+>[!IMPORTANT]
+>
+>Sharing a project may also give users access to sensitive project information, such as financials, depending on the permission level you choose.
+>
+>Be sure to review permission settings carefully before sharing.
+
+
 
 ## Considerations about sharing documents
 
