@@ -1455,8 +1455,10 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL Number of Children]</td> 
    <td> <p>In a [!UICONTROL Project] report, this is the number of children or subtasks that a task has. 
    <p><b>TIP</b></p>
-   You can add the <code>{numberOfChildren}</code> calculation to a calculated custom field on task custom form to show in a custom field the number of children of the task. For more information, see <a href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md">Add calculated fields to a form</a>. 
+   You can add the <code>{numberOfChildren}</code> calculation to a calculated custom field on task custom form to show in a custom field the number of children of the task. For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md">Add a calculated field to a form</a>. 
     </td> 
+
+    
   </tr> 
   <tr> 
    <td>[!UICONTROL Object]</td> 
