@@ -87,7 +87,7 @@ You can create up to 3 levels of subfolders within a shareable report folder. Su
 
 ## Share a report folder with other users
 
-When you share a folder with users, they inherit access to all subfolders in that folder tree. Users must also have access to each report, either through folder permissions or direct report sharing.
+When you share a folder with users, they inherit access to all subfolders in that folder tree.
 
 {{step1-to-reports}}
 
