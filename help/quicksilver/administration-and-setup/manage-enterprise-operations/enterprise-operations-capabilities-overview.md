@@ -39,14 +39,7 @@ Advanced enterprise permissions such as business profiles provide secure, scalab
 
 ## Custom form and field enhancements
 
-Enhancements to Workfront custom forms help you expand data customization and provide clearer insights and more automated, accurate project and financial management.
-
-These custom form and field enhancements include:
-
-* Advanced logic
-* Rollup fields
-* Internal lookup fields
-* Time-phased fields
+Enhancements to Workfront custom form logic help you expand data customization and provide clearer insights and more automated, accurate project and financial management.
 
 For more information, see the following articles:
 
