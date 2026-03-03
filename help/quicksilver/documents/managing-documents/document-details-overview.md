@@ -12,7 +12,7 @@ exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
 
 The Document Details page lets you view, communicate about, and manage the properties of a document attached to an Adobe Workfront object.
 
-## legacy documents area
+## Legacy documents area
 
 If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
