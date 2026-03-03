@@ -395,12 +395,23 @@ To add a grouping in the timeline view:
 1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 1. Click **Grouping** in the upper-right corner of the timeline view.
 
-    ![Grouping UI timeline view with linked fields](assets/grouping-ui-timeline-view-with-linked-fields.png)
+    <span class="preview">![Grouping UI timeline view with linked fields](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
 
 1. Click one of the suggested fields, or click **Choose a different field**, and search for a different field, then click it when it displays in the list. 
 
     The grouping is applied automatically to the timeline and records display inside the grouping box. 
-1. <span class="preview">(Optional) Click the **A -> Z** or **Z -> A** drop-down menu next to the name of the selected field to select an ascending or descending sorting order for the grouping. The groupings display in the alphabetical order you selected in the timeline view. </span>
+1. <span class="preview">(Optional and conditional) Depending on the field type you selected to group by, select one of the following sorting options to sort the groupings either in ascending or descending order:  </span>
+
+    <div class="preview">
+
+    * **A -> Z** or **Z -> A** for Select fields, Text fields, Paragraph fields, Connected records or objects, People fields
+    * **0 -> 9** or **9 -> 0** for Number, Currency, or Percentage fields. 
+    * **earliest -> latest** or **latest -> earliest** for Date fields
+
+    </div>
+    
+    <span class="preview"> The groupings in the timeline view are sorted accordingly. The records inside the groupings are sorted in the order of their **Start date** which is the default sorting. </span>
+
 1. (Optional) Repeat the above steps to add up to 3 groupings.
 
     The number of fields selected for the grouping displays next to the Grouping icon.
