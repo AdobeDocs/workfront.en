@@ -70,19 +70,16 @@ You can perform the following actions for documents from the Document Details pa
 <tr style="border: none;">
 <td style="border: none; width: 50%; padding-right: 20px;">
 <ul>
-<li>Request approval</li>
-<li>Download a document</li>
+<li>Open in Frame.io. <br>You must have a Frame.io enterprise license to use this feature.</li>
 <li>Delete a document</li>
-<li>Add a new version</li>
-<!--<li>Edit curretly incomplete ?</li>-->
+<li>Edit a document</li>
 </ul>
 </td>
 <td style="border: none; width: 50%; padding-left: 20px;">
 <ul>
 <li>Move a document</li>
+<li>Send a document to Experience Manager Access</li>
 <li>Share a document</li>
-<li>Rename a document</li>
-<li>Open in Frame.io. <br>You must have a Frame.io enterprise license to use this feature.</li>
 </ul>
 </td>
 </tr>
@@ -91,7 +88,7 @@ You can perform the following actions for documents from the Document Details pa
 ![Document details more menu icon](assets/more-menu-new-doc.png)
 
 
-### Open the Document Details page in the new documents area
+### Open the Document Details panel in the new documents area
 
 1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 1. Select the document, then click **View Details**.
