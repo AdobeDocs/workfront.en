@@ -1441,11 +1441,22 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL Note Text]</td> 
    <td> <p>This displays the text of an update entered by a user on any object. </p> </td> 
   </tr> 
+  
   <tr data-mc-conditions=""> 
+   
    <td>[!UICONTROL Number of Linked Goals]</td> 
    <td> <p>In a [!UICONTROL Project] report, this is the number of strategic goals that are associated with the project. For information about associating projects with strategic goals, see <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md">Add projects to goals in  [!DNL Adobe Workfront Goals]</a>.</p> 
    <p>For information about strategic goals, also see "[!UICONTROL Goal]" in this article.</p> 
    <p>This field is visible only if your organization has purchased [!DNL Workfront Goals]. For information about managing strategic goals using [!DNL Workfront Goals], see <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md">Add projects to goals in [!UICONTROL Adobe Workfront Goals]</a>. </p> </td> 
+  </tr> 
+
+  <tr> 
+   
+   <td>[!UICONTROL Number of Children]</td> 
+   <td> <p>In a [!UICONTROL Project] report, this is the number of children or subtasks that a task has. 
+   <p><b>TIP</b></p>
+   You can add the <code>{numberOfChildren}</code> calculation to a calculated custom field on task custom form to show in a custom field the number of children of the task. For more information, see <a href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md">Add calculated fields to a form</a>. 
+    </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Object]</td> 
