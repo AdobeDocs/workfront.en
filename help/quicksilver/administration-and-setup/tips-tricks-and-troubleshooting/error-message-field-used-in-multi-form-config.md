@@ -35,6 +35,15 @@ To resolve this conflict, you must find the object where the multiple forms with
 
 This article explains how to find the object and then resolve the problem in one of these three ways.
 
+>[!NOTE]
+>
+>If you see the error but cannot locate more than one object containing the custom field, check the Recycle Bin. It is possible that an object in the Recycle Bin contains the field. Because objects in the Recycle Bin can be restored at any time, the multiform conflict error will continue to occur until the conflict is resolved.
+>
+>To add a field with a different expression, you must resolve this conflict by doing one of the following:
+>
+>* Remove the field from the conflicting custom form
+>* Restore the deleted object, detach one of the conflicting custom forms, and then delete the object again if needed.
+
 ## Find the object where the custom forms are attached {#find-the-object-where-the-custom-forms-are-attached}
 
 {{step-1-to-setup}}

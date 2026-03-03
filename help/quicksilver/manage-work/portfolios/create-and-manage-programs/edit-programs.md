@@ -75,7 +75,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       1. (Optional) Click the **[!UICONTROL Collapse All]** icon in the upper-right corner to collapse all areas.
       1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![Right pointing arrow](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit.
       1. For information about the fields visible in the [!UICONTROL Program Details] section, continue with editing the program in the [!UICONTROL Edit Program] box as described below.
-      1. (Optional) If there are no custom forms attached to the program, start typing the name of a form in the **[!UICONTROL Add custom form]** field, select it when it displays in the list, then click&nbsp;**[!UICONTROL Save Changes]**.
+      1. (Optional) If there are no custom forms attached to the program, start typing the name of a form in the **[!UICONTROL Add custom form]** field, select it when it displays in the list, then click **[!UICONTROL Save Changes]**.
       1. (Optional) Click the **[!UICONTROL Export]** icon ![Export icon](assets/export.png) to export the [!UICONTROL Overview] and custom forms information to a PDF file, then click **[!UICONTROL Export]**. Select from the following:
 
          * Select all (displays only when there is at least one custom form attached)
@@ -106,13 +106,18 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    * [[!UICONTROL Custom Forms]](#Custom%C2%A0F)
    * [[!UICONTROL Comment]](#comment)
 
+
+    >[!TIP]
+    >
+    >To recalculate custom fields for several programs at a time, select multiple programs in a list, and click the **More** menu ![More menu](assets/more-icon.png) at the top of the list, then **Recalculate Expressions**.
+
 ### [!UICONTROL Overview] {#overview}
 
 1. Begin editing a program as described above.
 1. Click **[!UICONTROL Overview]** and specify the following fields:
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;note below drafted for now)</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: note below drafted for now)</p>
    -->
 
    <!--

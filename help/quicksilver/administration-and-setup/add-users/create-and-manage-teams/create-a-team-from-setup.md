@@ -85,7 +85,7 @@ For more detail about the information in this table, see [Access requirements in
      </tr> 
      <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
       <td role="rowheader">This is an Agile Team</td> 
-      <td>Select this item if you want to configure this new team to be an agile team. For more information about agile teams, see <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Create an agile team</a>.</td> 
+      <td>Select this item if you want to configure this new team to be an Agile team. For more information about Agile teams, see <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Create an Agile team</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Work On It</td> 

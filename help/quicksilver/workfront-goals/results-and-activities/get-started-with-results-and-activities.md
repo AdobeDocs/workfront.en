@@ -139,7 +139,7 @@ The following table displays similarities and differences between results, activ
    <td><b><p>Feature</p></b></td> 
    <td><b><p>Results</p></b></td> 
    <td><b><p>Activities</p></b></td> 
-   <td> <p><strong>Projects</strong> </p> <p>&nbsp;</p> </td> 
+   <td> <p><strong>Projects</strong> </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td><span style="font-weight: normal;">You can customize the object name in the Workfront interface</span> </td> 
@@ -161,8 +161,8 @@ The following table displays similarities and differences between results, activ
   </tr> 
   <tr> 
    <td>You can associate one of them with multiple goals.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
    <td>✔</td> 
   </tr> 
   <tr> 
@@ -175,13 +175,13 @@ The following table displays similarities and differences between results, activ
    <td>They must be manually updated in Workfront Goals</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>They are due to complete on the goal's End Date</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>They can be assigned only to a user, and not to a team, group, or the company. </td> 

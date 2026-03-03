@@ -64,7 +64,7 @@ Consider the following when requesting a project through a Business Case:
 
 {{step1-to-projects}}
 
-1. Click&nbsp;**New Project**, then select **Request Project** from the drop-down that appears. The project is created and the **Idea** status is assigned by default.
+1. Click **New Project**, then select **Request Project** from the drop-down that appears. The project is created and the **Idea** status is assigned by default.
 
    >[!CAUTION]
    >
@@ -79,7 +79,7 @@ Consider the following when requesting a project through a Business Case:
 
 1. (Conditional) If you selected to attach a template, continue attaching the template to the project.
 1. In the left panel, click **Business Case**. 
-1. (Optional) To edit the **Project Info** section, click **Edit Project Info**.&nbsp;
+1. (Optional) To edit the **Project Info** section, click **Edit Project Info**. 
 
    For more information about editing the **Project Info** section fields, see the section [Project Info](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
@@ -97,7 +97,7 @@ Consider the following when requesting a project through a Business Case:
    >
    >The information displayed here is the same as the information displayed in the system-level resource budgeting tools.
 
-1. (Optional)&nbsp;Click **Edit Risks** to add potential risks to this project. For information about adding risks to the Business Case, see the [Risks](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks) section in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md). 
+1. (Optional) Click **Edit Risks** to add potential risks to this project. For information about adding risks to the Business Case, see the [Risks](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks) section in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md). 
 1. (Optional) Select a **Scorecard** in the **Add a Scorecard to this Project** drop-down menu.
 
    Scorecards must be created before they can be attached to projects.
@@ -110,13 +110,13 @@ Consider the following when requesting a project through a Business Case:
 
    For more information about Custom Forms, see the article [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Click&nbsp;**Submit**. The project status is changed to **Requested** and it is submitted to have the Business Case approved.
+1. Click **Submit**. The project status is changed to **Requested** and it is submitted to have the Business Case approved.
  
    For more information about approving a Business Case, see the article [Approve a Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 
 >[!TIP]
 >
-> After completing the Business Case, you can export a copy of it to a .pdf file.&nbsp;For more information about exporting the Business Case to a .pdf file, see [Export the Business Case of a project](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md).
+> After completing the Business Case, you can export a copy of it to a .pdf file. For more information about exporting the Business Case to a .pdf file, see [Export the Business Case of a project](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md).
 
 

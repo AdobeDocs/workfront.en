@@ -11,8 +11,6 @@ exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
 ---
 # Customize user interface terminology using a layout template
 
-{{preview-fast-release-general}}
-
 As an Adobe Workfront administrator, you can use a layout template to change the labels of some objects that appear throughout Workfront to match terms used in your organization.
 
 After you save a layout template where you changed terminology, then log out of Workfront and back in again, the labels that you changed appear where the default labels would appear in most areas throughout Workfront:
@@ -133,17 +131,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >
    >After you click Done (and even after you save your layout template), you can always return to the Set Terminology settings and click Reset next to any custom terms to return them to their default state.
 
-1. <span class="preview">In the Preview environment: Continue customizing the layout template. You can click **Apply** at any time to save your progress.</span>
-
-   <span class="preview">Or</span>
-
-   <span class="preview">If you are finished customizing, click **Save and Close**.</span>
-
-1. In the Production environment: Continue customizing the layout template.
+1. Continue customizing the layout template. You can click **Apply** at any time to save your progress.
 
    Or
 
-   If you are finished customizing, click **Save**.
+   If you are finished customizing, click **Save and Close**.
 
 1. To see your terminology changes:
 

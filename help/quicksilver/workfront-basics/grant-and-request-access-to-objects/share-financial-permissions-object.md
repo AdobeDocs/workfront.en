@@ -35,7 +35,7 @@ For information about what users in each access level can do with financial data
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial&nbsp;Data</p> <p><b>NOTE</b>
+   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial  Data</p> <p><b>NOTE</b>
    
    If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
@@ -65,7 +65,7 @@ For information about what users in each access level can do with financial data
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial&nbsp;Data</p>  </td> 
+   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial  Data</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -111,7 +111,7 @@ To grant financial permissions to an object:
 
 ## Financial permission for all sharing levels
 
-The following table displays what financial permissions users gain when you grant them View, Contribute, or Manage permissions on objects:&nbsp;
+The following table displays what financial permissions users gain when you grant them View, Contribute, or Manage permissions on objects:  
 
 <table style="table-layout:auto"> 
  <col> 
@@ -130,26 +130,26 @@ The following table displays what financial permissions users gain when you gran
   <tr> 
    <td>Manage Billing Records</td> 
    <td>✓</td> 
-   <td> <p>&nbsp;</p> </td> 
-   <td>&nbsp;</td> 
+   <td> <p>  </p> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Manage/ View Role Billing and Cost Rates</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Manage/ View User Billing and Cost Rates</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>View Finance</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>&nbsp;✓</td> 
+   <td>  ✓</td> 
   </tr> 
   <tr> 
    <td>View information by Cost in the Resource Planning tools</td> 
@@ -160,8 +160,8 @@ The following table displays what financial permissions users gain when you gran
   <tr> 
    <td>Budget resources in the Resource Planning tools*</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>View resources in the Resource Planning tools*</td> 

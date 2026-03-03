@@ -37,7 +37,7 @@ A Workfront or group administrator determines whether Workfront uses today's dat
 
 
 
-## Locate Actual&nbsp;Completion&nbsp;Dates
+## Locate Actual Completion Dates
 
 The Actual Completion Date is located in the following areas of Workfront:
 

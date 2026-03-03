@@ -49,7 +49,14 @@ For more information about AI Assistant, see [AI Assistant overview](/help/quick
    <td><p>You must be a System administrator to manage Project Health configurations </p>
    <p>Edit access to projects to apply Project Health configurations </p>
      <p>View access to projects to view Project Health configurations </p>
+     <p>View access to Programs to use view Project Health for all the projects in a program</p>
   </td> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td><p>Manage permissions to projects to apply Project Health configurations </p>
+     <p>View permissions to projects to view Project Health configurations </p>
+  </td> 
+  </tr> 
   </tr>  
     </tr>  
 </tbody> 
@@ -60,16 +67,16 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Enroll in the Project Health beta 
 
-In order to utilize Project Health, your organization must have AI Assistant enabled.  
+Your organization must have AI Assistant enabled to be able to use Project Health. 
 
 To enable AI Assistant and Project Health for your organization, all of the following must apply: 
 
-* Your organization must have migrated to Adobe IMS (Identity Management System). 
-* Your organization must have a Select, Prime, or Ultimate Workfront plan
+* Your organization must have migrated to the Adobe Identity Management System (IMS). 
+* Your organization must have a Workfront or Workflow Select, Prime, or Ultimate package.
 * The Adobe Unified Experience must be enabled. 
 * Adobe must have a signed Adobe Gen AI agreement on file.
-* The Workfront administrator must enable AI Assistant for users in your organization. AI Assistant is enabled through access levels. 
-* Both the Enable AI and Project Health options must be selected in the AI preferences section at Setup > System > Preferences.
+* The Workfront administrator must enable the AI Assistant for users in your organization. AI Assistant is enabled through access levels. 
+* Both the Enable AI and Project Health options must be selected in the AI preferences section of the System Preferences area in Setup. 
 
     ![AI Preferences section](assets/ai-preferences.png)
 
@@ -121,9 +128,12 @@ Project conditions and Project Health are similar concepts in Workfront and have
  
 Project conditions give a basic snapshot on how a project is currently performing based only on the planned, projected, and estimated dates. It can be set manually by the project owner or automatically by Workfront based on the project's tasks. Alternatively, Project Health is more comprehensive and assesses additional factors, giving you a higher-level understanding of how it's performing.
 
-For more on Project conditions, see [Custom conditions](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md). 
+For more on Project conditions, see the following articles: 
 
-## Project and program states list 
+* [Update Condition for a project](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
+* [Custom conditions](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md). 
+
+## Project and program Project Health states list 
 
 The table below contains a breakdown of the available states AI Assistant will assign your project or program when generating a Project Health assessment. 
 
@@ -178,7 +188,7 @@ The table below contains a breakdown of the available states AI Assistant will a
 
 ## AI Assistant prompts list 
 
-Below is a list of prompts you can use to ask AI Assessment to generate a Project Health assessment for a project, program, or all projects in your account.  
+Below is a list of prompts you can use to ask the AI Assistant to generate a Project Health assessment for a project, program, or all projects you have access to view.  
 
    <table>
     <tr>
@@ -209,19 +219,21 @@ Below is a list of prompts you can use to ask AI Assessment to generate a Projec
 
 ## Manage Project Health configurations 
 
-A project health configuration contains specific criteria that determines how your project health is calculated. After a configuration is created, you can then apply it to a project.  
+You must be a System Administrator to manage Project Health configurations.
 
->[!NOTE]
->
->You must be a System Administrator to manage Project Health configurations.  
+A project health configuration contains specific criteria that determines how your project health is calculated. After the Workfront administrator create a configuration, you can then apply it to a project.  
+
+You can have multiple Project Health configurations in your system. 
 
 {{step-1-to-setup}}
 
-1. Click **Project Preferences** in the left panel, then select **Project Health** in the drop-down that appears.  
+1. Click **Project Preferences** in the left panel, then select **Project Health**.  
 
-1. In the upper-right corner of the page, select **New Configuration**. 
+1. In the upper-right corner of the page, click **New Configuration**. 
 
-1. (Optional) On the configurations details page, replace *Untitled Configuration* with a new configuration **Name**. 
+    The **AI Settings** page opens. 
+
+1. (Optional) Click inside the **Untitled Configuration** title to rename the configuration. 
 
 1. In the **What factors would you like to include in project health** section, deselect any factor you don't want included when determining your project health criteria: 
     * **Scope creep**: How much the project scope has expanded since it started. 
@@ -243,45 +255,48 @@ A project health configuration contains specific criteria that determines how yo
 
 1. In the **How do you estimate the scope of work on a project?** section, select which project factor will increase as the project scope increases. 
 
-1. In the **Which fields do you want to check for completeness?** section, select one or more fields that will be checked to determine project completeness. 
+1. In the **Which do you want to check for required fields?** section, select one or more fields that must contain a value for the project. 
 
-    ![Project completeness fields](assets/project-completeness-fields.png)  
+    ![Project required fields for project health](assets/project-completeness-fields.png) 
 
+1. Click **Add** to more native or custom project or task fields. 
 
 1. Click **Save** in the upper-right corner.
 
 ## Apply Project Health configurations 
 
-Once an administrator has created a Project Health configuration, users with Edit access can apply it to a project.  
-
+After the Workfront administrator has created a Project Health configuration, you can apply it to a project, if you have  Manage permissions to a project.  
 
 {{step1-to-projects}} 
 
 1. On the **Projects** page, select a project.  
 
-1. Click the **More** icon ![More icon](assets/more-icon.png) to the right of the project name, then select **Edit**. The **Edit Project** side panel opens. 
+1. Click the **More** icon ![More icon](assets/more-icon.png) to the right of the project name, then select **Edit**. The **Edit Project** box opens. 
 
-1. In the left panel, select **Project Settings**.  
+1. In the left panel, click **Project Settings**.  
 
 1. In the **Project Health Configuration** field, select the configuration you want to apply to this project. 
 
     ![Project Health configuration field](assets/project-health-configurations.png)
 
-1. Click **Save** in the lower-left corner of the panel.
+1. Click **Save** in the lower-left corner of the page.
 
 ## Generate a Project Health assessment for a project or program
 
-If you have View access for a project or program, you can generate its Project Health assessment using AI assistant.  
+You can generate a Project Health assessment from the AI Assistant in the following areas: 
 
-If you're generating an assessment for a project, this can be done either from the project page, or by referencing the project name when you ask the assistant how the project is performing.  
+* For a project, you can generate the assessment either from the project page, or by referencing the project name when you ask the assistant how a specific project is performing.  
 
-If you're generating an assessment for a program, you can do so from the program details page.  
+* For a program, you can generate the assessment the program's Details page.  
 
 >[!NOTE]
 >
->A Project Health assessment can't be generated for a project until the project has started. You can configure which event triggers a project to begin in project settings.  
+>* You need View permissions to the project or the program to generate an assessment.  
+>* A Project Health assessment can't be generated for a project until the project has started. You can configure which event triggers a project to begin in Project Preferences
 
-For more information, see the following section in this article: [Manage project health configurations](#manage-project-health-configurations).
+For more information, see the [Manage project health configurations](#manage-project-health-configurations) section in this article.
+
+To generate a Project Health assessment for a project or program: 
 
 1. Navigate to the project or program you want to generate a Project Health assessment for. 
 
@@ -296,17 +311,17 @@ For more information, see the following section in this article: [Manage project
     >[!NOTE]
     >
     >If you're accessing AI Assistant from a different page in Workfront, you can type *What's the health of project [PROJECT NAME]?* or *What's the health of program [PROGRAM NAME]?* <br>
-    >For a full list of the current prompts you can enter, see the following section in this article: [AI Assistant prompts list](#ai-assistant-prompts-list). 
+    >For a full list of the current prompts you can enter, see the section [AI Assistant prompts list](#ai-assistant-prompts-list) in this article. 
 
-1. Click the **Send** icon ![Send icon](assets/send-icon.png). The Project Health assessment generates and appears in the panel. A badge appears at the top of each Project Health assessment, which reflects the project's current condition.  
+1. Click the **Send** icon ![Send icon](assets/send-icon.png). The Project Health assessment generates and it displays in the panel. A badge displays at the top of each Project Health assessment, which reflects the project's current condition.  
 
     ![Project health assessment](assets/health-assessment.png)
 
-    If you're generating an assessment for a portfolio, multiple badges will be listed showing the condition of each project in the program. For more information on the badge labels, see the following section in this article: [Project and program states list](#project-and-program-states-list). 
+    If you're generating an assessment for a program, multiple badges will be listed showing the condition of each project in the program. For more information on the badge labels, see the section [Project and program states list](#project-and-program-states-list) in this article. 
 
 1. (Optional) Click one of the assessment points to expand its details. 
 
-1. (Optional) In the expanded details mode, click the task link to open the task details. 
+1. (Optional) In the expanded details mode, click the project link to open the project's details. 
 
     ![Expanded details](assets/expanded-details.png)
   
@@ -314,9 +329,9 @@ For more information, see the following section in this article: [Manage project
 
 ## Generate a Project Health assessment for multiple projects
 
-You can generate a combined Project Health assessment for all the projects you currently have View access (or higher) for. 
+You can generate a combined Project Health assessment for all the projects for which you currently have View permissions or higher. 
 
-A project will only be included in the combined Project Health assessment if the project has started. You can configure which event triggers a project to begin in project settings. For more information, see the following section in this article: [Manage project health configurations](#manage-project-health-configurations). 
+A project will only be included in the combined Project Health assessment if the project has started. You can configure which event triggers a project to begin in project settings. For more information, see the section [Manage project health configurations](#manage-project-health-configurations) in this article. 
  
 1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) in the upper-right corner of the screen. AI Assistant opens.  
 

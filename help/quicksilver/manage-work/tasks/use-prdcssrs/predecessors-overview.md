@@ -134,4 +134,4 @@ You can view predecessor information in the following areas of Workfront. This i
 
 * In the task header when accessing the task.
 
-  ![](assets/qs-predecessor-info-in-task-header-350x141.png)
+  ![Predecessor info in task header](assets/qs-predecessor-info-in-task-header-350x141.png)

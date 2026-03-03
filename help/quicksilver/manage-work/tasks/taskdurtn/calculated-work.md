@@ -74,7 +74,7 @@ In the following example, the Typical Hours per Work Day is set to 8 in the Proj
 
 In this case, each assignee is 100% allocated to the Calculated Work task.
 
-![](assets/calcwork-350x71.png)
+![Calculated work duration type](assets/calcwork-350x71.png)
 
 ## Change the Duration Type of a task to Calculated Work
 

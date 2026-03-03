@@ -21,7 +21,7 @@ Calculated Assignment is a Duration Type that you can set for a task in Adobe Wo
 -->
 
 * When you use a Calculated Assignment Duration Type, you must specify both a Duration and a number of Planned Hours for the task. Workfront then divides the amount of Planned Hours by the amount of hours in the Duration, then by the number of resources assigned to the task to calculate the allocation percentage (calculates the assignment) for each resource. Each resource will equally have the same value for their allocation percentage. In this case, you can't modify the allocation values for each resource.
-* Your Workfront or a group administrator can set the default Duration&nbsp;Type of your system or group as Calculated Assignment.&nbsp;In this case, all new tasks will be created with this Duration Type. For information about changing your task and issue preferences as part of your system-level or group-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Your Workfront or a group administrator can set the default Duration Type of your system or group as Calculated Assignment. In this case, all new tasks will be created with this Duration Type. For information about changing your task and issue preferences as part of your system-level or group-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   In this case, the task has a default of a one-day Duration and a default of 0 hours of Planned Hours. Unless the project manager sets a more accurate Duration and populates the Planned Hours field with a realistic estimate, then resources appear underallocated.
 
@@ -40,7 +40,7 @@ Planned Hours / Duration / Number of Resources = Allocation Percentage for each 
 
 For example, in the scenario outlined below, each task has a Duration of 3 days. The project manager manually enters both the Duration (3 days or 24 hours) and Planned Hours, and as a result, the allocation percentage (or assignment percentage) is calculated:
 
-![](assets/calcassign-350x80.png)
+![Calculated assignment duration type](assets/calcassign-350x80.png)
 
 ## Change the Duration Type of a task to Calculated Assignment
 

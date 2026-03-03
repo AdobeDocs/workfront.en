@@ -93,48 +93,90 @@ There are many configuration options available for building a chart report. In t
         >[!NOTE]
         >
         >There is a maximum number of 60 series that can be displayed in a chart. When this box is checked, any series above the limit are consolidated into an **Other** grouping in the chart.  
+1. Choose which type of chart you want to create:
+    * [Bar, column, or line chart](#bar-column-or-line-chart)
+    * [Pie chart](#pie-chart)
 
-1. Follow the steps below to configure the **Build chart** section: 
+### Bar, column, or line chart
 
-    1. In the left panel, click the **Build chart** ![Build chart icon](assets/build-chart-icon.png) icon.  
+>[!NOTE]
+>
+>There may additional fields depending on the field type you select. The options outlined below are standard for all field types.
 
-    1. In the **Chart type** drop-down, select the type of chart you want to create: 
 
-        * **Bar**
-        * **Column** 
-        * **Line** 
-        * **Pie** 
+1. In the left panel, click the **Build chart** ![Build chart icon](assets/build-chart-icon.png) icon.  
 
-    1. In the **Column type** drop-down, select the column type: 
-        * **Simple**
-        * **Multi-series**
-        * **Stacked**
+1. In the **Chart type** drop-down, select **Bar**, **Column**, or **Line**. 
+1. In the second drop-down menu, select the bar, column, or line type: 
+    * **Simple**
+    * **Multi-series**
+    * **Stacked**
 
-    1. Select the **Update field** button in the first section, then locate and select the field that contains the data that will be summarized in the chart.
-    1. In the **Aggregation type** drop-down, select how the data rolls up to produce the chart output.
+1. In the **Bottom (X) axis** section, select the **Update field**, then locate and select the field that contains the data that will be summarized in the chart.
+1. In the **Aggregation type** drop-down, select how the data rolls up to produce the chart output.
+1. (Optional) Add an axis label in the space provided.
+1. (Optional) Toggle **Hide axis** on.
+1. (Optional) Input a **Reference line value** to set a target or threshold on the chart.
+1. Choose a **Line type** from the drop-down menu. 
+1. Select the **Update field** button under the second section, then locate and select the second field you want to display in the chart. 
 
-    1. Select the **Update field** button under the second section, then locate and select the second field you want to display in the chart. 
 
-1. Follow the steps below to configure the  **Filter** section: 
+### Pie chart
 
-    1. In the left panel, click the  **Filter**![Filter icon](assets/filter-icon.png) icon.
-    1. Select **Edit filter**. 
-    1. Click **Add condition** and then specify the field you want to filter by and the modifier that defines what kind of condition the field must meet.  
-    1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR. 
+>[!NOTE]
+>
+>There may additional fields depending on the field type you select. The options outlined below are standard for all field types.
 
-1. Follow the steps below to configure the **Drilldown Column Settings** section: 
 
-    1. In the left panel, click the **Drilldown Columns** ![Drilldown columns icon](assets/drilldown-column.png) icon. The fields from your chart automatically appear as columns in the preview section on the right.  
+1. In the left panel, click the **Build chart** ![Build chart icon](assets/build-chart-icon.png) icon.  
 
-    1. (Optional) To update any of the existing column configurations, select the column you want to update in the **Current columns** section and then update the desired information (e.g. label, linked status, and conditions). 
+1. In the **Chart type** drop-down, select **Bar**. 
+1. In the **Metric** section, select the **Update field**, then locate and select the field that contains the data that will be summarized in the chart.
+1. In the **Aggregation type** drop-down, select how the data rolls up to produce the chart output.
+1. In the **Segment** section, select the **Update field**, then locate and select the field that contains the segments you want to display in the pie chart.
+1. (Optional) In the **Pie** section, toggle **Show segment labels** on to display segment labels.
+1. (Optional) Toggle **Show total** on to display the total in the middle of the chart. When enabled, there are additional options to show a center label and choose the value format.
+    
+>[!NOTE]
+>
+>Aggregation types display as follows:
+>
+>* Count aggregation types: The center value displayed is a count of all segments of the chart. 
+>* Sum aggregation types: The center value displayed is the aggregated total of the numeric or currency value. 
+>* Average, max, and min aggregation types: The center value displays the average, maximum, or minimum value accordingly. 
 
-    1. Click **Add column** and then select the field you want to display as a column in the table. Repeat this process for each column you want to add.  
+1. (Optional) In the Legend section, toggle **Show legend** on to display the chart legend.
 
-1. Follow the steps below to configure the **Drilldown Group Settings** section: 
+1. (Optional) Choose a **Legend position** from the drop-down menu.
 
-    1. In the left panel, click the **Group Settings** ![Group Settings](assets/drilldown-group-icon.png) icon. 
+## Configure additional chart report settings
 
-    1. Click the **Add grouping** button and then select the field you want to create as a grouping.  
+### Filters
+
+Follow the steps below to configure the  **Filter** section: 
+
+1. In the left panel, click the  **Filter**![Filter icon](assets/filter-icon.png) icon.
+1. Select **Edit filter**. 
+1. Click **Add condition** and then specify the field you want to filter by and the modifier that defines what kind of condition the field must meet.  
+1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR. 
+
+### Drilldown settings
+
+Follow the steps below to configure the **Drilldown Column Settings** section: 
+
+1. In the left panel, click the **Drilldown Columns** ![Drilldown columns icon](assets/drilldown-column.png) icon. The fields from your chart automatically appear as columns in the preview section on the right.  
+
+1. (Optional) To update any of the existing column configurations, select the column you want to update in the **Current columns** section and then update the desired information (e.g. label, linked status, and conditions). 
+
+1. Click **Add column** and then select the field you want to display as a column in the table. Repeat this process for each column you want to add.  
+
+### Drilldown group settings
+
+Follow the steps below to configure the **Drilldown Group Settings** section: 
+
+1. In the left panel, click the **Group Settings** ![Group Settings](assets/drilldown-group-icon.png) icon. 
+
+1. Click the **Add grouping** button and then select the field you want to create as a grouping.  
 
 1. Click **Save** to create the report and add it to the dashboard. 
  
@@ -233,6 +275,16 @@ In this section, we will go over the steps to create a column chart that display
 1. Click **Save** to create the report and add it to the dashboard.
 
 ## Considerations when building a chart report
+
+### Reports with financial data
+
+Users with View or Edit access to Financial Data in their access level will still see financial data in Canvas Dashboard visualizations—even if the View finance permission is removed at the task or project level.
+
+* Users without financial data rights at the access level will not see financial data in reports.
+* Users who do see financial data are limited to records they already have permission to view (projects, tasks, issues, etc.). They will not see financial values for records they cannot access.
+* Report creators should exercise caution when including financial data in dashboards and be mindful of who they share dashboards with to prevent unintended access.
+
+This is a known limit, and we plan to address it as quickly as possible.
 
 ### Utilizing the field selector
 

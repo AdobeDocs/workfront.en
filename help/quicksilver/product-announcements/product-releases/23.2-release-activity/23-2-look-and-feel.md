@@ -38,7 +38,7 @@ Additional user information now displays when you add users in the following are
 
 * Global search for users
 * Log In As page (this page also now has a modern look and feel, in line with other areas of Workfront)
-* New subtask form on an agile iteration story board
+* New subtask form on an Agile iteration story board
 * Edit iteration dialog
 * Create team dialog
 * Edit team page

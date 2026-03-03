@@ -98,7 +98,7 @@ This example demonstrates how to call the Workfront API and populate a list of p
 
 ### Use custom field values in the External lookup
 
-This example shows you to call the Workfront API and bring data from a custom field into your External lookup field. The example custom field is called "Custom Colors."
+This example shows you how to call the Workfront API and bring data from a custom field into your External lookup field. The example custom field is called "Custom Colors."
 
 1. Open the custom form.
 1. On the left side of the screen, find **External lookup** and drag it to a section on the canvas.

@@ -45,7 +45,7 @@ For information about including flags in task reports, see [Glossary of Adobe Wo
 
 ## Edit Fields Directly on an Agile Story Card {#edit-fields-directly-on-an-agile-story-card}
 
-When viewing the agile story board for an agile team, you can now edit fields inline, directly on the story card. You can edit any fields that you have access to edit when viewing the original task or issue.
+When viewing the Agile story board for an Agile team, you can now edit fields inline, directly on the story card. You can edit any fields that you have access to edit when viewing the original task or issue.
 
 Prior to this change, information on the story card could only be viewed, not edited.
 

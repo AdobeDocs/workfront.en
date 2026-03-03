@@ -52,6 +52,8 @@ For more detail about the information in this table, see [Access requirements in
 
 For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
++++
+
 ## Triggering Event
 
 This scenario is scheduled to execute every 15 minutes.

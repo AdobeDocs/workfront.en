@@ -1,5 +1,5 @@
 ---
-title: List Your Users' Access Levels and Licenses
+title: List Your Users' Access Levels and Licenses (Legacy)
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -11,7 +11,11 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
 ---
-# List your users' access levels and licenses
+# List your users' access levels and licenses (Legacy)
+
+>[!NOTE]
+>
+>The information in this article refers to the legacy access levels. For information about the current access levels, see [New access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 You can see which access level and license is assigned to each user in a user list or report.
 

@@ -117,7 +117,7 @@ The 23.1 release webinar was held on Tuesday, January 10, 2023. You can [registe
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Scrum planning for Workfront Boards</a><span style="color: #ff0000;"> Coming soon!</span></p>
-                        <p>The new Scrum planning features in Adobe Workfront Boards offer flexible options to manage your agile processes. Using these tools, you can:
+                        <p>The new Scrum planning features in Adobe Workfront Boards offer flexible options to manage your Agile processes. Using these tools, you can:
                         <ul>
                         <li>Track work in iterations or sprints</li>
                         <li>Use velocity to guide team commitments</li>

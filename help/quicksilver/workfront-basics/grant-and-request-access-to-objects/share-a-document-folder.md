@@ -88,13 +88,13 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Share a folder
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Documents**.
+{{step1-to-documents}}
 
    Or
 
    With a Workfront object open, click **Documents** in the left panel. 
 
-1. Select the folder, then click the Share icon ![](assets/share-icon.png) in the toolbar.
+1. Select the folder, then click the Share icon ![Share icon](assets/share-icon.png) in the toolbar.
 
    The folder must be in the top five levels of a folder hierarchy on an object, and cannot be a smart folder.
 
@@ -126,14 +126,14 @@ For more detail about the information in this table, see [Access requirements in
    </table>
 
 1. (Optional) Repeat Steps 3-4 to add other names to the list and configure their options.
-1. (Optional) If you want everyone in the system to be able to view the folder and its contents, click the gear icon ![](assets/gear-icon-settings-with-dn-arrow.jpg) in the upper right corner of the sharing box, then click **Make this visible system-wide.**
+1. (Optional) If you want everyone in the system to be able to view the folder and its contents, click the gear icon ![Gear icon settings with down arrow](assets/gear-icon-settings-with-dn-arrow.jpg) in the upper right corner of the sharing box, then click **Make this visible system-wide.**
 
    If you change your mind, you can, click **Remove system-wide access** (the default option).
 
 ## How users access the contents of a folder shared with them
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story &nbsp;<a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story   <a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
 -->
 
 Currently, when you share a folder, your recipients don't see the folder in their Documents area. However, they can access its documents by running a document report.

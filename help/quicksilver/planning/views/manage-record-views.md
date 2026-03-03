@@ -20,7 +20,11 @@ exl-id: 77342724-0182-4134-903b-4428d54cdceb
 
 {{planning-important-intro}}
 
-After selecting a record type in Adobe Workfront Planning area, you can display all the records of that type in the following views: 
+After selecting a record type in Adobe Workfront Planning area, you can display all the records of that type in various ways. 
+
+You can view records in views of several formats that give you the flexibility to explore and understand information in the way that works best for you. Whether you want a structured overview, a chronological story, a date‑based layout, or a simple scrollable list, each view offers a unique perspective. 
+
+You can view records in the following views: 
 
 * Table
     
@@ -33,6 +37,19 @@ After selecting a record type in Adobe Workfront Planning area, you can display 
 * Calendar 
 
     For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+
+* List 
+
+    You can view records in a Connected record page in a list view. 
+
+    >[!IMPORTANT]
+    >
+    >You cannot apply a list view to a list of records on a record type page. You can only apply a list view in a Connected record page of a record to a list of connected projects. <!--this will change-->
+
+    For more information, see the following articles: 
+
+    * [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
+    * [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md)
 
 This article describes the following information about record views:
 
@@ -186,34 +203,42 @@ The following table shows the similarities and differences between the table, ti
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Feature                                                               | Table view | Timeline view | Calendar view|
-|-----------------------------------------------------------------------|------------|---------------|--------------|
-| Display records in a list or table                                    |    ✓          |              | |
-| Display all fields as columns in the table, by default |     ✓       |              |    |
-| Hide or show fields (or columns)       | ✓          |               |    |
-| Edit field values for each record                           | ✓          |               |             |
-| Add records as new rows in the view                                               | ✓          |               |        |
-| Add fields as new columns in the view                                               | ✓          |               |         |
-| Copy rows from an external list and paste them in a table             | ✓          |               |          |
-| Display records in a timeline        |            |      ✓        |             | 
-| Filter records            |     ✓     |✓             |    ✓       |
-| Display records on a calendar                               |           |              |        ✓|
-| Group records                                      |      ✓     | ✓             ||
-| Sort records                                       | ✓          |              ||
-| Color-code records                    | ✓         | ✓              |          ✓     |
-| Color-code groupings                     |           | ✓              ||
-| Search for specific records                     |  ✓         | ✓              ||
-| Share the view with others                     |  ✓         | ✓              |       ✓     |
-| Open the record's page from the view                    |  ✓         | ✓              |    |
-| Display records by year and quarter                    |           | ✓              |    |
-| Display records by month                    |           | ✓              |  ✓  |
-| Display records by week                    |           |               |  ✓  |
-|Export information from a view                   | ✓         |               |    |
-|Display in full screen                  | ✓         |   ✓            | ✓   |
-|Create records in the view                  | ✓         |   ✓            | ✓   |
-|Break records down by their connections                  |          |   ✓            |    |
+| Feature                                                               | Table view | Timeline view | Calendar view|List view|
+|-----------------------------------------------------------------------|------------|---------------|--------------|---------|
+| Display records in a table format                                    |    ✓          |              | |✓|
+| Display all fields as columns in a table or list |     ✓       |              |    |✓|
+| Hide or show fields (or columns)       | ✓          |               |    |✓|
+| Edit field values for each record                           | ✓          |               |             |✓|
+| Add records as new rows in the view                                               | ✓          |               |        |✓|
+| Add fields as new columns in the view                                               | ✓          |               |         |✓|
+| Copy rows from an external list and paste them in a table             | ✓          |               |          |✓|
+| Display records in a timeline        |            |      ✓        |             ||
+| Filter records            |     ✓     |✓             |    ✓       |✓|
+| Display records on a calendar                               |           |              |        ✓||
+| Group records                                      |      ✓     | ✓             |||
+| Sort records                                       | ✓          |              ||✓|
+| Color-code records                    | ✓         | ✓              |          ✓     ||
+| Color-code groupings                     |           | ✓              |||
+| Search for specific records                     |  ✓         | ✓              ||✓|
+| Share the view with others                     |  ✓         | ✓              |       ✓     |✓|
+| Open the record's page from the view                    |  ✓         | ✓              |    |✓|
+| Display records by year and quarter                    |           | ✓              |    ||
+| Display records by month                    |           | ✓              |  ✓  ||
+| Display records by week                    |           |               |  ✓  ||
+|Export information from a view                   | ✓         |               |    ||
+|Display in full screen                  | ✓         |   ✓            | ✓   ||
+|Create records in the view                  | ✓         |   ✓            | ✓   |✓|
+|Break records down by their connections                  |          |   ✓            |    ||
 
 ## Create or edit views {#create-or-edit-views}
+
+The information in this section applies to the following view types:
+
+* Table
+* Timeline
+* Calendar
+
+For information about list views, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md). 
 
 {{step1-to-planning}} 
     
@@ -297,6 +322,10 @@ The following table shows the similarities and differences between the table, ti
 ## Enable the real-time presence indicator in a view
 
 You can see if other users are editing records at the same time as you by following the real-time presence indicators in the view. 
+
+>[!NOTE]
+>
+>You cannot view real-time presence indicators in a list view.
 
 The avatars of other users who are editing record information at the same time as you display in the upper-right corner of all record views, by default.
 

@@ -143,7 +143,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Iteration functionality available in Adobe Workfront Boards</a></p>
-                        <p>Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
+                        <p>Several new features available in Workfront Boards make it possible to use Agile Scrum functionality. These features include:
                         <ul>
                         <li>Workstreams for grouping boards related to the same team, and collaborating on work</li>
                         <li>A list of cards, or backlog of work, with the option to use sources to connect cards to Workfront tasks and issues</li>

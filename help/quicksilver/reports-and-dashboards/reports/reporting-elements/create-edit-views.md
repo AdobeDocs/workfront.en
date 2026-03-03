@@ -13,7 +13,9 @@ exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
 
 You can customize the type of information you display on the screen using views. You can use several types of views in Adobe Workfront.
 
-This article describes how to create and edit standard views for lists and reports, and how to create Agile views. For more information, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+This article describes how to create and edit standard views for lists and reports. 
+
+For more information, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Access requirements
 
@@ -52,10 +54,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Create or customize a view
 
-The process for creating or customizing a view differs depending on whether you are creating or customizing a standard view or an agile view.
-
-* [Create or customize a standard view](#create-or-customize-a-standard-view) 
-* [Create or customize an Agile view](#create-or-customize-an-agile-view)
+The process for creating or customizing a view differs depending on whether you are creating or customizing a standard view or a Board view.
 
 ### Create or customize a standard view {#create-or-customize-a-standard-view}
 
@@ -153,15 +152,17 @@ You can create a new standard view, or you can customize an existing standard vi
 
    Your access dictates how the view is saved. If you created the view originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the view impact users with whom the view has been shared.
 
-### Create or customize an Agile view {#create-or-customize-an-agile-view}
+### Create or customize a Board view {#create-or-customize-an-agile-view}
 
-You can create an Agile view or customize an existing Agile view that you previously created.
+You can manage projects following an Agile methodology using a Board view. 
 
->[!IMPORTANT]
->
->Agile views are available only when viewing a project.
+Board views are available only for lists of tasks and issues on a project. 
 
-For more information about Agile views, see the article [Manage a project in the Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+They are preconfigured, but you can modify certain settings for them. 
+
+For more information about Agile or Board views, see the article [Manage an Agile project in the Board view](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+
+<!-- Legacy Agile views were deprecated with 25.3. This is old: 
 
 >[!NOTE]
 >
@@ -187,9 +188,9 @@ To create or customize an Agile view:
    We recommend that you include the word "Agile" in your view name, so users know this is an Agile view.  
    This name is displayed in the **View** drop-down menu when selecting a view.
 
-1. Define the status columns to display on the story board in the agile view. These are the task statuses that are defined by the Workfront administrator, as described in [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+1. Define the status columns to display on the story board in the Agile view. These are the task statuses that are defined by the Workfront administrator, as described in [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-   Only system statuses are available to use on the Agile story board. If a status is available only for an individual group you are a member of, the status is not available on the agile story board. Furthermore, tasks that are in a status that is available only to a custom group are not visible when viewing the project in an Agile view.
+   Only system statuses are available to use on the Agile story board. If a status is available only for an individual group you are a member of, the status is not available on the Agile story board. Furthermore, tasks that are in a status that is available only to a custom group are not visible when viewing the project in an Agile view.
 
    Users can move stories among these status columns on the Agile story board.  
    When defining status columns, you can do the following:
@@ -213,9 +214,8 @@ To create or customize an Agile view:
     </tbody> 
    </table>
 
-   <!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
-       -->
+   *********   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
+       *************
 
 1. In the **Associate Card Color to** area, select from the following options:
 
@@ -255,7 +255,7 @@ To create or customize an Agile view:
 
    * Story name with a link directly to the task
    * The project name with a link directly to the project  
-     This link is displayed only when using the agile view on an iteration; it is not displayed when using an Agile view on a project.
+     This link is displayed only when using the Agile view on an iteration; it is not displayed when using an Agile view on a project.
    * The task description
    * Current commitment
    * View and edit the percent complete either by adjusting the percent complete itself or by adjusting the number of points or hours that are complete
@@ -267,3 +267,5 @@ To create or customize an Agile view:
    Your access dictates how the view is saved. If you created the view originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the view impact users with whom the view has been shared.
 
 1. (Optional) Click the **List** icon to return to the list of tasks.
+
+-->

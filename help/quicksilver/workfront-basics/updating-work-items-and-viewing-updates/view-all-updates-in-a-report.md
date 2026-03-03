@@ -100,16 +100,16 @@ For example, to create a Note report for all the notes on a project:
 
 {{step1-to-reports}}
 
-1. In the upper-left corner of the page, click **New Report**, then select&nbsp;**Note**.
+1. In the upper-left corner of the page, click **New Report**, then select  **Note**.
 
-1. (Optional) Click **(Columns) View**, then **Add Column** to add the **Name** of the **Project** in the view of the report.&nbsp;
+1. (Optional) Click **(Columns) View**, then **Add Column** to add the **Name** of the **Project** in the view of the report.  
 
-1. (Optional) If you are reporting on multiple projects at the same time, click **Groupings**, then **Add Grouping** to group by the **Name** of the **Project**. This ensures that the notes are grouped by their respective projects, making the report easier to read.&nbsp;
+1. (Optional) If you are reporting on multiple projects at the same time, click **Groupings**, then **Add Grouping** to group by the **Name** of the **Project**. This ensures that the notes are grouped by their respective projects, making the report easier to read.  
 
 1. (Optional) Click **Filters**, then **Add a Filter Rule**.
 1. Add a filter for **Note** > **Note Text** > **Is Not Blank**.
 
-   ![](assets/note-note-text-not-blank-filter.png)
+   ![Note note text field not blank filter](assets/note-note-text-not-blank-filter.png)
 
    >[!TIP]
    >

@@ -15,8 +15,6 @@ You can mark a task or issue as Done if you are the task or issue assignee. When
 >
 >You do not see the [!UICONTROL Done] button unless you are one of the resources assigned to the task or the issue.
 
-+++ Expand to view access requirements for the functionality in this article.
-
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article. 

@@ -1,32 +1,33 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Locate Submitted Requests
-description: Learn about the areas of Adobe Workfront where you can locate requests that you or someone else submitted or requests that you never submitted and were saved as drafts. 
+title: View Submitted Requests
+description: Learn about the areas of Adobe Workfront where you can view requests that you or someone else submitted or requests that you never submitted and were saved as drafts. 
 author: Becky
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 ---
-# Locate submitted requests
+# View submitted requests
 
+You can view the requests that you or someone else submitted, or requests you started but you never finished submitting. The unfinished requests are saved as drafts. 
 
-You can locate the following types of requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront:
+You can locate submitted requests in the following areas of Adobe Workfront:
 
-* The **Workfront** tab of the Requests area in Workfront: Locate requests submitted to Workfront request queues in the following sections: 
-   * **Submitted section**: All requests that you or someone else submitted and you have access to at least View. 
-   * **Draft section** : All requests that you started but you never finished and you never submitted. For more information about draft requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* The Requests area of Workfront
+* The My Requests widget in Home
 
-   >[!TIP]
+The Requests area displays the following requests, depending on how you choose to view it:
+
+* Workfront requests when you use the legacy experience
+* Workfront as well as Planning requests when you use the new experience. 
+   
+   >[!NOTE]
    >
-   >You can only view your own draft requests.
-
-* The **Planning** tab of the Requests area in Workfront: Locate requests submitted to Workfront Planning request forms. Your organization must purchase a Workfront Planning package. For information, see the following articles:
-
-   * [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
-   * [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
-
+   >* You can only view your own draft requests.
+   >* In the new requesting experience, submitted requests and drafts are found in the same list. 
+   >* Drafts created in the legacy experience do not appear in the new Requesting experience.
 
 ## Access requirements
 
@@ -65,9 +66,67 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Locate submitted requests
+## View submitted requests in the Requests area
 
-To locate requests that you or other users have submitted:
+Viewing submitted requests differs based on whether you are using the new or legacy requesting experience.
+
+* [View submitted requests in the new requesting experience](#view-submitted-requests-in-the-new-requesting-experience)
+* [View submitted requests in the legacy requesting experience](#view-submitted-requests-in-the-legacy-requesting-experience)
+
+### View submitted requests in the new requesting experience
+
+You can view submitted requests in the Requests area, which include links to objects created by Planning requests.
+
+>[!NOTE]
+>
+>Links to created objects are available in the new requesting experience only for Planning requests, in cases where the request itself created an object. If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience.
+
+To view requests that you or other users have submitted in the new requesting experience:
+
+{{step1-to-requests}}
+
+1. Ensure that the **Use new experience** toggle in the upper-right corner of the screen is enabled.
+
+   The Requests list appears.
+
+1. (Optional) To search for a request, begin typing in the search bar at the upper-right of the list. Search results appear as you type.
+1. (Optional) Click **Filters** and start adding conditions for the requests you want to display.
+
+    You can filter by the following fields:  
+
+    * **Workspace**: The workspace the request form is associated with.
+    * **Record type**: The record type the request form is associated with.
+    * **Entry date**: The date when the request was submitted.
+    * **Request form**: The name of the request form used to submit the request.
+    * **Status**: The status of the request.
+    * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
+
+    You can have multiple filters joined by either **And** or **Or**.
+    The request list is filtered automatically, as you add the filter conditions. 
+1. (Optional) Use views to focus on the requests you want to display.
+
+   For instructions, see [Create or edit views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+1. (Optional) Check the status of a request by checking the Status column. The following statuses are available in the new requesting experience:
+
+   * **Draft**: This request has not yet been submitted.
+   * **Pending Review**: (Planning only) This request has approvers, and none of the approvers have opened the request. 
+   * **In Review**: (Planning only) This request has approvers and at least one approver has opened the request, but no decision has been made. 
+   * **Rejected**: (Planning only) This request has approvers and has been rejected.
+   * **In Progress**: 
+      * Workfront requests: The request has been converted and the work is ongoing.
+      * Workfront Planning requests: The request completion is mapped to a specific Planning field, and the field value does not yet match the completion value. 
+
+         For more information, see [Set up Configuration details](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) in the article Create and manage a request form in Adobe Workfront Planning.
+   * **Complete**: The request is completed.
+
+>[!NOTE]
+>
+>* If you have Workfront Planning, your Workfront and Planning requests appear in the same list. Workfront requests display the value `Issue` in the Object type column.
+>* The Requests list appears with 50 requests displayed. To view more requests, scroll to the bottom of the list.
+
+### View submitted requests in the legacy requesting experience
+
+To view requests that you or other users have submitted in the legacy requesting experience:
 
 {{step1-to-requests}}
 
@@ -80,7 +139,7 @@ To locate requests that you or other users have submitted:
    >
    >You cannot customize the columns in the Submitted request list.
 
-   ![](assets/nwe-submitted-requests-new-list-350x57.png)
+   ![Submitted requests new list](assets/nwe-submitted-requests-new-list-350x57.png)
 
  
 1. The following columns display by default:
@@ -124,17 +183,17 @@ To locate requests that you or other users have submitted:
    >
    >When you navigate away from the Submitted requests list, the selected sorting option is preserved.
 
-1. (Optional) Select a request in the list, then click the **Open Summary** icon ![](assets/open-summary-with-text-nwe.png) to open the Summary panel and display additional information about the request, add comments, documents, or assign it. For information about the Summary panel, see [Summary overview](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+1. (Optional) Select a request in the list, then click the **Open Summary** icon ![Open summary with text](assets/open-summary-with-text-nwe.png) to open the Summary panel and display additional information about the request, add comments, documents, or assign it. For information about the Summary panel, see [Summary overview](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
    >[!TIP]
    >
    >If the Summary panel is already opened, the Open Summary icon changes to Close Summary.
 
-1. (Optional and conditional) Click the **X** icon in the upper-right corner or the **Close Summary** icon ![](assets/close-summary-with-text-nwe.png) to close the Summary Panel.
+1. (Optional and conditional) Click the **X** icon in the upper-right corner or the **Close Summary** icon ![Close summary with text](assets/close-summary-with-text-nwe.png) to close the Summary Panel.
 
    If an issue was converted to a task or project and the issue was deleted in the conversion process, the Summary panel is blank. For information about converting issues, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md). 
 
-1. From the **Filter icon** ![](assets/filter-nwepng.png) in the top right of the list, select any of the filters listed in the table below.
+1. From the **Filter icon** ![Filter icon](assets/filter-nwepng.png) in the top right of the list, select any of the filters listed in the table below.
 
    >[!TIP]
    >
@@ -167,7 +226,7 @@ To locate requests that you or other users have submitted:
     </tbody> 
    </table>
 
-1. (Optional) Click the **Filter page** icon ![](assets/search-icon.png) at the top of the list to search for a request by name. The list updates with results that match your search criteria.
+1. (Optional) Click the **Filter page** icon ![Search icon](assets/search-icon.png) at the top of the list to search for a request by name. The list updates with results that match your search criteria.
 
 1. (Conditional) To display only Workfront Request queues, search or filter for `Issue` object types.</span>
 
@@ -201,8 +260,15 @@ To locate requests that you or other users have submitted:
 
    Use **Filters** and **Columns** to update the information in the Planning request list. 
 
-   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+   ![Planning tab submitted section in Requests area](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+
+   
+1. (Optional) Check the status of a request by checking the Status column. The following statuses are available in the new requesting experience:
+
+   * Draft: This request has not yet been submitted.
+   * In Progress
+   * Complete
 
 

@@ -140,19 +140,19 @@ The following table displays what permissions you can grant users when allowing 
 
 | **Actions** |**Manage** |**View** |
 |---|---|---|
-| Edit Portfolio details |✓ |&nbsp; |
+| Edit Portfolio details |✓ |   |
 | View a Portfolio |✓ |✓ |
-| Delete a Portfolio |✓ |&nbsp; |
-| Attach a Custom Form |✓ |&nbsp; |
-| Edit a custom field |✓ |&nbsp; |
-| Add or remove a program&#42; |✓ |&nbsp; |
-| Add or remove a project&#42; |✓ |&nbsp; |
-| Approve a project |✓ |&nbsp; |
-| Portfolio optimization&#42; |✓ |&nbsp; |
+| Delete a Portfolio |✓ |   |
+| Attach a Custom Form |✓ |   |
+| Edit a custom field |✓ |   |
+| Add or remove a program&#42; |✓ |   |
+| Add or remove a project&#42; |✓ |   |
+| Approve a project |✓ |   |
+| Portfolio optimization&#42; |✓ |   |
 | Add a document folder&#42; |✓ |✓ |
 | Add a document |✓ |✓ |
 | Updates/ comments |✓ |✓ |
 | Share |✓ |✓ |
-| Share system-wide |&nbsp; |✓ |
+| Share system-wide |   |✓ |
 
 *These permissions are controlled by the access level and permissions on other objects, like projects, programs, documents.

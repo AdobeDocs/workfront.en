@@ -185,8 +185,10 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png), then click **Goals**.  
+{{step1-to-goals}}
+
 A list of goals displays.
+
 1. Click a goal.  
    The goal page displays. 
 

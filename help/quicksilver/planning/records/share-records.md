@@ -1,5 +1,5 @@
 ---
-title: Share records
+title: Share Records Using a Link
 description: You can share records with others to increase collaboration.
 feature: Workfront Planning
 role: User
@@ -12,7 +12,7 @@ exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
 
 <!--take out preview and production references at release-->
 
-# Share records
+# Share records using a link
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 

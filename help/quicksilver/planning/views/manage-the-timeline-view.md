@@ -276,9 +276,9 @@ To add a filter to a timeline view:
 1. Select a timeline view, then click **Filters** in the upper-right corner of the table.    
 1. Click **Add condition** and add the following information: 
 
-    * **Select a field** to <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list
+    * **Select a field** to Search for a field or and select it from the list.
 
-    * **Select an option** (or a filter modifier) to define what kind of condition the field must meet
+    * **Select an option** (or a filter modifier) to define what kind of condition the field must meet.
 
         The table below displays the available modifiers for each type of field.
 
@@ -400,7 +400,7 @@ To add a grouping in the timeline view:
 1. Click one of the suggested fields, or click **Choose a different field**, and search for a different field, then click it when it displays in the list. 
 
     The grouping is applied automatically to the timeline and records display inside the grouping box. 
-    
+1. <span class="preview">(Optional) Click the **A -> Z** or **Z -> A** drop-down menu next to the name of the selected field to select an ascending or descending sorting order for the grouping. The groupings display in the alphabetical order you selected in the timeline view. </span>
 1. (Optional) Repeat the above steps to add up to 3 groupings.
 
     The number of fields selected for the grouping displays next to the Grouping icon.
@@ -543,6 +543,8 @@ You can display connected records in a record's timeline view by using the Break
 
 #### Considerations when using the Breakdown feature
 
+Consider the following when breaking down the records' timeline by their connected record types: 
+
 * You can display connected records or objects under the records of the selected record type in the timeline view.
 * You can display connected records in the timeline view only when viewing the records in Standard mode. You cannot use the Breakdown option in the Compact mode of the timeline view.  
 * You can display the following in the timeline view, using the Breakdown feature:
@@ -557,6 +559,8 @@ You can display connected records in a record's timeline view by using the Break
     For example, tasks, are connected to projects in Workfront. Using the Breakdown feature, you can display projects that are connected to campaigns in Planning, but not tasks connected to projects in Workfront. 
 
     If you want to display both portfolios and projects in the timeline view of a Workfront Planning record type, both the portfolios and the projects must be connected to the Planning record or to a record connected to the Planning record whose timeline view you are managing.
+* You cannot display Adobe GenStudio Brands connected to Planning record types. 
+    For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 * You can only display record types that are associated with at least two date fields. 
 * The date fields for the record types you want to display in the timeline view must be visible in the table view of the selected record type, as lookup fields. 
 * The Start and End dates of the record types you want to display in the timeline view must by in chronological order. For example, if a record has a Start date of January 31 and an End date of January 1, it does not display in the timeline view. For more information, see the section [Manage a timeline view](#manage-a-timeline-view) in this article. 

@@ -46,7 +46,7 @@
 
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
+>The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud]. 
 >
 > If your organization has been onboarded to [!DNL Adobe Experience Cloud], see [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
@@ -61,6 +61,26 @@
 ## Step 1 - Click your profile picture - {#step1-click-profile-pic}
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user name next to your profile picture. Or (if available), click your profile picture in the top navigation area, then click **[!UICONTROL Workfront Profile]**.
+
+<!-- Notes for Workflow packaging -->
+
+## Note for Workflow Ultimate {#ultimate-package}
+
+>[!IMPORTANT]
+>
+>You must have the Workflow Ultimate package to use this feature.
+
+## Note for Workflow Prime/Ultimate {#prime-or-ultimate-package}
+
+>[!IMPORTANT]
+>
+>You must have the Workflow Prime or the Workflow Ultimate package to use this feature.
+
+## Note for Workflow package for the cost / billing split {#workflow-package-for-cost-billing}
+
+>[!IMPORTANT]
+>
+>You must have the Workflow Select, Prime, or Ultimate package to see separate billing and cost permissions.
 
 <!-- Admin and Setup -->
 
@@ -285,7 +305,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 >
 >For a list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 > 
->For general information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 <!--Old - before Oct. 15, 2025:
 >[!IMPORTANT]
@@ -300,7 +320,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 >
 > For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 > 
->For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).-->
+>For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).-->
 
 <!--OLD: 
 >[!IMPORTANT]
@@ -313,7 +333,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 >
 >Your account representative will inform you if you are part of this stage.
 >
->For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+>For more information, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 -->
 
 <!-- Manage Work -->
@@ -364,8 +384,8 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 **Latest version**: 
 
-* Mac: 2.1.52 as of 7/31/2025
-* Windows: 2.1.52 of 7/31/2025
+* Mac: 2.1.54 as of 12/11/2025
+* Windows: 2.1.54 of 12/11/2025
 
 <!-- Release -->
 

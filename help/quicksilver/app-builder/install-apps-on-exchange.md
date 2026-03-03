@@ -21,7 +21,7 @@ Workfront partners leverage Workfront UI Extensions, a powerful framework that
 
 #### Real-time results, right inside Adobe Workfront 
 
-We partner with Adobe Workfront customers to turn everyday bottlenecks into repeatable solutions with predictable outcomes. Our growing library of solutions helps you drive accuracy, speed, and accountability using live data from right where people work. You can help leaders see what is happening now and plan what should happen next. Explore the AtAppStore Adobe Exchange apps currently available and ready to install, then choose the ones that match your current priorities, then scale as your needs grow. 
+AtApp partners with Adobe Workfront customers to transform everyday bottlenecks into repeatable solutions with predictable outcomes. Its growing library of solutions helps drive accuracy, speed, and accountability by leveraging live data from where people work. AtApp enables leaders to see what is happening now and plan what should happen next. Users can explore the AtAppStore Adobe Exchange apps that are currently available and ready to install, select the ones that match their current priorities, and scale as their needs grow.
 
 * [Excel Updater](https://exchange.adobe.com/apps/ec/abtt1rq7o9/atapp-excel-updater): Excel Updater solution affords you a cost-effective path to integrate data into Workfront without having to learn the API, write code, or set up a server, and is ideal for both one time and recurring data loads. 
 
@@ -31,15 +31,31 @@ We partner with Adobe Workfront customers to turn everyday bottlenecks into repe
 
 ### Workfocus 
 
-Workfocus delivers advanced automation and integration solutions for Workfront. Their apps focus on: 
+WorkFocus is an Adobe Gold Solutions Partner specializing in Adobe Workfront, Workfront Fusion, Workfront Planning, Firefly, AEM Assets and enterprise automation. We help organizations scale automation responsibly by establishing a Fusion Center of Excellence (FCoE) powered by our proprietary FCoE application.
 
-* Streamlining timelines 
+#### Fusion Center of Excellence (FCoE) Application
 
-* Automating Fusion workflows 
+The WorkFocus Fusion Center of Excellence application enables organizations to govern, scale, and maximize the value of Adobe Workfront Fusion across the enterprise.
 
-* Enabling cross-instance collaboration 
+Many teams struggle with fragmented Fusion scenarios, limited visibility into automation ownership and value, inconsistent standards, and automation sprawl. The FCoE application solves these challenges by providing a central system of record for Fusion automation.
 
-Workfocus apps are designed to operate natively within Workfront, leveraging UI Extensions to provide users with powerful tools that enhance productivity and reduce manual effort. 
+Key capabilities include:
+
+* Centralized governance and ownership of Fusion scenarios
+* Scenario lifecycle management from intake through support
+* ROI and value realization tracking
+* Enterprise-grade standards, documentation, and error handling
+* Scalable operating model for enterprise adoption
+
+The result is faster time-to-value, reduced risk, and measurable business impact from Fusion.
+
+#### Get Started with WorkFocus
+
+The WorkFocus team invites organizations to schedule a custom demonstration of the Fusion Center of Excellence and set up a free trial of the application.
+
+Looking ahead, the roadmap includes the release of the Workfront Core Center of Excellence and Workfront Planning Center of Excellence in 2026. By becoming a client of the Fusion Center of Excellence, organizations gain the opportunity to influence the roadmap for these upcoming solutions and help shape the future of enterprise Workfront governance.
+
+WorkFocus is eager to discuss how it can serve as a strategic partner across Workfront, Workfront Fusion, Workfront Planning, Firefly, AEM Assets, and the end-to-end Content Supply Chain.
 
 ## Prerequisites and permissions
 

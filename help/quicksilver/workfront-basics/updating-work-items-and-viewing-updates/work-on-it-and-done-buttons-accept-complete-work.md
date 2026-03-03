@@ -30,7 +30,7 @@ Depending what area of Workfront you access your task or issue from, the Work On
 
 * When the task or issue is first assigned to you and the status is New, the button displays as Work on it.
 
-  ![](assets/nwe-work-on-it-button.png) 
+  ![Work on it button](assets/nwe-work-on-it-button.png) 
 
   >[!TIP]
   >
@@ -38,12 +38,12 @@ Depending what area of Workfront you access your task or issue from, the Work On
 
 * After you have clicked Work On It accept, the button changes to Mark as done. For information about where you can access the Work On It button, see the section [Locate the Work On It and Done button](#locate-the-work-on-it-and-done-button) in this article.
 
-  ![](assets/nwe-mark-as-done-button-350x122.png)
+  ![Mark as Done button](assets/nwe-mark-as-done-button-350x122.png)
 
 
 <!--If you are not the only one assigned to the task or issue and you are accessing your work item from the My Work widget in the Home area, the button changes to Done with my part.
 
-  ![](assets/home-left-done-with-my-part-button-350x184.png)-->
+  ![Home left Done with my part button](assets/home-left-done-with-my-part-button-350x184.png)-->
 
 ## Locate the Work On It and Done button {#locate-the-work-on-it-and-done-button}
 

@@ -2,14 +2,14 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Delete an iteration
-description: You can delete an iteration for your agile team if it is no longer needed.
+description: You can delete an iteration for your Agile team if it is no longer needed.
 author: Jenny
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
 ---
 # Delete an iteration
 
-You can delete an iteration for your agile team if it is no longer needed.
+You can delete an iteration for your Agile team if it is no longer needed.
 
 When you delete an iteration, any stories on the iteration are moved to the backlog. The tasks and issues also remain on their projects.
 
@@ -34,7 +34,7 @@ When you delete an iteration, any stories on the iteration are moved to the back
   </tr>
    <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td>You must be a member of the agile team the iteration is assigned to</td> 
+   <td>You must be a member of the Agile team the iteration is assigned to</td> 
   </tr>
  </tbody> 
 </table>

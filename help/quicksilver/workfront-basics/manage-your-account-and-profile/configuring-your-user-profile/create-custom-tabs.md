@@ -22,16 +22,16 @@ The following table lists all the [!DNL Workfront] areas and objects that contai
 | **[!DNL Workfront] area or object** | **Default system sections** | **Dashboards** |
 |---|---|---|
 | [!UICONTROL Projects] area | ✓ | ✓ |
-| [!UICONTROL Team] | ✓ | &nbsp; |
-| [!UICONTROL Requests] area | ✓ | &nbsp; |
-| [!UICONTROL Timesheets] area | ✓ | &nbsp; |
+| [!UICONTROL Team] | ✓ |    |
+| [!UICONTROL Requests] area | ✓ |    |
+| [!UICONTROL Timesheets] area | ✓ |    |
 | [!UICONTROL Portfolio] | ✓ | ✓ |
 | [!UICONTROL Program] | ✓ | ✓ |
 | [!UICONTROL Project] | ✓ | ✓ |
-| [!UICONTROL Task] | ✓ | &nbsp;✓ |
-| [!UICONTROL Issue] | &nbsp;✓ | &nbsp;✓ |
-| [!UICONTROL User] | &nbsp;✓ | &nbsp;✓ |
-| [!UICONTROL Document] | &nbsp;✓ | &nbsp;✓ |
+| [!UICONTROL Task] | ✓ |   ✓ |
+| [!UICONTROL Issue] |   ✓ |   ✓ |
+| [!UICONTROL User] |   ✓ |   ✓ |
+| [!UICONTROL Document] |   ✓ |   ✓ |
 | [!UICONTROL Resourcing] area | ✓ | ✓ |
 
 {style="table-layout:auto"}

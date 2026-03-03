@@ -52,4 +52,4 @@ By default, the [!UICONTROL Backlog] column is hidden. To display the backlog:
 >
 >If you add multiple teams to a backlog item, the task or issue displays only on the primary team's backlog. The primary team is the team first assigned.
 
-For more information about the backlog, see [Manage the agile backlog](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+For more information about the backlog, see [Manage the Agile backlog](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

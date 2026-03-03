@@ -31,7 +31,7 @@ When viewing a story tile on the story board, the information in the following t
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>The project name with a link directly to the project<br>This link is displayed only on stories (parent tasks, not subtasks) when using the agile view on an iteration; it is not displayed when using an agile view on a project.</p> </td> 
+   <td> <p>The project name with a link directly to the project<br>This link is displayed only on stories (parent tasks, not subtasks) when using the Agile view on an iteration; it is not displayed when using an Agile view on a project.</p> </td> 
    <td>✓ </td> 
    <td> </td> 
   </tr> 
@@ -56,7 +56,7 @@ When viewing a story tile on the story board, the information in the following t
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Any additional fields (including custom fields) that might have been added to the agile view by modifying the agile view, as described in "Creating and Customizing an [!UICONTROL Agile] View" in <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in [!UICONTROL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>Any additional fields (including custom fields) that might have been added to the Agile view by modifying the Agile view, as described in "Creating and Customizing an [!UICONTROL Agile] View" in <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in [!UICONTROL Adobe Workfront]</a>.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -100,7 +100,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. In the left panel, select **[!UICONTROL Iterations]** to choose a specific iteration, or select **[!UICONTROL Current Iteration]**.
 
-1. Go to the [!UICONTROL Scrum] agile story board.
+1. Go to the [!UICONTROL Scrum] Agile story board.
 1. Expand the [!UICONTROL story] tile to view all fields associated with the story.
 
    ![story card](assets/agile-storycard-scrum-2021-350x333.png)

@@ -79,7 +79,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 1. Click **Tasks** in the left panel.
 1. (Conditional) Select **Autosave** in the upper-right corner of the task list, then select the tasks that you want to chain.
 
-   ![](assets/nwe-autosave-icon-on-highlighted-350x295.png)
+   ![Autosave icon on highlighted](assets/nwe-autosave-icon-on-highlighted-350x295.png)
 
    >[!IMPORTANT]
    >

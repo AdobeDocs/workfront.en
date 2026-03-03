@@ -36,13 +36,13 @@ Permissions are specific to one item in Workfront and define what actions one ca
       * View
       * Manage
 
-   * The future projects which are created using the template. You can give the same levels of permissions to projects created from a template as you would an individual project.&nbsp;
+   * The future projects which are created using the template. You can give the same levels of permissions to projects created from a template as you would an individual project.  
 
      For information about how to share a project from a template at the template level, see [Share project templates](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 * When you share a template or a project which is created from the template, users inherit the same permissions to all the children objects associated with the template or the project, by default.
 
-  For more information about the hierarchy of objects in Workfront, see&nbsp; [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  For more information about the hierarchy of objects in Workfront, see   [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * When you share a template, all the template tasks and documents, as well as the issues on the future project created from the template inherit the same permissions, unless otherwise specified.
 
@@ -55,7 +55,7 @@ Permissions are specific to one item in Workfront and define what actions one ca
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Share a template</h2>
-<p>(NOTE: drafted because this is also linked above: Share project templates >> which is an article in the Manage Work section>> Templates)&nbsp;</p>
+<p>(NOTE: drafted because this is also linked above: Share project templates >> which is an article in the Manage Work section>> Templates)  </p>
 <ol>
 <li value="1"> <p>Go to the template you want to share with other entities, click <strong>Template Actions</strong>, then <strong>Template Sharing</strong>.<br>Or</p> <p>Navigate to a list of templates, and select multiple templates from the list, then click <strong>Share Template</strong>.</p> <note type="note">
 If you select multiple templates, you cannot view who already has permissions to the individual templates.
@@ -84,9 +84,9 @@ You can share an object only with active users, teams,
 </note> </li>
 <li value="3">From the drop-down menu, select which level of permissions you want to grant.<br>Select from the following:<br>
 <ul>
-<li><strong>No access</strong>: You can specify which users will not have any access to the template.<br>This option is available only when bulk sharing projects from templates.&nbsp;</li>
+<li><strong>No access</strong>: You can specify which users will not have any access to the template.<br>This option is available only when bulk sharing projects from templates.  </li>
 <li><strong>View</strong>: Users with these permissions can view projects created from the template.</li>
-<li><strong>Contribute</strong>: Users with these permissions can contribute to projects created from the template&nbsp;</li>
+<li><strong>Contribute</strong>: Users with these permissions can contribute to projects created from the template  </li>
 <li><strong>Manage</strong>: Users with these permissions can manage or delete projects created from this template.<br><img src="assets/share-project-from-template-350x268.png" alt="share_project_from_template.png" style="width: 350;height: 268;"></li>
 </ul></li>
 <li value="4">(Optional) Click <strong>Advanced Settings</strong> to fine-tune your settings for each level of permissions. </li>
@@ -114,17 +114,17 @@ The following table displays what permissions you can grant users when allowing 
   <tr> 
    <td>Copy</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Delete</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Edit Template Details</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>View Template</td> 
@@ -138,12 +138,12 @@ The following table displays what permissions you can grant users when allowing 
   </tr> 
   <tr> 
    <td>Share System-wide</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Add Documents</p> <p>Tip: Sometimes people add documents to a project template thinking that they're adding them to a project. You can prevent this for your recipients by disabling this setting.</p> </td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

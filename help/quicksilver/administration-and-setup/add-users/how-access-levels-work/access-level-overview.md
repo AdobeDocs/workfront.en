@@ -1,5 +1,5 @@
 ---
-title: New Access Levels Overview
+title: Access Levels Overview
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -11,7 +11,11 @@ feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
 ---
-# New access levels overview
+# Access levels overview
+
+>[!NOTE]
+>
+>The information in this article refers to the current access levels. For information about the legacy access levels, see [Access levels overview](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). 
 
 As an Adobe Workfront administrator, you assign an access level to a user for 2 purposes:
 
@@ -96,8 +100,6 @@ The following are the highest access settings available for objects in the Stand
 | Financial data |&nbsp; |&nbsp; |✓ |
 | Resource Management |&nbsp; |&nbsp; |✓ |
 | Scenario Planner  |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
-| Boards |&nbsp; |&nbsp; |✓ | 
-| Home |&nbsp; |&nbsp; |✓|
 | Goals  |&nbsp; |&nbsp; |✓ |
 
 {style="table-layout:auto"}
@@ -109,7 +111,7 @@ Attached to the Light license, this access level is designed for users who:
 * View all items and updates tied to work
 * Approve projects, tasks, and issues
 * View dashboards and reports
-* Track time on tasks and issues and approve timesheets
+* Track time on projects, tasks, and issues and approve timesheets
 * Create and manage issues
 
 Users with the Light access level:
@@ -117,6 +119,7 @@ Users with the Light access level:
 * Can be assigned work items but can't complete them.
 * Can access requests and documents in the Main Menu.
 * Have limited ability to create objects—they can't create projects, portfolios, programs, or reports.
+* Can only log time at the project level when Edit access is enabled. They cannot create, edit, delete, or share projects.
 
 >[!NOTE]
 >
@@ -143,14 +146,14 @@ The following are the highest access settings available for objects in the Light
   <tr> 
    <td>Projects</td> 
    <td>&nbsp;</td> 
-   <td>✓</td> 
    <td>&nbsp;</td> 
+   <td>✓ (for logging time at the project level)</td> 
   </tr> 
   <tr> 
    <td>Tasks</td> 
    <td>&nbsp;</td> 
-   <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td></td> 
+   <td>✓ (limited)</td> 
   </tr> 
   <tr> 
    <td>Issues</td> 
@@ -209,7 +212,7 @@ The following are the highest access settings available for objects in the Light
   <tr> 
    <td>Financial data</td> 
    <td></td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓(the default setting is No Access)</p> </td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
@@ -224,22 +227,12 @@ The following are the highest access settings available for objects in the Light
    <td>&nbsp;</td> 
    <td>✓ (The default setting is No Access.)</td> 
   </tr> 
-  <tr> 
-   <td>Boards </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>✓</td> 
-     <tr> 
-   <td>Home </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>✓</td> 
-  </tr> 
+  
   <tr>   
    <td>Goals </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-   <td>✓</td> 
+   <td>✓ (The default setting is No Access)</td> 
  </tbody> 
 </table>
 
@@ -257,6 +250,11 @@ Users with this built-in access level:
 * Can make requests and update those requests
 * Can upload and approve documents
 * Can approve projects, tasks, and issues
+
+  >[!NOTE]
+  >
+  >Contributors can participate in approvals but cannot access the Approvals tab to view or manage approval processes.
+
 * Can review the status of issues they have submitted
 * Can be assigned to work items but can't complete them
 * Can access requests only from the Main Menu. For more information about request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
@@ -271,8 +269,8 @@ The following are the highest access settings available for objects in the Contr
 
 | Workfront object type |No access |View access |Edit access |
 |---|---|---|---|
-| Project |&nbsp; |✓ |&nbsp; |
-| Task |&nbsp; |✓ |&nbsp; |
+| Project |&nbsp; |✓ (limited) |&nbsp; |
+| Task |&nbsp; |✓(limited) |&nbsp; |
 | Issue |&nbsp; |&nbsp; |✓ |
 | Portfolios |&nbsp; |✓ |&nbsp; |
 | Programs |&nbsp; |✓ |&nbsp; |
@@ -281,13 +279,11 @@ The following are the highest access settings available for objects in the Contr
 | Document |&nbsp; |&nbsp; |✓ |
 | User |&nbsp; |✓ |&nbsp; |
 | Teams |&nbsp; |✓ |&nbsp; |
-| Template |✓ |&nbsp; |&nbsp; |
+| Templates |✓ |&nbsp; |&nbsp; |
 | Financial data |✓ |&nbsp; |&nbsp; |
 | Resource Management |✓ |&nbsp; |&nbsp; |
 | Scenario Planner  |✓ |&nbsp; |&nbsp; |
-| Boards |&nbsp; | &nbsp; |✓ (Simple cards) | 
-| Home |&nbsp; |✓ (My updates) |&nbsp; |
-| Goals  |&nbsp; |&nbsp; |✓ |
+| Goals  |&nbsp; |&nbsp; |✓ (The default setting is No Access) |
 
 {style="table-layout:auto"}
 
@@ -332,12 +328,10 @@ The following are the highest access settings available for objects in the Exter
 | Document |&nbsp; |✓ (No ability to share documents) |&nbsp; |
 | User |&nbsp; |✓ |&nbsp; |
 | Teams |✓ |&nbsp; |&nbsp; |
-| Template |✓ |&nbsp; |&nbsp; |
+| Templates |✓ |&nbsp; |&nbsp; |
 | Financial data |✓ |&nbsp; |&nbsp; |
 | Resource Management |✓ |&nbsp; |&nbsp; |
 | Scenario Planner  |✓ |&nbsp; |&nbsp; |
-| Boards |✓ |&nbsp; |&nbsp; | 
-| Home |✓ |&nbsp; |&nbsp; |
 | Goals  |✓ |&nbsp; |&nbsp; |
 
 

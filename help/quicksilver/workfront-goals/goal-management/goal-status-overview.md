@@ -52,14 +52,14 @@ exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
   | Closed  |No |Yes |No |-  |
 
 * Opening a closed goal also updates the goal's progress. 
-* Certain actions you perform on a goal also update its status.&nbsp;For information about how you can update goal statuses, see the following articles:
+* Certain actions you perform on a goal also update its status. For information about how you can update goal statuses, see the following articles:
 
    * [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md) 
    * [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md) 
    * [Delete and deactivate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/delete-and-deactivate-goals.md) 
    * [Close and reopen goals in Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 
-## Overview of goal statuses in&nbsp;Workfront Goals
+## Overview of goal statuses in Workfront Goals
 
 For information about creating Workfront Goals goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 

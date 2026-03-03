@@ -67,7 +67,7 @@ For more information, see [Access requirements in Workfront documentation](/help
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and&nbsp;Projects</p> <p>View or higher access to&nbsp;Templates, when converting to a project using a template</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks and Projects</p> <p>View or higher access to Templates, when converting to a project using a template</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -193,13 +193,13 @@ For more information, see [Access requirements in Workfront documentation](/help
 ## Convert a task to a project
 
 1. Go to the task that you want to convert to a project.
-1. Click the **More** icon ![](assets/more-icon.png), then **Convert to Project**. 
+1. Click the **More** icon ![More icon](assets/more-icon.png), then **Convert to Project**. 
 1. Choose either the following options:
 
    * **New Project**, to create a project without using a template
    * A template in the **Select From Templates** section
 
-     ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![Convert task to project template option drop-down menu](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. Click **Continue** on the notification that appears.
 1. In the **Convert to Project** box, specify the following:

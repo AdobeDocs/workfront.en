@@ -156,9 +156,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 ## Designate Resource Managers for a template
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront. 
-
-1. Click **Templates**.
+{{step1-to-templates}}
 
 1. Do any of the following:
 

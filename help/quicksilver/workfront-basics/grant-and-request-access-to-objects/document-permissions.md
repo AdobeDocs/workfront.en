@@ -20,7 +20,7 @@ Users can also share documents they've uploaded or have access to, giving others
 
 >[!NOTE]
 >
->If your Workfront instance uses Adobe Enterprise Storage, you cannot share individual documents. Instead, you grand access at the project level. Keep in mind that sharing the project can grants access to sensitive project information like finanicals depeding on the level of permission chosen. 
+>If your Workfront instance uses Adobe enterprise storage, you cannot share individual documents. Instead, you grant access at the project level. Keep in mind that sharing the project can grants access to sensitive project information like finanicals depending on the level of permission chosen. 
 
 
 

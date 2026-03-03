@@ -122,12 +122,9 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 ## Access Workfront Goals
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
+{{step1-to-goals}}
 
-   <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-      The Goal List displays.
+   The Goal List displays.
 
    
    >[!IMPORTANT]
@@ -190,9 +187,12 @@ To access an individual goal in the Production environment:
 
 To access an individual goal: 
 
-1. Click the **Main Menu** icon  in the upper-right corner of Workfront, then click **Goals** .
+{{step1-to-goals}}
+
 The Goal List displays by default. 
+
 ![Goal list](assets/goal-list-unshimmed.png)
+
 1. Click the name of a goal in the list. 
 The goal's page displays. 
 ![Goal page](assets/goal-page-unshimmed.png)

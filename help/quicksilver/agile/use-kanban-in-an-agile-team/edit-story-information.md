@@ -56,7 +56,7 @@ When viewing a story tile on the [!UICONTROL Kanban] board, the information in t
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Any additional fields (including custom fields) that might have been added to the agile view by modifying the agile view, as described in "Creating and Customizing an Agile View" in <a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in [!DNL Adobe Workfront]</a></p> </td> 
+   <td> <p>Any additional fields (including custom fields) that might have been added to the Agile view by modifying the Agile view, as described in "Creating and Customizing an Agile View" in <a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in [!DNL Adobe Workfront]</a></p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 

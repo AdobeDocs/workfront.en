@@ -183,12 +183,9 @@ Closing goals differs depending on what environment you use.
 1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 -->
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner. 
+{{step1-to-goals}}
 
    The Goal List opens. 
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
 
 1. (Optional) Modify your filters to display only goals that are active. 
 
@@ -249,12 +246,9 @@ Reopening goals differs depending on what environment you use.
 
 -->
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png)> **Goals** in the upper-right corner. 
+{{step1-to-goals}}
 
    The Goal List opens.
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
 
 1. (Optional) Modify your filters to display only goals that are closed. 
 

@@ -1,5 +1,5 @@
 ---
-title: Adobe Workfront Planning Overview
+title: Get started with Adobe Workfront Planning
 description: Adobe Workfront Planning is an additional capability from Adobe Workfront. You can create fully-customizable workspaces to define workflows that meet the needs of each organizational unit in your enterprise.
 author: Alina
 feature: Workfront Planning
@@ -7,32 +7,25 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 ---
-# Adobe Workfront Planning overview
+# Get started with Adobe Workfront Planning
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
 >
->You must have the following to full access to all capabilities in Workfront Planning:
->
->* A new Workfront package and license. Workfront Planning is not available for legacy Workfront packages or licenses. 
->* A Workfront Planning package. 
->* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
->
-> For a complete list of requirements to access Workfront Planning, see [Adobe Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
-> 
+>For a list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 
 This article contains general information about Workfront Planning. 
 
-For the complete list of articles that contain documentation for Workfront Planning, see [Adobe Workfront Planning: article index](/help/quicksilver/planning/planning-information.md). 
+For the complete list of articles that contain documentation for Workfront Planning, see [General information about Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md). 
 
 ## Introduction to Adobe Workfront Planning
 
@@ -130,7 +123,7 @@ The following features are currently available in Workfront Planning:
 |   Search for records in the timeline view    | ✓    |   |
 |     Connect Workfront Planning records to Workfront projects, programs, portfolios, companies, groups  |   ✓                            |                                 |                  |
 |     Connect Workfront Planning records to Adobe Experience Manager assets                                  |      ✓                         |                                  |                 |
-|     Connect Planning records from different workspaces                                  |      ✓                         |                                  |                 | 
+|     Connect Planning records from different workspaces                                  |      ✓                         |                                  |                 |
 |     Record page with detailed information                            |   ✓                           |                                  |                  |
 |     Update the layout of the record's page              |    ✓                           |                                 |                  |
 |  Share workspaces | ✓| |  |
@@ -146,9 +139,9 @@ The following features are currently available in Workfront Planning:
 |     Receive email notifications                                 | ✓                              |                                  |                 |
 |     Add thumbnails to records                                 | ✓                              |                                  |                 |
 |     View history of changes on a record                                 | ✓                              |                                  |                 |
-|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 | 
-|     Adobe Workfront Planning modules for Adobe Workfront Fusion                                 |      ✓                         |                                  |                 | 
-|     Copy and paste information from one field to another                                  |      ✓                         |                                  |                 | 
+|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 |
+|     Adobe Workfront Planning modules for Adobe Workfront Fusion                                 |      ✓                         |                                  |                 |
+|     Copy and paste information from one field to another                                  |      ✓                         |                                  |                 |
 |     Access Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
 |     Connect Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
 |     Workfront Planning public API                                 |      ✓                         |                                  |                 |
@@ -273,6 +266,12 @@ The following are the main Workfront Planning objects and concepts:
         You must have an Adobe Experience Manager license to connect record types with Experience Manager objects.
 
         ![New connection tab with Workfront AEM options](assets/new-connection-tab-with-workfront-aem-options.png)
+    
+    * A record type and an Adobe GenStudio for Performance Marketing Brand. 
+
+        You must have an Adobe GenStudio for Performance Marketing license to connect record types with GenStudio Brands. 
+
+        ![New connection tab with Adobe GenStudio Brand option](assets/new-connection-tab-with-genstudio-option.png)
 
 
     After you establish a connection between the record types, you can connect individual records or objects of those types to one another. The connection between the records displays as a connected record field, or a connection.
@@ -287,12 +286,12 @@ The following are the main Workfront Planning objects and concepts:
 
     >[!TIP]
     >
-    > You cannot add the following field types as lookup fields from the connected record or object types:
-    >
-    >* People
-    >* Created by
-    >* Last modified by
-    >* Workfront typeahead fields (including fields like Project Owner, or Project Sponsor)
+    >* You cannot add the following field types as lookup fields from the connected record or object types:
+    >   * Created by
+    >   * Last modified by
+    >   * Workfront typeahead fields (including fields like Project Owner, or Project Sponsor)
+    >* You cannot add the following field types as lookup fields from the connected record or object type in Production, <span class="preview">but you can add them in the Preview environment:</span>
+    >   * People
 
     For information about connecting record types, records, and creating linked fields, see the following articles:
 
@@ -382,7 +381,7 @@ For an up-to-date list of released features, see [Adobe Workfront Planning relea
 
 ## Additional resources for Workfront Planning
 
-* [Adobe Workfront Planning: article index](/help/quicksilver/planning/planning-information.md): An index of all articles that contain documentation about Workfront Planning, grouped by area of interest. 
+* [General information about Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md): An index of all articles that contain documentation about Workfront Planning, grouped by area of interest. 
 * [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): With the Workfront AI Assistant for Planning you can search for records, or create, update, and delete records by using commands and letting the assistant do the work for you. 
 
     <!--

@@ -34,13 +34,13 @@ There are two types of Project Duration and the formulas by which Workfront calc
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Check these formulas? Should they be divided by the hours per day?!) </p>
 -->
 
-* **Planned Duration**:&nbsp;
+* **Planned Duration**: 
 
   ```
   Project Planned Duration = Planned Completion Date of the latest task - Planned Start Date of the earliest task / Typical hour per day
   ```
 
-* **Actual Duration**:&nbsp;
+* **Actual Duration**: 
 
   ```
   Project Actual Duration = Actual Completion Date of the latest task - Actual Start Date of the earliest task / Typical hour per day

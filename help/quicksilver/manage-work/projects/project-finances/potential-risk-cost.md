@@ -12,7 +12,7 @@ exl-id: f4dc1950-efd8-4936-83fd-1280ee465923
 
 The Potential Risk Cost of a project takes into account the Potential Costs of the project risks and their probability of occurring.
 
-## Overview of Potential Risk&nbsp;Cost of a project
+## Overview of Potential Risk Cost of a project
 
 Adobe Workfront calculates the Potential Risk Cost of a project using the following formula:
 

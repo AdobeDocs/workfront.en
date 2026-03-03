@@ -90,12 +90,12 @@ You can create subtasks from the task list or the task subtask section.
 1. (Conditional) If the task that you want to make the child task is not already located directly beneath the task that you want make the parent, drag ad drop it to the appropriate location in the task list.
 1. Select the task that you want to make a subtask and do one of the following:
 
-   * Click the **Indent** icon ![](assets/indent-icon-nwe-33x29.png) to make the selected task a subtask to the task directly above it.
+   * Click the **Indent** icon ![Indent icon](assets/indent-icon-nwe-33x29.png) to make the selected task a subtask to the task directly above it.
    * When using a standard English QWERTY keyboard, press Option + > (Mac) or Alt + > (Windows) on your keyboard. Other languages might use the commands Option + , (Mac) or Alt + , (Windows) to indent.
 
      >[!TIP]
      >
-     >The keyboard shortcuts do not work when you are editing tasks in inline edit. In this case, use the Indent icon ![](assets/indent-icon-nwe-33x29.png) to create subtasks.
+     >The keyboard shortcuts do not work when you are editing tasks in inline edit. In this case, use the Indent icon ![Indent icon](assets/indent-icon-nwe-33x29.png) to create subtasks.
 
    * Drag and drop the task over the task you want to designate as the parent task.
 
@@ -126,7 +126,7 @@ You can create subtasks from the task list or the task subtask section.
 1. Go to the project where you want to make a subtask a main task.
 1. Click the **Tasks** section in the left panel. 
 1. Select the subtask that you want to make a main task.
-1. Click the **Outdent** icon ![](assets/outdent-icon-nwe-31x29.png) to make the subtask a main task.
+1. Click the **Outdent** icon ![Outdent icon](assets/outdent-icon-nwe-31x29.png) to make the subtask a main task.
 
    Or
 

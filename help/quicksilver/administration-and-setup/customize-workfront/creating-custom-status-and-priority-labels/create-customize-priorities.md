@@ -103,7 +103,7 @@ In addition to the default priorities provided in Workfront, you can add your ow
    
    * **Color**: Choose a color for the priority.
 
-     The color of the priority is used in chart reports and Agile Team Settings. For information on chart reports, see [Add a chart to a report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md). For information on Agile Team Settings, see [Create an agile team](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     The color of the priority is used in chart reports and Agile Team Settings. For information on chart reports, see [Add a chart to a report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md). For information on Agile Team Settings, see [Create an Agile team](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
    * **Default Priority**: Select the priority you want Workfront to apply automatically to all newly created projects, tasks, or issues.
 

@@ -168,6 +168,34 @@ You can delete projects from a list of projects.
 1. Click **Yes, Delete it**. 
 
    The project is deleted and stored in the Recycle Bin for 30 days. Your Workfront administrator can restore it from the Recycle Bin during this time.
+  
+## Delete a project from the connected records page of a Workfront Planning record 
+
+>[!NOTE]
+>
+>The information in this section refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>
+>For a list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+> 
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+You must have the following before you can access and delete projects from a Workfront Planning connected records page: 
+
+* Planning record types connected to Workfront projects. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Planning records. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+* A connected records page that displays projects connected to a Planning record. For information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
+
+To delete a record from a connected records page: 
+
+1. From the connected records page that displays projects connected to a record, hover over a project's name and click the **More** icon ![More icon](assets/more-icon.png)
+
+    Or
+
+    Select one or several projects in the list. Notice the blue bar at the bottom of the project list. 
+
+1. Click **Delete**, then **Delete** to confirm. 
+
+    The projects are deleted and placed in the Workfront recycle bin. 
 
 ## Restoring Deleted Projects
 

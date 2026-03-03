@@ -55,13 +55,13 @@ In this situation:
 
   **Example:** For example, Task A is a predecessor to Task B. Task A has the Latest Available Time constraint and Task B has the As Soon As Possible constraint. In this situation, Task A is scheduled as close to the start of the project as possible.
 
-  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![Latest available time task constraint](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
 * **As Late As Possible:** In this scenario, using the As Late As Possible constraint on the predecessor task gives the priority to the predecessor task.
 
   **Example:** For example, Task A is a predecessor to Task B. Task A has the As Late As Possible constraint and Task B has the As Soon As Possible constraint. In this situation, Task A is scheduled as close to the end of the project as possible.
 
-  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![As late as possible task constraint in a task list](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
  
 

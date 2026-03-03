@@ -1,5 +1,5 @@
 ---
-title: New Licenses Overview
+title: Licenses Overview
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -11,9 +11,13 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
 ---
-# New licenses overview
+# Licenses overview
 
 <!-- Audited: 12/2023 -->
+
+>[!NOTE]
+>
+>The information in this article refers to the current access levels. For information about the legacy access levels, see [Access levels overview](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). 
 
 Your organization purchased a certain number of licenses when it purchased Adobe Workfront. As a Workfront administrator, you give one of 2 types of Workfront licenses to each user when you assign the user an access level.
 

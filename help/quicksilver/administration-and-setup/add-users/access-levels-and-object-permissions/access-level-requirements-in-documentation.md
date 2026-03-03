@@ -16,8 +16,6 @@ Workfront documentation how-to articles contain a table that explains the access
 
 If a row is absent from the Access requirements table in a given article, there are no requirements of that type for that action.
 
-Some rows contain information labeled "New" and "Current." This is because Workfront is transitioning to a new pricing and packaging model, with some organizations operating under the new model and others still using the current model. To find out which model your organization uses, contact your Workfront administrator. You can find details and links to information in the [The Access requirements table](#the-access-requirements-table) section of this article. 
-
 >[!NOTE]
 >
 >If you have questions about how any of the fields in this table apply to you, contact your Workfront administrator.
@@ -31,10 +29,10 @@ Some rows contain information labeled "New" and "Current." This is because Workf
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
    <td> Adobe Workfront packages refer to the set of features that your organization has purchased. Most Workfront functionality is available in all packages, with a few exceptions, mostly related to strategic planning and enterprise controls. <p>Packages that existed prior to 2022 are not listed.</p>
-   <p>Workfront packages are divided into three areas. Each area offers different packages such as Select, Prime, and Ultimate.<p>
+   <p>Workfront packages are divided into three areas. Some areas offer different packages such as Select, Prime, and Ultimate.<p>
    <ul>
-   <li><b>Workfront Workflow</b>: Includes functionality related to operations, such as task management, approvals, and timesheets.</li>
-   <li><b>Workfront Planning</b>: Includes functionality related to strategic planning.</li>
+   <li><b>Workfront Workflow</b>: Includes functionality related to operations, such as task management, approvals, and timesheets. This package is further divided into Workflow Select, Workflow Prime, and Workflow Ultimate packages.</li>
+   <li><b>Workfront Planning</b>: Includes functionality related to strategic planning. This package is further divided into Planning Select, Planning Prime, and Planning Ultimate packages.</li>
    <li><b>Workfront Automation and Integration</b>: Includes functionality related to automating processes and integrating with other applications.</li>
    </ul>
   <p>Your organization may have purchased a Workfront package in one or more of these areas.</p>

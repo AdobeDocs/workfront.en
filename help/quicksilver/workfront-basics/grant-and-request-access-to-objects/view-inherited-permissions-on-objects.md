@@ -13,7 +13,7 @@ Your Adobe Workfront administrator can grant you access to view or edit objects 
 
 Along with the access level that users are granted, you can also grant them permissions to specific objects that you have access to share. For more information about access levels and permissions, see [How access levels and permissions work together](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
-Objects inherit permissions from parent objects in&nbsp;Adobe Workfront.
+Objects inherit permissions from parent objects in  Adobe Workfront.
 
 For information about the hierarchy of objects in Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
@@ -101,6 +101,6 @@ To view inherited permissions for a project:
    >
    >You must have Manage permissions on an object to remove the inherited permissions.
 
-&nbsp;
+  
 
-&nbsp;
+  

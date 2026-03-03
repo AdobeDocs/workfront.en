@@ -8,7 +8,7 @@ exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
 ---
 # 23.3 Agile enhancements
 
-This page describes all Boards and agile enhancements made with the 23.3 release. These enhancements were made available in the Production environment with the 23.3 release on July 20 and 21, 2023.
+This page describes all Boards and Agile enhancements made with the 23.3 release. These enhancements were made available in the Production environment with the 23.3 release on July 20 and 21, 2023.
 
 For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
@@ -112,15 +112,15 @@ For more information, see [Create or edit a board](/help/quicksilver/agile/get-s
 
 [View a video demonstration of this feature](https://video.tv.adobe.com/v/3418600/){target=_blank}
 
-## Migrate agile team Kanban cards to Boards
+## Migrate Agile team Kanban cards to Boards
 
-A new **Add to Boards** button on agile team Kanban boards allows you to add all cards from the Kanban board to a Workfront board. You can choose to create a new Workfront board or add the cards to an existing board.
+A new **Add to Boards** button on Agile team Kanban boards allows you to add all cards from the Kanban board to a Workfront board. You can choose to create a new Workfront board or add the cards to an existing board.
 
 The placement of cards on the Workfront board is based on column policies. (For example, a policy could move all cards with a status of "In Progress" to a specific column.) If there are no policies or the cards don't match the policies, the cards are placed in the leftmost column. At this time, cards in the Backlog column on the legacy board are not added to the Workfront board.
 
-The cards are not removed from the agile team Kanban board, and card status changes will sync to both boards. You can keep both boards active until you are ready to switch to Workfront Boards.
+The cards are not removed from the Agile team Kanban board, and card status changes will sync to both boards. You can keep both boards active until you are ready to switch to Workfront Boards.
 
-For more information, see [Migrate agile team Kanban cards to Workfront boards](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md). 
+For more information, see [Migrate Agile team Kanban cards to Workfront boards](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md). 
 
 [View a video demonstration of this feature](https://video.tv.adobe.com/v/3420425/){target=_blank}
 

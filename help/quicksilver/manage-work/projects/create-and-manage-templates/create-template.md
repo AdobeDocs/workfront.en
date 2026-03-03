@@ -11,13 +11,15 @@ exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 
 <!-- Audited: 10/2025 -->
 
-<div class="preview"> 
+<!--remove all instances of new/ old experience and redo the steps when the toggle is removed-->
+
+<!--<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> 
+</div> -->
 
 You can create and delete templates from the Templates area. When building a new template, you can enter the information for all of the tasks and for your future project settings. This information will then transfer to any project that you create from the template.
 
@@ -112,13 +114,11 @@ For more detail about the information in this table, see [Access requirements in
 
    Click **New Template Task** to start adding tasks to your template in the **New Template Task** box.
 
-   ![New Template Task box](assets/new-template-task-box.png)
+   The **Create Template Task** box opens in the new experience.
 
-   <span class="preview">The **Create Template Task** boxopens in the new experience.</span>
+   ![New experience for New Template Task](assets/new-template-task-box-unshimmed.png)
 
-1. <span class="preview">(Conditional) Using the new experience, update information in the following areas in the **Create Template Task** box:</span>
-
-   <div class="preview">
+1. (Conditional) Using the new experience, update information in the following areas in the **Create Template Task** box:
 
    * Template Task Name
    * Overview
@@ -128,18 +128,19 @@ For more detail about the information in this table, see [Access requirements in
    * Documents
    * Settings 
 
-   </div>
-
 1. Click **Create template task**
    
    Or 
    
-   <span class="preview">Click **Switch back to old experience** at the bottom of the **Create Template Task** box.</span>
-   <span class="preview">The **New Template Task** opens in the old experience.</span>
+   Click **Switch back to old experience** at the bottom of the **Create Template Task** box.
 
-      >[!TIP]
-      >
-      >In Production, the old experience opens by default.
+   The **New Template Task** opens in the old experience.
+
+   ![New Template Task box](assets/new-template-task-box.png)
+
+   >[!TIP]
+   >
+   >In Production, the old experience opens by default.
 
 1. Update information in the following areas in the **New Template Task** box:
 

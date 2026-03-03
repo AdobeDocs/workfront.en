@@ -647,6 +647,15 @@ For information about how these settings affect creating new tasks, see the sect
 
 ### Access {#access}
 
+You can define what permissions users receive for the project, as well as the tasks and issues in the project when they interact with any of these object types. 
+
+>[!IMPORTANT]
+>
+>Modifying the permissions to the project, tasks, and issues when editing the project establishes how the permissions are granted when users interact with these object types after the access is changed.
+>
+>Changing this configuration does not modify users' permissions to these object types retroactively, to items the users have already been assigned or included in. 
+
+
 1. Begin editing your project as described above.
 1. Click **Access** in the left panel.
 
@@ -684,7 +693,7 @@ For information about how these settings affect creating new tasks, see the sect
      </tr> 
      <tr> 
       <td role="rowheader"><strong>When someone is given access to this project: Indicate the default access for ...</strong></td> 
-      <td><p>Select the access options that you want users to have on the project, if the project is shared with them. Select the specific options for their access if they are designated as <strong>Viewers</strong>, <strong>Contributors</strong>, or <strong>Managers</strong> when sharing the project with them. </p><p>The <strong>Delete</strong> access in the <strong>Manage</strong> permission level determines whether users can&nbsp;delete the project itself. Users with <strong>Manage</strong> access to the project can delete tasks and issues within the project regardless of whether this option is selected, if they have <strong>Manage</strong> permissions to the tasks and issues.&nbsp;</p></td> 
+      <td><p>Select the access options that you want users to have on the project, if the project is shared with them. Select the specific options for their access if they are designated as <strong>Viewers</strong>, <strong>Contributors</strong>, or <strong>Managers</strong> when sharing the project with them. </p><p>The <strong>Delete</strong> access in the <strong>Manage</strong> permission level determines whether users can delete the project itself. Users with <strong>Manage</strong> access to the project can delete tasks and issues within the project regardless of whether this option is selected, if they have <strong>Manage</strong> permissions to the tasks and issues. </p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -878,7 +887,7 @@ To edit projects in bulk:
      For information, continue with step 7 below.
 
      <!--   
-     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
+     <p>(NOTE: make sure this stays accurate)</p>   
      
 
    * **Tasks**

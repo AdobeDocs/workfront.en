@@ -126,7 +126,7 @@ The following permissions are requested:
 | Access | Reason |
 |---|---|
 | Have full access to your files | Allows [!DNL Workfront] to access a user's files to link assets. When documents are sent from [!DNL Workfront] to [!DNL SharePoint], [!DNL Workfront] requires access to create the asset. |
-| Read items in all site collections | Allows [!DNL Workfront] to read assets to enable user navigation. | 
+| Read items in all site collections | Allows [!DNL Workfront] to read assets to enable user navigation. |
 | Edit or delete items in all site collections | Allows [!DNL Workfront] to create assets in sites and site collections. Delete is used only when cleaning up after unsuccessful link attempts.|
 | Maintain access to data you have given it access to | Allows [!DNL Workfront] to generate a refresh token. |
 | Sign in and read user profile | Allows [!DNL Workfront] to use the access token to act of behalf of the user, through the OAuth2 login flow. |

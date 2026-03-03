@@ -140,16 +140,25 @@ For more information about Workfront access requirements, see [Access requiremen
 </tbody> 
 </table> -->
 
+## Considerations when creating records
+
+* Depending which workspace they are added from, records added to global record types are visible by the following types of users:
+
+    * Records added to the original workspace of a global record type are visible from the original workspace. 
+    * Records added to a secondary workspace of a global record type are visible only from the workspace they were created and the original workspace of the global record type. 
+    For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
+
+* Depending on their permissions to the workspace and record types, users can create records in the following ways: 
+
+    * Users with View permissions to the workspace and record type can create records only using the Request record button on the record type page.
+    * Users with Contribute and Manage permissions to the workspace and record type can create records using the New record button on the record type page. 
+
+    >[!IMPORTANT]
+    >
+    >A workspace manager must create a request form for the record type in order for users with View permissions to add records using a request form. Otherwise, View-permission users cannot create records.
+
+
 ## Create records using the New record or Request record button from any record type view
-
-Users with View permissions to the workspace and record type can create records only using the Request record button on the record type page.
-
-Users with Contribute and Manage permissions to the workspace and record type can create records using the New record button on the record type page. 
-
-
->[!IMPORTANT]
->
->A workspace manager must create a request form for the record type in order for users with View permissions to add records using a request form. Otherwise, View-permission users cannot create records. 
 
 {{step1-to-planning}}
   
@@ -202,7 +211,7 @@ Users with Contribute and Manage permissions to the workspace and record type ca
 
     * A new record is added to the record type, unless you chose to add it using a request form with an approval process. The approval must be granted by all approvers before the record is created. 
     * Multiple records are added to the record type, if you added records using a CSV or Excel spreadsheet. 
-    * A new request is added in the Planning tab of the Workfront Requests area, if you added the request by submitting a request form. 
+    * A new request is added in the Workfront's Requests area, if you added the request by submitting a request form. 
 
 <!-- this is not possible anymore: 
 
@@ -523,11 +532,13 @@ Click its name to open the details page and add information there.
 
 ## Create records by submitting a request form to a record type
 
-After someone creates a request form for a record type and shares a link to it with you, you can submit a request which creates a record for that record type. 
+After someone creates a request form for a record type and either publishes it to the Requests area or shares a link to the request form with you, you can submit a request which creates a record for that record type. 
 
 For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 Both Workfront users and users external to your organization can submit requests to Planning record types and create records, if they have a link to the request form.
+
+Only Workfront users can add requests that create records from the Requests area of Workfront. 
 
 For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
 

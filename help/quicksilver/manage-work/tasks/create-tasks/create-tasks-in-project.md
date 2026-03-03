@@ -110,8 +110,8 @@ To create tasks on a project:
 
 1. Go to the project where you want to create a task.
 1. Click **Tasks** in the left panel. 
-1. (Conditional) If you are currently viewing the task list in an agile view, click the **List View** icon ![](assets/list-view-in-agile-view-for-tasks.png) in the upper-right corner to display the task list. 
-1. (Optional) Click the **Plan Mode** icon ![](assets/nwe-plan-mode-icon-task-list.png) and select **Manual Save**, then select either **Standard** or **Timeline Planning**. This disables the **Autosave** option which is enabled by default.
+1. (Conditional) If you are currently viewing the task list in an Agile view, click the **List View** icon ![List view in Agile view for tasks](assets/list-view-in-agile-view-for-tasks.png) in the upper-right corner to display the task list. 
+1. (Optional) Click the **Plan Mode** icon ![Plan mode icon for task list](assets/nwe-plan-mode-icon-task-list.png) and select **Manual Save**, then select either **Standard** or **Timeline Planning**. This disables the **Autosave** option which is enabled by default.
 
    ![Select Manual Save](assets/manual-save-option.png)
 
@@ -124,7 +124,7 @@ To create tasks on a project:
    * Click **New Task** at the top of the task list.
    * Click **Add More Tasks** at the bottom of the task list.
 
-   ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
+   ![New task or add task button in a list highlighted](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
 1. (Conditional) If you clicked **New Task** do the following:
 
@@ -134,11 +134,11 @@ To create tasks on a project:
 
       To update all fields for the task, click **More Options** to open the **Create Task** box.
 
-      ![](assets/nwe-create-task-small-screen-350x272.png)
+      ![Create task small box](assets/nwe-create-task-small-screen-350x272.png)
 
       The **Create Task** box opens.
 
-      ![](assets/create-task-larger-box-nwe-350x244.png)
+      ![Create task large box](assets/create-task-larger-box-nwe-350x244.png)
 
    
       >[!NOTE]
@@ -167,7 +167,7 @@ To create tasks on a project:
 
    We recommend using this option especially when adding multiple tasks to the list.
 
-   ![](assets/add-more-tasks-inline.png)
+   ![Add more tasks inline](assets/add-more-tasks-inline.png)
 
 1. (Conditional) Do one of the following:
 
@@ -207,11 +207,11 @@ To create tasks on a project:
 
    For information, see [Filter: personal tasks](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md). 
 
-   ![](assets/personal-tasks-report.png)
+   ![Personal tasks report](assets/personal-tasks-report.png)
 1. Click a task name in the personal task report to open it. 
 
    Workfront saves personal tasks in an unlisted personal project that is always named according to this pattern: "< User's full name >'s Tasks. For example, a personal project could be named "Rick's Tasks." 
 
-1. From the task page, click the **More menu** ![](assets/more-icon.png), then click **Move**. For more information about moving tasks, see [Move tasks](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
+1. From the task page, click the **More menu** ![More icon](assets/more-icon.png), then click **Move**. For more information about moving tasks, see [Move tasks](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
 
    After you finish moving the task, the task displays on the project you selected. The project timeline might be affected by the timeline of the new task. 

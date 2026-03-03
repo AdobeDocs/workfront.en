@@ -54,9 +54,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 * [What the SPI value shows](#what-the-spi-value-shows) 
 * [How Workfront calculates SPI](#how-workfront-calculates-spi)
 
-### What the SPI&nbsp;value shows {#what-the-spi-value-shows}
+### What the SPI value shows {#what-the-spi-value-shows}
 
-Project managers understand that a SPI&nbsp;value of 1 means the project is on plan or on schedule. &nbsp;Values greater than 1 indicate a project is ahead of schedule, and values less than 1 mean a project is behind schedule. &nbsp;The further from 1, the greater deviation from the plan.
+Project managers understand that a SPI value of 1 means the project is on plan or on schedule.  Values greater than 1 indicate a project is ahead of schedule, and values less than 1 mean a project is behind schedule.  The further from 1, the greater deviation from the plan.
 
 | **SPI Value** |**Indication of "On Schedule"** |
 |---|---|
@@ -76,9 +76,9 @@ SPI = (Total Planned Hours x % Complete) / Planned Hours Scheduled to Date*
 
 *&#42;If Planned Hours Scheduled to Date = 0, SPI = 1*.
 
-Planned Hours Schedule to Date are calculated at the minute when you perform&nbsp;the calculations. It shows the number of Planned Hours planned to the current date.&nbsp;It can be recalculated automatically when you change your finance data to be accurate. There is no&nbsp;field in Workfront that indicates&nbsp;this value.
+Planned Hours Schedule to Date are calculated at the minute when you perform the calculations. It shows the number of Planned Hours planned to the current date. It can be recalculated automatically when you change your finance data to be accurate. There is no field in Workfront that indicates this value.
 
-For example, if you have a project with 1 task and the task has 10 planned hours and a 10-day Duration, the Planned Hours Schedule to Date on the 5th day are&nbsp;5.&nbsp;
+For example, if you have a project with 1 task and the task has 10 planned hours and a 10-day Duration, the Planned Hours Schedule to Date on the 5th day are 5. 
 
 ## Locate SPI in a project or task
 

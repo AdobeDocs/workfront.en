@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Manage Available Licenses in your System
 description: As an Adobe Workfront administrator, you can access information about your Workfront account, including the number of licenses purchased for your organization, as well as the number of those licenses currently in use.
-author: Lisa, Becky
+author: Lisa, Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
@@ -43,15 +43,15 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 >[!NOTE]
 >
->The following statements apply to the new plans only.
+>The following statements apply to the Select, Prime, and Ultimate packages.
 >
->For the Select plan:
+>For the Select package:
 >
 >1. System administrators cannot set limits for Home Groups.
 >2. System administrators can see only the total number of licenses used across all Home Groups.
 >3. Group administrators cannot access the Licenses page at all.
 >
->For the Prime and Ultimate plans:
+>For the Prime and Ultimate packages:
 >
 >1. System administrators can add Home Groups to the Licenses page to view the utilization of licenses in those groups, and they can also set license limits.
 >2. Group administrators can access the Licenses page and view the utilization of licenses in the groups they manage that have been added to the Licenses page by system administrators.
@@ -127,8 +127,6 @@ For more information about proof and document decision limits, see [Limited docu
 ![Monthly decision allotment](assets/monthly-decision-allotment.png)
 
 ## Add or remove a Home Group to the Licenses page {#add-or-remove-a-home-group-to-the-licenses-page}
-
-<!--A Business or Enterprise Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)-->
 
 Each user can be assigned to only one Home Group. Workfront provides a group-oriented license count by calculating how many licenses are allocated and currently used in each Home Group.
 

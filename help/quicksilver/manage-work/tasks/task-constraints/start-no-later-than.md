@@ -15,7 +15,7 @@ Start No Later Than (SNLT) is a Task Constraint that schedules a task to start p
 Consider the following when working with the SNLT constraint:
 
 * You should use the Start No Later Than constraint when the project is scheduled From Complete Date. In this case, you can provide a soft constraint on a task before it forces other dependent tasks to show as At Risk.
-* Start No Later Than is the default constraint if a project uses a schedule mode of&nbsp;Schedule from Completion Date and system or group default for the Start&nbsp;Date of a task is Today. For information about where to set the default Constraint for a new task, refer to [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Start No Later Than is the default constraint if a project uses a schedule mode of Schedule from Completion Date and system or group default for the Start Date of a task is Today. For information about where to set the default Constraint for a new task, refer to [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * When you use the SNLT constraint with a Schedule From Start Date project, Adobe Workfront schedules the task as it would an As Soon As Possible task.
 * When you move or copy a task with a SNLT constraint to another project, the constraint of the task or the dates of the project might change depending on what the constraint dates are and what the Start and Completion Dates of the project are. The following scenarios exist:
 
@@ -35,7 +35,7 @@ Consider the following when working with the SNLT constraint:
 
   For information about copying tasks, see [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-For information about how to update the Task&nbsp;Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+For information about how to update the Task Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

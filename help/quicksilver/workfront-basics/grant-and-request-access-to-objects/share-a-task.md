@@ -57,18 +57,18 @@ In addition to the considerations below, also see [Overview of sharing permissio
 * You can share tasks individually, or you can share several of them at a time, in bulk.  
   Sharing tasks is identical to sharing other objects. For more information about sharing items in Workfront, see [Share an object](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md). 
 
-* You can grant the following permissions to a task:&nbsp;
+* You can grant the following permissions to a task:  
 
    * View
    * Manage
    * Contribute  
 * When you share a task, users inherit the same permissions on all the children objects associated with the task by default. For example, they inherit the same permissions on the children tasks, issues, and documents attached to the task.   
-  For more information about the hierarchy of objects in Workfront, see&nbsp; [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  For more information about the hierarchy of objects in Workfront, see   [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
   The Workfront administrator can specify whether documents should inherit permissions from higher objects in the user's access level. For more information about restricting inherited permissions on documents, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * You can remove inherited permissions from a task.  
-  For more information about removing inherited permissions from objects, see&nbsp; [Remove permissions from objects](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+  For more information about removing inherited permissions from objects, see   [Remove permissions from objects](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Ways to share a task
 
@@ -81,7 +81,7 @@ You can share a task in the following ways:
    * Specify the permissions on any of the parent objects of the task: project, program, or portfolio. Tasks inherit the permissions from their parent objects. For information about viewing inherited permissions on objects, see [View inherited permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md). 
    * Add entities to Project Sharing on a template used to create the project the task is on. For information about sharing projects from templates, see [Share a template](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Specify the permissions on all tasks in a project when you edit the project.&nbsp;For information about managing the access to tasks on the project based on a user's permissions to the project, see the [](../../manage-work/projects/manage-projects/edit-projects.md#access) section in the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Specify the permissions on all tasks in a project when you edit the project.  For information about managing the access to tasks on the project based on a user's permissions to the project, see the [](../../manage-work/projects/manage-projects/edit-projects.md#access) section in the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
 
   >[!TIP]
   >
@@ -179,13 +179,13 @@ The following table displays what permissions you can grant users when allowing 
    <td scope="row">Add Task(s)</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Add Predecessors</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Add Issue(s)</td> 
@@ -196,26 +196,26 @@ The following table displays what permissions you can grant users when allowing 
   <tr> 
    <td scope="row">Delete Task</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row"> <p>General Task edit<br></p> </td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Change Task Status</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Edit Task Constraint</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">View Task</td> 
@@ -238,50 +238,50 @@ The following table displays what permissions you can grant users when allowing 
   <tr> 
    <td scope="row">Move Task*</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Log Hours</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Modify Planned Dates</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Accept Assignment</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Make an Assignment</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Attach Custom Form</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Edit Custom Fields</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Create an Approval Process</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Approve A Task</td> 
@@ -292,14 +292,14 @@ The following table displays what permissions you can grant users when allowing 
   <tr> 
    <td scope="row">Edit Finance*</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Add/Edit Expenses</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">View Finance</td> 
@@ -321,8 +321,8 @@ The following table displays what permissions you can grant users when allowing 
   </tr> 
   <tr> 
    <td scope="row">Share System-wide</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

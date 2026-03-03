@@ -50,7 +50,7 @@ There are two types of default information that Workfront automatically updates 
 
 * System-level default information
 
-  Your Workfront administrator or a group administrator establishes the system-level defaults for tasks in the Tasks &&nbsp;Issues area of Project Preferences. For information about task and issue preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) or [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  Your Workfront administrator or a group administrator establishes the system-level defaults for tasks in the Tasks & Issues area of Project Preferences. For information about task and issue preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) or [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 * Project-level default information
 

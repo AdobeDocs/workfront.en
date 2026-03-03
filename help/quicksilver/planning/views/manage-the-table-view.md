@@ -10,7 +10,7 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 # Manage the table view
 
 
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -185,7 +185,7 @@ You can add up to 500 fields (or columns) in a table view.
 
     The columns you add are visible to all users who access the record type and are added as new fields on the record's page.
 
-1. (Optional) Click the **Fields** icon ![Fields icon](assets/fields-icon.png) in the toolbar, find the field in the list or <span class="preview"> search for a field</span>, and unselect the toggle to the right of the field name to hide the field. 
+1. (Optional) Click the **Fields** icon ![Fields icon](assets/fields-icon.png) in the toolbar, search for a field, then unselect the toggle to the right of the field name to hide the field. 
    
 1. Do one of the following to reorder columns in the table:
 
@@ -230,6 +230,8 @@ You can add up to 500 fields (or columns) in a table view.
     >[!TIP]
     >
     >The number of hidden fields displays to the left of the Fields icon in the toolbar.
+    >
+    ><span class="preview">By default, hidden fields do not display in the record's **Details** preview box. All fields display in the record's Details page. For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
 
 
 1. Click the **Fields** icon and enable the toggle associated with the fields you want to display in the columns of the table. All fields display by default.
@@ -305,7 +307,7 @@ To add a filter to a table view:
 1. Select a table view, then click **Filters** in the upper-right corner of the table.    
 1. Click **Add condition** and add the following information: 
 
-    * <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list.
+    * Search for a field and select it when it disaplays in the list when.
 
     * **Select an option** (or a filter modifier) to define what kind of condition the field must meet
 
@@ -496,8 +498,6 @@ To add a grouping:
 
     ![Grouping applied in table view](assets/grouping-applied-in-table-view.png)
 
-    
-
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
     Or
@@ -536,7 +536,7 @@ To sort grouped records:
 
 1. (Optional) Click **Row colors** to define conditions and choose configure diferent colors for table rows.
 
-1. Click **Add color**, then <span class="preview">search for a field or </span> click the drop-down menu to display a list of fields and select it from the list. This is the field whose value you want to determine the color of a row.
+1. Click **Add color**, then search for a field then select it when it displays in the list. This is the field whose value you want to determine the color of a row.
 
     For example, to display campaigns with a status of Active in green, select **Status**, then choose a modifier and a value for the field. 
 
@@ -574,9 +574,13 @@ When you display the table view, you can also view which field another user is e
 
 1. Go to a record type page and open any view.
 1. (Conditional) If there are other users editing the records of the selected type at the same time, their avatars display in the upper-right corner of the view. 
-1. Click the drop-down menu next to the avatars, the select the **Show collaborators** toggle. The toggle is selected by default. 
+1. Click the drop-down menu next to the avatars, the turn on the **Show collaborators** setting. The setting is on by default. 
 
     ![Show collaborators toggle selected](assets/show-collaborators-toggle-selected.png)
+
+    >[!TIP]
+    >
+    >You can select the **Show collaborators** toggle from any view. The field currently edited by others is outlined only in the table view. 
 
 1. (Conditional) Open a table view, and the field which another person is actively editing is highlighted in the color corresponding to the outline of their avatar in the table view. 
 
@@ -584,9 +588,15 @@ When you display the table view, you can also view which field another user is e
 
     ![Real-time indicator table field and avatar connection](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
-    >[!TIP]
-    >
-    >You can select the **Show collaborators** toggle from any view. The field currently edited by others is outlined only in the table view. 
+    <!--maybe include a screen shot after release if they update the UI text in this list of users-->
+
+1. <span class="preview">(Optional) Click the triangle in the upper-right corner of the cell that contains the field edited by others. A list of users currently editing the field displays.</span> 
+
+>[!TIP]
+>
+><span class="preview">Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.</span>
+
+
 
 
 

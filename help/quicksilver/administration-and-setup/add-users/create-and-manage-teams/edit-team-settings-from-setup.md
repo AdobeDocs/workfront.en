@@ -94,7 +94,7 @@ For more detail about the information in this table, see [Access requirements in
      </tr> 
      <tr> 
       <td role="rowheader">Agile</td> 
-      <td>Specify whether this is an agile team. For information on agile teams and how to manage their work, see <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Create an agile team</a>.</td> 
+      <td>Specify whether this is an Agile team. For information on Agile teams and how to manage their work, see <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Create an Agile team</a>.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Work On It</td> 

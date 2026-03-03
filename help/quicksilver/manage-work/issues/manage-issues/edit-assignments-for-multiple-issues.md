@@ -47,7 +47,7 @@ For general information about assigning issues, see [Overview of modifying issue
   </tr> 
   <tr> 
    <td>Adobe Workfront license</td> 
-   <td> <p>Standard</p>
+   <td> <p>Contributor or higher</p>
    <p>Request or higher</p> </td> 
   </tr> 
   <tr> 

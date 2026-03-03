@@ -127,7 +127,7 @@ Consider the following when moving a task:
 
    * Click the **More** menu ![More icon](assets/main-more-icon.png) at the top of the task list, then click **Move to**. 
    * Right-click the selected tasks, then click **Move to**.
-   * When selecting one task, click the **More** menu ![](assets/more-icon-task-list.png) next to the task name in the list, then click **Move to**.
+   * When selecting one task, click the **More** menu ![More icon on the task list](assets/more-icon-task-list.png) next to the task name in the list, then click **Move to**.
 
    The **Move Task** box displays.
 

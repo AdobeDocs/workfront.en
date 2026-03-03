@@ -63,13 +63,13 @@ The following are two scenarios that exist when calculating duration in Adobe Wo
 
 You can indicate task Duration in both the regular time and the elapsed time between the Planned Start and Planned Completion Dates.
 
-When updating the Duration of tasks in a list, you can use the following abbreviations for indicating units of time in&nbsp;Workfront: 
+When updating the Duration of tasks in a list, you can use the following abbreviations for indicating units of time in Workfront: 
 
 | Unit of Time |Abbreviation |
 |---|---|
 | Minutes |M |
 | Hours |H |
-| Days.&nbsp;This is the default.  |D |
+| Days. This is the default.  |D |
 | Weeks |W |
 | Months |T, MO |
 | Elapsed Minutes |EM |
@@ -93,7 +93,7 @@ If you want to indicate that a task's Duration is 3 Elapsed Day, you would type 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
 -->
 
-![](assets/duration-elapsed-days-tasks-nwe-350x282.png)
+![Duration elapsed days on tasks](assets/duration-elapsed-days-tasks-nwe-350x282.png)
 
 Consider the following when indicating the Duration of a task:
 
@@ -147,7 +147,7 @@ Duration Type helps to answer the following questions:
   <tr> 
    <th scope="col"> <p><strong>Simple</strong> </p> </th> 
    <td scope="col"> <p>Determines the Planned Hours and the Duration (which are the same, for this Duration Type) based on the number of hours each assignee is allocated for. </p> <p>Workfront calculates the Planned Hours by adding up the planned allocated hours for each assignee. </p> <p>You have the ability to manually change the amount of hours that each assignee is allocated for, and the number of Planned Hours and the amount of the Duration changes accordingly. If you choose a total number of allocated hours for all the assignees, that number is divided equally between each assignee.</p> <p>For more detailed information, see <a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref">Duration Type overview: Simple</a>.</p> </td> 
-   <td scope="col"> <p>Hours are distributed evenly among assignees if you choose a total number of allocated hours. However, as the project manager, you can manually adjust the hours for each assignee. </p> <p>You can either edit Planned Hours and Duration of a task with a Simple Duration Type inline or at the task level. </p> <p>If an agile team is assigned to a task, the Duration Type is automatically set to Simple and cannot be changed. The task duration for an agile team must be greater than 0 minutes.</p> </td> 
+   <td scope="col"> <p>Hours are distributed evenly among assignees if you choose a total number of allocated hours. However, as the project manager, you can manually adjust the hours for each assignee. </p> <p>You can either edit Planned Hours and Duration of a task with a Simple Duration Type inline or at the task level. </p> <p>If an Agile team is assigned to a task, the Duration Type is automatically set to Simple and cannot be changed. The task duration for an Agile team must be greater than 0 minutes.</p> </td> 
   </tr> 
  </tbody> 
 </table>

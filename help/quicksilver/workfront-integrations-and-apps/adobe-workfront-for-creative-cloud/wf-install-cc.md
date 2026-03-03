@@ -153,7 +153,7 @@ To fix this issue,
 
    >[!TIP]
    >
-   >On a Mac, Go to Finder, press **Command+Shift+.** to display hidden folders, navigate to **/Users//Library/Application Support**, then delete the **Workfront** folder.
+   >On a Mac, go to Finder, press **Command+Shift+G**, navigate to  `~/Library/Application Support/Workfront`, then delete the **Workfront** folder.
 
 
 1. Navigate back to the plugin and enter your Workfront domain. The domain must be `company-name.my.workfront.com` and not `experience.adobe.com`.

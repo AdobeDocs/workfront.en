@@ -13,4 +13,4 @@ exl-id: 2e03b6ef-3218-4f3a-a768-3c4c20c7d48c
 
 This section contains the following articles:
 
-* [Custom statuses not showing up on the agile story board](../../agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
+* [Custom statuses not showing up on the Agile story board](../../agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)

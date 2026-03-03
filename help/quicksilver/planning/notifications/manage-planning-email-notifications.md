@@ -21,8 +21,8 @@ You can receive email notifications from Workfront Planning when the following s
 * Someone tags you or your teams in a record comment
    
    For information about tagging others in a record comment, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
-* Someone asks for your permission to access a view or a workspace
-* Someone confirms your access has been granted for a view or a workspace <!--Isk confirmed that there is nno email for denying access but did not test-->
+* Someone asks for your permission to access a view, a workspace, or record type <!--or <span class="preview">or a record</span>-->
+* Someone confirms your access has been granted for a view, workspace, or record type <!--<span class="preview">or record</span>--> <!--Isk confirmed that there is nno email for denying access but did not test-->
 * You submit a Workfront Planning request. For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * Someone approves or rejects a Workfront Planning request that you submitted. For information, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
 * The status changes to a Workfront Planning request that you submitted.
@@ -154,17 +154,17 @@ OLD:
 
 ## Manage email notifications when requesting and granting permissions
 
-1. (Conditional and optional) After someone requests or grants you permissions to access a view or a workspace, go to the email that informs you of the permission request. The sender of the email is Adobe Experience Cloud. 
+1. (Conditional and optional) After someone requests or grants you permissions to access a Planning object type, go to the email that informs you of the permission request. The sender of the email is Adobe Experience Cloud. 
 
 1. (Optional) Click the message in the **Workfront** box inside the email. 
 
-   The record details page opens in Workfront. You can make updates to the record, or reply to the comment. 
+   The object you asked permissions for opens in Workfront. 
 
 1. (Conditional) If available, click **View all notifications**. 
     The **Notifications** page opens in Adobe Experience Cloud. All notifications from all Adobe Experience Cloud applications display. 
 
 
-For information about requesting, granting, or denying permissions to a view or a workspace, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). 
+For information about requesting, granting, or denying permissions, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). 
 
 For information about managing your Workfront Planning notifications, see [Manage Adobe Workfront Planning notification preferences](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
 

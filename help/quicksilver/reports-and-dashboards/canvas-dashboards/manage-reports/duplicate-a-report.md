@@ -5,6 +5,7 @@ title: Duplicate a report in a Canvas Dashboard
 description: You can duplicate a report in a Canvas dashboard.
 author: Courtney and Jenny
 feature: Reports and Dashboards
+exl-id: e0f9d091-bb89-4c5b-a18d-b1e339084e67
 ---
 # Duplicate a report in a Canvas Dashboard
 

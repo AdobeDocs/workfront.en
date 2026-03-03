@@ -5,7 +5,7 @@ content-type: reference
 product-area: system-administration
 keywords: access,level,system,administrator,standard,light,contributor
 navigation-topic: access-levels
-description: See a comparison of functionality available to different licenses in the old and new licensing model.
+description: See a comparison of functionality available to different licenses in the legacy and new licensing model.
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -13,7 +13,12 @@ exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
 ---
 # Compare functionality across license models
 
-This table shows the functionality available to licenses in the legacy and new licensing model.
+There are two types of access levels in Adobe Workfront: 
+
+* New access levels. For information, see [New access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+* Legacy access levels. For information, see [Access levels overview](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). 
+
+The following table shows the functionality available to licenses in the legacy and new licensing model.
 
 <table style="table-layout:auto"> 
  <col> 

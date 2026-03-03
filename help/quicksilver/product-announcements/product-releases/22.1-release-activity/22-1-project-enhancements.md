@@ -111,7 +111,7 @@ Prior to this enhancement, this functionality existed only when you converted th
 
 For more information, see [Convert an issue to a project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
-## Filter by user list on agile boards shows users with most assignments first
+## Filter by user list on Agile boards shows users with most assignments first
 
 >[!NOTE]
 >

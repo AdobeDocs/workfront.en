@@ -19,7 +19,7 @@ exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
 Your Adobe Workfront license type works in conjunction with your Adobe Workfront Planning permissions to give the following access: 
 
 * View, contribute, or manage workspaces or record types
-* View or manage views.
+* View or manage views. <!--<span class="preview">and records</span>-->
 
 For information about permissions to objects in Workfront Planning, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
 
@@ -42,7 +42,7 @@ Consider the following when working with record type permissions:
 
 | Adobe Workfront license type                                   | Highest permissions allowed in Adobe Workfront Planning                                                                                                                                             |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Standard                     | <p>Users can manage workspaces, record types, and views. They can create, edit, or delete workspaces, record types, records, fields, and views.</p> <br> <p>System administrators have Manage permissions to all workspaces, including the ones they did not create.</p>                                                                                                                     |
+|Standard                     | <p>Users can manage workspaces, record types, <!--<span class="preview">records</span>--> and views. They can create, edit, or delete workspaces, record types, records, fields, and views.</p><br><p>System administrators have Manage permissions to all workspaces, including the ones they did not create.</p>                                                                                                                     |
 | Light or Contributor  | <p>Users can view the workspaces shared with them, as well as the record types, records, and fields of those workspaces.</p> <br> <p>Users can view the views shared with them, but they cannot create their own. </p><br> <p>Users cannot create, edit, or delete workspaces, record types, records, or fields.</p>|
 
 <!--Old: 

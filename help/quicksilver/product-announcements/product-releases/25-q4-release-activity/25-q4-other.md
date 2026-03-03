@@ -63,7 +63,9 @@ Your Workfront administrator will receive an Announcement Center message regardi
 
 For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3412388/){target=_blank}## Updates to enhanced lists
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+
+## Updates to enhanced lists
 
 >[!NOTE]
 >

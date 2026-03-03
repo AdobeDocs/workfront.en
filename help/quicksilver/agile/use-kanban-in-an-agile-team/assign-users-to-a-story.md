@@ -43,7 +43,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Kanban team from the drop-down menu or search for a team in the search bar.
 
-1. Go to the agile [!UICONTROL Kanban] board where you want to assign users.
+1. Go to the Agile [!UICONTROL Kanban] board where you want to assign users.
 1. Go to the story tile on the [!UICONTROL Kanban] board where you want to add a user.
 1. Click the team avatar on the story tile (or a user avatar if one is already assigned), begin typing the name of the user you want to assign to the story, then click the name when it appears. You can also choose a suggested user.
 

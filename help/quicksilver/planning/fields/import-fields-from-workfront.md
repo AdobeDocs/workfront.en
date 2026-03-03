@@ -157,7 +157,7 @@ For more information about Workfront access requirements, see [Access requiremen
     | Calculated*                              | Formula                       |
     | Date                                     | Date                          |
     | Checkbox group                           | Multi-select                  |
-    | Radio button                             | Multi-select                  | 
+    | Radio button                             | Multi-select                  |
 
     *Calculated fields will be available at a later date.
     All other Workfront field types are not supported in Workfront Planning. 

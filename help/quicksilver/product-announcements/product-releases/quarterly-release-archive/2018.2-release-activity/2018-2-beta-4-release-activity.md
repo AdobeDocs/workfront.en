@@ -57,7 +57,7 @@ For more information, see&nbsp;&nbsp;in the article .
 
 ## Improved Interface for&nbsp;Configuring Statuses for an Agile Team {#improved-interface-for-configuring-statuses-for-an-agile-team}
 
-The interface for configuring statuses for an agile team has been updated with the following improvements:
+The interface for configuring statuses for an Agile team has been updated with the following improvements:
 
 * New look and feel
 * Reorder status columns via drag-and-drop&nbsp;

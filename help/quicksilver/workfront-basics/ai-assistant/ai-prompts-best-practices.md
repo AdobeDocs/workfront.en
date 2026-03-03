@@ -1,12 +1,12 @@
 ---
-title: AI Assistant prompts best practices
+title: AI Assistant prompts and best practices
 content-type: reference
 description: Learn about the best practices for using AI Assistant and view a list of prompt examples.
 author: Jenny
 feature: Get Started with Workfront
 exl-id: 34a60482-e060-49f9-bbaf-8aed85845e26
 ---
-# AI Assistant prompts best practices
+# AI Assistant prompts and best practices
 
 Workfront's AI Assistant is a powerful tool that can help you accomplish your work more effectively by offering useful information about your account data and specific object types. 
 

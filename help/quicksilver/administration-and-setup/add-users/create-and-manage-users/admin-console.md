@@ -232,6 +232,16 @@ For information on editing a single user in the Adobe Admin Console, see [Edit u
 
 For information on bulk editing users in the Adobe Admin Console, see 
 [Edit user details](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html#edit-user-details) in the article Manage multiple users in the Adobe documentation.
+
+## Delete a user
+
+>[!NOTE]
+>
+>* If a user is in an Admin Console User Group(s), and the product profile has been added to one or more of those User Groups, deactivating the user from Workfront will not actually remove them from the product. The user must be removed from the User Group(s) in Admin Console.  
+>* Deleting a user from the Adobe Admin Console deactivates the user in Workfront, but does not delete them from Workfront.
+
+For instructions on deleting users in the Adobe Admin Console, see  [Manage directory users](https://helpx.adobe.com/enterprise/using/manage-directory-users.html) in the Adobe documentation.
+
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>

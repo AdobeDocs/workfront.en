@@ -15,7 +15,7 @@ For a list of all changes available with the 23.1 release, see [23.1 Release ove
 
 ## Scrum planning for Workfront Boards
 
-The new Scrum planning features in Adobe Workfront Boards offer flexible options to manage your agile processes. Using these tools, you can:
+The new Scrum planning features in Adobe Workfront Boards offer flexible options to manage your Agile processes. Using these tools, you can:
 
 * Track work in iterations or sprints
 * Use velocity to guide team commitments

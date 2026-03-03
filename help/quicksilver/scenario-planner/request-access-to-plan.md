@@ -2,15 +2,17 @@
 product-area: enterprise-scenario-planner-product-area
 keywords: plan,permissions,share,initiatives,,scenarios,scenario
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Request Access to a Plan in the Scenario Planner
+title: Request Permissions to a Plan in the Scenario Planner
 description: You can request access to a plan in the Adobe Workfront Scenario Planner when the link to the plan is shared with you.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
 ---
-# Request access to a plan in the [!DNL Scenario Planner]
+# Request permissions to a plan in the [!DNL Scenario Planner]
 
-You can request access to a plan in the [!DNL Adobe Workfront Scenario Planner] when the link to the plan is shared with you.
+<!--Audited: 11/2025-->
+
+You can request permissions to a plan in the [!DNL Adobe Workfront Scenario Planner] when the link to the plan is shared with you.
 
 ## Access requirements
 
@@ -89,7 +91,7 @@ Before you can request access to a plan in the [!DNL Scenario Planner], you must
 >
 >If you do not have access level rights to the [!DNL Scenario Planner] and you try to access a plan from a link, you cannot request access to the plan. Instead, a screen displays informing you to contact the [!DNL Workfront] administrator.
 
-## Request access for plans in the [!DNL Workfront Scenario Planner]
+## Request permissions for plans in the [!DNL Workfront Scenario Planner]
 
 If you do not already have permissions to a plan and you navigate to it from a link shared with you, a screen displays to inform you that you do not have permissions to view the plan. You are prompted to request permissions from the plan creator.
 
@@ -101,7 +103,7 @@ To request permissions:
 
 1. Click a link to a plan.
 
-   ![Request access to plan](assets/request-access-to-plan-350x277.png)
+   ![Request permissions to plan](assets/request-access-to-plan-350x277.png)
 
 1. In the **[!UICONTROL Request access to]** drop-down menu, indicate what level of permissions you wish to be granted. Select from the following:
 

@@ -160,10 +160,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 ## Share a goal
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+{{step1-to-goals}}
 
    The Goal List displays. 
 
@@ -242,32 +239,32 @@ The following table lists the permissions that you can grant when sharing a goal
   <tr> 
    <td>Edit results or activities</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Add results or activities for the goal</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Associate a project as an activity to the goal**</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Delete goal</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Delete results or activities</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>Disconnect projects from the goal</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -280,4 +277,4 @@ For information about project access level, see [Grant access to projects](../..
 
 For information about project permissions, see [Share a project in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-&nbsp;
+ 

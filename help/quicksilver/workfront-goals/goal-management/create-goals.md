@@ -213,12 +213,10 @@ Creating goals differs depending on what environment you use.
 
 -->
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper right corner, then click **Goals**. 
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+{{step1-to-goals}}
 
    The goal list displays.
+   
 1. Click **New goal**.  
 
    The New goal box displays.  

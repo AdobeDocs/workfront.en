@@ -40,7 +40,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new [!UICONTROL Scrum] team from the drop-down menu or search for a team in the search bar.
 
-1. Go to the agile iteration or project that contains the story board where you want to assign users. For information about how to navigate to an iteration, see [View an iteration](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
+1. Go to the Agile iteration or project that contains the story board where you want to assign users. For information about how to navigate to an iteration, see [View an iteration](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
 1. Go to the story tile on the story board where you want to add a user.
 1. Click the team avatar on the story tile (or a user avatar if one is already assigned), begin typing the name of the user you want to assign to the story, then click the name when it appears. You can also choose a suggested user.
 

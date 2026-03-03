@@ -13,7 +13,7 @@ exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
 
 You can add any task or issue to a [!UICONTROL Kanban] board if you have Manage access to the project. Keep the following in mind when moving a task or issue to a [!UICONTROL Kanban] board:
 
-* If the task or issue is assigned to an agile team and moved to another team's [!UICONTROL Kanban] board, the team assignment does not change.
+* If the task or issue is assigned to an Agile team and moved to another team's [!UICONTROL Kanban] board, the team assignment does not change.
 * If the task or issue is not assigned to a team, the task or issue is assigned to the team who owns the Kanban board.
 
 ## Access requirements

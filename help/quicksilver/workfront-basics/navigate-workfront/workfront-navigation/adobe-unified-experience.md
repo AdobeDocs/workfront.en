@@ -102,6 +102,9 @@ This menu allows you to:
 
 * Choose **[!UICONTROL Dark theme]** formatting for [!DNL Adobe Experience Cloud].
 * Set **[!UICONTROL Preferences]** for [!DNL Adobe Experience Cloud], including primary and secondary language preferences.
+   >[!NOTE]
+   >
+   >Your date settings are based on your primary language settings. For example, selecting **English (United States)** displays dates in MM/DD/YYYY format, while selecting **English (United Kingdom)** dispays dates in DD/MM/YYYY format.
 * Access your **[!UICONTROL [!DNL Workfront] Profile]**. Once you are on the profile, click the **[!UICONTROL More]** menu ![More menu](assets/more-icon.png) and select **[!UICONTROL Edit]**. For more information about the profile, see [Configure My Settings](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Sign out]** of Adobe Experience Cloud.
 

@@ -54,7 +54,7 @@ Consider the following when connecting and creating Workfront objects to Workfro
 
     * The table view of a record type
     * The Details area of a record in the connection field
-    * The Connected record page of a record, in the Details area
+    * The Connected record page of a record
 
 * You can create portfolios and programs from the following areas of Workfront Planning:
 
@@ -82,14 +82,7 @@ For information about connecting Planning records with Workfront objects, see [C
 <p>Any Workfront and any Planning package</p> <p>Any Workflow and any Planning package</p>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
-<tr> 
-<td> 
-   <p> Additional products</p> </td> 
-   <td> 
-    <p>In addition to Adobe Workfront, you must have an Adobe Experience Manager Assets license and an integration between AEM Assets and Workfront, to connect AEM assets with Planning records.</p>
-    <p>For information, see <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p>
-   </td> 
-  </tr>   
+
 <tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
@@ -228,7 +221,7 @@ To create projects as you are connecting them from other records:
 
 1. Add a **Connected records page** for projects. 
     
-    For information, see the "Add a Connected records page to a record" section in the article [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md). 
+    For information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md). 
 
     The Connected records page displays in the table view. Connected projects display in the table. 
 

@@ -30,7 +30,7 @@ You must have the following access to create and manage portfolios:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Any</p>
-   <p>[!UICONTROL Business] or higher</p> </td> 
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 

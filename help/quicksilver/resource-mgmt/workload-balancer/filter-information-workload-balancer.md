@@ -66,8 +66,6 @@ This article contains information about filters in the Workload Balancer. For in
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
-
 ## Overview of filters in the Workload Balancer
 
 Consider the following when working with filters in the Workload Balancer:
