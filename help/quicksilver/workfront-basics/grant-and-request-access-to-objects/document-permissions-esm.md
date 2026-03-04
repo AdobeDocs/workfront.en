@@ -58,7 +58,6 @@ For more detail about the information in this table, see [Access requirements in
 +++
 
 
-
 ## Share documents in the legacy documents area
 
 If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
@@ -67,7 +66,13 @@ If your organization is on legacy Workfront storage, you will see the legacy doc
 
 ### Share documents in bulk 
 
-### add a linked object - more of a move?
+have to share the folder - don't document 
+
+### Move a folder
+
+Replace by moving 
+
+Move a document to the folder - anyone with access to folder can see the doc 
 
 ### Document permissions 
 
@@ -290,3 +295,39 @@ Can share a link?
   For more information about restricting inherited permissions on documents, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
   You can manually remove inherited permissions on documents. For more information, see [Remove permissions from objects](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
+
+
+
+
+
+
+## Documents
+
+### Permissions
+
+Document permissions are inherited from the task/issue/request
+
+Task/issue permissions inherited from project still?
+
+Inheritance rules apply automatically: subtasks inherit associations from their parent tasks, and subfolders inherit associations from their parent folders. Inherited associations cannot be overridden unless the asset is moved to a different parent.
+
+Cannot grant view access to a document. Only manage access.
+
+### Sharing
+
+stuff and things
+
+Share a document folder?
+
+
+
+
+### Uploading
+
+Users can upload documents to a project, task or issue. All documents are stored at the project level and can be interacted with via linked objects on folders at the project level. 
+
+Documents remain in their original project-level folders, preserving the existing folder structure and maintaining compatibility with Frame.io and ESM. 
+
+Users can link or reassign documents and folders.  Linked objects are visible in both grid and list views, and clear indicators show which assets belong to which tasks or issues.
+
+
