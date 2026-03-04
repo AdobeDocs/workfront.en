@@ -407,12 +407,12 @@ To edit fields in the Finance area:
     <col> 
     <tbody> 
      <tr>
-      <td><strong>Use date-effective exchange rates from the system</strong></td>
-      <td><p>When this option is selected, the system-level date-effective exchange rates are always used, and exchange rate overrides are not permitted on the project.</p> <p>You must also select the <strong>Exchange Rate Date</strong> to start from, when the option is selected.</p> <p>NOTE: You must have the Workflow Ultimate package to use this feature.</p></td> 
+      <td><strong><span class="preview">Use date-effective exchange rates from the system</span></strong></td>
+      <td><p><span class="preview">When this option is selected, the system-level date-effective exchange rates are always used, and exchange rate overrides are not permitted on the project.</span></p> <p><span class="preview">You must also select the <strong>Exchange Rate Date</strong> to start from, when the option is selected.</span></p> <p><span class="preview">NOTE: You must have the Workflow Ultimate package to use this feature.</span></p></td> 
      </tr>
      <tr>
-      <td><strong>Preserve project billing rates information</strong></td>
-      <td><p>When you enable this option, all assignment billing rates are permanently frozen to the highest applicable rate from the billing hierarchy. This is a one-time selection, and you cannot disable the option once the project has assignments or hours. After preservation, assignment billing rates cannot be changed, edited, or overridden anywhere on the project.</p><p>NOTE: You must have the Workflow Ultimate package to use this feature.</p></td>
+      <td><strong><span class="preview">Preserve project billing rates information</span></strong></td>
+      <td><p><span class="preview">When you enable this option, all assignment billing rates are permanently frozen to the highest applicable rate from the billing hierarchy. This is a one-time selection, and you cannot disable the option once the project has assignments or hours. After preservation, assignment billing rates cannot be changed, edited, or overridden anywhere on the project.</span></p><p><span class="preview">NOTE: You must have the Workflow Ultimate package to use this feature.</span></p></td>
      </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Currency</strong> </td> 
