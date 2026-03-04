@@ -313,6 +313,10 @@ For more information, see [Configure event notifications for everyone in the sys
 
   Some dates are added automatically. For example, if Cost Rate 1 does not have an end date, and you add Cost Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Cost Rate 1 so that no gaps exist.
 
+* <span class="preview">**Cost rate override allowed**: Turn on this option to allow cost rate overrides for this user on projects.</span>
+
+  {{ultimate-package}}
+
 * **Billing Rate**: The amount of billing per hour for the user.
 
   For date effective billing rates, click **Add Rate**. Enter the value of the billing rate for the time period, and assign a Start Date and End Date as needed. Billing Rate 1 will not have a start date and the last billing rate will not have an end date.
