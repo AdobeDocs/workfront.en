@@ -129,3 +129,7 @@ Report permissions granted through the folder permissions are removed when the f
 ## New list experience for shareable folders
 
 When you access shareable folders in the Reports area, you will see a new list experience that allows you to easily view and manage your folders and reports. For more information about the new list experience, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+>[!NOTE]
+>
+>Advanced fields are not supported in the enhanced list experience. To work with these fields, you can create a report.
