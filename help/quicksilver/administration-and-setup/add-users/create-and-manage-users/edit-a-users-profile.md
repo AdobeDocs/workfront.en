@@ -38,8 +38,8 @@ For information about users updating their own profiles, see [Configure my setti
  <tbody> 
   <tr> 
    <td>Adobe Workfront package</td> 
-   <td><p>For access to edit a user's profile: Any Workfront or Workflow package</p>
-       <p>For access to add rate attributes to the profile: Workflow Ultimate</p></td> 
+   <td><p>To edit a user's profile: Any Workfront or Workflow package</p>
+       <p>To set rate attributes and the cost rate override: Workflow Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront license</td> 
@@ -315,8 +315,6 @@ For more information, see [Configure event notifications for everyone in the sys
 
 * <span class="preview">**Cost rate override allowed**: Turn on this option to allow cost rate overrides for this user on projects.</span>
 
-  {{ultimate-package}}
-
 * **Billing Rate**: The amount of billing per hour for the user.
 
   For date effective billing rates, click **Add Rate**. Enter the value of the billing rate for the time period, and assign a Start Date and End Date as needed. Billing Rate 1 will not have a start date and the last billing rate will not have an end date.
@@ -338,8 +336,6 @@ For information about creating custom forms, see [Create a custom form](/help/qu
 <div class="preview">
 
 ### Attributes
-
-{{ultimate-package}}
 
 Rate attributes are supported in areas of Workfront where rates exist, such as job roles and users. When attributes are applied on a user's profile, their assignments resolve automatically to the correct rates.
 
