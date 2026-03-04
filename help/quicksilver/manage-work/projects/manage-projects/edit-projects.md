@@ -42,7 +42,8 @@ Ideally, you should edit a project when the project is in the Planning status. F
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any</p> </td> 
+   <td> <p>To set system-level exchange rates for the project and preserve project billing rates: Workflow Ultimate</p>
+      <p>To edit all other settings: Any Workfront or Workflow package</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -408,11 +409,11 @@ To edit fields in the Finance area:
     <tbody> 
      <tr>
       <td><strong><span class="preview">Use date-effective exchange rates from the system</span></strong></td>
-      <td><p><span class="preview">When this option is selected, the system-level date-effective exchange rates are always used, and exchange rate overrides are not permitted on the project.</span></p> <p><span class="preview">You must also select the <strong>Exchange Rate Date</strong> to start from, when the option is selected.</span></p> <p><span class="preview">NOTE: You must have the Workflow Ultimate package to use this feature.</span></p></td> 
+      <td><p><span class="preview">When this option is selected, the system-level date-effective exchange rates are always used, and exchange rate overrides are not permitted on the project.</span></p> <p><span class="preview">You must also select the <strong>Exchange Rate Date</strong> to start from, when the option is selected.</span></p></td> 
      </tr>
      <tr>
       <td><strong><span class="preview">Preserve project billing rates information</span></strong></td>
-      <td><p><span class="preview">When you enable this option, all assignment billing rates are permanently frozen to the highest applicable rate from the billing hierarchy. This is a one-time selection, and you cannot disable the option once the project has assignments or hours. After preservation, assignment billing rates cannot be changed, edited, or overridden anywhere on the project.</span></p><p><span class="preview">NOTE: You must have the Workflow Ultimate package to use this feature.</span></p></td>
+      <td><p><span class="preview">When you enable this option, all assignment billing rates are permanently frozen to the highest applicable rate from the billing hierarchy. This is a one-time selection, and you cannot disable the option once the project has assignments or hours. After preservation, assignment billing rates cannot be changed, edited, or overridden anywhere on the project.</span></p></td>
      </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Currency</strong> </td> 

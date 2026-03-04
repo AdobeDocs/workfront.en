@@ -46,8 +46,8 @@ The way that you set up exchange rates affects whether users can modify exchange
  <tbody> 
   <tr> 
    <td>Adobe Workfront package</td> 
-   <td><p>For access to set up exchange rates: Any Workfront or Workflow package</p>
-       <p>For access to apply effective dates to exchange rates: Workflow Ultimate package</p></td> 
+   <td><p>To set up exchange rates: Any Workfront or Workflow package</p>
+       <p>To apply effective dates to exchange rates: Workflow Ultimate package</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront license</td> 
@@ -90,8 +90,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 <div class="preview">
 
 ## Set effective dates on a currency's exchange rates
-
-{{ultimate-package}}
 
 Effective dates for a currency's exchange rates are configured so that a rate value ends on a specific date and another rate begins. The exchange rate for the correct date is then used in financial calculations.
 
