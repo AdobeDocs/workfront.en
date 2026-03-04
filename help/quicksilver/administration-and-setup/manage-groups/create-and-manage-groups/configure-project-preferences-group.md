@@ -160,7 +160,7 @@ Configure any of the following preferences for newly created projects associated
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Schedule From</td> 
+   <td role="rowheader"><b>Schedule From</b></td> 
    <td> <p>Determine whether new projects are scheduled from Start Date or from Completion Date when they are created.</p> 
     <ul> 
      <li><strong>Start Date</strong>: New tasks default to the As Soon As Possible Task Constraint and project managers are prompted to provide a Planned Start Date for the project.</li> 
@@ -168,7 +168,7 @@ Configure any of the following preferences for newly created projects associated
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">User Time Off</td> 
+   <td role="rowheader"><b>User Time Off</b></td> 
    <td> <p>Determine whether the time off of the Primary Assignee of a task adjusts the planned dates for that task on a project.</p> 
     <ul> 
      <li> <p><strong>Consider user time off in task durations</strong>: Any time off scheduled for a task's Primary Assignee adjusts the task's planned dates if the time off occurs during the task's duration. This is the default setting. </p> <p>For example, if a task with a Constraint of As Soon As Possible is scheduled to start on June 1 and complete on June 3, and the Primary Assignee has June 2 marked for Time-off, the task's planned dates adjust to June 1 through June 4.</p> <p><b>IMPORTANT</b>: The Duration of the task does not change when you select this setting. Only the planned dates change, depending on the Task Constraint.</p> </li> 
@@ -216,7 +216,7 @@ Configure any of the following preferences for newly created projects associated
     </ul> <p>For more information about schedules, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Create a schedule</a>.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Timeline Calculations </p> </td> 
+   <td role="rowheader"> <p><b>Timeline Calculations</b></p> </td> 
    <td> 
     <ul> 
      <li><strong>Typical hours per work day</strong>: Set the number of hours in a typical workday for the users who will be working on projects. The default is 8 hours.</li> 
@@ -227,7 +227,12 @@ Configure any of the following preferences for newly created projects associated
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>Custom Quarters</strong> </p> </td> 
-   <td> <p>Configure custom yearly quarters for the users who will be working on projects. Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. You can add multiple custom quarters. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters</a>.</p> <p><b>NOTE</b>: Workfront administrators cannot unlock Custom Quarters preferences.</p> </td> 
+   <td> 
+   <!--<span class="preview">The Custom Quarters area has been removed from the Group's Project Preferences section in the Preview environment.</span>-->
+   <p>Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. A Workfront administrator can add multiple custom quarters in the <b>Setup</b> area. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters</a>.</p>  
+   <p><b>IMPORTANT<b></p>
+   <p>You cannot change the Custom Quarter configuration as a group administrator. <p>Workfront administrators cannot unlock Custom Quarters preferences so that group administrators can manage it.</p> <p>The Custom Quarters area is read-only for group administrators.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
