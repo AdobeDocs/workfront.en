@@ -331,6 +331,8 @@ Associate an existing user custom form with this user. You must create a custom 
 
 For information about creating custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
+<div class="preview">
+
 ### Attributes
 
 {{ultimate-package}}
@@ -350,6 +352,8 @@ Rate attributes are supported in areas of Workfront where rates exist, such as j
       The **Start Date** for the next set is added automatically.
 
    1. Add the attribute values for the next attribute set. These values take effect on the start date.
+
+</div>
 
 ### Comment
 
