@@ -40,7 +40,7 @@ For general information about overriding job role billing rates for projects and
   </tr> 
   <tr> 
    <td>Access level configurations</td> 
-   <td>Edit access to Projects, Financial Data, and Job Roles</td> 
+   <td>Edit access to Projects, Financial Data, and Rate Cards</td> 
   </tr> 
   <tr> 
    <td>Object permissions</td> 

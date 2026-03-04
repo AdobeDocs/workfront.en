@@ -12,6 +12,8 @@ recommendations: noDisplay, noCatalog
 ---
 # Enterprise operations capabilities overview
 
+{{highlighted-preview-article-level}}
+
 Advanced enterprise operations capabilities are a unified and scalable way to manage finances, resources, projects, and enterprise access. These capabilities provide the visibility and control that enterprises need to operate profitably and efficiently.
 
 ## Financial management
