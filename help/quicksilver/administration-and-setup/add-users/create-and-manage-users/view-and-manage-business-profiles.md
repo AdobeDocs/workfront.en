@@ -15,7 +15,7 @@ role: Admin
 
 To assign a business profile to a user, you must assign a group and an associated access level.
 
-For more information on Business Profiles, see [Business profiles overview](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/business-profiles.md).
+For more information on Business Profiles, see [Business profiles overview](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
 ## Create a business profile for a user
 
