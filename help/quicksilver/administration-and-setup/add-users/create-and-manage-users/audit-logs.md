@@ -62,7 +62,7 @@ The following fields are recorded in every audit log entry:
 
 * [Access Level](#access-level) 
 * [Business Profiles](#business-profiles)
-* [Business Rules](#business-rules)
+* <span class="preview">[Business Rules](#business-rules)</span>
 * [Company](#company) 
 * [Condition](#condition) 
 * [Custom Field](#custom-field) 
@@ -96,6 +96,8 @@ The system generates an Access Level log entry when a user does one of the follo
      >
      >For example, if a user changes the Planner access type from View to Edit, the system does not display information contained in the Fine-tune your settings drop-down menu.
 
+<div class="preview">
+
 ### Business Profiles
 
 The system generates a Business Profile audit log entry when a user does one of the following:
@@ -103,6 +105,8 @@ The system generates a Business Profile audit log entry when a user does one of 
 * Creates a business profile
 * Edits a business profile:
 * Deletes a business profile
+
+</div>
 
 ### Business Rules
 
