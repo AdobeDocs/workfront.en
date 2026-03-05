@@ -78,7 +78,7 @@ The following sections contain articles that describe in detail the features cur
     * Planning in-app notifications
     * Planning email notifications
 
-## Additional features available for Workfront Planning
+## Additional capabilities available for Workfront Planning
 
 * [Adobe Workfront Planning API basics](/help/quicksilver/planning/general/planning-api-basics.md): The goal for the Adobe Workfront Planning API is to simplify building integrations with Planning by introducing a REST-ful architecture that operates over HTTP.
 
@@ -92,3 +92,10 @@ The following sections contain articles that describe in detail the features cur
 
 * **Workfront Planning reporting capabilities**: You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
+## Workfront Planning release activity 
+
+<!--update this with the new release activity page - the article index for all Planning releases-->
+
+We are releasing new features to Workfront Planning regularly. 
+
+For an up-to-date list of released features, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md). 
