@@ -15,6 +15,8 @@ exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 As an Adobe Workfront administrator, you can create custom access levels and apply them to users. As you work with access levels, it is important to understand how they work together with the object permissions that users grant when they share objects with each other. For more information about access levels, see:
 
 * [New access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
@@ -187,6 +189,16 @@ For more detail about the information in this table, see [Access requirements in
      </tr> 
     </tbody> 
    </table>
+
+
+1. (Optional) To restrict users with this access level from seeing specific fields, add the fields in the Add restricted fields section.
+ 
+   You can search for both native and custom fields in this section. There is a limit of 20 restricted fields.
+
+   The fields are restricted when the access level is assigned to a user as their primary access level or through a business profile. For more information on business profiles, see [Business profiles overview](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
+
+   A restricted field is still visible to the users in the system, but appears as blank or displays N/A instead of actual data.
+
 
 1. (Conditional and optional) If your Workfront system is set up for users that belong to multiple companies, restrict the visibility to other users based on what company they belong to in the section **People in other companies should only view users from**.
 
