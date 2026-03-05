@@ -49,6 +49,46 @@ You cannot restrict document inheritance access.
 
 No changes to document access levels or behavior.
 
+## Object permissions
+
+Object permissions are different on projects using ESM storage. 
+
+## Project permissions
+
+Users with project-level permissions can view and manage documents for projects in other Adobe products like Frame.io and Adobe Creative Cloud. They will also see project names in other Adobe products. 
+
+## Tasks and issues permissions
+
+Documents are stored at the project level can be associated with tasks and issues. Tasks and issues inherit permissions from the project but can be refined at the task level. 
+
+Users with task and issue access automatically inherit document access from the project. You cannot modify their level of access. They can have manage access or no access.
+
+## Document permissions
+
+Individual document permissions are not available for projects using Adobe enterprise storage. Instead, document permissions are determined at the project, task, or issue level.
+
+Users with access to the project, task, or issue will have access to all documents associated with that object. You cannot modify their level of access. They can have manage access or no access.
+
+Folders and subfolders do not have permissions and inherit permissions from the project, task, or issue. You cannot modify their level of access. They can have manage access or no access.
+
+Any documents outside of a folder at the project level cannot be seen at the task level. 
+
+THe only way to see tasks at the task and issue leves is through folders. 
+
+### Folders
+
+
+
+### Approvals
+
+When a user is added to a document approval workflow, they will be able to see the following information in Workfront and other Adobe products, such as Frame.io and Adobe Creative Cloud, regardless of project permissions:
+
+* Project name
+* Document name
+* Document thumbnail 
+
+
+
 
 ## Document permissions and folder sharing
 
