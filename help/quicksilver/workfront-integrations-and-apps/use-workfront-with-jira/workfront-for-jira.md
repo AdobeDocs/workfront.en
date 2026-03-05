@@ -13,7 +13,7 @@ exl-id: 924f3c9b-394d-4637-b981-9062c1fdd5aa
 
 >[!IMPORTANT]
 >
->To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Jira integration will not be available after **February 28, 2026**. 
+>To deliver more stable and scalable integrations, we've shifted to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Jira integration **is no longer available**. 
 >
 >We recommend using Workfront Automation and Integration for your organization's integration needs with Jira. 
 >
@@ -39,6 +39,8 @@ exl-id: 924f3c9b-394d-4637-b981-9062c1fdd5aa
 
 <!-- Audited: 5/2025 -->
 
+<!--
+
 This section contains the following articles:
 
 * [Install [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
@@ -46,3 +48,5 @@ This section contains the following articles:
 * [Link items between [!DNL Adobe Workfront] and [!DNL Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
 * [Update linked items between [!DNL Jira] and [!DNL Adobe Workfront]](../../workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
 * [View the [!UICONTROL [!DNL Jira] Activity Log]](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)
+
+-->
