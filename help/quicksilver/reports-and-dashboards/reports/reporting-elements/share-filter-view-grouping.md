@@ -161,7 +161,7 @@ Sharing filters, views, and groupings in the legacy interface is identical.
 
 1. Complete either of the following, depending on who you want to share with:
 
-   **To share with individual users, teams, roles, groups, or companies:** In the provided field, begin typing the name of the user, team, role, group, or company you want to share with, then click the name when it appears in the drop-down list.  
+   **To share with individual users, teams, roles, groups, or companies:** In the provided field, begin typing the name of the user, team, role, group,  company, or business profile you want to share with, then click the name when it appears in the drop-down list.  
    Repeat this process to share access with multiple users, teams, roles, groups, or companies.
 
       >[!TIP]

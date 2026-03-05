@@ -76,7 +76,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
     ![Share portfolio button](assets/share-portfolio-button.png)
 
-1. In the **Grant portfolio access to** field, begin typing the name of the user, team, role, group, or company you want to share the portfolio with, then click the name when it appears in the drop-down list.
+1. In the **Grant portfolio access to** field, begin typing the name of the user, team, role, group,  company, or business profile you want to share the portfolio with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
@@ -109,7 +109,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
     ![Bulk share portfolios](assets/bulk-share-portfolios.png)
 
-1. In the **Grant portfolio access to** field, begin typing the name of the user, team, role, group, or company you want to share the portfolios with, then click the name when it appears in the drop-down list.
+1. In the **Grant portfolio access to** field, begin typing the name of the user, team, role, group,  company, or business profile you want to share the portfolios with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >

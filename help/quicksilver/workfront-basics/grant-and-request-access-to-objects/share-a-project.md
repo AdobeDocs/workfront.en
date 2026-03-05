@@ -138,7 +138,7 @@ You can share a project in the following ways:
 
     ![Share project button](assets/share-project.png)
 
-1. In the **Grant project access to** field, begin typing the name of the user, team, role, group, or company you want to share the project with, then click the name when it appears in the drop-down list.
+1. In the **Grant project access to** field, begin typing the name of the user, team, role, group,  company, or business profile you want to share the project with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
@@ -184,7 +184,7 @@ You can share a project in the following ways:
 
     ![Bulk share projects](assets/bulk-share-icon.png)
 
-1. In the **Grant project access to** field, begin typing the name of the user, team, role, group, or company you want to share the projects with, then click the name when it appears in the drop-down list.
+1. In the **Grant project access to** field, begin typing the name of the user, team, role, group,  company, or business profile you want to share the projects with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >

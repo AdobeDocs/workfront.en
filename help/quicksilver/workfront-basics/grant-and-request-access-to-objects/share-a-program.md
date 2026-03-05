@@ -83,7 +83,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
     ![Share program button](assets/share-program-button.png)
 
-1. In the **Grant program access to** field, begin typing the name of the user, team, role, group, or company you want to share the program with, then click the name when it appears in the drop-down list.
+1. In the **Grant program access to** field, begin typing the name of the user, team, role, group,  company, or business profile you want to share the program with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
@@ -119,7 +119,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
     ![Bulk share programs](assets/bulk-share-programs.png)
 
-1. In the **Grant program access to** field, begin typing the name of the user, team, role, group, or company you want to share the programs with, then click the name when it appears in the drop-down list.
+1. In the **Grant program access to** field, begin typing the name of the user, team, role, group,  company, or business profile you want to share the programs with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >

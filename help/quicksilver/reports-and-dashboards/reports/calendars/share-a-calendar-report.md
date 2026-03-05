@@ -57,7 +57,7 @@ To share a calendar inside of [!DNL Workfront]:
 1. Go to the calendar you want to share.
 1. Click the **More** menu next to the calendar name, then click **Sharing**.
 ![calendar more menu](assets/more-menu-calendar.png)
-1. In the **[!UICONTROL Give Calendar access to]** field, begin typing the name of the user, team, role, group, or company that you want to share the calendar, then click the name when it displays in the drop-down list.\
+1. In the **[!UICONTROL Give Calendar access to]** field, begin typing the name of the user, team, role, group,  company, or business profile that you want to share the calendar, then click the name when it displays in the drop-down list.\
    To learn about setting permissions, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. (Optional) Repeat step 3 for each user, team, role, or group that you want to grant access to the calendar.

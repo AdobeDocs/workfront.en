@@ -95,7 +95,7 @@ You can share a task in the following ways:
 
     ![Share task button](assets/share-task-button.png)
 
-1. In the **Grant task access to** field, begin typing the name of the user, team, role, group, or company you want to share the task with, then click the name when it appears in the drop-down list.
+1. In the **Grant task access to** field, begin typing the name of the user, team, role, group,  company, or business profile you want to share the task with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
@@ -132,7 +132,7 @@ You can share a task in the following ways:
 
     ![Bulk share tasks](assets/bulk-share-tasks.png)
 
-1. In the **Grant task access to** field, begin typing the name of the user, team, role, group, or company you want to share the tasks with, then click the name when it appears in the drop-down list.
+1. In the **Grant task access to** field, begin typing the name of the user, team, role, group,  company, or business profile you want to share the tasks with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >

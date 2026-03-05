@@ -161,7 +161,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
     ![Share issue button](assets/share-issue-button.png)
 
-1. In the **Grant issue access to** field, begin typing the name of the user, team, role, group, or company you want to share the issue with, then click the name when it appears in the drop-down list.
+1. In the **Grant issue access to** field, begin typing the name of the user, team, role, group,  company, or business profile you want to share the issue with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
@@ -195,7 +195,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
     ![Bulk share issues](assets/bulk-share-issues.png)
 
-1. In the **Grant issue access to** field, begin typing the name of the user, team, role, group, or company you want to share the issues with, then click the name when it appears in the drop-down list.
+1. In the **Grant issue access to** field, begin typing the name of the user, team, role, group,  company, or business profile you want to share the issues with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
