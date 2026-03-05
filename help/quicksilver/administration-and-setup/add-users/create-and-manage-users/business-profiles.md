@@ -11,7 +11,7 @@ role: Admin
 ---
 # Business profiles overview
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for specific customers.</span>
 
 Business profiles are an enhanced permission model that allows customers such as agencies to efficiently manage user access and ensure precise control over permissions at the group level. In a business profile, users have distinct permissions to group-specific objects. Additional objects can also be shared directly with the business profile.
 
@@ -25,8 +25,6 @@ The Workfront system administrator:
 * Assigns layout templates to the access levels
 
 Any user who has access to share objects can share them with the business profile, and all users with the profile will see the object.
-
-For instructions on creating business profiles, see []().
 
 ## Business profile example
 
