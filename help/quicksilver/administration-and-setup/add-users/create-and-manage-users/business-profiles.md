@@ -8,6 +8,7 @@ description: Business profiles are an enhanced permission model that allows cust
 author: Becky
 feature: System Setup and Administration
 role: Admin
+exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
 ---
 # Business profiles overview
 
@@ -110,4 +111,3 @@ For information about how access levels and permissions work together, see [Acce
 * When a group is deleted from Workfront, all assigned business profiles for that group are removed from the associated users.
 * If an access level is part of a business profile and you delete the access level, you are prompted to choose a new access level to use instead.
 * Updates to business profiles are tracked in the Workfront audit logs. For more information, see Audit logs overview.
- 
