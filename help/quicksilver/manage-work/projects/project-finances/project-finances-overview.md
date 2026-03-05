@@ -63,13 +63,7 @@ For information about areas where you can find project financial information and
 
 [Calculate Planned Labor Cost](../../../manage-work/projects/project-finances/planned-labor-cost.md)
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/projects/project-finances/export-billing-record-details.md" class="MCXref xref" xrefformat="{para}">Export billing record details as a PDF file</a> </p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/projects/project-finances/how-workfront-calculates-finances.md" class="MCXref xref" xrefformat="{para}">How Adobe Workfront calculates finances </a> </p>
--->
+[Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)
 
 ## Billing rates
 

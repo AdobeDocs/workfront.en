@@ -1289,6 +1289,7 @@ feature-set: Workfront
       * [Change the project currency](manage-work/projects/project-finances/change-project-currency.md)
       * [Track costs](manage-work/projects/project-finances/track-costs.md)
       * [Manage project expenses](manage-work/projects/project-finances/manage-project-expenses.md)
+      * [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)
       * [Overview of Billing and Revenue](manage-work/projects/project-finances/billing-and-revenue-overview.md)
       * [Create billing records](manage-work/projects/project-finances/create-billing-records.md)
       * [Override Project-Level Billing Rates with Company-Level Billing Rates](manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
