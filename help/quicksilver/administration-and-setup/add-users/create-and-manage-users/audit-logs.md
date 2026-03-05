@@ -13,6 +13,8 @@ exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
 
 <!--Audited: 08/2025-->
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 As an Adobe Workfront administrator, you can track user-changes triggered in the system during the past 90 days using the audit logs described below.
 
 For instructions on viewing and filtering what you want to see in these audit logs, see [View and export audit logs](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
@@ -59,6 +61,7 @@ The following fields are recorded in every audit log entry:
 ## Audit log types and the actions that trigger them
 
 * [Access Level](#access-level) 
+* [Business Profiles](#business-profiles)
 * [Business Rules](#business-rules)
 * [Company](#company) 
 * [Condition](#condition) 
@@ -92,6 +95,14 @@ The system generates an Access Level log entry when a user does one of the follo
      >The system does not record any permission changes to Financial Data or within the following access types: View and Edit.
      >
      >For example, if a user changes the Planner access type from View to Edit, the system does not display information contained in the Fine-tune your settings drop-down menu.
+
+### Business Profiles
+
+The system generates a Business Profile audit log entry when a user does one of the following:
+
+* Creates a business profile
+* Edits a business profile:
+* Deletes a business profile
 
 ### Business Rules
 
