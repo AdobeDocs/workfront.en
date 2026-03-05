@@ -59,14 +59,14 @@ Users with project-level permissions can view and manage documents for projects 
 
 ### Task and issue permissions
 
-Tasks and issues inherit permissions from the project, but task-level sharing can be refined. You can remove a user from a task while still retaining that user's document access at the project level.
+Tasks and issues inherit permissions from the project, but task-level sharing can be refined. You can add users to a task or issue and by default they are given access to documents in the system-generated folder that is linked. 
 
 Document access for tasks and issues is inherited from the project and cannot be modified at the document level. Even if a user is added to a task as View only, they receive Manage access to documents associated with that task.
 
 
 * When a document is uploaded to a task, a primary folder is created automatically if one does not already exist.
-* Primary folders can be renamed and moved.
-* Adding a user to a task automatically shares that task's primary folder with the user.
+* Primary folders are created with the task name can be renamed and moved. if moved to another location, the link to the task is broken and permissions are inherited from the new object. 
+* Adding a user to a task shares that task's primary folder with the user.
 * Removing a user from a task does not automatically remove that user's folder access. If only task access is removed, users can still access the folder through project-level access.
 * Subtasks do not inherit primary folder permissions from parent tasks. Only users directly added to a task are added to that task's primary folder.
 
