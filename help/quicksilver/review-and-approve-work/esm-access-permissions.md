@@ -88,7 +88,6 @@ Linked objects are a way to associate document folders with tasks and issues. Li
 * Subfolders inherit associations from their parent folder.
 * At the project level, users can see which task or issue a document or folder is connected to.
 
-
 #### Folders
 
 Folders and subfolders do not have permissions and inherit permissions from the project, task, or issue. You cannot modify their level of access. They can have manage access or no access.
