@@ -12,9 +12,9 @@ exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
 # Configure project preferences for a group
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 If you are a group administrator and an Adobe Workfront administrator unlocks a project preference for all groups in the system, you can configure that preference for your group to affect all subsequent projects that your group creates.
 
@@ -228,7 +228,7 @@ Configure any of the following preferences for newly created projects associated
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>Custom Quarters</strong> </p> </td> 
    <td> 
-   <!--<span class="preview">The Custom Quarters area has been removed from the Group's Project Preferences section in the Preview environment.</span>-->
+   <span class="preview">The Custom Quarters area has been removed from the Group's Project Preferences section in the Preview environment.</span>
    <p>Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. A Workfront administrator can add multiple custom quarters in the <b>Setup</b> area. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters</a>.</p>  
    <p><b>IMPORTANT<b></p>
    <p>You cannot change the Custom Quarter configuration as a group administrator. <p>Workfront administrators cannot unlock Custom Quarters preferences so that group administrators can manage it.</p> <p>The Custom Quarters area is read-only for group administrators.</p>
