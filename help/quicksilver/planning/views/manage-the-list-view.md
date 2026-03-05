@@ -16,9 +16,9 @@ exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 
 {{planning-important-intro}}
 
-You can display objects and their fields in a list view, when accessing them in the Connected records page of a record, in Adobe Workfront Planning. 
+You can display projects and their fields in a list view, when accessing them in the Connected records page of a record, in Adobe Workfront Planning. <!--change 'projects' to other objects when they become available and the location of the list view-->
 
-This article describes how you can create or edit a list view in the Connected records page of a record and how you can edit the objects in the view. 
+This article describes how you can create or edit a list view that displays projects in the Connected records page of a record and how you can edit the projects in the view. <!--change 'projects' to other objects when they become available and the location of the list view-->
 
 ## Access requirements
 
@@ -66,18 +66,19 @@ For more information about Workfront access requirements, see [Access requiremen
 
 ## Considerations about list views
 
-* You cannot view records in the record type pages in a list view. You can only display the following objects in a list view when you view them in the Connected records page of a record:
+* You cannot view all object types in the record type pages in a list view. 
+
+    You can only display the following objects in a list view when you view them in the Connected records page of a record:
 
     * Workfront projects
     
     For information about creating a connected records page, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-* Before you can view a list view in a connected records page of a record you must connect Workfront projects with Planning record types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
-* List views are similar to Enhanced lists. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). 
+* Before you can view a list view in a connected records page of a record you must connect Workfront projects with Planning record types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).  
 
 
 ## Manage a list view {#manage-a-list-view}
 
-For more information about managing list views in Workfront, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). 
+List views are similar to enhanced lists. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 {{step1-to-planning}}
 
@@ -108,7 +109,7 @@ For more information about managing list views in Workfront, see [Use enhanced l
         >
         >* You cannot modify System Views. 
         >
-        >* <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+        >* <span class="preview">You can reset a view that was shared with you to which you have only permissions to View, after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
         
     1. Click the **Filter** icon ![Filter icon](assets/filter-icon.png) to add a filter to the view. Results are filtered immediately in the list. You cannot save and name filters. Filters are remembered when you access the page in future and they are part of shared views.
     1. Click the **Columns** icon ![Columns icon](assets/columns-icon.png) to select which columns to display or to hide in the view. 
@@ -121,24 +122,24 @@ For more information about managing list views in Workfront, see [Use enhanced l
     
         You can add only existing fields to the list view. 
         You cannot remove the primary field in the list view which displays in the first column. 
-
     
     1. <span class="preview">Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens.</span> <!--change the name of the box when they update it-->
         <span class="preview">Do the following: </span>
 
+        1. Click **Add condition**.
+        1. <span class="preview">In the **If** line, select  a field and choose a field value, then click **Add condition**. </span>
+
+            >[!TIP]
+            >
+            ><span class="preview">Only fields visible in the list view are available for conditional formatting.</span>
+
+        1. <span class="preview">(Optional) Click **Add condition** in the **If** line to add more conditions to the same rule.</span>
+
+            >[!TIP]
+            >
+            ><span class="preview">You can add up to 10 conditions in a conditioning rule and you can have up to 20 rules for a field.</span>
+
         <div class="preview">
-
-        1. In the **If** line, click **Add condition**, then select a field you want to format by and choose a field value. 
-
-            >[!TIP]
-            >
-            >Only fields visible in the list view are available for conditional formatting.
-
-        1. (Optional) Click **Add condition** in the **If** line to add more conditions to same rule.
-
-            >[!TIP]
-            >
-            >You can add up to 10 conditions in a conditioning rule and you can have up to 20 rules for a field.
 
         1. Click the **Or** connector between conditions to change to **And** and to indicate that multiple conditions must be met at the same time. **Or** is the default connector.  
         1. In the **Format** line, select a field to indicate which column will be formatted. <!--edit this area, if it changes names??-->
