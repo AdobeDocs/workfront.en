@@ -69,6 +69,11 @@ To create a reader account:
 
 ## Create a connection
 
+>[!IMPORTANT]
+>
+>In June 2026, username/password credentials will be required to use multi-factor authentication (MFA). We recommend transitioning to either RSA or PAT-based authentication for service user accounts used to load data from Data Connect into third-party visualization tools, data processors, and scripts that will not work with MFA in the authentication process.
+
+
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Setup**.
 
 1. In the left panel, click **System** > **Data Connect**.
