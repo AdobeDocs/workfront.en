@@ -53,7 +53,11 @@ For more detail about the information in this table, see [Access requirements in
 
  +++
 
-## Open the Summary view
+## Summary for documents in the legacy documents experience
+
+If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Open the Summary view in the legacy documents experience
 
 {{step1-to-documents}}
 
@@ -66,32 +70,32 @@ For more detail about the information in this table, see [Access requirements in
    After you open the Summary, it will remain open on this page (even if you click on other documents) until you manually close it.
 
 
-## Details
+### Details
 
 Use the Details section to view high-level overview information and interact with custom forms. Click Details at the top of the section to go to the full Document Details page.
 
 * [Overview](#overview) 
 * [Custom Forms](#custom-forms)
 
-### Overview {#overview}
+#### Overview {#overview}
 
 Expand the Overview section to view or download an image thumbnail, open a proof, update the basic description, check the document out and more.
 
 ![Document summary overview](assets/details-section.png)
 
-### Custom Forms {#custom-forms}
+#### Custom Forms {#custom-forms}
 
 Use the Custom Forms section to add, edit, or view any custom forms associated with the document. Begin typing the name of the custom form to add it to the document. For more information, see [Add or edit a custom form to a document](../../documents/managing-documents/add-custom-form-documents.md).
 
 ![Add a custom form in document summary](assets/custom-forms-section.png)
 
-## Updates
+### Updates
 
 Use the Updates section to view an update someone made on the document or proof. The summary shows the first 2 comments made. For more information on updates, see [Comment on a proof](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
 ![Updates section in Summary panel](assets/updates-section.png)
 
-## Approvals
+### Approvals
 
 Use the Approvals section to ask for a document approval. You can also remind someone about an approval, resubmit the approval and cancel the previous decision, or delete the approval. Document approvers can use the Summary to make a decision.
 
@@ -102,7 +106,7 @@ Proof approvals must be added in the Proof Workflow. For more information on app
 
 ![Document summary approvals](assets/approvals-section.png)
 
-## Versions
+### Versions
 
 Use the Versions section to view the number of versions created for a specific document. Click the More icon ![More icon](assets/more-icon.png) to do the following:
 
@@ -113,3 +117,48 @@ Use the Versions section to view the number of versions created for a specific d
 * Delete a proof or document.
 
 ![Document summary versions](assets/versions-section.png)
+
+## Summary for documents in the new documents experience
+
+If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Details
+
+Use the Details section to view high-level overview information and interact with custom forms.
+
+![Document summary details in new documents experience](assets/summary-details.png)
+
+### Approvals
+
+Use the Approvals section to create an approval workflow. You can also remind participants about an approval or delete the approval. Document approvers can access the Frame.io viewer or use the Summary to make a decision.
+
+For more information about approvals and Frame.io, see
+
+* [Get started with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
+* [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+![Document summary approvals in new documents experience](assets/summary-approvals.png)
+
+
+<!-- resubmit the approval and cancel the previous decision, or delete the approval. Document approvers can use the Summary to make a decision.-->
+
+
+### Versions
+
+Use the Versions section to view the number of versions created for a specific document. Click the More icon to do the following:
+
+* Rename a version
+* View document details
+* Request approval on a specific version
+* Open in Frame.io
+* Download the version
+* Share the version
+* Delete the version
+
+![Document summary versions in new documents experience](assets/summary-versions.png)
+
+### History
+
+Use the History section to view a list of all activities related to the document. 
+
+![Document summary history in new documents experience](assets/summary-history.png)

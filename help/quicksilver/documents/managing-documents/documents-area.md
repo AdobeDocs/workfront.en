@@ -66,24 +66,22 @@ The Document Details page provides a more full-scale version of the Document Det
 
 ## New document area
 
-
-
 >[!NOTE]
 >
->The global documents area is not available in the new documents area experience. You can only access documents from a project, task, or issue.
+>The global documents area is not available in the new documents area experience. You can only access documents from a programs, portfolios, projects, tasks, or issues.
 
-![new documents area](assets/doc)
+### Summary panel
 
+When you select a document in the documents area, you can use the Summary panel on the right to view details about the document, add and edit Custom Forms for the document., create and manage approval workflows, manage document updates and approvals, view versions of the document, and 
 
-### Folders and permissions
+### view documents from sources outside of workfront
 
-### System level folder for permissions
+### manage versions
 
-Permissions for documents is managed at the folder level. 
+### System level folder for document permissions
 
-When the first documet is uploaded to a task or issue, Workfront automatically creates a primary folder to contain all documents for that task or issue. Any user with permissions to the task or issue also has access to the primary folder and all documents within it.
+Workfront automatically creates a system-level folder when the first document is uploaded to a task or issue. These folders inherit permissions from the task or issue and are visible in the project-level documents area. All documents uploaded to that task or issue are stored in that folder and inherit permissions from it. This is the primary way that permissions are managed for documents in the new documents area. For more information, see [Document permissions and folder sharing](#document-permissions-and-folder-sharing).
 
-Primary task and issue folders display at the project level in the new documents area.
 
 ### Review and approve with Frame.io
 
