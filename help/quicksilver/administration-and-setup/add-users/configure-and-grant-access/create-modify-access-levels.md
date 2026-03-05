@@ -191,14 +191,13 @@ For more detail about the information in this table, see [Access requirements in
    </table>
 
 
-1. (Optional) To restrict users with this access level from seeing specific fields, add the fields in the Add restricted fields section.
+1. <span class="preview">(Optional) To restrict users with this access level from seeing specific fields, add the fields in the Add restricted fields section.</span>
  
-   You can search for both native and custom fields in this section. There is a limit of 20 restricted fields.
+   <span class="preview">You can search for both native and custom fields in this section. There is a limit of 20 restricted fields.</span>
 
-   The fields are restricted when the access level is assigned to a user as their primary access level or through a business profile. For more information on business profiles, see [Business profiles overview](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
+   <span class="preview">The fields are restricted when the access level is assigned to a user as their primary access level or through a business profile. For more information on business profiles, see [Business profiles overview](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).</span>
 
-   A restricted field is still visible to the users in the system, but appears as blank or displays N/A instead of actual data.
-
+   <span class="preview">A restricted field is still visible to the users in the system, but appears as blank or displays N/A instead of actual data.</span>
 
 1. (Conditional and optional) If your Workfront system is set up for users that belong to multiple companies, restrict the visibility to other users based on what company they belong to in the section **People in other companies should only view users from**.
 
