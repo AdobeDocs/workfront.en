@@ -63,7 +63,6 @@ Tasks and issues inherit permissions from the project, but task-level sharing ca
 
 Document access for tasks and issues is inherited from the project and cannot be modified at the document level. Even if a user is added to a task as View only, they receive Manage access to documents associated with that task.
 
-
 * When a document is uploaded to a task, a primary folder is created automatically if one does not already exist.
 * Primary folders are created with the task name can be renamed and moved. if moved to another location, the link to the task is broken and permissions are inherited from the new object. 
 * Adding a user to a task shares that task's primary folder with the user.
