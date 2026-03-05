@@ -16,6 +16,8 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+<!--
+
 ## Allow non-admin users to make a record type connectable 
 
 >[!NOTE]
@@ -29,6 +31,8 @@ We are now allowing non-administrators who are workspace managers to make a reco
 Before this update, non-administrators could not enable record types to be connectable. Now, they can enable the record types to be connectable from specific workspaces. They cannot enable record types to be connectable from all workspaces in the system. 
 
 For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
+
+-->
 
 ## Trigger-based automation
 
