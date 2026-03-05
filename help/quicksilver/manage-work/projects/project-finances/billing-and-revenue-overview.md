@@ -22,7 +22,7 @@ This article describes tracking revenue for projects. Revenue is calculated diff
 
 Consider the following when working with billing rates:
 
-* You need a Plan or Standard license with Edit access to Financial Data in order to manage billing rates.   
+* You need a Plan or Standard license with Edit access to Financial Data (specifically billing rates) in order to manage billing rates.
   For more information about granting access to Financial Data, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 * Billing rates are amounts of revenue per work unit associated with job roles or users.
@@ -43,10 +43,21 @@ Consider the following when working with billing rates:
 >
 >The rates that calculate the revenue belong to the user who is logging the time, or to their job roles.
 
-* [User Billing Rates](#user-billing-rates) 
-* [Job Role Billing Rates](#job-role-billing-rates) 
-* [Fixed Billing Rates for projects or tasks](#fixed-billing-rates-for-projects-or-tasks) 
-* [Override Billing Rates](#override-billing-rates)
+### Rate card billing rates
+
+{{ultimate-package}}
+
+When you have access to edit rate cards, you can define rate cards with multiple billing rates per role, based on attributes such as location and group or agency. Attributes are configurable up to five levels.
+
+A rate card must be attached to a project for its rates to be applied. When a rate is locked on the rate card, it can't be overridden at the project level.
+
+Rate card rates are part of the hierarchy for determining rates, based on the task revenue type.
+
+For more information about creating rate cards, see Manage rate cards.
+
+For more information about the rate hierarchy, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+
+![Sample rate card](assets/sample-rate-card-march2026.png)
 
 ### User Billing Rates {#user-billing-rates}
 
@@ -128,10 +139,6 @@ The following table shows the types of revenue associated with tasks, issues, an
 </table>
 
 *For Actual Hours, the user's rates always refer to the user who logs the hours or to the rates of their job roles. For information about when Workfront uses the rates of the user and when it uses the rates of their job roles, see the [Revenue calculations](#revenue-calculations) section in this article.
-
-<!--Note from the table for Planned Revenue line: 
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the note below is duplicated in this article: /Content/Resource Mgmt/Resource utilization/view-utilization-information.htm and in the glossary)</p>
-    -->
 
 For example, if a task with User Hourly Revenue Type is planned to take 2 hours and the user assigned to it has an hourly rate of $30 an hour, then the Planned Revenue of the task is $60. When the task is completed, if the user logs just 1.5 hours as the actual time spent to finish the task, the Actual Revenue amount is $45. If another user who is not assigned to the task logs the time, the Actual Revenue is calculated based on that user's Billing Rates.
 
