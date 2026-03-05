@@ -234,16 +234,19 @@ When a user sends a document from Workfront to Experience Manager Assets or Asse
 To send a document:
 
 1. Go to the **Documents** area in Workfront, and select the document you want to send.
-1. Click **Send to**, then choose the Experience Manager integration your administrator set up.
+1. In the bar at the bottom of the screen, click **Send to**.
+
+1. Choose the Experience Manager integration your administrator set up, then click **Send**.
 
    >[!NOTE]
    >
    >The Workfront administrator can choose any name for this integration, so it may not specifically mention Assets or Assets Essentials.
 
-   ![Send to](assets/send-to-aem.png)
 
 1. Choose where you want the asset to go, then click **Select Folder**.
-1. When you find your desired destination, click **Save**.
+
+
+<!-- not sure if this is in yet
 
 ### Send a new version
 
@@ -251,17 +254,19 @@ You can add a new version to a document you have previously uploaded to Workfron
 
 >[!IMPORTANT]
 >
->Before you upload a new version to Workfront, we recommend renaming the file. If you upload a new version with the exact same file name as a previous version, only the most recent version can be downloaded from Workfront. All versions can be downloaded from Experience Manager Assets or Assets Essentials regardless of the file name. <!--Is this still a thing with ESM?-->
+>Before you upload a new version to Workfront, we recommend renaming the file. If you upload a new version with the exact same file name as a previous version, only the most recent version can be downloaded from Workfront. All versions can be downloaded from Experience Manager Assets or Assets Essentials regardless of the file name. - is this accuate for ESM?
 
 To send the most recent version:
 
 1. Go to the **Documents** area in Workfront, and locate the document.
-1. Select **Send to**, then choose the Experience Manager integration your administrator set up.
+1. In the bar at the bottom of the screen, click **Send to**. 
+
+1. Choose the Experience Manager integration your administrator set up, then click **Send**.
 
    >[!NOTE]
    >
    >The Workfront administrator can choose any name for this integration, so it might not specifically mention Assets or Assets Essentials.
 
-   ![Send to](assets/send-to-aem.png)
-
 1. Click **Save**. The new version saves in the same location as the previous version.
+ 
+ -->
