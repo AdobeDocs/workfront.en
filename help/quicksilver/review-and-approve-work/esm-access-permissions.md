@@ -51,20 +51,13 @@ No changes to document access levels or behavior.
 
 ## Object permissions
 
-Object permissions determine what users can see and do with projects, tasks, issues, and documents in Workfront. Object permissions are determined by the project, task, or issue that the document is associated with.
+Object permissions determine what users can see and do with projects, tasks, issues, and documents in Workfront. Object permissions are determined when sharing an object with a user or group.
 
-
-
-
-
-
-
-
-## Project permissions
+### Project permissions
 
 Users with project-level permissions can view and manage documents for projects in other Adobe products like Frame.io and Adobe Creative Cloud. Project names are also visible outside of Workfront for ESM projects. Other project data is not visible outside of Workfront for projects on enterprise storage.
 
-## Tasks and issues permissions
+### Task and issue permissions
 
 Tasks and issues inherit permissions from the project, but task-level sharing can be refined. You can remove a user from a task while still retaining that user's document access at the project level.
 
@@ -77,23 +70,15 @@ Document access for tasks and issues is inherited from the project and cannot be
 * Removing a user from a task does not automatically remove that user's folder access. If only task access is removed, users can still access the folder through project-level access.
 * Subtasks do not inherit primary folder permissions from parent tasks. Only users directly added to a task are added to that task's primary folder.
 
-### Issues
+Issues and requests follow the same behavior as tasks.
 
-Issues follow the same behavior as tasks.
-
-* Project managers can view and manage issue folders the same way they manage task folders.
-* Primary folders for issues follow the same creation, sharing, rename, move, and link behavior as task primary folders.
-* If a user has issue access but not folder access, uploads are blocked and an error is shown.
-
-## Requests
-
-## Document permissions
+### Document permissions
 
 Individual document permissions are not available for projects using enterprise storage. Instead, document permissions are determined at the project, task, or issue level.
 
-Users with access to the project, task, or issue will have access to all documents linked with that object. You cannot modify their level of access. They can have manage access or no access.
+Users with access to the project, task, or issue will have access to all documents linked with that object. You cannot modify their level of access. Users have manage access or no access.
 
-### Linked objects
+#### Linked objects
 
 Linked objects are a way to associate document folders with tasks and issues. Linked objects can be changed at the project level. When a user uploads a document to a task or issue, a primary folder is automatically created and linked to that task or issue.
 
@@ -104,7 +89,7 @@ Linked objects are a way to associate document folders with tasks and issues. Li
 * At the project level, users can see which task or issue a document or folder is connected to.
 
 
-### Folders
+#### Folders
 
 Folders and subfolders do not have permissions and inherit permissions from the project, task, or issue. You cannot modify their level of access. They can have manage access or no access.
 
@@ -117,7 +102,7 @@ In Adobe enterprise storage, document access is driven by folder access. Documen
 * Documents outside of folders at the project level are available only to users with project-level access.
 * Users with task- or issue-level access only can see documents in the folder associated with that task or issue.
 
-### Approvals
+#### Approvals
 
 When a user is added to a document approval workflow, they will be able to see the following information in Workfront and other Adobe products, such as Frame.io and Adobe Creative Cloud, regardless of project permissions:
 
