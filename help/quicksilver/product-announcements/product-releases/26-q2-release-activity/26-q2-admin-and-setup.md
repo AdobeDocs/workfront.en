@@ -12,7 +12,7 @@ This page describes Administrator enhancements made with the Second Quarter 2026
 
 For a list of all changes available at this point in the Second Quarter 2026 release cycle, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## Custom Quarters removed from Project Preferences
+## Custom quarters are now available as a separate page in Setup
 
 >[!NOTE]
 >
@@ -20,15 +20,12 @@ For a list of all changes available at this point in the Second Quarter 2026 rel
 >Production fast release: April 15, 2026
 >Production for everyone: April 16, 2026 
 
-We have moved the Custom Quarter area from the Project Preferences section. It is now a standalone section in Setup.  
-
+We have moved the Custom Quarter area from the Project Preferences section. It is now a standalone section in Setup.  
 This update includes the following: 
 
 * The Custom Quarters area is removed from the Project Preferences section in Setup 
-
-* The Custom Quarters section is added to the Setup left panel. The functionality remains the same.  
-
-* The Custom Quarters section has been removed from the Project Preferences section of a group. Group owners don't have visibility into Custom Quarters setup anymore.  
+* The Custom Quarters section is added to the Setup left panel. The functionality remains the same.  
+* The Custom Quarters section has been removed from the Project Preferences section of a group. Group administrators no longer have visibility into the Custom Quarters setup anymore.  
 
 For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
