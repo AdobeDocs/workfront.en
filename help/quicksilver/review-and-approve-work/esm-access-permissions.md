@@ -51,62 +51,51 @@ No changes to document access levels or behavior.
 
 ## Object permissions
 
-Object permissions determine what users can see and do with projects, tasks, issues, and documents in Workfront. Object permissions are determined when sharing an object with a user or group.
+Object permissions determine what you can see and do with projects, tasks, issues, and documents in Workfront. Permissions are assigned when someone shares an object with you.
+
+>[!IMPORTANT]
+> In Adobe enterprise storage, document permissions work differently than in legacy Workfront storage. Documents use a binary permission model: you either have Manage access or no access. The traditional View and Contribute permission levels no longer apply to documents.
+
+### How document permissions work
+
+Document permissions are driven by the object the document it is linked to. You can't set permissions on individual documents.
+
+When a document is uploaded to a task or issue, a primary folder is created automatically using the task or issue name. This folder is then linked to the task or issue and is available in the task or issue's documents area.
+
+The only place you can upload a document outside of a folder is at the project level. Only users with access to the projec will be able to see it. 
+
+If you have access to a project, task, or issue, you have Manage access to all documents.
+
 
 ### Project permissions
 
-Users with project-level permissions can view and manage documents for projects in other Adobe products like Frame.io and Adobe Creative Cloud. Project names are also visible outside of Workfront for ESM projects. Other project data is not visible outside of Workfront for projects on enterprise storage.
+When you have project-level permissions, you can view and manage documents for that project in Workfront and other Adobe products like Frame.io and Adobe Creative Cloud. The project name is also visible in those tools. Other project data isn't visible outside of Workfront.
 
 ### Task and issue permissions
 
-Tasks and issues inherit permissions from the project, but task-level sharing can be refined. You can add users to a task or issue and by default they are given access to documents in the system-generated folder that is linked. 
+Tasks and issues inherit permissions from the project. When you're added to a task or issue, you receive Manage access to its documents — even if you have View-only access to the task itself. This is because document permissions are determined by the system-level folder created automatically when the document is uploaded, not the task permission level.
 
-Document access for tasks and issues is inherited from the project and cannot be modified at the document level. Even if a user is added to a task as View only, they receive Manage access to documents associated with that task.
+**Folders and tasks:**
 
-* When a document is uploaded to a task, a primary folder is created automatically if one does not already exist.
-* Primary folders are created with the task name can be renamed and moved. if moved to another location, the link to the task is broken and permissions are inherited from the new object. 
-* Adding a user to a task shares that task's primary folder with the user.
-* Removing a user from a task does not automatically remove that user's folder access. If only task access is removed, users can still access the folder through project-level access.
-* Subtasks do not inherit primary folder permissions from parent tasks. Only users directly added to a task are added to that task's primary folder.
+* When a document is uploaded to a task, a primary folder is created automatically using the task name.
+* Adding users to a task or issue shares that task's system-level folder with you.
+* Removing users from a task doesn't automatically remove your folder access. You may still have access through project-level permissions. < true?>
+* Subtasks don't inherit folder permissions from parent tasks. You must be added directly to a subtask to access its system-level folder. <system-generated folder? or primary folder?>
+
+**Moving and renaming folders:**
+
+* Primary folders can be renamed and moved.
+* If a primary folder is moved to another location, its link to the original task is broken. Permissions are then inherited from the new parent object.
 
 Issues and requests follow the same behavior as tasks.
 
-### Document permissions
+### Approvals
 
-Individual document permissions are not available for projects using enterprise storage. Instead, document permissions are determined at the project, task, or issue level.
-
-Users with access to the project, task, or issue will have access to all documents linked with that object. You cannot modify their level of access. Users have manage access or no access.
-
-#### Linked objects
-
-Linked objects are a way to associate document folders with tasks and issues. Linked objects can be changed at the project level. When a user uploads a document to a task or issue, a primary folder is automatically created and linked to that task or issue.
-
-* If a primary folder is moved, its link to the task or issue is broken.
-* Documents in a folder inherit that folder's linked object.
-* A document that inherits from its folder cannot be reassigned unless it is moved out of that folder.
-* Subfolders inherit associations from their parent folder.
-* At the project level, users can see which task or issue a document or folder is connected to.
-
-#### Folders
-
-Folders and subfolders do not have permissions and inherit permissions from the project, task, or issue. You cannot modify their level of access. They can have manage access or no access.
-
-In Adobe enterprise storage, document access is driven by folder access. Document permissions are inherited from the folder where the document is uploaded and cannot be changed directly on the document.
-
-* Users can be added to a folder even if they are not added to the related task or issue.
-* A sharable folder is created on upload.
-* Users cannot upload a document outside of a folder.
-* Additional folders created inside a primary or system-level folder inherit the parent folder's permissions.
-* Documents outside of folders at the project level are available only to users with project-level access.
-* Users with task- or issue-level access only can see documents in the folder associated with that task or issue.
-
-#### Approvals
-
-When a user is added to a document approval workflow, they will be able to see the following information in Workfront and other Adobe products, such as Frame.io and Adobe Creative Cloud, regardless of project permissions:
+When you're added to a document approval workflow, you can see the following regardless of project permissions:
 
 * Project name
 * Document name
-* Document thumbnail 
+* Document thumbnail
 
 
 
