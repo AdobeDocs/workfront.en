@@ -85,6 +85,27 @@ If your organization is on legacy Workfront storage, you will see the legacy doc
 
 If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-versions are marked by date
+### Use drag-and-drop to add a new version
 
-Latest 
+>[!NOTE]
+>
+>Drag-and-drop does not work with Internet Explorer.
+
+1. Go to the Documents area where the document is uploaded.
+1. Drag the new version of the document on top of the existing version in Workfront.
+
+   ![Drag and drop document version](assets/drag-drop-new-doc.png)
+
+1. Drop the new version on top of the existing file on the **Documents** tab.
+
+   For information about managing document versions, see [Manage document versions](../../documents/managing-documents/manage-document-versions.md).
+
+### Use the More menu to add a new version
+
+1. Select the document where you want to add a new version. 
+1. Open the Show versions icon ![show versions icon](assets/show-versions.png) on the right. 
+1. Click **Add New Version**.
+
+   ![Add new version](assets/new-version-new-doc.png)
+
+1. Find your document, then click **Open**.
