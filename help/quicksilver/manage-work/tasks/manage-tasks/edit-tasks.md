@@ -10,6 +10,8 @@ exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
 ---
 # Edit tasks
 
+{{highlighted-preview}}
+
 <!--Audited: 10/2025-->
 
 <!--take out prod and preview references at release, or new and old experience-->
@@ -29,6 +31,7 @@ The highlighted information on this page refers to functionality not yet general
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
 </div> -->
+
 
 You can edit information on tasks that you have created, or that you have Contribute or Manage permissions to.
 
