@@ -45,7 +45,8 @@ You can edit information on tasks that you have created, or that you have Contri
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any</p> </td> 
+   <td>  <p>To use the User and Role Hourly Revenue and Cost Types: Workflow Ultimate</p>
+      <p>To edit all other settings and use all other Revenue and Cost Types: Any Workfront or Workflow package</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -569,6 +570,7 @@ You can define default custom forms to be automatically attached to tasks when t
         <li> <p>Fixed Hourly </p> </li> 
         <li> <p> User Hourly </p> </li> 
         <li> <p> Role Hourly</p> </li> 
+        <li> <p> <span class="preview">User and Role Hourly</span></p> </li> 
        </ul> <p>For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a> . Your Workfront administrator or a group administrator selects the default Cost Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a> .</p> </td> 
      </tr> 
      <tr> 
@@ -578,13 +580,16 @@ You can define default custom forms to be automatically attached to tasks when t
       <li> <p> Not Billable </p> </li> 
       <li> <p>User Hourly </p> </li> 
       <li> <p>Role Hourly </p> </li> 
+      <li> <p> <span class="preview">User and Role Hourly</span></p> </li> 
       <li> <p>Fixed Hourly </p> </li> 
       <li> <p>User Hourly w/Cap </p> </li> 
       <li> <p>Role Hourly w/Cap </p> </li> 
+      <li> <p> <span class="preview">User and Role Hourly w/ Cap</span></p> </li> 
       <li> <p>User Hourly Plus Fixed </p> </li> 
       <li> <p>Role Hourly Plus Fixed </p> </li> 
+      <li> <p> <span class="preview">User and Role Hourly Plus Fixed</span></p> </li> 
       <li> <p>Fixed Revenue </p> </li> 
-       </ul> <p>For more information about tracking revenue, see<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a> . </p> <p>Your Workfront administrator or group administrator selects the default Revenue Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </td> 
+       </ul> <p>For more information about tracking revenue, see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a> . </p> <p>Your Workfront administrator or group administrator selects the default Revenue Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
