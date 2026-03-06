@@ -84,7 +84,7 @@ If your organization's content review process is often repeated or is reviewed b
 
 You can create simple, single-stage templates for just one or two reviewers, or you can create multi-stage templates for complex reviews with many stages and dependencies.
 
-For more information about creating automated workflows and templates in Workfront, see 
+For more information about creating approval workflow templates in Workfront, see 
 
 * [Create and manage Automated Workflow templates](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
 
