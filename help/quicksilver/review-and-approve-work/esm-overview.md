@@ -38,28 +38,44 @@ For more information about the Workfront and Frame.io integration, see [Frame.io
 
 Naming conventions for projects, tasks, and issues are different in Adobe enterprise storage than in legacy Workfront storage.
 
-### Linked objects
+### Documents
+
+#### New documents area
+
+The new documents area is a unified documents area that allows users to manage and view documents across all projects, tasks, and issues. It is accessed by clicking **Documents** in the left panel while viewing a project, task, or issue.
+
+For more information about the new documents area, see [The Documents area](/help/quicksilver/documents/managing-documents/documents-area.md).
+
+
+#### New document permission model
+
+In Adobe enterprise storage, document permissions work differently than in legacy Workfront storage. Documents use a binary permission model: you either have Manage access or no access. The traditional View and Contribute permission levels no longer apply to documents. Instead, the system automatically generates a folder for each task or issue and inherits permissions from the task or issue.
+
+At the project level, system-generated folders display a linked object. This is usually the task or issue name and is how the system knows which task or issue the folder should be seen on.
+
+For more information about the new document permission model, see [Object permissions and access level overview for the Adobe enterprise storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+
+
+## Projects 
+
+| Adobe enterprise storage | Legacy Workfront storage |
+|---|---|
+| <ul><li>Uses Adobe enterprise storage</li><li>Integrated with Frame.io</li><li>Uses the new Documents experience</li><li>Enforces strict naming conventions</li><li>Direct document sharing isn't available</li><li>Shares document storage between Frame.io and Creative Cloud</li></ul> | <ul><li>Uses Workfront storage</li><li>Uses the proofing viewer</li><li>Supports individual document sharing</li></ul> |
+
+
 
 ### move share copy
 
 move/share/copy - can only do with like storage models
-Linked folders dictate document sharing
+Linked folders dictate document sharing for tasks and issues
 
 
-ESM
+## Enable Adobe enterprise storage
 
-Uses Adobe enterprise storage
-Integrated with FIO
-Strict naming conventions
-Direct document sharing doesn't exist
-Cannot favorite documents
-Cannot request documents 
-Copy/move/convert can only be done with like storage models
+Customers who meet xyz criteria can enable Adobe enterprise storage. they can choose between esm only or a combination of esm and legacy workfront storage.
+
+All legacy workfront projects remain on legacy workfront storage and retain all their existing features and functionality.
+
+
 Some environments can choose to use Adobe enterprise storage or legacy Workfront storage
 Configure storage preferences in setup
-
-Legacy
-
-Uses WF storage
-Uses the proof viewer
-Individual doc sharing is possible
