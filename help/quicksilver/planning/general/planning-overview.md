@@ -25,7 +25,7 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 
 This article contains general information about Workfront Planning. 
 
-For the complete list of articles that contain documentation for Workfront Planning, see [General information about Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md). 
+For the complete list of articles that contain documentation for Workfront Planning, see [General information and article index for Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md). 
 
 ## Introduction to Adobe Workfront Planning
 
@@ -313,10 +313,13 @@ For example, if you connect a Campaign record type with a Workfront Project obje
 >[!TIP]
 >
 >* You cannot add the following field types as lookup fields from the connected record or object types:
+>
 >   * Created by
 >   * Last modified by
 >   * Workfront typeahead fields (including fields like Project Owner, or Project Sponsor)
+>
 >* You cannot add the following field types as lookup fields from the connected record or object type in Production, <span class="preview">but you can add them in the Preview environment:</span>
+>
 >   * People
 
 For information about connecting record types, records, and creating linked fields, see the following articles:
@@ -430,7 +433,7 @@ To locate Workfront Planning:
 
 ## Additional resources for Workfront Planning
 
-* [General information about Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md): An index of all articles that contain documentation about Workfront Planning, grouped by area of interest. 
+* [General information and article index for Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md): An index of all articles that contain documentation about Workfront Planning, grouped by area of interest. 
 * [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): With the Workfront AI Assistant for Planning you can search for records, or create, update, and delete records by using commands and letting the assistant do the work for you. 
 
     <!--

@@ -2095,7 +2095,7 @@ feature-set: Workfront
     * [Share a goal in Workfront Goals](workfront-goals/workfront-goals-settings/share-a-goal.md)
     * [Enable Adobe Workfront Goals notifications](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * Adobe Workfront Planning {#adobe-workfront-planning}
-  * [General information about Adobe Workfront Planning](planning/planning-information.md)
+  * [General information and article index for Adobe Workfront Planning](planning/planning-information.md)
   * Adobe Workfront Planning general information {#adobe-workfront-planning-general-information}
     * [Adobe Workfront Planning general information: article index](planning/general/planning-general-article-index.md)
     * [Get started with Adobe Workfront Planning](planning/general/planning-overview.md)

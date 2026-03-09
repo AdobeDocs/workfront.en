@@ -27,7 +27,7 @@ Whether used directly or through the AI Assistant, the Planning Designer provide
 
 For information about Workfront Planning, see the following articles:
 
-* [General information about Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md)
+* [General information and article index for Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md)
 * [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 * [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md)
 
