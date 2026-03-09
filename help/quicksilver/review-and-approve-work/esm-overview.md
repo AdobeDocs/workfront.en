@@ -36,7 +36,14 @@ For more information about the Workfront and Frame.io integration, see [Frame.io
 
 ## Differences between Adobe enterprise storage and legacy Workfront storage
 
-There are some differences between Adobe enterprise storage and legacy Workfront storage.
+Existing Workfront environments have a combination of Adobe enterprise storage and legacy Workfront storage. Any objects created prior to the release of Adobe enterprise storage will use legacy Workfront storage.
+
+Once you enable Adobe enterprise storage in your environemnt, you can create both Adobe enterprise storage and legacy Workfront storage projects. or only esm projects. 
+
+>[!NOTE]
+>
+>Net new environments will have Adobe enterprise storage enabled by default and will not have the option to use legacy Workfront storage.
+
 
 ### Documents
 
@@ -49,6 +56,8 @@ This updated interface simplifies navigation, improves clarity, and makes it eas
 #### New document permission model
 
 In Adobe enterprise storage, document permissions work differently than in legacy Workfront storage. Documents use a binary permission model: you either have Manage access or no access. The traditional View and Contribute permission levels no longer apply to documents. Instead, the system automatically generates a folder for each task or issue and inherits permissions from the task or issue.
+
+##### Linked objects on folders
 
 At the project level, system-generated folders display a linked object. This is usually the task or issue name and is how the system knows which task or issue the folder should be seen on.
 
