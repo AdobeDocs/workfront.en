@@ -65,6 +65,8 @@ For information about areas where you can find project financial information and
 
 [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)
 
+[Override user cost rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)
+
 ## Billing rates
 
 [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)
@@ -77,4 +79,8 @@ For information about areas where you can find project financial information and
 
 [Override Job Role Billing Rates at the project level](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
 
+[Override user billing rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-user-billing-rates-project-level.md)
+
 [Attach a rate card to a project](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
+
+[Set up a Job Role for Billing](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md)
