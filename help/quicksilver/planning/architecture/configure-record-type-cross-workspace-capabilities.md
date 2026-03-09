@@ -70,7 +70,25 @@ Or
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p>
+   <td>
+   <p>To make a record global:</p>
+   <ul><li>Standard or higher</li></ul>
+   <p>To make a record connectable:</p>
+   <ul><li>System Administrator</li></ul>
+
+   <!--replace the above with this at release:
+   <p>To make a record global:</p>
+   <ul><li>Standard or higher</li></ul>
+   <p>To make a record connectable:</p>
+   <ul><li>In the Production environment:</li>
+   <ul><li>System Administrator</li></ul></ul>
+
+   <div class="preview">
+   <ul><li>In the Preview environment:</li>
+   <ul><li>Standard to make a record connectable from specific workspaces</li>
+   <li>System Administrator to make a record connectable from all workspaces</li></ul></ul>
+   </div>-->
+   
    </td> 
   </tr> 
   <tr> 
@@ -246,12 +264,13 @@ To configure a record type as global:
 
    When enabled, the record type is accessible and can be connected to from other workspaces.
 
-1. Choose from which workspaces the record type can be accessed. Choose from the following options:
+1. <!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Choose from which workspaces the record type can be accessed. Choose from the following options:
 
    <!--check names of the setting: System wide?? OR All workspaces??-->
 
-   * **All workspaces**: Users can connect to this record type from all workspaces where they have Manage permissions.
+   * **All workspaces**: Users can connect to this record type from all workspaces where they have Manage permissions. <!--<span class="preview">This option is dimmed for workspace managers with a Standard license. Only System Administrators can turn on connecting record types from all workspaces.</span>-->
    * **Specific workspaces**: From the drop-down menu, add the names of the workspaces where workspace managers can connect to this record type.
+
 1. (Conditional) Click **Save** in the **Edit record type** box, or click the back arrow to the left of **Settings** in the page header to save your changes.
 
    The following things occur:

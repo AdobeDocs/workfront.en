@@ -513,6 +513,8 @@ feature-set: Workfront
       * [View and export audit logs](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
       * [View user login information](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
       * [Manage users in the Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+      * [Business profiles overview](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
+      * [View and manage business profiles](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-business-profiles.md)
     * How access levels work {#access-levels}
       * [How access levels work](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
       * [Access levels overview](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
