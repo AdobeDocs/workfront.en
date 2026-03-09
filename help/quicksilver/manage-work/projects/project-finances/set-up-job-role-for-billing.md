@@ -74,12 +74,14 @@ To assign a job role for billing at the project level:
 1. Select the **Job role** to use as the job role for billing for this user on this project.
 1. (Optional) Click **Add job role** to define effective dates for the job role for billing. Enter the **Start** and **End** dates for the job role.
 
-   image
+   [Add job role for billing at project level](assets/jrfb-project-level.png)
 
 1. Click **Add job role** again to specify additional billing roles for different time periods.
 1. Click **Save**.
 
-Example:
+### Example at the project level
+
+>[!BEGINSHADEBOX]
 
 John's primary job role is Designer 1. The project requires a Senior Designer, and John is filling in.
 
@@ -90,10 +92,41 @@ Result:
 * Billing revenue is the Senior Designer rate
 * Cost is the Designer 1 cost rate (John's actual cost rate)
 
-
+>[!ENDSHADEBOX]
 
 ## Assign a Job Role for Billing at the assignment level
 
 When you add a job role for billing on an assignment, the setting overrides a project-level billing role for that specific assignment only.
 
 To assign a job role for billing at the assignment level:
+
+1. Open a project and locate the task.
+1. Go to the task's **Advanced Assignments**.
+   
+   For information, see [Create advanced assignments](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+
+1. On the task assignment grid, locate the column **Job role for billing**.
+1. Select a job role for each assignment where you want different billing.
+
+   >[!NOTE]
+   >
+   >If a job role for billing was assigned at the project level, it appears on the assignment. You can click in the **Job role for billing** field and select another job role to use for the assignment.
+   >The information icon notifies you whether a job role for billing was defined at the project or the assignment level.
+
+   ![Job role for billing on an assignment](assets/jrfb-assignment-level.png)
+
+### Example at the assignment level
+
+>[!BEGINSHADEBOX]
+
+John's primary job role is Designer 1. He is billed as a Senior Designer at the project level, but there is one special task requiring a Principal Designer billing rate.
+
+You would set the Job Role for Billing to Principal Designer on that assignment only.
+
+Result:
+
+* All of John's other tasks bill as Senior Designer
+* This one task bills as Principal Designer
+* Cost remains Designer 1
+
+>[!ENDSHADEBOX]

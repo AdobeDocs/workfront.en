@@ -43,7 +43,7 @@ When a job role for billing is applied at either the user assignment or the proj
 >
 >While a user may act with a different role for billing purposes, cost calculations continue to use their primary job role. The job role for billing only impacts billing calculations.
 
-For more information, see Set up a job role for billing.
+For more information, see [Set up a job role for billing](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md).
 
 ## Overview of preserved rates
 
