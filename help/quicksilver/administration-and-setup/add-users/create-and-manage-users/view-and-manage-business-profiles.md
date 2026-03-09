@@ -8,6 +8,8 @@ description: As an Adobe Workfront administrator, can grant users access to view
 author: Becky
 feature: System Setup and Administration
 role: Admin
+hide: yes
+hidefromtoc: yes
 exl-id: 2227cdb7-909c-429d-a078-4f508157a679
 ---
 # View and manage business profiles

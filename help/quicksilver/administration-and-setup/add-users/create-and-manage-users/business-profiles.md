@@ -8,6 +8,8 @@ description: Business profiles are an enhanced permission model that allows cust
 author: Becky
 feature: System Setup and Administration
 role: Admin
+hide: yes
+hidefromtoc: yes
 exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
 ---
 # Business profiles overview
