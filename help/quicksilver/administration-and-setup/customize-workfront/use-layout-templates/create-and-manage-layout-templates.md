@@ -28,7 +28,6 @@ As an Adobe Workfront administrator or a group administrator, you can create and
 * Summary panel
 * Views, filters, and groupings people use with lists and reports.
 * On-screen terminology
-* Project, task, and issue headers
 * <span class="preview">Object headers</span>
 * <span class="preview">More menu (three-dot menu) for an object</span>
 
