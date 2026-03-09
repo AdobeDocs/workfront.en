@@ -45,12 +45,21 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <col style="width: 50%;" />
             <col style="width: 25%;" />
             <tbody>
-               <tr>
+              <tr>
         <td><strong>Feature</strong>
         </td>
         <td><strong>Preview</strong></td>
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
+        </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Custom Quarters removed from Project Preferences</a><p>BWe have moved the Custom Quarter area from the Project Preferences section. It is now a standalone section in Setup.</p>
+        </td>
+        <td><p>March 5, 2025</p></td>
+        <td><p>April 15, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Collapse custom form section by default</a><p>By default, all sections on a custom form are expanded when the form itself is expanded. A new option on the custom form designer allows you to mark a section to be collapsed by default when a user opens the form. This option is applied at the section level, not on fields.</p>
@@ -59,7 +68,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>March 12, 2026</p></td>
         <td><p>April 16, 2026</p></td>
     </tr>
-    <tr>
+     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Rich text field type is now available on custom forms</a><p>The new <b>Rich text</b> field type in custom forms is a robust text editor, with formatting options such as superscript and subscript, headings, and tables, in addition to the traditional options of bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. The character limit remains 15,000.</p>
         </td>

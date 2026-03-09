@@ -338,13 +338,13 @@ To share a view:
 >
 >Not all enhanced lists have all the elements described in this section.
 
-When a view is shared with you that you do not have permission to edit, you can copy the view and save it with a new name. You must first make changes to the view before you can copy it.
+When a view is shared with you to which you do not have permission to edit, you can copy the view and save it with a new name. You must first make changes to the view before you can copy it.
 
-1. In the Views dropdown, hover over the view in **Shared Views** that you want to copy, click the **More** menu ![More menu](assets/more-icon.png), and click **Copy with preferences**.
+1. In the Views dropdown, hover over the view in **Shared Views** that you modified the settings of and which want to copy, click the **More** menu ![More menu](assets/more-icon.png), and click **Copy with preferences**.
 
-   A new view is created automatically. It uses the original view name with (copy) at the end, and it appears in the **My Views** section of views.
+   A new view is created automatically. The name of the copied view follows the following pattern: `Original view name (copy)`and it displays in the **My Views** section of views.
    
-   You are the owner of this view, and you can rename, edit, share, or delete it. If the owner of the original view removes your shared access to that view, you still have access to this view that you created.
+   You are the owner of this view, and you can rename, edit, share, or delete it. If the owner of the original view removes your shared access to that view, you still have access to the view that you created by copying the shared original.
 
    >[!NOTE]
    >
