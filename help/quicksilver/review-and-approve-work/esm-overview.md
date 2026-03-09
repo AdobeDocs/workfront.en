@@ -42,14 +42,9 @@ There are some differences between Adobe enterprise storage and legacy Workfront
 
 #### New documents area
 
-The new documents area is a unified documents area redesigned for Adobe enterprise storage. This new area allows users to manage
+The new documents area is a unified documents area redesigned for Adobe enterprise storage.
 
-
-
- It is accessed by clicking **Documents** in the left panel while viewing a project, task, or issue.
-
-For more information about the new documents area, see [The Documents area](/help/quicksilver/documents/managing-documents/documents-area.md).
-
+This updated interface simplifies navigation, improves clarity, and makes it easier for teams to manage reviews and approvals in one unified environment. For more information, see the [Documents area overview](/help/quicksilver/documents/managing-documents/documents-area.md).
 
 #### New document permission model
 
@@ -60,12 +55,15 @@ At the project level, system-generated folders display a linked object. This is 
 For more information about the new document permission model, see [Object permissions and access level overview for the Adobe enterprise storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 
-## Projects 
+## Workfront objects
+
+The table below compares the features of Adobe enterprise storage and legacy Workfront storage for Workfront objects. 
+
+Workfront objects include portfolios, programs, projects, templates, tasks, and issues.
 
 | Adobe enterprise storage | Legacy Workfront storage |
 |---|---|
-| <ul><li>Uses Adobe enterprise storage</li><li>Integrated with Frame.io</li><li>Uses the new Documents experience</li><li>Enforces strict naming conventions</li><li>Direct document sharing isn't available</li><li>Shares document storage between Frame.io and Creative Cloud</li></ul> | <ul><li>Uses Workfront storage</li><li>Uses the proofing viewer</li><li>Supports individual document sharing</li></ul> |
-
+| <ul><li>Uses Adobe enterprise storage</li><li>Integrated with Frame.io</li><li>Uses the new Documents experience</li><li>Enforces strict naming conventions</li><li>Direct document sharing isn't available</li><li>Documents available in other Adobe products like Frame.io and Creative Cloud</li></ul> | <ul><li>Uses Workfront storage</li><li>Uses the proofing viewer</li><li>Supports individual document sharing</li></ul> |
 
 
 ### Move, copy, and convert objects
@@ -78,14 +76,9 @@ You can only move, copy, and convert between projects that use the same storage 
 
 ## Enable Adobe enterprise storage
 
-Customers who meet xyz criteria can enable Adobe enterprise storage. they can choose between esm only or a combination of esm and legacy workfront storage.
+Exisitng customers can enable Adobe enterprise storage in their environment upon contract renewal. 
 
-All legacy workfront projects remain on legacy workfront storage and retain all their existing features and functionality.
-
-
-Some environments can choose to use Adobe enterprise storage or legacy Workfront storage
-Configure storage preferences in setup
-
+New customers will have adobe enterprise storage enabled by default and will not have the option to use legacy Workfront storage.
 
 
 
