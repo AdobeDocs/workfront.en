@@ -37,7 +37,7 @@ Project snapshots in Workfront give you a way to see differences between snapsho
 
 Advanced enterprise permissions such as business profiles provide secure, scalable system access and help to strengthen enterprise governance.
 
-<!--For more information, see link to business profiles article-->
+Fore more information, see [Business profiles overview](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
 ## Custom form and field enhancements
 
@@ -57,5 +57,6 @@ You can add custom translations in Adobe Workfront for user-entered labels, allo
 <!--
 ## Business actions
 
-For more information, see link to article-->
+For more information, see link to article
+-->
 
