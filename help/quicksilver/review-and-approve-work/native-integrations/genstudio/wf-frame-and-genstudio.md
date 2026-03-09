@@ -2,15 +2,15 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Get started with the GenStudio for Performance Marketing, Workfront, and Frame.io integration
-description: Get started with the GenStudio for Performance Marketing, Workfront,  and Frame.io integration
+title: Get started with the GenStudio for Performance Marketing and Frame.io integration
+description: Get started with the GenStudio for Performance Marketing and Frame.io integration
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 ---
-# Get started with the GenStudio for Performance Marketing, Workfront, and Frame.io integration
+# Get started with the GenStudio for Performance Marketing and Frame.io integration
 
-With the integration between GenStudio for Performance Marketing, Workfront, and Frame.io, you can 
+With the integration between GenStudio for Performance Marketing and Frame.io, you can 
 
 * Use Workfront unified approval templates to define review and approval workflows
 
