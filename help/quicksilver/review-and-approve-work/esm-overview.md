@@ -36,13 +36,17 @@ For more information about the Workfront and Frame.io integration, see [Frame.io
 
 ## Differences between Adobe enterprise storage and legacy Workfront storage
 
-Naming conventions for projects, tasks, and issues are different in Adobe enterprise storage than in legacy Workfront storage.
+There are some differences between Adobe enterprise storage and legacy Workfront storage.
 
 ### Documents
 
 #### New documents area
 
-The new documents area is a unified documents area that allows users to manage and view documents across all projects, tasks, and issues. It is accessed by clicking **Documents** in the left panel while viewing a project, task, or issue.
+The new documents area is a unified documents area redesigned for Adobe enterprise storage. This new area allows users to manage
+
+
+
+ It is accessed by clicking **Documents** in the left panel while viewing a project, task, or issue.
 
 For more information about the new documents area, see [The Documents area](/help/quicksilver/documents/managing-documents/documents-area.md).
 
@@ -64,11 +68,13 @@ For more information about the new document permission model, see [Object permis
 
 
 
-### move share copy
+### Move, copy, and convert objects
 
-move/share/copy - can only do with like storage models
-Linked folders dictate document sharing for tasks and issues
+You can move, copy, and convert Workfront objects between like storage models. For example, you can move a task from an Adobe enterprise storage project to another Adobe enterprise storage project. You cannot move a task from an Adobe enterprise storage project to a legacy Workfront storage project.
 
+These actions are available from the More menu on a task or issue. Each action respects document integrity, permission inheritance, and Adobe enterprise storage rules.
+
+You can only move, copy, and convert between projects that use the same storage model. For example, you can't move a task from an Adobe enterprise storage project to a legacy Workfront storage project.
 
 ## Enable Adobe enterprise storage
 
@@ -79,3 +85,9 @@ All legacy workfront projects remain on legacy workfront storage and retain all 
 
 Some environments can choose to use Adobe enterprise storage or legacy Workfront storage
 Configure storage preferences in setup
+
+
+
+
+
+
