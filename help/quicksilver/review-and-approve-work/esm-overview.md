@@ -57,11 +57,13 @@ This updated interface simplifies navigation, improves clarity, and makes it eas
 
 In Adobe enterprise storage, document permissions work differently than in legacy Workfront storage. Documents use a binary permission model: you either have Manage access or no access. The traditional View and Contribute permission levels no longer apply to documents. Instead, the system automatically generates a folder for each task or issue and inherits permissions from the task or issue.
 
+For more information about the new document permission model, see [Object permissions and access level overview for the Adobe enterprise storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+
 ##### Linked objects on folders
 
 At the project level, system-generated folders display a linked object. This is usually the task or issue name and is how the system knows which task or issue the folder should be seen on.
 
-For more information about the new document permission model, see [Object permissions and access level overview for the Adobe enterprise storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+For more information, see [How document permissions work](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
 
 ## Workfront objects
