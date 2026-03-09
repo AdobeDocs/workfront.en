@@ -94,7 +94,8 @@ For information about how to create an email template, see [Configure email temp
         <ul> 
          <li> <p>Reminder notifications begin 24 hours after the specified date and once all criteria are met.</p> </li> 
          <li> <p>Reminder notifications for projects, tasks, and issues trigger every night at midnight, US Mountain Time. All objects that qualify for a reminder notification from that day trigger a notification to the designated users shortly after that time.</p> </li> 
-         <li> <p>Reminder notifications for timesheets are sent at the specified time based on your time zone and the timesheet's End Date, Start Date, or Last Update Date.</p> </li> 
+         <li> <p>Timesheet reminders are based on your organization's time zone, and the timesheet's End Date, Start Date, or Last Update Date. Individual user time zones do not affect the timing of the reminder notifications.</p> 
+      </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 

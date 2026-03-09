@@ -14,30 +14,28 @@ Workfront's AI Assistant helps you accomplish your work by offering in-app infor
 * Finding instructions or reference material for work processes
 * Generating or checking formulas for calculated fields  
 
-## Access requirements
+## Access requirements 
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td><p>New: Any</p>
-       <p>or</p>
-       <p>Current: Not available</p></td>
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Select or higher </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p>
-       <p>or</p>
-       <p>Current: Not available</p></td>
+   <td><p>Standard</p>
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites to AI Assistant
 
@@ -145,13 +143,13 @@ Use the following keywords in your prompts to provide context and aid in locatin
 When entering your prompt, include the phrase `using (keyword)`.
 
 | Keyword | Effect |
-|---|---|
-|`workfront` | Interacts with Workfront. |
-|`planning` | Interacts with Workfront Planning. |
-|`help`| Returns information from Experience League documentation. |
-|`formula`| Checks and returns formulas for use in Planning, Setup, or custom forms. |
-|`health`| Checks project health with Project Health Advisor. |
-|`summarize`| Summarizes items, such as when uploading a file or summarizing a project. |
+| --- | --- | 
+| `workfront` | Interacts with Workfront. |
+| `planning` | Interacts with Workfront Planning. |
+| `help` | Returns information from Experience League documentation. |
+| `formula` | Checks and returns formulas for use in Planning, Setup, or custom forms. |
+| `health` | Checks project health with Project Health Advisor. |
+| `summarize` | Summarizes items, such as when uploading a file or summarizing a project. |
 
 >[!NOTE]
 >

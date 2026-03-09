@@ -9,7 +9,15 @@ exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
 ---
 # Turn your first win into sustainable momentum: a playbook for managed scaling
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>
+>Your organization must have a Workfront Planning Prime or higher package to be able to support the features recommended in this article. 
+>
+>For a list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+> 
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 
 Landing your first successful Adobe Workfront Planning use case is a breakthrough moment: demand surges, new teams want access, and leadership sees the potential for enterprise-wide visibility. 
@@ -76,6 +84,8 @@ The following are characteristics of the global lanes:
 * **Managed by**: The Center of excellence or the Marketing Operations Administrator. 
 
 * **Rule**: These fields are shared and mandatory. 
+
+For information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 ### The local playgrounds (or the "spokes") 
 
@@ -157,6 +167,8 @@ Instead, use the following field maturity path to let real-world usage guide you
 * **Level 2: Pattern recognition**: The administrator notices Teams B and C are using or asking for a similar field. 
 
 * **Level 3: Enterprise standardization**: The administrator creates a single, standardized version of that field as a record type in the Global Taxonomy Workspace and syndicates it to the teams.  
+
+    For information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 ### How to retire fields
 
@@ -320,6 +332,8 @@ The following are examples of what a checklist should include:
 * [ ] **Grant global  visibility**: Give them read-only access to the relevant Primary workspaces and the Global Taxonomy workspace on Day 1. 
 
 * [ ] **Establish the handoff**: How does their work feed the relevant Primary workspaces? For example, their work might feed into the relevant Primary workspaces via a global record type or a specific lookup field. 
+
+    For information about global record types, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 <!--original content: 
 
