@@ -33,3 +33,33 @@ This also paves the way for future asset management integrations with other Adob
 The Workfront and Frame.io integration leverages Adobe enterprise storage to provide a unified review and approval experience. This integration allows project coordinators to manage projects and plan work in Workfront while creatives, marketers, and stakeholders can review and approve assets in Frame.io. This ensures that all stakeholders have access to the latest versions of assets, and feedback is centralized in one place.
 
 For more information about the Workfront and Frame.io integration, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
+
+## Differences between Adobe enterprise storage and legacy Workfront storage
+
+Naming conventions for projects, tasks, and issues are different in Adobe enterprise storage than in legacy Workfront storage.
+
+### Linked objects
+
+### move share copy
+
+move/share/copy - can only do with like storage models
+Linked folders dictate document sharing
+
+
+ESM
+
+Uses Adobe enterprise storage
+Integrated with FIO
+Strict naming conventions
+Direct document sharing doesn't exist
+Cannot favorite documents
+Cannot request documents 
+Copy/move/convert can only be done with like storage models
+Some environments can choose to use Adobe enterprise storage or legacy Workfront storage
+Configure storage preferences in setup
+
+Legacy
+
+Uses WF storage
+Uses the proof viewer
+Individual doc sharing is possible
