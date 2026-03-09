@@ -66,6 +66,8 @@ When you upload a document to a task or issue, a system-generated folder is crea
 
 You can create subfolders within the system-generated folder to organize documents further. All subfolders inherit permissions from the parent folder. At the project level, you can upload documents outside of a folder, but only users with project-level access can see them.
 
+At the project level, system-generated folders display a linked object. This is usually the task or issue name and is how the system knows which task or issue the folder should be seen on.
+
 ### Project permissions
 
 When you have project-level permissions, you can view and manage documents for that project in Workfront and other Adobe products like Frame.io and Adobe Creative Cloud. The project name is also visible in those tools. Other project data isn't visible outside of Workfront.
@@ -74,18 +76,18 @@ When you have project-level permissions, you can view and manage documents for t
 
 Tasks and issues inherit permissions from the project. When you're added to a task or issue, you receive Manage access to its documents&mdash;even if you have View-only access to the task itself. This is because document permissions only have two options: Manage or No access.
 
-**Folders and tasks:**
+**System-generated folders**
 
+* Removing users from a task or issue doesn't automatically remove their folder access. They may still have access through project-level permissions.
+* Subtasks don't inherit system-generated folder permissions from parent tasks. You must be added directly to a subtask to access its system-generated folder.
 * Adding users to a task or issue shares that object's system-generated folder with them.
-* Removing users from a task doesn't automatically remove their folder access. They may still have access through project-level permissions.
-* Subtasks don't inherit folder permissions from parent tasks. You must be added directly to a subtask to access its system-generated folder.
 
 **Moving and renaming system-generated folders:**
 
 * System-generated folders can be renamed and moved.
-* If a system-generated folder is moved to another location, its link to the original task is broken. Permissions are then inherited from the new parent object.
+* If a system-generated folder is moved to another location, its linked object is updated to the new object. Permissions are then inherited from the new parent object.
 
-Issues and requests follow the same behavior as tasks.
+Requests follow the same behavior as tasks and issues.
 
 ### Approvals
 
