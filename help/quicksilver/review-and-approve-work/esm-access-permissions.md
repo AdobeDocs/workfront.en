@@ -54,18 +54,17 @@ No changes to document access levels or behavior.
 Object permissions determine what you can see and do with projects, tasks, issues, and documents in Workfront. Permissions are assigned when someone shares an object with you.
 
 >[!IMPORTANT]
-> In Adobe enterprise storage, document permissions work differently than in legacy Workfront storage. Documents use a binary permission model: you either have Manage access or no access. The traditional View and Contribute permission levels no longer apply to documents.
+>
+>In Adobe enterprise storage, document permissions work differently than in legacy Workfront storage. Documents use a binary permission model: you either have Manage access or no access. The traditional View and Contribute permission levels no longer apply to documents.
+
 
 ### How document permissions work
 
-Document permissions are driven by the object the document it is linked to. You can't set permissions on individual documents.
+Document permissions are driven by the object the document is linked to. You can't set permissions on individual documents.
 
-When a document is uploaded to a task or issue, a primary folder is created automatically using the task or issue name. This folder is then linked to the task or issue and is available in the task or issue's documents area.
+When you upload a document to a task or issue, a system-generated folder is created using the task or issue name. This folder is linked to the task or issue and inherits its permissions.
 
-The only place you can upload a document outside of a folder is at the project level. Only users with access to the projec will be able to see it. 
-
-If you have access to a project, task, or issue, you have Manage access to all documents.
-
+You can create subfolders within the system-generated folder to organize documents further. All subfolders inherit permissions from the parent folder. At the project level, you can upload documents outside of a folder, but only users with project-level access can see them.
 
 ### Project permissions
 
@@ -73,19 +72,18 @@ When you have project-level permissions, you can view and manage documents for t
 
 ### Task and issue permissions
 
-Tasks and issues inherit permissions from the project. When you're added to a task or issue, you receive Manage access to its documents — even if you have View-only access to the task itself. This is because document permissions are determined by the system-level folder created automatically when the document is uploaded, not the task permission level.
+Tasks and issues inherit permissions from the project. When you're added to a task or issue, you receive Manage access to its documents&mdash;even if you have View-only access to the task itself. This is because document permissions only have two options: Manage or No access.
 
 **Folders and tasks:**
 
-* When a document is uploaded to a task, a primary folder is created automatically using the task name.
-* Adding users to a task or issue shares that task's system-level folder with you.
-* Removing users from a task doesn't automatically remove your folder access. You may still have access through project-level permissions. < true?>
-* Subtasks don't inherit folder permissions from parent tasks. You must be added directly to a subtask to access its system-level folder. <system-generated folder? or primary folder?>
+* Adding users to a task or issue shares that object's system-generated folder with them.
+* Removing users from a task doesn't automatically remove their folder access. They may still have access through project-level permissions.
+* Subtasks don't inherit folder permissions from parent tasks. You must be added directly to a subtask to access its system-generated folder.
 
-**Moving and renaming folders:**
+**Moving and renaming system-generated folders:**
 
-* Primary folders can be renamed and moved.
-* If a primary folder is moved to another location, its link to the original task is broken. Permissions are then inherited from the new parent object.
+* System-generated folders can be renamed and moved.
+* If a system-generated folder is moved to another location, its link to the original task is broken. Permissions are then inherited from the new parent object.
 
 Issues and requests follow the same behavior as tasks.
 
