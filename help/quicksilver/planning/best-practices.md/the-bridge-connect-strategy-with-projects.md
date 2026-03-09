@@ -10,7 +10,15 @@ exl-id: 567ab223-b282-4b98-9655-7b9766fba869
 
 # Build the bridge: connecting strategic intent to projects 
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>
+>Your organization must have a Workfront Planning Prime or higher package to be able to support the features recommended in this article. 
+>
+>For a list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+> 
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
  
 Learn how to create a strategic thread between your high-level plans in Adobe Workfront Planning and your daily execution in Workfront. You can build a bridge between strategy and execution using connections. 
 

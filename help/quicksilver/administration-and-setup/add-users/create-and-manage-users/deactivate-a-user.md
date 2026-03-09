@@ -43,6 +43,8 @@ You can reactivate a user at any time.
 >* Deactivating a user in Workfront removes the user's licenses to both Workfront and digital proofing. Additionally, the user can no longer be assigned work. When a user is deactivated, that user's Workfront license and proofing license become available to be used by another user. All other information in the deactivated user's profile remains unchanged.
 >
 >* Deactivating a user in Workfront does not remove the user from the Workfront Product Profile in the Adobe Admin Console. For more information, see [Delete users](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>
+>* If a user is in an Admin Console User Group(s), and the product profile has been added to one or more of those User Groups, deactivating the user from Workfront will not actually remove them from the product. The user must be removed from the User Group(s) in Admin Console.
 
 
 ## Access requirements

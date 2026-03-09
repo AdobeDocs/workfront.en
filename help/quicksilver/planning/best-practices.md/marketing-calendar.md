@@ -9,7 +9,15 @@ exl-id: e95ca8a2-6261-4f04-8c7c-1a0bfb1925f3
 ---
 # Build your marketing calendar: no decks, just clarity 
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>
+>Your organization must have a Workfront Planning Prime or higher package to be able to support the features recommended in this article. 
+>
+>For a list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+> 
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
  
 Every week, marketing teams lose a full day to reporting, not to strategy or creative work. 
 
