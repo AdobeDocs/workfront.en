@@ -117,7 +117,7 @@ You can override job role billing rates for:
 
 * A specific Project
 
-  For more information about creating job role billing rates specific to a project, see the article [Overview of overriding Job Role Billing Rates and calculating Revenue on a project](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  For more information about creating job role billing rates specific to a project, see the article [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Track Revenue amounts
 

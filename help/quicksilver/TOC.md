@@ -1296,7 +1296,7 @@ feature-set: Workfront
       * [Overview of Billing and Revenue](manage-work/projects/project-finances/billing-and-revenue-overview.md)
       * [Create billing records](manage-work/projects/project-finances/create-billing-records.md)
       * [Override Project-Level Billing Rates with Company-Level Billing Rates](manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
-      * [Overview of overriding Job Role Billing Rates and calculating Revenue on a project](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
+      * [Overview of overriding billing rates and calculating revenue on a project](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
       * [Override Job Role Billing Rates at the project level](manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
       * [Override user billing rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-user-billing-rates-project-level.md)
       * [Attach a rate card to a project](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)

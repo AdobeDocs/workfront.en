@@ -15,7 +15,7 @@ As a project manager, you can specify what the billing rate is for a job role on
 
 This article describes how you can override the system job role billing rates for a project.
 
-For general information about overriding job role billing rates for projects and calculating project Revenue, see [Overview of overriding Job Role Billing Rates and calculating Revenue on a project](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+For general information about overriding job role billing rates for projects and calculating project Revenue, see [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 For more information about which job role is used to calculate revenue on the project, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) and the [Revenue Calculations for Tasks Based on User and Role Assignments](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) section in the article [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
