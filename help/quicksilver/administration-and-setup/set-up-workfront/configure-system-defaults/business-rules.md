@@ -60,7 +60,13 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Scenarios for business rules
 
-The format of a business rule is "IF the defined condition is met, then the user is prevented from the action on the object, and the message is displayed."
+* [Scenarios for business rule validation](#scenarios-for-business-rule-validation)
+* [Scenarios for business rule automation]()
+
+
+### Scenarios for business rule validation
+
+The format of a business rule validation is "IF the defined condition is met, then the user is prevented from the action on the object, and the message is displayed."
 
 The syntax for the properties and other functions in a business rule is the same as the syntax for a calculated field in a custom form. For more information about the syntax, see [Add calculated fields with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
@@ -114,7 +120,15 @@ IF(
 )
 ```
 
-## Add a new business rule
+## Scenarios for business rule automation
+
+>[!NOTE]
+>
+>Your organization must have a Workflow Ultimate package to use business rule automation.
+
+The format of a business rule automation is "IF the defined condition is met, then the selected automation is triggered."
+
+## Add a new business rule validation
 
 {{step-1-to-setup}}
 
@@ -180,6 +194,10 @@ IF(
     Search for an expression or field to narrow the list of available items.
 
     The list of available fields is limited to fields related to the object type for the business rule.
+
+1. (Conditional) If your organization is on the Workfront Ultimate package, in the Then area, select **Validate the object**.
+
+   For other packages, this option is pre-selected.
 
 1. Click **Save** when you are finished building the business rule.
 
