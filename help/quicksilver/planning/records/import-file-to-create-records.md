@@ -141,6 +141,7 @@ For more information about Workfront access requirements, see [Access requiremen
     * Last modified date, Last modified by
     * Approved date, Approved by
     * People
+    <!--* <span class="preview">Record ID</span>-->
     * If a multi- or single-select field is imported and it has more choices than a similar field in Planning, the additional options are created during the import. Only users with Manage permissions to the workspace can import new choices. 
 
 ## Create records by importing a CSV or Excel file

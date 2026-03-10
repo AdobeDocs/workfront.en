@@ -8,11 +8,15 @@ recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
 ---
 
-<!--*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTICLE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************-->
+<!--
+*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTICLE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************
+-->
 
 # Configure cross-workspace capabilities for record types
 
-<!--this article is linked to the UI in the Advanced settings/ Cross-workspace settings tab - do not delete or change the URL-->
+<!--
+this article is linked to the UI in the Advanced settings/ Cross-workspace settings tab - do not delete or change the URL
+-->
 
 {{planning-important-intro}}
 
@@ -76,18 +80,21 @@ Or
    <p>To make a record connectable:</p>
    <ul><li>System Administrator</li></ul>
 
-   <!--replace the above with this at release:
+   <!--
+   replace the above with this at release:
    <p>To make a record global:</p>
    <ul><li>Standard or higher</li></ul>
    <p>To make a record connectable:</p>
    <ul><li>In the Production environment:</li>
    <ul><li>System Administrator</li></ul></ul>
-
+   -->
+   <!--
    <div class="preview">
    <ul><li>In the Preview environment:</li>
    <ul><li>Standard to make a record connectable from specific workspaces</li>
    <li>System Administrator to make a record connectable from all workspaces</li></ul></ul>
-   </div>-->
+   </div>
+   -->
    
    </td> 
   </tr> 
@@ -103,8 +110,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++   
 
-<!--Old:
-
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -113,7 +120,6 @@ For more information about Workfront access requirements, see [Access requiremen
 <tbody> 
     <tr> 
 <tr> 
-
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
@@ -140,12 +146,15 @@ And
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
 </tbody> 
-</table> -->
+</table>
+-->
 
 
 ## Configure global record types
 
-<!--this is a UI term; don't change the title of this section-->
+<!--
+this is a UI term; don't change the title of this section
+-->
 
 As a workspace manager, you can configure a record type to be a global record type. A global record type can be added to other workspaces. 
 
@@ -256,7 +265,7 @@ To configure a record type as global:
 
    Or, if you clicked **Settings**, click the **Cross-workspace settings** section in the left panel.
    
-1. Enable the **Allow connecting to this record type in other workspaces** setting. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
+1. Enable the **Allow connecting to this record type in other workspaces** setting. 
 
    <!-- add new screen shot with new tab name-->
 

@@ -135,6 +135,7 @@ For more information about Workfront access requirements, see [Access requiremen
     * Last modified date, Last modified by
     * Approved date, Approved by
     * People
+    <!--* <span class="preview">Record ID</span>-->
 
 To import record types using an Excel or CSV file: 
 

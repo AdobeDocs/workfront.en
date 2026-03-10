@@ -133,7 +133,7 @@ For more information about Workfront access requirements, see [Access requiremen
 * The following types of fields are automatically updated, and you cannot edit their values manually: 
     * Linked fields from other records
     * Formula-type fields
-    * System fields (Created by, Created date, Last modified by, Last modified date, Approved date, Approved by) 
+    * System fields (Created by, Created date, Last modified by, Last modified date, Approved date, Approved by <!--, <span class="preview">Record ID</span>-->) 
 * If the records you display are linked to other records, the new information of the records that you are editing reflects on the linked records in all workspaces where that record is linked. 
 * You cannot edit records in bulk. <!--this will probably change-->
 * URLs are recognized as links in single-line text field types only when they start with the following: http://, https://, ftp://, or www. . 
