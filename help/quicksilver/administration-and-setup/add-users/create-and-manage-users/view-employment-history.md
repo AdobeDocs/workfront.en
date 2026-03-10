@@ -46,6 +46,9 @@ You can view employment history from the Users list, or you can view a single us
    The Employment history page opens, displaying the history of the selected users.
 
 1. To view a selected date range, click the date picker and adjust the dates.
+
+   When viewing employment history from the Users list, you can view history for the three years before the current date.
+1. To filter results, click **Filter** and enter the field, operator, and value that you want to filter by. Results are filtered automatically.
 1. To add or remove columns, click the Add icon at the right of the table and click the plus icon next to each column that you want to add, or click the minus icon next to each column that you want to remove from the view. 
 
 ### View employment history from a user's page
@@ -54,7 +57,10 @@ You can view employment history from the Users list, or you can view a single us
 
 1. Click the name of the user that you want to view employment history for.
 1. On the user's User page, click Employment History ![Employment history in left navigation](assets/employment-history-left-nav.png) in the left navigation.
-1. To view a selected date range, click the date picker and adjust the dates.
+1. To view a selected date range, click the date picker and adjust the dates.  
+ 
+   When viewing employment history from a user's page, you can view the user's entire employment history.
+1. To filter results, click **Filter** and enter the field, operator, and value that you want to filter by. Results are filtered automatically.
 1. To add or remove columns, click the Add icon at the right of the table and click the plus icon next to each column that you want to add, or click the minus icon next to each column that you want to remove from the view.
 
 ## Export employment history
