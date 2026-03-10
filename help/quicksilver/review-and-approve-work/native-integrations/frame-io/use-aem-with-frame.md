@@ -80,7 +80,7 @@ For more detail about the information in this table, see [Access requirements in
 Before you begin,
 
 * You must have [!DNL Workfront] and [!DNL Adobe Experience Manager Assets] associated with an Organization ID in the [!DNL Adobe Admin Console]. For more information see, [Platform-based administration differences ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
-* Your Workfront instance must be using Adobe Enterprise Storage. 
+* Your Workfront instance must be using Adobe enterprise storage. 
 
 
 ## Set up the integration information

@@ -28,14 +28,14 @@ You must have the Workfront and Frame.io integration set up in your Workfront in
 
 ## Work initiation and planning in Workfront
 
-Project coordinators can create projects and plan work in Workfront. Projects created in an instance with the Frame.io integration enabled utilize Adobe Enterprise Storage, which allows assets to be stored and managed within the Adobe ecosystem.
+Project coordinators can create projects and plan work in Workfront. Projects created in an instance with the Frame.io integration enabled utilize Adobe enterprise storage, which allows assets to be stored and managed within the Adobe ecosystem.
 
 If your organization has a Frame.io Enterprise license, projects created in Workfront are also visible in Frame.io, allowing users to interact and upload assets in either product. 
 
-For information about Adobe Enterprise Storage or projects in Frame.io, see
+For information about Adobe enterprise storage or projects in Frame.io, see
 
 * [Workspace Overview: Projects](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
-* [Adobe Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md)
+* [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md)
 
 ## Review and approve assets
 

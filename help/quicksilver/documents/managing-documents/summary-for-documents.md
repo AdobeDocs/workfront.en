@@ -120,7 +120,7 @@ Use the Versions section to view the number of versions created for a specific d
 
 ## Summary for documents in the new documents experience
 
-If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Details
 

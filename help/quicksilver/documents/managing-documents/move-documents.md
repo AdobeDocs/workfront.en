@@ -54,7 +54,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Move a document in the legacy documents area
 
-If your organization is on legacy Workfront Storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront Storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+If your organization is on legacy Workfront Storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront Storage, see [Differences between Adobe enterprise storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
 
 To move a document: 
 
@@ -78,7 +78,7 @@ You can also move a document from the Document Details page.
 
 ## Move a document in the new documents area
 
-If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 To move a document:
 

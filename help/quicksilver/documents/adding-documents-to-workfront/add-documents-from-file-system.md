@@ -9,11 +9,11 @@ exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
 ---
 # Add documents to Adobe Workfront from your file system
 
-Workfront currently has two versions of the Documents area: the legacy documents area and the new documents area. The version that your organization uses depends on whether your organization is on legacy Workfront storage or enterprise etorage. For more information about these storage types, see [Enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront currently has two versions of the Documents area: the legacy documents area and the new documents area. The version that your organization uses depends on whether your organization is on legacy Workfront storage or enterprise storage. For more information about these storage types, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Adding documents to Workfront differs depending on which version of the documents area your organization uses. 
 
-* [Add documents to Adobe Workfront from your file system in the legacy documents area](#add-documents-to-adobe-workfront-from-your-file-system-in-the-legacy-document-area)
+* [Add documents to from your file system in the legacy documents area](#add-documents-from-your-file-system-in-the-legacy-documents-area)
 * [Add documents to Workfront in the new documents area](#add-documents-to-workfront-in-the-new-documents-area)
 
 
@@ -49,9 +49,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Add documents to Adobe Workfront from your file system in the legacy documents area
+## Add documents from your file system in the legacy documents area
 
-If your organization is on legacy Workfront Storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront Storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+If your organization is on legacy Workfront Storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront Storage, see [Differences between Adobe enterprise storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
 
 You can add documents to projects, tasks, or issues in the following areas in Adobe Workfront:
 
@@ -123,12 +123,12 @@ To add a document:
 
 ## Add documents to Workfront in the new documents area 
 
-You can add documents to projects, tasks, or issues using the enterprise storage model. For more information about enterprise storage, see [Enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+You can add documents to projects, tasks, or issues using the enterprise storage model. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Functionality not currently supported in the new documents area:
 
 * Uploading documents to the global Documents area
-* Uploading new versions of documents and adding links to documents from third-party cloud vendors, such as Google Drive, Dropbox, and Microsoft OneDrive.
+* Adding links to documents from third-party cloud vendors, such as Google Drive, Dropbox, and Microsoft OneDrive.
 * Requesting documents
 * Copying a link to a folder
 * Checking out documents
@@ -138,7 +138,7 @@ Functionality not currently supported in the new documents area:
 
 ### Add documents to Workfront in the new documents area 
 
-If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 <!--
 >[!IMPORTANT]
@@ -170,10 +170,10 @@ All files under 500 MB are scanned when they are uploaded. Files over 500 MB are
 
 ### File name restrictions
 
-Because this integration is built using Adobe Enterprise Storage, there are some enforced structure and naming conventions to be aware of when managing projects and documents.
+Because this integration is built using Adobe enterprise storage, there are some enforced structure and naming conventions to be aware of when managing projects and documents.
 
 * Object names must be unique and can't be duplicated
-* Adobe Enterprise Storage requires unique names for peer objects with the same parent in the hierarchy tree
+* Adobe enterprise storage requires unique names for peer objects with the same parent in the hierarchy tree
 * Documents can't have the same name if they belong to the same project
 * Document names can't contain any of the following special characters: `\ / : * ? " | < >`
 * Document names are limited to 255 characters maximum

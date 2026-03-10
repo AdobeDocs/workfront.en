@@ -83,7 +83,7 @@ These actions are available from the More menu on a task or issue. Each action r
 
 ## Enable Adobe enterprise storage
 
-Existing customers can enable Adobe enterprise storage in their environment upon contract renewal. For more information about enabling Adobe enterprise storage, see [Enable Adobe Enterprise Storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable.esm.md).
+Existing customers can enable Adobe enterprise storage in their environment upon contract renewal. For more information about enabling Adobe enterprise storage, see [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable.esm.md).
 
 >[!NOTE]
 >

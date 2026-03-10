@@ -17,5 +17,5 @@ You can also ask users to review a document as a proof in Adobe Workfront using 
 >
 >Proofing is unavailable if your organization is on enterprise storage. Instead, you can use Workfront review and approval with the Frame.io integration. For more information about enterprise storage or the Frame.io integration, see
 >
->* [Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md)
+>* [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md)
 >* [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)

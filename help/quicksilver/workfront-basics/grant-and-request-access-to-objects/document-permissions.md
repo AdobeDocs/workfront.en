@@ -306,7 +306,7 @@ The following table displays what permissions you can grant users when allowing 
 ## Share documents in the new documents area
 
 
-Workfront is transitioning to the Adobe enterprise storage solution in order to provide greater connectivity with Adobe Creative Cloud products. If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront is transitioning to the Adobe enterprise storage solution in order to provide greater connectivity with Adobe Creative Cloud products. If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 If your Workfront instance uses Adobe enterprise storage, you cannot share individual documents directly. Instead, you manage access on the project, task, or issue. For more information, see [How document permissions work](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
@@ -318,7 +318,7 @@ If your Workfront instance uses Adobe enterprise storage, you cannot share indiv
 
 
 
-## Considerations about sharing documents
+## Considerations about sharing documents on legacy Workfront storage
 
 In addition to the considerations below, also see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
