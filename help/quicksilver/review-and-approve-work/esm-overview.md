@@ -65,7 +65,6 @@ At the project level, system-generated folders display a linked object. This is 
 
 For more information, see [How document permissions work](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
-
 ## Workfront objects
 
 The table below compares the features of Adobe enterprise storage and legacy Workfront storage for Workfront objects. 
@@ -75,7 +74,6 @@ Workfront objects include portfolios, programs, projects, templates, tasks, and 
 | Adobe enterprise storage | Legacy Workfront storage |
 |---|---|
 | <ul><li>Uses Adobe enterprise storage</li><li>Integrated with Frame.io</li><li>Uses the new Documents experience</li><li>Enforces strict naming conventions</li><li>Direct document sharing isn't available</li><li>Documents are available in other Adobe products like Frame.io and Creative Cloud</li></ul> | <ul><li>Uses Workfront storage</li><li>Uses the proofing viewer</li><li>Supports individual document sharing</li></ul> |
-
 
 ### Move, copy, and convert objects
 
@@ -87,9 +85,12 @@ You can only move, copy, and convert between projects that use the same storage 
 
 ## Enable Adobe enterprise storage
 
-Existing customers can enable Adobe enterprise storage in their environment upon contract renewal. 
+Existing customers can enable Adobe enterprise storage in their environment upon contract renewal. For more information about enabling Adobe enterprise storage, see [Enable Adobe Enterprise Storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable.esm.md).
 
-New customers have Adobe enterprise storage enabled by default and do not have the option to use legacy Workfront storage.
+>[!NOTE]
+>
+>New customers have Adobe enterprise storage enabled by default and do not have the option to use legacy Workfront storage.
+
 
 
 

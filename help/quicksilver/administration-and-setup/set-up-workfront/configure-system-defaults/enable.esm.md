@@ -4,10 +4,10 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Enable Adobe Enterprise Storage for Your Organization
 description: You can enable Adobe Enterprise Storage for your organization to use a unified storage solution for all Adobe products.
-author: Becky
+author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
+
 ---
 # Enable Adobe Enterprise Storage for your organization
 
@@ -55,9 +55,10 @@ To enable Adobe Enterprise Storage for your organization:
 1. In the Default drop-down menu, select **Adobe Enterprise Storage**.
 1. (Optional) If you want to use a combination of Adobe Enterprise Storage and Legacy Workfront Storage, select the **Allow user to select storage provider** checkbox.
 
->[!NOTE]
->
->Enabling this option allows users to select the storage provider when they create a new project. Enterprise storage is labeled as "New project" since it is the default storage provider. Legacy Workfront Storage is labeled as "Legacy project".
-![new project and legacy project options](assets/new-esm-project.png)
+    >[!NOTE]
+    >
+    >Enabling this option allows users to select the storage provider when they create a new project. Enterprise storage is labeled as "New project" since it is the default storage provider. Legacy Workfront Storage is labeled as "Legacy project".
+    >
+    >![new project and legacy project options](assets/new-esm-project.png)
 
 1. Click **Save**.
