@@ -81,8 +81,6 @@ You can move, copy, and convert Workfront objects between like storage models. F
 
 These actions are available from the More menu on a task or issue. Each action respects document integrity, permission inheritance, and Adobe enterprise storage rules.
 
-You can only move, copy, and convert between projects that use the same storage model. For example, you can't move a task from an Adobe enterprise storage project to a legacy Workfront storage project.
-
 ## Enable Adobe enterprise storage
 
 Existing customers can enable Adobe enterprise storage in their environment upon contract renewal. For more information about enabling Adobe enterprise storage, see [Enable Adobe Enterprise Storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable.esm.md).
