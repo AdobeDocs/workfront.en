@@ -75,6 +75,7 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
    
       * Created by, Last modified by, Approved by
       * Created date, Last modified date, Approved date
+      <!--* <span class="preview">Record ID</span>-->
       * Workfront objects' lookup fields
       * Workfront Planning connected records' lookup fields
 

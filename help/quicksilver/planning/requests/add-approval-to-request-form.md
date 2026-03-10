@@ -145,7 +145,7 @@ To set approval rules for a request form:
 
    ![Default approval rule area](assets/default-approvers.png)
 
-1. (Optional) Start adding approval rules. For each  approval rule, do the following:
+1. (Optional) Start adding approval rules. For each  custom approval rule, do the following:
 
    1. Click **Add approval rule**
    1. Click the placeholder title **Untitled approval rule** and enter a name for the approval rule.
@@ -155,6 +155,14 @@ To set approval rules for a request form:
    1. (Optional) Click **Add condition** to add more conditions and connect them by **And** or **Or** statements by configuring the additional conditions as in steps C-E.
    1. In the **Actions** area of the approval rule, in the **Approvers** field, add at least one user or team to be set at the approver when the condition is met.
    1. (Conditional and optional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox. Otherwise, all approvers must decide on the approval before the request is accepted or rejected. 
+
+   >[!NOTE]
+   >
+   >   Consider the following when adding approval rules:
+   >
+   >   * If only a default rule is set up, it applies to every submitted request.
+   >   * If a custom rule is met, the default is not applied to the request approval workflow. Only the matched custom rules apply for approvals and the default rule is ignored.
+   >   * If multiple custom rules are met, the first one in the order applies. In this case, the default approval does not apply, if there is one.
 
 1. Click **Save** to save the approval rules.
 1. (Optional) Click **Publish** if you have never shared the request form before.
