@@ -63,9 +63,11 @@ You can view employment history from the Users list, or you can view a single us
 1. To filter results, click **Filter** and enter the field, operator, and value that you want to filter by. Results are filtered automatically.
 1. To add or remove columns, click the Add icon at the right of the table and click the plus icon next to each column that you want to add, or click the minus icon next to each column that you want to remove from the view.
 
+<!--
+
 ## Export employment history
 
-
+-->
 
 
 
