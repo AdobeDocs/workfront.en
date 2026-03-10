@@ -10,9 +10,9 @@ exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
 ---
 # Adobe enterprise storage overview
 
-Adobe enterprise storage is a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products. The Workfront and Frame.io integration is built on Adobe enterprise storage, enabling seamless collaboration and asset management between these platforms. it also alters the existing workfront document experience.
+Adobe enterprise storage is a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products. The Workfront and Frame.io integration is built on Adobe enterprise storage, enabling seamless collaboration and asset management between these platforms.
 
-This also paves the way for future asset management integrations with other Adobe products, such as Adobe Creative Cloud. 
+This storage option also paves the way for future asset management integrations with other Adobe products, such as Adobe Creative Cloud.
 
 ## Key Features
 
@@ -36,13 +36,13 @@ For more information about the Workfront and Frame.io integration, see [Frame.io
 
 ## Differences between Adobe enterprise storage and legacy Workfront storage
 
-Existing Workfront environments have a combination of Adobe enterprise storage and legacy Workfront storage. Any objects created prior to the release of Adobe enterprise storage will use legacy Workfront storage.
+Existing Workfront environments have a combination of Adobe enterprise storage and legacy Workfront storage. Any objects created prior to the release of Adobe enterprise storage uses legacy Workfront storage.
 
-Once you enable Adobe enterprise storage in your environemnt, you can create both Adobe enterprise storage and legacy Workfront storage projects. or only esm projects. 
+Once you enable Adobe enterprise storage in your environment, you can create both Adobe enterprise storage and legacy Workfront storage projects.
 
 >[!NOTE]
 >
->Net new environments will have Adobe enterprise storage enabled by default and will not have the option to use legacy Workfront storage.
+>Net new environments have Adobe enterprise storage enabled by default and do not have the option to use legacy Workfront storage.
 
 
 ### Documents
@@ -74,7 +74,7 @@ Workfront objects include portfolios, programs, projects, templates, tasks, and 
 
 | Adobe enterprise storage | Legacy Workfront storage |
 |---|---|
-| <ul><li>Uses Adobe enterprise storage</li><li>Integrated with Frame.io</li><li>Uses the new Documents experience</li><li>Enforces strict naming conventions</li><li>Direct document sharing isn't available</li><li>Documents available in other Adobe products like Frame.io and Creative Cloud</li></ul> | <ul><li>Uses Workfront storage</li><li>Uses the proofing viewer</li><li>Supports individual document sharing</li></ul> |
+| <ul><li>Uses Adobe enterprise storage</li><li>Integrated with Frame.io</li><li>Uses the new Documents experience</li><li>Enforces strict naming conventions</li><li>Direct document sharing isn't available</li><li>Documents are available in other Adobe products like Frame.io and Creative Cloud</li></ul> | <ul><li>Uses Workfront storage</li><li>Uses the proofing viewer</li><li>Supports individual document sharing</li></ul> |
 
 
 ### Move, copy, and convert objects
@@ -87,9 +87,9 @@ You can only move, copy, and convert between projects that use the same storage 
 
 ## Enable Adobe enterprise storage
 
-Exisitng customers can enable Adobe enterprise storage in their environment upon contract renewal. 
+Existing customers can enable Adobe enterprise storage in their environment upon contract renewal. 
 
-New customers will have adobe enterprise storage enabled by default and will not have the option to use legacy Workfront storage.
+New customers have Adobe enterprise storage enabled by default and do not have the option to use legacy Workfront storage.
 
 
 
