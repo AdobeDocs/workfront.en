@@ -65,7 +65,7 @@ For more information about the new document permission model, see [Object permis
 
 ##### Linked objects on folders
 
-At the project level, system-generated folders display a linked object. This is usually the task or issue name and is how the system knows which task or issue the folder should be seen on.
+At the project level, system-generated folders display a linked object. The folder is automatically named the same as the task or issue it belongs to. Linked folders are how the system knows which task or issue the folder should be seen on.
 
 For more information, see [How document permissions work](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
