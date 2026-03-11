@@ -103,22 +103,44 @@ You can create subfolders within a system-generated folder to organize documents
 
 ### Rename a folder
 
-System-generated folders can be renamed.
+System-generated folders automatically inherit the name of the task or issue. They can be renamed by clicking the folder name and editing it.
+
+To rename a folder:
 
 1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+1. Find the folder you want to rename, then click the **More** ![more icon](assets/more-icon.png) icon.
+1. Click **Rename**, then enter a new name for the folder.
 
-<!-- STEPS PLACEHOLDER: Add steps for renaming a folder in the new documents area -->
+   ![rename folder](assets/rename-folder.png)
+
+1. Click **Rename**.
 
 ### Move a folder
 
-System-generated folders can be moved. If a system-generated folder is moved to another location, its linked object is updated to the new object and permissions are inherited from the new parent object.
+System-generated folders can be moved to another project, task, or issue. If a system-generated folder is moved to another location, its linked object is updated to the new object and permissions are inherited from the new parent object. You can also move subfolders to another project, task, or issue.
+
+>[!NOTE]
+>
+>Only projects, tasks, and issues using the same storage type are available in the move dialog. For example, if you're moving a folder in an enterprise storage project, only projects, tasks, and issues using enterprise storage are available to move to.
+
+
+To move a folder:
 
 1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+1. Find the folder you want to move, then click the **More** ![more icon](assets/more-icon.png) icon.
+1. Click **Move**, then select the project, task, or issue you want to move the folder to.
+
+
+   ![move folder](assets/rename-folder.png)
 
 <!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new documents area -->
 
 ### Delete a folder
 
-1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+To delete a folder:
 
-<!-- STEPS PLACEHOLDER: Add steps for deleting a folder in the new documents area -->
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+1. Find the folder you want to delete, then click the **More** ![more icon](assets/more-icon.png) icon.
+1. Click **Delete**.
+
+   ![delete folder](assets/rename-folder.png)
