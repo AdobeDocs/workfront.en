@@ -120,6 +120,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Quarterly</strong></td>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Unified Review & Approval powered by Workfront and Frame.io</a><p></p>
+            <p>We're excited to introduce Unified Review & Approval powered by Workfront and Frame.io, a streamlined review and approval experience that brings together planning, proofing, and collaboration into a single, connected workflow.
+ </p>
+        </td>
+        <td><p>March 12, 2026</p></td>
+        <td><p>April 15, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+    </tr>
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Multi‑stage approval workflows available for unified approvals</a><p></p>
             <p>Multi‑stage approval workflows are now available in unified approvals, helping organizations enforce structured, repeatable approval processes that reflect how work is reviewed in the real world. </p>
         </td>
