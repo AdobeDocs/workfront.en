@@ -153,6 +153,50 @@ Make sure that dates do not overlap unless that is intended.
 
      Example: Agency = "1: Agency," Location = "Chicago," Cost Center = "22: Cost Center"
 
+### Fill out the RSALS (Rate Card Alias) tab
+
+Create and list all of the aliases on this tab. Each row represents one alias.
+
+When the rate card is attached to a project, the alias appears on information such as placeholder assignments, expenses, and reports, instead of the internal job role name. Only one alias can exist for each job role and attribute combination within a single rate card.
+
+An alias is added to the system, but it is not connected to a job role based on the information on this tab.
+
+![RSALS tab on rate card import template file](assets/rsals-tab-rate-card-import.png)
+
+1. Enter the name of an alias on each row.
+
+   Only enter one alias name per row: a job role alias, a non-labor resource category alias, or an expense type alias.
+
+### Fill out the RCRMET_RTCRD_RSALS (Rate Card Metadata) tab
+
+On this tab you can define the connections between resources and aliases for a specific rate card.
+
+![RCRMET_RTCRD_RSALS tab on rate card import template file](assets/rcrmet-tab-rate-card-import.png)
+
+1. Enter the information on each row:
+
+   * **Rate Card** (required): The name or the sequence number of the rate card that the resource and alias belong to. The rate card must be listed on the RTCRD tab.
+
+     For a sequence number: If the rate card was the first one you listed on the RTCRD tab (row 2), enter 1. If it was the second, enter 2, and so on.
+
+   * **Job Role** (required if Expense Type and Non-Labor Resource Category are not used): The job role that the alias is connected to. This can be either the job role name or the job role ID. The import will recognize both.
+
+     Example: Designer or _68c0234e00000541dd8c0757723daa68_
+
+   * **Expense Type** (required if Job Role and Non-Labor Resource Category are not used): The expense type that the alias is connected to. This can be either the expense type name or the expense type ID. The import will recognize both.
+
+     Example: Travel or _68c0234e00000541dd8c0757723daa68_
+
+   * **Non-Labor Resource Category** (required if Job Role and Expense Type are not used): The non-labor resource category that the alias is connected to. This can be either the category name or the category ID. The import will recognize both.
+
+     Example: Camera or _68c0234e00000541dd8c0757723daa68_
+
+     >[!IMPORTANT]
+     >
+     >You cannot enter all three of the **Job Role**, **Expense Type**, and **Non-Labor Resource Category** columns. One is required.
+
+   * **Resource Alias**: The alias entered on the RSALS tab.
+
 ### Date formatting requirements
 
 When preparing rate card data for importing, you must ensure that the date columns are formatted as **General**, not as **Date**.
