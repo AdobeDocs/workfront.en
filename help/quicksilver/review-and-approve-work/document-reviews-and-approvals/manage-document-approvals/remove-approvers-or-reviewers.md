@@ -58,7 +58,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Go to the document page by clicking on the name of the document, then select the version of the document you would like to remove an approval for in the version dropdown. The latest version is selected by default.
 
-1. Select **Approvals** in the left pane.
+1. Select **Approvals** in the left panel.
 
 1. Hover over the name of the approver or reviewer you would like to remove, then click on the **Delete** icon ![Delete icon](../assets/delete.png) that appears after their name.
 

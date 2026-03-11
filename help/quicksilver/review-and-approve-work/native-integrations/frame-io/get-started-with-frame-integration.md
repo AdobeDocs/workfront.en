@@ -50,7 +50,7 @@ For more information about setting up projects, see
 
 ### Initiate formal reviews and approvals in Workfront
 
-Project coordinators can create one-time review and approvals or resuable approval templates. They can assign reviewers, approvers, or a mix of both:
+Project coordinators can create one-time review and approvals or reusable approval templates. They can assign reviewers, approvers, or a mix of both:
 
 * **Reviewers** can add comments and mark up assets. Once finished, they can mark their review as complete. Marking the review as complete is not required for the asset to move forward in the approval process.
 * **Approvers** can add comments and mark up assets. They must make a decision to move the approval process forward. 
@@ -63,11 +63,11 @@ Reviewers and approvers can be added to a single-use approval workflow or a reus
 
     For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
-* **Approval templates**: In the Workfront Setup area, project coordinators can create resuable Approval Templates. Within a template, users can add reviewers and approvers and specify a completion timeframe. When the approval template is applied to an asset, the deadline is calculated from the specified timeframe. 
+* **Approval templates**: In the Workfront Setup area, project coordinators can create reusable Approval Templates. Within a template, users can add reviewers and approvers and specify a completion timeframe. When the approval template is applied to an asset, the deadline is calculated from the specified timeframe. 
 
     Once a template is created, it can be applied to an asset to begin the formal review and approval process in Workfront.
 
-    For more information, see [Create an Approval Template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+    For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
     
     ![Assign template](assets/assign-template.png)

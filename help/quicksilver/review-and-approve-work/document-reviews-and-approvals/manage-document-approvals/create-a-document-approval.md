@@ -76,7 +76,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 
-1. Click on the document you need and the Document Summary left panelfor that document opens.
+1. Click on the document you need and the Document Summary left panel for that document opens.
 
 1. Select the version of the document you would like to create an approval for in the version dropdown. The latest version is selected by default.
 
@@ -163,7 +163,7 @@ To create a an approval workflow:
    </tr>
    <tr>
    <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
    <td><strong>One decision required (optional)</strong></td>

@@ -106,7 +106,7 @@ For more detail about the information in this table, see [Access requirements in
     
 1. Click **Save**.
 
-One the template is created, it can be applied to documents in the Documents area of a project, task, or issue to begin the formal review and approval process in Workfront.
+Once the template is created, it can be applied to documents in the Documents area of a project, task, or issue to begin the formal review and approval process in Workfront.
 
 </div>
 
