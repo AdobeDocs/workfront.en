@@ -16,13 +16,23 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-<!--
+## New field type for Record ID  
+
+>[!NOTE]
+>
+>Preview: March 12, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+We have added a new field type for Record ID. This is a system-generated alpha-numeric indicator which uniquely identifies each record. The field displays in any record view as well as the record details area.  
+
+For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Allow non-admin users to make a record type connectable 
 
 >[!NOTE]
 >
->Preview: March 5, 2026
+>Preview: March 12, 2026
 >Production fast release: April 15, 2026
 >Production for everyone: April 16, 2026
 
@@ -31,8 +41,6 @@ We are now allowing non-administrators who are workspace managers to make a reco
 Before this update, non-administrators could not enable record types to be connectable. Now, they can enable the record types to be connectable from specific workspaces. They cannot enable record types to be connectable from all workspaces in the system. 
 
 For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
-
--->
 
 ## Trigger-based automation
 
