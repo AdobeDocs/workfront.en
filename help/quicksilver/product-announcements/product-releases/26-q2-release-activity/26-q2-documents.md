@@ -14,9 +14,9 @@ This page describes Documents enhancements made with the Second Quarter 2026 rel
 
 For a list of all changes available at this point in the Second Quarter 2026 release cycle, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## Unified Review & Approval powered by Workfront and Frame.io
+## Unified review and approvals powered by Workfront and Frame.io
 
-We're excited to introduce Unified Review & Approval powered by Workfront and Frame.io, a streamlined review and approval experience that brings together planning, proofing, and collaboration into a single, connected workflow.
+We're excited to introduce Unified Review & Approval powered by Workfront and Frame.io, a streamlined review and approval experience.
 
 This new capability is available to net new customers and to existing customers upon renewal.
 
