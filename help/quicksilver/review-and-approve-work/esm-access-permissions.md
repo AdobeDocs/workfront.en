@@ -55,7 +55,7 @@ Object permissions determine what you can see and do with projects, tasks, issue
 
 >[!IMPORTANT]
 >
->In Adobe enterprise storage, document permissions work differently than in legacy Workfront storage. Documents use a binary permission model: you either have Manage access or no access. The traditional View and Contribute permission levels no longer apply to documents.
+>In Adobe enterprise storage, document permissions work differently than in legacy Workfront storage. Documents inherit permissons from the project, task, or issue they are linked to.
 
 
 ### How document permissions work
@@ -74,7 +74,7 @@ When you have project-level permissions, you can view and manage documents for t
 
 ### Task and issue permissions
 
-Tasks and issues inherit permissions from the project. When you're added to a task or issue, you receive Manage access to its documents&mdash;even if you have View-only access to the task itself. This is because document permissions only have two options: Manage or No access.
+Tasks and issues inherit permissions from the project. When you have task or issue level permissions, you can view and manage documents linked to that task or issue in Workfront and other Adobe products like Frame.io and Adobe Creative Cloud.  
 
 **System-generated folders**
 
