@@ -84,3 +84,5 @@ For information about areas where you can find project financial information and
 [Attach a rate card to a project](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
 
 [Set up a Job Role for Billing](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md)
+
+[Define an overtime ratio](/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md)

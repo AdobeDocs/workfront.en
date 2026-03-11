@@ -45,7 +45,7 @@ You can edit information on tasks that you have created, or that you have Contri
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td>  <p>To use the User and Role Hourly Revenue and Cost Types: Workflow Ultimate</p>
+   <td>  <p>To use the User and Role Hourly Revenue and Cost Types and add an overtime ratio: Workflow Ultimate</p>
       <p>To edit all other settings and use all other Revenue and Cost Types: Any Workfront or Workflow package</p>  </td> 
   </tr> 
   <tr> 
@@ -589,8 +589,17 @@ You can define default custom forms to be automatically attached to tasks when t
       <li> <p>Role Hourly Plus Fixed </p> </li> 
       <li> <p> <span class="preview">User and Role Hourly Plus Fixed</span></p> </li> 
       <li> <p>Fixed Revenue </p> </li> 
-       </ul> <p>For more information about tracking revenue, see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a> . </p> <p>Your Workfront administrator or group administrator selects the default Revenue Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </td> 
+       </ul> <p>For more information about tracking revenue, see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a> and <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Overview of revenue and cost hierarchy</a>. </p> <p>Your Workfront administrator or group administrator selects the default Revenue Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </td> 
      </tr> 
+      <td><span class="preview">Overtime Ratio</span></td> 
+      <td><span class="preview"><p>Enter the overtime multiplier for the task, for example, 1.5 or 2.0. The default is 1.0 (no multiplier). For more information, see <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Define an overtime ratio</a>.</p><p>To see the Overtime Ratio field:</p>
+       <ul>
+       <li>The Revenue Type on the task must be User and Role Hourly. For more information, see <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Overview of revenue and cost hierarchy</a>.</li>
+       <li>The field must be enabled on your layout template, for the Finance area in the task Details view. For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">Customize the Details view using a layout template</a>.</li>
+       </ul>
+      </span></td>
+     <tr>
+     </tr>
     </tbody> 
    </table>
 

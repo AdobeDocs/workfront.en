@@ -1301,6 +1301,7 @@ feature-set: Workfront
       * [Override user billing rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-user-billing-rates-project-level.md)
       * [Attach a rate card to a project](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
       * [Set up a Job Role for Billing](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md)
+      * [Define an overtime ratio](/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md)
       * [Overview of project Planned Benefit](manage-work/projects/project-finances/project-planned-benefit.md)
       * [Set the Performance Index Method (PIM)](manage-work/projects/project-finances/set-pim.md)
       * [Calculate Return On Investment (ROI)](manage-work/projects/project-finances/calculate-roi.md)
