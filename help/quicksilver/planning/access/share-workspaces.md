@@ -145,32 +145,23 @@ To share a workspace with others:
 
     ![Share button on workspace top right](assets/share-button-on-workspace-top-right.png)
 
-   <!--only for March 4: * <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>-->
+1. <span class="preview">(Conditional) Depending on what access level you have, do one of the following: 
 
-   <!--For Feb 26:
-   1. <span class="preview">(Conditional) If you are a System Administrator, select from the following options:</span>
+   * If you are a System Administrator, select from the following options:</span>
 
-         <div class="preview">
+      * <span class="preview">**Only invited people can access**: You must select entities in the sharing box and choose their access to the workspace. This is the default selection. </span>
+      * <span class="preview">**Everyone in the system can view**: Everyone in the system with access to Planning can view the workspace in their **Workspaces** area in Planning.</span>
+       
+   * <span class="preview">(Conditional) If you are a workspace manager with a Standard license, you can see one of the following selections but you cannot change them:</span>
 
-         * **Only invited people can access**: You must select entities in the sharing box and choose their access to the workspace. This is the default selection. 
-         * **Everyone in the system can view**: Everyone in the system with access to Planning can view the workspace in their **Workspaces** area in Planning.
-         
-         </div> -->
-   
-   <!--only  for March 4:
+      * <span class="preview">**Only invited people can access**. This is the default setting.</span>
+      * <span class="preview">**Everyone in the system can view**</span>
 
-      * <span class="preview">If you are a workspace manager with a Standard license, you can see one of the following selections but you cannot change them:</span>
+      <span class="preview">You must ask a System Administrator to change a global permission for a workspace.</span>
 
-         <div class="preview">
-         
-         * **Only invited people can access**
-         * **Everyone in the system can view**
-         
-         </div>-->
+1. In the **Grant access to this workspace** field, start typing the name of a user, group, team, company, or job role then click it when it displays in the list. 
 
-1. In the **Grant access to this workspace** field, start typing the name of a user, group, team, company, or job role then click it when it displays in the list. <!--update screen shot at the release of system-wide permissions for workspaces-->
-
-   ![Sharing UI with groups](assets/sharing-ui-with-groups.png)
+   <span class="preview">![Sharing UI with groups](assets/sharing-ui-with-groups.png)</span>
 
    >[!NOTE]
    >
@@ -229,4 +220,4 @@ Users who access a link to a workspace to which they do not have permissions can
 
    The users removed no longer have access to the workspace or its objects.
   
-   There is no notification for the users that have been removed from accessing the workspace that they no longer have these permissions. 
+   There is no notification for the users that have been removed from accessing the workspace that they no longer have these permissions.

@@ -195,7 +195,9 @@ You must account for the conversion from minutes to hours when accessing these f
 
 The Actual Hours logged for projects, tasks, or issues are currently stored in the Workfront database as minutes and their valuefield is `actualWorkRequired`.
 
-With the following version of the Workfront API scheduled to release later in 2025, Actual Hours are stored in the following fields and units in the database: 
+Since October 2025, with the API Version 21, Actual Hours are stored in the following fields and units in the database: 
+
+<!--above used to be this: With the following version of the Workfront API scheduled to release later in 2025, Actual Hours are stored in the following fields and units in the database: -->
 
 * **Actual Hours**: Hours logged for project, tasks, or issues after May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
 * **Legacy Actual Hours**: Hours logged for projects, tasks, or issues any time, including before May 2021. They are stored in the Workfront database as minutes and their valuefield is `actualWorkRequired`.

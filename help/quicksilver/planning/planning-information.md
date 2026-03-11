@@ -1,5 +1,5 @@
 ---
-title: General Information about Adobe Workfront Planning
+title: General Information and Article Index for Adobe Workfront Planning
 description: As a marketing operations leader, you can use Adobe Workfront Planning to organize work across the marketing lifecycle for all your teams. The articles in this section describe how you can configure the planning capabilities and how you can start using them as part of your campaign management operations.
 short-description: Use the documents and additional resources to learn how to implement and effectively use Adobe Workfront Planning in your organization.
 author: Alina
@@ -8,7 +8,7 @@ role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
 ---
-# General information about Adobe Workfront Planning
+# General information and article index for Adobe Workfront Planning
 
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
 <!--this articles used to be called "Adobe Workfront Planning: article index"-->
@@ -78,7 +78,7 @@ The following sections contain articles that describe in detail the features cur
     * Planning in-app notifications
     * Planning email notifications
 
-## Additional features available for Workfront Planning
+## Additional capabilities available for Workfront Planning
 
 * [Adobe Workfront Planning API basics](/help/quicksilver/planning/general/planning-api-basics.md): The goal for the Adobe Workfront Planning API is to simplify building integrations with Planning by introducing a REST-ful architecture that operates over HTTP.
 
@@ -88,7 +88,16 @@ The following sections contain articles that describe in detail the features cur
 
 * [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md): You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. 
 
-* [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md): You can manage records from GenStudio for Performance Marketing in the GenStudio workspace in Workfront Planning.
+* [Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration: article index](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): You can manage records from GenStudio for Performance Marketing in the GenStudio workspace in Workfront Planning.
 
-* **Workfront Planning reporting capabilities**: You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+* **Workfront Planning reporting capabilities**: You can view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
+* [Adobe Workfront Planning best practices: article index](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md): Learn tips on how to roll out Adobe Workfront Planning in your organization using a strategy that prioritizes safety, minimizes disruption, and delivers quick wins.
+
+## Workfront Planning release activity 
+
+<!--update this with the new release activity page - the article index for all Planning releases-->
+
+We are releasing new features to Workfront Planning regularly. 
+
+For an up-to-date list of released features, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md). 
