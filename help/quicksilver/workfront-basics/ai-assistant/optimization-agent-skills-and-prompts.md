@@ -116,6 +116,8 @@ For more information on using AI Assistant to locate project, tasks, and issues,
 
 <!--
 
+Follow up on this to see if it's going away or what
+
 ### Catch Me Up 
 
 Catch Me Up summarizes updates, uploaded documents, and other notable changes that have about your projects that have occurred in the last 24 hours, 3 days, or 7 days.  
