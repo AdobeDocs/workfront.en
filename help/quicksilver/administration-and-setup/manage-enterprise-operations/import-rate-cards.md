@@ -16,7 +16,7 @@ You can use a template file to build your rate cards in Excel and import them in
 
 To see the example rate cards described in this article, download the [sample file](assets/rate-cards-sample.zip).
 
-For more information about rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+For more information about rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md). 
 
 ## Important rules for working with the template file
 

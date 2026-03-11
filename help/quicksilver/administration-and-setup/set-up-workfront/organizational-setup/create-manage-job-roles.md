@@ -64,7 +64,7 @@ To create a job role:
 
 1. In the left panel, click **[!UICONTROL Job Roles]**.
 1. Click **[!UICONTROL New Job Role]**.
-1. Configure the following fields:
+1. Enter information in the following fields:
 
    * **Name**: Indicate a name for the job role. This is the name that displays everywhere in Workfront where the Job Role field displays.
 
@@ -115,7 +115,7 @@ To create a job role:
 
 <div class="preview">
 
-## Add rate attributes to a job role
+## Add rates and attributes to a job role
 
 Rate attributes are supported in areas of Workfront where rates exist, such as job roles and users. When attributes are applied on a job role, their assignments resolve automatically to the correct rates.
 
@@ -125,14 +125,34 @@ For more information, see [Define rate attributes](/help\quicksilver\administrat
 
 1. In the left panel, click **[!UICONTROL Job Roles]**.
 1. Click the name of an existing job role to edit it.
-1. Click **Rates** in the left panel.
+1. Click [!UICONTROL **Rates**] in the left panel.
+1. Click [!UICONTROL **Billing**] or [!UICONTROL **Cost**] to select the rate type.
+1. Click [!UICONTROL **Add Rates**] to add a new rate.
 
+   Or
 
-Edit an existing rate or add a new rate
+   Select an existing rate and click the **Edit** icon ![Edit icon](assets/edit-icon.png) to update it.
 
+   >[!NOTE]
+   >
+   >Because each rate is associated with the combination of the role and attributes to create a unique rate, the attributes cannot be changed when you edit a rate.
 
-NOTE: Once the attributes are set, you cannot edit them. Though you can change the rate and add effective dates. See if this language exists elsewhere??
+1. On the **New Rate** box, select attributes for the rate such as Agency, Location, or Cost Center.
 
+   >[!NOTE]
+   >
+   >These attributes are defined separately and may affect revenue and cost calculations. For more information, see [Define rate attributes](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+
+1. Select the **Currency** for the rate. The Base Currency is shown by default.
+1. Enter the **Billing Rate** or the **Cost Rate** for this job role and its attributes.
+
+   For more information about billing and cost rates, see [Create a job role](#create-a-job-role), above.
+
+   For date effective rates, click **Add date effective rate**. Enter the rate value for the time period, and assign a Start Date and End Date as needed. The first rate will not have a start date and the last rate will not have an end date.
+
+   Some dates are added automatically. For example, if the first rate does not have an end date, and you add a second with a start date of May 1, 2026, an end date of April 30, 2026 is added to the first rate so that no gaps exist.
+
+1. Click [!UICONTROL **Save**].
 
 </div>
 
