@@ -188,10 +188,12 @@ See example prompts for document and asset approvals in the following areas:
 * [Create, update, or delete projects](#create-update-or-delete-projects)
 * [Identify the right project template based on user prompt](#identify-the-right-project-template-based-on-user-prompt)
 * [Add, edit, or customize tasks in a project](#add-edit-or-customize-tasks-in-a-project)
-* [Create, update, or delete assignments](#create-update-or-delete-assignments)
+<!--* [Create, update, or delete assignments](#create-update-or-delete-assignments)-->
 <!--* [Recommend best matching user assignments for the task based on users' job role and availability](#recommend-best-matching-user-assignments-for-the-task-based-on-users-job-role-and-availability)-->
 
 #### Create, update, or delete projects
+
+You can create projects from scratch or from templates, update projects, and delete them.
 
 * Create a blank project called Q2 Innovation Sandbox starting March 10 and ending April 30. Set me as the owner.
 * Create a project called Lucent AI Launch – NA using the Integrated Marketing Campaign template. Start February 5 and set it to Current.
@@ -200,13 +202,9 @@ See example prompts for document and asset approvals in the following areas:
 * Show me all current marketing projects finishing in Q2 that are high or urgent priority, sorted by earliest end date.
 * Delete the project called Q1 Test Campaign.
 
-#### Identify the right project template based on user prompt
+#### Add or edit tasks 
 
-* We're launching a new product feature with a landing page, emails, paid ads, and social posts. Which project template should we use?
-* Create a project for a global marketing campaign with multiple channels and regional rollouts. (should suggest a template if provided more info)
-* For Website Redesign – EMEA project, recommend and attach the correct project template.
-
-#### Add, edit, or customize tasks in a project
+You can add or edit tasks in a project, and you can customize the task list of the template you use to create a project.
 
 * Add a new task called Landing Page QA to the project and schedule it from April 22 to April 26.
 * Update the Design Review task so it finishes on April 18 and assign it to the creative team.
@@ -218,10 +216,22 @@ See example prompts for document and asset approvals in the following areas:
 
 #### Create, update, or delete assignments
 
+You can create, update, and delete user or job role assignments.
+
 * For the project 'Design Landing Page for Product Launch', identify the appropriate job roles and recommended planned hours for all currently unassigned tasks.
 * I have several unassigned tasks, including 'Implement GA4 tracking for campaign site', 'Set up conversion events', and 'Validate analytics data'. Can you suggest the right job roles and estimated hours for each?
 * For the creative tasks 'Create 3 banner variants for EMEA display ads', 'Apply revisions', and 'Export final assets', assign the best job roles and estimate the required effort for each task.
 * Across the projects 'Q2 Product Launch', 'Website Redesign – EMEA', and 'Paid Media Campaign – NA', identify all unassigned tasks and assign the appropriate job roles with recommended planned hours for each.
+
+<!--
+
+#### Identify the right project template based on user prompt
+
+* We're launching a new product feature with a landing page, emails, paid ads, and social posts. Which project template should we use?
+* Create a project for a global marketing campaign with multiple channels and regional rollouts. (should suggest a template if provided more info)
+* For Website Redesign – EMEA project, recommend and attach the correct project template.
+
+-->
 
 <!--
 
