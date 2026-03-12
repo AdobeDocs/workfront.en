@@ -3,7 +3,7 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Use the My Requests widget
 description: You can submit requests in the My Requests widget. You can also customize the widget with filters and columns.
-author: Becky
+author: Alina, Courtney
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
 ---
@@ -30,7 +30,9 @@ The My Requests widget displays requests that you have submitted. You can filter
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
-   <td> <p>Any</p> </td> 
+   <td> <p>Any Workfront or Workflow package</p>
+   <p>Any Workfront Planning package to access Workfront Planning requests and their created objects</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
@@ -38,12 +40,14 @@ The My Requests widget displays requests that you have submitted. You can filter
    <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
-    <tr> 
+   <!--
+   <tr> 
    <td role="rowheader"><strong>Additional products</strong></td> 
    <td> You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
-  </tr> 
+   </tr> 
+   -->
    <td role="rowheader"><strong>Access level configuration</strong></td> 
-   <td> <p>View access or higher to any objects for which you are tagged in a conversation or need to resolve an approval (Projects, Tasks, Issues, Documents)</p> </td> 
+   <td> <p>View or higher access to any objects for which you are tagged in a conversation or need to resolve an approval (Projects, Tasks, Issues, Documents)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
@@ -56,28 +60,28 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Create a new request
+## Create a request
 
 You can create a request directly from the My Requests widget.
 
-For instructions, see [Create a request](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) in the article Create work items and projects from the Home area.
+For instructions, see the section [Create a request](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md/#create-a-request) in the article [Create work items and projects from the Home area](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Copy a request
 
 You can copy a request in the My Requests widget, edit it, and submit it as a new request.
 
-For instructions, see [Copy and submit requests in the new requesting experience](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) in the article Copy and submit requests.
+For instructions, see the section [Copy and submit requests in the new requesting experience](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) in the article [Copy and submit requests](//help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 ## Filter requests
 
-The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR.
+The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR operators.
 
 To configure the filter in the My Requests widget:
 
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**. 
-1. In the My Requests widget, click **Filter**.
-1. In the leftmost field, select what you want to filter by. Available options are:
+1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**, then click it to add it to **Home**. 
+1. In the **My Requests** widget, click **Filter**.
+1. Select the field that you want to filter by. Available options are:
 
    * Workspace
    * Object type
@@ -85,8 +89,7 @@ To configure the filter in the My Requests widget:
    * Request form
    * Status
    * Entered by
-
-    You can also filter by any custom fields that have been added as a column to the view.
+   * Custom fields from the request or from the created object   
 
 1. In the next field, select the operator that you want to use for this filter condition. Available operators depend on the chosen field.
 1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
@@ -97,7 +100,7 @@ The filter is saved automatically.
 
 >[!TIP]
 >
->If your organization has purchased Workfront Planning, the My Requests widget will include both Workfront and Workfront Planning requests.
+>If your organization has purchased Workfront Planning in addition to Adobe Workfront, the My Requests widget will include both Workfront and Workfront Planning requests.
 > 
 >* To filter for only Workfront requests, set the filter to **Object type** > **Has any of** > **Issues**.
 >* To filter for only Workfront Planning requests, et the filter to **Object type** > **Has none of** > **Issues**.
@@ -119,22 +122,35 @@ Available columns include:
 To adjust the columns on the My Requests widget:
 
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**. 
-1. In the My Requests widget, click **Columns**.
-1. (Optional)To reorder columns, click the drag handle ![drag handle](assets/drag-handle.png) of the column you want to move and drag it to the desired locations. The column at the top of the list appears in the My Requests widget as the leftmost column.
-1. (Optional) Use the toggle to control whether a column is displayed in the My Requests widget.
-1. To add a custom field as a column, click the **Add column** icon ![Add column](assets/add-column.png) near the right of the screen, and click the plus icon next to the custom form field that you want to add as a column to the widget.
+1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**, then click it to add it to **Home**. 
+1. In the **My Requests** widget, click **Columns**.
+1. (Optional) To reorder columns, click the drag handle ![drag handle](assets/drag-handle.png) of the column you want to move and drag it to the desired locations. The column at the top of the list appears in the My Requests widget as the first column.
+1. (Optional) Use the toggle to hide or show the column in the requests list.
+1. To add a custom field as a column, click the **Add column** icon ![Add column](assets/add-column.png) in the upper-right corner of the list, and click the plus icon next to the custom field that you want to add as a column to the widget.
 
    Custom fields on forms attached to the object in the list are available to add as columns.
 
 Column preferences are saved automatically.
+
+## Create a view
+
+You can create views in the My Requests widget to change the way the information displays in the request list. 
+
+Consider the following when working with views in the My Requests widget:
+
+* A view in the My Requests widget contains the columns and filters applied to the view.
+* You can create views and share them with others. The filters and columns you select for the view before you share it are included in the views you share. 
+* The following is a system view which you cannot edit, share, or delete: 
+
+   * Widget Unified Requests Default View
+* Creating and editing a view in the My Requests widget is similar to enhanced lists. For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). 
 
 ## Search requests
 
 To search for specific requests in the My Requests widget:
 
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**. 
+1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**, then click it to add it to **Home**.  
 1. In the search bar near the upper-right of the My Requests widget, enter the term that you want to search for.
 
    Requests that contain the term are highlighted in orange.
@@ -150,7 +166,7 @@ You can find objects created by a request in the My Requests widget.
 >Links to created objects are available in the new requesting experience only for Planning requests, in cases where the request itself created an object. If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience.
 
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**. 
+1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**, then click it to add it to **Home**. 
 1. Locate the request that created the object. 
 1. Click the object name in the **Created object** column for that request. 
 
