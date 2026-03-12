@@ -7,6 +7,8 @@ description: Get started with the GenStudio for Performance Marketing and Frame.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+hide: yes
+hidefromtoc: yes
 exl-id: 4d0c0542-3383-4907-b573-e2ef56117681
 ---
 # Get started with the GenStudio for Performance Marketing and Frame.io integration
@@ -65,17 +67,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 * The Workfront instance must be enabled on the Adobe Unified Experience.
 
-<!--* The integration must be enabled in the Workfront Setup area.
+* The Workfront instance must have Adobe enterprise storage enabled. For more information, see [Enable Adobe enterprise storage](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
-
-## Enable the integration in Workfront
-
-You must be a system administrator to enable this integration. 
-
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
-1. In the left panel, click **Review and Approval** > **Adobe GenStudio**.
-1. Enable **Use proof approvals**. 
--->
 
 ## Use Workfront unified approval templates to define approval workflows
 
