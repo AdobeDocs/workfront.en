@@ -162,13 +162,13 @@ If you need information about uploading new versions of a document to Workfront,
 
 Workfront prevents viruses and other malicious content from entering the site via documents in the following ways:
 
-### How Workfront detects corrupted files
+**How Workfront detects corrupted files**
 
 Document scanning is automatically enabled for objects using the enterprise storage model.
 
 All files under 500 MB are scanned when they are uploaded. Files over 500 MB are not scanned. If Workfront detects a corrupted document, it is automatically removed.
 
-### File name restrictions
+**File name restrictions**
 
 Because this integration is built using Adobe enterprise storage, there are some enforced structure and naming conventions to be aware of when managing projects and documents.
 
@@ -185,7 +185,7 @@ With these limitations in mind, Workfront automatically renames objects or docum
 
 Workfront site prevents viruses and other malicious content from entering the site via documents in the following ways:
 
-### How Workfront detects corrupted files {#how-workfront-detects-corrupted-files}
+**How Workfront detects corrupted files**
 
 Document scanning is enabled for your organization only upon request.
 
@@ -195,6 +195,6 @@ If Workfront detects a corrupted document, a message appears indicating that the
 
 Corrupted files are removed within 24 hours of detection unless you remove it manually. If you delete a corrupted file, Workfront tracks this action as an update. If you allow Workfront to remove it, then no updates are recorded.
 
-### File name restrictions {#file-name-restrictions}
+**File name restrictions**
 
 Files that are uploaded to Workfront cannot contain certain characters in file names. If a file contains any of the following characters in the file name, the characters are removed from the file name when the file is uploaded: `! # % * \ | ' " / ? < > { } [ ]`.
