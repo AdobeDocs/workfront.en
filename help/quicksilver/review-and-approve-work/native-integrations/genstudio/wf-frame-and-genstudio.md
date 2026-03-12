@@ -7,6 +7,7 @@ description: Get started with the GenStudio for Performance Marketing and Frame.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+exl-id: 4d0c0542-3383-4907-b573-e2ef56117681
 ---
 # Get started with the GenStudio for Performance Marketing and Frame.io integration
 
