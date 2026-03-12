@@ -87,9 +87,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 <div class="preview">
 
-## Remove approvers or reviewers from an approval workflow in your preview environment<!--in the legacy documents area-->
+## Remove approvers or reviewers from an approval workflow in your preview environment in the legacy documents area
 
-<!--If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).-->
+If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
 To remove approvers or reviewers from an approval workflow:
 
@@ -113,7 +113,7 @@ To remove approvers or reviewers from an approval workflow:
 
 </div>
 
-<!--
+
 ## Remove approvers or reviewers to an approval workflow in the new document area
 
 If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
@@ -139,5 +139,3 @@ To create a an approval workflow:
 
    ![remove participants from a stage](assets/add-or-remove-participants.png)
 1. Click **Save**.
-
--->
