@@ -50,6 +50,8 @@ For more information, see [Adobe enterprise storage overview](/help/quicksilver/
 
 Workfront and Frame.io extends GenStudio for Performance Marketing's basic review-and-approval process with more structured review-and-approval features. Proofs reviewed in this integration are limited to the formats supported by GenStudio for Performance Marketing.
 
+<!--
+
 ## Multi‑stage approval workflows available for unified approvals
 
 >[!NOTE]
@@ -85,4 +87,6 @@ With approval workflow templates, you can:
 * Ensure required stakeholders are engaged at the right stage
 
 For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
+-->
 
