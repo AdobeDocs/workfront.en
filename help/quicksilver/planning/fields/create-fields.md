@@ -244,7 +244,7 @@ For information, see [Import fields from Workfront](/help/quicksilver/planning/f
     * [Last modified date](#last-modified-date)
     * [Approved date](#approved-date)
     * [Approved by](#approved-by)
-    <!--* <span class="preview">[Record ID](#record-id)</span>-->
+    * <span class="preview">[Record ID](#record-id)</span>
     <!--* [Object](#object-field-type)-->
     
     >[!IMPORTANT]
@@ -804,7 +804,6 @@ You can use the Approved by field type to add the user who last approved the req
 
     The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
 
-<!--
 <span class="preview">
 
 ## Record ID
@@ -830,7 +829,7 @@ You cannot manually modify the value of a Record ID field.
 
 </span>
 
--->
+
 <!--
 
 ## Object field type
