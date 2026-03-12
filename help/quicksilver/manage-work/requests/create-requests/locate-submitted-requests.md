@@ -39,7 +39,9 @@ The Requests area displays the following requests, depending on how you choose t
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any </p> </td> 
+   <td> <p>Any Adobe Workront or Adobe Workflow package</p> 
+   <p>Any Adobe Workfront Planning package</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -55,10 +57,12 @@ The Requests area displays the following requests, depending on how you choose t
    <td role="rowheader">Object permissions</td> 
    <td><p>View permissions or higher on the requests</p></td> 
   </tr> 
-  <tr> 
+  <!--
+  tr> 
    <td role="rowheader"> Product</td> 
    <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
@@ -75,7 +79,7 @@ Viewing submitted requests differs based on whether you are using the new or leg
 
 ### View submitted requests in the new requesting experience
 
-You can view submitted requests in the Requests area, which include links to objects created by Planning requests.
+You can view submitted requests in the Requests area, which include links to objects created by Adobe Workfront Planning requests.
 
 >[!NOTE]
 >
