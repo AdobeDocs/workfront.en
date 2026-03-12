@@ -151,7 +151,7 @@ To add or remove Workfront Planning areas from users of your Workfront instance:
 
 You can assign licenses to users when you configure their Access level while editing or creating them. 
 
-For information, see [Edit a user's profiles](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+For information, see [Edit a user's profile](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Configure access level
 
