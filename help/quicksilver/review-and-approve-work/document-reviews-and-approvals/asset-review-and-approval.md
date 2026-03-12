@@ -52,9 +52,11 @@ Key features available for Unified Approvals:
 * Use Canvas Dashboards, currently in beta, to view reporting details about Unified Approvals
     For more information on reporting, see [Create a report dashboard for review and approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 
-* Create multiple stage approvals [!BADGE Coming soon]{type=Informative}
+* Create multiple stage approvals
 
 * Access review and approval requests in the My Approvals widget in the Home area
+
+* Use the Frame.io integration to review and approve documents. For more information, see [Get started with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
 
 * Use the AI Reviewer to automate brand compliance reviews. For more information, see [Get started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
@@ -82,7 +84,3 @@ Features available for proofing:
 * Use basic or automated workflows
 
 * Access approval requests in the My Approvals widget in the Home area
-
-<!--
-## Upcoming deprecations
--->
