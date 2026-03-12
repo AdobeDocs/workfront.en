@@ -34,12 +34,6 @@ Create more structured and sophisticated approval workflows with multi-stage app
 
 Seamlessly send approved assets directly to Adobe Experience Manager. This integration helps accelerate content activation by connecting review and approval workflows with downstream content management. For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
-#### Integration with GenStudio for Performance Marketing
-
-Create approval workflows and review assets using the Frame.io viewer within GenStudio for Performance Marketing. This integration enables high-quality creative review while supporting fast-paced, performance-driven campaigns. For more infomation, see [Get started with the GenStudio for Performance Marketing and Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md).
-
-Unified Review & Approval powered by Workfront and Frame.io helps teams move from review to activation faster—reducing friction, improving collaboration, and keeping work connected across Adobe solutions.
-
 #### Access to Adobe Enterprise Storage
 
 Adobe enterprise storage is a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products. The Workfront and Frame.io integration is built on Adobe enterprise storage, enabling seamless collaboration and asset management between these platforms.
