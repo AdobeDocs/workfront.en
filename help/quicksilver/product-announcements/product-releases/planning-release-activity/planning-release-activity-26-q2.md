@@ -16,6 +16,8 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+<!--
+
 ## New field type for Record ID  
 
 >[!NOTE]
@@ -27,6 +29,8 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 We have added a new field type for Record ID. This is a system-generated alpha-numeric indicator which uniquely identifies each record. The field displays in any record view as well as the record details area.  
 
 For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
+
+-->
 
 ## Allow non-admin users to make a record type connectable 
 
