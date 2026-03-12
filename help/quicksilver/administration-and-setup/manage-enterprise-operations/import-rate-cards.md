@@ -215,7 +215,7 @@ Following these steps will prevent unnecessary issues and ensure a smooth and ac
 
 1. In the left panel, click [!UICONTROL **Rate cards**].
 1. Click **New rate card**, then click **Import new rate cards**.
-1. Drag and drop your file into the dialog, or click Select an Excel file to browse to the file on your computer.
+1. Drag and drop your file into the dialog, or click **Select an Excel file** to browse to the file on your computer.
 1. Click **Start importing**.
 
    If there are no issues with the file, then a confirmation message appears and the new rate cards appear in the list.
@@ -223,3 +223,34 @@ Following these steps will prevent unnecessary issues and ensure a smooth and ac
 1. If the file contains issues, an error message appears. Click **See issues** to view the issues on a separate screen.
 
    You must correct the issues in the Excel file and import it again before the rate cards will exist in Workfront.
+
+<!--
+
+## Update existing rate cards
+
+You can update the rates in your existing rate cards in an Excel file and upload those changes to Workfront.
+
+### Export the rate cards to Excel
+
+{{step-1-to-setup}}
+
+1. In the left panel, click [!UICONTROL **Rate cards**].
+1. Click the **Export** icon ![Export icon](assets/export.png) and choose one of the Excel options.
+
+
+### Import the updated file
+
+{{step-1-to-setup}}
+
+1. In the left panel, click [!UICONTROL **Rate cards**].
+1. Click **New rate card**, then click **Import rate card updates**.
+1. Drag and drop your file into the dialog, or click **Select an Excel file** to browse to the file on your computer.
+1. Click **Start importing**.
+
+   If there are no issues with the file, then a confirmation message appears and the new rate cards appear in the list.
+
+1. If the file contains issues, an error message appears. Click **See issues** to view the issues on a separate screen.
+
+   You must correct the issues in the Excel file and import it again before the rate card updates will exist in Workfront.
+
+-->
