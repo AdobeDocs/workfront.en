@@ -30,6 +30,10 @@ Enjoy a completely reimagined documents experience with a modern look and feel. 
 
 Create more structured and sophisticated approval workflows with multi-stage approvals. Route work through sequential review stages, assign stakeholders at each step, and ensure the right people sign off at the right time—bringing greater governance and visibility to your process. For more information, see [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
+#### Review and approve content in Frame.io
+
+Review and approve content directly in the Frame.io viewer and eliminate the need to switch between platforms. This integration allows for faster feedback cycles and keeps all review activity in one place. For more information, see [Get started with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+
 #### Connection with Adobe Experience Manager
 
 Seamlessly send approved assets directly to Adobe Experience Manager. This integration helps accelerate content activation by connecting review and approval workflows with downstream content management. For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
@@ -43,8 +47,6 @@ Access to Adobe Enterprise Storage also paves the way for future asset managemen
 For more information, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Workfront and Frame.io extends GenStudio for Performance Marketing's basic review-and-approval process with more structured review-and-approval features. Proofs reviewed in this integration are limited to the formats supported by GenStudio for Performance Marketing.
-
-<!--
 
 ## Multi‑stage approval workflows available for unified approvals
 
@@ -81,5 +83,3 @@ With approval workflow templates, you can:
 * Ensure required stakeholders are engaged at the right stage
 
 For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-
--->
