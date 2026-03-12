@@ -128,7 +128,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>April 15, 2026</p></td>
         <td><p>April 16, 2026</p></td>
     </tr>
-    <!--
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Multi‑stage approval workflows available for unified approvals</a><p></p>
@@ -147,7 +146,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>April 15, 2026</p></td>
         <td><p>April 16, 2026</p></td>
     </tr>
-    -->
              </tbody>
         </table>   
 
