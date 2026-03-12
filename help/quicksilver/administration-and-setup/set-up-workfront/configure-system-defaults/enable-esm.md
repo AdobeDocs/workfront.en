@@ -7,7 +7,7 @@ description: You can enable Adobe enterprise storage for your organization to us
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-
+exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
 ---
 # Enable Adobe enterprise storage for your organization
 
