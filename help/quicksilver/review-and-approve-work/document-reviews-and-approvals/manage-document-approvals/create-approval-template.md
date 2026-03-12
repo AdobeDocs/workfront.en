@@ -1,13 +1,15 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Create an Approval Template for assets and documents
+title: Create an approval workflow template for documents
 description: You can create Approval Templates to streamline your approval process.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 ---
-# Create an Approval Template for assets and documents
+# Create an approval workflow template for documents
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 In the Workfront Setup area, users with a Standard license can create reusable Approval Templates. Once created, Approval Templates can be applied to assets in the Documents area of a project, task, or issue. 
 
@@ -40,7 +42,10 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Create an Approval Template
+
+
+
+## Create an Approval Template in your production environment
 
 {{step-1-to-setup}}
 
@@ -57,7 +62,53 @@ For more detail about the information in this table, see [Access requirements in
 
 
 
+<div class="preview">
 
+## Create an Approval Template in your preview environment
+
+{{step-1-to-setup}}
+
+1. In the left panel, click **Review and Approval** > **Approval Templates**.
+1. Click **New Template** on the right side of the page. 
+
+1. Fill in the following details:
+
+   <table>
+     <tr>
+   <td><strong>Template name</strong></td>
+   <td>Add a template name. </td>
+   </tr>
+   <tr>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
+   </tr>
+   <tr>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
+   </tr>
+   <tr>
+   <td><strong>Workdays until due date</strong></td>
+   <td>Choose how many workdays until the approval is due after a stage is activated.</td>
+   </tr>
+   </table>
+
+1. (Optional) Repeat the previous step to add additional stages as needed.
+
+   >[!NOTE]
+   >
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
+
+   ![Document details](assets/new-stage.png)
+    
+1. Click **Save**.
+
+Once the template is created, it can be applied to documents in the Documents area of a project, task, or issue to begin the formal review and approval process in Workfront.
+
+</div>
 
 
 <!-- Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.

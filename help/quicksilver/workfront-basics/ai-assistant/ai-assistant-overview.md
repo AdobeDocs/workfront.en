@@ -134,7 +134,8 @@ To request the Adobe Gen AI agreement:
 
    >[!NOTE]
    >
-   >Please allow 1-3 business days after signing and returning the agreement for Adobe to review and enable AI Assistant.
+   >* Please allow 1-3 business days after signing and returning the agreement for Adobe to review and enable AI Assistant.
+   >* If you do not see AI Assistant options available in your organization's instance after it has been enabled, contact Workfront customer support.
 
 ## Tips for creating prompts in AI Assistant
 
