@@ -44,16 +44,22 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Download an individual document
+## Download documents in the legacy documents area
+
+If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Download an individual document in the legacy documents area
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
 
 1. Click the **Download Selected** icon ![Download Selected icon](assets/download-icon.png).
 
-## Download multiple documents simultaneously
+![download an individual document](assets/legacy-doc-download.png)
 
-You can download multiple documents simultaneously.&nbsp;
+### Download multiple documents simultaneously in the legacy documents area
+
+You can download multiple documents simultaneously.
 
 1. Go to the Documents area containing the documents you want to download.
 1. (Optional) Select the individual documents that you want to download from the list of documents.
@@ -66,3 +72,12 @@ You can download multiple documents simultaneously.&nbsp;
 1. Click the Download Selected icon ![Download Selected icon](assets/download-icon.png).
 
    Folders are downloaded as .zip files and are limited to 4GB.
+
+## Download documents in the new documents area
+
+If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+1. Find the documents you need, then click **Download**.
+
+![Download document](assets/download-new-doc.png)
