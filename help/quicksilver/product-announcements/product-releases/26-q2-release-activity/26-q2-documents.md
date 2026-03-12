@@ -4,6 +4,7 @@ description: Second Quarter 2026 Documents enhancements
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
 ---
 # Second Quarter 2026 Documents enhancements
 
@@ -32,12 +33,6 @@ Create more structured and sophisticated approval workflows with multi-stage app
 #### Connection with Adobe Experience Manager
 
 Seamlessly send approved assets directly to Adobe Experience Manager. This integration helps accelerate content activation by connecting review and approval workflows with downstream content management. For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
-
-#### Integration with GenStudio for Performance Marketing
-
-Create approval workflows and review assets using the Frame.io viewer within GenStudio for Performance Marketing. This integration enables high-quality creative review while supporting fast-paced, performance-driven campaigns. For more infomation, see [Get started with the GenStudio for Performance Marketing and Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md).
-
-Unified Review & Approval powered by Workfront and Frame.io helps teams move from review to activation faster—reducing friction, improving collaboration, and keeping work connected across Adobe solutions.
 
 #### Access to Adobe Enterprise Storage
 
@@ -88,4 +83,3 @@ With approval workflow templates, you can:
 For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 -->
-

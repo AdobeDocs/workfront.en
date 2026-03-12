@@ -6,8 +6,6 @@ description: Adobe enterprise storage permissions and access overview
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: yes
-hidefromtoc: yes
 exl-id: 758d17e6-f31f-42b7-a9e6-6bd1821f5c15
 ---
 # Object permissions and access level overview for the Adobe enterprise storage model
