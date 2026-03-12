@@ -51,6 +51,11 @@ Before you link documents or folders, your Workfront administrator must enable t
 
 You can proof and approve documents linked to an external cloud provider the same way you do so with documents uploaded directly to Workfront. 
 
+>[!NOTE]
+>
+>This functionality is not available in the new documents area.<br>
+>If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.

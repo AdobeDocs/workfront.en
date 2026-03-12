@@ -10,9 +10,9 @@ exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 
 # Connect records 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -266,7 +266,7 @@ You can connect records from Workfront Planning in the following areas of a Plan
       >* We use "linked fields" and "lookup fields" interchangeably. 
       >
       >* When you choose to connect multiple records when you connected the record types, the field values from the multiple objects are either displayed separated by commas or are aggregated according to the aggregator you chose when connecting the record types.
-      >* You cannot add Workfront typeahead fields (including fields like Project Owner, or Project Sponsor) as lookup fields.
+      >* You cannot add Workfront typeahead fields as lookup fields. In the Production environment, this includes people-type fields like Project Owner, or Project Sponsor. <span class="preview">You can add people-type fields as lookup fields in the Preview environment.</span>
       >
       >* Workfront objects' date field information displays in 24 hour format in Workfront Planning, regardless of how it displays in Workfront. 
       >

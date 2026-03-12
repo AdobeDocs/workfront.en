@@ -12,6 +12,12 @@ This page describes enhancements made with the First Quarter 2026 release to the
 
 For a list of all changes available at this point in the First Quarter 2026 release cycle, see [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Event subscriptions now support filter froups
+
+Event subscriptions now support filter groups along with standalone filters to support nested logical conditions. The public docs need to be updated to reflect the new changes.
+
+For more information see [Using filter groups](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups) in the article Event subscriptions API.
+
 
 ## Selection limits on multi-select fields
 

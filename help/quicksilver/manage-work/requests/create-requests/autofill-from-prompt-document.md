@@ -2,7 +2,7 @@
 title: Use Form Fill powered by AI to fill in a request using prompts or documents
 content-type: reference
 description: You can use AI to auto-fill request fields by entering a prompt or supplying a document.
-author: Becky
+author: Alina
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 ---
@@ -13,6 +13,8 @@ exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 >To use this functionality, your organization must meet the requirements to use the Workfront AI Assistant. For details, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 AI Form Fill can help you auto-fill request fields based on a prompt you enter. It can also fill fields based on text such as emails ar uploaded documents. You can approve or reject these suggestions before submitting the request.
+
+This functionality is available when creating a request in the Workfront Requests area, and in Workfront Planning.
 
 ## Access requirements
 
@@ -181,7 +183,6 @@ The following file types are supported:
 <td>
 <ul>
 <li>BMP</li>
-<li>CSV</li>
 <li>DOC</li>
 <li>DOCX</li>
 <li>GIF</li>
