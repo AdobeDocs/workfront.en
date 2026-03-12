@@ -183,7 +183,6 @@ The following file types are supported:
 <td>
 <ul>
 <li>BMP</li>
-<li>CSV</li>
 <li>DOC</li>
 <li>DOCX</li>
 <li>GIF</li>
