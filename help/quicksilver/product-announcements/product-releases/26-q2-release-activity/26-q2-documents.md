@@ -4,6 +4,7 @@ description: Second Quarter 2026 Documents enhancements
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
 ---
 # Second Quarter 2026 Documents enhancements
 
@@ -88,4 +89,3 @@ With approval workflow templates, you can:
 For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 -->
-
