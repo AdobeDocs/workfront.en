@@ -16,6 +16,7 @@ feature-set: Workfront
     * 2026 Q2 Release {#release-26-q2}
       * [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
       * [Second Quarter 2026 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
+      * [Second Quarter 2026 Documents enhancements](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md)
       * [Second Quarter 2026 Project enhancements](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md)
       * [Second Quarter 2026 Reporting enhancements](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md)
       * [Second Quarter 2026 Requesting enhancements](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md)
