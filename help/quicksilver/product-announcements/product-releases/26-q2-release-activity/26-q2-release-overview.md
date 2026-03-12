@@ -56,7 +56,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Custom Quarters removed from Project Preferences</a><p>BWe have moved the Custom Quarter area from the Project Preferences section. It is now a standalone section in Setup.</p>
         </td>
-        <td><p>March 5, 2025</p></td>
+        <td><p>March 5, 2026</p></td>
         <td><p>April 15, 2026</p></td>
         <td><p>April 16, 2026</p></td>
     </tr>
@@ -64,7 +64,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Collapse custom form section by default</a><p>By default, all sections on a custom form are expanded when the form itself is expanded. A new option on the custom form designer allows you to mark a section to be collapsed by default when a user opens the form. This option is applied at the section level, not on fields.</p>
         </td>
-        <td><p>February 26, 2025</p></td>
+        <td><p>February 26, 2026</p></td>
         <td><p>March 12, 2026</p></td>
         <td><p>April 16, 2026</p></td>
     </tr>
@@ -106,8 +106,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>   
 
-<!--
-
 ### Document enhancements
 
 <table>
@@ -122,11 +120,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Quarterly</strong></td>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Unified Review & Approval powered by Workfront and Frame.io</a><p></p>
+            <p>We're excited to introduce Unified Review & Approval powered by Workfront and Frame.io, a streamlined review and approval experience that brings together planning, proofing, and collaboration into a single, connected workflow.
+ </p>
+        </td>
+        <td><p>March 12, 2026</p></td>
+        <td><p>April 15, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+    </tr>
+    <!--
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Multi‑stage approval workflows available for unified approvals</a><p></p>
             <p>Multi‑stage approval workflows are now available in unified approvals, helping organizations enforce structured, repeatable approval processes that reflect how work is reviewed in the real world. </p>
         </td>
-        <td><p>February 26, 2025</p></td>
         <td><p>March 12, 2026</p></td>
+        <td><p>April 15, 2026</p></td>
         <td><p>April 16, 2026</p></td>
     </tr>
     <tr>
@@ -134,14 +143,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Set up and use multi-stage approval workflow templates</a><p></p>
             <p>You can now configure and reuse multi-stage approval workflow templates, making it easier to apply consistent governance across repeatable approval workflows. </p>
         </td>
-        <td><p>February 26, 2025</p></td>
         <td><p>March 12, 2026</p></td>
+        <td><p>April 15, 2026</p></td>
         <td><p>April 16, 2026</p></td>
     </tr>
+    -->
              </tbody>
         </table>   
 
--->
 
 ### Project enhancements
 
@@ -186,12 +195,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Preview</strong></td>
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
+        </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">New Authentication Options for Data Connect Connection</a><p></p>
+            <p>You can now authenticate to Data Connect using RSA keys or Programmatic Access Tokens (PAT) connections, adding more secure and flexible alternatives to traditional username/password credentials. </p>
+        </td>
+        <td><p>March 12, 2026</p></td>
+        <td><p>March 12, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Custom field labels shown when building reports</a><p></p>
             <p>The custom field label is now displayed before the field name and object in the report building tools, helping you locate fields more easily. Field labels are also shown when defining filters, views, and groupings in lists.</p>
         </td>
-        <td><p>February 26, 2025</p></td>
+        <td><p>February 26, 2026</p></td>
         <td><p>March 12, 2026</p></td>
         <td><p>April 16, 2026</p></td>
     </tr>
@@ -200,7 +219,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Shareable Report Folders</a><p></p>
             <p>You can now organize and share reports using shareable report folders. This new feature helps teams that manage large volumes of reports maintain scalable and consistent access control.</p>
         </td>
-        <td><p>February 26, 2025</p></td>
+        <td><p>February 26, 2026</p></td>
         <td><p>March 12, 2026</p></td>
         <td><p>April 16, 2026</p></td>
     </tr>
@@ -209,7 +228,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Improved Date Labels for Chart Groupings in Canvas Dashboards</a><p></p>
             <p>Charts that group data by date now display clearer, more readable date labels. With this update, date labels dynamically adjust based on the selected Group by option—such as day, week, month, or year—making charts easier to read and interpret at a glance.</p><p>Note: Canvas Dashboards is currently in beta.</p>
         </td>
-        <td><p>February 26, 2025</p></td>
+        <td><p>February 26, 2026</p></td>
         <td><p>March 12, 2026</p></td>
         <td><p>April 16, 2026</p></td>
     </tr>
@@ -233,7 +252,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Updated sharing experience for enhanced views</a><p></p>
             <p>In the New requests area, when you share an enhanced view with a user and give them View permissions, the user can modify the view elements and those changes are saved to the user's personal preferences. They now have the option to save a copy of the view that includes their changes or to reset the shared view to its original settings. They can further share the copied view with others. </p>
         </td>
-           <td><p>February 26, 2025</p></td>
+           <td><p>February 26, 2026</p></td>
         <td><p>March 12, 2026</p></td>
         <td><p>April 16, 2026</p></td>
  </tr>
@@ -357,7 +376,7 @@ For an overview of Workfront Automation and Integration, see [Adobe Workfront Fu
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Second Quarter 2025 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+For information about the maintenance updates made during the Second Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Training updates
 
