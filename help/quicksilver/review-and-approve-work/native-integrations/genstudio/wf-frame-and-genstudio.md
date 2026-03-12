@@ -64,7 +64,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 * The Workfront instance must be enabled on the Adobe Unified Experience.
 
-* The integration must be enabled in the Workfront Setup area.
+<!--* The integration must be enabled in the Workfront Setup area.
 
 
 ## Enable the integration in Workfront
@@ -74,7 +74,7 @@ You must be a system administrator to enable this integration.
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
 1. In the left panel, click **Review and Approval** > **Adobe GenStudio**.
 1. Enable **Use proof approvals**. 
-
+-->
 
 ## Use Workfront unified approval templates to define approval workflows
 
@@ -94,9 +94,9 @@ For more information, see [Request review and approval](https://experienceleague
 
 ## Review and approve GenStudio for Performance Marketing draft content in the Frame.io viewer
 
-You can review and approve draft content directly in GenStudio for Performance Marketing in the Workfront proofing viewer. 
+You can review and approve draft content directly in GenStudio for Performance Marketing in the Frame.io viewer. 
 
-With the proofing viewer, you can 
+With the Frame.io viewer, you can 
 
 * Leave comments
 * Mark-up draft to show what needs to change 
