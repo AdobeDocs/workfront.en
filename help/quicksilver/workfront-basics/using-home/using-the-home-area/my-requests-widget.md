@@ -70,7 +70,7 @@ For instructions, see the section [Create a request](/help/quicksilver/workfront
 
 You can copy a request in the My Requests widget, edit it, and submit it as a new request.
 
-For instructions, see the section [Copy and submit requests in the new requesting experience](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) in the article [Copy and submit requests](//help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+For instructions, see [Copy and submit requests](//help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 ## Filter requests
 
