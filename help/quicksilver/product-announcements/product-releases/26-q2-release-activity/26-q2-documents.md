@@ -4,7 +4,6 @@ description: Second Quarter 2026 Documents enhancements
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 ---
 # Second Quarter 2026 Documents enhancements
 
