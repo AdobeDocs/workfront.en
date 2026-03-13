@@ -26,15 +26,7 @@ This article explains the pros and cons of 4 options you can use to export histo
 
 * **Costs:** For more information, go to [https://store.atappstore.com/product/workfront-snapshot/](https://store.atappstore.com/product/workfront-snapshot/).
 
-## Request a [!DNL Postgres] data dump file from our Database team
 
-You must submit a request to our Customer Support team, who will then submit a request to our Database team to export a database dump file (.dmp [!DNL Postgres] file) with your data. An additional request will go to our NOC team to retrieve all of your stored documents.
-
-* **Pros**: You get your entire data load, including custom fields, as well as documents that are stored in the system.  
-
-* **Cons**: There isn't a way to read this file unless you upload it to a [!DNL Postgres] database and re-establish the relationships between the tables. The documents are stored on a separate file server and must be extracted separately using a separate process by the NOC team. In doing so, there is no organization to the documents, and they are all referenced by their GUID.
-
-* **Cost**: There is a cost associated with this download depending on how long it takes the team to create the file. Check with your AE/ CAE for more information or to get this process started.
 
 ## Export via [!UICONTROL Kick-Starts]
 
