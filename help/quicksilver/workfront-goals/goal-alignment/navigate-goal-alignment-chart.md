@@ -36,6 +36,9 @@ For information about goal alignment and how to achieve it, also see the followi
   <td> <p>Adobe Workfront package</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
+
+   <p><b>NOTE</b></p>
+<p>Speak with your Workfront representative if you have a different Workfront package.</p>
    </td> 
   </tr> 
   <tr> 
