@@ -4,7 +4,7 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Workfront Data Connect overview
 description: An overview of Workfront Data Connect
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c

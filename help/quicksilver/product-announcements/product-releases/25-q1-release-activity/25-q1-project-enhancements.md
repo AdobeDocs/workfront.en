@@ -1,7 +1,7 @@
 ---
 title: First Quarter 2025 Project enhancements
 description: First Quarter 2025 Project enhancements
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 998f3508-623e-471b-9ab7-bded5add6b5b

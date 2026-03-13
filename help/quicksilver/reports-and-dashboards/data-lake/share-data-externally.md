@@ -4,7 +4,7 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Establish a connection to Workfront Data Connect
 description: Workfront Data Connect allows you to use your organization's Workfront data with business intelligence tools or store it in an external data warehouse.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
 ---

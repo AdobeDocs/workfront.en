@@ -1,7 +1,7 @@
 ---
 title: First Quarter 2025 Document management enhancements
 description: First Quarter 2025 Document management enhancements
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3

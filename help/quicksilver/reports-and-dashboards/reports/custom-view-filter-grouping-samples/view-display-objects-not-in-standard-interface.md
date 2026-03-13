@@ -4,7 +4,7 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View: Display Objects that Are Not Included in the Standard Interface'
 description: You can display in a view objects that are not included in the standard mode interface. You can do this only by referencing them via text mode. 
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
 ---

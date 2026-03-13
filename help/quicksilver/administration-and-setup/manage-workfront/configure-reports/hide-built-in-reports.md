@@ -6,7 +6,7 @@ title: Hide Built-In Reports
 description: Adobe Workfront has an extensive list of default built-in reports that users can access and view. As a Workfront administrator, you can modify the access level of a user to hide built-in reports so users do not have access to them.
 feature: System Setup and Administration
 role: Admin
-author: Nolan, Lisa
+author: Courtney, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
 ---
 # Hide built-in reports

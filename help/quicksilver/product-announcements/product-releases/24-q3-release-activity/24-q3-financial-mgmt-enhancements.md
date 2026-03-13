@@ -1,7 +1,7 @@
 ---
 title: Third Quarter 2024 Financial management enhancements
 description: Third Quarter 2024 Financial management enhancements
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c8f78a68-41d3-4cb3-ade5-577bd85181b3

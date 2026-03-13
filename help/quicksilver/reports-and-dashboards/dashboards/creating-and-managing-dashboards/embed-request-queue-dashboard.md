@@ -3,7 +3,7 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Embed a request queue in a dashboard
 description: You can embed a new request queue in a dashboard to provide direct access to the request queue to your users, without having to go to the Requests area.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
 ---

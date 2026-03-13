@@ -3,7 +3,7 @@ product-area: reporting;setup
 navigation-topic: create-and-manage-reports
 title: Report delivery overview
 description: Report delivery overview
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
 ---

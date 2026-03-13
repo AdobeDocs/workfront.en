@@ -4,7 +4,7 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View: user personal time off'
 description: 'View: User Personal Time Off'
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
 ---

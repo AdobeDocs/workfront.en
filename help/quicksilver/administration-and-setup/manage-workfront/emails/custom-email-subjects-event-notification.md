@@ -2,7 +2,7 @@
 navigation-topic: notifications
 title: Customize Email Subjects for Event Notifications
 description: You can customize the subject line of the emails triggered by event notifications.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3

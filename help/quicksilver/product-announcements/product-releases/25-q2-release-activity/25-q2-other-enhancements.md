@@ -1,7 +1,7 @@
 ---
 title: Other enhancements during the Second Quarter 2025 release timeframe
 description: Other enhancements during the Second Quarter 2025 release time frame
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 214f0e67-1da4-4abd-b942-09889e8bd92b

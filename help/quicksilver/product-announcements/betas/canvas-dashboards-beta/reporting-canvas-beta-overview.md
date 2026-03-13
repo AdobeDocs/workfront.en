@@ -3,7 +3,7 @@ content-type: reference
 navigation-topic: betas
 title: 'Reporting Canvas beta: overview'
 description: Information on the beta program for the upcoming Reporting Canvas tool for Adobe Workfront
-author: Nolan
+author: Courtney
 feature: Product Announcements
 hidefromtoc: yes
 hide: yes

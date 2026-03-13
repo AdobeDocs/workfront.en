@@ -1,7 +1,7 @@
 ---
 title: Third Quarter 2025 Proofing and document management enhancements
 description: Third Quarter 2025 Proofing and document management enhancements
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734

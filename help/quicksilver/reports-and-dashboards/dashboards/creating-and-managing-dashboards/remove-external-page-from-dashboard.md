@@ -3,7 +3,7 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Remove an External Page from a dashboard
 description: You can remove an External Page from a dashboard if it's no longer needed.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
 ---

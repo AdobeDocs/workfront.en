@@ -3,7 +3,7 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Run and deliver a report with the access rights of another user
 description: By default, users can only see the objects in a report that they have permissions to View.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
 ---

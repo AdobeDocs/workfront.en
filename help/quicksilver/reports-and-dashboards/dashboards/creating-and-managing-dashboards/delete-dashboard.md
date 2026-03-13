@@ -3,7 +3,7 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Delete a dashboard
 description: If you no longer have use for a dashboard, you can remove it from Adobe Workfront.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
 ---

@@ -3,7 +3,7 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Run a report
 description: You can run any report that you have access to View.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bd2202a7-040c-4291-ad02-ba8929a37e2b
 ---

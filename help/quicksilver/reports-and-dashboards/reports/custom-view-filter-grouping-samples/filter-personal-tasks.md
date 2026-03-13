@@ -4,7 +4,7 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filter: Personal Tasks'
 description: This task filter returns ad hoc work requests sent to a user, or to-do items added by users in their Home area. Personal tasks are not connected to a project but they can be moved to a project, if needed.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
 ---

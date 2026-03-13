@@ -4,7 +4,7 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View: Show Parent Tasks up to 4 Levels Deep'
 description: This task view shows the task name in the first column and (if they exist) up to 4 parent tasks in separate columns in the same list.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 66b45d64-794d-4adc-b208-2ded0dc9c5dc
 ---

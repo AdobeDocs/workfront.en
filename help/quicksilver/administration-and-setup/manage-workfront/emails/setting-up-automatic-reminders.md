@@ -4,7 +4,7 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Set Up Automatic Reminders
 description: You can set up automatic reminders to trigger email notifications when all tasks or issues are due, late, or near the planned completion date.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec

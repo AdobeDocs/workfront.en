@@ -4,7 +4,7 @@ product-area: reporting
 navigation-topic: reports
 title: Report usage overview
 description: Learn about report usage.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: cacac66d-371a-42b0-891d-2e26bb4af326

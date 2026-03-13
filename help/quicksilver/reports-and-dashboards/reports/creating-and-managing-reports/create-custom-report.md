@@ -3,7 +3,7 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Create a custom report
 description: You can provide access to the information your organization needs within Adobe Workfront by creating reports. You can use any of the built-in reports available in Workfront, or you can build your custom reports from scratch.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
 ---

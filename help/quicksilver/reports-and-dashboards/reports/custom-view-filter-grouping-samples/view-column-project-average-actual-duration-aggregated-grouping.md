@@ -4,7 +4,7 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View and Grouping: Display Project Actual Duration Aggregated by the Average in a Grouping'
 description: You can add the following column in a project report to show the Actual Duration aggregated as an average in a grouping.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 31794fe9-a04a-437d-8d2e-40e0cb6e6104
 ---

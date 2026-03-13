@@ -4,7 +4,7 @@ product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: Reports FAQs
 description: Reports FAQs
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
 ---

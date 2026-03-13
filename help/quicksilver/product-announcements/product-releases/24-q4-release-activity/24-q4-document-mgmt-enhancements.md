@@ -1,7 +1,7 @@
 ---
 title: Fourth Quarter 2024 Document management enhancements
 description: Fourth Quarter 2024 Document management enhancements
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2af72926-a46a-4265-aa01-064436b93622

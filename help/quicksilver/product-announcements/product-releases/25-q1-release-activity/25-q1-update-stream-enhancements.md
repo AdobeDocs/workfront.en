@@ -1,7 +1,7 @@
 ---
 title: First Quarter 2025 Update stream and notification enhancements
 description: First Quarter 2025 Update stream and notification enhancements
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29fa2641-9ac0-4cad-aef1-0f5ac877bab1

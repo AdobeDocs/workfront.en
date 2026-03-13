@@ -2,7 +2,7 @@
 navigation-topic: announcements
 title: Enhanced Analytics deprecation guide
 description: This page contains information about the upcoming deprecation of Enhanced Analytics.
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b

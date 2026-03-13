@@ -3,7 +3,7 @@ content-type: reference
 navigation-topic: betas
 title: 'Canvas Dashboards beta: release activity'
 description: Weekly release activity for the Adobe Workfront Canvas Dashboards beta
-author: Nolan
+author: Courtney
 feature: Product Announcements
 hidefromtoc: yes
 hide: yes

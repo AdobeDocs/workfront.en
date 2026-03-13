@@ -4,7 +4,7 @@ product-area: dashboards
 navigation-topic: dashboards-navigation-topic
 title: Understand dashboards
 description: Review these articles to understand the basics of dashboards in Adobe Workfront.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 9c7e0810-80e4-4048-a79b-cb91319e5e37

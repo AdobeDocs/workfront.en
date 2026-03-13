@@ -4,7 +4,7 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Grouping: Task Percent Breakdown 2'
 description: 'In this custom task grouping, you can display tasks grouped by a range of their percent complete values. The breakdowns show percent complete value of 10 percent point increments: 1-10%, 11-20%, etc.'
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7d5a40dd-d451-48c7-9323-af52aa387709
 ---

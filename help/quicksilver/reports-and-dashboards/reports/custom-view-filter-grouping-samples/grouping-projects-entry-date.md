@@ -4,7 +4,7 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Grouping: Projects by Entry Date'
 description: In this custom project grouping, you can display projects grouped by their Entry Date values.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 511faad5-b5bd-4e2d-8daa-3fcde49a502c
 ---
