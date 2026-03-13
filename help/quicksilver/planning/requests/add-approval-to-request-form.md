@@ -67,7 +67,7 @@ For more information about Workfront access requirements, see [Access requiremen
 
 ## Considerations about adding approvals to a request form
 
-* You can add one or multiple approvers to a request form. You can add only users as approvers. 
+* You can add one or multiple approvers to a request form. You can add users and teams as approvers. 
 * You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 * When you add multiple approvers to a request form, all approvers must accept the request before a record is created in Workfront Planning. 
 * If all approvers approve the request, a record is created for the record type associated with the request form. 
@@ -110,7 +110,7 @@ For more information about Workfront access requirements, see [Access requiremen
 
    >[!NOTE]
    >
-   >   Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience for users to be able to receive email and in-app notifications.
+   >Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience for users to be able to receive email and in-app notifications.
 
 
     For information about approving requests, see [Approve a request](/help/quicksilver/planning/requests/approve-request.md).

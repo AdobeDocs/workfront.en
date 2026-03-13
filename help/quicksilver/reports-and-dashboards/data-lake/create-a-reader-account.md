@@ -4,7 +4,7 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Create a  reader account for Snowflake
 description: In order to access Data Connect data, you must first create a Snowflake reader account.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
 ---
@@ -69,17 +69,31 @@ To create a reader account:
 
 ## Create a connection
 
+>[!IMPORTANT]
+>
+>In June 2026, username/password credentials will be required to use multi-factor authentication (MFA). We recommend transitioning to either RSA or PAT-based authentication for service user accounts used to load data from Data Connect into third-party visualization tools, data processors, and scripts that will not work with MFA in the authentication process.
+
+
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Setup**.
 
 1. In the left panel, click **System** > **Data Connect**.
 
-1. Click **Create New Connection**
+1. Click **Create New Connection**.
 
 1. In the window that appears, enter a name for your connection in **Connection reference description** and a username in **Connection user**, then click **Generate Connection**.
 
     ![Create new connection](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
 
-1. A **Default password** will be generated, as well as a URL where your data can be viewed through Snowflake. You will need to use the password in conjunction with the username you chose to sign in to Snowflake for the first time, so ensure that you keep a record of it as well as the URL. Check the box claiming you have done so, then click **Close**.
+1. Choose an authentication method for your connection:
+    * [Password authentication](#password-authentication)
+    * [Programmatic Access Token authentication](#programmatic-access-token-authentication)
+    * [RSA Key authentication](#rsa-key-authentication)
+
+### Password authentication
+
+1. Click **Password**, then **Generate Connection**.
+
+1. A **Default password** is generated, as well as a URL where your data can be viewed through Snowflake. You need to use the password with the username you chose to sign in to Snowflake for the first time, so ensure that you keep a record of it as well as the URL. Check the box claiming you have done so, then click **Close**.
 
     ![Default account password](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
 
@@ -90,6 +104,35 @@ To create a reader account:
     ![Reset Snowflake password](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
 1. You may now use your username and new password to access your Data Connect data lake in Snowflake or the business visualization tool of your choice.
+
+### Programmatic Access Token authentication
+
+1. Click **Programmatic Access Token**.
+
+1. Enter an expiration date for your token in the **Expiration date** field. You can choose an expiration date up to 365 days in the future. 
+
+1. Click **Generate Connection**.
+
+1. A PAT token is generated that can be used to authenticate, and your Snowflake environment URL is provided. You can use the PAT and the username you provided to connect to Snowflake from your third-party visualization tool or data processor. Ensure that you keep a record of it as well as the URL. Check the box claiming you have done so, then click **Close**.
+
+    ![programmatic access token dialog](/help/quicksilver/reports-and-dashboards/data-lake/assets/pat-test.png)
+
+
+### RSA Key authentication
+
+1. Click **RSA Key**.
+
+1. Enter an RSA public key in the **RSA Public Key** field. 
+
+1. Click **Generate Connection**.
+
+1. A connection is generated, and your Snowflake environment URL is provided. You can use the RSA key and the username you provided to connect to Snowflake from your third-party visualization tool or data processor.
+
+
+
+You need to use the RSA key with the username you chose to sign in to Snowflake, so ensure that you keep a record of it as well as the URL. Check the box claiming you have done so, then click **Close**.
+
+    ![RSA key dialog](Assets/rsa-test.png)
 
 ## Revoke a reader account
 
