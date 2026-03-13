@@ -3,7 +3,7 @@ product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Configure Scrum
 description: You can configure the following options for Scrum Agile teams during or after the team is created.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
 ---

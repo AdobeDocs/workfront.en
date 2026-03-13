@@ -3,7 +3,7 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Build a table report in a Canvas Dashboard
 description: You can add a table report to a Canvas Dashboard in order to visualize your data in a table format.
-author:  Courtney and Jenny 
+author:  Courtney
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
 ---

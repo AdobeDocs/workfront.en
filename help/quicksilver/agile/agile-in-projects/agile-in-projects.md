@@ -4,7 +4,7 @@ product-area: agile-and-teams;projects
 navigation-topic: agile-navigation-topic
 title: Agile in projects
 description: Review these articles to learn how to use Agile in projects.
-author: Jenny
+author: Courtney
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: ef718507-26fc-464c-83b6-78c10cc0ccb3

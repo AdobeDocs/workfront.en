@@ -3,7 +3,7 @@ product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards
 title: Canvas Dashboards overview
 description: Learn about Canvas Dashboards
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533

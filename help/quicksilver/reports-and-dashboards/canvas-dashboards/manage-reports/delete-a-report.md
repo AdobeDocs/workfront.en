@@ -3,7 +3,7 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Delete a report in a Canvas Dashboard
 description: You can delete a report from a Canvas dashboard.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 98d26160-a097-473d-8d66-e6d619cb2908
 ---

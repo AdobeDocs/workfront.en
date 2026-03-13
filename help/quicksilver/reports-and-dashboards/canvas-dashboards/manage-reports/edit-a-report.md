@@ -3,7 +3,7 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Edit a report in a Canvas Dashboard
 description: You can edit a Canvas dashboard report after it's been created.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: fd659f56-d67f-4a0f-8735-b214934903ac
 ---
