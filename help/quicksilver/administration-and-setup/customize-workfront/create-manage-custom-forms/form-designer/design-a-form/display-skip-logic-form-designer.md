@@ -3,13 +3,15 @@ title: Add Logic Rules to Custom Forms and Fields
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: You can decide which sections of a custom form should be displayed or skipped based on the choices that a user makes when filling it out.
+description: Logic rules allow you to further customize the fields on your form.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
 ---
 # Add logic rules to custom forms and fields
+
+{{highlighted-preview}}
 
 Logic rules allow you to further customize the fields on your form.
 
@@ -29,7 +31,8 @@ For example, you can display or skip fields or sections in a custom form based o
  <tbody> 
   <tr> 
    <td>Adobe Workfront package</td> 
-   <td><p>Any</p></td> 
+   <td> <p>To apply advanced display, default value, conditional formatting, or editability logic: Workflow Prime or higher</p>
+         <p>To apply all other logic types: Any Workfront or Workflow package</p> </td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront license</td> 
@@ -88,11 +91,9 @@ For information about custom fields and widgets in custom forms, see [Create a c
 
 Display logic defines which custom fields appear on the form when the user selects a specific value in a multiple choice field. The logic is added to the target field, which is only displayed when the value is selected.
 
-<!--
 >[!NOTE]
 >
 ><span class="preview">This procedure describes the basic mode for display logic. Advanced display logic is also available. For more information, see [Add advanced display logic to a custom form](#add-advanced-display-logic-to-a-custom-form), in this article.</span>
--->
 
 {{step-1-to-setup}}
 
@@ -120,12 +121,15 @@ Display logic defines which custom fields appear on the form when the user selec
 
    The display logic icons are added to the target field and the defining field in the form designer.
 
-<!--
 <div class="preview">
 
 ## Add advanced display logic to a custom form
 
-The advanced display logic for custom form fields allows you to build complex logic using formulas. You can apply this logic to the following field types: drop-down, radio button, checkbox, typeahead, single line text, paragraph text, date field, text with formatting, and calculated fields.
+The advanced display logic for custom form fields allows you to build complex logic using formulas. You can apply this logic to the following field types: single line text, paragraph, text with formatting, single-select dropdown, multi-select dropdown, external lookup, multi-select external lookup, native field reference, typeahead, calculated, date, checkbox group, and radio buttons.
+
+>[!NOTE]
+>
+>This procedure describes the advanced mode for display logic. Basic display logic is also available. For more information, see [Add display logic to a custom form](#add-display-logic-to-a-custom-form), in this article.
 
 ### Examples
 
@@ -172,8 +176,11 @@ Using the following condition, the Sold KPI field only becomes visible when the 
    
    The logic is applied to the field and the display logic icon is added in the form designer.
 
+   >[!NOTE]
+   >
+   >Advanced display logic is not supported in the form designer preview mode.
+
 </div>
--->
 
 ## Add skip logic to a custom form
 
@@ -205,13 +212,63 @@ Skip logic defines custom form fields that are skipped when the user selects a s
 
    The skip logic icons are added to the target field and the defining field in the form designer.
 
+<div class="preview">
+
+## Add default value logic to a custom form
+
+Default value logic allows you to configure default values for custom form fields, using formulas. The default value is displayed when the defined conditions are met. A default value can be a static value or a dynamic value that references other fields within the object. Although the default value can reference other fields, it will not change as other fields on the form change.
+
+You can apply advanced default value logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, multi-select external lookup. native field reference, typeahead, checkbox group, and radio buttons.
+
+>[!TIP]
+>
+>A default value is applied only once to a custom field, when the custom form is attached to the object. If the default value formula is dependent on the value of another field, then the value in the other field must already exist when the custom form is attached.
+
+>[!NOTE]
+>
+>Standard default value logic in the form designer still exists. If both types are applied on the same field, then the advanced logic takes precedence. For information on standard default value logic, see [Add radio buttons, checkbox groups, and drop-downs](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs) in [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+### Example
+
+Using the following formula, the multi-select dropdown field that the logic is applied to will pull its default value from the project description when the project status is Planning.
+
+```
+IF({status} = 'PLN', ARRAY({description}, ','))
+```
+
+When the custom form is attached to a project and the project status is Planning, then the project description field value is used as the default value in the multi-select field. Because it is a multi-select field, more than one value can be pulled in when the values match the description. If the description value does not match any of the multi-select value options, then the multi-select field will not have a default value and the user can select a value from the dropdown.
+
+### Define default value logic
+
+1. Click **Custom Forms**.
+1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
+1. Add fields to the form as needed.
+1. Select the field to apply logic to, and click **Add Logic**.
+1. Select the **Default value** tab on the logic builder.
+
+   ![Default value logic builder](assets/default-value-blank-editor.png)
+
+1. Build the default value condition in the editor.
+
+   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Click **Apply**.
+   
+   The logic is applied to the field in the form designer.
+
+   >[!NOTE]
+   >
+   >Default value logic is not supported in the form designer preview mode.
+
+</div>
+
 ## Add validation logic to a custom form
 
 Validation logic is built using formulas, and you can make the logic as simple or as complex as you need. The validation can be based on the values of other fields or the status of objects, and you can provide an error message for when the validation fails.
 
 If the field with the logic applied meets the defined validation conditions when a user fills out the custom form, the field is highlighted and the error message is displayed.
 
-You can apply validation logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, typeahead, date, checkbox group, and radio buttons.
+You can apply validation logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, multi-select external lookup, typeahead, date, checkbox group, and radio buttons.
 
 ### Examples
 
@@ -254,14 +311,13 @@ For additional examples of validation logic, see [Examples of advanced logic in 
    >
    >Validation logic is not supported in the form designer preview mode.
 
-<!--
 <div class="preview">
 
 ## Add formatting logic to a custom form
 
 Formatting logic highlights a field value when it meets the defined conditions. The applied formatting will work on multiple fields at once.
 
-You can apply formatting logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, typeahead, calculated, date, checkbox group, and radio buttons.
+You can apply formatting logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, multi-select external lookup, typeahead, calculated, date, checkbox group, and radio buttons.
 
 Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
@@ -316,5 +372,62 @@ IF(
    
    The logic is applied to the field in the form designer.
 
+   >[!NOTE]
+   >
+   >Formatting logic is not supported in the form designer preview mode.
+
 </div>
--->
+
+<div class="preview">
+
+## Add editability logic to a custom form
+
+Editability logic determines whether a custom form field can be edited or whether it is read-only. This logic is built using formulas, and when the field meets the defined conditions it can be set as editable or read-only.
+
+You can apply editability logic to the following field types: single line text, paragraph, text with formatting, single select dropdown, multi-select dropdown, external lookup, multi-select external lookup, typeahead, date, checkbox group, and radio buttons.
+
+### Example
+
+Using the following formula, the field with logic applied is only editable when another field called Radio has the Enabled choice selected.
+
+```
+IF({DE:Radio} = "Enabled", true)
+```
+
+Using the following formula, the Description field is only editable when it is blank. Once a value is entered, then it becomes read-only.
+
+```
+IF(ISBLANK({DE:Description}), true)
+```
+
+Using the following formula, the field with logic applied is only editable when a user with the job role of Resource Manager views the form.
+
+```
+IF($$USER.{role}.{name}="Resource Manager", true)
+```
+
+### Define editability logic
+
+{{step-1-to-setup}}
+
+1. Click **Custom Forms**.
+1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
+1. Add fields to the form as needed.
+1. Select the field to apply logic to, and click **Add Logic**.
+1. Select the **Editability** tab on the logic builder.
+
+   ![Editability logic builder](assets/editability-blank-editor.png)
+
+1. Build the editability condition in the editor.
+
+   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Click **Apply**.
+   
+   The logic is applied to the field in the form designer.
+
+   >[!NOTE]
+   >
+   >Editability logic is not supported in the form designer preview mode.
+
+</div>
