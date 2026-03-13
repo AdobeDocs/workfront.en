@@ -42,8 +42,6 @@ Access to Adobe Enterprise Storage also paves the way for future asset managemen
 
 For more information, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-Workfront and Frame.io extends GenStudio for Performance Marketing's basic review-and-approval process with more structured review-and-approval features. Proofs reviewed in this integration are limited to the formats supported by GenStudio for Performance Marketing.
-
 <!--
 
 ## Multi‑stage approval workflows available for unified approvals
