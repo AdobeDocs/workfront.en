@@ -76,7 +76,7 @@ The **Overtime Ratio** field must be enabled on your layout template.
 
 1. Go to the task that you want to edit.
 
-   For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+   For more information, see [Manage task finances in the Task Details section](/help/quicksilver/manage-work/tasks/manage-tasks/task-finances-in-details.md).
 
 1. Click **Task Details** in the left panel.
 1. In the **Finance** area, enter the overtime multiplier in the **Overtime Ratio** field.

@@ -151,24 +151,21 @@ Workfront searches in the user properties of the owner according to this hierarc
 
    If a rate exists on the rate card and it is unlocked, then the system does not use that rate and searches for the next rate in the hierarchy.
 
-1. Next, the system looks for a job role for billing at the task assignment level.
+1. Next, the system looks for the billing rate on the project, for the owner, taking effective dates into account. You will see this on the Rates > Billing area of the project, in a Rate Source: Overrides > Resource Type: User grouping. This is an override rate on the project.
+1. Next, the system looks for a job role for billing at the project level.
 
-   The job role for billing is only for a specific assignment and applies to the assignment instead of the owner's primary job role rate. For example, the owner's primary job role is Designer, but on one task they are acting as a Senior Designer with a higher billing rate.
+   The job role for billing is only for a specific project and applies to the project instead of the owner's primary job role rate. For example, the owner's primary job role is Designer, but on one project they are acting as a Senior Designer with a higher billing rate.
 
    Workfront looks for the job role for billing rate:
 
-     * The system first looks for the billing rate of the job role for billing from the assignment (Senior Designer in the example), taking effective dates into account. You will see this on the Rates > Billing area of the project, in a **Rate Source: Overrides > Resource Type: Job Role** grouping. This is an override rate on the project.
-     * Next, the system looks for the job role for billing rate from a rate card, taking effective dates into account. You will see this on the Rates > Billing area of the project, in a **Rate Source: Attached Rate Card > Resource Type: Job Role** grouping.
-     * If the rate for the job role for billing is not on the project or on the rate card, the system looks for the system-level job role rate (Senior Designer in the example), taking effective dates into account.
+     * The system first looks for the job role for billing rate from a rate card, taking effective dates into account. You will see this on the Rates > Billing area of the project, in a **Rate Source: Attached Rate Card > Resource Type: Job Role** grouping.
+     * If the rate for the job role for billing is not on the rate card, the system looks for the system-level job role rate (Senior Designer in the example), taking effective dates into account.
      * If a job role for billing is assigned, and none of the rates from the previous steps are found, the billing rate is 0.
 
         >[!NOTE]
         >
-        >When a job role for billing is assigned, but the billing rate is 0, this is an indicator to revisit the rate setup. A rate of 0 means that no rates for that job role (Senior Designer in the example) were set up in Workfront. You should either add rates for the job role, or delete the job role for billing from the assignment.
-        >
-        >Because tasks inherit job role rates from the project when those rates are available at the project level, any rates from a search for the job role for billing on the project would already have been located when Workfront searched on the job role for billing at the task assignment level. The project-level search for a job role for billing still remains in the search hierarchy.
+        >When a job role for billing is assigned, but the billing rate is 0, this is an indicator to revisit the rate setup. A rate of 0 means that no rates for that job role (Senior Designer in the example) were set up in Workfront. You should either add rates for the job role, or delete the job role for billing from the project.
 
-1. Next, the system looks for the billing rate on the project, for the owner, taking effective dates into account. You will see this on the Rates > Billing area of the project, in a Rate Source: Overrides > Resource Type: User grouping. This is an override rate on the project.
 1. Next, the system looks for the system-level billing rate on the owner's user profile, taking effective dates into account.
 1. Next, the system looks for the billing rate of the owner's primary job role (Designer in the example).
 
