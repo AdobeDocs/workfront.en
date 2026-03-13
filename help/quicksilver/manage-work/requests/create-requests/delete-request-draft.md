@@ -3,7 +3,7 @@ product-area: requests
 navigation-topic: create-requests
 title: Delete a Submitted Request re Request Draft
 description: You can delete submitted requests or request drafts.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
 ---

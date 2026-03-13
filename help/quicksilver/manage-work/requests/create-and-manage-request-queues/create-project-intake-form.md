@@ -3,7 +3,7 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Create Project Intake Forms
 description: You can use project intake forms to simplify the process of creating projects in Workfront
-author: Becky
+author: Alina
 feature: Work Management, Requests
 role: User, Admin
 hide: yes

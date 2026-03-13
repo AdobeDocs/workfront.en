@@ -3,7 +3,7 @@ title: Submit Adobe Workfront Planning requests
 description: After someone shares a link to a request form with you from a record type page in Adobe Workfront Planning, you can add a request to create records for the record type associated with the request form.
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 ---

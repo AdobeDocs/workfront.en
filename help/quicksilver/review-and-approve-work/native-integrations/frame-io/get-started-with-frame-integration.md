@@ -28,14 +28,14 @@ You must have the Workfront and Frame.io integration set up in your Workfront in
 
 ## Work initiation and planning in Workfront
 
-Project coordinators can create projects and plan work in Workfront. Projects created in an instance with the Frame.io integration enabled utilize Adobe Enterprise Storage, which allows assets to be stored and managed within the Adobe ecosystem.
+Project coordinators can create projects and plan work in Workfront. Projects created in an instance with the Frame.io integration enabled utilize Adobe enterprise storage, which allows assets to be stored and managed within the Adobe ecosystem.
 
 If your organization has a Frame.io Enterprise license, projects created in Workfront are also visible in Frame.io, allowing users to interact and upload assets in either product. 
 
-For information about Adobe Enterprise Storage or projects in Frame.io, see
+For information about Adobe enterprise storage or projects in Frame.io, see
 
 * [Workspace Overview: Projects](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
-* [Adobe Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md)
+* [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md)
 
 ## Review and approve assets
 
@@ -50,7 +50,7 @@ For more information about setting up projects, see
 
 ### Initiate formal reviews and approvals in Workfront
 
-Project coordinators can create one-time review and approvals or resuable approval templates. They can assign reviewers, approvers, or a mix of both:
+Project coordinators can create one-time review and approvals or reusable approval templates. They can assign reviewers, approvers, or a mix of both:
 
 * **Reviewers** can add comments and mark up assets. Once finished, they can mark their review as complete. Marking the review as complete is not required for the asset to move forward in the approval process.
 * **Approvers** can add comments and mark up assets. They must make a decision to move the approval process forward. 
@@ -61,13 +61,13 @@ Reviewers and approvers can be added to a single-use approval workflow or a reus
 
 * **Single-use approvals**: In the project or task where the asset resides, the project coordinator can assign reviewers and approvers and set a completion deadline. Reviewers and approvers are reminded by email 72 hours before the deadline, 24 hours before the deadline, and then on the deadline itself.
 
-    For more information, see [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+    For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
-* **Approval templates**: In the Workfront Setup area, project coordinators can create resuable Approval Templates. Within a template, users can add reviewers and approvers and specify a completion timeframe. When the approval template is applied to an asset, the deadline is calculated from the specified timeframe. 
+* **Approval templates**: In the Workfront Setup area, project coordinators can create reusable Approval Templates. Within a template, users can add reviewers and approvers and specify a completion timeframe. When the approval template is applied to an asset, the deadline is calculated from the specified timeframe. 
 
     Once a template is created, it can be applied to an asset to begin the formal review and approval process in Workfront.
 
-    For more information, see [Create an Approval Template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+    For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
     
     ![Assign template](assets/assign-template.png)
@@ -100,6 +100,7 @@ Comments and asset markup is visible in the Frame.io viewer. For more informatio
 Once all review activity is complete, approvers must make one of the following decisions:
 
 * **Approve**: The asset does not need changes and is ready for use.
+* **Approved with changes**: The asset is mostly complete but needs minor changes before it can be used. Once the specified changes are made, the asset is ready and does not need to go through another round of approvals. 
 * **Needs work**: The asset needs changes and is not ready for use. Once the specified changes are made, the asset must be uploaded as a new version and go through another round of approvals. <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
 
 Reviewers can mark their review complete inside of Workfront, but this is not required for the asset to move forward in the approval process. 
