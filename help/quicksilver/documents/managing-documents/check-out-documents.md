@@ -11,6 +11,11 @@ exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
 
 You can check out&nbsp;a document to prevent other users from deleting it or uploading a new version of it. Only one user can check out a document at a time.&nbsp;You can check out any document uploaded to Adobe Workfront as well as documents linked to third-party document providers (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint, or any other custom provider).&nbsp;
 
+>[!NOTE]
+>
+>This functionality is not available in the new documents area.<br>
+>If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
