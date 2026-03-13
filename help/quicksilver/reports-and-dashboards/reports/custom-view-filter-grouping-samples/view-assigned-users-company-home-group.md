@@ -4,7 +4,7 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: Assigned User's Company and Home Group"
 description: This task view displays the Company and Home Group of the Primary Owner of the task. These are values that are not available in the standard interface, but they are accessible through text mode.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 818c1f3a-4e82-4dc3-af86-4f9dcf5c11a4
 ---

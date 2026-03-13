@@ -3,7 +3,7 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Edit a view using text mode
 description: 'You can edit a view in a list or report using text mode to access fields that are not available in the standard interface and create more complex views.'
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
 ---

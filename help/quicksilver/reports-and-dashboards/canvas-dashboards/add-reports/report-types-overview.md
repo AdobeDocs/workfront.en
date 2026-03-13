@@ -3,7 +3,7 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Report types overview
 description: There are a number of different reports you can add to a Canvas Dashboard that visualize your Workfront data in different ways.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 hidefromtoc: yes

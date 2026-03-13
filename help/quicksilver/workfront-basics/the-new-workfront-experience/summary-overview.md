@@ -3,7 +3,7 @@ content-type: overview
 title: Summary overview
 description: You can use the Summary panel to review and update work item information directly from a list of tasks issues, documents, or from other areas of [!DNL Adobe Workfront] that display tasks and issues.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
 ---
 # [!UICONTROL Summary] overview

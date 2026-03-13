@@ -3,7 +3,7 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Add a chart to a report
 description: You can enhance your reports by adding a chart. You can add charts to existing reports or to reports that you are creating.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
 ---

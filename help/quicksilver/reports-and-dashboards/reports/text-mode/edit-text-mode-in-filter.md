@@ -3,7 +3,7 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Edit a filter using text mode
 description: You can edit a filter in a list or report using text mode to access fields that are not available in the standard interface and create more complex filters.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
 ---
