@@ -89,13 +89,13 @@ For more information about managing projects in Workfront, see [Projects: articl
 
 ### Enforced structure and naming conventions
 
-Because this integration is built using Adobe Enterprise Storage, there are some enforced structure and naming conventions to be aware of when managing projects and documents.
+Because this integration is built using Adobe enterprise storage, there are some enforced structure and naming conventions to be aware of when managing projects and documents.
 
 * Object names must be unique and can't be duplicated
-* Adobe Enterprise Storage requires unique names for peer objects with the same parent in the hierarchy tree
+* Adobe enterprise storage requires unique names for peer objects with the same parent in the hierarchy tree
 * Documents can't have the same name if they belong to the same project
 * Document names can't contain any of the following special characters: \ / : * ? " | < >
-* Docuemnt names are limited to 255 characters maximum
+* Document names are limited to 255 characters maximum
 
 With these limitations in mind, Workfront automatically renames objects or documents as needed to prevent conflicts.
 
@@ -128,9 +128,7 @@ The following table shows how Workfront permissions map to Frame.io permissions:
 
 ### Document management in Workfront
 
-Documents are managed at the project level with this integration and can't be uploaded to tasks or issues at this time. 
-
-Document access is also managed at the project level. If a user has access to a project, they can access all documents associated with that project.
+Documents uploaded to Workfront are stored in Adobe enterprise storage and are accessible in both Workfront and Frame.io. When you upload a document to a task or issue in Workfront, a system-generated folder is created in Adobe enterprise storage that inherits permissions from the task or issue. All documents uploaded to that task or issue are stored in that folder and inherit permissions from it. For more information about documents in Workfront, see [The new documents area overview](/help/quicksilver/documents/managing-documents/documents-area.md) and [Object permissions and access level overview for the Adobe enterprise storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ### Document experience limitations
 
@@ -145,13 +143,3 @@ The following capabilities will not be included in this integration:
 * Document viewer in Workfront
 * Favorite documents
 * Request documents
-
-
-<!--#### Temporary limitations
-
-For now, the following capabilities are not available:
-
-* Send documents to Adobe Experience Manager Assets
-* Multi-stage approvals
-* Upload documents to comments or updates in Workfront
-* Upload documents to tasks or issues in Workfront-->

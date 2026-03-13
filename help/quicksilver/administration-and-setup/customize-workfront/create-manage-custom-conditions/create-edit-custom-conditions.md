@@ -122,7 +122,8 @@ You can set your custom condition as a default condition for projects or for tas
 For more information about custom conditions, see [Custom conditions](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
 
 
-   <!-- THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.
+   <!-- 
+   THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.
    * When a user is changing the condition for a task or issue on the Updates tab:
 
      ![Change condition when updating comment](assets/change-condition-update-comment.png)

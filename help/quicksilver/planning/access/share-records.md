@@ -13,16 +13,22 @@ exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
 
 # Share records
 
-<!--this will NOT be available in Preview ever - find a way to add this in this article that is prominent-->
+<!--
+this will NOT be available in Preview ever - find a way to add this in this article that is prominent
+-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
-
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
-You can adjust people's permissions to individual records in a record type. 
+You can adjust people's permissions to individual records in a record type in Adobe Workfront Planning. 
+
+>[!WARNING]
+>
+>The information described in this article is not available in the Preview environment. It is available for all Workfront Planning customers only in the Production environment.
 
 You can share an Adobe Workfront Planning record in the following ways: 
 
@@ -38,23 +44,24 @@ You can share an Adobe Workfront Planning record in the following ways:
 
    * [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
 
-* Share a record using the **Share** option.
+* Share an individual record or share multiple records in bulk using the **Share** option.
 
-    This article describes how you can share a record with others using the **Share** option. 
+    This article describes how you can share records with others using the **Share** option. 
 
 >[!IMPORTANT]
 >
->Users with access to a workspace automatically gain at least View permissions to all the records in the workspace. 
->Sharing views does not give users permissions to records. Only sharing workspaces can grant users permissions to record types and records. 
+>* Users with access to a workspace automatically gain at least View permissions to all the records in the workspace. 
+>* Sharing views does not give users permissions to records. Only sharing workspaces can grant users permissions to record types and records. 
 >
 >For general information about sharing objects in Workfront Planning, also see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
-
 
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-<!--at GA, check that the Workfront plans article linked below has Planning info-->
+<!--
+at GA, check that the Workfront plans article linked below has Planning info
+-->
 
  <table style="table-layout:auto"> 
 <col> 
@@ -106,13 +113,14 @@ For more information about Workfront access requirements, see [Access requiremen
 
 ## Considerations when sharing records
 
-<!--maybe use the Share record types as example here and touch on the same points: help/quicksilver/planning/access/share-record-types.md; in addition to using Lilit's information-->
+<!--
+maybe use the Share record types as example here and touch on the same points: help/quicksilver/planning/access/share-record-types.md; in addition to using Lilit's information
+-->
 
 <!--checking on the below with Lilit-->
 
 * You can share records with the following entities: people, groups, teams, companies or job roles.
-* When you share a record, users have the same access everywhere where that record appears in the system. 
-* If you restrict permissions to a record, users no longer view that record and the values for its lookup fields anywhere in the system where that record is added. 
+* If you restrict permissions to a record, users no longer view that record and the values for its lookup fields anywhere in the system where that record displays. 
 * Workfront checks record permissions in connections up to 5 records deep, ensuring users only see records shared with them.
 * You can grant the following levels of permissions to a record: 
 
@@ -134,7 +142,6 @@ For more information about Workfront access requirements, see [Access requiremen
       >
       >If you choose to grant the **Everyone in the workspace can view permission** to a record type or a record, then everyone listed in the sharing list of the workspace permissions will have the same permissions on the record type and the record, even when inherited permissions are disabled. 
 
-
 * When you share a record with a user, they are added with the same permission as they have on the record type, by default. 
 
    For example: 
@@ -142,13 +149,24 @@ For more information about Workfront access requirements, see [Access requiremen
    * If they have View permissions to the record type, they gain View permissions to the record
    * If they have Contribute or Manage permissions to the record type, they gain Manage permissions to the record
 
-* As a workspace manager, you can share a record with a user that does not have permissions to the record type or the workspace. In this case, there is a warning next to the added entity notifying that they don't have access to the workspace or the record type. <!--ensure this is this way, because in devtest the warning only shows record type, but logged a bug to add "workspace" to the warning too--> You can continue adding the user to the record which will also add them to the record type and workspace, or cancel the sharing.
+* As a workspace manager, you can share a record with a user that does not have permissions to the record type or the workspace. In this case, there is a warning next to the added entity notifying you that they don't have access to the workspace or the record type.  You can continue adding the user to the record which will also add them to the record type and workspace, or cancel the sharing.
 
-* When a user has Manage or Contribute permissions to the workspace and the record type and you add them to the record permissions, the View permissions are dimmed. They retain the same permissions to the record as they have to the record type, and you cannot give them lower permissions to the record. <!--Lilit is checking on this, it is not working correctly-->
+<!--
+ensure this is this way, because in devtest the warning only shows record type, but logged a bug to add "workspace" to the warning too
+-->
 
-   When they have View permissions to the workspace or the record type, they retain View permissions to the records. You can grant them Manage permissions to the record by disabling Inherited permissions and selecting the Only invited people can access setting. <!-- I think this is right, but because of the above not working, I can't test-->
+* When a user has Manage or Contribute permissions to the workspace and the record type and you add them to the record permissions, the View permissions are dimmed. They retain the same permissions to the record as they have to the record type, and you cannot give them lower permissions to the record. 
+<!--
+Lilit is checking on this, it is not working correctly
+-->
 
-<!-- not sure what this means, confusing, hiding for now: * If you don't have permissions to add people to the workspace, you will only see and add users, teams, groups, roles, and companies that are already added to the workspace. You cannot add any other entity that is not already part of the workspace.-->
+   <!--
+   check on this: I cannot disable inherited permissions when this setting is ON and this documented in a TIP below: When they have View permissions to the workspace or the record type, they retain View permissions to the records. You can grant them Manage permissions to the record by disabling Inherited permissions and selecting the Only invited people can access setting.
+   -->
+
+   <!-- 
+   not sure what this means, confusing, hiding for now: * If you don't have permissions to add people to the workspace, you will only see and add users, teams, groups, roles, and companies that are already added to the workspace. You cannot add any other entity that is not already part of the workspace.
+   -->
 
 * You can disable inherited permissions for a single record, in which case you can give them permissions to  individual records, or they can gain permissions if they belong to **Everyone in the workspace can view** option. 
 
@@ -156,16 +174,17 @@ For more information about Workfront access requirements, see [Access requiremen
 
    For example, if a record is shared with a user with View permissions, and their group with Manage access, they get Manage permissions to the record.
 
-<!--Too granular??
-
-If the inheritance has not been disabled, the user gets the maximum of inherited+individual+wildcard access 
-
-If the inherited permissions are disabled, the user gets the maximum of wildcard+individual permissions -->
+   <!--
+   Too granular??
+   If the inheritance has not been disabled, the user gets the maximum of inherited+individual+wildcard access 
+   If the inherited permissions are disabled, the user gets the maximum of wildcard+individual permissions 
+   -->
 
 * If a formula field or a lookup field from a connected record is based on a field on a record on which you have no permissions, you will see the correct calculation which factors in the record you cannot otherwise access.
 
-<!-- not sure if any of the Share record types points might match here - ask Lilit??-->
-
+   <!--
+   not sure if any of the Share record types points might match here - ask Lilit??
+   -->
 
 ## Share record permissions
 
@@ -202,7 +221,12 @@ As a workspace manager, you can adjust permissions to individual records.
    >
    >Workspace managers continue to have Manage permissions to the record type and the record.
 
-   1. (Optional) Select **Only invited people can access** from the **Who has access** area.
+   1. (Optional) Select **Only invited people can access** from the **Who has access** area. You must indicate individual users, groups, teams, or companies to share the records with. 
+
+      >[!TIP]
+      >
+      >You cannot disable or enable Inherited permissions when this setting is selected.
+
 
    1. In the **Grant access to this record type** field, add the users, teams, groups, companies, or job roles that you want to grant a different permission level to than they have for the workspace or the record type.
    1. Choose one of the following permission levels:
