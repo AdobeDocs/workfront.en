@@ -224,21 +224,9 @@ Following these steps will prevent unnecessary issues and ensure a smooth and ac
 
    You must correct the issues in the Excel file and import it again before the rate cards will exist in Workfront.
 
-<!--
-
 ## Update existing rate cards
 
-You can update the rates in your existing rate cards in an Excel file and upload those changes to Workfront.
-
-### Export the rate cards to Excel
-
-{{step-1-to-setup}}
-
-1. In the left panel, click [!UICONTROL **Rate cards**].
-1. Click the **Export** icon ![Export icon](assets/export.png) and choose one of the Excel options.
-
-
-### Import the updated file
+You can update the rates in your existing rate cards using the same Excel template and upload those changes to Workfront.
 
 {{step-1-to-setup}}
 
@@ -253,4 +241,4 @@ You can update the rates in your existing rate cards in an Excel file and upload
 
    You must correct the issues in the Excel file and import it again before the rate card updates will exist in Workfront.
 
--->
+   
