@@ -47,11 +47,11 @@ Planned Revenue = Billing Rate × Planned Hours
   </tr> 
   <tr> 
    <td>Access level configurations</td> 
-   <td>Edit access to Tasks and Projects</td> 
+   <td>Edit access to Tasks, Projects, and Financial Data</td> 
   </tr> 
   <tr> 
    <td>Object permissions</td> 
-   <td><p>Manage permissions to a task</p>
+   <td><p>Manage permissions to a task that include Edit billing rates</p>
      <p>Contribute or higher permissions to the project</p></td> 
   </tr> 
  </tbody> 
