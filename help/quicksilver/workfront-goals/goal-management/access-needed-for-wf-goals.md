@@ -14,7 +14,13 @@ exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
 
 Your Adobe Workfront administrator must ensure all of the following conditions are met before you can access Adobe Workfront Goals:
 
-* Your organization purchased an Adobe Workfront Goals package in the past. Adobe Workfront Goals is no longer available for purchase.
+* Your organization must have a Workfront Ultimate package. 
+
+  Workfront Goals is not available for Workfront Workflow packages. 
+  
+  Speak with your Workfront account representative if you are currently renewing Workfront and you would like to keep Workfront Goals. 
+
+  If you are a new customer, Workfront Goals is no longer available for purchase. 
 
   For more information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access) in this article.
 
@@ -31,7 +37,7 @@ Your Adobe Workfront administrator must ensure all of the following conditions a
     >By default, users get No Access to goals in their access level.
 
 
-* Assign you Layout Template that includes the Goals area in the Main Menu.
+* Assign you a Layout Template that includes the Goals area in the Main Menu.
 
   >[!NOTE]
   >
@@ -46,7 +52,9 @@ Your Adobe Workfront administrator must ensure all of the following conditions a
 ## Obtain Workfront Goals organization access {#obtain-workfront-goals-organization-access}
 
 The last Adobe Workfront package that included Workfront Goals was Adobe Workfront Ultimate. 
+
 Workfront Goals is no longer available for purchase for newer packages. 
+
 Speak with your account representative to inquire about Workfront Goals. 
 
 <!--Old: >

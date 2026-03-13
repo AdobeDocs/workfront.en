@@ -27,7 +27,7 @@ Whether used directly or through the AI Assistant, the Planning Designer provide
 
 For information about Workfront Planning, see the following articles:
 
-* [General information about Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md)
+* [General information and article index for Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md)
 * [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 * [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md)
 
@@ -155,7 +155,7 @@ You can use either the Planning Designer or the AI Assistant to perform any of t
 
     >[!IMPORTANT]
     >
-    >Although we support .XLSX and .CSV file types, they cannot be used for large-scale record import through the Planning Designer.
+    >Although we support .XLSX file types, they cannot be used for large-scale record import through the Planning Designer.
     >If you need to import a substantial number of records at this time, we recommend that you do so by using the manual capabilities available in Planning.
     >
     >For more information, see [Create records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md).
