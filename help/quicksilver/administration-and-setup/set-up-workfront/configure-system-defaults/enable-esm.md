@@ -63,7 +63,7 @@ To enable Adobe enterprise storage for your organization:
 
 1. In the Applies to drop-down menu, choose one of the following options:
 
-    - **Entire organization**: This option applies the default storage provider to your entire Workfront environment.
-    - **Specific groups**: This option applies the default storage provider only to specific groups within your organization.
+    - **Entire organization**: This option applies the default storage provider to your entire Workfront environment. Any time a user creates a new project, the default storage provider will be used.
+    - **Specific groups**: This option applies the default storage provider only to specific groups within your organization. Any time a user in the specified groups creates a new project, the default storage provider will be used
 
 1. Click **Save**.
