@@ -97,6 +97,6 @@ Existing customers can enable Adobe enterprise storage in their environment upon
 
 ## Consideratins
 
-* It is possible for Workfront to become out of sync with Frame.io or Creative Cloud, such as an asset being deleted in Frame.io but still appearing in Workfront, contact Workfront support to have your environment resynced.
+* It is possible for Workfront to become out of sync with Frame.io or Creative Cloud, such as an asset being deleted in Workfornt but still appearing in Frame.io, contact Workfront support to have your environment resynced.
 
 
