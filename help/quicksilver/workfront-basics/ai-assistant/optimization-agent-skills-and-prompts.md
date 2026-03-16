@@ -183,9 +183,9 @@ See example prompts for document and asset approvals in the following areas:
 
 ### Project and work management
 
-You can use WOA to create and manage projects, including tasks, templates, and assignments. 
+You can use WOA to create and manage projects, including tasks and assignments. 
 
-See example prompts for document and asset approvals in the following areas:
+See example prompts for work management in the following areas:
 
 * [Create, update, or delete projects](#create-update-or-delete-projects)
 * [Identify the right project template based on user prompt](#identify-the-right-project-template-based-on-user-prompt)
