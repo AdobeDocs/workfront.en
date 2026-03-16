@@ -61,4 +61,9 @@ To enable Adobe enterprise storage for your organization:
     >
     >![new project and legacy project options](assets/new-esm-project.png)
 
+1. In the Applies to drop-down menu, choose one of the following options:
+
+    - **Entire organization**: This option applies the default storage provider to your entire Workfront environment.
+    - **Specific groups**: This option applies the default storage provider only to specific groups within your organization.
+
 1. Click **Save**.
