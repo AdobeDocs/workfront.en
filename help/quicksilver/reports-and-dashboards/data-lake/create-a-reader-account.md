@@ -132,7 +132,7 @@ To create a reader account:
 
 You need to use the RSA key with the username you chose to sign in to Snowflake, so ensure that you keep a record of it as well as the URL. Check the box claiming you have done so, then click **Close**.
 
-    ![RSA key dialog](Assets/rsa-test.png)
+![RSA key dialog](assets/rsa-test.png)
 
 ## Revoke a reader account
 
