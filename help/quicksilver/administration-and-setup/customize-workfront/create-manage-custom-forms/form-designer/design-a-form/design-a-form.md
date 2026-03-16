@@ -27,8 +27,9 @@ You can design a custom form with the form designer in Adobe Workfront. You can 
  <tbody> 
   <tr> 
    <td>Adobe Workfront package</td> 
-   <td><p>Any</p></td> 
-  </tr> 
+   <td> <p>To create custom forms for job roles, rate cards, and assignments: Workflow Ultimate</p>
+      <p>To create custom forms for all other supported objects: Any Workfront or Workflow package</p> </td> 
+  </tr>  
   <tr> 
    <td>Adobe Workfront license</td> 
    <td><p>Standard</p>
@@ -36,7 +37,7 @@ You can design a custom form with the form designer in Adobe Workfront. You can 
   </tr> 
   <tr> 
    <td>Access level configurations</td> 
-   <td> <p>Administrative access to custom forms</p> </td> 
+   <td>Administrative access to custom forms</td> 
   </tr>  
  </tbody> 
 </table>
@@ -55,6 +56,34 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. Select which object types you'd like to attach the custom form to, then click **Continue**.
 
    ![Choose object types](assets/new-custom-form-select-objects.png)
+
++++ Expand to view the list of objects that support custom forms.
+
+* Project
+* Task
+* Issue / Request
+* Portfolio
+* Document
+* Program
+* Expense
+* User
+* Company
+* Iteration
+* Billing Record
+* Group
+* <span class="preview">Team</span>
+
+<div class="preview">
+
+If you are on the Workflow Ultimate package, you can also create custom forms for these objects:
+
+* Job Role
+* Rate Card
+* Assignment
+
+</div>
+
++++
 
 1. In the **Add a form name** area, type the custom form title.
 1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the **Add** icon ![Add objects icon](assets/add-objects-icon.png) next to **Object Types**, then select the type you want in the menu that displays. You can repeat this to add as many object types as you want. 
