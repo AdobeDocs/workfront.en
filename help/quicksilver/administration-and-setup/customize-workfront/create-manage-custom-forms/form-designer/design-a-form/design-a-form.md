@@ -282,6 +282,22 @@ To add a text field:
     </ul></td>
     </tr>
     <tr>
+      <td><span class="preview">Finance Permission Type</span></td>
+      <td><p><span class="preview">Select the finance permission type that the users must have before they can view or edit this custom field. Any format is allowed for calculated fields.</span></p>
+      <ul span class="preview">
+      <li><p><strong>No permissions required:</strong> All users can see this field</p></li>
+      <li><p><strong>General:</strong> Users must have permissions to edit or view General Finance</p></li>
+      <li><p><strong>Bill:</strong> Users must have permissions to edit or view billing rates</p></li>
+      <li><p><strong>Cost:</strong> Users must have permissions to edit or view cost rates</p></li>
+      </ul>
+      <p><span class="preview">For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</span></p>
+      </td>
+      <td><ul span class="preview">
+       <li>Single line text</li>
+       <li>Paragraph</li>
+       </ul></td>
+    </tr>
+    <tr>
     <td>Display Type</td>
     <td>Switch between single line and paragraph text fields.</td>
     <td><ul>
@@ -421,6 +437,24 @@ To add radio buttons, checkbox groups, and drop-downs:
     <li>Multi-select dropdown</li>
     </ul></td>
     </tr> 
+    <tr>
+      <td><span class="preview">Finance Permission Type</span></td>
+      <td><p><span class="preview">Select the finance permission type that the users must have before they can view or edit this custom field. Any format is allowed for calculated fields.</span></p>
+      <ul span class="preview">
+      <li><p><strong>No permissions required:</strong> All users can see this field</p></li>
+      <li><p><strong>General:</strong> Users must have permissions to edit or view General Finance</p></li>
+      <li><p><strong>Bill:</strong> Users must have permissions to edit or view billing rates</p></li>
+      <li><p><strong>Cost:</strong> Users must have permissions to edit or view cost rates</p></li>
+      </ul>
+      <p><span class="preview">For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</span></p>
+      </td>
+      <td><ul span class="preview">
+       <li>Radio buttons</li>
+       <li>Checkbox group</li>
+       <li>Single-select dropdown</li>
+       <li>Multi-select dropdown</li>
+       </ul></td>
+    </tr>
     <tr> 
      <td role="rowheader">Display Type</td> 
     <td>Switch between radio buttons, checkbox group, single-select drop-down, or multi-select drop-down for the field.</td> 
@@ -668,6 +702,18 @@ To add an external lookup:
       <li>The character limit for Number fields is 16. You can also use a Text field to enter numbers and avoid the limit.</li>
       </ul></td>
      </tr> 
+     <tr>
+      <td><span class="preview">Finance Permission Type</span></td>
+      <td><p><span class="preview">Select the finance permission type that the users must have before they can view or edit this custom field. Any format is allowed for calculated fields.</span></p>
+      <ul span class="preview">
+      <li><p><strong>No permissions required:</strong> All users can see this field</p></li>
+      <li><p><strong>General:</strong> Users must have permissions to edit or view General Finance</p></li>
+      <li><p><strong>Bill:</strong> Users must have permissions to edit or view billing rates</p></li>
+      <li><p><strong>Cost:</strong> Users must have permissions to edit or view cost rates</p></li>
+      </ul>
+      <p><span class="preview">For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</span></p>
+      </td>
+     </tr>
      <tr> 
       <td role="rowheader">Base API URL</td> 
       <td><p>Type or paste the URL for the API.</p><p>The API URL must return a JSON content of the options that you would like to show in the drop-down. You can use the JSON Path field to select the specific values from the returned JSON to be drop-down options.</p><p>When entering the API URL, you can optionally pass the following values in the URL:</p>
