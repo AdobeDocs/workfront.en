@@ -479,7 +479,7 @@ A Parameter object is a custom field.
             <p>Added the following possible value:</p>
              <ul>
               <li>
-                <p><code>HTML</code> </p>
+                <p><code>RICHLX</code> (Lexical Rich Text)</p>
               </li>
             </ul>
          </li>
