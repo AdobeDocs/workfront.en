@@ -166,8 +166,12 @@ To reuse an existing calculated custom field:
       <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
      </tr>
      <tr>
+      <td><span class="preview">Automatic permission</span></td>
+      <td><span class="preview">Turn on this option to allow the finance permissions to automatically come from the fields used in the formula. The permissions are defined in the Finance Permission Type field, below.</span></td>
+     </tr>
+     <tr>
       <td><span class="preview">Finance Permission Type</span></td>
-      <td><p><span class="preview">Select the finance permission type that the users must have before they can view or edit this custom field. Any format is allowed for calculated fields.</span></p>
+      <td><p><span class="preview">When the Automatic permission field is turned off, you can select the finance permission type that the users must have before they can view or edit this custom field. Any format is allowed for calculated fields. The fields used in the formula determine whether this field is active. If the permission field is blank, the fields in the formula do not support the finance permissions.</span></p>
       <ul span class="preview">
       <li><p><strong>No permissions required:</strong> All users can see this field</p></li>
       <li><p><strong>General:</strong> Users must have permissions to edit or view General Finance</p></li>

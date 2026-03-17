@@ -73,6 +73,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >
    >For calculated fields, any format is allowed. All other field types must use the **Currency** format, or the **Finance permission type** field will be unavailable.
 
+1. (Optional) For calculated fields only, turn on the **Automatic permission** option to allow the finance permissions to automatically come from the fields in the formula.
+
 1. Select an option for the **Finance permission type**.
 
    Users must have this finance permission type before they can view or edit this custom field on the form.
@@ -82,7 +84,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    * **Bill:** Users must have permissions to edit or view billing rates
    * **Cost:** Users must have permissions to edit or view cost rates
 
-   For calculated fields, users might be able to see part of a calculation, depending on their access. For example, if the calculation includes billing and cost data, and the user only has access to see billing rates, they will see the value without the cost included.
+   For calculated fields:
+   
+   * The **Finance permission type** field is not available for manual setting of permissions if the **Automatic permission** field is turned on.
+   * The fields used in the formula determine whether the permission field is active. If the permission field is blank (and automatic permissions are not turned on), the fields in the formula do not support the finance permissions.
+   * Users might be able to see part of a calculation, depending on their access. For example, if the calculation includes billing and cost data, and the user only has access to see billing rates, they will see the value without the cost included.
 
 1. To save your changes, click **Apply** and continue building your form.
 
