@@ -1,7 +1,7 @@
 ---
 title: First Quarter 2025 Proofing enhancements
 description: First Quarter 2025 Proofing enhancements
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88

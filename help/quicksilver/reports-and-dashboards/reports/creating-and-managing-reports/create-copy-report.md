@@ -4,7 +4,7 @@ keywords: save,new,report,copy
 navigation-topic: create-and-manage-reports
 title: Create a copy of a report
 description: You can create a copy of any report that you have access to. You can either create an exact copy of a custom report or you can save a new version of a default report. After you copy a report, you become the owner of the copied report and it displays in the My Reports section.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
 ---

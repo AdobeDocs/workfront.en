@@ -1,7 +1,7 @@
 ---
 title: First Quarter 2025 Boards enhancements
 description: First Quarter 2025 Boards enhancements
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8f88e9e4-3f87-48f8-a37b-cca50348daaf

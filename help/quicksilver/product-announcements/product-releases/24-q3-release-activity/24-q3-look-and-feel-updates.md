@@ -1,7 +1,7 @@
 ---
 title: Look-and-feel updates during the Third Quarter 2024 release time frame
 description: Look-and-feel updates during the Third Quarter 2024 release time frame
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6ad93735-652f-4a94-bc24-6c22bb2c8826
