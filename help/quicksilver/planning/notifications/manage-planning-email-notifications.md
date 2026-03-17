@@ -175,6 +175,13 @@ after you submit a request, or after a request you submitted has been approved o
 
 1. (Optional) Click **Open request**. This opens the request in Workfront Planning. 
 
+1. In the upper-right corner of the request, click the **Review and approve** button, then click one of the following:
+
+   * **Approve** to approve the request. A record is created when you approve a Planning request. 
+   * **Reject** to reject the request. No record is created when you reject a request in Workfront Planning. The request is saved in the Requests area with a status of **Rejected**.
+
+   ![Review and approve button on Planning request](assets/review-approval-button-with-drop-down-expanded.png)
+
 1. Click the **Notifications** icon ![Notifications area icon Unified Shell](assets/notifications-area-icon-unified-shell.png) in the upper-right corner of the screen to access the **Notifications** page.
 
    For information about managing your Workfront Planning notifications, see [Manage Adobe Workfront Planning notification preferences](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
