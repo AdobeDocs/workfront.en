@@ -38,7 +38,7 @@ As an [!DNL Adobe Workfront] administrator or a user with administrative access 
   <tr> 
    <td>[!DNL Adobe Workfront] package</td> 
    <td><p>To create or edit a job role: Any Workfront or Workflow package</p>
-   <p>To apply rate attributes to the job role: Workflow Ultimate</p></td> 
+   <p>To apply rate attributes and add custom forms to the job role: Workflow Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] license</td> 
@@ -130,6 +130,11 @@ For more information, see [Define rate attributes](/help\quicksilver\administrat
 
 1. In the left panel, click **[!UICONTROL Job Roles]**.
 1. Click the name of an existing job role to edit it.
+1. To update the job role details, click **Details** in the left panel.
+1. (Optional) To attach a custom form to the job role, click the **Add custom form** field in the upper-right corner of the Details page, and select a custom form from the list that displays.
+
+   For more information on attaching a custom form, see [Add a custom form to an object](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+
 1. Click [!UICONTROL **Rates**] in the left panel.
 1. Click [!UICONTROL **Billing**] or [!UICONTROL **Cost**] to select the rate type.
 1. Click [!UICONTROL **Add Rates**] to add a new rate.
