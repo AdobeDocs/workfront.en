@@ -3,7 +3,7 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Reference a custom form in a report
 description: You can reference the custom forms of an object in the Views, Filters, and Groupings of a report for that object.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
 ---

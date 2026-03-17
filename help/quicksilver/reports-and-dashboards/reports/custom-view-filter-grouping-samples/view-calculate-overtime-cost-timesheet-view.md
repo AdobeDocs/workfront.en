@@ -4,7 +4,7 @@ product-area: reporting;timesheets
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View: Calculate Overtime Cost in a Timesheet View'
 description: Overtime is not calculated by default in Adobe Workfront, but you can create a Timesheet report that calculates overtime.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ad6205cd-7534-49e5-b142-09f90bf672ce
 ---

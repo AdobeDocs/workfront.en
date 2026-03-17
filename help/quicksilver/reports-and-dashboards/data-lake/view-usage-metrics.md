@@ -4,7 +4,7 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: View Workfront Data Connect usage metrics
 description: Using the Workfront Data Connect Metrics tab, you can view your organization's usage metrics according to both monthly compute hours used and number of queries performed.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 29185bd1-e058-4b42-a508-53406fb9ddd2
 ---

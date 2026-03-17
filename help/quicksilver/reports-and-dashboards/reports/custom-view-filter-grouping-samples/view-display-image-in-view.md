@@ -4,7 +4,7 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View: Display an Image Instead of a String in a Column'
 description: You can replace the name of an object in a view with an image using text mode. You can also add a link to the image that can open the object it replaces.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
 ---

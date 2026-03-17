@@ -3,7 +3,7 @@ product-area: reporting
 navigation-topic: using-built-in-reports
 title: Built-in Status Icons in Views
 description: You can add the built-in Status Icons field as a column in your views to enhance visibility into key points about your objects.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
 ---

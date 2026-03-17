@@ -4,7 +4,7 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View: Originating Issue Details for Tasks and Projects'
 description: When an issue is converted into a task or a project a resolving object relationship is established between the task or project and the issue. This view displays the fields of the issue that completes automatically when the task or project completes.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5fefb174-3a18-408f-aa12-3f4aff23acfa
 ---

@@ -4,7 +4,7 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View: Document Report with Link to a Proof'
 description: 'View: document report with link to a proof'
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a38c5e86-9789-41ca-a832-2ee5eb0a570b
 ---

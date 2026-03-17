@@ -3,7 +3,7 @@ product-area: reporting
 navigation-topic: report-usage
 title: View report usage
 description: View report usage
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
 ---
