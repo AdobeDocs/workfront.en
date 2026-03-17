@@ -149,8 +149,16 @@ OLD:
 
 ## Manage in-app notifications when requesting and granting permissions
 
-You receive in-app notifications when someone requests or grants you permissions to a view or a workspace. <!--<span class="preview">or record</span>-->
+You receive in-app notifications when someone requests or grants you permissions to a view, workspace, or record type. <!--<span class="preview">or record</span>-->
 
 For information about requesting, granting, or denying permissions, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). 
 
 For information about managing your Workfront Planning notifications, see [Manage Adobe Workfront Planning notification preferences](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+
+## Manage in-app notifications when approving or rejecting Planning requests
+
+You receive an in-app notification when someone submits a request for approval or when someone approves a request you submitted. 
+
+For information about submitting requests, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+
+For information about approving requests, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md). 

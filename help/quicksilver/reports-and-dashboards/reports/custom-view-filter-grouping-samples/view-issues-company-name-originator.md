@@ -4,7 +4,7 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View: Issues with the Company Name of the Originator'
 description: This issue view displays the company name associated with the user who submitted the issue.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e628f7cf-4a7b-4125-bea6-348c72477bd7
 ---

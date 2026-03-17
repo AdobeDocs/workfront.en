@@ -1,7 +1,7 @@
 ---
 title: First Quarter 2025 Home enhancements
 description: First Quarter 2025 Priorities enhancements
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd

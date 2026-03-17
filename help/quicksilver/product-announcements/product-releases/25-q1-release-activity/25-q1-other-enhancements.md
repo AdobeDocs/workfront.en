@@ -1,7 +1,7 @@
 ---
 title: Other enhancements during the First Quarter 2025 release timeframe
 description: Other enhancements during the First Quarter 2025 release time frame
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072

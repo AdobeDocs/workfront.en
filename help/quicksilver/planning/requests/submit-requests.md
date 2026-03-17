@@ -179,7 +179,7 @@ The following must be in place before you can submit a request to a Workfront Pl
 
       >[!NOTE]
       >
-      >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
+      >The email and in-app notification are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
       >
       >There is a link to the request in the email confirmation or approval notification. 
 
@@ -266,7 +266,7 @@ Information in this section applies only for Workfront users who submit a reques
 
       >[!NOTE]
       >
-      >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
+      >The email and in-app notification are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
    
    <!-- <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
 

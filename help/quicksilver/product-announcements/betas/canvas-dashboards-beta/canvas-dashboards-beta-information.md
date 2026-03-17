@@ -3,7 +3,7 @@ product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards-beta
 title: Canvas Dashboards beta information
 description: General information about the Canvas Dashboards beta
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72

@@ -4,7 +4,7 @@ product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Grouping: Tasks by Portfolio, Program, and Project'
 description: Use this task grouping to group tasks by the portfolio, by program, and then by the project they are associated with.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fdad6a1-54b3-4d3e-8f21-4f2efc2dc27a
 ---
