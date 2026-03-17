@@ -4,7 +4,7 @@ product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: "Error message when running a report: 'You are not currently logged in.'"
 description: Learn about the 'You are not currently logged in' error message.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: fda4630a-2590-46f4-94ff-499a485367ee
 ---

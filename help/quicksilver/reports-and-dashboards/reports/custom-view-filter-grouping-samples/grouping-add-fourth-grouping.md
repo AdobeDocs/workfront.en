@@ -4,7 +4,7 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Grouping: add a fourth grouping to a list'
 description: You can have 4 groupings in a matrix report. For more information about matrix reports, see Create a matrix report.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 1147a47b-c6e2-496e-b202-eefeb500054e
 ---

@@ -1,7 +1,7 @@
 ---
 title: Look-and-feel updates during the Fourth Quarter 2024 release time frame
 description: Look-and-feel updates during the Fourth Quarter 2024 release time frame
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de

@@ -4,7 +4,7 @@ product-area: agile-and-teams
 navigation-topic: tips-tricks-and-troubleshooting-agile
 title: Custom statuses not showing up on the Agile story board
 description: If you want to use a custom status on an Agile story board, your [!DNL Adobe Workfront] administrator must first create that custom status as a system-wide status.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: dcf71cd0-da56-48e7-85bf-393f5cec3ae3
 ---
