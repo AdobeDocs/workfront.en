@@ -139,9 +139,18 @@ The format of a business rule automation is "IF the defined condition is met, th
 
 1. Click **Business Rules** in the left panel.
 1. Click **New business rule**.
-1. Select the object type to assign the business rule to, then click **Continue**.
 
-   ![Select an object](assets/object-for-business-rule3.png) <!--UPDATE ME-->
+1. Type the **Name** for the business rule on the rule builder dialog.
+1. In the **Is Active** field, select whether the rule should be active when you save it.
+
+   If you select **No**, the rule is saved as inactive, and you can activate it later.
+
+1. (Optional) Enter a **Description** of the business rule and what happens when it is applied.
+
+
+1. Select the object type to assign the business rule to..
+
+   ![Select an object](assets/object-for-business-rule4.png) 
 
    You can apply business rules to the following objects:
 
@@ -160,19 +169,21 @@ The format of a business rule automation is "IF the defined condition is met, th
    * Risk
    * Rate card
    * Assignment
-
-1. Type the **Name** for the business rule on the rule builder dialog.
-1. In the **Is Active** field, select whether the rule should be active when you save it.
-
-   If you select **No**, the rule is saved as inactive, and you can activate it later.
-
+   * <span class="preview">Job role</span>
+   * <span class="preview">Non-labor resource category</span>
+   * <span class="preview">Resource Pool</span>
+   * <span class="preview">Time Off</span>
+   * <span class="preview">Hour</span>
+   * <span class="preview">Staffing Plan</span>
+   * <span class="preview">Template</span>
+   * <span class="preview">Staffing Plan Resource</span>
+   * <span class="preview">Team</span>
 1. Select a **Trigger** for the business rule. The options are:
 
-   * **On object creation:** The rule is applied when a user attempts to create an object.
-   * **On object edit:** The rule is applied when a user attempts to edit an object.
-   * **On object delete:** The rule is applied when a user attempts to delete an object.
+   * **Created** The rule is applied when a user attempts to create an object.
+   * **Edited** The rule is applied when a user attempts to edit an object.
+   * **Deleted** The rule is applied when a user attempts to delete an object.
 
-1. (Optional) Enter a **Description** of the business rule and what happens when it is applied.
 1. Build the formula in the formula editor, in the center of the business rule dialog.
 
    The format of a business rule is "IF the defined condition is met, then the user is prevented from the action on the object, and the message is displayed."
@@ -200,15 +211,38 @@ The format of a business rule automation is "IF the defined condition is met, th
 
     The list of available fields is limited to fields related to the object type for the business rule.
 
-1. (Conditional) If your organization is on the Workfront Ultimate package, in the Then area, select **Validate the object**.
+1. (Conditional) If you are validating the action, if your organization is on the Workfront Ultimate package, in the Then area, select **Validate the object**.
 
    For other packages, this option is pre-selected.
+
+1. (Conditional) To automate another action,, select the action. 
+
+   For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.
+
+   >[!NOTE]
+   >
+   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
 
 1. Click **Save** when you are finished building the business rule.
 
 >[!NOTE]
 >
 >After you add a business rule, you should test it by adding, editing, or deleting the associated object to make sure the rule is applied properly.
+
+### Business rule automation options
+
+   >[!NOTE]
+   >
+   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+
+You can set these actions to automate when the business rule is triggered. Available actions depend on the selected object type.
+
+|Automation|Further configuration|
+|---|---|
+|Attach a custom form|Select the custom form that you want to add|
+|Share the object|Select the people, roles, groups, companies, or access levels that you want to share the object with.|
+
+<!--Follow up on sending a notification-->
 
 ## Activate a business rule
 
