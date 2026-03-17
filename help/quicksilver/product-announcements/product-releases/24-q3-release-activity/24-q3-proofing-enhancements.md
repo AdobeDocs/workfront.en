@@ -1,7 +1,7 @@
 ---
 title: Third Quarter 2024 Proofing enhancements
 description: Third Quarter 2024 Proofing enhancements
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ae93f709-2942-4649-a535-ecf279fe34cb

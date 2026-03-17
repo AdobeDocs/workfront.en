@@ -4,7 +4,7 @@ keywords: user,delegation,report,delegate,approval
 navigation-topic: create-and-manage-reports
 title: Create a User Delegation Report
 description: Create a User Delegation report
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
 ---

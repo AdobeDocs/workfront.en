@@ -4,7 +4,7 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Grouping: Project Percent Breakdown 2'
 description: 'In this custom project grouping, you can display projects grouped by a range of their percent complete values. The breakdowns show percent complete value of 10 percent point increments: 0-10%, 11-20%, 21-30% etc.'
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7845fd66-8304-4154-8630-e72482cd753f
 ---

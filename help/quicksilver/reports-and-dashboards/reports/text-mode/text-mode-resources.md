@@ -4,7 +4,7 @@ product-area: reporting
 navigation-topic: reports
 title: "Text Mode resources: article index"
 description: Text Mode resources
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 892f1746-b9c6-4414-bfa1-24f68a3be6fb
