@@ -1,7 +1,7 @@
 ---
 title: Third Quarter 2024 release overview
 description: This page provides information about functionality that is included in the Third Quarter 2024 release. These enhancements are planned to become available in the Production environment throughout the quarter.
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a

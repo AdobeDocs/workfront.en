@@ -1,7 +1,7 @@
 ---
 title: Third Quarter 2025 Reporting enhancements
 description: Third Quarter 2025 Project enhancements
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6e53dca8-285a-471b-a646-1773722554f3

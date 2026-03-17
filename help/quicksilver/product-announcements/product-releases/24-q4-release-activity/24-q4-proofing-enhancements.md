@@ -1,7 +1,7 @@
 ---
 title: Fourth Quarter 2024 Proofing enhancements
 description: Fourth Quarter 2024 Proofing enhancements
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 337fca96-9773-4683-a82c-f6d2f5f261a0

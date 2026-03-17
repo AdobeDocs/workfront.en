@@ -1,7 +1,7 @@
 ---
 title: First Quarter 2025 Report and Dashboard enhancements
 description: First Quarter 2025 Report and Dashboard enhancements
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8

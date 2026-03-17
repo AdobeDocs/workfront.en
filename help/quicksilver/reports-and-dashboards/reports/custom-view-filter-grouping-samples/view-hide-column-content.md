@@ -4,7 +4,7 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View: Hide the Content of a Column'
 description: You might want to hide information in the column of a view. You can do this by modifying the text mode of the column.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f4c3e1ca-d750-4f8b-835c-254c20ad72b3
 ---
