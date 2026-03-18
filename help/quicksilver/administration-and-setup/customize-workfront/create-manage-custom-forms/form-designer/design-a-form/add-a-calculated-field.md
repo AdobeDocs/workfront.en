@@ -167,7 +167,7 @@ To reuse an existing calculated custom field:
      </tr>
      <tr>
       <td><span class="preview">Automatic permission</span></td>
-      <td><span class="preview">Turn on this option to allow the finance permissions to automatically come from the fields used in the formula. The permissions are defined in the Finance Permission Type field, below.</span></td>
+      <td><span class="preview"><p>Turn on this option to allow the finance permissions to automatically come from the fields used in the formula. The permission definitions are shown in the Finance Permission Type field, below.</p><p>Access is required for all fields in the formula. For example, if two fields are used in a calculated field, and one of them has billing permission applied and the second has cost permission applied, then the user must have permissions to view both billing and cost rates to see the calculated value.</p></span></td>
      </tr>
      <tr>
       <td><span class="preview">Finance Permission Type</span></td>
@@ -178,7 +178,6 @@ To reuse an existing calculated custom field:
       <li><p><strong>Bill:</strong> Users must have permissions to edit or view billing rates</p></li>
       <li><p><strong>Cost:</strong> Users must have permissions to edit or view cost rates</p></li>
       </ul>
-      <p><span class="preview">Users might be able to see part of a calculation, depending on their access. For example, if the calculation includes billing and cost data, and the user only has access to see billing rates, they will see the value without the cost included.</span></p>
       <p><span class="preview">For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</span></p>
       </td>
      </tr>

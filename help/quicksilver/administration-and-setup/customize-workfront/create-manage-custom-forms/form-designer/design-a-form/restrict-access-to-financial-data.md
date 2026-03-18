@@ -88,7 +88,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    
    * The **Finance permission type** field is not available for manual setting of permissions if the **Automatic permission** field is turned on.
    * The fields used in the formula determine whether the permission field is active. If the permission field is blank (and automatic permissions are not turned on), the fields in the formula do not support the finance permissions.
-   * Users might be able to see part of a calculation, depending on their access. For example, if the calculation includes billing and cost data, and the user only has access to see billing rates, they will see the value without the cost included.
+   * Access is required for all fields in the formula. For example, if two fields are used in a calculated field, and one of them has billing permission applied and the second has cost permission applied, then the user must have permissions to view both billing and cost rates to see the calculated value.
 
 1. To save your changes, click **Apply** and continue building your form.
 
