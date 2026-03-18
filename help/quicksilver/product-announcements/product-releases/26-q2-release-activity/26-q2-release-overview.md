@@ -54,7 +54,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Custom Quarters removed from Project Preferences</a><p>BWe have moved the Custom Quarter area from the Project Preferences section. It is now a standalone section in Setup.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Custom Quarters removed from Project Preferences</a><p>We have moved the Custom Quarter area from the Project Preferences section. It is now a standalone section in Setup.</p>
         </td>
         <td><p>March 5, 2026</p></td>
         <td><p>April 15, 2026</p></td>
