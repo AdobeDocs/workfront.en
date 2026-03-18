@@ -10,6 +10,8 @@ exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 ---
 # Create advanced assignments
 
+{{highlighted-preview}}
+
 <!-- Audited: 11/2025-->
 
 <!--remove the bullet indicated when we get rid of the new/old experience of editing tasks-->
@@ -58,7 +60,7 @@ In addition, you can make advanced assignments in the following areas of Workfro
  <tbody> 
   <tr> 
    <td>Adobe Workfront package</td> 
-   <td> <p>Any</p> </td> 
+   <td> <p>To add billing and cost rates on task assignments and use the advanced search: Workflow Ultimate</p> <p>To create advanced assignments: Any Workfront or Workflow package</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront license</td> 
