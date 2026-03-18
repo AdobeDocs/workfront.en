@@ -75,7 +75,7 @@ We are now allowing only System Administrators to choose between the following o
 
 By default, workspaces are set to the "Only invited people can access" permission. 
 
-Prior to this change, the ability to choose these workspace sharing permissions did not exit. 
+Prior to this change, the ability to choose these workspace sharing permissions did not exist. 
 
 For information, see Share workspaces (help/quicksilver/planning/access/share-workspaces.md).
 
