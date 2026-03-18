@@ -13,8 +13,6 @@ Workflow Optimization Agent is part of the Adobe Experience Cloud Agent Orchestr
 
 For more information on Agent Orchestrator, see [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator).
 
-Because Workflow Optimization Agent is part of the Adobe Experience Platform Agent Orchestrator, data from your interactions with WOA are stored in Adobe Experience Platform, not in Workfront. Therefore, conversation history in WOA is not covered by Workfront Customer Managed Keys (BYOK) agreements.
-
 ## Access requirements
 
 <!--Add info about how to qualify for agent orchestrator stuff-->
@@ -61,20 +59,25 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 Consider the following constraints when using Workflow Optimization Agent:
 
+### Reversibility
+
+Some actions can be reversed. For example, if an object is created, that creation can be reversed. 
+
+However, some actions, such as object deletion, can **not** be reversed. We recommend keeping this in mind when performing actions on your data through Workflow Optimization Agent.
+
 ### Data / object coverage constraints
 
-* **Custom fields**: Querying and reporting on custom fields is in early stages, and some skills (like API-based query helpers) do not yet handle arbitrary custom fields for aggregation and filtering.
+* Querying and reporting on custom fields is in early stages, and some skills (like API-based query helpers) do not yet handle arbitrary custom fields for aggregation and filtering.
 
 ### Interaction / UX limitations
 
-* No persistent personalization: Workflow Optimization Agent does not currently "learn" long-term from an individual user's style or preferences. Every chat uses only the current conversation and product knowledge.
-* Session-scoped memory only: Context is kept within a single chat session. Opening a new page or closing the assistant resets the conversation history.
-* No external URLs: if approval procedures live in an outside application like Confluence or SharePoint, and are only linked via URL fields, Workflow Optimization Agent does not currently fetch and reason over those pages.
+* Workflow Optimization Agent does not currently "learn" long-term from an individual user's style or preferences. Every chat uses only the current conversation and product knowledge.
+* Conversation context is kept within a single chat session. Opening a new page or closing the assistant resets the conversation history.
+* If approval procedures live in an outside application like Confluence or SharePoint, and are only linked via URL fields, Workflow Optimization Agent does not currently fetch and reason over those pages.
 
 ### Data storage / Customer managed keys
 
 * Because Workflow Optimization Agent is part of the Adobe Experience Platform Agent Orchestrator, data from your interactions with Workflow Optimization Agent are stored in Adobe Experience Platform, not in Workfront. Therefore, this data is not covered by Workfront Customer Managed Keys (BYOK) agreements.
-
                                              
 ## General-use foundational AI skills
 
