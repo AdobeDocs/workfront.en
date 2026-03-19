@@ -84,33 +84,33 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Make advanced assignments
+<div class="preview">
 
-1. Go to the project where you want to assign a task or an issue.
-1. Click **Tasks** or **Issues** in the left panel, then click the name of a task or issue in the list.
+## Create Advanced Assignments – Workflow Ultimate package
+
+This layout of Advanced Assignments applies to tasks only. For issues, see [Create Advanced Assignments – all other packages](#create-advanced-assignments--all-other-packages).
+
+1. Go to the project where you want to assign a task.
+1. Click **Tasks** or **Issues** in the left panel, then click the name of a task in the list.
 
    >[!TIP]
    >
-   >You can make advanced assignments directly on the task or issue list. Click inside the **Assignments** field on the same line as the task or issue, then click **Advanced** at the bottom of the list, or the **People icon** in the upper-right corner of the assignments box, to open the Advanced Assignments window. Skip to step 5 to continue creating advanced assignments.
+   >You can make advanced assignments directly on the task list. Click inside the **Assignments** field on the same line as the task, then click **Advanced** at the bottom of the list, or the **People icon** in the upper-right corner of the assignments box, to open the Advanced Assignments window. Skip to step 5 to continue creating advanced assignments.
    >![Click Advanced or the People icon](assets/access-aa-from-lists.png)
 
-1. Click **Assign to** in the **Assignments** field in the header of the task or issue
+1. Click **Assign to** in the **Assignments** field in the header of the task
 
    Or
 
-   Click one of the assigned names if the task or issue is already assigned.
+   Click one of the assigned names if the task is already assigned.
 
 1. Click **Advanced**.
 
    ![Click Advanced](assets/assignments-from-task-header-0825.png)
 
-<div class="preview">
+   The Advanced Assignments window appears.
 
-### Create Advanced Assignments – Workflow Ultimate package
-
-This layout of Advanced Assignments applies to tasks only. For issues, see [Create Advanced Assignments – all other packages](#create-advanced-assignments--all-other-packages).
-
-![Advanced Assignments window](assets/advanced-assignments-031826.png)
+   ![Advanced Assignments window](assets/advanced-assignments-031826.png)
 
 1. Review the task duration information as needed. These fields are all view-only from Advanced Assignments and you can update them in the task.
 
@@ -121,10 +121,6 @@ This layout of Advanced Assignments applies to tasks only. For issues, see [Crea
    You can see how much a user is assigned in planned hours, as a percentage of their capacity, or in FTE (full-time equivalent, 0–1 scale). The default setting is Hours.
 
    For information on FTE, see [Configure Resource Management preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
-
-columns
-
-views
 
 1. Click **New row** to add an assignment to the task.
 
@@ -215,11 +211,118 @@ views
 1. (Optional) To delete one or more assignments from the list, select the check box for each row, and click **Delete** in the action bar at the bottom of the Advanced Assignments window.
 1. Click **Save** or **Save and close** when you are finished editing the Advanced Assignments.
 
+### Add and remove columns on the Advanced Assignments list
+
+Fields must exist before you can add them to the list.
+
+1. Click **+** on the top right of the list to open the **Column manager**.
+
+   ![Advanced Assignments Column manager](assets/aa-column-manager.png)
+
+1. Select the **Properties** tab or the **KPIs** tab to choose the type of field you want to add.
+
+   Properties such as location or cost center provide contextual information. Time-phased KPIs such as revenue or cost break down values across time periods.
+
+1. Search for an existing object field in the **Available** section, then click **+** to the right of the field name it to add it to the **Selected** column.
+1. Click **-** to the right of a field in the **Selected** section to remove it from the list.
+1. Click **Save**.
+
+   For more information on the Column manager, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+### Apply a view to the Advanced Assignments list
+
+A view is a personalized set of column arrangements that you can apply to the list.
+
+1. Click the **Views** dropdown and select the view you want to apply to the list.
+
+   **System Views** are views that the system administrator added, and they cannot be changed. **My Views** are views that you created or were shared with you.
+
+1. Click **New view** in the **Views** dropdown to create a view.
+
+   When you add, remove, or reorder the columns the changes are saved to the view automatically. The next time you apply this view, the columns remain the way you set them.
+
+   For more information on views, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+### Use the Advanced search
+
+The advanced search helps you locate the correct user or job role to add to the assignment.
+
+1. To open the advanced search window, do one of the following:
+
+   * Click **Advanced Search** at the top right of the Advanced Assignments window.
+   * Select an assignment row and click **Advanced Search** in the action bar at the bottom of the Advanced Assignments window. This opens the advanced search with filters automatically applied for that specific assignment.
+
+1. Select the Users or Job Roles tab on the advanced search window.
+1. Apply filters as needed:
+
+   1. Click **Filter** above the list.
+   1. In the Filter box, click **Add condition**.
+   1. Select a field to filter by.
+   1. Select a filter modifier, such as "Has any of," "Has none of," "Is before," or "Is after." The modifier options are different depending on the type of field you are filtering by.
+   1. Select the field value or values. Depending on the field type you are filtering by, you might be prompted to select the item from a list, search for it, or use a calendar to select a date range.
+
+   The filter is applied to the list automatically. For more information on filters, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+1. Search for a job role or user.
+
+   When searching for a user who matches a job role assignment, only full matches (job role and all attributes) are displayed.
+
+1. Click **+** to add columns to the table. For more information, see [Add and remove columns on the Advanced Assignments list](#add-and-remove-columns-on-the-advanced-assignments-list).
+1. Select one or more users or job roles, and click **Add Users** or **Add Roles** in the action bar at the bottom of the window.
+
+   The assignments are added on the Advanced Assignments window.
+
+### View assignment data by dates
+
+The **View by dates** window for Advanced Assignments shows the entire date-effective history of the assignment for a specific user or role. Both past and future changes are displayed.
+
+Examples of date-effective items that could affect the assignment history are:
+
+* User's Primary/Other Job Roles
+* Project-level Job Role for Billing
+* User profile billing/cost rates
+* Project override billing/cost rates (user or job role)
+* Rate card rates by job role/attributes
+* User Attributes
+* User schedule
+
+Note that this is not a comprehensive list, and the field that changed is not necessarily displayed in the table of assignment data, but it affects the billing and cost rates or attributes for the user or job role.
+
+You can only view assignment data by dates for a single user or role.
+
+1. Select the table row for a user or role, and click **View by dates** in the action bar at the bottom of the Advanced Assignments window.
+
+   The **View by dates** window appears. The data is read-only.
+
+   Each row in the table represents a date-effective change on the assignment. If no date-effective changes have taken place, the table will have one row showing the current data. Highlighted fields point out what has changed, and the start and end date for each update is listed. For example, if the billing rate changed from 202 on August 20 to 205 on August 21, the rate is highlighted. The text in parentheses indicates where the change was made to the rate, such as a project.
+
+   ![View by dates window](assets/resource-changes-view-by-dates.png)
+ 
+   When you are finished reviewing the data, click the arrow on the top left to return to the Advanced Assignments window.
+
 </div>
 
-### Create Advanced Assignments – all other packages
+## Create Advanced Assignments – all other packages
 
 This layout of Advanced Assignments applies to both tasks and issues.
+
+1. Go to the project where you want to assign a task or an issue.
+1. Click **Tasks** or **Issues** in the left panel, then click the name of a task or issue in the list.
+
+   >[!TIP]
+   >
+   >You can make advanced assignments directly on the task or issue list. Click inside the **Assignments** field on the same line as the task or issue, then click **Advanced** at the bottom of the list, or the **People icon** in the upper-right corner of the assignments box, to open the Advanced Assignments window. Skip to step 5 to continue creating advanced assignments.
+   >![Click Advanced or the People icon](assets/access-aa-from-lists.png)
+
+1. Click **Assign to** in the **Assignments** field in the header of the task or issue
+
+   Or
+
+   Click one of the assigned names if the task or issue is already assigned.
+
+1. Click **Advanced**.
+
+   ![Click Advanced](assets/assignments-from-task-header-0825.png)
 
 1. In the **Search people, role and teams** field, start typing the name of a user, role, or team, then click the name when it appears in the drop-down list.
 
@@ -274,19 +377,4 @@ This layout of Advanced Assignments applies to both tasks and issues.
 
 1. Click **Save**.
 
-<div class="preview">
 
-## Use the Advanced search
-
-{{ultimate-package}}
-
-
-
-
-## View assignment data by dates
-
-{{ultimate-package}}
-
-
-
-</div>
