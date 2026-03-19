@@ -219,12 +219,13 @@ For information about granting access in Workfront, see [Create and modify custo
 
 ## Grant permissions
 
+<!--
 >[!NOTE]
 >
 >If your company purchased an Adobe Workfront package, in addition to an Adobe Workfront Planning package, your Adobe Workfront license type works with your Workfront Planning permissions to give you access to view, contribute, or manage Workfront Planning objects.
 >
 >For information about how license types affect permission levels for Workfront Planning objects, see [License type overview when using Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
-
+-->
 
 You can grant permissions to the following entities in Workfront Planning:
 
@@ -237,6 +238,16 @@ move this above Views: * <span class="preview">Records</span>
 -->
 
 For more information, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+
+## Relationship between license types and permissions
+
+Your Adobe Workfront license type works in conjunction with your Adobe Workfront Planning permissions to give you access to Planning objects. 
+
+Depending on which package your organization has purchased, view the following articles to understand the relationship between license types and permissions in Workfront Planning:
+
+* [License type overview when using Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
+* [License type overview when using Adobe Workfront Planning with Adobe Workfront](/help/quicksilver/planning/access/license-type-overview-for-workflow-with-planning-users.md)
+
 
 
 

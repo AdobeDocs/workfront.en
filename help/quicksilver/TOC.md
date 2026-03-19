@@ -2152,7 +2152,7 @@ feature-set: Workfront
     * [Adobe Workfront Planning access overview](planning/access/access-overview.md)
     * [Overview of sharing permissions in Adobe Workfront Planning](planning/access/sharing-permissions-overview.md)
     * [License type overview when using Adobe Workfront Planning](planning/access/license-type-overview.md)
-    * [License type overview when using Adobe Workfront and Adobe Workfront Planning](planning/access/license-type-overview-for-workflow-with-planning-users.md)
+    * [License type overview when using Adobe Workfront Planning with Adobe Workfront](planning/access/license-type-overview-for-workflow-with-planning-users.md)
     * [Share workspaces](planning/access/share-workspaces.md)
     * [Share record types](planning/access/share-record-types.md)
     * [Share views](planning/access/share-views.md)

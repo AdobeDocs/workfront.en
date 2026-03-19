@@ -1,5 +1,5 @@
 ---
-title: License Type Overview when Using Adobe Workfront and Adobe Workfront Planning
+title: License Type Overview when Using Adobe Workfront Planning with Adobe Workfront
 description: This article describes licenses and permissions for users who have bought both an Adobe Workfront as well as an Adobe Workfront Planning package. Your access to Adobe Workfront Planning depends on your license type, in addition to your permissions to Planning objects. Not all users in the organization have the same access and permissions to use Adobe Workfront Planning. This article describes the levels of access that users could have to Adobe Workfront Planning.
 author: Alina
 feature: Workfront Planning
@@ -7,7 +7,7 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 ---
 
-# License type overview when using Adobe Workfront and Adobe Workfront Planning
+# License type overview when using Adobe Workfront Planning with Adobe Workfront
 
 <!--updated for STA on 2026-->
 
@@ -24,66 +24,85 @@ recommendations: noDisplay, noCatalog
 
 Your Adobe Workfront Planning license type works in conjunction with your Adobe Workfront Planning permissions to objects to give the following access: 
 
-* View, contribute, or manage workspaces or record types
+* View, contribute, or manage workspaces and record types
 * View or manage views. <!--<span class="preview">and records</span>-->
 
 For information about permissions to objects in Workfront Planning, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
 
 For information about access to Workfront Planning, see [Adobe Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 
-## License types in Adobe Workfront and Workfront Planning permissions
+## License types in Adobe Workfront, Workfront Planning and Workfront Planning permissions
+
+License types are assigned to a user's profile as access levels. 
+
+When your organization has access to both Adobe Workfront Planning and Adobe Workfront, your Workfront administrator can assign you the following Access levels: 
+
+* The Workfront access level with the following licenses:
+
+    * System Administrator
+    * Standard
+    * Contributor 
+    * Light
+* Workfront Planning access level with the following licenses: <!--ensure these are the UI names for this-->
+
+    * Planning System Administrator
+    * Planning Standard
+    * Planning Contributor
+
+For information about assigning licenses to users, see the section "Assign licenses to users" in the article [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md).  
 
 
-If your company purchased an Adobe Workfront package, in addition to an Adobe Workfront Planning package, your Adobe Workfront license type works with your Workfront Planning permissions to give you access to view, contribute, or manage Workfront Planning objects.
+>[!IMPORTANT]
+>
+>Only the Workfront Planning license contributes to a user's access to Workfront Planning objects. 
+>
+>The Workfront license does not determine a user's access to Planning objects. 
 
-The table below describes the relationship between the license type of a user in Adobe Workfront and the level of permissions you can grant to them to Adobe Workfront Planning objects based on that license. 
+The table below describes the relationship between the license type of a user in Adobe Workfront Planning and the level of permissions you can grant to them to Adobe Workfront Planning objects based on that license. 
 
-| Adobe Workfront license type                                   | Highest permissions allowed in Adobe Workfront Planning   |                                                               
+| Adobe Workfront Planning license type                                   | Highest permissions allowed in Adobe Workfront Planning   |                                                               
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Standard  | <p>Users can manage workspaces, record types, <!--<span class="preview">records</span>--> and views. They can create, edit, or delete workspaces, record types, records, fields, and views.</p><br><p>System administrators have Manage permissions to all workspaces, including the ones they did not create.</p>|                                                                        
-| Light or Contributor  | <p>Users can view the workspaces shared with them, as well as the record types, records, and fields of those workspaces.</p> <br> <p>Users can view the views shared with them, but they cannot create their own. </p><br> <p>Users cannot create, edit, or delete workspaces, record types, records, or fields.</p>|
-
-
+|Planning Standard  | <p>Users can manage workspaces, record types, <!--<span class="preview">records</span>--> and views. They can create, edit, or delete workspaces, record types, records, fields, and views.</p><br><p>System administrators have Manage permissions to all workspaces, including the ones they did not create.</p>|                                                                        
+| Planning <!--Light or--> Contributor  | <p>Users can view the workspaces shared with them, as well as the record types, records, and fields of those workspaces.</p> <br> <p>Users can view the views shared with them, but they cannot create their own. </p><br> <p>Users cannot create, edit, or delete workspaces, record types, records, or fields.</p>|
 
 <!--Old: 
 *Workfront Planning is not available for legacy Workfront licenses. 
 For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
+### Workfront Planning license types and permissions to workspaces and record types
 
-### License types and permissions to workspaces and record types
+Only users with a Planning Standard license can have Contribute or Manage permissions to workspaces and record types. The Contribute and Manage permissions to workspaces and record types also transfer to records and fields. 
 
-Only users with a Standard license can have Contribute or Manage permissions to workspaces and record types. The Contribute and Manage permissions to workspaces and record types also transfer to records and fields. 
+System Administrators can view all workspaces in the system, including the ones they did not create.
 
-System administrators can view all workspaces in the system, including the ones they did not create.
-
-Users with all other license types can have View permissions to workspaces and record types  shared with them, as well as to their records and fields. 
+Users with any other Planning license type can have View permissions to workspaces and record types shared with them, as well as to their records and fields. 
 
 
 >[!INFO]
 >
 >**EXAMPLE:** 
 >
->Contributors or Light-license users cannot contribute to or manage workspaces and their objects. 
+>Planning Contributors users cannot contribute to or manage workspaces and their objects. 
 >
->There is an indication in the sharing box that users cannot be granted permissions to contribute to or manage a workspace when they hold a lower-level license, as these permissions levels are dimmed. 
+>There is an indication in the sharing box that users cannot be granted permissions to contribute to or manage a workspace when they hold a lower-level license, as these permissions levels are dimmed. <!--ensure this is still the case and replace the screen shot with a Contributor user, since we don't have Light in Planning anymore-->
 >
 >![Permissions grayed out for contributor user on workspace](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
-### License types and permissions to views
+###  Workfront Planning license types and permissions to views
 
-Only users with a Standard license can have Manage permissions to views. 
+Only users with a Planning Standard license can have Manage permissions to views. 
 
-System Administrators cannot access views they did not create. They must be shared with them. 
+System Administrators cannot access views they did not create. The views must be shared with them. 
 
-Users with all other license types can have View permissions to views shared with them. 
+Users with any other license type can have View permissions to views shared with them. 
 
 >[!INFO]
 >
 >**EXAMPLE:** 
 >
->Contributors or Light-license users cannot manage views. They can apply temporary filters, sorts, or groupings to views they can access. 
+>Planning Contributors cannot manage views. They can apply temporary filters, sorts, or groupings to views they can access. 
 >
->There is an indication in the sharing box that users cannot be granted permissions to manage a view when they hold a lower-level license, as these permissions levels are dimmed. 
+>There is an indication in the sharing box that users cannot be granted permissions to manage a view when they hold a lower-level license, as these permissions levels are dimmed. <!--make sure this dimming is still the case and replace the screen shot as we no longer have a Light license for Planning-->
 >
 >![Permissions grayed out for light user on view share](assets/permissions-grayed-out-for-light-user.png)

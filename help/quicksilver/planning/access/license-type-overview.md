@@ -26,7 +26,6 @@ exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
 
 Your Adobe Workfront Planning license type works in conjunction with your Adobe Workfront Planning permissions to objects to give the following access:
 
-
 * View, contribute, or manage workspaces or record types
 * View or manage views. <!--<span class="preview">and records</span>-->
 
@@ -68,7 +67,7 @@ Consider the following when working with record type permissions:
 * Users automatically inherit record type, record, and field permissions from workspaces. 
 * When a user has Manage permissions to a workspace, they cannot have a lesser access to a record type. 
 * Users cannot have greater permissions to a record type than they have for the workspace the record type belongs to.
-* Removing users' permissions to a record type does not remove their View access to all record types in the workspace, as this does not remove their permissions to the workspace.
+* Removing users' permissions to a record type by turning off Inherited permissions from the workspace does not remove their View access to all other record types in the workspace, as this does not remove their permissions to the workspace. <!--verify this with Lilit; she said in  proof that you cannot remove permissions from a user at the record type level; but what about turning off inherited permissions?-->
 
 
 <!--Moved to this article: help/quicksilver/planning/access/license-type-overview-for-workflow-with-planning-users.md
