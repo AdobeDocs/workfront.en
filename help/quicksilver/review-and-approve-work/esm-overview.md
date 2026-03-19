@@ -57,7 +57,7 @@ This updated interface simplifies navigation, improves clarity, and makes it eas
 
 >[!IMPORTANT]
 >
->In Adobe enterprise storage, document permissions work differently than in legacy Workfront storage. Documents inherit permissons from the project, task, or issue they are linked to.
+>In Adobe enterprise storage, document permissions work differently than in legacy Workfront storage. Documents inherit permissions from the project, task, or issue they are linked to.
 
 Documents cannot be shared individually. Instead, the system automatically generates a folder for each task or issue and inherits permissions from the task or issue. Any documents uploaded to the task or issue are stored in that generated folder. 
 
@@ -95,8 +95,8 @@ Existing customers can enable Adobe enterprise storage in their environment upon
 
 
 
-## Consideratins
+## Considerations
 
-* It is possible for Workfront to become out of sync with Frame.io or Creative Cloud, such as an asset being deleted in Workfornt but still appearing in Frame.io, contact Workfront support to have your environment resynced.
+* It is possible for Workfront to become out of sync with Frame.io or Creative Cloud, such as an asset being deleted in Workfront but still appearing in Frame.io, contact Workfront support to have your environment resynced.
 
 
