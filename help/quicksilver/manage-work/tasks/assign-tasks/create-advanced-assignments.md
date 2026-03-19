@@ -86,7 +86,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Make advanced assignments
 
-1. Go to the project where you want to assign a task or an issue. 
+1. Go to the project where you want to assign a task or an issue.
 1. Click **Tasks** or **Issues** in the left panel, then click the name of a task or issue in the list.
 
    >[!TIP]
