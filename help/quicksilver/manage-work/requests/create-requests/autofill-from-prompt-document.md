@@ -75,6 +75,19 @@ Consider the following when using Form Fill powered by AI
 * All files uploaded to Azure are currently stored in US Azure clusters for the 24 hour storage window. 
 -->
 
+
+## Enable Form Fill powered by AI for your organization
+
+>[!NOTE]
+>
+>Form Fill powered by AI is enabled at the organization level, and cannot be enabled or disabled for specific users or access levels.
+
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
+1. Click **System**, then under System, click **Preferences**.
+1. In the AI preference section, ensure that **Enable AI** is toggled on.
+1. Toggle on **AI Form Fill**.
+1. To disable Form Fill powered by AI, toggle off **AI Form Fill**.
+
 ## Get suggestions from a text prompt
 
 AI Form Fill  can suggest field values based on text such as emails. You paste in a text block, and Workfront processes the text to suggest field values based on the text.
