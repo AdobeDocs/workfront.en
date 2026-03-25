@@ -67,7 +67,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 ## Scenarios for business rules
 
 * [Scenarios for business rule validation](#scenarios-for-business-rule-validation)
-* [Scenarios for business rule automation]()
+* [Scenarios for business rule automation](#scenarios-for-business-rule-automation)
 
 ### Scenarios for business rule validation
 
@@ -132,6 +132,22 @@ IF(
 >Your organization must have a Workflow Ultimate package to use business rule automation.
 
 The format of a business rule automation is "IF the defined condition is met, then the selected automation is triggered."
+
+Business rule automation formulas do not require an error message
+
+To ensure that an automation runs whenever the selected object and action occurs, such as when a project is created, use the following formula:
+
+```
+IF(true, true)
+```
+
+To share a project only if that's project has been approved, use a formula like the following:
+
+```
+IF({status} = "APR", true)
+```
+
+You can use wildcards in business rule actions, as described in the section [Scenarios for business rule validation](#scenarios-for-business-rule-validation).
 
 ## Add a new business rule
 
