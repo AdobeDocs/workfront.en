@@ -138,6 +138,12 @@ IF(
    * Risk
    * Rate card
    * Assignment
+   * User
+   * Role
+   * Hour
+   * Template
+   * Time Off
+   * Resource Pool
 
 1. Type the **Name** for the business rule on the rule builder dialog.
 1. In the **Is Active** field, select whether the rule should be active when you save it.

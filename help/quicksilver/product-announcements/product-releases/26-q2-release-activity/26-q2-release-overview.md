@@ -310,13 +310,11 @@ There are no updates for the following at this point in the release:
 
 ## Desktop proofing viewer updates
 
-### Version 2.1.54
+### Version 2.1.55
 
-**Production release for all customers: December 11, 2025**
+Production release for all customers: March 19, 2025
 
-The Desktop Proofing Viewer has been updated to from 2.1.52 to 2.1.54. This update included internal tooling updates and did not impact end-user functionality.
-
-The 2.1.53 version also included internal tooling changes. 
+The Desktop Proofing Viewer has been updated to from 2.1.54 to 2.1.55. This update included internal tooling updates and did not impact end-user functionality.
 
 This update is for both Mac and Windows.
 
