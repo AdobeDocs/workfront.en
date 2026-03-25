@@ -54,7 +54,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Custom Quarters removed from Project Preferences</a><p>BWe have moved the Custom Quarter area from the Project Preferences section. It is now a standalone section in Setup.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Custom Quarters removed from Project Preferences</a><p>We have moved the Custom Quarter area from the Project Preferences section. It is now a standalone section in Setup.</p>
         </td>
         <td><p>March 5, 2026</p></td>
         <td><p>April 15, 2026</p></td>
@@ -310,13 +310,11 @@ There are no updates for the following at this point in the release:
 
 ## Desktop proofing viewer updates
 
-### Version 2.1.54
+### Version 2.1.55
 
-**Production release for all customers: December 11, 2025**
+Production release for all customers: March 19, 2025
 
-The Desktop Proofing Viewer has been updated to from 2.1.52 to 2.1.54. This update included internal tooling updates and did not impact end-user functionality.
-
-The 2.1.53 version also included internal tooling changes. 
+The Desktop Proofing Viewer has been updated to from 2.1.54 to 2.1.55. This update included internal tooling updates and did not impact end-user functionality.
 
 This update is for both Mac and Windows.
 
