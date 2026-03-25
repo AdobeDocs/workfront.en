@@ -55,6 +55,16 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. Click **New Custom Form.**
 1. Select which object types you'd like to attach the custom form to, then click **Continue**.
 
+<div class="preview">
+
+   Sample image in the Preview environment:
+
+   ![Choose object types](assets/new-custom-form-select-objects-032526.png)
+
+</div>
+
+   Sample image in the Production environment:
+
    ![Choose object types](assets/new-custom-form-select-objects.png)
 
 +++ Expand to view the list of objects that support custom forms.
@@ -86,9 +96,10 @@ If you are on the Workflow Ultimate package, you can also create custom forms fo
 +++
 
 1. In the **Add a form name** area, type the custom form title.
+1. <span class="preview">(Optional) If you want to add more object types to the form so that it can be attached to more objects, click **Object Types** in the form designer header. Select the object types you want to add, and de-select any object types you want to delete from the form.</span>
 1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the **Add** icon ![Add objects icon](assets/add-objects-icon.png) next to **Object Types**, then select the type you want in the menu that displays. You can repeat this to add as many object types as you want. 
    
-    Once you have more than one object added to the form, you can click the X on an object type to delete it from the form. 
+    Once you have more than one object added to the form, you can click the X on an object type to delete it from the form.
 
    >[!CAUTION]
    >
