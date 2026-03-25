@@ -54,10 +54,10 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-users}}
 
-1. Select the user that you want to view, create, or edit a business profile for.
+1. Select the user that you want to add a business profile for.
 1. In the left navigation of that user's page, click **Business profiles**.
 1. Click **Add Business Profile**.
 1. Select the access level that this business profile represents. 
 1. Select the group that this business profile applies to. 
 1. (Optional) To set start or end dates for this access, select those dates in the date picker.
-1. Click Save.
+1. Click **Save**.
