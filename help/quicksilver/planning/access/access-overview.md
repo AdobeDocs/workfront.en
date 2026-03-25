@@ -10,7 +10,7 @@ exl-id: 99fac041-a235-4991-b826-d19944164bc9
 
 # Adobe Workfront Planning access overview
 
-<!--updated for STA on 2026-->
+<!--updated for STA in 2026-->
 
 <!--
 do not use the snippet for IMPORTANT , as it links to this article

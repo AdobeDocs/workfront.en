@@ -10,7 +10,7 @@ exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
 
 # License type overview when using Adobe Workfront Planning
 
-<!--updated for STA on 2026-->
+<!--updated for STA in 2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
