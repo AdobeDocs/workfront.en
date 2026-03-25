@@ -4,7 +4,7 @@ product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Grouping: Project Sponsor for a Task List'
 description: This task grouping allows you to group tasks by the Project Sponsor.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2d8f85ea-492e-4b08-82f5-726170acc7d5
 ---

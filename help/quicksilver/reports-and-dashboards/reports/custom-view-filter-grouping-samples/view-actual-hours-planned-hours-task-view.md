@@ -4,7 +4,7 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View: Actual Hours over Planned Hours in the same column of a task View'
 description: In this task view, the actual amount of hours recorded on a task are displayed over the hours planned for each task. The Hours Variance between the Planned and the Actual Hours also displays in a separate column. 
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c1179283-dc2e-40d3-b8e0-4b1b79f83ad3
 ---

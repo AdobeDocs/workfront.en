@@ -3,7 +3,7 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Create a report
 description: The information in this article has moved.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 076ee364-6ee7-4b50-ad38-54aebaf56036
 ---

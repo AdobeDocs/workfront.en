@@ -3,7 +3,7 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Edit a dashboard
 description: The purpose of the dashboard is to provide quick access to information. You can populate a dashboard with reports, calendars, and exernal pages.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
 ---

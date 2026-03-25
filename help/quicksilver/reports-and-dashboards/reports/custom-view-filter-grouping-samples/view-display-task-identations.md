@@ -4,7 +4,7 @@ product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View: Display Task Indentations in a Task List'
 description: In this task view, you can add code to the Task Name column to display the tasks indented according to the Work Breakdown Structure of the project.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
 ---

@@ -1,7 +1,7 @@
 ---
 title: Second Quarter 2024 Home enhancements
 description: Second Quarter 2024 Home enhancements
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: df78f09c-7855-4538-abda-421a7a4bc225

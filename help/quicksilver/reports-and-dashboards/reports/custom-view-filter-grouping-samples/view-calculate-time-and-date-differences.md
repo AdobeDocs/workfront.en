@@ -4,7 +4,7 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View: Calculate Time and Date Differences'
 description: Learn to calculate time and date differences.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
 ---
