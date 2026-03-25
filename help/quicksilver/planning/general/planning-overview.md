@@ -15,9 +15,9 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 >[!IMPORTANT]
@@ -69,6 +69,22 @@ After your organization purchases a Workfront Planning package, as a Workfront a
 
 * Assign users a Workfront license and Workfront Planning permissions that would allow them to either view or create objects in Workfront Planning. For more information about granting access to and enabling others to use Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 -->
+
+## Adobe Workfront Planning package overview
+
+Your company might purchase one of the following packages: 
+
+* An Adobe Workfront Planning package
+* An Adobe Workfront or Workflow package in addition to an Adobe Workfront Planning package
+
+You can access some Workfront Planning capabilities only when your company has also purchased a Workfront or Workflow package. 
+
+The following features are available only for customers who have both Workfront Planning and Adobe Workfront or Workflow: 
+
+* Connections to Workfront objects
+* Adding existing fields from Workfront
+* Configure automations to create Workfront objects
+* Add Workfront objects to workspace hierarchies
 
 ## Workfront Planning terminology
 
@@ -230,9 +246,9 @@ After you establish a connection between the record types or the record and obje
 
 ### Lookup fields
 
-After you establish the connection between two record types and you connect individual records together, you can reference the fields from the connected records from the record you are connecting from.
+After you establish the connection between two record types and you connect individual records of those types, you can reference the fields from one connected record to another.
 
-For example, if you connect a Campaign record type with a Workfront Project object type, you can display the Budget field of connected projects on the campaign records. 
+For example, if you connect a Campaign record type with a Product record type, you can display the Product Type field on a campaign connected to a product. 
 
 ![Add lookup fields box](assets/add-lookup-fields-modal.png)
 
@@ -242,11 +258,11 @@ For example, if you connect a Campaign record type with a Workfront Project obje
 >
 >   * Created by
 >   * Last modified by
->   * Workfront typeahead fields (including fields like Project Owner, or Project Sponsor)
->
 >* You cannot add the following field types as lookup fields from the connected record or object type in Production, <span class="preview">but you can add them in the Preview environment:</span>
 >
->   * People
+>   * <span class="preview">People</span>
+> * If your company purchased a Workfront or a Workflow package, in addition to a Planning package, you cannot add Workfront typeahead fields (including fields like Project Owner, or Project Sponsor) in the Production environment. <span class="preview">You can add People fields (like Project Owner or Sponsor) in the Preview environment. </span>
+> 
 
 For information about connecting record types, records, and creating linked fields, see the following articles:
 
@@ -310,27 +326,25 @@ For more information, see [Create and manage a request form in Adobe Workfront P
 
 ## Locate Adobe Workfront Planning
 
-To locate Adobe Planning, ensure that your organization has received access to Workfront Planning and that your system or group administrator has added the Planning area to your Main Menu. For information, see [Adobe Planning access overview](/help/quicksilver/planning/access/access-overview.md).
+Locating Workfront Planning depends on which packages your organization has purchased. 
 
-To locate Workfront Planning:   
+1. (Conditional) If your organization purchased a Workfront or Workflow package in addition to a Planning one ensure that your organization has received access to Workfront Planning and that your system or group administrator has added the Planning area to your Main Menu. 
+
+    For information, see [Adobe Planning access overview](/help/quicksilver/planning/access/access-overview.md).
 
 1. Log in to Workfront. 
 
-{{step1-click-main-menu-shell-only}}
+1. (Conditional) If your organization purchased only a Workfront Planning license, the Planning area opens by default. 
 
-1. Click **Planning** ![Planning icon](assets/planning-icon.png).
+    Otherwise, click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Planning** ![Planning icon](assets/planning-icon.png).
 
     The Workfront Planning main page opens. 
 
     ![Planning landing page admin](assets/planning-landing-page-admin.png)
 
-    >[!TIP]
-    >
-    >    Your Workfront administrator can add the Planning area to the Select landing page option in your layout template, so you can open Planning as soon as you log in to Workfront. For information, see [Customize the landing page using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md). 
-
 1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
     * **Workspaces I'm on**: Displays workspaces that you created or workspaces that are shared with you.
-    * **Other workspaces**: Displays all other workspaces in the system.
+    * **All workspaces**: Displays all other workspaces in the system.
 
     For all other users, both workspaces that they created or are shared with them display in the **Workspaces** area.
 
@@ -355,7 +369,7 @@ To locate Workfront Planning:
         For information, see the following articles: 
 
         * [Create records](/help/quicksilver/planning/records/create-records.md)
-        * [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+        * [Create fields](/help/quicksilver/planning/fields/create-fields.md)
 
 ## Additional resources for Workfront Planning
 
