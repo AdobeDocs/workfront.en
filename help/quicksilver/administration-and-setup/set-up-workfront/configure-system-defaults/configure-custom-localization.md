@@ -61,6 +61,8 @@ Consider the following when configuring localization:
 * Localization applies to custom field labels (including when used as a column header) and tooltips.
 * Custom localization can apply to messages generated from Business Rules, but must be enabled in the Business Rule.
 
+   For instructions, see [Enable localization in a Business Rule](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md#using-custom-localization-with-business-rules) in the article Create and edit business rules.
+
 ## Configure translations
 
 Translations are configured in the Setup area.
@@ -72,23 +74,3 @@ Translations are configured in the Setup area.
 1. In the column for the language that you want the term to be translated, enter the term in the target language.
 1. To translate the word into additional languages, add the translation into the appropriate language column.
 1. To reorder language columns, click the header of a column you want to move and drag it to the desired location.
-
-## Enable localization in a Business Rule
-
-You must enable translation of a business rule message in the business rule. If translation is not enabled, the message appears to the reader in English, even if the message text is in the Localization list and the user's browser is set to the appropriate language.
-
-1. Begin configuring a Business Rule.
-1. When configuring the rule, insert the word TRANSLATE before the message, and enclose the message in parentheses.
-
->[!BEGINSHADEBOX]
-
-Example:
-
-This example assumes that the message "You cannot edit completed projects" is included in the localization area of Setup, and that the user's browser is set to the localized language.
-
-* `IF({status} = "CPL", "You cannot edit completed projects.") `
-The message appears in English.
-* `IF({status} = "CPL", TRANSLATE("You cannot edit completed projects."))`
-The message appears in the localized language.
-
->[!ENDSHADEBOX]
