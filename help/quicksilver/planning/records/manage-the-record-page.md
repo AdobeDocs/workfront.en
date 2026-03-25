@@ -184,7 +184,7 @@ To add a section to a record preview or page:
 
     Or 
     
-    From the table table view, click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) in the first column. 
+    From the table view, click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) in the first column. 
     
     <span class="preview">The record's preview opens in the view.</span>
 
@@ -276,19 +276,23 @@ To add a section to a record preview or page:
    * Select the **Show all fields** setting to view all fields from the record's table view, including the hidden ones. 
    * Deselect the **Show all fields** setting to view only fields that are not hidden in the record's table view. This is the default setting
 
+      <!--
+      replace with this when they fix the UI text:
+      * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+      * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
+      -->
+
    </div>
+
+      >[!TIP]
+      >
+      ><span class="preview">The **Show all fields** setting is available only in the record's Details preview box. It is not available in the record's Details page.</span>
+1. (Optional) If you want to navigate to a connected record, click the name of that record in the breadcrumb at the top of the details page. 
 
    >[!TIP]
    >
-   ><span class="preview">The **Show all fields** setting is available only in the record's Details preview box. It is not available in the record's Details page.</span>
-
-
-   <!--replace with this when they fix the UI text:
-   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
-   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
-   -->
-
-   </div> 
+   >You must have connected record types, records, and hierarchies in your workspace to be able to see breadcrumbs in the record's details page. 
+   
 
 1. (Optional) Click the **Open in new tab** icon ![Open details box in a new tab icon](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
 

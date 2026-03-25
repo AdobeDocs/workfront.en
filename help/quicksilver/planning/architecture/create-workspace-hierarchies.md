@@ -16,7 +16,9 @@ exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
 
 As a workspace manager, you can create multiple workspace hierarchies between record types in Adobe Workfront Planning. 
 
-After record types are connected within a workspace, you can create a hierarchy that organizes those connections. Hierarchies organize record and object types into parent–child relationships and can contain up to four levels of object types. 
+After record types are connected within a workspace, you can create a hierarchy that organizes those connections. 
+
+Hierarchies organize record and object types into parent–child relationships and can contain up to 4 object types each. You can create up to 5 hierarchies in one workspace.
 
 If a connection between two record types does not already exist, it can be created as you set up the hierarchy. Once defined, the hierarchy establishes a structured path across related record types within the workspace.
 
@@ -64,8 +66,6 @@ Or
 +++
 
 ## Create a workspace hierarchy
-
-You can create up to 5 hierarchies in one workspace. 
 
 {#step1-to-planning}
 
@@ -152,6 +152,10 @@ You can create up to 5 hierarchies in one workspace.
 
    * **Edit**: This opens the **Edit hierarchy** box where you can make changes. 
    * **Delete**: This deletes the hierarchy permanently. Deleted hierarchies cannot be recovered. Connection fields are not deleted. 
+
+1. (Optional) Click the name of the last record type in your hierarchy, then the name of a record from that record type's view to find the hierarchy you created in the breadcrumb of a record. 
+
+   For more information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md). 
 
 
 

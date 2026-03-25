@@ -72,12 +72,13 @@ The following are benefits of using hierarchies in your workspaces:
 
 When you create hierarchies between record types, they generate breadcrumbs for records that belong to those record types. 
 
-For example, if you create a hierarchy and connect Campaigns with Tactics, then with Activities, and then with Projects, when you navigate to a record of any of the types connected in the hierarchy, you can view where in the hierarchy the record is placed. 
+For example, if you create a hierarchy and connect Campaigns with Tactics, then with Activities, when you navigate to a record of any of the types connected in the hierarchy, you can view where in the hierarchy the record is placed. If the record displays in multiple workspaces, you can view the paths in each workspace <span class="preview">starting with the workspace name in the breadcrumb.</span>
 
-![Breadcrumb](assets/breadcrumbs-on-project.png)
+![Breadcrumb](assets/breadcrumbs-on-activities-planning-only.png)
 
 Consider the following: 
 
+* Breadcrumbs display in the preview area of a record, as well as in the records details page. 
 * If a record type is part of multiple hierarchies, you can switch between hierarchies from the record's breadcrumb on the record's page.
 * If the record type in a hierarchy has multiple records, you can select records from the breadcrumb. 
 * Breadcrumbs work across Workfront and Planning. 
