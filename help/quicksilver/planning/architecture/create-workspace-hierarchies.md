@@ -153,7 +153,7 @@ Or
    * **Edit**: This opens the **Edit hierarchy** box where you can make changes. 
    * **Delete**: This deletes the hierarchy permanently. Deleted hierarchies cannot be recovered. Connection fields are not deleted. 
 
-1. (Optional) Click the name of the last record type in your hierarchy, then the name of a record from that record type's view to find the hierarchy you created in the breadcrumb of a record. 
+1. (Optional) Click the name of the last record type in your hierarchy, then the name of a record from that record type's view. This opens the record's details page. Find the hierarchy you created in the breadcrumb of a record at the top of the record's page. 
 
    For more information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md). 
 
