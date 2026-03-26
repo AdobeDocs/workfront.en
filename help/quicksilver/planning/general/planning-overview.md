@@ -280,7 +280,7 @@ You can create custom fields of the following types:
 * Last modified date
 * Approved by
 * Approved date
-<!--*<span class="preview">Record ID</span>-->
+* <span class="preview">Record ID</span>
 <!--update the screen shot above-->
 
 ### Connected record types, records and fields

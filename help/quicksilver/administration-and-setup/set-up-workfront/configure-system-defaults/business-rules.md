@@ -185,6 +185,7 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * Risk
    * Rate card
    * Assignment
+<!--
    * <span class="preview">Job role</span>
    * <span class="preview">Non-labor resource category</span>
    * <span class="preview">Resource Pool</span>
@@ -194,6 +195,19 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * <span class="preview">Template</span>
    * <span class="preview">Staffing Plan Resource</span>
    * <span class="preview">Team</span>
+-->
+   * User
+   * Role
+   * Hour
+   * Template
+   * Time Off
+   * Resource Pool
+
+1. Type the **Name** for the business rule on the rule builder dialog.
+1. In the **Is Active** field, select whether the rule should be active when you save it.
+
+   If you select **No**, the rule is saved as inactive, and you can activate it later.
+
 1. Select a **Trigger** for the business rule. The options are:
 
    * **Created** The rule is applied when a user attempts to create an object.

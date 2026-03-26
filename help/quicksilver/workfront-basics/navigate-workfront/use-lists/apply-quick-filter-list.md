@@ -3,7 +3,7 @@ navigation-topic: use-lists
 title: Apply the Quick Filter to a List
 description: You can use the quick filter in a list of objects to help you locate only items that are important to you, so you can quickly review, update, or share them with others.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
 ---
 # Apply the quick filter to a list

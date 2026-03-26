@@ -1,7 +1,7 @@
 ---
 title: Other enhancements during the Third Quarter 2024 release timeframe
 description: Other enhancements during the Third Quarter 2024 release time frame
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066

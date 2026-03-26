@@ -1,7 +1,7 @@
 ---
 title: Fourth Quarter 2024 Report and Dashboard enhancements
 description: Fourth Quarter 2024 Report and Dashboard enhancements
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4b7b926-f747-4aee-b983-fe6b5f2e0dfd

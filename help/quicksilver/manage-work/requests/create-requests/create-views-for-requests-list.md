@@ -15,9 +15,6 @@ exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
-
-
-
 If you are using the new requesting experience in Adobe Workfront, you can create and save views for the Requests area. These views include filters, and column arrangements. 
 
 <!--<span class="preview"> and groupings.</span>-->
@@ -41,7 +38,10 @@ If you are using the new requesting experience in Adobe Workfront, you can creat
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any </p> </td> 
+   <td> <p>Any Workfront or Workflow package</p>
+   
+   <p>Any Worfront Planning license, to view Workfront Planning requests in request lists</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -53,10 +53,12 @@ If you are using the new requesting experience in Adobe Workfront, you can creat
    <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Issues</p>  <p>You must be a Workfront administrator to add views to layout templates</td> 
   </tr> 
+  <!--
   <tr> 
    <td role="rowheader"> Product</td> 
    <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
-  </tr> 
+   </tr> 
+   -->
  </tbody> 
 </table>
 

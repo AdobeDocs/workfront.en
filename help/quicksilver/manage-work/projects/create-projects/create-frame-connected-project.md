@@ -137,7 +137,7 @@ Once you create a template, you can use it to create projects.
 
 1. In the project header, change the project from **Planning** to **Current**. 
 
-After the project is created and creatives upload finished assets, you can assign a review and approval workflow to the asset in Workfront. For more information, see [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
+After the project is created and creatives upload finished assets, you can assign a review and approval workflow to the asset in Workfront. For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
 
 ## Create a new project from scratch
 
@@ -205,5 +205,3 @@ Workfront has robust project management capabilities. We recommend using the [Ed
 After the project is created and creatives upload finished assets, you can assign a review and approval workflow to the asset in Workfront. 
 
 After the project is created and creatives upload finished assets, you can assign a review and approval workflow to the asset in Workfront.
-
-For more information, see [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
