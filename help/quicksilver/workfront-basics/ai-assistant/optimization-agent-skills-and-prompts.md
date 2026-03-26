@@ -29,7 +29,7 @@ For more information on Agent Orchestrator, see [Adobe Experience Platform Agent
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>Standard</p>
+   <td><p>Standard or Light</p>
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
