@@ -1835,6 +1835,8 @@ feature-set: Workfront
     * [Update work items in the Workload Balancer using the Summary](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * Review and approve work {#review-and-approve-work}
   * [Review and approve work](review-and-approve-work/review-and-approve-work.md)
+  * [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+  * [Get started with Unified review and approval](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
   * [Limited document and proof decision for non-paid users overview](review-and-approve-work/proof-doc-decision-limits.md)
   * Work approvals {#work-approvals}
     * [Work approvals](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -1851,7 +1853,6 @@ feature-set: Workfront
   * Unified approvals {#document-reviews-and-approvals}
     * [Unified document approvals: article index](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
     * [Available functionality for document approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
-    * [Unified Approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
     * [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
     * [Get Started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
     * [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md)
@@ -1990,8 +1991,6 @@ feature-set: Workfront
       * [Proof versions cannot be downloaded or previewed when an interactive proof is added as a new version](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
   * Native integrations {#native-integrations}
     * [Review and approval native integrations: article index](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
-    * [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
-    * [Get started with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
     * [Get started with the GenStudio for Performance Marketing and Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
     * [Get started with the proofing and Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
     * [Get started with the proofing and GenStudio for Performance Marketing integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
