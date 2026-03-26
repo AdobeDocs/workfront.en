@@ -101,10 +101,12 @@ A Workfront administrator must create the following components of a Request Queu
 
 When you create a request in the Workfront web app, Workfront saves the request as a draft before you submit it. Workfront creates a draft as soon as you select your request queue and start entering information for it.
 
-You can continue submitting the request, or you can complete as much information as you have available and navigate away from it to finish it later. Workfront saves the drafted request that you started. You can find them in:
+You can continue submitting the request, or you can complete as much information as you have available and navigate away from it to finish it later. Workfront saves the drafted request that you started. 
+
+You can find drafted requests in the following areas of the following requesting experiences:
 
 * New requesting experience: The requests list
-* Legacy requesting experience: The Drafts folder
+* Legacy requesting experience: The Drafts folder of the requests list. 
 
 >[!IMPORTANT]
 >
@@ -113,8 +115,9 @@ You can continue submitting the request, or you can complete as much information
 >* Workfront does not create draft requests when you submit them from a third-party application, like emailing them into Workfront, or creating them using any another application. When you submit a request from outside the Workfront web app the request is saved in  the Submitted section.  
 >* If the structure of a request queue changes, you can no longer access existing drafts. For example, if a queue topic is removed, or a topic group is added, the saved drafts are no longer accessible. 
 >
+>* Drafts are never deleted. They are kept in Workfront until you either submit them and they become submitted requests or you delete them. 
 
-For information about creating requests from existing drafts, see [Create requests from drafts](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). For information about deleting request drafts, see also [Delete a request draft](../../../manage-work/requests/create-requests/delete-request-draft.md).
+For information about creating requests from existing drafts, see [Create requests from drafts](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). For information about deleting request drafts, see also [Delete a submitted request or request draft](../../../manage-work/requests/create-requests/delete-request-draft.md).
 
 To create a request in the Workfront web app: 
 
