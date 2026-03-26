@@ -9,7 +9,9 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 ---
 # Get started with Adobe Workfront Planning
 
-<!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
+<!--
+this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page
+-->
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
@@ -100,7 +102,8 @@ The following features are currently available in Workfront Planning:
 
 -->
 
-<!--OLD: 
+<!--
+OLD: 
 
 |       Feature                                      |     Available now  |     Coming soon   |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -281,6 +284,7 @@ You can create custom fields of the following types:
 * Approved by
 * Approved date
 * <span class="preview">Record ID</span>
+
 <!--update the screen shot above-->
 
 ### Connected record types, records and fields
@@ -330,11 +334,13 @@ For information about connecting record types, records, and creating linked fiel
 * [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [Connect records](/help/quicksilver/planning/records/connect-records.md)
 
-<!--not yet:* Fields are reusable across Record Types.  -->
+<!--
+not yet:* Fields are reusable across Record Types.
+-->
 
 ### Hierarchies
 
-After record types are connected within a workspace, you can create a hierarchies that organize those connections. Hierarchies organize record and object types into parent–child relationships and can contain up to four levels of object types. 
+After record types are connected within a workspace, you can create hierarchies that organize those connections. Hierarchies organize record and object types into parent–child relationships and can contain up to four object types. 
 
 ![Hierarchies in the workspace Settings area](assets/hierarchies-in-workspace-settings-area.png)
 
@@ -365,7 +371,9 @@ The following are view types that you can apply to the record type page:
 * **Calendar view**: Displays records that have at least two Date-type fields in a calendar format. 
 ![Calendar view example](assets/calendar-view-example.png)
 
-<!-- add List view here when it's possible to display Planning RTs in it??-->
+<!--
+add List view here when it's possible to display Planning RTs in it??
+-->
 
 For more information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
 
@@ -442,7 +450,8 @@ To locate Workfront Planning:
     <!--
     >[!NOTE]
     >
-    >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
+    >The Workfront AI Assistant has been temporarily removed and it will be available at a later date.
+    -->
 
 * [Adobe Workfront Planning modules for Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): With the Adobe Workfront Planning modules, you can trigger a scenario when events occur in Workfront Planning. You can also create, read, update, and delete records, or perform a custom API call to your Adobe Workfront Planning account.
 
