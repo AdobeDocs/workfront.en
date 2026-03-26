@@ -287,7 +287,7 @@ To add a section to a record preview or page:
       >[!TIP]
       >
       ><span class="preview">The **Show all fields** setting is available only in the record's Details preview box. It is not available in the record's Details page.</span>
-1. (Optional) If you want to navigate to a connected record, click the name of that record in the breadcrumb at the top of the details page. 
+1. (Optional) If you want to navigate to a connected record, click the name of that record in the breadcrumb at the top of the details page. <span class="preview">If you cannot see the name of a record in the breadcrumb, click **More**. This displays the breadcrumb on multiple rows. Click **Less** to shorten the breadcrumb and display it on one row.</span>   
 
    >[!TIP]
    >
