@@ -11,15 +11,23 @@ exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 ---
 # Create and edit business rules
 
+<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
+-->
+
 A business rule allows you to apply validation to Workfront objects and prevent users from creating, editing, or deleting an object when certain conditions are met. Business rule validation helps to improve data quality and operational efficiency by preventing actions that could compromise data integrity.
+
+<!--
 
 <div class="preview">
 
 Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object, notifying a user, or attaching a custom form to the object.  
 
 </div>
+
+-->
 
 A single business rule can be assigned to only one object. For example, if you create a business rule for not editing projects under certain conditions, you can't apply the same rule to tasks. You would have to create a separate business rule with the same conditions for tasks.
 
@@ -125,6 +133,9 @@ IF(
 )
 ```
 
+
+<!--
+
 ## Scenarios for business rule automation
 
 >[!NOTE]
@@ -148,6 +159,8 @@ IF({status} = "APR", true)
 ```
 
 You can use wildcards in business rule actions, as described in the section [Scenarios for business rule validation](#scenarios-for-business-rule-validation).
+
+-->
 
 ## Add a new business rule
 
@@ -185,6 +198,12 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * Risk
    * Rate card
    * Assignment
+   * User
+   * Role
+   * Hour
+   * Template
+   * Time Off
+   * Resource Pool
 <!--
    * <span class="preview">Job role</span>
    * <span class="preview">Non-labor resource category</span>
@@ -196,12 +215,6 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * <span class="preview">Staffing Plan Resource</span>
    * <span class="preview">Team</span>
 -->
-   * User
-   * Role
-   * Hour
-   * Template
-   * Time Off
-   * Resource Pool
 
 1. Type the **Name** for the business rule on the rule builder dialog.
 1. In the **Is Active** field, select whether the rule should be active when you save it.
@@ -223,7 +236,7 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * The "object" is the object type you selected when creating the business rule. It is displayed in the heading of the dialog.
    * The "action" is the trigger you selected for the rule: create, edit, or delete the object.
    * Because the object and the action are already defined, you do not include them in the formula.
-   * The custom error message <span class="preview">is included only if the rule is for validation, and </span> is displayed to the user when they trigger the business rule. It should provide clear instructions on what went wrong and how to correct the issue.
+   * The custom error message <!--<span class="preview">is included only if the rule is for validation, and </span>--> is displayed to the user when they trigger the business rule. It should provide clear instructions on what went wrong and how to correct the issue.
 
      You can include a static URL in the error message, to link to documentation or other helpful pages to guide the user on how to modify their action within the constraint of the rule.
 
@@ -245,6 +258,8 @@ You can use wildcards in business rule actions, as described in the section [Sce
 
    For other packages, this option is pre-selected.
 
+<!--
+
 1. (Conditional) To automate another action,, select the action. 
 
    For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.
@@ -253,11 +268,17 @@ You can use wildcards in business rule actions, as described in the section [Sce
    >
    >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
 
+   -->
+
 1. Click **Save** when you are finished building the business rule.
 
 >[!NOTE]
 >
 >After you add a business rule, you should test it by adding, editing, or deleting the associated object to make sure the rule is applied properly.
+
+<!--
+
+<div class="preview">
 
 ### Business rule automation options
 
@@ -272,7 +293,7 @@ You can set these actions to automate when the business rule is triggered. Avail
 |Attach a custom form|Select the custom form that you want to add|
 |Share the object|Select the people, roles, groups, companies, or access levels that you want to share the object with.|
 
-<!--Follow up on sending a notification-->
+-->
 
 ## Activate a business rule
 
