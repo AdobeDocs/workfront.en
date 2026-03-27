@@ -17,7 +17,7 @@ A business rule allows you to apply validation to Workfront objects and prevent 
 
 <div class="preview">
 
-Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object, notifying a user, or attaching a custom form to the object.  
+Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object or attaching a custom form to the object.  
 
 </div>
 
@@ -271,8 +271,6 @@ You can set these actions to automate when the business rule is triggered. Avail
 |---|---|
 |Attach a custom form|Select the custom form that you want to add|
 |Share the object|Select the people, roles, groups, companies, or access levels that you want to share the object with.|
-
-<!--Follow up on sending a notification-->
 
 ## Activate a business rule
 
