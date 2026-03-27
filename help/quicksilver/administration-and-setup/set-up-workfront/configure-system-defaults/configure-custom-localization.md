@@ -9,7 +9,7 @@ role: Admin
 ---
 # Configure custom localization
 
-Custom localization allows you to define custom terms and phrases in different languages. Workfront then displays these terms in the language set in the browser settings.
+Custom localization allows you to define custom terms and phrases in different languages. Workfront then displays these terms in the language set in the user's Adobe Identity Managment (IMS) settings. If the user is not on Adobe IMS, the terms are displayed in the language set in the user's browser settings.
 
 For example, you can set the label "Target Audience" to translate to the German word "Zielgruppe." Any user with German selected as their browser's main language sees the word "Zielgruppe" as a label for any fields labeled "Target Audience" in English.
 
