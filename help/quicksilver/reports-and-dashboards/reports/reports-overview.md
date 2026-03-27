@@ -4,7 +4,7 @@ product-area: reporting
 navigation-topic: reports-and-dashboards
 title: Reports
 description: Review these areas to learn about reporting in Adobe Workfront.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1

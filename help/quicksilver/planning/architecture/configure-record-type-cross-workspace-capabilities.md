@@ -8,11 +8,15 @@ recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
 ---
 
-<!--*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTICLE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************-->
+<!--
+*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTICLE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************
+-->
 
 # Configure cross-workspace capabilities for record types
 
-<!--this article is linked to the UI in the Advanced settings/ Cross-workspace settings tab - do not delete or change the URL-->
+<!--
+this article is linked to the UI in the Advanced settings/ Cross-workspace settings tab - do not delete or change the URL
+-->
 
 {{planning-important-intro}}
 
@@ -70,7 +74,25 @@ Or
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p>
+   <td>
+   <p>In the Production environment: </p>
+   <p>To make a record global:</p>
+   <ul><li>Standard or higher</li></ul>
+   <p>To make a record connectable:</p>
+   <ul><li>System Administrator</li></ul>
+
+   <div class="preview">
+
+   <p>In the Preview environment:</p>
+   <p>To make a record global:</p>
+   <ul><li>Standard or higher</li></ul>
+   <p>To make a record connectable:</p>
+     
+   <ul><li>Standard to make a record connectable from specific workspaces</li>
+   <li>System Administrator to make a record connectable from all workspaces</li></ul>
+   </div>
+   
+   
    </td> 
   </tr> 
   <tr> 
@@ -85,8 +107,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++   
 
-<!--Old:
-
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -95,7 +117,6 @@ For more information about Workfront access requirements, see [Access requiremen
 <tbody> 
     <tr> 
 <tr> 
-
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
@@ -122,12 +143,15 @@ And
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
 </tbody> 
-</table> -->
+</table>
+-->
 
 
 ## Configure global record types
 
-<!--this is a UI term; don't change the title of this section-->
+<!--
+this is a UI term; don't change the title of this section
+-->
 
 As a workspace manager, you can configure a record type to be a global record type. A global record type can be added to other workspaces. 
 
@@ -238,20 +262,17 @@ To configure a record type as global:
 
    Or, if you clicked **Settings**, click the **Cross-workspace settings** section in the left panel.
    
-1. Enable the **Allow connecting to this record type in other workspaces** setting. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
-
-   <!-- add new screen shot with new tab name-->
+1. Enable the **Allow connecting to this record type in other workspaces** setting. 
 
    ![Edit record type Cross-workspace settings tab with connect from other workspaces enabled](assets/edit-record-type-box-cross-workspace-settings-connectable-record-type-enabled.png)
 
    When enabled, the record type is accessible and can be connected to from other workspaces.
 
-1. Choose from which workspaces the record type can be accessed. Choose from the following options:
+1. <span class="preview">(Conditional) Depending on which license you have,</span> choose from which workspaces the record type can be accessed. Choose from the following options:
 
-   <!--check names of the setting: System wide?? OR All workspaces??-->
-
-   * **All workspaces**: Users can connect to this record type from all workspaces where they have Manage permissions.
+   * **All workspaces**: Users can connect to this record type from all workspaces where they have Manage permissions. <span class="preview">This option is dimmed for workspace managers with a Standard license. Only System Administrators can turn on connecting record types from all workspaces.</span>
    * **Specific workspaces**: From the drop-down menu, add the names of the workspaces where workspace managers can connect to this record type.
+
 1. (Conditional) Click **Save** in the **Edit record type** box, or click the back arrow to the left of **Settings** in the page header to save your changes.
 
    The following things occur:

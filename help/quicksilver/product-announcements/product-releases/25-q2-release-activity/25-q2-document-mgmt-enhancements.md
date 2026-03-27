@@ -1,7 +1,7 @@
 ---
 title: Second Quarter 2025 Project enhancements
 description: Second Quarter 2025 Project enhancements
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 32c0df18-2093-42c2-810a-015345d2fa7c

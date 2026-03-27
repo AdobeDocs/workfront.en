@@ -34,7 +34,7 @@ You can filter a report by the timeframe of a date that exists on an object. For
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>Edit access to Reports, Dashboards, Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p></td> 
+   <td> <p>Edit access to Reports, Dashboards, Calendars</p> <p>Edit access to Filters, Views, Groupings</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -84,22 +84,22 @@ For more information on creating reports, see [Create a report](../../../reports
 
      <tr> 
       <td role="rowheader">Less Than</td> 
-      <td>After selecting this modifier, specify a&nbsp;date before which the hours were entered. The report shows hours entered before the specified date, not including the specified date.</td> 
+      <td>After selecting this modifier, specify a date before which the hours were entered. The report shows hours entered before the specified date, not including the specified date.</td> 
      </tr> 
 
      <tr> 
       <td role="rowheader">Less Than Equal</td> 
-      <td>After selecting this modifier, specify a&nbsp;date before which the hours were entered. The report shows hours entered before the specified date, including the specified date.</td> 
+      <td>After selecting this modifier, specify a date before which the hours were entered. The report shows hours entered before the specified date, including the specified date.</td> 
      </tr> 
 
      <tr> 
       <td role="rowheader">Greater Than</td> 
-      <td>After selecting this modifier, specify a&nbsp;date after&nbsp;which the hours were entered. The report shows hours entered after&nbsp;the specified date, not including the specified date.</td> 
+      <td>After selecting this modifier, specify a date after which the hours were entered. The report shows hours entered after the specified date, not including the specified date.</td> 
      </tr> 
 
       <tr> 
       <td role="rowheader">Greater Than Equal</td> 
-      <td> After selecting this modifier, specify a&nbsp;date after&nbsp;which the hours were entered. The report shows hours entered after&nbsp;the specified date, including the specified date. </td> 
+      <td> After selecting this modifier, specify a date after which the hours were entered. The report shows hours entered after the specified date, including the specified date. </td> 
      </tr> 
 
      <tr> 
@@ -109,12 +109,12 @@ For more information on creating reports, see [Create a report](../../../reports
 
      <tr> 
       <td role="rowheader">Null</td> 
-      <td>Select this modifier&nbsp;to display only hours where the Entry Date is missing.</td> 
+      <td>Select this modifier to display only hours where the Entry Date is missing.</td> 
      </tr> 
 
      <tr> 
       <td role="rowheader">Not Null</td> 
-      <td>Select this modifier&nbsp;to display only hours where the Entry Date has a value.</td> 
+      <td>Select this modifier to display only hours where the Entry Date has a value.</td> 
      </tr>  
 
     </tbody> 
@@ -138,15 +138,15 @@ For example, if you are building an hour report and would like to display hours 
   </tr> 
   <tr> 
    <td role="rowheader">This Week</td> 
-   <td>Displays hours where the Entry Date is a date in the current week, where the week starts on a Sunday&nbsp;and ends on a Saturday.</td> 
+   <td>Displays hours where the Entry Date is a date in the current week, where the week starts on a Sunday and ends on a Saturday.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Next Week</td> 
-   <td>Displays hours where the Entry Date is a date in the&nbsp;week following the current week, where the week starts on a Sunday&nbsp;and ends on a Saturday.&nbsp;</td> 
+   <td>Displays hours where the Entry Date is a date in the week following the current week, where the week starts on a Sunday and ends on a Saturday. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Last Week</td> 
-   <td>Displays hours where the Entry Date is a date in the&nbsp;week prior to the current week, where the week starts on a Sunday&nbsp;and ends on a Saturday.&nbsp;</td> 
+   <td>Displays hours where the Entry Date is a date in the week prior to the current week, where the week starts on a Sunday and ends on a Saturday. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">This Month</td> 
@@ -158,7 +158,7 @@ For example, if you are building an hour report and would like to display hours 
   </tr> 
   <tr> 
    <td role="rowheader">Last Month</td> 
-   <td>Displays hours where the Entry Date is a date in the month preceding&nbsp;the current month</td> 
+   <td>Displays hours where the Entry Date is a date in the month preceding the current month</td> 
   </tr> 
   <tr> 
    <td role="rowheader">This Quarter</td> 
@@ -176,19 +176,19 @@ For example, if you are building an hour report and would like to display hours 
   </tr> 
   <tr> 
    <td role="rowheader">Last Quarter</td> 
-   <td> <p>Displays hours where the Entry Date is a date in the quarter preceding&nbsp;the current quarter, where quarters are defined above.</p> <p>Note:  If your Workfront administrator has enabled and defined custom quarters for your system, the built-in filters for quarters are replaced with your custom quarter information. For more information about enabling custom quarters, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Enable custom quarters</a>.</p> </td> 
+   <td> <p>Displays hours where the Entry Date is a date in the quarter preceding the current quarter, where quarters are defined above.</p> <p><b>NOTE</b></p>  If your Workfront administrator has enabled and defined custom quarters for your system, the built-in filters for quarters are replaced with your custom quarter information. For more information about enabling custom quarters, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Enable custom quarters</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">This Year</td> 
-   <td>Displays hours where the Entry Date is a date in&nbsp;the current year, where the current year starts on January 1 and ends on December 31.</td> 
+   <td>Displays hours where the Entry Date is a date in the current year, where the current year starts on January 1 and ends on December 31.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Past Year</td> 
-   <td>Displays hours where the Entry Date is a date in&nbsp;the past year, where the past&nbsp;year starts&nbsp;12 months prior to the current date.</td> 
+   <td>Displays hours where the Entry Date is a date in the past year, where the past year starts 12 months prior to the current date.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Last Year</td> 
-   <td> <p>Displays hours where the Entry Date is a date in&nbsp;the last&nbsp;year, where the last&nbsp;year starts&nbsp;on January 1 and ends on December 31 of the year preceding the current year.</p> <p>Note:  There is no built-in time period for fiscal year. You&nbsp;can create a&nbsp;report and filter the information by date using a custom modifier for the date range of the fiscal year, as it is defined in your organization. If you&nbsp;want to choose a timeframe for a fiscal year on the spot, then you should use a prompt instead of a filter.&nbsp;</p> </td> 
+   <td> <p>Displays hours where the Entry Date is a date in the last year, where the last year starts on January 1 and ends on December 31 of the year preceding the current year.</p> <p>Note:  There is no built-in time period for fiscal year. You can create a report and filter the information by date using a custom modifier for the date range of the fiscal year, as it is defined in your organization. If you want to choose a timeframe for a fiscal year on the spot, then you should use a prompt instead of a filter. </p> </td> 
   </tr> 
  </tbody> 
 </table>

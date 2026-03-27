@@ -1,6 +1,7 @@
 # Snippets
 
-<!-- Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
+<!-- 
+Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
 
 <!-- General -->
 
@@ -54,6 +55,10 @@
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner.
 
+## Step 1 - Click Main Menu Shell only {#step1-click-main-menu-shell-only}
+
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner.
+
 ## Step 1 - Click Main Menu then click - {#step1-click-mm-then-click}
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click
@@ -61,6 +66,8 @@
 ## Step 1 - Click your profile picture - {#step1-click-profile-pic}
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user name next to your profile picture. Or (if available), click your profile picture in the top navigation area, then click **[!UICONTROL Workfront Profile]**.
+
+<!-- Notes for Workflow packaging -->
 
 ## Note for Workflow Ultimate {#ultimate-package}
 
@@ -73,6 +80,12 @@
 >[!IMPORTANT]
 >
 >You must have the Workflow Prime or the Workflow Ultimate package to use this feature.
+
+## Note for Workflow package for the cost / billing split {#workflow-package-for-cost-billing}
+
+>[!IMPORTANT]
+>
+>You must have the Workflow Select, Prime, or Ultimate package to see separate billing and cost permissions.
 
 <!-- Admin and Setup -->
 
@@ -142,9 +155,9 @@ To set up linked folders:
 1. Choose a folder path to indicate where you want all linked folders associated with this integration to live.
 ![linked folders setup screen](/help/_includes/assets/linked-folder-setup.png)
 
-    >[!NOTE]
-    >
-    >Users need write access in Adobe Experience Manager Assets to the folder specified to create a linked folder.
+   >[!NOTE]
+   >
+   >Users need write access in Adobe Experience Manager Assets to the folder specified to create a linked folder.
 
 1. Click **Save**.
 
@@ -200,79 +213,67 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 1. (Optional) Adjust automated proof workflow settings
 
-      <table>
-      <tr>
-         <td colspan="2" ><strong>Proof stages</strong>
-         </td>
-      </tr>
-      <tr>
-         <td>Disable stages
-         </td>
-         <td>
+   <table>
+   <tr>
+      <td colspan="2" ><strong>Proof stages</strong>
+      </td>
+   </tr>
+   <tr>
+      <td>Disable stages
+      </td>
+      <td>
       <ol>
-
       <li>Toggle Select all to disable all stages. 
       <p>Or</p></li>
       <li>Toggle individual stages.</li>
-
       </ol>
-         </td>
-      </tr>
-      <tr>
-         <td>Add recipients
-         </td>
-         <td>
+      </td>
+   </tr>
+   <tr>
+      <td>Add recipients
+      </td>
+      <td>
       <ol>
-
-      <li>In the Add new recipient box, begin typing the user's name.
-
-      <li>Specify the Proof Role.
-
-      <li>Choose the type of email alerts for the recipient. 
-      </li>
+      <li>In the Add new recipient box, begin typing the user's name.</li>
+      <li>Specify the Proof Role.</li>
+      <li>Choose the type of email alerts for the recipient.</li>
       </ol>
-         </td>
-      </tr>
-      <tr>
-         <td>Set a deadline
-         </td>
-         <td>
+      </td>
+   </tr>
+   <tr>
+      <td>Set a deadline
+      </td>
+      <td>
       <ol>
-
-      <li>Choose a deadline.
-      </li>
+      <li>Choose a deadline.</li>
       </ol>
-         </td>
-      </tr>
-      <tr>
-         <td colspan="2" ><strong>Email notifications</strong>
-         </td>
-      </tr>
-      <tr>
-         <td>Notify recipients about the proof
-         </td>
-         <td>
+      </td>
+   </tr>
+   <tr>
+      <td colspan="2" ><strong>Email notifications</strong>
+      </td>
+   </tr>
+   <tr>
+      <td>Notify recipients about the proof
+      </td>
+      <td>
       <ol>
-
-      <li>Enable the checkbox to notify users when the proof is created.
-      </li>
+      <li>Enable the checkbox to notify users when the proof is created.</li>
       </ol>
-         </td>
-      </tr>
-      <tr>
-         <td>Add a custom message
-         </td>
-         <td>
+      </td>
+   </tr>
+   <tr>
+      <td>Add a custom message
+      </td>
+      <td>
       <ol>
-
       <li>Type a subject.
-
       <li>Type the custom message.
       </li>
       </ol>
-         </td>
+      </td>
       </tr>
-      </table>
+   </table>
 
 <!-- Workfront Planning -->
 
@@ -299,7 +300,8 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 > 
 >For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-<!--Old - before Oct. 15, 2025:
+<!--
+Old - before Oct. 15, 2025:
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
@@ -312,9 +314,11 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 >
 > For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 > 
->For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).-->
+>For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+-->
 
-<!--OLD: 
+<!--
+OLD: 
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
@@ -445,11 +449,11 @@ You can change which status is applied to the work item with the Done button. Yo
    >* Issue types are customizable and they might have different names than listed below in your environment.  
    >  Following are the default tasks and issue types:
    >     
-   >   * Tasks
-   >   * Issue
-   >   * Request
-   >   * Change Order
-   >   * Bug Report
+   >  * Tasks
+   >  * Issue
+   >  * Request
+   >  * Change Order
+   >  * Bug Report
 
    If the task or issue is assigned to multiple users, you see a "Done with my part" option in the drop-down menu, in addition to the multiple statuses chosen for your team.  
 
@@ -511,5 +515,4 @@ For each snippets, create a head 2 section and add an anchor, such as
 In any .md file, add {{classic-note}} where you want that shared snippet content to appear.
 
 -->
-
 

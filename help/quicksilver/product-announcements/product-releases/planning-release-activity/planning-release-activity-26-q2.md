@@ -16,6 +16,48 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Breadcrumb redesign   
+
+>[!NOTE]
+>
+>Preview: March 26, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+We have redesigned the way breadcrumbs display across record types and records. Now, when you click More in the breadcrumb line, the names of the records and objects displays on multiple lines. Prior to this enhancement, clicking More displayed the names of records and objects in drop-down menus.  
+
+For more information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+<!--
+
+## New field type for Record ID  
+
+>[!NOTE]
+>
+>Preview: March 12, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+We have added a new field type for Record ID. This is a system-generated alpha-numeric indicator which uniquely identifies each record. The field displays in any record view as well as the record details area.  
+
+For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
+
+-->
+
+## Allow non-admin users to make a record type connectable 
+
+>[!NOTE]
+>
+>Preview: March 12, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+We are now allowing non-administrators who are workspace managers to make a record type connectable from specific workspaces.  
+
+Before this update, non-administrators could not enable record types to be connectable. Now, they can enable the record types to be connectable from specific workspaces. They cannot enable record types to be connectable from all workspaces in the system. 
+
+For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
+
 ## Trigger-based automation
 
 >[!NOTE]
@@ -45,7 +87,7 @@ We are now allowing only System Administrators to choose between the following o
 
 By default, workspaces are set to the "Only invited people can access" permission. 
 
-Prior to this change, the ability to choose these workspace sharing permissions did not exit. 
+Prior to this change, the ability to choose these workspace sharing permissions did not exist. 
 
 For information, see Share workspaces (help/quicksilver/planning/access/share-workspaces.md).
 

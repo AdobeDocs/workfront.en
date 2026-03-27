@@ -3,7 +3,7 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Add a report to a dashboard
 description: You can add a report to a new or existing dashboard directly from a report. You can also add an existing report to a dashboard.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
 ---

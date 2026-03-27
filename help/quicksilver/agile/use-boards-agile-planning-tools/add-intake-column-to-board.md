@@ -4,7 +4,7 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Add an Intake Column to a Board
 description: You can optionally add an intake column to your board that automatically pulls in tasks and issues as connected cards when they are added in Workfront, based on filters that you define.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
 ---
@@ -139,8 +139,6 @@ For more detail about the information in this table, see [Access requirements in
 ## Use the intake column
 
 Cards in the intake column are not editable until you move them into other board columns. You can click on the card to open it in a read-only view, or click ![Open task or issue](assets/boards-launch-icon.png) to open the task or issue in a new browser tab.
-
-You can manually re-order the items on the intake column.
 
 The icons on the top right of the intake column show you how many cards are currently in the column, and how many filters are applied.
 
