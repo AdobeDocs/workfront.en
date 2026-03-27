@@ -10,7 +10,7 @@ exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
 ---
 # Get started with unified review and approval
 
-Unified review and approval powered by Workfront and Frame.io keeps creatives, marketers, and stakeholders aligned with a seamless workflow. Access real-time updates, avoid duplicate work, and ensure assets are approved before launch.
+Unified review and approval powered by Workfront and Frame.io keeps creatives, marketers, and stakeholders aligned with a seamless workflow. Access real-time updates, avoid duplicate work, and ensure that assets are approved before launch.
 
 For more information about Frame.io, see [Getting Started with Frame.io](https://support.frame.io/en/collections/49298-getting-started).
 
@@ -18,7 +18,7 @@ You must have the Workfront and Frame.io integration set up in your Workfront in
 
 ## Integration requirements
 
-* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
+* Workfront and Frame.io must be deployed to the same Identity Management System (IMS) organization.
 
 * Users can belong to only one Workfront instance within the IMS organization.
 
@@ -62,7 +62,7 @@ Reviewers and approvers can be added to a single-use approval workflow or a reus
 
     For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area).
 
-* **Approval templates**: In the Workfront Setup area, project coordinators can create reusable Approval Templates. Within a template, users can add reviewers and approvers and specify a completion timeframe. When the approval template is applied to an asset, the deadline is calculated from the specified timeframe. 
+* **Approval templates**: In the Workfront Setup area, project coordinators can create reusable approval templates. Within a template, users can add reviewers and approvers, and specify a completion timeframe. When the approval template is applied to an asset, the deadline is calculated from the specified timeframe. 
 
     Once a template is created, it can be applied to an asset to begin the formal review and approval process in Workfront.
 
