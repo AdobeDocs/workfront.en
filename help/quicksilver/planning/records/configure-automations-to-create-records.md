@@ -155,7 +155,7 @@ You must configure an automation for a record type in Workfront Planning before 
       * Button click 
       * <span class="preview">Field value change</span>
 
-   1. (Conditional) If you selected **Button click**, go to the step below that describes the **Actions** area. 
+   1. (Conditional) If you selected **Button click**, go to step 9 below that describes the **Actions** area. <!--ensure this number stays accurate-->
 
    1. <span class="preview">(Conditional) If you selected **Field value change**, do the following in the **Settings** section: </span>
 

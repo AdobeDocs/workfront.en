@@ -4,7 +4,7 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Filter: Create Multiple Filter Rules That Reference the Same Field ('AND' Statements)"
 description: In the standard mode interface, when attempting to create multiple filters that reference the same field (using the AND qualifier), one of the filters is deleted when you save the report and exit the report builder.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: fb167e9f-c8bd-43f6-84c9-9a87e80c3eb2
 ---

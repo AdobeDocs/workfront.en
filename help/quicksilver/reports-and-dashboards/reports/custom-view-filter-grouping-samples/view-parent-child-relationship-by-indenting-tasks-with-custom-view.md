@@ -4,7 +4,7 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View: Display the Parent-Child Relationship in a Task by Indenting the Tasks'
 description: You can maintain the distinction of parent - child relationships in an exported task list by adding a custom view to the task list and ensuring this view is selected before you export the list.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
 ---

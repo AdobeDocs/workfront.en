@@ -3,7 +3,7 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Use conditional formatting in Text Mode
 description: Use conditional formatting in Text Mode
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
 ---

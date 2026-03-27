@@ -12,6 +12,22 @@ This page describes Reporting enhancements made with the Second Quarter 2026 rel
 
 For a list of all changes available at this point in the Second Quarter 2026 release cycle, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## New Authentication Options for Data Connect Connection
+
+>[!NOTE]
+>
+>Preview: March 12, 2026
+>Production fast release: March 12, 2026
+>Production for everyone: April 16, 2026
+
+You can now authenticate to Data Connect using RSA keys or Programmatic Access Tokens (PAT) connections, adding more secure and flexible alternatives to traditional username/password credentials. 
+
+These new options allow organizations to maintain stable connections from Power BI, Tableau, and other third‑party BI tools without relying on user-based login methods.
+
+>[!IMPORTANT]
+>
+>In June 2026, username/password credentials will be required to use multi-factor authentication (MFA). We recommend transitioning to either RSA or PAT-based authentication for service user accounts used to load data from Data Connect into third-party visualization tools, data processors, and scripts that will not work with MFA in the authentication process.
+
 ## Custom field labels shown when building reports
 
 >[!NOTE]
@@ -25,8 +41,6 @@ The custom field label is now displayed before the field name and object in the 
 The custom field label is intended for the system interface, while the field name is frequently used for the API and back-end storage purposes, and may not be as helpful when locating a field.
 
 For more information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-
-<!--
 
 ## Shareable Report Folders
 
@@ -48,8 +62,6 @@ You can now organize and share reports using shareable report folders. This new 
 
 For more information, see [Use shareable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).
 
--->
-
 ## Improved Date Labels for Chart Groupings in Canvas Dashboards
 
 >[!NOTE]
@@ -57,6 +69,10 @@ For more information, see [Use shareable report folders](/help/quicksilver/repor
 >Preview: February 26, 2026
 >Production fast release: March 12, 2026
 >Production for everyone: April 16, 2026
+
+>[!NOTE]
+>
+>Canvas Dashboards is currently in beta.
 
 Charts that group data by date now display clearer, more readable date labels. With this update, date labels dynamically adjust based on the selected Group by option—such as day, week, month, or year—making charts easier to read and interpret at a glance:
 

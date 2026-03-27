@@ -3,7 +3,7 @@ product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
 title: Share a Canvas Dashboard
 description: You can share a Canvas dashboard with other Adobe Workfront users so that they can view or edit it.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
 ---

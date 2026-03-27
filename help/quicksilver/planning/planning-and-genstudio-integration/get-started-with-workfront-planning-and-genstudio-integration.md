@@ -291,6 +291,8 @@ The sections below describe the following:
 
 Record type fields are imported from GenStudio for Performance Marketing to Workfront Planning by default. 
 
+You can also create Planning fields for record types in the GenStudio workspace from Planning. 
+
 Consider the following about GenStudio record type fields: 
 
 * When you have Manage permissions to the GenStudio workspace in Planning, you can do the following from Workfront Planning: 

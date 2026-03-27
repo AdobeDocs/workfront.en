@@ -3,7 +3,7 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Edit report settings
 description: You can edit the settings of a report to define how it displays for other users, or what kind of information can users prompt for before they run the report.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
 ---
