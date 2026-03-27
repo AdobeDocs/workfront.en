@@ -5,9 +5,8 @@ title: Get started with unified review and approval
 description: Learn more about unified review and approval powered by Workfront and Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-
+exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 ---
-
 # Get started with unified review and approval
 
 Unified review and approval powered by Workfront and Frame.io keeps creatives, marketers, and stakeholders aligned with a seamless workflow. Access real-time updates, avoid duplicate work, and ensure assets are approved before launch.
