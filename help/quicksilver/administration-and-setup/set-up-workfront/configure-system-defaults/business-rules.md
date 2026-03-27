@@ -133,6 +133,26 @@ IF(
 )
 ```
 
+### Enable localization in a Business Rule
+
+If your organization uses custom localization, you must enable translation of a business rule message in the business rule. If translation is not enabled, the message appears to the reader in English, even if the message text is in the Localization list and the user's browser is set to the appropriate language.
+
+When configuring the rule, insert the word TRANSLATE before the message, and enclose the message in parentheses.
+
+>[!BEGINSHADEBOX]
+
+Example:
+
+This example assumes that the message "You cannot edit completed projects" is included in the localization area of Setup, and that the user's browser is set to the localized language.
+
+* `IF({status} = "CPL", "You cannot edit completed projects.") `
+The message appears in English.
+* `IF({status} = "CPL", TRANSLATE("You cannot edit completed projects."))`
+The message appears in the localized language.
+
+>[!ENDSHADEBOX]
+
+For information on custom localization, see [Configure custom localization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
 
 <!--
 
