@@ -108,13 +108,6 @@ The table below tells you the highest level of access (Edit or View) that each o
         <td>No access</td>
     </tr>
     <tr>
-        <td><span class="preview">Companies</span></td>
-        <td>Edit</td>
-        <td>View</td>
-        <td>View</td>
-        <td>No access</td>
-    </tr>
-    <tr>
         <td>Teams</td>
         <td>Edit</td>
         <td>View</td>
@@ -193,4 +186,5 @@ You can find detailed information about what the access levels allow for each ob
 * [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) 
 * [Grant access to Resource Management](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md) 
 * [Grant access to Scenario Planner](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) 
+* [Grant access to rate cards](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
 * [Grant access to Adobe Workfront Goals](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)

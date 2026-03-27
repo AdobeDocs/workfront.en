@@ -317,6 +317,10 @@ These options are available in the Production environment:
 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality.
 
+</div>
+
+<!--
+
 ## Companies
 
 |  Action           |  Standard  |  Light  |  Contributor  | External user |
@@ -335,10 +339,6 @@ These options are available in the Production environment:
 {style="table-layout:auto"}
 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality.
-
-</div>
-
-<!--
 
 ## Groups
 
