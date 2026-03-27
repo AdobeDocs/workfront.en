@@ -14,6 +14,8 @@ exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
 
 <!-- Audited: 2/2024 -->
 
+{{highlighted-preview}}
+
 >[!NOTE]
 >
 >The information in this article refers to the current access levels. For information about the legacy access levels, see [Access levels overview](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
@@ -99,6 +101,20 @@ The table below tells you the highest level of access (Edit or View) that each o
         <td>View</td>
     </tr>
     <tr>
+        <td><span class="preview">Job Roles</span></td>
+        <td>Edit</td>
+        <td>View</td>
+        <td>View</td>
+        <td>No access</td>
+    </tr>
+    <tr>
+        <td><span class="preview">Companies</span></td>
+        <td>Edit</td>
+        <td>View</td>
+        <td>View</td>
+        <td>No access</td>
+    </tr>
+    <tr>
         <td>Teams</td>
         <td>Edit</td>
         <td>View</td>
@@ -128,6 +144,13 @@ The table below tells you the highest level of access (Edit or View) that each o
     </tr>
     <tr>
         <td>Scenario Planner</td>
+        <td>Edit</td>
+        <td>View</td>
+        <td>No access</td>
+        <td>No access</td>
+    </tr>
+    <tr>
+        <td><span class="preview">Rate Cards</span></td>
         <td>Edit</td>
         <td>View</td>
         <td>No access</td>
