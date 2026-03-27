@@ -4,7 +4,7 @@ user-type: administrator
 content-type: overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: You can use a layout template to determine the options that appear when a user clicks the More menu (the three-dot menu) while viewing the following objects in Adobe Workfront: projects, tasks, issues, portfolios, and programs.
+description: "You can use a layout template to determine the options that appear when a user clicks the More menu (the three-dot menu) while viewing the following objects in Adobe Workfront: projects, tasks, issues, portfolios, and programs."
 author: Lisa
 feature: System Setup and Administration
 role: Admin
