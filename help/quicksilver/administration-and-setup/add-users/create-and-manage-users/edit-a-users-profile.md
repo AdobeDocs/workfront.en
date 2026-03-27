@@ -38,7 +38,8 @@ For information about users updating their own profiles, see [Configure my setti
  <tbody> 
   <tr> 
    <td>Adobe Workfront package</td> 
-   <td><p>Any</p></td> 
+   <td><p>To edit a user's profile: Any Workfront or Workflow package</p>
+       <p>To set rate attributes and the cost rate override: Workflow Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront license</td> 
@@ -258,9 +259,11 @@ For more information, see [Configure event notifications for everyone in the sys
 
   For information about configuring Resource Management preferences, see [Configure Resource Management preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-  <span class="preview">(Optional) Date effective job role assignments are used in financial calculations if the user's job role changes during a project.</span>
+<!--
+<span class="preview">(Optional) Date effective job role assignments are used in financial calculations if the user's job role changes during a project.</span>
 
   <span class="preview">Click **Define roles by date**, select the **Primary Role** and **Other Roles**, and enter the allocation percentage for each role. The roles could be the same as the existing roles (using different percentages), or new roles. Select the Start date when these roles become active. This can be a future date. When the newest roles become active, you can click **Show previous roles** to see the previous, inactive roles.</span>
+-->
 
 * **Schedule**: Associate a schedule with the user. The schedule of the user calculates the timeline of the tasks the user is assigned to.
 
@@ -310,6 +313,8 @@ For more information, see [Configure event notifications for everyone in the sys
 
   Some dates are added automatically. For example, if Cost Rate 1 does not have an end date, and you add Cost Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Cost Rate 1 so that no gaps exist.
 
+* <span class="preview">**Cost rate override allowed**: Turn on this option to allow cost rate overrides for this user on projects.</span>
+
 * **Billing Rate**: The amount of billing per hour for the user.
 
   For date effective billing rates, click **Add Rate**. Enter the value of the billing rate for the time period, and assign a Start Date and End Date as needed. Billing Rate 1 will not have a start date and the last billing rate will not have an end date.
@@ -327,6 +332,28 @@ Associate an existing user custom form with this user. You must create a custom 
 >Advanced custom form features such as External lookup fields and Workfront native fields are only available when you open the user record on the details page, not on the Edit User dialog. (From the list of users, click the user name to open the details.)
 
 For information about creating custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+<div class="preview">
+
+### Attributes
+
+Rate attributes are supported in areas of Workfront where rates exist, such as job roles and users. When attributes are applied on a user's profile, their assignments resolve automatically to the correct rates.
+
+1. Click **Add new set**.
+1. Select the attribute values.
+
+   Your Workfront administrator sets the available attributes. These may include agency, location, cost center, customer, or other attributes necessary for your organization.
+
+1. (Optional) To add another set of attributes with effective dates:
+
+   1. Click **Add new set**.
+   1. Select an **End Date** for the current attribute set.
+
+      The **Start Date** for the next set is added automatically.
+
+   1. Add the attribute values for the next attribute set. These values take effect on the start date.
+
+</div>
 
 ### Comment
 
