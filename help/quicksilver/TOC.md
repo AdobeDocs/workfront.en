@@ -580,6 +580,7 @@ feature-set: Workfront
       * [Customize the Main Menu](administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
       * [Customize object headers using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
       * [Customize the left panel](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
+      * [Customize the More menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-more-menu.md)
       * [Customize the Details view](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
       * [Customize the Summary panel using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
       * [Customize new Home](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
