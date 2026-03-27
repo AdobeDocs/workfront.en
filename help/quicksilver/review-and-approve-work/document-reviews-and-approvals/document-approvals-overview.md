@@ -16,10 +16,6 @@ Project coordinators manage work in Workfront while creatives, marketers, and st
 
 ![Diagram showing the unified review and approval workflow, with project coordinators managing work in Workfront and reviewers and approvers providing feedback and making decisions in the Frame.io viewer.](assets/Unified-Review-Approvals-Image.png)
 
-## Demo video
-
->[!VIDEO](https://video.tv.adobe.com/v/3471078)
-
 
 ## Integration requirements
 
@@ -149,8 +145,9 @@ The following Document capabilities are not included:
 * Favorite documents
 * Request documents
 
+## Get started with unified review and approval
 
-
+To get started with unified review and approval, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 ## Frequently Asked Questions
 

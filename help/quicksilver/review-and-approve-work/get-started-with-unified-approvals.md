@@ -16,6 +16,10 @@ For more information about Frame.io, see [Getting Started with Frame.io](https:/
 
 You must have the Workfront and Frame.io integration set up in your Workfront instance. For more information, see [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
 
+## Demo video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3471078)
+
 ## Integration requirements
 
 * Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
