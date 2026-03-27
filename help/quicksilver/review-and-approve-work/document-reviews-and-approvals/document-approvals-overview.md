@@ -60,7 +60,7 @@ Use the Frame.io viewer to review and approve assets. The Frame.io viewer provid
 * Time-stamped comments for video reviews
 * Mobile access for on-the-go reviews and approvals
 
-For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Video review limits
 
