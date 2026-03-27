@@ -154,26 +154,6 @@ The following Document capabilities are not included:
 
 ## Frequently Asked Questions
 
-### Access unified review and approval
-
-+++ Expand to view the frequently asked questions for unified review and approval.
-
-**How do I get access to Unified Review and Approval?**
-
-**What do I need to do to get access?**
-
-To access unified review and approval, your organization must be on a Workfront V2 SKU. If you are not currently on a V2 SKU, this will require a contracting event with Adobe. To get started:
-
-* Contact your Adobe account representative to confirm whether your current Workfront plan supports unified review and approval.
-
-* If a SKU upgrade is needed, your account representative will guide you through the contracting process.
-
-* Once your account is on the correct SKU, Adobe Professional Services will configure the integration for your organization.
-
-     * If you are not sure who your Adobe account representative is, you can reach out through the Adobe support portal or visit Experience League for contact options.
-
-+++
-
 ### Getting Started with unified review and approval
 
 +++ Expand to view the frequently asked questions for getting started with unified review and approval.
@@ -211,6 +191,21 @@ If your organization wants access to additional Frame.io capabilities --- such a
 Yes. When unified review and approval is enabled, the Frame.io viewer becomes the primary review surface in Workfront, replacing Workfront Proof. 
 
 Existing customers will retain access to Workfront Proofing functionality for any projects created before the integration was enabled.
+
+**How do I get access to Unified Review and Approval?**
+
+**What do I need to do to get access?**
+
+To access unified review and approval, your organization must be on a Workfront V2 SKU. If you are not currently on a V2 SKU, this will require a contracting event with Adobe. To get started:
+
+* Contact your Adobe account representative to confirm whether your current Workfront plan supports unified review and approval.
+
+* If a SKU upgrade is needed, your account representative will guide you through the contracting process.
+
+* Once your account is on the correct SKU, Adobe Professional Services will configure the integration for your organization.
+
+     * If you are not sure who your Adobe account representative is, you can reach out through the Adobe support portal or visit Experience League for contact options.
+
 +++
 
 ### How unified review and approval works
@@ -260,6 +255,125 @@ Project coordinators can monitor all in-flight approvals in several ways:
 * The Document Approval Metrics widget displays average approval times and decision breakdowns.
 
 * Custom report dashboards can be built in Canvas Dashboards for deeper visibility into review and approval activity.
+
++++
+
+
+### Reviewing and approving assets and videos
+
++++ Expand to view the frequently asked questions for reviewing and approving assets and videos.
+
+**Are there any limits on video reviews?**
+
+Yes. There is an annual cap on video proof requests set at 10% of your organization's total paid Workfront user licenses (Standard and Light). This cap applies at the organization level.
+
+Workfront administrators will receive in-app notifications when usage reaches 80% and 100% of the cap.
+
+This limit does not apply to Frame.io Enterprise customers. If your organization regularly reviews large volumes of video content, contact your Adobe account representative to learn about Frame.io Enterprise licensing.
+
+**Can the same user appear in multiple stages of an approval workflow?**
+
+Yes. A user can be assigned to multiple stages within the same approval workflow.
+
+**Can I add stages to create a multi-stage approval workflow?**
+
+Yes. Multi-stage approval workflows are supported, allowing you to route assets through sequential rounds of review and approval with different participants at each stage.
+
+<!--
+**Can I modify the trigger for a later stage---for example, based on all approved versus the due date ending?**
+
+Stages in a multi-stage approval workflow proceed sequentially based on all required decisions being made in the current stage. When all assigned approvers in a stage have made their decisions, the next stage begins and the previous stage is locked. There is no option to trigger a stage based on the due date ending. If the "One decision required" toggle is enabled on a stage, the first approver decision completes that stage and advances the workflow.
+
+**Can I remove the due date from an approval?**
+
+Yes. Due dates are optional for both single-use approvals and approval templates. When creating a single-use approval, you can leave the deadline field empty. For approval templates, the relative completion timeframe is also optional.
+
+**Can I change the default due date on new approval templates?**
+
+Yes. When creating or editing an approval template, the timeframe (or "Workdays until due date" for multi-stage templates) can be adjusted per stage or left empty. The deadline is calculated automatically from this timeframe when the template is applied to an asset, so updating the template changes the default for all future approvals that use it.
+
+**What happens when the deadline is reached for a review stage?**
+
+For both single-stage and multi-stage reviews, automated reminder emails are sent at 72 hours, 24 hours, and on the deadline. However, reaching the deadline does not automatically reject the asset, lock the stage, or advance the workflow. Approvers and reviewers can still make decisions or complete their review after the deadline has passed. In a multi-stage workflow, each stage has its own independent deadline, and stages still advance based on all required decisions being made---not based on the deadline.
+-->
+
+**Can approval templates include groups or teams, or only individual users?**
+
+Currently, approval templates support individual users and teams.
+
+**Are approvers notified by email when they have something to review?**
+
+Yes. Approvers and reviewers receive email notifications when they are assigned to a review or approval. Automated reminder emails are also sent 72 hours before the deadline, 24 hours before, and on the deadline itself.
+
+The ability to customize email notification messages is not currently available, but it is on the product roadmap.
+
+<!--
+**Can I change the notification frequency for a unified approver or reviewer (for example, all comments, replies to my comments, or daily summaries)?**
+
+No. Notification frequency settings such as receiving all comments, only replies to your comments, or daily digest summaries are not currently available for unified review and approval. The system sends email notifications automatically when a user is assigned as a reviewer or approver, and automated reminder emails are sent at 72 hours, 24 hours, and on the deadline. The ability to customize notification messages and frequency is on the product roadmap.
+-->
+
+**Can I keep a review stage private from other participants?**
+
+There is currently no private stage feature. To keep a review private from other participants, the recommended approach is to create a separate copy of the asset specifically for that review group. Comments are not currently segmented by participant group within a single asset.
+
+Note that version history, including past and current versions, is always visible to anyone with access to view that asset.
+
+**Can comments be marked as resolved?**
+
+Yes. Comments can be marked as resolved within the Frame.io viewer.
+
+**What markup and annotation tools are available in the Frame.io viewer?**
+
+The Frame.io viewer includes a full set of visual markup tools, including freehand drawing and standard shapes such as circles, arrows, and squares. For video assets, comments are time-stamped with frame-accurate precision, so feedback is always tied to the exact moment in the clip and not just a general timestamp.
+
+**Will comments made in the Frame.io viewer appear in the Workfront project?**
+
+Comments and annotations remain within the Frame.io viewer so that they retain their full context, including timestamps and visual markups. This may evolve in future releases.
+
+**Is it possible to add comments to a downloaded version of an asset (e.g., a PDF)?**
+
+This is not currently supported, but it is a commonly requested feature that is under consideration for a future release.
+
+**Can I review multiple assets together as a group?**
+
+Enhanced bulk review options are coming soon. In the meantime, assets of different file types, such as a video and a Word document, can be included together in a grouped asset review.
+
+**Is unified review and approval only for video, or does it support other file types?**
+
+Unified review and approval is designed for all asset types, not just video. The Frame.io viewer has been significantly updated to support images, documents, PDFs, and other common file formats in addition to video.
+
+For a full list of supported file types, see the Frame.io supported file types documentation on Experience League.
+
+**Can I share assets externally with stakeholders who don\'t have access to Workfront?**
+
+Yes. Assets can be shared externally. External users are notified via email and will be prompted to create a Frame.io login to access the viewer and participate in the review.
+
+<!--
+**Before unified review and approval, is a reviewer just directed to a proof?**
+
+Yes. In the legacy proofing workflow (prior to unified review and approval), when a user was assigned as a reviewer they were directed to the Workfront Proof viewer (ProofHQ) to review the proof. With unified review and approval, reviewers are instead directed to the Frame.io viewer, which replaces the Workfront Proof viewer as the primary review surface.
+
+**When I upload a document and not a proof, a proof gets generated. Will a proof always be generated?**
+
+No. With unified review and approval enabled and Adobe enterprise storage active, uploading a document does not automatically generate a proof. Documents are stored in Adobe enterprise storage and are reviewed using the Frame.io viewer. A proof is only generated if you explicitly create one using the legacy proofing workflow. The Frame.io viewer serves as the primary review surface, so a separate proof is not needed for standard review and approval workflows.
+
+**What is the difference between uploading a document and a proof after the 26.2 release?**
+
+With unified review and approval enabled, uploading a document stores it in Adobe enterprise storage and makes it available for review in the Frame.io viewer. A unified approval workflow can be created directly on the document. Uploading a proof, by contrast, uses the legacy Workfront Proof viewer (ProofHQ) and its own proofing workflow. Both options are available for projects created before the integration was enabled, but the Frame.io viewer is the primary review surface going forward. The key difference is that a document uses the unified approval workflow and Frame.io viewer, while a proof uses the legacy proofing workflow and viewer.
+
+**Reviews under My Approvals only show a "Complete my review" button and no link to the proofing viewer or the document. Is this intended?**
+
+For unified review and approval, the My Approvals widget provides an "Open review" button that opens the asset in the Frame.io viewer, as well as action buttons to approve, request changes, or complete a review. Reviewers can complete their review directly from the widget. If you are only seeing a "Complete my review" button without a link to the viewer, this may reflect the reviewer role behavior---reviewers are not required to open the asset to mark their review as complete, though they can choose to open it in the Frame.io viewer to provide feedback before completing.
+
+**Before unified review and approval, if a user is both an approver in a document approval and a reviewer/approver on a proof, both show up in the proof window. How do these work together?**
+
+When using unified approvals alongside legacy proofing on the same document, the two workflows operate independently. Document approval participants are shown in the Document Summary panel, while proof participants are shown in the proofing workflow. The SOCD (Sent, Opened, Comment, Decision) indicators in the document list are proofing-related and do not reflect the unified approval decision status. These two workflows do not automatically sync---a decision made in one does not carry over to the other.
+
+**If you upload a new version, the document approval users do not get repopulated. Is that intended?**
+
+Yes. When a new version is uploaded, previous approval participants are not automatically repopulated. The previous version's approval process is closed and any outstanding approvals are marked as "Withdrawn." The document owner must manually add participants to the new version's approval workflow. An "Add all" button is available to quickly repopulate all participants from the previous version, and you can also selectively add previous participants or add new ones.
+-->
 
 +++
 
@@ -336,19 +450,6 @@ The table below shows how Workfront permissions map to Frame.io permissions:
 
 +++
 
-### Video reviews
-
-+++ Expand to view the frequently asked questions for video reviews.
-
-**Are there any limits on video reviews?**
-
-Yes. There is an annual cap on video proof requests set at 10% of your organization's total paid Workfront user licenses (Standard and Light). This cap applies at the organization level.
-
-Workfront administrators will receive in-app notifications when usage reaches 80% and 100% of the cap.
-
-This limit does not apply to Frame.io Enterprise customers. If your organization regularly reviews large volumes of video content, contact your Adobe account representative to learn about Frame.io Enterprise licensing.
-
-+++
 
 ### Integrations and advanced capabilities
 
@@ -396,6 +497,12 @@ Unified review and approval is available now. Access requires an upgrade to a Wo
 
 Contact your Adobe account representative to determine the best path for your organization.
 
+<!--
+**Before we sign the contract, what changes will we see in Workfront?**
+
+Before signing the V2 SKU contract, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe enterprise storage, or multi-stage approval templates---will be available until the V2 SKU is contracted and Adobe Professional Services configures the integration for your organization.
+-->
+
 **Does upgrading to the V2 SKU give me more storage?**
 
 Yes. With the V2 SKU, each licensed user receives 60 GB of storage, up from 30 GB in the previous version.
@@ -425,7 +532,7 @@ you can work with your Adobe account team to determine the appropriate number of
 
 +++
 
-### Sandbox and Rollout
+### Sandbox and rollout
 
 +++ Expand to view the frequently asked questions for sandbox and rollout.
 
@@ -435,69 +542,15 @@ Partially. Approval workflows can be tested in a Workfront sandbox environment. 
 
 To limit exposure during rollout, you can enable unified review and approval for a specific group within your Workfront production environment. This allows you to run a targeted pilot with a smaller set of users before rolling out more broadly.
 
-+++
+<!--
+**How should we test future quarterly releases involving unified review and approval if the Frame.io viewer is not available in sandbox?**
 
-### Reviewing and approving assets
-
-+++ Expand to view the frequently asked questions for reviewing and approving assets.
-
-**Can the same user appear in multiple stages of an approval workflow?**
-
-Yes. A user can be assigned to multiple stages within the same approval workflow.
-
-**Can I add stages to create a multi-stage approval workflow?**
-
-Yes. Multi-stage approval workflows are supported, allowing you to route assets through sequential rounds of review and approval with different participants at each stage.
-
-**Can approval templates include groups or teams, or only individual users?**
-
-Currently, approval templates support individual users and teams.
-
-**Are approvers notified by email when they have something to review?**
-
-Yes. Approvers and reviewers receive email notifications when they are assigned to a review or approval. Automated reminder emails are also sent 72 hours before the deadline, 24 hours before, and on the deadline itself.
-
-The ability to customize email notification messages is not currently available, but it is on the product roadmap.
-
-**Can I keep a review stage private from other participants?**
-
-There is currently no private stage feature. To keep a review private from other participants, the recommended approach is to create a separate copy of the asset specifically for that review group. Comments are not currently segmented by participant group within a single asset.
-
-Note that version history, including past and current versions, is always visible to anyone with access to view that asset.
-
-**Can comments be marked as resolved?**
-
-Yes. Comments can be marked as resolved within the Frame.io viewer.
-
-**What markup and annotation tools are available in the Frame.io viewer?**
-
-The Frame.io viewer includes a full set of visual markup tools, including freehand drawing and standard shapes such as circles, arrows, and squares. For video assets, comments are time-stamped with frame-accurate precision, so feedback is always tied to the exact moment in the clip and not just a general timestamp.
-
-**Will comments made in the Frame.io viewer appear in the Workfront project?**
-
-Comments and annotations remain within the Frame.io viewer so that they retain their full context, including timestamps and visual markups. This may evolve in future releases.
-
-**Is it possible to add comments to a downloaded version of an asset (e.g., a PDF)?**
-
-This is not currently supported, but it is a commonly requested feature that is under consideration for a future release.
-
-**Can I review multiple assets together as a group?**
-
-Enhanced bulk review options are coming soon. In the meantime, assets of different file types, such as a video and a Word document, can be included together in a grouped asset review.
-
-**Is unified review and approval only for video, or does it support other file types?**
-
-Unified review and approval is designed for all asset types, not just video. The Frame.io viewer has been significantly updated to support images, documents, PDFs, and other common file formats in addition to video.
-
-For a full list of supported file types, see the Frame.io supported file types documentation on Experience League.
-
-**Can I share assets externally with stakeholders who don\'t have access to Workfront?**
-
-Yes. Assets can be shared externally. External users are notified via email and will be prompted to create a Frame.io login to access the viewer and participate in the review.
+Because the Frame.io viewer experience is not available in the Workfront sandbox environment, testing future quarterly releases should be done using a controlled pilot group in your production environment. You can enable unified review and approval for a specific group within your Workfront production instance, allowing a smaller set of users to validate new features as they release. Approval workflow configuration and template setup can still be tested in sandbox, but the full review experience---including the Frame.io viewer---must be validated in production.
+-->
 
 +++
 
-### Interactive Proofs and HTML
+### Interactive proofs and HTML
 
 +++ Expand to view the frequently asked questions for interactive proofs and HTML.
 
