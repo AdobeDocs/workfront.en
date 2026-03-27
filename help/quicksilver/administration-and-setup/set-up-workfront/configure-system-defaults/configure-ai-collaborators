@@ -73,6 +73,16 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. (Conditional) If the AI Collaborator will use a Brand, select the brand and brand guideline that it will use.
 1. Click **Save**.
 
+## Manage AI Collaborators
+
+You can edit, copy, and delete existing AI Collaborators.   
+
+{{step-1-to-setup}}
+
+1. In the left navigation, click **AI Collaborators**.
+1. (Conditional) To edit a Collaborator, click the name of the Collaborator you want to edit, make any edits in the Edit Collaborator window, and click **Save**.
+1. (Conditional) To copy a Collaborator, click the Copy icon ![Copy icon](assets/copy-ai-collaborator.png) in the row of the AI Collaborator you want to copy, click the name of the copy, make any edits in the Edit Collaborator window, and click **Save**.
+1. (Conditional) To delete a Collaborator, click the Delete icon ![Delete icon](assets/delete-collaborator-icon.png) in the row of the AI Collaborator you want to delete, then click **Delete**.
 
 
 
