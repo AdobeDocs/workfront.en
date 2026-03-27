@@ -15,7 +15,7 @@ exl-id: 69233499-fbcb-44a4-a247-d5051f9bc8b9
 
 You can configure the default locations available to assign as attributes to job roles in rate cards. This ensures that the rate cards accurately reflect the market rates in each location.
 
-Rate cards allow your organization to easily manage billing rates for projects. For more information, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
+Rate cards allow your organization to easily manage billing rates for projects. For more information, see [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
 ## Access requirements
 

@@ -124,7 +124,7 @@ Billing and cost rates on a job role are used in financial calculations.
 
 Rate attributes are supported in areas of Workfront where rates exist, such as job roles and users. When attributes are applied on a job role, their assignments resolve automatically to the correct rates.
 
-For more information, see [Define rate attributes](/help\quicksilver\administration-and-setup\manage-enterprise-operations\define-rate-attributes.md).
+For more information, see [Define rate attributes](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
 {{step-1-to-setup}}
 

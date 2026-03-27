@@ -18,7 +18,7 @@ When you attach a rate card to a project, all of the roles and their associated 
 >
 >Attaching a rate card overrides any existing rate card billing rates on the project. Billing rate overrides that were added directly to the project are not removed.
 
-For information about creating rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
+For information about creating rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
 For general information about overriding job role billing rates for projects and calculating project revenue, see [Overview of overriding Job Role Billing Rates and calculating Revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
