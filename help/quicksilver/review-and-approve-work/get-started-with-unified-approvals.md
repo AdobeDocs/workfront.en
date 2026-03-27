@@ -177,11 +177,12 @@ If your organization wants access to additional Frame.io capabilities --- such a
 
 **Does this replace Workfront Proof?**
 
-Yes. When unified review and approval is enabled, the Frame.io viewer becomes the primary review surface in Workfront, replacing Workfront Proof. Existing Workfront Proofing functionality is not available within this integration.
+Yes. When unified review and approval is enabled, the Frame.io viewer becomes the primary review surface in Workfront, replacing Workfront Proof. 
 
+Existing customers will retain access to Workfront Proofing functionality for any projects created before the integration was enabled.
 +++
 
-### How unified review and approval Works
+### How unified review and approval works
 
 +++ Expand to view the frequently asked questions for how unified review and approval works.
 
@@ -189,33 +190,31 @@ Yes. When unified review and approval is enabled, the Frame.io viewer becomes th
 
 The workflow follows these general steps:
 
-* A project coordinator creates a project in Workfront and uploads or links assets.
+1. A project coordinator creates a project in Workfront and uploads or links assets.
 
-* When an asset is ready for review, the coordinator creates an approval workflow--either a single-use approval or by applying a reusable approval template.
+1. When an asset is ready for review, the coordinator creates an approval workflow--either a single-use approval or by applying a reusable approval template.
 
-* Assigned reviewers and approvers are notified via email and can open the asset directly in the Frame.io viewer.
+1. Assigned reviewers and approvers are notified via email and can open the asset directly in the Frame.io viewer.
 
-* Reviewers can add comments and markup. Approvers must make a formal decision.
+1. Reviewers can add comments and markup. Approvers must make a formal decision.
 
-* The coordinator tracks status in real time from Workfront.
+1. The coordinator tracks status in real time from Workfront.
 
 **What is the difference between a reviewer and an approver?**
 
-Reviewers can add comments and mark up assets, and can mark their review as complete. However, their action is not required for the approval to progress.
+Reviewers can add comments and mark up assets in the Frame.io viewer. When they are finished, they mark their review as complete. However, their action is not required for the approval workflow to move forward.
 
-Approvers must make one of the following decisions to move the process forward:
+Approvers must make one of the following decisions to move the approval workflow forward:
 
-* Approve: The asset is ready to use as-is.
+* **Approve**: The asset is ready to use as-is.
 
-* Needs work: The asset requires changes and must be re-submitted as a new version for re-approval.
+* **Needs work**: The asset requires changes and must be re-submitted as a new version for re-approval.
 
 **What types of approval workflows can I create?**
 
-There are two options:
+* **Single-use approvals**: You can create a single-use approval directly on a document in a project, task, or issue. You assign reviewers and approvers, set a deadlines, and configure multiple stages if needed. Automated email reminders are sent 72 hours before, 24 hours before, and on the deadline.
 
-* Single-use approvals: You can create a single-use approval directly on a document in a project or task. You assign reviewers and approvers, set a deadlines, and configure multiple stages if needed. Automated email reminders are sent 72 hours before, 24 hours before, and on the deadline.
-
-* Approval templates: Reusable templates created in Workfront Setup. A template defines the reviewers, approvers, a relative completion timeframe, and multiple stages if needed. Once applied to an asset, the deadline is calculated automatically.
+* **Approval templates**: You can create reusable templates in Workfront Setup. A template defines the reviewers, approvers, and a relative completion timeframe. You can create multiple stages if needed. Once a template is applied to an asset, the deadline is calculated automatically.
 
 **How do external users participate in reviews?**
 
@@ -259,9 +258,7 @@ Yes. Because the integration uses Adobe enterprise storage, the following conven
 
 * Documents within the same project cannot share a name.
 
-* Document names cannot contain the following special characters: `\\ / : \* ? \" \| \< \>`
-
-* Document names are limited to 255 characters.
+* Programs, portfolios, projects, templates, tasks, issues, documents, document folders names cannot contain the following special characters: `\\ / : \* ? \" \| \< \>` and are limited to 255 characters.
 
 Workfront automatically renames objects or documents as needed to prevent conflicts.
 
@@ -269,7 +266,7 @@ Workfront automatically renames objects or documents as needed to prevent confli
 
 The Frame.io viewer supports over 40 file formats, including all common video, image, audio, PDF, and Microsoft Office types. Video support includes native playback for professional formats such as ProRes, H.265, and DNxHD, with support for files up to 500 GB.
 
-Frame.io was purpose-built for creative review, which means it handles the full range of asset types that marketing and creative teams work with --- not just static documents. For a complete list of supported formats, see the Frame.io supported file types documentation on Experience League.
+Frame.io was purpose-built for creative review, which means it handles the full range of asset types that marketing and creative teams work with.
 
 +++
 
@@ -332,7 +329,7 @@ Integrations supporting the Frame.io viewer experience are currently in developm
 
 **Is Frame.io integrated within Workfront, or do users navigate to a separate interface?**
 
-Users can launch the Frame.io viewer directly from Workfront, and all review and approval activity takes place within that viewer, and is automatically synced back to Workfront.
+Users can launch the Frame.io viewer directly from Workfront. All review and approval activity takes place within the Frame.io viewer and is automatically synced back to Workfront.
 
 **Can I send approved assets to Adobe Experience Manager (AEM)?**
 
@@ -376,7 +373,9 @@ Yes. With the V2 SKU, each licensed user receives 60 GB of storage, up from 30 G
 
 Enterprise Storage enables the Frame.io viewer experience and is required for unified review and approval. Legacy Storage continues to use the Workfront Proof viewer (ProofHQ) as the default.
 
-If your organization has a mix of simple workflows and more complex proofing workflows, you can prioritize which workflows to migrate first. Enterprise Storage gives you the flexibility to roll out the new experience incrementally, starting with the workflows that will benefit most.
+If your organization has a mix of simple workflows and more complex proofing workflows, you can prioritize which workflows to migrate first.
+
+Enterprise Storage gives you the flexibility to roll out the new experience incrementally, starting with the workflows that will benefit most.
 
 **How are Frame.io licenses managed?**
 
@@ -401,7 +400,7 @@ you can work with your Adobe account team to determine the appropriate number of
 
 **Can I test unified review and approval in a sandbox environment?**
 
-Partially. Approval workflows can be tested in a Workfront sandbox environment. However, the Frame.io viewer experience is not available in sandbox --- testing the review surface itself requires a production environment.
+Partially. Approval workflows can be tested in a Workfront sandbox environment. However, the Frame.io viewer experience is not available in sandbox. Testing the review surface itself requires a production environment.
 
 To limit exposure during rollout, you can enable unified review and approval for a specific group within your Workfront production environment. This allows you to run a targeted pilot with a smaller set of users before rolling out more broadly.
 
@@ -413,15 +412,15 @@ To limit exposure during rollout, you can enable unified review and approval for
 
 **Can the same user appear in multiple stages of an approval workflow?**
 
-Yes. A user can be assigned to multiple stages within the same approval workflow. This is a significant improvement over the previous proofing experience.
+Yes. A user can be assigned to multiple stages within the same approval workflow.
 
 **Can I add stages to create a multi-stage approval workflow?**
 
-Yes. Multi-stage approval workflows are supported, allowing you to route assets through sequential rounds of review and approval with different participants at each stage. Each stage has clear roles --- reviewers provide feedback while approvers make binding decisions --- so approvals reach a conclusion rather than stalling in inboxes. All participants have real-time visibility into exactly where each asset stands in the process.
+Yes. Multi-stage approval workflows are supported, allowing you to route assets through sequential rounds of review and approval with different participants at each stage.
 
 **Can approval templates include groups or teams, or only individual users?**
 
-Currently, approval templates support individual users. The ability to add groups or teams to approval templates is an area of active development --- check the Workfront release notes on Experience League for updates.
+Currently, approval templates support individual users and teams.
 
 **Are approvers notified by email when they have something to review?**
 
@@ -431,9 +430,9 @@ The ability to customize email notification messages is not currently available,
 
 **Can I keep a review stage private from other participants?**
 
-There is currently no native private stage feature. To keep a review private from other participants, the recommended approach is to create a separate copy of the asset specifically for that review group. Comments are not currently segmented by participant group within a single asset.
+There is currently no private stage feature. To keep a review private from other participants, the recommended approach is to create a separate copy of the asset specifically for that review group. Comments are not currently segmented by participant group within a single asset.
 
-Note that version history --- including past and current versions --- is always visible to anyone with access to view that asset.
+Note that version history, including past and current versions, is always visible to anyone with access to view that asset.
 
 **Can comments be marked as resolved?**
 
@@ -441,11 +440,11 @@ Yes. Comments can be marked as resolved within the Frame.io viewer.
 
 **What markup and annotation tools are available in the Frame.io viewer?**
 
-The Frame.io viewer includes a full set of visual markup tools, including freehand drawing and standard shapes such as circles, arrows, and squares. For video assets, comments are time-stamped with frame-accurate precision, so feedback is always tied to the exact moment in the clip --- not just a general timestamp.
+The Frame.io viewer includes a full set of visual markup tools, including freehand drawing and standard shapes such as circles, arrows, and squares. For video assets, comments are time-stamped with frame-accurate precision, so feedback is always tied to the exact moment in the clip and not just a general timestamp.
 
 **Will comments made in the Frame.io viewer appear in the Workfront project?**
 
-Comments and annotations remain within the Frame.io viewer so that they retain their full context --- including timestamps and visual markups. This may evolve in future releases.
+Comments and annotations remain within the Frame.io viewer so that they retain their full context, including timestamps and visual markups. This may evolve in future releases.
 
 **Is it possible to add comments to a downloaded version of an asset (e.g., a PDF)?**
 
@@ -453,7 +452,7 @@ This is not currently supported, but it is a commonly requested feature that is 
 
 **Can I review multiple assets together as a group?**
 
-Enhanced bulk review options are coming soon. In the meantime, assets of different file types --- such as a video and a Word document --- can be included together in a grouped asset review.
+Enhanced bulk review options are coming soon. In the meantime, assets of different file types, such as a video and a Word document, can be included together in a grouped asset review.
 
 **Is unified review and approval only for video, or does it support other file types?**
 
@@ -473,7 +472,9 @@ Yes. Assets can be shared externally. External users are notified via email and 
 
 **Does unified review and approval support interactive proofs or HTML URLs?**
 
-Zip HTML files are currently supported for interactive review. HTML URL support (live web URL review) is on the roadmap and expected in Q3. Check the Workfront release notes on Experience League for updates.
+Zip HTML files are currently supported for interactive review. HTML URL support (live web URL review) is on the roadmap and expected in Q3. 
+
+Check the Workfront release notes on Experience League for updates.
 
 +++
 
@@ -497,9 +498,9 @@ Yes. This type of automation is possible using Workfront webhooks in combination
 
 The impact will vary depending on how each workflow is built. In general:
 
-* Edit or update: Workflows where the existing proof-related action has a direct equivalent in unified approvals can be updated to use the new action.
+* **Edit or update**: Workflows where the existing proof-related action has a direct equivalent in unified approvals can be updated to use the new action.
 
-* Rebuild: Workflows where the underlying steps have changed significantly, or where new capabilities exist, may need to be rebuilt from scratch.
+* **Rebuild**: Workflows where the underlying steps have changed significantly, or where new capabilities exist, may need to be rebuilt from scratch.
 
 A clearer picture will emerge once the Fusion APIs for unified approvals are available. It is recommended to audit your existing Fusion workflows and evaluate them against the new unified approvals capabilities at that time.
 
