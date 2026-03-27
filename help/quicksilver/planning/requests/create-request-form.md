@@ -114,6 +114,11 @@ You can create a request form from the record type associated with the form<!--s
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
 
 1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Create request form** or **Manage request forms**, if you already have a form and you want to create additional ones.
+
+   The **Request forms** page opens and the requests display in the list view. 
+
+   ![Request forms page](assets/request-forms-in-list-view.png)
+
 1. (Conditional) If you want to add another form, click **New request form**.
 
    The **Create request form** box opens.

@@ -117,7 +117,7 @@ The changes you make on a view are visible to all those you share the view with.
    >Fields you add to the columns must exist before they are available in the **Column manager**.
 
 
-1. (Optional) Click **Columns** to open the F**ields visibility and order** box. 
+1. (Optional) Click **Columns** to open the **Fields visibility and order** box. 
 1. Turn on the setting for each field  you want to show in the list, turn it off to hide it, or drag and drop the fields in a different order.
 
 1. (Optional) Click **Filters** and start adding conditions for what requests you want to view. 

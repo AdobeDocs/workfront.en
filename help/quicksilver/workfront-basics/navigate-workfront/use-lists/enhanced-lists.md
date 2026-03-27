@@ -150,7 +150,7 @@ Some columns allow you to save a customized name for the column title.
 
    The new column name appears on the list.
 
-## Add and remove columns with the Column manager
+### Add and remove columns with the Column manager
 
 You can use the **Column manager** in some enhanced lists to easily add and remove columns on the list. You can add or remove both system and custom fields that already exist in Workfront as columns to an enhanced list.
 

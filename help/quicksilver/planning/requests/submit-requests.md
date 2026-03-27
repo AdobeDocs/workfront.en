@@ -193,12 +193,12 @@ The following must be in place before you can submit a request to a Workfront Pl
       You can filter by the following fields:  
 
       * **Workspace**: The workspace the request form is associated with.
-      * **Record type**: The record type the request form is associated with.
+      * **Object type**: The record type the request form is associated with.
       * **Entry date**: The date when the request was submitted.
       * **Request form**: The name of the request form used to submit the request.
       * **Status**: The status of the request.
       * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
-      * **Created object status**: The status of the created record. 
+      <!--* **Created object status**: The status of the created record. -->
 
       You can have multiple filters joined by either **And** or **Or**.
       The request list is filtered automatically, as you add the filter conditions. 
