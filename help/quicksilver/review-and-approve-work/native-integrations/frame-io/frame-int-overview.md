@@ -44,7 +44,7 @@ The Workfront and Frame.io integration uses Workfront's unified approval functio
 * Track the status of reviews and approvals in real time
 * Centralize feedback and approvals in one place
 * Ensure that all stakeholders have access to the latest versions of assets
-* Utilize AI Reviewers to automate brand compliance reviews
+* Utilize Content Reviewers to automate brand compliance reviews
 * and more
 
 For more information, see [Unified document approvals: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).
