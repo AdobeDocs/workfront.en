@@ -41,25 +41,20 @@ The Content Reviewer uses brand guidelines to evaluate content during the review
  </tbody> 
 </table>
 
-
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-
 ## Prerequisites 
 
-* Your organization must have migrated to Adobe IMS (Identity Management System).
-* Your Workfront instance must have Unified Approvals enabled. 
-* Your organization must have GenStudio Foundation. 
+1. You must grant access to brand permissions in the Admin Console and in Workfront access levels before you can create brands. For instructions, see [Grant access to brand permissions](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md).
+
+1. Your Workfront instance must have Unified Approvals enabled. 
+
+1. Your organization must have GenStudio Foundation. 
     * Content Reviewer in Workfront provides the functionality available in GenStudio Foundations for asset review and approval workflows. You do not need to access GenStudio Foundations directly to complete your work.
-* Adobe must have a signed Adobe Gen AI agreement on file.
+1. Adobe must have a signed Adobe Gen AI agreement on file.
     For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
-
-
-## Prerequisites 
-
-You must grant access to brand permissions in the Admin Console and in Workfront access levels before you can create brands. For instructions, see [Grant access to brand permissions](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md).
 
 ## Create a brand using a PDF
 

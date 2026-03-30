@@ -10,7 +10,9 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 ---
 # Get started with the Workfront Content Reviewer
 
-With the Workfront Content Reviewer, you can increase content velocity and optimize brand compliance in the review and approval workflow. You can add Content Reviewers to approval templates or individual review and approval requests in Workfront. 
+Content Reviewer is an AI Collaborator—a type of AI agent that can be added to your projects, tasks and documents. AI Collaborators can be configured in the Setup area and assigned just like users.
+
+In Workfront, Content Reviewer helps increase content velocity and improve brand compliance throughout the review and approval process. You can add Content Reviewers to approval templates or include them in individual review and approval requests.
 
 ## Access requirements
 
@@ -20,9 +22,9 @@ Any user can add the Content Reviewer to a review and approval request.
 
 ## Prerequisites 
 
-* Your organization must have migrated to Adobe IMS (Identity Management System).
 * Your Workfront instance must have Unified Approvals enabled. 
 * Your organization must have GenStudio Foundation.
+     * Content Reviewer in Workfront provides the functionality available in GenStudio Foundations for asset review and approval workflows. You do not need to access GenStudio Foundations directly to complete your work.
 * Adobe must have a signed Adobe Gen AI agreement on file.
     For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
@@ -44,13 +46,13 @@ The Content Reviewer can review the following file types:
 * PPT (.ppt, .pptx)
 * DOC (.doc, .docx)
 
-If you upload an unsupported file type, the Content Reviewer option will not appear when creating an approval.
+If you upload an unsupported file type, the Content Reviewer option will not be available when creating an approval workflow. 
 
 ## Set up brand guidelines
 
 The Workfront Content Reviewer uses the brand guidelines when reviewing your content. Workfront administrators can set up brand guidelines in the Workfront Setup area. Brands created in GenStudio Foundation are also available in Workfront.
 
-For more information, see
+To set up brand guidelines, system administrators must
 
 1. [Grant access to brand permissions](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
 1. [Create and manage brands for the Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
