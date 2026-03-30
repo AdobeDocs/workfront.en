@@ -224,15 +224,15 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * Template
    * Time Off
    * Resource Pool
+   * Job role
+   * Non-labor resource category
+   * Resource Pool
+   * Time Off
+   * Hour
+   * Staffing Plan
+   * Template
+   * Staffing Plan Resource
 <!--
-   * <span class="preview">Job role</span>
-   * <span class="preview">Non-labor resource category</span>
-   * <span class="preview">Resource Pool</span>
-   * <span class="preview">Time Off</span>
-   * <span class="preview">Hour</span>
-   * <span class="preview">Staffing Plan</span>
-   * <span class="preview">Template</span>
-   * <span class="preview">Staffing Plan Resource</span>
    * <span class="preview">Team</span>
 -->
 
