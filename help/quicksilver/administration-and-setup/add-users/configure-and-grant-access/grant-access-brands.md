@@ -106,4 +106,24 @@ Add the user group to the Brands project so they can access and manage assets.
 ### Result
 
 Users in the group now have permissions to create, edit, and publish brand assets within Workfront.
+
 ## 2. Grant access to Brands in Workfront access levels
+
+You must complete all steps in the previous section before granting access to Brands in Workfront access levels.
+
+>[!IMPORTANT]
+>
+>Only users assigned to the user group with the GenStudio system manager product profile in the Admin Console can create, edit, and publish brands in Workfront, even if other users have access to Brands enabled in their access level settings.
+
+
+To grant access to Brands in Workfront access levels:
+
+1. {{step-1-to-setup}}
+
+1. Click **Access Levels** in the left panel.
+1. Find the access level you want to edit, then click the edit icon ![edit icon](assets/edit-icon.png) to edit it.
+or 
+Click **New Access Level** to create a new access level. For more information about creating access levels, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Scroll down to **Set additional restrictions**, then select **Allow users to access Brands**.
+    ![allow access to brands setting](assets/access-for-brands.png)
+1. Click **Save**.
