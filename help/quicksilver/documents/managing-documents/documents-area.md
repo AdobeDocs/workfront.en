@@ -78,7 +78,7 @@ When you select a document in the documents area, you can use the Summary panel 
 
 You can review and approve documents in the new documents area using the Frame.io viewer.
 
-For more information, see [Get started with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Manage versions
 

@@ -134,7 +134,7 @@ Use the Approvals section to create an approval workflow. You can also remind pa
 
 For more information about approvals and Frame.io, see
 
-* [Get started with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
+* [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
 * [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 ![Document summary approvals in new documents experience](assets/summary-approvals.png)

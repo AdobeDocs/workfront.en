@@ -105,4 +105,4 @@ To review a document:
 
 ## Review a document from the Frame.io viewer
 
-To review a document from the Frame.io viewer, your Workfront instance must be integrated with Frame.io. For more information, see the [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
+To review a document from the Frame.io viewer, your Workfront instance must be integrated with Frame.io. For more information, see the [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).

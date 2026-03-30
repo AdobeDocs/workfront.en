@@ -7,6 +7,8 @@ exl-id: 79643202-2d91-4028-b673-c3443b50d898
 ---
 # Share a portfolio
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 Your Adobe Workfront administrator can grant you access to view or edit portfolios when assigning your access level. You must have a Plan license to have access to edit a portfolio. For more information, see [Grant access to portfolios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
 Along with the access level that you are granted, you can also receive permissions to view or manage specific portfolios from users who can share them with you. For more information about access levels and permissions, see [How access levels and permissions work together](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
@@ -76,7 +78,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
     ![Share portfolio button](assets/share-portfolio-button.png)
 
-1. In the **Grant portfolio access to** field, begin typing the name of the user, team, role, group, or company you want to share the portfolio with, then click the name when it appears in the drop-down list.
+1. In the **Grant portfolio access to** field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share the portfolio with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
@@ -109,7 +111,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
     ![Bulk share portfolios](assets/bulk-share-portfolios.png)
 
-1. In the **Grant portfolio access to** field, begin typing the name of the user, team, role, group, or company you want to share the portfolios with, then click the name when it appears in the drop-down list.
+1. In the **Grant portfolio access to** field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share the portfolios with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >

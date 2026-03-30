@@ -8,13 +8,15 @@ description: Business profiles are an enhanced permission model that allows cust
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: yes
-hidefromtoc: yes
 exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
 ---
 # Business profiles overview
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for specific customers.</span>
+
+>[!NOTE]
+>
+>Business profiles are currently available only to organizations that are on AWS clusters. This functionality will be available to other clusters in the near future.
 
 Business profiles are an enhanced permission model that allows customers such as agencies to efficiently manage user access and ensure precise control over permissions at the group level. In a business profile, users have distinct permissions to group-specific objects. Additional objects can also be shared directly with the business profile.
 
