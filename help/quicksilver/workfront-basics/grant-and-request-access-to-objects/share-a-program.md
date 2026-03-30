@@ -10,6 +10,8 @@ exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
 ---
 # Share a program
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 
 Your Adobe Workfront administrator can grant you access to view or edit programs when assigning your access level. You must have a Plan license to have access to edit a program. For more information, see [Grant access to programs](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
 
@@ -83,7 +85,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
     ![Share program button](assets/share-program-button.png)
 
-1. In the **Grant program access to** field, begin typing the name of the user, team, role, group, or company you want to share the program with, then click the name when it appears in the drop-down list.
+1. In the **Grant program access to** field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share the program with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
@@ -119,7 +121,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
     ![Bulk share programs](assets/bulk-share-programs.png)
 
-1. In the **Grant program access to** field, begin typing the name of the user, team, role, group, or company you want to share the programs with, then click the name when it appears in the drop-down list.
+1. In the **Grant program access to** field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share the programs with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >

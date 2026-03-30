@@ -1,16 +1,18 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Frame.io integration overview
-description: Frame.io integration overview
+title: Unified review and approval overview
+description: Learn more about unified review and approvals powered by Workfront and Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+hide: yes
+hidefromtoc: yes
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
 ---
-# Frame.io integration overview
+# Unified review and approval overview
 
-The Workfront and Frame.io integration allows project coordinators to manage projects and plan work in Workfront while creatives, marketers, and stakeholders can review and approve assets in Frame.io.
+Unified review and approvals powered by Workfront and Frame.io allows project coordinators to manage projects and plan work in Workfront while creatives, marketers, and stakeholders can review and approve assets in Frame.io.
 
 ## Integration requirements
 
@@ -25,7 +27,7 @@ The Workfront and Frame.io integration allows project coordinators to manage pro
 
 ## Built on Adobe enterprise storage
 
-At the core of this integration is Adobe enterprise storage—-a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products, including Workfront and Frame.io. <!--, and Creative Cloud.-->
+Unified review and approvals is built on Adobe enterprise storage—-a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products, including Workfront and Frame.io. <!--, and Creative Cloud.-->
 
 Key benefits of Adobe enterprise storage include:
 
@@ -38,7 +40,7 @@ For more details, see [Adobe enterprise storage overview](/help/quicksilver/revi
 
 ## Unified review and approval 
 
-The Workfront and Frame.io integration uses Workfront's unified approval functionality to manage reviews and approvals. With unified approvals, you can:
+With unified review and approvals, you can:
 
 * Create and manage reviews and approvals directly from Workfront
 * Track the status of reviews and approvals in real time
@@ -52,14 +54,14 @@ For more information, see [Unified document approvals: article index](/help/quic
 
 ### Use the Frame.io viewer
 
-The integration also connects with the Frame.io viewer. The Frame.io viewer provides
+Use the Frame.io viewer to review and approve assets. The Frame.io viewer provides
 
 * Markup and commenting tools
 * Version history and comparison
 * Time-stamped comments for video reviews
 * Mobile access for on-the-go reviews and approvals
 
-For more information, see [Get started with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Video review limits
 
@@ -83,13 +85,13 @@ Workfront Proofing functionality is not available with this integration.
 
 ## Powerful project management in Workfront
 
-With the Workfront and Frame.io integration, project coordinators can leverage Workfront's powerful project management capabilities to plan, track, and manage work.
+Project coordinators can leverage Workfront's powerful project management capabilities to plan, track, and manage work.
 
 For more information about managing projects in Workfront, see [Projects: article index](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
 ### Enforced structure and naming conventions
 
-Because this integration is built using Adobe enterprise storage, there are some enforced structure and naming conventions to be aware of when managing projects and documents.
+Because unified review and approvals is built using Adobe enterprise storage, there are some enforced structure and naming conventions to be aware of when managing projects and documents.
 
 * Object names must be unique and can't be duplicated
 * Adobe enterprise storage requires unique names for peer objects with the same parent in the hierarchy tree
@@ -132,11 +134,7 @@ Documents uploaded to Workfront are stored in Adobe enterprise storage and are a
 
 ### Document experience limitations
 
-Because this integration is built using Adobe enterprise storage, there are some limitations to the original document experience in Workfront:
-
-#### Limitations
-
-The following capabilities will not be included in this integration:
+The following Document capabilities are not be included:
 
 <!--* External document providers-->
 * Access to Proofing in Workfront

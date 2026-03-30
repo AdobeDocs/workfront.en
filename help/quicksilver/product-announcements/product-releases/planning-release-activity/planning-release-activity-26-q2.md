@@ -16,6 +16,18 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Breadcrumb redesign   
+
+>[!NOTE]
+>
+>Preview: March 26, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+We have redesigned the way breadcrumbs display across record types and records. Now, when you click More in the breadcrumb line, the names of the records and objects displays on multiple lines. Prior to this enhancement, clicking More displayed the names of records and objects in drop-down menus.  
+
+For more information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
 <!--
 
 ## New field type for Record ID  
