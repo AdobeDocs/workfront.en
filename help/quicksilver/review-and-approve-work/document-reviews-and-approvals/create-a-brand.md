@@ -1,20 +1,20 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Set up brands for the AI Reviewer
-description: Set up brands for the AI Reviewer
+title: Set up brands for the Content Reviewer
+description: Set up brands for the Content Reviewer
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 ---
-# Set up brands for the AI Reviewer
+# Set up brands for the Content Reviewer
 
 >[!IMPORTANT]
 >
 >This feature is currently in beta. 
 
-The AI Reviewer uses brand guidelines to evaluate content during the review process. You can create brands in Workfront by uploading PDF files that contain your brand guidelines or by manually entering brand elements.
+The Content Reviewer uses brand guidelines to evaluate content during the review process. You can create brands in Workfront by uploading PDF files that contain your brand guidelines or by manually entering brand elements.
 
 ## Access requirements
 
@@ -73,7 +73,7 @@ For more detail about the information in this table, see [Access requirements in
     >
     >Guidelines are generated using your files and generative AI technology and may be inaccurate. Review extracted guidelines for missing or incorrect details and edit them before you publish this brand.
 
-1. When finished, click **Publish** to make the brand available for the AI Reviewer.
+1. When finished, click **Publish** to make the brand available for the Content Reviewer.
 
 ## Create a brand manually
 
@@ -115,4 +115,4 @@ For more detail about the information in this table, see [Access requirements in
     ![add brand elements manually](assets/brand-elements.png)
 
 
-1. When finished, click **Publish** to make the brand available for the AI Reviewer.
+1. When finished, click **Publish** to make the brand available for the Content Reviewer.
