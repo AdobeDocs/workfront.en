@@ -20,7 +20,7 @@ To set up Content Reviewers in Workfront, you must be a system administrator.
 
 Any user can add the Content Reviewer to a review and approval request.
 
-## Prerequisites 
+## Requirements 
 
 * Your Workfront instance must have Unified Approvals enabled. 
 * Your organization must have GenStudio Foundation.
@@ -108,8 +108,3 @@ For more information on viewing scores and feedback, see [View Content Reviewer 
 
 
 ![Content reviewer feedback](assets/ai-reviewer-output.png)
-
-
-<!--## Video Walkthrough
-
->[!VIDEO](https://video.tv.adobe.com/v/3470847/)-->
