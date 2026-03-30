@@ -67,7 +67,7 @@ Once there is at least one brand set up, Workfront administrators can begin crea
 
 Content Reviewers can then be assigned to approval templates and individual review and approval requests.
 
-For more information, see [need link].<!--get link from BEcky when article is ready-->
+For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
 ## Add Content Reviewers to review and approval requests
 

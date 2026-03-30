@@ -24,7 +24,7 @@ Available AI Collaborator types include:
 
 * Reviewer: Create a collaborator using brands or brand brain, then assign the collaborator as a reviewer on assets.
 
-   For more information see []().
+   For more information see [Get started with the Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 * You must have configured a brand in Workfront before you can use it for a Reviewer-type AI Collaborator.
 
-   For instructions, see [Set up brands for the AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
+   For instructions, see [Create and manage brands for the Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 ## Create a new Reviewer-type AI Collaborator
 

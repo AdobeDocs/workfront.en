@@ -128,4 +128,4 @@ Click **New Access Level** to create a new access level. For more information ab
     ![allow access to brands setting](assets/access-for-brands.png)
 1. Click **Save**.
 
-Once you have configured Brands, you can create a Content Reviewer to review assets against brand guidelines in the review and approval workflow. For more information, see [need link]().  <!--get link from Becky when article is ready-->
+Once you have configured Brands, you can create a Content Reviewer to review assets against brand guidelines in the review and approval workflow. For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
