@@ -34,11 +34,17 @@ The Content Reviewer uses brand guidelines to evaluate content during the review
    <td> <p>You must be a system administrator.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Admin Console permissions</td> 
-   <td> <p>You must GenStudio Brand Manager.</p></td> 
+   <td role="rowheader">Admin Console permissions*</td> 
+   <td> <p>You must GenStudio Brand Manager.</p>
+    <p>NOTE: In order to select GenStudio Brand Manager, you must follow the steps outlined in <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/configure-brand-permissions">Assign Brand permissions</a>.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
+
+
+
+
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 

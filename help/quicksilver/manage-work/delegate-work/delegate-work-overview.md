@@ -79,7 +79,7 @@ Consider the following when you delegate tasks and issues:
 | An assigned or delegated user displays in the work item's header | Yes | Yes |
 | The assigned or delegated tasks or issues display in the assignee's or delegate's Home area | Yes, until the item is completed | Yes, only for the time frame of the delegation |
 | You can assign or delegate work to users from the Home area | Yes | Yes |
-| You can assign or delegate work to users using the | Yes | No |
+| You can assign or delegate work to users using the Workload Balancer | Yes | No |
 | You can assign or delegate work to users in a list, or from a work item's header | Yes | No |
 | Any user can assign or delegate other users with work items that they are not associated with | Based on permissions and access level | No. Only the assignee can delegate their own items. |
 | Planned, Actual, or Budgeted Hours for work assigned or delegated to a user display for that user in resource management tools | Yes | No |

@@ -398,7 +398,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
    </tr> 
    </tbody> 
    </table>
-1. Hover over the name of an assignee and click Make Primary. This will be the Owner of the future project task. 
+1. Hover over the name of an assignee and click **Make Primary**. This will be the **Owner** of the future project task. 
 
    >[!TIP]
    >

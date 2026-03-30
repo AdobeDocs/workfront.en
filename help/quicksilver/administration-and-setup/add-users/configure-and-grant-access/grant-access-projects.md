@@ -62,6 +62,8 @@ For more detail about the information in this table, see [Access requirements in
    >* Users with a Review license have View rights on projects from converted issues, but their View rights are limited.
    >* For information about permissions users can grant when sharing projects with others, see [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
    >* When you configure an access level setting for a certain type of object, that configuration doesn't affect the users' access to objects with a lower rank. For example, you can restrict users from deleting projects in their access level, but this does not restrict them from deleting tasks, which are lower-ranking than projects.For more information about the hierarchy of objects, see the section [Interdependency and hierarchy of objects](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) in the article [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   * A user whose access level doesn't allow access to financial data cannot grant access that would allow others to view financial data. This includes giving access to projects that would show financial data, or modifying an access level to allow viewing financial data.
+
 
 1. (Optional) Click **set sharing defaults** to the right of the Create option, then **Add Rule** to add a sharing rule for new projects.
 
@@ -85,9 +87,9 @@ For more detail about the information in this table, see [Access requirements in
 
    After the access level is created, you can assign it to a user. For more information, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-## Access to reports, dashboards, and calendars by license type
+## Access to projects by license type
 
-For information about what users in each access level can do with issues, see the section [Projects](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects) in the article [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+For information about what users in each access level can do with projects, see the section [Projects](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects) in the article [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Access to shared projects
 

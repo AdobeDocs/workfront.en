@@ -141,7 +141,7 @@ For more information on configuring project connection views, including filters,
 
 >[!IMPORTANT]
 >
->This has been temporarily removed from  the Preview and Production environments.
+>This was temporarily removed from  the Preview and Production environments between January 20 - February 17, 2026.
 
 >[!NOTE]
 >

@@ -22,7 +22,7 @@ This page provides information about the functionality included in the 2020.1 re
 
 These enhancements are currently available in the Preview environment and will be made available in the Production environment the week of March 30, 2020.
 
-To download this page in PDF&nbsp;format, go [here](https://documentation.my.workfront.com/library/a/9f5c9e44-c9a9-4f33-beec-9e5dc2e0fdc2).
+<!--To download this page in PDF format, go [here](https://documentation.my.workfront.com/library/a/9f5c9e44-c9a9-4f33-beec-9e5dc2e0fdc2).-->
 
 Some functionality was released prior to the 2020.1 release. To see what was released prior to the 2020.1 release, see [Other Workfront Classic features released to Production prior to the 2020.1 release](../../../product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md).
 

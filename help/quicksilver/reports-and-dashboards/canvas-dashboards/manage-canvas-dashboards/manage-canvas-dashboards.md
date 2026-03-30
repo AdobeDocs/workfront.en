@@ -3,7 +3,7 @@ product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
 title: 'Manage Canvas Dashboards: article index'
 description: View the articles in this section.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 3e36ddc8-2552-4449-9c3a-3720e0af590b

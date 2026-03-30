@@ -4,7 +4,7 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View: Tasks Impacted by Schedule Exceptions'
 description: This task view identifies tasks that will have to complete late because of weekends, Personal Time Off, or other schedule exceptions.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7d7c77fa-d9a7-4e91-8dae-ad3aaca6f1da
 ---

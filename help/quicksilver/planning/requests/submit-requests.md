@@ -3,7 +3,7 @@ title: Submit Adobe Workfront Planning requests
 description: After someone shares a link to a request form with you from a record type page in Adobe Workfront Planning, you can add a request to create records for the record type associated with the request form.
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 ---
@@ -148,6 +148,9 @@ The following must be in place before you can submit a request to a Workfront Pl
 
    A window opens with the request form name at the top.
 1. Update the fields available in the request form. Fields with a red asterisk are required. 
+1. (Conditional) If your organization allows Form Fill powered by AI, you can upload documents as prompts. AI uses these documents to fill in the form, and you can accept or reject the AI suggestions.
+
+   For instructions, see [Use Form Fill powered by AI to fill in a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 1. Click **Submit**.
     
    The request form closes and you return to the **Requests** area. 
@@ -176,7 +179,7 @@ The following must be in place before you can submit a request to a Workfront Pl
 
       >[!NOTE]
       >
-      >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
+      >The email and in-app notification are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
       >
       >There is a link to the request in the email confirmation or approval notification. 
 
@@ -263,7 +266,7 @@ Information in this section applies only for Workfront users who submit a reques
 
       >[!NOTE]
       >
-      >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
+      >The email and in-app notification are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
    
    <!-- <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
 

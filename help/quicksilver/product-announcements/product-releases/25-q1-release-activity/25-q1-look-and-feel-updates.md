@@ -1,7 +1,7 @@
 ---
 title: Look-and-feel updates during the First Quarter 2025 release time frame
 description: Look-and-feel updates during the First Quarter 2025 release time frame
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4

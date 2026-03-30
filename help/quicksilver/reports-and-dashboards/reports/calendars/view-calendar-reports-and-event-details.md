@@ -3,7 +3,7 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: View Calendar Reports and Event Details
 description: You can view calendar reports and event details that you created or were shared with you in Adobe Workfront.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
 ---
@@ -74,6 +74,10 @@ For more detail about the information in this table, see [Access requirements in
    * **[!UICONTROL Gantt]**: Displays a continuous view of the calendar
       
       You can see more events in a **Gantt** view by scrolling down or sideways. A loading symbol appears as data is populated for the view.
+
+   >[!NOTE]
+   >
+   >Calendars can display events up to 5 years into the future.
 
    >[!NOTE]
    >
