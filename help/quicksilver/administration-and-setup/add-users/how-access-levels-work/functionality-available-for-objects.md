@@ -296,6 +296,8 @@ These options are available in the Production environment:
 
 &#42;&#42;External users can only search for other users.
 
+<!--
+
 <div class="preview">
 
 ## Job Roles
@@ -318,8 +320,6 @@ These options are available in the Production environment:
 &#42; Using an access level, Workfront administrators can disable or enable this functionality.
 
 </div>
-
-<!--
 
 ## Companies
 
