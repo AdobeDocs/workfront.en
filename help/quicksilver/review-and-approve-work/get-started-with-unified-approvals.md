@@ -1,20 +1,24 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Get started with the Frame.io integration
-description: Get started with the Frame.io integration.
+title: Get started with unified review and approval
+description: Learn more about unified review and approval powered by Workfront and Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-recommendations: noDisplay, noCatalog
-exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
+exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 ---
-# Get started with the Frame.io integration
+# Get started with unified review and approval
 
-The Workfront and Frame.io integration keeps creatives, marketers, and stakeholders aligned with a seamless workflow. Access real-time updates, avoid duplicate work, and ensure assets are approved before launch.
+
+Unified review and approval brings together Adobe Workfront and Adobe Frame.io into a single, deeply connected experience --- closing the gaps between marketing management, creative review, and content delivery. Project coordinators manage work in Workfront while creatives, marketers, and stakeholders review and approve assets in the professional-grade Frame.io viewer, all without moving files between disconnected tools.
 
 For more information about Frame.io, see [Getting Started with Frame.io](https://support.frame.io/en/collections/49298-getting-started).
 
-You must have the Workfront and Frame.io integration set up in your Workfront instance. For more information, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements).
+You must have the Workfront and Frame.io integration set up in your Workfront instance. For more information, see [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
+
+## Overview video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3471078)
 
 ## Integration requirements
 
@@ -46,7 +50,6 @@ After the approval workflow is created, reviewers and approvers can use the Fram
 For more information about setting up projects, see 
 
 * [Create a project](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-* [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
 
 ### Initiate formal reviews and approvals in Workfront
 
@@ -120,3 +123,4 @@ Project coordinators can monitor progress on all in-flight approvals in the Work
 You can use the [!DNL Experience Manager Assets]​​ to manage and store your digital assets that have gone through the review and approval cycle. This integration allows you to leverage the capabilities of Adobe Experience Manager, Frame.io, and Workfront to streamline your content management and collaboration processes.
 
 For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+
