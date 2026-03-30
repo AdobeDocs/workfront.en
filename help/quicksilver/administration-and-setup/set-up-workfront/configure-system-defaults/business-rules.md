@@ -229,7 +229,7 @@ You can use wildcards in business rule actions, as described in the section [Sce
 
      In this example, "Learn more" will link to the URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` The URL must be in parentheses, but link text in brackets is not required. You can display the full URL and it will be a clickable link.
 
-   ![Add business rule dialog](assets/add-business-rule-dialog-no-ai-button.png) <!--UPDATE ME-->
+   ![Add business rule dialog](assets/add-business-rule-new.png) 
 
    This example is a business rule for projects. If the current month is November, then users are not permitted to create new projects, and the message explains this.
    
