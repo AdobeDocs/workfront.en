@@ -127,3 +127,5 @@ Click **New Access Level** to create a new access level. For more information ab
 1. Scroll down to **Set additional restrictions**, then select **Allow users to access Brands**.
     ![allow access to brands setting](assets/access-for-brands.png)
 1. Click **Save**.
+
+Once you have configured Brands, you can create a Content Reviewer to review assets against brand guidelines in the review and approval workflow. For more information, see [need link]().  <!--get link from Becky when article is ready-->

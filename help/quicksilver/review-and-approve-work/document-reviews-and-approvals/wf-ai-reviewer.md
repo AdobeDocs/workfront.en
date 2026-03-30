@@ -10,11 +10,6 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 ---
 # Get started with the Workfront Content Reviewer
 
->[!IMPORTANT]
->
->This feature is currently in beta. 
-
-
 With the Workfront Content Reviewer, you can increase content velocity and optimize brand compliance in the review and approval workflow. You can add Content Reviewers to approval templates or individual review and approval requests in Workfront. 
 
 ## Access requirements
@@ -95,7 +90,7 @@ When users create individual review and approval requests, they can add a Conten
 For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 
-![Content reviewer added to individual approval request](assets/ad-ai-reviewer-to-request.png)
+![Content reviewer added to individual approval request](assets/new-stage.png)
 
 ## View Content Reviewer score and feedback 
 

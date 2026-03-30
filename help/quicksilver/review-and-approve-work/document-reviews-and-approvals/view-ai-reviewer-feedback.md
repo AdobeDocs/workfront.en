@@ -10,10 +10,6 @@ exl-id: 838e8f3d-0ea6-4844-a261-ef7b0e78a755
 ---
 # View Content Reviewer score and feedback 
 
->[!NOTE]
->
->This feature is currently in beta. 
-
 Seconds after you submit the review and approval request, you can view the score and feedback from the Content Reviewer in the Document Summary panel. 
 
 The Content Reviewer is not designed to be a decision-maker in the review and approval workflow. It only provides a score and recommendations to align the asset with the specified brand requirements. 
