@@ -16,9 +16,13 @@ For a list of all changes available at this point in the Second Quarter 2026 rel
 
 ## Unified review and approvals powered by Workfront and Frame.io
 
-We're excited to introduce Unified Review & Approval powered by Workfront and Frame.io, a streamlined review and approval experience.
 
-This new capability is available to net new customers and to existing customers upon renewal.
+>[!IMPORTANT]
+>
+>This new capability is available to net new customers and to existing customers upon renewal.
+
+
+We're excited to introduce Unified Review & Approval powered by Workfront and Frame.io, a streamlined review and approval experience.
 
 ### What's New
 
