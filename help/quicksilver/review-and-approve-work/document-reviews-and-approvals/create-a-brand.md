@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: approvals
 title: Create and manage brands for the Content Reviewer
-description: Set up brands for the Content Reviewer
+description: Create and manage brands for the Content Reviewer
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 ---
-# Set up brands for the Content Reviewer
+# Create and manage brands for the Content Reviewer
 
 
 The Content Reviewer uses brand guidelines to evaluate content during the review process. You can create brands in Workfront by uploading PDF files that contain your brand guidelines or by manually entering brand elements.

@@ -31,10 +31,6 @@ Any user can add the Content Reviewer to a review and approval request.
 * Adobe must have a signed Adobe Gen AI agreement on file.
     For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
-## Join the beta
-
-To join the beta, go to **Setup** > **Review and Approval** > **Content Reviewers**, and click **Accept Terms**.
-
 
 ## Supported file types {#supported-file-types-ai-reviewer}
 
@@ -51,6 +47,7 @@ The Content Reviewer can review the following file types:
 * Non-animated GIF (.gif)
 * PDF (.pdf)
 * PPT (.ppt, .pptx)
+* DOC (.doc, .docx)
 
 If you upload an unsupported file type, the Content Reviewer option will not appear when creating an approval.
 
@@ -58,19 +55,22 @@ If you upload an unsupported file type, the Content Reviewer option will not app
 
 The Workfront Content Reviewer uses the brand guidelines when reviewing your content. Workfront administrators can set up brand guidelines in the Workfront Setup area. Brands created in GenStudio Foundation are also available in Workfront.
 
-For more information, see [Set up brands for the Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
+For more information, see
+
+1. [Grant access to brand permissions](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
+1. [Create and manage brands for the Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 
 ## Create Content Reviewers
 
 Once there is at least one brand set up, Workfront administrators can begin creating Content Reviewers in the Setup area. You can create muultiple Content Reviewers focused on different guidelines:
 
-* **Image**: This Content Reviewer will review the asset against the image brand guidelines you set up in Workfront.
+* **Image**: This Content Reviewer will review the asset against the image brand guidelines you set up in Workfront. [!BADGE Beta]{type=Positive tooltip="This feature is currently in beta."}
 * **Brand voice**: The Content Reviewer will review the asset against brand voice guidelines you set up in Workfront.
 
 Content Reviewers can then be assigned to approval templates and individual review and approval requests.
 
-For more information, see [Create Content Reviewers](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md).
+For more information, see [need link].<!--get link from BEcky when article is ready-->
 
 ## Add Content Reviewers to review and approval requests
 

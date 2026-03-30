@@ -6,6 +6,8 @@ description: Once you have at least one brand set up in Workfront, you can creat
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+hide: yes
+hidefromtoc: yes
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
 ---
 # Create Content Reviewers
@@ -46,7 +48,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Prerequisites
 
-Before you begin, you must set up image brand guidelines in Workfront. For more information, see [Set up brands for the Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
+Before you begin, you must set up image brand guidelines in Workfront. For more information, see [Create and manage brands for the Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 ## Add a Content Reviewer
 
