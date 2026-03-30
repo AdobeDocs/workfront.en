@@ -281,3 +281,4 @@ To activate a business rule:
 1. Select the business rule in the list of rules and click the Edit icon.
 1. Select **Yes** for **Is Active** in the business rule dialog.
 1. Click **Save**.
+
