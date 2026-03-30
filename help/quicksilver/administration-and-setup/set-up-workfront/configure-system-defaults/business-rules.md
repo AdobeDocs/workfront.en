@@ -154,8 +154,6 @@ The message appears in the localized language.
 
 For information on custom localization, see [Configure custom localization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
 
-<!--
-
 ## Scenarios for business rule automation
 
 >[!NOTE]
@@ -180,7 +178,6 @@ IF({status} = "APR", true)
 
 You can use wildcards in business rule actions, as described in the section [Scenarios for business rule validation](#scenarios-for-business-rule-validation).
 
--->
 
 ## Add a new business rule
 
@@ -256,7 +253,7 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * The "object" is the object type you selected when creating the business rule. It is displayed in the heading of the dialog.
    * The "action" is the trigger you selected for the rule: create, edit, or delete the object.
    * Because the object and the action are already defined, you do not include them in the formula.
-   * The custom error message <!--<span class="preview">is included only if the rule is for validation, and </span>--> is displayed to the user when they trigger the business rule. It should provide clear instructions on what went wrong and how to correct the issue.
+   * The custom error message <span class="preview">is included only if the rule is for validation, and </span> is displayed to the user when they trigger the business rule. It should provide clear instructions on what went wrong and how to correct the issue.
 
      You can include a static URL in the error message, to link to documentation or other helpful pages to guide the user on how to modify their action within the constraint of the rule.
 
@@ -278,8 +275,6 @@ You can use wildcards in business rule actions, as described in the section [Sce
 
    For other packages, this option is pre-selected.
 
-<!--
-
 1. (Conditional) To automate another action,, select the action. 
 
    For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.
@@ -288,15 +283,11 @@ You can use wildcards in business rule actions, as described in the section [Sce
    >
    >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
 
-   -->
-
 1. Click **Save** when you are finished building the business rule.
 
 >[!NOTE]
 >
 >After you add a business rule, you should test it by adding, editing, or deleting the associated object to make sure the rule is applied properly.
-
-<!--
 
 <div class="preview">
 
