@@ -187,6 +187,10 @@ For more detail about the information in this table, see [Access requirements in
       <td role="rowheader">Never allow users to delete announcements</td> 
       <td>Prevents users from deleting announcements in the Announcement Center. For more information, see <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Send announcements</a>.</td> 
      </tr> 
+     <tr>
+      <td role="rowheader">Allow users to access Brands</td> 
+      <td>Allows users to access and manage GenStudio Brands in Workfront. For more information, see <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">Grant access to brand permissions</a>.</td> 
+     </tr>
     </tbody> 
    </table>
 
