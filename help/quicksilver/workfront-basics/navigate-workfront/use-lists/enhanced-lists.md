@@ -150,7 +150,7 @@ Some columns allow you to save a customized name for the column title.
 
    The new column name appears on the list.
 
-## Add and remove columns with the Column manager
+### Add and remove columns with the Column manager
 
 You can use the **Column manager** in some enhanced lists to easily add and remove columns on the list. You can add or remove both system and custom fields that already exist in Workfront as columns to an enhanced list.
 
@@ -277,11 +277,13 @@ To sort individual columns:
 
    ![Sort by a column](assets/glist-sort-by-column.png)
 
-To sort your work within a grouping:
-
-1. Click **Group**, go to the line of the applied grouping, click on the sorter dropdown, and select an ascending or descending order.
+1. (Optional) To sort your work within a grouping, click **Group**, go to the line of the applied grouping, click on the sorter dropdown, and select an ascending or descending order.
 
    ![Sort in a grouping](assets/sort-in-groups.png)
+
+   >[!TIP]
+   >
+   >The sorting order differs based on the field type you sort by. 
 
 ### Search in an enhanced list
 

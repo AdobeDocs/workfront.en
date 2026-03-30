@@ -21,7 +21,8 @@ In addition to using the available drafts that Workfront suggests to you when yo
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any </p> </td> 
+   <td> <p>Any Adobe Workfront or Workflow package</p>
+   <p>Any Adobe Workfront Planning package to create requests for Workfront Planning </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -33,10 +34,7 @@ In addition to using the available drafts that Workfront suggests to you when yo
    <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Issues</p>  </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"> Product</td> 
-   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
-  </tr> 
+ 
  </tbody> 
 </table>
 

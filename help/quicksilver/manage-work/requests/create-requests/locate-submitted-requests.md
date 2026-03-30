@@ -11,6 +11,18 @@ exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 ---
 # View submitted requests
 
+<!--
+Remove production and preview references at release
+-->
+
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
+
 You can view the requests that you or someone else submitted, or requests you started but you never finished submitting. The unfinished requests are saved as drafts. 
 
 You can locate submitted requests in the following areas of Adobe Workfront:
@@ -79,13 +91,28 @@ Viewing submitted requests differs based on whether you are using the new or leg
 
 ### View submitted requests in the new requesting experience
 
-You can view submitted requests in the Requests area, which include links to objects created by Adobe Workfront Planning requests.
+>[!NOTE]
+>
+>* If you have Workfront Planning, your Workfront and Planning requests appear in the same list. Workfront requests display the value `Issue` in the **Object type** column.
+>* Up to 50 requests display in the list in the Requests area by default. To view more requests, scroll to the bottom of the list.
+
+You can view submitted requests in the Requests area, which include links to records created by Adobe Workfront Planning requests in the Production environment <!--, or links to records created by Planning requests or <span objects converted from Workfront issues in the Preview environment-->.
 
 >[!NOTE]
 >
 >Links to created objects are available in the new requesting experience only for Planning requests, in cases where the request itself created a record. 
 >
 >If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience.
+
+<!--
+replace the note above with this at release: 
+>[!NOTE]
+>
+>Links to created objects are available in the new requesting experience only for Planning requests in the Production environment, in cases where the request itself created a record. 
+>
+>If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience in the Production environment.
+><span class="preview">In the Preview environment, you can access both Workfront objects converted from Workfront requests and Planning records created from Planning requests from the Requests area list.</span>
+-->
 
 To view requests that you or other users have submitted in the new requesting experience:
 
@@ -96,13 +123,22 @@ To view requests that you or other users have submitted in the new requesting ex
    The requests list displays.
 
 1. (Optional) To search for a request, begin typing in the search bar in the upper-right corner of the list. Search results appear as you type.
-1. (Optional) Click **Filters** and start adding conditions for the requests you want to display.
+1. (Optional) To manage the way the information displays in the requests list, update the following view elements for the list: 
 
-   For more information on filters, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+   * View
+   * Filter
+   * Columns
+   
+   <!--
+   <div class="preview">
+      * Group
+   * Format cells
+   * Row height
+      </div>
+   -->
 
-1. (Optional) Click the **Views** drop-down menu to update your view or share it with others. 
+   For more information on managing information in the requests list, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). 
 
-   For information, see [Create or edit views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 1. (Optional) Check the status of a request by checking the **Status** column. The following statuses are available in the new requesting experience:
 
    * **Draft**: This request has not yet been submitted.
@@ -115,11 +151,6 @@ To view requests that you or other users have submitted in the new requesting ex
 
          For more information, see [Set up Configuration details](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) in the article Create and manage a request form in Adobe Workfront Planning.
    * **Complete**: The request is completed.
-
->[!NOTE]
->
->* If you have Workfront Planning, your Workfront and Planning requests appear in the same list. Workfront requests display the value `Issue` in the **Object type** column.
->* Up to 50 requests display in the list in the Requests area by default. To view more requests, scroll to the bottom of the list.
 
 ### View submitted requests in the legacy requesting experience
 
@@ -265,7 +296,7 @@ To view requests that you or other users have submitted in the legacy requesting
    
 1. (Optional) Check the status of a request by checking the **Status** column. The following statuses are available in the new requesting experience:
 
-   * **Draft**: This request has not yet been submitted.
+   * **Draft**. This request has not yet been submitted.
    * **In Progress**
    * **Complete**
 
