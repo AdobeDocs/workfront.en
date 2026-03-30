@@ -1,7 +1,7 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Set up brands for the Content Reviewer
+title: Create and manage brands for the Content Reviewer
 description: Set up brands for the Content Reviewer
 author: Courtney
 feature: Work Management, Digital Content and Documents

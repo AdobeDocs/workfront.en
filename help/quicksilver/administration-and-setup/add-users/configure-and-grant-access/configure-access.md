@@ -33,7 +33,7 @@ These articles explain how you, as an Adobe Workfront administrator, can grant u
 * [Grant access to Scenario Planner](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) 
 * [Grant access to Resource Management](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md) 
 * [Grant access to Adobe Workfront Goals](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
-* [Configure brand permissions](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
+* [Grant access to brand permissions](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
 
 ## See also
 
