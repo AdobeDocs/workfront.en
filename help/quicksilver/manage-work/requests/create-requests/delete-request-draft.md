@@ -9,18 +9,19 @@ exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
 ---
 # Delete a submitted request or request draft
 
-You can delete submitted requests or request drafts that you created for both Workfront and Workfront Planning.
+You can delete Adobe Workfront or Adobe Workfront Planning submitted requests or request drafts that you created or have Manage permissions to.
 
-Workfront administrators and Planning workspace managers can also delete requests and request drafts. 
+Workfront administrators and Workfront Planning workspace managers can also delete requests and request drafts they didn't create. 
 
 You cannot view Planning requests in the legacy request experience. 
 
-This article describes how you can delete request drafts in the new request experience. 
+This article describes how you can delete request drafts in the new request experience. Deleting Workfront and Planning requests or their drafts is identical.
 
 For more information, see:
 
 * [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md) 
 * [Create requests from drafts](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
+* [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
 
 ## Access requirements
 

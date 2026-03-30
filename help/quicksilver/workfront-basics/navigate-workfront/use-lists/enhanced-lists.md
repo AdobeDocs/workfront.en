@@ -277,11 +277,13 @@ To sort individual columns:
 
    ![Sort by a column](assets/glist-sort-by-column.png)
 
-To sort your work within a grouping:
-
-1. Click **Group**, go to the line of the applied grouping, click on the sorter dropdown, and select an ascending or descending order.
+1. (Optional) To sort your work within a grouping, click **Group**, go to the line of the applied grouping, click on the sorter dropdown, and select an ascending or descending order.
 
    ![Sort in a grouping](assets/sort-in-groups.png)
+
+   >[!TIP]
+   >
+   >The sorting order differs based on the field type you sort by. 
 
 ### Search in an enhanced list
 

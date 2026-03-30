@@ -33,7 +33,11 @@ If your company has purchased Adobe Workfront Planning, you can also create a Wo
 
 * From a Workfront Planning request form in the Requests area of Workfront. 
 
-Planning requests create records in Workfront Planning. For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+Planning requests create records in Workfront Planning. 
+
+For information, see the section [Create requests using a Workfront Planning request form](#create-requests-using-a-workfront-planning-request-form) in this article. 
+
+This article describes how you can create and submit Workfront requests using Workfront request queues. 
 
 ## Access requirements
 
@@ -100,7 +104,7 @@ You can continue submitting the request, or you can complete as much information
 
 You can find drafted requests in the following areas of the following requesting experiences:
 
-* New requesting experience: The requests list
+* New requesting experience: The requests list. Drafts are requests with a status of Draft. 
 * Legacy requesting experience: The Drafts folder of the requests list. 
 
 >[!IMPORTANT]
