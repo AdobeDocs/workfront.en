@@ -22,7 +22,9 @@ When you submit similar requests frequently you can copy an existing submitted r
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any </p> </td> 
+   <td> <p>Any Workfront or Workflow package</p>
+   
+   <p>Any Workfront Planning package to copy and submit Planning requests </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -38,10 +40,12 @@ When you submit similar requests frequently you can copy an existing submitted r
    <td role="rowheader">Object permissions</td> 
    <td><p>Access to add requests to a request queue</p> <p>View or higher permissions on the existing request</p> <p>For information on setting up a request queue, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. </p> </td> 
   </tr>
+  <!--
   <tr> 
    <td role="rowheader"> Product</td> 
    <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
@@ -52,6 +56,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 ## Prerequisites
 
 You must have a request that you or someone in your organization previously submitted to be able to copy it and resubmit it. If the request belongs to someone else, you must have at least access to View it to be able to copy and submit it as new.
+
+You can copy and resubmit one of the following types of requests: 
+
+* A Workfront request, submitted to a request queue
+* A Workfront Planning request submitted to a Planning request form, if your company purchased a Planning package. 
 
 ## Considerations about copying and submitting requests as new
 
@@ -86,7 +95,51 @@ You must have a request that you or someone in your organization previously subm
   >
   >The copied request is not linked to a resolving object.
 
+## Copy and submit requests in the new requesting experience
+
+You can copy and submit requests in the Requests area of Workfront, or from the My Requests widget in Home.
+
+1. Do one of the following: 
+
+   {{step1-to-requests}}
+
+   1. To access the **My Requests** widget in **Home**:
+   
+   {{step1-to-home}}
+
+   1. Locate the **My Requests** widget. 
+
+      For more information on the My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. In the **Requests** list or the **My Requests** widget in Home, hover over the request that you want to copy, then click the **More** menu next to its name.  
+
+   ![More menu](assets/more-menu.png)
+
+1. Click **Copy** 
+
+     Or
+
+     Right-click on the selected request, then click **Copy**.
+
+     >[!TIP]
+     >
+     >When you do not have access to create issues, you receive a warning that your administrator restricted you from creating requests.
+
+1. (Optional) Update any information from the copied request. Available fields depend on the Request Queue or Request Form used for the request.
+
+   When you enter or change any field values in the copied request, it is saved as a draft.
+
+1. Click **Submit**.
+
+   The copied request is submitted as a new request.
+   
+   Resolving objects from the original request are not copied.
+   
+   When you copy and resubmit a Planning request, it creates another record for the record type associated with the original request's form. 
+
 ## Copy and submit requests in the legacy requesting experience
+
+If your company purchased a Workfront Planning package, you cannot copy and submit Planning requests in the legacy requesting experience. 
 
 {{step1-to-requests}}
 
@@ -216,42 +269,6 @@ You must have a request that you or someone in your organization previously subm
 
    The copied request is submitted as a new request in the request queue you specified.
 
-## Copy and submit requests in the new requesting experience
 
-You can copy and submit requests in the Requests area of Workfront, or from the My Requests widget in Home.
-
-1. Do one of the following: 
-
-   {{step1-to-requests}}
-
-   1. To access the **My Requests** widget in **Home**:
-   
-   {{step1-to-home}}
-
-   1. Locate the **My Requests** widget. 
-
-      For more information on the My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. In the **Requests** list or the **My Requests** widget in Home, hover over the request that you want to copy, then click the **More** menu next to its name.  
-
-   ![More menu](assets/more-menu.png)
-
-1. Click **Copy** 
-
-     Or
-
-     Right-click on the selected request, then click **Copy**.
-
-     >[!TIP]
-     >
-     >When you do not have access to create issues, you receive a warning that your administrator restricted you from creating requests.
-
-1. (Optional) Update any information from the copied request. Available fields depend on the Request Queue or Request Form used for the request.
-
-   When you enter or change any field values in the copied request, it is saved as a draft.
-
-1. Click **Submit**.
-
-   The copied request is submitted as a new request.
 
 
