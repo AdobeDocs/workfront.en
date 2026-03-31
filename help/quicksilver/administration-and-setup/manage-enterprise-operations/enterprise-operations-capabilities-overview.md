@@ -24,14 +24,13 @@ For more information, see the following articles:
 
 * [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)
 * [Set up exchange rates](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
-
-<!--link to overview of revenue and cost hierarchy-->
+* [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)
 
 ## Historical data tracing
 
 Project snapshots in Workfront give you a way to see differences between snapshots (taken on a specific date and time) and the project's current data quickly and accurately, helping you to manage projects more effectively and make better decisions. Snapshot comparisons show side-by-side how the project has evolved. 
 
-<!--For more information, see link to Snapshots article-->
+For more information, see [Create and view project snapshots](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md)
 
 ## Enterprise permissions
 
@@ -52,11 +51,11 @@ For more information, see the following articles:
 
 You can add custom translations in Adobe Workfront for user-entered labels, allowing teams the flexibility to adapt language to their own terminology and local needs. This creates more consistent, accessible, and globally aligned experiences across the system.
 
-<!--For more information, see link to Localization article-->
+For more information, see [Configure custom localization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
 
-<!--
 ## Business actions
 
-For more information, see link to article
--->
+You can now configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object, or attaching a custom form to the object.
+
+For more information, see [Create and edit business rules](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
 

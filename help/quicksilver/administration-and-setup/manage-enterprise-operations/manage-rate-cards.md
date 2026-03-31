@@ -17,7 +17,7 @@ A rate card represents the contractual agreement with your client in which hourl
 
 For example, you could have a job role of Designer based in Paris for Agency A, another Designer based in Paris for Agency B, and a third Designer based in New York not assigned to an agency, each with different billing rates. However, attributes are not required for job roles on a rate card. The attributes serve as tools to establish more granular rates. A billing rate on a rate card can also be date effective, so that the rate starts and ends on specified dates.
 
-You can also lock rates on a rate card to prevent them from being overridden at the project or task level. Locked rates are the highest in the billing rate hierarchy, except for preserved rates on a project. For more information, see Overview of revenue and cost hierarchy.
+You can also lock rates on a rate card to prevent them from being overridden at the project or task level. Locked rates are the highest in the billing rate hierarchy, except for preserved rates on a project. For more information, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 ## Access requirements
 
@@ -106,7 +106,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    * [!UICONTROL **Start Date**]: The date when the rate begins.
    * [!UICONTROL **End Date**]: The date when the rate ends.
 
-     The first billing rate is not required to have a start date, and the last billing rate is not required to have an end date. Gaps are permitted between the rate dates, but overlapping dates are not permitted. During a gap, other areas of the billing rate hierarchy are used to determine the billing rate, based on a task's revenue type. For more information, see Overview of revenue and cost hierarchy.
+     The first billing rate is not required to have a start date, and the last billing rate is not required to have an end date. Gaps are permitted between the rate dates, but overlapping dates are not permitted. During a gap, other areas of the billing rate hierarchy are used to determine the billing rate, based on a task's revenue type. For more information, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 1. Click [!UICONTROL **Save**].
 1. (Optional) To add another billing rate, either for the same job role with different attributes or for a separate job role, click [!UICONTROL **Add job role**].
