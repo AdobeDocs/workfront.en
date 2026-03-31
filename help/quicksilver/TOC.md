@@ -553,6 +553,7 @@ feature-set: Workfront
       * [Grant access to filters, views, groupings](administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
       * [Grant access to Scenario Planner](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
       * [Grant access to Resource Management](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+      * [Grant access to rate cards](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
       * [Grant access to Workfront Goals](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
     * Single sign-on in Workfront {#sso}
       * [Single sign-on: article index](administration-and-setup/add-users/single-sign-on/single-sign-on.md)

@@ -55,13 +55,18 @@ Consider the following when granting users access to financial data in Workfront
 * A user whose access level doesn't allow access to financial data cannot grant access that would allow others to view financial data. This includes giving access to projects that would show financial data, or modifying an access level to allow viewing financial data.
 * A user whose access level doesn't allow access to financial data cannot create a risk for a project. For more information, see [Create and edit risks on projects](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 * You can also use an access level to determine which Resource Management activities a user can employ to budget or view resource allocation. For information, see [Grant access to Resource Management](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+* <span class="preview">Access to billing rates, cost rates, and general finance is separate, allowing more precise control for different user roles that handle complex financial details. General finance is additional financial data that does not include billing and cost rates.</span>
 
 ## Configure user access to financial data using a custom access level
 
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Click the gear icon ![](assets/gear-icon-settings.png) on the **View** or **Edit** button to the right of Financial Data, then select the abilities you want to grant under **Fine-tune your settings**.
 
-   ![](assets/financial-data-fine-tune-nwe.png)
+   <span class="preview">Sample image in the Preview environment:</span>
+   ![Fine-tune financial data access](assets/financial-data-access-fine-tune.png)
+
+   Sample image in the Production environment:
+   ![Fine-tune financial data access](assets/financial-data-fine-tune-nwe.png)
 
 1. (Optional) In the **Allow administrative access for** area, select the following options:
 
@@ -120,15 +125,11 @@ A user with no access to financial data does not have access to the following:
 
 * Finance section under Project and Task objects
 * Business case
-* Billing rates and Billing records
-* <span class="preview">Rate cards</span>
-* Cost per hour and billing per hour on User preferences
-
-  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
-
+* Billing rates and Billing records on projects
+* Cost per hour and billing per hour on user profiles
 * Cost per hour and billing per hour on Job Roles
-
-  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
+* <span class="preview">Billing rates on user profiles and job roles</span>
+* <span class="preview">Cost rates on user profiles and job roles</span>
 
 ### View access
 
@@ -136,8 +137,10 @@ A user with View access to financial data can view (not edit) the following:
 
 * Finance section under Project and Task objects
 * Business case
-* Billing rates and Billing records
-* Cost per hour and billing per hour on User preferences
+* Billing rates and Billing records on projects
+* <span class="preview">Billing rates on user profiles and job roles</span>
+* <span class="preview">Cost rates on user profiles and job roles</span>
+* Cost per hour and billing per hour on user profiles
 
   You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
 
@@ -151,9 +154,10 @@ A user with Edit access to financial data can view and edit the following:
 
 * Finance section under Project and Task objects
 * Business case
-* Billing rates and Billing records
-* <span class="preview">Rate cards</span>
-* Cost per hour and billing per hour on User preferences
+* Billing rates and Billing records on projects
+* <span class="preview">Billing rates on user profiles and job roles</span>
+* <span class="preview">Cost rates on user profiles and job roles</span>
+* Cost per hour and billing per hour on user profiles
 
   You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the Edit button in step 4 above.
 
