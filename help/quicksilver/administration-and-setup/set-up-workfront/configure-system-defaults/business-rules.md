@@ -304,6 +304,8 @@ You can set these actions to automate when the business rule is triggered. Avail
 |Attach a custom form|Select the custom form that you want to add|
 |Share the object|Select the people, roles, groups, companies, or access levels that you want to share the object with.|
 
+</div>
+
 ## Activate a business rule
 
 When a business rule is inactive, the Is Active field in the list of business rules displays False. You cannot update the status of the rule in the list view.
