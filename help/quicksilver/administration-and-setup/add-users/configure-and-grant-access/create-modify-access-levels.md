@@ -189,7 +189,7 @@ For more detail about the information in this table, see [Access requirements in
      </tr> 
      <tr>
       <td role="rowheader">Allow users to access Brands</td> 
-      <td>Allows users to access and manage GenStudio Brands in Workfront. <!--For more information, see <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">Grant access to brand permissions</a>.--></td> 
+      <td>Allows users to access and manage GenStudio Brands in Workfront. For more information, see <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">Grant access to brand permissions</a>.</td> 
      </tr>
     </tbody> 
    </table>
