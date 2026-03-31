@@ -186,7 +186,7 @@ Filters must always be configured in both directions. If Attribute A has a Relat
 
      * An **Attribute** filter links one attribute to another in the chain. For example, Location > Reference = Agency (only Locations tied to the selected Agency will be shown).
 
-      The Attribute filter is only applied if the referenced attribute has a value. For example, if Agency is selected, then only valid Locations are suggested. If Agency is blank, then all Locations are shown (but may still be limited by Standard filters applied to the Location).
+        The Attribute filter is only applied if the referenced attribute has a value. For example, if Agency is selected, then only valid Locations are suggested. If Agency is blank, then all Locations are shown (but may still be limited by Standard filters applied to the Location).
    
    * **Field**: The direct field from the attribute object, such as Location ID or Active Flag.
    * **Operator**: These options depend on the selected Field type. Examples include Equals, Not Equals, Is Blank, True/False.
