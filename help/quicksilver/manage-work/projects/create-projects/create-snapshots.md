@@ -179,11 +179,7 @@ You can use the Column manager in some enhanced lists to easily add and remove c
 
 1. Click the **+** icon on the upper-right corner of the table to open the **Column manager** box.
 
-   ![Column manager for snapshots](assets/column-manager-on-snapshot.png)
-
-1. Select the **Properties** tab or the **KPIs** tab to choose the type of field you want to add.
-
-   Properties such as location or cost center provide contextual information. Time-phased KPIs such as revenue or cost break down values across time periods.
+   ![Column manager for snapshots](assets/column-manager-on-snapshot-no-kpi-tab.png)
 
 1. Search for an existing object field in the **Available** column, then click **+** to the right of the field name it to add it to the **Selected** column.
 1. Click **-** to the right of a field in the **Selected** column to remove it from the list.
