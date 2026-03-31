@@ -275,13 +275,13 @@ You can use wildcards in business rule actions, as described in the section [Sce
 
    For other packages, this option is pre-selected.
 
-1. (Conditional) To automate another action,, select the action. 
+1. <span class="preview">(Conditional) To automate another action,, select the action. </span>
 
-   For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.
+   <span class="preview">For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.</span>
 
    >[!NOTE]
    >
-   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+   ><span class="preview">Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.</span>
 
 1. Click **Save** when you are finished building the business rule.
 
