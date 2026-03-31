@@ -457,9 +457,7 @@ feature-set: Workfront
       * [Enable or disable fast releases for your organization](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
       * [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
       * [Create and edit business rules](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
-      * [Configure locations](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
-      * [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
-      * [Import rate cards from a template](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/import-rate-cards.md)
+      * [Configure custom localization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
     * Configure schedules and timesheet preferences {#configure-timesheets-schedules}
       * [Configure schedules and timesheet preferences](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
       * [Schedules overview](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
@@ -582,6 +580,7 @@ feature-set: Workfront
       * [Customize the Main Menu](administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
       * [Customize object headers using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
       * [Customize the left panel](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
+      * [Customize the More menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-more-menu.md)
       * [Customize the Details view](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
       * [Customize the Summary panel using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
       * [Customize new Home](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
@@ -777,6 +776,15 @@ feature-set: Workfront
       * [Manage group project templates](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)
       * [Manage a group's deleted items](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md)
       * [Manage a group's restored items](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)
+  * Manage enterprise operations {#manage-enterprise-operations}
+    * [Manage enterprise operations: article index](/help/quicksilver/administration-and-setup/manage-enterprise-operations/enterprise-operations-index.md)
+    * [Enterprise operations capabilities overview](/help/quicksilver/administration-and-setup/manage-enterprise-operations/enterprise-operations-capabilities-overview.md)
+    * [Configure locations](/help/quicksilver/administration-and-setup/manage-enterprise-operations/configure-locations.md)
+    * [Define rate attributes](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)
+    * [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)
+    * [Import rate cards from a template](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
+    * [Push rate changes to projects](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
+    * [Share a rate card](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)   
   * Configure integrations {#configure-integrations}
     * [Configure integrations](administration-and-setup/configure-integrations/workfront-integrations.md)
     * [Adobe Workfront integrations](administration-and-setup/configure-integrations/workfront-integrations-1.md)
@@ -1218,6 +1226,7 @@ feature-set: Workfront
       * [Create a project using a template](manage-work/projects/create-projects/create-project-from-template.md)
       * [Import a project from Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
       * [Create project baselines](manage-work/projects/create-projects/create-baselines.md)
+      * [Create and view project snapshots](manage-work/projects/create-projects/create-snapshots.md)
     * Update work on a project {#update-work-on-a-project}
       * [Update work on a project: article index](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
       * [Apply statuses to work that is associated with a group](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
@@ -1840,6 +1849,8 @@ feature-set: Workfront
     * [Update work items in the Workload Balancer using the Summary](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * Review and approve work {#review-and-approve-work}
   * [Review and approve work](review-and-approve-work/review-and-approve-work.md)
+  * [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+  * [Get started with Unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
   * [Limited document and proof decision for non-paid users overview](review-and-approve-work/proof-doc-decision-limits.md)
   * Work approvals {#work-approvals}
     * [Work approvals](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -1856,7 +1867,6 @@ feature-set: Workfront
   * Unified approvals {#document-reviews-and-approvals}
     * [Unified document approvals: article index](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
     * [Available functionality for document approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
-    * [Unified Approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
     * [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
     * [Get Started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
     * [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md)
@@ -1995,8 +2005,6 @@ feature-set: Workfront
       * [Proof versions cannot be downloaded or previewed when an interactive proof is added as a new version](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
   * Native integrations {#native-integrations}
     * [Review and approval native integrations: article index](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
-    * [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
-    * [Get started with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
     * [Get started with the GenStudio for Performance Marketing and Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
     * [Get started with the proofing and Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
     * [Get started with the proofing and GenStudio for Performance Marketing integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)

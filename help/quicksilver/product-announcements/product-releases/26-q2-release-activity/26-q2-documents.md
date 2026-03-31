@@ -32,7 +32,7 @@ Create more structured and sophisticated approval workflows with multi-stage app
 
 #### Review and approve content in Frame.io
 
-Review and approve content directly in the Frame.io viewer and eliminate the need to switch between platforms. This integration allows for faster feedback cycles and keeps all review activity in one place. For more information, see [Get started with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+Review and approve content directly in the Frame.io viewer and eliminate the need to switch between platforms. This integration allows for faster feedback cycles and keeps all review activity in one place. For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Connection with Adobe Experience Manager
 
