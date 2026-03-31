@@ -75,7 +75,7 @@ A job role can have a billing rate associated with it in the following ways:
 
 * As a Workfront administrator, you can define rate cards with multiple billing rates per role, based on attributes and effective dates. When a rate card is attached to a project, all of the roles, their attributes, and their associated billing rates are added to the project's billing rates section. Attaching a rate card overrides any existing billing rates on the project.
   
-  For more information, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) and [Attach a rate card to a project](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
+  For more information, see [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md) and [Attach a rate card to a project](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
 
 * As a project manager, you can define the billing rate for the same job role at the project level.  
   Job role rates changed on the project will only impact that project.
