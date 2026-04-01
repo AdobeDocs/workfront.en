@@ -12,6 +12,18 @@ This page describes Requesting enhancements made with the Second Quarter 2026 re
 
 For a list of all changes available at this point in the Second Quarter 2026 release cycle, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Apply conditional formatting to the submitted request lists in the Requests area and My Requests widget
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April, 15, 2026
+>Production for all: April 16, 2026
+
+You can now apply conditional formatting to request lists in the Requests area and the My Requests widget in Home. This functionality did not exist in the list view before this enhancement.
+
+For information, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
 ## Predefined views added to the requests list in the Requests area and the My Requests widget 
 
 >[!NOTE]

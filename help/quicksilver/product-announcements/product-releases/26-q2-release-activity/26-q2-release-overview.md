@@ -226,6 +226,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Scheduled Report Delivery Now Supports Link-Based Emails</a><p></p>
+            <p>Workfront now includes a new Link delivery type for scheduled reports. Instead of generating and attaching a file, this option sends an email containing a direct link to the report in Workfront, allowing recipients to view the most current data in the application.</p>
+        </td>
+        <td><p>April 2, 2026</p></td>
+        <td><p>April 15, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+    </tr>
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">New Authentication Options for Data Connect Connection</a><p></p>
             <p>You can now authenticate to Data Connect using RSA keys or Programmatic Access Tokens (PAT) connections, adding more secure and flexible alternatives to traditional username/password credentials. </p>
         </td>
@@ -275,6 +284,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <td><strong>Preview</strong></td>
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Apply conditional formatting to the submitted request lists in the Requests area and My Requests widget</a><p></p>
+            <p>You can now apply conditional formatting to request lists in the Requests area and the My Requests widget in Home. This functionality did not exist in the list view before this enhancement.</p>
+        </td>
+           <td><p>April 2, 2026</p></td>
+        <td><p>April 15, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+ </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Predefined views added to the requests list in the Requests area and the My Requests widget </a><p></p>
