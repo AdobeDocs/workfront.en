@@ -16,6 +16,50 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Apply additional conditional formatting to a a list of projects in  a record's connected page   
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+You can now apply additional conditional formatting to a list of projects in a record's connected page.  
+
+The new conditional formatting capabilities include the following: 
+
+* Add color to text 
+
+* Make the text bold or italic in a cell 
+
+* Ability to apply the conditional formatting to an entire row 
+
+Prior to this enhancement, only the ability to add color to a cell's background existed.  
+
+For information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Added personalized names for filters in the list view   
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+We have added the following personalized names for a team, group, company, and role filter in the list view: 
+
+* My home team, My teams 
+
+* My  home group, My groups 
+
+* My primary role, My roles 
+
+* My company 
+
+The fields must exist on objects displayed in the view for the filter options to be visible. 
+
+For more information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+
 ## Breadcrumb redesign   
 
 >[!NOTE]
