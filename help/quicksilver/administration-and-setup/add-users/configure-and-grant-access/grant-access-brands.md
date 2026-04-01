@@ -7,6 +7,7 @@ description: As an Adobe Workfront administrator, you can configure brand permis
 author: Courtney
 feature: System Setup and Administration
 role: Admin
+exl-id: 727efbd6-79b4-42c5-bfa2-e5350f30ff23
 ---
 # Grant access to brand permissions
 
