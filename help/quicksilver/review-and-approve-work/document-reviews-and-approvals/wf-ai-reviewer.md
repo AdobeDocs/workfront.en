@@ -24,7 +24,7 @@ Any user can add the Content Reviewer to a review and approval request.
 
 * Your Workfront instance must have Unified Approvals enabled. 
 * Your organization must have GenStudio Foundation.
-     * Content Reviewer in Workfront provides the functionality available in GenStudio Foundations for asset review and approval workflows. You do not need to access GenStudio Foundations directly to complete your work.
+     * Content Reviewer in Workfront provides the functionality available in GenStudio Foundations for asset review and approval workflows.  You do not need to access GenStudio Foundations directly to complete your work. Your access to GenStudio Foundations functionality through Content Reviewer falls under the terms of your Workfront contract.
 * Adobe must have a signed Adobe Gen AI agreement on file.
     For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
