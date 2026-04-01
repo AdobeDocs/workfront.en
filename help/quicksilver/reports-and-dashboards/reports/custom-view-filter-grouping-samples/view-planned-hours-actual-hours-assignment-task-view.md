@@ -7,6 +7,8 @@ description: This task view displays the total Planned Hours of a task, the numb
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f249ff57-50c7-4aa9-a563-cb7f5562b96a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View: Planned Hours vs. Actual Hours per assignment in a task view
 

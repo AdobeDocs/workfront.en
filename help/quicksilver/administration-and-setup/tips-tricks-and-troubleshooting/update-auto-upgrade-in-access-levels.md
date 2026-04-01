@@ -11,6 +11,8 @@ role: Admin
 hide: yes
 hidefromtoc: yes
 exl-id: 1f7fce86-0ba9-4407-842d-5f8625c9de70
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Update auto-upgrade options in access levels
 
@@ -20,7 +22,8 @@ Contributors on the new license model must have an auto-upgrade option assigned.
 
 To view which access levels are assigned as auto-upgrade options: 
 <!--
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear icon](assets/gear-icon-settings.png.png). -->
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear icon](assets/gear-icon-settings.png.png).
+-->
 
 1. In the right panel, click **Access Levels**.
 

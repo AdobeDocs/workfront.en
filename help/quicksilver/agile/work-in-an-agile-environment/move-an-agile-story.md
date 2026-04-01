@@ -6,6 +6,8 @@ description: You can move an Agile story either to a different iteration (for Sc
 author: Courtney
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Move an Agile story
 

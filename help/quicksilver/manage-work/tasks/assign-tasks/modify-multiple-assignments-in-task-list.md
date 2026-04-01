@@ -7,6 +7,8 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Modify multiple user assignments in a task list
 
@@ -18,13 +20,15 @@ exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).  
 
-</div>-->
+</div>
+-->
 
 When managing task assignments, you can simultaneously modify them for multiple tasks at a time by using the bulk editing feature in a list of tasks.
 
@@ -170,7 +174,8 @@ When assigning users to work, their availability according to their schedules af
       
    1. Click **Save**.
    
-<!-- temporary content - for Assignments redesign:
+<!--
+ temporary content - for Assignments redesign:
 
 Editing assignments on tasks differs depending on which environment you choose. 
 
@@ -255,7 +260,8 @@ Editing assignments on tasks differs depending on which environment you choose.
 
 1. <span class="preview">(Conditional) If you are using the Preview environment to assign tasks, the **Edit Tasks** box opens. Do the following in the Preview environment: </span>
 
-   <div class="preview">-->
+   <div class="preview">
+   -->
 
    
 

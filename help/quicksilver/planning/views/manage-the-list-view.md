@@ -6,6 +6,8 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
+last-update: 2026-04-01T11:23:03-07:00
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 ---
 
 # Manage the list view in Adobe Workfront Planning
@@ -195,7 +197,7 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
 
         1. Click the **Or** connector between conditions to change to **And** and to indicate that multiple conditions must be met at the same time. **Or** is the default connector.  
         1. In the **Format** line, select a field to indicate which column will be formatted. <!--edit this area, if it changes names??-->
-        1. (Optional) Click the **color circle** icon ![Color circle icon](assets/color-circle.png) next to the field selected, to expand it and choose another color <!--for a cell or the text of the cell that matches your criteria-->. <!--is this where the bold, italic is? I had no UI for this when I wrote it-->
+        1. (Optional) Click the **color circle** icon ![Color circle icon](assets/color-circle.png) next to the field selected, to expand it and choose another color <!--for a cell or the text of the cell that matches your criteria. is this where the bold, italic is? I had no UI for this when I wrote it-->
         1. Turn on the **Apply to row** setting to apply the formatting to the entire row of the field that meets the conditions. 
         1. (Optional) Click **Add condition** in the **Format** box to add another rule for another field and the repeat the steps above. 
         1. (Optional) Click **Clear all** to remove all formatting.

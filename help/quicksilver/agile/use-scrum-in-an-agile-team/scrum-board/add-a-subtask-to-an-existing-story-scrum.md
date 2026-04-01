@@ -6,6 +6,8 @@ description: When creating subtasks for existing stories, keep in mind the Compl
 author: Courtney
 feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Add a subtask to an existing story on the [!UICONTROL Scrum] board
 

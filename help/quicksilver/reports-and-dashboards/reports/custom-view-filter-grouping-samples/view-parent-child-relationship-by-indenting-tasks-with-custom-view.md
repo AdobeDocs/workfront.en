@@ -7,6 +7,8 @@ description: You can maintain the distinction of parent - child relationships in
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View: display the parent-child relationship in a task by indenting the tasks
 

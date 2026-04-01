@@ -6,6 +6,8 @@ description: You can use the filter on a Kanban board to see which work items ar
 author: Courtney
 feature: Agile
 exl-id: e6f6beda-aaf9-4053-97ed-3a48e617d8e9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Filter by user on the [!UICONTROL Kanban] board
 

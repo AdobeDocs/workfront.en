@@ -6,6 +6,8 @@ description: Although there is no limit to how many users you can have in a reso
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Remove users from resource pools
 
@@ -63,7 +65,9 @@ To remove a user from a Resource Pool:
    ![Remove users from Resource Pool](assets/remove-users-from-resource-pool.png)
 
 1. Click the X icon at the user level to remove a user from the Resource Pool. They are removed from all the lists they appear in.
-   <!--Or  
-   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.-->
+   <!--
+   Or  
+   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.
+   -->
 
 1. Click **Save**.

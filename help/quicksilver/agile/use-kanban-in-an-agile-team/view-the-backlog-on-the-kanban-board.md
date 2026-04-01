@@ -6,6 +6,8 @@ description: You can display a [!UICONTROL Backlog] column directly on your Kanb
 author: Courtney
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Add the backlog to the [!UICONTROL Kanban] board
 

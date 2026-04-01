@@ -5,6 +5,8 @@ description: You can view lists of objects in [!DNL Adobe Workfront] to get info
 feature: Get Started with Workfront
 author: Courtney
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Get started with lists in [!DNL Adobe Workfront]
 
@@ -64,7 +66,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-<!--Old access: 
+<!--
+Old access: 
 
 You must have the following access to perform the steps in this article:
 
@@ -663,9 +666,11 @@ The following table shows some of the differences between the standard and enhan
 </table>
 
 <!--
-consider adding things like adding fields on the fly in an enhanced list when we will be able to do this-->
+consider adding things like adding fields on the fly in an enhanced list when we will be able to do this
+-->
 
-<!--old table: 
+<!--
+old table: 
 <table style="table-layout:auto"> 
  <col> 
  <col> 

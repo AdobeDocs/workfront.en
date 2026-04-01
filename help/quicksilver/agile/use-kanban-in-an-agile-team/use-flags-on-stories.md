@@ -6,6 +6,8 @@ description: On the [!DNL Kanban] board, flags provide a visual indication of wh
 author: Courtney
 feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Use flags on stories on the [!UICONTROL Kanban] board
 

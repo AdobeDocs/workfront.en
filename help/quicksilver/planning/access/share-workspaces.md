@@ -6,6 +6,8 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Share workspaces
 
@@ -18,7 +20,8 @@ exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 You can share a workspace with others to ensure collaboration when working in Adobe Workfront Planning. 
 
 <!--
-This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).
+-->
 
 >[!NOTE]
 >
@@ -61,7 +64,8 @@ Or
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -118,7 +122,8 @@ Or
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerations about sharing workspaces
 

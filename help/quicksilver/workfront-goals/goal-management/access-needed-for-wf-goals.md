@@ -7,6 +7,8 @@ description: Your Adobe Workfront administrator must ensure certain conditions a
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Requirements to use Workfront Goals
 
@@ -57,7 +59,8 @@ Workfront Goals is no longer available for purchase for newer packages.
 
 Speak with your account representative to inquire about Workfront Goals. 
 
-<!--Old: >
+<!--
+Old: >
 Depending on which Workfront plan your company is currently on, the following scenarios exist: 
 
 * **A new Workfront plan**: You must have an Ultimate Workfront plan. Workfront Goals are included only in this plan. 
@@ -66,7 +69,8 @@ Depending on which Workfront plan your company is currently on, the following sc
 
   After your organization purchases the additional license, Workfront enables Workfront Goals for your account. For information about purchasing a license for Workfront Goals contact your Workfront account manager.
 
-For information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+For information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Update license types and access level settings  {#update-license-types-and-access-level-settings}
 
@@ -77,7 +81,8 @@ If your company has access to Workfront Goals from a previous purchase, your Wor
     * Contributor or higher
     * Request or higher
 
-<!--Old: 
+<!--
+Old: 
 * **The new access level model**: Your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals: 
 
   * Contributor

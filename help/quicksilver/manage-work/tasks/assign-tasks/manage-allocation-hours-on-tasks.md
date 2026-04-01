@@ -6,6 +6,8 @@ description: When assigning users or roles to a task, they are allocated to work
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Manage user and role allocation hours on tasks
 
@@ -14,13 +16,15 @@ exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
 <!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 Allocation hours represent the total amount of time an assigned resource is planned to work on a task. The hours represent the time that a user is allocated on one given day or weekday, week, or month throughout the duration of the task.
 
@@ -67,9 +71,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-<!--Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
+<!--
+Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
 
-<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.-->
+<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
+-->
 
 
 ## Considerations for modifying the allocation hours for a task

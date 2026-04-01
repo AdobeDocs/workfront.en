@@ -6,6 +6,8 @@ description: You can edit report filters after they've been applied to a Canvas 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5205c342-7f63-438e-97c8-e74f7dfecfd0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Edit report filters in a Canvas Dashboard
 

@@ -6,6 +6,8 @@ description: Adobe Workfront enables Agile teams to complete work in an incremen
 author: Courtney
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create an Agile team
 

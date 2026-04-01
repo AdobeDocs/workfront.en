@@ -7,6 +7,8 @@ description: Use this task grouping to group tasks by the portfolio, by program,
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fdad6a1-54b3-4d3e-8f21-4f2efc2dc27a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Grouping: tasks by portfolio, program, and project
 

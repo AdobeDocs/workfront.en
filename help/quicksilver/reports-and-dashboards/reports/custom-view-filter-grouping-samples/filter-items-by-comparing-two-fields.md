@@ -7,6 +7,8 @@ description: You can filter items out of a list by comparing two of their fields
 author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 6a41db8e-1456-4031-bf2a-ca6d4111ad44
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Filter: eliminate items in a list by comparing two fields
 

@@ -6,6 +6,8 @@ description: You can manually align two goals or you can convert the results and
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Align goals by converting results and activities to goals
 
@@ -60,7 +62,8 @@ For information, see [Access requirements to Workfront documentation](/help/quic
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -111,7 +114,8 @@ For information, see [Access requirements to Workfront documentation](/help/quic
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Prerequisites
 

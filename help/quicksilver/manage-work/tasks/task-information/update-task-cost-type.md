@@ -6,6 +6,8 @@ description: The Planned and Actual Cost of the tasks and their Labor Costs are 
 author: Alina
 feature: Work Management
 exl-id: bc30ecab-7347-4dff-8e06-e8ea3f50d5b3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Update task Cost Type
 
@@ -47,7 +49,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
  +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -70,7 +73,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>Contribute or higher permissions to a project</p> <p>Manage permissions to a task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Configure the Cost Type of an individual task
 

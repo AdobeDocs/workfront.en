@@ -7,6 +7,8 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create advanced assignments
 
@@ -15,13 +17,15 @@ exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 <!--remove the bullet indicated when we get rid of the new/old experience of editing tasks-->
 
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 You can manage task or issue assignments using Advanced Assignments.
 
@@ -144,13 +148,15 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
      ![Assignee's Role](assets/advanced-assignments-select-role.png)
 
-   <!--<div class="preview">
+   <!--
+   <div class="preview">
 
    * **Location**: The location comes from the rate card, if a rate card attached to the project uses locations with the job roles. The location can't be changed. 
 
    * **Billing Rates**: The billing rate for a user comes from the system rate for the user or their associated job role. The billing rate for a job role comes from the system rate or from the rate card, if a rate card is attached to the project. Existing billing rates are not displayed in this field. Click in the field to change the billing rate for this specific task assignment.
 
-   </div>-->   
+   </div>
+   -->
 
    * **Duration Type**: This is only available for tasks. Click the name of the Duration Type and select a Duration Type from the drop-down menu. For information about Duration Types, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
    

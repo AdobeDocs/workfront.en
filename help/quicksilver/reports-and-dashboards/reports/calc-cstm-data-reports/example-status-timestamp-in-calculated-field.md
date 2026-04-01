@@ -7,6 +7,8 @@ description: The following calculated field displays the date when the object st
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Calculated custom field example: display a Status timestamp in a custom form
 
