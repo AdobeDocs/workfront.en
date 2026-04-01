@@ -35,7 +35,7 @@ The Content Reviewer uses brand guidelines to evaluate content during the review
   </tr> 
   <tr> 
    <td role="rowheader">Admin Console permissions*</td> 
-   <td> <p>You must GenStudio Brand Manager.</p>
+   <td> <p>You must be a GenStudio Brand Manager.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -50,7 +50,7 @@ For more detail about the information in this table, see [Access requirements in
 * Your Workfront instance must have Unified Approvals enabled. 
 
 * Your organization must have GenStudio Foundation. 
-    * Content Reviewer in Workfront provides the functionality available in GenStudio Foundations for asset review and approval workflows.  You do not need to access GenStudio Foundations directly to complete your work.  Your access to GenStudio Foundations functionality through Content Reviewer falls under the terms of your Workfront contract.
+    * Content Reviewer in Workfront provides the functionality available in GenStudio Foundation for asset review and approval workflows. You do not need to access GenStudio Foundation directly to complete your work. Your access to GenStudio Foundation functionality through Content Reviewer falls under the terms of your Workfront contract.
 * Adobe must have a signed Adobe Gen AI agreement on file.
     For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
@@ -67,7 +67,7 @@ For more detail about the information in this table, see [Access requirements in
 1. In the left panel, go to **Review and Approval** > **Brands**.
 1. Click **Add brand** in the top-right corner of the screen.
 1. Name the brand. 
-1. Click Upload PDFs to upload brand files.
+1. Click **Upload PDFs** to upload brand files.
     ![upload brand pdfs](assets/upload-PDF.png)
 1. Click **Continue**.
 1. Upload one or more PDF files that contain your brand guidelines, then click **Add brand**. 
@@ -107,7 +107,7 @@ For more detail about the information in this table, see [Access requirements in
         <td>Outline the appropriate channels for brand communication.</td>
     </tr>
     <tr>
-        <td>logos</td>
+        <td>Logos</td>
         <td>Include the official logos associated with the brand.</td>
     </tr>
     <tr>

@@ -10,7 +10,7 @@ role: Admin
 ---
 # Grant access to brand permissions
 
-Users are granted the brand create, edit, and publish permissions of Adobe GenStudio system managers when added to a user group. Users also receive an automated email invitation to edit the Adobe GenStudio for Performance Marketing Brands project.
+Users are granted the brand create, edit, and publish permissions of Adobe GenStudio system managers when added to a user group. 
 
 ## Access requirements
 
@@ -42,6 +42,15 @@ Users are granted the brand create, edit, and publish permissions of Adobe GenSt
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Requirements
+
+* Your Workfront instance must have Unified Approvals enabled. 
+
+* Your organization must have GenStudio Foundation. 
+    * Content Reviewer in Workfront provides the functionality available in GenStudio Foundation for asset review and approval workflows. You do not need to access GenStudio Foundation directly to complete your work. Your access to GenStudio Foundation functionality through Content Reviewer falls under the terms of your Workfront contract.
+* Adobe must have a signed Adobe Gen AI agreement on file.
+    For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
 ## 1. Configure brand permissions in the Admin Console
 
@@ -109,11 +118,12 @@ Users in the group now have permissions to create, edit, and publish brand asset
 
 ## 2. Grant access to Brands in Workfront access levels
 
-You must complete all steps in the previous section before granting access to Brands in Workfront access levels.
+You must complete all steps in the previous section before granting access to individual users to Brands in Workfront access levels.
 
 >[!IMPORTANT]
 >
->Only users assigned to the user group with the GenStudio system manager product profile in the Admin Console can create, edit, and publish brands in Workfront, even if other users have access to Brands enabled in their access level settings.
+>* Only users assigned to the user group with the GenStudio system manager product profile in the Admin Console can create, edit, and publish brands in Workfront, even if other users have access to Brands enabled in their access level settings.
+>* Users added to the access level with Brands access enabled but not added to the user group in the Admin Console can only view brands. 
 
 
 To grant access to Brands in Workfront access levels:
@@ -122,8 +132,10 @@ To grant access to Brands in Workfront access levels:
 
 1. Click **Access Levels** in the left panel.
 1. Find the access level you want to edit, then click the edit icon ![edit icon](assets/edit-icon.png) to edit it.
-or 
-Click **New Access Level** to create a new access level. For more information about creating access levels, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+   Or
+
+   Click **New Access Level** to create a new access level. For more information about creating access levels, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Scroll down to **Set additional restrictions**, then select **Allow users to access Brands**.
     ![allow access to brands setting](assets/access-for-brands.png)
 1. Click **Save**.

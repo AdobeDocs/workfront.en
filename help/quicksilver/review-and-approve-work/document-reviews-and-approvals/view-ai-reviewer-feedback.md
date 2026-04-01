@@ -21,12 +21,14 @@ The Content Reviewer is not designed to be a decision-maker in the review and ap
 You can view the Content Reviewer's score and feedback from the Document Summary panel or in the Approvals tab on the Document Details page. 
 
 1. In the Workfront notification email, click **Go to review**. 
-or
-Go to the Documents area where the document is uploaded, and open the Document summary panel.
+
+   Or
+
+   Go to the Documents area where the document is uploaded, and open the Document summary panel.
 1. Click **Score**.
     ![view document score](assets/view-score.png)
 
-In the score and feedback window, the Content Reviewer provides an explanation on how the asset does not meet the specified guidelines. 
+In the score and feedback window, the Content Reviewer explains how the asset does not meet the specified guidelines. 
 ![Content reviewer feedback needs attention](assets/ai-reviewer-needs-attention.png)
 
 ## Upload a new version and add Content Reviewer again
