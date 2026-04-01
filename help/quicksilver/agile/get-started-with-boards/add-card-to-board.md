@@ -6,6 +6,8 @@ description: You can quickly add an ad hoc card to a board and assign it to a me
 author: Courtney
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Add an ad hoc card to a board
 

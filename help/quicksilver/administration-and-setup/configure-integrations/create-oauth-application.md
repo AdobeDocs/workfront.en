@@ -8,6 +8,8 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create OAuth2 applications for [!DNL Workfront] integrations
 
@@ -308,9 +310,11 @@ For instructions on configuring and using the OAuth2 application with user crede
     </tbody> 
    </table>
 
-   <!-- removed this from the table, and added "Developer name" and following rows:
+   <!--
+    removed this from the table, and added "Developer name" and following rows:
    [!UICONTROL App Description URL]</td> 
-      <td>This can be a link to an "About us" page or a page with more information about the integration.> -->
+      <td>This can be a link to an "About us" page or a page with more information about the integration.>
+      -->
 
 1. Click **[!UICONTROL Save]**.
 

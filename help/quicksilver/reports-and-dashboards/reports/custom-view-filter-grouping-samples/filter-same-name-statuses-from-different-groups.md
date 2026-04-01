@@ -7,6 +7,8 @@ description: You can have a task status assigned to Group A named New Status wit
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 8ddcd8b1-44a9-4341-80c7-76ba70d2953b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Filter: display items by same-name statuses when the statuses are associated with different groups
 

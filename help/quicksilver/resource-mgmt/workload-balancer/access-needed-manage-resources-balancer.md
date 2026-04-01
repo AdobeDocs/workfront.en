@@ -6,6 +6,8 @@ description: Without correct access or permissions, you may not be able to view 
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Access needed to manage resources in the Workload Balancer
 
@@ -15,7 +17,8 @@ Without correct access or permissions, you may not be able to view or manage you
 
 You must have access to view the users whose workload you want to view or manage in the Workload Balancer. In addition to this, you must have the correct access level and the correct permissions on the projects the work is associated with.
 
-<!--## Adobe Workfront package needed to use the Workload Balancer for different areas
+<!--
+## Adobe Workfront package needed to use the Workload Balancer for different areas
 
 The following table illustrates the connection between the Workfront plan your company has and where in the system you can use the Workload Balancer:
 
@@ -48,7 +51,8 @@ The following table illustrates the connection between the Workfront plan your c
 
 For information about the Workfront plans, see [Our Plans](https://business.adobe.com/products/workfront/pricing.html).
 
-For information about where you can locate the Workload Balancer in Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).-->
+For information about where you can locate the Workload Balancer in Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+-->
 
 ## Access needed to view the Workload Balancer
 
@@ -114,7 +118,8 @@ You must have the following access to manage the Workload Balancer:
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--these notes were inside the table: for the Edit access to Res Management
+<!--
+these notes were inside the table: for the Edit access to Res Management
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost (NOTE: this is not possible yet!)</p>    
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the Financial Data access level, see the article<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>. (NOTE: this is not possible yet!)</p>
     -->

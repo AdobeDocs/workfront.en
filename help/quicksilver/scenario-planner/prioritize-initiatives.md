@@ -6,6 +6,8 @@ description: Prioritizing initiatives is important because initiatives receive j
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 45f019de-b29c-477b-8bd1-f32ef21c1015
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Update initiative priorities in the [!DNL Scenario Planner]
 
@@ -55,7 +57,8 @@ For information about Workfront access requirements, see [Access requirements to
 
 +++
 
-<!--<table style="table-layout:auto"> 
+<!--
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -89,7 +92,8 @@ For information about Workfront access requirements, see [Access requirements to
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Update initiative priorities
 

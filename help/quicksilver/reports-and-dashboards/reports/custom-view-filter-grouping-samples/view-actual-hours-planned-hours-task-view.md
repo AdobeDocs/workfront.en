@@ -7,6 +7,8 @@ description: In this task view, the actual amount of hours recorded on a task ar
 author: Courtney
 feature: Reports and Dashboards
 exl-id: c1179283-dc2e-40d3-b8e0-4b1b79f83ad3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View: Actual Hours over Planned Hours in the same column of a task View
 

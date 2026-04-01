@@ -6,6 +6,8 @@ description: You can add documents to projects, tasks, or issues in multiple are
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Add documents to Adobe Workfront from your file system
 

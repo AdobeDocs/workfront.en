@@ -6,6 +6,8 @@ description: A few features are different between [!DNL Workfront] and Adobe Exp
 author: Courtney
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # [!DNL Adobe Unified Experience] FAQ
 

@@ -6,6 +6,8 @@ description: You can apply the Milestone view to a project list or report. You c
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
+last-update: 2026-04-01T11:23:03-07:00
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 ---
 # Use the Milestone view
 
@@ -13,13 +15,15 @@ exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
 
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 You can apply the Milestone view to a project list or report. You can use the Milestone view to view all milestones that are associated with tasks within the projects you are viewing.
 
@@ -134,7 +138,8 @@ When viewing a project list or project report in the Milestone view, the followi
    * At Risk - blue
    * Late - red
 
-   <!--* In the Production environment, the following status icons display next to each project and task in the Milestone view: 
+   <!--
+   * In the Production environment, the following status icons display next to each project and task in the Milestone view: 
       * On Time  
       ![On time icon](assets/gantt-ontime.png)
       * Behind  
@@ -143,7 +148,9 @@ When viewing a project list or project report in the Milestone view, the followi
       ![At risk icon](assets/gantt-atrisk.png)
       * Late  
       ![Late icon](assets/gantt-late.png)
-      <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+      
+      get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc
+   -->
 
   You can disable these status icons from being displayed, as described in the section [Configure what information displays in the Milestone view](#configure-what-information-displays-in-the-milestone-view) in this article. 
 
@@ -190,10 +197,12 @@ When viewing a project list or project report in the Milestone view, the followi
    * At Risk - yellow
    * In Trouble - red
 
-   <!--* In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:
+   <!--
+   * In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:
       * On Target
       * At Risk
-      * In Trouble -->
+      * In Trouble
+      -->
    
 
 ## Configure what information displays in the Milestone view {#configure-what-information-displays-in-the-milestone-view}

@@ -6,6 +6,8 @@ description: Tasks and issues can be assigned to an Agile team and added to that
 author: Courtney
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Manage the Agile backlog
 

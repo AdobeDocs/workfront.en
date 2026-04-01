@@ -6,6 +6,8 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 699bc34b-98c8-4620-9fdc-992d1ab9f501
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Adobe Workfront Planning best practices: article index
 

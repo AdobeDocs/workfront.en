@@ -7,6 +7,8 @@ description: Results measure the progress of a goal. Without associating results
 author: Alina
 feature: Workfront Goals
 exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Add results to goals in Adobe Workfront Goals
 
@@ -67,7 +69,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto">
 <col>
@@ -122,7 +125,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Prerequisites
 

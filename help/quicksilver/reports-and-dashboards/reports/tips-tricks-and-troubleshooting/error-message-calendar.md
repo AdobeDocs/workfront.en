@@ -7,6 +7,8 @@ description: Learn about 'This calendar has the view rights of a deactivated use
 author: Courtney
 feature: Reports and Dashboards
 exl-id: ba1e25f2-4960-47f7-ac7d-6f6b0f59cfe2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Error message on calendar: "This calendar has the view rights of a deactivated user."
 

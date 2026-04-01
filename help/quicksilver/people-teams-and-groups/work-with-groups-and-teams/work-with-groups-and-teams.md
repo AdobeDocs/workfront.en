@@ -8,6 +8,8 @@ author: Courtney and Becky
 feature: People Teams and Groups
 recommendations: noDisplay, noCatalog
 exl-id: f5357f8d-9fa0-46f2-9ae5-7fc224c52fc1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Work with groups and teams
 

@@ -7,6 +7,8 @@ description: When an issue is converted into a task or a project a resolving obj
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5fefb174-3a18-408f-aa12-3f4aff23acfa
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View: originating issue details for tasks and projects
 

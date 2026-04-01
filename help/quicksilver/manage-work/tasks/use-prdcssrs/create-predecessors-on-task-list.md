@@ -6,6 +6,8 @@ description: You can use predecessor tasks (or just predecessors) to link tasks 
 author: Alina
 feature: Work Management
 exl-id: a84d88ac-8dd4-4952-b83f-02fafa61e68b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create a predecessor relationship on the task list
 
@@ -55,7 +57,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,7 +81,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>Manage permissions to the tasks and the project</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Create a predecessor
 

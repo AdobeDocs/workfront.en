@@ -7,6 +7,8 @@ description: This Work Item report shows both tasks and issues which users have 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Report: combined task and issue View and Grouping
 

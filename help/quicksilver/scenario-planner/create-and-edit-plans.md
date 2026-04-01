@@ -6,6 +6,8 @@ description: You can create plans as part of using the Workfront Scenario Planne
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create and edit plans in the [!DNL Scenario Planner]
 
@@ -57,7 +59,8 @@ For information about Workfront access requirements, see [Access requirements to
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -92,7 +95,8 @@ For information about Workfront access requirements, see [Access requirements to
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Create or edit plans
 
@@ -247,7 +251,8 @@ To create or edit a plan:
         <li> <p><strong>[!UICONTROL Total required]</strong> (for hours): The total number of hours required for all months during the duration of the plan.</p> </li> 
         <li> <p><strong>[!UICONTROL Max required]</strong> (for FTE): The maximum number of FTEs required for any of the months during the duration of the plan. </p> </li> 
        </ul> <p>Tip: The <span>maximum</span> number of FTEs <span>or the total number of hours</span> required for that job role displays after you start adding initiatives. For information about adding initiatives to a plan, see <a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Create and edit initiatives in the [!DNL Scenario Planner]</a>.</p> </td> 
-     </tr> <!--
+     </tr>
+     <!--
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">[!UICONTROL Avg utilization]</td> 
        <td> <p>(NOTE: this field was removed in 21.2 - May 2021) </p> <p>[!DNL Workfront] calculates the average utilization for each job role using the job role FTEs associated with initiatives (required) and the job role FTEs associated with the plan (available). </p> <p> [!DNL Workfront] calculates the job role utilization percentage for a plan using the following formula: </p> <p><code>Job role utilization percentage = Sum [(Required job roles for each month of the plan *100)/ (Available job roles for each month of the plan)] / Number of months in the Duration of the plan</code> </p> 

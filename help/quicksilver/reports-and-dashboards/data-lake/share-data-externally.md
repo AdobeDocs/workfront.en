@@ -7,6 +7,8 @@ description: Workfront Data Connect allows you to use your organization's Workfr
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Establish a connection to Workfront Data Connect
 

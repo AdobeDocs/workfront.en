@@ -8,6 +8,8 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Goal alignment in Adobe Workfront Goals: article index
 
@@ -21,7 +23,8 @@ exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
 >Adobe Workfront Goals is no longer available for purchase.
 >For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
 
-<!--Old:
+<!--
+Old:
 >[!NOTE]
 >
 >Your organization must have the following to use the functionality described in this article:    
@@ -37,7 +40,8 @@ exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
 >    
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md). -->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 Ensuring that all the goals in your enterprise from any level are aligned to each other and to the overall strategy is an important step in your organization's success. 
 

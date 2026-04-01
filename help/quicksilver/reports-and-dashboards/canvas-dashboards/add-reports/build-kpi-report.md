@@ -6,6 +6,8 @@ description: A KPI report that prominently displays a single aggregated KPI can 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Build a KPI report in a Canvas Dashboard
 

@@ -6,6 +6,8 @@ description: You can use reports in Adobe Workfront to review or edit informatio
 author: Courtney
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Access and organize reports
 

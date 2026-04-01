@@ -6,6 +6,8 @@ description: As a project manager, you can specify what the billing rate is for 
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Override Job Role Billing Rates at the project level
 
@@ -99,8 +101,10 @@ To override a billing rate for a project:
    <!--<span class="preview">Sample image in the Preview environment:</span>-->
    ![Billing rates with override dates](assets/billing-rates-093025.png)
 
-   <!--Sample image in the Production environment:
-   ![Billing rates with override dates](assets/new-billing-rate-with-adjustment-dates-350x266.png)-->
+   <!--
+   Sample image in the Production environment:
+   ![Billing rates with override dates](assets/new-billing-rate-with-adjustment-dates-350x266.png)
+   -->
 
 1. The timezone for the dates you select displays at the bottom of the New Billing Rate box. This is the timezone associated with your Workfront instance, as shown in the Customer Info area of Setup. For information, see [Configure basic information for your system](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 1. Workfront applies the override job role rate to the hours that occur during the time frames specified when calculating revenue on the project.

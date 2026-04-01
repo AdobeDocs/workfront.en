@@ -7,6 +7,8 @@ description: You can merge the information that displays in multiple separate co
 author: Courtney
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View: merge information from multiple columns in one shared column
 

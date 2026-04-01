@@ -6,6 +6,8 @@ description: You can limit the amount of information you display on the screen i
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create or edit filters in Adobe Workfront
 

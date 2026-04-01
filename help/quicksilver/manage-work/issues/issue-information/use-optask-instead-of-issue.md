@@ -6,6 +6,8 @@ description: The name of an issue appears as opTask in the Adobe Workfront datab
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Use "opTask" and "issue" when referencing issues
 
@@ -23,8 +25,10 @@ Use the `opTask` field name when referencing issues in the following contexts:
  
   For more information about using text mode in a report, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-<!--* When you pull information about issues using our API.  
-  For more information about the Workfront API, see [Adobe Workfront API](../../../wf-api/workfront-api.md)-->
+<!--
+* When you pull information about issues using our API.  
+  For more information about the Workfront API, see [Adobe Workfront API](../../../wf-api/workfront-api.md)
+  -->
 
 * When you update issue fields in a Kick-Start data importer sheet. 
 
