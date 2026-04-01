@@ -128,8 +128,6 @@ A user with no access to financial data does not have access to the following:
 * Billing rates and Billing records on projects
 * Cost per hour and billing per hour on user profiles
 * Cost per hour and billing per hour on Job Roles
-* <span class="preview">Billing rates on user profiles and job roles</span>
-* <span class="preview">Cost rates on user profiles and job roles</span>
 
 ### View access
 
@@ -138,8 +136,6 @@ A user with View access to financial data can view (not edit) the following:
 * Finance section under Project and Task objects
 * Business case
 * Billing rates and Billing records on projects
-* <span class="preview">Billing rates on user profiles and job roles</span>
-* <span class="preview">Cost rates on user profiles and job roles</span>
 * Cost per hour and billing per hour on user profiles
 
   You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
@@ -154,9 +150,7 @@ A user with Edit access to financial data can view and edit the following:
 
 * Finance section under Project and Task objects
 * Business case
-* Billing rates and Billing records on projects
-* <span class="preview">Billing rates on user profiles and job roles</span>
-* <span class="preview">Cost rates on user profiles and job roles</span>
+* Billing rates, billing records, and cost rates on projects
 * Cost per hour and billing per hour on user profiles
 
   You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the Edit button in step 4 above.

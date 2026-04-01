@@ -71,7 +71,8 @@ For information about what users in each access level can do with financial data
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher to projects, tasks, and issues that include at least View Finance permissions</p></td> 
+   <td> <p>View permissions or higher to projects, tasks, and issues that include at least View Finance permissions</p>
+   <p><span class="preview">View permissions or higher to projects, tasks, and issues that include at least View billing rates, View cost rates, or View general finance permissions</span></p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,7 +86,7 @@ For more detail about the information in this table, see [Access requirements in
 Consider the following when granting financial permissions to objects:
 
 * You can grant financial permissions to projects, tasks, and issues.
-* Permissions can be inherited: if you have View Finance permissions to a project, you automatically inherit View Finance permissions to the tasks and issues on the project.
+* Permissions can be inherited: if you have View General Finance permissions to a project, you automatically inherit View General Finance permissions to the tasks and issues on the project.
 
 To grant financial permissions to an object:
 
