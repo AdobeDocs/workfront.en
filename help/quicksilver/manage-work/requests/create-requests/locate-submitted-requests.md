@@ -105,13 +105,14 @@ You can view submitted requests in the Requests area, which include links to rec
 >If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience.
 
 <!--
-replace the note above with this at release: 
+At preview, replace the note above with this:
 >[!NOTE]
 >
->Links to created objects are available in the new requesting experience only for Planning requests in the Production environment, in cases where the request itself created a record. 
+>The following objects have links from the requests list in the Requests area and in the My Requests widget, when you enable the new requests experience: 
 >
->If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience in the Production environment.
-><span class="preview">In the Preview environment, you can access both Workfront objects converted from Workfront requests and Planning records created from Planning requests from the Requests area list.</span>
+>* Planning and Workfront requests in the Subject field. 
+>* Planning records created from Planning requests in the Object created field.
+>* <span class="preview">Workfront tasks and issues converted from Workfront requests in the Object created field, in the Preview environment. </span>
 -->
 
 To view requests that you or other users have submitted in the new requesting experience:

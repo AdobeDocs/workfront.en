@@ -57,6 +57,12 @@ Below are some types of Workfront object lists that use the enhanced list format
 | List of requests | <ul><li>Requests (new experience only)</li><li>My Requests widget on Home</li></ul> |
 | Lists of statuses, priorities, severities, and exchange rates in Setup | <ul><li>Setup &gt; Project Preferences &gt; Statuses</li><li>Setup &gt; Project Preferences &gt; Priorities</li><li>Setup &gt; Project Preferences &gt; Severities</li><li>Setup &gt; Project Preferences &gt; Exchange Rates</li></ul> |
 | <span class="preview">List of reports</span> | <span class="preview">Reports (**Use shareable folders** must be turned on)</span> |
+<!--| <span class="preview">List of job roles and rates in Setup</span> | <span class="preview">Setup > Rate Cards > select a rate card > Job Roles and Rates</span> |
+| <span class="preview">List of translations</span> | <span class="preview">Setup > Localization</span> |
+| <span class="preview">List of snapshots</span> | <span class="preview">Project > Snapshots</span> |
+| <span class="preview">List of resources for billing</span> | <span class="preview">Project > Resource for Billing</span> |
+| <span class="preview">New Advanced Assignments on a task</span> | <span class="preview">Task > Assignments > Advanced </span> |-->
+
 
 ## Add items to an enhanced list
 
@@ -378,7 +384,18 @@ Filters help you reduce the amount of information you display in the list.
 
    >[!TIP]
    >
-   >To apply a current user wildcard, select **Me (logged in user)** as the field value. The filter will then apply to the user who is viewing the list. This wildcard is available in fields where the value is a user.
+   >To apply a personalized filter, select one of the following options for a field value: 
+   >
+   >* **Me (logged in user)** to refer to the logged in user in fields referring to users. 
+   >
+   <!-->>* **My teams** or **My home team** to refer to your teams in fields referring to teams. 
+   >
+   >* **My groups** or **My home group** to refer to your groups in fields referring to groups.
+   >
+   >* **My company** to refer to your company in fields referring to companies.
+   > 
+   >* **My roles** or **My primary role** to refer to your job roles in fields referring to roles. 
+   >-->
 
 1. Click **Add condition** to add another condition to the filter.
 

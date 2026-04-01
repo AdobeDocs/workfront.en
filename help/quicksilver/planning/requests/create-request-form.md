@@ -408,7 +408,19 @@ For information on creating automations in other areas of Workfront Planning, se
 
 1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms**.
 
-   All request forms associated with the record type display in a table view. 
+   The **Request forms** page opens and all request forms associated with the record type display in a table view. 
+1. (Optional) Update the following view elements in the **Request forms** page to change how information displays in the table: 
+
+   * Columns
+
+   <!--
+   <div class="preview">
+   * Grouping <!-ensure they will change the label by Prod->
+   * Row height
+   </div>
+   -->
+
+   For more information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md). 
    
 1. (Optional) Hover over the name of a request form in the table view, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the form name, and click one of he following:
 
@@ -417,6 +429,8 @@ For information on creating automations in other areas of Workfront Planning, se
    * **Share**: Click this to modify who has access to the form.
    * **Copy link**: Click this to quickly copy the request form's link without opening the form.
    * **Delete**: Click this to delete the form. All requests and records added using the form are not deleted. The form cannot be recovered. 
+
+   <!--update screen shot at preview:-->
 
    ![More menu on request form from request forms list](assets/more-menu-on-request-form-from-request-forms-list.png)
 

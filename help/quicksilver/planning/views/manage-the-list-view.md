@@ -153,6 +153,21 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
         >* <span class="preview">You can reset a view that was shared with you to which you have only permissions to View, after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
         
     1. Click the **Filter** icon ![Filter icon](assets/filter-icon.png) to add a filter to the view. Results are filtered immediately in the list. You cannot save and name filters. Filters are remembered when you access the page in future and they are part of shared views.
+
+        >[!TIP]
+        >
+        >To apply a personalized filter, select one of the following options for a field value: 
+        >
+        >* **Me (logged in user)** to refer to the logged in user in fields referring to users. 
+        >
+        <!-->>* **My teams** or **My home team** to refer to your teams in fields referring to teams. 
+        >
+        >* **My groups** or **My home group** to refer to your groups in fields referring to groups.
+        >
+        >* **My company** to refer to your company in fields referring to companies.
+        > 
+        >* **My roles** or **My primary role** to refer to your job roles in fields referring to roles. 
+        >-->
     1. Click the **Columns** icon ![Columns icon](assets/columns-icon.png) to select which columns to display or to hide in the view. 
     1. Hover over the name of a column, then click the down-pointing arrow to the left of the column name, then click one of the following:
         * **Rename**, to add a **Custom label** for the column. The name of the original field in Workfront does not change. 

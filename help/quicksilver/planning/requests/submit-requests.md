@@ -45,12 +45,10 @@ For information about how a workspace manager can create a request form and asso
 <tr> 
    <td role="rowheader"><p>Adobe Workfront packages</p></td> 
    <td> 
-<p>Any Workfront package and any Planning package</p>
-Or
-<p>Any Workflow package and any Planning package</p>
+<p>Any Workfront or Workflow package</p>
+<p>Any Workfront Planning package</p>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative.</p>
    </td> </tr>
-
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
@@ -172,8 +170,8 @@ The following must be in place before you can submit a request to a Workfront Pl
 
       The following fields display request and record information in the Requests area and the My Requests widget in Home:
 
-      * **Subject**: The name of the original request as added in the Requests area. You cannot hide or remove the **Subject** field from the request list. 
-      * **Created object**: The name of the record that was created from the request as it displays in Planning.
+      * **Subject**: The name of the original request as added in the Requests area. You cannot hide or remove the **Subject** field from the request list. The name has a link that opens the request page in Planning. 
+      * **Created object**: The name of the record that was created from the request as it displays in Planning. The Created object name has a link that opens the record created from the request.
       * **Object type**: The name of the workspace and record type where there records was created from the request in Planning. 
       * **Status**: The status of the request object. 
       * **Request form**: The name of the request form associated with the record type in Planning. 
@@ -278,6 +276,7 @@ External people cannot access Workfront internal areas, like **Requests** or **H
 1. (Optional) Click **Submit another request** to add another request to the same shared link. 
 
 <!--
+Not sure why this is commented out - need to check if it is valid?? - April 1, 2026: 
    * If the request form was not associated with an approval, the request is added to the Requests list in the Workfront Requests area and My Requests widget in Home, and a new record is added to the record type associated with the form. This is available only when you log in to Workfront.
    
    * If the request form was associated with an approval, the request is added to the Requests list in the Workfront Requests area and My Requests widget. A new record is added to the record type page only after all the approvers have approved it. This is available only when you log in to Workfront.

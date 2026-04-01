@@ -53,6 +53,7 @@ For information about how you create records or objects using an existing automa
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td><p>Standard</p>
+   <p>System Administrator to have access to configure automations based on Field value change</p>
    </td> 
   </tr> 
   <tr> 
