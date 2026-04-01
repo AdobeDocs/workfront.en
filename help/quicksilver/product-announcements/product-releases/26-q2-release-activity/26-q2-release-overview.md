@@ -12,10 +12,7 @@ This page provides information about functionality that is included in the Secon
 
 The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the Second Quarter 2026 release nears its planned Production release.
 
-
-<!-- Keep commented until Final Preview release.
-
-The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>. -->
+Live webinars are held for each quarterly release - these highlight the new features and provide detailed information. To sign up, visit the [events page](https://experienceleague.adobe.com/en/events?filters=Workfront) and filter for Workfront.
 
 >[!IMPORTANT]
 >
@@ -24,7 +21,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>26.2 (February 12, 2026)</li><li>26.3 (March 12, 2026)</li><li>26.4 (April 15, 2026)</li></ul>|<ul><li>26.1 (April 16, 2026)</li></ul>|
+>|<ul><li>26.2 (February 12, 2026)</li><li>26.3 (March 12, 2026)</li><li>26.4 (April 15, 2026)</li></ul>|<ul><li>26.4 (April 16, 2026)</li></ul>|
 >
 >Note that for the final release of each quarter (26.4 this quarter), users on the fast release schedule will receive the release one day early (April 15 , 2026).
 >
@@ -149,6 +146,30 @@ The <add release> release webinar will be held on <date>. You can [register for 
              </tbody>
         </table>   
 
+### Enterprise Operations enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md" class="MCXref xref" xrefformat="{para}">Enterprise Operations Capabilities now available in Adobe Workfront</a><p></p>
+            <p>Advanced enterprise operations capabilities from Adobe Workfront are a unified and scalable way to manage finances, projects, and enterprise access. These capabilities provide the visibility and control that enterprises need to operate profitably and efficiently.</p><p>The following updates are included in these capabilities:<ul><li>Advanced financial management – including rate attributes, rate cards, a redesigned Advanced Assignments experience, date-effective exchange rates, and additional advanced features</li><li>Historical data tracing – including project snapshots</li><li>Enterprise permissions – including business profiles, and separate cost and billing rates in access levels and object permissions</li><li>Custom form and field enhancements – including new advanced logic types, a Finance permission type setting on currency-formatted fields, the ability to add custom forms to more objects, and enhancements to the form designer interface</li><li>Layout template enhancements – including customizing the headers and left navigation menus of more objects, updates to Main Menu options in layout templates, and More menu customization</li><li>Custom localization – including the ability to define custom terms and phrases in different languages</li><li>Enhancements to Business Rules – including the ability to automate actions for the created, edited, or modified object when certain conditions are met</li></ul></p>
+ </p>
+        </td>
+        <td><p>April 2, 2026</p></td>
+        <td><p>April 15, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+    </tr>
+              </tbody>
+        </table>   
 
 ### Project enhancements
 
