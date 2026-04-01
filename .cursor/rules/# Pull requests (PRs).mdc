@@ -1,3 +1,8 @@
+---
+description: PR titles, Jira from branch name, Summary/Changes/Context body format.
+alwaysApply: true
+---
+
 # Pull requests (PRs)
 
 When you draft or review a pull request title or description (for example in GitHub/GitLab or when asked in Agent chat), follow these conventions.
