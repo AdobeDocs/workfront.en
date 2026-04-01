@@ -1,3 +1,8 @@
+---
+description: Git commit message format (50-char subject, body with 📖/✏️ bullets).
+alwaysApply: true
+---
+
 # Git commit messages
 
 Always apply this rule. When you draft or generate a git commit message (for example in the Source Control commit box or when asked in Agent chat), follow this format.
