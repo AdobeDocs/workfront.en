@@ -187,7 +187,7 @@ This layout of Advanced Assignments applies to tasks only. For issues, see [Crea
 
       A project-level job role for billing can also be set for a user, and that value is used on all of the user's assignments on that project.
 
-      For more information, see Set up a job role for billing.
+      For more information, see [Set up a Job Role for Billing](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md).
 
    * **Allocation**: When the Duration Type of a task is Simple, specify the number of hours each user or job role should be assigned to the task. The sum of all assigned hours for each user is equal to the number in the **Planned Hours** field at the top of the Advanced Assignments window. In all other cases, specify the percentage of time (or allocation) that you want the assignee to spend solving the task.
 
@@ -195,7 +195,7 @@ This layout of Advanced Assignments applies to tasks only. For issues, see [Crea
      >
      >After you manually modify assignment allocations on tasks, the Planned Hours of the tasks might update accordingly. Note that you cannot manually modify allocations for teams assigned to tasks. For more information, see the section [Update task Planned Hours when managing user allocations](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md#update-task-planned-hours-when-managing-user-allocations) in the article [Planned Hours overview](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md).
 
-   * **Attributes**: Any attributes available for the user are shown in the attribute fields. The administrator sets up the attributes and they are added to the user profile or associated with a job role in a rate card. For more information, see Define rate attributes and [Edit a user's profile](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   * **Attributes**: Any attributes available for the user are shown in the attribute fields. The administrator sets up the attributes and they are added to the user profile or associated with a job role in a rate card. For more information, see [Define rate attributes](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md) and [Edit a user's profile](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
       Attributes are currently read-only on user assignments. They are editable for job roles.
 

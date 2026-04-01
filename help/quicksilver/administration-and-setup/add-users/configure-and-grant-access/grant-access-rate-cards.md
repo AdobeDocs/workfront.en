@@ -15,7 +15,7 @@ role: Admin
 
 As an Adobe Workfront administrator, you can define a user's access to rate cards through the user's access level, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
-For information on rate cards, see Manage rate cards.
+For information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
 ## Access requirements
 
@@ -65,7 +65,7 @@ Consider the following when granting users access to rate cards in Workfront:
 
 ## Access to shared rate cards
 
-You can share a rate card with other users by granting them permissions to it, as explained in Share rate cards.
+You can share a rate card with other users by granting them permissions to it, as explained in [Share a rate card](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md).
 
 When you share any object with another user, the recipient's rights on it are determined by a combination of two things:
 

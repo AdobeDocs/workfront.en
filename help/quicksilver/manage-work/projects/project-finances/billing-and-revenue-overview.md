@@ -53,7 +53,7 @@ A rate card must be attached to a project for its rates to be applied. When a ra
 
 Rate card rates are part of the hierarchy for determining rates, based on the task revenue type.
 
-For more information about creating rate cards, see Manage rate cards.
+For more information about creating rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
 For more information about the rate hierarchy, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 

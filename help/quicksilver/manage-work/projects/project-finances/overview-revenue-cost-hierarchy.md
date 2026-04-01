@@ -17,7 +17,7 @@ To provide precise financial calculations, Workfront uses the appropriate billin
 
 The sections in this article outline the step-by-step process for determining the appropriate billing and cost rates for job roles and users for the User and Role Hourly revenue type and cost type.
 
-For more information on billing rates, and revenue types and how revenue is calculated, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+For more information on billing rates, revenue types, and how revenue is calculated, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 ## Overview of effective dates
 
@@ -62,7 +62,7 @@ The flag can be activated on a project when work has started and assignments and
 >Once the flag is turned on to preserve the billing rates, it cannot be turned off unless the project has no assignments and no hours. This ensures that all financial reporting reflects the true contractual rates.
 >When the flag is off, the system allows the billing rates to be recalculated or adjusted dynamically. Any updates to the user's role, salary, or billing rate are immediately reflected in the billing rate for the assignment.
 
-For more information, see [Edit projects](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+For more information, see [Edit projects](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) and [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
 ## Planned revenue – User and Role Hourly
 
