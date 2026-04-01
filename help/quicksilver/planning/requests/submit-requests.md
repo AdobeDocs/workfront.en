@@ -209,7 +209,7 @@ The following must be in place before you can submit a request to a Workfront Pl
       </div>
    -->
 
-   For information, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md). 
+   For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). 
 
    <!--   
    1. (Optional) From the requests list, do any of the following:

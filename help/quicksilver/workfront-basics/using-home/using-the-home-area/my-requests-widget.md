@@ -179,7 +179,7 @@ Consider the following when working with views in the My Requests widget:
 
 To search for specific requests in the My Requests widget:
 
-1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/lines-main-menu.png) in the upper-left corner, then click **[!UICONTROL Home]**.
 1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**, then click it to add it to **Home**.  
 1. In the search bar near the upper-right of the My Requests widget, enter the term that you want to search for.
 
@@ -195,7 +195,7 @@ You can find objects created by a request in the My Requests widget.
 >
 >Links to created objects are available in the new requesting experience only for Planning requests, in cases where the request itself created an object. If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience.
 
-1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/lines-main-menu.png) in the upper-left corner, then click **[!UICONTROL Home]**.
 1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**, then click it to add it to **Home**. 
 1. Locate the request that created the object. 
 1. Click the object name in the **Created object** column for that request. 

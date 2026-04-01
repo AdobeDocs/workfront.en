@@ -52,7 +52,9 @@ You must do the following before you can create a request from a draft:
 
 ## Create requests from drafts
 
-The procedure for creating requests from drafts differs between the new requesting experience and the legacy experience.
+You can create requests from drafts for both Workfront and Planning reqeusts. 
+
+Creating requests from drafts differs between the new requesting experience and the legacy experience.
 
 * [Create requests from drafts in the new requesting experience](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [Create requests from drafts in the legacy requesting experience](#create-requests-from-drafts-in-the-legacy-requesting-experience)
@@ -82,9 +84,14 @@ The procedure for creating requests from drafts differs between the new requesti
 
 1. After completing the information for the request, click **Submit**.
 
-     When you submit the request, the draft is deleted and cannot be restored.
+     When you submit the request, the draft is replaced with the new request, and cannot be restored as a draft. 
 
 ### Create requests from drafts in the legacy requesting experience
+
+>[!NOTE]
+>
+>You cannot create requests from Planning request drafts using the legacy experience.
+
 
 {{step1-to-requests}}
 
