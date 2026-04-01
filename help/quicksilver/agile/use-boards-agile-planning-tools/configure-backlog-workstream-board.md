@@ -7,6 +7,8 @@ description: You can choose to display a backlog column on a board in a workstre
 author: Courtney
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Configure the backlog on a workstream board
 

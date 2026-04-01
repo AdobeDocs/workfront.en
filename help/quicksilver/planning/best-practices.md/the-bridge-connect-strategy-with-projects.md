@@ -6,6 +6,8 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 
 # Build the bridge: connecting strategic intent to projects 
@@ -139,7 +141,8 @@ By connecting intent to action, you can answer critical business questions at a 
 
 *   **Don't bypass the bridge:** If work starts in the Workflow module without a link to Planning, you've created a "Shadow Plan" that is invisible to leadership.
 
-<!--original content:
+<!--
+original content:
 
 # The Bridge: Connecting Strategic Intent to Projects 
 

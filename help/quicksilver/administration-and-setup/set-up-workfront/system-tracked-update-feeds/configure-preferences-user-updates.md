@@ -8,6 +8,8 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Configure preferences for user updates
 
@@ -46,7 +48,8 @@ You can configure preferences that give users access to certain features when th
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -67,7 +70,8 @@ You can configure preferences that give users access to certain features when th
    <td><p>To perform these steps at the system level, you need the [!UICONTROL System Administrator] access level.</p><p>To perform them for a group, you must be a manager of that group.</p></td>
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Allow users to add images in updates
 

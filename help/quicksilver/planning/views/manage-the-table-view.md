@@ -6,6 +6,8 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Manage the table view
 
@@ -71,7 +73,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -132,7 +135,8 @@ For more information about Workfront access requirements, see [Access requiremen
 </td>
   </tr>
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Edit records using the table view
 
@@ -523,7 +527,8 @@ To add a grouping:
 
         Depending on the number of groupings you apply to the view, some options might not be available.
    
-<!-- this is not available yet: 
+<!--
+ this is not available yet: 
 
 To sort grouped records: 
 

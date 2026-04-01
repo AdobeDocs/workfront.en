@@ -6,6 +6,8 @@ description: You can remove individual approvers or reviewers from a document.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Remove approvers or reviewers from a document approval workflow
 

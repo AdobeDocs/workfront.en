@@ -6,6 +6,8 @@ description: If you are using the new requesting experience, you can create and 
 author: Alina
 feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 
 # Create and manage views in the Requests area
@@ -116,8 +118,7 @@ The changes you make on a view are visible to all those you share the view with.
    >
    >Fields you add to the columns must exist before they are available in the **Column manager**.
 
-
-1. (Optional) Click **Columns** to open the F**ields visibility and order** box. 
+1. (Optional) Click **Columns** to open the **Fields visibility and order** box. 
 1. Turn on the setting for each field  you want to show in the list, turn it off to hide it, or drag and drop the fields in a different order.
 
 1. (Optional) Click **Filters** and start adding conditions for what requests you want to view. 

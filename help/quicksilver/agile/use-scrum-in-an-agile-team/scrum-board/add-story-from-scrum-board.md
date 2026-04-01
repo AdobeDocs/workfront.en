@@ -6,6 +6,8 @@ description: You can quickly create a new story or issue directly from the Scrum
 author: Courtney
 feature: Agile
 exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Add stories and issues from the [!UICONTROL Scrum] board
 

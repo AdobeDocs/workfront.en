@@ -7,6 +7,8 @@ description: As a project manager, you can use billing rates to capture revenue 
 author: Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Overview of Billing and Revenue
 
@@ -129,7 +131,8 @@ The following table shows the types of revenue associated with tasks, issues, an
 
 *For Actual Hours, the user's rates always refer to the user who logs the hours or to the rates of their job roles. For information about when Workfront uses the rates of the user and when it uses the rates of their job roles, see the [Revenue calculations](#revenue-calculations) section in this article.
 
-<!--Note from the table for Planned Revenue line: 
+<!--
+Note from the table for Planned Revenue line: 
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the note below is duplicated in this article: /Content/Resource Mgmt/Resource utilization/view-utilization-information.htm and in the glossary)</p>
     -->
 

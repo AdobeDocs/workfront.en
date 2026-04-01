@@ -4,6 +4,8 @@ title: Breadcrumbs overview
 description: Breadcrumbs display the full navigational hierarchy for all object types.
 feature: Get Started with Workfront
 exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Breadcrumbs overview
 
@@ -38,7 +40,8 @@ You can also use the following keys to navigate the breadcrumbs:
 
 
 
-<!--drafted: this is no longer possible, since we removed Campaigns, but it might come back as part of Maestro: 
+<!--
+drafted: this is no longer possible, since we removed Campaigns, but it might come back as part of Maestro: 
 
 ## Multi-object breadcrumbs
 

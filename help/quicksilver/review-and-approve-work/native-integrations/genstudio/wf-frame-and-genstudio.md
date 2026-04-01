@@ -10,6 +10,8 @@ recommendations: noDisplay, noCatalog
 hide: yes
 hidefromtoc: yes
 exl-id: 4d0c0542-3383-4907-b573-e2ef56117681
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Get started with the GenStudio for Performance Marketing and Frame.io integration
 

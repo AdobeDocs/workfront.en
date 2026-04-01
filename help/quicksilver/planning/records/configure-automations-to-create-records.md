@@ -6,6 +6,8 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Configure Adobe Workfront Planning automations
 
@@ -68,7 +70,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -125,7 +128,8 @@ For more information about Workfront access requirements, see [Access requiremen
    </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Configure an automation in Workfront Planning
 

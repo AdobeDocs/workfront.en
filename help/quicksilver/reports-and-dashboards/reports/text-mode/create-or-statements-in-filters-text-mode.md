@@ -6,6 +6,8 @@ description: You can include multiple statements when you create a filter in lis
 author: Courtney
 feature: Reports and Dashboards
 exl-id: be145e22-d66c-4a74-af0e-8bb0598b4d67
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create "OR" statements in text mode filters
 

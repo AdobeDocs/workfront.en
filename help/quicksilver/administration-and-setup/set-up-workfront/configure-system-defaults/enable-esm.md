@@ -8,6 +8,8 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Enable Adobe enterprise storage for your organization
 

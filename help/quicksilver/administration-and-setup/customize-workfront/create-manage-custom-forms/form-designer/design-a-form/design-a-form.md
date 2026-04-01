@@ -8,6 +8,8 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create a custom form
 
@@ -712,12 +714,14 @@ To add an external lookup:
 * The object's Details area (for example, for a project, the Project Details area).
 * The Edit box for the object, if it has the new Adobe Workfront experience look and feel (for example, the Edit Project and Edit Task boxes).
 
-<!-- Do we need to tell them where they can't see it if we tell them where they can see it?
+<!--
+ Do we need to tell them where they can't see it if we tell them where they can see it?
 Currently, users cannot see the widget in the following areas:​
 Lists and reports
 Home and Summary
 The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)
-The Workfront Mobile app -->
+The Workfront Mobile app
+-->
 
  +++ Expand to see descriptions of available fields.
 

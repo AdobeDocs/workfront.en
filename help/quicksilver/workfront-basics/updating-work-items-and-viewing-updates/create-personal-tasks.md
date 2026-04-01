@@ -6,6 +6,8 @@ description: Personal tasks are ad hoc work requests that you send to a user, to
 author: Becky
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create personal tasks
 
@@ -72,7 +74,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -97,7 +100,8 @@ For more information, see [Access requirements in Workfront documentation](/help
   </tr> 
  
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Create a personal work request

@@ -8,6 +8,8 @@ author: Courtney
 feature: People Teams and Groups
 recommendations: noDisplay, noCatalog
 exl-id: a5bf6aee-e41f-44d8-a377-baeea6a0a911
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create and manage teams
 

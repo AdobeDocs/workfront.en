@@ -6,6 +6,8 @@ description: You can submit requests in the My Requests widget. You can also cus
 author: Alina, Courtney
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
+last-update: 2026-04-01T11:23:03-07:00
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 ---
 # Use the My Requests widget
 
@@ -64,7 +66,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 You can create a request directly from the My Requests widget.
 
-For instructions, see the section [Create a request](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md/#create-a-request) in the article [Create work items and projects from the Home area](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+For instructions, see the section [Create a request](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) in the article [Create work items and projects from the Home area](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Copy a request
 
@@ -72,15 +74,35 @@ You can copy a request in the My Requests widget, edit it, and submit it as a ne
 
 For instructions, see [Copy and submit requests](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
-## Filter requests
+## Manage information in the requests list in the My Requests widget
 
+<!--
 The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR operators.
 
 To configure the filter in the My Requests widget:
+-->
 
-1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/lines-main-menu.png) in the upper-left corner, then click **[!UICONTROL Home]**.
 1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**, then click it to add it to **Home**. 
-1. In the **My Requests** widget, click **Filter**.
+1. (Optional) To manage the way the information displays in the requests list, update the following view elements for the list: 
+
+   * View
+   * Filter
+   * Columns
+   
+   <!--
+   <div class="preview">
+      * Group
+   * Format cells
+   * Row height
+      </div>
+   -->
+
+   For more information on managing information in the requests list, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+
+<!--
+ Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
 1. Select the field that you want to filter by. Available options are:
 
    * Workspace
@@ -96,14 +118,19 @@ To configure the filter in the My Requests widget:
 1. (Optional) To add another filter condition, click **Add condition** and repeat steps 4-6.
 1. (Optional and conditional) If you have multiple conditions, switch the And or Or value by clicking **And** or **Or** to the left of the condition.
 
+
 The filter is saved automatically.
+
+-->
 
 >[!TIP]
 >
 >If your organization has purchased Workfront Planning in addition to Adobe Workfront, the My Requests widget will include both Workfront and Workfront Planning requests.
 > 
 >* To filter for only Workfront requests, set the filter to **Object type** > **Has any of** > **Issues**.
->* To filter for only Workfront Planning requests, et the filter to **Object type** > **Has none of** > **Issues**.
+>* To filter for only Workfront Planning requests, set the filter to **Object type** > **Has none of** > **Issues**.
+
+<!--
 
 ## Adjust or add columns
 
@@ -132,6 +159,10 @@ To adjust the columns on the My Requests widget:
 
 Column preferences are saved automatically.
 
+-->
+
+<!--
+
 ## Create a view
 
 You can create views in the My Requests widget to change the way the information displays in the request list. 
@@ -144,6 +175,8 @@ Consider the following when working with views in the My Requests widget:
 
    * Widget Unified Requests Default View
 * Creating and editing a view in the My Requests widget is similar to enhanced lists. For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). 
+
+-->
 
 ## Search requests
 

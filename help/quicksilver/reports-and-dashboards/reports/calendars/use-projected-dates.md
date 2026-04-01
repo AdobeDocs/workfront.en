@@ -6,6 +6,8 @@ description: A calendar report is a dynamic report that provides a visual repres
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Use [!UICONTROL Projected Dates] in a calendar report
 

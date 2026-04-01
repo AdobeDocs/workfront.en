@@ -7,6 +7,8 @@ description: 'Grouping: indicate whether the results of a grouping should be col
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2880e06f-34f3-47b1-9462-5a15a20d6fee
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Grouping: indicate whether the results of a grouping should be collapsed or expanded using text mode
 

@@ -7,6 +7,8 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Get started with the Workfront Content Reviewer
 
@@ -109,5 +111,3 @@ If the asset does not meet brand guidelines, the creative can upload a new versi
 
 For more information on viewing scores and feedback, see [View Content Reviewer score and feedback](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md).
 
-
-![Content reviewer feedback](assets/ai-reviewer-output.png)

@@ -7,6 +7,8 @@ description: To aggregate several fields in Adobe Workfront and display that agg
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Calculated custom fields vs. calculated columns
 

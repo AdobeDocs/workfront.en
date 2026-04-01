@@ -6,6 +6,8 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create and manage a request form in Adobe Workfront Planning
 
@@ -114,6 +116,11 @@ You can create a request form from the record type associated with the form<!--s
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
 
 1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Create request form** or **Manage request forms**, if you already have a form and you want to create additional ones.
+
+   The **Request forms** page opens and the requests display in the list view. 
+
+   ![Request forms page](assets/request-forms-in-list-view.png)
+
 1. (Conditional) If you want to add another form, click **New request form**.
 
    The **Create request form** box opens.

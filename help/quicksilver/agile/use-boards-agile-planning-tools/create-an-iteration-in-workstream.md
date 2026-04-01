@@ -7,6 +7,8 @@ description: An iteration is a set amount of time reserved for completing work. 
 author: Courtney
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create an iteration in a workstream
 

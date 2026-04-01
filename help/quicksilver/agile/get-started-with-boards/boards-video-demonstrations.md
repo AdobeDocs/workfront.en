@@ -7,6 +7,8 @@ description: These videos will introduce you to the different types of boards av
 author: Courtney
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Workfront Boards video demonstrations
 

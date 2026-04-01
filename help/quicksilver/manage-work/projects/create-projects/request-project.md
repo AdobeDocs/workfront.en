@@ -6,6 +6,8 @@ description: You can request for a project to be approved before you start worki
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Request a project
 
@@ -63,7 +65,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -89,7 +92,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    <td> <p>When you create a project request you automatically receive Manage permissions to the project </p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Request a project
 

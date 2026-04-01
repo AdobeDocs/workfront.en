@@ -6,6 +6,8 @@ description: The Tracking Mode of a task determines how the task Progress Status
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Set Tracking Mode for tasks
 
@@ -49,7 +51,8 @@ For information about Tracking Mode on tasks, see [Task Tracking Mode overview](
 
 +++
 
-<!--old: 
+<!--
+old: 
 <table style="table-layout:auto"> 
  <col> 
  <col> 

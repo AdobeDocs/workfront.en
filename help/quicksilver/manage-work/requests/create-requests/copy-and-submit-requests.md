@@ -6,6 +6,8 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Copy and submit requests
 
@@ -220,17 +222,21 @@ You must have a request that you or someone in your organization previously subm
 
 You can copy and submit requests in the Requests area of Workfront, or from the My Requests widget in Home.
 
-{{step1-to-requests}}
+1. Do one of the following: 
 
-1. To access the My Requests widget in Home:
+   {{step1-to-requests}}
+
+   1. To access the **My Requests** widget in **Home**:
    
    {{step1-to-home}}
 
-   1. Locate the My Requests widget. 
+   1. Locate the **My Requests** widget. 
 
       For more information on the My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. In the **Requests** list or the **My Requests** widget in Home, hover over the request that you want to copy, then click the **More** menu ![More menu](assets/more-menu.png).  
+1. In the **Requests** list or the **My Requests** widget in Home, hover over the request that you want to copy, then click the **More** menu next to its name.  
+
+   ![More menu](assets/more-menu.png)
 
 1. Click **Copy** 
 

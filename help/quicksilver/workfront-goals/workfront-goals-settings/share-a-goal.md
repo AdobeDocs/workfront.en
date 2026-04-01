@@ -6,6 +6,8 @@ description: When you share a goal you give Manage permissions to a goal to some
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Share a goal in Adobe Workfront Goals
 
@@ -65,7 +67,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 +++
 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto">
 <col>
@@ -120,7 +123,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Considerations about sharing goals
 

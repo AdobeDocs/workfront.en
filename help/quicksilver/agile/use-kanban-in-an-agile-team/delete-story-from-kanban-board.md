@@ -6,6 +6,8 @@ description: You can delete a story or issue from the Kanban board. When you del
 author: Courtney
 feature: Agile
 exl-id: 5e838f0a-b26d-4bbe-b9e9-3161e3958b58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Delete stories or issues from the [!UICONTROL Kanban] board
 

@@ -5,6 +5,8 @@ description: You can export a list of objects from Adobe Workfront. When the lis
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 31159d6d-f03a-4f84-a454-25a232971441
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Export a list
 

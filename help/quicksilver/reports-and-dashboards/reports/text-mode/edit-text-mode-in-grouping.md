@@ -6,6 +6,8 @@ description: 'You can edit a grouping in a list or report using text mode to acc
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Edit a grouping using text mode
 
