@@ -5,6 +5,8 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Replacement of Flash-based tools in Adobe Workfront
 
@@ -165,11 +167,13 @@ Except where specified otherwise, all Legacy features have been replaced by new 
   </tr> 
   <tr> 
    <td> <p><strong>Resource Estimates</strong> </p> <p>The Resource Estimates tab under each Legacy Resource Pool served the same purpose as the Resource Budget Manager, only in the context of one Legacy Resource Pool. This tool presented the same limitations as the Resource Budget Manager and the Legacy Resource Pools: inaccurate data and manual input of availability. </p> </td> 
-   <td> <p>With the automatic calculation of user availability, Resource Estimates have become obsolete and have been removed.</p> <p>The tool is eliminated on the Legacy Resource Pools and the Legacy Resource Estimates in the Business Case of a project. <!--
+   <td> <p>With the automatic calculation of user availability, Resource Estimates have become obsolete and have been removed.</p> <p>The tool is eliminated on the Legacy Resource Pools and the Legacy Resource Estimates in the Business Case of a project.
+   <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The Legacy Resource Estimates area on the Business Case of the project remains there in View-only mode at this time. 
       </MadCap:conditionalText>
-     --></p> </td> 
+     -->
+     </p> </td>
   </tr> 
   <tr> 
    <td> <p><strong>Capacity Planner</strong> </p> <p>The Capacity Planner was a Workfront tool for budgeting resources and prioritizing projects inside a Legacy Resource Pool, according to the availability of the resources. Given the incompleteness of data from Resource Estimates and the Resource Budget Manager which provided the information for the Capacity Planner, project prioritization had to be double-checked against the availability of the users.</p> <p>Using a single Legacy Resource Pool that included all the job roles in the system was the most common scenario, which led to performance problems with the Capacity Planner trying to load a large number of projects.</p> </td> 
@@ -206,7 +210,8 @@ Except where specified otherwise, all Legacy features have been replaced by new 
          <li>Manage users' allocations to work items. </li>
          <li>Share the Workload Balancer with other users who may not have visibility into the People area. Use the Shareable link functionality to share a link to the Workload Balancer and embed it in custom dashboards. Any users with access to View users are able to view these dashboards when you share them.</li>
         </ul><p>The Workload Balancer is available in the People area. </p><p>For information about the Workload Balancer, see <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Workload Balancer overview</a>.</p></li> 
-      </ul> <!--
+      </ul>
+      <!--
        <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
         <li><strong>The Resource Scheduling Areas</strong><strong>:</strong> When assigning your resources to the actual work that must be completed, use the Resource Scheduling areas in the People or Team areas, or at the project level. These areas allow you to visualize and manage the users' workload by day and rectify any problems from one view using the following actions: 
          <ul>
@@ -222,7 +227,8 @@ Except where specified otherwise, all Legacy features have been replaced by new 
           <li>User - the Allocation tab is eliminated as the same information can be accessed in the User View of the Resource Planner.</li>
          </ul></li> 
        </ul>
-      --> </li> 
+      -->
+      </li>
     </ul> </td> 
   </tr> 
   <tr> 

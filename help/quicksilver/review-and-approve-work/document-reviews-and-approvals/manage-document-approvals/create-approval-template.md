@@ -6,6 +6,8 @@ description: You can create Approval Templates to streamline your approval proce
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create an approval workflow template for documents
 
@@ -111,5 +113,7 @@ Once the template is created, it can be applied to documents in the Documents ar
 </div>
 
 
-<!-- Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
-![Assign template](assets/assign-template.png)-->
+<!--
+ Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
+![Assign template](assets/assign-template.png)
+-->

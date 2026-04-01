@@ -6,6 +6,8 @@ description: Project requests display as projects with a status of [!UICONTROL R
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Review Requested Projects
 
@@ -56,7 +58,8 @@ You can review requested projects in the following areas of [!DNL Adobe Workfron
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,7 +82,8 @@ You can review requested projects in the following areas of [!DNL Adobe Workfron
    <td> <p>[!UICONTROL View] permissions or higher on the portfolio</p> <p>[!UICONTROL Manage] permissions on the projects to update their status</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Review Requested Projects in a project report
 

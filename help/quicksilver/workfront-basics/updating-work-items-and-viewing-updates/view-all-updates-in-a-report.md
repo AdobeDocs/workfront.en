@@ -6,6 +6,8 @@ description: To see all the updates that any of the users have entered for an ob
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View all updates in a Note report
 
@@ -60,7 +62,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -90,7 +93,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
     <p>Note: If you do not have View permission or higher to an object, information for that object doesn't display in the report.</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Create a Note report
 

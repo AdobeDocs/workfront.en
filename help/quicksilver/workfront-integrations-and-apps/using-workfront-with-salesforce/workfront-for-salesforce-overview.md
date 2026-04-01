@@ -8,6 +8,8 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # [!DNL Adobe Workfront for Salesforce] overview
 

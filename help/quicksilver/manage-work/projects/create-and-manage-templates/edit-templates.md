@@ -6,6 +6,8 @@ description: You can edit project templates to reflect changes in the processes 
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Edit project templates
 
@@ -70,7 +72,8 @@ You can edit one template at a time, or you can edit templates in bulk.
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +104,8 @@ You can edit one template at a time, or you can edit templates in bulk.
    </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Edit a template {#edit-a-template}
 
@@ -579,12 +583,15 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    Now, when you use this template to create a project all these settings will transfer to the new project.
 
-<!--I don't think this note is valid anymore - this note was on Edit project when the section below was in that article, by mistake: 
+<!--
+I don't think this note is valid anymore - this note was on Edit project when the section below was in that article, by mistake: 
 >[!NOTE]
 >
->Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.-->
+>Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.
+-->
 
-<!-- This section is here by mistake - it should be maybe in layout templates?? 
+<!--
+ This section is here by mistake - it should be maybe in layout templates?? 
 
 ### Linked folders (conditional availability) {#linked-folders}
 
@@ -621,7 +628,8 @@ Editing templates in bulk differs depending on which environment you are using.
 
 ### Edit templates in bulk in the Production environment 
 
-*****************and hide the first line below************ -->
+*****************and hide the first line below************
+-->
 
 {{step1-to-templates}}
 
@@ -1258,7 +1266,8 @@ By editing issue settings, you can prevent users from adding issues inline in th
    Now, when you use this template to create a project all these settings will transfer to the new project.
 
 
-   <!--drafted section below for the edit template story: 
+   <!--
+   drafted section below for the edit template story: 
    remove this tag and add the Preview blurb at the top of this article in yellow, if it's not already there. Keep the "div class" tags below until 23.1 production: 
 
 

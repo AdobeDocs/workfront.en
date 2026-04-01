@@ -6,6 +6,8 @@ description: Adobe Workfront has an extensive list of built-in reports that are 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Use Adobe Workfront built-in reports
 

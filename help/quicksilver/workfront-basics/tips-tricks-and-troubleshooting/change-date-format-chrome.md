@@ -7,6 +7,8 @@ description: To change the date format for the dates in [!DNL Adobe Workfront] y
 feature: Get Started with Workfront
 author: Becky
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Change the format for dates in [!DNL Adobe Workfront]
 
@@ -52,7 +54,8 @@ You can change date formats in Workfront in the following ways, depending on wha
 
    For more information, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). 
 
-<!--drafted because we should not document steps for a third-party application
+<!--
+drafted because we should not document steps for a third-party application
 
 To change your language settings in Chrome:
 

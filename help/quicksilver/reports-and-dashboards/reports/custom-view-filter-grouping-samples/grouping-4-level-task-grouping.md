@@ -7,6 +7,8 @@ description: This task Grouping provides 4 levels of Grouping. In this case, tas
 author:  Courtney
 feature: Reports and Dashboards
 exl-id: a1780a57-b94c-4d3a-b526-9bf45dba21f1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Grouping: 4-level task grouping for Portfolio Owner, Program Owner, Project Owner, and Project Status
 

@@ -6,6 +6,8 @@ description: Schedule an automatic report delivery
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Schedule an automatic report delivery
 
@@ -184,7 +186,8 @@ To delete a scheduled report delivery:​
 
 1. Click **Delete** to confirm.
 
-<!--## Video walk-through
+<!--
+## Video walk-through
 
 View the following video to learn how to schedule a report delivery. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
 

@@ -7,6 +7,8 @@ description: This view displays the View, Filter, and Grouping used to build eac
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 67f86523-e136-4768-af93-586a107b106f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View: reporting elements used in reports
 

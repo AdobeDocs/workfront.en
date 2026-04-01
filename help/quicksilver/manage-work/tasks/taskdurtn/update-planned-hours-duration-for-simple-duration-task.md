@@ -6,6 +6,8 @@ description: By default, Adobe Workfront calculates the Duration of a task with 
 author: Alina
 feature: Work Management
 exl-id: 47a9b095-2b7d-4ed0-8cb6-e6bd5e37ce9c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Update the Planned Hours and Duration of a task with a Simple Duration Type
 
@@ -49,7 +51,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,7 +75,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Update the Planned Hours and Duration of a task with a Simple Duration Type
 

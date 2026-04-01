@@ -6,6 +6,8 @@ description: Use shareable report folders to organize the reports that you creat
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 65831f2e-9092-4e99-a86b-40df42c713bf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Use shareable report folders
 

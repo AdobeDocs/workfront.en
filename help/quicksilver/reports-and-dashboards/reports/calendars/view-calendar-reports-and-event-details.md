@@ -6,6 +6,8 @@ description: You can view calendar reports and event details that you created or
 author: Courtney
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View calendar reports and event details
 
@@ -85,8 +87,10 @@ For more detail about the information in this table, see [Access requirements in
 
 1. (Optional) If you are viewing the calendar in the **Month** or **Week** views, you can change your calendar view with the following options:
 
-      <!--   * To include or exclude weekends:
-      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
+      <!--
+         * To include or exclude weekends:
+      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.
+      -->
 
       * To quickly change the displayed dates:
 

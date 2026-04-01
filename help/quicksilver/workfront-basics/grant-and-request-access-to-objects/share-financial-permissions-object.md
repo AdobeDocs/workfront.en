@@ -6,6 +6,8 @@ description: Your Adobe Workfront administrator can grant you access to view or 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Share financial permissions on an object
 
@@ -17,7 +19,8 @@ For information about what users in each access level can do with financial data
 
 ## Access requirements
 
-<!--drafted for P&P:
+<!--
+drafted for P&P:
 
 <table style="table-layout:auto"> 
  <col> 

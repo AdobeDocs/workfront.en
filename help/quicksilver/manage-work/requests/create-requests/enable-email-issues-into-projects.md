@@ -6,6 +6,8 @@ description: You can configure a project to allow users to add issues to the pro
 author: Alina
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Enable users to email an issue into a Request Queue project
 

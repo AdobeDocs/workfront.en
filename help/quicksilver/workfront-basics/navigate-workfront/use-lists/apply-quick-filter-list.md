@@ -5,6 +5,8 @@ description: You can use the quick filter in a list of objects to help you locat
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Apply the quick filter to a list
 

@@ -6,6 +6,8 @@ description: 'Notifications: Goals'
 author: Courtney, Alina
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Notifications: Goals
 
@@ -89,7 +91,8 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
   </tbody> 
 </table>
 
-<!--these were removed at some point: 
+<!--
+these were removed at some point: 
 
    <td><strong>Someone liked my comment on a Goal</strong></td> 
    <td> <p>The name of the person who liked the comment</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The text of the comment </p> <p>The <strong>[!UICONTROL Open in web app]</strong> button which opens the [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> button which allows you to manage your notifications.</p> </td> 

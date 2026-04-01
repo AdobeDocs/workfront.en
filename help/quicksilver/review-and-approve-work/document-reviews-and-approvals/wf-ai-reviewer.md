@@ -7,6 +7,8 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Get started with the Workfront AI Reviewer
 
@@ -106,6 +108,8 @@ For more information on viewing scores and feedback, see [View AI Reviewer score
 ![AI reviewer feedback](assets/ai-reviewer-feedback.png)
 
 
-<!--## Video Walkthrough
+<!--
+## Video Walkthrough
 
->[!VIDEO](https://video.tv.adobe.com/v/3470847/)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3470847/)
+-->

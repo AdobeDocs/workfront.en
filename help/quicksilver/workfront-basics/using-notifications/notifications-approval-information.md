@@ -6,6 +6,8 @@ description: The following notifications alert you about approval activities hap
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Notifications: Approval information
 

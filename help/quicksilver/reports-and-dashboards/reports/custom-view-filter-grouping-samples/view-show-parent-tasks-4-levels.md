@@ -7,6 +7,8 @@ description: This task view shows the task name in the first column and (if they
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 66b45d64-794d-4adc-b208-2ded0dc9c5dc
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View: show parent tasks up to 4 levels deep
 

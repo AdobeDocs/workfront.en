@@ -9,12 +9,16 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Configure task and issue preferences for a group
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 If groups in your organization need to configure a task or issue preference independently from the way it is configured at the system level, an Adobe Workfront administrator can unlock the preference. Then, as a group administrator, you can configure the preference for your group and it will affect all tasks or issues associated with your group.
 
@@ -134,9 +138,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
        <ul> 
         <li><strong>Keep the original issue and tie its resolution to the task</strong>: When you are converting the issue, it remains visible as an issue until the task is complete. The status of the issue automatically changes to Closed when the task completes.</li> 
         <li><strong>Allow Primary Contact to have access to the task</strong>: Gives the primary contact (issue creator) access to the task to review the task, make updates, and stay informed of its progress</li> 
-        <li> <p><strong>Allow these settings to be changed during conversion</strong>: Allows the user who is converting the issue to change these options during the conversion of an issue to a task.</p> <!--
+        <li> <p><strong>Allow these settings to be changed during conversion</strong>: Allows the user who is converting the issue to change these options during the conversion of an issue to a task.</p>
+        <!--
           Screenshot when possible</p>
-         --> </li> 
+         -->
+         </li>
        </ul> </td> 
      </tr> 
      <tr> 

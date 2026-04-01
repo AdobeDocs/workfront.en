@@ -7,6 +7,8 @@ description: When you plan to be out of the office for a short period of time, y
 author: Becky
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Delegate work overview
 

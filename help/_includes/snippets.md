@@ -1,7 +1,8 @@
 # Snippets
 
 <!-- 
-Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
+Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. 
+-->
 
 <!-- General -->
 

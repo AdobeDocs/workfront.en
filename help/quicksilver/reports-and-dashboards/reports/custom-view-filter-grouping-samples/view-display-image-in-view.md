@@ -7,6 +7,8 @@ description: You can replace the name of an object in a view with an image using
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View: display an image instead of a string in a column
 

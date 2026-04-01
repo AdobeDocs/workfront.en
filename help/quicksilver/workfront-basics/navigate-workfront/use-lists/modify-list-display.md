@@ -5,6 +5,8 @@ description: In [!DNL Adobe Workfront], you can customize how a list displays fo
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Modify how a list displays
 

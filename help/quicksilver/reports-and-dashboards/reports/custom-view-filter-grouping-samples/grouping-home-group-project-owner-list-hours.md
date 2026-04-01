@@ -7,6 +7,8 @@ description: You can display the name of the Home Group of the Project Owner in 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6491ab9b-c09e-4bdb-99c2-56bb44f66947
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Grouping: Home Group of Project Owner in a list of hours
 

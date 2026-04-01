@@ -6,6 +6,8 @@ description: You can configure a Work In Progress (WIP) limit for each column on
 author: Courtney
 feature: Agile
 exl-id: 540880ad-46af-416b-8e0b-5df869555424
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Manage the [!UICONTROL work in progress] (WIP) limit on the Kanban board
 

@@ -7,6 +7,8 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Review and approve with the Frame.io viewer
 
@@ -17,7 +19,8 @@ Reviewing Workfront documents with the Frame.io viewer allows you to leave comme
 For more information on the Frame.io integration with Workfront, see [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 
-<!--## Access requirements
+<!--
+## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
 
@@ -49,7 +52,8 @@ For more information on the Frame.io integration with Workfront, see [Unified re
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++ -->
++++
+-->
 
 ## Prerequisites
 

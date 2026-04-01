@@ -7,6 +7,8 @@ description: 'View: document report with link to a proof'
 author: Courtney
 feature: Reports and Dashboards
 exl-id: a38c5e86-9789-41ca-a832-2ee5eb0a570b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View: document report with link to a proof
 

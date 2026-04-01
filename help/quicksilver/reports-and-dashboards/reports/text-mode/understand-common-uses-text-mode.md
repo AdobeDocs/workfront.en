@@ -6,6 +6,8 @@ description: Overview of common uses for Text Mode
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Overview of common uses for Text Mode
 

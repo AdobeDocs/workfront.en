@@ -8,6 +8,8 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create an [!DNL Adobe Workfront] issue in [!DNL Google Workspace] using email content
 

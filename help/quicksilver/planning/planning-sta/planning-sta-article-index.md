@@ -4,8 +4,11 @@ description: This article describes how you can benefit from using the standalon
 hidefromtoc: yes
 hide: yes
 exl-id: efd3c0a4-0c30-4780-93fe-46157c51d89a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
-<!--Update metadata with this at release:
+<!--
+Update metadata with this at release:
 
 ---
 title: "Adobe Planning Standalone: Article Index"

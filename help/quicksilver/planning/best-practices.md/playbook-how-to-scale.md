@@ -6,6 +6,8 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Turn your first win into sustainable momentum: a playbook for managed scaling
 
@@ -335,7 +337,8 @@ The following are examples of what a checklist should include:
 
     For information about global record types, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-<!--original content: 
+<!--
+original content: 
 
 **Version**: 1.0 
 

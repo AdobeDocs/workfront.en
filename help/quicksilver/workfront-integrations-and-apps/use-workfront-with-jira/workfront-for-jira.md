@@ -8,6 +8,8 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 924f3c9b-394d-4637-b981-9062c1fdd5aa
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Adobe Workfront for Jira: article index
 

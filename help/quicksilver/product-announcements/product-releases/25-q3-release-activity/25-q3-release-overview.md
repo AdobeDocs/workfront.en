@@ -5,6 +5,8 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Third Quarter 2025 release overview
 
@@ -13,9 +15,11 @@ This page provides information about functionality that is included in the Third
 The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the Third Quarter 2025 release nears its planned Production release.
 
 
-<!-- Keep commented until Final Preview release.
+<!--
+ Keep commented until Final Preview release.
 
-The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>. -->
+The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>.
+-->
 
 >[!IMPORTANT]
 >
@@ -389,7 +393,8 @@ Explore the latest updates made to learning programs, learning paths, videos, an
 
 
 
-<!-- HTML you might need
+<!--
+ HTML you might need
 
 New table
 

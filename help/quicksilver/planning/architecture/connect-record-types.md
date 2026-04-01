@@ -6,6 +6,8 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
@@ -22,7 +24,8 @@ exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 {{planning-important-intro}}
 
 <!--
-You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. -->
+You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
+-->
 
 You can connect record types to one another or you can connect record types with object types from other applications. 
 
@@ -106,7 +109,8 @@ For an example of connecting record types and records, see [Example of connectin
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -167,7 +171,8 @@ For an example of connecting record types and records, see [Example of connectin
   </tr> 
  
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Connect record types
 
@@ -206,7 +211,8 @@ For an example of connecting record types and records, see [Example of connectin
         >
         >![Edit record type box cross-workspace settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
         
-        <!--Old:
+        <!--
+        Old:
         [!TIP]
         The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the **Advanced settings** tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display.
         ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)

@@ -6,6 +6,8 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
@@ -14,9 +16,11 @@ exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 
 # Overview of sharing permissions in Adobe Workfront Planning 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 
@@ -127,7 +131,8 @@ The following are the levels of permissions for workspaces:
 
 ### Permissions to record types
 
-<!-- old access:
+<!--
+ old access:
 In the Production environment, Record Type permissions are always inherited when you grant permissions to the workspace.
 
 The following are the levels of permissions for record types: 
@@ -226,7 +231,8 @@ The following are the levels of permissions for views and view elements:
 
 *Users must have View or higher permissions to a workspace to gain this view access.
             
-<!--old view permissions, before sharing View permissions to a view through a workspace:
+<!--
+old view permissions, before sharing View permissions to a view through a workspace:
 |        | Manage | View  |
 |--------|--------|-------|
 | Edit   | ✓      |       |                            

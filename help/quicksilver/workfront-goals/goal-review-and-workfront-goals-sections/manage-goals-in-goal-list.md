@@ -6,6 +6,8 @@ description: After you or other users create goals, you can review their progres
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Manage goals in the Goal List of Adobe Workfront Goals
 
@@ -68,7 +70,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -119,7 +122,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Manage goals in the Goal List
 
@@ -238,7 +242,8 @@ To manage goals in the Goal List:
 
 1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png)  in the upper-right corner, then click **Goals**.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   <!--
+    Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
    The Goal List section displays by default. You can view goals regardless of their status, period, or owner, by default.

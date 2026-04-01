@@ -7,13 +7,16 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Plan a project overview
 
 <!--Audited: 12/2025-->
 
 <!--
-< see if you need to add something about approval settings, issue for ad-hoc happenings and how to work with documents??-->
+< see if you need to add something about approval settings, issue for ad-hoc happenings and how to work with documents??
+-->
 
 <!--this article is linked to the ESM area in the UI; the ESM team on the Adobe side linked to this article for their -->
 

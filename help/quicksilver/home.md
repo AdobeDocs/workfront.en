@@ -3,6 +3,8 @@ title: '[!DNL Adobe Workfront] documentation'
 description: Documentation for [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # [!DNL Workfront] documentation
 

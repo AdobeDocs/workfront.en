@@ -7,6 +7,8 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create [!DNL Adobe Workfront] projects from [!DNL Salesforce] objects
 

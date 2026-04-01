@@ -7,6 +7,8 @@ description: The burndown chart provides a visual representation of how stories 
 author: Courtney
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Agile burndown chart overview
 

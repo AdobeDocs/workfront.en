@@ -8,6 +8,8 @@ description: You can use text mode in a column to display a calculation between 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Grouping: display the result of aggregating multiple calculated values in a grouping
 

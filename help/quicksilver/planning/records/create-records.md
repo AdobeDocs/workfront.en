@@ -6,6 +6,8 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 
 # Create records
@@ -78,7 +80,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -138,7 +141,8 @@ For more information about Workfront access requirements, see [Access requiremen
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerations when creating records
 
@@ -213,7 +217,8 @@ For more information about Workfront access requirements, see [Access requiremen
     * Multiple records are added to the record type, if you added records using a CSV or Excel spreadsheet. 
     * A new request is added in the Workfront's Requests area, if you added the request by submitting a request form. 
 
-<!-- this is not possible anymore: 
+<!--
+ this is not possible anymore: 
 
 ## Create records by connecting them from another application
 

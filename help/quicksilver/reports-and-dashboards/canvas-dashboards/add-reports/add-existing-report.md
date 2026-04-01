@@ -6,6 +6,8 @@ description: Reports created through the Adobe Workfront Reports tool can be add
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Add an existing report to a Canvas Dashboard
 

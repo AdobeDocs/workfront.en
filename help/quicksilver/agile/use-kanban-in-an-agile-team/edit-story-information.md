@@ -6,6 +6,8 @@ description: When viewing a story tile on the Kanban board, certain information 
 author: Courtney
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Edit story information
 
