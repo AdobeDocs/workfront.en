@@ -286,33 +286,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <td><strong>Quarterly</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Apply conditional formatting to the submitted request lists in the Requests area and My Requests widget</a><p></p>
-            <p>You can now apply conditional formatting to request lists in the Requests area and the My Requests widget in Home. This functionality did not exist in the list view before this enhancement.</p>
-        </td>
-           <td><p>April 2, 2026</p></td>
-        <td><p>April 15, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
- </tr>
-    <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Predefined views added to the requests list in the Requests area and the My Requests widget </a><p></p>
-            <p>To help you organize your request list better, we have added predefined views to the requests list in the Requests area and the My Requests widget in Home.</p>
-        </td>
-           <td><p>April 2, 2026</p></td>
-        <td><p>April 15, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
- </tr>
-    <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Create groupings in the Requests list and My Requests widget </a><p></p>
-            <p>To make it easier for you to find the requests you need, we've added groupings to the Requests list and the My Requests widget. Now, you can group requests by any column on the list. These groupings become part of the view that you are using when you create the grouping.</p>
-        </td>
-           <td><p>April 2, 2026</p></td>
-        <td><p>April 15, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
- </tr>
-    <tr>
-        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Improvements to the visibility of the created object in request lists </a><p></p>
             <p>You can now view and open tasks and projects converted from Workfront issues in the new requests experience, from the Created object field.</p><p>In addition, we have added the Created object status field to indicate the status of the converted object. </p>
         </td>
@@ -344,6 +317,33 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <td><strong>Preview</strong></td>
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Apply conditional formatting to the submitted request lists in the Requests area and My Requests widget</a><p></p>
+            <p>You can now apply conditional formatting to request lists in the Requests area and the My Requests widget in Home. This functionality did not exist in the list view before this enhancement.</p>
+        </td>
+           <td><p>April 2, 2026</p></td>
+        <td><p>April 15, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+ </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Predefined views added to the requests list in the Requests area and the My Requests widget </a><p></p>
+            <p>To help you organize your request list better, we have added predefined views to the requests list in the Requests area and the My Requests widget in Home.</p>
+        </td>
+           <td><p>April 2, 2026</p></td>
+        <td><p>April 15, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+ </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Create groupings in the Requests list and My Requests widget </a><p></p>
+            <p>To make it easier for you to find the requests you need, we've added groupings to the Requests list and the My Requests widget. Now, you can group requests by any column on the list. These groupings become part of the view that you are using when you create the grouping.</p>
+        </td>
+           <td><p>April 2, 2026</p></td>
+        <td><p>April 15, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+ </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience now available for more Workfront organizations</a><p></p>
