@@ -32,7 +32,7 @@ Use natural language to quickly filter work in the Priorities worklist. You can 
 
 Only available for IMS-enabled instances.
 
-For more information, see [Filter and group your work with Priorities](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+For more information, see [Filter, group, and sort your work with Priorities](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ## Catch up on work in Priorities
 
@@ -112,7 +112,7 @@ You can now
 * Sort items within the groupings
 * Drag and drop items when grouping by My Priority or Status
 
-For more information, see [Filter and group your work with Priorities](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+For more information, see [Filter, group, and sort your work with Priorities](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Removed 
 

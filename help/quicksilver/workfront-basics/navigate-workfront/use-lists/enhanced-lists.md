@@ -104,6 +104,9 @@ You can use the action bar in an enhanced list to edit items in the list. Not al
    * View
    * Edit
    * Delete
+   * Copy
+   * Move to folder
+   * Share
 
    If no actions are available for the selected item, the action bar displays "No available actions."
 
@@ -172,15 +175,37 @@ To add and remove columns:
 
    The list updates the columns according to the choices you made.
 
+<!--
+
+<div class="preview">
+
+### Change the row height in a view
+
+>[!NOTE]
+>
+>Not all enhanced lists have all the elements described in this section.
+
+1. Click the **Row height** icon ![Row height icon](assets/row-height-icon.png) in an enhanced list. 
+
+   This updates the vertical length of a row. Choose from the following options: 
+      * Short
+      * Standard. This is the default choice. 
+      * Medium
+      * Tall
+
+</div>
+-->
+
+
 ## Update enhanced list elements
 
 The following elements are components of an enhanced list: 
 
-* View: Defines the columns, filters, and groupings in the list with preset settings
-* Filters: Limits the amount of information displayed in the list
-* Groupings: Organize the list items according to common fields
-* Sort: Arranges the items in a list according to the order you identify for a given field
-* Search: Quickly finds an item using a search keyword
+* **View**: Defines the columns, filters, and groupings in the list with preset settings
+* **Filters**: Limits the amount of information displayed in the list
+* **Groupings**: Organize the list items according to common fields
+* **Sort**: Arranges the items in a list according to the order you identify for a given field
+* **Search**: Quickly finds an item using a search keyword
 
 ### Apply and create views
 
@@ -202,6 +227,136 @@ To apply or create a view:
 1. (Optional) Group the items in the list. For more information, see [Group items in an enhanced list](#group-items-in-an-enhanced-list).
 
    Changes to views are saved automatically. The next time you apply this view, the column and filter settings remain the way you set them.
+
+### Share a view
+
+>[!NOTE]
+>
+>Not all enhanced lists have all the elements described in this section.
+
+In the **Views** dropdown, you may see three categories of views:
+
+* **System Views**: Views that the system administrator assigned to you. You cannot share System views.
+* **Shared Views**: Views that have been shared with you by other users.
+* **My Views**: Views that you created and can share with others. You can share views with other users, teams, or groups.
+
+When you share a view, all of the view elements (columns, filters, and groupings) are included.
+
+To share a view:
+
+1. In the **Views** dropdown, hover over the view in **My Views** that you want to share, click the **More** menu ![More menu](assets/more-icon.png), and click **Share**.
+1. In the Share dialog, enter the names of the users, teams, groups, companies, or job roles that you want to share the view with, then select them from the list when they appear.
+
+   You can give the following permissions to the recipients:
+
+   * **View**: Users can apply the view to the list but not share it.
+     
+     <span class="preview">When View access users update the view, those changes are saved to the user's personal preferences. A blue dot on the view name (in the user's **Shared Views**) shows that personal updates are applied to the view.</span>
+
+   * **Manage**: Users can rename, share, or delete the view, and edit the view's elements.
+
+      <span class="preview">When Manage access users make changes to the view, all users who have the view shared with them will see those updates when the view is applied to the list.</span>
+
+1. Click **Save**.
+
+   <span class="preview">If you share a view with a user and then remove that access, the view is removed from the user's **Shared Views**. If the user had the shared view applied to the list when their access is removed, then the system default view is applied.</span>
+
+<div class="preview">
+
+### Copy a view
+
+>[!NOTE]
+>
+>Not all enhanced lists have all the elements described in this section.
+
+When a view is shared with you to which you do not have permission to edit, you can copy the view and save it with a new name. You must first make changes to the view before you can copy it.
+
+1. In the Views dropdown, hover over the view in **Shared Views** that you modified the settings of and which want to copy, click the **More** menu ![More menu](assets/more-icon.png), and click **Copy with preferences**.
+
+   A new view is created automatically. The name of the copied view follows the following pattern: `Original view name (copy)`and it displays in the **My Views** section of views.
+   
+   You are the owner of this view, and you can rename, edit, share, or delete it. If the owner of the original view removes your shared access to that view, you still have access to the view that you created by copying the shared original.
+
+   >[!NOTE]
+   >
+   >The **Copy with preferences** option is only available when you have made changes to a view that was shared with you.
+
+</div>
+
+<div class="preview">
+
+### Reset a view
+
+>[!NOTE]
+>
+>Not all enhanced lists have all the elements described in this section.
+
+When a view is shared with you that you do not have permission to edit, and you update that view, you can reset it back to the original view.
+
+1. In the **Views** dropdown, hover over the view in **Shared Views** that you want to reset, click the **More** menu ![More menu](assets/more-icon.png), and click **Reset to default**.
+
+   The view elements (columns, filters, and groupings) are reset to their original settings that were shared with you.
+
+   >[!NOTE]
+   >
+   >The **Reset to default** option is only available when you have made changes to a view that was shared with you.
+
+   ![Copy and reset a view options](assets/glist-copy-view-shared-with-you.png)
+
+</div>
+
+<!--
+<div class="preview">
+
+### Apply conditional formatting in a view
+
+>[!NOTE]
+>
+>Not all enhanced lists have all the elements described in this section.
+
+Conditional formatting helps you highlight important information in the view based on common criteria. 
+
+1. Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens.
+
+1. Click **Add condition**.
+1. In the **If** line, select  a field and choose a field value and add a modifier. Modifiers change, depending on the field type you choose. 
+
+   >[!TIP]
+   >
+   >Only fields visible in the enhanced list are available for conditional formatting.
+
+1. (Optional) Instead of adding a field value, click the **Compare to another field** icon ![Compare to another field](assets/compare-to-another-field-icon.png) and choose a field whose value you want to compare to the value of your selected field. For example, you can compare the Subject and Description fields on request items.  
+
+   >[!TIP]
+   >
+   >Only fields visible in the list view are available for conditional formatting. The fields you compare must be of the same type. 
+
+1. (Optional) Click **Add condition** in the **If** line to add more conditions to the same rule.
+
+   >[!TIP]
+   >
+   >You can add up to 10 conditions in a conditioning rule and you can have up to 20 rules for a field.
+
+1. Click the **Or** connector between conditions to change to **And** and to indicate that multiple conditions must be met at the same time. **Or** is the default connector. 
+1. In the **Format** line, select a field to indicate which column will be formatted. 
+1. (Optional) Click the **color circle** icon ![Color format icon](assets/color-format-icon.png) next to the field selected, to expand it and choose another color in the **Cell fill** area to change the color of the background in a cell or pick a color from the **Text color** area to change the color of text in a cell.
+1. Click the **Text format** icon ![Text format icon](assets/text-format-icon.png) and select from the following options to format the text in a cell:
+   * Bold
+   * Italic
+
+1. Turn on the **Apply to row** setting to apply the formatting to the entire row of the field that meets the conditions.
+
+1. (Optional) Click **Add condition** in the **Format** box to add another rule for another field and the repeat the steps above.
+1. (Optional) Click **Clear all** to remove all formatting.
+1. Click outside the **Format** box to close it.
+
+   This returns you to the list view.
+   The formatting is applied immediately to the list view.
+   There is a blue dot next to the **Format cells** icon to indicate that the view has special formatting applied.
+
+</div>
+
+-->
 
 ### Filter items in an enhanced list
 
@@ -299,79 +454,4 @@ To sort individual columns:
    >
    >The search looks at all columns in all list items. If the list is long, the search includes items that you may need to scroll to see. When the list is filtered, the search only looks at what is currently displayed.
 
-### Share a view
 
->[!NOTE]
->
->Not all enhanced lists have all the elements described in this section.
-
-In the **Views** dropdown, you may see three categories of views:
-
-* **System Views**: Views that the system administrator assigned to you. You cannot share System views.
-* **Shared Views**: Views that have been shared with you by other users.
-* **My Views**: Views that you created and can share with others. You can share views with other users, teams, or groups.
-
-When you share a view, all of the view elements (columns, filters, and groupings) are included.
-
-To share a view:
-
-1. In the **Views** dropdown, hover over the view in **My Views** that you want to share, click the **More** menu ![More menu](assets/more-icon.png), and click **Share**.
-1. In the Share dialog, enter the names of the users, teams, groups, companies, or job roles that you want to share the view with, then select them from the list when they appear.
-
-   You can give the following permissions to the recipients:
-
-   * **View**: Users can apply the view to the list but not share it.
-     
-     <span class="preview">When View access users update the view, those changes are saved to the user's personal preferences. A blue dot on the view name (in the user's **Shared Views**) shows that personal updates are applied to the view.</span>
-
-   * **Manage**: Users can rename, share, or delete the view, and edit the view's elements.
-
-      <span class="preview">When Manage access users make changes to the view, all users who have the view shared with them will see those updates when the view is applied to the list.</span>
-
-1. Click **Save**.
-
-   <span class="preview">If you share a view with a user and then remove that access, the view is removed from the user's **Shared Views**. If the user had the shared view applied to the list when their access is removed, then the system default view is applied.</span>
-
-<div class="preview">
-
-### Copy a view
-
->[!NOTE]
->
->Not all enhanced lists have all the elements described in this section.
-
-When a view is shared with you to which you do not have permission to edit, you can copy the view and save it with a new name. You must first make changes to the view before you can copy it.
-
-1. In the Views dropdown, hover over the view in **Shared Views** that you modified the settings of and which want to copy, click the **More** menu ![More menu](assets/more-icon.png), and click **Copy with preferences**.
-
-   A new view is created automatically. The name of the copied view follows the following pattern: `Original view name (copy)`and it displays in the **My Views** section of views.
-   
-   You are the owner of this view, and you can rename, edit, share, or delete it. If the owner of the original view removes your shared access to that view, you still have access to the view that you created by copying the shared original.
-
-   >[!NOTE]
-   >
-   >The **Copy with preferences** option is only available when you have made changes to a view that was shared with you.
-
-</div>
-
-<div class="preview">
-
-### Reset a view
-
->[!NOTE]
->
->Not all enhanced lists have all the elements described in this section.
-
-When a view is shared with you that you do not have permission to edit, and you update that view, you can reset it back to the original view.
-
-1. In the **Views** dropdown, hover over the view in **Shared Views** that you want to reset, click the **More** menu ![More menu](assets/more-icon.png), and click **Reset to default**.
-
-   The view elements (columns, filters, and groupings) are reset to their original settings that were shared with you.
-
-   >[!NOTE]
-   >
-   >The **Reset to default** option is only available when you have made changes to a view that was shared with you.
-
-   ![Copy and reset a view options](assets/glist-copy-view-shared-with-you.png)
-
-</div>

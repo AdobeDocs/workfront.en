@@ -97,7 +97,7 @@ After you have filtered your work, you can group items based on
 * Status
 * Project
 
-For more information, see [Filter and group your work in Priorities](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+For more information, see [Filter, group, and sort your work with Priorities](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Prioritize important work items with My Focus
 

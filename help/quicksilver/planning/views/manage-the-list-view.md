@@ -174,11 +174,11 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
             >
             ><span class="preview">Only fields visible in the list view are available for conditional formatting.</span>
 
-        1. <span class="preview">(Optional) Instead of adding a field value, click the **Compare to another field** icon ![Compare to another field](assets/compare-to-another-field-icon.png) and choose a field whose value you want to compare to the value of your selected field. For example, you can filter for projects whose Project Owner matches the Project Sponsor. </span>
+        1. <span class="preview">(Optional) Instead of adding a field value, click the **Compare to another field** icon ![Compare to another field](assets/compare-to-another-field-icon.png) and choose a field whose value you want to compare to the value of your selected field. For example, you can compare the Project Owner and the Project Sponsor fields. </span>
 
             >[!TIP]
             >
-            ><span class="preview">Only fields visible in the list view are available for conditional formatting.</span>
+            ><span class="preview">Only fields visible in the list view are available for conditional formatting. The fields you compare must be of the same type. </span>
 
         1. <span class="preview">(Optional) Click **Add condition** in the **If** line to add more conditions to the same rule.</span>
 
