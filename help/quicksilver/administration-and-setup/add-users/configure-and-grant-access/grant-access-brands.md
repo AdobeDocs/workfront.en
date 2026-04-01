@@ -130,7 +130,7 @@ You must complete all steps in the previous section before granting access to in
 
 To grant access to Brands in Workfront access levels:
 
-1. {{step-1-to-setup}}
+{{step-1-to-setup}}
 
 1. Click **Access Levels** in the left panel.
 1. Find the access level you want to edit, then click the edit icon ![edit icon](assets/edit-icon.png) to edit it.
