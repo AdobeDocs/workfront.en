@@ -10,10 +10,6 @@ role: Admin
 ---
 # Configure AI Collaborators
 
-<!--Add me to TOCs-->
-
-<!--Add mentions to other AI Articles-->
-
 {{highlighted-preview-article-level}}
 
 AI Collaborators are a way to onboard AI agents into your projects and tasks. You can configure an AI Collaborator, then assign it as you would a user.

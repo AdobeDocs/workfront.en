@@ -10,6 +10,7 @@ exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 ---
 # Create and manage brands for the Content Reviewer
 
+{{highlighted-preview-article-level}}
 
 The Content Reviewer uses brand guidelines to evaluate content during the review process. You can create brands in Workfront by uploading PDF files that contain your brand guidelines or by manually entering brand elements.
 
