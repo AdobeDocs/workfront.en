@@ -185,6 +185,8 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 1. (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last.
 
     The records associated with the selected record type display in the table view. 
+1. (Optional) Click the search box and add a keyword to find a record you want to edit. 
+
 1. Click inside the row of a record to start editing information about the record inline.
 
     ![Edit record paragraph field with formatting table view](assets/edit-record-paragraph-field-with-formatting-table-view.png)

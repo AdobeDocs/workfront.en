@@ -179,3 +179,13 @@ Old:
 1. (Optional) To edit another record type, from the record type page, expand the downward-pointing arrow to the right of a record type name, search for a record type, then select it when it displays in the list.
 
    ![Record type drop-down on record type page with search box](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
+
+   <!--
+   >[!TIP]
+   >
+   ><span class="preview">You can use the following keyboard combination to find record types from any Workfront Planning page:</span>
+   >
+   >* <span class="preview">CTRL+K for Windows</span>  
+   >* <span class="preview">⌘+K for Mac</span>  
+   >
+   -->
