@@ -128,6 +128,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <td><strong>Quarterly</strong></td>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">GenStudio Foundations Provisioning enabled to support AI Collaborators </a><p></p>
+            <p>On March 31, 2026, all Workfront customers were provisioned for GenStudio Foundation, and Admin Console System Admins will have received an email informing them of this addition. This product is provisioned only so Workfront customers can give Brands access to Workfront customers as needed for the release of AI Collaborators. The product itself is only an access mechanism for Brands, and there is no additional functionality available in the GenStudio Foundation product.</p><p>Customers will not be charged for this new product.</p>
+        </td>
+        <td><p>March 31, 2026</p></td>
+        <td><p>March 31, 2026</p></td>
+        <td><p>March 31, 2026</p></td>
+    </tr>
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">My approval widget updates </a><p></p>
             <p>We have added the following enhancements to the My Approvals widget in Home:<ul><li>Sort the approvals list by Oldest first or Newest first</li><li>Expand the the widget to full screen</li><ul> </p>
         </td>
