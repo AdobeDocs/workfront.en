@@ -26,7 +26,9 @@ To make it easier for you to benefit from AI in your day-to-day work, we've crea
 
 Currently, AI Collaborators can be used to review content. More AI Collaborator capabilities will be available in the future.
 
+<!--
 For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators).
+-->
 
 ## Custom quarters are now available as a separate page in Setup
 
