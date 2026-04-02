@@ -458,6 +458,7 @@ feature-set: Workfront
       * [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
       * [Create and edit business rules](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
       * [Configure custom localization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
+      * [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)
     * Configure schedules and timesheet preferences {#configure-timesheets-schedules}
       * [Configure schedules and timesheet preferences](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
       * [Schedules overview](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
