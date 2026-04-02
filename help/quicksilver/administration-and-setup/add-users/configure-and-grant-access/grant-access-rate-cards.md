@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can define a user's access
 author: Becky and Lisa
 feature: System Setup and Administration
 role: Admin
+exl-id: b21e65d3-3c9f-4f3d-95d3-de4c09199622
 ---
-
 # Grant access to rate cards
 
 {{highlighted-preview-article-level}}

@@ -6,6 +6,7 @@ title: Override User Billing Rates at the Project Level
 description: This article describes how you can override the system user billing rates for a project.
 author: Lisa
 feature: Work Management
+exl-id: eb7dbb6f-a31c-4569-be54-9a151dcf4135
 ---
 # Override user billing rates at the project level
 

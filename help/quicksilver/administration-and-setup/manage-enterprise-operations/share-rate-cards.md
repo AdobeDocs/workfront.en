@@ -7,6 +7,7 @@ description: You can share a rate card with users, job roles, groups, teams, com
 author: Lisa
 feature: System Setup and Administration
 role: Admin
+exl-id: 9f2f9fd8-bca8-4a3d-b022-b51c080a78aa
 ---
 # Share a rate card
 
@@ -64,4 +65,3 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. Click [!UICONTROL **Save**].
 
    For more information on sharing, see [Share an object](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-

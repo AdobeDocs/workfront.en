@@ -7,6 +7,7 @@ author: Lisa
 feature: Work Management
 hidefromtoc: yes
 hide: yes
+exl-id: 9ff84f9a-46bd-46e8-a58d-7dafbc333507
 ---
 # Create and view project snapshots
 
@@ -206,4 +207,3 @@ To apply or create a view:
 1. (Optional) Filter the list. For more information, see [Filter items in a list](#filter-items-in-a-list).
 
 Changes to views are saved automatically. The next time you apply this view, the column and filter settings remain the way you set them. For more information about views, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-

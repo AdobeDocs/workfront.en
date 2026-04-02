@@ -7,6 +7,7 @@ description: A rate card represents the contractual agreement with your client i
 author: Lisa
 feature: System Setup and Administration
 role: Admin
+exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
 ---
 # Push rate changes to projects
 
