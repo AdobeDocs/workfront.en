@@ -213,11 +213,15 @@ You can adjust permissions to individual record types of a workspace if you have
 
    1. Select **Disable** from the **Inherited permissions** drop-down menu.
 
-   >[!TIP]
-   >
-   >Workspace managers continue to have Manage permissions to the record type.
+      >[!TIP]
+      >
+      >Workspace managers continue to have Manage permissions to the record type.
 
    1. In the **Grant access to this record type** field, add the users, teams, groups, companies, or job roles that you want to grant a different permission level to than they have for the workspace.
+   1. <span class="preview">(Optional) When you share with a group, team, role, or company, hover over the name of the entity and click the right-pointing arrow to expand a list of users that are receiving the permissions. </span>
+
+      ![Share record type with group](assets/share-record-type-with-group-expanding-arrow-highlighted.png)
+
    1. Choose a permission level. 
 
    >[!IMPORTANT]
