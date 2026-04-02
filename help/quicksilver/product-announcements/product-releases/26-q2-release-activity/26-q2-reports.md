@@ -16,9 +16,9 @@ For a list of all changes available at this point in the Second Quarter 2026 rel
 
 >[!NOTE]
 >
->Preview: TBD
->Production fast release: TBD
->Production for everyone: TBD
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
 >
 >Canvas Dashboards is currently in beta.
 
