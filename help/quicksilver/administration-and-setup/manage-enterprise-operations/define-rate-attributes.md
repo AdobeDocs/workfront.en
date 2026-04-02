@@ -7,8 +7,8 @@ description: Rate attributes extend Adobe Workfront's rate card and rates functi
 author: Lisa
 feature: System Setup and Administration
 role: Admin
+exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
 ---
-
 # Define rate attributes
 
 {{highlighted-preview-article-level}}
@@ -195,5 +195,3 @@ Filters must always be configured in both directions. If Attribute A has a Relat
    * (Attribute filter type only) **Reference Field**: The field on the referenced attribute that must match, such as Agency ID.
 
 1. Click **Save** on each attribute to save the properties and filters.
-
-

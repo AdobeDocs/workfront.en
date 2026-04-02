@@ -6,6 +6,7 @@ title: Override User Cost Rates at the Project Level
 description: This article describes how you can override the system user cost rates for a project.
 author: Lisa
 feature: Work Management
+exl-id: ff1110fd-2d24-48a7-8000-712e551ca61a
 ---
 # Override user cost rates at the project level
 
@@ -101,5 +102,3 @@ For more information, see [Edit a user's profile](/help/quicksilver/administrati
    If an hour is logged after the Planned Completion Date of the project, the very last cost rate is used.
 
 1. Click **Save**.
-
-
