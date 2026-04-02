@@ -11,6 +11,8 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Share financial permissions on an object
 
+{{highlighted-preview}}
+
 Your Adobe Workfront administrator can grant you access to view or edit financial data when assigning your access level. For more information, see [Grant access to financial data](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 Along with the access level that users are granted, you can also grant them permissions to View or Manage finances for specific projects, tasks, or issues that you have access to share.
@@ -72,7 +74,8 @@ drafted for P&P:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher to projects, tasks, and issues that include at least View Finance permissions</p></td> 
+   <td> <p>View permissions or higher to projects, tasks, and issues that include at least View Finance permissions</p>
+   <p><span class="preview">View permissions or higher to projects, tasks, and issues that include at least View billing rates, View cost rates, or View general finance permissions</span></p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -86,35 +89,37 @@ For more detail about the information in this table, see [Access requirements in
 Consider the following when granting financial permissions to objects:
 
 * You can grant financial permissions to projects, tasks, and issues.
-* Permissions can be inherited: if you have View Finance permissions to a project, you automatically inherit View Finance permissions to the tasks and issues on the project.
+* Permissions can be inherited: if you have View General Finance permissions to a project, you automatically inherit View General Finance permissions to the tasks and issues on the project.
 
 To grant financial permissions to an object:
 
 1. Go to a task, project, or issue that you want to share with others.
-1. Near the name of the object, click the More menu ![](assets/more-icon.png), then click **Sharing**. 
+1. Near the name of the object, click **Share**. 
 
-1. In the **Give `<Object name>` access to** field start typing the name of a user, team, role, group or a company that you want to share the object with.
+1. In the **Give `<Object name>` access to** field start typing the name of a user, team, role, group, or a company that you want to share the object with.
 
    >[!TIP]
    >
    >You can share an object only with active users, teams, roles, or companies.
 
-1. If a drop-down menu appears to the right of the name you selected, click one of the following options that is available:
+1. Click the drop-down to the right of the user's name and select one of the following options:
 
-   * **View it**
-   * **Contribute to it**
-   * **Manage it**
+   * **View**
+   * **Contribute**
+   * **Manage**
 
-1. In the same drop-down menu, click **Advanced Settings**, then do one of the following:
+1. In the same drop-down menu, click the advanced options icon next to the permission level, then do one of the following:
 
    * If you selected one of the three options in the previous step, make sure **View Finance** is selected.
    * If you selected **Manage Finance** in the previous step, make sure **Manage Finance** is selected.
+   * <span class="preview">For any permission level, select **View billing rates**, **View cost rates**, and **View general finance** as needed.</span>
+   * <span class="preview">For **Manage** permissions only, select **Edit billing rates**, **Edit cost rates**, and **Edit general finance** as needed.</span>
 
 1. Click **Save**.
 
 ## Financial permission for all sharing levels
 
-The following table displays what financial permissions users gain when you grant them View, Contribute, or Manage permissions on objects:  
+The following table displays which financial permissions users gain when you grant them View, Contribute, or Manage permissions on objects:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -150,6 +155,42 @@ The following table displays what financial permissions users gain when you gran
   </tr> 
   <tr> 
    <td>View Finance</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>  ✓</td> 
+  </tr>
+  <tr> 
+   <td><span class="preview">Edit Billing Rates</span></td> 
+   <td>✓</td> 
+   <td></td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td><span class="preview">Edit Cost Rates</span></td> 
+   <td>✓</td> 
+   <td></td> 
+   <td>  </td> 
+  </tr>  
+  <tr> 
+   <td><span class="preview">Edit General Finance</span></td> 
+   <td>✓</td> 
+   <td></td> 
+   <td>  </td> 
+  </tr>
+  <tr> 
+   <td><span class="preview">View Billing Rates</span></td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>  ✓</td> 
+  </tr> 
+  <tr> 
+   <td><span class="preview">View Cost Rates</span></td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>  ✓</td> 
+  </tr>  
+  <tr> 
+   <td><span class="preview">View General Finance</span></td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 

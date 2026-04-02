@@ -11,15 +11,15 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Override Job Role Billing Rates at the project level
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+{{highlighted-preview}}
 
 As a project manager, you can specify what the billing rate is for a job role on a specific project. This project-level billing rate overrides the billing rate at the system level for this job role. Workfront uses the project-level billing rate of the job role to calculate revenue, instead of using the system-level billing rate.
 
 This article describes how you can override the system job role billing rates for a project.
 
-For general information about overriding job role billing rates for projects and calculating project Revenue, see [Overview of overriding Job Role Billing Rates and calculating Revenue on a project](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+For general information about overriding job role billing rates for projects and calculating project Revenue, see [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-For more information about which job role is used to calculate revenue on the project, see the "Understanding Revenue Calculations for Tasks Based on User and Role Assignments" section in the article [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+For more information about which job role is used to calculate revenue on the project, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) and the [Revenue Calculations for Tasks Based on User and Role Assignments](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) section in the article [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 >[!NOTE]
 >
@@ -35,7 +35,8 @@ For more information about which job role is used to calculate revenue on the pr
  <tbody> 
   <tr> 
    <td>Adobe Workfront package</td> 
-   <td>Any</td> 
+   <td> <p>To override a job role billing rate for a project:: Any Workfront or Workflow package</p>
+        <p>To apply attributes to the job role: Workflow Ultimate</p> </td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront license</td> 
@@ -60,60 +61,64 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Override Job Role Billing Rates at the project level
 
-You can override the billing rate of a job role on a project in the following ways:
+When you override the billing rate of a job on a project, you can assign effective dates and each date range has a different rate. If you do not assign effective dates, then the billing rate override you enter is used for the entire duration of the project to calculate revenue.
 
-* One time, by selecting a new rate for the job role.  
-  The new rate is used for the entire duration of the project, to calculate revenue.
-
-* Several times, by selecting several new rates for specific date ranges.   
-  A different rate can be used during each specified date range.
-
-* You can add new billing rates to a project template and those become project billing rates when you create the project from that template. For information about editing templates, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md). 
+You can add new billing rates to a project template and those become project billing rates when you create the project from that template. For information about editing templates, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md). 
 
 >[!TIP]
 >
->You cannot override user billing rates for a project.
+>You cannot override user billing rates for a project unless you have the Workflow Ultimate package.
 
 To override a billing rate for a project:
 
 1. Go to the project you want to override billing rates for.
 1. Click **Billing Rates** in the left panel.
+
+   Or
+
+   <span class="preview">Click **Rates** in the left panel and click the **Billing** tab if it is not already selected.</span>
+
 1. Click **Add Billing Rate** > **New Billing Rate**.
+
+   Or
+
+   <span class="preview">Click **Add Billing Rate > New Job Role Billing Rate**.</span>
 
    The New Billing Rate box opens. 
 
 1. In the **Job Role** field, select the job role you want to change the billing rate for.
 
-   The **Default Billing Rate** field displays the system-level rate for this job role.
+1. <span class="preview">(Optional) Select any attributes for the billing rate, such as agency or location.</span>
 
-1. In the **Billing Rates 1** field, enter the one time billing rate override, then click **Save** to override the billing rate one time
+   <span class="preview">The system administrator defines rate attributes in the Setup area.</span>
+
+1. Select the **Currency** for the billing rate override.
+1. In the **Billing Rate** field, enter the billing rate override, then click **Save** to override the billing rate one time
 
    Or
 
    Click **Add Rate** to add more billing rate overrides.
 
-1. (Conditional) If you are adding more than one billing rate override, specify the following information:
+1. (Conditional) For date effective billing rate overrides, enter the following information for each row:
 
-   * **Billing Rates 1**: the value of the Billing Rate from the beginning of the project to the first date of the first override. This is typically the same amount as the **Default Rate**.
-   * **Start Date**: this is the date when the Default Rate ends.
-   * **End Date**: the date when the new billing rate override ends.
+   * **Billing Rate**: The value of the Billing Rate from the beginning of the project to the first date of the first override.
+   * **Start Date**: The date when the billing rate override begins.
+   * **End Date**: The date when the billing rate override ends.
 
-   <!--<span class="preview">Sample image in the Preview environment:</span>-->
-   ![Billing rates with override dates](assets/billing-rates-093025.png)
+   ![Billing rates with override dates](assets/new-job-role-billing-rate-on-project2.png)
 
-   <!--
-   Sample image in the Production environment:
-   ![Billing rates with override dates](assets/new-billing-rate-with-adjustment-dates-350x266.png)
-   -->
+   Workfront applies the override job role rate to the hours that occur during these time frames when calculating revenue on the project.
 
-1. The timezone for the dates you select displays at the bottom of the New Billing Rate box. This is the timezone associated with your Workfront instance, as shown in the Customer Info area of Setup. For information, see [Configure basic information for your system](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
-1. Workfront applies the override job role rate to the hours that occur during the time frames specified when calculating revenue on the project.
-1. There should be no gaps between the time frames of two override rates. The **Start Date** of an override rate should be the day immediately following the **End Date** of the previous override date.
+   Workfront allows you to leave gaps between override timeframes, but you will receive a warning to confirm this is intentional.
+   
+   You are not required to specify a Start Date for the first override rate, nor an End Date for the last override rate.
 
-1. You cannot specify a Start Date for the first override rate, nor an End Date for the last override rate.   
-   We recommend that you use the Default Rate for the first override rate.   
-   Workfront assumes that the first override rate is applied for all hours with a date older than the End Date of the first override, and that the last override rate is applied for all hours with a date newer than the Start Date of the last override.   
-   If an hour is logged before the Planned Start Date of the project the very first billing rate is used.   
-   If an hour is logged after the Planned Completion Date of the project the very last billing rate is used.
+   If you enter only one billing rate override, that rate applies for the entire duration of the project. If you add multiple date-effective overrides, Workfront assumes that the first override applies to all hours before its End Date, and the last override applies to all hours after its Start Date.
+   
+   Workfront assumes that the first override rate is applied for all hours with a date older than the End Date of the first override, and that the last override rate is applied for all hours with a date newer than the Start Date of the last override.
+
+   If an hour is logged before the Planned Start Date of the project, the very first billing rate is used.
+
+   If an hour is logged after the Planned Completion Date of the project, the very last billing rate is used.
 
 1. Click **Save**.

@@ -12,6 +12,8 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Share a document on legacy Workfront storage
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 The Workfront administrator controls who can view or edit documents in the Access Levels area in Setup. For more information, see [Grant access to documents](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
 Users can also share documents they've uploaded or have access to, giving others permission to view or manage them.
@@ -75,7 +77,7 @@ The user who uploads a document to Workfront has Manage permissions to it, by de
 
    ![Share a document](assets/share-a-document-350x160.png)
 
-1. In the **Grant document access to** field, begin typing the name of the user, team, role, group, or company you want to share the document with, then click the name when it appears in the drop-down list.
+1. In the **Grant document access to** field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share the document with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
@@ -118,7 +120,7 @@ The user who uploads a document to Workfront has Manage permissions to it, by de
 
       ![Share icon](assets/share-documents-in-bulk.png)
 
-1. In the **Grant document access to** field, begin typing the name of the user, team, role, group, or company you want to share the documents with, then click the name when it appears in the drop-down list.
+1. In the **Grant document access to** field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share the documents with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >

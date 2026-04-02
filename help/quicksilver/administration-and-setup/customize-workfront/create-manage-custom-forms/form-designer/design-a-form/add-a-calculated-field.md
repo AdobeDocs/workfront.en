@@ -13,6 +13,8 @@ exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
 
 <!-- Audited: 5/2025 -->
 
+{{highlighted-preview}}
+
 You can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object.
 
 A calculated custom field can contain:
@@ -162,6 +164,22 @@ To reuse an existing calculated custom field:
      <tr>
       <td>Active</td>
       <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
+     </tr>
+     <tr>
+      <td><span class="preview">Automatic permission</span></td>
+      <td><span class="preview"><p>Turn on this option to allow the finance permissions to automatically come from the fields used in the formula. The permission definitions are shown in the Finance Permission Type field, below.</p><p>Access is required for all fields in the formula. For example, if two fields are used in a calculated field, and one of them has billing permission applied and the second has cost permission applied, then the user must have permissions to view both billing and cost rates to see the calculated value.</p></span></td>
+     </tr>
+     <tr>
+      <td><span class="preview">Finance Permission Type</span></td>
+      <td><p><span class="preview">When the Automatic permission field is turned off, you can select the finance permission type that the users must have before they can view or edit this custom field. Any format is allowed for calculated fields. The fields used in the formula determine whether this field is active. If the permission field is blank, the fields in the formula do not support the finance permissions.</span></p>
+      <ul span class="preview">
+      <li><p><strong>No permissions required:</strong> All users can see this field</p></li>
+      <li><p><strong>General:</strong> Users must have permissions to edit or view General Finance</p></li>
+      <li><p><strong>Bill:</strong> Users must have permissions to edit or view billing rates</p></li>
+      <li><p><strong>Cost:</strong> Users must have permissions to edit or view cost rates</p></li>
+      </ul>
+      <p><span class="preview">For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</span></p>
+      </td>
      </tr>
     </tbody> 
    </table>
