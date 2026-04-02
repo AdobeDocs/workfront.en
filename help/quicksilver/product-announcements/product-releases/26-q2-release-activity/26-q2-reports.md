@@ -14,6 +14,38 @@ This page describes Reporting enhancements made with the Second Quarter 2026 rel
 
 For a list of all changes available at this point in the Second Quarter 2026 release cycle, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Run reports as a specific user in Canvas dashboards
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+>
+>Canvas Dashboards is currently in beta.
+
+You can now configure reports on Canvas dashboards to run as a specific user. When enabled, the report displays data based on the selected user's access instead of the viewer's permissions.
+
+This ensures more consistent and reliable data across dashboard viewers, even when access to Planning workspaces, record types, or authorization settings differs.
+
+For more information, see [Build a KPI report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Build a chart report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md), or [Build a table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
+
+## Scheduled Report Delivery Now Supports Link-Based Emails
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+Workfront now includes a new Link delivery type for scheduled reports. Instead of generating and attaching a file, this option sends an email containing a direct link to the report in Workfront, allowing recipients to view the most current data in the application. 
+
+The Link option is now the default delivery type for newly created scheduled report delivery rules, while existing file-based formats (HTML, PDF, Excel, and TSV) remain available.
+
+With this change, we've also updated the look-and-feel of the report delivery email.
+
+For more information, see [Schedule an automatic report delivery](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+
 ## New Authentication Options for Data Connect Connection
 
 >[!NOTE]

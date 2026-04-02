@@ -14,6 +14,20 @@ This page describes Requesting enhancements made with the Second Quarter 2026 re
 
 For a list of all changes available at this point in the Second Quarter 2026 release cycle, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Improvements to the visibility of the created object in request lists
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April, 15, 2026
+>Production for all: April 16, 2026
+
+You can now view and open tasks and projects converted from Workfront issues in the new requests experience, from the Created object field.
+
+In addition, we have added the Created object status field to indicate the status of the converted object.
+
+For information, see [View submitted requests](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
+
 ## Updated sharing experience for enhanced views 
 
 >[!NOTE]
