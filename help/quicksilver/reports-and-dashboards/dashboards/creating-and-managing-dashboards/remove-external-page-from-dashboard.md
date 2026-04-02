@@ -6,6 +6,8 @@ description: You can remove an External Page from a dashboard if it's no longer 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Remove an External Page from a dashboard
 

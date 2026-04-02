@@ -7,6 +7,8 @@ author: Lisa
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Log time
 
@@ -356,7 +358,8 @@ Additionally, to log time for an item in the My Work widget:
 
    The **Total Hours** field in the Log time box displays all hours logged for the project, task, or issue by all users. 
 
-<!--#### Log time on a work item from the legacy Home area
+<!--
+#### Log time on a work item from the legacy Home area
 
 1. In the **Work List** area, select the item where you want to log time.
 1. In the right panel, click **Log Time**.  
@@ -368,7 +371,8 @@ Additionally, to log time for an item in the My Work widget:
 1. (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 1. Specify the time you want to log, then click **Log Time**.
 
-   The logged time displays in the object's Hours section, nad in your timesheet. -->
+   The logged time displays in the object's Hours section, nad in your timesheet.
+   -->
 
 ### Project, task, or issue {#project-task-or-issue}
 

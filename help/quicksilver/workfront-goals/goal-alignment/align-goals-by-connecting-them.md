@@ -6,6 +6,8 @@ description: If you are an individual contributor who has a personal goal, you m
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Align goals by connecting them in Adobe Workfront Goals
 
@@ -74,7 +76,8 @@ For information, see [Access requirements to Workfront documentation](/help/quic
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -125,7 +128,8 @@ For information, see [Access requirements to Workfront documentation](/help/quic
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Align goals by connecting them to one another
 

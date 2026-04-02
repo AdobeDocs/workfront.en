@@ -6,6 +6,8 @@ description: People must be added to the board as members before they can view t
 author: Courtney
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Add or remove members from a board
 

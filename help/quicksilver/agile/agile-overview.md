@@ -7,6 +7,8 @@ description: Agile is a work methodology that allows teams to complete small, ma
 author: Courtney
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Agile overview
 

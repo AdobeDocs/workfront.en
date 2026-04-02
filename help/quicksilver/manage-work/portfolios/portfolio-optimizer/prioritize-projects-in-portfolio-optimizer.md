@@ -6,6 +6,8 @@ description: You can prioritize your projects in the Portfolio Optimizer, to est
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Prioritize projects in the [!UICONTROL Portfolio Optimizer]
 
@@ -58,7 +60,8 @@ Consider the following when using the [!UICONTROL Portfolio Optimizer]:
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -84,7 +87,8 @@ Consider the following when using the [!UICONTROL Portfolio Optimizer]:
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Change the priority of the projects in the [!UICONTROL Portfolio Optimizer]
 

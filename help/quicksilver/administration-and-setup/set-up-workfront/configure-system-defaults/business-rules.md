@@ -8,6 +8,8 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create and edit business rules
 
@@ -23,7 +25,7 @@ A business rule allows you to apply validation to Workfront objects and prevent 
 
 <div class="preview">
 
-Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object, notifying a user, or attaching a custom form to the object.  
+Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object or attaching a custom form to the object.  
 
 </div>
 
@@ -133,8 +135,26 @@ IF(
 )
 ```
 
+### Enable localization in a Business Rule
 
-<!--
+If your organization uses custom localization, you must enable translation of a business rule message in the business rule. If translation is not enabled, the message appears to the reader in English, even if the message text is in the Localization list and the user's browser is set to the appropriate language.
+
+When configuring the rule, insert the word TRANSLATE before the message, and enclose the message in parentheses.
+
+>[!BEGINSHADEBOX]
+
+Example:
+
+This example assumes that the message "You cannot edit completed projects" is included in the localization area of Setup, and that the user's browser is set to the localized language.
+
+* `IF({status} = "CPL", "You cannot edit completed projects.") `
+The message appears in English.
+* `IF({status} = "CPL", TRANSLATE("You cannot edit completed projects."))`
+The message appears in the localized language.
+
+>[!ENDSHADEBOX]
+
+For information on custom localization, see [Configure custom localization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
 
 ## Scenarios for business rule automation
 
@@ -160,7 +180,6 @@ IF({status} = "APR", true)
 
 You can use wildcards in business rule actions, as described in the section [Scenarios for business rule validation](#scenarios-for-business-rule-validation).
 
--->
 
 ## Add a new business rule
 
@@ -204,15 +223,15 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * Template
    * Time Off
    * Resource Pool
+   * Job role
+   * Non-labor resource category
+   * Resource Pool
+   * Time Off
+   * Hour
+   * Staffing Plan
+   * Template
+   * Staffing Plan Resource
 <!--
-   * <span class="preview">Job role</span>
-   * <span class="preview">Non-labor resource category</span>
-   * <span class="preview">Resource Pool</span>
-   * <span class="preview">Time Off</span>
-   * <span class="preview">Hour</span>
-   * <span class="preview">Staffing Plan</span>
-   * <span class="preview">Template</span>
-   * <span class="preview">Staffing Plan Resource</span>
    * <span class="preview">Team</span>
 -->
 
@@ -236,13 +255,13 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * The "object" is the object type you selected when creating the business rule. It is displayed in the heading of the dialog.
    * The "action" is the trigger you selected for the rule: create, edit, or delete the object.
    * Because the object and the action are already defined, you do not include them in the formula.
-   * The custom error message <!--<span class="preview">is included only if the rule is for validation, and </span>--> is displayed to the user when they trigger the business rule. It should provide clear instructions on what went wrong and how to correct the issue.
+   * The custom error message <span class="preview">is included only if the rule is for validation, and </span> is displayed to the user when they trigger the business rule. It should provide clear instructions on what went wrong and how to correct the issue.
 
      You can include a static URL in the error message, to link to documentation or other helpful pages to guide the user on how to modify their action within the constraint of the rule.
 
      In this example, "Learn more" will link to the URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` The URL must be in parentheses, but link text in brackets is not required. You can display the full URL and it will be a clickable link.
 
-   ![Add business rule dialog](assets/add-business-rule-dialog-no-ai-button.png) <!--UPDATE ME-->
+   ![Add business rule dialog](assets/add-business-rule-new.png) 
 
    This example is a business rule for projects. If the current month is November, then users are not permitted to create new projects, and the message explains this.
    
@@ -258,25 +277,19 @@ You can use wildcards in business rule actions, as described in the section [Sce
 
    For other packages, this option is pre-selected.
 
-<!--
+1. <span class="preview">(Conditional) To automate another action,, select the action. </span>
 
-1. (Conditional) To automate another action,, select the action. 
-
-   For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.
+   <span class="preview">For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.</span>
 
    >[!NOTE]
    >
-   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
-
-   -->
+   ><span class="preview">Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.</span>
 
 1. Click **Save** when you are finished building the business rule.
 
 >[!NOTE]
 >
 >After you add a business rule, you should test it by adding, editing, or deleting the associated object to make sure the rule is applied properly.
-
-<!--
 
 <div class="preview">
 
@@ -293,7 +306,7 @@ You can set these actions to automate when the business rule is triggered. Avail
 |Attach a custom form|Select the custom form that you want to add|
 |Share the object|Select the people, roles, groups, companies, or access levels that you want to share the object with.|
 
--->
+</div>
 
 ## Activate a business rule
 
@@ -304,3 +317,4 @@ To activate a business rule:
 1. Select the business rule in the list of rules and click the Edit icon.
 1. Select **Yes** for **Is Active** in the business rule dialog.
 1. Click **Save**.
+

@@ -6,6 +6,8 @@ description: You can update your work wioth the Adobe Workfront plugin.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Update your work using the [!DNL Adobe Workfront] plugin
 
@@ -25,7 +27,8 @@ You can update your work from any of the following [!DNL Adobe Creative Cloud] a
  </col> 
  <tbody> 
   <tr> 
-   <!--<td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <!--
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td>Any</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -33,7 +36,8 @@ You can update your work from any of the following [!DNL Adobe Creative Cloud] a
    <td> 
    <p>Standard</p>
    <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">Additional products</td> 
    <td>You must have an [!DNL Adobe Creative Cloud] license in addition to a [!DNL Workfront] license.</td> 

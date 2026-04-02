@@ -6,6 +6,8 @@ description: Learn more about unified review and approval powered by Workfront a
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Get started with unified review and approval
 

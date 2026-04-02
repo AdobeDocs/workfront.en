@@ -6,6 +6,8 @@ description: If multiple exchange rates have been configured in Adobe Workfront,
 author: Courtney
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create financial data reports with unique exchange rates
 

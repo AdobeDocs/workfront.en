@@ -7,6 +7,8 @@ description: Workfront Goals helps you define, communicate, and achieve strategi
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Adobe Workfront Goals overview
 
@@ -20,7 +22,8 @@ exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
 >
 >For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old: 
+<!--
+Old: 
 
 >[!IMPORTANT]
 >

@@ -7,6 +7,8 @@ description: In the standard mode interface, when attempting to create multiple 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: fb167e9f-c8bd-43f6-84c9-9a87e80c3eb2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Filter: create multiple filter rules that reference the same field ("AND" statements)
 

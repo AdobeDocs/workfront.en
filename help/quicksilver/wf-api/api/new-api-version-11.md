@@ -7,6 +7,8 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # What's new in API version 11
 
@@ -34,9 +36,11 @@ exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasaccessrule">LoginAsAccessRule</h3>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -75,9 +79,11 @@ exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasadditionalrule">LoginAsAdditionalRule</h3>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -114,9 +120,11 @@ exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginassettings">LoginAsSettings</h3>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -271,7 +279,8 @@ No resources were removed for API v11.
      <li><a href="#templateassignment" class="MCXref xref">TemplateAssignment</a> </li> 
      <li><a href="#templatetask" class="MCXref xref">TemplateTask</a> </li> 
      <li><a href="#timesheet" class="MCXref xref">Timesheet</a> </li> 
-     <li><a href="#update" class="MCXref xref">Update</a> </li> <!--
+     <li><a href="#update" class="MCXref xref">Update</a> </li>
+     <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li>
      --> 
      <li><a href="#usernote" class="MCXref xref">UserNote</a> </li> 
@@ -574,7 +583,8 @@ A Customer object represents an organization that uses an instance of Workfront.
        <li style="font-weight: normal;">CONDITION_OPTASK (Issue Conditions) &nbsp;</li> 
       </ul> </li> 
     </ul> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Reference Fields</td> 
     <td> 
@@ -598,9 +608,11 @@ A Customer object represents an organization that uses an instance of Workfront.
 
 A CustomerPreferences object represents the set of preferences that a customer has set for their instance of Workfront.
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -1269,9 +1281,11 @@ Work Items in Workfront can be updated to keep users informed of the current sta
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A User object represents a person with an account in Workfront that can log in and interact with the system.</p>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 

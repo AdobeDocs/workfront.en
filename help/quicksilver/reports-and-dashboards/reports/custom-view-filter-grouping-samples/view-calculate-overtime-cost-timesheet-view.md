@@ -7,6 +7,8 @@ description: Overtime is not calculated by default in Adobe Workfront, but you c
 author: Courtney
 feature: Reports and Dashboards
 exl-id: ad6205cd-7534-49e5-b142-09f90bf672ce
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View: calculate overtime cost in a Timesheet View
 

@@ -6,9 +6,15 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
+last-update: 2026-04-01T11:23:03-07:00
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 ---
 
 # Manage the list view in Adobe Workfront Planning
+
+<!--
+although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
+-->
 
 <span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -26,7 +32,7 @@ You can view objects in the list view in the following areas of Workfront Planni
 
     ![Request forms in list view](assets/request-forms-in-list-view.png)
 
-This article describes how you can navigate, create, or edit a list view that displays objects in Workfront Planning. <!--change 'projects' to other objects when they become available and the location of the list view-->
+This article describes how you can navigate, create, or edit a list view in Workfront Planning. 
 
 ## Access requirements
 
@@ -87,16 +93,16 @@ For more information about Workfront access requirements, see [Access requiremen
     * You cannot create or edit additional list views for Planning request forms. Workfront creates one list view for request forms. <!--this will change-->
 
         For information about request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
-* Depending on where it displays, not every list view has all the same elements described in this article.
-
+* Depending on where it displays, not every list view has all the elements described in this article.
 
 ## Manage a list view {#manage-a-list-view}
 
-List views are similar to enhanced lists. Most elements from enhanced views also exist on list views in Workfront Planning. 
+Workfront Planning list views are similar to Workfront's enhanced lists. Most elements from enhanced views also exist on list views in Workfront Planning. 
 
 For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 <!--
+Removed - more direct steps below: 
 {{step1-to-planning}}
 
 1. (Conditional) To access a projects connected page, do the following: 
@@ -124,14 +130,16 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
 
 1. Go to a list view in one of the following areas:
 
-    * Connected records page in a record's details area
-    * The Request forms page of a record
+    * A connected records page for projects in a record's details area
+    * The Request forms page of a record type
 
 1. (Conditional) When available, do one of the following to modify the list view: 
 
     1. Expand the dropdown views menu in the upper-left corner of the list to select another view, or click **New view** and create another one.
 
-        Views are shared throughout the system. If you create a Projects view for one record type, you can view it on other record types that display connected projects. 
+        >[!TIP]
+        >
+        >Views are shared throughout the system. If you create a Projects view for one record type, you can view it on other record types that display connected projects. 
 
     1. Hover over the name of an existing view and click the **More** menu ![More menu](assets/more-menu.png), then click one of the following:
         * **Rename**, to give the view a new name
@@ -146,18 +154,26 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
         >
         >* <span class="preview">You can reset a view that was shared with you to which you have only permissions to View, after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
         
-        <!--
-        And hide everything else below for these elements, after moving it to the Use enhanced lists article: 
-        1. <span class="preview">To update one of the following view elements, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md):</span>
-            <div class="preview">
-            * Filter
-            * Columns
-            * Format cells
-            * Row height
-            </div>
-        -->
-
     1. Click the **Filter** icon ![Filter icon](assets/filter-icon.png) to add a filter to the view. Results are filtered immediately in the list. You cannot save and name filters. Filters are remembered when you access the page in future and they are part of shared views.
+
+        >[!TIP]
+        >
+        ><span class="preview">To apply a personalized filter, select one of the following options for a field value: 
+        >
+        ><div class="preview">
+        >
+        >* **Me (logged in user)** to refer to the logged-in user in fields referring to users. 
+        >
+        >* **My teams** or **My home team** to refer to your teams in fields referring to teams. 
+        >
+        >* **My groups** or **My home group** to refer to your groups in fields referring to groups.
+        >
+        >* **My company** to refer to your company in fields referring to companies.
+        > 
+        >* **My roles** or **My primary role** to refer to your job roles in fields referring to roles. 
+        >
+        ></div>
+
     1. Click the **Columns** icon ![Columns icon](assets/columns-icon.png) to select which columns to display or to hide in the view. 
     1. Hover over the name of a column, then click the down-pointing arrow to the left of the column name, then click one of the following:
         * **Rename**, to add a **Custom label** for the column. The name of the original field in Workfront does not change. 
@@ -172,18 +188,18 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
     1. <span class="preview">Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens.</span> <!--change the name of the box when they update it-->
         <span class="preview">Do the following: </span>
 
-        1. Click **Add condition**.
+        1. <span class="preview">Click **Add condition**.</span>
         1. <span class="preview">In the **If** line, select  a field and choose a field value and add a modifier. Modifiers change, depending on the field type you choose. </span>
 
             >[!TIP]
             >
             ><span class="preview">Only fields visible in the list view are available for conditional formatting.</span>
 
-        1. <span class="preview">(Optional) Instead of adding a field value, click the **Compare to another field** icon ![Compare to another field](assets/compare-to-another-field-icon.png) and choose a field whose value you want to compare to the value of your selected field. For example, you can filter for projects whose Project Owner matches the Project Sponsor. </span>
+        1. <span class="preview">(Optional) Instead of adding a field value, click the **Compare to another field** icon ![Compare to another field](assets/compare-to-another-field-icon.png) and choose a field whose value you want to compare to the value of your selected field. For example, you can compare the Project Owner and the Project Sponsor fields. </span>
 
             >[!TIP]
             >
-            ><span class="preview">Only fields visible in the list view are available for conditional formatting.</span>
+            ><span class="preview">Only fields visible in the list view are available for conditional formatting. The fields you compare must be of the same type. </span>
 
         1. <span class="preview">(Optional) Click **Add condition** in the **If** line to add more conditions to the same rule.</span>
 
@@ -191,29 +207,44 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
             >
             ><span class="preview">You can add up to 10 conditions in a conditioning rule and you can have up to 20 rules for a field.</span>
 
+        1. <span class="preview">Click the **Or** connector between conditions to change to **And** and to indicate that multiple conditions must be met at the same time. **Or** is the default connector.</span>  
+        1. <span class="preview">In the **Format** line, select a field to indicate which column will be formatted.</span> <!--edit this area, if it changes names??-->
+        1. <span class="preview">(Optional) Click the **color circle** icon ![Color circle icon](assets/color-circle.png) next to the field selected, to expand it and choose another color in the **Cell fill** area to change the color of the background in a cell or pick a color from the **Text color** area to change the color of text in a cell.</span>
+        1. <span class="preview">Click the **Text format** icon ![Text format icon](assets/text-format-icon.png) and select from the following options to format the text in a cell:</span> 
+            * <span class="preview">Bold</span>
+            * <span class="preview">Italic</span>
+        
+        1. <span class="preview">Turn on the **Apply to row** setting to apply the formatting to the entire row of the field that meets the conditions.</span>         
+        1. <span class="preview">(Optional) Click **Add condition** in the **Format** box to add another rule for another field and the repeat the steps above.</span> 
+        1. <span class="preview">(Optional) Click **Clear all** to remove all formatting.</span>
+        1. <span class="preview">Click outside the **Format** box to close it.</span>
+
+            <span class="preview">This returns you to the list view.</span> 
+            <span class="preview">The formatting is applied immediately to the list view.</span>
+            <span class="preview">There is a blue dot next to the **Format cells** icon to indicate that the view has special formatting applied.</span>
+    
+    1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) <!-have they updated this to "Grouping"??-> to group items in the list by a common field. Select one of the options, or use the search bar to find a field.</span>
+
+        <span class="preview">The field must be a column in the list before you can group by it. Not all field types can be used for groupings.</span>
+
+    1. <span class="preview">Click the **Row height** icon ![Row height icon](assets/row-height-icon.png) to update the vertical length of a row. Choose from the following options: </span>
+
         <div class="preview">
-
-        1. Click the **Or** connector between conditions to change to **And** and to indicate that multiple conditions must be met at the same time. **Or** is the default connector.  
-        1. In the **Format** line, select a field to indicate which column will be formatted. <!--edit this area, if it changes names??-->
-        1. (Optional) Click the **color circle** icon ![Color circle icon](assets/color-circle.png) next to the field selected, to expand it and choose another color <!--for a cell or the text of the cell that matches your criteria-->. <!--is this where the bold, italic is? I had no UI for this when I wrote it-->
-        1. Turn on the **Apply to row** setting to apply the formatting to the entire row of the field that meets the conditions. 
-        1. (Optional) Click **Add condition** in the **Format** box to add another rule for another field and the repeat the steps above. 
-        1. (Optional) Click **Clear all** to remove all formatting.
-        1. Click outside the **Format** box to close it.
-
-            This returns you to the list view. 
-            The formatting is applied immediately to the list view.
-            There is a blue dot next to the **Format cells** icon to indicate that the view has special formatting applied.
-
+    
+        * Short
+        * Standard. This is the default choice. 
+        * Medium
+        * Tall
+    
         </div>
 
-    <!--leave these here-->
+    <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 
 1. (Optional) Add a keyword in the search box in the upper-right corner of the list to search for an item. 
 
     Items that match your search term are highlighted in the list.
 
-1. (Optional) To add more items to the list and automatically connect them to the selected record, do one of the following:
+1. (Optional and conditional) In the projects <!--change projects to items here when more items will display in the Glist--> connected page, to add more items to the list and automatically connect them to the selected record, do one of the following:
 
     * Click **Connect records** in the upper-right corner of the list to add existing items.
     * Click **New row** at the bottom of the list to add new items. 
@@ -226,10 +257,21 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
      
       Or
 
-      Select one or more items, and notice the actions bar at the bottom of the list, then click one of the following, when available:
+      Select one or more items, and notice the actions bar at the bottom of the list, then click one of the following, when available. Depending on which area you access the list view from, click on one of the following options: 
       
     * **Delete** to delete the item. Deleting a project disconnects it from the record and moves it to the Workfront's Recycle Bin. Workfront administrators can recover deleted projects up to 30 days after they were deleted. Deleting a form does not delete the requests or records created when the form was submitted. 
-    * **Disconnect** to disconnect the project from the record. Disconnecting a project removes it and all the values of its lookup fields from the current record.
+    * **Disconnect** to disconnect the project from the record. Disconnecting a project removes it and all the values of its lookup fields from the current record. 
 
-    ![Actions bar in Connected records page List view](assets/actions-bar-connected-records-page-list-view.png)
+        <!--update screen shot at preview release-->
+
+        ![Actions bar in Connected records page List view](assets/actions-bar-connected-records-page-list-view.png)
+
+    * **Edit form**: Opens a Planning request form and allows you to edit it.
+    * **Unpublish**: Unpublishes a request form. This removes the form from the Requests area and users can no longer add requests to this record type. 
+    * **Share**: Opens the Sharing box for a request form where you can share with others.
+    * **Copy link**: Copies a link to a Planning request form so you can share it with other users. If the form is shared publicly, you can share the link with people outside of Workfront Planning. 
+
+        ![Actions bar in Planning requests list](assets/actions-bar-in-inake-forms-list.png)
+
+    
 

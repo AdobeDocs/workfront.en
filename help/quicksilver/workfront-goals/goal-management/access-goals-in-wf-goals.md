@@ -6,6 +6,8 @@ description: This article describes how you can find and manage goals in Adobe W
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Access and open goals in Adobe Workfront Goals
 
@@ -67,7 +69,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -119,7 +122,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 </td>
   </tr>
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Access Workfront Goals
 

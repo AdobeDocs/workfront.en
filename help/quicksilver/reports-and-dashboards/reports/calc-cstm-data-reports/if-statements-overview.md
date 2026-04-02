@@ -7,6 +7,8 @@ description: You can use "IF" statements in general programming languages. In Ad
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # "IF" statements overview
 

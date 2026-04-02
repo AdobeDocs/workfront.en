@@ -6,6 +6,8 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 
 # Share views
@@ -31,7 +33,8 @@ You can share a view with others to ensure collaboration when working with recor
 
 
 <!--
-This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).
+-->
 
 ## Access requirements
 
@@ -85,7 +88,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -143,7 +147,8 @@ For more information about Workfront access requirements, see [Access requiremen
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerations when sharing views
 
@@ -288,8 +293,18 @@ To share a view publicly in Workfront Planning:
    >
    >Views without a people or a global icon are views you created and are not shared with others. Unshared views are only visible to you. 
 
-
 1. (Optional) Paste the link you copied to an email, chat message, document, or in a Workfront comment to share it with others. 
+
+   <!--
+   <div class="preview">
+
+   When others open a public view they see the following information about the view in the header: 
+
+      * The view name and icon
+      * The name of the record type that the view displays
+
+   </div>
+   -->
 
 ## Copy a link to a view
 

@@ -5,6 +5,8 @@ description: Learn about AI Assistant in Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
+last-update: 2026-04-01T11:23:03-07:00
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 ---
 # AI Assistant in Workfront
 
@@ -144,7 +146,7 @@ Use the following keywords in your prompts to provide context and aid in locatin
 When entering your prompt, include the phrase `using (keyword)`.
 
 | Keyword | Effect |
-| --- | --- | 
+| --- | --- |
 | `workfront` | Interacts with Workfront. |
 | `planning` | Interacts with Workfront Planning. |
 | `help` | Returns information from Experience League documentation. |

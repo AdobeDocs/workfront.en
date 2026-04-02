@@ -6,6 +6,8 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Architect your success: modeling your campaign hierarchy 
 
@@ -202,7 +204,8 @@ This allows you to:
 * **Don't create silos:** Ensure your record types are shared across workspaces so teams are not retyping the same data.
 
 
-<!--original content:
+<!--
+original content:
 
 
 ## Goal 

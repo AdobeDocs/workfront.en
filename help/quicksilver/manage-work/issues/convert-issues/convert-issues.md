@@ -8,6 +8,8 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Overview of converting issues in Adobe Workfront
 
@@ -158,7 +160,8 @@ The following table lists project information and whether it transfers from the 
  </tbody> 
 </table>
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
@@ -250,3 +253,12 @@ The following table illustrates which issue fields are visible from the converte
 >[!CAUTION]
 >
 >If the Primary Contact of an issue changes or if the issue becomes unlinked from the project or task after the issue has been converted, the Converted Issue Originator Name does not update and it displays the original Primary Contact of the issue at the time the issue was converted.
+
+## View original issue and converted objects from requests lists
+
+You can view the original issue and converted objects in the Requests area and the My Requests widget in Home. 
+
+For more information, see the following articles: 
+
+* [View submitted requests](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
+* [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)

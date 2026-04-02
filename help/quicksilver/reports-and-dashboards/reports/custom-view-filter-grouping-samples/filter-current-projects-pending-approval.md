@@ -7,6 +7,8 @@ description: The following project filter displays projects in the Current - Pen
 author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 32045aec-acc5-44d2-bad5-7759dc797414
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Filter: display your current projects pending approval
 

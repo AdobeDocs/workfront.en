@@ -7,6 +7,8 @@ description: This task grouping allows you to group tasks by the Project Sponsor
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2d8f85ea-492e-4b08-82f5-726170acc7d5
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Grouping: Project Sponsor for a task list
 

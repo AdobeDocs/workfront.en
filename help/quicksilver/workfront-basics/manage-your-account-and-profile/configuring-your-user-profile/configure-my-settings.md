@@ -6,6 +6,8 @@ description: Your [!DNL Adobe Workfront] profile contains information about your
 author: Becky
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Configure My Settings
 
@@ -374,7 +376,8 @@ You can change any of the following in this sub-section:
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Layout Template]</strong> </td> 
    <td>This field is visible to users with a [!UICONTROL Standard], [!UICONTROL Plan], or [!UICONTROL [!DNL Workfront] administrator] access level, and it is only editable for [!UICONTROL [!DNL Workfront] administrators] or users with a [!UICONTROL Standard] or [!UICONTROL Plan] license who also have administrative user access. Select a layout template here, to update the look and field of your Workfront interface. For more information about setting up users with administrative user access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Configure users' access to edit users using a custom access level</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.<br>For more information about layout templates and how they affect your interface, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a></td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader"><strong>Log in as</strong> </td> 
     <td> <p><strong>Add access</strong> for a Workfront administrator or group administrator (associated with a group you are in) to log in as you. Select an <strong>Access expiration date</strong> for the login. </p> <p>You can repeat this to grant login access to multiple administrators.</p> <p>The settings you choose in this section are visible only to you.

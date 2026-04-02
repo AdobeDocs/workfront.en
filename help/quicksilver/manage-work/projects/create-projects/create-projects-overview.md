@@ -18,3 +18,5 @@ This section contains the following articles:
 * [Create a project using a template](../../../manage-work/projects/create-projects/create-project-from-template.md) 
 * [Import a project from Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md) 
 * [Create project baselines](../../../manage-work/projects/create-projects/create-baselines.md)
+<!-- * [Create and view project snapshots](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md) -->
+

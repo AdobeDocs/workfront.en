@@ -6,6 +6,8 @@ description: Workfront administrators and users with a Plan or Work license can 
 author: Courtney
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Edit team settings
 
@@ -80,5 +82,7 @@ For more detail about the information in this table, see [Access requirements in
 
       * [Configure the [!UICONTROL Done] button for tasks](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) 
       * [Configure the [!UICONTROL Done] button for issues](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
+
+   * Attach a custom form. For more information, see [Add a custom form to an object](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 1. Click **[!UICONTROL Save Changes]**.

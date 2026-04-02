@@ -9,6 +9,8 @@ recommendations: noDisplay, noCatalog
 hide: yes
 hidefromtoc: yes
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Unified review and approval overview
 
@@ -46,7 +48,7 @@ With unified review and approvals, you can:
 * Track the status of reviews and approvals in real time
 * Centralize feedback and approvals in one place
 * Ensure that all stakeholders have access to the latest versions of assets
-* Utilize AI Reviewers to automate brand compliance reviews
+* Utilize Content Reviewers to automate brand compliance reviews
 * and more
 
 For more information, see [Unified document approvals: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).

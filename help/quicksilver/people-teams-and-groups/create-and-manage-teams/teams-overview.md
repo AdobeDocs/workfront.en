@@ -7,6 +7,8 @@ description: The purpose of a team in Adobe Workfront is to capture the real-lif
 author: Courtney
 feature: People Teams and Groups
 exl-id: c62c0789-2aaa-4091-9c45-b9e7801043a9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Teams overview
 

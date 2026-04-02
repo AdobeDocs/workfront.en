@@ -7,6 +7,8 @@ description: This task view displays the Company and Home Group of the Primary O
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 818c1f3a-4e82-4dc3-af86-4f9dcf5c11a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View: assigned user's Company and Home Group
 

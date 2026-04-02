@@ -7,6 +7,8 @@ description: You can customize the type of information you display in a list or 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Views overview in Adobe Workfront
 

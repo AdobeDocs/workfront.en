@@ -8,6 +8,8 @@ description: If users update custom fields on a regular basis and you want to ca
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Calculated custom field example: display a field's edit history
 

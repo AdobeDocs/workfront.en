@@ -6,6 +6,8 @@ description: You can generalize a report by using wildcards instead of specific 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Use user-based wildcards to generalize reports
 

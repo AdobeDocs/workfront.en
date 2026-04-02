@@ -7,6 +7,8 @@ description: You can delete a template tasks if it is no longer needed. Deleted 
 author: Alina
 feature: Work Management
 exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Delete a template task
 
@@ -49,7 +51,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,7 +76,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>Manage permissions for a template.</p> <p>You cannot share a template task.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Delete a template task
 

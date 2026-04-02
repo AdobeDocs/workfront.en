@@ -5,6 +5,8 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2c3133c3-aaa9-424c-81f5-9e4e1f4a486f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # First Quarter 2026 Document and approval enhancements
 
@@ -12,7 +14,8 @@ This page describes Document and approval enhancements made with the First Quart
 
 For a list of all changes available at this point in the First Quarter 2026 release cycle, see [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-<!--## Set up brands for the AI reviewer in Workfront
+<!--
+## Set up brands for the AI reviewer in Workfront
 
 >[!NOTE]
 >
@@ -22,7 +25,8 @@ For a list of all changes available at this point in the First Quarter 2026 rele
 
 You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.
 
-The AI reviewer is currently in beta.-->
+The AI reviewer is currently in beta.
+-->
 
 ## Choose a Workfront project when sending a review in Adobe Express
 

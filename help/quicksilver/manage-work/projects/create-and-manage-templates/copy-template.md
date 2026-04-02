@@ -6,6 +6,8 @@ description: In addition to creating a project template from scratch, you can al
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Copy a project template
 
@@ -47,7 +49,8 @@ You must have the following access.
 
 +++
 
-<!--Old:
+<!--
+Old:
 
  <col> 
  <col> 
@@ -70,7 +73,8 @@ You must have the following access.
    <td> <p>View or higher permissions to a template</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerations about copying templates
 

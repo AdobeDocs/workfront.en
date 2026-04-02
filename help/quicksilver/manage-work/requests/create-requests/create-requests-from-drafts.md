@@ -6,6 +6,8 @@ description: In addition to using the available drafts that Workfront suggests t
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create requests from drafts
 
@@ -52,7 +54,9 @@ You must do the following before you can create a request from a draft:
 
 ## Create requests from drafts
 
-The procedure for creating requests from drafts differs between the new requesting experience and the legacy experience.
+You can create requests from drafts for both Workfront and Planning reqeusts. 
+
+Creating requests from drafts differs between the new requesting experience and the legacy experience.
 
 * [Create requests from drafts in the new requesting experience](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [Create requests from drafts in the legacy requesting experience](#create-requests-from-drafts-in-the-legacy-requesting-experience)
@@ -82,9 +86,14 @@ The procedure for creating requests from drafts differs between the new requesti
 
 1. After completing the information for the request, click **Submit**.
 
-     When you submit the request, the draft is deleted and cannot be restored.
+     When you submit the request, the draft is replaced with the new request, and cannot be restored as a draft. 
 
 ### Create requests from drafts in the legacy requesting experience
+
+>[!NOTE]
+>
+>You cannot create requests from Planning request drafts using the legacy experience.
+
 
 {{step1-to-requests}}
 

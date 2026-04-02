@@ -6,6 +6,8 @@ description: You can create an Agile story on an iteration in various ways. Afte
 author: Courtney
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create an Agile story
 

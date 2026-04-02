@@ -6,14 +6,16 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Create workspaces
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -39,7 +41,9 @@ For general information about workspaces, see [Workspaces overview](/help/quicks
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p> <p>Any Workflow and any Planning package</p>
+<p>Any Workfront or Workflow package</p> 
+<p>Any Workfront Planning package</p>
+<p>A Workfront Planning Prime or higher package <span class="preview">to create multiple workspaces at a time</span></p>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 
@@ -59,7 +63,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++   
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -114,11 +119,33 @@ For more information about Workfront access requirements, see [Access requiremen
    <td>   <p>You receive Manage permissions to the workspaces you create. </p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Create a workspace
 
-You can create a workspace and add record types to it to organize your objects in Workfront Planning. For more informaton about editing a workspace, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md).
+You can create a workspace and add record types to it to organize your objects in Workfront Planning. 
+
+For more information about editing a workspace, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+You can create workspaces in the following ways: 
+
+* Create one workspace from scratch or from a template
+
+   For information, see the section [Create a workspace from scratch or from a template](#create-a-workspace-from-scratch-or-from-a-template) in this article.
+* Create one workspace using the AI-powered Planning Designer. This feature is currently in Beta. 
+
+   For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
+
+<div class="preview">
+
+* Create multiple workspaces using a best-practice multi-workspace template bundle 
+
+   For information, see the section [Create](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) in this article
+
+</div>
+
+### Create a workspace from scratch or from a template
 
 {{step1-to-planning}}
 
@@ -186,5 +213,53 @@ You can create a workspace and add record types to it to organize your objects i
    >For users that are currently being transitioned to the Adobe Identity Management System (IMS), workspaces created by Workfront-only users who are not IMS users display as created by the **System**. 
    >
    >For information about IMS, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
+<div class="preview">
+
+### Create multiple workspaces using a best-practice multi-workspace template bundle
+
+You can use a multi-workspace template bundle to create 6 workspaces with one click. 
+
+The templates included in the bundle contain workspaces, record types, records, views, and fields to help you get started with your Planning implementation. 
+
+>[!IMPORTANT]
+>
+>Note that all the names of workspaces, record types, fields, and records included in the bundle are samples and are not a reflection of your own environment. 
+>
+>We recommend that you use this template bundle as an example of a Planning structure and proceed with creating your own objects. 
+
+
+{{step1-to-planning}}
+
+1. Click **Create workspace**
+
+   The Create workspace box displays. You can create a workspace from scratch or create it using one of the available templates. 
+   
+1. Click **Review workspace setup** in the **Start here (Recommended)** area. 
+1. (Optional) Click **Preview** inside any of the following predefined workspace templates to open the Preview box for each template:
+
+    * 1.Global Classifications & Taxonomies
+
+         The Global Classifications & Taxonomies template includes all the record types and fields we recommend that you create in your environment for a successful implementation of Workfront Planning. 
+
+         You can later link or import the record types in this template in other workspaces you create. 
+    * 2.Fréscopa Global Marketing
+    * 3.Fréscopa Social Marketing
+    * 4.Fréscopa Media & PR
+    * 5.Fréscopa Global Events
+    * 6.Fréscopa Executive Company Leadership
+    
+1. After opening the **Preview** box for each workspace template, click Back to go back to the **Create workspace** box, or click Use templates to use the templates including in the bundle and create workspaces. 
+
+   The workspaces are created and display in the **Workspaces I'm** on and **All Workspaces** tabs for System administrators. All Standard-license users will see the workspaces in their Workspaces area. 
+
+1. Start editing the workspaces you created and adding record types, records, views, and fields that are pertinent to your organization. 
+
+   For more information about best practices to implement Workfront, see the articles in the [Adobe Workfront Planning best practices: article index](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md) section. 
+
+   For information about editing workspaces, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
+
+</div>
+
 
 

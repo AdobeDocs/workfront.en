@@ -7,6 +7,8 @@ description: When managing task and issues assignments, you can use smart assign
 author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
+last-update: 2026-04-01T11:23:03-07:00
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 ---
 # Smart assignments overview
 
@@ -55,11 +57,14 @@ You can view smart assignments in the following areas where you can assign tasks
 
   ![Summary panel Assignments area](assets/issue-assignments-summary-panel.png)
 
-<!--* The Assignments field in the New Task box, when adding a task to a project
+<!--
+* The Assignments field in the New Task box, when adding a task to a project
 
-  (![Smart assignments new task]assets/smart-assignments-new-task-modal.png)-->
+  (![Smart assignments new task]assets/smart-assignments-new-task-modal.png)
+  -->
 
-<!--this is not possible in the new home  - we have Summary there: 
+<!--
+this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
 
   ![Smart assignments in Home](assets/smart-assignments-in-home-nwe-350x216.png)
@@ -73,7 +78,8 @@ You can view smart assignments in the following areas where you can assign tasks
 
 <!--Smart assignments work differently for tasks than for issues.  -->
 
-<!--### Smart assignments criteria for tasks
+<!--
+### Smart assignments criteria for tasks
 
 The task smart assignments calculation works in <span class="preview">two phases which use two different algorithms.</span>
 
@@ -121,7 +127,8 @@ The calculation for the similarity score and the order in which the assignments 
 
 </div>
 
-#### Second phase of smart assignment calculation for tasks-->
+#### Second phase of smart assignment calculation for tasks
+-->
 
 <!--If the first step of task smart assignments has found no matches,-->
 
@@ -129,14 +136,16 @@ Workfront calculates smart assignments for tasks in the same way that it calcula
 
 <!--For more information, see the section [Smart assignments criteria for tasks and issues](#smart-assignments-criteria-for-tasks-and-issues) in this article. -->
 
-The identified assignments are listed in the **Users and teams** and **Job roles**<!--, and <span class="preview">**Rate card roles**</span>--> sections of the Assignments field. <!--<span class="preview">For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. keep the rate cards roles in yellow after the release of assignments to Prod-->
+The identified assignments are listed in the **Users and teams** and **Job roles**<!--, and <span class="preview">**Rate card roles**</span>--> sections of the Assignments field. 
+<!--<span class="preview">For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 <!--
 ### Smart assignments criteria for tasks and issues 
 
 >[!NOTE]
 >
->The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
+>The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default.
+-->
 
 ![Example smart assignment](assets/smart-assignments-issue-header.png)
 

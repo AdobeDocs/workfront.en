@@ -6,6 +6,8 @@ description: The order in which stories appear on the story board does not indic
 author: Courtney
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Change the order of stories on the [!UICONTROL Scrum] board
 

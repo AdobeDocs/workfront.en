@@ -6,6 +6,8 @@ description: You can upload your projects as documents for a quick review and ap
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d26850d8-9594-4848-b263-6f71e6c52e9b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Upload documents from [!DNL Photoshop]
 
@@ -19,14 +21,16 @@ You can upload your projects as documents for a quick review and approval or sim
  <col> 
  <col> 
  <tbody> 
-  <!-- <tr> 
+  <!--
+   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> Any</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td> <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">Additional products</td> 
    <td>You must have an [!DNL Adobe Creative Cloud] license in addition to a [!DNL Workfront] license.</td> 

@@ -6,6 +6,8 @@ description: A Cross-Project Predecessor is a task that another task (called a s
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create cross-project predecessors
 
@@ -59,7 +61,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,7 +88,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>Manage permissions to the tasks and the projects</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Create a cross-project predecessor
 

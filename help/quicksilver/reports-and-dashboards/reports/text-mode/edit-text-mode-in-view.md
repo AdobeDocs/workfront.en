@@ -6,6 +6,8 @@ description: 'You can edit a view in a list or report using text mode to access 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Edit a view using text mode
 

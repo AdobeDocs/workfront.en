@@ -7,6 +7,8 @@ description: This hour grouping organizes hours by the sponsor of the project wh
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6b35b0ef-18b7-4121-ae39-d7957d76c04b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Grouping: Project Sponsor for hours
 

@@ -6,6 +6,8 @@ description: You can upload your art boards as documents for a quick review and 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: aaca183e-75e5-4a5c-b75b-a7809ccd1274
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Upload documents from [!DNL InDesign]
 
@@ -21,7 +23,8 @@ You must have the following access to perform the steps in this article:
  <col> 
  <col> 
  <tbody> 
-  <!-- <tr> 
+  <!--
+   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> Any</td> 
   </tr> 
@@ -31,7 +34,8 @@ You must have the following access to perform the steps in this article:
    <p>Standard</p>
    <p>Work or higher</p> </td> 
   </tr> 
-  <tr> -->
+  <tr>
+  -->
    <td role="rowheader">Additional products</td> 
    <td>You must have an [!DNL Adobe Creative Cloud] license in addition to a [!DNL Workfront] license.</td> 
   </tr> 

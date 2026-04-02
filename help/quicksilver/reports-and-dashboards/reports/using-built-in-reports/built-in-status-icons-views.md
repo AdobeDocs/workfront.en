@@ -6,6 +6,8 @@ description: You can add the built-in Status Icons field as a column in your vie
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Built-in Status Icons in Views
 

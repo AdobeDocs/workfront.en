@@ -7,6 +7,8 @@ description: You can add this column to a task view to display the name of the p
 author: Courtney
 feature: Reports and Dashboards
 exl-id: bb489920-6b17-4689-b432-b0c28bcb5d10
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View: show name of parent tasks as all caps
 

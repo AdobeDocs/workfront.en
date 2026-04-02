@@ -7,6 +7,8 @@ description: You can display a list of all Resolvable Objects in a project or ta
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2b0d8e7c-9211-44e5-9d92-c87a2fe4336d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View: Resolvable Objects in a task or project report
 

@@ -6,6 +6,8 @@ description: Your Adobe Workfront administrator grants users access to view or e
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Share a report in Adobe Workfront
 

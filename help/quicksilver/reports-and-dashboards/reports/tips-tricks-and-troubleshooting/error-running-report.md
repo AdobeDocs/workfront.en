@@ -7,6 +7,8 @@ description: Learn about the 'You are not currently logged in' error message.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: fda4630a-2590-46f4-94ff-499a485367ee
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Error message when running a report: "You are not currently logged in."
 

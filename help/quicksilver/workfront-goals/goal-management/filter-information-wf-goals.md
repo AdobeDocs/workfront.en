@@ -6,6 +6,8 @@ description: You can view goals that you or anyone else added in Adobe Workfront
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Filter information in Adobe Workfront Goals
 
@@ -66,7 +68,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -117,7 +120,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Overview of filters in Workfront Goals
 
@@ -187,9 +191,11 @@ You can create a filter from scratch or edit one of the built-in filters.
       <tbody> 
        <tr> 
         <td>All</td> 
-        <td> <p>All goals in your system, regardless of who created them, what the time period for them is, or who the owner is. This is the default filter and you cannot edit it. </p> <!--
+        <td> <p>All goals in your system, regardless of who created them, what the time period for them is, or who the owner is. This is the default filter and you cannot edit it. </p>
+        <!--
           <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: what the ALL filter displays might change; right now, it displays all, regardless of status, period, owner, etc)</p>
-         --> </td> 
+         -->
+         </td>
        </tr> 
        <tr> 
         <td>Personal</td> 

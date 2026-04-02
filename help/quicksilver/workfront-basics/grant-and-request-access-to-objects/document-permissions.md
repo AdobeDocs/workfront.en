@@ -7,8 +7,12 @@ description: Your Adobe Workfront administrator grants users access to view or e
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Share a document on legacy Workfront storage
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 The Workfront administrator controls who can view or edit documents in the Access Levels area in Setup. For more information, see [Grant access to documents](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
@@ -73,7 +77,7 @@ The user who uploads a document to Workfront has Manage permissions to it, by de
 
    ![Share a document](assets/share-a-document-350x160.png)
 
-1. In the **Grant document access to** field, begin typing the name of the user, team, role, group, or company you want to share the document with, then click the name when it appears in the drop-down list.
+1. In the **Grant document access to** field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share the document with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
@@ -116,7 +120,7 @@ The user who uploads a document to Workfront has Manage permissions to it, by de
 
       ![Share icon](assets/share-documents-in-bulk.png)
 
-1. In the **Grant document access to** field, begin typing the name of the user, team, role, group, or company you want to share the documents with, then click the name when it appears in the drop-down list.
+1. In the **Grant document access to** field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share the documents with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >

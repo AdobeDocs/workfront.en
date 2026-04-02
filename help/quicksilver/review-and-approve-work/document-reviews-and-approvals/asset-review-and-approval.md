@@ -6,6 +6,8 @@ description: Overview of the systems available for review and approval in Workfr
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Available functionality for document approvals
 
@@ -56,10 +58,9 @@ Key features available for Unified Approvals:
 
 * Access review and approval requests in the My Approvals widget in the Home area
 
+* Use the Content Reviewer to automate brand compliance reviews. For more information, see [Get started with the Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+
 * Use the Frame.io viewer to review and approve documents. For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
-
-* Use the AI Reviewer to automate brand compliance reviews. For more information, see [Get started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
-
 
 ## Proof approvals 
 

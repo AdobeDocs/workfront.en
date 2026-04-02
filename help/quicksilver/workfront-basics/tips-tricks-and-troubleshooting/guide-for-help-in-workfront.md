@@ -6,6 +6,8 @@ description: Your quick guide to finding help in [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 author: Becky
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Your quick guide to finding help in [!DNL Adobe Workfront]
 
@@ -150,7 +152,8 @@ To learn more about the [!DNL Workfront] Status site, see [The [!DNL Adobe Workf
 
 To learn what has been fixed in a weekly Maintenance Update, see [Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
-<!-- the links in this section don't work anymore and I am not sure who would have the content?! Made a note to update this but will have to do some searching - October 26, 2023: 
+<!--
+ the links in this section don't work anymore and I am not sure who would have the content?! Made a note to update this but will have to do some searching - October 26, 2023: 
 
 ## What are best practices for maintaining and tuning up [!DNL Workfront?]
 

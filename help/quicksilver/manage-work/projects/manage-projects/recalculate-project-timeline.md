@@ -6,6 +6,8 @@ description: Recalculating Timelines allows managers to see how different factor
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Recalculate project timelines
 
@@ -52,7 +54,8 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -76,7 +79,8 @@ For more detail about the information in this table, see [Access requirements in
    <td> <p>Manage permissions to a project</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Automatic recalculation
 

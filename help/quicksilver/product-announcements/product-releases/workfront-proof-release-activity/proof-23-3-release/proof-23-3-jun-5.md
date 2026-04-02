@@ -8,6 +8,8 @@ author: Courtney
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: b52020a5-e58b-48f6-9714-8e2ebe606729
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Adobe Workfront Proof 23.3 release activity: Week of June 5, 2023
 

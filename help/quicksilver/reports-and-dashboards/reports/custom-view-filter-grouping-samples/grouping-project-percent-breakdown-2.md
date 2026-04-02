@@ -7,6 +7,8 @@ description: 'In this custom project grouping, you can display projects grouped 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7845fd66-8304-4154-8630-e72482cd753f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Grouping: project percent breakdown 2
 
