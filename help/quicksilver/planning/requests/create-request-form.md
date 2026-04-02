@@ -101,7 +101,7 @@ To create a request form, you must begin creating the form, set up the form deta
 
 ### Begin creating a request form
 
-You can create a request form from the record type associated with the form<!--span class="preview">, or from the Requests area of Workfront.</span>-->.
+You can create a request form from the record type associated with the form, <!--<span class="preview"> or from the Requests area of Workfront</span>-->.
 
 #### Create a request form from a record type
 
@@ -156,8 +156,6 @@ You can create a request form from the record type associated with the form<!--s
 
    The request form for the selected record type opens in the Form tab.
 1. Continue to [Set up details for the request form](#set-up-details-for-the-request-form).
-
-
 
 </div>
 

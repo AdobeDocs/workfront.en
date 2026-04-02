@@ -121,7 +121,9 @@ The following must be in place before you can submit a request to a Workfront Pl
 
    For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
+<!--
+Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.
+-->
 
 
 ## Submit a request to Workfront Planning in the Requests area of Workfront
@@ -177,7 +179,7 @@ The following must be in place before you can submit a request to a Workfront Pl
       * **Object type**: The name of the workspace and record type where there records was created from the request in Planning. 
       * **Status**: The status of the request object. 
       * **Request form**: The name of the request form associated with the record type in Planning. 
-      <!--* <span class="preview"**Created object status**: The status of the created record.</span> -->
+      * <span class="preview">**Created object status**: The status of the created record.</span>
    
    * If the request form was associated with an approval, the request is added to the Requests list in the Workfront Requests area and My Requests widget with a status of **Pending review**. A new record is added to the record type page only after the approvers have approved it.
    
@@ -200,18 +202,20 @@ The following must be in place before you can submit a request to a Workfront Pl
    * View
    * Filter
    * Columns
-   
-   <!--
+
    <div class="preview">
-      * Group
+
+   * Group
    * Format cells
    * Row height
-      </div>
-   -->
+
+   </div>
+
 
    For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). 
 
-   <!--   
+   <!-- 
+   Removing this as this is covered at a higher level in the Use enhanced lists article: 
    1. (Optional) From the requests list, do any of the following:
       * Click **Filters** and start adding conditions for what requests you want to view in the Requests list. 
          ![Editing filters in the Requests area](assets/filters-editing-box-in-requests-planning-tab.png)
@@ -275,32 +279,28 @@ External people cannot access Workfront internal areas, like **Requests** or **H
 
    If the form is associated with an approval, it must be approved before it will create a record. 
 
-1. (Optional) Click **Submit another request** to add another request to the same shared link. 
+1. (Optional) Click **Submit another request** to add another request using the same shared link. 
 
-<!--
-Not sure why this is commented out - need to check if it is valid?? - April 1, 2026: 
    * If the request form was not associated with an approval, the request is added to the Requests list in the Workfront Requests area and My Requests widget in Home, and a new record is added to the record type associated with the form. This is available only when you log in to Workfront.
    
-   * If the request form was associated with an approval, the request is added to the Requests list in the Workfront Requests area and My Requests widget. A new record is added to the record type page only after all the approvers have approved it. This is available only when you log in to Workfront.
+   * If the request form was associated with an approval, the request is added to the Requests list in the Workfront Requests area and My Requests widget with a status of Pending Review. A new record is added to the record type page only after all the approvers have approved it. This is available only when you log in to Workfront.
    
       For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
       >[!IMPORTANT]
       >
-      >You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. <!--ensure this is correct; asking team in slack
-   
+      >You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system.    
    
    * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
    * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.
+
       >[!NOTE]
       >
       >The email and in-app notification are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
    
    <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>
 
-
 1. (Optional) Click **View your request** to open the request in Workfront.
-
 
 Or
 
@@ -324,8 +324,6 @@ Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6
 1. (Optional) Click the name of the **Object type**. 
 
    The record type page opens in Workfront Planning. 
-
--->
 
 ## Create a request by copying an existing request
 

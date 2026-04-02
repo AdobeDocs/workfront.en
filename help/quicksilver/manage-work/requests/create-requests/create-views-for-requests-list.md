@@ -17,7 +17,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
-If you are using the new requesting experience in Adobe Workfront, you can create and save views for the Requests area. These views include filters, and column arrangements. <!--<span class="preview"> and groupings.</span>-->
+If you are using the new requesting experience in Adobe Workfront, you can create and save views for the Requests area. These views include filters, and column arrangements <span class="preview"> and groupings.</span>
 
 
 >[!IMPORTANT]
@@ -65,10 +65,9 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-<!--
 <div class="preview">
 
-## Existing views for requests
+## System views for requests
 
 In addition to the views you can create yourself, Workfront offers the following system views for the Requests area and My Requests widget in Home: 
 
@@ -78,8 +77,9 @@ In addition to the views you can create yourself, Workfront offers the following
    * **My Drafts**: Drafts of your quests that have not been submitted yet. 
    * **Open Requests**: Requests that you or anyone else submitted in queues or for workspaces you have permissions to view that are still open. This is not available for the My Requests widget.
 
+You cannot edit system views. You can modify their elements, then copy the view and edit or share the copy. 
+
 </div>
--->
 
 ## Create a view for requests
 
@@ -114,7 +114,6 @@ By editing a view, you can change the following elements of the view:
 * Filters
 * Columns
 
-<!--
 <div class="preview">
 
 * Grouping
@@ -122,9 +121,6 @@ By editing a view, you can change the following elements of the view:
 * Row height
 
 </div>
--->
-
-The changes you make on a view are visible to all those you share the view with. 
 
 For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 

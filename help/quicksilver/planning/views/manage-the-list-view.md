@@ -32,7 +32,7 @@ You can view objects in the list view in the following areas of Workfront Planni
 
     ![Request forms in list view](assets/request-forms-in-list-view.png)
 
-This article describes how you can navigate, create, or edit a list view that displays objects in Workfront Planning. <!--change 'projects' to other objects when they become available and the location of the list view-->
+This article describes how you can navigate, create, or edit a list view in Workfront Planning. 
 
 ## Access requirements
 
@@ -93,7 +93,7 @@ For more information about Workfront access requirements, see [Access requiremen
     * You cannot create or edit additional list views for Planning request forms. Workfront creates one list view for request forms. <!--this will change-->
 
         For information about request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
-* Depending on where it displays, not every list view has all the same elements described in this article.
+* Depending on where it displays, not every list view has all the elements described in this article.
 
 ## Manage a list view {#manage-a-list-view}
 
@@ -102,6 +102,7 @@ Workfront Planning list views are similar to Workfront's enhanced lists. Most el
 For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 <!--
+Removed - more direct steps below: 
 {{step1-to-planning}}
 
 1. (Conditional) To access a projects connected page, do the following: 
@@ -130,7 +131,7 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
 1. Go to a list view in one of the following areas:
 
     * A connected records page for projects in a record's details area
-    * The Request forms page of a record
+    * The Request forms page of a record type
 
 1. (Conditional) When available, do one of the following to modify the list view: 
 
@@ -139,7 +140,6 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
         >[!TIP]
         >
         >Views are shared throughout the system. If you create a Projects view for one record type, you can view it on other record types that display connected projects. 
-
 
     1. Hover over the name of an existing view and click the **More** menu ![More menu](assets/more-menu.png), then click one of the following:
         * **Rename**, to give the view a new name
@@ -158,18 +158,22 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
 
         >[!TIP]
         >
-        >To apply a personalized filter, select one of the following options for a field value: 
+        ><span class="preview">To apply a personalized filter, select one of the following options for a field value: 
         >
-        >* **Me (logged in user)** to refer to the logged in user in fields referring to users. 
+        ><div class="preview">
         >
-        <!-->>* **My teams** or **My home team** to refer to your teams in fields referring to teams. 
+        >* **Me (logged in user)** to refer to the logged-in user in fields referring to users. 
+        >
+        >* **My teams** or **My home team** to refer to your teams in fields referring to teams. 
         >
         >* **My groups** or **My home group** to refer to your groups in fields referring to groups.
         >
         >* **My company** to refer to your company in fields referring to companies.
         > 
         >* **My roles** or **My primary role** to refer to your job roles in fields referring to roles. 
-        >-->
+        >
+        ></div>
+
     1. Click the **Columns** icon ![Columns icon](assets/columns-icon.png) to select which columns to display or to hide in the view. 
     1. Hover over the name of a column, then click the down-pointing arrow to the left of the column name, then click one of the following:
         * **Rename**, to add a **Custom label** for the column. The name of the original field in Workfront does not change. 
@@ -205,13 +209,12 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
 
         1. <span class="preview">Click the **Or** connector between conditions to change to **And** and to indicate that multiple conditions must be met at the same time. **Or** is the default connector.</span>  
         1. <span class="preview">In the **Format** line, select a field to indicate which column will be formatted.</span> <!--edit this area, if it changes names??-->
-        1. <span class="preview">(Optional) Click the **color circle** icon ![Color circle icon](assets/color-circle.png) <!--update screen shot here for preview release--> next to the field selected, to expand it and choose another color in the **Cell fill** area to change the color of the background in a cell</span><!--or pick a color from the **Text color** area to change the color of text in a cell.-->
-        <!--Update indent here at release: 1. <span class="preview"Click the **Text format** icon ![Text format icon](assets/text-format-icon.png) and select from the following options to format the text in a cell:</span> 
+        1. <span class="preview">(Optional) Click the **color circle** icon ![Color circle icon](assets/color-circle.png) next to the field selected, to expand it and choose another color in the **Cell fill** area to change the color of the background in a cell or pick a color from the **Text color** area to change the color of text in a cell.</span>
+        1. <span class="preview">Click the **Text format** icon ![Text format icon](assets/text-format-icon.png) and select from the following options to format the text in a cell:</span> 
             * <span class="preview">Bold</span>
-            * <span class="preview">Italic</span>-->
+            * <span class="preview">Italic</span>
         
-        1. <span class="preview">Turn on the **Apply to row** setting to apply the formatting to the entire row of the field that meets the conditions.</span> 
-        
+        1. <span class="preview">Turn on the **Apply to row** setting to apply the formatting to the entire row of the field that meets the conditions.</span>         
         1. <span class="preview">(Optional) Click **Add condition** in the **Format** box to add another rule for another field and the repeat the steps above.</span> 
         1. <span class="preview">(Optional) Click **Clear all** to remove all formatting.</span>
         1. <span class="preview">Click outside the **Format** box to close it.</span>
@@ -220,19 +223,22 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
             <span class="preview">The formatting is applied immediately to the list view.</span>
             <span class="preview">There is a blue dot next to the **Format cells** icon to indicate that the view has special formatting applied.</span>
     
-        <!--Update the indent: 1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) <!-have they updated this to "Grouping"??-> to group items in the list by a common field. Select one of the options, or use the search bar to find a field.</span>-->
+    1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) <!-have they updated this to "Grouping"??-> to group items in the list by a common field. Select one of the options, or use the search bar to find a field.</span>
 
-        <!--<span class="preview">The field must be a column in the list before you can group by it. Not all field types can be used for groupings.</span>-->
+        <span class="preview">The field must be a column in the list before you can group by it. Not all field types can be used for groupings.</span>
 
-        <!--Update the indent at release: 1. <span class="preview">Click the **Row height** icon ![Row height icon](assets/row-height-icon.png) to update the vertical length of a row. Choose from the following options: </span>
+    1. <span class="preview">Click the **Row height** icon ![Row height icon](assets/row-height-icon.png) to update the vertical length of a row. Choose from the following options: </span>
+
         <div class="preview">
+    
         * Short
         * Standard. This is the default choice. 
         * Medium
         * Tall
-        </div>-->
+    
+        </div>
 
-    <!--leave these here-->
+    <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 
 1. (Optional) Add a keyword in the search box in the upper-right corner of the list to search for an item. 
 
@@ -265,7 +271,7 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
     * **Share**: Opens the Sharing box for a request form where you can share with others.
     * **Copy link**: Copies a link to a Planning request form so you can share it with other users. If the form is shared publicly, you can share the link with people outside of Workfront Planning. 
 
-        <!--![](assets/actions-bar-in-inake-forms-list.png)-->
+        ![Actions bar in Planning requests list](assets/actions-bar-in-inake-forms-list.png)
 
     
 
