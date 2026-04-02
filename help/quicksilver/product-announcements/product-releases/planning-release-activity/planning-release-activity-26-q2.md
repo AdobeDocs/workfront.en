@@ -16,7 +16,8 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Apply additional conditional formatting to a a list of projects in  a record's connected page 
+
+## New capability to increase row height for the list view 
 
 >[!NOTE]
 >
@@ -24,21 +25,13 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 >Production fast release: April 15, 2026
 >Production for everyone: April 16, 2026
 
-You can now apply additional conditional formatting to a list of projects in a record's connected page.  
+We have added a new setting to adjust row height in the list view.  
 
-The new conditional formatting capabilities include the following: 
-
-* Add color to text 
-
-* Make the text bold or italic in a cell 
-
-* Ability to apply the conditional formatting to an entire row 
-
-Prior to this enhancement, only the ability to add color to a cell's background existed.  
+For more information, see Manage the list view (help/quicksilver/planning/views/manage-the-list-view.md).
 
 For information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
 
-## Add record name to view name and icon in publicly shared views
+## Add record type name and view icon to publicly shared views
 
 >[!NOTE]
 >
@@ -72,7 +65,7 @@ For information, see [Manage the list view](/help/quicksilver/planning/views/man
 >Production fast release: April 15, 2026
 >Production for everyone: April 16, 2026
 
-You can now expand groups, teams, companies, and roles to view their members when you share a workspace or a view with them. Prior to this enhancement, the membership lists were available for these objects only when sharing record types
+You can now expand groups, teams, companies, and roles to view their members when you share a workspace or a view with them. Prior to this enhancement, the membership lists were available for these objects only when sharing record types.
 
 For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).
 
@@ -92,7 +85,7 @@ For information, see [Create workspaces](/help/quicksilver/planning/architecture
 
 >[!NOTE]
 >
-> This enhancement is available only for customers with a Prime or higher license. 
+> This enhancement is available only for customers with a Prime or higher package. 
 
 ## Global search for Workfront Planning objects from any Workfront Planning page   
 

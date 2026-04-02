@@ -14,12 +14,32 @@ This page describes Documents enhancements made with the Second Quarter 2026 rel
 
 For a list of all changes available at this point in the Second Quarter 2026 release cycle, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## Unified review and approvals powered by Workfront and Frame.io
+## My approval widget updates 
 
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+We have added the following enhancements to the My Approvals widget in Home:
+
+* Sort the approvals list by Oldest first or Newest first
+* Expand the the widget to full screen
+
+For more information, see [Manage your approvals with the My Approvals widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md).
+
+## Unified review and approvals powered by Workfront and Frame.io
 
 >[!IMPORTANT]
 >
 >This new capability is available to net new customers and to existing customers upon renewal.
+
+>[!NOTE]
+>
+>Preview: March 12, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
 
 
 We're excited to introduce Unified Review & Approval powered by Workfront and Frame.io, a streamlined review and approval experience.

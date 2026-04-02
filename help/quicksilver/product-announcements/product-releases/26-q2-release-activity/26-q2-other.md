@@ -48,6 +48,12 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
 
 ## Apply conditional formatting to the submitted request lists in the Requests area and My Requests widget
 
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
 You can now apply conditional formatting to request lists in the Requests area and the My Requests widget in Home. This functionality did not exist in the list view before this enhancement.
 
 For information, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).

@@ -68,7 +68,8 @@ For more information, see [Create and view project snapshots](/help/quicksilver/
 
 >[!NOTE]
 >
->Project snapshots are only available for organizations on the Workflow Ultimate package.
+>* Project snapshots are only available for organizations on the Workflow Ultimate package.
+>* Product snapshots will not have a Preview release, and will be released directly to Production on April 16.
 
 ### Enterprise permissions
 

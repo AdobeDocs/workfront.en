@@ -12,6 +12,22 @@ This page describes Reporting enhancements made with the Second Quarter 2026 rel
 
 For a list of all changes available at this point in the Second Quarter 2026 release cycle, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Run reports as a specific user in Canvas dashboards
+
+>[!NOTE]
+>
+>Preview: TBD
+>Production fast release: TBD
+>Production for everyone: TBD
+>
+>Canvas Dashboards is currently in beta.
+
+You can now configure reports on Canvas dashboards to run as a specific user. When enabled, the report displays data based on the selected user's access instead of the viewer's permissions.
+
+This ensures more consistent and reliable data across dashboard viewers, even when access to Planning workspaces, record types, or authorization settings differs.
+
+For more information, see [Build a KPI report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Build a chart report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md), or [Build a table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
+
 ## Scheduled Report Delivery Now Supports Link-Based Emails
 
 >[!NOTE]

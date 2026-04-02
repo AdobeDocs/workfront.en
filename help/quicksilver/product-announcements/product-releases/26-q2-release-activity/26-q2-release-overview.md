@@ -126,6 +126,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <td><strong>Quarterly</strong></td>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">My approval widget updates </a><p></p>
+            <p>We have added the following enhancements to the My Approvals widget in Home:<ul><li>Sort the approvals list by Oldest first or Newest first</li><li>Expand the the widget to full screen</li><ul> </p>
+        </td>
+        <td><p>April 2, 2026</p></td>
+        <td><p>April 15, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+    </tr>
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Unified Review & Approval powered by Workfront and Frame.io</a><p></p>
             <p>We're excited to introduce Unified Review & Approval powered by Workfront and Frame.io, a streamlined review and approval experience that brings together planning, proofing, and collaboration into a single, connected workflow.
  </p>
