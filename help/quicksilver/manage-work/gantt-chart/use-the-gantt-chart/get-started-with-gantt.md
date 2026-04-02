@@ -6,6 +6,8 @@ description: The Gantt charts in Adobe Workfront provide a visual representation
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Get started with the [!UICONTROL Gantt Chart]
 
@@ -43,7 +45,8 @@ You can view the project list [!UICONTROL Gantt Chart] in a project list or a pr
 
 ### Task list [!UICONTROL Gantt Chart] {#task-list-gantt-chart}
 
-<!--The task list [!UICONTROL Gantt Chart] is accessible in the following areas:
+<!--
+The task list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
 * In a Project
 
@@ -52,7 +55,8 @@ You can view the project list [!UICONTROL Gantt Chart] in a project list or a pr
 
 * In a [!UICONTROL Template]
 
-* In a [!UICONTROL Task] report-->
+* In a [!UICONTROL Task] report
+-->
 
 To access the task list [!UICONTROL Gantt Chart] of a project or a template:
 
@@ -90,12 +94,14 @@ To access the task list [!UICONTROL Gantt Chart] of a project or a template:
 
 ### Project list [!UICONTROL Gantt Chart] {#project-list-gantt-chart}
 
-<!--The project list [!UICONTROL Gantt Chart] is accessible in the following areas:
+<!--
+The project list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
 * In the [!UICONTROL Projects] area
 * In the [!UICONTROL Projects] section of a [!UICONTROL Portfolio]
 * In the [!UICONTROL Projects] section of a [!UICONTROL Program]
-* In a [!UICONTROL Project] report-->
+* In a [!UICONTROL Project] report
+-->
 
 To access the project list [!UICONTROL Gantt Chart]:
 

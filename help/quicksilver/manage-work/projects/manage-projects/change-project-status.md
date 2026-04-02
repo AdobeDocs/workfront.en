@@ -6,6 +6,8 @@ description: You can manually update the Status of a project to any other status
 author: Alina
 feature: Work Management
 exl-id: 80098514-fd44-436d-836b-bd9c1b52b3a9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Change the status of a project
 
@@ -53,7 +55,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 +++
 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,7 +82,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>Manage permissions on the project</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerations about updating to specific statuses
 

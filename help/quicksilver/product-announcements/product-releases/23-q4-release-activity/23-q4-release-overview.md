@@ -5,6 +5,8 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Fourth Quarter 2023 release overview
 
@@ -779,7 +781,8 @@ Note that the Workfront mobile app requires a Workfront login. External users an
 
 For accounts that have never created a workstream in Adobe Workfront Boards, the Workstreams area has been removed from the Boards dashboard as of October 11, 2023. Accounts that do use workstreams still have access to them. Enhanced scrum functionality will be addressed in future releases.
 
-<!-- HTML you might need
+<!--
+ HTML you might need
 
 New table
 

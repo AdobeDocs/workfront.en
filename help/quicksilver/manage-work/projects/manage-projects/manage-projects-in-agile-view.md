@@ -6,6 +6,8 @@ description: You can leverage Agile functionality for your project without the a
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Manage an Agile project in the Board view
 
@@ -57,7 +59,8 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-<!--old:
+<!--
+old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +89,8 @@ For more detail about the information in this table, see [Access requirements in
    <td> <p>View permissions to the project</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## View a project in the Board view

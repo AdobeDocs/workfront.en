@@ -6,6 +6,8 @@ description: You cannot remove a template from a project. You can only manually 
 author: Alina
 feature: Work Management
 exl-id: a8b6055a-7fac-4f9b-a880-10b2b85299b7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Remove template information from a project
 
@@ -43,7 +45,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -67,7 +70,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>Manage access to tasks </p> <p>Contribute or higher access to the project </p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Options to remove template information from a project
 

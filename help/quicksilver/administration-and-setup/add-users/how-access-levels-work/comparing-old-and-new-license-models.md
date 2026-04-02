@@ -10,6 +10,8 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
+last-update: 2026-04-01T11:23:03-07:00
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 ---
 # Compare functionality across license models
 
@@ -33,8 +35,10 @@ The following table shows the functionality available to licenses in the legacy 
   <tr> 
    <th> </th> 
    <th colspan="5">[!UICONTROL Legacy]</th> 
-   <!--<th>[!UICONTROL Requestor]</th> 
-   <th>[!UICONTROL External]</th> -->
+   <!--
+   <th>[!UICONTROL Requestor]</th> 
+   <th>[!UICONTROL External]</th>
+   -->
    <th colspan="3">[!UICONTROL New]</th> 
    </tr> 
  </thead> 
@@ -375,5 +379,7 @@ The following table shows the functionality available to licenses in the legacy 
 </table>
 
 
-<!--WFPlanning is Ultimate only>
+<!--
+WFPlanning is Ultimate only>
+-->
 <!--Environment promotion is Prime and Ultimate only-->

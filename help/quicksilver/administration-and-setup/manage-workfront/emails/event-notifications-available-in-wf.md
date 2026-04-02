@@ -8,6 +8,8 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Event notification types
 
@@ -266,7 +268,8 @@ See also [Notifications: Requests I have made](../../../workfront-basics/using-n
 <!--
       DRAFTED IN FLARE:
        For more information on publishing a project as a Help Request Queue, see 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.-->
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+       -->
 
 ## Communication
 
@@ -350,7 +353,8 @@ See also [Notifications: Communication](../../../workfront-basics/using-notifica
 
 <!--
       DRAFTED IN FLARE: for the directed update above, it also mentions:
-        ... and is not the same user that enters the update-->
+        ... and is not the same user that enters the update
+        -->
 
 ## Approval information
 
@@ -525,7 +529,8 @@ See also [Notifications: Information about work assigned to me](../../../workfro
 <!--
       DRAFTED IN FLARE: from the Request document add to issue assigned to: 
         For more information on publishing a project as a Help Request Queue, see 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>. -->
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+       -->
 
 ## Information about projects I'm on
 

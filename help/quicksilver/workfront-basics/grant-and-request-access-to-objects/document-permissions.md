@@ -7,6 +7,8 @@ description: Your Adobe Workfront administrator grants users access to view or e
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Share a document on legacy Workfront storage
 

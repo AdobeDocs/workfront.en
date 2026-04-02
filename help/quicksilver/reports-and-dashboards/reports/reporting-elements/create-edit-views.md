@@ -6,6 +6,8 @@ description: You can customize the type of information you display on the screen
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create or edit views in Adobe Workfront
 
@@ -162,7 +164,8 @@ They are preconfigured, but you can modify certain settings for them.
 
 For more information about Agile or Board views, see the article [Manage an Agile project in the Board view](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-<!-- Legacy Agile views were deprecated with 25.3. This is old: 
+<!--
+ Legacy Agile views were deprecated with 25.3. This is old: 
 
 >[!NOTE]
 >

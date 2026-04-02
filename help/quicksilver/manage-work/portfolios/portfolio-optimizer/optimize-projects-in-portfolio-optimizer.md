@@ -6,6 +6,8 @@ description: You can use the [!UICONTROL Portfolio Optimizer] to prioritize your
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Optimize projects in the [!UICONTROL Portfolio Optimizer]
 
@@ -47,7 +49,8 @@ You must have the following access to perform the steps in this article:
 
 +++
 
-<!--Old
+<!--
+Old
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -72,7 +75,8 @@ You must have the following access to perform the steps in this article:
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Optimize projects in the Portfolio Optimizer
 

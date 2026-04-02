@@ -6,6 +6,8 @@ description: As a project manager, you can specify what the billing rate is for 
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Override Job Role Billing Rates at the project level
 

@@ -6,6 +6,8 @@ description: You can add ad hoc events to a calendar. An ad hoc event simply ser
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 4145119e-ef2c-4f0d-89e7-86669ca5b127
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Add ad hoc events to a calendar report
 

@@ -6,6 +6,8 @@ description: In addition to using the available drafts that Workfront suggests t
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create requests from drafts
 
@@ -21,7 +23,8 @@ In addition to using the available drafts that Workfront suggests to you when yo
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any </p> </td> 
+   <td> <p>Any Adobe Workfront or Workflow package</p>
+   <p>Any Adobe Workfront Planning package to create requests for Workfront Planning </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -33,10 +36,7 @@ In addition to using the available drafts that Workfront suggests to you when yo
    <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Issues</p>  </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"> Product</td> 
-   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
-  </tr> 
+ 
  </tbody> 
 </table>
 

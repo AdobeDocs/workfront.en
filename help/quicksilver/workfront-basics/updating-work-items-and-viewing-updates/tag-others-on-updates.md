@@ -6,6 +6,8 @@ description: When providing update comments on a Adobe Workfront object, all use
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Tag others on updates
 
@@ -86,7 +88,8 @@ For information, see [Access requirements for Workfront documentation](/help/qui
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
  <col> 
  <col> 
@@ -109,7 +112,8 @@ For information, see [Access requirements for Workfront documentation](/help/qui
    <td> <p>View or higher permissions to the objects where you want to post the reply</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Tag others on updates
 

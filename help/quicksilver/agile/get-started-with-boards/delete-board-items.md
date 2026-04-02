@@ -6,6 +6,8 @@ description: When you delete a card from a board, it is permanently deleted and 
 author: Courtney
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Delete or archive a card from a board
 

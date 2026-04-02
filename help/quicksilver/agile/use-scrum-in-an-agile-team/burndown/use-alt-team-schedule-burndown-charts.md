@@ -6,6 +6,8 @@ description: Schedules that are defined in [!DNL Adobe Workfront] affect the bur
 author: Courtney
 feature: Agile
 exl-id: 72650c19-434d-463a-8924-49219604ff01
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Use an alternate team schedule for burndown charts
 

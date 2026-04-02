@@ -6,6 +6,8 @@ description: You can import projects from Microsoft Project into Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Import a project from Microsoft Project
 
@@ -57,7 +59,8 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-<!--old permissions model: 
+<!--
+old permissions model: 
 
 <table style="table-layout:auto"> 
  <col> 

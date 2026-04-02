@@ -5,6 +5,8 @@ description: Custom Forms are used to collect information that is not displayed 
 author: Becky
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Attach a Custom Form to a Business Case
 
@@ -75,7 +77,9 @@ To attach a custom form:
 
       ![Expand custom form details](assets/expand-custom-form-details.png)
 
-<!--1. (Optional) Select **Edit Custom Form**.  
+<!--
+1. (Optional) Select **Edit Custom Form**.  
   ![Edit custom form](assets/acf1-350x122.png)
 
-1. (Optional) Specify information in the fields of the custom form, then click **Save** . -->
+1. (Optional) Specify information in the fields of the custom form, then click **Save** .
+-->

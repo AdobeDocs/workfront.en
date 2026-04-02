@@ -7,6 +7,8 @@ description: Metrics are available for each iteration in a workstream, on the it
 author: Courtney
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Review iteration metrics
 

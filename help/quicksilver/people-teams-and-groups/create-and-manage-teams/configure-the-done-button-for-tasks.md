@@ -6,6 +6,8 @@ description: The Done button can automatically set the status of a task or an is
 author: Courtney
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Configure the [!UICONTROL Done] button for tasks
 

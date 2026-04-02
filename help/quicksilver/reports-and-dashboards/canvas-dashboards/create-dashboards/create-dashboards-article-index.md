@@ -6,6 +6,8 @@ description: View the articles in this section.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6f2db600-9ffa-4e27-88e3-17e8ab072f7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create Canvas Dashboards: article index
 

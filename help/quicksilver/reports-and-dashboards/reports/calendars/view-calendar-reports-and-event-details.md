@@ -6,6 +6,8 @@ description: You can view calendar reports and event details that you created or
 author: Courtney
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View calendar reports and event details
 
@@ -77,12 +79,18 @@ For more detail about the information in this table, see [Access requirements in
 
    >[!NOTE]
    >
+   >Calendars can display events up to 5 years into the future.
+
+   >[!NOTE]
+   >
    >In the **Month** and **Week** views, events that are current or future (including events that span multiple days, as long as they contain today or a future day) have shading that corresponds to the color in the project or calendar grouping. Past events have lighter shading to indicate that they are no longer current, but you can still select and view those events.
 
 1. (Optional) If you are viewing the calendar in the **Month** or **Week** views, you can change your calendar view with the following options:
 
-      <!--   * To include or exclude weekends:
-      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
+      <!--
+         * To include or exclude weekends:
+      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.
+      -->
 
       * To quickly change the displayed dates:
 

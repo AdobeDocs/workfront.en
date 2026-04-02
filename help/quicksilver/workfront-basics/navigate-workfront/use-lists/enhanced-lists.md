@@ -5,6 +5,8 @@ description: Enhanced lists use a table format for displaying the list items, an
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Use enhanced lists
 
@@ -150,7 +152,7 @@ Some columns allow you to save a customized name for the column title.
 
    The new column name appears on the list.
 
-## Add and remove columns with the Column manager
+### Add and remove columns with the Column manager
 
 You can use the **Column manager** in some enhanced lists to easily add and remove columns on the list. You can add or remove both system and custom fields that already exist in Workfront as columns to an enhanced list.
 
@@ -277,11 +279,13 @@ To sort individual columns:
 
    ![Sort by a column](assets/glist-sort-by-column.png)
 
-To sort your work within a grouping:
-
-1. Click **Group**, go to the line of the applied grouping, click on the sorter dropdown, and select an ascending or descending order.
+1. (Optional) To sort your work within a grouping, click **Group**, go to the line of the applied grouping, click on the sorter dropdown, and select an ascending or descending order.
 
    ![Sort in a grouping](assets/sort-in-groups.png)
+
+   >[!TIP]
+   >
+   >The sorting order differs based on the field type you sort by. 
 
 ### Search in an enhanced list
 

@@ -7,6 +7,8 @@ description: In order to access Data Connect data, you must first create a Snowf
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create a reader account or connection for Snowflake
 

@@ -7,6 +7,8 @@ description: As you create a board using ad hoc and connected cards, you can tak
 author: Courtney
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Agile planning tools overview: article index
 

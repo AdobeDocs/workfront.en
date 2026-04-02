@@ -5,6 +5,8 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Second Quarter 2026 Documents enhancements
 
@@ -16,9 +18,13 @@ For a list of all changes available at this point in the Second Quarter 2026 rel
 
 ## Unified review and approvals powered by Workfront and Frame.io
 
-We're excited to introduce Unified Review & Approval powered by Workfront and Frame.io, a streamlined review and approval experience.
 
-This new capability is available to net new customers and to existing customers upon renewal.
+>[!IMPORTANT]
+>
+>This new capability is available to net new customers and to existing customers upon renewal.
+
+
+We're excited to introduce Unified Review & Approval powered by Workfront and Frame.io, a streamlined review and approval experience.
 
 ### What's New
 

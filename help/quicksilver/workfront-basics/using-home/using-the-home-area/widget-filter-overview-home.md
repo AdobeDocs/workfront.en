@@ -6,6 +6,8 @@ description: You can choose from a number of widgets to customize the content th
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Home widget filters overview
 
@@ -100,10 +102,12 @@ You can use the following filters in the My Tasks widget:
 </ul>
 </td>
   </tr>
-   <!-- <tr>
+   <!--
+    <tr>
     <td>All Unassigned Tasks</td>
     <td></td>
-  </tr> -->
+  </tr>
+  -->
   <tr>
     <td>Approval Tasks</td>
     <td>Displays tasks in Pending Approval status</td>
