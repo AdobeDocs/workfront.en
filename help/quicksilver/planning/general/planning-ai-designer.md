@@ -174,7 +174,7 @@ You can create or update objects in Workfront Planning either by using the Plann
 
     ![Design with AI button on the Workspaces page](assets/design-with-ai-button-on-workspaces-page.png)
 
-1. Click **Create with AI**. <!--update this when they change it to Generate with AI--> 
+1. Click **Create with AI** or click **Create workspace**, then use the prompt window at the top to indicate what kind of workspace you'd like to create. <!--update this when they change it to Generate with AI--> 
 
     The **Planning Designer** window opens. <!--remove the Beta tag here when this removes from Beta-->
 

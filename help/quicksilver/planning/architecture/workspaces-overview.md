@@ -24,8 +24,11 @@ A workspace is a collection of record types used by an organizational unit and i
 
     * From scratch
     * Using a template. Templates contain a preconfigured number of record types and their fields. 
+    * Using the AI-powered Planning Designer. This feature is currently in Beta.
+    <!--* <span class="preview">Using a multi-workspace template bundle.</span>-->
 
     For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). 
+    
 * Workspaces are frameworks within which your organizational units (a team, group, department, or division) work. They cannot be associated with fields. Only the record types within  a workspaces can be associated with fields. 
 
     For information, see [Record types overview](/help/quicksilver/planning/architecture/overview-of-record-types.md). 

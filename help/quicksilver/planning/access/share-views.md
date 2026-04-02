@@ -288,8 +288,18 @@ To share a view publicly in Workfront Planning:
    >
    >Views without a people or a global icon are views you created and are not shared with others. Unshared views are only visible to you. 
 
-
 1. (Optional) Paste the link you copied to an email, chat message, document, or in a Workfront comment to share it with others. 
+
+   <!--
+   <div class="preview">
+
+   When others open a public view they see the following information about the view in the header: 
+
+      * The view name and icon
+      * The name of the record type that the view displays
+
+   </div>
+   -->
 
 ## Copy a link to a view
 
