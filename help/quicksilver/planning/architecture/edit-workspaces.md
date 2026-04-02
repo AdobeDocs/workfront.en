@@ -141,6 +141,17 @@ Old:
    * Hover over the workspace card, then click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the card
       Or 
    * Click the **search** icon ![Search icon](assets/search-icon.png) in the upper-right corner of the Workspaces page to search for a workspace by name and click a workspace card to open the workspace, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the workspace name. 
+
+
+   <!--
+   >[!TIP]
+   >
+   ><span class="preview">You can use the following keyboard combination to find workspaces from any Workfront Planning page:</span>
+   >
+   >* <span class="preview">CTRL+K for Windows</span>  
+   >* <span class="preview">⌘+K for Mac</span>  
+   >
+   -->
 1. Click **Edit**.
 
    The **Edit workspace** box displays.
