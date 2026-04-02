@@ -58,10 +58,9 @@ Key features available for Unified Approvals:
 
 * Access review and approval requests in the My Approvals widget in the Home area
 
+* Use the Content Reviewer to automate brand compliance reviews. For more information, see [Get started with the Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+
 * Use the Frame.io viewer to review and approve documents. For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
-
-* Use the AI Reviewer to automate brand compliance reviews. For more information, see [Get started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
-
 
 ## Proof approvals 
 
