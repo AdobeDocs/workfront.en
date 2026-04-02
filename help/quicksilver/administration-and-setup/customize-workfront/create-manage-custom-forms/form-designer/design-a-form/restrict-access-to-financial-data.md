@@ -7,8 +7,8 @@ description: When you create a custom field, you can define optional settings to
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
+exl-id: 3380cce6-8372-43c0-8520-473442ea0eb4
 ---
-
 # Restrict access to financial data in custom fields
 
 {{highlighted-preview-article-level}}
@@ -113,4 +113,3 @@ When the user views the projects in a list or report:
 Exporting project details shows the same same financial field values (or blank fields) as in the list.
 
 When bulk editing both projects, the billing and general finance fields show as read-only, and the cost fields show N/A.
-

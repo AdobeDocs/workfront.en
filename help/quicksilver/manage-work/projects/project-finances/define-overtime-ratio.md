@@ -6,6 +6,7 @@ title: Define an Overtime Ratio
 description: You can define an overtime ratio on a task to adjust the Planned Revenue calculation for the task assignments.
 author: Lisa
 feature: Work Management
+exl-id: 832d3aab-3e09-4d83-91a6-be0145ce3554
 ---
 # Define an overtime ratio
 
@@ -81,4 +82,3 @@ The **Overtime Ratio** field must be enabled on your layout template.
 1. Click **Task Details** in the left panel.
 1. In the **Finance** area, enter the overtime multiplier in the **Overtime Ratio** field.
 1. Click **Save Changes**.
-

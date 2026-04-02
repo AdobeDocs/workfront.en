@@ -6,6 +6,7 @@ description: Custom localization allows you to define custom terms and phrases i
 author: Becky
 feature: System Setup and Administration
 role: Admin
+exl-id: bdc6d5ee-2037-4d0b-bf18-3e6cc9cb078e
 ---
 # Configure custom localization
 

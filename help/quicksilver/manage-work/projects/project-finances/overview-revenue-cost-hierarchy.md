@@ -6,6 +6,7 @@ title: Overview of Revenue and Cost Hierarchy
 description: This article outlines the step-by-step process for determining the appropriate billing and cost rates for job roles and users for the User and Role Hourly revenue type and cost type.
 author: Lisa
 feature: Work Management
+exl-id: 623828fb-e1ac-4cae-8b9f-567a6f8cb7ae
 ---
 # Overview of revenue and cost hierarchy
 
@@ -226,4 +227,3 @@ Workfront searches in the user properties of the owner according to this hierarc
    * Next, the system looks for the system-level job role rate, taking effective dates into account.
 
 1. If none of these rates are found, the billing rate is 0.
-
