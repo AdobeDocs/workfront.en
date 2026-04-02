@@ -29,8 +29,9 @@ You can design a custom form with the form designer in Adobe Workfront. You can 
  <tbody> 
   <tr> 
    <td>Adobe Workfront package</td> 
-   <td><p>Any</p></td> 
-  </tr> 
+   <td> <p>To create custom forms for job roles, rate cards, and assignments: Workflow Ultimate</p>
+      <p>To create custom forms for all other supported objects: Any Workfront or Workflow package</p> </td> 
+  </tr>  
   <tr> 
    <td>Adobe Workfront license</td> 
    <td><p>Standard</p>
@@ -38,7 +39,7 @@ You can design a custom form with the form designer in Adobe Workfront. You can 
   </tr> 
   <tr> 
    <td>Access level configurations</td> 
-   <td> <p>Administrative access to custom forms</p> </td> 
+   <td>Administrative access to custom forms</td> 
   </tr>  
  </tbody> 
 </table>
@@ -56,12 +57,51 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. Click **New Custom Form.**
 1. Select which object types you'd like to attach the custom form to, then click **Continue**.
 
+<div class="preview">
+
+   Sample image in the Preview environment:
+
+   ![Choose object types](assets/new-custom-form-select-objects-032526.png)
+
+</div>
+
+   Sample image in the Production environment:
+
    ![Choose object types](assets/new-custom-form-select-objects.png)
 
++++ Expand to view the list of objects that support custom forms.
+
+* Project
+* Task
+* Issue / Request
+* Portfolio
+* Document
+* Program
+* Expense
+* User
+* Company
+* Iteration
+* Billing Record
+* Group
+* <span class="preview">Team</span>
+
+<div class="preview">
+
+If you are on the Workflow Ultimate package, you can also create custom forms for these objects:
+
+* Job Role
+* Rate Card
+* Assignment
+
+</div>
+
++++
+
 1. In the **Add a form name** area, type the custom form title.
+1. <span class="preview">(Optional) If you want to add more object types to the form so that it can be attached to more objects, click **Object Types** in the form designer header. Select the object types you want to add, and de-select any object types you want to delete from the form.</span>
 1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the **Add** icon ![Add objects icon](assets/add-objects-icon.png) next to **Object Types**, then select the type you want in the menu that displays. You can repeat this to add as many object types as you want. 
    
-    Once you have more than one object added to the form, you can click the X on an object type to delete it from the form. 
+    Once you have more than one object added to the form, you can click the X on an object type to delete it from the form.
 
    >[!CAUTION]
    >
@@ -255,6 +295,22 @@ To add a text field:
     </ul></td>
     </tr>
     <tr>
+      <td><span class="preview">Finance Permission Type</span></td>
+      <td><p><span class="preview">Select the finance permission type that the users must have before they can view or edit this custom field. Any format is allowed for calculated fields.</span></p>
+      <ul span class="preview">
+      <li><p><strong>No permissions required:</strong> All users can see this field</p></li>
+      <li><p><strong>General:</strong> Users must have permissions to edit or view General Finance</p></li>
+      <li><p><strong>Bill:</strong> Users must have permissions to edit or view billing rates</p></li>
+      <li><p><strong>Cost:</strong> Users must have permissions to edit or view cost rates</p></li>
+      </ul>
+      <p><span class="preview">For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</span></p>
+      </td>
+      <td><ul span class="preview">
+       <li>Single line text</li>
+       <li>Paragraph</li>
+       </ul></td>
+    </tr>
+    <tr>
     <td>Display Type</td>
     <td>Switch between single line and paragraph text fields.</td>
     <td><ul>
@@ -394,6 +450,24 @@ To add radio buttons, checkbox groups, and drop-downs:
     <li>Multi-select dropdown</li>
     </ul></td>
     </tr> 
+    <tr>
+      <td><span class="preview">Finance Permission Type</span></td>
+      <td><p><span class="preview">Select the finance permission type that the users must have before they can view or edit this custom field. Any format is allowed for calculated fields.</span></p>
+      <ul span class="preview">
+      <li><p><strong>No permissions required:</strong> All users can see this field</p></li>
+      <li><p><strong>General:</strong> Users must have permissions to edit or view General Finance</p></li>
+      <li><p><strong>Bill:</strong> Users must have permissions to edit or view billing rates</p></li>
+      <li><p><strong>Cost:</strong> Users must have permissions to edit or view cost rates</p></li>
+      </ul>
+      <p><span class="preview">For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</span></p>
+      </td>
+      <td><ul span class="preview">
+       <li>Radio buttons</li>
+       <li>Checkbox group</li>
+       <li>Single-select dropdown</li>
+       <li>Multi-select dropdown</li>
+       </ul></td>
+    </tr>
     <tr> 
      <td role="rowheader">Display Type</td> 
     <td>Switch between radio buttons, checkbox group, single-select drop-down, or multi-select drop-down for the field.</td> 
@@ -641,6 +715,18 @@ To add an external lookup:
       <li>The character limit for Number fields is 16. You can also use a Text field to enter numbers and avoid the limit.</li>
       </ul></td>
      </tr> 
+     <tr>
+      <td><span class="preview">Finance Permission Type</span></td>
+      <td><p><span class="preview">Select the finance permission type that the users must have before they can view or edit this custom field. Any format is allowed for calculated fields.</span></p>
+      <ul span class="preview">
+      <li><p><strong>No permissions required:</strong> All users can see this field</p></li>
+      <li><p><strong>General:</strong> Users must have permissions to edit or view General Finance</p></li>
+      <li><p><strong>Bill:</strong> Users must have permissions to edit or view billing rates</p></li>
+      <li><p><strong>Cost:</strong> Users must have permissions to edit or view cost rates</p></li>
+      </ul>
+      <p><span class="preview">For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</span></p>
+      </td>
+     </tr>
      <tr> 
       <td role="rowheader">Base API URL</td> 
       <td><p>Type or paste the URL for the API.</p><p>The API URL must return a JSON content of the options that you would like to show in the drop-down. You can use the JSON Path field to select the specific values from the returned JSON to be drop-down options.</p><p>When entering the API URL, you can optionally pass the following values in the URL:</p>

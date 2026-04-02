@@ -46,7 +46,8 @@ Ideally, you should edit a project when the project is in the Planning status. F
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any</p> </td> 
+   <td> <p>To set system-level exchange rates for the project and preserve project billing rates: Workflow Ultimate</p>
+      <p>To edit all other settings: Any Workfront or Workflow package</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -368,7 +369,7 @@ To edit information on custom forms when editing a project:
 1. Begin editing your project as described above.
 1. Click **Custom Forms** in the left panel.
 
-   ![Cusrom forms in the edit project box](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
+   ![Custom forms in the edit project box](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
 1. Click the **Add custom form** box and select a form from the list to attach it to the project. By default, the first 40 forms display in alphabetical order. If you don't see the form in the list, start typing its name, then select it when it appears in the list. 
 
@@ -399,11 +400,12 @@ When selecting more than one project to edit them in bulk and, the following sce
 
 To edit fields in the Finance area:
 
-
 1. Begin editing your project as described above.
 1. Click **Finance** in the left panel.
 
    ![Finance area in the project edit box](assets/nwe-finance-in-edit-project-box-350x183.png)
+
+   <!--![Finance area in the project edit box](assets/edit-project-finance-section.png)-->
 
 1. Update the following financial information for the project:
 
@@ -411,9 +413,17 @@ To edit fields in the Finance area:
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong><span class="preview">Use date-effective exchange rates from the system</span></strong></td>
+      <td><p><span class="preview">When this option is selected, the system-level date-effective exchange rates are always used, and exchange rate overrides are not permitted on the project.</span></p> <p><span class="preview">You must also select the <strong>Exchange Rate Date</strong> to start from, when the option is selected.</span></p></td> 
+     </tr>
+     <tr>
+      <td><strong><span class="preview">Preserve project billing rates information</span></strong></td>
+      <td><p><span class="preview">When you enable this option, all assignment billing rates are permanently frozen to the highest applicable rate from the billing hierarchy. This is a one-time selection, and you cannot disable the option once the project has assignments or hours. After preservation, assignment billing rates cannot be changed, edited, or overridden anywhere on the project.</span></p></td>
+     </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Currency</strong> </td> 
-      <td> <p> <p>Specify the currency for the project, if it is different than the default currency of your system. You cannot change the currency of a project if there is already financial information on the project. This field is not visible if you have only the default currency in the system. </p> <p>For more information about currency, see <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.<br></p> </p> </td> 
+      <td> <p>Specify the currency for the project, if it is different than the default currency of your system. You cannot change the currency of a project if there is already financial information on the project. This field is not visible if you have only the default currency in the system. </p> <p>For more information about currency, see <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Budget</strong> </td> 

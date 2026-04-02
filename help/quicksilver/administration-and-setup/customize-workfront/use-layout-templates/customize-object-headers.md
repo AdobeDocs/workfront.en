@@ -11,11 +11,13 @@ exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
 ---
 # Customize object headers using a layout template
 
+{{highlighted-preview}}
+
 As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the fields users see in the object header when they open an object's page.
 
 >[!IMPORTANT]
 >
->Customizing object headers is currently available for projects, tasks, and issues.
+>Customizing object headers is currently available for projects, tasks, issues, <span class="preview">portfolios, programs, templates, billing records, teams, groups, users, companies, groups, and rate cards.</span>
 
 ![Object header fields](assets/object-header-fields.png)
 
@@ -58,10 +60,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 ## Customize object headers
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. In the **Customize what users see** drop-down menu, select **Projects**, **Tasks**, or **Issues**.
-
-    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
-
+1. In the **Customize what users see** drop-down menu, select an object whose header you want to customize.
 1. In the [!UICONTROL Header fields] section, hover over the current fields and do one of the following:
     * Click the **x** icon to remove a field
         
@@ -69,12 +68,12 @@ For information, see [Access requirements in Workfront documentation](/help/quic
     
     * Click and hold the **grab** icon to drag and drop the field in a new location.
 
-    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
-
     ![Object header fields hide and move icons](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. You can have up to five fields in the header of an object.
-If you already have five fields selected, you must remove a field before you can add a new one.
+
+   If you already have five fields selected, you must remove a field before you can add a new one.
+
 1. In the **Add field** box, start typing the name of a a custom field or a native Workfront field that you want to add, then select it when it displays in the list. The field is added to the immediate right of the Add field box and will display as the first field in the upper-right corner of the object's header.
 
     >[!TIP]
@@ -83,7 +82,7 @@ If you already have five fields selected, you must remove a field before you can
     >
     >* When a user edits a custom field in the header and it is contained in a custom form that is not attached to the object, the custom form is automatically added to the object.
     >
-    >* When you add the "Resolved By" field to the header of an issue, the field changes to "Resolving Issue, Task, or Project", when there is a resolving object associated with the issue.
+    >* When you add the "Resolved By" field to the header of an issue, the field changes to "Resolving Issue, Task, or Project," when there is a resolving object associated with the issue.
    
     ![Add field to header](assets/add-field-to-header-in-lt-list.png)
 
