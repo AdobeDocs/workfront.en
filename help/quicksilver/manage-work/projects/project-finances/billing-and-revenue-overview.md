@@ -24,7 +24,7 @@ This article describes tracking revenue for projects. Revenue is calculated diff
 
 Consider the following when working with billing rates:
 
-* You need a Plan or Standard license with Edit access to Financial Data in order to manage billing rates.   
+* You need a Plan or Standard license with Edit access to Financial Data (specifically billing rates) in order to manage billing rates.
   For more information about granting access to Financial Data, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 * Billing rates are amounts of revenue per work unit associated with job roles or users.
@@ -45,10 +45,21 @@ Consider the following when working with billing rates:
 >
 >The rates that calculate the revenue belong to the user who is logging the time, or to their job roles.
 
-* [User Billing Rates](#user-billing-rates) 
-* [Job Role Billing Rates](#job-role-billing-rates) 
-* [Fixed Billing Rates for projects or tasks](#fixed-billing-rates-for-projects-or-tasks) 
-* [Override Billing Rates](#override-billing-rates)
+### Rate card billing rates
+
+{{ultimate-package}}
+
+When you have access to edit rate cards, you can define rate cards with multiple billing rates per role, based on attributes such as location and group or agency. Attributes are configurable up to five levels.
+
+A rate card must be attached to a project for its rates to be applied. When a rate is locked on the rate card, it can't be overridden at the project level.
+
+Rate card rates are part of the hierarchy for determining rates, based on the task revenue type.
+
+For more information about creating rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+
+For more information about the rate hierarchy, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+
+![Sample rate card](assets/sample-rate-card-march2026.png)
 
 ### User Billing Rates {#user-billing-rates}
 
@@ -60,11 +71,11 @@ For more information about creating users, see the article [Add users](../../../
 
 ### Job Role Billing Rates {#job-role-billing-rates}
 
-As an Adobe Workfront administrator, when you create a job role, you can associate it with date-effective Billing Rates by specifying values for the Billing Per Hour fields and the dates for the rates.
+As an Adobe Workfront administrator, when you create a job role, you can associate it with date-effective Billing Rates by specifying the rate values and dates.
 
-You can define the value of a job role billing rate using the Base Currency of your Workfront system or using another custom currency.
+You can define the value of a job role billing rate using the Base Currency of your Workfront system or using another currency. Additional currencies must also be defined in your system exchange rates.
 
-For more information about creating job roles and overriding their currency, see the article [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+For more information about creating job roles, see the article [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ![Edit job role cost and billing rates](assets/edit-job-role-multiple-billing-rates-new.png)
 
@@ -77,7 +88,24 @@ In addition to user and job role hourly rates, you can also have the following f
 
 For more information about how the fixed billing rates are used to calculate revenue, see [Overview of task Revenue Types](#overview-of-task-revenue-types).
 
-### Override Billing Rates {#override-billing-rates}
+<div class="preview">
+
+### Override Billing Rates - Workflow Ultimate package
+
+>[!IMPORTANT]
+>
+>You can override billing rates associated with job roles or users at the project level. You cannot override fixed rates.
+
+At the project level, you can:
+
+* Override a billing rate for a job role (with attributes applied, such as location, group, or agency).
+* Override a billing rate for a specific user on that project.
+
+Billing rate overrides are not generic. For example, you wouldn't override "Designer" as a role. Instead, you would override "Designer – New York – Agency X" for the relevant date-effective period. Overrides respect the billing rate hierarchy, so the system always applies them in order of precedence.
+
+</div>
+
+### Override Billing Rates - all other packages
 
 >[!IMPORTANT]
 >
@@ -91,7 +119,7 @@ You can override job role billing rates for:
 
 * A specific Project
 
-  For more information about creating job role billing rates specific to a project, see the article [Overview of overriding Job Role Billing Rates and calculating Revenue on a project](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  For more information about creating job role billing rates specific to a project, see the article [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Track Revenue amounts
 
@@ -131,11 +159,6 @@ The following table shows the types of revenue associated with tasks, issues, an
 
 *For Actual Hours, the user's rates always refer to the user who logs the hours or to the rates of their job roles. For information about when Workfront uses the rates of the user and when it uses the rates of their job roles, see the [Revenue calculations](#revenue-calculations) section in this article.
 
-<!--
-Note from the table for Planned Revenue line: 
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the note below is duplicated in this article: /Content/Resource Mgmt/Resource utilization/view-utilization-information.htm and in the glossary)</p>
-    -->
-
 For example, if a task with User Hourly Revenue Type is planned to take 2 hours and the user assigned to it has an hourly rate of $30 an hour, then the Planned Revenue of the task is $60. When the task is completed, if the user logs just 1.5 hours as the actual time spent to finish the task, the Actual Revenue amount is $45. If another user who is not assigned to the task logs the time, the Actual Revenue is calculated based on that user's Billing Rates.
 
 You can record revenue in the following ways:
@@ -152,14 +175,20 @@ You can also mark your tasks as "Not Billable," in which case there is no Planne
 
 ## Overview of task Revenue Types {#overview-of-task-revenue-types}
 
-By default, the Revenue Type of all new tasks is set according to the Task & Issue Preferences specified by your Workfront or group administrator.  
+By default, the Revenue Type on all new tasks is set according to the Task and Issue Preferences specified by your Workfront or group administrator.
+
 For more information about defining the task and issue preferences for your Workfront instance, see the article [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-The Project Owner can modify the Revenue Type of tasks and the Fixed Revenue for projects.   
-For more information about specifying the Fixed Revenue of a project, see the article [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).  
-For more information about specifying the Revenue Type of a task, see the article [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+The Project Owner can modify the revenue type of tasks and the Fixed Revenue for projects.
 
-You can apply the following Revenue Types to your tasks or projects: 
+For more information about setting the Fixed Revenue of a project, see the article [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+For more information about setting the Revenue Type of a task, see the article [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+>[!NOTE]
+>
+><span class="preview">You must have the Workflow Ultimate package to have the User and Role Hourly revenue type available.</span>
+
+You can apply the following revenue types to your tasks or projects:
 
 <table border="1" cellspacing="15"> 
  <col> 
@@ -188,6 +217,10 @@ You can apply the following Revenue Types to your tasks or projects:
    <td> <p>This type can be used for tasks only.</p> <p>This type is similar to User Hourly but uses job role rates rather than user rates.</p> <p><strong>NOTE</strong><br>A job role can also have multiple billing rates with effective dates.</p></td> 
   </tr> 
   <tr> 
+   <td> <p><span class="preview">User and Role Hourly</span></p> </td> 
+   <td> <p><span class="preview">This type can be used for tasks only.</span></p> <p><span class="preview">This type examines both user and role information to determine the appropriate rate.</span></p></td> 
+  </tr>
+  <tr> 
    <td> <p>User Hourly with Cap</p> </td> 
    <td> <p>This type can be used for tasks only.</p> <p>Tasks are billed hourly as in User Hourly, but they have a maximum Cap Amount that you can specify. <br>For example, if the billing rate of a user is $25, but the Cap Amount on the task is $20, and the user logs one hour, the Actual Revenue on the task is $20. </p> </td> 
   </tr> 
@@ -196,6 +229,10 @@ You can apply the following Revenue Types to your tasks or projects:
    <td> <p>This type can be used for tasks only.</p> <p>This type is similar to User Hourly with Cap but uses job role rates rather than user rates. </p> </td> 
   </tr> 
   <tr> 
+   <td> <p><span class="preview">User and Role Hourly with Cap</span></p> </td> 
+   <td> <p><span class="preview">This type can be used for tasks only.</span></p> <p><span class="preview">Tasks are billed hourly as in User and Role Hourly, but they have a maximum Cap Amount that you can specify.</span></p></td> 
+  </tr>
+  <tr> 
    <td> <p>User Hourly Plus Fixed</p> </td> 
    <td> <p>This type can be used for tasks only. </p> <p>Tasks are billed hourly as in User Hourly, but have a Fixed Amount that you can add to the user rate. The Fixed Amount specified on the task can be included in billing records for the project. The Fixed Amount does not get multiplied by the hours on the task. Only the user billing rate does. </p> </td> 
   </tr> 
@@ -203,6 +240,10 @@ You can apply the following Revenue Types to your tasks or projects:
    <td> <p>Role Hourly Plus Fixed</p> </td> 
    <td> <p>This type can be used for tasks only. </p> <p>Tasks are billed hourly as in Role Hourly, but have an additional Fixed Amount that you can add to the role rate. The Fixed Amount specified on the task can be included in billing records for the project. The Fixed Amount does not get multiplied by the hours on the task. Only the job role billing rate does. </p> </td> 
   </tr> 
+  <tr> 
+   <td> <p><span class="preview">User and Role Hourly Plus Fixed</span></p> </td> 
+   <td> <p><span class="preview">This type can be used for tasks only.</span></p> <p><span class="preview">Tasks are billed hourly as in User and Role Hourly, but have an additional Fixed Amount that you can add to the rate. The Fixed Amount specified on the task can be included in billing records for the project. The Fixed Amount does not get multiplied by the hours on the task.</span></p></td> 
+  </tr>
   <tr> 
    <td> <p>Fixed Hourly</p> </td> 
    <td> <p>This type can be used for tasks only.</p> <p>The Cap or Fixed Amount that you set for the task multiplied by the number of hours entered against the task (regardless of user or their job roles) is the billing amount.</p> </td> 
@@ -233,6 +274,7 @@ For more information about hour types, see the article [Manage hour types](../..
 ## Revenue calculations
 
 * [Revenue calculations for tasks based on User and Role assignments](#revenue-calculations-for-tasks-based-on-user-and-role-assignments)
+* [Revenue calculations for projects](#revenue-calculations-for-projects)
 
 ### Revenue calculations for tasks based on User and Role assignments {#revenue-calculations-for-tasks-based-on-user-and-role-assignments}
 
@@ -243,9 +285,17 @@ When calculating revenue for a task, consider the following:
 * For Actual Revenue, if the user or job role has multiple billing rates with effective dates, the task revenue is the sum of the revenues of each time period in which the user has logged time. Planned Revenue is based on the planned hours for the time periods.
 * In case of multiple assignees on the tasks, the scenarios outlined below apply for each assignee.
 
-There is a hierarchy of which rate is used in revenue calculations based on task assignments.
+The system uses a hierarchy to determine which rate is used in revenue calculations based on task assignments.
 
 If your Workfront administrator enabled the **Assign Job Roles to hour entries manually** setting in the Timesheets & Hours Preferences area, and the user logging time on the project selects a different role to associate with this time, the Actual Revenue of the task or project always calculates based on the role associated with the hour entry. For information about enabling logging time for a specific job role, see the article [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+<div class="preview">
+
+For the User and Role Hourly revenue type, a Job Role for Billing can be defined at both the project level and the assignment level. If it's defined at the project level for a specific user, that role automatically propagates to all of that user's assignments during the date-effective period you've applied it for. You can still override this rate at the assignment level if needed. For example, a user's primary job role is Designer, but you set her Job Role for Billing on a project as Senior Designer for the month of August. All tasks they are assigned to in August will automatically use the Senior Designer billing rate.
+
+However, on a particular task, you could override the role just for that assignment, to reflect the work being billed. This way, the system supports both project-wide consistency and assignment-level flexibility. For more information, see [Overview of Revenue and Cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) and [Create advanced assignments](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+
+</div>
 
 The following scenarios exist when calculating task revenue based on the Revenue Type and the nature of the task assignment:
 
@@ -267,21 +317,22 @@ The following scenarios exist when calculating task revenue based on the Revenue
      <td role="rowheader">Billing per hour rate for Planned Revenue</td> 
      <td>$0.00</td> 
      <td> If a user has a billing rate in their profile, then that rate is used to calculate Planned Revenue. Otherwise, the system billing rate of their primary job role is used. <br><p><b>NOTE</b>  The user can be assigned to the task with one of their secondary job roles, but the rate of the primary job role is used here instead.</p><p>If the user's role has changed during the assignment, the correct rates are applied when the project finances are recalculated.</p></td> 
-     <td><p><span class="preview">If a rate card is attached to the project, then the Planned Revenue is calculated based on the job role from the rate card.</span></p> <p><span class="preview">The billing rates can be overridden at the project level.</span></p></td> 
+     <td>The system billing rate of the job role assigned to the task is used to calculate Planned Revenue. The billing rates can be overridden at the project level.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Billing per hour rate for Actual Revenue</td> 
-     <td>If the user logging the hours has a billing rate in their profile, that rate is used. 
-     <br><span class="preview">When time is logged for a user or role that has a location-specific assignment in the advanced assignments, the location's rate is used.</span>
+     <td>If the user logging the hours has a billing rate in their profile, that rate is used.
      <br>Otherwise, the billing rate of their primary job role is used. If there is no billing rate associated with the user or their primary role, the Actual Revenue is $0.00. <br><p><b>NOTE</b>
      
-     Only the rates associated with the user logging the time are taken into account for the calculation, even when another user is assigned to the task.</p></td> 
-     <td>If the user logging the hours has a billing rate in their profile, that rate is used. <br><span class="preview">When time is logged for a user or role that has a location-specific assignment in the advanced assignments, the location's rate is used.</span><br>Otherwise, the billing rate of their primary job role is used. If there is no billing rate associated with the user or their primary role, the Actual Revenue is $0.00. <br><p><b>NOTE</b>
+     Only the rates associated with the user logging the time are taken into account for the calculation, even when another user is assigned to the task.</p></td>
+
+     <td>If the user logging the hours has a billing rate in their profile, that rate is used. <br>Otherwise, the billing rate of their primary job role is used. If there is no billing rate associated with the user or their primary role, the Actual Revenue is $0.00. <br><p><b>NOTE</b>
      
-     Only the rates associated with the user logging the time are taken into account for the calculation, even when another user is assigned to the task.</p></td> 
+     Only the rates associated with the user logging the time are taken into account for the calculation, even when another user is assigned to the task.</p></td>
+
      <td>If the user logging the hours has a billing rate in their profile, that rate is used. Otherwise, the billing rate of their primary job role is used.<br><p><b>NOTE</b>
      
-     If the user logging time has no billing rate associated with them, and they do not have a job role or a billing rate for their job role, then the rate from the job role associated with the task is used. If there is no billing rate for this role, the revenue is $0.00</p></td> 
+     If the user logging time has no billing rate associated with them, and they do not have a job role or a billing rate for their job role, then the rate from the job role associated with the task is used. If there is no billing rate for this role, the revenue is $0.00.</p></td> 
     </tr> 
    </tbody> 
   </table>
@@ -304,69 +355,27 @@ The following scenarios exist when calculating task revenue based on the Revenue
      <td role="rowheader">Billing per hour rate for Planned Revenue</td> 
      <td>$0.00</td> 
      <td><p>Workfront looks at the job role that the user fulfills on the task to calculate the Planned Revenue. <br>If the user is not associated with any role on the task, the Revenue is $0.00.</p> <p><strong>NOTE</strong><br>If the user's role has changed during the assignment, the correct rates are applied when the project finances are recalculated.</p> </td> 
-     <td><p><span class="preview">If a rate card is attached to the project, then the Planned Revenue is calculated based on the job role from the rate card.</span></p> <p><span class="preview">The billing rates can be overridden at the project level.</span></p></td> 
+     <td>The billing rate of the job role assigned to the task is used to calculate Planned Revenue. The billing rates can be overridden at the project level.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Billing per hour rate for Actual Revenue</td> 
-     <td>Workfront uses the billing rate of the primary job role of the user logging the time. <br><span class="preview">When time is logged for a user or role that has a location-specific assignment in the advanced assignments, the location's rate is used.</span> <br>If the user logging the time has no job role associated with them, or if the primary job role has no billing rate, the Actual Revenue is $0.00. </td> 
-     <td> If the user logging the time is assigned to the task, the billing rate of the job role associated with the user on the task is used to calculate the Actual Revenue. <br><span class="preview">When time is logged for a user or role that has a location-specific assignment in the advanced assignments, the location's rate is used.</span> <br>Otherwise, the billing rate of their primary job role is used. If the user has no primary job role or if their primary job role has no billing rate, the Actual Revenue is $0.00. </td> 
+     <td>Workfront uses the billing rate of the primary job role of the user logging the time. <br>If the user logging the time has no job role associated with them, or if the primary job role has no billing rate, the Actual Revenue is $0.00. </td> 
+     <td> If the user logging the time is assigned to the task, the billing rate of the job role associated with the user on the task is used to calculate the Actual Revenue. <br>Otherwise, the billing rate of their primary job role is used. If the user has no primary job role or if their primary job role has no billing rate, the Actual Revenue is $0.00. </td> 
      <td>If one of the job roles of the user logging the time is assigned to the task, that job role rate is used. If the job role assigned to the task is not associated with the user logging the time, then the billing rate of the primary role of the user is used to calculate the Actual Revenue. If the user does not have a job role or there is no rate associated with their primary job role, then the rate of the job role assigned to the task is used. </td> 
     </tr> 
    </tbody> 
   </table>
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>Ideal table but does not come across Markdown</p>
-<table style="table-layout:auto">
-<col>
-<col>
-<col>
-<col>
-<col>
-<col>
-<col>
-<tbody>
-<tr>
-<td colspan="3">Revenue Type = User Hourly</td>
-<td colspan="4">Revenue Type = Role Hourly</td>
-</tr>
-<tr>
-<td> <p> </p> </td>
-<td> <p><strong>No Assignment</strong> </p> </td>
-<td> <p><strong>User Assignment</strong> </p> </td>
-<td> <p><strong>Job Role Assignment</strong> </p> </td>
-<td> <p><strong>No Assignment</strong> </p> </td>
-<td> <p><strong>User Assignment</strong> </p> </td>
-<td> <p><strong>Job Role Assignment</strong> </p> </td>
-</tr>
-<tr>
-<td> <p><strong>Billing per hour rate for Planned Revenue</strong> </p> </td>
-<td> <p>$0.00</p> </td>
-<td> <p> If a user has a billing rate in their profile, then that rate is used to calculate Planned Revenue. Otherwise, the system billing rate of their primary job role is used. <br><note type="note">
-The user can be assigned to the task with one of their secondary job roles, but the rate of the primary job role is used here instead.
-</note></p> </td>
-<td> <p> The system billing rate of the job role assigned to the task is used to calculate Planned Revenue. </p> </td>
-<td> <p>$0.00</p> </td>
-<td> <p>Workfront looks at the job role that the user fulfills on the task to calculate the Planned Revenue. <br>If the user is not associated with any role on the task, the Revenue is $0.00. </p> </td>
-<td> <p>The billing rate of the job role assigned to the task is used to calculate Planned Revenue. </p> <p> </p> <p> </p> </td>
-</tr>
-<tr>
-<td> <p><strong>Billing per hour rate for Actual Revenue</strong> </p> </td>
-<td colspan="2"> <p>If the user logging the hours has a billing rate in their profile, that rate is used. <br>Otherwise, the billing rate of their primary job role is used. If there is no billing rate associated with the user or their primary role, the Actual Revenue is $0.00. <br><note type="note">
-Only the rates associated with the user logging the time are taken into account for the calculation, even when another user is assigned to the task.
-</note></p> </td>
-<td> If the user logging the hours has a billing rate in their profile, that rate is used. Otherwise, the billing rate of their primary job role is used.<br><note type="note">
-If the user logging time has no billing rate associated with them, and they do not have a job role or a billing rate for their job role, then the rate from the job role associated with the task is used. If there is no billing rate for this role, the revenue is $0.00
-</note></td>
-<td> <p>Workfront uses the billing rate of the primary job role of the user logging the time. <br>If the user logging the time has no job role associated with them, or if the primary job role has no billing rate, the Actual Revenue is $0.00. </p> </td>
-<td> <p> If the user logging the time is assigned to the task, the billing rate of the job role associated with the user on the task is used to calculate the Actual Revenue. Otherwise, the billing rate of their primary job role is used. If the user has no primary job role or if their primary job role has no billing rate, the Actual Revenue is $0.00. </p> </td>
-<td> <p>If one of the job roles of the user logging the time is assigned to the task, that job role rate is used. If the job role assigned to the task is not associated with the user logging the time, then the billing rate of the primary role of the user is used to calculate the Actual Revenue. If the user does not have a job role or there is no rate associated with their primary job role, then the rate of the job role assigned to the task is used. </p> </td>
-</tr>
-</tbody>
-</table>
+<div class="preview">
+
+* **The Revenue Type of the task is User and Role Hourly**
+
+| Billing per hour rate | No assignment | User assignment | Job role assignment |
+| --- | --- | --- | --- |
+| Billing per hour rate for Planned Revenue | $0.00 | When a user is assigned, the system looks for the rate in a specified order, starting with a preserved billing rate. Next is a locked rate card rate, a manually entered rate on the assignment, the Job Role for Billing on the assignment, the project-level user billing rate override, the Job Role for Billing at the project level, the user system rate, and the user's primary job role rate. <p> For more information, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | When a job role is assigned, the system first looks for a preserved billing rate, then a locked rate card rate for the job role on the assignment. Next it looks for a job role rate added manually on the assignment. If that rate is not found, then it looks for a job role rate at the project level, first from a rate card, and then from the system rate. <p> For more information, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
+| Billing per hour rate for Actual Revenue | Only the rates associated with the user logging the time are taken into account for the calculation, even when another user is assigned to the task. <p> The system looks for the rate in a specified order, starting with a preserved billing rate. Next is a locked rate card rate, a billing rate override on the project, the job role for billing, the system-level rate on the owner's user profile, and the billing rate of the owner's primary job role. <p> For more information, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | When a user is assigned, the system looks for the rate in a specified order, starting with a preserved billing rate. Next is a locked rate card rate, a manually entered rate on the assignment, the Job Role for Billing on the assignment, the project-level user billing rate override, the Job Role for Billing at the project level, the user system rate, and the user's primary job role rate. <p> For more information, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | When a job role is assigned, the system first looks for a preserved billing rate, then a locked rate card rate for the job role on the assignment. Next it looks for a job role rate added manually on the assignment. If that rate is not found, then it looks for a job role rate at the project level, first from a rate card, and then from the system rate. For more information, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
+
 </div>
--->
 
 ### Revenue calculations for projects
 

@@ -83,4 +83,6 @@ For more detail about the information in this table, see [Access requirements in
       * [Configure the [!UICONTROL Done] button for tasks](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) 
       * [Configure the [!UICONTROL Done] button for issues](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
 
+   * Attach a custom form. For more information, see [Add a custom form to an object](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+
 1. Click **[!UICONTROL Save Changes]**.

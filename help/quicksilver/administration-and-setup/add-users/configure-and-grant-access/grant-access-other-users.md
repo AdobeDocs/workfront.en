@@ -41,21 +41,21 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Configuring access to users
 
-You can manage what information users can view and edit for other users using a default access level or a custom access level that you create. Users with the default Plan and Work licenses can view the contact information of other users. Any of the following users can create and edit other users:
+You can manage what information users can view and edit for other users using a default access level or a custom access level that you create. Users with the default Standard, Plan, and Work licenses can view the contact information of other users. Any of the following users can create and edit other users:
 
 * A Workfront administrator.
 
   For more information, see [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-* A user with a default Plan license who also has access to users, as explained in this article.
+* A user with a default Standard or Plan license who also has access to users, as explained in this article.
 
   Users that are restricted to see only users from their company or the primary company have access to edit only the users they can see. For more information, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* A user with a default Plan license who is also specified as the manager of another user.
+* A user with a default Standard or Plan license who is also specified as the manager of another user.
 
   Users who are granted Edit access to users in their access level can manage users who report to them. For information about managing a user, see [View the organizational chart](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
-* A user with a default Plan license who created a user can deactivate, delete, or edit the user they created. For information about creating new users, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* A user with a default Standard or Plan license who created a user can deactivate, delete, or edit the user they created. For information about creating new users, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## Configure users' access to edit users using a custom access level
 

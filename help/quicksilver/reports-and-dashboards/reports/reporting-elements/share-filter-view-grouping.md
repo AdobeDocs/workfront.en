@@ -18,6 +18,8 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 (NOTE: This is linked from the TOC article in WF Basics > permissions section)
 -->
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 Your Adobe Workfront administrator grants users access to view or edit objects when they assign access levels. For more information about granting access to objects, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Along with the access level that users are granted, you can also grant them permissions to view or edit specific objects that you created or have access to share. For more information about access levels and permissions, see [How access levels and permissions work together](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
@@ -165,7 +167,7 @@ Sharing filters, views, and groupings in the legacy interface is identical.
 
 1. Complete either of the following, depending on who you want to share with:
 
-   **To share with individual users, teams, roles, groups, or companies:** In the provided field, begin typing the name of the user, team, role, group, or company you want to share with, then click the name when it appears in the drop-down list.  
+   **To share with individual users, teams, roles, groups, or companies:** In the provided field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share with, then click the name when it appears in the drop-down list.  
    Repeat this process to share access with multiple users, teams, roles, groups, or companies.
 
       >[!TIP]
