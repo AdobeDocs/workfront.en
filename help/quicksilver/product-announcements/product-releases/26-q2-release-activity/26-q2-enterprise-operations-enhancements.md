@@ -44,6 +44,8 @@ The enhancements to financial management include:
 * A redesigned **Advanced Assignments** experience with expanded configurability brings greater visibility and control across rates, time frames and properties. 
 
    For more information, see [Create advanced assignments](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+
+   Before the Production release on April 16, a switch will be added to allow you to choose between the old and new Advanced Assignments experiences. The old experience will remain the default
 * A **Job Role for Billing**, which allows you to bill a user under a different job role than their primary job role. This is useful when a person temporarily performs work that should be billed at a different rate.
 
    For more information, see [Set up a Job Role for Billing](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md).
