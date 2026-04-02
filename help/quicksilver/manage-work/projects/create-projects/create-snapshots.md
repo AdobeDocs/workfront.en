@@ -5,6 +5,8 @@ title: Create and View Project Snapshots
 description: Snapshots in Adobe Workfront give you a way to see differences between snapshots (taken on a specific date and time) and the project's current data.
 author: Lisa
 feature: Work Management
+hidefromtoc: yes
+hide: yes
 ---
 # Create and view project snapshots
 
