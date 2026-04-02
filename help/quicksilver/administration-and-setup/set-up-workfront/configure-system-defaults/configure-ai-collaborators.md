@@ -57,6 +57,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Prerequisites
 
+
+
+* Your organization must have a signed Adobe Gen AI Agreement on file. 
+
+   For more information, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in the article AI Assistant in Workfront.
 * You must have configured a brand in Workfront before you can use it for a Reviewer-type AI Collaborator.
 
    For instructions, see [Create and manage brands for the Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
