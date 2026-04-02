@@ -49,6 +49,7 @@ For general information about workspaces, see [Workspaces overview](/help/quicks
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td><p>Standard</p>
+   <p><span class="preview">System Administrator to create multiple workspaces at one time using the best-practice template bundle</p>
    </td> 
   </tr> 
   <tr> 
@@ -133,7 +134,7 @@ You can create workspaces in the following ways:
 * Create one workspace from scratch or from a template
 
    For information, see the section [Create a workspace from scratch or from a template](#create-a-workspace-from-scratch-or-from-a-template) in this article.
-* Create one workspace using the AI-powered Planning Designer. This feature is currently in Beta. 
+* Create one workspace using the AI-powered Planning Designer. This feature is currently available only to a limited number of customers in a Beta program. 
 
    For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
@@ -141,7 +142,7 @@ You can create workspaces in the following ways:
 
 * Create multiple workspaces using a best-practice multi-workspace template bundle 
 
-   For information, see the section [Create](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) in this article
+   For information, see the section [Create multiple workspaces using a best-practice multi-workspace template bundle](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) in this article
 
 </div>
 
@@ -218,16 +219,22 @@ You can create workspaces in the following ways:
 
 ### Create multiple workspaces using a best-practice multi-workspace template bundle
 
+>[!IMPORTANT]
+>
+>Creating multiple workspaces at a time using the best-practice template bundle is available only when the following prerequisites are met: 
+>
+>* Your organization purchased a Workfront Planning Prime or Ultimate package.
+>* You are a System Administrator
+
 You can use a multi-workspace template bundle to create 6 workspaces with one click. 
 
 The templates included in the bundle contain workspaces, record types, records, views, and fields to help you get started with your Planning implementation. 
 
 >[!IMPORTANT]
 >
->Note that all the names of workspaces, record types, fields, and records included in the bundle are samples and are not a reflection of your own environment. 
+>All the names of workspaces, record types, fields, and records included in the bundle are samples and are not a reflection of your own environment. 
 >
->We recommend that you use this template bundle as an example of a Planning structure and proceed with creating your own objects. 
-
+>We recommend that you use this template bundle as an example of a Planning structure and proceed with creating objects that reflect your organization's workflow. 
 
 {{step1-to-planning}}
 
@@ -251,7 +258,7 @@ The templates included in the bundle contain workspaces, record types, records, 
     
 1. After opening the **Preview** box for each workspace template, click Back to go back to the **Create workspace** box, or click Use templates to use the templates including in the bundle and create workspaces. 
 
-   The workspaces are created and display in the **Workspaces I'm** on and **All Workspaces** tabs for System administrators. All Standard-license users will see the workspaces in their Workspaces area. 
+   The workspaces are created and display in the **Workspaces I'm** on and **All Workspaces** tabs for System administrators. All Standard-license users will see the workspaces in their Workspaces area after a System Administrator creates them and shares the new workspaces with them. 
 
 1. Start editing the workspaces you created and adding record types, records, views, and fields that are pertinent to your organization. 
 
