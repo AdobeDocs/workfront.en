@@ -7,6 +7,8 @@ description: On a Proof Approval report, you can use the Is Current Document Ver
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e844d3ed-75ee-4a0f-a28c-a3d22f203502
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Filter: Proof Approval report to omit previous proof versions
 

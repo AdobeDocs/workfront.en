@@ -7,6 +7,8 @@ description: The Scrum Agile story board displays together with the completion s
 author: Courtney
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # [!UICONTROL Scrum] board overview
 

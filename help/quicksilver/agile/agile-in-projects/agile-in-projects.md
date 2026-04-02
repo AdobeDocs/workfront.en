@@ -8,6 +8,8 @@ author: Courtney
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: ef718507-26fc-464c-83b6-78c10cc0ccb3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Agile in projects
 

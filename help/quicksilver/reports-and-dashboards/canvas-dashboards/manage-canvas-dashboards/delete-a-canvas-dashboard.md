@@ -6,6 +6,8 @@ description: You can arrange how reports display in a Canvas dashbaord after the
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 075df18c-08b8-467d-a0e4-60cd3abd5807
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Delete a Canvas Dashboard
 

@@ -5,6 +5,8 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 
 # Get started with the Adobe Workfront Planning free trial
@@ -98,8 +100,10 @@ The following are important dates associated with the Adobe Workfront Planning f
 
 * **November 30, 2026**: Workfront no longer secures your data after this date. If you purchase Workfront Planning before this date, you regain access to Planning and your data. 
 
-<!--Lauren wanted this out: 
-* **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date. -->
+<!--
+Lauren wanted this out: 
+* **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date.
+-->
 
 ## Permissions to Workfront Planning data during and after the free trial
 
@@ -127,7 +131,8 @@ For best practices on how to implement Workfront Planning, see [Adobe Workfront 
 
 <!--
 
-this information will be live on March 2 - the How to sign up below will be a ### instead of a ## section and the Navigate the trial section will be visible; also adjust ALL the ##s when you make this live: -->
+this information will be live on March 2 - the How to sign up below will be a ### instead of a ## section and the Navigate the trial section will be visible; also adjust ALL the ##s when you make this live:
+-->
 
 ## Enroll in the Adobe Workfront Planning free trial
 

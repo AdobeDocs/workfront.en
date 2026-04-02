@@ -7,6 +7,8 @@ description: Example queries you can use to familiarize yourself with the syntax
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Workfront Data Connect query examples
 
@@ -183,7 +185,8 @@ Examining the query from the inside out: 
 
  
 
-<!--## Task query 
+<!--
+## Task query 
 
 Join the project and (assignedTo) users tables into a simple task list.
 
@@ -197,4 +200,5 @@ Join owner (users), hour type, and portfolio tables to provide a sum of hours by
 
 ## Document approvals query
 
-Measure the cycle time and average number of review cycles per asset.-->
+Measure the cycle time and average number of review cycles per asset.
+-->

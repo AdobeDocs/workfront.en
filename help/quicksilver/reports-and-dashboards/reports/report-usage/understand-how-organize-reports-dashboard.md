@@ -7,6 +7,8 @@ description: You can see whether a report is added to a dashboard in Adobe Workf
 author: Courtney
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Understand how&nbsp;to organize reports on a dashboard
 

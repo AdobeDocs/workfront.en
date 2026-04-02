@@ -8,6 +8,8 @@ author: Becky and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Work On It and Done button overview
 
@@ -41,9 +43,11 @@ Depending what area of Workfront you access your task or issue from, the Work On
   ![Mark as Done button](assets/nwe-mark-as-done-button-350x122.png)
 
 
-<!--If you are not the only one assigned to the task or issue and you are accessing your work item from the My Work widget in the Home area, the button changes to Done with my part.
+<!--
+If you are not the only one assigned to the task or issue and you are accessing your work item from the My Work widget in the Home area, the button changes to Done with my part.
 
-  ![Home left Done with my part button](assets/home-left-done-with-my-part-button-350x184.png)-->
+  ![Home left Done with my part button](assets/home-left-done-with-my-part-button-350x184.png)
+  -->
 
 ## Locate the Work On It and Done button {#locate-the-work-on-it-and-done-button}
 

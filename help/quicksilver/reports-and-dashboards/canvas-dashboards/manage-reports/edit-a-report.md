@@ -6,6 +6,8 @@ description: You can edit a Canvas dashboard report after it's been created.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: fd659f56-d67f-4a0f-8735-b214934903ac
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Edit a report in a Canvas Dashboard
 

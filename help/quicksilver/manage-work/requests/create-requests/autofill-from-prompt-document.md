@@ -5,6 +5,8 @@ description: You can use AI to auto-fill request fields by entering a prompt or 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Use Form Fill powered by AI to fill in a request using prompts or documents
 

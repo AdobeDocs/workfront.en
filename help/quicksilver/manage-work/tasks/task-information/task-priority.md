@@ -7,6 +7,8 @@ description: You can define a priority for a task to indicate how important the 
 author: Alina
 feature: Work Management
 exl-id: 653b62fe-6195-4288-ac05-f89e4a6113fd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Update Task Priority
 
@@ -44,7 +46,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
  +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -67,7 +70,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>Manage permissions to a task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Overview of task Priorities
 

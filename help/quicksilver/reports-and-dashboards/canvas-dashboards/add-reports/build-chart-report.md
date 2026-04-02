@@ -6,6 +6,8 @@ description: A chart report that visualizes your data as a bar, column, line, or
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Build a chart report in a Canvas Dashboard
 

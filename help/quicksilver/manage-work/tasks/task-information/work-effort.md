@@ -7,6 +7,8 @@ description: Work Effort overview
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Work Effort overview
 
@@ -32,11 +34,13 @@ As a project manager, you can decide how you want to estimate the amount of work
   </tr> 
   <tr> 
    <td role="rowheader">Work Effort </td> 
-   <td> <p>A manual label that defines whether it takes a user a small, medium, or large amount of daily effort to complete a task. <!--
+   <td> <p>A manual label that defines whether it takes a user a small, medium, or large amount of daily effort to complete a task.
+   <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
       </MadCap:conditionalText>
-     --> </p> <p>Consider the following about Work Effort:</p> 
+     -->
+     </p> <p>Consider the following about Work Effort:</p>
     <ul> 
      <li>This field is available only for tasks with a Simple Duration Type. </li> 
      <li>You can enable the use of this label and define the percentage of working time associated with it at the project level. </li> 
@@ -84,7 +88,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -110,7 +115,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>Manage permissions to a project and its tasks</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerations for using Work Effort
 

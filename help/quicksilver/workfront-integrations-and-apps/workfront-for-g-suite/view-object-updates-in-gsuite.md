@@ -8,6 +8,8 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 13cd0478-4557-4d4c-915e-5b7b70aee8ce
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View [!DNL Adobe Workfront] object updates from [!DNL Google Workspace]
 

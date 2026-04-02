@@ -7,6 +7,8 @@ description: When inline editing dates in a list of objects, the calendar displa
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6d053968-1578-4c20-b2a7-43634481696f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Inline editing dates shifts calendar display outside of box
 

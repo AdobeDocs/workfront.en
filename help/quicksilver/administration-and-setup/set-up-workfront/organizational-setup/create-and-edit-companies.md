@@ -8,6 +8,8 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create and edit companies
 
@@ -177,7 +179,8 @@ For information about how users gain administrative access to companies in their
 
 For information about managing a company in the [!UICONTROL Setup] area, see [Create or edit a company in [!DNL Workfront]](#create-or-edit-a-company-in-workfront) in this article.
 
-<!-- OLD HTML TABLE
+<!--
+ OLD HTML TABLE
 <table style="table-layout:auto"> 
     <col> 
     <col> 

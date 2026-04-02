@@ -6,6 +6,8 @@ description: Numeric values including currency can be configured to display in a
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 965f5dcd-4844-4792-9fd0-a47814a325a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Format numbers, currency and percentage values in text mode reports
 

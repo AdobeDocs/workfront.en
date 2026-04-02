@@ -6,6 +6,8 @@ description: You can create a custom grouping from scratch or customize an exist
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create groupings in Adobe Workfront
 

@@ -6,6 +6,8 @@ description: Goal progress is driven by progress indicators like activities, res
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Overview of goal progress and condition in Adobe Workfront Goals
 
@@ -19,7 +21,8 @@ exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
 >
 >For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 >[!IMPORTANT]
 >
 >Your organization must have the following to use the functionality described in this article:
@@ -34,7 +37,8 @@ exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
 >   * A Pro or higher 
 >   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
-> Contact your Workfront account manager to learn about a Workfront Goals license.-->
+> Contact your Workfront account manager to learn about a Workfront Goals license.
+ -->
 
 
 Adobe Workfront calculates goal progress automatically, based on the progress of its progress indicators.

@@ -6,6 +6,8 @@ description: The information on this page refers to functionality that is availa
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Send a report in the Preview Sandbox environment
 

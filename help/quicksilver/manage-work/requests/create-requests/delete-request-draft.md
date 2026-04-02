@@ -6,6 +6,8 @@ description: You can delete submitted requests or request drafts in Adobe Workfr
 author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Delete a submitted request or request draft
 

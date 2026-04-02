@@ -7,6 +7,8 @@ description: This hour view combines the Task and Issue Name columns, as well as
 author: Courtney
 feature: Reports and Dashboards
 exl-id: cf1137fd-c26a-4907-afe9-2373d3434631
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View: combined task and issue details in an Hour list
 

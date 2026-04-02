@@ -6,6 +6,8 @@ description: You can move a story or issue from the Scrum board to another itera
 author: Courtney
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Manage stories and issues on the [!UICONTROL Scrum] board
 

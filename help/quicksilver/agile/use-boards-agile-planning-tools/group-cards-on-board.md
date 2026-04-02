@@ -7,6 +7,8 @@ description: You can group cards on a board by assignee or by tag. When you sele
 author: Courtney
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Use groups on a board
 

@@ -7,6 +7,8 @@ description: You might want to view your tasks grouped by Percent Complete in ra
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Grouping: organize list results by a calculated value common to all objects in the grouping
 

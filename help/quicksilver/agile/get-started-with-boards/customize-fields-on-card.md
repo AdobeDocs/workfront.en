@@ -6,6 +6,8 @@ description: You can customize which fields are displayed on a card by disabling
 author: Courtney
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Customize which fields are displayed on a card
 

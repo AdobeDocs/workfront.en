@@ -6,6 +6,8 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 
 # List of workspace templates
@@ -28,7 +30,8 @@ This article describes the workspace templates available in Adobe Workfront Plan
 * Each record type comes with a set of fields. Some of these fields are connections to other Workfront Planning record types. 
 * You can customize any template and add more record types and fields to the existing ones.
 
-<!-- I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
+<!--
+ I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
 
 ## Access requirements
 
@@ -44,7 +47,8 @@ You must have the following:
    <td role="rowheader"><p>Adobe Workfront plan*</p></td>
    <td>
 <p>Any</p>
-<!--the above is only for closed beta; when going to GA - activate the following plans:    
+<!--
+the above is only for closed beta; when going to GA - activate the following plans:    
 <p>Current plan: Prime and Ultimate</p>
 <p>Legacy plan: Enterprise</p>->
    </td>

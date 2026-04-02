@@ -6,6 +6,8 @@ description: You can add documents to connected cards on Adobe Workfront Boards.
 author: Courtney
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Add documents on cards
 

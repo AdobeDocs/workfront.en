@@ -8,6 +8,8 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Customize the Summary panel using a layout template
 
@@ -87,7 +89,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
     </tbody> 
    </table>
 
-<!--These were removed with the new Home: 
+<!--
+These were removed with the new Home: 
 
 <tr> 
       <td role="rowheader">Projects</td> 
@@ -110,7 +113,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <p><p><b>IMPORTANT:</b></p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul>
       </td> 
-     </tr> -->
+     </tr>
+     -->
 
 
    >[!IMPORTANT]
