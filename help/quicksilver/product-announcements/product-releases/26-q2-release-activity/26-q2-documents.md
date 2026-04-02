@@ -5,8 +5,6 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-last-update: 2026-04-01T18:03:50Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Second Quarter 2026 Documents enhancements
 
@@ -16,12 +14,44 @@ This page describes Documents enhancements made with the Second Quarter 2026 rel
 
 For a list of all changes available at this point in the Second Quarter 2026 release cycle, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## Unified review and approvals powered by Workfront and Frame.io
+## GenStudio Foundations Provisioning enabled to support AI Collaborators
 
+>[!NOTE]
+>
+>Preview: March 31, 2026
+>Production fast release: March 31, 2026
+>Production for everyone: March 31, 2026
+
+On March 31, 2026, all Workfront customers were provisioned for GenStudio Foundation, and Admin Console System Admins will have received an email informing them of this addition. This product is provisioned only so Workfront customers can give Brands access to Workfront customers as needed for the release of AI Collaborators. The product itself is only an access mechanism for Brands, and there is no additional functionality available in the GenStudio Foundation product.
+
+Customers will not be charged for this new product.
+
+## My approval widget updates 
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+We have added the following enhancements to the My Approvals widget in Home:
+
+* Sort the approvals list by Oldest first or Newest first
+* Expand the the widget to full screen
+
+For more information, see [Manage your approvals with the My Approvals widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md).
+
+## Unified review and approvals powered by Workfront and Frame.io
 
 >[!IMPORTANT]
 >
 >This new capability is available to net new customers and to existing customers upon renewal.
+
+>[!NOTE]
+>
+>Preview: March 12, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
 
 
 We're excited to introduce Unified Review & Approval powered by Workfront and Frame.io, a streamlined review and approval experience.
