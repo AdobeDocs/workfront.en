@@ -279,6 +279,16 @@ For information about list views, see [Manage the list view](/help/quicksilver/p
     ![Create view box](assets/create-view-box.png)   
 
 1. (Optional) To edit an existing view, click the drop-down menu to the right of the current view's name, then type the name of a view in the **Search** field and press Enter on your keyboard.
+
+    >[!TIP]
+    >
+    ><span class="preview">You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for views :</span>
+    >
+    >* <span class="preview">CTRL+K for Windows</span>  
+    >* <span class="preview">⌘+K for Mac</span>  
+    >
+    >![Global search box](assets/global-search-box.png)
+
 1. (Optional) From the view dropdown menu, drag and drop views in order of your preference.
 
     ![View types drop-down from record type list](assets/view-types-drop-down-from-record-type-list.png)

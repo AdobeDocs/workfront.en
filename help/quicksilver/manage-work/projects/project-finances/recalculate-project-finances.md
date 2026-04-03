@@ -87,7 +87,7 @@ Revenue rates can change at the following levels:
   For more information, see [Override job role billing rates at the company level](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 * The Project level (for job roles)  
-  For more information about overriding job role rates at the project level, see the article [Overview of overriding Job Role Billing Rates and calculating Revenue on a project](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  For more information about overriding job role rates at the project level, see the article [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 For example, a user's billing rate changes during the course of a project from $50 to $75 an hour and you want all existing data to remain calculated at the old rate ($50 and hour). However, when the project finances are recalculated, tasks that already have existing financial data will have the revenue updated to reflect the new billing rate (of $75 an hour).
 
@@ -106,7 +106,7 @@ For more information about creating billing records, see the article [Create bil
 
 When billing rates change for job roles at the project level, you can preserve existing revenue which has already been calculated on the project by using multiple billing rates overrides which are locked within a specified time frame.
 
-For more information about using multiple billing rates overrides, see the article [Overview of overriding Job Role Billing Rates and calculating Revenue on a project](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+For more information about using multiple billing rates overrides, see the article [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 >[!NOTE]
 >

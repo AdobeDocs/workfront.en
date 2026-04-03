@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Set up brands for the AI Reviewer
-description: Set up brands for the AI Reviewer
+title: Create and manage brands for the Content Reviewer
+description: Create and manage brands for the Content Reviewer
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -10,13 +10,11 @@ exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
-# Set up brands for the AI Reviewer
+# Create and manage brands for the Content Reviewer
 
->[!IMPORTANT]
->
->This feature is currently in beta. 
+{{highlighted-preview-article-level}}
 
-The AI Reviewer uses brand guidelines to evaluate content during the review process. You can create brands in Workfront by uploading PDF files that contain your brand guidelines or by manually entering brand elements.
+The Content Reviewer uses brand guidelines to evaluate content during the review process. You can create brands in Workfront by uploading PDF files that contain your brand guidelines or by manually entering brand elements.
 
 ## Access requirements
 
@@ -40,29 +38,29 @@ The AI Reviewer uses brand guidelines to evaluate content during the review proc
   </tr> 
   <tr> 
    <td role="rowheader">Admin Console permissions*</td> 
-   <td> <p>You must GenStudio Brand Manager.</p>
-    <p>NOTE: In order to select GenStudio Brand Manager, you must follow the steps outlined in <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/configure-brand-permissions">Assign Brand permissions</a>.</p>
+   <td> <p>You must be a GenStudio Brand Manager.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-
-
-
-
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
+## Requirements
+
+* Your Workfront instance must have Unified Approvals enabled. 
+
+* Your organization must have GenStudio Foundation. 
+    * Content Reviewer in Workfront provides the functionality available in GenStudio Foundation for asset review and approval workflows. You do not need to access GenStudio Foundation directly to complete your work. Your access to GenStudio Foundation functionality through Content Reviewer falls under the terms of your Workfront contract.
+* Adobe must have a signed Adobe Gen AI agreement on file.
+    For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
+
 
 ## Prerequisites 
 
-* Your organization must have migrated to Adobe IMS (Identity Management System).
-* Your Workfront instance must have Unified Approvals enabled. 
-* Your organization must have GenStudio Foundation.
-* Adobe must have a signed Adobe Gen AI agreement on file.
-    For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
+1. You must grant access to brand permissions in the Admin Console and in Workfront access levels before you can create brands. For instructions, see [Grant access to brand permissions](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md).
 
 
 ## Create a brand using a PDF
@@ -72,7 +70,7 @@ For more detail about the information in this table, see [Access requirements in
 1. In the left panel, go to **Review and Approval** > **Brands**.
 1. Click **Add brand** in the top-right corner of the screen.
 1. Name the brand. 
-1. Click Upload PDFs to upload brand files.
+1. Click **Upload PDFs** to upload brand files.
     ![upload brand pdfs](assets/upload-PDF.png)
 1. Click **Continue**.
 1. Upload one or more PDF files that contain your brand guidelines, then click **Add brand**. 
@@ -82,7 +80,7 @@ For more detail about the information in this table, see [Access requirements in
     >
     >Guidelines are generated using your files and generative AI technology and may be inaccurate. Review extracted guidelines for missing or incorrect details and edit them before you publish this brand.
 
-1. When finished, click **Publish** to make the brand available for the AI Reviewer.
+1. When finished, click **Publish** to make the brand available for the Content Reviewer.
 
 ## Create a brand manually
 
@@ -112,7 +110,7 @@ For more detail about the information in this table, see [Access requirements in
         <td>Outline the appropriate channels for brand communication.</td>
     </tr>
     <tr>
-        <td>logos</td>
+        <td>Logos</td>
         <td>Include the official logos associated with the brand.</td>
     </tr>
     <tr>
@@ -124,4 +122,4 @@ For more detail about the information in this table, see [Access requirements in
     ![add brand elements manually](assets/brand-elements.png)
 
 
-1. When finished, click **Publish** to make the brand available for the AI Reviewer.
+1. When finished, click **Publish** to make the brand available for the Content Reviewer.

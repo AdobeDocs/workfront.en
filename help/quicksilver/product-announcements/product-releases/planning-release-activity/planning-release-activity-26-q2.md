@@ -18,6 +18,138 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## New capability to increase row height for the list view 
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+We have added a new setting to adjust row height in the list view.  
+
+For more information, see Manage the list view (help/quicksilver/planning/views/manage-the-list-view.md).
+
+For information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Add record type name and view icon to publicly shared views
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+To ensure that recipients always understand what view they received when they open a publicly shared link to a record type, we have added the name of the record type to the shared view page, in addition to the view icon and the view name.
+
+For information, see [Share views](/help/quicksilver/planning/access/share-views.md)
+
+## New grouping functionality added to the Request forms list
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+To help you organize information better, we have added the ability to group items in the Request forms page of a record type. 
+
+Prior to this enhancement, this functionality did not exist in this area. 
+
+For information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Expand list of shared entities to display users 
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+You can now expand groups, teams, companies, and roles to view their members when you share a workspace or a view with them. Prior to this enhancement, the membership lists were available for these objects only when sharing record types.
+
+For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).
+
+## Multi-workspace, best-practice template for Workfront Planning implementation 
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+We are introducing a template package to help you streamline the implementation of Workfront Planning in your organization. By installing the best practice framework template, you can create up to six workspaces that contain all the information you need to start moving your strategic planning in Workfront.  
+
+The multi-workspace template contains a global template that establishes core record types which you can use in any custom workspace you built. In addition, the template includes 5 more workspaces that you can use as examples and are interconnected to one another and to other objects in Workfront. 
+
+For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+>[!NOTE]
+>
+> This enhancement is available only for customers with a Prime or higher package. 
+
+## Global search for Workfront Planning objects from any Workfront Planning page   
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+You can now search for workspaces, record types, or views from any page in Workfront Planning by using the following key combinations from any Planning page:  
+
+* CTRL+K for Windows  
+* ⌘+K for Mac  
+
+You can also search for workspaces, record types, or views from the new search box added to the Planning landing page.  
+
+For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+## Apply additional conditional formatting to a a list of projects in  a record's connected page   
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+You can now apply additional conditional formatting to a list of projects in a record's connected page.  
+
+The new conditional formatting capabilities include the following: 
+
+* Add color to text 
+
+* Make the text bold or italic in a cell 
+
+* Ability to apply the conditional formatting to an entire row 
+
+Prior to this enhancement, only the ability to add color to a cell's background existed.  
+
+For information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Added personalized names for filters in the list view   
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+We have added the following personalized names for a team, group, company, and role filter in the list view: 
+
+* My home team, My teams 
+
+* My  home group, My groups 
+
+* My primary role, My roles 
+
+* My company 
+
+The fields must exist on objects displayed in the view for the filter options to be visible. 
+
+For more information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+
 ## Breadcrumb redesign   
 
 >[!NOTE]
