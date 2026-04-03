@@ -11,6 +11,8 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Share a Canvas Dashboard
 
+{{highlighted-preview}}
+
 >[!IMPORTANT]
 >
 >The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.<br>
@@ -77,6 +79,8 @@ For more detail about the information in this table, see [Access requirements in
 * When sharing a dashboard, the resources it's shared with will inherit permissions to the reports displayed on the dashboard.
 
 * When a dashboard is distributed through a layout template, an automatic View permission for the dashboard (and its reports) is granted to all resources assigned to the layout template.
+
+* <span class="preview">When a report on a dashboard is configured with the Run as User option, all viewers see data based on the selected user's permissions rather than their own. This means viewers may see data they don't normally have access to. If some reports on a dashboard use Run as User and others don't, viewers may see inconsistent data across reports.</span>
 
 
 ## Share a Canvas Dashboard
