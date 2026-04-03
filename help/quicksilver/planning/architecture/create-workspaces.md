@@ -144,6 +144,11 @@ You can create workspaces in the following ways:
 
    For information, see the section [Create multiple workspaces using a best-practice multi-workspace template bundle](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) in this article
 
+   >[!TIP]
+   >
+   >You cannot create multiple workspaces at one time unless you use the best-practice template bundle.
+
+
 </div>
 
 ### Create a workspace from scratch or from a template
@@ -232,9 +237,10 @@ The templates included in the bundle contain workspaces, record types, records, 
 
 >[!IMPORTANT]
 >
->All the names of workspaces, record types, fields, and records included in the bundle are samples and are not a reflection of your own environment. 
+>The names of workspaces and records included in the bundle are examples, and are not a reflection of your own environment. 
 >
->We recommend that you use this template bundle as an example of a Planning structure and proceed with creating objects that reflect your organization's workflow. 
+>The names of the record types and fields can be used in any organization as a standard for implementation in any industry, per our recommendation. 
+>
 
 {{step1-to-planning}}
 
