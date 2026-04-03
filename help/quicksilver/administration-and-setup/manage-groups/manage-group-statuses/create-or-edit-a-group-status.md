@@ -84,11 +84,12 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    Or
 
-   To edit an existing status, mouse over the status you want to edit, then click the **Edit** option that displays to the far right.
+   If you are editing an existing status, click the checkbox for that status, then click **Edit** in the banner at the bottom of the screen.
 
-   ![Group statuses](assets/group-statuses-edit.jpg)
+   ![Group statuses](assets/group-statuses-edit-new.png)
 
    >[!NOTE]
+   >
    >You can edit a status for your group only if:
    >      
    >* You manage the group that the status was created for
@@ -160,15 +161,16 @@ If you are a group administrator (or a Workfront administrator), you can create 
 
 1. If you are a Workfront administrator, create a system-wide unlocked status as described in [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 1. In the box in the upper-right corner, delete **System Statuses**, begin typing the name of a group where you want to hide the status, then click the name when it appears.
-1. Hover over the status you want to hide from the group, then click **Edit** when it appears.
+1. Click the checkbox for the status you want to edit, then click **Edit** in the banner at the bottom of the screen.
 
-   ![Edit status](assets/hover-click-edit.jpg)
+
+   ![Edit status](assets/group-statuses-edit-new.png)
 
 1. Enable the **Hide Status** option that appears.
 
    ![Hide status](assets/hide-group-status.png)
 
-1. Click **Save**.
+1. Click **Update**.
 
    The status is dimmed and no longer visible to all users in that group.
 
