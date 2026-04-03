@@ -1857,6 +1857,7 @@ feature-set: Workfront
   * [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
   * [Get started with Unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
   * [Limited document and proof decision for non-paid users overview](review-and-approve-work/proof-doc-decision-limits.md)
+  * [Set up AI Reviewers](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
   * Work approvals {#work-approvals}
     * [Work approvals](review-and-approve-work/manage-approvals/manage-approvals.md)
     * [Approval process overview](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
