@@ -126,7 +126,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <td><strong>Preview</strong></td>
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
-    <tr>
+   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">GenStudio Foundations Provisioning enabled to support AI Collaborators </a><p></p>
             <p>On March 31, 2026, all Workfront customers were provisioned for GenStudio Foundation, and Admin Console System Admins will have received an email informing them of this addition. This product is provisioned only so Workfront customers can give Brands access to Workfront customers as needed for the release of AI Collaborators. The product itself is only an access mechanism for Brands, and there is no additional functionality available in the GenStudio Foundation product.</p><p>Customers will not be charged for this new product.</p>
@@ -245,6 +245,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <td><strong>Quarterly</strong></td>
         </tr>
     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Current version field for Document Versions </a><p></p>
+            <p>We have added a <code>currentVersion</code> boolean field to the Document Version object to make it easier to identify and report on the latest version of a document.</p>
+        </td>
+        <td><p>April 2, 2026</p></td>
+        <td><p>April 15, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+    </tr>
+     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Scheduled Report Delivery Now Supports Link-Based Emails</a><p></p>
             <p>Workfront now includes a new Link delivery type for scheduled reports. Instead of generating and attaching a file, this option sends an email containing a direct link to the report in Workfront, allowing recipients to view the most current data in the application.</p>
