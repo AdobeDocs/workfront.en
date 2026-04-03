@@ -71,7 +71,7 @@ To assign a profile:
 1. Click the **Assigned product profiles** tab.
 1. Click **Assign profile**.
 1. In the popup, select **Adobe GenStudio** from the products list, then click **Apply**.
-1. Select the **Adobe GenStudio system manager** profile.
+1. Select the **Adobe GenStudio Foundation editors** profile.
 1. Click **Apply**.
 1. Click **Save**.
 
