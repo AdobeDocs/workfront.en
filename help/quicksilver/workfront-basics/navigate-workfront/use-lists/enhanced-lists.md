@@ -415,7 +415,7 @@ Groupings separate the objects on the list into areas based on specific criteria
 
 Workfront provides a limited number of predefined groupings and you cannot modify them.
 
-1. Click **Group** above the list.
+1. Click **Grouping** above the list.
 1. Select a grouping to organize your list.
 
    ![Select a grouping](assets/glist-grouping-choose-a-group-by.png)
@@ -425,7 +425,7 @@ Workfront provides a limited number of predefined groupings and you cannot modif
 
    ![Grouping in enhanced lists](assets/glist-group-by-due-date-priorities.png)
 
-   An indicator appears on the **Group** button when a grouping is applied to the list.
+   An indicator appears on the **Grouping** button when a grouping is applied to the list.
 
    ![Grouping applied indicator](assets/glist-grouping-applied-indicator.png)
 
@@ -447,7 +447,7 @@ To sort individual columns:
 
    ![Sort by a column](assets/glist-sort-by-column.png)
 
-1. (Optional) To sort your work within a grouping, click **Group**, go to the line of the applied grouping, click on the sorter dropdown, and select an ascending or descending order.
+1. (Optional) To sort your work within a grouping, click **Grouping**, go to the line of the applied grouping, click on the sorter dropdown, and select an ascending or descending order.
 
    ![Sort in a grouping](assets/sort-in-groups.png)
 

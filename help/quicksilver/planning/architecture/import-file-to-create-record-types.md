@@ -150,6 +150,14 @@ To import record types using an Excel or CSV file:
     Or
 
     From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
+
+   >[!TIP]
+   >
+   ><span class="preview">You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for workspaces:</span>
+   >
+   >* <span class="preview">CTRL+K for Windows</span>  
+   >* <span class="preview">⌘+K for Mac</span>
+
 1. Click **Add record type**. 
 1. Click **Upload from file**.
 1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one, then select it. 

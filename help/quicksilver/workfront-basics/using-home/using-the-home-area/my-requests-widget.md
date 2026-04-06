@@ -99,7 +99,7 @@ To configure the filter in the My Requests widget:
    
    <div class="preview">
    
-   * Group
+   * Grouping
    * Format cells
    * Row height
    
