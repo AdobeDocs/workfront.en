@@ -79,16 +79,18 @@ Rate attributes are supported across all areas where rates exist in Workfront:
 * Project-level overrides: Apply attributes when overriding rates at the project level.
 * Job roles (in Setup): Set default job role rates with attributes.
 * Users (User profiles): Assign native attributes to individual users, so their assignments resolve automatically to the correct rates.
+
 <!--
-* Staffing plan resources
-* Non-labor resources: Attributes can also be defined on resources such as equipment or services.-->
+BULLET POINT Staffing plan resources
+BULLET POINT Non-labor resources: Attributes can also be defined on resources such as equipment or services.-->
 
 <!--Non-labor resource categories and -->Job roles do not support rate attributes directly at the object level. They are connected to rate attributes through the rates defined on them.
 
 When you can create placeholder assignments tied to the correct attribute values, your rates will be populated accordingly.
 
 * For job roles, when you later replace the placeholder with a real user, the system automatically resets the assignment's attributes to those defined on that user's profile. At this point, attributes can no longer be edited at the assignment level. They inherit from the user to preserve consistency and prevent misalignment between user attributes and applied rates.
-<!--* For non-labor resource categories, placeholder assignments can be used similarly: You assign the category through a placeholder that carries the required attributes. Once the actual non-labor resource is substituted, the attributes are automatically pulled from the resource's profile. Just like with users, these attributes cannot be overridden manually at the assignment level, ensuring financial data integrity and preventing accidental mismatches between resources and their designated attributes.-->
+
+<!-- BULLET POINT For non-labor resource categories, placeholder assignments can be used similarly: You assign the category through a placeholder that carries the required attributes. Once the actual non-labor resource is substituted, the attributes are automatically pulled from the resource's profile. Just like with users, these attributes cannot be overridden manually at the assignment level, ensuring financial data integrity and preventing accidental mismatches between resources and their designated attributes.-->
 
 ## Access requirements
 
@@ -158,17 +160,17 @@ Filters control how attribute values are suggested and validated when defining r
 
 Two types of filters are available for the attributes:
 
-  * Suggestion Filters narrow down the list of available options based on system logic or prior attribute selections. They make dropdowns context-aware and easy to use.
+* Suggestion Filters narrow down the list of available options based on system logic or prior attribute selections. They make dropdowns context-aware and easy to use.
 
-     Example: Agency > Location > Cost Center
+   Example: Agency > Location > Cost Center
 
-     In this setup, the Cost Center attribute should have a Suggestion Filter that references both Agency and Location.
+   In this setup, the Cost Center attribute should have a Suggestion Filter that references both Agency and Location.
 
-     When adding a rate, if you first select Agency = "Star," then the Location dropdown will only suggest Locations that belong to "Star."
+   When adding a rate, if you first select Agency = "Star," then the Location dropdown will only suggest Locations that belong to "Star."
 
-     If you then select Location = Chicago on the rate, the Cost Center dropdown will only suggest Cost Centers tied to "Star" and Chicago.
+   If you then select Location = Chicago on the rate, the Cost Center dropdown will only suggest Cost Centers tied to "Star" and Chicago.
 
-  * Relationship Filters establish the dependency chain between attributes. They ensure that the system understands how attributes relate to each other and enforce valid dependencies.
+* Relationship Filters establish the dependency chain between attributes. They ensure that the system understands how attributes relate to each other and enforce valid dependencies.
 
      Example: Agency > Location > Cost Center
 

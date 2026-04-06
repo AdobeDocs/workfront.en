@@ -17,7 +17,7 @@ As an Adobe Workfront administrator or a group administrator, you can use a layo
 
 >[!IMPORTANT]
 >
->Customizing object headers is currently available for projects, tasks, issues, <span class="preview">portfolios, programs, templates, billing records, teams, groups, users, companies, groups, and rate cards.</span>
+>Customizing object headers is currently available for projects, tasks, issues, <span class="preview">portfolios, programs, templates, billing records, teams, users, companies, groups, and rate cards.</span>
 
 ![Object header fields](assets/object-header-fields.png)
 

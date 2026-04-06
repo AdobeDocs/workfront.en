@@ -18,7 +18,17 @@ To provide precise financial calculations, Workfront uses the appropriate billin
 
 The sections in this article outline the step-by-step process for determining the appropriate billing and cost rates for job roles and users for the User and Role Hourly revenue type and cost type.
 
+>[!NOTE]
+>
+>The rate hierarchy shown in this article is used only when the User and Role Hourly revenue or cost type is applied to the task.
+
 For more information on billing rates, revenue types, and how revenue is calculated, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+## Exceptions for the hierarchy and the User and Role Hourly revenue type
+
+* Company rates are not supported within the hierarchy.
+* Only the Primary role is used for the hierarchy calculations. Other roles are not used.
+* When a task's revenue type is User and Role Hourly, a user who has logged hours on the task cannot be unassigned from that task.
 
 ## Overview of effective dates
 
