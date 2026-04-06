@@ -17,7 +17,9 @@ exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
 
 <!--DELETE ME MARCH 2026-->
 
-<!--{{important-not-on-aec}}
+<!--
+
+{{important-not-on-aec}}
 
 You can reset your [!DNL Adobe Workfront] password. As an important security measure, we recommend that you do this regularly.
 
@@ -25,9 +27,10 @@ You can reset your [!DNL Adobe Workfront] password. As an important security mea
 >
 >A [!DNL Workfront] administrator can configure custom password restrictions, as explained in [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) and [Configure password policies for authentication](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md).
 >
-><!-- [!DNL Workfront] administrator can also reset your password in an Enhanced Authentication enabled environment. For more information, see [Reset a user's password with Enhanced Authentication](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).-->
+>[!DNL Workfront] administrator can also reset your password in an Enhanced Authentication enabled environment. For more information, see [Reset a user's password with Enhanced Authentication](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).-->
 
-<!--## Access requirements
+<!--
+## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
 
@@ -80,3 +83,5 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    Password rules might be more strict than this, depending on configuration settings set by your [!DNL Workfront] administrator.
 
 1. Click **[!UICONTROL Save]**.
+
+-->
