@@ -13,8 +13,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Organize and preview a form
 
-{{preview-fast-release-general}}
-
 You can organize a custom form with the form designer, and preview it to verify that it is set up correctly.
 
 ## Access requirements
@@ -79,8 +77,8 @@ For information about custom fields and widgets in custom forms, see [Create a c
       <td role="rowheader">Description</td> 
       <td>Type text if you want to explain to users what the section is for. This displays below the section's label on the custom form.</td> 
      </tr> 
-      <td><span class="preview">Collapsed by default</span></td>
-      <td><span class="preview">By default, all sections on a custom form are expanded when the form itself is expanded. Select this option to have the section collapsed by default when a user opens the form.</span></td>
+      <td>Collapsed by default</td>
+      <td>By default, all sections on a custom form are expanded when the form itself is expanded. Select this option to have the section collapsed by default when a user opens the form.</td>
      <tr>
      </tr>
      <tr> 

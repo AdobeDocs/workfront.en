@@ -11,13 +11,11 @@ exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
 ---
 # Customize object headers using a layout template
 
-{{highlighted-preview}}
-
 As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the fields users see in the object header when they open an object's page.
 
 >[!IMPORTANT]
 >
->Customizing object headers is currently available for projects, tasks, issues, <span class="preview">portfolios, programs, templates, billing records, teams, users, companies, groups, and rate cards.</span>
+>Customizing object headers is currently available for projects, tasks, issues, portfolios, programs, templates, billing records, teams, users, companies, groups, and rate cards.
 
 ![Object header fields](assets/object-header-fields.png)
 
