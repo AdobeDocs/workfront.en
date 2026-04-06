@@ -297,7 +297,15 @@ When you create a connected records page for connected Workfront projects, do th
 
 1. Go to a record type page and click the name of a record. This opens the record's preview page.
 1. Click the tab for a connected records page that displays Workfront projects.
+   
+   ![Projects connected records page](assets/projects-connected-records-page-table.png)
+
    The projects connected to the record you selected display in the list view. 
+
+   For information about managing or editing objects in the list view, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md). 
+
+<!-- 
+removed this part, so we won't have to have duplicate information to keep up with for the list view in Planning: 
 1. Click **Connect records** in the upper-right corner of the connected record page to connect existing projects.
 
    For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
@@ -329,6 +337,7 @@ When you create a connected records page for connected Workfront projects, do th
       * The **+** icon in the upper-right corner of the table view to add existing fields to the list. Fields must exist before you can add them. 
 
    For more information about managing objects in a list view, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+-->
 
 <!--
  this is repetitive from an earlier section above: 

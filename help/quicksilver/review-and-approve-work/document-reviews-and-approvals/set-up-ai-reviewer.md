@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Create Content Reviewers
-description: Once you have at least one brand set up in Workfront, you can create multiple Content Reviewers, which you can then assign to approval templates and individual review and approval requests.
+title: Create AI Reviewers
+description: Once you have at least one brand set up in Workfront, you can create multiple AI Reviewers, which you can then assign to approval templates and individual review and approval requests.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -12,13 +12,13 @@ exl-id: 4673049e-119e-4315-95f0-f10d8b286856
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
-# Create Content Reviewers
+# Create AI Reviewers
 
 >[!NOTE]
 >
 >This feature is currently in beta. 
 
-Once you have at least one brand set up in Workfront, you can create multiple Content Reviewers, which you can then assign to approval templates and individual review and approval requests. 
+Once you have at least one brand set up in Workfront, you can create multiple AI Reviewers, which you can then assign to approval templates and individual review and approval requests. 
 
 
 ## Access requirements
@@ -52,26 +52,26 @@ For more detail about the information in this table, see [Access requirements in
 
 Before you begin, you must set up image brand guidelines in Workfront. For more information, see [Create and manage brands for the Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
-## Add a Content Reviewer
+## Add an AI Reviewer
 
 >[!NOTE]
 >
->The Content Reviewer is not designed to be a decision-maker in the review and approval workflow. It only provides a score and recommendations to align the asset with the specified brand requirements. 
+>The AI Reviewer is not designed to be a decision-maker in the review and approval workflow. It only provides a score and recommendations to align the asset with the specified brand requirements. 
 
 To add a Content Reviewer:
 
 {{step-1-to-setup}}
 
-1. In the left panel, go to **Review and Approval** > **Content Reviewers**.
+1. In the left panel, go to **Review and Approval** > **AI Reviewers**.
 1. Click **Add new**.
 1. Name the reviewer.
 1. Select a **Brand**.
 1. Select one of the following in the **Guideline Type** drop-down menu:
-    * **Image**: The Content Reviewer will review the asset against the image brand guidelines you set up in Workfront.
-    * **Brand voice**: The Content Reviewer will review the asset against brand voice guidelines you set up in Workfront.
+    * **Image**: The AI Reviewer will review the asset against the image brand guidelines you set up in Workfront.
+    * **Brand voice**: The AI Reviewer will review the asset against brand voice guidelines you set up in Workfront.
 1. Click **Create**.
 
-    Once the Content Reviewer is created, users can add the Content Reviewer to approval templates or individual approvals. 
+    Once the AI Reviewer is created, users can add the AI Reviewer to approval templates or individual approvals. 
 
     For more information, see
 

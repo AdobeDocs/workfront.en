@@ -4,6 +4,7 @@ description: Second Quarter 2026 Enterprise Operations enhancements
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
 ---
 # Second Quarter 2026 Enterprise Operations enhancements
 
@@ -159,5 +160,3 @@ For more information, see [Configure custom localization](/help/quicksilver/admi
 Workfront administrators can now configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object, or attaching a custom form to the object.
 
 For more information, see [Create and edit business rules](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
-
-

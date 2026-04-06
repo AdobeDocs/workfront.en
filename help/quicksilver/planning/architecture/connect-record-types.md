@@ -269,13 +269,17 @@ Old:
     * **Multi-select**: Select this to allow one record from the current record type to connect with multiple records from the connection record type.
     * **Single-select**: Select this to allow one record from the current record type to connect with one record from the connection record type.
 
-1. Select the **Create corresponding field on linked record type**. When selected, a connection field is created on the record type you are connected to, in addition to the connection field added to the current record type. This is disabled by default.
+1. Select the **Create corresponding field on linked record type**. When selected, a connection field is created on the record type you are connecting to, in addition to the connection field added to the current record type. This is disabled by default.
 
     >[!TIP]
     >
     >* In addition to the limit of 30 connection fields for one record type, there is a limit of 500 fields for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit.
     >
     >* Selecting the **Create corresponding field on linked record type** is a prerequisite for creating hierarchies.
+    >
+    >* A linked record field is not created for objects from another application in their respective applications. For example, there is no field created for Workfront objects connected to Planning records. 
+    >
+    >   
 
 1. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
 
@@ -323,7 +327,14 @@ Old:
 
 1. Select the **Select lookup fields** to add fields from the  record type you are connecting to. The lookup fields are fields associated with the record or object type that you are linking to. Linking them displays information from the record or object you're linking to on the record you are linking from. This is selected by default.
 
+    <!--
+    When reference fields are coming, change the first bullet in the TIP below with this: 
+    >* In the Production environment, you cannot add Workfront reference fields (for example, the Project Group or Company from a Workfront Project) as lookup fields in Planning. <span class="preview">You can add Workfront reference fields as lookup fields in the Preview environment.</span>
+    -->
+
     >[!TIP]
+    >
+    >* You cannot add reference fields from another application as lookup fields. For example, you cannot add Project Group or Company as a lookup field in Planning when you connect to Workfront projects. 
     >
     >* In the Production environment, you cannot add Workfront user fields (including fields like Project Owner, or Project Sponsor) as lookup fields. <span class="preview">You can add user fields as lookup fields in the Preview environment.</span>
     >

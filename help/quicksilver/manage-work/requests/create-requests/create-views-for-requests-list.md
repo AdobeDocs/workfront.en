@@ -71,11 +71,11 @@ For more detail about the information in this table, see [Access requirements in
 
 In addition to the views you can create yourself, Workfront offers the following system views for the Requests area and My Requests widget in Home: 
 
-   * **All Requests**: All requests that you or anyone else submitted in queues or workspaces you have permissions to view. This is not available for the My Requests widget.
-   * **My Requests**: Requests you submitted, regardless of status. 
-   * **My Open Requests**: Requests you submitted and are still open.
-   * **My Drafts**: Drafts of your quests that have not been submitted yet. 
-   * **Open Requests**: Requests that you or anyone else submitted in queues or for workspaces you have permissions to view that are still open. This is not available for the My Requests widget.
+* **All Requests**: All requests that you or anyone else submitted in queues or workspaces you have permissions to view. This is not available for the My Requests widget.
+* **My Requests**: Requests you submitted, regardless of status. 
+* **My Open Requests**: Requests you submitted and are still open.
+* **My Drafts**: Drafts of your quests that have not been submitted yet. 
+* **Open Requests**: Requests that you or anyone else submitted in queues or for workspaces you have permissions to view that are still open. This is not available for the My Requests widget.
 
 You cannot edit system views. You can modify their elements, then copy the view and edit or share the copy. 
 
@@ -89,13 +89,13 @@ You can create a view in the Requests area of Workfront when you use the new req
 
    {{step1-to-requests}}
 
-1. Ensure the **Use new experience** setting is turned on.
+   1. Ensure the **Use new experience** setting is turned on.
 
 1. To access the **My Requests** widget in home: 
 
    {{step1-to-home}}
 
-1. Add or go to the **My Requests** widget. 
+   1. Add or go to the **My Requests** widget. 
 
 1. In the list of requests, click the **Views** dropdown menu ![Views dropdown](assets/view-icon-requests.png) and click **New view**.
 

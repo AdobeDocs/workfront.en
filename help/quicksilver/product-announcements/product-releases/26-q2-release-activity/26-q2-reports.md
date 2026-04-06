@@ -14,6 +14,45 @@ This page describes Reporting enhancements made with the Second Quarter 2026 rel
 
 For a list of all changes available at this point in the Second Quarter 2026 release cycle, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Current version field for Document Versions
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+We have added a `currentVersion` boolean field to the Document Version object to make it easier to identify and report on the latest version of a document.
+With this update:
+
+* You can use `currentVersion` in filters, views, groupings, and charts.
+* The field is available in the Canvas field chooser for Document Version reports.
+
+* When a new version is uploaded:
+   
+   * The new version is marked as `TRUE`
+   * Previous versions are marked as `FALSE`
+
+* Reports can consistently identify current versions across Canvas dashboards and legacy reporting
+
+Existing filters for classic reports using `isCurrentVersion` or `isDocumentCurrentVersion` continue to work as documented.
+
+## Scheduled Report Delivery Now Supports Link-Based Emails
+
+>[!NOTE]
+>
+>Preview: April 3, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+Workfront now includes a new Link delivery type for scheduled reports. Instead of generating and attaching a file, this option sends an email containing a direct link to the report in Workfront, allowing recipients to view{{$include }} the most current data in the application. 
+
+The Link option is now the default delivery type for newly created scheduled report delivery rules, while existing file-based formats (HTML, PDF, Excel, and TSV) remain available.
+
+With this change, we've also updated the look-and-feel of the report delivery email.
+
+For more information, see [Schedule an automatic report delivery](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+
 ## Run reports as a specific user in Canvas dashboards
 
 >[!NOTE]
@@ -29,22 +68,6 @@ You can now configure reports on Canvas dashboards to run as a specific user. Wh
 This ensures more consistent and reliable data across dashboard viewers, even when access to Planning workspaces, record types, or authorization settings differs.
 
 For more information, see [Build a KPI report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Build a chart report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md), or [Build a table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
-
-## Scheduled Report Delivery Now Supports Link-Based Emails
-
->[!NOTE]
->
->Preview: April 2, 2026
->Production fast release: April 15, 2026
->Production for everyone: April 16, 2026
-
-Workfront now includes a new Link delivery type for scheduled reports. Instead of generating and attaching a file, this option sends an email containing a direct link to the report in Workfront, allowing recipients to view the most current data in the application. 
-
-The Link option is now the default delivery type for newly created scheduled report delivery rules, while existing file-based formats (HTML, PDF, Excel, and TSV) remain available.
-
-With this change, we've also updated the look-and-feel of the report delivery email.
-
-For more information, see [Schedule an automatic report delivery](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
 ## New Authentication Options for Data Connect Connection
 

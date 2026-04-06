@@ -22,10 +22,12 @@ Adobe Workfront Planning provides centralized visibility into your marketing lif
 >
 >* Adobe Workfront is offering a 60-day free trial of Adobe Workfront Planning to all Adobe Workfront customers who are not also Workfront Planning customers. 
 >
->* The trial is available between the following dates: March 2 - May 1, 2026. 
+>* The sign-up period ended on April 1, 2026 and it is now closed. 
 >
->* Note that the trial is available for 60 days from its launch, and not for 60 days from when you join it. 
->* The sign-up period ends on April 1, 2026. 
+>* If you accepted the trial agreement and are enrolled in the trial, it is available between the following dates: March 2 - May 1, 2026. 
+>
+>* Note that the trial is available for 60 days from its launch, and not for 60 days from when you joined it.
+>
 
 With this trial, you will see firsthand how Planning helps align daily work with strategic objectives, streamlines execution, and drives measurable results for your organization. 
 

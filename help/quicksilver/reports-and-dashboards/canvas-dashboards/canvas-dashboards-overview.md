@@ -93,6 +93,7 @@ Below is a list of the report types currently supported in the beta, as well as 
 * Drilldown configuration for KPI and Chart reports  
 * Grouping table results 
 * Dashboard-level filters and user-applied overlay filters 
+* Run as User configuration for reports 
 
 
 ### Features in development

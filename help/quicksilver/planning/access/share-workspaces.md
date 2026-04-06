@@ -174,6 +174,10 @@ To share a workspace with others:
    >
    >* When you share a workspace with a user, their primary job role <span class="preview">and their email</span> also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email.  
 
+1. <span class="preview">(Optional) When you share with a group, team, role, or company, hover over the name of the entity and click the right-pointing arrow to expand a list of users that are receiving the permissions. </span>
+
+   ![Share workspace with a group](assets/share-workspace-role-expanding-arrow-highlighted.png)
+
 1. Select one of the following permission levels from the drop-down menu: 
     * View
     * Contribute
