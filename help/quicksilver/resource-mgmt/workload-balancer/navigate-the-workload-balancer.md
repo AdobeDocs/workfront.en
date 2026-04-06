@@ -252,7 +252,12 @@ To navigate the Workload Balancer for multiple projects:
 
     * **Show completed work**: When this is enabled, completed tasks and issues display in the Assigned Work area. This is enabled by default. 
     
-        A green checkmark icon displays in the upper-right corner of a task or issue bar when they are completed. The same icon displays for a project when the tasks or issues for the selected time frame of the project are completed.
+      A green checkmark icon displays in the upper-right corner of a task or issue bar when they are completed. The same icon displays for a project when the tasks or issues for the selected time frame of the project are completed.
+
+      >[!NOTE]
+      >
+      >Task visibility in the Workload Balancer is driven by task-level completion, not assignment-level completion. If a task has multiple assignees, and one or more of the assignees select "Done with my part" but the overall task status is not Complete, the task is considered uncompleted work. When the **Show completed work option** is turned off, the task would still display because it is not fully completed.
+
     * **Show remaining time**: When this is enabled, Workfront displays the difference between the daily time for which the user is available to work based on their schedules and the hours for which they are allocated in the Assigned Work area for the users. This is disabled by default and allocated time displays by default.
     * **Show Role Assignments**: When this is enabled, role assignments display in the Unassigned Work area under their assigned work items. This is enabled by default.
 
@@ -469,7 +474,7 @@ Navigating the Workload Balancer of a team is similar to how you navigate the Wo
 
 1. Continue navigating the Workload Balancer of a project as described in the [Navigate the Workload Balancer for multiple projects](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) section of this article.
 
-### Navigate the Workload Balancer of a user
+## Navigate the Workload Balancer of a user
 
 You can access the Workload Balancer on your own user profile.
 
