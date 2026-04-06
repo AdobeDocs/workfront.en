@@ -176,7 +176,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
      <tr> 
        <td><span class="preview">[!UICONTROL Rate Card]</span></td> 
        <td><span class="preview">The name of a rate card</span></td> 
-       <td><span class="preview">[!UICONTROL Job Roles and Rates], [!UICONTROL Rate Card Details], [!UICONTROL Expense Type and Rates]</span></td> 
+       <td><span class="preview">[!UICONTROL Job Roles and Rates] (cannot be hidden), [!UICONTROL Rate Card Details]</span></td> 
      </tr>
      <tr> 
        <td><span class="preview">[!UICONTROL Group]</span></td> 
@@ -195,20 +195,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
        <td>Timesheets</td> 
        <td>The name of the timesheet</td> 
        <td>My Timesheets, Timesheets I Approve, All Timesheets (cannot be hidden) </td> 
-      </tr>
-     --> 
-     <!--
-      <tr> 
-       <td>Resourcing</td> 
-       <td>The name of the resource</td> 
-       <td>Planner (cannot be hidden), Workload Balancer, Utilization, Resource Pools </td> 
-      </tr>
-     --> 
-     <!--
-      <tr> 
-       <td>User Details</td> 
-       <td>____________</td> 
-       <td>Details (cannot be hidden), Org Chart, Time Off, Custom Forms </td> 
       </tr>
      --> 
     </tbody> 
