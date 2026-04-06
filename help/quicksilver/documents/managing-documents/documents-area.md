@@ -68,9 +68,7 @@ The Document Details page provides a more full-scale version of the Document Det
 
 ## New document area
 
->[!NOTE]
->
->The global documents area is not available in the new documents area experience. You can only access documents from a programs, portfolios, projects, tasks, or issues.
+The new documents area is only available for if your organization is on enterprise storage. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Use the summary panel
 
@@ -100,3 +98,9 @@ You can view a document's history in the new documents area. The history include
 ### System-level folders for document permissions
 
 Workfront automatically creates a system-level folder when the first document is uploaded to a task or issue. These folders inherit permissions from the task or issue and are visible in the project-level documents area. All documents uploaded to that task or issue are stored in that folder and inherit permissions from it. This is the primary way that permissions are managed for documents in the new documents area. For more information, see [Object permissions and access level overview for the Adobe enterprise storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+
+## Considerations
+
+* The new documents area is optimized for screens 1024 pixels wide or larger. If you have a smaller screen, you may may have issues accessing the Summary panel. 
+
+* The global documents area is not available in the new documents area experience. You can only access documents from a programs, portfolios, projects, tasks, or issues.
