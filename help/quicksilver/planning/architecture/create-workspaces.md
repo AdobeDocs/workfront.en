@@ -146,7 +146,7 @@ You can create workspaces in the following ways:
 
    >[!TIP]
    >
-   >You cannot create multiple workspaces at one time unless you use the best-practice template bundle.
+   >You can create multiple workspaces at one time only when you use the best-practice template bundle.
 
 
 </div>

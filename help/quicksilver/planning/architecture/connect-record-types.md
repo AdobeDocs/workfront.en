@@ -218,7 +218,16 @@ Old:
         ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
         -->
 
-    For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
+        For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
+
+        >[!TIP]
+        >
+        ><span class="preview">You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for record types :</span>
+        >
+        >* <span class="preview">CTRL+K for Windows</span>  
+        >* <span class="preview">⌘+K for Mac</span>  
+        >
+        >![Global search box](assets/global-search-box.png)
 
     * A **Project, Portfolio, Program, Company**, or **Group** from the **Workfront Object Types** section.
 

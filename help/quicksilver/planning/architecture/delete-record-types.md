@@ -14,11 +14,9 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 # Delete record types
 
-<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 {{planning-important-intro}}
 
@@ -162,6 +160,13 @@ Old:
     Or
 
     From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
+
+    >[!TIP]
+    >
+    ><span class="preview">You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for workspaces:</span>
+    >
+    >* <span class="preview">CTRL+K for Windows</span>  
+    >* <span class="preview">⌘+K for Mac</span>
 
     The workspace opens and the record types display. 
 1. Do one of the following:

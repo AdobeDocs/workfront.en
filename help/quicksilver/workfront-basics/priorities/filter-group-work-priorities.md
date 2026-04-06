@@ -149,6 +149,7 @@ Use natural language to quickly filter work.
 
 1. Click **Groups** in the top left of the worklist.
 1. Select a group to organize your worklist.
+  
   ![Groups](assets/groups-new.png)
 
   +++Expand to see detailed information about available groups
@@ -166,7 +167,7 @@ Use natural language to quickly filter work.
 
 You can drag and drop individual work items between categories when grouping by My Priority or Status.
 
-1. Group your work by **Status** or **My Priority**.
+1. Group your work by **Status** or **My Focus**.
 2. Hover over the work item to click the **Drag** icon and move it to the desired category.
 ![drag icon](assets/drag-and-drop.png)
 
@@ -186,6 +187,6 @@ To sort individual columns, go to the column and click the down arrow.
 
 ### Expand or collapse all group sections
 
-To expand or collapse all group sections, open **Group** and click **Expand all** or **Collapse all**.
+To expand or collapse all group sections, open **Group** and click **Expand all** if the groupings are collapsed or **Collapse all** if the groupings are expanded.
 
 ![Expand or collapse groups](assets/expand-collapse-groups.png)

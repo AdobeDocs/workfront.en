@@ -125,7 +125,7 @@ To view requests that you or other users have submitted in the new requesting ex
    
    <div class="preview">
 
-   * Group
+   * **Grouping**
    * Format cells
    * Row height
    
