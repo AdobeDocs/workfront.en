@@ -13,15 +13,7 @@ For security reasons, it is important to log out of [!DNL Adobe Workfront] regul
 
 >[!NOTE]
 >
->Normally a [!DNL Workfront] administrator can change this amount of time to anywhere between 15 minutes and 7 days of inactivity, as explained in [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), but this functionality is currently unavailable. We are working on authentication enhancements that will allow automatic log out after a specified period of inactivity.
-
-<!--
-><MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
->TEMPORARY note! Remove and update how this works after IMS takes over. There's another note like this in Manage Workfront/Security/configure-security-preferences.html>
-></MadCap:conditionalText>
--->
-
->The procedure described on this page it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
+>Normally a [!DNL Workfront] administrator can change this amount of time to anywhere between 15 minutes and 7 days of inactivity, as explained in [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), but this functionality is currently unavailable. We are working on authentication enhancements that will allow automatic log out after a specified period of inactivity.>The procedure described on this page it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
 >All Workfront organizations have now been onboarded to the Adobe Admin Console.
 >
@@ -43,7 +35,8 @@ For security reasons, it is important to log out of [!DNL Adobe Workfront] regul
    <td>Adobe Workfront license</td> 
    <td> 
    <p>Contributor or higher</p>
-   <p>Request or higher</p> </td> 
+   <p>Request or higher</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
