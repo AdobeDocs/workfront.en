@@ -6,6 +6,8 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
+last-update: 2026-04-01T11:23:03-07:00
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 ---
 
 # Manage the record page layout
@@ -72,7 +74,8 @@ For more information about Workfront access requirements, see [Access requiremen
 +++   
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
  <col>
  </col>
@@ -133,7 +136,8 @@ For more information about Workfront access requirements, see [Access requiremen
   </td>
   </tr>
  </tbody>
-</table>-->
+</table>
+-->
 
 ## Considerations about working with record pages
 
@@ -184,7 +188,7 @@ To add a section to a record preview or page:
 
     Or 
     
-    From the table table view, click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) in the first column. 
+    From the table view, click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) in the first column. 
     
     <span class="preview">The record's preview opens in the view.</span>
 
@@ -278,17 +282,23 @@ To add a section to a record preview or page:
 
    </div>
 
+      <!--
+      replace with this when they fix the UI text:
+      * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+      * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
+      -->
+
+      >[!TIP]
+      >
+      ><span class="preview">The **Show all fields** setting is available only in the record's Details preview box. It is not available in the record's Details page.</span>
+
+1. (Optional) If you want to navigate to a connected record, click the name of that record in the breadcrumb at the top of the details page. <span class="preview">
+
+   If you cannot see the name of a record in the breadcrumb, click **More**. This displays the breadcrumb on multiple rows. Click **Less** to shorten the breadcrumb and display it on one row.</span>   
+
    >[!TIP]
    >
-   ><span class="preview">The **Show all fields** setting is available only in the record's Details preview box. It is not available in the record's Details page.</span>
-
-
-   <!--replace with this when they fix the UI text:
-   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
-   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
-   -->
-
-   </div> 
+   >You must have connected record types, records, and hierarchies in your workspace to be able to see breadcrumbs in the record's details page. 
 
 1. (Optional) Click the **Open in new tab** icon ![Open details box in a new tab icon](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
 
@@ -314,7 +324,8 @@ You can view information from connected records or objects by adding a tab for a
 
 For more information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md). 
 
-<!--this content has been moved to the page linked above
+<!--
+this content has been moved to the page linked above
 Consider the following when adding a Connected records page to a record: 
 
 * You can add a Connected records page to a record after you connected record or object types to the record type from the table view of a record type.
@@ -428,7 +439,8 @@ To add a Connected records page:
    >
    >You cannot create, edit, or delete fields in the table view of a connected record's tab.
    
-1. (Optional)  Hover over the name of the Connected records page tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.-->
+1. (Optional)  Hover over the name of the Connected records page tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.
+-->
 
 
 <!--
@@ -438,13 +450,11 @@ To add a Connected records page:
 
 You can add a Brief page to the record's preview or pages. 
 
-Brief pages contain the same information as the Details tab, in a read-only format. <!--edit this when we can remove fields from this page-->
+Brief pages contain the same information as the Details tab, in a read-only format. edit this when we can remove fields from this page
+-->
 
 <!--
 1. From a record's page view, click the name of a record to open its preview or page.
 1. Click **Add page** > **Brief**. 
 1. Add the **Page name**, then click **Create**. 
 -->
-
-
-

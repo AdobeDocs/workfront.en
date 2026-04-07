@@ -3,9 +3,11 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Export Data
 description: You can export Adobe Workfront data from lists, reports, dashboards, and searches.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Export data
 

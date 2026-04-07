@@ -6,6 +6,8 @@ description: You can change the language in which you display Adobe Workfront an
 feature: Get Started with Workfront
 author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Supported languages in Adobe Workfront
 
@@ -20,11 +22,11 @@ Workfront supports the following languages:
 * English (en-US)
 * French (fr-FR)
 * German (de-DE)
-* Japanese (ja)
-* Spanish (es)
-* Italian (it_IT)
+* Japanese (ja-JP)
+* Spanish (es-ES)
+* Italian (it-IT)
 * Portuguese (pt-BR)
-* Korean (ko)
+* Korean (ko-KR)
 * Chinese - Simplified (zh-CN)
 * Chinese - Traditional (zh-TW)
 

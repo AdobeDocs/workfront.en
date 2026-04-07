@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 
 <!--keep the 30 connection limit in yellow till Jan 2026-->
 
 # Adobe Workfront Planning object limitations overview
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.</span>   
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.</span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -62,7 +66,8 @@ For information about Workfront Planning pricing and packaging, contact your acc
 -->
 
 
-<!--OLD limitations (before GA:)
+<!--
+OLD limitations (before GA:)
 
 |       Adobe Workfront Planning  object                                                          |                                                        Limit                                                    |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
@@ -80,6 +85,8 @@ For information about Workfront Planning pricing and packaging, contact your acc
 -->
 <!--| Size of CSV of Excel file you can import* | 5MB |-->
 
-<!--[!IMPORTANT]
+<!--
+[!IMPORTANT]
 >
->*This functionality has been temporarily removed and it will be available at a later date.-->
+>*This functionality has been temporarily removed and it will be available at a later date.
+-->

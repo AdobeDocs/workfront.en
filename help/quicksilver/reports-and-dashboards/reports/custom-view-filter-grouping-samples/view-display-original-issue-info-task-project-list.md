@@ -4,9 +4,11 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View: Display Original Issue Information on Task or  Project Lists'
 description: You can display information from the original issue on a view of task and project lists, after the issue has been converted to the tasks and projects in the list.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View: display original issue information on task or  project lists
 

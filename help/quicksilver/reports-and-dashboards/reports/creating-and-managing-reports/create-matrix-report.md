@@ -3,9 +3,11 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Create a matrix report
 description: Matrix reports present summary information in an aggregated table format, making it easier to view than if it were displayed in a list like in a traditional report.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create a matrix report
 

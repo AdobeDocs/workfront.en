@@ -11,6 +11,8 @@ exl-id: d4f02102-0378-472f-9ebb-753502ec048b
 ---
 # Customize the Main Menu using a layout template
 
+{{highlighted-preview}}
+
 <!--Audited: 01/2024-->
 
 As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the options users see when they open the Main Menu in Workfront.
@@ -116,7 +118,28 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       >
       > Custom applications must be created separately before they become available as Main Menu options. For more information, see [Create a custom application for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md). 
 
-1. Do any of the following:
+<div class="preview">
+
+In the Preview environment:
+
+1. Do any of the following for the **Native** items:
+
+   * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) items that you don't want to display on the Main Menu.
+   * Show ![Show icon](assets/add-icon-plus-in-circle.png) items that you do want to display on the Main Menu.
+   * Drag ![Drag icon](assets/move-icon---dots.png) items to change their display order on the Main Menu.
+
+1. Do any of the following for the **System** items:
+
+   * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) items that you don't want to display on the Main Menu.
+   * Show ![Show icon](assets/add-icon-plus-in-circle.png) items that you do want to display on the Main Menu.
+
+</div>
+
+   >[!NOTE]
+   >
+   ><span class="preview">You can't change the order of system items. These items always display at the bottom of the Main Menu when they are active.</span>
+
+1. In the Production environment, do any of the following:
 
    * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) **Active items** that you don't want to display
    * Show ![Show icon](assets/add-icon-plus-in-circle.png) **Available items** that you do want to display on the Main Menu.

@@ -3,11 +3,15 @@ product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
 title: Share a Canvas Dashboard
 description: You can share a Canvas dashboard with other Adobe Workfront users so that they can view or edit it.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Share a Canvas Dashboard
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -75,6 +79,8 @@ For more detail about the information in this table, see [Access requirements in
 * When sharing a dashboard, the resources it's shared with will inherit permissions to the reports displayed on the dashboard.
 
 * When a dashboard is distributed through a layout template, an automatic View permission for the dashboard (and its reports) is granted to all resources assigned to the layout template.
+
+* <span class="preview">When a report on a dashboard is configured with the Run as User option, all viewers see data based on the selected user's permissions rather than their own. This means viewers may see data they don't normally have access to. If some reports on a dashboard use Run as User and others don't, viewers may see inconsistent data across reports.</span>
 
 
 ## Share a Canvas Dashboard

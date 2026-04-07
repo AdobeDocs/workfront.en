@@ -8,6 +8,8 @@ description: When you attach a template to an existing project, you are modifyin
 author: Alina
 feature: Work Management
 exl-id: 7f0137b6-ce8e-4b66-ad55-e6dc2aae09d9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Overview of attaching a template to a project
 
@@ -321,7 +323,8 @@ The following table describes the default for what happens to project fields whe
 
   
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <div>
 <h2> </h2>

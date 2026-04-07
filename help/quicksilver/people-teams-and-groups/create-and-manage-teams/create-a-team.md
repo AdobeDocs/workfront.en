@@ -3,9 +3,11 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Create a Team
 description: When you create a team you become the Team Owner, by default.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create a team
 

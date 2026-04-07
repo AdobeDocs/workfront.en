@@ -3,10 +3,12 @@ product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards
 title: Canvas Dashboards overview
 description: Learn about Canvas Dashboards
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Canvas Dashboards overview
 
@@ -91,6 +93,7 @@ Below is a list of the report types currently supported in the beta, as well as 
 * Drilldown configuration for KPI and Chart reports  
 * Grouping table results 
 * Dashboard-level filters and user-applied overlay filters 
+* Run as User configuration for reports 
 
 
 ### Features in development

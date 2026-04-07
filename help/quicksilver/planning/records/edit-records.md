@@ -6,13 +6,15 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 
 # Edit records
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -63,7 +65,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -116,7 +119,8 @@ For more information about Workfront access requirements, see [Access requiremen
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>  <p>Contribute or higher permissions to a workspace and record type </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
-  </tr> -->
+  </tr>
+  -->
 
 ## Considerations about editing records
 
@@ -133,7 +137,7 @@ For more information about Workfront access requirements, see [Access requiremen
 * The following types of fields are automatically updated, and you cannot edit their values manually: 
     * Linked fields from other records
     * Formula-type fields
-    * System fields (Created by, Created date, Last modified by, Last modified date, Approved date, Approved by) 
+    * System fields (Created by, Created date, Last modified by, Last modified date, Approved date, Approved by , <span class="preview">Record ID</span>) 
 * If the records you display are linked to other records, the new information of the records that you are editing reflects on the linked records in all workspaces where that record is linked. 
 * You cannot edit records in bulk. <!--this will probably change-->
 * URLs are recognized as links in single-line text field types only when they start with the following: http://, https://, ftp://, or www. . 
@@ -181,6 +185,8 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 1. (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last.
 
     The records associated with the selected record type display in the table view. 
+1. (Optional) Click the search box and add a keyword to find a record you want to edit. 
+
 1. Click inside the row of a record to start editing information about the record inline.
 
     ![Edit record paragraph field with formatting table view](assets/edit-record-paragraph-field-with-formatting-table-view.png)

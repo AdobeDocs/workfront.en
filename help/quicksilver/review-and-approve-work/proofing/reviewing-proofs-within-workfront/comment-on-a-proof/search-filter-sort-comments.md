@@ -6,6 +6,8 @@ description: You can search, filter, and sort proof comments to easily navigate 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Search, filter, and sort proof comments
 
@@ -83,9 +85,11 @@ You can filter the comments that display by defining filter parameter such as us
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Actions</strong> </td> 
-      <td>Displays only comments that match the action you select.n no action. Actions must be enabled in your system. For more information, see .<!--
+      <td>Displays only comments that match the action you select.n no action. Actions must be enabled in your system. For more information, see .
+      <!--
         &nbsp;
-       --></td> 
+       -->
+       </td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>General filtering options</strong> </td> 

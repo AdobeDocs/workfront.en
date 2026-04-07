@@ -3,9 +3,11 @@ product-area: documents
 navigation-topic: approvals
 title: View the number of proof and document decisions for all users
 description: You can view the number of proof and document decisions made by users in your Workfront instance.
-author: Courtney and Jenny
+author: Courtney
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 
 # View the number of proof and document decisions for all users

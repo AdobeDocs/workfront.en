@@ -4,10 +4,12 @@ product-area: system-administration
 navigation-topic: start-with-workfront-administration
 title: Send Announcements
 description: As a Adobe Workfront administrator, you can use the Announcements page to send announcements to users.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Send announcements
 

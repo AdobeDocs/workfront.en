@@ -6,6 +6,8 @@ description: A Workfront or group administrator can customize the names of objec
 author: Alina
 feature: Workfront Goals
 exl-id: a3b3e61e-c385-429b-856b-7579b02c9946
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Customize Adobe Workfront Goals terminology
 
@@ -19,7 +21,8 @@ exl-id: a3b3e61e-c385-429b-856b-7579b02c9946
 >
 >For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -36,7 +39,8 @@ exl-id: a3b3e61e-c385-429b-856b-7579b02c9946
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).  --> 
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 A Workfront or group administrator can customize the names of objects in Workfront Goals to better match your organization's terminology. 
 

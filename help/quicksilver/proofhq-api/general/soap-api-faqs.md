@@ -27,7 +27,7 @@ It takes 2 simple steps:
 
 **Step 1**: If you don't have a Session ID yet, obtain one by using the doLogin() or getSessionID() methods. Use the former to 'log in' using a user's email address and password or the latter method if you have the user's email address and authentication token.
 
-**Step 2:**Now it's time to create your proof. Use the createProof() method and send us at least the required fields (currently there's only 5 of them). Ensure you set the Hash parameter to "web" and the SourceName parameter as the URL of the web page you want to capture.
+**Step 2:** Now it's time to create your proof. Use the createProof() method and send us at least the required fields (currently there's only 5 of them). Ensure you set the Hash parameter to "web" and the SourceName parameter as the URL of the web page you want to capture.
 
 If you now log in to your account you will see the proof.
 

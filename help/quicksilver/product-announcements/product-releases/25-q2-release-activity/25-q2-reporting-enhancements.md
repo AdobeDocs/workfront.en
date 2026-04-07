@@ -1,10 +1,12 @@
 ---
 title: Second Quarter 2025 Reporting enhancements
 description: Second Quarter 2025 Reporting enhancements
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 50639b81-d4d0-4702-98ba-2d5ec29575dc
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Second Quarter 2025 Reporting enhancements
 

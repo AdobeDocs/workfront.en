@@ -6,6 +6,8 @@ description: Predecessors are tasks on which other tasks are dependent for compl
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Enforce predecessors
 
@@ -61,7 +63,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -88,7 +91,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td><p>Manage permissions to the tasks and the project</p></td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Enforce a predecessor at the task level
 

@@ -4,10 +4,12 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Manage Available Licenses in your System
 description: As an Adobe Workfront administrator, you can access information about your Workfront account, including the number of licenses purchased for your organization, as well as the number of those licenses currently in use.
-author: Lisa, Jenny
+author: Lisa, Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Manage available licenses in your system
 

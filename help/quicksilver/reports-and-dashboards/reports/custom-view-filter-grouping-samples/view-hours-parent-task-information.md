@@ -4,9 +4,11 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View: Hours with Parent Task Information'
 description: This hour view displays the name of the task where the hours were logged as well as the name of the parent task.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c24555fc-3bae-451b-8a44-28a8158199d1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View: hours with parent task information
 

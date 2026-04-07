@@ -6,6 +6,8 @@ description: Overview of the systems available for review and approval in Workfr
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Available functionality for document approvals
 
@@ -52,12 +54,13 @@ Key features available for Unified Approvals:
 * Use Canvas Dashboards, currently in beta, to view reporting details about Unified Approvals
     For more information on reporting, see [Create a report dashboard for review and approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 
-* Create multiple stage approvals [!BADGE Coming soon]{type=Informative}
+* Create multiple stage approvals
 
 * Access review and approval requests in the My Approvals widget in the Home area
 
-* Use the AI Reviewer to automate brand compliance reviews. For more information, see [Get started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+* Use the Content Reviewer to automate brand compliance reviews. For more information, see [Get started with the Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
+* Use the Frame.io viewer to review and approve documents. For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 ## Proof approvals 
 
@@ -82,7 +85,3 @@ Features available for proofing:
 * Use basic or automated workflows
 
 * Access approval requests in the My Approvals widget in the Home area
-
-<!--
-## Upcoming deprecations
--->

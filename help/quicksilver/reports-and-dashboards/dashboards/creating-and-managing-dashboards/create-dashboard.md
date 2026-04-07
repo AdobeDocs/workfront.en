@@ -3,9 +3,11 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Create a dashboard
 description: You can create dashboards to quickly access information in Adobe Workfront. Reports, calendars, and external pages can be added to dashboards that you can share with others for optimal collaboration.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create a dashboard
 

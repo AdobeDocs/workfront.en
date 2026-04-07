@@ -6,18 +6,22 @@ description: You can edit task information in a list of tasks by editing the fie
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Edit tasks in a list {#edit-tasks-in-a-list}
 
 <!-- Audited: 10/2025 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
-</div>-->
+</div>
+-->
 
 You can edit task information in a list of tasks by editing the fields displayed in the list. For information about other ways to edit tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -54,7 +58,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -78,7 +83,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>Contribute or higher permissions to the task and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerations about editing tasks in a list {#considerations-about-editing-tasks-in-a-list}
 
@@ -529,7 +535,8 @@ You can edit multiple tasks at the same time. Ensure you have manage permissions
 1. Click **Save**. 
 
 
-<!--Temporary content while changing the Assignments area:
+<!--
+Temporary content while changing the Assignments area:
 
 Editing multiple tasks at the same time differs depending on what environment you choose. 
 
@@ -594,4 +601,5 @@ Editing multiple tasks at the same time differs depending on what environment yo
 
 <div class="preview">
 
-### Edit tasks in bulk in the Preview environment-->
+### Edit tasks in bulk in the Preview environment
+-->

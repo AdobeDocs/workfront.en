@@ -3,9 +3,11 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Share a dashboard
 description: Your Adobe Workfront administrator grants users access to view or edit dashboards when they assign access levels. Along with the access level that users are granted, you can also grant them permissions to View or Manage specific dashboards that you have access to share.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 21bd531f-8732-4d6c-b91f-990887285447
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Share a dashboard
 

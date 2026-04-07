@@ -6,9 +6,12 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 
-<!--Better metadata, at publishing:
+<!--
+Better metadata, at publishing:
 ---
 title: Manage the GenStudio Workspace in Adobe Workfront Planning
 description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products and your instance of Workfront is integrated with your company's instance of GenStudio. You can view the GenStudio workspace from Planning and update information in both systems.
@@ -23,9 +26,11 @@ recommendations: noDisplay, noCatalog
 
 # Manage the GenStudio workspace in Adobe Workfront Planning
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 The Adobe GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products and your instance of Workfront is integrated with your company's instance of GenStudio. 
 
@@ -104,7 +109,8 @@ For more information about Adobe GenStudio for Performance Marketing, see [Adobe
 
 +++   
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -155,7 +161,8 @@ For more information about Adobe GenStudio for Performance Marketing, see [Adobe
    </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerations for managing a GenStudio workspace in Workfront Planning
 
@@ -189,8 +196,10 @@ For more information about Adobe GenStudio for Performance Marketing, see [Adobe
    </table> 
 
 * Updating the workspace configuration, record types, views, and fields for a GenStudio workspace is identical with updating a Workfront Planning workspace with its elements. 
-<!--Is this just preview?? * You can build hierarchies for the record types in the GenStudio workspace. For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
-* You cannot include GenStudio Brands in a hierarchy. -->
+<!--
+Is this just preview?? * You can build hierarchies for the record types in the GenStudio workspace. For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+* You cannot include GenStudio Brands in a hierarchy.
+-->
 
 <!--
 ## Manage GenStudio workspace from Workfront Planning
@@ -389,7 +398,8 @@ CAN YOU DO THIS??
       >* You can edit the configuration of a GenStudio field only when you have Manage permissions in GenStudio.
       >* You cannot delete a GenStudio field. 
 
-<!--Is this just Preview?? Or direct to Prod?? 
+<!--
+Is this just Preview?? Or direct to Prod?? 
 
 ## Create workspace hierarchies in the GenStudio workspace
 

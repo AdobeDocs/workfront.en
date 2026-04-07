@@ -3,9 +3,11 @@ title: Approve a Request in Adobe Workfront Planning
 description: When a user submits a request to a request form associated with an approval in Adobe Workfront Planning, approvers receive a notification and an email about the pending approval. They must approve the request before Workfront Planning creates an object.
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Approve a request in Adobe Workfront Planning
 
@@ -13,9 +15,11 @@ exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
 
 <!-- do you need to add that only workspace owners can view the Submitted/ Planning tab?? - asking team in slack-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -78,7 +82,7 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++
 
-## Approve a request to create a record
+## Approve a Planning request to create a record
 
 After users add requests to a record type request form that is associated with an approval, the request is sent to the approvers. 
 
@@ -87,65 +91,66 @@ Approvers receive the following notifications about a request pending their appr
 * An in-app notification
 * An email notification
 
+For information about approving requests from notifications, see the following articles: 
+
+* [Manage Adobe Workfront Planning email notifications](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)
+* [Manage Adobe Workfront Planning in-app notifications](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)
+
 >[!NOTE]
 >
 >Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience for users to be able to receive email and in-app notifications.
 
 You can approve requests to create records from the request itself, or from the My Approvals widget in Home.
 
-* [Approve a request from the request in Workfront Planning](#approve-a-request-from-the-request-in-workfront-planning)
-* [Approve a request from the My Approvals widget in Home](#approve-a-request-from-the-my-approvals-widget-in-home)
+### Approve a Planning request from a notification or from the Requests area
 
-### Approve a request from the request in Workfront Planning
+1. Open the request by doing one of the following: 
 
-1. (Conditional) If you are using the legacy requesting experience in Workfront, open the request by doing one of the following: 
-
-    * If you have access to Workfront Planning and can view at least one workspace, click **Main Menu** ![Dots main menu](assets/dots-menu.png) in the upper-right corner of the screen, or the **Main Menu** ![Lines main menu](assets/lines-menu.png) in the upper-left corner, if available, then click **Requests** > **Submitted** > **Planning**, and click the request with the status of **Pending review** or **In review**.
+    * Click **Main Menu** ![Lines main menu](assets/lines-menu.png) in the upper-left corner, then click **Requests** > **Use new experience**, and click the request with the status of **Pending Review**. 
 
       >[!TIP]
       >
-      >If you don't have access to Workfront Planning, or if you don't have access to view any workspaces, you can only access a request to approve it using your email or in-app notifications. 
+      >* If you don't have access to Workfront Planning, or if you don't have access to view any workspaces, you can only access a request to approve it using your email or in-app notifications. 
+      >* You cannot access Planning requests from the legacy request experience. 
    
     * Click the **Notifications** area icon ![Notifications area icon in Unified Shell](assets/notifications-area-icon-unified-shell.png) in the upper-right corner of the screen and click the notification about a request pending your approval to open the request.
-    * Go to the email notification in your email that notifies you about a request pending your approval, then click **Open request** to open the request. <!--add the name of the button here, from the email-->
+    * Go to the email notification in your email that notifies you about a request pending your approval, then click **Open request** to open the request. 
 
     The request page opens in read-only mode.
 
     ![Read-only request page in review status](assets/read-only-reqeust-page-in-review-status.png) 
-1. If you are using the new requesting experience in Workfront, click **Main Menu** ![Dots main menu](assets/dots-menu.png) in the upper-right corner of the screen, or the **Main Menu** ![Lines main menu](assets/lines-menu.png) in the upper-left corner, if available, then click **Requests**, and click the request that you want to approve with the status of **Pending review**.
 1. (Optional) Click the **Approvals** icon ![Approvals icon](assets/approvals-icon.png) in the upper-right corner of the request to view the approvers.
 1. Click **Review and approve**, then choose one of the following: 
 
     * **Approve**: This approves the request. A record is immediately created for the record type associated with the request form after all approvers approve the request.
     * **Reject**: This rejects the request, even when you are the only approver that rejects it. No record is created for the record type associated with the request form. 
 
-    The user who submitted the request receives an email and in an-app notifications when their request is approved or rejected. 
+    The user who submitted the request receives an email and in an-app notification when their request is approved or rejected. 
 
     The status of the request changes to the following, depending on the approval decision: 
     
     * **Completed**: The request is approved.
     * **Rejected**: The request is rejected. 
 
-    The request remains in the Requests area of Workfront.
+    The request remains in the **Requests** area of Workfront.
 
 ### Approve a request from the My Approvals widget in Home
 
 {{step1-to-home}}
 
-   Or
+1. Go to the **My Approvals** widget in **Home**.
 
-   Click the [!UICONTROL Home] icon ![Home icon](/help/_includes/assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront, then locate the My Approvals widget.
+   ![My Approvals widget in Home](assets/my-approvals-widget-in-home.png)
+1. Locate the Planning request that you want to approve or reject.
 
-1. Locate the object that you want to approve or reject.
+1. (Optional) Add a comment by clicking the drop-down arrow next to **Approve** or **Reject**, typing in the note, and clicking **Add**.
 
-1. (Optional) Add a comment by clicking the drop-down arrow next to Approve or Reject, typing in the note, and clicking Add.
-
-1. Choose one of the following: 
+1. Click one of the following: 
 
     * **Approve**: This approves the request. A record is immediately created for the record type associated with the request form after all approvers approve the request.
     * **Reject**: This rejects the request, even when you are the only approver that rejects it. No record is created for the record type associated with the request form. 
 
-    The user who submitted the request receives an email and in an-app notifications when their request is approved or rejected. 
+    The user who submitted the request receives an email and in an-app notification when their request is approved or rejected. 
 
     The status of the request changes to the following, depending on the approval decision: 
     

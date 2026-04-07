@@ -4,9 +4,11 @@ content-type: overview
 product-area: agile-and-teams;projects
 navigation-topic: agile-in-projects
 description: You can leverage Agile functionality for your project without the administrative challenges that typically accompany Agile practices (such as managing a team backlog, creating iterations, and so forth).
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 5961a2d8-87c9-48f0-9075-828d19cbd5ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Use Agile on a project
 

@@ -3,9 +3,11 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Delete a Calendar Report
 description: You can delete a calendar that you own or that others shared with you. Once deleted, the calendar becomes inaccessible to users with whom you have shared it.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Delete a calendar report
 

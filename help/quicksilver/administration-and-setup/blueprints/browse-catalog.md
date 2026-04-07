@@ -4,9 +4,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
 title: Browse the Blueprints Catalog and Request Installation of Blueprints
 description: Blueprints provide basic building blocks to help you create a work management system that grows with you. All [!DNL Adobe Workfront] users can browse the catalog of blueprints. You can additionally make a request to have your [!DNL Workfront] administrator install a specific blueprint for you, if your administrator has enabled blueprint requests.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
+last-update: 2026-04-01T11:23:03-07:00
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 ---
 # Browse the blueprints catalog and request installation of blueprints
 
@@ -50,7 +52,7 @@ The catalog displays all of the blueprints that are available for your organizat
    * Use case (such as [!UICONTROL Human Resources] or [!UICONTROL Marketing])
    * Maturity level ([!UICONTROL managed] or [!UICONTROL integrated])
    * Installation status ([!UICONTROL installed] or not [!UICONTROL installed])
-   * Blueprint type (<!--Custom Form, -->[!UICONTROL Dashboard], [!UICONTROL Organizational Structure], [!UICONTROL Project Template]<!--, Request Queue, Setup Feature-->)
+   * Blueprint type ([!UICONTROL Dashboard], [!UICONTROL Organizational Structure], [!UICONTROL Project Template]<!-- above Custom Form; here, Request Queue, Setup Feature-->)
 
 1. (Optional) Click **[!UICONTROL Details]** on a blueprint to learn how it works.
 

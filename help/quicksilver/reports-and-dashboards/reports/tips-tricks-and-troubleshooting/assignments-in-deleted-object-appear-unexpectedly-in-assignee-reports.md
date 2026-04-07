@@ -1,8 +1,10 @@
 ---
 title: Assignments in a deleted object appear unexpectedly in assignee reports
 description: Assignments in a deleted object appear unexpectedly in assignee reports
-author: Nolan
+author: Courtney
 draft: Probably
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Assignments in a deleted object appear unexpectedly in assignee reports
 

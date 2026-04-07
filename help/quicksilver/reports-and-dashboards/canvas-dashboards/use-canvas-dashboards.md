@@ -7,6 +7,8 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 25f045d9-a291-423d-81ee-6fbd2fb12607
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Use Canvas Dashboards
 
@@ -34,7 +36,8 @@ To access Canvas Dashboards, navigate to the Dashboards section in Adobe Workfro
 1. Click the name of an existing dashboard to open it.
     ![Open a dashboard](assets/open-dashboard.png)
 
-<!--## Navigating the Dashboard
+<!--
+## Navigating the Dashboard
 
 Once you open a Canvas Dashboard, you can interact with the reports displayed on the dashboard. You can resize, drag, and drop reports to customize the layout according to your preferences.
 
@@ -106,7 +109,8 @@ When you sort by the same field that your report is grouped by, the group order 
 
 After customizing your Canvas Dashboard, you can save your changes. Additionally, you can share the dashboard with other users in your organization, provided you have the appropriate sharing permissions.
 
-For more detailed instructions on creating, managing, and customizing Canvas Dashboards, refer to the related articles in the [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) section.-->
+For more detailed instructions on creating, managing, and customizing Canvas Dashboards, refer to the related articles in the [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) section.
+-->
 
 ## View reports with grouped data
 

@@ -6,12 +6,22 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Architect your success: modeling your campaign hierarchy 
 
  <!--see the file again for additional comments from Seth and others-->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>
+>Your organization must have a Workfront Planning Prime or higher package to be able to support the features recommended in this article. 
+>
+>For a list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+> 
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 Learn how to translate your complex business processes into a scalable, governed campaign hierarchy using centers of gravity and a multi-workspace architecture in Adobe Workfront Planning. 
 
@@ -95,7 +105,11 @@ To build your architecture using the hub-and-spoke approach, you must create the
 
 You must first establish one centralized workspace for your global classifications to define the main concepts everyone in your organization must understand. For example, create the following record types in a central workspace: Brands, Regions, Products, Personas. 
 
-For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+For information, see:
+
+* [Create record types](/help/quicksilver/planning/architecture/create-record-types.md)
+
+* [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
 Establish the following when you create your classifications: 
 
@@ -190,7 +204,8 @@ This allows you to:
 * **Don't create silos:** Ensure your record types are shared across workspaces so teams are not retyping the same data.
 
 
-<!--original content:
+<!--
+original content:
 
 
 ## Goal 

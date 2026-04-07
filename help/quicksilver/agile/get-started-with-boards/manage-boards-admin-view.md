@@ -3,9 +3,11 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Manage the Boards Admin View
 description: The Boards Admin View contains a list of every Board in your account that System Administrators can use to get a quick snapshot of the overall Boards details.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Manage the Boards Admin View
 

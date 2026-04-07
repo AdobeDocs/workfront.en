@@ -7,6 +7,8 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Assign tasks
 
@@ -14,13 +16,15 @@ exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
 
 <!--remove production/ preview and old/ new experience references at prod-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md). 
 
-</div>-->
+</div>
+-->
 
 You can assign tasks to users, job roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
 
@@ -94,8 +98,10 @@ Consider the following when assigning multiple resources to a work item:
 
 * A team cannot be a Primary assignee on a task or issue. Only a user or a job role can be designated as a Primary on a task or issue. 
 
-<!-- If a task is assigned to multiple teams, the primary team sees the Work On It button. waiting on team to verify if this is true. (Courtney)
-You cannot make a team be a Primary on a task/ issue. (Alina) -->
+<!--
+ If a task is assigned to multiple teams, the primary team sees the Work On It button. waiting on team to verify if this is true. (Courtney)
+You cannot make a team be a Primary on a task/ issue. (Alina)
+-->
 
 * Tasks and issues on a project might be assigned first to one or more teams or job roles. When the project is ready to start, they might need to also be assigned to users:
 
@@ -269,7 +275,8 @@ To assign tasks in a list:
 -->
 
 
-<!--Assigning multiple tasks in bulk from a list differs depending on which environment you choose. 
+<!--
+Assigning multiple tasks in bulk from a list differs depending on which environment you choose. 
 
 ### Assign multiple tasks in bulk from a list in the Production environment
 

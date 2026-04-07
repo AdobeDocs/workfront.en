@@ -4,9 +4,11 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Report: Combined Task and Issue View and Grouping'
 description: This Work Item report shows both tasks and issues which users have accepted to work on in one report. It is best when combined with a custom grouping.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Report: combined task and issue View and Grouping
 

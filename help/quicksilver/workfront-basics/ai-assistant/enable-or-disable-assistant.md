@@ -5,10 +5,14 @@ description: You can control which access levels in your organization have acces
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Enable or disable AI Assistant
 
 As a Workfront Administrator, you can control which users in your organization have AI Assistant enabled. This is managed through access levels.
+
+You must enable AI Assistant for your organization before you can enable it for an access level.
 
 ## Access requirements 
 
@@ -38,7 +42,22 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Enable or disable AI Assistant in Workfront
+## Enable or disable AI Assistant for your organization
+
+To enable AI Assistant for your organization:
+
+{{step-1-to-setup}}
+
+1. Select **System** in the left navigation, then select **Preferences**.
+1. Scroll down to the **AI Preferences** section.
+1. Switch on the **Enable AI** toggle.
+
+>[!IMPORTANT]
+>
+>You must have a signed Gen AI agreement on file with Adobe before you can use AI Assistant.
+>For more information on the Gen AI Agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in the article AI Assistant in Workfront.
+
+## Enable or disable AI Assistant for an access level
 
 To enable AI Assistant for a given access level:
 

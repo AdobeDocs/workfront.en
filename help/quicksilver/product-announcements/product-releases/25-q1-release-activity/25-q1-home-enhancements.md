@@ -1,10 +1,12 @@
 ---
 title: First Quarter 2025 Home enhancements
 description: First Quarter 2025 Priorities enhancements
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # First Quarter 2025 Priorities enhancements
 
@@ -32,7 +34,7 @@ Use natural language to quickly filter work in the Priorities worklist. You can 
 
 Only available for IMS-enabled instances.
 
-For more information, see [Filter and group your work with Priorities](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+For more information, see [Filter, group, and sort your work with Priorities](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ## Catch up on work in Priorities
 
@@ -112,7 +114,7 @@ You can now
 * Sort items within the groupings
 * Drag and drop items when grouping by My Priority or Status
 
-For more information, see [Filter and group your work with Priorities](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+For more information, see [Filter, group, and sort your work with Priorities](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Removed 
 

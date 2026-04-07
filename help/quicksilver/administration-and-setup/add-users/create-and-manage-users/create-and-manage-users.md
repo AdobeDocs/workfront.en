@@ -10,6 +10,8 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create and manage users: article index
 
@@ -33,3 +35,6 @@ This section contains the following articles:
 * [View and export audit logs](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md) 
 * [View user login information](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md) 
 * [Manage users in the Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+* [Business profiles overview](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
+* [View and manage business profiles](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-business-profiles.md)
+

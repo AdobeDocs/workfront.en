@@ -4,9 +4,11 @@ product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
 title: Team Requests Overview
 description: Team requests are found in the Teams area in the Main Menu.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Team requests overview
 

@@ -6,6 +6,8 @@ description: Your Adobe Workfront administrator can grant you access to view or 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View inherited permissions on objects
 
@@ -19,7 +21,8 @@ For information about the hierarchy of objects in Workfront, see [Understand obj
 
 ## Access requirements
 
-<!--drafted for P&P:
+<!--
+drafted for P&P:
 
 <table style="table-layout:auto"> 
  <col> 

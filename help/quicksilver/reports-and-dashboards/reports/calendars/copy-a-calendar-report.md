@@ -3,9 +3,11 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Copy a Calendar Report
 description: If you created a calendar, you can copy the calendar and use it as a starting point for a new calendar.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Copy a calendar report
 

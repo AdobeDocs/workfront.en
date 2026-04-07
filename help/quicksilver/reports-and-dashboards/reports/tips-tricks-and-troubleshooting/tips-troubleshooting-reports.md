@@ -4,10 +4,12 @@ product-area: reporting
 navigation-topic: reports
 title: Tips, tricks, and troubleshooting for reports
 description: Learn how to troubleshoot reports.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 76ca4656-79a6-43da-a6d5-56a30f542d1e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Tips, tricks, and troubleshooting for reports
 

@@ -3,9 +3,11 @@ content-type: reference
 navigation-topic: boards
 title: Migrate Agile Team Kanban Cards to Workfront Boards
 description: You can migrate your work items from an Agile team Kanban board to a new or existing Workfront board.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Migrate Agile team Kanban cards to Workfront boards
 

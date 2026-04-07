@@ -6,6 +6,8 @@ description: You can install [!DNL Adobe Workfront for design and video] from th
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Install and open [!DNL Adobe Workfront for design and video]
 
@@ -41,7 +43,8 @@ You can install [!DNL Adobe Workfront for design and video] from the [!DNL Adobe
  <col> 
  </col> 
  <tbody> 
- <!-- <tr> 
+ <!--
+  <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package/td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -50,7 +53,8 @@ You can install [!DNL Adobe Workfront for design and video] from the [!DNL Adobe
    <td>
    <p>Standard</p>
     <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">Additional products</td> 
    <td><p>You must have an [!DNL Adobe Creative Cloud] license in addition to a [!DNL Workfront] license.</p></td> 

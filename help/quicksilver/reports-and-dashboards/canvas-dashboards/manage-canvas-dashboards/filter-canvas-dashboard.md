@@ -3,9 +3,11 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Filter a Canvas Dashboard
 description: You can apply a filter to a Canvas Dashboard after it's been created.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Filter a Canvas Dashboard
 

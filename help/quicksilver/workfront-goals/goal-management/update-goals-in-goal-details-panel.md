@@ -6,6 +6,8 @@ description: You can update information for individual goals by accessing the Go
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Update goals in the Goal details section in Adobe Workfront Goals
 
@@ -36,7 +38,8 @@ You can update information for individual goals by accessing the Goal Details pa
  <tr>
   <td> <p>Adobe Workfront package</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTE</b></p>
+<p>Speak with your Workfront representative if you have a different Workfront package.</p>
    </td> 
   </tr>
  <tr>
@@ -69,7 +72,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -120,7 +124,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Update goals in the Goal details section
 
@@ -148,7 +153,8 @@ Updating goals in the Goal Details panel differs depending on where you access t
    >
    >You can also click the name of a goal in the Goal Alignment, Check-in, or Pulse sections. 
    >
-   ><!-- drafted for goal redesign:
+   ><!--
+   > drafted for goal redesign:
    >Add this to the TIP above with goal redesign: 
    >
    >The Check-in and Pulse sections have been removed from the Preview environment.

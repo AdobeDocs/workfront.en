@@ -6,6 +6,8 @@ description: You can find the [!UICONTROL Portfolio Optimizer] when you access a
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: de9abb4e-0bf2-4673-8be1-3f0f35e17eaf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Locate the [!UICONTROL Portfolio Optimizer]
 
@@ -45,7 +47,8 @@ You can find the [!UICONTROL Portfolio Optimizer] when you access a portfolio.
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -68,7 +71,8 @@ You can find the [!UICONTROL Portfolio Optimizer] when you access a portfolio.
    <td> <p>[!UICONTROL Manage] permissions to the portfolio</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Locate the [!UICONTROL Portfolio Optimizer]
 

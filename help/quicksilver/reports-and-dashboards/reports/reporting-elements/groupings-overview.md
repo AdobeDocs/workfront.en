@@ -4,9 +4,11 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Groupings overview in Adobe Workfront
 description: You can add groupings to manage the layout of the information in your reports and lists.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Groupings overview in Adobe Workfront
 
@@ -84,7 +86,8 @@ How you remove a grouping depends on whether you initially created the grouping,
 For information about removing a grouping, see the article [Remove filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
 
-<!--Original note
+<!--
+Original note
 
 The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:
 All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents.

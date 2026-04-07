@@ -8,6 +8,8 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create or edit a custom condition
 
@@ -122,7 +124,8 @@ You can set your custom condition as a default condition for projects or for tas
 For more information about custom conditions, see [Custom conditions](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
 
 
-   <!-- THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.
+   <!-- 
+   THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.
    * When a user is changing the condition for a task or issue on the Updates tab:
 
      ![Change condition when updating comment](assets/change-condition-update-comment.png)

@@ -6,10 +6,17 @@ description: You can copy a link for any document folder contained in any Workfr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8f83f44-7001-4774-9a35-359cd21124d9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Copy and share a link to a document folder
 
 You can copy a direct link for any document folder contained in any of the following [!DNL Workfront] objects: [!UICONTROL Program], [!UICONTROL Portfolio], [!UICONTROL Project], [!UICONTROL Task], or [!UICONTROL Issue]. You can't copy a link for any folders contained in the [!UICONTROL Documents] area from the Main Menu, as those folders are linked directly to your user profile and can't be shared with others. 
+
+>[!NOTE]
+>
+>This functionality is not available in the new documents area.<br>
+>If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Access Requirements
 

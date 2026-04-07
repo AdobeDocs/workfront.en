@@ -6,6 +6,8 @@ description: You can temporarily delegate the work you are assigned to while you
 author: Becky
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Delegate tasks and issues
 
@@ -78,7 +80,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-<!--note from the table for Object permissions:
+<!--
+note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project Owner (NOTE: you cannot delegate projects yet)</p>
     -->
 
@@ -185,7 +188,8 @@ You can let a delegation expire, if you selected an End Date, or you can manuall
 
 ## Locate delegated work and delegates information
 
-<!--(if this was released, make sure that viewing delegated approvals has not changed, as documented here: /Content/Review and approve work/Manage Approvals/delegate-approval-requests.html) 
+<!--
+(if this was released, make sure that viewing delegated approvals has not changed, as documented here: /Content/Review and approve work/Manage Approvals/delegate-approval-requests.html) 
 -->
 
 When tasks and issues are delegated, there are several areas in [!DNL Workfront] where you can see the delegated work or who the delegates are.
