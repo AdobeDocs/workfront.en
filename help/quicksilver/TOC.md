@@ -546,6 +546,7 @@ feature-set: Workfront
       * [Grant access to issues](administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
       * [Grant access to documents](administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
       * [Grant access to users](administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+      * [Grant access to job roles](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md)
       * [Grant access to teams](administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
       * [Grant access to templates](administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
       * [Grant access to reports, dashboards, calendars](administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
