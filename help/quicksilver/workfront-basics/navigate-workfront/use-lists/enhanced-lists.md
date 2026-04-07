@@ -59,7 +59,7 @@ Below are some types of Workfront object lists that use the enhanced list format
 | List of requests | <ul><li>Requests (new experience only)</li><li>My Requests widget on Home</li></ul> |
 | Lists of statuses, priorities, severities, and exchange rates in Setup | <ul><li>Setup &gt; Project Preferences &gt; Statuses</li><li>Setup &gt; Project Preferences &gt; Priorities</li><li>Setup &gt; Project Preferences &gt; Severities</li><li>Setup &gt; Project Preferences &gt; Exchange Rates</li></ul> |
 | <span class="preview">List of reports</span> | <span class="preview">Reports (**Use shareable folders** must be turned on)</span> |
-| <span class="preview">List of job roles and rates in Setup</span> | <span class="preview">Setup > Rate Cards > select a rate card > Job Roles and Rates</span> |
+| <span class="preview">List of job roles and rates on a rate card</span> | <span class="preview">Setup > Rate Cards > select a rate card > Job Roles and Rates</span> |
 | <span class="preview">List of translations</span> | <span class="preview">Setup > Localization</span> |
 | <span class="preview">List of snapshots</span> | <span class="preview">Project > Snapshots</span> |
 | <span class="preview">List of resources for billing</span> | <span class="preview">Project > Resource for Billing</span> |
