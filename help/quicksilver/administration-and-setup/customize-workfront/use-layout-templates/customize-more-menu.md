@@ -12,8 +12,6 @@ exl-id: bee0117d-a15b-494a-833a-179a42ae4f74
 ---
 # Customize the More menu using a layout template
 
-{{highlighted-preview-article-level}}
-
 You can use a layout template to determine the options that appear when a user clicks the More menu (the three-dot menu) while viewing the following objects in Adobe Workfront: projects, tasks, issues, portfolios, and programs.
 
 ![Sample More menu for a project](assets/more-menu-display-for-project.png)
