@@ -34,30 +34,40 @@ The enhancements to financial management include:
 
 * **Rate attributes**, which allow you to add additional dimensions to rates beyond the job role, so that rates can vary not only by job role but also by factors such as agency, location, brand, cost center, or others. By combining these attributes, Workfront can automatically select the correct rate for assignments, ensuring financial accuracy and consistency across projects.
    
-   For more information, see [Define rate attributes](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)
+   For more information, see [Define rate attributes](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+
 * **Rate cards**, which provide a structured way to manage client-specific billing, combining role-based rates and customizable attributes to ensure accurate and controlled project costing. 
 
    For more information, see [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md) and [Attach a rate card to a project](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
+
 * A new cost and revenue type called **User and Role Hourly**. When this task type is assigned, an advanced rate hierarchy logic determines the billing and cost rates from different levels including the rate card, the project, the assignment, the job role, and the user profile. User and Role Hourly is the only cost and revenue type that you can use to apply rate attributes and rate cards.
 
    For more information, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+
 * A redesigned **Advanced Assignments** experience with expanded configurability brings greater visibility and control across rates, time frames and properties. 
 
    For more information, see [Create advanced assignments](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-   Before the Production release on April 16, a switch will be added to allow you to choose between the old and new Advanced Assignments experiences. The old experience will remain the default
+   >[!NOTE]
+   >
+   >Before the Production release on April 16, a switch will be added to allow you to choose between the old and new Advanced Assignments experiences. The old experience will remain the default.
+
 * A **Job Role for Billing**, which allows you to bill a user under a different job role than their primary job role. This is useful when a person temporarily performs work that should be billed at a different rate.
 
    For more information, see [Set up a Job Role for Billing](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md).
+
 * Date-effective **exchange rates**. 
 
    For more information, see [Set up exchange rates](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
 * The ability to add an **overtime multiplier on tasks**, which multiplies all Planned Hours for that task and affects the Planned Revenue calculations.
 
    For more information, see [Define an overtime ratio](/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md).
+
 * A project-level control to **preserve all billing information** and prevent any future modifications.
 
    For more information, see [Edit projects](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+
 * **A job role alias**, which is defined on a rate card. When the rate card is attached to a project, the alias appears on information such as placeholder assignments, expenses, and reports, instead of the internal job role name.
 
    For more information, see [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
@@ -114,7 +124,8 @@ The enhancements to custom forms include:
    >
    >These features are available for organizations on all Workfront and Workflow packages.
 
-* The ability to add custom forms to teams, rate cards, and job roles
+* The ability to add custom forms to teams, rate cards, and job roles.
+
    For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    >[!NOTE]
@@ -122,7 +133,8 @@ The enhancements to custom forms include:
    >* Adding custom forms to rate cards and job roles requires the Workflow Ultimate package.
    >* Adding custom forms to teams is available for organizations on all Workfront and Workflow packages.
 
-* A **Finance permission type** setting on currency-formatted fields, to allow access only to users who have certain permissions set in their access levels
+* A **Finance permission type** setting on currency-formatted fields, to allow access only to users who have certain permissions set in their access levels.
+
    For more information, see [Restrict access to financial data in custom fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md).
 
    >[!NOTE]
@@ -135,7 +147,6 @@ The enhancements to custom forms include:
 >
 >These features are available for organizations on all Workfront and Workflow packages.
 
-
 In layout templates, you can customize the headers and left navigation menus of additional objects, and display and hide items more easily in the Main Menu. You can also use a layout template to determine the options that appear when a user clicks the **More** menu (the three-dot menu) on projects, tasks, issues, portfolios, and programs.
 
 For more information, see [Create and manage layout templates](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
@@ -147,6 +158,7 @@ For more information, see [Create and manage layout templates](/help/quicksilver
 >This feature is only available for organizations on the Workflow Prime or Ultimate packages.
 
 Custom localization allows you to define custom terms and phrases in different languages. Workfront then displays these terms in the language set in the browser settings.
+
 For example, you can set the label "Target Audience" to translate to the German word "Zielgruppe." Any user with German set as the language for their Adobe IMS account sees the word "Zielgruppe" as a label for any fields labeled "Target Audience" in English.
 
 For more information, see [Configure custom localization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
