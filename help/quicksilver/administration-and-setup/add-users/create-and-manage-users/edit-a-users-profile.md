@@ -11,8 +11,6 @@ exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
 ---
 # Edit a user's profile
 
-{{highlighted-preview}}
-
 <!--
 
 >[!IMPORTANT]
@@ -313,7 +311,7 @@ For more information, see [Configure event notifications for everyone in the sys
 
   Some dates are added automatically. For example, if Cost Rate 1 does not have an end date, and you add Cost Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Cost Rate 1 so that no gaps exist.
 
-* <span class="preview">**Cost rate override allowed**: Turn on this option to allow cost rate overrides for this user on projects. For more information, see [Override user cost rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).</span>
+* **Cost rate override allowed**: Turn on this option to allow cost rate overrides for this user on projects. For more information, see [Override user cost rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).
 
 * **Billing Rate**: The amount of billing per hour for the user.
 
@@ -333,8 +331,6 @@ Associate an existing user custom form with this user. You must create a custom 
 
 For information about creating custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-<div class="preview">
-
 ### Attributes
 
 Rate attributes are supported in areas of Workfront where rates exist, such as job roles and users. When attributes are applied on a user's profile, their assignments resolve automatically to the correct rates.
@@ -352,8 +348,6 @@ Rate attributes are supported in areas of Workfront where rates exist, such as j
       The **Start Date** for the next set is added automatically.
 
    1. Add the attribute values for the next attribute set. These values take effect on the start date.
-
-</div>
 
 ### Comment
 

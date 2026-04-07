@@ -15,13 +15,11 @@ exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-{{highlighted-preview}}
-
 >[!IMPORTANT]
 >
 >With the 25.11 release, the Override Currency for job roles was deprecated in Production. (The deprecation took place on October 30 in the Preview environment.) Instead of having a base currency and override currencies, one currency is now available for job roles, and the cost and billing rates are defined using that currency.
 
-As an [!DNL Adobe Workfront] administrator or a user with administrative access to Job Roles, you can create job roles that can be assigned to users and delete default job roles that are not relevant to your organization. For information about administrative access in [!DNL Workfront], see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+As an [!DNL Adobe Workfront] administrator or a Standard user with Edit access to Job Roles, you can create job roles that can be assigned to users and delete default job roles that are not relevant to your organization. For information about administrative access in [!DNL Workfront], see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 >[!TIP]
 >
@@ -63,8 +61,7 @@ To create a job role:
 {{step-1-to-setup}}
 
 1. In the left panel, click **[!UICONTROL Job Roles]**.
-1. Click **[!UICONTROL New Job Role]**.
-<!-- 1. Click **New Job Role > Create new job role**.  -->
+1. Click **[!UICONTROL New Job Role] <span class="preview">> Create new job role**.</span>
 1. Enter information in the following fields:
 
    * **Name**: Indicate a name for the job role. This is the name that displays everywhere in Workfront where the Job Role field displays.
