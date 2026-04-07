@@ -28,7 +28,7 @@ Each line in employment history represents a specific set of values, and display
 
 Karen Sterling has been an executive director since she was hired on March 3, 2019. On November 11, 2025, her billing and cost rates were raised, but her job role remained the same.
 
-![Employment history example](assets/employment%20history%20example.png)
+![Employment history example](assets/employment-history-example.png)
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ You can view employment history from the Users list, or you can view a single us
 
    When viewing employment history from the Users list, you can view history for the three years before the current date.
 1. To filter results, click **Filter** and enter the field, operator, and value that you want to filter by. Results are filtered automatically.
-1. To add or remove columns, click the Add icon at the right of the table and click the plus icon next to each column that you want to add, or click the minus icon next to each column that you want to remove from the view. 
+1. To add or remove columns, click the Add icon ![Add icon](assets/add-column.png)  at the right of the table and click the plus icon next to each column that you want to add, or click the minus icon next to each column that you want to remove from the view. 
 
 ### View employment history from a user's page
 
@@ -61,7 +61,7 @@ You can view employment history from the Users list, or you can view a single us
  
    When viewing employment history from a user's page, you can view the user's entire employment history.
 1. To filter results, click **Filter** and enter the field, operator, and value that you want to filter by. Results are filtered automatically.
-1. To add or remove columns, click the Add icon at the right of the table and click the plus icon next to each column that you want to add, or click the minus icon next to each column that you want to remove from the view.
+1. To add or remove columns, click the Add icon ![Add icon](assets/add-column.png) at the right of the table and click the plus icon next to each column that you want to add, or click the minus icon next to each column that you want to remove from the view.
 
 <!--
 
