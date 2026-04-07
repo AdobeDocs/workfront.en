@@ -154,15 +154,23 @@ To share a workspace with others:
 
    * If you are a System Administrator, select from the following options:</span>
 
-      * <span class="preview">**Only invited people can access**: You must select entities in the sharing box and choose their access to the workspace. This is the default selection. </span>
-      * <span class="preview">**Everyone in the system can view**: Everyone in the system with access to Planning can view the workspace in their **Workspaces** area in Planning.</span>
+      <div class="preview">
+
+      * **Only invited people can access**: You must select entities in the sharing box and choose their access to the workspace. This is the default selection.
+      * **Everyone in the system can view**: Everyone in the system with access to Planning can view the workspace in their **Workspaces** area in Planning.
+
+      </div>
        
    * <span class="preview">(Conditional) If you are a workspace manager with a Standard license, you can see one of the following selections but you cannot change them:</span>
 
-      * <span class="preview">**Only invited people can access**. This is the default setting.</span>
-      * <span class="preview">**Everyone in the system can view**</span>
+      <div class="preview">
 
-      <span class="preview">You must ask a System Administrator to change a global permission for a workspace.</span>
+      * **Only invited people can access**. This is the default setting.
+      * **Everyone in the system can view**
+
+      You must ask a System Administrator to change a global permission for a workspace.
+
+      </div>
 
 1. In the **Grant access to this workspace** field, start typing the name of a user, group, team, company, or job role then click it when it displays in the list. 
 

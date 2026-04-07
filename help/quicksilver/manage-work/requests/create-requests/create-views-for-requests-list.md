@@ -99,7 +99,12 @@ You can create a view in the Requests area of Workfront when you use the new req
 
 1. In the list of requests, click the **Views** dropdown menu ![Views dropdown](assets/view-icon-requests.png) and click **New view**.
 
+   <!-- 
+   
+   replace the screen shot with release
    ![New view](assets/create-new-view.png)
+
+   -->
 
 1. Enter a name for the new view, and click **Create**.
 1. Continue to [Edit a view for requests](#edit-a-view-for-requests). 

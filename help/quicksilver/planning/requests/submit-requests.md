@@ -205,7 +205,7 @@ Not sure how to change the request status, but dev also said: Changing the names
 
    <div class="preview">
 
-   * Group
+   * Grouping
    * Format cells
    * Row height
 
