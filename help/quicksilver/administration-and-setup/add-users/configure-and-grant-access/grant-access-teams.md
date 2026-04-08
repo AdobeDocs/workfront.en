@@ -38,7 +38,7 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Configure users' access to edit users using a custom access level
+## Configure users' access to edit teams using a custom access level
 
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Click the gear icon ![](assets/gear-icon-settings.png) on the **View** or **Edit** button to the right of Teams, then select the abilities you want to grant under **Fine-tune your settings**.
@@ -119,4 +119,4 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Access to teams by license type
 
-For information about what users in each access level can do with issues, see the section [Teams](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams) in the article [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+For information about what users in each access level can do with teams, see the section [Teams](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams) in the article [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).

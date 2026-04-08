@@ -30,6 +30,8 @@ Advanced enterprise operations capabilities from Adobe Workfront are a unified a
 
 Forecast, track, and optimize your finances with multi-level cost and billing rate hierarchies.
 
+[View a 13-minute video demonstration of the advanced financial management features.](https://video.tv.adobe.com/v/3483224/){target="_blank"}
+
 The enhancements to financial management include:
 
 * **Rate attributes**, which allow you to add additional dimensions to rates beyond the job role, so that rates can vary not only by job role but also by factors such as agency, location, brand, cost center, or others. By combining these attributes, Workfront can automatically select the correct rate for assignments, ensuring financial accuracy and consistency across projects.

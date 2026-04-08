@@ -27,8 +27,6 @@ Project coordinators manage work in Workfront while creatives, marketers, and st
 
 * The Workfront instance must be enabled on the Adobe Unified Experience and Adobe enterprise storage.
 
-* The integration must be configured by Adobe Professional Services. 
-
 
 ## Built on Adobe enterprise storage
 
@@ -174,8 +172,6 @@ To use unified review and approval, the following conditions must be met:
 * Users can belong to only one Workfront instance within the IMS organization.
 
 * The Workfront instance must be enabled on the Adobe Unified Experience and Adobe enterprise storage.
-
-* The integration must be configured by Adobe Professional Services.
 
 * Workfront customers must be on a V2 SKU (this may require a contracting event--contact your Adobe account representative).
 

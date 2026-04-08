@@ -296,8 +296,6 @@ These options are available in the Production environment:
 
 &#42;&#42;External users can only search for other users.
 
-<!--
-
 <div class="preview">
 
 ## Job Roles
@@ -308,18 +306,20 @@ These options are available in the Production environment:
 | Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
 | Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
 | Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Billing Rates | ✓*        | &nbsp;  | &nbsp;        | &nbsp;        |
 | Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
 | Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Billing Rates | ✓*        | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Cost Rates    | ✓*        | &nbsp;  | &nbsp;        | &nbsp;        |
+| View General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
 
 {style="table-layout:auto"}
 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality.
 
 </div>
+
+<!--
 
 ## Companies
 
