@@ -26,7 +26,7 @@ To make it easier for you to benefit from AI in your day-to-day work, we've crea
 
 Currently, Content Review is the only available AI Collaborator. More AI Collaborator capabilities will be available in the future.
 
-For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators).
+For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
 ## Custom quarters are now available as a separate page in Setup
 
