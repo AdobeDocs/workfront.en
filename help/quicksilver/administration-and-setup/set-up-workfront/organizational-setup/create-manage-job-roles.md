@@ -61,7 +61,7 @@ To create a job role:
 {{step-1-to-setup}}
 
 1. In the left panel, click **[!UICONTROL Job Roles]**.
-1. Click **[!UICONTROL New Job Role] <span class="preview">> Create new job role**.</span>
+1. Click **[!UICONTROL New Job Role] > Create new job role**.
 1. Enter information in the following fields:
 
    * **Name**: Indicate a name for the job role. This is the name that displays everywhere in Workfront where the Job Role field displays.
@@ -74,6 +74,8 @@ To create a job role:
    * **Is Active**: Select **Yes** if you want the role to be active and available everywhere in Workfront to be associated with users, work items, etc. Select **No** if you want the role to be deactivated and not available to assign to users, work items, etc.
 
       For information about deactivating job roles, see [Deactivate job roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
+
+<!--
 
    * **Currency**: The Base Currency is shown by default. The Workfront administrator adds the Base Currency in the Setup area. You can change the selection to another available currency, and you can change the currency on effective dated time ranges.
 
@@ -109,11 +111,9 @@ To create a job role:
       >
       >When editing an existing job role, you can sort the list to see the most recent start date at the top of the rate list.
 
-<!-- Remove or hide the billing rate and cost rate bullets on April 16 for GA -->
+-->
 
 1. Click **[!UICONTROL Create Job Role]**. The job role is now available to be assigned to tasks, issues, approvals, or you can share layout templates or other objects with it. For information about all uses of job roles in [!DNL Workfront], see [Job role overview](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). For information about deleting a job role, see [Delete job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
-
-<div class="preview">
 
 ## Add rates and attributes to a job role
 
@@ -193,8 +193,6 @@ For more information, see [Define rate attributes](/help/quicksilver/administrat
    >When editing an existing job role, you can sort the list to see the most recent start date at the top of the rate list.
 
 1. Click [!UICONTROL **Save**].
-
-</div>
 
 <!--
    * **Override Currency Cost Rate**: This is the cost per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role.
