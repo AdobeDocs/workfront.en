@@ -10,8 +10,6 @@ exl-id: ff1110fd-2d24-48a7-8000-712e551ca61a
 ---
 # Override user cost rates at the project level
 
-{{highlighted-preview-article-level}}
-
 You can specify what the cost rate is for a user on a specific project. This project-level cost rate overrides the cost rate at the system level for this user. Workfront uses the project-level cost rate of the job role to calculate cost, instead of using the system-level cost rate.
 
 This article describes how you can override the system user cost rates for a project.
