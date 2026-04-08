@@ -10,6 +10,8 @@ exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
 
 <!--Linked in several places, do not rename or change URL.-->
 
+{{highlighted-preview}}
+
 As an Adobe Workfront administrator, you can use an access level to grant users with a Standard or Plan license administrative access to certain areas of the system.
 
 >[!NOTE]
