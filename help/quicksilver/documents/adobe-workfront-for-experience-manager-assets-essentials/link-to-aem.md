@@ -1,19 +1,18 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Link assets and folders from Experience Manager Assets or Assets Essentials
+title: Link assets and folders with Content Advisor powered by Experience Manager Assets
 description: You can link an asset or folder from Experience Manager Assets or Assets Essentials to any Adobe Workfront object that supports documents. Assets sent from Assets Essentials don't count towards your overall document storage in Workfront. Documents uploaded and sent from Workfront to Assets Essentials do count towards overall storage.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
 ---
-# Link assets and folders from Experience Manager Assets or Assets Essentials
+# Link assets and folders with Experience Manager Assets' Content Advisor
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+Content Advisor brings intelligent, context-aware discovery directly into Workfront, helping you quickly find relevant, approved content based on context. With features such as smart suggestions, Dynamic Media renditions, and detailed asset metadata, it enables you to efficiently evaluate and reuse content without leaving Workfront, accelerating content creation while maintaining brand consistency.
 
-You can link an asset or folder from Experience Manager Assets or Assets Essentials to any Adobe Workfront object that supports documents. Assets sent from Assets Essentials don't count towards your overall document storage in Workfront. Documents uploaded and sent from Workfront to Assets Essentials do count towards overall storage.
+You can use Content Advisor to link assets and folders from Experience Manager Assets or Assets Essentials to Workfront. Once linked, you can view and manage the asset in Workfront, and any changes made to the asset in Experience Manager Assets or Assets Essentials will be reflected in Workfront.
 
-Metadata fields are first mapped when you send an asset from Workfront to Experience Manager Assets or Assets Essentials. If your Workfront administrator has enabled object metadata sync, fields remain up to date if they are changed in either application.
 
 ## Access requirements
 
@@ -58,84 +57,25 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Prerequisites
 
-Before you begin, 
+Before you begin:
 
 * Your Workfront Administrator must configure an Experience Manager integration. For more information, see [Configure the Experience Manager Assets as a Cloud Service integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) or [Configure the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
-## Link an asset from Experience Manager Assets or Assets Essentials in your Production environment
+* To use Smart suggestions or Campaign Briefs, you must sign a GenAI Rider. For more information, see [Use Content Advisor to access AEM content in Adobe applications](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search).
 
-### Link an asset from Experience Manager Assets or Assets Essentials
+## Considerations
 
-You can link an asset from Experience Manager Assets or Assets Essentials to Workfront. Once the asset is linked you can
-
-* [Proof a linked asset for Experience Manager Assets or Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md) 
-* [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md)
-
-1. Go to the **Documents** area in Workfront where you want to add the document.
-1. Select **Add New**, then select the Experience Manager integration your administrator set up.
-
-   >[!NOTE]
-   >
-   >The Workfront administrator can choose any name for this integration, so it may not specifically mention Assets or Assets Essentials.
-
-1. Select the assets you want.
-
-   ![Select an asset](assets/select-an-asset.png)
-
-1. Click **Select**.
-
-### Link a folder from Experience Manager Assets or Assets Essentials
-
-Permissions to view individual assets inside of a folder rely on Experience Manager Assets or Assets Essentials permissions.
-
-1. Go to the **Documents** area in Workfront where you want the folder.
-1. Select **Add New**, then select the Experience Manager integration your administrator set up.
-
-   >[!NOTE]
-   >
-   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Assets or Assets Essentials.
-
-1. Select the folders you want.
-
-   ![Select a folder](assets/select-a-folder.png)
-
-1. Click **Select**.
-
-### Link a new version from Experience Manager Assets or Assets Essentials
-
-You can pull a new asset over from Assets Essentials and add it to an existing asset as a new version. If the document is already linked and a new version is added in Assets Essentials, the new version appears automatically in Workfront.
-
-To link a new version from Assets Essentials:
-
-1. Go to the **Documents** area in Workfront where you want to add the document.
-1. Select the asset you want to replace with a new version. You can't create a new version of an asset in a linked folder. 
-1. Select **Add New** > **Version**, then select the Experience Manager integration your administrator set up.
-
-   >[!NOTE]
-   >
-   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Assets or Assets Essentials.
-
-1. Select the asset you want.
-
-   ![Select an asset](assets/select-an-asset.png)
-
-1. Click **Select**.
-
->[!TIP]
->
->You can view all versions of an asset if you go to **Document Details** > **Versions**.
+* Content Advisor functionality is not available for objects using Adobe Enterprise Storage. If your organization uses Adobe Enterprise Storage, you can still link assets and folders from Experience Manager Assets or Assets Essentials, but you won't have access to Content Advisor features such as AI Search, smart suggestions, or Dynamic Media renditions. For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 
-<div class="preview">
+* Assets sent from Assets Essentials don't count towards your overall document storage in Workfront. Documents uploaded and sent from Workfront to Assets Essentials do count towards overall storage.
 
-## Link an asset from Experience Manager Assets or Assets Essentials in your Preview environment
+* Metadata fields are first mapped when you send an asset from Workfront to Experience Manager Assets or Assets Essentials. If your Workfront administrator has enabled object metadata sync, fields remain up to date if they are changed in either application.
 
-### Link an asset from Experience Manager Assets or Assets Essentials
 
-You can link an asset from Experience Manager Assets or Assets Essentials to Workfront. Once the asset is linked you can
+## Link an asset from Experience Manager Assets or Assets Essentials
 
-* [Proof a linked asset for Experience Manager Assets or Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md) 
-* [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md)
+To link an asset:
 
 1. Go to the **Documents** area in Workfront where you want to add the document.
 1. Select **Add New**, then select the Experience Manager integration your administrator set up.
@@ -144,39 +84,58 @@ You can link an asset from Experience Manager Assets or Assets Essentials to Wor
    >
    >The Workfront administrator can choose any name for this integration, so it may not specifically mention Assets or Assets Essentials.
 
-1. Select the content you want to link:
-
-   * Select the Assets tab to find assets, folders, or collections in Experience Manager Assets or Assets Essentials.
-
-   * Select Content Fragments to find content fragments in Experience Manager Assets or Assets Essentials.
-
-      ![Content advisor](assets/content-advisor.png)
+1. With Content Advisor, you can:
 
 
-1. Click **Select**.
+   <table style="table-layout:auto">
+   <tbody>
+      <tr>
+         <td><strong>Search for assets using AI Search.</strong> Use AI-powered search that understands meaning and intent behind queries, supporting multiple languages, typos, and synonyms.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">AI Search for smarter asset discovery</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>View smart suggestions based on context and intent.</strong> Discover assets that align with your content needs using context-aware recommendations from the host Adobe application.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">Smart suggestions based on context and intent</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Upload a campaign brief to discover relevant assets.</strong> Upload a PDF, DOCX, or TXT campaign brief document so Content Advisor can analyze it and recommend relevant assets.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">Campaign briefs to discover relevant assets</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>View and select Dynamic Media asset renditions.</strong> Browse channel-optimized renditions including image presets, Smart Crops, and format types, and apply Dynamic Media modifiers to preview adjustments in real time.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Dynamic Media asset renditions available for use</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Apply Dynamic Media modifiers to renditions.</strong> Add modifiers to transform asset renditions in real time and preview the results before selecting a rendition for your host application.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Dynamic Media asset renditions available for use</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Discover and browse Content Fragments.</strong> Search through Content Fragments, view live thumbnail previews, check status (Draft, Modified, or Published), and inspect detailed properties, references, and variations.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Access asset metadata.</strong> Review asset properties such as title, description, format, size, and other metadata tabs (Product, Campaign, Tags) consistent with the Assets view.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Access asset metadata consistent with Assets view</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Filter assets using predefined filters.</strong> Refine asset results using filters such as File Type, File Format, Asset Status, File Size, Image Width, Image Height, Modified Date, and Created Date.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">Access filters consistent with Assets view</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Save and reuse searches.</strong> Create saved searches by specifying a search term and filter options, then reuse them across Experience Manager Assets and other Adobe applications.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">Access and reuse recent and saved searches</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Search for assets across and within collections.</strong> Search for assets or collections across all collections, or limit your search to a specific collection.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">Search for assets across and within collections</a>.</td>
+      </tr>
+   </tbody>
+   </table>
 
-### Link a folder from Experience Manager Assets or Assets Essentials
-
-Permissions to view individual assets inside of a folder rely on Experience Manager Assets or Assets Essentials permissions.
-
-1. Go to the **Documents** area in Workfront where you want the folder.
-1. Select **Add New**, then select the Experience Manager integration your administrator set up.
-
-   >[!NOTE]
-   >
-   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Assets or Assets Essentials.
-
-1. Click Assets > Files & Folders to find the folder you want to link.
-
-      ![Content advisor](assets/content-advisor.png)
-
-1. Click **Select**.
 
 ### Link a new version from Experience Manager Assets or Assets Essentials
 
-You can pull a new asset over from Assets Essentials and add it to an existing asset as a new version. If the document is already linked and a new version is added in Assets Essentials, the new version appears automatically in Workfront.
-
-To link a new version from Assets Essentials:
+You can pull a new asset over from Experience Manager Assets or Assets Essentials and add it to an existing asset as a new version. If the document is already linked and a new version is added in Experience Manager Assets or Assets Essentials, the new version appears automatically in Workfront.
 
 1. Go to the **Documents** area in Workfront where you want to add the document.
 1. Select the asset you want to replace with a new version. You can't create a new version of an asset in a linked folder. 
@@ -188,28 +147,32 @@ To link a new version from Assets Essentials:
 
 1. Select the content you want to link:
 
-   * Select the Assets tab to find assets, folders, or collections in Experience Manager Assets or Assets Essentials.
+   * Select the Assets tab to browse assets, folders, or collections in Experience Manager Assets or Assets Essentials.
 
-      ![Content advisor](assets/content-advisor.png)
+      ![Content advisor](assets/content-advisor-full.png)
 
-   Content fragments do not support versions. If you select a content fragment, the new version will replace the existing content fragment instead of creating a new version.
+   * Content fragments do not support versions. If you select a content fragment, the new version will replace the existing content fragment instead of creating a new version.
 
 1. Click **Select**.
 
->[!TIP]
->
->You can view all versions of an asset if you go to **Document Details** > **Versions**.
+## Link a folder from Experience Manager Assets or Assets Essentials
 
+Permissions to view individual assets inside of a folder rely on Experience Manager Assets or Assets Essentials permissions.
 
-</div>
+1. Go to the **Documents** area in Workfront where you want the folder.
+1. Select **Add New**, then select the Experience Manager integration your administrator set up.
 
-<!--
+   >[!NOTE]
+   >
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Assets or Assets Essentials.
 
-Notes for release
+1. Click Assets > Files & Folders. 
 
-adding a brief
-better search
-Fragments?
-Suggested content - shows content that is relevant based on project/program descriptions. 
+1. Click the **Filter** icon, then in the **Asset Type** section, choose **Folders**.
 
--->
+1. Select the folder you want to link. 
+
+1. Click **Select**.
+
+<!--need screenshot-->
+
