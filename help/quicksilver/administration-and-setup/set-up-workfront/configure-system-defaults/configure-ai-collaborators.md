@@ -11,6 +11,10 @@ exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
 ---
 # Configure AI Collaborators
 
+>[!IMPORTANT]
+>
+>Currently, Content Reviewer is the only available AI Collaborator type. More AI Collaborator capabilities will be available in the future.
+   
 {{highlighted-preview-article-level}}
 
 AI Collaborators are a way to onboard AI agents into your projects and tasks. You can configure an AI Collaborator, then assign it as you would a user.
@@ -22,10 +26,6 @@ Available AI Collaborator types include:
 * Reviewer: Create a collaborator using brands or brand brain, then assign the collaborator as a reviewer on assets.
 
    For more information, see [Get started with the Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
-
-   >[!NOTE]
-   >
-   >Currently, Reviewer is the only available AI Collaborator type. More AI Collaborator capabilities will be available in the future.
 
 
 ## Access requirements

@@ -14,7 +14,7 @@ This page describes Administrator enhancements made with the Second Quarter 2026
 
 For a list of all changes available at this point in the Second Quarter 2026 release cycle, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## AI Collaborators now available
+## Content Review AI Collaborator now available
 
 >[!NOTE]
 >
@@ -22,13 +22,11 @@ For a list of all changes available at this point in the Second Quarter 2026 rel
 >Production fast release: April 15, 2026
 >Production for everyone: April 16, 2026 
 
-To make it easier for you to benefit from AI in your day-to-day work, we've created AI Collaborators. AI Collaborators are a way to onboard AI agents into your projects and tasks. You can configure an AI Collaborator with brand guidelines, then assign it to a task as you would a user.
+To make it easier for you to benefit from AI in your day-to-day work, we've created the Content Review AI Collaborator. The Collaborator is a way to onboard AI agents into your projects and tasks. You can configure an AI Collaborator with brand guidelines, then assign it to a task as you would a user.
 
-Currently, AI Collaborators can be used to review content. More AI Collaborator capabilities will be available in the future.
+Currently, Content Review is the only available AI Collaborator. More AI Collaborator capabilities will be available in the future.
 
-<!--
 For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators).
--->
 
 ## Custom quarters are now available as a separate page in Setup
 
