@@ -30,6 +30,8 @@ Advanced enterprise operations capabilities from Adobe Workfront are a unified a
 
 Forecast, track, and optimize your finances with multi-level cost and billing rate hierarchies.
 
+[View a 13-minute video demonstration of the advanced financial management features.](https://video.tv.adobe.com/v/3483224/){target="_blank"}
+
 The enhancements to financial management include:
 
 * **Rate attributes**, which allow you to add additional dimensions to rates beyond the job role, so that rates can vary not only by job role but also by factors such as agency, location, brand, cost center, or others. By combining these attributes, Workfront can automatically select the correct rate for assignments, ensuring financial accuracy and consistency across projects.
@@ -78,6 +80,8 @@ Use **project snapshots** to manage projects more effectively and make informed 
 
 For more information, see [Create and view project snapshots](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md).
 
+[View a video demonstration of project snapshots.](https://video.tv.adobe.com/v/3483249/){target="_blank"}
+
 >[!NOTE]
 >
 >* Project snapshots are only available for organizations on the Workflow Ultimate package.
@@ -88,6 +92,8 @@ For more information, see [Create and view project snapshots](/help/quicksilver/
 **Business profiles** provide secure, scalable system access and help to strengthen enterprise governance. 
 
 For more information, see [Business profiles overview](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
+
+[View a video demonstration of business profiles.](https://video.tv.adobe.com/v/3483246/){target="_blank"}
 
 >[!NOTE]
 >
@@ -102,6 +108,8 @@ Also, permissions to view both cost and billing data have been separated from th
 ### Custom form and field enhancements
 
 Advanced logic in custom forms provides clearer insights and more accurate project and financial management.
+
+[View a video demonstration of the custom form and field enhancements.](https://video.tv.adobe.com/v/3483244/){target="_blank"}
 
 The enhancements to custom forms include:
 
@@ -151,6 +159,8 @@ In layout templates, you can customize the headers and left navigation menus of 
 
 For more information, see [Create and manage layout templates](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
+[View a video demonstration of the layout template enhancements.](https://video.tv.adobe.com/v/3483245/){target="_blank"}
+
 ### Custom localization
 
 >[!NOTE]
@@ -163,6 +173,8 @@ For example, you can set the label "Target Audience" to translate to the German 
 
 For more information, see [Configure custom localization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
 
+[View a video demonstration of custom localization.](https://video.tv.adobe.com/v/3483248/){target="_blank"}
+
 ### Automate actions with Business Rules
 
 >[!NOTE]
@@ -172,3 +184,6 @@ For more information, see [Configure custom localization](/help/quicksilver/admi
 Workfront administrators can now configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object, or attaching a custom form to the object.
 
 For more information, see [Create and edit business rules](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+[View a video demonstration of the Business Rules enhancements.](https://video.tv.adobe.com/v/3483247/){target="_blank"} 
+
