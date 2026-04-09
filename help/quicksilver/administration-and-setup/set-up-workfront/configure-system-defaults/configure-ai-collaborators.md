@@ -11,6 +11,10 @@ exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
 ---
 # Configure AI Collaborators
 
+>[!IMPORTANT]
+>
+>Currently, Content Reviewer is the only available AI Collaborator type. More AI Collaborator capabilities will be available in the future.
+   
 {{highlighted-preview-article-level}}
 
 AI Collaborators are a way to onboard AI agents into your projects and tasks. You can configure an AI Collaborator, then assign it as you would a user.
@@ -19,13 +23,9 @@ For example, you can configure a reviewer-type AI Collaborator with brand guidel
 
 Available AI Collaborator types include:
 
-* Reviewer: Create a collaborator using brands or brand brain, then assign the collaborator as a reviewer on assets.
+* Reviewer: Create a collaborator using brands<!-- or Adobe Brand Intelligence-->, then assign the collaborator as a reviewer on assets.
 
    For more information, see [Get started with the Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
-
-   >[!NOTE]
-   >
-   >Currently, Reviewer is the only available AI Collaborator type. More AI Collaborator capabilities will be available in the future.
 
 
 ## Access requirements
@@ -79,9 +79,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >Currently, only the Reviewer type is available. More AI Collaborator types will be available in the future.
 
 1. In the Collaborator Name field, enter a name for the collaborator. This is the name that appears in the list of available assignees on a task.
-1. Select whether the collaborator will use a brand or a brand brain for its reviews.
-1. (Conditional) If the AI Collaborator will use a Brand Brain, select the tenant that it will use.
-1. (Conditional) If the AI Collaborator will use a Brand, select the brand and brand guideline that it will use.
+<!--1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.-->
+<!--1. (Conditional) If the AI Collaborator will use Adobe Brand Intelligence, select the tenant that it will use.-->
+1. <!--(Conditional) If the AI Collaborator will use a Brand,-->Select the brand and brand guideline that it will use.
 1. Click **Save**.
 
 ## Manage AI Collaborators
