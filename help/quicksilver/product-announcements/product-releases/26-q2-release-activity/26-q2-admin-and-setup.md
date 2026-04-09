@@ -57,7 +57,7 @@ By default, all sections on a custom form are expanded when the form itself is e
 
 For more information, see [Organize and preview a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
-## Rich text field type is now available on custom forms
+## Rich Text field replacing Text with Formatting field type
 
 >[!NOTE]
 >
