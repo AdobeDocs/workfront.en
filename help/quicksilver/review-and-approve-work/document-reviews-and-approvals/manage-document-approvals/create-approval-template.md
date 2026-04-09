@@ -11,8 +11,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create an approval workflow template for documents
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 In the Workfront Setup area, users with a Standard license can create reusable Approval Templates. Once created, Approval Templates can be applied to assets in the Documents area of a project, task, or issue. 
 
 >[!IMPORTANT]
@@ -43,30 +41,9 @@ In the Workfront Setup area, users with a Standard license can create reusable A
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+ß
 
-
-
-
-## Create an Approval Template in your production environment
-
-{{step-1-to-setup}}
-
-1. In the left panel, click **Review and Approval** > **Approval Templates**.
-1. Click **New Template** on the right side of the page. 
-1. Specify the following information:
-
-    | Template name              |Begin typing a name for this template.   |
-    |----------------------------|---|
-    | **(Optional) Timeframe**|Enter the timeframe in days . The approval deadline is calculated from this field once the template is applied to an asset.   |
-    | **Add approvers or reviewers** |Begin typing the name of users or teams, then designate them as a reviewer or approver.   |
-    
-1. Click **Save**.
-
-
-
-<div class="preview">
-
-## Create an Approval Template in your preview environment
+## Create an Approval Template 
 
 {{step-1-to-setup}}
 
@@ -110,7 +87,6 @@ For more detail about the information in this table, see [Access requirements in
 
 Once the template is created, it can be applied to documents in the Documents area of a project, task, or issue to begin the formal review and approval process in Workfront.
 
-</div>
 
 
 <!--

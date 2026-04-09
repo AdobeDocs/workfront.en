@@ -12,8 +12,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Get started with the Workfront Content Reviewer
 
-{{highlighted-preview-article-level}}
-
 Content Reviewer is an AI Collaborator—a type of AI agent that can be added to your projects, tasks, and documents. AI Collaborators can be configured in the Setup area and assigned just like users.
 
 In Workfront, Content Reviewer helps increase content velocity and improve brand compliance throughout the review and approval process. You can add Content Reviewers to approval templates or include them in individual review and approval requests.
