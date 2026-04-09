@@ -120,6 +120,10 @@ This layout of Advanced Assignments applies to tasks only. For issues, see [Crea
 
    For information about the task duration, duration types, units of time, and planned hours, see [Overview of Task Duration and Duration Type](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
+   >[!NOTE]
+   >
+   >If a data column you want to view is not displayed, you can add it. See [Add and removed columns on the Advanced Assignments list](#add-and-remove-columns-on-the-advanced-assignments-list), below.
+
 1. (Optional) Select **Hours**, **FTE**, or **Percentage** for viewing the allocations.
 
    You can see how much a user is assigned in planned hours, as a percentage of their capacity, or in FTE (full-time equivalent, 0–1 scale). The default setting is Hours.
