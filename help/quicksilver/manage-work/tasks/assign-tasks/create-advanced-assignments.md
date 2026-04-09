@@ -38,7 +38,7 @@ You can adjust the following assignment information when making advanced assignm
 * Determine which user should be designated as the owner or the Primary assignee of the task or issue.
 * Specify which role each user is fulfilling when working on the task or issue.
 * <span class="preview">Add billing and cost rate information at the assignment level.</span>
-* <span class="preview">Review the following details for each assignment: time-based planned hours, total cost, and total revenue.</span>
+* <span class="preview">Review the following details for each assignment: planned hours, total cost, and total revenue.</span>
 
 >[!NOTE]
 >
