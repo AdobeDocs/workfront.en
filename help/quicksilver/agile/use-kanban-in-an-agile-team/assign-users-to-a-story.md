@@ -3,9 +3,11 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
 title: Assign Users to a Story on the Kanban Board
 description: You can assign users to stories directly on the Kanban board.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: ed727302-68c7-4e00-b05c-a5ed238bcc2d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Assign users to a story on the [!UICONTROL Kanban] board
 

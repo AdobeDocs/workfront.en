@@ -3,9 +3,11 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Use Planned Dates in a Calendar Report
 description: A calendar report is a dynamic report that provides a visual representation of your work. You can use Planned Date fields in a calendar report for tasks, issues, and projects.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 27bf6f03-2f6b-4556-a715-75c4a21bfbbb
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Use [!UICONTROL Planned Dates] in a calendar report
 

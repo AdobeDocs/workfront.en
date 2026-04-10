@@ -3,9 +3,11 @@ navigation-topic: navigate-workfront
 title: Lists in [!DNL Adobe Workfront]
 description: You can view objects in Adobe Workfront in lists. You can apply filters, views, or groupings to a list to modify the information displayed. This section contains the following articles about lists
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 recommendations: noDisplay, noCatalog
 exl-id: 71819834-2e2d-4bdd-8c82-a01d2849355e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Lists in [!DNL Adobe Workfront]
 

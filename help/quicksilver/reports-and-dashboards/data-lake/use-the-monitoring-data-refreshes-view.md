@@ -1,10 +1,13 @@
 ---
 product-area: reports and dashboards
 navigation-topic: data-connect
-title: Use the Monitoring Data Refreshes view in Data Connect 
+title: Use the Monitoring Data Refreshes view in Data Connect
 description: With Data Connect, Workfront administrators can access detailed records of the recent updates that were made to the data lake date during the most recent refresh.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
+exl-id: 230d1a30-2af9-4d2c-9ec1-34c3d4c080d4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Use the Monitoring Data Refreshes view in Data Connect 
 
@@ -81,4 +84,3 @@ The Monitoring Data Refreshes view columns contain the following information:
         <br><b>Note</b>: This is not the same as the total number of records impacted by CREATE, UPDATE, or DELETE events since the same record could be CREATED and UPDATED multiple times within the interval between refreshes.  </td>
     </tr>
    </table>
-

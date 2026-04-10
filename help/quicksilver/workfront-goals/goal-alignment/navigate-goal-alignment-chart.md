@@ -6,6 +6,8 @@ description: Use the Goal Alignment section to display a holistic view of goal a
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Navigate the Goal Alignment section in Adobe Workfront Goals
 
@@ -36,6 +38,9 @@ For information about goal alignment and how to achieve it, also see the followi
   <td> <p>Adobe Workfront package</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
+
+   <p><b>NOTE</b></p>
+<p>Speak with your Workfront representative if you have a different Workfront package.</p>
    </td> 
   </tr> 
   <tr> 
@@ -63,7 +68,8 @@ For information, see [Access requirements to Workfront documentation](/help/quic
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto">
 <col>
@@ -115,7 +121,8 @@ Or
 </td>
 </tr>
 </tbody>
-</table>--> 
+</table>
+-->
 
 ## Navigate the Goal Alignment section
 
@@ -159,7 +166,8 @@ Or
          <li> <span>In Trouble</span> (red indicator): the goal is in danger of not being achieved on time. </li> 
         </ul> 
        </div> </td> 
-     </tr> <!--
+     </tr>
+     <!--
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Updated on date </td> 
        <td> <p>The date when the goal was last updated</p> <p>(NOTE: drafted because I think this was removed with the alignment chart redesign - 21.1) </p> </td> 

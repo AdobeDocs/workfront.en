@@ -4,10 +4,12 @@ product-area: agile-and-teams
 navigation-topic: agile
 title: Tips, tricks, and troubleshooting for agile
 description: Review these article for troubleshooting tips on agile.
-author: Jenny
+author: Courtney
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 2e03b6ef-3218-4f3a-a768-3c4c20c7d48c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Tips, tricks, and troubleshooting for agile
 

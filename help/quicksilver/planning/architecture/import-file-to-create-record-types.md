@@ -6,12 +6,14 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create record types by importing information from a CSV or Excel file
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -55,7 +57,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -111,7 +114,8 @@ For more information about Workfront access requirements, see [Access requiremen
   </tr> 
  
 </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Considerations about importing record types using an Excel or CSV file
@@ -135,6 +139,7 @@ For more information about Workfront access requirements, see [Access requiremen
     * Last modified date, Last modified by
     * Approved date, Approved by
     * People
+    * <span class="preview">Record ID</span>
 
 To import record types using an Excel or CSV file: 
 
@@ -145,6 +150,14 @@ To import record types using an Excel or CSV file:
     Or
 
     From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
+
+   >[!TIP]
+   >
+   ><span class="preview">You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for workspaces:</span>
+   >
+   >* <span class="preview">CTRL+K for Windows</span>  
+   >* <span class="preview">⌘+K for Mac</span>
+
 1. Click **Add record type**. 
 1. Click **Upload from file**.
 1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one, then select it. 

@@ -3,10 +3,12 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Remove reports from a dashboard
 description: You can remove reports from a dashboard after they've been added.
-author:  Courtney and Jenny 
+author:  Courtney
 feature: Reports and Dashboards
 hidefromtoc: yes
 hide: yes
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Remove reports from a dashboard
 

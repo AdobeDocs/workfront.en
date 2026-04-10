@@ -6,6 +6,8 @@ description: You can use templates as a framework to create projects in Adobe Wo
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create a project using a template
 
@@ -71,7 +73,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -102,7 +105,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <p>When you create a project, you automatically receive Manage permissions to the project.</p></td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Create a project from a template in the Projects area
 
@@ -159,7 +163,7 @@ You can create a project from the Projects area in the Main Menu, or from the Pr
       * The number of all tasks in the template
       * The names of the template custom forms
 
-   1. (Optional) Hover over the name of a template name in the left pane and click the **Favorites** **icon** ![Favorites icon](assets/favorites-icon-small.png) to mark it as a favorite for future use.
+   1. (Optional) Hover over the name of a template name in the left panel and click the **Favorites** **icon** ![Favorites icon](assets/favorites-icon-small.png) to mark it as a favorite for future use.
 
       Or
 
@@ -173,7 +177,8 @@ You can create a project from the Projects area in the Main Menu, or from the Pr
 
       ![Template details](assets/new-project-from-template-small-box-with-template-details-panel.png)
 
-      <!--no longer available, after unshimming - Oct 2025:
+      <!--
+      no longer available, after unshimming - Oct 2025:
       >[!NOTE]
       >
       >If you have the Milestone View applied to the list of projects, click the name of a template in the **New from Template section**.

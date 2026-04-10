@@ -1,10 +1,12 @@
 ---
 title: Third Quarter 2025 Update and Notification enhancements
 description: Third Quarter 2025 Project enhancements
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 26ed0bee-2fd4-480d-b55c-3c5a289d25b0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Third Quarter 2025 Update and Notification enhancements
 

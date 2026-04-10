@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Functionality available for each object type for various access levels (Legacy)
-
-{{highlighted-preview}}
 
 >[!NOTE]
 >
@@ -500,7 +500,6 @@ The Request and External User license types are not included here because they d
 | Manage billing records |✓ |  |  |
 | Manage expenses |✓ |✓ |  |
 | View financial data |✓&#42; |✓&#42; |✓&#42; |
-| <span class="preview">Manage rate cards</span>  |✓ |  |  |
 | View information by Cost in the Resource Planning tools  |✓ |  |  |
 | Budget Resources in the Resource Planning tools&#42;&#42; |✓ |  |  |
 | View resource allocation in the Resource Planning tools&#42; |✓ |✓ |✓ |

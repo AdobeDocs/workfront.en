@@ -2,9 +2,11 @@
 title: Use Form Fill powered by AI to fill in a request using prompts or documents
 content-type: reference
 description: You can use AI to auto-fill request fields by entering a prompt or supplying a document.
-author: Becky
+author: Alina
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Use Form Fill powered by AI to fill in a request using prompts or documents
 
@@ -14,9 +16,7 @@ exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 
 AI Form Fill can help you auto-fill request fields based on a prompt you enter. It can also fill fields based on text such as emails ar uploaded documents. You can approve or reject these suggestions before submitting the request.
 
-AI Form Fill does not overwrite any fields that you have already filled in.
-
-Users do not receive suggestions of data that they do not otherwise have access to.
+This functionality is available when creating a request in the Workfront Requests area, and in Workfront Planning.
 
 ## Access requirements
 
@@ -53,7 +53,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Prerequisites
 
-To use AI Form Fill to fill requests using a prompt or document, **all** of the following must apply:
+To use Form Fill powered by AI to fill in a request using a prompt or document, **all** of the following must apply:
 
 * Your organization must have migrated to Adobe IMS (Identity Management System)
 * The Adobe Unified Experience must be enabled
@@ -64,6 +64,31 @@ To use AI Form Fill to fill requests using a prompt or document, **all** of the 
 * AI Assistant must be enabled in your organization's system settings. This is managed by your Workfront administrator.
 
    For more information on enabling AI Assistant in system settings, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+
+## Considerations when using Form Fill powered by AI
+
+Consider the following when using Form Fill powered by AI
+
+* AI Form Fill does not overwrite any fields that you have already filled in.
+* Users do not receive suggestions of data that they do not otherwise have access to.
+
+<!--
+* Files that you use in Form Fill powered by AI are uploaded to Azure storage for 24 hours. This is necessary for document processing. 
+* All files uploaded to Azure are currently stored in US Azure clusters for the 24 hour storage window. 
+-->
+
+
+## Enable Form Fill powered by AI for your organization
+
+>[!NOTE]
+>
+>Form Fill powered by AI is enabled at the organization level, and cannot be enabled or disabled for specific users or access levels.
+
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
+1. Click **System**, then under System, click **Preferences**.
+1. In the AI preference section, ensure that **Enable AI** is toggled on.
+1. Toggle on **AI Form Fill**.
+1. To disable Form Fill powered by AI, toggle off **AI Form Fill**.
 
 ## Get suggestions from a text prompt
 
@@ -173,7 +198,6 @@ The following file types are supported:
 <td>
 <ul>
 <li>BMP</li>
-<li>CSV</li>
 <li>DOC</li>
 <li>DOCX</li>
 <li>GIF</li>

@@ -4,9 +4,11 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: Use the Card List
 description: You can create a card list on a workstream and add the cards to iterations.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Use the card list
 

@@ -6,6 +6,8 @@ description: You can view the utilization of your resources in the Utilization r
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View resource utilization information {#view-resource-utilization-information}
 
@@ -361,11 +363,13 @@ For information on the specific fields and how Workfront calculates them, also s
  </tbody> 
 </table>
 
-<!--Note from the table about Actual revenue: 
+<!--
+Note from the table about Actual revenue: 
      <p>Actual Revenue is displayed in the Utilization report only after the task is marked as Complete or Done (or a status that equates with Complete).</p>
     -->
 
-<!--More notes from the table: 
+<!--
+More notes from the table: 
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;the note below is duplicated in this article: /Content/Manage work/Projects/Project Finances/billing-and-revenue-overview.html and in the glossary)</p>
    -->
 
@@ -420,7 +424,8 @@ The following information is available in the Utilization report when comparing 
  </tbody> 
 </table>
 
-<!--Note from the table from above "Function" header in the middle of the table; right after the "Planned Revenue"/"Margin" definition: 
+<!--
+Note from the table from above "Function" header in the middle of the table; right after the "Planned Revenue"/"Margin" definition: 
      <p scope="col" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This needs to be either split in two tables of formatted differently)</p>
     -->
     

@@ -3,9 +3,11 @@ product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: Add Stories to an Existing Iteration
 description: You can add stories to an iteration in many ways.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Add stories to an existing iteration
 

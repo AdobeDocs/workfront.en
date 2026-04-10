@@ -3,9 +3,11 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Reply to email notifications
 description: You can respond to Workfront email notifications generated from comments made to projects, tasks, issues, and other objects to add replies to the original comments made in the Adobe Workfront application.
-author: Nolan and Alina
+author: Courtney and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Reply to email notifications
 
@@ -76,7 +78,8 @@ For more information, see [Access requirements for Workfront documentation](/hel
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
  <col> 
  <col> 
@@ -99,7 +102,8 @@ For more information, see [Access requirements for Workfront documentation](/hel
    <td> <p>View or higher permissions to the objects where you want to post the reply</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Reply to an update from an email notification
 

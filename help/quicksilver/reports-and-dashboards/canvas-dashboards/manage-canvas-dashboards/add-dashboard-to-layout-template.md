@@ -3,9 +3,11 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Add a Canvas Dashboard to a layout template
 description: You can add a Canvas Dashboard to a layout template so it replaces the Home landing page, appears in an object's left panel, or is pinned to the top bar.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 91ebcec5-99a4-4096-8d4e-b4ea31755d75
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Add a Canvas Dashboard to a layout template 
 

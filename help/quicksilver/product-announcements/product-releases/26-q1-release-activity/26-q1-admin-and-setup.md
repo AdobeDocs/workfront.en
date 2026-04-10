@@ -4,7 +4,7 @@ description: First Quarter 2026 Administrator enhancements
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-
+exl-id: a74d036b-e4fa-49e0-bb10-4baf379e1b1c
 ---
 # First Quarter 2026 Administrator enhancements
 
@@ -90,7 +90,3 @@ If you mark a field inactive:
 >Marking an existing field inactive makes it unavailable to use in reporting elements and custom forms from that point forward. If the inactive field is currently used in a report or a form, the field and its historical data remain in place.
 
 For more information, see [Add or edit a custom field, section break, or widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md).
-
-
-
-

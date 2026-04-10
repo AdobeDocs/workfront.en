@@ -1,10 +1,12 @@
 ---
 title: First Quarter 2024 Home enhancements
 description: First Quarter 2024 Home enhancements
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # First Quarter 2024 Home enhancements
 

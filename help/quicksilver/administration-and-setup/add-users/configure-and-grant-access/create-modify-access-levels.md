@@ -8,12 +8,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create and modify custom access levels
 
 <!--Audited: 12/2023-->
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 As an Adobe Workfront administrator, you can create custom access levels and apply them to users. As you work with access levels, it is important to understand how they work together with the object permissions that users grant when they share objects with each other. For more information about access levels, see:
 
@@ -57,20 +61,11 @@ For more detail about the information in this table, see [Access requirements in
 {{step-1-to-setup}}
 
 1. Click **Access Levels** in the left panel.
-1. * In the production environment: 
-     Select the access level you want to copy and customize, then click **Copy**.
+1. Select the access level you want to copy and customize, then click the **Copy** icon ![Copy icon](assets/copy-icon.png).
 
-     Or
+   Or
 
-     If you are editing an existing access level (that you copied previously), click its name.
-
-   * <span class="preview">In the preview environment:</span>
-      
-      <span class="preview">Select the access level you want to copy and customize, then click the **Copy** icon ![Copy icon](assets/copy-icon.png). </span>
-
-      <span class="preview">Or </span>
-
-      <span class="preview">If you are editing an existing access level, select the access level by clicking the box at the left of that access level, then click the **Edit** icon ![Edit icon](assets/edit-icon.png). </span>
+   If you are editing an existing access level, select the access level by clicking the box at the left of that access level, then click the **Edit** icon ![Edit icon](assets/edit-icon.png).
 
 1. In the box that displays, do any of the following to start configuring the custom access level:
 
@@ -194,8 +189,21 @@ For more detail about the information in this table, see [Access requirements in
       <td role="rowheader">Never allow users to delete announcements</td> 
       <td>Prevents users from deleting announcements in the Announcement Center. For more information, see <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Send announcements</a>.</td> 
      </tr> 
+     <tr>
+      <td role="rowheader">Allow users to access Brands</td> 
+      <td>Allows users to access and manage GenStudio Brands in Workfront. For more information, see <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">Grant access to brand permissions</a>.</td> 
+     </tr>
     </tbody> 
    </table>
+
+
+1. <span class="preview">(Optional) To restrict users with this access level from seeing specific fields, add the fields in the Add restricted fields section.</span>
+ 
+   <span class="preview">You can search for both native and custom fields in this section. There is a limit of 20 restricted fields.</span>
+
+   <span class="preview">The fields are restricted when the access level is assigned to a user as their primary access level or through a business profile. For more information on business profiles, see [Business profiles overview](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).</span>
+
+   <span class="preview">A restricted field is still visible to the users in the system, but appears as blank or displays N/A instead of actual data.</span>
 
 1. (Conditional and optional) If your Workfront system is set up for users that belong to multiple companies, restrict the visibility to other users based on what company they belong to in the section **People in other companies should only view users from**.
 

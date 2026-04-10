@@ -5,6 +5,8 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # 23.3 release overview
 
@@ -429,7 +431,8 @@ The 23.3 release webinar was on June 29, 2023. You can [register for the webinar
                         </ul>
                     </td>
                 </tr>                
- <!--               <tr>
+ <!--
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Improved experience when moving a document to a linked folder with drag and drop</a></p> 
                         <p>We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder. </p>
@@ -444,7 +447,8 @@ The 23.3 release webinar was on June 29, 2023. You can [register for the webinar
                             </li>
                         </ul>
                     </td>
-                </tr>-->
+                </tr>
+                -->
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Automatically create linked folders to Adobe Experience Manager Assets when creating a project</a></p>
@@ -779,7 +783,8 @@ We will be officially deprecating the Proof mobile app with the 23.10 release (O
 Note that the Workfront mobile app requires a Workfront login. External users and guests can continue to use the Proof app for proofing work; however, it is no longer supported and will become unavailable with the 23.10 release (October 2023).
 
 
-<!-- HTML you might need
+<!--
+ HTML you might need
 
 New table
 

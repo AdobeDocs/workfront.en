@@ -4,9 +4,11 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Boards Overview
 description: Adobe Workfront Boards are flexible tools that allow team collaboration by providing access to a shared board that contains columns and cards.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # [!UICONTROL Boards] overview
 

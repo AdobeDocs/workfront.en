@@ -4,6 +4,7 @@ description: First Quarter 2026 Project enhancements
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 62dd094f-364e-4171-bf9a-c55cbbc92ad7
 ---
 # First Quarter 2026 Project enhancements
 
@@ -27,5 +28,3 @@ Before logging time on a project, a user with a Light license must have:
 * Contribute or higher permissions to the project with access to Log Hours
 
 For more information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
-
-

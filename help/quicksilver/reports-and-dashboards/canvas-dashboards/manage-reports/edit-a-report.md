@@ -3,11 +3,15 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Edit a report in a Canvas Dashboard
 description: You can edit a Canvas dashboard report after it's been created.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: fd659f56-d67f-4a0f-8735-b214934903ac
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Edit a report in a Canvas Dashboard
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -78,7 +82,13 @@ For more information, see [Create a Canvas dashboard](/help/quicksilver/reports-
 
     ![Edit a report](assets/edit-report-box.png)
 
-1. In the **Configure** dialog box, edit the information in the sections listed on the left side. These sections will vary depending on the report type you're editing.
+1. <span class="preview">In the **Configure** dialog box, edit the information in the sections listed on the left side. These sections will vary depending on the report type you're editing.
+
+    >[!TIP]
+    >
+    >The Details section for all report types includes a **Run this report with the access rights of** option. Use this to specify a user whose permissions are used to render the report data, ensuring all dashboard viewers see the same data. For more information, see [Build a KPI report](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Build a chart report](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md), or [Build a table report](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
+
+    </span>
 
 1. (Optional) If editing a KPI report, edit information as needed in the following sections:
 

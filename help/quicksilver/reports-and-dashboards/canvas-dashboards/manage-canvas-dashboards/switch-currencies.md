@@ -5,9 +5,8 @@ title: Use currency fields in Canvas Dashboards
 description: You can use the currency fields in a Canvas Dashboard.
 author: Courtney
 feature: Reports and Dashboards
-
+exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
 ---
-
 # Use currency fields in Canvas Dashboards
 
 >[!IMPORTANT]
@@ -68,7 +67,7 @@ For more detail about the information in this table, see [Access requirements in
 
    >[!IMPORTANT]
    >
-   >The functionality described in this article applies only to native currency fields. If you have currency exchange rates set up  Support for custom currency fields is coming soon.
+   >The functionality described in this article applies only to native currency fields. Support for custom currency fields is coming soon.
 
 
 ## Set a default currency for a Canvas Dashboard
@@ -163,8 +162,3 @@ The following table outines limitations when currencies are defined in the Excha
 </ul>
 </td>
 </tr></table>
-
-
-
-
-

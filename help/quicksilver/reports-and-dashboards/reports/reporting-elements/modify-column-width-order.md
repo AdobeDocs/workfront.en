@@ -3,9 +3,11 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Modify column width and order
 description: Review this article to learn about column width guidelines and how to chang the column width and order in Workfront.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Modify column width and order
 

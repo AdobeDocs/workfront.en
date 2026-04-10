@@ -6,6 +6,8 @@ description: You can connect your work with your content in [!DNL Experience Man
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Configure the [!UICONTROL Experience Manager Assets as a Cloud Service] integration
 
@@ -233,7 +235,8 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 >Users must have write access in [!DNL Experience Manager] for assets living in the object in order for the metadata to sync when it's updated.
 
 1. Enable the **[!UICONTROL Sync object metadata]** field.
-1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.-->
+1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.
+-->
 
 ## Set up workflows (Optional)
 
@@ -279,11 +282,15 @@ You can create up to 100 linked folders per folder tree.
 
 1. Click **[!UICONTROL Save]**, or move on to the [Publish assets that are sent to Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) section in this article.
 
+
 >[!NOTE]
 >
->* This integration will create no more than 100 folders, regardless of how many folder trees are created. For example, an integration with 4 folder trees can create up to 100 folders, not 400 folders.
->* The first folder in folder tree is automatically marked as linked to Workfront. If you do not want this folder linked, you can unlink it.
+>* The Workfront AEM Native Integration can create **no more than 100 folders per project per integration**, regardless of how many folder trees are included.  
+>   * Example: An integration with 4 folder trees in a single project can create up to 100 total folders — not 400.
+>* The first folder in each folder tree is automatically marked as linked to Workfront. If you do not want this folder linked, you can unlink it.
 >* If no folder tree is provided, the root folder becomes the linked folder.
+
+
 
 
 ### Publish assets that are sent to Adobe Experience Manager Assets

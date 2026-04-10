@@ -9,6 +9,10 @@ exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
 ---
 # Workspaces overview
 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
 A workspace is a collection of record types used by an organizational unit and it represents the unit's work lifecycle and processes. You can fully customize workspaces in Adobe Workfront Planning. 
@@ -24,8 +28,11 @@ A workspace is a collection of record types used by an organizational unit and i
 
     * From scratch
     * Using a template. Templates contain a preconfigured number of record types and their fields. 
+    * Using the AI-powered Planning Designer. This feature is currently in Beta.
+    * <span class="preview">Using a multi-workspace template bundle.</span>
 
     For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). 
+    
 * Workspaces are frameworks within which your organizational units (a team, group, department, or division) work. They cannot be associated with fields. Only the record types within  a workspaces can be associated with fields. 
 
     For information, see [Record types overview](/help/quicksilver/planning/architecture/overview-of-record-types.md). 

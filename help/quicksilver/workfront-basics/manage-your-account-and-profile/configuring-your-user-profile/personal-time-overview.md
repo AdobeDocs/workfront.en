@@ -7,6 +7,8 @@ description: It is important to indicate in Adobe Workfront when approved time o
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Configure personal time off
 
@@ -75,8 +77,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    ![Personal time off calendar](assets/personal-time-off-calendar-0925.png)
 
-   <!--Sample image in the Production environment:
-   ![Personal time off calendar](assets/personal-time-off-calendar.png)-->
+   <!--
+   Sample image in the Production environment:
+   ![Personal time off calendar](assets/personal-time-off-calendar.png)
+   -->
 
 1. Select **[!UICONTROL All day]**, if you are taking a full day off.
 

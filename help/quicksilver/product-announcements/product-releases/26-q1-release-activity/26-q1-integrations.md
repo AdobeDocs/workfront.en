@@ -4,7 +4,7 @@ description: First Quarter 2026 Integrations enhancements
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-
+exl-id: 2ea9c93c-fae4-47da-ae34-39b73ce85a3c
 ---
 # First Quarter 2026 Integrations enhancements
 
@@ -56,4 +56,3 @@ To stay up-to-date with recent changes to the Workfront API, we've created a new
 For instructions and links for downloading and installing the new integration, see [Install Adobe Workfront for Salesforce](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
 
 -->
-

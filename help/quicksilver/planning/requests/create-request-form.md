@@ -3,9 +3,11 @@ title: Create and Manage a Request Form in Adobe Workfront Planning
 description: After selecting a record type in Adobe Workfront Planning area, you can create a request form and associate it with that record type. You can then share a link to it with other internal or external users. Users with a link to the form can fill out the field values on it, and by submitting it, they can add a new record for the record type associated with it.
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create and manage a request form in Adobe Workfront Planning
 
@@ -75,6 +77,7 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
    
       * Created by, Last modified by, Approved by
       * Created date, Last modified date, Approved date
+      * <span class="preview">Record ID</span>
       * Workfront objects' lookup fields
       * Workfront Planning connected records' lookup fields
 
@@ -98,7 +101,7 @@ To create a request form, you must begin creating the form, set up the form deta
 
 ### Begin creating a request form
 
-You can create a request form from the record type associated with the form<!--span class="preview">, or from the Requests area of Workfront.</span>-->.
+You can create a request form from the record type associated with the form, <!--<span class="preview"> or from the Requests area of Workfront</span>-->.
 
 #### Create a request form from a record type
 
@@ -113,6 +116,11 @@ You can create a request form from the record type associated with the form<!--s
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
 
 1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Create request form** or **Manage request forms**, if you already have a form and you want to create additional ones.
+
+   The **Request forms** page opens and the requests display in the list view. 
+
+   ![Request forms page](assets/request-forms-in-list-view.png)
+
 1. (Conditional) If you want to add another form, click **New request form**.
 
    The **Create request form** box opens.
@@ -148,8 +156,6 @@ You can create a request form from the record type associated with the form<!--s
 
    The request form for the selected record type opens in the Form tab.
 1. Continue to [Set up details for the request form](#set-up-details-for-the-request-form).
-
-
 
 </div>
 
@@ -402,7 +408,19 @@ For information on creating automations in other areas of Workfront Planning, se
 
 1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms**.
 
-   All request forms associated with the record type display in a table view. 
+   The **Request forms** page opens and all request forms associated with the record type display in a table view. 
+1. (Optional) Update the following view elements in the **Request forms** page to change how information displays in the table: 
+
+   * Columns
+
+   <!--
+   <div class="preview">
+   * Grouping <!-ensure they will change the label by Prod->
+   * Row height
+   </div>
+   -->
+
+   For more information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md). 
    
 1. (Optional) Hover over the name of a request form in the table view, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the form name, and click one of he following:
 
@@ -411,6 +429,8 @@ For information on creating automations in other areas of Workfront Planning, se
    * **Share**: Click this to modify who has access to the form.
    * **Copy link**: Click this to quickly copy the request form's link without opening the form.
    * **Delete**: Click this to delete the form. All requests and records added using the form are not deleted. The form cannot be recovered. 
+
+   <!--update screen shot at preview:-->
 
    ![More menu on request form from request forms list](assets/more-menu-on-request-form-from-request-forms-list.png)
 

@@ -3,9 +3,11 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Use Custom Date Fields in a Calendar Report
 description: A calendar report is a dynamic report that provides a visual representation of your work. You can use custom date fields in a calendar report for tasks, issues, and projects.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Use custom date fields in a calendar report
 

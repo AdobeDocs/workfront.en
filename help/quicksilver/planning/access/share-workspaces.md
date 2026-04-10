@@ -6,6 +6,8 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Share workspaces
 
@@ -18,7 +20,8 @@ exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 You can share a workspace with others to ensure collaboration when working in Adobe Workfront Planning. 
 
 <!--
-This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).
+-->
 
 >[!NOTE]
 >
@@ -61,7 +64,8 @@ Or
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -118,7 +122,8 @@ Or
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerations about sharing workspaces
 
@@ -141,13 +146,35 @@ To share a workspace with others:
 
 {{step1-to-planning}}
 
-1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. 
+1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. The Sharing box opens.
 
     ![Share button on workspace top right](assets/share-button-on-workspace-top-right.png)
 
+1. <span class="preview">(Conditional) Depending on what access level you have, do one of the following: 
+
+   * If you are a System Administrator, select from the following options:</span>
+
+      <div class="preview">
+
+      * **Only invited people can access**: You must select entities in the sharing box and choose their access to the workspace. This is the default selection.
+      * **Everyone in the system can view**: Everyone in the system with access to Planning can view the workspace in their **Workspaces** area in Planning.
+
+      </div>
+       
+   * <span class="preview">(Conditional) If you are a workspace manager with a Standard license, you can see one of the following selections but you cannot change them:</span>
+
+      <div class="preview">
+
+      * **Only invited people can access**. This is the default setting.
+      * **Everyone in the system can view**
+
+      You must ask a System Administrator to change a global permission for a workspace.
+
+      </div>
+
 1. In the **Grant access to this workspace** field, start typing the name of a user, group, team, company, or job role then click it when it displays in the list. 
 
-   ![Sharing UI with groups](assets/sharing-ui-with-groups.png)
+   <span class="preview">![Sharing UI with groups](assets/sharing-ui-with-groups.png)</span>
 
    >[!NOTE]
    >
@@ -155,6 +182,9 @@ To share a workspace with others:
    >
    >* When you share a workspace with a user, their primary job role <span class="preview">and their email</span> also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email.  
 
+1. <span class="preview">(Optional) When you share with a group, team, role, or company, hover over the name of the entity and click the right-pointing arrow to expand a list of users that are receiving the permissions. </span>
+
+   ![Share workspace with a group](assets/share-workspace-role-expanding-arrow-highlighted.png)
 
 1. Select one of the following permission levels from the drop-down menu: 
     * View
@@ -207,4 +237,4 @@ Users who access a link to a workspace to which they do not have permissions can
 
    The users removed no longer have access to the workspace or its objects.
   
-   There is no notification for the users that have been removed from accessing the workspace that they no longer have these permissions. 
+   There is no notification for the users that have been removed from accessing the workspace that they no longer have these permissions.

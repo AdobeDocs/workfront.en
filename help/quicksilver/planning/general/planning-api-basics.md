@@ -87,7 +87,7 @@ Workfront Planning supports the following search modifiers:
     <tr>
         <td>$isEmpty </td>
         <td><ul><li><code>"fieldId": "$isEmpty" </code></li><li><code>"fieldId": { "$isEmpty": null } </code></li><ul> </td>
-        <td>Returns records whose field value is not empty  </td>
+        <td>Returns records whose field value is empty  </td>
         <td><ul><li>"" </li><li>null </li><ul>  </td>
     </tr>
     <tr>

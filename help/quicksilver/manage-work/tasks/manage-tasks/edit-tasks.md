@@ -7,8 +7,12 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Edit tasks
+
+{{highlighted-preview}}
 
 <!--Audited: 10/2025-->
 
@@ -22,13 +26,16 @@ exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
 </div>
 -->
 
+<!--
 <div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
-</div> 
+</div>
+-->
+
 
 You can edit information on tasks that you have created, or that you have Contribute or Manage permissions to.
 
@@ -42,7 +49,8 @@ You can edit information on tasks that you have created, or that you have Contri
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any</p> </td> 
+   <td>  <p>To use the User and Role Hourly Revenue and Cost Types and add an overtime ratio: Workflow Ultimate</p>
+      <p>To edit all other settings and use all other Revenue and Cost Types: Any Workfront or Workflow package</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -76,7 +84,8 @@ You can edit information on tasks that you have created, or that you have Contri
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -112,7 +121,8 @@ You can edit information on tasks that you have created, or that you have Contri
     </ul> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Limitations for editing tasks
 
@@ -368,9 +378,367 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
 ### Assignments {#assignments}
 
+>[!TIP]
+>
+>When editing task assignments in bulk, you see a Multiple values indicator for the fields whose values differ between the selected tasks. 
+>
+>You cannot see the individual assignments for each selected task. 
+
+1. Begin editing your task as described above.
+1. Click **Assignments** in the left panel. 
+   
+   ![Assignments section in the Edit Task box](assets/nwe-assignments-section-edit-task-box-350x217.png)
+
+1. Click **Search people, roles, or teams** and start typing the name of a user, role, or team that you want to assign to the task, then click it or press Enter when it displays on the list.
+
+   >[!TIP]
+   >
+   >* If the user's name contains a special character, you must include the special character in the search field.
+   >* You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
+   >
+   >* If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
+   >
+   >* Reassign the work item to active resources. 
+   >* Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
+
+1. (Optional) Hover over an assignee's name, then click **Make Primary** to indicate whether an assignee is the primary assignee or the owner of the task. A team cannot be the primary assignee of a task.
+1. (Optional) Update the following fields: 
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Duration Type</td> 
+      <td> <p>This identifies the relationship between the following: </p> 
+       <ul> 
+      <li> <p>The number of resources assigned to a task </p> </li> 
+      <li> <p>The total effort required to complete the task </p> </li> 
+      <li> <p> The total duration of the task. </p> </li> 
+       </ul> <p>Your Workfront administrator or a group administrator selects the default Duration Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configure system-wide task and issue preferences</a>. </p> <p>Duration Types enable you to set consistent resource assignments based on the needs of the task. For more information about the Duration Type of a task, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p> <p>Select from the following options: </p> 
+       <ul> 
+      <li> <p>Calculated Assignment </p> </li> 
+      <li> <p> Calculated Work </p> </li> 
+      <li> <p>Effort Driven </p> </li> 
+      <li> <p>Simple</p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader">Duration per Occurrence</td> 
+      <td> <p>This displays only on the parent of recurring tasks. It displays the duration of each recurring task, as defined when the task was created. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <p> <b>NOTE</b> 
+      
+      Durations modified in individual recurring tasks do not display the value indicated in this field. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Duration</td> 
+      <td> 
+      <div> 
+      <div> 
+      <p>This is the amount of time that you allow a task to remain open before it is completed. </p> 
+      <p><b>IMPORTANT</b>
+      
+      Because the task duration is typically the amount of time between the Planned Start and the Planned Completion Dates, it affects the timeline of the project.</p> 
+      
+      <p>To indicate the Duration of the task and the unit of time do the following:</p> 
+      <ul> 
+      <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Type the length of time and select from the units of time available in the drop-down menu.</p> <p><b>TIP</b></p>
+      When you update the Duration of tasks in a task list, you can use the abbreviation for the unit of time. </p> </li> 
+      </ul> 
+      <p> You can choose from the regular time or elapsed time options in the following table: </p> 
+      <table style="table-layout:auto"> 
+      <col> 
+      <col data-mc-conditions=""> 
+      <tbody> 
+      <tr> 
+      <td>Unit of Time</td> 
+      <td>Abbreviation</td> 
+      </tr> 
+      <tr> 
+      <td>Minutes</td> 
+      <td>M</td> 
+      </tr> 
+      <tr> 
+      <td>Hours</td> 
+      <td>H</td> 
+      </tr> 
+      <tr> 
+      <td>Days. This is the default. </td> 
+      <td>D</td> 
+      </tr> 
+      <tr> 
+      <td>Weeks</td> 
+      <td>W</td> 
+      </tr> 
+      <tr> 
+      <td>Months</td> 
+      <td>T</td> 
+      </tr> 
+      <tr> 
+      <td>Elapsed Minutes</td> 
+      <td>EM</td> 
+      </tr> 
+      <tr> 
+      <td>Elapsed Hours</td> 
+      <td>EH</td> 
+      </tr> 
+      <tr> 
+      <td>Elapsed Days</td> 
+      <td>ED</td> 
+      </tr> 
+      <tr> 
+      <td>Elapsed Weeks</td> 
+      <td>EW</td> 
+      </tr> 
+      <tr> 
+      <td>Elapsed Months</td> 
+      <td>ET</td> 
+      </tr> 
+      </tbody> 
+   </table> 
+
+      <p><b>NOTE</b>
+         
+      <p>Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days. 
+
+      Regular time takes into account holidays, weekends, and time off and excludes them from the Duration of the task. For more information about task duration, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p>
+      </div> 
+      </div> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">Planned Hours</td> 
+      <td> <p>Specify the number of Planned Hours for the task, in hours. This is the amount of actual time that it would take the assignees of the task to complete it. You can only specify the number of Planned Hours for a task when the Duration Type is set to Calculated Assignment. For more information about duration types, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> 
+      <b>NOTE</b>
+      <p>
+      When creating recurring tasks, the Planned Hours are those of each occurrence. The Planned Hours of the parent tasks are the total of all Planned Hours from all the occurrences. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>.
+      </p>
+      
+      </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">Allocation</td> 
+      <td> <p>If your Task Constraint is Calculated Work or Effort Driven, specify the <strong>Allocation %</strong> (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. </p> <p>When the Task Constraint is Simple, you can specify the following:</p> 
+         <ul> 
+         <li> <p>Allocation Hours of each assignee.</p> </li> 
+         <li> <p>Planned Hours of the task</p> </li> 
+         <li> <p>Duration of the task</p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">Assignee's Role</td> 
+      <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this task. </p> <p><b>TIP</b>
+      
+      Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
+         </tr> 
+         </tbody> 
+         </table>
+
+1. Click **Save** or continue with the following sections.
+
+### Custom Forms
+
+You can define default custom forms to be automatically attached to tasks when the tasks are added to a project. For information about setting up the project to include default task custom forms for all new tasks, see the "Tasks"section in the article [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+
+1. Begin editing the task as described above.
+1. Click **Custom Forms** in the left panel, or click the name of a custom form if it is already attached.
+
+   ![Custom forms section edit task box](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
+
+1. Click **Add custom form** and select the custom form or forms that you want to associate with the task. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list.
+
+   For more information about building custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).You can add up to ten custom forms to a task
+
+1. (Conditional) If you attached a custom form to the task, edit any fields on the form. You must specify all the required fields before you can save the task.
+
+   >[!NOTE]
+   >
+   >Depending on how your Workfront administrator set the permissions for the sections in your custom form, not everyone can view or edit the same fields on a given custom form. The permissions to edit fields within a section of a custom form depend on the permissions you have on the task itself. For information about setting task permissions, see [Share a task](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
+
+1. Click **Save** or continue with the following sections.
+
+### Finance {#finance}
+
+1. Begin editing your task as described in the [Edit tasks](#Edit2) section in this article.
+1. Click **Finance** in the left panel.
+
+   ![Finance section edit task box](assets/nwe-finance-section-edit-task-box-350x298.png)
+
+1. Update the following fields:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Cost Type</td> 
+      <td> <p>Specify the Cost Type for the task. This is going to determine how the cost of the task is calculated, based on the number of hours on the tasks. </p> <p>Select from the following options: </p> 
+       <ul> 
+        <li> <p>No Cost</p> </li> 
+        <li> <p>Fixed Hourly </p> </li> 
+        <li> <p> User Hourly </p> </li> 
+        <li> <p> Role Hourly</p> </li> 
+        <li> <p> <span class="preview">User and Role Hourly</span></p> </li> 
+       </ul> <p>For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a> . Your Workfront administrator or a group administrator selects the default Cost Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a> .</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Revenue Type</td> 
+      <td> <p>Specify the Revenue Type for the task. This is going to determine how the Revenue on the task is calculated, based on the number of hours on the tasks. </p> <p>Select from the following options: </p> 
+       <ul> 
+      <li> <p> Not Billable </p> </li> 
+      <li> <p>User Hourly </p> </li> 
+      <li> <p>Role Hourly </p> </li> 
+      <li> <p> <span class="preview">User and Role Hourly</span></p> </li> 
+      <li> <p>Fixed Hourly </p> </li> 
+      <li> <p>User Hourly w/Cap </p> </li> 
+      <li> <p>Role Hourly w/Cap </p> </li> 
+      <li> <p> <span class="preview">User and Role Hourly w/ Cap</span></p> </li> 
+      <li> <p>User Hourly Plus Fixed </p> </li> 
+      <li> <p>Role Hourly Plus Fixed </p> </li> 
+      <li> <p> <span class="preview">User and Role Hourly Plus Fixed</span></p> </li> 
+      <li> <p>Fixed Revenue </p> </li> 
+       </ul> <p>For more information about tracking revenue, see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a> and <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Overview of revenue and cost hierarchy</a>. </p> <p>Your Workfront administrator or group administrator selects the default Revenue Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </td> 
+     </tr> 
+     <tr>
+      <td><span class="preview">Overtime Ratio</span></td> 
+      <td><span class="preview"><p>Enter the overtime multiplier for the task, for example, 1.5 or 2.0. The default is 1.0 (no multiplier). For more information, see <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Define an overtime ratio</a>.</p><p>To see the Overtime Ratio field:</p>
+       <ul>
+       <li>The Revenue Type on the task must be User and Role Hourly. For more information, see <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Overview of revenue and cost hierarchy</a>.</li>
+       <li>The field must be enabled on your layout template, for the Finance area in the task Details view. For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">Customize the Details view using a layout template</a>.</li>
+       </ul>
+      </span></td>
+     </tr>
+    </tbody> 
+   </table>
+
+1. Click **Save** or continue with the following section.
+
+### Settings {#settings}
+
+1. Begin editing your task as described in the [Edit tasks](#Edit2) section in this article. 
+1. Click **Settings** in the left panel.
+
+   ![Settings section on the Edit task box](assets/nwe-settings-section-edit-task-box-350x304.png)
+
+1. Update the following fields: 
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Tracking Mode</td> 
+      <td> <p>Specify how the progress status of the task is tracked. </p> <p>Select from the following options: </p> 
+       <ul> 
+      <li> <p> User Must Update </p> </li> 
+      <li> <p>Assume on Time </p> </li> 
+      <li> <p>Ignore Late Warnings</p> </li> 
+      <li> <p> Autocomplete </p> </li> 
+      <li> <p>Predecessor </p> </li> 
+       </ul> <p>For more information about the Tracking Mode on tasks, see <a href="../../../manage-work/tasks/task-information/task-tracking-mode.md" class="MCXref xref">Task Tracking Mode overview</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Resource Leveling</td> 
+      <td> <p>Select the <strong>Exclude from Resource Leveling</strong> field if you want the resources assigned to the task to be excluded from leveling.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Leveling Delay</td> 
+      <td> <p>Specify the Leveling Delay in hours. </p> <p> For more information about leveling delays, see <a href="../../../manage-work/tasks/task-information/task-leveling-delay.md" class="MCXref xref">Update task Leveling Delay</a>. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Approval process</td> 
+      <td> <p>Select an approval process that you want to associate with the task. Your Workfront administrator must define system-level Approval Processes before you can associate them with tasks. A user with administrative access to Approval processes can also create group-specific approval processes. </p> <p>For more information about creating Approval Processes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md">Create an approval process for work items</a>. Consider the following when adding approval processes: </p> 
+       <ul> 
+      
+      <li> <p>Only active approval processes display in the list. </p> </li> 
+
+      <li> <p>System-wide and group-specific approval processes display in the list. An approval process associated with a group other than that of the project does not display in the list. </p> 
+        
+      <p><b>IMPORTANT</b>  
+      
+      If the group of the project changes, the group-specific approval process previously attached becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">How group and approval process changes affect assigned approval processes</a>. </p>
+      
+      </li> 
+        
+      <li> <p>You can define default approval processes to be automatically attached to tasks when the tasks are added to a project. For information about setting up the project to include default task approval processes, see the "Tasks" section in the article <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>. </p> </li> 
+        
+      <li> <p>When bulk-editing tasks, the following scenarios exist: </p> 
+      <ul> 
+      <li> <p>When you select multiple tasks from the same group, both system-level and group-level approval processes display in this field. </p> </li> 
+      <li> <p>When you select multiple tasks from different groups, only system-level approval processes display in this field. </p> </li> 
+      <li> <p>When any of the tasks have a single-use approval process attached, it is replaced by the system-level or group-level approval process you select. </p> </li> 
+         
+      </ul> </li> 
+      </ul> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+    </li>
+
+1. Click **Save** or continue with the following section.
+
+<!--notes from the table: <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>       -->
+
+### Comment
+
+1. Begin editing your task as described in the [Edit tasks](#Edit2) section in this article. 
+1. Click **Comment** in the left panel.
+
+   ![Comment section on edit task box](assets/comment-section-on-edit-task-box.png)
+
+1. Add an update in the space provided.
+1. (Optional) Add one of the following to your update:
+
+   * Add users or teams to your update in the **Tag people** area or use @ to include them in your update. 
+   * Select the **Private to my company** checkbox to keep the update private to people in your company. 
+
+   >[!TIP]
+   >
+   >The **Private to my company** setting is only available only when your Workfront profile is associated with a company.
+
+1. Click **Save**.
+
+## Edit a task in the task header (limited)
+
+You can edit a limited amount of information in the task header.
+
+Your system or group administrator can customize the fields you see in the task header. For more information, see [Customize object headers using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+
+
+![Task header without approvals and with dependencies](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
+
+The following fields are included in the task header, by default:
+
+* Task name
+* Percent complete
+
+   For information, see [View and update Percent Complete for tasks](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
+* Assignments
+* Planned Completion Date 
+
+  >[!CAUTION]
+  >
+  >Some Task Constraints and other dependencies might prevent you from editing the Planned Completion Date of a task. For information about Task Constraints, see [Task Constraint overview](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+
+* Status
+* Make approval decisions if you are set as the approver in a current approval process
+
+## Edit tasks in bulk
+
+You can edit tasks in bulk in a list and update all their information at the same time when you select to automatically save the changes you are making to tasks in the list.
+
+For information about saving tasks in bulk, see the "Edit tasks in bulk" section in the article [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+
+<!--
+Temporary content while changing Assignments area: 
+
 Editing assignments is different in the Edit Task box depending on which environment you choose.
 
 #### Edit the Assignments area in the Production environment
+
+>[!NOTE]
+>
+><span class="preview">Some customers can edit Assignments in the Edit Task box in their Production environments the same way they edit them in their Preview environment.</span>
+>
+><span class="preview">For information about editing tasks in the Preview environment, see the section [Edit the Assignments area in the Preview environment](#edit-the-assignments-area-in-the-preview-environment) in this article. </span>
 
 1. Begin editing your task as described above.
 1. Click **Assignments** in the left panel.
@@ -498,7 +866,8 @@ Editing assignments is different in the Edit Task box depending on which environ
          </table>
       
    
-      <!--<tr> 
+      <!--
+      <tr> 
       <td role="rowheader">Allocation</td> 
       <td> <p>If your Task Constraint is Calculated Work or Effort Driven, specify the <strong>Allocation %</strong> (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. </p> <p>When the Task Constraint is Simple, you can specify the following:</p> 
          <ul> 
@@ -513,7 +882,7 @@ Editing assignments is different in the Edit Task box depending on which environ
          Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr>
          </tbody> 
-         </table>-->
+         </table>**********************
 
    1. (Optional) Click **Switch to old experience** at the bottom of the **Edit Task** box. 
       The Assignments area opens in the old experience. 
@@ -670,342 +1039,4 @@ Editing assignments is different in the Edit Task box depending on which environ
 <div class="preview">
 
 #### Edit the Assignments area in the Preview environment
-
->[!TIP]
->
->When editing task assignments in bulk, you see a Multiple values indicator for the fields whose values differ between the selected tasks. 
->
->You cannot see the individual assignments for each selected task. 
-
-
-1. Begin editing your task as described above.
-1. Click **Assignments** in the left panel. 
-   
-   ![Assignments section in the Edit Task box](assets/nwe-assignments-section-edit-task-box-350x217.png)
-
-1. Click **Search people, roles, or teams** and start typing the name of a user, role, or team that you want to assign to the task, then click it or press Enter when it displays on the list.
-
-   >[!TIP]
-   >
-   >* If the user's name contains a special character, you must include the special character in the search field.
-   >* You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
-   >
-   >* If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
-   >
-   >* Reassign the work item to active resources. 
-   >* Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
-
-1. (Optional) Hover over an assignee's name, then click **Make Primary** to indicate whether an assignee is the primary assignee or the owner of the task. A team cannot be the primary assignee of a task.
-1. (Optional) Update the following fields: 
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Duration Type</td> 
-      <td> <p>This identifies the relationship between the following: </p> 
-       <ul> 
-      <li> <p>The number of resources assigned to a task </p> </li> 
-      <li> <p>The total effort required to complete the task </p> </li> 
-      <li> <p> The total duration of the task. </p> </li> 
-       </ul> <p>Your Workfront administrator or a group administrator selects the default Duration Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configure system-wide task and issue preferences</a>. </p> <p>Duration Types enable you to set consistent resource assignments based on the needs of the task. For more information about the Duration Type of a task, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p> <p>Select from the following options: </p> 
-       <ul> 
-      <li> <p>Calculated Assignment </p> </li> 
-      <li> <p> Calculated Work </p> </li> 
-      <li> <p>Effort Driven </p> </li> 
-      <li> <p>Simple</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader">Duration per Occurrence</td> 
-      <td> <p>This displays only on the parent of recurring tasks. It displays the duration of each recurring task, as defined when the task was created. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <p> <b>NOTE</b> 
-      
-      Durations modified in individual recurring tasks do not display the value indicated in this field. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Duration</td> 
-      <td> 
-      <div> 
-      <div> 
-      <p>This is the amount of time that you allow a task to remain open before it is completed. </p> 
-      <p><b>IMPORTANT</b>
-      
-      Because the task duration is typically the amount of time between the Planned Start and the Planned Completion Dates, it affects the timeline of the project.</p> 
-      
-      <p>To indicate the Duration of the task and the unit of time do the following:</p> 
-      <ul> 
-      <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Type the length of time and select from the units of time available in the drop-down menu.</p> <p><b>TIP</b></p>
-      When you update the Duration of tasks in a task list, you can use the abbreviation for the unit of time. </p> </li> 
-      </ul> 
-      <p> You can choose from the regular time or elapsed time options in the following table: </p> 
-      <table style="table-layout:auto"> 
-      <col> 
-      <col data-mc-conditions=""> 
-      <tbody> 
-      <tr> 
-      <td>Unit of Time</td> 
-      <td>Abbreviation</td> 
-      </tr> 
-      <tr> 
-      <td>Minutes</td> 
-      <td>M</td> 
-      </tr> 
-      <tr> 
-      <td>Hours</td> 
-      <td>H</td> 
-      </tr> 
-      <tr> 
-      <td>Days. This is the default. </td> 
-      <td>D</td> 
-      </tr> 
-      <tr> 
-      <td>Weeks</td> 
-      <td>W</td> 
-      </tr> 
-      <tr> 
-      <td>Months</td> 
-      <td>T</td> 
-      </tr> 
-      <tr> 
-      <td>Elapsed Minutes</td> 
-      <td>EM</td> 
-      </tr> 
-      <tr> 
-      <td>Elapsed Hours</td> 
-      <td>EH</td> 
-      </tr> 
-      <tr> 
-      <td>Elapsed Days</td> 
-      <td>ED</td> 
-      </tr> 
-      <tr> 
-      <td>Elapsed Weeks</td> 
-      <td>EW</td> 
-      </tr> 
-      <tr> 
-      <td>Elapsed Months</td> 
-      <td>ET</td> 
-      </tr> 
-      </tbody> 
-   </table> 
-
-      <p><b>NOTE</b>
-         
-      <p>Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days. 
-
-      Regular time takes into account holidays, weekends, and time off and excludes them from the Duration of the task. For more information about task duration, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p>
-      </div> 
-      </div> </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader">Planned Hours</td> 
-      <td> <p>Specify the number of Planned Hours for the task, in hours. This is the amount of actual time that it would take the assignees of the task to complete it. You can only specify the number of Planned Hours for a task when the Duration Type is set to Calculated Assignment. For more information about duration types, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> 
-      <b>NOTE</b>
-      <p>
-      When creating recurring tasks, the Planned Hours are those of each occurrence. The Planned Hours of the parent tasks are the total of all Planned Hours from all the occurrences. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>.
-      </p>
-      
-      </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader">Allocation</td> 
-      <td> <p>If your Task Constraint is Calculated Work or Effort Driven, specify the <strong>Allocation %</strong> (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. </p> <p>When the Task Constraint is Simple, you can specify the following:</p> 
-         <ul> 
-         <li> <p>Allocation Hours of each assignee.</p> </li> 
-         <li> <p>Planned Hours of the task</p> </li> 
-         <li> <p>Duration of the task</p> </li> 
-         </ul> </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader">Assignee's Role</td> 
-      <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this task. </p> <p><b>TIP</b>
-      
-      Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
-         </tr> 
-         </tbody> 
-         </table>
-
-1. Click **Save** or continue with the following sections.
-
-</div>
-
-### Custom Forms
-
-You can define default custom forms to be automatically attached to tasks when the tasks are added to a project. For information about setting up the project to include default task custom forms for all new tasks, see the "Tasks"section in the article [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
-
-1. Begin editing the task as described above.
-1. Click **Custom Forms** in the left panel, or click the name of a custom form if it is already attached.
-
-   ![Custom forms section edit task box](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
-
-1. Click **Add custom form** and select the custom form or forms that you want to associate with the task. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list.
-
-   For more information about building custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).You can add up to ten custom forms to a task
-
-1. (Conditional) If you attached a custom form to the task, edit any fields on the form. You must specify all the required fields before you can save the task.
-
-   >[!NOTE]
-   >
-   >Depending on how your Workfront administrator set the permissions for the sections in your custom form, not everyone can view or edit the same fields on a given custom form. The permissions to edit fields within a section of a custom form depend on the permissions you have on the task itself. For information about setting task permissions, see [Share a task](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
-
-1. Click **Save** or continue with the following sections.
-
-### Finance {#finance}
-
-1. Begin editing your task as described in the [Edit tasks](#Edit2) section in this article.
-1. Click **Finance** in the left panel.
-
-   ![Finance section edit task box](assets/nwe-finance-section-edit-task-box-350x298.png)
-
-1. Update the following fields:
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Cost Type</td> 
-      <td> <p>Specify the Cost Type for the task. This is going to determine how the cost of the task is calculated, based on the number of hours on the tasks. </p> <p>Select from the following options: </p> 
-       <ul> 
-        <li> <p>No Cost</p> </li> 
-        <li> <p>Fixed Hourly </p> </li> 
-        <li> <p> User Hourly </p> </li> 
-        <li> <p> Role Hourly</p> </li> 
-       </ul> <p>For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a> . Your Workfront administrator or a group administrator selects the default Cost Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a> .</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Revenue Type</td> 
-      <td> <p>Specify the Revenue Type for the task. This is going to determine how the Revenue on the task is calculated, based on the number of hours on the tasks. </p> <p>Select from the following options: </p> 
-       <ul> 
-      <li> <p> Not Billable </p> </li> 
-      <li> <p>User Hourly </p> </li> 
-      <li> <p>Role Hourly </p> </li> 
-      <li> <p>Fixed Hourly </p> </li> 
-      <li> <p>User Hourly w/Cap </p> </li> 
-      <li> <p>Role Hourly w/Cap </p> </li> 
-      <li> <p>User Hourly Plus Fixed </p> </li> 
-      <li> <p>Role Hourly Plus Fixed </p> </li> 
-      <li> <p>Fixed Revenue </p> </li> 
-       </ul> <p>For more information about tracking revenue, see<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a> . </p> <p>Your Workfront administrator or group administrator selects the default Revenue Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-1. Click **Save** or continue with the following section.
-
-### Settings {#settings}
-
-1. Begin editing your task as described in the [Edit tasks](#Edit2) section in this article. 
-1. Click **Settings** in the left panel.
-
-   ![Settings section on the Edit task box](assets/nwe-settings-section-edit-task-box-350x304.png)
-
-1. Update the following fields: 
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Tracking Mode</td> 
-      <td> <p>Specify how the progress status of the task is tracked. </p> <p>Select from the following options: </p> 
-       <ul> 
-      <li> <p> User Must Update </p> </li> 
-      <li> <p>Assume on Time </p> </li> 
-      <li> <p>Ignore Late Warnings</p> </li> 
-      <li> <p> Autocomplete </p> </li> 
-      <li> <p>Predecessor </p> </li> 
-       </ul> <p>For more information about the Tracking Mode on tasks, see <a href="../../../manage-work/tasks/task-information/task-tracking-mode.md" class="MCXref xref">Task Tracking Mode overview</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Resource Leveling</td> 
-      <td> <p>Select the <strong>Exclude from Resource Leveling</strong> field if you want the resources assigned to the task to be excluded from leveling.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Leveling Delay</td> 
-      <td> <p>Specify the Leveling Delay in hours. </p> <p> For more information about leveling delays, see <a href="../../../manage-work/tasks/task-information/task-leveling-delay.md" class="MCXref xref">Update task Leveling Delay</a>. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Approval process</td> 
-      <td> <p>Select an approval process that you want to associate with the task. Your Workfront administrator must define system-level Approval Processes before you can associate them with tasks. A user with administrative access to Approval processes can also create group-specific approval processes. </p> <p>For more information about creating Approval Processes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md">Create an approval process for work items</a>. Consider the following when adding approval processes: </p> 
-       <ul> 
-      
-      <li> <p>Only active approval processes display in the list. </p> </li> 
-
-      <li> <p>System-wide and group-specific approval processes display in the list. An approval process associated with a group other than that of the project does not display in the list. </p> 
-        
-      <p><b>IMPORTANT</b>  
-      
-      If the group of the project changes, the group-specific approval process previously attached becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">How group and approval process changes affect assigned approval processes</a>. </p>
-      
-      </li> 
-        
-      <li> <p>You can define default approval processes to be automatically attached to tasks when the tasks are added to a project. For information about setting up the project to include default task approval processes, see the "Tasks" section in the article <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>. </p> </li> 
-        
-      <li> <p>When bulk-editing tasks, the following scenarios exist: </p> 
-      <ul> 
-      <li> <p>When you select multiple tasks from the same group, both system-level and group-level approval processes display in this field. </p> </li> 
-      <li> <p>When you select multiple tasks from different groups, only system-level approval processes display in this field. </p> </li> 
-      <li> <p>When any of the tasks have a single-use approval process attached, it is replaced by the system-level or group-level approval process you select. </p> </li> 
-         
-      </ul> </li> 
-      </ul> </td> 
-     </tr> 
-    </tbody> 
-   </table>
-    </li>
-
-1. Click **Save** or continue with the following section.
-
-<!--notes from the table: <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>       -->
-
-### Comment
-
-1. Begin editing your task as described in the [Edit tasks](#Edit2) section in this article. 
-1. Click **Comment** in the left panel.
-
-   ![Comment section on edit task box](assets/comment-section-on-edit-task-box.png)
-
-1. Add an update in the space provided.
-1. (Optional) Add one of the following to your update:
-
-   * Add users or teams to your update in the **Tag people** area or use @ to include them in your update. 
-   * Select the **Private to my company** checkbox to keep the update private to people in your company. 
-
-   >[!TIP]
-   >
-   >The **Private to my company** setting is only available only when your Workfront profile is associated with a company.
-
-1. Click **Save**.
-
-## Edit a task in the task header (limited)
-
-You can edit a limited amount of information in the task header.
-
-Your system or group administrator can customize the fields you see in the task header. For more information, see [Customize object headers using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
-
-
-![Task header without approvals and with dependencies](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
-
-The following fields are included in the task header, by default:
-
-* Task name
-* Percent complete
-
-   For information, see [View and update Percent Complete for tasks](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
-* Assignments
-* Planned Completion Date 
-
-  >[!CAUTION]
-  >
-  >Some Task Constraints and other dependencies might prevent you from editing the Planned Completion Date of a task. For information about Task Constraints, see [Task Constraint overview](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
-
-* Status
-* Make approval decisions if you are set as the approver in a current approval process
-
-## Edit tasks in bulk
-
-You can edit tasks in bulk in a list and update all their information at the same time when you select to automatically save the changes you are making to tasks in the list.
-
-For information about saving tasks in bulk, see the "Edit tasks in bulk" section in the article [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+-->

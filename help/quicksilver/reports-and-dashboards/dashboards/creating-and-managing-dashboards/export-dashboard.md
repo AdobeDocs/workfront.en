@@ -3,9 +3,11 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Export a dashboard
 description: You can export a dashboard to a .pdf file using the print options available in your web browser.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Export a dashboard
 

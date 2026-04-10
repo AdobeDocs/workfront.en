@@ -7,6 +7,8 @@ description: The hours you log on your work items in Adobe Workfront are conside
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View Actual Hours
 
@@ -53,7 +55,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
- <!--Old:
+ <!--
+ Old:
  
  <table style="table-layout:auto"> 
  <col> 
@@ -79,7 +82,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>View or higher permissions to a task, a project, or an issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Actual Hours vs Legacy Actual Hours
 
@@ -195,7 +199,9 @@ You must account for the conversion from minutes to hours when accessing these f
 
 The Actual Hours logged for projects, tasks, or issues are currently stored in the Workfront database as minutes and their valuefield is `actualWorkRequired`.
 
-With the following version of the Workfront API scheduled to release later in 2025, Actual Hours are stored in the following fields and units in the database: 
+Since October 2025, with the API Version 21, Actual Hours are stored in the following fields and units in the database: 
+
+<!--above used to be this: With the following version of the Workfront API scheduled to release later in 2025, Actual Hours are stored in the following fields and units in the database: -->
 
 * **Actual Hours**: Hours logged for project, tasks, or issues after May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
 * **Legacy Actual Hours**: Hours logged for projects, tasks, or issues any time, including before May 2021. They are stored in the Workfront database as minutes and their valuefield is `actualWorkRequired`.

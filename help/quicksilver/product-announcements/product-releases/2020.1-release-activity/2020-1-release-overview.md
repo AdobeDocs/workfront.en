@@ -7,6 +7,8 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4162cfb7-d5e1-4152-857a-fc4a6eb09cd7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # 2020.1 release overview
 
@@ -22,7 +24,7 @@ This page provides information about the functionality included in the 2020.1 re
 
 These enhancements are currently available in the Preview environment and will be made available in the Production environment the week of March 30, 2020.
 
-To download this page in PDF&nbsp;format, go [here](https://documentation.my.workfront.com/library/a/9f5c9e44-c9a9-4f33-beec-9e5dc2e0fdc2).
+<!--To download this page in PDF format, go [here](https://documentation.my.workfront.com/library/a/9f5c9e44-c9a9-4f33-beec-9e5dc2e0fdc2).-->
 
 Some functionality was released prior to the 2020.1 release. To see what was released prior to the 2020.1 release, see [Other Workfront Classic features released to Production prior to the 2020.1 release](../../../product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md).
 
@@ -37,9 +39,11 @@ Some functionality was released prior to the 2020.1 release. To see what was rel
    <td> <p><strong>Release dates</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#limit" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Limit users' ability to edit Filter, View, and Grouping controls on lists and reports</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#limit" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Limit users' ability to edit Filter, View, and Grouping controls on lists and reports</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Limit users' ability to edit Filter, View, and Grouping controls on lists and reports</a>
-     --> </p> <p>Now you can use an access level to limit the ability that users have to edit the Filter, View, and Grouping controls on lists and reports. This is useful if you have custom fields that you want visible only to users at a certain access level.</p> </td> 
+     -->
+     </p> <p>Now you can use an access level to limit the ability that users have to edit the Filter, View, and Grouping controls on lists and reports. This is useful if you have custom fields that you want visible only to users at a certain access level.</p> </td>
    <td> <p>Beta Preview release:&nbsp;January 17, 2020</p> <p>Production release:&nbsp;With the 2020.1 release</p> </td> 
   </tr> 
  </tbody> 
@@ -65,51 +69,67 @@ Some functionality was released prior to the 2020.1 release. To see what was rel
    <td> <p><strong>Release dates</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#new" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">New saving mode when making changes in a task list: the Timeline Planning mode</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#new" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">New saving mode when making changes in a task list: the Timeline Planning mode</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New saving mode when making changes in a task list: the Timeline Planning mode</a>
-     --> </p> <p>Depending on the size and complexity of your project, updating the task list, especially dates and durations, can take longer than desired. To make edits much faster, we have introduced a new saving option when editing tasks in a list called Timeline Planning mode. Prior to this mode, you could save the changes you made to your task lists either automatically with Autosave, or manually, when disabling the Autosave move.</p> </td> 
+     -->
+     </p> <p>Depending on the size and complexity of your project, updating the task list, especially dates and durations, can take longer than desired. To make edits much faster, we have introduced a new saving option when editing tasks in a list called Timeline Planning mode. Prior to this mode, you could save the changes you made to your task lists either automatically with Autosave, or manually, when disabling the Autosave move.</p> </td>
    <td> <p>Beta Preview release:&nbsp;March 14, 2020</p> <p>Production release:&nbsp;With the 2020.1 release</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#improved" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Improved navigation of all new lists with clear grouping differentiation</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#improved" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Improved navigation of all new lists with clear grouping differentiation</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Improved navigation of all new lists with clear grouping differentiation</a>
-     --> </p> <p>You can now see more clearly the differentiation between several layers of groupings in lists with a new color scheme. The grouping results are also outlined more clearly in a separate frame. This change has been applied to all the new lists.</p> </td> 
+     -->
+     </p> <p>You can now see more clearly the differentiation between several layers of groupings in lists with a new color scheme. The grouping results are also outlined more clearly in a separate frame. This change has been applied to all the new lists.</p> </td>
    <td> <p>Beta Preview release:&nbsp;February 27, 2020</p> <p>Production release:&nbsp;With the 2020.1 release</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#highligh" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Highlight matching items in lists when using the quick filters</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#highligh" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Highlight matching items in lists when using the quick filters</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Highlight matching items in lists when using the quick filters</a>
-     --> </p> <p>Finding items in lists is now faster: when you search for an item using quick filters the matching fields are highlighted in yellow in the results so you can clearly see what field value matches your keyword. The fields are highlighted in yellow in standalone fields, as well as shared columns and complex fields. Some examples of complex fields are Assignments, Assignments and Status, Percent Complete, Predecessors, Approvers and Status, Resource Managers, Categories, Condition, Condition Update etc.</p> </td> 
+     -->
+     </p> <p>Finding items in lists is now faster: when you search for an item using quick filters the matching fields are highlighted in yellow in the results so you can clearly see what field value matches your keyword. The fields are highlighted in yellow in standalone fields, as well as shared columns and complex fields. Some examples of complex fields are Assignments, Assignments and Status, Percent Complete, Predecessors, Approvers and Status, Resource Managers, Categories, Condition, Condition Update etc.</p> </td>
    <td> <p>Beta Preview release:&nbsp;February 27, 2020</p> <p>Production release:&nbsp;With the 2020.1 release</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#new4" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">New option for indicating how to display grouping results in lists</a> <!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#new4" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">New option for indicating how to display grouping results in lists</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New option for indicating how to display grouping results in lists</a>
-     --><span style="color: #ff0000;">Removed from release</span></p> <p>To give you more control over how you display your list results, you can now indicate whether you want the results in the grouping to be expanded or collapsed by default when displaying the list or report. This option is available within the grouping builder in a list or report.</p> </td> 
+     -->
+     <span style="color: #ff0000;">Removed from release</span></p> <p>To give you more control over how you display your list results, you can now indicate whether you want the results in the grouping to be expanded or collapsed by default when displaying the list or report. This option is available within the grouping builder in a list or report.</p> </td>
    <td> <p>Beta Preview release:&nbsp;January 17, 2020</p> <p>Production release:&nbsp;N/A</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#display" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Display column headers of lists and reports in sentence case</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#display" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Display column headers of lists and reports in sentence case</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Display column headers of lists and reports in sentence case</a>
-     --> </p> <p>In a previous release, we made a change that displayed all column headers in all capital letters when viewing a list or report. Based on the feedback we have received, we are now reverting this change. With this change, all column headers now display in sentence case.</p> </td> 
+     -->
+     </p> <p>In a previous release, we made a change that displayed all column headers in all capital letters when viewing a list or report. Based on the feedback we have received, we are now reverting this change. With this change, all column headers now display in sentence case.</p> </td>
    <td> <p>Beta Preview release:&nbsp;January 17, 2020</p> <p>Production release:&nbsp;With the 2020.1 release</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#new2" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">New More menu in the Updates area</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#new2" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">New More menu in the Updates area</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New More menu in the Updates area</a>
-     --> </p> <p>Use the More menu on an update to copy the body text of an update, copy the direct link to an update, or delete the update.</p> </td> 
+     -->
+     </p> <p>Use the More menu on an update to copy the body text of an update, copy the direct link to an update, or delete the update.</p> </td>
    <td> <p>Beta Preview release:&nbsp;January 8, 2020</p> <p>Production release:&nbsp;January 8, 2020</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#new3" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">New progress bar in the Updates area</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#new3" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">New progress bar in the Updates area</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New progress bar in the Updates area</a>
-     --> </p> <p>The percent complete progress bar in the updates area has a new look. Click and drag to update the percent, or double-click to manually input the number.</p> </td> 
+     -->
+     </p> <p>The percent complete progress bar in the updates area has a new look. Click and drag to update the percent, or double-click to manually input the number.</p> </td>
    <td> <p>Beta Preview release:&nbsp;January 8, 2020</p> <p>Production release:&nbsp;January 8, 2020</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#updated" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Updated look and feel of new lists</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#updated" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Updated look and feel of new lists</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Updated look and feel of new lists</a>
-     --><span style="color: #ff0000;">(Some list updates were removed from the release)</span> </p> <p>Projects, Tasks, and Hours lists now have an updated look and feel. </p> <p>When these features were originally released to Preview, they were available for all reports and lists except the lists in the Setup and Reports areas. These features are now available only for Projects, Tasks, and Hours lists.</p> </td> 
+     -->
+     <span style="color: #ff0000;">(Some list updates were removed from the release)</span> </p> <p>Projects, Tasks, and Hours lists now have an updated look and feel. </p> <p>When these features were originally released to Preview, they were available for all reports and lists except the lists in the Setup and Reports areas. These features are now available only for Projects, Tasks, and Hours lists.</p> </td>
    <td> <p>Beta Preview release:&nbsp;December 20, 2019</p> <p>Planned Production release:&nbsp;With the 2020.1 release</p> </td> 
   </tr> 
  </tbody> 
@@ -126,33 +146,43 @@ Some functionality was released prior to the 2020.1 release. To see what was rel
    <td> <p><strong>Release dates</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#show2" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Show daily Planned Hours for tasks, and inaccessible items in the Unassigned Work area of the Workload Balancer</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#show2" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Show daily Planned Hours for tasks, and inaccessible items in the Unassigned Work area of the Workload Balancer</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Resource-Management-enhancements-1967535178?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Show daily Planned Hours for projects, tasks, and inaccessible items in the Unassigned Work area of the Workload Balancer</a>
-     --> </p> <p>To help you understand how individual projects, tasks, or inaccessible items will affect the workload of your users, the "Show allocations" setting is now managing what information displays in the Unassigned Work area of the Workload Balancer. </p> </td> 
+     -->
+     </p> <p>To help you understand how individual projects, tasks, or inaccessible items will affect the workload of your users, the "Show allocations" setting is now managing what information displays in the Unassigned Work area of the Workload Balancer. </p> </td>
    <td> <p>Beta Preview release:&nbsp;March 14, 2020</p> <p>Production release:&nbsp;TBD (This feature will be available in the Production environment sometime after the 2020.1 release.)</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#show" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Show daily Planned Hours for projects, tasks, and inaccessible items in the Assigned Work area of the Workload Balancer</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#show" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Show daily Planned Hours for projects, tasks, and inaccessible items in the Assigned Work area of the Workload Balancer</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Resource-Management-enhancements-1967535178?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Show daily Planned Hours for projects, tasks, and inaccessible items in the Assigned Work area of the Workload Balancer</a>
-     --> </p> <p>To help you understand how individual projects, tasks, or inaccessible items contribute to the workload of your users and to be able to make correct reassignment decisions in the Workload Balancer, we have introduced a setting that allows you to view the hourly distribution for individual projects, tasks and inaccessible items.</p> </td> 
+     -->
+     </p> <p>To help you understand how individual projects, tasks, or inaccessible items contribute to the workload of your users and to be able to make correct reassignment decisions in the Workload Balancer, we have introduced a setting that allows you to view the hourly distribution for individual projects, tasks and inaccessible items.</p> </td>
    <td> <p>Beta Preview release:&nbsp;February 27, 2020</p> <p>Production release:&nbsp;With the 2020.1 release</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#adjust" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Adjust timeline duration in the Workload Balancer</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#adjust" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Adjust timeline duration in the Workload Balancer</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Resource-Management-enhancements-1967535178?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Adjust timeline duration in the Workload Balancer</a>
-     --> </p> <p>You now have the flexibility to select how many weeks you display in the Workload Balancer: you can select from 2, 4, or 6 weeks. Previously, the number of weeks was set to 4 by default.</p> </td> 
+     -->
+     </p> <p>You now have the flexibility to select how many weeks you display in the Workload Balancer: you can select from 2, 4, or 6 weeks. Previously, the number of weeks was set to 4 by default.</p> </td>
    <td> <p>Beta Preview release:&nbsp;February 27, 2020</p> <p>Production release:&nbsp;With the 2020.1 release</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#improved" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Improved navigation in the Workload Balancer</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#improved" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Improved navigation in the Workload Balancer</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Resource-Management-enhancements-1967535178?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Improved navigation in the Workload Balancer</a>
-     --> </p> <p>Now, you can navigate back and forth in the Workload Balancer one time period at a time. Prior to this enhancement when you clicked the back and forward icons, the timeframe shifted by four time periods at a time.</p> </td> 
+     -->
+     </p> <p>Now, you can navigate back and forth in the Workload Balancer one time period at a time. Prior to this enhancement when you clicked the back and forward icons, the timeframe shifted by four time periods at a time.</p> </td>
    <td> <p>Beta Preview release:&nbsp;January 31, 2020</p> <p>Production release:&nbsp;With the 2020.1 release</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">The Display Actual Hours setting removed from the Resource Planner</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">The Display Actual Hours setting removed from the Resource Planner</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Resource-Management-enhancements-1967535178?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">The Display Actual Hours setting removed from the Resource Planner</a>
-     --> </p> <p>To make displaying Actual Hours in the Resource Planner easier, we have removed the Display Actual Hours setting from the Resource Planner. </p> </td> 
+     -->
+     </p> <p>To make displaying Actual Hours in the Resource Planner easier, we have removed the Display Actual Hours setting from the Resource Planner. </p> </td>
    <td> <p>Beta Preview release:&nbsp;January 17, 2020</p> <p>Production release:&nbsp;With the 2020.1 release</p> </td> 
   </tr> 
  </tbody> 
@@ -169,39 +199,51 @@ Some functionality was released prior to the 2020.1 release. To see what was rel
    <td> <p><strong>Release dates</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#more" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">More easily see who is tagged in an update</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#more" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">More easily see who is tagged in an update</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Project-enhancements-1509887664?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">More easily see who is tagged in an update</a>
-     --> </p> <p>It's now easier to see which users are tagged in an update. Tagged users name's display in blue and link to the user profile.</p> <p>Tagged users are also listed under the comment box. </p> </td> 
+     -->
+     </p> <p>It's now easier to see which users are tagged in an update. Tagged users name's display in blue and link to the user profile.</p> <p>Tagged users are also listed under the comment box. </p> </td>
    <td> <p>Beta Preview release:&nbsp;March 14, 2020</p> <p>Production release:&nbsp;March 26, 2020</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#include" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Include and identify quoted text in an update comment or reply</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#include" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Include and identify quoted text in an update comment or reply</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Project-enhancements-1509887664?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Include and identify quoted text in an update comment or reply</a>
-     --> </p> <p>As you type a comment, you can mark part of your comment as quoted text in order to distinguish it from your own comment. Use the Block Quote button in the HTML&nbsp;editor.</p> </td> 
+     -->
+     </p> <p>As you type a comment, you can mark part of your comment as quoted text in order to distinguish it from your own comment. Use the Block Quote button in the HTML&nbsp;editor.</p> </td>
    <td> <p>Beta Preview release:&nbsp;February 27, 2020</p> <p>Production release:&nbsp;March 26, 2020</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#quote" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Quote a previous comment in an update comment or reply</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#quote" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Quote a previous comment in an update comment or reply</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Project-enhancements-1509887664?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Quote a previous comment in an update comment or reply</a>
-     --> </p> <p>When you comment in an update thread, you can quickly include text from a previous comment in the thread. Look for the Quote Reply option in the More menu next to the comment you want to quote.</p> </td> 
+     -->
+     </p> <p>When you comment in an update thread, you can quickly include text from a previous comment in the thread. Look for the Quote Reply option in the More menu next to the comment you want to quote.</p> </td>
    <td> <p>Beta Preview release:&nbsp;March 14, 2020</p> <p>Production release:&nbsp;March 26, 2020</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#addition" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Additional risks information </a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#addition" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Additional risks information </a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Project-enhancements-1509887664?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Additional risks information</a>
-     --> </p> <p>To help you better understand the risks of your projects, you can now see who and when a risk was entered and when it was updated on a project. You can access this information in a risk view and through the public Workfront API. These fields will be available with API version 11, which releases with the 2020.1 Production.</p> </td> 
+     -->
+     </p> <p>To help you better understand the risks of your projects, you can now see who and when a risk was entered and when it was updated on a project. You can access this information in a risk view and through the public Workfront API. These fields will be available with API version 11, which releases with the 2020.1 Production.</p> </td>
    <td> <p>Beta Preview release:&nbsp;February 14, 2020</p> <p>Production release:&nbsp;With the 2020.1 release</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#addition2" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Additional fields added to Baselines and Baseline Tasks</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#addition2" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Additional fields added to Baselines and Baseline Tasks</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Project-enhancements-1509887664?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Additional fields added to Baselines and Baseline Tasks</a>
-     --> </p> <p>To help you better understand the financial progress of your projects, you can now include additional cost and revenue information in a Baseline or a Baseline Task report. The additional financial information is not added to the baselines that you have currently saved, but it is added for new baselines.</p> </td> 
+     -->
+     </p> <p>To help you better understand the financial progress of your projects, you can now include additional cost and revenue information in a Baseline or a Baseline Task report. The additional financial information is not added to the baselines that you have currently saved, but it is added for new baselines.</p> </td>
    <td> <p>Beta Preview release:&nbsp;January 31, 2020</p> <p>Production release:&nbsp;With the 2020.1 release</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#issues" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Issues in "Closed-Pending Approval" status are considered incomplete</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#issues" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Issues in "Closed-Pending Approval" status are considered incomplete</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Project-enhancements-1509887664?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Issues in "Closed-Pending Approval" status are considered incomplete</a>
-     --> </p> <p>The way Workfront handles issues in a "Complete-Pending Approval" status has been changed. Now, these issues are perceived as Open, and the project cannot be marked as Complete until the approval is resolved. </p> </td> 
+     -->
+     </p> <p>The way Workfront handles issues in a "Complete-Pending Approval" status has been changed. Now, these issues are perceived as Open, and the project cannot be marked as Complete until the approval is resolved. </p> </td>
    <td> <p>Beta Preview release:&nbsp;December 6, 2019</p> <p>Planned Production release:&nbsp;With the 2020.1 release</p> </td> 
   </tr> 
  </tbody> 
@@ -218,21 +260,27 @@ Some functionality was released prior to the 2020.1 release. To see what was rel
    <td> <p><strong>Release dates</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-proofing-enhancements.md#updates" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Updates to the measurement tool in the proofing viewer</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-proofing-enhancements.md#updates" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Updates to the measurement tool in the proofing viewer</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Proofing-enhancements-1999580039?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Updates to the measurement tool in the proofing viewer</a>
-     --> </p> <p>To help meet the needs of users in compliance and regulated industries where strict guidelines apply, various improvements are now available in the proofing viewer related to the measurement tool.</p> </td> 
+     -->
+     </p> <p>To help meet the needs of users in compliance and regulated industries where strict guidelines apply, various improvements are now available in the proofing viewer related to the measurement tool.</p> </td>
    <td> <p>Beta Preview release:&nbsp;March 6, 2020</p> <p>Production release:&nbsp;With the 2020.1 release</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-proofing-enhancements.md#improved" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Improved setting labels in Automated Workflow areas</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-proofing-enhancements.md#improved" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Improved setting labels in Automated Workflow areas</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Proofing-enhancements-1999580039?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Improved setting labels in Automated Workflow areas</a>
-     --> </p> <p>Now, when you are setting stage deadline and activation settings for an Automated Workflow, the labels in the user interface are easier to understand.</p> <p>Also, names for the stage settings are now consistent from one Automated Workflow activity to another.</p> </td> 
+     -->
+     </p> <p>Now, when you are setting stage deadline and activation settings for an Automated Workflow, the labels in the user interface are easier to understand.</p> <p>Also, names for the stage settings are now consistent from one Automated Workflow activity to another.</p> </td>
    <td> <p>Beta Preview release:&nbsp;January 17, 2020</p> <p>Production release:&nbsp;With the 2020.1 release</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-proofing-enhancements.md#add" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Add a timezone to an Automated Workflow template</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-proofing-enhancements.md#add" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Add a timezone to an Automated Workflow template</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Proofing-enhancements-1999580039?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Add a timezone to an Automated Workflow template</a>
-     --> </p> <p>Now, when you are creating or modifying an Automated Workflow template for your users' proofs, you can specify the timezone of the users who will be creating or working on the proof.</p> </td> 
+     -->
+     </p> <p>Now, when you are creating or modifying an Automated Workflow template for your users' proofs, you can specify the timezone of the users who will be creating or working on the proof.</p> </td>
    <td> <p>Beta Preview release:&nbsp;December 6, 2019</p> <p>Planned Production release:&nbsp;With the 2020.1 release</p> </td> 
   </tr> 
   <tr> 
@@ -274,21 +322,27 @@ Some functionality was released prior to the 2020.1 release. To see what was rel
    <td> <p><strong>Release dates</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#change" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Change required for adding proofs to the allowlist</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#change" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Change required for adding proofs to the allowlist</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Other-enhancements-1407923545?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Change required for whitelisting proofs</a>
-     --> </p> <p>The proofing domain is changing from&nbsp;proofhq.com to workfront.com. </p> </td> 
+     -->
+     </p> <p>The proofing domain is changing from&nbsp;proofhq.com to workfront.com. </p> </td>
    <td> <p>Beta Preview release:&nbsp;March 10, 2020</p> <p>Production release:&nbsp;With the 2020.1 release <span style="color: #ff0000;">(Removed from release)</span></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">The Flash Portfolio Optimizer has been removed</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">The Flash Portfolio Optimizer has been removed</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Other-enhancements-1407923545?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">The Flash Portfolio Optimizer has been removed</a>
-     --> </p> <p>We have removed the ability to switch between the new and the legacy (based on FlashFlash-based) Portfolio Optimizer from the Workfront Classic environment for all customers. The Legacy Portfolio Optimizer is a deprecated feature and the new tools provide the same functionality today.</p> </td> 
+     -->
+     </p> <p>We have removed the ability to switch between the new and the legacy (based on FlashFlash-based) Portfolio Optimizer from the Workfront Classic environment for all customers. The Legacy Portfolio Optimizer is a deprecated feature and the new tools provide the same functionality today.</p> </td>
    <td> <p>Beta Preview release:&nbsp;February 27, 2020</p> <p>Production release:&nbsp;With the 2020.1 release</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Workfront cookie behavior updated to maintain compatibility with Chrome</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Workfront cookie behavior updated to maintain compatibility with Chrome</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Other-enhancements-1407923545?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Workfront cookie behavior updated to maintain compatibility with Chrome</a>
-     --> </p> <p>To maintain compatibility with an upcoming Google Chrome update (Chrome v80), we've updated the Workfront platform to ensure that cookies are appropriately sent with requests. </p> <p>This Chrome update changes the default value of the SameSite cookie attribute. If you want to test how your Workfront instance will behave after the Google Chrome update, adjust the flags in Chrome and enable the following options: </p> 
+     -->
+     </p> <p>To maintain compatibility with an upcoming Google Chrome update (Chrome v80), we've updated the Workfront platform to ensure that cookies are appropriately sent with requests. </p> <p>This Chrome update changes the default value of the SameSite cookie attribute. If you want to test how your Workfront instance will behave after the Google Chrome update, adjust the flags in Chrome and enable the following options: </p>
     <ul> 
      <li>"SameSite by default cookies" </li> 
      <li>"Cookies without SameSite must be secure"</li> 
@@ -296,9 +350,11 @@ Some functionality was released prior to the 2020.1 release. To see what was rel
    <td> <p>Beta Preview release:&nbsp;January 29, 2020</p> <p>Production release:&nbsp;January 30, 2020</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#workfron2" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Workfront comments sync to Jira</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#workfron2" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Workfront comments sync to Jira</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Other-enhancements-1407923545?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Workfront comments sync to Jira</a>
-     --> </p> <p>The Workfront for Jira integration now syncs your Workfront comments to Jira's native comment stream.</p> <p>For more information, see <a href="../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md" class="MCXref xref" xrefformat="{para}">Configure Adobe Workfront for Jira</a>.</p> </td> 
+     -->
+     </p> <p>The Workfront for Jira integration now syncs your Workfront comments to Jira's native comment stream.</p> <p>For more information, see <a href="../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md" class="MCXref xref" xrefformat="{para}">Configure Adobe Workfront for Jira</a>.</p> </td>
    <td> <p>Beta Preview release:&nbsp;December 20, 2019</p> <p>Production release:&nbsp;December 20, 2019</p> </td> 
   </tr> 
  </tbody> 

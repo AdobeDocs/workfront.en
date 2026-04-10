@@ -5,6 +5,8 @@ description: Learn about AI Assistant in Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
+last-update: 2026-04-01T11:23:03-07:00
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 ---
 # AI Assistant in Workfront
 
@@ -14,30 +16,28 @@ Workfront's AI Assistant helps you accomplish your work by offering in-app infor
 * Finding instructions or reference material for work processes
 * Generating or checking formulas for calculated fields  
 
-## Access requirements
+## Access requirements 
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td><p>New: Any</p>
-       <p>or</p>
-       <p>Current: Not available</p></td>
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Select or higher </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p>
-       <p>or</p>
-       <p>Current: Not available</p></td>
+   <td><p>Standard</p>
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites to AI Assistant
 
@@ -136,7 +136,8 @@ To request the Adobe Gen AI agreement:
 
    >[!NOTE]
    >
-   >Please allow 1-3 business days after signing and returning the agreement for Adobe to review and enable AI Assistant.
+   >* Please allow 1-3 business days after signing and returning the agreement for Adobe to review and enable AI Assistant.
+   >* If you do not see AI Assistant options available in your organization's instance after it has been enabled, contact Workfront customer support.
 
 ## Tips for creating prompts in AI Assistant
 
@@ -145,13 +146,13 @@ Use the following keywords in your prompts to provide context and aid in locatin
 When entering your prompt, include the phrase `using (keyword)`.
 
 | Keyword | Effect |
-|---|---|
-|`workfront` | Interacts with Workfront. |
-|`planning` | Interacts with Workfront Planning. |
-|`help`| Returns information from Experience League documentation. |
-|`formula`| Checks and returns formulas for use in Planning, Setup, or custom forms. |
-|`health`| Checks project health with Project Health Advisor. |
-|`summarize`| Summarizes items, such as when uploading a file or summarizing a project. |
+| --- | --- |
+| `workfront` | Interacts with Workfront. |
+| `planning` | Interacts with Workfront Planning. |
+| `help` | Returns information from Experience League documentation. |
+| `formula` | Checks and returns formulas for use in Planning, Setup, or custom forms. |
+| `health` | Checks project health with Project Health Advisor. |
+| `summarize` | Summarizes items, such as when uploading a file or summarizing a project. |
 
 >[!NOTE]
 >

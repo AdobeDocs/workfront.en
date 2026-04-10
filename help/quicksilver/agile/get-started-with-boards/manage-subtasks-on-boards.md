@@ -3,9 +3,11 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Manage Subtasks on Boards
 description: Using subtasks on cards allows you to establish a parent-child relationship between tasks and create a hierarchy of work.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Manage subtasks on boards
 

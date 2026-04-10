@@ -6,12 +6,19 @@ description: Smart folders are used to manage documents outside of a project, ta
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create and Manage Smart Folders
 
 Smart folders are used to manage documents outside of a project, task, or issue, and&nbsp;are found in the main Documents&nbsp;area in the Main Menu . You can set up a smart folder to filter assets and display only those important to you, rather than searching through all of your assets.
 
 Two smart folders are available to you by default the first time you access the Documents&nbsp;area: All Documents, and Recent. You can edit, rename, or copy default smart folders, but you cannot delete them. You can&nbsp;create additional smart folders to meet other asset management needs.
+
+>[!NOTE]
+>
+>This functionality is not available in the new documents area.<br>
+>If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Access requirements
 

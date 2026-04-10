@@ -3,11 +3,15 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Build a KPI report in a Canvas Dashboard
 description: A KPI report that prominently displays a single aggregated KPI can be added to a Canvas Dashboard.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Build a KPI report in a Canvas Dashboard
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -90,6 +94,14 @@ There are many configuration options available for building a KPI report. In thi
         >[!NOTE]
         >
         >The description will be used as a caption below the KPI value. If you don't enter a description, a caption will be generated for you based on the aggregator and aggregation type you select in the following steps.  
+
+    1. <span class="preview">(Optional) In the **Run this report with the access rights of** field, begin typing the name of the user whose permissions you want the report to use, then select the user when they appear in the list. When you configure a report to run as another user, all viewers of the dashboard see the same data, regardless of their own access level. If you don't select a user, each viewer sees data based on their own permissions.
+
+        >[!IMPORTANT]
+        >
+        >If the selected user is deactivated or loses access to the relevant workspaces or record types, the report may display incomplete data or fail to render.
+
+</span>
 
 1. Follow the steps below to configure the **Build KPI** section: 
 
