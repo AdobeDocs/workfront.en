@@ -73,7 +73,14 @@ Before you begin:
 * Metadata fields are first mapped when you send an asset from Workfront to Experience Manager Assets or Assets Essentials. If your Workfront administrator has enabled object metadata sync, fields remain up to date if they are changed in either application.
 
 
-## Link an asset from Experience Manager Assets or Assets Essentials
+## Link an asset from Experience Manager Assets with Content Advisor
+
+You can now use Content Advisor to link assets from Experience Manager Assets directly within Workfront. Content Advisor is not available for Assets Essentials.
+
+>[!NOTE]
+>
+>If your organization declines to sign the GenAI Rider agreement, you still use Content Advisor to choose assets and folders in Experience Manager Assets, but you will not have access to AI-powered features such as AI Search, smart suggestions, or analyzing campaign briefs.
+
 
 To link an asset:
 
@@ -133,7 +140,7 @@ To link an asset:
    </table>
 
 
-### Link a new version from Experience Manager Assets or Assets Essentials
+### Link a new version from Experience Manager Assets with Content Advisor
 
 You can pull a new asset over from Experience Manager Assets or Assets Essentials and add it to an existing asset as a new version. If the document is already linked and a new version is added in Experience Manager Assets or Assets Essentials, the new version appears automatically in Workfront.
 
@@ -154,6 +161,10 @@ You can pull a new asset over from Experience Manager Assets or Assets Essential
    * Content fragments do not support versions. If you select a content fragment, the new version will replace the existing content fragment instead of creating a new version.
 
 1. Click **Select**.
+
+## Link an asset from Experience Manager Assets Essentials
+
+
 
 ## Link a folder from Experience Manager Assets or Assets Essentials
 
