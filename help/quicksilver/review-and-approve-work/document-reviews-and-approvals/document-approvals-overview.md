@@ -398,7 +398,7 @@ Yes. Because the integration uses Adobe enterprise storage, the following conven
 
 * Documents within the same project cannot share a name.
 
-* Programs, portfolios, projects, templates, tasks, issues, documents, document folders names cannot contain the following special characters: `\\ / : \* ? \" \| \< \>` and are limited to 255 characters.
+* Programs, portfolios, projects, templates, tasks, issues, documents, document folders names cannot contain the following special characters: `\ / : * ? " | < >` and are limited to 255 characters.
 
 Workfront automatically renames objects or documents as needed to prevent conflicts.
 
