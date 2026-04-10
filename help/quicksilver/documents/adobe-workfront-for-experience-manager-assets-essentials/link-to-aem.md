@@ -63,23 +63,16 @@ Before you begin:
 
 * To use Smart suggestions or Campaign Briefs, you must sign a GenAI Rider. For more information, see [Use Content Advisor to access AEM content in Adobe applications](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search).
 
-## Considerations
-
-* Content Advisor functionality is not available for objects using Adobe Enterprise Storage. If your organization uses Adobe Enterprise Storage, you can still link assets and folders from Experience Manager Assets or Assets Essentials, but you won't have access to Content Advisor features such as AI Search, smart suggestions, or Dynamic Media renditions. For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
-
-
-* Assets sent from Assets Essentials don't count towards your overall document storage in Workfront. Documents uploaded and sent from Workfront to Assets Essentials do count towards overall storage.
-
-* Metadata fields are first mapped when you send an asset from Workfront to Experience Manager Assets or Assets Essentials. If your Workfront administrator has enabled object metadata sync, fields remain up to date if they are changed in either application.
 
 
 ## Link an asset from Experience Manager Assets with Content Advisor
 
 You can now use Content Advisor to link assets from Experience Manager Assets directly within Workfront. Content Advisor is not available for Assets Essentials.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >If your organization declines to sign the GenAI Rider agreement, you still use Content Advisor to choose assets and folders in Experience Manager Assets, but you will not have access to AI-powered features such as AI Search, smart suggestions, or analyzing campaign briefs.
+
 
 
 To link an asset:
@@ -89,7 +82,7 @@ To link an asset:
 
    >[!NOTE]
    >
-   >The Workfront administrator can choose any name for this integration, so it may not specifically mention Assets or Assets Essentials.
+   >The Workfront administrator can choose any name for this integration, so it may not specifically mention Experience Manager Assets.
 
 1. With Content Advisor, you can:
 
@@ -150,7 +143,7 @@ You can pull a new asset over from Experience Manager Assets or Assets Essential
 
    >[!NOTE]
    >
-   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Assets or Assets Essentials.
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Experience Manager Assets.
 
 1. Select the content you want to link:
 
@@ -164,7 +157,37 @@ You can pull a new asset over from Experience Manager Assets or Assets Essential
 
 ## Link an asset from Experience Manager Assets Essentials
 
+Experience Manager Assets Essentials allows you to link assets directly to Workfront. Content Advisor is not available for Assets Essentials.
 
+1. Go to the **Documents** area in Workfront where you want to add the document.
+1. Select **Add New**, then select the Experience Manager integration your administrator set up.
+
+   >[!NOTE]
+   >
+   >The Workfront administrator can choose any name for this integration, so it may not specifically mention Assets or Assets Essentials.
+
+1. Select the assets you want.
+
+   ![Select an asset](assets/select-an-asset.png)
+
+1. Click **Select**.
+
+## Link a folder from Experience Manager Assets or Assets Essentials
+
+Permissions to view individual assets inside of a folder rely on Experience Manager Assets or Assets Essentials permissions.
+
+1. Go to the **Documents** area in Workfront where you want the folder.
+1. Select **Add New**, then select the Experience Manager integration your administrator set up.
+
+   >[!NOTE]
+   >
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Assets or Assets Essentials.
+
+1. Select the folders you want.
+
+   ![Select a folder](assets/select-a-folder.png)
+
+1. Click **Select**.
 
 ## Link a folder from Experience Manager Assets or Assets Essentials
 
@@ -185,5 +208,13 @@ Permissions to view individual assets inside of a folder rely on Experience Mana
 
 1. Click **Select**.
 
-<!--need screenshot-->
 
+## Considerations
+
+* Content Advisor functionality is not available for objects using Adobe Enterprise Storage. If your organization uses Adobe Enterprise Storage, you can still link assets and folders from Experience Manager Assets or Assets Essentials, but you won't have access to Content Advisor features such as AI Search, smart suggestions, or Dynamic Media renditions. For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+
+* Content Advisor functionality is not available for Assets Essentials.
+
+* Assets sent from Assets Essentials don't count towards your overall document storage in Workfront. Documents uploaded and sent from Workfront to Assets Essentials do count towards overall storage.
+
+* Metadata fields are first mapped when you send an asset from Workfront to Experience Manager Assets or Assets Essentials. If your Workfront administrator has enabled object metadata sync, fields remain up to date if they are changed in either application.
