@@ -296,16 +296,16 @@ To add a text field:
     </tr>
     <tr>
       <td><span class="preview">Finance Permission Type</span></td>
-      <td><p><span class="preview">Select the finance permission type that the users must have before they can view or edit this custom field. Any format is allowed for calculated fields.</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">Select the finance permission type that the users must have before they can view or edit this custom field. The Currency format must be selected.</span></p>
+      <ul>
       <li><p><strong>No permissions required:</strong> All users can see this field</p></li>
       <li><p><strong>General:</strong> Users must have permissions to edit or view General Finance</p></li>
       <li><p><strong>Bill:</strong> Users must have permissions to edit or view billing rates</p></li>
       <li><p><strong>Cost:</strong> Users must have permissions to edit or view cost rates</p></li>
       </ul>
-      <p><span class="preview">For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</span></p>
+      <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</p>
       </td>
-      <td><ul span class="preview">
+      <td><ul>
        <li>Single line text</li>
        <li>Paragraph</li>
        </ul></td>
@@ -361,7 +361,7 @@ To add a text field:
 
 ### Add calculated fields
 
- In a custom form, you can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object. 
+In a custom form, you can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object.
 
 To add a calculated field, see [Add calculated fields with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
@@ -452,16 +452,16 @@ To add radio buttons, checkbox groups, and drop-downs:
     </tr> 
     <tr>
       <td><span class="preview">Finance Permission Type</span></td>
-      <td><p><span class="preview">Select the finance permission type that the users must have before they can view or edit this custom field. Any format is allowed for calculated fields.</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">Select the finance permission type that the users must have before they can view or edit this custom field. The Currency format must be selected.</span></p>
+      <ul>
       <li><p><strong>No permissions required:</strong> All users can see this field</p></li>
       <li><p><strong>General:</strong> Users must have permissions to edit or view General Finance</p></li>
       <li><p><strong>Bill:</strong> Users must have permissions to edit or view billing rates</p></li>
       <li><p><strong>Cost:</strong> Users must have permissions to edit or view cost rates</p></li>
       </ul>
-      <p><span class="preview">For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</span></p>
+      <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</p>
       </td>
-      <td><ul span class="preview">
+      <td><ul>
        <li>Radio buttons</li>
        <li>Checkbox group</li>
        <li>Single-select dropdown</li>
@@ -717,14 +717,14 @@ To add an external lookup:
      </tr> 
      <tr>
       <td><span class="preview">Finance Permission Type</span></td>
-      <td><p><span class="preview">Select the finance permission type that the users must have before they can view or edit this custom field. Any format is allowed for calculated fields.</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">Select the finance permission type that the users must have before they can view or edit this custom field. The Currency format must be selected.</span></p>
+      <ul>
       <li><p><strong>No permissions required:</strong> All users can see this field</p></li>
       <li><p><strong>General:</strong> Users must have permissions to edit or view General Finance</p></li>
       <li><p><strong>Bill:</strong> Users must have permissions to edit or view billing rates</p></li>
       <li><p><strong>Cost:</strong> Users must have permissions to edit or view cost rates</p></li>
       </ul>
-      <p><span class="preview">For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</span></p>
+      <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</p>
       </td>
      </tr>
      <tr> 

@@ -1,5 +1,5 @@
 ---
-title: Grant Access to Financial Data
+title: Grant Access to Rate Cards
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-access-to-workfront

@@ -27,8 +27,6 @@ Project coordinators manage work in Workfront while creatives, marketers, and st
 
 * The Workfront instance must be enabled on the Adobe Unified Experience and Adobe enterprise storage.
 
-* The integration must be configured by Adobe Professional Services. 
-
 
 ## Built on Adobe enterprise storage
 
@@ -98,7 +96,6 @@ For more information about managing projects in Workfront, see [Projects: articl
 
 Because unified review and approval is built using Adobe enterprise storage, there are some enforced structure and naming conventions to be aware of when managing projects and documents.
 
-* Object names must be unique and can't be duplicated.
 * Adobe enterprise storage requires unique names for peer objects with the same parent in the hierarchy tree.
 * Documents can't have the same name if they belong to the same project.
 * Object names can't contain any of the following special characters: \ / : * ? " | < >
@@ -174,8 +171,6 @@ To use unified review and approval, the following conditions must be met:
 * Users can belong to only one Workfront instance within the IMS organization.
 
 * The Workfront instance must be enabled on the Adobe Unified Experience and Adobe enterprise storage.
-
-* The integration must be configured by Adobe Professional Services.
 
 * Workfront customers must be on a V2 SKU (this may require a contracting event--contact your Adobe account representative).
 
@@ -402,7 +397,7 @@ Yes. Because the integration uses Adobe enterprise storage, the following conven
 
 * Documents within the same project cannot share a name.
 
-* Programs, portfolios, projects, templates, tasks, issues, documents, document folders names cannot contain the following special characters: `\\ / : \* ? \" \| \< \>` and are limited to 255 characters.
+* Programs, portfolios, projects, templates, tasks, issues, documents, document folders names cannot contain the following special characters: `\ / : * ? " | < >` and are limited to 255 characters.
 
 Workfront automatically renames objects or documents as needed to prevent conflicts.
 

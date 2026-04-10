@@ -54,7 +54,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">AI Collaborators now available</a><p>To make it easier for you to benefit from AI in your day-to-day work, we've created AI Collaborators.  AI Collaborators are a way to onboard AI agents into your projects and tasks. You can configure an AI Collaborator with brand guidelines, then assign it to a task as you would a user.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Content Review AI Collaborator now available</a><p>To make it easier for you to benefit from AI in your day-to-day work, we've created the Content Review AI Collaborator.  The Collaborator is a way to onboard AI agents into your projects and tasks. You can configure a Content Review AI Collaborator with brand guidelines, then assign it to a task as you would a user.</p>
         </td>
         <td><p>April 2, 2026</p></td>
         <td><p>April 15, 2026</p></td>
@@ -78,7 +78,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
     </tr>
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Rich text field type is now available on custom forms</a><p>The new <b>Rich text</b> field type in custom forms is a robust text editor, with formatting options such as superscript and subscript, headings, and tables, in addition to the traditional options of bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. The character limit remains 15,000.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Rich Text field replacing Text with Formatting field type</a><p>The new <b>Rich text</b> field type in custom forms is a robust text editor, with formatting options such as superscript and subscript, headings, and tables, in addition to the traditional options of bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. The character limit remains 15,000.</p>
         </td>
         <td><p>January 29, 2026</p></td>
         <td><p>February 12, 2026</p>
