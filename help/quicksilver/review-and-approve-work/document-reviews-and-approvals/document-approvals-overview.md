@@ -96,7 +96,6 @@ For more information about managing projects in Workfront, see [Projects: articl
 
 Because unified review and approval is built using Adobe enterprise storage, there are some enforced structure and naming conventions to be aware of when managing projects and documents.
 
-* Object names must be unique and can't be duplicated.
 * Adobe enterprise storage requires unique names for peer objects with the same parent in the hierarchy tree.
 * Documents can't have the same name if they belong to the same project.
 * Object names can't contain any of the following special characters: \ / : * ? " | < >
