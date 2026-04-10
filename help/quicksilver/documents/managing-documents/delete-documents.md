@@ -6,6 +6,8 @@ description: You can delete documents you upload. If you're given manage access 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Delete documents
 
@@ -44,13 +46,36 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
+## Delete a document in the legacy documents area
+
+If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 To delete a document:
 
-1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 1. Find the document you need.
 
 1. Click the **Delete** icon ![Delete icon](assets/delete.png) above the Documents area.
 
 1. In the box that appears, click **Yes, Delete it**&nbsp;to confirm.
 
-A system or group administrator can restore a document within 30 days of being deleted, as described in [Restore deleted items](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+    A system or group administrator can restore a document within 30 days of being deleted, as described in [Restore deleted items](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+
+    ![delete documents](assets/delete-documents-legacy.png)
+
+
+## Delete a document in the new documents area
+
+If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+To delete a document:
+
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+
+1. Find the document you need, then click **Delete**. 
+
+1. In the box that appears, click **Delete** to confirm.
+
+    A system or group administrator can restore a document within 30 days of being deleted, as described in [Restore deleted items](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+
+    ![delete documents](assets/delete-documents-new.png)

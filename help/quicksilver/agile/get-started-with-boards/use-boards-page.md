@@ -3,9 +3,11 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Use the Boards Dashboard
 description: The [!UICONTROL boards] dashboard shows the list of boards that you have access to, including boards you have created and boards that you have been added to.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Use the boards dashboard
 
@@ -123,7 +125,8 @@ Deleting a workstream also deletes all of the boards in the workstream.
 
 1. Click **[!UICONTROL Delete board]** or [!UICONTROL **Delete workstream**] on the confirmation message.
 
-<!-- ## Move a board to a workstream
+<!--
+ ## Move a board to a workstream
 
 You can move a standalone board into a workstream, or move a board from one workstream to another workstream.
 

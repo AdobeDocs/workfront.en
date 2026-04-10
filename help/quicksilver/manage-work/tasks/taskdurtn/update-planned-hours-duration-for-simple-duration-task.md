@@ -6,6 +6,8 @@ description: By default, Adobe Workfront calculates the Duration of a task with 
 author: Alina
 feature: Work Management
 exl-id: 47a9b095-2b7d-4ed0-8cb6-e6bd5e37ce9c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Update the Planned Hours and Duration of a task with a Simple Duration Type
 
@@ -49,7 +51,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,7 +75,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Update the Planned Hours and Duration of a task with a Simple Duration Type
 
@@ -85,13 +89,13 @@ To edit the Planned Hours and Duration of a task with a Simple Duration Type in 
 1. In a task list, click the name of the task for which you want to change the duration type.
 1. Do one of the following:
 
-   * Click the **More** icon ![](assets/qs-more-icon-on-an-object.png) next to the name of the task, click **Edit**, then **Assignments**. 
+   * Click the **More** icon ![More icon on an object](assets/qs-more-icon-on-an-object.png) next to the name of the task, click **Edit**, then **Assignments**. 
    * Click the **Assigned to** or the name of the assignments in the Assignments area of the task header, then click **Advanced**.
 
 1. Enter a total value for the **Planned Hours** for all the assignments, for example, 10 hours. The total number of Planned Hours is distributed equally between all the resources assigned to the task.
 1. (Optional) Manually adjust the Planned Hours of each resource assigned to the task. The total number of Planned Hours for the task updates to reflect the new hours individually assigned to your resources.
 1. Enter a value for the task **Duration**, for example 2 Days.
 
-   ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
+   ![Advanced assignments simple duration multiple resources](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
 
 1. Click **Save**.

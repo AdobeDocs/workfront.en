@@ -7,6 +7,8 @@ description: You can request access to a plan in the Adobe Workfront Scenario Pl
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Request permissions to a plan in the [!DNL Scenario Planner]
 
@@ -48,7 +50,8 @@ For information about Workfront access requirements, see [Access requirements to
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -79,7 +82,8 @@ For information about Workfront access requirements, see [Access requirements to
    <td>  <p>[!UICONTROL View] or higher access to the [!DNL Scenario Planner]</p>  </td> 
   </tr>
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Prerequisites
 

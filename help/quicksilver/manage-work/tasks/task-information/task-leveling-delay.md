@@ -6,6 +6,8 @@ description: At times, there might be conflicts between task schedules on a proj
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Update task Leveling Delay
 
@@ -47,7 +49,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
  +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -70,7 +73,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>Manage permissions to Tasks </p> <p>Contribute or higher permissions to Projects</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Add a Leveling Delay to a task
 
@@ -79,7 +83,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 1. Click **Settings**.
 
-   ![](assets/leveling-delay-edit-task-nwe-350x345.png)
+   ![Leveling delay when editing task](assets/leveling-delay-edit-task-nwe-350x345.png)
 
 1. Specify the **Leveling Delay**, in hours, then choose a unit of time.  
    This is the time that the resource will be delayed starting the task due to resource conflicts.

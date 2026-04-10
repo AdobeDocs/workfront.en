@@ -3,10 +3,12 @@ product-area: Canvas Dashboards
 navigation-topic: manage-reports
 title: 'Manage reports: article index'
 description: View the articles in this section.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 2ed58b15-098a-4937-86e6-2a8444389c00
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Manage reports: article index
 

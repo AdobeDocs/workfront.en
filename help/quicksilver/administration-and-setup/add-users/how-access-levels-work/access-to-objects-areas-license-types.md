@@ -3,16 +3,18 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: Access to Objects and Areas by New Licenses
+title: Access to Objects and Areas by Licenses
 description: The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
 ---
-# Access to objects and areas by new licenses
+# Access to objects and areas by licenses
 
 <!-- Audited: 2/2024 -->
+
+{{highlighted-preview}}
 
 >[!NOTE]
 >
@@ -99,6 +101,13 @@ The table below tells you the highest level of access (Edit or View) that each o
         <td>View</td>
     </tr>
     <tr>
+        <td><span class="preview">Job Roles</span></td>
+        <td>Edit</td>
+        <td>View</td>
+        <td>View</td>
+        <td>No access</td>
+    </tr>
+    <tr>
         <td>Teams</td>
         <td>Edit</td>
         <td>View</td>
@@ -128,6 +137,13 @@ The table below tells you the highest level of access (Edit or View) that each o
     </tr>
     <tr>
         <td>Scenario Planner</td>
+        <td>Edit</td>
+        <td>View</td>
+        <td>No access</td>
+        <td>No access</td>
+    </tr>
+    <tr>
+        <td><span class="preview">Rate Cards</span></td>
         <td>Edit</td>
         <td>View</td>
         <td>No access</td>
@@ -170,4 +186,5 @@ You can find detailed information about what the access levels allow for each ob
 * [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) 
 * [Grant access to Resource Management](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md) 
 * [Grant access to Scenario Planner](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) 
+* [Grant access to rate cards](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
 * [Grant access to Adobe Workfront Goals](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)

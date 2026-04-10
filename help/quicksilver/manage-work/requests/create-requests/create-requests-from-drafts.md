@@ -3,9 +3,11 @@ product-area: requests
 navigation-topic: create-requests
 title: Create Requests from Drafts
 description: In addition to using the available drafts that Workfront suggests to you when you enter a new request, you can also access a draft request from the Drafts section and finish submitting it from there.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create requests from drafts
 
@@ -21,7 +23,8 @@ In addition to using the available drafts that Workfront suggests to you when yo
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any </p> </td> 
+   <td> <p>Any Adobe Workfront or Workflow package</p>
+   <p>Any Adobe Workfront Planning package to create requests for Workfront Planning </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -33,10 +36,7 @@ In addition to using the available drafts that Workfront suggests to you when yo
    <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Issues</p>  </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"> Product</td> 
-   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
-  </tr> 
+ 
  </tbody> 
 </table>
 
@@ -54,7 +54,9 @@ You must do the following before you can create a request from a draft:
 
 ## Create requests from drafts
 
-The procedure for creating requests from drafts differs between the new requesting experience and the legacy experience.
+You can create requests from drafts for both Workfront and Planning reqeusts. 
+
+Creating requests from drafts differs between the new requesting experience and the legacy experience.
 
 * [Create requests from drafts in the new requesting experience](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [Create requests from drafts in the legacy requesting experience](#create-requests-from-drafts-in-the-legacy-requesting-experience)
@@ -84,9 +86,14 @@ The procedure for creating requests from drafts differs between the new requesti
 
 1. After completing the information for the request, click **Submit**.
 
-     When you submit the request, the draft is deleted and cannot be restored.
+     When you submit the request, the draft is replaced with the new request, and cannot be restored as a draft. 
 
 ### Create requests from drafts in the legacy requesting experience
+
+>[!NOTE]
+>
+>You cannot create requests from Planning request drafts using the legacy experience.
+
 
 {{step1-to-requests}}
 
@@ -94,7 +101,7 @@ The procedure for creating requests from drafts differs between the new requesti
 
    A draft for each queue topic of each request queue displays in this list.
 
-   ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
+   ![Drafts section with list of drafts](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
 
 1. (Optional) Click a column header to sort the list by that column. 
 
@@ -127,7 +134,7 @@ The procedure for creating requests from drafts differs between the new requesti
 
      Click **Close** if you are not quite ready to submit it and you might come back and finish it later. Your request is saved in the Drafts section  and it will be available to you next time you submit a request for this request queue.
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![Submit, close, discard buttons on new request](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      When you submit the request, the draft is deleted and cannot be restored.
 

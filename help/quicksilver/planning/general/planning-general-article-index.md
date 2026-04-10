@@ -6,6 +6,8 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 
 # Adobe Workfront Planning general information: article index
@@ -23,7 +25,8 @@ Review the following articles:
 * [Adobe Workfront Planning release activity for 2024](/help/quicksilver/planning/general/release-activity.md)
 * [Adobe Workfront Planning release activity for 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
 * [Adobe Workfront Planning object limitations overview](/help/quicksilver/planning/general/limitations-overview.md)
-* [Adobe Workfront Planning best practices](/help/quicksilver/planning/general/planning-best-practices.md)
-<!--* [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md)-->
+* [Adobe Workfront Planning implementation recommendations](/help/quicksilver/planning/general/planning-best-practices.md)
+* [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md)
+* [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md)
 
 

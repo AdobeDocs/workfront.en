@@ -3,9 +3,11 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Create or Edit a Board
 description: From the [!UICONTROL boards] dashboard, you can create a new board or edit an existing board.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create or edit a board
 

@@ -7,6 +7,8 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create recurring tasks
 
@@ -50,7 +52,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,7 +81,8 @@ For more information, see [Access requirements in Workfront documentation](/help
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Create a recurring task
 
@@ -91,7 +95,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 
    The New Task dialog box displays.
 
-   ![](assets/nwe-create-task-small-screen-350x272.png)
+   ![Create task small screen](assets/nwe-create-task-small-screen-350x272.png)
 
 1. Click **More options** then enter a name for the task in the **Task Name** field.
 1. Continue updating the task the same way you would if you added a new task. For more information about adding a new task, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
@@ -103,7 +107,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 1. Click **Overview** in the left panel.
 1. Scroll down to the **Recurrence Schedule** section, then select the **Make this a recurring task** option.
 
-   ![](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
+   ![Recurrence schedule seection new recurring tasks](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
 1. In the **Frequency** drop-down list, select the number of time units when you want the task to occur and the type of time units. Select from the following options: 
 
@@ -157,7 +161,7 @@ For more information, see [Access requirements in Workfront documentation](/help
    
    For more information about what fields are auto-filled from the parent recurring task, see [Recurring tasks overview](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
 
-   ![](assets/recurring-tasks-in-task-list-nwe-350x87.png)
+   ![REcurring tasks in task list](assets/recurring-tasks-in-task-list-nwe-350x87.png)
 
 1. (Optional) Modify each recurring task as you would any other task in the project.
 

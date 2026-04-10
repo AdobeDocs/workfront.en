@@ -4,8 +4,10 @@ navigation-topic: use-lists
 title: Inline Edit Items in a List in [!DNL Adobe Workfront]
 description: You can edit objects inline when they display in a list or report. When you edit the information on objects displayed in a list or report, the object updates immediately.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Inline edit items in a list in [!DNL Adobe Workfront]
 

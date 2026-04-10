@@ -6,6 +6,8 @@ description: The Condition of a project is a flag placed on it to indicate wheth
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Update Condition for a project
 
@@ -51,7 +53,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,7 +86,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
      </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Automatically set the Condition
 
@@ -104,7 +108,7 @@ If you set your project's Condition Type to Manual instead of Progress Status, y
 
 1. Ensure that the **Condition Type** field is set to **Manual**. 
 
-   ![](assets/project-details-overview-select-condition.png)
+   ![Project details overview select condition](assets/project-details-overview-select-condition.png)
 
 1. In the **Condition** field, select from the following options the one that matches your understanding of whether the work associated with it is going smoothly or whether there are any delays:
 

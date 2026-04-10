@@ -7,6 +7,8 @@ description: Projects, tasks, and issues have an Actual Start Date in Adobe Work
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Overview of the project Actual Start Date
 
@@ -44,7 +46,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -67,7 +70,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    <td> <p>View or higher permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerations about Actual Start Dates in Workfront
 
@@ -99,7 +103,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 You can locate the Actual Start Date of a project in the following areas:
 
 * In the Details section of a Project.
-* In a project report or view, when you add the Actual Start Date for the object Project in the report.
+* In a project report or view, when you add the **Actual Start Date** for the Project object in the report.
 
   For information about creating reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -110,8 +114,8 @@ To locate the Actual Start Date in the Details section of the project:
 1. Click the project you want to view the Actual Start Date for.
 1. Click **Project Details** in the left panel, then go to the **Overview** section.
 
-   The Actual Start Date displays along other project dates .
+   ![Project actual start date highlighted](assets/nwe-project-actual-start-date--highlighted-350x367.png)
 
-   ![](assets/nwe-project-actual-start-date--highlighted-350x367.png)
+   The **Actual Start Date** displays along other project dates.
 
 

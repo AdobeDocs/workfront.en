@@ -3,16 +3,22 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Share a filter, view, or grouping
 description: You can share filters, views, and groupings that you have access to view with other users.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Share a filter, view, or grouping
 
 <!-- Audited: 11/2024 -->
 
-<!--(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
-(NOTE: This is linked from the TOC article in WF Basics > permissions section)-->
+<!--
+(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
+(NOTE: This is linked from the TOC article in WF Basics > permissions section)
+-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 Your Adobe Workfront administrator grants users access to view or edit objects when they assign access levels. For more information about granting access to objects, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -161,7 +167,7 @@ Sharing filters, views, and groupings in the legacy interface is identical.
 
 1. Complete either of the following, depending on who you want to share with:
 
-   **To share with individual users, teams, roles, groups, or companies:** In the provided field, begin typing the name of the user, team, role, group, or company you want to share with, then click the name when it appears in the drop-down list.  
+   **To share with individual users, teams, roles, groups, or companies:** In the provided field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share with, then click the name when it appears in the drop-down list.  
    Repeat this process to share access with multiple users, teams, roles, groups, or companies.
 
       >[!TIP]

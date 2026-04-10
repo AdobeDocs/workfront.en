@@ -1,30 +1,35 @@
 ---
 title: Get Started with the Adobe Workfront Planning Designer
-description: Using the Adobe Planning Designer, you can generate a new workspace, complete with record types and fields in Workfront Planning, add objects to a workspace, or view change history on records. 
+description: You can use the Adobe Planning Designer powered by AI to configure your workspaces and data structures with ease. The Planning Designer supports everything from creating and configuring workspaces to defining fields and formulas, managing records, reviewing change history and building custom views. Whether used directly or through the AI Assistant, the Planning Designer provides a flexible, powerful environment for building and maintaining structured, connected information.
 recommendations: noDisplay, noCatalog
-hidefromtoc: yes
-hide: yes
----
-
-<!--add these at release to the metadata:
-
 author: Alina, Becky
 feature: Workfront Planning
-role: User, Admin -->
-
+role: User, Admin
+exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+---
 # Get started with the Adobe Workfront Planning Designer
 
-{{planning-important-intro}}
-
-You can use the Adobe Planning Designer powered by AI to generate a new workspace, add objects to a workspace (record types, records, views, or fields), or view change history on records.
+<!--remove the Beta tags in the screen shots on this page when this is released to GA - maybe March 2, 2026-->
 
 >[!IMPORTANT]
 >
 >The Planning Designer is currently only available for users participating in the Closed Beta program.
+>
+>The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>
+>For a list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+> 
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+You can use the Adobe Planning Designer powered by AI to configure your workspaces and data structures with ease. The Planning Designer supports everything from creating and configuring workspaces to defining fields and formulas, managing records, reviewing change history and building custom views. 
+
+Whether used directly or through the AI Assistant, the Planning Designer provides a flexible, powerful environment for building and maintaining structured, connected information.
 
 For information about Workfront Planning, see the following articles:
 
-* [General information about Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md)
+* [General information and article index for Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md)
 * [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 * [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md)
 
@@ -64,7 +69,7 @@ For information about Workfront Planning, see the following articles:
 
 +++
 
-## Enrolling in the Closed Beta program for the Planning Designer
+## Enroll in the Closed Beta program for the Planning Designer
 
 Currently, you can request to participate in the Closed Beta program for the Planning Designer by sending us an email to sargism@adobe.com.
 
@@ -74,9 +79,25 @@ After we receive the email, our Engineering team will turn on the Planning Desig
 >
 >Your company must first accept the AI Assistant agreement before the Planning Designer is available in your system. 
 
+## Submit feedback about the Planning Designer
+
+You can submit feedback about the Planning Designer during the beta program. 
+
+1. Log in to Workfront, then click the **Main Menu** icon ![Lines main menu](assets/lines-main-menu.png) in the upper-left corner, then click **Planning**. 
+
+    The **Planning** area opens. 
+
+1. Click **Create with AI**. <!--update this tag name when they change it--> 
+
+    The **Planning Designer** window opens.
+
+1. Click **Submit feedback here** at the bottom of the page.
+1. Add your feedback in the space provided, then click **Submit**.
+    Your feedback is submitted to the Engineering and Product teams. 
+
 ## Considerations about the Planning Designer
 
-* In order to use the Planning Designer, you first need to turn on the AI Assistant for your organization. The following must be in place for the AI Assistant to be available to everyone in your organization:
+* To use the Planning Designer, you first need to turn on the AI Assistant for your organization. The following must be in place for the AI Assistant to be available to everyone in your organization:
 
     * Workfront must make the AI Assistant available for your organization.
 
@@ -87,7 +108,7 @@ After we receive the email, our Engineering team will turn on the Planning Desig
     * The Workfront administrator must accept the AI Assistant agreement, and then turn on the AI Assistant for all other users.
 
         For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md). 
-* After your System Administrator turned on the AI Assistant for your organization, the Planning Assistant is available for all users, by default, if it has been made available for your organization.
+* After your System Administrator turned on the AI Assistant for your organization, the Planning Designer is available for all users, by default, if it has been made available for your organization.
 * Actions performed by the Planning Designer can also be performed by the AI Assistant, when you use it in the Planning area.
 * The actions performed by the AI Assistant in the Planning area or those performed by the Planning Designer are in the context of your Workfront Planning permissions and your Workfront access level. 
 
@@ -112,6 +133,8 @@ You can use either the Planning Designer or the AI Assistant to perform any of t
 
 * Create and configure workspaces 
 
+<!--On March 2: * Edit workspaces-->
+
 * Create record types, including defining and adding global record types to workspaces
 
 * Design fields or formula fields 
@@ -134,7 +157,7 @@ You can use either the Planning Designer or the AI Assistant to perform any of t
 
     >[!IMPORTANT]
     >
-    >Although we support .XLSX and .CSV file types, they cannot be used for large-scale record import through the Planning Designer.
+    >Although we support .XLSX file types, they cannot be used for large-scale record import through the Planning Designer.
     >If you need to import a substantial number of records at this time, we recommend that you do so by using the manual capabilities available in Planning.
     >
     >For more information, see [Create records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md).
@@ -149,13 +172,13 @@ You can create or update objects in Workfront Planning either by using the Plann
 
 1. Log in to Workfront, then click the **Main Menu** icon ![Lines main menu](assets/lines-main-menu.png) in the upper-left corner, then click **Planning**. 
 
-    The **Planning** area opens. 
+    The **Planning** area opens. <!--update screen shot when they change the name of the button-->
 
     ![Design with AI button on the Workspaces page](assets/design-with-ai-button-on-workspaces-page.png)
 
-1. Click **Design with AI**. 
+1. Click **Create with AI** or click **Create workspace**, then use the prompt window at the top to indicate what kind of workspace you'd like to create. <!--update this when they change it to Generate with AI--> 
 
-    The **Planning Designer** window opens.
+    The **Planning Designer** window opens. <!--remove the Beta tag here when this removes from Beta-->
 
     ![Planning Designer window](assets/planning-designer-window.png)
 
@@ -199,7 +222,10 @@ You can create or update objects in Workfront Planning either by using the Plann
 1. (Optional) Click the **Show or hide preview screen** icon ![Hide or show preview screen icon](assets/hide-show-preview-screen-in-planning-designer.png) to open or close the preview screen on the right.
 1. Click the **Open workspace in new tab icon** ![Open workspace in new tab icon](assets/open-workspace-on-new-tab-icon.png) to open the workspace you're updating in a new tab. 
 1. Click the **Close** icon **X** to close the Planning Designer and open the Workspaces area. 
-1. Open the  workspace you edited using the Planning Designer and make further changes to its objects.
+1. (Optional) To edit a workspace, do one of the following:
+
+    * Open the workspace and manually make changes to it. For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
+    * Click **Edit with AI**. This opens the Planning Designer. Repeat the steps above to use AI and make further changes to the workspace.
 
 ## Turn off the Planing Designer for your organization
 
@@ -210,15 +236,9 @@ To turn it off:
 1. Log in to Workfront as a System Administrator. 
 1. Click **Main Menu** ![Main menu icon](assets/main-menu-shell.png) in the upper-left corner of the screen, then click **Setup**.
 1. Click **System** >  in the left panel, then go to the **AI preferences** area.
-1. Turn off the **Planning Designer** setting. <!--add new screen shot with info icon-->
+1. Turn off the **Planning Onboarding** setting. <!--add new screen shot with info icon and new name of the toggle; ensure you don't show the AI Reviewer if it is not in Prod yet-->
 
     ![Planning Designer setting in System Preferences](assets/planning-designer-toggle-in-system-preferences.png) 
 1. Click **Save**.
 
-    This removes the Planning Designer for all users in the system. 
-
-
-
-
-
-
+    This removes the Planning Designer for all users in the system.

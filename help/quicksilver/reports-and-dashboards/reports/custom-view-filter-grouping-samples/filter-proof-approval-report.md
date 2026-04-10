@@ -4,9 +4,11 @@ product-area: reporting;user-management
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: 'Filter: Proof Approval Report to Omit Previous Proof Versions'
 description: On a Proof Approval report, you can use the Is Current Document Version filter to include only the current versions of proofs waiting for your approval.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e844d3ed-75ee-4a0f-a28c-a3d22f203502
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Filter: Proof Approval report to omit previous proof versions
 

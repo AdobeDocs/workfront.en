@@ -1,12 +1,12 @@
 ---
-title: Configurable Access to Functionality for Each Object Type
+title: Configurable Access to Functionality for Each Object Type (Legacy)
 description: This article explains what you can allow as an Adobe Workfront administrator for each object type, in each access level. It also explains what the default configuration is for each type of access level.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
 ---
-# Configurable access to functionality for each object type
+# Configurable access to functionality for each object type (Legacy)
 
 >[!NOTE]
 >

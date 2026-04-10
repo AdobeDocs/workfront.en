@@ -4,7 +4,7 @@ description: First Quarter 2026 Reporting enhancements
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-
+exl-id: 326ca4c6-f5d6-4060-9e2b-712d8bcd2ff1
 ---
 # First Quarter 2026 Reporting enhancements
 
@@ -22,13 +22,14 @@ For a list of all changes available at this point in the First Quarter 2026 rele
 >Production fast release: January 14, 2026 
 >Production for everyone: January 15, 2026 
 
-We have made the following updates for currency fields:
+We have made the following updates for native currency fields:
 
 * When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. 
 
 * When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.
 
 * When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields.
+
 
 
 ## Quick search table results in Canvas Dashboards
@@ -163,7 +164,3 @@ To avoid loading time delays and improve overall performance in Canvas Dashboard
 * Distance from the report's base object: 10 limit
 * Columns on a table view: 25 limit
 * Dashboard-level filter prompts: 10 limit
-
-
-
-

@@ -4,9 +4,11 @@ product-area: reporting;dashboards
 navigation-topic: report-usage
 title: Understand how to organize reports on a dashboard
 description: You can see whether a report is added to a dashboard in Adobe Workfront. This might be useful when deciding which reports you can keep and which can be deleted from the system. If reports are on dashboards, users might still be relying on them. We recommend not deleting reports that are listed on dashboards that users are using. For more information about adding reports to dashboards, see the article Add a report to a dashboard.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Understand how&nbsp;to organize reports on a dashboard
 

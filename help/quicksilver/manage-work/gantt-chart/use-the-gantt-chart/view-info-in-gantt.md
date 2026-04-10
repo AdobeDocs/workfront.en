@@ -5,6 +5,8 @@ description: The Adobe Workfront task and project [!UICONTROL Gantt Charts] disp
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View information in the  [!UICONTROL Gantt Chart]
 
@@ -44,7 +46,8 @@ For more detail about the information in this table, see [Access requirements in
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -68,7 +71,8 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
    <td> <p>[!UICONTROL View] or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Locate the  [!UICONTROL Gantt Chart]
 

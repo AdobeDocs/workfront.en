@@ -6,6 +6,8 @@ description: You can update the status of an issue to inform others about where 
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Update issue status
 
@@ -46,7 +48,8 @@ You can update the status of an issue to inform others about where the issue is 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,7 +75,8 @@ You can update the status of an issue to inform others about where the issue is 
    <td> <p>Manage permissions to the issue</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Issue statuses
 
@@ -116,13 +120,13 @@ To manually update the issue status in the issue header:
 
    Click inside the bubble in the header of the issue to enter a percentage.
 
-   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+   ![Update task percent complete in header](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 1. (Optional) Do any of the following to provide additional information about the update:
 
    * To add a note about the update, go to the **Updates** section and click **New comment**, then type a note.
 
-     ![](assets/nwe-issue-update-stream-message-box-350x125.png)
+     ![Issue update stream message box](assets/nwe-issue-update-stream-message-box-350x125.png)
 
    * To notify certain users about the update, type their names in the **Tag people or teams** field that appears when you type a comment. For more information, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md). 
    * To update the Commit Date of the issue, click **Issue Details**, then edit the **Commit Date** field. For information, see [Edit issues](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).  
@@ -134,14 +138,15 @@ To manually update the issue status in the issue header:
 
 
 
-<!--Old instructions, in old commenting: 
+<!--
+Old instructions, in old commenting: 
 
 When you are updating an issue status, you can also add an explanation about the new status and change other issue information such as the commit date.
 
 1. Go to an issue that you are assigned to for which you want to update the status.
 1. Click the **Status** field in the issue header and select a new status.
 
-   ![](assets/nwe-issue-status-expanded-in-header-350x370.png)
+   ![Issue status expanded in header](assets/nwe-issue-status-expanded-in-header-350x370.png)
 
 1. To provide a visual indication of issue completion, drag or double-click the bubble under **Percent Complete** in the header of the issue.
 
@@ -149,7 +154,7 @@ When you are updating an issue status, you can also add an explanation about the
 
    Click inside the bubble in the header of the issue to enter a percentage.
 
-   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+   ![Update task percent in header](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 -->
 

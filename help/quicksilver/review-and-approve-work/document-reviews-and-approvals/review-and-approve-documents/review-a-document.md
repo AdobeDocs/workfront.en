@@ -3,9 +3,11 @@ product-area: projects
 navigation-topic: approvals
 title: Review a document in Workfront
 description: As a reviewer, you can preview a document that has been submitted to you for review.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Review a document in Workfront
 
@@ -103,6 +105,6 @@ To review a document:
 
 1. To record that you have completed your review, click **Complete review**.
 
-<!--## Review a document from the Frame.io viewer
+## Review a document from the Frame.io viewer
 
-To review a document from the Frame.io viewer, your Workfront instance must be integrated with Frame.io. For more information, see the [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->
+To review a document from the Frame.io viewer, your Workfront instance must be integrated with Frame.io. For more information, see the [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).

@@ -8,6 +8,8 @@ description: Project metrics give you a visualization of what is happening in a 
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Understand project metrics
 
@@ -45,7 +47,8 @@ Project metrics give you a general view in chart format about how a project is p
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -69,7 +72,8 @@ Project metrics give you a general view in chart format about how a project is p
    <td> <p>View permissions to a project</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Prerequisites
 
@@ -95,11 +99,13 @@ You can also drill in to each chart to look more closely at tasks or issues in a
 
 To learn more about looking at these tasks or issues, see [View Metrics details](#view-metrics-details).
 
-<!--this was deprecated: 
+<!--
+this was deprecated: 
 >[!TIP]
 >
 >To see metrics at a higher level for a group of projects within a program, portfolio, etc., navigate to the Enhanced analytics area.  
->To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).-->
+>To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
+-->
 
 ## Project KPIs
 

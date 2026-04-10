@@ -3,9 +3,11 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Delete or Archive a Card from a Board
 description: When you delete a card from a board, it is permanently deleted and can't be restored. Archiving a card sends it to the archive and you can restore it to the board later.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Delete or archive a card from a board
 

@@ -7,6 +7,8 @@ description: You can configure what information displays in both the Task List G
 author: Alina
 feature: Work Management
 exl-id: 465365a2-d94b-47b6-a393-16770fca2714
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Configure how information displays on the [!UICONTROL Gantt Chart]
 
@@ -49,7 +51,8 @@ For more detail about the information in this table, see [Access requirements in
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -75,7 +78,8 @@ For more detail about the information in this table, see [Access requirements in
    <td> <p>[!UICONTROL View] or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Understand Display Options
 

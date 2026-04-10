@@ -4,9 +4,11 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Condition operators in calculated custom expressions
 description: You can use condition operators or modifiers when building calculated custom data in Adobe Workfront when using text mode.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Condition operators in calculated custom fields
 

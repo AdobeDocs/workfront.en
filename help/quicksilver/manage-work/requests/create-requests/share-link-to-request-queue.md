@@ -1,10 +1,11 @@
 ---
 title: Share a Link to a Request Queue
 description: You can share a link to a request queue, a topic group, or a queue topic as you are submitting the request.
-author: Becky
-draft: Probably
+author: Alina
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Share a link to a request queue
 

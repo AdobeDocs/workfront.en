@@ -3,9 +3,11 @@ product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: Adobe Unified Experience FAQ
 description: A few features are different between [!DNL Workfront] and Adobe Experience Cloud, and you might have some questions as your [!DNL Workfront] instance is migrated to the unified experience.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # [!DNL Adobe Unified Experience] FAQ
 
@@ -53,10 +55,7 @@ For information about the [!DNL Admin Console], review these articles:
 
 ### What do I as a customer need to do to facilitate the migration?
 
-Existing customers will be contacted to schedule migrations. The migration team support colleagues will walk customers through the process, advise on [!DNL Admin Console] setup, and provide links to documentation needed to make the move as simple and hassle-free as possible.
-
-* [[!DNL Adobe Workfront] Support overview](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/overview)
-* [[!DNL Adobe Business Platform] and [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq)
+Existing customers will be contacted to schedule migrations. The migration team support colleagues will walk customers through the process, advise on [!DNL Admin Console] setup, and provide links to documentation needed to make the move as simple and hassle-free as possible. Review the [[!DNL Adobe Business Platform] and [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq) for more information.
 
 ### How are you handling [!DNL Adobe Admin Console] for companies that already have this enabled for federated IDs differently than [!DNL Workfront] SSO is set up?
 

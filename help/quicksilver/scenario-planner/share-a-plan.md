@@ -7,6 +7,8 @@ description: You can share a plan that you created in the Adobe Workfront Scenar
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Share a plan in the [!DNL Scenario Planner]
 
@@ -56,7 +58,8 @@ For information about Workfront access requirements, see [Access requirements to
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -91,7 +94,8 @@ For information about Workfront access requirements, see [Access requirements to
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Prerequisites
 
@@ -215,7 +219,7 @@ For information about project permissions, see [Share a project in [!DNL Adobe W
 
    Or
 
-   If you selected several plans to share them in bulk, click the **[!UICONTROL Share]** icon ![](assets/share-icon-26x26.png) at the top of the list of plans to open the [!UICONTROL Plan] access box.
+   If you selected several plans to share them in bulk, click the **[!UICONTROL Share]** icon ![Share icon](assets/share-icon-26x26.png) at the top of the list of plans to open the [!UICONTROL Plan] access box.
 
    >[!TIP]
    >

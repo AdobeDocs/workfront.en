@@ -4,9 +4,11 @@ product-area: reporting
 navigation-topic: using-built-in-reports
 title: Overview of the Resource Utilization report
 description: Utilization reports enable you to view the progress or cost of one or more projects in a single report.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c85b880a-c4a7-49ed-8118-ef9942a47bc3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 
 # Overview of the Resource Utilization report

@@ -6,6 +6,8 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 
 # Create records
@@ -78,7 +80,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -138,7 +141,8 @@ For more information about Workfront access requirements, see [Access requiremen
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerations when creating records
 
@@ -213,7 +217,8 @@ For more information about Workfront access requirements, see [Access requiremen
     * Multiple records are added to the record type, if you added records using a CSV or Excel spreadsheet. 
     * A new request is added in the Workfront's Requests area, if you added the request by submitting a request form. 
 
-<!-- this is not possible anymore: 
+<!--
+ this is not possible anymore: 
 
 ## Create records by connecting them from another application
 
@@ -532,11 +537,13 @@ Click its name to open the details page and add information there.
 
 ## Create records by submitting a request form to a record type
 
-After someone creates a request form for a record type and shares a link to it with you, you can submit a request which creates a record for that record type. 
+After someone creates a request form for a record type and either publishes it to the Requests area or shares a link to the request form with you, you can submit a request which creates a record for that record type. 
 
 For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 Both Workfront users and users external to your organization can submit requests to Planning record types and create records, if they have a link to the request form.
+
+Only Workfront users can add requests that create records from the Requests area of Workfront. 
 
 For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
 

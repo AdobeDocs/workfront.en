@@ -6,6 +6,8 @@ description: You can create predecessor relationships in multiple ways in Adobe 
 author: Alina
 feature: Work Management
 exl-id: 38ea13a5-ab95-4617-a47f-9dde5f752fb4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create predecessor relationships by chaining tasks
 
@@ -47,7 +49,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -71,7 +74,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>Manage permissions to the tasks and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Chain tasks to create predecessor relationships
 
@@ -79,7 +83,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 1. Click **Tasks** in the left panel.
 1. (Conditional) Select **Autosave** in the upper-right corner of the task list, then select the tasks that you want to chain.
 
-   ![](assets/nwe-autosave-icon-on-highlighted-350x295.png)
+   ![Autosave icon on highlighted](assets/nwe-autosave-icon-on-highlighted-350x295.png)
 
    >[!IMPORTANT]
    >

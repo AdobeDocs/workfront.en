@@ -7,6 +7,8 @@ description: Determining the Critical Path of a project is an automatic way for 
 author: Alina
 feature: Work Management
 exl-id: 9cbc84bf-d02b-4bb7-8d5d-922554d1262e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Overview of the project Critical Path
 
@@ -32,7 +34,7 @@ The following features can impact the Critical Path of a project:
      >When a task's successor date doesn't directly impact the date of their dependent tasks or the project's dates, the successor task isn't on the Critical Path. 
      >
      >
-     >![](assets/successor-not-on-critical-path-350x150.png)     >
+     >![Successor not on critical path](assets/successor-not-on-critical-path-350x150.png)     >
      >
 
    * When a subtask is identified as a Critical Path task, the parent task is also identified as a Critical Path task if the Projected Start Date and parent task's time is the same as that of the subtask.
@@ -75,7 +77,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -102,7 +105,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>View or higher permissions on a task </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## View the Critical Path
 

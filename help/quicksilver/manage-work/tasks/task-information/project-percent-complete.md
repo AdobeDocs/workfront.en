@@ -7,6 +7,8 @@ description: The Percent Complete value of a project is calculated based on eith
 author: Alina
 feature: Work Management
 exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Project Percent Complete overview
 
@@ -48,13 +50,13 @@ Consider the following scenarios:
 
   The Total Planned Hours of the parent represent the sum of all Planned Hours of each of the children. 
 
-  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![Project with tasks percent complete and planned hours](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
 * If the system calculates the percent complete based on the  Duration, the parent task percent complete is calculated using the following formula:
 
   `Parent Task Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/ Total Duration of Parent)*100`
 
-    ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+    ![Project with tasks percent complete and duration calculation](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
   >[!IMPORTANT]
   >
@@ -71,7 +73,7 @@ Depending on what your Workfront or group administrator selected in the Project 
 
   The Total Planned Hours of the project are the sum of the Planned Hours of all of the main tasks on the project. 
 
-  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![Project with tasks percent complete and planned hours calculation](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
   >[!NOTE]
   >
@@ -85,7 +87,7 @@ Depending on what your Workfront or group administrator selected in the Project 
     >
     >The Duration of the Project is the total of all the durations of the main tasks that display a percent complete. For example, a project with a standalone task with a Duration of 2 Days and a parent task with a Duration of 5 Days that have had work completed on them will have a Total Duration of 7 Days, even if the two tasks can start on the same day. 
 
-    ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+    ![Project with tasks percent complete and duration calculation](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
   >[!NOTE]
   >
@@ -95,7 +97,7 @@ Depending on what your Workfront or group administrator selected in the Project 
 
 When using the Duration of the tasks to calculate the percent complete of a project, consider the following example:
 
-![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+![Project with tasks percent complete and duration calculation](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
 The following information is used to calculate the percent complete of the project
 
@@ -115,7 +117,8 @@ Or
 `(((5*0.2)+(2*0.25))/7)*100= 21.43%`
 
 
-<!--drafted, this was the old example:
+<!--
+drafted, this was the old example:
 
 When using the Planned Duration of the tasks to calculate the percent complete of a project, consider the following example:
 

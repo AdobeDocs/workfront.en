@@ -6,6 +6,8 @@ description: You can associate milestones with tasks to indicate when you reach 
 author: Alina
 feature: Work Management
 exl-id: 56410640-fde4-417f-8ea0-f089315476f7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Associate milestones with tasks
 
@@ -46,7 +48,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,7 +76,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Prerequisites
 
@@ -95,7 +99,7 @@ Before you can associate a milestone with a task, the following must exist:
 
 After a milestone path is associated with a project, tasks can be assigned a milestone.
 
-1. Go to a task, then click the **More** icon ![](assets/more-icon.png) to the right of the task name, then **Edit**.
+1. Go to a task, then click the **More** icon ![More icon](assets/more-icon.png) to the right of the task name, then **Edit**.
 
    Tasks and Milestones have a 1:1 relationship. You cannot attach the same milestone to multiple tasks. Each task can be linked to a single milestone, or each milestone can be mapped to one task.
 
@@ -105,8 +109,8 @@ After a milestone path is associated with a project, tasks can be assigned a mil
 
    For information, see [Create or edit views in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md). 
 
-   ![](assets/amwt3.png)
+   ![Status icons](assets/amwt3.png)
 
 1. (Optional) Go to a list of projects, select the **Milestone** view to identify the progress of your milestone tasks.
 
-   ![](assets/milestone-view-project-list.png)
+   ![Milestone view project list](assets/milestone-view-project-list.png)

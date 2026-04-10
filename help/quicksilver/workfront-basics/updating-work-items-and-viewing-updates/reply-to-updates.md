@@ -3,11 +3,13 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Reply to Updates
 description: When someone adds or replies to an update on a work object, their reply appears in the communication thread in the Updates section for the object. You can add a reply to an update or Like it if you have View access to the object.
-author: Nolan and Alina
+author: Courtney and Alina
 feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Reply to updates
 
@@ -85,7 +87,8 @@ For more information, see [Access requirements for Workfront documentation](/hel
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -110,7 +113,8 @@ For more information, see [Access requirements for Workfront documentation](/hel
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Reply to an update or a reply in Workfront
 
@@ -152,14 +156,14 @@ Reply to a comment in the Updates section of an object is similar for most objec
 
 1. (Optional) To view an image in the existing update do one of the following:
 
-   * Click the **Preview** icon ![](assets/previewimageicon-31x31.png) on the image thumbnail to open the full-size image in a new browser tab.
-   * Click the **Download** icon ![](assets/downloadimageicon.png) on the image thumbnail to download the image.
+   * Click the **Preview** icon ![Preview image icon](assets/previewimageicon-31x31.png) on the image thumbnail to open the full-size image in a new browser tab.
+   * Click the **Download** icon ![Download image icon](assets/downloadimageicon.png) on the image thumbnail to download the image.
 
 1. Click **Reply** on the update, then type a reply in the box that appears.
 
    You can see the users who are actively engaged in the conversation or tagged in each reply at the top of that update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-   ![](assets/tagging-transparency-350x192.png)
+   ![Tagging transparency](assets/tagging-transparency-350x192.png)
    
 1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a vertical gray line.
 1. (Optional) Use formatting, emojis, include links, or images as explained in the section "Use Rich Text in a Workfront update" in the article [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

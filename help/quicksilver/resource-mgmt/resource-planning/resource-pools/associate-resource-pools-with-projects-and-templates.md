@@ -6,11 +6,14 @@ description: Resource pools are collections of users what help you manage resour
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Associate resource pools with projects and templates
 
 
-<!-- drafted for bulk editing projects: keep this in yellow till this releases to ALL customers - May 1, 2023
+<!--
+ drafted for bulk editing projects: keep this in yellow till this releases to ALL customers - May 1, 2023
 
 Also - take out all the references to Preview and Prod at prod final
 -->

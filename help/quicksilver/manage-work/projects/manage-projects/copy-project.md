@@ -7,6 +7,8 @@ author: Alina
 feature: Projects, Work Management
 role: User 
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Copy a project
 
@@ -77,7 +79,8 @@ For more detail about the information in this table, see [Access requirements in
 
  +++
 
- <!--Old:
+ <!--
+ Old:
  
  <table style="table-layout:auto"> 
  <col> 
@@ -104,7 +107,12 @@ For more detail about the information in this table, see [Access requirements in
    <td> <p>View permissions or higher to the project</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
+
+## Considerations
+
+* There is a 5-minute processing limit when copying a project. If the project has a large number of documents attached to it and fails to copy, you might need to remove some of the documents and try again.
 
 ## Copy a single project
 

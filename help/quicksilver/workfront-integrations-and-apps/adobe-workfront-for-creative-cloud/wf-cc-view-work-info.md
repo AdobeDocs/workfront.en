@@ -6,6 +6,8 @@ description: You can see information about projects, tasks, issues, and document
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: a53a716f-4faf-4ea7-a4fc-ad8d87634267
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View work item information using the [!DNL Adobe Workfront] plugin
 
@@ -23,7 +25,8 @@ You can see information about projects, tasks, issues, and documents from the fo
  <col> 
  </col> 
  <tbody> 
-  <!--<tr> 
+  <!--
+  <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -32,7 +35,8 @@ You can see information about projects, tasks, issues, and documents from the fo
    <td> 
    <p>Standard</p>
    <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">Additional products</td> 
    <td>You must have an [!DNL Adobe Creative Cloud] license in addition to a [!DNL Workfront] license.</td> 

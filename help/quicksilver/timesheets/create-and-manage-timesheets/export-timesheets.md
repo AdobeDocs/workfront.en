@@ -6,6 +6,8 @@ description: As a people manager or timesheet approver, you might need to downlo
 author: Lisa
 feature: Timesheets
 exl-id: cb5b1c6c-7800-48f4-ae2c-c4007a161a6c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Export a list of timesheets
 
@@ -45,7 +47,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-<!--Old permissions:
+<!--
+Old permissions:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -70,7 +73,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
  </tbody> 
 </table>
 
-*To find out what plan or license type you have, contact your Workfront administrator.-->
+*To find out what plan or license type you have, contact your Workfront administrator.
+-->
 
 ## Export a list of timesheets
 

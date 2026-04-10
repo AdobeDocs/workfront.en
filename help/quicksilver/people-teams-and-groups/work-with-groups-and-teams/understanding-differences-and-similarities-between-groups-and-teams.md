@@ -4,9 +4,11 @@ product-area: user-management;agile-and-teams
 navigation-topic: work-with-groups-and-teams
 title: Groups vs. Teams in Workfront
 description: Groups and teams are collections of users in Adobe Workfront. Learn about the differences and similarities between groups and teams.
-author: Jenny and Becky
+author: Courtney and Becky
 feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Groups vs. teams in Workfront
 

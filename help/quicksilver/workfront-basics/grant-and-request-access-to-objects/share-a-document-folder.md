@@ -6,6 +6,8 @@ description: You can share a folder and its contents from the Documents area.
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Share a document folder
 
@@ -24,7 +26,8 @@ You can share a folder and its contents from the Documents area.
 
 ## Access requirements
 
-<!--drafted for P&P
+<!--
+drafted for P&P
 (I am putting Contributor and higher here because this is what I found in testing. Normally, Review equals Light but I found out that Contributor can also have manage rights to documents and can share them.)
 
 <table style="table-layout:auto"> 
@@ -94,7 +97,7 @@ For more detail about the information in this table, see [Access requirements in
 
    With a Workfront object open, click **Documents** in the left panel. 
 
-1. Select the folder, then click the Share icon ![](assets/share-icon.png) in the toolbar.
+1. Select the folder, then click the Share icon ![Share icon](assets/share-icon.png) in the toolbar.
 
    The folder must be in the top five levels of a folder hierarchy on an object, and cannot be a smart folder.
 
@@ -126,7 +129,7 @@ For more detail about the information in this table, see [Access requirements in
    </table>
 
 1. (Optional) Repeat Steps 3-4 to add other names to the list and configure their options.
-1. (Optional) If you want everyone in the system to be able to view the folder and its contents, click the gear icon ![](assets/gear-icon-settings-with-dn-arrow.jpg) in the upper right corner of the sharing box, then click **Make this visible system-wide.**
+1. (Optional) If you want everyone in the system to be able to view the folder and its contents, click the gear icon ![Gear icon settings with down arrow](assets/gear-icon-settings-with-dn-arrow.jpg) in the upper right corner of the sharing box, then click **Make this visible system-wide.**
 
    If you change your mind, you can, click **Remove system-wide access** (the default option).
 

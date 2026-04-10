@@ -6,6 +6,8 @@ description: Delegating approval requests allows you to assign another user to a
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Delegate approval request
 
@@ -148,7 +150,8 @@ To delegate approvals to another user:
 <!--
    Or
 
-   If your system or group administrator enabled task and issue delegation, click **Edit delegation**, then click **Delegate approvals**.   -->
+   If your system or group administrator enabled task and issue delegation, click **Edit delegation**, then click **Delegate approvals**.
+   -->
 
 1. (Conditional) Do either of the following:
 

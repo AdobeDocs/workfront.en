@@ -22,7 +22,8 @@ These articles explain how you, as an Adobe Workfront administrator, can grant u
 * [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) 
 * [Grant access to issues](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md) 
 * [Grant access to documents](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md) 
-* [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md) 
+* [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+* [Grant access to job roles](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md)
 * [Grant access to teams](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
 * [Grant access to templates](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md) 
 * [Grant access to reports, dashboards, and calendars](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md) 
@@ -31,8 +32,10 @@ These articles explain how you, as an Adobe Workfront administrator, can grant u
 * [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) 
 * [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md) 
 * [Grant access to Scenario Planner](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) 
-* [Grant access to Resource Management](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md) 
+* [Grant access to Resource Management](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+*  [Grant access to rate cards](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
 * [Grant access to Adobe Workfront Goals](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+* [Grant access to brand permissions](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
 
 ## See also
 

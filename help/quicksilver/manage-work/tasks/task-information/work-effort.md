@@ -7,6 +7,8 @@ description: Work Effort overview
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Work Effort overview
 
@@ -32,11 +34,13 @@ As a project manager, you can decide how you want to estimate the amount of work
   </tr> 
   <tr> 
    <td role="rowheader">Work Effort </td> 
-   <td> <p>A manual label that defines whether it takes a user a small, medium, or large amount of daily effort to complete a task. <!--
+   <td> <p>A manual label that defines whether it takes a user a small, medium, or large amount of daily effort to complete a task.
+   <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
       </MadCap:conditionalText>
-     --> </p> <p>Consider the following about Work Effort:</p> 
+     -->
+     </p> <p>Consider the following about Work Effort:</p>
     <ul> 
      <li>This field is available only for tasks with a Simple Duration Type. </li> 
      <li>You can enable the use of this label and define the percentage of working time associated with it at the project level. </li> 
@@ -84,7 +88,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -110,7 +115,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>Manage permissions to a project and its tasks</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerations for using Work Effort
 
@@ -124,15 +130,15 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 ## Enable using Work Effort instead of Planned Hours
 
-1. Go to a project and click the **More** menu ![](assets/more-icon.png), then click **Edit**.  
+1. Go to a project and click the **More** menu ![More icon](assets/more-icon.png), then click **Edit**.  
 1. Click **Task Settings**, then select the option**Use Work Effort to automatically calculate task Planned hours**. This is deselected by default.
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![Work effort on projects](assets/nwe-work-effort-on-projects-350x182.png)
 
    For more information about enabling the use of Work Effort on a project, see the "Tasks Settings" section in the [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md) article. 
 
 1. Click **Tasks** on the left panel , then click the name of a task to access it. 
-1. Click the **More** menu ![](assets/more-icon.png), then click **Edit**. Ensure the task has a Simple Duration Type.
+1. Click the **More** menu ![More icon](assets/more-icon.png), then click **Edit**. Ensure the task has a Simple Duration Type.
 
    >[!TIP]
    >
@@ -140,7 +146,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 1. In the **Overview** area, click the Work Effort drop-down menu to correct the amount of effort needed to complete the task.
 
-   ![](assets/work-effort-on-edit-task-page-350x239.png)
+   ![Work effort on Edit Task page](assets/work-effort-on-edit-task-page-350x239.png)
 
    For more information about updating the Work Effort field on a task, see the following articles:
 

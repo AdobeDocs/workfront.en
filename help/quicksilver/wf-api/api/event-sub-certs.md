@@ -7,10 +7,13 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Configure Client TLS for Event Subscription
 
-<!--Configuring Client TLS for Event Subscription
+<!--
+Configuring Client TLS for Event Subscription
 Steps to Verify Workfront's Client Certificate
 Examples for Server configuration
 NGINX

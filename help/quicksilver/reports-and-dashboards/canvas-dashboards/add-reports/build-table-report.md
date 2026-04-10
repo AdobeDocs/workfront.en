@@ -3,11 +3,16 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Build a table report in a Canvas Dashboard
 description: You can add a table report to a Canvas Dashboard in order to visualize your data in a table format.
-author:  Courtney and Jenny 
+author:  Courtney
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Build a table report in a Canvas Dashboard
+
+{{highlighted-preview}}
+
 
 >[!IMPORTANT]
 >
@@ -88,6 +93,14 @@ There are many configuration options available for building a table report. In t
     1. Enter a report **Name**.
 
     1. Enter a report **Description**.
+
+    1. <span class="preview">(Optional) In the **Run this report with the access rights of** field, begin typing the name of the user whose permissions you want the report to use, then select the user when they appear in the list. When you configure a report to run as another user, all viewers of the dashboard see the same data, regardless of their own access level. If you don't select a user, each viewer sees data based on their own permissions.
+
+        >[!IMPORTANT]
+        >
+        >If the selected user is deactivated or loses access to the relevant workspaces or record types, the report may display incomplete data or fail to render. 
+
+    </span>
 
 1. Follow the steps below to configure the **Build table** section:
 

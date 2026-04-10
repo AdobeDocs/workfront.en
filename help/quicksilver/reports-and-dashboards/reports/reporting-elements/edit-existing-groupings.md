@@ -1,9 +1,11 @@
 ---
 title: Edit existing groupings
 description: Edit existing groupings
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Edit existing groupings
 

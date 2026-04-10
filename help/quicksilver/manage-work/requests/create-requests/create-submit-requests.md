@@ -3,22 +3,20 @@ product-area: requests
 navigation-topic: create-requests
 title: Create and Submit Requests
 description: Planned work is represented in Adobe Workfront by projects and tasks. However, you might work in an environment where unplanned work—in the form of random requests—can come in at any time. Workfront provides a workflow to accommodate this type of environment through the use of Request Queues.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create and submit requests
 
-<!--Audited: 12/2023-->
+<!--Audited: 03/2026-->
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)</p>
-<p>(NOTE: If they come out with templates AND drafts, consider splitting this article to keep Create in one and Working with Drafts and Requests in another??)</p>
 <p>(NOTE: this article is linked from Submitting Workfront Requests from Salesforce) </p>
-</div>
 -->
-
 
 Planned work is represented in Adobe Workfront by projects and tasks. However, you might work in an environment where unplanned work, in the form of requests, can come in at any time. Workfront provides a workflow to accommodate this type of environment through the use of Request Queues. 
 
@@ -31,13 +29,17 @@ You can create a Workfront request in the following ways:
 * From drafts. For information, see [Create requests from drafts](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 * From an existing request, by copying and submitting a copy. For information, see [Copy and submit requests](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
 
-You can create a Workfront Planning request from scratch, to create records in Workfront Planning in the following ways: 
+If your company has purchased Adobe Workfront Planning, you can also create a Workfront Planning request from scratch in the following ways: 
 
 * From a link to a Workfront Planning request form.
 
 * From a Workfront Planning request form in the Requests area of Workfront. 
 
-  Your organization must purchase a Workfront Planning package. For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+Planning requests create records in Workfront Planning. 
+
+For information, see the section [Create requests using a Workfront Planning request form](#create-requests-using-a-workfront-planning-request-form) in this article. 
+
+This article describes how you can create and submit Workfront requests using Workfront request queues. 
 
 ## Access requirements
 
@@ -50,22 +52,19 @@ You can create a Workfront Planning request from scratch, to create records in W
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any </p> </td> 
+   <td> <p>Any Workfront or Workflow package</p>
+   <p>You must have any Adobe Workfront Planning package to create Planning requests</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Contributor or higher</p>
-   <p>Request or higher</p>
+   <td> <p>Workfront Contributor or higher</p>
+   <p>Workfront Request or higher</p>
     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Issues</p>  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> Product</td> 
-   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
@@ -74,6 +73,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 +++
 
 ## Prerequisites for using Request Queues
+
+The information in this section refers to Workfront request queues. For information about Planning request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 A Workfront administrator must create Request Queues and make them available to users before they can use this functionality. A user with a Planner license and with Edit access to Projects and Manage permissions to a specific project can also create Request Queues. 
 
@@ -101,10 +102,12 @@ A Workfront administrator must create the following components of a Request Queu
 
 When you create a request in the Workfront web app, Workfront saves the request as a draft before you submit it. Workfront creates a draft as soon as you select your request queue and start entering information for it.
 
-You can continue submitting the request, or you can complete as much information as you have available and navigate away from it to finish it later. Workfront saves the drafted request that you started. You can find them in:
+You can continue submitting the request, or you can complete as much information as you have available and navigate away from it to finish it later. Workfront saves the drafted request that you started. 
 
-* New requesting experience: The requests list
-* Legacy requesting experience: The Drafts folder
+You can find drafted requests in the following areas of the following requesting experiences:
+
+* New requesting experience: The requests list. Drafts are requests with a status of Draft. 
+* Legacy requesting experience: The Drafts folder of the requests list. 
 
 >[!IMPORTANT]
 >
@@ -113,8 +116,9 @@ You can continue submitting the request, or you can complete as much information
 >* Workfront does not create draft requests when you submit them from a third-party application, like emailing them into Workfront, or creating them using any another application. When you submit a request from outside the Workfront web app the request is saved in  the Submitted section.  
 >* If the structure of a request queue changes, you can no longer access existing drafts. For example, if a queue topic is removed, or a topic group is added, the saved drafts are no longer accessible. 
 >
+>* Drafts are never deleted. They are kept in Workfront until you either submit them and they become submitted requests or you delete them. 
 
-For information about creating requests from existing drafts, see [Create requests from drafts](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). For information about deleting request drafts, see also [Delete a request draft](../../../manage-work/requests/create-requests/delete-request-draft.md).
+For information about creating requests from existing drafts, see [Create requests from drafts](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). For information about deleting request drafts, see also [Delete a submitted request or request draft](../../../manage-work/requests/create-requests/delete-request-draft.md).
 
 To create a request in the Workfront web app: 
 
@@ -122,7 +126,7 @@ To create a request in the Workfront web app:
 
 1. (Optional and conditional) Select the **Switch to new experience** setting in the upper-right of the screen.
 
-1. Click **New Request** in the upper-right corner of the page.
+1. (Conditional) If you are using the legacy requesting experience, click **New request** in the upper-right corner of the page.
 
    >[!TIP]
    >
@@ -134,17 +138,14 @@ To create a request in the Workfront web app:
 1. (Conditional) If you switched to the new experience, select one of the Workfront request queue paths or forms, or click the search bar. 
 
    When you click the search bar, a dropdown appears showing the most recently used queues and forms first. Select one from the list, or begin typing and select the queue or form when it appears.
-   
-   >[!NOTE]
-   >
-   >Consider the following regarding the new requesting experience:
-   >* The list includes both Workfront request queues and Workfront Planning request forms.
-   >* You can filter the list by object type.
-   >* In the new requesting experience, drafts are found in the same list as submitted requests.
+
+    >[!TIP]
+    >
+    >The list includes both Workfront request queues and Workfront Planning request forms
 
 1. (Conditional) If you switched to the new experience, select your topic groups and queue topics and continue updating the form.
 
-    Otherwise, click inside the **Request Type** field and do one of the following:
+    In the legacy experience, click inside the **Request Type** field and do one of the following:
 
    * From the **Recent Paths** section, select a path you used recently to open a request queue. A path includes the request queue, the topic groups, and the queue topic that you submitted to recently. The last three paths display by default.
 
@@ -152,7 +153,7 @@ To create a request in the Workfront web app:
      >
      >Workfront saves a path only when you have actually submitted a request to it. It does not create paths for drafted requests.
 
-     ![](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
+     ![List of recent paths and request queues when entering a new request](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
 
    * From the **Request Queues** section, select a request queue. 
    * Enter a keyword that belongs to a previously accessed path to search for a request queue.
@@ -163,7 +164,7 @@ To create a request in the Workfront web app:
      >
      >When you type a name that contains a special character, the request queue, queue topic, or topic group display even when you omit typing the character.
 
-     ![](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
+     ![Request queue search findings with highlighted results](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
 
      The list of available request queues and recent paths dynamically updates to include only paths that contain the keyword which is highlighted in the results.
 
@@ -184,13 +185,13 @@ To create a request in the Workfront web app:
       </tbody> 
      </table>
 
-   >[!TIP]
-   >
-   >* The first 200 request queues display by default, in alphabetical order. 
-   >* The name of the request queue is the name of the project which has been published as a Help Request Queue. 
-   >* The description of the project configured as the selected request queue displays to the right of the request queue name. 
-   >   
-   >For more information about how to publish a project as a Help Request Queue, see the article [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+    >[!TIP]
+    >
+    >* The first 200 request queues display by default, in alphabetical order. 
+    >* The name of the request queue is the name of the project which has been published as a Help Request Queue. 
+    >* The description of the project configured as the selected request queue displays to the right of the request queue name. 
+    >   
+    >For more information about how to publish a project as a Help Request Queue, see the article [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 1. In the **New request** form, do one of the following:
 
@@ -200,11 +201,11 @@ To create a request in the Workfront web app:
 
      The three most recent drafts from three different queue topics display by default.
 
-     ![](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
+     ![New drafts after new request area was removed](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
 
    * Start entering a new request in the selected queue.
 
-     A new draft automatically saves for you in the Drafts  section  after you start entering information for the new request and you give the request a name in the Subject field.
+     A new draft automatically saves for you in the **Drafts** section  after you start entering information for the new request and you give the request a name in the Subject field.
 
 1. (Optional) If your Request Queue includes Topic Groups, select the name of the Topic Group in the first drop-down field. Otherwise, select a Queue Topic.
 
@@ -213,7 +214,7 @@ To create a request in the Workfront web app:
    >When you hover over a Topic Group or a Queue Topic the Description field displays to the right. This contains additional information about the topic group or queue topic. 
    >
    >
-   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)   
+   >![Show description on queue topic when submitting request](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)   
    >
 
    You can have up to 10 tiers of Topic Groups built into your Request Queue.   
@@ -308,7 +309,9 @@ To create a request in the Workfront web app:
    </table>
 
 1. (Optional) If your Workfront administrator associated a custom form with the Request Queue or with the Queue Topic, specify the fields inside the custom form.   
+
    Custom forms are different for every Workfront instance. 
+
 1. (Optional and conditional) At any point during entering the request, click [!UICONTROL **Discard draft**] if you want to delete the draft that is automatically created. This deletes the draft which cannot be recovered. A confirmation message displays to acknowledge that you are deleting the draft. 
 
 1. (Optional) Click [!UICONTROL **Undo**] on the confirmation message if you want to revert your action and keep the draft.
@@ -321,19 +324,29 @@ To create a request in the Workfront web app:
 
      Click **Close** if you are not quite ready to submit it and you might come back and finish it later. Your request is saved in the Drafts  section and it will be available to you next time you submit a request for this request queue.
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![Submit, close, discard draft button on new request](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
    When you submit the request, the draft automatically deletes and cannot be restored.
 
-   Submitted requests are listed in the **Submitted** section of the Requests area. If you are using the new experience, the Workfront submitted requests display in the **Workfront** tab of the Requests area. 
+   Submitted requests are listed in the **Submitted** section of the Requests area, when using the legacy experience. If you are using the new experience, the Workfront submitted requests display in the requests list. 
+
+   >[!NOTE]
+   >
+   >Consider the following regarding the requests list in the new requesting experience:
+   >
+   >* You can filter the list by object type.
+   >
+   >* Drafts are found in the same list as submitted requests. 
 
    For information about addressing incoming requests, see the article [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-   For information about locating submitted or drafted requests, also see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+   For information about locating submitted or drafted requests, also see [View submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
 ## Create requests from outside of Workfront
 
-You can share a direct link to a request queue when you submit a new request, and embed it in other applications. Users who access this link from the web or from other applications must also be logged in with an active Workfront account to be able to access this queue and submit requests to it. For information, see [Share a link to a request queue](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
+You can share a direct link to a request queue when you submit a new request, and embed it in other applications. Users who access this link from the web or from other applications must also be logged in with an active Workfront account to be able to access this queue and submit requests to it. 
+
+For information, see [Share a link to a request queue](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
 ## Create requests by emailing into Workfront
 
@@ -376,4 +389,4 @@ For information, see the following articles:
 
 ## Locate submitted requests
 
-For information about locating submitted or drafted requests, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+For information about locating submitted or drafted requests, see [View submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md).

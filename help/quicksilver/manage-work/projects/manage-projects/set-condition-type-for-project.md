@@ -6,6 +6,8 @@ description: As a project manager, you can determine how the Condition of a proj
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Set the Condition Type of a project
 
@@ -48,7 +50,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,7 +78,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
     </ul> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Set the Condition Type for a project
 
@@ -85,7 +89,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    * Click the **More** menu ![More menu](assets/qs-more-menu.png) to the right of the project name, then click **Edit**.  
    * Click **Project Details** in the left panel.
 
-   ![](assets/update-condition-type-nwe-350x108.png)
+   ![Update condition type](assets/update-condition-type-nwe-350x108.png)
 
 1. In the **Condition Type** field, choose one of the following:
 

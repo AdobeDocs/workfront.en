@@ -6,6 +6,8 @@ description: You can close a goal when you want to indicate that you have comple
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Close and reopen goals in Adobe Workfront Goals
 
@@ -37,7 +39,8 @@ You can reopen goals that have been closed when they become relevant again.
  <tr>
   <td> <p>Adobe Workfront package</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTE</b></p>
+<p>Speak with your Workfront representative if you have a different Workfront package.</p>
    </td> 
   </tr> 
  <tr>
@@ -70,7 +73,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -121,7 +125,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Considerations when closing or reopening goals
 

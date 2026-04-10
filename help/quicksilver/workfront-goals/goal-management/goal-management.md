@@ -8,6 +8,8 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Goal management in Adobe Workfront Goals: article index
 
@@ -21,7 +23,8 @@ exl-id: cba07613-9912-4929-bda4-50f503faa3e1
 >
 >For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >

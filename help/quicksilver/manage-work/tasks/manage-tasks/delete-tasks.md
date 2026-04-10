@@ -6,6 +6,8 @@ description: You can delete tasks that might be duplicates, or have been created
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Delete tasks
 
@@ -46,7 +48,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 +++
 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -69,7 +72,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> <p>When you create a task you automatically receive Manage permissions to the task</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Understand the process of deleting tasks
 
@@ -168,9 +172,9 @@ Consider the following:
 1. Click the project name that contains the task you want to delete.
 1. Click **Tasks** in he left panel. 
 1. Click the name of the task you want to delete.
-1. Click the **More** icon ![](assets/qs-more-menu.png)in the upper-right corner.
+1. Click the **More** icon ![More menu](assets/qs-more-menu.png)in the upper-right corner.
 
-   ![](assets/delete-tasks-task-level-nwe-350x225.png)
+   ![Delete tasks at the task level](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. Click **Delete Task**.
 1. If the deletion is allowed, click **Delete**.

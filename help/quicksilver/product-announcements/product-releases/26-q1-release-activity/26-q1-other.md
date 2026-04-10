@@ -4,13 +4,21 @@ description: Other enhancements during the First Quarter 2026 release time frame
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-
+exl-id: 42fe3f53-6f83-4769-aaa6-953875cdfb7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Other enhancements during the First Quarter 2026 release timeframe
 
 This page describes enhancements made with the First Quarter 2026 release to the Preview environment. These enhancements will be made available in the Production environment as noted.
 
 For a list of all changes available at this point in the First Quarter 2026 release cycle, see [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Event subscriptions now support filter froups
+
+Event subscriptions now support filter groups along with standalone filters to support nested logical conditions. The public docs need to be updated to reflect the new changes.
+
+For more information see [Using filter groups](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups) in the article Event subscriptions API.
 
 
 ## Selection limits on multi-select fields

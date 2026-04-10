@@ -6,6 +6,8 @@ description: You can schedule resources for a single project to indicate what wo
 author: Alina, Lisa
 feature: Work Management
 exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Schedule resources for a project
 
@@ -51,7 +53,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 You must have the following access to perform the steps in this article:
 
@@ -82,7 +85,8 @@ You must have the following access to perform the steps in this article:
    <td> <p>Contribute permissions or higher to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Schedule resources for a project
 

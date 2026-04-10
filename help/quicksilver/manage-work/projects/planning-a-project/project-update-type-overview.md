@@ -29,7 +29,7 @@ For information about how to update the project's Update Type, see [Select the p
 
   When you update a task or the project and trigger a timeline recalculation, all available dates are immediately displayed, allowing you to continue working. On projects with more than 100 tasks, dates that require longer calculations are dimmed.
 
-  ![](assets/dates-dimmed-when-insline-editing-350x146.png)
+  ![Dates dimmed when inline editing](assets/dates-dimmed-when-insline-editing-350x146.png)
 
   This indicates that the recalculation is not yet finished, and the dates are subject to change. 
 

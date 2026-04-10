@@ -93,7 +93,9 @@ You can share the following objects in Workfront with other users:
 
 ## Share limitations
 
-You can share an object with up to 100 entities (users, teams, groups, job roles, companies). We recommend that you share objects with groups, teams, or companies rather than with individual users to avoid this limitation.
+* You can share an object with up to 100 entities (users, teams, groups, job roles, companies). We recommend that you share objects with groups, teams, or companies rather than with individual users to avoid this limitation.
+* A user whose access level doesn't allow access to financial data cannot grant access that would allow others to view financial data. This includes giving access to projects that would show financial data, or modifying an access level to allow viewing financial data.
+
 
 ## Share permissions for objects
 

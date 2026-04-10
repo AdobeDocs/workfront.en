@@ -6,6 +6,8 @@ description: Recalculating Timelines allows managers to see how different factor
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Recalculate project timelines
 
@@ -52,7 +54,8 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -76,7 +79,8 @@ For more detail about the information in this table, see [Access requirements in
    <td> <p>Manage permissions to a project</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Automatic recalculation
 
@@ -90,7 +94,7 @@ By default, project timelines are automatically recalculated daily when the proj
 > An example of a complex project might be a project with multiple dependencies, large number of tasks, several cross-project predecessors, or multiple task indentations. 
 > Workfront places a warning to the right of the project name on the project page to advise users that the project timeline must be recalculated manually. Only users with Manage permissions to the project can manually recalculate the timeline. 
 >
->   ![](assets/project-warning-to-manually-recalculate-timeline.png)
+>   ![Project warning to recalculate timeline](assets/project-warning-to-manually-recalculate-timeline.png)
 >
 
 * [Automatic recalculation of project timelines](#automatic-recalculation-of-project-timelines) 
@@ -177,7 +181,7 @@ You can recalculate the timeline of a project in Workfront from the project page
 
    Go to a project list or report and select one or several projects, then click the **More** icon ![More menu](assets/qs-more-menu.png) at the top of the list.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Recalculate expressions timeline with finances drop-down](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >

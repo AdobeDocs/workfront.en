@@ -6,6 +6,8 @@ description: Save a project as a templateSave as template" at the project level,
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Save a project as a template
 
@@ -60,7 +62,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +89,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    <td> <p>View or higher permissions to a project </p> <p>You obtain Manage permissions to the template after you save the project as a template</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Save a project as a template
 
@@ -129,17 +133,17 @@ Saving a project as a template differs in the Production and the Preview environ
 
 1. Click **Manage Forms** to remove or reorder the forms. For information about how to remove and reorder custom forms on the template, see [Custom forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
-   ![](assets/save-as-template-first-step-350x159.png)
+   ![Save as template first step](assets/save-as-template-first-step-350x159.png)
 
 1. Click **Next Step.**
 1. In the **Options** section, select the checkbox beside any information you want to clear from the template.
 
-   ![](assets/save-as-template-options-step-350x109.png)
+   ![Save as template options step](assets/save-as-template-options-step-350x109.png)
 
 1. Click **Next Step.**
 1. In the **Exclude** section, select any tasks that you want to exclude from the project.
 
-   ![](assets/save-as-template-exclude-350x205.png)
+   ![Save as template exclude](assets/save-as-template-exclude-350x205.png)
 
 1. Click **Finish and Save Template.**
 

@@ -8,6 +8,8 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create an approval process for work items
 
@@ -69,7 +71,8 @@ For information about approvals associated with documents or proofs, see the fol
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,7 +98,8 @@ For information about approvals associated with documents or proofs, see the fol
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 
 ## Create a system-level or group-level global approval process for work items
@@ -108,7 +112,8 @@ For more detail about the information in this table, see [Access requirements in
 
    If you are creating a group-level approval process, click **Groups** ![Groups icon](assets/groups-icon.png), click the name of the group, then click **Approvals**.
 
-   <!--hidden for the new tab redesign - August 2023: 
+   <!--
+   hidden for the new tab redesign - August 2023: 
    ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)
    -->
 

@@ -6,6 +6,8 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 
 # Adobe Workfront Planning release activity for 2023
@@ -138,7 +140,8 @@ After you establish the connection, the following functionality is available wit
 
 * Planning capability users can view the name of the connected assets, as well as the values of the connected fields in the planning capabilities.
 
-<!--removed per PM, for now: 
+<!--
+removed per PM, for now: 
 * An Experience Manager Assets record type is automatically created in Planning after you establish the connection. Connected assets are visible in the table and timeline views of this new record type.  
 -->
 

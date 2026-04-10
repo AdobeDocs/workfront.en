@@ -5,10 +5,12 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Blueprints Overview
 description: Blueprints are sets of Workfront objects that address common use cases in Workfront. You can download and install a blueprint, and then configure the objects for your specific use case. 
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Blueprints overview
 

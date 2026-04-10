@@ -7,6 +7,8 @@ description: A Portfolio is a collection of projects that have unifying characte
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: b340501e-1190-415e-aa96-5aad177c4b7b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Understand portfolio methodology
 
@@ -63,7 +65,8 @@ This article contains general information about portfolios in Workfront.
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -91,7 +94,8 @@ This article contains general information about portfolios in Workfront.
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Understand the [!DNL Adobe Workfront] portfolio methodology
 

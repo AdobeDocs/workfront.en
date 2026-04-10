@@ -3,9 +3,11 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Filter a Canvas Dashboard
 description: You can apply a filter to a Canvas Dashboard after it's been created.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Filter a Canvas Dashboard
 
@@ -173,17 +175,3 @@ All users with access to a dashboard can apply a dashboard prompt to a Canvas Da
 1. Click the **Close** icon ![Close icon](assets/close-icon.png) in the upper-right corner to hide the panel.
 
 
-## Filter a dashboard by currency type
-
-You can toggle between different currency types at the dashboard level. Reports that contain currency fields will update to reflect the selected currency type.
-
->[!NOTE]
->
->Currency fields can be locked at the report level. If a currency field is locked, the currency type for that report will not change when you change the currency type for the dashboard.
-
-To change the currency type for the dashboard,
-
-1. Click the currency drop-down menu in the upper-right corner of the dashboard details page.
-1. Select the desired currency type from the list.
-
-    ![change currency drop down](assets/filter-by-currency.png)

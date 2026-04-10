@@ -6,6 +6,8 @@ description: You can use smart assignments to identify who the best user is to c
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Make smart assignments
 
@@ -66,10 +68,12 @@ Smart assignments are available in most locations where you can make assignments
    
 1. Place your cursor in the Assignments field, and wait for two seconds. 
 
-   <!--For issues, the smart assignments display in the following sections: 
+   <!--
+   For issues, the smart assignments display in the following sections: 
       * **Users and teams**
       * **Job roles**
-        ![](assets/smart-assignments-issue-header.png)-->
+        ![Smart assignments issue header](assets/smart-assignments-issue-header.png)
+        -->
 
    Smart assignments display in the following sections<!--, depending on which phase of the algorithm's calculation identified the assignments-->: 
 

@@ -6,6 +6,8 @@ description: You can update a task's status to inform others about where the tas
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Update task status
 
@@ -50,7 +52,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,7 +79,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>Manage permissions to the task</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerations about updating the Status of tasks
 
@@ -107,7 +111,7 @@ To manually update the task status in the task header:
 
    Double-click inside the **Percent Complete** bubble to manually enter a new percentage.
 
-   ![](assets/percent-complete-status-widgets-task-header.png)
+   ![Percent complete status widgets task header](assets/percent-complete-status-widgets-task-header.png)
 
 1. (Optional) Do any of the following to provide additional information about the update:
 
@@ -123,7 +127,8 @@ To manually update the task status in the task header:
    >
    >  Only task assignees can update the Commit Date.
 
-<!--old functionality in old commenting: 
+<!--
+old functionality in old commenting: 
 
 1. Go to a task that you are assigned to for which you want to update the status.
 1. Click the **Status** field in the task header and select a new status. 
@@ -136,7 +141,8 @@ To manually update the task status in the task header:
    
    * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
    * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
-     ![](assets/drag-the-progress-bar-350x155.png)-->
+     ![Drag the progress bar]](assets/drag-the-progress-bar-350x155.png)
+     -->
 
 ## Automatically update task status
 

@@ -3,9 +3,11 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Arrange reports in a Canvas Dashboard
 description: You can arrange how reports display in a Canvas dashbaord after they've been added to one.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 60f68ebd-6b98-476d-84b6-a6a2dce90d93
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Arrange reports in a Canvas Dashboard
 

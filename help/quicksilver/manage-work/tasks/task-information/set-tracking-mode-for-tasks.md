@@ -6,6 +6,8 @@ description: The Tracking Mode of a task determines how the task Progress Status
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Set Tracking Mode for tasks
 
@@ -49,7 +51,8 @@ For information about Tracking Mode on tasks, see [Task Tracking Mode overview](
 
 +++
 
-<!--old: 
+<!--
+old: 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -81,13 +84,13 @@ For information about Tracking Mode on tasks, see [Task Tracking Mode overview](
 ## Set Tracking Mode for tasks
 
 1. Go to the task you want to set the tracking mode for.
-1. Click the **More** icon ![](assets/qs-more-icon-on-an-object.png)next to the name of the task, then click **Edit**.
+1. Click the **More** icon ![More icon on an object](assets/qs-more-icon-on-an-object.png)next to the name of the task, then click **Edit**.
 
    The Edit Task dialog box opens. 
 
 1. In the **Settings** section, use the **Tracking Mode** drop-down menu to select the Tracking Mode for the task.
 
-   ![](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
+   ![Tracking mode field in Edit task Settings section](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
 
 1. Select from the following options:
 

@@ -7,6 +7,8 @@ description: Adobe Workfront determines the Progress Status of a task by looking
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Task Progress Status overview
 
@@ -55,7 +57,8 @@ The following criteria determine the Progress Status of a task:
  </tbody> 
 </table>
 
-<!--hiding this because some users find the images confusing, as they don't really show the dates mentioned in the descriptions above. Keep the pictures though, in case some users will complain that we hid them. 
+<!--
+hiding this because some users find the images confusing, as they don't really show the dates mentioned in the descriptions above. Keep the pictures though, in case some users will complain that we hid them. 
 
 ## How task Progress Status updates over time
 
@@ -63,18 +66,18 @@ The different date types in our projects tell us how tasks are progressing over 
 
 * On Time
 
-  ![](assets/on-time-progress-status-350x233.png)
+  ![On time progress status](assets/on-time-progress-status-350x233.png)
 
 * At Risk
 
-  ![](assets/at-risk-progress-status-350x233.png)
+  ![At risk progress status](assets/at-risk-progress-status-350x233.png)
 
 * Behind
 
-  ![](assets/behind-progress-status-350x233.png)
+  ![Behind progress status](assets/behind-progress-status-350x233.png)
 
 * Late
 
-  ![](assets/late-progress-status-350x233.png)
+  ![Late progress status](assets/late-progress-status-350x233.png)
 
 -->

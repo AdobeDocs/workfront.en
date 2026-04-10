@@ -25,9 +25,16 @@ The following features are currently available in beta:
 
     For information, see [Project Health overview](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
 
-* The Workfront AI Reviewer
-    For information, see [Get started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+* The Workfront Content Reviewer
 
+    * Image guidelines are currently in beta. The Content Reviewer uses the brand guidelines you set up in Workfront to review content and provide feedback to content creators during the review and approval process.
+    * Brand voice guidelines are available for general availability.
+
+    For information, see [Get started with the Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+
+* The Adobe Workfront Planning Designer is available in Closed Beta. You can email us to request access to this program.
+
+    For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md). 
 
 
 <!--

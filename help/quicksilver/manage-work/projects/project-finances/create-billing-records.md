@@ -138,7 +138,7 @@ You can add hours to a billing record when the following conditions are met:
      >[!NOTE]
      >
      >You can override billing rates for job roles at the project level.  
-     >For more information, see the section "Overriding job role billing rates at the project level" in the article [Overview of overriding Job Role Billing Rates and calculating Revenue on a project](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+     >For more information, see the section "Overriding job role billing rates at the project level" in the article [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 * If the Require time to be approved for this project option is selected under Project Settings, then the Project Owner must approve the logged hours.  
   For more information, see [Require time to be approved for a project](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).

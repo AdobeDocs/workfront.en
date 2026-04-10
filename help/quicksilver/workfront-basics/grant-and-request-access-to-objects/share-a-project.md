@@ -6,10 +6,14 @@ description: Your Adobe Workfront administrator can grant you access to view or 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Share a project
 
 <!-- Audited: 1/2024 -->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 Your Adobe Workfront administrator can grant you access to view or edit projects when assigning your access level. For more information, see [Grant access to projects](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
@@ -138,7 +142,7 @@ You can share a project in the following ways:
 
     ![Share project button](assets/share-project.png)
 
-1. In the **Grant project access to** field, begin typing the name of the user, team, role, group, or company you want to share the project with, then click the name when it appears in the drop-down list.
+1. In the **Grant project access to** field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share the project with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
@@ -158,7 +162,8 @@ You can share a project in the following ways:
    >For more information about specifying sharing defaults for projects in the Access Level, see [Grant access to projects](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
    
    <!--
-   >this note also appears in Understanding Project Permissions-->
+   >this note also appears in Understanding Project Permissions
+   -->
 
 
 1. Click the drop-down to the right of the user's name and select their permission level for this project:
@@ -184,7 +189,7 @@ You can share a project in the following ways:
 
     ![Bulk share projects](assets/bulk-share-icon.png)
 
-1. In the **Grant project access to** field, begin typing the name of the user, team, role, group, or company you want to share the projects with, then click the name when it appears in the drop-down list.
+1. In the **Grant project access to** field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share the projects with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >

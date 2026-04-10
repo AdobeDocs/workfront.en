@@ -8,8 +8,10 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: yes
 hidefromtoc: yes
+exl-id: 850576d3-4edb-4942-9f21-065bf941b01c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
-
 # First Quarter 2026 release activity for Adobe Workfront limited availability features
 
 This article describes the limited availability Workfront features that are releasing during the First Quarter of 2026.
@@ -67,7 +69,8 @@ The **Exchange Rate Date** field in the Project Details > Finance area is now hi
 
 The effective dates on job role rates now permit gaps, though overlapping dates are not permitted. During a gap, other areas of the billing rate hierarchy are used to determine the billing rate, based on a task's revenue type.
 
-<!--### Maintenance Updates week of January 11-17, 2026
+<!--
+### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 

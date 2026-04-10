@@ -6,8 +6,10 @@ title: Configure the JumpSeat integration
 description: You can integrate [!DNL JumpSeat] with [!DNL Workfront] to create custom, in-product guidance.
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
-author: Nolan, Becky
+author: Courtney, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Configure the JumpSeat integration
 

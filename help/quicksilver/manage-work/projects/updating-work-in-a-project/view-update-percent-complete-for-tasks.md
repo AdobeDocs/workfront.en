@@ -6,6 +6,8 @@ description: You can update the percent complete of a task to indicate the progr
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View and update Percent Complete for tasks
 
@@ -48,7 +50,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -73,7 +76,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>Manage permissions to the task</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Areas where you can update the percent complete of a task
 
@@ -94,7 +98,7 @@ You can update the percent complete for a task in any of the following areas:
 
 * **In the task header**: You can update the percent complete of a task in the task header. 
 
-  ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+  ![Update percent in header](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 * **In the Summary panel of a task**: You can update the percent complete of a task at the top of the Summary panel when viewing the task in the following areas: 
 
@@ -102,7 +106,7 @@ You can update the percent complete for a task in any of the following areas:
   * Timesheet
   * Workload Balancer
 
-  ![](assets/update-percent-complete-in-task-summary-highlighted.png)
+  ![Update percent in task Summary highlighted](assets/update-percent-complete-in-task-summary-highlighted.png)
   
   For more information, see [Summary overview](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 

@@ -6,16 +6,20 @@ description: You can view or edit the financial information of a task by accessi
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
-# Manage task finances in the Task Details  section
+# Manage task finances in the Task Details section
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, to it in both articles)</p>
 -->
 
+{{highlighted-preview}}
+
 You can view or edit the financial information of a task by accessing the Overview area of the Task Details  section. There is a limited number of fields that you can view or edit in this area. 
 
-For information about editing all financial information for a task see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+For information about editing all financial information for a task, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## Access requirements
 
@@ -27,7 +31,8 @@ For information about editing all financial information for a task see [Edit tas
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any</p> </td> 
+   <td> <p>To use the User and Role Hourly Revenue and Cost Types and add an overtime ratio: Workflow Ultimate</p>
+      <p>To edit all other settings and use all other Revenue and Cost Types: Any Workfront or Workflow package</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -49,7 +54,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -71,7 +77,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>View permissions to the task that include View Finance or higher</p> <p>You must have Manage permissions on the task that include Edit Finance to edit financial information on tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Edit task finances in the Task Details section
 
@@ -81,12 +88,12 @@ For more information, see [Access requirements in Workfront documentation](/help
    >
    >To find a task, you can also search for it, and click the name to access the task. For more information on searching for objects in Workfront, see [Search Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
-1. Click **Tasks** in the left panel. 
+1. Click **Tasks** in the left panel.
 1. Click the name of a task that you want to view.
 1. Click **Task Details**.
 1. (Optional) Click the **Collapse all** icon in the top right of the Task Details page.
 
-   ![](assets/collapse-all-icon-on-details-page.png)
+   ![Collapse all icon on Details page](assets/collapse-all-icon-on-details-page.png)
 
    >[!NOTE]
    >
@@ -94,10 +101,10 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 1. Click **Finance** to expand and view the financial information for the task.
 
-   Click the **Edit** icon ![](assets/edit-icon.png) in the upper-right corner of the Details section, then click **Finance**. 
+   Click the **Edit** icon ![Edit icon](assets/edit-icon.png) in the upper-right corner of the Details section, then click **Finance**. 
 
 1. Edit any field that is available for editing, by single-clicking the field or click **+Add** to add information to an empty field.
-1. Review or edit the following information  in the **Finance** area : 
+1. Review or edit the following information in the **Finance** area : 
 
    <table style="table-layout:auto"> 
     <col> 
@@ -111,6 +118,7 @@ For more information, see [Access requirements in Workfront documentation](/help
         <li> <p>Fixed Hourly </p> </li> 
         <li> <p> User Hourly </p> </li> 
         <li> <p> Role Hourly</p> </li> 
+        <li> <p> <span class="preview">User and Role Hourly</span></p> </li> 
        </ul> <p>For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a> . Your Workfront administrator or a group administrator selects the default Cost Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a> .</p> </td> 
      </tr> 
      <tr> 
@@ -120,13 +128,16 @@ For more information, see [Access requirements in Workfront documentation](/help
         <li> <p> Not Billable </p> </li> 
         <li> <p>User Hourly </p> </li> 
         <li> <p>Role Hourly </p> </li> 
+        <li> <p> <span class="preview">User and Role Hourly</span></p> </li>
         <li> <p>Fixed Hourly </p> </li> 
         <li> <p>User Hourly w/Cap </p> </li> 
-        <li> <p>Role Hourly w/Cap </p> </li> 
+        <li> <p>Role Hourly w/Cap </p> </li>
+        <li> <p> <span class="preview">User and Role Hourly w/ Cap</span></p> </li> 
         <li> <p>User Hourly Plus Fixed </p> </li> 
         <li> <p>Role Hourly Plus Fixed </p> </li> 
+        <li> <p> <span class="preview">User and Role Hourly Plus Fixed</span></p> </li>
         <li> <p>Fixed Revenue </p> </li> 
-       </ul> <p>For more information about tracking revenue, see<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a> . </p> <p>Your Workfront administrator or group administrator selects the default Revenue Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </td> 
+       </ul> <p>For more information about tracking revenue, see<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a> and <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Overview of revenue and cost hierarchy</a>. </p> <p>Your Workfront administrator or group administrator selects the default Revenue Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Planned Cost</td> 
@@ -144,8 +155,17 @@ For more information, see [Access requirements in Workfront documentation](/help
       <td role="rowheader">Actual Revenue</td> 
       <td> <p>This is a calculation that shows the revenue associated with the task based on the actual hours, the revenue type, and the hourly rate for users or job roles. For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
      </tr> 
+     <tr>
+      <td><span class="preview">Overtime Ratio</span></td> 
+      <td><span class="preview"><p>Enter the overtime multiplier for the task, for example, 1.5 or 2.0. The default is 1.0 (no multiplier). For more information, see <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Define an overtime ratio</a>.</p><p>To see the Overtime Ratio field:</p>
+       <ul>
+       <li>The Revenue Type on the task must be User and Role Hourly. For more information, see <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Overview of revenue and cost hierarchy</a>.</li>
+       <li>The field must be enabled on your layout template, for the Finance area in the task Details view. For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">Customize the Details view using a layout template</a>.</li>
+       </ul>
+      </span></td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>CPI/SPI/CSI</strong> </td> 
+      <td role="rowheader">CPI/SPI/CSI</td> 
       <td> <p>These are task performance metrics that show how your task is performing, at a given time. Their values are calculated based on the Performance Index Method of the project.<br>For more information see the following articles:</p> 
        <ul> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Calculate Cost Performance Index (CPI)</a> </p> </li> 
@@ -160,4 +180,4 @@ For more information, see [Access requirements in Workfront documentation](/help
     </tbody> 
    </table>
 
-1. (Conditional) If you are editing the fields in the Finance section, click **Save****Changes**.
+1. (Conditional) If you are editing the fields in the Finance section, click **Save Changes**.

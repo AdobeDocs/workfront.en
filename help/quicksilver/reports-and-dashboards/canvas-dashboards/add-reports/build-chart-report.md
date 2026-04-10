@@ -3,11 +3,16 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Build a chart report in a Canvas Dashboard
 description: A chart report that visualizes your data as a bar, column, line, or pie chart can be added to a Canvas Dashboard.
-author: Courtney and Jenny 
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Build a chart report in a Canvas Dashboard
+
+{{highlighted-preview}}
+
 
 >[!IMPORTANT]
 >
@@ -93,6 +98,15 @@ There are many configuration options available for building a chart report. In t
         >[!NOTE]
         >
         >There is a maximum number of 60 series that can be displayed in a chart. When this box is checked, any series above the limit are consolidated into an **Other** grouping in the chart.  
+
+    1. <span class="preview">(Optional) In the **Run this report with the access rights of** field, begin typing the name of the user whose permissions you want the report to use, then select the user when they appear in the list. When you configure a report to run as another user, all viewers of the dashboard see the same data, regardless of their own access level. If you don't select a user, each viewer sees data based on their own permissions.
+
+        >[!IMPORTANT]
+        >
+        >If the selected user is deactivated or loses access to the relevant workspaces or record types, the report may display incomplete data or fail to render.
+
+    </span>
+
 1. Choose which type of chart you want to create:
     * [Bar, column, or line chart](#bar-column-or-line-chart)
     * [Pie chart](#pie-chart)
