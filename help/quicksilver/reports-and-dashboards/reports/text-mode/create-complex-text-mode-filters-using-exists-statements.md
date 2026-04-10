@@ -3,9 +3,11 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Create complex Text Mode filters using EXISTS statements
 description: You can create complex Text Mode filters using EXISTS statements. This article requires a thorough understanding of the Adobe Workfront API and of the text mode reporting interface.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create complex Text Mode filters using EXISTS statements
 

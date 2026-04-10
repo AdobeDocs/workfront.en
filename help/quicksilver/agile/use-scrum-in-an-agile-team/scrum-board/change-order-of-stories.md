@@ -3,9 +3,11 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Change the Order of Stories on the Scrum Board
 description: The order in which stories appear on the story board does not indicate priority. However, it can affect the perceived priority by making stories more visible. By default, stories are displayed in alphabetical order within each [!UICONTROL status] column on the story board.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Change the order of stories on the [!UICONTROL Scrum] board
 

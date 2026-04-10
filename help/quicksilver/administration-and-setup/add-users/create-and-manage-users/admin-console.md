@@ -5,12 +5,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Manage users in the Adobe Admin Console
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 >[!IMPORTANT]
 >
@@ -232,6 +236,16 @@ For information on editing a single user in the Adobe Admin Console, see [Edit u
 
 For information on bulk editing users in the Adobe Admin Console, see 
 [Edit user details](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html#edit-user-details) in the article Manage multiple users in the Adobe documentation.
+
+## Delete a user
+
+>[!NOTE]
+>
+>* If a user is in an Admin Console User Group(s), and the product profile has been added to one or more of those User Groups, deactivating the user from Workfront will not actually remove them from the product. The user must be removed from the User Group(s) in Admin Console.  
+>* Deleting a user from the Adobe Admin Console deactivates the user in Workfront, but does not delete them from Workfront.
+
+For instructions on deleting users in the Adobe Admin Console, see  [Manage directory users](https://helpx.adobe.com/enterprise/using/manage-directory-users.html) in the Adobe documentation.
+
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>

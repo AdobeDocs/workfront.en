@@ -3,9 +3,11 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Update the Status of Stories and Subtasks on the Scrum Board
 description: You can change the status of a story directly from the Agile story board to reflect how the stories are progressing through the iteration or project.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 3f414901-883c-45ac-b30a-60841e883e35
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Update the status of stories and subtasks on the [!UICONTROL Scrum] board
 

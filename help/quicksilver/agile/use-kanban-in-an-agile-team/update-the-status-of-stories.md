@@ -3,9 +3,11 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Update the Status of Stories on the Kanban Board
 description: You can change the status of a story directly from the Kanban board in order to reflect how the stories are progressing.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: fd75ab8e-08c4-4643-bc67-aada5b5c005e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Update the status of stories on the [!UICONTROL Kanban] board
 

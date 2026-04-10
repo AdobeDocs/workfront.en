@@ -53,6 +53,7 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Manage risks                 | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Manage finance               | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Add/edit expenses            | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
+| <span class="preview">Attach a rate card</span>  | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Attach templates             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Save as a template           | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Add/edit a business case     | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
@@ -250,6 +251,36 @@ Users with a Standard license can have full access to reports. All other Access 
 
 ## Users
 
+<div class="preview">
+
+These options are available in the Preview environment:
+
+| Action                                                                                             | Standard | Light  | Contributor | External user** |
+|----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
+| Create                                                                                             | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
+| Delete                                                                                             | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
+| Edit Billing Rates                                                                                 | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
+| Edit Contact Info                                                                                  | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
+| Edit Cost Rates                                                                                    | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
+| Edit General Finance                                                                               | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
+| Edit, delete, deactivate, log in as, or reset the password for any user                            | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
+| Edit, delete, deactivate, log in as, or reset the password for any user in a group they administer | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
+| View users                                                                                         | ✓        | ✓      | ✓           | &nbsp;          |
+| View contact info                                                                                  | ✓        | ✓      | ✓           | &nbsp;          |
+| View Billing Rates                                                                                 | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
+| View Cost Rates                                                                                    | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
+| View General Finance                                                                               | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+&#42;&#42;External users can only search for other users.
+
+</div>
+
+These options are available in the Production environment:
+
 | Action                                                                                             | Standard | Light  | Contributor | External user** |
 |----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
 | Create                                                                                             | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
@@ -264,6 +295,63 @@ Users with a Standard license can have full access to reports. All other Access 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality.
 
 &#42;&#42;External users can only search for other users.
+
+<div class="preview">
+
+## Job Roles
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
+| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Billing Rates | ✓*        | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Billing Rates | ✓*        | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Cost Rates    | ✓*        | &nbsp;  | &nbsp;        | &nbsp;        |
+| View General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+</div>
+
+<!--
+
+## Companies
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
+| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+## Groups
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| Share             | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+-->
 
 ## Teams
 
@@ -300,6 +388,34 @@ Users with a Standard license can have full access to reports. All other Access 
 
 Only users with a Standard license can have full access to financial data.
 
+<div class="preview">
+
+These options are available in the Preview environment:
+
+| Action                                                       | Standard | Light  | Contributor | External user |
+|--------------------------------------------------------------|----------|--------|-------------|---------------|
+| Edit Billing Rates                                           | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
+| Edit Cost Rates                                              | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
+| Edit General Finance                                         | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
+| View Billing Rates                                           | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
+| View Cost Rates                                              | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
+| View General Finance                                         | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
+| Manage billing records                                       | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
+| Manage expenses                                              | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
+| View information by Cost in the Resource Planning tools      | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
+| Budget Resources in the Resource Planning tools&#42;&#42;    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
+| View resource allocation in the Resource Planning tools&#42; | ✓        | ✓      | &nbsp;      | &nbsp;        |
+| Create risks on projects                                     | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
+| View risks on projects                                       | ✓        | ✓      | &nbsp;      | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+</div>
+
+These options are available in the Production environment:
+
 | Action                                                       | Standard | Light  | Contributor | External user |
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
 | Edit role billing and cost rates                             | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
@@ -309,7 +425,6 @@ Only users with a Standard license can have full access to financial data.
 | Manage billing records                                       | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Manage expenses                                              | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | View financial data                                          | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
-| <span class="preview">Manage rate cards</span>                                            | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | View information by Cost in the Resource Planning tools      | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Budget Resources in the Resource Planning tools&#42;&#42;    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | View resource allocation in the Resource Planning tools&#42; | ✓        | ✓      | &nbsp;      | &nbsp;        |
@@ -361,6 +476,26 @@ Only users with a Standard license can have full access to resource management. 
 >Users can view a plan that another user created only if a link to the plan is shared with them.
 
 &#42; In order for users to view financial data in a plan or initiative, they need access to Financial Data. For more information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+
+<div class="preview">
+
+## Rate Cards
+
+Only users with a Standard license can have full access to rate cards.
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| View              | ✓          | ✓       | &nbsp;        | &nbsp;        |
+| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
+| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Share             | ✓*         | ✓*      | &nbsp;        | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+</div>
 
 ## Workfront Goals area
 

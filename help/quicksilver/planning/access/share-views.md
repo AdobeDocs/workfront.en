@@ -6,6 +6,8 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 
 # Share views
@@ -31,7 +33,8 @@ You can share a view with others to ensure collaboration when working with recor
 
 
 <!--
-This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).
+-->
 
 ## Access requirements
 
@@ -85,7 +88,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -143,7 +147,8 @@ For more information about Workfront access requirements, see [Access requiremen
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerations when sharing views
 
@@ -208,12 +213,15 @@ You can share views you created or views you have Manage permissions to with use
    >
    >* When you share a view with a user, their primary job role <span class="preview">and their email</span> also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email.  
 
-
    * **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. 
 
 1. In the **Grant access to this view** field, start typing the name of a user, a group, team, company, or job role then click it when it displays in the list.  
 
    ![Sharing a view with groups](assets/sharing-a-view-ui-with-groups.png)
+
+1. <span class="preview">(Optional) When you share with a group, team, role, or company, hover over the name of the entity and click the right-pointing arrow to expand a list of users that are receiving the permissions. </span>
+
+   ![Share view with team](assets/share-view-with-team-expanding-arrow-highlighted.png)
 
 1. Select one of the following permission levels from the drop-down menu: 
     * View
@@ -288,8 +296,16 @@ To share a view publicly in Workfront Planning:
    >
    >Views without a people or a global icon are views you created and are not shared with others. Unshared views are only visible to you. 
 
-
 1. (Optional) Paste the link you copied to an email, chat message, document, or in a Workfront comment to share it with others. 
+
+   <div class="preview">
+
+   When others open a public view they see the following information about the view in the header: 
+
+      * The view name and icon
+      * The name of the record type that the view displays
+
+   </div>
 
 ## Copy a link to a view
 

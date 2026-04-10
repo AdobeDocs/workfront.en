@@ -7,6 +7,8 @@ description: This article describes how you can manage your email notifications 
 author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Modify your own email notifications
 
@@ -24,7 +26,7 @@ For more information about email notifications, see [[!DNL Adobe Workfront] noti
 >
 >* If you activate a notification type and then find that you are not receiving notifications of that type, it may be because that type does not apply for your role.
 >* The [!DNL Workfront] administrator or a group administrator cannot configure notifications for [!DNL Workfront Goals]. For more information about what notifications the [!DNL Workfront] administrator can configure, see [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). For information about configuring individual notifications for [!DNL Workfront Goals] continue to read this article.
->
+>* Approval notifications apply to legacy document approvals only. Notification controls for unified document approvals are not currently available.
 
 ## Access requirements
 

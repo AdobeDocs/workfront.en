@@ -1,10 +1,12 @@
 ---
 title: Second Quarter 2024 Resource management enhancements
 description: Second Quarter 2024 Resource management enhancements
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 12b3c586-5f44-48cf-9451-1ef32118676f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Second Quarter 2024 Resource management enhancements
 

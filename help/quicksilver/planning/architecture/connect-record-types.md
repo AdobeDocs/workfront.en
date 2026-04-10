@@ -6,6 +6,8 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
@@ -22,7 +24,8 @@ exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 {{planning-important-intro}}
 
 <!--
-You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. -->
+You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
+-->
 
 You can connect record types to one another or you can connect record types with object types from other applications. 
 
@@ -106,7 +109,8 @@ For an example of connecting record types and records, see [Example of connectin
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -167,7 +171,8 @@ For an example of connecting record types and records, see [Example of connectin
   </tr> 
  
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Connect record types
 
@@ -206,13 +211,23 @@ For an example of connecting record types and records, see [Example of connectin
         >
         >![Edit record type box cross-workspace settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
         
-        <!--Old:
+        <!--
+        Old:
         [!TIP]
         The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the **Advanced settings** tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display.
         ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
         -->
 
-    For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
+        For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
+
+        >[!TIP]
+        >
+        ><span class="preview">You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for record types :</span>
+        >
+        >* <span class="preview">CTRL+K for Windows</span>  
+        >* <span class="preview">⌘+K for Mac</span>  
+        >
+        >![Global search box](assets/global-search-box.png)
 
     * A **Project, Portfolio, Program, Company**, or **Group** from the **Workfront Object Types** section.
 
@@ -263,13 +278,17 @@ For an example of connecting record types and records, see [Example of connectin
     * **Multi-select**: Select this to allow one record from the current record type to connect with multiple records from the connection record type.
     * **Single-select**: Select this to allow one record from the current record type to connect with one record from the connection record type.
 
-1. Select the **Create corresponding field on linked record type**. When selected, a connection field is created on the record type you are connected to, in addition to the connection field added to the current record type. This is disabled by default.
+1. Select the **Create corresponding field on linked record type**. When selected, a connection field is created on the record type you are connecting to, in addition to the connection field added to the current record type. This is disabled by default.
 
     >[!TIP]
     >
     >* In addition to the limit of 30 connection fields for one record type, there is a limit of 500 fields for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit.
     >
     >* Selecting the **Create corresponding field on linked record type** is a prerequisite for creating hierarchies.
+    >
+    >* A linked record field is not created for objects from another application in their respective applications. For example, there is no field created for Workfront objects connected to Planning records. 
+    >
+    >   
 
 1. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
 
@@ -315,23 +334,29 @@ For an example of connecting record types and records, see [Example of connectin
     >
     >* What you select in the Record appearance area determines how the records display in connections everywhere in the system, including all the views and details pages. 
 
-1. Select the **Select lookup fields** to add fields from the  record type you are connecting to. The lookup fields are fields associated with the record or object type that you are linking to. Linking them displays information from the record or object you're linking to on the record you are linking from. This is selected by default. 
+1. Select the **Select lookup fields** to add fields from the  record type you are connecting to. The lookup fields are fields associated with the record or object type that you are linking to. Linking them displays information from the record or object you're linking to on the record you are linking from. This is selected by default.
+
+    <!--
+    When reference fields are coming, change the first bullet in the TIP below with this: 
+    >* In the Production environment, you cannot add Workfront reference fields (for example, the Project Group or Company from a Workfront Project) as lookup fields in Planning. <span class="preview">You can add Workfront reference fields as lookup fields in the Preview environment.</span>
+    -->
 
     >[!TIP]
     >
-    >* You cannot add Workfront typeahead fields (including fields like Project Owner, or Project Sponsor) as lookup fields.
+    >* You cannot add reference fields from another application as lookup fields. For example, you cannot add Project Group or Company as a lookup field in Planning when you connect to Workfront projects. 
+    >
+    >* In the Production environment, you cannot add Workfront user fields (including fields like Project Owner, or Project Sponsor) as lookup fields. <span class="preview">You can add user fields as lookup fields in the Preview environment.</span>
     >
     >* Workfront objects' date field information displays in 24 hour format in Workfront Planning, regardless of how it displays in Workfront. 
     >
     >   For example, if a project's Planned Start Date displays as 3:00 PM in Workfront, it will display as 15:00 in Workfront Planning in an imported lookup field. 
     >* In the Production environment, you cannot add People fields as lookup fields. <span class="preview">You can add People fields as lookup fields in the Preview environment.</span>
-    >
 
 1. Click **Create**.
 
 1. (Conditional) If you selected the **Select lookup field** setting, the **Add lookup fields** box opens. 
 
-    Click the **+** icon  to add fields from the **Unselected fields** area. 
+    Click the **+** icon  to add fields from the **Unselected fields** area.
 
     Or
   

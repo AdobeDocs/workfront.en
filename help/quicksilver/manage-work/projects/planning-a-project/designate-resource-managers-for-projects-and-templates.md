@@ -6,6 +6,8 @@ description: You can designate Resource Managers for a project to indicate who i
 author: Alina
 feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Designate Resource Managers for a project or template
 
@@ -17,7 +19,8 @@ exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
 
 You can designate Resource Managers for a project to indicate who is responsible for managing resources on the project. This is an informational field and it is not connected to any resource management tools. 
 
-<!-- drafted for res scheduling deprecation blurb for preview release
+<!--
+ drafted for res scheduling deprecation blurb for preview release
 Designating Resource Managers for a project is a prerequisite for using the Scheduling tools in Adobe Workfront, in the Production environment.
   
 >[!CAUTION]  
@@ -65,7 +68,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -94,7 +98,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    Users who are added as Resource Managers to a project or a template immediately gain Manage permissions on the project or the template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerations about Resource Managers
 

@@ -6,6 +6,8 @@ description: As a Resource Manager, you can assign work to users and manage thei
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
+last-update: 2026-04-01T11:23:03-07:00
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 ---
 # Manage user allocations in the Workload Balancer
 
@@ -68,7 +70,8 @@ The task Planned Hours are distributed equally between all the days within the D
 
 >[!CAUTION]
 >
->The Workload Balancer only displays <!--up to 1000 Planned Hours per work item per user, and--> up to 1000 days of an item's duration. The allocations in the Workload Balancer display as zero after the 1000 day limit is reached. We recommend dividing tasks in smaller subtasks <!--to accommodate a larger number of Planned Hours or--> for durations of more than 1000 days.
+>The Workload Balancer only displays <!--up to 1000 Planned Hours per work item per user, and--> up to 1000 days of an item's duration. The allocations in the Workload Balancer display as zero after the 1000 day limit is reached. We recommend dividing tasks in smaller subtasks for durations of more than 1000 days.
+<!--to accommodate a larger number of Planned Hours or--> 
 
 Consider the following when locating daily, weekly or monthly allocations for tasks or issues in the Workload Balancer:
 

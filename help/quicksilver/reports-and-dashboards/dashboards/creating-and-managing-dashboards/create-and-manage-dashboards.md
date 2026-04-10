@@ -4,10 +4,12 @@ product-area: dashboards
 navigation-topic: dashboards-navigation-topic
 title: Create and manage dashboards
 description: Review these articles to learn how to create dashboards in Adobe Workfront.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: a7f29a8e-1aa8-4c6c-adeb-e6177291999a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create and manage dashboards
 

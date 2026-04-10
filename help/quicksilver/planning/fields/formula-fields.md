@@ -6,6 +6,8 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Formula fields overview
 
@@ -23,7 +25,8 @@ Formula fields generate a new value using existing values from other fields in a
 
 For information, see the "Formula" section in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
 
-<!--do we need these for an overview article?
+<!--
+do we need these for an overview article?
 
 ## Access requirements
 
@@ -64,7 +67,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 -->
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -121,7 +125,8 @@ For more information about Workfront access requirements, see [Access requiremen
   </tr> 
  
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerations about formula fields
 

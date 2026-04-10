@@ -4,10 +4,12 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Configure a Blueprint
 description: You can configure details of the project template or organizational structure before you install the blueprint.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Configure a blueprint
 

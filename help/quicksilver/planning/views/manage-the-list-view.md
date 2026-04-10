@@ -3,26 +3,36 @@ title: Manage the List View in Adobe Workfront Planning
 description: You can display objects and their fields in a list view, when accessing them in the Connected records page of a record, in Adobe Workfront Planning. This article describes how you can create or edit a list view in the Connected records page of a record.
 feature: Workfront Planning
 role: User
-hidefromtoc: yes
-hide: yes
-exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
----
-<!--add these to the metadata above when publishing:
-
 author: Alina
-recommendations: noDisplay, noCatalog-->
+recommendations: noDisplay, noCatalog
+exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
+last-update: 2026-04-01T11:23:03-07:00
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+---
 
 # Manage the list view in Adobe Workfront Planning
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
+-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
-You can display objects and their fields in a list view, when accessing them in the Connected records page of a record, in Adobe Workfront Planning. 
+You can view objects in the list view in the following areas of Workfront Planning:
 
-This article describes how you can create or edit a list view in the Connected records page of a record and how you can edit the objects in the view. 
+* A connected records page for projects in a record's details area
+
+    ![Projects on connected records page in list view](assets/projects-on-connected-records-page-list-view.png)
+
+* A list of request forms at the record type level
+
+    ![Request forms in list view](assets/request-forms-in-list-view.png)
+
+This article describes how you can navigate, create, or edit a list view in Workfront Planning. 
 
 ## Access requirements
 
@@ -70,447 +80,198 @@ For more information about Workfront access requirements, see [Access requiremen
 
 ## Considerations about list views
 
-* You cannot view records in the record type pages in a list view. You can only display the following objects in a list view when you view them in the Connected records page of a record:
+* Consider the following for connected records page list view: 
 
-    * Workfront projects
+    * You can only view projects in the list view in the connected records page of a record. The list view is not available for any other object or record type in a connected records page. 
     
     For information about creating a connected records page, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-* Before you can view a list view in a connected records page of a record you must connect Workfront projects with Planning record types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
-* List views are similar to Enhanced lists. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). 
+    * Before you can view a list view in a connected records page of a record you must connect Workfront projects with Planning record types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).  
+    * You can create multiple list views for projects in a record's connected records page.
 
+* Consider the following for the request forms list view: 
+
+    * You cannot create or edit additional list views for Planning request forms. Workfront creates one list view for request forms. <!--this will change-->
+
+        For information about request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+* Depending on where it displays, not every list view has all the elements described in this article.
 
 ## Manage a list view {#manage-a-list-view}
 
+Workfront Planning list views are similar to Workfront's enhanced lists. Most elements from enhanced views also exist on list views in Workfront Planning. 
+
+For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+<!--
+Removed - more direct steps below: 
 {{step1-to-planning}}
 
-1. Click a workspace card, then click a record type card. 
-1. From any view, click the name of a record to open the record's preview or details page. 
-1. Add a **Connected records page** for connected projects as described in the article [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
+1. (Conditional) To access a projects connected page, do the following: 
+
+    1. Click a workspace card, then click a record type card. 
+    1. From any view, click the name of a record to open the record's preview or details page. 
+    1. Add a **Connected records page** for connected projects as described in the article [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
     The Connected records page displays projects connected to the record in the list view. 
 
     ![Projects on connected records page in list view](assets/projects-on-connected-records-page-list-view.png)
 
-<!--BELOW IS ALL FROM TABLE VIEW - EDIT EVERYTHING-->
+1. (Conditional) To access a list of request forms, do the following: 
 
-1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
+    1. {{step1-to-planning}}
 
-    ![Table view example](assets/table-view-example.png)
+    1. (Conditional) To access a projects connected page, do the following: 
 
-1. (Optional) Click **Row height**, then select from the following options to modify the height of the table rows: 
-    * Short
-    * Medium
-    * Tall 
+    1. Click a workspace card, then click a record type card.
+    1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record name in the header, then click **Manage request forms**.
 
-1. (Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.
-
-1. Update the following view elements as described in the subsections below:
-    * [Columns (or fields)](#add-columns-or-fields)
-    * [Rows (or records)](#add-rows-or-records)
-    * [Filters](#add-filters) 
-    * [Sort](#add-a-sort) 
-    * [Grouping](#add-groupings)
-    * [Row colors](#add-row-colors)
-    * [Real-time presence indicator](#enable-the-real-time-presence-indicator)
-
-
-### Add columns (or fields) {#add-columns}
-
-The column headers of a table view display fields associated with the records in the view. Fields displayed in the table view also display in the Details section of a record. 
-
-For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
-
-<!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
-
-Adding columns to a view is identical to adding fields to a record type.  
-
-You can add up to 500 fields (or columns) in a table view. 
-
-1. Go to a record type page and click a table view tab, or click **+ View** to add a new view, then choose **Table**. 
-
-1. Start adding fields (or columns), as described in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
-
-    The columns you add are visible to all users who access the record type and are added as new fields on the record's page.
-
-1. (Optional) Click the **Fields** icon ![Fields icon](assets/fields-icon.png) in the toolbar, search for a field, then unselect the toggle to the right of the field name to hide the field. 
-   
-1. Do one of the following to reorder columns in the table:
-
-    * Grab the column header and drag and drop it in the desired position. The column you moved briefly displays with a blue background until you make other adjustments to the table. 
-
-    * Click **Fields** in the table's toolbar, then drag and drop the fields in the desired order, then click outside the **Fields visibility and order** box to close it.
-        
-        ![Fields setting table view toolbar expanded](assets/fields-setting-table-view-toolbar-expanded.png)
-
-        >[!TIP]
-        >
-        >* The Name field is always the first field in the table view, by default. This is considered a primary field. 
-        >
-        >* You cannot move the Name field to another position, unless you designate another field as the primary field. For more information, continue with Step 4. <!--accurate?-->
-        >
-        >
- 
-    * Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. <!--accurate?-->
-
-1. (Optional) Hover over a field name in the column header of any field that does not display in the first column of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
-    
-    ![Set as primary field option in table view](assets/set-as-primary-field-option-table-view.png)
-
-1. Click **Set field** to confirm. 
-
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves to the second column.
-
-    Primary fields become the record's title and display in the header area of the record's page, and everywhere where the records display. For example, the record title displays in connected fields and all views. For more information about primary fields, see [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md). 
-
-1. Click and drag the column separation lines and drop them in the desired spot to increase the width of the columns. 
-
-    >[!TIP]
-    >
-    >The changes you make to the column width and order are permanent and visible to all users who access the record type. 
-
-1. Hover over the column header, then click the downward-pointing arrow, then click **Hide field**
-
-    Or
-
-    Click **Fields** in the table toolbar and disable the toggle associated with the fields (or columns) you want to hide. The **Fields visibility and order** box displays.
-
-    >[!TIP]
-    >
-    >The number of hidden fields displays to the left of the Fields icon in the toolbar.
-    >
-    ><span class="preview">By default, hidden fields do not display in the record's **Details** preview box. All fields display in the record's Details page. For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
-
-
-1. Click the **Fields** icon and enable the toggle associated with the fields you want to display in the columns of the table. All fields display by default.
-
-1. Do the following to quickly find records that match a keyword:
-
-    1. In the **Search** box ![Search icon](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
-
-        ![Search box with results blue outline in table view](assets/search-box-with-results-blue-outline-table-view.png)
-
-        You can use any word or special character that is visible on the screen. 
-    
-        You cannot use keywords that are associated with fields that are hidden in the table view. 
-
-    1. Press **Enter** on your keyboard to go to the next found field. 
-
-    1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table. 
-
-    1. Click the **x** icon in the search box to clear the search keyword. 
-   
-
-### Add rows (or records) {#add-rows}
-
-The rows of a table view display individual records of the selected record type. 
-
-You can have up to 50,000 records (or rows) for a record typeS. 
-
-1. Go to a record type page and click a table view tab, or click **+ View** to add a new view, then choose **Table**. 
-
-1. Start adding records (or rows), as described in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
-
-    The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
-
-1. (Optional) Add a thumbnail to each record, and click **Fields** in the upper-right corner of the table, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
-    
-    For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
-
-1. (Optional) Select one or multiple records in a row, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
-
-    >[!NOTE]
-    >
-    >You cannot reorder rows if you apply at least one sort to the table view. 
-    >
-    >The changes you make to the row order are visible to all users who access the record type
-
-<!-- this section below links from the timeline view; consider splitting them if they become different-->
-
-### Add filters {#add-filters}
-
-Filters help you reduce the amount of information displayed on the screen.
-
-Consider the following when working with filters in the table view: 
-
-<!-- this list is almost identical to the one for the table view - update both-->
-
-* The filters you create for the table view work independently from the filters in the timeline view when applied to the same record type. 
-
-* The filters are unique to the view that you select. Two table views of the same record type can have different filters applied to them. Two users looking at the same table view see the same filter that is currently applied. 
-
-* You cannot name the filters you build and apply to a table view.
-
-* Removing filters removes them from anyone accessing the same record type as you and uses the same view as you use.
-
-* You can filter by connected record fields or lookup fields. 
-
-* You can filter by lookup fields that display multiple values. 
-
-* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a filter for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Budget in the filter you are creating for the Activity record type. 
-
-To add a filter to a table view: 
-
-1. Create a table view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Select a table view, then click **Filters** in the upper-right corner of the table.    
-1. Click **Add condition** and add the following information: 
-
-    * Search for a field and select it when it disaplays in the list when.
-
-    * **Select an option** (or a filter modifier) to define what kind of condition the field must meet
-
-        The table below displays the available modifiers for each type of field.
-
-        <table>
-        <thead>
-        <tr>
-            <th><b>Field type</b></th>
-            <th><b>Modifiers</b></th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Single-line, Paragraph, Formula </td>
-            <td><p>Contains</p>
-            <p>Does not contain</p>
-            <p>Is</p>
-            <p>Is not</p>
-            <p>Is empty</p>
-            <p>Is not empty</p></td>
-        </tr>
-        <tr><td>Single-select</td>
-            <td><p>Is</p>
-            <p>Is not</p>
-            <p>Is any of</p>
-            <p>Is none of</p>
-            <p>Is empty</p>
-            <p>Is not empty</p></td>
-        </tr>
-        <tr>
-            <td>Multi-select, People</td>
-            <td><p>Has any of</p>
-            <p>Has all of</p>
-            <p>Is exactly</p>
-            <p>Has none of</p>
-            <p>Is empty</p>
-            <p>Is not empty</p></td>
-        </tr>
-        <tr>
-            <td>Number, Percentage, Currency</td>
-            <td><p>=</p>
-            <p>≠</p>
-            <p> < </p>
-            <p>></p>
-            <p>≤</p>
-            <p>≥</p>
-            <p>Is empty</p>
-            <p>Is not empty</p></td>
-        </tr>
-        <tr>
-            <td>Date</td>
-            <td><p>Is</p>
-            <p>Is not</p>
-            <p>Is after</p>
-            <p>Is before</p>
-            <p>Is between</p><p>Is not between</p>
-            <p>Is empty</p><p>Is not empty</p></td>
-        </tr>
-
-        <tr>
-            <td>Checkbox</td>
-            <td><p>Is</p>
-        </tr>
-        </tbody>
-        </table> 
-
-    * Select a value for the field selected. 
-
-     ![Filter UI table view](assets/filter-ui-table-view.png)
-
-    There is no limit to how many filtering conditions you can add.
-
-1. (Optional) Click **Add condition** to add another filtering option and repeat the above steps. The number of filters applied displays to the left of the Filters icon. 
-1. Click the following operators to indicate how the filter conditions are joined and should be applied:
-
-    * **AND**: All specified conditions must be met. 
-    * **OR**: Any of the specified conditions must be met. This is the default option.
-
-    1. (Optional) Add additional **AND** or **OR** operators between multiple condition groupings.
-
-        ![Multi-tiered filters in views](assets/multi-tiered-filters-in-views.png)
-
-    The list of records is filtered automatically.  <!--at this time, you can't name and save the filter - but will this change?!-->
-    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
-
-1. (Optional) Click the **x** icon to remove a filter condition.
-1. (Optional) Click **Filters** to close the filters box. <!--right now you cannot "clear all" for filters, but this might come later-->
-
-### Add a sort {#sort-information} 
-
-By applying a sort, you can organize information in a given order. 
-
-You can sort the following information:
-
-* All records in a table view. <!--or timeline view. ***********verify this is the case for the timeline view*********************-->
-<!--* All groupings. - this is not available yet-->
-
-Consider the following when sorting records in the table view: 
-
-<!-- if this is available for the timeline view, update both when you update one-->
-
-* Sorting is unique to the view that you select. Two table views of the same record type can have different sorting criteria applied to them. Two users looking at the same table view see the same sorting that is currently applied. 
-
-* You cannot name the sortings you build and apply to a table view.
-
-* The sorting you create is preserved when you navigate away.
-
-* You can sort by as many fields as you see displayed in the table view of a record type.
-
-* You cannot sort by connected record fields, but you can sort by lookup fields from connected record types. 
-
-* When you sort by lookup fields with multiple values (that have not been summarized by an aggregator), the first value is used for sorting. 
-
-* Removing sorting criteria removes them from anyone accessing the same record type as you and uses the same view as you use.
-
-* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a sort for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the sort you are creating for the Activity record type. 
-
-To sort <!--ungrouped (add this when sorting for groupings will be available--> records, do the following:
-
-1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
-1. Click the **Sort** icon ![Sort icon](assets/sort-icon.png) in the upper-right corner of the table
-    
-    Or
-
-    Hover over the name of a column in the table view, click the downward-pointing arrow to the right of the column header name, then click **Sort by this field**. The field is added as a sorting selection in the Sort icon in the upper-right corner of the table view.
-
-1. (Conditional) In the **Sort records by** box, click one of the suggested fields, or click **Choose a different field** and search for a different field, then click it when it displays in the list. 
-
-    The sorting is applied automatically to the table view and records display sorted by your selected criteria. 
-
-    <!-- add a step that you can rearrange the sorting fields here, when this will be possible-->
-    
-1. (Optional) Click **Add condition**, and repeat the above steps to sort by additional fields.  
-
-    The number of fields that you are sorting by displays to the left of the Sort icon in the upper-right corner of the toolbar. You can choose only fields that display in the columns of the table view.
-
-1. (Optional) In the **Sort records by** box, click the **x** icon to the right of a sorting field to remove the sort
-
-    Or
-
-    Click **Clear all** to remove all fields from the sort. 
-
-1. Click outside the **Sort records by** box to close it. 
-
-    ![Sorting in table view](assets/sorting-in-table-view.png)
-
-    The information displayed in the table is sorted according to your selected criteria. 
-    
-    The fields selected for the sort display a sorting icon followed by a number that indicates the order in which the sorting is applied. 
-
-### Add groupings {#add-groupings}
-
-<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
-
-You can group records by similar information when applying  a grouping to a view.
-
-Consider the following:
-
-* You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type.
-* You can apply 3 levels of grouping in a view. The records are grouped in the order of groupings that you select. 
-<!--* You can apply up to 4 levels of grouping when using the API. --checking on this one for now-->
-* The groupings are unique to the view that you select. Two table views of the same record type can have different groupings applied to them. Two users looking at the same table view see the same grouping that is currently applied. 
-* You cannot name the groupings you build for a table view.
-* Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
-* You can edit records listed under a grouping. 
-* You can group by connected record fields or lookup fields. 
-* When you group by lookup fields with multiple values (that have not been summarized by an aggregator), records are grouped by each unique combination of field values.  
-* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a grouping for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the grouping you are creating for the Activity record type. 
-* Groupings are listed in the alphabetical order of their values. 
-<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
-<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
-
-To add a grouping:
-
-1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Click **Grouping** in the upper-right corner of the table view.
-
-    ![Grouping UI table view with linked fields](assets/grouping-ui-table-view-with-linked-fields.png)
-
-1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list.
-
-    The grouping is applied automatically to the table and records display under the grouping separation line.
-    
-1. (Optional) Click **Add condition** and repeat the above steps to add up to 3 groupings. 
-
-    The number of fields selected for the grouping displays next to the Grouping icon. 
-
-    ![Grouping applied in table view](assets/grouping-applied-in-table-view.png)
-
-    
-
-1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
-
-    Or
-
-    Click **Clear all** to remove all fields.  
-
-1. Click outside the **Group records by** box to close it. 
-1. (Optional) Click **+ New record** at the end of any grouping to add new records, then refresh your page to add the new record to the appropriate grouping. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
-
-1. To expand or collapse groupings, do one of the following:
-
-    1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
-
-        ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
-
-    1. Right-click any of the grouping headers in the table view, then click one of the following options:
-        * **Expand group**
-        * **Collapse group**
-        * **Expand all**
-        * **Collapse all**
-        * **Expand subgroups**
-        * **Collapse subgroups**
-
-        Depending on the number of groupings you apply to the view, some options might not be available.
-   
-<!-- this is not available yet: 
-
-To sort grouped records: 
-
-1. Create a view, as described in [Create or edit record views](#create-or-edit-record-views). 
-1. ************************* add steps here for sorting grouped records****************
+        A list of request forms displays.
 
 -->
 
-### Add row colors
+1. Go to a list view in one of the following areas:
 
-1. (Optional) Click **Row colors** to define conditions and choose configure diferent colors for table rows.
+    * A connected records page for projects in a record's details area
+    * The Request forms page of a record type
 
-1. Click **Add color**, then search for a field then select it when it displays in the list. This is the field whose value you want to determine the color of a row.
+1. (Conditional) When available, do one of the following to modify the list view: 
 
-    For example, to display campaigns with a status of Active in green, select **Status**, then choose a modifier and a value for the field. 
+    1. Expand the dropdown views menu in the upper-left corner of the list to select another view, or click **New view** and create another one.
 
-    ![Row colors box with Active status selected and default color choice](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
+        >[!TIP]
+        >
+        >Views are shared throughout the system. If you create a Projects view for one record type, you can view it on other record types that display connected projects. 
 
-1. Click the drop-down menu for the color picker in the upper-left corner of the condition you selected, to pick the color for the condition, then click outside the color picker box to close it. 
+    1. Hover over the name of an existing view and click the **More** menu ![More menu](assets/more-menu.png), then click one of the following:
+        * **Rename**, to give the view a new name
+        * **Share**, to share the view with others
+        * **Delete**, to delete the view. 
+            
+        >[!NOTE]
+        >
+        >* You must have Manage permissions to a view to be able to edit, share, or delete it.
+        >
+        >* You cannot modify System Views. 
+        >
+        >* <span class="preview">You can reset a view that was shared with you to which you have only permissions to View, after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+        
+    1. Click the **Filter** icon ![Filter icon](assets/filter-icon.png) to add a filter to the view. Results are filtered immediately in the list. You cannot save and name filters. Filters are remembered when you access the page in future and they are part of shared views.
 
-    ![Drop-down color picker menu in Row colors box highlighted](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+        >[!TIP]
+        >
+        ><span class="preview">To apply a personalized filter, select one of the following options for a field value: 
+        >
+        ><div class="preview">
+        >
+        >* **Me (logged in user)** to refer to the logged-in user in fields referring to users. 
+        >
+        >* **My teams** or **My home team** to refer to your teams in fields referring to teams. 
+        >
+        >* **My groups** or **My home group** to refer to your groups in fields referring to groups.
+        >
+        >* **My company** to refer to your company in fields referring to companies.
+        > 
+        >* **My roles** or **My primary role** to refer to your job roles in fields referring to roles. 
+        >
+        ></div>
 
-1. (Optional) Click **Add condition** to add more fields and values to the first set of conditions 
+    1. Click the **Columns** icon ![Columns icon](assets/columns-icon.png) to select which columns to display or to hide in the view. 
+    1. Hover over the name of a column, then click the down-pointing arrow to the left of the column name, then click one of the following:
+        * **Rename**, to add a **Custom label** for the column. The name of the original field in Workfront does not change. 
+        * **Sort**, to sort the list by the selected field. A sorting icon indicating the direction of the sorting is added to the column header. 
+    1. Click the **+** icon in the upper-right corner of the list to add or remove columns to the list, then click **Save**. 
 
-    Or
-
-    Click **Add color** to add a new set of conditions and identify a new color. 
+        The **Column manager** opens. 
     
-    For example, you can display campaigns in a Planning status in yellow by defining a new set of conditions. 
+        You can add only existing fields to the list view. 
+        You cannot remove the primary field in the list view which displays in the first column. 
+    
+    1. <span class="preview">Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens.</span> <!--change the name of the box when they update it-->
+        <span class="preview">Do the following: </span>
 
-    ![Row colors box with Active and Planning status cusrom colors](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+        1. <span class="preview">Click **Add condition**.</span>
+        1. <span class="preview">In the **If** line, select  a field and choose a field value and add a modifier. Modifiers change, depending on the field type you choose. </span>
 
-1. (Optional) Turn on the **Apply to the entire row** setting in the upper-right corner of the Row colors box. The entire row where the condition is met automatically displays in the selected color. 
+            >[!TIP]
+            >
+            ><span class="preview">Only fields visible in the list view are available for conditional formatting.</span>
 
-    >[!NOTE]
-    >
-    >* If the Apply to the entire row setting is turned off, only the left side of the Primary field displays a narrow color indicator with the selected color. The setting is turned off by default.
-    >
-    >* You cannot apply row colors to an entire row when you have at least one grouping selected in the table view. 
+        1. <span class="preview">(Optional) Instead of adding a field value, click the **Compare to another field** icon ![Compare to another field](assets/compare-to-another-field-icon.png) and choose a field whose value you want to compare to the value of your selected field. For example, you can compare the Project Owner and the Project Sponsor fields. </span>
 
-1. Click outside the **Row colors** box to close it. The colors are applied automatically.
+            >[!TIP]
+            >
+            ><span class="preview">Only fields visible in the list view are available for conditional formatting. The fields you compare must be of the same type. </span>
+
+        1. <span class="preview">(Optional) Click **Add condition** in the **If** line to add more conditions to the same rule.</span>
+
+            >[!TIP]
+            >
+            ><span class="preview">You can add up to 10 conditions in a conditioning rule and you can have up to 20 rules for a field.</span>
+
+        1. <span class="preview">Click the **Or** connector between conditions to change to **And** and to indicate that multiple conditions must be met at the same time. **Or** is the default connector.</span>  
+        1. <span class="preview">In the **Format** line, select a field to indicate which column will be formatted.</span> <!--edit this area, if it changes names??-->
+        1. <span class="preview">(Optional) Click the **color circle** icon ![Color circle icon](assets/color-circle.png) next to the field selected, to expand it and choose another color in the **Cell fill** area to change the color of the background in a cell or pick a color from the **Text color** area to change the color of text in a cell.</span>
+        1. <span class="preview">Click the **Text format** icon ![Text format icon](assets/text-format-icon.png) and select from the following options to format the text in a cell:</span> 
+            * <span class="preview">Bold</span>
+            * <span class="preview">Italic</span>
+        
+        1. <span class="preview">Turn on the **Apply to row** setting to apply the formatting to the entire row of the field that meets the conditions.</span>         
+        1. <span class="preview">(Optional) Click **Add condition** in the **Format** box to add another rule for another field and the repeat the steps above.</span> 
+        1. <span class="preview">(Optional) Click **Clear all** to remove all formatting.</span>
+        1. <span class="preview">Click outside the **Format** box to close it.</span>
+
+            <span class="preview">This returns you to the list view.</span> 
+            <span class="preview">The formatting is applied immediately to the list view.</span>
+            <span class="preview">There is a blue dot next to the **Format cells** icon to indicate that the view has special formatting applied.</span>
+    
+    1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) <!-have they updated this to "Grouping"??-> to group items in the list by a common field. Select one of the options, or use the search bar to find a field.</span>
+
+        <span class="preview">The field must be a column in the list before you can group by it. Not all field types can be used for groupings.</span>
+
+    1. <span class="preview">Click the **Row height** icon ![Row height icon](assets/row-height-icon.png) to update the vertical length of a row. Choose from the following options: </span>
+
+        <div class="preview">
+    
+        * Short
+        * Standard. This is the default choice. 
+        * Medium
+        * Tall
+    
+        </div>
+
+    <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
+
+1. (Optional) Add a keyword in the search box in the upper-right corner of the list to search for an item. 
+
+    Items that match your search term are highlighted in the list.
+
+1. (Optional and conditional) In the projects <!--change projects to items here when more items will display in the Glist--> connected page, to add more items to the list and automatically connect them to the selected record, do one of the following:
+
+    * Click **Connect records** in the upper-right corner of the list to add existing items.
+    * Click **New row** at the bottom of the list to add new items. 
+1. Click the name of a connected item in the list to open it in another browser tab. 
+1. Double-click inside of a cell in the list to edit the information of a field, then press Enter to save your changes. 
+
+    Some fields are read-only. For example, the percent complete of a project is a field calculated by the system and you cannot manually edit it. 
+
+1. Hover over an item's name in the list and click the **More** menu [More menu](assets/more-menu.png) and click **View** to open the project in another tab
+     
+      Or
+
+      Select one or more items, and notice the actions bar at the bottom of the list, then click one of the following, when available. Depending on which area you access the list view from, click on one of the following options: 
+      
+    * **Delete** to delete the item. Deleting a project disconnects it from the record and moves it to the Workfront's Recycle Bin. Workfront administrators can recover deleted projects up to 30 days after they were deleted. Deleting a form does not delete the requests or records created when the form was submitted. 
+    * **Disconnect** to disconnect the project from the record. Disconnecting a project removes it and all the values of its lookup fields from the current record. 
+
+        <!--update screen shot at preview release-->
+
+        ![Actions bar in Connected records page List view](assets/actions-bar-connected-records-page-list-view.png)
+
+    * **Edit form**: Opens a Planning request form and allows you to edit it.
+    * **Unpublish**: Unpublishes a request form. This removes the form from the Requests area and users can no longer add requests to this record type. 
+    * **Share**: Opens the Sharing box for a request form where you can share with others.
+    * **Copy link**: Copies a link to a Planning request form so you can share it with other users. If the form is shared publicly, you can share the link with people outside of Workfront Planning. 
+
+        ![Actions bar in Planning requests list](assets/actions-bar-in-inake-forms-list.png)
+
+    
+

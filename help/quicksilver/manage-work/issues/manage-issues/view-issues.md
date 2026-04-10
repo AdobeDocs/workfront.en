@@ -6,6 +6,8 @@ description: You can view issues that are associated with a project, task, or it
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View issues
 
@@ -49,7 +51,8 @@ You can view issues that are associated with a project, task, or iteration.
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 

@@ -3,10 +3,12 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Create Queue Topics
 description: Queue Topics work in conjunction with Routing Rules to automatically assign incoming work to a user, job role, team, or to place it on a project. Queue Topics define the conditions that need to exist for the Routing Rule to be implemented.
-author: Becky
+author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create Queue Topics
 
@@ -24,7 +26,8 @@ Once created, you cannot move queue topics from one project or template to anoth
 
 +++ Expand to view access requirements for the functionality in this article.
 
-<!--drafted - replace table with P&P:
+<!--
+drafted - replace table with P&P:
 
 <table style="table-layout:auto"> 
  <col> 

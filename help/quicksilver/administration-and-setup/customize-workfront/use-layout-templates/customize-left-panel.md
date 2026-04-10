@@ -11,6 +11,8 @@ exl-id: b100ea35-e045-4021-b5be-2c9071b381da
 ---
 # Customize the left panel using a layout template
 
+{{highlighted-preview}}
+
 <!--Audited: 10/2024-->
 
 In a layout template, you can customize what users see in the left panel area throughout [!DNL Adobe Workfront].
@@ -40,7 +42,7 @@ After configuring a layout template, you must assign it to users for changes you
   <tr> 
    <td>Adobe Workfront package</td> 
    <td><p>Any</p>
-       <p>Adding custom applications to the Main Menu is only available for organizations licensed for Adobe App Builder.</p></td> 
+       <p>Adding custom applications to the left panel is only available for organizations licensed for Adobe App Builder.</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront license</td> 
@@ -128,8 +130,13 @@ For information, see [Access requirements in Workfront documentation](/help/quic
      </tr> 
      <tr> 
       <td>[!UICONTROL Projects]</td> 
-      <td>Projects <img src="assets/projects-in-main-menu.png"> in the [!UICONTROL Main menu] <img src="assets/main-menu-icon.png"></td> 
+      <td>Projects <img src="assets/projects-in-main-menu.png"> in the [!UICONTROL Main Menu] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projects]</td> 
+     </tr> 
+     <tr> 
+      <td><span class="preview">[!UICONTROL Resourcing]</span></td> 
+      <td><span class="preview">[!UICONTROL Resourcing] in the [!UICONTROL Main Menu] <img src="assets/main-menu-icon-left-nav.png"></span></td> 
+      <td><span class="preview">[!UICONTROL Planner] (cannot be hidden), [!UICONTROL Workload Balancer], [!UICONTROL Utilization], [!UICONTROL Resource Pools]</span></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Requests]</td> 
@@ -161,6 +168,21 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td>The name of an iteration</td> 
       <td>[!UICONTROL Stories], [!UICONTROL Issues], [!UICONTROL Story Board], [!UICONTROL Overview], [!UICONTROL Custom Forms], [!UICONTROL Updates] </td> 
      </tr> 
+     <tr> 
+       <td><span class="preview">[!UICONTROL User Details]</span></td> 
+       <td><span class="preview">The name of a user</span></td> 
+       <td><span class="preview">[!UICONTROL Details], [!UICONTROL Org Chart], [!UICONTROL Time Off], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer]</span></td> 
+     </tr>
+     <tr> 
+       <td><span class="preview">[!UICONTROL Rate Card]</span></td> 
+       <td><span class="preview">The name of a rate card</span></td> 
+       <td><span class="preview">[!UICONTROL Job Roles and Rates] (cannot be hidden), [!UICONTROL Rate Card Details]</span></td> 
+     </tr>
+     <tr> 
+       <td><span class="preview">[!UICONTROL Group]</span></td> 
+       <td><span class="preview">The name of a group</span></td> 
+       <td><span class="preview">[!UICONTROL Group Members], [!UICONTROL Subgroup Members], [!UICONTROL Group Details], [!UICONTROL Project Preferences], [!UICONTROL Tasks & Issues Preferences], [!UICONTROL Timesheets & Hours], [!UICONTROL Subgroups], [!UICONTROL Statuses], [!UICONTROL Event Notifications], [!UICONTROL Portfolios], [!UICONTROL Programs], [!UICONTROL Projects], [!UICONTROL Templates], [!UICONTROL Recently Deleted], [!UICONTROL Recently Restored], [!UICONTROL Approvals], [!UICONTROL Companies], [!UICONTROL Teams], [!UICONTROL Schedules], [!UICONTROL Timesheet Profiles], [!UICONTROL Layout Templates]</span></td> 
+     </tr>
      <!--
       <tr> 
        <td>Company</td> 
@@ -175,26 +197,12 @@ For information, see [Access requirements in Workfront documentation](/help/quic
        <td>My Timesheets, Timesheets I Approve, All Timesheets (cannot be hidden) </td> 
       </tr>
      --> 
-     <!--
-      <tr> 
-       <td>Resourcing</td> 
-       <td>The name of the resource</td> 
-       <td>Planner (cannot be hidden), Workload Balancer, Utilization, Resource Pools </td> 
-      </tr>
-     --> 
-     <!--
-      <tr> 
-       <td>User Details</td> 
-       <td>____________</td> 
-       <td>Details (cannot be hidden), Org Chart, Time Off, Custom Forms </td> 
-      </tr>
-     --> 
     </tbody> 
    </table>
 
    *Your company must purchase an additional license for Workfront Planning to be able to add this area to the left panel of projects, portfolios, and programs. For more information, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 
-   **Custom applications must be created separately before they become available as Main Menu options. For more information, see [Create a custom application for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
+   **Custom applications must be created separately before they become available as left panel options. For more information, see [Create a custom application for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
 
 1. In the **[!UICONTROL Left panel]** list, do any of the following to determine what users will see in the left panel for the [!DNL Workfront] area or object type you have selected:

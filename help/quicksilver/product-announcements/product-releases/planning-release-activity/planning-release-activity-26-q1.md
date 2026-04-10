@@ -7,6 +7,8 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: af1a54ea-1717-45fa-bb94-55774eb28f28
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # First Quarter 2026 release activity for Adobe Workfront Planning
 
@@ -141,7 +143,7 @@ For more information on configuring project connection views, including filters,
 
 >[!IMPORTANT]
 >
->This has been temporarily removed from  the Preview and Production environments.
+>This was temporarily removed from  the Preview and Production environments between January 20 - February 17, 2026.
 
 >[!NOTE]
 >

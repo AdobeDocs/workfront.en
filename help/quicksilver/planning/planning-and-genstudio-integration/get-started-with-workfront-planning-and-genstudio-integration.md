@@ -6,8 +6,11 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
-<!--Better metadata, at publishing:
+<!--
+Better metadata, at publishing:
 ---
 title: Get Started with the Workfront Planning and GenStudio for Performance Marketing Integration
 description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products. Learn some of the basics about how you can streamline your workflows using this integration.
@@ -24,9 +27,11 @@ recommendations: noDisplay, noCatalog
 
 # Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Organizations using both Adobe Workfront Planning and Adobe GenStudio for Performance Marketing often define marketing concepts like Campaigns, Products, Activations, and Personas in more detail than what GenStudio supports by default. 
 
@@ -126,7 +131,8 @@ For information about Adobe Workfront Planning access, see [Adobe Workfront Plan
 
 For more information about Adobe GenStudio for Performance Marketing, see [Adobe GenStudio for Performance Marketing User Guide](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -176,7 +182,8 @@ For more information about Adobe GenStudio for Performance Marketing, see [Adobe
    </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Overview of the Workfront Planning and GenStudio for Performance Marketing integration capabilities
 
@@ -209,11 +216,13 @@ Depending on how many Workfront instances your organization has, you automatical
    </tbody> 
 </table> 
 
-<!--Old for the second row in the table:
+<!--
+Old for the second row in the table:
 
 <p>The GenStudio workspace is visible from all Workfront instances</p>
 <p>All users with access to GenStudio for Performance Marketing and Workfront Planning have Contribute permissions on the GenStudio in Planning by default</p> 
-<p>Workfront administrators cannot grant Manage permissions to the GenStudio workspace to anyone</p>-->
+<p>Workfront administrators cannot grant Manage permissions to the GenStudio workspace to anyone</p>
+-->
 
 For information about Workfront Planning permissions, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
 
@@ -290,6 +299,8 @@ The sections below describe the following:
 ### Record type fields in the GenStudio workspace
 
 Record type fields are imported from GenStudio for Performance Marketing to Workfront Planning by default. 
+
+You can also create Planning fields for record types in the GenStudio workspace from Planning. 
 
 Consider the following about GenStudio record type fields: 
 

@@ -4,9 +4,11 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View: display the result of a calculation between two fields in a column'
 description: You can use text mode in a column to display a calculation between two fields.
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 303f8824-311a-4de0-9777-cfa11ecad1e1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View: display the result of a calculation between two fields in a column
 

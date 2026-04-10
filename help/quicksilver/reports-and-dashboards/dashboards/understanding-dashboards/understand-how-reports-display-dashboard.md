@@ -4,9 +4,11 @@ product-area: dashboards
 navigation-topic: understand-dashboards
 title: Understand how reports display on a dashboard
 description: You can manage how reports added to dashboards are displayed.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5ec2380e-e4fc-42f5-a553-b61c11573b9b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Understand how reports display on a dashboard
 

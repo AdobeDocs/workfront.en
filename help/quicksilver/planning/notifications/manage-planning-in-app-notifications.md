@@ -6,6 +6,8 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
+last-update: 2026-04-01T11:23:03-07:00
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 ---
 
 # Manage Adobe Workfront Planning in-app notifications
@@ -18,7 +20,7 @@ You can receive in-app notifications from Workfront Planning when the following 
    
    For information about tagging others in a record comment, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
 * Someone asks for your permission to access a view or a workspace <!--<span class="preview">or record</span>-->
-* Someone confirms your access has been granted for a view or a workspace <!--<span class="preview">or record</span>--> <!--Isk confirmed there is no notification for denying permissions - did not test-->
+* Someone confirms your access has been granted for a view or a workspace <!--<span class="preview">or record</span> Isk confirmed there is no notification for denying permissions - did not test-->
 
 ## Access requirements
 
@@ -149,8 +151,16 @@ OLD:
 
 ## Manage in-app notifications when requesting and granting permissions
 
-You receive in-app notifications when someone requests or grants you permissions to a view or a workspace. <!--<span class="preview">or record</span>-->
+You receive in-app notifications when someone requests or grants you permissions to a view, workspace, or record type. <!--<span class="preview">or record</span>-->
 
 For information about requesting, granting, or denying permissions, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). 
 
 For information about managing your Workfront Planning notifications, see [Manage Adobe Workfront Planning notification preferences](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+
+## Manage in-app notifications when approving or rejecting Planning requests
+
+You receive an in-app notification when someone submits a request for approval or when someone approves a request you submitted. 
+
+For information about submitting requests, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+
+For information about approving requests, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md). 

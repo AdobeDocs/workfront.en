@@ -3,8 +3,10 @@ navigation-topic: use-lists
 title: Export a List
 description: You can export a list of objects from Adobe Workfront. When the list of objects in Workfront contains more than 2000 items, exporting the list is the only way to review all items in the list on one page.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 31159d6d-f03a-4f84-a454-25a232971441
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Export a list
 

@@ -8,6 +8,8 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Deactivate or reactivate a user {#deactivate-or-reactivate-a-user}
 
@@ -43,6 +45,8 @@ You can reactivate a user at any time.
 >* Deactivating a user in Workfront removes the user's licenses to both Workfront and digital proofing. Additionally, the user can no longer be assigned work. When a user is deactivated, that user's Workfront license and proofing license become available to be used by another user. All other information in the deactivated user's profile remains unchanged.
 >
 >* Deactivating a user in Workfront does not remove the user from the Workfront Product Profile in the Adobe Admin Console. For more information, see [Delete users](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>
+>* If a user is in an Admin Console User Group(s), and the product profile has been added to one or more of those User Groups, deactivating the user from Workfront will not actually remove them from the product. The user must be removed from the User Group(s) in Admin Console.
 
 
 ## Access requirements
@@ -87,8 +91,10 @@ For more information, see [About deactivating Workfront administrators and Stand
 Be aware of the following when deactivating a user: 
 
 * The user won't be able to access the system.
-<!--* The user will be removed from Frame.io review links, assets, projects, and accounts.
-   * Reactivating the user does not automatically add them back to the Frame.io items. You must reassign the user manually to Workfront projects, tasks, and assets that require Frame.io collaboration.-->
+<!--
+* The user will be removed from Frame.io review links, assets, projects, and accounts.
+   * Reactivating the user does not automatically add them back to the Frame.io items. You must reassign the user manually to Workfront projects, tasks, and assets that require Frame.io collaboration.
+   -->
 * All data associated with the user will be retained.
 * You can assign a deactivated user's license to another user.
 
@@ -145,7 +151,8 @@ We recommend that you build a report for users that you have scheduled for deact
 <!--
 ### Asset review and approval impact when you reactivate a user
 
-Deactivated users lose access to their assigned Frame.io accounts as well as assigned projects, assets, and review links. If you choose to reactivate the user, you must manually reassign them to projects, tasks, and assets that require Frame.io collaboration. -->
+Deactivated users lose access to their assigned Frame.io accounts as well as assigned projects, assets, and review links. If you choose to reactivate the user, you must manually reassign them to projects, tasks, and assets that require Frame.io collaboration.
+-->
 
 ### Proofing impact when you reactivate a user
 

@@ -4,10 +4,12 @@ product-area: user-management;agile-and-teams
 navigation-topic: teams-and-groups
 title: "Teams and Groups: article index"
 description: Review these areas to learn about working with teams and groups.
-author: Jenny and Becky
+author: Courtney and Becky
 feature: People Teams and Groups
 recommendations: noDisplay, noCatalog
 exl-id: 1ff36a4b-637a-46f2-ac1a-6a8d2c146862
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Teams and groups: article index
 

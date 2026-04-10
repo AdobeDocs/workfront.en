@@ -3,9 +3,11 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: 'Add reports: article index'
 description: View the articles in this section.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 9be0ae99-f810-49f9-987c-e4f93ef1a86a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Add reports: article index
 

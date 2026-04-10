@@ -3,9 +3,11 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Create a report
 description: The information in this article has moved.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 076ee364-6ee7-4b50-ad38-54aebaf56036
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create a report
 
