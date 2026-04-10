@@ -63,8 +63,7 @@ To create a job role:
 {{step-1-to-setup}}
 
 1. In the left panel, click **[!UICONTROL Job Roles]**.
-1. Click **[!UICONTROL New Job Role]**.
-<!-- 1. Click **New Job Role > Create new job role**.  -->
+1. Click **[!UICONTROL New Job Role] <span class="preview">> Create new job role**.</span>
 1. Enter information in the following fields:
 
    * **Name**: Indicate a name for the job role. This is the name that displays everywhere in Workfront where the Job Role field displays.

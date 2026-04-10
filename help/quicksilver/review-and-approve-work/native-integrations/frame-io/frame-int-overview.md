@@ -24,8 +24,6 @@ Unified review and approvals powered by Workfront and Frame.io allows project co
 
 * The Workfront instance must be enabled on the Adobe Unified Experience and Adobe enterprise storage.
 
-* The integration must be configured by Adobe Professional Services. 
-
 
 ## Built on Adobe enterprise storage
 
