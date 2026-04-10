@@ -105,6 +105,10 @@ Take this piece out of the table above when we remove the new experience/ after 
 
    You cannot modify the allocation percentage for a team assigned to a task.
 
+   You may see one of these screens depending on your organization's Workfront or Workflow package.
+
    ![Modify allocation percentage](assets/advanced-assignments-allocation-percentage.png)
+
+   ![Modify allocation percentage](assets/new-aa-allocation-by-percentage.png)
 
 1. Click **Save**.
