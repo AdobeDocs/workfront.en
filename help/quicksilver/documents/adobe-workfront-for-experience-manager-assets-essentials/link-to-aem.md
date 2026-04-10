@@ -13,8 +13,9 @@ Content Advisor brings intelligent, context-aware discovery directly into Workfr
 
 You can use Content Advisor to link assets and folders from Experience Manager Assets to Workfront. Once linked, you can view and manage the asset in Workfront, and any changes made to the asset in Experience Manager Assets will be reflected in Workfront.
 
-To link assets and folders from Assets Essentials, see [Link assets and folders from Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md).
-
+>[!IMPORTANT]
+>
+>If your organization declines to sign the GenAI Rider agreement, you can still use Content Advisor to choose assets and folders in Experience Manager Assets, but you will not have access to AI-powered features such as AI Search, smart suggestions, or analyzing campaign briefs.
 
 ## Access requirements
 
@@ -70,12 +71,6 @@ Before you begin:
 ## Link an asset from Experience Manager Assets with Content Advisor
 
 You can now use Content Advisor to link assets from Experience Manager Assets directly within Workfront. Content Advisor is not available for Assets Essentials.
-
->[!IMPORTANT]
->
->If your organization declines to sign the GenAI Rider agreement, you can still use Content Advisor to choose assets and folders in Experience Manager Assets, but you will not have access to AI-powered features such as AI Search, smart suggestions, or analyzing campaign briefs.
-
-
 
 To link an asset:
 
