@@ -47,7 +47,7 @@ Your [!DNL Workfront] administrator has not enabled your [!DNL Workfront] enviro
 1. Go to the **[!UICONTROL Setup]** area.
 1. Expand the **[!UICONTROL System]** menu, then click **[!UICONTROL Preferences]**.
 
-1. Under the **[!UICONTROL Security]** section, select the **[!UICONTROL Let people use [!DNL Workfront]'s mobile applications and the [!DNL Workfront Outlook] Add-In]** option to enable it. 
+1. Under the **[!UICONTROL Security]** section, select the **[!UICONTROL Let people use [!DNL Workfront]'s mobile applications]** option to enable it. 
 
 1. Click **[!UICONTROL Save]**.\
-   All users in the system can now access [!DNL Workfront] from their mobile apps, and from [!DNL Outlook].
+   All users in the system can now access [!DNL Workfront] from their mobile apps.

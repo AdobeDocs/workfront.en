@@ -120,16 +120,6 @@ The following areas show the updated name of the objects:
 * Emails
 * Mobile Apps
 
-### Areas of [!DNL Workfront] that do not reflect the customized object names 
-
-The following areas do not show the updated name of the objects:
-
-<!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Referenced Object Type selection for a Typeahead field in a Custom Form </p> <p>(NOTE: drafting this because I don't think this is true)</p> </li>
-  -->
-
-* [!DNL Outlook] Add-in
-
 ### Implications of customizing object names
 
 You should be aware of the following when customizing object names in [!DNL Workfront]:
