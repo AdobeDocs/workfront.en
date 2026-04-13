@@ -86,8 +86,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td> <p>Allows users to use the Session ID information of a site when adding an External Page to a Dashboard.</p> <p>This option is insecure and off by default. It is recommended to use OAuth for integrations instead.</p> <p>For more information about adding External Pages to a Dashboard, see <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Embed an external web page in a dashboard</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Let people use Workfront's mobile applications and the Workfront Outlook Add-In</td> 
-      <td> <p>Allows users to access the mobile apps (Workfront View for iPad and mobile phone apps) and the Workfront Outlook app.</p> <p>This option is enabled by default. </p> <p>For information about Workfront View, see <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Use Adobe Workfront View</a>. For more information about the mobile apps, see <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Use the Adobe Workfront mobile app: article index</a>.</p> </td> 
+      <td role="rowheader">Let people use Workfront's mobile applications</td> 
+      <td> <p>Allows users to access the mobile apps (Workfront View for iPad and mobile phone apps)</p> <p>This option is enabled by default. </p> <p>For information about Workfront View, see <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Use Adobe Workfront View</a>. For more information about the mobile apps, see <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Use the Adobe Workfront mobile app: article index</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Collaborate with people without Workfront accounts by using email addresses</p> </td> 
