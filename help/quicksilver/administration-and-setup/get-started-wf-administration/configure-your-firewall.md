@@ -64,12 +64,6 @@ For more information, see the section [View your organization's cluster and Work
 
 ## IP addresses to add to the allowlist
 
->[!IMPORTANT]
->
->Some Workfront integrations do not work when the allowlist is enabled because they can't be configured with a static IP address. To use the following integrations, you must disable the allowlist.
->
->* Workfront for Outlook 
-
 * [IP addresses to allow for Clusters 1, 2, 3, 5, 7, 8 and 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9) 
 * [IP addresses to allow for Cluster 4](#ip-addresses-to-allow-for-cluster-4) 
 * [IP addresses to allow for Cluster 6](#ip-addresses-to-allow-for-cluster-6) 

@@ -143,7 +143,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 * **Automatically set the task status to In Progress when tasks are self-assigned**: When this option is selected, work that the user self-assigns is automatically set to In Progress status instead of New.
 
-* **Automatically generate proofs when uploading documents**: Check this option if you want the documents that the user uploads to immediately generate a proof.
+>[!NOTE]
+>
+>The option "Automatically generate proofs when uploading documents" has been removed.
 
 ### Notifications
 

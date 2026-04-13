@@ -131,8 +131,6 @@ When you receive a Workfront email notification, you can quickly add an update t
 >[!IMPORTANT]
 >
 >* You must have permissions to at least View the object that triggered the update before you can reply to the email notification. 
->
->* To avoid submission errors, Outlook users should delete the existing email content before typing your reply.
 
 To add an update to a Workfront email:
 
