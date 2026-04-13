@@ -11,8 +11,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Share financial permissions on an object
 
-{{highlighted-preview}}
-
 Your Adobe Workfront administrator can grant you access to view or edit financial data when assigning your access level. For more information, see [Grant access to financial data](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 Along with the access level that users are granted, you can also grant them permissions to View or Manage finances for specific projects, tasks, or issues that you have access to share.
@@ -110,10 +108,8 @@ To grant financial permissions to an object:
 
 1. In the same drop-down menu, click the advanced options icon next to the permission level, then do one of the following:
 
-   * If you selected one of the three options in the previous step, make sure **View Finance** is selected.
-   * If you selected **Manage Finance** in the previous step, make sure **Manage Finance** is selected.
-   * <span class="preview">For any permission level, select **View billing rates**, **View cost rates**, and **View general finance** as needed.</span>
-   * <span class="preview">For **Manage** permissions only, select **Edit billing rates**, **Edit cost rates**, and **Edit general finance** as needed.</span>
+   * For any permission level, select **View billing rates**, **View cost rates**, and **View general finance** as needed.
+   * For **Manage** permissions only, select **Edit billing rates**, **Edit cost rates**, and **Edit general finance** as needed.
 
 1. Click **Save**.
 
@@ -142,55 +138,37 @@ The following table displays which financial permissions users gain when you gra
    <td>  </td> 
   </tr> 
   <tr> 
-   <td>Manage/ View Role Billing and Cost Rates</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td>Manage/ View User Billing and Cost Rates</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td>View Finance</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>  ✓</td> 
-  </tr>
-  <tr> 
-   <td><span class="preview">Edit Billing Rates</span></td> 
+   <td>Edit Billing Rates</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr> 
   <tr> 
-   <td><span class="preview">Edit Cost Rates</span></td> 
+   <td>Edit Cost Rates</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr>  
   <tr> 
-   <td><span class="preview">Edit General Finance</span></td> 
+   <td>Edit General Finance</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr>
   <tr> 
-   <td><span class="preview">View Billing Rates</span></td> 
+   <td>View Billing Rates</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
   </tr> 
   <tr> 
-   <td><span class="preview">View Cost Rates</span></td> 
+   <td>View Cost Rates</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
   </tr>  
   <tr> 
-   <td><span class="preview">View General Finance</span></td> 
+   <td>View General Finance</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
@@ -219,3 +197,21 @@ The following table displays which financial permissions users gain when you gra
 &#42;Requires additional Resource Management access.
 
 For information about Resource Management access, see [Grant access to Resource Management](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+
+<!--
+These rows removed from last table.
+
+  <tr> 
+   <td>Manage/ View Role Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td>Manage/ View User Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+
+-->
