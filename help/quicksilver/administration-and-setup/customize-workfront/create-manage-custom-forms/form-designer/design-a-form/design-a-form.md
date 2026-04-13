@@ -665,7 +665,6 @@ For examples of using the External lookup field to call the same instance of Wor
 
 >[!NOTE]
 >
->* External lookup fields are not supported in the Outlook plug-in.
 >* External lookup fields are not available in lists when the field has a dependency on another field.
 
 To add an external lookup:
