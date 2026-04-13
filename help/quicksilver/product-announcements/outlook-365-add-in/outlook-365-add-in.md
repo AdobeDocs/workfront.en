@@ -4,13 +4,13 @@ content-type: release-notes
 navigation-topic: announcements
 title: Outlook 365 Add-In
 recommendations: noDisplay, noCatalog
-description: The following articles are available in this section.
+description: This add-in is no longer available
 author: Luke
 ---
 
 # Outlook 365 Add-In
 
-This section contains the following articles:
-
-* [Outlook 365 Add-In Is Now Available](../../product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
+>[!NOTE]
+>
+>This Add-In is no longer available.
 
