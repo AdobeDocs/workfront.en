@@ -1,17 +1,17 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Link assets and folders with Content Advisor powered by Experience Manager Assets
-description: You can use Content Advisor to link an asset or folder from Experience Manager Assets to any Adobe Workfront object that supports documents. Content Advisor brings intelligent, context-aware discovery directly into Workfront, helping you quickly find relevant, approved content.
+title: Link content and folders with Content Advisor powered by Experience Manager Assets
+description: You can use Content Advisor to link content or folders from Experience Manager Assets to any Adobe Workfront object that supports documents. Content Advisor brings intelligent, context-aware discovery directly into Workfront, helping you quickly find relevant, approved content.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
 ---
-# Link assets and folders with Experience Manager Assets' Content Advisor
+# Link content and folders with Experience Manager Assets' Content Advisor
 
 Content Advisor brings intelligent, context-aware discovery directly into Workfront, helping you quickly find relevant, approved content based on context. With features such as smart suggestions, Dynamic Media renditions, and detailed asset metadata, it enables you to efficiently evaluate and reuse content without leaving Workfront, accelerating content creation while maintaining brand consistency.
 
-You can use Content Advisor to link assets and folders from Experience Manager Assets to Workfront. Once linked, you can view and manage the asset in Workfront, and any changes made to the asset in Experience Manager Assets will be reflected in Workfront.
+You can use Content Advisor to link content and folders from Experience Manager Assets to Workfront. Once linked, you can view and manage the content in Workfront, and any changes made to the content in Experience Manager Assets will be reflected in Workfront.
 
 >[!IMPORTANT]
 >
@@ -68,11 +68,11 @@ Before you begin:
 
 
 
-## Link an asset from Experience Manager Assets with Content Advisor
+## Link content from Experience Manager Assets with Content Advisor
 
-You can now use Content Advisor to link assets from Experience Manager Assets directly within Workfront. Content Advisor is not available for Assets Essentials.
+You can now use Content Advisor to link content from Experience Manager Assets directly within Workfront. Content Advisor is not available for Assets Essentials.
 
-To link an asset:
+To link content:
 
 1. Go to the **Documents** area in Workfront where you want to add the document.
 1. Select **Add New**, then select the Experience Manager integration your administrator set up.
@@ -132,7 +132,7 @@ To link an asset:
 
 ### Link a new version from Experience Manager Assets with Content Advisor
 
-You can pull a new asset over from Experience Manager Assets or Assets Essentials and add it to an existing asset as a new version. If the document is already linked and a new version is added in Experience Manager Assets or Assets Essentials, the new version appears automatically in Workfront.
+You can pull new content over from Experience Manager Assets or Assets Essentials and add it to an existing asset as a new version. If the document is already linked and a new version is added in Experience Manager Assets or Assets Essentials, the new version appears automatically in Workfront.
 
 To link a new version:
 
