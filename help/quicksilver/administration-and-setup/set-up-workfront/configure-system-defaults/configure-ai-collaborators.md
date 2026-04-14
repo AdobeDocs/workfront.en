@@ -23,7 +23,7 @@ For example, you can configure a reviewer-type AI Collaborator with brand guidel
 
 Available AI Collaborator types include:
 
-* Reviewer: Create a collaborator using brands<!-- or Adobe Brand Intelligence-->, then assign the collaborator as a reviewer on assets.
+* Reviewer: Create a collaborator using brands or Adobe Brand Intelligence, then assign the collaborator as a reviewer on assets.
 
    For more information, see [Get started with the Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
@@ -57,16 +57,22 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Prerequisites
 
-
-
 * Your organization must have a signed Adobe Gen AI Agreement on file. 
 
    For more information, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in the article AI Assistant in Workfront.
 * You must have configured a brand in Workfront before you can use it for a Reviewer-type AI Collaborator.
 
    For instructions, see [Create and manage brands for the Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
+* To use Adobe Brand Intelligence for a Reviewer AI Collaborator, your organization must use the unified review and approval experience in Workfront. 
+
+   For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md). 
 
 ## Create a new Reviewer-type AI Collaborator
+
+Reviewer AI Collaborators can be configured to use Workfront brands, or Adobe Brand Intelligence.
+
+* **Brands** are created in Workfront. You can create brands in Workfront by uploading PDF files that contain your brand guidelines or by manually entering brand elements.
+* **Adobe Brand Intelligence** is based in Frame.io. When an AI Collaborator reviews an asset using Adobe Brand Intelligence, you can view comments made by the Reviewer in Frame.io.  
 
 {{step-1-to-setup}}
 
@@ -79,9 +85,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >Currently, only the Reviewer type is available. More AI Collaborator types will be available in the future.
 
 1. In the Collaborator Name field, enter a name for the collaborator. This is the name that appears in the list of available assignees on a task.
-<!--1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.-->
-<!--1. (Conditional) If the AI Collaborator will use Adobe Brand Intelligence, select the tenant that it will use.-->
-1. <!--(Conditional) If the AI Collaborator will use a Brand,-->Select the brand and brand guideline that it will use.
+1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.
+1. (Conditional) If the AI Collaborator will use Adobe Brand Intelligence, select the tenant that it will use.
+1. (Conditional) If the AI Collaborator will use a Brand,Select the brand and brand guideline that it will use.
 1. Click **Save**.
 
 ## Manage AI Collaborators
