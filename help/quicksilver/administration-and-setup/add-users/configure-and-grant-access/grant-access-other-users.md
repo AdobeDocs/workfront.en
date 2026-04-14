@@ -60,7 +60,7 @@ You can manage what information users can view and edit for other users using a 
 ## Configure users' access to edit users using a custom access level
 
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. To change the ability of users with a Plan or Work license to view the profiles of other users:
+1. To change the ability of users with a Standard, Plan, or Work license to view the profiles of other users:
 
    1. Click the gear icon ![](assets/gear-icon-settings.png) on the **View** button to the right of **Users**.
    
@@ -68,7 +68,7 @@ You can manage what information users can view and edit for other users using a 
 
       ![fine tune user settings](assets/fine-tune-users.png)
 
-1. To modify the ability of users with a Plan license access to edit other users, click the gear icon ![](assets/gear-icon-settings.png) on the **Edit** button to the right of **Users**, then select the abilities you want to grant:
+1. To modify the ability of users with a Standard or Plan license access to edit other users, click the gear icon ![](assets/gear-icon-settings.png) on the **Edit** button to the right of **Users**, then select the abilities you want to grant:
 
    <table style="table-layout:auto"> 
     <col> 

@@ -119,17 +119,32 @@ A user with no access to financial data does not have access to the following:
 
 * Finance section under Project and Task objects
 * Business case
-* Billing rates and Billing records on projects
+* Billing records on projects
+* Billing rates and cost rates on projects
+
+<!--  
+
 * Cost per hour and billing per hour on user profiles
 * Cost per hour and billing per hour on Job Roles
+
+-->
 
 ### View access
 
 A user with View access to financial data can view (not edit) the following:
 
 * Finance section under Project and Task objects
+
+   You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
+
 * Business case
-* Billing rates and Billing records on projects
+* Billing records on projects
+* Billing rates and cost rates on projects
+
+   You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
+
+<!--  
+
 * Cost per hour and billing per hour on user profiles
 
   You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
@@ -137,14 +152,25 @@ A user with View access to financial data can view (not edit) the following:
 * Cost per hour and billing per hour on Job Roles
 
   You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
+
+-->  
 
 ### Edit access
 
 A user with Edit access to financial data can view and edit the following:
 
 * Finance section under Project and Task objects
+
+  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the Edit button in step 4 above.
+
 * Business case
-* Billing rates, billing records, and cost rates on projects
+* Billing records on projects
+* Billing rates and cost rates on projects
+
+  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the Edit button in step 4 above.
+
+<!--  
+
 * Cost per hour and billing per hour on user profiles
 
   You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the Edit button in step 4 above.
@@ -152,3 +178,7 @@ A user with Edit access to financial data can view and edit the following:
 * Cost per hour and billing per hour on Job Roles
 
   You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the Edit button in step 4 above.
+
+-->
+
+
