@@ -52,7 +52,9 @@ You can share the following objects in Workfront with other users:
    * [Share a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [Share a calendar report](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-* **Filters, views, and groupings**: For information, see [Share a filter, view, or grouping](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md). 
+* **Filters, views, and groupings**: For information, see [Share a filter, view, or grouping](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+
+* **Rate cards**: For information, see [Share a rate card](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md).
 
 * **Plans**: For information, see [Share a plan in the Scenario Planner](../../scenario-planner/share-a-plan.md).
 
