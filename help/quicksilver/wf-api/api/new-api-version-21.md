@@ -16,7 +16,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 >
 >This API version change features a breaking change that may affect your existing API calls. This is due to the fact that API version 21 uses Event Subscriptions version 2.
 >
-> For multi-select fields, Event Subsscriptions version 2 always sends as an array. Version 1 sent an array if more than one value selected. If only one value was selected, it sent a string.
+> For multi-select fields, Event Subscriptions version 2 always sends as an array. Version 1 sent an array if more than one value selected. If only one value was selected, it sent a string.
 
 Adobe Workfront released API version 21 on October 23, 2025. API version 21 features the following changes from version 20.
 
