@@ -87,7 +87,7 @@ For more information, see [Edit a user's profile](/help/quicksilver/administrati
 
    Workfront applies the override job role rate to the hours that occur during these time frames when calculating cost on the project.
 
-   There should be no gaps between the time frames of two override rates. The **Start Date** of an override rate should be the day immediately following the **End Date** of the previous override date.
+   Workfront allows you to leave gaps between override timeframes, but you will receive a warning to confirm this is intentional.
 
    You are not required to specify a Start Date for the first override rate, nor an End Date for the last override rate.
 
