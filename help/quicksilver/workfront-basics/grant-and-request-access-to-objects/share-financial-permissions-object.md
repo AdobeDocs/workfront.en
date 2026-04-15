@@ -68,12 +68,11 @@ drafted for P&P:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial  Data</p>  </td> 
+   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial Data</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher to projects, tasks, and issues that include at least View Finance permissions</p>
-   <p><span class="preview">View permissions or higher to projects, tasks, and issues that include at least View billing rates, View cost rates, or View general finance permissions</span></p></td> 
+   <td> View permissions or higher to projects, tasks, and issues that include at least View billing rates, View cost rates, and View general finance permissions</td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,6 +87,7 @@ Consider the following when granting financial permissions to objects:
 
 * You can grant financial permissions to projects, tasks, and issues.
 * Permissions can be inherited: if you have View General Finance permissions to a project, you automatically inherit View General Finance permissions to the tasks and issues on the project.
+* Granting permissions to billing and cost rates allows the user to view or edit the rates on that object. Permissions to general finance allow the user to view or edit general finance fields (not related to billing or cost rates) on the object.
 
 To grant financial permissions to an object:
 

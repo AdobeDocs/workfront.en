@@ -39,7 +39,7 @@ You can view or edit the financial information of a project by accessing the Fin
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to a project or higher that include View Finance permissions</p> <p>Manage permissions to the project that include Manage Finance to edit financial information for the project</p> </td> 
+   <td> <p>View permissions to a project or higher that include View General Finance permissions</p> <p>Manage permissions to the project that include Edit General Finance to edit financial information for the project</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -122,14 +122,6 @@ Consider the following when viewing or editing information in the Finance area:
      <tr> 
       <td role="rowheader">Billed Revenue</td> 
       <td> <p>Revenue billed to clients or other parties which is captured in Billing Records. For more information about billing records, see the article <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Create billing records</a>. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
      </tr> 
     </tbody> 
    </table>

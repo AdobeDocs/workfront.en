@@ -293,11 +293,23 @@ The following table displays what permissions you can grant users when allowing 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td scope="row">Edit Finance*</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
+   <td> <p>Edit Billing Rates*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
+  <tr> 
+   <td> <p>Edit Cost Rates*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Edit General Finance*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+  </tr>
   <tr> 
    <td scope="row">Add/Edit Expenses</td> 
    <td>✓</td> 
@@ -305,10 +317,22 @@ The following table displays what permissions you can grant users when allowing 
    <td>  </td> 
   </tr> 
   <tr> 
-   <td scope="row">View Finance</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td> <p>View Billing Rates*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>View Cost Rates*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>View General Finance*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td scope="row">Updates/Comments</td> 
