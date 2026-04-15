@@ -39,7 +39,7 @@ You can configure a project to use company-level billing rates instead of projec
   </tr> 
   <tr> 
    <td>Object permissions</td> 
-   <td>Manage permissions to the project with permissions to Manage Finance</td> 
+   <td>Manage permissions to the project with permissions to Edit Billing Rates and General Finance</td> 
   </tr> 
  </tbody> 
 </table>
