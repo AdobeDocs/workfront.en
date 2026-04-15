@@ -21,11 +21,7 @@ Project coordinators manage work in Workfront while creatives, marketers, and st
 
 ## Integration requirements
 
-* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
-
-* Users can belong to only one Workfront instance within the IMS organization.
-
-* The Workfront instance must be enabled on the Adobe Unified Experience and Adobe enterprise storage.
+* The Workfront instance must be enabled on the Adobe Unified Experience.
 
 
 ## Built on Adobe enterprise storage
