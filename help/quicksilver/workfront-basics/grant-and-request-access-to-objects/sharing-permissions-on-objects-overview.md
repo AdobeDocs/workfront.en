@@ -114,7 +114,7 @@ The following table illustrates the level of permissions that you can select whe
      <li><p>View the object</p></li> 
      <li><p>Add documents to the object</p></li> 
      <li><p>Add issues to the object (if it is a task or a project)</p></li> 
-     <li><p>View Finance information about the object</p></li> 
+     <li><p>View cost rates, billing rates, or general finance information about the object</p></li> 
      <li> <p>Share the object<br></p> <p>When you share the object, you can grant other users the same permission level you have only on the object, not a higher level.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -136,7 +136,7 @@ The following table illustrates the level of permissions that you can select whe
     <ul> 
      <li>All the actions included with the View and Contribute permissions</li> 
      <li>Delete it</li> 
-     <li>Manage Finance information in it</li> 
+     <li>Manage cost rates, billing rates, or general finance information in it</li> 
     </ul> </td> 
   </tr> 
   <tr> 
