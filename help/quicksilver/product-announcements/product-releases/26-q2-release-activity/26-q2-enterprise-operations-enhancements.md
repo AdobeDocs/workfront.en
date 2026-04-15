@@ -194,6 +194,7 @@ For more information, see [Create and edit business rules](/help/quicksilver/adm
 >
 >This feature is available for organizations on all Workfront and Workflow packages.
 >Note that rate cards are only available for organizations on the Workflow Ultimate package.
+
 Workfront allows you to leave gaps between date ranges on billing and cost rates, but you will receive a warning to confirm this is intentional.
 
 There can be gaps between the date ranges everywhere rates exist:
