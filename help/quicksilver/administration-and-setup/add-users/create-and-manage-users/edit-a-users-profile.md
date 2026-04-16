@@ -11,8 +11,6 @@ exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
 ---
 # Edit a user's profile
 
-{{highlighted-preview}}
-
 <!--
 
 >[!IMPORTANT]
@@ -143,7 +141,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 * **Automatically set the task status to In Progress when tasks are self-assigned**: When this option is selected, work that the user self-assigns is automatically set to In Progress status instead of New.
 
-* **Automatically generate proofs when uploading documents**: Check this option if you want the documents that the user uploads to immediately generate a proof.
+>[!NOTE]
+>
+>The option "Automatically generate proofs when uploading documents" has been removed.
 
 ### Notifications
 
@@ -311,15 +311,19 @@ For more information, see [Configure event notifications for everyone in the sys
 
   For date effective cost rates, click **Add Rate**. Enter the value of the cost rate for the time period, and assign a Start Date and End Date as needed. Cost Rate 1 will not have a start date and the last cost rate will not have an end date.
 
-  Some dates are added automatically. For example, if Cost Rate 1 does not have an end date, and you add Cost Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Cost Rate 1 so that no gaps exist.
+  <!--Some dates are added automatically. For example, if Cost Rate 1 does not have an end date, and you add Cost Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Cost Rate 1 so that no gaps exist.-->
 
-* <span class="preview">**Cost rate override allowed**: Turn on this option to allow cost rate overrides for this user on projects. For more information, see [Override user cost rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).</span>
+  Workfront allows you to leave gaps between date ranges, but you will receive a warning to confirm this is intentional.
+
+* **Cost rate override allowed**: Turn on this option to allow cost rate overrides for this user on projects. For more information, see [Override user cost rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).
 
 * **Billing Rate**: The amount of billing per hour for the user.
 
   For date effective billing rates, click **Add Rate**. Enter the value of the billing rate for the time period, and assign a Start Date and End Date as needed. Billing Rate 1 will not have a start date and the last billing rate will not have an end date.
 
-  Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add a second with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.
+  <!--Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add a second with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.-->
+
+  Workfront allows you to leave gaps between date ranges, but you will receive a warning to confirm this is intentional.
   
   ![User cost and billing rates](assets/user-cost-billing-rates-2025.png)
 
@@ -332,8 +336,6 @@ Associate an existing user custom form with this user. You must create a custom 
 >Advanced custom form features such as External lookup fields and Workfront native fields are only available when you open the user record on the details page, not on the Edit User dialog. (From the list of users, click the user name to open the details.)
 
 For information about creating custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-
-<div class="preview">
 
 ### Attributes
 
@@ -352,8 +354,6 @@ Rate attributes are supported in areas of Workfront where rates exist, such as j
       The **Start Date** for the next set is added automatically.
 
    1. Add the attribute values for the next attribute set. These values take effect on the start date.
-
-</div>
 
 ### Comment
 

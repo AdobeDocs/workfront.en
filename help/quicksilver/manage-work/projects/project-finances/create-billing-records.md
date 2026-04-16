@@ -38,7 +38,7 @@ You can't create billing records for tasks; you can only create billing records 
   </tr> 
   <tr> 
    <td>Object permissions</td> 
-   <td>Manage permissions to the project with permissions to Manage Finance</td> 
+   <td>Manage permissions to the project with permissions to Edit Billing Rates and General Finance</td> 
   </tr> 
  </tbody> 
 </table>

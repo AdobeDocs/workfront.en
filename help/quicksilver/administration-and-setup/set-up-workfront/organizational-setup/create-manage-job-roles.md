@@ -15,13 +15,11 @@ exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-{{highlighted-preview}}
-
 >[!IMPORTANT]
 >
 >With the 25.11 release, the Override Currency for job roles was deprecated in Production. (The deprecation took place on October 30 in the Preview environment.) Instead of having a base currency and override currencies, one currency is now available for job roles, and the cost and billing rates are defined using that currency.
 
-As an [!DNL Adobe Workfront] administrator or a user with administrative access to Job Roles, you can create job roles that can be assigned to users and delete default job roles that are not relevant to your organization. For information about administrative access in [!DNL Workfront], see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+As an [!DNL Adobe Workfront] administrator or a Standard user with Edit access to Job Roles, you can create job roles that can be assigned to users and delete default job roles that are not relevant to your organization. For information about administrative access in [!DNL Workfront], see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 >[!TIP]
 >
@@ -63,7 +61,7 @@ To create a job role:
 {{step-1-to-setup}}
 
 1. In the left panel, click **[!UICONTROL Job Roles]**.
-1. Click **[!UICONTROL New Job Role] <span class="preview">> Create new job role**.</span>
+1. Click **[!UICONTROL New Job Role] > Create new job role**.
 1. Enter information in the following fields:
 
    * **Name**: Indicate a name for the job role. This is the name that displays everywhere in Workfront where the Job Role field displays.
@@ -77,45 +75,7 @@ To create a job role:
 
       For information about deactivating job roles, see [Deactivate job roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
 
-   * **Currency**: The Base Currency is shown by default. The Workfront administrator adds the Base Currency in the Setup area. You can change the selection to another available currency, and you can change the currency on effective dated time ranges.
-
-      >[!TIP]
-      >
-      >Only currencies available in the Exchange Rates area in your system are available in this field. If you only have one currency set up, only that currency is available.
-
-      For information about setting up the Base Currency in Workfront, see [Set up exchange rates](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
-
-      For information about changing the currency of a project, see [Change the project currency](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
-   
-   * **Cost Rate**: This is the cost per hour rate of the job role. This value calculates the planned and the actual costs of tasks and issues associated with the role, and ultimately the planned and actual costs of the projects. Enter the rate using the selected currency.
-
-      For date effective cost rates, click **Add Rate**. Enter the value of the cost/hour for the time period, and assign a Start Date and End Date as needed. The first cost rate will not have a start date and the last cost rate will not have an end date.
-
-      Some dates are added automatically. For example, if the first cost rate does not have an end date, and you add a second cost rate with a start date of May 1, 2025, an end date of April 30, 2025 is added to the first cost rate so that no gaps exist.
-
-      For information about how Workfront calculates cost, see [Track costs](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
-
-      >[!TIP]
-      >
-      >When editing an existing job role, you can sort the list to see the most recent start date at the top of the rate list.
-
-   * **Billing Rate**: This is the billing per hour rate of the job role. This value calculates the planned and actual revenues of tasks and issues associated with the role, and ultimately the planned and actual revenues of the projects. Enter the rate using the selected currency.
-
-      For date effective billing rates, click **Add Rate**. Enter the value of the billing/hour for the time period, and assign a Start Date and End Date as needed. The first billing rate will not have a start date and the last billing rate will not have an end date.
-
-      Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, 2025, an end date of April 30, 2025 is added to the first billing rate so that no gaps exist.
-
-      For information about how Workfront calculates revenue, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
-
-      >[!TIP]
-      >
-      >When editing an existing job role, you can sort the list to see the most recent start date at the top of the rate list.
-
-<!-- Remove or hide the billing rate and cost rate bullets on April 16 for GA -->
-
 1. Click **[!UICONTROL Create Job Role]**. The job role is now available to be assigned to tasks, issues, approvals, or you can share layout templates or other objects with it. For information about all uses of job roles in [!DNL Workfront], see [Job role overview](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). For information about deleting a job role, see [Delete job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
-
-<div class="preview">
 
 ## Add rates and attributes to a job role
 
@@ -170,7 +130,9 @@ For more information, see [Define rate attributes](/help/quicksilver/administrat
 
    For date effective billing rates, click **Add Rate**. Enter the value of the billing/hour for the time period, and assign a Start Date and End Date as needed. The first billing rate will not have a start date and the last billing rate will not have an end date.
 
-   Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, an end date of April 30 is added to the first billing rate so that no gaps exist.
+   <!-- Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, an end date of April 30 is added to the first billing rate so that no gaps exist.-->
+
+   Workfront allows you to leave gaps between date ranges, but you will receive a warning to confirm this is intentional.
 
    For information about how Workfront calculates revenue, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
@@ -196,8 +158,6 @@ For more information, see [Define rate attributes](/help/quicksilver/administrat
 
 1. Click [!UICONTROL **Save**].
 
-</div>
-
 <!--
    * **Override Currency Cost Rate**: This is the cost per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role.
 
@@ -220,6 +180,45 @@ For more information, see [Define rate attributes](/help/quicksilver/administrat
      >When updating an existing job role that already has a billing rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Billing Rate, the billing rate of the job role also updates automatically.
 
 -->   
+
+
+<!--
+
+   * **Currency**: The Base Currency is shown by default. The Workfront administrator adds the Base Currency in the Setup area. You can change the selection to another available currency, and you can change the currency on effective dated time ranges.
+
+      >[!TIP]
+      >
+      >Only currencies available in the Exchange Rates area in your system are available in this field. If you only have one currency set up, only that currency is available.
+
+      For information about setting up the Base Currency in Workfront, see [Set up exchange rates](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+      For information about changing the currency of a project, see [Change the project currency](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
+   
+   * **Cost Rate**: This is the cost per hour rate of the job role. This value calculates the planned and the actual costs of tasks and issues associated with the role, and ultimately the planned and actual costs of the projects. Enter the rate using the selected currency.
+
+      For date effective cost rates, click **Add Rate**. Enter the value of the cost/hour for the time period, and assign a Start Date and End Date as needed. The first cost rate will not have a start date and the last cost rate will not have an end date.
+
+      Some dates are added automatically. For example, if the first cost rate does not have an end date, and you add a second cost rate with a start date of May 1, 2025, an end date of April 30, 2025 is added to the first cost rate so that no gaps exist.
+
+      For information about how Workfront calculates cost, see [Track costs](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+
+      >[!TIP]
+      >
+      >When editing an existing job role, you can sort the list to see the most recent start date at the top of the rate list.
+
+   * **Billing Rate**: This is the billing per hour rate of the job role. This value calculates the planned and actual revenues of tasks and issues associated with the role, and ultimately the planned and actual revenues of the projects. Enter the rate using the selected currency.
+
+      For date effective billing rates, click **Add Rate**. Enter the value of the billing/hour for the time period, and assign a Start Date and End Date as needed. The first billing rate will not have a start date and the last billing rate will not have an end date.
+
+      Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, 2025, an end date of April 30, 2025 is added to the first billing rate so that no gaps exist.
+
+      For information about how Workfront calculates revenue, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+      >[!TIP]
+      >
+      >When editing an existing job role, you can sort the list to see the most recent start date at the top of the rate list.
+
+-->
 
 
 

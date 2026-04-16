@@ -11,7 +11,7 @@ exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
 ---
 # Add or delete object types from an existing custom form
 
-You can add or delete object types from an existing custom form with the form designer. 
+You can add or delete object types from an existing custom form with the form designer.
 
 ## Access requirements
 
@@ -51,7 +51,6 @@ You can add additional object types to the form so that it can be attached to mu
 >
 >For more information, see [How multiple object types can affect section break permissions](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions).
 
-
 {{step-1-to-setup}}
 
 1. Click **Custom Forms** in the left panel.
@@ -60,9 +59,9 @@ You can add additional object types to the form so that it can be attached to mu
 
 1. Select the custom form you want to add additional object types to, then click ![Edit icon](assets/edit-icon2.png).
 
-1. At the top of the form, click the plus sign + after **Object Types**, then select the type you want in the menu that displays. You can repeat this to add as many object types as you want. 
+1. At the top of the form, click **Object Types**, then select the type you want to add in the menu that displays. You can repeat this to add as many object types as you want. 
 
-   ![Add new object](assets/add-new-object.png)
+   ![Add new object](assets/add-new-object-to-custom-form-041026.png)
 
 1. Click **Save and Close**.
 
@@ -86,9 +85,5 @@ To delete an object type:
 
 1. Click **Custom Forms** in the left panel.
 1. Select the custom form you want to edit, then click ![Edit icon](assets/edit-icon2.png).
-1. Click the X on any of the **Object Types** that you want to delete from the form.
-
-   ![Delete object types](assets/delete-object-types.png)
-
-1. (Optional) Repeat the previous step for any other object type you want to remove from the form.
+1. At the top of the form, click **Object Types**, then clear the check boxes for the objects you want to delete from the form.
 1. Click **Apply**, then click **Save and Close**.

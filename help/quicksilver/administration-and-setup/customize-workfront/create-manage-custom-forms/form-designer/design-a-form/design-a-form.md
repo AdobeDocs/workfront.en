@@ -57,17 +57,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. Click **New Custom Form.**
 1. Select which object types you'd like to attach the custom form to, then click **Continue**.
 
-<div class="preview">
-
-   Sample image in the Preview environment:
-
    ![Choose object types](assets/new-custom-form-select-objects-032526.png)
-
-</div>
-
-   Sample image in the Production environment:
-
-   ![Choose object types](assets/new-custom-form-select-objects.png)
 
 +++ Expand to view the list of objects that support custom forms.
 
@@ -83,9 +73,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 * Iteration
 * Billing Record
 * Group
-* <span class="preview">Team</span>
-
-<div class="preview">
+* Team
 
 If you are on the Workflow Ultimate package, you can also create custom forms for these objects:
 
@@ -93,15 +81,10 @@ If you are on the Workflow Ultimate package, you can also create custom forms fo
 * Rate Card
 * Assignment
 
-</div>
-
 +++
 
 1. In the **Add a form name** area, type the custom form title.
-1. <span class="preview">(Optional) If you want to add more object types to the form so that it can be attached to more objects, click **Object Types** in the form designer header. Select the object types you want to add, and de-select any object types you want to delete from the form.</span>
-1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the **Add** icon ![Add objects icon](assets/add-objects-icon.png) next to **Object Types**, then select the type you want in the menu that displays. You can repeat this to add as many object types as you want. 
-   
-    Once you have more than one object added to the form, you can click the X on an object type to delete it from the form.
+1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click **Object Types** in the form designer header. Select the object types you want to add, and de-select any object types you want to delete from the form.
 
    >[!CAUTION]
    >
@@ -295,17 +278,17 @@ To add a text field:
     </ul></td>
     </tr>
     <tr>
-      <td><span class="preview">Finance Permission Type</span></td>
-      <td><p><span class="preview">Select the finance permission type that the users must have before they can view or edit this custom field. Any format is allowed for calculated fields.</span></p>
-      <ul span class="preview">
+      <td>Finance Permission Type</td>
+      <td><p>Select the finance permission type that the users must have before they can view or edit this custom field. The Currency format must be selected.</p>
+      <ul>
       <li><p><strong>No permissions required:</strong> All users can see this field</p></li>
       <li><p><strong>General:</strong> Users must have permissions to edit or view General Finance</p></li>
       <li><p><strong>Bill:</strong> Users must have permissions to edit or view billing rates</p></li>
       <li><p><strong>Cost:</strong> Users must have permissions to edit or view cost rates</p></li>
       </ul>
-      <p><span class="preview">For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</span></p>
+      <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</p>
       </td>
-      <td><ul span class="preview">
+      <td><ul>
        <li>Single line text</li>
        <li>Paragraph</li>
        </ul></td>
@@ -361,7 +344,7 @@ To add a text field:
 
 ### Add calculated fields
 
- In a custom form, you can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object. 
+In a custom form, you can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object.
 
 To add a calculated field, see [Add calculated fields with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
@@ -451,17 +434,17 @@ To add radio buttons, checkbox groups, and drop-downs:
     </ul></td>
     </tr> 
     <tr>
-      <td><span class="preview">Finance Permission Type</span></td>
-      <td><p><span class="preview">Select the finance permission type that the users must have before they can view or edit this custom field. Any format is allowed for calculated fields.</span></p>
-      <ul span class="preview">
+      <td>Finance Permission Type</td>
+      <td><p>Select the finance permission type that the users must have before they can view or edit this custom field. The Currency format must be selected.</p>
+      <ul>
       <li><p><strong>No permissions required:</strong> All users can see this field</p></li>
       <li><p><strong>General:</strong> Users must have permissions to edit or view General Finance</p></li>
       <li><p><strong>Bill:</strong> Users must have permissions to edit or view billing rates</p></li>
       <li><p><strong>Cost:</strong> Users must have permissions to edit or view cost rates</p></li>
       </ul>
-      <p><span class="preview">For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</span></p>
+      <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</p>
       </td>
-      <td><ul span class="preview">
+      <td><ul>
        <li>Radio buttons</li>
        <li>Checkbox group</li>
        <li>Single-select dropdown</li>
@@ -682,7 +665,6 @@ For examples of using the External lookup field to call the same instance of Wor
 
 >[!NOTE]
 >
->* External lookup fields are not supported in the Outlook plug-in.
 >* External lookup fields are not available in lists when the field has a dependency on another field.
 
 To add an external lookup:
@@ -716,15 +698,15 @@ To add an external lookup:
       </ul></td>
      </tr> 
      <tr>
-      <td><span class="preview">Finance Permission Type</span></td>
-      <td><p><span class="preview">Select the finance permission type that the users must have before they can view or edit this custom field. Any format is allowed for calculated fields.</span></p>
-      <ul span class="preview">
+      <td>Finance Permission Type</td>
+      <td><p>Select the finance permission type that the users must have before they can view or edit this custom field. The Currency format must be selected.</p>
+      <ul>
       <li><p><strong>No permissions required:</strong> All users can see this field</p></li>
       <li><p><strong>General:</strong> Users must have permissions to edit or view General Finance</p></li>
       <li><p><strong>Bill:</strong> Users must have permissions to edit or view billing rates</p></li>
       <li><p><strong>Cost:</strong> Users must have permissions to edit or view cost rates</p></li>
       </ul>
-      <p><span class="preview">For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</span></p>
+      <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</p>
       </td>
      </tr>
      <tr> 

@@ -67,10 +67,9 @@ Provide your network administrator with the following information:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront integrations</td> 
-   <td>Inform your network administrator if you use any of the following:
+   <td>Inform your network administrator if you use the following:
     <ul>
      <li><p>Workfront for Microsoft Teams</p></li>
-     <li><p>Workfront for Outlook</p></li>
     </ul></td> 
   </tr> 
   <tr> 

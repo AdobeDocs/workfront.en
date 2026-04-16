@@ -11,8 +11,6 @@ exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
 ---
 # Custom forms overview
 
-{{highlighted-preview}}
-
 <!--Audited: 12/2023-->
 
 You can build a custom form that users can attach to an Adobe Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
@@ -27,17 +25,7 @@ The form designer has a canvas-style workspace that allows you to view the field
 
 For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-<div class="preview">
-
-Sample image in the Preview environment:
-
 ![Sample form designer](assets/form-designer-example-032526.png)
-
-</div>
-
-Sample image in the Production environment:
-
-![Sample form designer](assets/form-designer-example.png)
 
 ## Custom fields and widgets
 
@@ -55,6 +43,7 @@ You can add the following types of custom fields to a custom form in Workfront:
 * External lookup
 * Native field reference
 * Typeahead
+* Planning field connection
 * Calculated
 * Date
 * Checkbox group
@@ -86,8 +75,11 @@ Users can attach custom forms to the following object types:
 * Portfolio
 * Expense
 * Group
+* Job Role
+* Team
 * Iteration
 * Billing Record
+* Rate Card
 
 For more information about attaching custom forms to objects, see [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
