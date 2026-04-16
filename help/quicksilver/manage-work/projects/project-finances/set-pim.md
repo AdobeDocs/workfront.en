@@ -40,7 +40,7 @@ Workfront calculates these values using the following:
   </tr> 
   <tr> 
    <td>Object permissions</td> 
-   <td>Manage permissions to the project with permissions to Manage Finance</td> 
+   <td>Manage permissions to the project with permissions to Edit General Finance</td> 
   </tr> 
  </tbody> 
 </table>
