@@ -57,17 +57,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. Click **New Custom Form.**
 1. Select which object types you'd like to attach the custom form to, then click **Continue**.
 
-<div class="preview">
-
-   Sample image in the Preview environment:
-
    ![Choose object types](assets/new-custom-form-select-objects-032526.png)
-
-</div>
-
-   Sample image in the Production environment:
-
-   ![Choose object types](assets/new-custom-form-select-objects.png)
 
 +++ Expand to view the list of objects that support custom forms.
 
@@ -83,9 +73,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 * Iteration
 * Billing Record
 * Group
-* <span class="preview">Team</span>
-
-<div class="preview">
+* Team
 
 If you are on the Workflow Ultimate package, you can also create custom forms for these objects:
 
@@ -93,15 +81,10 @@ If you are on the Workflow Ultimate package, you can also create custom forms fo
 * Rate Card
 * Assignment
 
-</div>
-
 +++
 
 1. In the **Add a form name** area, type the custom form title.
-1. <span class="preview">(Optional) If you want to add more object types to the form so that it can be attached to more objects, click **Object Types** in the form designer header. Select the object types you want to add, and de-select any object types you want to delete from the form.</span>
-1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the **Add** icon ![Add objects icon](assets/add-objects-icon.png) next to **Object Types**, then select the type you want in the menu that displays. You can repeat this to add as many object types as you want. 
-   
-    Once you have more than one object added to the form, you can click the X on an object type to delete it from the form.
+1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click **Object Types** in the form designer header. Select the object types you want to add, and de-select any object types you want to delete from the form.
 
    >[!CAUTION]
    >
@@ -295,8 +278,8 @@ To add a text field:
     </ul></td>
     </tr>
     <tr>
-      <td><span class="preview">Finance Permission Type</span></td>
-      <td><p><span class="preview">Select the finance permission type that the users must have before they can view or edit this custom field. The Currency format must be selected.</span></p>
+      <td>Finance Permission Type</td>
+      <td><p>Select the finance permission type that the users must have before they can view or edit this custom field. The Currency format must be selected.</p>
       <ul>
       <li><p><strong>No permissions required:</strong> All users can see this field</p></li>
       <li><p><strong>General:</strong> Users must have permissions to edit or view General Finance</p></li>
@@ -451,8 +434,8 @@ To add radio buttons, checkbox groups, and drop-downs:
     </ul></td>
     </tr> 
     <tr>
-      <td><span class="preview">Finance Permission Type</span></td>
-      <td><p><span class="preview">Select the finance permission type that the users must have before they can view or edit this custom field. The Currency format must be selected.</span></p>
+      <td>Finance Permission Type</td>
+      <td><p>Select the finance permission type that the users must have before they can view or edit this custom field. The Currency format must be selected.</p>
       <ul>
       <li><p><strong>No permissions required:</strong> All users can see this field</p></li>
       <li><p><strong>General:</strong> Users must have permissions to edit or view General Finance</p></li>
@@ -715,8 +698,8 @@ To add an external lookup:
       </ul></td>
      </tr> 
      <tr>
-      <td><span class="preview">Finance Permission Type</span></td>
-      <td><p><span class="preview">Select the finance permission type that the users must have before they can view or edit this custom field. The Currency format must be selected.</span></p>
+      <td>Finance Permission Type</td>
+      <td><p>Select the finance permission type that the users must have before they can view or edit this custom field. The Currency format must be selected.</p>
       <ul>
       <li><p><strong>No permissions required:</strong> All users can see this field</p></li>
       <li><p><strong>General:</strong> Users must have permissions to edit or view General Finance</p></li>

@@ -10,8 +10,6 @@ exl-id: 623828fb-e1ac-4cae-8b9f-567a6f8cb7ae
 ---
 # Overview of revenue and cost hierarchy
 
-{{highlighted-preview-article-level}}
-
 {{ultimate-package}}
 
 To provide precise financial calculations, Workfront uses the appropriate billing rates when calculating the revenue of a task or project. Job role and user rates must be well-defined at all levels to achieve accurate financial calculations.
