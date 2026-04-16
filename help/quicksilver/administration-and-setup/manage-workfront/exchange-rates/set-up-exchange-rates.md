@@ -15,8 +15,6 @@ exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-{{highlighted-preview}}
-
 As an Adobe Workfront administrator, you can set up currency exchange rates in Workfront. This includes the following:
 
 * Setting the default currency for the Workfront system
@@ -87,8 +85,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. (Optional) To delete a currency, select the check box next to the currency name and select **Delete** in the action bar at the bottom of the screen. You cannot delete the default currency.
 
-<div class="preview">
-
 ## Set effective dates on a currency's exchange rates
 
 Effective dates for a currency's exchange rates are configured so that a rate value ends on a specific date and another rate begins. The exchange rate for the correct date is then used in financial calculations.
@@ -110,8 +106,6 @@ Effective dates for a currency's exchange rates are configured so that a rate va
 1. Type the new **Exchange rate** value.
 1. (Optional) Click **Add date effective rate** to add more exchange rates with effective dates for this currency.
 1. Click **Save**.
-
-</div>
 
 ## Enable users to modify the default currency for a project
 

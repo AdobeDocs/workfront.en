@@ -11,8 +11,6 @@ exl-id: b21e65d3-3c9f-4f3d-95d3-de4c09199622
 ---
 # Grant access to rate cards
 
-{{highlighted-preview-article-level}}
-
 As an Adobe Workfront administrator, you can define a user's access to rate cards through the user's access level, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 For information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).

@@ -11,8 +11,6 @@ exl-id: 9f2f9fd8-bca8-4a3d-b022-b51c080a78aa
 ---
 # Share a rate card
 
-{{highlighted-preview-article-level}}
-
 You can share a rate card with users, job roles, groups, teams, companies, and business profiles.
 
 ## Access requirements

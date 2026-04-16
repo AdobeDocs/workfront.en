@@ -167,18 +167,6 @@ We understand that the available built-in (native) integrations might not meet a
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
   </tr> 
-  <!--
-  <tr> 
-   <td>[!DNL Microsoft] Calendars ([!DNL Office 365] / [!DNL Outlook Live])</td> 
-   <td> 
-    <ul> 
-     <li> <p>Integrate with a web-based version of [!DNL Outlook] in cloud-hosted [!DNL Office 365] or [!DNL Outlook Live.] </p> </li> 
-     <li> <p>Display all events from your [!DNL Outlook] calendar and any associated calendars you select, such as Birthdays and Holidays calendars, in your [!UICONTROL Home Calendar].</p> </li> 
-    </ul> <p><b>NOTE</b>: The [!UICONTROL Outlook] calendar configuration is completely separate from the [!DNL Outlook] Add-in ([!DNL Outlook] Integration or [!DNL Workfront for Outlook]). There's no installation required to configure the calendar.</p></td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-  </tr>
-  -->
   <tr> 
    <td> <p>[!DNL Microsoft OneDrive]</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
    <td> 
@@ -187,30 +175,7 @@ We understand that the available built-in (native) integrations might not meet a
     </ul> <p>For more information, see <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">Configure document integrations</a>.</p> </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-  </tr> 
-  <!--
-  <tr> 
-   <td> <p>[!DNL Microsoft Outlook]</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Update an existing project/task/issue with info from an email </li> 
-     <li>Convert emails into Workfront items right from your inbox </li> 
-     <li>Create new tasks from an email </li> 
-     <li>Comment on [!DNL Workfront] items </li> 
-    </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md" class="MCXref xref">[!DNL Adobe Workfront for Outlook]</a>.</p> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Outlook] 2013 or 2016 for [!DNL Windows] and [!DNL Outlook] 2016 for [!DNL Mac] </li> 
-     <li>[!DNL Outlook] on the web must be for [!DNL Exchange] 2016 and [!DNL Office] 365 </li> 
-     <li>[!DNL Outlook Web Access] must be for [!DNL Exchange] 2013 </li> 
-     <li>Direct connection to an [!DNL Exchange] Server or [!DNL Office 365]</li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Workfront] administrator </li> 
-    </ul> </td>
-    -->
-  </tr> 
+   </tr> 
   <tr> 
    <td> <p>[!DNL Microsoft Teams]</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 

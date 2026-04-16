@@ -156,5 +156,11 @@ The following table displays what permissions you can grant users when allowing 
 | Updates/ comments |✓ |✓ |
 | Share |✓ |✓ |
 | Share system-wide |   |✓ |
+| Edit billing rates&#42; |✓ |   |
+| Edit cost rates&#42; |✓ |   |
+| Edit general finance&#42; |✓ |   |
+| View billing rates&#42; |✓ |✓ |
+| View cost rates&#42; |✓ |✓ |
+| View general finance&#42; |✓ |✓ |
 
 *These permissions are controlled by the access level and permissions on other objects, like projects, programs, documents.
