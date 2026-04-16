@@ -400,3 +400,5 @@ For more information, see the following articles:
 You can now add People fields to lookup fields when connecting two Planning record types.  
 
 For information, see [Connect Record Types](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+
