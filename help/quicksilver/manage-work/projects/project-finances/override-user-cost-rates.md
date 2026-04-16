@@ -43,7 +43,7 @@ For more information about calculating cost on the project, see [Overview of rev
   </tr> 
   <tr> 
    <td>Object permissions</td> 
-   <td>Manage permissions to the project that includes Edit Financial Data </td> 
+   <td>Manage permissions to the project that include Edit Cost Rates </td> 
   </tr> 
  </tbody> 
 </table>

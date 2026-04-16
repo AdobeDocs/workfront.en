@@ -1,7 +1,7 @@
 ---
 title: Grant Access to Job Roles
 description: As an Adobe Workfront administrator, you can define a user's access to job roles in Workfront through their access level.
-author: Becky and Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5ba79da-37f3-43f8-a7e2-4ccd75b56fef

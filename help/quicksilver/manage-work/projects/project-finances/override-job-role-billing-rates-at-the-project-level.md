@@ -48,7 +48,7 @@ For more information about which job role is used to calculate revenue on the pr
   </tr> 
   <tr> 
    <td>Object permissions</td> 
-   <td>Manage permissions to the project that includes Edit Financial Data </td> 
+   <td>Manage permissions to the project that includes Edit Billing Rates </td> 
   </tr> 
  </tbody> 
 </table>

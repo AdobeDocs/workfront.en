@@ -382,11 +382,23 @@ The following table lists the permissions that users can grant when sharing a pr
    <td> <p>  </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Manage Finance*</p> </td> 
+   <td> <p>Edit Billing Rates*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>  </p> </td> 
    <td> <p>  </p> </td> 
   </tr> 
+  <tr> 
+   <td> <p>Edit Cost Rates*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Edit General Finance*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+  </tr>
   <tr> 
    <td> <p>Add/ Edit Expenses*</p> </td> 
    <td> <p>✓</p> </td> 
@@ -394,7 +406,19 @@ The following table lists the permissions that users can grant when sharing a pr
    <td> <p>  </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>View Finance*</p> </td> 
+   <td> <p>View Billing Rates*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>View Cost Rates*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>View General Finance*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
