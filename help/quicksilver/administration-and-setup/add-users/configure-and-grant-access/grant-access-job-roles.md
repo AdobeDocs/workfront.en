@@ -1,14 +1,12 @@
 ---
 title: Grant Access to Job Roles
 description: As an Adobe Workfront administrator, you can define a user's access to job roles in Workfront through their access level.
-author: Becky and Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5ba79da-37f3-43f8-a7e2-4ccd75b56fef
 ---
 # Grant access to job roles
-
-{{highlighted-preview-article-level}}
 
 As an Adobe Workfront administrator, you can define a user's access to job roles through the user's access level, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
@@ -53,14 +51,20 @@ For more detail about the information in this table, see [Access requirements in
 
    ![Fine-tune job role access](assets/job-role-access-view-fine-tune.png)
 
-   Users with **View** access can view existing job roles and optionally view job role billing rates, cost rates, and general finance.
+   Users with **View** access can view existing job roles and optionally do the following:
+
+   * View billing rates on job roles
+   * View cost rates on job roles
+   * View general finance fields (not related to billing or cost rates) on job roles
 
    Users with **Edit** access can view and edit existing job roles and optionally do the following:
 
    * Create new job roles
    * Delete job roles
-   * View job role billing rates, cost rates, and general finance
-   * Edit job role billing rates, cost rates, and general finance
+   * Edit billing rates on job roles
+   * Edit cost rates on job roles
+   * Edit general finance fields (not related to billing or cost rates) on job roles
+   * View job role billing rates, cost rates, and general finance fields
 
 1. (Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in [Configure access to Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md) such as [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 1. When you are finished, click **Save**.

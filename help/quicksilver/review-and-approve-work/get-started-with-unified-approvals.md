@@ -16,7 +16,6 @@ Unified review and approval brings together Adobe Workfront and Adobe Frame.io i
 
 For more information about Frame.io, see [Getting Started with Frame.io](https://support.frame.io/en/collections/49298-getting-started).
 
-You must have the Workfront and Frame.io integration set up in your Workfront instance. For more information, see [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
 
 ## Overview video
 
@@ -24,11 +23,7 @@ You must have the Workfront and Frame.io integration set up in your Workfront in
 
 ## Integration requirements
 
-* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
-
-* Users can belong to only one Workfront instance within the IMS organization.
-
-* The Workfront instance must be enabled on the Adobe Unified Experience and Adobe enterprise storage.
+* The Workfront instance must be enabled on the Adobe Unified Experience.
 
 ## Work initiation and planning in Workfront
 

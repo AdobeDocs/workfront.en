@@ -8,8 +8,6 @@ exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
 ---
 # Attach a rate card to a project
 
-{{highlighted-preview-article-level}}
-
 Rate cards store multiple billing rates per job role, based on attributes. For example, you could have a job role of Designer based in Paris for Agency A, another Designer based in Paris for Agency B, and a third Designer based in New York not assigned to an agency, each with different billing rates. However, attributes are not required for job roles on a rate card. The attributes serve as tools to establish more granular rates. A billing rate on a rate card can also be date effective, so that the rate starts and ends on specified dates.
 
 When you attach a rate card to a project, all of the roles and their associated billing rates are added to the project.

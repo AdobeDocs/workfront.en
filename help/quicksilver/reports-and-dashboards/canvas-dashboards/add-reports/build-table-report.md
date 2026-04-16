@@ -11,9 +11,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Build a table report in a Canvas Dashboard
 
-{{highlighted-preview}}
-
-
 >[!IMPORTANT]
 >
 >The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.<br>
@@ -94,13 +91,11 @@ There are many configuration options available for building a table report. In t
 
     1. Enter a report **Description**.
 
-    1. <span class="preview">(Optional) In the **Run this report with the access rights of** field, begin typing the name of the user whose permissions you want the report to use, then select the user when they appear in the list. When you configure a report to run as another user, all viewers of the dashboard see the same data, regardless of their own access level. If you don't select a user, each viewer sees data based on their own permissions.
+    1. (Optional) In the **Run this report with the access rights of** field, begin typing the name of the user whose permissions you want the report to use, then select the user when they appear in the list. When you configure a report to run as another user, all viewers of the dashboard see the same data, regardless of their own access level. If you don't select a user, each viewer sees data based on their own permissions.
 
         >[!IMPORTANT]
         >
         >If the selected user is deactivated or loses access to the relevant workspaces or record types, the report may display incomplete data or fail to render. 
-
-    </span>
 
 1. Follow the steps below to configure the **Build table** section:
 

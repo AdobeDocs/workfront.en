@@ -12,8 +12,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create and manage brands for the Content Reviewer
 
-{{highlighted-preview-article-level}}
-
 The Content Reviewer uses brand guidelines to evaluate content during the review process. You can create brands in Workfront by uploading PDF files that contain your brand guidelines or by manually entering brand elements.
 
 ## Access requirements
