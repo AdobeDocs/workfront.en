@@ -188,4 +188,22 @@ For more information, see [Create and edit business rules](/help/quicksilver/adm
 [View a video demonstration of the Business Rules enhancements.](https://video.tv.adobe.com/v/3483247/){target="_blank"} 
 
 
+### Gaps allowed on date-effective rates
+
+>[!NOTE]
+>
+>This feature is available for organizations on all Workfront and Workflow packages.
+>Note that rate cards are only available for organizations on the Workflow Ultimate package.
+
+Workfront allows you to leave gaps between date ranges on billing and cost rates, but you will receive a warning to confirm this is intentional.
+
+There can be gaps between the date ranges everywhere rates exist:
+
+* Rates on a job role
+* Rates on a user profile
+* Rates on a rate card
+* When overriding any of these rates at the project level
+
+For more information, see [Create and manage job roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [Edit a user's profile](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), and [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+
 
