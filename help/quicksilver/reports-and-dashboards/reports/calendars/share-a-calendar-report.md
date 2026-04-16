@@ -11,9 +11,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Share a calendar report
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
-
 You can share a calendar with other users and you can make it available publicly, allowing someone without an [!DNL Adobe Workfront] license to view it.
 
 ## Access requirements
@@ -61,7 +58,7 @@ To share a calendar inside of [!DNL Workfront]:
 1. Go to the calendar you want to share.
 1. Click the **More** menu next to the calendar name, then click **Sharing**.
 ![calendar more menu](assets/more-menu-calendar.png)
-1. In the **[!UICONTROL Give Calendar access to]** field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> that you want to share the calendar, then click the name when it displays in the drop-down list.\
+1. In the **[!UICONTROL Give Calendar access to]** field, begin typing the name of the user, team, role, group, company, or business profile that you want to share the calendar, then click the name when it displays in the drop-down list.\
    To learn about setting permissions, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. (Optional) Repeat step 3 for each user, team, role, or group that you want to grant access to the calendar.
