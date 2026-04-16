@@ -51,14 +51,20 @@ For more detail about the information in this table, see [Access requirements in
 
    ![Fine-tune job role access](assets/job-role-access-view-fine-tune.png)
 
-   Users with **View** access can view existing job roles and optionally view job role billing rates, cost rates, and general finance.
+   Users with **View** access can view existing job roles and optionally do the following:
+
+   * View billing rates on job roles
+   * View cost rates on job roles
+   * View general finance fields (not related to billing or cost rates) on job roles
 
    Users with **Edit** access can view and edit existing job roles and optionally do the following:
 
    * Create new job roles
    * Delete job roles
-   * View job role billing rates, cost rates, and general finance
-   * Edit job role billing rates, cost rates, and general finance
+   * Edit billing rates on job roles
+   * Edit cost rates on job roles
+   * Edit general finance fields (not related to billing or cost rates) on job roles
+   * View job role billing rates, cost rates, and general finance fields
 
 1. (Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in [Configure access to Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md) such as [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 1. When you are finished, click **Save**.

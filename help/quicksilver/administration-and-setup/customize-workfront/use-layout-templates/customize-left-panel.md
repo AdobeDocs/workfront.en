@@ -11,8 +11,6 @@ exl-id: b100ea35-e045-4021-b5be-2c9071b381da
 ---
 # Customize the left panel using a layout template
 
-{{highlighted-preview}}
-
 <!--Audited: 10/2024-->
 
 In a layout template, you can customize what users see in the left panel area throughout [!DNL Adobe Workfront].
@@ -134,9 +132,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td>[!UICONTROL Projects]</td> 
      </tr> 
      <tr> 
-      <td><span class="preview">[!UICONTROL Resourcing]</span></td> 
-      <td><span class="preview">[!UICONTROL Resourcing] in the [!UICONTROL Main Menu] <img src="assets/main-menu-icon-left-nav.png"></span></td> 
-      <td><span class="preview">[!UICONTROL Planner] (cannot be hidden), [!UICONTROL Workload Balancer], [!UICONTROL Utilization], [!UICONTROL Resource Pools]</span></td> 
+      <td>[!UICONTROL Resourcing]</td> 
+      <td>[!UICONTROL Resourcing] in the [!UICONTROL Main Menu] <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>[!UICONTROL Planner] (cannot be hidden), [!UICONTROL Workload Balancer], [!UICONTROL Utilization], [!UICONTROL Resource Pools]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Requests]</td> 
@@ -169,19 +167,19 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td>[!UICONTROL Stories], [!UICONTROL Issues], [!UICONTROL Story Board], [!UICONTROL Overview], [!UICONTROL Custom Forms], [!UICONTROL Updates] </td> 
      </tr> 
      <tr> 
-       <td><span class="preview">[!UICONTROL User Details]</span></td> 
-       <td><span class="preview">The name of a user</span></td> 
-       <td><span class="preview">[!UICONTROL Details], [!UICONTROL Org Chart], [!UICONTROL Time Off], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer]</span></td> 
+       <td>[!UICONTROL User Details]</td> 
+       <td>The name of a user</td> 
+       <td>[!UICONTROL Details], [!UICONTROL Org Chart], [!UICONTROL Time Off], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer]</td> 
      </tr>
      <tr> 
-       <td><span class="preview">[!UICONTROL Rate Card]</span></td> 
-       <td><span class="preview">The name of a rate card</span></td> 
-       <td><span class="preview">[!UICONTROL Job Roles and Rates] (cannot be hidden), [!UICONTROL Rate Card Details]</span></td> 
+       <td>[!UICONTROL Rate Card]</td> 
+       <td>The name of a rate card</td> 
+       <td>[!UICONTROL Job Roles and Rates] (cannot be hidden), [!UICONTROL Rate Card Details]</td> 
      </tr>
      <tr> 
-       <td><span class="preview">[!UICONTROL Group]</span></td> 
-       <td><span class="preview">The name of a group</span></td> 
-       <td><span class="preview">[!UICONTROL Group Members], [!UICONTROL Subgroup Members], [!UICONTROL Group Details], [!UICONTROL Project Preferences], [!UICONTROL Tasks & Issues Preferences], [!UICONTROL Timesheets & Hours], [!UICONTROL Subgroups], [!UICONTROL Statuses], [!UICONTROL Event Notifications], [!UICONTROL Portfolios], [!UICONTROL Programs], [!UICONTROL Projects], [!UICONTROL Templates], [!UICONTROL Recently Deleted], [!UICONTROL Recently Restored], [!UICONTROL Approvals], [!UICONTROL Companies], [!UICONTROL Teams], [!UICONTROL Schedules], [!UICONTROL Timesheet Profiles], [!UICONTROL Layout Templates]</span></td> 
+       <td>[!UICONTROL Group]</td> 
+       <td>The name of a group</td> 
+       <td>[!UICONTROL Group Members], [!UICONTROL Subgroup Members], [!UICONTROL Group Details], [!UICONTROL Project Preferences], [!UICONTROL Tasks & Issues Preferences], [!UICONTROL Timesheets & Hours], [!UICONTROL Subgroups], [!UICONTROL Statuses], [!UICONTROL Event Notifications], [!UICONTROL Portfolios], [!UICONTROL Programs], [!UICONTROL Projects], [!UICONTROL Templates], [!UICONTROL Recently Deleted], [!UICONTROL Recently Restored], [!UICONTROL Approvals], [!UICONTROL Companies], [!UICONTROL Teams], [!UICONTROL Schedules], [!UICONTROL Timesheet Profiles], [!UICONTROL Layout Templates]</td> 
      </tr>
      <!--
       <tr> 

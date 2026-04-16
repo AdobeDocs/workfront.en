@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: financials
 title: Override Job Role Billing Rates at the Project Level
-description: As a project manager, you can specify what the billing rate is for a job role on a specific project. This project-level billing rate overrides the billing rate at the system level for this job role. Workfront uses the project-level billing rate of the job role to calculate revenue, instead of using the system-level billing rate.
+description: This article describes how you can override the system job role billing rates for a project.
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
@@ -10,8 +10,6 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Override Job Role Billing Rates at the project level
-
-{{highlighted-preview}}
 
 As a project manager, you can specify what the billing rate is for a job role on a specific project. This project-level billing rate overrides the billing rate at the system level for this job role. Workfront uses the project-level billing rate of the job role to calculate revenue, instead of using the system-level billing rate.
 
@@ -76,21 +74,17 @@ To override a billing rate for a project:
 
    Or
 
-   <span class="preview">Click **Rates** in the left panel and click the **Billing** tab if it is not already selected.</span>
+   Click **Rates** in the left panel and click the **Billing** tab if it is not already selected.
 
-1. Click **Add Billing Rate** > **New Billing Rate**.
-
-   Or
-
-   <span class="preview">Click **Add Billing Rate > New Job Role Billing Rate**.</span>
+1. Click **Add Billing Rate > New Job Role Billing Rate**.
 
    The New Billing Rate box opens. 
 
 1. In the **Job Role** field, select the job role you want to change the billing rate for.
 
-1. <span class="preview">(Optional) Select any attributes for the billing rate, such as agency or location.</span>
+1. (Optional) Select any attributes for the billing rate, such as agency or location.
 
-   <span class="preview">The system administrator defines rate attributes in the Setup area.</span>
+   The system administrator defines rate attributes in the Setup area.
 
 1. Select the **Currency** for the billing rate override.
 1. In the **Billing Rate** field, enter the billing rate override, then click **Save** to override the billing rate one time
