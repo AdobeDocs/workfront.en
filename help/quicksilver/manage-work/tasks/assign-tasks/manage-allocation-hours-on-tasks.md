@@ -103,6 +103,10 @@ Take this piece out of the table above when we remove the new experience/ after 
 1. Ensure that the **Duration Type** of the task is **Simple**.
 1. Modify the **Allocations** field for each task assignee. These are overall allocations for each assignment to this task, for the entire duration of the task. This might also update the overall **Planned Hours** of the task.
 
+   You may see one of these screens depending on your organization's Workfront or Workflow package.
+
    ![Modify allocations](assets/advanced-assignments-duration-type-allocations.png)
+
+   ![Modify allocations](assets/new-aa-allocation-by-hour.png)
 
 1. Click **Save**.

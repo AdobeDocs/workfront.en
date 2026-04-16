@@ -13,8 +13,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Organize and preview a form
 
-{{preview-fast-release-general}}
-
 You can organize a custom form with the form designer, and preview it to verify that it is set up correctly.
 
 ## Access requirements
@@ -79,8 +77,8 @@ For information about custom fields and widgets in custom forms, see [Create a c
       <td role="rowheader">Description</td> 
       <td>Type text if you want to explain to users what the section is for. This displays below the section's label on the custom form.</td> 
      </tr> 
-      <td><span class="preview">Collapsed by default</span></td>
-      <td><span class="preview">By default, all sections on a custom form are expanded when the form itself is expanded. Select this option to have the section collapsed by default when a user opens the form.</span></td>
+      <td>Collapsed by default</td>
+      <td>By default, all sections on a custom form are expanded when the form itself is expanded. Select this option to have the section collapsed by default when a user opens the form.</td>
      <tr>
      </tr>
      <tr> 
@@ -114,7 +112,7 @@ For information about custom fields and widgets in custom forms, see [Create a c
      </tr> 
      <tr> 
       <td role="rowheader"><p>Add Logic</p></td> 
-      <td><p>Use display logic to specify whether the section should display on the form, based on selections users make in multi-choice custom fields when they fill out the form.</p><p><strong>NOTE:</strong> If all of the individual fields under a section break have display logic applied to them and they are all hidden as a result of the logic, the entire section will be hidden on the custom form. This will happen even if display logic is not applied to the section break.</p><p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Add display logic and skip logic with the form designer</a>.</p></td> 
+      <td><p>Use display logic to specify whether the section should display on the form, based on selections users make in multi-choice custom fields when they fill out the form.</p><p><strong>NOTE:</strong> If all of the individual fields under a section break have display logic applied to them and they are all hidden as a result of the logic, the entire section will be hidden on the custom form. This will happen even if display logic is not applied to the section break.</p><p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Add logic rules to custom forms and fields</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>

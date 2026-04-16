@@ -46,8 +46,9 @@ You can edit one template task at a time, or you can edit template tasks in bulk
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
+   <td>  <p>To use the User and Role Hourly Revenue and Cost Types: Workflow Ultimate</p>
+      <p>To edit all other settings and use all other Revenue and Cost Types: Any Workfront or Workflow package</p>  </td> 
+  </tr>
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Standard</p>
@@ -433,6 +434,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
         <li> <p style="font-weight: normal;"><span>Fixed Hourly</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>User Hourly</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>Role Hourly</span> </p> </li> 
+        <li> <p style="font-weight: normal;">User and Role Hourly</p> </li>
        </ul> <p>For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -442,11 +444,14 @@ You can edit a template task using the Edit Template Task or Template Task Detai
         <li> <p style="font-weight: normal;">Not Billable</p> </li> 
         <li> <p style="font-weight: normal;">User Hourly</p> </li> 
         <li> <p style="font-weight: normal;">Role Hourly</p> </li> 
+        <li> <p style="font-weight: normal;">User and Role Hourly</p> </li>
         <li> <p style="font-weight: normal;">Fixed Hourly</p> </li> 
         <li> <p style="font-weight: normal;">User Hourly w/Cap</p> </li> 
         <li> <p style="font-weight: normal;">Role Hourly w/Cap</p> </li> 
+        <li> <p style="font-weight: normal;">User and Role Hourly w/Cap</p> </li>
         <li> <p style="font-weight: normal;">User Hourly Plus Fixed</p> </li> 
         <li> <p style="font-weight: normal;">Role Hourly Plus Fixed</p> </li> 
+        <li> <p style="font-weight: normal;">User and Role Hourly Plus Fixed</p> </li>
         <li> <p style="font-weight: normal;">Fixed Revenue</p> </li> 
        </ul> <p>For more information about tracking revenue, see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>.</p> </td> 
      </tr> 

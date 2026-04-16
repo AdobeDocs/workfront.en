@@ -10,8 +10,6 @@ exl-id: 832d3aab-3e09-4d83-91a6-be0145ce3554
 ---
 # Define an overtime ratio
 
-{{highlighted-preview-article-level}}
-
 When an overtime ratio is added to a task, it is applied to all assignments on the task. It multiplies all Planned Hours for that task and affects the Planned Revenue calculations.
 
 The overtime ratio cannot vary for assignments within the same task. If different overtime multipliers are required, you must create separate subtasks under a parent task.

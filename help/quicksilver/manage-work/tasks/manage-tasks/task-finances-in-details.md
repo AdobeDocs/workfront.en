@@ -15,8 +15,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, to it in both articles)</p>
 -->
 
-{{highlighted-preview}}
-
 You can view or edit the financial information of a task by accessing the Overview area of the Task Details  section. There is a limited number of fields that you can view or edit in this area. 
 
 For information about editing all financial information for a task, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
@@ -118,7 +116,7 @@ Old:
         <li> <p>Fixed Hourly </p> </li> 
         <li> <p> User Hourly </p> </li> 
         <li> <p> Role Hourly</p> </li> 
-        <li> <p> <span class="preview">User and Role Hourly</span></p> </li> 
+        <li> <p>User and Role Hourly</p> </li> 
        </ul> <p>For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a> . Your Workfront administrator or a group administrator selects the default Cost Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a> .</p> </td> 
      </tr> 
      <tr> 
@@ -128,14 +126,14 @@ Old:
         <li> <p> Not Billable </p> </li> 
         <li> <p>User Hourly </p> </li> 
         <li> <p>Role Hourly </p> </li> 
-        <li> <p> <span class="preview">User and Role Hourly</span></p> </li>
+        <li> <p>User and Role Hourly</p> </li>
         <li> <p>Fixed Hourly </p> </li> 
         <li> <p>User Hourly w/Cap </p> </li> 
         <li> <p>Role Hourly w/Cap </p> </li>
-        <li> <p> <span class="preview">User and Role Hourly w/ Cap</span></p> </li> 
+        <li> <p>User and Role Hourly w/ Cap</p> </li> 
         <li> <p>User Hourly Plus Fixed </p> </li> 
         <li> <p>Role Hourly Plus Fixed </p> </li> 
-        <li> <p> <span class="preview">User and Role Hourly Plus Fixed</span></p> </li>
+        <li> <p>User and Role Hourly Plus Fixed</p> </li>
         <li> <p>Fixed Revenue </p> </li> 
        </ul> <p>For more information about tracking revenue, see<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a> and <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Overview of revenue and cost hierarchy</a>. </p> <p>Your Workfront administrator or group administrator selects the default Revenue Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </td> 
      </tr> 
@@ -156,13 +154,13 @@ Old:
       <td> <p>This is a calculation that shows the revenue associated with the task based on the actual hours, the revenue type, and the hourly rate for users or job roles. For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
      </tr> 
      <tr>
-      <td><span class="preview">Overtime Ratio</span></td> 
-      <td><span class="preview"><p>Enter the overtime multiplier for the task, for example, 1.5 or 2.0. The default is 1.0 (no multiplier). For more information, see <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Define an overtime ratio</a>.</p><p>To see the Overtime Ratio field:</p>
+      <td>Overtime Ratio</td> 
+      <td><p>Enter the overtime multiplier for the task, for example, 1.5 or 2.0. The default is 1.0 (no multiplier). For more information, see <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Define an overtime ratio</a>.</p><p>To see the Overtime Ratio field:</p>
        <ul>
        <li>The Revenue Type on the task must be User and Role Hourly. For more information, see <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Overview of revenue and cost hierarchy</a>.</li>
        <li>The field must be enabled on your layout template, for the Finance area in the task Details view. For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">Customize the Details view using a layout template</a>.</li>
        </ul>
-      </span></td>
+      </td>
      </tr>
      <tr> 
       <td role="rowheader">CPI/SPI/CSI</td> 

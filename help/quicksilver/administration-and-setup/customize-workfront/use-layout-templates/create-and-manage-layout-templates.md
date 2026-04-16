@@ -20,8 +20,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-{{highlighted-preview}}
-
 As an Adobe Workfront administrator or a group administrator, you can create and modify layout templates to customize the following layout elements in Workfront for your users:
 
 * Main Menu
@@ -30,8 +28,8 @@ As an Adobe Workfront administrator or a group administrator, you can create and
 * Summary panel
 * Views, filters, and groupings people use with lists and reports.
 * On-screen terminology
-* <span class="preview">Object headers</span>
-* <span class="preview">More menu (three-dot menu) for an object</span>
+* Object headers
+* More menu (three-dot menu) for an object
 
 After you create or modify a layout template, you can assign it to individual users, teams, groups, or job roles.
 
