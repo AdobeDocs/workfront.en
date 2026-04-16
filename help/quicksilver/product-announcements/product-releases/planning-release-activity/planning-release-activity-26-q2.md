@@ -19,6 +19,25 @@ This article describes the features that are releasing for Workfront Planning du
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 
+## Content Advisor is now available on records connected to Adobe Experience Manager
+
+>[!NOTE]
+>
+>Preview: April 16, 2026
+>Production fast release: April 16, 2026
+>Production for everyone: April 16, 2026
+
+You can now access Experience Manager's Content Advisor in Workfront Planning. Content Advisor allows you to:
+
+* Discover content using smart suggestions or campaign brief details
+* Quickly assess content suitability by viewing key details before reuse
+* Discover and reuse content fragments
+* Explore collections to identify related, on-brand content
+
+You can select assets or content fragments from Content Advisor to use in your connected fields in Planning.
+
+For more information about how to access Content Advisor from Workfront Planning, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+
 ## New capability to increase row height for the list view 
 
 >[!NOTE]

@@ -14,6 +14,27 @@ This page describes Documents enhancements made with the Second Quarter 2026 rel
 
 For a list of all changes available at this point in the Second Quarter 2026 release cycle, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Discover and reuse content faster with Content Advisor for AEM Assets in Workfront
+
+>[!NOTE]
+>
+>Preview: April 16, 2026
+>Production fast release: April 16, 2026
+>Production for everyone: April 16, 2026
+
+Content Advisor is now available in Workfront with the Adobe Experience Manager Assets integration—making it easier for teams to discover and reuse existing high-value content.
+
+With Content Advisor, you can:
+
+* Discover content using smart suggestions or campaign brief details
+* Quickly assess content suitability by viewing key details before reuse
+* Discover and reuse content fragments
+* Explore collections to identify related, on-brand content
+
+This integration helps teams reduce duplicate content creation, speed up execution, and maximize the value of existing AEM assets—directly within Workfront.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483142/)
+
 ## GenStudio Foundations Provisioning enabled to support AI Collaborators
 
 >[!NOTE]
