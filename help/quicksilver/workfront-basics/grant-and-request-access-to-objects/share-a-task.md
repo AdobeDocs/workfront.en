@@ -9,9 +9,6 @@ exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
 ---
 # Share a task
 
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 Your Adobe Workfront administrator can grant you access to view or edit tasks when they assign access levels. For more information about granting access to tasks, see [Grant access to tasks](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 
 Along with the access level that users are granted, you can also grant them permissions to View, Contribute, or Manage specific tasks that you have access to share.
@@ -98,7 +95,7 @@ You can share a task in the following ways:
 
     ![Share task button](assets/share-task-button.png)
 
-1. In the **Grant task access to** field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share the task with, then click the name when it appears in the drop-down list.
+1. In the **Grant task access to** field, begin typing the name of the user, team, role, group, company, or business profile</span> you want to share the task with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
@@ -135,7 +132,7 @@ You can share a task in the following ways:
 
     ![Bulk share tasks](assets/bulk-share-tasks.png)
 
-1. In the **Grant task access to** field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share the tasks with, then click the name when it appears in the drop-down list.
+1. In the **Grant task access to** field, begin typing the name of the user, team, role, group, company, or business profile</span> you want to share the tasks with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
