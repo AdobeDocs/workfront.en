@@ -117,3 +117,5 @@ With approval workflow templates, you can:
 * Ensure required stakeholders are engaged at the right stage
 
 For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
+
