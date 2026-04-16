@@ -252,9 +252,9 @@ Old:
     </div>
 
 
-    * **Experience Manager Assets** from the **Adobe Applications** section.
+    * **Experience Manager** from the **Adobe Applications** section.
 
-        ![AEM Assets connection selection](assets/aem-assets-connection-selection.png)
+        ![AEM Assets connection selection](assets/aem-assets-connection-selection-041326.png)
 
         A New connection tab opens for your selected record or object type. 
 
@@ -309,14 +309,14 @@ Old:
     >
     > You must create custom forms in Workfront for the selected objects before they display in this list.
 
-1. (Conditional) When you select to connect to Experience Manager Assets, choose a repository from the **Experience Manager repository** drop-down menu in the **Link assets from the following repository** section. This is a required field. Only repositories you have access to in Experience Manager Assets display in this field. 
+1. (Conditional) When you select to connect to Experience Manager, choose a repository from the **Experience Manager repository** drop-down menu in the **Link assets from the following repository** section. This is a required field. Only repositories you have access to in Experience Manager display in this field.
 
     >[!NOTE]
     >
-    >Your Workfront administrator can map Workfront Planning fields to Experience Manager Assets fields through the Metadata mapping in Workfront. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). 
+    >Your Workfront administrator can map Workfront Planning fields to Experience Manager fields through the Metadata mapping in Workfront. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). 
 
 
-1. (Conditional) When you select to connect to Experience Manager Assets, to a Workfront Planning record type, or to a GenStudio Brand, choose one of the following options in the **Record appearance** area:
+1. (Conditional) When you select to connect to Experience Manager, to a Workfront Planning record type, or to a GenStudio Brand, choose one of the following options in the **Record appearance** area:
 
     * **Name and image**: Both the name and the thumbnail or icon of the connected records will display in the connected record field. This is the default option. 
     * **Name**: Only the name of the connected records will display in the connected record field.
@@ -400,9 +400,8 @@ Old:
     >[!NOTE]
     >
     > Aggregators are not available when connecting record types to the following: 
-    >* Experience Manager Assets
+    >* Experience Manager
     >* GenStudio Brands.
-    >
 
     Select from the following:
 
