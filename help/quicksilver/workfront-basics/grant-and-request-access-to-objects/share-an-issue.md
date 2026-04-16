@@ -9,8 +9,6 @@ exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
 ---
 # Share an issue
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 Your Adobe Workfront administrator grants users access to view or edit issues when they assign access levels. For more information about granting access to issues, see [Grant access to issues](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
 
 Along with the access level that users are granted, you can also grant them permissions to View, Contribute, or Manage specific issues that you have access to share. For more information about access levels and permissions, see [How access levels and permissions work together](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
@@ -163,7 +161,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
     ![Share issue button](assets/share-issue-button.png)
 
-1. In the **Grant issue access to** field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share the issue with, then click the name when it appears in the drop-down list.
+1. In the **Grant issue access to** field, begin typing the name of the user, team, role, group, company, or business profile you want to share the issue with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
@@ -197,7 +195,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
     ![Bulk share issues](assets/bulk-share-issues.png)
 
-1. In the **Grant issue access to** field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share the issues with, then click the name when it appears in the drop-down list.
+1. In the **Grant issue access to** field, begin typing the name of the user, team, role, group, company, or business profile you want to share the issues with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
