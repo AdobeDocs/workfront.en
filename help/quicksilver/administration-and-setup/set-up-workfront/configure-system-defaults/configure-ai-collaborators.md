@@ -71,8 +71,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 Reviewer AI Collaborators can be configured to use Workfront brands, or Adobe Brand Intelligence.
 
-* **Brands** are created in Workfront. You can create brands in Workfront by uploading PDF files that contain your brand guidelines or by manually entering brand elements.
-* **Adobe Brand Intelligence** is based in Frame.io. When an AI Collaborator reviews an asset using Adobe Brand Intelligence, you can view comments made by the Reviewer in Frame.io.  
+* **Brands**: Brands are created in Workfront. You can create brands in Workfront by uploading PDF files that contain your brand guidelines or by manually entering brand elements.
+* **Adobe Brand Intelligence** When an AI Collaborator reviews an asset using Adobe Brand Intelligence, you can view comments made by the Reviewer in Frame.io.  
 
 {{step-1-to-setup}}
 
