@@ -11,8 +11,6 @@ exl-id: 727efbd6-79b4-42c5-bfa2-e5350f30ff23
 ---
 # Grant access to brand permissions
 
-{{highlighted-preview-article-level}}
-
 Users are granted the brand create, edit, and publish permissions of Adobe GenStudio system managers when added to a user group. 
 
 ## Access requirements
