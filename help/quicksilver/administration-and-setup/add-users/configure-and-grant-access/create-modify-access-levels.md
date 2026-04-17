@@ -118,17 +118,6 @@ For more detail about the information in this table, see [Access requirements in
        </ul><p><b>NOTE</b>: This does not allow the user to create new Expense Types.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Job roles</td> 
-      <td> With this access, the user is allowed to do the following: 
-       <ul> 
-        <li>View and edit existing job roles</li> 
-        <li>Add new job roles</li> 
-        <li>Edit role billing and cost rates</li> 
-       </ul> 
-       <p>For important information about access to financial data that is available to a Standard or Planner user with administrative access to job roles, see <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Standard or Planner users with administrative access to job roles</a>.</p>
-      </td> 
-     </tr> 
-     <tr> 
       <td role="rowheader">Milestones in my group</td> 
       <td>View all the milestone paths in the system under the Milestone Paths menu in Setup. Users can also edit or delete any milestone paths belonging to any of their groups. Users cannot manage (edit or delete) milestone paths that are not assigned to their of groups.<p>Without this access, users can only view existing milestone paths and apply them to projects they have access to manage.</p></td> 
      </tr> 
@@ -220,6 +209,8 @@ For more detail about the information in this table, see [Access requirements in
    
    For information about how an Adobe administrator assigns a System Administrator access level to a users, see [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
+<!--
+
 ## Standard or Planner users with administrative access to job roles {#planner-users}
 
 If you grant a Standard or Planner user administrative access to job roles, the Edit Role Billing &amp; Cost Rates setting is automatically enabled for the user automatically.
@@ -228,5 +219,19 @@ Later, if you disable administrative access to job roles for the user, job roles
 
 If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting. For instructions, see [Grant access to financial data](grant-access-financial.md).
 
+
+     <tr> 
+      <td role="rowheader">Job roles</td> 
+      <td> With this access, the user is allowed to do the following: 
+       <ul> 
+        <li>View and edit existing job roles</li> 
+        <li>Add new job roles</li> 
+        <li>Edit role billing and cost rates</li> 
+       </ul> 
+       <p>For important information about access to financial data that is available to a Standard or Planner user with administrative access to job roles, see <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Standard or Planner users with administrative access to job roles</a>.</p>
+      </td> 
+     </tr> 
+
+-->
 
 

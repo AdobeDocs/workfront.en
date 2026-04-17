@@ -42,7 +42,7 @@ As a setting, it allows you to define how the EAC value should be calculated.
   </tr> 
   <tr> 
    <td>Object permissions</td> 
-   <td>View or higher permissions to the project with permissions to View Finance</td> 
+   <td>View or higher permissions to the project with permissions to View General Finance</td> 
   </tr> 
  </tbody> 
 </table>
