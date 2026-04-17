@@ -67,9 +67,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 * The integration must be enabled in the Workfront Setup area.
 
-<!--DELETE THIS SECTION MARCH 2026* The Workfront instance must be enabled on the Adobe Unified Experience.-->
-
-
 
 ## Enable the integration in Workfront
 
