@@ -33,7 +33,7 @@ Adobe Workfront can generate a unique URL for the User View of the Resource Plan
   </tr> 
   <tr> 
    <td>Access level configurations</td> 
-   <td> <p>View or higher access to Resource Management, Projects, and Users</p> <p>View access to Financial Data that includes access to View General Finance, to view cost information</p></td> 
+   <td> <p>View or higher access to Resource Management, Projects, and Users</p> <p>View access to Financial Data that includes access to View Cost Rates and View General Finance, to view cost information</p></td> 
   </tr> 
   <tr> 
    <td>Object permissions</td> 

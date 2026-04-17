@@ -64,7 +64,7 @@ You can view the utilization of your resources in the Utilization report.
      <li> <p>Projects</p> </li> 
      <li> <p>Portfolios</p> </li> 
      <li> <p>Programs</p> </li> 
-     <li> <p>Financial Data that includes access to View General Finance, if you want to view information by Cost</p> </li> 
+     <li> <p>Financial Data that includes access to View Cost Rates and View General Finance, if you want to view information by Cost</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

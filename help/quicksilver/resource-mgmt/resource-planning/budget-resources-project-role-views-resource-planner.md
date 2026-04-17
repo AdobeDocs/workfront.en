@@ -44,7 +44,7 @@ Before starting to budget information in the Resource Planner, see the following
   </tr> 
   <tr> 
    <td>Access level configurations</td> 
-   <td> <p>Edit access to Resource Management that includes access to Edit priorities and budget hours in the Resource Planner</p> <p>Edit access to Financial Data that includes access to Edit General Finance, to budget resources by Cost</p> <p>Edit access to Projects and Users</p></td> 
+   <td> <p>Edit access to Resource Management that includes access to Edit priorities and budget hours in the Resource Planner</p> <p>Edit access to Financial Data that includes access to Edit Cost Rates and Edit General Finance, to budget resources by Cost</p> <p>Edit access to Projects and Users</p></td> 
   </tr> 
   <tr> 
    <td>Object permissions</td> 
