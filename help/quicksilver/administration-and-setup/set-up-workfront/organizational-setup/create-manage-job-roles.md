@@ -45,7 +45,7 @@ As an [!DNL Adobe Workfront] administrator or a Standard user with Edit access t
   </tr> 
   <tr> 
    <td>Access level configurations</td> 
-   <td>Administrative access to Job Roles</td>
+   <td>Edit access to Job Roles</td>
   </tr> 
  </tbody> 
 </table>

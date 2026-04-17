@@ -390,13 +390,13 @@ To edit information on custom forms when editing a project:
 
 Depending on your access level and on your permission on the project, the following scenarios exist:
 
-* If you have View access to Financial Data and View Finance permissions on the project, you can only view the fields in the Finance section. You cannot edit the fields in this section.
-* If you have Edit access to Financial Data and Manage Finance permissions on the project, you can update the fields in this section. 
+* If you have View access to Financial Data and View General Finance permissions on the project, you can only view the fields in the Finance section. You cannot edit the fields in this section.
+* If you have Edit access to Financial Data and Edit General Finance permissions on the project, you can update the fields in this section.
 
 When selecting more than one project to edit them in bulk and, the following scenarios exist:
 
-* If you select at least one project where you have View Finance (instead of Manage Finance) permissions, you can only view the fields in this section for all the selected projects. You cannot bulk-edit the fields in the Finance section.
-* If you select at least one project where you have no finance permissions, this section does not display at all. 
+* If you select at least one project where you have View General Finance (instead of Edit General Finance) permissions, you can only view the fields in this section for all the selected projects. You cannot bulk-edit the fields in the Finance section.
+* If you select at least one project where you have no finance permissions, this section does not display at all.
 
 To edit fields in the Finance area:
 

@@ -49,13 +49,13 @@ In order to budget resources, manage Resource Pools, and see Cost information in
        <li> <p>Access to manage Resource Pools, if you need to manage Resource Pools.</p> </li> 
       </ul> <p>For information about the Resource Management access level, see the article <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Grant access to Resource Management</a>.</p> </li> 
      <li> <p>Edit access to Projects and Users. </p> </li> 
-     <li> <p> Edit access to Financial Data in your access level, if you need to view or manage information by&nbsp;Cost.</p> <p>For more information about the Financial Data access level, see the article <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>.</p> </li> 
+     <li> <p> Edit access to Financial Data in your access level that includes access to View or Edit General Finance, if you need to view or manage information by Cost.</p> <p>For more information about the Financial Data access level, see the article <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>.</p> </li> 
     </ul> 
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions on the project that include Manage Finance permissions.</p> <p>For information about project permissions, see the article <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information about financial permissions on a project, see the article <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Share financial permissions on an object</a></a>.</p> 
+   <td> <p>Manage permissions on the project that include Edit General Finance permissions.</p> <p>For information about project permissions, see the article <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information about financial permissions on a project, see the article <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Share financial permissions on an object</a></a>.</p> 
    
    <p><b>NOTE:</b> When budgeting resources in the Role view, if you have less than Manage permissions for at least one project listed under the role, you cannot budget hours, FTE, or Cost for the role. You can budget only the projects that you have Manage permissions for.</p> </td> 
   </tr> 

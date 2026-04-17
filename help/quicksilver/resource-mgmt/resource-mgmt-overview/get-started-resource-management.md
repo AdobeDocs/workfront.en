@@ -138,8 +138,8 @@ You must be one of the following users and have the following access and permiss
   In addition to having a Work or higher license (or a Standard license), you must have the following to use specific resource management tools:
 
    * Edit access to Resource Management (not needed for making assignments in the Workload Balancer)
-   * Edit access to Financial Data to display Cost information in the Resource Planner
-   * View access to Financial Data to view Cost and Revenue information in the Utilization Report (only users with a Plan license)
+   * Edit access to Financial Data that includes access to View or Edit General Finance, to display Cost information in the Resource Planner
+   * View access to Financial Data that includes access to View General Finance, to view Cost and Revenue information in the Utilization Report (only users with a Plan license)
 
 * Contribute or higher permissions that includes Make Assignments on the projects you want to manage resources for.  
 

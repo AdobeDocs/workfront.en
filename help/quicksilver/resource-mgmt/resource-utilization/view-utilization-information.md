@@ -64,12 +64,12 @@ You can view the utilization of your resources in the Utilization report.
      <li> <p>Projects</p> </li> 
      <li> <p>Portfolios</p> </li> 
      <li> <p>Programs</p> </li> 
-     <li> <p>Financial Data, if you want to view information by Cost</p> </li> 
+     <li> <p>Financial Data that includes access to View General Finance, if you want to view information by Cost</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Object permissions</td> 
-   <td> <p>View access to projects, portfolios, and programs to access the Utilization  section in the  Resourcing area</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-highloighted-350x145.png" style="width: 350;height: 145;"> </p> <p>Manage access to a project to access the Utilization section of the project</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-on-project-highloighted-350x289.png" style="width: 350;height: 289;"> </td> 
+   <td> <p>View access to projects, portfolios, and programs to access the Utilization section in the  Resourcing area</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-highloighted-350x145.png" style="width: 350;height: 145;"> </p> <p>Manage access to a project to access the Utilization section of the project</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-on-project-highloighted-350x289.png" style="width: 350;height: 289;"> </td> 
   </tr> 
  </tbody> 
 </table>
