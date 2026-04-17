@@ -428,7 +428,7 @@ If your organization uses outbound network filtering, add the following domains 
 * *.static.workfront.com 
 
 
-  This is a static domain that excompasses all of the following domains. You may add the individual domains if you prefer:
+  This is a static domain that encompasses all of the following domains. You may add the individual domains if you prefer:
   
    * mfe.static.workfront.com
    * mfe-c.static.workfront.com
@@ -436,7 +436,7 @@ If your organization uses outbound network filtering, add the following domains 
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
 
-If your organization is on the Adobe Unified Experience, it uses the following domains. These domains are covered under `*.adobe.com`, but can be added if desired.
+Because your organization is on the Adobe Unified Experience, it uses the following domains. These domains are covered under `*.adobe.com`, but can be added if desired.
 
 * &lt;your domain&gt;.my.workfront.adobe.com
 * &lt;your domain&gt;.preview.workfront.adobe.com
@@ -445,6 +445,8 @@ If your organization is on the Adobe Unified Experience, it uses the following d
 
 
 For Workfront Fusion, add the following domains:
+
+<!--Remove me October 2026-->
 
 * For organization not on the Adobe Unified Experience:
    * app.workfrontfusion.com (US AWS)
