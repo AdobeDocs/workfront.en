@@ -183,7 +183,11 @@ To schedule a refresh of your Customer Refresh Sandbox:
 >[!NOTE]
 >
 >Report delivery and push notifications on the mobile app are always disabled for the Custom Refresh Sandbox environment. Neither you nor the [!DNL Workfront] administrator can enable report delivery or push notifications for the mobile app when you access the Custom Refresh Sandbox environment.\
->For more information about report deliveries for the production environment, see [Report delivery overview](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).For more information about push notifications on the mobile app for the production environment, see the section in .
+>For more information about report deliveries for the production environment, see [Report delivery overview](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+
+<!--
+
+Remove me October 2026
 
 ## Configure Single Sign-On in the Custom Refresh Sandbox
 
@@ -196,6 +200,8 @@ For more information about configuring [!DNL Workfront] with SSO, see [Overview 
 >[!NOTE]
 >
 >This is not available if your organization's [!DNL Workfront] instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+
+-->
 
 ## Automatic recalculation of project timelines 
 

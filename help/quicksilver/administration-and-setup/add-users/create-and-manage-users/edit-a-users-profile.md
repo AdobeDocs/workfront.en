@@ -119,7 +119,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 * **Job Info**: Information about the job, like the job title (in the **Title** field), and what area of expertise the user is responsible for (in the **Talk to Me About** field).
 * **Contact Info**: The user's phone number (in the **Phone number**, **Ext.**, and **Mobile number** fields) and address (in the **Address**, **City**, **State**, **Postal Code**, and **Country** fields).
 
-  If the user is enabled for Unified User Management (UUM) or Adobe Identity Management System (IMS), the **Country** field in the Contact Info section only accepts country code values (for example, US, GB, IN).
+  The **Country** field in the Contact Info section only accepts country code values (for example, US, GB, IN).
 
 ### Preferences
 

@@ -27,12 +27,6 @@ exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
 
 If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist. This opens communication between your environment and the Adobe Workfront servers and allows the following processes:
 
-* Sending messages from the Workfront application
-
-  >[!NOTE]
-  >
-  >This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
-
 * Using document webhooks when configuring custom document integrations
 * Using Workfront Event Subscriptions
 
