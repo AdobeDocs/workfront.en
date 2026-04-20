@@ -262,7 +262,7 @@ Old:
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Finance**.
 
-   ![Edit template box Finance section](assets/edit-template-box-finance-section.png)
+   ![Edit template box Finance section](assets/edit-template-finance-section-040626.png)
 
 1. Update the following fields:
 
@@ -270,6 +270,14 @@ Old:
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong>Preserve project billing rates information</strong></td>
+      <td><p>When you enable this option, all assignment billing rates are permanently frozen to the highest applicable rate from the billing hierarchy. This is a one-time selection, and you cannot disable the option once the project has assignments or hours. After preservation, assignment billing rates cannot be changed, edited, or overridden anywhere on the project.</p></td>
+     </tr>
+     <tr>
+      <td><strong>Use date-effective exchange rates from the system</strong></td>
+      <td><p>When this option is selected, the system-level date-effective exchange rates are always used, and exchange rate overrides are not permitted on the project.</p> <p>You must also select the <strong>Exchange Rate Date</strong> to start from, when the option is selected.</p></td> 
+     </tr>
       <tr> 
       <td role="rowheader"><strong>Currency</strong></td> 
       <td><p>Specify the currency for the future project, if it is different than the default currency of your system. This field is not visible if you have only the default currency in the system.<br>For more information about currency, see <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p></td> 

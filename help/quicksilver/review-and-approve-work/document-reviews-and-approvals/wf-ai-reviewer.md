@@ -12,8 +12,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Get started with the Workfront Content Reviewer
 
-{{highlighted-preview-article-level}}
-
 Content Reviewer is an AI Collaborator—a type of AI agent that can be added to your projects, tasks, and documents. AI Collaborators can be configured in the Setup area and assigned just like users.
 
 In Workfront, Content Reviewer helps increase content velocity and improve brand compliance throughout the review and approval process. You can add Content Reviewers to approval templates or include them in individual review and approval requests.
@@ -31,6 +29,7 @@ Any user can add the Content Reviewer to a review and approval request.
      * Content Reviewer in Workfront provides the functionality available in GenStudio Foundation for asset review and approval workflows. You do not need to access GenStudio Foundation directly to complete your work. Your access to GenStudio Foundation functionality through Content Reviewer falls under the terms of your Workfront contract.
 * Adobe must have a signed Adobe Gen AI agreement on file.
     For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
+* Content Reviewer is not available in Sandbox environments.
 
 
 ## Supported file types {#supported-file-types-ai-reviewer}

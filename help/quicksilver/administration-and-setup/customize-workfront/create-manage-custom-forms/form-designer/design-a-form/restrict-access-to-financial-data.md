@@ -11,8 +11,6 @@ exl-id: 3380cce6-8372-43c0-8520-473442ea0eb4
 ---
 # Restrict access to financial data in custom fields
 
-{{highlighted-preview-article-level}}
-
 When you create a custom field, you can define optional settings to restrict access to financial data. This way, users who have certain permissions set in their access levels can see the data, and they are prevented from seeing financial data that they should not have access to.
 
 For information about creating a custom field, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

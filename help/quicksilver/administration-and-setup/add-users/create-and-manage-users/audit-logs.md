@@ -13,8 +13,6 @@ exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
 
 <!--Audited: 08/2025-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 As an Adobe Workfront administrator, you can track user-changes triggered in the system during the past 90 days using the audit logs described below.
 
 For instructions on viewing and filtering what you want to see in these audit logs, see [View and export audit logs](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
@@ -62,7 +60,7 @@ The following fields are recorded in every audit log entry:
 
 * [Access Level](#access-level) 
 * [Business Profiles](#business-profiles)
-* <span class="preview">[Business Rules](#business-rules)</span>
+* [Business Rules](#business-rules)
 * [Company](#company) 
 * [Condition](#condition) 
 * [Custom Field](#custom-field) 
@@ -96,8 +94,6 @@ The system generates an Access Level log entry when a user does one of the follo
      >
      >For example, if a user changes the Planner access type from View to Edit, the system does not display information contained in the Fine-tune your settings drop-down menu.
 
-<div class="preview">
-
 ### Business Profiles
 
 The system generates a Business Profile audit log entry when a user does one of the following:
@@ -105,8 +101,6 @@ The system generates a Business Profile audit log entry when a user does one of 
 * Creates a business profile
 * Edits a business profile:
 * Deletes a business profile
-
-</div>
 
 ### Business Rules
 
@@ -263,6 +257,10 @@ For more information about configuring job roles, see [Create and manage job rol
 
 ### Login Attempt {#login-attempt}
 
+<!--Delete me October 2026-->
+
+<!--
+
 The system generates a Login Attempt audit log entry when a user does one of the following actions:
 
 * Logs in, logs out, or fails a login attempt in Workfront (in a browser and in the mobile app)
@@ -271,9 +269,11 @@ The system generates a Login Attempt audit log entry when a user does one of the
 
 Login Attempt Logs do not record when a Workfront administrator uses the Log In As feature.
 
+-->
+
 >[!NOTE]
 >
->This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
+>Because all organizations have been onboarded to the Adobe Admin Console, this feature is no longer available.See your network or IT administrator if you need more information.
 
 ### Priority {#priority}
 
@@ -366,7 +366,7 @@ The system generates a User audit log entry when a user does one of the followin
 
   >[!NOTE]
   >
-  >This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
+  >Because all organizations have been onboarded to the Adobe Admin Console, this feature is no longer available.See your network or IT administrator if you need more information.
 
 * Deletes a user
 * Changes a user's access level, company, team, or group

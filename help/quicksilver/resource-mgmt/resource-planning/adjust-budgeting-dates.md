@@ -32,11 +32,12 @@ Overallocations can appear when the Budgeted Hours, FTE, or Costs of your resour
   </tr> 
   <tr> 
    <td>Access level configurations</td> 
-   <td> <p>Edit access to Resource Management that includes access to Edit priorities and budget hours in the Resource Planner</p> <p>Edit access to Financial Data, Projects, and Users</p></td> 
+   <td> <p>Edit access to Resource Management that includes access to Edit priorities and budget hours in the Resource Planner</p> <p>Edit access to Financial Data that includes access to Edit Cost Rates and Edit General Finance</p>
+   <p>Edit access to Projects and Users</p></td> 
   </tr> 
   <tr> 
    <td>Object permissions</td> 
-   <td> <p>Manage permissions to the projects you want to budget information for with ability to Manage Finances</p></td> 
+   <td> <p>Manage permissions to the projects you want to budget information for with the ability to Edit Cost Rates and Edit General Finance</p></td> 
   </tr> 
  </tbody> 
 </table>

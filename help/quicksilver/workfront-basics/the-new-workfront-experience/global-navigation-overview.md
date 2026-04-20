@@ -78,15 +78,11 @@ The options that are available in the [!UICONTROL Main Menu] are dependent on:
 
 * **Layout template configurations**: To learn how a [!DNL Workfront] administrator can modify the [!UICONTROL Main Menu] from a layout template, see [Customize the [!UICONTROL Main Menu] using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-* **License type**: To learn the default configurations for different license types, see [Understand the navigation for a Review-license user](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) or [Understand the navigation for a [!UICONTROL Work]-license user](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **License type**: To learn the default configurations for different license types, see [Understand the navigation for a Light-license user](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) or [Understand the navigation for a [!UICONTROL Work]-license user](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
 Each icon takes you to a different area of Workfront. 
 
 To learn more about each area, see:
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Update screenshot and add icons for new products/features.)</p>
--->
 
 <table style="table-layout:auto"> 
  <col> 

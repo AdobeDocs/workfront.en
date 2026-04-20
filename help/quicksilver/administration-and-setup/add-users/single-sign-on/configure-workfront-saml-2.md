@@ -21,9 +21,15 @@ exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
 
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
+>The procedure described on this page applied only to organizations that are not yet onboarded to the Adobe Admin Console.
 >
->To map user attributes in organizations that have been onboarded to the Adobe Admin Console, see [Map user attributes in the Adobe unified experience](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) in the article Map user attributes.
+>Because all organizations are now onboarded to the Adobe Admin Console, the procedure is no longer available.
+>
+>To map user attributes in organizations that have been onboarded to the Adobe Admin Console, see [Map user attributes](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) in the article Map user attributes.
+
+<!--Remove me October 2026-->
+
+<!--
 
 As an Adobe Workfront administrator, you can configure the Workfront web and mobile applications to integrate with a Security Assertion Markup Language (SAML) 2.0 solution for single sign-on (SSO).
 
@@ -181,3 +187,5 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    </table>
 
 1. Click **Save** to save the SAML 2.0 configuration.
+
+-->

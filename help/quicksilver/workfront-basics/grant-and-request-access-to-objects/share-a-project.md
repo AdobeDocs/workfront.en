@@ -13,8 +13,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 <!-- Audited: 1/2024 -->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 Your Adobe Workfront administrator can grant you access to view or edit projects when assigning your access level. For more information, see [Grant access to projects](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
 Along with the access level that users are granted, you can also grant them permissions to View, Contribute, or Manage specific projects that you have access to share.
@@ -142,7 +140,7 @@ You can share a project in the following ways:
 
     ![Share project button](assets/share-project.png)
 
-1. In the **Grant project access to** field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share the project with, then click the name when it appears in the drop-down list.
+1. In the **Grant project access to** field, begin typing the name of the user, team, role, group, company, or business profile you want to share the project with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
@@ -189,7 +187,7 @@ You can share a project in the following ways:
 
     ![Bulk share projects](assets/bulk-share-icon.png)
 
-1. In the **Grant project access to** field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share the projects with, then click the name when it appears in the drop-down list.
+1. In the **Grant project access to** field, begin typing the name of the user, team, role, group, company, or business profile you want to share the projects with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
@@ -382,11 +380,23 @@ The following table lists the permissions that users can grant when sharing a pr
    <td> <p>  </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Manage Finance*</p> </td> 
+   <td> <p>Edit Billing Rates*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>  </p> </td> 
    <td> <p>  </p> </td> 
   </tr> 
+  <tr> 
+   <td> <p>Edit Cost Rates*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Edit General Finance*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+  </tr>
   <tr> 
    <td> <p>Add/ Edit Expenses*</p> </td> 
    <td> <p>✓</p> </td> 
@@ -394,7 +404,19 @@ The following table lists the permissions that users can grant when sharing a pr
    <td> <p>  </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>View Finance*</p> </td> 
+   <td> <p>View Billing Rates*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>View Cost Rates*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>View General Finance*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 

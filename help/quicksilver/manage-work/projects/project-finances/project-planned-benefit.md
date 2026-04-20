@@ -41,7 +41,7 @@ For more information about calculating the Net Value of a project, see the artic
   </tr> 
   <tr> 
    <td>Object permissions</td> 
-   <td>Manage permissions to the project with permissions to Manage Finance</td> 
+   <td>Manage permissions to the project with permissions to Edit General Finance</td> 
   </tr> 
  </tbody> 
 </table>

@@ -54,6 +54,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 You can also call Workfront Support to get help changing your domain.
 
+<!--
+
 ## Update the new domain if you are an SSO customer
 
 If your company utilizes SSO, the following steps are required after you have your Workfront domain changed.
@@ -76,3 +78,6 @@ If your company utilizes SSO, the following steps are required after you have yo
 
 1. Provide the downloaded metadata file to your Identity Provider so that they can update it on their end.
 1. Make sure the domain is updated for all Workfront integrations used by your organization.
+
+
+-->

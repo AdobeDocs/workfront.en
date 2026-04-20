@@ -390,22 +390,20 @@ To edit information on custom forms when editing a project:
 
 Depending on your access level and on your permission on the project, the following scenarios exist:
 
-* If you have View access to Financial Data and View Finance permissions on the project, you can only view the fields in the Finance section. You cannot edit the fields in this section.
-* If you have Edit access to Financial Data and Manage Finance permissions on the project, you can update the fields in this section. 
+* If you have View access to Financial Data and View General Finance permissions on the project, you can only view the fields in the Finance section. You cannot edit the fields in this section.
+* If you have Edit access to Financial Data and Edit General Finance permissions on the project, you can update the fields in this section.
 
 When selecting more than one project to edit them in bulk and, the following scenarios exist:
 
-* If you select at least one project where you have View Finance (instead of Manage Finance) permissions, you can only view the fields in this section for all the selected projects. You cannot bulk-edit the fields in the Finance section.
-* If you select at least one project where you have no finance permissions, this section does not display at all. 
+* If you select at least one project where you have View General Finance (instead of Edit General Finance) permissions, you can only view the fields in this section for all the selected projects. You cannot bulk-edit the fields in the Finance section.
+* If you select at least one project where you have no finance permissions, this section does not display at all.
 
 To edit fields in the Finance area:
 
 1. Begin editing your project as described above.
 1. Click **Finance** in the left panel.
 
-   ![Finance area in the project edit box](assets/nwe-finance-in-edit-project-box-350x183.png)
-
-   <!--![Finance area in the project edit box](assets/edit-project-finance-section.png)-->
+   ![Finance area in the project edit box](assets/edit-project-finance-section.png)
 
 1. Update the following financial information for the project:
 
@@ -414,12 +412,12 @@ To edit fields in the Finance area:
     <col> 
     <tbody> 
      <tr>
-      <td><strong><span class="preview">Use date-effective exchange rates from the system</span></strong></td>
-      <td><p><span class="preview">When this option is selected, the system-level date-effective exchange rates are always used, and exchange rate overrides are not permitted on the project.</span></p> <p><span class="preview">You must also select the <strong>Exchange Rate Date</strong> to start from, when the option is selected.</span></p></td> 
+      <td><strong>Use date-effective exchange rates from the system</strong></td>
+      <td><p>When this option is selected, the system-level date-effective exchange rates are always used, and exchange rate overrides are not permitted on the project.</p> <p>You must also select the <strong>Exchange Rate Date</strong> to start from, when the option is selected.</p></td> 
      </tr>
      <tr>
-      <td><strong><span class="preview">Preserve project billing rates information</span></strong></td>
-      <td><p><span class="preview">When you enable this option, all assignment billing rates are permanently frozen to the highest applicable rate from the billing hierarchy. This is a one-time selection, and you cannot disable the option once the project has assignments or hours. After preservation, assignment billing rates cannot be changed, edited, or overridden anywhere on the project.</span></p></td>
+      <td><strong>Preserve project billing rates information</strong></td>
+      <td><p>When you enable this option, all assignment billing rates are permanently frozen to the highest applicable rate from the billing hierarchy. This is a one-time selection, and you cannot disable the option once the project has assignments or hours. After preservation, assignment billing rates cannot be changed, edited, or overridden anywhere on the project.</p></td>
      </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Currency</strong> </td> 

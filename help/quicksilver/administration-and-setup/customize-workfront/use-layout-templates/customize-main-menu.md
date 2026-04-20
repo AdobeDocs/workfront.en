@@ -11,8 +11,6 @@ exl-id: d4f02102-0378-472f-9ebb-753502ec048b
 ---
 # Customize the Main Menu using a layout template
 
-{{highlighted-preview}}
-
 <!--Audited: 01/2024-->
 
 As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the options users see when they open the Main Menu in Workfront.
@@ -21,7 +19,7 @@ As an Adobe Workfront administrator or a group administrator, you can use a layo
 >
 >The Main Menu options that users see depend on their license type and what settings are configured in their access level. Some users who will use this layout template may not see all the options you choose here. For more information see [How access levels and permissions work together](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) and [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 >
->You might see different options in the Main Menu if your organization has been onboarded on the Adobe Workfront Unified Experience. For information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
+>You might see different options in the Main Menu after your organization has been onboarded on the Adobe Workfront Unified Experience. For information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
 
 For information about creating layout templates, see [Create and manage layout templates](../use-layout-templates/create-and-manage-layout-templates.md). 
 
@@ -116,9 +114,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
       >[!NOTE]
       >
-      > Custom applications must be created separately before they become available as Main Menu options. For more information, see [Create a custom application for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md). 
-
-<div class="preview">
+      > Custom applications must be created separately before they become available as Main Menu options. For more information, see [Create a custom application for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
 In the Preview environment:
 
@@ -133,17 +129,9 @@ In the Preview environment:
    * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) items that you don't want to display on the Main Menu.
    * Show ![Show icon](assets/add-icon-plus-in-circle.png) items that you do want to display on the Main Menu.
 
-</div>
-
    >[!NOTE]
    >
-   ><span class="preview">You can't change the order of system items. These items always display at the bottom of the Main Menu when they are active.</span>
-
-1. In the Production environment, do any of the following:
-
-   * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) **Active items** that you don't want to display
-   * Show ![Show icon](assets/add-icon-plus-in-circle.png) **Available items** that you do want to display on the Main Menu.
-   * Drag ![Drag icon](assets/move-icon---dots.png) **Active items** to change their display order on the Main Menu.
+   >You can't change the order of system items. These items always display at the bottom of the Main Menu when they are active.
 
 1. Click **Done**.
 

@@ -100,6 +100,10 @@ You can generate, reset, or remove the API Key for your administrator user accou
 
    To remove the API Key: In the **API Key Settings** section, click **Remove**, then **Remove**. 
 
+<!--
+
+   Remove me October 2026
+
 ## Generate an API Key for Non-Admin Users
 
 You can generate and manage API Keys for users in roles other than Workfront administrator.
@@ -133,6 +137,8 @@ You can generate and manage API Keys for users in roles other than Workfront adm
    
    1. Select your SSO method in the **Type** drop down menu.
    1. Check the checkbox requiring SSO authentication.
+
+   -->
 
 ## Configure when API keys expire
 
@@ -168,6 +174,10 @@ If you are concerned about a particular security breach regarding your Workfront
 1. Expand **System**, then click **Customer Info**.
 
 1. In the **API Key Settings** area, click **Remove all API keys**, then click **Remove** **All**.
+
+<!--
+
+Remove me October 2026
 
 ## Restricting API logins with an X.509 certificate
 
@@ -223,3 +233,5 @@ Prior to configuring your instance of Workfront to require an X.509 certificate,
 After making the X.509 certificate a requirement via the customer info page in your instance of Workfront, make another login attempt. This time you will receive a 500 error response with the following message: "Untrusted request. Please contact your system administrator and attach certificate."
 
 After confirming that the X.509 certificate is required, perform the same login request with an additional parameter for apiCertificate set to the value of your certificate. If this operation was performed correctly you will receive a 200 response that contains a valid sessionID.
+
+-->

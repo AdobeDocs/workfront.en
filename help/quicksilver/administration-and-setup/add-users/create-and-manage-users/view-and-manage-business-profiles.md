@@ -14,8 +14,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View and manage business profiles
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for specific customers.</span>
-
 To assign a business profile to a user, you must assign a group and an associated access level.
 
 As a Workfront administrator, you can set a user's business profile by assigning combinations of access levels and groups. This is managed from the user's User page in Workfront.

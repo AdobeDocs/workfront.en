@@ -43,6 +43,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 To enable AI Assistant for your organization, **all** of the following must apply:
 
+<!--Remove me October 2026-->
+
 * Your organization must have migrated to Adobe IMS (Identity Management System)
 * The Adobe Unified Experience must be enabled
 * Your organization must have a Select, Prime, or Ultimate Workfront plan

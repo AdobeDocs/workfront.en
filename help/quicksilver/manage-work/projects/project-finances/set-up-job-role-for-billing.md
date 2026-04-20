@@ -10,8 +10,6 @@ exl-id: d6e2947d-2f40-4591-b048-9a769caadf43
 ---
 # Set up a Job Role for Billing
 
-{{highlighted-preview-article-level}}
-
 Workfront allows you to bill a user under a different job role than their primary job role. This is useful when a person temporarily performs work that should be billed at a different rate.
 
 You can assign a Job Role for Billing in two ways:

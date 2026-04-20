@@ -11,8 +11,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Remove approvers or reviewers from a document approval workflow
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 You can remove individual approvers or reviewers from an asset or document after they have been assigned.
 
 >[!IMPORTANT]
@@ -56,40 +54,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 +++
 
 
-## Remove approvers or reviewers from the Document Details page in your production environment
-
-1. Go to the document page by clicking on the name of the document, then select the version of the document you would like to remove an approval for in the version dropdown. The latest version is selected by default.
-
-1. Select **Approvals** in the left panel.
-
-1. Hover over the name of the approver or reviewer you would like to remove, then click on the **Delete** icon ![Delete icon](../assets/delete.png) that appears after their name.
-
-    The approval or review request is removed and the approver receives a notification that their approval is no longer needed. Their approval-related share access is also removed.
-
-1. (Optional) To demote an approver to a reviewer rather than remove them entirely, uncheck the **Approver** checkbox in line with their name.
-
-1. Repeat the previous step to remove any additional approvers or reviewers.
-
-## Remove approvers or reviewers from the Document Summary in your production environment
-
-1. Go to the project, task, or issue that contains the document, then select **Documents**.
-
-1. Click on the document you need and the Document Summary panel for that document opens.
-
-1. Select the version of the document you would like to remove an approver or reviewer for in the version dropdown. The latest version is selected by default.
-
-1. Scroll down to the **Approvals** section in the Document Summary panel. Hover over the name of the approver or reviewer you would like to remove, then click on the **Delete** icon ![Delete icon](../assets/delete.png) that appears after their name.
-
-    The approval or review request is removed and the approver receives a notification that their approval is no longer needed. Their approval-related share access is also removed.
-
-1. (Optional) To demote an approver to a reviewer rather than remove them entirely, uncheck the **Approver** checkbox in line with their name.
-
-1. Repeat the previous step to remove any additional approvers or reviewers.
-
-
-<div class="preview">
-
-## Remove approvers or reviewers from an approval workflow in your preview environment in the legacy documents area
+## Remove approvers or reviewers from an approval workflowin the legacy documents area
 
 If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
@@ -140,4 +105,5 @@ To create a an approval workflow:
 1. Repeat the previous step to remove any additional approvers or reviewers.
 
    ![remove participants from a stage](assets/add-or-remove-participants.png)
+   
 1. Click **Save**.

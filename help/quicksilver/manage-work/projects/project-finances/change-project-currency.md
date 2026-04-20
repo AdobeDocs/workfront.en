@@ -53,7 +53,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 * If you do not specify a different currency for a project, Workfront assumes that the project's currency is the default currency of the system. For information on system-level default currency, see [Set up exchange rates](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 * By default, all full license users have access to view currencies and exchange rates. The Workfront administrator needs to grant additional administrative access for **Exchange rates** to enable users to set specific rates on projects. 
 * Exchange rates in Workfront are not dynamic. The value is set by an administrator and must be updated when changes in exchange rates occur.
-* <span class="preview">If effective dates are applied to a currency and its exchange rates, then the exchange rate could change during the lifetime of the project. For information on effective-dated exchange rates, see [Set up exchange rates](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).</span>
+* If effective dates are applied to a currency and its exchange rates, then the exchange rate could change during the lifetime of the project. For information on effective-dated exchange rates, see [Set up exchange rates](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 * When you create a report to reflect currency on a project, by default all reports are grouped by the project's default currency. If you create a report with multiple project's that have different exchange rates, then any groupings applied to the project reflect the default exchange rate at the system level. For more information, see the article [Create financial data reports with unique exchange rates](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
 ## Configure the currency for a project
@@ -73,6 +73,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    >[!NOTE]
    >
-   ><span class="preview">If the **Use date-effective exchange rates from the system** setting is turned on for this project, then exchange rate overrides are not permitted. For more information, see [Edit projects](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).</span>
+   >If the **Use date-effective exchange rates from the system** setting is turned on for this project, then exchange rate overrides are not permitted. For more information, see [Edit projects](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
 1. Click **Save Changes**.

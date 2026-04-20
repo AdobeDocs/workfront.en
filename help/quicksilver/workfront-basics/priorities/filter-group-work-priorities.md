@@ -147,8 +147,8 @@ Use natural language to quickly filter work.
 
 {{step1-to-priorities}}
 
-1. Click **Groups** in the top left of the worklist.
-1. Select a group to organize your worklist.
+1. Click **Grouping** in the top left of the worklist.
+1. Select a grouping to organize your worklist.
   
   ![Groups](assets/groups-new.png)
 
@@ -173,11 +173,11 @@ You can drag and drop individual work items between categories when grouping by 
 
 ## Sort your work
 
-### Sort in groups
+### Sort in groupings
 
-To sort your work within a group, open **Group** and select if you want to sort in ascending or descending order.
+To sort your work within a grouping, open **Grouping** and select if you want to sort in ascending or descending order.
 
-![Sort in groups](assets/sort-in-groups.png)
+![Sort in groupings](assets/sort-in-groups.png)
 
 ### Sort columns
 

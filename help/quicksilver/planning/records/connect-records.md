@@ -46,7 +46,7 @@ You can connect the following:
     * Companies
     * Groups
 
-  * Adobe Experience Manager Assets
+  * Adobe Experience Manager
 
     * Image files
     * Folders
@@ -383,7 +383,7 @@ After you create a connection between a record type and a Workfront object type,
 >
 >If you have questions about onboarding to the Adobe Admin Console, see the [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-After you create a connection between a record type and Adobe Experience Manager Assets, you can connect individual records to Experience Manager assets. The asset fields you connected from Experience Manager Assets when you created the connection automatically populate on the record type you linked from.
+After you create a connection between a record type and Adobe Experience Manager Assets, you can connect individual records to Experience Manager assets. The asset fields you connected from Experience Manager when you created the connection automatically populate on the record type you linked from.
 
 >[!NOTE]
 >
@@ -400,17 +400,21 @@ To connect records with Experience Manager assets:
 1. Select a **Table** view from the **View** drop-down menu in the upper-right corner of the record type page.
 
 1. (Optional) Click **New record** to add new records to the record type that you selected. For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
-1. (Conditional) After you connect the selected record type with Experience Manager Assets, go to the connected field on a record and either click the field, or click **Connect** to add Experience Manager assets to the record, then click the **+** icon. 
+1. (Conditional) After you connect the selected record type with Experience Manager, go to the connected field on a record and either click the field, or click **Connect** to add Experience Manager assets to the record, then click the **+** icon.
 
     >[!TIP]
     >
     >  You can add click the **+** icon in the linked object field in the record page to connect assets to the record.
 
-    The **Select Assets** box displays. <!--we might change this to Connect assets-->
+    The Content Advisor box displays.
 
-    ![Select assets box for AEM record connections](assets/select-assets-box-for-aem-record-connections.png)
+    ![Content Advisor box for AEM record connections](assets/content-advisor-assets-nothing-selected.png)
 
-1. Click to select some of the following types of assets:
+    <!-- The **Select Assets** box displays. we might change this to Connect assets.--> 
+
+    <!-- ![Select assets box for AEM record connections](assets/select-assets-box-for-aem-record-connections.png)-->
+
+1. Click to select some of the following types of assets from the **Assets** area:
 
     * Images
     * Folders
@@ -419,11 +423,16 @@ To connect records with Experience Manager assets:
 
     >[!IMPORTANT]
     >
-    > You can connect only assets you have access to view in Experience Manager. Once connected, all Workfront Planning users can view the assets in Workfront Planning, regardless of their access in Experience Manager Assets. 
+    > You can connect only assets you have access to view in Experience Manager. Once connected, all Workfront Planning users can view the assets in Workfront Planning, regardless of their access in Experience Manager Assets.
+    > For more information about Content Advisor, see [Use Content Advisor to access AEM content in Adobe applications](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
-1. Click **Select**. <!-- we might change this to Connect-->
+1. Click **Content Fragments** to select content fragments to add to the linked record field.
 
-    The following are added: 
+   For more information about content fragments, see [Use Content Advisor to access AEM content in Adobe applications](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
+
+1. When you are finished choosing assets or content fragments, click **Select**. <!-- we might change this to Connect-->
+
+    The following are added:
 
     * The selected Experience Manager assets are added to the linked record field. 
     * The linked fields (or lookup fields) populate with information from the Experience Manager connected assets. 
@@ -436,7 +445,7 @@ To connect records with Experience Manager assets:
       >
       >* A linked record field to the Workfront Planning linked records is not created for the linked Experience Manager assets in the Experience Manager Assets application. 
      
-1. (Optional) Go to the record type you linked to Experience Manager Assets from and click the name of an asset in the linked record field. The Experience Manager details of the asset display in a pop-up window. 
+1. (Optional) Go to the record type you linked to Experience Manager from and click the name of an asset in the linked record field. The Experience Manager details of the asset display in a pop-up window. 
 
     ![Asset pop-up window with AEM details and thumbnail](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 

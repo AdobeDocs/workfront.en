@@ -14,8 +14,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 <!-- Audited: 1/2024 -->
 
-{{highlighted-preview}}
-
 As a project manager, you can use billing rates to capture revenue on your projects.
 
 This article describes tracking revenue for projects. Revenue is calculated differently in the Utilization Report. For information on Revenue calculations in the Utilization Report, see [View resource utilization information](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
@@ -77,7 +75,7 @@ You can define the value of a job role billing rate using the Base Currency of y
 
 For more information about creating job roles, see the article [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-![Edit job role cost and billing rates](assets/edit-job-role-multiple-billing-rates-new.png)
+![Edit job role billing rates](assets/edit-job-role-multiple-billing-rates-040826.png)
 
 ### Fixed Billing Rates for projects or tasks {#fixed-billing-rates-for-projects-or-tasks}
 
@@ -87,8 +85,6 @@ In addition to user and job role hourly rates, you can also have the following f
 * Fixed Amount for Fixed Revenue Revenue Type
 
 For more information about how the fixed billing rates are used to calculate revenue, see [Overview of task Revenue Types](#overview-of-task-revenue-types).
-
-<div class="preview">
 
 ### Override Billing Rates - Workflow Ultimate package
 
@@ -102,8 +98,6 @@ At the project level, you can:
 * Override a billing rate for a specific user on that project.
 
 Billing rate overrides are not generic. For example, you wouldn't override "Designer" as a role. Instead, you would override "Designer – New York – Agency X" for the relevant date-effective period. Overrides respect the billing rate hierarchy, so the system always applies them in order of precedence.
-
-</div>
 
 ### Override Billing Rates - all other packages
 
@@ -186,7 +180,7 @@ For more information about setting the Revenue Type of a task, see the article [
 
 >[!NOTE]
 >
-><span class="preview">You must have the Workflow Ultimate package to have the User and Role Hourly revenue type available.</span>
+>You must have the Workflow Ultimate package to have the User and Role Hourly revenue type available
 
 You can apply the following revenue types to your tasks or projects:
 
@@ -217,8 +211,8 @@ You can apply the following revenue types to your tasks or projects:
    <td> <p>This type can be used for tasks only.</p> <p>This type is similar to User Hourly but uses job role rates rather than user rates.</p> <p><strong>NOTE</strong><br>A job role can also have multiple billing rates with effective dates.</p></td> 
   </tr> 
   <tr> 
-   <td> <p><span class="preview">User and Role Hourly</span></p> </td> 
-   <td> <p><span class="preview">This type can be used for tasks only.</span></p> <p><span class="preview">This type examines both user and role information to determine the appropriate rate.</span></p></td> 
+   <td> <p>User and Role Hourly</p> </td> 
+   <td> <p>This type can be used for tasks only.</p> <p>This type examines both user and role information to determine the appropriate rate.</p></td> 
   </tr>
   <tr> 
    <td> <p>User Hourly with Cap</p> </td> 
@@ -229,8 +223,8 @@ You can apply the following revenue types to your tasks or projects:
    <td> <p>This type can be used for tasks only.</p> <p>This type is similar to User Hourly with Cap but uses job role rates rather than user rates. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="preview">User and Role Hourly with Cap</span></p> </td> 
-   <td> <p><span class="preview">This type can be used for tasks only.</span></p> <p><span class="preview">Tasks are billed hourly as in User and Role Hourly, but they have a maximum Cap Amount that you can specify.</span></p></td> 
+   <td> <p>User and Role Hourly with Cap</p> </td> 
+   <td> <p>This type can be used for tasks only.</p> <p>Tasks are billed hourly as in User and Role Hourly, but they have a maximum Cap Amount that you can specify.</p></td> 
   </tr>
   <tr> 
    <td> <p>User Hourly Plus Fixed</p> </td> 
@@ -241,8 +235,8 @@ You can apply the following revenue types to your tasks or projects:
    <td> <p>This type can be used for tasks only. </p> <p>Tasks are billed hourly as in Role Hourly, but have an additional Fixed Amount that you can add to the role rate. The Fixed Amount specified on the task can be included in billing records for the project. The Fixed Amount does not get multiplied by the hours on the task. Only the job role billing rate does. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="preview">User and Role Hourly Plus Fixed</span></p> </td> 
-   <td> <p><span class="preview">This type can be used for tasks only.</span></p> <p><span class="preview">Tasks are billed hourly as in User and Role Hourly, but have an additional Fixed Amount that you can add to the rate. The Fixed Amount specified on the task can be included in billing records for the project. The Fixed Amount does not get multiplied by the hours on the task.</span></p></td> 
+   <td> <p>User and Role Hourly Plus Fixed</p> </td> 
+   <td> <p>This type can be used for tasks only.</p> <p>Tasks are billed hourly as in User and Role Hourly, but have an additional Fixed Amount that you can add to the rate. The Fixed Amount specified on the task can be included in billing records for the project. The Fixed Amount does not get multiplied by the hours on the task.</p></td> 
   </tr>
   <tr> 
    <td> <p>Fixed Hourly</p> </td> 
@@ -289,13 +283,9 @@ The system uses a hierarchy to determine which rate is used in revenue calculati
 
 If your Workfront administrator enabled the **Assign Job Roles to hour entries manually** setting in the Timesheets & Hours Preferences area, and the user logging time on the project selects a different role to associate with this time, the Actual Revenue of the task or project always calculates based on the role associated with the hour entry. For information about enabling logging time for a specific job role, see the article [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-<div class="preview">
-
 For the User and Role Hourly revenue type, a Job Role for Billing can be defined at both the project level and the assignment level. If it's defined at the project level for a specific user, that role automatically propagates to all of that user's assignments during the date-effective period you've applied it for. You can still override this rate at the assignment level if needed. For example, a user's primary job role is Designer, but you set her Job Role for Billing on a project as Senior Designer for the month of August. All tasks they are assigned to in August will automatically use the Senior Designer billing rate.
 
 However, on a particular task, you could override the role just for that assignment, to reflect the work being billed. This way, the system supports both project-wide consistency and assignment-level flexibility. For more information, see [Overview of Revenue and Cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) and [Create advanced assignments](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
-
-</div>
 
 The following scenarios exist when calculating task revenue based on the Revenue Type and the nature of the task assignment:
 
@@ -366,16 +356,12 @@ The following scenarios exist when calculating task revenue based on the Revenue
    </tbody> 
   </table>
 
-<div class="preview">
-
 * **The Revenue Type of the task is User and Role Hourly**
 
 | Billing per hour rate | No assignment | User assignment | Job role assignment |
 | --- | --- | --- | --- |
 | Billing per hour rate for Planned Revenue | $0.00 | When a user is assigned, the system looks for the rate in a specified order, starting with a preserved billing rate. Next is a locked rate card rate, a manually entered rate on the assignment, the Job Role for Billing on the assignment, the project-level user billing rate override, the Job Role for Billing at the project level, the user system rate, and the user's primary job role rate. <p> For more information, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | When a job role is assigned, the system first looks for a preserved billing rate, then a locked rate card rate for the job role on the assignment. Next it looks for a job role rate added manually on the assignment. If that rate is not found, then it looks for a job role rate at the project level, first from a rate card, and then from the system rate. <p> For more information, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
 | Billing per hour rate for Actual Revenue | Only the rates associated with the user logging the time are taken into account for the calculation, even when another user is assigned to the task. <p> The system looks for the rate in a specified order, starting with a preserved billing rate. Next is a locked rate card rate, a billing rate override on the project, the job role for billing, the system-level rate on the owner's user profile, and the billing rate of the owner's primary job role. <p> For more information, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | When a user is assigned, the system looks for the rate in a specified order, starting with a preserved billing rate. Next is a locked rate card rate, a manually entered rate on the assignment, the Job Role for Billing on the assignment, the project-level user billing rate override, the Job Role for Billing at the project level, the user system rate, and the user's primary job role rate. <p> For more information, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | When a job role is assigned, the system first looks for a preserved billing rate, then a locked rate card rate for the job role on the assignment. Next it looks for a job role rate added manually on the assignment. If that rate is not found, then it looks for a job role rate at the project level, first from a rate card, and then from the system rate. For more information, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
-
-</div>
 
 ### Revenue calculations for projects
 
