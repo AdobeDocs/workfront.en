@@ -18,7 +18,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 >[!IMPORTANT]
 >
->The functionality in this article is available only if your organization's instance of Workfront has been onboarded to the Adobe Business Platform.
+>The functionality in this article is available only after your organization's instance of Workfront has been onboarded to the Adobe Business Platform.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
