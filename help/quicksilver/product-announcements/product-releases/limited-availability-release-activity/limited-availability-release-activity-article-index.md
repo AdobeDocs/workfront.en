@@ -18,7 +18,7 @@ This article contains a list of release activity articles about limited availabi
 
 For information about the current Workfront limited availability features release activity, see the following article: 
 
-* [Second Quarter 2026 release activity for Adobe Workfront limited availability features](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+* [Third Quarter 2026 release activity for Adobe Workfront limited availability features](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q3.md)
 
 >[!ENDSHADEBOX]
 
@@ -28,3 +28,4 @@ For information about earlier feature releases, see the following articles:
 
 * 2026
     * [First Quarter 2026 release activity for Adobe Workfront limited availability features](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
+    * [Second Quarter 2026 release activity for Adobe Workfront limited availability features](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
