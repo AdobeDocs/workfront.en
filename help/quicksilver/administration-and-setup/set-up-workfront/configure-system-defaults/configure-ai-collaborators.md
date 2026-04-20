@@ -68,6 +68,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Create a new Reviewer-type AI Collaborator
 
+>[!NOTE]
+>
+>Content Reviewer is not available in Sandbox environments.
+
 {{step-1-to-setup}}
 
 1. In the left navigation, click **AI Collaborators**.
