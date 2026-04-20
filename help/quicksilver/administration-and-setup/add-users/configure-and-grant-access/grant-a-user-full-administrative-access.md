@@ -10,9 +10,13 @@ exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
 
 <!--Audited: 12/2024-->
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. After your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+>
+>**Because all organizations have now been migrated to the Adobe Admin Console, the information in this article is no longer relevant, and will be removed in the near future.**
 >
 >For instructions on granting full administrator access in the Adobe Admin Console, see [Manage users in the Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >

@@ -71,6 +71,8 @@ Your organization must have AI Assistant enabled to be able to use Project Healt
 
 To enable AI Assistant and Project Health for your organization, all of the following must apply: 
 
+<!--Remove me October 2026-->
+
 * Your organization must have migrated to the Adobe Identity Management System (IMS). 
 * Your organization must have a Workfront or Workflow Select, Prime, or Ultimate package.
 * The Adobe Unified Experience must be enabled. 

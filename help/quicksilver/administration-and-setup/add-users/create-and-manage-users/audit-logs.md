@@ -257,6 +257,10 @@ For more information about configuring job roles, see [Create and manage job rol
 
 ### Login Attempt {#login-attempt}
 
+<!--Delete me October 2026-->
+
+<!--
+
 The system generates a Login Attempt audit log entry when a user does one of the following actions:
 
 * Logs in, logs out, or fails a login attempt in Workfront (in a browser and in the mobile app)
@@ -265,9 +269,11 @@ The system generates a Login Attempt audit log entry when a user does one of the
 
 Login Attempt Logs do not record when a Workfront administrator uses the Log In As feature.
 
+-->
+
 >[!NOTE]
 >
->This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
+>Because all organizations have been onboarded to the Adobe Admin Console, this feature is no longer available.See your network or IT administrator if you need more information.
 
 ### Priority {#priority}
 
@@ -360,7 +366,7 @@ The system generates a User audit log entry when a user does one of the followin
 
   >[!NOTE]
   >
-  >This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
+  >Because all organizations have been onboarded to the Adobe Admin Console, this feature is no longer available.See your network or IT administrator if you need more information.
 
 * Deletes a user
 * Changes a user's access level, company, team, or group

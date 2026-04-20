@@ -33,4 +33,4 @@ This section contains the following subsections and articles:
 * [Access [!DNL Adobe Workfront] help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
 * [Overview of the Project, Task, and Issue dates in [!DNL Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
 * [Understand the navigation for a [!UICONTROL Work]-license user](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
-* [Understand the navigation for a [!UICONTROL Review]-license user](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
+* [Understand the navigation for a [!UICONTROL Light]-license user](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
