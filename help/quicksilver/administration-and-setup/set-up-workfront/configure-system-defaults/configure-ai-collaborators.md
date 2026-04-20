@@ -11,11 +11,11 @@ exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
 ---
 # Configure AI Collaborators
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 >[!IMPORTANT]
 >
 >Currently, Content Reviewer is the only available AI Collaborator type. More AI Collaborator capabilities will be available in the future.
-   
-{{highlighted-preview-article-level}}
 
 AI Collaborators are a way to onboard AI agents into your projects and tasks. You can configure an AI Collaborator, then assign it as you would a user.
 
@@ -63,9 +63,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 * You must have configured a brand in Workfront before you can use it for a Reviewer-type AI Collaborator.
 
    For instructions, see [Create and manage brands for the Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
-* To use Adobe Brand Intelligence for a Reviewer AI Collaborator, your organization must use the unified review and approval experience in Workfront. 
+* <span class="preview">To use Adobe Brand Intelligence for a Reviewer AI Collaborator, your organization must use the unified review and approval experience in Workfront. </span>
 
-   For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md). 
+   <span class="preview">For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md). </span>
 
 ## Create a new Reviewer-type AI Collaborator
 
@@ -85,9 +85,8 @@ Reviewer AI Collaborators can be configured to use Workfront brands, or Adobe Br
    >Currently, only the Reviewer type is available. More AI Collaborator types will be available in the future.
 
 1. In the Collaborator Name field, enter a name for the collaborator. This is the name that appears in the list of available assignees on a task.
-1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.
-1. (Conditional) If the AI Collaborator will use Adobe Brand Intelligence, select the tenant that it will use.
-1. (Conditional) If the AI Collaborator will use a Brand,Select the brand and brand guideline that it will use.
+1. <span class="preview">Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.</span>
+1. (Conditional) If the AI Collaborator will use a Brand, select the brand and brand guideline that it will use.
 1. Click **Save**.
 
 ## Manage AI Collaborators
