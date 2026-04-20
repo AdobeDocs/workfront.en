@@ -38,7 +38,8 @@ For information about users updating their own profiles, see [Configure my setti
     <ul> 
      <li> <p>The System Administrator access level. </li> 
      <li> <p><b>Users</b> setting in your access level configured to <b>Edit</b> access, with <b>Create</b> and at least one of the two <b>User Admin</b> options enabled under <b>Fine-tune your settings</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Of these two options, if <b>User Admin (Group Users)</b> is enabled, you must be a group administrator of a group where the user is a member.</p> </li> 
-    </ul> </td> 
+    </ul>
+    <p>To edit billing and cost rates for a user, you must also have the Edit Billing Rates and Edit Cost Rates fine-tune options enabled.</p> </td> 
   </tr> 
  </tbody> 
 </table>

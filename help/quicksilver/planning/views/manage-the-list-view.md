@@ -16,9 +16,11 @@ git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
 -->
 
+<!--
 <span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -152,27 +154,23 @@ Removed - more direct steps below:
         >
         >* You cannot modify System Views. 
         >
-        >* <span class="preview">You can reset a view that was shared with you to which you have only permissions to View, after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+        >* You can reset a view that was shared with you to which you have only permissions to View, after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
         
     1. Click the **Filter** icon ![Filter icon](assets/filter-icon.png) to add a filter to the view. Results are filtered immediately in the list. You cannot save and name filters. Filters are remembered when you access the page in future and they are part of shared views.
 
         >[!TIP]
         >
-        ><span class="preview">To apply a personalized filter, select one of the following options for a field value: 
+        >To apply a personalized filter, select one of the following options for a field value:
         >
-        ><div class="preview">
+        >* **Me (logged in user)** to refer to the logged-in user in fields referring to users.
         >
-        >* **Me (logged in user)** to refer to the logged-in user in fields referring to users. 
-        >
-        >* **My teams** or **My home team** to refer to your teams in fields referring to teams. 
+        >* **My teams** or **My home team** to refer to your teams in fields referring to teams.
         >
         >* **My groups** or **My home group** to refer to your groups in fields referring to groups.
         >
         >* **My company** to refer to your company in fields referring to companies.
         > 
-        >* **My roles** or **My primary role** to refer to your job roles in fields referring to roles. 
-        >
-        ></div>
+        >* **My roles** or **My primary role** to refer to your job roles in fields referring to roles.
 
     1. Click the **Columns** icon ![Columns icon](assets/columns-icon.png) to select which columns to display or to hide in the view. 
     1. Hover over the name of a column, then click the down-pointing arrow to the left of the column name, then click one of the following:
@@ -185,58 +183,54 @@ Removed - more direct steps below:
         You can add only existing fields to the list view. 
         You cannot remove the primary field in the list view which displays in the first column. 
     
-    1. <span class="preview">Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens.</span> <!--change the name of the box when they update it-->
-        <span class="preview">Do the following: </span>
+    1. Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens. <!--change the name of the box when they update it-->
+        Do the following:
 
-        1. <span class="preview">Click **Add condition**.</span>
-        1. <span class="preview">In the **If** line, select  a field and choose a field value and add a modifier. Modifiers change, depending on the field type you choose. </span>
-
-            >[!TIP]
-            >
-            ><span class="preview">Only fields visible in the list view are available for conditional formatting.</span>
-
-        1. <span class="preview">(Optional) Instead of adding a field value, click the **Compare to another field** icon ![Compare to another field](assets/compare-to-another-field-icon.png) and choose a field whose value you want to compare to the value of your selected field. For example, you can compare the Project Owner and the Project Sponsor fields. </span>
+        1. Click **Add condition**.
+        1. In the **If** line, select  a field and choose a field value and add a modifier. Modifiers change, depending on the field type you choose.
 
             >[!TIP]
             >
-            ><span class="preview">Only fields visible in the list view are available for conditional formatting. The fields you compare must be of the same type. </span>
+            >Only fields visible in the list view are available for conditional formatting.
 
-        1. <span class="preview">(Optional) Click **Add condition** in the **If** line to add more conditions to the same rule.</span>
+        1. (Optional) Instead of adding a field value, click the **Compare to another field** icon ![Compare to another field](assets/compare-to-another-field-icon.png) and choose a field whose value you want to compare to the value of your selected field. For example, you can compare the Project Owner and the Project Sponsor fields.
 
             >[!TIP]
             >
-            ><span class="preview">You can add up to 10 conditions in a conditioning rule and you can have up to 20 rules for a field.</span>
+            >Only fields visible in the list view are available for conditional formatting. The fields you compare must be of the same type.
 
-        1. <span class="preview">Click the **Or** connector between conditions to change to **And** and to indicate that multiple conditions must be met at the same time. **Or** is the default connector.</span>  
-        1. <span class="preview">In the **Format** line, select a field to indicate which column will be formatted.</span> <!--edit this area, if it changes names??-->
-        1. <span class="preview">(Optional) Click the **color circle** icon ![Color circle icon](assets/color-circle.png) next to the field selected, to expand it and choose another color in the **Cell fill** area to change the color of the background in a cell or pick a color from the **Text color** area to change the color of text in a cell.</span>
-        1. <span class="preview">Click the **Text format** icon ![Text format icon](assets/text-format-icon.png) and select from the following options to format the text in a cell:</span> 
-            * <span class="preview">Bold</span>
-            * <span class="preview">Italic</span>
+        1. (Optional) Click **Add condition** in the **If** line to add more conditions to the same rule.
+
+            >[!TIP]
+            >
+            >You can add up to 10 conditions in a conditioning rule and you can have up to 20 rules for a field.
+
+        1. Click the **Or** connector between conditions to change to **And** and to indicate that multiple conditions must be met at the same time. **Or** is the default connector.
+        1. In the **Format** line, select a field to indicate which column will be formatted. <!--edit this area, if it changes names??-->
+        1. (Optional) Click the **color circle** icon ![Color circle icon](assets/color-circle.png) next to the field selected, to expand it and choose another color in the **Cell fill** area to change the color of the background in a cell or pick a color from the **Text color** area to change the color of text in a cell.
+        1. Click the **Text format** icon ![Text format icon](assets/text-format-icon.png) and select from the following options to format the text in a cell:
+            * Bold
+            * Italic
         
-        1. <span class="preview">Turn on the **Apply to row** setting to apply the formatting to the entire row of the field that meets the conditions.</span>         
-        1. <span class="preview">(Optional) Click **Add condition** in the **Format** box to add another rule for another field and the repeat the steps above.</span> 
-        1. <span class="preview">(Optional) Click **Clear all** to remove all formatting.</span>
-        1. <span class="preview">Click outside the **Format** box to close it.</span>
+        1. Turn on the **Apply to row** setting to apply the formatting to the entire row of the field that meets the conditions.
+        1. (Optional) Click **Add condition** in the **Format** box to add another rule for another field and the repeat the steps above.
+        1. (Optional) Click **Clear all** to remove all formatting.
+        1. Click outside the **Format** box to close it.
 
-            <span class="preview">This returns you to the list view.</span> 
-            <span class="preview">The formatting is applied immediately to the list view.</span>
-            <span class="preview">There is a blue dot next to the **Format cells** icon to indicate that the view has special formatting applied.</span>
+            This returns you to the list view.
+            The formatting is applied immediately to the list view.
+            There is a blue dot next to the **Format cells** icon to indicate that the view has special formatting applied.
     
-    1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) <!-have they updated this to "Grouping"??-> to group items in the list by a common field. Select one of the options, or use the search bar to find a field.</span>
+    1. (Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) <!--have they updated this to "Grouping"??--> to group items in the list by a common field. Select one of the options, or use the search bar to find a field.
 
-        <span class="preview">The field must be a column in the list before you can group by it. Not all field types can be used for groupings.</span>
+        The field must be a column in the list before you can group by it. Not all field types can be used for groupings.
 
-    1. <span class="preview">Click the **Row height** icon ![Row height icon](assets/row-height-icon.png) to update the vertical length of a row. Choose from the following options: </span>
-
-        <div class="preview">
+    1. Click the **Row height** icon ![Row height icon](assets/row-height-icon.png) to update the vertical length of a row. Choose from the following options:
     
         * Short
         * Standard. This is the default choice. 
         * Medium
         * Tall
-    
-        </div>
 
     <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 
