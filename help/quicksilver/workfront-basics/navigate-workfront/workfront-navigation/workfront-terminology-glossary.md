@@ -46,19 +46,18 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Cost]</td> 
-   <td> <p>For tasks and issues, this is the cost associated with the actual hours logged in relation to the Cost per hour rate of the resource assigned to the task or issue. For projects, this is a total of all [!UICONTROL Actual Costs] from tasks and issues on the project. For information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> 
-   
+   <td> <p>For tasks and issues, this is the cost associated with the actual hours logged in relation to the Cost per hour rate of the resource assigned to the task or issue. For projects, this is a total of all [!UICONTROL Actual Costs] from tasks and issues on the project. For information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p>    
   <p>[!UICONTROL Actual Cost] calculations takes into account [!UICONTROL Legacy Actual Hours]. For information, see "[!UICONTROL Actual Hours]" or "[!UICONTROL Legacy Actual Hours]" in this table. </p>   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Expense Cost]</td> 
    <td> <p>The sum of the [!UICONTROL Actual Amounts] for all expenses logged for a project or a task.</p> <b>EXAMPLE </b>
    <p>If you create an expense for Task 1 and enter $600.00 in the [!UICONTROL Actual Amount] field, the [!UICONTROL Actual Expense Cost] for this task is $600.00. </p> 
-   <p>For a project, [!DNL Workfront] uses the following formula to calculate [!UICONTROL Actual Expense Cost]:</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost</code> <br> </p> 
+   <p>For a project, [!DNL Workfront] uses the following formula to calculate [!UICONTROL Actual Expense Cost]:</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost</code> <br> </p>
    <!--
-     <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (drafting this because not sure if this is still correct)</p>
-    -->
-    </td>
+   <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (drafting this because not sure if this is still correct)</p> 
+   -->
+   </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Actual Hours]</td> 
@@ -85,9 +84,9 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <!--
   <tr> 
- <td>A type of work process that is unplanned.</td> 
- -->
+   <td>A type of work process that is unplanned.</td> 
   </tr>
+  -->
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Additional Schedules</td> 
@@ -112,7 +111,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
     <ul>
     <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates</li>
-     --> 
+    --> 
      <li>[!UICONTROL Project] (Financial Data)</li> 
      <li>[!UICONTROL Budgeted Hour]</li> 
     </ul> <p>For a
@@ -128,15 +127,15 @@ The following table is a list of commonly used terms in Adobe Workfront:
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
          how resources are budgeted for work, or 
        </MadCap:conditionalText>
-      -->
+     -->
       the amount of [!UICONTROL Planned Hours] that is assigned to your resources.</li>
      <li> <p>The [!UICONTROL Allocation Date] is the first day (Sunday) of a week in which the allocation of a [!UICONTROL Job Role] to a task starts. A resource ([!UICONTROL Job Role]) can have as many [!UICONTROL Allocation Dates] as it has weeks during the [!UICONTROL Duration] of the tasks that it is assigned to. If tasks span over multiple months, then the first day of a month can also become an [!UICONTROL Allocation Date], if it falls within the [!UICONTROL Duration] of the task.</p> <p>For example, you can have a [!UICONTROL Job Role] assigned to a task that spans over 3 weeks and has 90 [!UICONTROL Planned Hours]. These hours are spread evenly during the duration of the task, which makes every day assign 6 [!UICONTROL Planned Hours] to your job role:</p> <p><em> [!UICONTROL Daily Planned Hours] = [!UICONTROL Total Planned Hours]/ Number of [!UICONTROL Work Days] during the [!UICONTROL Duration] of the task </em> </p> <p>As a result, there are three [!UICONTROL Allocation Dates], one for every Sunday of every week during the [!UICONTROL Duration] of the task, each with a certain number of [!UICONTROL Planned Hours] associated with them.<br>If the task starts in the middle of the last week of a month and ends two weeks after the beginning of a new month, the task will have four [!UICONTROL Allocation Dates]: one for every Sunday of every week during the [!UICONTROL Duration] of the task, and one for the first day of the new month.</p> <p>To make the most use of this information, we recommend that you build a
-     <!--
+       <!--
         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           Resource Estimates or a 
         </MadCap:conditionalText>
        -->
-       Project (Financial Data) report and add a matrix grouping for [!UICONTROL Allocation Date], then group the results weekly, monthly, quarterly, or yearly for the most accurate data.<br>For information about building a matrix grouping, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Create a matrix report</a>.</p> </li>
+     Project (Financial Data) report and add a matrix grouping for [!UICONTROL Allocation Date], then group the results weekly, monthly, quarterly, or yearly for the most accurate data.<br>For information about building a matrix grouping, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Create a matrix report</a>.</p> </li>
     </ul> <p>Financial information populates in [!UICONTROL Project (Financial Data)] reports only when the data associated with it is less than 5 years old. For example, if a job role was allocated to a task in January 2015 and today is September 2021, a financial field like the [!UICONTROL Allocation Date] for the job role does not populate in the [!UICONTROL Project (Financial Data)] report. </p> 
     <div> 
      <p>For a [!UICONTROL Budgeted Hour] report:</p> 
@@ -236,8 +235,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   <tr> 
    <td>[!UICONTROL Automatic And On Change]</td> 
    <td> <p>One of the [!UICONTROL Project Update] types. This will recalculate the Project's Projected and Planned timelines when the nightly recalculation process runs and when any update is made to the project or tasks within the Project. </p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p> </td> 
-  </tr> 
-  
+  </tr>
   <tr> 
    <td><p>Availability</p></td> 
    <td> <p>This term is used in relation to "user availability" or "resource availability" and it illustrates the amount of time that the resource (user or job role) is available to work. </p> 
@@ -246,12 +244,10 @@ The following table is a list of commonly used terms in Adobe Workfront:
    Alternately, "capacity" is also used to refer to resource availability. 
    </td> 
   </tr> 
-
   <tr> 
    <td>[!UICONTROL Automatic Only]</td> 
    <td> <p>One of the [!UICONTROL Project Update] types. This will recalculate Projected and Planned timelines when the nightly recalculation process runs.</p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type</a>.</p> </td> 
   </tr> 
-  
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL BAU]</td> 
    <td>"Business as usual" work that contributes to running the everyday primary business goals.</td> 
@@ -264,7 +260,6 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>[!UICONTROL Baseline]</td> 
    <td>A source of data to measure iterations against in an Agile environment.</td> 
   </tr> 
-
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Billable Expense]</td> 
    <td> <p>An expense that is marked as billable to the customer. This can be either a planned expense or an actual expense.</p> <p>The Planned Billable Expense Cost and Actual Billable Expense Cost fields are available for you to add to views and reports. They do not appear on the project or task details pages.</p>
@@ -277,20 +272,16 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <p>For more information about marking an expense as billable, see <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Manage project expenses</a>.</p>
    </td> 
   </tr>
-  
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Billing Record]</td> 
    <td> <p>Records the revenue, hours, or expenses that can be billed. This information can be used to create invoices in an external accounting system.</p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/create-billing-records.md">Create billing records</a>. </p> 
    </td> 
   </tr>
-
  <tr> 
    <td>Billing Record Status</td> 
    <td> <p>In a Billing Record or Hour report, the Status of a billing record indicates whether the billing record has been Billed or Not Billed. You cannot delete a project or edit time associated with a Billed billing record. For more information, see <a href="../../../manage-work/projects/project-finances/create-billing-records.md" >Create billing records</a>.</p>  
    </td> 
   </tr>
-
-
   <tr> 
    <td>[!UICONTROL Branding]</td> 
    <td><p>The process of customizing [!DNL Workfront] to give the interface an appearance that mirrors your company by using your colors and logos.</p><p><strong>NOTE</strong><br>If your organization has been onboarded to [!DNL Adobe Experience Cloud], branding is not available.</p></td> 
@@ -305,16 +296,15 @@ The following table is a list of commonly used terms in Adobe Workfront:
     <ul>
     <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode">If the project is  not added to the capacity planner, its value is <i>Not Included</i>.  </li>
-     -->
-     <!--
+    -->
+    <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode">If the project is  added to the Capacity Planner but is excluded from the budget calculation,  the value is <i>Included but not Calculated</i>.  </li>
-     -->
-     <!--
+    -->
+    <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> If the project is  added to the Capacity Planner and included in the budget calculation, the value is <i>Included and Calculated</i>. </li>
-     --> 
+    --> 
     </ul> </td> 
   </tr> 
-
   <tr> 
    <td>[!UICONTROL Breakdown]</td> 
    <td> <p>In Workfront Planning, you can display connected records in a record's timeline view by using the Breakdown feature. </p>
@@ -323,7 +313,6 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <p>For information, see <a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">Manage the timeline view</a>. </p>
    </td> 
     </tr> 
-   
   <tr> 
    <td>[!UICONTROL Budgeted Completion Date]</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that [!DNL Workfront] has removed. This field cannot be updated. </p>
@@ -1045,10 +1034,9 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
-<!--
-FTE
-The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours. 
---> 
+     FTE
+     The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours. 
+-->
 
 ## G - I
 
