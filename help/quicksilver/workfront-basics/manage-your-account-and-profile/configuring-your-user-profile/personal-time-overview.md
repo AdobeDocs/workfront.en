@@ -66,11 +66,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 {{step1-click-profile-pic}}
 
-   >[!NOTE]
-   >
-   >If your organization is on the Adobe Unified Experience, click the **Adobe** account menu (your profile picture) in the upper-right corner of the top navigation area, then click **Workfront Profile**.
-   >
-   >![workfront profile](assets/aue-profile.png)
+>[!NOTE]
+>
+>You can access your Workfront profile by clicking the Adobe account menu (your profile picture) in the top navigation area, then choosing Workfront Profile.
+>
+>![workfront profile](assets/aue-profile.png)
 
 1. In the left panel, click **[!UICONTROL Time Off]**.
 1. Select the desired date for your personal time off.

@@ -46,11 +46,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Do either of the following, depending on your objective and your access level in the system:
 
-   * **Standard or Plan user configuring time logging for yourself:** Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user name next to your profile picture. Or (if available), click your profile picture in the top navigation area, then click **[!UICONTROL Workfront Profile]**. Then, click the **More** icon next to your name and select **Edit**.
+   * **Standard or Plan user configuring time logging for yourself:** Click your profile picture in the top navigation area, then click **[!UICONTROL Workfront Profile]**. Then, click the **More** icon next to your name and select **Edit**.
    
    * **System administrator configuring time logging for others:** Begin editing one or more user accounts, as described in [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. In the resulting dialog box, in the **Resource Planning** section, locate the **Log time in** option.
+1. In the user profile dialog box, in the **Resource Planning** section, locate the **Log time in** option.
 
    ![Log time in options](assets/user-profile-log-time-options.png)
 
