@@ -30,6 +30,8 @@ This article contains information about filters in the Workload Balancer. For in
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 <table style="table-layout:auto"> 
  <col> 
  <col>
@@ -65,6 +67,8 @@ This article contains information about filters in the Workload Balancer. For in
 </table>
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overview of filters in the Workload Balancer
 
