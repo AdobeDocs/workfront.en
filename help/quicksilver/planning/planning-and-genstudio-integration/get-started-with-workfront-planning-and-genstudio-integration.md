@@ -373,7 +373,7 @@ You can make the following connections between GenStudio record types and other 
 * A GenStudio record type and a Planning record type from the same workspace
 * A GenStudio record type and a Planning record type from another workspace, if the record types are configured to connect from another workspace. 
 * A GenStudio record type and a Workfront object type (projects, portfolios, programs, companies, groups)
-* A GenStudio record type and an AEM Assets object type.
+* A GenStudio record type and an AEM object type.
 * GenStudio record types and GenStudio Brands. The Brands connection is added to the Products and Personas record types by default. 
 
 ### Request forms and automations in the GenStudio record type

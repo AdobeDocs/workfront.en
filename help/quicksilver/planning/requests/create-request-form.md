@@ -476,7 +476,7 @@ For information on creating automations in other areas of Workfront Planning, se
    >
    >* A form that contains the following field types cannot be shared publicly:
    >
-   >     * Workfront or AEM Assets Connections
+   >     * Workfront or Adobe Experience Manager connections
    >     * People
    >
 
