@@ -15,10 +15,11 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 <!--take Preview and Production references at Production time-->
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+-->
 
 {{planning-important-intro}}
 
@@ -77,7 +78,7 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
    
       * Created by, Last modified by, Approved by
       * Created date, Last modified date, Approved date
-      * <span class="preview">Record ID</span>
+      * Record ID
       * Workfront objects' lookup fields
       * Workfront Planning connected records' lookup fields
 
@@ -166,14 +167,9 @@ You can create a request form from the record type associated with the form, <!-
 Form details are divided into tabs. 
 
 * The **Form** tab allows you to add fields and content elements to the form
-* The **Configuration** tab allows you to set an approval process for the form, and to set request completion options.
-   
-   >[!NOTE]
-   >
-   ><span class="preview">In the Preview environment, the Settings tab replaced the Configuration tab.</span>
-<!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
+* The **Settings** tab allows you to set an approval process for the form, and to set request completion options.
 
-#### Set up Form details
+#### Set up form details
 
 1. Begin creating or editing a request form, as described in the section [Begin creating a request form](#begin-creating-a-request-form).
 
@@ -197,7 +193,7 @@ Form details are divided into tabs.
       >* The **Subject** field requires a value when it is visible on the request form. However, you can remove the **Subject** field, if needed, and requestors will not see it on the form when they submit the request.   
       >* When the **Subject** field is missing on a request form, but there is a Name field for the future record's name, the name of the request is automatically assigned the same name as the created record. 
       >* When both the **Subject** and the **Name** fields are missing on the request form, the request is named using the following pattern: `< Request form name > < Entry date of the request >`; the record is named **Untitled**.
-      >* <span class="preview">To view the **Subject** field's information in Workfront Planning, you can add the **Original request** connection field to the record type associated with the request form. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).</span> 
+      >* To view the **Subject** field's information in Workfront Planning, you can add the **Original request** connection field to the record type associated with the request form. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
 
    * All the fields associated with the record type. 
 
@@ -233,10 +229,13 @@ Form details are divided into tabs.
 1. (Optional) Click **Preview** to view how the form will display for other users when they will use it to submit a new record. 
 1. Continue to one of the following:
 
+   <!--
    * [Set up Configuration details](#set-up-configuration-details) if you want to configure more details for the form in the Production environment
-   * <span class="preview">[Configure settings](#configure-settings) if you want to configure more details for the form in the Production environment</span>
+   -->
+   * [Configure settings](#configure-settings) if you want to configure more details for the form in the Production environment
    * [Complete request form creation](#complete-request-form-creation) if you do not want to configure further settings.
 
+<!--
 #### Set up Configuration details
 
 >[!NOTE]
@@ -254,7 +253,7 @@ On the Configuration tab, you can set the approval process and configure when a 
 
    ![Configuration tab](assets/configuration-tab.png)
 
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
+   (******)-below bullet list is duplicated in the Add approval to a request form article(****)
 
    * You can add one or several approvers to a request form.
    * If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
@@ -267,15 +266,11 @@ On the Configuration tab, you can set the approval process and configure when a 
 
 1. Select whether you want a request created from this form to be marked complete when the requested object is created, or when the requested object is completed.
 1. (Conditional) If you have selected for the request to be marked complete when the requested object is completed, select the field and value that indicate when the object is complete. For example, you could select the field Status and the value Complete to complete the request when the created object's status is set to Complete.
-1. Continue to <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Complete request form creation](#complete-request-form-creation).
+1. Continue to [Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to [Complete request form creation](#complete-request-form-creation).
 
-<div class="preview">
+-->
 
 ### Configure settings
-
->[!NOTE]
->
->This tab is available only in the Preview environment.
 
 On the Settings tab, you can set approval rules and configure when a request created from this form will be marked as Completed.
 
@@ -343,8 +338,6 @@ Completion options allow you to set whether a request is marked complete when th
 1. (Conditional) If you have selected for the request to be marked complete when the requested object is completed, select the field and value that indicate when the object is complete. For example, you could select the field Status and the value Complete to complete the request when the created object's status is set to Complete.
 1. Continue to <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Complete request form creation](#complete-request-form-creation).
 
-</div>
-
 <!--
  
 <div class="preview">
@@ -377,23 +370,24 @@ For information on creating automations in other areas of Workfront Planning, se
 ### Complete request form creation
 
 1. Create and set up the form as described in [Begin creating a request form](#begin-creating-a-request-form) and [Set up details for the request form](#set-up-details-for-the-request-form).
-1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the form's name in the header, then click **Edit** to update the name of the form.
+1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the form's name in the header, then click **Edit** to update the name of the form and its **Description**, then click **Save**.
 
 1. Click **Publish** to publish the form and obtain a unique link for it. 
 
    The following things occur:
 
    * The **Publish** button is removed.
+
+      The form becomes available in the Requests area of the Main menu in Workfront.
    * The **Unpublish** button is added to the form. Clicking it will prevent the form from being accessible. 
    * A **Share** button is added to the form.
-   * The form becomes available in the Requests area of the Main menu in Workfront.
 
 1. Click **Share** to share the form with others. 
 
    For information about sharing a request form, see the [Share a request form](#share-a-request-form) section in this article
 1. Click the left-pointing arrow to the left of the form's name in the header to close the form. 
 
-   The **Request forms** table view opens and the the form is added to it.
+   The **Request forms** list view opens and the the form is added to it.
 
 ## Manage existing request forms
 
@@ -412,13 +406,8 @@ For information on creating automations in other areas of Workfront Planning, se
 1. (Optional) Update the following view elements in the **Request forms** page to change how information displays in the table: 
 
    * Columns
-
-   <!--
-   <div class="preview">
-   * Grouping <!-ensure they will change the label by Prod->
+   * Grouping 
    * Row height
-   </div>
-   -->
 
    For more information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md). 
    
@@ -429,8 +418,6 @@ For information on creating automations in other areas of Workfront Planning, se
    * **Share**: Click this to modify who has access to the form.
    * **Copy link**: Click this to quickly copy the request form's link without opening the form.
    * **Delete**: Click this to delete the form. All requests and records added using the form are not deleted. The form cannot be recovered. 
-
-   <!--update screen shot at preview:-->
 
    ![More menu on request form from request forms list](assets/more-menu-on-request-form-from-request-forms-list.png)
 

@@ -62,7 +62,10 @@ For information, see [Create and manage views in the Requests area](/help/quicks
 
 >[!NOTE]
 >
->Predefined views will not have a Preview release, and will be release directly to Production on April 16. 
+>Predefined views will not have a Preview release, and will be release directly to Production. 
+>Preview: TBD
+>Production fast release: TBD
+>Production for everyone: TBD
 
 To help you organize your request list better, we have added the following predefined views to the requests list in the Requests area and the My Requests widget in Home:
 

@@ -26,10 +26,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+-->
 
 {{planning-important-intro}}
 
@@ -246,7 +247,7 @@ For information, see [Import fields from Workfront](/help/quicksilver/planning/f
     * [Last modified date](#last-modified-date)
     * [Approved date](#approved-date)
     * [Approved by](#approved-by)
-    * <span class="preview">[Record ID](#record-id)</span>
+    * [Record ID](#record-id)
     <!--* [Object](#object-field-type)-->
     
     >[!IMPORTANT]
@@ -624,7 +625,7 @@ You can use the People field type to add a user to a record. This is a type-ahea
 
 >[!TIP]
 >
->* When you add the name of a user in a People field, their primary job role <span class="preview">and their email</span> also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email.   
+>* When you add the name of a user in a People field, their primary job role and their email also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email.   
 >
 >* People fields display as a reference (or connection) field type in a request form builder. 
 >
@@ -806,8 +807,6 @@ You can use the Approved by field type to add the user who last approved the req
 
     The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
 
-<span class="preview">
-
 ## Record ID
 
 You can use the Record ID field type to reveal a system-generated, read-only identifier for each record. 
@@ -828,8 +827,6 @@ You cannot manually modify the value of a Record ID field.
 1. Click **Create**.
 
     The new Record ID-type field is added as a column to the record type and its values are prefilled with an alpha-numeric value.  
-
-</span>
 
 
 <!--

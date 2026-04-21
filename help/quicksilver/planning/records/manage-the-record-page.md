@@ -12,9 +12,11 @@ git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 
 # Manage the record page layout
 
+<!--
 <span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -190,7 +192,7 @@ To add a section to a record preview or page:
     
     From the table view, click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) in the first column. 
     
-    <span class="preview">The record's preview opens in the view.</span>
+    The record's preview opens in the view.
 
     ![Details box](assets/details-box.png)  
 
@@ -269,32 +271,23 @@ To add a section to a record preview or page:
     
     From the table table view, click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) in the first column. 
     
-    <span class="preview">The record's preview opens in the view.</span>
+    The record's preview opens in the view.
 
     ![Details box](assets/details-box.png) 
 
-1. <span class="preview">(Optional and conditional) Depending on which fields you want to display in the Details page, do one of the following:</span>
+1. (Optional and conditional) Depending on which fields you want to display in the Details page, do one of the following:
 
-   <div class="preview">
-
-   * Select the **Show all fields** setting to view all fields from the record's table view, including the hidden ones. 
-   * Deselect the **Show all fields** setting to view only fields that are not hidden in the record's table view. This is the default setting
-
-   </div>
-
-      <!--
-      replace with this when they fix the UI text:
-      * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
-      * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
-      -->
+   
+   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
 
       >[!TIP]
       >
-      ><span class="preview">The **Show all fields** setting is available only in the record's Details preview box. It is not available in the record's Details page.</span>
+      >The **Show all fields** setting is available only in the record's Details preview box. It is not available when the record's Details page opens in a browser window.
 
-1. (Optional) If you want to navigate to a connected record, click the name of that record in the breadcrumb at the top of the details page. <span class="preview">
+1. (Optional) If you want to navigate to a connected record, click the name of that record in the breadcrumb at the top of the details page. 
 
-   If you cannot see the name of a record in the breadcrumb, click **More**. This displays the breadcrumb on multiple rows. Click **Less** to shorten the breadcrumb and display it on one row.</span>   
+   If you cannot see the name of a record in the breadcrumb, click **More**. This displays the breadcrumb on multiple rows. Click **Less** to shorten the breadcrumb and display it on one row.
 
    >[!TIP]
    >
