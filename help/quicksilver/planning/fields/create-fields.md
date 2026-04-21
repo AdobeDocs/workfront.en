@@ -627,6 +627,8 @@ You can use the People field type to add a user to a record. This is a type-ahea
 >
 >* When you add the name of a user in a People field, their primary job role and their email also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email.   
 >
+>* Only users who have been added to the Adobe Admin Console display in People fields. Workfront users do not display when trying to add them in a People field. 
+>
 >* People fields display as a reference (or connection) field type in a request form builder. 
 >
 >For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). 
