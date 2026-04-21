@@ -136,8 +136,8 @@ Old:
 * Empty sheets are not supported.
 * Fields of the following types are not supported and cannot be mapped to fields on the import sheet:
 
-    * Connection fields to Workfront and AEM Assets object types. You can map only connection fields to Planning record types.
-    * Lookup fields from connected Planning records or Workfront and AEM Assets objects
+    * Connection fields to Workfront and Aadobe Experience Manager object types. You can map only connection fields to Planning record types.
+    * Lookup fields from connected Planning records or Workfront and Adobe Experience Manager objects
     * Formula fields
     * Created date, Created by
     * Last modified date, Last modified by
