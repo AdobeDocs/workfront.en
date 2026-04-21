@@ -2570,6 +2570,7 @@ feature-set: Workfront
     * [Configure and use your organization's custom OAuth 2 applications using JWT flow](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure and use your organization's custom OAuth 2 applications using PKCE flow](wf-api/api/oauth-app-pkce-flow.md)    
     * [Deprecation of API-Internal](wf-api/api/deprecation-api-internal.md)
+    * [What's new in API version 22](/help/quicksilver/wf-api/api/new-api-version-22.md) 
     * [What's new in API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md) 
     * [What's new in API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md) 
     * [What's new in API version 19](wf-api/api/new-api-version-19.md) 

@@ -83,31 +83,165 @@ The following resources were modified for API version 22.
 
 A given work item, such as a task, document, or timesheet, may require that a supervisor or other user sign off on the work item. An Approval object represents the action of signing off on a work item.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>The following fields were added to support Enterprise Storage Management.
+        <ul>
+          <li><b>esmID</b></li>
+          <li><b>isCscProject</b></li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### Category (CTGY)
 
 A Category object is a custom form.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>Added
+        <ul>
+          <li><b>entryDate</b></li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 
 ### Company (CMPY)
 
 A Company object represents an organization consisting of a collection of people.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>The following fields were added to support Enterprise Storage Management.
+        <ul>
+          <li><b>esmProjectID</b></li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
+
+### CustomEnum (CSTEM)
+
+The CustomEnum object aids with converting status codes into human-readable text.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">actions</td>
+      <td>Added
+        <ul>
+          <li><p><b>getDefaultAssignmentStatusEnum</b></p></li>
+          <li><p><b>getDefaultBookingStatusEnum</b></p></li>
+        </ul>
+      </td>
+    </tr>  
+    <tr>
+      <td role="rowheader">Queries</td>
+      <td>Added
+        <ul>
+          <li><p><b>assignmentStatuses</b></p></li>
+          <li><p><b>bookingStatuses</b></p></li>
+        </ul>
+      </td>
+    </tr>
+</tbody>
+</table>
 
 ### Customer (CUST)
 
 A Customer object represents an organization that uses an instance of Workfront.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>The following field has been modified.
+        <ul>
+          <li>
+            <p><b>customEnumTypes</b>
+            </p>
+            <p>Added the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>STATUS_BOOKING</code> (Booking Statuses)</p>
+              </li>
+              <li>
+                <p><code>STATUS_ASSIGNMENT</code> (Assignment Statuses)</p>
+              </li>
+            </ul>
+         </li>
+         </ul>
+         <p>The following fields were added to support Enterprise Storage Management.
+         <ul>
+         <li><b>isLegacyCustomerEsmStorageEnabled</b></li>
+         <li><b>isLegacyCustomerSystemFileMigrationEnabled</b></li>
+         <li><b>legacyCustomerEsmStorageMigrationDate</b></li>
+         <li><b>legacyCustomerSystemFileMigrationDate</b></li>
+         </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### CustomerPreferences (CUSTPR)
 
 A CustomerPreferences object represents the set of preferences that a customer has set for their instance of Workfront.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>The following field has been modified.
+        <ul>
+          <li>
+            <p><b>customEnumTypes</b>
+            </p>
+            <p>Added the following possible values to support Enterprise Storage Management:</p>
+             <ul>
+              <li>
+                <p><code>customer:config.defaultStorageModeAllowOverride</code></p>
+              </li>
+              <li>
+                <p><code>customer:config.defaultStorageMode</code></p>
+              </li>
+              <li>
+                <p><code>customer:config.defaultStorageGroupRollout</code> </p>
+              </li>
+               <li>
+                <p><code>customer:config.defaultStorageGroupOptions</code> </p>
+              </li>
+             </ul>
+         </li>
+         </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### DocumentFolder (DOCFDR)
 
@@ -133,11 +267,11 @@ The JournalEntry object can be set up to log information about specific object f
 
 
 
-### JournalField
+### JournalField (JRNLF)
 
 
 
-### OriginalRequest
+### OriginalRequest(ORGREQ)
 
 
 
@@ -147,11 +281,13 @@ A Parameter object is a custom field.
 
 
 
-### ParameterGroup
+### ParameterGroup (PGRP)
 
 
 
-### PortalSection
+### PortalSection (PTLSEC)
+
+A PortalSection object is a Report.
 
 
 
