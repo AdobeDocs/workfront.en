@@ -218,14 +218,9 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * Staffing Plan
    * Template
    * Staffing Plan Resource
-<!--
+   <!--
    * <span class="preview">Team</span>
--->
-
-1. Type the **Name** for the business rule on the rule builder dialog.
-1. In the **Is Active** field, select whether the rule should be active when you save it.
-
-   If you select **No**, the rule is saved as inactive, and you can activate it later.
+   -->
 
 1. Select a **Trigger** for the business rule. The options are:
 
@@ -300,4 +295,3 @@ To activate a business rule:
 1. Select the business rule in the list of rules and click the Edit icon.
 1. Select **Yes** for **Is Active** in the business rule dialog.
 1. Click **Save**.
-

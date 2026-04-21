@@ -429,7 +429,8 @@ To connect records with Experience Manager objects:
     --> 
 
     <!--
-    ![Select assets box for AEM record connections](assets/select-assets-box-for-aem-record-connections.png)-->
+    ![Select assets box for AEM record connections](assets/select-assets-box-for-aem-record-connections.png)
+    -->
 
 1. From the **Assets** tab, click to select some of the following types of assets:
 
