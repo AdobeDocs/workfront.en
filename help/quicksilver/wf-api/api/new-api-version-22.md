@@ -243,17 +243,83 @@ A CustomerPreferences object represents the set of preferences that a customer h
   </tbody>
 </table>
 
+
+### Document (DOCU)
+
+A Document object represents a file (such as written material, images, or other forms of information).
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>The following fields were added to support Enterprise Storage Management.
+        <ul>
+          <li><b>esmID</b></li>
+          <li><b>isEsmAsset</b></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">actions</td>
+      <td>The following action has been modified.
+        <ul>
+          <li><p><b>createLargeDocument
+          </b></p><p>The following fields were added to support Enterprise Storage Management.
+         <ul>
+         <li><b>docObjCode</b></li>
+         <li><b>objID</b></li>
+         </ul>
+         </li>
+        </ul>
+      </td>
+    </tr>  
+ </tbody>
+</table>
+
 ### DocumentFolder (DOCFDR)
 
 Documents can be organized into folders. You can create personal folders in your personal Documents area. The DocumentFolder object represents one of these folders.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>The following fields were added to support Enterprise Storage Management.
+        <ul>
+          <li><b>esmID</b></li>
+          <li><b>isEsmFolder</b></li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### DocumentVersion (DOCV)
 
 A DocumentVersion object represents a specific version of a file (such as written material, images, or other forms of information).
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>The following field was added to support Enterprise Storage Management.
+        <ul>
+          <li><b>esmVersionID</b></li>
+        </ul>
+      <td>The following field has been modified.
+        <ul>
+          <li><b>version</b><p>Removed the validator "REQUIRED".</li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### ExchangeRate (EXRATE)
 
