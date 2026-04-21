@@ -80,7 +80,8 @@ Rate attributes are supported across all areas where rates exist in Workfront:
 
 <!--
 BULLET POINT Staffing plan resources
-BULLET POINT Non-labor resources: Attributes can also be defined on resources such as equipment or services.-->
+BULLET POINT Non-labor resources: Attributes can also be defined on resources such as equipment or services.
+-->
 
 <!--Non-labor resource categories and -->Job roles do not support rate attributes directly at the object level. They are connected to rate attributes through the rates defined on them.
 

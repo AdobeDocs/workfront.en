@@ -45,7 +45,7 @@ Existing filters for classic reports using `isCurrentVersion` or `isDocumentCurr
 >Production fast release: April 15, 2026
 >Production for everyone: April 16, 2026
 
-Workfront now includes a new Link delivery type for scheduled reports. Instead of generating and attaching a file, this option sends an email containing a direct link to the report in Workfront, allowing recipients to view{{$include }} the most current data in the application. 
+Workfront now includes a new Link delivery type for scheduled reports. Instead of generating and attaching a file, this option sends an email containing a direct link to the report in Workfront, allowing recipients to view `{{$include }}` the most current data in the application. 
 
 The Link option is now the default delivery type for newly created scheduled report delivery rules, while existing file-based formats (HTML, PDF, Excel, and TSV) remain available.
 
