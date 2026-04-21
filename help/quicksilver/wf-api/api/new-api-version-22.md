@@ -488,49 +488,189 @@ A Parameter object is a custom field.
 
 A PortalSection object is a Report.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>The following field was added.
+        <ul>
+          <li><b>reportShareableFolderID</b></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Reference fields</td>
+      <td>The following field was added.
+        <ul>
+          <li><b>reportShareableFolder</b></li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### Portfolio (PORT)
 
 A Portfolio object is a collection of projects that compete for the same resources, typically money or people to complete them.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>The following fields were added to support Enterprise Storage Management.
+        <ul>
+          <li><b>esmID</b></li>
+          <li><b>isCscProject</b></li>
+          <li><b>isEsmDocStorageEnabled</b></li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### Program (PRGM)
 
 A Program object is a subset of projects within a portfolio, where similar projects can be grouped together.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>The following fields were added to support Enterprise Storage Management.
+        <ul>
+          <li><b>esmID</b></li>
+          <li><b>isCscProject</b></li>
+          <li><b>isEsmDocStorageEnabled</b></li>
+        </ul>
+      The following field has been modified.
+        <ul>
+          <li><b>portfolioID</b><p>Added the validator "REQUIRED".</li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### Project (PROJ)
 
 Projects are work items within Workfront, and are a main building block in the way Workfront helps people to do work. A Project object represents a group of tasks with a common, specific goal.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>The following fields were added to support Enterprise Storage Management.
+        <ul>
+          <li><b>esmID</b></li>
+          <li><b>isCscProject</b></li>
+          <li><b>isEsmDocStorageEnabled</b></li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### ScheduledReport (SCHREP)
 
 A ScheduledReport object represents a report that has been configured to be scheduled for delivery.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>The following field has been modified with extensive changes to possible values. For details, see the developer documentation.
+        <ul>
+          <li><b>format</b></li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### Template (TMPL)
 
 A Template object represents a pattern for a project. Projects can be created from templates to save time. A template contains a team and tasks, which will be copied to any project created from the template.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>The following fields were added to support Enterprise Storage Management.
+        <ul>
+          <li><b>esmID</b></li>
+          <li><b>isCscProject</b></li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### Update (UPDATE)
 
 Work Items in Workfront can be updated to keep users informed of the current status. An Update object represents one of these updates. Updates can be entered by users or created by the Workfront system.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>The following field has been modified.
+        <ul>
+          <li>
+            <p><b>action</b>
+            </p>
+            <p>Added the following possible value.</p>
+             <ul>
+              <li>
+                <p><code>primaryFolderMoved</code></p>
+              </li>
+              </ul>
+         </li>
+         </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### User (USER)
 
 A User object represents a person with an account in Workfront that can log in and interact with the system.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>The following fields was added.
+        <ul>
+          <li><b>eauthUserID</b></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Collection fields</td>
+      <td>The following fields was removed.
+        <ul>
+          <li><b>userLocations</b></li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 
 
