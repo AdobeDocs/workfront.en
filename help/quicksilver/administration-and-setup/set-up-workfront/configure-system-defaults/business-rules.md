@@ -196,30 +196,25 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * Document
    * Program
    * Expense
+   * User
    * Company
    * Iteration
    * Billing Record
    * Group
-   * Non-labor resource
    * Risk
    * Rate card
    * Assignment
-   * User
-   * Role
-   * Hour
-   * Template
-   * Time Off
-   * Resource Pool
-   * Job role
-   * Non-labor resource category
+   * Job Role
    * Resource Pool
    * Time Off
    * Hour
-   * Staffing Plan
    * Template
-   * Staffing Plan Resource
    <!--
-   * <span class="preview">Team</span>
+   * Non-labor resource
+   * Non-labor resource category
+   * Staffing Plan
+   * Staffing Plan Resource
+   * Team
    -->
 
 1. Select a **Trigger** for the business rule. The options are:
@@ -243,7 +238,7 @@ You can use wildcards in business rule actions, as described in the section [Sce
 
      In this example, "Learn more" will link to the URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` The URL must be in parentheses, but link text in brackets is not required. You can display the full URL and it will be a clickable link.
 
-   ![Add business rule dialog](assets/add-business-rule-new.png) 
+   ![Add business rule dialog](assets/add-business-rule-new.png)
 
    This example is a business rule for projects. If the current month is November, then users are not permitted to create new projects, and the message explains this.
    
