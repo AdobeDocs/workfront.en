@@ -190,14 +190,14 @@ You must enable the **Show Backlog** setting on the [!UICONTROL Kanban] board to
 
 Any time a story is moved from the [!UICONTROL In Progress] column into a column on the story board that represents a [!UICONTROL Complete] status (or a status that equates with [!UICONTROL Complete]), the next story from the Backlog column automatically moves to the [!UICONTROL New] column of the [!UICONTROL Kanban Board].
 
-   The next story is the incomplete story with the lowest backlog order number that meets all of the following criteria:
+The next story is the incomplete story with the lowest backlog order number that meets all of the following criteria:
 
-   * It is assigned to the team.
-   * It does not have an actual completion date (that is, it is not yet complete).
-   * It is not already on a Kanban board.
-   * It belongs to a project with a current status.
+* It is assigned to the team.
+* It does not have an actual completion date (that is, it is not yet complete).
+* It is not already on a Kanban board.
+* It belongs to a project with a current status.
 
-   Backlog order is not the same as priority. You can arrange the backlog order by dragging and dropping stories in the Backlog column. The story at the top of the backlog is the one that is pulled onto the board next.
+Backlog order is not the same as priority. You can arrange the backlog order by dragging and dropping stories in the Backlog column. The story at the top of the backlog is the one that is pulled onto the board next.
 
 To automatically add stories from the backlog to the [!UICONTROL Kanban] board:   
 
