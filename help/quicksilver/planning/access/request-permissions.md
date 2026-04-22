@@ -17,12 +17,13 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
+<!-- no longer needed: 
 >[!IMPORTANT]
 >
 >The functionality described in this article is available only when your organization has been onboarded to the Adobe Unified Experience. 
 >
 >For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
-
+-->
 
 You can request permissions to a view or a workspace when someone shares a link with you to the view or the workspace to which you do not have access. 
 

@@ -59,8 +59,6 @@ Your company must meet the following requirements to be able to join the Workfro
 
     The Workfront Planning trial is not available for the legacy Workfront packages.
     For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-* Have access to the Adobe Admin Console
-* Is part of the Identity Management System (IMS)
 * Accept the legal trial agreement available in your organization's Workfront instance between January 26 and April 1, 2026 . You must be a Workfront administrator to accept the trial agreement. 
 
 ## Overview of important dates

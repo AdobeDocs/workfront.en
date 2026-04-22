@@ -102,8 +102,6 @@ For information about you connect record types, see [Connect record types](/help
             >You must have have the following to connect with Adobe Experience Manager objects and GenStudio Brands:
             >* An Adobe Experience Manager license
             >* An Adobe GenStudio for Performance Marketing license
-            >* Your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console.
-            >For information about the Adobe Admin Console, see the [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 * When two record types or a record type and an object type from another application are connected , the following scenarios exist: 
     

@@ -247,13 +247,13 @@ Old:
         ![Original request connection selection](assets/original-request-connection-selection.png)
 
 
-    * **Experience Manager** from the **Adobe Applications** section.
+    * **Experience Manager** from the **Adobe Applications** section, to connect to AEM Assets or Content Fragments.
 
         ![AEM Assets connection selection](assets/aem-assets-connection-selection-041326.png)
 
         A New connection tab opens for your selected record or object type. 
 
-    * A **Brand** from Adobe GenStudio for Performance Marketing from the **Adobe GenStudio** section
+    * **Brands** from Adobe GenStudio for Performance Marketing from the **Adobe GenStudio** section
 
         ![GenStudio Brand connection selection](assets/brand-genstudio-connection-selection.png)
 
@@ -308,7 +308,7 @@ Old:
 
     >[!NOTE]
     >
-    >Your Workfront administrator can map Workfront Planning fields to Experience Manager fields through the Metadata mapping in Workfront. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). 
+    >Your Workfront administrator can map Workfront Planning fields to Experience Manager Assets fields through the Metadata mapping in Workfront. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). 
 
 
 1. (Conditional) When you select to connect to Experience Manager, to a Workfront Planning record type, or to a GenStudio Brand, choose one of the following options in the **Record appearance** area:

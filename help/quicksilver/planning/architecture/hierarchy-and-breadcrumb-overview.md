@@ -40,7 +40,7 @@ The following are benefits of using hierarchies in your workspaces:
 * You cannot add the following object types in a hierarchy:
     * Record types from other workspaces, even when they are set as connectable or global record types. You can add global record types to hierarchies only when they have been added to the workspace you're building the hierarchy from. 
     * All other Workfront objects.
-    * AEM Assets or Content Fragments. 
+    * Adobe Experience Manager Assets or Content Fragments. 
 * Hierarchies can include both Planning record types and Workfront projects at the same time.
 
     For example, you can have a Campaign record type with Planning Tactics and Workfront Projects as the children in the same workspace hierarchy. 
