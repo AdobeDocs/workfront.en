@@ -1,13 +1,13 @@
 ---
-title: Third Quarter 2026 Requesting enhancements
-description: Third Quarter 2026 Requesting enhancements
+title: Third Quarter 2026 Requests enhancements
+description: Third Quarter 2026 Requests enhancements
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 ---
-# Third Quarter 2026 Requesting enhancements
+# Third Quarter 2026 Requests enhancements
 
-This page describes Requesting enhancements made with the Third Quarter 2026 release to the Preview environment. These enhancements will be made available in the Production environment as noted.
+This page describes Requests enhancements made with the Third Quarter 2026 release to the Preview environment. These enhancements will be made available in the Production environment as noted.
 
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
