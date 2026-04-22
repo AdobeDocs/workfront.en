@@ -211,11 +211,10 @@ You can create workspaces in the following ways:
 
    The name of the user who created the workspace is saved on the workspace card as the Owner. 
 
-   >[!NOTE]
+   >[!TIP]
    >
-   >For users that are currently being transitioned to the Adobe Identity Management System (IMS), workspaces created by Workfront-only users who are not IMS users display as created by the **System**. 
+   >Workspaces created by Workfront-only users who have not been added to the Adobe Admin Console display as created by the **System**. 
    >
-   >For information about IMS, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ### Create multiple workspaces using a best-practice multi-workspace template bundle
 

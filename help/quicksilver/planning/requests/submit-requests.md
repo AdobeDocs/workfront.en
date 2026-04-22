@@ -131,7 +131,6 @@ Not sure how to change the request status, but dev also said: Changing the names
 
    >[!TIP]
    >
-   >This setting is available only when your Workfront instance is onboarded to the Adobe Unified Experience. 
    >
    >To be able to submit Workfront Planning requests in this area, you must meet the following conditions: 
    >
@@ -186,11 +185,7 @@ Not sure how to change the request status, but dev also said: Changing the names
    * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
    * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.
 
-      >[!NOTE]
-      >
-      >The email and in-app notification are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
-      >
-      >There is a link to the request in the email confirmation or approval notification. 
+      There is a link to the request in the email confirmation or approval notification.
 
 1. (Optional) Click **View your request** in the confirmation message, to open the request, or click the **X** icon to close the confirmation.
 1. (Optional) To manage the way the information displays in the requests list, update the following view elements for the list: 
@@ -282,11 +277,7 @@ External people cannot access Workfront internal areas, like **Requests** or **H
       >You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system.    
    
    * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
-   * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.
-
-      >[!NOTE]
-      >
-      >The email and in-app notification are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
+   * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request. 
    
       After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.
 
