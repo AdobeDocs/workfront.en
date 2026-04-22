@@ -35,7 +35,7 @@ Finances are calculated on a project as changes occur in the hours logged for th
   </tr> 
   <tr> 
    <td>Object permissions</td> 
-   <td>Manage permissions to the project with permissions to Manage Finance</td> 
+   <td>Manage permissions to the project with permissions to Edit cost rates, Edit billing rates, and Edit general finance</td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,21 +73,24 @@ When financial data for a project is recalculated, Workfront retroactively recal
 
 Revenue rates can change during the lifetime of a project.
 
-For more information about billing rates and revenue, see the article [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+For more information about billing rates and revenue, see [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 Revenue rates can change at the following levels:
 
 * The system level (for job roles)  
-  For more information about creating job roles with billing rates at the system level, see the article [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  For more information about creating job roles with billing rates at the system level, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * The user level  
-  For more information about changing the billing rate information on users, see the article [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  For more information about changing the billing rate information on users, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-* The Company level (for job roles)  
+* The company level (for job roles)  
   For more information, see [Override job role billing rates at the company level](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
-* The Project level (for job roles)  
-  For more information about overriding job role rates at the project level, see the article [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+* The rate card level
+  For more information about rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+
+* The project level (for job roles, users, and rate cards)  
+  For more information about overriding rates at the project level, see [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 For example, a user's billing rate changes during the course of a project from $50 to $75 an hour and you want all existing data to remain calculated at the old rate ($50 and hour). However, when the project finances are recalculated, tasks that already have existing financial data will have the revenue updated to reflect the new billing rate (of $75 an hour).
 
@@ -100,13 +103,13 @@ When billing rates change at any level mentioned above, you can preserve existin
 
 When you do not recalculate finances on the project or when you lock the hours logged into a billed billing record, the hours logged after the rate changes will calculate with the new rate, and the hours logged before the cost rate changes remain calculated at the old rate.
 
-For more information about creating billing records, see the article [Create billing records](../../../manage-work/projects/project-finances/create-billing-records.md).
+For more information about creating billing records, see [Create billing records](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 #### Preserve Project Revenue by using multiple Billing Rate overrides {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
 
 When billing rates change for job roles at the project level, you can preserve existing revenue which has already been calculated on the project by using multiple billing rates overrides which are locked within a specified time frame.
 
-For more information about using multiple billing rates overrides, see the article [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+For more information about using multiple billing rates overrides, see [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 >[!NOTE]
 >
@@ -117,12 +120,15 @@ For more information about using multiple billing rates overrides, see the artic
 Cost rates can change at the following levels:
 
 * System level (for job roles)  
-  For more information about creating job roles with cost rates at the system level, see the article [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).  
+  For more information about creating job roles with cost rates at the system level, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).  
 
 * User level  
-  For more information about changing the cost rate information on users, see the article [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  For more information about changing the cost rate information on users, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-When billing rates change at any level mentioned above, you can preserve existing costs which have already been calculated on the project by locking the time recorded on the project and calculated using the old rate into a billing record with a status of Billed. For more information about creating billing records, see the article [Create billing records](../../../manage-work/projects/project-finances/create-billing-records.md).
+* Project level (for users)
+  For more information about overriding user cost rates, see [Override user cost rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).
+
+When billing rates change at any level mentioned above, you can preserve existing costs which have already been calculated on the project by locking the time recorded on the project and calculated using the old rate into a billing record with a status of Billed. For more information about creating billing records, see [Create billing records](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 You can also avoid using the manual Recalculate Finance option, if you don't want to create a billing record, as described in the section [Manually recalculate finances for a project](#manually-recalculate-finances-for-a-project) in this article.
 
@@ -142,13 +148,13 @@ You can recalculate the finances while editing them in bulk. For information, se
 
 1. Go to the project where you want to recalculate finances and click the **More** icon ![More menu](assets/qs-more-icon-on-an-object.png) to the right of the project name.
 
-   ![Project level more dropdown](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Project level more dropdown](assets/project-level-more-dropdown.png)
 
    Or
 
    Go to a project list or report and select one or several projects, then click the **More** icon ![More menu](assets/qs-more-icon-on-an-object.png) at the top of the list.
 
-   ![Recalculate expressions](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Recalculate finance](assets/recalculate-expressions-timeline-finance.png)
 
    >[!TIP]
    >
@@ -174,7 +180,7 @@ To manually recalculate the finances of several projects:
 1. Go to a list of projects.
 1. Select several projects in the list, then click the **More** icon ![More menu](assets/qs-more-icon-on-an-object.png) at the top of the list.
 
-   ![Recalculate expressions](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Recalculate finance](assets/recalculate-expressions-timeline-finance.png)
 
    >[!TIP]
    >

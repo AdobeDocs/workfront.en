@@ -12,8 +12,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create and manage brands for the Content Reviewer
 
-{{highlighted-preview-article-level}}
-
 The Content Reviewer uses brand guidelines to evaluate content during the review process. You can create brands in Workfront by uploading PDF files that contain your brand guidelines or by manually entering brand elements.
 
 ## Access requirements
@@ -123,3 +121,12 @@ For more detail about the information in this table, see [Access requirements in
 
 
 1. When finished, click **Publish** to make the brand available for the Content Reviewer.
+
+
+## Best practices for writing brand guidelines
+
+*  Write brand guidelines that describe measurable criteria. The Content Reviewer evaluates content literally, so objective rules produce more consistent scores than subjective ones.
+
+* Look for words like "avoid," "keep," or "make sure" in your guidelines. These often signal a rule you can tighten. Replace the vague instruction with a specific list of words, formats, or limits. For example, replace "avoid common skiing clichés" with "do not use 'gnar,' 'pow,' or 'shred.'"
+
+* If you can't remove the subjectivity, narrow it. Replace broad adjectives with specific constraints. For example, "Direct and action-oriented" becomes "Direct and action-oriented; omit filler words and hedging language."

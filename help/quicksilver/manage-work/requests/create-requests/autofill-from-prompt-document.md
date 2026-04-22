@@ -55,8 +55,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 To use Form Fill powered by AI to fill in a request using a prompt or document, **all** of the following must apply:
 
+<!--
+Remove me October 2026
 * Your organization must have migrated to Adobe IMS (Identity Management System)
 * The Adobe Unified Experience must be enabled
+-->
 * Your organization must have a Select, Prime, or Ultimate Workfront plan
 * Adobe must have a signed Adobe Gen AI agreement on file
 

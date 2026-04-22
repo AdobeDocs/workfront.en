@@ -12,9 +12,11 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 # Create records by importing information from a CSV or Excel file
 
+<!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -136,14 +138,14 @@ Old:
 * Empty sheets are not supported.
 * Fields of the following types are not supported and cannot be mapped to fields on the import sheet:
 
-    * Connection fields to Workfront and AEM Assets object types. You can map only connection fields to Planning record types.
-    * Lookup fields from connected Planning records or Workfront and AEM Assets objects
+    * Connection fields to Workfront and Aadobe Experience Manager object types. You can map only connection fields to Planning record types.
+    * Lookup fields from connected Planning records or Workfront and Adobe Experience Manager objects
     * Formula fields
     * Created date, Created by
     * Last modified date, Last modified by
     * Approved date, Approved by
     * People
-    * <span class="preview">Record ID</span>
+    * Record ID
     * If a multi- or single-select field is imported and it has more choices than a similar field in Planning, the additional options are created during the import. Only users with Manage permissions to the workspace can import new choices. 
 
 ## Create records by importing a CSV or Excel file

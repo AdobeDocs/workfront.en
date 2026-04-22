@@ -19,7 +19,6 @@ This section contains the following articles:
 * [Configure the [!DNL Experience Manager Assets Essentials] integration](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 * [[!DNL Workfront] and [!DNL Experience Manager Assets] Integrations](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md) 
 * [Configure [!DNL Workfront] with [!DNL Adobe Experience Manager] legacy connector](../../administration-and-setup/configure-integrations/configure-workfront-aem.md) 
-* [Enable [!UICONTROL Adobe Workfront for Outlook]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md) 
 * [Configure document integrations](../../administration-and-setup/configure-integrations/configure-document-integrations.md) 
 * [Disable document integrations](../../administration-and-setup/configure-integrations/disable-document-integrations.md) 
 * [Configure the [!DNL SharePoint] integration](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md) 

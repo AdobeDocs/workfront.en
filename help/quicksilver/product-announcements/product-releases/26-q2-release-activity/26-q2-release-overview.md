@@ -54,7 +54,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">AI Collaborators now available</a><p>To make it easier for you to benefit from AI in your day-to-day work, we've created AI Collaborators.  AI Collaborators are a way to onboard AI agents into your projects and tasks. You can configure an AI Collaborator with brand guidelines, then assign it to a task as you would a user.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Content Review AI Collaborator now available</a><p>To make it easier for you to benefit from AI in your day-to-day work, we've created the Content Review AI Collaborator.  The Collaborator is a way to onboard AI agents into your projects and tasks. You can configure a Content Review AI Collaborator with brand guidelines, then assign it to a task as you would a user.</p>
         </td>
         <td><p>April 2, 2026</p></td>
         <td><p>April 15, 2026</p></td>
@@ -78,7 +78,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
     </tr>
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Rich text field type is now available on custom forms</a><p>The new <b>Rich text</b> field type in custom forms is a robust text editor, with formatting options such as superscript and subscript, headings, and tables, in addition to the traditional options of bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. The character limit remains 15,000.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Rich Text field replacing Text with Formatting field type</a><p>The new <b>Rich text</b> field type in custom forms is a robust text editor, with formatting options such as superscript and subscript, headings, and tables, in addition to the traditional options of bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. The character limit remains 15,000.</p>
         </td>
         <td><p>January 29, 2026</p></td>
         <td><p>February 12, 2026</p>
@@ -126,6 +126,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <td><strong>Preview</strong></td>
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
+   <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Discover and reuse content faster with Content Advisor for AEM Assets in Workfront </a><p></p>
+            <p>Content Advisor is now available in Workfront with the Adobe Experience Manager Assets integration—making it easier for teams to discover and reuse existing high-value content.</p>
+        </td>
+        <td><p>April 16, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+    </tr>
    <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">GenStudio Foundations Provisioning enabled to support AI Collaborators </a><p></p>
@@ -191,6 +200,16 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md" class="MCXref xref" xrefformat="{para}">Enterprise Operations Capabilities now available in Adobe Workfront</a><p></p>
             <p>Advanced enterprise operations capabilities from Adobe Workfront are a unified and scalable way to manage finances, projects, and enterprise access. These capabilities provide the visibility and control that enterprises need to operate profitably and efficiently.</p><p>The following updates are included in these capabilities:<ul><li>Advanced financial management – including rate attributes, rate cards, a redesigned Advanced Assignments experience, date-effective exchange rates, and additional advanced features</li><li>Historical data tracing – including project snapshots</li><li>Enterprise permissions – including business profiles, and separate cost and billing rates in access levels and object permissions</li><li>Custom form and field enhancements – including new advanced logic types, a Finance permission type setting on currency-formatted fields, the ability to add custom forms to more objects, and enhancements to the form designer interface</li><li>Layout template enhancements – including customizing the headers and left navigation menus of more objects, updates to Main Menu options in layout templates, and More menu customization</li><li>Custom localization – including the ability to define custom terms and phrases in different languages</li><li>Enhancements to Business Rules – including the ability to automate actions for the created, edited, or modified object when certain conditions are met</li></ul></p>
+ </p>
+        </td>
+        <td><p>April 2, 2026</p></td>
+        <td><p>April 15, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md" class="MCXref xref" xrefformat="{para}">Gaps allowed on date-effective rates</a><p></p>
+            <p>Workfront allows you to leave gaps between date ranges on billing and cost rates, but you will receive a warning to confirm this is intentional.</p>
  </p>
         </td>
         <td><p>April 2, 2026</p></td>
@@ -369,9 +388,9 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Predefined views added to the requests list in the Requests area and the My Requests widget </a><p></p>
             <p>To help you organize your request list better, we have added predefined views to the requests list in the Requests area and the My Requests widget in Home.</p>
         </td>
-           <td><p>N/A</p><p>Predefined views will not have a Preview release, and will be release directly to Production on April 16. </p></td>
-        <td><p>April 16, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
+           <td><p>N/A</p><p>Predefined views will not have a Preview release, and will be release directly to Production. </p></td>
+        <td><p>TBD</p></td>
+        <td><p>TBD</p></td>
  </tr>
     <tr>
         <td>
@@ -490,3 +509,5 @@ For information about the maintenance updates made during the Second Quarter 202
 ### Training updates
 
 Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+
+

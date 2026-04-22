@@ -546,6 +546,7 @@ feature-set: Workfront
       * [Grant access to issues](administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
       * [Grant access to documents](administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
       * [Grant access to users](administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+      * [Grant access to job roles](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md)
       * [Grant access to teams](administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
       * [Grant access to templates](administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
       * [Grant access to reports, dashboards, calendars](administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
@@ -880,7 +881,7 @@ feature-set: Workfront
     * [Access Adobe Workfront help](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
     * [[!DNL Adobe Workfront] objects overview](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
     * [Understand the navigation for a Work-license user](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
-    * [Understand the navigation for a Review-license user](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
+    * [Understand the navigation for a Light-license user](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
     * [Overview of the Project, Task, and Issue dates in Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
   * Priorities {#priorities}
     * [Priorities: article index](workfront-basics/priorities/priorities-toc.md)
@@ -1182,7 +1183,8 @@ feature-set: Workfront
     * Adobe Workfront for Experience Manager Assets and Assets Essentials {#wf-aem-essentials}
       * [Adobe Workfront for Experience Manager Assets and Assets Essentials: article index](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
       * [Overview of Adobe Experience Manager Assets integrations](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
-      * [Link assets and folders from Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+      * [Link assets and folders with Experience Manager Assets' Content Advisor](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+      * [Link assets and folders from Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md)
       * [View mapped metadata for Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
       * [View or download a linked asset from Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
       * [Send a Document to Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)

@@ -9,9 +9,13 @@ exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
 ---
 # Customize the Priorities worklist columns
 
+<!--I think this article can point to the Enhanced lists article for managing the view-->
+
+<!--
 <span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 You can customize the columns on the worklist in Priorities to support the way you work. 
@@ -80,8 +84,6 @@ For more detail about the information in this table, see [Access requirements in
 >
 >The Name column is fixed and cannot be moved. 
 
-<div class="preview">
-
 ### Change the row height in the priorities list
 
 {{step1-to-priorities}}
@@ -96,5 +98,3 @@ For more detail about the information in this table, see [Access requirements in
       * Tall
 
     The list updates immediately. 
-
-</div>

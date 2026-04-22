@@ -96,6 +96,8 @@ The following are the highest access settings available for objects in the Stand
 |Filters, views, and groupings|&nbsp;|&nbsp;|✓|
 |Documents|&nbsp;|&nbsp;|✓|
 |Users|&nbsp;|&nbsp;|✓|
+|Job Roles|&nbsp;|&nbsp;|✓|
+|Teams|&nbsp;|&nbsp;|✓|
 |Templates|&nbsp;|&nbsp;|✓|
 |Financial data|&nbsp;|&nbsp;|✓|
 |Resource Management|&nbsp;|&nbsp;|✓|
@@ -198,7 +200,13 @@ The following are the highest access settings available for objects in the Light
    <td>✓</td> 
    <td>&nbsp;</td> 
   </tr> 
-    <tr> 
+  <tr> 
+   <td>Job Roles</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
    <td>Teams</td> 
    <td>&nbsp;</td> 
    <td>✓</td> 
@@ -279,7 +287,8 @@ The following are the highest access settings available for objects in the Contr
 |Reports (including dashboards and calendar reports)|&nbsp;|✓ (Only the Details tab)|&nbsp;|
 |Filters, views, and groupings|&nbsp;|&nbsp;|✓|
 |Document|&nbsp;|&nbsp;|✓|
-|User|&nbsp;|✓|&nbsp;|
+|Users|&nbsp;|✓|&nbsp;|
+|Job Roles|&nbsp;|✓|&nbsp;|
 |Teams|&nbsp;|✓|&nbsp;|
 |Templates|✓|&nbsp;|&nbsp;|
 |Financial data|✓|&nbsp;|&nbsp;|
@@ -328,7 +337,8 @@ The following are the highest access settings available for objects in the Exter
 |Reports (including dashboards and calendar reports)|&nbsp;|✓ (Only for calendar reports; no ability to share reports)|&nbsp;|
 |Filters, views, and groupings|✓|&nbsp;|&nbsp;|
 |Document|&nbsp;|✓ (No ability to share documents)|&nbsp;|
-|User|&nbsp;|✓|&nbsp;|
+|Users|&nbsp;|✓|&nbsp;|
+|Job Roles|✓|&nbsp;|&nbsp;|
 |Teams|✓|&nbsp;|&nbsp;|
 |Templates|✓|&nbsp;|&nbsp;|
 |Financial data|✓|&nbsp;|&nbsp;|

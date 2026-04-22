@@ -10,13 +10,20 @@ exl-id: 838e8f3d-0ea6-4844-a261-ef7b0e78a755
 ---
 # View Content Reviewer score and feedback 
 
-{{highlighted-preview-article-level}}
-
 Seconds after you submit the review and approval request, you can view the score and feedback from the Content Reviewer in the Document Summary panel. 
 
 The Content Reviewer is not designed to be a decision-maker in the review and approval workflow. It only provides a score and recommendations to align the asset with the specified brand requirements. 
 
 ![Content reviewer feedback](assets/ai-reviewer-output.png)
+
+## Understand how scores are calculated
+
+The Content Reviewer calculates scores differently depending on the review type:
+
+* Image review: This score reflects the ratio of passed guidelines to failed guidelines.
+* Copy review: This score uses a balanced weighting of subjective and objective results. Objective guidelines (displayed under "Fix") are weighted three times more than subjective guidelines (displayed under "Consider").
+
+Because objective guidelines carry more weight in copy reviews, we recommend writing concrete, measurable guidelines in your brand. For more information, see the [Best practices for writing brand guidelines](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md#best-practices-for-writing-brand-guidelines) section in the Create and manage brands for the Content Reviewer article.
 
 ## View score and feedback 
 
@@ -26,7 +33,7 @@ You can view the Content Reviewer's score and feedback from the Document Summary
 
    Or
 
-   Go to the Documents area where the document is uploaded, and open the Document summary panel.
+   Go to the Documents area where the document is uploaded, and open the Document Summary panel.
 1. Click **Score**.
     ![view document score](assets/view-score.png)
 

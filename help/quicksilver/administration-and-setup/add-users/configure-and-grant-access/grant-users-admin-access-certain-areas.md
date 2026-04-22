@@ -10,7 +10,7 @@ exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
 
 <!--Linked in several places, do not rename or change URL.-->
 
-As an Adobe Workfront administrator, you can use an access level to grant users with a Plan license administrative access to certain areas of the system.
+As an Adobe Workfront administrator, you can use an access level to grant users with a Standard or Plan license administrative access to certain areas of the system.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Grant Plan users administrative access to certain areas of Workfront
+## Grant Standard or Plan users administrative access to certain areas of Workfront
 
 >[!IMPORTANT]
 >
@@ -87,16 +87,7 @@ For more detail about the information in this table, see [Access requirements in
         <li>Their own expenses</li>
         <li>The expenses of their subordinates</li>
        </ul></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Job roles</td> 
-      <td> <p>With this access, the user is allowed to do the following:</p> 
-       <ul> 
-        <li>View and edit existing job roles</li> 
-        <li>Add new job roles</li> 
-        <li>Edit role billing and cost rates</li> 
-       </ul> <p><b>IMPORTANT</b>: If you grant a Planner user administrative access to job roles, the Financial Data access setting Edit Role Billing &amp; Cost Rates is enabled for the user automatically. Later, if you disable administrative access to job roles for the Planner user, job roles are still visible to the user because the Edit Role Billing &amp; Cost Rates setting is still enabled. If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting. For instructions, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>.</p> </td> 
-     </tr> 
+     </tr>
      <tr> 
       <td role="rowheader">Milestones in my group</td> 
       <td>View all the milestone paths in the system under the Milestone Paths menu in Setup. Users can also edit or delete any milestone paths belonging to any of their groups. Users cannot manage (edit or delete) the milestone paths that are not assigned to any of their of groups.<br><p>Without this access, users can only view existing milestone paths and apply them to projects they have access to manage.</p></td> 
@@ -124,3 +115,17 @@ For more detail about the information in this table, see [Access requirements in
    >[!NOTE]
    >
    >You can allow users to have administrative access to users. For more information about giving users administrative access to users so they can manage user accounts, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+
+
+<!--     
+     <tr> 
+      <td role="rowheader">Job roles</td> 
+      <td> <p><b>NOTE</b>: In the Preview environment, access to job roles is controlled as an object type in the access level. See <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md">Grant access to job roles</a>.</p>
+      <p>With this access, the user is allowed to do the following:</p> 
+       <ul> 
+        <li>View and edit existing job roles</li> 
+        <li>Add new job roles</li> 
+        <li>Edit role billing and cost rates</li> 
+       </ul> <p><b>IMPORTANT</b>: If you grant a Standard or Plan user administrative access to job roles, the Financial Data access setting Edit Role Billing &amp; Cost Rates is enabled for the user automatically. Later, if you disable administrative access to job roles for the Standard or Plan user, job roles are still visible to the user because the Edit Role Billing &amp; Cost Rates setting is still enabled. If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting. For instructions, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>.</p> </td> 
+     </tr>
+-->

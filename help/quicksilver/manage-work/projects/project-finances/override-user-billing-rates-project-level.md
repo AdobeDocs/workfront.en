@@ -10,8 +10,6 @@ exl-id: eb7dbb6f-a31c-4569-be54-9a151dcf4135
 ---
 # Override user billing rates at the project level
 
-{{highlighted-preview-article-level}}
-
 As a project manager, you can specify what the billing rate is for a user on a specific project. This project-level billing rate overrides the billing rate at the system level for this user. Workfront uses the project-level billing rate of the user to calculate revenue, instead of using the system-level billing rate.
 
 This article describes how you can override the system user billing rates for a project.

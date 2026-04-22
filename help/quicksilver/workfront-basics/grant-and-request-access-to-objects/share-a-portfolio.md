@@ -7,8 +7,6 @@ exl-id: 79643202-2d91-4028-b673-c3443b50d898
 ---
 # Share a portfolio
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 Your Adobe Workfront administrator can grant you access to view or edit portfolios when assigning your access level. You must have a Plan license to have access to edit a portfolio. For more information, see [Grant access to portfolios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
 Along with the access level that you are granted, you can also receive permissions to view or manage specific portfolios from users who can share them with you. For more information about access levels and permissions, see [How access levels and permissions work together](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
@@ -78,7 +76,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
     ![Share portfolio button](assets/share-portfolio-button.png)
 
-1. In the **Grant portfolio access to** field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share the portfolio with, then click the name when it appears in the drop-down list.
+1. In the **Grant portfolio access to** field, begin typing the name of the user, team, role, group, company, or business profile you want to share the portfolio with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
@@ -111,7 +109,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
     ![Bulk share portfolios](assets/bulk-share-portfolios.png)
 
-1. In the **Grant portfolio access to** field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share the portfolios with, then click the name when it appears in the drop-down list.
+1. In the **Grant portfolio access to** field, begin typing the name of the user, team, role, group, company, or business profile you want to share the portfolios with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
@@ -140,21 +138,27 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 The following table displays what permissions you can grant users when allowing them to view or manage a Portfolio:
 
-| **Actions** |**Manage** |**View** |
-|---|---|---|
-| Edit Portfolio details |✓ |   |
-| View a Portfolio |✓ |✓ |
-| Delete a Portfolio |✓ |   |
-| Attach a Custom Form |✓ |   |
-| Edit a custom field |✓ |   |
-| Add or remove a program&#42; |✓ |   |
-| Add or remove a project&#42; |✓ |   |
-| Approve a project |✓ |   |
-| Portfolio optimization&#42; |✓ |   |
-| Add a document folder&#42; |✓ |✓ |
-| Add a document |✓ |✓ |
-| Updates/ comments |✓ |✓ |
-| Share |✓ |✓ |
-| Share system-wide |   |✓ |
+| **Actions** | **Manage** | **View** |
+| --- | --- | --- |
+| Edit Portfolio details | ✓ | |
+| View a Portfolio | ✓ | ✓ |
+| Delete a Portfolio | ✓ | |
+| Attach a Custom Form | ✓ | |
+| Edit a custom field | ✓ | |
+| Add or remove a program&#42; | ✓ | |
+| Add or remove a project&#42; | ✓ | |
+| Approve a project | ✓ | |
+| Portfolio optimization&#42; | ✓ | |
+| Add a document folder&#42; | ✓ | ✓ |
+| Add a document | ✓ | ✓ |
+| Updates/ comments | ✓ | ✓ |
+| Share | ✓ | ✓ |
+| Share system-wide | | ✓ |
+| Edit billing rates&#42; | ✓ | |
+| Edit cost rates&#42; | ✓ | |
+| Edit general finance&#42; | ✓ | |
+| View billing rates&#42; | ✓ | ✓ |
+| View cost rates&#42; | ✓ | ✓ |
+| View general finance&#42; | ✓ | ✓ |
 
 *These permissions are controlled by the access level and permissions on other objects, like projects, programs, documents.

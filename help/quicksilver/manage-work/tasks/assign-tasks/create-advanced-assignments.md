@@ -12,8 +12,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create advanced assignments
 
-{{highlighted-preview}}
-
 <!-- Audited: 11/2025-->
 
 <!--remove the bullet indicated when we get rid of the new/old experience of editing tasks-->
@@ -37,8 +35,8 @@ You can adjust the following assignment information when making advanced assignm
 * Adjust and redistribute the number of hours each assignee is allocated.
 * Determine which user should be designated as the owner or the Primary assignee of the task or issue.
 * Specify which role each user is fulfilling when working on the task or issue.
-* <span class="preview">Add billing and cost rate information at the assignment level.</span>
-* <span class="preview">Review the following details for each assignment: time-based planned hours, total cost, and total revenue.</span>
+* Add billing and cost rate information at the assignment level.
+* Review the following details for each assignment: planned hours, total cost, and total revenue.
 
 >[!NOTE]
 >
@@ -88,11 +86,14 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-<div class="preview">
-
 ## Create Advanced Assignments – Workflow Ultimate package
 
 This layout of Advanced Assignments applies to tasks only. For issues, see [Create Advanced Assignments – all other packages](#create-advanced-assignments--all-other-packages).
+
+>[!NOTE]
+>
+>The old Advanced Assignments experience is the default. You must manually turn on the new experience with the button on the top right of the Advanced Assignments window.
+>For information about the old experience, see [Create Advanced Assignments – all other packages](#create-advanced-assignments--all-other-packages), below.
 
 1. Go to the project where you want to assign a task.
 1. Click **Tasks** or **Issues** in the left panel, then click the name of a task in the list.
@@ -119,6 +120,10 @@ This layout of Advanced Assignments applies to tasks only. For issues, see [Crea
 1. Review the task duration information as needed. These fields are all view-only from Advanced Assignments and you can update them in the task.
 
    For information about the task duration, duration types, units of time, and planned hours, see [Overview of Task Duration and Duration Type](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+   >[!NOTE]
+   >
+   >If a data column you want to view is not displayed, you can add it. See [Add and removed columns on the Advanced Assignments list](#add-and-remove-columns-on-the-advanced-assignments-list), below.
 
 1. (Optional) Select **Hours**, **FTE**, or **Percentage** for viewing the allocations.
 
@@ -303,8 +308,6 @@ You can only view assignment data by dates for a single user or role.
    ![View by dates window](assets/resource-changes-view-by-dates.png)
  
    When you are finished reviewing the data, click the arrow on the top left to return to the Advanced Assignments window.
-
-</div>
 
 ## Create Advanced Assignments – all other packages
 

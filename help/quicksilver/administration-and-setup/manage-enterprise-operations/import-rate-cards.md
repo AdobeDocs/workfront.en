@@ -10,8 +10,6 @@ exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
 ---
 # Import rate cards from a template
 
-{{highlighted-preview-article-level}}
-
 You can use a template file to build your rate cards in Excel and import them into Adobe Workfront, instead of adding all of the job roles and rates manually.
 
 To see the example rate cards described in this article, download the [sample file](assets/rate-cards-sample.zip).

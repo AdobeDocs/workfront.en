@@ -11,9 +11,13 @@ exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
 ---
 # Delete users
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
 >The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Business Platform. If you have been onboarded to the Adobe Business Platform, you must delete users in the Adobe Admin Console.
+>
+>**Because all organizations have now been onboarded to the Adobe Admin Console, the information on this page will be removed in the near future.**
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -101,12 +105,15 @@ Deleting a user causes the following things to happen:
    * Tasks, issues, projects, portfolio
    * Dashboards
 
-     <!--
+   <!--
+
      >[!NOTE]
      >
      >You also lose access to custom sections that contained dashboards associated to the deleted user.  
+     >
      >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
-     -->
+
+   -->
 
    * Updates
    * Hours

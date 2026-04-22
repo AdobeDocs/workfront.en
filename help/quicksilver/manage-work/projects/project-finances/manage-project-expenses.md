@@ -39,7 +39,7 @@ The total amount of your expenses from all the tasks and project contributes to 
   </tr> 
   <tr> 
    <td>Object permissions</td> 
-   <td>Contribute or higher permissions to the project, with permissions to View or Manage Finance</td> 
+   <td>Contribute or higher permissions to the project, with permissions to View or Edit General Finance</td> 
   </tr> 
  </tbody> 
 </table>

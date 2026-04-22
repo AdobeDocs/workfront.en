@@ -11,19 +11,6 @@ exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
 ---
 # Edit a user's profile
 
-{{highlighted-preview}}
-
-<!--
-
->[!IMPORTANT]
->
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
->
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
->
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
--->
-
 As an Adobe Workfront administrator, you can create users and manage the profiles of existing ones. For information about creating users, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 For information about users updating their own profiles, see [Configure my settings](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
@@ -51,7 +38,8 @@ For information about users updating their own profiles, see [Configure my setti
     <ul> 
      <li> <p>The System Administrator access level. </li> 
      <li> <p><b>Users</b> setting in your access level configured to <b>Edit</b> access, with <b>Create</b> and at least one of the two <b>User Admin</b> options enabled under <b>Fine-tune your settings</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Of these two options, if <b>User Admin (Group Users)</b> is enabled, you must be a group administrator of a group where the user is a member.</p> </li> 
-    </ul> </td> 
+    </ul>
+    <p>To edit billing and cost rates for a user, you must also have the Edit Billing Rates and Edit Cost Rates fine-tune options enabled.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,7 +73,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
   If you use the email allowlist and enter an email domain not on the list, the user will not receive email notifications. For more information about the allowlist, see [Configure your email allowlist](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
 
-  If your organization has been migrated to the Adobe Admin Console, you cannot edit a user's email address in Workfront. The user's email address is set in the Adobe Admin Console.
+  Because your organization has been migrated to the Adobe Admin Console, you cannot edit a user's email address in Workfront. The user's email address is set in the Adobe Admin Console.
 
 * **Change Password**: Click this button to reset the user's password. You must enter your own password before you can reset another user's password.
 
@@ -121,7 +109,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 * **Job Info**: Information about the job, like the job title (in the **Title** field), and what area of expertise the user is responsible for (in the **Talk to Me About** field).
 * **Contact Info**: The user's phone number (in the **Phone number**, **Ext.**, and **Mobile number** fields) and address (in the **Address**, **City**, **State**, **Postal Code**, and **Country** fields).
 
-  If the user is enabled for Unified User Management (UUM) or Adobe Identity Management System (IMS), the **Country** field in the Contact Info section only accepts country code values (for example, US, GB, IN).
+  The **Country** field in the Contact Info section only accepts country code values (for example, US, GB, IN).
 
 ### Preferences
 
@@ -143,7 +131,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 * **Automatically set the task status to In Progress when tasks are self-assigned**: When this option is selected, work that the user self-assigns is automatically set to In Progress status instead of New.
 
-* **Automatically generate proofs when uploading documents**: Check this option if you want the documents that the user uploads to immediately generate a proof.
+>[!NOTE]
+>
+>The option "Automatically generate proofs when uploading documents" has been removed.
 
 ### Notifications
 
@@ -311,15 +301,19 @@ For more information, see [Configure event notifications for everyone in the sys
 
   For date effective cost rates, click **Add Rate**. Enter the value of the cost rate for the time period, and assign a Start Date and End Date as needed. Cost Rate 1 will not have a start date and the last cost rate will not have an end date.
 
-  Some dates are added automatically. For example, if Cost Rate 1 does not have an end date, and you add Cost Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Cost Rate 1 so that no gaps exist.
+  <!--Some dates are added automatically. For example, if Cost Rate 1 does not have an end date, and you add Cost Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Cost Rate 1 so that no gaps exist.-->
 
-* <span class="preview">**Cost rate override allowed**: Turn on this option to allow cost rate overrides for this user on projects. For more information, see [Override user cost rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).</span>
+  Workfront allows you to leave gaps between date ranges, but you will receive a warning to confirm this is intentional.
+
+* **Cost rate override allowed**: Turn on this option to allow cost rate overrides for this user on projects. For more information, see [Override user cost rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).
 
 * **Billing Rate**: The amount of billing per hour for the user.
 
   For date effective billing rates, click **Add Rate**. Enter the value of the billing rate for the time period, and assign a Start Date and End Date as needed. Billing Rate 1 will not have a start date and the last billing rate will not have an end date.
 
-  Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add a second with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.
+  <!--Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add a second with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.-->
+
+  Workfront allows you to leave gaps between date ranges, but you will receive a warning to confirm this is intentional.
   
   ![User cost and billing rates](assets/user-cost-billing-rates-2025.png)
 
@@ -332,8 +326,6 @@ Associate an existing user custom form with this user. You must create a custom 
 >Advanced custom form features such as External lookup fields and Workfront native fields are only available when you open the user record on the details page, not on the Edit User dialog. (From the list of users, click the user name to open the details.)
 
 For information about creating custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-
-<div class="preview">
 
 ### Attributes
 
@@ -352,8 +344,6 @@ Rate attributes are supported in areas of Workfront where rates exist, such as j
       The **Start Date** for the next set is added automatically.
 
    1. Add the attribute values for the next attribute set. These values take effect on the start date.
-
-</div>
 
 ### Comment
 
@@ -392,8 +382,8 @@ Type the comment you want to send to the user and to the Updates area of their u
        <ul> 
       <li> <p><b>Time Zone:</b> The user's time zone.</p> <p>For information about helping users collaborate in Workfront across time zones, see <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Working across time zones</a>.</p> </li>
 
-      <li><p><b>Email Locale</b>: The user's preferred email locale. This affects the format of numbers and dates in the emails that come from Workfront to this user.</p>
-      <p><b>NOTE:</b> When your organization is on the Adobe Unified Experience, the user's language preferences are stored in their Adobe profile and the email locale is not used. For information about accessing these preferences, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></li> 
+      <li><p><b>Email Locale</b>: The user's preferred email locale. </p>
+      <p><b>NOTE:</b> The user's language preferences are stored in their Adobe profile and the email locale is not used. For information about accessing these preferences, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></li> 
       
       <li><b>Receive emails from this test environment</b>: Check this option if you want to receive email notifications from the environment that you are currently logged in.
       <p><b>NOTE</b></p>

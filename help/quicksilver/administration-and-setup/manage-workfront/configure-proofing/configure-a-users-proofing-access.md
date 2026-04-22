@@ -44,19 +44,6 @@ You must have the following access to perform the steps in this article:
 
 +++
 
-## Enable and disable proofing for a user (legacy plans only) {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
-
-If your organization is using a legacy Select or Premium Workfront Plan, as a Workfront administrator, you can enable and disable proofing functionality for the user.
-
-When you enable proofing for a user, Workfront enables the option for the user's proofs to generate automatically.
-
-Though you can enable a user as a proofing user, he or she must have Administrator permissions in order to navigate directly to the Workfront Proof interface from the Workfront Main Menu. For information about how you can enable this option for all proofing users in your Workfront system, see [Configure Workfront Proof access via Workfront Main Menu for all users](#configure-workfront-proof-access-via-workfront-main-menu-for-all-users).
-
-1. In the **Main Menu**, select **Users**.
-
-1. Select a user, then click the **Edit** icon.
-1. In the **Access** section, select or deselect **User can generate proofs**.
-
 ## Configure a user's proof permission profile
 
 The permission profile you select is granted to the users for each proof that exists within your organization.
