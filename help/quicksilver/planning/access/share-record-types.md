@@ -14,9 +14,11 @@ git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 
 # Share record types
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -218,7 +220,7 @@ You can adjust permissions to individual record types of a workspace if you have
       >Workspace managers continue to have Manage permissions to the record type.
 
    1. In the **Grant access to this record type** field, add the users, teams, groups, companies, or job roles that you want to grant a different permission level to than they have for the workspace.
-   1. <span class="preview">(Optional) When you share with a group, team, role, or company, hover over the name of the entity and click the right-pointing arrow to expand a list of users that are receiving the permissions. </span>
+   1. (Optional) When you share with a group, team, role, or company, hover over the name of the entity and click the right-pointing arrow to expand a list of users that are receiving the permissions. 
 
       ![Share record type with group](assets/share-record-type-with-group-expanding-arrow-highlighted.png)
 
@@ -231,7 +233,7 @@ You can adjust permissions to individual record types of a workspace if you have
    >* You cannot give users a lesser permission than Manage to a record type, if they have Manage permissions to the workspace. 
    >* You can give users a lesser permission to the record type if they have Contribute permissions to the workspace. 
    > For more information, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
-   >* When you share a record type with a user, their primary job role <span class="preview">and their email</span> also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email. 
+   >* When you share a record type with a user, their primary job role and their email also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email. 
 
 1. To give users who do not have permissions to the workspace access to view a record type, in the **Grant access to this view** field, start typing the name of a user, a group, team, company, or job role, then click it when it displays in the list. 
 

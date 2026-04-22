@@ -12,9 +12,11 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 # Create workspaces
 
+<!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -43,13 +45,13 @@ For general information about workspaces, see [Workspaces overview](/help/quicks
    <td> 
 <p>Any Workfront or Workflow package</p> 
 <p>Any Workfront Planning package</p>
-<p>A Workfront Planning Prime or higher package <span class="preview">to create multiple workspaces at a time</span></p>
+<p>A Workfront Planning Prime or higher package to create multiple workspaces at a time</p>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td><p>Standard</p>
-   <p><span class="preview">System Administrator to create multiple workspaces at one time using the best-practice template bundle</p>
+   <p>System Administrator to create multiple workspaces at one time using the best-practice template bundle</p>
    </td> 
   </tr> 
   <tr> 
@@ -138,8 +140,6 @@ You can create workspaces in the following ways:
 
    For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
-<div class="preview">
-
 * Create multiple workspaces using a best-practice multi-workspace template bundle 
 
    For information, see the section [Create multiple workspaces using a best-practice multi-workspace template bundle](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) in this article
@@ -147,9 +147,6 @@ You can create workspaces in the following ways:
    >[!TIP]
    >
    >You can create multiple workspaces at one time only when you use the best-practice template bundle.
-
-
-</div>
 
 ### Create a workspace from scratch or from a template
 
@@ -220,8 +217,6 @@ You can create workspaces in the following ways:
    >
    >For information about IMS, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-<div class="preview">
-
 ### Create multiple workspaces using a best-practice multi-workspace template bundle
 
 >[!IMPORTANT]
@@ -271,8 +266,6 @@ The templates included in the bundle contain workspaces, record types, records, 
    For more information about best practices to implement Workfront, see the articles in the [Adobe Workfront Planning best practices: article index](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md) section. 
 
    For information about editing workspaces, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
-
-</div>
 
 
 
