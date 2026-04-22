@@ -169,6 +169,7 @@ Old:
 
 Consider the following when adding sections to a record page:
 
+* You can add sections only when display all the fields of a record. You cannot add sections when you hide the fields hidden in a table view. 
 * There is no limit to how many sections you can have on a page. 
 * You cannot have an empty section. You must have at least one field in a section. 
 * You can drag and drop fields from one section to another. For more information, see the section [Manage fields in the record preview or details page](#manage-fields-in-the-records-details-tab) in this article. 
@@ -283,7 +284,8 @@ To add a section to a record preview or page:
 
       >[!TIP]
       >
-      >The **Show all fields** setting is available only in the record's Details preview box. It is not available when the record's Details page opens in a browser window.
+      >* The **Show all fields** setting is available only in the record's Details preview box. It is not available when the record's Details page opens in a browser window.
+      >* You cannot add sections to a record's page when you exclude hidden fields in the Details preview box. 
 
 1. (Optional) If you want to navigate to a connected record, click the name of that record in the breadcrumb at the top of the details page. 
 
