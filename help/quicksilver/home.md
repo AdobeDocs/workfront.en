@@ -28,7 +28,6 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
 * [Adobe Workfront Planning release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
 
 
-
 >[!TAB 2025 releases]
 
 * [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
