@@ -4,6 +4,7 @@ description: This page provides information about functionality that is included
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
 ---
 # Third Quarter 2026 release overview
 
@@ -116,5 +117,3 @@ For information about the maintenance updates made during the Third Quarter 2026
 ### Training updates
 
 Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
-
-

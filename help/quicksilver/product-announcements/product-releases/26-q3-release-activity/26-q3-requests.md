@@ -4,6 +4,7 @@ description: Third Quarter 2026 Requests enhancements
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 9d5fe72c-7af5-4699-8344-36cfdd3810d0
 ---
 # Third Quarter 2026 Requests enhancements
 
