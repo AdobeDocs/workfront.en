@@ -280,7 +280,6 @@ You can connect records from Workfront Planning in the following areas of a Plan
       >* We use "linked fields" and "lookup fields" interchangeably. 
       >
       >* When you choose to connect multiple records when you connected the record types, the field values from the multiple objects are either displayed separated by commas or are aggregated according to the aggregator you chose when connecting the record types.
-      >* You cannot add Workfront typeahead fields as lookup fields. In the Production environment, this includes people-type fields like Project Owner, or Project Sponsor. <span class="preview">You can add people-type fields as lookup fields in the Preview environment.</span>
       >
       >* Workfront objects' date field information displays in 24 hour format in Workfront Planning, regardless of how it displays in Workfront. 
       >
@@ -385,13 +384,18 @@ After you create a connection between a record type and a Workfront object type,
 
 ### Connect Workfront Planning records to Adobe Experience Manager objects from the table view or the Details area of a record
 
-<!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
+<!--
+when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications
+-->
 
+<!--
+No longer needed to specify: 
 >[!IMPORTANT]
 >
 >You must have an Adobe Experience Manager license, and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console to be able to connect Workfront Planning records to Adobe Experience Manager.
 >
 >If you have questions about onboarding to the Adobe Admin Console, see the [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+-->
 
 After you create a connection between a record type and Adobe Experience Manager objects, you can connect individual records to Experience Manager objects. The asset fields you connected from Experience Manager when you created the connection automatically populate on the record type you linked from.
 
@@ -400,7 +404,7 @@ After you create a connection between a record type and Adobe Experience Manager
 >Planning records and their fields are accessible from Experience Manager Assets when your Workfront administrator configures the metadata mapping through the integration between Workfront and Adobe Experience Manager Assets. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 <!--
-not sure if the above 2 paragraphs also apply to fragments; checking with Court and the Andy
+metadata mapping is not available yet for content fragments - as of April 22, 2026. Syuzanna said the mapping is available just for GenS workspace, but checking again with her and Isk.
 -->
 
 To connect records with Experience Manager objects: 

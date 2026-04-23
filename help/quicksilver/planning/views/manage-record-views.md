@@ -282,10 +282,10 @@ For information about list views, see [Manage the list view](/help/quicksilver/p
 
     >[!TIP]
     >
-    ><span class="preview">You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for views :</span>
+    >You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for views :
     >
-    >* <span class="preview">CTRL+K for Windows</span>  
-    >* <span class="preview">⌘+K for Mac</span>  
+    >* CTRL+K for Windows 
+    >* ⌘+K for Mac
     >
     >![Global search box](assets/global-search-box.png)
 

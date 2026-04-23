@@ -135,8 +135,6 @@ Old:
 </table>
 -->
 
-
-
 ## Considerations about commenting on a record
 
 * You can add comments and replies to records in Workfront Planning, in the Comments section of a record. 
@@ -152,10 +150,6 @@ Old:
    For example, comments added to projects in Workfront do not display on the same project linked to a campaign in Workfront Planning, and comments added to the project Workfront Planning record don't display in Workfront. 
 
 * You can tag users or teams to bring their attention to an update. Both individually Tagged users and users from the tagged teams receive an in-app notification and an email about your update. 
-
-   >[!NOTE]
-   >
-   >   Only users from customers who have onboarded with the Adobe Unified Experience receive both an in-app notification and an email notification. To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
       
 * You can add an update to records and review the history of changes from the following areas of Workfront Planning:
 
@@ -191,7 +185,7 @@ Old:
 1. (Optional) To undo or redo a change, use the following shortcut keys:
       * CTRL + Z (⌘+z for Mac) to undo a change 
       * CTRL + Y (⌘+y for Mac) to redo a change 
-1. (Optional and conditional) If your Workfront instance is part of the Adobe Unified Experience, add **@** followed by the name of a user or of a team to tag them in the update. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article.
+1. Add **@** followed by the name of a user or of a team to tag them in the update. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article.
 
 1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, or links to your update, to enhance your content. 
 

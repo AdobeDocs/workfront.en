@@ -256,8 +256,6 @@ Removed - more direct steps below:
     * **Delete** to delete the item. Deleting a project disconnects it from the record and moves it to the Workfront's Recycle Bin. Workfront administrators can recover deleted projects up to 30 days after they were deleted. Deleting a form does not delete the requests or records created when the form was submitted. 
     * **Disconnect** to disconnect the project from the record. Disconnecting a project removes it and all the values of its lookup fields from the current record. 
 
-        <!--update screen shot at preview release-->
-
         ![Actions bar in Connected records page List view](assets/actions-bar-connected-records-page-list-view.png)
 
     * **Edit form**: Opens a Planning request form and allows you to edit it.

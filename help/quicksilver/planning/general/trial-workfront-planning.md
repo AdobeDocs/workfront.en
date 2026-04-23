@@ -59,8 +59,6 @@ Your company must meet the following requirements to be able to join the Workfro
 
     The Workfront Planning trial is not available for the legacy Workfront packages.
     For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-* Have access to the Adobe Admin Console
-* Is part of the Identity Management System (IMS)
 * Accept the legal trial agreement available in your organization's Workfront instance between January 26 and April 1, 2026 . You must be a Workfront administrator to accept the trial agreement. 
 
 ## Overview of important dates
@@ -211,10 +209,14 @@ You can review sample Planning workspaces and their objects, as well as create y
 1. (Conditional and required) As a Workfront administrator, sign the free trial agreement. 
 
     For information, see the section [Enroll in the Adobe Workfront Planning free trial](#enroll-in-the-adobe-workfront-planning-free-trial) in this article.
-1. Click the **Main Menu** icon ![](assets/main-menu-shell.png), then click **Planning**. The icon displays a **Trial** label next to it. 
+1. (Conditional) After the trial agreement was signed by a Workfront administrator, click the **Main Menu** icon ![](assets/main-menu-shell.png), then click one of the following to access the **Planning** area: 
+
+    * **Planning**. The icon displays a **Trial** label next to it. 
+    * **Projects**, **Requests**, **Calendars**, then click **Explore campaign calendars**
+    * **Portfolios**, **Programs**, or from a portfolio or program    then click **Explore custom hierarchies**. 
     
     The **Planning** area opens in the **Sample workspaces** tab. 
-1. Review the following workspaces available in the **Sample workspaces** tab: 
+1. Review the following workspaces in the **Sample workspaces** tab: 
 
     * **Global Classifications & Taxonomies**: Contains sample Planning object types that are the foundation of a Marketing System of Record. 
     
