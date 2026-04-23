@@ -120,7 +120,7 @@ Old:
 
    Click **New Template Task** to start adding tasks to your template in the **New Template Task** box.
 
-   The **Create Template Task** box opens in the new experience.
+   The **Create Template Task** box opens in the new experience when you click **New Template Task**.
 
    ![New experience for New Template Task](assets/new-template-task-box-unshimmed.png)
 

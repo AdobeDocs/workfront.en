@@ -253,7 +253,7 @@ CAN YOU DO THIS??
 
 1. Click **Share** in the upper-right corner to share the workspace with others.
 
-   For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
+   For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).
 
    >[!NOTE]
    >
@@ -357,17 +357,17 @@ CAN YOU DO THIS??
       >
       >Deleted records can be recovered from the table view Recently deleted bin in Workfront Planning. Records deleted from GenStudio can also be recovered from the Recently deleted bin in Workfront Planning.       
 
-      For information, see [Restore deleted records](/help/quicksilver/planning/records/restore-deleted-records.md)
+      For information, see [Restore deleted records](/help/quicksilver/planning/records/restore-deleted-records.md).
 
 1. Click the + icon in the upper-right corner of the table view to create the following:
 
    * Fields
 
-      For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md)
+      For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
    
    * Connections
 
-      For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
+      For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
 
       Fields created from the GenStudio workspace are visible in the following areas:
 

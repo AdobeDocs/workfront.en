@@ -183,7 +183,7 @@ hide these details - all the information is in "Use enhanced lists" - we need on
 
 ## Add the requests view to a layout template
 
-A Workfront administrator can add a new view to layout templates for the Requests area.
+A Workfront administrator can add or remove a new view or a system view to layout templates for the Requests area.
 
 For instructions, see [Customize Filters, Views, and Groupings using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
