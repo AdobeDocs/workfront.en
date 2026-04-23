@@ -57,11 +57,6 @@ Logging in to Workfront in any of the following ways counts as a login to Workfr
 * The Workfront Mobile Apps (iOS or Android devices)
 * Any supported Workfront integration with another third party application (such as Slack)
 * Any custom integration between Workfront and another third party application. 
-* The Workfront API
-
-  >[!NOTE]
-  >
-  >Logging in to Workfront through the Workfront API is only available to organizations that are not yet onboarded to the Adobe Business Platform.
 
 ## Display usage information in a user list or report
 

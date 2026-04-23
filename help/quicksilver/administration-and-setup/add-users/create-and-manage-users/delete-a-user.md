@@ -15,7 +15,7 @@ exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
 
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Business Platform. If you have been onboarded to the Adobe Business Platform, you must delete users in the Adobe Admin Console.
+>The procedure described on this page applied only to organizations that are not yet onboarded to the Adobe Business Platform. If you have been onboarded to the Adobe Business Platform, you must delete users in the Adobe Admin Console.
 >
 >**Because all organizations have now been onboarded to the Adobe Admin Console, the information on this page will be removed in the near future.**
 >

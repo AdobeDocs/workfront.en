@@ -19,8 +19,6 @@ exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
 >**Because all organizations have now been migrated to the Adobe Admin Console, the information in this article is no longer relevant, and will be removed in the near future.**
 >
 >For instructions on granting full administrator access in the Adobe Admin Console, see [Manage users in the Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
->
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 As an Adobe Workfront administrator, you can create another Workfront administrator by assigning them the System Administrator access level. A user with this access level has full administrative access to everything in Workfront, including items they did not create themselves.
 

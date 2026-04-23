@@ -127,7 +127,7 @@ The API uses the same cookie-based authentication that is used by the web UI to 
 
 >[!NOTE]
 >
->The procedure described in this section applies only to organizations that have not yet been onboarded to the Adobe Business Platform. Logging in to Workfront through the Workfront API is not available if your organization has been onboarded to the Adobe Business Platform.
+>The procedure described in this section applied only to organizations that had not yet been onboarded to the Adobe Business Platform. Because all organizations have now been onboarded to the Adobe Business Platform, **logging in to Workfront through the Workfront API is no longer available** .
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
