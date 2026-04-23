@@ -11,9 +11,11 @@ exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
 ---
 # Platform-based administration differences (Adobe Workfront/Adobe Business Platform)
 
-As an Adobe Workfront administrator, your administration responsibilities and procedures may differ based on whether your organization has been onboarded to the Adobe Business Platform. This article lists the procedures that are handled differently, and links to instructions for both Workfront and the Adobe Admin Console.
+<!--Remove me October 2026-->
 
-If your organization has been onboarded to the Adobe Business Platform, your users use the Adobe Business Platform to access Adobe Workfront. This means that:
+All Workfront Organizations have now been onboarded to the Adobe Business Platform. As an Adobe Workfront administrator, your administration responsibilities and procedures may be different now that your organization has been onboarded to the Adobe Business Platform. This article lists the procedures that are now handled differently.
+
+Because your organization has been onboarded to the Adobe Business Platform, your users use the Adobe Business Platform to access Adobe Workfront. This means that:
 
 * System administrators are created through the Adobe Admin Console
 * Renewing an SAML certificate is handled through the Adobe Admin Console.
@@ -176,7 +178,7 @@ For instructions on renewing the SAML certificate on the Adobe Admin Console, se
 
 ## SSO (Single Sign-On)
 
-Because the Adobe Business Platform controls Single Sign-On (SSO) for users, the following actions and functionality are handled automatically through the Adobe Business Platform. If your organization has not yet been onboarded to the Adobe Business Platform, you must perform these actions in Workfront.
+Because the Adobe Business Platform controls Single Sign-On (SSO) for users, the following actions and functionality are handled automatically through the Adobe Business Platform. Therefore, the following actions are no longer available.
 
 
 * [Configure Adobe Workfront with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md) 
