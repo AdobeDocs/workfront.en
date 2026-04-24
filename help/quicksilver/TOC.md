@@ -1866,7 +1866,7 @@ feature-set: Workfront
   * Work approvals {#work-approvals}
     * [Work approvals](review-and-approve-work/manage-approvals/manage-approvals.md)
     * [Approval process overview](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
-    * [Request document approvals](review-and-approve-work/manage-approvals/request-document-approvals.md)
+    * [Request a legacy document approval](review-and-approve-work/manage-approvals/request-document-approvals.md)
     * [Approving work](review-and-approve-work/manage-approvals/approving-work.md)
     * [View approvals](review-and-approve-work/manage-approvals/view-approvals.md)
     * [Remind approvers about submitted approvals](review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)
