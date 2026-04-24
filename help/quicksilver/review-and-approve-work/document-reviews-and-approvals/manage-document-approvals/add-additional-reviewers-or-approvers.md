@@ -25,7 +25,8 @@ You can add additional approvers or reviewers to a document approval workflow th
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any</p> </td> 
+   <td> <p>Any Workfront package to manage approvals using legacy Workfront storage</p>
+<p>Any Workflow package to manage approvals using Adobe enterprise storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
