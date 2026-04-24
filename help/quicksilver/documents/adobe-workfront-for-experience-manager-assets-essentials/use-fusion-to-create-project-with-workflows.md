@@ -13,7 +13,8 @@ If you are creating a project through Workfront Fusion and want to include Adobe
 
 >[!NOTE]
 >
->Workflows are available only in an Adobe Experience Manager as a Cloud Service integration. They are not available in integrations with Adobe Experience Manager Assets Essentials.
+>Workflows are available only in an Adobe Experience Manager as a Cloud Service integration. They are not available in integrations with Adobe Experience Manager Assets Essentials.<br>
+>This functionality is not available in the new documents area.
 
 
 ## Access requirements
