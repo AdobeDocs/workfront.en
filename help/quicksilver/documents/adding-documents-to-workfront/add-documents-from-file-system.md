@@ -56,10 +56,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 If your organization is on legacy Workfront Storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront Storage, see [Differences between Adobe enterprise storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
 
-You can add documents to projects, tasks, or issues in the following areas in Adobe Workfront:
+You can add documents to the following areas in Adobe Workfront:
 
 * The global Documents area 
-* The Documents area for a Workfront object
+* The Documents area for a Workfront object (project, task, issue, template, portfolio, program)
 * A connected card on a Workfront board
 
 You can also upload new versions of documents and add links to documents from third-party cloud vendors, such as Google Drive, Dropbox, and Microsoft OneDrive. For information about adding new versions of documents, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md). For information about adding documents from third-party cloud vendors, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
