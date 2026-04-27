@@ -126,7 +126,7 @@ To add a document:
 
 ## Add documents to Workfront in the new Documents area 
 
-You can add documents to projects, tasks, or issues using the enterprise storage model. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+You can add documents to objects using the enterprise storage model. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Functionality not currently supported in the new Documents area:
 
@@ -142,14 +142,6 @@ Functionality not currently supported in the new Documents area:
 ### Add documents to Workfront in the new Documents area 
 
 If your organization uses enterprise storage, you will see the new Documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
-
-<!--
->[!IMPORTANT]
->
->* You can upload up to 150 documents at one time.
->* There is no limit on the file size. 
->* Document downloads are limited to 4GB.
--->
 
 To add a document:
 
