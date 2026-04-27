@@ -30,7 +30,8 @@ Adding documents to Workfront differs depending on which version of the document
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p> Any</p> </td> 
+   <td> <p>Any Workfront package to manage documents using legacy Workfront storage</p>
+<p>Any Workflow package to manage documents using Adobe enterprise storage</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses*</td> 

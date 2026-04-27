@@ -15,11 +15,11 @@ exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
 
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Business Platform. If you have been onboarded to the Adobe Business Platform, you must delete users in the Adobe Admin Console.
+>The procedure described on this page applied only to organizations that are not yet onboarded to the Adobe Business Platform. If you have been onboarded to the Adobe Business Platform, you must delete users in the Adobe Admin Console.
 >
 >**Because all organizations have now been onboarded to the Adobe Admin Console, the information on this page will be removed in the near future.**
 >
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 When a user leaves your organization, you can remove that user from Adobe Workfront.
 
@@ -33,7 +33,7 @@ When a user leaves your organization, you can remove that user from Adobe Workfr
 >
 >  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
->  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 -->
 

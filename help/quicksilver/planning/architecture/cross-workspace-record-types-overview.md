@@ -12,9 +12,11 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 # Cross-workspace record type overview
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -228,7 +230,7 @@ To use connectable record types, do the following:
 
     >[!TIP]
     >
-    ><span class="preview">Only System Administrators can designate a record type to be connectable from all workspaces in the system. All other workspace managers can designate specific workspaces from which to connect to the record type. </span>
+    >Only System Administrators can designate a record type to be connectable from all workspaces in the system. All other workspace managers can designate specific workspaces from which to connect to the record type.
     >
     >For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). 
 1. Connect to a record type designated as connectable from another workspace you manage. 

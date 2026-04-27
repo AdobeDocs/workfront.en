@@ -1,15 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Request document approvals
+title: Request a legacy document approval
 description: You can request approval from managers or other users for a document in Adobe Workfront. You can also request document approvals from people without Workfront accounts if your Workfront administrator has enabled this capability, as described in Configure system security preferences.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
 ---
-# Request document approvals
+# Request a legacy document approval
 
 You can request approval from managers or other users for a document in Adobe Workfront. You can also request document approvals from people without Workfront accounts if your Workfront administrator has enabled this capability, as described in [Configure system security preferences](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+>[!NOTE]
+>
+>The information in this article refers to legacy document approvals. <br>
+>For information about new Unified Review and Approval, see [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+
 
 ## Access requirements
 

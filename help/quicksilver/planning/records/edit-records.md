@@ -12,10 +12,11 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 # Edit records
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+-->
 
 {{planning-important-intro}}
 
@@ -137,7 +138,7 @@ Old:
 * The following types of fields are automatically updated, and you cannot edit their values manually: 
     * Linked fields from other records
     * Formula-type fields
-    * System fields (Created by, Created date, Last modified by, Last modified date, Approved date, Approved by , <span class="preview">Record ID</span>) 
+    * System fields (Created by, Created date, Last modified by, Last modified date, Approved date, Approved by , Record ID) 
 * If the records you display are linked to other records, the new information of the records that you are editing reflects on the linked records in all workspaces where that record is linked. 
 * You cannot edit records in bulk. <!--this will probably change-->
 * URLs are recognized as links in single-line text field types only when they start with the following: http://, https://, ftp://, or www. . 
@@ -339,7 +340,7 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 
     When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. 
     
-    ![REal-time indicator expanded record preview box](assets/real-time-indicator-expanded-record-preview-box.png)
+    ![Real-time indicator expanded record preview box](assets/real-time-indicator-expanded-record-preview-box.png)
 
 1. (Optional) Click the **Export** menu ![Export icon in record details page](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).
 

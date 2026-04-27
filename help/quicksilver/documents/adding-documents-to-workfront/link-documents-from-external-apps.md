@@ -68,7 +68,7 @@ You can proof and approve documents linked to an external cloud provider the sam
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td>
-   <td> <p> Any</p> </td>
+   <td> <p>Any</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td>

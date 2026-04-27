@@ -13,13 +13,15 @@ exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
 
 <!-- Audited: 12/2023 -->
 
+<!--Follow up October 2026-->
+
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+>The procedure described on this page applied only to organizations that have not yet been onboarded to the Admin Console. Because all organizations have now been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->To configure your allowlist if your organization has been onboarded to the Adobe Admin Console, see [Domains to be allowed for Adobe Apps and Services](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
+>To configure your allowlist after your organization has been onboarded to the Adobe Admin Console, see [Domains to be allowed for Adobe Apps and Services](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >

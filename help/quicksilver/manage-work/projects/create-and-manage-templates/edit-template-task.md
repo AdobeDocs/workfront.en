@@ -148,13 +148,13 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
 1. Consider specifying information in any of the following sections:
 
-* [Template task name](#template-task-name)
-* [Overview](#overview)
-* [Assignments](#assignments)
-* [Finance](#finance)
-* [Custom Forms](#custom-forms)
-* [Settings](#settings)
-* [Comment](#comment)
+   * [Template task name](#template-task-name)
+   * [Overview](#overview)
+   * [Assignments](#assignments)
+   * [Finance](#finance)
+   * [Custom Forms](#custom-forms)
+   * [Settings](#settings)
+   * [Comment](#comment)
 
 1. Continue editing the template tasks as described in the sections below. 
 

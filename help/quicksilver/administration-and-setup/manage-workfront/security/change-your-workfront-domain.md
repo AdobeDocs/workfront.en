@@ -11,11 +11,15 @@ exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
 ---
 # Change your Adobe Workfront domain
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, it is not possible to change your Workfront domain.
+>The procedure described on this page applied only to organizations that have not yet been onboarded to the Admin Console. Because all organizations have now been onboarded to the Adobe Admin Console, **it is not possible to change your Workfront domain**.
 >
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>
+>This article will be removed in the near future.
 
 As an Adobe Workfront administrator and an authorized Workfront Support contact, you can request help from the Workfront Support team to change your organization's Workfront domain.
 

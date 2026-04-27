@@ -65,6 +65,7 @@ You must have the following access to use Workfront Planning:
    <ul><li><p>Any Workfront package and a Planning Plus package</p></li>
    <li><p>Any Workflow package and a Planning Prime and Ultimate package</p></li></ul> </td></tr>
    
+   <!--
    <tr>
    <td role="rowheader"><p>Adobe Workfront platform</p></td>
    <td>
@@ -74,7 +75,8 @@ You must have the following access to use Workfront Planning:
    <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
    </td>
   </tr>
-  </tr>
+  -->
+  
   <tr>
    <td role="rowheader"><p>Adobe Workfront license</p></td>
    <td>

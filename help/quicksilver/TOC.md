@@ -13,6 +13,9 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 2026 Q3 Release {#release-26-q3}
+      * [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
+      * [Third Quarter 2026 Requesting enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md)
     * 2026 Q2 Release {#release-26-q2}
       * [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
       * [Second Quarter 2026 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
@@ -1863,7 +1866,7 @@ feature-set: Workfront
   * Work approvals {#work-approvals}
     * [Work approvals](review-and-approve-work/manage-approvals/manage-approvals.md)
     * [Approval process overview](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
-    * [Request document approvals](review-and-approve-work/manage-approvals/request-document-approvals.md)
+    * [Request a legacy document approval](review-and-approve-work/manage-approvals/request-document-approvals.md)
     * [Approving work](review-and-approve-work/manage-approvals/approving-work.md)
     * [View approvals](review-and-approve-work/manage-approvals/view-approvals.md)
     * [Remind approvers about submitted approvals](review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)

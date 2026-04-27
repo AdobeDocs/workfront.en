@@ -62,9 +62,11 @@ Your organization must meet the following requirements for the integration betwe
     
 <!--No longer the case: * Your organization must have only one Workfront instance. GenStudio will not be available in Workfront Planning when your company has multiple Workfront instances. -->
 
+<!--No longer needed to specify:
 * Your Workfront instance is part of the Adobe Unified Experience, including using the Identity Management System (IMS). 
 
     For information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+-->
 
 * Users using both Workfront Planning and GenStudio for Performance Marketing must belong to only one Workfront instance within the IMS organization.
 
