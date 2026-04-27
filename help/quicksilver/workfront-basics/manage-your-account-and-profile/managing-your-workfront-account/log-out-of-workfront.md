@@ -13,6 +13,7 @@ For security reasons, it is important to log out of [!DNL Adobe Workfront] regul
 
 <!--Remove this October 2026-->
 
+<!--
 >[!NOTE]
 >
 >Normally a [!DNL Workfront] administrator can change this amount of time to anywhere between 15 minutes and 7 days of inactivity, as explained in [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), but this functionality is currently unavailable. We are working on authentication enhancements that will allow automatic log out after a specified period of inactivity.
@@ -22,6 +23,7 @@ For security reasons, it is important to log out of [!DNL Adobe Workfront] regul
 >All Workfront organizations have now been onboarded to the Adobe Admin Console.
 >
 > Because your organization has been onboarded to [!DNL Adobe Experience Cloud], you will log out by clicking your profile picture in the top navigation and selecting [!UICONTROL **Sign out**] from the menu. For more information, see [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+-->
 
 ## Access requirements
 
@@ -51,7 +53,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Log out of your [!DNL Workfront] account
 
-{{step1-click-main-menu}}
+1. Click your profile picture in the top navigation area of [!DNL Adobe Workfront].
+1. Click **[!UICONTROL Sign Out]**.
+1. This returns you to the login page where you can re-enter your email address and password.
 
-1. Click **[!UICONTROL Logout]** ![Logout icon](assets/logout-icon.png).
-1. This returns you to the login page where you can re-enter your username and password.
+   >[!NOTE]
+   >
+   >You are logged out of all CX Enterprise applications.

@@ -9,11 +9,27 @@ exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
 ---
 # Reset your password
 
+>[!NOTE]
+>
+>Changing your password changes it for all of your [!DNL Adobe CX Enterprise] applications.
+
+Your password is not managed in [!DNL Workfront].
+
+If your organization uses a separate application to manage passwords, you will change your password through that provider.
+
+If your password is managed by [!DNL Adobe], you can change the password in your Adobe account.
+
+[See this article for changing your Adobe password.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
+
+For more information on changing your password, contact your administrator.
+
+<!--
 >[!IMPORTANT]
 >
 >The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
 >All Workfront organizations have now been onboarded to the Adobe Admin Console.
+-->
 
 <!--DELETE ME MARCH 2026-->
 

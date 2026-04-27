@@ -13,11 +13,21 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 <!--Audited: 2024-->
 
+One login is used for Workfront and all of your Adobe CX Enterprise applications.
+
+For information, see [CX Enterprise interface and administration](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).
+
+>[!NOTE]
+>
+>If a browser tab session expires in a page where you have Workfront open, and you have an active Workfront session in another browser tab, you can reload the expired tab to reopen the Workfront page.
+
+<!--
 >[!IMPORTANT]
 >
 >The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
 >All Workfront organizations have now been onboarded to the Adobe Admin Console.
+-->
 
 <!--DELETE ME MARCH 2026-->
 
