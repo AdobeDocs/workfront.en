@@ -20,7 +20,7 @@ Workfront currently has two versions of the Documents area: the legacy documents
 
 There are two types of Documents areas. Features and functionality are the same for both:
 
-* **Documents area in a program, portfolio, project, task, or issue:** Lists all documents that you have access to for a particular project, task, or issue. To access this area, click **Documents** ![Documents icon](assets/document-icon-12x14.png) in the left panel while viewing a project, task, or issue.
+* **Documents area in a program, portfolio, template, project, task, or issue:** Lists all documents that you have access to for a particular project, task, or issue. To access this area, click **Documents** ![Documents icon](assets/document-icon-12x14.png) in the left panel while viewing a project, task, or issue.
 
 * **Global Documents area:** Lists all documents that you have access to&nbsp;in Workfront. To access this area, click **Documents** ![Documents icon](assets/document-icon.png) in the Main Menu ![Main Menu icon](assets/main-menu-icon.png).
 
@@ -54,7 +54,7 @@ Once a proof decision is made, it appears in the Document list.
 
 ### Folders
 
-On a project, task, or issue where documents are uploaded, you can set up folders to organize the documents. For more information, see [Create document folders](../../documents/organizing-documents/create-documents-folder.md).
+You can set up folders to organize documents. For more information, see [Create document folders](../../documents/organizing-documents/create-documents-folder.md).
 
 In the global Documents area, you can set up two types of folders to organize the documents you have access to:
 
