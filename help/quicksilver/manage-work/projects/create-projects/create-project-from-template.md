@@ -118,7 +118,7 @@ You can create a project from the Projects area in the Main Menu, or from the Pr
 
 1. Do one of the following:
 
-   * Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, or the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, if available, then click **Projects** and expand **New Project**. 
+   * Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Projects** and expand **New Project**. 
    * Go to a portfolio, then expand **New Project**.
 
      >[!TIP]
@@ -147,11 +147,20 @@ You can create a project from the Projects area in the Main Menu, or from the Pr
 
    ![Select a favorite template](assets/new-project-from-template-dropdown-with-template-favorites.png)
 
-   Or
-
-   Do the following:
+   Or do the following:
 
    1. Click **New Project from Template**.
+
+      >[!NOTE]
+      >
+      >* Using an Adobe enterprise-storage template creates an Adobe enterprise-storage project. 
+      >
+      >* Using a Workfront-storage template creates a Workfront-storage project. 
+      >
+      >* When you use an Adobe enterprise-storage template from a Workfront-storage portfolio or program, the project is an Adobe enterprise-storage project and the portfolio or program are also converted to Adobe enterprise-storage objects. All other Workfront-storage projects under the same portfolio or program remain unchanged. 
+      >
+      >For more information, see [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md). 
+
    1. In the **Search Templates** field, start typing the name of a template and click it when it displays in the list.
    1. Review the template details on the right.
    

@@ -85,7 +85,7 @@ Old:
 
 ## Convert an issue to a task
 
-1. Go to a project and click [!UICONTROL **Issues** ] in the left panel.  
+1. Go to a project and click [!UICONTROL **Issues**] in the left panel.  
 1. Click the issue you want to convert to go to the issue's landing page. 
 1. Click the [!UICONTROL **More**] menu on the issue, then [!UICONTROL **Convert to Task**].
 
