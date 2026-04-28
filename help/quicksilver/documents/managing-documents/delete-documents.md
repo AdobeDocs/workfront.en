@@ -65,9 +65,9 @@ To delete a document:
     ![delete documents](assets/delete-documents-legacy.png)
 
 
-## Delete a document in the new documents area
+## Delete a document in the new Documents area
 
-If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses enterprise storage, you will see the new Documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 To delete a document:
 

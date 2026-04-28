@@ -13,7 +13,7 @@ You can unlink or delete items linked to Workfront from Adobe Experience Manager
 
 >[!NOTE]
 >
->This functionality is not available in the new documents area.
+>This functionality is not available in the new Documents area.
 
 ## Delete a linked document or folder in Workfront
 

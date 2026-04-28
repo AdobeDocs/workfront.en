@@ -78,9 +78,9 @@ In the Updates area, when you reply to a comment someone made while proofing a d
 
    If you need information about typing comments and replies in the proofing viewer, see [Comment on a proof](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).
 
-## Add an update to a document in the new documents area
+## Add an update to a document in the new Documents area
 
-If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses enterprise storage, you will see the new Documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 1. Go to the object that contains the document, then select **Documents** in the left panel.
 1. Find the document you need, then click the comment icon ![Comment icon](assets/new-doc-comment-icon.png) to open the Comments panel.

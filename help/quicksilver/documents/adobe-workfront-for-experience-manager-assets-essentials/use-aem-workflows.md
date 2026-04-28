@@ -16,7 +16,7 @@ When a Project is created using a Project Template to which a workflow is assign
 >[!NOTE]
 >
 >Workflows are available only in an Adobe Experience Manager as a Cloud Service integration. They are not available in integrations with Adobe Experience Manager Assets Essentials.<br>
->This functionality is not available in the new documents area.
+>This functionality is not available in the new Documents area.
 
 
 ## Access requirements
