@@ -201,6 +201,19 @@ For more information about using Workfront Planning, see [Get started with Adobe
 
 For best practices on how to implement Workfront Planning, see [Adobe Workfront Planning best practices: article index](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
+## Submit feedback about Planning 
+
+To submit feedback about your experience with Workfront Planning:
+
+1. Log in to Workfront and open any page. 
+1. Find the short survey in the lower-right corner of any Workfront page  and answer the questions, then click **Next**. 
+
+    ![Promo trial survey](assets/promo-trial-survey.png)
+
+1. On the second slide, answer the questions, then click **Submit**. 
+
+    Your feedback is submitted to our Product management team. 
+
 
 ## Experience Workfront Planning through the free trial
 
