@@ -11,12 +11,12 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Add documents to Adobe Workfront from your file system
 
-Workfront currently has two versions of the Documents area: the legacy documents area and the new documents area. The version that your organization uses depends on whether your organization is on legacy Workfront storage or enterprise storage. For more information about these storage types, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront currently has two versions of the Documents area: the legacy documents area and the new Documents area. The version that your organization uses depends on whether your organization is on legacy Workfront storage or enterprise storage. For more information about these storage types, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Adding documents to Workfront differs depending on which version of the documents area your organization uses. 
 
 * [Add documents to from your file system in the legacy documents area](#add-documents-from-your-file-system-in-the-legacy-documents-area)
-* [Add documents to Workfront in the new documents area](#add-documents-to-workfront-in-the-new-documents-area)
+* [Add documents to Workfront in the new Documents area](#add-documents-to-workfront-in-the-new-documents-area)
 
 
 
@@ -56,10 +56,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 If your organization is on legacy Workfront Storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront Storage, see [Differences between Adobe enterprise storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
 
-You can add documents to projects, tasks, or issues in the following areas in Adobe Workfront:
+You can add documents to the following areas in Adobe Workfront:
 
 * The global Documents area 
-* The Documents area for a Workfront object
+* The Documents area for a Workfront object (project, task, issue, template, portfolio, program)
 * A connected card on a Workfront board
 
 You can also upload new versions of documents and add links to documents from third-party cloud vendors, such as Google Drive, Dropbox, and Microsoft OneDrive. For information about adding new versions of documents, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md). For information about adding documents from third-party cloud vendors, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
@@ -124,11 +124,11 @@ To add a document:
    </table>
 
 
-## Add documents to Workfront in the new documents area 
+## Add documents to Workfront in the new Documents area 
 
-You can add documents to projects, tasks, or issues using the enterprise storage model. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+You can add documents to objects using the enterprise storage model. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-Functionality not currently supported in the new documents area:
+Functionality not currently supported in the new Documents area:
 
 * Uploading documents to the global Documents area
 * Adding links to documents from third-party cloud vendors, such as Google Drive, Dropbox, and Microsoft OneDrive.
@@ -139,17 +139,9 @@ Functionality not currently supported in the new documents area:
 * Adding Smart folders
 
 
-### Add documents to Workfront in the new documents area 
+### Add documents to Workfront in the new Documents area 
 
-If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
-
-<!--
->[!IMPORTANT]
->
->* You can upload up to 150 documents at one time.
->* There is no limit on the file size. 
->* Document downloads are limited to 4GB.
--->
+If your organization uses enterprise storage, you will see the new Documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 To add a document:
 

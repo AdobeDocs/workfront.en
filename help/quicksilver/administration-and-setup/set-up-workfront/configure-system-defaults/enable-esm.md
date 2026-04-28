@@ -28,8 +28,8 @@ For more information about Adobe enterprise storage, see [Adobe enterprise stora
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront package</td> 
-   <td><p>Any</p></td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any Workflow package</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -69,3 +69,7 @@ To enable Adobe enterprise storage for your organization:
     - **Specific groups**: This option applies the default storage provider only to specific groups within your organization. Any time a user in the specified groups creates a new project, the default storage provider will be used
 
 1. Click **Save**.
+
+    >[!NOTE]
+    >
+    >Existing projects keep the storage model they were created with. For example, projects that use Adobe enterprise storage continue to use Adobe enterprise storage after you change the default storage preference.

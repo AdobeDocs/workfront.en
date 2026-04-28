@@ -62,9 +62,9 @@ You can perform the following actions from the document details page if you are 
    ![Document details](assets/doc-details-legacy.png)
 
 
-## New document area
+## New Documents area
 
-If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses enterprise storage, you will see the new Documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 You can perform the following actions for documents from the Document Details page:
 
@@ -90,7 +90,7 @@ You can perform the following actions for documents from the Document Details pa
 ![Document details more menu icon](assets/more-menu-new-doc.png)
 
 
-### Open the Document Details panel in the new documents area
+### Open the Document Details panel in the new Documents area
 
 1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 1. Select the document, then click **View Details**.
