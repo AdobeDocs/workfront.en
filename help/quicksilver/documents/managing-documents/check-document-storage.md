@@ -64,7 +64,7 @@ The storage quota is refreshed daily to show the most up-to-date count.
 
 ## Adobe enterprise storage
 
-If your organization uses Adobe enterprise storage, Customer Info shows a storage overview that breaks usage into different sections for legacy Workfront storage, Adobe enterprise storage, and Frame.io. Workfront also applies a soft cap to uploads when usage exceeds your quota, so users can still upload documents. <!-- PLACEHOLDER: Confirm whether any in-product messaging appears when usage exceeds quota and describe it here. -->
+If your organization uses Adobe enterprise storage, Customer Info shows a storage overview that breaks usage into different sections for legacy Workfront storage, Adobe enterprise storage, and Frame.io. Workfront also applies a soft cap to uploads when usage exceeds your quota, so users can still upload documents.
 
 ### View storage usage on Customer Info
 
