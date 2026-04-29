@@ -5,8 +5,8 @@ title: Document Management Overview for Projects and Related Objects
 description: Depending on whether your Workfront administrator chooses for your storage preference default, you can store documents on either legacy Workfront storage or Adobe enterprise storage. This article describes how you can manage documents for projects, portfolios, programs, templates, tasks, and issues.
 author: Alina
 feature: Work Management
+exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
 ---
-
 # Document management overview for projects and related objects
 
 Your Adobe Workfront administrator can define the default for your organization's storage preference to indicate where documents should be stored in Workfront. 
@@ -175,6 +175,4 @@ Consider the following when working with template tasks:
 * You can rename and delete the document folder from the Adobe enterprise-storage template task which also deletes the documents in the folder. After you add new documents to the template task, the folder is automatically recreated. Deleted documents are not placed back in the folder.
 * For Adobe enterprise-storage templates, the document folder on a template task displays as a subfolder on the documents folder automatically created for the template. 
 * You cannot copy or move a template task from a Workfront-storage template to an Adobe-storage one. The reverse is also not possible.
-* When you attach a document to an issue you submit to a request queue associated with Adobe storage, a folder is created for each submitted issue where the documents are stored. The folder is also added as a subfolder to the automatically created project folder on the request queue. 
-
-
+* When you attach a document to an issue you submit to a request queue associated with Adobe storage, a folder is created for each submitted issue where the documents are stored. The folder is also added as a subfolder to the automatically created project folder on the request queue.
