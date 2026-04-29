@@ -22,7 +22,7 @@ For security reasons, it is important to log out of [!DNL Adobe Workfront] regul
 >
 >All Workfront organizations have now been onboarded to the Adobe Admin Console.
 >
-> Because your organization has been onboarded to [!DNL Adobe Experience Cloud], you will log out by clicking your profile picture in the top navigation and selecting [!UICONTROL **Sign out**] from the menu. For more information, see [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+> Because your organization has been onboarded to [!DNL Adobe Experience Cloud], you will log out by clicking your profile picture in the top navigation and selecting [!UICONTROL **Sign out**] from the menu.
 -->
 
 ## Access requirements
