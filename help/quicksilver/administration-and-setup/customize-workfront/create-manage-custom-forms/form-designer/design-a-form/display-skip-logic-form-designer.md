@@ -69,7 +69,7 @@ Click **Show logic** in the form designer header to show or hide the icons for t
    | ![Editability logic for target field](assets/editability-logic-icon.png) | The field is the target field where editability logic is applied. The field can be editable or read-only when the defined conditions are met. The target field and the reference field can be the same for editability logic. |
    | ![Editability logic for reference field](assets/editability-logic-reference-field.png) | The field is the reference field for editability logic. When the defined conditions are met on this field, the logic is applied on the target field. The target field and the reference field can be the same for editability logic. |
 
-   [Logic icons](assets/custom-form-logic-icon-samples.png)
+   ![Logic icons](assets/custom-form-logic-icon-samples.png)
 
 For display and skip logic only, select a field to show the existing logic rules in the field settings.
 

@@ -13,11 +13,35 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 <!--Audited: 2024-->
 
+One login is used for Workfront and all of your Adobe CX Enterprise applications.
+
+For information, see [CX Enterprise interface and administration](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).
+
+## Access [!DNL Workfront]
+
+Once you are logged in to CX Enterprise, you can view all of the [!DNL Workfront] organizations and environments that you have access to by clicking the organization switcher in the top navigation area. Select the [!DNL Workfront] organization or environment that you want to work in. Environments could include [!UICONTROL Preview] and [!UICONTROL Sandbox] if your organization uses them.
+
+![View [!DNL Workfront] organizations and environments](assets/wf-org-instance-switcher-2026.png)
+
+>[!NOTE]
+>
+>The first time you log in to CX Enterprise, the organization defaults to the first one in the alphabetical list. The next time you log in, the organization defaults to the last one you visited.
+
+[!DNL Workfront] appears in the list of CX Enterprise products you have access to. You can choose [!DNL Workfront] in the quick access menu on the CX Enterprise home page, or use the product switcher ![Product switcher](assets/main-menu-icon.png) to change applications at any time.
+
+![Select [!DNL Workfront] to access the application](assets/cx-enterprise-home-2026.png)
+
+>[!NOTE]
+>
+>If a browser tab session expires in a page where you have Workfront open, and you have an active Workfront session in another browser tab, you can reload the expired tab to reopen the Workfront page.
+
+<!--
 >[!IMPORTANT]
 >
 >The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
 >All Workfront organizations have now been onboarded to the Adobe Admin Console.
+-->
 
 <!--DELETE ME MARCH 2026-->
 
