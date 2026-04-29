@@ -24,14 +24,6 @@ Your Workfront administrator can customize the Home icon to open a different pag
 
 ## [!UICONTROL Main Menu]
 
-<!--
->[!IMPORTANT]
->
->The Main Menu described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
->
-> If your organization has been onboarded to [!DNL Adobe Experience Cloud], see [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
--->
-
 The **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon-left-nav.png) opens the [!UICONTROL Main Menu], from where you can navigate to a different area of Workfront.
 
 The options that are available in the [!UICONTROL Main Menu] are dependent on:
