@@ -128,7 +128,7 @@ The following table shows how Workfront permissions map to Frame.io permissions:
 
 ### Document management in Workfront
 
-Documents uploaded to Workfront are stored in Adobe enterprise storage and are accessible in both Workfront and Frame.io. When you upload a document to a task or issue in Workfront, a system-generated folder is created in Adobe enterprise storage that inherits permissions from the task or issue. All documents uploaded to that task or issue are stored in that folder and inherit permissions from it. For more information about documents in Workfront, see [The new documents area overview](/help/quicksilver/documents/managing-documents/documents-area.md) and [Object permissions and access level overview for the Adobe enterprise storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+Documents uploaded to Workfront are stored in Adobe enterprise storage and are accessible in both Workfront and Frame.io. When you upload a document to a task or issue in Workfront, a system-generated folder is created in Adobe enterprise storage that inherits permissions from the task or issue. All documents uploaded to that task or issue are stored in that folder and inherit permissions from it. For more information about documents in Workfront, see [The new Documents area overview](/help/quicksilver/documents/managing-documents/documents-area.md) and [Object permissions and access level overview for the Adobe enterprise storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ### Document experience limitations
 

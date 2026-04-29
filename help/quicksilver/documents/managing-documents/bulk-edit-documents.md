@@ -92,10 +92,10 @@ To edit documents in bulk:
     </table>
 1. Click **Save**.
 
-## Edit documents in bulk in the new documents area
+## Edit documents in bulk in the new Documents area
 
 
-If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses enterprise storage, you will see the new Documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 To edit documents in bulk:
 

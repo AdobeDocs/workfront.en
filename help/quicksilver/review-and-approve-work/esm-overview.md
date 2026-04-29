@@ -49,9 +49,9 @@ Once you enable Adobe enterprise storage in your environment, you can create bot
 
 ### Documents
 
-#### New documents area
+#### New Documents area
 
-The new documents area is a unified documents area redesigned for Adobe enterprise storage.
+The new Documents area is a unified documents area redesigned for Adobe enterprise storage.
 
 This updated interface simplifies navigation, improves clarity, and makes it easier for teams to manage reviews and approvals in one unified environment. For more information, see the [Documents area overview](/help/quicksilver/documents/managing-documents/documents-area.md).
 

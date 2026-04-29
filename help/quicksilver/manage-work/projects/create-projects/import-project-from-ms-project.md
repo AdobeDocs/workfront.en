@@ -100,7 +100,7 @@ You can create a project from the **Projects** area in the **Main Menu**, or fro
 1. Log in to Workfront. 
 1. Do one of the following:
 
-   * Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, or the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, if available, then click **Projects** and expand **New Project**. 
+   * Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Projects** and expand **New Project**. 
    * Go to a portfolio, then expand **New Project**. 
    * Go to a program, then expand **New Project**. 
    * If you are a group administrator, you can create a project in the **Projects** section of a group you manage. For more information, see [Create and modify a group's projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).

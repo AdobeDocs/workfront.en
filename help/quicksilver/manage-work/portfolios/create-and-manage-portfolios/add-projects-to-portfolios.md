@@ -29,15 +29,18 @@ Consider the following when adding projects to portfolios:
 
 >[!CAUTION]
 >
->   Inherited permissions may not be applied correctly when used across a large number of child objects. 
+>Inherited permissions may not be applied correctly when used across a large number of child objects. 
 >   
->   To help avoid inherited permissions issues, we recommend the following:
+>To help avoid inherited permissions issues, we recommend the following:
 >
->   * Limit the number of child objects (projects) under a single parent (portfolio or program). We recommend no more than 10,000 projects per portfolio or program.
->   * Reduce inheritance depth by applying permissions at a lower-level object.  
+>* Limit the number of child objects (projects) under a single parent (portfolio or program). We recommend no more than 10,000 projects per portfolio or program.
 >
->     For example, apply permissions directly at the project level rather than rely on the permissions inherited from the portfolio to the program, and then to the project.
->   * Split programs to contain fewer projects, which reduces permission complexity.
+>* Reduce inheritance depth by applying permissions at a lower-level object.  
+>
+>  For example, apply permissions directly at the project level rather than rely on the permissions inherited from the portfolio to the program, and then to the project.
+>
+>* Split programs to contain fewer projects, which reduces permission complexity.
+>
 
 
 ## Access requirements

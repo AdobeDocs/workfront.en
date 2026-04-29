@@ -82,9 +82,9 @@ To remove approvers or reviewers from an approval workflow:
 </div>
 
 
-## Remove approvers or reviewers to an approval workflow in the new document area
+## Remove approvers or reviewers to an approval workflow in the new Documents area
 
-If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses enterprise storage, you will see the new Documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 To create a an approval workflow:
 

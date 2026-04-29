@@ -55,8 +55,8 @@ You can proof and approve documents linked to an external cloud provider the sam
 
 >[!NOTE]
 >
->This functionality is not available in the new documents area.<br>
->If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>This functionality is not available in the new Documents area.<br>
+>If your organization uses enterprise storage, you will see the new Documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Access requirements
 

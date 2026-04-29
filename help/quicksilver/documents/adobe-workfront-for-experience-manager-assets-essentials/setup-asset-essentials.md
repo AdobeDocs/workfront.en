@@ -18,7 +18,7 @@ Connect your work with your content in Experience Manager Assets Essentials​:
 >[!NOTE]
 >
 >You can also connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs. Follow the configuration instructions in this article for each integration you'd like to set up.<br>
->This functionality is not available in the new documents area.
+>This functionality is not available in the new Documents area.
 
 ## Access requirements
 

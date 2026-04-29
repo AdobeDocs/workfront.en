@@ -76,9 +76,9 @@ You can download multiple documents simultaneously.
 
    Folders are downloaded as .zip files and are limited to 4GB.
 
-## Download documents in the new documents area
+## Download documents in the new Documents area
 
-If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses enterprise storage, you will see the new Documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 1. Find the documents you need, then click **Download**.
