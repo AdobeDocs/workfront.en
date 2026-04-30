@@ -117,6 +117,32 @@ Apply these fixes when formatting:
 | HTML in product area pages | Keep as markdown (HTML is for overview tables only) |
 | Missing `exl-id` | Leave it out — do not generate one |
 
+### Step 6: Update the TOC
+
+Whenever you create a **new** release-note page (overview or product area), add it to `help/quicksilver/TOC.md` in the same change. A page that is not in the TOC will not appear in the published navigation, even if links in the overview table point to it.
+
+Where to add it:
+
+- The TOC has a section per quarter under a heading like `* 2026 Q3 Release {#release-26-q3}`. If the quarter heading does not exist yet (first page of a new quarter), add it above the previous quarter so the newest quarter is on top.
+- Under that quarter heading, list the pages in this order:
+    1. **Overview** first (`Third Quarter 2026 release overview`).
+    2. **Product-area pages** alphabetically by area name (Administrator, Documents, Enterprise Operations, Projects, Reporting, Requesting).
+    3. **Other enhancements** last (always after the alphabetical product areas).
+
+Each TOC entry is a markdown link using the page title and the absolute repo path:
+
+```markdown
+      * [Third Quarter 2026 Documents enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
+```
+
+Match indentation (six spaces) to the surrounding entries. Use the page H1 verbatim as the link text — for example `Documents enhancements`, `Requesting enhancements` (not `Requests`) — so TOC labels match prior quarters.
+
+Common mistakes to avoid:
+
+- Creating a product-area page without adding it to the TOC.
+- Linking to a different quarter's overview from the new product-area page (Step 3).
+- Inserting a new quarter's pages under the previous quarter's heading.
+
 ## File Naming Conventions
 
 | Type | Pattern | Example |
@@ -151,6 +177,7 @@ When reviewing a release note file, verify:
 - [ ] No broken internal links
 - [ ] Anchor links in overview match H3 section IDs
 - [ ] Features are ordered newest-first (both product area pages and overview tables)
+- [ ] New release-note pages are listed in `help/quicksilver/TOC.md` under the correct quarter, with the overview first and product areas in alphabetical order (Other last)
 
 ## Additional Resources
 
