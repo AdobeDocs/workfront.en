@@ -11,26 +11,33 @@ exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
 
 Your Adobe Workfront administrator can define the default for your organization's storage preference to indicate where documents should be stored in Workfront. 
 
->[!IMPORTANT]
->
->Not all customers have access to legacy Workfront storage. Some customers have access only to Adobe Enterprise storage by default. No configuration is needed for customers without access to Workfront storage.
-
 The Workfront administrator can choose one of the following options: 
 
 * Workfront storage
 * Adobe Enterprise storage
 
-This preference allows you to automatically store documents attached to Workfront objects on one of the storages available. 
+This preference allows you to automatically store documents attached to Workfront objects on one of the storage locations available. 
 
-The Workfront administrator can either choose one of these options, or allow you to choose which storage you prefer to use when you create one of the following objects: 
+>[!IMPORTANT]
+>
+>Not all customers have access to both Workfront as well as Adobe storage. Some customers have access only to Workfront which others have access only to Adobe Enterprise storage by default. No configuration is needed for customers without access to Workfront storage.
 
-* Projects
-* Portfolios
-* Templates
+The Workfront administrator can do one of the following:
+
+* Choose one of the two storage options as the default for your organization
+* Allow you to choose which storage you prefer to use when you create one of the following objects: 
+
+    * Projects
+    * Portfolios
+    * Templates
 
 For information about setting storage preferences for Workfront, see [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
-This article describes how you can manage documents for projects, portfolios, programs, templates, tasks, and issues.
+This article describes how you can manage documents for projects, portfolios, programs, tasks, issues, templates, and template tasks.
+
+<!--
+
+Not sure we need these since this became an overview article: 
 
 ## Access requirements
 
@@ -82,6 +89,8 @@ This article describes how you can manage documents for projects, portfolios, pr
 *For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+-->
 
 ## Document storage overview
 
