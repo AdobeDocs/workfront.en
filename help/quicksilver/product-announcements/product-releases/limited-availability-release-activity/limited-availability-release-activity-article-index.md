@@ -6,7 +6,7 @@ author: Lisa
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-hide: yes
+hide: true
 hidefromtoc: yes
 exl-id: 1f24affa-1d3a-4bbf-a044-f8e5ca98b0e2
 ---

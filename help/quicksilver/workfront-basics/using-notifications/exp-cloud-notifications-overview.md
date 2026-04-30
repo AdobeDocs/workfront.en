@@ -4,7 +4,7 @@ title: Experience Cloud Notifications overview
 description: Adobe Workfront has unified all digital experiences (DX) products under a single, consistent notification system called Experience Cloud Notifications.
 author: Courtney
 feature: Get Started with Workfront
-hide: yes
+hide: true
 hidefromtoc: yes
 exl-id: 5efa1912-e827-42ef-8001-4de63a63a6c4
 ---
