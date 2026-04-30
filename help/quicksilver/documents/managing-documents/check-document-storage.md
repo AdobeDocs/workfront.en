@@ -11,6 +11,8 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Check document storage limits
 
+{{highlighted-preview}}
+
 While there are no restrictions on the types and sizes of individual files that users can upload to your Workfront instance, your Workfront plan includes a total storage quota. As a Workfront administrator, you monitor usage and quota from the Setup area on the Customer Info page.
 
 How storage appears depends on whether your organization uses legacy Workfront storage or Adobe enterprise storage:
@@ -62,6 +64,8 @@ The storage quota is refreshed daily to show the most up-to-date count.
 >
 >This limit does not apply to documents you link to Workfront from any other third-party service provider (SharePoint, Google Drive, Webdam, Box, Dropbox, or any other document asset management provider).
 
+<div class="preview">
+
 ## Adobe enterprise storage
 
 If your organization uses Adobe enterprise storage, Customer Info shows a storage overview that breaks usage into different sections for legacy Workfront storage, Adobe enterprise storage, and Frame.io. Workfront also applies a soft cap to uploads when usage exceeds your quota, so users can still upload documents.
@@ -74,7 +78,8 @@ To check Adobe enterprise document storage:
 
 1. In the left panel, click **System** > **Customer Info**.
 1. Go to the **Storage Overview** section.
-1. View the usage for Adobe enterprise storage. Both Workfront and Frame.io usage are broken down separately, but roll up to the total usage for Adobe enterprise storage.
+1. View the usage for Adobe enterprise storage. 
+<!--Both Workfront and Frame.io usage are broken down separately, but roll up to the total usage for Adobe enterprise storage.-->
 
 ![Adobe enterprise storage usage on Customer Info](assets/storage-usage.png)
 
@@ -83,3 +88,5 @@ Usage figures refresh regularly so you see an up-to-date count.
 ### Email notifications for administrators
 
 When usage crosses 75%, 85%, or 100% of your storage quota, Workfront sends an email notification to System Administrators. 
+
+</div>
