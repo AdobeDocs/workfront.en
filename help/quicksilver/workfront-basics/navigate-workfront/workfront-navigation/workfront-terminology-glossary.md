@@ -14,6 +14,8 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 <!--Audited: 12/2023-->
 
+Bob: 4-30
+
 >[!IMPORTANT]
 >
 >This article should be used as a reference to understand the terms that you may encounter in the [!DNL Adobe Workfront] application, in the [!DNL Workfront] documentation, or when generally speaking about planning and managing work. We are currently updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.
@@ -491,23 +493,15 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td> <p>This field indicates whether a task is ready to start to be worked on. If the start is ready to be worked on the [!UICONTROL Can Start] field on the task is set to [!UICONTROL True]. </p> <p>For more information, see <a href="../../../manage-work/tasks/task-information/can-start-task-overview.md" class="MCXref xref">"[!UICONTROL Can Start]" overview for tasks</a>.</p> 
    <!--
      <p>(NOTE: everything below is drafted because I created a new article linked above with all this information - it was getting kind of too big for just a table cell)</p>
-    -->
-    <!--
      <p>Workfront checks for the following things before it marks a task as True for the Can Start field:<br></p>
-    --> 
-    <!--
      <ul> 
       <li> If the task has a parent, it checks to see if the value of Can Start for the parent it set to True. If the value for the parent is False, then all the subtasks have the value of Can Start set to False, as well.  </li> 
       <li> It also checks to see if the predecessors of the task as well as the predecessors of their parents are complete. If they are complete, the Can Start value for the task is set to True. If any of the task predecessors or their parents' predecessors are not complete, or have a status of Complete-Pending Approval, then the Can Start value for the task is set to False.  </li> 
      </ul>
-    --> 
-    <!--
      <p>For information about task predecessors, see <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Overview of task predecessors</a>.</p>
-    -->
-    <!--
      <p>Tip: If the Dependency Type between a task and its predecessors is Start-Start, the predecessor must start before the predecessor relationship is considered resolved and the successor tasks can start. For information about dependency types, see <a href="../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md" class="MCXref xref">Overview of task dependency types</a>. </p>
-    -->
-    </td>
+   -->
+  </td>
   </tr>
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -515,12 +509,10 @@ The following table is a list of commonly used terms in Adobe Workfront:
     <td>The total availability (measure in either hours or FTE) of a designated user, resource pool, team, rob role, or company.</td> 
    </tr>
   --> 
-  
   <tr> 
    <td> <p>Capacity</p> </td> 
    <td> <p>A resource's available time when they can be allocated to work. See "Availability". </p></td> 
   </tr> 
-    
   <tr> 
    <td> <p>[!UICONTROL Category]</p> </td> 
    <td> <p>A category is a custom form. You can build reports for this object and you can show it in other object reports, as well. Not all objects can have a custom form, or category. The following objects can have a custom form: <br></p> 
@@ -647,7 +639,6 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>[!UICONTROL Condition Update]</td> 
    <td> <p>This field shows the current condition of tasks, projects or issues. This option shows the most recent updates that the owners of tasks, projects or issues have provided in the [!UICONTROL Update Status] field, along with the new condition.</p> <p>Comments made on condition updates are not displayed in the [!UICONTROL Condition Update] column; only the main update is displayed.</p> </td> 
   </tr> 
-
   <tr> 
    <td>[!UICONTROL Connected record types]</td> 
    <td> <p>In Workfront Planning, you can create a connection between one of the following: </p>
@@ -660,22 +651,18 @@ The following table is a list of commonly used terms in Adobe Workfront:
   <p>Workfront Planning requires an additional license. </p>
  </td> 
   </tr> 
-
   <tr> 
    <td>[!UICONTROL Connected records]</td> 
    <td> <p>In Workfront Planning, after you connect two record types, you can connect two individual records of those types to one another.  </p>
    <p>Connecting records allows you to display information from one record or object from another application on another record.</p>
    <p>For information, see <a href="/help/quicksilver/planning/records/connected-records-overview.md">Connected records overview</a>. </p>
-
   <p>Workfront Planning requires an additional license. </p>
   </td> 
   </tr> 
-
   <tr> 
    <td>[!UICONTROL Connections]</td> 
    <td> <p>In Workfront Planning, connections may refer to connected record types or connected records. Workfront Planning requires an additional license.</p> </td> 
   </tr> 
-
   <tr> 
    <td>[!UICONTROL Constraint Date]</td> 
    <td> <p>If you are using a [!UICONTROL Task Constraint] that is tied to a specific date, such as [!UICONTROL Must Start On], then that specific date becomes the [!UICONTROL Constraint Date] of the task.</p> <p>The following task constraints update the [!UICONTROL Constraint Date] field:</p> 
