@@ -34,3 +34,4 @@ This section contains the following articles:
 * [Project limits overview](../../../manage-work/projects/manage-projects/project-maximums.md) 
 * [Understand project metrics](../../../manage-work/projects/manage-projects/project-metrics.md)
 * [Summarize updates with AI Assistant](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+* [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)

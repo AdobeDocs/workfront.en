@@ -2,7 +2,7 @@
 title: Get Started with Adobe Planning Standalone
 description: This article describes how you can benefit from using the standalone version of Adobe Workfront Planning.
 hidefromtoc: yes
-hide: yes
+hide: true
 exl-id: 99ebed04-0440-4990-a122-4d29f73c2201
 last-update: 2026-04-01T11:23:03-07:00
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670

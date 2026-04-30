@@ -163,10 +163,12 @@ Consider the following:
 
 * Where documents are stored on a project and its children objects (tasks and issues) depends on what your Workfront administrator chooses as the default for Storage Preferences in the System Preferences area of Setup. Depending on where you store documents in your Workfront instance, you can create the following types of projects:
 
-  * Legacy-storage projects
-  * Adobe enterprise-storage projects.
+  * Legacy Workfront storage projects
+  * Adobe enterprise storage projects.
 
   For more information, see [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md). 
+
+* When you create an enterprise-storage project, a document folder with the same name of the project is created for in the **Documents** section of the project. After you add tasks to the project, folders with the task's name are added to the **Documents** section of each task. 
 
 ## Create a project from scratch
 
@@ -194,11 +196,11 @@ Consider the following:
 
       >[!NOTE]
       >
-      >When you create an enterprise-storage project from a legacy-storage portfolio or program, the portfolio or program are also converted to enterprise-storage objects. All other legacy-storage projects under the same portfolio or program remain unchanged. 
+      >When you create an enterprise-storage project from a Workfront-storage portfolio or program, the portfolio or program are also converted to enterprise-storage objects. All other Workfront-storage projects under the same portfolio or program remain unchanged. 
 
       A project is created and its default name follows the following patterns, depending on which storage Workfront uses for documents: 
 
-      * **Untitled Project** for a Worfront-storage project.
+      * **Untitled Project** for a Workfront-storage project.
 
         A Workfront-storage project displays a **Legacy Workfront storage** icon ![Legacy-storage project icon](assets/legacy-storage-project-icon.png) next to its name. 
 
@@ -206,7 +208,7 @@ Consider the following:
 
         >[!IMPORTANT]
         >
-        >Projects using Adobe storage must have unique names.     
+        >Projects using Adobe enterprise storage must have unique names.    
 
 
 1. In the project's header, update the name of the project. Press Enter to save the name.

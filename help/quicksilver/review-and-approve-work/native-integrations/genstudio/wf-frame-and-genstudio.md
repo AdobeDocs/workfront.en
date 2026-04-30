@@ -7,7 +7,7 @@ description: Get started with the GenStudio for Performance Marketing and Frame.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: yes
+hide: true
 hidefromtoc: yes
 exl-id: 4d0c0542-3383-4907-b573-e2ef56117681
 last-update: 2026-04-01T18:03:50Z

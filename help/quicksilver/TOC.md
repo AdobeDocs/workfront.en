@@ -1272,6 +1272,7 @@ feature-set: Workfront
       * [Understand project metrics](manage-work/projects/manage-projects/project-metrics.md)
       * [Project limits overview](manage-work/projects/manage-projects/project-maximums.md)
       * [Summarize updates with AI Assistant](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+      * [Document management overview for projects and related objects](manage-work/projects/manage-projects/manage-documents-on-projects.md)
     * Create and manage project templates {#create-and-manage-project-templates}
       * [Create and manage project templates: article index](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
       * [Project template overview](manage-work/projects/create-and-manage-templates/project-template-overview.md)
