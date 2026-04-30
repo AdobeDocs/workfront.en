@@ -126,9 +126,9 @@ Consider the following:
 * When you delete a child task and you move its parent to another project, then restore the deleted child task, the task is added back on the original project as a main task. 
 
 <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   
   (NOTE: this stays NWE; not possible in classic;)
-  </MadCap:conditionalText>
+   
   -->
 
 ## Delete tasks

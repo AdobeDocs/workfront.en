@@ -24,7 +24,7 @@ Adobe Workfront Planning provides centralized visibility into your marketing lif
 >
 >* The sign-up period ended on April 1, 2026 and it is now closed. 
 >
->* If you accepted the trial agreement and are enrolled in the trial, it is available between the following dates: March 2 - May 1, 2026. 
+>* If you accepted the trial agreement and are enrolled in the trial, it is available between the following dates: March 2 - May 1, 2026. Access will remain active until May 15, 2026.
 >
 >* Note that the trial is available for 60 days from its launch, and not for 60 days from when you joined it.
 >
@@ -92,7 +92,7 @@ The following are important dates associated with the Adobe Workfront Planning f
     * The Workfront Planning trial banners. 
     * The **Review trial agreement** preference is removed from the **Setup** area.
 
-* **May 1, 2026**: The Workfront Planning trial closes and your access to Planning is removed. 
+* **May 1, 2026**: The Workfront Planning trial closes and your access to Planning is removed. Access will remain active until May 15, 2026.
 
     If you participated in the trial, Workfront secures your data after the trial is over. However, you have no access to it any longer after this date. 
     
@@ -121,7 +121,7 @@ All users in your organization receive the following Workfront Planning package 
 
 * **After May 1, 2026:**
 
-    All users in your system have their access to Workfront Planning removed and Workfront secures your data.
+    Access to the trial will remain active until May 15, 2026. After May 15, all users in your system have their access to Workfront Planning removed and Workfront secures your data.
     
 ## Additional information about Workfront Planning
 
@@ -168,7 +168,7 @@ The trial started and your organization received access to start the Planning tr
 
 >[!WARNING]
 >
->The opt-in period ends on April 1, 2026. However, the Planning trial features are available until May 1, 2026.
+>The opt-in period ends on April 1, 2026. However, the Planning trial features are available until May 15, 2026.
 
 1. (Conditional) Log in to Adobe Workfront as a System Administrator. 
 
@@ -182,7 +182,7 @@ The trial started and your organization received access to start the Planning tr
 1. (Conditional) If you are in the **Setup** area, go to the **Other preferences** section, then click **Review trial agreement**. 
 1. Click **Accept**, after reviewing the agreement. 
 
-    Your organization is now enrolled in the Workfront Planning trial until May 1, 2026. 
+    Your organization is now enrolled in the Workfront Planning trial until May 1, 2026. Access will remain active until May 15, 2026.
 
     The following things occur after you accept the trial agreement:
 

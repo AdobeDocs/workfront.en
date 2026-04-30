@@ -144,6 +144,22 @@ Old:
    For information about using the Portfolio Optimizer, see the [Manage projects in the Portfolio Optimizer: article index](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md) section. 
 
 1. (Optional) Click **Documents** in the left panel to attach documents to the portfolio.
+
+   >[!NOTE]
+   >
+   >Adding documents to portfolios differs depending on which type of storage your organization is using for Workfront. 
+   >Some customers may have access to both of the following document storage environments: 
+   >
+   >  * **The legacy Workfront storage**: Portfolios using this storage have the legacy storage icon ![Legacy storage icon](assets/legacy-storage-project-icon.png) next to the name.
+   >  * **The Adobe enterprise storage**
+   >
+   >Your Workfront administrator decides which storage your company uses, or allows you to choose which storage you associate each portfolio with. 
+   >For more information, see [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md). 
+   >
+   >Adding documents to portfolios differs depending on which type of storage you use. 
+   >
+   >For information, see [Add documents to Adobe Workfront from your file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+
 1. (Optional)  Click **[!UICONTROL Updates]** in the left panel to add comments to the update stream of the portfolio. For information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 1. (Optional) Click the **[!UICONTROL More] menu** ![More menu](assets/qs-more-icon-on-an-object.png) to do one of the following:
 
