@@ -299,7 +299,8 @@ The following table is a list of commonly used terms in Adobe Workfront:
     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">If the project is  added to the Capacity Planner but is excluded from the budget calculation,  the value is <i>Included but not Calculated</i>.  </li>
     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> If the project is  added to the Capacity Planner and included in the budget calculation, the value is <i>Included and Calculated</i>. </li>
     </ul>
-    --> </td> 
+    --> 
+  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Breakdown]</td> 
