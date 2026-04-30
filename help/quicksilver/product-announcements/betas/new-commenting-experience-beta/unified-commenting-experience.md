@@ -6,7 +6,7 @@ description: An update to the commenting experience in Adobe Workfront is curren
 author: Alina
 feature: Product Announcements
 role: User
-hide: yes
+hide: true
 hidefromtoc: yes
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 last-update: 2026-04-01T18:03:50Z

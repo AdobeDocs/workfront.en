@@ -4,7 +4,7 @@ navigation-topic: use-the-home-area
 title: Move from Legacy home to New Home
 description: Legacy Home will be removed from Workfront on 10/17 with the Q4 release. This article provides information on which functionality will be available in new home as well as recommendations for moving users to the New Home experience.
 author: Courtney
-hide: yes
+hide: true
 hidefromtoc: yes
 feature: Get Started with Workfront
 exl-id: cfb3de96-0710-44e9-a934-05877fa75b51
