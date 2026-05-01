@@ -20,7 +20,7 @@ This article describes how to configure the settings for a Scrum team. After you
 
 * Whether stories are estimated in points or hours
 * The status columns on the Agile story board  for iterations and projects
-* Additional fields to display on story cards on the Agile story board
+* Additional fields to display on Agile story board cards
 * How color indicators are used for stories on the Agile story board
 * How dates are applied when adding work items to an iteration
 
@@ -134,7 +134,7 @@ For information about how to configure status columns for a project, see the sec
 
 When you add fields to story cards, fields are view-only and display-only when the field is populated.
 
-By default, the following types of data is displayed on the story card for tasks and issues:
+By default, the following types of data are displayed on the story card for tasks and issues:
 
 * Story name with a link directly to the task or issue
 * The project name with a link directly to the project

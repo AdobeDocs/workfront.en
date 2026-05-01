@@ -115,7 +115,7 @@ To define the statuses that are available for the story board associated with th
 
 When you add fields to story cards, fields are view-only and display only when the field is populated.
 
-By default, the following types of data displays on the story card for tasks and issues:
+By default, the following types of data display on the story card for tasks and issues:
 
 * Story name with a link directly to the task or issue
 * The project name with a link directly to the project
@@ -177,7 +177,7 @@ To limit WIP for your Kanban team:
 
 You can configure stories from the backlog to be automatically added to the first column on the [!UICONTROL Kanban] board immediately after an item is moved from that column.
 
-You must enable the **Show Backlog** setting on the [!UICONTROL Kanban] board to use this funcitionality.
+You must enable the **Show Backlog** setting on the [!UICONTROL Kanban] board to use this functionality.
 
 Any time a story is moved from the [!UICONTROL In Progress] column into a column on the story board that represents a [!UICONTROL Complete] status (or a status that equates with [!UICONTROL Complete]), the next story from the Backlog column automatically moves to the [!UICONTROL New] column of the [!UICONTROL Kanban Board].
 
@@ -198,7 +198,7 @@ To automatically add stories from the backlog to the [!UICONTROL Kanban] board:
 
 1. Select the Kanban team that you want to manage.
 1. Click the **[!UICONTROL More]** menu ![](assets/more-menu.png), then select **[!UICONTROL Edit]**.
-1. Select **[!UICONTROL Automatically add next story from backlog]** to configure that the next item from the backlog to be automatically added to the **[!UICONTROL New]** column when an item is moved out of the **[!UICONTROL In Progress]** column.
+1. Select **[!UICONTROL Automatically add next story from backlog]** to configure the next item from the backlog to be automatically added to the **[!UICONTROL New]** column when an item is moved out of the **[!UICONTROL In Progress]** column.
 
 
 1. Click **[!UICONTROL Save Changes]**.
