@@ -98,7 +98,7 @@ This menu allows you to:
 
    >[!NOTE]
    >
-   >Your date settings are based on your primary language settings. For example, selecting **English (United States)** displays dates in MM/DD/YYYY format, while selecting **English (United Kingdom)** dispays dates in DD/MM/YYYY format.
+   >Your date settings are based on your primary language settings. For example, selecting **English (United States)** displays dates in MM/DD/YYYY format, while selecting **English (United Kingdom)** displays dates in DD/MM/YYYY format.
    
 * Access your **[!UICONTROL [!DNL Workfront] Profile]**. Once you are on the profile, click the **[!UICONTROL More]** menu ![More menu](assets/more-icon.png) and select **[!UICONTROL Edit]**. For more information about the profile, see [Configure My Settings](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Sign out]** of [!DNL Adobe CX Enterprise].
@@ -115,7 +115,7 @@ If your organization uses a separate application to manage passwords, you will c
 
 If your password is managed by [!DNL Adobe], you can change the password in your Adobe account.
 
-[See this article for changing your Adobe password.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
+[See this article for changing your Adobe password.](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
 
 For more information on changing your password, contact your administrator.
 
