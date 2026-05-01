@@ -21,9 +21,11 @@ For more information about Frame.io, see [Getting Started with Frame.io](https:/
 
 >[!VIDEO](https://video.tv.adobe.com/v/3471078)
 
+<!--
 ## Integration requirements
 
 * The Workfront instance must be enabled on the Adobe Unified Experience.
+-->
 
 ## Work initiation and planning in Workfront
 
