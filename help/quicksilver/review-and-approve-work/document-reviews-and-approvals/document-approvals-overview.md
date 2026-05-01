@@ -18,11 +18,12 @@ Project coordinators manage work in Workfront while creatives, marketers, and st
 
 ![Diagram showing the unified review and approval workflow, with project coordinators managing work in Workfront and reviewers and approvers providing feedback and making decisions in the Frame.io viewer.](assets/Unified-Review-Approvals-Image.png)
 
-
+<!--
 ## Integration requirements
 
 * The Workfront instance must be enabled on the Adobe Unified Experience.
 
+-->
 
 ## Built on Adobe enterprise storage
 
