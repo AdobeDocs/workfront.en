@@ -306,9 +306,9 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <p>For information, see <a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">Manage the timeline view</a>. </p>
    </td> 
     </tr> 
-  <tr> 
-   <td>[!UICONTROL Budgeted Completion Date]</td> 
-   <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that [!DNL Workfront] has removed. This field cannot be updated. </p>
+   <tr> 
+  <td>[!UICONTROL Budgeted Completion Date]</td> 
+  <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that [!DNL Workfront] has removed. This field cannot be updated. </p>
    <p> This field is still visible in [!UICONTROL project] reports and lists.</p>  </td> 
   </tr> 
   <tr> 
@@ -330,7 +330,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
     <!-- 
      <p>Hours that were formerly budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner)</p>
     <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
-  -->
+    -->
     <p> For information about budgeting Users in the [!DNL Resource Planner], see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the [!DNL Resource Planner] using the [!UICONTROL Project] and [!UICONTROL Role] views</a>. </p> 
     <p>The hours budgeted in the [!UICONTROL Resource Budgeting] area of the [!UICONTROL Business Case] or the [!UICONTROL Resource Planner] display in the following areas of [!DNL Workfront] and under the following names:</p> 
      <table style="table-layout:auto"> 
@@ -381,24 +381,20 @@ The following table is a list of commonly used terms in Adobe Workfront:
     <li>Budgeted Hour report (the Bud. Hours field refers to hours budgeted for users; the Pln. Bud. Hours field refers to hours budgeted for roles or projects)</li>
     <li>Resource Estimates report (in the Project: Budgeted Hours field) </li>
     </ul>
-    -->
-    <!--
     <p>The fields listed below display in the reports listed and are hours formerly budgeted in the  Capacity Planner or the Legacy Resource Estimates area of the Business Case.</p>
     <p>Important: The Capacity Planner and Legacy  Resource Estimates have been removed from Workfront. You cannot update any information that might display in these fields.</p>
-  -->
-  <!--
- <ul>
-  <li>Capacity Planner</li>
-  <li>Legacy  Resource Estimates area of the Business Case (in the Hours field)</li>
-  <li>Resource Estimates report (in the Bud. Hours field)</li>
-  <li>Budgeted Hour report (in the Budgeted Hours field)</li>
-  <li>Project report (in the Budgeted Hours field)</li>
-  <li>Project (Financial  Data) report</li>
-  <li>Task  report (in the Project: Budgeted Hours field)</li>
-  <li>Issue report (in the Project: Budgeted Hours field)</li>
-  </ul>
-  -->
-    </td> 
+    <ul>
+    <li>Capacity Planner</li>
+    <li>Legacy  Resource Estimates area of the Business Case (in the Hours field)</li>
+    <li>Resource Estimates report (in the Bud. Hours field)</li>
+    <li>Budgeted Hour report (in the Budgeted Hours field)</li>
+    <li>Project report (in the Budgeted Hours field)</li>
+    <li>Project (Financial  Data) report</li>
+    <li>Task  report (in the Project: Budgeted Hours field)</li>
+    <li>Issue report (in the Project: Budgeted Hours field)</li>
+    </ul>
+    -->
+  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Budgeted Labor Cost]</td> 
@@ -425,8 +421,6 @@ The following table is a list of commonly used terms in Adobe Workfront:
     <!--
     <p>Labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner). This was available only in Adobe Workfront Classic. </p>
     <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
-    -->
-    <!--
      <p>You can locate the Budgeted Labor Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in  Workfront: </p>
      <ul> 
      <li>Resource Planner Cost view (in the BDG column)</li>
@@ -460,7 +454,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   <!--
   <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
   -->   
-   </td> 
+  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Burndown Chart]</td> 
@@ -491,8 +485,6 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <tr> 
    <td>[!UICONTROL Can Start]</td> 
    <td> <p>This field indicates whether a task is ready to start to be worked on. If the start is ready to be worked on the [!UICONTROL Can Start] field on the task is set to [!UICONTROL True]. </p> <p>For more information, see <a href="../../../manage-work/tasks/task-information/can-start-task-overview.md" class="MCXref xref">"[!UICONTROL Can Start]" overview for tasks</a>.</p> 
-   
-
   </td>
   </tr>
   <!--
