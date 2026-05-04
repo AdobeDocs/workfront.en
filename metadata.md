@@ -7,7 +7,7 @@ product-previous: experience cloud
 type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/workfront.en
-index: yes
+index: true
 ---
 
 # Metadata for internal use
