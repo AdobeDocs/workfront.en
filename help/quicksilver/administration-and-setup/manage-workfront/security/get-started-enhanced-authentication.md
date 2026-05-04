@@ -1,7 +1,6 @@
 ---
 title: Enhanced Authentication overview
 description: Hidden from search and from left nav
-hidefromtoc: yes
 hide: true
 feature: System Setup and Administration
 role: Admin

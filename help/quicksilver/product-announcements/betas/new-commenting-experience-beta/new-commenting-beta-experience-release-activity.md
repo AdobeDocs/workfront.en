@@ -6,7 +6,6 @@ description: Review the weekly release activity for the Adobe Workfront new comm
 author: Alina
 feature: Product Announcements
 hide: true
-hidefromtoc: yes
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
 last-update: 2026-04-01T18:03:50Z

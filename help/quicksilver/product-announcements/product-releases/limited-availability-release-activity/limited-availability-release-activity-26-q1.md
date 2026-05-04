@@ -7,7 +7,6 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
-hidefromtoc: yes
 exl-id: 850576d3-4edb-4942-9f21-065bf941b01c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
