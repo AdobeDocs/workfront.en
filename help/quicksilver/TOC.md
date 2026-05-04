@@ -2655,12 +2655,12 @@ feature-set: Workfront
     * [Overview](proofhq-api/general/overview.md)
     * {hide-from-toc} [Code Samples](proofhq-api/general/code-samples.md)
     * [SOAP API FAQs](proofhq-api/general/soap-api-faqs.md)
-* {hide-from-toc} [Hidden test document](hidden-test.md)
 * App Builder {#app-builder}
   * [App Builder: article index](/help/quicksilver/app-builder/app-builder-toc.md)
   * [Acquire and install apps from Adobe Exchange](/help/quicksilver/app-builder/install-apps-on-exchange.md)
   * [Create custom applications for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md)
-  
+* {hide-from-toc} [Hidden test document](hidden-test.md)
+
 
 
 <!--
