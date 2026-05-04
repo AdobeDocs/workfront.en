@@ -6,7 +6,6 @@ description: When Enhanced Authentication (eAuth) is enabled for your [!DNL Work
 author: Courtney
 feature: Get Started with Workfront
 hide: true
-hidefromtoc: yes
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
 ---
 # Reset a user's password with Enhanced Authentication

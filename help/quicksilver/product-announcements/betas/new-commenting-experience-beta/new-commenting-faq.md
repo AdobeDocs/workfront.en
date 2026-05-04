@@ -7,7 +7,6 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 hide: true
-hidefromtoc: yes
 exl-id: 5ce15530-0858-44a4-b928-779654310dee
 ---
 # New commenting experience FAQs

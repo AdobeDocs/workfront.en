@@ -7,7 +7,6 @@ description: In order to access Data Connect data, you must first create a Snowf
 author: Courtney
 feature: Reports and Dashboards
 hide: true
-hidefromtoc: yes
 exl-id: 8ac99353-ebb9-46d9-b1ad-1cdbdc974f49
 ---
 # Test

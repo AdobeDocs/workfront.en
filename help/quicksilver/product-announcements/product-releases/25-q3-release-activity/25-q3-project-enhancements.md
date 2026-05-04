@@ -5,7 +5,6 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
-hidefromtoc: yes
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
 ---
 # Third Quarter 2025 Project enhancements
