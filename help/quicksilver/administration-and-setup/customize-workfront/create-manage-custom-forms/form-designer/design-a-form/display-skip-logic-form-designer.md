@@ -54,26 +54,26 @@ Custom forms display icons to indicate when logic is applied to the fields.
 
 Click **Show logic** in the form designer header to show or hide the icons for the different field logic types.
 
-   | Icon | Definition |
-   | --- | --- |
-   | ![Display logic for target field](assets/display-logic-bottom-right.png) | The field is the target field where the display logic is applied. If a specific selection is made on the form, then this field is displayed. |
-   | ![Display logic icon for reference field](assets/display-logic-bottom-left.png) | The field is the reference field for display logic. A specific selection or value on this field displays the target field. |
-   | ![Skip logic for target field](assets/skip-logic-bottom-right.png) | The field is the target field where skip logic is applied. A specific selection or value on this field skips other fields and goes directly to the reference field. |
-   | ![Skip logic icon for reference field](assets/skip-logic-bottom-left.png) | The field is the reference field for skip logic. If a specific selection is made on the target field, then the form skips ahead to this field and fields in between are hidden. |
-   | ![Validation logic for target field](assets/validation-logic-icon.png) | The field is the target field where validation logic is applied. A specific selection or value on the reference field determines whether the validation fails. The target field and the reference field can be the same for validation logic. |
-   | ![Validation logic for reference field](assets/validation-logic-reference-field.png) | The field is the reference field for validation logic. A specific selection or value on this field determines whether the validation fails on the target field. The target field and the reference field can be the same for validation logic. |
-   | ![Default value logic for target field](assets/default-value-logic-icon.png) | The field is the target field where default value logic is applied. A specific selection or value on the reference field determines the default value. The target field and the reference field can be the same for default value logic. |
-   | ![Default value logic for reference field](assets/default-value-logic-reference-field.png) | The field is the reference field for default value logic. A specific selection or value on this field determines the default value on the target field. The target field and the reference field can be the same for default value logic. |
-   | ![Formatting logic for target field](assets/formatting-logic-icon.png) | The field is the target field where formatting logic is applied. A specific selection or value on the reference field determines the formatting. The target field and the reference field can be the same for formatting logic. |
-   | ![Formatting logic for reference field](assets/formatting-logic-reference-field.png) | The field is the reference field for formatting logic. A specific selection or value on this field determines the formatting on the target field. The target field and the reference field can be the same for formatting logic. |
-   | ![Editability logic for target field](assets/editability-logic-icon.png) | The field is the target field where editability logic is applied. The field can be editable or read-only when the defined conditions are met. The target field and the reference field can be the same for editability logic. |
-   | ![Editability logic for reference field](assets/editability-logic-reference-field.png) | The field is the reference field for editability logic. When the defined conditions are met on this field, the logic is applied on the target field. The target field and the reference field can be the same for editability logic. |
+| Icon | Definition |
+| --- | --- |
+| ![Display logic for target field](assets/display-logic-bottom-right.png) | The field is the target field where the display logic is applied. If a specific selection is made on the form, then this field is displayed. |
+| ![Display logic icon for reference field](assets/display-logic-bottom-left.png) | The field is the reference field for display logic. A specific selection or value on this field displays the target field. |
+| ![Skip logic for target field](assets/skip-logic-bottom-right.png) | The field is the target field where skip logic is applied. A specific selection or value on this field skips other fields and goes directly to the reference field. |
+| ![Skip logic icon for reference field](assets/skip-logic-bottom-left.png) | The field is the reference field for skip logic. If a specific selection is made on the target field, then the form skips ahead to this field and fields in between are hidden. |
+| ![Validation logic for target field](assets/validation-logic-icon.png) | The field is the target field where validation logic is applied. A specific selection or value on the reference field determines whether the validation fails. The target field and the reference field can be the same for validation logic. |
+| ![Validation logic for reference field](assets/validation-logic-reference-field.png) | The field is the reference field for validation logic. A specific selection or value on this field determines whether the validation fails on the target field. The target field and the reference field can be the same for validation logic. |
+| ![Default value logic for target field](assets/default-value-logic-icon.png) | The field is the target field where default value logic is applied. A specific selection or value on the reference field determines the default value. The target field and the reference field can be the same for default value logic. |
+| ![Default value logic for reference field](assets/default-value-logic-reference-field.png) | The field is the reference field for default value logic. A specific selection or value on this field determines the default value on the target field. The target field and the reference field can be the same for default value logic. |
+| ![Formatting logic for target field](assets/formatting-logic-icon.png) | The field is the target field where formatting logic is applied. A specific selection or value on the reference field determines the formatting. The target field and the reference field can be the same for formatting logic. |
+| ![Formatting logic for reference field](assets/formatting-logic-reference-field.png) | The field is the reference field for formatting logic. A specific selection or value on this field determines the formatting on the target field. The target field and the reference field can be the same for formatting logic. |
+| ![Editability logic for target field](assets/editability-logic-icon.png) | The field is the target field where editability logic is applied. The field can be editable or read-only when the defined conditions are met. The target field and the reference field can be the same for editability logic. |
+| ![Editability logic for reference field](assets/editability-logic-reference-field.png) | The field is the reference field for editability logic. When the defined conditions are met on this field, the logic is applied on the target field. The target field and the reference field can be the same for editability logic. |
 
-   ![Logic icons](assets/custom-form-logic-icon-samples.png)
+![Logic icons](assets/custom-form-logic-icon-samples.png)
 
 For display and skip logic only, select a field to show the existing logic rules in the field settings.
 
-   ![Logic rules](assets/form-designer-view-only-logic.png)
+![Logic rules](assets/form-designer-view-only-logic.png)
 
 ## Considerations for using display logic and skip logic
 
