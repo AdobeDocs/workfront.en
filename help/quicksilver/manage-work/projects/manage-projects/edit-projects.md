@@ -276,17 +276,25 @@ For information about creating a project from a template, see [Create a project 
          <td> <p>Specify the date when you select <strong>Schedule from Completion Date</strong>. </p> <p>This is a read-only field when you select <strong>Schedule from Start Date</strong>.<br></p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>Portfolio</strong></td> 
-         <td>Indicate a Portfolio that the project belongs to. You must create a Portfolio first, before it appears in the drop-down list. Only active portfolios can be associated with a project. For more information about creating portfolios, see <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Create a portfolio </a>.
-         <p><b>NOTE</b></p>
-         <p>You must have Manage permissions to the portfolio to be able to add or remove it to the project.</p>
+      <td role="rowheader"><strong>Portfolio</strong></td> 
+      <td>Indicate a Portfolio that the project belongs to. You must create a Portfolio first, before it appears in the drop-down list. Only active portfolios can be associated with a project. For more information about creating portfolios, see <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Create a portfolio </a>.
+      <p><b>NOTES</b></p>
+      <ul>
+      <li>You must have Manage permissions to the portfolio to be able to add or remove it to the project.</li>
+      <li>If your organization uses both Workfront and Adobe document storage types, you cannot associate a Workfront-storage project with an Adobe-storage portfolio. The reverse is also true. Your Workfront instance might not have both types of document storage.</li></ul> 
+      For more information, see <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Document management overview for projects and related objects</a>. 
       </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Program</strong></td> 
          <td> <p>If you selected a Portfolio for the project, specify a Program for the project. Some Portfolios might not have Programs. You must create a Program first, before it appears in this drop-down list. Only active programs can be associated with a project. </p> <p>For more information about creating programs, see <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Create a program</a>.</p> 
-      <p><b>NOTE</b></p>
-         <p>You must have Manage permissions to the program to be able to add or remove it to the project.</p>   
+      <p><b>NOTES</b></p>
+      <ul>
+      <li>You must have Manage permissions to the program to be able to add or remove it to the project.</li>
+      <li>If your organization uses both Workfront and Adobe document storage types, you cannot associate a Workfront-storage project with an Adobe-storage program. The reverse is also true. Your Workfront instance might not have both types of document storage. Programs inherit the storage type from the portfolio they belong to. </li></ul> 
+
+      For more information, see <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Document management overview for projects and related objects</a>. 
+
       </td> 
       </tr> 
       <tr> 
@@ -789,6 +797,10 @@ Consider the following when editing projects in bulk:
    >For example, you might have a checkbox field with three checkboxes (Option1, Option 2, and Option 3) and Option 1 is unchecked for all projects, and Option 2 and 3 are checked for some and unchecked for other projects that you selected. If you want to check Option 1 for all projects, you must also make Option 2 and 3 match for all the selected projects before you can save your changes, so you must either select them or deselect them so that they can match on all the selected projects. If you do not change any of the options, you can save the field as is, and the projects maintain their current selection for all options. 
 
 * When you select multiple projects that belong to different groups, the statuses that display in the Status field are system-level statuses and not group-level statuses. 
+
+* When you select multiple projects that have different types of document storages and you want to update the Portfolio or the Program for the selected projects, you cannot associate a Workfront-storage project with an Adobe-storage portfolio. The reverse is also true. In this case, ensure you select only projects that have similar storage types at a time. 
+
+   Your Workfront instance might not have both types of document storage.
 
 To edit projects in bulk: 
 

@@ -104,6 +104,8 @@ Consider the following:
 
    You cannot delete a task that has a document which has been checked out attached to it. For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
 
+   You cannot restore individual documents that were deleted when the task was deleted from the Documents tab in the Recycle Bin. You can only restore the documents deleted when the task was deleted when you restore the task.
+
    * Issues
    * Subtasks
    * Notes
@@ -170,7 +172,7 @@ Consider the following:
 {{step1-to-projects}}
 
 1. Click the project name that contains the task you want to delete.
-1. Click **Tasks** in he left panel. 
+1. Click **Tasks** in the left panel. 
 1. Click the name of the task you want to delete.
 1. Click the **More** icon ![More menu](assets/qs-more-menu.png)in the upper-right corner.
 
