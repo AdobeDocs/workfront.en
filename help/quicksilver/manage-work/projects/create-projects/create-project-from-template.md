@@ -170,7 +170,7 @@ You can create a project from the Projects area in the Main Menu, or from the Pr
       >
       >* When you use an Adobe enterprise-storage template from a Workfront-storage portfolio or program, the project is an Adobe enterprise-storage project and the portfolio or program are also converted to Adobe enterprise-storage objects. All other Workfront-storage projects under the same portfolio or program remain unchanged. 
       >
-      > Not all customers have both types of document storage. 
+      > Your Workfront instance might not have both types of document storage. 
       >
       >For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md). 
 
@@ -228,7 +228,7 @@ Instead of starting in the Projects area, you can create a project from a templa
 
 >[!NOTE]
 >
->Templates associated with Workfront document storage create legacy Workfront-storage projects. Templates associated with Adobe enterprise document storage create Adobe-storage projects. Not all customers have both types of storage. 
+>Templates associated with Workfront document storage create legacy Workfront-storage projects. Templates associated with Adobe enterprise document storage create Adobe-storage projects. Your Workfront instance might not have both types of document storage.
 >
 >For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md). 
 

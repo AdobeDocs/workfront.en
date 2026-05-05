@@ -73,6 +73,8 @@ The following objects attached to an issue are also deleted when you delete an i
 
   You cannot delete an issue that has a document which has been checked out attached to it. For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
 
+  You cannot restore individual documents that were deleted when the issue was deleted from the Documents tab in the Recycle Bin. You can only restore the documents deleted when the issue was deleted when you restore the issue.
+
 * Notes
 * Approvals
 

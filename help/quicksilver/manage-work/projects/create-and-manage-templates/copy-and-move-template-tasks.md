@@ -102,7 +102,7 @@ Consider the following when moving template tasks:
 
    * Milestones.
 
-* You cannot copy or move a template task from a Workfront-storage template to an Adobe-storage template. The reverse is also true. Not all customers have both types of storage. 
+* You cannot copy or move a template task from a Workfront-storage template to an Adobe-storage template. The reverse is also true. Your Workfront instance might not have both types of document storage.
 
    For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -134,7 +134,7 @@ You can copy a single template task or you can copy several template tasks in bu
 
    >[!TIP]
    >
-   >You must pick a template with a similar document storage type. You cannot copy template tasks to a template with a different storage type than the original template. Not all customers have access to multiple document storage types.
+   >You must pick a template with a similar document storage type. You cannot copy template tasks to a template with a different storage type than the original template. Your Workfront instance might not have both types of document storage.
    >
    >For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -261,7 +261,7 @@ You can move a template task either to another template task in the same templat
    >
    >* You can also start typing the Reference Number or enter the ID of the template. This might help you distinguish between templates with identical names.
    >
-   >* You must pick a template with a similar document storage type. You cannot copy template tasks to a template with a different storage type than the original template. Not all customers have access to multiple document storage types.
+   >* You must pick a template with a similar document storage type. You cannot copy template tasks to a template with a different storage type than the original template. Your Workfront instance might not have both types of document storage.
    >
    >For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

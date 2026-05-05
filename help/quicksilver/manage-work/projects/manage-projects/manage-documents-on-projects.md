@@ -20,7 +20,7 @@ This preference allows you to automatically store documents attached to Workfron
 
 >[!IMPORTANT]
 >
->Not all customers have access to both Workfront as well as Adobe storage. Some customers have access only to Workfront which others have access only to Adobe Enterprise storage by default. No configuration is needed for customers without access to Workfront storage.
+>Your Workfront instance might not have access to both Workfront as well as Adobe storage. Some Workfront instances have access only to Workfront, while others have access only to Adobe Enterprise storage by default. No configuration is needed for customers with access to only one type of storage. 
 
 The Workfront administrator can do one of the following:
 
@@ -114,7 +114,7 @@ Customers might have access to one of the following document storage capabilitie
     >* Programs inherit the type of storage from the portfolio. 
 
 
-Documents stored on objects in Workfront storage are managed differently than those stores in Adobe enterprise storage. 
+Documents stored on objects in Workfront storage are managed differently than those stored in Adobe enterprise storage. 
 
 For more information, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md). 
 
@@ -173,7 +173,7 @@ Consider the following when working with templates:
 * When you create an Adobe enterprise-storage template, Workfront creates a folder in the Documents section of the template where documents are saved. The folder name is the same name as the program. You cannot delete or manually rename the folder. The folder is renamed if you change the name of the template, to match the template's new name.
 * You can use a Workfront-storage template to create Workfront-storage projects; you can use an Adobe-storage template to create an Adobe-storage project. 
 * You can attach a Workfront-storage template to an Adobe-storage project and this does not change the storage location of the project. 
-* You can attach an Adobe-storage template to a Workfront-storage project and this does not change the storage location for the project. 
+* You can attach an Adobe-storage template to a Workfront-storage project and this does not change the storage location for the project. Documents in the Adobe-storage folder for the template are added to the project directly, without the folder, while the documents in the template task folders are added to folders attached to the project's tasks in the Documents section of the tasks.
 
 ### Document management for template tasks
 

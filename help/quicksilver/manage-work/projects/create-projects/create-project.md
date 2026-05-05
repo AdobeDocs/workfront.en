@@ -91,7 +91,7 @@ You can create a project in Workfront using one of the following methods:
 * Create a project from scratch without using a template. This article describes how to create a project from scratch. 
 
 * Copy an existing project.  
-  For more information about copying project, see [Copy a project](../../../manage-work/projects/manage-projects/copy-project.md).
+  For more information about copying a project, see [Copy a project](../../../manage-work/projects/manage-projects/copy-project.md).
 
 * Use a template.  
   For more information about using a template to create a new project, see [Create a project using a template](../../../manage-work/projects/create-projects/create-project-from-template.md).
@@ -161,14 +161,19 @@ Consider the following:
 
     If you are using a template when you're creating the project by converting the issue, refer to the second scenario above to understand which Group and which Status Workfront applies to the new project. 
 
-* Where documents are stored on a project and its children objects (tasks and issues) depends on what your Workfront administrator chooses as the default for Storage Preferences in the System Preferences area of Setup. Depending on where you store documents in your Workfront instance, you can create the following types of projects:
+* Where documents are stored for a project and for its children objects (tasks and issues) depends on what your Workfront administrator chooses as the default for Storage Preferences in the System Preferences area of Setup. Depending on where you store documents in your Workfront instance, you can create the following types of projects:
 
   * Legacy Workfront storage projects
   * Adobe enterprise storage projects.
 
   For more information, see [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md). 
 
-* When you create an enterprise-storage project, a document folder with the same name of the project is created for in the **Documents** section of the project. After you add tasks to the project, folders with the task's name are added to the **Documents** section of each task. 
+  >[!TIP]
+  >
+  > Your Workfront instance might not have both types of document storage.
+
+
+* When you create an enterprise-storage project, a document folder with the same name of the project is created in the **Documents** section of the project. After you add tasks to the project, folders with the task's name are added to the **Documents** section of each task. 
 
 For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -198,15 +203,16 @@ For more information, see [Document management overview for projects and related
 
       >[!NOTE]
       >
-      >When you create an enterprise-storage project from a Workfront-storage portfolio or program, the portfolio or program are also converted to enterprise-storage objects. All other Workfront-storage projects under the same portfolio or program remain unchanged. 
+      >* When you create an enterprise-storage project from a Workfront-storage portfolio or program, the portfolio or program are also converted to enterprise-storage objects. All other Workfront-storage projects under the same portfolio or program remain unchanged. 
+      >* Your Workfront instance might not have both types of document storage.
 
       A project is created and its default name follows the following patterns, depending on which storage Workfront uses for documents: 
 
-      * **Untitled Project** for a Workfront-storage project.
+      * `Untitled Project` for a Workfront-storage project.
 
         A Workfront-storage project displays a **Legacy Workfront storage** icon ![Legacy-storage project icon](assets/legacy-storage-project-icon.png) next to its name. 
 
-      * **Untitled Project - < Month day, year hour.minute.second >** for an Adobe-storage project
+      * `Untitled Project - < Month day, year hour.minute.second >` for an Adobe-storage project
 
         >[!IMPORTANT]
         >
