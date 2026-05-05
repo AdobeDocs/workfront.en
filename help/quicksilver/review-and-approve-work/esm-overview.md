@@ -89,7 +89,9 @@ These actions are available from the More menu on a task or issue. Each action r
 
 ## Enable Adobe enterprise storage
 
-Existing customers can enable Adobe enterprise storage in their environment upon contract renewal. For more information about enabling Adobe enterprise storage, see [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+Your Workfront contract must include a V2 Workfront SKU to use Adobe enterprise storage. For more information about V2 Workfront SKU requirements, see the FAQ in [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#getting-started-with-unified-review-and-approval).
+
+For information about enabling Adobe enterprise storage in your environment, see [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 >[!NOTE]
 >

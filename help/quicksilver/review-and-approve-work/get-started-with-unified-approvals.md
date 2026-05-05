@@ -21,11 +21,9 @@ For more information about Frame.io, see [Getting Started with Frame.io](https:/
 
 >[!VIDEO](https://video.tv.adobe.com/v/3471078)
 
-<!--
-## Integration requirements
+## Access requirements
 
-* The Workfront instance must be enabled on the Adobe Unified Experience.
--->
+* Your Workfront contract must include a V2 Workfront SKU to use the Frame.io viewer and Adobe enterprise storage. For more information, see the FAQ in [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#getting-started-with-unified-review-and-approval).
 
 ## Work initiation and planning in Workfront
 
