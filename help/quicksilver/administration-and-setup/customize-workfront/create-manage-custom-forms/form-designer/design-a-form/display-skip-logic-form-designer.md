@@ -145,9 +145,9 @@ No logic is applied to the default section on the form, so it is always visible 
 
 Using the following condition, the Resources Required section is only displayed when a user with the job role of Resource Manager views the form.
 
-```IF($$USER.{roleID}="123abc", true)```
+`IF($$USER.{roleID}="123abc", true)`
 
-Note that ```123abc``` represents the role ID of the Resource Manager.
+Note that `123abc` represents the role ID of the Resource Manager.
 
 ![Form section displayed for role](assets/advanced-display-on-form1.png)
 
@@ -155,7 +155,7 @@ The same condition with a different role ID is applied to the Project Financial 
 
 Using the following condition, the Sold KPI field only becomes visible when the project is complete. This logic is applied directly to the field instead of to a form section. There is no need to specify which role can view the field, because that is already defined in the section that the field is in.
 
-```IF({status}="CPL", true)```
+`IF({status}="CPL", true)`
 
 ![Field is visible on complete project](assets/advanced-display-on-form2.png)
 
