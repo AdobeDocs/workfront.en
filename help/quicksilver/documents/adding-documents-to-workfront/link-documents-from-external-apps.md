@@ -116,7 +116,9 @@ You can link documents to Workfront from an external application such as Google 
 
 >[!IMPORTANT]
 >
->Dropbox stores documents based on the file path. Because of this, if a file linked from Dropbox is moved, renamed, or deleted, it becomes inaccessible in Workfront.
+>* Dropbox stores documents based on the file path. Because of this, if a file linked from Dropbox is moved, renamed, or deleted, it becomes inaccessible in Workfront.
+>* Browsing shared OneDrive folders in the file picker is not supported. To link a file that has been shared with you, use the search bar in the OneDrive file picker to locate the file by name, then select it to add it to Workfront.
+
 
 1. Go to the **Documents** area in Workfront where you want the document.
 1. Click **Add New**, then click the external document provider where you want to link documents to Workfront.

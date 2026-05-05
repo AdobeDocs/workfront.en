@@ -96,6 +96,7 @@ Because unified review and approval is built using Adobe enterprise storage, the
 * Programs and projects can't have the same name if they belong to the same portfolio.
 * Documents can't have the same name if they belong to the same project.
 * Object names can't contain any of the following special characters: \ / : * ? " | < >
+* Programs, portfolios, projects, templates, tasks, issues, and document folders can't have names that end with a period or a space.
 * Object names are limited to 255 characters maximum.
 
 With these limitations in mind, Workfront automatically renames objects or documents as needed to prevent conflicts.
@@ -397,6 +398,8 @@ Yes. Because the integration uses Adobe enterprise storage, the following conven
 * Documents within the same project cannot share a name.
 
 * Programs, portfolios, projects, templates, tasks, issues, documents, document folders names cannot contain the following special characters: `\ / : * ? " | < >` and are limited to 255 characters.
+
+* Programs, portfolios, projects, templates, tasks, issues, and document folders cannot have names that end with a period or a space.
 
 Workfront automatically renames objects or documents as needed to prevent conflicts.
 
