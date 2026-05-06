@@ -100,7 +100,6 @@ New features in Workfront Planning are available in Production. For more informa
 
 There are no updates for the following at this point in the release:
 
-* Workfront Planning
 * Scenario Planner
 * Proof
 * Goals
