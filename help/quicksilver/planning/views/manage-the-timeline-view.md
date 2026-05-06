@@ -146,7 +146,7 @@ Consider the following:
     * Record dates
     * Record system-generated fields: Created date, Last modified date
     * Lookup dates from connected record or object types (only when you added an aggregator for them when you connected the record or object types)
-* Depending on the dates associates with the records, some records might not display in the timeline view in the following scenarios:
+* Depending on the dates associated with the records, some records might not display in the timeline view in the following scenarios:
 
     * When the Start and End dates have no values
     * When the Start or the End dates have no value
@@ -169,7 +169,7 @@ To manage a timeline view:
 
     The following scenarios exist: 
 
-    * If gaps or overlaps have been detected between the dates of the quarters, you might receive a notification that custom quarters can now be setup and they might need editing.
+    * If gaps or overlaps have been detected between the dates of the quarters, you might receive a notification that custom quarters can now be set up and they might need editing.
 
         ![Custom quarters notification missing or gaps between quarters](assets/custom-quarter-notification-missing-or-gaps.png)
 
@@ -177,7 +177,7 @@ To manage a timeline view:
         >
         >This message should display immediately after your organization purchases Planning and custom quarters were already enabled before the purchase. Overlaps and gaps between the quarters are not allowed after enabling Workfront Planning for your organization. 
     
-    * If quarters have been partially set up, with some months within the same year missing, you might receive a notification when you scroll to display the missing quarters that the rest of the year needs to be setup with the missing quarters. 
+    * If quarters have been partially set up, with some months within the same year missing, you might receive a notification when you scroll to display the missing quarters that the rest of the year needs to be set up with the missing quarters. 
 
     ![Missing custom quarters original message on timeline view](assets/missing-custom-quarters-original-message-on-timeline-view.png)
 
@@ -281,7 +281,7 @@ To add a filter to a timeline view:
 1. Select a timeline view, then click **Filters** in the upper-right corner of the table.    
 1. Click **Add condition** and add the following information: 
 
-    * **Select a field** to Search for a field or and select it from the list.
+    * **Select a field** to search for a field and select it from the list.
 
     * **Select an option** (or a filter modifier) to define what kind of condition the field must meet.
 
@@ -454,7 +454,7 @@ Update the timeline view settings to indicate what and how information displays 
     >
     >* If you display additional records using the Breakdown option, the Start and End dates are those of the main record. You cannot choose Start and End dates for the connected records in this area. 
 
-1. (Conditional and optional) If your are a Workfront administrator, click **Go to Setup** in the **Use custom quarters** box to go to the Setup area and set up custom quarters. After setting up custom quarters, you can display them in the timeline view instead of the classic quarters. If you are not a Workfront administrator, you can request that the custom quarters are enabled for your organization from an administrator. 
+1. (Conditional and optional) If you are a Workfront administrator, click **Go to Setup** in the **Use custom quarters** box to go to the Setup area and set up custom quarters. After setting up custom quarters, you can display them in the timeline view instead of the classic quarters. If you are not a Workfront administrator, you can request that the custom quarters are enabled for your organization from an administrator. 
 
     For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md). 
 
@@ -561,8 +561,8 @@ Consider the following when breaking down the records' timeline by their connect
 * You can display connected records in the timeline view only when viewing the records in Standard mode. You cannot use the Breakdown option in the Compact mode of the timeline view.  
 * You can display the following in the timeline view, using the Breakdown feature:
     * Workfront Planning records connected to the selected record type. 
-    * Workfront object types or Experience Manager assets connected to the selected record type.
-    * Workfront Planning records or objects from other application that are connected to records connected to the selected record type. 
+    * Workfront or Experience Manager object types connected to the selected record type.
+    * Workfront Planning records or objects from other applications that are connected to records connected to the selected record type. 
     
         For example, you might connect campaigns to portfolios. In addition, you might connect  another record type, products, with projects, as well as with campaigns. When you build the campaign timeline view, you can break down the campaigns by portfolios, products, and projects. 
 
@@ -575,7 +575,7 @@ Consider the following when breaking down the records' timeline by their connect
     For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 * You can only display record types that are associated with at least two date fields. 
 * The date fields for the record types you want to display in the timeline view must be visible in the table view of the selected record type, as lookup fields. 
-* The Start and End dates of the record types you want to display in the timeline view must by in chronological order. For example, if a record has a Start date of January 31 and an End date of January 1, it does not display in the timeline view. For more information, see the section [Manage a timeline view](#manage-a-timeline-view) in this article. 
+* The Start and End dates of the record types you want to display in the timeline view must be in chronological order. For example, if a record has a Start date of January 31 and an End date of January 1, it does not display in the timeline view. For more information, see the section [Manage a timeline view](#manage-a-timeline-view) in this article. 
 * There is a limit of 5 record types that you can include in a record's breakdown. 
 
 #### Break down connected records
@@ -596,7 +596,7 @@ Consider the following when breaking down the records' timeline by their connect
     >
     >    The Start and End dates must be sequential. If the End date is before the Start date, no records will display in the timeline. 
 
-    A right-pointing arrow displays on the selected record's bar in the timeline, if they they are connected with other records. 
+    A right-pointing arrow displays on the selected record's bar in the timeline, if they are connected with other records. 
 1. Click the right-pointing arrow to expand a record type and display its connections. <!--update screen shot at production-->
 
     ![Campaigns broken down by programs in the timeline view](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)    

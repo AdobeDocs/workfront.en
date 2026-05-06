@@ -20,7 +20,7 @@ This preference allows you to automatically store documents attached to Workfron
 
 >[!IMPORTANT]
 >
->Your Workfront instance might not have access to both Workfront as well as Adobe storage. Some Workfront instances have access only to Workfront, while others have access only to Adobe Enterprise storage by default. No configuration is needed for customers with access to only one type of storage. 
+>Your Workfront instance might not have access to both Workfront and Adobe storage. Some Workfront instances have access only to Workfront, while others have access only to Adobe Enterprise storage by default. No configuration is needed for customers with access to only one type of storage. 
 
 The Workfront administrator can do one of the following:
 
@@ -118,7 +118,7 @@ Documents stored on objects in Workfront storage are managed differently than th
 
 For more information, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md). 
 
-The following sections document how document storage works for Workfront objects when both Workfront and Adobe enterprise storage options are in place. 
+The following sections document how document storage works for Workfront objects when both Workfront and Adobe enterprise storage options exist in the same environment. 
 
 ### Document management for projects
 
@@ -127,6 +127,8 @@ Consider the following when working with projects:
 * When you create an Adobe enterprise-storage project, Workfront creates a folder in the Documents section of the project where documents are saved. The folder name is the same name as the project. You cannot delete or manually rename the folder. The folder is renamed if you change the name of the project to match the project's new name.
 * When you create or move an Adobe-enterprise storage project to a legacy Workfront-storage portfolio or program, the portfolio or program is automatically converted to an Adobe enterprise-storage object. 
 * You cannot create a Workfront-storage project for an Adobe enterprise-storage portfolio or program. 
+* When you import a project from MS Project, Workfront creates a Workfront-storage project, even when your Workfront administrator made the Adobe Enterprise storage the default for your system. 
+* When you create projects using a Workfront Planning automation, Workfront uses your system's default storage preference for the project. You must purchase the Planning package for access to Workfront Planning. 
 
 ### Document management for portfolios
 
@@ -136,15 +138,17 @@ Consider the following when working with portfolios:
 * When you create or move an Adobe-enterprise storage project to a legacy Workfront-storage portfolio, the portfolio is automatically converted to an Adobe enterprise-storage object.
 * If the converted portfolio previously had documents attached, they continue to remain stored in Workfront storage. New documents are also stored in Workfront storage. 
 * If the converted portfolio had no documents attached in Workfront storage, new documents are stored in Adobe enterprise storage.
+* When you create portfolios using a Workfront Planning automation, Workfront uses your system's default storage preference for the portfolio. You must purchase the Planning package for access to Workfront Planning. 
 
 ### Document management for programs
 
 Consider the following when working with programs: 
 
-* When you create an Adobe enterprise-storage program, Workfront creates a folder in the Documents section of the program where documents are saved. The folder name is the same name as the program. You cannot delete or manually rename the folder. The folder is renamed if you change the name of the program, to match the program's new name.
+* When you create an Adobe enterprise-storage program, Workfront creates a folder in the Documents section of the program where documents are saved. The folder name is the same as the name of the program. You cannot delete or manually rename the folder. The folder is renamed if you change the name of the program, to match the program's new name.
 * When you create or move an Adobe-enterprise storage project to a legacy Workfront-storage portfolio, the portfolio is automatically converted to an Adobe enterprise-storage object.
 * If the converted program previously had documents attached, they continue to remain stored in Workfront storage. New documents are also stored in Workfront storage. 
 * If the converted program had no documents attached in Workfront storage, new documents are stored in Adobe enterprise storage.
+* When you create programs using a Workfront Planning automation, Workfront uses your system's default storage preference for the program. You must purchase the Planning package for access to Workfront Planning. 
 
 ### Document management for tasks
 
@@ -165,6 +169,7 @@ Consider the following when working with issues:
 * You can rename and delete the document folder from the Adobe enterprise-storage issue which also deletes the documents in the folder. After you add new documents to the issue, the folder is automatically recreated. Deleted documents are not placed back in the folder. 
 * For Adobe enterprise-storage projects, the document folder on an issue displays as a subfolder on the documents folder automatically created for the project.
 * You cannot copy or move an issue from a Workfront-storage project to an Adobe-storage one. The reverse is also not possible. 
+* When you submit a request with a document attached to a Workfront-storage project, the Documents area of the request displays the document using the storage type of the project, even when the system storage default preference is Adobe enterprise. 
 
 ### Document management for project templates
 
