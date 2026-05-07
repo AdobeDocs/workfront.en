@@ -93,7 +93,7 @@ Old:
 
 * If the project has tasks or issues with logged hours, the Workfront or group administrator must allow the deletion of these tasks by configuring the Task & Issue Preferences in your Workfront instance for you to be able to delete the project that contains the tasks.
 
-  For more information about enabling the deletion of tasks, issues , or projects where hours are logged, see the "Deletion" section in [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  For more information about enabling the deletion of tasks, issues, or projects where hours are logged, see the "Deletion" section in [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays in NWE only forever)</p>
@@ -108,6 +108,8 @@ Old:
    * Documents
 
      You cannot delete a project that has an attached document which has been checked out. For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
+
+     You cannot restore individual documents that were deleted when the project was deleted from the Documents tab in the Recycle Bin. You can only restore the documents deleted when the project was deleted when you restore the project.
    
    * Tasks 
    * Subtasks

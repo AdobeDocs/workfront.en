@@ -169,7 +169,7 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## Add projects to goals
 
-1. Click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) (draft this  for Shell: or click the **Main Menu** ![Main Menu lines](assets/three-line-main-menu-icon.png) in the upper-left corner, if it's available.) , then **Goals**. 
+1. Click the **Main Menu** ![Main Menu icon](assets/lines-main-menu.png), then **Goals**. 
 1. From the Goal List, click the name of a goal to open the goal page.
 1. Click **Progress indicators** in the left panel.
 1. From the **New progress indicator** drop-down menu, click **Add existing project**. 

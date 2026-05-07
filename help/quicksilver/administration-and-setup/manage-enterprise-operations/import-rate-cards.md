@@ -10,8 +10,6 @@ exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
 ---
 # Import rate cards from a template
 
-{{highlighted-preview-article-level}}
-
 You can use a template file to build your rate cards in Excel and import them into Adobe Workfront, instead of adding all of the job roles and rates manually.
 
 To see the example rate cards described in this article, download the [sample file](assets/rate-cards-sample.zip).
@@ -227,6 +225,16 @@ Following these steps will prevent unnecessary issues and ensure a smooth and ac
 ## Update existing rate cards
 
 You can update the rates in your existing rate cards using the same Excel template and upload those changes to Workfront.
+
+Only the RATE_RTCRD (Rates Setup) tab is required for updating existing rates.
+
+>[!NOTE]
+>
+>Uploading rates for an existing rate card overwrites all of the current job roles and rates on the rate card.
+>
+>For example, if you have 5 job roles with rates on the existing rate card and the Excel file has 1 job role, then the rate card will have 1 job role after you upload. To keep the other 5 job roles and their rates on the rate card, you must include them in the Excel file.
+
+To update existing rate cards:
 
 {{step-1-to-setup}}
 

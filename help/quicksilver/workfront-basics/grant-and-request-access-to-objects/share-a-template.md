@@ -141,6 +141,36 @@ The following table displays what permissions you can grant users when allowing 
    <td>  </td> 
    <td>✓</td> 
   </tr> 
+  <tr> 
+   <td>View billing rates</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>View cost rates</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>View general finance</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Edit billing rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td>Edit cost rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr>
+  <tr> 
+   <td>Edit general finance</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr>
   <tr data-mc-conditions=""> 
    <td> <p>Add Documents</p> <p>Tip: Sometimes people add documents to a project template thinking that they're adding them to a project. You can prevent this for your recipients by disabling this setting.</p> </td> 
    <td>  </td> 

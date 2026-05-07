@@ -262,7 +262,7 @@ Old:
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Finance**.
 
-   ![Edit template box Finance section](assets/edit-template-box-finance-section.png)
+   ![Edit template box Finance section](assets/edit-template-finance-section-040626.png)
 
 1. Update the following fields:
 
@@ -270,6 +270,14 @@ Old:
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong>Preserve project billing rates information</strong></td>
+      <td><p>When you enable this option, all assignment billing rates are permanently frozen to the highest applicable rate from the billing hierarchy. This is a one-time selection, and you cannot disable the option once the project has assignments or hours. After preservation, assignment billing rates cannot be changed, edited, or overridden anywhere on the project.</p></td>
+     </tr>
+     <tr>
+      <td><strong>Use date-effective exchange rates from the system</strong></td>
+      <td><p>When this option is selected, the system-level date-effective exchange rates are always used, and exchange rate overrides are not permitted on the project.</p> <p>You must also select the <strong>Exchange Rate Date</strong> to start from, when the option is selected.</p></td> 
+     </tr>
       <tr> 
       <td role="rowheader"><strong>Currency</strong></td> 
       <td><p>Specify the currency for the future project, if it is different than the default currency of your system. This field is not visible if you have only the default currency in the system.<br>For more information about currency, see <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p></td> 
@@ -747,9 +755,11 @@ Adding the following items to a template is identical to adding them to a projec
 You can add the following items to the tasks in the template:
 
 * Documents
+
+   For more information, see [Edit template tasks](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md). 
 * Expenses
 
-  For more information about adding expenses, see [Manage project expenses](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+   For more information about adding expenses, see [Manage project expenses](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 * Approvals
 
@@ -758,7 +768,7 @@ You can add the following items to the tasks in the template:
 
 ## Activate or deactivate a template
 
-You can deactivate a template if you want users to not be able to find it and create proojects from it. You cannot attach a deactivated template to projects nor use it to create a project. 
+You can deactivate a template if you want users to not be able to find it and create projects from it. You cannot attach a deactivated template to projects nor use it to create a project. 
 
 Deactivated templates do not affect existing projects that were created using them. 
 

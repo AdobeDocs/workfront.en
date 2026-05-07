@@ -10,8 +10,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Use enhanced lists
 
-{{preview-fast-release-general}}
-
 Enhanced lists are available in some areas of Adobe Workfront. These lists use a table format for displaying the list items, and they have a different look and feel than the standard lists. The management of views is also enhanced, including filtering, grouping, managing columns, and searching.
 
 For information about the standard lists, see [Get started with lists in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
@@ -58,13 +56,13 @@ Below are some types of Workfront object lists that use the enhanced list format
 | Priorities | <ul><li>Home &gt; select the Priorities icon in the left menu</li><li>Main Menu &gt; Priorities</li></ul> |
 | List of requests | <ul><li>Requests (new experience only)</li><li>My Requests widget on Home</li></ul> |
 | Lists of statuses, priorities, severities, and exchange rates in Setup | <ul><li>Setup &gt; Project Preferences &gt; Statuses</li><li>Setup &gt; Project Preferences &gt; Priorities</li><li>Setup &gt; Project Preferences &gt; Severities</li><li>Setup &gt; Project Preferences &gt; Exchange Rates</li></ul> |
-| <span class="preview">List of reports</span> | <span class="preview">Reports (**Use shareable folders** must be turned on)</span> |
-| <span class="preview">List of job roles and rates on a rate card</span> | <span class="preview">Setup > Rate Cards > select a rate card > Job Roles and Rates</span> |
-| <span class="preview">List of translations</span> | <span class="preview">Setup > Localization</span> |
-| <span class="preview">List of snapshots</span> | <span class="preview">Project > Snapshots</span> |
-| <span class="preview">List of resources for billing</span> | <span class="preview">Project > Resource for Billing</span> |
-| <span class="preview">New Advanced Assignments on a task</span> | <span class="preview">Task > Assignments > Advanced </span> |
-
+| List of reports | Reports (**Use shareable folders** must be turned on) |
+| List of job roles and rates on a rate card | Setup > Rate Cards > select a rate card > Job Roles and Rates |
+| List of translations | Setup > Localization |
+| List of snapshots | Project > Snapshots |
+| List of resources for billing | Project > Resource for Billing |
+| New Advanced Assignments on a task | Task > Assignments > Advanced |
+| Documents on Adobe enterprise storage | Project, task, issue, portfolio, program template > Documents |
 
 ## Add items to an enhanced list
 
@@ -183,8 +181,6 @@ To add and remove columns:
 
    The list updates the columns according to the choices you made.
 
-<div class="preview">
-
 ### Change the row height in a view
 
 >[!NOTE]
@@ -198,8 +194,6 @@ To add and remove columns:
       * Standard. This is the default choice. 
       * Medium
       * Tall
-
-</div>
 
 ## Update enhanced list elements
 
@@ -255,17 +249,15 @@ To share a view:
 
    * **View**: Users can apply the view to the list but not share it.
      
-     <span class="preview">When View access users update the view, those changes are saved to the user's personal preferences. A blue dot on the view name (in the user's **Shared Views**) shows that personal updates are applied to the view.</span>
+     When View access users update the view, those changes are saved to the user's personal preferences. A blue dot on the view name (in the user's **Shared Views**) shows that personal updates are applied to the view.
 
    * **Manage**: Users can rename, share, or delete the view, and edit the view's elements.
 
-      <span class="preview">When Manage access users make changes to the view, all users who have the view shared with them will see those updates when the view is applied to the list.</span>
+      When Manage access users make changes to the view, all users who have the view shared with them will see those updates when the view is applied to the list.
 
 1. Click **Save**.
 
-   <span class="preview">If you share a view with a user and then remove that access, the view is removed from the user's **Shared Views**. If the user had the shared view applied to the list when their access is removed, then the system default view is applied.</span>
-
-<div class="preview">
+   If you share a view with a user and then remove that access, the view is removed from the user's **Shared Views**. If the user had the shared view applied to the list when their access is removed, then the system default view is applied.
 
 ### Copy a view
 
@@ -285,10 +277,6 @@ When a view is shared with you to which you do not have permission to edit, you 
    >
    >The **Copy with preferences** option is only available when you have made changes to a view that was shared with you.
 
-</div>
-
-<div class="preview">
-
 ### Reset a view
 
 >[!NOTE]
@@ -306,10 +294,6 @@ When a view is shared with you that you do not have permission to edit, and you 
    >The **Reset to default** option is only available when you have made changes to a view that was shared with you.
 
    ![Copy and reset a view options](assets/glist-copy-view-shared-with-you.png)
-
-</div>
-
-<div class="preview">
 
 ### Apply conditional formatting in a view
 
@@ -357,8 +341,6 @@ Conditional formatting helps you highlight important information in the view bas
    The formatting is applied immediately to the list view.
    There is a blue dot next to the **Format cells** icon to indicate that the view has special formatting applied.
 
-</div>
-
 ### Filter items in an enhanced list
 
 >[!NOTE]
@@ -379,9 +361,7 @@ Filters help you reduce the amount of information you display in the list.
 
    >[!TIP]
    >
-   ><span class="preview">To apply a personalized filter, select one of the following options for a field value:</span> 
-   >
-   ><div class="preview">
+   >To apply a personalized filter, select one of the following options for a field value:
    >
    >* **Me (logged in user)** to refer to the logged in user in fields referring to users. 
    >
@@ -391,9 +371,7 @@ Filters help you reduce the amount of information you display in the list.
    >
    >* **My company** to refer to your company in fields referring to companies.
    > 
-   >* **My roles** or **My primary role** to refer to your job roles in fields referring to roles. 
-   >
-   ></div>
+   >* **My roles** or **My primary role** to refer to your job roles in fields referring to roles.
 
 1. Click **Add condition** to add another condition to the filter.
 

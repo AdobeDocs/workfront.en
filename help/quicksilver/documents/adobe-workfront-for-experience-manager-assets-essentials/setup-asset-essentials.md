@@ -17,7 +17,8 @@ Connect your work with your content in Experience Manager Assets Essentials​:
 
 >[!NOTE]
 >
->You can also connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs. Follow the configuration instructions in this article for each integration you'd like to set up.
+>You can also connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs. Follow the configuration instructions in this article for each integration you'd like to set up.<br>
+>This functionality is not available in the new Documents area.
 
 ## Access requirements
 
@@ -59,6 +60,8 @@ Connect your work with your content in Experience Manager Assets Essentials​:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
+
 
 +++
 

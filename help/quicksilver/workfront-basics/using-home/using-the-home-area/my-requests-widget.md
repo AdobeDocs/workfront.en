@@ -11,11 +11,13 @@ git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 ---
 # Use the My Requests widget
 
-<!--remove Preview and Production references at Production release April 15, 2026-->
+<!--
+remove Preview and Production references at Production release April 15, 2026
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 >[!IMPORTANT]
 >
@@ -96,14 +98,9 @@ To configure the filter in the My Requests widget:
    * View
    * Filter
    * Columns
-   
-   <div class="preview">
-   
    * Grouping
    * Format cells
    * Row height
-   
-   </div>
    
    For more information on updating view elements in the requests list, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -206,7 +203,7 @@ You can find objects created by a request in the My Requests widget.
 >
 >* Planning and Workfront requests in the Subject field. 
 >* Planning records created from Planning requests in the Object created field.
->* <span class="preview">Workfront tasks and issues converted from Workfront requests in the Object created field, in the Preview environment.</span>
+>* Workfront tasks and issues converted from Workfront requests in the Object created field.
 
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/lines-main-menu.png) in the upper-left corner, then click **[!UICONTROL Home]**.
 1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**, then click it to add it to **Home**. 
@@ -217,10 +214,7 @@ You can find objects created by a request in the My Requests widget.
 
    >[!TIP]
    >
-   >In the Production environment, only Planning records have a link in the **Created object** field.
-   >   
-   ><span class="preview">In the Preview environment, Workfront tasks and projects converted from issues as well as Planning records created  from Planning requests have a link in the **Created object** field.</span>
-   >
+   >Workfront tasks and projects converted from issues as well as Planning records created from Planning requests have a link in the **Created object** field.
 
    
 

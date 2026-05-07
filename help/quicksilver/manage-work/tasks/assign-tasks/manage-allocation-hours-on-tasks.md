@@ -59,10 +59,14 @@ You can modify the allocation hours when you make advanced assignments on a task
   <tr> 
    <td>Object permissions</td>
    <td><p>Contribute or higher permissions to the task</p>
-   <p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience.</p> 
+   <p>Edit permissions to update allocation hours in the Edit Task box.</p> 
+   <!--
+   Not true anymore:
    <p><b>NOTE</b></p>
    <p>
-   You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a>.</p></td>
+   You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a>.</p>
+   -->
+   </td>
   </tr>
  </tbody>
 </table>
@@ -70,13 +74,6 @@ You can modify the allocation hours when you make advanced assignments on a task
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--
-Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
-
-<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
--->
-
 
 ## Considerations for modifying the allocation hours for a task
 
@@ -103,6 +100,10 @@ Take this piece out of the table above when we remove the new experience/ after 
 1. Ensure that the **Duration Type** of the task is **Simple**.
 1. Modify the **Allocations** field for each task assignee. These are overall allocations for each assignment to this task, for the entire duration of the task. This might also update the overall **Planned Hours** of the task.
 
+   You may see one of these screens depending on your organization's Workfront or Workflow package.
+
    ![Modify allocations](assets/advanced-assignments-duration-type-allocations.png)
+
+   ![Modify allocations](assets/new-aa-allocation-by-hour.png)
 
 1. Click **Save**.

@@ -12,10 +12,11 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 # Connect records 
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+-->
 
 {{planning-important-intro}}
 
@@ -46,10 +47,19 @@ You can connect the following:
     * Companies
     * Groups
 
-  * Adobe Experience Manager Assets
+  * Adobe Experience Manager
 
-    * Image files
-    * Folders
+    * Assets
+
+        You can connect the following types of assets from Workfront Planning:
+
+        * Image files
+        * Folders
+    * Content Fragments
+
+* Adobe GenStudio for Performance Marketing
+
+    * Brands
 
   <!--when you add more objects, fix the Access Requirements below which right now refer only to projects-->
 
@@ -69,8 +79,8 @@ You can connect the following:
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p>
-<p>Any Workflow and any Planning package</p>
+<p>Any Workfront or Workflow package</p>
+<p>Any Planning package</p>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
 <tr> 
@@ -78,7 +88,7 @@ You can connect the following:
    <p> Additional products</p> </td> 
    <td> 
    <p> In addition to Adobe Workfront, you must have the following, if you want to connect records with objects from the following applications:</p>
-   <ul><li><p>An Adobe Experience Manager Assets license and an integration between AEM Assets and Workfront to connect AEM assets with Planning types.</p>
+   <ul><li><p>An Adobe Experience Manager license and an integration between Adobe Experience Manager and Workfront to connect AEM assets or Content Fragments with Planning record types.</p>
    <p>For information, see <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p></li>
    <li><p> An Adobe GenStudio for Performance Marketing license to connect record types with GenStudio Brands</p>
    <p>For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Get started with Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
@@ -270,7 +280,6 @@ You can connect records from Workfront Planning in the following areas of a Plan
       >* We use "linked fields" and "lookup fields" interchangeably. 
       >
       >* When you choose to connect multiple records when you connected the record types, the field values from the multiple objects are either displayed separated by commas or are aggregated according to the aggregator you chose when connecting the record types.
-      >* You cannot add Workfront typeahead fields as lookup fields. In the Production environment, this includes people-type fields like Project Owner, or Project Sponsor. <span class="preview">You can add people-type fields as lookup fields in the Preview environment.</span>
       >
       >* Workfront objects' date field information displays in 24 hour format in Workfront Planning, regardless of how it displays in Workfront. 
       >
@@ -375,21 +384,30 @@ After you create a connection between a record type and a Workfront object type,
 
 ### Connect Workfront Planning records to Adobe Experience Manager objects from the table view or the Details area of a record
 
-<!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
+<!--
+when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications
+-->
 
+<!--
+No longer needed to specify: 
 >[!IMPORTANT]
 >
->You must have an Adobe Experience Manager Assets license, and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console to be able to connect Workfront Planning records to Adobe Experience Manager Assets.
+>You must have an Adobe Experience Manager license, and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console to be able to connect Workfront Planning records to Adobe Experience Manager.
 >
 >If you have questions about onboarding to the Adobe Admin Console, see the [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+-->
 
-After you create a connection between a record type and Adobe Experience Manager Assets, you can connect individual records to Experience Manager assets. The asset fields you connected from Experience Manager Assets when you created the connection automatically populate on the record type you linked from.
+After you create a connection between a record type and Adobe Experience Manager objects, you can connect individual records to Experience Manager objects. The asset fields you connected from Experience Manager when you created the connection automatically populate on the record type you linked from.
 
 >[!NOTE]
 >
 >Planning records and their fields are accessible from Experience Manager Assets when your Workfront administrator configures the metadata mapping through the integration between Workfront and Adobe Experience Manager Assets. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
-To connect records with Experience Manager assets: 
+<!--
+metadata mapping is not available yet for content fragments - as of April 22, 2026. Syuzanna said the mapping is available just for GenS workspace, but checking again with her and Isk.
+-->
+
+To connect records with Experience Manager objects: 
 
 {{step1-to-planning}}
 
@@ -397,20 +415,28 @@ To connect records with Experience Manager assets:
 
     The workspace opens and the record types display.
 1. Click the card of a record type to open the record type page. 
-1. Select a **Table** view from the **View** drop-down menu in the upper-right corner of the record type page.
+1. Select a **Table** view from the **View** drop-down menu in the upper-left corner of the record type page.
 
 1. (Optional) Click **New record** to add new records to the record type that you selected. For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
-1. (Conditional) After you connect the selected record type with Experience Manager Assets, go to the connected field on a record and either click the field, or click **Connect** to add Experience Manager assets to the record, then click the **+** icon. 
+1. (Conditional) After you connect the selected record type with Experience Manager objects, go to the connected field on a record and either click the field, or click **Connect** to add Experience Manager objects to the record, then click the **+** icon.
 
     >[!TIP]
     >
-    >  You can add click the **+** icon in the linked object field in the record page to connect assets to the record.
+    >  You can click the **+** icon in the linked object field in the record's details page to connect assets to the record.
 
-    The **Select Assets** box displays. <!--we might change this to Connect assets-->
+    The Content Advisor box displays.
 
+    ![Content Advisor box for AEM record connections](assets/content-advisor-assets-nothing-selected.png)
+
+    <!--
+    The **Select Assets** box displays. we might change this to Connect assets.
+    --> 
+
+    <!--
     ![Select assets box for AEM record connections](assets/select-assets-box-for-aem-record-connections.png)
+    -->
 
-1. Click to select some of the following types of assets:
+1. From the **Assets** tab, click to select some of the following types of assets:
 
     * Images
     * Folders
@@ -419,16 +445,21 @@ To connect records with Experience Manager assets:
 
     >[!IMPORTANT]
     >
-    > You can connect only assets you have access to view in Experience Manager. Once connected, all Workfront Planning users can view the assets in Workfront Planning, regardless of their access in Experience Manager Assets. 
+    > You can connect only assets you have access to view in Experience Manager. Once connected, all Workfront Planning users can view the assets in Workfront Planning, regardless of their access in Experience Manager Assets.
+    > For more information about Content Advisor, see [Use Content Advisor to access AEM content in Adobe applications](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
-1. Click **Select**. <!-- we might change this to Connect-->
+1. From the **Content Fragments** tab, select content fragments to add to the linked record field.
 
-    The following are added: 
+   For more information about content fragments, see [Use Content Advisor to access AEM content in Adobe applications](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
-    * The selected Experience Manager assets are added to the linked record field. 
-    * The linked fields (or lookup fields) populate with information from the Experience Manager connected assets. 
+1. When you are finished choosing assets or content fragments, click **Select**. <!-- we might change this to Connect-->
+
+    The following are added:
+
+    * The selected Experience Manager assets  or content fragments are added to the linked record field. 
+    * The linked fields (or lookup fields) populate with information from the Experience Manager connected objects. 
     
-      Any existing information from the fields of the Experience Manager assets displays in the linked or lookup fields automatically. 
+      Any existing information from the fields of the Experience Manager assets or content fragments displays in the linked or lookup fields automatically. <!--verifying of fragments also share lookup fields - not sure from the UI available-->
 
       >[!TIP]
       >
@@ -436,7 +467,7 @@ To connect records with Experience Manager assets:
       >
       >* A linked record field to the Workfront Planning linked records is not created for the linked Experience Manager assets in the Experience Manager Assets application. 
      
-1. (Optional) Go to the record type you linked to Experience Manager Assets from and click the name of an asset in the linked record field. The Experience Manager details of the asset display in a pop-up window. 
+1. (Optional and conditional) For assets, go to the record type you linked to Experience Manager from and click the name of an asset in the linked record field. The Experience Manager details of the asset display in a pop-up window. <!--not sure if this is also possible for fragments??-->
 
     ![Asset pop-up window with AEM details and thumbnail](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
@@ -452,13 +483,13 @@ To connect records with Experience Manager assets:
     * Date created
     * Date modified 
 
-1. (Optional) To open the Experience Manager assets record page in Experience Manager, go to the record type page of the record you are linking from, click the name of an asset in the linked record field to open the pop-up window, then click the **Open in AEM** icon ![Open asset in AEM icon](assets/open-asset-icon.png) to open the asset. 
+1. (Optional and conditional) For assets, to open the Experience Manager assets record page in Experience Manager, go to the record type page of the record you are linking from, click the name of an asset in the linked record field to open the pop-up window, then click the **Open in AEM** icon ![Open asset in AEM icon](assets/open-asset-icon.png) to open the asset. <!--not sure if this is also possible for fragments??-->
 
    This opens the Experience Manager asset in Adobe Experience Manager Assets.  
 
-1. (Optional) From the table view of the record type, hover over the column header of the linked Experience Manager asset, and click the drop-down menu, then click **Edit lookup fields**.
+1. (Optional and conditional) For assets, from the table view of the record type, hover over the column header of the linked Experience Manager asset, and click the drop-down menu, then click **Edit lookup fields**. <!--not sure if this is also possible for fragments??-->
 
-1. Add Experience Manager Assets object fields from the **Unselected fields** area
+1. Add Experience Manager Assets object fields from the **Unselected fields** area <!--not sure if this is also possible for fragments??-->
 
     Or
 

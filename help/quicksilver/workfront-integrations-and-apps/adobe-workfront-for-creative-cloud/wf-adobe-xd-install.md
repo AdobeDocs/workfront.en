@@ -135,4 +135,3 @@ To fix this issue,
 
 1. Enter your Workfront domain. The domain must be `company-name.my.workfront.com` and not `experience.adobe.com`.
 
-To find your Workfront domain if you are on the Adobe Unified Experience, go to 

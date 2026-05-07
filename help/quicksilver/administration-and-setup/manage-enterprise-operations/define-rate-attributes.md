@@ -11,8 +11,6 @@ exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
 ---
 # Define rate attributes
 
-{{highlighted-preview-article-level}}
-
 Rate attributes extend Adobe Workfront's rate card and rates functionality by allowing you to add additional dimensions to rates beyond the job role. This is critical for agencies and enterprises where rates vary not only by job role but also by factors such as agency, location, brand, cost center, or others.
 By combining these attributes, Workfront can automatically select the correct rate for assignments, ensuring financial accuracy and consistency across projects.
 
@@ -82,7 +80,8 @@ Rate attributes are supported across all areas where rates exist in Workfront:
 
 <!--
 BULLET POINT Staffing plan resources
-BULLET POINT Non-labor resources: Attributes can also be defined on resources such as equipment or services.-->
+BULLET POINT Non-labor resources: Attributes can also be defined on resources such as equipment or services.
+-->
 
 <!--Non-labor resource categories and -->Job roles do not support rate attributes directly at the object level. They are connected to rate attributes through the rates defined on them.
 

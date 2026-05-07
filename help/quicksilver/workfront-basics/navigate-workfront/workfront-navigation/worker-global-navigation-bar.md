@@ -28,6 +28,8 @@ The following areas are included in the default layout of a [!UICONTROL Worker]:
 
 * **[!UICONTROL Calendars]**: Calendars that are shared with you display here. For information, see [Calendars: article index](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
+* **[!UICONTROL Resourcing]**: You can view resource allocation in the Resource Planning tools and view Resource Pools here. For information, see [Manage resources](../../../resource-mgmt/manage-resources.md).
+
 * **[!UICONTROL Teams]**: Tasks and issues assigned to your teams display in this area. As a Worker, you are the only [!DNL Workfront] user who sees the [!UICONTROL Teams] area by default.
 
    For information, see [Create and manage teams](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
@@ -38,13 +40,13 @@ The following areas are included in the default layout of a [!UICONTROL Worker]:
 
 * **[!UICONTROL Documents]**: You can upload documents, or review documents shared with you, here. For information, see [Documents](../../../documents/documents-overview.md).
 
-* **[!UICONTROL Resourcing]**: You can view resource allocation in the Resource Planning tools and view Resource Pools here. For information, see [Manage resources](../../../resource-mgmt/manage-resources.md).
+* **[!UICONTROL Blueprints]**: Review existing blueprints in your system and request one to be installed, if the [!DNL Workfront] administrator configured the request queue for blueprints. For more information, see [Blueprints overview](../../../administration-and-setup/blueprints/blueprints-overview.md).
+
+* **[!UICONTROL Priorities]**: You can manage and prioritize work quickly. For information, see [Get started with Priorities](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md).
 
 * **[!UICONTROL Boards]**: Work with flexibility and collaboration with your team members by using shared boards that contains columns and cards reflecting work you want to get done. For information, see [Get started with boards: article index](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
-* **[!UICONTROL Blueprints]**: Review existing blueprints in your system and request one to be installed, if the [!DNL Workfront] administrator configured the request queue for blueprints. For more information, see [Blueprints overview](../../../administration-and-setup/blueprints/blueprints-overview.md).
-
-![Worker main menu](assets/worker-main-menu-350x426.png)
+![Worker main menu](assets/worker-main-menu-2026.png)
 
 ## Customize your default [!UICONTROL Main Menu]
 

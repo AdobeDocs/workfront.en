@@ -46,8 +46,9 @@ You can edit one template task at a time, or you can edit template tasks in bulk
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
+   <td>  <p>To use the User and Role Hourly Revenue and Cost Types: Workflow Ultimate</p>
+      <p>To edit all other settings and use all other Revenue and Cost Types: Any Workfront or Workflow package</p>  </td> 
+  </tr>
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Standard</p>
@@ -116,10 +117,16 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 1. To edit limited information about the template task, do the following: 
    1. (Optional) Click **Updates** in the left panel to add updates to the template task. Template task updates do not transfer to project tasks when the template is used to create a project.
    1. (Optional) Click **Documents** in the left panel to add documents to the template task. The documents will transfer to the project tasks when you use the template to create the project. 
+
+      >[!TIP]
+      >
+      >Adding documents to a template task differs depending on whether your organization uses Workfront or Adobe storage to store documents. For information, see [Add documents to Adobe Workfront from your file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md). 
+
    1. (Conditional) To edit limited information about a template task, click **Template Task Details** in the left panel, then go to the areas of the Details section to edit information for each area.
    1. (Optional) Do any of the following: 
       * Click the **Collapse all** icon ![Collapse all icon](assets/collapse-all-icon.png) to collapse all areas. 
       * Click the **Edit** icon ![Edit icon](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
+
 
          * Overview
          * Custom Forms
@@ -147,13 +154,13 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
 1. Consider specifying information in any of the following sections:
 
-* [Template task name](#template-task-name)
-* [Overview](#overview)
-* [Assignments](#assignments)
-* [Finance](#finance)
-* [Custom Forms](#custom-forms)
-* [Settings](#settings)
-* [Comment](#comment)
+   * [Template task name](#template-task-name)
+   * [Overview](#overview)
+   * [Assignments](#assignments)
+   * [Finance](#finance)
+   * [Custom Forms](#custom-forms)
+   * [Settings](#settings)
+   * [Comment](#comment)
 
 1. Continue editing the template tasks as described in the sections below. 
 
@@ -433,6 +440,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
         <li> <p style="font-weight: normal;"><span>Fixed Hourly</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>User Hourly</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>Role Hourly</span> </p> </li> 
+        <li> <p style="font-weight: normal;">User and Role Hourly</p> </li>
        </ul> <p>For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -442,11 +450,14 @@ You can edit a template task using the Edit Template Task or Template Task Detai
         <li> <p style="font-weight: normal;">Not Billable</p> </li> 
         <li> <p style="font-weight: normal;">User Hourly</p> </li> 
         <li> <p style="font-weight: normal;">Role Hourly</p> </li> 
+        <li> <p style="font-weight: normal;">User and Role Hourly</p> </li>
         <li> <p style="font-weight: normal;">Fixed Hourly</p> </li> 
         <li> <p style="font-weight: normal;">User Hourly w/Cap</p> </li> 
         <li> <p style="font-weight: normal;">Role Hourly w/Cap</p> </li> 
+        <li> <p style="font-weight: normal;">User and Role Hourly w/Cap</p> </li>
         <li> <p style="font-weight: normal;">User Hourly Plus Fixed</p> </li> 
         <li> <p style="font-weight: normal;">Role Hourly Plus Fixed</p> </li> 
+        <li> <p style="font-weight: normal;">User and Role Hourly Plus Fixed</p> </li>
         <li> <p style="font-weight: normal;">Fixed Revenue</p> </li> 
        </ul> <p>For more information about tracking revenue, see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>.</p> </td> 
      </tr> 
@@ -592,6 +603,11 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 1. To edit limited information about the template task, do the following: 
    1. (Optional) Click **Updates** in the left panel to add updates to the template task. Template task updates do not transfer to project tasks when the template is used to create a project.
    1. (Optional) Click **Documents** in the left panel to add documents to the template task. The documents will transfer to the project tasks when you use the template to create the project. 
+
+      >[!TIP]
+      >
+      >Adding documents to a template task differs depending on whether your organization uses Workfront or Adobe storage to store documents. For information, see [Add documents to Adobe Workfront from your file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md). 
+      
    1. (Conditional) To edit limited information about a template task, click **Template Task Details** in the left panel, then go to the areas of the Details section to edit information for each area.
    1. (Optional) Do any of the following: 
       * Click the **Collapse all** icon ![Collapse all icon](assets/collapse-all-icon.png) to collapse all areas. 

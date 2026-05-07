@@ -192,7 +192,7 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. Click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png), then **Goals**. 
+1. Click the **Main Menu** ![Main Menu icon](assets/lines-main-menu.png), then **Goals**. 
 1. From the Goal List, click the name of a goal to open the goal's page.
 1. Click **Progress indicators** in the left panel.
 1. From the New progress indicator drop-down menu, click **Create activity**. 

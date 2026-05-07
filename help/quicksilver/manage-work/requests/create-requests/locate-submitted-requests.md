@@ -15,11 +15,11 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 <!--
 Remove production and preview references at release
--->
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 You can view the requests that you or someone else submitted, or requests you started but you never finished submitting. The unfinished requests are saved as drafts. 
 
@@ -98,7 +98,7 @@ Viewing submitted requests differs based on whether you are using the new or leg
 >* If you have Workfront Planning, your Workfront and Planning requests appear in the same list. Workfront requests display the value `Issue` in the **Object type** column.
 >* Up to 50 requests display in the list in the Requests area by default. To view more requests, scroll to the bottom of the list.
 
-You can view submitted requests in the Requests area and in the My Requests widget in Home. 
+You can view submitted requests in the Requests area and in the My Requests widget in Home.
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ You can view submitted requests in the Requests area and in the My Requests widg
 >
 >* Planning and Workfront requests in the Subject field. 
 >* Planning records created from Planning requests in the Object created field.
->* <span class="preview">Workfront tasks and issues converted from Workfront requests in the Object created field, in the Preview environment. </span>
+>* Workfront tasks and issues converted from Workfront requests in the Object created field.
 
 To view requests that you or other users have submitted in the new requesting experience:
 
@@ -122,14 +122,9 @@ To view requests that you or other users have submitted in the new requesting ex
    * View
    * Filter
    * Columns
-   
-   <div class="preview">
-
-   * **Grouping**
+   * Grouping
    * Format cells
    * Row height
-   
-   </div>
 
    For more information on managing information in the requests list, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). 
 

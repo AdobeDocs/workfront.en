@@ -14,13 +14,13 @@ You can easily locate items in [!DNL Adobe Workfront] by searching for them when
 
 You can see the [!UICONTROL Search] box in the upper-right corner of any page within [!DNL Workfront].
 
-![Search icon in navigation bar](assets/search-globalnavigationbar-350x62.png)
+![Search icon in navigation bar](assets/search-unified-shell-2026.png)
 
 You must have permissions to View an object before you can find it in a search. For this reason, search results vary from user to user.
 
 ## Access requirements
 
-+++ Expand this section to view the access needed to perform the steps in this article.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,16 +38,16 @@ You must have permissions to View an object before you can find it in a search. 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>[!UICONTROL View] access to the type of object </p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p></td> 
+   <td>[!UICONTROL View] access to the type of object/td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>You must have permissions to View an object before you can find it in a search.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td>You must have permissions to View an object before you can find it in a search.</td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -98,8 +98,9 @@ Consider the following limitations when using [!UICONTROL Search] in [!DNL Workf
 
 * Searches are not case-sensitive.
 * [!DNL Workfront] doesn't correct or understand typos.
-* Searching in [!DNL Workfront] doesn't support Wildcards.
-* Searching in [!DNL Workfront] supports partial word searches but doesn't support substring searches.\
+* Searching in [!DNL Workfront] doesn't support wildcards.
+* Searching in [!DNL Workfront] supports partial word searches but doesn't support substring searches.
+   
    For example, the search keyword "stand" would return results including the word "standard" but would not return results including the word "understand."
 
 ## Search for multiple words
@@ -184,11 +185,11 @@ To perform a Basic Search:
 
 1. (Optional) To search for a specific object, click the **[!UICONTROL All]** drop-down menu and select the object you want to search for.
 
-   ![Search by object type](assets/search-objecttype.png)
+   ![Search by object type](assets/search-by-object-type-2026.png)
 
 1. In the **[!UICONTROL Search]** box, start typing the information you are searching for.
    For information about what fields are searched in [!DNL Workfront], see the following section in this article: [Understand Search](#understand-search).
-   ![Search dropdown](assets/qs-search-drop-down-highlighted-350x234.png)
+   ![Search dropdown](assets/search-dropdown-suggestions-2026.png)
 
    As you begin typing in the search bar, [!DNL Workfront] makes recommendations based on your viewing history and it highlights the keyword you are searching for in blue.
 
@@ -202,7 +203,7 @@ To perform a Basic Search:
 
    >[!NOTE]
    >
-   >Sometimes, variations of a word display in the list of found items.\
+   >Sometimes, variations of a word display in the list of found items.
    >For example, searching for "marketing" displays objects that contain either "marketing" or "market" in the name.
 
 1. (Optional) If your search generated too many results, refine your search as described in [Refine a Basic Search](#refine-a-basic-search).
@@ -244,7 +245,8 @@ To perform an advanced search:
 1. In the upper-right corner of any page in [!DNL Workfront], click the **[!UICONTROL Search]** icon ![Search icon](assets/search-icon.png). The **Search** menu displays.
 
 1. At the bottom of the **Search** menu, click **[!UICONTROL Advanced Search]**. The **Search** page opens with the **Advanced Search** tab selected by default.
-   ![Advanced search](assets/qs-advanced-search-350x224.png)
+
+   ![Advanced search](assets/advanced-search-2026.png)
   
 
 1. Select the type of object you are searching for. **[!UICONTROL Tasks]** is selected by default.

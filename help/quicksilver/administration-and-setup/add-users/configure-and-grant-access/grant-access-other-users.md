@@ -60,15 +60,34 @@ You can manage what information users can view and edit for other users using a 
 ## Configure users' access to edit users using a custom access level
 
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. To change the ability of users with a Plan or Work license to view the profiles of other users:
+1. To change the ability of users with a Standard, Plan, or Work license to view information for other users, click the gear icon ![Gear icon](assets/gear-icon-settings.png) on the **View** button to the right of **Users**, then select the view options you want to grant in the **Fine-tune your settings** box:
 
-   1. Click the gear icon ![](assets/gear-icon-settings.png) on the **View** button to the right of **Users**.
-   
-   1. Disable **View Contact info**, then click the X to close the **Fine-tune your settings** box.
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>View Billing Rates</strong> </td> 
+      <td> Allows users to view billing rates on user profiles.</td>  
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>View Contact Info</strong> </td> 
+      <td> Allows users to view the user detail pages of other users.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>View Cost Rates</strong> </td> 
+      <td> Allows users to view cost rates on user profiles.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>View General Finance</strong> </td> 
+      <td> Allows users to view general finance fields (not related to billing or cost rates) on user profiles.</td>
+     </tr> 
+    </tbody> 
+   </table>
 
-      ![fine tune user settings](assets/fine-tune-users.png)
+   ![Fine tune View user settings](assets/fine-tune-view-users.png)
 
-1. To modify the ability of users with a Plan license access to edit other users, click the gear icon ![](assets/gear-icon-settings.png) on the **Edit** button to the right of **Users**, then select the abilities you want to grant:
+1. To modify the ability of users with a Standard or Plan license access to edit other users, click the gear icon ![Gear icon](assets/gear-icon-settings.png) on the **Edit** button to the right of **Users**, then select the edit options you want to grant in the **Fine-tune your settings** box:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -77,12 +96,24 @@ You can manage what information users can view and edit for other users using a 
      <tr> 
       <td role="rowheader"><strong>Create</strong> </td> 
       <td> <p>Allows users to create users.<br>This option is enabled by default.</p> 
-     <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.</p>
+     <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.<!--Check this October 2026--></p>
         </td>  
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Delete</strong> </td> 
-      <td> <p> Allows users to delete the users they have created themselves.<br>This option is enabled by default.</p> <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.</p> </td> 
+      <td> <p> Allows users to delete the users they have created themselves.<br>This option is enabled by default.</p> <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.<!--Check this October 2026--></p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Edit Billing Rates</strong> </td> 
+      <td> Allows users to edit billing rates on user profiles.</td>  
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Edit Cost Rates</strong> </td> 
+      <td> Allows users to edit cost rates on user profiles.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Edit General Finance</strong> </td> 
+      <td> Allows users to edit general finance fields (not related to billing or cost rates) on user profiles.</td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>User Admin (All Users)</strong> </td> 
@@ -102,6 +133,18 @@ You can manage what information users can view and edit for other users using a 
          <li><p>Reset the user's password</p><p><b>NOTE</b>:  A group administrator cannot log in as or reset the password of a Workfront administrator.</p></li>
         </ul><p>This option is disabled by default.</p></p> </td> 
      </tr> 
+     <tr> 
+      <td role="rowheader"><strong>View Billing Rates</strong> </td> 
+      <td> Allows users to view billing rates on user profiles.</td>  
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>View Cost Rates</strong> </td> 
+      <td> Allows users to view cost rates on user profiles.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>View General Finance</strong> </td> 
+      <td> Allows users to view general finance fields (not related to billing or cost rates) on user profiles.</td>
+     </tr>
     </tbody> 
    </table>
 

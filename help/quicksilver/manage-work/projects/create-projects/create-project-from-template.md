@@ -118,7 +118,7 @@ You can create a project from the Projects area in the Main Menu, or from the Pr
 
 1. Do one of the following:
 
-   * Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, or the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, if available, then click **Projects** and expand **New Project**. 
+   * Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Projects** and expand **New Project**. 
    * Go to a portfolio, then expand **New Project**.
 
      >[!TIP]
@@ -147,16 +147,35 @@ You can create a project from the Projects area in the Main Menu, or from the Pr
 
    ![Select a favorite template](assets/new-project-from-template-dropdown-with-template-favorites.png)
 
-   Or
-
-   Do the following:
+   Or do the following:
 
    1. Click **New Project from Template**.
-   1. In the **Search Templates** field, start typing the name of a template and click it when it displays in the list.
-   1. Review the template details on the right.
-   
-      The template details include the following:
+   1. (Optional) In the **Search Templates** field, start typing the name of a template and click it when it displays in the list.
+   1. Click the name of one of the following types of templates to choose them: 
 
+      * A Workfront-storage template
+
+         Workfront-storage templates display a legacy-storage icon ![Legacy storage icon](assets/legacy-storage-project-icon.png) next to their name. 
+
+         Documents on the template and on the future projects will be stored in Workfront storage.
+      * An Adobe-storage template
+
+         Documents on the template and on the future projects will be stored in Adobe enterprise storage.
+
+      >[!NOTE]
+      >
+      >* Using an Adobe enterprise-storage template creates an Adobe enterprise-storage project. 
+      >
+      >* Using a Workfront-storage template creates a Workfront-storage project. 
+      >
+      >* When you use an Adobe enterprise-storage template from a Workfront-storage portfolio or program, the project is an Adobe enterprise-storage project and the portfolio or program are also converted to Adobe enterprise-storage objects. All other Workfront-storage projects under the same portfolio or program remain unchanged. 
+      >
+      > Your Workfront instance might not have both types of document storage. 
+      >
+      >For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md). 
+
+   1. Review the following template details on the right:
+   
       * Template duration
       * Template owner
       * The number of top-level tasks, which includes the names of the top three tasks
@@ -201,9 +220,17 @@ You can create a project from the Projects area in the Main Menu, or from the Pr
 
    All details defined in the template associate automatically with the newly created project if you didn't change them in the previous step.
 
+   A document folder with the same name as the project is automatically created for Adobe-storage projects in the Documents section of the project. 
+
 ## Create a project from a template in the Templates area
 
 Instead of starting in the Projects area, you can create a project from a template by starting with the template.
+
+>[!NOTE]
+>
+>Templates associated with Workfront document storage create legacy Workfront-storage projects. Templates associated with Adobe enterprise document storage create Adobe-storage projects. Your Workfront instance might not have both types of document storage.
+>
+>For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md). 
 
 {{step1-to-templates}}
 
@@ -227,3 +254,5 @@ Instead of starting in the Projects area, you can create a project from a templa
 1. Click **Create project**.
 
    All details defined in the template associate automatically with the newly created project if you didn't change them in the previous step.
+
+   A document folder with the same name as the project is automatically created for Adobe-storage projects in the Documents section of the project. 

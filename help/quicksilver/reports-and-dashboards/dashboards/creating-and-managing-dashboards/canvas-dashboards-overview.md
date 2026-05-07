@@ -1,8 +1,7 @@
 ---
 title: Canvas Dashboards Overview
 description: You can create Canvas Dashboards that integrate Reporting Canvas visualizations with traitional reports and feature new layout options.
-hidefromtoc: yes
-hide: yes
+hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
 ---

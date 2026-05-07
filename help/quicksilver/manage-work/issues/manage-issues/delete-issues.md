@@ -73,6 +73,8 @@ The following objects attached to an issue are also deleted when you delete an i
 
   You cannot delete an issue that has a document which has been checked out attached to it. For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
 
+  You cannot restore individual documents that were deleted when the issue was deleted from the Documents tab in the Recycle Bin. You can only restore the documents deleted when the issue was deleted when you restore the issue.
+
 * Notes
 * Approvals
 
@@ -84,9 +86,9 @@ Depending on how your Workfront or group administrator configures the Project, T
   This also applies when you try to delete projects that have tasks with hours logged on them.
 
   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   
   <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">(this is not possible in classic)</span>
-  </MadCap:conditionalText>
+   
   -->
 
   For more information about configuring the deletion preferences for hours logged on issues, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).

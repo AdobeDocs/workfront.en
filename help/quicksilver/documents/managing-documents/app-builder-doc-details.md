@@ -5,8 +5,7 @@ title: AppBuilder within Workfront Document Details
 description: You can install AppBuilder within Document Details
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: yes
-hidefromtoc: yes
+hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
 ---

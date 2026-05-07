@@ -10,8 +10,6 @@ exl-id: ff1110fd-2d24-48a7-8000-712e551ca61a
 ---
 # Override user cost rates at the project level
 
-{{highlighted-preview-article-level}}
-
 You can specify what the cost rate is for a user on a specific project. This project-level cost rate overrides the cost rate at the system level for this user. Workfront uses the project-level cost rate of the job role to calculate cost, instead of using the system-level cost rate.
 
 This article describes how you can override the system user cost rates for a project.
@@ -45,7 +43,7 @@ For more information about calculating cost on the project, see [Overview of rev
   </tr> 
   <tr> 
    <td>Object permissions</td> 
-   <td>Manage permissions to the project that includes Edit Financial Data </td> 
+   <td>Manage permissions to the project that include Edit Cost Rates </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,7 +87,7 @@ For more information, see [Edit a user's profile](/help/quicksilver/administrati
 
    Workfront applies the override job role rate to the hours that occur during these time frames when calculating cost on the project.
 
-   There should be no gaps between the time frames of two override rates. The **Start Date** of an override rate should be the day immediately following the **End Date** of the previous override date.
+   Workfront allows you to leave gaps between override timeframes, but you will receive a warning to confirm this is intentional.
 
    You are not required to specify a Start Date for the first override rate, nor an End Date for the last override rate.
 

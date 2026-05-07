@@ -1,8 +1,7 @@
 ---
 title: Enhanced Authentication overview
 description: Hidden from search and from left nav
-hidefromtoc: yes
-hide: yes
+hide: true
 feature: System Setup and Administration
 role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85

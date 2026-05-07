@@ -40,7 +40,7 @@ The Schedule Performance Index (SPI) describes the relationship between the plan
   </tr> 
   <tr> 
    <td>Object permissions</td> 
-   <td>View or higher permissions to the project with permissions to View Finance</td> 
+   <td>View or higher permissions to the project with permissions to View General Finance</td> 
   </tr> 
  </tbody> 
 </table>

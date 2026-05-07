@@ -52,7 +52,9 @@ You can share the following objects in Workfront with other users:
    * [Share a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [Share a calendar report](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-* **Filters, views, and groupings**: For information, see [Share a filter, view, or grouping](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md). 
+* **Filters, views, and groupings**: For information, see [Share a filter, view, or grouping](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+
+* **Rate cards**: For information, see [Share a rate card](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md).
 
 * **Plans**: For information, see [Share a plan in the Scenario Planner](../../scenario-planner/share-a-plan.md).
 
@@ -112,7 +114,7 @@ The following table illustrates the level of permissions that you can select whe
      <li><p>View the object</p></li> 
      <li><p>Add documents to the object</p></li> 
      <li><p>Add issues to the object (if it is a task or a project)</p></li> 
-     <li><p>View Finance information about the object</p></li> 
+     <li><p>View cost rates, billing rates, or general finance information about the object</p></li> 
      <li> <p>Share the object<br></p> <p>When you share the object, you can grant other users the same permission level you have only on the object, not a higher level.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -134,7 +136,7 @@ The following table illustrates the level of permissions that you can select whe
     <ul> 
      <li>All the actions included with the View and Contribute permissions</li> 
      <li>Delete it</li> 
-     <li>Manage Finance information in it</li> 
+     <li>Manage cost rates, billing rates, or general finance information in it</li> 
     </ul> </td> 
   </tr> 
   <tr> 

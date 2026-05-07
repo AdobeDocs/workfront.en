@@ -11,8 +11,6 @@ exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
 ---
 # Manage rate cards
 
-{{highlighted-preview-article-level}}
-
 A rate card represents the contractual agreement with your client in which hourly rates are defined for the job roles that will complete the work. In a rate card, you can define multiple billing rates per job role, based on attributes such as agency, location, or cost center. Your unique rate attributes are configured in the Setup area. For more information, see [Define rate attributes](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
 For example, you could have a job role of Designer based in Paris for Agency A, another Designer based in Paris for Agency B, and a third Designer based in New York not assigned to an agency, each with different billing rates. However, attributes are not required for job roles on a rate card. The attributes serve as tools to establish more granular rates. A billing rate on a rate card can also be date effective, so that the rate starts and ends on specified dates.

@@ -2,21 +2,25 @@
 product-area: documents
 navigation-topic: manage-documents
 title: Check document storage limits
-description: While there are no restrictions on the types and sizes of individual files that users can upload to your Workfront instance, there is a limit on your Workfront Plan on the total amount of storage used by your Workfront instance. As an Adobe Workfront administrator, you monitor your instance's document storage from the Setup area.
+description: As an Adobe Workfront administrator, you view document storage usage and quota on the Customer Info page. How storage appears depends on whether your organization uses legacy Workfront storage or Adobe enterprise storage.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Check document storage limits
 
-While there are no restrictions on the types and sizes of individual files that users can upload to your Workfront instance, there is a limit on your Workfront Plan on the total amount of storage used by your Workfront instance. As an Adobe Workfront administrator, you monitor your instance's document storage from the Setup area.
+{{highlighted-preview}}
 
->[!NOTE]
->
->This functionality is not available in the new documents area.<br>
->If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+While there are no restrictions on the types and sizes of individual files that users can upload to your Workfront instance, your Workfront plan includes a total storage quota. As a Workfront administrator, you monitor usage and quota from the Setup area on the Customer Info page.
+
+How storage appears depends on whether your organization uses legacy Workfront storage or Adobe enterprise storage:
+
+* If you use legacy Workfront storage, see [Legacy Workfront storage](#legacy-workfront-storage) in this article.
+* If you use Adobe enterprise storage, see [Adobe enterprise storage](#adobe-enterprise-storage) in this article.
+
+   For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Access requirements
 
@@ -29,7 +33,8 @@ While there are no restrictions on the types and sizes of individual files that 
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td> <p>Any Workfront package to manage documents using legacy storage</p>
+      <p>Any Workflow package to manage documents using Adobe enterprise storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -42,15 +47,46 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Check document storage
+## Legacy Workfront storage
+
+If your organization uses legacy Workfront storage, the Customer Info page shows a single storage quota for documents uploaded directly to Workfront.
+
+To check legacy Workfront document storage:
 
 {{step-1-to-setup}}
 
 1. In the left panel, click **System** > **Customer Info**.
-1. In the **Basic Info** section, find **Storage Quota**. Here, you can view how much storage you're currently using as well as the total amount storage your Workfront Plan includes. 
+1. In the **Basic Info** section, find **Storage Quota**. Here, you can view how much storage you're currently using as well as the total amount of storage your Workfront plan includes.
 
 The storage quota is refreshed daily to show the most up-to-date count.
 
-   >[!NOTE]
-   >
-   >This limit does not apply to documents you link to Workfront from any other third-party service provider (SharePoint, Google Drive, Webdam, Box, Dropbox, any other Document Asset Management provider).
+>[!NOTE]
+>
+>This limit does not apply to documents you link to Workfront from any other third-party service provider (SharePoint, Google Drive, Webdam, Box, Dropbox, or any other document asset management provider).
+
+<div class="preview">
+
+## Adobe enterprise storage
+
+If your organization uses Adobe enterprise storage, Customer Info shows a storage overview that breaks usage into different sections for legacy Workfront storage, Adobe enterprise storage, and Frame.io. Workfront also applies a soft cap to uploads when usage exceeds your quota, so users can still upload documents.
+
+### View storage usage on Customer Info
+
+To check Adobe enterprise document storage:
+
+{{step-1-to-setup}}
+
+1. In the left panel, click **System** > **Customer Info**.
+1. Go to the **Storage Overview** section.
+1. View the usage for Adobe enterprise storage. 
+<!--Both Workfront and Frame.io usage are broken down separately, but roll up to the total usage for Adobe enterprise storage.-->
+
+![Adobe enterprise storage usage on Customer Info](assets/storage-usage.png)
+
+Usage figures refresh regularly so you see an up-to-date count. 
+
+### Email notifications for administrators
+
+When usage crosses 75%, 85%, or 100% of your storage quota, Workfront sends an email notification to System Administrators. 
+
+</div>

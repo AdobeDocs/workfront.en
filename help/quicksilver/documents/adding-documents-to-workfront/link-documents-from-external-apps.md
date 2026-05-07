@@ -55,8 +55,8 @@ You can proof and approve documents linked to an external cloud provider the sam
 
 >[!NOTE]
 >
->This functionality is not available in the new documents area.<br>
->If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>This functionality is not available in the new Documents area.<br>
+>If your organization uses enterprise storage, you will see the new Documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Access requirements
 
@@ -68,7 +68,7 @@ You can proof and approve documents linked to an external cloud provider the sam
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td>
-   <td> <p> Any</p> </td>
+   <td> <p>Any</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td>
@@ -116,7 +116,9 @@ You can link documents to Workfront from an external application such as Google 
 
 >[!IMPORTANT]
 >
->Dropbox stores documents based on the file path. Because of this, if a file linked from Dropbox is moved, renamed, or deleted, it becomes inaccessible in Workfront.
+>* Dropbox stores documents based on the file path. Because of this, if a file linked from Dropbox is moved, renamed, or deleted, it becomes inaccessible in Workfront.
+>* Browsing shared OneDrive folders in the file picker is not supported. To link a file that has been shared with you, use the search bar in the OneDrive file picker to locate the file by name, then select it to add it to Workfront.
+
 
 1. Go to the **Documents** area in Workfront where you want the document.
 1. Click **Add New**, then click the external document provider where you want to link documents to Workfront.

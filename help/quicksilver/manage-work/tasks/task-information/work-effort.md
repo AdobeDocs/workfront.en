@@ -36,9 +36,9 @@ As a project manager, you can decide how you want to estimate the amount of work
    <td role="rowheader">Work Effort </td> 
    <td> <p>A manual label that defines whether it takes a user a small, medium, or large amount of daily effort to complete a task.
    <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       
        The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
-      </MadCap:conditionalText>
+       
      -->
      </p> <p>Consider the following about Work Effort:</p>
     <ul> 

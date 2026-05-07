@@ -62,9 +62,12 @@ Your organization must meet the following requirements for the integration betwe
     
 <!--No longer the case: * Your organization must have only one Workfront instance. GenStudio will not be available in Workfront Planning when your company has multiple Workfront instances. -->
 
+<!--
+No longer needed to specify:
 * Your Workfront instance is part of the Adobe Unified Experience, including using the Identity Management System (IMS). 
 
     For information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+-->
 
 * Users using both Workfront Planning and GenStudio for Performance Marketing must belong to only one Workfront instance within the IMS organization.
 
@@ -373,7 +376,7 @@ You can make the following connections between GenStudio record types and other 
 * A GenStudio record type and a Planning record type from the same workspace
 * A GenStudio record type and a Planning record type from another workspace, if the record types are configured to connect from another workspace. 
 * A GenStudio record type and a Workfront object type (projects, portfolios, programs, companies, groups)
-* A GenStudio record type and an AEM Assets object type.
+* A GenStudio record type and an AEM object type.
 * GenStudio record types and GenStudio Brands. The Brands connection is added to the Products and Personas record types by default. 
 
 ### Request forms and automations in the GenStudio record type

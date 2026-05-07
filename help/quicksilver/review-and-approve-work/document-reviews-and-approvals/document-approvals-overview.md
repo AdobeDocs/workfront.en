@@ -18,15 +18,12 @@ Project coordinators manage work in Workfront while creatives, marketers, and st
 
 ![Diagram showing the unified review and approval workflow, with project coordinators managing work in Workfront and reviewers and approvers providing feedback and making decisions in the Frame.io viewer.](assets/Unified-Review-Approvals-Image.png)
 
-
+<!--
 ## Integration requirements
 
-* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
+* The Workfront instance must be enabled on the Adobe Unified Experience.
 
-* Users can belong to only one Workfront instance within the IMS organization.
-
-* The Workfront instance must be enabled on the Adobe Unified Experience and Adobe enterprise storage.
-
+-->
 
 ## Built on Adobe enterprise storage
 
@@ -96,9 +93,10 @@ For more information about managing projects in Workfront, see [Projects: articl
 
 Because unified review and approval is built using Adobe enterprise storage, there are some enforced structure and naming conventions to be aware of when managing projects and documents.
 
-* Adobe enterprise storage requires unique names for peer objects with the same parent in the hierarchy tree.
+* Programs and projects can't have the same name if they belong to the same portfolio.
 * Documents can't have the same name if they belong to the same project.
 * Object names can't contain any of the following special characters: \ / : * ? " | < >
+* Programs, portfolios, projects, templates, tasks, issues, and document folders can't have names that end with a period or a space.
 * Object names are limited to 255 characters maximum.
 
 With these limitations in mind, Workfront automatically renames objects or documents as needed to prevent conflicts.
@@ -132,7 +130,7 @@ The following table shows how Workfront permissions map to Frame.io permissions:
 
 ### Document management in Workfront
 
-Documents uploaded to Workfront are stored in Adobe enterprise storage and are accessible in both Workfront and Frame.io. When you upload a document to a task or issue in Workfront, a system-generated folder is created in Adobe enterprise storage that inherits permissions from the task or issue. All documents uploaded to that task or issue are stored in that folder and inherit permissions from it. For more information about documents in Workfront, see [The new documents area overview](/help/quicksilver/documents/managing-documents/documents-area.md) and [Object permissions and access level overview for the Adobe enterprise storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+Documents uploaded to Workfront are stored in Adobe enterprise storage and are accessible in both Workfront and Frame.io. When you upload a document to a task or issue in Workfront, a system-generated folder is created in Adobe enterprise storage that inherits permissions from the task or issue. All documents uploaded to that task or issue are stored in that folder and inherit permissions from it. For more information about documents in Workfront, see [The new Documents area overview](/help/quicksilver/documents/managing-documents/documents-area.md) and [Object permissions and access level overview for the Adobe enterprise storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ### Document experience limitations
 
@@ -172,7 +170,7 @@ To use unified review and approval, the following conditions must be met:
 
 * The Workfront instance must be enabled on the Adobe Unified Experience and Adobe enterprise storage.
 
-* Workfront customers must be on a V2 SKU (this may require a contracting event--contact your Adobe account representative).
+* Workfront customers must be on a V2 Workfront SKU. If your organization is not already on a V2 Workfront SKU, a contracting event with Adobe is required to add the V2 Workfront SKU to your contract. Contact your Adobe account representative.
 
 **Do I need a Frame.io license to use this integration?**
 
@@ -190,13 +188,13 @@ Existing customers will retain access to Workfront Proofing functionality for an
 
 **What do I need to do to get access?**
 
-To access unified review and approval, your organization must be on a Workfront V2 SKU. If you are not currently on a V2 SKU, this will require a contracting event with Adobe. To get started:
+To access unified review and approval, your organization must be on a V2 Workfront SKU. Any organization not already on a V2 Workfront SKU must go through a contracting event with Adobe to add the V2 Workfront SKU. To get started:
 
-* Contact your Adobe account representative to confirm whether your current Workfront plan supports unified review and approval.
+* Contact your Adobe account representative to confirm whether your current Workfront contract is on a V2 Workfront SKU.
 
-* If a SKU upgrade is needed, your account representative will guide you through the contracting process.
+* If your organization is not on a V2 Workfront SKU, your account representative will guide you through the contracting event needed to add it.
 
-* Once your account is on the correct SKU, Adobe Professional Services will configure the integration for your organization.
+* Once your contract includes the V2 Workfront SKU, Adobe Professional Services will configure the integration for your organization.
 
      * If you are not sure who your Adobe account representative is, you can reach out through the Adobe support portal or visit Experience League for contact options.
 
@@ -393,11 +391,15 @@ Key benefits of Adobe enterprise storage include:
 
 Yes. Because the integration uses Adobe enterprise storage, the following conventions apply:
 
-* Object and document names must be unique within the same parent in the folder hierarchy.
+* Programs and projects can't have the same name if they belong to the same portfolio.
+
+* Document names must be unique within the same parent in the folder hierarchy.
 
 * Documents within the same project cannot share a name.
 
 * Programs, portfolios, projects, templates, tasks, issues, documents, document folders names cannot contain the following special characters: `\ / : * ? " | < >` and are limited to 255 characters.
+
+* Programs, portfolios, projects, templates, tasks, issues, and document folders cannot have names that end with a period or a space.
 
 Workfront automatically renames objects or documents as needed to prevent conflicts.
 
@@ -483,23 +485,23 @@ For more information on setting up and using AI Reviewer, see the Workfront docu
 
 **When will unified review and approval be available to me?**
 
-Unified review and approval is available now. Access requires an upgrade to a Workfront V2 SKU. If your contract was signed before the V2 SKUs were available, you can gain access in one of two ways:
+Unified review and approval is available now. Access requires a V2 Workfront SKU. If your contract was signed before the V2 Workfront SKUs were available, adding the V2 Workfront SKU requires a contracting event with Adobe. There are two paths:
 
-* Upon renewal: Access will be enabled at your next contract renewal date.
+* Upon renewal: The V2 Workfront SKU is added at your next contract renewal date.
 
-* Early recontract: Your Adobe account team can recontract you early to add the new SKU entitlements while keeping your existing contract end date. There is no price increase when moving to an equivalent package.
+* Early recontract: Your Adobe account team can recontract you early to add the V2 Workfront SKU entitlements while keeping your existing contract end date. There is no price increase when moving to an equivalent package.
 
 Contact your Adobe account representative to determine the best path for your organization.
 
 <!--
 **Before we sign the contract, what changes will we see in Workfront?**
 
-Before signing the V2 SKU contract, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe enterprise storage, or multi-stage approval templates---will be available until the V2 SKU is contracted and Adobe Professional Services configures the integration for your organization.
+Before signing the V2 Workfront SKU contract, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe enterprise storage, or multi-stage approval templates---will be available until the V2 Workfront SKU is contracted and Adobe Professional Services configures the integration for your organization.
 -->
 
-**Does upgrading to the V2 SKU give me more storage?**
+**Does upgrading to the V2 Workfront SKU give me more storage?**
 
-Yes. With the V2 SKU, each licensed user receives 60 GB of storage, up from 30 GB in the previous version.
+Yes. With the V2 Workfront SKU, each licensed user receives 60 GB of storage, up from 30 GB in the previous version.
 
 **How do I choose between Adobe enterprise storage and legacy Workfront storage?**
 
@@ -511,7 +513,7 @@ Enterprise Storage gives you the flexibility to roll out the new experience incr
 
 **How are Frame.io licenses managed?**
 
-After signing the V2 SKU, all Workfront users will have access to the Frame.io viewer for review and approval workflows --- no separate Frame.io Enterprise license is required for this.
+After signing the V2 Workfront SKU, all Workfront users will have access to the Frame.io viewer for review and approval workflows --- no separate Frame.io Enterprise license is required for this.
 
 If your organization needs additional Frame.io Enterprise features such as 
 

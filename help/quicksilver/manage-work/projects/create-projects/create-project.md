@@ -91,7 +91,7 @@ You can create a project in Workfront using one of the following methods:
 * Create a project from scratch without using a template. This article describes how to create a project from scratch. 
 
 * Copy an existing project.  
-  For more information about copying project, see [Copy a project](../../../manage-work/projects/manage-projects/copy-project.md).
+  For more information about copying a project, see [Copy a project](../../../manage-work/projects/manage-projects/copy-project.md).
 
 * Use a template.  
   For more information about using a template to create a new project, see [Create a project using a template](../../../manage-work/projects/create-projects/create-project-from-template.md).
@@ -161,6 +161,22 @@ Consider the following:
 
     If you are using a template when you're creating the project by converting the issue, refer to the second scenario above to understand which Group and which Status Workfront applies to the new project. 
 
+* Where documents are stored for a project and for its children objects (tasks and issues) depends on what your Workfront administrator chooses as the default for Storage Preferences in the System Preferences area of Setup. Depending on where you store documents in your Workfront instance, you can create the following types of projects:
+
+  * Legacy Workfront storage projects
+  * Adobe enterprise storage projects.
+
+  For more information, see [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md). 
+
+  >[!TIP]
+  >
+  > Your Workfront instance might not have both types of document storage.
+
+
+* When you create an enterprise-storage project, a document folder with the same name of the project is created in the **Documents** section of the project. After you add tasks to the project, folders with the task's name are added to the **Documents** section of each task. 
+
+For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 ## Create a project from scratch
 
 >[!NOTE]
@@ -169,15 +185,41 @@ Consider the following:
 
 1. Do one of the following:
 
-   * Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, or the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, if available, then click **Projects** and expand **New Project**.
+   * Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Projects** and expand **New Project**.
    * Go to a portfolio, then expand **New Project**.
    * Go to a program, then expand **New Project**.
    * If you are a group administrator, you can also create a project in the Projects section of a group you manage. For more information, see [Create and modify a group's projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-   ![New Project menu](assets/new-project-dropdown-nwe-350x358.png)
+   ![New Project menu](assets/new-project-drop-down-with-legacy-storage-option.png)
 
-1. Click **New Project** in the menu to create a project from scratch.
-1. Type a name for your project. Press Enter to save the name.
+1. (Conditional) Depending on which document storage your organization is using, click one of the following:
+
+    * **New project**, when the Workfront administrator chooses either **Adobe Enterprise**, or **Legacy Workfront**, and they did or did not select the **Allow user to select storage provider** setting. 
+    * **New project (Legacy storage)**, when the Workfront administrator chooses either **Adobe Enterprise**, or **Legacy Workfront**, and they also selected the **Allow user to select storage provider** setting. 
+
+      This option displays only when the **Allow user to select storage provider** setting is selected in the Setup area.
+
+      For more information, see [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md). 
+
+      >[!NOTE]
+      >
+      >* When you create an enterprise-storage project from a Workfront-storage portfolio or program, the portfolio or program are also converted to enterprise-storage objects. All other Workfront-storage projects under the same portfolio or program remain unchanged. 
+      >* Your Workfront instance might not have both types of document storage.
+
+      A project is created and its default name follows the following patterns, depending on which storage Workfront uses for documents: 
+
+      * `Untitled Project` for a Workfront-storage project.
+
+        A Workfront-storage project displays a **Legacy Workfront storage** icon ![Legacy-storage project icon](assets/legacy-storage-project-icon.png) next to its name. 
+
+      * `Untitled Project - < Month day, year hour.minute.second >` for an Adobe-storage project
+
+        >[!IMPORTANT]
+        >
+        >Projects using Adobe enterprise storage must have unique names.    
+
+
+1. In the project's header, update the name of the project. Press Enter to save the name.
 
    ![Enter a name for the project](assets/rename-untitled-project.png)
 

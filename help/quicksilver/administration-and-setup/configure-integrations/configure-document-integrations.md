@@ -63,8 +63,8 @@ For more detail about the information in this table, see [Access requirements in
 You can configure the following integrations for managing documents:
 
    <!--
-  Experience Manager Assets Essentials </p>
-  -->
+   Experience Manager Assets Essentials </p>
+   -->
 
 * [!DNL Workfront DAM]
 

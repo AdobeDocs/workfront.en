@@ -16,12 +16,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
->[!IMPORTANT]
->
->The functionality in this article is available only if your organization's instance of Workfront has been onboarded to the Adobe Business Platform.
->
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
-
 As an Adobe administrator, you can create Adobe Workfront system administrators using the Adobe Admin Console. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the [Admin Console Overview](https://helpx.adobe.com/enterprise/using/admin-console.html).
 
 >[!NOTE]
@@ -97,7 +91,7 @@ Before using the Admin Console for Workfront, you should receive an email inviti
   >
   >Do not make any changes to the Product Profile itself.
 
-* Adobe Admin Console administrators can set up automatic assignment rules to automate the process of assigning Adobe products to users in their organization. Your organization must be migrated to the Adobe Unified Experience to use this functionality. For more information and instructions, see [Manage automatic assignment rules](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html) in the Adobe documentation.
+* Adobe Admin Console administrators can set up automatic assignment rules to automate the process of assigning Adobe products to users in their organization. For more information and instructions, see [Manage automatic assignment rules](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html) in the Adobe documentation.
 
    >[!NOTE]
    >

@@ -4,8 +4,7 @@ description: Third Quarter 2025 Project enhancements
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: yes
-hidefromtoc: yes
+hide: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
 ---
 # Third Quarter 2025 Project enhancements
