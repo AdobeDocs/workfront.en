@@ -41,7 +41,7 @@ Adding documents to Workfront differs depending on which version of the document
 <p>Any Workflow package to manage documents using Adobe enterprise storage</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront licenses*</td> 
+   <td role="rowheader">Adobe Workfront licenses</td> 
    <td> 
    <p>Contributor or higher</p> 
    <p>Request or higher</p> </td> 
@@ -203,7 +203,7 @@ If document scanning is enabled, files under 25 MB are scanned when they are upl
 
 If Workfront detects a corrupted document, a message appears indicating that the file is corrupt. You also receive an email notification when Workfront detects potentially malicious content and the file is slated for removal.
 
-Corrupted files are removed within 24 hours of detection unless you remove it manually. If you delete a corrupted file, Workfront tracks this action as an update. If you allow Workfront to remove it, then no updates are recorded.
+Corrupted files are removed within 24 hours of detection unless you remove them manually. If you delete a corrupted file, Workfront tracks this action as an update. If you allow Workfront to remove it, then no updates are recorded.
 
 **File name restrictions**
 

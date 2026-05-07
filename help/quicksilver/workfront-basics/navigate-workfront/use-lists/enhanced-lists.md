@@ -62,7 +62,7 @@ Below are some types of Workfront object lists that use the enhanced list format
 | List of snapshots | Project > Snapshots |
 | List of resources for billing | Project > Resource for Billing |
 | New Advanced Assignments on a task | Task > Assignments > Advanced |
-| Documents on Adobe enterprise storage | Project, task, issue, portfolio, program template > Documents |
+| Documents on Adobe enterprise storage | Project, task, issue, portfolio, program, template, template task > Documents |
 
 ## Add items to an enhanced list
 

@@ -159,6 +159,11 @@ Consider the following when working with tasks:
 * You can rename and delete the document folder from the Adobe enterprise-storage task which also deletes the documents in the folder. After you add new documents to the task, the folder is automatically recreated. Deleted documents are not placed back in the folder. 
 * For Adobe enterprise-storage projects, the document folder on a task displays as a subfolder on the documents folder automatically created for the project.
 * You cannot copy or move a task from a Workfront-storage project to an Adobe-storage one. The reverse is also not possible. 
+* The following scenarios exist when converting a task to a project: <!--this info also duplicated in Convert tasks to projects-->
+  * A Workfront-storage task creates a Workfront-storage project.
+  * An Adobe enterprise-storage task creates an Adobe-storage project.
+  * Using a Workfront-storage template to convert an Adobe-storage task creates an Adobe-storage project. 
+  * Using an Adobe-storage template to convert a Workfront-storage task creates a Workfront-storage project.
 
 ### Document management for issues
 
@@ -170,6 +175,11 @@ Consider the following when working with issues:
 * For Adobe enterprise-storage projects, the document folder on an issue displays as a subfolder on the documents folder automatically created for the project.
 * You cannot copy or move an issue from a Workfront-storage project to an Adobe-storage one. The reverse is also not possible. 
 * When you submit a request with a document attached to a Workfront-storage project, the Documents area of the request displays the document using the storage type of the project, even when the system storage default preference is Adobe enterprise. 
+* The following scenarios exist when converting an issue to a project: <!--this info also duplicated in Convert an issue to a project-->
+  * A Workfront-storage issue creates a Workfront-storage project.
+  * An Adobe enterprise-storage issue creates an Adobe-storage project.
+  * Using a Workfront-storage template to convert an Adobe-storage issue creates an Adobe-storage project. 
+  * Using an Adobe-storage template to convert a Workfront-storage issue creates a Workfront-storage project.
 
 ### Document management for project templates
 

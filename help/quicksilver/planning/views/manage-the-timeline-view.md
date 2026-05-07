@@ -206,8 +206,14 @@ To manage a timeline view:
         * **Year**: Displays quarters and months with year indication. 
         * **Quarter**: Displays months and weeks with quarter indication. 
         * **Month**: Displays weeks and days. 
+
+        >[!TIP]
+        >
+        >The timeline view only displays fiscal weeks according to classic quarters. If your Workfront administrator turns on Custom Quarters in the Setup area, the week information does not display in the timeline view.
+
 1. (Optional) Click **Switch to Compact view** to display the records whose dates don't intersect on the same line. <!--check to see if they updated the name of the setting here--> 
 1. (Conditional) If you changed your mode to **Compact**, click **Switch to Standard** view to display records in separate lines. The **Standard** option is the default.  <!--check to see if they updated the name of the setting here--> 
+
 
 1. Do the following to quickly find records that match a keyword:
 
