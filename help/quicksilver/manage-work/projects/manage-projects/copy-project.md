@@ -79,7 +79,7 @@ For more detail about the information in this table, see [Access requirements in
 
  +++
 
- <!--
+<!--
  Old:
  
  <table style="table-layout:auto"> 

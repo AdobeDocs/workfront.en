@@ -24,7 +24,7 @@ You can stay in the following [!DNL Adobe Creative Cloud] applications and seaml
  <col> 
  <tbody> 
   <tr> 
-   <!--
+  <!--
     <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
