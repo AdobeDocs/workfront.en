@@ -179,3 +179,179 @@ For scenario-by-scenario impact, the legacy-proofing-to-unified-approvals scenar
 **If you adopt this hybrid structure, the project-coordinator TIP currently in the Object permissions subsection moves to `## Plan your rollout` as a fifth bullet:**
 
 **5. Train project coordinators on permissions troubleshooting.** Frame.io access on Adobe enterprise storage projects is a downstream reflection of Workfront permissions. If a stakeholder reports they can't access a review on an Adobe enterprise storage project, the fix is in Workfront — not Frame.io. Make sure project coordinators know to start their troubleshooting in the Project Share modal.
+
+
+## Permissions 
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Area</th>
+      <th>What's different</th>
+      <th>What to know</th>
+    </tr>
+  </thead>
+  <tbody>
+     <tr>
+      <td>Access level permissions</td>
+      <td>Projects, programs, portfolios, and templates that use Adobe enterprise storage follow Adobe enterprise storage access level logic in other Adobe products.</td>
+      <td>
+      <ul>
+        <li>When an access level has <strong>No access</strong> selected for projects, programs, portfolios, and templates but the object is shared with them, users are unable to see the object in Workfront, but they can still view the object name and any associated documents in other Adobe tools, such as Frame.io and Adobe Creative Cloud. </li>
+        <li>When an access level has <strong>No access</strong> selected for documents, users are unable to see documents on projects in Workfront, but they can still view and manage documents for projects shared with them in other Adobe tools, such as Frame.io and Adobe Creative Cloud.</li>
+      </ul>
+      <p>For more information, see <a href="/help/quicksilver/review-and-approve-work/esm-access-permissions.md">Object permissions and access level overview for the Adobe enterprise storage model</a>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>Document permissions</td>
+      <td>Documents inherit permissions from the project, task, or issue they're linked to.</td>
+      <td>
+      <ul>
+        <li>Users can't share or set permissions on individual documents.</li>
+        <li>Document access is managed through the project, task, or issue Share modal in Workfront.</li>
+        <li>Subtasks don't inherit folder permissions from parent tasks.</li>
+        <li>External users are supported on approval workflows — see below.</li>
+      </ul>
+      <p>For more information, see <a href="/help/quicksilver/review-and-approve-work/external-users.md">External users on approval workflows</a>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>Permissions flow</td>
+      <td>Permissions flow from Workfront to Frame.io. </td>
+      <td>
+      <ul>
+        <li>Workfront's Manage and Contribute permissions both map to Edit &amp; Share in Frame.io. View maps to Comment Only.</li>
+        <li>Both Manage and Contribute users gain external sharing capability in Frame.io. See <a href="/help/quicksilver/review-and-approve-work/esm-access-permissions.md">Object permissions and access level overview for the Adobe enterprise storage model</a>.</li>
+      </ul></td>
+    </tr>
+  </tbody>
+</table>
+
+## Review and approval
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Area</th>
+      <th>What's different</th>
+      <th>What to know</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Review and approval viewer</td>
+      <td>The Frame.io viewer replaces the Workfront Proofing viewer.</td>
+      <td>
+      <ul>
+        <li>Included for all Workfront users with a paid license.</li>
+        <li>Supports markup, time-stamped comments, version history, mobile, 40+ formats, files up to 500 GB.</li>
+        <li>AI-assisted review through the Content Reviewer AI Collaborator available for Adobe Enterprise storage projects.</li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Capabilities not available</td>
+      <td>Workfront Proofing, the Workfront document viewer, favorite documents, and request documents aren't part of the experience.</td>
+      <td>
+      <ul>
+        <li>Legacy projects retain these capabilities. </li>
+        <li>Workfront Proofing won't receive new investment and will be retired in a future release.</li>
+      </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+## Objects
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Area</th>
+      <th>What's different</th>
+      <th>What to know</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>The new Documents area</td>
+      <td>A redesigned, unified Documents area replaces the legacy Documents area.</td>
+      <td>
+      <ul>
+        <li>Users can access documents from a program, portfolio, project, task, or issue.</li>
+        <li>There is no longer a global Documents area. </li>
+      </ul>
+        <p>For more information, see <a href="/help/quicksilver/documents/managing-documents/documents-area.md">The Documents area</a> article.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>Capabilities not available</td>
+      <td>Workfront Proofing, the Workfront document viewer, favorite documents, and request documents aren't part of the experience.</td>
+      <td>
+      <ul>
+        <li>Legacy projects retain these capabilities. </li>
+        <li>Workfront Proofing won't receive new investment and will be retired in a future release.</li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Naming rules</td>
+      <td>Strict naming rules apply: unique names within a portfolio or project, no special characters, no trailing period or space, 255-character limit.</td>
+      <td>Workfront auto-renames objects when conflicts arise. Audit templates that generate new project names and structure. See the full rule set below.</td>
+    </tr>
+    <tr>
+      <td>Object portability</td>
+      <td>You can move, copy, and convert objects only between like storage models.</td>
+      <td>Adobe enterprise storage objects can't move to legacy projects, or the reverse. Moving an Adobe enterprise storage project to a legacy portfolio or program converts the parent to Adobe enterprise storage.</td>
+    </tr>
+  </tbody>
+</table>
+
+## Storage and quotas
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Area</th>
+      <th>What's different</th>
+      <th>What to know</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Storage quota</td>
+      <td>Pooled allocation that combines V2 Workfront SKU storage and any Frame.io Enterprise SKU or add-on storage. 60 GB per licensed user. No hard cap.</td>
+      <td>View on the Customer Info page (May 2026 release). Email notifications at 75%, 90%, and 100% of the quota. See <a href="/help/quicksilver/documents/managing-documents/check-document-storage.md">Check document storage limits</a>.</td>
+    </tr>
+    <tr>
+      <td>Annual video review cap</td>
+      <td>Org-level cap on video proof requests at 10% of paid Workfront user licenses (Standard + Light combined).</td>
+      <td>Once reached, no new video reviews until the next annual period. In-app notifications at 80% and 100%. Doesn't apply to Frame.io Enterprise customers.</td>
+    </tr>
+  </tbody>
+</table>
+
+## Fusion
+
+<table>
+  <thead>
+    <tr>
+      <th>Area</th>
+      <th>What's different</th>
+      <th>What to know</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Workfront Fusion</td>
+      <td>Existing proof-based Fusion scenarios don't automatically work against Adobe enterprise storage projects.</td>
+      <td>Scenarios scoped to legacy projects continue to work. Each affected scenario gets one of three paths: edit, rebuild, or retire. New connectors expected Q3 2026. See the Workfront Fusion subsection below.</td>
+    </tr>
+  </tbody>
+</table>
