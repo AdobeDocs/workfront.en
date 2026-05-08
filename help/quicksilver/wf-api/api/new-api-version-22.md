@@ -79,6 +79,86 @@ This object has been removed.
 
 The following resources were modified for API version 22.
 
+### AccessLevel (ACSLVL)
+
+An AccessLevel object is associated with users, and describes the set of AccessLevelPermissions that determine what the user can access.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>The following field has been modified with changes to possible values. For details, see the developer documentation.
+        <ul>
+          <li><b>fieldAccessPrivileges</b></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### AccessLevelPermissions (ALVPER)
+
+An AccessLevelPermissions object represents a specific permission to access, create, or modify a Workfront object. These permissions can then be associated with an Access Level.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>The following fields have been modified with changes to possible values. For details, see the developer documentation.
+        <ul>
+          <li><b>coreAction</b></li>
+          <li><b>forbiddenActions</b></li>
+          <li><b>secondaryActions</b></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### AccessRequest (ACSREQ)
+
+If a User does not have access to an object in Workfront that they need, they can request access to that object. The AccessRequest object represents this request.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>The following field has been modified with changes to possible values. For details, see the developer documentation.
+        <ul>
+          <li><b>action</b></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### AccessRule (ACSRUL)
+
+An AccessRule object represents a rule set in custom access levels that determines how users can share projects they create.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>The following fields have been modified with changes to possible values. For details, see the developer documentation.
+        <ul>
+          <li><b>coreAction</b></li>
+          <li><b>forbiddenActions</b></li>
+          <li><b>secondaryActions</b></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### Approval (APPROVAL)
 
 A given work item, such as a task, document, or timesheet, may require that a supervisor or other user sign off on the work item. An Approval object represents the action of signing off on a work item.
@@ -424,6 +504,38 @@ The JournalEntry object can be set up to log information about specific object f
  </tbody>
 </table>
 
+### OpTask (OPTASK)
+
+An OpTask object is commonly known as an Issue. An issue is a work item that usually indicates that there is a problem preventing the completion of a task or project. An Issue can also be a Help Desk request. Change Orders, Requests, and Bugs are also Issues.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li><b>actualWorkRequired</b><p>Added the following flags:
+           <ul>
+           <li><code>AUTO_LOAD</code></li>
+           <li><code>DYNAMIC</code></li>
+           </ul>
+           </p></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Search fields</td>
+      <td>
+        <ul>
+          <li><b>actualWork</b><p>Type changed from <code>null</code> to <code>double</code>.</p></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### OriginalRequest(ORGREQ)
 
 <table>
@@ -578,6 +690,26 @@ Projects are work items within Workfront, and are a main building block in the w
  </tbody>
 </table>
 
+### QueueDef (QUED)
+
+A QueueDef object represents a request queue definition in Workfront.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>The following fields have been modified with changes to possible values. For details, see the developer documentation.
+        <ul>
+          <li><b>requestorCoreAction</b></li>
+          <li><b>requestorForbiddenActions</b></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### ScheduledReport (SCHREP)
 
 A ScheduledReport object represents a report that has been configured to be scheduled for delivery.
@@ -595,6 +727,39 @@ A ScheduledReport object represents a report that has been configured to be sche
       </td>
     </tr>
  </tbody>
+</table>
+
+### Task (TASK)
+
+A Task object represents a work item that must be completed as part of achieving a final goal (completing a project).
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li><p><b>convertedOpTaskID</b><p>
+              <p>Added</p></li>
+          <li><p><b>actualWorkRequired</b></p><p>Added flags <code>AUTO_LOAD</code> and <code>DYNAMIC</code>.</p></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Reference fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>convertedOpTask</b>
+            </p>
+            <p>Added</p>
+          </li>
+        </ul> 
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 ### Template (TMPL)
@@ -655,7 +820,7 @@ A User object represents a person with an account in Workfront that can log in a
   <tbody>
     <tr>
       <td role="rowheader">Direct fields</td>
-      <td>The following fields was added.
+      <td>The following field was added.
         <ul>
           <li><b>eauthUserID</b></li>
         </ul>
@@ -663,7 +828,7 @@ A User object represents a person with an account in Workfront that can log in a
     </tr>
     <tr>
       <td role="rowheader">Collection fields</td>
-      <td>The following fields was removed.
+      <td>The following field was removed.
         <ul>
           <li><b>userLocations</b></li>
         </ul>
