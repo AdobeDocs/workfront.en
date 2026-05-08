@@ -34,6 +34,7 @@ Any user can add the Content Reviewer to a review and approval request.
 
 ## Supported file types {#supported-file-types-ai-reviewer}
 
+
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="Unsupported file type"

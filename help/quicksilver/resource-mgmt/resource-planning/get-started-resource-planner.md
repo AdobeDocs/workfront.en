@@ -10,6 +10,7 @@ exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
 ---
 # Resource Planner overview {#resource-planner-overview}
 
+
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-planner"
 >title="Resource Planner"
