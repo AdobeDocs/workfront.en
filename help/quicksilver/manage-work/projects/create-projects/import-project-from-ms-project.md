@@ -114,11 +114,18 @@ You can create a project from the **Projects** area in the **Main Menu**, or fro
 1. Click **Select File**, then browse for the .xml file on your computer that you exported from Microsoft Project. 
 1. Import the selected file. Workfront begins the import process and creates a new project based on the file exported from Microsoft Project.
 
-   After the import process is complete, you are directed to the new project page that displays a confirmation that the import has completed successfully.
-
    >[!NOTE]
    >
    >Workfront has a 15-minute time limitation on file uploads. If the file upload takes longer than that, we recommend that you break out your project into smaller projects and import them separately. Once they have been imported into Workfront, move the tasks from one project to the other project to combine them into one project. For information on moving tasks, see [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+
+   After the import process is complete, you are directed to the new project page that displays a confirmation that the import has completed successfully.
+
+   >[!CAUTION]
+   >
+   >If your Workfront instance has access to both Workfront and Adobe document storage, importing a project from MS Project creates a Workfront-storage project, even when your Workfront administrator made the Adobe Enterprise storage the default for your system. 
+   >
+   >For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 
 1. (Optional) Continue editing the project in Workfront. For information about editing projects, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 

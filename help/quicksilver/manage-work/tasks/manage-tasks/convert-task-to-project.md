@@ -89,10 +89,23 @@ Old:
 * All sub-tasks, issues and notes roll up to the new project.
 * Documents, document versions, and proofs are moved to the new project.
 * There is a 5-minute processing limit when converting a task to a project. If the task has a large number of documents attached to it and fails to convert, you might need to remove some of the documents and try again.
+* If your organization uses both legacy Workfront and Adobe enterprise document storage, the following scenarios exist when converting a task to a project: <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
+  * A Workfront-storage task creates a Workfront-storage project.
+  * An Adobe enterprise-storage task creates an Adobe-storage project.
+  * Using a Workfront-storage template to convert an Adobe-storage task creates an Adobe-storage project. 
+  * Using an Adobe-storage template to convert a Workfront-storage task creates a Workfront-storage project.
+
+    For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
+    >[!TIP]
+    >
+    >Your Workfront instance might not have access to both types of document storage.
+    
 * Status and percent complete of all sub-tasks and issues are preserved.
 * Task assignees and the user converting the task to the project become shared users on the project.
 * The project start date is set to the start date of the task.
 * The following table lists project information and whether it transfers from the template or from the task: 
+
 
   <table style="table-layout:auto"> 
   <col> 

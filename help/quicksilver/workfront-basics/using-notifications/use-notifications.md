@@ -24,7 +24,7 @@ This section contains the following articles:
 * [Enable delivery of emails from the Preview Sandbox environment](../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)
 * [Event notifications](../../workfront-basics/using-notifications/event-notifications.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-basics/using-notifications/opt-out-of-email-notifications.md" class="MCXref xref" xrefformat="{para}">Opt out of email notifications</a> </li>
   -->
 * [Event notification: article index](/help/quicksilver/workfront-basics/using-notifications/event-notifications-article-index.md)

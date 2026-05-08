@@ -25,7 +25,7 @@ This section contains the following subsections:
 * [Organize your work](../../workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)
 * [Review proofs in the Desktop Proofing Viewer](../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/review-proofs-in-the-lpv.md" class="MCXref xref" xrefformat="{para}">Review proofs in the Legacy Proofing Viewer</a> </li>
   -->
 

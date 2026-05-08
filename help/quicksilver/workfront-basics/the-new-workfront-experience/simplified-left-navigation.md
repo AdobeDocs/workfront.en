@@ -213,7 +213,7 @@ The following sections display in the left panel for the **[!UICONTROL Goals]** 
     </tr>
     </table>
    
-   <!--
+<!--
    Drafted - removed from UI 
    <table>
     <tr>
@@ -230,6 +230,7 @@ The following sections display in the left panel for the **[!UICONTROL Goals]** 
     </tr>
 </table>
 -->
+
 To learn how to use the left panel in the [!UICONTROL Goals] area, see the section [Use the left navigation panel](#use-the-left-navigation-panel) in this article.
 
 ## Use the left navigation panel 

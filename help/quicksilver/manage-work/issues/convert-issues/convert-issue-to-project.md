@@ -88,6 +88,13 @@ Old:
 ## Considerations
 
 * There is a 5-minute processing limit when converting an issue to a project. If the issue has a large number of documents attached to it and fails to convert, you might need to remove some of the documents and try again.
+* If your organization uses both legacy Workfront and Adobe enterprise document storage, the following scenarios exist when converting an issue to a project: <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
+  * A Workfront-storage issue creates a Workfront-storage project.
+  * An Adobe enterprise-storage issue creates an Adobe-storage project.
+  * Using a Workfront-storage template to convert an Adobe-storage issue creates an Adobe-storage project. 
+  * Using an Adobe-storage template to convert a Workfront-storage issue creates a Workfront-storage project.
+
+    For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 ## Convert an issue to a project
 
@@ -184,7 +191,7 @@ You can convert an issue to a project using a template.
       
    >[!TIP]
    >
-   >If you added templates to your Favorites list, you can mouse over the [!UICONTROL **Favorite templates**] menu and click the template you want to use.
+   >If you added templates to your Favorites list, you can hover over the [!UICONTROL **Favorite templates**] menu and click the template you want to use.
 
      The New Project from Template box displays. 
 
@@ -207,7 +214,7 @@ You can convert an issue to a project using a template.
    * The number of all tasks in the template
    * The names of the template custom forms
 
-1. (Optional) Mouse over the name of a template and click the **Favorites** icon ![Favorites](assets/favorites-icon-small.png) to mark it as a favorite for future use.
+1. (Optional) Hover over the name of a template and click the **Favorites** icon ![Favorites](assets/favorites-icon-small.png) to mark it as a favorite for future use.
 
    >[!TIP]
    >
@@ -218,6 +225,14 @@ You can convert an issue to a project using a template.
    The [!UICONTROL Convert to Project] box opens.
 
    ![Convert to project](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+
+   >[!TIP]
+   >
+   >* Using a Workfront-storage template to convert an Adobe-storage issue creates an Adobe-storage project. 
+   >* Using an Adobe-storage template to convert a Workfront-storage issue creates a Workfront-storage project.
+   >
+   >For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 
 1. If a field is already populated in the template, the field is pre-populated in the [!UICONTROL Convert to project] box. You can edit the pre-populated values to better match your project. For more information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -252,7 +267,7 @@ You can convert an issue to a project using a template.
         >
         >Or, if the top-level groups in your organization configured them separately, the options available here depend on which group you selected for the new project in step 6. For more information, see [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-   1. Click [!UICONTROL **Custom Forms**] and do any of the following:
+1. Click [!UICONTROL **Custom Forms**] and do any of the following:
 
       * Review the custom forms attached to the template. They will transfer to the new project.
       * Review the custom forms attached to the issue. They will transfer to the project if they are also project forms. 

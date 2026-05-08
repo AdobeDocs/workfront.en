@@ -30,7 +30,7 @@ Notifications are available in the following Adobe Creative Cloud apps:
  </col> 
  <tbody> 
   <tr> 
-   <!--
+  <!--
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> Any</td> 
   </tr> 
