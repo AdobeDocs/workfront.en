@@ -37,7 +37,7 @@ The following table shows the release and support schedule for the Workfront API
  <tbody> 
  <tr>
    <td>22</td> 
-   <td> <p>May 7, 2026</p> </td> 
+   <td> <p>May 11, 2026</p> </td> 
    <td> <p>**during 2029</p> <p>(with the 29.4 release)</p> </td> 
    <td></td> 
   </tr> 

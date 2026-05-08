@@ -2,14 +2,14 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: What's new in API version 22
-description: Adobe Workfront released API version 22 on October 23, 2025. API version 22 features the following changes from version 21.
+description: Adobe Workfront released API version 22 on May 11, 2026. API version 22 features the following changes from version 21.
 author: Becky
 feature: Workfront API
 role: Developer
 ---
 # What's new in API version 22
 
-Adobe Workfront released API version 22 on May 7, 2026. API version 22 features the following changes from version 21.
+Adobe Workfront released API version 22 on May 11, 2026. API version 22 features the following changes from version 21.
 
 ## Added resources
 
