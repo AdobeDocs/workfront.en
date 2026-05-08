@@ -281,7 +281,7 @@ For information about creating a project from a template, see [Create a project 
       <p><b>NOTES</b></p>
       <ul>
       <li>You must have Manage permissions to the portfolio to be able to add or remove it to the project.</li>
-      <li>If your organization uses both Workfront and Adobe document storage types, you cannot associate a Workfront-storage project with an Adobe-storage portfolio. The reverse is also true. Your Workfront instance might not have both types of document storage.</li></ul> 
+      <li>If your organization uses both legacy Workfront and Adobe enterprise storage, you can't copy tasks between projects that use different storage types. Your Workfront instance might not have both types of document storage.</li></ul> 
       For more information, see <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Document management overview for projects and related objects</a>. 
       </td> 
       </tr> 
