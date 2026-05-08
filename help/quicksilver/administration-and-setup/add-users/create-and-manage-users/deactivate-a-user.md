@@ -13,6 +13,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Deactivate or reactivate a user {#deactivate-or-reactivate-a-user}
 
+
 >[!CONTEXTUALHELP]
 >id="wf_users_deactivate_user"
 >title="Deactivate a user"

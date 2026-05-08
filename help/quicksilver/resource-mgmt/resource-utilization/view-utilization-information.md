@@ -11,6 +11,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # View resource utilization information {#view-resource-utilization-information}
 
+
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-utilization"
 >title="Utilization report"
