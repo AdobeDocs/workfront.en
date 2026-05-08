@@ -18,12 +18,13 @@ This article is for Workfront administrators preparing to roll out Workfront on 
 
 ## Understand legacy Workfront storage and Adobe enterprise storage
 
-After your contract is updated to include the new Unified Review and Approval Experience, your environment can contain two types of objects: objects on legacy Workfront storage (the objects you have today) and new objects on Adobe enterprise storage. At a high level, the two storage models differ in where the data lives and which Adobe products can see it:
+After your contract is updated to include the new Unified Review and Approval Experience, your environment can contain two types of objects: objects on legacy Workfront storage (the objects you have today) and objects created using Adobe enterprise storage. At a high level, the two storage models differ in where the data lives, which Adobe products can see it, and what functionality is available:
 
 | Capability | Object on legacy Workfront storage | Object on Adobe enterprise storage |
 |---|---|---|
 | Storage backend | Workfront only | Adobe enterprise storage |
 | Cross-product visibility | Workfront only | Workfront, Frame.io, and Creative Cloud |
+| Functionality | Legacy functionality | New functionality |
 
 Objects created before Adobe enterprise storage is enabled in the Setup area remain on legacy Workfront storage. The new behaviors described in this article apply only to Adobe enterprise storage objects you and your users create once Adobe enterprise storage is enabled.
 
@@ -36,10 +37,10 @@ The following table summarizes the major differences when switching to Adobe ent
 | Area | What's different | What to know |
 |---|---|---|
 | [The new Documents area](#the-new-documents-area) | A redesigned, unified Documents area replaces the legacy Documents area. | No global Documents area. Access documents from a program, portfolio, project, task, or issue.|
-| [Document permissions](#document-permissions) | Documents inherit permissions from the project, task, or issue they're linked to. | You can't share or set permissions on individual documents. Users manage all access through the object Share modal in Workfront, which cascades to system-generated documentfolders.|
+| [Document permissions](#document-permissions) | Documents inherit permissions from the project, task, or issue they're linked to. | You can't share or set permissions on individual documents. Users manage all access through the object Share modal in Workfront, which cascades to system-generated document folders.|
 | [Object permissions mapping](#object-permissions-mapping) | Workfront's Manage and Contribute permissions both map to Edit & Share in Frame.io. View maps to Comment Only. | Permissions are managed in Workfront. Both Manage and Contribute users gain external sharing capability in Frame.io. |
-| [Review and approval viewer](#review-and-approval-viewer) | The Frame.io viewer replaces the Workfront Proofing viewer. | Included for all Workfront users with a paid license. Supports markup, time-stamped comments, version history, mobile, 40+ formats, files up to 500 GB. |
-| [Object naming rules](#object-naming-rules) | Strict naming rules apply: unique names within a portfolio or project, no special characters, no trailing period or space, 255-character limit. | Workfront auto-renames objects when conflicts arise. Audit templates that generate new project names and structure. |
+| [Review and approval viewer](#review-and-approval-viewer) | The Frame.io viewer replaces the Workfront Proof viewer. | Included for all Workfront users with a paid license. Supports markup, time-stamped comments, version history, mobile, 40+ formats, files up to 500 GB. |
+| [Object naming rules](#object-naming-rules) | Strict naming rules apply: unique names within a portfolio or project, no special characters, no trailing period or space, 255-character limit. | Workfront auto-renames objects when conflicts arise. You may want to audit templates that generate new project names and structure. |
 | [Object portability](#object-portability) | You can move, copy, and convert objects only between like storage models. | Adobe enterprise storage objects can't move to legacy projects, or the reverse. Moving an Adobe enterprise storage project to a legacy portfolio or program converts the parent to Adobe enterprise storage. |
 | [Capabilities not available](#capabilities-not-available-on-adobe-enterprise-storage-objects) | Workfront Proof, the Workfront document viewer, favorite documents, and request documents aren't part of the experience. | Legacy objects retain these capabilities. Workfront Proof won't receive new investment and will be retired in a future release. |
 | [Storage quota](#storage-quota) | Storage is pooled for legacy Workfront projects and Adobe enterprise projects. 60 GB per licensed user. No hard cap. | System admins can view storage usage on the Customer Info page in Setup.|
@@ -85,6 +86,8 @@ The following table maps Workfront object permissions to Frame.io permissions:
 
 Both Manage and Contribute map to **Edit & Share** in Frame.io. As you review your sharing patterns for Adobe enterprise storage projects, consider whether contributors having the same review-side capabilities as managers, including external sharing, fits your governance model.
 
+
+
 For more information, see [Object permissions and access level overview for the Adobe enterprise storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#permission-mapping-to-frameio).
 
 
@@ -126,7 +129,7 @@ If a name conflicts with these rules, Workfront automatically renames the object
 
 You can move, copy, and convert Workfront objects between like storage models. For example, you can move a task from one Adobe enterprise storage project to another Adobe enterprise storage project. You can't move or copy a task or issue from an Adobe enterprise storage project to a legacy project, or the reverse.
 
-Today, when you create or move an Adobe enterprise storage project to a legacy portfolio or program, the portfolio or program is automatically converted to an Adobe enterprise storage object. This functionality is being updated to provide more control for the system administrator over which objects can be automatically converted and will be available in a future release. 
+Today, when you create or move an Adobe enterprise storage project to a legacy portfolio or program, the portfolio or program is automatically converted to an Adobe enterprise storage object. This functionality is being updated to provide more control for the system administrator over which portfolios can be automatically converted and will be available in a future release. 
 
 ### Capabilities not available on Adobe enterprise storage objects
 
