@@ -10,7 +10,6 @@ exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 ---
 # Workload Balancer overview {#workload-balancer-overview}
 
-
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-workload-balancer"
 >title="Workload Balancer"

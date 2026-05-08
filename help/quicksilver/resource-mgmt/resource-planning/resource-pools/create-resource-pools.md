@@ -9,7 +9,6 @@ exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
 ---
 # Create resource pools {#create-resource-pools}
 
-
 >[!CONTEXTUALHELP]
 >id="wf_resource_pools"
 >title="Resource pools"
