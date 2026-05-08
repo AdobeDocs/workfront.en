@@ -20,7 +20,7 @@ This article is for Workfront administrators preparing to roll out Workfront on 
 
 After your contract is updated to include the new Unified Review and Approval Experience, your environment can contain two types of objects: objects on legacy Workfront storage (the objects you have today) and objects created using Adobe enterprise storage. At a high level, the two storage models differ in where the data lives, which Adobe products can see it, and what functionality is available:
 
-| Capability | Object on legacy Workfront storage | Object on Adobe enterprise storage |
+|  | Object on legacy Workfront storage | Object on Adobe enterprise storage |
 |---|---|---|
 | Storage backend | Workfront only | Adobe enterprise storage |
 | Cross-product visibility | Workfront only | Workfront, Frame.io, and Creative Cloud |
