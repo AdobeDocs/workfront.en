@@ -146,10 +146,15 @@ You can edit an issue in a list using the Summary panel.
 
    | Icon  |Action |
    |---|---|
-   | Documents ![Documents icon](assets/documents-icon-in-summary.png) |Click **Click here to add** to add documents to the issue. |
+   | Documents* ![Documents icon](assets/documents-icon-in-summary.png) |Click **Click here to add** to add documents to the issue. |
    | Details ![Details icon](assets/details-icon-in-summary.png) |Click to update information about the issue. |
    | Hours ![Log time](assets/log-time-icon-in-summary.png)  |Click to log hours. |
    | Approvals ![Approvals icon](assets/approvals-icon-in-summary.png)  |Click to add issue approvals.  |
+
+   *If your organization uses Adobe enterprise document storage, you cannot add documents to Adobe-storage issues in the Summary panel.
+   
+   For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 
 1. (Optional) Click the **Open Summary** icon again, or the **X icon** in the upper-right of the Summary to close the panel and edit the issue inline.
 
