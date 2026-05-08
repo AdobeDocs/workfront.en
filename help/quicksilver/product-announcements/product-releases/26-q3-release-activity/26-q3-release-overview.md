@@ -119,7 +119,7 @@ This update is for both Mac and Windows.
 
 API version 22
 
-Workfront API version 22 was released on May 7, 2026. For API version 22, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
+Workfront API version 22 was released on May 11, 2026. For API version 22, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
 
 For information on what's new and updated, see [What's new in API version 22](/help/quicksilver/wf-api/api/new-api-version-22.md).
 
