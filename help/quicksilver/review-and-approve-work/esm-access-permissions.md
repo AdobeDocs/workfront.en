@@ -98,8 +98,30 @@ When you're added to a document approval workflow, you can see the following reg
 * Document thumbnail
 
 
+## Permission mapping to Frame.io
 
+As part of the integration, user permissions are controlled in Workfront and flow down to Frame.io. This means you cannot invite a user to a project in Frame.io or modify user permissions in Frame.io. These actions need to be done via the Project Share modal in Workfront.
 
+The following table shows how Workfront permissions map to Frame.io permissions:
+
+<table>
+<tr>
+<th>Workfront user permission</th>
+<th>Frame.io user permission</th>
+</tr>
+<tr>
+<td>Manage</td>
+<td>Edit & Share</td>
+</tr>
+<tr>
+<td>Contribute</td>
+<td>Edit & Share</td>
+</tr>
+<tr>
+<td>View</td>
+<td>Comment Only</td>
+</tr>
+</table>
 
 
 
