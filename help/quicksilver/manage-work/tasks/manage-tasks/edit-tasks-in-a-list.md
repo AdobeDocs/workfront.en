@@ -458,34 +458,38 @@ To edit tasks in a list when using the Manual save Timeline Planning option:
 
 1. In the left panel, click the **Tasks** section. The list of tasks on the project displays. 
 
-1. Select the task you want to edit, then click the **Open Summary** icon ![Open Summary icon](assets/task-summary-icon.png) in the upper-right corner of the list. The **Task Summary** panel opens.
+1. Select the task you want to edit, then click the **Open Summary** icon ![Open Summary icon](assets/task-summary-icon.png) in the upper-right corner of the list. The **Task Summary** panel opens. 
 
 1. (Optional) Type an update for the task in the **Updates** area. 
 1. Click any of the following icons or areas to go to the task and edit information at the task level:
 
- <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Documents</td> 
-      <td>Add documents to the task. </td> 
-     </tr> 
-          <tr> 
-      <td role="rowheader">Custom Forms</td> 
-      <td>Add or remove custom forms or update information on the forms.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Hours</td> 
-      <td>Log hours.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Approvals</td> 
-      <td>Add task approvals.</td> 
-     </tr> 
-     <tr> 
-    </tbody> 
-   </table>
+   <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">Documents</td> 
+         <td><p>Add documents to the task.</p>
+         <p><b>NOTE</b></p>
+         <p>If your organization uses Adobe enterprise document storage, you cannot add documents to tasks in the Summary panel for Adobe-storage tasks.</p>
+         <p>For information, see <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Document management overview for projects and related objects</a>.</p>
+      </td> 
+      </tr> 
+            <tr> 
+         <td role="rowheader">Custom Forms</td> 
+         <td>Add or remove custom forms or update information on the forms.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Hours</td> 
+         <td>Log hours.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Approvals</td> 
+         <td>Add task approvals.</td> 
+      </tr> 
+      <tr> 
+      </tbody> 
+      </table>
 
 1. Click the **X** in the top-right corner of the panel to close it. 
 

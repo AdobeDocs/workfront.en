@@ -293,7 +293,7 @@ This section describes changes made during the 2019.3 release time frame that wi
   When you assign a user to a task or an issue, you can now see an in-line warning if the user selected has time off scheduled any time between the planned dates of the task or issue.
 
   <!--
-* <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  <a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#add" class="MCXref xref" xrefformat="{para}">Add Fields That Represent Objects in Custom Forms</a> </MadCap:conditionalText> [ 
+  * <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  <a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#add" class="MCXref xref" xrefformat="{para}">Add Fields That Represent Objects in Custom Forms</a> </MadCap:conditionalText> [ 
 
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
   Add fields that represent objects in Custom Forms

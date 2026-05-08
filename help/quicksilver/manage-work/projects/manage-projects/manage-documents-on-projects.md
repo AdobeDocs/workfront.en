@@ -164,6 +164,7 @@ Consider the following when working with tasks:
   * An Adobe enterprise-storage task creates an Adobe-storage project.
   * Using a Workfront-storage template to convert an Adobe-storage task creates an Adobe-storage project. 
   * Using an Adobe-storage template to convert a Workfront-storage task creates a Workfront-storage project.
+* You cannot add documents to Adobe-storage tasks in the Summary panel.
 
 ### Document management for issues
 
@@ -180,6 +181,7 @@ Consider the following when working with issues:
   * An Adobe enterprise-storage issue creates an Adobe-storage project.
   * Using a Workfront-storage template to convert an Adobe-storage issue creates an Adobe-storage project. 
   * Using an Adobe-storage template to convert a Workfront-storage issue creates a Workfront-storage project.
+* You cannot add documents to Adobe-storage issues in the Summary panel.
 
 ### Document management for project templates
 
