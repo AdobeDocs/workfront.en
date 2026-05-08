@@ -24,7 +24,7 @@ You can log time for projects, tasks, and issues you're working on directly in a
  <col> 
  <tbody> 
   <tr> 
-   <!--
+  <!--
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> Any</td> 
   </tr> 

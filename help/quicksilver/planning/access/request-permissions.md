@@ -87,9 +87,9 @@ Or
 
  For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
- +++
++++
 
- <!--
+<!--
  Old:
  
  <table style="table-layout:auto"> 

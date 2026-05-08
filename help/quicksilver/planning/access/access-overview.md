@@ -48,15 +48,13 @@ You must have the following access to use Workfront Planning:
  <col>
  </col>
  <tbody>
-    <tr>
- <tr>
+   <tr>
+   <tr>
    <td role="rowheader"><p>Adobe Workfront package</p></td>
    <td>
    <p>Any Workfront and Planning package</p>
    <p>Any Workflow and Planning package</p>
-
    <p><b>NOTE</b></p>
-
    <p>For access to connectable record types:</p>
    <ul><li><p>Any Workfront package and a Planning package</p></li>
    <li><p>Any Workflow and a Planning Prime and Ultimate package</p></li></ul>
@@ -64,7 +62,6 @@ You must have the following access to use Workfront Planning:
    <p>For access to global record types:</p>
    <ul><li><p>Any Workfront package and a Planning Plus package</p></li>
    <li><p>Any Workflow package and a Planning Prime and Ultimate package</p></li></ul> </td></tr>
-   
    <!--
    <tr>
    <td role="rowheader"><p>Adobe Workfront platform</p></td>
@@ -74,22 +71,21 @@ You must have the following access to use Workfront Planning:
    <p>Only users added to the Adobe Identity Management System (IMS) can be granted permissions and added to Planning fields.</p>
    <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
    </td>
-  </tr>
-  -->
-  
-  <tr>
+   </tr>
+   -->
+   <tr>
    <td role="rowheader"><p>Adobe Workfront license</p></td>
    <td>
    <ul><li><p>Any, to view Workfront Planning information</p></li>
    <li><p>Standard, to create workspaces and views</p></li></ul>
     </td>
-  </tr>
-  <tr>
+   </tr>
+   <tr>
    <td role="rowheader"><p>Access level configurations</p></td>
    <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
+   </td>
+   </tr>
+   <tr>
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
    <ul>
@@ -101,17 +97,17 @@ You must have the following access to use Workfront Planning:
     <li><p>System Administrators cannot access views they did not create. </p></li></ul>
    <p>For information about sharing permissions for Workfront Planning objects, see  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Overview of sharing permissions in Adobe Workfront Planning</a> 
-  </td>
-  </tr>
-<tr>
+   </td>
+   </tr>
+   <tr>
    <td role="rowheader"><p>Layout template</p></td>
    <td> 
-<p>Standard users and System Administrators have the Planning areas enabled by default.</p>
-<p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p>
+   <p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
    <ul><li>Main Menu</li>
    <li>Left panel of projects, portfolios, and programs</li>
    </ul>   
-</td>
+   </td>
   </tr>
  </tbody>
 </table>
