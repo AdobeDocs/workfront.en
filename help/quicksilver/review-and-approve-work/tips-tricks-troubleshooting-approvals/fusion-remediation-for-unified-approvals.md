@@ -6,7 +6,7 @@ description: Inventory, classify, and remediate Workfront Fusion scenarios built
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-recommendations: noDisplay, noCatalog
+
 ---
 # Update Workfront Fusion scenarios for unified review and approval
 
