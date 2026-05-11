@@ -80,6 +80,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
     </tbody>
 </table>  
 
+
 ## Release notes for other areas
 
 ### Workfront Fusion enhancements
