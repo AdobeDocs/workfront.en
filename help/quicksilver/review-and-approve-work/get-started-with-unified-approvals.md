@@ -23,7 +23,7 @@ For more information about Frame.io, see [Getting Started with Frame.io](https:/
 
 ## Access requirements
 
-* Your Workfront contract must include a V2 Workfront SKU to use the Frame.io viewer and Adobe enterprise storage. For more information, see the FAQ in [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#getting-started-with-unified-review-and-approval).
+* You must be on a version of Workfront that supports unified review and approval. If your organization is not already on a supported version, contact your Adobe account representative.
 
 ## Work initiation and planning in Workfront
 

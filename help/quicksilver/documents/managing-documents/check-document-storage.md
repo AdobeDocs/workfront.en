@@ -68,12 +68,8 @@ The storage quota is refreshed daily to show the most up-to-date count.
 
 ## Adobe enterprise storage
 
-<!--
-If your organization uses Adobe enterprise storage, your storage quota is reported as a single pooled allocation that combines storage provisioned through your V2 Workfront SKU and any storage provisioned through a Frame.io Enterprise SKU or add-on. There's no hard cap on storage usage; users can continue uploading documents even when usage exceeds your quota.
 
-Beginning with the May 2026 release, you can view your pooled storage quota and a usage breakdown on the Customer Info page.
-
--->
+If your organization uses Adobe enterprise storage, your storage quota is reported as a single pooled allocation that combines storage provisioned through your Workfront license and any storage provisioned through a Frame.io Enterprise add-on. There's no hard cap on storage usage; users can continue uploading documents even when usage exceeds your quota.
 
 ### View storage usage on Customer Info
 
