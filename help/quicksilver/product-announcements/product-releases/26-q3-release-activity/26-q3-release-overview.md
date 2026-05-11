@@ -117,7 +117,7 @@ This update is for both Mac and Windows.
 
 ## Announcements
 
-API version 22
+### API version 22
 
 Workfront API version 22 was released on May 8, 2026. For API version 22, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
 
