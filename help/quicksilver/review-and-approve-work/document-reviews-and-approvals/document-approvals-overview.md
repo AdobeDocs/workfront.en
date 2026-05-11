@@ -170,7 +170,7 @@ To use unified review and approval, the following conditions must be met:
 
 * The Workfront instance must be enabled on the Adobe Unified Experience and Adobe enterprise storage.
 
-* Workfront customers must be on a V2 Workfront SKU. If your organization is not already on a V2 Workfront SKU, a contracting event with Adobe is required to add the V2 Workfront SKU to your contract. Contact your Adobe account representative.
+* You must be on a version of Workfront that supports unified review and approval. If your organization is not already on a supported version, contact your Adobe account representative.
 
 **Do I need a Frame.io license to use this integration?**
 
@@ -188,13 +188,13 @@ Existing customers will retain access to Workfront Proofing functionality for an
 
 **What do I need to do to get access?**
 
-To access unified review and approval, your organization must be on a V2 Workfront SKU. Any organization not already on a V2 Workfront SKU must go through a contracting event with Adobe to add the V2 Workfront SKU. To get started:
+To access unified review and approval, you must be on a version of Workfront that supports unified review and approval. Any organization not already on a supported version must contact their Adobe account representative. To get started:
 
-* Contact your Adobe account representative to confirm whether your current Workfront contract is on a V2 Workfront SKU.
+* Contact your Adobe account representative to confirm whether your current Workfront contract supports unified review and approval.
 
-* If your organization is not on a V2 Workfront SKU, your account representative will guide you through the contracting event needed to add it.
+* If your organization is not on a supported version, your account representative will guide you through the updates needed to add it.
 
-* Once your contract includes the V2 Workfront SKU, Adobe Professional Services will configure the integration for your organization.
+* Once you are on a version of Workfront that supports unified review and approval, Adobe Professional Services will configure the integration for your organization.
 
      * If you are not sure who your Adobe account representative is, you can reach out through the Adobe support portal or visit Experience League for contact options.
 
@@ -479,29 +479,23 @@ For more information on setting up and using AI Reviewer, see the Workfront docu
 
 +++
 
-### Contracts, SKUs, and storage
+### Availability and storage
 
-+++ Expand to view the frequently asked questions for contracts, SKUs, and storage.
++++ Expand to view the frequently asked questions for availability and storage.
 
 **When will unified review and approval be available to me?**
 
-Unified review and approval is available now. Access requires a V2 Workfront SKU. If your contract was signed before the V2 Workfront SKUs were available, adding the V2 Workfront SKU requires a contracting event with Adobe. There are two paths:
-
-* Upon renewal: The V2 Workfront SKU is added at your next contract renewal date.
-
-* Early recontract: Your Adobe account team can recontract you early to add the V2 Workfront SKU entitlements while keeping your existing contract end date. There is no price increase when moving to an equivalent package.
-
-Contact your Adobe account representative to determine the best path for your organization.
+Unified review and approval is available now. Access requires a version of Workfront that supports unified review and approval. If you are not already on a supported version, contact your Adobe account representative for guidance on moving to one.
 
 <!--
 **Before we sign the contract, what changes will we see in Workfront?**
 
-Before signing the V2 Workfront SKU contract, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe enterprise storage, or multi-stage approval templates---will be available until the V2 Workfront SKU is contracted and Adobe Professional Services configures the integration for your organization.
+Until you move to a version of Workfront that supports unified review and approval, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe enterprise storage, or multi-stage approval templates---will be available until you are on a supported version and Adobe Professional Services configures the integration for your organization.
 -->
 
-**Does upgrading to the V2 Workfront SKU give me more storage?**
+**Does upgrading to a version of Workfront that supports unified review and approval give me more storage?**
 
-Yes. With the V2 Workfront SKU, each licensed user receives 60 GB of storage, up from 30 GB in the previous version.
+Yes. On a version of Workfront that supports unified review and approval, each licensed user receives 60 GB of storage, up from 30 GB in the previous version.
 
 **How do I choose between Adobe enterprise storage and legacy Workfront storage?**
 
@@ -513,7 +507,7 @@ Enterprise Storage gives you the flexibility to roll out the new experience incr
 
 **How are Frame.io licenses managed?**
 
-After signing the V2 Workfront SKU, all Workfront users will have access to the Frame.io viewer for review and approval workflows --- no separate Frame.io Enterprise license is required for this.
+Once you are on a version of Workfront that supports unified review and approval, all Workfront users will have access to the Frame.io viewer for review and approval workflows --- no separate Frame.io Enterprise license is required for this.
 
 If your organization needs additional Frame.io Enterprise features such as 
 
