@@ -125,7 +125,7 @@ The following sections document how document storage works for Workfront objects
 Consider the following when working with projects: 
 
 * When you create an Adobe enterprise-storage project, Workfront creates a folder in the Documents section of the project where documents are saved. The folder name is the same name as the project. You cannot delete or manually rename the folder. The folder is renamed if you change the name of the project to match the project's new name.
-* When you create or move an Adobe-enterprise storage project to a legacy Workfront-storage portfolio or program, the portfolio or program is automatically converted to an Adobe enterprise-storage object. 
+* When you create or move an Adobe-enterprise storage project to a legacy Workfront-storage portfolio or program, the portfolio or program is automatically converted to an Adobe enterprise-storage object, if the portfolio or program do not have documents attached before the project is added. 
 * You cannot create a Workfront-storage project for an Adobe enterprise-storage portfolio or program. 
 * When you import a project from MS Project, Workfront creates a Workfront-storage project, even when your Workfront administrator made the Adobe Enterprise storage the default for your system. 
 * When you create projects using a Workfront Planning automation, Workfront uses your system's default storage preference for the project. You must purchase the Planning package for access to Workfront Planning. 
@@ -135,9 +135,11 @@ Consider the following when working with projects:
 Consider the following when working with portfolios: 
 
 * When you create an Adobe enterprise-storage portfolio, Workfront creates a folder in the Documents section of the portfolio where documents are saved. The folder name is the same name as the portfolio. You cannot delete or manually rename the folder. The folder is renamed if you change the name of the portfolio to match the portfolio's new name.
-* When you create or move an Adobe-enterprise storage project to a legacy Workfront-storage portfolio, the portfolio is automatically converted to an Adobe enterprise-storage object.
-* If the converted portfolio previously had documents attached, they continue to remain stored in Workfront storage. New documents are also stored in Workfront storage. 
-* If the converted portfolio had no documents attached in Workfront storage, new documents are stored in Adobe enterprise storage.
+
+* When you add an Adobe-storage project to a Workfront-storage portfolio and the portfolio has no documents attached to it, the portfolio is converted to an Adobe-storage portfolio. 
+* When you add an Adobe-storage project to a Workfront-storage portfolio and the portfolio has documents attached to it, the portfolio documents storage remains on Workfront storage. However, the legacy Workfront storage icon for the portfolio ![Legacy portfolio storage icon](assets/legacy-storage-project-icon.png) is removed from the portfolio. 
+* You cannot add a Workfront-storage project to an Adobe-storage portfolio. 
+
 * When you create portfolios using a Workfront Planning automation, Workfront uses your system's default storage preference for the portfolio. You must purchase the Planning package for access to Workfront Planning. 
 
 ### Document management for programs
@@ -145,9 +147,11 @@ Consider the following when working with portfolios:
 Consider the following when working with programs: 
 
 * When you create an Adobe enterprise-storage program, Workfront creates a folder in the Documents section of the program where documents are saved. The folder name is the same as the name of the program. You cannot delete or manually rename the folder. The folder is renamed if you change the name of the program, to match the program's new name.
-* When you create or move an Adobe-enterprise storage project to a legacy Workfront-storage portfolio, the portfolio is automatically converted to an Adobe enterprise-storage object.
-* If the converted program previously had documents attached, they continue to remain stored in Workfront storage. New documents are also stored in Workfront storage. 
-* If the converted program had no documents attached in Workfront storage, new documents are stored in Adobe enterprise storage.
+
+* When you add an Adobe-storage project to a Workfront-storage program and the program has no documents attached to it, the program is converted to an Adobe-storage program. 
+* When you add an Adobe-storage project to a Workfront-storage program and the program has documents attached to it, the program documents storage remains on Workfront storage. However, the legacy Workfront storage icon for the program ![Legacy portfolio storage icon](assets/legacy-storage-project-icon.png) is removed from the program. 
+* You cannot add a Workfront-storage project to an Adobe-storage program. 
+
 * When you create programs using a Workfront Planning automation, Workfront uses your system's default storage preference for the program. You must purchase the Planning package for access to Workfront Planning. 
 
 ### Document management for tasks
