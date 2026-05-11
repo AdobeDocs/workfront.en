@@ -92,10 +92,11 @@ New features in Workfront Fusion are available in Production at a cadence outsid
 There are no Workfront Planning enhancements at this point in the release.
 
 <!--
-
-New features in Workfront Planning are available in Production. For more information about the latest features, see [Third Quarter 2026 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md).
-
+New features in Workfront Planning are available in Production.
 -->
+
+For more information about the latest features, see [Third Quarter 2026 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md).
+
 
 ### Other Workfront enhancements
 
