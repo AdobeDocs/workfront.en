@@ -1863,7 +1863,7 @@ feature-set: Workfront
   * [Review and approve work](review-and-approve-work/review-and-approve-work.md)
   * [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
   * [Get started with Unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
-  * [Move to the Workfront on Adobe enterprise storage](/help/quicksilver/review-and-approve-work/workfront-storage.md)
+  * [Move to Workfront on Adobe enterprise storage](/help/quicksilver/review-and-approve-work/workfront-storage.md)
   * [Limited document and proof decision for non-paid users overview](review-and-approve-work/proof-doc-decision-limits.md)
   * {hide-from-toc} [Set up AI Reviewers](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
   * Work approvals {#work-approvals}
