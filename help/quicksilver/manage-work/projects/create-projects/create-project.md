@@ -172,7 +172,6 @@ Consider the following:
   >
   > Your Workfront instance might not have both types of document storage.
 
-
 * When you create an enterprise-storage project, a document folder with the same name of the project is created in the **Documents** section of the project. After you add tasks to the project, folders with the task's name are added to the **Documents** section of each task. 
 
 For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).

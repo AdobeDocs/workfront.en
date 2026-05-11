@@ -146,6 +146,8 @@ Old:
     </tbody> 
    </table>
 
+   <!-- update screen shot for both kinds of storages??-->
+
    ![New project dropdown](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. (Conditional) If you selected to add an existing project, the **Add Projects** box opens. <!--check this after UI changes-->
@@ -155,6 +157,19 @@ Old:
 1. Start typing the name of a project in the **[!UICONTROL Add Projects to this Portfolio]** field, then click them when they appear in the list.  <!--check this after UI changes-->
 
    You can add more than one project.
+
+   >[!NOTE]
+   >
+   >If your organization uses both legacy Workfront and Adobe enterprise document storage, the following scenarios exist: 
+   >
+   >
+   >* When you add an Adobe-storage project to a Workfront-storage portfolio and the portfolio has no documents attached to it, the portfolio is converted to an Adobe-storage portfolio. 
+   >* When you add an Adobe-storage project to a Workfront-storage portfolio and the portfolio has documents attached to it, the portfolio documents storage remains on Workfront storage. However, the legacy Workfront storage icon ![Legacy Workfront storage icon](assets/legacy-storage-project-icon.png) is removed from the portfolio. 
+   >* You cannot add a Workfront-storage project to an Adobe-storage portfolio. 
+   >
+   >For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+   >
+   >Not all Workfront instances have both types of document storages.
 
 1. (Optional) Click the **X** icon to the right of the project name to remove it from the list, if you decide not to add it to the portfolio.
 
