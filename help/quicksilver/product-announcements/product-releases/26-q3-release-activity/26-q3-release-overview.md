@@ -70,8 +70,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Quarterly</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Predefined views added to the requests list in the Requests area and the My Requests widget</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>YTo help you organize your request list better, we have added the predefined views to the requests list in the Requests area and the My Requests widget in Home.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">Predefined views added to the requests list in the Requests area and the My Requests widget</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>To help you organize your request list better, we have added the predefined views to the requests list in the Requests area and the My Requests widget in Home.</p>
             </td>
             <td><p>April 23, 2026</p></td>
             <td><p>April 23, 2026</p></td>
@@ -79,6 +79,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
     </tbody>
 </table>  
+
 
 ## Release notes for other areas
 
@@ -100,7 +101,6 @@ New features in Workfront Planning are available in Production. For more informa
 
 There are no updates for the following at this point in the release:
 
-* Workfront Planning
 * Scenario Planner
 * Proof
 * Goals
@@ -117,17 +117,11 @@ This update is for both Mac and Windows.
 
 ## Announcements
 
-### API version 21
+### API version 22
 
-Workfront API version 21 was released on October 23, 2025. For API version 21, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
+Workfront API version 22 was released on May 8, 2026. For API version 22, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
 
->[!IMPORTANT]
->
->This API version change features a breaking change that may affect your existing API calls. This is due to the fact that API version 21 uses Event Subscriptions version 2.
->
-> For multi-select fields, Event Subscriptions version 2 always sends as an array. Version 1 sent an array if more than one value selected. If only one value was selected, it sent a string.
-
-For information on what's new and updated, see [What's new in API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md).
+For information on what's new and updated, see [What's new in API version 22](/help/quicksilver/wf-api/api/new-api-version-22.md).
 
 For information on API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
@@ -138,6 +132,7 @@ For information on API versions, see [API versioning and support schedule](/help
 For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
+
 
 ### Training updates
 

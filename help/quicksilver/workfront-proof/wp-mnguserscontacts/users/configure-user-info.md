@@ -42,9 +42,9 @@ exl-id: ae8d3a96-ebf1-48ee-a7b7-50d69bffbd36
       * **Only one decision required:** Requires only one decision on a proof.
       * **Download of original file:** Enables the user to download the original file for a proof. This option is enabled by default.
 
-         For more information on downloading original files, see [Download Files Stored in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
+        For more information on downloading original files, see [Download Files Stored in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
 
-         <!--      
+        <!--      
         <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Public sharing. The proof can be shared via a public URL or embedded code:</strong>Enables the user to share proofs via a public URL or embed code.<br>This option is enabled by default but is not available if the&nbsp;<strong>Login required</strong>option is selected.<br>For more information on sharing proofs, see "<a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md" class="MCXref xref" xrefformat="{para}">Share the Public URL in Workfront Proof</a>."</li>      
         -->
 

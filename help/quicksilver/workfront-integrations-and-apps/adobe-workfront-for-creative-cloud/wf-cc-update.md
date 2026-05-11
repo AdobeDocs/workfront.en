@@ -27,7 +27,7 @@ You can update your work from any of the following [!DNL Adobe Creative Cloud] a
  </col> 
  <tbody> 
   <tr> 
-   <!--
+  <!--
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td>Any</td> 
   </tr> 

@@ -23,7 +23,7 @@ You can upload your artboards as documents for a quick review and approval or si
  <col> 
  <tbody> 
   <tr> 
-   <!--
+  <!--
     <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Any</p> </td> 
   </tr> 

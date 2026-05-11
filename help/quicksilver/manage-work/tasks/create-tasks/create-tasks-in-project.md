@@ -162,6 +162,12 @@ To create tasks on a project:
    1. (Conditional and optional) If you want the task to be recurring, update the **Recurrence Frequency** field. For more information about creating recurring tasks, see [Create recurring tasks](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
    1. (Optional) Click **Documents** in the left panel to attach a document to the new task, then click **Add or link files** to add a document to the task from your computer, another service, or to link documents and folders from your computer or another service.
 
+      >[!TIP]
+      >
+      >If your organization has access to both legacy Workfront and Adobe enterprise document storage, the Documents area for tasks might display differently depending on which storage type your task uses. Tasks inherit the storage type from the project.
+      >
+      >For information, see [Add documents to Adobe Workfront from your file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+
 1. (Conditional) If you clicked **Add More Tasks** in step 5, start entering the task information using in-line editing, then press Enter.
 
    <!--
