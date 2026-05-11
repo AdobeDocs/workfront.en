@@ -68,7 +68,12 @@ The storage quota is refreshed daily to show the most up-to-date count.
 
 ## Adobe enterprise storage
 
-If your organization uses Adobe enterprise storage, Customer Info shows a storage overview that breaks usage into different sections for legacy Workfront storage, Adobe enterprise storage, and Frame.io. Workfront also applies a soft cap to uploads when usage exceeds your quota, so users can still upload documents.
+<!--
+If your organization uses Adobe enterprise storage, your storage quota is reported as a single pooled allocation that combines storage provisioned through your V2 Workfront SKU and any storage provisioned through a Frame.io Enterprise SKU or add-on. There's no hard cap on storage usage; users can continue uploading documents even when usage exceeds your quota.
+
+Beginning with the May 2026 release, you can view your pooled storage quota and a usage breakdown on the Customer Info page.
+
+-->
 
 ### View storage usage on Customer Info
 
@@ -78,8 +83,11 @@ To check Adobe enterprise document storage:
 
 1. In the left panel, click **System** > **Customer Info**.
 1. Go to the **Storage Overview** section.
-1. View the usage for Adobe enterprise storage. 
-<!--Both Workfront and Frame.io usage are broken down separately, but roll up to the total usage for Adobe enterprise storage.-->
+1. Review your usage. The Storage Overview shows your pooled storage quota and breaks usage into:
+
+    * Workfront legacy projects and Adobe enterprise storage projects display in the blue bar.
+    * Frame standalone projects display in the green bar. These projects are separate from Workfront and only available if you have a Frame.io Enterprise license. 
+
 
 ![Adobe enterprise storage usage on Customer Info](assets/storage-usage.png)
 
@@ -87,6 +95,6 @@ Usage figures refresh regularly so you see an up-to-date count.
 
 ### Email notifications for administrators
 
-When usage crosses 75%, 85%, or 100% of your storage quota, Workfront sends an email notification to System Administrators. 
+When usage crosses 75%, 90%, or 100% of your storage quota, Workfront sends an email notification to System Administrators. 
 
 </div>
