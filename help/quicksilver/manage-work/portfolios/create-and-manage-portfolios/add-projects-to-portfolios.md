@@ -146,6 +146,8 @@ Old:
     </tbody> 
    </table>
 
+   <!-- update screen shot for both kinds of storages??-->
+
    ![New project dropdown](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. (Conditional) If you selected to add an existing project, the **Add Projects** box opens. <!--check this after UI changes-->
