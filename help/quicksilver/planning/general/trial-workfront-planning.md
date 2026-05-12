@@ -16,6 +16,13 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 <!--add screen shots-->
 <!--check the names of areas, buttons, and links: Learn more, Open Planning, Review trial agreement, etc-->
 
+<!--
+and remove the IMPORTANT below - it conflicts with this one: 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Planning trial period concludes on May 15, 2026. This article will remain active for a period of time but will be retired soon. We recommend that you update your bookmarks for the future.
+-->
+
 Adobe Workfront Planning provides centralized visibility into your marketing lifecycle, enabling better collaboration across teams, real-time tracking of campaigns, and automated workflows. You can create custom workspaces and visualize work with interactive timelines and calendars.
 
 >[!IMPORTANT]

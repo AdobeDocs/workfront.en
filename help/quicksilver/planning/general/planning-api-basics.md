@@ -28,24 +28,26 @@ For more information on External lookup fields, see [Examples of the External lo
 
 ## Workfront Planning API versions
 
-* Version 1.0 - released in July 2024 
+* Version 1 - released in July 2024 
 
-    For more information, see the section [Workfront Planning API Version 1.0](#workfront-planning-api-version-10) in this article. 
+    For more information, see the section [Workfront Planning API Version 1](#workfront-planning-api-version-1) in this article. 
     <!--
-    Maybe retitle the "Workfront Planning API" section below to "Workfront Planning API Version 1.0" when Version 2 releases
+    Maybe retitle the "Workfront Planning API" section below to "Workfront Planning API Version 1" when Version 2 releases
     -->
 
 <!--
-* Version 2.0 - released in May 2026
+* Version 2 - released in May 2026
 
-    For more information, see the section [Workfront Planning API Version 2.0](#workfront-planning-api-version-20) in this article.
+    For more information, see the section [Workfront Planning API Version 2](#workfront-planning-api-version-2) in this article.
 -->
 
-## Workfront Planning API Version 1.0 
+## Workfront Planning API Version 1
 
-Workfront Planning API Version 1.0 was released in July 2024.
+Workfront Planning API Version 1 was released in July 2024.
 
-The following sections described functionality available in the Workfront API Version 1.0. 
+The following sections described functionality that was made available in the Workfront API Version 1. 
+
+All future API version will contain the same functionality, unless otherwise specified. 
 
 <!--
 Becky had put the title of this article as"Workfront Planning API URL", but she did not document what that URL is; asking dev and hiding it for now
@@ -391,11 +393,11 @@ For more information on sorting, see [Sorting query results in the API](#sorting
 
 <!--
 
-## Workfront Planning API Version 2.0
+## Workfront Planning API Version 2
 
-Version 2.0 of the Workfront Planning API was released in May 2026. 
+Version of the Workfront Planning API was released in May 2026. 
 
-In addition to all the information contained in Version 1.0, the following enhancements were added in Version 2.0: 
+In addition to all the information contained in Version 1, the following enhancements were added in Version 2: 
 
 * Search by the user's Workfront ID field instead of the user's IMS ID.
 
