@@ -13,6 +13,6 @@ recommendations: noDisplay, noCatalog
 
 There are no features released during the Third Quarter Release for 2026. When features are released for this quarter, we will document them in this article. 
 
-<!--keep the sentence below for all future quarterly release pages-->
+<!--keep the sentence below for all future quarterly release pages--> 
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
