@@ -2,7 +2,6 @@
 title: Workfront Proof mobile
 description: Learn about Workfront Proof mobile.
 hide: true
-hidefromtoc: true
 exl-id: 5f2280d0-8a4d-4daa-b5d9-ce347d2892ed
 ---
 # [!DNL Workfront Proof] mobile

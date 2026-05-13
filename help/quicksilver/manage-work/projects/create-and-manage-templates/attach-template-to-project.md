@@ -48,9 +48,9 @@ For more information about creating a project using a template, see [Create a pr
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
- +++
++++
 
- <!--
+<!--
  Old:
  
  <table style="table-layout:auto"> 

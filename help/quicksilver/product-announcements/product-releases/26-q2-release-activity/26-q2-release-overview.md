@@ -388,9 +388,9 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Predefined views added to the requests list in the Requests area and the My Requests widget </a><p></p>
             <p>To help you organize your request list better, we have added predefined views to the requests list in the Requests area and the My Requests widget in Home.</p>
         </td>
-           <td><p>N/A</p><p>Predefined views will not have a Preview release, and will be release directly to Production on April 16. </p></td>
-        <td><p>April 16, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
+           <td><p>April 23, 2026</p></td>
+        <td><p>April 23, 2026</p></td>
+        <td><p>April 23, 2026</p></td>
  </tr>
     <tr>
         <td>

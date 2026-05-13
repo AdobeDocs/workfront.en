@@ -113,6 +113,10 @@ Consider the following when moving a task:
 
    * Milestones
 
+* If your organization uses both legacy Workfront and Adobe enterprise storage, you can't move tasks between projects that use different storage types. 
+
+   For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 ## Move tasks in a list
 
 {{step1-to-projects}}

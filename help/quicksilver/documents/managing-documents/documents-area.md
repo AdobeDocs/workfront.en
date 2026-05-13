@@ -14,13 +14,13 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 In the Documents area, you can organize, manage, and view metadata for documents uploaded to Adobe Workfront. You can also see the proof decision.
 
-Workfront currently has two versions of the Documents area: the legacy documents area and the new documents area. The version that your organization uses depends on whether your organization is on legacy Workfront storage or enterprise storage. For more information about these storage types, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront currently has two versions of the Documents area: the legacy documents area and the new Documents area. The version that your organization uses depends on whether your organization is on legacy Workfront storage or enterprise storage. For more information about these storage types, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Legacy documents area
 
 There are two types of Documents areas. Features and functionality are the same for both:
 
-* **Documents area in a program, portfolio, project, task, or issue:** Lists all documents that you have access to for a particular project, task, or issue. To access this area, click **Documents** ![Documents icon](assets/document-icon-12x14.png) in the left panel while viewing a project, task, or issue.
+* **Documents area in a program, portfolio, template, project, task, or issue:** Lists all documents that you have access to for a particular project, task, or issue. To access this area, click **Documents** ![Documents icon](assets/document-icon-12x14.png) in the left panel while viewing a project, task, or issue.
 
 * **Global Documents area:** Lists all documents that you have access to&nbsp;in Workfront. To access this area, click **Documents** ![Documents icon](assets/document-icon.png) in the Main Menu ![Main Menu icon](assets/main-menu-icon.png).
 
@@ -54,7 +54,7 @@ Once a proof decision is made, it appears in the Document list.
 
 ### Folders
 
-On a project, task, or issue where documents are uploaded, you can set up folders to organize the documents. For more information, see [Create document folders](../../documents/organizing-documents/create-documents-folder.md).
+You can set up folders to organize documents. For more information, see [Create document folders](../../documents/organizing-documents/create-documents-folder.md).
 
 In the global Documents area, you can set up two types of folders to organize the documents you have access to:
 
@@ -66,9 +66,9 @@ In the global Documents area, you can set up two types of folders to organize th
 
 The Document Details page provides a more full-scale version of the Document Details in the Summary on the right.
 
-## New document area
+## New Documents area
 
-The new documents area is only available for if your organization is on enterprise storage. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+The new Documents area is only available for if your organization is on enterprise storage. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Use the summary panel
 
@@ -76,19 +76,19 @@ When you select a document in the documents area, you can use the Summary panel 
 
 #### Review and approve with Frame.io
 
-You can review and approve documents in the new documents area using the Frame.io viewer.
+You can review and approve documents in the new Documents area using the Frame.io viewer.
 
 For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Manage versions
 
-You can upload new versions of a document in the new documents area. When you upload a new version, the previous version is retained and can be accessed from the Summary panel. Versions are automatically named with the date and time of the upload, but can be renamed as needed. 
+You can upload new versions of a document in the new Documents area. When you upload a new version, the previous version is retained and can be accessed from the Summary panel. Versions are automatically named with the date and time of the upload, but can be renamed as needed. 
 
 You can also kick off a new approval workflow for a specific version of a document.
 
 #### View document history
 
-You can view a document's history in the new documents area. The history includes the following types of information:
+You can view a document's history in the new Documents area. The history includes the following types of information:
 
 * When the document was uploaded
 * When new versions were uploaded
@@ -97,10 +97,10 @@ You can view a document's history in the new documents area. The history include
 
 ### System-level folders for document permissions
 
-Workfront automatically creates a system-level folder when the first document is uploaded to a task or issue. These folders inherit permissions from the task or issue and are visible in the project-level documents area. All documents uploaded to that task or issue are stored in that folder and inherit permissions from it. This is the primary way that permissions are managed for documents in the new documents area. For more information, see [Object permissions and access level overview for the Adobe enterprise storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+Workfront automatically creates a system-level folder when the first document is uploaded to a task or issue. These folders inherit permissions from the task or issue and are visible in the project-level documents area. All documents uploaded to that task or issue are stored in that folder and inherit permissions from it. This is the primary way that permissions are managed for documents in the new Documents area. For more information, see [Object permissions and access level overview for the Adobe enterprise storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
 ## Considerations
 
-* The new documents area is optimized for screens 1024 pixels wide or larger. If you have a smaller screen, you may may have issues accessing the Summary panel. 
+* The new Documents area is optimized for screens 1024 pixels wide or larger. If you have a smaller screen, you may may have issues accessing the Summary panel. 
 
-* The global documents area is not available in the new documents area experience. You can only access documents from a programs, portfolios, projects, tasks, or issues.
+* The global Documents area is not available in the new Documents area experience. You can only access documents from a programs, portfolios, projects, tasks, or issues.

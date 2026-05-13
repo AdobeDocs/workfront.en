@@ -6,8 +6,7 @@ title: Create a  reader account for Snowflake
 description: In order to access Data Connect data, you must first create a Snowflake reader account.
 author: Courtney
 feature: Reports and Dashboards
-hide: yes
-hidefromtoc: yes
+hide: true
 exl-id: 8ac99353-ebb9-46d9-b1ad-1cdbdc974f49
 ---
 # Test

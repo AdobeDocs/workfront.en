@@ -14,9 +14,13 @@ exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
 
 <!-- Audited: 1/2024 -->
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that are not yet onboarded to the [!UICONTROL Adobe Admin Console].
+>The procedure described on this page applied only to organizations that were not yet onboarded to the [!UICONTROL Adobe Admin Console].
+>
+>Because all organizations have now been onboarded to the Adobe Admin Console, this article will be removed in the near future.
 >
 >If your organization has been onboarded to the [!UICONTROL Adobe Admin Console], see [Platform-based administration differences ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 

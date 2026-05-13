@@ -28,6 +28,7 @@ This section contains the following articles:
 * [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md)
 * [Configure and use your organization's custom OAuth 2 applications using JWT flow](../../wf-api/api/oauth-app-jwt-flow.md)
 * [Configure and use your organization's custom OAuth 2 applications using PKCE flow](../../wf-api/api/oauth-app-pkce-flow.md)
+* [What's new in API version 22](../../wf-api/api/new-api-version-22.md) 
 * [What's new in API version 21](../../wf-api/api/new-api-version-21.md) 
 * [What's new in API version 20](../../wf-api/api/new-api-version-20.md) 
 * [What's new in API version 19](../../wf-api/api/new-api-version-19.md) 

@@ -185,7 +185,7 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. Click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png), then **Goals**. 
+1. Click the **Main Menu** ![Main Menu icon](assets/lines-main-menu.png), then **Goals**. 
 1. From the Goal List, click the name of a goal to open the goal page.
 1. Click **Progress indicators** in the left panel.
 1. Select a result in the Progress indicators list and click the **Edit** icon ![Edit icon](assets/edit-icon.png).
@@ -230,7 +230,7 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. Click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png), then **Goals**. 
+1. Click the **Main Menu** ![Main Menu icon](assets/lines-main-menu.png), then **Goals**. 
 1. From the Goal List, click the name of a goal to open the goal page.
 1. Click **Progress indicators** in the left panel.
 1. Select an activity in the Progress indicators list and click the **Edit** icon ![Edit icon](assets/edit-icon.png).

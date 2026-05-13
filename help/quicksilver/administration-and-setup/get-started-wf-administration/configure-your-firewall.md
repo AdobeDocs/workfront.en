@@ -13,25 +13,21 @@ exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
 
 <!-- Audited: 12/2023 -->
 
+<!--Follow up October 2026-->
+
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+>The procedure described on this page applied only to organizations that have not yet been onboarded to the Admin Console. Because all organizations have now been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->To configure your allowlist if your organization has been onboarded to the Adobe Admin Console, see [Domains to be allowed for Adobe Apps and Services](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
+>To configure your allowlist after your organization has been onboarded to the Adobe Admin Console, see [Domains to be allowed for Adobe Apps and Services](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >
 >The way an organization configures its allowlist is unique to each organization. Work with your IT team to identify your organization's procedure and implement these additions.
 
 If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist. This opens communication between your environment and the Adobe Workfront servers and allows the following processes:
-
-* Sending messages from the Workfront application
-
-  >[!NOTE]
-  >
-  >This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 * Using document webhooks when configuring custom document integrations
 * Using Workfront Event Subscriptions
@@ -428,7 +424,7 @@ If your organization uses outbound network filtering, add the following domains 
 * *.static.workfront.com 
 
 
-  This is a static domain that excompasses all of the following domains. You may add the individual domains if you prefer:
+  This is a static domain that encompasses all of the following domains. You may add the individual domains if you prefer:
   
    * mfe.static.workfront.com
    * mfe-c.static.workfront.com
@@ -436,7 +432,7 @@ If your organization uses outbound network filtering, add the following domains 
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
 
-If your organization is on the Adobe Unified Experience, it uses the following domains. These domains are covered under `*.adobe.com`, but can be added if desired.
+Because your organization is on the Adobe Unified Experience, it uses the following domains. These domains are covered under `*.adobe.com`, but can be added if desired.
 
 * &lt;your domain&gt;.my.workfront.adobe.com
 * &lt;your domain&gt;.preview.workfront.adobe.com
@@ -445,6 +441,8 @@ If your organization is on the Adobe Unified Experience, it uses the following d
 
 
 For Workfront Fusion, add the following domains:
+
+<!--Remove me October 2026-->
 
 * For organization not on the Adobe Unified Experience:
    * app.workfrontfusion.com (US AWS)

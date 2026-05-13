@@ -15,8 +15,8 @@ You can add an image file to Adobe Workfront by copying it and pasting it from t
 
 >[!NOTE]
 >
->This functionality is not available in the new documents area.<br>
->If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>This functionality is not available in the new Documents area.<br>
+>If your organization uses enterprise storage, you will see the new Documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Browser requirements for pasting from the Clipboard
 

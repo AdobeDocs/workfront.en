@@ -57,9 +57,13 @@ You can modify the allocation percentage when you make advanced assignments on a
   <tr> 
    <td>Object permissions</td>
    <td><p>Contribute or higher permissions to the task</p>
-   <p>Edit permissions to update allocation percentage in the Edit Task box when editing tasks using the old experience.</p>
+   <p>Edit permissions to update allocation percentage in the Edit Task box.</p>
+   <!--
+   Not true anymore: 
    <p><b>NOTE</b></p>
-   <p> You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a>.</p></td>
+   <p> You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a>.</p>
+   -->
+   </td>
   </tr>
  </tbody>
 </table>
@@ -67,12 +71,6 @@ You can modify the allocation percentage when you make advanced assignments on a
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--
-Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
-
-<p>Edit permissions to update allocation percentage in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
--->
 
 ## Considerations about modifying percent allocations for tasks
 

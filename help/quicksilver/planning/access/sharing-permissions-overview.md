@@ -76,7 +76,7 @@ You can manually share the following objects in Workfront Planning:
 
     >[!IMPORTANT]
     >
-    >If your organization's instance of Workfront has been onboarded to the Adobe Unified Experience, the users you want to share Planning objects with must be added to the Adobe Admin Console. You cannot share Planning objects with Workfront users who have not been added to the Adobe Admin Console. 
+    >The users you want to share Planning objects with must be added to the Adobe Admin Console. You cannot share Planning objects with Workfront users who have not been added to the Adobe Admin Console. 
 
 * You can share Planning objects in the following ways: 
     

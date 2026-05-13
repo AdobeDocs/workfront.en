@@ -240,7 +240,7 @@ Consider the following when reviewing the Goal List:
 
 To manage goals in the Goal List: 
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png)  in the upper-right corner, then click **Goals**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/lines-main-menu.png)  in the upper-right corner, then click **Goals**.
 
    <!--
     Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)

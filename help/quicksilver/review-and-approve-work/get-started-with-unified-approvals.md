@@ -21,9 +21,9 @@ For more information about Frame.io, see [Getting Started with Frame.io](https:/
 
 >[!VIDEO](https://video.tv.adobe.com/v/3471078)
 
-## Integration requirements
+## Access requirements
 
-* The Workfront instance must be enabled on the Adobe Unified Experience.
+* You must be on a version of Workfront that supports unified review and approval. If your organization is not already on a supported version, contact your Adobe account representative.
 
 ## Work initiation and planning in Workfront
 

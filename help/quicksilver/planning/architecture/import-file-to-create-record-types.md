@@ -11,9 +11,11 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create record types by importing information from a CSV or Excel file
 
+<!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -132,14 +134,14 @@ Old:
 * Empty sheets are not supported. 
 * Fields of the following types are not supported and cannot be mapped to fields on the import sheet:
 
-    * Connection fields to Workfront, AEM Assets object types, or GenStudio Brands.
-    * Lookup fields from connected Planning records, Workfront, AEM Assets objects or GenStudio Brands.
+    * Connection fields to Workfront, Adobe Experience Manager object types, or GenStudio Brands.
+    * Lookup fields from connected Planning records, Workfront, Adobe Experience Manager objects or GenStudio Brands.
     * Formula fields
     * Created date, Created by
     * Last modified date, Last modified by
     * Approved date, Approved by
     * People
-    * <span class="preview">Record ID</span>
+    * Record ID
 
 To import record types using an Excel or CSV file: 
 
@@ -153,10 +155,10 @@ To import record types using an Excel or CSV file:
 
    >[!TIP]
    >
-   ><span class="preview">You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for workspaces:</span>
+   >You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for workspaces:
    >
-   >* <span class="preview">CTRL+K for Windows</span>  
-   >* <span class="preview">⌘+K for Mac</span>
+   >* CTRL+K for Windows
+   >* ⌘+K for Mac
 
 1. Click **Add record type**. 
 1. Click **Upload from file**.
@@ -197,7 +199,7 @@ To import record types using an Excel or CSV file:
 
     >[!TIP]
     >
-    >You can only map to fields from Workfront Planning connected records. You cannot map to fields from Workfront, AEM Assets, or GenStudio Brands connections. For more information, see the section [Considerations about importing record types using an Excel or CSV file](#considerations-about-importing-record-types-using-an-excel-or-csv-file) in this article.
+    >You can only map to fields from Workfront Planning connected records. You cannot map to fields from Workfront, Adobe Experience Manager, or GenStudio Brands connections. For more information, see the section [Considerations about importing record types using an Excel or CSV file](#considerations-about-importing-record-types-using-an-excel-or-csv-file) in this article.
 
 1. (Conditional) After updating information about the field, click **Save**.
 

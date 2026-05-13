@@ -15,9 +15,11 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 <!--Audited: 03/2026-->
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 For reporting purposes, you might want to create custom quarters if your organization's quarters are based on specific criteria other than calendar dates (such as business days or shopping days).
 
@@ -58,10 +60,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 {{step-1-to-setup}}
 
-1. (Conditional) Depending on which environment you access Custom Quarters from, do one of the following: 
-
-   * In the Production environment, click **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects].**
-   * <span class="preview">In the Preview environment, click **[!UICONTROL Custom Quarters]**.</span>
+1. Click **[!UICONTROL Custom Quarters]**.
 
 1. Select **[!UICONTROL Enable Custom Quarters]**.
 

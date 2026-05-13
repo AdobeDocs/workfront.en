@@ -150,9 +150,11 @@ For more information about Single Sign-On, see [Overview of single sign-on in Ad
 
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that have not yet been onboarded to the [!DNL Adobe Admin Console]. If your organization has been onboarded to the [!DNL Adobe Admin Console], no action is necessary.
+>The procedure described in this section applied only to organizations that had not yet been onboarded to the [!DNL Adobe Admin Console]. Because all organizations have now been onboarded to the [!DNL Adobe Admin Console], no action is necessary.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the [!DNL Adobe Admin Console], see [Platform-based administration differences ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>
+>This section will be removed in the near future.
 
 
 If you want to configure your Preview Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Preview Sandbox is independent from your SSO configuration in the Production environment.

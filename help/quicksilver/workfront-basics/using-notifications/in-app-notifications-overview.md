@@ -57,7 +57,7 @@ When you click the numbered icon ![Notifications icon](assets/notifications-icon
 * ![Proof icon](assets/proof.png) [!UICONTROL Proof needs your approval] - [sender's name]
 * ![Timesheet icon](assets/timesheet.png) [!UICONTROL Timesheet needs your approval] - [sender's name]
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <img src="assets/portfolio.png"> You need to approve a portfolio</li>
   -->
 

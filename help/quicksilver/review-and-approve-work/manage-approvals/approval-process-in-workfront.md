@@ -141,11 +141,17 @@ When someone on the project changes the status to Ready for Printing, the copywr
 
 After they both approve the brochure in Workfront, the project status changes to Ready for Printing.
 
-## Document approval processes
+## Legacy document approval processes
 
-Document approvals are used for a more general approval. Feedback is captured in chat format on the Updates tab. You can use the approval buttons to approve, reject, or approve with changes.
 
-To add approvers to a document after it's been uploaded to Workfront, see [Request document approvals](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+Legacy document approvals are used for a more general approval. Feedback is captured in chat format on the Updates tab. You can use the approval buttons to approve, reject, or approve with changes.
+
+To add approvers to a document after it's been uploaded to Workfront, see [Request a legacy document approval](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+
+>[!NOTE]
+>
+>There are currently several document approval options in Workfront. For more information, see [Available functionality for document approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
+
 
 ## Proof approval processes
 

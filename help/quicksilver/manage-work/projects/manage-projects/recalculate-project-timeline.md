@@ -118,9 +118,9 @@ Workfront recalculates timelines daily only for projects where all of the follow
 You can configure how frequently the timeline for your project is updated. When the project timeline is updated, it's recalculated based on changes made to the project. 
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ 
 or changes made to another project that the timeline is dependent on
-</MadCap:conditionalText>
+ 
 -->
 
 

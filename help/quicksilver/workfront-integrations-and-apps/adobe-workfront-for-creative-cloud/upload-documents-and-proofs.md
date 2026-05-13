@@ -6,8 +6,7 @@ title: Upload documents and proofs from the [!DNL Adobe Workfront plugin] to the
 description: Upload documents and proofs from the [!DNL Adobe Workfront plugin] to the [!DNL Creative Cloud]
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-hide: yes
-hidefromtoc: yes
+hide: true
 exl-id: 88870441-8895-477c-9409-f2c33654545a
 ---
 # Upload documents and proofs from the [!DNL Adobe Workfront plugin] to the [!DNL Creative Cloud]

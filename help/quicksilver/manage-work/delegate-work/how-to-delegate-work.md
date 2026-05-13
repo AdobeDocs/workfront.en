@@ -150,9 +150,9 @@ To delegate your tasks and issues to others:
 
    * The [!UICONTROL **Delegate**] button in the [!UICONTROL **Home**] area changes to [!UICONTROL **Edit delegation**] to indicate that there is a delegation in place.
       <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       
       (NOTE: is this shot correct? See UI - this is a mock)
-      </MadCap:conditionalText>
+       
       -->
 
       ![Edit delegation button](assets/edit-delegation-button-on-my-work-widget.png)

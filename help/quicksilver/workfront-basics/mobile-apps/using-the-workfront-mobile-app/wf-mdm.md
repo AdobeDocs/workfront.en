@@ -29,3 +29,5 @@ The Workfront mobile app is now available in the [!DNL Microsoft Intune] app sto
 * Android
 
 Your Workfront instance must be on Adobe Identity Management System (IMS).
+
+<!--remove this note October 2026-->

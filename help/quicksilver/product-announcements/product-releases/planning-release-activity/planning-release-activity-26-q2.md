@@ -26,6 +26,7 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 >Preview: April 16, 2026
 >Production fast release: April 16, 2026
 >Production for everyone: April 16, 2026
+>[!BADGE Off schedule]{type=Neutral}
 
 You can now access Experience Manager's Content Advisor in Workfront Planning. Content Advisor allows you to:
 
@@ -181,8 +182,6 @@ We have redesigned the way breadcrumbs display across record types and records. 
 
 For more information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
-<!--
-
 ## New field type for Record ID  
 
 >[!NOTE]
@@ -195,7 +194,6 @@ We have added a new field type for Record ID. This is a system-generated alpha-n
 
 For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 
--->
 
 ## Allow non-admin users to make a record type connectable 
 

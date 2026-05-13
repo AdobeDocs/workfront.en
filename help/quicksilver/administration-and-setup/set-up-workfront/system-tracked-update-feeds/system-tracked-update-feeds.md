@@ -36,10 +36,10 @@ The [!UICONTROL Updates] area includes the following types of updates:
 
 
    <!--
-  DRAFTED IN FLARE:
-  Timestamps for system updates are based on your operating system's timezone.
+   DRAFTED IN FLARE:
+   Timestamps for system updates are based on your operating system's timezone.
   
-  -->
+   -->
 
 ## Considerations about system-tracked updates 
 

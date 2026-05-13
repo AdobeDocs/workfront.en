@@ -102,7 +102,7 @@ You can use the following filters in the My Tasks widget:
 </ul>
 </td>
   </tr>
-   <!--
+  <!--
     <tr>
     <td>All Unassigned Tasks</td>
     <td></td>

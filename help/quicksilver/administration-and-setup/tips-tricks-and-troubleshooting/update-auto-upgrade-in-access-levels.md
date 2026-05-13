@@ -8,8 +8,7 @@ description: You can update the auto-upgrade option in access levels.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-hide: yes
-hidefromtoc: yes
+hide: true
 exl-id: 1f7fce86-0ba9-4407-842d-5f8625c9de70
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8

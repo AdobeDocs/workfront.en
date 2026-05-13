@@ -17,9 +17,11 @@ this article is linked to the WF Planning landing page - do not change URL or mo
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 >[!IMPORTANT]
 >
@@ -285,7 +287,7 @@ You can create custom fields of the following types:
 * Last modified date
 * Approved by
 * Approved date
-* <span class="preview">Record ID</span>
+* Record ID
 
 <!--update the screen shot above-->
 
@@ -327,9 +329,6 @@ For example, if you connect a Campaign record type with a Workfront Project obje
 >   * Last modified by
 >   * Workfront typeahead fields (including fields like Project Owner, or Project Sponsor)
 >
->* You cannot add the following field types as lookup fields from the connected record or object type in Production, <span class="preview">but you can add them in the Preview environment:</span>
->
->   * People
 
 For information about connecting record types, records, and creating linked fields, see the following articles:
 

@@ -204,7 +204,11 @@ To view requests that you or other users have submitted in the legacy requesting
 
    >[!TIP]
    >
-   >If the Summary panel is already opened, the Open Summary icon changes to Close Summary.
+   >* If the Summary panel is already opened, the Open Summary icon changes to Close Summary.
+   >
+   >* If your organization uses Adobe enterprise document storage, you cannot add documents to Adobe-storage requests in the Summary panel.
+   >
+   >For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. (Optional and conditional) Click the **X** icon in the upper-right corner or the **Close Summary** icon ![Close summary with text](assets/close-summary-with-text-nwe.png) to close the Summary Panel.
 

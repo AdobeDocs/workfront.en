@@ -15,13 +15,13 @@ exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
 
 >[!IMPORTANT]
 >
->* **If your organization has been onboarded to the Adobe Admin Console, you must create system administrators through the Adobe Admin Console.**
+>* **You must create system administrators through the Adobe Admin Console.**
 >
 >   For instructions on creating system administrators in the Adobe Admin Console, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >   Group administrators in organizations that have been onboarded to the Adobe Admin Console can use this procedure to create users and submit the user for admin approval. 
 >
->   For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>   For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 >* **If your organization uses Single Sign-on (SSO)**, we recommend creating users and assigning them to Workfront in the Adobe Admin Console. Creating these users in Workfront is possible, but there may be issues transferring that information to the Adobe Admin Console, based on how your organization's Admin Console is configured.
 >   After creating the user in the Adobe Admin Console, you can configure the user's information in Workfront, such as assigning roles, groups, teams, and access levels.
@@ -29,14 +29,15 @@ exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
 
 
 
+<!--
+
 You can add users in Adobe Workfront by creating individual users from scratch or by copying existing users.
 
 For information about how to import multiple users simultaneously, see [Import users](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
 
-<!--
-Replace this intro with something like the following when we switch to Admin Console:
-As an Adobe administrator, you can add users in Adobe Workfront by adding them to your Workfront product profile in the Adobe Admin Console. For instructions, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a>.
 -->
+
+As an Adobe administrator, you can add users in Adobe Workfront by adding them to your Workfront product profile in the Adobe Admin Console. For instructions, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 ## Access requirements
 
@@ -118,7 +119,7 @@ Before you add a user, gather the information about the user listed below and de
    >
    >* If your Workfront administrator enabled an SSO integration with Workfront, then the Only Allow &lt;SSO Configuration&gt; Authentication field is hidden if you disable the email invitation. The Federation ID or &lt;SSO Configuration&gt; Username field remains visible.
    >
-   >* If your organization has been onboarded to the Admin Console and you add a user through Workfront, you do not have the option to send an email invitation.
+   >* Because your organization has been onboarded to the Admin Console and you add a user through Workfront, you do not have the option to send an email invitation.
    >
    >   For existing Adobe users, the user may or may not receive an email about Workfront being available. This is a preference controlled by the Adobe administrator for the product.
 
@@ -175,6 +176,6 @@ If you selected the option to send an invitation to the user, they should receiv
 
 >[!NOTE]
 >
->If your organization has been onboarded to the Admin Console and you add a user through Workfront, you do not have the option to send an email invitation.
+>Because your organization has been onboarded to the Admin Console and you add a user through Workfront, you do not have the option to send an email invitation.
 >
 >For existing Adobe users, the user may or may not receive an email about Workfront being available. This is a preference controlled by the Adobe administrator for the product.

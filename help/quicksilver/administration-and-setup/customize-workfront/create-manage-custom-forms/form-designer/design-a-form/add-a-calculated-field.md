@@ -165,7 +165,7 @@ To reuse an existing calculated custom field:
      </tr>
      <tr>
       <td>Automatic permission</td>
-      <td><p>Turn on this option to allow the finance permissions to automatically come from the fields used in the formula. The permission definitions are shown in the Finance Permission Type field, below.</p><p>Access is required for all fields in the formula. For example, if two fields are used in a calculated field, and one of them has billing permission applied and the second has cost permission applied, then the user must have permissions to view both billing and cost rates to see the calculated value.</p></td>
+      <td><p>Turn on this option to allow the finance permissions to automatically come from the fields used in the formula. The permission definitions are shown in the Finance Permission Type field, below.</p><p>Access is required for all fields in the formula. For example, if a calculated field uses two fields, one with billing permissions and one with cost permissions, the user must have permissions to view both to see the calculated value.</p></td>
      </tr>
      <tr>
       <td>Finance Permission Type</td>

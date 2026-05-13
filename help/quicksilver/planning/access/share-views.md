@@ -12,12 +12,15 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 # Share views
 
-<!--there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes-->
+<!--
+there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes
+-->
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+-->
 
 {{planning-important-intro}}
 
@@ -211,7 +214,7 @@ You can share views you created or views you have Manage permissions to with use
    >
    >* In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. You cannot add Workfront-only users. For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md). 
    >
-   >* When you share a view with a user, their primary job role <span class="preview">and their email</span> also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email.  
+   >* When you share a view with a user, their primary job role and their email also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email.  
 
    * **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. 
 
@@ -219,7 +222,7 @@ You can share views you created or views you have Manage permissions to with use
 
    ![Sharing a view with groups](assets/sharing-a-view-ui-with-groups.png)
 
-1. <span class="preview">(Optional) When you share with a group, team, role, or company, hover over the name of the entity and click the right-pointing arrow to expand a list of users that are receiving the permissions. </span>
+1. (Optional) When you share with a group, team, role, or company, hover over the name of the entity and click the right-pointing arrow to expand a list of users that are receiving the permissions.
 
    ![Share view with team](assets/share-view-with-team-expanding-arrow-highlighted.png)
 
@@ -231,17 +234,22 @@ You can share views you created or views you have Manage permissions to with use
 
         System administrators always receive Manage permissions to views shared with them.
 
-1. Click **Save**.
-
-   The view updates with a people icon ![View shared with others icon](assets/view-shared-with-others-people-icon.png) to indicate that the view is now shared with other users. 
+1. Click **Save**. 
 
    The users you shared the view with receive both an in-app and email notification about having permissions to it.
 
-   >[!TIP]
-   >
-   >Views without a people or a global icon are views you created and are not shared with others. Unshared views are only visible to you. 
+1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the record type page and display it in the selected view.
 
-1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the record type page and display it in the selected view. 
+1. (Optional) Hover over the name of a view to learn the name of the view owner, and whether the view is shared privately or publicly. 
+
+   The following labels exist:
+
+   * **Public**: The view is shared publicly. For information, see the section [Share permissions to a view publicly](#share-permissions-to-a-view-publicly) in this article. 
+   * **Owned by you**: The view is created by you. 
+   * **Shared with you**: The view is created by others and shared with you. The name of the owner also displays. 
+   * **Private**: You created the view or others created it but it is not shared publicly. 
+
+   ![Privately-shared view hover over label](assets/privately-shared-view-hover-over-label.png)
 
 ## Share permissions to a view publicly
 
@@ -290,22 +298,16 @@ To share a view publicly in Workfront Planning:
 
 1. Click **Save**.
 
-   The view updates with a global icon ![Public shared view icon highlighted](assets/public-shared-view-icon-highlighted.png) to indicate that the view is shared publicly.  
+1. (Optional) Hover over the name of the view in the list of views and notice that the view indicates that it is now shared publicly. 
 
-   >[!TIP]
-   >
-   >Views without a people or a global icon are views you created and are not shared with others. Unshared views are only visible to you. 
+   ![Publicly-shared view hover over label](assets/publicly-shared-view-hover-over-label.png)
 
 1. (Optional) Paste the link you copied to an email, chat message, document, or in a Workfront comment to share it with others. 
 
-   <div class="preview">
-
    When others open a public view they see the following information about the view in the header: 
 
-      * The view name and icon
+      * The view name and icon. The icon indicates the type of the view: a table, timeline, or a calendar. 
       * The name of the record type that the view displays
-
-   </div>
 
 ## Copy a link to a view
 

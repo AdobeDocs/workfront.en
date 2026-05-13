@@ -11,10 +11,11 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Manage the table view
 
-
+<!--
 <span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -235,7 +236,7 @@ You can add up to 500 fields (or columns) in a table view.
     >
     >The number of hidden fields displays to the left of the Fields icon in the toolbar.
     >
-    ><span class="preview">By default, hidden fields do not display in the record's **Details** preview box. All fields display in the record's Details page. For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
+    >By default, hidden fields do not display in the record's **Details** preview box. All fields display in the record's Details page. For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 1. Click the **Fields** icon and enable the toggle associated with the fields you want to display in the columns of the table. All fields display by default.
@@ -595,11 +596,11 @@ When you display the table view, you can also view which field another user is e
 
     <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 
-1. <span class="preview">(Optional) Click the triangle in the upper-right corner of the cell that contains the field edited by others. A list of users currently editing the field displays.</span> 
+1. (Optional) Click the triangle in the upper-right corner of the cell that contains the field edited by others. A list of users currently editing the field displays.
 
 >[!TIP]
 >
-><span class="preview">Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.</span>
+>Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.
 
 
 

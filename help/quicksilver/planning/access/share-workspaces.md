@@ -11,9 +11,11 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Share workspaces
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -150,39 +152,31 @@ To share a workspace with others:
 
     ![Share button on workspace top right](assets/share-button-on-workspace-top-right.png)
 
-1. <span class="preview">(Conditional) Depending on what access level you have, do one of the following: 
+1. (Conditional) Depending on what access level you have, do one of the following: 
 
-   * If you are a System Administrator, select from the following options:</span>
-
-      <div class="preview">
+   * If you are a System Administrator, select from the following options:
 
       * **Only invited people can access**: You must select entities in the sharing box and choose their access to the workspace. This is the default selection.
       * **Everyone in the system can view**: Everyone in the system with access to Planning can view the workspace in their **Workspaces** area in Planning.
-
-      </div>
        
-   * <span class="preview">(Conditional) If you are a workspace manager with a Standard license, you can see one of the following selections but you cannot change them:</span>
-
-      <div class="preview">
+   * (Conditional) If you are a workspace manager with a Standard license, you can see one of the following selections but you cannot change them:
 
       * **Only invited people can access**. This is the default setting.
       * **Everyone in the system can view**
 
       You must ask a System Administrator to change a global permission for a workspace.
 
-      </div>
-
 1. In the **Grant access to this workspace** field, start typing the name of a user, group, team, company, or job role then click it when it displays in the list. 
 
-   <span class="preview">![Sharing UI with groups](assets/sharing-ui-with-groups.png)</span>
+   ![Sharing UI with groups](assets/sharing-ui-with-groups.png)
 
    >[!NOTE]
    >
    >* In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. You cannot add Workfront-only users. For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md). 
    >
-   >* When you share a workspace with a user, their primary job role <span class="preview">and their email</span> also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email.  
+   >* When you share a workspace with a user, their primary job role and their email also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email.  
 
-1. <span class="preview">(Optional) When you share with a group, team, role, or company, hover over the name of the entity and click the right-pointing arrow to expand a list of users that are receiving the permissions. </span>
+1. (Optional) When you share with a group, team, role, or company, hover over the name of the entity and click the right-pointing arrow to expand a list of users that are receiving the permissions.
 
    ![Share workspace with a group](assets/share-workspace-role-expanding-arrow-highlighted.png)
 

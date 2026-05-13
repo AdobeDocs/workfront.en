@@ -27,7 +27,8 @@ You can request approval from other users or teams for a document in Adobe Workf
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any</p> </td> 
+   <td> <p>Any Workfront package to manage approvals using legacy Workfront storage</p>
+<p>Any Workflow package to manage approvals using Adobe enterprise storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td>  
@@ -97,9 +98,9 @@ To create an approval workflow:
    ![Document details](assets/new-stage.png)
 
 
-## Create an approval workflow from the Summary panel in the new document area
+## Create an approval workflow from the Summary panel in the new Documents area
 
-If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses enterprise storage, you will see the new Documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 To create a an approval workflow:
 

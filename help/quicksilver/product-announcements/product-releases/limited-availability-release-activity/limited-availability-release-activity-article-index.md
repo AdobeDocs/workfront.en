@@ -6,8 +6,7 @@ author: Lisa
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-hide: yes
-hidefromtoc: yes
+hide: true
 exl-id: 1f24affa-1d3a-4bbf-a044-f8e5ca98b0e2
 ---
 # Adobe Workfront limited availability features release activity: article index

@@ -27,4 +27,4 @@ This section contains the following articles:
 * [Configure your email allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md) 
 * [Send announcements](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md) 
 * [Browser requirements for Workfront](../../administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md) 
-* [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
+* [Administration differences between Adobe Workfront and Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)

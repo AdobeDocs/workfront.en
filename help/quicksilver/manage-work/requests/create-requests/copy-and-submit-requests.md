@@ -12,7 +12,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 # Copy and submit requests
 
 
-When you submit similar requests frequently you can copy an existing submitted request. In this case, you can copy an existing request, make minimal changes to it, and resubmit it as a new request.
+When you submit similar requests frequently, you can copy an existing submitted request. In this case, you can copy an existing request, make minimal changes to it, and resubmit it as a new request. The request is submitted to the same request queue as the original request. 
 
 ## Access requirements
 
@@ -226,15 +226,15 @@ If your company purchased a Workfront Planning package, you cannot copy and subm
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span><strong>Assignments</strong></span> </td> 
-      <td> <p>Indicate the name of an active user, job role, or team that the request should be assigned to. </p> <p> You can specify more than one user, job role, or team. </p> <p>Depending on how the request queue was set up, you might be able to only assign the request to one or two types of resources, instead of all three. </p> <p>We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate resources. </p> </td> 
+      <td> <p>Indicate the name of an active user, job role, or team that the request should be assigned to. </p> <p> You can specify more than one user, job role, or team. </p> <p>Depending on how the request queue was set up, you might be able to only assign the request to one or two types of resources, instead of all three. </p> <p>We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate resources. </p>
+      <p><p style="font-weight: normal;">Depending on how the request queue was set up, you might be able to only assign one type of resource to the request (for example, users). If a routing rule is also associated to the request queue and it automatically routes the request to a different type of resource (for example, a team), your request is assigned to both the entity that you manually specify when submitting the request (users) and the resource specified in the routing rule (the team).</p> <p style="font-weight: normal;">For more information, see the following articles:</p> 
+      <ul> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a> </p> </li> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Create Routing Rules</a> <br> </p> </li> 
+      </ul> </p>
+       </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader" colspan="2"> <p><p style="font-weight: normal;">Depending on how the request queue was set up, you might be able to only assign one type of resource to the request (for example, users). If a routing rule is also associated to the request queue and it automatically routes the request to a different type of resource (for example, a team), your request is assigned to both the entity that you manually specify when submitting the request (users) and the resource specified in the routing rule (the team.)</p> <p style="font-weight: normal;">For more information, see the following articles:</p> 
-        <ul> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a> </p> </li> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Create Routing Rules</a> <br> </p> </li> 
-        </ul> </p> </td> 
-     </tr> 
+   
      <tr> 
       <td role="rowheader"><strong>Planned Hours</strong> </td> 
       <td> <p>Estimate how many hours it would take for this request to complete.</p> </td> 
@@ -255,7 +255,15 @@ If your company purchased a Workfront Planning package, you cannot copy and subm
       <td role="rowheader"><strong>Documents</strong> </td> 
       <td> <p>Add documents to your request. The documents attached to the original request do not transfer to the copied request.</p> <p><b>TIP</b> 
       
-      Depending on how the request queue was set up, the Documents section might display before or after the custom fields.</p> <p> </p> </td> 
+      Depending on how the request queue was set up, the Documents section might display before or after the custom fields.</p> <p> </p>
+      <p>Depending on which document storage type your Workfront administrator selected for your environment, documents attached to requests are added to the following:</p>
+      <ul><li>For requests using Workfront storage, documents are added to the Documents section of the newly created request.</li>
+      <li>For requests using Adobe enterprise storage, documents are added to a newly created folder by the same name as the request, automatically added to the request during the submission process. </li></ul>
+      <p>Your Workfront instance might not have both types of document storage.</p>
+      <p>Issue and request storage type is inherited from the project. </p>
+      <p>For more information, see <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Document management overview for projects and related objects</a>.</p>
+      
+      </td> 
      </tr> 
     </tbody> 
    </table>

@@ -96,12 +96,12 @@ You can manage what information users can view and edit for other users using a 
      <tr> 
       <td role="rowheader"><strong>Create</strong> </td> 
       <td> <p>Allows users to create users.<br>This option is enabled by default.</p> 
-     <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.</p>
+     <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.<!--Check this October 2026--></p>
         </td>  
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Delete</strong> </td> 
-      <td> <p> Allows users to delete the users they have created themselves.<br>This option is enabled by default.</p> <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.</p> </td> 
+      <td> <p> Allows users to delete the users they have created themselves.<br>This option is enabled by default.</p> <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.<!--Check this October 2026--></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Edit Billing Rates</strong> </td> 

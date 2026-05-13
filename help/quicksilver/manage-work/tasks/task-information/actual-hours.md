@@ -55,7 +55,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
- <!--
+<!--
  Old:
  
  <table style="table-layout:auto"> 

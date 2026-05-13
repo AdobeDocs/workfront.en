@@ -2,7 +2,7 @@
 title: Use Form Fill powered by AI to fill in a request using prompts or documents
 content-type: reference
 description: You can use AI to auto-fill request fields by entering a prompt or supplying a document.
-author: Alina
+author: Alina, Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
@@ -14,7 +14,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 >
 >To use this functionality, your organization must meet the requirements to use the Workfront AI Assistant. For details, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
-AI Form Fill can help you auto-fill request fields based on a prompt you enter. It can also fill fields based on text such as emails ar uploaded documents. You can approve or reject these suggestions before submitting the request.
+AI Form Fill can help you auto-fill request fields based on a prompt you enter. It can also fill fields based on text such as emails or uploaded documents. You can approve or reject these suggestions before submitting the request.
 
 This functionality is available when creating a request in the Workfront Requests area, and in Workfront Planning.
 
@@ -55,8 +55,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 To use Form Fill powered by AI to fill in a request using a prompt or document, **all** of the following must apply:
 
+<!--
+Remove me October 2026
 * Your organization must have migrated to Adobe IMS (Identity Management System)
 * The Adobe Unified Experience must be enabled
+-->
 * Your organization must have a Select, Prime, or Ultimate Workfront plan
 * Adobe must have a signed Adobe Gen AI agreement on file
 
@@ -84,7 +87,7 @@ Consider the following when using Form Fill powered by AI
 >
 >Form Fill powered by AI is enabled at the organization level, and cannot be enabled or disabled for specific users or access levels.
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
 1. Click **System**, then under System, click **Preferences**.
 1. In the AI preference section, ensure that **Enable AI** is toggled on.
 1. Toggle on **AI Form Fill**.
@@ -183,7 +186,7 @@ We're planning a campaign similar to the holiday social ads we ran last year. Bu
    
 ## Get suggestions based on a document you upload
 
-Form Fill powered by AI can fill in a request using prompts or documents can suggest field values based on a document you upload. 
+Form Fill powered by AI can fill in a request using prompts or can suggest field values based on a document you upload. 
 
 This type of suggestion also checks previous requests for similar contexts. For example if the prompt mentions that the request is for a certain client, Workfront can locate and enter the billing address for that client automatically, based on previous requests.
 
@@ -300,7 +303,7 @@ You can upload a document to be applied to the entire form, or to a single secti
    Or
    
    Drag the document from your file manager to the **Upload files to auto-fill request form** box.
-1. Click **Fill the form** of **Fill the section**.
+1. Click **Fill the form** or **Fill the section**.
 
    Workfront generates suggestions for the form.
 1. For each field suggestion, select **Accept** or **Reject** for that field.

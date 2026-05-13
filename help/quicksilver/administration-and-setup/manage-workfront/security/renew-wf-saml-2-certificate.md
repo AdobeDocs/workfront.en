@@ -16,18 +16,16 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, no action is necessary.
+>The procedure described on this page applied only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, no action is necessary.
 >
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Because all organizations have now been onboarded to the Adobe Admin Console, this functionality has been deprecated.
+
+<!--
+
+Remove me October 2026
 
 The Adobe Workfront servers utilize the SAML 2.0 protocol for authentication and authorization. Once updated, the new certificate remains valid for one year. When it is time for you to renew the certificate on your identity provider, you receive a warning in Workfront alerting you that this change must occur. As a Workfront administrator, you can manage this change at the system level.
 
-<!--
-Use this Important note box in the last few weeks before each update.
-
-You must take action to update the metadata in your identity provider with the information from the renewed certificate before the specified date. Mismatched certificates can keep your users from logging in to Workfront after November 22, 2022.
- 
--->
 
 >[!NOTE]
 >
@@ -104,3 +102,5 @@ To review the warning message and acknowledge the update of the SAML 2.0 metadat
    You should see a message confirming that the connection was successful.
 
 For more information, or for assistance with the manual configuration of metadata, please contact our Support Team, as explained in [Contact Customer Support](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+
+-->

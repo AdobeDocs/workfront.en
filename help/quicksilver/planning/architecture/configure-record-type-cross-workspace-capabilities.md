@@ -22,9 +22,11 @@ this article is linked to the UI in the Advanced settings/ Cross-workspace setti
 
 {{planning-important-intro}}
 
+<!--
 <span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 You can configure record types to work across multiple workspaces in Adobe Workfront Planning. 
 
@@ -77,23 +79,21 @@ Or
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td>
+   <!--
    <p>In the Production environment: </p>
    <p>To make a record global:</p>
    <ul><li>Standard or higher</li></ul>
    <p>To make a record connectable:</p>
    <ul><li>System Administrator</li></ul>
+   -->
 
-   <div class="preview">
-
-   <p>In the Preview environment:</p>
    <p>To make a record global:</p>
    <ul><li>Standard or higher</li></ul>
    <p>To make a record connectable:</p>
      
    <ul><li>Standard to make a record connectable from specific workspaces</li>
    <li>System Administrator to make a record connectable from all workspaces</li></ul>
-   </div>
-   
+    
    
    </td> 
   </tr> 
@@ -234,7 +234,7 @@ To configure a record type as global:
 
    For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). 
 
-   The record type added from a global record type in the secondary workspace displays <span class="preview">a similar  **global record type** icon ![Global record type icon on secondary workspace](assets/global-icon-secondary-workspace.png) that includes an arrow, indicating that the record type was imported from another workspace. When you hover over the secondary workspace global icon, you can learn the name of the original workspace.</span>
+   The record type added from a global record type in the secondary workspace displays a similar  **global record type** icon ![Global record type icon on secondary workspace](assets/global-icon-secondary-workspace.png) that includes an arrow, indicating that the record type was imported from another workspace. When you hover over the secondary workspace global icon, you can learn the name of the original workspace.
 1. (Optional) Go back to the original workspace where you created the global record type and edit the record type by following steps 1-4 above <!--ensure this stays accurate-->
 1. (Optional) Review the list of workspaces where the global record has been added in the **Workspaces where this record type is used** section. The workspace owner is also listed next to the workspace name. 
 
@@ -270,9 +270,9 @@ To configure a record type as global:
 
    When enabled, the record type is accessible and can be connected to from other workspaces.
 
-1. <span class="preview">(Conditional) Depending on which license you have,</span> choose from which workspaces the record type can be accessed. Choose from the following options:
+1. (Conditional) Depending on which license you have, choose from which workspaces the record type can be accessed. Choose from the following options:
 
-   * **All workspaces**: Users can connect to this record type from all workspaces where they have Manage permissions. <span class="preview">This option is dimmed for workspace managers with a Standard license. Only System Administrators can turn on connecting record types from all workspaces.</span>
+   * **All workspaces**: Users can connect to this record type from all workspaces where they have Manage permissions. This option is dimmed for workspace managers with a Standard license. Only System Administrators can turn on connecting record types from all workspaces.
    * **Specific workspaces**: From the drop-down menu, add the names of the workspaces where workspace managers can connect to this record type.
 
 1. (Conditional) Click **Save** in the **Edit record type** box, or click the back arrow to the left of **Settings** in the page header to save your changes.

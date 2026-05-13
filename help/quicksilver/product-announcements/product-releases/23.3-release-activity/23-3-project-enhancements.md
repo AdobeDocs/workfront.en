@@ -23,7 +23,6 @@ In this first release, the approval process has been streamlined for both creati
 * Make approval decisions directly from My Updates and Home
 * Create approvals for specific document versions
 
-For more information on using the new document approvals, see [New Document Approvals overview](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview).
 
 ## New Share button
 

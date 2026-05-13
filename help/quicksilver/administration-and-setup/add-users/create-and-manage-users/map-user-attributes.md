@@ -39,7 +39,7 @@ Using single sign-on (SSO), you can pass attributes from your identity provider'
  </tbody> 
 </table>
 
-For infomration, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -55,75 +55,6 @@ Keep the following in mind when mapping attributes:
 
 ## Map user attributes for your organization
 
-The procedure for mapping attributes differs depending on whether your organization is on the Adobe unified experience.
-
-To determine whether your organization is on the Adobe unified experience, examine the URL that you use to access Workfront.
-
-|URL|Adobe Experience|
-|---|---|
-|(CompanyName).my.workfront.com|Classic experience|
-|experience.adobe.com|Adobe unified experience |
-
-* [Map user attributes in the classic experience](#map-user-attributes-in-the-classic-experience)
-* [Map user attributes in the Adobe unified experience](#map-user-attributes-in-the-adobe-unified-experience)
-
-### Map user attributes in the classic experience
-
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
-
-1. Click **System** > **Single Sign-On (SSO)**.
-
-1. In the **Type** drop-down, click **SAML 2.0**.
-
-1. Click **Map User Attributes**.
-
-   ![Map user attributes](assets/map-user-attributes.png)
-
-1. In the row of options that appears, map the attributes you need for your Workfront users.
-
-   You can map attributes such as Address, Manager, Job Role, Home Group, and so on.
-
-   Attribute mappings work on a 1:1 Ratio. For example, you cannot set every group that a user belongs to; you can set only one per user.
-
-   >[!IMPORTANT]
-   >
-   >We do not recommend mapping Access Levels in the Attribute Mappings. If you do, be careful when you are setting the default value to make sure that you don't remove Admin Access inadvertently.
-
-   The following table explains the fields you can use to map attributes:
-
-   <table style="table-layout:auto"> 
-    <col data-mc-conditions=""> 
-    <col data-mc-conditions=""> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Workfront User Attribute</td> 
-      <td>Choose the name of the attribute you are mapping</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Directory Attribute</td> 
-      <td>Type the SSO attribute label you want to use.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Default Value</td> 
-      <td> <p>After you choose a Workfront User Attribute, if the value is NULL during the connection, this field fills in with the corresponding default value in the system. Type a value here only if you plan to apply attribute mapping rules (see step 7). The default value acts as an exception to those rules.</td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-1. (Optional) Click **Rules** to add a rule to the attribute.
-
-   1. In the drop-down, choose the attribute modifier you want to use.
-   1. In the 2 fields to the right, type the directory attribute value and the value you want to replace it with.
-
-      ![Rule fields](assets/rule-fields.png)
-
-   You can click **Add Rule** to add more rules to the attribute.
-
-1. (Optional) To map more user attributes, click **Add Mapping** and repeat steps 6-7.
-1. Click **Save**.
-
-### Map user attributes in the Adobe unified experience
-
 1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-left.png) in the upper-left corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
 
 1. Click **System** > **Single Sign-On (SSO)**.
@@ -135,7 +66,7 @@ To determine whether your organization is on the Adobe unified experience, exami
    >[!NOTE]
    >
    >We recommend migrating mappings the first time you configure mappings in the Adobe unified experience. There is no harm in migrating them again later, but migrating them more than once is unnecessary.
-
+ 
 1. To create a new attribute mapping, click **Add Mapping**.
 
 1. Click the arrow next to the Workfront field name and select the [!DNL Workfront] field that you want to map to. 

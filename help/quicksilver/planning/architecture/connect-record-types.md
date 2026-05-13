@@ -12,8 +12,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
 
-<!--take production and preview references out at prod-->
-
 # Connect record types
 
 <!--
@@ -208,7 +206,7 @@ Old:
         >
         >The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the **Cross-workspace settings** tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display. 
         >
-        >For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production-->
+        >For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). 
         >
         >![Edit record type box cross-workspace settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
         
@@ -249,13 +247,13 @@ Old:
         ![Original request connection selection](assets/original-request-connection-selection.png)
 
 
-    * **Experience Manager** from the **Adobe Applications** section.
+    * **Experience Manager** from the **Adobe Applications** section, to connect to AEM Assets or Content Fragments.
 
         ![AEM Assets connection selection](assets/aem-assets-connection-selection-041326.png)
 
         A New connection tab opens for your selected record or object type. 
 
-    * A **Brand** from Adobe GenStudio for Performance Marketing from the **Adobe GenStudio** section
+    * **Brands** from Adobe GenStudio for Performance Marketing from the **Adobe GenStudio** section
 
         ![GenStudio Brand connection selection](assets/brand-genstudio-connection-selection.png)
 
@@ -310,7 +308,7 @@ Old:
 
     >[!NOTE]
     >
-    >Your Workfront administrator can map Workfront Planning fields to Experience Manager fields through the Metadata mapping in Workfront. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). 
+    >Your Workfront administrator can map Workfront Planning fields to Experience Manager Assets fields through the Metadata mapping in Workfront. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). 
 
 
 1. (Conditional) When you select to connect to Experience Manager, to a Workfront Planning record type, or to a GenStudio Brand, choose one of the following options in the **Record appearance** area:
@@ -333,22 +331,14 @@ Old:
 
 1. Select the **Select lookup fields** to add fields from the  record type you are connecting to. The lookup fields are fields associated with the record or object type that you are linking to. Linking them displays information from the record or object you're linking to on the record you are linking from. This is selected by default.
 
-    <!--
-    When reference fields are coming, change the first bullet in the TIP below with this: 
-    >* In the Production environment, you cannot add Workfront reference fields (for example, the Project Group or Company from a Workfront Project) as lookup fields in Planning. <span class="preview">You can add Workfront reference fields as lookup fields in the Preview environment.</span>
-    -->
-
     >[!TIP]
     >
-    >* You cannot add reference fields from another application as lookup fields. For example, you cannot add Project, Group, or Company as a lookup field in Planning when you connect to Workfront projects.
-    >
-    ><!--* In the Production environment, you cannot add Workfront user fields (including fields like Project Owner, or Project Sponsor) as lookup fields. <span class="preview">You can add user fields as lookup fields in the Preview environment.</span>-->
-    >
+    >* In addition to system fields like Name and Description, you can add the following types of fields as lookup fields from object types from another application:
+    >   * User fields, like Project Owner, or Sponsor, from Workfront projects. 
+    >   * Reference fields, like Project Group or Project Company from Workfront projects. 
     >* Workfront objects' date field information displays in 24 hour format in Workfront Planning, regardless of how it displays in Workfront.
     >
     >   For example, if a project's Planned Start Date displays as 3:00 PM in Workfront, it will display as 15:00 in Workfront Planning in an imported lookup field.
-    >
-    ><!--* In the Production environment, you cannot add People fields as lookup fields. <span class="preview">You can add People fields as lookup fields in the Preview environment.</span>-->
 
 1. Click **Create**.
 

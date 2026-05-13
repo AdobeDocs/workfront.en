@@ -90,13 +90,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 This layout of Advanced Assignments applies to tasks only. For issues, see [Create Advanced Assignments – all other packages](#create-advanced-assignments--all-other-packages).
 
-<!--
-
 >[!NOTE]
 >
->Use the experience switcher to choose between the old and new Advanced Assignments experiences. For information about the old experience, see [Create Advanced Assignments – all other packages](#create-advanced-assignments--all-other-packages), below.
-
--->
+>The old Advanced Assignments experience is the default. You must manually turn on the new experience with the button on the top right of the Advanced Assignments window.
+>For information about the old experience, see [Create Advanced Assignments – all other packages](#create-advanced-assignments--all-other-packages), below.
 
 1. Go to the project where you want to assign a task.
 1. Click **Tasks** or **Issues** in the left panel, then click the name of a task in the list.

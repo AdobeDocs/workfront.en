@@ -86,5 +86,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    For more information about updating information using the Summary, see [Summary overview](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
+   >[!NOTE]
+   >
+   >If your organization uses Adobe enterprise document storage, you cannot add documents to Adobe-storage work items in the Summary panel.
+   >
+   >For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 1. (Conditional) If you opened any of the sections of the work item, click your browser's **Back button** to return to the Workload Balancer.
 1. Click the **Close icon** ![Close icon](assets/close-icon.png) in the upper-right corner of the Summary, to close it.

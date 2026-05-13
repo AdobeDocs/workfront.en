@@ -100,13 +100,18 @@ You can create a program in Workfront using one of the following methods:
    For information about importing data using kick-starts in Workfront, see [Import data into Adobe Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 
-* Add programs as you connect them from a record type in Workfront Planning. 
+* Create programs from Workfront Planning in the following ways: 
 
-   You must have an additional Workfront Planning package.
+   * As you connect them from a record type in Workfront Planning. 
 
-   For information about access to Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md).
+   For information about creating programs by adding them to records, see the section "Create records as you connect them" in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
+   * Using Workfront Planning automations. 
 
-   For information about creating portfolios by adding them to records, see the section "Create records as you connect them" in the article [Create records](/help/quicksilver/planning/records/create-records.md).
+   For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
+   You must have a new Workfront license and an additional Workfront Planning package for Workfront Planning.
+
+   For information about access to Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
 
 ## Create a program
 

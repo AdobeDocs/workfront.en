@@ -290,7 +290,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 To update progress on goals:
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/lines-main-menu.png) > **Goals** in the upper-right corner.
 
    <!--
     Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)

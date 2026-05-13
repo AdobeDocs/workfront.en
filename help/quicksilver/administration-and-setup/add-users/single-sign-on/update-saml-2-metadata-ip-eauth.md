@@ -5,8 +5,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 55d7d8a8-0dfe-45bc-a23a-47111347e9ca
-hide: yes
-hidefromtoc: yes
+hide: true
 recommendations: noDisplay, noCatalog
 ---
 # Update SAML 2.0 metadata in your IDP when using enhanced authentication

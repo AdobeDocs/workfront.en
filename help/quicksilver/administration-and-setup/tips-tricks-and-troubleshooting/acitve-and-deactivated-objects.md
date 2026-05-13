@@ -96,11 +96,11 @@ For information about deactivating users, see [Deactivate or reactivate a user](
 
 >[!IMPORTANT]
 >
->If your organization has been onboarded to the [!DNL Adobe Business Platform], you must deactivate users through the [!UICONTROL Adobe Admin Console].
+>After your organization has been onboarded to the [!DNL Adobe Business Platform], you must deactivate users through the [!UICONTROL Adobe Admin Console].
 >
 >For instructions on deactivating a user in the [!UICONTROL Adobe Admin Console], see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your [!UICONTROL Adobe Admin Console] Administrator.
 >
->For a list of procedures that differ based on whether your organization has been onboarded to the [!DNL Adobe Business Platform], see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the [!DNL Adobe Business Platform], see [Administration differences between Adobe Workfront and Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Teams
 

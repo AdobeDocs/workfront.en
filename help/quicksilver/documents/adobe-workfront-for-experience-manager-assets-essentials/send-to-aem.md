@@ -15,6 +15,13 @@ Assets sent to Experience Manager through this integration have a size limit of 
 
 In the Preview environment, Assets sent to Experience Manager through this integration have a size limit of **30 GB**.
 
+>[!NOTE]
+>
+>This functionality is not available in the new Documents area.<br>
+>If your organization uses enterprise storage, you will see the new Documents area when you access documents in Workfront. From there, you can send assets to Experience Manager Assets. For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+
+## Metadata
+
 Metadata fields are first mapped when you send an asset from Workfront to Experience Manager Assets or Assets Essentials. Any metadata configured to map for parent objects is sent as well. For more information on configuring metadata mapping, see [Configure the Experience Manager Assets as a Cloud Service integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) or [Configure the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 >[!INFO]

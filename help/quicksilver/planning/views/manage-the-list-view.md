@@ -182,7 +182,12 @@ Removed - more direct steps below:
     
         You can add only existing fields to the list view. 
         You cannot remove the primary field in the list view which displays in the first column. 
-    
+
+        <!-- 
+        update indent here: 
+        1. <span class="preview">Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) to choose fields to group items by, then sort them in an ascending or descending order. </span>
+        -->
+
     1. Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens. <!--change the name of the box when they update it-->
         Do the following:
 
@@ -255,8 +260,6 @@ Removed - more direct steps below:
       
     * **Delete** to delete the item. Deleting a project disconnects it from the record and moves it to the Workfront's Recycle Bin. Workfront administrators can recover deleted projects up to 30 days after they were deleted. Deleting a form does not delete the requests or records created when the form was submitted. 
     * **Disconnect** to disconnect the project from the record. Disconnecting a project removes it and all the values of its lookup fields from the current record. 
-
-        <!--update screen shot at preview release-->
 
         ![Actions bar in Connected records page List view](assets/actions-bar-connected-records-page-list-view.png)
 

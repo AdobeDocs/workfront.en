@@ -69,6 +69,10 @@ For more detail about the information in this table, see [Access requirements in
 
 ## System views for requests
 
+>[!WARNING]
+>
+>System views documented in this section are not yet available. They will be available at a date later than April 16, 2026. 
+
 In addition to the views you can create yourself, Workfront offers the following system views for the Requests area and My Requests widget in Home:
 
 * **All Requests**: All requests that you or anyone else submitted in queues or workspaces you have permissions to view. This is not available for the My Requests widget.
@@ -179,7 +183,7 @@ hide these details - all the information is in "Use enhanced lists" - we need on
 
 ## Add the requests view to a layout template
 
-A Workfront administrator can add a new view to layout templates for the Requests area.
+A Workfront administrator can add or remove a new view or a system view to layout templates for the Requests area.
 
 For instructions, see [Customize Filters, Views, and Groupings using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 

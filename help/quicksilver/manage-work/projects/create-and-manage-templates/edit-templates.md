@@ -755,9 +755,11 @@ Adding the following items to a template is identical to adding them to a projec
 You can add the following items to the tasks in the template:
 
 * Documents
+
+   For more information, see [Edit template tasks](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md). 
 * Expenses
 
-  For more information about adding expenses, see [Manage project expenses](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+   For more information about adding expenses, see [Manage project expenses](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 * Approvals
 
@@ -766,7 +768,7 @@ You can add the following items to the tasks in the template:
 
 ## Activate or deactivate a template
 
-You can deactivate a template if you want users to not be able to find it and create proojects from it. You cannot attach a deactivated template to projects nor use it to create a project. 
+You can deactivate a template if you want users to not be able to find it and create projects from it. You cannot attach a deactivated template to projects nor use it to create a project. 
 
 Deactivated templates do not affect existing projects that were created using them. 
 

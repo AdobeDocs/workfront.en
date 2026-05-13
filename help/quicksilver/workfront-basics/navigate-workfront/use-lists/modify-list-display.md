@@ -68,9 +68,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+    
    By default, groupings are collapsed.
-   </MadCap:conditionalText>
+    
    <br> </p>
    -->
 
