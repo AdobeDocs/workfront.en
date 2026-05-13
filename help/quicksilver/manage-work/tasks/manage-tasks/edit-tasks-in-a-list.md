@@ -339,7 +339,11 @@ To edit tasks in a list when selecting the Manual save Standard option:
     </tbody> 
    </table>
 
-1. Workfront updates all in-project and cross-project dependencies when you make changes to the timeline of tasks. 
+1. Click a task in the list, then drag and drop it in a different position in the timeline. 
+
+   When you click a parent task to change its position, all the children are also moved. 
+
+   Workfront updates all in-project and cross-project dependencies when you make changes to the timeline of tasks. 
 1. Click **Save** when you want to keep your task changes permanently and save the timeline of the project.
 
 #### Save changes in a task list manually when you select the Manual save Timeline Planning option {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}

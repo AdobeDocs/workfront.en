@@ -26,7 +26,7 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 You can view objects in the list view in the following areas of Workfront Planning:
 
-* A connected records page for projects in a record's details area
+* A connected records page for projects in a record's details area <!--update screen shot for preview May 14 with Grouping icon and add the note at the top in yellow about preview-->
 
     ![Projects on connected records page in list view](assets/projects-on-connected-records-page-list-view.png)
 
@@ -181,12 +181,7 @@ Removed - more direct steps below:
         The **Column manager** opens. 
     
         You can add only existing fields to the list view. 
-        You cannot remove the primary field in the list view which displays in the first column. 
-
-        <!-- 
-        update indent here: 
-        1. <span class="preview">Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) to choose fields to group items by, then sort them in an ascending or descending order. </span>
-        -->
+        You cannot remove the primary field in the list view which displays in the first column.
 
     1. Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens. <!--change the name of the box when they update it-->
         Do the following:
@@ -226,7 +221,7 @@ Removed - more direct steps below:
             The formatting is applied immediately to the list view.
             There is a blue dot next to the **Format cells** icon to indicate that the view has special formatting applied.
     
-    1. (Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) <!--have they updated this to "Grouping"??--> to group items in the list by a common field. Select one of the options, or use the search bar to find a field.
+    1. (Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) to group items in the list by a common field. Select one of the options, or use the search bar to find a field.
 
         The field must be a column in the list before you can group by it. Not all field types can be used for groupings.
 
@@ -237,7 +232,7 @@ Removed - more direct steps below:
         * Medium
         * Tall
 
-    <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
+        <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 
 1. (Optional) Add a keyword in the search box in the upper-right corner of the list to search for an item. 
 
@@ -247,19 +242,21 @@ Removed - more direct steps below:
 
     * Click **Connect records** in the upper-right corner of the list to add existing items.
     * Click **New row** at the bottom of the list to add new items. 
-1. Click the name of a connected item in the list to open it in another browser tab. 
+1. Click the name of an item in the list to open it in another browser tab. 
 1. Double-click inside of a cell in the list to edit the information of a field, then press Enter to save your changes. 
 
     Some fields are read-only. For example, the percent complete of a project is a field calculated by the system and you cannot manually edit it. 
 
-1. Hover over an item's name in the list and click the **More** menu [More menu](assets/more-menu.png) and click **View** to open the project in another tab
+1. Hover over an item's name in the list and click the **More** menu [More menu](assets/more-menu.png) and click **View** to open the item in another tab
      
       Or
 
-      Select one or more items, and notice the actions bar at the bottom of the list, then click one of the following, when available. Depending on which area you access the list view from, click on one of the following options: 
+      Select one or more items, and notice the actions bar at the bottom of the list, then click one of the following, when available. 
+      
+      Depending on which area you access the list view from, click on one of the following options: 
       
     * **Delete** to delete the item. Deleting a project disconnects it from the record and moves it to the Workfront's Recycle Bin. Workfront administrators can recover deleted projects up to 30 days after they were deleted. Deleting a form does not delete the requests or records created when the form was submitted. 
-    * **Disconnect** to disconnect the project from the record. Disconnecting a project removes it and all the values of its lookup fields from the current record. 
+    * **Disconnect** in the projects connected page, to disconnect a project from the record. Disconnecting a project removes it and all the values of its lookup fields from the current record. 
 
         ![Actions bar in Connected records page List view](assets/actions-bar-connected-records-page-list-view.png)
 
