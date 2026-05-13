@@ -46,6 +46,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Quarterly</strong></td>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Linked AEM assets now display an icon</a>
+                <p>need more info</p>
+            </td>
+            <td><p>May 14, 2026</p></td>
+            <td><p>?</p></td>
+            <td><p>?</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">View Adobe enterprise storage usage</a>
                 <p>The Customer Info page in Setup now includes a new Storage Overview section with usage meters for Adobe enterprise storage.</p>
             </td>
@@ -125,6 +134,22 @@ Workfront API version 22 was released on May 8, 2026. For API version 22, we've 
 For information on what's new and updated, see [What's new in API version 22](/help/quicksilver/wf-api/api/new-api-version-22.md).
 
 For information on API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+
+### Workfront Planning API version 2 
+
+Available for all customers: May 14, 2026.
+
+Version 2 of Workfront Planning API is now available and it significantly expands the capabilities of Version 1. You can now create, update, and delete workspaces, record types, and fields programmatically, in addition to fully manage records.
+
+Version 2 also brings improvements to URL structure, error handling, pagination, filtering, and permissions, in addition to  including partial updates via PATCH, bulk record operations, and more.
+
+Version 1 remains available, although we recommend you switch to using Version 2.
+
+NOTE: The Workfront Planning connector for Fusion has not been updated to API Version 2 and it will continue to use Version 1 until further notice.
+
+For information, see Adobe Workfront Planning API basics (/help/quicksilver/planning/general/planning-api-basics.md). 
+
+For Workfront Planning API specifications, see the [Workfront Planning API](https://developer.adobe.com/wf-planning/) developer documentation.
 
 <!--
 
