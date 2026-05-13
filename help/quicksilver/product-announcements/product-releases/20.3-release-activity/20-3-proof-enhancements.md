@@ -7,6 +7,13 @@ author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: d719c8e8-be72-42ca-80e4-83a1237c299f
+TQID: https://experienceleague.adobe.com/L8r3oUDq9ykejDv-K-P-mNaKRhHLawstl9VJ8kdui08
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # 20.3 Proof enhancements
 

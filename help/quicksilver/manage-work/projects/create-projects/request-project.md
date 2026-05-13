@@ -2,12 +2,30 @@
 product-area: projects
 navigation-topic: create-projects
 title: Request a project
-description: You can request for a project to be approved before you start working on it. We recommend building a Business Case for a new project so that you can outline some of the key points you want to achieve by completing it, as well as to present to your management team your labor and expense budget. Filling out the Business Case and submitting the project for approval completes the formal request for the project. After submitting the business case for approval the status of the project becomes Requested. 
+description: You can request for a project to be approved before you start working on it. We recommend building a Business Case for a new project so that you can outline some of the key points you want to achieve by completing it, as well as to present to your management team your labor and expense budget. Filling out the Business Case and submitting the project for approval completes the formal request for the project. After submitting the business case for approval the status of the project becomes Requested.
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/NYadZXP7AWcijnvZk057N1uqKFTqUtkNR3Llblf4oys
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Request a project
 

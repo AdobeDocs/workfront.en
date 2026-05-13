@@ -8,6 +8,16 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 hide: true
 exl-id: 88870441-8895-477c-9409-f2c33654545a
+TQID: https://experienceleague.adobe.com/bZsOnrrwZ7ksCaoM3jfIyeTO00XqG1hDTEmG5VmWOcA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Upload documents and proofs from the [!DNL Adobe Workfront plugin] to the [!DNL Creative Cloud]
 

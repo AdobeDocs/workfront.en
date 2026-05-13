@@ -8,6 +8,16 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: d15819af-7860-489c-b722-0dbaf6d71e69
+TQID: https://experienceleague.adobe.com/iA-uVnN-Ck1ifYDGgHt6aKolOFK7bG8cdwiDuf8Stag
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Proofing overview: article index
 

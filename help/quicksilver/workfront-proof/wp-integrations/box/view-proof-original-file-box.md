@@ -7,6 +7,16 @@ description: Learn to view a proof's original file in Box.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c6da023c-4dbe-4770-82dc-3246568c01a2
+TQID: https://experienceleague.adobe.com/YlhqI912k-c2p5M81iE8LQI0nqebTsC0r7JhNcksufs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # View a Proof's Original File in Box
 

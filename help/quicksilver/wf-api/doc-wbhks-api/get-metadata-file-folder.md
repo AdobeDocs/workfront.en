@@ -8,8 +8,17 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
+TQID: https://experienceleague.adobe.com/H04UQeyhGw-FdXDwaRZs5PSXnN-YErVptHWn-78INYo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
-
 # Get metadata for a file or folder
 
 Returns metadata for the specified file or folder.

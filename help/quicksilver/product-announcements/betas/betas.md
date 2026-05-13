@@ -1,11 +1,18 @@
 ---
 navigation-topic: betas
 title: Beta programs
-description: Learn about new Adobe Workfront features that are currently available to all or a limited number of customers in a beta release. 
+description: Learn about new Adobe Workfront features that are currently available to all or a limited number of customers in a beta release.
 author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
+TQID: https://experienceleague.adobe.com/LMlcsu55ylObbTjdopGzptkfOJ73DDdlc8qKsVGPOWM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Beta programs
 

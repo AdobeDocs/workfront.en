@@ -8,6 +8,13 @@ description: The following releases were made available for Workfront Scenario P
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: e0bb6c8b-03e5-4b7a-ae74-d8070b1c6ddb
+TQID: https://experienceleague.adobe.com/ZCPsdCQBzryAXjaFGZPtHCSupuMycJMM2jxUjFsnhmw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Adobe Workfront Scenario Planner release activity
 
