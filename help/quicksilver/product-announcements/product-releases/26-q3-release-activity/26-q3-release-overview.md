@@ -151,6 +151,12 @@ For information, see Adobe Workfront Planning API basics (/help/quicksilver/plan
 
 For Workfront Planning API specifications, see the [Workfront Planning API](https://developer.adobe.com/wf-planning/) developer documentation.
 
+### Workfront Planning Trial is closing
+
+The Workfront Planning trial is closing on May 15, 2026.
+
+For more information, see [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md).
+
 <!--
 
 ### Workfront Maintenance Updates
