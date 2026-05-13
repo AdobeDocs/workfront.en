@@ -313,6 +313,8 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
     
     From the table view, click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) in the first column. The record's preview opens in the view.
 
+    <!--update screenshot for new details views preview-->
+
     ![Details box](assets/details-box.png) 
 
 1. (Optional) Click the **More** menu to the right of the record's title, then click **Rename**. This updates the field that displays as the record's title.
@@ -367,6 +369,8 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
         ![Contextual menu for record row](assets/contextual-menu-for-record-row.png)
     
         The record page opens.
+
+        <!--update screenshot for new details views preview-->
 
         ![Details page](assets/details-page.png)
 

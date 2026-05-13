@@ -59,9 +59,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 {{step1-click-profile-pic}}
 
-1. Click the **[!UICONTROL More]** icon ![More icon](assets/more-icon.png) next to your name, then click **[!UICONTROL Edit]**.
+1. Click the **[!UICONTROL More]** icon ![More icon](assets/more-icon.png) next to your name, then click **[!UICONTROL Edit User]**.
 
-1. In the **[!UICONTROL Edit Person]** box that displays, go to the **[!UICONTROL Notifications]** section.
+1. In the **[!UICONTROL Edit User]** box that displays, go to the **[!UICONTROL Notifications]** section.
 
 1. Click a category to view the notification settings related to that category.
 
@@ -77,10 +77,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    For the **[!UICONTROL Communication]** category, you can select individual notifications for instant delivery only. To have notifications delivered in a daily digest, you must select all of them.
 
-   If all email notifications for a given category are activated, the box in the category title appears as selected. If all email notifications in a given category are deactivated, the box is unselected. If some notifications are activated and others are deactivated, the category checkbox appears as a straight line.\
+   If all email notifications for a given category are activated, the box in the category title appears as selected. If all email notifications in a given category are deactivated, the box is unselected. If some notifications are activated and others are deactivated, the category checkbox appears as a straight line.
+
    When you modify a notification setting, the label **[!UICONTROL Edited]** appears for that notification setting, to let you know that that notification setting has been modified.
 
-1. If you selected any notifications to be sent as a daily digest, select the time of the day you want to receive it at the top of the **[!UICONTROL Notifications]** section in the **[!UICONTROL Email Daily Digest after]** menu.
+1. If you selected any notifications to be sent as a daily digest, select the time of the day you want to receive it at the top of the **[!UICONTROL Notifications]** section in the **[!UICONTROL Email daily digest after]** menu.
 
    ![Daily Digest choose time of day](assets/digest-time-stamp-my-settings-350x78.png)
 
@@ -91,4 +92,4 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    ![Receive emails from sndbox](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-1. Click **[!UICONTROL Save Changes]**.
+1. Click **[!UICONTROL Save]**.
