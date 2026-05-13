@@ -30,6 +30,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
 ## Adobe Workfront enhancements
 
 * [Documents enhancements](#documents-enhancements)
+* [Reporting enhancements](#reporting-enhancements)
 * [Requests enhancements](#requesting-enhancements)
 
 ### Documents enhancements
@@ -60,6 +61,30 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>April 30, 2026</p></td>
             <td><p>May 14, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Reporting enhancements
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Improved data accuracy in Canvas dashboard reports</a>
+                <p>Canvas dashboard report queries are now structured to prevent duplicate rows when filters or fields cross related records, so counts, sums, and other aggregates return accurate values.</p>
+            </td>
+            <td><p>May 14, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
             <td><p>July 16, 2026</p></td>
         </tr>
     </tbody>
