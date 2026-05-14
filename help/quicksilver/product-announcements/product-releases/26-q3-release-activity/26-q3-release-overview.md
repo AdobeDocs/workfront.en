@@ -30,6 +30,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
 ## Adobe Workfront enhancements
 
 * [Documents enhancements](#documents-enhancements)
+* [Reporting enhancements](#reporting-enhancements)
 * [Requests enhancements](#requesting-enhancements)
 
 ### Documents enhancements
@@ -46,11 +47,44 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Quarterly</strong></td>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">View Experience Manager Assets and approval status badges in the Documents area</a>
+                <p>Linked assets in the Documents area now display status badges showing whether a file has been sent to Adobe Experience Manager Assets along with its current approval status.</p>
+            </td>
+            <td><p>May 14, 2026</p></td>
+            <td><p>May 14, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">View Adobe enterprise storage usage</a>
                 <p>The Customer Info page in Setup now includes a new Storage Overview section with usage meters for Adobe enterprise storage.</p>
             </td>
             <td><p>April 30, 2026</p></td>
             <td><p>May 14, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Reporting enhancements
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Improved data accuracy in Canvas dashboard reports</a>
+                <p>Canvas dashboard report queries are now structured to prevent duplicate rows when filters or fields cross related records, so counts, sums, and other aggregates return accurate values.</p>
+            </td>
+            <td><p>May 14, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
             <td><p>July 16, 2026</p></td>
         </tr>
     </tbody>
@@ -89,8 +123,6 @@ New features in Workfront Fusion are available in Production at a cadence outsid
 
 ### Workfront Planning enhancements
 
-There are no Workfront Planning enhancements at this point in the release.
-
 <!--
 New features in Workfront Planning are available in Production.
 -->
@@ -125,6 +157,31 @@ Workfront API version 22 was released on May 8, 2026. For API version 22, we've 
 For information on what's new and updated, see [What's new in API version 22](/help/quicksilver/wf-api/api/new-api-version-22.md).
 
 For information on API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+
+<!--
+### Workfront Planning API version 2 
+
+Available for all customers: May 14, 2026.
+
+Version 2 of Workfront Planning API is now available and it significantly expands the capabilities of Version 1. You can now create, update, and delete workspaces, record types, and fields programmatically, in addition to fully manage records.
+
+Version 2 also brings improvements to URL structure, error handling, pagination, filtering, and permissions, in addition to  including partial updates via PATCH, bulk record operations, and more.
+
+Version 1 remains available, although we recommend you switch to using Version 2.
+
+NOTE: The Workfront Planning connector for Fusion has not been updated to API Version 2 and it will continue to use Version 1 until further notice.
+
+For information, see Adobe Workfront Planning API basics (/help/quicksilver/planning/general/planning-api-basics.md). 
+
+For Workfront Planning API specifications, see the [Workfront Planning API](https://developer.adobe.com/wf-planning/) developer documentation.
+
+-->
+
+### Workfront Planning Trial is closing
+
+The Workfront Planning trial is closing on May 15, 2026.
+
+For more information, see [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md).
 
 <!--
 

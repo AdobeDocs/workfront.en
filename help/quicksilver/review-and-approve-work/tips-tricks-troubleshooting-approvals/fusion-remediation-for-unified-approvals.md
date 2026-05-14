@@ -26,9 +26,9 @@ Existing Fusion scenarios built on Workfront Proof rely on proof-specific module
 
 | Scenario type | Impact | Path forward |
 |---|---|---|
-| Proof creation and routing | Breaks | Rebuild using the unified approvals API |
-| Proof status webhooks | Breaks | Rebuild with new approval event triggers |
-| Document upload triggers | Partial: retest required | Audit and retest after migration |
+| Proof creation and routing | Breaks | Rebuild using the unified approvals API in Q3 2026 |
+| Proof status webhooks | Breaks | Rebuild with new approval event triggers in Q3 2026 |
+| Document upload triggers | Partial: retest required | Audit and retest after migration in Q3 2026 |
 | Approval reminder notifications | Breaks | Replace with approval template deadlines |
 | Approval decision routing | Breaks | Rebuild using new decision status fields |
 | Custom approval reporting | Partial: field names may change | Map legacy fields to the new schema |
