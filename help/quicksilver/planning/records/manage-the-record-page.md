@@ -12,21 +12,19 @@ git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 
 # Manage the record page layout
 
-<!--
 <span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 {{planning-important-intro}}
 
-You can edit the layout of the record preview and page in Adobe Workfront Planning. 
+You can edit the layout of the record preview and page in Adobe Workfront Planning.
 
-The record preview is a smaller view of the record page that displays in the view of a record type. 
+The record preview is a smaller view of the record page that displays in the view of a record type.
 
-When you change the layout of a record  preview and page, the changes affect the preview boxes and details pages of all records of the same type. 
+When you change the layout of a record  preview and page, the changes affect the preview boxes and details pages of all records of the same type.
 
-This article describes how you can change the layout and appearance of a record preview box or a record page. For information about editing records, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+This article describes how you can change the layout and appearance of a record preview box or a record page. For information about editing records, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 
 You must create record types and records before you can start editing record pages. 
 
@@ -282,7 +280,7 @@ To add a section to a record preview or page:
 
     ![Details box](assets/details-box.png) 
 
-1. (Optional and conditional) <!--If you are using the Production environment,--> Depending on which fields you want to display in the Details page, do one of the following:
+1. (Optional and conditional) If you are using the Production environment, depending on which fields you want to display in the Details page, do one of the following:
 
    
    * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
@@ -294,36 +292,37 @@ To add a section to a record preview or page:
       >* You cannot add sections to a record's page when you exclude hidden fields in the Details preview box. 
 
 
-   <!--
-   1. <span class="preview">(Optional and conditional) If you are using the Preview environment, the details area opens by default in the **Selected table view fields** view. This displays only the fields that are visible in the table view. </span>
+1. <span class="preview">(Optional and conditional) If you are using the Preview environment, the details area opens by default in the **Selected table view fields** view. This displays only the fields that are visible in the table view. </span>
+
       >[!TIP]
       >
       > <span class="preview">The **Selected table view fields** view is only available when you view records in the table view.</span>
-   -->
-   <!--
-   <div class="preview">
-
-   In the Preview environment, continue with the following: 
    
-   1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
-   1. (Optional) ClicK **New Details** to add a new page and customize it, then do the following:
-      1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
-      1. Hover over the fields on the view and click the **Hide field** icon ![Hide field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field. 
+<div class="preview">
+
+In the Preview environment, continue with the following: 
+   
+1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
+1. (Optional) ClicK **New Details** to add a new page and customize it, then do the following:
+
+   1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
+   1. Hover over the fields on the view and click the **Hide field** icon ![Hide field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field. 
      
-         >[!TIP]
-         >
-         >* Custom pages are visible by everyone who accesses the record. 
-         >* The last page view you choose will be the one that opens by default when you open another record of the same type.
+      >[!TIP]
+      >
+      >* Custom pages are visible by everyone who accesses the record. 
+      >* The last page view you choose will be the one that opens by default when you open another record of the same type.
      
-      1. (Optional) Click the **Fields icon** ![Fields icon](assets/fields-icon.png) at the top of the details page, then hide or show fields on the Details page. 
+   1. (Optional) Click the **Fields icon** ![Fields icon](assets/fields-icon.png) at the top of the details page, then hide or show fields on the Details page. 
      
-         >[!TIP]
-         >
-         >The **Fields** icon is not available when you display the details page in the **Selected table view** or the **All fields** views. 
-      1. (Optional) To edit the name of a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png) , then click **Edit**. 
-      1. (Optional) To delete a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png), then click **Delete**, then **Delete** to confirm. Deleted details page views cannot be recovered. 
-   </div>
-   -->
+      >[!TIP]
+      >
+      >The **Fields** icon is not available when you display the details page in the **Selected table view** or the **All fields** views.
+
+   1. (Optional) To edit the name of a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png) , then click **Edit**. 
+   1. (Optional) To delete a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png), then click **Delete**, then **Delete** to confirm. Deleted details page views cannot be recovered. 
+
+</div>
 
 1. (Optional) If you want to navigate to a connected record, click the name of that record in the breadcrumb at the top of the details page. 
 

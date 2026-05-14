@@ -52,6 +52,8 @@ We recommend to use the Sample workspaces as examples only, and rather use the m
 
 For information, see Workspaces overview (/help/quicksilver/planning/architecture/workspaces-overview.md). 
 
+-->
+
 ## Custom views for a record's Details page 
 
 >[!NOTE]
@@ -66,7 +68,7 @@ In addition to adding two already-built details page views that contain either a
 
 This update removes the **Show all fields** setting and replaces it with custom details views.  
 
-For information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md).  
+For information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Add groupings to a Projects connected record page
 
@@ -76,11 +78,9 @@ For information, see [Manage the record page](/help/quicksilver/planning/records
 >Production fast: June 11, 2026 
 >Production for everyone: July 16, 2026 
 
-You can now group your information in the projects connected records page of a record in Workfront Planning. This capability did not exist in this area prior to this enhancement.  
+You can now group your information in the projects connected records page of a record in Workfront Planning. This capability did not exist in this area prior to this enhancement.
 
 For information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
-
--->
 
 
 <!--
