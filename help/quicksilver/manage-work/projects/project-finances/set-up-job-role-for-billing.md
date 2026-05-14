@@ -73,7 +73,7 @@ To assign a job role for billing at the project level:
 1. Select the **Job role** to use as the job role for billing for this user on this project.
 1. (Optional) Click **Add job role** to define effective dates for the job role for billing. Enter the **Start** and **End** dates for the job role.
 
-   [Add job role for billing at project level](assets/jrfb-project-level.png)
+   ![Add job role for billing at project level](assets/jrfb-project-level.png)
 
 1. Click **Add job role** again to specify additional billing roles for different time periods.
 1. Click **Save**.
