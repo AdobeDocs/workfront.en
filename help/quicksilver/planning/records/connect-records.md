@@ -467,7 +467,7 @@ To connect records with Experience Manager objects:
       >
       >* A linked record field to the Workfront Planning linked records is not created for the linked Experience Manager assets in the Experience Manager Assets application. 
      
-1. (Optional and conditional) For assets, go to the record type you linked to Experience Manager from and click the name of an asset in the linked record field. The Experience Manager details of the asset display in a pop-up window. <!--not sure if this is also possible for fragments??-->
+1. (Optional and conditional) Go to the record type you linked to Experience Manager from and click the name of an asset in the linked record field. The Experience Manager details of the asset display in a pop-up window. <!--not sure if this is also possible for fragments??-->
 
     ![Asset pop-up window with AEM details and thumbnail](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
@@ -483,11 +483,15 @@ To connect records with Experience Manager objects:
     * Date created
     * Date modified 
 
-1. (Optional and conditional) For assets, to open the Experience Manager assets record page in Experience Manager, go to the record type page of the record you are linking from, click the name of an asset in the linked record field to open the pop-up window, then click the **Open in AEM** icon ![Open asset in AEM icon](assets/open-asset-icon.png) to open the asset. <!--not sure if this is also possible for fragments??-->
+        >[!TIP]
+        >
+        >The Experience Manager object details window displays from anywhere in Planning where the connected object displays. For example, you can open the details windows for AEM objects from the table window or from the Details area of a record.
+
+1. (Optional and conditional) To open the Experience Manager asset or fragment record page in Experience Manager, go to the record type page of the record you are linking from, click the name of an asset in the linked record field to open the pop-up window, then click the **Open in AEM** icon ![Open asset in AEM icon](assets/open-asset-icon.png) to open the asset. <!--not sure if this is also possible for fragments??-->
 
    This opens the Experience Manager asset in Adobe Experience Manager Assets.  
 
-1. (Optional and conditional) For assets, from the table view of the record type, hover over the column header of the linked Experience Manager asset, and click the drop-down menu, then click **Edit lookup fields**. <!--not sure if this is also possible for fragments??-->
+1. (Optional and conditional) From the table view of the record type, hover over the column header of the linked Experience Manager asset or fragment, and click the drop-down menu, then click **Edit lookup fields**. <!--not sure if this is also possible for fragments??-->
 
 1. Add Experience Manager Assets object fields from the **Unselected fields** area <!--not sure if this is also possible for fragments??-->
 
