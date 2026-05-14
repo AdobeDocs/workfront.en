@@ -12,6 +12,23 @@ This page describes Documents enhancements made with the Third Quarter 2026 rele
 
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## View Experience Manager Assets and approval status badges in the Documents area
+
+>[!NOTE]
+>
+>Preview: May 14, 2026
+>Production fast release: May 14, 2026
+>Production for everyone: July 16, 2026
+
+Linked assets in the Documents area now display status badges that give teams instant visibility into where each asset stands without leaving Workfront. Assets can show:
+
+* A badge indicating whether the file has been sent to Adobe Experience Manager Assets, including a direct link to the asset in Experience Manager
+* A badge indicating the asset's current approval status
+
+For more information about sending assets to Experience Manager Assets, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+
+For more information about approval statuses, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
+
 ## View Adobe enterprise storage usage
 
 >[!NOTE]
