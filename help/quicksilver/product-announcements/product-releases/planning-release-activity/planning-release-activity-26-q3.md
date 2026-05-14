@@ -13,6 +13,7 @@ recommendations: noDisplay, noCatalog
 
 <!--
 There are no features released during the Third Quarter Release for 2026. When features are released for this quarter, we will document them in this article. 
+-->
 
 <!--keep the sentence below for all future quarterly release pages--> 
 
@@ -82,10 +83,9 @@ For information, see [Manage the list view](/help/quicksilver/planning/views/man
 -->
 
 
-<!--API new version delayed till May 21, 2026
+<!--
 
-For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
-
+API new version delayed till May 21, 2026
 
 ## Workfront Planning API version 2 
 

@@ -45,12 +45,15 @@ A workspace is a collection of record types used by an organizational unit and i
 
       * **Workspaces I'm on**: Displays workspaces you created or workspaces that are shared with you.
       * **Other workspaces**: Displays all other workspaces in the system.
-      <!--* <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span>
+      
+      <!--
+      * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span>
+      -->
 
         <!--      
         >[!NOTE]
         >
-        >        <span class="preview">We recommend not editing the sample workspaces, but instead using them as a reference to create your own.</span> 
+        ><span class="preview">We recommend not editing the sample workspaces, but instead using them as a reference to create your own.</span> 
         -->
 
    * For all other users, workspaces they created and workspaces others shared with them display in the Workspaces area. 
