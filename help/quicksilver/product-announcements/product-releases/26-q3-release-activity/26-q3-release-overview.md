@@ -47,12 +47,12 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Quarterly</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Linked AEM assets now display an icon</a>
-                <p>need more info</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">View Experience Manager Assets and approval status badges in the Documents area</a>
+                <p>Linked assets in the Documents area now display status badges showing whether a file has been sent to Adobe Experience Manager Assets along with its current approval status.</p>
             </td>
             <td><p>May 14, 2026</p></td>
-            <td><p>?</p></td>
-            <td><p>?</p></td>
+            <td><p>May 14, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -123,8 +123,6 @@ New features in Workfront Fusion are available in Production at a cadence outsid
 
 ### Workfront Planning enhancements
 
-There are no Workfront Planning enhancements at this point in the release.
-
 <!--
 New features in Workfront Planning are available in Production.
 -->
@@ -160,6 +158,7 @@ For information on what's new and updated, see [What's new in API version 22](/h
 
 For information on API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
+<!--
 ### Workfront Planning API version 2 
 
 Available for all customers: May 14, 2026.
@@ -175,6 +174,8 @@ NOTE: The Workfront Planning connector for Fusion has not been updated to API Ve
 For information, see Adobe Workfront Planning API basics (/help/quicksilver/planning/general/planning-api-basics.md). 
 
 For Workfront Planning API specifications, see the [Workfront Planning API](https://developer.adobe.com/wf-planning/) developer documentation.
+
+-->
 
 ### Workfront Planning Trial is closing
 
