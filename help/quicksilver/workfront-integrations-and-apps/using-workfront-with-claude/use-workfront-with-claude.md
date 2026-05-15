@@ -9,11 +9,11 @@ feature: Workfront Integrations and Apps
 
 <!-- NEEDS DECISION: Keep "V1" / "initial release" framing throughout this article, or describe current capabilities as the product without versioning language? The source outline (section 6.2) leans heavily on V1 framing. The current draft drops V1 phrasing — confirm before publication. -->
 
-# Use Adobe Workfront with Claude
+# Use Adobe Workfront MCP server
 
-The [!DNL Adobe Workfront] integration for [!DNL Claude] lets you work with your Workfront data through natural-language conversation in [!DNL Claude]. Instead of clicking through Workfront to find a project, update a task, or check an approval, you ask [!DNL Claude] in plain English and it does the work for you.
+The [!DNL Adobe Workfront] connector for [!DNL Claude] lets you work with your Workfront data through natural-language conversation in [!DNL Claude]. Instead of clicking through Workfront to find a project, update a task, or check an approval, you ask [!DNL Claude] in plain English and it does the work for you.
 
-This integration is built on the Workfront MCP (Model Context Protocol) server, which exposes Workfront actions as tools that [!DNL Claude] can call on your behalf. You don't need to know the Workfront API or anything about MCP to use it — connect [!DNL Claude] to Workfront once, then start asking.
+The connector uses the Workfront MCP (Model Context Protocol) server, which exposes Workfront actions as tools that [!DNL Claude] can call on your behalf. You don't need to know the Workfront API or anything about MCP to use it — connect [!DNL Claude] to Workfront once, then start asking.
 
 <!-- NEEDS DETAIL: Confirm whether the MCP server URL (workfront.adobe.io/mcp/v1, mentioned in Hamilton's walkthrough) needs to appear anywhere in this article. The connector likely handles it transparently for end users, but confirm before publication. -->
 
@@ -49,11 +49,11 @@ Before you can connect Workfront to [!DNL Claude], the following must be true:
 
   <!-- NEEDS DETAIL: Confirm which Claude tiers are supported. Outline notes Claude Enterprise is confirmed; Claude Pro and Claude Team support is unconfirmed. Hamilton's best guess was that connectors are available by default outside Claude Enterprise, but this needs verification. -->
 
-* Your administrators have enabled the integration on both sides. For more information, see [Admin prerequisites](#admin-prerequisites) in this article.
+* Your administrators have enabled the connector on both sides. For more information, see [Admin prerequisites](#admin-prerequisites) in this article.
 
 ### Admin prerequisites
 
-The integration is gated by two separate administrators. Both must enable access before you can connect.
+The connector is gated by two separate administrators. Both must enable access before you can connect.
 
 * **Your [!DNL Claude] Enterprise administrator** must enable the [!DNL Adobe Workfront] connector for your organization. Until they do, the connector won't appear when you search for it in [!DNL Claude].
 * **Your Workfront system administrator** must enable MCP access on the Workfront side.
@@ -96,9 +96,9 @@ To connect Workfront to [!DNL Claude]:
 
 ### Verify your connection
 
-To confirm [!DNL Claude] is connected to Workfront, ask [!DNL Claude] to list the actions the integration makes available. For example:
+To confirm [!DNL Claude] is connected to Workfront, ask [!DNL Claude] to list the actions the Workfront connector makes available. For example:
 
-* *What tools does the Workfront integration give you?*
+* *What tools does the Workfront connector give you?*
 * *List the Workfront actions you can take.*
 
 [!DNL Claude] returns the list of available actions.
@@ -119,17 +119,17 @@ To connect to a different Workfront instance:
 >
 >Logging out of [!DNL Claude] alone doesn't switch the Workfront instance. You must disconnect and reconnect the connector.
 
-## Actions available through the integration
+## Actions available through the connector
 
 After you connect, you can ask [!DNL Claude] to find, create, update, or remove Workfront items in plain English. [!DNL Claude] decides which actions to call and handles the conversation with Workfront for you.
 
-The integration covers actions across approvals, planning, and workflow.
+The connector covers actions across approvals, planning, and workflow.
 
-<!-- NEEDS DETAIL: Confirm the full inventory of actions exposed in the integration. The five core actions below are confirmed from Hamilton's walkthrough. The approvals, planning, and workflow sections need to be filled in from Jeff's engineering channel post, hands-on access, and the deck Oznur published in the MCP external channel. -->
+<!-- NEEDS DETAIL: Confirm the full inventory of actions exposed through the connector. The five core actions below are confirmed from Hamilton's walkthrough. The approvals, planning, and workflow sections need to be filled in from Jeff's engineering channel post, hands-on access, and the deck Oznur published in the MCP external channel. -->
 
 ### Core actions
 
-The integration includes the following core actions:
+The connector includes the following core actions:
 
 | Action | What it does |
 |---|---|
@@ -143,21 +143,21 @@ The integration includes the following core actions:
 
 ### Approvals actions
 
-<!-- NEEDS DETAIL: List the approval-specific actions exposed through the integration. Hamilton mentioned "a bunch of tools for doing approvals" but didn't enumerate them in the meeting. For each action, document what it does, what inputs it expects, and an example request a marketer might make. -->
+<!-- NEEDS DETAIL: List the approval-specific actions exposed through the connector. Hamilton mentioned "a bunch of tools for doing approvals" but didn't enumerate them in the meeting. For each action, document what it does, what inputs it expects, and an example request a marketer might make. -->
 
 ### Planning actions
 
-<!-- NEEDS DETAIL: List the planning-specific actions exposed through the integration. Hamilton mentioned "a bunch of tools for doing planning" without specifics. For each action, document what it does, what inputs it expects, and an example request. -->
+<!-- NEEDS DETAIL: List the planning-specific actions exposed through the connector. Hamilton mentioned "a bunch of tools for doing planning" without specifics. For each action, document what it does, what inputs it expects, and an example request. -->
 
 ### Workflow actions
 
-<!-- NEEDS DETAIL: List the workflow-specific actions exposed through the integration. Hamilton mentioned "a bunch of tools for doing workflow" without specifics. For each action, document what it does, what inputs it expects, and an example request. -->
+<!-- NEEDS DETAIL: List the workflow-specific actions exposed through the connector. Hamilton mentioned "a bunch of tools for doing workflow" without specifics. For each action, document what it does, what inputs it expects, and an example request. -->
 
 ## Examples of what to ask Claude
 
 After you're connected, type natural-language requests in [!DNL Claude]. [!DNL Claude] decides which Workfront actions to call and returns the results.
 
-<!-- NEEDS DETAIL: All example prompts in this section come from the source outline and have NOT been verified through hands-on testing. Validate each example against a working integration before publication, and replace the placeholder project and task names with realistic marketing-team examples. -->
+<!-- NEEDS DETAIL: All example prompts in this section come from the source outline and have NOT been verified through hands-on testing. Validate each example against a working connector before publication, and replace the placeholder project and task names with realistic marketing-team examples. -->
 
 ### Find and view your work
 
@@ -202,11 +202,11 @@ You can chain requests in a single [!DNL Claude] conversation. [!DNL Claude] kee
 1. Ask [!DNL Claude] to find a set of items: *Find my overdue tasks.*
 1. After [!DNL Claude] returns the list, ask it to act on the results: *Update all of them to next Friday.*
 
-<!-- NEEDS DETAIL: Test multi-step prompt chaining in the working integration and document the patterns that produce reliable results. -->
+<!-- NEEDS DETAIL: Test multi-step prompt chaining in the working connector and document the patterns that produce reliable results. -->
 
 ## Considerations
 
-The following points are worth knowing before you use the integration heavily.
+The following points are worth knowing before you use the connector heavily.
 
 ### Claude may use information from earlier in the conversation
 
@@ -216,17 +216,17 @@ To force [!DNL Claude] to fetch fresh data, ask for it explicitly. For example:
 
 * *Get the latest data from Workfront. Don't use cached results.*
 
-### The integration updates automatically
+### The connector updates automatically
 
-When Adobe releases a new version of the integration, the connector updates automatically. You don't need to reconnect or change anything in [!DNL Claude]. Everyone using the connector picks up the new version at the same time.
+When Adobe releases a new version of the Workfront MCP server, the connector updates automatically. You don't need to reconnect or change anything in [!DNL Claude]. Everyone using the connector picks up the new version at the same time.
 
 ### Skills (advanced)
 
-<!-- NEEDS DETAIL: Confirm whether Adobe is shipping any pre-built Claude skills alongside the integration. If yes, list them and link to download or installation guidance. If no, decide whether to mention skills as a user-driven workaround at all, or remove this section. -->
+<!-- NEEDS DETAIL: Confirm whether Adobe is shipping any pre-built Claude skills alongside the connector. If yes, list them and link to download or installation guidance. If no, decide whether to mention skills as a user-driven workaround at all, or remove this section. -->
 
 [!DNL Claude] supports user-created instruction sets called skills. You can use a skill to customize how [!DNL Claude] behaves with Workfront — for example, a skill that tells [!DNL Claude] to always fetch fresh data from Workfront instead of relying on earlier results.
 
-## Troubleshoot the Workfront integration for Claude
+## Troubleshoot the Workfront connector for Claude
 
 | Problem | Likely cause | Fix |
 |---|---|---|
@@ -234,7 +234,7 @@ When Adobe releases a new version of the integration, the connector updates auto
 | You're connected, but you can't see your data. | You authenticated to the wrong Workfront instance. | Disconnect the connector, reconnect, and authenticate to the correct instance. |
 | [!DNL Claude] is giving you outdated information. | [!DNL Claude] is reusing data from earlier in the conversation. | Ask [!DNL Claude] to fetch fresh data from Workfront. |
 | Authentication failed, or the connector stopped working. | Your auth session expired or there's a connection error. | Disconnect and reconnect the connector. |
-| You want to switch to a different Workfront instance. | The integration ties one connection to one instance. | Disconnect, reconnect, and authenticate to the new instance. |
+| You want to switch to a different Workfront instance. | The connector ties one connection to one instance. | Disconnect, reconnect, and authenticate to the new instance. |
 
 <!-- NEEDS DETAIL: Add additional troubleshooting scenarios discovered during hands-on testing. -->
 
@@ -260,7 +260,7 @@ Both. Your [!DNL Claude] Enterprise administrator enables the connector in [!DNL
 
 <!-- NEEDS DETAIL: Document the official Adobe position on data handling and security when Workfront data is passed through Claude. This needs sign-off from security/legal before publication. -->
 
-### What happens when a new version of the integration releases?
+### What happens when a new version of the connector releases?
 
 The connector updates automatically. You don't need to reconnect or change anything.
 
