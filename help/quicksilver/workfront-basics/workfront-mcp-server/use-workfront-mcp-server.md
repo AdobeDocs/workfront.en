@@ -15,11 +15,26 @@ The [!DNL Adobe Workfront] MCP server lets you find, create, update, and manage 
 
 This article assumes you've already set up the connection. For information about setup, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md). For more information about the Workfront MCP server, see [Adobe Workfront MCP server overview](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md).
 
+
+
 ## Actions available through the Workfront MCP server
 
 The Workfront MCP server covers actions across approvals, planning, and workflow.
 
 <!-- NEEDS DETAIL: Confirm the full inventory of actions exposed through the Workfront MCP server. The five core actions below are confirmed from Hamilton's walkthrough. The approvals, planning, and workflow sections need to be filled in from Jeff's engineering channel post, hands-on access, and the deck Oznur published in the MCP external channel. -->
+
+>[!IMPORTANT]
+>
+>An AI assistant acts in Workfront using your Workfront account and permissions. You and your AI assistant provider are responsible for the actions the AI assistant takes on your behalf. Confirm what the AI assistant is about to do before you let it proceed.
+
+
+## Responsibility for AI assistant actions
+
+When you connect an AI assistant to Workfront, the AI assistant acts in Workfront using your Workfront account and permissions. The AI assistant's actions have the same effect as actions you take directly in the Workfront interface.
+
+You and your AI assistant provider are responsible for the actions the AI assistant takes in Workfront. Adobe is not responsible for changes the AI assistant makes to your Workfront data.
+
+Before you let the AI assistant proceed with a request, confirm that you understand what it intends to do, especially for actions that change or delete data.
 
 ### Core actions
 
@@ -51,35 +66,39 @@ The Workfront MCP server includes the following core actions:
 
 After you're connected, type natural-language requests in your AI assistant. The AI assistant decides which Workfront actions to call and returns the results.
 
-<!-- NEEDS DETAIL: All example prompts in this section come from the source outline and have NOT been verified through hands-on testing. Validate each example against a working setup before publication, and replace the placeholder project and task names with realistic marketing-team examples. -->
+<!-- NEEDS DETAIL: Example prompts in this section are adapted from the Workflow Optimization Agent (WOA) examples doc on another branch. Validate each example against a working Claude + Workfront MCP server setup before publication, since WOA and the MCP server may expose different action inventories. -->
 
 ### Find and view your work
 
 Ask the AI assistant to search Workfront for items that match what you're looking for. For example:
 
-* *Show me my open tasks.*
-* *What projects am I assigned to?*
-* *Find all tasks in the Spring Campaign project that are past due.*
+* *Show me all active projects for the Brand Marketing team.*
+* *Get me all tasks assigned to Joan Harris.*
+* *Show me all issues in the "Website Redesign" project under the "Technical" category.*
 
 ### Create new items
 
 Ask the AI assistant to create projects, tasks, or other Workfront items. For example:
 
-* *Create a new task called "Review designs" in the Spring Campaign project.*
-* *Create a new project called "Q3 Newsletter Launch."*
+* *Create a blank project called "Q2 Innovation Sandbox" starting March 10 and ending April 30. Set me as the owner.*
+* *Add a new task called "Landing Page QA" to the project and schedule it from April 22 to April 26.*
+* *Create a new campaign record called "Summer Sale 2026."*
 
 ### Update existing items
 
 Ask the AI assistant to make changes to items already in Workfront. For example:
 
-* *Change the status of the "Review designs" task to Complete.*
-* *Assign the "Final approvals" task to Alex.*
+* *Update the "Design Review" task so it finishes on April 18, and assign it to the creative team.*
+* *For the "Lucent AI Launch – NA" project, push the finish to mid-April and increase the budget to $150K.*
+* *Update the budget field in the "Summer Campaign" record to $75,000.*
 
 ### Delete items
 
 Ask the AI assistant to remove Workfront items. For example:
 
-* *Delete the "Old draft" task in the Newsletter project.*
+* *Delete the project called "Q1 Test Campaign."*
+* *Remove the "Print Asset Production" task from the project.*
+* *Delete the campaign record named "Old Promo."*
 
 >[!WARNING]
 >
@@ -87,7 +106,13 @@ Ask the AI assistant to remove Workfront items. For example:
 
 ### Work with approvals
 
-<!-- NEEDS DETAIL: Add 2–3 approval-specific example prompts based on the approvals action inventory. Suggested patterns: approve/reject a specific item, list approvals waiting on the user, route an item to the next approver. -->
+Ask the AI assistant to manage document and asset approvals. For example:
+
+* *Add Sarah Chen and Miguel Alvarez as approvers on the current document.*
+* *Send a reminder to approvers on the asset "Spring Campaign Video" who haven't responded.*
+* *Apply the "Marketing Launch" approval template to the asset "Spring Campaign Video."*
+
+<!-- NEEDS DETAIL: Add approvals-specific context from the WOA examples doc, including: content approvals must be enabled for the organization, the AI assistant cannot approve or reject on behalf of humans (except via the Workfront AI Reviewer), and best experience is with the Unified Approvals experience. -->
 
 ### Chain requests across a conversation
 
@@ -145,6 +170,8 @@ For more information about setup and authentication issues, see [Troubleshoot se
 ## Frequently asked questions
 
 ### What Workfront items can I work with through an AI assistant?
+
+Any items that you have access to in Workfront via access levels and object permissions.
 
 <!-- NEEDS DETAIL: List the supported Workfront object types. -->
 
