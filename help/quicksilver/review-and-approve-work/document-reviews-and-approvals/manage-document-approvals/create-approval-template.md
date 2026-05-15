@@ -27,7 +27,7 @@ In the Workfront Setup area, users with a Standard license can create reusable A
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
    <td><p>Any Workfront package to manage approvals using legacy Workfront storage</p>
-<p>Any Workflow package to manage approvals using Adobe enterprise storage</p> </td> 
+<p>Any Workflow package to manage approvals using Adobe cloud storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 

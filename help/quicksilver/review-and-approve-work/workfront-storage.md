@@ -1,43 +1,43 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Move to Workfront on Adobe enterprise storage
-description: Plan your rollout of Workfront on Adobe enterprise storage. Learn what's different on Adobe enterprise storage objects, including the new Documents area and the Frame.io review experience, and decide how Adobe enterprise storage rolls out in your environment.
+title: Move to Workfront on Adobe cloud storage
+description: Plan your rollout of Workfront on Adobe cloud storage. Learn what's different on Adobe cloud storage objects, including the new Documents area and the Frame.io review experience, and decide how Adobe cloud storage rolls out in your environment.
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
 ---
-# Move to Workfront on Adobe enterprise storage
+# Move to Workfront on Adobe cloud storage
 
-Workfront on Adobe enterprise storage enables the full unified review and approval experience: reviews in the Frame.io viewer, powerful approval workflows, cross-product visibility of assets, and more.
+Workfront on Adobe cloud storage enables the full unified review and approval experience: reviews in the Frame.io viewer, powerful approval workflows, cross-product visibility of assets, and more.
 
-Your existing objects continue to work the way they do today. The new Documents area, the Frame.io viewer, and other Adobe enterprise storage behaviors apply only to objects using Adobe enterprise storage.
+Your existing objects continue to work the way they do today. The new Documents area, the Frame.io viewer, and other Adobe cloud storage behaviors apply only to objects using Adobe cloud storage.
 
-This article is for Workfront administrators preparing to roll out Workfront on Adobe enterprise storage. It covers major differences on Adobe enterprise storage objects, how to choose your rollout type, and what to think through before you enable Adobe enterprise storage for your users.
+This article is for Workfront administrators preparing to roll out Workfront on Adobe cloud storage. It covers major differences on Adobe cloud storage objects, how to choose your rollout type, and what to think through before you enable Adobe cloud storage for your users.
 
 >[!IMPORTANT]
 >
->You must be on a version of Workfront that supports Adobe enterprise storage. If your organization is not already on a supported version, contact your Adobe account representative.
+>You must be on a version of Workfront that supports Adobe cloud storage. If your organization is not already on a supported version, contact your Adobe account representative.
 
 
 
-## Understand legacy Workfront storage and Adobe enterprise storage
+## Understand legacy Workfront storage and Adobe cloud storage
 
-After your contract is updated to include the new unified review and approval experience, your environment can contain two types of objects: objects on legacy Workfront storage (the objects you have today) and objects created using Adobe enterprise storage. At a high level, the two storage models differ in where the data lives, which Adobe products can see it, and what functionality is available:
+After your contract is updated to include the new unified review and approval experience, your environment can contain two types of objects: objects on legacy Workfront storage (the objects you have today) and objects created using Adobe cloud storage. At a high level, the two storage models differ in where the data lives, which Adobe products can see it, and what functionality is available:
 
-|  | Object on legacy Workfront storage | Object on Adobe enterprise storage |
+|  | Object on legacy Workfront storage | Object on Adobe cloud storage |
 |---|---|---|
-| Storage backend | Workfront only | Adobe enterprise storage |
+| Storage backend | Workfront only | Adobe cloud storage |
 | Cross-product visibility | Workfront only | Workfront, Frame.io, and Creative Cloud |
 | Functionality | Legacy functionality | New functionality |
 
-Objects created before Adobe enterprise storage is enabled in the Setup area remain on legacy Workfront storage. The new behaviors described in this article apply only to Adobe enterprise storage objects you and your users create once Adobe enterprise storage is enabled.
+Objects created before Adobe cloud storage is enabled in the Setup area remain on legacy Workfront storage. The new behaviors described in this article apply only to Adobe cloud storage objects you and your users create once Adobe cloud storage is enabled.
 
-## What's different with Adobe enterprise storage
+## What's different with Adobe cloud storage
 
-The biggest day-to-day change with Adobe enterprise storage is the new Documents area and the Frame.io viewer that powers review and approval inside it. There are other differences that impact how you manage objects, documents, and reviews.
+The biggest day-to-day change with Adobe cloud storage is the new Documents area and the Frame.io viewer that powers review and approval inside it. There are other differences that impact how you manage objects, documents, and reviews.
 
-The following table summarizes the major differences when switching to Adobe enterprise storage. Each area in the table links to the detailed section below.
+The following table summarizes the major differences when switching to Adobe cloud storage. Each area in the table links to the detailed section below.
 
 | Area | What's different | What to know |
 |---|---|---|
@@ -46,23 +46,23 @@ The following table summarizes the major differences when switching to Adobe ent
 | [Object permissions mapping](#object-permissions-mapping) | Workfront's Manage and Contribute permissions both map to Edit & Share in Frame.io. View maps to Comment Only. | Permissions are managed in Workfront. Both Manage and Contribute users gain external sharing capability in Frame.io. |
 | [Review and approval viewer](#review-and-approval-viewer) | The Frame.io viewer replaces the Workfront Proofing viewer. | Included for all Workfront users with a paid license. Supports markup, time-stamped comments, version history, mobile, 40+ formats, files up to 500 GB. |
 | [Object naming rules](#object-naming-rules) | Strict naming rules apply: unique names within a portfolio or project, no special characters, no trailing period or space, 255-character limit. | Workfront auto-renames objects when conflicts arise. Audit templates that generate new project names and structure. |
-| [Object portability](#object-portability) | You can move, copy, and convert objects only between like storage models. | Adobe enterprise storage objects can't move to legacy projects, or the reverse. Moving an Adobe enterprise storage project to a legacy portfolio or program converts the parent to Adobe enterprise storage. |
-| [Capabilities not available](#capabilities-not-available-on-adobe-enterprise-storage-objects) | Workfront Proof, the Workfront document viewer, favorite documents, and request documents aren't part of the experience. | Legacy objects retain these capabilities. Workfront Proof won't receive new investment and will be retired in a future release. |
-| [Storage quota](#storage-quota) | Storage is pooled for legacy Workfront projects and Adobe enterprise projects. 60 GB per licensed user. No hard cap. | System admins can view storage usage on the Customer Info page in Setup.|
+| [Object portability](#object-portability) | You can move, copy, and convert objects only between like storage models. | Adobe cloud storage objects can't move to legacy projects, or the reverse. Moving an Adobe cloud storage project to a legacy portfolio or program converts the parent to Adobe cloud storage. |
+| [Capabilities not available](#capabilities-not-available-on-adobe-cloud-storage-objects) | Workfront Proof, the Workfront document viewer, favorite documents, and request documents aren't part of the experience. | Legacy objects retain these capabilities. Workfront Proof won't receive new investment and will be retired in a future release. |
+| [Storage quota](#storage-quota) | Storage is pooled for legacy Workfront projects and Adobe cloud storage projects. 60 GB per licensed user. No hard cap. | System admins can view storage usage on the Customer Info page in Setup.|
 | [Annual video review cap](#annual-video-review-cap) | Organizational-level cap on video proof requests at 10% of paid Workfront user licenses (Standard and Light). | Once reached, no new video reviews until the next annual period. In-app notifications at 80% and 100%. Doesn't apply to Frame.io Enterprise customers. |
-| [Workfront Fusion](#workfront-fusion-on-adobe-enterprise-storage-projects) | Existing proof-based Fusion scenarios don't automatically work against Adobe enterprise storage projects. | Scenarios scoped to legacy projects continue to work. Each affected scenario gets one of three paths: edit, rebuild, or retire. New connectors expected Q3 2026. |
+| [Workfront Fusion](#workfront-fusion-on-adobe-cloud-storage-projects) | Existing proof-based Fusion scenarios don't automatically work against Adobe cloud storage projects. | Scenarios scoped to legacy projects continue to work. Each affected scenario gets one of three paths: edit, rebuild, or retire. New connectors expected Q3 2026. |
 
 ### The new Documents area
 
-The new Documents area is a unified documents experience designed for Adobe enterprise storage. It simplifies navigation, consolidates review and approval activity, and is the entry point for the Frame.io viewer.
+The new Documents area is a unified documents experience designed for Adobe cloud storage. It simplifies navigation, consolidates review and approval activity, and is the entry point for the Frame.io viewer.
 
-The global Documents area isn't part of the new experience. On Adobe enterprise storage projects, you access documents from a program, portfolio, project, task, or issue.
+The global Documents area isn't part of the new experience. On Adobe cloud storage projects, you access documents from a program, portfolio, project, task, or issue.
 
 For more information, see [The Documents area](/help/quicksilver/documents/managing-documents/documents-area.md).
 
 ### Document permissions
 
-Document permissions are fundamentally different on Adobe enterprise storage projects:
+Document permissions are fundamentally different on Adobe cloud storage projects:
 
 * You can't share or set permissions on individual documents. Instead, permissions are applied to system-generated document folders that contain the documents.
 * System-generated document folders inherit permissions from their parent project, task, or issue.
@@ -70,16 +70,16 @@ Document permissions are fundamentally different on Adobe enterprise storage pro
 * Subtasks don't inherit permissions from parent tasks. You must be added directly to a subtask to access its system-generated document folder.
 
 
-For more information about how document permissions work, see [Object permissions and access level overview for the Adobe enterprise storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+For more information about how document permissions work, see [Object permissions and access level overview for the Adobe cloud storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
 
 ### Object permissions mapping
 
-Permissions are set in Workfront and flow in one direction through to Frame.io. You can't invite users to an Adobe enterprise storage project in Frame.io or modify user permissions in Frame.io.
+Permissions are set in Workfront and flow in one direction through to Frame.io. You can't invite users to an Adobe cloud storage project in Frame.io or modify user permissions in Frame.io.
 
 >[!TIP]
 >
->Train project coordinators that Frame.io access is a downstream reflection of Workfront permissions. If a stakeholder reports they can't access a review on an Adobe enterprise storage project, the fix is in Workfront — not Frame.io.
+>Train project coordinators that Frame.io access is a downstream reflection of Workfront permissions. If a stakeholder reports they can't access a review on an Adobe cloud storage project, the fix is in Workfront — not Frame.io.
 
 The following table maps Workfront object permissions to Frame.io permissions:
 
@@ -89,14 +89,14 @@ The following table maps Workfront object permissions to Frame.io permissions:
 | Contribute | Edit & Share |
 | View | Comment Only |
 
-Both Manage and Contribute map to **Edit & Share** in Frame.io. As you review your sharing patterns for Adobe enterprise storage projects, consider whether it fits your governance model for contributors to have the same review-side capabilities as managers, including external sharing.
+Both Manage and Contribute map to **Edit & Share** in Frame.io. As you review your sharing patterns for Adobe cloud storage projects, consider whether it fits your governance model for contributors to have the same review-side capabilities as managers, including external sharing.
 
-For more information, see [Object permissions and access level overview for the Adobe enterprise storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#permission-mapping-to-frameio).
+For more information, see [Object permissions and access level overview for the Adobe cloud storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#permission-mapping-to-frameio).
 
 
 ### Review and approval viewer
 
-On Adobe enterprise storage objects, the Frame.io viewer is the review and approval surface in place of Workfront Proof. The Frame.io viewer is included for all Workfront users with a paid license.
+On Adobe cloud storage objects, the Frame.io viewer is the review and approval surface in place of Workfront Proof. The Frame.io viewer is included for all Workfront users with a paid license.
 
 The Frame.io viewer provides:
 
@@ -109,9 +109,9 @@ The Frame.io viewer provides:
 
 ### Object naming rules
 
-Adobe enterprise storage enforces strict naming and structural rules to keep the storage layer consistent across Adobe products. These rules apply to objects you create on Adobe enterprise storage projects. Existing legacy projects keep their current names.
+Adobe cloud storage enforces strict naming and structural rules to keep the storage layer consistent across Adobe products. These rules apply to objects you create on Adobe cloud storage projects. Existing legacy projects keep their current names.
 
-The following rules apply to Adobe enterprise storage projects:
+The following rules apply to Adobe cloud storage projects:
 
 | Rule | Detail |
 |---|---|
@@ -125,18 +125,18 @@ If a name conflicts with these rules, Workfront automatically renames the object
 
 >[!TIP]
 >
->If you create Adobe enterprise storage projects from templates, review your existing templates so the project names and structure they generate fit the rules above.
+>If you create Adobe cloud storage projects from templates, review your existing templates so the project names and structure they generate fit the rules above.
 
 
 ### Object portability
 
-You can move, copy, and convert Workfront objects between like storage models. For example, you can move a task from one Adobe enterprise storage project to another Adobe enterprise storage project. You can't move or copy a task or issue from an Adobe enterprise storage project to a legacy project, or the reverse.
+You can move, copy, and convert Workfront objects between like storage models. For example, you can move a task from one Adobe cloud storage project to another Adobe cloud storage project. You can't move or copy a task or issue from an Adobe cloud storage project to a legacy project, or the reverse.
 
-Today, when you create or move an Adobe enterprise storage project to a legacy portfolio or program, the portfolio or program is automatically converted to an Adobe enterprise storage object. A future release will give system administrators more control over which objects are automatically converted.
+Today, when you create or move an Adobe cloud storage project to a legacy portfolio or program, the portfolio or program is automatically converted to an Adobe cloud storage object. A future release will give system administrators more control over which objects are automatically converted.
 
-### Capabilities not available on Adobe enterprise storage objects
+### Capabilities not available on Adobe cloud storage objects
 
-The following capabilities aren't part of Adobe enterprise storage objects:
+The following capabilities aren't part of Adobe cloud storage objects:
 
 * Workfront Proof
 * The Workfront document viewer
@@ -147,7 +147,7 @@ Legacy projects retain access to Workfront Proof and the legacy document capabil
 
 ### Storage quota
 
-Storage is pooled for legacy Workfront objects and Adobe enterprise storage objects. Each licensed user receives 60 GB of storage. There's no hard cap on storage usage, but Workfront administrators receive email notifications when usage reaches 75%, 90%, and 100% of the quota.
+Storage is pooled for legacy Workfront objects and Adobe cloud storage objects. Each licensed user receives 60 GB of storage. There's no hard cap on storage usage, but Workfront administrators receive email notifications when usage reaches 75%, 90%, and 100% of the quota.
 
 System admins can go to **Setup** > **System** > **Customer Info** to view current storage usage and quota.
 
@@ -164,23 +164,23 @@ There's an annual cap on video proof requests set at 10% of your organization's 
 
 For more information, see the Reviewing and approving assets and videos FAQ in [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-### Workfront Fusion on Adobe enterprise storage projects
+### Workfront Fusion on Adobe cloud storage projects
 
-Existing Workfront Fusion scenarios built on legacy proofing don't automatically work against Adobe enterprise storage projects. Proof-specific modules, webhooks, and API endpoints have direct equivalents in some cases and significant changes in others. Scenarios scoped to legacy projects continue to work as they do today.
+Existing Workfront Fusion scenarios built on legacy proofing don't automatically work against Adobe cloud storage projects. Proof-specific modules, webhooks, and API endpoints have direct equivalents in some cases and significant changes in others. Scenarios scoped to legacy projects continue to work as they do today.
 
 Fusion connectors with native support for unified review and approval are expected to be available in Q3 2026.
 
 For detailed information about the impact on common scenario types and how to classify each scenario as Edit, Rebuild, or Retire based on its functionality, see [Update Workfront Fusion scenarios for unified review and approval](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md).
 
 
-## Choose how Adobe enterprise storage rolls out
+## Choose how Adobe cloud storage rolls out
 
-You decide how Adobe enterprise storage appears to your users. There are two configurations, and either one can be applied to your entire organization or to specific Workfront groups.
+You decide how Adobe cloud storage appears to your users. There are two configurations, and either one can be applied to your entire organization or to specific Workfront groups.
 
-For step-by-step instructions, see [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+For step-by-step instructions, see [Enable Adobe cloud storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
-* **Adobe enterprise storage only**: New projects use Adobe enterprise storage by default. Users can't create legacy projects.
-* **Adobe enterprise storage and legacy Workfront storage**: When users create a project, they choose between Adobe enterprise storage (labeled "New project") and legacy Workfront storage (labeled "Legacy storage").
+* **Adobe cloud storage only**: New projects use Adobe cloud storage by default. Users can't create legacy projects.
+* **Adobe cloud storage and legacy Workfront storage**: When users create a project, they choose between Adobe cloud storage (labeled "New project") and legacy Workfront storage (labeled "Legacy storage").
 
     ![choose a project type](assets/choose-project-type.png)
 
@@ -188,29 +188,29 @@ For step-by-step instructions, see [Enable Adobe enterprise storage for your org
 
 >[!TIP]
 >
->To put Adobe enterprise storage in front of a smaller team first, apply either configuration to a single Workfront group. This lets you run a targeted pilot before rolling out more broadly. We recommend starting with a group-level rollout for controlled pacing, then expanding to the entire organization once the pilot group has validated the experience.
+>To put Adobe cloud storage in front of a smaller team first, apply either configuration to a single Workfront group. This lets you run a targeted pilot before rolling out more broadly. We recommend starting with a group-level rollout for controlled pacing, then expanding to the entire organization once the pilot group has validated the experience.
 
 Existing objects keep the storage model they were created with. Changing the default storage preference doesn't change any existing object.
 
 ## Plan your rollout
 
-Every Workfront environment is different. Before you enable Adobe enterprise storage for your users, take some time to plan what a successful rollout looks like for your organization. The suggestions below aren't a checklist, but a starting point for your own plan.
+Every Workfront environment is different. Before you enable Adobe cloud storage for your users, take some time to plan what a successful rollout looks like for your organization. The suggestions below aren't a checklist, but a starting point for your own plan.
 
-**1. Pick a pilot group.** A group-scoped rollout lets you put Adobe enterprise storage in front of a smaller team first, gather feedback, and adjust before a broader rollout. Pick a group whose work patterns are representative enough to surface issues you want to know about early.
+**1. Pick a pilot group.** A group-scoped rollout lets you put Adobe cloud storage in front of a smaller team first, gather feedback, and adjust before a broader rollout. Pick a group whose work patterns are representative enough to surface issues you want to know about early.
 
-**2. Communicate the change to end users.** The biggest visible change for reviewers, approvers, and project owners is the new Documents area and the Frame.io viewer that powers review and approval on Adobe enterprise storage projects. Plan how you'll introduce these so users know what to expect when they encounter their first Adobe enterprise storage project. The [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md) article is a useful starting point for end-user-facing material.
+**2. Communicate the change to end users.** The biggest visible change for reviewers, approvers, and project owners is the new Documents area and the Frame.io viewer that powers review and approval on Adobe cloud storage projects. Plan how you'll introduce these so users know what to expect when they encounter their first Adobe cloud storage project. The [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md) article is a useful starting point for end-user-facing material.
 
-**3. Plan around Workfront Fusion connector availability.** Fusion connectors with native support for unified review and approval are expected to be available in Q3 2026. Existing proof-based Fusion scenarios continue to work on legacy projects. Before you bring teams that depend on those scenarios into your Adobe enterprise storage pilot, decide whether to wait for the new connectors, rebuild against the current API, or replace those scenarios with native unified review and approval features.
+**3. Plan around Workfront Fusion connector availability.** Fusion connectors with native support for unified review and approval are expected to be available in Q3 2026. Existing proof-based Fusion scenarios continue to work on legacy projects. Before you bring teams that depend on those scenarios into your Adobe cloud storage pilot, decide whether to wait for the new connectors, rebuild against the current API, or replace those scenarios with native unified review and approval features.
 
 For detailed information about the impact on common scenario types and how to classify each scenario as Edit, Rebuild, or Retire based on its functionality, see [Update Workfront Fusion scenarios for unified review and approval](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md).
 
 
 ## Related articles
 
-* [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md)
-* [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
+* [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md)
+* [Enable Adobe cloud storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
 * [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
 * [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
 * [The Documents area](/help/quicksilver/documents/managing-documents/documents-area.md)
-* [Object permissions and access level overview for the Adobe enterprise storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
+* [Object permissions and access level overview for the Adobe cloud storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
 

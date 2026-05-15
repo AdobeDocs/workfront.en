@@ -164,7 +164,7 @@ To create tasks on a project:
 
       >[!TIP]
       >
-      >If your organization has access to both legacy Workfront and Adobe enterprise document storage, the Documents area for tasks might display differently depending on which storage type your task uses. Tasks inherit the storage type from the project.
+      >If your organization has access to both legacy Workfront and Adobe cloud storage for documents, the Documents area for tasks might display differently depending on which storage type your task uses. Tasks inherit the storage type from the project.
       >
       >For information, see [Add documents to Adobe Workfront from your file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 

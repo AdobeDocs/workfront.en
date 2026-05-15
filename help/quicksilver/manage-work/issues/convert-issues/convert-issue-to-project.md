@@ -88,11 +88,11 @@ Old:
 ## Considerations
 
 * There is a 5-minute processing limit when converting an issue to a project. If the issue has a large number of documents attached to it and fails to convert, you might need to remove some of the documents and try again.
-* If your organization uses both legacy Workfront and Adobe enterprise document storage, the following scenarios exist when converting an issue to a project: <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
-  * A Workfront-storage issue creates a Workfront-storage project.
-  * An Adobe enterprise-storage issue creates an Adobe-storage project.
-  * Using a Workfront-storage template to convert an Adobe-storage issue creates an Adobe-storage project. 
-  * Using an Adobe-storage template to convert a Workfront-storage issue creates a Workfront-storage project.
+* If your organization uses both legacy Workfront and Adobe cloud storage for documents, the following scenarios exist when converting an issue to a project: <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
+  * A legacy Workfront storage issue creates a legacy Workfront storage project.
+  * An Adobe cloud storage issue creates an Adobe cloud storage project.
+  * Using a legacy Workfront storage template to convert an Adobe cloud storage issue creates an Adobe cloud storage project. 
+  * Using an Adobe cloud storage template to convert a legacy Workfront storage issue creates a legacy Workfront storage project.
 
     For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -228,8 +228,8 @@ You can convert an issue to a project using a template.
 
    >[!TIP]
    >
-   >* Using a Workfront-storage template to convert an Adobe-storage issue creates an Adobe-storage project. 
-   >* Using an Adobe-storage template to convert a Workfront-storage issue creates a Workfront-storage project.
+   >* Using a legacy Workfront storage template to convert an Adobe cloud storage issue creates an Adobe cloud storage project. 
+   >* Using an Adobe cloud storage template to convert a legacy Workfront storage issue creates a legacy Workfront storage project.
    >
    >For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

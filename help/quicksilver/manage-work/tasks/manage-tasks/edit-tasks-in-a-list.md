@@ -475,7 +475,7 @@ To edit tasks in a list when using the Manual save Timeline Planning option:
          <td role="rowheader">Documents</td> 
          <td><p>Add documents to the task.</p>
          <p><b>NOTE</b></p>
-         <p>If your organization uses Adobe enterprise document storage, you cannot add documents to tasks in the Summary panel for Adobe-storage tasks.</p>
+         <p>If your organization uses Adobe cloud storage for documents, you cannot add documents to tasks in the Summary panel for Adobe cloud storage tasks.</p>
          <p>For information, see <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Document management overview for projects and related objects</a>.</p>
       </td> 
       </tr> 

@@ -190,4 +190,4 @@ For the Preview environment, the nightly recalculation is disabled, and the proj
 
 * Proofing is not available in the Preview environment.
 
-* The Frame.io viewer is not available in the Preview environment. Adobe enterprise storage is available so you can test it in the sandbox, but the full unified review and approval experience must be validated in production. For more information, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+* The Frame.io viewer is not available in the Preview environment. Adobe cloud storage is available so you can test it in the sandbox, but the full unified review and approval experience must be validated in production. For more information, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).

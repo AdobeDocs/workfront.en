@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Adobe enterprise storage overview
-description: Adobe enterprise storage overview
+title: Adobe cloud storage overview
+description: Adobe cloud storage overview
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -10,48 +10,48 @@ exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
-# Adobe enterprise storage overview
+# Adobe cloud storage overview
 
-Adobe enterprise storage is a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products. The Workfront and Frame.io integration is built on Adobe enterprise storage, enabling seamless collaboration and asset management between these platforms.
+Adobe cloud storage is a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products. The Workfront and Frame.io integration is built on Adobe cloud storage, enabling seamless collaboration and asset management between these platforms.
 
 This storage option also paves the way for future asset management integrations with other Adobe products, such as Adobe Creative Cloud.
 
 ## Key Features
 
-* **Unified storage layer**: Adobe enterprise storage acts as a shared storage backend for Workfront, Frame.io, Document Cloud, and Creative Cloud. This enables seamless collaboration and asset management across these platforms.
+* **Unified storage layer**: Adobe cloud storage acts as a shared storage backend for Workfront, Frame.io, Document Cloud, and Creative Cloud. This enables seamless collaboration and asset management across these platforms.
 
-* **Content supply chain enablement**: Adobe enterprise storage is a foundational component for Adobe's Content Supply Chain vision, allowing teams to manage work-in-progress assets without the need for manual downloads or reupload in various Adobe applications.
+* **Content supply chain enablement**: Adobe cloud storage is a foundational component for Adobe's Content Supply Chain vision, allowing teams to manage work-in-progress assets without the need for manual downloads or reupload in various Adobe applications.
 
-* **Centralized permissions and access**: Adobe enterprise storage supports enterprise-level access controls, integrating with Adobe IMS (Identity Management System) for secure and scalable user permissions.
+* **Centralized permissions and access**: Adobe cloud storage supports enterprise-level access controls, integrating with Adobe IMS (Identity Management System) for secure and scalable user permissions.
 
-* **End-to-end asset visibility**: Assets stored in Adobe enterprise storage can be surfaced and managed directly in Workfront, Frame.io, and Creative Cloud apps, providing consistent metadata, versioning, and audit trails.
+* **End-to-end asset visibility**: Assets stored in Adobe cloud storage can be surfaced and managed directly in Workfront, Frame.io, and Creative Cloud apps, providing consistent metadata, versioning, and audit trails.
 
-* **Integration with review and approval workflows**: Adobe enterprise storage enables creative review and approval workflows by serving as the source of truth for all assets, ensuring that feedback and approvals are tracked centrally.
+* **Integration with review and approval workflows**: Adobe cloud storage enables creative review and approval workflows by serving as the source of truth for all assets, ensuring that feedback and approvals are tracked centrally.
 
-* **Scalable storage and quota management**: Adobe enterprise storage offers scalable storage options and unified quota tracking across Adobe products.
+* **Scalable storage and quota management**: Adobe cloud storage offers scalable storage options and unified quota tracking across Adobe products.
 
 ## Integration with review and approval workflows
 
-The Workfront and Frame.io integration leverages Adobe enterprise storage to provide a unified review and approval experience. This integration allows project coordinators to manage projects and plan work in Workfront while creatives, marketers, and stakeholders can review and approve assets in Frame.io. This ensures that all stakeholders have access to the latest versions of assets, and feedback is centralized in one place.
+The Workfront and Frame.io integration leverages Adobe cloud storage to provide a unified review and approval experience. This integration allows project coordinators to manage projects and plan work in Workfront while creatives, marketers, and stakeholders can review and approve assets in Frame.io. This ensures that all stakeholders have access to the latest versions of assets, and feedback is centralized in one place.
 
 For more information about the Workfront and Frame.io integration, see [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-## Differences between Adobe enterprise storage and legacy Workfront storage
+## Differences between Adobe cloud storage and legacy Workfront storage
 
-Existing Workfront environments have a combination of Adobe enterprise storage and legacy Workfront storage. Any objects created prior to the release of Adobe enterprise storage uses legacy Workfront storage.
+Existing Workfront environments have a combination of Adobe cloud storage and legacy Workfront storage. Any objects created prior to the release of Adobe cloud storage uses legacy Workfront storage.
 
-Once you enable Adobe enterprise storage in your environment, you can create both Adobe enterprise storage and legacy Workfront storage projects.
+Once you enable Adobe cloud storage in your environment, you can create both Adobe cloud storage and legacy Workfront storage projects.
 
 >[!NOTE]
 >
->Net new environments have Adobe enterprise storage enabled by default and do not have the option to use legacy Workfront storage.
+>Net new environments have Adobe cloud storage enabled by default and do not have the option to use legacy Workfront storage.
 
 
 ### Documents
 
 #### New Documents area
 
-The new Documents area is a unified documents area redesigned for Adobe enterprise storage.
+The new Documents area is a unified documents area redesigned for Adobe cloud storage.
 
 This updated interface simplifies navigation, improves clarity, and makes it easier for teams to manage reviews and approvals in one unified environment. For more information, see the [Documents area overview](/help/quicksilver/documents/managing-documents/documents-area.md).
 
@@ -59,11 +59,11 @@ This updated interface simplifies navigation, improves clarity, and makes it eas
 
 >[!IMPORTANT]
 >
->In Adobe enterprise storage, document permissions work differently than in legacy Workfront storage. Documents inherit permissions from the project, task, or issue they are linked to.
+>In Adobe cloud storage, document permissions work differently than in legacy Workfront storage. Documents inherit permissions from the project, task, or issue they are linked to.
 
 Documents cannot be shared individually. Instead, the system automatically generates a folder for each task or issue and inherits permissions from the task or issue. Any documents uploaded to the task or issue are stored in that generated folder. 
 
-For more information about the new document permission model, see [Object permissions and access level overview for the Adobe enterprise storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+For more information about the new document permission model, see [Object permissions and access level overview for the Adobe cloud storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ##### Linked objects on folders
 
@@ -73,37 +73,37 @@ For more information, see [How document permissions work](/help/quicksilver/revi
 
 ## Workfront objects
 
-The table below compares the features of Adobe enterprise storage and legacy Workfront storage for Workfront objects. 
+The table below compares the features of Adobe cloud storage and legacy Workfront storage for Workfront objects. 
 
 Workfront objects include portfolios, programs, projects, templates, tasks, and issues.
 
-| Adobe enterprise storage | Legacy Workfront storage |
+| Adobe cloud storage | Legacy Workfront storage |
 |---|---|
-| <ul><li>Uses Adobe enterprise storage</li><li>Integrated with Frame.io</li><li>Uses the new Documents experience</li><li>Enforces strict naming conventions</li><li>Direct document sharing isn't available</li><li>Documents are available in other Adobe products like Frame.io and Creative Cloud</li></ul> | <ul><li>Uses Workfront storage</li><li>Uses the proofing viewer</li><li>Supports individual document sharing</li></ul> |
+| <ul><li>Uses Adobe cloud storage</li><li>Integrated with Frame.io</li><li>Uses the new Documents experience</li><li>Enforces strict naming conventions</li><li>Direct document sharing isn't available</li><li>Documents are available in other Adobe products like Frame.io and Creative Cloud</li></ul> | <ul><li>Uses Workfront storage</li><li>Uses the proofing viewer</li><li>Supports individual document sharing</li></ul> |
 
 ### Move, copy, and convert objects
 
-You can move, copy, and convert Workfront objects between like storage models. For example, you can move a task from an Adobe enterprise storage project to another Adobe enterprise storage project. You cannot move a task from an Adobe enterprise storage project to a legacy Workfront storage project.
+You can move, copy, and convert Workfront objects between like storage models. For example, you can move a task from an Adobe cloud storage project to another Adobe cloud storage project. You cannot move a task from an Adobe cloud storage project to a legacy Workfront storage project.
 
-These actions are available from the More menu on a task or issue. Each action respects document integrity, permission inheritance, and Adobe enterprise storage rules.
+These actions are available from the More menu on a task or issue. Each action respects document integrity, permission inheritance, and Adobe cloud storage rules.
 
-## Enable Adobe enterprise storage
+## Enable Adobe cloud storage
 
-You must be on a version of Workfront that supports Adobe enterprise storage. If your organization is not already on a supported version, contact your Adobe account representative.
+You must be on a version of Workfront that supports Adobe cloud storage. If your organization is not already on a supported version, contact your Adobe account representative.
 
-For information about enabling Adobe enterprise storage in your environment, see [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+For information about enabling Adobe cloud storage in your environment, see [Enable Adobe cloud storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 >[!NOTE]
 >
->New customers have Adobe enterprise storage enabled by default and do not have the option to use legacy Workfront storage.
+>New customers have Adobe cloud storage enabled by default and do not have the option to use legacy Workfront storage.
 
 
 
-## Adobe enterprise storage in sandbox environments
+## Adobe cloud storage in sandbox environments
 
-Adobe enterprise storage is available in [!DNL Workfront] sandbox environments so you can test it before enabling it in production. However, the Frame.io viewer is not available in sandbox, so the full unified review and approval experience must be validated in production.
+Adobe cloud storage is available in [!DNL Workfront] sandbox environments so you can test it before enabling it in production. However, the Frame.io viewer is not available in sandbox, so the full unified review and approval experience must be validated in production.
 
-If you have a Custom Refresh Sandbox, you must refresh it after upgrading to a version of Workfront that supports Adobe enterprise storage to access Adobe enterprise storage functionality in the sandbox. For more information, see [The [!DNL Adobe Workfront] Custom Refresh Sandbox environment](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+If you have a Custom Refresh Sandbox, you must refresh it after upgrading to a version of Workfront that supports Adobe cloud storage to access Adobe cloud storage functionality in the sandbox. For more information, see [The [!DNL Adobe Workfront] Custom Refresh Sandbox environment](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 ## Considerations
 

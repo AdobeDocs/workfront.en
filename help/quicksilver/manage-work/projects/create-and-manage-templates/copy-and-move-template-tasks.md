@@ -102,7 +102,7 @@ Consider the following when moving template tasks:
 
    * Milestones.
 
-* You cannot copy or move a template task from a Workfront-storage template to an Adobe-storage template. The reverse is also true. Your Workfront instance might not have both types of document storage.
+* You cannot copy or move a template task from a legacy Workfront storage template to an Adobe cloud storage template. The reverse is also true. Your Workfront instance might not have both types of document storage.
 
    For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

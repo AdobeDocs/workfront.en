@@ -117,7 +117,7 @@ When a Workfront user sends an email to Workfront, the following things happen:
    >
    >* MSG files are not supported and won't be attached to the issue in Workfront.
    >
-   >* If your environment has access to both legacy Workfront and Adobe enterprise document storage, requests inherit their document storage type from the project, regardless of what the Workfront administrator selected for your default storage preference in the Setup area. For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md). 
+   >* If your environment has access to both legacy Workfront and Adobe cloud storage for documents, requests inherit their document storage type from the project, regardless of what the Workfront administrator selected for your default storage preference in the Setup area. For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md). 
    
 * The user who is sending the email becomes the Primary Contact of the new issue in Workfront.
 * The body text of the email cannot exceed 4,000 characters.
