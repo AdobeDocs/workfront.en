@@ -106,7 +106,7 @@ Consider the following when moving issues that contain documents or are associat
 * **When an issue is associated with a requests queue:** When you move an issue to another object and the issue is associated with a request queue, the moved issue is no longer associated with the original queue the first issue originated from.
 * **When a document is attached to the issue:** When you move an issue to another object and the issue has a document attached to it, the document, its versions and proofs also move to the new issue. Any approvals associated with the document do not move.
 * **When an issue is linked to a document or a folder:** When you move an issue which has documents or folders linked to a a third party service like Google Drive, the links to the documents move with the issue. 
-* **When you move issues between projects with different storage types**: You cannot copy an issue from a Workfront-storage project to an Adobe-storage project. The reverse is also true. Your Workfront instance might not have both types of document storage.
+* **When you move issues between projects with different storage types**: You cannot copy an issue from a legacy Workfront storage project to an Adobe cloud storage project. The reverse is also true. Your Workfront instance might not have both types of document storage.
 
    For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

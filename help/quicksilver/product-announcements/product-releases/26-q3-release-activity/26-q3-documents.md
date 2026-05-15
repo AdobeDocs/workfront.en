@@ -29,7 +29,7 @@ For more information about sending assets to Experience Manager Assets, see [Use
 
 For more information about approval statuses, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
-## View Adobe enterprise storage usage
+## View Adobe cloud storage usage
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ For more information about approval statuses, see [Get started with unified revi
 >Production fast release: May 14, 2026
 >Production for everyone: July 16, 2026
 
-The Customer Info page in Setup now includes a new Storage Overview section with usage meters for Adobe enterprise storage. 
+The Customer Info page in Setup now includes a new Storage Overview section with usage meters for Adobe cloud storage. 
 
 Workfront administrators automatically receive email notifications when storage usage reaches 75%, 85%, and 100% of the quota.
 
