@@ -42,27 +42,30 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Prerequisites
 
-Before you can connect Workfront to [!DNL Claude], the following must be true:
+Before you can connect Workfront to [!DNL Claude], you must:
 
-* You have an active [!DNL Adobe Workfront] account with permission to access the data you want to work with.
-* You have access to [!DNL Claude].
+* Have an active [!DNL Adobe Workfront] account with permission to access the data you want to work with.
+* Have access to [!DNL Claude].
 
   <!-- NEEDS DETAIL: Confirm which Claude tiers are supported. Outline notes Claude Enterprise is confirmed; Claude Pro and Claude Team support is unconfirmed. Hamilton's best guess was that connectors are available by default outside Claude Enterprise, but this needs verification. -->
 
-* Your administrators have enabled the connector on both sides. For more information, see [Admin prerequisites](#admin-prerequisites) in this article.
+* Have administrators enabled the connector on both sides. For more information, see [Admin prerequisites](#admin-prerequisites) in this article.
 
 ### Admin prerequisites
 
 The connector is gated by two separate administrators. Both must enable access before you can connect.
 
-* **Your [!DNL Claude] Enterprise administrator** must enable the [!DNL Adobe Workfront] connector for your organization. Until they do, the connector won't appear when you search for it in [!DNL Claude].
-* **Your Workfront system administrator** must enable MCP access on the Workfront side.
+* If you are using [!DNL Claude] Enterprise, **your [!DNL Claude] Enterprise administrator** must enable the [!DNL Adobe Workfront] connector for your organization. Until they do, the connector won't appear when you search for it in [!DNL Claude].
+* **Your Workfront system administrator** must enable MCP access in your Workfront instance.
 
-  <!-- NEEDS DETAIL: Confirm what this Workfront-side control looks like (where it lives in Setup, what it's called, default state) and whether it ships with the May 27, 2026 release or a later release. -->
+  <!-- 
+  NEEDS DETAIL: Confirm what this Workfront-side control looks like (where it lives in Setup, what it's called, default state) and whether it ships with the May 27, 2026 release or a later release.
 
 >[!NOTE]
 >
 >If you can't find the [!DNL Adobe Workfront] connector in [!DNL Claude], the issue is almost always that your [!DNL Claude] administrator (not your Workfront administrator) hasn't enabled the connector yet. Contact your [!DNL Claude] administrator first.
+
+https://jira.corp.adobe.com/browse/UGP-15143
 
 ## Connect Workfront to Claude
 
