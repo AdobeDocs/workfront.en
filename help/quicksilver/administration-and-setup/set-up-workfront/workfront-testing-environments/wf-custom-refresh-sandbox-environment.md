@@ -76,6 +76,12 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 </note>
 -->
 
+## Adobe enterprise storage in the Custom Refresh Sandbox
+
+Adobe enterprise storage is available in the Custom Refresh Sandbox so you can test it before enabling it in production. However, the Frame.io viewer is not available in sandbox environments, so the full unified review and approval experience must be validated in production.
+
+After you upgrade to a version of Workfront that supports Adobe enterprise storage, you must refresh your Custom Refresh Sandbox to access Adobe enterprise storage functionality in the sandbox. Once the refresh completes, you can begin testing Adobe enterprise storage. For more information, see [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+
 ## Access the Custom Refresh Sandbox from your Production environment {#access-the-custom-refresh-sandbox-from-your-production-environment}
 
 As a [!DNL Workfront] administrator, you can access your Custom Refresh Sandbox from your production environment.

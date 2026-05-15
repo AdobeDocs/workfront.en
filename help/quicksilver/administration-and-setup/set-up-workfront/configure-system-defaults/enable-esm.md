@@ -73,3 +73,9 @@ To enable Adobe enterprise storage for your organization:
     >[!NOTE]
     >
     >Existing projects keep the storage model they were created with. For example, projects that use Adobe enterprise storage continue to use Adobe enterprise storage after you change the default storage preference.
+
+## Adobe enterprise storage in sandbox environments
+
+Adobe enterprise storage is available in [!DNL Workfront] sandbox environments, allowing you to test the functionality described in this article before rolling it out in production. However, the Frame.io viewer is not available in sandbox, so the full unified review and approval experience must be validated in production.
+
+If you have a Custom Refresh Sandbox, you must refresh it after upgrading to a version of Workfront that supports Adobe enterprise storage. The refresh gives the sandbox access to the Adobe enterprise storage functionality so you can begin testing it. For more information, see [The [!DNL Adobe Workfront] Custom Refresh Sandbox environment](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).

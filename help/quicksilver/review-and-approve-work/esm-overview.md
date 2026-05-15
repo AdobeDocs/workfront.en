@@ -89,7 +89,7 @@ These actions are available from the More menu on a task or issue. Each action r
 
 ## Enable Adobe enterprise storage
 
-You must be on a version of Workfront that supports unified review and approval. If your organization is not already on a supported version, contact your Adobe account representative.
+You must be on a version of Workfront that supports Adobe enterprise storage. If your organization is not already on a supported version, contact your Adobe account representative.
 
 For information about enabling Adobe enterprise storage in your environment, see [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
@@ -98,6 +98,12 @@ For information about enabling Adobe enterprise storage in your environment, see
 >New customers have Adobe enterprise storage enabled by default and do not have the option to use legacy Workfront storage.
 
 
+
+## Adobe enterprise storage in sandbox environments
+
+Adobe enterprise storage is available in [!DNL Workfront] sandbox environments so you can test it before enabling it in production. However, the Frame.io viewer is not available in sandbox, so the full unified review and approval experience must be validated in production.
+
+If you have a Custom Refresh Sandbox, you must refresh it after upgrading to a version of Workfront that supports Adobe enterprise storage to access Adobe enterprise storage functionality in the sandbox. For more information, see [The [!DNL Adobe Workfront] Custom Refresh Sandbox environment](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 ## Considerations
 

@@ -170,7 +170,7 @@ To use unified review and approval, the following conditions must be met:
 
 * The Workfront instance must be enabled on the Adobe Unified Experience and Adobe enterprise storage.
 
-* You must be on a version of Workfront that supports unified review and approval. If your organization is not already on a supported version, contact your Adobe account representative.
+* You must be on a version of Workfront that supports Adobe enterprise storage. If your organization is not already on a supported version, contact your Adobe account representative.
 
 **Do I need a Frame.io license to use this integration?**
 
@@ -188,13 +188,13 @@ Existing customers will retain access to Workfront Proofing functionality for an
 
 **What do I need to do to get access?**
 
-To access unified review and approval, you must be on a version of Workfront that supports unified review and approval. Any organization not already on a supported version must contact their Adobe account representative. To get started:
+To access unified review and approval, you must be on a version of Workfront that supports Adobe enterprise storage. Any organization not already on a supported version must contact their Adobe account representative. To get started:
 
 * Contact your Adobe account representative to confirm whether your current Workfront contract supports unified review and approval.
 
 * If your organization is not on a supported version, your account representative will guide you through the updates needed to add it.
 
-* Once you are on a version of Workfront that supports unified review and approval, Adobe Professional Services will configure the integration for your organization.
+* Once you are on a version of Workfront that supports Adobe enterprise storage, Adobe Professional Services will configure the integration for your organization.
 
      * If you are not sure who your Adobe account representative is, you can reach out through the Adobe support portal or visit Experience League for contact options.
 
@@ -485,17 +485,17 @@ For more information on setting up and using AI Reviewer, see the Workfront docu
 
 **When will unified review and approval be available to me?**
 
-Unified review and approval is available now. Access requires a version of Workfront that supports unified review and approval. If you are not already on a supported version, contact your Adobe account representative for guidance on moving to one.
+Unified review and approval is available now. Access requires a version of Workfront that supports Adobe enterprise storage. If you are not already on a supported version, contact your Adobe account representative for guidance on moving to one.
 
 <!--
 **Before we sign the contract, what changes will we see in Workfront?**
 
-Until you move to a version of Workfront that supports unified review and approval, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe enterprise storage, or multi-stage approval templates---will be available until you are on a supported version and Adobe Professional Services configures the integration for your organization.
+Until you move to a version of Workfront that supports Adobe enterprise storage, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe enterprise storage, or multi-stage approval templates---will be available until you are on a supported version and Adobe Professional Services configures the integration for your organization.
 -->
 
-**Does upgrading to a version of Workfront that supports unified review and approval give me more storage?**
+**Does upgrading to a version of Workfront that supports Adobe enterprise storage give me more storage?**
 
-Yes. On a version of Workfront that supports unified review and approval, each licensed user receives 60 GB of storage, up from 30 GB in the previous version.
+Yes. On a version of Workfront that supports Adobe enterprise storage, each licensed user receives 60 GB of storage, up from 30 GB in the previous version.
 
 **How do I choose between Adobe enterprise storage and legacy Workfront storage?**
 
@@ -507,7 +507,7 @@ Enterprise Storage gives you the flexibility to roll out the new experience incr
 
 **How are Frame.io licenses managed?**
 
-Once you are on a version of Workfront that supports unified review and approval, all Workfront users will have access to the Frame.io viewer for review and approval workflows --- no separate Frame.io Enterprise license is required for this.
+Once you are on a version of Workfront that supports Adobe enterprise storage, all Workfront users will have access to the Frame.io viewer for review and approval workflows --- no separate Frame.io Enterprise license is required for this.
 
 If your organization needs additional Frame.io Enterprise features such as 
 

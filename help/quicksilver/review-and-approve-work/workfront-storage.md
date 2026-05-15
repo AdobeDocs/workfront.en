@@ -17,7 +17,7 @@ This article is for Workfront administrators preparing to roll out Workfront on 
 
 >[!IMPORTANT]
 >
->You must be on a version of Workfront that supports unified review and approval. If your organization is not already on a supported version, contact your Adobe account representative.
+>You must be on a version of Workfront that supports Adobe enterprise storage. If your organization is not already on a supported version, contact your Adobe account representative.
 
 
 
