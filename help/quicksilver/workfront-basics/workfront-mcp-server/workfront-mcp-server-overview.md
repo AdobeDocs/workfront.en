@@ -23,28 +23,6 @@ The Workfront MCP server currently supports the following AI assistants:
 
 <!-- NEEDS DETAIL: Update this list as Adobe adds support for additional AI assistants (for example, [!DNL ChatGPT], [!DNL Gemini], or [!DNL Microsoft Copilot]). -->
 
-## Access requirements
-
-+++ Expand to view access requirements for the functionality in this article.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront package</td> 
-   <td><p><!-- NEEDS DETAIL: Confirm Workfront package requirement (Select, Prime, Ultimate, Any?) --></p></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p><!-- NEEDS DETAIL: Confirm Workfront license requirement (Standard, Work, etc.) --></p></td> 
-  </tr> 
- </tbody> 
-</table>
-
-For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
 
 ## Set up and use the Workfront MCP server
 
