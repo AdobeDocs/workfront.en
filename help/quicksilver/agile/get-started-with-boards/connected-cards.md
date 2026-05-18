@@ -56,12 +56,12 @@ To synchronize connected cards with Workfront, click the **[!UICONTROL More]** m
   <tr>
    <td role="rowheader">Object permissions</td>
    <td><p>View or higher permissions to the Workfront task or issue</p>
-</td>
+   </td>
   </tr>
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
