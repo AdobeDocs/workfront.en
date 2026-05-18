@@ -104,7 +104,9 @@ If your firewall or mail server is configured to allow access to only certain ve
 
 ### SSO, document webhook integrations, and other functionality
 
-#### US regions: clusters 1, 2, 3, 5, 6, 7, 8, 9
+#### US regions: clusters 1, 2, 3, 5, 6, 7, 8, 9, and 10
+
+**Clusters 1, 2, 3, 5, 6, 7, 8, 9**
 
 
   * 35.160.0.242
