@@ -934,11 +934,11 @@ feature-set: Workfront
     * [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
     * [Auto-fill a request using AI](/help/quicksilver/workfront-basics/ai-assistant/autofill-request-with-ai.md)
     * [Project Health overview](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)
-  * Workfront MCP server {#workfront-mcp-server}
-    * [Workfront MCP server: article index](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
-    * [Adobe Workfront MCP server overview](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md)
-    * [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
-    * [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
+  * {hide-from-toc} Workfront MCP server {#workfront-mcp-server}
+    * {hide-from-toc} [Workfront MCP server: article index](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
+    * {hide-from-toc} [Adobe Workfront MCP server overview](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md)
+    * {hide-from-toc} [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
+    * {hide-from-toc}[Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
   * Update work items and view updates {#update-work-items-view-updates}
     * [Update work items and view updates: article index](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [Updates section overview](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)

@@ -4,6 +4,7 @@ content-type: reference
 description: See a list of articles available regarding the Adobe Workfront MCP server.
 author: Courtney
 feature: Get Started with Workfront
+hide: true
 ---
 # Workfront MCP server: article index
 

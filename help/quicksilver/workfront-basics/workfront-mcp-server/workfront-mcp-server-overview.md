@@ -5,6 +5,7 @@ title: Adobe Workfront MCP server overview
 description: Learn what the Adobe Workfront MCP server does and how it lets you work with Workfront through natural-language conversation in an AI assistant.
 author: Courtney
 feature: Get Started with Workfront
+hide: true
 ---
 
 # Adobe Workfront MCP server overview

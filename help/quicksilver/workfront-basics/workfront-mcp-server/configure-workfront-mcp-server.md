@@ -5,6 +5,7 @@ title: Configure the Adobe Workfront MCP server
 description: Configure your Workfront instance and your AI assistant so you can work with Workfront through natural-language conversation.
 author: Courtney
 feature: Get Started with Workfront
+hide: true
 ---
 
 # Configure the Adobe Workfront MCP server
