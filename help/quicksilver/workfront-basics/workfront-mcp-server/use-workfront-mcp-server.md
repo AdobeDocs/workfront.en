@@ -114,6 +114,23 @@ Ask the AI assistant to manage document and asset approvals. For example:
 
 <!-- NEEDS DETAIL: Add approvals-specific context from the WOA examples doc, including: content approvals must be enabled for the organization, the AI assistant cannot approve or reject on behalf of humans (except via the Workfront AI Reviewer), and best experience is with the Unified Approvals experience. -->
 
+### Work with Planning records
+
+Ask the AI assistant to manage planning records. For example:
+
+* *Create a new planning record called "Q2 Marketing Plan" for the Brand Marketing team.*
+* *Add a new task called "Social Media Audit" to the planning record.*
+* *Update the "Social Media Audit" task so it finishes on April 18, and assign it to the creative team.*
+
+### Work with workflow
+
+Ask the AI assistant to manage workflow. For example:
+
+* *Route the "Q2 Innovation Sandbox" project to the Innovation Review Board.*
+* *Update the "Summer Campaign" record to the "Ready for Launch" status.*
+* *Approve the "Summer Campaign" record.*
+
+
 ### Chain requests across a conversation
 
 You can chain requests in a single conversation. The AI assistant keeps the context, so each request can build on the previous one. For example:
