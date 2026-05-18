@@ -92,7 +92,7 @@ If your firewall or mail server is configured to allow access to only certain ve
 * 54.240.61.222
 * 54.240.61.223
 
-#### EU regions: clusters 4 and 11
+#### EU regions: clusters 4, 11, 12, and 13
 
 * 23.251.239.98
 * 23.251.239.99
@@ -105,6 +105,7 @@ If your firewall or mail server is configured to allow access to only certain ve
 ### SSO, document webhook integrations, and other functionality
 
 #### US regions: clusters 1, 2, 3, 5, 6, 7, 8, 9
+
 
   * 35.160.0.242
   * 34.213.36.118
