@@ -13,7 +13,7 @@ feature: Workfront Integrations and Apps
 
 The [!DNL Adobe Workfront] connector for [!DNL Claude] lets you work with your Workfront data through natural-language conversation in [!DNL Claude]. Instead of clicking through Workfront to find a project, update a task, or check an approval, you ask [!DNL Claude] in plain English and it does the work for you.
 
-The connector uses the Workfront MCP (Model Context Protocol) server, which exposes Workfront actions as tools that [!DNL Claude] can call on your behalf. You don't need to know the Workfront API or anything about MCP to use it — connect [!DNL Claude] to Workfront once, then start asking.
+The connector uses the Workfront MCP (Model Context Protocol) server, which exposes Workfront actions as tools that [!DNL Claude] can call on your behalf. You don't need to know the Workfront API or anything about MCP to use it. Simply connect [!DNL Claude] to Workfront once, then start asking.
 
 <!-- NEEDS DETAIL: Confirm whether the MCP server URL (workfront.adobe.io/mcp/v1, mentioned in Hamilton's walkthrough) needs to appear anywhere in this article. The connector likely handles it transparently for end users, but confirm before publication. -->
 
@@ -65,7 +65,7 @@ The connector is gated by two separate administrators. Both must enable access b
 >
 >If you can't find the [!DNL Adobe Workfront] connector in [!DNL Claude], the issue is almost always that your [!DNL Claude] administrator (not your Workfront administrator) hasn't enabled the connector yet. Contact your [!DNL Claude] administrator first.
 
-https://jira.corp.adobe.com/browse/UGP-15143
+-->
 
 ## Connect Workfront to Claude
 
