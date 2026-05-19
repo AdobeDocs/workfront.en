@@ -21,7 +21,7 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## New preview window for content fragments in the table view
+## New preview window for AEM content fragments
 
 >[!NOTE]
 >
@@ -35,6 +35,26 @@ For better visibility when working with AEM content fragments that are connected
 This functionality was previously available for AEM assets and we have now added it to content fragments. 
 
 For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).  
+
+## Lookup fields now available for AEM content fragments in Workfront Planning
+
+>[!NOTE]
+>
+>Preview: May 14, 2026
+>Production fast release: May 14, 2026
+>Production for everyone: May 14, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+You can now add the following lookup fields when you connect a Planning record type to an AEM Content Fragment: 
+
+* Created by 
+* Created at 
+* Modified by 
+* Modified at 
+
+Prior to this enhancement, lookup fields were only available for AEM assets and folders.  
+
+For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 
 <!--
 
