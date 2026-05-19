@@ -16,7 +16,7 @@ Before you can connect an AI assistant to Workfront, a Workfront administrator m
 
 For more information about the Workfront MCP server, see [Adobe Workfront MCP server overview](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md).
 
-## Supported AI assistants
+## Supported agentic platforms
 
 The Workfront MCP server currently supports the following AI assistants:
 
@@ -24,28 +24,6 @@ The Workfront MCP server currently supports the following AI assistants:
 
 <!-- NEEDS DETAIL: Update this list as Adobe adds support for additional AI assistants (for example, [!DNL Gemini], or [!DNL Microsoft Copilot]). -->
 
-## Access requirements
-
-+++ Expand to view access requirements for the functionality in this article.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront package</td> 
-   <td><p><!-- NEEDS DETAIL: Confirm Workfront package requirement (Select, Prime, Ultimate, Any?) --></p></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p><!-- NEEDS DETAIL: Confirm Workfront license requirement (Standard, Work, etc.) --></p></td> 
-  </tr> 
- </tbody> 
-</table>
-
-For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
 
 ## Prerequisites
 
@@ -60,7 +38,7 @@ Before you can connect Workfront to an AI assistant, you must:
 
 MCP server access is gated by two separate administrators. Both must enable access before you can connect.
 
-* **Your Workfront administrator** must enable MCP server access in your Workfront instance.
+* **Your Workfront administrator** must enable MCP server access in your Workfront instance. - on by default can turn off if needed
 
 * If you use an enterprise version of an AI assistant, your AI assistant administrator must enable the [!DNL Adobe Workfront] connector for your organization.
 
@@ -110,7 +88,7 @@ To confirm [!DNL Claude] is connected to Workfront, ask [!DNL Claude] to list th
 
 <!-- NEEDS DETAIL: Add a screenshot of the tool-list response. -->
 
-### Switch to a different Workfront instance
+### Switch to a different Workfront instance -- might need to be its own section
 
 Each connection authenticates [!DNL Claude] to a single Workfront instance. To use a different instance, disconnect and reconnect.
 
@@ -124,13 +102,23 @@ To connect to a different Workfront instance:
 >
 >Logging out of [!DNL Claude] alone doesn't switch the Workfront instance. You must disconnect and reconnect the connector.
 
-## Customize Claude behavior with skills
+### Customize Claude behavior with skills - may need to be its own section
 
 <!-- NEEDS DETAIL: Confirm whether Adobe is shipping any pre-built Claude skills alongside the MCP server. If yes, list them and link to download or installation guidance. If no, decide whether to mention skills as a user-driven workaround at all, or remove this section. -->
 
 [!DNL Claude] supports user-created instruction sets called skills. You can use a skill to customize how [!DNL Claude] behaves with Workfront. For example, you can create a skill that tells [!DNL Claude] to always fetch fresh data from Workfront instead of relying on earlier results.
 
+To learn more about [!DNL Claude] skills, see the [Claude user documentation](https://code.claude.com/docs/en/skills) or ask Claude for help with skills.
+
+## Connect to ChatGPT 
+
+## Connect to Gemini
+
+## Connect to Microsoft Copilot
+
 ## Troubleshoot setup and authentication
+
++++ Expand to view troubleshooting tips for setup and authentication of the Workfront MCP server.
 
 | Problem | Likely cause | Fix |
 |---|---|---|
@@ -139,11 +127,17 @@ To connect to a different Workfront instance:
 | Authentication failed, or the connection stopped working. | Your auth session expired or there's a connection error. | Disconnect and reconnect the connector. |
 | You want to switch to a different Workfront instance. | A single connection ties you to one instance. | Disconnect, reconnect, and authenticate to the new instance. |
 
+Admin has disabled MCP server access. | Your Workfront administrator has turned off MCP server access for your instance. | Contact your Workfront administrator to confirm whether MCP server access is enabled. If it's disabled, request that they enable it if you want to use the MCP server. |
+
 <!-- NEEDS DETAIL: Add additional setup/authentication troubleshooting scenarios discovered during hands-on testing. -->
 
 For day-to-day troubleshooting after you're connected (for example, stale results or unexpected behavior), see [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
 
++++
+
 ## Frequently asked questions about setup
+
++++ Expand to view frequently asked questions about setting up the Workfront MCP server.
 
 ### Can I connect to multiple Workfront instances at once?
 
@@ -156,3 +150,5 @@ No. Each connection ties an AI assistant to a single Workfront instance. To swit
 ### Which administrator enables this?
 
 Both your Workfront administrator and your AI assistant administrator. Your Workfront administrator enables MCP server access on the Workfront side. Your AI assistant administrator enables Workfront access on the AI assistant side. For [!DNL Claude], the [!DNL Claude] Enterprise administrator enables the [!DNL Adobe Workfront] connector.
+
++++

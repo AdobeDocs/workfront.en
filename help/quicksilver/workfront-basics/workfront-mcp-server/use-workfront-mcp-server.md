@@ -175,7 +175,7 @@ When Adobe releases a new version of the Workfront MCP server, your AI assistant
 
 ## Troubleshoot day-to-day use
 
-For more information about setup and authentication issues, see [Troubleshoot setup and authentication](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#troubleshoot-setup-and-authentication) in [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
++++ Expand to view troubleshooting tips for day-to-day use of the Workfront MCP server.
 
 | Problem | Likely cause | Fix |
 |---|---|---|
@@ -183,9 +183,13 @@ For more information about setup and authentication issues, see [Troubleshoot se
 | The AI assistant returned data from the wrong Workfront items. | The AI assistant picked the wrong items based on ambiguous wording. | Ask again with more specific names, IDs, or filters. |
 | An update or delete didn't take effect in Workfront. | The AI assistant hasn't called the action yet, or your permissions don't allow it. | Confirm with the AI assistant that the action ran, then check your Workfront permissions. |
 
-<!-- NEEDS DETAIL: Add additional day-to-day troubleshooting scenarios discovered during hands-on testing. -->
+For more information about setup and authentication issues, see [Troubleshoot setup and authentication](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#troubleshoot-setup-and-authentication) in [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+
++++
 
 ## Frequently asked questions
+
++++ Expand to view frequently asked questions about using the Workfront MCP server.
 
 ### What Workfront items can I work with through an AI assistant?
 
@@ -204,3 +208,5 @@ The MCP server updates automatically. You don't need to reconnect or change anyt
 ### Do I need to know the Workfront API to use the Workfront MCP server?
 
 No. The AI assistant translates your natural-language requests into the right Workfront actions. If you're already familiar with the Workfront API, the actions will feel familiar, but it isn't a requirement.
+
++++
