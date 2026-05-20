@@ -44,7 +44,7 @@ The following table summarizes the major differences when switching to Adobe clo
 | [The new Documents area](#the-new-documents-area) | A redesigned, unified Documents area replaces the legacy Documents area. | No global Documents area. Access documents from a program, portfolio, project, task, or issue.|
 | [Document permissions](#document-permissions) | Documents inherit permissions from the project, task, or issue they're linked to. | You can't share or set permissions on individual documents. You manage all access through the object Share modal in Workfront, which cascades to system-generated document folders.|
 | [Object permissions mapping](#object-permissions-mapping) | Workfront's Manage and Contribute permissions both map to Edit & Share in Frame.io. View maps to Comment Only. | Permissions are managed in Workfront. Both Manage and Contribute users gain external sharing capability in Frame.io. |
-| [Review and approval viewer](#review-and-approval-viewer) | The Frame.io viewer replaces the Workfront Proofing viewer. | Included for all Workfront users with a paid license. Supports markup, time-stamped comments, version history, mobile, 40+ formats, files up to 500 GB. |
+| [Review and approval viewer](#review-and-approval-viewer) | The Frame.io viewer replaces the Workfront Proofing viewer. | Included for all Workfront users, including External users assigned to a review or approval. Supports markup, time-stamped comments, version history, mobile, 40+ formats, files up to 500 GB. |
 | [Object naming rules](#object-naming-rules) | Strict naming rules apply: unique names within a portfolio or project, no special characters, no trailing period or space, 255-character limit. | Workfront auto-renames objects when conflicts arise. Audit templates that generate new project names and structure. |
 | [Object portability](#object-portability) | You can move, copy, and convert objects only between like storage models. | Adobe cloud storage objects can't move to legacy projects, or the reverse. Moving an Adobe cloud storage project to a legacy portfolio or program converts the parent to Adobe cloud storage. |
 | [Capabilities not available](#capabilities-not-available-on-adobe-cloud-storage-objects) | Workfront Proof, the Workfront document viewer, favorite documents, and request documents aren't part of the experience. | Legacy objects retain these capabilities. Workfront Proof won't receive new investment and will be retired in a future release. |
@@ -96,7 +96,7 @@ For more information, see [Object permissions and access level overview for the 
 
 ### Review and approval viewer
 
-On Adobe cloud storage objects, the Frame.io viewer is the review and approval surface in place of Workfront Proof. The Frame.io viewer is included for all Workfront users with a paid license.
+On Adobe cloud storage objects, the Frame.io viewer is the review and approval surface in place of Workfront Proof. The Frame.io viewer is included for all Workfront users at no additional cost, including External users who are assigned to a review or approval.
 
 The Frame.io viewer provides:
 
