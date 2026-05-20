@@ -20,20 +20,14 @@ This article assumes you've already set up the connection. For information about
 
 The Workfront MCP server covers actions across approvals, planning, and workflow.
 
-<!-- NEEDS DETAIL: Confirm the full inventory of actions exposed through the Workfront MCP server. The five core actions below are confirmed from Hamilton's walkthrough. The approvals, planning, and workflow sections need to be filled in from Jeff's engineering channel post, hands-on access, and the deck Oznur published in the MCP external channel. -->
-
 >[!IMPORTANT]
 >
->An AI agentic platform acts in Workfront using your Workfront account and permissions. You and your AI agentic platform provider are responsible for the actions the AI agentic platform takes on your behalf. Confirm what the AI agentic platform is about to do before you let it proceed.
+>When you connect an AI agentic platform to Workfront, it acts in Workfront using your Workfront account and permissions. The platform's actions have the same effect as actions you take directly in the Workfront interface.
+>
+>You and your AI agentic platform provider are responsible for the actions the platform takes in Workfront. Adobe is not responsible for changes the AI agentic platform makes to your Workfront data.
+>
+>Before you let the AI agentic platform proceed with a request, confirm that you understand what it intends to do, especially for actions that change or delete data.
 
-
-## Responsibility for actions taken by an AI agentic platform
-
-When you connect an AI agentic platform to Workfront, the AI agentic platform acts in Workfront using your Workfront account and permissions. The AI agentic platform's actions have the same effect as actions you take directly in the Workfront interface.
-
-You and your AI agentic platform provider are responsible for the actions the AI agentic platform takes in Workfront. Adobe is not responsible for changes the AI agentic platform makes to your Workfront data.
-
-Before you let the AI agentic platform proceed with a request, confirm that you understand what it intends to do, especially for actions that change or delete data.
 
 ### Core actions
 
@@ -47,35 +41,22 @@ The Workfront MCP server includes the following core actions:
 | Delete | Removes items from Workfront. |
 | Resolve field names | Looks up the correct Workfront field names so the AI agentic platform can build accurate requests against your data. |
 
-<!-- NEEDS DETAIL: Confirm which Workfront object types are supported across the core actions (projects, tasks, issues, portfolios, programs, custom forms, planning records, approvals, etc.). -->
-
 ### Approvals actions
 
-travis
-
-<!-- NEEDS DETAIL: List the approval-specific actions exposed through the Workfront MCP server. For each action, document what it does, what inputs it expects, and an example request a marketer might make. -->
 
 ### Planning actions
 
-sargis robert
 
-<!-- NEEDS DETAIL: List the planning-specific actions exposed through the Workfront MCP server. For each action, document what it does, what inputs it expects, and an example request. -->
 
 ### Workflow actions
 
-hyak / project managgement team
 
-### Insights
 
-matt
 
-<!-- NEEDS DETAIL: List the workflow-specific actions exposed through the Workfront MCP server. For each action, document what it does, what inputs it expects, and an example request. -->
 
 ## Examples of what to ask
 
 After you're connected, type natural-language requests in your AI agentic platform. The AI agentic platform decides which Workfront actions to call and returns the results.
-
-<!-- NEEDS DETAIL: Example prompts in this section are adapted from the Workflow Optimization Agent (WOA) examples doc on another branch. Validate each example against a working Claude + Workfront MCP server setup before publication, since WOA and the MCP server may expose different action inventories. -->
 
 ### Find and view your work
 
