@@ -894,24 +894,32 @@ This table lists the available native fields for specific Workfront objects in a
 
 | Field name                 | Project | Task   | Issue  | Template | Template Task | Portfolio | Program | Group |
 |--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
-| Actual Completion Date     | ✓       | ✓     | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Actual Benefit </span> | <span class="preview">✓ </span> | &nbsp; | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Actual Completion Date     | ✓       | ✓      | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Actual Duration            | ✓       | &nbsp; | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Actual Hours               | ✓       | &nbsp; | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Actual Start Date          | ✓       | ✓      | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Budget </span> | <span class="preview">✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span>       | &nbsp;        | <span class="preview"> ✓ </span>        | &nbsp;  | &nbsp;|
 | Company                    | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Condition                  | ✓       | ✓      | ✓     | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Condition                  | ✓       | ✓      | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Condition Type             | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Description                | ✓       | ✓      | ✓     | ✓        | ✓             | ✓        | ✓       | ✓     |
-| Duration                   | &nbsp;   | ✓     | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
-| Duration Type              | &nbsp;   | ✓     | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
-| Duration Unit              | &nbsp;   | ✓     | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Currency </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Description                | ✓       | ✓      | ✓      | ✓        | ✓             | ✓        | ✓       | ✓ |
+| Duration                   | &nbsp;  | ✓      | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
+| Duration Type              | &nbsp;  | ✓      | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
+| Duration Unit              | &nbsp;  | ✓      | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
 | Entered By                 | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | ✓     |
 | Entry Date                 | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | ✓     |
+| <span class="preview"> Exchange Rate Date </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Fixed Cost </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Fixed Revenue* </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Group                      | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | ✓        | ✓       | &nbsp; |
 | Last Updated By            | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp; |
 | Last Update Date           | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp; |
 | Name                       | ✓       | ✓      | ✓     | ✓        | ✓             | ✓        | ✓       | ✓     |
 | Owner                      | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | ✓        | ✓       | &nbsp; |
+| <span class="preview"> Performance Index Method </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Planned Benefit </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Planned Completion Date    | ✓       | ✓      | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Planned Duration           | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Planned Hours              | ✓       | ✓      | ✓      | &nbsp;   | ✓            | &nbsp;    | &nbsp;  | &nbsp;|
@@ -929,9 +937,15 @@ This table lists the available native fields for specific Workfront objects in a
 | Status                     | ✓       | ✓     | &nbsp;  | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Story Points               | &nbsp;   | ✓     | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Template                   | ✓       | &nbsp; | &nbsp;  | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Total Estimated Cost </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Total Estimated Revenue </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | URL                        | ✓       | ✓     | &nbsp;  | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
 
 {style="table-layout:auto"}
+
+<span class="preview">`*` The Fixed Revenue field is also supported on a Billing Record custom form.</span>
+
+<!--** The Currency field is also supported on a Staffing Plan custom form.-->
 
 +++
 
