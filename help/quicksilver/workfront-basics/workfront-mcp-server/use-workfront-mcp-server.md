@@ -16,8 +16,6 @@ The [!DNL Adobe Workfront] MCP server lets you find, create, update, and manage 
 
 This article assumes you've already set up the connection. For information about setup, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md). For more information about the Workfront MCP server, see [Adobe Workfront MCP server overview](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md).
 
-
-
 ## Actions available through the Workfront MCP server
 
 The Workfront MCP server covers actions across approvals, planning, and workflow.

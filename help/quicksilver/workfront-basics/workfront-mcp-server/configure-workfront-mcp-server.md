@@ -52,6 +52,9 @@ You connect to Workfront once per [!DNL Claude] account. The connection authenti
 >
 >If you use [!DNL Claude] Enterprise, **your [!DNL Claude] Enterprise administrator** must enable the [!DNL Adobe Workfront] connector for your organization. Until they do, the [!DNL Adobe Workfront] connector won't appear when you search for it in [!DNL Claude]. Contact your [!DNL Claude] administrator first.
 
+### Connect from the connectors directory
+
++++ Expand to view step-by-step instructions for connecting Workfront to [!DNL Claude].
 
 To connect Workfront to [!DNL Claude]:
 
@@ -76,6 +79,24 @@ To connect Workfront to [!DNL Claude]:
 1. After authentication completes, you're connected.
 
    <!-- NEEDS DETAIL: Add a screenshot of the connected state in Claude. -->
+
++++
+
+### Connect with a URL
+
++++ Expand to view step-by-step instructions for connecting Workfront to [!DNL Claude] with a URL.
+
+To connect Workfront to [!DNL Claude] with a URL:
+
+1. Log in to [Claude](https://claude.ai) using your credentials.
+1. In the left menu, select the **Customize** icon.
+1. Select **Connectors**, then select the **+** icon to add a connector.
+1. Select the **Create app** button.
+1. Give the connector a desired name (such as "Workfront") and enter the desired MCP Server URL:
+Need URL
+1. Once the connector is created, a login window pops up. Authenticate using your Adobe ID credentials. Ensure that you select the desired Workfront instance if you belong to more than one.
+
++++
 
 ### Verify your connection
 
@@ -112,9 +133,53 @@ To learn more about [!DNL Claude] skills, see the [Claude user documentation](ht
 
 ## Connect to ChatGPT 
 
+1. Log in to [ChatGPT](https://chatgpt.com) using your credentials.
+1. In the lower left, select **your name** → **Settings**.
+1. Select **Apps**, then enable **Developer mode**.
+1. Select the **Create app** button.
+1. Give the app a desired name (such as "Workfront") and enter the desired MCP Server URL:
+Need URL
+1. Ensure that Authentication is set to **OAuth** (set by default), and select the acceptance check box to continue.
+1. Once the app is created, a login window pops up. Authenticate using your Adobe ID credentials. Ensure that you select the desired Workfront instance if you belong to more than one.
+
 ## Connect to Gemini
 
+>[!IMPORTANT]
+>
+>You must be an administrator on the Gemini platform to set up the MCP server. If you aren't an administrator, share these instructions with your administrator so they can set up the connection for you.
+
+
+To set up the connection between Gemini and the Workfront MCP server, follow the instructions provided by Google for [connecting Gemini to external tools using MCP](https://docs.cloud.google.com/gemini/enterprise/docs/connectors/custom-mcp-server/set-up-custom-mcp-server). 
+
+When prompted for the MCP Server URL, enter the following URL for your Workfront MCP server: `example.com/mcp`
+
+
+
 ## Connect to Microsoft Copilot
+
+✅ 1) Copilot Studio (most common for agents / enterprise use)
+This is the cleanest "paste a URL" flow.
+Steps
+1. Open your Copilot Studio agent
+2. Go to Tools
+3. Click:
+    * Add a tool → New tool → Model Context Protocol
+4. In the wizard, fill in:
+    * Server name (anything)
+    * Server description
+    * ✅ Server URL (your MCP endpoint)
+5. Choose auth (if needed):
+    * None / API key / OAuth
+6. Click Create
+👉 That's it—your MCP server is now attached to the agent.
+This flow is explicitly documented:
+* You add MCP via Tools → Add tool → Model Context Protocol
+* Then provide Server name, description, and URL ￼
+￼
+What happens next
+* Copilot discovers tools automatically from the MCP server
+* You can enable/disable tools per agent
+* The agent calls them when relevant
 
 ## Troubleshoot setup and authentication
 
