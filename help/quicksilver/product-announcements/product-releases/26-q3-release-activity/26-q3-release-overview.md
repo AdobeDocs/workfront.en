@@ -81,7 +81,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Quarterly</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Rate attributes cannot be edited once they are used on rates</a><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Rate attributes cannot be edited once they are used on rates</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
                 <p>Once an attribute is added to a rate in Workfront, you can no longer edit that attribute and its filters in the Setup area. This preserves data integrity and prevents rates from being changed accidentally when attributes are updated.</p>
             </td>
             <td><p>May 21, 2026</p></td>
