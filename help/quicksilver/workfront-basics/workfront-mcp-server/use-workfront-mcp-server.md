@@ -53,13 +53,23 @@ The Workfront MCP server includes the following core actions:
 
 ### Approvals actions
 
+travis
+
 <!-- NEEDS DETAIL: List the approval-specific actions exposed through the Workfront MCP server. For each action, document what it does, what inputs it expects, and an example request a marketer might make. -->
 
 ### Planning actions
 
+sargis robert
+
 <!-- NEEDS DETAIL: List the planning-specific actions exposed through the Workfront MCP server. For each action, document what it does, what inputs it expects, and an example request. -->
 
 ### Workflow actions
+
+hyak / project managgement team
+
+### Insights
+
+matt
 
 <!-- NEEDS DETAIL: List the workflow-specific actions exposed through the Workfront MCP server. For each action, document what it does, what inputs it expects, and an example request. -->
 
