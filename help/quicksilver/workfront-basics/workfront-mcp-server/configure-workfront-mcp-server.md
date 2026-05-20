@@ -2,7 +2,7 @@
 product-area: workfront-basics
 navigation-topic: workfront-mcp-server
 title: Configure the Adobe Workfront MCP server
-description: Configure your Workfront instance and your AI assistant so you can work with Workfront through natural-language conversation.
+description: Configure your Workfront instance and your AI agentic platform so you can work with Workfront through natural-language conversation.
 author: Courtney
 feature: Get Started with Workfront
 hide: true
@@ -10,27 +10,27 @@ hide: true
 
 # Configure the Adobe Workfront MCP server
 
-The [!DNL Adobe Workfront] MCP server lets you work with your Workfront data through natural-language conversation in a supported AI assistant like Claude or ChatGPT.
+The [!DNL Adobe Workfront] MCP server lets you work with your Workfront data through natural-language conversation in a supported AI agentic platform like Claude or ChatGPT.
 
-Before you can connect an AI assistant to Workfront, a Workfront administrator must enable MCP server access in your Workfront instance. The exact steps to connect an AI assistant are different for each supported AI assistant. 
+Before you can connect an AI agentic platform to Workfront, a Workfront administrator must enable MCP server access in your Workfront instance. The exact steps to connect an AI agentic platform are different for each supported AI agentic platform. 
 
 For more information about the Workfront MCP server, see [Adobe Workfront MCP server overview](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md).
 
-## Supported agentic platforms
+## Supported AI agentic platforms
 
-The Workfront MCP server currently supports the following AI assistants:
+The Workfront MCP server currently supports the following AI agentic platforms:
 
 * [!DNL Claude]
 
-<!-- NEEDS DETAIL: Update this list as Adobe adds support for additional AI assistants (for example, [!DNL Gemini], or [!DNL Microsoft Copilot]). -->
+<!-- NEEDS DETAIL: Update this list as Adobe adds support for additional AI agentic platforms (for example, [!DNL Gemini], or [!DNL Microsoft Copilot]). -->
 
 
 ## Prerequisites
 
-Before you can connect Workfront to an AI assistant, you must:
+Before you can connect Workfront to an AI agentic platform, you must:
 
 * Have an active [!DNL Adobe Workfront] account with permission to access the data you want to work with.
-* Have access to an AI assistant like [!DNL Claude].
+* Have access to an AI agentic platform like [!DNL Claude].
 
   <!-- NEEDS DETAIL: Confirm which Claude tiers are supported. Claude Enterprise is confirmed; Claude Pro and Claude Team support is unconfirmed. -->
 
@@ -40,7 +40,7 @@ MCP server access is gated by two separate administrators. Both must enable acce
 
 * **Your Workfront administrator** must enable MCP server access in your Workfront instance. - on by default can turn off if needed
 
-* If you use an enterprise version of an AI assistant, your AI assistant administrator must enable the [!DNL Adobe Workfront] connector for your organization.
+* If you use an enterprise version of an AI agentic platform, your administrator for that platform must enable the [!DNL Adobe Workfront] connector for your organization.
 
 
 ## Connect Workfront to Claude
@@ -92,8 +92,8 @@ To connect Workfront to [!DNL Claude] with a URL:
 1. In the left menu, select the **Customize** icon.
 1. Select **Connectors**, then select the **+** icon to add a connector.
 1. Select the **Create app** button.
-1. Give the connector a desired name (such as "Workfront") and enter the desired MCP Server URL:
-Need URL
+1. Give the connector a desired name (such as "Workfront") and enter the desired MCP Server URL: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+   
 1. Once the connector is created, a login window pops up. Authenticate using your Adobe ID credentials. Ensure that you select the desired Workfront instance if you belong to more than one.
 
 +++
@@ -137,10 +137,11 @@ To learn more about [!DNL Claude] skills, see the [Claude user documentation](ht
 1. In the lower left, select **your name** → **Settings**.
 1. Select **Apps**, then enable **Developer mode**.
 1. Select the **Create app** button.
-1. Give the app a desired name (such as "Workfront") and enter the desired MCP Server URL:
-Need URL
+1. Give the app a desired name (such as "Workfront") and enter the desired MCP Server URL: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
 1. Ensure that Authentication is set to **OAuth** (set by default), and select the acceptance check box to continue.
 1. Once the app is created, a login window pops up. Authenticate using your Adobe ID credentials. Ensure that you select the desired Workfront instance if you belong to more than one.
+
+<!--
 
 ## Connect to Gemini
 
@@ -151,10 +152,10 @@ Need URL
 
 To set up the connection between Gemini and the Workfront MCP server, follow the instructions provided by Google for [connecting Gemini to external tools using MCP](https://docs.cloud.google.com/gemini/enterprise/docs/connectors/custom-mcp-server/set-up-custom-mcp-server). 
 
-When prompted for the MCP Server URL, enter the following URL for your Workfront MCP server: `example.com/mcp`
+When prompted for the MCP Server URL, enter the following URL for your Workfront MCP server: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+-->
 
-
-
+<!--
 ## Connect to Microsoft Copilot
 
 ✅ 1) Copilot Studio (most common for agents / enterprise use)
@@ -181,6 +182,8 @@ What happens next
 * You can enable/disable tools per agent
 * The agent calls them when relevant
 
+-->
+
 ## Troubleshoot setup and authentication
 
 +++ Expand to view troubleshooting tips for setup and authentication of the Workfront MCP server.
@@ -206,7 +209,7 @@ For day-to-day troubleshooting after you're connected (for example, stale result
 
 ### Can I connect to multiple Workfront instances at once?
 
-No. Each connection ties an AI assistant to a single Workfront instance. To switch, disconnect and reconnect, authenticating to the new instance.
+No. Each connection ties an AI agentic platform to a single Workfront instance. To switch, disconnect and reconnect, authenticating to the new instance.
 
 ### Does this work with Claude Pro or Claude Team, or only Claude Enterprise?
 
@@ -214,6 +217,6 @@ No. Each connection ties an AI assistant to a single Workfront instance. To swit
 
 ### Which administrator enables this?
 
-Both your Workfront administrator and your AI assistant administrator. Your Workfront administrator enables MCP server access on the Workfront side. Your AI assistant administrator enables Workfront access on the AI assistant side. For [!DNL Claude], the [!DNL Claude] Enterprise administrator enables the [!DNL Adobe Workfront] connector.
+Both your Workfront administrator and the administrator for your AI agentic platform. Your Workfront administrator enables MCP server access on the Workfront side. The administrator for your AI agentic platform enables Workfront access on that platform's side. For [!DNL Claude], the [!DNL Claude] Enterprise administrator enables the [!DNL Adobe Workfront] connector.
 
 +++
