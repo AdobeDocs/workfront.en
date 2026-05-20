@@ -11,6 +11,8 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Copy and move template tasks
 
+<!--Audited: 05/2026-->
+
 You can copy a template task from a template to another template, or you can move it either to another template or to another place in the same template. 
 
 ## Access requirements
