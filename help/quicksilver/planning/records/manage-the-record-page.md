@@ -191,19 +191,15 @@ To add a section to a record preview or page:
     
     From the table view, click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) in the first column. 
     
-    The record's preview opens in the view.
-
-    <!--update screen shot for details views preview-->
+    <span class="preview">The record's preview opens in the view.</span>
 
     ![Details box](assets/details-box.png)  
 
 1. (Optional) Click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record preview  to open the record's page in a new tab. 
 
-    The record page opens. The Details tab opens by default.
+   <span class="preview"> The record page opens. The Details tab opens by default.</span>
 
-    <!--update screen shot for details views preview-->
-
-    ![Details page](assets/details-page.png)
+   ![Details page](assets/details-page.png)
 
 1. In the **Details** tab of the record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![Add section icon](assets/add-section-icon.png) to add a section. 
 1. Click inside the section's name and replace **Untitled section** with a name, then click Enter. The fields displayed under the section are automatically part of the new section. 
@@ -274,9 +270,7 @@ To add a section to a record preview or page:
     
     From the table table view, click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) in the first column. 
     
-    The record's preview opens in the view.
-
-    <!--update screen shot for details views preview-->
+    <span class="preview">The record's preview opens in the view.</span>
 
     ![Details box](assets/details-box.png) 
 
@@ -294,35 +288,36 @@ To add a section to a record preview or page:
 
 1. <span class="preview">(Optional and conditional) If you are using the Preview environment, the details area opens by default in the **Selected table view fields** view. This displays only the fields that are visible in the table view. </span>
 
-      >[!TIP]
-      >
-      > <span class="preview">The **Selected table view fields** view is only available when you view records in the table view.</span>
+   >[!TIP]
+   >
+   > <span class="preview">The **Selected table view fields** view is only available when you view records in the table view in the record's details preview page. 
+   >The **Selected table view fields** is not available for any other record type view or for the record's details page that opens in a browser window. </span>
    
-<div class="preview">
+1. <span class="preview">(Conditional) In the Preview environment, continue with the following:</span>
 
-In the Preview environment, continue with the following: 
-   
-1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
-1. (Optional) ClicK **New Details** to add a new page and customize it, then do the following:
+   <div class="preview">
 
-   1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
-   1. Hover over the fields on the view and click the **Hide field** icon ![Hide field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field. 
-     
-      >[!TIP]
-      >
-      >* Custom pages are visible by everyone who accesses the record. 
-      >* The last page view you choose will be the one that opens by default when you open another record of the same type.
-     
-   1. (Optional) Click the **Fields icon** ![Fields icon](assets/fields-icon.png) at the top of the details page, then hide or show fields on the Details page. 
-     
-      >[!TIP]
-      >
-      >The **Fields** icon is not available when you display the details page in the **Selected table view** or the **All fields** views.
+   1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
+   1. (Optional) ClicK **New Details** to add a new page and customize it, then do the following:
 
-   1. (Optional) To edit the name of a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png) , then click **Edit**. 
-   1. (Optional) To delete a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png), then click **Delete**, then **Delete** to confirm. Deleted details page views cannot be recovered. 
+      1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
+      1. Hover over the fields on the view and click the **Hide field** icon ![Hide field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field. 
+      
+         >[!TIP]
+         >
+         >* Custom pages are visible by everyone who accesses the record. 
+         >* The last page view you choose will be the one that opens by default when you open another record of the same type.
+      
+      1. (Optional) Click the **Fields icon** ![Fields icon](assets/fields-icon.png) at the top of the details page, then hide or show fields on the Details page. 
+      
+         >[!TIP]
+         >
+         >The **Fields** icon is not available when you display the details page in the **Selected table view** or the **All fields** views.
 
-</div>
+      1. (Optional) To edit the name of a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png) , then click **Edit**. 
+      1. (Optional) To delete a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png), then click **Delete**, then **Delete** to confirm. Deleted details page views cannot be recovered. 
+      
+   </div>
 
 1. (Optional) If you want to navigate to a connected record, click the name of that record in the breadcrumb at the top of the details page. 
 
@@ -334,9 +329,7 @@ In the Preview environment, continue with the following:
 
 1. (Optional) Click the **Open in new tab** icon ![Open details box in a new tab icon](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
 
-    The record **Details** page opens in a new tab. 
-
-    <!--update screen shot for details views preview-->
+   <span class="preview">The record **Details** page opens in a new tab.</span> 
 
    ![Details page](assets/details-page.png)
 

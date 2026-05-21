@@ -23,18 +23,18 @@ For more information about Frame.io, see [Getting Started with Frame.io](https:/
 
 ## Access requirements
 
-* You must be on a version of Workfront that supports unified review and approval. If your organization is not already on a supported version, contact your Adobe account representative.
+* You must be on a version of Workfront that supports Adobe cloud storage. If your organization is not already on a supported version, contact your Adobe account representative.
 
 ## Work initiation and planning in Workfront
 
-Project coordinators can create projects and plan work in Workfront. Projects created in an instance with the Frame.io integration enabled utilize Adobe enterprise storage, which allows assets to be stored and managed within the Adobe ecosystem.
+Project coordinators can create projects and plan work in Workfront. Projects created in an instance with the Frame.io integration enabled utilize Adobe cloud storage, which allows assets to be stored and managed within the Adobe ecosystem.
 
-If your organization has a Frame.io Enterprise license, projects created in Workfront are also visible in Frame.io, allowing users to interact and upload assets in either product. 
+If your organization has a Frame.io Enterprise license, projects created in Workfront are also visible in Frame.io, allowing users to interact and upload assets in either product. In Frame.io, all Workfront-linked projects are grouped into a single Workspace called **Workfront Linked Projects**. For details on how linked projects appear and behave in Frame.io, see [Adobe Workfront Integration Overview](https://help.frame.io/en/articles/12242607-adobe-workfront-integration-overview) in the Frame.io documentation.
 
-For information about Adobe enterprise storage or projects in Frame.io, see
+For information about Adobe cloud storage or projects in Frame.io, see
 
 * [Workspace Overview: Projects](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
-* [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md)
+* [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md)
 
 ## Review and approve assets
 

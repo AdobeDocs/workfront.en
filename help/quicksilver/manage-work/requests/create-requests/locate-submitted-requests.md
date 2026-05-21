@@ -206,7 +206,7 @@ To view requests that you or other users have submitted in the legacy requesting
    >
    >* If the Summary panel is already opened, the Open Summary icon changes to Close Summary.
    >
-   >* If your organization uses Adobe enterprise document storage, you cannot add documents to Adobe-storage requests in the Summary panel.
+   >* If your organization uses Adobe cloud storage for documents, you cannot add documents to Adobe cloud storage requests in the Summary panel.
    >
    >For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

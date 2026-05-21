@@ -56,8 +56,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">View Adobe enterprise storage usage</a>
-                <p>The Customer Info page in Setup now includes a new Storage Overview section with usage meters for Adobe enterprise storage.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">View Adobe cloud storage usage</a>
+                <p>The Customer Info page in Setup now includes a new Storage Overview section with usage meters for Adobe cloud storage.</p>
             </td>
             <td><p>April 30, 2026</p></td>
             <td><p>May 14, 2026</p></td>
@@ -195,3 +195,4 @@ For information about the maintenance updates made during the Third Quarter 2026
 ### Training updates
 
 Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+

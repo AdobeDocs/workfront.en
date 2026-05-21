@@ -95,13 +95,13 @@ Review and approve content directly in the Frame.io viewer and eliminate the nee
 
 Seamlessly send approved assets directly to Adobe Experience Manager. This integration helps accelerate content activation by connecting review and approval workflows with downstream content management. For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
-#### Access to Adobe Enterprise Storage
+#### Access to Adobe cloud storage
 
-Adobe enterprise storage is a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products. The Workfront and Frame.io integration is built on Adobe enterprise storage, enabling seamless collaboration and asset management between these platforms.
+Adobe cloud storage is a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products. The Workfront and Frame.io integration is built on Adobe cloud storage, enabling seamless collaboration and asset management between these platforms.
 
-Access to Adobe Enterprise Storage also paves the way for future asset management integrations with other Adobe products, such as Adobe Creative Cloud.
+Access to Adobe cloud storage also paves the way for future asset management integrations with other Adobe products, such as Adobe Creative Cloud.
 
-For more information, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+For more information, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Multi‑stage approval workflows available for unified approvals
 

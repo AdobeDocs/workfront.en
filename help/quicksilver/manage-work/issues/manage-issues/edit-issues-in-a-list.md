@@ -151,7 +151,7 @@ You can edit an issue in a list using the Summary panel.
    | Hours ![Log time](assets/log-time-icon-in-summary.png)  |Click to log hours. |
    | Approvals ![Approvals icon](assets/approvals-icon-in-summary.png)  |Click to add issue approvals.  |
 
-   *If your organization uses Adobe enterprise document storage, you cannot add documents to Adobe-storage issues in the Summary panel.
+   *If your organization uses Adobe cloud storage for documents, you cannot add documents to Adobe cloud storage issues in the Summary panel.
    
    For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

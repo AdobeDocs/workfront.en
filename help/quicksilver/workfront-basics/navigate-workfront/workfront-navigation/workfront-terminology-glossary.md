@@ -14,7 +14,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 <!--Audited: 04/2026-->
 
-Bob: 4-30
+<!--Bob: 4-30-->
 
 >[!IMPORTANT]
 >
@@ -1430,6 +1430,27 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL On Change Only]</td> 
    <td> <p>One of the [!UICONTROL Project Update] Types. When this is selected, the [!UICONTROL Project Projected] and [!UICONTROL Planned] timelines update only when an update or change is made to the project or to a task within the project. It does not update the project every night.</p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p> </td> 
+  </tr> 
+
+</tr>
+  <tr> 
+   <td>[!UICONTROL On legacy Workfront storage]</td> 
+   <td>  <p>The legacy Workfront storage icon <img src="assets/legacy-storage-project-icon.png"> indicates that an object is associated with Workfront document storage. </p> 
+   <p>The icon displays near the name of an object, in the object header or in some lists. </p>
+   <p>Some customers have both legacy Workfront and Adobe cloud document storage. Documents can be stored in either of these environments for customers that have both types of storage.</p>
+   <p>The following objects can have either Workfront or Adobe cloud document storage:</p>
+   <ul><li>Projects</li>
+   <li>Portfolios</li>
+   <li>Programs</li>
+   <li>Templates</li>
+   <li>Tasks</li>
+   <li>Issues</li>
+   <li>Template tasks</li></ul>
+   <p>Only projects, portfolios, programs, and templates can display the On legacy Workfront storage icon. </p>
+   <p>Your Workfront instance might not have both types of document storage. 
+  <p>For more information, see <a href="/help/quicksilver/review-and-approve-work/esm-overview.md">Adobe cloud storage overview</a>. </p>
+   
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Op Task]</td> 
