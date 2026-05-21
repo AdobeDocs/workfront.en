@@ -24,7 +24,8 @@ For information about how to use these tools through an AI agentic platform, see
 
 ### Documents
 
-<!-- VERIFY BEFORE PUBLISHING: The following three tools may not be customer-facing. If engineering confirms they're internal-only, delete these rows from the table below:
+<!-- 
+VERIFY BEFORE PUBLISHING: The following three tools may not be customer-facing. If engineering confirms they're internal-only, delete these rows from the table below:
 - approvals_get_document_by_version_id
 - approvals_list_aem_linked_folders
 - approvals_send_documents_to_aem_folder
