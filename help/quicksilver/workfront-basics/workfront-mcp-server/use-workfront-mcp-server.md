@@ -16,9 +16,9 @@ The [!DNL Adobe Workfront] MCP server lets you find, create, update, and manage 
 
 This article assumes you've already set up the connection. For information about setup, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md). For more information about the Workfront MCP server, see [Adobe Workfront MCP server overview](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md).
 
-## Actions available through the Workfront MCP server
+## Available tools
 
-The Workfront MCP server covers actions across approvals, planning, and workflow.
+The Workfront MCP server exposes a set of tools that the AI agentic platform calls on your behalf — for example, tools to search Workfront, create items, update fields, and manage approvals. For the full reference list, grouped by Workfront area, see [Adobe Workfront MCP server tools](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md).
 
 >[!IMPORTANT]
 >
@@ -27,31 +27,6 @@ The Workfront MCP server covers actions across approvals, planning, and workflow
 >You and your AI agentic platform provider are responsible for the actions the platform takes in Workfront. Adobe is not responsible for changes the AI agentic platform makes to your Workfront data.
 >
 >Before you let the AI agentic platform proceed with a request, confirm that you understand what it intends to do, especially for actions that change or delete data.
-
-
-### Core actions
-
-The Workfront MCP server includes the following core actions:
-
-| Action | What it does |
-|---|---|
-| Create | Creates new items in Workfront. |
-| Search | Finds and retrieves items from Workfront. |
-| Update | Changes existing items in Workfront. |
-| Delete | Removes items from Workfront. |
-| Resolve field names | Looks up the correct Workfront field names so the AI agentic platform can build accurate requests against your data. |
-
-### Approvals actions
-
-
-### Planning actions
-
-
-
-### Workflow actions
-
-
-
 
 
 ## Examples of what to ask
