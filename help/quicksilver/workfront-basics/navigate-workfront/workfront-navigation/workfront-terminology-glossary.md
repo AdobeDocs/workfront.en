@@ -1265,7 +1265,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL License Limit Plan]</td> 
-   <td> <p>In a [!UICONTROL Group] view or report, this field shows the maximum number of [!UICONTROL Plan] licenses that can be assigned to users who have the respective group designated as their [!UICONTROL Home Group].</p> </td> 
+   <td> <p>In a [!UICONTROL Group] view or report, this field shows the maximum number of [!UICONTROL Standard] or [!UICONTROL Plan] licenses that can be assigned to users who have the respective group designated as their [!UICONTROL Home Group].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL License Limit Work]</td> 

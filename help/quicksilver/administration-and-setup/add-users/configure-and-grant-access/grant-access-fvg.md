@@ -50,7 +50,7 @@ For more detail about the information in this table, see [Access requirements in
 
    ![](assets/gear-icon-filters-dashboards-groupings.png)
 
-   By default, users with a Plan, Work, Reviewer, or Request license have full View and Edit abilities. Users with an External User license do not access to filters, views, and groupings.
+   By default, users with a Standard, Plan, Work, Light, Reviewer, Contributor, or Request license have full View and Edit abilities. Users with an External User license do not have access to filters, views, and groupings.
 
    <!--
    If this changes, undraft section with table below
@@ -61,11 +61,14 @@ For more detail about the information in this table, see [Access requirements in
 
    After the access level is created, you can assign it to a user. For more information, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-<!--
 ## Access to filters, views, and groupings by license type
 
-Drafting out this section for now because the table is redundant since all four license types can do everything.</span>
--->
+For information about what users in each access level can do with filters, views, and groupings, see the section [Filters, views, and groupings](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#filters-views-and-groupings) in the article [Functionality available for each object type](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
+
+<!--
+
+Drafting out this section for now because the table is redundant since all four license types can do everything.
+
 
 This table lists what a Workfront administrator can allow users with each license type to do with filter, views, and groupings. For information about the Workfront license types, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
@@ -129,3 +132,5 @@ This table lists what a Workfront administrator can allow users with each licens
 </tr>
 </tbody>
 </table>
+
+-->

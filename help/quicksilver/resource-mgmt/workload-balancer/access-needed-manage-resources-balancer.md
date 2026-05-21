@@ -11,8 +11,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Access needed to manage resources in the Workload Balancer
 
-{{preview-fast-release-general}}
-
 Without correct access or permissions, you may not be able to view or manage your work assignments in the Workload Balancer.
 
 You must have access to view the users whose workload you want to view or manage in the Workload Balancer. In addition to this, you must have the correct access level and the correct permissions on the projects the work is associated with.
@@ -84,7 +82,7 @@ You must have the following access to view the Workload Balancer:
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<span class="preview">All users have access to view the Workload Balancer on their own profiles. This is not restricted by license or access level. Note that the Workload Balancer on a user profile is read-only, and assignments and allocations cannot be changed.</span>
+All users have access to view the Workload Balancer on their own profiles. This is not restricted by license or access level. Note that the Workload Balancer on a user profile is read-only, and assignments and allocations cannot be changed.
 
 ## Access needed to manage assignments in the Workload Balancer
 
@@ -118,8 +116,4 @@ You must have the following access to manage the Workload Balancer:
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--
-these notes were inside the table: for the Edit access to Res Management
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost (NOTE: this is not possible yet!)</p>    
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the Financial Data access level, see the article<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>. (NOTE: this is not possible yet!)</p>
-    -->
+
