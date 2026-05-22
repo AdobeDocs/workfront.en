@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: You can create an approval process that users can attach to a work item (project, task, issue, template, or template task), a document, or a proof. An approval process ensures that designated assignees on the object review certain changes before the object progresses in the system.
-author: Alina
+author: Courtney
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
