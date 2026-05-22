@@ -62,7 +62,8 @@ Below are some types of Workfront object lists that use the enhanced list format
 | List of snapshots | Project > Snapshots |
 | List of resources for billing | Project > Resource for Billing |
 | New Advanced Assignments on a task | Task > Assignments > Advanced |
-| Documents on Adobe enterprise storage | Project, task, issue, portfolio, program, template, template task > Documents |
+| Boards Admin View | Boards > Admin View |
+| Documents on Adobe cloud storage | Project, task, issue, portfolio, program, template, template task > Documents |
 
 ## Add items to an enhanced list
 
@@ -446,5 +447,6 @@ To sort individual columns:
    >[!NOTE]
    >
    >The search looks at all columns in all list items. If the list is long, the search includes items that you may need to scroll to see. When the list is filtered, the search only looks at what is currently displayed.
+
 
 

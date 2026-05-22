@@ -15,7 +15,7 @@ When you are viewing a group that you manage in the Groups area, you can view an
 
 If there are any groups above your group, their administrators can also do these things for your group. The same is true for Workfront administrators (for any group).
 
-For information about how users with a Plan license can create a team, see [Create a team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+For information about how users with a Standard or Plan license can create a team, see [Create a team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
 For information about how a Workfront administrator can create a team, see [Create a team from the Setup area](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
 

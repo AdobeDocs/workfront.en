@@ -122,8 +122,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td>Lets you choose to enable or disable the Priorities worklist experience for your users. Users will still see the Priorities icons in Workfront, but they will not have access to the functionality. For more information about Priorities, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Get started with Priorities</a>.</td> 
      </tr>
       <tr> 
-      <td role="rowheader">Enable Adobe Enterprise Storage </td> 
-      <td>Lets you choose to enable or disable Adobe Enterprise Storage for your entire organization or for specific groups. For more information about Adobe Enterprise Storage, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Enable Adobe enterprise storage for your organization</a>.</td> 
+      <td role="rowheader">Enable Adobe cloud storage </td> 
+      <td>Lets you choose to enable or disable Adobe cloud storage for your entire organization or for specific groups. For more information about Adobe cloud storage, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Enable Adobe cloud storage for your organization</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Enable AI </td> 

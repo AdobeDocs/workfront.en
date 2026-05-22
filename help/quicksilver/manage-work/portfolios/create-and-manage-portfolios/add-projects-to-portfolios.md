@@ -123,26 +123,33 @@ Old:
     <col> 
     <col> 
     <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Existing Project]</td> 
-      <td> <p>Add a project that has already been created.</p> </td> 
-     </tr> 
+      
      <tr> 
       <td role="rowheader">[!UICONTROL New Project]</td> 
-      <td> <p>Add a new project. </p> <p>For more information about creating a new project, see <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>. </p> </td> 
+      <td> <p>Add a new project. </p> <p>For more information about creating a project, see <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Import a Project from [!DNL MS Project]] </td> 
+      <td role="rowheader">[!UICONTROL New Project (Legacy storage)]</td> 
+      <td> <p>Add a new Workfront storage project. </p>
+      <p>The option displays only when your organization uses both Workfront and Adobe cloud document storage. Your Workfront instance might not have both types of storage.</p>
+       <p>For more information about creating a project, see <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL New Project from Template]</td> 
+      <td> <p>Add a new project using an existing template. </p> <p>For more information about creating a project from a template, see <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Create a project using a template</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Import [!DNL MS Project]] </td> 
       <td> <p>Add a project that you previously exported from [!DNL MS Project] and have saved on your computer. </p> <p>For more information about creating a new project by importing it from [!DNL Microsoft Project], see <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Import a project from [!DNL Microsoft Project]</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Request Project]</td> 
       <td> <p>Request that a project is approved.</p> <p>For information about requesting projects, see <a href="../../../manage-work/projects/create-projects/request-project.md">Requesting a Project</a>. </p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL New from Template]</td> 
-      <td> <p>Add a new project using an existing template. </p> <p>For more information about creating a project from a template, see <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Create a project using a template</a>.</p> </td> 
-     </tr> 
+          <tr> 
+      <td role="rowheader">[!UICONTROL Existing Project]</td> 
+      <td> <p>Add a project that has already been created.</p> </td> 
+     </tr>
     </tbody> 
    </table>
 
@@ -150,22 +157,22 @@ Old:
 
    ![New project dropdown](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (Conditional) If you selected to add an existing project, the **Add Projects** box opens. <!--check this after UI changes-->
+1. (Conditional) If you selected to add an existing project, the **Add projects** box opens. <!--check this after UI changes-->
 
    ![Add existing project](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
 
-1. Start typing the name of a project in the **[!UICONTROL Add Projects to this Portfolio]** field, then click them when they appear in the list.  <!--check this after UI changes-->
+1. Start typing the name of a project in the **[!UICONTROL Add projects to this portfolio]** field, then click them when they appear in the list.  <!--check this after UI changes-->
 
-   You can add more than one project.
+   You can add more than one project. 
 
    >[!NOTE]
    >
-   >If your organization uses both legacy Workfront and Adobe enterprise document storage, the following scenarios exist: 
+   >When your organization uses both legacy Workfront and Adobe cloud storage for documents, the following scenarios exist: 
    >
    >
-   >* When you add an Adobe-storage project to a Workfront-storage portfolio and the portfolio has no documents attached to it, the portfolio is converted to an Adobe-storage portfolio. 
-   >* When you add an Adobe-storage project to a Workfront-storage portfolio and the portfolio has documents attached to it, the portfolio documents storage remains on Workfront storage. However, the legacy Workfront storage icon ![Legacy Workfront storage icon](assets/legacy-storage-project-icon.png) is removed from the portfolio. 
-   >* You cannot add a Workfront-storage project to an Adobe-storage portfolio. 
+   >* When you add an Adobe cloud storage project to a legacy Workfront storage portfolio and the portfolio has no documents attached to it, the portfolio is converted to an Adobe cloud storage portfolio. 
+   >* When you add an Adobe cloud storage project to a legacy Workfront storage portfolio and the portfolio has documents attached to it, the portfolio documents storage remains on Workfront storage. However, the legacy Workfront storage icon ![Legacy Workfront storage icon](assets/legacy-storage-project-icon.png) is removed from the portfolio. 
+   >* You cannot add a legacy Workfront storage project to an Adobe cloud storage portfolio. 
    >
    >For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
    >
@@ -175,6 +182,6 @@ Old:
 
    <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the portfolio.-->
 
-1. Click **[!UICONTROL Add Projects]**. <!--check this after UI changes-->
+1. Click **[!UICONTROL Add projects]**. <!--check this after UI changes-->
 
    The project or projects you selected are now associated with the portfolio. 

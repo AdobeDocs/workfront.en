@@ -13,7 +13,7 @@ exl-id: c8e6af1b-8cf3-4522-b0eb-7e5f2d34f5a9
 
 As an Adobe Workfront administrator, you can use an access level to define a user's access to templates, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). 
 
-Only users with a Plan license can have full access to templates.
+Only users with a Standard or Plan license can have full access to templates.
 
 For information about using custom access levels to manage users' access to other object types in Workfront, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -59,7 +59,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Access to templates by license type
 
-For information about what users in each access level can do with templates, see the section [Templates](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#template) in the article [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+For information about what users in each access level can do with templates, see the section [Templates](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#templates) in the article [Functionality available for each object type](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
 
 ## Access to shared templates
 

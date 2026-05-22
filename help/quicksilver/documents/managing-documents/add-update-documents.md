@@ -27,7 +27,7 @@ You can add or reply to updates on a document to communicate with collaborators 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any Workfront package to manage documents using legacy Workfront storage</p>
-<p>Any Workflow package to manage documents using Adobe enterprise storage</p> </td> 
+<p>Any Workflow package to manage documents using Adobe cloud storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses</td> 
@@ -53,7 +53,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Add an update to a document in the legacy documents area
 
-If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe cloud storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Add or reply to an update for a document
 
@@ -80,7 +80,7 @@ In the Updates area, when you reply to a comment someone made while proofing a d
 
 ## Add an update to a document in the new Documents area
 
-If your organization uses enterprise storage, you will see the new Documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 1. Go to the object that contains the document, then select **Documents** in the left panel.
 1. Find the document you need, then click the comment icon ![Comment icon](assets/new-doc-comment-icon.png) to open the Comments panel.

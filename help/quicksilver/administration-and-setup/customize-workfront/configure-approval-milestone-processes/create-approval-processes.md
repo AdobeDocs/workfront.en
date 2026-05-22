@@ -45,7 +45,7 @@ For information about approvals associated with documents or proofs, see the fol
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront package*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td><p>For system-level or single-use approval process:</p><ul><li><p>Any package</p></li></ul>
    <p>For group-level approval process:</p>
    <ul><li><p>Workflow Prime or Ultimate</p></li>
@@ -67,7 +67,7 @@ For information about approvals associated with documents or proofs, see the fol
  </tbody> 
 </table>
 
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

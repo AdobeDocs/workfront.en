@@ -25,18 +25,18 @@ Project coordinators manage work in Workfront while creatives, marketers, and st
 
 -->
 
-## Built on Adobe enterprise storage
+## Built on Adobe cloud storage
 
-Unified review and approval is built on Adobe enterprise storage—-a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products, including Workfront and Frame.io. <!--, and Creative Cloud.-->
+Unified review and approval is built on Adobe cloud storage—a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products, including Workfront and Frame.io. <!--, and Creative Cloud.-->
 
-Key benefits of Adobe enterprise storage include:
+Key benefits of Adobe cloud storage include:
 
 * Unified storage layer for creative and work management assets
 * Centralized permissions with Adobe Identity Management system (IMS) for secure access control
 * End-to-end asset visibility across Workfront and Frame.io <!--, and Creative Cloud apps -->
 * Scalable storage and quota management for enterprise needs
 
-For more details, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+For more details, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Unified review and approval 
 
@@ -77,7 +77,7 @@ The Frame.io viewer supports all common video, image, audio, PDF, and MS&reg; Of
 
 #### Access and licensing for the Frame.io viewer
 
-The Frame.io viewer is the default viewer for all Workfront review and approval workflows. It is automatically included for all Workfront users with a paid license. No additional Frame.io license is required to use the Frame.io viewer for reviews and approvals.
+The Frame.io viewer is the default viewer for all Workfront review and approval workflows. It is automatically included for all Workfront users, including External users assigned to a review or approval, at no additional cost. No additional Frame.io license is required to use the Frame.io viewer for reviews and approvals.
 
 If your organization wants to take advantage of additional Frame.io functionality available with this integration, such as uploading assets directly to projects in Frame.io, you can purchase a Frame.io Enterprise license. Contact your Adobe account representative to schedule a demo and explore the benefits of the full Frame.io solution.
 
@@ -91,7 +91,7 @@ For more information about managing projects in Workfront, see [Projects: articl
 
 ### Enforced structure and naming conventions
 
-Because unified review and approval is built using Adobe enterprise storage, there are some enforced structure and naming conventions to be aware of when managing projects and documents.
+Because unified review and approval is built using Adobe cloud storage, there are some enforced structure and naming conventions to be aware of when managing projects and documents.
 
 * Programs and projects can't have the same name if they belong to the same portfolio.
 * Documents can't have the same name if they belong to the same project.
@@ -130,7 +130,7 @@ The following table shows how Workfront permissions map to Frame.io permissions:
 
 ### Document management in Workfront
 
-Documents uploaded to Workfront are stored in Adobe enterprise storage and are accessible in both Workfront and Frame.io. When you upload a document to a task or issue in Workfront, a system-generated folder is created in Adobe enterprise storage that inherits permissions from the task or issue. All documents uploaded to that task or issue are stored in that folder and inherit permissions from it. For more information about documents in Workfront, see [The new Documents area overview](/help/quicksilver/documents/managing-documents/documents-area.md) and [Object permissions and access level overview for the Adobe enterprise storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+Documents uploaded to Workfront are stored in Adobe cloud storage and are accessible in both Workfront and Frame.io. When you upload a document to a task or issue in Workfront, a system-generated folder is created in Adobe cloud storage that inherits permissions from the task or issue. All documents uploaded to that task or issue are stored in that folder and inherit permissions from it. For more information about documents in Workfront, see [The new Documents area overview](/help/quicksilver/documents/managing-documents/documents-area.md) and [Object permissions and access level overview for the Adobe cloud storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ### Document experience limitations
 
@@ -168,13 +168,13 @@ To use unified review and approval, the following conditions must be met:
 
 * Users can belong to only one Workfront instance within the IMS organization.
 
-* The Workfront instance must be enabled on the Adobe Unified Experience and Adobe enterprise storage.
+* The Workfront instance must be enabled on the Adobe Unified Experience and Adobe cloud storage.
 
-* You must be on a version of Workfront that supports unified review and approval. If your organization is not already on a supported version, contact your Adobe account representative.
+* You must be on a version of Workfront that supports Adobe cloud storage. If your organization is not already on a supported version, contact your Adobe account representative.
 
 **Do I need a Frame.io license to use this integration?**
 
-No. The Frame.io viewer is automatically included for all Workfront users with a paid license at no additional cost. You do not need a separate Frame.io license to review and approve assets through Workfront.
+No. The Frame.io viewer is automatically included for all Workfront users at no additional cost, including External users invited to review or approve assets. You do not need a separate Frame.io license to review and approve assets through Workfront.
 
 If your organization wants access to additional Frame.io capabilities --- such as uploading assets directly to projects in Frame.io --- you can purchase a Frame.io Enterprise license. Contact your Adobe account representative to learn more.
 
@@ -188,13 +188,13 @@ Existing customers will retain access to Workfront Proofing functionality for an
 
 **What do I need to do to get access?**
 
-To access unified review and approval, you must be on a version of Workfront that supports unified review and approval. Any organization not already on a supported version must contact their Adobe account representative. To get started:
+To access unified review and approval, you must be on a version of Workfront that supports Adobe cloud storage. Any organization not already on a supported version must contact their Adobe account representative. To get started:
 
 * Contact your Adobe account representative to confirm whether your current Workfront contract supports unified review and approval.
 
 * If your organization is not on a supported version, your account representative will guide you through the updates needed to add it.
 
-* Once you are on a version of Workfront that supports unified review and approval, Adobe Professional Services will configure the integration for your organization.
+* Once you are on a version of Workfront that supports Adobe cloud storage, Adobe Professional Services will configure the integration for your organization.
 
      * If you are not sure who your Adobe account representative is, you can reach out through the Adobe support portal or visit Experience League for contact options.
 
@@ -348,11 +348,11 @@ Yes. In the legacy proofing workflow (prior to unified review and approval), whe
 
 **When I upload a document and not a proof, a proof gets generated. Will a proof always be generated?**
 
-No. With unified review and approval enabled and Adobe enterprise storage active, uploading a document does not automatically generate a proof. Documents are stored in Adobe enterprise storage and are reviewed using the Frame.io viewer. A proof is only generated if you explicitly create one using the legacy proofing workflow. The Frame.io viewer serves as the primary review surface, so a separate proof is not needed for standard review and approval workflows.
+No. With unified review and approval enabled and Adobe cloud storage active, uploading a document does not automatically generate a proof. Documents are stored in Adobe cloud storage and are reviewed using the Frame.io viewer. A proof is only generated if you explicitly create one using the legacy proofing workflow. The Frame.io viewer serves as the primary review surface, so a separate proof is not needed for standard review and approval workflows.
 
 **What is the difference between uploading a document and a proof after the 26.2 release?**
 
-With unified review and approval enabled, uploading a document stores it in Adobe enterprise storage and makes it available for review in the Frame.io viewer. A unified approval workflow can be created directly on the document. Uploading a proof, by contrast, uses the legacy Workfront Proof viewer (ProofHQ) and its own proofing workflow. Both options are available for projects created before the integration was enabled, but the Frame.io viewer is the primary review surface going forward. The key difference is that a document uses the unified approval workflow and Frame.io viewer, while a proof uses the legacy proofing workflow and viewer.
+With unified review and approval enabled, uploading a document stores it in Adobe cloud storage and makes it available for review in the Frame.io viewer. A unified approval workflow can be created directly on the document. Uploading a proof, by contrast, uses the legacy Workfront Proof viewer (ProofHQ) and its own proofing workflow. Both options are available for projects created before the integration was enabled, but the Frame.io viewer is the primary review surface going forward. The key difference is that a document uses the unified approval workflow and Frame.io viewer, while a proof uses the legacy proofing workflow and viewer.
 
 **Reviews under My Approvals only show a "Complete my review" button and no link to the proofing viewer or the document. Is this intended?**
 
@@ -373,11 +373,11 @@ Yes. When a new version is uploaded, previous approval participants are not auto
 
 +++ Expand to view the frequently asked questions for storage and file management.
 
-**What is Adobe enterprise storage and how does it relate to this integration?**
+**What is Adobe cloud storage and how does it relate to this integration?**
 
-Adobe enterprise storage is the common storage layer that connects Workfront, Frame.io, and Adobe Creative Cloud. Assets live in one place and are accessible across tools without manual file transfers. Creatives can work in place, and reviewers always see the latest version.
+Adobe cloud storage is the common storage layer that connects Workfront, Frame.io, and Adobe Creative Cloud. Assets live in one place and are accessible across tools without manual file transfers. Creatives can work in place, and reviewers always see the latest version.
 
-Key benefits of Adobe enterprise storage include:
+Key benefits of Adobe cloud storage include:
 
 * A single storage layer for all work-in-progress assets across Workfront and Frame.io
 
@@ -389,7 +389,7 @@ Key benefits of Adobe enterprise storage include:
 
 **Are there naming or structure requirements for files and projects?**
 
-Yes. Because the integration uses Adobe enterprise storage, the following conventions apply:
+Yes. Because the integration uses Adobe cloud storage, the following conventions apply:
 
 * Programs and projects can't have the same name if they belong to the same portfolio.
 
@@ -485,29 +485,29 @@ For more information on setting up and using AI Reviewer, see the Workfront docu
 
 **When will unified review and approval be available to me?**
 
-Unified review and approval is available now. Access requires a version of Workfront that supports unified review and approval. If you are not already on a supported version, contact your Adobe account representative for guidance on moving to one.
+Unified review and approval is available now. Access requires a version of Workfront that supports Adobe cloud storage. If you are not already on a supported version, contact your Adobe account representative for guidance on moving to one.
 
 <!--
 **Before we sign the contract, what changes will we see in Workfront?**
 
-Until you move to a version of Workfront that supports unified review and approval, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe enterprise storage, or multi-stage approval templates---will be available until you are on a supported version and Adobe Professional Services configures the integration for your organization.
+Until you move to a version of Workfront that supports Adobe cloud storage, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe cloud storage, or multi-stage approval templates---will be available until you are on a supported version and Adobe Professional Services configures the integration for your organization.
 -->
 
-**Does upgrading to a version of Workfront that supports unified review and approval give me more storage?**
+**Does upgrading to a version of Workfront that supports Adobe cloud storage give me more storage?**
 
-Yes. On a version of Workfront that supports unified review and approval, each licensed user receives 60 GB of storage, up from 30 GB in the previous version.
+Yes. On a version of Workfront that supports Adobe cloud storage, each licensed user receives 60 GB of storage, up from 30 GB in the previous version.
 
-**How do I choose between Adobe enterprise storage and legacy Workfront storage?**
+**How do I choose between Adobe cloud storage and legacy Workfront storage?**
 
-Enterprise Storage enables the Frame.io viewer experience and is required for unified review and approval. Legacy Storage continues to use the Workfront Proof viewer (ProofHQ) as the default.
+Adobe cloud storage enables the Frame.io viewer experience and is required for unified review and approval. Legacy Storage continues to use the Workfront Proof viewer (ProofHQ) as the default.
 
 If your organization has a mix of simple workflows and more complex proofing workflows, you can prioritize which workflows to migrate first.
 
-Enterprise Storage gives you the flexibility to roll out the new experience incrementally, starting with the workflows that will benefit most.
+Adobe cloud storage gives you the flexibility to roll out the new experience incrementally, starting with the workflows that will benefit most.
 
 **How are Frame.io licenses managed?**
 
-Once you are on a version of Workfront that supports unified review and approval, all Workfront users will have access to the Frame.io viewer for review and approval workflows --- no separate Frame.io Enterprise license is required for this.
+Once you are on a version of Workfront that supports Adobe cloud storage, all Workfront users will have access to the Frame.io viewer for review and approval workflows --- no separate Frame.io Enterprise license is required for this.
 
 If your organization needs additional Frame.io Enterprise features such as 
 
