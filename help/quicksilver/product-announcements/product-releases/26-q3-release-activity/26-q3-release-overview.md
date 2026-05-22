@@ -30,6 +30,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
 ## Adobe Workfront enhancements
 
 * [Documents enhancements](#documents-enhancements)
+* [Financial Management enhancements](#financial-management-enhancements)
 * [Reporting enhancements](#reporting-enhancements)
 * [Requests enhancements](#requesting-enhancements)
 
@@ -62,6 +63,30 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>April 30, 2026</p></td>
             <td><p>May 14, 2026</p></td>
             <td><p>July 16, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Financial Management enhancements
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Rate attributes cannot be edited once they are used on rates</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Once an attribute is added to a rate in Workfront, you can no longer edit that attribute and its filters in the Setup area. This preserves data integrity and prevents rates from being changed accidentally when attributes are updated.</p>
+            </td>
+            <td><p>May 21, 2026</p></td>
+            <td><p>May 21, 2026</p></td>
+            <td><p>May 21, 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -195,4 +220,3 @@ For information about the maintenance updates made during the Third Quarter 2026
 ### Training updates
 
 Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
-

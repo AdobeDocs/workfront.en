@@ -694,7 +694,7 @@ The group header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Licenses in use] </td> 
-   <td> <p>The [!UICONTROL Licenses in use] box displays the number of [!UICONTROL Plan] and [!UICONTROL Work] license users in the group and its subgroups. You can click the numbers to see this information for all 5 license types.</p> <p>For more information, see <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">View the number of licenses allocated and used in a group in the new [!DNL Adobe Workfront] experience</a>.</p> </td> 
+   <td> <p>The [!UICONTROL Licenses in use] box displays the number of [!UICONTROL Standard] or [!UICONTROL Plan] and [!UICONTROL Work] license users in the group and its subgroups. You can click the numbers to see this information for all of the license types.</p> <p>For more information, see <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">View the number of licenses allocated and used in a group</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Group Administrators]</td> 

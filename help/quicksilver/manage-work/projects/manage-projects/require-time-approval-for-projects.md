@@ -60,7 +60,7 @@ For more information about billing records, see the article [Create billing reco
        <li>If you have Manage permissions on the project, you can approve or reject hours logged on the project by any other user.</li>
        <li> If you have Contribute or View access to the project you will be able to approve or reject only the hours logged by you or any other user that reports you.<br></li>
       </ul></li> 
-     <li>You have a Plan license with administrative access to Timesheets & Hours. In this case:
+     <li>You have a Standard or Plan license with administrative access to Timesheets & Hours. In this case:
       <ul>
        <li>You can approve or reject any hours on the projects you have at least permissions to View. </li>
       </ul></li> 

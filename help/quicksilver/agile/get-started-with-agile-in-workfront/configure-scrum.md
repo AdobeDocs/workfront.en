@@ -104,7 +104,7 @@ To define the statuses that are available for the story board associated with th
 1. Select the Agile team that you want to manage.
 1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.
 
-   Only team members with either a [!UICONTROL Plan] or [!UICONTROL Work] license see this option.
+   Only team members with either a [!UICONTROL Standard], [!UICONTROL Plan], or [!UICONTROL Work] license see this option.
 
 1. In the **[!UICONTROL Agile]** section, locate the **[!UICONTROL Story Board]** area.
 1. (Optional) Click **[!UICONTROL Add Column]** to add an additional status column to the story board.

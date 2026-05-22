@@ -370,13 +370,15 @@ Consider the following about GenStudio record type fields:
 
 You can create connections between record types in GenStudio workspaces where you have Manage permissions. 
 
+<!--When AEM object types are connected to GenStudio record types, AEM object metadata reflects on Planning records-->
+
 You can make the following connections between GenStudio record types and other record or object types in Workfront Planning:
 
 * Two GenStudio record types
 * A GenStudio record type and a Planning record type from the same workspace
 * A GenStudio record type and a Planning record type from another workspace, if the record types are configured to connect from another workspace. 
 * A GenStudio record type and a Workfront object type (projects, portfolios, programs, companies, groups)
-* A GenStudio record type and an AEM object type.
+* A GenStudio record type and an AEM object type. You must have a license for Adobe Experience Manager to access AEM objects, in addition to a license for Workfont Planning and for Adobe GenStudio for Performance Marketing. 
 * GenStudio record types and GenStudio Brands. The Brands connection is added to the Products and Personas record types by default. 
 
 ### Request forms and automations in the GenStudio record type

@@ -68,7 +68,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 ## Considerations for creating and managing layout templates
 
 * Users can customize a few areas of their own layout. When you change a layout template, your changes merge with any customizations they have made, without overwriting or resetting them. This is also true if you assign users to a new layout template.
-* Group administrators and users with a Plan license who can edit other users can add system-level and group-level layout templates to the users they can manage when editing their profile.
+* Group administrators and users with a Standard or Plan license who can edit other users can add system-level and group-level layout templates to the users they can manage when editing their profile.
 * Group administrators cannot assign layout templates to job roles or teams.
 
 For more information about layout templates, see [Layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).

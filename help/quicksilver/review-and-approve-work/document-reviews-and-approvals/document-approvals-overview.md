@@ -77,7 +77,7 @@ The Frame.io viewer supports all common video, image, audio, PDF, and MS&reg; Of
 
 #### Access and licensing for the Frame.io viewer
 
-The Frame.io viewer is the default viewer for all Workfront review and approval workflows. It is automatically included for all Workfront users with a paid license. No additional Frame.io license is required to use the Frame.io viewer for reviews and approvals.
+The Frame.io viewer is the default viewer for all Workfront review and approval workflows. It is automatically included for all Workfront users, including External users assigned to a review or approval, at no additional cost. No additional Frame.io license is required to use the Frame.io viewer for reviews and approvals.
 
 If your organization wants to take advantage of additional Frame.io functionality available with this integration, such as uploading assets directly to projects in Frame.io, you can purchase a Frame.io Enterprise license. Contact your Adobe account representative to schedule a demo and explore the benefits of the full Frame.io solution.
 
@@ -174,7 +174,7 @@ To use unified review and approval, the following conditions must be met:
 
 **Do I need a Frame.io license to use this integration?**
 
-No. The Frame.io viewer is automatically included for all Workfront users with a paid license at no additional cost. You do not need a separate Frame.io license to review and approve assets through Workfront.
+No. The Frame.io viewer is automatically included for all Workfront users at no additional cost, including External users invited to review or approve assets. You do not need a separate Frame.io license to review and approve assets through Workfront.
 
 If your organization wants access to additional Frame.io capabilities --- such as uploading assets directly to projects in Frame.io --- you can purchase a Frame.io Enterprise license. Contact your Adobe account representative to learn more.
 

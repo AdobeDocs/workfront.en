@@ -68,7 +68,14 @@ For more detail about the information in this table, see [Access requirements in
 {{step1-to-programs}}
 
 1. Click the name of a program to open it. 
-1. Click the **More** menu to the right of the program name, then click **Deactivate Program**. 
+1. Do one of the following: 
+
+    * Click the **More** menu to the right of the program name, then click **Deactivate Program**. 
+    * Click the **More** menu to the right of the program, then click **Edit** 
+
+        Or
+
+        Click the **Program Details** section in the left panel and uncheck the **Is Active** box.
 
     The program is deactivated immediately and the following things occur: 
 
