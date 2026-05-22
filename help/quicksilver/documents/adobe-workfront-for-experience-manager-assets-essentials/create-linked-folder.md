@@ -53,7 +53,7 @@ If an asset is deleted or moved from a linked folder inside of Experience Manage
   <tr>
    <td><strong>Access level configurations</strong>
    </td>
-   <td>You must be a Workfront administrator to configure an Experience Manager integration. After it is configured, users with a Plan license can set up linked folders on individual projects.
+   <td>You must be a Workfront administrator to configure an Experience Manager integration. After it is configured, users with a Standard or Plan license can set up linked folders on individual projects.
    </td>
   </tr>
 </table>

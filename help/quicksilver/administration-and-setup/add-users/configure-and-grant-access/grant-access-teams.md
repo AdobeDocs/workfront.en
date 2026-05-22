@@ -65,7 +65,7 @@ For more detail about the information in this table, see [Access requirements in
        </tbody>
       </table>
 
-   * **Edit**: If you are configuring how users with a Plan license and Work license can manage teams, change any of the following options:
+   * **Edit**: If you are configuring how users with a Standard, Plan, or Work license can manage teams, change any of the following options:
 
       <table style="table-layout:auto">
        <col>
@@ -73,19 +73,19 @@ For more detail about the information in this table, see [Access requirements in
        <tbody>
         <tr>
          <td role="rowheader">Create</td>
-         <td><p>Allows users with a Plan license or Work license to create teams.</p><p>This option is enabled by default.</p></td>
+         <td><p>Allows users with a Standard, Plan, or Work license to create teams.</p><p>This option is enabled by default.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Delete</td>
-         <td><p> Allows users with a Plan license to delete the teams that they have access to edit (unavailable for users with a Work license).</p><p>This option is enabled by default.</p></td>
+         <td><p> Allows users with a Standard or Plan license to delete the teams that they have access to edit (unavailable for users with a Work license).</p><p>This option is enabled by default.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Edit teams in groups I manage (Group Admins only)</td>
-         <td><p>Allows Plan license users who are designated as group administrators to edit teams associated with the groups they manage.</p><p>This option is enabled by default.</p></td>
+         <td><p>Allows Standard or Plan license users who are designated as group administrators to edit teams associated with the groups they manage.</p><p>This option is enabled by default.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Edit teams I'm on</td>
-         <td><p>Allows users Plan license or Work license to edit teams where they are a member.</p><p>This option is disabled by default.</p></td>
+         <td><p>Allows users with a Standard, Plan, or Work license to edit teams where they are a member.</p><p>This option is disabled by default.</p></td>
         </tr>
         <tr>
          <td role="rowheader">View teams associated with my groups</td>
@@ -119,4 +119,4 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Access to teams by license type
 
-For information about what users in each access level can do with teams, see the section [Teams](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams) in the article [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+For information about what users in each access level can do with teams, see the section [Teams](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#teams) in the article [Functionality available for each object type](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).

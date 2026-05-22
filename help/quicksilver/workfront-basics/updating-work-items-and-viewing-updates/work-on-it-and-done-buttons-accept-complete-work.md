@@ -19,7 +19,7 @@ Using the contextual button to accept or complete work items, you can let Adobe 
 
 The Work On It and Done buttons are visible to users who have:
 
-* A Standard license (new), or a Plan or Work license (current)
+* A Standard license, or a Plan or Work license
 * Limited edit access or higher on the task or issue
 
 >[!NOTE]
