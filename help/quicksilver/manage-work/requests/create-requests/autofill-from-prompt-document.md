@@ -324,3 +324,7 @@ If you are not getting the expected suggestions, it may be due to one of the fol
 
 * You must have at least one month of request data in the system before it can suggest field values from previous requests.
 * You may not have followed the document upload guardrails when uploading a document to pull suggestions from. For more information, see [Document upload guardrails](#document-upload-guardrails) in this article.
+
+<!--
+AI Form Fill can fill an external lookup field value. However, if the external lookup field has a dependency on a formula field, then the AI can't retrieve the field options accurately and will not fill that field value.
+-->
