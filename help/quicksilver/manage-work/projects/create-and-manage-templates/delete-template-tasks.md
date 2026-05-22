@@ -16,7 +16,7 @@ You can delete a template tasks if it is no longer needed. Project tasks created
 
 >[!NOTE]
 >
->Deleted template tasks cannot be recovered. You can recover a template which also recovers all the tasks on the template. If you delete template tasks (and not the template), you can never recover them. 
+>Deleted template tasks and their additional information (assignments, documents, approvals) cannot be recovered. You can recover a template which also recovers all the tasks on the template. If you delete template tasks (and not the template), you can never recover them. 
 
 
 ## Access requirements

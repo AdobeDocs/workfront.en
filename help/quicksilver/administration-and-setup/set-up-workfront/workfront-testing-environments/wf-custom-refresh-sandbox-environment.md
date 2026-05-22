@@ -230,7 +230,16 @@ For the Custom Refresh Sandbox environment, the nightly recalculation is disable
 
 * Proofing is not available in the Custom Refresh Sandbox environments.
 
-* The following notifications are not avaiilable for use in the Custom Refresh Sandbox environments:
+* The following notifications are not available for use in the Custom Refresh Sandbox environments:
 
    * Reminder notifications
    * Automatic late or early reminder notifications
+
+### Note on Business Rules
+
+Business Rules are intentionally excluded from Workfront Preview and Sandbox environment refreshes. Unlike most data, Business Rules are treated as environment-specific configuration, similar to Users. Each environment can maintain a distinct set of rules tailored to its purpose (for example, testing, development, or production).
+
+Including Business Rules in a refresh would overwrite these configurations, potentially disrupting rules that administrators have intentionally set up in non-production environments.
+
+If you need to move Business Rules between environments, use Environment Promotion, which allows you to selectively transfer configuration objects with control over timing and scope. For more information, see [Overview of moving objects between Workfront environments](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+

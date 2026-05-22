@@ -14,11 +14,11 @@ exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
 Rate attributes extend Adobe Workfront's rate card and rates functionality by allowing you to add additional dimensions to rates beyond the job role. This is critical for agencies and enterprises where rates vary not only by job role but also by factors such as agency, location, brand, cost center, or others.
 By combining these attributes, Workfront can automatically select the correct rate for assignments, ensuring financial accuracy and consistency across projects.
 
+Rate attributes are intended to be a one-time foundational setup.
+
 >[!IMPORTANT]
 >
->Rate attributes are a one-time foundational setup.
-
-Once attributes are enabled and applied to rate cards and rates, changing them later may compromise data integrity across your entire financial setup.
+>Once rate attributes are enabled and applied to rate cards and rates, you cannot edit them. This preserves the data integrity of your financial setup.
 
 ## Overview of rate attributes
 
@@ -196,3 +196,4 @@ Filters must always be configured in both directions. If Attribute A has a Relat
    * (Attribute filter type only) **Reference Field**: The field on the referenced attribute that must match, such as Agency ID.
 
 1. Click **Save** on each attribute to save the properties and filters.
+
