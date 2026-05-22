@@ -88,7 +88,7 @@ Old:
 ## Considerations
 
 * There is a 5-minute processing limit when converting an issue to a project. If the issue has a large number of documents attached to it and fails to convert, you might need to remove some of the documents and try again.
-* If your organization uses both legacy Workfront and Adobe cloud storage for documents, the following scenarios exist when converting an issue to a project: <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
+* When your organization uses both legacy Workfront and Adobe cloud storage for documents, the following scenarios exist when converting an issue to a project: <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
   * A legacy Workfront storage issue creates a legacy Workfront storage project.
   * An Adobe cloud storage issue creates an Adobe cloud storage project.
   * Using a legacy Workfront storage template to convert an Adobe cloud storage issue creates an Adobe cloud storage project. 

@@ -89,7 +89,7 @@ Old:
 * All sub-tasks, issues and notes roll up to the new project.
 * Documents, document versions, and proofs are moved to the new project.
 * There is a 5-minute processing limit when converting a task to a project. If the task has a large number of documents attached to it and fails to convert, you might need to remove some of the documents and try again.
-* If your organization uses both legacy Workfront and Adobe cloud storage for documents, the following scenarios exist when converting a task to a project: <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
+* When your organization uses both legacy Workfront and Adobe cloud storage for documents, the following scenarios exist when converting a task to a project: <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
   * A legacy Workfront storage task creates a legacy Workfront storage project.
   * An Adobe cloud storage task creates an Adobe cloud storage project.
   * Using a legacy Workfront storage template to convert an Adobe cloud storage task creates an Adobe cloud storage project. 

@@ -148,8 +148,10 @@ Consider the following when working with programs:
 
 * When you create an Adobe cloud storage program, Workfront creates a folder in the Documents section of the program where documents are saved. The folder name is the same as the name of the program. You cannot delete or manually rename the folder. The folder is renamed if you change the name of the program, to match the program's new name.
 
-* When you add an Adobe cloud storage project to a legacy Workfront storage program and the program has no documents attached to it, the program is converted to an Adobe cloud storage program. 
-* When you add an Adobe cloud storage project to a legacy Workfront storage program and the program has documents attached to it, the program documents storage remains on Workfront storage. However, the legacy Workfront storage icon for the program ![Legacy portfolio storage icon](assets/legacy-storage-project-icon.png) is removed from the program. 
+* When you add an Adobe cloud storage project to a legacy Workfront storage program and the program has no documents attached to it, the program is converted to an Adobe cloud storage program. The program's portfolio is also converted. 
+* When you add an Adobe cloud storage project to a legacy Workfront storage program and the program has documents attached to it, the program documents storage remains on Workfront storage. If the portfolio also has documents, its documents storage also remains on Workfront storage; otherwise, the portfolio is converted to Adobe cloud storage. 
+
+  The legacy Workfront storage icon for the program ![Legacy portfolio storage icon](assets/legacy-storage-project-icon.png) is removed from the program. 
 * You cannot add a legacy Workfront storage project to an Adobe cloud storage program. 
 
 * When you create programs using a Workfront Planning automation, Workfront uses your system's default storage preference for the program. You must purchase the Planning package for access to Workfront Planning. 
@@ -193,8 +195,8 @@ Consider the following when working with templates:
 
 * When you create an Adobe cloud storage template, Workfront creates a folder in the Documents section of the template where documents are saved. The folder name is the same name as the program. You cannot delete or manually rename the folder. The folder is renamed if you change the name of the template, to match the template's new name.
 * You can use a legacy Workfront storage template to create legacy Workfront storage projects; you can use an Adobe cloud storage template to create an Adobe cloud storage project. 
-* You can attach a legacy Workfront storage template to an Adobe cloud storage project and this does not change the storage location of the project. 
-* You can attach an Adobe cloud storage template to a legacy Workfront storage project and this does not change the storage location for the project. Documents in the Adobe cloud storage folder for the template are added to the project directly, without the folder, while the documents in the template task folders are added to folders attached to the project's tasks in the Documents section of the tasks.
+* You can attach a legacy Workfront storage template to an Adobe cloud storage project and this does not change the storage location of the documents on the project. 
+* You can attach an Adobe cloud storage template to a legacy Workfront storage project and this does not change the storage location of the documents on the project. Documents in the Adobe cloud storage folder for the template are added to the project directly, without the folder, while the documents in the template task folders are added to folders attached to the project's tasks in the Documents section of the tasks.
 
 ### Document management for template tasks
 
