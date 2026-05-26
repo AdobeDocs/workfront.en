@@ -10,7 +10,7 @@ hide: true
 
 # Adobe Workfront MCP server overview
 
-The [!DNL Adobe Workfront] MCP (Model Context Protocol) server lets you work with your Workfront data through natural-language conversation in a supported AI agentic platform. Instead of clicking through Workfront to find a project, update a task, or check an approval, you ask the AI agentic platform in plain English, and the AI agentic platform does the work for you.
+The [!DNL Adobe Workfront] MCP (Model Context Protocol) server lets you work with your Workfront data through natural-language conversation in a supported AI agentic platform. Instead of clicking through Workfront to find a project, update a task, or check an approval, you ask the AI agentic platform in natural language, and the AI agentic platform does the work for you.
 
 You don't need to know the Workfront API or anything about MCP to use the Workfront MCP server. Set up the AI agentic platform to talk to Workfront once, then start asking.
 
