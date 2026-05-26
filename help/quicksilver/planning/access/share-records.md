@@ -218,9 +218,9 @@ As a workspace manager, you can adjust permissions to individual records.
 
    1. Select **Disable** from the **Inherited permissions** drop-down menu.
 
-   >[!TIP]
-   >
-   >Workspace managers continue to have Manage permissions to the record type and the record.
+      >[!TIP]
+      >
+      >Workspace managers continue to have Manage permissions to the record type and the record.
 
    1. (Optional) Select **Only invited people can access** from the **Who has access** area. You must indicate individual users, groups, teams, or companies to share the records with. 
 
