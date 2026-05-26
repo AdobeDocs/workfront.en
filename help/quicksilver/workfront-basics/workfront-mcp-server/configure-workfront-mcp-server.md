@@ -23,27 +23,31 @@ The Workfront MCP server currently supports the following AI agentic platforms:
 * [!DNL Claude]
 * [!DNL ChatGPT]
 
+make more general and to third-party MCP supporting platforms
+
 ## Prerequisites
 
 Before you can connect Workfront to an AI agentic platform, you must:
 
-* Have an active [!DNL Adobe Workfront] account with permission to access the data you want to work with.
-* Have access to an AI agentic platform like [!DNL Claude].
+* Have an active [!DNL Adobe Workfront] account with permission to access the data you want to work with
+* Have access to an AI agentic platform like [!DNL Claude]
 
 ### Admin prerequisites
 
 MCP server access is gated by two separate administrators. 
 
-* **Your Workfront administrator** controls MCP server access for your Workfront instance. Access is enabled by default in System Preferences, so no action is required unless your administrator has chosen to disable it. <!-- TODO: link to the System Preferences AI preferences article once the Enable MCP toggle is documented there. -->
+* Your Workfront administrator controls MCP server access for your Workfront instance. Access is enabled by default in System Preferences, so no action is required unless your administrator has chosen to disable it. <!-- TODO: link to the System Preferences AI preferences article once the Enable MCP toggle is documented there. -->
 
 * If you use an enterprise version of an AI agentic platform, your administrator for that platform must enable the [!DNL Adobe Workfront] connector for your organization.
+
+or give you custom URL access to connect to the WF MCP server. 
 
 
 ## Connect Workfront to Claude
 
 You connect to Workfront once per [!DNL Claude] account. The connection authenticates you to a specific Workfront instance, and you stay connected until you choose to disconnect.
 
-### Connect from the connectors directory
+### Connect to Claude desktop from the connectors directory
 
 +++ Expand to view step-by-step instructions for connecting Workfront to [!DNL Claude].
 
@@ -73,7 +77,7 @@ To connect Workfront to [!DNL Claude]:
 
 +++
 
-### Connect with a URL
+### Connect to Claude desktop with a URL
 
 +++ Expand to view step-by-step instructions for connecting Workfront to [!DNL Claude] with a URL.
 
@@ -192,6 +196,11 @@ What happens next
 | Authentication failed, or the connection stopped working. | Your auth session expired or there's a connection error. | Disconnect and reconnect the connector. |
 | You want to switch to a different Workfront instance. | A single connection ties you to one instance. | Disconnect, reconnect, and authenticate to the new instance. |
 | You can't connect to Workfront, or you see a message that MCP server access is disabled. | Your Workfront administrator has turned off MCP server access for your instance. | Contact your Workfront administrator and ask them to enable MCP server access in System Preferences. |
+
+
+admin can remove read/write actions 
+
+
 
 <!-- NEEDS DETAIL: Add additional setup/authentication troubleshooting scenarios discovered during hands-on testing. -->
 

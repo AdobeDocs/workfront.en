@@ -12,15 +12,16 @@ hide: true
 
 This article lists the tools that the [!DNL Adobe Workfront] MCP server exposes to a connected AI agentic platform. The platform calls these tools on your behalf when you ask it to find, create, update, or delete Workfront items.
 
-Tools are grouped by Workfront area: Approvals, Planning, and Workflow.
-
 For information about how to use these tools through an AI agentic platform, see [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md). For information about how to set up the connection, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
 >[!IMPORTANT]
 >
 >The AI agentic platform acts in Workfront using your Workfront account, access level, and object permissions. A tool only works if you have the corresponding access in Workfront. Adobe is not responsible for changes the AI agentic platform makes to your Workfront data.
 
-## Approvals tools (23 total)
+
+explain workfront admin controls  and what read/write means - link to admin prereqs
+
+## Approvals tools
 
 ### Documents
 
@@ -31,7 +32,7 @@ VERIFY BEFORE PUBLISHING: The following three tools may not be customer-facing. 
 - approvals_send_documents_to_aem_folder
 -->
 
-| Title | Tool name | What it does |
+| Title | Tool name | What it does | Action type |
 |---|---|---|
 | Find document version by name | `approvals_find_document_version_by_name` | Looks up a document's current version ID by filename. Supports partial matches. |
 | Get document by version ID | `approvals_get_document_by_version_id` | Fetches document details (name, size, upload date, uploader) for a known document version ID. |
@@ -77,7 +78,7 @@ VERIFY BEFORE PUBLISHING: The following three tools may not be customer-facing. 
 | Get projects by owner | `approvals_get_projects_by_owner` | Lists Workfront projects where the calling user is the owner. |
 | Get Adobe region | `approvals_get_adobe_region` | Returns the Adobe name of a cloud provider region. |
 
-## Planning tools (43 total)
+## Planning tools
 
 ### Workspaces
 
@@ -157,7 +158,7 @@ VERIFY BEFORE PUBLISHING: The following three tools may not be customer-facing. 
 | Search sharing data | `planning_search_sharing_data` | Finds users, groups, teams, roles, and companies by name for sharing and permissions. |
 | Search users | `planning_search_users` | Searches for users with pagination support. |
 
-## Workflow tools (5 total)
+## Workflow tools
 
 Workflow tools are the general-purpose actions the AI agentic platform uses to work with any Workfront object — projects, tasks, issues, hours, assignments, programs, portfolios, and so on.
 
@@ -171,4 +172,10 @@ Workflow tools are the general-purpose actions the AI agentic platform uses to w
 
 ## How tools are updated
 
-When Adobe releases a new version of the Workfront MCP server, the AI agentic platform uses the new tool set automatically. You don't need to reconnect or change anything on your side.
+When Adobe releases a new version of the Workfront MCP server, the AI agentic platform uses the updated tool set automatically. You don't need to reconnect or change anything on your side.
+
+
+
+## Additional tools coming soon
+
+comments, boards

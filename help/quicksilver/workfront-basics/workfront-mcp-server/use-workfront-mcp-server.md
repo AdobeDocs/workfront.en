@@ -10,9 +10,11 @@ hide: true
 
 # Use the Adobe Workfront MCP server
 
-The [!DNL Adobe Workfront] MCP server lets you find, create, update, and manage Workfront items by asking an AI agentic platform in plain English. The platform decides which Workfront actions to call and handles the conversation with Workfront for you.
+The [!DNL Adobe Workfront] MCP server lets you find, create, update, and manage Workfront items by asking an AI agentic platform in natural language. The platform decides which Workfront actions to call and handles the conversation with Workfront for you.
 
-[!DNL Claude] is currently the only supported AI agentic platform, but the examples and patterns in this article apply to any AI agentic platform that supports the Workfront MCP server.
+<!-- check on "english" in other articles and change to natural language if it's used elsewhere -->
+
+## Prerequisites
 
 This article assumes you've already set up the connection. For information about setup, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md). For more information about the Workfront MCP server, see [Adobe Workfront MCP server overview](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md).
 
@@ -28,6 +30,8 @@ The Workfront MCP server exposes a set of tools that the AI agentic platform cal
 >
 >Before you let the AI agentic platform proceed with a request, confirm that you understand what it intends to do, especially for actions that change or delete data.
 
+
+<!-- might be helpful to talk about how some actions might not be avaialble because of admin controls-->
 
 ## Examples of what to ask
 
@@ -104,7 +108,7 @@ You can chain requests in a single conversation. The AI agentic platform keeps t
 
 <!-- NEEDS DETAIL: Test multi-step prompt chaining in a working setup and document the patterns that produce reliable results. -->
 
-## Considerations
+## Considerations - tips?
 
 Keep the following considerations in mind when you use the Workfront MCP server.
 
@@ -116,25 +120,34 @@ To force the AI agentic platform to fetch fresh data, ask for it explicitly. For
 
 * *Get the latest data from Workfront. Don't use cached results.*
 
-### The Workfront MCP server updates automatically
+### Updates to the MCP
 
-When Adobe releases a new version of the Workfront MCP server, your AI agentic platform uses the new version automatically. You don't need to reconnect or change anything on your side.
+workfront release notes include updates for MCP tools. You maybe want to check periodically and refresh your MCP connection.
+^^fix this 
 
 ## Data and security
 
 <!-- NEEDS DETAIL: Document Adobe's official position on data handling and security when Workfront data is passed through an AI agentic platform. Cover: what data leaves Workfront, where it goes, whether it is retained or used for training by the AI agentic platform provider, what happens to it after the conversation ends, and any differences between AI agentic platforms (for example, Anthropic's enterprise data handling policies for Claude). This section needs sign-off from security and legal before publication. -->
 
+you can only query for or write access to with your access level and object permissions. And admin has to give you access for MCP read/write. 
+
+MCP tools are consitent with how API calls work. We don't store prompts, responses, or any other data. whatever wf data you ask for is accessible in the WF platform
+
 ### What data leaves Workfront
+
+whatever wf data you ask for is accessible in the agentic platform 
+
+
 
 <!-- NEEDS DETAIL: List the categories of Workfront data that can be sent to the AI agentic platform (item names, field values, attachments, user identifiers, etc.) and any data that the MCP server explicitly does not expose. -->
 
 ### How AI agentic platform providers handle your Workfront data
 
+not handled by workfront. check with your ai platform provider for details.
+
 <!-- NEEDS DETAIL: For each supported AI agentic platform, summarize the provider's data handling stance: retention, training opt-out, and enterprise vs. consumer differences. Link to the provider's official documentation. Start with Claude (Anthropic). -->
 
-### Differences between AI agentic platforms
 
-<!-- NEEDS DETAIL: Note any meaningful differences in how each supported AI agentic platform handles Workfront data once additional AI agentic platforms are supported. -->
 
 ## Troubleshoot day-to-day use
 
@@ -173,3 +186,6 @@ The MCP server updates automatically. You don't need to reconnect or change anyt
 No. The AI agentic platform translates your natural-language requests into the right Workfront actions. If you're already familiar with the Workfront API, the actions will feel familiar, but it isn't a requirement.
 
 +++
+
+
+^ regenrate a list of questions and answers based on the content of the article.
