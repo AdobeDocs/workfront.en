@@ -184,3 +184,4 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 1. In the sharing box, click the drop-down menu to the right of the name of the user, team, role, group, company, or business profile you no longer want to have special access to the form, and select **Remove**.
 1. (Optional) Repeat the previous step for other names you want to remove.
 1. Click **Save**.
+
