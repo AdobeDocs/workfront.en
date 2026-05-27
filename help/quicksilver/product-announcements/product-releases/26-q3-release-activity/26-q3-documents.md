@@ -12,6 +12,24 @@ This page describes Documents enhancements made with the Third Quarter 2026 rele
 
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Add a custom message to a document approval workflow stage
+
+>[!NOTE]
+>
+>Preview: May 28, 2026
+>Production fast release: June 11, 2026
+>Production for everyone: July 16, 2026
+
+You can now add a custom message to each stage of a document approval workflow. The message appears in the approval email notification and in the Approvals tab in Workfront.
+
+* Use the same message for every stage, or a different message per stage.
+* Messages can include up to 500 characters.
+* If you edit a custom message after the approval workflow is created, an updated email notification is sent to all existing participants. If you add a participant later, the custom message is included in their email notification.
+
+This is available in both the legacy documents area (Workfront storage) and the new Documents area (Adobe cloud storage).
+
+For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
 ## View Experience Manager Assets and approval status badges in the Documents area
 
 >[!NOTE]

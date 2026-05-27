@@ -11,6 +11,20 @@ This page describes Reporting enhancements made with the Third Quarter 2026 rele
 
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Custom currency data fields in Canvas Dashboard reports
+
+>[!NOTE]
+>
+>Preview: May 28, 2026
+>Production fast release: June 11, 2026
+>Production for everyone: July 16, 2026
+
+Canvas Dashboard reports now support custom currency data fields as columns, filters, groupings, and aggregations, including when multiple exchange rates are configured in System Setup. When a custom currency data field is shown as a column or aggregation, values convert to the currency selected in the dashboard's exchange rate toggle, unless the field is locked at the report level.
+
+Reports that previously failed with a "restricted field" message after a second exchange rate currency was added now render. Planning currency fields remain restricted when multiple exchange rates are defined.
+
+For more information, see [Use currency fields in Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md).
+
 ## Improved data accuracy in Canvas dashboard reports
 
 >[!NOTE]
