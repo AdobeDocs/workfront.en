@@ -28,8 +28,8 @@ Each tool in the following tables is classified in the Action column as either a
 
 Your Workfront administrator controls which categories of tools the AI agentic platform can use through two toggles in System Preferences:
 
-* **Read-only MCP tools** — Enabled by default
-* **Write MCP tools** — Disabled by default
+* **Read-only MCP tools** (enabled by default)
+* **Write MCP tools** (disabled by default)
 
 If the AI agentic platform can find Workfront items but can't create, update, or delete them, ask your Workfront administrator to enable write actions. For more information, see [Admin prerequisites](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#admin-prerequisites) in *Configure the Adobe Workfront MCP server*.
 
