@@ -10,14 +10,21 @@ hide: true
 
 # Use the Adobe Workfront MCP server
 
+{{highlighted-preview-article-level}}
+
+
 The [!DNL Adobe Workfront] MCP server lets you find, create, update, and manage Workfront items by asking an AI agentic platform in natural language. The platform decides which Workfront actions to call and handles the conversation with Workfront for you.
+
+>[!IMPORTANT]
+>
+>Currently, the Workfront MCP server is available only to customers in the US region for customers using AWS.
 
 ## Prerequisites
 
 This article assumes you've already set up the connection. For information about setup, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 ## Available tools
 
-The Workfront MCP server exposes a set of tools that the AI agentic platform calls on your behalf — for example, tools to search Workfront, create items, update fields, and manage approvals. For the full reference list, grouped by Workfront area, see [Adobe Workfront MCP server tools](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md).
+The Workfront MCP server exposes a set of tools that the AI agentic platform calls on your behalf. For example, tools to search Workfront, create items, update fields, and manage approvals. For the full reference list, see [Adobe Workfront MCP server tools](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md).
 
 >[!IMPORTANT]
 >
@@ -34,7 +41,7 @@ After you're connected, type natural-language requests in your AI agentic platfo
 
 >[!NOTE]
 >
->Some actions might not be available because of admin controls in the Workfront Setup area. For example, you might not be able to create items if your admin has disabled write actions for the MCP server. 
+>Some actions might not be available because of admin controls in the Workfront Setup area. For example, you might not be able to create items if your Workfront administrator has disabled write actions for the MCP server. 
 
 
 ### Find and view your work
@@ -123,14 +130,14 @@ To force the AI agentic platform to fetch fresh data, ask for it explicitly. For
 
 You might want to periodically refresh your connection to the Workfront MCP server to ensure that you have the latest tools and capabilities.
 
-Most updates should happen automatically. However, you might want to check the Workfront release notes periodically.
+Most updates should happen automatically. However, we recommend checking the Workfront release notes periodically.
 
 
 ## Data and security
 
 The Workfront MCP server tools are consistent with how API calls work. Workfront doesn't store prompts, responses, or any other data. Whatever Workfront data you ask for is accessible in the Workfront platform.
 
-Your access level and object permissions determine what you can query for or write to Workfront. Your Workfront administrator has control of MCP read and writer actions in the Workfront Setup area.
+Your access level and object permissions determine what you can query for or write to Workfront. Your Workfront administrator has control of MCP read and write actions in the Workfront Setup area.
 
 ### What data leaves Workfront
 
@@ -149,7 +156,7 @@ Workfront does not have control over how the AI agentic platform provider handle
 |---|---|---|
 | The AI agentic platform is giving you outdated information. | The AI agentic platform is reusing data from earlier in the conversation. | Ask for fresh data from Workfront. |
 | The AI agentic platform returned data from the wrong Workfront items. | The AI agentic platform picked the wrong items based on ambiguous wording. | Ask again with more specific names, IDs, or filters. |
-| An update or delete didn't take effect in Workfront. | The AI agentic platform hasn't called the action yet, or your permissions don't allow it. | Confirm with the AI agentic platform that the action ran, then check your Workfront permissions. |
+| An update or delete didn't take effect in Workfront. | Your Workfront administrator has disabled write actions for the Workfront MCP server, or you don't have permission to perform the action on the specific item. | Confirm with the AI agentic platform that the action ran. Then check that write actions are enabled for the Workfront MCP server and that you have permission to change the item. |
 
 For more information about setup and authentication issues, see [Troubleshoot setup and authentication](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#troubleshoot-setup-and-authentication) in [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
@@ -158,7 +165,6 @@ For more information about setup and authentication issues, see [Troubleshoot se
 ## Frequently asked questions
 
 +++ Expand to view frequently asked questions about using the Workfront MCP server.
-
 
 ### What is an AI agentic platform?
 
@@ -192,6 +198,8 @@ Before you approve a request, read what the platform says it's about to do —
 the changes happen in Workfront the same way they would if you made them 
 yourself in the interface.
 
+<!--
+
 ### Can I undo something the AI agentic platform did in Workfront?
 
 Changes the AI agentic platform makes in Workfront work the same way as 
@@ -200,13 +208,12 @@ restoring a particular action (for example, restoring a deleted item from
 the Recycle Bin), the same options apply. If Workfront doesn't normally let 
 you undo an action, you can't undo it through the AI agentic platform either.
 
-<!-- VERIFY: Confirm what's restorable from the Recycle Bin for the object 
-types the MCP server can delete. -->
+-->
 
 ### Why did the AI agentic platform return the wrong Workfront items?
 
 The AI agentic platform picks items based on the words you used. If your 
-request is ambiguous — for example, two projects have similar names — it 
+request is ambiguous--for example, two projects have similar names--it 
 might pick the wrong one. Ask again with more specific names, IDs, dates, 
 or filters to narrow the results.
 
@@ -238,8 +245,6 @@ article.
 
 ### What happens when a new version of the Workfront MCP server releases?
 
-The MCP server updates automatically. You don't need to reconnect or change 
-anything. To see what's new, check the Workfront release notes periodically.
-
+The MCP server generally updates automatically, but you may need to refresh your connection to the MCP server at times to see the latest tools and capabilities.
 
 +++
