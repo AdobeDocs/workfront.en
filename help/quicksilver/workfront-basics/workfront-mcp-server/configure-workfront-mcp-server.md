@@ -44,7 +44,9 @@ Before you can connect Workfront to an AI agentic platform, you must:
 
 MCP server access is gated by two separate administrators. 
 
-* Your Workfront administrator controls MCP server access for your Workfront instance. Access is enabled by default in System Preferences, so no action is required unless your administrator has chosen to disable it. <!-- TODO: link to the System Preferences AI preferences article once the Enable MCP toggle is documented there. -->
+* Your Workfront administrator controls MCP server access for your Workfront instance through two toggles in System Preferences: **Read-only MCP tools** (enabled by default) and **Write MCP tools** (disabled by default). If you can find Workfront items through the AI agentic platform but can't create, update, or delete them, ask your Workfront administrator to enable write actions.
+
+   For more information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 * If you use an enterprise version of an AI agentic platform, your administrator for that platform must enable the [!DNL Adobe Workfront] connector for your organization or give you custom URL access to connect to the Workfront MCP server.
 
