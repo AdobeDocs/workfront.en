@@ -11,20 +11,6 @@ This page describes Reporting enhancements made with the Third Quarter 2026 rele
 
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-## Sort the Canvas Dashboards list by column
-
->[!NOTE]
->
->Preview: May 28, 2026
->Production fast release: June 11, 2026
->Production for everyone: July 16, 2026
->
->Canvas Dashboards is currently in beta.
-
-You can now sort the Canvas Dashboards list by clicking any of the following column headers: **Name**, **Description**, **Created by**, or **Create date**. Click the same header again to reverse the sort direction. By default, the list is sorted by the **Name** column from A to Z, and your sort order is preserved when you switch between tabs in the Canvas Dashboards list.
-
-For more information, see [Use Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
-
 ## Custom currency data fields in Canvas Dashboard reports
 
 >[!NOTE]
