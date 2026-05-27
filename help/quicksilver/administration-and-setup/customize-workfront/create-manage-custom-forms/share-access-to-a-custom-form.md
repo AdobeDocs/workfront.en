@@ -11,7 +11,7 @@ exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
 ---
 # Share a custom form
 
-{#preview-fast-release-general}
+{{preview-fast-release-general}}
 
 You can configure access for a custom form to control who—person, role, group, team, company, business profile—can view, share, and edit it.
 
