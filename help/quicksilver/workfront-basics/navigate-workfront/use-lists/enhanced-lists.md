@@ -1,7 +1,7 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Use Enhanced Lists
-description: Enhanced lists use a table format for displaying the list items, and they have a different look and feel than the standard lists
+description: Enhanced lists use a table format for displaying the list items, and they have a different look and feel than the standard lists.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
@@ -9,6 +9,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Use enhanced lists
+
+{{preview-fast-release-general}}
 
 Enhanced lists are available in some areas of Adobe Workfront. These lists use a table format for displaying the list items, and they have a different look and feel than the standard lists. The management of views is also enhanced, including filtering, grouping, managing columns, and searching.
 
@@ -82,7 +84,7 @@ Depending on which enhanced list you are viewing, do one of the following:
    * Currency: You must enter information in a number format preceded by a currency symbol.
    * Date: Use the calendar to select a date.
    * Date and time: Use the calendar to select a date and time.
-   * Single- or multi-select drop-down: Select one or multiple options from a drop-down menu. <span class="preview">If supported on the current list, you can create new options directly from the drop-down when no results are found.</span>
+   * Single- or multi-select drop-down: Select one or multiple options from a drop-down menu. <span class="preview">If supported on a list, you can create new options directly from the drop-down when no results are found.</span>
    * Typeahead: Type the name of an existing object (for example, the name of a group or a project) and choose the name from the list of suggestions.
    * Paragraph: You can enter multiple lines of alphanumeric information.
    * Assignee (one or multiple): Select one or more users as the assignee for the list item.
@@ -159,6 +161,8 @@ Depending on which objects you are viewing in an enhanced list, you can hide, sh
    An indicator appears on the **Columns** button when columns are hidden. The indicator does not appear when you reorder columns.
 
    ![Indicator for hidden columns](assets/glist-columns-hidden-indicator.png)
+
+   Some lists also allow you to drag and drop the columns themselves into the preferred order.
 
 ### Rename columns
 
