@@ -12,6 +12,8 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Use Canvas Dashboards
 
+{{highlighted-preview}}
+
 >[!IMPORTANT]
 >
 >The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.
@@ -35,6 +37,33 @@ To access Canvas Dashboards, navigate to the Dashboards section in Adobe Workfro
 1. In the left panel, click **Canvas Dashboards**.
 1. Click the name of an existing dashboard to open it.
     ![Open a dashboard](assets/open-dashboard.png)
+
+<div class="preview">
+
+## Sort the Canvas Dashboards list in Preview
+
+You can sort the Canvas Dashboards list by any of the following columns:
+
+* Name
+* Description
+* Created by
+* Create date
+
+To sort the list:
+
+1. In the left panel, click **Canvas Dashboards**.
+1. Click a column header to sort the list by that column. Click the same header again to reverse the sort direction.
+
+   By default, the list is sorted by the **Name** column from A to Z.
+
+   ![Sort the Canvas Dashboards list](assets/sort-canvas-dashboards-list.png)
+
+>[!NOTE]
+>
+>* Your sort order is preserved when you switch between tabs in the Canvas Dashboards list.
+>* Rows with empty values and dashboards named **Untitled dashboard** always sort to the bottom of the list, regardless of sort direction.
+
+</div>
 
 <!--
 ## Navigating the Dashboard
