@@ -167,6 +167,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Quarterly</strong></td>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Sort the Canvas Dashboards list by column</a>
+                <p>You can now sort the Canvas Dashboards list by clicking the Name, Description, Created by, or Create date column headers. Click the same header again to reverse the sort direction.</p>
+            </td>
+            <td><p>May 28, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Custom currency data fields in Canvas Dashboard reports</a>
                 <p>Canvas Dashboard reports now support custom currency data fields as columns, filters, groupings, and aggregations, including when multiple exchange rates are configured in System Setup.</p>
             </td>
