@@ -1197,5 +1197,3 @@ An app can be embedded on a Workfront custom form using the UI Extensions field 
 
 For information on how to organize a custom form with section breaks and see a preview of the form, see [Organize and preview a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
-
-
