@@ -5,7 +5,7 @@ title: Adobe Workfront MCP server tools
 description: Reference list of the tools available through the Adobe Workfront MCP server, grouped by Workfront area.
 author: Courtney
 feature: Get Started with Workfront
-hide: true
+
 ---
 
 # Adobe Workfront MCP server tools

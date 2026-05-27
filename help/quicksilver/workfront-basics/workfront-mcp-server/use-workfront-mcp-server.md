@@ -5,7 +5,7 @@ title: Use the Adobe Workfront MCP server
 description: Use the Adobe Workfront MCP server to search, create, update, and manage Workfront items through natural-language conversation in an AI agentic platform.
 author: Courtney
 feature: Get Started with Workfront
-hide: true
+
 ---
 
 # Use the Adobe Workfront MCP server
