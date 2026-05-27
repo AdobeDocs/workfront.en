@@ -43,6 +43,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
+<!--
+
 ## Configure sharing a custom field or widget from the list of forms
 
 {{step-1-to-setup}}
@@ -92,30 +94,27 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Click **Save**.
 
-## Configure sharing a custom field or widget from the form designer
+-->
+
+## Configure sharing a custom field or widget
 
 {{step-1-to-setup}}
 
 1. In the left panel, click **Custom Forms**.
-1. Open a custom form or create a new custom form.
-1. In the form designer, select the item you want to configure sharing for, then click **Share** in the field editing area on the right.
-1. In the box that displays, under **Grant custom form access to**, start typing the name of the user, team, job role, group, or company you want to share the item with, then press **Enter** when the name displays.
+1. To share from the list of forms and fields:
+   
+   1. Click **Fields** to open the Fields area.
+   1. Select the field you want to share, then click ![Share icon](assets/share-icon.png).
+
+1. To share from the form designer:
+   1. Open a custom form or create a new custom form.
+   1. In the form designer, select the field you want to share, then click **Share** in the field editing area on the right.
+
+1. In the sharing box, under **Grant field access to**, start typing the name of the user, team, job role, group, company, or business profile you want to share the item with, then press **Enter** when the name displays.
 1. If you want to be more specific about how you share the item, click the drop-down menu to the right of the name, then use any of the following options:
 
-    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-      <tbody> 
-       <tr> 
-        <td role="rowheader">View it</td> 
-        <td> <p>Click <strong>Advanced Settings</strong> to specify whether you want the users to be able to add the item to a custom form or share it with other users.</p> </td> 
-       </tr> 
-       <tr> 
-        <td role="rowheader">Manage it</td> 
-        <td> <p>Allows access to edit the custom field and see it both in the Field library and in the form designer.</p> <p>Click <strong>Advanced Settings</strong> to specify whether you want the users to be able to delete the item from the system or share it with other users.</p> </td> 
-       </tr> 
-     </tbody> 
-    </table> 
+   * **View**: Click the **Advanced Settings** icon ![Advanced Settings icon](assets/configure-options-icon.png) to specify whether you want the users to be able to add the item to a custom form or share it with other users.
+   * **Manage**: Allows access to edit the custom field and see it both in the Field library and in the form designer. Click the **Advanced Settings** icon ![Advanced Settings icon](assets/configure-options-icon.png) to specify whether you want the users to be able to delete the item from the system or share it with other users.
 
 1. (Optional) Repeat Steps 5-6 to add other names to the list and configure their options.
 1. (Optional) Choose a system-wide sharing option for the field:
@@ -125,6 +124,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
      When you add a custom field or widget and you don't limit sharing for it, everyone in the system who has access to custom forms can view it and edit its properties.
 
    * **Everyone in the system can view**
+
+      Everyone in the system who has access to custom forms can view the field but not edit it.
+
    * **Only invited people can access**
 
      Limits access to only those you added to the list.
@@ -135,7 +137,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Inherited access to custom fields and widgets when a custom form is shared
 
-When someone shares a custom form with a group, job role, team, or company, the recipients inherit View access to any custom fields and widgets that are on the form. This level of access to those items on the form is always retained so that the form can function for the recipients as intended by the person who created it. This is true even for recipients who have Edit access to the form.
+When someone shares a custom form with a group, job role, team, company, or business profile, the recipients inherit View access to any custom fields and widgets that are on the form. This level of access to those items on the form is always retained so that the form can function for the recipients as intended by the person who created it. This is true even for recipients who have Edit access to the form.
 
 You can find out who has inherited access to a custom field or widget and you can remove access to it.
 
@@ -154,4 +156,4 @@ You can find out who has inherited access to a custom field or widget and you ca
 
 ### Remove access to a custom field or widget in a custom form that was shared {#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared}
 
-If you need to remove access to a custom field or widget in a custom form that was shared, you need to unshare the form. For instructions, see the section [Remove access to a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form-from-the-list-of-forms) in the article [Share a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
+If you need to remove access to a custom field or widget in a custom form that was shared, you need to unshare the form. For instructions, see the section [Remove access to a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form) in the article [Share a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
