@@ -22,6 +22,7 @@ The [!DNL Adobe Workfront] MCP server lets you find, create, update, and manage 
 ## Prerequisites
 
 This article assumes you've already set up the connection. For information about setup, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+
 ## Available tools
 
 The Workfront MCP server exposes a set of tools that the AI agentic platform calls on your behalf. For example, tools to search Workfront, create items, update fields, and manage approvals. For the full reference list, see [Adobe Workfront MCP server tools](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md).
