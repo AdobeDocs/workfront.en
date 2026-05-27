@@ -12,6 +12,8 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Summary for documents overview
 
+{{highlighted-preview}}
+
 <!--Audited: April, 2024-->
 
 You can use the Summary panel to access and update important information directly from the documents list.
@@ -127,9 +129,11 @@ If your organization uses Adobe cloud storage, you will see the new Documents ar
 
 ### Details
 
-Use the Details section to view high-level overview information and interact with custom forms.
+Use the Details section to view high-level overview information, interact with custom forms, and <span class="preview">open the Print Summary</span>.
 
 ![Document summary details in new documents experience](assets/summary-details.png)
+
+
 
 ### Approvals
 
