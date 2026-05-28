@@ -11,7 +11,8 @@ This page describes enhancements made with the Third Quarter 2026 release to the
 
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-## Connect your AI agentic platform to Workfront with the Workfront MCP server
+
+## Connect Workfront to your AI tools with the Workfront MCP Server
 
 >[!NOTE]
 >
@@ -19,9 +20,13 @@ For a list of all changes available at this point in the Third Quarter 2026 rele
 >Production fast release: June 11, 2026
 >Production for everyone: July 16, 2026
 
-Work with Workfront from the AI agentic platform you already use. The new Workfront MCP server connects Workfront to a supported AI agentic platform, such as Claude or ChatGPT, so you can find, create, update, and manage Workfront items through natural-language conversation. Ask for your overdue tasks, push a project's finish date, send a reminder to approvers, or update a campaign budget, and your AI agentic platform does the work for you in Workfront.
+Your team's operational context lives in Workfront. Now, with the Workfront MCP Server, that context becomes actionable from within the AI tools your team already uses.
 
-The Workfront MCP server works with any MCP-compatible AI agentic platform — giving your teams a flexible foundation for AI-powered work in Workfront.
+Connect Workfront to any MCP-compatible AI platform, including Claude, ChatGPT, Copilot, Gemini, and more, and use natural language to find, create, update, and manage Workfront items without leaving your AI tool of choice. Ask for your overdue tasks, push a project's finish date, send a reminder to approvers, update a campaign budget--and your AI platform does the work for you in Workfront.
+
+And with Claude's AI skills and scheduled tasks, you can go even further--automating recurring workflows that run proactively against live Workfront data. For example, a Monday morning project briefing, a weekly capacity report, a monthly campaign health check -- set it once, and AI handles it automatically, grounded in the full context of your operation.
+
+This is the foundation of an agentic work management system--where AI is grounded in your richest operational data and humans and AI collaborate together to keep work moving at full velocity.
 
 >[!IMPORTANT]
 >
