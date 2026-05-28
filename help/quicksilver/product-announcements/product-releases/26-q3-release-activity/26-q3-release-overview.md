@@ -29,10 +29,63 @@ Live webinars are held for each quarterly release - these highlight the new feat
 
 ## Adobe Workfront enhancements
 
+* [Administrator enhancements](#administrator-enhancements)
 * [Documents enhancements](#documents-enhancements)
 * [Financial Management enhancements](#financial-management-enhancements)
 * [Reporting enhancements](#reporting-enhancements)
 * [Requests enhancements](#requesting-enhancements)
+* [Other enhancements](#other-enhancements)
+
+### Administrator enhancements
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Rich Text replacing Text with Formatting field type</a>
+                <p>The new <b>Rich text</b> field type in custom forms is a robust text editor, with formatting options such as superscript and subscript, headings, and tables, in addition to the traditional options of bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. The character limit remains 15,000.</p>
+            </td>
+            <td><p>May 28, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Native financial fields supported in custom forms</a>
+                <p>You can now include Workfront native financial fields in custom forms. Previously, the financial fields were not supported.</p>
+            </td>
+            <td><p>May 28, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Custom forms can be shared system-wide with access to attach</a>
+                <p>A new sharing option, "Everyone in the system can view and attach," has been added to custom forms. When you select this option, all users system-wide can attach the form to other objects.</p>
+            </td>
+            <td><p>May 28, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">New system preference to enforce required fields in bulk edit</a>
+                <p>A new system preference now allows you to enforce required fields in bulk edit, so that bulk edited objects cannot be saved unless all required fields have values.</p>
+            </td>
+            <td><p>May 28, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
 
 ### Documents enhancements
 
@@ -46,6 +99,26 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Preview</strong></td>
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
+        <!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Print summary for documents in the new Documents area</a>
+                <p>You can now open a printable summary of a document's approval directly from the new Documents area. This feature is available to organizations using Adobe cloud storage.</p>
+            </td>
+            <td><p>TBD</p></td>
+            <td><p>TBD</p></td>
+            <td><p>TBD</p></td>
+        </tr>
+        -->
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Add a custom message to a document approval workflow stage</a>
+                <p>You can now add a custom message to each stage of a document approval workflow. The message appears in the approval email notification and in the Approvals tab in Workfront.</p>
+            </td>
+            <td><p>May 28, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">View Experience Manager Assets and approval status badges in the Documents area</a>
@@ -105,6 +178,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Quarterly</strong></td>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Custom currency data fields in Canvas Dashboard reports</a>
+                <p>Canvas Dashboard reports now support custom currency data fields as columns, filters, groupings, and aggregations, including when multiple exchange rates are configured in System Setup.</p>
+            </td>
+            <td><p>May 28, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Improved data accuracy in Canvas dashboard reports</a>
                 <p>Canvas dashboard report queries are now structured to prevent duplicate rows when filters or fields cross related records, so counts, sums, and other aggregates return accurate values.</p>
             </td>
@@ -129,6 +211,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Quarterly</strong></td>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">Introducing new request statuses</a>
+                <p>To get more context about what state your requests are in, we are introducing new statuses for requests: New, On Hold, and Canceled. The "Completed" status has been renamed to "Complete".</p>
+            </td>
+            <td><p>May 27, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">Predefined views added to the requests list in the Requests area and the My Requests widget</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>To help you organize your request list better, we have added the predefined views to the requests list in the Requests area and the My Requests widget in Home.</p>
             </td>
@@ -138,6 +229,39 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
     </tbody>
 </table>  
+
+### Other enhancements
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Connect your AI agentic platform to Workfront with the Workfront MCP server</a>
+                <p>The new Workfront MCP server connects Workfront to a supported AI agentic platform, such as Claude or ChatGPT, so you can find, create, update, and manage Workfront items through natural-language conversation. Currently available only to customers in the US region using AWS.</p>
+            </td>
+            <td><p>May 28, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Enhanced list updates</a>
+                <p>Multiple field types on enhanced lists have been updated to include keyboard navigation and other enhancements.</p>
+            </td>
+            <td><p>May 28, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
 
 
 ## Release notes for other areas
@@ -183,10 +307,10 @@ For information on what's new and updated, see [What's new in API version 22](/h
 
 For information on API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-<!--
+
 ### Workfront Planning API version 2 
 
-Available for all customers: May 14, 2026.
+Available for all customers: May 28, 2026.
 
 Version 2 of Workfront Planning API is now available and it significantly expands the capabilities of Version 1. You can now create, update, and delete workspaces, record types, and fields programmatically, in addition to fully manage records.
 
@@ -200,7 +324,6 @@ For information, see Adobe Workfront Planning API basics (/help/quicksilver/plan
 
 For Workfront Planning API specifications, see the [Workfront Planning API](https://developer.adobe.com/wf-planning/) developer documentation.
 
--->
 
 ### Workfront Planning Trial is closing
 
