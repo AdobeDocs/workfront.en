@@ -47,3 +47,4 @@ For more information, see [Configure the Adobe Workfront MCP server](/help/quick
 After setup, you can ask your AI agentic platform to find, create, update, and manage Workfront items in natural language. 
 
 For more information, including example requests, things to keep in mind, and information about data and security, see [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
+

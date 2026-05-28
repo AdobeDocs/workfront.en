@@ -219,8 +219,7 @@ For day-to-day troubleshooting after you're connected (for example, stale result
 +++
 
 
-<!--
-+++
+
 
 ## Frequently asked questions about setup
 
@@ -236,4 +235,3 @@ Both your Workfront administrator and the administrator for your AI agentic plat
 
 +++
 
--->

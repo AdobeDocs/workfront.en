@@ -24,3 +24,4 @@ Once an attribute is added to a rate in Workfront, you can no longer edit that a
 
 For more information, see [Define rate attributes](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
+

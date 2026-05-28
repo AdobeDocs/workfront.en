@@ -54,3 +54,4 @@ Reference fields such as typeahead and external lookup fields have received some
 Also, the experience of dragging and dropping columns (on lists where drag and drop is available) has been improved visually.
 
 For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
