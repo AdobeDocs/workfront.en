@@ -90,7 +90,7 @@ You can connect the following:
    <p> In addition to Adobe Workfront, you must have the following, if you want to connect records with objects from the following applications:</p>
    <ul><li><p>An Adobe Experience Manager license and an integration between Adobe Experience Manager and Workfront to connect AEM assets or Content Fragments with Planning record types.</p>
    <p>For information, see <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p></li>
-   <li><p> An Adobe GenStudio for Performance Marketing license to connect record types with GenStudio Brands</p>
+   <li><p> An Adobe GenStudio for Performance Marketing license to connect record types with GenStudio Brands or to have access to the GenStudio workspace</p>
    <p>For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Get started with Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>   
@@ -402,12 +402,13 @@ After you create a connection between a record type and Adobe Experience Manager
 >[!NOTE]
 >
 >Planning records and their fields are accessible from Experience Manager Assets when your Workfront administrator configures the metadata mapping through the integration between Workfront and Adobe Experience Manager Assets. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>When you connect records from the GenStudio workspace in Planning to AEM objects (assets and content fragments), the GenStudio information automatically displays on the AEM objects in AEM. AEM information displays for GenStudio records in the lookup fields added when the connection is made in Workfront Planning. For information, see [Manage the GenStudio workspace in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md). 
 
 <!--
 metadata mapping is not available yet for content fragments - as of April 22, 2026. Syuzanna said the mapping is available just for GenS workspace, but checking again with her and Isk.
 -->
 
-To connect records with Experience Manager objects: 
+To connect records with Adobe Experience Manager objects: 
 
 {{step1-to-planning}}
 
@@ -418,7 +419,7 @@ To connect records with Experience Manager objects:
 1. Select a **Table** view from the **View** drop-down menu in the upper-left corner of the record type page.
 
 1. (Optional) Click **New record** to add new records to the record type that you selected. For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
-1. (Conditional) After you connect the selected record type with Experience Manager objects, go to the connected field on a record and either click the field, or click **Connect** to add Experience Manager objects to the record, then click the **+** icon.
+1. (Conditional) After you connect the selected record type with AEM objects, go to the connected field on a record and either click the field, or click **Connect** to add Experience Manager objects to the record, then click the **+** icon.
 
     >[!TIP]
     >
@@ -458,14 +459,20 @@ To connect records with Experience Manager objects:
 
     * The selected Experience Manager assets  or content fragments are added to the linked record field. 
     * The linked fields (or lookup fields) populate with information from the Experience Manager connected objects. 
-    
-      Any existing information from the fields of the Experience Manager assets or content fragments displays in the linked or lookup fields automatically. <!--verifying of fragments also share lookup fields - not sure from the UI available-->
 
       >[!TIP]
       >
       >* When you select to connect multiple records when connecting the record types, the values of the multiple objects display either separated by commas or aggregated according to the aggregator you choose.
       >
       >* A linked record field to the Workfront Planning linked records is not created for the linked Experience Manager assets in the Experience Manager Assets application. 
+
+      Any existing information from the fields of the Experience Manager assets or content fragments displays in the linked or lookup fields added to Planning automatically. 
+
+      If you connect GenStudio for Performance Marketing record types from the GenStudio workspace in Planning with AEM objects, you can view GenStudio information for campaigns, regions, personas, products, and channels in AEM. 
+
+      You must have an Adobe GenStudio for Performance Marketing license in addition to an AEM and a Workfront Planning license to view the GenStudio workspace in Workfront Planning. 
+
+      For information, see [Manage the GenStudio workspace in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
      
 1. (Optional and conditional) Go to the record type you linked to Experience Manager from and click the name of an asset in the linked record field. The Experience Manager details of the asset display in a pop-up window. <!--not sure if this is also possible for fragments??-->
 
