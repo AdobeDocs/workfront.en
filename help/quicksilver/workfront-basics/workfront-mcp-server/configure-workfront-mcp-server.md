@@ -12,7 +12,6 @@ feature: Get Started with Workfront
 
 {{highlighted-preview-article-level}}
 
-
 The [!DNL Adobe Workfront] MCP server lets you work with your Workfront data through natural-language conversation in a supported AI agentic platform.
 
 Before you can connect an AI agentic platform to Workfront, a Workfront administrator must enable MCP server access in your Workfront instance. The exact steps to connect an AI agentic platform are different for each supported AI agentic platform. 
