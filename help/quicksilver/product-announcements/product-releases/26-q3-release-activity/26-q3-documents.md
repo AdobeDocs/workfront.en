@@ -76,4 +76,3 @@ The Customer Info page in Setup now includes a new Storage Overview section with
 Workfront administrators automatically receive email notifications when storage usage reaches 75%, 85%, and 100% of the quota.
 
 For more information, see [Check document storage limits](/help/quicksilver/documents/managing-documents/check-document-storage.md).
-

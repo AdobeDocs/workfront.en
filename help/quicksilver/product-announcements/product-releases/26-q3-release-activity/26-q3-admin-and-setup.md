@@ -68,4 +68,3 @@ For more information, see [Share a custom form](/help/quicksilver/administration
 Currently, when bulk editing objects, required fields are only enforced when a user modifies the field. If a field is not modified, it is treated as optional and not validated.
 
 A new system preference now allows you to enforce required fields in bulk edit. To not allow bulk edited objects to be saved unless all required fields have values, select the option **Always enforce required fields in bulk edit** on the Setup > System > Preferences page.
-

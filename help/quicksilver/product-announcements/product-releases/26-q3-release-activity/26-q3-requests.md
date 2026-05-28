@@ -49,4 +49,3 @@ To help you organize your request list better, we have added the following prede
 A Workfront administrator can add or remove the views from a layout template. You cannot edit, delete, or share the views. You can copy them and update or share a copy.  
 
 For information, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
-
