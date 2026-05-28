@@ -9,7 +9,9 @@ recommendations: noDisplay, noCatalog
 ---
 # Third Quarter 2026 release activity for Adobe Workfront Planning
 
-<!--take the next sentence out when we start listing features-->
+<!--
+take the next sentence out when we start listing features
+-->
 
 <!--
 There are no features released during the Third Quarter Release for 2026. When features are released for this quarter, we will document them in this article. 
