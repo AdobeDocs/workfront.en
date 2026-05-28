@@ -144,6 +144,14 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td>Lets you choose to enable AI features that are currently in Beta. If you enable this option, you can then select which AI Beta features to enable. For more information about each AI Beta feature, click the information icon next to that feature.</td> 
      </tr>
      <tr> 
+      <td role="rowheader"><span class="preview">Read-only MCP tools</span></td> 
+      <td><span class="preview">Lets the Workfront MCP server perform read actions on Workfront data — for example, finding or listing projects, tasks, or other items. This option is enabled by default.<p>For more information about the Workfront MCP server, see <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configure the Adobe Workfront MCP server</a>.</p></span></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><span class="preview">Write MCP tools</span></td> 
+      <td><span class="preview">Lets the Workfront MCP server perform create, update, and delete actions on Workfront data. This option is disabled by default.<p>For more information about the Workfront MCP server, see <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configure the Adobe Workfront MCP server</a>.</p></span></td> 
+     </tr>
+     <tr> 
       <td role="rowheader">Test Environments</td> 
       <td>Lets you access your Workfront test environments. For more information, see <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">The Adobe Workfront Preview Sandbox Environment</a>.</p></td> 
     </tbody> 
