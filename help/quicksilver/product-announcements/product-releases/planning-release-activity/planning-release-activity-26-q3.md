@@ -27,23 +27,6 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 
 <!--
 
-## Planning Designer now available in Beta for all Workfront Planning customers
-
->[!NOTE]
->
->Preview: May 28, 2026 
->Production fast release: June 11, 2026 
->Production for everyone: July 16, 2026 
->[!BADGE In Beta]{type=Neutral}
-
-You can now use the Adobe Planning Designer powered by AI to configure your workspaces and data structures with ease. The Planning Designer supports everything from creating and configuring workspaces to defining fields and formulas, managing records, reviewing change history and building custom views.  
-
-Whether used directly or through the AI Assistant, the Planning Designer provides a flexible, powerful environment for building and maintaining structured, connected information. 
-
-A Workfront administrator can manage the availability of the Planning Designer from the System Preferences area in Setup.   
-
-For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
-
 ## New Sample workspaces tab added to the Planning landing page
 
 >[!NOTE]
@@ -129,6 +112,23 @@ When you choose to add a record from existing record types, you'll now immediate
 You can select and add one or multiple global record types at the same time directly from this screen.  
 
 For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).  
+
+## Planning Designer now available in Beta for all Workfront Planning customers
+
+>[!NOTE]
+>
+>Preview: May 28, 2026 
+>Production fast release: June 11, 2026 
+>Production for everyone: July 16, 2026 
+>[!BADGE In Beta]{type=Neutral}
+
+You can now use the Adobe Planning Designer powered by AI to configure your workspaces and data structures with ease. The Planning Designer supports everything from creating and configuring workspaces to defining fields and formulas, managing records, reviewing change history and building custom views.  
+
+Whether used directly or through the AI Assistant, the Planning Designer provides a flexible, powerful environment for building and maintaining structured, connected information. 
+
+A Workfront administrator can manage the availability of the Planning Designer from the System Preferences area in Setup.   
+
+For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
 
 ## Synchronize metadata from Planning to AEM Assets
