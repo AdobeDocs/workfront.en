@@ -305,10 +305,10 @@ For information on what's new and updated, see [What's new in API version 22](/h
 
 For information on API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-<!--
+
 ### Workfront Planning API version 2 
 
-Available for all customers: May 14, 2026.
+Available for all customers: May 28, 2026.
 
 Version 2 of Workfront Planning API is now available and it significantly expands the capabilities of Version 1. You can now create, update, and delete workspaces, record types, and fields programmatically, in addition to fully manage records.
 
@@ -322,7 +322,6 @@ For information, see Adobe Workfront Planning API basics (/help/quicksilver/plan
 
 For Workfront Planning API specifications, see the [Workfront Planning API](https://developer.adobe.com/wf-planning/) developer documentation.
 
--->
 
 ### Workfront Planning Trial is closing
 
