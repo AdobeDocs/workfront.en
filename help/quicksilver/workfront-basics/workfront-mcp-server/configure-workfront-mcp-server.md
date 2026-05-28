@@ -83,7 +83,6 @@ To connect Workfront to [!DNL Claude]:
 
 1. When prompted, log in to your Workfront instance.
 
-select preview env?
 
 1. After authentication completes, you're connected.
 
