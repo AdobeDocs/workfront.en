@@ -99,7 +99,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Preview</strong></td>
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
-        <!--<tr>
+        <!--
+        <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Print summary for documents in the new Documents area</a>
                 <p>You can now open a printable summary of a document's approval directly from the new Documents area. This feature is available to organizations using Adobe cloud storage.</p>
@@ -107,7 +108,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>TBD</p></td>
             <td><p>TBD</p></td>
             <td><p>TBD</p></td>
-        </tr>-->
+        </tr>
+        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Add a custom message to a document approval workflow stage</a>
