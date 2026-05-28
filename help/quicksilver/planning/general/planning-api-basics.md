@@ -61,7 +61,9 @@ The following are current supported versions:
 | Version 2 | May 2026   |
 
 <!--
+
 (*****************add deprecation date column above, when we have one*****************)
+
 -->
 
 
@@ -371,10 +373,7 @@ To group results, include a group array alongside sort:
 
 >[!NOTE]
 >
->Version 1 note: V1 uses `sorting` (not `sort`), `groupingFieldIds` (array of field IDs, not `group` objects), and the now-deprecated `rowOrderViewId` to apply an existing view's row order. None of these V1 parameters are supported in Version 2. 
-
-
----
+>Version 1 note: V1 uses `sorting` (not `sort`), `groupingFieldIds` (array of field IDs, not `group` objects), and the now-deprecated `rowOrderViewId` to apply an existing view's row order. None of these V1 parameters are supported in Version 
 
 ## Field projection
 
@@ -440,7 +439,9 @@ For more API-related documentation, also see the following articles:
 * [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md)
 * [Create OAuth2 applications for Workfront integrations](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
 
-<!--Our version of this article before Lilit replaced it with the above: 
+<!--
+
+Our version of this article before Lilit replaced it with the above: 
 
 The goal for the Adobe Workfront Planning API is to simplify building integrations with Planning by introducing a REST-ful architecture that operates over HTTP. This document assumes you are familiar with REST and JSON responses and describes the approach taken by the Planning API.  
 
@@ -461,8 +462,6 @@ For more information on External lookup fields, see [Examples of the External lo
 * Version 1 - released in July 2024 
 
   For more information, see the section [Workfront Planning API Version 1](#workfront-planning-api-version-1) in this article. 
-
-
 
 * Version 2 - released in May 2026
 
@@ -792,7 +791,6 @@ For example, if you want to return the results 2001-4000, you can use the follow
 
 `POST /v1/records/search`
 
-  
 
 Request body: 
 
@@ -811,7 +809,6 @@ To make sure your results are properly paginated, use a sorting parameter. This 
 
 For more information on sorting, see [Sorting query results in the API](#sorting-query-results-in-the-api) in this article.
 
-<!--
 
 Lilit did not want this organized like this - keeping this for reference: 
 
