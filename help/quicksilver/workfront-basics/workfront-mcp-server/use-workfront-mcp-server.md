@@ -249,4 +249,3 @@ article.
 The MCP server generally updates automatically, but you may need to refresh your connection to the MCP server at times to see the latest tools and capabilities.
 
 +++
-

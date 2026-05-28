@@ -218,9 +218,6 @@ For day-to-day troubleshooting after you're connected (for example, stale result
 
 +++
 
-
-
-
 ## Frequently asked questions about setup
 
 +++ Expand to view frequently asked questions about setting up the Workfront MCP server.
@@ -234,4 +231,3 @@ No. Each connection ties an AI agentic platform to a single Workfront instance. 
 Both your Workfront administrator and the administrator for your AI agentic platform. Your Workfront administrator enables MCP server access on the Workfront side. The administrator for your AI agentic platform enables Workfront access on that platform's side. For [!DNL Claude], the [!DNL Claude] Enterprise administrator enables the [!DNL Adobe Workfront] connector.
 
 +++
-
