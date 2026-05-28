@@ -13,6 +13,8 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Configure system preferences
 
+{{preview-fast-release-general}}
+
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
@@ -121,7 +123,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td role="rowheader">Enable the Priorities worklist </td> 
       <td>Lets you choose to enable or disable the Priorities worklist experience for your users. Users will still see the Priorities icons in Workfront, but they will not have access to the functionality. For more information about Priorities, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Get started with Priorities</a>.</td> 
      </tr>
-      <tr> 
+     <tr>
+      <td><span class="preview">Always enforce required fields in bulk edit</span></td>
+      <td><span class="preview"><p>Lets you choose whether to force users to enter information in required fields when bulk editing objects.</p> <p>When this option is selected, required fields must have values before saving in bulk edit mode. If the required field is missing a value for at least one bulk selected object, saving is not permitted.</p> <p>When this option is not selected, required fields are only enforced when a user modifies the field. If a field is not modified, it is treated as optional and not validated.</p></span></td>
+     </tr>
+     <tr> 
       <td role="rowheader">Enable Adobe cloud storage </td> 
       <td>Lets you choose to enable or disable Adobe cloud storage for your entire organization or for specific groups. For more information about Adobe cloud storage, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Enable Adobe cloud storage for your organization</a>.</td> 
      </tr>
@@ -135,7 +141,15 @@ For information, see [Access requirements in Workfront documentation](/help/quic
      </tr>
      <tr> 
       <td role="rowheader">Opt in to AI Betas </td> 
-      <td>>Lets you choose to enable AI features that are currently in Beta. If you enable this option, you can then select which AI Beta features to enable. For more information about each AI Beta feature, click the information icon next to that feature.</td> 
+      <td>Lets you choose to enable AI features that are currently in Beta. If you enable this option, you can then select which AI Beta features to enable. For more information about each AI Beta feature, click the information icon next to that feature.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><span class="preview">Read-only MCP tools</span></td> 
+      <td><span class="preview">Lets the Workfront MCP server perform read actions on Workfront data — for example, finding or listing projects, tasks, or other items. This option is enabled by default.<p>For more information about the Workfront MCP server, see <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configure the Adobe Workfront MCP server</a>.</p></span></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><span class="preview">Write MCP tools</span></td> 
+      <td><span class="preview">Lets the Workfront MCP server perform create, update, and delete actions on Workfront data. This option is disabled by default.<p>For more information about the Workfront MCP server, see <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configure the Adobe Workfront MCP server</a>.</p></span></td> 
      </tr>
      <tr> 
       <td role="rowheader">Test Environments</td> 

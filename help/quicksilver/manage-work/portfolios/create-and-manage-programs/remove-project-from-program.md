@@ -81,7 +81,7 @@ Old:
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 -->
 
-## Remove a project from a Program
+## Remove a project from a program
 
 1. Go to a program and click **[!UICONTROL Projects]** in the left panel.
 
@@ -93,4 +93,6 @@ Old:
 
    Click **[!UICONTROL Remove]** **[!UICONTROL from Program]** to remove it from the selected program.
 
-   If you clicked [!UICONTROL Remove from Program], the project is no longer associated with the selected program.
+   If you clicked [!UICONTROL **Remove from Program**], the project is no longer associated with the selected program.
+
+   If you clicked [!UICONTROL **Delete**], the project is deleted from Workfront and a Workfront administrator can recover it for up to 30 days from the Recycle Bin. 

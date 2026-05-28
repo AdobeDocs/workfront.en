@@ -2,31 +2,47 @@
 product-area: workfront-basics
 navigation-topic: workfront-mcp-server
 title: Adobe Workfront MCP server overview
-description: Learn what the Adobe Workfront MCP server does and how it lets you work with Workfront through natural-language conversation in an AI assistant.
+description: Learn what the Adobe Workfront MCP server does and how it lets you work with Workfront through natural-language conversation in an AI agentic platform.
 author: Courtney
 feature: Get Started with Workfront
-hide: true
+
 ---
 
 # Adobe Workfront MCP server overview
 
-The [!DNL Adobe Workfront] MCP (Model Context Protocol) server lets you work with your Workfront data through natural-language conversation in a supported AI assistant. Instead of clicking through Workfront to find a project, update a task, or check an approval, you ask the AI assistant in plain English, and the AI assistant does the work for you.
+{{highlighted-preview-article-level}}
 
-You don't need to know the Workfront API or anything about MCP to use the Workfront MCP server. Set up the AI assistant to talk to Workfront once, then start asking.
+The [!DNL Adobe Workfront] MCP server connects your Workfront instance to an AI agentic platform such as [!DNL Claude] or [!DNL ChatGPT]. From the AI agentic platform, you can find, create, update, and manage Workfront items by making natural-language requests.
 
-<!-- NEEDS DECISION: Keep "V1" / "initial release" framing in this section, or describe current capabilities as the product without versioning language? -->
+For example, you can ask:
 
-## Supported AI assistants
+* *Show me all active projects for the Brand Marketing team.*
+* *Update the "Design Review" task so it finishes on April 18.*
+* *Send a reminder to approvers on the asset "Spring Campaign Video" who haven't responded.*
 
-The Workfront MCP server currently supports the following AI assistants:
+You don't need to know the Workfront API or how MCP servers work to use the Workfront MCP server.
 
-* [!DNL Claude]
+>[!IMPORTANT]
+>
+>Currently, the Workfront MCP server is available only to customers in the US region for customers using AWS.
 
-<!-- NEEDS DETAIL: Update this list as Adobe adds support for additional AI assistants (for example, [!DNL ChatGPT], [!DNL Gemini], or [!DNL Microsoft Copilot]). -->
+## What an MCP server is
 
+An MCP server is a connection point that lets an AI agentic platform work with another system. The Workfront MCP server is what your AI agentic platform connects to so it can read and act on your Workfront data on your behalf.
 
-## Set up and use the Workfront MCP server
+MCP stands for Model Context Protocol. This is the standard that defines how AI agentic platforms and outside systems talk to each other.
 
-Before you can use the Workfront MCP server, a Workfront administrator must enable MCP server access in Workfront, and you must connect your AI assistant to Workfront. For more information, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+## Set up the connection
 
-After setup, you can ask the AI assistant to find, create, update, and manage Workfront items. For more information about available actions, example requests, and data handling, see [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
+The Workfront MCP server works with any MCP-compatible AI agentic platform, such as [!DNL Claude] or [!DNL ChatGPT]. Before you can use it, the following needs to happen:
+
+* A Workfront administrator must enable MCP server access in your Workfront instance.
+* You (or your administrator) must connect your AI agentic platform to Workfront.
+
+For more information, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+
+## Start using the Workfront MCP server
+
+After setup, you can ask your AI agentic platform to find, create, update, and manage Workfront items in natural language. 
+
+For more information, including example requests, things to keep in mind, and information about data and security, see [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
