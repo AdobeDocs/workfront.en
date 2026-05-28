@@ -11,6 +11,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 
 <!--
+
 Better metadata, at publishing:
 ---
 title: Manage the GenStudio Workspace in Adobe Workfront Planning
@@ -20,6 +21,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 ---
+
 -->
 
 <!--MUST update the access requirements below - not complete!!!!!!!!!-->

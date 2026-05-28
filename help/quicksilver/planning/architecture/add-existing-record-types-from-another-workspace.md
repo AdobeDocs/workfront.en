@@ -70,6 +70,7 @@ For more information about Workfront access requirements, see [Access requiremen
 +++   
 
 <!--
+
 Old:
 <table style="table-layout:auto"> 
 <col> 
@@ -108,6 +109,7 @@ And
   </tr>  
 </tbody> 
 </table>
+
 -->
 
 ## Create a record type by adding an existing one from another workspace

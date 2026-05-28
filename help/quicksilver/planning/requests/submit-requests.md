@@ -213,7 +213,7 @@ Not sure how to change the request status, but dev also said: Changing the names
          * **Status**: The status of the request.
          * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
         You can have multiple filters joined by either **And** or **Or**.
-         The request list is filtered automatically, as you add the filter conditions. 
+         The request list is filtered automatically, as you add the filter conditions.  
       * Click **Columns** to open the **Fields visibility and order** box, then hide, show, or rearrange the columns in the request list. 
          >[!TIP]
          >
