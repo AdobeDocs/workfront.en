@@ -157,3 +157,5 @@ You can find out who has inherited access to a custom field or widget and you ca
 ### Remove access to a custom field or widget in a custom form that was shared {#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared}
 
 If you need to remove access to a custom field or widget in a custom form that was shared, you need to unshare the form. For instructions, see the section [Remove access to a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form) in the article [Share a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
+
+
