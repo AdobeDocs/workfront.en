@@ -79,18 +79,15 @@ For information, see [Get Started with Adobe Workfront Planning and GenStudio fo
 
 ## Grant permissions to records
 
-***********CHECKING WITH LILIT ABOUT PREVIEW************ 
-
 >[!NOTE]
 >
->Preview: Not available
->Production fast release: May 28, 2026
->Production for everyone: May 28, 2026
->[!BADGE Off schedule]{type=Neutral}
+>Preview: May 28, 2026
+>Production fast release: June 11, 2026
+>Production for everyone: July 16, 2026
 
-You can now share individual records with users.  
+You can now adjust individual record permissions to control who can manage them within a record type. 
 
-By default, users inherit permissions from the workspace and the record type.  
+Users inherit record permissions from the workspace and record type by default. To give only select users with record type permissions Manage permissions to only certain records, you can disable inherited permissions on select records and grant only those users Manage access to those records. You can adjust permissions for one record, or for multiple records at the same time, in bulk.
 
 You can give users the following permissions levels: 
 
@@ -99,12 +96,10 @@ You can give users the following permissions levels:
 
 >[!NOTE]
 >
->* You cannot remove a user's permissions from a record at this time. If they have at least View permissions to the record type, they can view all the records of that type.  
->* Sharing records is not available in the Preview environment. It is only available in the Production environment.  
+>* A user's record-level permissions cannot exceed their record type permissions. For example, a user with View access to a record type cannot be granted Manage access to individual records of that type.
+>* You cannot remove a user's permissions from a record at this time. Any user with at least View access to the record type can view all records of that type.
 
 For information, see [Share records](/help/quicksilver/planning/access/share-records.md).
-
-
 
 ## New Sample workspaces tab added to the Planning landing page
 
