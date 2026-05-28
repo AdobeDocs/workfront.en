@@ -59,29 +59,29 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    ![Choose object types](assets/new-custom-form-select-objects-032526.png)
 
-+++ Expand to view the list of objects that support custom forms.
-
-* Project
-* Task
-* Issue / Request
-* Portfolio
-* Document
-* Program
-* Expense
-* User
-* Company
-* Iteration
-* Billing Record
-* Group
-* Team
-
-If you are on the Workflow Ultimate package, you can also create custom forms for these objects:
-
-* Job Role
-* Rate Card
-* Assignment
-
-+++
+   +++ Expand to view the list of objects that support custom forms.
+   
+   * Project
+   * Task
+   * Issue / Request
+   * Portfolio
+   * Document
+   * Program
+   * Expense
+   * User
+   * Company
+   * Iteration
+   * Billing Record
+   * Group
+   * Team
+   
+   If you are on the Workflow Ultimate package, you can also create custom forms for these objects:
+   
+   * Job Role
+   * Rate Card
+   * Assignment
+   
+   +++
 
 1. In the **Add a form name** area, type the custom form title.
 1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click **Object Types** in the form designer header. Select the object types you want to add, and de-select any object types you want to delete from the form.
