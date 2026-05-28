@@ -40,3 +40,4 @@ Canvas dashboards now structure report queries to prevent duplicate rows when fi
 Previously, a join between related records could repeat parent records once for each related record. For example, in a project report filtered to tasks assigned to a specific user, each project repeated once for every matching task. A KPI that summed project budget could show $6,000 instead of the correct $1,250.
 
 There are no changes to the Canvas dashboard interface. Existing reports automatically return accurate data after this release.
+

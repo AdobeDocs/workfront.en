@@ -186,4 +186,4 @@ When Adobe releases a new version of the Workfront MCP server, the AI agentic pl
 We are working on adding the following tools to the Workfront MCP server in the future:
 
 * Comments
-* Board
+* Boards
