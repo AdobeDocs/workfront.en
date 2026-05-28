@@ -12,7 +12,6 @@ feature: Get Started with Workfront
 
 {{highlighted-preview-article-level}}
 
-
 The [!DNL Adobe Workfront] MCP server lets you find, create, update, and manage Workfront items by asking an AI agentic platform in natural language. The platform decides which Workfront actions to call and handles the conversation with Workfront for you.
 
 >[!IMPORTANT]
@@ -249,4 +248,3 @@ article.
 The MCP server generally updates automatically, but you may need to refresh your connection to the MCP server at times to see the latest tools and capabilities.
 
 +++
-
