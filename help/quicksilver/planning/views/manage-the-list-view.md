@@ -16,11 +16,11 @@ git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
 -->
 
-<!--
+
 <span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -176,6 +176,9 @@ Removed - more direct steps below:
     1. Hover over the name of a column, then click the down-pointing arrow to the left of the column name, then click one of the following:
         * **Rename**, to add a **Custom label** for the column. The name of the original field in Workfront does not change. 
         * **Sort**, to sort the list by the selected field. A sorting icon indicating the direction of the sorting is added to the column header. 
+    1. Click the header of a column, then drag and drop it in another position in the list. 
+
+        You cannot move the first column. 
     1. Click the **+** icon in the upper-right corner of the list to add or remove columns to the list, then click **Save**. 
 
         The **Column manager** opens. 
@@ -246,6 +249,12 @@ Removed - more direct steps below:
 1. Double-click inside of a cell in the list to edit the information of a field, then press Enter to save your changes. 
 
     Some fields are read-only. For example, the percent complete of a project is a field calculated by the system and you cannot manually edit it. 
+
+1. (Conditional) For select type fields, use your keyboard arrows to navigate the list of options, then press the space bar to select the correct choice. 
+
+    <span class="preview">Use the **Search** line in select field types to find the right option.</span>
+
+    <span class="preview">You can add new options directly from the field cell when no results are found. This feature may not be available on all lists.</span>
 
 1. Hover over an item's name in the list and click the **More** menu [More menu](assets/more-menu.png) and click **View** to open the item in another tab
      
