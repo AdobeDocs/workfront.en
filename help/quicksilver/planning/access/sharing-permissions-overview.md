@@ -16,13 +16,9 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 # Overview of sharing permissions in Adobe Workfront Planning 
 
-<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
-
 
 {{planning-important-intro}}
 
@@ -54,7 +50,6 @@ You can manually share the following objects in Workfront Planning:
 
     For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
 
-<!--
 <div class="preview">
 
 * Records
@@ -66,8 +61,6 @@ You can manually share the following objects in Workfront Planning:
     For more information, see [Share records](/help/quicksilver/planning/access/share-records.md).
 
 </div>
-
--->
 
 * Views
 
@@ -184,11 +177,9 @@ The following scenarios exist:
 
 ### Permissions to records
 
-Record permissions are inherited from the record type, when you grant permissions to the workspace and the record type. 
+Record permissions are inherited from the record type, when you grant permissions to the workspace and the record type, by default. 
 
-<!--In the Production environment, -->
-
-The following are the levels of permissions for records: 
+In the Production environment, the following are the levels of permissions for records: 
 
 
 |        | Manage | Contribute | View  |
@@ -197,8 +188,6 @@ The following are the levels of permissions for records:
 | Delete | ✓      |     ✓       |       |
 | Edit   | ✓      |    ✓        |       |
 | View   | ✓      | ✓          | ✓     |
-
-<!--
 
 <div class="preview">
 
@@ -210,8 +199,6 @@ In the Preview environment, the following are the levels of permissions for reco
 | Delete | ✓      |       |
 | Edit   | ✓      |       |
 | View   | ✓      | ✓     |
-
-
 
 Record permissions are always inherited when you grant permissions to the workspace and the record type.
 
@@ -232,7 +219,6 @@ The following scenarios exist:
 >*When you remove permissions from a record, users still retain View permissions to the workspace and the record type, unless you remove their permissions from the workspace. 
 
 </div>
--->
 
 ### Permissions to record fields
 
@@ -278,8 +264,11 @@ The following are the levels of permissions for views and view elements:
 | View   | ✓     |
 | Apply  | ✓     |
 
-*Users must have View or higher permissions to a workspace to gain this view access.
+>[!NOTE]
+>
+>*Users must have View or higher permissions to a workspace to gain this view access.
             
+
 <!--
 old view permissions, before sharing View permissions to a view through a workspace:
 |        | Manage | View  |

@@ -46,11 +46,12 @@ With the integration between Workfront Planning and GenStudio for Performance Ma
 <!--check this list and ensure it's accurate and add/ remove some of the benefits-->
 
 * View the GenStudio workspace in Workfront Planning. 
-* Modify your campaigns, products, personas, and activations in GenStudio for Performance Marketing and have real-time updates of the same information in Workfront Planning. 
+* Modify your campaigns, products, personas, regions, and activations in GenStudio for Performance Marketing and have real-time updates of the same information in Workfront Planning. 
 * Modify your campaigns, products, personas, and activations in Workfront Planning and have real-time updates of the same information in GenStudio for Performance Marketing. 
 * Avoid duplicate data entry.
 * Maintain alignment across planning and activation efforts. 
 * Connect GenStudio Brands and their information to Workfront Planning records. 
+* Synchronize GenStudio information for campaigns, products, personas, regions, and channels to AEM Assets and Content Fragments when they connect to these record types in the GenStudio workspace in Planning. 
 
 ## Integration requirements
 
@@ -370,16 +371,23 @@ Consider the following about GenStudio record type fields:
 
 You can create connections between record types in GenStudio workspaces where you have Manage permissions. 
 
-<!--When AEM object types are connected to GenStudio record types, AEM object metadata reflects on Planning records-->
-
 You can make the following connections between GenStudio record types and other record or object types in Workfront Planning:
 
 * Two GenStudio record types
 * A GenStudio record type and a Planning record type from the same workspace
 * A GenStudio record type and a Planning record type from another workspace, if the record types are configured to connect from another workspace. 
 * A GenStudio record type and a Workfront object type (projects, portfolios, programs, companies, groups)
-* A GenStudio record type and an AEM object type. You must have a license for Adobe Experience Manager to access AEM objects, in addition to a license for Workfont Planning and for Adobe GenStudio for Performance Marketing. 
-* GenStudio record types and GenStudio Brands. The Brands connection is added to the Products and Personas record types by default. 
+* A GenStudio record type and an AEM object type (Assets or Content Fragments). You must have a license for Adobe Experience Manager to access AEM objects, in addition to a license for Workfront Planning and a license for Adobe GenStudio for Performance Marketing. 
+* A GenStudio record type and GenStudio Brands. The Brands connection is added to the Products and Personas record types by default. 
+
+### Metadata synchronization between GenStudio workspace records and AEM objects
+
+When AEM object types (assets and content fragments) are connected to GenStudio record types from the GenStudio workspace, the following information synchronizes between GenStudio records and AEM objects:
+
+* AEM assets and content fragments information displays in the GenStudio workspace in lookup fields added when the record types are connected. 
+* GenStudio record information displays on the AEM asset in the Campaign tab or on the content fragment in the Metadata tab in AEM. 
+
+    For information, see [Manage the GenStudio workspace in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 
 ### Request forms and automations in the GenStudio record type
 

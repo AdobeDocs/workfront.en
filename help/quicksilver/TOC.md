@@ -2191,7 +2191,7 @@ feature-set: Workfront
     * [Share workspaces](planning/access/share-workspaces.md)
     * [Share record types](planning/access/share-record-types.md)
     * [Share views](planning/access/share-views.md)
-    * {hide-from-toc} [Share records](planning/access/share-records.md)
+    * [Share records](planning/access/share-records.md)
     * [Request permissions to a view or a workspace](planning/access/request-permissions.md)
   * Adobe Workfront Planning records {#adobe-workfront-planning-records}
     * [Records: article index](planning/records/records-information.md) 
