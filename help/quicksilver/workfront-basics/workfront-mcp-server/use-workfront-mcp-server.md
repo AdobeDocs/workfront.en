@@ -20,6 +20,8 @@ The [!DNL Adobe Workfront] MCP server lets you find, create, update, and manage 
 
 ## Prerequisites
 
+* Your Workfront instance must be enabled on identity service manage ment (IMS)
+
 This article assumes you've already set up the connection. For information about setup, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
 ## Available tools
