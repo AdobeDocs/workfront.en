@@ -20,7 +20,10 @@ The [!DNL Adobe Workfront] MCP server lets you find, create, update, and manage 
 
 ## Prerequisites
 
-* Your Workfront instance must be enabled on identity service manage ment (IMS)
+* You must set up the connection between your AI agentic platform and the Workfront MCP server. For setup instructions, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+* Your Workfront instance must be enabled on Adobe Identity Management System (IMS).
+* You must have a Workfront account with the necessary access level and object permissions for the items you want to work with.
+
 
 This article assumes you've already set up the connection. For information about setup, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
@@ -248,5 +251,10 @@ article.
 ### What happens when a new version of the Workfront MCP server releases?
 
 The MCP server generally updates automatically, but you may need to refresh your connection to the MCP server at times to see the latest tools and capabilities.
+
+### Can I use the Workfront MCP server if my Workfront instance isn't enabled on Adobe Identity Management System (IMS)?
+
+No. Your Workfront instance must be enabled on Adobe Identity Management System (IMS) to use the Workfront MCP server. If you're not sure whether your instance is enabled on IMS, contact your Workfront administrator.
+
 
 +++
