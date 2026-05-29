@@ -79,7 +79,9 @@ To view a work item in the My Work widget:
 
 ## Access a team request in the Team Request widget
 
-You can access a request assigned to your team directly from the Team Requests widget in [!UICONTROL Home] area. For more information about team requests, see [Team requests overview](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
+You can access a request assigned to your team directly from the Team Requests widget in [!UICONTROL Home] area. The [!UICONTROL Team Requests] widget can display up to 2,000 requests for a team.
+
+For more information about team requests, see [Team requests overview](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
 
 To access a team request:
 
