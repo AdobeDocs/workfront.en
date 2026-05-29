@@ -244,6 +244,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Quarterly</strong></td>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Updated look and feel for comment notification emails</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Email notifications for comments in the Updates area have a new look and feel that aligns with the broader Adobe email design. The thread of preceding comments is no longer included in the email body.</p>
+            </td>
+            <td><p>Phased rollout, start date to be announced</p></td>
+            <td><p>Phased rollout, start date to be announced</p></td>
+            <td><p>Phased rollout, start date to be announced</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Connect your AI agentic platform to Workfront with the Workfront MCP server</a>
                 <p>The new Workfront MCP server connects Workfront to a supported AI agentic platform, such as Claude or ChatGPT, so you can find, create, update, and manage Workfront items through natural-language conversation. Currently available only to customers in the US region using AWS.</p>
             </td>
