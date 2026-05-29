@@ -55,17 +55,20 @@ The Planning API is versioned via the URL path.
 
 The following are current supported versions: 
 
-| Version   | Release date   |
-|-----------|----------------|
-| Version 1 | July 2024 |
-| Version 2 | May 2026   |
-
 <!--
 
 (*****************add deprecation date column above, when we have one*****************)
 
 -->
 
+| Version   | Release date   |
+|-----------|----------------|
+| Version 1 | July 2024 |
+| Version 2 | May 2026   |
+
+>[!NOTE]
+>
+>The Workfront Planning connector for Workfront Fusion has not been updated to API Version 2 and it will continue to use Version 1 until further notice.
 
 For more information about the current supported versions, see the article [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning).
 

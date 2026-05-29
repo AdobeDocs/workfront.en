@@ -12,11 +12,11 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 # Connect records 
 
-<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -108,7 +108,9 @@ You can connect the following:
   </tr>
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Contribute or higher permissions to a workspace and record type to connect records. </p>  
+   <td>   <p>Contribute or higher permissions to a workspace and record type to connect records.</p>
+   <p><span class="preview">Manage permissions to the record you are connecting from</span></p>
+   <p><span class="preview">View or higher permissions to the record you are connecting to</span></p>
    <p>View or higher permissions to a workspace and record type to view all connections to objects and fields from other applications, regardless of your access in the other application. </p>
    <p>View or higher permissions to the objects you want to link from Workfront or Experience Manager Assets. </p>
    <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p> </td> 
