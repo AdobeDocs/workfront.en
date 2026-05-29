@@ -12,6 +12,26 @@ This page describes enhancements made with the Third Quarter 2026 release to the
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
 
+## Updated look and feel for comment notification emails
+
+>[!NOTE]
+>
+>Production release for customers: Phased rollout, start date to be announced
+
+Email notifications for comments in the Updates area have a new look and feel that aligns with the broader Adobe email design.
+
+The updated email format includes:
+
+* A new Adobe Workfront header replacing the previous Workfront branding.
+* A streamlined layout that focuses on the most recent comment.
+* A primary **See it in Workfront** button to open the item directly.
+
+The thread of preceding comments is no longer included in the email body. To view earlier comments on the item, use **See it in Workfront** to open the conversation in Workfront.
+
+This change is rolling out to customers in phases. This page will be updated when the rollout schedule is confirmed.
+
+![updated comment notification email.png](assets/email-look-and-feel-update.png)
+
 ## Connect Workfront to your AI tools with the Workfront MCP Server
 
 >[!NOTE]
