@@ -16,32 +16,13 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 # Share records using a link
 
-<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 {{planning-important-intro}}
 
 To collaborate with other users, you can share records with others. 
-
-You can share an Adobe Workfront Planning record in the following ways: 
-
-* Copy the link of the record page from your browser when the page is open. 
-
-* Copy a link to the record's page when viewing records in the record type's table view.   
-
-* You can share all records in a workspace with other users by sharing the workspace and the record type.
-
-   For more information see the following articles:
-
-   * [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
-
-   * [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
-
-<!--
-When we release record-level permissions, replace the bullets above with these:
 
 You can share an Adobe Workfront Planning record in the following ways: 
 
@@ -65,8 +46,11 @@ You can share an Adobe Workfront Planning record in the following ways:
 
    * You can share individual records with people, teams, roles, groups, or companies.
 
+      For information, see [Share records](/help/quicksilver/planning/access/share-records.md). 
+
 </div>
--->
+
+
 
 <!--take out the sentence below when we release record-level sharing-->  
 
@@ -219,7 +203,7 @@ Old:
 
 You can share all records in a workspace when you share the workspace with others. 
 
-Record types and records inherit the same permissions from the workspace. 
+Record types and records inherit the same permissions from the workspace, by default. 
 
 Only users with Manage permissions to a workspace can share it with others. 
 
@@ -227,16 +211,30 @@ For more information, see [Share a workspace](/help/quicksilver/planning/access/
 
 ## Share all records in a record type by sharing the record type
 
-Records inherit permissions from the record type. 
+Records inherit permissions from the record type, by default. 
 
 By default, record types inherit permissions from the workspace. 
 
 However, you can do any of the following:
 
 * Disable inherited permissions from the workspace on a record type. This removes higher permissions to the records, but keeps View permissions to the workspace, record type, and records. 
-* Manually grant permissions to users to a record type, even when they have no permissions to the workspace. This automatically gives them View permissions to the workspace. This grants permissions to users to the records. 
+* Manually grant permissions to users to a record type, even when they have no permissions to the workspace. This automatically gives them View permissions to the workspace. This grants View permissions to users to the records, by default. 
 
 Only users with Manage permissions to a workspace can share its record types and records with others. 
 
 For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+
+<div class="preview">
+
+## Share individual records
+
+Users inherit record permissions from the workspace and record type by default. 
+
+To give only select users with record type permissions Manage permissions to only certain records, you can disable inherited permissions on select records and grant only those users Manage access to those records. 
+
+You can adjust permissions for one record, or for multiple records at the same time, in bulk. 
+
+For more information, see [Share records](/help/quicksilver/planning/access/share-records.md). 
+
+</div>
 

@@ -36,12 +36,10 @@ topic_v2:
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
 <!--this articles used to be called "Adobe Workfront Planning: article index"-->
 
-<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
 
 {{planning-important-intro}}
 
@@ -62,6 +60,7 @@ The following sections contain articles that describe in detail the features cur
     * Share views
     * Share workspaces (records and fields)
     * Share record types (records and fields)    
+    * <span class="preview">Share records</span>
 
 * [Architecture: article index](/help/quicksilver/planning/architecture/architecture-information.md) contains the following information:
 

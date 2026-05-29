@@ -158,7 +158,7 @@ OLD:
 
 ## Manage email notifications when requesting and granting permissions
 
-1. (Conditional and optional) After someone requests or grants you permissions to access a Planning object type, go to the email that informs you of the permission request. The sender of the email is Adobe Experience Cloud. 
+1. (Conditional and optional) After someone requests or grants you permissions to access a Planning object, go to the email that informs you of the permission request. The sender of the email is Adobe Experience Cloud. 
 
 1. (Optional) Click the message in the **Workfront** box inside the email. 
 
@@ -174,8 +174,7 @@ For information about managing your Workfront Planning notifications, see [Manag
 
 ## Manage email notifications about submitting, approving, or rejecting Workfront Planning requests
 
-1. (Optional) Go to the email that Workfront sends you 
-after you submit a request, or after a request you submitted has been approved or rejected. The sender of the email is Adobe Workfornt.
+1. (Optional) Go to the email that Workfront sends you after you submit a request, or after a request you submitted has been approved or rejected. The sender of the email is Adobe Workfornt.
 
 1. (Optional) Click **Open request**. This opens the request in Workfront Planning. 
 

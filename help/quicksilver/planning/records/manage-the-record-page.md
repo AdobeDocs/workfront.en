@@ -62,7 +62,7 @@ For information, see the following articles:
   <tr>
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
-   <p>Contribute or higher permissions to a workspace and record type </p>  
+   <p>Contribute or higher permissions to a workspace and record type and <span class="preview">Manage permissions to a record</span> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> 
   </td>
   </tr>   

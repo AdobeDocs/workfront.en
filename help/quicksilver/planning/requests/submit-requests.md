@@ -173,7 +173,7 @@ Not sure how to change the request status, but dev also said: Changing the names
       * **Subject**: The name of the original request as added in the Requests area. You cannot hide or remove the **Subject** field from the request list. The name has a link that opens the request page in Planning. 
       * **Created object**: The name of the record that was created from the request as it displays in Planning. The Created object name has a link that opens the record created from the request.
       * **Object type**: The name of the workspace and record type where there records was created from the request in Planning. 
-      * **Status**: The status of the request object. 
+      * **Status**: The status of the request object. For more information about request statuses, see [View submitted requests](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
       * **Request form**: The name of the request form associated with the record type in Planning. 
       * **Created object status**: The status of the created record.
    
