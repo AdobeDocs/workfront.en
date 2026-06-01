@@ -3,6 +3,13 @@ title: Workfront Proof mobile app
 description: Learn about the Workfront Proof mobile app.
 hide: true
 exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
+TQID: https://experienceleague.adobe.com/ckqEjDCVinM7RQjmY-weI-RQQrtvbiY9UjCgdTEswQ0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Workfront Proof mobile app
 

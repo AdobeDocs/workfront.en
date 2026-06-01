@@ -3,11 +3,21 @@ filename: api-changes-search
 content-type: api
 keywords: object,status,search,best,practice,response
 navigation-topic: api-navigation-topic
-title: 'Core API changes: Status search responses'
+title: "Core API changes: Status search responses"
 description: Changes in the way WorkFront stores status objects.
 feature: Workfront API
 role: Developer
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
+TQID: https://experienceleague.adobe.com/aV-wJXoO5uQBbw7O63g49rmH3CJkb4yL7nWtXLeoFu8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Core API changes: Status search responses
 

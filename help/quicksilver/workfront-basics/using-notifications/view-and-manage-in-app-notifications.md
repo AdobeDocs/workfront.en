@@ -1,10 +1,23 @@
 ---
 navigation-topic: notifications
 title: View and manage in-app notifications
-description: 'In-app notifications keep you informed about two types of information: announcement notifications and work item notifications. They are available from both the web application and the mobile application.'
+description: "In-app notifications keep you informed about two types of information: announcement notifications and work item notifications. They are available from both the web application and the mobile application."
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
+TQID: https://experienceleague.adobe.com/2PxHbwQ0pfjUTIThm5ATGXl4IKPZFV8pQeL8s9waOOw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # View and manage in-app notifications
 

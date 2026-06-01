@@ -7,6 +7,19 @@ description: As a [!DNL Workfront] Proof Billing Administrator or [!DNL Workfron
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a2bd8d41-896a-436e-b160-018081db1c95
+TQID: https://experienceleague.adobe.com/vG1lFxBLfhd7MZWPWlMXghVwxfDAZI5YL81HhRSI-MQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure custom profiles in [!DNL Workfront Proof]
 

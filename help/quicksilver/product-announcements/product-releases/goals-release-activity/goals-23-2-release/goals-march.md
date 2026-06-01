@@ -7,6 +7,13 @@ description: This page describes all enhancements made with the 23.2 release for
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 2397339a-7a78-41ee-8882-0606309e356c
+TQID: https://experienceleague.adobe.com/i-U6B9h7BqNT-I8ZvUlwTltW3i1J1olWb6-fqv1eKJc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Adobe Workfront Goals 23.2 release activity: Week of March 20, 2023
 

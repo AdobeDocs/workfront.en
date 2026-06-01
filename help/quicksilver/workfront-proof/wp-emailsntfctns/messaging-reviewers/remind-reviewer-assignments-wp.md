@@ -7,6 +7,19 @@ description: You can send a single message to a reviewer reminding them about mu
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb29f888-bc99-47ef-852f-1197efb2b41e
+TQID: https://experienceleague.adobe.com/QgADyJaadtQoow17rY7u5dZO9fKXNspU6cFQQR78VKE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Remind a reviewer about assignments in [!DNL Workfront Proof]
 

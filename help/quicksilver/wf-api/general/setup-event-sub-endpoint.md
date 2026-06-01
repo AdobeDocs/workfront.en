@@ -7,8 +7,14 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
+TQID: https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
-
 # Event Subscription delivery requirements
 
 Event subscription messages are notifications that can be setup to notify users when certain events occur. To learn more about what Event Subscriptions are see [FAQs - Event Subscriptions](../../wf-api/general/event-subs-faq.md).

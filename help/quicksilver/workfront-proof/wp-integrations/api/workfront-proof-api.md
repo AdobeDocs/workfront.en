@@ -8,6 +8,16 @@ description: If you are a developer with customers who could benefit from having
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 3b71baaf-8490-4479-bb95-da0b5d28ad15
+TQID: https://experienceleague.adobe.com/ANi6YHrHGou9XRM2ClrghBlFw6JOm54XJM8Mv44Sno8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # The [!DNL Workfront Proof] API
 

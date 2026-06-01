@@ -7,6 +7,16 @@ description: The [!DNL Adobe Workfront] app allows you to access your work on an
 author: Lisa
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
+TQID: https://experienceleague.adobe.com/kWm-sLAjufXyPrfcWM454uodOa8F6yswe6QnmR5m-Hw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # [!DNL Adobe Workfront] for [!DNL iOS]
 
