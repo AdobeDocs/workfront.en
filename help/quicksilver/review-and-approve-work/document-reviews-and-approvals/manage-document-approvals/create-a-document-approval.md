@@ -11,6 +11,8 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create a document approval workflow
 
+{{highlighted-preview}}
+
 You can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.
 
 >[!IMPORTANT]
@@ -28,7 +30,7 @@ You can request approval from other users or teams for a document in Adobe Workf
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any Workfront package to manage approvals using legacy Workfront storage</p>
-<p>Any Workflow package to manage approvals using Adobe enterprise storage</p> </td> 
+<p>Any Workflow package to manage approvals using Adobe cloud storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td>  
@@ -53,9 +55,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Create an approval workflow from the Summary panel in the legacy documents area
+## Create an approval workflow from the Summary panel in the legacy documents area in Production
 
-If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 To create an approval workflow:
 
@@ -98,15 +100,69 @@ To create an approval workflow:
    ![Document details](assets/new-stage.png)
 
 
-## Create an approval workflow from the Summary panel in the new Documents area
+<div class="preview">
 
-If your organization uses enterprise storage, you will see the new Documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+## Create an approval workflow from the Summary panel in the legacy documents area in Preview
 
-To create a an approval workflow:
+If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
+
+To create an approval workflow:
 
 1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. Click on the document, then click the Approvals icon on the right side of the page. 
+1. Click on the document you need and the Document Summary panel for that document opens.
+
+1. Select the version of the document you would like to create an approval for in the version drop-down menu. The latest version is selected by default.
+
+1. Scroll down to the **Approvals** section, then click **Create workflow**.
+
+1. Fill in the following details:
+
+   <table>
+   <tr>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
+   </tr>
+   <tr>
+   <td><strong>Only one decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
+   </tr>
+   <tr>
+   <td><strong>Due on (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
+   </tr>
+   <tr>
+   <td><strong>Add Custom Message (optional)</strong></td>
+   <td>Type a message in the <strong>Add Custom Message</strong> text box. The message appears in the approval email notification and in the Approvals tab in Workfront.
+   <p>When you add a second stage, <strong>Show this message on all stages</strong> is selected by default. Leave it selected to use the same message in every stage. To use a different message for each stage, clear <strong>Show this message on all stages</strong>, then type the stage-specific message in each stage's <strong>Add Custom Message</strong> text box as needed.</p></td>
+   </tr>
+   </table>
+
+1. (Optional) Repeat the previous step to add additional stages as needed.
+
+   >[!NOTE]
+   >
+   >* If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
+   >* If you edit a custom message after the approval workflow is created, an updated email notification is sent to all existing participants. If you add a participant later, the custom message is included in their email notification.
+
+   ![Add custom message to a stage](assets/add-custom-message.jpeg)
+
+</div>
+
+
+## Create an approval workflow from the Summary panel in the new Documents area in Production
+
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+To create an approval workflow:
+
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+
+1. Click on the document, then click the **Approvals** icon on the right side of the page.
 
    ![Add approvers in document summary](assets/approvals-icon-new.png)
 
@@ -138,6 +194,58 @@ To create a an approval workflow:
    >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
    ![Document details](assets/new-stage.png)
+
+
+<div class="preview">
+
+## Create an approval workflow from the Summary panel in the new Documents area in Preview
+
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+To create an approval workflow:
+
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+
+1. Click on the document, then click the **Approvals** icon on the right side of the page.
+
+   ![Add approvers in document summary](assets/approvals-icon-new.png)
+
+1. Click **Create workflow**, then fill in the following details:
+
+   <table>
+   <tr>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
+   </tr>
+   <tr>
+   <td><strong>Only one decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
+   </tr>
+   <tr>
+   <td><strong>Due on (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
+   </tr>
+   <tr>
+   <td><strong>Add Custom Message (optional)</strong></td>
+   <td>Type a message in the <strong>Add Custom Message</strong> text box. The message appears in the approval email notification and in the Approvals tab in Workfront.
+   <p>When you add a second stage, <strong>Show this message on all stages</strong> is selected by default. Leave it selected to use the same message in every stage. To use a different message for each stage, clear <strong>Show this message on all stages</strong>, then type the stage-specific message in each stage's <strong>Add Custom Message</strong> text box.</p></td>
+   </tr>
+   </table>
+
+1. (Optional) Repeat the previous step to add additional stages as needed.
+
+   >[!NOTE]
+   >
+   >* If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
+   >* If you edit a custom message after the approval workflow is created, an updated email notification is sent to all existing participants. If you add a participant later, the custom message is included in their email notification.
+
+   ![Add custom message to a stage](assets/add-custom-message.jpeg)
+
+</div>
 
 
 

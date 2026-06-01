@@ -15,11 +15,13 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 <!--
 Remove production and preview references at release
+-->
+
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 You can view the requests that you or someone else submitted, or requests you started but you never finished submitting. The unfinished requests are saved as drafts. 
 
@@ -95,7 +97,9 @@ Viewing submitted requests differs based on whether you are using the new or leg
 
 >[!NOTE]
 >
->* If you have Workfront Planning, your Workfront and Planning requests appear in the same list. Workfront requests display the value `Issue` in the **Object type** column.
+>* If you have Workfront Planning, your Workfront and Planning requests appear in the same list. 
+>     The **Object type** of a Planning request is named following this pattern: `< Name of workspace > > < Name of record type >`. For example, the Object type of a Planning request might be named `Marketing workspace > Campaigns`.  
+>     The **Object type** of a Workfront request is `Issue`.
 >* Up to 50 requests display in the list in the Requests area by default. To view more requests, scroll to the bottom of the list.
 
 You can view submitted requests in the Requests area and in the My Requests widget in Home.
@@ -128,18 +132,27 @@ To view requests that you or other users have submitted in the new requesting ex
 
    For more information on managing information in the requests list, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). 
 
-1. (Optional) Check the status of a request by checking the **Status** column. The following statuses are available in the new requesting experience:
+1. (Optional) Check the status of a request by checking the **Status** column. 
 
-   * **Draft**: This request has not yet been submitted.
-   * **Pending Review**: (Planning only) This request has approvers, and none of the approvers have opened the request. 
-   * **In Review**: (Planning only) This request has approvers and at least one approver has opened the request, but no decision has been made. 
-   * **Rejected**: (Planning only) This request has approvers and has been rejected. This request will not create a record. 
+   >[!IMPORTANT]
+   >
+   >Your Workfront administrator can configure some Workfront request statuses statuses in the **Setup** area. For information, see [Create or edit a status](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md). 
+   >
+   >Some Workfront request statuses and all Planning requests statuses are hard-coded by Workfront. You cannot customize them, rename them or add more of the same kind. 
+
+   The following statuses are available in the new requesting experience:
+
+   * <span class="preview">**New**: The request is new and no one has started to work on it. </span>
+   * **Draft**: This request has not yet been submitted. This status is hard-coded. 
+   * **Pending Review**: (Planning only) This request has approvers, and none of the approvers have opened the request. This status is hard-coded.
+   * **In Review**: (Planning only) This request has approvers and at least one approver has opened the request, but no decision has been made. This status is hard-coded.
+   * **Rejected**: (Planning only) This request has approvers and has been rejected. This request will not create a record. This status is hard-coded.
    * **In Progress**: 
       * Workfront requests: The request has been converted and the work is ongoing.
       * Workfront Planning requests: The request completion is mapped to a specific Planning field, and the field value does not yet match the completion value. 
-
-         For more information, see [Set up Configuration details](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) in the article Create and manage a request form in Adobe Workfront Planning.
-   * **Complete**: The request is completed.
+   * **On Hold**: This is available for Workfront requests, and manually set by the users.
+   * <span class="preview">**Canceled**: This is for Workfront requests.</span> <!--checking with Khach)-->
+   * <span class="preview">**Complete**: The Planning record has been created which completes the request. (Planning only)</span>
 
 ### View submitted requests in the legacy requesting experience
 
@@ -206,7 +219,7 @@ To view requests that you or other users have submitted in the legacy requesting
    >
    >* If the Summary panel is already opened, the Open Summary icon changes to Close Summary.
    >
-   >* If your organization uses Adobe enterprise document storage, you cannot add documents to Adobe-storage requests in the Summary panel.
+   >* If your organization uses Adobe cloud storage for documents, you cannot add documents to Adobe cloud storage requests in the Summary panel.
    >
    >For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

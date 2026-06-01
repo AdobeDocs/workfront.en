@@ -339,7 +339,11 @@ To edit tasks in a list when selecting the Manual save Standard option:
     </tbody> 
    </table>
 
-1. Workfront updates all in-project and cross-project dependencies when you make changes to the timeline of tasks. 
+1. Click a task in the list, then drag and drop it in a different position in the timeline. 
+
+   When you click a parent task to change its position, all the children are also moved. 
+
+   Workfront updates all in-project and cross-project dependencies when you make changes to the timeline of tasks. 
 1. Click **Save** when you want to keep your task changes permanently and save the timeline of the project.
 
 #### Save changes in a task list manually when you select the Manual save Timeline Planning option {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}
@@ -471,7 +475,7 @@ To edit tasks in a list when using the Manual save Timeline Planning option:
          <td role="rowheader">Documents</td> 
          <td><p>Add documents to the task.</p>
          <p><b>NOTE</b></p>
-         <p>If your organization uses Adobe enterprise document storage, you cannot add documents to tasks in the Summary panel for Adobe-storage tasks.</p>
+         <p>If your organization uses Adobe cloud storage for documents, you cannot add documents to tasks in the Summary panel for Adobe cloud storage tasks.</p>
          <p>For information, see <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Document management overview for projects and related objects</a>.</p>
       </td> 
       </tr> 

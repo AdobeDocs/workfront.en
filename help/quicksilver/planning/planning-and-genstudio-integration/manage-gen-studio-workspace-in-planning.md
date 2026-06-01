@@ -11,6 +11,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 
 <!--
+
 Better metadata, at publishing:
 ---
 title: Manage the GenStudio Workspace in Adobe Workfront Planning
@@ -20,6 +21,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 ---
+
 -->
 
 <!--MUST update the access requirements below - not complete!!!!!!!!!-->
@@ -371,17 +373,34 @@ CAN YOU DO THIS??
 
       Fields created from the GenStudio workspace are visible in the following areas:
 
-      * Workfront Planning views
-      * Workfront Planning record details 
-      * GenStudio record details
+      * Workfront Planning views in Workfront Planning
+      * Workfront Planning record details in Workfront Planning
+      * GenStudio record details in GenStudio for Performance Marketing
 
       >[!NOTE]
       >
-      >* You can add more fields only when you have Manage permissions in GenStudio.
+      >* You can add fields only when you have Manage permissions in GenStudio.
       >* Fields created in Workfront Planning are not visible in the list view in GenStudio.
       >
       >* You can connect any GenStudio record type to the Brands GenStudio record type. 
       >  Products and Personas are connected to Brands by default. 
+      >
+      >* You can connect GenStudio record types in Planning with AEM Assets or Content Fragments in Adobe Experience Manager. You must have an AEM license to be able to connect to AEM objects. 
+      >
+   
+1. (Conditional) If you connected GenStudio record types from the GenStudio workspace in Planning with AEM assets or content fragments, do the following to navigate to AEM and view GenStudio record information: 
+
+   1. (Conditional) From a connected AEM asset in the GenStudio workspace, click the name of the asset, then click the **Open in AEM** icon ![Open in AEM icon](assets/open-in-aem-icon.png) to open the asset in AEM. 
+   1. Click to select the **Campaign** tab in the right panel. 
+
+      The name of the campaign connected to the asset display in the **Campaign** field. This is a read-only field. 
+      If the asset is also connected to a **Region**, **Persona**, **Product** or **Channel** in the GenStudio workspace in Planning, the respective fields for these record types display their names in the **Campaign** tab of the asset in read-only mode. 
+   1. (Conditional) From a connected AEM content fragment in the GenStudio workspace in Planning, click the name of the content fragment, then click the **Open in AEM** icon ![Open in AEM icon](assets/open-in-aem-icon.png) to open the content fragment in AEM.  
+   1. Click the **Home** icon ![Home icon in AEM](assets/home-icon-in-aem.png) to go to a list of content fragments, then click the **information** icon ![Information icon in AEM](assets/info-icon-in-aem.png) to the right of the content fragment's name.
+   1. Click the **Metadata** tab in the right panel. 
+
+      The name of the campaign connected to the content fragment display in the **xdm: campaignName** field. This is a read-only field. <!--tried to log a bug to rename this field-->
+      If the asset is also connected to a **Region**, **Persona**, **Product** or **Channel** in the GenStudio workspace in Planning, the respective fields for these record types display their names in the **Metadata** tab on the content fragment in read-only mode. 
 
 1. Hover over a field in the table view, then click the drop-down menu to do one of the following:
 

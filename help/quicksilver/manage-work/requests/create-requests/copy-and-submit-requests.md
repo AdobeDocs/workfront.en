@@ -258,7 +258,7 @@ If your company purchased a Workfront Planning package, you cannot copy and subm
       Depending on how the request queue was set up, the Documents section might display before or after the custom fields.</p> <p> </p>
       <p>Depending on which document storage type your Workfront administrator selected for your environment, documents attached to requests are added to the following:</p>
       <ul><li>For requests using Workfront storage, documents are added to the Documents section of the newly created request.</li>
-      <li>For requests using Adobe enterprise storage, documents are added to a newly created folder by the same name as the request, automatically added to the request during the submission process. </li></ul>
+      <li>For requests using Adobe cloud storage, documents are added to a newly created folder by the same name as the request, automatically added to the request during the submission process. </li></ul>
       <p>Your Workfront instance might not have both types of document storage.</p>
       <p>Issue and request storage type is inherited from the project. </p>
       <p>For more information, see <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Document management overview for projects and related objects</a>.</p>

@@ -61,11 +61,6 @@ Or
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>  <p>Manage permissions to a workspace and a record type</p>  
    <p><b>IMPORTANT</b></p>

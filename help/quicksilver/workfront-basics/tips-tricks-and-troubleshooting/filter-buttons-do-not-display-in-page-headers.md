@@ -17,9 +17,7 @@ exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
   <tr>
    <td>Adobe Workfront package
    </td>
-   <td> <p>Prime or Ultimate</p>
-    <p>Workflow Ultimate</p>
-   </td>
+   <td>Any</td>
   </tr>
   <tr>
    <td>Adobe Workfront licenses

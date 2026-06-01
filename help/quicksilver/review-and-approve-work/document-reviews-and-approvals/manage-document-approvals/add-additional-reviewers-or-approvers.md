@@ -26,7 +26,7 @@ You can add additional approvers or reviewers to a document approval workflow th
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any Workfront package to manage approvals using legacy Workfront storage</p>
-<p>Any Workflow package to manage approvals using Adobe enterprise storage</p> </td> 
+<p>Any Workflow package to manage approvals using Adobe cloud storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -55,7 +55,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Add additional approvers or reviewers from the Document Summary in the legacy documents area
 
-If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 To add additional approvers or reviewers from the Document Summary:
 
@@ -82,7 +82,7 @@ To add additional approvers or reviewers from the Document Summary:
 
 ## Add additional approvers or reviewers from the Document Summary in the new Documents area
 
-If your organization uses enterprise storage, you will see the new Documents area when you access documents in Workfront. For more information about enterprise storage, see [Enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 
 1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.

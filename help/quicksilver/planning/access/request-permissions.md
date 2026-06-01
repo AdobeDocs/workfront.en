@@ -11,11 +11,11 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Request permissions to a view or a workspace
 
-<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 <!-- 
 no longer needed: 
@@ -71,7 +71,10 @@ Or
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>  <p>After your request for permission is granted, you could gain the following permissions:</p>
    <ul><li><p>View or Manage for a view</p></li>
-   <li><p>View, Contribute, or Manage for a workspace</p></li></ul>  
+   <li><p>View, Contribute, or Manage for a workspace</p></li>
+   <li><p>View, Contribute, or Manage for a record type</p></li>
+   <li><p><span class="preview">View or Manage for a record</span></p></li>
+   </ul>  
    <p>Only users with Manage permissions to a workspace and a view can share a view publicly.</p></td> 
   </tr> 
 <tr>
@@ -162,17 +165,22 @@ Or
 -->
 
 
-## Request permissions to a view or workspace
+## Request permissions 
 
-Requesting permissions to a view is similar to requesting permission to a workspace. 
+Requesting permissions to a view is similar to requesting permission to a workspace, a record type, or <span class="preview">a record</span>. 
 
-When someone shares with you a link to a workspace or a view where you do not have access:
+When someone shares with you a link to a workspace, record type, <span class="preview">record</span>, or a view where you do not have access:
 
 1. Click the link shared with you for the view or the workspace. 
     
     A **You have no access** page displays to inform you that you do not have access to the view or the workspace.
 
     ![Request access to view](assets/request-access-to-view.png)
+
+   >[!NOTE]
+   >
+   >When you don't have access to a record type or <span class="preview">record</span>, the You have no access to page shows that you must have access to the workspace. 
+
 
 1. (Conditional) If the link shared is for a view for a workspace where you have access, click **Open with existing view**. If you have permissions to access the workspace, the record type page opens in the default view.
 

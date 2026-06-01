@@ -281,7 +281,7 @@ For information about creating a project from a template, see [Create a project 
       <p><b>NOTES</b></p>
       <ul>
       <li>You must have Manage permissions to the portfolio to be able to add or remove it to the project.</li>
-      <li>If your organization uses both legacy Workfront and Adobe enterprise storage, you can't copy tasks between projects that use different storage types. Your Workfront instance might not have both types of document storage.</li></ul> 
+      <li>When your organization uses both legacy Workfront and Adobe cloud storage, you can't copy tasks between projects that use different storage types. Your Workfront instance might not have both types of document storage.</li></ul> 
       For more information, see <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Document management overview for projects and related objects</a>. 
       </td> 
       </tr> 
@@ -291,7 +291,7 @@ For information about creating a project from a template, see [Create a project 
       <p><b>NOTES</b></p>
       <ul>
       <li>You must have Manage permissions to the program to be able to add or remove it to the project.</li>
-      <li>If your organization uses both Workfront and Adobe document storage types, you cannot associate a Workfront-storage project with an Adobe-storage program. The reverse is also true. Your Workfront instance might not have both types of document storage. Programs inherit the storage type from the portfolio they belong to. </li></ul> 
+      <li>If your organization uses both Workfront and Adobe cloud storage for documents, you cannot associate a legacy Workfront storage project with an Adobe cloud storage program. The reverse is also true. Your Workfront instance might not have both types of document storage. Programs inherit the storage type from the portfolio they belong to. </li></ul> 
 
       For more information, see <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Document management overview for projects and related objects</a>. 
 
@@ -798,7 +798,7 @@ Consider the following when editing projects in bulk:
 
 * When you select multiple projects that belong to different groups, the statuses that display in the Status field are system-level statuses and not group-level statuses. 
 
-* When you select multiple projects that have different types of document storages and you want to update the Portfolio or the Program for the selected projects, you cannot associate a Workfront-storage project with an Adobe-storage portfolio. The reverse is also true. In this case, ensure you select only projects that have similar storage types at a time. 
+* When you select multiple projects that have different types of document storages and you want to update the Portfolio or the Program for the selected projects, you cannot associate a legacy Workfront storage project with an Adobe cloud storage portfolio. The reverse is also true. In this case, ensure you select only projects that have similar storage types at a time. 
 
    Your Workfront instance might not have both types of document storage.
 

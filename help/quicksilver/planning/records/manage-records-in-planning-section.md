@@ -14,11 +14,10 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 # Manage record connections from Workfront objects 
 
-<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+
 
 {{planning-important-intro}}
 
@@ -65,7 +64,7 @@ You can display Workfront Planning records in Workfront in the following areas o
    <p>In Workfront Planning:</p>
    <ul><li>View permissions to a workspace and record type to view any connected records </li>
    Or
-   <li> Contribute or higher permissions to a workspace and record type  to connect or disconnect records</a></li></ul> 
+   <li> Contribute or higher permissions to a workspace and record type and <span class="preview">Manage permissions to a record</span> to connect or disconnect records</a></li></ul> 
    <p>System Administrators have permissions to all Workfront Planning workspaces, including the ones they did not create</p> 
   </td>
   </tr>   

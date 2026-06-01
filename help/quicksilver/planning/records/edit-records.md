@@ -12,11 +12,10 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 # Edit records
 
-<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -56,7 +55,7 @@ For information about creating records, see [Create records](/help/quicksilver/p
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Contribute or higher permissions to a workspace and record type  </p>  
+   <td>   <p>Contribute or higher permissions to a workspace, record type, and <span class="preview">manage permissions to a record</span> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr>   
 </tbody> 
@@ -313,6 +312,8 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
     
     From the table view, click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) in the first column. The record's preview opens in the view.
 
+    <!--update screenshot for new details views preview-->
+
     ![Details box](assets/details-box.png) 
 
 1. (Optional) Click the **More** menu to the right of the record's title, then click **Rename**. This updates the field that displays as the record's title.
@@ -367,6 +368,8 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
         ![Contextual menu for record row](assets/contextual-menu-for-record-row.png)
     
         The record page opens.
+
+        <!--update screenshot for new details views preview-->
 
         ![Details page](assets/details-page.png)
 

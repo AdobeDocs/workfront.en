@@ -48,14 +48,8 @@ You can receive in-app notifications from Workfront Planning when the following 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>View or higher permissions to a workspace</a> </p>  
+   <td>   <p>View or higher permissions to a workspace </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
-</td>
   </tr> 
 </tbody> 
 </table> 

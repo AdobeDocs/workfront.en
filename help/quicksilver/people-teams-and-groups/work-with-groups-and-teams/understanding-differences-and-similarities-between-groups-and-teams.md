@@ -42,7 +42,7 @@ The following table illustrates differences and similarities between groups and 
 
 | **Functionality** |**Group** |**Team** |
 |---|---|---|
-| A Planner can create |  |✓ |
+| A Standard or Plan license user can create |  |✓ |
 | Only a Workfront administrator can create |✓ |  |
 | Share objects |✓ |✓ |
 | Assign a task |  |✓ |
@@ -61,7 +61,7 @@ The following table illustrates differences and similarities between groups and 
 | Visibility of Schedules |✓ |  |
 | Assign Timesheet Profiles  |✓ |✓ |
 | Assign Layout Templates |✓ |✓ |
-| Any user with a Plan license can assign it to another user |  |  ✓  |
+| Any user with a Standard or Plan license can assign it to another user |  |  ✓  |
 | Customize Statuses |✓  |  |
 | Customize the [!UICONTROL Done] button |  |✓ |
 | Track licenses |✓ |  |

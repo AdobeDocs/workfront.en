@@ -14,7 +14,7 @@ After you've linked an asset from Experience Manager Assets Essentials, you can 
 >[!NOTE]
 >
 >This functionality is not available in the new Documents area.<br>
->If your organization uses enterprise storage, you will see the new Documents area when you access documents in Workfront. From there, you can add assets from Experience Manager Assets and review and approve them with the Frame.io viewer. For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+>If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. From there, you can add assets from Experience Manager Assets and review and approve them with the Frame.io viewer. For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 ## Access requirements
 
