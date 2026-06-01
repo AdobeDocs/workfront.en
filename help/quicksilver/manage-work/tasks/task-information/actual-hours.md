@@ -110,6 +110,8 @@ Depending on what area of Workfront you access the actual hours from, they could
 >[!NOTE]
 >
 >It is recommended to use the Actual Hours field whenever possible, because the Legacy Actual Hours field could display inaccurate hours due to the way that increments are rounded when hours are stored in minutes.
+> 
+>All custom formulas using Legacy Actual Hours have been migrated to Actual Hours. Legacy Actual Hours can no longer be used in calculations and formulas.
 
 ## Actual Hours on tasks and issues vs. Actual Hours on projects
 
@@ -189,13 +191,17 @@ If you want to see the progress of the work your users are doing on their assign
   For information, see [View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
 
 
-### Actual Hours in the Workfront  API
+### Actual Hours in the Workfront API
 
 <!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
 
 Most Workfront fields that store hours are saved in the Workfront database in minutes. For example, the name of the Planned Hours field of a task is `workRequired` in the Workfront database and it is stored in minutes. 
 
-You must account for the conversion from minutes to hours when accessing these fields in API calls or in calculated custom fields or columns. 
+You must account for the conversion from minutes to hours when accessing these fields in API calls.<!-- or in calculated custom fields or columns.-->
+
+>[!NOTE]
+>
+>All custom formulas using Legacy Actual Hours have been migrated to Actual Hours. Legacy Actual Hours can no longer be used in calculations and formulas.
 
 The Actual Hours logged for projects, tasks, or issues are currently stored in the Workfront database as minutes and their valuefield is `actualWorkRequired`.
 
