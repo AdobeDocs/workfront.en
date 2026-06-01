@@ -146,6 +146,12 @@ Old:
    * **Workspaces I'm on** to access workspaces you created
    * **All workspaces** to access workspaces shared with you or workspaces you created
 
+   <!--
+   >[!NOTE]
+   >
+   ><span class="preview">You cannot edit the workspaces on the **Sample workspaces** tab. We recommend using the multi-workspace template bundle to create workspaces similar to those on the Sample workspace tab and edit your own. For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).</span> 
+   -->
+
 1. (Optional) Click **Show all** to display additional workspaces. The **Show all** link displays only when you have more than two rows of workspace cards.
 1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
 1. To edit a workspace, do one of the following:

@@ -382,7 +382,7 @@ To add a filter to a timeline view:
 
     ![Multi-tiered filter with breakdown for timeline view](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
 
-    <span class="preview">You can filters for breakdown record types only from the timeline view.</span>
+    <span class="preview">You can filter for breakdown record types only from the timeline view.</span>
 1. (Optional) Click **Filters** or anywhere else on the page to close the filters box. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 

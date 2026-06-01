@@ -47,17 +47,27 @@ A workspace is a collection of record types used by an organizational unit and i
       * **Other workspaces**: Displays all other workspaces in the system.
       
       <!--
-      * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span>
+      * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records, but you can add, edit, and share views with others.</span> (************TEST THIS WITH SYSTEM ADMINS AND STANDARD USERS**********)
       -->
 
-        <!--      
-        >[!NOTE]
-        >
-        ><span class="preview">We recommend not editing the sample workspaces, but instead using them as a reference to create your own.</span> 
-        -->
-
    * For all other users, workspaces they created and workspaces others shared with them display in the Workspaces area. 
-   <!--* <span class="preview">**Sample workspaces**: Displays for Standard-license users when a Workfront administrator shared the workspaces on the tab with them. The tab displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span> -->
+
+   <!--
+
+    ******************* If Standard users can see the Sample workspaces, then replace the last bullet with this: 
+
+   * For all other users:
+
+        * (****************what is the name of this tab????*******) Workspaces they created and workspaces others shared with them display in the Workspaces area. 
+        * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records, but you can add, edit, and share views with others.</span>
+    
+    -->
+
+    <!--      
+    >[!NOTE]
+    >
+    ><span class="preview">We recommend to not edit the sample workspaces, but instead to use them as a reference to create your own. Use the multi-workspace template bundle to create workspaces identical to the ones listed in the Sample workspaces tab. For information, see the section "Create multiple workspaces using a best-practice multi-workspace template bundle" in the article [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). </span> 
+    -->
 
 * The record types that a workspace contains should reflect the work lifecycle and concepts of an organizational unit. 
 

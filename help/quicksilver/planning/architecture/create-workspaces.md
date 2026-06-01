@@ -158,6 +158,8 @@ You can create workspaces in the following ways:
     
 1. (Optional and conditional) Click **Preview** inside any of the following predefined workspace templates:
 
+    * Operations Initiative Studio
+    * Communications Planning Studio
     * Basic: Marketing Management
     * Advanced: Marketing Management
     * Enterprise: Marketing Management
@@ -166,7 +168,7 @@ You can create workspaces in the following ways:
     
     The template preview box opens. 
     
-    There is an indication of what operational record types, taxonomies and how many fields are associated with each template.
+    There is an indication of what record types, sections, and how many fields are associated with each template.
 
     ![Previewing a workspace template](assets/previewing-a-workspace-template.png)
 
@@ -256,7 +258,7 @@ The templates included in the bundle contain workspaces, record types, records, 
     * 5.Fréscopa Global Events
     * 6.Fréscopa Executive Company Leadership
     
-1. After opening the **Preview** box for each workspace template, click Back to go back to the **Create workspace** box, or click Use templates to use the templates including in the bundle and create workspaces. 
+1. After opening the **Preview** box for each workspace template, click **Back** to go back to the **Create workspace** box, or click **Use templates** to use the templates including in the bundle and create workspaces. 
 
    The workspaces are created and display in the **Workspaces I'm** on and **All Workspaces** tabs for System administrators. All Standard-license users will see the workspaces in their Workspaces area after a System Administrator creates them and shares the new workspaces with them. 
 
