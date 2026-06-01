@@ -26,20 +26,18 @@ topic_v2:
 ---
 # Get started with the Adobe Workfront Planning free trial
 
-<!-- are we still calling the tab "Best practice workspaces"? If not, reword below-->
-
 <!--add screen shots-->
 <!--check the names of areas, buttons, and links: Learn more, Open Planning, Review trial agreement, etc-->
 
-<!--
-and remove the IMPORTANT below - it conflicts with this one: 
 >[!IMPORTANT]
 >
->The Adobe Workfront Planning trial period concludes on May 15, 2026. This article will remain active for a period of time but will be retired soon. We recommend that you update your bookmarks for the future.
--->
+>The Adobe Workfront Planning trial period concludes on May 15, 2026. This article will remain active for a period of time, but it will be retired soon. We recommend that you update your bookmarks for the future.
+
+The information in this article describes the functionality that was available during the Workfront Planning trial period. 
 
 Adobe Workfront Planning provides centralized visibility into your marketing lifecycle, enabling better collaboration across teams, real-time tracking of campaigns, and automated workflows. You can create custom workspaces and visualize work with interactive timelines and calendars.
 
+<!--
 >[!IMPORTANT]
 >
 >* Adobe Workfront is offering a 60-day free trial of Adobe Workfront Planning to all Adobe Workfront customers who are not also Workfront Planning customers. 
@@ -50,6 +48,7 @@ Adobe Workfront Planning provides centralized visibility into your marketing lif
 >
 >* Note that the trial is available for 60 days from its launch, and not for 60 days from when you joined it.
 >
+-->
 
 With this trial, you will see firsthand how Planning helps align daily work with strategic objectives, streamlines execution, and drives measurable results for your organization. 
 

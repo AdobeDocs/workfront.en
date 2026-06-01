@@ -72,7 +72,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 * By default, the creator of a project has permissions to manage the project and is also designated as the Project Owner. If the project is assigned to another owner, that user also has permissions to manage the project. When the project creator (or owner) shares the project with other users, they grant certain permissions to those users to control what they can do as they work on the project.
 
-  However, if a project owner does not have a Plan or Standard license, they do not have full access to manage the project. Only a user with a Plan or Standard license can have permissions to manage a project. For more information, see [How access levels and permissions work together](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  However, if a project owner does not have a Standard or Plan license, they do not have full access to manage the project. Only a user with a Standard or Plan license can have permissions to manage a project. For more information, see [How access levels and permissions work together](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 * You can share projects individually, or you can share several of them at a time. Sharing projects is identical to sharing other objects. For more information about sharing items in Workfront, see [Share an object](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md). 
 * You can grant the following permissions to a project:
@@ -92,7 +92,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 ## Limitations for different license types
 
 * Users with a Worker license don't have permissions to manage projects. For Workers, the highest sharing permission is Contribute. 
-* Users with a Request license can view project information, but they have limited project access. 
+* Users with a Contributor or Request license can view project information, but they have limited project access. 
 * An exception to changing the status of a project occurs when a user with View or Contribute permissions is also included in an approval process. They can approve the project, which changes the status of the project, but the status is the predefined status for approval or for rejection. 
 * To be able to copy a project, a user must also have access to create projects in their Access Level.
 

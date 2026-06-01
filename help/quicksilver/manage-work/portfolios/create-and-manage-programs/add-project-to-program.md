@@ -31,7 +31,7 @@ topic_v2:
 ---
 # Add a project to a program
 
-<!--Audited: 08/2025-->
+<!--Audited: 05/2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
@@ -129,40 +129,62 @@ old:
     <col> 
     <col> 
     <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Existing Project]</td> 
-      <td> <p>Add a project that has already been created.</p> </td> 
-     </tr> 
+     
      <tr> 
       <td role="rowheader">[!UICONTROL New Project]</td> 
       <td> <p>Add a new project from scratch. </p> <p>For more information about creating a project from scratch, see <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Import a Project from [!DNL MS Project]] </td> 
+      <td role="rowheader">[!UICONTROL New Project (Legacy storage)]</td> 
+      <td> <p>Add a new Workfront storage project. </p>
+      <p>The option displays only when your organization uses both Workfront and Adobe cloud document storage. Your Workfront instance might not have both types of storage.</p>
+      <p>For more information about creating a project, see <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">[!UICONTROL New Project from Template]</td> 
+      <td> <p>Add a new project using an existing template. </p> <p>For more information about creating a project from a template, see <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Create a project using a template</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Import [!DNL MS Project]] </td> 
       <td> <p>Add a project that you previously exported from [!DNL MS Project] and have saved on your computer. </p> <p>For more information about creating a new project by importing it from [!DNL Microsoft Project], see <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Import a project from [!DNL Microsoft Project]</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Request Project]</td> 
       <td> <p>Request that the new project is approved before you can start working on it.</p> <p>For information about requesting projects, see <a href="../../../manage-work/projects/create-projects/request-project.md">Requesting a Project</a>. </p> </td> 
      </tr> 
+     
      <tr> 
-      <td role="rowheader">[!UICONTROL New from Template]</td> 
-      <td> <p>Add a new project using an existing template. </p> <p>For more information about creating a project from a template, see <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Create a project using a template</a>.</p> </td> 
+      <td role="rowheader">[!UICONTROL Existing Project]</td> 
+      <td> <p>Add a project that has already been created.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Conditional) If you selected **[!UICONTROL Existing Project]**, the **Add Projects** box opens. <!--check at unshimming-->
+1. (Conditional) If you selected **[!UICONTROL Existing Project]**, the **Add projects** box opens. <!--check at unshimming-->
 
    ![Add existing projects to program box](assets/add-projects-to-programs-box.png)<!--check at unshimming-->
 
 1. Do the following:
 
-   1. In the **[!UICONTROL Add Projects]** box, type the name of a project in the **Add Projects to this Program** field, then select it when it displays in the list. <!--check casing on links and buttons-->
+   1. In the **[!UICONTROL Add projects]** box, type the name of a project in the **Add projects to this program** field, then select it when it displays in the list. <!--check casing on links and buttons-->
    
       You can add more than one project.
+
+      >[!NOTE]
+      >
+      >When your organization uses both legacy Workfront and Adobe cloud storage for documents, the following scenarios exist: 
+      >
+      >
+      >* When you add an Adobe cloud storage project to a legacy Workfront storage program and the program has no documents attached to it, the program and its portfolio are converted to an Adobe cloud storage object. 
+      >* When you add an Adobe cloud storage project to a legacy Workfront storage program and the program or the portfolio have documents attached to it, the program or the portfolio documents storage remains on Workfront storage. However, the legacy Workfront storage icon ![Legacy Workfront storage icon](assets/legacy-storage-project-icon.png) is removed from the program or the portfolio (whichever has documents attached before you move the project.)
+      >* You cannot add a legacy Workfront storage project to an Adobe cloud storage program. 
+      >
+      >For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+      >
+      >Not all Workfront instances have both types of document storages.
+
    1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the program.
    
-   1. Click **[!UICONTROL Add Projects]**. <!--check at unshimming-->
+   1. Click **[!UICONTROL Add projects]**. <!--check at unshimming-->
    
-      The project appears in the **[!UICONTROL Projects]** tab of the program and is now associated with the program and the program's respective portfolio. 
+      The project displays in the **[!UICONTROL Projects]** tab of the program and is now associated with the program and the program's respective portfolio. 

@@ -123,7 +123,7 @@ Consider the following when copying a task:
 
 * You can copy one task at a time, or you can copy multiple tasks at a time when you edit tasks in a list. 
 
-* If your organization uses both legacy Workfront and Adobe enterprise storage, you can't copy tasks between projects that use different storage types. 
+* When your organization uses both legacy Workfront and Adobe cloud storage, you can't copy tasks between projects that use different storage types. 
 
    For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

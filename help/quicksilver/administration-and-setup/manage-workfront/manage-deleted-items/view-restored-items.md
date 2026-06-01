@@ -28,7 +28,7 @@ topic_v2:
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-As an Adobe Workfront administrator or a user with a Plan license, you can view which projects, tasks, issues, and documents have been restored in the past 7 days.
+As an Adobe Workfront administrator or a user with a Standard or Plan license, you can view which projects, tasks, issues, and documents have been restored in the past 7 days.
 
 For information about how to restore a project, task, issue, or document after it has been deleted, see [Restore deleted items](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 

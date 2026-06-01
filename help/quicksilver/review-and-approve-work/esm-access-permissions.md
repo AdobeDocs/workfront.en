@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Object permissions and access level overview for the Adobe enterprise storage model
-description: Adobe enterprise storage permissions and access overview
+title: Object permissions and access level overview for the Adobe cloud storage model
+description: Adobe cloud storage permissions and access overview
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -20,35 +20,35 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 ---
-# Object permissions and access level overview for the Adobe enterprise storage model
+# Object permissions and access level overview for the Adobe cloud storage model
 
 <!--linked in UI -->
 
-Adobe enterprise storage is a cloud-based storage solution that serves as the central storage repository for assets across Adobe enterprise products. Workfront environments that use Adobe enterprise storage have slightly different object permissions and access level behaviors than those using legacy Workfront document storage. 
+Adobe cloud storage is a cloud-based storage solution that serves as the central storage repository for assets across Adobe enterprise products. Workfront environments that use Adobe cloud storage have slightly different object permissions and access level behaviors than those using legacy Workfront document storage. 
 
 ## Access levels
 
 Workfront access levels apply only within Workfront. Project and Document restrictions within Workfront don't always apply in other Adobe applications.
 
-### Environments using both Adobe enterprise storage and legacy Workfront storage
+### Environments using both Adobe cloud storage and legacy Workfront storage
 
-Document access behaves differently depending on whether the project is on Adobe enterprise storage or legacy Workfront storage: 
+Document access behaves differently depending on whether the project is on Adobe cloud storage or legacy Workfront storage: 
 
 * **Legacy Workfront storage**: Projects, programs, portfolios, and templates that use legacy Workfront storage follow standard Workfront access level logic for document access. When an access level has **No access** selected for documents, they are unable to see documents in Workfront or other Adobe products like Frame.io or Creative Cloud.
-* **Adobe enterprise storage**:  Projects, programs, portfolios, and templates that use Adobe enterprise storage follow Adobe enterprise storage access level logic for other Adobe products.
+* **Adobe cloud storage**:  Projects, programs, portfolios, and templates that use Adobe cloud storage follow Adobe cloud storage access level logic for other Adobe products.
 
 
     * **Projects, programs, portfolios, and templates object permissions**: When an access level has **No access** selected for projects, programs, portfolios, and templates but the object is shared with them, users are unable to see the object in Workfront, but they can still view the object name and any associated documents in other Adobe tools, such as Frame.io and Adobe Creative Cloud. 
-    * **Documents permissions**: When an access level has **No access** selected for documents, users are unable to see documents on projects in Workfront, but they can still view and manage documents for projects shared with them in other Adobe tools, such as Frame.io and Adobe Creative Cloud. This is because document access is determined by project-level permissions in Adobe enterprise storage, rather than Workfront access levels alone.
+    * **Documents permissions**: When an access level has **No access** selected for documents, users are unable to see documents on projects in Workfront, but they can still view and manage documents for projects shared with them in other Adobe tools, such as Frame.io and Adobe Creative Cloud. This is because document access is determined by project-level permissions in Adobe cloud storage, rather than Workfront access levels alone.
 
-If you have Adobe enterprise storage enabled in your Workfront environment, you can create both Adobe enterprise storage projects and legacy Workfront storage projects. Legacy Workfront storage projects show an icon next to the project name wherever it displays in Workfront. Adobe enterprise storage projects do not show an icon.
+If you have Adobe cloud storage enabled in your Workfront environment, you can create both Adobe cloud storage projects and legacy Workfront storage projects. Legacy Workfront storage projects show an icon next to the project name wherever it displays in Workfront. Adobe cloud storage projects do not show an icon.
 
 ![legacy workfront storage icon next to project name](assets/legacy-project-icon.png)
 
 
-### Environments using only Adobe enterprise storage
+### Environments using only Adobe cloud storage
 
-You cannot modify document permissions at the access level for projects, programs, and portfolios that use Adobe enterprise storage. 
+You cannot modify document permissions at the access level for projects, programs, and portfolios that use Adobe cloud storage. 
 
 All access levels have edit access to documents. Project-level permissions determine document access in other Adobe tools.
 
@@ -65,7 +65,7 @@ Object permissions determine what you can see and do with projects, tasks, issue
 
 >[!IMPORTANT]
 >
->In Adobe enterprise storage, document permissions work differently than in legacy Workfront storage. Documents inherit permissons from the project, task, or issue they are linked to.
+>In Adobe cloud storage, document permissions work differently than in legacy Workfront storage. Documents inherit permissons from the project, task, or issue they are linked to.
 
 
 ### How document permissions work

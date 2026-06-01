@@ -173,10 +173,10 @@ Old:
    >Some customers may have access to both of the following document storage environments: 
    >
    >  * **The legacy Workfront storage**: Portfolios using this storage have the legacy storage icon ![Legacy storage icon](assets/legacy-storage-project-icon.png) next to the name.
-   >  * **The Adobe enterprise storage**
+   >  * **The Adobe cloud storage**
    >
    >Your Workfront administrator decides which storage your company uses, or allows you to choose which storage you associate each portfolio with. 
-   >For more information, see [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md). 
+   >For more information, see [Enable Adobe cloud storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md). 
    >
    >Adding documents to portfolios differs depending on which type of storage you use. 
    >

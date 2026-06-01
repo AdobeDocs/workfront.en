@@ -51,4 +51,5 @@ This section contains the following subsections:
 * [Manage your account and profile](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md) 
 * [Mobile Apps](../workfront-basics/mobile-apps/mobile-apps.md) 
 * [AI Assistant in Workfront](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
+* [Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
 * [Tips, Tricks, and Troubleshooting for Adobe Workfront Basics](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)

@@ -45,9 +45,7 @@ If you need to share multiple objects with multiple people (in bulk), but you do
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
-
-You must have the following to share objects:
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,10 +56,9 @@ You must have the following to share objects:
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New license: Standard</p> 
-   Or
-   <p>Current license: Plan</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
@@ -79,7 +76,7 @@ You must have the following to share objects:
  </tbody> 
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

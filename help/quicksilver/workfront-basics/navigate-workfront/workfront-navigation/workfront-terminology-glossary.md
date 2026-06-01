@@ -67,7 +67,7 @@ topic_v2:
 
 <!--Audited: 04/2026-->
 
-Bob: 4-30
+<!--Bob: 4-30-->
 
 >[!IMPORTANT]
 >
@@ -733,6 +733,10 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>A menu, located on the left side of the screen, on which the items change to correlate with the active content. For example, when a user is viewing a project, the [!UICONTROL Contextual Menu] will display links to project-related information and tools.</td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL Contributor]</td> 
+   <td><p>Typically a license type. A user with a [!UICONTROL Contributor] license can submit requests for new work to occur in the system.</p> <p>For more information, see <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Access levels overview</a>.</p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Converted Issue Originator]</td> 
    <td>A field in a project or task report that displays information about the user who is the [!UICONTROL Primary Contact] of an issue when the issue is converted into a project or task. The field also displays in the [!UICONTROL Project Details]  section  where it displays the name of the [!UICONTROL Primary Contact] of the converted issue. See also "[!UICONTROL Primary Contact]" in this article.</td> 
   </tr> 
@@ -1318,11 +1322,15 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL License Limit Plan]</td> 
-   <td> <p>In a [!UICONTROL Group] view or report, this field shows the maximum number of [!UICONTROL Plan] licenses that can be assigned to users who have the respective group designated as their [!UICONTROL Home Group].</p> </td> 
+   <td> <p>In a [!UICONTROL Group] view or report, this field shows the maximum number of [!UICONTROL Standard] or [!UICONTROL Plan] licenses that can be assigned to users who have the respective group designated as their [!UICONTROL Home Group].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL License Limit Work]</td> 
    <td> <p>In a [!UICONTROL Group] view or report, this field shows the maximum number of [!UICONTROL Work] licenses that can be assigned to users who have the respective group designated as their [!UICONTROL Home Group].</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Light]</td> 
+   <td><p>Typically a license type. A user with a [!UICONTROL Light] license has the ability to review and approve work items in the system.</p> <p>For more information, see <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Access levels overview</a>.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Limited User]</td> 
@@ -1483,6 +1491,27 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL On Change Only]</td> 
    <td> <p>One of the [!UICONTROL Project Update] Types. When this is selected, the [!UICONTROL Project Projected] and [!UICONTROL Planned] timelines update only when an update or change is made to the project or to a task within the project. It does not update the project every night.</p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p> </td> 
+  </tr> 
+
+</tr>
+  <tr> 
+   <td>[!UICONTROL On legacy Workfront storage]</td> 
+   <td>  <p>The legacy Workfront storage icon <img src="assets/legacy-storage-project-icon.png"> indicates that an object is associated with Workfront document storage. </p> 
+   <p>The icon displays near the name of an object, in the object header or in some lists. </p>
+   <p>Some customers have both legacy Workfront and Adobe cloud document storage. Documents can be stored in either of these environments for customers that have both types of storage.</p>
+   <p>The following objects can have either Workfront or Adobe cloud document storage:</p>
+   <ul><li>Projects</li>
+   <li>Portfolios</li>
+   <li>Programs</li>
+   <li>Templates</li>
+   <li>Tasks</li>
+   <li>Issues</li>
+   <li>Template tasks</li></ul>
+   <p>Only projects, portfolios, programs, and templates can display the On legacy Workfront storage icon. </p>
+   <p>Your Workfront instance might not have both types of document storage. 
+  <p>For more information, see <a href="/help/quicksilver/review-and-approve-work/esm-overview.md">Adobe cloud storage overview</a>. </p>
+   
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Op Task]</td> 
@@ -2173,7 +2202,11 @@ The designated full time equivalency for users. A full-time user should have 100
     <li>The Project Name or Task Name columns to an issue report. </li> </ul>
     For more information, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">Run and deliver a report with the access rights of another user</a> 
    </td> 
-  </tr> 
+  </tr>
+  <tr>
+   <td>[!UICONTROL Standard]</td> 
+   <td> <p>This is a full license type in the [!DNL Workfront] system. Users must have this to access all of the features in [!DNL Workfront].</p><p>For licenses in this model, there is no equivalent of Work. Users who previously had a Work license become Standard users with all the functionality of that license.</p> <p>For more information, see <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Access levels overview</a>.</p> </td> 
+  </tr>  
   <tr> 
    <td>[!UICONTROL Start Date]</td> 
    <td> <p>The Date when the work on an item is set to start. There are several Start Dates in [!DNL Workfront]: </p> 
@@ -2610,3 +2643,4 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
  </tbody> 
 </table>
+

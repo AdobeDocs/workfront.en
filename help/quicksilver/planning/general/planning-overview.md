@@ -137,7 +137,7 @@ The following features are currently available in Workfront Planning:
 -->
 
 <!--
-OLD: 
+<table style="table-layout:auto"> 
 
 |       Feature                                      |     Available now  |     Coming soon   |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -184,6 +184,8 @@ OLD:
 |     Workfront Planning public API                                 |      ✓                         |                                  |                 |
 |     Workfront Planning AI Assistant*                                 |      ✓                         |                                  |                 |
 |     Reporting on Workfront Planning information (Canvas Dashboard)                              |                               |       ✓                           |                 |
+</table>
+
 -->
 
 ## Enable Workfront Planning for the users in your Workfront instance
@@ -264,13 +266,27 @@ You can create a workspace using predefined templates. You can use the predefine
 
 Adobe Workfront Planning contains the following templates:
 
+* Operations Initiative Studio
+* Communications Planning Studio
 * Basic: Marketing Management
 * Advanced: Marketing Management
 * Enterprise: Marketing Management
 * Sales Management
 * Product Management
 
-For more information, see [List of workspace templates](/help/quicksilver/planning/architecture/workspace-templates.md).
+System administrators can also install 6 workspaces when they use the best-practice, multi-space template. The multi-space template contains the following templates which generate 6 separate but connected workspaces at the same time: 
+
+* 1.Global Classifications & Taxonomies
+* 2.Fréscopa Global Marketing
+* 3.Fréscopa Social Marketing
+* 4.Fréscopa Media & PR
+* 5.Fréscopa Global Events
+* 6.Fréscopa Executive Company Leadership
+
+For more information, see the following articles:
+
+* [List of workspace templates](/help/quicksilver/planning/architecture/workspace-templates.md).
+* [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). 
 
 ### Fields
 

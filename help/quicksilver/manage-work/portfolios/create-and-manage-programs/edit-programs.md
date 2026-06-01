@@ -167,6 +167,15 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td role="rowheader">[!UICONTROL Group]</td> 
       <td> <p>Add the name of a single group if the group is associated with the program or has responsibility for completing it. </p> <p><b>TIP</b></p>  <p>When accessing the [!UICONTROL Group] field from the [!UICONTROL Program Details] page, do the following to make sure you are selecting the right group: </p> <p>Hover over the group name and click the [!UICONTROL information] icon <img src="assets/info-icon.png"> next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>This option is not available in the [!UICONTROL Edit Program] box. </p> </p> </td> 
      </tr> 
+
+   <tr> 
+      <td role="rowheader">[!UICONTROL Is Active]</td> 
+      <td> <p>Check this setting if you want this program to be active and for users to find it to associate it with projects.</p>
+   <p>When unchecked, the program does not display in the Program field for a project or a template. </p>
+   <p>This setting is checked by default. </p>
+   </td> 
+     </tr> 
+
     </tbody> 
    </table>
 

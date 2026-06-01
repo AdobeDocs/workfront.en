@@ -134,20 +134,20 @@ Old:
 
 1. (Conditional) Depending on which document storage your organization is using, click one of the following:
 
-    * **New Template**, when the Workfront administrator chooses either **Adobe Enterprise**, or **Legacy Workfront**, and they did or did not select the **Allow user to select storage provider** setting. 
-    * **New Template (Legacy storage)**, when the Workfront administrator chooses either **Adobe Enterprise**, or **Legacy Workfront**, and they also selected the **Allow user to select storage provider** setting. 
+    * **New Template**, when the Workfront administrator chooses either **Adobe cloud storage**, or **Legacy Workfront**, and they did or did not select the **Allow user to select storage provider** setting. 
+    * **New Template (Legacy storage)**, when the Workfront administrator chooses either **Adobe cloud storage**, or **Legacy Workfront**, and they also selected the **Allow user to select storage provider** setting. 
 
       This option displays only when the **Allow user to select storage provider** setting is selected in the Setup area.
 
-      For more information, see [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md). 
+      For more information, see [Enable Adobe cloud storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md). 
 
       A template is created and its default name follows the following patterns, depending on which storage Workfront uses for documents: 
 
       * **Untitled Template** for a Worfront-storage template.
 
-        A Workfront-storage template displays a **Legacy Workfront storage** icon ![Legacy-storage project icon](assets/legacy-storage-project-icon.png) next to its name. 
+        A legacy Workfront storage template displays a **Legacy Workfront storage** icon ![Legacy-storage project icon](assets/legacy-storage-project-icon.png) next to its name. 
 
-      * **Untitled Template - < Month day, year hour.minute.second >** for an Adobe-storage template
+      * **Untitled Template - < Month day, year hour.minute.second >** for an Adobe cloud storage template
 
         >[!IMPORTANT]
         >

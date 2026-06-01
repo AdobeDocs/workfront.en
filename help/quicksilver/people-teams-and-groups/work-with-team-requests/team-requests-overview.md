@@ -27,7 +27,7 @@ Team requests are found in the [!UICONTROL Teams] area in the [!UICONTROL Main M
 >
 >Agile teams do not have team requests.
 
-The [!UICONTROL Team Requests] tab shows the requests awaiting assignment for the team that is currently selected in the drop-down list. The number in parentheses indicates how many items are ready to be worked on.
+The [!UICONTROL Team Requests] tab shows the requests awaiting assignment for the team that is currently selected in the drop-down list. The number in parentheses indicates how many items are ready to be worked on. The [!UICONTROL Team Requests] tab can display up to 2,000 requests for a team.
 
 A team request represents a pending work item that is not assigned to a specific user. Instead, it is assigned to a team, and any member of that team can volunteer to accept responsibility for the item. If a user volunteers to work on a team request, the user is accepting the work assignment as their own. The task is assigned to the individual user in addition to the team.
 

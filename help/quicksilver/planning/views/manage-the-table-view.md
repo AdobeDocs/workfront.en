@@ -584,7 +584,7 @@ To sort grouped records:
     >
     >* If the Apply to the entire row setting is turned off, only the left side of the Primary field displays a narrow color indicator with the selected color. The setting is turned off by default.
     >
-    >* You cannot apply row colors to an entire row when you have at least one grouping selected in the table view. 
+    >* You cannot apply row colors to an entire row when you have at least one grouping selected in the table view. The role color only applies to the left of the primary field cell when grouping are applied to the table. 
 
 1. Click outside the **Row colors** box to close it. The colors are applied automatically.
 

@@ -4,7 +4,7 @@ product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 title: Edit an Approval Process
 description: If you are an Adobe Workfront administrator, or you have administrative access to approval processes, you can see and edit all approval processes in the system.
-author: Alina
+author: Courtney
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
@@ -58,7 +58,7 @@ For information about creating approval processes, see [Create an approval proce
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront package*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td><p>For system-level or single-use approval process:</p><ul><li><p>Any package</p></li></ul>
    <p>For group-level approval process:</p>
    <ul><li><p>Workflow Prime or Ultimate</p></li>
@@ -80,7 +80,7 @@ For information about creating approval processes, see [Create an approval proce
  </tbody> 
 </table>
 
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

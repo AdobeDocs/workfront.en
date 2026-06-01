@@ -30,13 +30,19 @@ This article describes the workspace templates available in Adobe Workfront Plan
 
 ## Considerations about Adobe Workfront Planning templates
 
-* Each template comes with a set of record types. For information, see [Record types overview](/help/quicksilver/planning/architecture/overview-of-record-types.md).
-* The record types in each template are organized in the following sections:
+* Depending on how many workspaces you create when using a Planning workspace template, you can use the following types of templates: 
 
-    * Operational Record Types
-    * Taxonomies
+    * Single templates: One template creates one workspace. 
+    * Multi-workspace template bundle: The template bundle creates 6 workspaces which are interconnected.  
+* Each template comes with a set of record types. 
+
+    For information, see [Record types overview](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+* The record types in each template are organized sections.     
 * Each record type comes with a set of fields. Some of these fields are connections to other Workfront Planning record types. 
-* You can customize any template and add more record types and fields to the existing ones.
+* You can use the templates to create workspaces, and after they are created, you can customize them and start adding record types, fields, records, and views, then share them with others. 
+* Record types in each template contain example records. You can delete them after you create workspaces from the template. 
+* After workspaces are created from templates, workspace managers can delete record types, fields, views, and records.  
+
 
 <!--
  I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
@@ -91,85 +97,159 @@ the above is only for closed beta; when going to GA - activate the following pla
 
 -->
 
-## Workfront Planning workspace templates 
+## Single Workfront Planning workspace templates 
 
-The following are workspace templates in Workfront Planning and the number of fields they include:
+The following are workspace templates in Workfront Planning and the record types they contain: 
+
+* **Operations Initiative Studio**: A complete, ready-to-explore Operations initiative model showing how to plan and deliver an integration initiative (Automated SOL linking in Workfront). Includes initiative-to-workstream breakdown, connected risks, issues and decisions, supporting reference lists (teams, systems), as well as timeline, table, and calendar views and a simple effort formula so teams can learn Planning features quickly.
+
+    The Operations Initiative Studio template includes the following record types and their fields: 
+  
+    * Initiatives
+    * Workstreams 
+    * Risks & Issues
+    * Decisions
+    * Systems
+    * Teams 
+* **Communications Planning Studio**: Idea to set up a communications planning hub fast. Start by duplicating either the Long or Short Communications Plan template record, then build out your rollout by adding Tactics and tracking Approval Checkpoints. Reference Audiences, Markets, and Channels for consistent reporting, filtering, and reuse. Includes sample records and ready-to-use table, timeline, and calendar views so teams can explore Planning features immediately.
+
+    The Communications Planning Studio template includes the following record types and their fields: 
+
+    * Communications
+    * Audiences
+    * Tactics
+    * Approval Checkpoints
+    * Channels 
+    * Markets
+    * Stakeholder Roles
 
 * **Basic: Marketing Management**: Ideal for organizations establishing the basis of a foundational marketing system. The template includes the following record types and number of fields, including fields connected to other record types:
 
-    * Operational Record Types: 
-    
-        * **Campaign**: 15 fields
-    * Taxonomies:
-
-        * **Personas**: 7 fields
-        * **Brands**: 6 fields
-        * **Products**: 5 fields
+    * Campaign
+    * Personas
+    * Brands
+    * Products
 
 * **Advanced: Marketing Management**: Appropriate for teams ready to explore more nuanced marketing strategies. The template includes the following record types and number of fields, including fields connected to other record types:
 
-    * Operational Record Types:
-
-        * **Campaigns**: 14 fields
-        * **Programs**: 23 fields
-        
-    * Taxonomies:
-        * **Regions**: 1 field
-        * **Customer Journey Stages**: 4 fields
-        * **Audiences**: 8 fields 
-        * **Deliverables**: 12 fields
-        * **Brands**: 6 fields
+    * Campaigns
+    * Programs
+    * Regions
+    * Customer Journey Stages
+    * Audiences 
+    * Deliverables
+    * Brands       
 
 * **Enterprise: Marketing Management**: Designed for large or mature organizations with complex marketing systems. The template includes the following record types and number of fields, including fields connected to other record types:
 
-    * Operational Record Types:
-    
-        * **Campaigns**: 15 fields
-        * **Programs**: 15 fields
-        * **Tactics**: 11 fields
-        * **Activities**: 18 fields
+    * Campaigns
+    * Programs
+    * Tactics
+    * Activities
+    * Products
+    * Deliverables
+    * Target Audiences
+    * Regions
+    * Sub-regions
+    * Partners
+    * Use Cases
+    * Customer Journey Stages     
 
-    * Taxonomies: 
+* Sales management: You can create a comprehensive sales system that streamlines your sales process and enhances efficiency. The template includes the following record types and number of fields, including fields connected to other record types:
 
-        * **Products**: 10 fields
-        * **Deliverables**: 18 fields
-        * **Target Audiences**: 8 fields
-        * **Regions**: 8 fields
-        * **Sub-regions**: 7 fields
-        * **Partners**: 7 fields
-        * **Use Cases**: 7 fields
-        * **Customer Journey Stages**: 3 fields
+    * Opportunity
+    * Activity 
+    * Campaign
+    * Account
+    * Lead 
+    * Contact 
+    * Region 
+    * Industry
+    * Buying Center
+    * Product/ Service
+    * Competition
+        
 
-* **Sales management**: You can create a comprehensive sales system that streamlines your sales process and enhances efficiency. The template includes the following record types and number of fields, including fields connected to other record types:
+* Product management: You can create an efficient and structured product management process using this template. TThe template includes the following record types and number of fields, including fields connected to other record types:
 
-    * Operational Record Types:
+    * Theme 
+    * Initiative
+    * Epic 
+    * User Story    
+    * Customer 
+    * Sprint
+    * Product Team
+    * Feature Requests 
+    * Industry 
 
-        * **Opportunity**: 11 fields 
-        * **Activity**: 9 fields 
-        * **Campaign**: 8 fields 
-    * Taxonomies:
-        * **Account**: 7 fields 
-        * **Lead**: 14 fields 
-        * **Contact**: 12 fields 
-        * **Region**: 3 fields 
-        * **Industry**: 2 field
-        * **Buying Center**: 1 field
-        * **Product/ Service**: 1 field
-        * **Competition**: 1 field
+## Multi-workspace Workfront Planning workspace templates
 
-* **Product management**: You can create an efficient and structured product management process using this template. TThe template includes the following record types and number of fields, including fields connected to other record types:
+You can use the best-practice multi-workspace template bundle to create 6 workspaces at the same time. 
 
-    * Operational Record Types:
+Consider the following: 
 
-        * **Theme**: 10 fields 
-        * **Initiative**: 10 fields 
-        * **Epic**: 12 fields 
-        * **User Story**: 11 fields 
+* You cannot choose just one template in this bundle. 
+* You must create all 6 workspaces at one time, then you can delete the ones you might not use. 
 
-    * Taxonomies: 
+The multi-workspace template bundle contains the following templates with their respective record types: 
 
-        * **Customer**: 8 fields 
-        * **Sprint**: 9 fields 
-        * **Product Team**: 4 fields
-        * **Feature Requests**: 9 fields 
-        * **Industry**: 2 fields 
+* 1.**Global Classifications & Taxonomies**: The hub for enterprise governance of Fréscopa's core shared records and taxonomies. It ensures consistency, alignment, and standardization across all systems and teams.
+
+    >[!NOTE]
+    >
+    >We use the name "Fréscopa" only as a general example of a company.
+
+
+    * Customer Journeys
+    * Countries
+    * Channels
+    * Regions
+    * States, Provinces, or Prefectures
+    * Languages
+    * Platforms
+    * Experience Types
+    * Years
+    * Quarters
+    * Messaging Strategies
+    * Target Audiences
+    * Personas
+    * Products
+    * Brands
+    * Product Categories
+    * Values
+    * Vision and Mission
+    * Pillars
+    * Key Performance Indicators
+
+* **2.Fréscopa Global Marketing**: The centralized workspace for managing Fréscopa's enterprise marketing strategy and execution. It brings together campaigns, content, and metrics to drive brand impact.
+
+    * Campaigns
+    * Channel Tactics
+    * Experiences
+    * Events
+
+* **3.Fréscopa Social Marketing**: The dedicated workspace for managing Fréscopa's social media presence and campaigns. It centralizes planning, publishing, and performance tracking across all social platforms.
+
+    * Influencers
+
+* **4.Fréscopa Media & PR**: Where the Media & PR teams coordinate activities in support of global Marketing objectives.
+
+    * Reporters
+    * Media Outlets
+    * Media Engagements
+
+* **5.Fréscopa Global Events**: A centralized place to plan and track Fréscopa events across all regions, countries, and Business Units.
+
+    * Event Types
+    * Workstream Types
+    * Speakers
+    * Event Locations
+    * Event Audience Type
+
+* **6.Fréscopa Executive Company Leadership**: The centralized workspace for strategic leaders to interface with actionable data like Enterprise Goals and Objectives.
+
+    * Enterprise Goals
+    * Department Obejectives
+    * Team Objectives
+    * Key Results
+

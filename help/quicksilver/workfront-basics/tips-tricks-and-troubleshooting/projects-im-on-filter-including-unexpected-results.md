@@ -34,9 +34,7 @@ topic_v2:
   <tr>
    <td>Adobe Workfront package
    </td>
-   <td> <p>Prime or Ultimate</p>
-    <p>Workflow Ultimate</p>
-   </td>
+   <td>Any</td>
   </tr>
   <tr>
    <td>Adobe Workfront licenses

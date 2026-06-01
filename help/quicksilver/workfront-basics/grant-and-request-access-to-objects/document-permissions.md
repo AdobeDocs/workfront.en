@@ -75,7 +75,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Share documents in the legacy documents area
 
-If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe cloud storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Share an individual document in the legacy documents area
 
@@ -324,9 +324,9 @@ The following table displays what permissions you can grant users when allowing 
 ## Share documents in the new Documents area
 
 
-Workfront is transitioning to the Adobe enterprise storage solution in order to provide greater connectivity with Adobe Creative Cloud products. If your organization uses enterprise storage, you will see the new Documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront is transitioning to the Adobe cloud storage solution in order to provide greater connectivity with Adobe Creative Cloud products. If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-If your Workfront instance uses Adobe enterprise storage, you cannot share individual documents directly. Instead, you manage access on the project, task, or issue. For more information, see [How document permissions work](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+If your Workfront instance uses Adobe cloud storage, you cannot share individual documents directly. Instead, you manage access on the project, task, or issue. For more information, see [How document permissions work](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
 >[!IMPORTANT]
 >

@@ -133,12 +133,12 @@ You can create a portfolios in Workfront using one of the following methods:
 
 1. (Conditional) Depending on which document storage your organization is using, click one of the following:
 
-    * **New portfolio**, when the Workfront administrator chooses either **Adobe Enterprise**, or **Legacy Workfront**, and they did or did not select the **Allow user to select storage provider** setting. 
-    * **New portfolio (Legacy storage)**, when the Workfront administrator chooses either **Adobe Enterprise**, or **Legacy Workfront**, and they also selected the **Allow user to select storage provider** setting. 
+    * **New portfolio**, when the Workfront administrator chooses either **Adobe cloud storage**, or **Legacy Workfront**, and they did or did not select the **Allow user to select storage provider** setting. 
+    * **New portfolio (Legacy storage)**, when the Workfront administrator chooses either **Adobe cloud storage**, or **Legacy Workfront**, and they also selected the **Allow user to select storage provider** setting. 
 
       This option displays only when the **Allow user to select storage provider** setting is selected in the Setup area.
 
-      For more information, see [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md). 
+      For more information, see [Enable Adobe cloud storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md). 
 
       >[!NOTE]
       >
@@ -146,17 +146,17 @@ You can create a portfolios in Workfront using one of the following methods:
 
       A portfolio is created and its default name follows the following patterns, depending on which storage Workfront uses for documents: 
 
-      * `Untitled Portfolio` for a Workfront-storage portfolio.
+      * `Untitled Portfolio` for a legacy Workfront storage portfolio.
 
-        A Workfront-storage portfolio displays a **Legacy Workfront storage** icon ![Legacy-storage portfolio icon](assets/legacy-storage-project-icon.png) next to its name. 
+        A legacy Workfront storage portfolio displays a **Legacy Workfront storage** icon ![Legacy-storage portfolio icon](assets/legacy-storage-project-icon.png) next to its name. 
 
-      * `Untitled Portfolio - < Month day, year hour.minute.second >` for an Adobe-storage portfolio
+      * `Untitled Portfolio - < Month day, year hour.minute.second >` for an Adobe cloud storage portfolio
 
         >[!IMPORTANT]
         >
-        >Portfolios using Adobe enterprise storage must have unique names.  
+        >Portfolios using Adobe cloud storage must have unique names.  
 
-      For Adobe-storage portfolios, a new document folder by the same name as the portfolio is automatically created in he Documents area.
+      For Adobe cloud storage portfolios, a new document folder by the same name as the portfolio is automatically created in he Documents area.
 
 1. Replace the name of the portfolio with a new name in the portfolio header.
 

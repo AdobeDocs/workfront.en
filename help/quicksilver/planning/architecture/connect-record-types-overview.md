@@ -145,29 +145,36 @@ For information about you connect record types, see [Connect record types](/help
         * Planning record fields are accessible from Experience Manager assets when your Workfront administrator configures the metadata mapping through the integration between Workfront and Adobe Experience Manager Assets. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). <!--not sure if this is also possible for content fragments-->
         * Planning record fields are not accessible from the Brands in GenStudio for Performance Marketing. 
         
-    * **When you add lookup fields from the record or object you connect to**: In addition to creating a linked record field, you can also connect to fields from the connected record or object type which are called lookup fields. A linked (or lookup field) with information from the record you're connecting to displays on the record that you're connecting from. <!--not sure if this is also possible for content fragments-->
-
-        You can connect fields from other record types or another application's objects to the Workfront Planning record type. 
+    * **When you add lookup fields from the record or object you connect to**: In addition to creating a linked record field, you can also connect to fields from the connected record or object type which are called lookup fields. A linked (or lookup field) with information from the record you're connecting to displays on the record that you're connecting from. 
     
-        Linked fields are read-only and they automatically display information from connected records. 
+        Considering the following when adding lookup fields: 
+    
+        * You can connect fields from other record types or another application's objects to the Workfront Planning record type. 
+    
+        * Lookup fields are read-only and they automatically display information from connected records. 
 
-        You can refer to lookup fields from other record or object types in formulas, filters, or groupings.
+        * Not all fields are supported to be linked from Workfront Planning. For example, only the following fields are supported for AEM Content Fragments: <!--this information is also in "Connect record types"-->
 
-        For example, if you connect the "Campaign" record type with a Workfront project and you select to bring the Planned Completion Date field of the project to the Workfront Planning record, a linked field called Planned Completion Date (from Project) is automatically created for the campaign. You cannot manually edit this linked field. The Planned Completion Date (from Project) field displays the Planned Completion Date of the linked projects.  
+            * Created by and Created at
+            * Modified by and Modified at 
+
+        * You can refer to lookup fields from other record or object types in formulas, filters, or groupings.
+
+            For example, if you connect the "Campaign" record type with a Workfront project and you choose to bring the Planned Completion Date field of the project to the Workfront Planning record, a linked field called Planned Completion Date (from Project) is automatically created for the campaign. You cannot manually edit this linked field. The Planned Completion Date (from Project) field displays the Planned Completion Date of the linked projects, as established in Workfront.  
 
         >[!IMPORTANT]
         >
         >Everyone with View or higher permissions to the workspace can view the information in the lookup fields, regardless of their permissions or access level in the application of the linked object types or their permissions in other workspaces. 
 
-        Linked record fields are preceded by a relationship icon ![Relationship field icon](assets/relationship-field-icon.png). 
+        * Connected record fields are preceded by a relationship icon ![Relationship field icon](assets/relationship-field-icon.png). 
     
-        Linked fields are preceded by an icon that identifies the field type. For example, linked (or lookup) fields are preceded by icons that indicate that a field is a number, a paragraph, or a date. 
+        * Connected lookup fields are preceded by an icon that identifies the field type. Lookup fields are preceded by icons that indicate that a field is a number, a paragraph, or a date. 
 
-        >[!TIP]
-        >
-        >Workfront objects' date field information displays in 24 hour format in Workfront Planning, regardless of how it displays in Workfront. 
-        >
-        >For example, if a project's Planned Start Date displays as 3:00 PM in Workfront, it will display as 15:00 in Workfront Planning in an imported lookup field. 
+            >[!TIP]
+            >
+            >Workfront objects' date field information displays in 24 hour format in Workfront Planning, regardless of how it displays in Workfront. 
+            >
+            >For example, if a project's Planned Start Date displays as 3:00 PM in Workfront, it will display as 15:00 in Workfront Planning in an imported lookup field. 
     
     * You must connect record types to be able to create hierarchies in Workfront Planning. When record type connections don't exist, they are automatically created when you create a hierarchy. For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 

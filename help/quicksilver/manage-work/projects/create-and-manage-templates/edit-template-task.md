@@ -605,6 +605,23 @@ You can also add custom forms to the future tasks of a project when the project 
    When you or another user creates a project from this template, all settings you applied to template tasks become the settings for the project tasks.
 
 
+## Edit template tasks in a list
+
+You can edit template task in a list in the following areas:
+
+* The Template Tasks section of a template
+* A template task report
+
+Editing template tasks in a list is similar to editing project tasks in a list. 
+
+>[!TIP]
+>
+>There is no Plan Mode available for template tasks.
+
+
+For information, see [Edit tasks in a list](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+
+
 <!--
 Temporary content for Assignments redesign:
 

@@ -68,7 +68,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 Typically, timesheets are approved by functional managers or human resources personnel. Timesheets are not usually approved by project managers. Project managers may approve time logged on projects, but team or human resource managers should approve timesheets. 
 
-A timesheet approver is defined when creating the Timesheet Profile. You must have a Plan license to be designated as an approver.
+A timesheet approver is defined when creating the Timesheet Profile. You must have a Standard or Plan license to be designated as an approver.
 
 For more information about designating timesheet approvers, see the section [Create or edit a timesheet profile](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) in the article [Create, edit, and assign timesheet profiles](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 

@@ -22,7 +22,7 @@ topic_v2:
 ---
 # Share a template
 
-As an Adobe Workfront administrator, you can grant users access to view or edit templates when you assign their access level. A user must have a Plan license to have access to Edit templates.
+As an Adobe Workfront administrator, you can grant users access to view or edit templates when you assign their access level. A user must have a Standard or Plan license to have access to Edit templates.
 
 For more information about granting access to templates, see [Grant access to templates](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
 

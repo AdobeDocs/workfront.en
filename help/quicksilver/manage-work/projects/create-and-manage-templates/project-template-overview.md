@@ -91,6 +91,20 @@ Consider the following when creating templates:
 
   For information about associating an approval process to a work item, see [Associate a new or existing approval process with work](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
+* Decide which document storage you want to use for your future projects. Some organizations have access to the following document storage types:
+
+  * Legacy Workfront storage
+  * Adobe cloud storage
+
+  Adding documents differs depending on the type of storage you choose. The type of storage you choose for your templates will affect the type of storage future projects will inherit. 
+
+  Adding templates to existing projects will not affect the storage type of the project. 
+
+  For more information, also see:
+
+  * [Create a project template](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)
+  * [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
+
 ## Ways to create templates
 
 You can create a new template in the following ways:

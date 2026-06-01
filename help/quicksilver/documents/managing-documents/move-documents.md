@@ -48,7 +48,7 @@ When you move a document, any of the following will also move with the document:
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
    <td><p>Any Workfront package to manage documents using legacy Workfront storage</p>
-<p>Any Workflow package to manage documents using Adobe enterprise storage</p></td> 
+<p>Any Workflow package to manage documents using Adobe cloud storage</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses</td> 
@@ -73,7 +73,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Move a document in the legacy documents area
 
-If your organization is on legacy Workfront Storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront Storage, see [Differences between Adobe enterprise storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+If your organization is on legacy Workfront Storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront Storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 To move a document: 
 
@@ -97,7 +97,7 @@ You can also move a document from the Document Details page.
 
 ## Move a document in the new Documents area
 
-If your organization uses enterprise storage, you will see the new Documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 To move a document:
 
@@ -113,6 +113,6 @@ To move a document:
 
     >[!NOTE]
     >
-    >You can only move to another project, task, or issue using enterprise storage.
+    >You can only move to another project, task, or issue using Adobe cloud storage.
 
 1. Click **Move**.

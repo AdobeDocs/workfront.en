@@ -106,7 +106,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    >[!NOTE]
    >
-   >If your organization uses Adobe enterprise document storage, you cannot add documents to Adobe-storage work items in the Summary panel.
+   >If your organization uses Adobe cloud storage for documents, you cannot add documents to Adobe cloud storage work items in the Summary panel.
    >
    >For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

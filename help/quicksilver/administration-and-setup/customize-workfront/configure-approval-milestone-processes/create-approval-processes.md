@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: You can create an approval process that users can attach to a work item (project, task, issue, template, or template task), a document, or a proof. An approval process ensures that designated assignees on the object review certain changes before the object progresses in the system.
-author: Alina
+author: Courtney
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
@@ -63,7 +63,7 @@ For information about approvals associated with documents or proofs, see the fol
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront package*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td><p>For system-level or single-use approval process:</p><ul><li><p>Any package</p></li></ul>
    <p>For group-level approval process:</p>
    <ul><li><p>Workflow Prime or Ultimate</p></li>
@@ -85,7 +85,7 @@ For information about approvals associated with documents or proofs, see the fol
  </tbody> 
 </table>
 
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

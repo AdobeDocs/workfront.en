@@ -42,7 +42,7 @@ You can add additional approvers to a document approval directly from the Home a
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
    <td><p>Any Workfront package to manage approvals using legacy Workfront storage</p>
-<p>Any Workflow package to manage approvals using Adobe enterprise storage</p> </td> 
+<p>Any Workflow package to manage approvals using Adobe cloud storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 

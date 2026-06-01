@@ -30,7 +30,7 @@ topic_v2:
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
-Event notifications trigger emails to users when a certain event occurs. As an Adobe Workfront administrator or a user with a Planner access level, you can configure an event notification for all users in the system. Configuration of an event notification consists of activating or deactivating it.
+Event notifications trigger emails to users when a certain event occurs. As an Adobe Workfront administrator or a user with a Standard or Plan access level, you can configure an event notification for all users in the system. Configuration of an event notification consists of activating or deactivating it.
 
 <!--Alina annotation on the word "all" in 2nd sentence: abive, drafted and remains QS only-->
 
@@ -38,7 +38,7 @@ Depending on the event you enable and the user keeps enabled on their own profil
 
 You first must specify which notifications you want all your users to receive in the Setup area of your Workfront instance. Once you activate a notification in the Setup area, it displays as activated for each user in their profile page.
 
-After notifications are activated in the Setup area and they appear in the users' profile pages, individual users or another user with a Plan license can also configure the activated notifications in a user profile to control what notifications that specific user receives and how often. For more information, see [Modify your own email notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+After notifications are activated in the Setup area and they appear in the users' profile pages, individual users or another user with a Standard or Plan license can also configure the activated notifications in a user profile to control what notifications that specific user receives and how often. For more information, see [Modify your own email notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 For a list of all event notifications that you can activate and deactivate, see [Event notification types](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
@@ -64,7 +64,7 @@ For information about unlocking an event notification so that group administrato
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>Planner or higher with administrative access to reminder notifications</p> </td> 
+   <td> <p>Administrative access to reminder notifications</p> </td> 
   </tr> 
  </tbody> 
 </table>

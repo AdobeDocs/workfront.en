@@ -31,9 +31,9 @@ topic_v2:
 Adobe Workfront currently has the following two types of document storages: 
 
    * Legacy Workfront storage 
-   * Adobe enterprise storage
+   * Adobe cloud storage
 
-For more information about these storage types, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+For more information about these storage types, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Adding documents to Workfront differs depending on which version of the document
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any Workfront package to manage documents using legacy Workfront storage</p>
-<p>Any Workflow package to manage documents using Adobe enterprise storage</p></td> 
+<p>Any Workflow package to manage documents using Adobe cloud storage</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses</td> 
@@ -66,7 +66,7 @@ Adding documents to Workfront differs depending on which version of the document
   <tr> 
    <td role="rowheader">Access level configurations</td> 
    <td> <p>Legacy Workfront Storage: Edit access to Documents</p> 
-   <p>Enterprise storage: Edit access to Documents is enabled by default and cannot be changed</p>
+   <p>Adobe cloud storage: Edit access to Documents is enabled by default and cannot be changed</p>
    </td> 
   </tr> 
  </tbody> 
@@ -80,7 +80,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 If your organization is using legacy Workfront storage, you will see the legacy Documents area when you access documents in Workfront. 
 
-For more information about Workfront storage, see [Differences between Adobe enterprise storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 You can add documents to the following areas in Workfront:
 
@@ -157,7 +157,7 @@ To add a document:
 
 ## Add documents to Workfront in the new Documents area 
 
-You can add documents to objects using the Adobe enterprise storage model. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+You can add documents to objects using the Adobe cloud storage model. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Functionality not currently supported in the new Documents area:
 
@@ -171,7 +171,7 @@ Functionality not currently supported in the new Documents area:
 
 ### Add documents to Workfront in the new Documents area 
 
-If your organization uses enterprise storage, you will see the new Documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 To add a document:
 
@@ -185,22 +185,22 @@ If you need information about uploading new versions of a document to Workfront,
 
    A folder with the same name as the object you are uploading the document to is automatically created in the Documents section and the document is added to the folder. 
 
-## Document security for enterprise storage 
+## Document security for Adobe cloud storage 
 
 Workfront prevents viruses and other malicious content from entering the site via documents in the following ways:
 
 **How Workfront detects corrupted files**
 
-Document scanning is automatically enabled for objects using the Adobe enterprise storage model.
+Document scanning is automatically enabled for objects using the Adobe cloud storage model.
 
 All files under 500 MB are scanned when they are uploaded. Files over 500 MB are not scanned. If Workfront detects a corrupted document, it is automatically removed.
 
 **File name restrictions**
 
-Because this integration is built using Adobe enterprise storage, there are some enforced structure and naming conventions to be aware of when managing projects and documents.
+Because this integration is built using Adobe cloud storage, there are some enforced structure and naming conventions to be aware of when managing projects and documents.
 
 * Object names must be unique and can't be duplicated
-* Adobe enterprise storage requires unique names for peer objects with the same parent in the hierarchy tree
+* Adobe cloud storage requires unique names for peer objects with the same parent in the hierarchy tree
 * Documents can't have the same name if they belong to the same project
 * Document names can't contain any of the following special characters: `\ / : * ? " | < >`
 * Document names are limited to 255 characters maximum

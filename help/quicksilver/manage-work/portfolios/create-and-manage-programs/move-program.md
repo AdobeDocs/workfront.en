@@ -26,7 +26,7 @@ topic_v2:
 ---
 # Add an existing program to a portfolio
 
-<!--Audited: 10/2025-->
+<!--Audited: 05/2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
@@ -96,6 +96,21 @@ Old:
 
 ## Add an existing program to a portfolio
 
+>[!NOTE]
+>
+>When your organization uses both legacy Workfront and Adobe cloud storage for documents, the following scenarios exist: 
+>
+>
+>* When you add an Adobe cloud storage program to a legacy Workfront storage portfolio and the portfolio has no documents attached to it, the portfolio is converted to Adobe cloud storage. 
+>* When you add an Adobe cloud storage program to a legacy Workfront storage portfolio and the portfolio has documents attached to it, the portfolio documents storage remains on Workfront storage. However, the legacy Workfront storage icon ![Legacy Workfront storage icon](assets/legacy-storage-project-icon.png) is removed from the portfolio.
+>* You cannot add a legacy Workfront storage program to an Adobe cloud storage portfolio. 
+>
+>For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+>
+>Not all Workfront instances have both types of document storages.
+
+To add an existing program to another portfolio: 
+
 1. Go to a portfolio, then click **[!UICONTROL Programs]** in the left panel.
 1. Click **[!UICONTROL New Program]**.
 1. Click **[!UICONTROL Existing Program]**.
@@ -117,3 +132,4 @@ Old:
 1. Click **[!UICONTROL Add programs]**. 
 
    The program displays in the **[!UICONTROL Programs]** tab on the portfolio you selected.
+

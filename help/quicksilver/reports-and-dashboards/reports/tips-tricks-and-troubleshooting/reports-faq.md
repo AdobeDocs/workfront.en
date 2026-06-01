@@ -139,7 +139,7 @@ For a complete list of user-based Wildcard filter variables overview, see [Wildc
 
 This can happen in most cases if you have a limited access that prevents you from seeing items in the system. Additionally, the items that you want to see are not shared with you.
 
-The creator of the report can edit the report to run it with the access rights of a system administrator, or any Plan user who has access to see the data.
+The creator of the report can edit the report to run it with the access rights of a system administrator, or any Standard or Plan user who has access to see the data.
 
 For more information, see [Run and deliver a report with the access rights of another user](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
 
@@ -202,7 +202,7 @@ For more information about refreshing a cached dashboard, see the section [Displ
 
 You can't change the owner of a report. However, the user who created the report can allow other users to edit the report. The way you can allow users to edit a report depends on the type of user you are.
 
-* System administrators can allow users with a Plan license to edit reports by configuring the Edit option in the Reports row to include the access to Create a report.  
+* System administrators can allow users with a Standard or Plan license to edit reports by configuring the Edit option in the Reports row to include the access to Create a report.  
   For more information, see [Grant access to reports, dashboards, and calendars](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Any end users with access to create and share reports can allow others to edit individual reports by sharing them and giving other users Manage permissions to them.  

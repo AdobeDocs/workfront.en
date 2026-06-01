@@ -133,6 +133,12 @@ For more detail about the information in this table, see [Access requirements in
 
 You can attach a template to a project from the project page or from a project list or report.
 
+>[!NOTE]
+>
+>When your organization uses both legacy Workfront and Adobe cloud document storage, you can attach a template using a different storage type than that of the project. This does not change the document storage for the project. 
+>
+>For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 {{step1-to-projects}}
 
 1. On the **Projects** page, select the project you want to attach a template to.

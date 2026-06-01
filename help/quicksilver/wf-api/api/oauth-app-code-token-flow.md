@@ -165,7 +165,7 @@ To log your users in with OAuth2, use the following process:
    }
    ```
    
-   The access token is the same as ```sessionID```, and it expires the same way as regular ```sessionID```
+   The access token is the same as `sessionID`, and it expires the same way as regular `sessionID`
 
    >[!IMPORTANT]
    >

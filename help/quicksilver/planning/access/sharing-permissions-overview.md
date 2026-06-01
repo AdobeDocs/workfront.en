@@ -24,13 +24,9 @@ role_v2:
 
 # Overview of sharing permissions in Adobe Workfront Planning 
 
-<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
-
 
 {{planning-important-intro}}
 
@@ -62,6 +58,17 @@ You can manually share the following objects in Workfront Planning:
 
     For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
 
+<div class="preview">
+
+* Records
+    
+    * You can share records with people inside your organization.
+    * Users inherit permissions from the workspace and the record type by default. 
+    * You cannot share a record with a higher or lower permission level than the user has on the record type. 
+
+    For more information, see [Share records](/help/quicksilver/planning/access/share-records.md).
+
+</div>
 
 * Views
 
@@ -71,6 +78,7 @@ You can manually share the following objects in Workfront Planning:
     * You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.
 
     For more information, see [Share views](/help/quicksilver/planning/access/share-views.md).
+
    
 ## Considerations about sharing objects in Adobe Workfront Planning
 
@@ -80,15 +88,11 @@ You can manually share the following objects in Workfront Planning:
 * System Administrators can manage all workspaces in the system, including the ones they did not create. 
 * Other users, including System Administrators, can only access views they created or that have been shared with them. System Administrators can be given permissions only to Manage a view.
 
-* When you share workspaces and record types with others, the permission level from the record type is automatically inherited to the records and fields associated with them. 
-
-    >[!IMPORTANT]
-    >
-    >The users you want to share Planning objects with must be added to the Adobe Admin Console. You cannot share Planning objects with Workfront users who have not been added to the Adobe Admin Console. 
+* When you share workspaces and record types with others, the permission level from the record type is automatically inherited to the records and fields associated with them by default. 
 
 * You can share Planning objects in the following ways: 
     
-    * Internally, you can share a workspace, a view, or a record type with the following Workfront entities:
+    * Internally, you can share Workfront Planning objects with the following Workfront entities:
 
         * Users
         * Groups
@@ -181,9 +185,9 @@ The following scenarios exist:
 
 ### Permissions to records
 
-Record permissions are inherited from the record type, when you grant permissions to the workspace and the record type. 
+Record permissions are inherited from the record type, when you grant permissions to the workspace and the record type, by default. 
 
-The following are the levels of permissions for records: 
+In the Production environment, the following are the levels of permissions for records: 
 
 
 |        | Manage | Contribute | View  |
@@ -192,6 +196,37 @@ The following are the levels of permissions for records:
 | Delete | ✓      |     ✓       |       |
 | Edit   | ✓      |    ✓        |       |
 | View   | ✓      | ✓          | ✓     |
+
+<div class="preview">
+
+In the Preview environment, the following are the levels of permissions for records: 
+
+|        | Manage |  View  |
+|--------|--------|-------|
+| Create | ✓      |       |
+| Delete | ✓      |       |
+| Edit   | ✓      |       |
+| View   | ✓      | ✓     |
+
+Record permissions are always inherited when you grant permissions to the workspace and the record type.
+
+You can remove the record's inherited permissions received from the record type. Workspace managers and record creators retain Manage permissions to the record. 
+
+You cannot give users lower or higher permissions on the record than they have on the record type. 
+
+The following scenarios exist: 
+
+|   Workspace and record type permissions     | Automatic inherited permissions for a Record |Possible Record permissions when Inherited permissions are turned off (granted manually)|
+|--------|--------|-------------|
+| Manage |   Manage    |   Manage, Remove permissions*           |
+| Contribute |     Manage |  Manage, Remove permissions*        |
+| View   |  View     |      View, Remove permissions*        |
+
+>[!NOTE]
+>
+>*When you remove permissions from a record, users still retain View permissions to the workspace and the record type, unless you remove their permissions from the workspace. 
+
+</div>
 
 ### Permissions to record fields
 
@@ -237,8 +272,11 @@ The following are the levels of permissions for views and view elements:
 | View   | ✓     |
 | Apply  | ✓     |
 
-*Users must have View or higher permissions to a workspace to gain this view access.
+>[!NOTE]
+>
+>*Users must have View or higher permissions to a workspace to gain this view access.
             
+
 <!--
 old view permissions, before sharing View permissions to a view through a workspace:
 |        | Manage | View  |

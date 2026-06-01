@@ -39,6 +39,11 @@ The following articles contain information about what access your users need to 
 * [Share views](/help/quicksilver/planning/access/share-views.md)
 * [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
 * [Share record types](/help/quicksilver/planning/access/share-record-types.md)
-<!--* <span class="preview">[Share records](/help/quicksilver/planning/access/share-records.md)</span>-->
+
+<div class="preview">
+
+* [Share records](/help/quicksilver/planning/access/share-records.md)
+
+</div>
 
 

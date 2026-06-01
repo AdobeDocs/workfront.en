@@ -95,6 +95,94 @@ For more detail about the information in this table, see [Access requirements in
 
     ![Add IP address](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
+## Find Azure IP ranges for Microsoft Power BI
+
+Microsoft Power BI traffic to Data Connect doesn't come from a single fixed address. Microsoft publishes the IP ranges as CIDR blocks in a large JSON file. This section explains how to find the blocks for the regions you actually use.
+
+### Official Microsoft source for Azure IP ranges and service tags
+
+Microsoft publishes the list on the [Azure IP Ranges and Service Tags – Public Cloud download page](https://www.microsoft.com/en-us/download/details.aspx?id=56519). Download the current JSON file (the filename is typically similar to `ServiceTags_Public_YYYYMMDD.json`). Refresh your allowlist when Microsoft updates this file, or when connectivity issues appear after a Microsoft change.
+
+>[!NOTE]
+>
+>The JSON file is very large, often well over 100,000 lines. That is expected. The sections you need are small; you don't need to read the entire file by hand.
+
+### Power BI vs. Power Query Online
+
+Customers sometimes report "Power BI" when the traffic actually comes from Power Query components that Microsoft treats as a separate Azure service in the service tag list.
+
+| If your users… | Look for this service tag in the JSON |
+|----------------|---------------------------------------|
+| Use the Power BI service, datasets hosted in Azure, or gateways in the cloud context | `PowerBI` (global or regional entries such as `PowerBI.EastUS`) |
+| Use Power Query Online, cloud dataflows, and similar experiences | `PowerQueryOnline` (global or regional entries such as `PowerQueryOnline.EastUS`) |
+
+If your organization uses both experiences, add CIDR blocks from both `PowerBI` and `PowerQueryOnline` for the same regions. If you only add one, some users may still be blocked while others succeed.
+
+### Choose regional tags, not the global aggregate
+
+The JSON file contains a single all-regions entry for `PowerBI` (and similarly for `PowerQueryOnline`) that aggregates many regions and can contain hundreds of CIDR blocks, plus many smaller regional entries such as `PowerBI.WestUS`, `PowerBI.WestUS2`, and `PowerBI.WestUS3`. Each regional object lists only the prefixes for that region, typically dozens of lines at most. We don't recommend adding the global entry unless you have a documented requirement to allow every Azure region. For most Data Connect customers, regional entries are the right default. Add the regions where your Power BI tenants and users actually run, plus a small buffer for redundancy (for example, a secondary disaster-recovery region your company uses).
+
+### Choose your regions
+
+Microsoft's region names in the file look like `EastUS`, `WestEurope`, `GermanyWestCentral`, and so on. Use the regions where your Power BI capacity and users are hosted, not where your office is, although they often align.
+
+| Scenario | What to add first |
+|----------|-------------------|
+| United States usage | Start with the US regions you know your tenant uses (examples: `EastUS`, `EastUS2`, `WestUS`, `WestUS2`, `WestUS3`, `CentralUS`, `SouthCentralUS`). You don't need every US region unless your Microsoft administrator confirms multi-region hosting. |
+| European Union or UK usage | Start with the regions your tenant uses (examples: `WestEurope`, `NorthEurope`, `FranceCentral`, `GermanyWestCentral`, `SwedenCentral`, `UKSouth`). Add more only if users span additional Microsoft regions. |
+| Asia Pacific usage | Add the regions confirmed by your Power BI or Azure administrator (examples: `SoutheastAsia`, `EastAsia`, `AustraliaEast`). |
+| Multiple geographies | Add both sets of regional tags (for example, EU and US) for each service (`PowerBI` and `PowerQueryOnline` if both are in use). |
+| Unknown region | Ask your Microsoft 365 or Power BI administrator which Azure regions host your Power BI resources, or review your Power BI Admin tenant settings. If you must unblock quickly for testing, add one known region pair (for example, `EastUS` and `WestUS`) and monitor, then narrow the list once you confirm. |
+
+### Find IP ranges and add them to the allowlist
+
+To collect IP ranges from Microsoft and add them to your Workfront allowlist:
+
+1. Open the [Azure IP Ranges and Service Tags – Public Cloud download page](https://www.microsoft.com/en-us/download/details.aspx?id=56519), download the Service Tags JSON file, and save it locally (for example, `Downloads\ServiceTags_Public_YYYYMMDD.json`).
+
+1. Open the file in any editor that handles large JSON well, such as Visual Studio Code.
+
+1. Use your editor's Find feature (`Ctrl+F` on Windows or `Cmd+F` on macOS) to locate JSON objects whose `"name"` field equals a service tag such as `PowerBI.EastUS` or `PowerQueryOnline.WestEurope`. Useful searches:
+
+    * `"name": "PowerBI.WestUS"` — jump to West US Power BI.
+    * `"name": "PowerQueryOnline.WestUS"` — jump to West US Power Query Online.
+    * `PowerBI.` — list all Power BI regional tags, then refine to your region name.
+
+1. Under each matching object, find the array named `addressPrefixes`. Each string in that array is a CIDR block (for example, `20.59.79.96/27` or an IPv6 prefix). These are the values you'll add to your Workfront allowlist.
+
+1. Add each CIDR to the Workfront allowlist as described in [Add IPs to the allowlist](#add-ips-to-the-allowlist) in this article. Allow a few minutes for policy propagation if your environment caches rules.
+
+1. From Power BI or Power Query Online, run a small test query against Data Connect to validate the connection. If it fails, capture the approximate time and ask your network team whether denies align with missing ranges. Re-check whether you missed `PowerQueryOnline` when only `PowerBI` was added, which is a common gap.
+
+For example, if your Microsoft administrator confirms that your Power BI workloads use West US, West US 2, and West US 3, and your users use both Power BI and Power Query Online, you would open six objects: `PowerBI.WestUS`, `PowerBI.WestUS2`, `PowerBI.WestUS3`, and the matching `PowerQueryOnline.<Region>` for each, then copy `addressPrefixes` from all six.
+
+### JSON structure reference
+
+Each service tag block looks conceptually like the following. Real files include more metadata.
+
+```json
+{
+  "name": "PowerBI.WestUS2",
+  "id": "PowerBI.WestUS2",
+  "properties": {
+    "region": "westus2",
+    "systemService": "PowerBI",
+    "addressPrefixes": [
+      "203.0.113.0/24",
+      "2001:db8::/32"
+    ],
+    "networkFeatures": ["API", "NSG", "UDR", "FW"]
+  }
+}
+```
+
+The `addressPrefixes` array contains the CIDR blocks you'll add to Workfront. Other fields are for Azure networking scenarios and don't apply here.
+
+### Maintain the allowlist
+
+* Microsoft changes IP ranges over time. When Microsoft publishes an updated JSON file, refresh or compare your allowlist periodically, especially after a connectivity incident.
+* If your environment supports IPv6 to Snowflake and Microsoft lists IPv6 prefixes, include them if your security policy allows IPv6. Otherwise, coordinate with your network team.
+
 ## Remove an IP address from the allowlist
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Setup**.

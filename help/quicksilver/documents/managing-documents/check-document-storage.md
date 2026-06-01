@@ -2,7 +2,7 @@
 product-area: documents
 navigation-topic: manage-documents
 title: Check document storage limits
-description: As an Adobe Workfront administrator, you view document storage usage and quota on the Customer Info page. How storage appears depends on whether your organization uses legacy Workfront storage or Adobe enterprise storage.
+description: As an Adobe Workfront administrator, you view document storage usage and quota on the Customer Info page. How storage appears depends on whether your organization uses legacy Workfront storage or Adobe cloud storage.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
@@ -28,12 +28,12 @@ topic_v2:
 
 While there are no restrictions on the types and sizes of individual files that users can upload to your Workfront instance, your Workfront plan includes a total storage quota. As a Workfront administrator, you monitor usage and quota from the Setup area on the Customer Info page.
 
-How storage appears depends on whether your organization uses legacy Workfront storage or Adobe enterprise storage:
+How storage appears depends on whether your organization uses legacy Workfront storage or Adobe cloud storage:
 
 * If you use legacy Workfront storage, see [Legacy Workfront storage](#legacy-workfront-storage) in this article.
-* If you use Adobe enterprise storage, see [Adobe enterprise storage](#adobe-enterprise-storage) in this article.
+* If you use Adobe cloud storage, see [Adobe cloud storage](#adobe-cloud-storage) in this article.
 
-   For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+   For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Access requirements
 
@@ -47,7 +47,7 @@ How storage appears depends on whether your organization uses legacy Workfront s
   <tr data-mc-conditions=""> 
    <td role="rowheader">Workfront plan</td> 
    <td> <p>Any Workfront package to manage documents using legacy storage</p>
-      <p>Any Workflow package to manage documents using Adobe enterprise storage</p> </td> 
+      <p>Any Workflow package to manage documents using Adobe cloud storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -79,14 +79,14 @@ The storage quota is refreshed daily to show the most up-to-date count.
 
 <div class="preview">
 
-## Adobe enterprise storage
+## Adobe cloud storage
 
 
-If your organization uses Adobe enterprise storage, your storage quota is reported as a single pooled allocation that combines storage provisioned through your Workfront license and any storage provisioned through a Frame.io Enterprise add-on. There's no hard cap on storage usage; users can continue uploading documents even when usage exceeds your quota.
+If your organization uses Adobe cloud storage, your storage quota is reported as a single pooled allocation that combines storage provisioned through your Workfront license and any storage provisioned through a Frame.io Enterprise add-on. There's no hard cap on storage usage; users can continue uploading documents even when usage exceeds your quota.
 
 ### View storage usage on Customer Info
 
-To check Adobe enterprise document storage:
+To check Adobe cloud storage for documents:
 
 {{step-1-to-setup}}
 
@@ -94,11 +94,11 @@ To check Adobe enterprise document storage:
 1. Go to the **Storage Overview** section.
 1. Review your usage. The Storage Overview shows your pooled storage quota and breaks usage into:
 
-    * Workfront legacy projects and Adobe enterprise storage projects display in the blue bar.
+    * Workfront legacy projects and Adobe cloud storage projects display in the blue bar.
     * Frame standalone projects display in the green bar. These projects are separate from Workfront and only available if you have a Frame.io Enterprise license. 
 
 
-![Adobe enterprise storage usage on Customer Info](assets/storage-usage.png)
+![Adobe cloud storage usage on Customer Info](assets/storage-usage.png)
 
 Usage figures refresh regularly so you see an up-to-date count. 
 

@@ -36,7 +36,7 @@ topic_v2:
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
 -->
 
-In Adobe Workfront, users can delegate project, task, and issue approvals to other users to make sure that their approvals are managed when they are out of office. Users with a Plan license can create a User Delegation report to see:
+In Adobe Workfront, users can delegate project, task, and issue approvals to other users to make sure that their approvals are managed when they are out of office. Users with a Standard or Plan license can create a User Delegation report to see:
 
 * Who has delegated their task, issue, and project approvals to another user
 * Which users have delegated task, issue, and project approvals assigned to them  

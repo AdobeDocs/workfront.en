@@ -544,8 +544,8 @@ To create a Request Queue:
     
       |Which users can see all fields on the request form | Description|
       |---|---|
-      | All Users (Plan Licenses) |All users who have a Plan license can see the selected as well as the unselected fields. |
-      | People with view access to this project (Plan License) |Those users with a Plan license that also have View rights to this project can see the selected as well as the unselected fields. The rest of the users who can submit requests to this project can see just the selected fields. |
+      | All Users (Plan Licenses) |All users who have a Standard or Plan license can see the selected as well as the unselected fields. |
+      | People with view access to this project (Plan License) |Those users with a Standard or Plan license that also have View rights to this project can see the selected as well as the unselected fields. The rest of the users who can submit requests to this project can see just the selected fields. |
       | No Users |No users can see the unselected fields. All users who can submit requests to this project can only see the fields selected. This is the default selection. |
   
    * **Custom Forms**: Select a custom form to associate with the Request Queue from the drop-down menu. You can select multiple forms, then drag and drop them in the order you would like them to display in the request form. 

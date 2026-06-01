@@ -32,7 +32,7 @@ If an asset is deleted or moved from a linked folder inside of Experience Manage
 >[!NOTE]
 >
 >This functionality is not available in the new Documents area.<br>
->If your organization uses enterprise storage, you will see the new Documents area when you access documents in Workfront. From there, you can add assets from Experience Manager Assets or Assets Essentials, but you won't be able to create a linked folder.
+>If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. From there, you can add assets from Experience Manager Assets or Assets Essentials, but you won't be able to create a linked folder.
 
 ## Access requirements
 
@@ -68,7 +68,7 @@ If an asset is deleted or moved from a linked folder inside of Experience Manage
   <tr>
    <td><strong>Access level configurations</strong>
    </td>
-   <td>You must be a Workfront administrator to configure an Experience Manager integration. After it is configured, users with a Plan license can set up linked folders on individual projects.
+   <td>You must be a Workfront administrator to configure an Experience Manager integration. After it is configured, users with a Standard or Plan license can set up linked folders on individual projects.
    </td>
   </tr>
 </table>

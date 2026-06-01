@@ -51,7 +51,7 @@ As an Adobe Workfront administrator, you can create another Workfront administra
 >This is different from using an access level to grant users administrative access to certain areas of the system. For more information, see the following:
 >
 >* [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) 
->* [Access of a Workfront administrator vs. access of a Plan user with administrative rights](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) in this article
+>* [Access of a Workfront administrator vs. access of a Standard or Plan user with administrative rights](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) in this article
 >
 
 ## Access requirements
@@ -98,17 +98,17 @@ For more detail about the information in this table, see [Access requirements in
 
    The user now has full System Administrator rights in the system.
 
-## Access of a Workfront administrator vs. access of a Plan user with administrative rights  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
+## Access of a Workfront administrator vs. access of a Standard or Plan user with administrative rights  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
 
-The two tables below show the difference between the access rights of a user with a Workfront System Administrator access level versus those of a user with a Plan license with some administrative rights.
+The two tables below show the difference between the access rights of a user with a Workfront System Administrator access level versus those of a user with a Standard or Plan license with some administrative rights.
 
 Workfront administrators can view all the objects in the system (regardless of who created them), create new ones, and modify or delete existing ones. They have full access to all objects in the system.
 
-Users with a Plan license who can edit functionality in one area have full access to the functionality in that area.
+Users with a Standard or Plan license who can edit functionality in one area have full access to the functionality in that area.
 
 >[!NOTE]
 >
->Users with a Plan license who are designated as group administrators can perform some of the actions allowed for Workfront administrators. They are allowed to perform these actions only for the groups they administer, their subgroups, and the users in these groups and subgroups. For more information, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+>Users with a Standard or Plan license who are designated as group administrators can perform some of the actions allowed for Workfront administrators. They are allowed to perform these actions only for the groups they administer, their subgroups, and the users in these groups and subgroups. For more information, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
 * [Access to the Setup area](#access-to-the-setup-area)
 * [Access to objects](#access-to-objects)
@@ -123,7 +123,7 @@ Users with a Plan license who can edit functionality in one area have full acces
   <tr> 
    <th>Area/object</th> 
    <th>Workfront administrator </th> 
-   <th>User with a Plan license and some administrative rights</th> 
+   <th>User with a Standard or Plan license and some administrative rights</th> 
   </tr> 
  </thead> 
  <tbody> 

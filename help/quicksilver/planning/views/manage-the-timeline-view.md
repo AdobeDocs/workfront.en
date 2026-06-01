@@ -27,11 +27,11 @@ topic_v2:
 ---
 # Manage the timeline view
 
-<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -296,11 +296,13 @@ Consider the following when working with filters in the timeline view:
 
 * You can filter by connected record fields or lookup fields. 
 * You can filter by lookup fields that display multiple values. 
+* <span class>You can filter for the record types in the timeline view or any connected record types that are part of the breakdown structure in the view. </span>
 
 To add a filter to a timeline view: 
 
 1. Create a timeline view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Select a timeline view, then click **Filters** in the upper-right corner of the table.    
+1. Select a timeline view, then click **Filters** in the upper-left corner of the table.  
+1. <span class>(Conditional)If you added a breakdown structure to the timeline view, expand the record type in first drop-down in the filter box. This is the record type whose timeline view you are displaying. </span>
 1. Click **Add condition** and add the following information: 
 
     * **Select a field** to search for a field and select it from the list.
@@ -384,14 +386,19 @@ To add a filter to a timeline view:
     * **OR**: Any of the specified conditions must be met. 
         This is the default option. 
 
-    1. (Optional) Add additional filter groupings and join them by **AND** or **OR** operators. 
-
-        ![Multi-tiered filters in views](assets/multi-tiered-filters-in-views.png)
+1. (Optional) Add additional filter groupings and join them by **AND** or **OR** operators. 
 
     The list of records is filtered automatically based on your filter criteria.  <!--at this time, you can't name and save the filter - but will this change?!-->
     <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Optional) Click the **x** icon to remove a filter condition.
+1. <span class="preview">(Optional and conditional) If you added a breakdown structure to your timeline view, expand the record type in the following dropdown and repeat the same steps as above to add a filter for a record type included in the breakdown. </span>
+
+    <span class="preview"> Repeat for every record type in the breakdown.</span>
+
+    ![Multi-tiered filter with breakdown for timeline view](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
+
+    <span class="preview">You can filter for breakdown record types only from the timeline view.</span>
 1. (Optional) Click **Filters** or anywhere else on the page to close the filters box. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 

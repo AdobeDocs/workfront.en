@@ -47,7 +47,7 @@ Scenario: If you want reminders to be triggered on all tasks and issues througho
 
 The following characteristics are specific to reminder notifications:
 
-* Can be created by an administrator or any users with a Plan license and administrative access to Reminder Notifications
+* Can be created by an administrator or any users with a Standard of Plan license and administrative access to Reminder Notifications
 * Can only be associated manually to an object
 * Can only notify regarding the attached object
 * Can be sent to various object stakeholders, such as owner, creator, approver, or assignee

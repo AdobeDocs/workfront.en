@@ -375,6 +375,19 @@ Approval rules are created on the request form.
 
 For information and instructions, see [Add approval rules to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md#add-approval-rules-to-a-request-form) in the article Add an approval to a request form in Adobe Workfront Planning.
 
+## Removal of Approved date and Approved by field types
+
+>[!NOTE]
+>
+>Preview: January 29, 2026
+>Production fast release: February 12, 2026
+>Production for everyone: April 16, 2026
+
+We have removed the Approved date and Approved by field types. 
+Existing information in the former Approved date and Approved by fields has been moved to the Original Request Approved date and Approved by fields. 
+
+For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
+
 ## Display emails in user typeahead fields in Workfront Planning 
 
 >[!NOTE]

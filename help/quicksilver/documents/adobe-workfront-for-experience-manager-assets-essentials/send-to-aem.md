@@ -35,7 +35,7 @@ In the Preview environment, Assets sent to Experience Manager through this integ
 >[!NOTE]
 >
 >This functionality is not available in the new Documents area.<br>
->If your organization uses enterprise storage, you will see the new Documents area when you access documents in Workfront. From there, you can send assets to Experience Manager Assets. For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+>If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. From there, you can send assets to Experience Manager Assets. For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 ## Metadata
 

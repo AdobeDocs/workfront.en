@@ -140,7 +140,7 @@ You can create a project from the **Projects** area in the **Main Menu**, or fro
 
    >[!CAUTION]
    >
-   >If your Workfront instance has access to both Workfront and Adobe document storage, importing a project from MS Project creates a Workfront-storage project, even when your Workfront administrator made the Adobe Enterprise storage the default for your system. 
+   >If your Workfront instance has access to both Workfront and Adobe cloud storage for documents, importing a project from MS Project creates a legacy Workfront storage project, even when your Workfront administrator made the Adobe cloud storage the default for your system. 
    >
    >For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

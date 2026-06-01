@@ -81,29 +81,29 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    ![Choose object types](assets/new-custom-form-select-objects-032526.png)
 
-+++ Expand to view the list of objects that support custom forms.
-
-* Project
-* Task
-* Issue / Request
-* Portfolio
-* Document
-* Program
-* Expense
-* User
-* Company
-* Iteration
-* Billing Record
-* Group
-* Team
-
-If you are on the Workflow Ultimate package, you can also create custom forms for these objects:
-
-* Job Role
-* Rate Card
-* Assignment
-
-+++
+   +++ Expand to view the list of objects that support custom forms.
+   
+   * Project
+   * Task
+   * Issue / Request
+   * Portfolio
+   * Document
+   * Program
+   * Expense
+   * User
+   * Company
+   * Iteration
+   * Billing Record
+   * Group
+   * Team
+   
+   If you are on the Workflow Ultimate package, you can also create custom forms for these objects:
+   
+   * Job Role
+   * Rate Card
+   * Assignment
+   
+   +++
 
 1. In the **Add a form name** area, type the custom form title.
 1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click **Object Types** in the form designer header. Select the object types you want to add, and de-select any object types you want to delete from the form.
@@ -916,24 +916,32 @@ This table lists the available native fields for specific Workfront objects in a
 
 | Field name                 | Project | Task   | Issue  | Template | Template Task | Portfolio | Program | Group |
 |--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
-| Actual Completion Date     | ✓       | ✓     | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Actual Benefit </span> | <span class="preview">✓ </span> | &nbsp; | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Actual Completion Date     | ✓       | ✓      | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Actual Duration            | ✓       | &nbsp; | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Actual Hours               | ✓       | &nbsp; | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Actual Start Date          | ✓       | ✓      | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Budget </span> | <span class="preview">✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span>       | &nbsp;        | <span class="preview"> ✓ </span>        | &nbsp;  | &nbsp;|
 | Company                    | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Condition                  | ✓       | ✓      | ✓     | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Condition                  | ✓       | ✓      | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Condition Type             | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Description                | ✓       | ✓      | ✓     | ✓        | ✓             | ✓        | ✓       | ✓     |
-| Duration                   | &nbsp;   | ✓     | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
-| Duration Type              | &nbsp;   | ✓     | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
-| Duration Unit              | &nbsp;   | ✓     | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Currency </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Description                | ✓       | ✓      | ✓      | ✓        | ✓             | ✓        | ✓       | ✓ |
+| Duration                   | &nbsp;  | ✓      | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
+| Duration Type              | &nbsp;  | ✓      | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
+| Duration Unit              | &nbsp;  | ✓      | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
 | Entered By                 | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | ✓     |
 | Entry Date                 | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | ✓     |
+| <span class="preview"> Exchange Rate Date </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Fixed Cost </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Fixed Revenue </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Group                      | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | ✓        | ✓       | &nbsp; |
 | Last Updated By            | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp; |
 | Last Update Date           | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp; |
 | Name                       | ✓       | ✓      | ✓     | ✓        | ✓             | ✓        | ✓       | ✓     |
 | Owner                      | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | ✓        | ✓       | &nbsp; |
+| <span class="preview"> Performance Index Method </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Planned Benefit </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Planned Completion Date    | ✓       | ✓      | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Planned Duration           | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Planned Hours              | ✓       | ✓      | ✓      | &nbsp;   | ✓            | &nbsp;    | &nbsp;  | &nbsp;|
@@ -951,9 +959,29 @@ This table lists the available native fields for specific Workfront objects in a
 | Status                     | ✓       | ✓     | &nbsp;  | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Story Points               | &nbsp;   | ✓     | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Template                   | ✓       | &nbsp; | &nbsp;  | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Total Estimated Cost </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Total Estimated Revenue </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | URL                        | ✓       | ✓     | &nbsp;  | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
 
 {style="table-layout:auto"}
+
+<div class="preview">
+
+These additional custom form object types also support native field references.
+
+* Billing Record: Fixed Revenue field
+* Document: Name, Description fields
+* Company: Name, Group fields
+* Rate Card: Name, Description, Company, Group fields
+* Job Role: Name, Description fields
+
+</div>
+
+<!--
+Non-Labor Resource: Name, Description, Home Group, Non-labor Category, Non-labor Group, Unique Identifier fields
+Staffing Plan: Name, Description, Owner, Group, Company, Currency, Schedule, Start Date, End Date, Available Estimated Hours, Total Estimated Hours, Reference Number, Entered By, Entry Date, Last Updated By, Last Updated Date, Total Estimated Cost, Total Estimated Revenue fields
+Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
+-->
 
 +++
 
@@ -1190,6 +1218,3 @@ An app can be embedded on a Workfront custom form using the UI Extensions field 
 ## Organize and preview a form with the form designer
 
 For information on how to organize a custom form with section breaks and see a preview of the form, see [Organize and preview a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
-
-
-

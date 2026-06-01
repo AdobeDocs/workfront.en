@@ -29,7 +29,7 @@ topic_v2:
 
 Proofing is automatically included for all licenses in the Workfront. Licenses determine what users can do. 
 
-<!--Workfront instances using enterprise storage do not have access to proofing functionality. Instead, they use the native integration with Frame.io. For more information, see -->
+<!--Workfront instances using Adobe cloud storage do not have access to proofing functionality. Instead, they use the native integration with Frame.io. For more information, see -->
 
 The legacy 2017 Workfront packages include proofing automatically for Work and Plan licenses if you have the pro, business or enterprise Workfront plans. These plans are being phased out.
 

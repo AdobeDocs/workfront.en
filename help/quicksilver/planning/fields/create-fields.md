@@ -264,10 +264,14 @@ For information, see [Import fields from Workfront](/help/quicksilver/planning/f
     * [Created date](#created-date)
     * [Last modified by](#last-modified-by)
     * [Last modified date](#last-modified-date)
+    * [Record ID](#record-id)
+    <!--
     * [Approved date](#approved-date)
     * [Approved by](#approved-by)
-    * [Record ID](#record-id)
-    <!--* [Object](#object-field-type)-->
+    -->
+    <!--
+    * [Object](#object-field-type)
+    -->
     
     >[!IMPORTANT]
     >
@@ -767,6 +771,7 @@ You can use the Last modified date field type to add the date when a record was 
 1. Click **Create**.
 
     The new Last modified date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record was last modified.   
+<!--
 
 ### Approved date
 
@@ -827,6 +832,8 @@ You can use the Approved by field type to add the user who last approved the req
 1. Click **Create**.
 
     The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
+
+-->
 
 ## Record ID
 

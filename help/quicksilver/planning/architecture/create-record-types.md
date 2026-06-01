@@ -166,7 +166,7 @@ Old:
 
         * When you import them using a CSV or Excel file. 
 
-            For more information, see [Create Record Types by importing information from a CSV or Excel file](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
+            For more information, see the section [Create Record Types by importing information from a CSV or Excel file](#create-record-types-by-importing-information-from-a-csv-or-excel-file) in this article. 
 
         >[!TIP]
         >
@@ -179,7 +179,7 @@ Old:
             This article describes how you create record types from scratch.    
 
         * By adding them from another workspace
-            For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). 
+            For information, seethe section [Create record types by adding existing ones from another workspace](#create-record-types-by-adding-existing-ones-from-another-workspace) in this article. 
 
 
 * You can move record types within a section and from one section of a workspace to another. You cannot move record types from one workspace to another workspace. 
