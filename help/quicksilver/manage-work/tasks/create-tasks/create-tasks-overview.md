@@ -107,3 +107,7 @@ When defining default information to be associated with tasks added to a project
 * When you move the task to another project, the default task settings are saved on the tasks from the original project, regardless of the task default settings on the new project.
 
   For information about moving tasks, see [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+
+* When your organization uses both legacy Workfront and Adobe cloud storage, you can't move or copy tasks between projects that use different storage types. 
+
+   For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
