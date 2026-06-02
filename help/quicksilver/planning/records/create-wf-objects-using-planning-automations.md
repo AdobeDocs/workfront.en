@@ -176,7 +176,9 @@ Old:
 
 * New objects or records don't override existing ones in the same field. Triggering the same automation multiple times for the same record adds the new objects or records in the same connected field of the original record, in addition to the ones created before. 
 
+* When your organization uses both legacy Workfront and Adobe cloud storage, the items created automatically from Planning are created using the default storage selected by your Workfront administrator in your Setup area. 
 
+   For information about enabling Adobe cloud storage in your environment, see [Enable Adobe cloud storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 <!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
  

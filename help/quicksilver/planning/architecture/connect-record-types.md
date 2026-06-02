@@ -208,7 +208,12 @@ Old:
 1. Click the card of a record type to open the record type page. 
 1. Click the **+** icon in the upper-right corner of the table view, then click the **New connection** tab.
 
+    ![New conneection tab with Workfront, AEM and GenStudio Brands](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
+
+    <!--
+    Old shot:
     ![New connection tab with Workfront AEM options](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
+    -->
 
 1. Search for a record type, or select one of the following: 
 
@@ -302,9 +307,9 @@ Old:
     >
     >* Selecting the **Create corresponding field on linked record type** is a prerequisite for creating hierarchies.
     >
-    >* A linked record field is not created for objects from another application in their respective applications. For example, there is no field created for Workfront objects connected to Planning records. 
-    >
-    >   
+    >* A linked record field is not created for objects from another application in their respective applications. For example:
+    >   * There is no field created for Workfront objects connected to Planning records. 
+    >   * There is no field created for a Planning record type when it's connected to a record type from the GenStudio workspace. 
 
 1. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
 
