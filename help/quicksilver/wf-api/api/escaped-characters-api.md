@@ -7,6 +7,13 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1477b98e-1cdc-4661-b3ee-0b6ab1e8c3ee
+TQID: https://experienceleague.adobe.com/Cqu86di2VR3q4MpLYnUFwm0D4YyTxWqLXaGqJdtU-UE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Escaped characters in API Responses
 

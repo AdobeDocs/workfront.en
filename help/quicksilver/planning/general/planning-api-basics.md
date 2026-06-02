@@ -6,22 +6,38 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
+TQID: https://experienceleague.adobe.com/SGwYFV5aZJGwfUy7ejVTaOkn0v4Dt-HJLI5hDWKVhMo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 # Adobe Workfront Planning API basics
 
 {{planning-important-intro}}
 
 <!--
+
 Lilit asked me to hide everything in this current article and replace it with her version of it. I kept just the Field type and search modifier section. The rest of the article is a re-write of the original from Lilit. 
 
 She also said we need to reword how we organize the version features, after we get more versions released but for now, she calls out what's different in V1 than the current (V2) with almost every feature. 
+
 -->
-
-<!--
-To comment out when we release V2 - everything else under this gets hidden after V2 release: 
-
-# Adobe Workfront Planning API Basics
 
 The goal of the Adobe Workfront Planning API is to simplify building integrations with Planning by introducing a RESTful architecture that operates over HTTP. This document assumes you are familiar with REST and JSON responses.
 
@@ -58,13 +74,20 @@ The Planning API is versioned via the URL path.
 
 The following are current supported versions: 
 
+<!--
+
+(*****************add deprecation date column above, when we have one*****************)
+
+-->
+
 | Version   | Release date   |
 |-----------|----------------|
 | Version 1 | July 2024 |
 | Version 2 | May 2026   |
 
-(*****************add deprecation date column above, when we have one*****************)
-
+>[!NOTE]
+>
+>The Workfront Planning connector for Workfront Fusion has not been updated to API Version 2 and it will continue to use Version 1 until further notice.
 
 For more information about the current supported versions, see the article [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning).
 
@@ -244,30 +267,11 @@ Workfront Planning supports the following search modifiers:
   </tbody>
 </table>
  
-### Field types 
 
-Below is the list of supported field types and what search modifiers can be used with each of those field types  
+>[!NOTE]
+>
+>Version 1 note: V1 modifier names use `$-prefixed camelCase` (e.g. `$contains`, `$isNot`, `$isEmpty`, `$greaterThan`, `$greaterThanOrEqual`, `$lessThan`, `$lessThanOrEqual`, `$isBetween`, `$isNotBetween`, `$isAnyOf`, `$hasAllOf`). The behavior of each modifier is the same. 
 
-| Field Type | Supported search modifiers |
-|---|---|
-| text |$contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty |
-| long-text | $contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty |
-| number | $is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
-| percentage | $is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
-| currency | $is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
-| date | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween, $isEmpty, $isNotEmpty |
-| single-select | $is, $isNot, $isAnyOf, $isNoneOf, $isEmpty, $isNotEmpty |
-| multi-select | $hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty |
-| boolean | $is |
-| user | $hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty |
-| formula | $contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty |
-| url | $contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty |
-| created-by | $is, $isNot, $isAnyOf, $isNoneOf |
-| created-at | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween |
-| updated-by | $is, $isNot, $isAnyOf, $isNoneOf, $isEmpty, $isNotEmpty |
-| updated-at | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween, $isEmpty, $isNotEmpty |
-| reference | $hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty |
-| lookup | Depends on the linked field |
 
 ## Supported filter conditions by field type
 
@@ -349,7 +353,7 @@ This flag is only valid for reference fields where `referenceOptions.isExternal`
 >
 >Version 1 note: V1 does not support filtering by external object IDs. 
 
-## External Connection Fields 
+## External connection fields 
 
 Planning record types can host external reference fields that link records to objects in other Adobe systems instead of other Planning record types. 
 
@@ -391,10 +395,7 @@ To group results, include a group array alongside sort:
 
 >[!NOTE]
 >
->Version 1 note: V1 uses `sorting` (not `sort`), `groupingFieldIds` (array of field IDs, not `group` objects), and the now-deprecated `rowOrderViewId` to apply an existing view's row order. None of these V1 parameters are supported in Version 2. 
-
-
----
+>Version 1 note: V1 uses `sorting` (not `sort`), `groupingFieldIds` (array of field IDs, not `group` objects), and the now-deprecated `rowOrderViewId` to apply an existing view's row order. None of these V1 parameters are supported in Version 
 
 ## Field projection
 
@@ -460,7 +461,9 @@ For more API-related documentation, also see the following articles:
 * [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md)
 * [Create OAuth2 applications for Workfront integrations](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
 
--->
+<!--
+
+Our version of this article before Lilit replaced it with the above: 
 
 The goal for the Adobe Workfront Planning API is to simplify building integrations with Planning by introducing a REST-ful architecture that operates over HTTP. This document assumes you are familiar with REST and JSON responses and describes the approach taken by the Planning API.  
 
@@ -474,22 +477,18 @@ For more information on External lookup fields, see [Examples of the External lo
 >
 >When using the Planning API, all user-related information will be returned using the Adobe Identity Management System (IMS) user ID, and not the Workfront user ID.
 >
->For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md). 
+>For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).  
 
 ## Workfront Planning API versions
 
 * Version 1 - released in July 2024 
 
-    For more information, see the section [Workfront Planning API Version 1](#workfront-planning-api-version-1) in this article. 
-    <!--
-    Maybe retitle the "Workfront Planning API" section below to "Workfront Planning API Version 1" when Version 2 releases
-    -->
+  For more information, see the section [Workfront Planning API Version 1](#workfront-planning-api-version-1) in this article. 
 
-<!--
 * Version 2 - released in May 2026
 
-    For more information, see the section [Workfront Planning API Version 2](#workfront-planning-api-version-2) in this article.
--->
+  For more information, see the section [Workfront Planning API Version 2](#workfront-planning-api-version-2) in this article.
+
 
 ## Workfront Planning API Version 1
 
@@ -498,14 +497,6 @@ Workfront Planning API Version 1 was released in July 2024.
 The following sections described functionality that was made available in the Workfront API Version 1. 
 
 All future API version will contain the same functionality, unless otherwise specified. 
-
-<!--
-Becky had put the title of this article as"Workfront Planning API URL", but she did not document what that URL is; asking dev and hiding it for now
--->
-
-<!--
-For more details and examples of each operation, see the [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning/).
--->
 
 ### Operations 
 
@@ -524,7 +515,7 @@ For more details and examples of each operation, see the [Workfront Planning API
 
 You can use modifiers and filters with fields to control what data will be returned in results. 
 
-<!--For examples, see the [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning/).-->
+For examples, see the [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning/).
 
 #### Using search modifiers 
 
@@ -822,7 +813,6 @@ For example, if you want to return the results 2001-4000, you can use the follow
 
 `POST /v1/records/search`
 
-  
 
 Request body: 
 
@@ -841,7 +831,6 @@ To make sure your results are properly paginated, use a sorting parameter. This 
 
 For more information on sorting, see [Sorting query results in the API](#sorting-query-results-in-the-api) in this article.
 
-<!--
 
 Lilit did not want this organized like this - keeping this for reference: 
 

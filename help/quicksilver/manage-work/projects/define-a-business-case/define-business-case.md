@@ -2,11 +2,24 @@
 content-type: reference
 navigation-topic: create-and-manage-projects
 title: "Define a Business Case: Article Index"
-description: You can formally and efficiently request a project by creating a Business Case. The following articles describe the information you need to have to define the Business Case of a project. 
+description: You can formally and efficiently request a project by creating a Business Case. The following articles describe the information you need to have to define the Business Case of a project.
 author: Becky
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: ca5679ba-db5c-4430-9469-0eaaa94fb9ec
+TQID: https://experienceleague.adobe.com/iAp0BurExM2LcI-aBZp4p1bdqFU93OdoCbCnEEdgbuk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Define a Business Case: article index
 

@@ -3,10 +3,17 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: View previous proof versions in the Web Proofing Viewer
-description: 'Note: The information described in this section is available only with the Web Proofing Viewer and only when reviewing video or static (not interactive) proofs.'
+description: "Note: The information described in this section is available only with the Web Proofing Viewer and only when reviewing video or static (not interactive) proofs."
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 98a9917d-246d-438f-b6a6-98b5958df4a3
+TQID: https://experienceleague.adobe.com/DkOIuT0-HQEhQcDUbq5SRxTRsE1Jv9tj9wiYF1JIzNg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # View previous proof versions in the Web Proofing Viewer
 

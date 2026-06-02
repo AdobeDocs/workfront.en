@@ -1,11 +1,21 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Notifications: Communication'
+title: "Notifications: Communication"
 description: The following notifications alert you about communication, such as an update comment, happening on a work item you are involved with. For information about configuring which notifications you receive, see Modify your own email notifications.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
+TQID: https://experienceleague.adobe.com/u5d9-5-2VWQLfRUKea2ca86vgMbFcVkZkbGqiaA-keA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Notifications: Communication
 

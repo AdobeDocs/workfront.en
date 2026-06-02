@@ -5,6 +5,13 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 9898531c-f520-46ed-8943-0878e5193a33
+TQID: https://experienceleague.adobe.com/22mMyIr-ezmtfD6pkPhmn-0n04x2K6hwMtASaE--zRA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Adobe Workfront Goals 21.1 release activity:&nbsp;Week of January 11, 2021
 

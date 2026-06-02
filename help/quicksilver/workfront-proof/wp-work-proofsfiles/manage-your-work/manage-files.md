@@ -7,6 +7,13 @@ description: You can manage, share, and view information about the files (not pr
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 9bbf2448-74dc-412a-b17c-4321d0acaf07
+TQID: https://experienceleague.adobe.com/IMVAWm0N74jNGqSnWShXORGLdvcelgQ-oGSVZaPsDo8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Manage Files in [!DNL Workfront Proof]
 

@@ -7,6 +7,13 @@ description: You can use [!DNL Workfront Proof] for more than just managing proo
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c4ca7a87-cacc-4b9b-aa9b-d7022ef9e267
+TQID: https://experienceleague.adobe.com/gqAvtlTosbFa3VbRCbgC4zbdQZVM8xzmBH-uF3HZLlU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Share Files in [!DNL Workfront Proof]
 

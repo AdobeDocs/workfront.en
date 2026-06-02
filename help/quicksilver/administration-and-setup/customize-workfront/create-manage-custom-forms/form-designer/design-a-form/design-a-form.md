@@ -8,8 +8,30 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create a custom form
 
@@ -59,29 +81,29 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    ![Choose object types](assets/new-custom-form-select-objects-032526.png)
 
-+++ Expand to view the list of objects that support custom forms.
-
-* Project
-* Task
-* Issue / Request
-* Portfolio
-* Document
-* Program
-* Expense
-* User
-* Company
-* Iteration
-* Billing Record
-* Group
-* Team
-
-If you are on the Workflow Ultimate package, you can also create custom forms for these objects:
-
-* Job Role
-* Rate Card
-* Assignment
-
-+++
+   +++ Expand to view the list of objects that support custom forms.
+   
+   * Project
+   * Task
+   * Issue / Request
+   * Portfolio
+   * Document
+   * Program
+   * Expense
+   * User
+   * Company
+   * Iteration
+   * Billing Record
+   * Group
+   * Team
+   
+   If you are on the Workflow Ultimate package, you can also create custom forms for these objects:
+   
+   * Job Role
+   * Rate Card
+   * Assignment
+   
+   +++
 
 1. In the **Add a form name** area, type the custom form title.
 1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click **Object Types** in the form designer header. Select the object types you want to add, and de-select any object types you want to delete from the form.
@@ -1196,4 +1218,3 @@ An app can be embedded on a Workfront custom form using the UI Extensions field 
 ## Organize and preview a form with the form designer
 
 For information on how to organize a custom form with section breaks and see a preview of the form, see [Organize and preview a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
-

@@ -7,6 +7,13 @@ description: Workfront Goals is available with the 20.3 release to Production on
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: a25cf5e7-72b9-432c-ab72-1a620475ce74
+TQID: https://experienceleague.adobe.com/i8PDOY-Ix43EE-wcWt41HnrLQWr-Z0sekkPCbaNn7qo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Workfront Goals with the 20.3 release - August 14, 2020
 
