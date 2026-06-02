@@ -56,8 +56,10 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step1-to-priorities}}
 
-1. At the top of the page, click the **Catch me up**.
+1. At the top of the page, click the **Catch me up** button.
+
     ![catch me up button](assets/catch-me-up-button.png)
+    
 1. Select the desired timeframe:
     * **Summarize the last 24 hours**
     * **Summarize the last 3 Days**
