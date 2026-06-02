@@ -45,6 +45,20 @@ For information, see Workspaces overview (/help/quicksilver/planning/architectur
 
 -->
 
+## New Sample workspaces tab added to the Planning landing page 
+
+>[!NOTE]
+>
+>Preview: June 1, 2026
+>Production fast release: June 11, 2026
+>Production for everyone: July 16, 2026
+
+We have added the Sample workspaces tab in the Planning landing area where you can view example of best-practice workspaces. The workspaces are not editable. Workspace managers can modify views in sample workspaces. The tab is visible for Standard and System Administrator users.  
+
+We recommend that you view the sample workspaces as examples, and use the multi-workspace template bundle to create, edit, and share workspaces that result as a use of that template.  The template bundle contains the same workspaces as the Sample workspaces tab.   
+
+For information, see [Workspaces overview](/help/quicksilver/planning/architecture/workspaces-overview.md). 
+
 ## Workfront Planning API version 2 
 
 >[!NOTE]
