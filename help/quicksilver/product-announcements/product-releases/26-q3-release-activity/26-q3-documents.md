@@ -12,12 +12,12 @@ This page describes Documents enhancements made with the Third Quarter 2026 rele
 
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-<!--
+
 ## Print summary for documents in the new Documents area
 
 >[!NOTE]
 >
->Preview: May 28, 2026
+>Preview: June 2, 2026
 >Production fast release: June 11, 2026
 >Production for everyone: July 16, 2026
 
@@ -26,7 +26,7 @@ You can now open a printable summary of a document's approval directly from the 
 After a document has an approval, a **Print summary** option appears in the Document Details panel's Overview section. Clicking **Open Print Summary** opens the Frame.io Print Comments page, which shows the asset preview, comments, and approval decisions in a printable format.
 
 For more information, see [Document Details overview](/help/quicksilver/documents/managing-documents/document-details-overview.md) and [Summary for documents overview](/help/quicksilver/documents/managing-documents/summary-for-documents.md).
--->
+
 
 ## Add a custom message to a document approval workflow stage
 
