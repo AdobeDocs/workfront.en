@@ -7,6 +7,13 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 84909dea-7ce1-4ad3-90f5-9dbdb354eaa4
+TQID: https://experienceleague.adobe.com/5LLcfkvjzqNZ9tswEkV7lMgFxHS4qcVFJ9YMUI6JazY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # What's new in API version 19
 

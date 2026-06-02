@@ -7,8 +7,14 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 76c5eca6-be82-4331-9da9-9943e0bda669
+TQID: https://experienceleague.adobe.com/sKmKH09kvDSYV81SQi1vgQXobcVBG-zWWKCKMsQyzq8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
-
 # API example scripts
 
 ## Adobe Workfront API Examples

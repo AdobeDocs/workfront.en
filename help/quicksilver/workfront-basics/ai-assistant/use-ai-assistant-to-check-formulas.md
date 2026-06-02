@@ -5,8 +5,15 @@ description: You can use AI Assistant to resolve errors in your invalid custom e
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-last-update: 2026-04-01T11:23:03-07:00
+last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+TQID: https://experienceleague.adobe.com/cElkORWwjUT-4GQXpPXMN0sKfhOloSnxEbS15nt3cpU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Generate or revise calculated field formulas with AI Assistant
 

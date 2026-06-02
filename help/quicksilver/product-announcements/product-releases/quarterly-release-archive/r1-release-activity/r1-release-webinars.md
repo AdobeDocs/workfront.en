@@ -7,6 +7,13 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5656710c-873b-4f8c-822f-49858f149892
+TQID: https://experienceleague.adobe.com/l83QAxJpcxJjhoNruRz62063hIOKhZVSbV6w3hCPG-U
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # R1 release webinars
 

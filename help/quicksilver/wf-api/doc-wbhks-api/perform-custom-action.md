@@ -8,8 +8,17 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a18b6b97-ee1e-4ad2-a4e1-00a644a0f4f2
+TQID: https://experienceleague.adobe.com/y9RxzhalPQGx0BEMOtLVOAxwyh-OhQcxuARtBrJd8Yg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
-
 # Perform a custom action (not yet implemented)
 
 This endpoint allows an Adobe Workfront user (or an automated workflow event) to perform an action in the external system. The /customAction endpoint accepts a "name" parameter, which allows the webhook provider to implement multiple custom operations.

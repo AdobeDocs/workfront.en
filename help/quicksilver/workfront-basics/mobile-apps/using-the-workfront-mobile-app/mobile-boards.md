@@ -6,6 +6,13 @@ description: In the [!DNL Workfront] mobile app, you can see all of the boards y
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
+TQID: https://experienceleague.adobe.com/ZwsNEdfQOIponHOPGKgux7II5ovrFo5glAq2lWXRHcE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # [!DNL Adobe Workfront] [!UICONTROL Boards] for mobile
 

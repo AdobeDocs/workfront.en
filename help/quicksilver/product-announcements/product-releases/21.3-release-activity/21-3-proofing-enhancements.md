@@ -6,6 +6,13 @@ draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: cad1ebc1-0477-4a05-a8c0-6cdfacbdc976
+TQID: https://experienceleague.adobe.com/PIgksR1T1k2q9qOd95u2-RZq7kNfEMDuCSy3Gky05cw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # 21.3 Proofing enhancements
 

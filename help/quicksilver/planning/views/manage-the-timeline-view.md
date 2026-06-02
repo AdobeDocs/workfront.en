@@ -1,13 +1,29 @@
 ---
 title: Manage the timeline view
-description: Access and edit records in a timeline view on the Adobe Workfront Planning record type page. This article describes how you can create a timeline view and edit or delete an existing one. Customize the timeline with filters, groupings, and settings. Use the Breakdown feature to display connected records. 
+description: Access and edit records in a timeline view on the Adobe Workfront Planning record type page. This article describes how you can create a timeline view and edit or delete an existing one. Customize the timeline with filters, groupings, and settings. Use the Breakdown feature to display connected records.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Manage the timeline view
 
@@ -382,7 +398,7 @@ To add a filter to a timeline view:
 
     ![Multi-tiered filter with breakdown for timeline view](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
 
-    <span class="preview">You can filters for breakdown record types only from the timeline view.</span>
+    <span class="preview">You can filter for breakdown record types only from the timeline view.</span>
 1. (Optional) Click **Filters** or anywhere else on the page to close the filters box. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 

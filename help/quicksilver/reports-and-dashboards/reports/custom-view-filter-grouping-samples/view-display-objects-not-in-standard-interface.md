@@ -2,13 +2,28 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'View: Display Objects that Are Not Included in the Standard Interface'
-description: You can display in a view objects that are not included in the standard mode interface. You can do this only by referencing them via text mode. 
+title: "View: Display Objects that Are Not Included in the Standard Interface"
+description: You can display in a view objects that are not included in the standard mode interface. You can do this only by referencing them via text mode.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/Jt5GULZrm-eI6A77FAN3cMo5k--Q0CvNw2DMzrHVzP0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # View:&nbsp;display objects that are not included in the standard interface
 
