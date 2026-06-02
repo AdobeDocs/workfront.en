@@ -22,6 +22,8 @@ topic_v2:
 ---
 # Customize the Priorities worklist columns
 
+{{preview-fast-release-general}}
+
 <!--I think this article can point to the Enhanced lists article for managing the view-->
 
 <!--
@@ -35,9 +37,11 @@ You can customize the columns on the worklist in Priorities to support the way y
 
 Priorities displays work items assigned to you. You cannot see work items assigned to your team.
 
+<!--
 >[!NOTE]
 >
 >You cannot add custom data to columns at this time.
+-->
 
 ## Access requirements
 
@@ -82,8 +86,8 @@ For more detail about the information in this table, see [Access requirements in
 {{step1-to-priorities}}
 
 1. Click **Columns** on the left side of the screen.
-    ![Columns](assets/columns-new.png)
-1. Use the toggles to enable or disable columns in the worklist. 
+    ![Columns](assets/columns-new-060226.png)
+1. Use the toggles to display or hide columns in the worklist. 
 
 ### Reorder the columns
 
@@ -96,6 +100,23 @@ For more detail about the information in this table, see [Access requirements in
 >[!NOTE]
 >
 >The Name column is fixed and cannot be moved. 
+
+<div class="preview">
+
+### Add and remove columns with the Column manager
+
+{{step1-to-priorities}}
+
+1. Click the + icon in the upper-right corner of the list to open the **Column manager** box.
+1. Add or remove columns, then click **Save**.
+
+   >[!NOTE]
+   >
+   >You can add only existing fields to the list view. Both native and custom fields for tasks and issues are available to add as columns.
+
+For more information on the Column manager, see the section [Add and remove columns with the Column manager](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) in the article [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+</div>
 
 ### Change the row height in the priorities list
 
@@ -111,3 +132,22 @@ For more detail about the information in this table, see [Access requirements in
       * Tall
 
     The list updates immediately. 
+
+<div class="preview">
+
+## Manage views for the priorities list
+
+A view defines the columns, filters, and groupings in the list with preset settings.
+
+A default view is assigned to the priorities list. You can also create and share your own views.
+
+{{step1-to-priorities}}
+
+1. Expand the dropdown views menu in the upper-left corner of the list to select another view, or click **New view** to create another one.
+1. Update the columns, filters, and groupings that you want to include in the view.
+
+   Changes to views are saved automatically. The next time you apply this view, the column and filter settings remain the way you set them.
+
+For more information on views, see the section [Update enhanced list elements](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#update-enhanced-list-elements) in the article [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+</div>
