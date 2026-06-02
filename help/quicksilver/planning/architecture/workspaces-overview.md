@@ -18,17 +18,15 @@ role_v2:
 ---
 # Workspaces overview
 
-<!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 {{planning-important-intro}}
 
 A workspace is a collection of record types used by an organizational unit and it represents the unit's work lifecycle and processes. You can fully customize workspaces in Adobe Workfront Planning. 
 
-<!--update screenshot with preview-->
+<!--update screenshot with production, it was broken at Preview-->
 
 ![Workspaces landing page admin account](assets/workspaces-landing-page-admin-account.png)
 
@@ -48,35 +46,36 @@ A workspace is a collection of record types used by an organizational unit and i
 * Workspaces are frameworks within which your organizational units (a team, group, department, or division) work. They cannot be associated with fields. Only the record types within  a workspaces can be associated with fields. 
 
     For information, see [Record types overview](/help/quicksilver/planning/architecture/overview-of-record-types.md). 
-* Depending on your Workfront license, workspaces display in the following tabs in the Planning area:
+* Workspaces display in the following tabs in the Planning area:  
 
-   * For system administrators, workspaces display in the following tabs: 
+    * **Workspaces I'm on**: Displays workspaces you created or workspaces that are shared with you.
+    * **Other workspaces**: Displays all other workspaces in the system. This is only available for System Administrators. 
 
-      * **Workspaces I'm on**: Displays workspaces you created or workspaces that are shared with you.
-      * **Other workspaces**: Displays all other workspaces in the system.
+    <div class="preview">
+
+    * **Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records or fields, but you can add, edit, and share views with others.
       
-      <!--
-      * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records, but you can add, edit, and share views with others.</span> (************TEST THIS WITH SYSTEM ADMINS AND STANDARD USERS**********)
-      -->
+    </div>
 
-   * For all other users, workspaces they created and workspaces others shared with them display in the Workspaces area. 
-
-   <!--
-
-    ******************* If Standard users can see the Sample workspaces, then replace the last bullet with this: 
-
-   * For all other users:
-
-        * (****************what is the name of this tab????*******) Workspaces they created and workspaces others shared with them display in the Workspaces area. 
-        * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records, but you can add, edit, and share views with others.</span>
-    
-    -->
-
-    <!--      
     >[!NOTE]
     >
-    ><span class="preview">We recommend to not edit the sample workspaces, but instead to use them as a reference to create your own. Use the multi-workspace template bundle to create workspaces identical to the ones listed in the Sample workspaces tab. For information, see the section "Create multiple workspaces using a best-practice multi-workspace template bundle" in the article [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). </span> 
-    -->
+    ><span class="preview">We recommend to not edit the sample workspaces, but instead to use them as a reference to create your own. Use the multi-workspace template bundle to create workspaces identical to the ones listed in the Sample workspaces tab. For information, see the section "Create multiple workspaces using a best-practice multi-workspace template bundle" in the article [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). </span>  
+    
+<!--
+No longer the case - they match now: 
+
+* For all other users:
+
+* **Workspaces I'm on**: Workspaces they created (for Standard-license users) and workspaces others shared with them display in the Workspaces area.
+
+<div class="preview"> 
+
+* **Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records, but you can add, edit, and share views with others.
+
+</div>
+-->
+    
+    
 
 * The record types that a workspace contains should reflect the work lifecycle and concepts of an organizational unit. 
 
