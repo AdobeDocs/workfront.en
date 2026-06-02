@@ -86,7 +86,13 @@ For more detail about the information in this table, see [Access requirements in
 {{step1-to-priorities}}
 
 1. Click **Columns** on the left side of the screen.
+    
+    <span class="preview">Sample image in the Preview environment:</span>
     ![Columns](assets/columns-new-060226.png)
+
+    Sample image in the Production environment:
+    ![Columns](assets/columns-new.png)
+
 1. Use the toggles to display or hide columns in the worklist. 
 
 ### Reorder the columns
