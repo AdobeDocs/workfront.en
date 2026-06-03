@@ -91,6 +91,7 @@ Consider the following when using Form Fill powered by AI
 
 * AI Form Fill does not overwrite any fields that you have already filled in.
 * Users do not receive suggestions of data that they do not otherwise have access to.
+* Fields that depend on calculated data are not supported. For example, if Field A is a calculated field, and Field B's options are derived from Field A, Form Fill cannot automatically fill Field B.
 
 <!--
 * Files that you use in Form Fill powered by AI are uploaded to Azure storage for 24 hours. This is necessary for document processing. 
