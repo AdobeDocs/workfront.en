@@ -16,7 +16,7 @@ For a list of all changes available at this point in the Third Quarter 2026 rele
 >[!NOTE]
 >
 >Preview: June 4, 2026
->Production fast release: July 15, 2026
+>Production fast release: June 11, 2026
 >Production for everyone: July 16, 2026
 
 Priorities now supports the use of custom data in the columns. Open the column manager from the worklist to add custom fields you want to see in your column data.

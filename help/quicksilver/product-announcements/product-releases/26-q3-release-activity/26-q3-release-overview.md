@@ -181,7 +181,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>Priorities now supports the use of custom data in the columns. Open the column manager from the worklist to add custom fields you want to see in your column data.</p>
             </td>
             <td><p>June 4, 2026</p></td>
-            <td><p>July 15, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
             <td><p>July 16, 2026</p></td>
         </tr>
     </tbody>
