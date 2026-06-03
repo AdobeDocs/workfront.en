@@ -120,13 +120,13 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
 
 ## Create a request form
 
-To create a request form, you must begin creating the form, set up the form details, and finish by publishing and sharing the form.
+To create a request form, you must complete the following:
 
-### Begin creating a request form
+* Add a new form and configure its fields and content elements
+* Configure the form's settings to add approvals and completion options for future requests
+* Publish form
 
-You can create a request form from the record type associated with the form, <!--<span class="preview"> or from the Requests area of Workfront</span>-->.
-
-#### Create a request form from a record type
+### Add a new form
 
 {{step1-to-planning}}
   
@@ -136,7 +136,7 @@ You can create a request form from the record type associated with the form, <!-
 
 1. Click a record type card. For information about creating a record type, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
 
-    The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
+    The record type page opens in the view that you last accessed. By default, a record type page opens in the list view. 
 
 1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Create request form** or **Manage request forms**, if you already have a form and you want to create additional ones.
 
@@ -144,19 +144,254 @@ You can create a request form from the record type associated with the form, <!-
 
    ![Request forms page](assets/request-forms-in-list-view.png)
 
-1. (Conditional) If you want to add another form, click **New request form**.
+1. Click **New request form** to add a new form. 
 
    The **Create request form** box opens.
 
-1. In the Create request form box, update the name of the request form. By default, the name of the form is **Untitled form**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?--> 
+1. In the **Create request form** box, update the name of the request form. By default, the name of the form is **Untitled form**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?--> 
 1. (Optional) Add a **Description** for the request form. 
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
 1. Click **Create**. 
 
-   The request form for the selected record type opens in the Form tab.
-1. Continue to [Set up details for the request form](#set-up-details-for-the-request-form).
+   The request form builder for the selected record type opens in the **Form** tab.
+
+   ![Campaigns request form edit mode](assets/campaigns-request-form-edit-mode.png)
+
+   The request form contains the following information, by default:
+
+   * Record fields available in the table view of the selected record type. 
+
+      The fields contained in the request form will be visible to everyone submitting a request to this record type. 
+   
+   * **Default Section**: This is the default section break that Workfront applies to the request form. All record fields display in the **Default Section** area. 
+   * **Subject** field: The field which will identify the request in Workfront. The configuration and the value of the **Subject** field are not editable.
+
+      >[!NOTE]
+      >
+      >* The **Subject** field requires a value when it is visible on the request form. However, you can remove the **Subject** field, if needed, and requestors will not see it on the form when they submit the request.   
+      >* When the **Subject** field is missing on a request form, but there is a Name field for the future record's name, the name of the request is automatically assigned the same name as the created record. 
+      >* When both the **Subject** and the **Name** fields are missing on the request form, the request is named using the following pattern: `< Request form name > < Entry date of the request >`; the record is named **Untitled**.
+      >* To view the **Subject** field's information in Workfront Planning, you can add the **Original request** connection field to the record type associated with the request form. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+
+1. (Optional) Hover over any fields on the form that you want to remove, then click the **x** icon to remove them. They are added to the **Fields** tab to the left of the form. 
+
+1. (Optional) To remove the **Default Section** from the form, do the following:
+
+   1. Remove all fields from the **Default Section**. 
+   1. Click the **Content elements** tab and add a new section, then add a name for the section. 
+   1. Add fields to the new section. 
+   1. Click the **x** icon to remove the **Default Section**. 
+1. Click any field, then use the controls in the right panel in the form to define their size, or any of the following information:
+
+   * **Label**: This is the name of the field as it will appear on the request form. This does not change the name of the record field.
+   * **Instructions**: Add more information about the field.
+   * **Make a required field**: When selected, the field must have a value. Otherwise, the form cannot be submitted. 
+   * **Add logic**: Define what conditions must be met in order for the field to display or be hidden.
+
+   >[!TIP]
+   >
+   >   The field type of each field displays at the top of the right panel, after you select the field on the form. 
+   >     
+1. (Optional) Long-click a field and drag it and drop it in another position on the form.
+1. (Optional) Click the **Content elements** tab on the left side of the form, and add any of the following elements:
+
+   * **Descriptive text**: Add instructions for a new section, for example.
+   * **Section break**: This is an area on the form that contains several fields. 
+
+      >[!TIP]
+      >
+      >Building a Planning request form is similar to building a Workfront custom form. For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). 
+
+1. (Optional) Click **Preview** to view how the form will display for other users when they will use it to submit a request. 
+1. Continue to one of the following:
+
+   * [Configure form settings](#configure-form-settings) if you want to configure more details for the form in the Production environment
+   * [Publish form](#publish-form) if you do not want to configure further settings.
+
+### Configure form settings
+
+On the Settings tab, you can set approval rules and configure when a request created from this form will be marked as Completed.
+
+Approval rules define the approval process based on field values in the submitted requests. 
+
+For example, if a request form has the field "Campaign type," a rule can be created that sends the request to one person when the field has the value "Digital", and a different person when it has the value "Print."
+
+Consider the following when adding approval rules:
+
+* Rules are prioritized by order. If the first rule conditions are met, then that rule is applied, even if conditions for rules further down the list are also met. 
+* If no conditions are met, then the default rule is applied.
+* You can add one or several approvers to an approval rule.
+* If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
+* If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
+* If a team is set as an approver, only one decision is required from the team.
+
+For more information about adding approvals, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
+
+Completion options allow you to set whether a request is marked complete when the requested object is created, or when the created object is completed. You define when the object is complete based on a specified condition.
+
+To configure form settings: 
+
+1. Begin creating or editing a request form, as described in the section [Begin creating a request form](#begin-creating-a-request-form).
+   
+    The request form for the selected record type opens in the Form tab. 
+1. (Optional) Set up any form details, as described in [Set up Form details](#set-up-form-details).   
+
+1. To begin configuring approval rules, click Approvals ![Approvals icon](assets/approvals-icon-on-form.png) in the left navigation.
+
+1. (Optional) If you want to set a default approval process, add at least one user or team to the **Approvers** field of the Default approval rule area, then click the **Only one decision is required** checkbox if you want the record to be created after any one of the default approvers has approved it.  
+
+   ![Default approval rule area](assets/default-approvers.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+1. (Optional) For each additional approval rule, do the following:
+
+   1. Click **Add approval rule**
+   1. Click the placeholder title "Untitled approval rule" and enter a name for the approval rule.
+   1. Click **Select a field** and select the field that activates the rule.
+   1. Select the operator for the rule. Operators vary based on the type of field.
+   1. If the selected operator requires a value, click the plus icon and add one or more values.
+   1. (Optional) Add more conditions using AND or OR by clicking Add condition and configuring the additional condition.
+   1. In the Actions area of the approval rule, in the **Approvers** field, add at lease one user or team to be set at the approver when the condition is met.
+   1. (Conditional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox.
+
+1. (Optional) To reorder routing rules, click the drag handle on the left side of the rule and drag the rule to the desired location.
+
+   The default rule cannot be reordered.
+   
+1. (Optional)To delete a routing rule, click the **X** to the right of the rule.
+1. Click **Save** to save the approval rules.
+1. Click **Request completion options** on the left panel.
+1. Select from the following options:
+
+   * **The request is completed when the requested object is created**: This will complete the request when the record is created. 
+   * **The request is completed when the requested object is completed**: This will complete the request when the record is marked as completed. 
+  
+1. (Conditional) If you have selected for the request to be marked complete when the requested object is completed, select the field and the value that indicates when the object is complete. For example, you could select the field Status and the value Complete to complete the request when the created object's status is set to Complete.
+1. Continue to [Publish form](#publish-form). 
+
+### Publish form
+
+1. After you create the form and saved it, click **Publish** to publish the form and obtain a unique link for it. 
+
+   The following things occur:
+
+   * The **Publish** button is removed.
+
+      The form becomes available in the Requests area of the Main menu in Workfront.
+   * The **Unpublish** button replaces the **Publish** button. Clicking it will prevent the form from being accessible. 
+   * A **Share** button is added to the form.
+
+1. Click **Share** to share the form with others. 
+
+   For information about sharing a request form, see the [Share a request form](#share-a-request-form) section in this article
+1. Click the left-pointing arrow to the left of the form's name in the header to close the form. 
+
+   The **Request forms** list opens and the the form displays in the list. 
+
+## Share a request form
+
+1. Go to a list of request forms and do one of the following:
+
+   * Click the **More** menu ![More menu](assets/more-menu.png) to the right of the request form's name on the record type's page.
+   * Click the name of a request form in the list to open it. 
+
+1. Click **Share** to share the form with others. 
+
+1. To share the form internally, select the **Internal sharing** tab, search for the name of a user, team, job role, group, or company in the **Grant access to submit this form** field, then select it when it appears in the list. The **Submit** permission is selected by default for each entity. 
+
+1. (Optional) Click the drop-down menu after an entity's name, then click **Remove** to remove them from the list and stop sharing the form with them. 
+
+   >[!NOTE]
+   >
+   >In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. You cannot add Workfront-only users. For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md). 
+
+1. In the **Who can submit requests through this form** section, select from the following options to indicate which types of users can access this form: 
+
+      * Only invited people can access 
+      * Anyone with view or higher access to the workspace
+      * Anyone with contribute or higher access to the workspace
+
+      ![Share box for request form](assets/share-box-for-request-form.png)
+
+1. (Optional) Click **Copy link** to share the link to the form with people who have access to access the form and submit requests. The link is copied to your clipboard and you can share it with others.
+1. To share the form publicly, select the **Public sharing** tab, then turn on the **Create public link** setting. It is turned off by default. 
+
+   ![Public sharing for request form](assets/share-request-form-publicly-tab.png)
+
+   >[!WARNING]
+   >
+   >* When you enable the **Create public link** setting, anyone can access the form and submit a new record, even people outside your organization that don't have a Workfront account. 
+   >
+   >* A form that contains the following field types cannot be shared publicly:
+   >
+   >     * Workfront or Adobe Experience Manager connections
+   >     * People
+   >
+
+1. Choose a **Link expiration date**.
+
+   You can select future dates within 180 days from the current date.  
+
+   >[!TIP]
+   >
+   >After the sharing date expires, the request form is no longer available in the Requests area of Workfront, and the links shared with other users are no longer accessible. 
+
+   People will receive an error after the link expires and you must update the link date and generate a new link to share before people can access the form again.
+
+1. (Optional and conditional) Click **Save** to save the sharing details for the form. 
+1. (Conditional) If the form was previously saved, click **Copy link**.
+
+   The form sharing options are saved and the link is copied to your clipboard. You can now share it with others.
+
+   For information about creating records using a link to a request form, see [Submit Adobe Workfront Planning requests](/help/quicksilver/planning/requests/submit-requests.md). 
+   
+1. (Conditional) If you opened the form, click **Save** in the lower-right corner of the **Form** tab to save the form.  
+
+## Manage existing request forms
+
+1. Click the workspace where you want to manage request forms.
+
+    The workspace opens and the record types display as cards.
+
+1. Click a record type card. For information about creating a record type, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
+
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms**.
+
+   The **Request forms** page opens and all request forms associated with the record type display in a list view. 
+1. (Optional) Update the following view elements in the **Request forms** page to change how information displays in the table: 
+
+   * Columns
+   * Grouping 
+   * Row Height
+
+   For more information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md). 
+   
+1. (Optional) Hover over the name of a request form in the list view, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the form name, and click one of he following:
+
+   * **Edit form**: Click this to further edit information on the form.
+   * **Unpublish**: Click this to unpublish the form which removes it from the Requests area in Workfront.
+   * **Share**: Click this to modify who has access to the form.
+   * **Copy link**: Click this to quickly copy the request form's link without opening the form.
+   * **Delete**: Click this to delete the form. All requests and records added using the form are not deleted. The form cannot be recovered. 
+
+   ![More menu on request form from request forms list](assets/more-menu-on-request-form-from-request-forms-list.png)
+
+1. Click the left-pointing arrow to the left of **Request forms** in the header to close the request forms list.  
+
+   <!--
+   Not possible anymore: 
+      The record type page opens. 
+   1. (Optional and conditional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
+      
+      1. Click **Update request form** to make any changes to the request form, then click a request form to open and edit it.
+      1. Click **Copy link to request form**  to share the link to the form with others. 
+   -->
+
+1. (Optional) Go to the **Requests** area in Workfront and find the shared form to submit a request. For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
 
 <!--
 
@@ -183,79 +418,6 @@ You can create a request form from the record type associated with the form, <!-
 </div>
 
 -->
-
-### Set up details for the request form
-
-Form details are divided into tabs. 
-
-* The **Form** tab allows you to add fields and content elements to the form
-* The **Settings** tab allows you to set an approval process for the form, and to set request completion options.
-
-#### Set up form details
-
-1. Begin creating or editing a request form, as described in the section [Begin creating a request form](#begin-creating-a-request-form).
-
-   Or
-
-   Locate the request form on the Request forms list, click the box next to the form name, and click **Edit form** in the blue bar at the bottom of the screen.
-   
-    The request form for the selected record type opens in the Form tab. 
-
-   ![Campaigns request form edit mode](assets/campaigns-request-form-edit-mode.png)
-
-   The request form contains the following information, by default:
-
-   * Record fields available in the table view of the selected record type. <!--they are working on removing the limitation below-->
-   
-   * **Default section**: This is the default section break that Workfront applies to the request form. All record fields display in the **Default section** area. 
-   * **Subject** field: The field which will identify the request in Workfront. The configuration and the value of the **Subject** field are not editable.
-
-      >[!NOTE]
-      >
-      >* The **Subject** field requires a value when it is visible on the request form. However, you can remove the **Subject** field, if needed, and requestors will not see it on the form when they submit the request.   
-      >* When the **Subject** field is missing on a request form, but there is a Name field for the future record's name, the name of the request is automatically assigned the same name as the created record. 
-      >* When both the **Subject** and the **Name** fields are missing on the request form, the request is named using the following pattern: `< Request form name > < Entry date of the request >`; the record is named **Untitled**.
-      >* To view the **Subject** field's information in Workfront Planning, you can add the **Original request** connection field to the record type associated with the request form. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-   * All the fields associated with the record type. 
-
-      The fields contained in the request form will be visible to everyone submitting a request to this record type. 
-
-1. (Optional) Hover over any fields on the form that you want to remove, then click the **x** icon to remove them. They are added to the **Fields** tab to the left of the form. 
-
-1. (Optional) To remove the **Default section** from the form, do the following:
-
-   1. Remove all fields from the Default Section. 
-   1. Click **Content elements** and add a new section, then add a name for the section. 
-   1. Add fields to the new section. 
-   1. Click the **x** icon to remove the **Default section**. 
-1. Click any field, then use the controls in the right panel in the form to define their size, or any of the following information:
-
-   * **Label**: This is the name of the field as it will appear on the request form. This does not change the name of the record field.
-   * **Instructions**: Add more information about the field.
-   * **Make a required field**: When selected, the field must have a value. Otherwise, the form cannot be submitted. 
-   * **Add logic**: Define what conditions must be met in order for the field to display or be hidden.
-
-   >[!TIP]
-   >
-   >   The field type of each field displays at the top of the right panel, after you select the field on the form. 
-   >     
-
-1. (Optional) Click the **Content elements** tab on the left side of the form, and add any of the following elements:
-
-   * **Descriptive text**
-   * **Section break** 
-
-   For more information about building a custom form, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). 
-
-1. (Optional) Click **Preview** to view how the form will display for other users when they will use it to submit a new record. 
-1. Continue to one of the following:
-
-   <!--
-   * [Set up Configuration details](#set-up-configuration-details) if you want to configure more details for the form in the Production environment
-   -->
-   * [Configure settings](#configure-settings) if you want to configure more details for the form in the Production environment
-   * [Complete request form creation](#complete-request-form-creation) if you do not want to configure further settings.
 
 <!--
 #### Set up Configuration details
@@ -292,74 +454,6 @@ On the Configuration tab, you can set the approval process and configure when a 
 
 -->
 
-### Configure settings
-
-On the Settings tab, you can set approval rules and configure when a request created from this form will be marked as Completed.
-
-#### Configure approval rules
-
-Approval rules define the approval process based on field values on in the submitted requests. 
-
-For example, if a request form has the field "Campaign type," a rule can be created that sends the request to one person when the field has the value "Digital", and a different person when it has the value "Print."
-
-Consider the following when adding approval rules:
-
-* Rules are prioritized by order. If the first rule conditions are met, then that rule is applied, even if conditions for rules further down the list are also met. 
-* If no conditions are met, then the default rule is applied.
-* You can add one or several approvers to an approval rule.
-* If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
-* If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
-* If a team is set as an approver, only one decision is required from the team.
-
-For more information about adding approvals, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
-
-To set approval rules for a request form:
-
-1. Begin creating or editing a request form, as described in the section [Begin creating a request form](#begin-creating-a-request-form).
-   
-    The request form for the selected record type opens in the Form tab. 
-1. (Optional) Set up any form details, as described in [Set up Form details](#set-up-form-details).   
-
-1. To begin configuring approval rules, click Approvals ![Approvals icon](assets/approvals-icon-on-form.png) in the left navigation.
-
-1. (Optional) If you want to set a default approval process, add at least one user or team to the **Approvers** field of the Default approval rule area, then click the **Only one decision is required** checkbox if you want the record to be created after any one of the default approvers has approved it.  
-
-   ![Default approval rule area](assets/default-approvers.png)
-
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
-
-1. (Optional) For each additional approval rule, do the following:
-
-   1. Click **Add approval rule**
-   1. Click the placeholder title "Untitled approval rule" and enter a name for the approval rule.
-   1. Click **Select a field** and select the field that activates the rule.
-   1. Select the operator for the rule. Operators vary based on the type of field.
-   1. If the selected operator requires a value, click the plus icon and add one or more values.
-   1. (Optional) Add more conditions using AND or OR by clicking Add condition and configuring the additional condition.
-   1. In the Actions area of the approval rule, in the **Approvers** field, add at lease one user or team to be set at the approver when the condition is met.
-   1. (Conditional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox.
-
-1. (Optional) To reorder routing rules, click the drag handle on the left side of the rule and drag the rule to the desired location.
-
-   The default rule cannot be reordered.
-   
-1. (Optional)To delete a routing rule, click the **X** to the right of the rule.
-1. Click **Save** to save the approval rules.
-1. Continue to [Set request completion options](#set-request-completion-options)
-
-#### Set request completion options
-
-Completion options allow you to set whether a request is marked complete when the requested object is created, or when the created object is completed. You define when the object is complete based on a specified condition.
-
-1. Begin creating or editing a request form, as described in the section [Begin creating a request form](#begin-creating-a-request-form).
-   
-    The request form for the selected record type opens in the Form tab. 
-1. (Optional) Set up any form details, as described in [Set up Form details](#set-up-form-details).   
-
-1. Select whether you want a request created from this form to be marked complete when the requested object is created, or when the requested object is completed.
-1. (Conditional) If you have selected for the request to be marked complete when the requested object is completed, select the field and value that indicate when the object is complete. For example, you could select the field Status and the value Complete to complete the request when the created object's status is set to Complete.
-1. Continue to <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Complete request form creation](#complete-request-form-creation).
-
 <!--
  
 <div class="preview">
@@ -388,123 +482,3 @@ For information on creating automations in other areas of Workfront Planning, se
 </div>
 
 -->
-
-### Complete request form creation
-
-1. Create and set up the form as described in [Begin creating a request form](#begin-creating-a-request-form) and [Set up details for the request form](#set-up-details-for-the-request-form).
-1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the form's name in the header, then click **Edit** to update the name of the form and its **Description**, then click **Save**.
-
-1. Click **Publish** to publish the form and obtain a unique link for it. 
-
-   The following things occur:
-
-   * The **Publish** button is removed.
-
-      The form becomes available in the Requests area of the Main menu in Workfront.
-   * The **Unpublish** button is added to the form. Clicking it will prevent the form from being accessible. 
-   * A **Share** button is added to the form.
-
-1. Click **Share** to share the form with others. 
-
-   For information about sharing a request form, see the [Share a request form](#share-a-request-form) section in this article
-1. Click the left-pointing arrow to the left of the form's name in the header to close the form. 
-
-   The **Request forms** list view opens and the the form is added to it.
-
-## Manage existing request forms
-
-
-1. Click the workspace where you want to manage request forms.
-
-    The workspace opens and the record types display as cards.
-
-1. Click a record type card. For information about creating a record type, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
-
-    The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
-
-1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms**.
-
-   The **Request forms** page opens and all request forms associated with the record type display in a table view. 
-1. (Optional) Update the following view elements in the **Request forms** page to change how information displays in the table: 
-
-   * Columns
-   * Grouping 
-   * Row height
-
-   For more information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md). 
-   
-1. (Optional) Hover over the name of a request form in the table view, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the form name, and click one of he following:
-
-   * **Edit form**: Click this to further edit information on the form.
-   * **Unpublish**: Click this to unpublish the form which removes it from the Requests area in Workfront.
-   * **Share**: Click this to modify who has access to the form.
-   * **Copy link**: Click this to quickly copy the request form's link without opening the form.
-   * **Delete**: Click this to delete the form. All requests and records added using the form are not deleted. The form cannot be recovered. 
-
-   ![More menu on request form from request forms list](assets/more-menu-on-request-form-from-request-forms-list.png)
-
-1. Click the left-pointing arrow to the left of **Request forms** in the header to close the request forms table.  
-
-   The record type page opens. 
-1. (Optional and conditional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
-   
-   1. Click **Update request form** to make any changes to the request form, then click a request form to open and edit it.
-   1. Click **Copy link to request form**  to share the link to the form with others. 
- 
-1. (Optional) Go to the **Requests** area in Workfront and find the shared form to submit a request. For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
-
-## Share a request form
-
-1. Create a request form as described in the [Create a request form for a record type](#create-a-request-form-for-a-record-type) section in this article. 
-1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the request form's name on the record type's page.
-1. Click **Share** to share the form with others. 
-
-1. To share the form internally, select the **Internal sharing** tab, search for the name of a user, team, job role, group, or company in the **Grant access to submit this form** field, then select it when it appears in the list. The **Submit** permission is selected by default for each entity. 
-
-   ![Share box for request form](assets/share-box-for-request-form.png)
-
-1. (Optional) Click the drop-down menu after an entity's name, then click **Remove** to remove them from the list and stop sharing the form with them. 
-
-   >[!NOTE]
-   >
-   >In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. You cannot add Workfront-only users. For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md). 
-
-1. In the **Who can submit requests through this form** section, select from the following options to indicate which types of users can access this form: 
-
-      * Only invited people can access 
-      * Anyone with view or higher access to the workspace
-      * Anyone with contribute or higher access to the workspace
-1. (Optional) Click **Copy link** to share the link to the form with people who have access to do so. The link is copied to your clipboard.
-1. To share the form publicly, select the **Public sharing** tab, then enable the **Create public link** setting.
-
-   ![Public sharing for request form](assets/share-request-form-publicly-tab.png)
-
-   >[!WARNING]
-   >
-   >* When you enable the **Create public link** setting, anyone can access the form and submit a new record, even people outside your organization that don't have a Workfront account. 
-   >
-   >* A form that contains the following field types cannot be shared publicly:
-   >
-   >     * Workfront or Adobe Experience Manager connections
-   >     * People
-   >
-
-1. Choose a **Link expiration date**.
-
-   You can select future dates within 180 days from the current date.  
-
-   >[!TIP]
-   >
-   >After the sharing date expires, the request form is no longer available in the Requests area of Workfront, and the links shared with other users are no longer accessible. 
-
-   People will receive an error after the link expires and you must update the link date and generate a new link to share before people can access the form again.
-   
-
-1. (Optional and conditional) Click **Save** to save the sharing details for the form. 
-1. (Conditional) If the form was previously saved, click **Copy link**.
-
-   The form sharing options are saved and the link is copied to your clipboard. You can now share it with others.
-
-   For information about creating records using a link to a request form, see [Submit Adobe Workfront Planning requests](/help/quicksilver/planning/requests/submit-requests.md). 
-   
-1. Click **Save** in the lower-right corner of the **Form** tab to save the form.  
