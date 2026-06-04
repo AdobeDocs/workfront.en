@@ -10,4 +10,4 @@ recommendations: noDisplay, noCatalog
 
 ---
 
-# Get started with the GenStudio for Performance Marketing and Frame.io integration
+# This is the artilce for the express integration
