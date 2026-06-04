@@ -134,7 +134,7 @@ Once you have assigned focus levels to your work items, you can sort the column 
 
 For more information, see [Prioritize important work items](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
-![Work list](assets/worklist.png)
+![My Focus](assets/my-focus-060226.png)
 
 ### Use the Calendar view
 
