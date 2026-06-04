@@ -16,7 +16,7 @@ For a list of all changes available at this point in the Third Quarter 2026 rele
 
 >[!NOTE]
 >
->Production release for customers: Phased rollout, start date to be announced
+>Production release for customers: Phased rollout beginning July 16, 2026
 
 Email notifications for comments in the Updates area have a new look and feel that aligns with the broader Adobe email design.
 
