@@ -77,12 +77,6 @@ For information about exporting the table view to an Excel or CSV file, see [Exp
    <td>   <p>Manage permissions to a view</p>  
    <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
   </tr> 
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
-</td>
-  </tr> 
 </tbody> 
 </table> 
 
@@ -157,11 +151,24 @@ Old:
 
 ## Edit records using the table view
 
-You can edit record information only in the table view. 
+You can edit record information in the table view. 
 
 For more information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 
 ## Manage a table view {#manage-a-table-view}
+
+<!--
+Depending on what environment you access record types from, the record type page displays using two different views: 
+
+* Table view, in the Production environment
+* <span class="preview">List view, in the Preview environment</span>
+
+OR: 
+
+If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep that list as the List view and change the Table view in this article to "Table redesigned view" for now; keep it "the table view" here for the future; for the time being, just say "Updating the view in Prod and Preview is different and make the separate sections for Preview and Prod below with the different steps.
+
+### Manage the table view in the Production environment
+-->
 
 When creating a table view, all records of the selected type display in a table. Each row is a unique record and each column is a record field. All fields and all records display by default. 
 
@@ -618,6 +625,17 @@ When you display the table view, you can also view which field another user is e
 >
 >Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.
 
+<!--
+<div class="preview">
+
+### Manage the list view in the Production environment
+
+In the Preview environment, the table view has been replaced with the list view. 
+
+*******************IF THEY REPLACE THE LIST VIEW (IN PROJECTS AND FORMS) WITH THE NEW LIST, THEN JUST UPDATE THAT ARTICLE - "MANAGE THE LIST VIEW" - AND ADD A LINK TO IT HERE; IF NOT, THEN ADD THE SPECIFICS OF THE VIEW HERE**************
+
+</div>
+-->
 
 
 
