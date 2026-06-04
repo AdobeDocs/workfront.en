@@ -32,6 +32,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
 * [Administrator enhancements](#administrator-enhancements)
 * [Documents enhancements](#documents-enhancements)
 * [Financial Management enhancements](#financial-management-enhancements)
+* [Home enhancements](#home-enhancements)
 * [Reporting enhancements](#reporting-enhancements)
 * [Requests enhancements](#requesting-enhancements)
 * [Other enhancements](#other-enhancements)
@@ -158,6 +159,30 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>May 21, 2026</p></td>
             <td><p>May 21, 2026</p></td>
             <td><p>May 21, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Home enhancements
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-home.md" class="MCXref xref" xrefformat="{para}">Use custom data and views in Priorities</a><p></p>
+                <p>Priorities now supports the use of custom data in the columns. Open the column manager from the worklist to add custom fields you want to see in your column data.</p>
+            </td>
+            <td><p>June 4, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
         </tr>
     </tbody>
 </table>
