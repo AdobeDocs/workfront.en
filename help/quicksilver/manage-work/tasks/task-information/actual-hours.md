@@ -139,7 +139,7 @@ Depending on what area of Workfront you access the actual hours from, they could
 
 >[!NOTE]
 >
->It is recommended to use the Actual Hours field whenever possible, because the Legacy Actual Hours field could display inaccurate hours due to the way that increments are rounded when hours are stored in minutes.
+>It is strongly recommended to use the Actual Hours field whenever possible, because the Legacy Actual Hours field could display inaccurate hours due to the way that increments are rounded when hours are stored in minutes.
 > 
 >All custom formulas using Legacy Actual Hours have been migrated to Actual Hours. Legacy Actual Hours can no longer be used in calculations and formulas.
 
