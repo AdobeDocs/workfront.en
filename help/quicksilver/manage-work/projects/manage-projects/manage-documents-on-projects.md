@@ -181,13 +181,17 @@ Consider the following when working with issues:
 * You can rename and delete the document folder from the Adobe cloud storage issue which also deletes the documents in the folder. After you add new documents to the issue, the folder is automatically recreated. Deleted documents are not placed back in the folder. 
 * For Adobe cloud storage projects, the document folder on an issue displays as a subfolder on the documents folder automatically created for the project.
 * You cannot copy or move an issue from a legacy Workfront storage project to an Adobe cloud storage one. The reverse is also not possible. 
-* When you submit a request with a document attached to a legacy Workfront storage project, the Documents area of the request displays the document using the storage type of the project, even when the system storage default preference is Adobe cloud storage. 
 * The following scenarios exist when converting an issue to a project: <!--this info also duplicated in Convert an issue to a project-->
   * A legacy Workfront storage issue creates a legacy Workfront storage project.
   * An Adobe cloud storage issue creates an Adobe cloud storage project.
   * Using a legacy Workfront storage template to convert an Adobe cloud storage issue creates an Adobe cloud storage project. 
   * Using an Adobe cloud storage template to convert a legacy Workfront storage issue creates a legacy Workfront storage project.
 * You cannot add documents to Adobe cloud storage issues in the Summary panel.
+
+### Document management for requests
+
+* When you submit a Workfront request that has an attached document to a legacy Workfront storage project working as request queue, the Documents area of the request displays the document using the storage type of the project, even when the system storage default preference is Adobe cloud storage. 
+* When you attach a document to an issue you submit to a request queue associated with Adobe storage, a folder is created for each submitted issue where the documents are stored. The folder is also added as a subfolder to the automatically created project folder on the request queue project.
 
 ### Document management for project templates
 
@@ -197,6 +201,8 @@ Consider the following when working with templates:
 * You can use a legacy Workfront storage template to create legacy Workfront storage projects; you can use an Adobe cloud storage template to create an Adobe cloud storage project. 
 * You can attach a legacy Workfront storage template to an Adobe cloud storage project and this does not change the storage location of the documents on the project. 
 * You can attach an Adobe cloud storage template to a legacy Workfront storage project and this does not change the storage location of the documents on the project. Documents in the Adobe cloud storage folder for the template are added to the project directly, without the folder, while the documents in the template task folders are added to folders attached to the project's tasks in the Documents section of the tasks.
+* When you save a project as a template, the storage type of the project transfers to the template, regardless of what your Workfront administrator set for your system's storage preference. 
+
 
 ### Document management for template tasks
 
@@ -207,4 +213,4 @@ Consider the following when working with template tasks:
 * You can rename and delete the document folder from the Adobe cloud storage template task which also deletes the documents in the folder. After you add new documents to the template task, the folder is automatically recreated. Deleted documents are not placed back in the folder.
 * For Adobe cloud storage templates, the document folder on a template task displays as a subfolder on the documents folder automatically created for the template. 
 * You cannot copy or move a template task from a legacy Workfront storage template to an Adobe cloud storage one. The reverse is also not possible.
-* When you attach a document to an issue you submit to a request queue associated with Adobe storage, a folder is created for each submitted issue where the documents are stored. The folder is also added as a subfolder to the automatically created project folder on the request queue.
+

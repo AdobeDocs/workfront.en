@@ -386,14 +386,14 @@ Consider the following about GenStudio record type fields:
 
 ### Record connections in the GenStudio workspace
 
-You can create connections between record types in GenStudio workspaces where you have Manage permissions. 
+You can create connections between record types in the  GenStudio workspace when you have Manage permissions to the workspace. 
 
 You can make the following connections between GenStudio record types and other record or object types in Workfront Planning:
 
 * Two GenStudio record types
 * A GenStudio record type and a Planning record type from the same workspace
 * A GenStudio record type and a Planning record type from another workspace, if the record types are configured to connect from another workspace. 
-* A GenStudio record type and a Workfront object type (projects, portfolios, programs, companies, groups)
+* A GenStudio record type and a Workfront object type (projects, portfolios, programs, companies, groups).
 * A GenStudio record type and an AEM object type (Assets or Content Fragments). You must have a license for Adobe Experience Manager to access AEM objects, in addition to a license for Workfront Planning and a license for Adobe GenStudio for Performance Marketing. 
 * A GenStudio record type and GenStudio Brands. The Brands connection is added to the Products and Personas record types by default. 
 
@@ -431,7 +431,7 @@ Brands are available for manually connecting to all other GenStudio workspace re
 * The GenStudio workspace accessible from your Production environment also displays in your Preview environment of the same Workfront instance. 
 * You can perform all the activities described in this article on the GenStudio workspace in Workfront Planning in your Preview environment, but these changes will not be visible from GenStudio.
 
-    Only changes you make to items in the Production environment sync between Workfront Planning and GenStudio. 
+    Only changes you make to items in the Production environment synchronize between Workfront Planning and GenStudio. 
     
     GenStudio does not have a Preview environment. 
 
