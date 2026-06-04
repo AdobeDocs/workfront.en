@@ -57,40 +57,13 @@ For information about you connect record types, see [Connect record types](/help
     >
     >You can have up to 30 connected fields for one record type in Workfront Planning.
 
+* You can manually add a New Connection field from a record type to connect the following entities in Workfront Planning:
 
-* Consider the following about connecting record and object types: 
+    * Two record types 
 
-    * You can manually add a New Connection field from a record type to connect the following entities in Workfront Planning:
-
-        * Two record types 
-
-            By default, you can connect two record types from the same workspace. You can also set up record types to connect with record types from other workspaces, if your organization purchased a higher Workfront or Planning package. For more information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
-        * A record type and an object type from another application. 
-
-        For information about how you can connect record and object types, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-        After you manually connect record types with other record or object types you can connect individual records and objects. 
-
-        For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+        By default, you can connect two record types from the same workspace. You can also set up record types to connect with record types from other workspaces, if your organization purchased a higher Workfront or Planning package. For more information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
+    * A record type and the following object types from these applications:
         
-    * A connection between entities is established automatically in the following scenarios: 
-        
-        * When you use an automation to create records from a record type's page.
-
-            The connection between the record types or the record type and the object type from another application is automatically created when the automation creates the connected record or object. 
-
-            For information, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
-
-        * When you configure request forms for a record type to create a record or an object. 
-
-            The connection between the record type and the request object type is automatically created when you submit and approve a Planning request that creates a record.
-
-            For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
-
-            You can view the original request in the **Subject** field in the Requests area of Workfront, or in the Original request connection field in Workfront Planning. 
-
-    * You can connect Workfront Planning record types with the following object types from the following applications:
-
         * Adobe Workfront:
 
             * Projects
@@ -121,9 +94,45 @@ For information about you connect record types, see [Connect record types](/help
             >
             >You must have have the following to connect with Adobe Experience Manager objects and GenStudio Brands:
             >* An Adobe Experience Manager license
-            >* An Adobe GenStudio for Performance Marketing license
+            >* An Adobe GenStudio for Performance Marketing license.
+    
+    * A GenStudio for Performance Marketing record type from the GenStudio workspace and the following entities:
 
-* When two record types or a record type and an object type from another application are connected , the following scenarios exist: 
+        * A Workfront Planning record type
+        * A Workfront object
+        * An AEM object (asset or content fragment)
+        * A GenStudio for Performance Marketing brand
+
+            >[!NOTE]
+            >
+            >* You cannot connect an Adobe GenStudio workspace record type to another GenStudio record type in Planning. 
+            >* You cannot connect a Planning record type to a record type from the GenStudio workspace. 
+
+
+        After you manually connect record types with other record or object types you can connect individual records and objects. 
+
+        For information about how you can connect record and object types, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+        For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+        
+* A connection between entities is established automatically in the following scenarios: 
+    
+    * When you use an automation to create records from a record type's page.
+
+        The connection between the record types or the record type and the object type from another application is automatically created when the automation creates the connected record or object. 
+
+        For information, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+    * When you configure request forms for a record type to create a record or an object. 
+
+        The connection between the record type and the request object type is automatically created when you submit and approve a Planning request that creates a record.
+
+        For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+
+        You can view the original request in the **Subject** field in the Requests area of Workfront, or in the Original request connection field in Workfront Planning. 
+    
+
+* When two record types or a record type and an object type from another application are connected, the following scenarios exist: 
     
     * **When you connect two Planning record types**: A linked record field is created on the record type you're connecting from. A similar linked record field is created on the record type you are connecting to, only when you enable the Create corresponding field on linked record type setting on the New connection tab. 
 

@@ -19,6 +19,8 @@ role_v2:
 ---
 # Document Details overview
 
+{{highlighted-preview}}
+
 The Document Details page lets you view, communicate about, and manage the properties of a document attached to an Adobe Workfront object.
 
 ## Legacy documents area
@@ -97,9 +99,32 @@ You can perform the following actions for documents from the Document Details pa
 ![Document details more menu icon](assets/more-menu-new-doc.png)
 
 
+
 ### Open the Document Details panel in the new Documents area
 
 1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
-1. Select the document, then click **View Details**.
+1. Select the document, then click **Show Details** in the left sidebar.
 
    ![Document details](assets/doc-details.png)
+
+
+<div class="preview">
+
+### View the Print Summary in the new Documents area
+
+After a document has an approval, you can open the Frame.io Print Comments page to view the asset preview, comments, and approval decisions in a printable format.
+
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+1. Select the document, then click **Show Details** in the left sidebar.
+
+   ![Document details](assets/doc-details.png)
+
+1. In the **Overview** section, click **Open Print Summary**.
+
+
+>[!NOTE]
+>
+>The Print summary link only appears after an approval has been added to the document.
+
+
+</div>

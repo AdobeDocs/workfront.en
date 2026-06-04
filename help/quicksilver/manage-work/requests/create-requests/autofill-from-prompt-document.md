@@ -33,7 +33,7 @@ topic_v2:
 
 AI Form Fill can help you auto-fill request fields based on a prompt you enter. It can also fill fields based on text such as emails or uploaded documents. You can approve or reject these suggestions before submitting the request.
 
-This functionality is available when creating a request in the Workfront Requests area, and in Workfront Planning.
+This functionality is available when creating a request in the Workfront Requests area, for both Workfront and Workfront Planning requests. 
 
 ## Access requirements
 
@@ -91,12 +91,12 @@ Consider the following when using Form Fill powered by AI
 
 * AI Form Fill does not overwrite any fields that you have already filled in.
 * Users do not receive suggestions of data that they do not otherwise have access to.
+* Fields that depend on calculated data are not supported. For example, if Field A is a calculated field, and Field B's options are derived from Field A, Form Fill cannot automatically fill Field B.
 
 <!--
 * Files that you use in Form Fill powered by AI are uploaded to Azure storage for 24 hours. This is necessary for document processing. 
 * All files uploaded to Azure are currently stored in US Azure clusters for the 24 hour storage window. 
 -->
-
 
 ## Enable Form Fill powered by AI for your organization
 
@@ -106,9 +106,9 @@ Consider the following when using Form Fill powered by AI
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
 1. Click **System**, then under System, click **Preferences**.
-1. In the AI preference section, ensure that **Enable AI** is toggled on.
-1. Toggle on **AI Form Fill**.
-1. To disable Form Fill powered by AI, toggle off **AI Form Fill**.
+1. In the AI preference section, turn on the **Enable AI** setting.
+1. Turn on the **AI Form Fill** setting.
+1. To disable Form Fill powered by AI, turn off **AI Form Fill**.
 
 ## Get suggestions from a text prompt
 

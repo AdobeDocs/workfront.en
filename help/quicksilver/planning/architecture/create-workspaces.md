@@ -31,12 +31,9 @@ topic_v2:
 ---
 # Create workspaces
 
-<!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
 
 {{planning-important-intro}}
 
@@ -243,12 +240,12 @@ You can create workspaces in the following ways:
 >
 >Creating multiple workspaces at a time using the best-practice template bundle is available only when the following prerequisites are met: 
 >
->* Your organization purchased a Workfront Planning Prime or Ultimate package.
+>* Your organization purchased a Workfront or Workflow Planning Prime or Ultimate package
 >* You are a System Administrator
 
-You can use a multi-workspace template bundle to create 6 workspaces with one click. 
+You can use the multi-workspace template bundle to create 6 workspaces with one click. 
 
-The templates included in the bundle contain workspaces, record types, records, views, and fields to help you get started with your Planning implementation. 
+The templates included in the bundle contain workspaces, record types, records, views, and fields to help you get started with your Planning implementation. For information, see [List of workspace templates](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 >[!IMPORTANT]
 >
@@ -259,27 +256,44 @@ The templates included in the bundle contain workspaces, record types, records, 
 
 {{step1-to-planning}}
 
-1. Click **Create workspace**
+1. Do one of the following:
 
-   The Create workspace box displays. You can create a workspace from scratch or create it using one of the available templates. 
-   
-1. Click **Review workspace setup** in the **Start here (Recommended)** area. 
-1. (Optional) Click **Preview** inside any of the following predefined workspace templates to open the Preview box for each template:
+   * Click **Create workspace**, then follow these steps: 
 
-    * 1.Global Classifications & Taxonomies
+      1. The Create workspace box displays. You can create a workspace from scratch or create it using one of the available templates. 
+      
+      1. Click **Review workspace setup** in the **Start here (Recommended)** area. 
+      1. (Optional) Click **Preview** inside any of the following predefined workspace templates to open the Preview box for each template:
 
-         The Global Classifications & Taxonomies template includes all the record types and fields we recommend that you create in your environment for a successful implementation of Workfront Planning. 
+         * 1.Global Classifications & Taxonomies
 
-         You can later link or import the record types in this template in other workspaces you create. 
-    * 2.Fréscopa Global Marketing
-    * 3.Fréscopa Social Marketing
-    * 4.Fréscopa Media & PR
-    * 5.Fréscopa Global Events
-    * 6.Fréscopa Executive Company Leadership
-    
-1. After opening the **Preview** box for each workspace template, click **Back** to go back to the **Create workspace** box, or click **Use templates** to use the templates including in the bundle and create workspaces. 
+            The Global Classifications & Taxonomies template includes all the record types and fields we recommend that you create in your environment for a successful implementation of Workfront Planning. 
 
-   The workspaces are created and display in the **Workspaces I'm** on and **All Workspaces** tabs for System administrators. All Standard-license users will see the workspaces in their Workspaces area after a System Administrator creates them and shares the new workspaces with them. 
+            You can later link or import the record types in this template in other workspaces you create. 
+         * 2.Fréscopa Global Marketing
+         * 3.Fréscopa Social Marketing
+         * 4.Fréscopa Media & PR
+         * 5.Fréscopa Global Events
+         * 6.Fréscopa Executive Company Leadership
+      
+      1. After opening the **Preview** box for each workspace template, click **Back** to go back to the **Create workspace** box, or click **Use templates** to use the templates including in the bundle and create workspaces. 
+
+   <div class="preview">
+
+   * Click the **Sample workspaces** tab, then follow these steps:
+
+      1. Click one of the workspace templates on the tab to review the record types and fields in each template. Templates in the **Sample workspaces** tab are read-only.
+      1. Click **Create from templates** in the upper-right corner of a template.
+      1. (Optional) Click **Preview** on any of the templates to view the record types and their fields. 
+
+         >[!TIP]
+         >
+         >Clicking a record type card in a template displays the fields of the record type in the right panel.
+      1. Click **Use templates**.
+
+   </div>
+
+   The 6 workspaces are created and display in the **Workspaces I'm** on and **All Workspaces** tabs for System administrators. All Standard-license users will see the workspaces in their Workspaces area after a System Administrator creates them and shares the new workspaces with them. 
 
 1. Start editing the workspaces you created and adding record types, records, views, and fields that are pertinent to your organization. 
 
