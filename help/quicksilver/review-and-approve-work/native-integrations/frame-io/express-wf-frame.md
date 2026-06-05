@@ -10,13 +10,13 @@ recommendations: noDisplay, noCatalog
 
 ---
 
-# Get started with the Adobe Express and Frame.io integration
+# Get started with the Adobe Express and Workfront with Frame.io integration
 
 Use Workfront with Adobe Express to
 
 * Streamline collaboration between creative, legal, and compliance teams to reduce time-to-publish while maintaining oversight  
 
-* Conduct for deep reviews using drawing markups, annotations, and commenting with the Workfront proofing viewer 
+* Conduct for deep reviews using drawing markups, annotations, and commenting with the Frame.io viewer 
 
 * Meet enterprise compliance standards with electronic signatures and full audit logs 
 
