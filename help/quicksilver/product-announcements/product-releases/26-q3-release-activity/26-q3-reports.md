@@ -11,6 +11,24 @@ This page describes Reporting enhancements made with the Third Quarter 2026 rele
 
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Changes to Actual Hours in custom formulas
+
+>[!NOTE]
+>
+>Preview: June 1, 2026
+>Production fast release: June 1, 2026
+>Production for everyone: June 1, 2026
+
+In 2025, a new Actual Hours field was added to the Workfront database as `actualWorkRequiredDouble`, and the existing Actual Hours field (`actualWorkRequired` in the database) was renamed Legacy Actual Hours. See the [release note](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md) for more information.
+
+In June 2026, existing custom formulas using `actualWorkRequired` (Legacy Actual Hours) were migrated to use `actualWorkRequiredDouble` (Actual Hours) instead. `actualWorkRequired` can no longer be used in calculations and formulas.
+
+Also, it is strongly recommended to use `actualWorkRequiredDouble` in all reports.
+
+When replacing the field, note that `actualWorkRequired` stores values in minutes, whereas `actualWorkRequiredDouble` stores values in hours with decimal precision.
+
+For more information on Actual Hours, see [View Actual Hours](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
+
 ## Custom currency data fields in Canvas Dashboard reports
 
 >[!NOTE]
