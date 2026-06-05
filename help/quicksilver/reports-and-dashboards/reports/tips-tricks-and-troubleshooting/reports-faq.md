@@ -78,7 +78,7 @@ For more detail about the information in this table, see [Access requirements in
 
 <!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
 
-On a project report I have a calculation that subtracts  Actual Hours from Planned Hours.
+On a project report I have a calculation that subtracts Actual Hours from Planned Hours.
 
 The result I am getting is incorrect. 
 
@@ -96,13 +96,19 @@ Planned Hours are stored in minutes.
 
 Depending on which Actual Hours field you want to use for your calculation, the correct formulas are: 
 
-* For Legacy Actual Hours which are stored in minutes: 
+* For Actual Hours, which are stored in hours with decimal precision:
+ 
+  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+* For Legacy Actual Hours, which are stored in minutes:
 
   `valueexpression=SUB(workRequired,actualWorkRequired)/60`
 
-* For Actual Hours which are stored in hours: 
- 
-  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+>[!NOTE]
+>
+>It is strongly recommended to use `actualWorkRequiredDouble` in all reports.
+>
+>`actualWorkRequired` does not display correctly in charts in reports.
 
 For more information, see [View Actual Hours](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md). 
 
