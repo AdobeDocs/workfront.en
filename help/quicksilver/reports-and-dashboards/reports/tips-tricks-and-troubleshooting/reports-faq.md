@@ -78,7 +78,7 @@ For more detail about the information in this table, see [Access requirements in
 
 <!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
 
-On a project report I have a calculation that subtracts  Actual Hours from Planned Hours.
+On a project report I have a calculation that subtracts Actual Hours from Planned Hours.
 
 The result I am getting is incorrect. 
 
