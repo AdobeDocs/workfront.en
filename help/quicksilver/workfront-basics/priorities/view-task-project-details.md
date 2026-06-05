@@ -28,7 +28,7 @@ Priorities displays work items assigned to you. You cannot see work items assign
 
 >[!IMPORTANT]
 >
->Projects must be in Current status or a status that equates current in order to display projects as well as their child tasks and issues. 
+>Projects must be in Current status or a status that equates current in order to display projects as well as their child tasks and issues.
 
 
 ## Access requirements
@@ -74,7 +74,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 {{step1-to-priorities}}
 
 1. In the worklist, hover over the work item name, then click **Summary** icon ![open summary icon](assets/summary-icon.png).
-1. Click **Project** at the top of the Summary panel. Here you can
+1. Click **Project** at the top of the Summary panel. Here you can:
     * View and edit project details and description
     * View and add comments on the project
     * Log time
@@ -88,7 +88,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 {{step1-to-priorities}}
 
 1. In the worklist, hover over the work name, then click **Summary** icon ![open summary icon](assets/summary-icon.png).
-1. Task is selected by default. Here you can
+1. Task is selected by default. Here you can:
     * View and edit project and task details and description
     * View and add comments on the project
     * View and add documents
@@ -125,7 +125,7 @@ You can view real-time updates on the Details page of a task or issue. You can a
 
 {{step1-to-priorities}}
 
-1. In the worklist, click the work item name. On the Details page, you can 
+1. In the worklist, click the work item name. On the Details page, you can:
 
 * View and edit project details and description
 * View and add comments on the project

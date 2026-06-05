@@ -49,13 +49,8 @@ A workspace is a collection of record types used by an organizational unit and i
 * Workspaces display in the following tabs in the Planning area:  
 
     * **Workspaces I'm on**: Displays workspaces you created or workspaces that are shared with you.
-    * **Other workspaces**: Displays all other workspaces in the system. This is only available for System Administrators. 
-
-    <div class="preview">
-
-    * **Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records or fields, but you can add, edit, and share views with others.
-      
-    </div>
+    * **Other workspaces**: Displays all other workspaces in the system. This is only available for System Administrators.
+    * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records or fields, but you can add, edit, and share views with others.</span>
 
     >[!NOTE]
     >

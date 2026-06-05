@@ -104,13 +104,6 @@ Or
    <p><b>IMPORTANT</b></p>
    <p>Only users with Manage permissions to a workspace can share a record</p></td> 
   </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
-</td>
-  </tr>
- 
 </tbody> 
 </table> 
 
@@ -137,6 +130,8 @@ maybe use the Share record types as example here and touch on the same points: h
    When users have Contribute permissions to a workspace or record type, they receive Manage permissions to the records of that record type. 
 * When you remove an entity from a workspace, all sharing permissions are removed from the record types and all records in it.  
 * You cannot share a record with a user that does not have permissions to the workspace or the record type.
+
+   If you share a record with someone who is not in the workspace, they are automatically added to the workspace. 
 * A user's access to the record is determined through the combination of the following 3 settings: 
 
    * Their permissions inherited from the record type and workspace
@@ -161,7 +156,7 @@ maybe use the Share record types as example here and touch on the same points: h
 
 * You can disable inherited permissions for a single record, in which case you can give select users permissions to individual records, or they can gain permissions if they belong to the workspace, due to the **Everyone in the workspace can view** option. 
 
-* If multiple sharing permissions apply for the same user, they receive the highest permission of those permissions.  
+* If multiple sharing permissions apply for the same user, they receive the highest level of those permissions.  
 
    For example, if a record is shared with a user with View permissions, and their group with Manage access, they receive Manage permissions to the record.
 

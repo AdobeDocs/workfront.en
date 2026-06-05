@@ -32,6 +32,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
 * [Administrator enhancements](#administrator-enhancements)
 * [Documents enhancements](#documents-enhancements)
 * [Financial Management enhancements](#financial-management-enhancements)
+* [Home enhancements](#home-enhancements)
 * [Reporting enhancements](#reporting-enhancements)
 * [Requests enhancements](#requesting-enhancements)
 * [Other enhancements](#other-enhancements)
@@ -99,17 +100,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Preview</strong></td>
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Print summary for documents in the new Documents area</a>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Print summary for documents in the new Documents area</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>You can now open a printable summary of a document's approval directly from the new Documents area. This feature is available to organizations using Adobe cloud storage.</p>
             </td>
-            <td><p>TBD</p></td>
-            <td><p>TBD</p></td>
-            <td><p>TBD</p></td>
+            <td><p>June 2, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
         </tr>
-        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Add a custom message to a document approval workflow stage</a>
@@ -160,6 +159,30 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>May 21, 2026</p></td>
             <td><p>May 21, 2026</p></td>
             <td><p>May 21, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Home enhancements
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-home.md" class="MCXref xref" xrefformat="{para}">Use custom data and views in Priorities</a><p></p>
+                <p>Priorities now supports the use of custom data in the columns. Open the column manager from the worklist to add custom fields you want to see in your column data.</p>
+            </td>
+            <td><p>June 4, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -247,9 +270,9 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Updated look and feel for comment notification emails</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>Email notifications for comments in the Updates area have a new look and feel that aligns with the broader Adobe email design. The thread of preceding comments is no longer included in the email body.</p>
             </td>
-            <td><p>Phased rollout, start date to be announced</p></td>
-            <td><p>Phased rollout, start date to be announced</p></td>
-            <td><p>Phased rollout, start date to be announced</p></td>
+            <td><p>N/A</p></td>
+            <td><p>Phased rollout beginning July 16, 2026</p></td>
+            <td><p>Phased rollout beginning July 16, 2026</p></td>
         </tr>
         <tr>
             <td>
