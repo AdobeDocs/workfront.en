@@ -1,5 +1,5 @@
 ---
-title: Workfront and Experience Manager Assets Integrations
+title: Workfront and Experience Manager Assets Integrations: article index
 description: Workfront and Experience Manager Assets Integrations
 author: Courtney
 draft: Probably
@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 ---
-# Workfront and Experience Manager Assets Integrations
+# Workfront and Experience Manager Assets Integrations: article index
 
 * [Workfront for Experience Manager enhanced connector](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md) 
 * [Adobe Workfront for Experience Manager Assets and Asset Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)

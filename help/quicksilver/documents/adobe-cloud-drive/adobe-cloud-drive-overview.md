@@ -19,7 +19,7 @@ role_v2:
 ---
 # Adobe Cloud Drive overview
 
-Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer. Workfront projects appear as folders, and you can open, edit, and save files using any desktop application — Adobe or non-Adobe — while Adobe Cloud Drive keeps your work in sync with Adobe cloud storage.
+Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer. Workfront projects appear as folders, and you can open, edit, and save files using any desktop application, Adobe or non-Adobe, as long as Adobe Cloud Drive keeps your work in sync with Adobe cloud storage.
 
 The files in Adobe Cloud Drive are the same files you see in Workfront and Frame.io, so changes you make on your desktop are available to your team in both products.
 
@@ -35,14 +35,8 @@ For more information about the storage that Adobe Cloud Drive connects to, see [
 
 ## Who can use Adobe Cloud Drive
 
-Adobe Cloud Drive is available to Workfront users whose organization has enabled it for them. To use Adobe Cloud Drive, you must have a Workfront v2 license.
+To use Adobe Cloud Drive, you must be on a version of Workfront that supports Adobe cloud storage. If your organization is not already on a supported version, contact your Adobe account representative.
 
 Only projects stored in Adobe cloud storage appear in the drive. Legacy Workfront projects don't appear. For more information about the difference, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 If you don't see Adobe Cloud Drive available for download, or if your organization manages application installs for you, contact your Workfront administrator.
-
-## In this section
-
-* [Install Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/install-adobe-cloud-drive.md)
-* [Use Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
-* [Troubleshoot Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)

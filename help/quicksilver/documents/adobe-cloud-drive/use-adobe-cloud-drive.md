@@ -30,12 +30,8 @@ For information about installing Adobe Cloud Drive, see [Install Adobe Cloud Dri
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any package with Adobe cloud storage</p></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>Workfront v2</p></td> 
+   <td role="rowheader">Adobe Workfront version</td> 
+   <td><p>You must be on a version of Workfront that supports Adobe cloud storage. If your organization is not already on a supported version, contact your Adobe account representative.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -240,7 +236,7 @@ Adobe Cloud Drive uses a duplication strategy for conflicts:
 
 * **No file locking.** Multiple users can edit files at the same time.
 * **Automatic duplication.** When Adobe Cloud Drive detects a conflict, it preserves both versions.
-* **Clear naming.** Conflict files include the username and timestamp in this format: `filename (Conflicted copy from username on date_time).extension`. For example: `abc (Conflicted copy from John on 2026-02-10_16-06-44).txt`.
+* **Clear naming.** Conflict files include the username and timestamp in this format: `filename (Conflicted copy from username on date_time).extension`. For example: `hero-banner (Conflicted copy from John on 2026-02-10_16-06-44).psd`.
 
 ### Resolve a conflict manually
 

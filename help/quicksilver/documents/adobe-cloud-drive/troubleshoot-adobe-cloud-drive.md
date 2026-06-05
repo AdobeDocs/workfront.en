@@ -47,15 +47,6 @@ For information about working with Adobe Cloud Drive, see [Use Adobe Cloud Drive
 * **Network speed:** Faster connections provide better sync performance. Sync automatically resumes after an interruption.
 * **First-time access:** Files are downloaded on demand the first time you access them. Subsequent access is faster because the file is cached locally.
 
-## Recommended workflows
-
-Adobe Cloud Drive is well-suited for:
-
-* Work-in-progress (WIP) files for creatives, marketers, and business users
-* Document collaboration
-* Asset sharing within projects
-* Offline work preparation
-
 ## Common issues
 
 ### Adobe Cloud Drive isn't appearing
@@ -64,13 +55,13 @@ Adobe Cloud Drive is well-suited for:
 
 * Adobe Cloud Drive isn't installed.
 * Installation didn't complete successfully.
-* You don't have the required license.
+* Your organization isn't on a version of Workfront that supports Adobe cloud storage.
 
 **Solutions:**
 
 * Verify that Adobe Cloud Drive is installed. Check **Applications** (Mac) or **Programs** (Windows).
 * Launch Adobe Cloud Drive manually.
-* Verify your license. Contact your Workfront administrator to confirm that a Workfront v2 license is assigned to you.
+* Contact your Workfront administrator to confirm that your organization is on a version of Workfront that supports Adobe cloud storage.
 * Reinstall Adobe Cloud Drive if necessary. For more information, see [Install Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/install-adobe-cloud-drive.md).
 
 ### The Adobe Cloud Drive icon isn't visible in the menu bar or taskbar

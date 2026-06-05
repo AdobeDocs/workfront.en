@@ -86,6 +86,10 @@ At the project level, system-generated folders display a linked object. The fold
 
 For more information, see [How document permissions work](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
+#### Adobe Cloud Drive
+
+Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer. You can open, edit, and save files in any application while Adobe Cloud Drive keeps your work in sync with Adobe cloud storage. For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
+
 ## Workfront objects
 
 The table below compares the features of Adobe cloud storage and legacy Workfront storage for Workfront objects. 

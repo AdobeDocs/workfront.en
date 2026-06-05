@@ -1186,6 +1186,12 @@ feature-set: Workfront
     * [Organize documents](documents/organizing-documents/organize-documents.md)
     * [Create document folders](documents/organizing-documents/create-documents-folder.md)
     * [Create and Manage Smart Folders](documents/organizing-documents/create-manage-smart-folders.md)
+  * Adobe Cloud Drive {#adobe-cloud-drive}
+    * [Adobe Cloud Drive: article index](documents/adobe-cloud-drive/adobe-cloud-drive.md)
+    * [Adobe Cloud Drive overview](documents/adobe-cloud-drive/adobe-cloud-drive-overview.md)
+    * [Install Adobe Cloud Drive](documents/adobe-cloud-drive/install-adobe-cloud-drive.md)
+    * [Use Adobe Cloud Drive](documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
+    * [Troubleshoot Adobe Cloud Drive](documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)
   * Workfront and Experience Manager Assets Integrations {#wf-aem-integrations}
     * [Workfront and Experience Manager Assets Integrations](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
     * Workfront for Experience Manager enhanced connector {#wf-aem-enhanced-connector}

@@ -146,6 +146,8 @@ The following table shows how Workfront permissions map to Frame.io permissions:
 
 Documents uploaded to Workfront are stored in Adobe cloud storage and are accessible in both Workfront and Frame.io. When you upload a document to a task or issue in Workfront, a system-generated folder is created in Adobe cloud storage that inherits permissions from the task or issue. All documents uploaded to that task or issue are stored in that folder and inherit permissions from it. For more information about documents in Workfront, see [The new Documents area overview](/help/quicksilver/documents/managing-documents/documents-area.md) and [Object permissions and access level overview for the Adobe cloud storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
+You can also access these same documents from your Mac or Windows desktop using Adobe Cloud Drive. Adobe Cloud Drive mounts your Adobe cloud storage projects as a drive on your computer, so you can open and edit files in any application while keeping changes in sync with Workfront and Frame.io. For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
+
 ### Document experience limitations
 
 The following Document capabilities are not included:

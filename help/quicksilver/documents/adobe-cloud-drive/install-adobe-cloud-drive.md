@@ -30,12 +30,8 @@ For information about what Adobe Cloud Drive is and what you can do with it, see
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any package with Adobe cloud storage</p></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>Workfront v2</p></td> 
+   <td role="rowheader">Adobe Workfront version</td> 
+   <td><p>You must be on a version of Workfront that supports Adobe cloud storage. If your organization is not already on a supported version, contact your Adobe account representative.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Additional products</td> 
@@ -53,7 +49,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 Before you install Adobe Cloud Drive, make sure of the following:
 
 * Your device meets the system requirements listed in [System requirements](#system-requirements) in this article.
-* A Workfront v2 license is assigned to you.
+* Your organization is on a version of Workfront that supports Adobe cloud storage. If it isn't, contact your Adobe account representative.
 * You have administrator privileges on your device so you can run the installer.
 
 If your organization manages application installs for you and you don't see Adobe Cloud Drive available for download, contact your Workfront administrator.
@@ -82,6 +78,9 @@ To make sure Adobe Cloud Drive can reach the services it depends on, allow the n
 ## Download the installer
 
 1. Go to [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
+
+   <!-- Screenshot placeholder: Adobe Software Distribution download page showing Adobe Cloud Drive in the General downloads list. Suggested filename: adobe-cloud-drive-software-distribution.png -->
+
 1. Sign in with your Adobe ID.
 1. In the **General** downloads list, locate **Adobe Cloud Drive**.
 1. Select the installer for your operating system:
@@ -91,9 +90,9 @@ To make sure Adobe Cloud Drive can reach the services it depends on, allow the n
 
 1. Click **Download**.
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >If you don't see the Adobe Cloud Drive installer, you might not have the required license. Contact your Workfront administrator.
+   >If you don't see the Adobe Cloud Drive installer, your organization might not be on a version of Workfront that supports Adobe cloud storage. Contact your Workfront administrator.
 
 ## Install Adobe Cloud Drive
 
@@ -102,8 +101,14 @@ Use the procedure for your operating system.
 ### Install on macOS
 
 1. Open the downloaded `.dmg` file.
+
+   <!-- Screenshot placeholder: macOS .dmg installer window for Adobe Cloud Drive. Suggested filename: adobe-cloud-drive-mac-dmg.png -->
+
 1. Open **Applications**, then launch **Adobe Cloud Drive**.
 1. Follow the on-screen setup wizard.
+
+   <!-- Screenshot placeholder: macOS setup wizard for Adobe Cloud Drive. Suggested filename: adobe-cloud-drive-mac-setup-wizard.png -->
+
 1. When prompted, sign in with your Adobe ID.
 
    If another Adobe desktop application is already running and you're signed in, Adobe Cloud Drive uses that active session automatically.
@@ -111,6 +116,9 @@ Use the procedure for your operating system.
 ### Install on Windows
 
 1. Run the downloaded `.exe` installer.
+
+   <!-- Screenshot placeholder: Windows installer dialog for Adobe Cloud Drive. Suggested filename: adobe-cloud-drive-windows-installer.png -->
+
 1. Follow the prompts in the installation wizard.
 1. Click **Install** when prompted.
 1. Launch **Adobe Cloud Drive** from the Start menu.
@@ -122,6 +130,8 @@ After installation, Adobe Cloud Drive appears as a mounted drive on your compute
 
 * **macOS:** In the Finder sidebar under **Locations**, as **Adobe Cloud Drive**.
 * **Windows:** In File Explorer under **This PC**, as **Adobe Cloud Drive**.
+
+<!-- Screenshot placeholder: side-by-side or stacked images of Adobe Cloud Drive mounted in Finder (Mac) and File Explorer (Windows). Suggested filename: adobe-cloud-drive-mounted.png -->
 
 You should see your Adobe cloud storage projects listed as folders inside the drive.
 
