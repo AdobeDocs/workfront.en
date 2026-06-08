@@ -39,6 +39,8 @@ Before you can connect Workfront to an AI agentic platform, you must:
 * Have an active [!DNL Adobe Workfront] account with permission to access the data you want to work with
 * Have access to an AI agentic platform like [!DNL Claude]
 * Your Workfront instance must be enabled on Adobe Identity Management System (IMS).
+* To use MCP with Workfront Planning, your organization must be on a Workfront package that includes Adobe Workfront Planning.
+
 
 ### Admin prerequisites
 
@@ -205,7 +207,7 @@ What happens next
 +++ Expand to view troubleshooting tips for setup and authentication of the Workfront MCP server.
 
 | Problem | Likely cause | Fix |
-|---|---|---|
+| --- | --- | --- |
 | You can't find the [!DNL Adobe Workfront] connector in [!DNL Claude]. | Your [!DNL Claude] administrator hasn't enabled it. | Contact your [!DNL Claude] administrator (not your Workfront administrator) and ask them to enable the [!DNL Adobe Workfront] connector. |
 | You connected, but you can't see your data. | You authenticated to the wrong Workfront instance. | Disconnect the connector, reconnect, and authenticate to the correct instance. |
 | Authentication failed, or the connection stopped working. | Your auth session expired or there's a connection error. | Disconnect and reconnect the connector. |
@@ -234,4 +236,4 @@ Both your Workfront administrator and the administrator for your AI agentic plat
 
 No. Your Workfront instance must be enabled on Adobe Identity Management System (IMS) to use the Workfront MCP server. If you're not sure whether your instance is enabled on IMS, contact your Workfront administrator.
 
-+++
++++ 
