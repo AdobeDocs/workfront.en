@@ -23,7 +23,7 @@ The [!DNL Adobe Workfront] MCP server lets you find, create, update, and manage 
 * You must set up the connection between your AI agentic platform and the Workfront MCP server. For setup instructions, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 * Your Workfront instance must be enabled on Adobe Identity Management System (IMS).
 * You must have a Workfront account with the necessary access level and object permissions for the items you want to work with.
-
+* To use MCP with Workfront Planning, your organization must be on a Workfront package that includes Adobe Workfront Planning.
 
 This article assumes you've already set up the connection. For information about setup, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
@@ -96,6 +96,10 @@ To manage document and asset approvals, ask:
 
 ### Work with Planning records
 
+>[!IMPORTANT]
+>
+>* To use MCP with Workfront Planning, your organization must be on a Workfront package that includes Adobe Workfront Planning.
+
 To manage planning records, ask:
 
 * *Create a new planning record called "Q2 Marketing Plan" for the Brand Marketing team.*
@@ -158,7 +162,7 @@ Workfront does not have control over how the AI agentic platform provider handle
 +++ Expand to view troubleshooting tips for day-to-day use of the Workfront MCP server.
 
 | Problem | Likely cause | Fix |
-|---|---|---|
+| --- | --- | --- |
 | The AI agentic platform is giving you outdated information. | The AI agentic platform is reusing data from earlier in the conversation. | Ask for fresh data from Workfront. |
 | The AI agentic platform returned data from the wrong Workfront items. | The AI agentic platform picked the wrong items based on ambiguous wording. | Ask again with more specific names, IDs, or filters. |
 | An update or delete didn't take effect in Workfront. | Your Workfront administrator has disabled write actions for the Workfront MCP server, or you don't have permission to perform the action on the specific item. | Confirm with the AI agentic platform that the action ran. Then check that write actions are enabled for the Workfront MCP server and that you have permission to change the item. |
