@@ -212,7 +212,7 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
     >
     >  You cannot edit information for the following fields, as they are read-only and Workfront updates them automatically: 
     >  
-    >  * Linked fields that are created by connecting record types. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+    >  * Connection lookup fields that are created by connecting record types and added lookup fields. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
     >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date, Formula fields.
 
 1. (Optional and conditional) When you edit a Paragraph-type field, use the following **Rich Text** formatting options: 
@@ -229,22 +229,24 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 1. (Optional) Double-click a connected record field to add connected records or objects to another record. For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
 1. Press **Enter** on your keyboard or click outside of a row to save your changes. The changes are saved automatically. A **Saved** indicator displays briefly in the upper-right corner of the table view to show that the changes were saved. 
 
-
 1. (Optional) To copy and paste information from one field to another, do one of the following:       
 
     * Copy one or multiple existing values of one field, then paste them into a field of the same type on another record
     * Click the column header of a column to select it and copy it, then click the column header of another column and paste the contents of the copied column. The columns must contain similar field types. 
-    * With your Shift key pressed, click to select several rows in a table, copy the information in the selected rows, then click a different row and paste the selected information in the new row and the following rows after that. 
+    * With your Shift key pressed, click to select several rows in a table, copy the information in the selected rows, then click a different row and paste the selected information in the new row and the following rows after that. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
     * Copy the information from one cell, then select multiple cells and paste the same information in multiple cells. You can select multiple cells and paste the same information in multiple cells from adjacent rows and columns. 
     * Select the lower-right corner of an existing cell that contains the information you want to copy, then drag and drop it across the adjacent cells where you want to paste the same information. All cells must contain the same type of information. 
 
         ![Dragable lower-right corner for copy paste in table view](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
     
-  
     * Copy one or multiple cells from an external source (for example, an Excel file), then paste them in one of the the following fields types:
 
         * Workfront Planning connection fields.  
+        <!--<span class="preview">This is not possible in the Preview environment.</span>-->
         * People fields. Only fields with one value are supported. 
+        * Text fields.
+        * Select fields.
+        * Number, percentage and currency fields.
 
         You cannot copy information from an external source and paste it in any other field types, including Workfront or other applications' connections fields.
 
@@ -256,11 +258,12 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
     >   * Copy: CTRL + C (⌘ + C for Mac)
     >   * Paste: CTRL + V (⌘ + V for Mac) 
     >
-    >* You cannot copy and paste field values in the record page. This functionality is supported only in the table view of a record type.  
+    >* You cannot copy and paste field values in the record details page. This functionality is supported only in the table view of a record type.  
     >* You cannot copy and paste field values for the following field types:   
     >
     >    * Lookup fields that are created when connecting record types. You can copy and paste linked record fields. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
     >    * Fields of the following types: Created by, Created date, Last modified by, Last Modified date 
+    >* When you copy and paste connection fields, or select field values, the values you copy must first exist in Workfront Planning. 
     
 1. (Optional) Use the following keyboard shortcuts to undo or redo editing or copying and pasting record information: 
 
@@ -269,9 +272,17 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 
     >[!TIP]
     >
-    >    You can use the keyboard shortcuts multiple times in a row to undo multiple changes.
+    >You can use the keyboard shortcuts multiple times in a row to undo multiple changes.
 
-1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record name and choose from the following options: 
+
+    * **View** <!--or <span class="preview"Open in new tab</span>-->: This opens the record page.
+    * **Copy link**: To copy a link to the record's page.
+    * **Edit thumbnail**: To add a thumbnail to a record. 
+        For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+    * **Duplicate**: This creates an identical duplicate of the record. 
+    * **Insert record above/ Insert record below**: Adds a new row so you can add a new record. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
+    * **Delete**: To delete the record. Deleted records are saved in the Recently deleted box for up to 30 days.
 
 
 ### Edit a record in the timeline view of a record type

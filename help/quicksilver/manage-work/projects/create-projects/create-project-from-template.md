@@ -175,7 +175,7 @@ You can create a project from the Projects area in the Main Menu, or from the Pr
 
       * A legacy Workfront storage template
 
-         legacy Workfront storage templates display a legacy-storage icon ![Legacy storage icon](assets/legacy-storage-project-icon.png) next to their name. 
+         Legacy Workfront storage templates display a legacy-storage icon ![Legacy storage icon](assets/legacy-storage-project-icon.png) next to their name. 
 
          Documents on the template and on the future projects will be stored in Workfront storage.
       * An Adobe cloud storage template
