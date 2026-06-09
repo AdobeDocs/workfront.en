@@ -48,9 +48,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 Before you install Adobe Cloud Drive, make sure of the following:
 
-* Your device meets the system requirements listed in [System requirements](#system-requirements) in this article.
-* Your organization is on a version of Workfront that supports Adobe cloud storage. If it isn't, contact your Adobe account representative.
-* You have administrator privileges on your device so you can run the installer.
+* Your device meets the system requirements listed in the [System requirements](#system-requirements) section in this article.
+* Your organization is on a version of Workfront that supports Adobe cloud storage.
 
 If your organization manages application installs for you and you don't see Adobe Cloud Drive available for download, contact your Workfront administrator.
 
@@ -79,8 +78,6 @@ To make sure Adobe Cloud Drive can reach the services it depends on, allow the n
 
 1. Go to [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
 
-   <!-- Screenshot placeholder: Adobe Software Distribution download page showing Adobe Cloud Drive in the General downloads list. Suggested filename: adobe-cloud-drive-software-distribution.png -->
-
 1. Sign in with your Adobe ID.
 1. In the **General** downloads list, locate **Adobe Cloud Drive**.
 1. Select the installer for your operating system:
@@ -102,12 +99,8 @@ Use the procedure for your operating system.
 
 1. Open the downloaded `.dmg` file.
 
-   <!-- Screenshot placeholder: macOS .dmg installer window for Adobe Cloud Drive. Suggested filename: adobe-cloud-drive-mac-dmg.png -->
-
 1. Open **Applications**, then launch **Adobe Cloud Drive**.
 1. Follow the on-screen setup wizard.
-
-   <!-- Screenshot placeholder: macOS setup wizard for Adobe Cloud Drive. Suggested filename: adobe-cloud-drive-mac-setup-wizard.png -->
 
 1. When prompted, sign in with your Adobe ID.
 
@@ -116,8 +109,6 @@ Use the procedure for your operating system.
 ### Install on Windows
 
 1. Run the downloaded `.exe` installer.
-
-   <!-- Screenshot placeholder: Windows installer dialog for Adobe Cloud Drive. Suggested filename: adobe-cloud-drive-windows-installer.png -->
 
 1. Follow the prompts in the installation wizard.
 1. Click **Install** when prompted.
@@ -130,8 +121,6 @@ After installation, Adobe Cloud Drive appears as a mounted drive on your compute
 
 * **macOS:** In the Finder sidebar under **Locations**, as **Adobe Cloud Drive**.
 * **Windows:** In File Explorer under **This PC**, as **Adobe Cloud Drive**.
-
-<!-- Screenshot placeholder: side-by-side or stacked images of Adobe Cloud Drive mounted in Finder (Mac) and File Explorer (Windows). Suggested filename: adobe-cloud-drive-mounted.png -->
 
 You should see your Adobe cloud storage projects listed as folders inside the drive.
 
