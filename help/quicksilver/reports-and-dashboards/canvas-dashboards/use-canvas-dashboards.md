@@ -61,7 +61,7 @@ To sort the list:
 >[!NOTE]
 >
 >* Your sort order is preserved when you switch between tabs in the Canvas Dashboards list.
->* Rows with empty values and dashboards named **Untitled dashboard** always sort to the bottom of the list, regardless of sort direction.
+
 
 </div>
 
