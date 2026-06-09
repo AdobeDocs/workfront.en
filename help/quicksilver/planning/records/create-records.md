@@ -282,8 +282,8 @@ For information about editing record information, see [Edit records](/help/quick
         >
         >When you add a new record after the last record in a grouping or subgrouping, Workfront automatically populates the fields included in the groupings. You can manually edit these fields, if needed, and the records might be removed from the grouping.  
 
-    * Click **Shift + Enter** on your keyboard from any column or row of the table. This adds an empty row under the record you start from. 
-    * Hover over a record's primary field, click the **More** menu ![More menu](assets/more-menu.png) to the right of the field, then click **Insert record above** or **Insert record below**. 
+    * Click **Shift + Enter** on your keyboard from any column or row of the table. This adds an empty row under the record you start from. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
+    * Hover over a record's primary field, click the **More** menu ![More menu](assets/more-menu.png) to the right of the field, then click **Insert record above** or **Insert record below**. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
 
     ![Adding a new campaign in table row](assets/adding-a-new-campaign-in-table-row.png)
 

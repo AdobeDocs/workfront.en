@@ -670,7 +670,7 @@ The column headers of a table view display fields associated with the records in
 
 For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
-************this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.***************
+************ this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default. ***************
 
 Adding columns to a view is identical to adding fields to a record type.  
 
@@ -748,7 +748,14 @@ You can add up to 500 fields (or columns) in a table view.
     1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table. 
 
     1. Click the **x** icon in the search box to clear the search keyword. 
-   
+1. For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+    * SUM: Displays the total of all cells in the column. This is the default selection. 
+    * MIN: Displays the lowest value from all the cells in the column. 
+    * MAX: Displays the highest value from all the cells in the column. 
+    * AVG: Displays the average value of all the cells in the column. 
+
+    The aggregator row in the column is frozen and is part of the view settings. The aggregator you choose will be shared with the view when you share the view with others. 
 
 ### Add rows (or records) {#add-rows}
 
@@ -941,9 +948,9 @@ To add a grouping:
 
 ### Add row colors
 
-1. (Optional) Click **Row colors** to define conditions and choose configure diferent colors for table rows.
+1. (Optional) Click **Row colors** to define conditions and choose configure different colors for table rows.
 
-1. Click **Add color**, then search for a field then select it when it displays in the list. This is the field whose value you want to determine the color of a row.
+1. Click **Add color**, then search for a field then select it when it displays in the list. This is the field whose value you want to define the color of a row.
 
     For example, to display campaigns with a status of Active in green, select **Status**, then choose a modifier and a value for the field. 
 
@@ -963,13 +970,12 @@ To add a grouping:
 
     ![Row colors box with Active and Planning status custom colors](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
 
-1. (Optional) Turn on the **Apply to the entire row** setting in the upper-right corner of the Row colors box. The entire row where the condition is met automatically displays in the selected color. 
+1. (Optional) Turn on the **Apply to the entire row** setting in the upper-right corner of the **Row colors** box. The entire row where the condition is met automatically displays in the selected color. 
 
     >[!NOTE]
     >
-    >* If the Apply to the entire row setting is turned off, only the left side of the Primary field displays a narrow color indicator with the selected color. The setting is turned off by default.
+    >If the **Apply to the entire row** setting is turned off, only the background of the primary field cell displays in the selected color. The setting is turned off by default.
     >
-    >* You cannot apply row colors to an entire row when you have at least one grouping selected in the table view. The role color only applies to the left of the primary field cell when grouping are applied to the table. 
 
 1. Click outside the **Row colors** box to close it. The colors are applied automatically.
 
