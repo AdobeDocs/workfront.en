@@ -73,7 +73,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Create an approval workflow from the Summary panel in the legacy documents area in Production
+## Create an approval workflow in the legacy documents area in Production
 
 If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
@@ -120,26 +120,28 @@ To create an approval workflow:
 
 <div class="preview">
 
-## Create an approval workflow from the Summary panel in the legacy documents area in Preview
+## Create an approval workflow in the legacy documents area in Preview
 
 If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
-To create an approval workflow:
+### Create a basic approval workflow
+
+To create a single-stage approval workflow:
 
 1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
 1. Click on the document you need and the Document Summary panel for that document opens.
 
-1. Select the version of the document you would like to create an approval for in the version drop-down menu. The latest version is selected by default.
+1. Select the version of the document you want to create an approval for in the version drop-down menu. The latest version is selected by default.
 
-1. Scroll down to the **Approvals** section, then click **Create workflow**.
+1. Scroll down to the **Approvals** section, then click **Create workflow**. The **Request approval** dialog opens in Basic mode.
 
 1. Fill in the following details:
 
    <table>
    <tr>
-   <td><strong>Stage name</strong></td>
-   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
+   <td><strong>Use an approval template (optional)</strong></td>
+   <td>The templates field is collapsed by default. Click the field to expand it, then select a template from the drop-down menu. If the template has one path and one stage, it applies in Basic mode. If the template has more than one stage or more than one path, the dialog automatically switches to Advanced mode and any input you entered in Basic mode is replaced by the template's content.</td>
    </tr>
    <tr>
    <td><strong>Add names or emails</strong></td>
@@ -155,24 +157,81 @@ To create an approval workflow:
    </tr>
    <tr>
    <td><strong>Add Custom Message (optional)</strong></td>
-   <td>Type a message in the <strong>Add Custom Message</strong> text box. The message appears in the approval email notification and in the Approvals tab in Workfront.
-   <p>When you add a second stage, <strong>Show this message on all stages</strong> is selected by default. Leave it selected to use the same message in every stage. To use a different message for each stage, clear <strong>Show this message on all stages</strong>, then type the stage-specific message in each stage's <strong>Add Custom Message</strong> text box as needed.</p></td>
+   <td>Type a message in the <strong>Add Custom Message</strong> text box. The message appears in the approval email notification and in the Approvals tab in Workfront.</td>
    </tr>
    </table>
 
-1. (Optional) Repeat the previous step to add additional stages as needed.
+1. Click **Request approval**.
 
-   >[!NOTE]
+   ![Request approval in Basic mode](assets/request-approval-basic.png)
+
+>[!NOTE]
+>
+>* The **Request approval** dialog opens in Basic mode every time, regardless of your previous session.
+>* If you edit a custom message after the approval workflow is created, an updated email notification is sent to all existing participants. If you add a participant later, the custom message is included in their email notification.
+>* After an approval is saved, you can't switch it back to Basic mode. You can switch an in-progress approval from Basic to Advanced as long as the approval is not locked or completed.
+
+### Create an advanced approval workflow 
+
+Advanced mode supports parallel paths. Each path runs independently and contains one or more sequential stages. You can configure up to 30 paths and 100 stages total.
+
+1. Follow steps 1 through 4 in the previous procedure.
+
+1. In the top right of the **Request approval** dialog, click **Go to advanced**. Any input you entered in Basic mode is preserved and applied to **Path 1**, **Stage 1**.
+
+   >[!TIP]
    >
-   >* If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
-   >* If you edit a custom message after the approval workflow is created, an updated email notification is sent to all existing participants. If you add a participant later, the custom message is included in their email notification.
+   >While you're creating the approval, you can return to Basic mode by clicking **Go to basic** in the top right. After you click **Request approval**, the **Go to basic** option is no longer available.
 
-   ![Add custom message to a stage](assets/add-custom-message.jpeg)
+1. Fill in details for Stage 1 of Path 1:
+
+   <table>
+   <tr>
+   <td><strong>Stage name</strong></td>
+   <td>Stages are named <em>Stage 1</em>, <em>Stage 2</em>, and so on by default. Rename the stage to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
+   </tr>
+   <tr>
+   <td><strong>Only one decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
+   </tr>
+   <tr>
+   <td><strong>Due on (optional)</strong></td>
+   <td>The first stage of each path supports an absolute due date. Each subsequent stage in the path supports a relative due date — the number of days from when that stage opens. Users and teams are notified by email 72 hours, then 24 hours before the due date.</td>
+   </tr>
+   <tr>
+   <td><strong>Add Custom Message (optional)</strong></td>
+   <td>Type a message in the <strong>Add Custom Message</strong> text box. The message appears in the approval email notification and in the Approvals tab in Workfront.<p>When you add a second stage, <strong>Show this message on all stages</strong> is selected by default. Leave it selected to use the same message in every stage. To use a different message for each stage, clear <strong>Show this message on all stages</strong>, then type the stage-specific message in each stage's <strong>Add Custom Message</strong> text box.</p></td>
+   </tr>
+   </table>
+
+1. (Optional) Click **Add stage** to add another stage to the path. Stages within a path run sequentially in the order they're listed. You can reorder stages within a path, but you can't move a stage from one path to another.
+
+   ![Advanced mode with one path](assets/request-approval-advanced.png)
+
+1. (Optional) Under **Parallel paths**, click **Add path** to add another path. The new path starts with one empty stage and becomes the selected path. To rename a path, hover the path label, click the pencil icon, then type a new name. To remove a path, hover the path label and click the trash icon.
+
+   ![Advanced mode with parallel paths](assets/request-approval-parallel-paths.png)
+
+   >[!TIP]
+   >
+   >To clear all paths and stages and start over, click **Reset** in the top right.
+
+1. Click **Request approval**.
+
+>[!NOTE]
+>
+>* Paths run independently and in parallel. Within a path, stages run sequentially. When all required decisions in a stage are made, the next stage in that path begins and the previous stage is locked.
+>* **Path 1** can't be removed. Other paths can be removed only if no stage within the path is locked or completed.
+>* Paths can't be reordered.
 
 </div>
 
 
-## Create an approval workflow from the Summary panel in the new Documents area in Production
+## Create an approval workflow in the new Documents area in Production
 
 If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -216,11 +275,15 @@ To create an approval workflow:
 
 <div class="preview">
 
-## Create an approval workflow from the Summary panel in the new Documents area in Preview
+## Create an approval workflow in the new Documents area in Preview
 
 If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-To create an approval workflow:
+The **Request approval** dialog opens in **Basic** mode by default. Basic mode is a single stage with one set of approvers or reviewers. Switch to **Advanced** mode to configure multi-stage approvals or parallel paths.
+
+### Create a basic approval workflow
+
+To create a single-stage approval workflow:
 
 1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
@@ -228,12 +291,14 @@ To create an approval workflow:
 
    ![Add approvers in document summary](assets/approvals-icon-new.png)
 
-1. Click **Create workflow**, then fill in the following details:
+1. Click **Create workflow**. The **Request approval** dialog opens in Basic mode.
+
+1. Fill in the following details:
 
    <table>
    <tr>
-   <td><strong>Stage name</strong></td>
-   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
+   <td><strong>Use an approval template (optional)</strong></td>
+   <td>The templates field is collapsed by default. Click the field to expand it, then select a template from the drop-down menu. If the template has one path and one stage, it applies in Basic mode. If the template has more than one stage or more than one path, the dialog automatically switches to Advanced mode and any input you entered in Basic mode is replaced by the template's content.</td>
    </tr>
    <tr>
    <td><strong>Add names or emails</strong></td>
@@ -249,19 +314,76 @@ To create an approval workflow:
    </tr>
    <tr>
    <td><strong>Add Custom Message (optional)</strong></td>
-   <td>Type a message in the <strong>Add Custom Message</strong> text box. The message appears in the approval email notification and in the Approvals tab in Workfront.
-   <p>When you add a second stage, <strong>Show this message on all stages</strong> is selected by default. Leave it selected to use the same message in every stage. To use a different message for each stage, clear <strong>Show this message on all stages</strong>, then type the stage-specific message in each stage's <strong>Add Custom Message</strong> text box.</p></td>
+   <td>Type a message in the <strong>Add Custom Message</strong> text box. The message appears in the approval email notification and in the Approvals tab in Workfront.</td>
    </tr>
    </table>
 
-1. (Optional) Repeat the previous step to add additional stages as needed.
+1. Click **Request approval**.
 
-   >[!NOTE]
+   ![Request approval in Basic mode](assets/request-approval-basic.png)
+
+>[!NOTE]
+>
+>* The **Request approval** dialog opens in Basic mode every time, regardless of your previous session.
+>* If you edit a custom message after the approval workflow is created, an updated email notification is sent to all existing participants. If you add a participant later, the custom message is included in their email notification.
+>* After an approval is saved, you can't switch it back to Basic mode. You can switch an in-progress approval from Basic to Advanced as long as the approval is not locked or completed.
+
+### Create an advanced approval workflow with multiple stages or parallel paths
+
+Advanced mode supports parallel paths. Each path runs independently and contains one or more sequential stages. You can configure up to 30 paths and 100 stages total.
+
+1. Follow steps 1 through 3 in the previous procedure.
+
+1. In the top right of the **Request approval** dialog, click **Go to advanced**. Any input you entered in Basic mode is preserved and applied to **Path 1**, **Stage 1**.
+
+   >[!TIP]
    >
-   >* If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
-   >* If you edit a custom message after the approval workflow is created, an updated email notification is sent to all existing participants. If you add a participant later, the custom message is included in their email notification.
+   >While you're creating the approval, you can return to Basic mode by clicking **Go to basic** in the top right. After you click **Request approval**, the **Go to basic** option is no longer available.
 
-   ![Add custom message to a stage](assets/add-custom-message.jpeg)
+1. Fill in details for Stage 1 of Path 1:
+
+   <table>
+   <tr>
+   <td><strong>Stage name</strong></td>
+   <td>Stages are named <em>Stage 1</em>, <em>Stage 2</em>, and so on by default. Rename the stage to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
+   </tr>
+   <tr>
+   <td><strong>Only one decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
+   </tr>
+   <tr>
+   <td><strong>Due on (optional)</strong></td>
+   <td>The first stage of each path supports an absolute due date. Each subsequent stage in the path supports a relative due date — the number of days from when that stage opens. Users and teams are notified by email 72 hours, then 24 hours before the due date.</td>
+   </tr>
+   <tr>
+   <td><strong>Add Custom Message (optional)</strong></td>
+   <td>Type a message in the <strong>Add Custom Message</strong> text box. The message appears in the approval email notification and in the Approvals tab in Workfront.<p>When you add a second stage, <strong>Show this message on all stages</strong> is selected by default. Leave it selected to use the same message in every stage. To use a different message for each stage, clear <strong>Show this message on all stages</strong>, then type the stage-specific message in each stage's <strong>Add Custom Message</strong> text box.</p></td>
+   </tr>
+   </table>
+
+1. (Optional) Click **Add stage** to add another stage to the path. Stages within a path run sequentially in the order they're listed. You can reorder stages within a path, but you can't move a stage from one path to another.
+
+   ![Advanced mode with one path](assets/request-approval-advanced.png)
+
+1. (Optional) Under **Parallel paths**, click **Add path** to add another path. The new path starts with one empty stage and becomes the selected path. To rename a path, hover the path label, click the pencil icon, then type a new name. To remove a path, hover the path label and click the trash icon.
+
+   ![Advanced mode with parallel paths](assets/request-approval-parallel-paths.png)
+
+   >[!TIP]
+   >
+   >To clear all paths and stages and start over, click **Reset** in the top right.
+
+1. Click **Request approval**.
+
+>[!NOTE]
+>
+>* Paths run independently and in parallel. Within a path, stages run sequentially. When all required decisions in a stage are made, the next stage in that path begins and the previous stage is locked.
+>* **Path 1** can't be removed. Other paths can be removed only if no stage within the path is locked or completed.
+>* Paths can't be reordered.
 
 </div>
 
