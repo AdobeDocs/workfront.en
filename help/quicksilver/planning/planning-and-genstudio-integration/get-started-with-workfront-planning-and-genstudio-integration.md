@@ -408,7 +408,7 @@ When AEM object types (assets and content fragments) are connected to GenStudio 
 
 ### Request forms and automations in the GenStudio record type
 
-* You can add request forms to a GenStudio record type in Workfront Planning. 
+* You can add request forms to a GenStudio record type in Workfront Planning. You can add Planning connection fields on a request form associated with a GenStudio workspace record type.
 
     For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 * You can configure automations for a GenStudio record type in Workfront Planning.
@@ -419,12 +419,16 @@ When AEM object types (assets and content fragments) are connected to GenStudio 
 
 When your organization has an integration between Workfront Planning and Adobe GenStudio, you can connect Planning record types to GenStudio Brands from any record type in any workspace in Workfront Planning. 
 
-Brands are connected by default to the following GenStudio workspace record types:
+Consider the following: 
 
-* Products
-* Personas
+* Brands are connected by default to the following GenStudio workspace record types:
 
-Brands are available for manually connecting to all other GenStudio workspace record types, or record types from all other workspaces you have permissions to manage. 
+    * Products
+    * Personas
+
+* Brands are available for manually connecting to all other GenStudio workspace record types, or record types from all other workspaces that you have permissions to manage. 
+
+* After connecting Brands with a Planning or GenStudio record type, you can add the Brands connection field to a request form associated with the record type. 
 
 ## The Preview environment
 

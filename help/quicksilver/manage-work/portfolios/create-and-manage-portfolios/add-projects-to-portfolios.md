@@ -198,6 +198,13 @@ Old:
    >
    >Not all Workfront instances have both types of document storages.
 
+    <!--
+    For preview/ prod release: replace all bullets (i think!!) in the Note with this:
+    * You cannot add a Legacy storage project to an Adobe cloud storage portfolio, or an Adobe cloud storage project to a Legacy storage portfolio. 
+    * You cannot create a project from an Adobe cloud storage template in a Legacy storage portfolio. 
+    * You can create a project from a Legacy storage template in an Adobe cloud storage portfolio, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
+    --> 
+
 1. (Optional) Click the **X** icon to the right of the project name to remove it from the list, if you decide not to add it to the portfolio.
 
    <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the portfolio.-->
