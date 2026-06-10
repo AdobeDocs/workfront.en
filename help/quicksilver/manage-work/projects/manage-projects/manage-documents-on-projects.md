@@ -144,7 +144,8 @@ Consider the following when working with portfolios:
 
 * When you create portfolios using a Workfront Planning automation, Workfront uses your system's default storage preference for the portfolio. You must purchase the Planning package for access to Workfront Planning. 
 
-<!--For preview/ Prod release: the third bullet above will need replacing with this:
+<!--
+For preview/ Prod release: the third bullet above will need replacing with this:
 * You cannot add an Adobe cloud storage project to a Legacy storage portfolio or a Legacy storage project to an Adobe storage portfolio. 
 * Your administrator can convert a Legacy storage portfolio to Adobe cloud storage in the System Preferences area of Setup. All children objects (programs, projects, and documents) remain on Legacy storage. New projects will use Adobe cloud storage. New documents added to the portfolio will continue to be stored in Legacy storage.
   For information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
