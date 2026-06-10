@@ -67,7 +67,7 @@ You connect to Workfront once per [!DNL Claude] account. The connection authenti
 
 >[!IMPORTANT]
 >
->Currently, connecting to Claude from the Workfront MCP server is available only to customers in the US region.
+>Currently, connecting to Claude from the Workfront MCP server is available only to customers in the US region. To connect to a Workfront instance in the EU region, see [Connect to Claude desktop with a URL](#connect-to-claude-desktop-with-a-url) in this article.
 
 +++ Expand to view step-by-step instructions for connecting Workfront to [!DNL Claude].
 
@@ -121,7 +121,7 @@ To connect Workfront to [!DNL Claude] with a URL:
    >
    >When selecting an instance, instances that are not compatible with the MCP server's region appear grayed out, and you cannot connect to them. 
    >
-   >To connect to an instance that is not compatible with the MCP server's region, set up a new MCP server with the correct URL for that region.
+   >To connect to an instance that is not compatible with the MCP server's region, set up a new MCP connection with the correct URL for that region.
 
 +++
 
@@ -153,7 +153,7 @@ To learn more about [!DNL Claude] skills, see the [Claude user documentation](ht
    >
    >When selecting an instance, instances that are not compatible with the MCP server's region appear grayed out, and you cannot connect to them. 
    >
-   >To connect to an instance that is not compatible with the MCP server's region, set up a new MCP server with the correct URL for that region.
+   >To connect to an instance that is not compatible with the MCP server's region, set up a new MCP connection with the correct URL for that region.
 
 
 ### Customize ChatGPT behavior with Custom GPTs
@@ -193,7 +193,7 @@ To connect to a different Workfront instance:
 >
 >   When selecting an instance, instances that are not compatible with the MCP server's region appear grayed out, and you cannot connect to them. 
 >
->   To connect to an instance that is not compatible with the MCP server's region, set up a new MCP server with the correct URL for that region.
+>   To connect to an instance that is not compatible with the MCP server's region, set up a new MCP connection with the correct URL for that region.
 
 
 <!--
