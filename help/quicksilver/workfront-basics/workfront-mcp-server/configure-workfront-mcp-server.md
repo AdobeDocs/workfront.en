@@ -145,7 +145,7 @@ To learn more about [!DNL Claude] skills, see the [Claude user documentation](ht
    | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
    
 1. Ensure that Authentication is set to **OAuth** (set by default), and select the acceptance check box to continue.
-1. Once the app is created, a login window pops up. Authenticate using your Adobe ID credentials. Ensure that you select the desired Workfront instance if you belong to more than one.
+1. After the app is created, a login window pops up. Authenticate using your Adobe ID credentials. Ensure that you select the desired Workfront instance if you belong to more than one.
 
    >NOTE:
    >
@@ -268,7 +268,7 @@ For day-to-day troubleshooting after you're connected (for example, stale result
 
 +++ Expand to view frequently asked questions about setting up the Workfront MCP server.
 
-### Can I connect to multiple Workfront instances at once?
+### Can I connect to multiple Workfront instances at the same time?
 
 No. Each connection ties an AI agentic platform to a single Workfront instance. To switch, disconnect and reconnect, authenticating to the new instance.
 
