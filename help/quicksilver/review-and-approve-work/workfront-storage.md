@@ -46,7 +46,7 @@ The following table summarizes the major differences when switching to Adobe clo
 | [Object permissions mapping](#object-permissions-mapping) | Workfront's Manage and Contribute permissions both map to Edit & Share in Frame.io. View maps to Comment Only. | Permissions are managed in Workfront. Both Manage and Contribute users gain external sharing capability in Frame.io. |
 | [Review and approval viewer](#review-and-approval-viewer) | The Frame.io viewer replaces the Workfront Proofing viewer. | Included for all Workfront users, including External users assigned to a review or approval. Supports markup, time-stamped comments, version history, mobile, 40+ formats, files up to 500 GB. |
 | [Object naming rules](#object-naming-rules) | Strict naming rules apply: unique names within a portfolio or project, no special characters, no trailing period or space, 255-character limit. | Workfront auto-renames objects when conflicts arise. Audit templates that generate new project names and structure. |
-| [Object portability](#object-portability) | You can move, copy, and convert objects only between like storage models. | Adobe cloud storage objects can't move to legacy projects, or the reverse. Moving an Adobe cloud storage project to a legacy portfolio or program converts the parent to Adobe cloud storage. |
+| [Object portability](#object-portability) | In most scenarios, you can move, copy, and convert objects only between like storage models. | You can convert a legacy object to Adobe cloud storage in three specific cases. Documents and document folders don't move from legacy storage during conversion. |
 | [Capabilities not available](#capabilities-not-available-on-adobe-cloud-storage-objects) | Workfront Proof, the Workfront document viewer, favorite documents, and request documents aren't part of the experience. | Legacy objects retain these capabilities. Workfront Proof won't receive new investment and will be retired in a future release. |
 | [Storage quota](#storage-quota) | Storage is pooled for legacy Workfront projects and Adobe cloud storage projects. 60 GB per licensed user. No hard cap. | System admins can view storage usage on the Customer Info page in Setup.|
 | [Annual video review cap](#annual-video-review-cap) | Organizational-level cap on video proof requests at 10% of paid Workfront user licenses (Standard and Light). | Once reached, no new video reviews until the next annual period. In-app notifications at 80% and 100%. Doesn't apply to Frame.io Enterprise customers. |
@@ -130,9 +130,52 @@ If a name conflicts with these rules, Workfront automatically renames the object
 
 ### Object portability
 
-You can move, copy, and convert Workfront objects between like storage models. For example, you can move a task from one Adobe cloud storage project to another Adobe cloud storage project. You can't move or copy a task or issue from an Adobe cloud storage project to a legacy project, or the reverse.
+In most scenarios, you can move, copy, and convert Workfront objects between like storage models. For example, you can move a task from one Adobe cloud storage project to another Adobe cloud storage project. In three specific cases, you can convert a legacy Workfront storage object to Adobe cloud storage:
 
-Today, when you create or move an Adobe cloud storage project to a legacy portfolio or program, the portfolio or program is automatically converted to an Adobe cloud storage object. A future release will give system administrators more control over which objects are automatically converted.
+* Convert a legacy Workfront storage task to an Adobe cloud storage project
+* Convert a legacy Workfront storage portfolio to an Adobe cloud storage portfolio
+* Create an Adobe cloud storage project from a legacy Workfront storage template
+
+>[!NOTE]
+>
+>In all three conversion scenarios, documents and document folders don't move from legacy Workfront storage to Adobe cloud storage. Documents that exist on the legacy object before the conversion remain on legacy storage.
+
+#### Convert a legacy task to an Adobe cloud storage project
+
+To convert a legacy Workfront storage task to an Adobe cloud storage project, use the existing convert-to-project flow on the task. During the conversion:
+
+* Subtasks and issues move to the new project.
+* Documents attached to the task and their approval workflows remain on the original project.
+* Work approvals and resolving object links are removed.
+* The original task is deleted.
+
+For more information, see [Convert a task to a project](/help/quicksilver/manage-work/tasks/convert-tasks/convert-task-to-project.md).
+
+#### Convert a legacy portfolio to an Adobe cloud storage portfolio
+
+A Workfront administrator can convert a legacy Workfront storage portfolio to an Adobe cloud storage portfolio from the Setup area. After the conversion:
+
+* You can no longer move legacy Workfront storage projects into the portfolio.
+* All new projects created in the portfolio use Adobe cloud storage.
+* Frame.io is the viewer for documents in the portfolio's Adobe cloud storage projects.
+* Child projects that use legacy Workfront storage stay on legacy storage.
+* Child programs stay on legacy storage.
+
+    >[!NOTE]
+    >
+    >A child legacy program converts to Adobe cloud storage automatically only when someone manually adds an Adobe cloud storage project to it.
+
+For more information, see [Convert legacy portfolios to Adobe cloud storage](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md).
+
+#### Create an Adobe cloud storage project from a legacy template
+
+When you create a project from a legacy Workfront storage template, the **Create this project on Adobe cloud storage** checkbox in the project creation dialog determines the storage type of the new project. The checkbox behavior depends on where you create the project:
+
+* **Outside a portfolio**: The checkbox is available and cleared by default. Select it to create the new project on Adobe cloud storage.
+* **Inside an Adobe cloud storage portfolio**: The checkbox is selected and locked. The new project must match the portfolio's storage type.
+* **Inside a legacy Workfront storage portfolio**: The checkbox isn't available. The new project uses legacy Workfront storage.
+
+For more information, see [Create projects](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
 ### Capabilities not available on Adobe cloud storage objects
 
