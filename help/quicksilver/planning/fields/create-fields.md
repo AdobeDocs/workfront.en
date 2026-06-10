@@ -355,7 +355,10 @@ You can use a multi-select field to capture additional information in any format
     Or
 
    Click **Custom** to select a custom color using a color picker or a Hex code. 
-1. Click outside the color box to close it.    
+1. Click outside the color box to close it.   
+    <!--
+    1. <span class="preview">In the **Default choices** field, select the choices that you want to display in this field by default. You can choose more than one choice. Users can remove the default choices as they update this field. (********** and update all screen shots on this page ******) </span>
+    -->
 1. Click **Create**. 
 
     The new multi-select field is added as a column to the record type, and its values can be associated with records. 
@@ -402,7 +405,9 @@ Single-select fields capture additional information in any format by selecting o
     Or
 
     Click **Custom** to select a custom color using a color picker or a Hex code. 
-
+<!--
+    1. <span class="preview">In the **Default choice** field, select the choice that you want to display in this field by default. You can choose only one choice. Users can remove the default choice as they update this field. (********** and update all screen shots on this page ******) </span>
+    -->
 1. Click outside the color box to close it.
 1. Click **Create**. 
 
@@ -483,7 +488,7 @@ You can use a date field to capture additional information in date and time form
         
             * **24hr**: For example: 18:00
             * **12hr**: For example: 6:00 PM
-        * **Use the same timezone for all collaborators**, then select a **Timezone ** (************** might change the UI option here, to define 'collaborators' and to spell Time zone ****************): Select this if you want to show the same time stamp for all people viewing the field, regardless of their user's time zone. 
+        * **Use the same timezone for all collaborators**, then select a **Timezone ** (************** logged bug to change this to "Show the same time zone to all users" ****************): Select this if you want to show the same time stamp for all people viewing the field, regardless of their user's time zone. The time zone selected is added to the column header for this field. 
 
         </div>
         -->
@@ -706,6 +711,10 @@ You can use the People field type to add a user to a record. This is a type-ahea
     >[!NOTE]
     >
     >    If you select Allow multiple values, and multiple users are stored on the records the field is attached to, then you can no longer deselect the setting in the future, when editing this field. 
+
+    <!--
+    1. <span class="preview">In the **Default user** or **Default users** field, select the users that you want to display in this field by default. You can choose more than one user if you also selected the **Allow multiple values** setting. Users can remove the default choices as they update this field. (********** and update all screen shots on this page ******) </span>
+    -->
     
 1. Click **Create**.
 

@@ -307,7 +307,9 @@ For information about creating a project from a template, see [Create a project 
       <p><b>NOTES</b></p>
       <ul>
       <li>You must have Manage permissions to the portfolio to be able to add or remove it to the project.</li>
-      <li>When your organization uses both legacy Workfront and Adobe cloud storage, you can't copy tasks between projects that use different storage types. Your Workfront instance might not have both types of document storage.</li></ul> 
+      <li>When your organization uses both legacy Workfront and Adobe cloud storage, you can't copy tasks between projects that use different storage types. </li>
+      <li>You cannot move a Legacy storage project to an Adobe cloud storage portfolio or program, or an Adobe cloud storage project to a Legacy portfolio or program.</li>
+      </ul> <p>Your Workfront instance might not have both types of document storage.</p>
       For more information, see <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Document management overview for projects and related objects</a>. 
       </td> 
       </tr> 

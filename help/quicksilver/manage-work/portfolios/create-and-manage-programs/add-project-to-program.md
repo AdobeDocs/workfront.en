@@ -183,6 +183,15 @@ old:
       >
       >Not all Workfront instances have both types of document storages.
 
+
+       <!--
+        For preview/ prod release: replace all bullets (i think!!) in the Note with this:
+        * You cannot add a Legacy storage project to an Adobe cloud storage program, or an Adobe cloud storage project to a Legacy storage program. 
+        * You cannot create a project from an Adobe cloud storage template in a Legacy storage program. 
+        * You can create a project from a Legacy storage template in an Adobe cloud storage program, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
+        * When you add an Adobe cloud storage project to a Legacy storage program, the program is converted to Adobe storage. Existing Legacy storage documents remain in the Legacy storage.
+        --> 
+
    1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the program.
    
    1. Click **[!UICONTROL Add projects]**. <!--check at unshimming-->

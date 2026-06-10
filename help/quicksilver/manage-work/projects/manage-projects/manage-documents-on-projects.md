@@ -130,6 +130,8 @@ Consider the following when working with projects:
 * When you import a project from MS Project, Workfront creates a legacy Workfront storage project, even when your Workfront administrator made the Adobe cloud storage the default for your system. 
 * When you create projects using a Workfront Planning automation, Workfront uses your system's default storage preference for the project. You must purchase the Planning package for access to Workfront Planning. 
 
+For more information, also see the [Document management for project templates](#document-management-for-project-templates) section in this article.
+
 ### Document management for portfolios
 
 Consider the following when working with portfolios: 
@@ -141,6 +143,13 @@ Consider the following when working with portfolios:
 * You cannot add a legacy Workfront storage project to an Adobe cloud storage portfolio. 
 
 * When you create portfolios using a Workfront Planning automation, Workfront uses your system's default storage preference for the portfolio. You must purchase the Planning package for access to Workfront Planning. 
+
+<!--
+For preview/ Prod release: the third bullet above will need replacing with this:
+* You cannot add an Adobe cloud storage project to a Legacy storage portfolio or a Legacy storage project to an Adobe storage portfolio. 
+* Your administrator can convert a Legacy storage portfolio to Adobe cloud storage in the System Preferences area of Setup. All children objects (programs, projects, and documents) remain on Legacy storage. New projects will use Adobe cloud storage. New documents added to the portfolio will continue to be stored in Legacy storage.
+  For information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+-->
 
 ### Document management for programs
 
@@ -155,6 +164,17 @@ Consider the following when working with programs:
 * You cannot add a legacy Workfront storage project to an Adobe cloud storage program. 
 
 * When you create programs using a Workfront Planning automation, Workfront uses your system's default storage preference for the program. You must purchase the Planning package for access to Workfront Planning. 
+
+<!--
+For preview/Prod release - check for duplicates below with the bullets you want to keep above (??):
+
+* You cannot add an Adobe cloud storage program to a Legacy storage portfolio, or a Legacy program to an Adobe cloud storage portfolio.
+* You cannot add an Adobe cloud storage project to a Legacy storage program in a Legacy storage portfolio. (******* also take out bullet 2 above and maybe 3 too?? **********)
+* When you add an Adobe cloud storage project to a Legacy storage program, the program is converted to Adobe storage. Existing Legacy storage documents remain in the Legacy storage.
+* You cannot add a Legacy storage project to an Adobe cloud storage program, or an Adobe cloud storage project to a Legacy storage program. 
+* You cannot create a project from an Adobe cloud storage template in a Legacy storage program. 
+* You can create a project from a Legacy storage template in an Adobe cloud storage program, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
+-->
 
 ### Document management for tasks
 
@@ -199,6 +219,13 @@ Consider the following when working with templates:
 
 * When you create an Adobe cloud storage template, Workfront creates a folder in the Documents section of the template where documents are saved. The folder name is the same name as the program. You cannot delete or manually rename the folder. The folder is renamed if you change the name of the template, to match the template's new name.
 * You can use a legacy Workfront storage template to create legacy Workfront storage projects; you can use an Adobe cloud storage template to create an Adobe cloud storage project. 
+
+<!--
+for preview/prod release: 
+* When creating projects using templates from a portfolio or program, the following scenarios exist: 
+  * You cannot use an Adobe cloud storage template from a legacy Workfront storage portfolio or program to create a project.
+  * You can create an Adobe cloud storage project for an Adobe storage portfolio or program using a Legacy storage template. Any template documents and folders are not attached to the new project. 
+-->
 * You can attach a legacy Workfront storage template to an Adobe cloud storage project and this does not change the storage location of the documents on the project. 
 * You can attach an Adobe cloud storage template to a legacy Workfront storage project and this does not change the storage location of the documents on the project. Documents in the Adobe cloud storage folder for the template are added to the project directly, without the folder, while the documents in the template task folders are added to folders attached to the project's tasks in the Documents section of the tasks.
 * When you save a project as a template, the storage type of the project transfers to the template, regardless of what your Workfront administrator set for your system's storage preference. 
