@@ -163,7 +163,7 @@ To create a single-stage approval workflow:
 
 1. Click **Request approval**.
 
-   ![Request approval in Basic mode](assets/request-approval-basic.png)
+   ![Request approval in Basic mode](assets/request-approval-basic.jpeg)
 
 >[!NOTE]
 >
@@ -175,7 +175,13 @@ To create a single-stage approval workflow:
 
 Advanced mode supports parallel paths. Each path runs independently and contains one or more sequential stages. You can configure up to 30 paths and 100 stages total.
 
-1. Follow steps 1 through 4 in the previous procedure.
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+
+1. Click on the document you need and the Document Summary panel for that document opens.
+
+1. Select the version of the document you want to create an approval for in the version drop-down menu. The latest version is selected by default.
+
+1. Scroll down to the **Approvals** section, then click **Create workflow**.
 
 1. In the top right of the **Request approval** dialog, click **Go to advanced**. Any input you entered in Basic mode is preserved and applied to **Path 1**, **Stage 1**.
 
@@ -210,11 +216,9 @@ Advanced mode supports parallel paths. Each path runs independently and contains
 
 1. (Optional) Click **Add stage** to add another stage to the path. Stages within a path run sequentially in the order they're listed. You can reorder stages within a path, but you can't move a stage from one path to another.
 
-   ![Advanced mode with one path](assets/request-approval-advanced.png)
-
 1. (Optional) Under **Parallel paths**, click **Add path** to add another path. The new path starts with one empty stage and becomes the selected path. To rename a path, hover the path label, click the pencil icon, then type a new name. To remove a path, hover the path label and click the trash icon.
 
-   ![Advanced mode with parallel paths](assets/request-approval-parallel-paths.png)
+   ![Advanced mode with parallel paths](assets/request-approval-parallel-paths.jpeg)
 
    >[!TIP]
    >
@@ -320,7 +324,7 @@ To create a single-stage approval workflow:
 
 1. Click **Request approval**.
 
-   ![Request approval in Basic mode](assets/request-approval-basic.png)
+   ![Request approval in Basic mode](assets/request-approval-basic.jpeg)
 
 >[!NOTE]
 >
@@ -332,7 +336,13 @@ To create a single-stage approval workflow:
 
 Advanced mode supports parallel paths. Each path runs independently and contains one or more sequential stages. You can configure up to 30 paths and 100 stages total.
 
-1. Follow steps 1 through 3 in the previous procedure.
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+
+1. Click on the document, then click the **Approvals** icon on the right side of the page.
+
+   ![Add approvers in document summary](assets/approvals-icon-new.png)
+
+1. Click **Create workflow**.
 
 1. In the top right of the **Request approval** dialog, click **Go to advanced**. Any input you entered in Basic mode is preserved and applied to **Path 1**, **Stage 1**.
 
@@ -367,11 +377,11 @@ Advanced mode supports parallel paths. Each path runs independently and contains
 
 1. (Optional) Click **Add stage** to add another stage to the path. Stages within a path run sequentially in the order they're listed. You can reorder stages within a path, but you can't move a stage from one path to another.
 
-   ![Advanced mode with one path](assets/request-approval-advanced.png)
+   ![Advanced mode with one path](assets/request-approval-advanced.jpeg
 
 1. (Optional) Under **Parallel paths**, click **Add path** to add another path. The new path starts with one empty stage and becomes the selected path. To rename a path, hover the path label, click the pencil icon, then type a new name. To remove a path, hover the path label and click the trash icon.
 
-   ![Advanced mode with parallel paths](assets/request-approval-parallel-paths.png)
+   ![Advanced mode with parallel paths](assets/request-approval-advanced.jpeg)
 
    >[!TIP]
    >
