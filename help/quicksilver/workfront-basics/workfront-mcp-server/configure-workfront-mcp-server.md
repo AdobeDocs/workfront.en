@@ -61,9 +61,9 @@ You connect to Workfront once per [!DNL Claude] account. The connection authenti
 
 ### Connect to Claude desktop from the connectors directory
 
-Coming soon.
-
-<!--
+>[!IMPORTANT]
+>
+>Currently, connecting to Claude from the Workfront MCP server is available only to customers in the US region.
 
 +++ Expand to view step-by-step instructions for connecting Workfront to [!DNL Claude].
 
@@ -92,8 +92,6 @@ To connect Workfront to [!DNL Claude]:
 
 +++
 
--->
-
 ### Connect to Claude desktop with a URL
 
 +++ Expand to view step-by-step instructions for connecting Workfront to [!DNL Claude] with a URL.
@@ -104,7 +102,12 @@ To connect Workfront to [!DNL Claude] with a URL:
 1. In the left menu, select the **Customize** icon.
 1. Select **Connectors**, then select the **+** icon to add a connector.
 1. Select the **Create app** button.
-1. Give the connector a desired name (such as "Workfront") and enter the desired MCP Server URL: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+1. Give the connector a desired name (such as "Workfront") and enter the desired MCP Server URL: 
+
+   | Region | URL |
+   | --- | --- |
+   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
+   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
    
 1. Once the connector is created, a login window pops up. Authenticate using your Adobe ID credentials. Ensure that you select the desired Workfront instance if you belong to more than one.
 
