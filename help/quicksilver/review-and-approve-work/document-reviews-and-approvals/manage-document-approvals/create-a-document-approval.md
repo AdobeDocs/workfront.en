@@ -377,7 +377,6 @@ Advanced mode supports parallel paths. Each path runs independently and contains
 
 1. (Optional) Click **Add stage** to add another stage to the path. Stages within a path run sequentially in the order they're listed. You can reorder stages within a path, but you can't move a stage from one path to another.
 
-   ![Advanced mode with one path](assets/request-approval-advanced.jpeg
 
 1. (Optional) Under **Parallel paths**, click **Add path** to add another path. The new path starts with one empty stage and becomes the selected path. To rename a path, hover the path label, click the pencil icon, then type a new name. To remove a path, hover the path label and click the trash icon.
 
