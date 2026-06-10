@@ -20,7 +20,7 @@ For a list of all changes available at this point in the Third Quarter 2026 rele
 >Production for everyone: June 11, 2026
 
 If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now convert a legacy storage task to an Adobe cloud storage project.
-When you do this, documents and document approvals remain on the original project rather than transferring to the newly created project.
+When you do this, documents and document approvals remain on the parent object rather than transferring to the newly created project.
 
 Previously, tasks could only be converted to projects using the same storage type.
 
