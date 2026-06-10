@@ -211,8 +211,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Quarterly</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Convert a Legacy storage task to an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
-                <p>If your organization uses both Legacy Workfront storage and Adobe cloud storage, you can now convert a Legacy storage task to an Adobe cloud storage project.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Convert a legacy storage task to an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now convert a legacy storage task to an Adobe cloud storage project.</p>
             </td>
             <td><p>June 11, 2026</p></td>
             <td><p>June 11, 2026</p></td>
@@ -242,6 +242,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Preview</strong></td>
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Add multiple Power BI IP address ranges to the Data Connect allowlist at once</a> <p>[!BADGE Off schedule]{type=Neutral}
+                <p>Workfront administrators connecting Microsoft Power BI to Workfront Data Connect can now add an entire region's set of Azure IP address ranges to the allowlist in a single step.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Sort the Canvas Dashboards list</a> 
