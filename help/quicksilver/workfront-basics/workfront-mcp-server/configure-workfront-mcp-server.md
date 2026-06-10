@@ -119,9 +119,9 @@ To connect Workfront to [!DNL Claude] with a URL:
    >
    >Your Workfront instance must connect with the MCP server for the region for that instance. For example, an EU instance must connect to the EU MCP server. 
    >
-   >When selecting an instance, instances that are not compatible appear grayed out, and you cannot connect to them. 
+   >When selecting an instance, instances that are not compatible with the MCP server's region appear grayed out, and you cannot connect to them. 
    >
-   >To connect to an instance that is not compatible with the MCP server you are configuring, Set up a new MCP server with the correct URL for that region.
+   >To connect to an instance that is not compatible with the MCP server's region, set up a new MCP server with the correct URL for that region.
 
 +++
 
@@ -151,9 +151,9 @@ To learn more about [!DNL Claude] skills, see the [Claude user documentation](ht
    >
    >Your Workfront instance must connect with the MCP server for the region for that instance. For example, an EU instance must connect to the EU MCP server. 
    >
-   >When selecting an instance, instances that are not compatible appear grayed out, and you cannot connect to them. 
+   >When selecting an instance, instances that are not compatible with the MCP server's region appear grayed out, and you cannot connect to them. 
    >
-   >To connect to an instance that is not compatible with the MCP server you are configuring, Set up a new MCP server with the correct URL for that region.
+   >To connect to an instance that is not compatible with the MCP server's region, set up a new MCP server with the correct URL for that region.
 
 
 ### Customize ChatGPT behavior with Custom GPTs
@@ -191,9 +191,9 @@ To connect to a different Workfront instance:
 >
 >* Your Workfront instance must connect with the MCP server for the region for that instance. For example, an EU instance must connect to the EU MCP server. 
 >
->   When selecting an instance, instances that are not compatible appear grayed out, and you cannot connect to them. 
+>   When selecting an instance, instances that are not compatible with the MCP server's region appear grayed out, and you cannot connect to them. 
 >
->   To connect to an instance that is not compatible with the MCP server you are configuring, Set up a new MCP server with the correct URL for that region.
+>   To connect to an instance that is not compatible with the MCP server's region, set up a new MCP server with the correct URL for that region.
 
 
 <!--
