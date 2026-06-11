@@ -18,7 +18,7 @@ Before you can connect an AI agentic platform to Workfront, a Workfront administ
 
 >[!IMPORTANT]
 >
->Currently, the Workfront MCP server is available only to customers in the US region for customers using AWS.
+>Currently, the Workfront MCP server is available only to customers using AWS.
 
 ## Supported AI agentic platforms
 

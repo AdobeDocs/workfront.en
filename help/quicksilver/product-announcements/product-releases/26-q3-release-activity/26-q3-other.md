@@ -13,9 +13,10 @@ For a list of all changes available at this point in the Third Quarter 2026 rele
 
 ## Updates to the Workfront MCP connector
 
-We've made the following updates to the Workfront MCP connector:
-
+We've made the following update to the Workfront MCP connector:
+<!--
 * We've expanded the MCP server to work with instances in the EU and US instances that are not on AWS. Each MCP server can only connect to one instance, but are no longer limited to US instances on AWS.
+-->
 * To expand the flexibility of the Workfront MCP connector, we've added the ability to connect Claude. Now, you can find Workfront in the list of connectors in Claude, or connect directly using a URL.
 
 For more information and instructions, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
