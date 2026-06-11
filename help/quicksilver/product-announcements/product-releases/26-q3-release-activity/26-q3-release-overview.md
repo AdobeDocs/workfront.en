@@ -353,7 +353,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Updates to the Workfront MCP connector</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>We've updated the Workfront MCP Connector:<ul><li>Claude can now connect to the MCP connector.</li><li>You can now use the MCP connector from instances in the EU or from instances that do not use AWS.</p>
+                <p>We've updated the Workfront MCP Connector:<ul><li>Claude can now connect to the MCP connector.</li><li>You can now use the MCP connector from instances in the EU or<!-- from instances that do not use AWS-->.</p>
             </td>
             <td><p>June 11, 2026</p></td>
             <td><p>June 11, 2026</p></td>
