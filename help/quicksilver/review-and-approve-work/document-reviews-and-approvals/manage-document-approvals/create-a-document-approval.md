@@ -31,7 +31,9 @@ topic_v2:
 
 {{highlighted-preview}}
 
-You can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it. 
+You can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.  
+
+change
 
 >[!IMPORTANT]
 >
