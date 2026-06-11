@@ -159,7 +159,7 @@ For more information about editing records in the table view, see [Edit records]
 
 <span class="preview">Managing the table view is different depending on which environment you access it from. </span>
 
-### Manage the table view in the Production environment
+## Manage the table view in the Production environment
 
 When creating a table view, all records of the selected type display in a table. Each row is a unique record and each column is a record field. All fields and all records display by default. 
 
@@ -621,7 +621,7 @@ When you display the table view, you can also view which field another user is e
 
 <div class="preview">
 
-### Manage the list view in the Preview environment
+## Manage the list view in the Preview environment
 
 <!--********** MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION ?????????*********-->
 
