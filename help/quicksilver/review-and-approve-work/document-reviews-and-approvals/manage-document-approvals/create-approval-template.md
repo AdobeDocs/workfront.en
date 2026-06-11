@@ -132,7 +132,7 @@ To create an approval template:
    </tr>
    <tr>
    <td><strong>Add names or emails (optional)</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. Participants are optional in templates. You can add them when the template is applied to a document.</td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. Participants are optional in templates. You can add them when the template is applied to a document.<p>Note: A reviewer or approver can be assigned to only one open stage at a time on the same asset. If multiple parallel stages are open simultaneously, the same person can't be added to more than one.</p></td>
    </tr>
    <tr>
    <td><strong>Only one decision required (optional)</strong></td>
@@ -150,7 +150,7 @@ To create an approval template:
 
     ![add a stage](assets/add-stage.png)
 
-1. (Optional) Click **Add stage** to add another stage to the path. Stages within a path run sequentially in the order they're listed. When all required decisions in a stage are made, the next stage in that path begins and the previous stage is locked. You can reorder stages within a path, but you can't move a stage from one path to another.
+1. (Optional) Click **Add stage** to add another stage to the path. Stages within a path run sequentially in the order they're listed. When all required decisions in a stage are made, the next stage in that path begins and the previous stage is locked. You can reorder stages within a path, but you can't move a stage from one path to another. Each path can have a different number of stages.
 
 1. (Optional) Under **Parallel paths**, click **Add path** to add another path. The new path starts with one empty stage and becomes the selected path. Paths can't be reordered.
 
@@ -158,7 +158,7 @@ To create an approval template:
 
 1. (Optional) To rename a path, hover the path label, click the pencil icon, then type a new name. To remove a path, hover the path label and click the trash icon. **Path 1** can't be removed, and other paths can be removed only if no stage within the path is locked or completed.
 
- 1. (Optional) To clear all paths and stages and start over, click **Reset** in the upper-right corner.
+1. (Optional) To clear all paths and stages and start over, click **Reset** in the upper-right corner.
 
 1. Click **Save**.
 

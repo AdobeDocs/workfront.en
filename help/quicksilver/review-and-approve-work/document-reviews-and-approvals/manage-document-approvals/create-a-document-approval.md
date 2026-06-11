@@ -169,7 +169,9 @@ To create a single-stage approval workflow:
 
 ### Create an advanced approval workflow 
 
-Advanced mode supports multiple stages as well as parallel paths. Each path runs independently and contains one or more sequential stages. You can configure up to 30 paths and 100 stages total.
+Advanced mode supports multiple stages as well as parallel paths. Each path runs independently and contains one or more sequential stages. When all required decisions in a stage are made, the next stage in that path begins, the previous stage is locked, and the new stage's reviewers and approvers receive an email notification. 
+
+A "Needs work" decision stops the path its on but does not affect the approval workflow on other paths. You can configure up to 30 paths and 100 stages total.
 
 To create an advanced approval workflow:
 
@@ -196,7 +198,7 @@ To create an advanced approval workflow:
    </tr>
    <tr>
    <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.<p>Note: A reviewer or approver can be assigned to only one open stage at a time on the same asset. If multiple parallel stages are open simultaneously, the same person can't be added to more than one.</p></td>
    </tr>
    <tr>
    <td><strong>Only one decision required (optional)</strong></td>
@@ -212,23 +214,17 @@ To create an advanced approval workflow:
    </tr>
    </table>
 
-1. (Optional) Click **Add stage** to add another stage to the path. Stages within a path run sequentially in the order they're listed. You can reorder stages within a path, but you can't move a stage from one path to another.
+1. (Optional) Click **Add stage** to add another stage to the path. Stages within a path run sequentially in the order they're listed. You can reorder stages within a path, but you can't move a stage from one path to another. Each path can have a different number of stages.
 
-1. (Optional) Under **Parallel paths**, click **Add path** to add another path. The new path starts with one empty stage and becomes the selected path. To rename a path, hover the path label, click the pencil icon, then type a new name. To remove a path, hover the path label and click the trash icon.
+1. (Optional) Under **Parallel paths**, click **Add path** to add another path. The new path starts with one empty stage and becomes the selected path. To rename a path, hover the path label, click the pencil icon, then type a new name. 
+
+1. (Optional) To remove a path, hover the path label and click the trash icon. **Path 1** can't be removed, and paths can't be reordered. Other paths can be removed only if no stage within the path is locked or completed.
 
    ![Advanced mode with parallel paths](assets/request-approval-parallel-paths.jpeg)
 
-   >[!TIP]
-   >
-   >To clear all paths and stages and start over, click **Reset** in the top right.
+1. (Optional) To clear all paths and stages and start over, click **Reset** in the top right.
 
 1. Click **Request approval**.
-
->[!NOTE]
->
->* Paths run independently and in parallel. Within a path, stages run sequentially. When all required decisions in a stage are made, the next stage in that path begins and the previous stage is locked.
->* **Path 1** can't be removed. Other paths can be removed only if no stage within the path is locked or completed.
->* Paths can't be reordered.
 
 </div>
 
@@ -332,7 +328,11 @@ To create a single-stage approval workflow:
 
 ### Create an advanced approval workflow with multiple stages or parallel paths
 
-Advanced mode supports parallel paths. Each path runs independently and contains one or more sequential stages. You can configure up to 30 paths and 100 stages total.
+Advanced mode supports parallel paths. Each path runs independently and contains one or more sequential stages. When all required decisions in a stage are made, the next stage in that path begins, the previous stage is locked, and the new stage's reviewers and approvers receive an email notification. 
+
+A "Needs work" decision stops the path its on but does not affect the approval workflow on other paths. You can configure up to 30 paths and 100 stages total.
+
+To create an advanced approval workflow:
 
 1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
@@ -357,7 +357,7 @@ Advanced mode supports parallel paths. Each path runs independently and contains
    </tr>
    <tr>
    <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made..<p>Note: A reviewer or approver can be assigned to only one open stage at a time on the same asset. If multiple parallel stages are open simultaneously, the same person can't be added to more than one.</p></td>
    </tr>
    <tr>
    <td><strong>Only one decision required (optional)</strong></td>
@@ -373,24 +373,18 @@ Advanced mode supports parallel paths. Each path runs independently and contains
    </tr>
    </table>
 
-1. (Optional) Click **Add stage** to add another stage to the path. Stages within a path run sequentially in the order they're listed. You can reorder stages within a path, but you can't move a stage from one path to another.
+1. (Optional) Click **Add stage** to add another stage to the path. Stages within a path run sequentially in the order they're listed. You can reorder stages within a path, but you can't move a stage from one path to another. Each path can have a different number of stages.
 
 
-1. (Optional) Under **Parallel paths**, click **Add path** to add another path. The new path starts with one empty stage and becomes the selected path. To rename a path, hover the path label, click the pencil icon, then type a new name. To remove a path, hover the path label and click the trash icon.
+1. (Optional) Under **Parallel paths**, click **Add path** to add another path. The new path starts with one empty stage and becomes the selected path. To rename a path, hover the path label, click the pencil icon, then type a new name. 
+
+1. (Optional) To remove a path, hover the path label and click the trash icon. **Path 1** can't be removed, and paths can't be reordered. Other paths can be removed only if no stage within the path is locked or completed.
 
    ![Advanced mode with parallel paths](assets/request-approval-advanced.jpeg)
 
-   >[!TIP]
-   >
-   >To clear all paths and stages and start over, click **Reset** in the top right.
+1. (Optional) To clear all paths and stages and start over, click **Reset** in the top right.
 
 1. Click **Request approval**.
-
->[!NOTE]
->
->* Paths run independently and in parallel. Within a path, stages run sequentially. When all required decisions in a stage are made, the next stage in that path begins and the previous stage is locked.
->* **Path 1** can't be removed. Other paths can be removed only if no stage within the path is locked or completed.
->* Paths can't be reordered.
 
 </div>
 
