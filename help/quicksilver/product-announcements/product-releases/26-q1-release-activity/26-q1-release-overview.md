@@ -51,6 +51,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 -->
 
+<!--
+
 >[!IMPORTANT]
 >
 >
@@ -62,7 +64,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >Note that for the final release of each quarter (26.1 this quarter), users on the fast release schedule will receive the release one day early (January 14, 2026).
 >
->For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
+>For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+
+-->
 
 ## Adobe Workfront enhancements
 
