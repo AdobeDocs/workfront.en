@@ -33,8 +33,6 @@ topic_v2:
 
 You can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.  
 
-change
-
 >[!IMPORTANT]
 >
 >The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
