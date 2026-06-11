@@ -45,11 +45,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
-<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -473,7 +473,6 @@ You can use a date field to capture additional information in date and time form
             * **24hr**: For example: 18:00
             * **12hr**: For example: 6:00 PM
 
-        <!--
         <div class="preview">
 
         * In the Preview environment: 
@@ -488,10 +487,10 @@ You can use a date field to capture additional information in date and time form
         
             * **24hr**: For example: 18:00
             * **12hr**: For example: 6:00 PM
-        * **Use the same timezone for all collaborators**, then select a **Timezone ** (************** logged bug to change this to "Show the same time zone to all users" ****************): Select this if you want to show the same time stamp for all people viewing the field, regardless of their user's time zone. The time zone selected is added to the column header for this field. 
+        * **Use the same timezone for all collaborators**, then select a **Timezone** <!--(************** logged bug to change this to "Show the same time zone to all users" ****************)-->: Select this if you want to show the same time stamp for all people viewing the field, regardless of their user's time zone. The time zone selected is added to the column header for this field. 
 
         </div>
-        -->
+    
 
 1. Click **Create**. 
 
