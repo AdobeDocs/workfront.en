@@ -44,9 +44,11 @@ The enhancements on this page are available in the Preview environment. This pag
 
 
 <!--
+
  Keep commented until Final Preview release.
 
 The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>.
+
 -->
 
 >[!IMPORTANT]
