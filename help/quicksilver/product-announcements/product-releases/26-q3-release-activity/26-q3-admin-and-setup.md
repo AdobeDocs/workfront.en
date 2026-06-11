@@ -11,6 +11,14 @@ This page describes Administrator enhancements made with the Third Quarter 2026 
 
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## View change history for Workfront objects
+
+To make it easier for you to see the changes that have occurred in one central list, we've create the Change History List. This list displays information such as the object, the operation, and the source of the change (such as a user or the Workfront system).
+
+Previously, Audit logs were available but did not cover objects.
+
+For more information see [View and manage change history]()
+
 ## New system preference to convert legacy storage portfolios to Adobe cloud storage
 
 >[!NOTE]
