@@ -52,14 +52,14 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Quarterly</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">New system preference to convert legacy storage portfolios to Adobe cloud storage</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>Workfront administrators can now convert legacy storage portfolios to Adobe cloud storage directly from System Preferences. To convert portfolios, select them in the new Select portfolios to convert to enterprise storage field and save the page.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">View change history for Workfront objects</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>To make it easier for you to see the changes that have occurred in one central list, we've create the Change History List. This list displays information such as the object, the operation, and the source of the change (such as a user or the Workfront system).</p>
             </td>
             <td><p>June 11, 2026</p></td>
             <td><p>June 11, 2026</p></td>
             <td><p>July 16, 2026</p></td>
         </tr>
-        <tr>
+        <!--<tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">New system preference to convert legacy storage portfolios to Adobe cloud storage</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>Workfront administrators can now convert legacy storage portfolios to Adobe cloud storage directly from System Preferences. To convert portfolios, select them in the new Select portfolios to convert to enterprise storage field and save the page.</p>
@@ -67,7 +67,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>June 11, 2026</p></td>
             <td><p>June 11, 2026</p></td>
             <td><p>June 11, 2026</p></td>
-        </tr>
+        </tr>-->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Rich Text replacing Text with Formatting field type</a>
@@ -206,6 +206,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
     </tbody>
 </table>
 
+<!--
+
 ### Project enhancements
 
 <table>
@@ -238,6 +240,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
     </tbody>
 </table>
+
+-->
 
 ### Reporting enhancements
 
