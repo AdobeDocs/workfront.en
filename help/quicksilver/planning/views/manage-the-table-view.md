@@ -982,7 +982,7 @@ Enabling the real-time presence indicator in the table view in the Preview envir
 
 For information, see the [Enable the real-time presence indicator](#enable-the-real-time-presence-indicator) section in this article. 
 
-<!--************* at production, paste here the information from the Production section above ****************-->
+<!--*********** at production, paste here the information from the Production section above ****************-->
 
 </div>
 
