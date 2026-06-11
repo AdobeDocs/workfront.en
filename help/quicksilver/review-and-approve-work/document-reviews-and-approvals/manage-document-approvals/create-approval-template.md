@@ -29,6 +29,8 @@ topic_v2:
 ---
 # Create an approval workflow template for documents
 
+{{highlighted-preview}}
+
 In the Workfront Setup area, users with a Standard license can create reusable Approval Templates. Once created, Approval Templates can be applied to assets in the Documents area of an object. 
 >[!IMPORTANT]
 >
@@ -61,7 +63,7 @@ For more detail about the information in this table, see [Access requirements in
 +++
 ß
 
-## Create an Approval Template 
+## Create an Approval Template in Production
 
 {{step-1-to-setup}}
 
@@ -104,6 +106,65 @@ For more detail about the information in this table, see [Access requirements in
 1. Click **Save**.
 
 Once the template is created, it can be applied to documents in the Documents area of an object to begin the formal review and approval process in Workfront.
+
+<div class="preview">
+
+## Create an approval template in Preview
+
+The approval template dialog always opens in Advanced mode. There is no Basic mode for templates. You can configure up to 30 parallel paths in a template, with up to 100 stages total. Each path runs independently and can contain one or more sequential stages.
+
+To create an approval template:
+
+{{step-1-to-setup}}
+
+1. In the left panel, click **Review and Approval** > **Approval Templates**.
+
+1. Click **New Template** on the right side of the page.
+
+1. Add a **Template name**.
+
+1. Fill in details for Stage 1 of Path 1:
+
+   <table>
+   <tr>
+   <td><strong>Stage name</strong></td>
+   <td>Stages are named <em>Stage 1</em>, <em>Stage 2</em>, and so on by default. Rename the stage to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Add names or emails (optional)</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. Participants are optional in templates. You can add them when the template is applied to a document.</td>
+   </tr>
+   <tr>
+   <td><strong>Only one decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
+   </tr>
+   <tr>
+   <td><strong>Workdays until due date (optional)</strong></td>
+   <td>Choose how many workdays the stage takes to complete after it opens. The first stage of each path also supports an absolute due date. Each subsequent stage in the path supports a relative due date only.</td>
+   </tr>
+   <tr>
+   <td><strong>Add Custom Message (optional)</strong></td>
+   <td>Type a message in the <strong>Add Custom Message</strong> text box. When the template is applied to a document, the message appears in the approval email notification and in the Approvals tab in Workfront.<p>When you add a second stage, <strong>Show this message on all stages</strong> is selected by default. Leave it selected to use the same message in every stage. To use a different message for each stage, clear <strong>Show this message on all stages</strong>, then type the stage-specific message in each stage's <strong>Add Custom Message</strong> text box.</p></td>
+   </tr>
+   </table>
+
+    ![add a stage](assets/add-stage.png)
+
+1. (Optional) Click **Add stage** to add another stage to the path. Stages within a path run sequentially in the order they're listed. When all required decisions in a stage are made, the next stage in that path begins and the previous stage is locked. You can reorder stages within a path, but you can't move a stage from one path to another.
+
+1. (Optional) Under **Parallel paths**, click **Add path** to add another path. The new path starts with one empty stage and becomes the selected path. Paths can't be reordered.
+
+   ![add parallel paths](assets/add-path.png)
+
+1. (Optional) To rename a path, hover the path label, click the pencil icon, then type a new name. To remove a path, hover the path label and click the trash icon. **Path 1** can't be removed, and other paths can be removed only if no stage within the path is locked or completed.
+
+ 1. (Optional) To clear all paths and stages and start over, click **Reset** in the upper-right corner.
+
+1. Click **Save**.
+
+Once the template is created, it can be applied to documents in the Documents area of an object to begin the formal review and approval process in Workfront.
+
+</div>
 
 
 
