@@ -59,7 +59,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>June 11, 2026</p></td>
             <td><p>July 16, 2026</p></td>
         </tr>
-        <!--
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">New system preference to convert legacy storage portfolios to Adobe cloud storage</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -69,7 +68,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>June 11, 2026</p></td>
             <td><p>June 11, 2026</p></td>
         </tr>
-        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Rich Text replacing Text with Formatting field type</a>
