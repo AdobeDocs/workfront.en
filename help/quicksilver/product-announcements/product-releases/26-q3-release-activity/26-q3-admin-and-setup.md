@@ -23,13 +23,7 @@ To make it easier for you to see the changes that have occurred in one central l
 
 Previously, Audit logs were available but did not cover objects.
 
-<!--
-
 For more information see [View and manage change history](help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
-
--->
-
-<!--
 
 ## New system preference to convert legacy storage portfolios to Adobe cloud storage
 
@@ -50,8 +44,6 @@ When a portfolio is converted to Adobe cloud storage:
 Previously, adding an Adobe cloud storage project to a Legacy storage portfolio automatically converted the portfolio to Adobe cloud storage.
 
 For more information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-
--->
 
 ## Rich Text replacing Text with Formatting field type
 
