@@ -24,8 +24,6 @@ This article describes the features that are releasing for Workfront Planning du
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 
-<!--
-
 ## Interface improvements in the table view
 
 >[!NOTE]
@@ -40,13 +38,11 @@ We have updated the look and feel of the table view for the following areas in W
 
 * All connected record type pages, except for Projects 
 
-In addition to some navigation changes and design improvements, the following are some improvements included with this update: 
-
-* The addition of an aggregation row at the bottom of the table that summarizes number, currency, percentage, and formula fields formatted as numbers. The following aggregators are now available: SUM, AVG, MAX, MIN. 
+In addition to some navigation changes and design improvements, some improvements in this update include: 
 
 * A simpler date format with fewer format types when adding a Date field. 
 
-* Ability to select a time zone visible to all users regardless of their profile's time zone, when adding a Date field. 
+* Ability to select a time zone visible to all users, regardless of their profile's time zone, when adding a Date field. 
 
 * Removal of row numbering for a cleaner look 
 
@@ -58,7 +54,6 @@ In addition to some navigation changes and design improvements, the following ar
 
 For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).  
 
--->
 
 ## GenStudio for Performance Marketing Brands can now be added to Planning request forms
 
