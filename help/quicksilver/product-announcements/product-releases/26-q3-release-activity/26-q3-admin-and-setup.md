@@ -45,7 +45,7 @@ When a portfolio is converted to Adobe cloud storage:
 
 Previously, adding an Adobe cloud storage project to a Legacy storage portfolio automatically converted the portfolio to Adobe cloud storage.
 
-For more information, see [Configure system preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/).
+For more information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 -->
 
