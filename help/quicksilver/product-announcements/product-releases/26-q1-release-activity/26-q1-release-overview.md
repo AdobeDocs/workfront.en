@@ -56,7 +56,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>25.11 (November 13, 2025)</li><li>25.12 (December 11, 2025)</li><li>26.1 (January 14, 2026)</li></ul>| <ul><li>26.1 (January 15, 2026)</li></ul>|
+>|<ul><li>25.11 (November 13, 2025)</li><li>25.12 (December 11, 2025)</li><li>26.1 (January 14, 2026)</li></ul>|<ul><li>26.1 (January 15, 2026)</li></ul>|
 >
 >Note that for the final release of each quarter (26.1 this quarter), users on the fast release schedule will receive the release one day early (January 14, 2026).
 >
@@ -601,7 +601,7 @@ Workfront API version 21 was released on October 23, 2025. For API version 21, w
 >
 >This API version change features a breaking change that may affect your existing API calls. This is due to the fact that API version 21 uses Event Subscriptions version 2.
 >
-> For multi-select fields, Event Subsscriptions version 2 always sends as an array. Version 1 sent an array if more than one value selected. If only one value was selected, it sent a string.
+> For multi-select fields, Event Subscriptions version 2 always sends as an array. Version 1 sent an array if more than one value selected. If only one value was selected, it sent a string.
 
 For information on what's new and updated, see [What's new in API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md).
 
