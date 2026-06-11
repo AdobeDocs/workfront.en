@@ -23,15 +23,13 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-    internal-label: Administration
+
 ---
 # Create a document approval workflow
 
 {{highlighted-preview}}
 
-You can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.
+You can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it. 
 
 >[!IMPORTANT]
 >
@@ -141,7 +139,7 @@ To create a single-stage approval workflow:
    <table>
    <tr>
    <td><strong>Use an approval template (optional)</strong></td>
-   <td>The templates field is collapsed by default. Click the field to expand it, then select a template from the drop-down menu. If the template has one path and one stage, it applies in Basic mode. If the template has more than one stage or more than one path, the dialog automatically switches to Advanced mode and any input you entered in Basic mode is replaced by the template's content.</td>
+   <td>Select a template from the drop-down menu. If the template has one path and one stage, it applies in Basic mode. If the template has more than one stage or more than one path, the dialog automatically switches to Advanced mode and any input you entered in Basic mode is replaced by the template's content.</td>
    </tr>
    <tr>
    <td><strong>Add names or emails</strong></td>
@@ -157,7 +155,9 @@ To create a single-stage approval workflow:
    </tr>
    <tr>
    <td><strong>Add Custom Message (optional)</strong></td>
-   <td>Type a message in the <strong>Add Custom Message</strong> text box. The message appears in the approval email notification and in the Approvals tab in Workfront.</td>
+   <td>Type a message in the <strong>Add Custom Message</strong> text box. The message appears in the approval email notification and in the Approvals tab in Workfront.
+   <p>Note: If you edit a custom message after the approval workflow is created, an updated email notification is sent to all existing participants. If you add a participant later, the custom message is included in their email notification.</p>
+   </td>
    </tr>
    </table>
 
@@ -165,15 +165,11 @@ To create a single-stage approval workflow:
 
    ![Request approval in Basic mode](assets/request-approval-basic.jpeg)
 
->[!NOTE]
->
->* The **Request approval** dialog opens in Basic mode every time, regardless of your previous session.
->* If you edit a custom message after the approval workflow is created, an updated email notification is sent to all existing participants. If you add a participant later, the custom message is included in their email notification.
->* After an approval is saved, you can't switch it back to Basic mode. You can switch an in-progress approval from Basic to Advanced as long as the approval is not locked or completed.
-
 ### Create an advanced approval workflow 
 
-Advanced mode supports parallel paths. Each path runs independently and contains one or more sequential stages. You can configure up to 30 paths and 100 stages total.
+Advanced mode supports multiple stages as well as parallel paths. Each path runs independently and contains one or more sequential stages. You can configure up to 30 paths and 100 stages total.
+
+To create an advanced approval workflow:
 
 1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
