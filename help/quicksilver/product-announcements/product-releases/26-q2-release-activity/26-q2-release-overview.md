@@ -88,9 +88,9 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Updated time zone names</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>We've updated the time zones available in Workfront to follow IANA standards. This ensures compatibility with other systems and accuracy over time.</p>
         </td>
-        <td><p>March 5, 2026</p></td>
-        <td><p>April 15, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
+        <td><p>March 27, 2026</p></td>
+        <td><p>March 27, 2026</p></td>
+        <td><p>March 27, 2026</p></td>
     </tr>
     <tr>
         <td>
