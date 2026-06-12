@@ -903,6 +903,7 @@ You cannot manually modify the value of a Record ID field.
     The new Record ID-type field is added as a column to the record type and its values are prefilled with an alpha-numeric value.  
 
 
+
 <!--
 
 ## Object field type
