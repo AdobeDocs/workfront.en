@@ -46,6 +46,20 @@ Currently, Content Review is the only available AI Collaborator. More AI Collabo
 
 For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
+## Updated time zone names
+
+>[!NOTE]
+>
+>Preview: March 27, 2026
+>Production fast release: March 27, 2026
+>Production for everyone: March 27, 2026 
+
+We've updated the time zones available in Workfront to follow IANA standards. This ensures compatibility with other systems and accuracy over time.
+
+As part of this change, some time zones previously available in Workfront have been replaced with standard IANA time zones. 
+
+For a list of those changes, see [Updated time zone names](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/deprecated-time-zone-names.md).
+
 ## Custom quarters are now available as a separate page in Setup
 
 >[!NOTE]
