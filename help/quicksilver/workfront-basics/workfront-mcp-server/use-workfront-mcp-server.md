@@ -90,7 +90,10 @@ To manage document and asset approvals, ask:
 * *Add Sarah Chen and Miguel Alvarez as approvers on the current document.*
 * *Send a reminder to approvers on the asset "Spring Campaign Video" who haven't responded.*
 * *Apply the "Marketing Launch" approval template to the asset "Spring Campaign Video."*
+
+<!--
 * *Remove Anna Jones from all approvals in this project, and replace with Sione Carter.*
+-->
 
 
 ### Work with Planning records
