@@ -124,7 +124,11 @@ Old:
     >[!TIP]
     >
     >Your Workfront instance might not have access to both types of document storage.
-    
+
+    <!--
+    For preview/ prod - rewrite the last bullet in the note: 
+    * Using an Adobe cloud storage template to convert a legacy Workfront storage task creates an Adobe cloud storage project. Documents and their approvals remain on the current project. 
+    --> 
 * Status and percent complete of all sub-tasks and issues are preserved.
 * Task assignees and the user converting the task to the project become shared users on the project.
 * The project start date is set to the start date of the task.

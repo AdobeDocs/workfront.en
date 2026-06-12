@@ -11,12 +11,21 @@ This page describes enhancements made with the Third Quarter 2026 release to the
 
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Updates to the Workfront MCP connector
+
+We've made the following update to the Workfront MCP connector:
+
+* We've expanded the MCP server to work with instances in the EU<!-- and US instances that are not on AWS. Each MCP server can only connect to one instance, but are no longer limited to US instances on AWS-->.
+* To expand the flexibility of the Workfront MCP connector, we've added the ability to connect Claude. Now, you can find Workfront in the list of connectors in Claude, or connect directly using a URL.
+
+For more information and instructions, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+
 
 ## Updated look and feel for comment notification emails
 
 >[!NOTE]
 >
->Production release for customers: Phased rollout, start date to be announced
+>Production release for customers: Phased rollout beginning July 16, 2026
 
 Email notifications for comments in the Updates area have a new look and feel that aligns with the broader Adobe email design.
 

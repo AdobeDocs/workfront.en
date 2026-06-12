@@ -68,13 +68,7 @@ You can export records and their information from the table view to an Excel or 
    
    </td> 
   </tr> 
-  <tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
-</td>
-  </tr>  
-</tbody> 
+  </tbody> 
 </table> 
 
 For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

@@ -109,6 +109,11 @@ Old:
 >
 >Not all Workfront instances have both types of document storages.
 
+<!--
+For preview/ Prod. release, rewrite the bullets above:
+* You cannot add an Adobe cloud storage program to a Legacy storage portfolio, or a Legacy program to an Adobe cloud storage portfolio.
+-->
+
 To add an existing program to another portfolio: 
 
 1. Go to a portfolio, then click **[!UICONTROL Programs]** in the left panel.

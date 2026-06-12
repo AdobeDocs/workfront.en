@@ -81,12 +81,6 @@ You can receive and manage the following types of notifications from Workfront P
    <td>   <p>View or higher permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
-</td>
-  </tr> 
 </tbody> 
 </table> 
 

@@ -18,6 +18,8 @@ feature-set: Workfront
       * [Third Quarter 2026 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md)
       * [Third Quarter 2026 Documents enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
       * [Third Quarter 2026 Financial Management enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md)
+      * [Third Quarter 2026 Home enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-home.md)
+      * [Third Quarter 2026 Project enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md)
       * [Third Quarter 2026 Reporting enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md)
       * [Third Quarter 2026 Requesting enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md)
       * [Third Quarter 2026 Other enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md)
@@ -800,6 +802,7 @@ feature-set: Workfront
     * [Import rate cards from a template](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
     * [Push rate changes to projects](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
     * [Share a rate card](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)   
+    * [View and manage Change History](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)
   * Configure integrations {#configure-integrations}
     * [Configure integrations](administration-and-setup/configure-integrations/workfront-integrations.md)
     * [Adobe Workfront integrations](administration-and-setup/configure-integrations/workfront-integrations-1.md)

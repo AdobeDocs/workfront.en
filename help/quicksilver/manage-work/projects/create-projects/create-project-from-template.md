@@ -175,7 +175,7 @@ You can create a project from the Projects area in the Main Menu, or from the Pr
 
       * A legacy Workfront storage template
 
-         legacy Workfront storage templates display a legacy-storage icon ![Legacy storage icon](assets/legacy-storage-project-icon.png) next to their name. 
+         Legacy Workfront storage templates display a legacy-storage icon ![Legacy storage icon](assets/legacy-storage-project-icon.png) next to their name. 
 
          Documents on the template and on the future projects will be stored in Workfront storage.
       * An Adobe cloud storage template
@@ -194,6 +194,13 @@ You can create a project from the Projects area in the Main Menu, or from the Pr
       >
       >For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md). 
 
+
+      For preview/prod release: the third bullet in the NOTE above will need rewriting:
+
+      >* When creating projects using templates from a portfolio or program, the following scenarios exist: 
+      >  * You cannot use an Adobe cloud storage template from a legacy Workfront storage portfolio or program to create a project.
+      >  * You can create an Adobe cloud storage project for an Adobe storage portfolio or program using a Legacy storage template. Any template documents and folders are not attached to the new project. 
+   
    1. Review the following template details on the right:
    
       * Template duration
