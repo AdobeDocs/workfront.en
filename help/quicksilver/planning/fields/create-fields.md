@@ -442,20 +442,6 @@ You can use a date field to capture additional information in date and time form
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
      * **Date Format**: The type of date format you want to display in this field. <!--update this casing - submitted bug for it-->
         
-        Select from the following formats:
-        * **Locale**: Matches the locale of your browser.
-        * **Standard**: 05/16/2023
-        * **Long**: May 16, 2023
-        * **European**: 16/05/2023
-        * **ISO**: 2023-05-16
-     * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field. 
-    
-        Select from the following options:
-        
-        * **24hr**: For example: 18:00
-        * **12hr**: For example: 6:00 PM
-
-
         Depending on the environment in which you access fields, do the following:
 
         * In the Production environment: 
