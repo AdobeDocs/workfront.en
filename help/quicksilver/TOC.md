@@ -1061,6 +1061,7 @@ feature-set: Workfront
     * [Projects I'm On filter includes unexpected results](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
     * [Multiple browser tabs cause Workfront to log out](workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
     * [How to share objects without generating notifications](workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)
+    * [Updated time zone names](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/deprecated-time-zone-names.md)
 * Agile {#agile}
   * [Agile](agile/agile.md)
   * [Boards overview](agile/boards-overview.md)

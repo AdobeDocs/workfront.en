@@ -34,3 +34,4 @@ Learn troubleshooting tips and answers to frequently asked questions by reviewin
 * [Projects I'm On filter includes unexpected results](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
 * [Multiple browser tabs cause Workfront to log out](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
 * [How to share objects without generating notifications](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)
+* [Updated time zone names](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/deprecated-time-zone-names.md)
