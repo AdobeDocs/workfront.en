@@ -35,3 +35,5 @@ The hyphen is intentional. It tells you that the system isn't waiting on the rec
 The Decision Date field still shows the date of the recipient's most recent decision activity, but the recipient's decision is no longer counted in the report.
 
 For information about creating and using the Proof Approval report, see [Use the proof approval report](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md).
+
+
