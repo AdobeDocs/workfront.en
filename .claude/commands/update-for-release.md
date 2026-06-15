@@ -57,7 +57,7 @@ Present the candidate list to the user. Ask which to update and which to skip. C
 Read `help/_includes/snippets.md` and choose by availability:
 
 | Availability | Snippet |
-|---|---|
+| --- | --- |
 | Preview only — highlighted content is new in an otherwise-GA article | `{{highlighted-preview}}` |
 | Preview only — the whole article is new | `{{highlighted-preview-article-level}}` |
 | Preview + fast release customers, general | `{{preview-fast-release-general}}` |
@@ -106,6 +106,38 @@ For each article in the user-confirmed list:
 ### 5. After each article
 
 Ask whether to move to the next article, stop, skip, or revisit the current one.
+
+### 6. End of session — copy/paste release note
+
+When the user wraps up for the session (says "done," "that's it," "stop," or declines to continue to the next article), ask:
+
+> "Want a copy/paste release note entry for the enhancement page?"
+
+If yes, generate a draft entry using the feature context from step 1 and the primary help article updated in this session. **Do not write it to any file** — provide it as copy/paste text only.
+
+Format the entry to match the product area page structure from the **release-notes-formatter** skill:
+
+```markdown
+## {Feature name}
+
+>[!NOTE]
+>
+>Preview: {date or TBD}
+>Production fast release: {date or TBD}
+>Production for everyone: {date or TBD}
+
+{1–3 sentences describing what changed and why it helps users. Lead with the benefit, not the UI action.}
+
+For more information, see [{Primary article title}](/help/quicksilver/{path-to-article}.md).
+```
+
+Rules:
+
+- Use `TBD` for any date not yet known; ask the user if they have the dates.
+- Feature name is sentence case (capitalize only the first word and proper nouns).
+- Description should focus on what users can now do, not the implementation detail.
+- Link to the most specific how-to article updated, not an overview page.
+- Do not include a `>[!NOTE]` date block if all dates are unknown and the user does not want placeholders — omit it and note it needs to be added later.
 
 ## Content rules
 
