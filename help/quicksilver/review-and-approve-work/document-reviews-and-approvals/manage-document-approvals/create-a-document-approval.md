@@ -326,7 +326,7 @@ To create a single-stage approval workflow:
 >* If you edit a custom message after the approval workflow is created, an updated email notification is sent to all existing participants. If you add a participant later, the custom message is included in their email notification.
 >* After an approval is saved, you can't switch it back to Basic mode. You can switch an in-progress approval from Basic to Advanced as long as the approval is not locked or completed.
 
-### Create an advanced approval workflow with multiple stages or parallel paths
+### Create an advanced approval workflow 
 
 Advanced mode supports parallel paths. Each path runs independently and contains one or more sequential stages. When all required decisions in a stage are made, the next stage in that path begins, the previous stage is locked, and the new stage's reviewers and approvers receive an email notification. 
 
