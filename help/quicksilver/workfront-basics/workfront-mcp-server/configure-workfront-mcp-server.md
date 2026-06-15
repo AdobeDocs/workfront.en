@@ -94,9 +94,15 @@ To connect Workfront to [!DNL Claude]:
 
 +++
 
-### Connect to Claude desktop with a URL
+### Connect to Claude with a URL
 
 +++ Expand to view step-by-step instructions for connecting Workfront to [!DNL Claude] with a URL.
+
+>[!NOTE]
+>
+>You must be an owner in an enterprise Claude environment to perform this procedure.
+>
+>For Claude's statement on the owner requirement, see [Add a custom connector](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp#:~:text=Note%3A%20While,has%20access%20to) in the Claude documentation.
 
 To connect Workfront to [!DNL Claude] with a URL:
 
@@ -113,7 +119,7 @@ To connect Workfront to [!DNL Claude] with a URL:
    
 1. After the connector is created, a login window pops up. Authenticate using your Adobe ID credentials. Ensure that you select the desired Workfront instance if you belong to more than one.
 
-   >NOTE:
+   >[!NOTE]
    >
    >Your Workfront instance must connect with the MCP server for the region for that instance. For example, an EU instance must connect to the EU MCP server. 
    >
@@ -145,7 +151,7 @@ To learn more about [!DNL Claude] skills, see the [Claude user documentation](ht
 1. Ensure that Authentication is set to **OAuth** (set by default), and select the acceptance check box to continue.
 1. After the app is created, a login window pops up. Authenticate using your Adobe ID credentials. Ensure that you select the desired Workfront instance if you belong to more than one.
 
-   >NOTE:
+   >[!NOTE]
    >
    >Your Workfront instance must connect with the MCP server for the region for that instance. For example, an EU instance must connect to the EU MCP server. 
    >
