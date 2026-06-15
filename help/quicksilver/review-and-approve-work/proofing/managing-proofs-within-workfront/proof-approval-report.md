@@ -84,4 +84,8 @@ You can add the following fields to the proof approval report:
 
 * **Proof deadline**: Displays the deadline of the proof. Every stage must have a deadline assigned in order for this field to populate. The field displays the deadline for the most recently activated stage.
 
+## About the Approver Decision field
+
+The Approver Decision field shows the decision a recipient made on the proof. In some cases, this field displays a hyphen (-) instead of a decision value, which indicates that the recipient is no longer in a decision-making role on the proof. For more information, see [Approver Decision shows a hyphen in the Proof Approval report](../tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md).
+
 &nbsp;
