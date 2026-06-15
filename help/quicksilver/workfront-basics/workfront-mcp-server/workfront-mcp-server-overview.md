@@ -10,8 +10,6 @@ feature: Get Started with Workfront
 
 # Adobe Workfront MCP server overview
 
-{{highlighted-preview-article-level}}
-
 The [!DNL Adobe Workfront] MCP server connects your Workfront instance to an AI agentic platform such as [!DNL Claude] or [!DNL ChatGPT]. From the AI agentic platform, you can find, create, update, and manage Workfront items by making natural-language requests.
 
 For example, you can ask:

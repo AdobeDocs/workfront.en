@@ -25,11 +25,11 @@ topic_v2:
 
 # Adobe Workfront Planning object limitations overview
 
-<!--
+
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.</span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -61,6 +61,7 @@ The following table shows the limits for how many objects you can create in Work
 | Number of connection fields for one record type | 30 |
 | Number of characters in a formula field expression | 50,000 |
 | Number of entities (users, roles, teams, companies, groups) you can share a Planning object with | 100 |
+| <span class="preview">Number of records you can share in bulk at one time</span> | 100 |
 | Number of record types in a hierarchy | 4 |
 | Number of hierarchies in a workspace | 5 |
 | Number of records from a parent record type connected to one record from a child record type, inside a hierarchy | 10 |

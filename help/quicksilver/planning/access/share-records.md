@@ -120,6 +120,10 @@ maybe use the Share record types as example here and touch on the same points: h
 <!--checking on the below with Lilit-->
 
 * You can share records with the following entities: people, groups, teams, companies, or job roles.
+* The following limitations exist:
+
+   * You cannot share more than 100 records at a time. 
+   * You cannot share records with more than 100 entities. 
 * If you restrict permissions to a record, users no longer view that record and the values for its lookup fields anywhere in the system where that record displays. 
 * Workfront checks record permissions in connections up to 5 records deep, ensuring users only see records shared with them.
 * You can grant the following levels of permissions to a record: 
