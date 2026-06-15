@@ -1,12 +1,12 @@
 ---
 name: remove-preview-highlighting
 description: >-
-  Removes Workfront preview-only documentation framing for GA (Courtney-authored
-  how-to/reference topics outside product-announcements): preview boilerplate
-  snippets, class="preview" HTML, and parallel in-preview vs in-production
-  steps or sections. Use when the user says "remove preview highlighting,"
-  preview GA cleanup, or production release doc updates for preview-tagged
-  content.
+  Removes Workfront preview-only documentation framing for GA (how-to/reference
+  topics outside product-announcements committed by Courtney in a given date
+  range): preview boilerplate snippets, class="preview" HTML, and parallel
+  in-preview vs in-production steps or sections. Use when the user says
+  "remove preview highlighting," preview GA cleanup, or production release doc
+  updates for preview-tagged content.
 ---
 
 # Remove preview highlighting (Workfront)
@@ -18,7 +18,7 @@ Apply only when **all** are true:
 1. The user invoked this workflow (e.g. says **"remove preview highlighting"** or clearly the same intent).
 2. The Markdown file's path does **not** contain **`product-announcements`** (exclude the whole folder tree, e.g. release notes, betas, announcements under `help/quicksilver/product-announcements/`).
 3. The Markdown file is **not** listed under **[Excluded paths](#excluded-paths)** below.
-4. The Markdown file's frontmatter includes **`Courtney`** on the `author:` line (sole author or co-author).
+4. The Markdown file appears in `git log` as committed by Courtney within the user-specified date range (see Inventory step).
 5. The article has **at least one** of:
    - Preview-environment **language in body prose or real snippet paragraphs** (typical patterns: "highlighted information," "Preview environment," "not yet generally available," fast-release notes)—**not** a match from **link text alone** on a TOC/index page (see below); or
    - Any HTML element with **`class="preview"`** (e.g. `<span class="preview">`, `<div class="preview">`); or
@@ -40,7 +40,24 @@ Never add these to the inventory or edit them in this workflow unless the user e
 Do **not** bulk-edit the repo without approval.
 
 1. **Inventory**  
-   Build a sorted list of paths that meet the scope rules above (search the repo; prefer `help/` trees). **Omit** any path under **`product-announcements`**, any path under **[Excluded paths](#excluded-paths)**, and any **TOC/index** page matching **TOC / index pages** under Scope. If the user says a listed file has no preview highlighting, remove it from the run and tighten criteria rather than forcing edits.
+   a. **Ask the user which quarterly release** they are removing preview highlighting for (e.g. "Q3 2026" or "2026.07").  
+   b. **Fetch the release calendar** from `https://wiki.corp.adobe.com/spaces/AWF/pages/3631617814/2026+Monthly+Release+Calendar` using the adobe-wiki MCP tool. Find:
+      - The **Production Release Date** of the **previous** quarterly release → `--since`.
+      - The **Production Release Date** of the **target** quarterly release → `--until`.
+      - Quarterly releases are identified by the "Quarterly Release Name" column (e.g. 2026.01, 2026.04, 2026.07, 2026.10).
+      - **If the current date is in Q4 (October–December):** after fetching the current year's calendar, ask the user to provide the URL for next year's release calendar, then fetch that too so all quarterly production dates needed are available.
+   c. Run the following, using the production release dates from step b:
+
+      ```
+      git log --since="YYYY-MM-DD" --until="YYYY-MM-DD" \
+        --author="Courtney" --name-only --pretty=format: \
+        -- "help/quicksilver/**/*.md" | sort -u
+      ```
+
+
+   d. From those results, **filter to files that contain** at least one of: `class="preview"`, `{{highlighted-preview`, or preview boilerplate prose — grep for `highlighted information\|Preview environment\|not yet generally available`.  
+   e. **Omit** any path under **`product-announcements`**, any **[Excluded path](#excluded-paths)**, and any **TOC/index** page per the TOC rule above.  
+   f. Present the resulting sorted list. If the user says a listed file has no preview highlighting, remove it from the run and tighten criteria rather than forcing edits.
 
 2. **Start**  
    Ask whether to begin with the **first** article in the list (or a path the user names).
