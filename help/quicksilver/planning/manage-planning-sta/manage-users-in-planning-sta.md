@@ -1,5 +1,5 @@
 ---
-title: Get Started with Adobe Planning Standalone
+title: Get Started with Adobe Planning 
 description: This article describes how you can benefit from using the standalone version of Adobe Workfront Planning.
 hide: true
 exl-id: 99ebed04-0440-4990-a122-4d29f73c2201
@@ -32,14 +32,19 @@ recommendations: noDisplay, noCatalog
 # Get started with Adobe Planning Standalone
 
 <!--
-I think we will need to delete this folder and just use the Planning existing folder with all capabilities to speak about Planning; then, we'll speak about WF proper as a third party application (like GenS and AEM etc)>
+I think we will need to delete this folder and just use the Planning existing folder with all capabilities to speak about Planning; then, we'll speak about WF proper as a third party application (like GenS and AEM etc)
+-->
+
+<!--
+In the current Access Overview article - make 2 separate sections, one for STA and one for WFP
+Then, in each article for the AR table: Add a NOTE with a gray background to say things like "for connections with Projects, you'll need Adobe WFP"; also, for the AR table, add 2 types of access levels - one for WFP and one for STA access
+-->
 
 This article describes how you can benefit from using the standalone version of Adobe Workfront Planning.
 
 ## How your company can acquire an Adobe Workfront Standalone Planning license
 
 Whether you are an Adobe Workfront customer or not, you can speak with your Adobe account representation about a Workfront Planning Standalone license. -do people HAVE to be WF or Adobe customers at all, or can anyone buy this?
--->
 
 ## Integrated vs Standalone Workfront Planning versions
 
