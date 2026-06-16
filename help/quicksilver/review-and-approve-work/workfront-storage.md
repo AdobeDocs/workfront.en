@@ -149,7 +149,9 @@ To convert a legacy Workfront storage task to an Adobe cloud storage project, us
 * Work approvals and resolving object links are removed.
 * The original task is deleted.
 
+<!--
 For more information, see [Convert a task to a project](/help/quicksilver/manage-work/tasks/convert-tasks/convert-task-to-project.md).
+-->
 
 #### Convert a legacy portfolio to an Adobe cloud storage portfolio
 
