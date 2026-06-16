@@ -3,14 +3,33 @@ product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
 title: Remove progress indicators from goals in Adobe Workfront Goals
-description: You can remove results, activities, and projects from goals in Adobe Workfront Goals, when they are no longer relevant. 
+description: You can remove results, activities, and projects from goals in Adobe Workfront Goals, when they are no longer relevant.
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/Qiq77TMjdVVr6bJr-kKqP1mdg4SlDt4MBGi6GbdeYe8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Remove progress indicators from goals in Adobe Workfront Goals
 
-<!-- for goal redesign PRODUCTION RELEASE: Should this article be called "Remove or disconnect progress indicators from goals" when this is available to ALL progress indicators (including "disconnect goals")-- if yes, updte the title everywhere else where this is linked?
+<!--
+ for goal redesign PRODUCTION RELEASE: Should this article be called "Remove or disconnect progress indicators from goals" when this is available to ALL progress indicators (including "disconnect goals")-- if yes, updte the title everywhere else where this is linked?
 -->
 
 You can remove results, activities, and projects from goals if they are no longer relevant.
@@ -79,7 +98,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -133,7 +153,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Prerequisites
 

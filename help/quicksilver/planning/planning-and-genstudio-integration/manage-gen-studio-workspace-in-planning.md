@@ -6,9 +6,24 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/K9tDDGCuZRkOa3FjqgdojUv6njW4-AzVRsh4a0mG6ww
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
+<!--
 
-<!--Better metadata, at publishing:
+Better metadata, at publishing:
 ---
 title: Manage the GenStudio Workspace in Adobe Workfront Planning
 description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products and your instance of Workfront is integrated with your company's instance of GenStudio. You can view the GenStudio workspace from Planning and update information in both systems.
@@ -17,15 +32,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 ---
+
 -->
 
 <!--MUST update the access requirements below - not complete!!!!!!!!!-->
 
 # Manage the GenStudio workspace in Adobe Workfront Planning
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 The Adobe GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products and your instance of Workfront is integrated with your company's instance of GenStudio. 
 
@@ -104,7 +122,8 @@ For more information about Adobe GenStudio for Performance Marketing, see [Adobe
 
 +++   
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -155,7 +174,8 @@ For more information about Adobe GenStudio for Performance Marketing, see [Adobe
    </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerations for managing a GenStudio workspace in Workfront Planning
 
@@ -189,8 +209,10 @@ For more information about Adobe GenStudio for Performance Marketing, see [Adobe
    </table> 
 
 * Updating the workspace configuration, record types, views, and fields for a GenStudio workspace is identical with updating a Workfront Planning workspace with its elements. 
-<!--Is this just preview?? * You can build hierarchies for the record types in the GenStudio workspace. For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
-* You cannot include GenStudio Brands in a hierarchy. -->
+<!--
+Is this just preview?? * You can build hierarchies for the record types in the GenStudio workspace. For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+* You cannot include GenStudio Brands in a hierarchy.
+-->
 
 <!--
 ## Manage GenStudio workspace from Workfront Planning
@@ -244,7 +266,7 @@ CAN YOU DO THIS??
 
 1. Click **Share** in the upper-right corner to share the workspace with others.
 
-   For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
+   For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).
 
    >[!NOTE]
    >
@@ -348,31 +370,48 @@ CAN YOU DO THIS??
       >
       >Deleted records can be recovered from the table view Recently deleted bin in Workfront Planning. Records deleted from GenStudio can also be recovered from the Recently deleted bin in Workfront Planning.       
 
-      For information, see [Restore deleted records](/help/quicksilver/planning/records/restore-deleted-records.md)
+      For information, see [Restore deleted records](/help/quicksilver/planning/records/restore-deleted-records.md).
 
 1. Click the + icon in the upper-right corner of the table view to create the following:
 
    * Fields
 
-      For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md)
+      For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
    
    * Connections
 
-      For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
+      For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
 
       Fields created from the GenStudio workspace are visible in the following areas:
 
-      * Workfront Planning views
-      * Workfront Planning record details 
-      * GenStudio record details
+      * Workfront Planning views in Workfront Planning
+      * Workfront Planning record details in Workfront Planning
+      * GenStudio record details in GenStudio for Performance Marketing
 
       >[!NOTE]
       >
-      >* You can add more fields only when you have Manage permissions in GenStudio.
+      >* You can add fields only when you have Manage permissions in GenStudio.
       >* Fields created in Workfront Planning are not visible in the list view in GenStudio.
       >
       >* You can connect any GenStudio record type to the Brands GenStudio record type. 
       >  Products and Personas are connected to Brands by default. 
+      >
+      >* You can connect GenStudio record types in Planning with AEM Assets or Content Fragments in Adobe Experience Manager. You must have an AEM license to be able to connect to AEM objects. 
+      >
+   
+1. (Conditional) If you connected GenStudio record types from the GenStudio workspace in Planning with AEM assets or content fragments, do the following to navigate to AEM and view GenStudio record information: 
+
+   1. (Conditional) From a connected AEM asset in the GenStudio workspace, click the name of the asset, then click the **Open in AEM** icon ![Open in AEM icon](assets/open-in-aem-icon.png) to open the asset in AEM. 
+   1. Click to select the **Campaign** tab in the right panel. 
+
+      The name of the campaign connected to the asset display in the **Campaign** field. This is a read-only field. 
+      If the asset is also connected to a **Region**, **Persona**, **Product** or **Channel** in the GenStudio workspace in Planning, the respective fields for these record types display their names in the **Campaign** tab of the asset in read-only mode. 
+   1. (Conditional) From a connected AEM content fragment in the GenStudio workspace in Planning, click the name of the content fragment, then click the **Open in AEM** icon ![Open in AEM icon](assets/open-in-aem-icon.png) to open the content fragment in AEM.  
+   1. Click the **Home** icon ![Home icon in AEM](assets/home-icon-in-aem.png) to go to a list of content fragments, then click the **information** icon ![Information icon in AEM](assets/info-icon-in-aem.png) to the right of the content fragment's name.
+   1. Click the **Metadata** tab in the right panel. 
+
+      The name of the campaign connected to the content fragment display in the **xdm: campaignName** field. This is a read-only field. <!--tried to log a bug to rename this field-->
+      If the asset is also connected to a **Region**, **Persona**, **Product** or **Channel** in the GenStudio workspace in Planning, the respective fields for these record types display their names in the **Metadata** tab on the content fragment in read-only mode. 
 
 1. Hover over a field in the table view, then click the drop-down menu to do one of the following:
 
@@ -389,7 +428,8 @@ CAN YOU DO THIS??
       >* You can edit the configuration of a GenStudio field only when you have Manage permissions in GenStudio.
       >* You cannot delete a GenStudio field. 
 
-<!--Is this just Preview?? Or direct to Prod?? 
+<!--
+Is this just Preview?? Or direct to Prod?? 
 
 ## Create workspace hierarchies in the GenStudio workspace
 

@@ -5,6 +5,15 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 32c0df18-2093-42c2-810a-015345d2fa7c
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/SmDWjpvMrdKnaNmizajU-ZqBcmcH4z0g649Kd-OywZg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Second Quarter 2025 Document management enhancements
 

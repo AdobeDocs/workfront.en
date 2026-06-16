@@ -6,10 +6,28 @@ description: You can upload a new document version and request approval from oth
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/grwYgMUQc-Ft08jC1Fb1n7y18cLi1HNcXvJ3wPX0URg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Upload a new document version and request an approval
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 If a document is marked "Needs work" in a previous review, you can upload a new version to the original document and start another round of approvals. Once you upload a new version of the document, the previous versions are locked. 
 
@@ -31,7 +49,8 @@ If the newest document version is deleted, the previous versions remain locked. 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any</p> </td> 
+   <td> <p>Any Workfront package to manage approvals using legacy Workfront storage</p>
+<p>Any Workflow package to manage approvals using Adobe cloud storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses</td> 
@@ -56,53 +75,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 +++
 
 
-## Use drag-and-drop to add a new version in your production environment
 
->[!NOTE]
->
->Drag-and-drop does not work with Internet Explorer.
+## Use drag-and-drop to add a new version in the legacy documents area
 
-
-If you need another round of review and approval on a document, you can create a new document version in Workfront.
-
-You can add the previous participants, new participants, or a mix of both. You can view information about previous versions and participants on the Document Details page. 
-
-To add a new version:
-
-1. Navigate to the document in Workfront.
-1. Drag and drop the new file on top of the previous document. This automatically creates a new version. 
-
-1. Once the document finishes uploading, select the document, then click **Document Details**.
-    ![Open the document details page](assets/open-doc-details.png)
-
-
-1. In the left panel, click **Approvals**, then click **Add**.
-
-1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.
-
-
-1. To add an existing approval template, click the Template button and begin typing in a template name.
-
-   >[!TIP]
-   >
-   >   Users with a Standard license can create reusable Approval Templates from the Setup area. For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-
-
-1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
- 
-1. Once you've added all reviewers and approvers, click **Submit Request**. Participants are notified via email.
- 
-    ![submit new version for approval](assets/add-previous-participants.png)
-
-
-
-
-
-<div class="preview">
-
-## Use drag-and-drop to add a new version in your preview environment in the legacy documents area
-
-If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 >[!NOTE]
 >
@@ -167,8 +143,3 @@ To add a new version:
 
     ![request approval](assets/request-approval.png)
 <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
-
-
-
-</div>
-

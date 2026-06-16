@@ -8,14 +8,36 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/h8QFgoFvlsgYnlPsYOe9BMMzaCRWkHDTkg0AtuM9EpU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure system-wide project preferences
 
 <!--Audited: 12/2023-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
   
 
 As an [!DNL Adobe Workfront] administrator, you can configure the default preferences for all projects created throughout the system. These preferences impact project, task, and issue behavior.
@@ -229,12 +251,14 @@ Configure any of the following preferences for newly created projects throughout
      <li><strong>[!UICONTROL Typical work days per week]</strong>: Set the standard workweek for the users who are working on projects. The default is 5 days.</li> 
     </ul> <p>These 2 options convert days to hours, or weeks to days.</p> <p>For example, if you have a task with 8 Planned Hours and the duration is calculated based on Planned Hours, [!DNL Workfront] converts those hours into days in order to show the Duration as days.</p> <p>From the Typical [!UICONTROL work days per week] field, [!DNL Workfront] calculates the Full Time Equivalent (FTE) value for your system. This is what [!DNL Workfront] uses when calculating allocations for users.</p> <p>These values are used when you are planning projects timelines, budgeting for resources, or logging time against projects. </p> <p>They are not used when you are establishing timesheets for users in the system, as described in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Configure] timesheet and hour preferences</a>.</p> <p><b>NOTE</b>:</p> <p>[!DNL Workfront] administrators cannot unlock [!UICONTROL Timeline Calculations] preferences.</p> </td> 
   </tr> 
+  <!--
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Custom Quarters]</p> </td> 
    <td> <span class="preview">The Custom Quarters area has been removed from the Project Preferences section in the Preview environment.</span> 
    <span class="preview">For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters</a>.</p></span>
    <p>In the Production environment, configure custom yearly quarters for the users who will be working on projects. Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. You can add multiple custom quarters.   <p><b>NOTE</b>: </p><p>[!DNL Workfront] administrators cannot unlock [!UICONTROL Custom Quarters] preferences and group administrators cannot edit these settings at the group level.</p> </td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 

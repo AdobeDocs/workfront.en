@@ -8,8 +8,20 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
+TQID: https://experienceleague.adobe.com/gt9fGu286M-fya5XVuYfTMzJ0dHJT5J7f0uvctqbL0A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
-
 # Register a Webhook Integration
 
 Adobe Workfront administrators can add a custom webhook integration for their company by navigating to Setup > Documents > Custom Integrations within Workfront. From the Custom Integration page within Setup,&nbsp;administrators can view a list of existing document Webhook integrations. From this page, integrations can be added, edited, enabled, and disabled.

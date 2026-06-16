@@ -8,6 +8,19 @@ author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
+TQID: https://experienceleague.adobe.com/27rKKtjhC8aboIvQwB12-A-y8dgzzbABl92uo1C4cCg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Project finances: article index
 
@@ -63,13 +76,9 @@ For information about areas where you can find project financial information and
 
 [Calculate Planned Labor Cost](../../../manage-work/projects/project-finances/planned-labor-cost.md)
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/projects/project-finances/export-billing-record-details.md" class="MCXref xref" xrefformat="{para}">Export billing record details as a PDF file</a> </p>
--->
+[Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/projects/project-finances/how-workfront-calculates-finances.md" class="MCXref xref" xrefformat="{para}">How Adobe Workfront calculates finances </a> </p>
--->
+[Override user cost rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)
 
 ## Billing rates
 
@@ -79,8 +88,14 @@ For information about areas where you can find project financial information and
 
 [Override Project-Level Billing Rates with Company-Level Billing Rates](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
 
-[Overview of overriding Job Role Billing Rates and calculating Revenue on a project](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
+[Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
 
 [Override Job Role Billing Rates at the project level](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
 
+[Override user billing rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-user-billing-rates-project-level.md)
+
 [Attach a rate card to a project](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
+
+[Set up a Job Role for Billing](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md)
+
+[Define an overtime ratio](/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md)

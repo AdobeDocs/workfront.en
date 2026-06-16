@@ -6,6 +6,28 @@ description: In addition to using the available drafts that Workfront suggests t
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/LyLchKrtMU1ffu--wjrys6zyRr5gZm6saJoxxg82m-M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create requests from drafts
 
@@ -21,7 +43,8 @@ In addition to using the available drafts that Workfront suggests to you when yo
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any </p> </td> 
+   <td> <p>Any Adobe Workfront or Workflow package</p>
+   <p>Any Adobe Workfront Planning package to create requests for Workfront Planning </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -33,10 +56,7 @@ In addition to using the available drafts that Workfront suggests to you when yo
    <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Issues</p>  </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"> Product</td> 
-   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
-  </tr> 
+ 
  </tbody> 
 </table>
 
@@ -54,7 +74,9 @@ You must do the following before you can create a request from a draft:
 
 ## Create requests from drafts
 
-The procedure for creating requests from drafts differs between the new requesting experience and the legacy experience.
+You can create requests from drafts for both Workfront and Planning reqeusts. 
+
+Creating requests from drafts differs between the new requesting experience and the legacy experience.
 
 * [Create requests from drafts in the new requesting experience](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [Create requests from drafts in the legacy requesting experience](#create-requests-from-drafts-in-the-legacy-requesting-experience)
@@ -84,9 +106,14 @@ The procedure for creating requests from drafts differs between the new requesti
 
 1. After completing the information for the request, click **Submit**.
 
-     When you submit the request, the draft is deleted and cannot be restored.
+     When you submit the request, the draft is replaced with the new request, and cannot be restored as a draft. 
 
 ### Create requests from drafts in the legacy requesting experience
+
+>[!NOTE]
+>
+>You cannot create requests from Planning request drafts using the legacy experience.
+
 
 {{step1-to-requests}}
 

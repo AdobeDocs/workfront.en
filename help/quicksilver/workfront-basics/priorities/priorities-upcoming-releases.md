@@ -1,13 +1,20 @@
 ---
 navigation-topic: get-started-with-workfront
-title: 'Priorities: upcoming releases'
+title: "Priorities: upcoming releases"
 description: View information about upcoming Priorities releases
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-hide: yes
+hide: true
 hidefromtoc: yes
 exl-id: 749f4da8-6ffb-4b23-bf3e-18f195df80c9
+TQID: https://experienceleague.adobe.com/7GHrdVSKWkpklk9N0dId-Z-TyQgu37evcOdtPfobE7Q
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Priorities: upcoming releases
 

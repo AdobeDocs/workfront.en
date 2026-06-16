@@ -9,6 +9,24 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6b8dd52b-1696-4e5d-bcbb-5b6d3b736df0
+TQID: https://experienceleague.adobe.com/UFCo9Uq4G5kh9C35EH9OzpCe3Ra75gzC-B7Eytt-rX0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Overview of system project statuses
 

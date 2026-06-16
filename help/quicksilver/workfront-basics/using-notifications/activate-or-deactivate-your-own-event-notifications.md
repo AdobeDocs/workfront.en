@@ -7,6 +7,24 @@ description: This article describes how you can manage your email notifications 
 author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/D-ZKQQ6-8u-LsiX5BPQfT2KpW2RCt13Pp8Ih33D-9Is
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Modify your own email notifications
 
@@ -57,9 +75,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 {{step1-click-profile-pic}}
 
-1. Click the **[!UICONTROL More]** icon ![More icon](assets/more-icon.png) next to your name, then click **[!UICONTROL Edit]**.
+1. Click the **[!UICONTROL More]** icon ![More icon](assets/more-icon.png) next to your name, then click **[!UICONTROL Edit User]**.
 
-1. In the **[!UICONTROL Edit Person]** box that displays, go to the **[!UICONTROL Notifications]** section.
+1. In the **[!UICONTROL Edit User]** box that displays, go to the **[!UICONTROL Notifications]** section.
 
 1. Click a category to view the notification settings related to that category.
 
@@ -75,10 +93,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    For the **[!UICONTROL Communication]** category, you can select individual notifications for instant delivery only. To have notifications delivered in a daily digest, you must select all of them.
 
-   If all email notifications for a given category are activated, the box in the category title appears as selected. If all email notifications in a given category are deactivated, the box is unselected. If some notifications are activated and others are deactivated, the category checkbox appears as a straight line.\
+   If all email notifications for a given category are activated, the box in the category title appears as selected. If all email notifications in a given category are deactivated, the box is unselected. If some notifications are activated and others are deactivated, the category checkbox appears as a straight line.
+
    When you modify a notification setting, the label **[!UICONTROL Edited]** appears for that notification setting, to let you know that that notification setting has been modified.
 
-1. If you selected any notifications to be sent as a daily digest, select the time of the day you want to receive it at the top of the **[!UICONTROL Notifications]** section in the **[!UICONTROL Email Daily Digest after]** menu.
+1. If you selected any notifications to be sent as a daily digest, select the time of the day you want to receive it at the top of the **[!UICONTROL Notifications]** section in the **[!UICONTROL Email daily digest after]** menu.
 
    ![Daily Digest choose time of day](assets/digest-time-stamp-my-settings-350x78.png)
 
@@ -89,4 +108,4 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    ![Receive emails from sndbox](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-1. Click **[!UICONTROL Save Changes]**.
+1. Click **[!UICONTROL Save]**.

@@ -8,6 +8,24 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/xucBhD4dm4gA-BJt-mqb3Lstxgc5NFGd49rJhX1MGRk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure system updates
 
@@ -21,7 +39,8 @@ The highlighted information on this page refers to functionality not yet general
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div> -->
+</div>
+-->
 
 [!DNL Adobe Workfront] generates automatic system updates in an object's [!UICONTROL Updates] area to record the following events:
 
@@ -69,7 +88,8 @@ For example, you could have [!DNL Workfront] track all changes users make to the
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -90,7 +110,8 @@ For example, you could have [!DNL Workfront] track all changes users make to the
    <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
-</table> -->
+</table>
+-->
 
 ## Determine which fields [!DNL Workfront] tracks for an object type
 

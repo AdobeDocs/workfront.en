@@ -6,12 +6,32 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/r5i-iqQjF2cQtru6qxEAkrP6xkHGcAp7D8EYRav-7ls
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Manage the calendar view
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -51,12 +71,7 @@ For information about Adobe Workfront Planning views and how to manage them, see
    <td>   <p>Manage permissions to a view</p>  
    <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
   </tr> 
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
-</td>
-  </tr> 
+
 </tbody> 
 </table> 
 
@@ -64,7 +79,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++ 
 
-<!--Old:
+<!--
+Old:
  <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -126,7 +142,8 @@ For more information about Workfront access requirements, see [Access requiremen
   </tr>
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Manage a calendar view {#manage-a-calendar-view}
 

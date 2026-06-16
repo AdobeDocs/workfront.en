@@ -7,14 +7,25 @@ description: The Document Details page lets you view, communicate about, and man
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/k4qFA-R7MGSh5NBTbJCeOEac5Z30PVxzO8rxLRJi23Q
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Document Details overview
+
+{{highlighted-preview}}
 
 The Document Details page lets you view, communicate about, and manage the properties of a document attached to an Adobe Workfront object.
 
 ## Legacy documents area
 
-If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe cloud storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 
 
@@ -60,9 +71,9 @@ You can perform the following actions from the document details page if you are 
    ![Document details](assets/doc-details-legacy.png)
 
 
-## New document area
+## New Documents area
 
-If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 You can perform the following actions for documents from the Document Details page:
 
@@ -88,9 +99,32 @@ You can perform the following actions for documents from the Document Details pa
 ![Document details more menu icon](assets/more-menu-new-doc.png)
 
 
-### Open the Document Details panel in the new documents area
+
+### Open the Document Details panel in the new Documents area
 
 1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
-1. Select the document, then click **View Details**.
+1. Select the document, then click **Show Details** in the left sidebar.
 
    ![Document details](assets/doc-details.png)
+
+
+<div class="preview">
+
+### View the Print Summary in the new Documents area
+
+After a document has an approval, you can open the Frame.io Print Comments page to view the asset preview, comments, and approval decisions in a printable format.
+
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+1. Select the document, then click **Show Details** in the left sidebar.
+
+   ![Document details](assets/doc-details.png)
+
+1. In the **Overview** section, click **Open Print Summary**.
+
+
+>[!NOTE]
+>
+>The Print summary link only appears after an approval has been added to the document.
+
+
+</div>

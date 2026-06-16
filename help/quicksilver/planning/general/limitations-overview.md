@@ -6,15 +6,30 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/WmG-52JaTKD-0-bH2qKniwUBrpGyOKz5jJ3s9nwd12A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+    internal-label: Taxonomy
 ---
-
 <!--keep the 30 connection limit in yellow till Jan 2026-->
 
 # Adobe Workfront Planning object limitations overview
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.</span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.</span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -46,6 +61,7 @@ The following table shows the limits for how many objects you can create in Work
 | Number of connection fields for one record type | 30 |
 | Number of characters in a formula field expression | 50,000 |
 | Number of entities (users, roles, teams, companies, groups) you can share a Planning object with | 100 |
+| <span class="preview">Number of records you can share in bulk at one time</span> | 100 |
 | Number of record types in a hierarchy | 4 |
 | Number of hierarchies in a workspace | 5 |
 | Number of records from a parent record type connected to one record from a child record type, inside a hierarchy | 10 |
@@ -62,7 +78,8 @@ For information about Workfront Planning pricing and packaging, contact your acc
 -->
 
 
-<!--OLD limitations (before GA:)
+<!--
+OLD limitations (before GA:)
 
 |       Adobe Workfront Planning  object                                                          |                                                        Limit                                                    |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
@@ -80,6 +97,8 @@ For information about Workfront Planning pricing and packaging, contact your acc
 -->
 <!--| Size of CSV of Excel file you can import* | 5MB |-->
 
-<!--[!IMPORTANT]
+<!--
+[!IMPORTANT]
 >
->*This functionality has been temporarily removed and it will be available at a later date.-->
+>*This functionality has been temporarily removed and it will be available at a later date.
+-->

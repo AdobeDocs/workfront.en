@@ -9,6 +9,24 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/hJknixxErOwmpd7NdvVLDY8--gmGKEueD3sxpST8jA0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # System-tracked updates overview
 
@@ -34,10 +52,10 @@ The [!UICONTROL Updates] area includes the following types of updates:
 
 
    <!--
-  DRAFTED IN FLARE:
-  Timestamps for system updates are based on your operating system's timezone.
+   DRAFTED IN FLARE:
+   Timestamps for system updates are based on your operating system's timezone.
   
-  -->
+   -->
 
 ## Considerations about system-tracked updates 
 
@@ -76,7 +94,8 @@ System-tracked updates are not available for all the objects that have the Updat
    * [!UICONTROL Iterations]
 
 
-<!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
+<!--
+hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
 
 Your [!DNL Workfront] license determines whether system updates display by default in the [!UICONTROL Updates] area of objects. [!DNL Workfront] users with a [!UICONTROL Plan] license have system updates displayed in the [!UICONTROL Updates] area by default. However, users can filter out system updates, as described in the [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) section in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). All other [!DNL Workfront] licenses filter system updates by default.
 -->

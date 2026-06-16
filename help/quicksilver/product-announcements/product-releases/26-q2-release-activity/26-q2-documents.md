@@ -14,11 +14,68 @@ This page describes Documents enhancements made with the Second Quarter 2026 rel
 
 For a list of all changes available at this point in the Second Quarter 2026 release cycle, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Discover and reuse content faster with Content Advisor for AEM Assets in Workfront
+
+>[!NOTE]
+>
+>Preview: April 16, 2026
+>Production fast release: April 16, 2026
+>Production for everyone: April 16, 2026
+
+Content Advisor is now available in Workfront with the Adobe Experience Manager Assets integration—making it easier for teams to discover and reuse existing high-value content.
+
+With Content Advisor, you can:
+
+* Discover content using smart suggestions or campaign brief details
+* Quickly assess content suitability by viewing key details before reuse
+* Discover and reuse content fragments
+* Explore collections to identify related, on-brand content
+
+This integration helps teams reduce duplicate content creation, speed up execution, and maximize the value of existing AEM assets—directly within Workfront.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483142/)
+
+## GenStudio Foundations Provisioning enabled to support AI Collaborators
+
+>[!NOTE]
+>
+>Preview: March 31, 2026
+>Production fast release: March 31, 2026
+>Production for everyone: March 31, 2026
+
+On March 31, 2026, all Workfront customers were provisioned for GenStudio Foundation, and Admin Console System Admins will have received an email informing them of this addition. This product is provisioned only so Workfront customers can give Brands access to Workfront customers as needed for the release of AI Collaborators. The product itself is only an access mechanism for Brands, and there is no additional functionality available in the GenStudio Foundation product.
+
+Customers will not be charged for this new product.
+
+## My approval widget updates 
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+We have added the following enhancements to the My Approvals widget in Home:
+
+* Sort the approvals list by Oldest first or Newest first
+* Expand the the widget to full screen
+
+For more information, see [Manage your approvals with the My Approvals widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md).
+
 ## Unified review and approvals powered by Workfront and Frame.io
 
-We're excited to introduce Unified Review & Approval powered by Workfront and Frame.io, a streamlined review and approval experience.
+>[!IMPORTANT]
+>
+>This new capability is available to net new customers and to existing customers upon renewal.
 
-This new capability is available to net new customers and to existing customers upon renewal.
+>[!NOTE]
+>
+>Preview: March 12, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+
+We're excited to introduce Unified Review & Approval powered by Workfront and Frame.io, a streamlined review and approval experience.
 
 ### What's New
 
@@ -32,19 +89,19 @@ Create more structured and sophisticated approval workflows with multi-stage app
 
 #### Review and approve content in Frame.io
 
-Review and approve content directly in the Frame.io viewer and eliminate the need to switch between platforms. This integration allows for faster feedback cycles and keeps all review activity in one place. For more information, see [Get started with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+Review and approve content directly in the Frame.io viewer and eliminate the need to switch between platforms. This integration allows for faster feedback cycles and keeps all review activity in one place. For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Connection with Adobe Experience Manager
 
 Seamlessly send approved assets directly to Adobe Experience Manager. This integration helps accelerate content activation by connecting review and approval workflows with downstream content management. For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
-#### Access to Adobe Enterprise Storage
+#### Access to Adobe cloud storage
 
-Adobe enterprise storage is a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products. The Workfront and Frame.io integration is built on Adobe enterprise storage, enabling seamless collaboration and asset management between these platforms.
+Adobe cloud storage is a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products. The Workfront and Frame.io integration is built on Adobe cloud storage, enabling seamless collaboration and asset management between these platforms.
 
-Access to Adobe Enterprise Storage also paves the way for future asset management integrations with other Adobe products, such as Adobe Creative Cloud.
+Access to Adobe cloud storage also paves the way for future asset management integrations with other Adobe products, such as Adobe Creative Cloud.
 
-For more information, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+For more information, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Multi‑stage approval workflows available for unified approvals
 
@@ -81,3 +138,5 @@ With approval workflow templates, you can:
 * Ensure required stakeholders are engaged at the right stage
 
 For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
+

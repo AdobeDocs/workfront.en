@@ -8,10 +8,30 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/hac0DpFigPP-vKcZaQqXlacjfhnaI-JK083yTzhCWSY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Organize and preview a form
-
-{{preview-fast-release-general}}
 
 You can organize a custom form with the form designer, and preview it to verify that it is set up correctly.
 
@@ -77,8 +97,8 @@ For information about custom fields and widgets in custom forms, see [Create a c
       <td role="rowheader">Description</td> 
       <td>Type text if you want to explain to users what the section is for. This displays below the section's label on the custom form.</td> 
      </tr> 
-      <td><span class="preview">Collapsed by default</span></td>
-      <td><span class="preview">By default, all sections on a custom form are expanded when the form itself is expanded. Select this option to have the section collapsed by default when a user opens the form.</span></td>
+      <td>Collapsed by default</td>
+      <td>By default, all sections on a custom form are expanded when the form itself is expanded. Select this option to have the section collapsed by default when a user opens the form.</td>
      <tr>
      </tr>
      <tr> 
@@ -112,7 +132,7 @@ For information about custom fields and widgets in custom forms, see [Create a c
      </tr> 
      <tr> 
       <td role="rowheader"><p>Add Logic</p></td> 
-      <td><p>Use display logic to specify whether the section should display on the form, based on selections users make in multi-choice custom fields when they fill out the form.</p><p><strong>NOTE:</strong> If all of the individual fields under a section break have display logic applied to them and they are all hidden as a result of the logic, the entire section will be hidden on the custom form. This will happen even if display logic is not applied to the section break.</p><p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Add display logic and skip logic with the form designer</a>.</p></td> 
+      <td><p>Use display logic to specify whether the section should display on the form, based on selections users make in multi-choice custom fields when they fill out the form.</p><p><strong>NOTE:</strong> If all of the individual fields under a section break have display logic applied to them and they are all hidden as a result of the logic, the entire section will be hidden on the custom form. This will happen even if display logic is not applied to the section break.</p><p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Add logic rules to custom forms and fields</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>

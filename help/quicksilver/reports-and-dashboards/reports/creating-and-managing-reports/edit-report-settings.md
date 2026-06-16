@@ -6,6 +6,28 @@ description: You can edit the settings of a report to define how it displays for
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/GqhjJ-aQZfDJq4RYEtJoleC41CQtEJ-38aiSI43FHLE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Edit report settings
 
@@ -84,11 +106,13 @@ For more detail about the information in this table, see [Access requirements in
      </tr> 
      <tr> 
       <td role="rowheader">Show the Resource Grid view on the Details tab</td> 
-      <td> <p>(User Report Only) Select this option to display the Resource Grid on the Details tab of the report.</p> <p>Note:  When applying the Resource Grid view to a user report, the report only shows projects that are in the Current status. If you want to see projects in any other status, you can use the User Utilization Tab in the People area of the Global Navigation Bar, and apply the Resource Grid View there. <!--
+      <td> <p>(User Report Only) Select this option to display the Resource Grid on the Details tab of the report.</p> <p>Note:  When applying the Resource Grid view to a user report, the report only shows projects that are in the Current status. If you want to see projects in any other status, you can use the User Utilization Tab in the People area of the Global Navigation Bar, and apply the Resource Grid View there.
+      <!--
          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           For more information about using the Resource Grid, see the article Overview of the Resource Grid . (drafted because this article is drafted also: Article is in draft Feb 1, 2021)
          </MadCap:conditionalText>
-        --></p> </td> 
+        -->
+        </p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">Show a special view on the Details tab</td> 

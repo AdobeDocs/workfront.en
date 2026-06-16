@@ -8,6 +8,28 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/XJ0ABx-T296MgvxkvC7CbGtryTSj5B7L-RtgrOeCIPU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: bbf3fe51-0066-4980-9062-f8005585ee10
+    internal-label: Adobe Workfront for Google Workspace
+  - id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
+    internal-label: Adobe Workfront for Outlook
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Update an [!DNL Adobe Workfront] item from [!DNL Google Workspace] using email content
 

@@ -6,15 +6,37 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
+TQID: https://experienceleague.adobe.com/yX-p5GzLd4EMOdWDrw3gAHqZfRvPCUaYXCjEnGxcwc4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
 
 # Connected record types overview
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 You can indicate that individual record types relate to one another or to objects from other applications by connecting them. 
 
@@ -35,40 +57,13 @@ For information about you connect record types, see [Connect record types](/help
     >
     >You can have up to 30 connected fields for one record type in Workfront Planning.
 
+* You can manually add a New Connection field from a record type to connect the following entities in Workfront Planning:
 
-* Consider the following about connecting record and object types: 
+    * Two record types 
 
-    * You can manually add a New Connection field from a record type to connect the following entities in Workfront Planning:
-
-        * Two record types 
-
-            By default, you can connect two record types from the same workspace. You can also set up record types to connect with record types from other workspaces, if your organization purchased a higher Workfront or Planning package. For more information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
-        * A record type and an object type from another application. 
-
-        For information about how you can connect record and object types, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-        After you manually connect record types with other record or object types you can connect individual records and objects. 
-
-        For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+        By default, you can connect two record types from the same workspace. You can also set up record types to connect with record types from other workspaces, if your organization purchased a higher Workfront or Planning package. For more information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
+    * A record type and the following object types from these applications:
         
-    * A connection between entities is established automatically in the following scenarios: 
-        
-        * When you use an automation to create records from a record type's page.
-
-            The connection between the record types or the record type and the object type from another application is automatically created when the automation creates the connected record or object. 
-
-            For information, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
-
-        * When you configure request forms for a record type to create a record or an object. 
-
-            The connection between the record type and the request object type is automatically created when you submit and approve a Planning request that creates a record.
-
-            For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
-
-            You can view the original request in the **Subject** field in the Requests area of Workfront, <span class="preview">or in the Original request connection field in Workfront Planning.</span>. 
-
-    * You can connect Workfront Planning record types with the following object types from the following applications:
-
         * Adobe Workfront:
 
             * Projects
@@ -76,21 +71,20 @@ For information about you connect record types, see [Connect record types](/help
             * Programs
             * Companies
             * Group
-        
-        <div class="preview">
-
-        * Adobe Workfront:
-
             * Original request
 
                 The Original request connection field displays the name of the original request that creates a record after a request form is submitted for Workfront Planning. The request's name is visible in the Subject field of the request in Workfront. 
-
-        </div>
         
-        * Adobe Experience Manager Assets:
+        * Adobe Experience Manager:
 
-            * Images
-            * Folders
+            * Assets
+
+                You can connect the following objects from Adobe Experience Manager Assets: 
+                
+                * Images
+                * Folders
+
+            * Content Fragments
 
         * Adobe GenStudio for Performance Marketing
 
@@ -98,13 +92,47 @@ For information about you connect record types, see [Connect record types](/help
 
             >[!IMPORTANT]
             >
-            >You must have have the following to connect with Adobe Experience Manager Assets and GenStudio Brands:
-            >* An Adobe Experience Manager Assets license
-            >* An Adobe GenStudio for Performance Marketing license
-            >* Your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console to connect Workfront Planning records to Adobe Experience Manager Assets.
-            >For information about the Adobe Admin Console, see the [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+            >You must have have the following to connect with Adobe Experience Manager objects and GenStudio Brands:
+            >* An Adobe Experience Manager license
+            >* An Adobe GenStudio for Performance Marketing license.
+    
+    * A GenStudio for Performance Marketing record type from the GenStudio workspace and the following entities:
 
-* When two record types or a record type and an object type from another application are connected , the following scenarios exist: 
+        * A Workfront Planning record type
+        * A Workfront object
+        * An AEM object (asset or content fragment)
+        * A GenStudio for Performance Marketing brand
+
+            >[!NOTE]
+            >
+            >* You cannot connect an Adobe GenStudio workspace record type to another GenStudio record type in Planning. 
+            >* You cannot connect a Planning record type to a record type from the GenStudio workspace. 
+
+
+        After you manually connect record types with other record or object types you can connect individual records and objects. 
+
+        For information about how you can connect record and object types, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+        For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+        
+* A connection between entities is established automatically in the following scenarios: 
+    
+    * When you use an automation to create records from a record type's page.
+
+        The connection between the record types or the record type and the object type from another application is automatically created when the automation creates the connected record or object. 
+
+        For information, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+    * When you configure request forms for a record type to create a record or an object. 
+
+        The connection between the record type and the request object type is automatically created when you submit and approve a Planning request that creates a record.
+
+        For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+
+        You can view the original request in the **Subject** field in the Requests area of Workfront, or in the Original request connection field in Workfront Planning. 
+    
+
+* When two record types or a record type and an object type from another application are connected, the following scenarios exist: 
     
     * **When you connect two Planning record types**: A linked record field is created on the record type you're connecting from. A similar linked record field is created on the record type you are connecting to, only when you enable the Create corresponding field on linked record type setting on the New connection tab. 
 
@@ -123,32 +151,39 @@ For information about you connect record types, see [Connect record types](/help
         * Planning records fields are not accessible from Workfront objects.
         * Planning records are visible from the Workfront object's Planning section. For information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
         * You can create a Planning connection custom field and attach it to a Workfront object's custom form. For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). 
-        * Planning record fields are accessible from Experience Manager assets when your Workfront administrator configures the metadata mapping through the integration between Workfront and Adobe Experience Manager Assets. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+        * Planning record fields are accessible from Experience Manager assets when your Workfront administrator configures the metadata mapping through the integration between Workfront and Adobe Experience Manager Assets. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). <!--not sure if this is also possible for content fragments-->
         * Planning record fields are not accessible from the Brands in GenStudio for Performance Marketing. 
         
-    * **When you add lookup fields from the record or object you connect to**: In addition to creating a linked record field, you can also connect to fields from the connected record or object type which are called lookup fields. A linked (or lookup field) with information from the record you're connecting to displays on the record that you're connecting from.
-
-        You can connect fields from other record types or another application's objects to the Workfront Planning record type. 
+    * **When you add lookup fields from the record or object you connect to**: In addition to creating a linked record field, you can also connect to fields from the connected record or object type which are called lookup fields. A linked (or lookup field) with information from the record you're connecting to displays on the record that you're connecting from. 
     
-        Linked fields are read-only and they automatically display information from connected records. 
+        Considering the following when adding lookup fields: 
+    
+        * You can connect fields from other record types or another application's objects to the Workfront Planning record type. 
+    
+        * Lookup fields are read-only and they automatically display information from connected records. 
 
-        You can refer to lookup fields from other record or object types in formulas, filters, or groupings.
+        * Not all fields are supported to be linked from Workfront Planning. For example, only the following fields are supported for AEM Content Fragments: <!--this information is also in "Connect record types"-->
 
-        For example, if you connect the "Campaign" record type with a Workfront project and you select to bring the Planned Completion Date field of the project to the Workfront Planning record, a linked field called Planned Completion Date (from Project) is automatically created for the campaign. You cannot manually edit this linked field. The Planned Completion Date (from Project) field displays the Planned Completion Date of the linked projects.  
+            * Created by and Created at
+            * Modified by and Modified at 
+
+        * You can refer to lookup fields from other record or object types in formulas, filters, or groupings.
+
+            For example, if you connect the "Campaign" record type with a Workfront project and you choose to bring the Planned Completion Date field of the project to the Workfront Planning record, a linked field called Planned Completion Date (from Project) is automatically created for the campaign. You cannot manually edit this linked field. The Planned Completion Date (from Project) field displays the Planned Completion Date of the linked projects, as established in Workfront.  
 
         >[!IMPORTANT]
         >
         >Everyone with View or higher permissions to the workspace can view the information in the lookup fields, regardless of their permissions or access level in the application of the linked object types or their permissions in other workspaces. 
 
-        Linked record fields are preceded by a relationship icon ![Relationship field icon](assets/relationship-field-icon.png). 
+        * Connected record fields are preceded by a relationship icon ![Relationship field icon](assets/relationship-field-icon.png). 
     
-        Linked fields are preceded by an icon that identifies the field type. For example, linked (or lookup) fields are preceded by icons that indicate that a field is a number, a paragraph, or a date. 
+        * Connected lookup fields are preceded by an icon that identifies the field type. Lookup fields are preceded by icons that indicate that a field is a number, a paragraph, or a date. 
 
-        >[!TIP]
-        >
-        >Workfront objects' date field information displays in 24 hour format in Workfront Planning, regardless of how it displays in Workfront. 
-        >
-        >For example, if a project's Planned Start Date displays as 3:00 PM in Workfront, it will display as 15:00 in Workfront Planning in an imported lookup field. 
+            >[!TIP]
+            >
+            >Workfront objects' date field information displays in 24 hour format in Workfront Planning, regardless of how it displays in Workfront. 
+            >
+            >For example, if a project's Planned Start Date displays as 3:00 PM in Workfront, it will display as 15:00 in Workfront Planning in an imported lookup field. 
     
     * You must connect record types to be able to create hierarchies in Workfront Planning. When record type connections don't exist, they are automatically created when you create a hierarchy. For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 
@@ -163,7 +198,7 @@ After you establish a connection between two record types or between a record an
 >
 >* Two records from different workspaces
 >
->* A record type and Experience Manager assets
+>* A record type and Experience Manager object
 >
 >* A record type and an Adobe GenStudio Brand
 

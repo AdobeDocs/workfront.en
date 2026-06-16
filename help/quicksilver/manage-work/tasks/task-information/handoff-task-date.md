@@ -7,6 +7,26 @@ description: The Handoff Date is the date that a task becomes available for work
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/56lnSl470ICfCvl-m0ZfyTNoj71NMShHD4xJcjsdWNg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Task Handoff Date overview
 
@@ -73,7 +93,8 @@ Workfront uses the following rules for calculating the Handoff Date of a task:
    * **When the task has a constraint of Must Finish On or Start No Later Than**: If the task constraint date is in the future and there is no Actual Start Date on the task (the task hasn't started yet) the Handoff Date is the task's Planned Start Date. If there is as Actual Start Date on the task then the Handoff Date is the project's start date.
    * **When the task has a constraint of Fixed Dates**: The Handoff Date is the Planned Start Date of the task, regardless of whether it has a predecessor or not and regardless of whether the predecessor is completed or not.
 
-<!--these are old descriptions, edited by Anna As. on August 25, 2023 in this issue - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/64c0032500018fabd4fc484167eb10dc/updates
+<!--
+these are old descriptions, edited by Anna As. on August 25, 2023 in this issue - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/64c0032500018fabd4fc484167eb10dc/updates
    * When the task has a constraint of Must Start On or Start No Earlier Than, the Handoff Date is the Constraint date, unless there is an Actual Start Date on the task. If there is an Actual Start Date on the task, the Handoff Date is the Actual Completion Date of the predecessor.
    * When the task has a constraint of Must Finish On or Start No Later Than, the Handoff Date is always the Actual Completion Date of the predecessor, regardless of whether there is an Actual Start Date on the task or not. 
    * When the task has a constraint of Fixed Dates, the Handoff Date is the Planned Start Date of the task, regardless of whether it has a predecessor or not and regardless of whether the predecessor is completed or not.

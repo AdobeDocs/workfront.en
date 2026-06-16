@@ -6,10 +6,30 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/pZbr-zFYyGsswScJTb80R679wGRmKJUaXexO8G4XRoo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Get started with [!DNL Priorities]
-
-{{preview-fast-release-general}}
 
 Priorities is a streamlined, intuitive experience tailored for task owners. Priorities will be rolled out in phases, starting with the worklist.
 
@@ -21,7 +41,7 @@ With Priorities, you can enjoy
 
 The Priorities Worklist and Calendar display work items assigned to you. You cannot see work items assigned to your team.
 
-<span class="preview">A Workfront administrator can enable priorities for your user in the Layout Template. For more information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).</span>
+A Workfront administrator can enable priorities for your user in the Layout Template. For more information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Find and organize your work
 
@@ -97,7 +117,7 @@ After you have filtered your work, you can group items based on
 * Status
 * Project
 
-For more information, see [Filter and group your work in Priorities](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+For more information, see [Filter, group, and sort your work with Priorities](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Prioritize important work items with My Focus
 
@@ -204,4 +224,5 @@ You can view real-time updates on the Details page of a task or issue. You can a
 <!--
 ## Considerations
 
-* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.-->
+* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.
+-->

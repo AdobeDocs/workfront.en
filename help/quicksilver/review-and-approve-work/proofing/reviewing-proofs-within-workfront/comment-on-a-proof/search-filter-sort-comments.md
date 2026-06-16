@@ -6,6 +6,23 @@ description: You can search, filter, and sort proof comments to easily navigate 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/06PPfHkl-tob4Ze47xstRtgBu6XrAgo8OkcN2IYEbrI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Search, filter, and sort proof comments
 
@@ -83,9 +100,11 @@ You can filter the comments that display by defining filter parameter such as us
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Actions</strong> </td> 
-      <td>Displays only comments that match the action you select.n no action. Actions must be enabled in your system. For more information, see .<!--
+      <td>Displays only comments that match the action you select.n no action. Actions must be enabled in your system. For more information, see .
+      <!--
         &nbsp;
-       --></td> 
+       -->
+       </td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>General filtering options</strong> </td> 

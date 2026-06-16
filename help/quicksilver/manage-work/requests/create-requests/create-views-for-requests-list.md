@@ -6,25 +6,44 @@ description: If you are using the new requesting experience, you can create and 
 author: Alina
 feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/lUhf-6vz-9sXNhFMGWaZTj4CSx7Xkjs6TCs19172GFE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 # Create and manage views in the Requests area
+
+<!--
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+-->
 
-If you are using the new requesting experience in Adobe Workfront, you can create and save views for the Requests area. These views include filters, and column arrangements. 
-
-<!--<span class="preview"> and groupings.</span>-->
-
+If you are using the new requesting experience in Adobe Workfront, you can create and save views for the Requests area. These views include filters, column arrangements, and groupings.
 
 >[!IMPORTANT]
 >
 >* This functionality is available only in the new requesting experience in the Requests area. 
 >* View settings are also available in the My Requests widget in Home. However, the views from the Requests area are separate from those from the My Requests widget.
->* The requests list in the Requests area uses the enhanced list in Workfront. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+>* The requests list in the Requests area and in the My Work widget use the enhanced list in Workfront. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## Access requirements
 
@@ -39,7 +58,6 @@ If you are using the new requesting experience in Adobe Workfront, you can creat
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any Workfront or Workflow package</p>
-   
    <p>Any Worfront Planning license, to view Workfront Planning requests in request lists</p>
     </td> 
   </tr> 
@@ -66,34 +84,67 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
+## System views for requests
+
+>[!WARNING]
+>
+>System views documented in this section are not yet available. They will be available at a date later than April 16, 2026. 
+
+In addition to the views you can create yourself, Workfront offers the following system views for the Requests area and My Requests widget in Home:
+
+* **All Requests**: All requests that you or anyone else submitted in queues or workspaces you have permissions to view. This is not available for the My Requests widget.
+* **My Requests**: Requests you submitted, regardless of status.
+* **My Open Requests**: Requests you submitted and are still open.
+* **My Drafts**: Drafts of your quests that have not been submitted yet.
+* **Open Requests**: Requests that you or anyone else submitted in queues or for workspaces you have permissions to view that are still open. This is not available for the My Requests widget.
+
+You cannot edit system views. You can modify their elements, then copy the view and edit or share the copy.
+
 ## Create a view for requests
 
-You can create a view in the Requests area of Workfront when you use the new requests experience. 
+You can create a view in the Requests area of Workfront when you use the new requests experience. After enabling and new requests experience, you can also create views for the My Requests widget in Home. 
 
-1. To access the Requests list:
+1. To access the **Requests** list:
 
    {{step1-to-requests}}
 
-1. Ensure the **Use new experience** setting is turned on.
+   1. Ensure the **Use new experience** setting is turned on.
 
-1. In the **Requests** list, click the **Views** dropdown menu ![Views dropdown](assets/view-icon-requests.png) and click **New view**.
+1. To access the **My Requests** widget in home: 
 
+   {{step1-to-home}}
+
+   1. Add or go to the **My Requests** widget. 
+
+1. In the list of requests, click the **Views** dropdown menu ![Views dropdown](assets/view-icon-requests.png) and click **New view**.
+
+   <!-- 
+   
+   replace the screen shot with release
    ![New view](assets/create-new-view.png)
 
+   -->
+
 1. Enter a name for the new view, and click **Create**.
-1. Continue to [Edit a view in the Requests area](#edit-a-view-in-the-requests-area).
+1. Continue to [Edit a view for requests](#edit-a-view-for-requests). 
 
 ## Edit a view for requests
 
-You can edit existing views, including views you have just created in the Requests area of Workfront.
+You can edit existing views, including views you have just created in the Requests area or the My Requests widget in Home. 
 
-By editing a view in the Requests area, you can change the following elements of the view:
+By editing a view, you can change the following elements of the view:
 
 * Name
 * Filters
 * Columns
+* Grouping
+* Format cells
+* Row height
 
-The changes you make on a view are visible to all those you share the view with. 
+For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+<!-- 
+hide these details - all the information is in "Use enhanced lists" - we need one point of messaging for this feature: 
 
 1. To access a list of requests in the Requests are: 
    
@@ -110,14 +161,13 @@ The changes you make on a view are visible to all those you share the view with.
    The **Column manager** opens.
 1. Click the plus icon next to the field that you want to add as a column to the view, then click **Save**.
 
-   Fields associated with the objects in the list are available to add as columns. <!--keeping this general, and not referring to custom fields because there are some native fields that are supported and there will be more in the future-->
+   Fields associated with the objects in the list are available to add as columns. <!-keeping this general, and not referring to custom fields because there are some native fields that are supported and there will be more in the future->
 
    >[!TIP]
    >
    >Fields you add to the columns must exist before they are available in the **Column manager**.
 
-
-1. (Optional) Click **Columns** to open the F**ields visibility and order** box. 
+1. (Optional) Click **Columns** to open the **Fields visibility and order** box. 
 1. Turn on the setting for each field  you want to show in the list, turn it off to hide it, or drag and drop the fields in a different order.
 
 1. (Optional) Click **Filters** and start adding conditions for what requests you want to view. 
@@ -135,7 +185,7 @@ The changes you make on a view are visible to all those you share the view with.
 
     You can have multiple filters joined by either **And** or **Or**.
     The request list is filtered automatically, as you add the filter conditions. 
- 
+--> 
 
 <!--
 1. <Span class="preview">(Optional) Click **Group** and select the column that you want to group by.</span>
@@ -145,18 +195,27 @@ The changes you make on a view are visible to all those you share the view with.
 >[!IMPORTANT]
 >
 > * Changes to views are saved automatically.
-> * Changes to views are visible to anyone that uses the view.
+> * Changes to views are visible to anyone that uses the view only when you share a new copy of the view after you made changes to it.
 > * Use the **Me (logged-in user)** filter wildcard in any field that has users as the value.
 
-## Add the requests view to a layout template.
+## Add the requests view to a layout template
 
-A Workfront administrator can add the new view to layout templates.
+A Workfront administrator can add or remove a new view or a system view to layout templates for the Requests area.
 
 For instructions, see [Customize Filters, Views, and Groupings using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 ## Share a view
 
-You can share views that you create with other users, teams, or groups.
+You can share views that you create with other users, teams, groups, or companies.
+
+After sharing a view, other users can view the updated view elements you edited for the view before sharing it. 
+
+If they update the view, their changes will not visible to others, unless they make a copy of the same view and preserve their changes before they share the copy. 
+
+For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+<!--
+Let's just redirect to Use enhanced lists so we avoid duplicating information. 
 
 1. To access a list of requests in the Requests are: 
    
@@ -168,4 +227,5 @@ You can share views that you create with other users, teams, or groups.
 1. In the **Share** box, enter the people, teams, roles, groups, or companies that you want to share the view with, then select them from the list when they appear.
 1. Click **Save**.
 
-   The view is shared with the entities you indicate. They can view the updated view elements you edited for the view before sharing it. <span class="preview">If they update the view, their changes will not visible to others, unless they make a copy of the same view and preserve their changes before they share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+   The view is shared with the entities you indicate. 
+-->

@@ -8,6 +8,28 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dead6081-dfd2-4b1a-8be2-32a0ba813bc3
+TQID: https://experienceleague.adobe.com/mnbklDR2PuLvTiu1QgzPih4Cp-jkZ2wy-pYj4-Qa5Zo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Job role overview
 
@@ -55,6 +77,6 @@ You can use job roles for the following purposes:
    >If users are assigned a layout template to their user profile that template takes precedence over the one assigned to their primary job role. For more information, see [Assign users to a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
 * You can assign job roles to plans and initiatives to manage the availability of your resources when using the [!DNL Adobe Workfront Scenario Planner]. This requires an additional license for the [!DNL Scenario Planner]. For more information, see [Get started with the [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md).
-* You can override job role rates based on different currencies, when working with resources from different countries. This allows you to obtain more accurate Cost and Revenue amounts for work items.
+* You can change the currency on effective-dated job role rates, when working with resources from different countries. This allows you to obtain more accurate Cost and Revenue amounts for work items.
 
    For more information, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).

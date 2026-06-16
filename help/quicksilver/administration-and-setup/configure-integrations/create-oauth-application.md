@@ -8,6 +8,27 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/wMgemSCv9tLMKy9AdIW5HDpGFbYKNmrnV07PsjwA6-4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Create OAuth2 applications for [!DNL Workfront] integrations
 
@@ -308,9 +329,11 @@ For instructions on configuring and using the OAuth2 application with user crede
     </tbody> 
    </table>
 
-   <!-- removed this from the table, and added "Developer name" and following rows:
+   <!--
+    removed this from the table, and added "Developer name" and following rows:
    [!UICONTROL App Description URL]</td> 
-      <td>This can be a link to an "About us" page or a page with more information about the integration.> -->
+      <td>This can be a link to an "About us" page or a page with more information about the integration.>
+      -->
 
 1. Click **[!UICONTROL Save]**.
 

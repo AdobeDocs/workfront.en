@@ -6,6 +6,36 @@ description: Your [!DNL Adobe Workfront] profile contains information about your
 author: Becky
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/uMoFyTHnX4zHo01va9DpMnTp030Wyh0YdIVH18Saxq4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure My Settings
 
@@ -374,13 +404,14 @@ You can change any of the following in this sub-section:
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Layout Template]</strong> </td> 
    <td>This field is visible to users with a [!UICONTROL Standard], [!UICONTROL Plan], or [!UICONTROL [!DNL Workfront] administrator] access level, and it is only editable for [!UICONTROL [!DNL Workfront] administrators] or users with a [!UICONTROL Standard] or [!UICONTROL Plan] license who also have administrative user access. Select a layout template here, to update the look and field of your Workfront interface. For more information about setting up users with administrative user access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Configure users' access to edit users using a custom access level</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.<br>For more information about layout templates and how they affect your interface, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a></td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader"><strong>Log in as</strong> </td> 
     <td> <p><strong>Add access</strong> for a Workfront administrator or group administrator (associated with a group you are in) to log in as you. Select an <strong>Access expiration date</strong> for the login. </p> <p>You can repeat this to grant login access to multiple administrators.</p> <p>The settings you choose in this section are visible only to you.
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+         
         <span class="PinkDraftNote">Add a note about this being only for the Enterprise package if they decide to do it that way. Functionality that may come in a later sprint: If you want to be notified when the administrator logs in as you, select Receive an email when this user logs in.</span> 
-       </MadCap:conditionalText>
+        
       </p> </td> 
    </tr>
   --> 

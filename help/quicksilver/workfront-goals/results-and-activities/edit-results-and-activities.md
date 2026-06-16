@@ -7,6 +7,26 @@ description: After your Adobe Workfront administrator has granted you the correc
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/GilW0r9NEp5mIIPBu0JChJU-Uga2ldpeJNuuGh2QOYQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Edit results and activities in Adobe Workfront Goals
 
@@ -72,7 +92,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -126,7 +147,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Considerations when editing results and activities
 
@@ -181,7 +203,7 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. Click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png), then **Goals**. 
+1. Click the **Main Menu** ![Main Menu icon](assets/lines-main-menu.png), then **Goals**. 
 1. From the Goal List, click the name of a goal to open the goal page.
 1. Click **Progress indicators** in the left panel.
 1. Select a result in the Progress indicators list and click the **Edit** icon ![Edit icon](assets/edit-icon.png).
@@ -226,7 +248,7 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. Click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png), then **Goals**. 
+1. Click the **Main Menu** ![Main Menu icon](assets/lines-main-menu.png), then **Goals**. 
 1. From the Goal List, click the name of a goal to open the goal page.
 1. Click **Progress indicators** in the left panel.
 1. Select an activity in the Progress indicators list and click the **Edit** icon ![Edit icon](assets/edit-icon.png).

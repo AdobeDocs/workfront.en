@@ -2,11 +2,28 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Filter: Display Items by Same-name Statuses When the Statuses Are Associated with Different Groups'
+title: "Filter: Display Items by Same-name Statuses When the Statuses Are Associated with Different Groups"
 description: You can have a task status assigned to Group A named New Status with the 3-letter key NST. You may have another task status assigned to Group B also named New Status with the 3-letter key NES. Although the names for the 2 statuses can be identical, the 3-letter code is always unique. For more information about group statuses, see Create or edit a group status.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 8ddcd8b1-44a9-4341-80c7-76ba70d2953b
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/qOu5WArxekdKKXAswMAtapaOHX36J9vGMpUom614lvE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Filter: display items by same-name statuses when the statuses are associated with different groups
 

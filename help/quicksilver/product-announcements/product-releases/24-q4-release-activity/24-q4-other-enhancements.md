@@ -5,6 +5,15 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 13208dca-afc9-419a-bb08-e063c6d9b480
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/aium7Fy3LmRL9k-YQ7kdzpU0ivHZ2H8ShBePyx6wO9Q
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Other enhancements during the Fourth Quarter 2024 release timeframe
 

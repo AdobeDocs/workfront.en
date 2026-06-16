@@ -8,6 +8,21 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/chIkywiAaMxmiNm1LYjKpkCgA0jbSAUNLKSSXzpFsAI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # View and export audit logs
 
@@ -54,7 +69,8 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-<!--Old: 
+<!--
+Old: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,13 +92,14 @@ For more detail about the information in this table, see [Access requirements in
    <td><p>System Administrator</p></td>
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## View audit logs
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **System > Audit Logs**.
+1. In the left panel, click **Change Tracking > Audit Logs**.
 1. In the **Action Type** drop-down, select the type of audit you want to view. 
 
    >[!NOTE]
@@ -110,7 +127,7 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-setup}}  
 
-1. In the left panel, click **System** > **Audit Logs**.  
+1. In the left panel, click **Change Tracking** > **Audit Logs**.  
 
 1. In the **Log Type** drop-down menu, select an audit log.
 

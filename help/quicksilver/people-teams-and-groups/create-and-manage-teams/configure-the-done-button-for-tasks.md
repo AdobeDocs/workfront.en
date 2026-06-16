@@ -6,6 +6,21 @@ description: The Done button can automatically set the status of a task or an is
 author: Courtney
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/WtxzO6dVznvS6Dch08s3x7QzNB94pRlVBRD9inx4A58
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure the [!UICONTROL Done] button for tasks
 
@@ -19,7 +34,7 @@ The [!UICONTROL Done] button can automatically set the status of a task or an is
 
 Users with certain permissions can configure the [!UICONTROL Done] button to associate it with certain statuses in the system. There are two different ways the [!UICONTROL Done] button works for tasks in [!UICONTROL Workfront]:
 
-* If the user has an assigned Home Team, a [!DNL Workfront] administrator or a user with a [!UICONTROL Plan] license can configure the [!UICONTROL Done] button to reflect certain statuses for team members. See [Configure the [!UICONTROL Done] button for a Team](#configure-the-uicontrol-done-button-for-a-team) in this article.
+* If the user has an assigned Home Team, a [!DNL Workfront] administrator or a user with a [!UICONTROL Standard] or [!UICONTROL Plan] license can configure the [!UICONTROL Done] button to reflect certain statuses for team members. See [Configure the [!UICONTROL Done] button for a Team](#configure-the-uicontrol-done-button-for-a-team) in this article.
 * If the user does not have a [!UICONTROL Home Team], but they have [!UICONTROL Other Teams] in their profile, Workfront searches for the setting of the [!UICONTROL Done] button on any of the teams associated with the user. The selection is random and the status associated with any of the teams is used for the task. 
 * If the user does not have a Home Team assigned, the [!UICONTROL Done] button for tasks is tied to a complete status. There are no configuration options available in this scenario. The [!UICONTROL Done] button automatically defaults to this status.
 

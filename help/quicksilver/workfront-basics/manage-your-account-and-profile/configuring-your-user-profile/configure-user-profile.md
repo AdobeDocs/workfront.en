@@ -8,8 +8,31 @@ author: Becky
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 1a64a148-529c-4c66-9ee8-fbfa205b0a67
+TQID: https://experienceleague.adobe.com/WgK4RWDvy53PMMcXMCCTWKSMaKcCnxBmyQ76LM0dCws
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Configure your User Profile
+
+You can access your profile and preference options by clicking the Adobe account menu (your profile picture) in the top navigation area.
+
+![Profile menu](assets/unified-shell-profile-menu-2026.png)
+
+This menu allows you to:
+
+* Choose **[!UICONTROL Dark theme]** formatting for [!DNL CX Enterprise].
+* Set **[!UICONTROL Preferences]** for [!DNL CX Enterprise], including primary and secondary language preferences.
+
+   >[!NOTE]
+   >
+   >Your date settings are based on your primary language settings. For example, selecting **English (United States)** displays dates in MM/DD/YYYY format, while selecting **English (United Kingdom)** dispays dates in DD/MM/YYYY format.
+   
+* Access your **[!UICONTROL [!DNL Workfront] Profile]**. Once you are on the profile, click the **[!UICONTROL More]** menu ![More menu](assets/more-icon.png) and select **[!UICONTROL Edit]**. For more information about the profile, see [Configure My Settings](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+* **[!UICONTROL Sign out]** of CX Enterprise.
 
 This section contains the following articles:
 

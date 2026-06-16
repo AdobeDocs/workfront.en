@@ -6,6 +6,23 @@ description: Your Adobe Workfront administrator can grant you access to view or 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/IVsfFJKauKvgOzXMP8rxHos8LDhqWYnThoyZeaiMCv0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Share financial permissions on an object
 
@@ -17,7 +34,8 @@ For information about what users in each access level can do with financial data
 
 ## Access requirements
 
-<!--drafted for P&P:
+<!--
+drafted for P&P:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -65,11 +83,11 @@ For information about what users in each access level can do with financial data
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial  Data</p>  </td> 
+   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial Data</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher to projects, tasks, and issues that include at least View Finance permissions</p></td> 
+   <td> View permissions or higher to projects, tasks, and issues that include at least View billing rates, View cost rates, and View general finance permissions</td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,35 +101,36 @@ For more detail about the information in this table, see [Access requirements in
 Consider the following when granting financial permissions to objects:
 
 * You can grant financial permissions to projects, tasks, and issues.
-* Permissions can be inherited: if you have View Finance permissions to a project, you automatically inherit View Finance permissions to the tasks and issues on the project.
+* Permissions can be inherited: if you have View General Finance permissions to a project, you automatically inherit View General Finance permissions to the tasks and issues on the project.
+* Granting permissions to billing and cost rates allows the user to view or edit the rates on that object. Permissions to general finance allow the user to view or edit general finance fields (not related to billing or cost rates) on the object.
 
 To grant financial permissions to an object:
 
 1. Go to a task, project, or issue that you want to share with others.
-1. Near the name of the object, click the More menu ![](assets/more-icon.png), then click **Sharing**. 
+1. Near the name of the object, click **Share**. 
 
-1. In the **Give `<Object name>` access to** field start typing the name of a user, team, role, group or a company that you want to share the object with.
+1. In the **Give `<Object name>` access to** field start typing the name of a user, team, role, group, or a company that you want to share the object with.
 
    >[!TIP]
    >
    >You can share an object only with active users, teams, roles, or companies.
 
-1. If a drop-down menu appears to the right of the name you selected, click one of the following options that is available:
+1. Click the drop-down to the right of the user's name and select one of the following options:
 
-   * **View it**
-   * **Contribute to it**
-   * **Manage it**
+   * **View**
+   * **Contribute**
+   * **Manage**
 
-1. In the same drop-down menu, click **Advanced Settings**, then do one of the following:
+1. In the same drop-down menu, click the advanced options icon next to the permission level, then do one of the following:
 
-   * If you selected one of the three options in the previous step, make sure **View Finance** is selected.
-   * If you selected **Manage Finance** in the previous step, make sure **Manage Finance** is selected.
+   * For any permission level, select **View billing rates**, **View cost rates**, and **View general finance** as needed.
+   * For **Manage** permissions only, select **Edit billing rates**, **Edit cost rates**, and **Edit general finance** as needed.
 
 1. Click **Save**.
 
 ## Financial permission for all sharing levels
 
-The following table displays what financial permissions users gain when you grant them View, Contribute, or Manage permissions on objects:  
+The following table displays which financial permissions users gain when you grant them View, Contribute, or Manage permissions on objects:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -134,19 +153,37 @@ The following table displays what financial permissions users gain when you gran
    <td>  </td> 
   </tr> 
   <tr> 
-   <td>Manage/ View Role Billing and Cost Rates</td> 
+   <td>Edit Billing Rates</td> 
    <td>✓</td> 
-   <td>  </td> 
+   <td></td> 
    <td>  </td> 
   </tr> 
   <tr> 
-   <td>Manage/ View User Billing and Cost Rates</td> 
+   <td>Edit Cost Rates</td> 
    <td>✓</td> 
+   <td></td> 
    <td>  </td> 
+  </tr>  
+  <tr> 
+   <td>Edit General Finance</td> 
+   <td>✓</td> 
+   <td></td> 
    <td>  </td> 
+  </tr>
+  <tr> 
+   <td>View Billing Rates</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>  ✓</td> 
   </tr> 
   <tr> 
-   <td>View Finance</td> 
+   <td>View Cost Rates</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>  ✓</td> 
+  </tr>  
+  <tr> 
+   <td>View General Finance</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
@@ -175,3 +212,21 @@ The following table displays what financial permissions users gain when you gran
 &#42;Requires additional Resource Management access.
 
 For information about Resource Management access, see [Grant access to Resource Management](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+
+<!--
+These rows removed from last table.
+
+  <tr> 
+   <td>Manage/ View Role Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td>Manage/ View User Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+
+-->

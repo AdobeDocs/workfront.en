@@ -8,6 +8,19 @@ description: A Proof Made email is sent to the proof creator only when he or she
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a6bfe471-2032-4b74-8316-584f923e8651
+TQID: https://experienceleague.adobe.com/GmmKj5aqXNRDlKfo8BBcN7-6-jCtf2-8Dv4o2m1mPAY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # The [!UICONTROL Proof Made] email
 

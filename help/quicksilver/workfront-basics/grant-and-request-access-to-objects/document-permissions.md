@@ -7,6 +7,24 @@ description: Your Adobe Workfront administrator grants users access to view or e
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/O7L1-5vtv0igPFna43Zrr2r2yzg4P7oPXgS2juSQ4Ec
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Share a document on legacy Workfront storage
 
@@ -57,7 +75,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Share documents in the legacy documents area
 
-If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe cloud storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Share an individual document in the legacy documents area
 
@@ -73,7 +91,7 @@ The user who uploads a document to Workfront has Manage permissions to it, by de
 
    ![Share a document](assets/share-a-document-350x160.png)
 
-1. In the **Grant document access to** field, begin typing the name of the user, team, role, group, or company you want to share the document with, then click the name when it appears in the drop-down list.
+1. In the **Grant document access to** field, begin typing the name of the user, team, role, group, company, or business profile</span> you want to share the document with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
@@ -116,7 +134,7 @@ The user who uploads a document to Workfront has Manage permissions to it, by de
 
       ![Share icon](assets/share-documents-in-bulk.png)
 
-1. In the **Grant document access to** field, begin typing the name of the user, team, role, group, or company you want to share the documents with, then click the name when it appears in the drop-down list.
+1. In the **Grant document access to** field, begin typing the name of the user, team, role, group, company, or business profile you want to share the documents with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
@@ -303,12 +321,12 @@ The following table displays what permissions you can grant users when allowing 
 
 +++
 
-## Share documents in the new documents area
+## Share documents in the new Documents area
 
 
-Workfront is transitioning to the Adobe enterprise storage solution in order to provide greater connectivity with Adobe Creative Cloud products. If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront is transitioning to the Adobe cloud storage solution in order to provide greater connectivity with Adobe Creative Cloud products. If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-If your Workfront instance uses Adobe enterprise storage, you cannot share individual documents directly. Instead, you manage access on the project, task, or issue. For more information, see [How document permissions work](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+If your Workfront instance uses Adobe cloud storage, you cannot share individual documents directly. Instead, you manage access on the project, task, or issue. For more information, see [How document permissions work](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
 >[!IMPORTANT]
 >

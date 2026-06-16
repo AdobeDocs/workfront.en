@@ -6,6 +6,24 @@ description: You can edit existing goals from any time period and in any status.
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/QeQHLMIUuBnloZ-l-q0ytD3UXx95s7fUPgiCO38LOxA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Edit goals in Adobe Workfront Goals
 
@@ -66,7 +84,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -118,7 +137,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Considerations about editing goals
 

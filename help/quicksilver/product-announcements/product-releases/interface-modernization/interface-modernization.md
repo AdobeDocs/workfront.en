@@ -5,6 +5,32 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/0Nu-Le3Lidn8TI-Eq-p9iAQR4IwM6QD2tZpDeV1gF2U
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Interface modernization
 
@@ -403,7 +429,8 @@ We have updated the look and feel of a project list or report when you apply the
 
 The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-<!--### Interface updates for the Edit Tasks box
+<!--
+### Interface updates for the Edit Tasks box
 
 **Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
 
@@ -415,7 +442,8 @@ The following changes are included in this update:
 
 *The Resource Scope field has been removed from the Edit task box.  
 
-For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+-->
 
 ### Interface update when bulk editing templates
 
@@ -523,13 +551,15 @@ We have updated the look and feel of the Queue Details section of a template. Th
 
 For information, see [Create a Request Queue](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-<!--### Interface updates when bulk editing templates
+<!--
+### Interface updates when bulk editing templates
 
 **Preview release: July 31, 2025; Production release: August 7, 2025**
 
 We have updated the look and feel of the Edit templates box when editing templates in bulk from a list of templates. The organization of information on the Edit templates box now matches the single-template edit box.
 
-For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
+For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
+-->
 
 ### Interface updates for the Send update to user box on several objects
 
@@ -926,7 +956,8 @@ We have updated the page you use to grant support access to your Workfront accou
 
 We have updated the look and feel of the Log time box when logging time for a project, task, or issue in the Hours tab, to match the design of other areas of Workfront.  
 
-For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).-->
+For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+-->
 
 
 ### Look-and-feel changes of the New Topic Group and Edit Topic Group boxes of a project

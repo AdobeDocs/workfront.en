@@ -7,6 +7,38 @@ description: The hours you log on your work items in Adobe Workfront are conside
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/iOGP-byuQ0X7Sd-DhKYw7aHJe3Q8n2blSj-rrlnfK9k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # View Actual Hours
 
@@ -53,7 +85,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
- <!--Old:
+<!--
+ Old:
  
  <table style="table-layout:auto"> 
  <col> 
@@ -79,7 +112,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>View or higher permissions to a task, a project, or an issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Actual Hours vs Legacy Actual Hours
 
@@ -105,7 +139,9 @@ Depending on what area of Workfront you access the actual hours from, they could
 
 >[!NOTE]
 >
->It is recommended to use the Actual Hours field whenever possible, because the Legacy Actual Hours field could display inaccurate hours due to the way that increments are rounded when hours are stored in minutes.
+>It is strongly recommended to use the Actual Hours field whenever possible, because the Legacy Actual Hours field could display inaccurate hours due to the way that increments are rounded when hours are stored in minutes. Also, Legacy Actual Hours does not display correctly in charts in reports.
+> 
+>All custom formulas using Legacy Actual Hours have been migrated to Actual Hours. Legacy Actual Hours can no longer be used in calculations and formulas.
 
 ## Actual Hours on tasks and issues vs. Actual Hours on projects
 
@@ -155,9 +191,15 @@ To locate Actual Hours in the Hours section of a task:
 
 ### Actual Hours and Legacy Actual Hours in reports
 
-When building tasks, issues, or projects reports, you can show the Actual Hours and the Legacy Actual Hour values for each task, issue, or project in the report.
+When building tasks, issues, or projects reports, you can show the Actual Hours and the Legacy Actual Hours values for each task, issue, or project in the report.
 
-For information about the difference between Actual Hours and Legacy Actual Hours see the section [Actual Hours vs Legacy Actual Hours](#actual-hours-vs-legacy-actual-hours) in this article. 
+For information about the difference between Actual Hours and Legacy Actual Hours, see the section [Actual Hours vs Legacy Actual Hours](#actual-hours-vs-legacy-actual-hours) in this article.
+
+>[!NOTE]
+>
+>It is strongly recommended to use the Actual Hours field in all reports. Legacy Actual Hours does not display correctly in charts in reports.
+> 
+>When replacing the field, note that Legacy Actual Hours stores values in minutes, whereas Actual Hours stores values in hours with decimal precision.
 
 To show Actual Hours and Legacy Actual Hours in a task report:
 
@@ -178,6 +220,7 @@ To show Actual Hours and Legacy Actual Hours in a task report:
 If you want to see the progress of the work your users are doing on their assigned tasks and issues, you can view them in the following Resource Management tools:
 
 * The Utilization Report.  
+  
   For information, see [Overview of the Resource Utilization report](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 * The Resource Planner.
@@ -185,13 +228,13 @@ If you want to see the progress of the work your users are doing on their assign
   For information, see [View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
 
 
-### Actual Hours in the Workfront  API
+### Actual Hours in the Workfront API
 
 <!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
 
 Most Workfront fields that store hours are saved in the Workfront database in minutes. For example, the name of the Planned Hours field of a task is `workRequired` in the Workfront database and it is stored in minutes. 
 
-You must account for the conversion from minutes to hours when accessing these fields in API calls or in calculated custom fields or columns. 
+You must account for the conversion from minutes to hours when accessing these fields in API calls.<!-- or in calculated custom fields or columns.-->
 
 The Actual Hours logged for projects, tasks, or issues are currently stored in the Workfront database as minutes and their valuefield is `actualWorkRequired`.
 
@@ -201,6 +244,10 @@ Since October 2025, with the API Version 21, Actual Hours are stored in the foll
 
 * **Actual Hours**: Hours logged for project, tasks, or issues after May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
 * **Legacy Actual Hours**: Hours logged for projects, tasks, or issues any time, including before May 2021. They are stored in the Workfront database as minutes and their valuefield is `actualWorkRequired`.
+
+>[!NOTE]
+>
+>All custom formulas using Legacy Actual Hours have been migrated to Actual Hours. Legacy Actual Hours or `actualWorkRequired` can no longer be used in calculations and formulas.
 
 For information about API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

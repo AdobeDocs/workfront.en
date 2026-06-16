@@ -6,6 +6,24 @@ description: When initiatives conflict with one another they are competing for t
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d3a3e177-bece-4e03-89d7-9cee6127bc55
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/bvmUPwUcqt0do-U4eQbMssDTwanC8r7fPl0o-S5mGA8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Resolve initiative conflicts in the [!DNL Scenario Planner]
 
@@ -54,7 +72,8 @@ For information about Workfront access requirements, see [Access requirements to
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -90,7 +109,8 @@ For information about Workfront access requirements, see [Access requirements to
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Resolve conflicts overview
 

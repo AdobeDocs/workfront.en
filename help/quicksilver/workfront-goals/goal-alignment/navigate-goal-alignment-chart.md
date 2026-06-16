@@ -6,6 +6,26 @@ description: Use the Goal Alignment section to display a holistic view of goal a
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/GaChasuxAzQrcBfNU8TFWOyy--4Dh3-jrYfoLU38WIs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Navigate the Goal Alignment section in Adobe Workfront Goals
 
@@ -66,7 +86,8 @@ For information, see [Access requirements to Workfront documentation](/help/quic
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto">
 <col>
@@ -118,7 +139,8 @@ Or
 </td>
 </tr>
 </tbody>
-</table>--> 
+</table>
+-->
 
 ## Navigate the Goal Alignment section
 
@@ -162,7 +184,8 @@ Or
          <li> <span>In Trouble</span> (red indicator): the goal is in danger of not being achieved on time. </li> 
         </ul> 
        </div> </td> 
-     </tr> <!--
+     </tr>
+     <!--
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Updated on date </td> 
        <td> <p>The date when the goal was last updated</p> <p>(NOTE: drafted because I think this was removed with the alignment chart redesign - 21.1) </p> </td> 

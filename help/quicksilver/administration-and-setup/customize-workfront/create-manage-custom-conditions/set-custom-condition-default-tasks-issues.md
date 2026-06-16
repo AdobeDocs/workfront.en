@@ -8,6 +8,19 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
+TQID: https://experienceleague.adobe.com/1pmI09IkVMY3r4YIy4RjaIeUVsQvFNtlyYLxeT-fBII
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Set a custom condition as the default for tasks and issues
 

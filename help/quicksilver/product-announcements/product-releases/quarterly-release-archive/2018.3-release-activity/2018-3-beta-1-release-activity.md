@@ -7,6 +7,13 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b19c0086-89b2-46c3-a70d-0140dfbd11e8
+TQID: https://experienceleague.adobe.com/K8AzmxJ1-IDBBvc7qZa-1q-Jl0stVWgDFUA1MufTewI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # 2018.3 Beta 1 release activity
 

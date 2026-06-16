@@ -8,10 +8,32 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/t5iR6y08l5ovcwShZCiqYKv1B9K85Qtg7H18pLyTCTU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create and edit business rules
 
-A business rule allows you to apply validation to Workfront objects and prevent users from creating, editing, or deleting an object when certain conditions are met. Business rules help to improve data quality and operational efficiency by preventing actions that could compromise data integrity.
+A business rule allows you to apply validation to Workfront objects and prevent users from creating, editing, or deleting an object when certain conditions are met. Business rule validation helps to improve data quality and operational efficiency by preventing actions that could compromise data integrity.
+
+Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object or attaching a custom form to the object.  
+
 
 A single business rule can be assigned to only one object. For example, if you create a business rule for not editing projects under certain conditions, you can't apply the same rule to tasks. You would have to create a separate business rule with the same conditions for tasks.
 
@@ -36,8 +58,9 @@ Business rules apply to creating, editing, and deleting objects through the API 
   <tr>
    <td>Adobe Workfront package
    </td>
-   <td> <p>Ultimate</p>
-    <p>Workflow Ultimate</p>
+   <td> <p>Business rule validation:<ul><li><p>Ultimate</p></li><li>
+    <p>Workflow Ultimate</p></li></ul></p><p>Business rule automation:<ul><li>
+    <p>Workflow Ultimate</p></li><ul></p>
    </td>
   </tr> 
   <tr> 
@@ -57,7 +80,12 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Scenarios for business rules
 
-The format of a business rule is "IF the defined condition is met, then the user is prevented from the action on the object, and the message is displayed."
+* [Scenarios for business rule validation](#scenarios-for-business-rule-validation)
+* [Scenarios for business rule automation](#scenarios-for-business-rule-automation)
+
+### Scenarios for business rule validation
+
+The format of a business rule validation is "IF the defined condition is met, then the user is prevented from the action on the object, and the message is displayed."
 
 The syntax for the properties and other functions in a business rule is the same as the syntax for a calculated field in a custom form. For more information about the syntax, see [Add calculated fields with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
@@ -111,15 +139,70 @@ IF(
 )
 ```
 
+### Enable localization in a Business Rule
+
+If your organization uses custom localization, you must enable translation of a business rule message in the business rule. If translation is not enabled, the message appears to the reader in English, even if the message text is in the Localization list and the user's browser is set to the appropriate language.
+
+When configuring the rule, insert the word TRANSLATE before the message, and enclose the message in parentheses.
+
+>[!BEGINSHADEBOX]
+
+Example:
+
+This example assumes that the message "You cannot edit completed projects" is included in the localization area of Setup, and that the user's browser is set to the localized language.
+
+* `IF({status} = "CPL", "You cannot edit completed projects.") `
+The message appears in English.
+* `IF({status} = "CPL", TRANSLATE("You cannot edit completed projects."))`
+The message appears in the localized language.
+
+>[!ENDSHADEBOX]
+
+For information on custom localization, see [Configure custom localization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
+
+## Scenarios for business rule automation
+
+>[!NOTE]
+>
+>Your organization must have a Workflow Ultimate package to use business rule automation.
+
+The format of a business rule automation is "IF the defined condition is met, then the selected automation is triggered."
+
+Business rule automation formulas do not require an error message
+
+To ensure that an automation runs whenever the selected object and action occurs, such as when a project is created, use the following formula:
+
+```
+IF(true, true)
+```
+
+To share a project only if that's project has been approved, use a formula like the following:
+
+```
+IF({status} = "APR", true)
+```
+
+You can use wildcards in business rule actions, as described in the section [Scenarios for business rule validation](#scenarios-for-business-rule-validation).
+
+
 ## Add a new business rule
 
 {{step-1-to-setup}}
 
 1. Click **Business Rules** in the left panel.
 1. Click **New business rule**.
-1. Select the object type to assign the business rule to, then click **Continue**.
 
-   ![Select an object](assets/object-for-business-rule3.png)
+1. Type the **Name** for the business rule on the rule builder dialog.
+1. In the **Is Active** field, select whether the rule should be active when you save it.
+
+   If you select **No**, the rule is saved as inactive, and you can activate it later.
+
+1. (Optional) Enter a **Description** of the business rule and what happens when it is applied.
+
+
+1. Select the object type to assign the business rule to..
+
+   ![Select an object](assets/object-for-business-rule4.png) 
 
    You can apply business rules to the following objects:
 
@@ -130,33 +213,33 @@ IF(
    * Document
    * Program
    * Expense
+   * User
    * Company
    * Iteration
    * Billing Record
    * Group
-   * Non-labor resource
    * Risk
    * Rate card
    * Assignment
-   * User
-   * Role
+   * Job Role
+   * Resource Pool
+   * Time Off
    * Hour
    * Template
-   * Time Off
-   * Resource Pool
-
-1. Type the **Name** for the business rule on the rule builder dialog.
-1. In the **Is Active** field, select whether the rule should be active when you save it.
-
-   If you select **No**, the rule is saved as inactive, and you can activate it later.
+   <!--
+   * Non-labor resource
+   * Non-labor resource category
+   * Staffing Plan
+   * Staffing Plan Resource
+   * Team
+   -->
 
 1. Select a **Trigger** for the business rule. The options are:
 
-   * **On object creation:** The rule is applied when a user attempts to create an object.
-   * **On object edit:** The rule is applied when a user attempts to edit an object.
-   * **On object delete:** The rule is applied when a user attempts to delete an object.
+   * **Created** The rule is applied when a user attempts to create an object.
+   * **Edited** The rule is applied when a user attempts to edit an object.
+   * **Deleted** The rule is applied when a user attempts to delete an object.
 
-1. (Optional) Enter a **Description** of the business rule and what happens when it is applied.
 1. Build the formula in the formula editor, in the center of the business rule dialog.
 
    The format of a business rule is "IF the defined condition is met, then the user is prevented from the action on the object, and the message is displayed."
@@ -166,13 +249,13 @@ IF(
    * The "object" is the object type you selected when creating the business rule. It is displayed in the heading of the dialog.
    * The "action" is the trigger you selected for the rule: create, edit, or delete the object.
    * Because the object and the action are already defined, you do not include them in the formula.
-   * The custom error message is displayed to the user when they trigger the business rule. It should provide clear instructions on what went wrong and how to correct the issue.
+   * The custom error message is included only if the rule is for validation, and is displayed to the user when they trigger the business rule. It should provide clear instructions on what went wrong and how to correct the issue.
 
      You can include a static URL in the error message, to link to documentation or other helpful pages to guide the user on how to modify their action within the constraint of the rule.
 
      In this example, "Learn more" will link to the URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` The URL must be in parentheses, but link text in brackets is not required. You can display the full URL and it will be a clickable link.
 
-   ![Add business rule dialog](assets/add-business-rule-dialog-no-ai-button.png)
+   ![Add business rule dialog](assets/add-business-rule-new.png)
 
    This example is a business rule for projects. If the current month is November, then users are not permitted to create new projects, and the message explains this.
    
@@ -184,11 +267,36 @@ IF(
 
     The list of available fields is limited to fields related to the object type for the business rule.
 
+1. (Conditional) If you are validating the action, if your organization is on the Workfront Ultimate package, in the Then area, select **Validate the object**.
+
+   For other packages, this option is pre-selected.
+
+1. (Conditional) To automate another action,, select the action. 
+
+   For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.
+
+   >[!NOTE]
+   >
+   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+
 1. Click **Save** when you are finished building the business rule.
 
 >[!NOTE]
 >
 >After you add a business rule, you should test it by adding, editing, or deleting the associated object to make sure the rule is applied properly.
+
+### Business rule automation options
+
+   >[!NOTE]
+   >
+   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+
+You can set these actions to automate when the business rule is triggered. Available actions depend on the selected object type.
+
+|Automation|Further configuration|
+|---|---|
+|Attach a custom form|Select the custom form that you want to add|
+|Share the object|Select the people, roles, groups, companies, or access levels that you want to share the object with.|
 
 ## Activate a business rule
 

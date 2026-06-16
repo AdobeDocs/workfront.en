@@ -6,6 +6,23 @@ description: You can share a Canvas dashboard with other Adobe Workfront users s
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/Aujcry4UfvcMotGau6-o2cjiH1wdG5V4-ytBzgvu9aI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Share a Canvas Dashboard
 
@@ -75,6 +92,8 @@ For more detail about the information in this table, see [Access requirements in
 * When sharing a dashboard, the resources it's shared with will inherit permissions to the reports displayed on the dashboard.
 
 * When a dashboard is distributed through a layout template, an automatic View permission for the dashboard (and its reports) is granted to all resources assigned to the layout template.
+
+* When a report on a dashboard is configured with the Run as User option, all viewers see data based on the selected user's permissions rather than their own. This means viewers may see data they don't normally have access to. If some reports on a dashboard use Run as User and others don't, viewers may see inconsistent data across reports.
 
 
 ## Share a Canvas Dashboard

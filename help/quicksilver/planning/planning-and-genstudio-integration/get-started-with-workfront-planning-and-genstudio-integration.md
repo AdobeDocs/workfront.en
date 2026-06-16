@@ -6,8 +6,28 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/Dzo6SD-mf-89koGS55sYT8gSk7z1U7aEyrg1MzSEHGY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
-<!--Better metadata, at publishing:
+<!--
+Better metadata, at publishing:
 ---
 title: Get Started with the Workfront Planning and GenStudio for Performance Marketing Integration
 description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products. Learn some of the basics about how you can streamline your workflows using this integration.
@@ -24,9 +44,11 @@ recommendations: noDisplay, noCatalog
 
 # Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Organizations using both Adobe Workfront Planning and Adobe GenStudio for Performance Marketing often define marketing concepts like Campaigns, Products, Activations, and Personas in more detail than what GenStudio supports by default. 
 
@@ -41,11 +63,12 @@ With the integration between Workfront Planning and GenStudio for Performance Ma
 <!--check this list and ensure it's accurate and add/ remove some of the benefits-->
 
 * View the GenStudio workspace in Workfront Planning. 
-* Modify your campaigns, products, personas, and activations in GenStudio for Performance Marketing and have real-time updates of the same information in Workfront Planning. 
+* Modify your campaigns, products, personas, regions, and activations in GenStudio for Performance Marketing and have real-time updates of the same information in Workfront Planning. 
 * Modify your campaigns, products, personas, and activations in Workfront Planning and have real-time updates of the same information in GenStudio for Performance Marketing. 
 * Avoid duplicate data entry.
 * Maintain alignment across planning and activation efforts. 
 * Connect GenStudio Brands and their information to Workfront Planning records. 
+* Synchronize GenStudio information for campaigns, products, personas, regions, and channels to AEM Assets and Content Fragments when they connect to these record types in the GenStudio workspace in Planning. 
 
 ## Integration requirements
 
@@ -57,9 +80,12 @@ Your organization must meet the following requirements for the integration betwe
     
 <!--No longer the case: * Your organization must have only one Workfront instance. GenStudio will not be available in Workfront Planning when your company has multiple Workfront instances. -->
 
+<!--
+No longer needed to specify:
 * Your Workfront instance is part of the Adobe Unified Experience, including using the Identity Management System (IMS). 
 
     For information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+-->
 
 * Users using both Workfront Planning and GenStudio for Performance Marketing must belong to only one Workfront instance within the IMS organization.
 
@@ -126,7 +152,8 @@ For information about Adobe Workfront Planning access, see [Adobe Workfront Plan
 
 For more information about Adobe GenStudio for Performance Marketing, see [Adobe GenStudio for Performance Marketing User Guide](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -176,7 +203,8 @@ For more information about Adobe GenStudio for Performance Marketing, see [Adobe
    </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Overview of the Workfront Planning and GenStudio for Performance Marketing integration capabilities
 
@@ -209,11 +237,13 @@ Depending on how many Workfront instances your organization has, you automatical
    </tbody> 
 </table> 
 
-<!--Old for the second row in the table:
+<!--
+Old for the second row in the table:
 
 <p>The GenStudio workspace is visible from all Workfront instances</p>
 <p>All users with access to GenStudio for Performance Marketing and Workfront Planning have Contribute permissions on the GenStudio in Planning by default</p> 
-<p>Workfront administrators cannot grant Manage permissions to the GenStudio workspace to anyone</p>-->
+<p>Workfront administrators cannot grant Manage permissions to the GenStudio workspace to anyone</p>
+-->
 
 For information about Workfront Planning permissions, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
 
@@ -356,20 +386,29 @@ Consider the following about GenStudio record type fields:
 
 ### Record connections in the GenStudio workspace
 
-You can create connections between record types in GenStudio workspaces where you have Manage permissions. 
+You can create connections between record types in the  GenStudio workspace when you have Manage permissions to the workspace. 
 
 You can make the following connections between GenStudio record types and other record or object types in Workfront Planning:
 
 * Two GenStudio record types
 * A GenStudio record type and a Planning record type from the same workspace
 * A GenStudio record type and a Planning record type from another workspace, if the record types are configured to connect from another workspace. 
-* A GenStudio record type and a Workfront object type (projects, portfolios, programs, companies, groups)
-* A GenStudio record type and an AEM Assets object type.
-* GenStudio record types and GenStudio Brands. The Brands connection is added to the Products and Personas record types by default. 
+* A GenStudio record type and a Workfront object type (projects, portfolios, programs, companies, groups).
+* A GenStudio record type and an AEM object type (Assets or Content Fragments). You must have a license for Adobe Experience Manager to access AEM objects, in addition to a license for Workfront Planning and a license for Adobe GenStudio for Performance Marketing. 
+* A GenStudio record type and GenStudio Brands. The Brands connection is added to the Products and Personas record types by default. 
+
+### Metadata synchronization between GenStudio workspace records and AEM objects
+
+When AEM object types (assets and content fragments) are connected to GenStudio record types from the GenStudio workspace, the following information synchronizes between GenStudio records and AEM objects:
+
+* AEM assets and content fragments information displays in the GenStudio workspace in lookup fields added when the record types are connected. 
+* GenStudio record information displays on the AEM asset in the Campaign tab or on the content fragment in the Metadata tab in AEM. 
+
+    For information, see [Manage the GenStudio workspace in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 
 ### Request forms and automations in the GenStudio record type
 
-* You can add request forms to a GenStudio record type in Workfront Planning. 
+* You can add request forms to a GenStudio record type in Workfront Planning. You can add Planning connection fields on a request form associated with a GenStudio workspace record type.
 
     For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 * You can configure automations for a GenStudio record type in Workfront Planning.
@@ -380,19 +419,23 @@ You can make the following connections between GenStudio record types and other 
 
 When your organization has an integration between Workfront Planning and Adobe GenStudio, you can connect Planning record types to GenStudio Brands from any record type in any workspace in Workfront Planning. 
 
-Brands are connected by default to the following GenStudio workspace record types:
+Consider the following: 
 
-* Products
-* Personas
+* Brands are connected by default to the following GenStudio workspace record types:
 
-Brands are available for manually connecting to all other GenStudio workspace record types, or record types from all other workspaces you have permissions to manage. 
+    * Products
+    * Personas
+
+* Brands are available for manually connecting to all other GenStudio workspace record types, or record types from all other workspaces that you have permissions to manage. 
+
+* After connecting Brands with a Planning or GenStudio record type, you can add the Brands connection field to a request form associated with the record type. 
 
 ## The Preview environment
 
 * The GenStudio workspace accessible from your Production environment also displays in your Preview environment of the same Workfront instance. 
 * You can perform all the activities described in this article on the GenStudio workspace in Workfront Planning in your Preview environment, but these changes will not be visible from GenStudio.
 
-    Only changes you make to items in the Production environment sync between Workfront Planning and GenStudio. 
+    Only changes you make to items in the Production environment synchronize between Workfront Planning and GenStudio. 
     
     GenStudio does not have a Preview environment. 
 

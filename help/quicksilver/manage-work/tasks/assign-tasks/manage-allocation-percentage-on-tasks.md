@@ -6,18 +6,44 @@ description: Allocation percentage represents the amount of time an assigned res
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/tpBEkOgTsJSJ-dk-gKZ6uLyCk4j4vP4nMIQ5-ciHMAI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Manage user or role allocation percentage on tasks
 
 <!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 
 Allocation percentage represents the amount of time an assigned resource is planned to work on a task in a day. It is the percent of a work day (according to the user or project schedule) at which a resource is allocated throughout the duration of the task.
@@ -53,9 +79,13 @@ You can modify the allocation percentage when you make advanced assignments on a
   <tr> 
    <td>Object permissions</td>
    <td><p>Contribute or higher permissions to the task</p>
-   <p>Edit permissions to update allocation percentage in the Edit Task box when editing tasks using the old experience.</p>
+   <p>Edit permissions to update allocation percentage in the Edit Task box.</p>
+   <!--
+   Not true anymore: 
    <p><b>NOTE</b></p>
-   <p> You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a>.</p></td>
+   <p> You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a>.</p>
+   -->
+   </td>
   </tr>
  </tbody>
 </table>
@@ -63,12 +93,6 @@ You can modify the allocation percentage when you make advanced assignments on a
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--
-Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
-
-<p>Edit permissions to update allocation percentage in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
--->
 
 ## Considerations about modifying percent allocations for tasks
 
@@ -101,6 +125,10 @@ Take this piece out of the table above when we remove the new experience/ after 
 
    You cannot modify the allocation percentage for a team assigned to a task.
 
+   You may see one of these screens depending on your organization's Workfront or Workflow package.
+
    ![Modify allocation percentage](assets/advanced-assignments-allocation-percentage.png)
+
+   ![Modify allocation percentage](assets/new-aa-allocation-by-percentage.png)
 
 1. Click **Save**.

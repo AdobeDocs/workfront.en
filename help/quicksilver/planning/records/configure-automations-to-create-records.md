@@ -6,12 +6,31 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/GgrkobfJEMRxHMsZF8mXAuH2xEoe-i4GTArk3S8O6fE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure Adobe Workfront Planning automations
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 
@@ -53,6 +72,7 @@ For information about how you create records or objects using an existing automa
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td><p>Standard</p>
+   <p>System Administrator to have access to configure automations based on Field value change</p>
    </td> 
   </tr> 
   <tr> 
@@ -68,7 +88,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -125,7 +146,8 @@ For more information about Workfront access requirements, see [Access requiremen
    </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Configure an automation in Workfront Planning
 
@@ -153,37 +175,33 @@ You must configure an automation for a record type in Workfront Planning before 
    * **Trigger**: Select an action that will trigger the automation:
 
       * Button click 
-      * <span class="preview">Field value change</span>
+      * Field value change
 
-   1. (Conditional) If you selected **Button click**, go to step 9 below that describes the **Actions** area. <!--ensure this number stays accurate-->
+1. (Conditional) If you selected **Button click**, go to step 9 below that describes the **Actions** area. <!--ensure this number stays accurate-->
 
-   1. <span class="preview">(Conditional) If you selected **Field value change**, do the following in the **Settings** section: </span>
+1. (Conditional) If you selected **Field value change**, do the following in the **Settings** section: 
 
-      1. <span class="preview">Choose a field from the drop-down menu. These are fields associated with the record type you selected.</span> 
-      1. <span class="preview">Continue defining conditions for the selected field.</span>
-      1. <span class="preview">Click **Add condition** to add up to 5 fields and define their condition.</span>
+   1. Choose a field from the drop-down menu. These are fields associated with the record type you selected.
+   1. Continue defining conditions for the selected field.
+   1. Click **Add condition** to add up to 5 fields and define their condition.
 
-         <span class="preview">You can add any of the following types of fields:</span> 
+      You can add any of the following types of fields:
 
-         <div class="preview">
+      * Single-select
+      * Multi-select
+      * Single-line text
+      * Paragraph
+      * Number
+      * Checkbox
+      * Date
 
-         * Single-select
-         * Multi-select
-         * Single-line text
-         * Paragraph
-         * Number
-         * Checkbox
-         * Date
-         
-         </div>
+      Workfront Planning will create objects automatically when the conditions are met. 
 
-         <span class="preview">Workfront Planning will create objects automatically when the conditions are met. </span>
+      ![Field value change trigger selected](assets/field-value-change-trigger-selected.png)
 
-         ![Field value change trigger selected](assets/field-value-change-trigger-selected.png)
-
-         >[!TIP]
-         >
-         ><span class="preview">The modifier in each condition changes with the type of fields you select.</span>
+      >[!TIP]
+      >
+      >The modifier in each condition changes with the type of fields you select.
 
 1. Update the following fields in the **Actions** section: <!--submitted bugs for these fields - see if they need changing here-->
    * **Actions**: Select the action that you want Workfront to perform when triggering the automation. This is a required field. 
@@ -207,7 +225,7 @@ You must configure an automation for a record type in Workfront Planning before 
       * **Connected field where the project is created**: This is the connected field where the new project will display. This is a required field. 
       * **Project template**: Select a project template that Workfront will use to create the project.  
    
-   * Create multiple projects:
+   * **Create multiple projects**:
       * **Connected field where the project is created**: This is the connected field where the new project will display. This is a required field. 
       * **Field whose choices will create the records**: Choose a multi- or single-select field from the selected record type. Workfront creates a project for each field choice that is currently selected on the record from where you trigger the automation. 
 
@@ -290,25 +308,28 @@ You must configure an automation for a record type in Workfront Planning before 
 
    The list of available automations for the selected record type opens.
 
-1. (Optional) To edit, disable, or delete an automation, do one of the following:
+1. (Optional) To view, disable, or delete an automation, from a list of automations, click the **More** menu ![More menu](assets/more-menu.png) to the right of an automation's name, then do one of the following: 
 
-   1. From the list of automations, hover over the name of a saved automation, then click the **More** menu ![More menu](assets/more-menu.png).
+   * For a field value change automation, click **View** to view the automation's settings.
 
-   1. Click **Edit** to update the following information:
+      >[!TIP]
+      >
+      >You cannot edit an automation's settings after they have been saved, when the automation is triggered by a field value change.
+
+   * For a button-click automation, click **Edit** to update the following information:
+
+      * The automation name, by clicking the **More** menu ![More menu](assets/more-menu.png) to the right of the automation name, then **Edit**.
+      * Any field in the automation, except for the **Actions** field.
+
+      >[!TIP]
+      >
+      >You cannot change the action you originally selected for an automation.
    
-      * Click the **More** menu ![More menu](assets/more-menu.png) to the right of the automation name, then click **Edit** to change the name of the automation. 
-      * Any fields in the automation, except for the **Actions** field.
-
-         >[!TIP]
-         >
-         >You cannot change the action you originally selected for an automation. 
-   
-
-   1. Click **Disable** to remove the automation from the record's table view and prevent users from using it to create records or objects. 
+   * Click **Disable** to remove the automation from the record's table view and prevent users from using it to create records or objects. 
 
       Records that have been created using a disabled automation remain connected to the record originally selected.
    
       To make it available again, click the **More** menu ![More menu](assets/more-menu.png) again, then click **Activate**.
-   1. Click **Delete** to delete the automation. A deleted automation cannot be recovered. 
+   * Click **Delete** to delete the automation. A deleted automation cannot be recovered. 
    
       Records that have been created using a deleted automation remain connected to the record originally selected.

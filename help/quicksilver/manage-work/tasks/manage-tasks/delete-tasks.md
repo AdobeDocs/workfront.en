@@ -6,6 +6,32 @@ description: You can delete tasks that might be duplicates, or have been created
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/6O1uHSRp9a7NndhRMlRRCdozG56yiVBqhactYgL0aHg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Delete tasks
 
@@ -46,7 +72,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 +++
 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -69,7 +96,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> <p>When you create a task you automatically receive Manage permissions to the task</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Understand the process of deleting tasks
 
@@ -100,6 +128,8 @@ Consider the following:
 
    You cannot delete a task that has a document which has been checked out attached to it. For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
 
+   You cannot restore individual documents that were deleted when the task was deleted from the Documents tab in the Recycle Bin. You can only restore the documents deleted when the task was deleted when you restore the task.
+
    * Issues
    * Subtasks
    * Notes
@@ -122,9 +152,9 @@ Consider the following:
 * When you delete a child task and you move its parent to another project, then restore the deleted child task, the task is added back on the original project as a main task. 
 
 <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   
   (NOTE: this stays NWE; not possible in classic;)
-  </MadCap:conditionalText>
+   
   -->
 
 ## Delete tasks
@@ -166,7 +196,7 @@ Consider the following:
 {{step1-to-projects}}
 
 1. Click the project name that contains the task you want to delete.
-1. Click **Tasks** in he left panel. 
+1. Click **Tasks** in the left panel. 
 1. Click the name of the task you want to delete.
 1. Click the **More** icon ![More menu](assets/qs-more-menu.png)in the upper-right corner.
 

@@ -10,14 +10,38 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
+TQID: https://experienceleague.adobe.com/nh6fCYhtqUcPipkWTi6Vw6cUwwNH2ONGN45VUI0YzuM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Functionality available for each object type
 
-{{highlighted-preview}}
-
 >[!NOTE]
 >
->The information in this article refers to the current access levels. For information about the legacy access levels, see [Access levels overview](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). 
+>The information in this article refers to the current access levels. For information about the legacy access levels, see [Access levels overview](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 The following tables lists the functionality available for each object type in the various access levels.
 
@@ -42,10 +66,10 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Update custom fields         | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Add an approval process      | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Approve a project            | ✓        | ✓      | &nbsp;      | &nbsp;        |
-| Add document                 | ✓        | ✓      | ✓      | &nbsp;        |
-| Add issue                    | ✓        | ✓      | ✓      | &nbsp;        |
+| Add document                 | ✓        | ✓      | ✓           | &nbsp;        |
+| Add issue                    | ✓        | ✓      | ✓           | &nbsp;        |
 | Add tasks                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Give updates/comments        | ✓        | ✓      | ✓      | &nbsp;        |
+| Give updates/comments        | ✓        | ✓      | ✓           | &nbsp;        |
 | Change status                | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Log hours                    | ✓        | ✓      | &nbsp;      | &nbsp;        |
 | Edit assignments             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
@@ -53,6 +77,7 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Manage risks                 | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Manage finance               | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Add/edit expenses            | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
+| Attach a rate card           | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Attach templates             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Save as a template           | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Add/edit a business case     | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
@@ -250,20 +275,82 @@ Users with a Standard license can have full access to reports. All other Access 
 
 ## Users
 
+These options are available in the Preview environment:
+
 | Action                                                                                             | Standard | Light  | Contributor | External user** |
 |----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
 | Create                                                                                             | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
 | Delete                                                                                             | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
+| Edit Billing Rates                                                                                 | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
+| Edit Contact Info                                                                                  | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
+| Edit Cost Rates                                                                                    | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
+| Edit General Finance                                                                               | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
 | Edit, delete, deactivate, log in as, or reset the password for any user                            | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
 | Edit, delete, deactivate, log in as, or reset the password for any user in a group they administer | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
 | View users                                                                                         | ✓        | ✓      | ✓           | &nbsp;          |
 | View contact info                                                                                  | ✓        | ✓      | ✓           | &nbsp;          |
+| View Billing Rates                                                                                 | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
+| View Cost Rates                                                                                    | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
+| View General Finance                                                                               | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
 
 {style="table-layout:auto"}
 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality.
 
 &#42;&#42;External users can only search for other users.
+
+## Job Roles
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
+| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Billing Rates | ✓*        | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Billing Rates | ✓*        | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Cost Rates    | ✓*        | &nbsp;  | &nbsp;        | &nbsp;        |
+| View General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+<!--
+
+## Companies
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
+| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+## Groups
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| Share             | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+-->
 
 ## Teams
 
@@ -302,14 +389,14 @@ Only users with a Standard license can have full access to financial data.
 
 | Action                                                       | Standard | Light  | Contributor | External user |
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
-| Edit role billing and cost rates                             | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Edit user billing and cost rates                             | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| View role billing and cost rates                             | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| View user billing and cost rates                             | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
+| Edit Billing Rates                                           | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
+| Edit Cost Rates                                              | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
+| Edit General Finance                                         | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
+| View Billing Rates                                           | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
+| View Cost Rates                                              | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
+| View General Finance                                         | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
 | Manage billing records                                       | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Manage expenses                                              | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| View financial data                                          | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
-| <span class="preview">Manage rate cards</span>                                            | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | View information by Cost in the Resource Planning tools      | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Budget Resources in the Resource Planning tools&#42;&#42;    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | View resource allocation in the Resource Planning tools&#42; | ✓        | ✓      | &nbsp;      | &nbsp;        |
@@ -339,7 +426,7 @@ Only users with a Standard license can have full access to resource management. 
 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. 
 
-&#42;&#42;Requires additional access to Financial Data and permissions to project finances. If you grant Resource Management access to a Planner user who doesn't have access to Financial Data, the user can still see the hourly allocations in the Resource Planner, but can't switch to Cost view or view the Business Case. For more information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) and [Share financial permissions on an object](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+&#42;&#42;Requires additional access to Financial Data and permissions to project finances. If you grant Resource Management access to a Standard user who doesn't have access to Financial Data, the user can still see the hourly allocations in the Resource Planner, but can't switch to Cost view or view the Business Case. For more information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) and [Share financial permissions on an object](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
 &#42;&#42;&#42;Requires permission to Contribute to the object, with Make Assignments enabled under Advanced Settings. For information, see the section [Understand inherited permissions and the hierarchy of objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) in the article [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
@@ -361,6 +448,22 @@ Only users with a Standard license can have full access to resource management. 
 >Users can view a plan that another user created only if a link to the plan is shared with them.
 
 &#42; In order for users to view financial data in a plan or initiative, they need access to Financial Data. For more information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+
+## Rate Cards
+
+Only users with a Standard license can have full access to rate cards.
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| View              | ✓          | ✓       | &nbsp;        | &nbsp;        |
+| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
+| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Share             | ✓*         | ✓*      | &nbsp;        | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
 
 ## Workfront Goals area
 

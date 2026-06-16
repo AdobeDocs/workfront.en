@@ -8,14 +8,37 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
+TQID: https://experienceleague.adobe.com/g9H5AYcIdsVccGIU9U97QPa37J9Y3pXziZRQR7pvjpQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Change your Adobe Workfront domain
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, it is not possible to change your Workfront domain.
+>The procedure described on this page applied only to organizations that have not yet been onboarded to the Admin Console. Because all organizations have now been onboarded to the Adobe Admin Console, **it is not possible to change your Workfront domain**.
 >
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>
+>This article will be removed in the near future.
 
 As an Adobe Workfront administrator and an authorized Workfront Support contact, you can request help from the Workfront Support team to change your organization's Workfront domain.
 
@@ -54,6 +77,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 You can also call Workfront Support to get help changing your domain.
 
+<!--
+
 ## Update the new domain if you are an SSO customer
 
 If your company utilizes SSO, the following steps are required after you have your Workfront domain changed.
@@ -76,3 +101,6 @@ If your company utilizes SSO, the following steps are required after you have yo
 
 1. Provide the downloaded metadata file to your Identity Provider so that they can update it on their end.
 1. Make sure the domain is updated for all Workfront integrations used by your organization.
+
+
+-->

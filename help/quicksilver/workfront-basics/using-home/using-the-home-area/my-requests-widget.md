@@ -6,8 +6,31 @@ description: You can submit requests in the My Requests widget. You can also cus
 author: Alina, Courtney
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
+last-update: 2026-04-01T18:23:03.000Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+TQID: https://experienceleague.adobe.com/CmlT3NwdCWm-UiIiN5mxGgEVFVLjtqOY97ATuTgaN4g
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Use the My Requests widget
+
+<!--
+remove Preview and Production references at Production release April 15, 2026
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 >[!IMPORTANT]
 >
@@ -64,7 +87,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 You can create a request directly from the My Requests widget.
 
-For instructions, see the section [Create a request](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md/#create-a-request) in the article [Create work items and projects from the Home area](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+For instructions, see the section [Create a request](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) in the article [Create work items and projects from the Home area](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Copy a request
 
@@ -72,15 +95,31 @@ You can copy a request in the My Requests widget, edit it, and submit it as a ne
 
 For instructions, see [Copy and submit requests](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
-## Filter requests
+## Manage information in the requests list in the My Requests widget
 
+<!--
+This is similar to what we document in Enhanced lists, so we will link to that to avoid documentation duplication:
 The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR operators.
 
 To configure the filter in the My Requests widget:
+-->
 
-1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/lines-main-menu.png) in the upper-left corner, then click **[!UICONTROL Home]**.
 1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**, then click it to add it to **Home**. 
-1. In the **My Requests** widget, click **Filter**.
+1. (Optional) To manage the way the information displays in the requests list, create or update the following view elements for the list: 
+
+   * View
+   * Filter
+   * Columns
+   * Grouping
+   * Format cells
+   * Row height
+   
+   For more information on updating view elements in the requests list, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+
+<!--
+ Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
 1. Select the field that you want to filter by. Available options are:
 
    * Workspace
@@ -95,15 +134,19 @@ To configure the filter in the My Requests widget:
 1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
 1. (Optional) To add another filter condition, click **Add condition** and repeat steps 4-6.
 1. (Optional and conditional) If you have multiple conditions, switch the And or Or value by clicking **And** or **Or** to the left of the condition.
-
 The filter is saved automatically.
+-->
 
 >[!TIP]
 >
 >If your organization has purchased Workfront Planning in addition to Adobe Workfront, the My Requests widget will include both Workfront and Workfront Planning requests.
 > 
 >* To filter for only Workfront requests, set the filter to **Object type** > **Has any of** > **Issues**.
->* To filter for only Workfront Planning requests, et the filter to **Object type** > **Has none of** > **Issues**.
+>* To filter for only Workfront Planning requests, set the filter to **Object type** > **Has none of** > **Issues**.
+
+<!--
+
+Use enhanced lists and other requests articles describe all of these:
 
 ## Adjust or add columns
 
@@ -132,6 +175,10 @@ To adjust the columns on the My Requests widget:
 
 Column preferences are saved automatically.
 
+-->
+
+<!--
+
 ## Create a view
 
 You can create views in the My Requests widget to change the way the information displays in the request list. 
@@ -145,11 +192,13 @@ Consider the following when working with views in the My Requests widget:
    * Widget Unified Requests Default View
 * Creating and editing a view in the My Requests widget is similar to enhanced lists. For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). 
 
+-->
+
 ## Search requests
 
 To search for specific requests in the My Requests widget:
 
-1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/lines-main-menu.png) in the upper-left corner, then click **[!UICONTROL Home]**.
 1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**, then click it to add it to **Home**.  
 1. In the search bar near the upper-right of the My Requests widget, enter the term that you want to search for.
 
@@ -163,12 +212,22 @@ You can find objects created by a request in the My Requests widget.
 
 >[!NOTE]
 >
->Links to created objects are available in the new requesting experience only for Planning requests, in cases where the request itself created an object. If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience.
+>The following objects have links from the requests list in the My Requests widget, when you enable the new requests experience in the Requests area: 
+>
+>* Planning and Workfront requests in the Subject field. 
+>* Planning records created from Planning requests in the Object created field.
+>* Workfront tasks and issues converted from Workfront requests in the Object created field.
 
-1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/lines-main-menu.png) in the upper-left corner, then click **[!UICONTROL Home]**.
 1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**, then click it to add it to **Home**. 
 1. Locate the request that created the object. 
 1. Click the object name in the **Created object** column for that request. 
 
    The object's page opens.
+
+   >[!TIP]
+   >
+   >Workfront tasks and projects converted from issues as well as Planning records created from Planning requests have a link in the **Created object** field.
+
+   
 

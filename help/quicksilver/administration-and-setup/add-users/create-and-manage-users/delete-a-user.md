@@ -8,14 +8,35 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
+TQID: https://experienceleague.adobe.com/T5iSq2SOJEQrlvLNiQ5l69OncRMYvEs4uf6QosY9vq8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Delete users
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Business Platform. If you have been onboarded to the Adobe Business Platform, you must delete users in the Adobe Admin Console.
+>The procedure described on this page applied only to organizations that are not yet onboarded to the Adobe Business Platform. If you have been onboarded to the Adobe Business Platform, you must delete users in the Adobe Admin Console.
 >
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>**Because all organizations have now been onboarded to the Adobe Admin Console, the information on this page will be removed in the near future.**
+>
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 When a user leaves your organization, you can remove that user from Adobe Workfront.
 
@@ -29,7 +50,7 @@ When a user leaves your organization, you can remove that user from Adobe Workfr
 >
 >  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
->  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 -->
 
@@ -101,12 +122,15 @@ Deleting a user causes the following things to happen:
    * Tasks, issues, projects, portfolio
    * Dashboards
 
-     <!--
+   <!--
+
      >[!NOTE]
      >
      >You also lose access to custom sections that contained dashboards associated to the deleted user.  
+     >
      >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
-     -->
+
+   -->
 
    * Updates
    * Hours

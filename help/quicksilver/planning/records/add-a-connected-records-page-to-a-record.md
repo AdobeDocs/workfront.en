@@ -6,12 +6,36 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/Sch9ArKRfEiy9KYoo-wny1j4-WyWcpHW86CuWP-qEV0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Add a Connected records page to a record
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 You can view information from connected records or objects by adding a tab for a Connected records page to a record in Adobe Workfront Planning. This adds the connected records in a table view to the tab.
 
@@ -67,7 +91,7 @@ Consider the following when adding a Connected records page to a record:
    <p> Additional products</p> </td> 
    <td> 
    <p> In addition to Adobe Workfront, you must have the following, if you want to add a connected record page for objects from the following applications:</p>
-   <ul><li><p>An Adobe Experience Manager Assets license and an integration between AEM Assets and Workfront to connect AEM assets with Planning record types.</p>
+   <ul><li><p>An Adobe Experience Manager license and an integration between Adobe Experience Manager and Workfront to connect AEM objects with Planning record types.</p>
    <p>For information, see <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p></li>
    <li><p> An Adobe GenStudio for Performance Marketing license to connect record types with GenStudio Brands</p>
    <p>For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Get started with Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
@@ -82,7 +106,7 @@ Consider the following when adding a Connected records page to a record:
   <tr>
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
-   <p>Contribute or higher permissions to a workspace and record type </p>  
+   <p>Contribute or higher permissions to a workspace, record type, and <span class="preview">manage permissions to a record</span> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> 
   </td>
   </tr>   
@@ -293,7 +317,15 @@ When you create a connected records page for connected Workfront projects, do th
 
 1. Go to a record type page and click the name of a record. This opens the record's preview page.
 1. Click the tab for a connected records page that displays Workfront projects.
+   
+   ![Projects connected records page](assets/projects-connected-records-page-table.png)
+
    The projects connected to the record you selected display in the list view. 
+
+   For information about managing or editing objects in the list view, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md). 
+
+<!-- 
+removed this part, so we won't have to have duplicate information to keep up with for the list view in Planning: 
 1. Click **Connect records** in the upper-right corner of the connected record page to connect existing projects.
 
    For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
@@ -325,8 +357,10 @@ When you create a connected records page for connected Workfront projects, do th
       * The **+** icon in the upper-right corner of the table view to add existing fields to the list. Fields must exist before you can add them. 
 
    For more information about managing objects in a list view, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+-->
 
-<!-- this is repetitive from an earlier section above: 
+<!--
+ this is repetitive from an earlier section above: 
 
 ## Manage multiple views from the connected records page
 
@@ -355,13 +389,16 @@ To manage multiple views from the connected records page:
    * **Export** 
    * **Delete**
 
-   <!--not possible right now: * **Duplicate**. For more information, see [Duplicate record views](/help/quicksilver/planning/views/duplicate-record-views.md).
+   <!--
+   not possible right now: * **Duplicate**. For more information, see [Duplicate record views](/help/quicksilver/planning/views/duplicate-record-views.md).
       >[!TIP]
       >
-      >Duplicating a view from Connected records pages makes it available in all other areas of Workfornt planning, when viewing the same record types. -->
+      >Duplicating a view from Connected records pages makes it available in all other areas of Workfornt planning, when viewing the same record types.
+      -->
 
 
-<!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
+<!--
+No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
          * Portfolios
          * Programs
          * Groups

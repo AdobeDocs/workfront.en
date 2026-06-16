@@ -5,6 +5,30 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/ZiRTszrV8GYwr0GIM523WXP7Qk6zfRRsMjVLJ3PZRZg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Replacement of Flash-based tools in Adobe Workfront
 
@@ -165,11 +189,13 @@ Except where specified otherwise, all Legacy features have been replaced by new 
   </tr> 
   <tr> 
    <td> <p><strong>Resource Estimates</strong> </p> <p>The Resource Estimates tab under each Legacy Resource Pool served the same purpose as the Resource Budget Manager, only in the context of one Legacy Resource Pool. This tool presented the same limitations as the Resource Budget Manager and the Legacy Resource Pools: inaccurate data and manual input of availability. </p> </td> 
-   <td> <p>With the automatic calculation of user availability, Resource Estimates have become obsolete and have been removed.</p> <p>The tool is eliminated on the Legacy Resource Pools and the Legacy Resource Estimates in the Business Case of a project. <!--
+   <td> <p>With the automatic calculation of user availability, Resource Estimates have become obsolete and have been removed.</p> <p>The tool is eliminated on the Legacy Resource Pools and the Legacy Resource Estimates in the Business Case of a project.
+   <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The Legacy Resource Estimates area on the Business Case of the project remains there in View-only mode at this time. 
       </MadCap:conditionalText>
-     --></p> </td> 
+     -->
+     </p> </td>
   </tr> 
   <tr> 
    <td> <p><strong>Capacity Planner</strong> </p> <p>The Capacity Planner was a Workfront tool for budgeting resources and prioritizing projects inside a Legacy Resource Pool, according to the availability of the resources. Given the incompleteness of data from Resource Estimates and the Resource Budget Manager which provided the information for the Capacity Planner, project prioritization had to be double-checked against the availability of the users.</p> <p>Using a single Legacy Resource Pool that included all the job roles in the system was the most common scenario, which led to performance problems with the Capacity Planner trying to load a large number of projects.</p> </td> 
@@ -206,7 +232,8 @@ Except where specified otherwise, all Legacy features have been replaced by new 
          <li>Manage users' allocations to work items. </li>
          <li>Share the Workload Balancer with other users who may not have visibility into the People area. Use the Shareable link functionality to share a link to the Workload Balancer and embed it in custom dashboards. Any users with access to View users are able to view these dashboards when you share them.</li>
         </ul><p>The Workload Balancer is available in the People area. </p><p>For information about the Workload Balancer, see <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Workload Balancer overview</a>.</p></li> 
-      </ul> <!--
+      </ul>
+      <!--
        <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
         <li><strong>The Resource Scheduling Areas</strong><strong>:</strong> When assigning your resources to the actual work that must be completed, use the Resource Scheduling areas in the People or Team areas, or at the project level. These areas allow you to visualize and manage the users' workload by day and rectify any problems from one view using the following actions: 
          <ul>
@@ -222,7 +249,8 @@ Except where specified otherwise, all Legacy features have been replaced by new 
           <li>User - the Allocation tab is eliminated as the same information can be accessed in the User View of the Resource Planner.</li>
          </ul></li> 
        </ul>
-      --> </li> 
+      -->
+      </li>
     </ul> </td> 
   </tr> 
   <tr> 

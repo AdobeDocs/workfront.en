@@ -1,10 +1,23 @@
 ---
-title: Manage Users in Adobe Workfront Planning
-description: This article describes how you can manage user profiles and teams in Adobe Workfront Planning. 
-hidefromtoc: yes
-hide: yes
+title: Get Started with Adobe Planning Standalone
+description: This article describes how you can benefit from using the standalone version of Adobe Workfront Planning.
+hide: true
+exl-id: 99ebed04-0440-4990-a122-4d29f73c2201
+last-update: 2026-04-01T18:23:03.000Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+TQID: https://experienceleague.adobe.com/X5k6232gHrW7ZnDuo0dKMDnuA98sGgVab6jwKpFizEk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
-<!--Update metadata with this at release:
+<!--
+Update metadata with this at release:
 
 ---
 title: Get Started with Planning Standalone
@@ -16,28 +29,18 @@ recommendations: noDisplay, noCatalog
 ---
 -->
 
-# Manage users in Adobe Workfront Planning
+# Get started with Adobe Planning Standalone
 
-<!--I think we will need to delete this folder and just use the Planning existing folder with all capabilities to speak about Planning; then, we'll speak about WF proper as a third party application (like GenS and AEM etc)>
+<!--
+I think we will need to delete this folder and just use the Planning existing folder with all capabilities to speak about Planning; then, we'll speak about WF proper as a third party application (like GenS and AEM etc)>
 
 This article describes how you can benefit from using the standalone version of Adobe Workfront Planning.
 
 ## How your company can acquire an Adobe Workfront Standalone Planning license
 
-Whether you are an Adobe Workfront customer or not, you can speak with your Adobe account representation about a Workfront Planning Standalone license. <!--do people HAVE to be WF or Adobe customers at all, or can anyone buy this?-->
+Whether you are an Adobe Workfront customer or not, you can speak with your Adobe account representation about a Workfront Planning Standalone license. -do people HAVE to be WF or Adobe customers at all, or can anyone buy this?
+-->
 
-This article describes how you can manage users, their profiles and teams in Adobe Workfront Planning. 
-
->[!IMPORTANT]
->
->If your organization has an Adobe Workfront or Workflow package, in addition to an Adobe Workfront Planning package, your Workfront Administrator manages Planning users when they manage users, teams, groups, and companies in Workfront. For information, see the following articles:
->
->
->* [User management: article index](/help/quicksilver/administration-and-setup/add-users/add-users.md)
->* [Manage groups](/help/quicksilver/administration-and-setup/manage-groups/manage-groups.md)
->
-
-<!--
 ## Integrated vs Standalone Workfront Planning versions
 
 With the integrated version of Workfront Planning, you can:
@@ -49,13 +52,9 @@ With the integrated version of Workfront Planning, you can:
 
 With the stanalone version of Workfront Planning, you can: 
 
-* Use the Workfront Planning Standalone open API to integrate Planning objects with any other applications (****ask Lilit and I think this is an Integrated benefit also******)
--->
-
-## Manage users
-
-## Manage teams
-
-## Log in as another user
+* Use the Workfront Planning Standalone open API to integrate Planning objects with any other applications <!--ask Lilit and I think this is an Integrated benefit also-->
 
 
+## Workfront Planning Standalone terminology
+
+<!--should we link to the regular Planning terminology? - help/quicksilver/planning/general/planning-overview.md -->

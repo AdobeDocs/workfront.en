@@ -8,6 +8,30 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
+TQID: https://experienceleague.adobe.com/2RcCpRizLBAaJzlW9N-Y-rxjyBDZq8j8E2xpb6u4WvQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Customize the left panel using a layout template
 
@@ -40,7 +64,7 @@ After configuring a layout template, you must assign it to users for changes you
   <tr> 
    <td>Adobe Workfront package</td> 
    <td><p>Any</p>
-       <p>Adding custom applications to the Main Menu is only available for organizations licensed for Adobe App Builder.</p></td> 
+       <p>Adding custom applications to the left panel is only available for organizations licensed for Adobe App Builder.</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront license</td> 
@@ -82,7 +106,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
      <tr> 
       <td>[!UICONTROL Project]</td> 
       <td>The name of a project</td> 
-      <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Billing Records], [!UICONTROL Expenses], [!UICONTROL Hours], [!UICONTROL Workload Balancer], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*, [!UICONTROL Custom application]**</td> 
+      <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Resource for Billing], [!UICONTROL Billing Records], [!UICONTROL Expenses], [!UICONTROL Hours], [!UICONTROL Workload Balancer], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*, [!UICONTROL Custom application]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Task]</td> 
@@ -128,8 +152,13 @@ For information, see [Access requirements in Workfront documentation](/help/quic
      </tr> 
      <tr> 
       <td>[!UICONTROL Projects]</td> 
-      <td>Projects <img src="assets/projects-in-main-menu.png"> in the [!UICONTROL Main menu] <img src="assets/main-menu-icon.png"></td> 
+      <td>Projects <img src="assets/projects-in-main-menu.png"> in the [!UICONTROL Main Menu] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projects]</td> 
+     </tr> 
+     <tr> 
+      <td>[!UICONTROL Resourcing]</td> 
+      <td>[!UICONTROL Resourcing] in the [!UICONTROL Main Menu] <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>[!UICONTROL Planner] (cannot be hidden), [!UICONTROL Workload Balancer], [!UICONTROL Utilization], [!UICONTROL Resource Pools]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Requests]</td> 
@@ -161,6 +190,21 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td>The name of an iteration</td> 
       <td>[!UICONTROL Stories], [!UICONTROL Issues], [!UICONTROL Story Board], [!UICONTROL Overview], [!UICONTROL Custom Forms], [!UICONTROL Updates] </td> 
      </tr> 
+     <tr> 
+       <td>[!UICONTROL User Details]</td> 
+       <td>The name of a user</td> 
+       <td>[!UICONTROL Details], [!UICONTROL Org Chart], [!UICONTROL Time Off], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer]</td> 
+     </tr>
+     <tr> 
+       <td>[!UICONTROL Rate Card]</td> 
+       <td>The name of a rate card</td> 
+       <td>[!UICONTROL Job Roles and Rates] (cannot be hidden), [!UICONTROL Rate Card Details]</td> 
+     </tr>
+     <tr> 
+       <td>[!UICONTROL Group]</td> 
+       <td>The name of a group</td> 
+       <td>[!UICONTROL Group Members], [!UICONTROL Subgroup Members], [!UICONTROL Group Details], [!UICONTROL Project Preferences], [!UICONTROL Tasks & Issues Preferences], [!UICONTROL Timesheets & Hours], [!UICONTROL Subgroups], [!UICONTROL Statuses], [!UICONTROL Event Notifications], [!UICONTROL Portfolios], [!UICONTROL Programs], [!UICONTROL Projects], [!UICONTROL Templates], [!UICONTROL Recently Deleted], [!UICONTROL Recently Restored], [!UICONTROL Approvals], [!UICONTROL Companies], [!UICONTROL Teams], [!UICONTROL Schedules], [!UICONTROL Timesheet Profiles], [!UICONTROL Layout Templates]</td> 
+     </tr>
      <!--
       <tr> 
        <td>Company</td> 
@@ -175,26 +219,12 @@ For information, see [Access requirements in Workfront documentation](/help/quic
        <td>My Timesheets, Timesheets I Approve, All Timesheets (cannot be hidden) </td> 
       </tr>
      --> 
-     <!--
-      <tr> 
-       <td>Resourcing</td> 
-       <td>The name of the resource</td> 
-       <td>Planner (cannot be hidden), Workload Balancer, Utilization, Resource Pools </td> 
-      </tr>
-     --> 
-     <!--
-      <tr> 
-       <td>User Details</td> 
-       <td>____________</td> 
-       <td>Details (cannot be hidden), Org Chart, Time Off, Custom Forms </td> 
-      </tr>
-     --> 
     </tbody> 
    </table>
 
-   *Your company must purchase an additional license for Workfront Planning to be able to add this area to the left panel of projects, portfolios, and programs. For more information, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+   *Your company must purchase an additional license for Workfront Planning to be able to add this area to the left panel of projects, portfolios, and programs. For more information, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-   **Custom applications must be created separately before they become available as Main Menu options. For more information, see [Create a custom application for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
+   **Custom applications must be created separately before they become available as left panel options. For more information, see [Create a custom application for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
 
 1. In the **[!UICONTROL Left panel]** list, do any of the following to determine what users will see in the left panel for the [!DNL Workfront] area or object type you have selected:

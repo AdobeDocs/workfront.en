@@ -6,13 +6,34 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
+last-update: 2026-04-01T18:23:03.000Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+TQID: https://experienceleague.adobe.com/4MvX3EX6KfcXwk5lrq6bRU7HC6gzAI1Zgi49TMZbP7M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 # Manage Adobe Workfront Planning email notifications
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -22,7 +43,7 @@ You can receive email notifications from Workfront Planning when the following s
    
    For information about tagging others in a record comment, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
 * Someone asks for your permission to access a view, a workspace, or record type <!--or <span class="preview">or a record</span>-->
-* Someone confirms your access has been granted for a view, workspace, or record type <!--<span class="preview">or record</span>--> <!--Isk confirmed that there is nno email for denying access but did not test-->
+* Someone confirms your access has been granted for a view, workspace, or record type <!--<span class="preview">or record</span> Isk confirmed that there is nno email for denying access but did not test-->
 * You submit a Workfront Planning request. For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * Someone approves or rejects a Workfront Planning request that you submitted. For information, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
 * The status changes to a Workfront Planning request that you submitted.
@@ -55,12 +76,6 @@ You can receive email notifications from Workfront Planning when the following s
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>View or higher permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
-</td>
   </tr> 
 </tbody> 
 </table> 
@@ -154,7 +169,7 @@ OLD:
 
 ## Manage email notifications when requesting and granting permissions
 
-1. (Conditional and optional) After someone requests or grants you permissions to access a Planning object type, go to the email that informs you of the permission request. The sender of the email is Adobe Experience Cloud. 
+1. (Conditional and optional) After someone requests or grants you permissions to access a Planning object, go to the email that informs you of the permission request. The sender of the email is Adobe Experience Cloud. 
 
 1. (Optional) Click the message in the **Workfront** box inside the email. 
 
@@ -170,8 +185,7 @@ For information about managing your Workfront Planning notifications, see [Manag
 
 ## Manage email notifications about submitting, approving, or rejecting Workfront Planning requests
 
-1. (Optional) Go to the email that Workfront sends you 
-after you submit a request, or after a request you submitted has been approved or rejected. The sender of the email is Adobe Workfornt.
+1. (Optional) Go to the email that Workfront sends you after you submit a request, or after a request you submitted has been approved or rejected. The sender of the email is Adobe Workfornt.
 
 1. (Optional) Click **Open request**. This opens the request in Workfront Planning. 
 

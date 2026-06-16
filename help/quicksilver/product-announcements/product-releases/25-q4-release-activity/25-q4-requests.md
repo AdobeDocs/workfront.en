@@ -5,6 +5,18 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/uax0SXlgrYrYkzCwQ8E25jA3mtYS59XrNjMUkw7G0Sg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Fourth Quarter 2025 Requests enhancements
 
@@ -26,7 +38,8 @@ Previously, filters and column configurations could not be saved.
 
 For information and instructions, see [Create views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
-<!--## New combined Status column in unified Request list 
+<!--
+## New combined Status column in unified Request list 
 
 >[!NOTE]
 >
@@ -39,7 +52,8 @@ To simplify the unified request experience, the Status column now displays both 
 For more information on creating requests see:
 
 * For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)-->
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
+-->
 
 ## Updates to Requesting experience 
 

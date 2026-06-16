@@ -6,6 +6,21 @@ description: The [!UICONTROL boards] dashboard shows the list of boards that you
 author: Courtney
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/PeYyLlJOZSCqhNNpZKaRYHa7p9v28uDUmnPjULcib4g
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Use the boards dashboard
 
@@ -49,7 +64,7 @@ For information about creating a new board or editing an existing board, see [Cr
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -123,7 +138,8 @@ Deleting a workstream also deletes all of the boards in the workstream.
 
 1. Click **[!UICONTROL Delete board]** or [!UICONTROL **Delete workstream**] on the confirmation message.
 
-<!-- ## Move a board to a workstream
+<!--
+ ## Move a board to a workstream
 
 You can move a standalone board into a workstream, or move a board from one workstream to another workstream.
 

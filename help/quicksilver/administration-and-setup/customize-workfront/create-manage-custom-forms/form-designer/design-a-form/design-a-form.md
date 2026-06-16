@@ -8,6 +8,30 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create a custom form
 
@@ -27,8 +51,9 @@ You can design a custom form with the form designer in Adobe Workfront. You can 
  <tbody> 
   <tr> 
    <td>Adobe Workfront package</td> 
-   <td><p>Any</p></td> 
-  </tr> 
+   <td> <p>To create custom forms for job roles, rate cards, and assignments: Workflow Ultimate</p>
+      <p>To create custom forms for all other supported objects: Any Workfront or Workflow package</p> </td> 
+  </tr>  
   <tr> 
    <td>Adobe Workfront license</td> 
    <td><p>Standard</p>
@@ -36,7 +61,7 @@ You can design a custom form with the form designer in Adobe Workfront. You can 
   </tr> 
   <tr> 
    <td>Access level configurations</td> 
-   <td> <p>Administrative access to custom forms</p> </td> 
+   <td>Administrative access to custom forms</td> 
   </tr>  
  </tbody> 
 </table>
@@ -54,12 +79,34 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. Click **New Custom Form.**
 1. Select which object types you'd like to attach the custom form to, then click **Continue**.
 
-   ![Choose object types](assets/new-custom-form-select-objects.png)
+   ![Choose object types](assets/new-custom-form-select-objects-032526.png)
+
+   +++ Expand to view the list of objects that support custom forms.
+   
+   * Project
+   * Task
+   * Issue / Request
+   * Portfolio
+   * Document
+   * Program
+   * Expense
+   * User
+   * Company
+   * Iteration
+   * Billing Record
+   * Group
+   * Team
+   
+   If you are on the Workflow Ultimate package, you can also create custom forms for these objects:
+   
+   * Job Role
+   * Rate Card
+   * Assignment
+   
+   +++
 
 1. In the **Add a form name** area, type the custom form title.
-1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the **Add** icon ![Add objects icon](assets/add-objects-icon.png) next to **Object Types**, then select the type you want in the menu that displays. You can repeat this to add as many object types as you want. 
-   
-    Once you have more than one object added to the form, you can click the X on an object type to delete it from the form. 
+1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click **Object Types** in the form designer header. Select the object types you want to add, and de-select any object types you want to delete from the form.
 
    >[!CAUTION]
    >
@@ -253,6 +300,22 @@ To add a text field:
     </ul></td>
     </tr>
     <tr>
+      <td>Finance Permission Type</td>
+      <td><p>Select the finance permission type that the users must have before they can view or edit this custom field. The Currency format must be selected.</p>
+      <ul>
+      <li><p><strong>No permissions required:</strong> All users can see this field</p></li>
+      <li><p><strong>General:</strong> Users must have permissions to edit or view General Finance</p></li>
+      <li><p><strong>Bill:</strong> Users must have permissions to edit or view billing rates</p></li>
+      <li><p><strong>Cost:</strong> Users must have permissions to edit or view cost rates</p></li>
+      </ul>
+      <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</p>
+      </td>
+      <td><ul>
+       <li>Single line text</li>
+       <li>Paragraph</li>
+       </ul></td>
+    </tr>
+    <tr>
     <td>Display Type</td>
     <td>Switch between single line and paragraph text fields.</td>
     <td><ul>
@@ -303,7 +366,7 @@ To add a text field:
 
 ### Add calculated fields
 
- In a custom form, you can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object. 
+In a custom form, you can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object.
 
 To add a calculated field, see [Add calculated fields with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
@@ -392,6 +455,24 @@ To add radio buttons, checkbox groups, and drop-downs:
     <li>Multi-select dropdown</li>
     </ul></td>
     </tr> 
+    <tr>
+      <td>Finance Permission Type</td>
+      <td><p>Select the finance permission type that the users must have before they can view or edit this custom field. The Currency format must be selected.</p>
+      <ul>
+      <li><p><strong>No permissions required:</strong> All users can see this field</p></li>
+      <li><p><strong>General:</strong> Users must have permissions to edit or view General Finance</p></li>
+      <li><p><strong>Bill:</strong> Users must have permissions to edit or view billing rates</p></li>
+      <li><p><strong>Cost:</strong> Users must have permissions to edit or view cost rates</p></li>
+      </ul>
+      <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</p>
+      </td>
+      <td><ul>
+       <li>Radio buttons</li>
+       <li>Checkbox group</li>
+       <li>Single-select dropdown</li>
+       <li>Multi-select dropdown</li>
+       </ul></td>
+    </tr>
     <tr> 
      <td role="rowheader">Display Type</td> 
     <td>Switch between radio buttons, checkbox group, single-select drop-down, or multi-select drop-down for the field.</td> 
@@ -606,7 +687,6 @@ For examples of using the External lookup field to call the same instance of Wor
 
 >[!NOTE]
 >
->* External lookup fields are not supported in the Outlook plug-in.
 >* External lookup fields are not available in lists when the field has a dependency on another field.
 
 To add an external lookup:
@@ -639,6 +719,18 @@ To add an external lookup:
       <li>The character limit for Number fields is 16. You can also use a Text field to enter numbers and avoid the limit.</li>
       </ul></td>
      </tr> 
+     <tr>
+      <td>Finance Permission Type</td>
+      <td><p>Select the finance permission type that the users must have before they can view or edit this custom field. The Currency format must be selected.</p>
+      <ul>
+      <li><p><strong>No permissions required:</strong> All users can see this field</p></li>
+      <li><p><strong>General:</strong> Users must have permissions to edit or view General Finance</p></li>
+      <li><p><strong>Bill:</strong> Users must have permissions to edit or view billing rates</p></li>
+      <li><p><strong>Cost:</strong> Users must have permissions to edit or view cost rates</p></li>
+      </ul>
+      <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</p>
+      </td>
+     </tr>
      <tr> 
       <td role="rowheader">Base API URL</td> 
       <td><p>Type or paste the URL for the API.</p><p>The API URL must return a JSON content of the options that you would like to show in the drop-down. You can use the JSON Path field to select the specific values from the returned JSON to be drop-down options.</p><p>When entering the API URL, you can optionally pass the following values in the URL:</p>
@@ -712,12 +804,14 @@ To add an external lookup:
 * The object's Details area (for example, for a project, the Project Details area).
 * The Edit box for the object, if it has the new Adobe Workfront experience look and feel (for example, the Edit Project and Edit Task boxes).
 
-<!-- Do we need to tell them where they can't see it if we tell them where they can see it?
+<!--
+ Do we need to tell them where they can't see it if we tell them where they can see it?
 Currently, users cannot see the widget in the following areas:​
 Lists and reports
 Home and Summary
 The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)
-The Workfront Mobile app -->
+The Workfront Mobile app
+-->
 
  +++ Expand to see descriptions of available fields.
 
@@ -822,24 +916,32 @@ This table lists the available native fields for specific Workfront objects in a
 
 | Field name                 | Project | Task   | Issue  | Template | Template Task | Portfolio | Program | Group |
 |--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
-| Actual Completion Date     | ✓       | ✓     | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Actual Benefit </span> | <span class="preview">✓ </span> | &nbsp; | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Actual Completion Date     | ✓       | ✓      | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Actual Duration            | ✓       | &nbsp; | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Actual Hours               | ✓       | &nbsp; | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Actual Start Date          | ✓       | ✓      | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Budget </span> | <span class="preview">✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span>       | &nbsp;        | <span class="preview"> ✓ </span>        | &nbsp;  | &nbsp;|
 | Company                    | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Condition                  | ✓       | ✓      | ✓     | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Condition                  | ✓       | ✓      | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Condition Type             | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Description                | ✓       | ✓      | ✓     | ✓        | ✓             | ✓        | ✓       | ✓     |
-| Duration                   | &nbsp;   | ✓     | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
-| Duration Type              | &nbsp;   | ✓     | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
-| Duration Unit              | &nbsp;   | ✓     | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Currency </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Description                | ✓       | ✓      | ✓      | ✓        | ✓             | ✓        | ✓       | ✓ |
+| Duration                   | &nbsp;  | ✓      | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
+| Duration Type              | &nbsp;  | ✓      | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
+| Duration Unit              | &nbsp;  | ✓      | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
 | Entered By                 | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | ✓     |
 | Entry Date                 | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | ✓     |
+| <span class="preview"> Exchange Rate Date </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Fixed Cost </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Fixed Revenue </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Group                      | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | ✓        | ✓       | &nbsp; |
 | Last Updated By            | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp; |
 | Last Update Date           | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp; |
 | Name                       | ✓       | ✓      | ✓     | ✓        | ✓             | ✓        | ✓       | ✓     |
 | Owner                      | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | ✓        | ✓       | &nbsp; |
+| <span class="preview"> Performance Index Method </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Planned Benefit </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Planned Completion Date    | ✓       | ✓      | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Planned Duration           | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Planned Hours              | ✓       | ✓      | ✓      | &nbsp;   | ✓            | &nbsp;    | &nbsp;  | &nbsp;|
@@ -857,9 +959,29 @@ This table lists the available native fields for specific Workfront objects in a
 | Status                     | ✓       | ✓     | &nbsp;  | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Story Points               | &nbsp;   | ✓     | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | Template                   | ✓       | &nbsp; | &nbsp;  | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Total Estimated Cost </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| <span class="preview"> Total Estimated Revenue </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
 | URL                        | ✓       | ✓     | &nbsp;  | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
 
 {style="table-layout:auto"}
+
+<div class="preview">
+
+These additional custom form object types also support native field references.
+
+* Billing Record: Fixed Revenue field
+* Document: Name, Description fields
+* Company: Name, Group fields
+* Rate Card: Name, Description, Company, Group fields
+* Job Role: Name, Description fields
+
+</div>
+
+<!--
+Non-Labor Resource: Name, Description, Home Group, Non-labor Category, Non-labor Group, Unique Identifier fields
+Staffing Plan: Name, Description, Owner, Group, Company, Currency, Schedule, Start Date, End Date, Available Estimated Hours, Total Estimated Hours, Reference Number, Entered By, Entry Date, Last Updated By, Last Updated Date, Total Estimated Cost, Total Estimated Revenue fields
+Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
+-->
 
 +++
 
@@ -1096,6 +1218,3 @@ An app can be embedded on a Workfront custom form using the UI Extensions field 
 ## Organize and preview a form with the form designer
 
 For information on how to organize a custom form with section breaks and see a preview of the form, see [Organize and preview a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
-
-
-

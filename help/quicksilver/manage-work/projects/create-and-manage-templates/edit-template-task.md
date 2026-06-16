@@ -7,6 +7,34 @@ description: After creating a template, you can edit information on the template
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/LGLJV7JroMRc1SmwEjCRGnF5FRDuaH4k7oqpmGl11bI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Edit template tasks
 
@@ -14,13 +42,15 @@ exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 
 <!--take out production and preview references and new/ old experiences at release-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>-->
+</div>
+-->
 
 After creating a template, you can edit the information of the template tasks. The information you update on a template task is associated with project tasks after you use the template to create a project or you attach the template to a project.
 
@@ -42,8 +72,9 @@ You can edit one template task at a time, or you can edit template tasks in bulk
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
+   <td>  <p>To use the User and Role Hourly Revenue and Cost Types: Workflow Ultimate</p>
+      <p>To edit all other settings and use all other Revenue and Cost Types: Any Workfront or Workflow package</p>  </td> 
+  </tr>
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Standard</p>
@@ -64,7 +95,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -88,7 +120,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>Manage permissions for a template. </p> <p>You cannot share a template task. </p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Prerequisites
 
@@ -110,10 +143,16 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 1. To edit limited information about the template task, do the following: 
    1. (Optional) Click **Updates** in the left panel to add updates to the template task. Template task updates do not transfer to project tasks when the template is used to create a project.
    1. (Optional) Click **Documents** in the left panel to add documents to the template task. The documents will transfer to the project tasks when you use the template to create the project. 
+
+      >[!TIP]
+      >
+      >Adding documents to a template task differs depending on whether your organization uses Workfront or Adobe storage to store documents. For information, see [Add documents to Adobe Workfront from your file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md). 
+
    1. (Conditional) To edit limited information about a template task, click **Template Task Details** in the left panel, then go to the areas of the Details section to edit information for each area.
    1. (Optional) Do any of the following: 
       * Click the **Collapse all** icon ![Collapse all icon](assets/collapse-all-icon.png) to collapse all areas. 
       * Click the **Edit** icon ![Edit icon](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
+
 
          * Overview
          * Custom Forms
@@ -141,13 +180,13 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
 1. Consider specifying information in any of the following sections:
 
-* [Template task name](#template-task-name)
-* [Overview](#overview)
-* [Assignments](#assignments)
-* [Finance](#finance)
-* [Custom Forms](#custom-forms)
-* [Settings](#settings)
-* [Comment](#comment)
+   * [Template task name](#template-task-name)
+   * [Overview](#overview)
+   * [Assignments](#assignments)
+   * [Finance](#finance)
+   * [Custom Forms](#custom-forms)
+   * [Settings](#settings)
+   * [Comment](#comment)
 
 1. Continue editing the template tasks as described in the sections below. 
 
@@ -427,6 +466,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
         <li> <p style="font-weight: normal;"><span>Fixed Hourly</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>User Hourly</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>Role Hourly</span> </p> </li> 
+        <li> <p style="font-weight: normal;">User and Role Hourly</p> </li>
        </ul> <p>For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -436,11 +476,14 @@ You can edit a template task using the Edit Template Task or Template Task Detai
         <li> <p style="font-weight: normal;">Not Billable</p> </li> 
         <li> <p style="font-weight: normal;">User Hourly</p> </li> 
         <li> <p style="font-weight: normal;">Role Hourly</p> </li> 
+        <li> <p style="font-weight: normal;">User and Role Hourly</p> </li>
         <li> <p style="font-weight: normal;">Fixed Hourly</p> </li> 
         <li> <p style="font-weight: normal;">User Hourly w/Cap</p> </li> 
         <li> <p style="font-weight: normal;">Role Hourly w/Cap</p> </li> 
+        <li> <p style="font-weight: normal;">User and Role Hourly w/Cap</p> </li>
         <li> <p style="font-weight: normal;">User Hourly Plus Fixed</p> </li> 
         <li> <p style="font-weight: normal;">Role Hourly Plus Fixed</p> </li> 
+        <li> <p style="font-weight: normal;">User and Role Hourly Plus Fixed</p> </li>
         <li> <p style="font-weight: normal;">Fixed Revenue</p> </li> 
        </ul> <p>For more information about tracking revenue, see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>.</p> </td> 
      </tr> 
@@ -562,7 +605,25 @@ You can also add custom forms to the future tasks of a project when the project 
    When you or another user creates a project from this template, all settings you applied to template tasks become the settings for the project tasks.
 
 
-<!--Temporary content for Assignments redesign:
+## Edit template tasks in a list
+
+You can edit template task in a list in the following areas:
+
+* The Template Tasks section of a template
+* A template task report
+
+Editing template tasks in a list is similar to editing project tasks in a list. 
+
+>[!TIP]
+>
+>There is no Plan Mode available for template tasks.
+
+
+For information, see [Edit tasks in a list](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+
+
+<!--
+Temporary content for Assignments redesign:
 
 Editing template tasks differs depending on which environment you choose to edit the tasks. 
 
@@ -585,6 +646,11 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 1. To edit limited information about the template task, do the following: 
    1. (Optional) Click **Updates** in the left panel to add updates to the template task. Template task updates do not transfer to project tasks when the template is used to create a project.
    1. (Optional) Click **Documents** in the left panel to add documents to the template task. The documents will transfer to the project tasks when you use the template to create the project. 
+
+      >[!TIP]
+      >
+      >Adding documents to a template task differs depending on whether your organization uses Workfront or Adobe storage to store documents. For information, see [Add documents to Adobe Workfront from your file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md). 
+      
    1. (Conditional) To edit limited information about a template task, click **Template Task Details** in the left panel, then go to the areas of the Details section to edit information for each area.
    1. (Optional) Do any of the following: 
       * Click the **Collapse all** icon ![Collapse all icon](assets/collapse-all-icon.png) to collapse all areas. 
@@ -820,7 +886,8 @@ You can edit a template task using the Edit Template Task or Template Task Detai
        <ul> 
        <li>Only active approval processes display in the list. </li> 
        <li> <p>System-wide and group-specific approval processes display in the list. Approval processes associated with a group other than that of the template do not display in the list.</p> <p>Important: If the group associated with the template changes, the group-specific approval process becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>. </p> </li> 
-       <li> <p>If you added a single-use approval process, it displays as "&lt;Custom&gt;" in this field. For information, see <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associate a new or existing approval process with work</a>. </p> <!--<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will be valid only for Classic when they edit the Edit Template box in NWE)</p>************************* </li> 
+       <li> <p>If you added a single-use approval process, it displays as "&lt;Custom&gt;" in this field. For information, see <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associate a new or existing approval process with work</a>. </p> <!--
+       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will be valid only for Classic when they edit the Edit Template box in NWE)</p>************************* </li> 
        <li> <p>When bulk-editing template tasks, the following scenarios exist:</p> 
        <ul> 
        <li> <p>When you select template tasks from the same template group, both system-level and group-level approval processes display in this field.</p> </li> 
@@ -1240,4 +1307,5 @@ You can also add custom forms to the future tasks of a project when the project 
 
 <div class="preview">
 
-### Edit template tasks in the Preview environment-->
+### Edit template tasks in the Preview environment
+-->

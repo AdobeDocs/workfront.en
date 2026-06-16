@@ -5,6 +5,36 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ed348f44-eae1-4478-8425-6114f2b310ad
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/XpMJHQS6S5MemL-GKQETlWJy3PC2EaxvySQO1TvFVZQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # First Quarter 2026 release overview
 
@@ -13,9 +43,11 @@ This page provides information about functionality that is included in the First
 The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the First Quarter 2026 release nears its planned Production release.
 
 
-<!-- Keep commented until Final Preview release.
+<!--
+ Keep commented until Final Preview release.
 
-The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>. -->
+The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>.
+-->
 
 >[!IMPORTANT]
 >
@@ -105,23 +137,25 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
-   <tr>
+    <tr>
         <td><strong>Feature</strong>
         </td>
         <td><strong>Preview</strong></td>
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
-        </tr>
-       <!--<tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Set up brands for the AI reviewer in Workfront<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
-            <p>You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.</p>
-            <p>The AI reviewer is currently in beta.</p>
-        </td>
-        <td>January 8, 2026</td>
-        <td>January 8, 2026</td>
-        <td>January 8, 2026</td>
-    </tr> -->
+    </tr>
+    <!--
+    <tr>
+    <td>
+        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Set up brands for the AI reviewer in Workfront<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+        <p>You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.</p>
+        <p>The AI reviewer is currently in beta.</p>
+    </td>
+    <td>January 8, 2026</td>
+    <td>January 8, 2026</td>
+    <td>January 8, 2026</td>
+    </tr>
+    -->
     </tr>
        <tr>
         <td>
@@ -208,7 +242,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>December 11, 2025</td>
         <td>January 15, 2026</td>
     </tr>   
-    <!-- <tr>
+    <!--
+     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">New version of Salesforce integration now available </a>
             <p>To stay up-to-date with recent changes to the Workfront API, we've created a new Salesforce integration. The new integration features the same functionality as the previous version, and was updated to avoid losing functionality deprecated in the API.</p><p>NOTE: The Workfront for Salesforce integration, including the new version, will not be available after **February 28, 2026**. </p>
@@ -216,7 +251,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>October 30, 2025</td>
         <td>October 30, 2025</td>
         <td>October 30, 2025</td>
-    </tr>   -->
+    </tr>
+    -->
   </tbody>
 </table> 
 
@@ -380,7 +416,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>January 14, 2026</td>
         <td>January 15, 2026</td>
     </tr> 
-    <!--<tr>
+    <!--
+    <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Create groupings in the Requests list and My Requests widget</a>
             <p>To make it easier for you to find the requests you need, we've added groupings to the Requests list and the My Requests widget. Now, you can group requests by any column on the list. These groupings become part of the view that you are using when you create the grouping.</p>
@@ -388,7 +425,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>December 18, 2025</td>
         <td>January 14, 2026</td>
         <td>January 15, 2026</td>
-    </tr> -->
+    </tr>
+    -->
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Add custom fields to Requests list and My Requests widget</a>

@@ -6,10 +6,25 @@ description: Documents can be organized into folders. You can create personal fo
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/L473t3JSVgXHJ-RQXLXkBxQdzh9TbBwXM42DeiiCR7s
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create document folders
 
-Documents can be organized into folders. Workfront currently has two versions of the Documents area: the legacy documents area and the new documents area. The version that your organization uses depends on whether your organization is on legacy Workfront storage or enterprise storage. For more information about these storage types, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Documents can be organized into folders. Workfront currently has two versions of the Documents area: the legacy documents area and the new Documents area. The version that your organization uses depends on whether your organization is on legacy Workfront storage or Adobe cloud storage. For more information about these storage types, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Access requirements
 
@@ -21,7 +36,8 @@ Documents can be organized into folders. Workfront currently has two versions of
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any</p> </td> 
+   <td> <p>Any Workfront package to manage documents using legacy Workfront storage</p>
+<p>Any Workflow package to manage documents using Adobe cloud storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -42,7 +58,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Create document folders in the legacy documents area
 
-If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between Adobe enterprise storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 >[!NOTE]
 >
@@ -82,9 +98,9 @@ Create folders to better organize your documents. You can create up to 2,000 fol
 
 For information about sharing folders, see [Share a document folder](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-## Create document folders in the new documents area
+## Create document folders in the new Documents area
 
-If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### System-generated folders
 
@@ -121,7 +137,7 @@ System-generated folders can be moved to another project, task, or issue. If a s
 
 >[!NOTE]
 >
->Only projects, tasks, and issues using the same storage type are available in the move dialog. For example, if you're moving a folder in an enterprise storage project, only projects, tasks, and issues using enterprise storage are available to move to.
+>Only projects, tasks, and issues using the same storage type are available in the move dialog. For example, if you're moving a folder in an Adobe cloud storage project, only projects, tasks, and issues using Adobe cloud storage are available to move to.
 
 
 To move a folder:
@@ -133,7 +149,7 @@ To move a folder:
 
    ![move folder](assets/rename-folder.png)
 
-<!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new documents area -->
+<!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new Documents area -->
 
 ### Delete a folder
 

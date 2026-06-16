@@ -7,6 +7,30 @@ description: Work Effort overview
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/glxqYn2m92yNMfsneQ3DW0KALaPKruUgU8o-xjMA1CI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Work Effort overview
 
@@ -32,11 +56,13 @@ As a project manager, you can decide how you want to estimate the amount of work
   </tr> 
   <tr> 
    <td role="rowheader">Work Effort </td> 
-   <td> <p>A manual label that defines whether it takes a user a small, medium, or large amount of daily effort to complete a task. <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   <td> <p>A manual label that defines whether it takes a user a small, medium, or large amount of daily effort to complete a task.
+   <!--
+       
        The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
-      </MadCap:conditionalText>
-     --> </p> <p>Consider the following about Work Effort:</p> 
+       
+     -->
+     </p> <p>Consider the following about Work Effort:</p>
     <ul> 
      <li>This field is available only for tasks with a Simple Duration Type. </li> 
      <li>You can enable the use of this label and define the percentage of working time associated with it at the project level. </li> 
@@ -84,7 +110,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -110,7 +137,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>Manage permissions to a project and its tasks</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerations for using Work Effort
 

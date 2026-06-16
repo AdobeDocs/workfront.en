@@ -6,6 +6,28 @@ description: If more work needs to be done to complete an issue after the issue 
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/mQINHJ0clh8RFxC67LR-L3djGlqKZNwOBwPGIGwZ-kQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Convert an issue to a project
 
@@ -54,7 +76,8 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,6 +108,13 @@ For more detail about the information in this table, see [Access requirements in
 ## Considerations
 
 * There is a 5-minute processing limit when converting an issue to a project. If the issue has a large number of documents attached to it and fails to convert, you might need to remove some of the documents and try again.
+* When your organization uses both legacy Workfront and Adobe cloud storage for documents, the following scenarios exist when converting an issue to a project: <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
+  * A legacy Workfront storage issue creates a legacy Workfront storage project.
+  * An Adobe cloud storage issue creates an Adobe cloud storage project.
+  * Using a legacy Workfront storage template to convert an Adobe cloud storage issue creates an Adobe cloud storage project. 
+  * Using an Adobe cloud storage template to convert a legacy Workfront storage issue creates a legacy Workfront storage project.
+
+    For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 ## Convert an issue to a project
 
@@ -181,7 +211,7 @@ You can convert an issue to a project using a template.
       
    >[!TIP]
    >
-   >If you added templates to your Favorites list, you can mouse over the [!UICONTROL **Favorite templates**] menu and click the template you want to use.
+   >If you added templates to your Favorites list, you can hover over the [!UICONTROL **Favorite templates**] menu and click the template you want to use.
 
      The New Project from Template box displays. 
 
@@ -204,7 +234,7 @@ You can convert an issue to a project using a template.
    * The number of all tasks in the template
    * The names of the template custom forms
 
-1. (Optional) Mouse over the name of a template and click the **Favorites** icon ![Favorites](assets/favorites-icon-small.png) to mark it as a favorite for future use.
+1. (Optional) Hover over the name of a template and click the **Favorites** icon ![Favorites](assets/favorites-icon-small.png) to mark it as a favorite for future use.
 
    >[!TIP]
    >
@@ -215,6 +245,14 @@ You can convert an issue to a project using a template.
    The [!UICONTROL Convert to Project] box opens.
 
    ![Convert to project](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+
+   >[!TIP]
+   >
+   >* Using a legacy Workfront storage template to convert an Adobe cloud storage issue creates an Adobe cloud storage project. 
+   >* Using an Adobe cloud storage template to convert a legacy Workfront storage issue creates a legacy Workfront storage project.
+   >
+   >For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 
 1. If a field is already populated in the template, the field is pre-populated in the [!UICONTROL Convert to project] box. You can edit the pre-populated values to better match your project. For more information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -249,7 +287,7 @@ You can convert an issue to a project using a template.
         >
         >Or, if the top-level groups in your organization configured them separately, the options available here depend on which group you selected for the new project in step 6. For more information, see [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-   1. Click [!UICONTROL **Custom Forms**] and do any of the following:
+1. Click [!UICONTROL **Custom Forms**] and do any of the following:
 
       * Review the custom forms attached to the template. They will transfer to the new project.
       * Review the custom forms attached to the issue. They will transfer to the project if they are also project forms. 

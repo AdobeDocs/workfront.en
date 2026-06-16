@@ -6,13 +6,32 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
+last-update: 2026-04-01T18:23:03.000Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+TQID: https://experienceleague.adobe.com/C3hvRU9XvH3yqP21zXa4mxH6NrST85Jz98AvqeEHNY4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 # Manage Adobe Workfront Planning notification preferences 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -22,7 +41,7 @@ You may receive in-app or email notification when the following actions occur in
 
 * Someone adds you or your teams to a comment on the record page
 * Someone asks for permission to access a view or a workspace <!--or <span class="preview">or a record</span>-->
-* Someone grants you permission to access a view or a workspace <!--or <span class="preview">or a record</span>--> <!--I could not test this but Isk confirmed-->
+* Someone grants you permission to access a view or a workspace <!--or <span class="preview">or a record</span> I could not test this but Isk confirmed-->
 * You submit a Workfront Planning request.
 * Someone approves or rejects a Workfront Planning request that you submitted.
 * The status changes to a Workfront Planning request that you submitted.
@@ -62,12 +81,6 @@ You can receive and manage the following types of notifications from Workfront P
    <td>   <p>View or higher permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
-</td>
-  </tr> 
 </tbody> 
 </table> 
 
@@ -75,7 +88,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -139,7 +153,8 @@ For more information about Workfront access requirements, see [Access requiremen
   </tr>
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 For more information about Workfront Planning notifications, also see the following articles: 
     
@@ -179,7 +194,8 @@ For more information about Workfront Planning notifications, also see the follow
 
    For more information about managing notifications, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
-<!--OLD: notifications are not available to non-IMS customers: 
+<!--
+OLD: notifications are not available to non-IMS customers: 
 
 When someone adds you to a comment in the record page, you may receive an in-app as well as an email notification about the comment. 
 

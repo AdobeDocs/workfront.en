@@ -6,6 +6,28 @@ description: You can configure a project to allow users to add issues to the pro
 author: Alina
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/G-VPfyHDE9ZhcaqNGaHnZ2bP3lnAHFEwo2SN53cCw9E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Enable users to email an issue into a Request Queue project
 
@@ -113,7 +135,9 @@ When a Workfront user sends an email to Workfront, the following things happen:
 
    >[!NOTE]
    >
-   > MSG files are not supported and won't be attached to the issue in Workfront.
+   >* MSG files are not supported and won't be attached to the issue in Workfront.
+   >
+   >* If your environment has access to both legacy Workfront and Adobe cloud storage for documents, requests inherit their document storage type from the project, regardless of what the Workfront administrator selected for your default storage preference in the Setup area. For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md). 
    
 * The user who is sending the email becomes the Primary Contact of the new issue in Workfront.
 * The body text of the email cannot exceed 4,000 characters.

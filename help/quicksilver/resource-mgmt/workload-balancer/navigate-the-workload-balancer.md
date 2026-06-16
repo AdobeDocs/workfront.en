@@ -6,6 +6,28 @@ description: Use the Workload Balancer to understand the availability of your re
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/8bwTS-3UaNbMLtyx8yEmH7zF5vMYaWP1nedWaGP4UJE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Navigate the Workload Balancer
 
@@ -250,7 +272,12 @@ To navigate the Workload Balancer for multiple projects:
 
     * **Show completed work**: When this is enabled, completed tasks and issues display in the Assigned Work area. This is enabled by default. 
     
-        A green checkmark icon displays in the upper-right corner of a task or issue bar when they are completed. The same icon displays for a project when the tasks or issues for the selected time frame of the project are completed.
+      A green checkmark icon displays in the upper-right corner of a task or issue bar when they are completed. The same icon displays for a project when the tasks or issues for the selected time frame of the project are completed.
+
+      >[!NOTE]
+      >
+      >Task visibility in the Workload Balancer is driven by task-level completion, not assignment-level completion. If a task has multiple assignees, and one or more of the assignees select "Done with my part" but the overall task status is not Complete, the task is considered uncompleted work. When the **Show completed work option** is turned off, the task would still display because it is not fully completed.
+
     * **Show remaining time**: When this is enabled, Workfront displays the difference between the daily time for which the user is available to work based on their schedules and the hours for which they are allocated in the Assigned Work area for the users. This is disabled by default and allocated time displays by default.
     * **Show Role Assignments**: When this is enabled, role assignments display in the Unassigned Work area under their assigned work items. This is enabled by default.
 
@@ -467,7 +494,7 @@ Navigating the Workload Balancer of a team is similar to how you navigate the Wo
 
 1. Continue navigating the Workload Balancer of a project as described in the [Navigate the Workload Balancer for multiple projects](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) section of this article.
 
-### Navigate the Workload Balancer of a user
+## Navigate the Workload Balancer of a user
 
 You can access the Workload Balancer on your own user profile.
 
@@ -490,7 +517,8 @@ You can access the Workload Balancer on your own user profile.
 1. Continue navigating the Workload Balancer of a user as described in the [Navigate the Workload Balancer for multiple projects](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) section of this article.
 
 
-<!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
+<!--
+old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 
 # Navigate the Workload Balancer
 

@@ -8,6 +8,32 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/-pfHOCi9qAoq5Jk7LzibEu0SDm-AoiPUTH61GCL1ATc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Overview of converting issues in Adobe Workfront
 
@@ -158,7 +184,8 @@ The following table lists project information and whether it transfers from the 
  </tbody> 
 </table>
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
@@ -250,3 +277,12 @@ The following table illustrates which issue fields are visible from the converte
 >[!CAUTION]
 >
 >If the Primary Contact of an issue changes or if the issue becomes unlinked from the project or task after the issue has been converted, the Converted Issue Originator Name does not update and it displays the original Primary Contact of the issue at the time the issue was converted.
+
+## View original issue and converted objects from requests lists
+
+You can view the original issue and converted objects in the Requests area and the My Requests widget in Home. 
+
+For more information, see the following articles: 
+
+* [View submitted requests](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
+* [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)

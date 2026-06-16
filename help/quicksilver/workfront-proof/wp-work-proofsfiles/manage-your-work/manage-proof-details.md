@@ -7,6 +7,13 @@ description: The Proof details page lets you manage an existing proof. For examp
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e9530c2f-03ff-42f5-acbf-afe303e234e3
+TQID: https://experienceleague.adobe.com/XtCGq47fdKxfK-yF2LbH94Fq4AP46ENnEroJEGbuEhM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Manage Proof Details in [!DNL Workfront Proof]
 

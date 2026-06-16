@@ -8,18 +8,46 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/0tSNZpFA8qe7ppqE-TX6ap9VosvRGGYRSrTif7K8H-k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Edit issues
 
 <!--Audited: 10/2025--> 
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>--> 
+</div>
+-->
 
 You can edit information on issues that you have created, or that other users have created if they shared the issues with you.
 
@@ -66,7 +94,8 @@ You can edit a single issue or you can edit issues in a list. For information ab
 +++
 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -99,7 +128,8 @@ You can edit a single issue or you can edit issues in a list. For information ab
    <p>Manage permissions to an issue to edit all the fields in the Details area or in the Edit Issue box</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Limitations when editing issues
 
@@ -342,7 +372,8 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
    >* Reassign the work item to active resources. 
    >* Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
 
-   <!--1. In the Production environment:
+   <!--
+   1. In the Production environment:
          1. Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue.
          1. Update the following fields: 
          <table style="table-layout:auto"> 
@@ -362,7 +393,8 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
             Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr> 
          </tbody> 
-         </table>-->
+         </table>
+         -->
 
   
 1. (Optional) Click **Assign to me** to assign the issue to yourself.

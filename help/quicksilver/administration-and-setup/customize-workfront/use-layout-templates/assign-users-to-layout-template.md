@@ -8,6 +8,24 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/hCzefaueJPFQ1jTzePSOC9FIR1SRYTrC3NIKmtIOpp4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: c549503a-6440-4802-9525-ceb73a00feff
+    internal-label: Create and manage teams
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Assign users to a layout template
 
@@ -22,6 +40,8 @@ You can assign multiple different layout templates to the same name. For more in
 For more information about layout templates, see [Layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
 
 For information about layout templates for groups, see [Create and modify a group's layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+For information about layout templates and business profiles, see [Business profiles overview](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
 ## Access requirements
 
@@ -62,13 +82,13 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >When you are satisfied with your layout template, we recommend that you test it, as described in [Test a new layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md).
 
 1. Click **Assign this to** in the top section of the page.
-1. In the box that appears, click **Add a User, Job Role, Team, or Group**, start typing the name of a user, job role, team, or group, then click the name when it appears in the drop-down.
+1. In the box that appears, click **Add a user, job role, team, group, or access level**, start typing the name of a user, job role, team, group, or access level, then click the name when it appears in the drop-down.
 
    Recently added names display with a blue background. This is helpful when you are editing an existing layout template because you can distinguish the names you have just added from those that were already in the list.
 
-   An Info icon ![Info icon](assets/info-icon.png) displays to the right of the name of any user, job role, team, or group that is already assigned to another layout template. You can hover over the icon to see the name of that layout template and decide whether you want to override the existing assignment.
+   An Info icon ![Info icon](assets/info-icon.png) displays to the right of the name of any user, job role, team, group, or access level that is already assigned to another layout template. You can hover over the icon to see the name of that layout template and decide whether you want to override the existing assignment.
 
-1. Repeat the two previous steps to assign the layout template to other users, job roles, teams, or groups as needed.
+1. Repeat the two previous steps to assign the layout template to other users, job roles, teams, group, or access level as needed.
 
    You can assign up to 100 users at a time. 
 
@@ -84,6 +104,7 @@ You and other Workfront administrators can assign multiple different layout temp
 * To a particular job role the user has
 * To a certain team the user is on
 * To a certain group the user is in
+* To a certain access level the user is assigned to
 
 However, only one layout template is visible to the user at any given time. The template that is visible is determined by the following priority hierarchy:
 
@@ -98,11 +119,14 @@ However, only one layout template is visible to the user at any given time. The 
 
 * **Home group**: If the person is not assigned a layout template as an individual user, nor as a user with a primary job role, nor as a member of a Home team, they see the template assigned to their Home group.
 
-  Only the template assigned to the Home group of a user is visible to the user. Templates assigned to any of their other groups are not visible. 
+  Only the template assigned to the Home group of a user is visible to the user. Templates assigned to any of their other groups are not visible.
+
+* Access level: If the person is not assigned a layout template as an individual user, nor as a user with a primary job role, nor as a member of a Home team, nor as a member of a Home group, they see the template assigned to their access level.
 
 ## Large numbers of users assigned to a layout template
 
-<!--If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
+<!--
+If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
 -->
 If you have more than 2000 users to assign to a layout template, we recommend that you do one of the following:
 

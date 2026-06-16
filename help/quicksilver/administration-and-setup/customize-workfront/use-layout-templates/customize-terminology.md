@@ -8,6 +8,30 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
+TQID: https://experienceleague.adobe.com/chM5Ny9QZBJ8qc-2p-rzGDFWDCvB0H3pEV70HWOrIWI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Customize user interface terminology using a layout template
 
@@ -27,9 +51,8 @@ After you save a layout template where you changed terminology, then log out of 
 
 >[!NOTE]
 >
->* The Outlook Add-in area does not display the customized labels.
 >* You might encounter grammar and other problems when you customize labels. For example, if you change "Issue" to "Request," there may be places in the UI where you see the phrase "An request." For more information, see [Implications of customizing object names](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) in the article [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
->
+>* To customize terminology translations into languages other than English, see [Configure custom localization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
 
 For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 

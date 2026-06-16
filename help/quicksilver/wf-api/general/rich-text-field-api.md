@@ -7,8 +7,14 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
+TQID: https://experienceleague.adobe.com/mbMDFBRO9-bIJdlxbJjy2nqsvkjnppOJsMqTltjQ2qM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
-
 # Rich text fields in the Adobe Workfront API
 
 <!-- Audited: 5/2025 -->

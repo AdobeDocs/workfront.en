@@ -7,6 +7,20 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/0ZlRTte93Fl8omBRbQH5ZkA-pr533lkPA9QvWY3d5H4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Review and approve with the Frame.io viewer
 
@@ -14,10 +28,11 @@ You can review and approve documents in Workfront using the Frame.io viewer.
 
 Reviewing Workfront documents with the Frame.io viewer allows you to leave comments or mark up specific sections of a document, image, or video to collaborate efficiently with your team and ensure that feedback is clear and actionable.
 
-For more information on the Frame.io integration with Workfront, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
+For more information on the Frame.io integration with Workfront, see [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 
-<!--## Access requirements
+
+## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
 
@@ -29,7 +44,8 @@ For more information on the Frame.io integration with Workfront, see [Frame.io i
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p> Any</p> </td> 
+   <td> <p>Any Workfront package to manage approvals using legacy Workfront storage</p>
+<p>Any Workflow package to manage approvals using Adobe cloud storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses</td> 
@@ -49,11 +65,12 @@ For more information on the Frame.io integration with Workfront, see [Frame.io i
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++ -->
++++
+
 
 ## Prerequisites
 
-* You must have the Workfront and Frame.io integration set up in your Workfront instance. For more information, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements).
+* You must have the Workfront and Frame.io integration set up in your Workfront instance. For more information, see [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
 
 ## Review a document
 

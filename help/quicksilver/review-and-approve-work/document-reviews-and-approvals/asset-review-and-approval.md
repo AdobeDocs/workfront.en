@@ -1,11 +1,26 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Available Functionality for Document Approvals 
+title: Available Functionality for Document Approvals
 description: Overview of the systems available for review and approval in Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/ZXwo18-zztYsq-gBU4VabsqhNapmtheAnSM5He0K2u0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Available functionality for document approvals
 
@@ -56,10 +71,9 @@ Key features available for Unified Approvals:
 
 * Access review and approval requests in the My Approvals widget in the Home area
 
-* Use the Frame.io integration to review and approve documents. For more information, see [Get started with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+* Use the Content Reviewer to automate brand compliance reviews. For more information, see [Get started with the Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Use the AI Reviewer to automate brand compliance reviews. For more information, see [Get started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
-
+* Use the Frame.io viewer to review and approve documents. For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 ## Proof approvals 
 

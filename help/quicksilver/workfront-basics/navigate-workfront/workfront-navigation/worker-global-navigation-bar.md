@@ -7,6 +7,28 @@ description: The Main Menu changes with the access level you have been assigned 
 author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
+TQID: https://experienceleague.adobe.com/3VM5YoTkx242vVP-xMPVF06pBnnlJ843fXLQv8zW13c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: c549503a-6440-4802-9525-ceb73a00feff
+    internal-label: Create and manage teams
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Understand the navigation for a [!UICONTROL Work]-license user
 
@@ -28,6 +50,8 @@ The following areas are included in the default layout of a [!UICONTROL Worker]:
 
 * **[!UICONTROL Calendars]**: Calendars that are shared with you display here. For information, see [Calendars: article index](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
+* **[!UICONTROL Resourcing]**: You can view resource allocation in the Resource Planning tools and view Resource Pools here. For information, see [Manage resources](../../../resource-mgmt/manage-resources.md).
+
 * **[!UICONTROL Teams]**: Tasks and issues assigned to your teams display in this area. As a Worker, you are the only [!DNL Workfront] user who sees the [!UICONTROL Teams] area by default.
 
    For information, see [Create and manage teams](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
@@ -38,13 +62,13 @@ The following areas are included in the default layout of a [!UICONTROL Worker]:
 
 * **[!UICONTROL Documents]**: You can upload documents, or review documents shared with you, here. For information, see [Documents](../../../documents/documents-overview.md).
 
-* **[!UICONTROL Resourcing]**: You can view resource allocation in the Resource Planning tools and view Resource Pools here. For information, see [Manage resources](../../../resource-mgmt/manage-resources.md).
+* **[!UICONTROL Blueprints]**: Review existing blueprints in your system and request one to be installed, if the [!DNL Workfront] administrator configured the request queue for blueprints. For more information, see [Blueprints overview](../../../administration-and-setup/blueprints/blueprints-overview.md).
+
+* **[!UICONTROL Priorities]**: You can manage and prioritize work quickly. For information, see [Get started with Priorities](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md).
 
 * **[!UICONTROL Boards]**: Work with flexibility and collaboration with your team members by using shared boards that contains columns and cards reflecting work you want to get done. For information, see [Get started with boards: article index](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
-* **[!UICONTROL Blueprints]**: Review existing blueprints in your system and request one to be installed, if the [!DNL Workfront] administrator configured the request queue for blueprints. For more information, see [Blueprints overview](../../../administration-and-setup/blueprints/blueprints-overview.md).
-
-![Worker main menu](assets/worker-main-menu-350x426.png)
+![Worker main menu](assets/worker-main-menu-2026.png)
 
 ## Customize your default [!UICONTROL Main Menu]
 

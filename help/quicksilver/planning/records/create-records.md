@@ -1,13 +1,32 @@
 ---
 title: Create Records
-description: When using Adobe Workfront Planning, a record is an instance of a record type. You can create unique records for each record type in Workfront Planning by manually adding them to the table view, importing them from a list, duplicating them, or creating them as you connect them to other records. 
+description: When using Adobe Workfront Planning, a record is an instance of a record type. You can create unique records for each record type in Workfront Planning by manually adding them to the table view, importing them from a list, duplicating them, or creating them as you connect them to other records.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/6kEg5JYAO9pilVnKb5eGZbhPeAdbt-g-8SMteodoqP8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 # Create records
 
 <!--
@@ -78,7 +97,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -138,7 +158,8 @@ For more information about Workfront access requirements, see [Access requiremen
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerations when creating records
 
@@ -213,7 +234,8 @@ For more information about Workfront access requirements, see [Access requiremen
     * Multiple records are added to the record type, if you added records using a CSV or Excel spreadsheet. 
     * A new request is added in the Workfront's Requests area, if you added the request by submitting a request form. 
 
-<!-- this is not possible anymore: 
+<!--
+ this is not possible anymore: 
 
 ## Create records by connecting them from another application
 
@@ -260,8 +282,8 @@ For information about editing record information, see [Edit records](/help/quick
         >
         >When you add a new record after the last record in a grouping or subgrouping, Workfront automatically populates the fields included in the groupings. You can manually edit these fields, if needed, and the records might be removed from the grouping.  
 
-    * Click **Shift + Enter** on your keyboard from any column or row of the table. This adds an empty row under the record you start from. 
-    * Hover over a record's primary field, click the **More** menu ![More menu](assets/more-menu.png) to the right of the field, then click **Insert record above** or **Insert record below**. 
+    * Click **Shift + Enter** on your keyboard from any column or row of the table. This adds an empty row under the record you start from. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
+    * Hover over a record's primary field, click the **More** menu ![More menu](assets/more-menu.png) to the right of the field, then click **Insert record above** or **Insert record below**. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
 
     ![Adding a new campaign in table row](assets/adding-a-new-campaign-in-table-row.png)
 

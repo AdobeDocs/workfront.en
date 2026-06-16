@@ -6,6 +6,26 @@ description: You can import existing projects into a plan. The imported projects
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/yZ3-dqcetTEtRr3-SBAMrsmEE0JcW-DhOOhO9dPsakM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Import projects to plans in the [!DNL Scenario Planner]
 
@@ -57,7 +77,8 @@ For information about Workfront access requirements, see [Access requirements to
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,7 +116,8 @@ For information about Workfront access requirements, see [Access requirements to
  </tbody> 
 </table>
 
-*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Considerations about importing projects into plans as new initiatives
 
@@ -154,11 +176,13 @@ When you import a project into a plan some project information is also imported 
      <li> <p>[!DNL Workfront] uses the job roles assigned to tasks and issues or the job roles that the users assigned to tasks or issues are associated with on the project and transfers them to the new initiative as Required Job Roles. </p> </li> 
      <li> <p>When the plan is set up to use FTEs, the Planned Hours associated with the job roles on the tasks and issues of the project are first converted to FTE. This FTE is then assigned to the initiative's job role. <span>Planned Hours are equally distributed in [!DNL Workfront]. If a task or an issue spans multiple months, the amount of Planned Hours for each month in the duration of the initiative is converted in monthly FTE and transferred to each month of the initiative.</span></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><span>For example, if a task is assigned to a job role for 80 Planned Hours in September, then the imported job role displays 0.5 FTE for the initiative in September.</span> </p> </li> 
      <li> <p>[!DNL Workfront] calculates the FTE of the Required Job roles associated with the initiative using the following formula:</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>Tip: The [!DNL Scenario Planner] assumes that there are 160 working hours in a month.</p> <p>For example, if a project has a Duration of 1200 minutes and a job role on the project is associated with 600 minutes of Planned Hours, their FTE is 0.5. When importing the project, the Required Job Role FTE on the newly created initiative is 0.5 for each month of the initiative. </p> </li> 
-     <li>When a job role is assigned to a task on the project with zero Planned Hours, the Required FTE for the job role of the initiative is zero by default. <!--
+     <li>When a job role is assigned to a task on the project with zero Planned Hours, the Required FTE for the job role of the initiative is zero by default.
+     <!--
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
          (NOTE: this used to be 1, not zero in Production) 
        </MadCap:conditionalText>
-      --></li> 
+      -->
+      </li>
      <li>When a job role is assigned to a task on the project with a zero [!UICONTROL Duration], the Required FTE <span>or hours</span> for the job role of the initiative is zero by default, even if the task has Planned Hours. </li> 
     </ul> </td> 
   </tr> 

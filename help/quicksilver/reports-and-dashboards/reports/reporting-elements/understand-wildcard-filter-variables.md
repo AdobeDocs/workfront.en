@@ -7,17 +7,34 @@ description: By using wildcards in filters, you can reference a generic user or 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/Kk2XDKuc0l9hpI9YhlZGOimaYuBE76O2D8oAWAGqYRc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Wildcard filter variables overview
 
 <!-- Audited: 11/2024 -->
 
-<!--(NOTE: This article is linked to the training self-serve promoted articles for user-based and date-based wildcards (how-to articles). This serves as the "overview/ reference" article for those articles. Consider renaming this when that is allowed.)
+<!--
+(NOTE: This article is linked to the training self-serve promoted articles for user-based and date-based wildcards (how-to articles). This serves as the "overview/ reference" article for those articles. Consider renaming this when that is allowed.)
 (NOTE: Alina: ***&gt;&gt;Linked in other articles - do not move/ delete.
 This was included but it is not supported???:
 The $$USER.roleIDs variable refers to all the job roles that are associated with the logged-in user. Using this variable, you can&nbsp; items assigned to all of the job roles associated with the logged-in user.
 For example, if you want to display tasks assigned to any of the job roles associated with the logged-in user, you can use the following filter rule in a task filter:
-AssignedToID Equals $$USER.roleIDs.)-->
+AssignedToID Equals $$USER.roleIDs.)
+-->
 
 Using wildcards, you can reference a generic user or date instead of a specific user or date. In this way, the elements you build are dynamic; the results change depending on the context in which they are used.
 
@@ -122,9 +139,11 @@ You can choose from the following user-based variables:
  <tbody> 
   <tr valign="top"> 
    <td width="200" role="rowheader"> <p><strong>$$USER.ID</strong> </p> </td> 
-   <td> <!--
+   <td>
+   <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: : should these be formatted with code?!) </p>
-    --> <p>The most common user-based variable is $$USER.ID. This always returns the ID of the logged in user. This is the ID used to identify which user created each object and their work assignments.</p> <p>When used in reports, this wildcard decreases the number of reports that you need to create in your system. You can create one report and share it with several users, and the results change based on the user who is logged in and looking at the report.</p> <p>For example, to build a report for all issues assigned to the user who is logged in, you can use the following rule in an issue filter: <em>Assigned To ID Equals $$USER.ID</em>.</p> <p>Workfront uses this variable in the following built-in filters:</p> 
+    -->
+    <p>The most common user-based variable is $$USER.ID. This always returns the ID of the logged in user. This is the ID used to identify which user created each object and their work assignments.</p> <p>When used in reports, this wildcard decreases the number of reports that you need to create in your system. You can create one report and share it with several users, and the results change based on the user who is logged in and looking at the report.</p> <p>For example, to build a report for all issues assigned to the user who is logged in, you can use the following rule in an issue filter: <em>Assigned To ID Equals $$USER.ID</em>.</p> <p>Workfront uses this variable in the following built-in filters:</p>
     <ul> 
      <li>My Reports</li> 
      <li>My Projects</li> 

@@ -6,6 +6,24 @@ description: After you or other users create goals, you can review their progres
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/A-EiVjLjS0YMgxkouUlrAF2nxzi4l3oJDmLXTlqLlsA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Manage goals in the Goal List of Adobe Workfront Goals
 
@@ -68,7 +86,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -119,7 +138,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Manage goals in the Goal List
 
@@ -236,9 +256,10 @@ Consider the following when reviewing the Goal List:
 
 To manage goals in the Goal List: 
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png)  in the upper-right corner, then click **Goals**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/lines-main-menu.png)  in the upper-right corner, then click **Goals**.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   <!--
+    Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
    The Goal List section displays by default. You can view goals regardless of their status, period, or owner, by default.

@@ -6,6 +6,30 @@ description: You can copy an issue or a request and save them on the same or ano
 author: Alina
 feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/y-P-xACJrapngrLH55mHRu5Xv56xUs3oO0OkTwHSA9M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Copy issues
 
@@ -60,7 +84,8 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,7 +108,8 @@ For more detail about the information in this table, see [Access requirements in
    <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are copying the issue to with the ability to Add Issues.</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerations when copying issues
 
@@ -109,6 +135,9 @@ Consider the following when copying issues that contain documents or are associa
 * **When an issue is associated with a request queue:** When you copy an issue to another object and the issue is associated with a request queue, the copied issue is no longer associated with the original queue the first issue originated from.
 * **When a document is attached to the issue:** When you copy an issue to another object and the issue has a document attached to it, the document and its versions also move to the new issue. Any proofs or approvals associated with the document do not move.
 * **When an issue is linked to a document or a folder:** When you copy an issue which has documents or folders linked to a third party service like Google Drive, the links to the documents transfer to the copied issue. 
+* **When you copy issues between projects with different storage types**: You cannot copy an issue from a legacy Workfront storage project to an Adobe cloud storage project. The reverse is also true. Your Workfront instance might not have both types of document storage.
+
+   For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 ## Copy issues in a list
 
@@ -128,9 +157,9 @@ You can copy one or multiple issues from a list of issues or from an issue repor
 1. Continue with copying the issue, as described in the section [Copy a single issue](#copy-a-single-issue) starting with Step 2.
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+    
    (NOTE: ensure step number stays accurate)
-   </MadCap:conditionalText>
+    
    -->
 
 ## Copy a single issue {#copy-a-single-issue}

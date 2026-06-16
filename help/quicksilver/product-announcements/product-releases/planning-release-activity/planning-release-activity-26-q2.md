@@ -7,6 +7,15 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/-YeUwYEIFG4Uj80hXLy6hXGqJVYfQMeW2DrNlS6zjRs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Second Quarter 2026 release activity for Adobe Workfront Planning
 
@@ -16,7 +25,169 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-<!--
+
+## Content Advisor is now available on records connected to Adobe Experience Manager
+
+>[!NOTE]
+>
+>Preview: April 16, 2026
+>Production fast release: April 16, 2026
+>Production for everyone: April 16, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+You can now access Experience Manager's Content Advisor in Workfront Planning. Content Advisor allows you to:
+
+* Discover content using smart suggestions or campaign brief details
+* Quickly assess content suitability by viewing key details before reuse
+* Discover and reuse content fragments
+* Explore collections to identify related, on-brand content
+
+You can select assets or content fragments from Content Advisor to use in your connected fields in Planning.
+
+For more information about how to access Content Advisor from Workfront Planning, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+
+## New capability to increase row height for the list view 
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+We have added a new setting to adjust row height in the list view.  
+
+For more information, see Manage the list view (help/quicksilver/planning/views/manage-the-list-view.md).
+
+For information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Add record type name and view icon to publicly shared views
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+To ensure that recipients always understand what view they received when they open a publicly shared link to a record type, we have added the name of the record type to the shared view page, in addition to the view icon and the view name.
+
+For information, see [Share views](/help/quicksilver/planning/access/share-views.md)
+
+## New grouping functionality added to the Request forms list
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+To help you organize information better, we have added the ability to group items in the Request forms page of a record type. 
+
+Prior to this enhancement, this functionality did not exist in this area. 
+
+For information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Expand list of shared entities to display users 
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+You can now expand groups, teams, companies, and roles to view their members when you share a workspace or a view with them. Prior to this enhancement, the membership lists were available for these objects only when sharing record types.
+
+For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).
+
+## Multi-workspace, best-practice template for Workfront Planning implementation 
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+We are introducing a template package to help you streamline the implementation of Workfront Planning in your organization. By installing the best practice framework template, you can create up to six workspaces that contain all the information you need to start moving your strategic planning in Workfront.  
+
+The multi-workspace template contains a global template that establishes core record types which you can use in any custom workspace you built. In addition, the template includes 5 more workspaces that you can use as examples and are interconnected to one another and to other objects in Workfront. 
+
+For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+>[!NOTE]
+>
+> This enhancement is available only for customers with a Prime or higher package. 
+
+## Global search for Workfront Planning objects from any Workfront Planning page   
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+You can now search for workspaces, record types, or views from any page in Workfront Planning by using the following key combinations from any Planning page:  
+
+* CTRL+K for Windows  
+* ⌘+K for Mac  
+
+You can also search for workspaces, record types, or views from the new search box added to the Planning landing page.  
+
+For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+## Apply additional conditional formatting to a a list of projects in  a record's connected page   
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+You can now apply additional conditional formatting to a list of projects in a record's connected page.  
+
+The new conditional formatting capabilities include the following: 
+
+* Add color to text 
+
+* Make the text bold or italic in a cell 
+
+* Ability to apply the conditional formatting to an entire row 
+
+Prior to this enhancement, only the ability to add color to a cell's background existed.  
+
+For information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Added personalized names for filters in the list view   
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+We have added the following personalized names for a team, group, company, and role filter in the list view: 
+
+* My home team, My teams 
+
+* My  home group, My groups 
+
+* My primary role, My roles 
+
+* My company 
+
+The fields must exist on objects displayed in the view for the filter options to be visible. 
+
+For more information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Breadcrumb redesign   
+
+>[!NOTE]
+>
+>Preview: March 26, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+We have redesigned the way breadcrumbs display across record types and records. Now, when you click More in the breadcrumb line, the names of the records and objects displays on multiple lines. Prior to this enhancement, clicking More displayed the names of records and objects in drop-down menus.  
+
+For more information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## New field type for Record ID  
 
@@ -30,7 +201,6 @@ We have added a new field type for Record ID. This is a system-generated alpha-n
 
 For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 
--->
 
 ## Allow non-admin users to make a record type connectable 
 
@@ -205,6 +375,19 @@ Approval rules are created on the request form.
 
 For information and instructions, see [Add approval rules to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md#add-approval-rules-to-a-request-form) in the article Add an approval to a request form in Adobe Workfront Planning.
 
+## Removal of Approved date and Approved by field types
+
+>[!NOTE]
+>
+>Preview: January 29, 2026
+>Production fast release: February 12, 2026
+>Production for everyone: April 16, 2026
+
+We have removed the Approved date and Approved by field types. 
+Existing information in the former Approved date and Approved by fields has been moved to the Original Request Approved date and Approved by fields. 
+
+For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
+
 ## Display emails in user typeahead fields in Workfront Planning 
 
 >[!NOTE]
@@ -235,3 +418,5 @@ For more information, see the following articles:
 You can now add People fields to lookup fields when connecting two Planning record types.  
 
 For information, see [Connect Record Types](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+

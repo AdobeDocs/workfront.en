@@ -6,11 +6,35 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/dYXyT3P6CTlVSpiUYhMmB5gZEWILGP6g-WUhVE0SdCM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Copy and submit requests
 
 
-When you submit similar requests frequently you can copy an existing submitted request. In this case, you can copy an existing request, make minimal changes to it, and resubmit it as a new request.
+When you submit similar requests frequently, you can copy an existing submitted request. In this case, you can copy an existing request, make minimal changes to it, and resubmit it as a new request. The request is submitted to the same request queue as the original request. 
 
 ## Access requirements
 
@@ -22,7 +46,9 @@ When you submit similar requests frequently you can copy an existing submitted r
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any </p> </td> 
+   <td> <p>Any Workfront or Workflow package</p>
+   
+   <p>Any Workfront Planning package to copy and submit Planning requests </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -38,10 +64,12 @@ When you submit similar requests frequently you can copy an existing submitted r
    <td role="rowheader">Object permissions</td> 
    <td><p>Access to add requests to a request queue</p> <p>View or higher permissions on the existing request</p> <p>For information on setting up a request queue, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. </p> </td> 
   </tr>
+  <!--
   <tr> 
    <td role="rowheader"> Product</td> 
    <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
@@ -52,6 +80,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 ## Prerequisites
 
 You must have a request that you or someone in your organization previously submitted to be able to copy it and resubmit it. If the request belongs to someone else, you must have at least access to View it to be able to copy and submit it as new.
+
+You can copy and resubmit one of the following types of requests: 
+
+* A Workfront request, submitted to a request queue
+* A Workfront Planning request submitted to a Planning request form, if your company purchased a Planning package. 
 
 ## Considerations about copying and submitting requests as new
 
@@ -86,7 +119,51 @@ You must have a request that you or someone in your organization previously subm
   >
   >The copied request is not linked to a resolving object.
 
+## Copy and submit requests in the new requesting experience
+
+You can copy and submit requests in the Requests area of Workfront, or from the My Requests widget in Home.
+
+1. Do one of the following: 
+
+   {{step1-to-requests}}
+
+   1. To access the **My Requests** widget in **Home**:
+   
+   {{step1-to-home}}
+
+   1. Locate the **My Requests** widget. 
+
+      For more information on the My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. In the **Requests** list or the **My Requests** widget in Home, hover over the request that you want to copy, then click the **More** menu next to its name.  
+
+   ![More menu](assets/more-menu.png)
+
+1. Click **Copy** 
+
+     Or
+
+     Right-click on the selected request, then click **Copy**.
+
+     >[!TIP]
+     >
+     >When you do not have access to create issues, you receive a warning that your administrator restricted you from creating requests.
+
+1. (Optional) Update any information from the copied request. Available fields depend on the Request Queue or Request Form used for the request.
+
+   When you enter or change any field values in the copied request, it is saved as a draft.
+
+1. Click **Submit**.
+
+   The copied request is submitted as a new request.
+   
+   Resolving objects from the original request are not copied.
+   
+   When you copy and resubmit a Planning request, it creates another record for the record type associated with the original request's form. 
+
 ## Copy and submit requests in the legacy requesting experience
+
+If your company purchased a Workfront Planning package, you cannot copy and submit Planning requests in the legacy requesting experience. 
 
 {{step1-to-requests}}
 
@@ -171,15 +248,15 @@ You must have a request that you or someone in your organization previously subm
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span><strong>Assignments</strong></span> </td> 
-      <td> <p>Indicate the name of an active user, job role, or team that the request should be assigned to. </p> <p> You can specify more than one user, job role, or team. </p> <p>Depending on how the request queue was set up, you might be able to only assign the request to one or two types of resources, instead of all three. </p> <p>We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate resources. </p> </td> 
+      <td> <p>Indicate the name of an active user, job role, or team that the request should be assigned to. </p> <p> You can specify more than one user, job role, or team. </p> <p>Depending on how the request queue was set up, you might be able to only assign the request to one or two types of resources, instead of all three. </p> <p>We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate resources. </p>
+      <p><p style="font-weight: normal;">Depending on how the request queue was set up, you might be able to only assign one type of resource to the request (for example, users). If a routing rule is also associated to the request queue and it automatically routes the request to a different type of resource (for example, a team), your request is assigned to both the entity that you manually specify when submitting the request (users) and the resource specified in the routing rule (the team).</p> <p style="font-weight: normal;">For more information, see the following articles:</p> 
+      <ul> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a> </p> </li> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Create Routing Rules</a> <br> </p> </li> 
+      </ul> </p>
+       </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader" colspan="2"> <p><p style="font-weight: normal;">Depending on how the request queue was set up, you might be able to only assign one type of resource to the request (for example, users). If a routing rule is also associated to the request queue and it automatically routes the request to a different type of resource (for example, a team), your request is assigned to both the entity that you manually specify when submitting the request (users) and the resource specified in the routing rule (the team.)</p> <p style="font-weight: normal;">For more information, see the following articles:</p> 
-        <ul> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a> </p> </li> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Create Routing Rules</a> <br> </p> </li> 
-        </ul> </p> </td> 
-     </tr> 
+   
      <tr> 
       <td role="rowheader"><strong>Planned Hours</strong> </td> 
       <td> <p>Estimate how many hours it would take for this request to complete.</p> </td> 
@@ -200,7 +277,15 @@ You must have a request that you or someone in your organization previously subm
       <td role="rowheader"><strong>Documents</strong> </td> 
       <td> <p>Add documents to your request. The documents attached to the original request do not transfer to the copied request.</p> <p><b>TIP</b> 
       
-      Depending on how the request queue was set up, the Documents section might display before or after the custom fields.</p> <p> </p> </td> 
+      Depending on how the request queue was set up, the Documents section might display before or after the custom fields.</p> <p> </p>
+      <p>Depending on which document storage type your Workfront administrator selected for your environment, documents attached to requests are added to the following:</p>
+      <ul><li>For requests using Workfront storage, documents are added to the Documents section of the newly created request.</li>
+      <li>For requests using Adobe cloud storage, documents are added to a newly created folder by the same name as the request, automatically added to the request during the submission process. </li></ul>
+      <p>Your Workfront instance might not have both types of document storage.</p>
+      <p>Issue and request storage type is inherited from the project. </p>
+      <p>For more information, see <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Document management overview for projects and related objects</a>.</p>
+      
+      </td> 
      </tr> 
     </tbody> 
    </table>
@@ -216,38 +301,6 @@ You must have a request that you or someone in your organization previously subm
 
    The copied request is submitted as a new request in the request queue you specified.
 
-## Copy and submit requests in the new requesting experience
 
-You can copy and submit requests in the Requests area of Workfront, or from the My Requests widget in Home.
-
-{{step1-to-requests}}
-
-1. To access the My Requests widget in Home:
-   
-   {{step1-to-home}}
-
-   1. Locate the My Requests widget. 
-
-      For more information on the My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. In the **Requests** list or the **My Requests** widget in Home, hover over the request that you want to copy, then click the **More** menu ![More menu](assets/more-menu.png).  
-
-1. Click **Copy** 
-
-     Or
-
-     Right-click on the selected request, then click **Copy**.
-
-     >[!TIP]
-     >
-     >When you do not have access to create issues, you receive a warning that your administrator restricted you from creating requests.
-
-1. (Optional) Update any information from the copied request. Available fields depend on the Request Queue or Request Form used for the request.
-
-   When you enter or change any field values in the copied request, it is saved as a draft.
-
-1. Click **Submit**.
-
-   The copied request is submitted as a new request.
 
 

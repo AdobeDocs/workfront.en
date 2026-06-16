@@ -2,19 +2,49 @@
 product-area: projects
 navigation-topic: manage-projects
 title: Edit Projects
-description: You can edit a project in Adobe Workfront as often as needed. Ideally, you should edit a project when the project is in the Planning status. This article describes how you can search for, find, and edit a project, if you have the permissions to do so. 
+description: You can edit a project in Adobe Workfront as often as needed. Ideally, you should edit a project when the project is in the Planning status. This article describes how you can search for, find, and edit a project, if you have the permissions to do so.
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/MnBBlX0pGftQLRqy6tLxUpIezwXo9zPczxo65FpxneI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Edit projects
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -42,7 +72,8 @@ Ideally, you should edit a project when the project is in the Planning status. F
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any</p> </td> 
+   <td> <p>To set system-level exchange rates for the project and preserve project billing rates: Workflow Ultimate</p>
+      <p>To edit all other settings: Any Workfront or Workflow package</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -66,7 +97,8 @@ Ideally, you should edit a project when the project is in the Planning status. F
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,7 +127,8 @@ Ideally, you should edit a project when the project is in the Planning status. F
  </tbody> 
 </table>
 
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Limitations for editing projects
 
@@ -269,17 +302,27 @@ For information about creating a project from a template, see [Create a project 
          <td> <p>Specify the date when you select <strong>Schedule from Completion Date</strong>. </p> <p>This is a read-only field when you select <strong>Schedule from Start Date</strong>.<br></p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>Portfolio</strong></td> 
-         <td>Indicate a Portfolio that the project belongs to. You must create a Portfolio first, before it appears in the drop-down list. Only active portfolios can be associated with a project. For more information about creating portfolios, see <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Create a portfolio </a>.
-         <p><b>NOTE</b></p>
-         <p>You must have Manage permissions to the portfolio to be able to add or remove it to the project.</p>
+      <td role="rowheader"><strong>Portfolio</strong></td> 
+      <td>Indicate a Portfolio that the project belongs to. You must create a Portfolio first, before it appears in the drop-down list. Only active portfolios can be associated with a project. For more information about creating portfolios, see <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Create a portfolio </a>.
+      <p><b>NOTES</b></p>
+      <ul>
+      <li>You must have Manage permissions to the portfolio to be able to add or remove it to the project.</li>
+      <li>When your organization uses both legacy Workfront and Adobe cloud storage, you can't copy tasks between projects that use different storage types. </li>
+      <li>You cannot move a Legacy storage project to an Adobe cloud storage portfolio or program, or an Adobe cloud storage project to a Legacy portfolio or program.</li>
+      </ul> <p>Your Workfront instance might not have both types of document storage.</p>
+      For more information, see <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Document management overview for projects and related objects</a>. 
       </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Program</strong></td> 
          <td> <p>If you selected a Portfolio for the project, specify a Program for the project. Some Portfolios might not have Programs. You must create a Program first, before it appears in this drop-down list. Only active programs can be associated with a project. </p> <p>For more information about creating programs, see <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Create a program</a>.</p> 
-      <p><b>NOTE</b></p>
-         <p>You must have Manage permissions to the program to be able to add or remove it to the project.</p>   
+      <p><b>NOTES</b></p>
+      <ul>
+      <li>You must have Manage permissions to the program to be able to add or remove it to the project.</li>
+      <li>If your organization uses both Workfront and Adobe cloud storage for documents, you cannot associate a legacy Workfront storage project with an Adobe cloud storage program. The reverse is also true. Your Workfront instance might not have both types of document storage. Programs inherit the storage type from the portfolio they belong to. </li></ul> 
+
+      For more information, see <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Document management overview for projects and related objects</a>. 
+
       </td> 
       </tr> 
       <tr> 
@@ -362,7 +405,7 @@ To edit information on custom forms when editing a project:
 1. Begin editing your project as described above.
 1. Click **Custom Forms** in the left panel.
 
-   ![Cusrom forms in the edit project box](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
+   ![Custom forms in the edit project box](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
 1. Click the **Add custom form** box and select a form from the list to attach it to the project. By default, the first 40 forms display in alphabetical order. If you don't see the form in the list, start typing its name, then select it when it appears in the list. 
 
@@ -383,21 +426,20 @@ To edit information on custom forms when editing a project:
 
 Depending on your access level and on your permission on the project, the following scenarios exist:
 
-* If you have View access to Financial Data and View Finance permissions on the project, you can only view the fields in the Finance section. You cannot edit the fields in this section.
-* If you have Edit access to Financial Data and Manage Finance permissions on the project, you can update the fields in this section. 
+* If you have View access to Financial Data and View General Finance permissions on the project, you can only view the fields in the Finance section. You cannot edit the fields in this section.
+* If you have Edit access to Financial Data and Edit General Finance permissions on the project, you can update the fields in this section.
 
 When selecting more than one project to edit them in bulk and, the following scenarios exist:
 
-* If you select at least one project where you have View Finance (instead of Manage Finance) permissions, you can only view the fields in this section for all the selected projects. You cannot bulk-edit the fields in the Finance section.
-* If you select at least one project where you have no finance permissions, this section does not display at all. 
+* If you select at least one project where you have View General Finance (instead of Edit General Finance) permissions, you can only view the fields in this section for all the selected projects. You cannot bulk-edit the fields in the Finance section.
+* If you select at least one project where you have no finance permissions, this section does not display at all.
 
 To edit fields in the Finance area:
-
 
 1. Begin editing your project as described above.
 1. Click **Finance** in the left panel.
 
-   ![Finance area in the project edit box](assets/nwe-finance-in-edit-project-box-350x183.png)
+   ![Finance area in the project edit box](assets/edit-project-finance-section.png)
 
 1. Update the following financial information for the project:
 
@@ -405,9 +447,17 @@ To edit fields in the Finance area:
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong>Use date-effective exchange rates from the system</strong></td>
+      <td><p>When this option is selected, the system-level date-effective exchange rates are always used, and exchange rate overrides are not permitted on the project.</p> <p>You must also select the <strong>Exchange Rate Date</strong> to start from, when the option is selected.</p></td> 
+     </tr>
+     <tr>
+      <td><strong>Preserve project billing rates information</strong></td>
+      <td><p>When you enable this option, all assignment billing rates are permanently frozen to the highest applicable rate from the billing hierarchy. This is a one-time selection, and you cannot disable the option once the project has assignments or hours. After preservation, assignment billing rates cannot be changed, edited, or overridden anywhere on the project.</p></td>
+     </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Currency</strong> </td> 
-      <td> <p> <p>Specify the currency for the project, if it is different than the default currency of your system. You cannot change the currency of a project if there is already financial information on the project. This field is not visible if you have only the default currency in the system. </p> <p>For more information about currency, see <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.<br></p> </p> </td> 
+      <td> <p>Specify the currency for the project, if it is different than the default currency of your system. You cannot change the currency of a project if there is already financial information on the project. This field is not visible if you have only the default currency in the system. </p> <p>For more information about currency, see <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Budget</strong> </td> 
@@ -776,6 +826,10 @@ Consider the following when editing projects in bulk:
 
 * When you select multiple projects that belong to different groups, the statuses that display in the Status field are system-level statuses and not group-level statuses. 
 
+* When you select multiple projects that have different types of document storages and you want to update the Portfolio or the Program for the selected projects, you cannot associate a legacy Workfront storage project with an Adobe cloud storage portfolio. The reverse is also true. In this case, ensure you select only projects that have similar storage types at a time. 
+
+   Your Workfront instance might not have both types of document storage.
+
 To edit projects in bulk: 
 
 {{step1-to-projects}}
@@ -844,7 +898,8 @@ For more information about editing the Access area, see the section [Access](#ac
 1. Click **Save**. 
 
 
-<!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
+<!--
+ Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 
 ### Edit projects in bulk in the Production environment
 

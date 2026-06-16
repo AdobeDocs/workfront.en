@@ -5,18 +5,44 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
+TQID: https://experienceleague.adobe.com/tvmgfR5y2QbHo-ikCGHuJR-AbNzxikQtNqpHRNv7za0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Grant a user full administrative access
 
 <!--Audited: 12/2024-->
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. After your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+>
+>**Because all organizations have now been migrated to the Adobe Admin Console, the information in this article is no longer relevant, and will be removed in the near future.**
 >
 >For instructions on granting full administrator access in the Adobe Admin Console, see [Manage users in the Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
->
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 As an Adobe Workfront administrator, you can create another Workfront administrator by assigning them the System Administrator access level. A user with this access level has full administrative access to everything in Workfront, including items they did not create themselves.
 
@@ -25,7 +51,7 @@ As an Adobe Workfront administrator, you can create another Workfront administra
 >This is different from using an access level to grant users administrative access to certain areas of the system. For more information, see the following:
 >
 >* [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) 
->* [Access of a Workfront administrator vs. access of a Plan user with administrative rights](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) in this article
+>* [Access of a Workfront administrator vs. access of a Standard or Plan user with administrative rights](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) in this article
 >
 
 ## Access requirements
@@ -72,17 +98,17 @@ For more detail about the information in this table, see [Access requirements in
 
    The user now has full System Administrator rights in the system.
 
-## Access of a Workfront administrator vs. access of a Plan user with administrative rights  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
+## Access of a Workfront administrator vs. access of a Standard or Plan user with administrative rights  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
 
-The two tables below show the difference between the access rights of a user with a Workfront System Administrator access level versus those of a user with a Plan license with some administrative rights.
+The two tables below show the difference between the access rights of a user with a Workfront System Administrator access level versus those of a user with a Standard or Plan license with some administrative rights.
 
 Workfront administrators can view all the objects in the system (regardless of who created them), create new ones, and modify or delete existing ones. They have full access to all objects in the system.
 
-Users with a Plan license who can edit functionality in one area have full access to the functionality in that area.
+Users with a Standard or Plan license who can edit functionality in one area have full access to the functionality in that area.
 
 >[!NOTE]
 >
->Users with a Plan license who are designated as group administrators can perform some of the actions allowed for Workfront administrators. They are allowed to perform these actions only for the groups they administer, their subgroups, and the users in these groups and subgroups. For more information, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+>Users with a Standard or Plan license who are designated as group administrators can perform some of the actions allowed for Workfront administrators. They are allowed to perform these actions only for the groups they administer, their subgroups, and the users in these groups and subgroups. For more information, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
 * [Access to the Setup area](#access-to-the-setup-area)
 * [Access to objects](#access-to-objects)
@@ -97,7 +123,7 @@ Users with a Plan license who can edit functionality in one area have full acces
   <tr> 
    <th>Area/object</th> 
    <th>Workfront administrator </th> 
-   <th>User with a Plan license and some administrative rights</th> 
+   <th>User with a Standard or Plan license and some administrative rights</th> 
   </tr> 
  </thead> 
  <tbody> 

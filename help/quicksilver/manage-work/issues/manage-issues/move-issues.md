@@ -6,14 +6,40 @@ description: You can move issues between projects and tasks.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/lGDC7Da-QD5o3ItkgZ96T2el-yLo-j1hzzzMz0cj5mw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Move issues
 
 <!--Audited: 12/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 You can move issues between the following objects:
 
@@ -59,7 +85,8 @@ You can move issues between the following objects:
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -89,7 +116,8 @@ You can move issues between the following objects:
    <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are moving the issue with the ability to Add Issues.</td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerations about moving issues
 
@@ -100,6 +128,9 @@ Consider the following when moving issues that contain documents or are associat
 * **When an issue is associated with a requests queue:** When you move an issue to another object and the issue is associated with a request queue, the moved issue is no longer associated with the original queue the first issue originated from.
 * **When a document is attached to the issue:** When you move an issue to another object and the issue has a document attached to it, the document, its versions and proofs also move to the new issue. Any approvals associated with the document do not move.
 * **When an issue is linked to a document or a folder:** When you move an issue which has documents or folders linked to a a third party service like Google Drive, the links to the documents move with the issue. 
+* **When you move issues between projects with different storage types**: You cannot copy an issue from a legacy Workfront storage project to an Adobe cloud storage project. The reverse is also true. Your Workfront instance might not have both types of document storage.
+
+   For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 ## Move issues in a list
 

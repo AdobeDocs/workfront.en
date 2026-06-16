@@ -6,6 +6,21 @@ description: The Done button can automatically set the status of a task or an is
 author: Courtney
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/ZQT-PUcRNi1GlWSCM3BKiw3TCT-te2-MeE8YQKtKiBw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure the [!UICONTROL Done] button for issues
 
@@ -19,7 +34,7 @@ The [!UICONTROL Done] button can automatically set the status of a task or an is
 
 Users with certain permissions can configure the [!UICONTROL Done] button to reflect certain statuses in the system. There are 3 different ways the [!UICONTROL Done] button works for issues in [!DNL Workfront]:
 
-* If the user has an assigned [!UICONTROL Home Team], a [!DNL Workfront] administrator or a user with a [!UICONTROL Plan] license can configure the [!UICONTROL Done] button to reflect certain statuses for team members. See [Configure the [!UICONTROL Done] button for a Team](#configure-the-uicontrol-done-button-for-a-team) in this article.
+* If the user has an assigned [!UICONTROL Home Team], a [!DNL Workfront] administrator or a user with a [!UICONTROL Standard] or [!UICONTROL Plan] license can configure the [!UICONTROL Done] button to reflect certain statuses for team members. See [Configure the [!UICONTROL Done] button for a Team](#configure-the-uicontrol-done-button-for-a-team) in this article.
 * If the user does not have a [!UICONTROL Home Team], but they have [!UICONTROL Other Teams] in their profile, Workfront searches for the setting of the [!UICONTROL Done] button on any of the teams associated with the user. The selection is random and the status associated with any of the teams is used for the issue. 
 * If the user does not have a [!UICONTROL Home Team] assigned, the [!UICONTROL Done] button for issues is tied to a system-generated [!UICONTROL Resolved] status that has the three-letter code [!UICONTROL RLV]. There are no configuration options available in this scenario. The [!UICONTROL Done] button automatically defaults to this status.
 * If the [!UICONTROL Resolved] ([!UICONTROL RLV]) status is deleted and the user marking the issue as [!UICONTROL Done] has no [!UICONTROL Home Team], the default issue status is tied to whatever is set as the default for [!UICONTROL Closed] for the group assigned to the project the issue belongs to. The Workfront administrator can configure a system-wide default setting for the group. See [Configure the [!UICONTROL Done] button when the [!UICONTROL Resolved] status has been deleted](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) in this article.

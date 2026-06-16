@@ -5,18 +5,29 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/5g4EStBQBGan2lmo6KhpW-4OzCbNflC70yGd8qbNH4A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Manage users in the Adobe Admin Console
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
-
->[!IMPORTANT]
->
->The functionality in this article is available only if your organization's instance of Workfront has been onboarded to the Adobe Business Platform.
->
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 As an Adobe administrator, you can create Adobe Workfront system administrators using the Adobe Admin Console. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the [Admin Console Overview](https://helpx.adobe.com/enterprise/using/admin-console.html).
 
@@ -93,7 +104,7 @@ Before using the Admin Console for Workfront, you should receive an email inviti
   >
   >Do not make any changes to the Product Profile itself.
 
-* Adobe Admin Console administrators can set up automatic assignment rules to automate the process of assigning Adobe products to users in their organization. Your organization must be migrated to the Adobe Unified Experience to use this functionality. For more information and instructions, see [Manage automatic assignment rules](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html) in the Adobe documentation.
+* Adobe Admin Console administrators can set up automatic assignment rules to automate the process of assigning Adobe products to users in their organization. For more information and instructions, see [Manage automatic assignment rules](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html) in the Adobe documentation.
 
    >[!NOTE]
    >

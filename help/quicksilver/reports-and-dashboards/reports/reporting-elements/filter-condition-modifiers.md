@@ -6,6 +6,20 @@ description: The filter and condition modifiers allow you to build filters and e
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/-zma9k-MyCFD5wrcn9ggAoPnKjwAmunEVgl33yhH-Mk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Filter and condition modifiers
 

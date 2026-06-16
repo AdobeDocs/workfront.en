@@ -6,12 +6,34 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/ydcYvw38Xrlh0QQz0FSI4RBsewDKL2r2Yf1m0tl83jc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create record types by importing information from a CSV or Excel file
 
+<!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -55,7 +77,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -111,7 +134,8 @@ For more information about Workfront access requirements, see [Access requiremen
   </tr> 
  
 </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Considerations about importing record types using an Excel or CSV file
@@ -128,14 +152,14 @@ For more information about Workfront access requirements, see [Access requiremen
 * Empty sheets are not supported. 
 * Fields of the following types are not supported and cannot be mapped to fields on the import sheet:
 
-    * Connection fields to Workfront, AEM Assets object types, or GenStudio Brands.
-    * Lookup fields from connected Planning records, Workfront, AEM Assets objects or GenStudio Brands.
+    * Connection fields to Workfront, Adobe Experience Manager object types, or GenStudio Brands.
+    * Lookup fields from connected Planning records, Workfront, Adobe Experience Manager objects or GenStudio Brands.
     * Formula fields
     * Created date, Created by
     * Last modified date, Last modified by
     * Approved date, Approved by
     * People
-    * <span class="preview">Record ID</span>
+    * Record ID
 
 To import record types using an Excel or CSV file: 
 
@@ -146,6 +170,14 @@ To import record types using an Excel or CSV file:
     Or
 
     From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
+
+   >[!TIP]
+   >
+   >You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for workspaces:
+   >
+   >* CTRL+K for Windows
+   >* ⌘+K for Mac
+
 1. Click **Add record type**. 
 1. Click **Upload from file**.
 1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one, then select it. 
@@ -185,7 +217,7 @@ To import record types using an Excel or CSV file:
 
     >[!TIP]
     >
-    >You can only map to fields from Workfront Planning connected records. You cannot map to fields from Workfront, AEM Assets, or GenStudio Brands connections. For more information, see the section [Considerations about importing record types using an Excel or CSV file](#considerations-about-importing-record-types-using-an-excel-or-csv-file) in this article.
+    >You can only map to fields from Workfront Planning connected records. You cannot map to fields from Workfront, Adobe Experience Manager, or GenStudio Brands connections. For more information, see the section [Considerations about importing record types using an Excel or CSV file](#considerations-about-importing-record-types-using-an-excel-or-csv-file) in this article.
 
 1. (Conditional) After updating information about the field, click **Save**.
 

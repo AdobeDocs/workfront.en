@@ -7,6 +7,24 @@ author: Lisa
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/9X3rS1inVMen909T07aYLhn3tD1HiwKvzx-uSu8FVN4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Log time
 
@@ -356,7 +374,8 @@ Additionally, to log time for an item in the My Work widget:
 
    The **Total Hours** field in the Log time box displays all hours logged for the project, task, or issue by all users. 
 
-<!--#### Log time on a work item from the legacy Home area
+<!--
+#### Log time on a work item from the legacy Home area
 
 1. In the **Work List** area, select the item where you want to log time.
 1. In the right panel, click **Log Time**.  
@@ -368,7 +387,8 @@ Additionally, to log time for an item in the My Work widget:
 1. (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 1. Specify the time you want to log, then click **Log Time**.
 
-   The logged time displays in the object's Hours section, nad in your timesheet. -->
+   The logged time displays in the object's Hours section, nad in your timesheet.
+   -->
 
 ### Project, task, or issue {#project-task-or-issue}
 

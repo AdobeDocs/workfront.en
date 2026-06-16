@@ -1,12 +1,19 @@
 ---
 content-type: release-notes
-title: 'Adobe Workfront Planning Release Activity: Article Index'
+title: "Adobe Workfront Planning Release Activity: Article Index"
 description: This is the release activity for the Adobe Workfront Planning product.
 author: Alina, Courtney
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
+TQID: https://experienceleague.adobe.com/WfACzd26qbiMADECjBjQUd8a-NzxLv15rSj31AZ-9Ng
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Adobe Workfront Planning release activity: article index
 
@@ -16,7 +23,7 @@ This article contains a list of release activity articles about the Adobe Workfr
 
 For information about the current Workfront Planning release activity, see the following article: 
 
-* [Second Quarter 2026 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
+* [Third Quarter 2026 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)
 
 
 
@@ -27,6 +34,7 @@ For information about the current Workfront Planning release activity, see the f
 For information about features released prior to the Production release on January 16 2026, see the following articles: 
 
 * 2026
+    * [Second Quarter 2026 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
     * [First Quarter 2026 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
 
 * 2025

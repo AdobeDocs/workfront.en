@@ -8,6 +8,23 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
+TQID: https://experienceleague.adobe.com/q1AaAmCj7h-4PsuPXTFuw-e-t3UYu-pVCdv53DQHyDk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create or edit a group status
 
@@ -84,11 +101,12 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    Or
 
-   To edit an existing status, mouse over the status you want to edit, then click the **Edit** option that displays to the far right.
+   If you are editing an existing status, click the checkbox for that status, then click **Edit** in the banner at the bottom of the screen.
 
-   ![Group statuses](assets/group-statuses-edit.jpg)
+   ![Group statuses](assets/group-statuses-edit-new.png)
 
    >[!NOTE]
+   >
    >You can edit a status for your group only if:
    >      
    >* You manage the group that the status was created for
@@ -160,15 +178,16 @@ If you are a group administrator (or a Workfront administrator), you can create 
 
 1. If you are a Workfront administrator, create a system-wide unlocked status as described in [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 1. In the box in the upper-right corner, delete **System Statuses**, begin typing the name of a group where you want to hide the status, then click the name when it appears.
-1. Hover over the status you want to hide from the group, then click **Edit** when it appears.
+1. Click the checkbox for the status you want to edit, then click **Edit** in the banner at the bottom of the screen.
 
-   ![Edit status](assets/hover-click-edit.jpg)
+
+   ![Edit status](assets/group-statuses-edit-new.png)
 
 1. Enable the **Hide Status** option that appears.
 
    ![Hide status](assets/hide-group-status.png)
 
-1. Click **Save**.
+1. Click **Update**.
 
    The status is dimmed and no longer visible to all users in that group.
 

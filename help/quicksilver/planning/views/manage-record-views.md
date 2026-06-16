@@ -6,8 +6,27 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/Uq0-7VfCb4nKr2xCXKmtJgwh0q-0iwTfu8mP2DgVBSU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 # Manage record views
 
 <!--
@@ -95,12 +114,7 @@ For more information about managing Workfront Planning record views, also see th
    <td>   <p>Manage permissions to a view</p>  
    <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
   </tr> 
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
-</td>
-  </tr> 
+
 </tbody> 
 </table> 
 
@@ -109,7 +123,8 @@ For more information about Workfront access requirements, see [Access requiremen
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -171,7 +186,8 @@ For more information about Workfront access requirements, see [Access requiremen
 </td>
   </tr>
 </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerations when working with record views
 
@@ -275,6 +291,16 @@ For information about list views, see [Manage the list view](/help/quicksilver/p
     ![Create view box](assets/create-view-box.png)   
 
 1. (Optional) To edit an existing view, click the drop-down menu to the right of the current view's name, then type the name of a view in the **Search** field and press Enter on your keyboard.
+
+    >[!TIP]
+    >
+    >You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for views :
+    >
+    >* CTRL+K for Windows 
+    >* ⌘+K for Mac
+    >
+    >![Global search box](assets/global-search-box.png)
+
 1. (Optional) From the view dropdown menu, drag and drop views in order of your preference.
 
     ![View types drop-down from record type list](assets/view-types-drop-down-from-record-type-list.png)

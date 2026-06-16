@@ -6,9 +6,17 @@ author: Lisa
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-hide: yes
-hidefromtoc: yes
+hide: true
 exl-id: 32c616b2-5bba-434e-9918-c27f6518693d
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/8cp64ljvxCaGBh-1eGxVc6llJ6xFZwdBXur1AkIxaHk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Second Quarter 2026 release activity for Adobe Workfront limited availability features
 
@@ -58,7 +66,8 @@ Once preservation is activated, it cannot be turned off.
 
 When you copy a staffing plan that has the flag turned on, the flag is automatically turned off on the copy. The resource manager must turn the flag on if it is needed on the new staffing plan.
 
-<!--### Title
+<!--
+### Title
 
 >[!NOTE]
 >

@@ -6,12 +6,32 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/uUnIDCZ1-906MSz5B8La-9cu0k4pabUarBuUE9t8zhw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Manage record comments
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -48,16 +68,10 @@ The right panel of a record displays the following sections:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>View or higher permissions to a workspace and record type</p>  
+   <td>   <p>View or higher permissions to a workspace, record type, and <span class="preview">record</span></p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
-  </tr> 
-  <tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
-</td>
-  </tr>  
+  </tr>   
 </tbody> 
 </table> 
 
@@ -65,7 +79,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++  
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -127,9 +142,8 @@ For more information about Workfront access requirements, see [Access requiremen
 </td>
   </tr>
 </tbody> 
-</table> -->
-
-
+</table>
+-->
 
 ## Considerations about commenting on a record
 
@@ -146,10 +160,6 @@ For more information about Workfront access requirements, see [Access requiremen
    For example, comments added to projects in Workfront do not display on the same project linked to a campaign in Workfront Planning, and comments added to the project Workfront Planning record don't display in Workfront. 
 
 * You can tag users or teams to bring their attention to an update. Both individually Tagged users and users from the tagged teams receive an in-app notification and an email about your update. 
-
-   >[!NOTE]
-   >
-   >   Only users from customers who have onboarded with the Adobe Unified Experience receive both an in-app notification and an email notification. To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
       
 * You can add an update to records and review the history of changes from the following areas of Workfront Planning:
 
@@ -185,7 +195,7 @@ For more information about Workfront access requirements, see [Access requiremen
 1. (Optional) To undo or redo a change, use the following shortcut keys:
       * CTRL + Z (⌘+z for Mac) to undo a change 
       * CTRL + Y (⌘+y for Mac) to redo a change 
-1. (Optional and conditional) If your Workfront instance is part of the Adobe Unified Experience, add **@** followed by the name of a user or of a team to tag them in the update. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article.
+1. Add **@** followed by the name of a user or of a team to tag them in the update. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article.
 
 1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, or links to your update, to enhance your content. 
 
@@ -232,7 +242,8 @@ For more information about Workfront access requirements, see [Access requiremen
     * **Copy body text**: This copies the text of the comment to your clipboard.
     * **Quote reply**: This copies the content of your comment into a new reply. Images are not included in the copied reply. 
 
-    For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). -->
+    For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+    -->
 
 ## History section overview
 

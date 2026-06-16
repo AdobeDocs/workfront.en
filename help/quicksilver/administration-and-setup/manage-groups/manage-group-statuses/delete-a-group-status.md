@@ -8,6 +8,19 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
+TQID: https://experienceleague.adobe.com/v22T-oPz-Tx6iizM-CHAoxpaJklqGeb9kbd5-VluHtg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Delete a group status
 
@@ -57,9 +70,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. In the left panel, click **Groups**.
 1. Click the name of the top-level group.
 1. In the left panel click **Statuses**.
-1. In the list of statuses that displays, hover over the status you want to delete, then click **Delete** when it appears to the far right.
+1. In the list of statuses that displays, click the checkbox for the status you want to delete, then click **Delete** in the banner at the botton of the screen.
 
-   ![Delete](assets/hover-click-delete.jpg)
+   ![Delete](assets/delete-status.png)
 
 1. In the box that displays, select a status to designate a replacement status for objects (projects, tasks, issues, and approval processes) that were using the status that you are deleting.
 
@@ -78,7 +91,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
         For information about the default Workfront statuses, see [Access the list of system project statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [Access the list of system task statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md), and the information about the 4 required issue statuses in [Access the list of system issue statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
 
-1. Click **Delete Status**.
+1. Click **Delete**.
 
    If the deleted status was the default status for that type in the group, the replacement status takes its place.
 

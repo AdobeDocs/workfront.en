@@ -8,8 +8,32 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
+last-update: 2026-04-29T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/4536sfZCe8ugbGGuFUQeyFXnNNifG0e5MZ4npIlH1iI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure basic information for your system
+
+{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -58,26 +82,19 @@ To access the Customer Info page:
 
    The sections available in the Customer Info area are:
 
-   * **Basic Info**
-
-     For information about configuring basic information in Workfront, see [Configure Basic Info](#configure-basic-info).
-   
-   * **API Key Settings**
-
-     For information about API key settings, see [Manage API keys](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
-   
-   * **IP Allowlist**
-
-     For information about adding the IP addresses to your allowlist for where your users can access Workfront, see [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
-   
-   * **Email Allowlist**
-
-     For information about adding emails to your allowlist, see [Configure your email allowlist](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+   | Section | More information |
+   |---------|-----------------|
+   | **Basic Info** | For information about configuring basic information in Workfront, see [Configure Basic Info](#configure-basic-info). |
+   | <span class="preview">**Storage Overview**</span> | <span class="preview">For information about checking document storage usage and quota, see [Check document storage limits](../../documents/managing-documents/check-document-storage.md).</span> |
+   | **API Key Settings** | For information about API key settings, see [Manage API keys](../../administration-and-setup/manage-workfront/security/manage-api-keys.md). |
+   | **IP Allowlist** | For information about adding the IP addresses to your allowlist for where your users can access Workfront, see [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md). |
+   | **Email Allowlist** | For information about adding emails to your allowlist, see [Configure your email allowlist](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md). |
 
    <!--
    * **License**
 
-     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).-->
+     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     -->
 
 ## Configure Basic Info {#configure-basic-info}
 
@@ -123,14 +140,6 @@ To configure your Basic Info section in your Customer Info area:
       <td role="rowheader">Default Email Locale</td> 
       <td>Controls the language, date, and number format used in outgoing email messages. The locale selected here is the default when new users are created. Users can modify their locale, in their user profile. When users modify their locale, the language, date and number format in their emails from Workfront match their profile preferences. For more information about modifying your profile preferences, see <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configure My Settings</a>.</td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Storage Quota</td> 
-      <td> <p>This is the amount of document storage space available in your Workfront instance.<br>The quota contains documents that you upload directly to Workfront.<br>It does not include:</p> 
-       <ul> 
-        <li>Documents you link to Workfront from any other third-party service provider (SharePoint, Google Drive, Webdam, Box, Dropbox, any other Document Asset Management provider).</li> 
-        <li>Your Workfront data (projects, tasks, issues, users, and so forth).</li> 
-       </ul> </td> 
-     </tr>
     </tbody> 
    </table>
 

@@ -7,6 +7,30 @@ description: A Resolvable Object is an issue whose resolution is tied to a Resol
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/hJjssjxhgj3-0qndsIKMN5ygISRlv2GlE1HRKW68kdQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Overview of Resolving and Resolvable Objects
 
@@ -32,7 +56,8 @@ You can select to keep the Resolvable Object as you are converting it to a task 
 
 For information about setting up preferences for handling Resolvable Objects, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: drafted and just pointed the user to the article linked above) </p>
 <p>To establish the system default for what happens to the issue as it is being converted to a task or a project:</p>
@@ -82,7 +107,8 @@ The following scenarios exist:
 
 For more information about converting issues to tasks and projects, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Tie the resolution of an issue to a project, task or </h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: created new article for this section; draft when the article is live and see if you need to make a link from this one to the new article) </p>

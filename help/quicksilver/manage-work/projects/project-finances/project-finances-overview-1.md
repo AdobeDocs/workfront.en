@@ -7,6 +7,28 @@ description: Keeping track of project finances is critical to managing your proj
 author: Lisa
 feature: Work Management
 exl-id: a5e69dea-d0aa-47cd-9b59-6199cec56fe4
+TQID: https://experienceleague.adobe.com/NS9X5ri9U7PTr7V7wn2nDlFsQUNubSidYHCY-YbVejQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Project finances fields
 
@@ -89,7 +111,7 @@ The following table shows some of the finances that you can keep track of in Wor
   </tr> 
   <tr> 
    <td>Billing Rates</td> 
-   <td> <p>You can establish Billing Rates for users or job roles.</p> <p>For information about associating users with billing rates, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> <p>For information about associating job roles with billing rates, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.</p> <p>Billing Rates calculate the Revenue of your projects and tasks. You can override role billing rates for a project or for a company. </p> <p>For information about overriding billing rates on projects, see <a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">Overview of overriding Job Role Billing Rates and calculating Revenue on a project</a>.</p> <p>For information about overriding billing rates for companies, see <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Override Project-Level Billing Rates with Company-Level Billing Rates</a>.</p> </td> 
+   <td> <p>You can establish Billing Rates for users or job roles.</p> <p>For information about associating users with billing rates, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> <p>For information about associating job roles with billing rates, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.</p> <p>Billing Rates calculate the Revenue of your projects and tasks. You can override role billing rates for a project or for a company. </p> <p>For information about overriding billing rates on projects, see <a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">Overview of overriding billing rates and calculating revenue on a project</a>.</p> <p>For information about overriding billing rates for companies, see <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Override Project-Level Billing Rates with Company-Level Billing Rates</a>.</p> </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 

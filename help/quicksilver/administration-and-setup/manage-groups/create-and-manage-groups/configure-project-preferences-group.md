@@ -8,13 +8,35 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/M1sUtzh8L67WsLeWBQxSZxbEF2pJ6152-WWyc8jNnsA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure project preferences for a group
 
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 If you are a group administrator and an Adobe Workfront administrator unlocks a project preference for all groups in the system, you can configure that preference for your group to affect all subsequent projects that your group creates.
 
@@ -225,7 +247,8 @@ Configure any of the following preferences for newly created projects associated
      <li><strong>Typical work days per week</strong>: Set the standard workweek for the users who will be working on projects. The default is 5 days.</li> 
     </ul> <p>These 2 options convert days to hours, or weeks to days.</p> <p>For example, if you have a task with 8 Planned Hours and the duration is calculated based on Planned Hours, Workfront converts those hours into days in order to show the Duration as days.</p> <p>From the Typical work days per week field, Workfront calculates the Full Time Equivalent (FTE) value for your system. This is what Workfront uses when calculating allocations for users.</p> <p>These values are used when you are planning projects timelines, budgeting for resources, or logging time against projects. </p> <p>They are not used when you are establishing timesheets for users in the system, as described in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Configure timesheet and hour preferences</a>.</p> <p><b>NOTE</b>: Workfront administrators cannot unlock Timeline Calculations preferences.</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <!--
+  <tr> 
    <td role="rowheader"> <p><strong>Custom Quarters</strong> </p> </td> 
    <td> 
    <span class="preview">The Custom Quarters area has been removed from the Group's Project Preferences section in the Preview environment.</span>
@@ -234,6 +257,7 @@ Configure any of the following preferences for newly created projects associated
    <p>You cannot change the Custom Quarter configuration as a group administrator. <p>Workfront administrators cannot unlock Custom Quarters preferences so that group administrators can manage it.</p> <p>The Custom Quarters area is read-only for group administrators.</p>
    </td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 

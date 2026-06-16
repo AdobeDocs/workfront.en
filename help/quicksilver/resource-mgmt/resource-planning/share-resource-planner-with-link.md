@@ -6,6 +6,26 @@ description: Adobe Workfront can generate a unique URL for the User View of the 
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
+TQID: https://experienceleague.adobe.com/C6VONkwVFolewhXNwvuYv4WWMx6Ee5v6w9vEgFPgUow
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Share the Resource Planner user view with a link
 
@@ -33,7 +53,7 @@ Adobe Workfront can generate a unique URL for the User View of the Resource Plan
   </tr> 
   <tr> 
    <td>Access level configurations</td> 
-   <td> <p>View or higher access to Resource Management, Projects, and Users</p> <p>View access to Financial Data to view cost information</p></td> 
+   <td> <p>View or higher access to Resource Management, Projects, and Users</p> <p>View access to Financial Data that includes access to View Cost Rates and View General Finance, to view cost information</p></td> 
   </tr> 
   <tr> 
    <td>Object permissions</td> 
@@ -49,7 +69,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 Consider the following when generating the unique URL for the User View of the Resource Planner:
 
 * You can obtain a unique URL only for the User View. The option to generate the URL does not exist in the Project or Role Views. 
-* You can share the URL with other users, including Work and Review licensed users.   
+* You can share the URL with other users, including Work, Contributor, and Review licensed users.   
   They must have access to view other users in order to view the information in the Resource Planner from the URL that you share with them. 
 * The following information is saved when you share the URL with other users:
 

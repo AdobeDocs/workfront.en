@@ -7,6 +7,16 @@ description: Workfront Proof enables you to view reports so you can track the wo
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 342f9282-b6f5-425e-a7ef-e23bd011d284
+TQID: https://experienceleague.adobe.com/85Z2YFfmz4zUV2oIkQFUDFOYVtLFgiGh44KEm6pAlr4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Run Reports in [!DNL Workfront Proof]
 

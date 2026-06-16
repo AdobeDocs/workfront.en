@@ -8,6 +8,28 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/C-en7a6FEP75vl3HwJC-uDI4tEKVCcEgMzhClAK5C8k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create and modify custom access levels
 
@@ -116,17 +138,6 @@ For more detail about the information in this table, see [Access requirements in
        </ul><p><b>NOTE</b>: This does not allow the user to create new Expense Types.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Job roles</td> 
-      <td> With this access, the user is allowed to do the following: 
-       <ul> 
-        <li>View and edit existing job roles</li> 
-        <li>Add new job roles</li> 
-        <li>Edit role billing and cost rates</li> 
-       </ul> 
-       <p>For important information about access to financial data that is available to a Standard or Planner user with administrative access to job roles, see <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Standard or Planner users with administrative access to job roles</a>.</p>
-      </td> 
-     </tr> 
-     <tr> 
       <td role="rowheader">Milestones in my group</td> 
       <td>View all the milestone paths in the system under the Milestone Paths menu in Setup. Users can also edit or delete any milestone paths belonging to any of their groups. Users cannot manage (edit or delete) milestone paths that are not assigned to their of groups.<p>Without this access, users can only view existing milestone paths and apply them to projects they have access to manage.</p></td> 
      </tr> 
@@ -185,8 +196,21 @@ For more detail about the information in this table, see [Access requirements in
       <td role="rowheader">Never allow users to delete announcements</td> 
       <td>Prevents users from deleting announcements in the Announcement Center. For more information, see <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Send announcements</a>.</td> 
      </tr> 
+     <tr>
+      <td role="rowheader">Allow users to access Brands</td> 
+      <td>Allows users to access and manage GenStudio Brands in Workfront. For more information, see <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">Grant access to brand permissions</a>.</td> 
+     </tr>
     </tbody> 
    </table>
+
+
+1. (Optional) To restrict users with this access level from seeing specific fields, add the fields in the Add restricted fields section.</span>
+ 
+   You can search for both native and custom fields in this section. There is a limit of 20 restricted fields.
+
+   The fields are restricted when the access level is assigned to a user as their primary access level or through a business profile. For more information on business profiles, see [Business profiles overview](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
+
+   A restricted field is still visible to the users in the system, but appears as blank or displays N/A instead of actual data.
 
 1. (Conditional and optional) If your Workfront system is set up for users that belong to multiple companies, restrict the visibility to other users based on what company they belong to in the section **People in other companies should only view users from**.
 
@@ -205,6 +229,8 @@ For more detail about the information in this table, see [Access requirements in
    
    For information about how an Adobe administrator assigns a System Administrator access level to a users, see [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
+<!--
+
 ## Standard or Planner users with administrative access to job roles {#planner-users}
 
 If you grant a Standard or Planner user administrative access to job roles, the Edit Role Billing &amp; Cost Rates setting is automatically enabled for the user automatically.
@@ -213,5 +239,19 @@ Later, if you disable administrative access to job roles for the user, job roles
 
 If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting. For instructions, see [Grant access to financial data](grant-access-financial.md).
 
+
+     <tr> 
+      <td role="rowheader">Job roles</td> 
+      <td> With this access, the user is allowed to do the following: 
+       <ul> 
+        <li>View and edit existing job roles</li> 
+        <li>Add new job roles</li> 
+        <li>Edit role billing and cost rates</li> 
+       </ul> 
+       <p>For important information about access to financial data that is available to a Standard or Planner user with administrative access to job roles, see <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Standard or Planner users with administrative access to job roles</a>.</p>
+      </td> 
+     </tr> 
+
+-->
 
 

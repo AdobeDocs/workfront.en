@@ -6,6 +6,21 @@ description: You can delete documents you upload. If you're given manage access 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/k-FsNhGRVVNhwhStjh-LoYrAxv1wEyd8-4jnSDrjWEA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Delete documents
 
@@ -21,7 +36,8 @@ You can delete documents you upload. If you're given manage access to specific d
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p> Any</p> </td> 
+   <td><p>Any Workfront package to manage documents using legacy Workfront storage</p>
+<p>Any Workflow package to manage documents using Adobe cloud storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses</td> 
@@ -46,7 +62,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Delete a document in the legacy documents area
 
-If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe cloud storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 To delete a document:
 
@@ -62,9 +78,9 @@ To delete a document:
     ![delete documents](assets/delete-documents-legacy.png)
 
 
-## Delete a document in the new documents area
+## Delete a document in the new Documents area
 
-If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 To delete a document:
 

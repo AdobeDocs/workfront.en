@@ -6,17 +6,38 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/y0YxGD8b6EflLQ2HyUM2I5Te-vwicjZmO3bsbXJx0LM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 <!--this is linked to the UI in an empty workspace screen-->
 
 <!--keep the yellow for cross-workspace functionality till Jan 2026-->
 
 # Create record types
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -75,7 +96,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++   
 
-<!--Old:
+<!--
+Old:
  <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -130,7 +152,8 @@ For more information about Workfront access requirements, see [Access requiremen
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerations about creating record types 
 
@@ -143,7 +166,7 @@ For more information about Workfront access requirements, see [Access requiremen
 
         * When you import them using a CSV or Excel file. 
 
-            For more information, see [Create Record Types by importing information from a CSV or Excel file](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
+            For more information, see the section [Create Record Types by importing information from a CSV or Excel file](#create-record-types-by-importing-information-from-a-csv-or-excel-file) in this article. 
 
         >[!TIP]
         >
@@ -156,7 +179,7 @@ For more information about Workfront access requirements, see [Access requiremen
             This article describes how you create record types from scratch.    
 
         * By adding them from another workspace
-            For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). 
+            For information, seethe section [Create record types by adding existing ones from another workspace](#create-record-types-by-adding-existing-ones-from-another-workspace) in this article. 
 
 
 * You can move record types within a section and from one section of a workspace to another. You cannot move record types from one workspace to another workspace. 
@@ -185,6 +208,16 @@ You can manually add record types in both the Operational Record Types and Taxon
     Or
 
     From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
+
+    >[!TIP]
+    >
+    >You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for workspaces:
+    >
+    >* CTRL+K for Windows
+    >* ⌘+K for Mac
+    >
+    >![Global search box](assets/global-search-box.png)
+
 1. (Optional) Click **Add section** to add a new section to the workspace.
 1. Click **Add record type**, then **Add manually**. 
 

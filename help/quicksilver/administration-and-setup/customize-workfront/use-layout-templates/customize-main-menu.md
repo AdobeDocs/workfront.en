@@ -8,6 +8,28 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
+TQID: https://experienceleague.adobe.com/g6y6RsDNuEDBGZBrZXxhyFZ2-z1EUr5yflGDQQ7AhdQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Customize the Main Menu using a layout template
 
@@ -19,7 +41,7 @@ As an Adobe Workfront administrator or a group administrator, you can use a layo
 >
 >The Main Menu options that users see depend on their license type and what settings are configured in their access level. Some users who will use this layout template may not see all the options you choose here. For more information see [How access levels and permissions work together](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) and [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 >
->You might see different options in the Main Menu if your organization has been onboarded on the Adobe Workfront Unified Experience. For information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
+>You might see different options in the Main Menu after your organization has been onboarded on the Adobe Workfront Unified Experience. For information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
 
 For information about creating layout templates, see [Create and manage layout templates](../use-layout-templates/create-and-manage-layout-templates.md). 
 
@@ -114,13 +136,24 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
       >[!NOTE]
       >
-      > Custom applications must be created separately before they become available as Main Menu options. For more information, see [Create a custom application for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md). 
+      > Custom applications must be created separately before they become available as Main Menu options. For more information, see [Create a custom application for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
-1. Do any of the following:
+In the Preview environment:
 
-   * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) **Active items** that you don't want to display
-   * Show ![Show icon](assets/add-icon-plus-in-circle.png) **Available items** that you do want to display on the Main Menu.
-   * Drag ![Drag icon](assets/move-icon---dots.png) **Active items** to change their display order on the Main Menu.
+1. Do any of the following for the **Native** items:
+
+   * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) items that you don't want to display on the Main Menu.
+   * Show ![Show icon](assets/add-icon-plus-in-circle.png) items that you do want to display on the Main Menu.
+   * Drag ![Drag icon](assets/move-icon---dots.png) items to change their display order on the Main Menu.
+
+1. Do any of the following for the **System** items:
+
+   * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) items that you don't want to display on the Main Menu.
+   * Show ![Show icon](assets/add-icon-plus-in-circle.png) items that you do want to display on the Main Menu.
+
+   >[!NOTE]
+   >
+   >You can't change the order of system items. These items always display at the bottom of the Main Menu when they are active.
 
 1. Click **Done**.
 

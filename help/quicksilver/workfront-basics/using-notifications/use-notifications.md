@@ -7,6 +7,13 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c609c51d-df67-49bb-8fe3-8962a5270cc9
+TQID: https://experienceleague.adobe.com/ot65gZ-4AM5ywoHELcNRk-Xvzn356JSaOvD5vJdqQX4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Use notifications: article index
 
@@ -24,7 +31,7 @@ This section contains the following articles:
 * [Enable delivery of emails from the Preview Sandbox environment](../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)
 * [Event notifications](../../workfront-basics/using-notifications/event-notifications.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-basics/using-notifications/opt-out-of-email-notifications.md" class="MCXref xref" xrefformat="{para}">Opt out of email notifications</a> </li>
   -->
 * [Event notification: article index](/help/quicksilver/workfront-basics/using-notifications/event-notifications-article-index.md)

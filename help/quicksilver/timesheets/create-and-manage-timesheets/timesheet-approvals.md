@@ -6,6 +6,24 @@ description: The process of approving timesheets provides managers with visibili
 author: Lisa
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
+TQID: https://experienceleague.adobe.com/qp-mum3AisU5J1qYW6qsb-Kq9M3-7RpBaUStpmtwSGM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Approve a timesheet
 
@@ -50,7 +68,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 Typically, timesheets are approved by functional managers or human resources personnel. Timesheets are not usually approved by project managers. Project managers may approve time logged on projects, but team or human resource managers should approve timesheets. 
 
-A timesheet approver is defined when creating the Timesheet Profile. You must have a Plan license to be designated as an approver.
+A timesheet approver is defined when creating the Timesheet Profile. You must have a Standard or Plan license to be designated as an approver.
 
 For more information about designating timesheet approvers, see the section [Create or edit a timesheet profile](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) in the article [Create, edit, and assign timesheet profiles](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 

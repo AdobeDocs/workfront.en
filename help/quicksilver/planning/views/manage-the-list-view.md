@@ -6,19 +6,36 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
+last-update: 2026-04-01T11:23:03-07:00
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 ---
 
 # Manage the list view in Adobe Workfront Planning
+
+<!--
+although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
+-->
+
+<!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
 <span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+
 {{planning-important-intro}}
 
-You can display projects and their fields in a list view, when accessing them in the Connected records page of a record, in Adobe Workfront Planning. <!--change 'projects' to other objects when they become available and the location of the list view-->
+You can view objects in the list view in the following areas of Workfront Planning:
 
-This article describes how you can create or edit a list view that displays projects in the Connected records page of a record and how you can edit the projects in the view. <!--change 'projects' to other objects when they become available and the location of the list view-->
+* A connected records page for projects in a record's details area <!--update screen shot for preview May 14 with Grouping icon and add the note at the top in yellow about preview-->
+
+    ![Projects on connected records page in list view](assets/projects-on-connected-records-page-list-view.png)
+
+* A list of request forms at the record type level
+
+    ![Request forms in list view](assets/request-forms-in-list-view.png)
+
+This article describes how you can navigate, create, or edit a list view in Workfront Planning. 
 
 ## Access requirements
 
@@ -51,12 +68,7 @@ This article describes how you can create or edit a list view that displays proj
    <td>   <p>Manage permissions to a view</p>  
    <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
   </tr> 
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
-</td>
-  </tr> 
+
 </tbody> 
 </table> 
 
@@ -66,37 +78,66 @@ For more information about Workfront access requirements, see [Access requiremen
 
 ## Considerations about list views
 
-* You cannot view all object types in the record type pages in a list view. 
+* Consider the following for connected records page list view: 
 
-    You can only display the following objects in a list view when you view them in the Connected records page of a record:
-
-    * Workfront projects
+    * You can only view projects in the list view in the connected records page of a record. The list view is not available for any other object or record type in a connected records page. 
     
     For information about creating a connected records page, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-* Before you can view a list view in a connected records page of a record you must connect Workfront projects with Planning record types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).  
+    * Before you can view a list view in a connected records page of a record you must connect Workfront projects with Planning record types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).  
+    * You can create multiple list views for projects in a record's connected records page.
 
+* Consider the following for the request forms list view: 
+
+    * You cannot create or edit additional list views for Planning request forms. Workfront creates one list view for request forms. <!--this will change-->
+
+        For information about request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+* Depending on where it displays, not every list view has all the elements described in this article.
 
 ## Manage a list view {#manage-a-list-view}
 
-List views are similar to enhanced lists. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Workfront Planning list views are similar to Workfront's enhanced lists. Most elements from enhanced views also exist on list views in Workfront Planning. 
 
+For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+<!--
+Removed - more direct steps below: 
 {{step1-to-planning}}
 
-1. Click a workspace card, then click a record type card. 
-1. From any view, click the name of a record to open the record's preview or details page. 
-1. Add a **Connected records page** for connected projects as described in the article [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
+1. (Conditional) To access a projects connected page, do the following: 
+
+    1. Click a workspace card, then click a record type card. 
+    1. From any view, click the name of a record to open the record's preview or details page. 
+    1. Add a **Connected records page** for connected projects as described in the article [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
     The Connected records page displays projects connected to the record in the list view. 
 
-    <!--add new screen shot when they release Conditional formatting MVP -->
-
     ![Projects on connected records page in list view](assets/projects-on-connected-records-page-list-view.png)
 
-1. (Optional) Do one of the following to modify the list view: 
+1. (Conditional) To access a list of request forms, do the following: 
 
-    1. Expand the dropdown views menu in the upper-right corner of the list to select another view, or click **New view** and create another one.
+    1. {{step1-to-planning}}
 
-        Views are shared throughout the system. If you create a Projects view for one record type, you can view it on other record types that display connected projects. 
+    1. (Conditional) To access a projects connected page, do the following: 
+
+    1. Click a workspace card, then click a record type card.
+    1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record name in the header, then click **Manage request forms**.
+
+        A list of request forms displays.
+
+-->
+
+1. Go to a list view in one of the following areas:
+
+    * A connected records page for projects in a record's details area
+    * The Request forms page of a record type
+
+1. (Conditional) When available, do one of the following to modify the list view: 
+
+    1. Expand the dropdown views menu in the upper-left corner of the list to select another view, or click **New view** and create another one.
+
+        >[!TIP]
+        >
+        >Views are shared throughout the system. If you create a Projects view for one record type, you can view it on other record types that display connected projects. 
 
     1. Hover over the name of an existing view and click the **More** menu ![More menu](assets/more-menu.png), then click one of the following:
         * **Rename**, to give the view a new name
@@ -109,73 +150,127 @@ List views are similar to enhanced lists. For more information, see [Use enhance
         >
         >* You cannot modify System Views. 
         >
-        >* <span class="preview">You can reset a view that was shared with you to which you have only permissions to View, after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+        >* You can reset a view that was shared with you to which you have only permissions to View, after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
         
     1. Click the **Filter** icon ![Filter icon](assets/filter-icon.png) to add a filter to the view. Results are filtered immediately in the list. You cannot save and name filters. Filters are remembered when you access the page in future and they are part of shared views.
+
+        >[!TIP]
+        >
+        >To apply a personalized filter, select one of the following options for a field value:
+        >
+        >* **Me (logged in user)** to refer to the logged-in user in fields referring to users.
+        >
+        >* **My teams** or **My home team** to refer to your teams in fields referring to teams.
+        >
+        >* **My groups** or **My home group** to refer to your groups in fields referring to groups.
+        >
+        >* **My company** to refer to your company in fields referring to companies.
+        > 
+        >* **My roles** or **My primary role** to refer to your job roles in fields referring to roles.
+
     1. Click the **Columns** icon ![Columns icon](assets/columns-icon.png) to select which columns to display or to hide in the view. 
     1. Hover over the name of a column, then click the down-pointing arrow to the left of the column name, then click one of the following:
         * **Rename**, to add a **Custom label** for the column. The name of the original field in Workfront does not change. 
         * **Sort**, to sort the list by the selected field. A sorting icon indicating the direction of the sorting is added to the column header. 
+    1. Click the header of a column, then drag and drop it in another position in the list. 
+
+        You cannot move the first column. 
     1. Click the **+** icon in the upper-right corner of the list to add or remove columns to the list, then click **Save**. 
 
         The **Column manager** opens. 
     
         You can add only existing fields to the list view. 
-        You cannot remove the primary field in the list view which displays in the first column. 
-    
-    1. <span class="preview">Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens.</span> <!--change the name of the box when they update it-->
-        <span class="preview">Do the following: </span>
+        You cannot remove the primary field in the list view which displays in the first column.
+
+    1. Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens. <!--change the name of the box when they update it-->
+        Do the following:
 
         1. Click **Add condition**.
-        1. <span class="preview">In the **If** line, select  a field and choose a field value, then click **Add condition**. </span>
+        1. In the **If** line, select  a field and choose a field value and add a modifier. Modifiers change, depending on the field type you choose.
 
             >[!TIP]
             >
-            ><span class="preview">Only fields visible in the list view are available for conditional formatting.</span>
+            >Only fields visible in the list view are available for conditional formatting.
 
-        1. <span class="preview">(Optional) Click **Add condition** in the **If** line to add more conditions to the same rule.</span>
+        1. (Optional) Instead of adding a field value, click the **Compare to another field** icon ![Compare to another field](assets/compare-to-another-field-icon.png) and choose a field whose value you want to compare to the value of your selected field. For example, you can compare the Project Owner and the Project Sponsor fields.
 
             >[!TIP]
             >
-            ><span class="preview">You can add up to 10 conditions in a conditioning rule and you can have up to 20 rules for a field.</span>
+            >Only fields visible in the list view are available for conditional formatting. The fields you compare must be of the same type.
 
-        <div class="preview">
+        1. (Optional) Click **Add condition** in the **If** line to add more conditions to the same rule.
 
-        1. Click the **Or** connector between conditions to change to **And** and to indicate that multiple conditions must be met at the same time. **Or** is the default connector.  
+            >[!TIP]
+            >
+            >You can add up to 10 conditions in a conditioning rule and you can have up to 20 rules for a field.
+
+        1. Click the **Or** connector between conditions to change to **And** and to indicate that multiple conditions must be met at the same time. **Or** is the default connector.
         1. In the **Format** line, select a field to indicate which column will be formatted. <!--edit this area, if it changes names??-->
-        1. (Optional) Click the **color circle** icon ![Color circle icon](assets/color-circle.png) next to the field selected, to expand it and choose another color.
-        1. Turn on the **Apply to row** setting to apply the formatting to the entire row of the field that meets the conditions. 
-        1. (Optional) Click **Add condition** in the **Format** box to add another rule for another field and the repeat the steps above. 
+        1. (Optional) Click the **color circle** icon ![Color circle icon](assets/color-circle.png) next to the field selected, to expand it and choose another color in the **Cell fill** area to change the color of the background in a cell or pick a color from the **Text color** area to change the color of text in a cell.
+        1. Click the **Text format** icon ![Text format icon](assets/text-format-icon.png) and select from the following options to format the text in a cell:
+            * Bold
+            * Italic
+        
+        1. Turn on the **Apply to row** setting to apply the formatting to the entire row of the field that meets the conditions.
+        1. (Optional) Click **Add condition** in the **Format** box to add another rule for another field and the repeat the steps above.
         1. (Optional) Click **Clear all** to remove all formatting.
         1. Click outside the **Format** box to close it.
 
-            This returns you to the list view. 
+            This returns you to the list view.
             The formatting is applied immediately to the list view.
             There is a blue dot next to the **Format cells** icon to indicate that the view has special formatting applied.
+    
+    1. (Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) to group items in the list by a common field. Select one of the options, or use the search bar to find a field.
 
-        </div>
+        The field must be a column in the list before you can group by it. Not all field types can be used for groupings.
+
+    1. Click the **Row height** icon ![Row height icon](assets/row-height-icon.png) to update the vertical length of a row. Choose from the following options:
+    
+        * Short
+        * Standard. This is the default choice. 
+        * Medium
+        * Tall
+
+        <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 
 1. (Optional) Add a keyword in the search box in the upper-right corner of the list to search for an item. 
 
     Items that match your search term are highlighted in the list.
 
-1. (Optional) To add more items to the list and automatically connect them to the selected record, do one of the following:
+1. (Optional and conditional) In the projects <!--change projects to items here when more items will display in the Glist--> connected page, to add more items to the list and automatically connect them to the selected record, do one of the following:
 
     * Click **Connect records** in the upper-right corner of the list to add existing items.
     * Click **New row** at the bottom of the list to add new items. 
-1. Click the name of a connected item in the list to open it in another browser tab. 
+1. Click the name of an item in the list to open it in another browser tab. 
 1. Double-click inside of a cell in the list to edit the information of a field, then press Enter to save your changes. 
 
     Some fields are read-only. For example, the percent complete of a project is a field calculated by the system and you cannot manually edit it. 
 
-1. Hover over an item's name in the list and click the **More** menu [More menu](assets/more-menu.png) and click **View** to open the project in another tab
+1. (Conditional) For select type fields, use your keyboard arrows to navigate the list of options, then press the space bar to select the correct choice. 
+
+    <span class="preview">Use the **Search** line in select field types to find the right option.</span>
+
+    <span class="preview">You can add new options directly from the field cell when no results are found. This feature may not be available on all lists.</span>
+
+1. Hover over an item's name in the list and click the **More** menu [More menu](assets/more-menu.png) and click **View** to open the item in another tab
      
       Or
 
-      Select one or more items, and notice the actions bar at the bottom of the list, then click one of the following:
+      Select one or more items, and notice the actions bar at the bottom of the list, then click one of the following, when available. 
       
-    * **Delete** to delete the project. Deleting a project disconnects it from the record and moves it to the Workfront's Recycle Bin. Workfront administrators can recover deleted projects up to 30 days after they were deleted.
-    * **Disconnect** to disconnect the project from the record. Disconnecting a project removes it and all the values of its lookup fields from the current record.
+      Depending on which area you access the list view from, click on one of the following options: 
+      
+    * **Delete** to delete the item. Deleting a project disconnects it from the record and moves it to the Workfront's Recycle Bin. Workfront administrators can recover deleted projects up to 30 days after they were deleted. Deleting a form does not delete the requests or records created when the form was submitted. 
+    * **Disconnect** in the projects connected page, to disconnect a project from the record. Disconnecting a project removes it and all the values of its lookup fields from the current record. 
 
-    ![Actions bar in Connected records page List view](assets/actions-bar-connected-records-page-list-view.png)
+        ![Actions bar in Connected records page List view](assets/actions-bar-connected-records-page-list-view.png)
+
+    * **Edit form**: Opens a Planning request form and allows you to edit it.
+    * **Unpublish**: Unpublishes a request form. This removes the form from the Requests area and users can no longer add requests to this record type. 
+    * **Share**: Opens the Sharing box for a request form where you can share with others.
+    * **Copy link**: Copies a link to a Planning request form so you can share it with other users. If the form is shared publicly, you can share the link with people outside of Workfront Planning. 
+
+        ![Actions bar in Planning requests list](assets/actions-bar-in-inake-forms-list.png)
+
+    
 

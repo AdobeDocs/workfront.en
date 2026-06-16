@@ -8,6 +8,26 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
+TQID: https://experienceleague.adobe.com/MkpKnVckztNvRWKb2rSDUzt8fnJMWIGKG4sYUmuefig
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Add calculated fields to a form
 
@@ -163,12 +183,28 @@ To reuse an existing calculated custom field:
       <td>Active</td>
       <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
      </tr>
+     <tr>
+      <td>Automatic permission</td>
+      <td><p>Turn on this option to allow the finance permissions to automatically come from the fields used in the formula. The permission definitions are shown in the Finance Permission Type field, below.</p><p>Access is required for all fields in the formula. For example, if a calculated field uses two fields, one with billing permissions and one with cost permissions, the user must have permissions to view both to see the calculated value.</p></td>
+     </tr>
+     <tr>
+      <td>Finance Permission Type</td>
+      <td><p>When the Automatic permission field is turned off, you can select the finance permission type that the users must have before they can view or edit this custom field. Any format is allowed for calculated fields. The fields used in the formula determine whether this field is active. If the permission field is blank, the fields in the formula do not support the finance permissions.</p>
+      <ul>
+      <li><p><strong>No permissions required:</strong> All users can see this field</p></li>
+      <li><p><strong>General:</strong> Users must have permissions to edit or view General Finance</p></li>
+      <li><p><strong>Bill:</strong> Users must have permissions to edit or view billing rates</p></li>
+      <li><p><strong>Cost:</strong> Users must have permissions to edit or view cost rates</p></li>
+      </ul>
+      <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restrict access to financial data in custom fields</a>.</p>
+      </td>
+     </tr>
     </tbody> 
    </table>
 
-1. In the **Calculation** box, begin building your calculation: 
-   1. Click **Maximize** to open the Calculation Editor and build your calculation.</p> 
-    A calculation usually starts with an expression, followed by parentheses containing the fields you want to reference when the custom form is attached to an object. 
+1. In the **Calculation** box, begin building your calculation:
+   1. Click **Maximize** to open the Calculation Editor and build your calculation.
+    A calculation usually starts with an expression, followed by parentheses containing the fields you want to reference when the custom form is attached to an object.
 
       Each field must be surrounded with curly brackets. When you start typing the name of a field, the system makes suggestions and you can select one to insert it into your calculation.
 

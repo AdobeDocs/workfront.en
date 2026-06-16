@@ -1,13 +1,29 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Filter and group your work with Priorities
+title: Filter, Group, and Sort Your Work with Priorities
 description: You can use filters to find work you and looking for and then apply a grouping to keep it organized.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
+TQID: https://experienceleague.adobe.com/PNUMhekotNpz3n3bmmwWdH6fRL1-6b0T0PNwQIeR8Eg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-# Filter and group your work with Priorities
+# Filter, group, and sort your work with Priorities
 
 You can use filters to find the work you are looking for and then apply a grouping to keep it organized. 
 
@@ -147,8 +163,9 @@ Use natural language to quickly filter work.
 
 {{step1-to-priorities}}
 
-1. Click **Groups** in the top left of the worklist.
-1. Select a group to organize your worklist.
+1. Click **Grouping** in the top left of the worklist.
+1. Select a grouping to organize your worklist.
+  
   ![Groups](assets/groups-new.png)
 
   +++Expand to see detailed information about available groups
@@ -166,17 +183,17 @@ Use natural language to quickly filter work.
 
 You can drag and drop individual work items between categories when grouping by My Priority or Status.
 
-1. Group your work by **Status** or **My Priority**.
+1. Group your work by **Status** or **My Focus**.
 2. Hover over the work item to click the **Drag** icon and move it to the desired category.
 ![drag icon](assets/drag-and-drop.png)
 
 ## Sort your work
 
-### Sort in groups
+### Sort in groupings
 
-To sort your work within a group, open **Group** and select if you want to sort in ascending or descending order.
+To sort your work within a grouping, open **Grouping** and select if you want to sort in ascending or descending order.
 
-![Sort in groups](assets/sort-in-groups.png)
+![Sort in groupings](assets/sort-in-groups.png)
 
 ### Sort columns
 
@@ -186,6 +203,6 @@ To sort individual columns, go to the column and click the down arrow.
 
 ### Expand or collapse all group sections
 
-To expand or collapse all group sections, open **Group** and click **Expand all** or **Collapse all**.
+To expand or collapse all group sections, open **Group** and click **Expand all** if the groupings are collapsed or **Collapse all** if the groupings are expanded.
 
 ![Expand or collapse groups](assets/expand-collapse-groups.png)

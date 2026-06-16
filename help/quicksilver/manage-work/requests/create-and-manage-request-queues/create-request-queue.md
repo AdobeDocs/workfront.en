@@ -8,8 +8,39 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
+last-update: 2026-04-01T18:23:03.000Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+TQID: https://experienceleague.adobe.com/GtWgf0gZVuIE2xM6lkZlOyzmV9D7xg0myc2otxYFakU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 # Create a Request Queue
 
 <!--Audited: 12/2023-->
@@ -263,9 +294,9 @@ To create a Request Queue:
 
      >[!TIP]
      >
-     >New Issue Fields selected in the Queue Details section are also associated with any new issue added to the project <!--this is confusing: or to the tasks in the Issues section-->.
-
-<!--
+     >New Issue Fields selected in the Queue Details section are also associated with any new issue added to the project 
+     
+     this is confusing: or to the tasks in the Issues section.
 
 When you enable any of the Assigned to, Job Role, or the Team fields, they are always renamed to Assignments in the request form, but you can only specify the type of assignment selected here.
 
@@ -309,9 +340,9 @@ When you enable any of the Assigned to, Job Role, or the Team fields, they are a
 
      >[!TIP]
      >
-     >Custom forms added to the Queue Details section are also associated with any new issue added to the project <!--this is confusiong: or the tasks in the Issues  section-->.
+     >Custom forms added to the Queue Details section are also associated with any new issue added to the project this is confusiong: or the tasks in the Issues  section.
 
-<!--1. Continue selecting information for the settings in the **Email Queue Settings** area, to allow users to email requests to the request queue project. 
+1. Continue selecting information for the settings in the **Email Queue Settings** area, to allow users to email requests to the request queue project. 
 
     For more information, see [Enable users to email an issue into a Request Queue project](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
@@ -513,8 +544,8 @@ To create a Request Queue:
     
       |Which users can see all fields on the request form | Description|
       |---|---|
-      | All Users (Plan Licenses) |All users who have a Plan license can see the selected as well as the unselected fields. |
-      | People with view access to this project (Plan License) |Those users with a Plan license that also have View rights to this project can see the selected as well as the unselected fields. The rest of the users who can submit requests to this project can see just the selected fields. |
+      | All Users (Plan Licenses) |All users who have a Standard or Plan license can see the selected as well as the unselected fields. |
+      | People with view access to this project (Plan License) |Those users with a Standard or Plan license that also have View rights to this project can see the selected as well as the unselected fields. The rest of the users who can submit requests to this project can see just the selected fields. |
       | No Users |No users can see the unselected fields. All users who can submit requests to this project can only see the fields selected. This is the default selection. |
   
    * **Custom Forms**: Select a custom form to associate with the Request Queue from the drop-down menu. You can select multiple forms, then drag and drop them in the order you would like them to display in the request form. 

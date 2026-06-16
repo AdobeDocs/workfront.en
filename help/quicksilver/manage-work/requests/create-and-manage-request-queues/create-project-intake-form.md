@@ -6,8 +6,10 @@ description: You can use project intake forms to simplify the process of creatin
 author: Alina
 feature: Work Management, Requests
 role: User, Admin
-hide: yes
+hide: true
 hidefromtoc: yes
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Create project intake forms
 

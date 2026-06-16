@@ -6,13 +6,32 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/yzpirNfY0Hsp0cbClQA8dFqhgqbpK8ZryIyeq4tBAgw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 # Delete workspaces
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -61,7 +80,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++   
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -117,7 +137,8 @@ For more information about Workfront access requirements, see [Access requiremen
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerations about deleting workspaces
 
@@ -133,6 +154,10 @@ For more information about Workfront access requirements, see [Access requiremen
    * **Workspaces I'm on** to access workspaces you created
    * **All workspaces** to access workspaces shared with you or workspaces you created
 
+   >[!NOTE]
+   >
+   ><span class="preview">You cannot delete the workspaces on the **Sample workspaces** tab. We recommend using the multi-workspace template bundle to create workspaces similar to those on the Sample workspace tab. For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).</span> 
+
 1. (Optional) Click **Show all** to display additional workspaces. The **Show all** link displays only when you have more than two rows of workspace cards.
 1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
 1. To delete a workspace, do one of the following:
@@ -140,6 +165,14 @@ For more information about Workfront access requirements, see [Access requiremen
    * Hover over the workspace card, then click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the card
       Or 
    * Click the **search** icon ![Search icon](assets/search-icon.png) in the upper-right corner of the Workspaces page to search for a workspace by name and click a workspace card to open the workspace, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the workspace name.
+
+   >[!TIP]
+   >
+   >You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for workspaces:
+   >
+   >* CTRL+K for Windows
+   >* ⌘+K for Mac
+   
 1. Click **Delete**.
 
    ![Permanently delete workspace confirmation](assets/permanently-delete-workspace-confirmation.png)

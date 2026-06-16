@@ -7,6 +7,20 @@ description: Example queries you can use to familiarize yourself with the syntax
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/flDonZVaLR3bTF2aZcY9iy2ZnWbfrdhctL7J8esvxng
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
 ---
 # Workfront Data Connect query examples
 
@@ -183,7 +197,8 @@ Examining the query from the inside out: 
 
  
 
-<!--## Task query 
+<!--
+## Task query 
 
 Join the project and (assignedTo) users tables into a simple task list.
 
@@ -197,4 +212,5 @@ Join owner (users), hour type, and portfolio tables to provide a sum of hours by
 
 ## Document approvals query
 
-Measure the cycle time and average number of review cycles per asset.-->
+Measure the cycle time and average number of review cycles per asset.
+-->

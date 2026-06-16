@@ -8,6 +8,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4ad56965-b17c-43b3-bc12-8fead52fda3d
+TQID: https://experienceleague.adobe.com/VsbRGLOBmgdrW0ccEM7LrMctnasPxT7fPuh97tcUrpI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # 2019.4 Mobile enhancements
 

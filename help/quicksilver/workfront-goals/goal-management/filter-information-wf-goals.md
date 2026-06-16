@@ -6,6 +6,24 @@ description: You can view goals that you or anyone else added in Adobe Workfront
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/OHJZE9Aq9YWE7qiBfdiEnIPxZsLw3gVeMDtqC9eaucE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Filter information in Adobe Workfront Goals
 
@@ -66,7 +84,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -117,7 +136,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Overview of filters in Workfront Goals
 
@@ -187,9 +207,11 @@ You can create a filter from scratch or edit one of the built-in filters.
       <tbody> 
        <tr> 
         <td>All</td> 
-        <td> <p>All goals in your system, regardless of who created them, what the time period for them is, or who the owner is. This is the default filter and you cannot edit it. </p> <!--
+        <td> <p>All goals in your system, regardless of who created them, what the time period for them is, or who the owner is. This is the default filter and you cannot edit it. </p>
+        <!--
           <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: what the ALL filter displays might change; right now, it displays all, regardless of status, period, owner, etc)</p>
-         --> </td> 
+         -->
+         </td>
        </tr> 
        <tr> 
         <td>Personal</td> 

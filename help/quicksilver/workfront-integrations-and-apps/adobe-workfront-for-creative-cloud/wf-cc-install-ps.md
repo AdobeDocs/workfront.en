@@ -1,11 +1,30 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Install and open [!DNL Adobe Workfront for Photoshop] 
+title: Install and open [!DNL Adobe Workfront for Photoshop]
 description: You can install the Adobe Workfront for Photoshop plugin from the Adobe Marketplace.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
+TQID: https://experienceleague.adobe.com/JMhdlpEdwvqkfNHjIjifRIFoXznmNienvTFdt2muUuo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Install and open [!DNL Adobe Workfront for Photoshop]
 
@@ -132,4 +151,4 @@ To fix this issue,
 
 1. Navigate back to the plugin and enter your Workfront domain. The domain must be `company-name.my.workfront.com` and not `experience.adobe.com`.
 
-   To [find your Workfront domain](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) if you are on the Adobe Unified Experience, go to Setup, Customer info.
+   To [find your Workfront domain](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md), go to Setup, Customer info.

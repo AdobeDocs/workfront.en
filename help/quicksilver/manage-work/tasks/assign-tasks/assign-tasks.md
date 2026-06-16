@@ -7,6 +7,28 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/r3jT-ief9Sfqh7RgQRWJ77fgHR9tkgTBBuo-iEok9lE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Assign tasks
 
@@ -14,13 +36,15 @@ exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
 
 <!--remove production/ preview and old/ new experience references at prod-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md). 
 
-</div>-->
+</div>
+-->
 
 You can assign tasks to users, job roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
 
@@ -94,8 +118,10 @@ Consider the following when assigning multiple resources to a work item:
 
 * A team cannot be a Primary assignee on a task or issue. Only a user or a job role can be designated as a Primary on a task or issue. 
 
-<!-- If a task is assigned to multiple teams, the primary team sees the Work On It button. waiting on team to verify if this is true. (Courtney)
-You cannot make a team be a Primary on a task/ issue. (Alina) -->
+<!--
+ If a task is assigned to multiple teams, the primary team sees the Work On It button. waiting on team to verify if this is true. (Courtney)
+You cannot make a team be a Primary on a task/ issue. (Alina)
+-->
 
 * Tasks and issues on a project might be assigned first to one or more teams or job roles. When the project is ready to start, they might need to also be assigned to users:
 
@@ -269,7 +295,8 @@ To assign tasks in a list:
 -->
 
 
-<!--Assigning multiple tasks in bulk from a list differs depending on which environment you choose. 
+<!--
+Assigning multiple tasks in bulk from a list differs depending on which environment you choose. 
 
 ### Assign multiple tasks in bulk from a list in the Production environment
 

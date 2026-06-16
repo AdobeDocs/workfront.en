@@ -7,16 +7,36 @@ description: This article describes the layout of timesheets in Adobe Workfront,
 author: Lisa
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/wpqLg8-2NszOeqT--4RxDP0pZEEnYyPW7UzQeqaLJIo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Timesheet layout overview
 
 <!-- Audited: 12/2023 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+-->
 
 This article describes the layout of timesheets in Adobe Workfront, allowing you to better understand how to customize and utilize timesheets to record time.
 
@@ -145,8 +165,10 @@ The time frame displays in full-week increments. Days outside of the specified t
 
 For information, see [Create a single-use timesheet](../create-and-manage-timesheets/create-tmshts.md) or [Create, edit, and assign timesheet profiles](../create-and-manage-timesheets/create-timesheet-profiles.md). 
 
-<!--drafted for the resize columns in timesheets story - make this blurb a TIP when the story is released: 
-You can resize the columns that display different weeks, the time frame, or the work item areas by dragging and dropping the vertical lines that separate them.-->
+<!--
+drafted for the resize columns in timesheets story - make this blurb a TIP when the story is released: 
+You can resize the columns that display different weeks, the time frame, or the work item areas by dragging and dropping the vertical lines that separate them.
+-->
 
 ## Hour entry comments
 

@@ -6,6 +6,23 @@ description: You can send documents from Workfront to Experience Manager Assets 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
+TQID: https://experienceleague.adobe.com/PWMvkf9X10rwGjTtiUPxlPir--rKK-hO8Wgli9oAAAA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Send a Document to Experience Manager Assets or Assets Essentials
 
@@ -14,6 +31,13 @@ You can send documents from Workfront to Experience Manager Assets or Assets Ess
 Assets sent to Experience Manager through this integration have a size limit of **5 GB**.
 
 In the Preview environment, Assets sent to Experience Manager through this integration have a size limit of **30 GB**.
+
+>[!NOTE]
+>
+>This functionality is not available in the new Documents area.<br>
+>If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. From there, you can send assets to Experience Manager Assets. For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+
+## Metadata
 
 Metadata fields are first mapped when you send an asset from Workfront to Experience Manager Assets or Assets Essentials. Any metadata configured to map for parent objects is sent as well. For more information on configuring metadata mapping, see [Configure the Experience Manager Assets as a Cloud Service integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) or [Configure the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 

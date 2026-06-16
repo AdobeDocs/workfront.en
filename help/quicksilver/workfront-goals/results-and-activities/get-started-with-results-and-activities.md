@@ -3,10 +3,19 @@ product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
 title: Get started with results and activities in Adobe Workfront Goals
-description: You must add results, activities, or aligned goals to a goal to be able to activate it. This updates the goal status from Draft to Active and starts recording progress on the goal. 
+description: You must add results, activities, or aligned goals to a goal to be able to activate it. This updates the goal status from Draft to Active and starts recording progress on the goal.
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/9GQMj-ij7gBqYKy4o0E619ago4c-G-Vu6KLmTWKrBPE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Get started with results and activities in Adobe Workfront Goals
 
@@ -20,7 +29,8 @@ exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
 >
 >For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -37,7 +47,8 @@ exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 When you create a goal, the goal has a status of Draft. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 

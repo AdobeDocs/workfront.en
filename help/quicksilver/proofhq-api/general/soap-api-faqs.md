@@ -6,6 +6,13 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
+TQID: https://experienceleague.adobe.com/IDspEIEFUjP23bvjd8BWJRdSzBCOFe5TLEJG7sguU5M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # SOAP API FAQs
 
@@ -27,7 +34,7 @@ It takes 2 simple steps:
 
 **Step 1**: If you don't have a Session ID yet, obtain one by using the doLogin() or getSessionID() methods. Use the former to 'log in' using a user's email address and password or the latter method if you have the user's email address and authentication token.
 
-**Step 2:**Now it's time to create your proof. Use the createProof() method and send us at least the required fields (currently there's only 5 of them). Ensure you set the Hash parameter to "web" and the SourceName parameter as the URL of the web page you want to capture.
+**Step 2:** Now it's time to create your proof. Use the createProof() method and send us at least the required fields (currently there's only 5 of them). Ensure you set the Hash parameter to "web" and the SourceName parameter as the URL of the web page you want to capture.
 
 If you now log in to your account you will see the proof.
 

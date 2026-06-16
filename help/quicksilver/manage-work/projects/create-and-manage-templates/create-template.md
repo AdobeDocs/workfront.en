@@ -6,6 +6,32 @@ description: You can create and delete templates from the Templates area. When b
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/JqR-bwIq1AVMOMz3aTWIKoiPep1VQ6IaONbbuDJ1AiA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create a project template
 
@@ -13,13 +39,15 @@ exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 
 <!--remove all instances of new/ old experience and redo the steps when the toggle is removed-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 You can create and delete templates from the Templates area. When building a new template, you can enter the information for all of the tasks and for your future project settings. This information will then transfer to any project that you create from the template.
 
@@ -72,7 +100,8 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -94,7 +123,8 @@ For more detail about the information in this table, see [Access requirements in
    <td> <p>You have Manage permissions to the templates you create, by default</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Create a template
 
@@ -102,7 +132,26 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click **New Template**.
 
-   The template is untitled.
+1. (Conditional) Depending on which document storage your organization is using, click one of the following:
+
+    * **New Template**, when the Workfront administrator chooses either **Adobe cloud storage**, or **Legacy Workfront**, and they did or did not select the **Allow user to select storage provider** setting. 
+    * **New Template (Legacy storage)**, when the Workfront administrator chooses either **Adobe cloud storage**, or **Legacy Workfront**, and they also selected the **Allow user to select storage provider** setting. 
+
+      This option displays only when the **Allow user to select storage provider** setting is selected in the Setup area.
+
+      For more information, see [Enable Adobe cloud storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md). 
+
+      A template is created and its default name follows the following patterns, depending on which storage Workfront uses for documents: 
+
+      * **Untitled Template** for a Worfront-storage template.
+
+        A legacy Workfront storage template displays a **Legacy Workfront storage** icon ![Legacy-storage project icon](assets/legacy-storage-project-icon.png) next to its name. 
+
+      * **Untitled Template - < Month day, year hour.minute.second >** for an Adobe cloud storage template
+
+        >[!IMPORTANT]
+        >
+        >Templates using Adobe storage must have unique names. 
 
    ![New template](assets/create-template-nwe-2022-350x102.png)
 
@@ -114,7 +163,7 @@ For more detail about the information in this table, see [Access requirements in
 
    Click **New Template Task** to start adding tasks to your template in the **New Template Task** box.
 
-   The **Create Template Task** box opens in the new experience.
+   The **Create Template Task** box opens in the new experience when you click **New Template Task**.
 
    ![New experience for New Template Task](assets/new-template-task-box-unshimmed.png)
 

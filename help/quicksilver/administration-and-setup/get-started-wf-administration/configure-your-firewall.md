@@ -8,30 +8,48 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
+TQID: https://experienceleague.adobe.com/voAiMROhu9NJkN-WLjPWcpDu-x8YYgtlZNeNWk8dFjA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: ec8965fc-2f75-47f6-a9bb-730e8c2725f3
+    internal-label: Event Subscription API
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure your firewall's allowlist
 
 <!-- Audited: 12/2023 -->
 
+<!--Follow up October 2026-->
+
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+>The procedure described on this page applied only to organizations that have not yet been onboarded to the Admin Console. Because all organizations have now been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->To configure your allowlist if your organization has been onboarded to the Adobe Admin Console, see [Domains to be allowed for Adobe Apps and Services](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
+>To configure your allowlist after your organization has been onboarded to the Adobe Admin Console, see [Domains to be allowed for Adobe Apps and Services](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >
 >The way an organization configures its allowlist is unique to each organization. Work with your IT team to identify your organization's procedure and implement these additions.
 
 If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist. This opens communication between your environment and the Adobe Workfront servers and allows the following processes:
-
-* Sending messages from the Workfront application
-
-  >[!NOTE]
-  >
-  >This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 * Using document webhooks when configuring custom document integrations
 * Using Workfront Event Subscriptions
@@ -64,12 +82,6 @@ For more information, see the section [View your organization's cluster and Work
 
 ## IP addresses to add to the allowlist
 
->[!IMPORTANT]
->
->Some Workfront integrations do not work when the allowlist is enabled because they can't be configured with a static IP address. To use the following integrations, you must disable the allowlist.
->
->* Workfront for Outlook 
-
 * [IP addresses to allow for Clusters 1, 2, 3, 5, 7, 8 and 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9) 
 * [IP addresses to allow for Cluster 4](#ip-addresses-to-allow-for-cluster-4) 
 * [IP addresses to allow for Cluster 6](#ip-addresses-to-allow-for-cluster-6) 
@@ -80,62 +92,69 @@ For more information, see the section [View your organization's cluster and Work
 * [IP addresses to add for using Workfront for Jira](#ip-addresses-to-add-for-using-workfront-for-jira) 
 * [URLs to add for all clusters Workfront](#urls-to-add-for-all-clusters-workfront)
 
-### IP addresses to allow for Clusters 1, 2, 3, 5, 7, 8 and 9 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
+### To receive email from the Workfront application
 
-If your Production environment is on Cluster 1, 2, 3, 5, 7, 8, or 9 you must allow the following IP addresses.
+If your firewall or mail server is configured to allow access to only certain vendors, you must add the following IP addresses to your allowlist to receive email from the Workfront application.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">For SSO, document webhooks, or other functionality</td> 
-   <td> 
-    <ul> 
-     <li>35.160.0.242</li> 
-     <li>34.213.36.118</li> 
-     <li>3.209.27.146</li> 
-     <li>18.205.251.4</li> 
-     <li>34.211.224.9</li> 
-     <li>54.218.48.56</li> 
-     <li>52.36.154.34</li> 
-     <li>54.244.142.219</li> 
-     <li>52.39.217.230</li> 
-     <li>44.241.82.96</li> 
-     <li>54.203.255.135/32</li> 
-     <li>35.155.2.51/32</li> 
-     <li>52.34.192.77/32</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">To receive email from the Workfront application</td> 
-   <td> 
-    <ul> 
-     <li>54.240.60.174</li> 
-     <li>54.240.60.175</li> 
-     <li>13.58.86.183</li> 
-     <li>34.209.181.84</li> 
-     <li>35.161.82.137</li> 
-     <li>52.14.70.114</li> 
-     <li>52.15.230.220</li> 
-     <li>54.71.252.65</li>
-     <li>23.251.237.107</li> 
-     <li>23.251.237.108</li> 
-     <li>23.251.237.109</li> 
-     <li>23.251.237.106</li> 
-     <li>206.55.149.212</li>
-     <li>206.55.149.214</li>
-     <li>206.55.149.215</li>
-     <li>206.55.149.213</li>
-     <li>206.55.149.211</li>
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+#### US regions: clusters 1, 2, 3, 5, 6, 7, 8, 9, and 10
 
-### IP addresses to allow for Cluster 4 {#ip-addresses-to-allow-for-cluster-4}
+* 206.55.149.211
+* 206.55.149.212
+* 206.55.149.213
+* 206.55.149.214
+* 206.55.149.215
+* 23.251.237.106
+* 23.251.237.107
+* 23.251.237.108
+* 23.251.237.109
+* 54.240.119.54
+* 54.240.119.55
+* 54.240.60.174
+* 54.240.60.175
+* 54.240.61.222
+* 54.240.61.223
 
-If your Production environment is on Cluster 4, add the following IP addresses for SSO, document webhook integrations, and to receive email from the Workfront application:
+#### EU regions: clusters 4, 11, 12, and 13
+
+* 23.251.239.98
+* 23.251.239.99
+* 24.110.76.223
+* 24.110.76.224
+* 69.169.230.231
+* 69.169.230.232
+
+
+### SSO, document webhook integrations, and other functionality
+
+#### US regions: clusters 1, 2, 3, 5, 6, 7, 8, 9, and 10
+
+**Clusters 1, 2, 3, 5, 6, 7, 8, 9**
+
+
+  * 35.160.0.242
+  * 34.213.36.118
+  * 3.209.27.146
+  * 18.205.251.4
+  * 34.211.224.9
+  * 54.218.48.56
+  * 52.36.154.34
+  * 54.244.142.219
+  * 52.39.217.230
+  * 44.241.82.96
+  * 54.203.255.135/32
+  * 35.155.2.51/32
+  * 52.34.192.77/32
+
+**Cluster 10**
+
+* 20.36.133.48/28
+* 20.81.156.240/28
+* 172.172.84.48/28
+
+#### EU regions: clusters 4 and 11
+
+
+**Custer 4** 
 
 * 52.31.132.175
 * 52.19.188.226
@@ -143,8 +162,6 @@ If your Production environment is on Cluster 4, add the following IP addresses f
 * 52.29.41.175
 * 52.29.197.69
 * 52.48.124.108 
-* 69.169.230.231
-* 69.169. 230.232
 * 3.121.91.129
 * 3.122.11.35
 * 34.246.27.40
@@ -158,76 +175,7 @@ If your Production environment is on Cluster 4, add the following IP addresses f
 * 34.242.62.80/32
 * 46.51.194.192/32
 * 54.229.129.66/32
-* 23.251.239.98
-* 23.251.239.99
-* 24.110.76.224
-* 24.110.76.223
 
-### IP addresses to allow for Cluster 6 {#ip-addresses-to-allow-for-cluster-6}
-
-If your Production environment is on Cluster 6, add the following IP addresses.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">To receive email from the Workfront application</td> 
-   <td> 
-    <ul> 
-     <li>34.94.227.64</li> 
-     <li>34.94.227.65</li> 
-     <li>34.94.227.66</li> 
-     <li>34.94.227.67</li> 
-     <li>34.66.82.64</li> 
-     <li>34.66.82.65</li> 
-     <li>34.66.82.66</li> 
-     <li>34.66.82.67</li> 
-    <li>206.55.149.212</li>
-   <li>206.55.149.214</li>
-   <li>206.55.149.215</li>
-   <li>206.55.149.213</li>
-   <li>206.55.149.211</li>
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">To use the email service</td> 
-   <td> 
-    <ul> 
-     <li>54.240.60.174</li> 
-     <li>54.240.60.175</li> 
-     <li>13.58.86.183</li> 
-     <li>34.209.181.84</li> 
-     <li>35.161.82.137</li> 
-     <li>52.14.70.114</li> 
-     <li>52.15.230.220</li> 
-     <li>54.71.252.65 </li> 
-    </ul> </td> 
-  </tr> 
-    <tr> 
-   <td role="rowheader">To use the Mailgun email service</td> 
-   <td> 
-    <ul> 
-     <li>143.55.228.56 </li> 
-     <li>209.61.151.229</li> 
-     <li>69.72.43.7</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### IP addresses to allow for Cluster 10
-
-* 20.36.133.48/28
-* 20.81.156.240/28
-* 172.172.84.48/28
-
-### IP addresses to allow for Cluster 11
-
-To receive email from the Workfront application on cluster 11, add the following IP addresses:
-
-* 24.110.76.224
-* 24.110.76.223
 
 ### IP addresses to allow for a Test Drive
 
@@ -434,7 +382,7 @@ If your organization uses outbound network filtering, add the following domains 
 * *.static.workfront.com 
 
 
-  This is a static domain that excompasses all of the following domains. You may add the individual domains if you prefer:
+  This is a static domain that encompasses all of the following domains. You may add the individual domains if you prefer:
   
    * mfe.static.workfront.com
    * mfe-c.static.workfront.com
@@ -442,7 +390,7 @@ If your organization uses outbound network filtering, add the following domains 
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
 
-If your organization is on the Adobe Unified Experience, it uses the following domains. These domains are covered under `*.adobe.com`, but can be added if desired.
+Because your organization is on the Adobe Unified Experience, it uses the following domains. These domains are covered under `*.adobe.com`, but can be added if desired.
 
 * &lt;your domain&gt;.my.workfront.adobe.com
 * &lt;your domain&gt;.preview.workfront.adobe.com
@@ -451,6 +399,8 @@ If your organization is on the Adobe Unified Experience, it uses the following d
 
 
 For Workfront Fusion, add the following domains:
+
+<!--Remove me October 2026-->
 
 * For organization not on the Adobe Unified Experience:
    * app.workfrontfusion.com (US AWS)
@@ -556,32 +506,8 @@ You must add the following IP addresses to your allowlist in order to use variou
 
 ### For outgoing email {#for-outgoing-email}
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>Prod-US (Clusters 1, 2, 3, 5, and 7)</p> </td> 
-   <td> 
-    <ul> 
-     <li> 23.251.237.106</li> 
-     <li>23.251.237.107</li> 
-     <li>23.251.237.108</li> 
-     <li>54.240.60.174</li> 
-     <li>54.240.60.175</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Prod-EU (Cluster 4)</td> 
-   <td> 
-    <ul> 
-     <li>23.251.239.98</li> 
-     <li>69.169.230.231</li> 
-     <li>69.169.230.232</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+See the [To receive email from the Workfront application](#to-receive-email-from-the-workfront-application) section above.
+
 
 ## Ports to open for best Workfront Proof performance
 

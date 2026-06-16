@@ -8,6 +8,29 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/wQAqAplnYGWGCSSb1oVg2wIUK7Pn-Q0k4YIJIPJlqaQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure the [!DNL SharePoint] integration
 
@@ -179,9 +202,11 @@ Your [!DNL SharePoint] Client Secret expires once a year. To ensure continued ac
 >
 > Because [!DNL SharePoint] Client Secrets are handled by [!DNL Microsoft], Client Secret features and procedures may change based on updates to [!DNL SharePoint] made by [!DNL Microsoft]. Always check the [!DNL Microsoft] documentation for the latest information about procedures and features in [!DNL SharePoint].
 
-<!--1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
+<!--
+1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
 
-1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.-->
+1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.
+-->
 
 1. Generate a new client secret as described in [Replace an expiring client secret in a [!DNL SharePoint] Add-in](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
 1. Copy this Client Secret to a secure location. 
@@ -477,7 +502,8 @@ To see a site collection in [!DNL Workfront], the following conditions must be m
 
   To verify this in [!DNL SharePoint], check the site collection's permissions in SharePoint.
 
-<!--* The [!DNL SharePoint] Site App must have access to the site collection.
+<!--
+* The [!DNL SharePoint] Site App must have access to the site collection.
 
   To verify this in [!DNL SharePoint]:
 
@@ -505,4 +531,5 @@ For information on linking folders from external providers, see [Link documents 
 
 #### Solution:
 
-This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.-->
+This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.
+-->

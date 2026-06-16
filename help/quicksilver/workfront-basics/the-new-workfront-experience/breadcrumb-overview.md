@@ -4,6 +4,15 @@ title: Breadcrumbs overview
 description: Breadcrumbs display the full navigational hierarchy for all object types.
 feature: Get Started with Workfront
 exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/VryLEVTqJFgAxlm-al5y0hqxVQ71zFPi8YG1oAlox8k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Breadcrumbs overview
 
@@ -38,7 +47,8 @@ You can also use the following keys to navigate the breadcrumbs:
 
 
 
-<!--drafted: this is no longer possible, since we removed Campaigns, but it might come back as part of Maestro: 
+<!--
+drafted: this is no longer possible, since we removed Campaigns, but it might come back as part of Maestro: 
 
 ## Multi-object breadcrumbs
 

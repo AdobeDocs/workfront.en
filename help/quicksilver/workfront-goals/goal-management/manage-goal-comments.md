@@ -6,6 +6,24 @@ description: You can add comments to all goals you can view in Adobe Workfront G
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/0z-FEvPooy6Iz8Z-KQaCjIPEIeFYUE6TSNAFUdT0qBI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Manage goal comments in Adobe Workfront Goals
 
@@ -15,9 +33,11 @@ exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
 
 <!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>-->
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+-->
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
@@ -78,7 +98,8 @@ You can add comments to all goals that you can view in Adobe Workfront Goals.
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -127,7 +148,8 @@ You can add comments to all goals that you can view in Adobe Workfront Goals.
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Manage goal comments
 
@@ -215,6 +237,7 @@ This opens the goal list.
    Additional comments display at the bottom of the screen.
 1. (Optional) Click the **Like** icon![Like icon](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
 
-1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. (*********ensure the casing on the tab has not changed**********)-->
+1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. (*********ensure the casing on the tab has not changed**********)
+-->
 
 

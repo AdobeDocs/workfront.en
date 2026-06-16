@@ -8,12 +8,35 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/N-DtYyvhQ--RI0X4UlY2p9F304tTg0zT-5qKCaVjvig
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure [!UICONTROL Resource Management] preferences
 
 <!-- Audited: 5/2025 -->
 
-<!--Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
+<!--
+Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
 Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the
 -->
 
@@ -152,7 +175,8 @@ For information about planning and scheduling resources in [!DNL Workfront], see
       >`User Weekly Available [!UICONTROL FTE] = [(30-2) * 0.5] / 40 = 0.35`
       >
       
-      <!--This used to be the calculation before we implemented the Work Time field: 
+      <!--
+      This used to be the calculation before we implemented the Work Time field: 
       
 
       The Available hours for the user are calculated by the following formula:

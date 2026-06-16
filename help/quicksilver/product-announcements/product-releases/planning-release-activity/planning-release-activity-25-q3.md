@@ -7,6 +7,23 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Third Quarter 2025 release activity for Adobe Workfront Planning
 
@@ -78,7 +95,8 @@ For more information, see the following articles:
 
 * [Share record types](/help/quicksilver/planning/access/share-record-types.md)
 
-<!--## Add teams as approvers on Planning request forms
+<!--
+## Add teams as approvers on Planning request forms
 
 >[!NOTE]
 >
@@ -89,7 +107,8 @@ To make the approval process more flexible, we've added the ability to add teams
 
 Previously, only individual users could be assigned as approvers. 
 
-For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).-->
+For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+-->
 
 ## Updated experience when sharing a request form
 

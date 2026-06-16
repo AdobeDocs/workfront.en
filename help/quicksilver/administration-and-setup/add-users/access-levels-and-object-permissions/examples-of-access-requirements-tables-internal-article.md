@@ -2,7 +2,7 @@
 title: "Examples of access requirements tables - internal article"
 description: This is an internal article for our team to keep an inventory of the tables we use for Access Requirements. This should not publish. 
 author: Alina 
-hide: yes
+hide: true
 hidefromtoc: yes
 ---
 

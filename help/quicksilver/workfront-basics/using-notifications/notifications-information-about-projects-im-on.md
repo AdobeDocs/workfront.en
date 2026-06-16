@@ -6,6 +6,16 @@ description: The following notifications alert you about activities happening in
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c4cf84eb-8911-4bff-a548-7f0e6d8aa7b5
+TQID: https://experienceleague.adobe.com/RLrCDv5K-2Qf2VfoSGJ1NGxyFuhc03bS-U5QKKtL4ws
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Notifications: Information about projects I'm on
 

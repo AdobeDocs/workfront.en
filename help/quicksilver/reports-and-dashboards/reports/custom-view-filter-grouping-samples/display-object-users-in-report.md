@@ -2,11 +2,23 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Reports or lists: display users associated with an object'
+title: "Reports or lists: display users associated with an object"
 description: You can display users, job roles, and teams associated with objects in reports or lists as well as reference them in filters. You cannot group by users, job roles, or teams associated with objects.
 author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 9abdaafb-da2c-4b5d-9117-59afa4a1e71f
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/VBP6x-FSAx2qHJ337azl-Dt4kc8SL9YYL0P4iEZlHJ8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Reports or lists: display users associated with an object
 

@@ -2,22 +2,52 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Edit tasks in a list
-description: You can edit task information in a list of tasks by editing the fields displayed in the list. You must define the Plan Mode in a list of tasks to indicate how you want your changes to be saved to Workfront. You can save your changes manually or automatically. 
+description: You can edit task information in a list of tasks by editing the fields displayed in the list. You must define the Plan Mode in a list of tasks to indicate how you want your changes to be saved to Workfront. You can save your changes manually or automatically.
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/tBznGe2cQ4VnNILQHjlgwILlD-CinYpv01ARGY9XiAw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Edit tasks in a list {#edit-tasks-in-a-list}
 
 <!-- Audited: 10/2025 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
-</div>-->
+</div>
+-->
 
 You can edit task information in a list of tasks by editing the fields displayed in the list. For information about other ways to edit tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -54,7 +84,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -78,7 +109,8 @@ For more information, see [Access requirements in Workfront documentation](/help
    <td> <p>Contribute or higher permissions to the task and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerations about editing tasks in a list {#considerations-about-editing-tasks-in-a-list}
 
@@ -333,7 +365,11 @@ To edit tasks in a list when selecting the Manual save Standard option:
     </tbody> 
    </table>
 
-1. Workfront updates all in-project and cross-project dependencies when you make changes to the timeline of tasks. 
+1. Click a task in the list, then drag and drop it in a different position in the timeline. 
+
+   When you click a parent task to change its position, all the children are also moved. 
+
+   Workfront updates all in-project and cross-project dependencies when you make changes to the timeline of tasks. 
 1. Click **Save** when you want to keep your task changes permanently and save the timeline of the project.
 
 #### Save changes in a task list manually when you select the Manual save Timeline Planning option {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}
@@ -452,34 +488,38 @@ To edit tasks in a list when using the Manual save Timeline Planning option:
 
 1. In the left panel, click the **Tasks** section. The list of tasks on the project displays. 
 
-1. Select the task you want to edit, then click the **Open Summary** icon ![Open Summary icon](assets/task-summary-icon.png) in the upper-right corner of the list. The **Task Summary** panel opens.
+1. Select the task you want to edit, then click the **Open Summary** icon ![Open Summary icon](assets/task-summary-icon.png) in the upper-right corner of the list. The **Task Summary** panel opens. 
 
 1. (Optional) Type an update for the task in the **Updates** area. 
 1. Click any of the following icons or areas to go to the task and edit information at the task level:
 
- <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Documents</td> 
-      <td>Add documents to the task. </td> 
-     </tr> 
-          <tr> 
-      <td role="rowheader">Custom Forms</td> 
-      <td>Add or remove custom forms or update information on the forms.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Hours</td> 
-      <td>Log hours.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Approvals</td> 
-      <td>Add task approvals.</td> 
-     </tr> 
-     <tr> 
-    </tbody> 
-   </table>
+   <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">Documents</td> 
+         <td><p>Add documents to the task.</p>
+         <p><b>NOTE</b></p>
+         <p>If your organization uses Adobe cloud storage for documents, you cannot add documents to tasks in the Summary panel for Adobe cloud storage tasks.</p>
+         <p>For information, see <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Document management overview for projects and related objects</a>.</p>
+      </td> 
+      </tr> 
+            <tr> 
+         <td role="rowheader">Custom Forms</td> 
+         <td>Add or remove custom forms or update information on the forms.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Hours</td> 
+         <td>Log hours.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Approvals</td> 
+         <td>Add task approvals.</td> 
+      </tr> 
+      <tr> 
+      </tbody> 
+      </table>
 
 1. Click the **X** in the top-right corner of the panel to close it. 
 
@@ -529,7 +569,8 @@ You can edit multiple tasks at the same time. Ensure you have manage permissions
 1. Click **Save**. 
 
 
-<!--Temporary content while changing the Assignments area:
+<!--
+Temporary content while changing the Assignments area:
 
 Editing multiple tasks at the same time differs depending on what environment you choose. 
 
@@ -594,4 +635,5 @@ Editing multiple tasks at the same time differs depending on what environment yo
 
 <div class="preview">
 
-### Edit tasks in bulk in the Preview environment-->
+### Edit tasks in bulk in the Preview environment
+-->

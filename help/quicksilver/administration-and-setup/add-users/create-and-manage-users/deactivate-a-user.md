@@ -8,6 +8,24 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/zHLRYheTPbZUMzGm93gmS4iL-tbYlV9x3a0rWJq1ozo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Deactivate or reactivate a user {#deactivate-or-reactivate-a-user}
 
@@ -17,18 +35,6 @@ exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
 >abstract="Deactivating a user removes them from Workfront and Frame.io. Deactivated users can be reactivated later."
 
 <!--Audited 5/2025-->
-
-<!--
-
->[!IMPORTANT]
->
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
->
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
->
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
-
--->
 
 If a user leaves the organization, it's recommended to deactivate them in the system to avoid creating confusion for other users when adding them to updates or assigning them work. When you deactivate a user, other users no longer see their name when they search for people in the system.
 
@@ -89,8 +95,10 @@ For more information, see [About deactivating Workfront administrators and Stand
 Be aware of the following when deactivating a user: 
 
 * The user won't be able to access the system.
-<!--* The user will be removed from Frame.io review links, assets, projects, and accounts.
-   * Reactivating the user does not automatically add them back to the Frame.io items. You must reassign the user manually to Workfront projects, tasks, and assets that require Frame.io collaboration.-->
+<!--
+* The user will be removed from Frame.io review links, assets, projects, and accounts.
+   * Reactivating the user does not automatically add them back to the Frame.io items. You must reassign the user manually to Workfront projects, tasks, and assets that require Frame.io collaboration.
+   -->
 * All data associated with the user will be retained.
 * You can assign a deactivated user's license to another user.
 
@@ -147,7 +155,8 @@ We recommend that you build a report for users that you have scheduled for deact
 <!--
 ### Asset review and approval impact when you reactivate a user
 
-Deactivated users lose access to their assigned Frame.io accounts as well as assigned projects, assets, and review links. If you choose to reactivate the user, you must manually reassign them to projects, tasks, and assets that require Frame.io collaboration. -->
+Deactivated users lose access to their assigned Frame.io accounts as well as assigned projects, assets, and review links. If you choose to reactivate the user, you must manually reassign them to projects, tasks, and assets that require Frame.io collaboration.
+-->
 
 ### Proofing impact when you reactivate a user
 

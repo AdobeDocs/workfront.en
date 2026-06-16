@@ -6,8 +6,27 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
+last-update: 2026-04-01T18:23:03.000Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+TQID: https://experienceleague.adobe.com/sFguOXM4KmnumOPmMdueqTMyH-UNFq01TsJG6L53fAM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 # Manage the record page layout
 
 <span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -16,13 +35,13 @@ exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 
 {{planning-important-intro}}
 
-You can edit the layout of the record preview and page in Adobe Workfront Planning. 
+You can edit the layout of the record preview and page in Adobe Workfront Planning.
 
-The record preview is a smaller view of the record page that displays in the view of a record type. 
+The record preview is a smaller view of the record page that displays in the view of a record type.
 
-When you change the layout of a record  preview and page, the changes affect the preview boxes and details pages of all records of the same type. 
+When you change the layout of a record  preview and page, the changes affect the preview boxes and details pages of all records of the same type.
 
-This article describes how you can change the layout and appearance of a record preview box or a record page. For information about editing records, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+This article describes how you can change the layout and appearance of a record preview box or a record page. For information about editing records, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 
 You must create record types and records before you can start editing record pages. 
 
@@ -60,7 +79,7 @@ For information, see the following articles:
   <tr>
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
-   <p>Contribute or higher permissions to a workspace and record type </p>  
+   <p>Contribute or higher permissions to a workspace and record type and <span class="preview">Manage permissions to a record</span> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> 
   </td>
   </tr>   
@@ -72,7 +91,8 @@ For more information about Workfront access requirements, see [Access requiremen
 +++   
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
  <col>
  </col>
@@ -133,7 +153,8 @@ For more information about Workfront access requirements, see [Access requiremen
   </td>
   </tr>
  </tbody>
-</table>-->
+</table>
+-->
 
 ## Considerations about working with record pages
 
@@ -163,6 +184,7 @@ For more information about Workfront access requirements, see [Access requiremen
 
 Consider the following when adding sections to a record page:
 
+* You can add sections only when display all the fields of a record. You cannot add sections when you hide the fields hidden in a table view. 
 * There is no limit to how many sections you can have on a page. 
 * You cannot have an empty section. You must have at least one field in a section. 
 * You can drag and drop fields from one section to another. For more information, see the section [Manage fields in the record preview or details page](#manage-fields-in-the-records-details-tab) in this article. 
@@ -184,7 +206,7 @@ To add a section to a record preview or page:
 
     Or 
     
-    From the table table view, click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) in the first column. 
+    From the table view, click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) in the first column. 
     
     <span class="preview">The record's preview opens in the view.</span>
 
@@ -192,9 +214,9 @@ To add a section to a record preview or page:
 
 1. (Optional) Click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record preview  to open the record's page in a new tab. 
 
-    The record page opens. The Details tab opens by default.
+   <span class="preview"> The record page opens. The Details tab opens by default.</span>
 
-    ![Details page](assets/details-page.png)
+   ![Details page](assets/details-page.png)
 
 1. In the **Details** tab of the record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![Add section icon](assets/add-section-icon.png) to add a section. 
 1. Click inside the section's name and replace **Untitled section** with a name, then click Enter. The fields displayed under the section are automatically part of the new section. 
@@ -269,30 +291,62 @@ To add a section to a record preview or page:
 
     ![Details box](assets/details-box.png) 
 
-1. <span class="preview">(Optional and conditional) Depending on which fields you want to display in the Details page, do one of the following:</span>
+1. (Optional and conditional) If you are using the Production environment, depending on which fields you want to display in the Details page, do one of the following:
 
-   <div class="preview">
+   
+   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
 
-   * Select the **Show all fields** setting to view all fields from the record's table view, including the hidden ones. 
-   * Deselect the **Show all fields** setting to view only fields that are not hidden in the record's table view. This is the default setting
+      >[!TIP]
+      >
+      >* The **Show all fields** setting is available only in the record's Details preview box. It is not available when the record's Details page opens in a browser window.
+      >* You cannot add sections to a record's page when you exclude hidden fields in the Details preview box. 
 
-   </div>
+
+1. <span class="preview">(Optional and conditional) If you are using the Preview environment, the details area opens by default in the **Selected table view fields** view. This displays only the fields that are visible in the table view. </span>
 
    >[!TIP]
    >
-   ><span class="preview">The **Show all fields** setting is available only in the record's Details preview box. It is not available in the record's Details page.</span>
+   > <span class="preview">The **Selected table view fields** view is only available when you view records in the table view in the record's details preview page. 
+   >The **Selected table view fields** is not available for any other record type view or for the record's details page that opens in a browser window. </span>
+   
+1. <span class="preview">(Conditional) In the Preview environment, continue with the following:</span>
 
+   <div class="preview">
 
-   <!--replace with this when they fix the UI text:
-   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
-   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
-   -->
+   1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
+   1. (Optional) ClicK **New Details** to add a new page and customize it, then do the following:
 
-   </div> 
+      1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
+      1. Hover over the fields on the view and click the **Hide field** icon ![Hide field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field. 
+      
+         >[!TIP]
+         >
+         >* Custom pages are visible by everyone who accesses the record. 
+         >* The last page view you choose will be the one that opens by default when you open another record of the same type.
+      
+      1. (Optional) Click the **Fields icon** ![Fields icon](assets/fields-icon.png) at the top of the details page, then hide or show fields on the Details page. 
+      
+         >[!TIP]
+         >
+         >The **Fields** icon is not available when you display the details page in the **Selected table view** or the **All fields** views.
+
+      1. (Optional) To edit the name of a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png) , then click **Edit**. 
+      1. (Optional) To delete a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png), then click **Delete**, then **Delete** to confirm. Deleted details page views cannot be recovered. 
+      
+   </div>
+
+1. (Optional) If you want to navigate to a connected record, click the name of that record in the breadcrumb at the top of the details page. 
+
+   If you cannot see the name of a record in the breadcrumb, click **More**. This displays the breadcrumb on multiple rows. Click **Less** to shorten the breadcrumb and display it on one row.
+
+   >[!TIP]
+   >
+   >You must have connected record types, records, and hierarchies in your workspace to be able to see breadcrumbs in the record's details page. 
 
 1. (Optional) Click the **Open in new tab** icon ![Open details box in a new tab icon](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
 
-    The record **Details** page opens in a new tab. 
+   <span class="preview">The record **Details** page opens in a new tab.</span> 
 
    ![Details page](assets/details-page.png)
 
@@ -314,7 +368,8 @@ You can view information from connected records or objects by adding a tab for a
 
 For more information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md). 
 
-<!--this content has been moved to the page linked above
+<!--
+this content has been moved to the page linked above
 Consider the following when adding a Connected records page to a record: 
 
 * You can add a Connected records page to a record after you connected record or object types to the record type from the table view of a record type.
@@ -428,7 +483,8 @@ To add a Connected records page:
    >
    >You cannot create, edit, or delete fields in the table view of a connected record's tab.
    
-1. (Optional)  Hover over the name of the Connected records page tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.-->
+1. (Optional)  Hover over the name of the Connected records page tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.
+-->
 
 
 <!--
@@ -438,13 +494,11 @@ To add a Connected records page:
 
 You can add a Brief page to the record's preview or pages. 
 
-Brief pages contain the same information as the Details tab, in a read-only format. <!--edit this when we can remove fields from this page-->
+Brief pages contain the same information as the Details tab, in a read-only format. edit this when we can remove fields from this page
+-->
 
 <!--
 1. From a record's page view, click the name of a record to open its preview or page.
 1. Click **Add page** > **Brief**. 
 1. Add the **Page name**, then click **Create**. 
 -->
-
-
-

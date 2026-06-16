@@ -6,10 +6,32 @@ description: After you've linked an asset from Experience Manager Assets Essenti
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
+TQID: https://experienceleague.adobe.com/adxs5pYRdr8p6SSjnGCXnHwSNKcJl3qGZjkbp764NfM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Proof a linked asset for Experience Manager Assets or Assets Essentials
 
 After you've linked an asset from Experience Manager Assets Essentials, you can create a proof and assign users to review and add comments to the asset.
+
+>[!NOTE]
+>
+>This functionality is not available in the new Documents area.<br>
+>If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. From there, you can add assets from Experience Manager Assets and review and approve them with the Frame.io viewer. For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 ## Access requirements
 

@@ -6,6 +6,32 @@ description: You can attach a template to a project either during the initial cr
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/gOkD1R3jXmPqjq51Wuk-jMncl-TvZkmJ6ZozRPMB1lM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Attach a template to a project
 
@@ -46,9 +72,10 @@ For more information about creating a project using a template, see [Create a pr
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
- +++
++++
 
- <!--Old:
+<!--
+ Old:
  
  <table style="table-layout:auto"> 
  <col> 
@@ -74,7 +101,8 @@ For more detail about the information in this table, see [Access requirements in
    <td> <p>Manage permissions to the project</p> <p>For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>. </p> <p>View permissions or higher to the template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -104,6 +132,12 @@ For more detail about the information in this table, see [Access requirements in
 ## Attach a template to an existing project {#attach-a-template-to-an-existing-project}
 
 You can attach a template to a project from the project page or from a project list or report.
+
+>[!NOTE]
+>
+>When your organization uses both legacy Workfront and Adobe cloud document storage, you can attach a template using a different storage type than that of the project. This does not change the document storage for the project. 
+>
+>For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 {{step1-to-projects}}
 

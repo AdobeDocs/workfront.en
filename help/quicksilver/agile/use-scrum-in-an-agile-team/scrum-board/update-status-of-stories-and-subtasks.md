@@ -6,6 +6,8 @@ description: You can change the status of a story directly from the Agile story 
 author: Courtney
 feature: Agile
 exl-id: 3f414901-883c-45ac-b30a-60841e883e35
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Update the status of stories and subtasks on the [!UICONTROL Scrum] board
 
@@ -36,7 +38,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -7,8 +7,30 @@ description: The Summary allows you to interact with important information direc
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/gDZwho8TsvB7bMML-f4SisR-cyjs1aPyHOMpOxmgtwI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Summary for documents overview
+
+{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -30,7 +52,8 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p> Any</p> </td> 
+   <td> <p>Any Workfront package to manage documents using legacy Workfront storage</p>
+<p>Any Workflow package to manage documents using Adobe cloud storage</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses</td> 
@@ -55,7 +78,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Summary for documents in the legacy documents experience
 
-If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe cloud storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Open the Summary view in the legacy documents experience
 
@@ -120,13 +143,15 @@ Use the Versions section to view the number of versions created for a specific d
 
 ## Summary for documents in the new documents experience
 
-If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Details
 
-Use the Details section to view high-level overview information and interact with custom forms.
+Use the Details section to view high-level overview information, interact with custom forms, and <span class="preview">open the Print Summary</span>.
 
 ![Document summary details in new documents experience](assets/summary-details.png)
+
+
 
 ### Approvals
 
@@ -134,7 +159,7 @@ Use the Approvals section to create an approval workflow. You can also remind pa
 
 For more information about approvals and Frame.io, see
 
-* [Get started with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
+* [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
 * [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 ![Document summary approvals in new documents experience](assets/summary-approvals.png)

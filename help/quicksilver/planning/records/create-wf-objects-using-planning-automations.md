@@ -1,20 +1,39 @@
 ---
 title: Create Objects Using Adobe Workfront Planning Record Automations
-description: After you configured and activated automations in Adobe Workfront Planning, you can use them to create objects in Adobe Workfront or records in Adobe Workfront Planning. This article describes how to create records or objects using an existing automation. 
+description: After you configured and activated automations in Adobe Workfront Planning, you can use them to create objects in Adobe Workfront or records in Adobe Workfront Planning. This article describes how to create records or objects using an existing automation.
 feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/c5iVodFoP9cUAVN63iu8B5-XoVihpNF3KbLdpMk7N9Q
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create objects using Adobe Workfront Planning record automations
 
 
 <!--you might need to add something about notifications and emails?!-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 After you configured and activated automations in Adobe Workfront Planning, you can use them to create objects in Adobe Workfront or records in Adobe Workfront Planning. 
 
@@ -69,6 +88,7 @@ You can create the following items using automations in Workfront Planning:
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td> <p>Contribute or higher permissions to the workspace and to the record type where you want to create objects using existing automations. </p>  
+   <p><span class="preview">Manage permissions to the record you are running the automation for.</span></p>
    <p>Manage permissions to Workfront objects (portfolios) to add children objects (programs or projects).</p>
    <p>System Administrators have Manage permissions to all workspaces, including the ones they did not create</p>
    </td> 
@@ -80,7 +100,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++   
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -140,7 +161,8 @@ For more information about Workfront access requirements, see [Access requiremen
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerations about creating objects and records using an automation
 
@@ -154,14 +176,17 @@ For more information about Workfront access requirements, see [Access requiremen
 
 * New objects or records don't override existing ones in the same field. Triggering the same automation multiple times for the same record adds the new objects or records in the same connected field of the original record, in addition to the ones created before. 
 
+* When your organization uses both legacy Workfront and Adobe cloud storage, the items created automatically from Planning are created using the default storage selected by your Workfront administrator in your Setup area. 
 
+   For information about enabling Adobe cloud storage in your environment, see [Enable Adobe cloud storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 <!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
  
 
 ## Use a Workfront Planning automation to create an object or a record
 
-<!--For Feb 26 and add Preview disclosure at the top:
+<!--
+For Feb 26 and add Preview disclosure at the top:
 
 <span class="preview">When you choose a Field value change-automation, Workfront Planning creates the objects automatically, when the conditions you define are met. </span>
 
@@ -199,7 +224,8 @@ This section describes how to create objects using a Button click-automation.
 
 1. (Optional) Click the new object in the connected field. The object page opens and you can make additional changes to the new object. 
 
-<!--ORIGINAL AUTOMATION FUNCTIONALITY - BEFORE FEB. 20, 2025
+<!--
+ORIGINAL AUTOMATION FUNCTIONALITY - BEFORE FEB. 20, 2025
 
 You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. The created objects or records are automatically connected to the records you are triggering the automation from. 
 

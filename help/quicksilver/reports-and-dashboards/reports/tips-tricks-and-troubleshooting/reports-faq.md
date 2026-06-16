@@ -7,6 +7,28 @@ description: Reports FAQs
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/T0beriGNdLjLUEIHLFnbMVS6tW18CuTnwcEEWBPiz7Q
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Reports FAQs
 
@@ -56,7 +78,7 @@ For more detail about the information in this table, see [Access requirements in
 
 <!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
 
-On a project report I have a calculation that subtracts  Actual Hours from Planned Hours.
+On a project report I have a calculation that subtracts Actual Hours from Planned Hours.
 
 The result I am getting is incorrect. 
 
@@ -74,13 +96,19 @@ Planned Hours are stored in minutes.
 
 Depending on which Actual Hours field you want to use for your calculation, the correct formulas are: 
 
-* For Legacy Actual Hours which are stored in minutes: 
+* For Actual Hours, which are stored in hours with decimal precision:
+ 
+  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+* For Legacy Actual Hours, which are stored in minutes:
 
   `valueexpression=SUB(workRequired,actualWorkRequired)/60`
 
-* For Actual Hours which are stored in hours: 
- 
-  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+>[!NOTE]
+>
+>It is strongly recommended to use `actualWorkRequiredDouble` in all reports.
+>
+>`actualWorkRequired` does not display correctly in charts in reports.
 
 For more information, see [View Actual Hours](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md). 
 
@@ -117,7 +145,7 @@ For a complete list of user-based Wildcard filter variables overview, see [Wildc
 
 This can happen in most cases if you have a limited access that prevents you from seeing items in the system. Additionally, the items that you want to see are not shared with you.
 
-The creator of the report can edit the report to run it with the access rights of a system administrator, or any Plan user who has access to see the data.
+The creator of the report can edit the report to run it with the access rights of a system administrator, or any Standard or Plan user who has access to see the data.
 
 For more information, see [Run and deliver a report with the access rights of another user](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
 
@@ -180,7 +208,7 @@ For more information about refreshing a cached dashboard, see the section [Displ
 
 You can't change the owner of a report. However, the user who created the report can allow other users to edit the report. The way you can allow users to edit a report depends on the type of user you are.
 
-* System administrators can allow users with a Plan license to edit reports by configuring the Edit option in the Reports row to include the access to Create a report.  
+* System administrators can allow users with a Standard or Plan license to edit reports by configuring the Edit option in the Reports row to include the access to Create a report.  
   For more information, see [Grant access to reports, dashboards, and calendars](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Any end users with access to create and share reports can allow others to edit individual reports by sharing them and giving other users Manage permissions to them.  

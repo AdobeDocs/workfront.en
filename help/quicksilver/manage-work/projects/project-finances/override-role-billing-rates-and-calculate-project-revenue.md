@@ -1,22 +1,64 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Overview of Overriding Job Role Billing Rates and Calculating Revenue on a Project
-description: You can use billing rates to calculate revenue on your projects when you multiply them by the hours spent on the project. For more information about billing rates and revenue, see the article Overview of Billing and Revenue.
+title: Overview of Overriding Billing Rates and Calculating Revenue on a Project
+description: You can use billing rates to calculate revenue on your projects when you multiply them by the hours spent on the project.
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
+TQID: https://experienceleague.adobe.com/R4sO92imTe1YBO0YGJIsuD5OOlhfbhlN-0qvyYU48t0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-# Overview of overriding Job Role Billing Rates and calculating Revenue on a project
-
-{{highlighted-preview}}
+# Overview of overriding billing rates and calculating revenue on a project
 
 You can use billing rates to calculate revenue on your projects when you multiply them by the hours spent on the project. For more information about billing rates and revenue, see the article [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-## Overview of Job Role Billing Rates and Role Hourly Revenue Types
+## Overview of billing rates and task Revenue Types
 
 As an Adobe Workfront administrator, you can associate billing rates with both users and job roles.  
 For more information about creating users and associating them with billing rates, see the article [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md). For more information about creating job roles and associating them with billing rates, see the article [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+
+### Overview - Workflow Ultimate package
+
+Billing rates associated with users and job roles can be overridden at the project level.
+
+To calculate revenue on projects based on the billing rates of job roles, the **Revenue Type** of the tasks on the projects must be one of the following:
+
+* Role Hourly
+* Role Hourly w/Cap
+* Role Hourly plus Fixed
+* User and Role Hourly
+* User and Role Hourly with Cap
+* User and Role Hourly Plus Fixed
+
+To calculate revenue on projects based on the billing rates of users, the Revenue Type of the tasks on the projects must be one of the following:
+
+* User Hourly
+* User Hourly with Cap
+* User Hourly Plus Fixed
+* User and Role Hourly
+* User and Role Hourly with Cap
+* User and Role Hourly Plus Fixed
+
+For more information about **Revenue Type** and billing rates, see [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+### Overview - all other Workfront and Workflow packages
 
 Billing rates associated with users cannot be overridden.
 
@@ -30,7 +72,27 @@ To calculate revenue on projects based on the billing rates of job roles, the **
 
 For more information about **Revenue Type** and billing rates, see [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-## Hierarchy of Billing Rate overrides when calculating Revenue
+## Hierarchy of Billing Rate overrides when calculating Revenue - Workflow Ultimate package
+
+>[!NOTE]
+>
+>The User and Role Hourly revenue types follow a detailed hierarchy when locating the billing rate for revenue calculation. For information, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+
+A job role can have a billing rate associated with it in the following ways:
+
+* As a Workfront administrator, you can define the system-level billing rate associated with a job role when you are creating that job role.  
+  For more information about creating job roles, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+
+* As a Workfront administrator, you can define rate cards with multiple billing rates per role, based on attributes and effective dates. When a rate card is attached to a project, all of the roles, their attributes, and their associated billing rates are added to the project's billing rates section. Attaching a rate card overrides any existing billing rates on the project.
+  
+  For more information, see [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md) and [Attach a rate card to a project](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
+
+* As a project manager, you can define the billing rate for the same job role at the project level.  
+  Job role rates changed on the project will only impact that project.
+
+  For information about overriding role rates for the project, see [Override Job Role Billing Rates at the project level](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+
+## Hierarchy of Billing Rate overrides when calculating Revenue - all other Workfront and Workflow packages
 
 A job role can have a billing rate associated with it in the following ways:
 
@@ -50,14 +112,6 @@ A job role can have a billing rate associated with it in the following ways:
 * As a Workfront administrator, you can enable an option when editing a project to apply changes to company-level billing rates to the project when users manually recalculate project finances.  
   For more information, see [Override Project-Level Billing Rates with Company-Level Billing Rates](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md).
 
-<div class="preview">
-
-* As a Workfront administrator, you can define rate cards with multiple billing rates per role, based on location and date. When a rate card is attached to a project, all of the roles (by location, if locations are used) and their associated billing rates are added to the project's billing rates section. Attaching a rate card overrides any existing billing rates on the project.
-  
-  For more information, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) and [Attach a rate card to a project](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
-
-</div>
-
 * As a project manager, you can define the billing rate for the same job role at the project level.  
   Job role rates changed on the project will only impact that project.
 
@@ -71,17 +125,41 @@ A job role can have a billing rate associated with it in the following ways:
 
 As a project manager, you can specify what the billing rate is for a job role on a specific project. This project-level billing rate overrides the billing rate at the system level for this job role. Workfront uses the project-level billing rate of the job role to calculate revenue, instead of using the system-level billing rate.
 
-<span class="preview">You can also attach a rate card to the project, which will import the job role billing rates from the rate card into the project.</span>
+You can also attach a rate card to the project, which will import the job role billing rates from the rate card into the project.
 
 For information about how to override the Job Role Billing Rates at the project level, see [Override Job Role Billing Rates at the project level](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
-For more information about which job role is used to calculate revenue on the project, see the "Revenue calculations for tasks based on User and Role assignments" section in [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md). <span class="preview">For information about attaching a rate card to a project, see [Attach a rate card to a project](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).</span>
+For more information about which job role is used to calculate revenue on the project, see the [Revenue calculations for tasks based on User and Role assignments](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) section in [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+For information about attaching a rate card to a project, see [Attach a rate card to a project](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
 
 >[!NOTE]
 >
 >In the case of Actual Revenue, the billing rates applied to hours that are added to a Billing Record which is marked as Billed, should not be affected by billing rate overrides that occur after the Billing Record has been billed.
 
-## Overview of the Billing Rates section of a project
+## Overview of the Billing Rates section of a project - Workflow Ultimate package
+
+After you have specified the override billing rates for the job roles associated with the project, you can see all the job roles and their overrides in the **Rates > Billing Rates** tab of the project.
+
+### Rate Groupings
+
+Billing rates are grouped in the **Billing Rates** area first by their source (rate card or override) and then by the resource types: job role or user.
+
+In the grouping line corresponding to a job role, notice the billing rate for that job role at the project level in the **Value** column. If the job role has date-effective override rates, the rates are displayed in order by date.
+
+When override rates or rate card rates exist for a job role, the system default rate for the job role is not automatically applied when calculating revenue for the project. The hierarchy is followed to determine the billing rate, based on the revenue type. For more information, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+
+### Multiple Billing Rate values for a job role
+
+If you have multiple override billing rates for a specific job role, they are listed under the grouping for job roles. Using inline editing, you can change the override rates and the **Start Date** and **End Date** of the override billing rates on this tab. Or, select a rate and click the **Edit** icon to set date-effective override rates.
+
+>[!NOTE]
+>
+>When the **Start Date** or **End Date** is blank for a date-effective rate, Workfront assumes that the first override rate is applied for all hours with a date older than the **End Date** of the first override, and the last override rate is applied for all hours with a date newer than the **Start Date** of the last override. 
+>If an hour is logged before the Planned Start Date of the project the first billing rate is used.  
+>If an hour is logged after the Planned Completion Date of the project the last billing rate is used.
+
+## Overview of the Billing Rates section of a project - all other Workfront and Workflow packages
 
 After you have specified the override billing rates for the job roles associated with the project, you can see all the job roles and their overrides in the **Billing Rates** tab of the project.
 
@@ -95,7 +173,7 @@ Notice the following information in the list of **Billing Rates**:
 
 ### Job Role Grouping {#job-role-grouping}
 
-Billing rates are grouped in the **Billing Rates** area by their respective job roles. <span class="preview">If a rate card is attached to the project, then the job roles are also grouped by rate card. If locations are applied to job roles, then the location name is included as part of the job role name. You could have the same job role listed for multiple locations.</span>
+Billing rates are grouped in the **Billing Rates** area by their respective job roles.
 
 ### Project Billing Rate value {#project-billing-rate-value}
 
@@ -115,13 +193,11 @@ In the grouping line of a job role, notice the billing rate for that job role at
 
 >[!NOTE]
 >
-><span class="preview">When a rate card is attached to the project, the **Company Billing Rates** are not imported in the billing rates. The calculations are based on either rate card rates or company rates for the job roles.</span>
->
 >If there are project billing rates for a job role, the **Company Billing Rate** is never applied to calculating revenue for the project. Only the **Project Billing Rates** are applied to calculate revenue.
 
 ### Multiple Billing Rate values and timeframes {#multiple-billing-rate-values-and-timeframes}
 
-If you have multiple override billing rates for a specific job role, they are listed under the grouping for that job role. Using inline editing, you can change the override rates and the **Start** **Date** and **End Date** of the override billing rates on this tab.
+If you have multiple override billing rates for a specific job role, they are listed under the grouping for that job role. Using inline editing, you can change the override rates and the **Start** **Date** and **End Date** of the override billing rates on this tab. Or, select a rate and click the **Edit** icon to set date-effective override rates.
 
 >[!NOTE]
 >
@@ -137,9 +213,11 @@ If you have multiple override billing rates for a specific job role, they are li
 
 ### Calculate Planned Revenue based on a one-time Billing Rate override {#calculate-planned-revenue-based-on-a-one-time-billing-rate-override}
 
-Consider the following when calculating Planned Revenue based on a one-time Billing rate override:
+Consider the following when calculating Planned Revenue based on a one-time billing rate override:
 
-* When the **Revenue Type** of a task is **Role Hourly**, Workfront multiplies the Planned Hours of a task by the billing rate of the job role associated with the task to calculate Planned Revenue on the task. 
+* When the **Revenue Type** of a task is **Role Hourly**, Workfront multiplies the Planned Hours of a task by the billing rate of the job role associated with the task to calculate Planned Revenue on the task.
+
+* When the **Revenue Type** of a task is **User and Role Hourly**, Workfront uses a hierarchy to determine the billing rate for each task. For more information, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 * When the billing rate of the job role has been overridden at the project level, Workfront uses the override rate from the project to calculate Planned Revenue. 
 * When a task has multiple assignments, the Planned Revenue is calculated by multiplying the billing rate of each assignment's job role and their respective Planned Hour allocation.
@@ -152,11 +230,18 @@ For more information about which job role is used to calculate Planned Revenue, 
 
 ### Calculate Planned Revenue based on multiple Billing Rate overrides {#calculate-planned-revenue-based-on-multiple-billing-rate-overrides}
 
-Consider the following when calculating Planned Revenue based on multiple Billing Rate overrides:
+Consider the following when calculating Planned Revenue based on multiple billing rate overrides:
 
 * When the **Revenue Type** of a task is **Role Hourly**, Workfront multiplies the Planned Hours of a task by the billing rate of the job role associated with the task to calculate Planned Revenue on the task.
 
   For more information about which job role is used to calculate Planned Revenue, see the "Understanding Revenue Calculations for Tasks Based on User and Role Assignments" section in the article [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+* When the **Revenue Type** of a task is **User and Role Hourly** and a user is not assigned, Workfront multiplies the Planned Hours of a task by either of these to calculate Planned Revenue on the task:
+
+   * A manual override rate for the job role on the task
+   * The project job role rate, which can come from a rate card or from the system level.
+
+   For more information about which job role is used to calculate Planned Revenue, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) and the [Revenue calculations for tasks based on User and Role assignments](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) section in the article [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 * In case of multiple billing rate overrides, the rate by which the Planned Hours are multiplied changes during the duration of a task. By default, Workfront distributes the Planned Hours evenly across the duration of a task, allocating an equal number of hours for each day of the task. When calculating **Planned Revenue** for a task, Workfront multiplies the Planned Hour per Day by the billing rate of that day. In case of multiple billing rates, that rate could be different every day.
 
@@ -191,6 +276,8 @@ Consider the following when understanding the distribution of Planned Hours acro
 
 ## Calculate Actual Revenue
 
+The billing rate for Actual Revenue is based on the owner of the logged hours on a task. The "owner" is the person whose time is logged against the task, even if they are not assigned to the task.
+
 * [Calculate Actual Revenue based on a one-time Billing Rate override](#calculate-actual-revenue-based-on-a-one-time-billing-rate-override) 
 * [Calculate Actual Revenue based on multiple Billing Rate overrides](#calculate-actual-revenue-based-on-multiple-billing-rate-overrides)
 
@@ -201,6 +288,8 @@ Consider the following when calculating Actual Revenue based on a one-time Billi
 * When the **Revenue Type** of a task is **Role Hourly**, Workfront multiplies the **Actual Hours** of a task by the billing rate of the job role associated with the task to calculate **Actual Revenue** on the task. Actual Hours are hours logged directly to the task.
 
   For more information about which job role is used to calculate **Actual Revenue**, see the "Understanding Revenue Calculations for Tasks Based on User and Role Assignments" section in the article [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+* When the **Revenue Type** of a task is **User and Role Hourly**, Workfront uses a hierarchy to determine the billing rate for each task. For more information, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 * If the billing rate of the job role has been overridden at the project level, Workfront uses the override rate from the project to calculate Actual Revenue. When you override the billing rate of the job role on the project, the **Actual Revenue** of the project is recalculated automatically using the new adjusted rate.
 
@@ -215,7 +304,9 @@ Consider the following when calculating Actual Revenue based on a one-time Billi
 
 Consider the following when calculating Actual Revenue based on multiple Billing Rate overrides:
 
-* When the **Revenue Type** of a task is **Role Hourly**, Workfront multiplies the **Actual Hours** on the task with the billing rate of the job roles assigned to the task to calculate **Actual Revenue** on the task. Actual Hours are hours logged directly to the task. 
+* When the **Revenue Type** of a task is **Role Hourly**, Workfront multiplies the **Actual Hours** on the task with the billing rate of the job roles assigned to the task to calculate **Actual Revenue** on the task. Actual Hours are hours logged directly to the task.
+
+* When the **Revenue Type** of a task is **User and Role Hourly**, Workfront uses a hierarchy to determine the billing rate for each task. For more information, see [Overview of revenue and cost hierarchy](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 * In case of multiple billing rate overrides, the rate by which the **Actual Hours** are multiplied to calculate the **Actual Revenue** might change during the duration of a task. Workfront uses the billing rate of the job role whose time frame matches the **Entry Date** of the hours logged for the task to calculate **Actual Revenue.**
 
@@ -229,7 +320,7 @@ Consider the following when calculating Actual Revenue based on multiple Billing
 
   For more information about which job role is used to calculate **Actual Revenue**, see the "Understanding Revenue Calculations for Tasks Based on User and Role Assignments" section in the article [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-## The impact of Time Zones when calculating Revenue based on multiple Billing Rates
+## The impact of time zones when calculating Revenue based on multiple Billing Rates
 
 Users can see different Planned Hours per Day from other users, if time zone differences occur between them and other entities in Workfront. The following scenarios could skew the Planned Hours per Day information for a user from what another user sees:
 
@@ -243,15 +334,15 @@ In these cases, the number of Planned Hours per Day might be different between t
 * [Calculate Planned Revenue for users in different Time Zones](#calculate-planned-revenue-for-users-in-different-time-zones) 
 * [Calculate Actual Revenue for users in different Time Zones](#calculate-actual-revenue-for-users-in-different-time-zones)
 
-### Calculate Planned Revenue for users in different Time Zones {#calculate-planned-revenue-for-users-in-different-time-zones}
+### Calculate Planned Revenue for users in different time zones {#calculate-planned-revenue-for-users-in-different-time-zones}
 
 >[!NOTE]
 >
 >If you have users in different time zones working on the same projects, we recommend that you do not change the billing rate overrides for your projects during the week. Doing so can display an erroneous amount of Planned Revenue for your project, as a result of hour differences between the time zones in the schedule of the users and the Workfront system time zone . Most schedules allow for weekends to be excluded from the Planned Hours calculations. If a change happens in the billing rate override of a job role, it is better for it to occur during a weekend than in the middle of a week when it could coincide with the middle of the Duration of a task.
 
-Consider the following when calculating Planned Revenue for users in different Time Zones:
+Consider the following when calculating Planned Revenue for users in different time zones:
 
-* For tasks that have a **Revenue Type** of **Role Hourly** and are assigned to job roles, **Planned Revenue** is calculated by multiplying the **Planned Hours** of a task by the billing rate of the job role. 
+* For tasks that have a **Revenue Type** of **Role Hourly** or **User and Role Hourly** and are assigned to job roles, **Planned Revenue** is calculated by multiplying the **Planned Hours** of a task by the billing rate of the job role. 
 
 * The **Planned Hours** are evenly distributed across the **Duration** of the task. 
 
@@ -264,11 +355,11 @@ Consider the following when calculating Planned Revenue for users in different T
 * The accurate **Planned Revenue** amount is the one seen by the user who has the same time zone as the Time Zone of your Workfront instance. Your Workfront administrator defines the Workfront Time Zone in the System Customer Info area.  
   For more information about defining the Time Zone for your system, see the article [Configure basic information for your system](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
-### Calculate Actual Revenue for users in different Time Zones {#calculate-actual-revenue-for-users-in-different-time-zones}
+### Calculate Actual Revenue for users in different time zones {#calculate-actual-revenue-for-users-in-different-time-zones}
 
-Consider the following when calculating Actual Revenue for users in different Time Zones:
+Consider the following when calculating Actual Revenue for users in different time zones:
 
-* When the **Revenue Type** of a task is **Role Hourly**, Workfront multiplies the **Actual Hours** on the task with the billing rate of the job roles assigned to the task to calculate the **Actual Revenue**. Actual Hours are hours logged directly to the task. 
+* When the **Revenue Type** of a task is **Role Hourly** or **User and Role Hourly**, Workfront multiplies the **Actual Hours** on the task with the billing rate of the job roles assigned to the task to calculate the **Actual Revenue**. Actual Hours are hours logged directly to the task.
 
 * In case of multiple billing rate overrides, Workfront uses the billing rate of the job role whose time frame matches the **Entry Date** of the hours logged for the task to calculate **Actual Revenue**.
 

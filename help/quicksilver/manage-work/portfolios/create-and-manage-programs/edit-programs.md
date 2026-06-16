@@ -6,6 +6,26 @@ description: You can edit information on programs that you have created, or that
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/qSEkxIz67R1PRsCZCNu0oDYS6pLSJi3OaAULifx9xbo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Edit programs
 
@@ -147,14 +167,25 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td role="rowheader">[!UICONTROL Group]</td> 
       <td> <p>Add the name of a single group if the group is associated with the program or has responsibility for completing it. </p> <p><b>TIP</b></p>  <p>When accessing the [!UICONTROL Group] field from the [!UICONTROL Program Details] page, do the following to make sure you are selecting the right group: </p> <p>Hover over the group name and click the [!UICONTROL information] icon <img src="assets/info-icon.png"> next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>This option is not available in the [!UICONTROL Edit Program] box. </p> </p> </td> 
      </tr> 
+
+   <tr> 
+      <td role="rowheader">[!UICONTROL Is Active]</td> 
+      <td> <p>Check this setting if you want this program to be active and for users to find it to associate it with projects.</p>
+   <p>When unchecked, the program does not display in the Program field for a project or a template. </p>
+   <p>This setting is checked by default. </p>
+   </td> 
+     </tr> 
+
     </tbody> 
    </table>
 
-   <!--this was removed from the unshimmed version - asking on the epic:
+   <!--
+   this was removed from the unshimmed version - asking on the epic:
    <tr> 
       <td role="rowheader">[!UICONTROL Is Active]</td> 
       <td> <p> Select this checkbox if you want the program to be active. Other users can find active programs and attach them to projects or add them to portfolios. Inactive programs cannot be attached to projects or portfolios. This is enabled by default.</p> </td> 
-     </tr> -->
+     </tr>
+     -->
 
 
 1. Click **[!UICONTROL Save]**, or continue editing the following sections.

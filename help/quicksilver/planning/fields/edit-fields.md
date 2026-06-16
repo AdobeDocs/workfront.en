@@ -6,15 +6,37 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/chdwrI5WTrdmeuqsWI5WydiLLzcp5Rq-hDsILudO-P0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 # Edit field settings
 
 <!--leave the choice value information in yellow till January 2026-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -60,7 +82,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++     
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -116,7 +139,8 @@ For more information about Workfront access requirements, see [Access requiremen
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p></td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerations about editing field settings
 
@@ -145,7 +169,8 @@ You must consider the following before making changes to a field's configuration
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
-<!--this is not yet true, but it might come later:
+<!--
+this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
 -->
 
@@ -184,7 +209,16 @@ You must consider the following before making changes to a field's configuration
     >
     >* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications.
 
-    The field information updates for everyone with access to view the workspace. 
+1. <span class="preview">(Conditional) If the field you are updating is part of a request form, the **Review field changes** box displays to indicate the forms that will be impacted by your changes. Do one of the following:</span>
+
+   <div class="preview">
+
+   * Click the right-pointing arrow to display the forms impacted by the change, then click the form name to open the form in a new tab and decide whether you want to keep the field on the form or make additional changes to the form. 
+   * Click **Keep changes** which will update the field in all areas where it displays. 
+   
+   </div>
+
+   The field information updates for everyone with access to view the workspace. 
 
 1. (Conditional) For connected record fields, click **Edit lookup fields** and add or remove any of the lookup fields from the connected record type.
 
@@ -211,8 +245,12 @@ You might have a single-select field called Status that has the choices New and 
 To add a new choice to an existing select field when editing a record: 
 
 1. Go to a record type page and open the table view. 
-1. Add the single- or multi-select field that you would like to add a choice to in the table view as a new column. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+1. Add the single- or multi-select field that you would like to add a choice to in the table view as a new column. 
+
+   For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+
 1. Start editing the field inline by double-clicking the cell for the field. 
+
 1. Type the name of the choice you want to add, then click **Add choice**.
 
    ![Add choice in single-select field in table view](assets/add-choice-in-table-view-for-single-select-field.png)

@@ -6,6 +6,28 @@ description: You can share or remove permissions to an object you created or an 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
+TQID: https://experienceleague.adobe.com/1qu77g6G1MGEEHPki6hVXfP5PG2TMD0xg5Gg3PC5G2Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Overview of sharing permissions on objects
 
@@ -52,7 +74,9 @@ You can share the following objects in Workfront with other users:
    * [Share a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [Share a calendar report](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-* **Filters, views, and groupings**: For information, see [Share a filter, view, or grouping](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md). 
+* **Filters, views, and groupings**: For information, see [Share a filter, view, or grouping](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+
+* **Rate cards**: For information, see [Share a rate card](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md).
 
 * **Plans**: For information, see [Share a plan in the Scenario Planner](../../scenario-planner/share-a-plan.md).
 
@@ -112,7 +136,7 @@ The following table illustrates the level of permissions that you can select whe
      <li><p>View the object</p></li> 
      <li><p>Add documents to the object</p></li> 
      <li><p>Add issues to the object (if it is a task or a project)</p></li> 
-     <li><p>View Finance information about the object</p></li> 
+     <li><p>View cost rates, billing rates, or general finance information about the object</p></li> 
      <li> <p>Share the object<br></p> <p>When you share the object, you can grant other users the same permission level you have only on the object, not a higher level.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -134,7 +158,7 @@ The following table illustrates the level of permissions that you can select whe
     <ul> 
      <li>All the actions included with the View and Contribute permissions</li> 
      <li>Delete it</li> 
-     <li>Manage Finance information in it</li> 
+     <li>Manage cost rates, billing rates, or general finance information in it</li> 
     </ul> </td> 
   </tr> 
   <tr> 

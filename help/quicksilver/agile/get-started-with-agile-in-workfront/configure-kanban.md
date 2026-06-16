@@ -6,6 +6,21 @@ description: You can configure the following options for Kanban Agile teams duri
 author: Courtney
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/JxmS1LNAaCdJirWKbg1ab1d4oko8WOl9OC4mMdRIYVc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure [!UICONTROL Kanban]
 
@@ -56,7 +71,7 @@ For information about configuring a Scrum team, see [Configure Scrum](../get-sta
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +87,7 @@ To configure how stories are estimated for your Agile team:
 1. Select the Agile team that you want to manage.
 1. Click the **[!UICONTROL More]** menu ![](assets/more-menu.png) , then select **[!UICONTROL Edit]**.
 
-   ![Edit team](assets/edit-team-settings-350x205.png)
+   ![Edit team](assets/edit-team-settings-kanban.png)
 
 1. In the **[!UICONTROL Agile]** section, in the **[!UICONTROL Estimate Stories in]** area, select whether you want to use points or hours for estimating the size (work load) of stories. If you select Points, specify how many hours are equal to 1 point. (The default is 1 point = 8 hours.) This is the number of Planned Hours that are added to the story.
 
@@ -92,9 +107,6 @@ To define the statuses that are available for the story board associated with th
 
 1. Select the Agile team that you want to manage.
 1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.
-
-   ![Edit team](assets/edit-team-settings-350x205.png)
-
 1. In the **[!UICONTROL Agile]** section, locate the **[!UICONTROL Story Board]** area.
 
 1. (Optional) Click **[!UICONTROL Add Column]** to add an additional status column to the story board.
@@ -116,7 +128,7 @@ To define the statuses that are available for the story board associated with th
 
 When you add fields to story cards, fields are view-only and display only when the field is populated.
 
-By default, the following types of data displays on the story card for tasks and issues:
+By default, the following types of data display on the story card for tasks and issues:
 
 * Story name with a link directly to the task or issue
 * The project name with a link directly to the project
@@ -140,9 +152,6 @@ To configure story cards that are assigned to the Agile team to display addition
 
 1. Select the Agile team that you want to manage.
 1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.
-   
-   ![Edit team](assets/edit-team-settings-350x205.png)
-
 1. In the **[!UICONTROL Agile]** section, type a field name to locate it.
 
    ![Additional fields](assets/agile-additional-fields-kanban.png)
@@ -165,9 +174,6 @@ To limit WIP for your Kanban team:
 
 1. Select the Kanban team that you want to manage.
 1. Click the **[!UICONTROL More]** menu ![](assets/more-menu.png), then select **[!UICONTROL Edit]**.
-
-   ![Edit team](assets/edit-team-settings-350x205.png)
-
 1. In the **[!UICONTROL Agile]** section, in the **[!UICONTROL Methodology]** section, ensure Kanban is selected.
 
 1. In the **[!UICONTROL Story Board]** section, in the **[!UICONTROL WIP Limit]** field, specify the maximum number of items allowed in each column of the [!UICONTROL Kanban] Agile story board. You can set a different limit for each column. The maximum limit you can set for each column is 100.
@@ -184,21 +190,29 @@ To limit WIP for your Kanban team:
 
 You can configure stories from the backlog to be automatically added to the first column on the [!UICONTROL Kanban] board immediately after an item is moved from that column.
 
+You must enable the **Show Backlog** setting on the [!UICONTROL Kanban] board to use this functionality.
+
+Any time a story is moved from the [!UICONTROL In Progress] column into a column on the story board that represents a [!UICONTROL Complete] status (or a status that equates with [!UICONTROL Complete]), the next story from the Backlog column automatically moves to the [!UICONTROL New] column of the [!UICONTROL Kanban Board].
+
+The next story is the incomplete story with the lowest backlog order number that meets all of the following criteria:
+
+* It is assigned to the team.
+* It does not have an actual completion date (that is, it is not yet complete).
+* It is not already on a Kanban board.
+* It belongs to a project with a current status.
+
+Backlog order is not the same as priority. You can arrange the backlog order by dragging and dropping stories in the Backlog column. The story at the top of the backlog is the one that is pulled onto the board next.
+
+To automatically add stories from the backlog to the [!UICONTROL Kanban] board:   
+
 {{step1-to-team}}
 
 1. Click the **[!UICONTROL Switch Teams]** icon ![Switch Teams icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
 1. Select the Kanban team that you want to manage.
 1. Click the **[!UICONTROL More]** menu ![](assets/more-menu.png), then select **[!UICONTROL Edit]**.
+1. Select **[!UICONTROL Automatically add next story from backlog]** to configure the next item from the backlog to be automatically added to the **[!UICONTROL New]** column when an item is moved out of the **[!UICONTROL In Progress]** column.
 
-   ![Edit team](assets/edit-team-settings-350x205.png)
-
-1. Select **[!UICONTROL Automatically add next story from backlog]** to configure that the next item from the backlog to be automatically added to the **[!UICONTROL New]** column when an item is moved out of the **[!UICONTROL In Progress]** column.
-
-   Users must enable the **Show Backlog** setting on the [!UICONTROL Kanban] board for this functionality to take effect. When users enable the [!UICONTROL Show Backlog] setting on the [!UICONTROL Kanban Board], the following functionality takes place: 
-
-   Any time a story is moved from the [!UICONTROL In Progress] column into a column on the story board that represents a [!UICONTROL Complete] status (or a status that equates with [!UICONTROL Complete]), a story from the Backlog column automatically moves to the [!UICONTROL New] column of the [!UICONTROL Kanban Board]. 
-   When added from the backlog, the story with the highest priority is added to the story board. 
 
 1. Click **[!UICONTROL Save Changes]**.
 
@@ -211,9 +225,6 @@ You can choose how long completed cards stay on the [!UICONTROL Kanban] board. T
 1. (Optional) Click the **[!UICONTROL Switch Teams]** icon ![Switch Teams icon](assets/switch-team-icon.png), then either select a new Kanban team from the drop-down menu or search for a team in the search bar.
 1. Select the Kanban team.
 1. Click the **[!UICONTROL More]** menu ![](assets/more-menu.png) , then select **[!UICONTROL Edit]**.
-
-   ![Edit team](assets/edit-team-settings-350x205.png)
-
 1. In the **[!UICONTROL Number of days Completed cards stay on the Kanban board]** drop-down menu, select a value.
 
    You can choose a number from 1 to 30 days. 

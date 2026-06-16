@@ -4,10 +4,28 @@ product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
 title: Add projects to goals in Adobe Workfront Goals
-description: You can connect projects to goals to indicate how the goal progresses, based on the actual progress of the project. The project becomes a progress indicator for the goal. 
+description: You can connect projects to goals to indicate how the goal progresses, based on the actual progress of the project. The project becomes a progress indicator for the goal.
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/FCwnCN4o8MRZU9-F2ZYNFzCxS-js-St8ykkdbft1Bb8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Add projects to goals in Adobe Workfront Goals
 
@@ -75,7 +93,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -129,7 +148,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Considerations about connecting projects to goals
 
@@ -148,7 +168,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 * You cannot manually update the progress of a project from the goal that the project is attached to. Instead, Workfront calculates the percent complete of the project and Workfront Goals calculates the goal progress using this percent complete. This updates the goal in real time after the project percent updates. 
 * The project duration can be outside the time period of a goal. If a project lasts longer than the goal's deadline, you can still close your goal and consider it completed, but the goal percent complete will not be 100%. The percent complete of the project no longer updates on the goal. 
 
-<!--this is no longer visible in the new redesigned interface for goals: logged a bug for this: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/63ceb049000080d30022aab9a359f6f1/updates - but confirmed that this will not be brought back at least for now - Jan 2023. 
+<!--
+this is no longer visible in the new redesigned interface for goals: logged a bug for this: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/63ceb049000080d30022aab9a359f6f1/updates - but confirmed that this will not be brought back at least for now - Jan 2023. 
 
 There is an indication on the goal list that the project no longer updates progress for the goal.
 
@@ -164,7 +185,7 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## Add projects to goals
 
-1. Click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) (draft this  for Shell: or click the **Main Menu** ![Main Menu lines](assets/three-line-main-menu-icon.png) in the upper-left corner, if it's available.) , then **Goals**. 
+1. Click the **Main Menu** ![Main Menu icon](assets/lines-main-menu.png), then **Goals**. 
 1. From the Goal List, click the name of a goal to open the goal page.
 1. Click **Progress indicators** in the left panel.
 1. From the **New progress indicator** drop-down menu, click **Add existing project**. 

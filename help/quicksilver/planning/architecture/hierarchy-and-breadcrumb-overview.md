@@ -6,12 +6,25 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: de066d44-d214-47cc-8483-37c2623585ea
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/5fAVg3RVgnHdJraHxLwM-u4rrUwzou9wDzR6KUKW1xY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Hierarchy and breadcrumb overview
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 As a workspace manager, you can define flexible but structured hierarchies between connected record types and other object types in Adobe Workfront Planning. 
 
@@ -36,7 +49,7 @@ The following are benefits of using hierarchies in your workspaces:
 * You cannot add the following object types in a hierarchy:
     * Record types from other workspaces, even when they are set as connectable or global record types. You can add global record types to hierarchies only when they have been added to the workspace you're building the hierarchy from. 
     * All other Workfront objects.
-    * AEM Assets.
+    * Adobe Experience Manager Assets or Content Fragments. 
 * Hierarchies can include both Planning record types and Workfront projects at the same time.
 
     For example, you can have a Campaign record type with Planning Tactics and Workfront Projects as the children in the same workspace hierarchy. 
@@ -72,12 +85,13 @@ The following are benefits of using hierarchies in your workspaces:
 
 When you create hierarchies between record types, they generate breadcrumbs for records that belong to those record types. 
 
-For example, if you create a hierarchy and connect Campaigns with Tactics, then with Activities, and then with Projects, when you navigate to a record of any of the types connected in the hierarchy, you can view where in the hierarchy the record is placed. 
+For example, if you create a hierarchy and connect Campaigns with Tactics, then with Activities, when you navigate to a record of any of the types connected in the hierarchy, you can view where in the hierarchy the record is placed. If the record displays in multiple workspaces, you can view the paths in each workspace starting with the workspace name in the breadcrumb.
 
-![Breadcrumb](assets/breadcrumbs-on-project.png)
+![Breadcrumb](assets/breadcrumbs-on-activities-planning-only.png)
 
 Consider the following: 
 
+* Breadcrumbs display in the preview area of a record, as well as in the records' details page. 
 * If a record type is part of multiple hierarchies, you can switch between hierarchies from the record's breadcrumb on the record's page.
 * If the record type in a hierarchy has multiple records, you can select records from the breadcrumb. 
 * Breadcrumbs work across Workfront and Planning. 

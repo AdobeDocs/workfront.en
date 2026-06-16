@@ -6,17 +6,37 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: 'https://experienceleague.adobe.com/SrMrI5ZjxxF1E40TcOgwNjTwWUMpQ3EeXREFjDmr45E'
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 # Create workspace hierarchies
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 As a workspace manager, you can create multiple workspace hierarchies between record types in Adobe Workfront Planning. 
 
-After record types are connected within a workspace, you can create a hierarchy that organizes those connections. Hierarchies organize record and object types into parent–child relationships and can contain up to four levels of object types. 
+After record types are connected within a workspace, you can create a hierarchy that organizes those connections. 
+
+Hierarchies organize record and object types into parent–child relationships and can contain up to 4 object types each. You can create up to 5 hierarchies in one workspace.
 
 If a connection between two record types does not already exist, it can be created as you set up the hierarchy. Once defined, the hierarchy establishes a structured path across related record types within the workspace.
 
@@ -64,8 +84,6 @@ Or
 +++
 
 ## Create a workspace hierarchy
-
-You can create up to 5 hierarchies in one workspace. 
 
 {#step1-to-planning}
 
@@ -152,6 +170,10 @@ You can create up to 5 hierarchies in one workspace.
 
    * **Edit**: This opens the **Edit hierarchy** box where you can make changes. 
    * **Delete**: This deletes the hierarchy permanently. Deleted hierarchies cannot be recovered. Connection fields are not deleted. 
+
+1. (Optional) Click the name of the last record type in your hierarchy, then the name of a record from that record type's view. This opens the record's details page. Find the hierarchy you created in the breadcrumb of a record at the top of the record's page. 
+
+   For more information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md). 
 
 
 

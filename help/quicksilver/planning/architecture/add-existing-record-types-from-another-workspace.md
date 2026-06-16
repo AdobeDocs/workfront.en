@@ -6,15 +6,36 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/grtTc9KyoVJXzU27qkmFyJhY0mYtdSjz-Q1Pb-YqxLI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 # Add existing record types from another workspace
 
 {{planning-important-intro}} 
 
+
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 As a workspace manager, you can add a record type that exists in another workspace to a workspace that you manage in Adobe Workfront Planning. 
 
@@ -65,7 +86,9 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++   
 
-<!--Old:
+<!--
+
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -102,7 +125,9 @@ And
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
 </tbody> 
-</table>-->
+</table>
+
+-->
 
 ## Create a record type by adding an existing one from another workspace
 
@@ -122,10 +147,12 @@ And
    >When there are no record types configured to be added to other workspaces in your system, the **Add existing** option does not display.
 
 1. Click **Continue**.
-1. In the **Choose the record type** box, click the card for the record type that you want to add from an existing workspace, then click **Add**.
+1. (Conditional) In the **Choose the record type** box, click the card for the record type that you want to add from an existing workspace, then click **Add**.
 
-   <span class="preview">The record type is added to the secondary workspace that you selected and the **global record type** icon ![Global record icon on the secondary workspace](assets/global-icon-secondary-workspace.png) displays on the record type's card. </span>
-   <span class="preview">The global record type icon includes an arrow when displayed on a record type in the secondary workspace, to indicate that the record type was added from an existing record type.</span>
+   <span class="preview">If you are using the Preview environment, you can click to select multiple record types, then click **Add**. All global record types from all workspaces where they are available display in the list.</span>
+
+   The record type is added to the secondary workspace that you selected and the **global record type** icon ![Global record icon on the secondary workspace](assets/global-icon-secondary-workspace.png) displays on the record type's card. 
+   The global record type icon includes an arrow when displayed on a record type in the secondary workspace, to indicate that the record type was added from an existing record type.
     
    The following things occur:
 
@@ -142,7 +169,7 @@ And
       >You cannot edit the new record type's appearance, additional settings, or original fields. You can edit the record type and all its original fields and settings only from the original workspace.
       >
 
-1. <span class="preview">(Optional) Hover over the global record type icon ![Global record icon on the secondary workspace](assets/global-icon-secondary-workspace.png) to view the name of the original workspace where the record type was added from. </span>
+1. (Optional) Hover over the global record type icon ![Global record icon on the secondary workspace](assets/global-icon-secondary-workspace.png) to view the name of the original workspace where the record type was added from. 
 1. (Optional) Click, then drag and drop the newly added record type to any section within the workspace. 
 1. (Optional) Click the **More** menu on the new record type's card or to the right of the record type name on its page, then click one of the following: 
 
@@ -153,7 +180,8 @@ And
 
    For more information, see the section "Delete global record types" in the article [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md).
 
-<!--This will be released later with another epic: 
+<!--
+This will be released later with another epic: 
 1. In the table view, click the **+** icon in the upper-right corner to add new fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.
 -->

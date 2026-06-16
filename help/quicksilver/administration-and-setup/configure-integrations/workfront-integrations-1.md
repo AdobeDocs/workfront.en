@@ -9,6 +9,38 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/lyfhBuKOVUpBxyP6CNqFAOy75MB9-s-tMKVTWqlejp4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+    internal-label: Adobe Workfront for Slack
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # [!DNL Adobe Workfront] integrations
 
@@ -105,7 +137,7 @@ We understand that the available built-in (native) integrations might not meet a
      </ul>
    </ul>
      <p>For more information, see <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Get started with the proofing and GenStudio for Performance Marketing integration</a>.</p> 
-     </td>  <td><ul><li>You must have licenses for both Workfront and GenStudio for Performance Marketing.</li><li>Your Workfront instance must be on the Adobe Unified Experience.</li><li>Workfront and GenStudio for Performance Marketing must be deployed to the same IMS Org.</li></ul></td> 
+     </td>  <td><ul><li>You must have licenses for both Workfront and GenStudio for Performance Marketing.</li><li>Workfront and GenStudio for Performance Marketing must be deployed to the same IMS Org.</li></ul></td> 
    <td>The integration can be toggled on in the Workfront Setup area once all the requirements are met. For more information, see <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Get started with the proofing and GenStudio for Performance Marketing integration</a>. </td> 
   </tr>
   <tr> 
@@ -165,16 +197,6 @@ We understand that the available built-in (native) integrations might not meet a
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
   </tr> 
-  <!--<tr> 
-   <td>[!DNL Microsoft] Calendars ([!DNL Office 365] / [!DNL Outlook Live])</td> 
-   <td> 
-    <ul> 
-     <li> <p>Integrate with a web-based version of [!DNL Outlook] in cloud-hosted [!DNL Office 365] or [!DNL Outlook Live.] </p> </li> 
-     <li> <p>Display all events from your [!DNL Outlook] calendar and any associated calendars you select, such as Birthdays and Holidays calendars, in your [!UICONTROL Home Calendar].</p> </li> 
-    </ul> <p><b>NOTE</b>: The [!UICONTROL Outlook] calendar configuration is completely separate from the [!DNL Outlook] Add-in ([!DNL Outlook] Integration or [!DNL Workfront for Outlook]). There's no installation required to configure the calendar.</p></td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-  </tr> -->
   <tr> 
    <td> <p>[!DNL Microsoft OneDrive]</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
    <td> 
@@ -183,28 +205,7 @@ We understand that the available built-in (native) integrations might not meet a
     </ul> <p>For more information, see <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">Configure document integrations</a>.</p> </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-  </tr> 
-  <!--<tr> 
-   <td> <p>[!DNL Microsoft Outlook]</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Update an existing project/task/issue with info from an email </li> 
-     <li>Convert emails into Workfront items right from your inbox </li> 
-     <li>Create new tasks from an email </li> 
-     <li>Comment on [!DNL Workfront] items </li> 
-    </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md" class="MCXref xref">[!DNL Adobe Workfront for Outlook]</a>.</p> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Outlook] 2013 or 2016 for [!DNL Windows] and [!DNL Outlook] 2016 for [!DNL Mac] </li> 
-     <li>[!DNL Outlook] on the web must be for [!DNL Exchange] 2016 and [!DNL Office] 365 </li> 
-     <li>[!DNL Outlook Web Access] must be for [!DNL Exchange] 2013 </li> 
-     <li>Direct connection to an [!DNL Exchange] Server or [!DNL Office 365]</li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Workfront] administrator </li> 
-    </ul> </td>--> 
-  </tr> 
+   </tr> 
   <tr> 
    <td> <p>[!DNL Microsoft Teams]</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 

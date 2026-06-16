@@ -6,6 +6,21 @@ description: You can add a new version of a document you have previously uploade
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/4ehmHIFLtIflKs9qVvg5AnZApX-n27xNKvGvVfoQMOs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Upload a new version of a document
 
@@ -29,7 +44,8 @@ For information about adding a new version of a document linked to Workfront fro
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p> Any</p> </td> 
+   <td> <p>Any Workfront package to manage documents using legacy Workfront storage</p>
+<p>Any Workflow package to manage documents using Adobe cloud storage</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses</td> 
@@ -53,7 +69,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Upload a new document version in the legacy documents area
 
-If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe cloud storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Use drag-and-drop to add a new version
 
@@ -81,9 +97,9 @@ If your organization is on legacy Workfront storage, you will see the legacy doc
 
 1. Select the type of document you want to upload, then follow the prompts.
 
-## Upload a new document version in the new documents area
+## Upload a new document version in the new Documents area
 
-If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Use drag-and-drop to add a new version
 

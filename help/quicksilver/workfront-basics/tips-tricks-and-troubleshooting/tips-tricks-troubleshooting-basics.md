@@ -1,10 +1,20 @@
 ---
-title: 'Tips, Tricks, and Troubleshooting for [!DNL Adobe Workfront]: Article Index'
-description: Learn troubleshooting tips and find answers to frequently asked questions by reviewing the articles in this section. 
+title: "Tips, Tricks, and Troubleshooting for [!DNL Adobe Workfront]: Article Index"
+description: Learn troubleshooting tips and find answers to frequently asked questions by reviewing the articles in this section.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
+TQID: https://experienceleague.adobe.com/sXCgHiht9i9Xf9SAJzX-yhV1DdbyKW-pDI8d1R9W7O8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Tips, Tricks, and Troubleshooting for [!DNL Adobe Workfront]: article index
 
@@ -24,3 +34,4 @@ Learn troubleshooting tips and answers to frequently asked questions by reviewin
 * [Projects I'm On filter includes unexpected results](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
 * [Multiple browser tabs cause Workfront to log out](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
 * [How to share objects without generating notifications](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)
+* [Updated time zone names](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/deprecated-time-zone-names.md)

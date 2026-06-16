@@ -6,16 +6,40 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/E9LEGJ8T822JuvIO3s8nn6UkLbX-j4ffwaKSviKxl0o
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Add an approval to a request form in Adobe Workfront Planning
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<!--take Preview and Production references at Production time-->
-
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -74,6 +98,8 @@ For more information about Workfront access requirements, see [Access requiremen
 * If at least one approver rejects the request, and all others approve it, a request is created for the Requests area in Workfront, but no record is created for the record type associated with the request form. 
 * Adding approvals to a request form is optional. Workfront Planning immediately creates a record when a request is submitted, if the request form is not associated with an approval. 
 
+<!--
+
 ## Add an approval to a request form in the Production environment
 
 1. Start creating a request form for a record type, as described in [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
@@ -85,7 +111,7 @@ For more information about Workfront access requirements, see [Access requiremen
 1. In the **Approvers** field, start typing the name of a user or team that you want to set as an approver, then select it when it displays in the list. 
 1. (Optional and conditional) If you have set more than one approver, and only need one approver to make a decision, enable the **Only one decision is required** option.
 
-    <!--most of the Note below is duplicated in the Create a request form article-->
+    (****most of the Note below is duplicated in the Create a request form article***)
 
       >[!NOTE]
       >
@@ -106,26 +132,19 @@ For more information about Workfront access requirements, see [Access requiremen
     Or
 
     Click **Share** to share the form, then **Copy link**. 
-1. (Optional) After a user uses the link you share and submits a request, Workfront Planning sends an approval in-app notification and an email to the approvers. 
+1. (Optional) After a user uses the link you share and submits a request, Workfront Planning sends an approval in-app notification and an email to the approvers.
 
-   >[!NOTE]
-   >
-   >Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience for users to be able to receive email and in-app notifications.
+   For information about approving requests, see [Approve a request](/help/quicksilver/planning/requests/approve-request.md).
 
+-->
 
-    For information about approving requests, see [Approve a request](/help/quicksilver/planning/requests/approve-request.md).
-
-<div class="preview">
-
-## Add approval rules to a request form in the Preview environment
+## Add approval rules to a request form 
 
 Approval rules define the approval process based on field values in the submitted requests. 
 
 For example, if a request form has the field "Campaign type," a rule can be created that sends the request to one person when the field has the value "Digital", and a different person when it has the value "Print."
 
 Consider the following when adding approval rules:
-
-<!--below bullet list is duplicated in the Add approval to a request form in the Production environment section above-->
 
 * You can add one or several approvers to an approval rule.
 * If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
@@ -166,5 +185,3 @@ To set approval rules for a request form:
 
 1. Click **Save** to save the approval rules.
 1. (Optional) Click **Publish** if you have never shared the request form before.
-
-</div>

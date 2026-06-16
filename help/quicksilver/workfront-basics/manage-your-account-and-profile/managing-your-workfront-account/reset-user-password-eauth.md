@@ -5,9 +5,15 @@ title: Reset a user's password with Enhanced Authentication
 description: When Enhanced Authentication (eAuth) is enabled for your [!DNL Workfront] Environment, a [!DNL Workfront] administrator can't reset login credentials for another user. This differs from [!DNL Workfront] environments without eAuth or those environments for which Single Sign On (SSO) is enabled.
 author: Courtney
 feature: Get Started with Workfront
-hide: yes
-hidefromtoc: yes
+hide: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
+TQID: https://experienceleague.adobe.com/DCTbiQAsLjKIEN4qNvPrCUDLO3eRnYhT1LYGKgwpf-Q
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Reset a user's password with Enhanced Authentication
 

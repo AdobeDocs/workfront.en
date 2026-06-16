@@ -3,15 +3,35 @@ title: Brand Adobe Workfront Using a Layout Template
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: As an Adobe Workfront administrator or a group administrator, you can use a layout template to customize the logos in the top navigation area and on the Main Menu for certain groups, teams, job roles, and users. This is especially useful for groups in a large organization that have their own branding.
+description: Branding is no longer available for Adobe Workfront. This feature was deprecated as part of the onboarding of Workfront into Adobe Experience Cloud.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
+TQID: https://experienceleague.adobe.com/MhQmqpwdvtCfxXlktomHlIukgbq7sJKXwxTwRJgDSO8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Brand Adobe Workfront using a layout template
 
 <!--Audited: 09/2024-->
+
+>[!IMPORTANT]
+>
+>Branding is no longer available for Adobe Workfront. This feature was deprecated as part of the onboarding of Workfront into Adobe Experience Cloud.
+
+<!-- 
+
 
 >[!IMPORTANT]
 >
@@ -26,8 +46,6 @@ For information about layout templates for groups, see [Create and modify a grou
 >[!NOTE]
 >
 >A Workfront administrator can make the same branding customizations for the entire organization at the system level, as explained in [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). But branding in a layout template overrides system-level branding.
-
-<!-- Maybe add a section about deleting these 2 settings to revert to default branding? -->
 
 ## Access requirements
 
@@ -87,3 +105,5 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    If you are finished customizing, click **Save and Close**.
 
 For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
+-->

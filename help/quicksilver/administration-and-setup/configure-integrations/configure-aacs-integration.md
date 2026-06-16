@@ -6,6 +6,28 @@ description: You can connect your work with your content in [!DNL Experience Man
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/URGZIZPNbkj-wshinxLbaj2AFhWtXG-KPvNyz-5mkcw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure the [!UICONTROL Experience Manager Assets as a Cloud Service] integration
 
@@ -233,7 +255,8 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 >Users must have write access in [!DNL Experience Manager] for assets living in the object in order for the metadata to sync when it's updated.
 
 1. Enable the **[!UICONTROL Sync object metadata]** field.
-1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.-->
+1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.
+-->
 
 ## Set up workflows (Optional)
 

@@ -6,6 +6,30 @@ description: You can update the status of an issue to inform others about where 
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/2kCZhXX13lhT8P-MOn6P8KVWHm7lc7CdiynyA6HWs-Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Update issue status
 
@@ -46,7 +70,8 @@ You can update the status of an issue to inform others about where the issue is 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,7 +97,8 @@ You can update the status of an issue to inform others about where the issue is 
    <td> <p>Manage permissions to the issue</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Issue statuses
 
@@ -134,7 +160,8 @@ To manually update the issue status in the issue header:
 
 
 
-<!--Old instructions, in old commenting: 
+<!--
+Old instructions, in old commenting: 
 
 When you are updating an issue status, you can also add an explanation about the new status and change other issue information such as the commit date.
 

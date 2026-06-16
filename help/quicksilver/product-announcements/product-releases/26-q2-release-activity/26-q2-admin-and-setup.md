@@ -5,12 +5,60 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/EqRUPqeqy6fSLryuWDtQGaypBlXmSJiaErDZymB95is
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Second Quarter 2026 Administrator enhancements
 
 This page describes Administrator enhancements made with the Second Quarter 2026 release to the Preview environment. These enhancements will be made available in the Production environment as noted.
 
 For a list of all changes available at this point in the Second Quarter 2026 release cycle, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Content Review AI Collaborator now available
+
+>[!NOTE]
+>
+>Preview: April 2, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026 
+
+To make it easier for you to benefit from AI in your day-to-day work, we've created the Content Review AI Collaborator. The Collaborator is a way to onboard AI agents into your projects and tasks. You can configure an AI Collaborator with brand guidelines, then assign it to a task as you would a user.
+
+Currently, Content Review is the only available AI Collaborator. More AI Collaborator capabilities will be available in the future.
+
+For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+
+## Updated time zone names
+
+>[!NOTE]
+>
+>Preview: March 27, 2026
+>Production fast release: March 27, 2026
+>Production for everyone: March 27, 2026 
+
+We've updated the time zones available in Workfront to follow IANA standards. This ensures compatibility with other systems and accuracy over time.
+
+As part of this change, some time zones previously available in Workfront have been replaced with standard IANA time zones. 
+
+For a list of those changes, see [Updated time zone names](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/deprecated-time-zone-names.md).
 
 ## Custom quarters are now available as a separate page in Setup
 
@@ -41,7 +89,7 @@ By default, all sections on a custom form are expanded when the form itself is e
 
 For more information, see [Organize and preview a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
-## Rich text field type is now available on custom forms
+## Rich Text field replacing Text with Formatting field type
 
 >[!NOTE]
 >

@@ -6,6 +6,26 @@ description: You can create plans as part of using the Workfront Scenario Planne
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/i0-G-8KxjFmKp0R4oFPsELMmD6cS06HFKRROeosApYM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create and edit plans in the [!DNL Scenario Planner]
 
@@ -57,7 +77,8 @@ For information about Workfront access requirements, see [Access requirements to
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -92,7 +113,8 @@ For information about Workfront access requirements, see [Access requirements to
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Create or edit plans
 
@@ -247,7 +269,8 @@ To create or edit a plan:
         <li> <p><strong>[!UICONTROL Total required]</strong> (for hours): The total number of hours required for all months during the duration of the plan.</p> </li> 
         <li> <p><strong>[!UICONTROL Max required]</strong> (for FTE): The maximum number of FTEs required for any of the months during the duration of the plan. </p> </li> 
        </ul> <p>Tip: The <span>maximum</span> number of FTEs <span>or the total number of hours</span> required for that job role displays after you start adding initiatives. For information about adding initiatives to a plan, see <a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Create and edit initiatives in the [!DNL Scenario Planner]</a>.</p> </td> 
-     </tr> <!--
+     </tr>
+     <!--
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">[!UICONTROL Avg utilization]</td> 
        <td> <p>(NOTE: this field was removed in 21.2 - May 2021) </p> <p>[!DNL Workfront] calculates the average utilization for each job role using the job role FTEs associated with initiatives (required) and the job role FTEs associated with the plan (available). </p> <p> [!DNL Workfront] calculates the job role utilization percentage for a plan using the following formula: </p> <p><code>Job role utilization percentage = Sum [(Required job roles for each month of the plan *100)/ (Available job roles for each month of the plan)] / Number of months in the Duration of the plan</code> </p> 

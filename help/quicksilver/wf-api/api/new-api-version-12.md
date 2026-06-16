@@ -7,6 +7,34 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/C-szKJpMnZfQW5TR-nujo3eIuQ2OToLyGcJS7-r65Vg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # What's new in API version 12
 
@@ -25,9 +53,11 @@ A BreadCrumb object represents an element in the parent/child hierarchy of an Ad
 
 For more information on Breadcrumbs in Workfront, see [Breadcrumbs overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -47,9 +77,11 @@ Rich text fields are now available on more objects. The RichTextParameterValue o
 
 For more information, see [Rich text fields in the Adobe Workfront API](../../wf-api/general/rich-text-field-api.md).
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -134,22 +166,28 @@ An AccessLevel object is associated with users, and describes the set of AccessL
 
 For more information on access levels, see [How access levels work](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
-  <tr> <!--
+  <tr>
+  <!--
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Direct Fields</td>
    --> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <!--
+     <li style="font-weight: bold;">
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">fieldAccessPrivileges</p>
-      --> <!--
+      -->
+      <!--
        <p style="font-weight: normal;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Added the possible value CPJ (Copy). This allows Users with Planner Access Level to copy Projects.</p>
-      --> </li> 
+      -->
+      </li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -185,43 +223,61 @@ An AccessLevelPermissions object represents a specific permission to access, cre
        <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> </li> 
       </ul> </li> 
-    </ul> <!--
+    </ul>
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">OR</p>
-    --> <!--
+    -->
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value PLANNED_HOURS_CONTOURING, which allows a user to update planned hours in the Workload Balancer</p>
     --> 
     <ul> 
-     <li> <!--
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">coreAction</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">forbiddenActions</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">secondaryActions</p>
-      --> </li> 
-    </ul> <!--
+      -->
+      </li>
+    </ul>
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value ADD_TO_CUSTOM_FORMS, which allows a user to add fields to custom forms.</p>
     --> 
     <ul> 
-     <li> <!--
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">coreAction</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">forbiddenActions</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">secondaryActions</p>
-      --> </li> 
-    </ul> <!--
+      -->
+      </li>
+    </ul>
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value EDIT_SYSTEMWIDE, which allows a user to share a custom field system-wide with Delete access. </p>
-    --> <!--
+    -->
+    <!--
      <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
       <li> <p>coreAction</p> </li> 
       <li> <p>forbiddenActions</p> </li> 
       <li> <p>secondaryActions</p> </li> 
      </ul>
-    --> </td> 
+    -->
+    </td>
   </tr> 
  </tbody> 
 </table>
@@ -817,9 +873,11 @@ A Team object is a collection of Users that can be assigned to a work item.
    <td role="rowheader">Direct Fields</td> 
    <td> <p>The following fields were added to the Team resource:</p> 
     <ul> 
-     <li> <p><strong>completeDaysOnKanbanBoard</strong> </p> <p>This field represents the number of days that a completed card remains on the Kanban board.</p> <!--
+     <li> <p><strong>completeDaysOnKanbanBoard</strong> </p> <p>This field represents the number of days that a completed card remains on the Kanban board.</p>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see <a href="../../agile/get-started-with-agile-in-workfront/configure-kanban.md" class="MCXref xref">Configure Kanban</a>.</p>
-      --> </li> 
+      -->
+      </li>
      <li> <p><strong>groupID</strong> </p> <p>This field associates a team with a group. This identifies the team as part of the group and allows the Group Administrator to manage the teams.</p> </li> 
      <li> <p><strong>workOnItStatusChange</strong> </p> <p>This is a boolean parameter that indicates whether the team's Work on It button has been configured as a Start button. When a member of the team clicks a Start button to begin work on a work item, the item's status changes from New to a status configured in the team settings.</p> </li> 
      <li> <p>The following fields allow you to specify custom statuses for the Start button on the individual work items.</p> 

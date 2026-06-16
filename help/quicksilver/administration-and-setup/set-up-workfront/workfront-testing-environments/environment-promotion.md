@@ -9,6 +9,23 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/myYvAJThRVc2qzkWIiD9qGAsVl5kMoN9ZUM-nSZKvyo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Move objects between [!DNL Workfront] environments using the [!DNL Workfront] Environment Promotion API
 
@@ -1111,7 +1128,8 @@ The response includes the `{uuid of the created installation}` and a `202 - ACCE
 
 Example: `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 
-<!--table templates
+<!--
+table templates
 
 <table style="table-layout:auto"> 
  <col> 

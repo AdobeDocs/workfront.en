@@ -2,10 +2,40 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Edit Project Templates
-description: You can edit project templates to reflect changes in the processes and settings of future projects. You can edit one template at a time, or you can edit multiple templates, in bulk. 
+description: You can edit project templates to reflect changes in the processes and settings of future projects. You can edit one template at a time, or you can edit multiple templates, in bulk.
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/36z25D3UWtmRwiOqdPOc3DCFXQcvSJHK2RvtuqFOvVU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Edit project templates
 
@@ -70,7 +100,8 @@ You can edit one template at a time, or you can edit templates in bulk.
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +132,8 @@ You can edit one template at a time, or you can edit templates in bulk.
    </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Edit a template {#edit-a-template}
 
@@ -258,7 +290,7 @@ You can edit one template at a time, or you can edit templates in bulk.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Finance**.
 
-   ![Edit template box Finance section](assets/edit-template-box-finance-section.png)
+   ![Edit template box Finance section](assets/edit-template-finance-section-040626.png)
 
 1. Update the following fields:
 
@@ -266,6 +298,14 @@ You can edit one template at a time, or you can edit templates in bulk.
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong>Preserve project billing rates information</strong></td>
+      <td><p>When you enable this option, all assignment billing rates are permanently frozen to the highest applicable rate from the billing hierarchy. This is a one-time selection, and you cannot disable the option once the project has assignments or hours. After preservation, assignment billing rates cannot be changed, edited, or overridden anywhere on the project.</p></td>
+     </tr>
+     <tr>
+      <td><strong>Use date-effective exchange rates from the system</strong></td>
+      <td><p>When this option is selected, the system-level date-effective exchange rates are always used, and exchange rate overrides are not permitted on the project.</p> <p>You must also select the <strong>Exchange Rate Date</strong> to start from, when the option is selected.</p></td> 
+     </tr>
       <tr> 
       <td role="rowheader"><strong>Currency</strong></td> 
       <td><p>Specify the currency for the future project, if it is different than the default currency of your system. This field is not visible if you have only the default currency in the system.<br>For more information about currency, see <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p></td> 
@@ -579,12 +619,15 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    Now, when you use this template to create a project all these settings will transfer to the new project.
 
-<!--I don't think this note is valid anymore - this note was on Edit project when the section below was in that article, by mistake: 
+<!--
+I don't think this note is valid anymore - this note was on Edit project when the section below was in that article, by mistake: 
 >[!NOTE]
 >
->Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.-->
+>Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.
+-->
 
-<!-- This section is here by mistake - it should be maybe in layout templates?? 
+<!--
+ This section is here by mistake - it should be maybe in layout templates?? 
 
 ### Linked folders (conditional availability) {#linked-folders}
 
@@ -621,7 +664,8 @@ Editing templates in bulk differs depending on which environment you are using.
 
 ### Edit templates in bulk in the Production environment 
 
-*****************and hide the first line below************ -->
+*****************and hide the first line below************
+-->
 
 {{step1-to-templates}}
 
@@ -739,9 +783,11 @@ Adding the following items to a template is identical to adding them to a projec
 You can add the following items to the tasks in the template:
 
 * Documents
+
+   For more information, see [Edit template tasks](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md). 
 * Expenses
 
-  For more information about adding expenses, see [Manage project expenses](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+   For more information about adding expenses, see [Manage project expenses](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 * Approvals
 
@@ -750,7 +796,7 @@ You can add the following items to the tasks in the template:
 
 ## Activate or deactivate a template
 
-You can deactivate a template if you want users to not be able to find it and create proojects from it. You cannot attach a deactivated template to projects nor use it to create a project. 
+You can deactivate a template if you want users to not be able to find it and create projects from it. You cannot attach a deactivated template to projects nor use it to create a project. 
 
 Deactivated templates do not affect existing projects that were created using them. 
 
@@ -1258,7 +1304,8 @@ By editing issue settings, you can prevent users from adding issues inline in th
    Now, when you use this template to create a project all these settings will transfer to the new project.
 
 
-   <!--drafted section below for the edit template story: 
+   <!--
+   drafted section below for the edit template story: 
    remove this tag and add the Preview blurb at the top of this article in yellow, if it's not already there. Keep the "div class" tags below until 23.1 production: 
 
 

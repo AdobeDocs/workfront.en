@@ -2,10 +2,17 @@
 content-type: overview
 navigation-topic: notifications
 title: In-app notifications overview
-description: 'This article lists the in-app notifications you can receive. In-app notifications keep you informed about two types of information: announcement notifications and work item notifications. They are available from both the web application and the mobile application.'
+description: "This article lists the in-app notifications you can receive. In-app notifications keep you informed about two types of information: announcement notifications and work item notifications. They are available from both the web application and the mobile application."
 author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
+TQID: https://experienceleague.adobe.com/uR2GdykN4aZ6H0hV-4-nXD7Iv5oEF9XKdbGa1i9Oa2s
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # In-app notifications overview
 
@@ -57,7 +64,7 @@ When you click the numbered icon ![Notifications icon](assets/notifications-icon
 * ![Proof icon](assets/proof.png) [!UICONTROL Proof needs your approval] - [sender's name]
 * ![Timesheet icon](assets/timesheet.png) [!UICONTROL Timesheet needs your approval] - [sender's name]
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <img src="assets/portfolio.png"> You need to approve a portfolio</li>
   -->
 

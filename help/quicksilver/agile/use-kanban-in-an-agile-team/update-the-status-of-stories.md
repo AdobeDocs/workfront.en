@@ -6,6 +6,8 @@ description: You can change the status of a story directly from the Kanban board
 author: Courtney
 feature: Agile
 exl-id: fd75ab8e-08c4-4643-bc67-aada5b5c005e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Update the status of stories on the [!UICONTROL Kanban] board
 
@@ -37,7 +39,7 @@ You can change the status of a story directly from the [!UICONTROL Kanban] board
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -8,6 +8,26 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/iWtyeGsk7xGf1Z9KE7Q2GrAbyCREAJYHZVT8GUboMW0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Event notification types
 
@@ -266,7 +286,8 @@ See also [Notifications: Requests I have made](../../../workfront-basics/using-n
 <!--
       DRAFTED IN FLARE:
        For more information on publishing a project as a Help Request Queue, see 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.-->
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+       -->
 
 ## Communication
 
@@ -350,7 +371,8 @@ See also [Notifications: Communication](../../../workfront-basics/using-notifica
 
 <!--
       DRAFTED IN FLARE: for the directed update above, it also mentions:
-        ... and is not the same user that enters the update-->
+        ... and is not the same user that enters the update
+        -->
 
 ## Approval information
 
@@ -525,7 +547,8 @@ See also [Notifications: Information about work assigned to me](../../../workfro
 <!--
       DRAFTED IN FLARE: from the Request document add to issue assigned to: 
         For more information on publishing a project as a Help Request Queue, see 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>. -->
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+       -->
 
 ## Information about projects I'm on
 

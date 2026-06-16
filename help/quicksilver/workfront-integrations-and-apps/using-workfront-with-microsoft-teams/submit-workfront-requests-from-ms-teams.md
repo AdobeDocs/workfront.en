@@ -6,6 +6,26 @@ description: After your team owner installs Adobe Workfront for Microsoft Teams,
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
+TQID: https://experienceleague.adobe.com/SAhx7otUvjrhEkQnMr87CF0gZFL3Fpvy8bXcnTf1-E8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Submit [!DNL Adobe Workfront] requests from [!DNL Microsoft] Teams
 

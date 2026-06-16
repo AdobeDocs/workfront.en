@@ -6,6 +6,19 @@ description: Your Adobe Workfront administrator can grant you access to view or 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
+TQID: https://experienceleague.adobe.com/nxv12H-Og-oKAiNQgTmw6KbT-yw3xyIKvlqjwSKtgqQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Share a task
 
@@ -95,7 +108,7 @@ You can share a task in the following ways:
 
     ![Share task button](assets/share-task-button.png)
 
-1. In the **Grant task access to** field, begin typing the name of the user, team, role, group, or company you want to share the task with, then click the name when it appears in the drop-down list.
+1. In the **Grant task access to** field, begin typing the name of the user, team, role, group, company, or business profile</span> you want to share the task with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
@@ -132,7 +145,7 @@ You can share a task in the following ways:
 
     ![Bulk share tasks](assets/bulk-share-tasks.png)
 
-1. In the **Grant task access to** field, begin typing the name of the user, team, role, group, or company you want to share the tasks with, then click the name when it appears in the drop-down list.
+1. In the **Grant task access to** field, begin typing the name of the user, team, role, group, company, or business profile</span> you want to share the tasks with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
@@ -290,11 +303,23 @@ The following table displays what permissions you can grant users when allowing 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td scope="row">Edit Finance*</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
+   <td> <p>Edit Billing Rates*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
+  <tr> 
+   <td> <p>Edit Cost Rates*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Edit General Finance*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+  </tr>
   <tr> 
    <td scope="row">Add/Edit Expenses</td> 
    <td>✓</td> 
@@ -302,10 +327,22 @@ The following table displays what permissions you can grant users when allowing 
    <td>  </td> 
   </tr> 
   <tr> 
-   <td scope="row">View Finance</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td> <p>View Billing Rates*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>View Cost Rates*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>View General Finance*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td scope="row">Updates/Comments</td> 

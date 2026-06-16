@@ -7,6 +7,15 @@ description: You can access lists of goals or individual goals and manage them f
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/-ZRfXqlhKvRrPOl7KOnjiHLJIwcLhyoIC3wUiGgnx8w
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Overview of the Adobe Workfront Goals sections
 
@@ -21,7 +30,8 @@ exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
 >For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -38,7 +48,8 @@ exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 After your Workfront administrator has granted you access to Workfront Goals, you can view goals that you or anyone else in your organization created in the Workfront Goals area.
 

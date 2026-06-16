@@ -2,11 +2,28 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Grouping: 4-level Task Grouping for Portfolio Owner, Program Owner, Project Owner, and Project Status'
+title: "Grouping: 4-level Task Grouping for Portfolio Owner, Program Owner, Project Owner, and Project Status"
 description: This task Grouping provides 4 levels of Grouping. In this case, tasks are grouped by Portfolio Owner, Program Owner, Project Owner, and Project Status. You can only have up to 3 levels of Grouping using the standard interface. To add a fourth level, you must use Text Mode. You cannot group reports by more than 4 criteria at the same time.
-author:  Courtney
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a1780a57-b94c-4d3a-b526-9bf45dba21f1
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/aUClw8v03XNSsa6Mb-aWHk8Uc-AKZQuJmuZRzj9IS30
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Grouping: 4-level task grouping for Portfolio Owner, Program Owner, Project Owner, and Project Status
 

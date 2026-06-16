@@ -5,25 +5,50 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/B2qrBL5KaVw9ihUW2qxDoK0WWpV0S-iFwhkwz30E06Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 # Get started with the Adobe Workfront Planning free trial
-
-<!-- are we still calling the tab "Best practice workspaces"? If not, reword below-->
 
 <!--add screen shots-->
 <!--check the names of areas, buttons, and links: Learn more, Open Planning, Review trial agreement, etc-->
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Planning trial period concludes on May 15, 2026. This article will remain active for a period of time, but it will be retired soon. We recommend that you update your bookmarks for the future.
+
+The information in this article describes the functionality that was available during the Workfront Planning trial period. 
+
 Adobe Workfront Planning provides centralized visibility into your marketing lifecycle, enabling better collaboration across teams, real-time tracking of campaigns, and automated workflows. You can create custom workspaces and visualize work with interactive timelines and calendars.
 
+<!--
 >[!IMPORTANT]
 >
 >* Adobe Workfront is offering a 60-day free trial of Adobe Workfront Planning to all Adobe Workfront customers who are not also Workfront Planning customers. 
 >
->* The trial is available between the following dates: March 2 - May 1, 2026. 
+>* The sign-up period ended on April 1, 2026 and it is now closed. 
 >
->* Note that the trial is available for 60 days from its launch, and not for 60 days from when you join it. 
->* The sign-up period ends on April 1, 2026. 
+>* If you accepted the trial agreement and are enrolled in the trial, it is available between the following dates: March 2 - May 1, 2026. Access will remain active until May 15, 2026.
+>
+>* Note that the trial is available for 60 days from its launch, and not for 60 days from when you joined it.
+>
+-->
 
 With this trial, you will see firsthand how Planning helps align daily work with strategic objectives, streamlines execution, and drives measurable results for your organization. 
 
@@ -55,8 +80,6 @@ Your company must meet the following requirements to be able to join the Workfro
 
     The Workfront Planning trial is not available for the legacy Workfront packages.
     For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-* Have access to the Adobe Admin Console
-* Is part of the Identity Management System (IMS)
 * Accept the legal trial agreement available in your organization's Workfront instance between January 26 and April 1, 2026 . You must be a Workfront administrator to accept the trial agreement. 
 
 ## Overview of important dates
@@ -90,7 +113,7 @@ The following are important dates associated with the Adobe Workfront Planning f
     * The Workfront Planning trial banners. 
     * The **Review trial agreement** preference is removed from the **Setup** area.
 
-* **May 1, 2026**: The Workfront Planning trial closes and your access to Planning is removed. 
+* **May 1, 2026**: The Workfront Planning trial closes and your access to Planning is removed. Access will remain active until May 15, 2026.
 
     If you participated in the trial, Workfront secures your data after the trial is over. However, you have no access to it any longer after this date. 
     
@@ -98,8 +121,10 @@ The following are important dates associated with the Adobe Workfront Planning f
 
 * **November 30, 2026**: Workfront no longer secures your data after this date. If you purchase Workfront Planning before this date, you regain access to Planning and your data. 
 
-<!--Lauren wanted this out: 
-* **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date. -->
+<!--
+Lauren wanted this out: 
+* **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date.
+-->
 
 ## Permissions to Workfront Planning data during and after the free trial
 
@@ -117,7 +142,7 @@ All users in your organization receive the following Workfront Planning package 
 
 * **After May 1, 2026:**
 
-    All users in your system have their access to Workfront Planning removed and Workfront secures your data.
+    Access to the trial will remain active until May 15, 2026. After May 15, all users in your system have their access to Workfront Planning removed and Workfront secures your data.
     
 ## Additional information about Workfront Planning
 
@@ -127,7 +152,8 @@ For best practices on how to implement Workfront Planning, see [Adobe Workfront 
 
 <!--
 
-this information will be live on March 2 - the How to sign up below will be a ### instead of a ## section and the Navigate the trial section will be visible; also adjust ALL the ##s when you make this live: -->
+this information will be live on March 2 - the How to sign up below will be a ### instead of a ## section and the Navigate the trial section will be visible; also adjust ALL the ##s when you make this live:
+-->
 
 ## Enroll in the Adobe Workfront Planning free trial
 
@@ -163,7 +189,7 @@ The trial started and your organization received access to start the Planning tr
 
 >[!WARNING]
 >
->The opt-in period ends on April 1, 2026. However, the Planning trial features are available until May 1, 2026.
+>The opt-in period ends on April 1, 2026. However, the Planning trial features are available until May 15, 2026.
 
 1. (Conditional) Log in to Adobe Workfront as a System Administrator. 
 
@@ -177,7 +203,7 @@ The trial started and your organization received access to start the Planning tr
 1. (Conditional) If you are in the **Setup** area, go to the **Other preferences** section, then click **Review trial agreement**. 
 1. Click **Accept**, after reviewing the agreement. 
 
-    Your organization is now enrolled in the Workfront Planning trial until May 1, 2026. 
+    Your organization is now enrolled in the Workfront Planning trial until May 1, 2026. Access will remain active until May 15, 2026.
 
     The following things occur after you accept the trial agreement:
 
@@ -196,6 +222,19 @@ For more information about using Workfront Planning, see [Get started with Adobe
 
 For best practices on how to implement Workfront Planning, see [Adobe Workfront Planning best practices: article index](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
+## Submit feedback about Planning 
+
+To submit feedback about your experience with Workfront Planning:
+
+1. Log in to Workfront and open any page. 
+1. Find the short survey in the lower-right corner of any Workfront page  and answer the questions, then click **Next**. 
+
+    ![Promo trial survey](assets/promo-trial-survey.png)
+
+1. On the second slide, answer the questions, then click **Submit**. 
+
+    Your feedback is submitted to our Product management team. 
+
 
 ## Experience Workfront Planning through the free trial
 
@@ -204,10 +243,14 @@ You can review sample Planning workspaces and their objects, as well as create y
 1. (Conditional and required) As a Workfront administrator, sign the free trial agreement. 
 
     For information, see the section [Enroll in the Adobe Workfront Planning free trial](#enroll-in-the-adobe-workfront-planning-free-trial) in this article.
-1. Click the **Main Menu** icon ![](assets/main-menu-shell.png), then click **Planning**. The icon displays a **Trial** label next to it. 
+1. (Conditional) After the trial agreement was signed by a Workfront administrator, click the **Main Menu** icon ![](assets/main-menu-shell.png), then click one of the following to access the **Planning** area: 
+
+    * **Planning**. The icon displays a **Trial** label next to it. 
+    * **Projects**, **Requests**, **Calendars**, then click **Explore campaign calendars**
+    * **Portfolios**, **Programs**, or from a portfolio or program    then click **Explore custom hierarchies**. 
     
     The **Planning** area opens in the **Sample workspaces** tab. 
-1. Review the following workspaces available in the **Sample workspaces** tab: 
+1. Review the following workspaces in the **Sample workspaces** tab: 
 
     * **Global Classifications & Taxonomies**: Contains sample Planning object types that are the foundation of a Marketing System of Record. 
     

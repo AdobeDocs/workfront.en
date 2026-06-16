@@ -6,6 +6,30 @@ description: If more work must be done to complete an issue after the issue is s
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/GZKzUP23gj9zAB6WzERMiBaX6ak7B4becB8v09R1UcQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Convert an issue to a task
 
@@ -51,7 +75,8 @@ For more detail about the information in this table, see [Access requirements in
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -73,7 +98,8 @@ For more detail about the information in this table, see [Access requirements in
    <td> <p>View permissions to the issue</p> <p>Contribute permissions to the project</p> <p>You obtain Manage permissions to the task after the issue is converted</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerations
 
@@ -81,7 +107,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Convert an issue to a task
 
-1. Go to a project and click [!UICONTROL **Issues** ] in the left panel.  
+1. Go to a project and click [!UICONTROL **Issues**] in the left panel.  
 1. Click the issue you want to convert to go to the issue's landing page. 
 1. Click the [!UICONTROL **More**] menu on the issue, then [!UICONTROL **Convert to Task**].
 

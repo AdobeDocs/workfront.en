@@ -7,6 +7,15 @@ description: The Scenario Planner is available only in the new Adobe Workfront e
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/LvjgUviaZwtv02BBrBjc8HGjUyZBYfF-yEz--COompY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Initiatives overview in the [!DNL Scenario Planner]
 
@@ -90,14 +99,16 @@ You can view the following financial indicators about an initiative by accessing
  </tbody> 
 </table>
 
-<!--drafted content from People Costs:
+<!--
+drafted content from People Costs:
 (NOTE: drafted below)</p> 
        <p>Depending on whether the plan is set up to use FTEs or hours, Workfront uses the following formulas to calculate People Cost:</p> 
        <ul> 
         <li> <p>When using FTEs: </p> <p><code>People Costs = SUM(Job role hourly rate * Number of months in the Duration * 160 * Number of FTEs)</code>, where 160 is the total number of working hours in a month. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><span style="font-weight: normal;"> When estimating resources using FTEs,(NOTE: drafted and yellow and fix the rest of the sentence)
       <p>When using hours:</p> 
       <p><code>Monthly People Costs = SUM(Job role hourly rate * Number of hours estimated for an initiative)</code> </p> 
-      <p>For information about setting up the plan to use hours or FTE, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Scenario Planner</a>.</p>-->
+      <p>For information about setting up the plan to use hours or FTE, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Scenario Planner</a>.</p>
+      -->
       
 ## Initiative information in reports
 

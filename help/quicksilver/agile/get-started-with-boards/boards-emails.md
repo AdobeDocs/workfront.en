@@ -7,6 +7,21 @@ description: Adobe Workfront Boards sends you an email when you are added to a b
 author: Courtney
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/-BVQwkTNV8Pt35XHTbnkwkS8ClCcLk289NzM5KjG1ak
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Boards email notifications and preferences
 
@@ -36,7 +51,7 @@ You will also receive an email when you are tagged in a comment on a connected c
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -51,23 +66,3 @@ For more detail about the information in this table, see [Access requirements in
 
    The preferences you set for emails apply to all of your boards.
 
-<!--
-
-<div class="preview">
-
-## Set the dark mode preference
-
->[!NOTE]
->
->If your organization's instance of Workfront has been onboarded to the Adobe Unified Experience, you can enable dark theme formatting for all of Adobe Experience Cloud through your preferences menu (your profile picture), and you will not see a separate dark mode option for Workfront Boards. For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
-{{step1-to-boards}}
-
-1. Click [!UICONTROL **Preferences**] on the boards dashboard.
-1. In the Themes area, enable or disable Dark mode.
-
-   The preference you set for dark mode applies to all of your boards and workstreams, and the dashboard.
-
-</div>
-
--->

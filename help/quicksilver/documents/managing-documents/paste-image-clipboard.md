@@ -6,6 +6,21 @@ description: You can add an image file to Adobe Workfront by copying it and past
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 5c3f089c-9e66-4294-806a-424a08bbf225
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/yZd5lRulx6-3DOcqUC-IZRTt0y13yMiqKuOreqmx9rc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Paste images from the Clipboard
 
@@ -13,8 +28,8 @@ You can add an image file to Adobe Workfront by copying it and pasting it from t
 
 >[!NOTE]
 >
->This functionality is not available in the new documents area.<br>
->If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>This functionality is not available in the new Documents area.<br>
+>If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Browser requirements for pasting from the Clipboard
 
