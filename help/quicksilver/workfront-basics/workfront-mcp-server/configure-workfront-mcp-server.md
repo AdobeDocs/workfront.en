@@ -285,3 +285,6 @@ Both your Workfront administrator and the administrator for your AI agentic plat
 No. Your Workfront instance must be enabled on Adobe Identity Management System (IMS) to use the Workfront MCP server. If you're not sure whether your instance is enabled on IMS, contact your Workfront administrator.
 
 +++ 
+
+
+
