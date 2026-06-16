@@ -21,7 +21,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>26.5 (May 14, 2026)</li><li>26.6 (June 11, 2026)</li><li>26.7 (July 16, 2026)</li></ul>|<ul><li>26.7 (July 16 15, 2026)</li></ul>|
+>|<ul><li>26.5 (May 14, 2026)</li><li>26.6 (June 11, 2026)</li><li>26.7 (July 15, 2026)</li></ul>|<ul><li>26.7 (July 16, 2026)</li></ul>|
 >
 >Note that for the final release of each quarter (26.7 this quarter), users on the fast release schedule will receive the release one day early (July 15 , 2026).
 >
