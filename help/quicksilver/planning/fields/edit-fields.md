@@ -153,7 +153,8 @@ You must consider the following before making changes to a field's configuration
 * You can edit the configuration of the following field elements, after you save the field:
 
     * The Name or the Description of any field
-    * The Options of a Single-select or a Multi-select field.
+    * The Options of a Single-select or a Multi-select field <!--<span class="preview">and their default choices</span>-->.
+    <!--* <span class="preview">The default choices of a People field.</span>-->
     * The expression of a Formula field.
 
     >[!WARNING]
