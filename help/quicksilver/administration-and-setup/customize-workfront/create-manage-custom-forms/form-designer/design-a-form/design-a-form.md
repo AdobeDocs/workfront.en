@@ -640,7 +640,8 @@ To add typeahead and date fields:
        <ul> 
         <li>If you are editing an existing custom form, adding a filter to a typeahead field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
         <li>This filter is not available on mobile devices. If you use the filter for a typeahead field, the field will appear on users' mobile devices unaffected by the filter.</li> 
-        </ul></p></td> 
+        </ul></p>
+      </td>  
       <td>
        <ul>
        <li>Typeahead</li>
@@ -704,7 +705,7 @@ To add an external lookup:
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the option to change the label that your users see without having to change the name that the system sees.</p>
+      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the option to change the label that your users see without having to change the name that the system sees.</p>
       <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td>
      </tr> 
       <td role="rowheader">Instructions</td> 
@@ -796,6 +797,95 @@ To add an external lookup:
 >* Number of retries: 3
 >* Wait duration between retries: 500ms
 >* Expected response statuses: 2xx
+
+<div class="preview">
+
+### Add internal lookup fields
+
+An internal lookup field allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing. For example, if the user is typing a user name then a list of matching names appears. The internal lookup field type is supported on the following objects:
+
+* User
+* Group
+* Job Role
+* Portfolio
+* Program
+* Project
+* Team
+* Template
+* Company
+* Task
+* Issue
+* Document
+* Location
+
+To add an internal lookup:
+
+1. In the **New field** tab on the left side of the screen, find **Internal lookup** or **Multi-select internal lookup**, and drag it to a section on the canvas.
+1. On the right side of the screen, configure the options for the custom field:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Label</td> 
+      <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>Important</b>: Avoid using special characters in this label as they don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Name</td> 
+      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the option to change the label that your users see without having to change the name that the system sees.</p>
+      <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td>
+     </tr> 
+      <td role="rowheader">Instructions</td> 
+      <td> <p>Type any additional information about the custom field. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Referenced Object Type</td>
+      <td><p>Select the object type that you want to associate with the field.</p> <p>Once you have clicked <strong>Apply</strong> or <strong>Save and Close</strong>, you can't change the object type for the field.</p>
+      <p><strong>Note:</strong></p>
+      <ul><li>If your Workfront administrator customized the name for Portfolios, Programs, or Projects in the Workfront user interface, the default Workfront name for the object appears in this drop-down list, not the customized name. See your Workfront administrator if you need help with this.</li>
+      <li>The following object types are supported in the iOS and Android Workfront Mobile Apps: User, Company, Group, Job Role, Portfolio, Program, Project, and Template.</li>
+      </ul></td>
+     </tr> 
+     <tr>
+      <td>Add Filter</td>
+      <td><p>Add a filter for an object type to limit the objects users can choose when they are using the field. </p> <p>For example, you could limit a field so that usernames can be selected only if they meet the following criteria:</p> 
+       <ul> 
+        <li>They belong to a group or groups that you specify.</li> 
+        <li>They are associated with a role or job title you specify.</li> 
+        <li>They belong to the same group as the person using the field.</li> 
+       </ul>
+       <p>You must define the filter for the object type you selected using Text Mode syntax. For information about creating a filter using Text Mode, see <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Edit a filter using text mode</a>.</p>
+       <p><b>Tip:</b> You can create a report to test your filter before adding the filter directly to the internal lookup field. This will help you verify that the filter returns the correct objects. Then you can switch to text mode in the report, copy the text mode statement, and add it to the internal lookup filter.</p>
+       <p><b>Note</b>:
+       <ul> 
+        <li>If you are editing an existing custom form, adding a filter to an internal lookup field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
+        <li>This filter is not available on mobile devices. If you use the filter for an internal lookup field, the field will appear on users' mobile devices unaffected by the filter.</li> 
+        </ul></p>
+      </td>  
+     </tr>
+     <tr> 
+      <td role="rowheader">Multi-select dropdown</td>
+      <td><p>Select this option to allow the user to select more than one value in the drop-down.</p></td>
+     </tr>
+     <tr>
+      <td>Active</td>
+      <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Make a required field</td>
+      <td><p>Select this option if you want the field to be required in order for the user to complete the custom form.</p></td>
+     </tr>       
+    </tbody>
+   </table>
+
+1. To save your changes, click **Apply** and move on to another section to continue building your form.
+   
+   Or
+
+   Click **Save and Close**.
+
+</div>
 
 ### Add images, PDFs, and videos
 
