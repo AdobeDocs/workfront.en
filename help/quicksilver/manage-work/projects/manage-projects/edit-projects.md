@@ -173,11 +173,12 @@ For information about creating a project from a template, see [Create a project 
    >
    >Depending on how your Workfront administrator or Group administrator modified your Layout Template, the fields in the Project Details area might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-   To edit information in the Details section, do the following:
+   To edit information in the **Details** section, do the following:
 
    1. (Optional) Click the **Collapse All** icon ![Collapse all icon](assets/collapse-icon.png)  in the upper-right corner to collapse all areas. 
-   1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![Right pointing arrow](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. 
-   1. For more information about editing information in the Project Details tab, see the following articles:
+   1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![Right pointing arrow](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. Or, click the **right pointing arrow** in the upper-right corner to expand all areas. 
+   
+      For more information about editing information in the Project Details tab, see the following articles:
 
       * [Manage information in the project Overview area](../../../manage-work/projects/manage-projects/understand-project-overview-area.md) 
       * [Manage information in the project Finance area](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
