@@ -25,8 +25,6 @@ topic_v2:
 ---
 # Unified review and approval overview
 
-{{highlighted-preview}}
-
 Unified review and approval brings together Adobe Workfront and Adobe Frame.io into a single, deeply connected experience--closing the gaps between marketing management, creative review, and content delivery. 
 Project coordinators manage work in Workfront while creatives, marketers, and stakeholders review and approve assets in the professional-grade Frame.io viewer, all without moving files between disconnected tools.
 
@@ -311,9 +309,7 @@ Currently, approval templates support individual users and teams.
 
 Yes. Approvers and reviewers receive email notifications when they are assigned to a review or approval. Automated reminder emails are also sent 72 hours before the deadline, 24 hours before, and on the deadline itself.
 
-In Production, the ability to customize email notification messages is not currently available, but it is on the product roadmap.
-
-<span class="preview">In Preview, you can add a custom message to each stage of an approval workflow. The message appears in the approval email notification and in the Approvals tab in Workfront. You can use the same message for every stage or a different message per stage, and the message can include up to 500 characters. If you edit a custom message after the approval workflow is created, an updated email notification is sent to all existing participants. If you add a participant later, the custom message is included in their email notification. For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).</span>
+You can add a custom message to each stage of an approval workflow. The message appears in the approval email notification and in the Approvals tab in Workfront. You can use the same message for every stage or a different message per stage, and the message can include up to 500 characters. If you edit a custom message after the approval workflow is created, an updated email notification is sent to all existing participants. If you add a participant later, the custom message is included in their email notification. For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 <!--
 **Can I change the notification frequency for a unified approver or reviewer (for example, all comments, replies to my comments, or daily summaries)?**

@@ -1,4 +1,4 @@
----
+yes---
 product-area: documents
 navigation-topic: manage-documents
 title: Check document storage limits
@@ -23,8 +23,6 @@ topic_v2:
     internal-label: Administration
 ---
 # Check document storage limits
-
-{{highlighted-preview}}
 
 While there are no restrictions on the types and sizes of individual files that users can upload to your Workfront instance, your Workfront plan includes a total storage quota. As a Workfront administrator, you monitor usage and quota from the Setup area on the Customer Info page.
 
@@ -77,8 +75,6 @@ The storage quota is refreshed daily to show the most up-to-date count.
 >
 >This limit does not apply to documents you link to Workfront from any other third-party service provider (SharePoint, Google Drive, Webdam, Box, Dropbox, or any other document asset management provider).
 
-<div class="preview">
-
 ## Adobe cloud storage
 
 
@@ -105,5 +101,3 @@ Usage figures refresh regularly so you see an up-to-date count.
 ### Email notifications for administrators
 
 When usage crosses 75%, 90%, or 100% of your storage quota, Workfront sends an email notification to System Administrators. 
-
-</div>

@@ -30,8 +30,6 @@ topic_v2:
 ---
 # Summary for documents overview
 
-{{highlighted-preview}}
-
 <!--Audited: April, 2024-->
 
 You can use the Summary panel to access and update important information directly from the documents list.
@@ -147,7 +145,7 @@ If your organization uses Adobe cloud storage, you will see the new Documents ar
 
 ### Details
 
-Use the Details section to view high-level overview information, interact with custom forms, and <span class="preview">open the Print Summary</span>.
+Use the Details section to view high-level overview information, interact with custom forms, and open the Print Summary.
 
 ![Document summary details in new documents experience](assets/summary-details.png)
 
