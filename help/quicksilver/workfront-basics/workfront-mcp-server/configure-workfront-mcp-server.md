@@ -65,7 +65,7 @@ You connect to Workfront once per [!DNL Claude] account. The connection authenti
 
 >[!IMPORTANT]
 >
->Currently, the Claude Connector only supports connecting to the Workfront MCP server in the US region.  To connect to a Workfront instance in the EU region, see [Connect to Claude desktop with a URL](#connect-to-claude-desktop-with-a-url) in this article.
+>Currently, the Claude Connector only supports connecting to the Workfront MCP server in the US region.  To connect to a Workfront instance in the EU region, see [Connect to Claude with a URL](#connect-to-claude-with-a-url) in this article.
 
 +++ Expand to view step-by-step instructions for connecting Workfront to [!DNL Claude].
 
