@@ -21,7 +21,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>26.5 (May 14, 2026)</li><li>26.6 (June 11, 2026)</li><li>26.7 (July 16, 2026)</li></ul>|<ul><li>26.7 (July 16 15, 2026)</li></ul>|
+>|<ul><li>26.5 (May 14, 2026)</li><li>26.6 (June 11, 2026)</li><li>26.7 (July 15, 2026)</li></ul>|<ul><li>26.7 (July 16, 2026)</li></ul>|
 >
 >Note that for the final release of each quarter (26.7 this quarter), users on the fast release schedule will receive the release one day early (July 15 , 2026).
 >
@@ -59,7 +59,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>June 11, 2026</p></td>
             <td><p>July 16, 2026</p></td>
         </tr>
-        <!--
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">New system preference to convert legacy storage portfolios to Adobe cloud storage</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -69,7 +68,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>June 11, 2026</p></td>
             <td><p>June 11, 2026</p></td>
         </tr>
-        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Rich Text replacing Text with Formatting field type</a>
@@ -121,6 +119,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Preview</strong></td>
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Request approval on Adobe Express templates with Workfront and Frame.io</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>The Adobe Express and Workfront with Frame.io integration brings structured review and approval to content created in Adobe Express. Designers can map a Workfront approval workflow template to an Express template so that, when the template is remixed, an approval is automatically required before publishing—routing the asset through the pre-configured Workfront workflow and Frame.io viewer.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>June 15, 2026</p></td>
+            <td><p>June 15, 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Print summary for documents in the new Documents area</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -208,7 +215,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
     </tbody>
 </table>
 
-<!--
+
 
 ### Project enhancements
 
@@ -243,7 +250,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
     </tbody>
 </table>
 
--->
 
 ### Reporting enhancements
 
@@ -353,7 +359,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Updates to the Workfront MCP connector</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>We've updated the Workfront MCP Connector:<ul><li>Claude can now connect to the MCP connector.</li><li>You can now use the MCP connector from instances in the EU<!-- or from instances that do not use AWS-->.</p>
+                <p>We've updated the Workfront MCP Connector:<ul><li>Claude can now connect to the MCP connector.</li><li>You can now use the MCP connector from instances in the EU <!--or from instances that do not use AWS-->.</p>
             </td>
             <td><p>June 11, 2026</p></td>
             <td><p>June 11, 2026</p></td>

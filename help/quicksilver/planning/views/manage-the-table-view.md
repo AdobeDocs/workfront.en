@@ -657,7 +657,7 @@ To manage a table view:
     * [Real-time presence indicator](#enable-the-real-time-presence-indicator)
 
 
-### Add columns (or fields) {#add-columns}
+### Add columns (or fields) {#add-columns-1}
 
 The column headers of a table view display fields associated with the records in the view. Fields displayed in the table view also display in the Details section of a record. 
 
@@ -755,7 +755,7 @@ You can add up to 500 fields (or columns) in a table view.
     The aggregator row in the column is frozen and is part of the view settings. The aggregator you choose will be shared with the view when you share the view with others. 
 -->
 
-### Add rows (or records) {#add-rows}
+### Add rows (or records) {#add-rows-1}
 
 The rows of a table view display individual records of the selected record type. 
 
@@ -789,7 +789,7 @@ You can have up to 50,000 records (or rows) for a record type.
 ******************** NOT POSSIBLE ABOVE **************
 -->
 
-### Add filters {#add-filters}
+### Add filters {#add-filters-1}
 
 Filters help you reduce the amount of information displayed on the screen.
 
@@ -800,7 +800,7 @@ For information, see the [Add filters](#add-filters) section in this article.
 
 <!--***************** at production, paste here the information from the Production section above *******************-->
 
-### Add a sort {#sort-information} 
+### Add a sort {#sort-information-1} 
 
 By applying a sort, you can organize information in a given order. 
 
@@ -877,7 +877,7 @@ To sort records, do the following:
     
     The fields selected for the sort display a sorting icon followed by a number that indicates the order in which the sorting is applied. 
 
-### Add groupings {#add-groupings}
+### Add groupings {#add-groupings-1}
 
 <!--
 ***********************this section exists in the timeline view too, but the display is slightly different, so I kept both procedures; consider updating both sections if any updates to groupings are introduced***************

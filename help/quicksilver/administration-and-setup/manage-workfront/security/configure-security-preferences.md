@@ -158,6 +158,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td>Lets you choose to enable or disable Adobe cloud storage for your entire organization or for specific groups. For more information about Adobe cloud storage, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Enable Adobe cloud storage for your organization</a>.</td> 
      </tr>
      <tr> 
+      <td role="rowheader">Select portfolios to convert to Adobe cloud storage </td> 
+      <td>Lets you convert existing legacy Workfront storage portfolios to Adobe cloud storage. For more information, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md">Convert legacy portfolios to Adobe cloud storage</a>.</td> 
+     </tr>
+     <tr> 
       <td role="rowheader">Enable AI </td> 
       <td>Lets you choose to enable AI, including AI Assistant. <p><b>Note</b>: Your organization must meet specific requirements to enable AI. For more information about AI, including the requirements, see <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI Assistant overview</a>.</p></td> 
      </tr>

@@ -75,11 +75,8 @@ After an approval workflow template is created in Workfront, designers with an E
  
 Users must have a Standard Workfront license to request approval from Adobe Express.
 
-[Need link to Express help article on requesting approval]
-
-<!--
 Learn how to [get approval on designs](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).   
--->
+
 
 ## Remix Express templates and send for review and approval 
 
@@ -98,11 +95,8 @@ When requesting approval on a remixed Express template, users can choose a Workf
 
 If no project is selected, the asset will default into an Express-specific project.
 
-[Need link to Express help article on requesting approval]
-
-<!--
 For more information, see [Send templates for review and approval](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
--->
+
 
 ## Review and approve remixed Express files with Frame.io
 

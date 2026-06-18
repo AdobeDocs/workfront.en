@@ -255,11 +255,12 @@ Not sure how to change the request status, but dev also said: Changing the names
    >
    >  <div class="preview">
    >
-   >   * Editing a request is possible only when a record has not been created yet and the request is awaiting approval. 
-   >   * Some fields are read-only and you cannot edit them. 
-   >  * You can no longer edit a request after a record has been created from it. 
+   >* Editing a request is possible only when a record has not been created yet and the request is awaiting approval. 
+   >* Some fields are read-only and you cannot edit them. 
+   >* You can no longer edit a request after a record has been created from it. 
    >
-   >  </div>   
+   >  </div> 
+1. <span class="preview">(Optional) After editing the request, click **Submit changes**.</span>   
 1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Created object** field. 
 
    The record's page opens in Workfront Planning. 
@@ -269,6 +270,7 @@ Not sure how to change the request status, but dev also said: Changing the names
    >* If the record's primary field was not updated in the request form, the name of the record in the Record field of the request displays as **Untitled**. 
    >
    >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. The record is not created until the approval is granted. 
+   >  For information about approving requests, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md). 
 
 1. (Optional) Click the name of the **Record type**. 
 

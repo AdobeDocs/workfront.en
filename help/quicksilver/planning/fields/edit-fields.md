@@ -153,7 +153,8 @@ You must consider the following before making changes to a field's configuration
 * You can edit the configuration of the following field elements, after you save the field:
 
     * The Name or the Description of any field
-    * The Options of a Single-select or a Multi-select field.
+    * The Options of a Single-select or a Multi-select field <span class="preview">and their default choices</span>.
+    * <span class="preview">The default choices of a People field.</span>
     * The expression of a Formula field.
 
     >[!WARNING]
@@ -245,8 +246,12 @@ You might have a single-select field called Status that has the choices New and 
 To add a new choice to an existing select field when editing a record: 
 
 1. Go to a record type page and open the table view. 
-1. Add the single- or multi-select field that you would like to add a choice to in the table view as a new column. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+1. Add the single- or multi-select field that you would like to add a choice to in the table view as a new column. 
+
+   For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+
 1. Start editing the field inline by double-clicking the cell for the field. 
+
 1. Type the name of the choice you want to add, then click **Add choice**.
 
    ![Add choice in single-select field in table view](assets/add-choice-in-table-view-for-single-select-field.png)

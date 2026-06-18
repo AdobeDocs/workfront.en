@@ -78,6 +78,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 The Custom Refresh Sandbox contains your actual production data, and it does not refresh until you schedule it to do so. You can schedule a refresh any time is convenient for you, as frequently as once a week.
 
+>[!IMPORTANT]
+>
+>Custom Refresh Sandbox environments are refreshed from your Production environment only. There is no process to perform a point-in-time restore for sandbox environments. To update your sandbox data, schedule a standard refresh from Production.
+
 >[!NOTE]
 >
 >* You cannot schedule a refresh for the current day. For example, if today is June 1, the earliest day when you can schedule a refresh is June 2.
