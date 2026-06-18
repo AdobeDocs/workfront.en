@@ -31,7 +31,7 @@ Any user who has access to share objects can share them with the business profil
 
 >[!BEGINSHADEBOX]
 
-Sam needs different access to projects for Agency A and Agency B. Both agencies are set up as groups in Workfront. (For information about groups, see Groups overview.)
+Sam needs different access to projects for Agency A and Agency B. Both agencies are set up as groups in Workfront. (For information about groups, see [Groups overview](/help/quicksilver/administration-and-setup/manage-groups/groups-overview/groups-overview.md).)
 
 For Agency A, Sam is acting as a financial controller and needs access to see all of the financial fields on their projects. For Agency B, Sam is acting as a project manager and needs to manage the tasks and issues, but should not be able to view the financial information.
 
@@ -105,6 +105,7 @@ For information about how access levels and permissions work together, see [Acce
 
 ## Considerations about business profiles
 
+* Business profiles are available only to organizations that have a Workflow Ultimate plan.
 * A user does not have to be a member of a group to be assigned a business profile for that group.
 * The access level on the business profile can only upgrade a user's "base" access level. The business profile cannot take away the base access level permissions.
 * In object lists and reports, the user has all of the permissions that are available to them from all of their assigned business profiles across the groups merged with their base access level. In other pages, the user has the base access level permissions.
