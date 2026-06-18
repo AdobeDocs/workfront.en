@@ -105,7 +105,7 @@ For information about how access levels and permissions work together, see [Acce
 
 ## Considerations about business profiles
 
-* Business profiles are available only to organizations that have a Workflow Ultimate plan.
+* Business profiles are available only to organizations that have a Workflow Ultimate package.
 * A user does not have to be a member of a group to be assigned a business profile for that group.
 * The access level on the business profile can only upgrade a user's "base" access level. The business profile cannot take away the base access level permissions.
 * In object lists and reports, the user has all of the permissions that are available to them from all of their assigned business profiles across the groups merged with their base access level. In other pages, the user has the base access level permissions.
