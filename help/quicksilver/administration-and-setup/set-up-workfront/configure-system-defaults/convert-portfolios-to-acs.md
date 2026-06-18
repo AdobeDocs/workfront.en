@@ -10,7 +10,7 @@ role: Admin
 ---
 # Convert legacy portfolios to Adobe cloud storage
 
-As a Workfront administrator, you can convert existing legacy Workfront storage portfolios to Adobe cloud storage from the Storage Preferences area in System Preferences. After a portfolio is converted, it behaves like any other Adobe cloud storage portfolio.
+As a Workfront administrator, you can convert existing legacy Workfront-storage portfolios to Adobe cloud-storage from the Storage Preferences area in System Preferences. After a portfolio is converted, it behaves like any other Adobe cloud storage portfolio.
 
 For more information about how converted portfolios behave and how their child objects are affected, see [Object portability](/help/quicksilver/review-and-approve-work/workfront-storage.md#object-portability) in [Move to Workfront on Adobe cloud storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
@@ -46,6 +46,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 Before you convert a legacy Workfront storage portfolio, consider the following:
 
 * The conversion affects only the portfolio itself. Child projects and programs that use legacy Workfront storage stay on legacy storage. 
+
     >[!NOTE]
     >
     >A child legacy program converts to Adobe cloud storage automatically only when someone manually adds an Adobe cloud storage project to it.
