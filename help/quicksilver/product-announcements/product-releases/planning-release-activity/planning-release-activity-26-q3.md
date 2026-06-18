@@ -23,6 +23,19 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Add default choices for select and people type fields 
+
+>[!NOTE]
+>
+>Preview: June 18, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
+
+When you create a single-, multi-select field or a People type field, you can now indicate a default value for these fields. The default values will always be applied when the field is visible on a record.  
+
+You can change the default settings of the field after it is saved. You can replace the default values of the fields when working with records.  
+
+For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
 
 ## Interface improvements in the table view
 
