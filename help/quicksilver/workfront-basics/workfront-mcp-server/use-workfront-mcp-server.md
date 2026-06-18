@@ -14,7 +14,7 @@ The [!DNL Adobe Workfront] MCP server lets you find, create, update, and manage 
 
 >[!IMPORTANT]
 >
->Currently, the Workfront MCP server is available only to customers in the US region for customers using AWS.
+>Currently, the Workfront MCP server is available only to customers using AWS.
 
 ## Prerequisites
 
