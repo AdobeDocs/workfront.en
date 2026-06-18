@@ -356,9 +356,9 @@ You can use a multi-select field to capture additional information in any format
 
    Click **Custom** to select a custom color using a color picker or a Hex code. 
 1. Click outside the color box to close it.   
-    <!--
-    1. <span class="preview">In the **Default choices** field, select the choices that you want to display in this field by default. You can choose more than one choice. Users can remove the default choices as they update this field. (********** and update all screen shots on this page ******) </span>
-    -->
+    
+1. <span class="preview">In the **Default choices** field, select the choices that you want to display in this field by default. You can choose more than one choice. Users can remove the default choices as they update this field.</span>
+
 1. Click **Create**. 
 
     The new multi-select field is added as a column to the record type, and its values can be associated with records. 
@@ -405,9 +405,9 @@ Single-select fields capture additional information in any format by selecting o
     Or
 
     Click **Custom** to select a custom color using a color picker or a Hex code. 
-<!--
-    1. <span class="preview">In the **Default choice** field, select the choice that you want to display in this field by default. You can choose only one choice. Users can remove the default choice as they update this field. (********** and update all screen shots on this page ******) </span>
-    -->
+
+1. <span class="preview">In the **Default choice** field, select the choice that you want to display in this field by default. You can choose only one choice. Users can remove the default choice as they update this field. </span>
+
 1. Click outside the color box to close it.
 1. Click **Create**. 
 
@@ -697,14 +697,15 @@ You can use the People field type to add a user to a record. This is a type-ahea
     >
     >    If you select Allow multiple values, and multiple users are stored on the records the field is attached to, then you can no longer deselect the setting in the future, when editing this field. 
 
-    <!--
-    1. <span class="preview">In the **Default user** or **Default users** field, select the users that you want to display in this field by default. You can choose more than one user if you also selected the **Allow multiple values** setting. Users can remove the default users as they update this field.(********** and update all screen shots on this page ******) </span>
+1. <span class="preview">In the **Default user** or **Default users** field, select the users that you want to display in this field by default. </span>
+    
+    <span class="preview">You can choose more than one user if you also selected the **Allow multiple values** setting. </span>
+    
+    <span class="preview">Users can remove the default users as they update this field.</span>
 
     >[!TIP]
     >
-    >Deactivating users chosen as default users in this setting preserves the users's names as the default. It does not remove the deactivated user from the field value and there is no indication to others that the user was deactivated.
-    -->
-    
+    ><span class="preview">Deactivating users chosen as default users in this setting preserves the users's names as the default. It does not remove the deactivated user from the field value and there is no indication to others that the user was deactivated.</span>    
 
 1. Click **Create**.
 
