@@ -13,9 +13,13 @@ Workfront Fusion scenarios built on legacy Workfront Proofing don't automaticall
 
 Scenarios scoped to legacy Workfront projects continue to work as they do today. The remediation work described in this article applies to scenarios you intend to run against Adobe cloud storage projects.
 
-Fusion connectors with native support for unified review and approval are expected to be available in Q3 2026. Plan the rebuild now, but we recommend waiting for the new connectors before you build. Scenarios will be simpler and more reliable than what they replace.
+>[!IMPORTANT]
+>
+>The Adobe Workfront Unified Review and Approvals connector is now available in Workfront Fusion. We recommend using this connector for simpler and more reliable scenarios when using Fusion with Adobe cloud storage.
+>
+>For information and instructions, see [Adobe Workfront Unified Review and Approvals modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) in the Workfront Fusion documentation.
 
-Detailed automation guidance will be published alongside the Q3 2026 Fusion connector release. Use this article to inventory and classify scenarios now so you're ready to act once that guidance is available.
+Use this article to inventory and classify scenarios to understand the best way to upgrade your Fusion scenarios to account for Adobe cloud storage.
 
 For a high-level summary of what changes when your organization moves to Workfront on Adobe cloud storage, see [Move to Workfront on Adobe cloud storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
@@ -52,7 +56,7 @@ Use the following approach to plan and execute Fusion remediation:
 1. **Classify each scenario** as Edit, Rebuild, or Retire based on the criteria in the previous section.
 1. **Pause proof-dependent scenarios** before you bring teams that depend on them into your Adobe cloud storage pilot. Running stale proof-based automations against the new model can produce silent failures or duplicate actions.
 1. **Use approval templates to replace simple routing logic.** Native multi-stage approval templates with deadline automation can handle many use cases that previously required Fusion. For more information, see [Create an Approval Template for assets and documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-1. **Wait for the Q3 2026 Fusion connector updates before rebuilding.** The updated connectors expose modules built specifically for unified review and approval and make rebuilds significantly simpler and more reliable. We don't recommend rebuilding against Workfront API version 22 beforehand. If you proceed for a time-critical scenario, plan to revisit that work once the new connectors are released.
+1. **Use the Adobe Workfront Unified Review and Approvals connector when rebuilding.** The updated connectors expose modules built specifically for unified review and approval and make rebuilds significantly simpler and more reliable. We don't recommend rebuilding against Workfront API version 22 beforehand. 
 1. **Test rebuilt scenarios end-to-end in a sandbox instance** before enabling them in production. Pay particular attention to event subscription payloads — field names and schema differ from legacy proof events.
 
 >[!TIP]
