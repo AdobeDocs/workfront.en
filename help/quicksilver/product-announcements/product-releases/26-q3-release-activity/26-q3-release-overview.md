@@ -29,6 +29,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
 
 ## Adobe Workfront enhancements
 
+* [AI enhancements](#ai-enhancements)
 * [Administrator enhancements](#administrator-enhancements)
 * [Documents enhancements](#documents-enhancements)
 * [Financial Management enhancements](#financial-management-enhancements)
@@ -37,6 +38,40 @@ Live webinars are held for each quarterly release - these highlight the new feat
 * [Reporting enhancements](#reporting-enhancements)
 * [Requests enhancements](#requesting-enhancements)
 * [Other enhancements](#other-enhancements)
+
+### AI enhancements
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Updates to the Workfront MCP connector</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>We've updated the Workfront MCP Connector:<ul><li>Claude can now connect to the MCP connector.</li><li>You can now use the MCP connector from instances in the EU <!--or from instances that do not use AWS-->.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Connect your AI agentic platform to Workfront with the Workfront MCP server</a>
+                <p>The new Workfront MCP server connects Workfront to a supported AI agentic platform, such as Claude or ChatGPT, so you can find, create, update, and manage Workfront items through natural-language conversation. Currently available only to customers in the US region using AWS.</p>
+            </td>
+            <td><p>May 28, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
 
 ### Administrator enhancements
 
@@ -356,14 +391,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Preview</strong></td>
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Updates to the Workfront MCP connector</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>We've updated the Workfront MCP Connector:<ul><li>Claude can now connect to the MCP connector.</li><li>You can now use the MCP connector from instances in the EU <!--or from instances that do not use AWS-->.</p>
-            </td>
-            <td><p>June 11, 2026</p></td>
-            <td><p>June 11, 2026</p></td>
-            <td><p>June 11, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -373,15 +400,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>N/A</p></td>
             <td><p>Phased rollout beginning July 16, 2026</p></td>
             <td><p>Phased rollout beginning July 16, 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Connect your AI agentic platform to Workfront with the Workfront MCP server</a>
-                <p>The new Workfront MCP server connects Workfront to a supported AI agentic platform, such as Claude or ChatGPT, so you can find, create, update, and manage Workfront items through natural-language conversation. Currently available only to customers in the US region using AWS.</p>
-            </td>
-            <td><p>May 28, 2026</p></td>
-            <td><p>June 11, 2026</p></td>
-            <td><p>July 16, 2026</p></td>
         </tr>
         <tr>
             <td>
