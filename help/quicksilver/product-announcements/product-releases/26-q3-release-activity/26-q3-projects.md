@@ -11,7 +11,7 @@ This page describes Project enhancements made with the Third Quarter 2026 releas
 
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-<!--
+
 
 ## Convert a legacy storage task to an Adobe cloud storage project
 
@@ -29,9 +29,9 @@ For more information, see [Convert a task to a project](/help/quicksilver/manage
 
 ## Use a legacy storage template to create an Adobe cloud storage project
 
--->
 
-<!--
+
+
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Previously, Legacy storage templates could only be used to create Legacy storage
 
 For more information, see [Create projects](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
--->
+
 
 
 

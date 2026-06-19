@@ -21,7 +21,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>26.5 (May 14, 2026)</li><li>26.6 (June 11, 2026)</li><li>26.7 (July 16, 2026)</li></ul>|<ul><li>26.7 (July 16 15, 2026)</li></ul>|
+>|<ul><li>26.5 (May 14, 2026)</li><li>26.6 (June 11, 2026)</li><li>26.7 (July 15, 2026)</li></ul>|<ul><li>26.7 (July 16, 2026)</li></ul>|
 >
 >Note that for the final release of each quarter (26.7 this quarter), users on the fast release schedule will receive the release one day early (July 15 , 2026).
 >
@@ -121,6 +121,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Quarterly</strong></td>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Request approval on Adobe Express templates with Workfront and Frame.io</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>The Adobe Express and Workfront with Frame.io integration brings structured review and approval to content created in Adobe Express. Designers can map a Workfront approval workflow template to an Express template so that, when the template is remixed, an approval is automatically required before publishing—routing the asset through the pre-configured Workfront workflow and Frame.io viewer.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>June 15, 2026</p></td>
+            <td><p>June 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Print summary for documents in the new Documents area</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>You can now open a printable summary of a document's approval directly from the new Documents area. This feature is available to organizations using Adobe cloud storage.</p>
             </td>
@@ -206,7 +215,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
     </tbody>
 </table>
 
-<!--
+
 
 ### Project enhancements
 
@@ -241,7 +250,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
     </tbody>
 </table>
 
--->
 
 ### Reporting enhancements
 
@@ -467,3 +475,5 @@ For information about the maintenance updates made during the Third Quarter 2026
 ### Training updates
 
 Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+
+

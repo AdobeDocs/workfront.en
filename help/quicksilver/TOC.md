@@ -467,7 +467,8 @@ feature-set: Workfront
       * [Project timeline recalculations](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
       * [Enable custom quarters](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
       * [Enable or disable fast releases for your organization](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
-      * [Enable Adobe cloud storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
+      * [Enable Adobe cloud storage for your organization](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
+      * [Convert legacy portfolios to Adobe cloud storage](administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
       * [Create and edit business rules](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
       * [Configure custom localization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
       * [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)
@@ -2679,6 +2680,7 @@ feature-set: Workfront
   * [Acquire and install apps from Adobe Exchange](/help/quicksilver/app-builder/install-apps-on-exchange.md)
   * [Create custom applications for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md)
 * {hide-from-toc} [Hidden test document](hidden-test.md)
+* {hide-from-toc} [Hide 2](hidden-test-2.md)
 
 
 <!--

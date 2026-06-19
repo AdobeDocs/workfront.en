@@ -22,7 +22,7 @@ You don't need to know the Workfront API or how MCP servers work to use the Work
 
 >[!IMPORTANT]
 >
->Currently, the Workfront MCP server is available only to customers in the US region for customers using AWS.
+>Currently, the Workfront MCP server is available only to customers using AWS.
 
 ## What an MCP server is
 

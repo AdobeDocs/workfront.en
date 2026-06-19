@@ -16,7 +16,7 @@ Before you can connect an AI agentic platform to Workfront, a Workfront administ
 
 >[!IMPORTANT]
 >
->Currently, the Workfront MCP server is available only to customers using AWS. Customers that use GCP or Azure will be able to use this functionality in the near future.
+>Currently, the Workfront MCP server is available only to customers using AWS. Customers that use GCP or Azure will be able to use Workfront MCP functionality in the near future.
 
 ## Supported AI agentic platforms
 
@@ -65,7 +65,7 @@ You connect to Workfront once per [!DNL Claude] account. The connection authenti
 
 >[!IMPORTANT]
 >
->Currently, the Claude Connector only supports connecting to the Workfront MCP server in the US region.  To connect to a Workfront instance in the EU region, see [Connect to Claude desktop with a URL](#connect-to-claude-desktop-with-a-url) in this article.
+>Currently, the Claude Connector only supports connecting to the Workfront MCP server in the US region.  To connect to a Workfront instance in the EU region, see [Connect to Claude with a URL](#connect-to-claude-with-a-url) in this article.
 
 +++ Expand to view step-by-step instructions for connecting Workfront to [!DNL Claude].
 
@@ -285,6 +285,4 @@ Both your Workfront administrator and the administrator for your AI agentic plat
 No. Your Workfront instance must be enabled on Adobe Identity Management System (IMS) to use the Workfront MCP server. If you're not sure whether your instance is enabled on IMS, contact your Workfront administrator.
 
 +++ 
-
-
 
