@@ -23,6 +23,8 @@ Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage 
 
 The files in Adobe Cloud Drive are the same files you see in Workfront and Frame.io, so changes you make on your desktop are available to your team in both products.
 
+[View a video overview of the functionality available in Adobe Cloud Drive.](https://video.tv.adobe.com/v/3492492){target="_blank"}
+
 For more information about the storage that Adobe Cloud Drive connects to, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## What you can do with Adobe Cloud Drive
