@@ -134,7 +134,13 @@ For Workfront Planning API specifications, see the [Workfront Planning API](http
 >Production fast release: June 11, 2026
 >Production for everyone: July 16, 2026
 
+
 You can now adjust individual record permissions to control who can manage them within a record type. 
+
+By default, users inherit record permissions from the workspace and record type. You can now override inherited permissions on specific records to grant View or Manage access to a subset of users. Permission overrides can be applied to individual records or updated in bulk across multiple records.
+
+<!-- 
+Laurel asked for this to be replaced with the above: 
 
 Users inherit record permissions from the workspace and record type by default. To give only select users with record type permissions Manage permissions to only certain records, you can disable inherited permissions on select records and grant only those users Manage access to those records. You can adjust permissions for one record, or for multiple records at the same time, in bulk.
 
@@ -142,6 +148,7 @@ You can give users the following permissions levels:
 
 * View 
 * Manage 
+-->
 
 >[!NOTE]
 >
