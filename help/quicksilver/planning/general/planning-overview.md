@@ -55,9 +55,9 @@ this article is linked to the WF Planning landing page - do not change URL or mo
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>The information in this article refers to Adobe Workfront with Workfront Planning. Refer to this article when your company purchased an Adobe Workfront Workflow package in addition to an Adobe Workfront Planning package. 
 >
->For a list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+>For information about Adobe Workfront Planning (without a Workfront Workflow package), see [Adobe Workfront Planning overview](/help/quicksilver/planning/manage-planning-sta/planning-only-overview.md). 
 
 This article contains general information about Workfront Planning. 
 
