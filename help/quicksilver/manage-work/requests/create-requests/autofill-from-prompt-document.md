@@ -44,7 +44,7 @@ This functionality is available when creating a request in the Workfront Request
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront or Workflow package</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ Remove me October 2026
 * Your organization must have migrated to Adobe IMS (Identity Management System)
 * The Adobe Unified Experience must be enabled
 -->
-* Your organization must have a Select, Prime, or Ultimate Workfront plan
+* Your organization must have a Select, Prime, or Ultimate Workfront or Workflow package
 * Adobe must have a signed Adobe Gen AI agreement on file
 
    For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in the article AI Assistant overview.
@@ -104,11 +104,19 @@ Consider the following when using Form Fill powered by AI
 >
 >Form Fill powered by AI is enabled at the organization level, and cannot be enabled or disabled for specific users or access levels.
 
+For information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md). 
+
+<!--
+
+This should point to the System Preferences article, since it's not a user function: 
+
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
 1. Click **System**, then under System, click **Preferences**.
 1. In the AI preference section, turn on the **Enable AI** setting.
 1. Turn on the **AI Form Fill** setting.
 1. To disable Form Fill powered by AI, turn off **AI Form Fill**.
+
+-->
 
 ## Get suggestions from a text prompt
 

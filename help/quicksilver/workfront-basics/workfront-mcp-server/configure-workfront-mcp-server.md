@@ -16,7 +16,7 @@ Before you can connect an AI agentic platform to Workfront, a Workfront administ
 
 >[!IMPORTANT]
 >
->Currently, the Workfront MCP server is available only to customers using AWS. Customers that use GCP or Azure will be able to use this functionality in the near future.
+>Currently, the Workfront MCP server is available only to customers using AWS. Customers that use GCP or Azure will be able to use Workfront MCP functionality in the near future.
 
 ## Supported AI agentic platforms
 
@@ -285,6 +285,4 @@ Both your Workfront administrator and the administrator for your AI agentic plat
 No. Your Workfront instance must be enabled on Adobe Identity Management System (IMS) to use the Workfront MCP server. If you're not sure whether your instance is enabled on IMS, contact your Workfront administrator.
 
 +++ 
-
-
 

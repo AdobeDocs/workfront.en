@@ -34,7 +34,7 @@ topic_v2:
 <!--leave the choice value information in yellow till January 2026-->
 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -153,7 +153,8 @@ You must consider the following before making changes to a field's configuration
 * You can edit the configuration of the following field elements, after you save the field:
 
     * The Name or the Description of any field
-    * The Options of a Single-select or a Multi-select field.
+    * The Options of a Single-select or a Multi-select field <span class="preview">and their default choices</span>.
+    * <span class="preview">The default choices of a People field.</span>
     * The expression of a Formula field.
 
     >[!WARNING]

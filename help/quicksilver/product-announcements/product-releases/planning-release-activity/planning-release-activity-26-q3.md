@@ -23,6 +23,19 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Add default choices for select and People type fields 
+
+>[!NOTE]
+>
+>Preview: June 18, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
+
+When you create a single-, multi-select field or a People type field, you can now indicate a default value for these fields. The default values will always be applied when the field is visible on a record.  
+
+You can change the default settings of the field after it is saved. You can replace the default values of the fields when working with records.  
+
+For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
 
 ## Interface improvements in the table view
 
@@ -39,6 +52,8 @@ We have updated the look and feel of the table view for the following areas in W
 * All connected record type pages, except for Projects 
 
 In addition to some navigation changes and design improvements, some improvements in this update include: 
+
+* The addition of an aggregation row at the bottom of the table that summarizes number, currency, percentage, and some formula fields using the following aggregators: SUM, AVG, MAX, MIN.
 
 * A simpler date format with fewer format types when adding a Date field. 
 
@@ -121,7 +136,13 @@ For Workfront Planning API specifications, see the [Workfront Planning API](http
 >Production fast release: June 11, 2026
 >Production for everyone: July 16, 2026
 
+
 You can now adjust individual record permissions to control who can manage them within a record type. 
+
+By default, users inherit record permissions from the workspace and record type. You can now override inherited permissions on specific records to grant View or Manage access to a subset of users. Permission overrides can be applied to individual records or updated in bulk across multiple records.
+
+<!-- 
+Laurel asked for this to be replaced with the above: 
 
 Users inherit record permissions from the workspace and record type by default. To give only select users with record type permissions Manage permissions to only certain records, you can disable inherited permissions on select records and grant only those users Manage access to those records. You can adjust permissions for one record, or for multiple records at the same time, in bulk.
 
@@ -129,6 +150,7 @@ You can give users the following permissions levels:
 
 * View 
 * Manage 
+-->
 
 >[!NOTE]
 >
