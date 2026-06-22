@@ -68,9 +68,9 @@ Adobe Cloud Drive uses visual indicators to show file synchronization status. Th
 | Status | File meaning | Folder meaning |
 |---|---|---|
 | Online only | File is synced but only available online. | All files inside are available online. |
-| Syncing | File is uploading or downloading. | At least one file in the folder is syncing. |
+| Syncing | Latest updates to the file are syncing to the local cache or to Adobe cloud storage. | At least one file in the folder is syncing. |
 | Available offline | File is synced and available offline. | At least one file in the folder is available offline. |
-| Pinned (Always Keep on Device) | File is synced and always kept offline. Adobe Cloud Drive doesn't purge pinned content automatically. | All files in the folder are downloaded and available offline. |
+| Pinned (Always Keep on Device) | File is synced and always kept offline. Adobe Cloud Drive doesn't purge pinned content automatically. | All files in the folder are in local cache and available offline. |
 | Read only | File is read only. | Folder is read only. |
 | Sync error | File can't be synced. Hover over the icon for details. | Folder can't be synced. Hover over the icon for details. |
 | Sync excluded | File can't be synced due to unsupported type or name. | Folder can't be synced due to unsupported name. |
@@ -79,9 +79,9 @@ Adobe Cloud Drive uses visual indicators to show file synchronization status. Th
 
 | Status | File meaning | Folder meaning |
 |---|---|---|
-| Available offline (no icon) | File is synced and available offline. | All files are downloaded and available offline. |
+| Available offline (no icon) | File is synced and available offline. | All files are available offline. |
 | Online only | File is synced and available online only. | At least one file in the folder is online only. |
-| Syncing | File is uploading or downloading. | Folder content is uploading or downloading. |
+| Syncing | Latest updates to the file are syncing to the local cache or to Adobe cloud storage. | Folder content is syncing. |
 | Sync error | File can't update or sync. Hover over the icon for details. | Folder can't update or sync. Hover over the icon for details. |
 | Sync excluded | File is excluded from sync. | Folder is excluded from sync. |
 | Read only | File is read only. | Folder is read only. |

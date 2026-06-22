@@ -37,7 +37,7 @@ For information about working with Adobe Cloud Drive, see [Use Adobe Cloud Drive
 
 ### Storage
 
-* Files cached locally use disk space on your device.
+* Files saved in Adobe Cloud Drive locally use disk space on your device.
 * Cloud-only files don't use local storage.
 * Remove offline access for files you no longer need. For more information, see [Remove offline access to free up space](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md#remove-offline-access-to-free-up-space) in [Use Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md).
 

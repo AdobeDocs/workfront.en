@@ -76,7 +76,7 @@ To make sure Adobe Cloud Drive can reach the services it depends on, allow the n
 
 ## Download the installer
 
-1. Go to [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
+1. Go to [Adobe Software Distribution](https://experience.adobe.com/#/downloads).
 
 1. Sign in with your Adobe ID.
 1. In the **General** downloads list, locate **Adobe Cloud Drive**.
@@ -98,8 +98,7 @@ Use the procedure for your operating system.
 ### Install on macOS
 
 1. Open the downloaded `.dmg` file.
-
-1. Open **Applications**, then launch **Adobe Cloud Drive**.
+1. Double-click the install icon that appears.
 1. Follow the on-screen setup wizard.
 
 1. When prompted, sign in with your Adobe ID.

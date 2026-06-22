@@ -19,9 +19,9 @@ role_v2:
 ---
 # Adobe Cloud Drive overview
 
-Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer. Workfront projects appear as folders, and you can open, edit, and save files using any desktop application, Adobe or non-Adobe, as long as Adobe Cloud Drive keeps your work in sync with Adobe cloud storage.
+Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer. Workfront projects appear as folders, and you can open, create, edit, and save files directly to Workfront projects on Adobe cloud storage, using any desktop application.
 
-The files in Adobe Cloud Drive are the same files you see in Workfront and Frame.io, so changes you make on your desktop are available to your team in both products.
+The files in Adobe Cloud Drive are the same files you see in Workfront and Frame.io, so changes you make on your desktop are available in connected Workfront projects in both products.
 
 [View a video overview of the functionality available in Adobe Cloud Drive.](https://video.tv.adobe.com/v/3492492){target="_blank"}
 
@@ -30,9 +30,9 @@ For more information about the storage that Adobe Cloud Drive connects to, see [
 ## What you can do with Adobe Cloud Drive
 
 * Access projects from Adobe cloud storage as folders in Finder (Mac) or File Explorer (Windows).
-* Open and edit files in Adobe Creative Cloud apps, Microsoft Office, or any application installed on your computer.
-* Save changes locally and let Adobe Cloud Drive sync them to Adobe cloud storage automatically.
-* Download files for offline access when you're traveling or working without a network connection.
+* Open, create, and edit files in Adobe Creative Cloud apps, Microsoft Office, or any application installed on your computer.
+* Save changes locally and let Adobe Cloud Drive sync them to projects on Adobe cloud storage.
+* Mark files for offline access when you're traveling or working without a network connection. When your connection is restored, the updates sync to the file in the project, and you can then remove the files from your local cache to free up disk space.
 * Collaborate with team members on the same project files.
 
 ## Who can use Adobe Cloud Drive
