@@ -53,6 +53,8 @@ We have updated the look and feel of the table view for the following areas in W
 
 In addition to some navigation changes and design improvements, some improvements in this update include: 
 
+* The addition of an aggregation row at the bottom of the table that summarizes number, currency, percentage, and some formula fields using the following aggregators: SUM, AVG, MAX, MIN.
+
 * A simpler date format with fewer format types when adding a Date field. 
 
 * Ability to select a time zone visible to all users, regardless of their profile's time zone, when adding a Date field. 
