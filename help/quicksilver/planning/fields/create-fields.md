@@ -45,11 +45,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -355,7 +355,10 @@ You can use a multi-select field to capture additional information in any format
     Or
 
    Click **Custom** to select a custom color using a color picker or a Hex code. 
-1. Click outside the color box to close it.    
+1. Click outside the color box to close it.   
+    
+1. <span class="preview">In the **Default choices** field, select the choices that you want to display in this field by default. You can choose more than one choice. Users can remove the default choices as they update this field.</span>
+
 1. Click **Create**. 
 
     The new multi-select field is added as a column to the record type, and its values can be associated with records. 
@@ -403,6 +406,8 @@ Single-select fields capture additional information in any format by selecting o
 
     Click **Custom** to select a custom color using a color picker or a Hex code. 
 
+1. <span class="preview">In the **Default choice** field, select the choice that you want to display in this field by default. You can choose only one choice. Users can remove the default choice as they update this field. </span>
+
 1. Click outside the color box to close it.
 1. Click **Create**. 
 
@@ -437,18 +442,41 @@ You can use a date field to capture additional information in date and time form
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
      * **Date Format**: The type of date format you want to display in this field. <!--update this casing - submitted bug for it-->
         
-        Select from the following formats:
-        * **Locale**: Matches the locale of your browser.
-        * **Standard**: 05/16/2023
-        * **Long**: May 16, 2023
-        * **European**: 16/05/2023
-        * **ISO**: 2023-05-16
-     * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field. 
+        Depending on the environment in which you access fields, do the following:
+
+        * In the Production environment: 
+
+            * Select from the following formats:
+                * **Locale**: Matches the locale of your browser.
+                * **Standard**: 05/16/2023
+                * **Long**: May 16, 2023
+                * **European**: 16/05/2023
+                * **ISO**: 2023-05-16
+        * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field. 
     
-        Select from the following options:
+            Select from the following options:
         
-        * **24hr**: For example: 18:00
-        * **12hr**: For example: 6:00 PM
+            * **24hr**: For example: 18:00
+            * **12hr**: For example: 6:00 PM
+
+        <div class="preview">
+
+        * In the Preview environment: 
+
+            * Select from the following formats:
+                * **Short**: 6/9/26
+                * **Medium**: Jun 9, 2026
+                * **Long** June 9, 2026
+        * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field. 
+    
+            Select from the following options:
+        
+            * **24hr**: For example: 18:00
+            * **12hr**: For example: 6:00 PM
+        * **Use the same timezone for all collaborators**, then select a **Timezone** <!--(************** logged bug to change this to "Show the same time zone to all users" ****************)-->: Select this if you want to show the same time stamp for all people viewing the field, regardless of their user's time zone. The time zone selected is added to the column header for this field. 
+
+        </div>
+    
 
 1. Click **Create**. 
 
@@ -668,7 +696,17 @@ You can use the People field type to add a user to a record. This is a type-ahea
     >[!NOTE]
     >
     >    If you select Allow multiple values, and multiple users are stored on the records the field is attached to, then you can no longer deselect the setting in the future, when editing this field. 
+
+1. <span class="preview">In the **Default user** or **Default users** field, select the users that you want to display in this field by default. </span>
     
+    <span class="preview">You can choose more than one user if you also selected the **Allow multiple values** setting. </span>
+    
+    <span class="preview">Users can remove the default users as they update this field.</span>
+
+    >[!TIP]
+    >
+    ><span class="preview">Deactivating users chosen as default users in this setting preserves the users's names as the default. It does not remove the deactivated user from the field value and there is no indication to others that the user was deactivated.</span>    
+
 1. Click **Create**.
 
     The new People-type field is added as a column to the record type, and its values can be associated with records.   
@@ -855,6 +893,7 @@ You cannot manually modify the value of a Record ID field.
 1. Click **Create**.
 
     The new Record ID-type field is added as a column to the record type and its values are prefilled with an alpha-numeric value.  
+
 
 
 <!--

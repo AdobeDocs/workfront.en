@@ -30,7 +30,7 @@ topic_v2:
 # Create records
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -282,8 +282,8 @@ For information about editing record information, see [Edit records](/help/quick
         >
         >When you add a new record after the last record in a grouping or subgrouping, Workfront automatically populates the fields included in the groupings. You can manually edit these fields, if needed, and the records might be removed from the grouping.  
 
-    * Click **Shift + Enter** on your keyboard from any column or row of the table. This adds an empty row under the record you start from. 
-    * Hover over a record's primary field, click the **More** menu ![More menu](assets/more-menu.png) to the right of the field, then click **Insert record above** or **Insert record below**. 
+    * Click **Shift + Enter** on your keyboard from any column or row of the table. This adds an empty row under the record you start from. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
+    * Hover over a record's primary field, click the **More** menu ![More menu](assets/more-menu.png) to the right of the field, then click **Insert record above** or **Insert record below**. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
 
     ![Adding a new campaign in table row](assets/adding-a-new-campaign-in-table-row.png)
 

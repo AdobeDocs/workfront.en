@@ -45,7 +45,7 @@ recommendations: noDisplay, noCatalog
 # Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration
 
 <!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -408,7 +408,7 @@ When AEM object types (assets and content fragments) are connected to GenStudio 
 
 ### Request forms and automations in the GenStudio record type
 
-* You can add request forms to a GenStudio record type in Workfront Planning. 
+* You can add request forms to a GenStudio record type in Workfront Planning. You can add Planning connection fields on a request form associated with a GenStudio workspace record type.
 
     For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 * You can configure automations for a GenStudio record type in Workfront Planning.
@@ -419,12 +419,16 @@ When AEM object types (assets and content fragments) are connected to GenStudio 
 
 When your organization has an integration between Workfront Planning and Adobe GenStudio, you can connect Planning record types to GenStudio Brands from any record type in any workspace in Workfront Planning. 
 
-Brands are connected by default to the following GenStudio workspace record types:
+Consider the following: 
 
-* Products
-* Personas
+* Brands are connected by default to the following GenStudio workspace record types:
 
-Brands are available for manually connecting to all other GenStudio workspace record types, or record types from all other workspaces you have permissions to manage. 
+    * Products
+    * Personas
+
+* Brands are available for manually connecting to all other GenStudio workspace record types, or record types from all other workspaces that you have permissions to manage. 
+
+* After connecting Brands with a Planning or GenStudio record type, you can add the Brands connection field to a request form associated with the record type. 
 
 ## The Preview environment
 

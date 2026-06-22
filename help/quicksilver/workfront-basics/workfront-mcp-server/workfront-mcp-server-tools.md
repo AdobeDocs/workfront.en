@@ -38,7 +38,7 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 ### Documents
 
 | Title | Tool name | What it does | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Find document version by name | `approvals_find_document_version_by_name` | Looks up a document's current version ID by filename. Supports partial matches. | Read |
 | Get document by version ID | `approvals_get_document_by_version_id` | Fetches document details (name, size, upload date, uploader) for a known document version ID. | Read |
 | Get documents by project | `approvals_get_documents_by_project` | Lists documents inside a Workfront project, with each document's current version ID. | Read |
@@ -58,11 +58,15 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 ### Approval workflows
 
 | Title | Tool name | What it does | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Get approval workflow info | `approvals_get_approval_info` | Returns the current approval workflow (stages, participants, status) for a document version. | Read |
 | Create or update approval workflow | `approvals_create_or_update_approval_workflow` | Creates or updates the approval workflow stages for a document version. Supports linear and parallel (graph) stage dependencies. | Write |
 | Create approval from template | `approvals_create_approval_from_template` | Creates an approval workflow on a document using an existing template. | Write |
 | Delete approval stage | `approvals_delete_approval_stage` | Deletes a single stage from an approval workflow by name or position. Only not-started stages can be deleted. | Write |
+
+<!--
+| Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |
+-->
 
 <!--
 | Request document approval | `approvals_request_document_approval` | Opens a guided form for requesting approval on a document version (title, approvers/reviewers, optional due date and message). | Write |
@@ -71,14 +75,14 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 ### Reminders
 
 | Title | Tool name | What it does | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Send reminder to participants | `approvals_send_reminder_to_participants` | Sends reminder emails to specific participants in an approval stage. Works only for started, not-completed, not-locked stages. | Write |
 | Send reminder to undecided participants | `approvals_send_reminder_to_undecided` | Sends reminder emails to all undecided participants (notified, opened, or commented) in an approval stage. | Write |
 
 ### Approval templates
 
 | Title | Tool name | What it does | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | List approval templates | `approvals_list_templates` | Lists approval templates available in this Workfront instance. Supports filtering by creator, participant, and sorting by usage. | Read |
 | Search template by name | `approvals_search_template_by_name` | Finds approval templates by name (case-insensitive partial match). | Read |
 | Create approval template | `approvals_create_template` | Creates a new approval template with linear or graph-based stage dependencies. | Write |
@@ -87,7 +91,7 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 ### Lookups and users
 
 | Title | Tool name | What it does | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Get current user | `approvals_get_current_user` | Returns the calling user's Workfront identity, including name, user ID, home team name, and home team ID. | Read |
 | Find user by name | `approvals_find_user_by_name` | Looks up a Workfront user's ID by name (fuzzy or partial match). Returns name, ID, email, title, and avatar URL. | Read |
 | Find team by name | `approvals_find_team_by_name` | Looks up a Workfront team's ID by name (fuzzy or partial match). | Read |
@@ -97,10 +101,14 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 
 ## Planning tools
 
+>[!IMPORTANT]
+>
+>* To use MCP with Workfront Planning, your organization must be on a Workfront package that includes Adobe Workfront Planning.
+
 ### Workspaces
 
 | Title | Tool name | What it does | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Get workspace | `planning_get_workspace` | Retrieves full details of a workspace by ID or alias. | Read |
 | Get workspace list | `planning_get_workspace_list` | Lists all available workspaces with cursor-based pagination. | Read |
 | Create workspace | `planning_create_workspace` | Creates a new empty workspace to organize record types, fields, and data. | Write |
@@ -114,7 +122,7 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 ### Record types
 
 | Title | Tool name | What it does | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Get record type | `planning_get_record_type` | Fetches full details of a record type including its fields and views. | Read |
 | Create record types | `planning_create_record_types` | Creates one or more record types within a workspace section. | Write |
 | Update record type | `planning_update_record_type` | Partially updates a record type's name, description, icon, or color. | Write |
@@ -130,7 +138,7 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 ### Records
 
 | Title | Tool name | What it does | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Get record | `planning_get_record` | Retrieves full details of a single record by ID. | Read |
 | Search records | `planning_search_records` | Searches and filters records within a record type. | Read |
 | Bulk record actions | `planning_bulk_record_actions` | Creates, updates, deletes, or restores multiple records in a single request. | Write |
@@ -143,7 +151,7 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 ### Fields
 
 | Title | Tool name | What it does | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Get field | `planning_get_field` | Retrieves full details and value schema for a field by ID. | Read |
 | Create fields | `planning_create_fields` | Adds one or more fields (columns) to a record type. | Write |
 | Update field | `planning_update_field` | Partially updates a field's name, description, options, or configuration. | Write |
@@ -152,7 +160,7 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 ### Views
 
 | Title | Tool name | What it does | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Get view | `planning_get_view` | Returns complete details of a view by ID. | Read |
 | Create view | `planning_create_view` | Creates a new table, timeline, or calendar view for a record type. | Write |
 | Update view | `planning_update_view` | Partially updates an existing view's configuration, filters, or sorting. | Write |
@@ -163,14 +171,14 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 ### Templates
 
 | Title | Tool name | What it does | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Get template list | `planning_get_template_list` | Lists all available workspace templates with summary info. | Read |
 | Get template | `planning_get_template` | Retrieves full details of a specific template by ID. | Read |
 
 ### Search & utilities
 
 | Title | Tool name | What it does | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Search resources | `planning_search_resources` | Searches across workspaces, record types, and views by name. | Read |
 | Search sharing data | `planning_search_sharing_data` | Finds users, groups, teams, roles, and companies by name for sharing and permissions. | Read |
 | Search users | `planning_search_users` | Searches for users with pagination support. | Read |
@@ -180,7 +188,7 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 Workflow tools are the general-purpose actions the AI agentic platform uses to work with any Workfront object — projects, tasks, issues, hours, assignments, programs, portfolios, and so on.
 
 | Title | Tool name | What it does | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Search objects | `workflow_search_any_object` | Searches for Workfront objects with flexible filter parameters, ordering, and pagination. | Read |
 | Create object | `workflow_create_any_object` | Creates a new Workfront object such as a project, task, issue, hour, assignment, program, or portfolio. | Write |
 | Update object | `workflow_update_any_object` | Updates fields on an existing Workfront object. | Write |

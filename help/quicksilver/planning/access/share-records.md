@@ -35,7 +35,7 @@ topic_v2:
 this will NOT be available in Preview ever - find a way to add this in this article that is prominent
 -->
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
@@ -120,6 +120,10 @@ maybe use the Share record types as example here and touch on the same points: h
 <!--checking on the below with Lilit-->
 
 * You can share records with the following entities: people, groups, teams, companies, or job roles.
+* The following limitations exist:
+
+   * You cannot share more than 100 records at a time. 
+   * You cannot share records with more than 100 entities. 
 * If you restrict permissions to a record, users no longer view that record and the values for its lookup fields anywhere in the system where that record displays. 
 * Workfront checks record permissions in connections up to 5 records deep, ensuring users only see records shared with them.
 * You can grant the following levels of permissions to a record: 

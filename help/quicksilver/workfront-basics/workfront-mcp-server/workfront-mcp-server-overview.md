@@ -10,8 +10,6 @@ feature: Get Started with Workfront
 
 # Adobe Workfront MCP server overview
 
-{{highlighted-preview-article-level}}
-
 The [!DNL Adobe Workfront] MCP server connects your Workfront instance to an AI agentic platform such as [!DNL Claude] or [!DNL ChatGPT]. From the AI agentic platform, you can find, create, update, and manage Workfront items by making natural-language requests.
 
 For example, you can ask:
@@ -24,7 +22,7 @@ You don't need to know the Workfront API or how MCP servers work to use the Work
 
 >[!IMPORTANT]
 >
->Currently, the Workfront MCP server is available only to customers in the US region for customers using AWS.
+>Currently, the Workfront MCP server is available only to customers using AWS.
 
 ## What an MCP server is
 

@@ -21,7 +21,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>26.5 (May 14, 2026)</li><li>26.6 (June 11, 2026)</li><li>26.7 (July 16, 2026)</li></ul>|<ul><li>26.7 (July 16 15, 2026)</li></ul>|
+>|<ul><li>26.5 (May 14, 2026)</li><li>26.6 (June 11, 2026)</li><li>26.7 (July 15, 2026)</li></ul>|<ul><li>26.7 (July 16, 2026)</li></ul>|
 >
 >Note that for the final release of each quarter (26.7 this quarter), users on the fast release schedule will receive the release one day early (July 15 , 2026).
 >
@@ -29,13 +29,49 @@ Live webinars are held for each quarterly release - these highlight the new feat
 
 ## Adobe Workfront enhancements
 
+* [AI enhancements](#ai-enhancements)
 * [Administrator enhancements](#administrator-enhancements)
 * [Documents enhancements](#documents-enhancements)
 * [Financial Management enhancements](#financial-management-enhancements)
 * [Home enhancements](#home-enhancements)
+* [Project enhancements](#project-enhancements)
 * [Reporting enhancements](#reporting-enhancements)
 * [Requests enhancements](#requesting-enhancements)
 * [Other enhancements](#other-enhancements)
+
+### AI enhancements
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Updates to the Workfront MCP connector</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>We've updated the Workfront MCP Connector:<ul><li>Claude can now connect to the MCP connector.</li><li>You can now use the MCP connector from instances in the EU <!--or from instances that do not use AWS-->.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Connect your AI agentic platform to Workfront with the Workfront MCP server</a>
+                <p>The new Workfront MCP server connects Workfront to a supported AI agentic platform, such as Claude or ChatGPT, so you can find, create, update, and manage Workfront items through natural-language conversation. Currently available only to customers in the US region using AWS.</p>
+            </td>
+            <td><p>May 28, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
 
 ### Administrator enhancements
 
@@ -49,6 +85,24 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Preview</strong></td>
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">View change history for Workfront objects</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>To make it easier for you to see the changes that have occurred in one central list, we've create the Change History List. This list displays information such as the object, the operation, and the source of the change (such as a user or the Workfront system).</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">New system preference to convert legacy storage portfolios to Adobe cloud storage</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Workfront administrators can now convert legacy storage portfolios to Adobe cloud storage directly from System Preferences. To convert portfolios, select them in the new Select portfolios to convert to enterprise storage field and save the page.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Rich Text replacing Text with Formatting field type</a>
@@ -100,6 +154,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Preview</strong></td>
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Request approval on Adobe Express templates with Workfront and Frame.io</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>The Adobe Express and Workfront with Frame.io integration brings structured review and approval to content created in Adobe Express. Designers can map a Workfront approval workflow template to an Express template so that, when the template is remixed, an approval is automatically required before publishing—routing the asset through the pre-configured Workfront workflow and Frame.io viewer.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>June 15, 2026</p></td>
+            <td><p>June 15, 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Print summary for documents in the new Documents area</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -187,6 +250,42 @@ Live webinars are held for each quarterly release - these highlight the new feat
     </tbody>
 </table>
 
+
+
+### Project enhancements
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Convert a legacy storage task to an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now convert a legacy storage task to an Adobe cloud storage project.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 12, 2026</p></td>
+            <td><p>June 12, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Use a legacy storage template to create an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now use a legacy storage template to create an Adobe cloud storage project in some scenarios.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+
 ### Reporting enhancements
 
 <table>
@@ -199,6 +298,33 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Preview</strong></td>
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Add multiple Power BI IP address ranges to the Data Connect allowlist at once</a> <p>[!BADGE Off schedule]{type=Neutral}
+                <p>Workfront administrators connecting Microsoft Power BI to Workfront Data Connect can now add an entire region's set of Azure IP address ranges to the allowlist in a single step.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Sort the Canvas Dashboards list</a> 
+                <p>You can now sort the Canvas Dashboards list by the Name, Description, Created by, or Create date columns. Click a column header to sort the list by that column, then click the same header again to reverse the sort direction. By default, the list is sorted by Name from A to Z. Your sort order is preserved when you switch between tabs in the Canvas Dashboards list.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>July 15, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Changes to Actual Hours in custom formulas</a> <p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Existing custom formulas using <b>actualWorkRequired</b> (Legacy Actual Hours) were migrated to use <b>actualWorkRequiredDouble</b> (Actual Hours) instead. <b>actualWorkRequired</b> can no longer be used in calculations and formulas.</p>
+            </td>
+            <td><p>June 1, 2026</p></td>
+            <td><p>June 1, 2026</p></td>
+            <td><p>June 1, 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Custom currency data fields in Canvas Dashboard reports</a>
@@ -265,6 +391,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Preview</strong></td>
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Updated look and feel for comment notification emails</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -273,15 +400,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>N/A</p></td>
             <td><p>Phased rollout beginning July 16, 2026</p></td>
             <td><p>Phased rollout beginning July 16, 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Connect your AI agentic platform to Workfront with the Workfront MCP server</a>
-                <p>The new Workfront MCP server connects Workfront to a supported AI agentic platform, such as Claude or ChatGPT, so you can find, create, update, and manage Workfront items through natural-language conversation. Currently available only to customers in the US region using AWS.</p>
-            </td>
-            <td><p>May 28, 2026</p></td>
-            <td><p>June 11, 2026</p></td>
-            <td><p>July 16, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -375,3 +493,5 @@ For information about the maintenance updates made during the Third Quarter 2026
 ### Training updates
 
 Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+
+
