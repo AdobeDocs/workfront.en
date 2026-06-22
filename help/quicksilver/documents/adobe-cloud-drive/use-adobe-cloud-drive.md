@@ -65,27 +65,27 @@ Adobe Cloud Drive uses visual indicators to show file synchronization status. Th
 
 ### File status indicators on Windows
 
-| Status | File meaning | Folder meaning |
-|---|---|---|
-| Online only | File is synced but only available online. | All files inside are available online. |
-| Syncing | Latest updates to the file are syncing to the local cache or to Adobe cloud storage. | At least one file in the folder is syncing. |
-| Available offline | File is synced and available offline. | At least one file in the folder is available offline. |
-| Pinned (Always Keep on Device) | File is synced and always kept offline. Adobe Cloud Drive doesn't purge pinned content automatically. | All files in the folder are in local cache and available offline. |
-| Read only | File is read only. | Folder is read only. |
-| Sync error | File can't be synced. Hover over the icon for details. | Folder can't be synced. Hover over the icon for details. |
-| Sync excluded | File can't be synced due to unsupported type or name. | Folder can't be synced due to unsupported name. |
+| Icon | Status | File meaning | Folder meaning |
+| --- | --- | --- | --- |
+| ![Online only icon](assets/acd-windows-online-only.png) | Online only | File is synced but only available online. | All files inside are available online. |
+| ![Syncing icon](assets/acd-windows-syncing.png) | Syncing | Latest updates to the file are syncing to the local cache or to Adobe cloud storage. | At least one file in the folder is syncing. |
+| ![Available offline icon](assets/acd-windows-available-offline.png) | Available offline | File is synced and available offline. | At least one file in the folder is available offline. |
+| ![Pinned icon](assets/acd-windows-pinned.png) | Pinned (Always Keep on Device) | File is synced and always kept offline. Adobe Cloud Drive doesn't purge pinned content automatically. | All files in the folder are in local cache and available offline. |
+| ![Read only icon](assets/acd-windows-read-only.png) | Read only | File is read only. | Folder is read only. |
+| ![Sync error icon](assets/acd-windows-sync-error.png) | Sync error | File can't be synced. Hover over the icon for details. | Folder can't be synced. Hover over the icon for details. |
+| ![Sync excluded icon](assets/acd-windows-sync-excluded.png) | Sync excluded | File can't be synced due to unsupported type or name. | Folder can't be synced due to unsupported name. |
 
 ### File status indicators on Mac
 
-| Status | File meaning | Folder meaning |
-|---|---|---|
-| Available offline (no icon) | File is synced and available offline. | All files are available offline. |
-| Online only | File is synced and available online only. | At least one file in the folder is online only. |
-| Syncing | Latest updates to the file are syncing to the local cache or to Adobe cloud storage. | Folder content is syncing. |
-| Sync error | File can't update or sync. Hover over the icon for details. | Folder can't update or sync. Hover over the icon for details. |
-| Sync excluded | File is excluded from sync. | Folder is excluded from sync. |
-| Read only | File is read only. | Folder is read only. |
-| Pinned (Always Keep on Device) | File is pinned to be available offline. Adobe Cloud Drive doesn't purge pinned content automatically. | Folder is pinned to be available offline. |
+| Icon | Status | File meaning | Folder meaning |
+| --- | --- | --- | --- |
+| (No icon) | Available offline | File is synced and available offline. | All files are available offline. |
+| ![Online only icon](assets/acd-mac-online-only.png) | Online only | File is synced and available online only. | At least one file in the folder is online only. |
+| ![Syncing icon](assets/acd-mac-syncing.png) | Syncing | Latest updates to the file are syncing to the local cache or to Adobe cloud storage. | Folder content is syncing. |
+| ![Sync error icon](assets/acd-windows-sync-error.png) | Sync error | File can't update or sync. Hover over the icon for details. | Folder can't update or sync. Hover over the icon for details. |
+| ![Sync excluded icon](assets/acd-windows-sync-excluded.png) | Sync excluded | File is excluded from sync. | Folder is excluded from sync. |
+| ![Read only icon](assets/acd-mac-read-only.png) | Read only | File is read only. | Folder is read only. |
+| ![Pinned icon](assets/acd-windows-pinned.png) | Pinned (Always Keep on Device) | File is pinned to be available offline. Adobe Cloud Drive doesn't purge pinned content automatically. | Folder is pinned to be available offline. |
 
 ### Error tooltips
 
