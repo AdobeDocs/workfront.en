@@ -1111,7 +1111,9 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
         <li>They are associated with a role or job title you specify.</li> 
         <li>They belong to the same group as the person using the field.</li> 
        </ul>
+       <p><span class="preview">When a system filter exists on the field, it is applied by default if you do not add a custom filter. A custom filter overrides the system filter.</span></p>
        <p>You must define the filter for the reference field you selected using Text Mode syntax. For information, see <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Edit a filter using text mode</a>.</p>
+       <p><span class="preview">Use dynamic filter syntax to narrow the list of items in this field based on the value of another field. For example, when you use <code>?portfolioID={portfolio}.{ID}</code> in a Project field filter and a Portfolio native field is on the custom form, the Project field shows only projects that are in the selected portfolio. If the Portfolio field is left blank, then all projects are available in the Project field.</span></p>
        <p><b>Note</b>:
        <ul> 
         <li>The filter option is only available when you reference a native typeahead field, such as Portfolio, Company, or Owner.</li>
