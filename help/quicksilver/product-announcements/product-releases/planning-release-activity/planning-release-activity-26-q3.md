@@ -23,6 +23,18 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Row color controls interface improvement
+
+>[!NOTE]
+>
+>Preview: June 22, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
+
+We have updated the look and feel of the Row colors control in the table view. 
+
+For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+
 ## Add default choices for select and People type fields 
 
 >[!NOTE]

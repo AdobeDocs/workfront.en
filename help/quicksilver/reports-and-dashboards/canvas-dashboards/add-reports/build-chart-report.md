@@ -315,8 +315,8 @@ This is a known limit, and we plan to address it as quickly as possible.
 
 The **Sections** drop-down in the **Build chart** section is designed to narrow down the choices in a field selector to make an object easier to find when building a table report. To start, you would select a base entity object.
 
-* **All Sections**: All object types in Workfront Workflow and Workfront Planning.
-* **Workfront Objects**: Native Workfront Workflow objects.
+* **All Sections**: All object types in Workfront and Workfront Planning.
+* **Workfront Objects**: Native Workfront objects.
 * **Planning Record Types**: Custom record types defined in Workfront Planning.
 
 ![Sections drop-down](assets/sections-dropdown.png)

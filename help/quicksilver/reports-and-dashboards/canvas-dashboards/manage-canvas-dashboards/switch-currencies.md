@@ -19,6 +19,12 @@ exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
 >* Azure
 >* Google Cloud Platform 
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
+
 ## Access Requirements
 
 +++ Expand to view access requirements for the functionality in this article. 
@@ -119,7 +125,7 @@ To change the currency type for the dashboard,
 
 ## Limitations
 
-The following table outines limitations when currencies are defined in the Exchanges Rates area in Setup.
+The following table outlines limitations when currencies are defined in the Exchanges Rates area in Setup.
 
 <table> 
 <tr>
@@ -140,7 +146,7 @@ The following table outines limitations when currencies are defined in the Excha
 <li>Assign a default currency to the dashboard (on creation or when editing the dashboard)</li>
 <li>See and use the dashboard-level currency toggle</li>
 <li>Lock a specific currency for view in a canvas chart, KPI, or table report</li>
-<li>Use Planning currency fields in a canvas chart, KPI, and table reports</li>
+<li>Use Planning currency fields in a canvas chart, KPI, and table reports <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
 </td> 
 </tr>
@@ -158,7 +164,7 @@ The following table outines limitations when currencies are defined in the Excha
 </td>
 <td><ul>
   <li>Use custom data currency fields in canvas chart, KPI, and table reports</li>
-  <li>Use Planning currency fields in a canvas chart, KPI, and table reports</li>
+  <li>Use Planning currency fields in a canvas chart, KPI, and table reports <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
 </td>
 </tr></table>
