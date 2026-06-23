@@ -10,3 +10,12 @@ hide: yes
 <!--
 Add to this article the  "Administrator experience" section in this document, after Lilit proof it: https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.aspx?sourcedoc=%7B0EC828A2-7D86-42B5-B262-C79017BCF02A%7D&file=Without%20pricing_WFP_Standalone_Documentation.docx&action=default&mobileredirect=true
 -->
+
+## Log in as another user
+
+## Configure custom quarters
+
+## Configure Customer Info
+
+## Configure your system's Preferences
+

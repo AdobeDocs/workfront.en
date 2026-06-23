@@ -1,13 +1,13 @@
 ---
-title: Manage Users in Adobe Workfront Planning
-description: This article describes how you can manage users and teams in Adobe Workfront Planning. 
+title: Manage Users in Adobe Workfront Planning as a standalone product
+description: This article describes how you can manage users and teams in Adobe Workfront Planning when Planning is purchased as a standalone product. 
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 ---
 
-# Manage Users in Adobe Workfront Planning
+# Manage Users in Adobe Workfront Planning as a standalone product
 
 This article describes functionality for customers who have purchased Adobe Workfront Planning, without an Adobe Workfront or Workflow package. 
 
@@ -20,6 +20,11 @@ Should we point above to another article that talks JUST about the licenses avai
 -->
 
 ## Manage users in Adobe Workfront Planning
+
+Users in Workfront Planning as a standalone product might have one of the following access levels:
+
+* Planning Administrator
+* Planning Standard 
 
 ## Manage teams in Adobe Workfront Planning
 
