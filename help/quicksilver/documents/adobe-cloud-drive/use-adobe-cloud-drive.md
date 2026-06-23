@@ -31,7 +31,8 @@ For information about installing Adobe Cloud Drive, see [Install Adobe Cloud Dri
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront version</td> 
-   <td><p>You must be on a version of Workfront that supports Adobe cloud storage. If your organization is not already on a supported version, contact your Adobe account representative.</p></td> 
+   <td><p>Workfront Ultimate</p>
+       <p>Workflow Ultimate</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
