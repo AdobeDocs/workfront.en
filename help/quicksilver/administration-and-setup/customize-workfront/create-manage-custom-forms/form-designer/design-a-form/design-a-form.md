@@ -157,40 +157,41 @@ Custom forms are limited to 500 fields. A counter on the bottom left displays ho
 
     Click **Save and Close**. 
 
-### Notes on field names and labels {#notes-on-field-names-and-labels}
+### Notes on field API names and labels {#notes-on-field-names-and-labels}
 
-The label is available for most fields. It's a descriptive label that appears above the field or widget on the custom form. You can change the label at any time.
+* The label is available for most fields. It's a descriptive label that appears above the field or widget on the custom form. You can change the label at any time.
 
->[!NOTE]
->
->Avoid using special characters in this label as they don't display correctly in reports.
+   >[!NOTE]
+   >
+   >Avoid using special characters in this label as they don't display correctly in reports.
 
-A name is required for every field. This name is how the system identifies the custom field when you add it to various areas throughout Workfront, such as reports, Home, and API interactions. When you are configuring the field or widget for the first time and you type the label, the Name field populates automatically to match it. The Label and Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.
+* An API name is required for every field. This name is how the system identifies the custom field when you add it to various areas throughout Workfront, such as reports, Home, and API interactions. When you are configuring the field or widget for the first time and you type the label, the Name field / <span class="preview">API Name field</span> populates automatically to match it. The Label and Name / <span class="preview">API Name field</span> fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.
 
-Each custom field name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form.
+* Each custom field API name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form.
 
->[!NOTE]
->
->Though it's possible to do so, we recommend that you don't change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront.
->For example, if you add the custom field to a report and later change its name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.
->
->We recommend that you don't type a name that is already used for built-in Workfront fields.
->
->We recommend that you don't use the period/dot character in the custom field name to prevent errors when using the field in different areas of Workfront.
+* Though it's possible to do so, we recommend that you don't change this API name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront.
 
-The following special characters are not supported in custom field labels and names.
+   For example, if you add the custom field to a report and later change its API name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.
 
-* \t
-* \n
-* \r
-* \f
-* `[`
-* `]`
-* (
-* )
-* :
-* `{`
-* `}`
+* <span class="preview">API names are read-only by default. To make the API name editable, click the **Edit** icon next to the **API Name**. Then, type **confirm** in the confirmation box and click **Rename field**. </span>
+
+* We recommend that you don't type an API name that is already used for built-in Workfront fields.
+
+* We recommend that you don't use the period/dot character in the custom field API name to prevent errors when using the field in different areas of Workfront.
+
+* The following special characters are not supported in custom field labels and API names.
+
+   * \t
+   * \n
+   * \r
+   * \f
+   * `[`
+   * `]`
+   * (
+   * )
+   * :
+   * `{`
+   * `}`
 
 ### Add text fields
 
