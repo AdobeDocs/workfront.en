@@ -621,7 +621,7 @@ When you display the table view, you can also view which field another user is e
 
 <div class="preview">
 
-## Manage the list view in the Preview environment
+## Manage the table view in the Preview environment
 
 <!--********** MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION ?????????*********-->
 
@@ -945,17 +945,15 @@ To add a grouping:
 
 ### Add row colors
 
-1. (Optional) Click **Row colors** to define conditions and choose configure different colors for table rows.
+1. (Optional) Click **Row colors** to define conditions and configure different colors for table rows.
 
-1. Click **Add color**, then search for a field then select it when it displays in the list. This is the field whose value you want to define the color of a row.
+1. Click **Add color**, then search for a field then select it when it displays in the list. This is the field whose value you want to define the color of a row or the Primary field.
 
     For example, to display campaigns with a status of Active in green, select **Status**, then choose a modifier and a value for the field. 
 
-    ![Row colors box with Active status selected and default color choice](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
-
 1. Click the drop-down menu for the color picker in the upper-left corner of the condition you selected, to pick the color for the condition, then click outside the color picker box to close it. 
 
-    ![Drop-down color picker menu in Row colors box highlighted](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+    ![Row colors box with Active status selected and default color choice](assets/row-colors-box-with-active-status-selected-default-color-choice-gtable.png)
 
 1. (Optional) Click **Add condition** to add more fields and values to the first set of conditions 
 
@@ -965,16 +963,27 @@ To add a grouping:
     
     For example, you can display campaigns in a Planning status in yellow by defining a new set of conditions. 
 
-    ![Row colors box with Active and Planning status custom colors](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+    ![Row colors box with Active and Planning status custom colors](assets/row-colors-box-with-active-and-planning-status-custom-colors-gtable.png)
+
+    >[!TIP]
+    >
+    >When you have two different fields selected, the last rule applies first for what colors will be applied to the rows.
+
 
 1. (Optional) Turn on the **Apply to the entire row** setting in the upper-right corner of the **Row colors** box. The entire row where the condition is met automatically displays in the selected color. 
 
     >[!NOTE]
     >
-    >If the **Apply to the entire row** setting is turned off, only the background of the primary field cell displays in the selected color. The setting is turned off by default.
+    >* If the **Apply to the entire row** setting is turned off, only the background of the primary field cell displays in the selected color. The setting is turned off by default.
     >
+    >* The Apply to the entire row setting is dimmed when you apply groupings to the table.
 
 1. Click outside the **Row colors** box to close it. The colors are applied automatically.
+
+    >[!TIP]
+    >
+    >If you chose to apply color just to a cell, only the Primary field is highlighted. 
+
 
 ### Enable the real-time presence indicator
 
