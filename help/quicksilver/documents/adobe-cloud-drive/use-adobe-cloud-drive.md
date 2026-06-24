@@ -31,8 +31,7 @@ For information about installing Adobe Cloud Drive, see [Install Adobe Cloud Dri
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront version</td> 
-   <td><p>Workfront Ultimate</p>
-       <p>Workflow Ultimate</p></td> 
+   <td>Workflow Ultimate, with Adobe cloud storage enabled</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 

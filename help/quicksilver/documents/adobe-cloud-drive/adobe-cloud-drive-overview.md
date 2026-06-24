@@ -37,7 +37,7 @@ For more information about the storage that Adobe Cloud Drive connects to, see [
 
 ## Who can use Adobe Cloud Drive
 
-To use Adobe Cloud Drive, your organization must be on the Workfront or Workflow Ultimate package.
+To use Adobe Cloud Drive, your organization must be on the Workflow Ultimate package, with Adobe cloud storage enabled.
 
 Only projects using Adobe cloud storage appear in the drive. Legacy Workfront projects don't appear. For more information about the difference, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
