@@ -148,6 +148,11 @@ The following table outlines limitations when currencies are defined in the Exch
 <li>Lock a specific currency for view in a canvas chart, KPI, or table report</li>
 <li>Use Planning currency fields in a canvas chart, KPI, and table reports <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
+
+<!--
+<p><b>NOTE</b></p>
+<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
+-->
 </td> 
 </tr>
 </td> 
@@ -166,5 +171,10 @@ The following table outlines limitations when currencies are defined in the Exch
   <li>Use custom data currency fields in canvas chart, KPI, and table reports</li>
   <li>Use Planning currency fields in a canvas chart, KPI, and table reports <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
+
+<!--
+<p><b>NOTE</b></p>
+<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
+-->
 </td>
 </tr></table>
