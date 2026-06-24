@@ -43,8 +43,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
 ### AI enhancements
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Feature</strong>
@@ -77,8 +75,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
 ### Administrator enhancements
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Feature</strong>
@@ -146,8 +142,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
 ### Documents enhancements
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Feature</strong>
@@ -217,8 +211,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
 ### Financial Management enhancements
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Feature</strong>
@@ -259,8 +251,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
 ### Home enhancements
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Feature</strong>
@@ -285,8 +275,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
 ### Project enhancements
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Feature</strong>
@@ -319,8 +307,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
 ### Reporting enhancements
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Feature</strong>
@@ -388,8 +374,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
 ### Requests enhancements
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Feature</strong>
@@ -421,8 +405,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
 ### Other enhancements
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Feature</strong>
