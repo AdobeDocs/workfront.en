@@ -28,6 +28,12 @@ recommendations: noDisplay, noCatalog
 
 # Adobe Planning Standalone: article index
 
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, when purchased as a standalone product. Refer to this article when your company purchased an Adobe Workfront Planning only package, and they did not purchase a Workfront package. 
+>
+>For information about Adobe Workfront Planning when purchased together with a Workfront package, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md). 
+
 The articles in this section describe how you can benefit from using the standalone version of Adobe Workfront Planning.
 
 * [Get started with Adobe Workfront Planning Standalone](/help/quicksilver/planning/planning-sta/get-started-with-planning-sta.md)

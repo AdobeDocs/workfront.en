@@ -57,7 +57,7 @@ this article is linked to the WF Planning landing page - do not change URL or mo
 >
 >The information in this article refers to Adobe Workfront with Workfront Planning. Refer to this article when your company purchased an Adobe Workfront Workflow package in addition to an Adobe Workfront Planning package. 
 >
->For information about Adobe Workfront Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-only-overview.md). 
+>For information about Adobe Workfront Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
 
 This article contains general information about Workfront Planning when customers also purchase a Workfront or Workflow package. 
 

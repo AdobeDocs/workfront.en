@@ -42,7 +42,19 @@ To answer these questions, leadership needs a solution that can provide a holist
 
 ## Adobe Workfront Planning standalone vs Adobe Workfront with Planning
 
-You can buy Adobe Workfront Planning independently, without requiring a Workfront license. It is designed for new customers and for teams that need campaign planning and metadata management capabilities without the full suite of Workfront features.
+Adobe Workfront offers the following packages for Adobe Workfront Planning:
+
+* Adobe Workfront with Adobe Workfront Planning. 
+
+    When you purchase Adobe Workfront, you can buy an Adobe Workflow and an Adobe Workfront Planning package at the same time. The two packages are fully integrated and you can have all users accessing both capabilities. 
+
+    For more information, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md). 
+* Adobe Workfront Planning as a standalone product. 
+
+    This article describes the features of this offering. You don't need to buy an Adobe Workfront package for this option. 
+* Adobe Workfront and Adobe Workfront Planning together. 
+    
+    You can have a different number of licenses for each product. 
 
 ## Functionality included in Workfront Planning as a standalone product
 
@@ -63,8 +75,6 @@ The following table illustrates what Workfront Planning as a standalone offering
 | Access customer and license details in Setup | Access Recents, Favorites, Notifications controls in the main navigation toolbar |
 | Use the Workfront Planning connector in Fusion | Access Workfront profile option from the Adobe Main Menu |
 | Manage the GenStudio for Performance Marketing workspace | |
-
----
 
 ## Package overview
 
@@ -104,7 +114,7 @@ The following access levels are hard-coded in Workfront Planning and cannot be m
 >
 >In a Workfront Planning context, a user must hold a **Planning Standard** license to access the product. 
 
-For more information, see [User licensing overview for Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-licensing.md). 
+For more information, see [Access needed for Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/access-needed-for-planning-sta.md). 
 
 ## How licensing works for customers with a Planning and Workfront combined package
 
@@ -136,7 +146,7 @@ Consider the following if your organization has purchased Workfront with Plannin
 
 ### Upgrading from standalone Planning to a Planning with a Workflow package
 
-#### What happens when you purchase a Workflow package
+#### Workfront Planning with a Workfront Workflow package
 
 When you add a Workfront Planning Standalone package to an existing Workflow license, the following changes take effect automatically:
 
@@ -156,6 +166,16 @@ When you add a Workfront Planning Standalone package to an existing Workflow lic
 Planning and Workflow licenses remain separate after the upgrade. A Planning Standard user can hold a Workflow Contributor license, and a Planning Contributor user can hold a Workflow Standard license — these are assigned independently based on need.
 
 All users receive an email notification when they gain access to the additional Workflow capabilities in Workfront.
+
+## Using Workfront Planning as a standalone product
+
+Using Workfront Planning as a standalone product is similar to using it as part of a Workfront package. 
+
+The standalone Workfront Planning package includes the same functionality as the integrated version without any connections to Workfront object types and functions. 
+
+For more information, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md). 
+
+
 
 
 
