@@ -23,9 +23,10 @@ Live webinars are held for each quarterly release - these highlight the new feat
 >|----|----|
 >|<ul><li>26.5 (May 14, 2026)</li><li>26.6 (June 11, 2026)</li><li>26.7 (July 15, 2026)</li></ul>|<ul><li>26.7 (July 16, 2026)</li></ul>|
 >
->Note that for the final release of each quarter (26.7 this quarter), users on the fast release schedule will receive the release one day early (July 15 , 2026).
+>* Note that for the final release of each quarter (26.7 this quarter), users on the fast release schedule will receive the release one day early (July 15 , 2026).
 >
->For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
+>   For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
+>* For the 26.7 release (July 2026), the last date that features may appear in the Preview environment is July 7.
 
 ## Adobe Workfront enhancements
 
