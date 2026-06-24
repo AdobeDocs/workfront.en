@@ -220,28 +220,6 @@ Not sure how to change the request status, but dev also said: Changing the names
 
    For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). 
 
-<!-- 
-Removing this as this is covered at a higher level in the Use enhanced lists article: 
-1. (Optional) From the requests list, do any of the following:
-   * Click **Filters** and start adding conditions for what requests you want to view in the Requests list. 
-      ![Editing filters in the Requests area](assets/filters-editing-box-in-requests-planning-tab.png)
-      You can filter by the following fields:  
-      * **Workspace**: The workspace the request form is associated with.
-      * **Object type**: The record type the request form is associated with.
-      * **Entry date**: The date when the request was submitted.
-      * **Request form**: The name of the request form used to submit the request.
-      * **Status**: The status of the request.
-      * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
-      You can have multiple filters joined by either **And** or **Or**.
-      The request list is filtered automatically, as you add the filter conditions.  
-   * Click **Columns** to open the **Fields visibility and order** box, then hide, show, or rearrange the columns in the request list. 
-      >[!TIP]
-      >
-      >You cannot add any more columns. 
-      ![Columns editing box in Requests area](assets/columns-editing-box-in-requests-planning-tab.png)
-   * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
--->
-
 1. Click the name of a request in the list. 
 
       The request details page opens. 
@@ -275,6 +253,29 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
 1. (Optional) Click the name of the **Record type**. 
 
    The record type page opens in Workfront Planning. 
+
+<!-- 
+Moved from line 223, just after the "For information, see [Use enhanced lists]..." This is due to rendering bug.
+Removing this as this is covered at a higher level in the Use enhanced lists article: 
+1. (Optional) From the requests list, do any of the following:
+   * Click **Filters** and start adding conditions for what requests you want to view in the Requests list. 
+      ![Editing filters in the Requests area](assets/filters-editing-box-in-requests-planning-tab.png)
+      You can filter by the following fields:  
+      * **Workspace**: The workspace the request form is associated with.
+      * **Object type**: The record type the request form is associated with.
+      * **Entry date**: The date when the request was submitted.
+      * **Request form**: The name of the request form used to submit the request.
+      * **Status**: The status of the request.
+      * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
+      You can have multiple filters joined by either **And** or **Or**.
+      The request list is filtered automatically, as you add the filter conditions.  
+   * Click **Columns** to open the **Fields visibility and order** box, then hide, show, or rearrange the columns in the request list. 
+      >[!TIP]
+      >
+      >You cannot add any more columns. 
+      ![Columns editing box in Requests area](assets/columns-editing-box-in-requests-planning-tab.png)
+   * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
+-->
 
 ## Submit a request to Workfront Planning from a shared link to a request form
 
