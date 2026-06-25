@@ -22,7 +22,7 @@ For a list of all changes available at this point in the Third Quarter 2026 rele
 
 You can now select a rate card to add to a template, which is then automatically attached to all projects created from the template. The rate card becomes the default on the project, but it can be overridden if needed.
 
-<!--For information, see [Attach a rate card to a template](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md).-->
+For information, see [Attach a rate card to a template](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md).
 
 ## Add billing rates in between existing rates on a rate card
 
