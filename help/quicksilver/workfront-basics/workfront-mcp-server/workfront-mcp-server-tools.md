@@ -99,6 +99,8 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | Get projects by owner | `approvals_get_projects_by_owner` | Lists Workfront projects where the calling user is the owner. | Read |
 | Get Adobe region | `approvals_get_adobe_region` | Returns the Adobe name of a cloud provider region. | Read |
 
+<!--
+
 ## Insights tools
 
 Insights tools retrieve information about Workfront objects.
@@ -113,6 +115,8 @@ Insights tools retrieve information about Workfront objects.
 | Find Workfront data | `insights_find_workfront_data` | Find, filter, count, sort, and aggregate Workfront data. This is the main query and report tool. | Read |
 | Summarize object | `insights_summarize_object` | Fetch and summarize a single Workfront object by ID. | Read |
 | List entities | `insights_list_entities` | List all Workfront object types available to query. | Read |
+
+-->
 
 ## Planning tools
 
