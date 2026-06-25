@@ -23,9 +23,10 @@ Live webinars are held for each quarterly release - these highlight the new feat
 >|----|----|
 >|<ul><li>26.5 (May 14, 2026)</li><li>26.6 (June 11, 2026)</li><li>26.7 (July 15, 2026)</li></ul>|<ul><li>26.7 (July 16, 2026)</li></ul>|
 >
->Note that for the final release of each quarter (26.7 this quarter), users on the fast release schedule will receive the release one day early (July 15 , 2026).
+>* Note that for the final release of each quarter (26.7 this quarter), users on the fast release schedule will receive the release one day early (July 15 , 2026).
 >
->For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
+>   For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
+>* For the 26.7 release (July 2026), the last date that features may appear in the Preview environment is July 7.
 
 ## Adobe Workfront enhancements
 
@@ -42,8 +43,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
 ### AI enhancements
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Feature</strong>
@@ -76,8 +75,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
 ### Administrator enhancements
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Feature</strong>
@@ -145,8 +142,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
 ### Documents enhancements
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Feature</strong>
@@ -154,6 +149,17 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Preview</strong></td>
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
+        <!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Adobe Cloud Drive</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>June 26, 2026</p></td>
+            <td><p>June 26, 2026</p></td>
+        </tr>
+        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Request approval on Adobe Express templates with Workfront and Frame.io</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -205,8 +211,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
 ### Financial Management enhancements
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Feature</strong>
@@ -214,6 +218,24 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Preview</strong></td>
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Add a rate card to a template</a><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>You can now select a rate card to add to a template, which is then automatically attached to all projects created from the template. The rate card becomes the default on the project, but it can be overridden if needed.</p>
+            </td>
+            <td><p>June 25, 2026</p></td>
+            <td><p>July 15, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Add billing rates in between existing rates on a rate card</a><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>You can now adjust the list of effective dated billing rates on a rate card more quickly, by adding a new rate in a specific place in the list. Select the <b>More</b> menu next to an existing rate to insert a row above or below that rate.</p>
+            </td>
+            <td><p>June 25, 2026</p></td>
+            <td><p>July 15, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Rate attributes cannot be edited once they are used on rates</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
@@ -229,8 +251,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
 ### Home enhancements
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Feature</strong>
@@ -255,8 +275,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
 ### Project enhancements
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Feature</strong>
@@ -289,8 +307,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
 ### Reporting enhancements
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Feature</strong>
@@ -298,6 +314,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Preview</strong></td>
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Canvas Dashboard prompt defaults and user preference persistence</a>
+                <p>Dashboard managers can now define default prompt values for Canvas dashboards, automatically applied for all viewers. When a user updates prompts, their selections are saved and restored on refresh, reopen, or after navigating to a record and back.</p>
+            </td>
+            <td><p>June 25, 2026</p></td>
+            <td><p>July 15, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Add multiple Power BI IP address ranges to the Data Connect allowlist at once</a> <p>[!BADGE Off schedule]{type=Neutral}
@@ -349,8 +374,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
 ### Requests enhancements
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Feature</strong>
@@ -382,8 +405,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
 ### Other enhancements
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Feature</strong>
