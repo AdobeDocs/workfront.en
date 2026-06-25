@@ -196,3 +196,5 @@ See the article [Import rate cards from a template](/help/quicksilver/administra
    >
    >A rate card attached to a project will be deleted from the project.
 
+
+
