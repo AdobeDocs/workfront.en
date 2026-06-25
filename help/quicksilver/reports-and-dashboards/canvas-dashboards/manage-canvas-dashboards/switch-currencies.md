@@ -171,7 +171,8 @@ The following table outlines limitations when currencies are defined in the Exch
 
 
 <p><b>NOTE</b></p>
-<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
+
+<p><span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span></p>
 
 </td>
 </tr></table>
