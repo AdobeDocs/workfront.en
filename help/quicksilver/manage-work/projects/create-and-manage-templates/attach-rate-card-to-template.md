@@ -111,7 +111,6 @@ The **Rate Card** field must be enabled for Templates on your layout template.
    
    In the Options section on the Save as Template box, you can select the **Rate Card** item to add the rate card to the template. Clear the check box to exclude the rate card from transferring to the template.
 
-   For more information, see [Save a project as a template](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md)
-
+   For more information, see [Save a project as a template](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md).
 
 
