@@ -1306,6 +1306,7 @@ feature-set: Workfront
       * [Share project templates](manage-work/projects/create-and-manage-templates/share-project-template.md)
       * [Delete project templates](manage-work/projects/create-and-manage-templates/delete-templates.md)
       * [Remove template information from a project](manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
+      * [Attach a rate card to a template](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md)
       * [Overview of Start and Completion Days in a template](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
       * [Overview of attaching a template to a project](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
     * Define a Business Case {#define-business-case}
