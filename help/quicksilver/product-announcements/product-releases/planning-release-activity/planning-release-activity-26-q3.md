@@ -23,7 +23,7 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-<!--
+
 ## Support for currency Planning fields in Canvas Dashboards
 
 >[!NOTE]
@@ -37,8 +37,6 @@ You can now include currency Planning fields, in table, KPI, and chart reports i
 Prior to this enhancement, currency fields were not supported in Canvas Dashboards.  
 
 For information, see [Use currency fields in Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md). 
-
--->
 
 ## Row color controls interface improvement
 
