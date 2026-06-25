@@ -23,7 +23,36 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Add default choices for select and people type fields 
+<!--
+## Support for currency Planning fields in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: June 25, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
+
+You can now include currency Planning fields, in table, KPI, and chart reports in Canvas Dashboards.  
+
+Prior to this enhancement, currency fields were not supported in Canvas Dashboards.  
+
+For information, see [Use currency fields in Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md). 
+
+-->
+
+## Row color controls interface improvement
+
+>[!NOTE]
+>
+>Preview: June 22, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
+
+We have updated the look and feel of the Row colors control in the table view. 
+
+For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+
+## Add default choices for select and People type fields 
 
 >[!NOTE]
 >
@@ -52,6 +81,8 @@ We have updated the look and feel of the table view for the following areas in W
 * All connected record type pages, except for Projects 
 
 In addition to some navigation changes and design improvements, some improvements in this update include: 
+
+* The addition of an aggregation row at the bottom of the table that summarizes number, currency, percentage, and some formula fields using the following aggregators: SUM, AVG, MAX, MIN.
 
 * A simpler date format with fewer format types when adding a Date field. 
 
@@ -134,7 +165,13 @@ For Workfront Planning API specifications, see the [Workfront Planning API](http
 >Production fast release: June 11, 2026
 >Production for everyone: July 16, 2026
 
+
 You can now adjust individual record permissions to control who can manage them within a record type. 
+
+By default, users inherit record permissions from the workspace and record type. You can now override inherited permissions on specific records to grant View or Manage access to a subset of users. Permission overrides can be applied to individual records or updated in bulk across multiple records.
+
+<!-- 
+Laurel asked for this to be replaced with the above: 
 
 Users inherit record permissions from the workspace and record type by default. To give only select users with record type permissions Manage permissions to only certain records, you can disable inherited permissions on select records and grant only those users Manage access to those records. You can adjust permissions for one record, or for multiple records at the same time, in bulk.
 
@@ -142,6 +179,7 @@ You can give users the following permissions levels:
 
 * View 
 * Manage 
+-->
 
 >[!NOTE]
 >

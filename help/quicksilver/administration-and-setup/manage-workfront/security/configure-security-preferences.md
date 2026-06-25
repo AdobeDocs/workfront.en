@@ -125,7 +125,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
         <li>Document request<br></li>
         <li>Document approval</li>
         <li>Calendar</li>
-       </ul><p>This option is enabled by default.</p> <p><b>Important</b>: The External User access level is unavailable in your Workfront instance if this option is disabled. For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Built-in access levels</a>.</p> </td> 
+       </ul><p>This option is enabled by default.</p> <p><b>IMPORTANT</b>: The External User access level is unavailable in your Workfront instance if this option is disabled. For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Built-in access levels</a>.</p> </td> 
      </tr> 
      <!--
      <tr> 
@@ -145,6 +145,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td role="rowheader">Custom Help URL</td> 
       <td>Lets you define an internal custom help site for the Main Menu help icon to go to. For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">Configure a custom help URL</a>.</p></td> 
      </tr>
+    <tr> 
+      <td role="rowheader">Disable auto-upgrade within Access Levels</td> 
+      <td>You can disable the auto-upgrade process for Contributor access levels. When this setting is checked, Contributor-license users who have exceeded their approval decision limit must be manually upgraded to a new license by the administrator.</p></td> 
+     </tr>
      <tr> 
       <td role="rowheader">Enable the Priorities worklist </td> 
       <td>Lets you choose to enable or disable the Priorities worklist experience for your users. Users will still see the Priorities icons in Workfront, but they will not have access to the functionality. For more information about Priorities, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Get started with Priorities</a>.</td> 
@@ -154,20 +158,33 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td><span class="preview"><p>Lets you choose whether to force users to enter information in required fields when bulk editing objects.</p> <p>When this option is selected, required fields must have values before saving in bulk edit mode. If the required field is missing a value for at least one bulk selected object, saving is not permitted.</p> <p>When this option is not selected, required fields are only enforced when a user modifies the field. If a field is not modified, it is treated as optional and not validated.</p></span></td>
      </tr>
      <tr> 
-      <td role="rowheader">Enable Adobe cloud storage </td> 
-      <td>Lets you choose to enable or disable Adobe cloud storage for your entire organization or for specific groups. For more information about Adobe cloud storage, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Enable Adobe cloud storage for your organization</a>.</td> 
-     </tr>
-     <tr> 
+      <td role="rowheader">Storage Preferences </td> 
+      <td>In this section you can enable the Adobe cloud preferences. Lets you choose to enable or disable Adobe cloud storage for your entire organization or for specific groups. 
+      <p>Update the following information:</p>
+      <ul><li><b>Default</b>: Choose Legacy Workfront storage or Adobe cloud storage</li>
+      <li><b>Allow users to select storage provider</b>: This allows users to choose between the two storage types when creating Workfront objects.</li>
+      <li><b>Applies to</b>: Choose whether the default settings apply to the entire organization or to specific groups</li>
+      <li><b>Select portfolios to convert to Adobe cloud storage</b>: Select portfolios that you would like to convert automatically from Workfront legacy storage to Adobe cloud storage. The portfolios are converted when you save the System Preferences.</li></ul>     
+    For more information about Adobe cloud storage, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Enable Adobe cloud storage for your organization</a>.</td></tr>
+    <tr> 
       <td role="rowheader">Select portfolios to convert to Adobe cloud storage </td> 
       <td>Lets you convert existing legacy Workfront storage portfolios to Adobe cloud storage. For more information, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md">Convert legacy portfolios to Adobe cloud storage</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Enable AI </td> 
-      <td>Lets you choose to enable AI, including AI Assistant. <p><b>Note</b>: Your organization must meet specific requirements to enable AI. For more information about AI, including the requirements, see <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI Assistant overview</a>.</p></td> 
+      <td>By turning on the settings in the AI preferences area, you can enable AI, including AI Assistant. <p><b>NOTE</b>: Your organization must meet specific requirements to enable AI. For more information about AI, including the requirements, see <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI Assistant overview</a>.</p></td> 
+     </tr>
+    <tr> 
+      <td role="rowheader">AI Form Fill </td> 
+      <td>Allow people to use Form Fill with AI to automatically fill a request form. For more information, see <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md">Use Form Fill powered by AI to fill in a request using prompts or documents</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Form Auto-complete </td> 
+      <td role="rowheader">Intelligent Auto-complete in Request forms </td> 
       <td>Lets you choose to enable the ability to auto-complete request forms based on previous request data. For more information about Form Auto-Complete, see <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Auto-fill a request from previous data</a>.</td> 
+     </tr>
+    <tr> 
+      <td role="rowheader">Planning Designer</td> 
+      <td>This is available only to customers who have purchased a Workfront Planning package. Turning on this setting allows your users to create and edit workspaces using the Planning Designer. For information, see <a href="/help/quicksilver/planning/general/planning-ai-designer.md">Get started with the Adobe Workfront Planning Designer</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Opt in to AI Betas </td> 
