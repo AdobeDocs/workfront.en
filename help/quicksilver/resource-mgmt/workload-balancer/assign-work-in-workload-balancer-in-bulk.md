@@ -80,13 +80,12 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 * You cannot assign resources to work items that are completed, or to items that are on a completed project. 
 * You can do the following when assigning users in bulk:
 
-   * Assign a user to all work items currently assigned to a job role.
-   * Replace user assignments between users.
+   * Replace assignments between users and roles in all valid combinations.
    * Unassign a user from all their work items.
 
 **EXAMPLES** 
 
-* You are responsible for making user assignments on several new projects. The projects were originally created from templates and job roles are already assigned to the various tasks within the projects. You want to assign a specific user, Jackie Simms, to all tasks that are currently assigned to a job role. You can use the Assign function to assign these tasks to Jackie Simms.
+* You are responsible for making user assignments on several new projects. The projects were originally created from templates and job roles are already assigned to the various tasks within the projects. You want to assign a specific user, Jackie Simms, to all tasks that are currently assigned to a job role. You can use the Replace function to assign these tasks to Jackie Simms.
 * 45 tasks across 3 different projects are assigned to Jackie Simms. Jackie leaves the organization, and now you need to reassign her tasks to another user. You can use the Replace function to assign these tasks to the new person. 
 * 10 tasks across 2 different projects are assigned to another user, Rick Kuvec. You realize that Rick was assigned to these tasks in error, but you are not sure who they need to be assigned to at this time. You need to unassign Rick to all the tasks at the same time. You can use the Unassign function to remove Rick from these tasks.
 
@@ -141,6 +140,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >
    >If no items match the selected filters, these options are dimmed.
 
+<!--
+
 ### Assign user {#assign-user}
 
 When you assign a user using Bulk Assignments in the Workload Balancer, the following things occur:
@@ -187,6 +188,8 @@ To assign a user to work items previously assigned to job roles:
    You receive a confirmation about how many work items have had the selected role replaced with the selected user.
 
    ![Bulk assignment confirmation](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
+
+-->
 
 ### Replace user {#replace-user}
 
