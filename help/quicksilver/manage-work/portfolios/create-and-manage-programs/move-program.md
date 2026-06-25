@@ -98,21 +98,10 @@ Old:
 
 >[!NOTE]
 >
->When your organization uses both legacy Workfront and Adobe cloud storage for documents, the following scenarios exist: 
->
->
->* When you add an Adobe cloud storage program to a legacy Workfront storage portfolio and the portfolio has no documents attached to it, the portfolio is converted to Adobe cloud storage. 
->* When you add an Adobe cloud storage program to a legacy Workfront storage portfolio and the portfolio has documents attached to it, the portfolio documents storage remains on Workfront storage. However, the legacy Workfront storage icon ![Legacy Workfront storage icon](assets/legacy-storage-project-icon.png) is removed from the portfolio.
->* You cannot add a legacy Workfront storage program to an Adobe cloud storage portfolio. 
->
+>When your organization uses both legacy Workfront and Adobe cloud storage for documents, you cannot add an Adobe cloud storage program to a Legacy storage portfolio, or a Legacy program to an Adobe cloud storage portfolio.
+>Your Workfront instance might not have both types of document storage.
 >For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 >
->Not all Workfront instances have both types of document storages.
-
-<!--
-For preview/ Prod. release, rewrite the bullets above:
-* You cannot add an Adobe cloud storage program to a Legacy storage portfolio, or a Legacy program to an Adobe cloud storage portfolio.
--->
 
 To add an existing program to another portfolio: 
 

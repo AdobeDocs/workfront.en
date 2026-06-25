@@ -40,5 +40,6 @@ You can use project templates to capture most of the repeatable processes, infor
 * [Create template from project](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md) 
 * [Share project templates](../../../manage-work/projects/create-and-manage-templates/share-project-template.md) 
 * [Remove template information from a project](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md) 
-* [Delete project templates](../../../manage-work/projects/create-and-manage-templates/delete-templates.md) 
+* [Delete project templates](../../../manage-work/projects/create-and-manage-templates/delete-templates.md)
+* [Attach a rate card to a template](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md)
 * [Overview of Start and Completion Days in a template](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)

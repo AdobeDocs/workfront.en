@@ -160,7 +160,7 @@ Old:
 
    * [Template Name](#template-name) 
    * [Overview](#overview-preview) 
-   * [Finance](#finance-preview) 
+   * [Finance](#finance)
    * [Custom Forms](#custom-forms-preview) 
    * [Template Settings](#template-settings) 
    * [Tasks Settings](#task-settings) 

@@ -11,15 +11,6 @@ This page describes enhancements made with the Third Quarter 2026 release to the
 
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-## Updates to the Workfront MCP connector
-
-We've made the following update to the Workfront MCP connector:
-
-* We've expanded the MCP server to work with instances in the EU<!-- and US instances that are not on AWS. Each MCP server can only connect to one instance, but are no longer limited to US instances on AWS-->.
-* To expand the flexibility of the Workfront MCP connector, we've added the ability to connect Claude. Now, you can find Workfront in the list of connectors in Claude, or connect directly using a URL.
-
-For more information and instructions, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
-
 
 ## Updated look and feel for comment notification emails
 
@@ -40,28 +31,6 @@ The thread of preceding comments is no longer included in the email body. To vie
 This change is rolling out to customers in phases. This page will be updated when the rollout schedule is confirmed.
 
 ![updated comment notification email.png](assets/email-look-and-feel-update.png)
-
-## Connect Workfront to your AI tools with the Workfront MCP Server
-
->[!NOTE]
->
->Preview: May 28, 2026
->Production fast release: June 11, 2026
->Production for everyone: July 16, 2026
-
-Your team's operational context lives in Workfront. Now, with the Workfront MCP Server, that context becomes actionable from within the AI tools your team already uses.
-
-Connect Workfront to any MCP-compatible AI platform, including Claude, ChatGPT, Copilot, Gemini, and more, and use natural language to find, create, update, and manage Workfront items without leaving your AI tool of choice. Ask for your overdue tasks, push a project's finish date, send a reminder to approvers, update a campaign budget--and your AI platform does the work for you in Workfront.
-
-And with Claude's AI skills and scheduled tasks, you can go even further--automating recurring workflows that run proactively against live Workfront data. For example, a Monday morning project briefing, a weekly capacity report, a monthly campaign health check -- set it once, and AI handles it automatically, grounded in the full context of your operation.
-
-This is the foundation of an agentic work management system--where AI is grounded in your richest operational data and humans and AI collaborate together to keep work moving at full velocity.
-
->[!IMPORTANT]
->
->Currently, the Workfront MCP server is available only to customers in the US region for customers using AWS.
-
-For more information, see [Adobe Workfront MCP server overview](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md).
 
 ## Enhanced list updates
 

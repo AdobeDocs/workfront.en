@@ -10,12 +10,18 @@ role: Admin
 ---
 # View and manage change history
 
-Change history allows you to view a log of changes to Workfront objects, including attributes such as:
+You can view change history, including audit logs, in the Change Tracking area of Setup.
 
-* Object
-* Object type
-* Type of change (operation)
-* Source of the change, such as specific users, APIs, Workfront Fusion, AI LLMs, or the Workfront system
+* **Audit Logs** are changes triggered by users. 
+   For more information on Audit Logs and the Audit Logs area, see [Audit Logs overview](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* **Configuration** displays which field are being tracked for the Change History List. 
+   Configuration is currently available only as information and cannot be changed. The ability to change which fields are tracked will be available in the near future.
+* Change History List allows you to view a log of changes to Workfront objects, including attributes such as:
+
+   * Object
+   * Object type
+   * Type of change (operation)
+   * Source of the change, such as specific users, APIs, Workfront Fusion, AI LLMs, or the Workfront system
 
 ## Access requirements
 
@@ -35,7 +41,7 @@ Change history allows you to view a log of changes to Workfront objects, includi
   </tr> 
   <tr> 
    <td>Access level configurations</td> 
-   <td>Edit access to [!UICONTROL Rate Cards]</td> 
+   <td>You must be a Workfront administrator to view Change History</td> 
   </tr> 
  </tbody> 
 </table>
@@ -44,9 +50,28 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
+## View and manage Audit Logs
 
+To view and manage audit logs, see [View and export audit logs](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
 
-## View change history
+## View the Configuration area for change tracking
+
+>[!NOTE]
+>
+>Configuration is currently available only as information and cannot be changed. The ability to change which fields are tracked will be available in the near future.
+
+To view the types of changes that are tracked: 
+
+{{step-1-to-setup}}
+
+1. In the left panel, click **Change Tracking** ![Change history icon](assets/change-history-icon.png).
+1. Click **Configuration**.
+   
+   Fields are displayed grouped by object type.
+
+1. To display fields under a specific object, click the dropdown arrow next to the object type.
+
+## View the Change History List
 
 Workfront Administrators can view change history in the Setup area.
 
@@ -68,16 +93,6 @@ The Change History List is an enhanced list, and features filters, columns, row 
 1. To add or remove columns, see [Add and remove columns with the Column manager](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) in the article Use enhance lists.
 1. To adjust row height, see [Change the row height in a view](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view) in the article Use enhance lists.
 
-## View available change types
-
-To view the types of changes that are tracked: 
-
-{{step-1-to-setup}}
-
-1. In the left panel, click **Change Tracking** ![Change history icon](assets/change-history-icon.png).
-1. Click **Configuration**.
-   
-   Fields are displayed grouped by object.
 
 
 

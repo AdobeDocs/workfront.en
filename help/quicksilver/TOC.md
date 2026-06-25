@@ -15,6 +15,7 @@ feature-set: Workfront
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
     * 2026 Q3 Release {#release-26-q3}
       * [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
+      * [Third Quarter 2026 AI enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md)
       * [Third Quarter 2026 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md)
       * [Third Quarter 2026 Documents enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
       * [Third Quarter 2026 Financial Management enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md)
@@ -467,8 +468,8 @@ feature-set: Workfront
       * [Project timeline recalculations](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
       * [Enable custom quarters](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
       * [Enable or disable fast releases for your organization](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
-      * [Enable Adobe cloud storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
-      * [Convert legacy portfolios to Adobe cloud storage](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
+      * [Enable Adobe cloud storage for your organization](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
+      * [Convert legacy portfolios to Adobe cloud storage](administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
       * [Create and edit business rules](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
       * [Configure custom localization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
       * [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)
@@ -1305,6 +1306,7 @@ feature-set: Workfront
       * [Share project templates](manage-work/projects/create-and-manage-templates/share-project-template.md)
       * [Delete project templates](manage-work/projects/create-and-manage-templates/delete-templates.md)
       * [Remove template information from a project](manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
+      * [Attach a rate card to a template](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md)
       * [Overview of Start and Completion Days in a template](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
       * [Overview of attaching a template to a project](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
     * Define a Business Case {#define-business-case}
@@ -2154,6 +2156,7 @@ feature-set: Workfront
     * [Adobe Workfront Planning release activity for 2023](planning/general/release-activity-archives-2023.md)
     * [Adobe Workfront Planning object limitations overview](planning/general/limitations-overview.md)
     * [Get started with the Adobe Workfront Planning free trial](planning/general/trial-workfront-planning.md)
+    * [View Workfront Planning information in reports](planning/general/planning-information-in-reports.md)
   * Adobe Workfront Planning best practices {#adobe-workfront-planning-best-practices}
     * [Adobe Workfront best practices: article index](planning/best-practices.md/best-practices-article-index.md)
     * [Roll out your strategic home: a 30-day launchpad](planning/best-practices.md/30-day-launchpad.md)
