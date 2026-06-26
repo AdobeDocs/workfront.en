@@ -216,3 +216,4 @@ All users with access to a dashboard can apply a dashboard prompt to a Canvas Da
 1. Click the **Close** icon ![Close icon](assets/close-icon.png) in the upper-right corner to hide the panel.
 
 
+

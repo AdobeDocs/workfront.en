@@ -51,3 +51,4 @@ For information, see [Manage rate cards](/help/quicksilver/administration-and-se
 Once an attribute is added to a rate in Workfront, you can no longer edit that attribute and its filters in the Setup area. This preserves data integrity and prevents rates from being changed accidentally when attributes are updated.
 
 For more information, see [Define rate attributes](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+
