@@ -11,6 +11,24 @@ This page describes Reporting enhancements made with the Third Quarter 2026 rele
 
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Canvas Dashboard prompt defaults and user preference persistence
+
+>[!NOTE]
+>
+>Preview: June 25, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
+
+To improve efficiency for users moving between dashboards and records by preserving their working filter state, dashboard managers can now define default prompt values for Canvas dashboards. These defaults are automatically applied for all dashboard viewers.
+
+When a user updates prompts, their selections are saved and restored on refresh, reopen, or after navigating to a record and back.
+
+Managers can reset the dashboard's default state at any time. Users can also quickly revert to defaults via the three-dot menu.
+
+Prior to this enhancement, dashboard prompts did not have a configurable default or a saved user preference for the prompt status.
+
+For information, see [Filter a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md).
+
 ## Add multiple Power BI IP address ranges to the Data Connect allowlist at once
 
 >[!NOTE]
@@ -87,3 +105,4 @@ Canvas dashboards now structure report queries to prevent duplicate rows when fi
 Previously, a join between related records could repeat parent records once for each related record. For example, in a project report filtered to tasks assigned to a specific user, each project repeated once for every matching task. A KPI that summed project budget could show $6,000 instead of the correct $1,250.
 
 There are no changes to the Canvas dashboard interface. Existing reports automatically return accurate data after this release.
+

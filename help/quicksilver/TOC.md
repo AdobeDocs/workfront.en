@@ -23,6 +23,7 @@ feature-set: Workfront
       * [Third Quarter 2026 Project enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md)
       * [Third Quarter 2026 Reporting enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md)
       * [Third Quarter 2026 Requesting enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md)
+      * [Third Quarter 2026 Resource Management enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-resource-mgmt.md)
       * [Third Quarter 2026 Other enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md)
     * 2026 Q2 Release {#release-26-q2}
       * [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
