@@ -99,6 +99,8 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | Get projects by owner | `approvals_get_projects_by_owner` | Lists Workfront projects where the calling user is the owner. | Read |
 | Get Adobe region | `approvals_get_adobe_region` | Returns the Adobe name of a cloud provider region. | Read |
 
+<!--
+
 ## Insights tools
 
 Insights tools retrieve information about Workfront objects.
@@ -113,6 +115,8 @@ Insights tools retrieve information about Workfront objects.
 | Find Workfront data | `insights_find_workfront_data` | Find, filter, count, sort, and aggregate Workfront data. This is the main query and report tool. | Read |
 | Summarize object | `insights_summarize_object` | Fetch and summarize a single Workfront object by ID. | Read |
 | List entities | `insights_list_entities` | List all Workfront object types available to query. | Read |
+
+-->
 
 ## Planning tools
 
@@ -204,11 +208,11 @@ Workflow tools are the general-purpose actions the AI agentic platform uses to w
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
-| Search objects | `workflow_search_any_object` | Deprecated. Use `insights_find_id_by_name` or `insights_find_workfront_data` instead | Read |
+| Search objects | `workflow_search_any_object` | Searches for Workfront objects with flexible filter parameters, ordering, and pagination. | Read |
 | Create object | `workflow_create_any_object` | Creates a new Workfront object such as a project, task, issue, hour, assignment, program, or portfolio. | Write |
 | Update object | `workflow_update_any_object` | Updates fields on an existing Workfront object. | Write |
 | Delete object | `workflow_delete_any_object` | Deletes a Workfront object by ID. Requires explicit user confirmation before the action is performed. | Write |
-| Resolve field names | `workflow_resolve_field_names_any_object` | Deprecated. Use use `insights_search_fields` instead. | Read |
+| Resolve field names | `workflow_resolve_field_names_any_object` | Converts user-provided field names or labels to the underlying Workfront API field names so the AI agentic platform can build accurate requests. | Read |
 
 ## How tools are updated
 
@@ -222,4 +226,5 @@ We are working on adding the following tools to the Workfront MCP server in the 
 
 * Comments
 * Boards
+
 

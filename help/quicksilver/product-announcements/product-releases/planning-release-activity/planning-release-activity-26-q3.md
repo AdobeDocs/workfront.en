@@ -404,3 +404,4 @@ For information, see [Manage the record page](/help/quicksilver/planning/records
 You can now group your information in the projects connected records page of a record in Workfront Planning. This capability did not exist in this area prior to this enhancement.
 
 For information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+
