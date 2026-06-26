@@ -76,9 +76,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Considerations for making bulk assignments in the Workload Balancer
 
-* You can quickly manage user assignments for multiple tasks and issues across one or more projects. Changes in assignments are visible in the Workload Balancer immediately. 
+* You can quickly manage resource assignments for multiple tasks and issues across one or more projects. Changes in assignments are visible in the Workload Balancer immediately. 
 * You cannot assign resources to work items that are completed, or to items that are on a completed project. 
-* You can do the following when assigning users in bulk:
+* You can do the following when assigning job roles and users in bulk:
 
    * Replace assignments between users and roles in all valid combinations.
    * Unassign a user from all their work items.
@@ -214,7 +214,7 @@ To replace a resource with another resource:
 
    ![Replace resource](assets/bulk-assignments-workload-balancer-replace-selected.png)
 
-1. In the **Resource to assign** field, click the drop-down arrow to choose from a list of suggested resource or to type another job role or user name. Resources listed first by default match the criteria for Smart Assignments. For more information, see [Smart assignments overview](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+1. In the **Resource to assign** field, click the drop-down arrow to choose from a list of suggested resources or to type another job role or user name. Resources listed first by default match the criteria for Smart Assignments. For more information, see [Smart assignments overview](../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
    Workfront displays a note about the number of items where the currently assigned resource will replace the second resource.
 
