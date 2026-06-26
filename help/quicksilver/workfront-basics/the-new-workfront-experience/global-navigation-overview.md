@@ -8,6 +8,8 @@ exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
 ---
 # Top navigation bar overview
 
+{{highlighted-preview}}
+
 <!--Audited: 01/2024-->
 
 The top navigation bar — which appears at the top of your screen in [!DNL Adobe Workfront] — allows you to easily find and navigate to other areas of the platform.
@@ -24,7 +26,7 @@ Your Workfront administrator can customize the Home icon to open a different pag
 
 ## [!UICONTROL Main Menu]
 
-The **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon-left-nav.png) opens the [!UICONTROL Main Menu], from where you can navigate to a different area of Workfront.
+The **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon-left-nav.png) opens the [!UICONTROL Main Menu], where you can navigate to a different area of Workfront.
 
 The options that are available in the [!UICONTROL Main Menu] are dependent on:
 
