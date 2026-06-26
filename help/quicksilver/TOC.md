@@ -1312,6 +1312,7 @@ feature-set: Workfront
       * [Share project templates](manage-work/projects/create-and-manage-templates/share-project-template.md)
       * [Delete project templates](manage-work/projects/create-and-manage-templates/delete-templates.md)
       * [Remove template information from a project](manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
+      * [Attach a rate card to a template](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md)
       * [Overview of Start and Completion Days in a template](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
       * [Overview of attaching a template to a project](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
     * Define a Business Case {#define-business-case}
@@ -2161,6 +2162,7 @@ feature-set: Workfront
     * [Adobe Workfront Planning release activity for 2023](planning/general/release-activity-archives-2023.md)
     * [Adobe Workfront Planning object limitations overview](planning/general/limitations-overview.md)
     * [Get started with the Adobe Workfront Planning free trial](planning/general/trial-workfront-planning.md)
+    * [View Workfront Planning information in reports](planning/general/planning-information-in-reports.md)
   * Adobe Workfront Planning best practices {#adobe-workfront-planning-best-practices}
     * [Adobe Workfront best practices: article index](planning/best-practices.md/best-practices-article-index.md)
     * [Roll out your strategic home: a 30-day launchpad](planning/best-practices.md/30-day-launchpad.md)

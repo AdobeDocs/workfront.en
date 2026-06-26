@@ -1,6 +1,6 @@
 ---
 title: Attach a Rate Card to a Project
-description: When you attach a rate card to a project, all of the roles by location and their associated billing rates are added to the project.
+description: When you attach a rate card to a project, all of the roles and their associated billing rates are added to the project.
 author: Lisa
 feature: Work Management
 role: User
