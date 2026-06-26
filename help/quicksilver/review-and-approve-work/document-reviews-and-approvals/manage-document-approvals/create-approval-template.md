@@ -61,7 +61,6 @@ In the Workfront Setup area, users with a Standard license can create reusable A
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-ß
 
 ## Create an Approval Template in Production
 
