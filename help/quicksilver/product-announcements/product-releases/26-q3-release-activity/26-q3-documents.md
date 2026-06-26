@@ -12,6 +12,7 @@ This page describes Documents enhancements made with the Third Quarter 2026 rele
 
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+<!--
 ## Adobe Cloud Drive
 
 >[!NOTE]
@@ -26,8 +27,7 @@ Adobe Cloud Drive is now available to organizations that are on a version of Wor
 For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 [View a video demonstration of this feature.](https://video.tv.adobe.com/v/3492492){target="_blank"}
-
-## Request approval on Adobe Express templates with Workfront and Frame.io
+-->
 
 >[!NOTE]
 >
