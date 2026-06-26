@@ -12,6 +12,44 @@ This page describes Documents enhancements made with the Third Quarter 2026 rele
 
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+<!--
+## Adobe Cloud Drive
+
+>[!NOTE]
+>
+>Preview: N/A
+>Production fast release: June 26, 2026
+>Production for everyone: June 26, 2026
+>This feature is only available to organizations on the Workflow Ultimate package, with Adobe cloud storage enabled.
+
+Adobe Cloud Drive is now available to organizations that are on a version of Workfront that supports Adobe cloud storage. Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer. Your changes sync automatically to Adobe cloud storage and are available to your team in Workfront and Frame.io.
+
+For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
+
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3492492){target="_blank"}
+-->
+
+## Request approval on Adobe Express templates with Workfront and Frame.io
+
+>[!NOTE]
+>
+>Preview: N/A
+>Production fast release: June 15, 2026
+>Production for everyone: June 15, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+The Adobe Express and Workfront with Frame.io integration brings structured review and approval to content created in Adobe Express. Designers can map a Workfront approval workflow template to an Express template so that, when the template is remixed, an approval is automatically required before publishing—routing the asset through the pre-configured Workfront workflow and Frame.io viewer.
+
+With this integration, you can:
+
+* Streamline collaboration between creative, legal, and compliance teams to reduce time-to-publish while maintaining oversight
+* Conduct deep reviews using drawing markups, annotations, and comments in the Frame.io viewer
+* Meet enterprise compliance standards with electronic signatures and full audit logs
+* Require approval on any remixed files from an Express branded template
+* Map an Express template to a multi-stage review and approval workflow using unified approval templates in Workfront
+* Choose a Workfront project when requesting approval so related assets and proofs stay organized together
+
+For more information, see [Get started with the Adobe Express and Workfront with Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md).
 
 ## Print summary for documents in the new Documents area
 

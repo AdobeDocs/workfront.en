@@ -10,13 +10,11 @@ feature: Get Started with Workfront
 
 # Use the Adobe Workfront MCP server
 
-{{highlighted-preview-article-level}}
-
 The [!DNL Adobe Workfront] MCP server lets you find, create, update, and manage Workfront items by asking an AI agentic platform in natural language. The platform decides which Workfront actions to call and handles the conversation with Workfront for you.
 
 >[!IMPORTANT]
 >
->Currently, the Workfront MCP server is available only to customers in the US region for customers using AWS.
+>Currently, the Workfront MCP server is available only to customers using AWS.
 
 ## Prerequisites
 
@@ -92,6 +90,10 @@ To manage document and asset approvals, ask:
 * *Add Sarah Chen and Miguel Alvarez as approvers on the current document.*
 * *Send a reminder to approvers on the asset "Spring Campaign Video" who haven't responded.*
 * *Apply the "Marketing Launch" approval template to the asset "Spring Campaign Video."*
+
+<!--
+* *Remove Anna Jones from all approvals in this project, and replace with Sione Carter.*
+-->
 
 
 ### Work with Planning records

@@ -105,6 +105,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
     </tbody> 
    </table>
 
+   >[!NOTE]
+   >
+   >If the reviewer you remove had already made a decision on the proof, the Approver Decision field for that user displays a hyphen (-) in the Proof Approval report. For more information, see [Approver Decision shows a hyphen in the Proof Approval report](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md).
+
 ## Edit reviewer details
 
 1. In Workfront, hover over the proof, then click **Proof details** to open the Proofing Details page.

@@ -27,11 +27,11 @@ topic_v2:
 ---
 # Manage the table view
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>
+
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -157,18 +157,9 @@ For more information about editing records in the table view, see [Edit records]
 
 ## Manage a table view {#manage-a-table-view}
 
-<!--
-Depending on what environment you access record types from, the record type page displays using two different views: 
+<span class="preview">Managing the table view is different depending on which environment you access it from. </span>
 
-* Table view, in the Production environment
-* <span class="preview">List view, in the Preview environment</span>
-
-OR: 
-
-If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep that list as the List view and change the Table view in this article to "Table redesigned view" for now; keep it "the table view" here for the future; for the time being, just say "Updating the view in Prod and Preview is different and make the separate sections for Preview and Prod below with the different steps.
-
-### Manage the table view in the Production environment
--->
+## Manage the table view in the Production environment
 
 When creating a table view, all records of the selected type display in a table. Each row is a unique record and each column is a record field. All fields and all records display by default. 
 
@@ -626,17 +617,19 @@ When you display the table view, you can also view which field another user is e
 >
 >Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.
 
-<!--
+
 
 <div class="preview">
 
-### Manage the list view in the Preview environment
+## Manage the table view in the Preview environment
 
-**********MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION?????????*********
+<!--********** MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION ?????????*********-->
 
-(*****************Maybe add this when they remove the list view from connection pages and request form list: In the Preview environment, the table view has been replaced with the list view. *******************)
+<!-- In the Preview environment, the table view has been replaced with the list view. *******************-->
 
+<!--
 *******************IF THEY REPLACE THE LIST VIEW (IN PROJECTS AND FORMS) WITH THE NEW LIST, THEN JUST UPDATE THAT ARTICLE - "MANAGE THE LIST VIEW" - AND ADD A LINK TO IT HERE; IF NOT, THEN ADD THE SPECIFICS OF THE VIEW HERE**************
+-->
 
 When creating a table view, all records of the selected type display in a table. Each row is a unique record and each column is a record field. All fields and all records display by default. 
 
@@ -664,13 +657,11 @@ To manage a table view:
     * [Real-time presence indicator](#enable-the-real-time-presence-indicator)
 
 
-### Add columns (or fields) {#add-columns}
+### Add columns (or fields) {#add-columns-1}
 
 The column headers of a table view display fields associated with the records in the view. Fields displayed in the table view also display in the Details section of a record. 
 
 For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
-
-************ this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default. ***************
 
 Adding columns to a view is identical to adding fields to a record type.  
 
@@ -696,15 +687,16 @@ You can add up to 500 fields (or columns) in a table view.
         >
         >* The Name field is always the first field in the table view, by default. This is considered a primary field. 
         >
-        >* You cannot move the Name field to another position, unless you designate another field as the primary field. For more information, continue with Step 5. **********************accurate?**************
+        >* You cannot move the Name field to another position, unless you designate another field as the primary field. For more information, continue with Step 5. <!--**********************accurate?**************-->
         >
         >
  
-    * Replace the field in the first column with another field by changing the primary field. For more information, continue to step 5. **********************accurate?**************
+    * Replace the field in the first column with another field by changing the primary field. For more information, continue to step 5. <!--**********************accurate?**************-->
 
 1. (Optional) Hover over a field name in the column header of any field that does not display in the first column of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
     
     ![Set as primary field option in table view](assets/set-as-primary-field-option-table-view.png)
+
 
 1. Click **Set field** to confirm. 
 
@@ -712,11 +704,15 @@ You can add up to 500 fields (or columns) in a table view.
 
     Primary fields become the record's title and display in the header area of the record's page, and everywhere where the records display. For example, the record title displays in connected fields and all views. For more information about primary fields, see [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md). 
 
+    >[!TIP]
+    >
+    >Click on the **information** icon ![Information icon](assets/info-icon.png) to the right of the field name in a column to view its **Description**.
+
 1. Click and drag the column separation lines and drop them in the desired spot to increase the width of the columns. 
 
     >[!TIP]
     >
-    >The changes you make to the column width and order are permanent and visible to all users who access the record type. 
+    >The changes you make to the column width and order are permanent and visible to all users who access the same view. 
 
 1. Hover over the column header, then click the downward-pointing arrow, then click **Hide field**
 
@@ -735,9 +731,9 @@ You can add up to 500 fields (or columns) in a table view.
 
 1. Do the following to quickly find records that match a keyword:
 
-    1. In the **Search** box ![Search icon](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
+    1. In the **Search** box ![Search icon](assets/search-icon.png) start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
 
-        ![Search box with results blue outline in table view](assets/search-box-with-results-blue-outline-table-view.png)
+        ![Search box with results blue outline in table view](assets/search-box-with-results-blue-outline-g-table.png)
 
         You can use any word or special character that is visible on the screen. 
     
@@ -748,16 +744,22 @@ You can add up to 500 fields (or columns) in a table view.
     1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table. 
 
     1. Click the **x** icon in the search box to clear the search keyword. 
+  
 1. For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
-    * SUM: Displays the total of all cells in the column. This is the default selection. 
-    * MIN: Displays the lowest value from all the cells in the column. 
-    * MAX: Displays the highest value from all the cells in the column. 
-    * AVG: Displays the average value of all the cells in the column. 
+    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+    * **MIN**: Displays the lowest value from all the cells in the column. 
+    * **MAX**: Displays the highest value from all the cells in the column. 
+    * **AVG**: Displays the average value of all the cells in the column. 
 
-    The aggregator row in the column is frozen and is part of the view settings. The aggregator you choose will be shared with the view when you share the view with others. 
+    Consider the following when working with aggregators: 
+    
+    * The aggregator row in the column is frozen and is part of the view settings. 
+    * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
+    * As a viewer, you can modify the aggregator, but it does not save with the view. 
+    * Public shared views are shared with the saved aggregators which cannot be modified. 
 
-### Add rows (or records) {#add-rows}
+### Add rows (or records) {#add-rows-1}
 
 The rows of a table view display individual records of the selected record type. 
 
@@ -771,11 +773,12 @@ You can have up to 50,000 records (or rows) for a record type.
 
     A default thumbnail image is also added to the new record.
 
-1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to add a thumbnail to each record
+1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to edit the thumbnail. 
 1. Click **Fields** at the top of the table, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
     
     For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
+<!--
 ******************** NOT POSSIBLE NOW **********
 
 1. (Optional) Select one or multiple records in a row, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
@@ -788,8 +791,9 @@ You can have up to 50,000 records (or rows) for a record type.
 
 
 ******************** NOT POSSIBLE ABOVE **************
+-->
 
-### Add filters {#add-filters}
+### Add filters {#add-filters-1}
 
 Filters help you reduce the amount of information displayed on the screen.
 
@@ -797,20 +801,16 @@ Adding filters in the table view in the Preview environment is identical to addi
 
 For information, see the [Add filters](#add-filters) section in this article. 
 
-*****************at production, paste here the information from the Production section above*******************
 
-### Add a sort {#sort-information} 
+<!--***************** at production, paste here the information from the Production section above *******************-->
+
+### Add a sort {#sort-information-1} 
 
 By applying a sort, you can organize information in a given order. 
 
-You can sort the following information:
-
-* All records in a table view. 
-************** * All groupings. - this is not available yet***********
-
 Consider the following when sorting records in the table view: 
 
-*********** if this is available for the timeline view, update both when you update one ****************
+<!--*********** if this is available for the timeline view, update both when you update one ****************-->
 
 * Sorting is unique to the view that you select. Two table views of the same record type can have different sorting criteria applied to them. Two users looking at the same table view see the same sorting that is currently applied. 
 
@@ -831,13 +831,20 @@ Consider the following when sorting records in the table view:
 To sort records, do the following:
 
 1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
-1. Click the **Sort** icon ![Sort icon](assets/sort-icon.png) in the upper-right corner of the table
+1. Click the **Sort** icon ![Sort icon](assets/sort-icon.png) at the top of the table
     
     Or
 
-    Hover over the name of a column in the table view, click the downward-pointing arrow to the right of the column header name, then click **Sort by this field**. 
+    Hover over the name of a column in the table view, click the downward-pointing arrow to the right of the column header name, then click **Sort**. 
     
-1. (Conditional) If you clicked the **Sort** icon at the top of the table, also select the order in which you want the field sorted. The options for the sorting order depend on the type of field you are sorting by. 
+1. (Conditional) If you click **Sort** at the top of the table, the **Sort records by** box opens. Click one of the suggested fields, or click **Choose a different field** and search for a different field, then click it when it displays in the list. 
+
+    The sorting is applied automatically to the table view and records display sorted by your selected criteria. 
+    
+1. (Optional) Click **Add condition**, and repeat the above steps to sort by additional fields.  
+
+    The number of fields that you are sorting by displays to the left of the Sort icon in the upper-right corner of the toolbar. You can choose only fields that display in the columns of the table view.
+1. (Conditional) If you clicked the **Sort** icon at the top of the table, select the order in which you want the field sorted in the **Sort records by** box. The options for the sorting order depend on the type of field you are sorting by. 
 
     >[!TIP]
     >
@@ -860,14 +867,6 @@ To sort records, do the following:
 
     The field is added as a sorting selection in the **Sort** icon at the top of the table. 
 
-1. (Conditional) In the **Sort records by** box, click one of the suggested fields, or click **Choose a different field** and search for a different field, then click it when it displays in the list. 
-
-    The sorting is applied automatically to the table view and records display sorted by your selected criteria. 
-    
-1. (Optional) Click **Add condition**, and repeat the above steps to sort by additional fields.  
-
-    The number of fields that you are sorting by displays to the left of the Sort icon in the upper-right corner of the toolbar. You can choose only fields that display in the columns of the table view.
-
 1. (Optional) In the **Sort records by** box, click the **x** icon to the right of a sorting field to remove the sort
 
     Or
@@ -882,9 +881,11 @@ To sort records, do the following:
     
     The fields selected for the sort display a sorting icon followed by a number that indicates the order in which the sorting is applied. 
 
-### Add groupings {#add-groupings}
+### Add groupings {#add-groupings-1}
 
-***********************this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced***************
+<!--
+***********************this section exists in the timeline view too, but the display is slightly different, so I kept both procedures; consider updating both sections if any updates to groupings are introduced***************
+-->
 
 You can group records by similar information when applying  a grouping to a view.
 
@@ -892,7 +893,7 @@ Consider the following:
 
 * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type.
 * You can apply 3 levels of grouping in a view. The records are grouped in the order of groupings that you select. 
-***************  * You can apply up to 4 levels of grouping when using the API. --checking on this one for now ******************
+<!--***************  * You can apply up to 4 levels of grouping when using the API. --checking on this one for now ******************-->
 * The groupings are unique to the view that you select. Two table views of the same record type can have different groupings applied to them. Two users looking at the same table view see the same grouping that is currently applied. 
 * You cannot name the groupings you build for a table view.
 * Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
@@ -901,8 +902,7 @@ Consider the following:
 * When you group by lookup fields with multiple values (that have not been summarized by an aggregator), records are grouped by each unique combination of field values.  
 * You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a grouping for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the grouping you are creating for the Activity record type. 
 * Groupings are listed in the alphabetical order of their values. 
-********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************
-
+<!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
 
 To add a grouping:
 
@@ -930,7 +930,7 @@ To add a grouping:
 
     ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
 
-    
+    <!--
     ******** NOT POSSIBLE **********
     1. Right-click any of the grouping headers in the table view, then click one of the following options:
         * **Expand group**
@@ -939,26 +939,21 @@ To add a grouping:
         * **Collapse all**
         * **Expand subgroups**
         * **Collapse subgroups**
-
         Depending on the number of groupings you apply to the view, some options might not be available.
     ********* NOT POSSIBLE ABOVE **********
-   
-
-************* EDIT THIS OR HIDE FOR PREVIEW RELEASE ***************
+   -->
 
 ### Add row colors
 
-1. (Optional) Click **Row colors** to define conditions and choose configure different colors for table rows.
+1. (Optional) Click **Row colors** to define conditions and configure different colors for table rows.
 
-1. Click **Add color**, then search for a field then select it when it displays in the list. This is the field whose value you want to define the color of a row.
+1. Click **Add color**, then search for a field then select it when it displays in the list. This is the field whose value you want to define the color of a row or the Primary field.
 
     For example, to display campaigns with a status of Active in green, select **Status**, then choose a modifier and a value for the field. 
 
-    ![Row colors box with Active status selected and default color choice](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
-
 1. Click the drop-down menu for the color picker in the upper-left corner of the condition you selected, to pick the color for the condition, then click outside the color picker box to close it. 
 
-    ![Drop-down color picker menu in Row colors box highlighted](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+    ![Row colors box with Active status selected and default color choice](assets/row-colors-box-with-active-status-selected-default-color-choice-gtable.png)
 
 1. (Optional) Click **Add condition** to add more fields and values to the first set of conditions 
 
@@ -968,16 +963,27 @@ To add a grouping:
     
     For example, you can display campaigns in a Planning status in yellow by defining a new set of conditions. 
 
-    ![Row colors box with Active and Planning status custom colors](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+    ![Row colors box with Active and Planning status custom colors](assets/row-colors-box-with-active-and-planning-status-custom-colors-gtable.png)
+
+    >[!TIP]
+    >
+    >When you have two different fields selected, the last rule applies first for what colors will be applied to the rows.
+
 
 1. (Optional) Turn on the **Apply to the entire row** setting in the upper-right corner of the **Row colors** box. The entire row where the condition is met automatically displays in the selected color. 
 
     >[!NOTE]
     >
-    >If the **Apply to the entire row** setting is turned off, only the background of the primary field cell displays in the selected color. The setting is turned off by default.
+    >* If the **Apply to the entire row** setting is turned off, only the background of the primary field cell displays in the selected color. The setting is turned off by default.
     >
+    >* The Apply to the entire row setting is dimmed when you apply groupings to the table.
 
 1. Click outside the **Row colors** box to close it. The colors are applied automatically.
+
+    >[!TIP]
+    >
+    >If you chose to apply color just to a cell, only the Primary field is highlighted. 
+
 
 ### Enable the real-time presence indicator
 
@@ -989,11 +995,11 @@ Enabling the real-time presence indicator in the table view in the Preview envir
 
 For information, see the [Enable the real-time presence indicator](#enable-the-real-time-presence-indicator) section in this article. 
 
-************* at production, paste here the information from the Production section above ****************
+<!--*********** at production, paste here the information from the Production section above ****************-->
 
 </div>
 
--->
+
 
 
 

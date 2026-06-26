@@ -68,3 +68,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    ![Proofing_Viewer_toolbar_button_-_Download.png](assets/proofing-viewer-toolbar-button---download.png)
 
 1. Browse to the location on your file system where you want to download the proof, then click **Save**.
+
+   >[!NOTE]
+   >
+   >When a proof contains multiple files, Workfront generates a .zip file. If two or more files in the proof share the same filename, the .zip includes only one copy of that file. As a result, the number of files in the .zip can be lower than the number of files shown in the proofing viewer. For example, a proof with 5 files where 2 are named `document.pdf` produces a .zip that contains 4 files.

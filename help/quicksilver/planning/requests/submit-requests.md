@@ -34,7 +34,7 @@ topic_v2:
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -220,28 +220,6 @@ Not sure how to change the request status, but dev also said: Changing the names
 
    For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). 
 
-   <!-- 
-   Removing this as this is covered at a higher level in the Use enhanced lists article: 
-   1. (Optional) From the requests list, do any of the following:
-      * Click **Filters** and start adding conditions for what requests you want to view in the Requests list. 
-         ![Editing filters in the Requests area](assets/filters-editing-box-in-requests-planning-tab.png)
-         You can filter by the following fields:  
-         * **Workspace**: The workspace the request form is associated with.
-         * **Object type**: The record type the request form is associated with.
-         * **Entry date**: The date when the request was submitted.
-         * **Request form**: The name of the request form used to submit the request.
-         * **Status**: The status of the request.
-         * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
-        You can have multiple filters joined by either **And** or **Or**.
-         The request list is filtered automatically, as you add the filter conditions.  
-      * Click **Columns** to open the **Fields visibility and order** box, then hide, show, or rearrange the columns in the request list. 
-         >[!TIP]
-         >
-         >You cannot add any more columns. 
-         ![Columns editing box in Requests area](assets/columns-editing-box-in-requests-planning-tab.png)
-      * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
-   -->
-
 1. Click the name of a request in the list. 
 
       The request details page opens. 
@@ -255,11 +233,12 @@ Not sure how to change the request status, but dev also said: Changing the names
    >
    >  <div class="preview">
    >
-   >   * Editing a request is possible only when a record has not been created yet and the request is awaiting approval. 
-   >   * Some fields are read-only and you cannot edit them. 
-   >  * You can no longer edit a request after a record has been created from it. 
+   >* Editing a request is possible only when a record has not been created yet and the request is awaiting approval. 
+   >* Some fields are read-only and you cannot edit them. 
+   >* You can no longer edit a request after a record has been created from it. 
    >
-   >  </div>   
+   >  </div> 
+1. <span class="preview">(Optional) After editing the request, click **Submit changes**.</span>   
 1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Created object** field. 
 
    The record's page opens in Workfront Planning. 
@@ -269,10 +248,34 @@ Not sure how to change the request status, but dev also said: Changing the names
    >* If the record's primary field was not updated in the request form, the name of the record in the Record field of the request displays as **Untitled**. 
    >
    >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. The record is not created until the approval is granted. 
+   >  For information about approving requests, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md). 
 
 1. (Optional) Click the name of the **Record type**. 
 
    The record type page opens in Workfront Planning. 
+
+<!-- 
+Moved from line 223, just after the "For information, see [Use enhanced lists]..." This is due to rendering bug.
+Removing this as this is covered at a higher level in the Use enhanced lists article: 
+1. (Optional) From the requests list, do any of the following:
+   * Click **Filters** and start adding conditions for what requests you want to view in the Requests list. 
+      ![Editing filters in the Requests area](assets/filters-editing-box-in-requests-planning-tab.png)
+      You can filter by the following fields:  
+      * **Workspace**: The workspace the request form is associated with.
+      * **Object type**: The record type the request form is associated with.
+      * **Entry date**: The date when the request was submitted.
+      * **Request form**: The name of the request form used to submit the request.
+      * **Status**: The status of the request.
+      * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
+      You can have multiple filters joined by either **And** or **Or**.
+      The request list is filtered automatically, as you add the filter conditions.  
+   * Click **Columns** to open the **Fields visibility and order** box, then hide, show, or rearrange the columns in the request list. 
+      >[!TIP]
+      >
+      >You cannot add any more columns. 
+      ![Columns editing box in Requests area](assets/columns-editing-box-in-requests-planning-tab.png)
+   * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
+-->
 
 ## Submit a request to Workfront Planning from a shared link to a request form
 

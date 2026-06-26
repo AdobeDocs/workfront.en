@@ -29,7 +29,7 @@ topic_v2:
 ---
 # Edit records
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -233,7 +233,7 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 
     * Copy one or multiple existing values of one field, then paste them into a field of the same type on another record
     * Click the column header of a column to select it and copy it, then click the column header of another column and paste the contents of the copied column. The columns must contain similar field types. 
-    * With your Shift key pressed, click to select several rows in a table, copy the information in the selected rows, then click a different row and paste the selected information in the new row and the following rows after that. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
+    * With your Shift key pressed, click to select several rows in a table, copy the information in the selected rows, then click a different row and paste the selected information in the new row and the following rows after that. <span class="preview">This is not possible in the Preview environment.</span>
     * Copy the information from one cell, then select multiple cells and paste the same information in multiple cells. You can select multiple cells and paste the same information in multiple cells from adjacent rows and columns. 
     * Select the lower-right corner of an existing cell that contains the information you want to copy, then drag and drop it across the adjacent cells where you want to paste the same information. All cells must contain the same type of information. 
 
@@ -242,7 +242,8 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
     * Copy one or multiple cells from an external source (for example, an Excel file), then paste them in one of the the following fields types:
 
         * Workfront Planning connection fields.  
-        <!--<span class="preview">This is not possible in the Preview environment.</span>-->
+        
+            <span class="preview">This is not possible in the Preview environment.</span>
         * People fields. Only fields with one value are supported. 
         * Text fields.
         * Select fields.
@@ -276,12 +277,12 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record name and choose from the following options: 
 
-    * **View** <!--or <span class="preview"Open in new tab</span>-->: This opens the record page.
+    * **View** or <span class="preview">**Open in new tab**</span>: This opens the record page.
     * **Copy link**: To copy a link to the record's page.
     * **Edit thumbnail**: To add a thumbnail to a record. 
         For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
     * **Duplicate**: This creates an identical duplicate of the record. 
-    * **Insert record above/ Insert record below**: Adds a new row so you can add a new record. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
+    * **Insert record above/ Insert record below**: Adds a new row so you can add a new record. <span class="preview">This is not possible in the Preview environment.</span>
     * **Delete**: To delete the record. Deleted records are saved in the Recently deleted box for up to 30 days.
 
 
@@ -476,3 +477,4 @@ To add a new choice to an existing select field when editing a record:
 
     A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 
+ 

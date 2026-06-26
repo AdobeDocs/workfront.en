@@ -2,34 +2,20 @@
 title: Hidden test
 description: hidden test
 hide: true
-hold: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
 TQID: https://experienceleague.adobe.com/RlziN8Iol78I68TviI3xYG3HmfsooyCM4jwapInCXpM
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-    internal-label: Administration
-subfeature_v2:
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-    internal-label: Workfront Scenario Planner
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-    internal-label: Administration
 ---
 # Hidden test
-
-Hold to Preview only
-
-May the 4th Bee Wit U 
 
 Hidden file used for testing publish times in larger repo.
 
 Contact Bob if there are issues.
+
+
+![Adobe logo](assets/adobe-logo-old.png)
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)

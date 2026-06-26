@@ -188,12 +188,15 @@ You can create a project from the Projects area in the Main Menu, or from the Pr
       >
       >* Using a legacy Workfront storage template creates a legacy Workfront storage project. 
       >
-      >* When you use an Adobe cloud storage template from a legacy Workfront storage portfolio or program, the project is an Adobe cloud storage project and the portfolio or program are also converted to Adobe cloud storage objects. All other legacy Workfront storage projects under the same portfolio or program remain unchanged. 
+      >* When creating projects using templates from a portfolio or program, the following scenarios exist: 
+      >     * You cannot use an Adobe cloud storage template from a legacy Workfront storage portfolio or program to create a project.
+      >     * You can create an Adobe cloud storage project for an Adobe storage portfolio or program using a Legacy storage template. Any template documents and folders are not attached to the new project. 
       >
       > Your Workfront instance might not have both types of document storage. 
       >
       >For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md). 
-
+     
+   
    1. Review the following template details on the right:
    
       * Template duration

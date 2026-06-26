@@ -11,6 +11,53 @@ This page describes Reporting enhancements made with the Third Quarter 2026 rele
 
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Canvas Dashboard prompt defaults and user preference persistence
+
+>[!NOTE]
+>
+>Preview: June 25, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
+
+To improve efficiency for users moving between dashboards and records by preserving their working filter state, dashboard managers can now define default prompt values for Canvas dashboards. These defaults are automatically applied for all dashboard viewers.
+
+When a user updates prompts, their selections are saved and restored on refresh, reopen, or after navigating to a record and back.
+
+Managers can reset the dashboard's default state at any time. Users can also quickly revert to defaults via the three-dot menu.
+
+Prior to this enhancement, dashboard prompts did not have a configurable default or a saved user preference for the prompt status.
+
+For information, see [Filter a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md).
+
+## Add multiple Power BI IP address ranges to the Data Connect allowlist at once
+
+>[!NOTE]
+>
+>Preview: N/A
+>Production fast release: June 11, 2026
+>Production for everyone: July 16, 2026
+
+Workfront administrators connecting Microsoft Power BI to Workfront Data Connect can now add an entire region's set of Azure IP address ranges to the allowlist in a single step. On the **IP Allowlist** tab in **Data Connect**, the **New IP address** button now includes an **Add Power BI IP address blocks** option that opens a dialog where you can paste Power BI service tag entries from Microsoft's published Azure IP Ranges and Service Tags JSON file.
+
+This replaces the previous workflow of adding each Power BI CIDR block one at a time, which was time-consuming for regions that publish dozens of address prefixes.
+
+For more information, see [Establish a connection to Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
+
+
+## Sort the Canvas Dashboards list
+
+>[!NOTE]
+>
+>Preview: June 11, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
+>
+>Canvas Dashboards is currently in beta.
+
+You can now sort the Canvas Dashboards list by any of the following columns: **Name**, **Description**, **Created by**, or **Create date**. Click a column header to sort the list by that column, then click the same header again to reverse the sort direction. By default, the list is sorted by **Name** from A to Z. Your sort order is preserved when you switch between tabs in the Canvas Dashboards list.
+
+For more information, see [Use Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
+
 ## Changes to Actual Hours in custom formulas
 
 >[!NOTE]
@@ -58,3 +105,4 @@ Canvas dashboards now structure report queries to prevent duplicate rows when fi
 Previously, a join between related records could repeat parent records once for each related record. For example, in a project report filtered to tasks assigned to a specific user, each project repeated once for every matching task. A KPI that summed project budget could show $6,000 instead of the correct $1,250.
 
 There are no changes to the Canvas dashboard interface. Existing reports automatically return accurate data after this release.
+

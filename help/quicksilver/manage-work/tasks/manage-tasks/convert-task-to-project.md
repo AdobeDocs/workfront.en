@@ -117,14 +117,15 @@ Old:
   * A legacy Workfront storage task creates a legacy Workfront storage project.
   * An Adobe cloud storage task creates an Adobe cloud storage project.
   * Using a legacy Workfront storage template to convert an Adobe cloud storage task creates an Adobe cloud storage project. 
-  * Using an Adobe cloud storage template to convert a legacy Workfront storage task creates a legacy Workfront storage project.
+  * Using an Adobe cloud storage template to convert a legacy Workfront storage task creates an Adobe cloud storage project. Documents and their approvals remain on the current project. 
 
     For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
     >[!TIP]
     >
     >Your Workfront instance might not have access to both types of document storage.
-    
+
+
 * Status and percent complete of all sub-tasks and issues are preserved.
 * Task assignees and the user converting the task to the project become shared users on the project.
 * The project start date is set to the start date of the task.

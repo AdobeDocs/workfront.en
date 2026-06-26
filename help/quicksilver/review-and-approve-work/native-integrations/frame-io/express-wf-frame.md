@@ -1,0 +1,109 @@
+---
+content-type: reference
+product-area: workfront-integrations
+navigation-topic: workfront-integrations-navigation-topic
+title: Get started with the Adobe Express and Frame.io integration
+description: Get started with the Adobe Express and Frame.io integration
+author: Courtney
+feature: Workfront Integrations and Apps, Digital Content and Documents
+recommendations: noDisplay, noCatalog
+
+---
+
+# Get started with the Adobe Express and Workfront with Frame.io integration
+
+Use Workfront with Adobe Express to
+
+* Streamline collaboration between creative, legal, and compliance teams to reduce time-to-publish while maintaining oversight  
+
+* Conduct for deep reviews using drawing markups, annotations, and commenting with the Frame.io viewer 
+
+* Meet enterprise compliance standards with electronic signatures and full audit logs 
+
+* Require approval on any remixed files from an Express branded template  
+
+* Map an Express template to a multi-stage review and approval workflow using unified approval templates in Workfront
+
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+ <tr> 
+   <td role="rowheader">Adobe Workfront packagae</td> 
+   <td> 
+   <p>Any</p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+   <p>Standard </p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Additional products</td> 
+   <td> 
+   <p> You must have Adobe Express, and you must be added to the product as a user in the Admin Console. </p> </td> 
+  </tr>
+ </tbody> 
+</table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
+ +++
+
+## Integration requirements 
+
+* You must have entitlements to access Adobe Express and at least one Workfront environment with a Workfront Standard license.
+
+
+## Set up approval workflows in Workfront
+
+Before users can add an approval workflow on an Express template, a user with a Standard license must create an approval workflow template in Workfront.
+
+For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
+## Add an approval workflow to an Express templates
+
+After an approval workflow template is created in Workfront, designers with an Express Enterprise premium license can assign it to an Express template directly within Adobe Express. 
+
+ When a Express template is remixed, an approval will be required before publishing--automatically triggering the pre-configured approval workflow. 
+ 
+Users must have a Standard Workfront license to request approval from Adobe Express.
+
+Learn how to [get approval on designs](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).   
+
+
+## Remix Express templates and send for review and approval 
+
+Adobe Express users can remix Express templates to fit their needs. Before publishing, they must request approval from the designated approvers.
+
+Throughout the content production and review and approval process, users can 
+
+* See who has opened the file
+* View the decision status of all participants
+* Read comments 
+* and more
+
+### Choose a Workfront project when requesting approval
+
+When requesting approval on a remixed Express template, users can choose a Workfront project to send the asset to. This helps keep all related assets and proofs organized within the same project.
+
+If no project is selected, the asset will default into an Express-specific project.
+
+For more information, see [Send templates for review and approval](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
+
+
+## Review and approve remixed Express files with Frame.io
+
+Stakeholders can provide feedback relevant to their area of expertise—-such as copy, legal, or brand—-by using markup tools and comments in the Frame.io viewer.
+
+They are also are responsible for making final decisions to approve the content so it can be published.
+
+Users must have at least Collaborator Workfront license to review and make a decision.
+
+For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
