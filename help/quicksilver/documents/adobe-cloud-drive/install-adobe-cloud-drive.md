@@ -58,8 +58,7 @@ If your organization manages application installs for you and you don't see Adob
 **Operating systems:**
 
 * macOS 13.5 or newer (Intel and Apple Silicon)
-* Windows 11 version 1809 or newer (x64)
-* Windows 11 version 1903 or newer (ARM64)
+* Windows 11 22H2 (22621.4317) or newer (x64 and ARM64)
 
 **Hardware:**
 
