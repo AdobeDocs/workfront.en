@@ -25,3 +25,4 @@ For information about creating  a reader account with Snowflake and establishing
 
 For information about Planning information in the Workfront Data Connect data dictionary, see [Workfront Data Connect data dictionary](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md).
 
+
