@@ -29,6 +29,8 @@ Approval workflows for documents now support parallel paths, helping teams run m
 
 For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) and [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
+<!--
+
 ## Adobe Cloud Drive
 
 >[!NOTE]
@@ -43,6 +45,8 @@ Adobe Cloud Drive is now available to organizations that are on a version of Wor
 For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 [View a video demonstration of this feature.](https://video.tv.adobe.com/v/3492492){target="_blank"}
+
+-->
 
 ## Request approval on Adobe Express templates with Workfront and Frame.io
 
