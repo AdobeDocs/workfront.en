@@ -38,6 +38,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
 * [Project enhancements](#project-enhancements)
 * [Reporting enhancements](#reporting-enhancements)
 * [Requests enhancements](#requesting-enhancements)
+* [Resource Management enhancements](#resource-management-enhancements)
 * [Other enhancements](#other-enhancements)
 
 ### AI enhancements
@@ -399,7 +400,29 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>April 23, 2026</p></td>
         </tr>
     </tbody>
-</table>  
+</table> 
+
+### Resource Management enhancements
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Streamlined bulk assignment actions in the Workload Balancer</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Bulk assignments have been streamlined in the Workload Balancer, with the actions of assigning users and replacing users combined into the <strong>Replace resource</strong> action.</p>
+            </td>
+            <td><p>June 19, 2026</p></td>
+            <td><p>June 19, 2026</p></td>
+            <td><p>June 19, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
 
 ### Other enhancements
 
@@ -513,6 +536,8 @@ For information about the maintenance updates made during the Third Quarter 2026
 ### Training updates
 
 Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+
+
 
 
 
