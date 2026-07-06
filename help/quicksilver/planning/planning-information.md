@@ -119,7 +119,7 @@ The following sections contain articles that describe in detail the features cur
 
 * [Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration: article index](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): You can manage records from GenStudio for Performance Marketing in the GenStudio workspace in Workfront Planning.
 
-* **Workfront Planning reporting capabilities**: You can view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+* **Workfront Planning reporting capabilities**: You can view Workfront Planning information in a report using the Workfront Canvas Dashboard, or in Workfront Data Connect which uses Snowflake technology. For information, see [Adobe Workfront Planning reporting: article index](/help/quicksilver/planning/reporting/reporting-in-planning-article-index.md).
 
 * [Adobe Workfront Planning best practices: article index](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md): Learn tips on how to roll out Adobe Workfront Planning in your organization using a strategy that prioritizes safety, minimizes disruption, and delivers quick wins.
 
