@@ -185,6 +185,11 @@ A dashboard prompt gives users the option to apply additional customized filters
     1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png), then click **Save as default prompts**. 
         
         The prompt's filter is applied every time the dashboard loads for anyone with View or higher permissions to it. 
+
+        >[!TIP]
+        >
+        >If you didn't build the prompt and you don't have access to its fields, the field names will not display. Modify the  prompt to populate the report.
+
     1. (Conditional) If you access a dashboard with a default prompt applied, you can modify the filter and your modifications are saved as a personal preference. The following scenarios exist:
         
         * If you have Manage permissions to the dashboard, click **Save as default prompts** to save your modifications as a default filter. This replaces the original defaults.
@@ -214,6 +219,7 @@ All users with access to a dashboard can apply a dashboard prompt to a Canvas Da
 ![Select condition](assets/prompts-list.png)
 
 1. Click the **Close** icon ![Close icon](assets/close-icon.png) in the upper-right corner to hide the panel.
+
 
 
 
