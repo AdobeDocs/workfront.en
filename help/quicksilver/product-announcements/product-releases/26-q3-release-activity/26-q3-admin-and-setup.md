@@ -18,8 +18,6 @@ For a list of all changes available at this point in the Third Quarter 2026 rele
 >Preview: July 7, 2026
 >Production fast release: July 15, 2026
 >Production for everyone: July 16, 2026
->
->This feature is only available for organizations on the Workflow Ultimate package.
 
 The Change History page in Workfront now captures activity across unified review and approval workflows, giving administrators a complete governance trail for review and document lifecycle events.
 
