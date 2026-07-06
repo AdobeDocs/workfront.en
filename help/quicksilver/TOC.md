@@ -2151,6 +2151,7 @@ feature-set: Workfront
     * [Get started with Adobe Workfront Planning](planning/general/planning-overview.md)
     * [Adobe Workfront Planning implementation recommendations](planning/general/planning-best-practices.md)
     * [Adobe Workfront Planning API basics](planning/general/planning-api-basics.md)
+    * {hide-from-toc}[Workfront Data Connect for Workfront Planning ](planning/general/planning-in-data-connect.md)
     * [Adobe Workfront Planning AI Assistant overview](planning/general/planning-ai-assistant-overview.md)
     * [Get started with the Adobe Workfront Planning Designer](planning/general/planning-ai-designer.md)
     * [Adobe Workfront Planning release activity for 2024](planning/general/release-activity.md)
