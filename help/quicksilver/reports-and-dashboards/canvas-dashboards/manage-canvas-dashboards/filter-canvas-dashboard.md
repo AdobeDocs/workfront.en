@@ -37,11 +37,12 @@ topic_v2:
 >* Google Cloud Platform 
 
 <!--
+Take Preview and production mentions out at release
+-->
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
 
 You can apply a filter to a Canvas Dashboard that contains prompts. A prompt works as a filter modifier that applies additional filtering criteria so you can narrow your results down even further. These prompts can be modified each time you apply the filter, allowing you to adjust the displayed results without needing to edit the main filter criteria of the dashboard or each individual report. 
 
@@ -122,7 +123,7 @@ With a dashboard filter, you can apply a common filter across all reports that a
 
 1. In the upper-left corner of the dashboard details page, click **Filters**. The filters side panel opens. 
 
-1. Click <!--<span class="preview">the **More** menu ![More menu](assets/more-icon.png), then click</span>--> **Edit filters**. The **Dashboard filters** dialog box opens.
+1. (Conditionalt) In the Production environment, click **Edit filters**, or <span class="preview">in the Preview environment, click the **More** menu ![More menu](assets/more-icon.png), then click</span> **Edit filters**. The **Dashboard filters** dialog box opens.
 
 1. (Optional) To add a rule, follow the steps below:
 
@@ -176,18 +177,29 @@ A dashboard prompt gives users the option to apply additional customized filters
 
 1. Click **Save** to apply the filter to the dashboard.
 
-    <!--
-    1.<span class="preview">To save prompts as default filters, do the following, after you saved the prompt: </span>
-        <div class="preview">
-        1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png), then click **Save as default filter**. 
-            The filter is applied every time the dashboard loads for anyone with View or higher permissions to it. 
-        1. (Conditional) If you access a dashboard with a default filter applied, you can modify the filter and your modifications are saved as a personal preference. The following scenarios exist:
-            * If you have Manage permissions to the dashboard, click **Save as default filter** to save your modifications as a default filter. This replaces the original defaults.
-            * If you have View permissions to the dashboard, your modifications display only for you. Refreshing the page preserves your settings. 
-        1. (Conditional) If you modified the settings of the default filter, click the **More** menu ![More menu](assets/more-icon.png), then **Apply dashboard defaults** to return to the default filter results. 
-        1. (Optional) Click **Reset defaults** to replace the original default settings with your modifications. This option is only available for dashboard managers. 
-        </div> 
-    -->
+    
+1. <span class="preview">To save prompts as a default, do the following, after you saved the prompt: </span>
+        
+    <div class="preview">
+    
+    1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png), then click **Save as default prompts**. 
+        
+        The prompt's filter is applied every time the dashboard loads for anyone with View or higher permissions to it. 
+
+        >[!TIP]
+        >
+        >If you didn't build the prompt and you don't have access to its fields, the field names will not display. Modify the  prompt to populate the report.
+
+    1. (Conditional) If you access a dashboard with a default prompt applied, you can modify the filter and your modifications are saved as a personal preference. The following scenarios exist:
+        
+        * If you have Manage permissions to the dashboard, click **Save as default prompts** to save your modifications as a default filter. This replaces the original defaults.
+        * If you have View permissions to the dashboard, your modifications display only for you. Refreshing the page preserves your settings. 
+
+    1. (Conditional) If you modified the settings of the default prompt, click the **More** menu ![More menu](assets/more-icon.png), then click **Apply dashboard defaults** to return to the default filter results. 
+    1. (Optional) Click **Reset defaults** to replace the original default settings with your modifications. This option is only available for dashboard managers. 
+    
+    </div> 
+    
 
 1. Proceed to [Part 3: Apply a dashboard prompt](#step-3-apply-a-dashboard-prompt). 
 
@@ -203,9 +215,11 @@ All users with access to a dashboard can apply a dashboard prompt to a Canvas Da
 
 1. In the upper-left corner of the dashboard details page, click **Filters**. The filters side panel opens. 
 
-1. In the **Show records where...** section, choose a condition for one or all the prompts displayed. The prompt is applied and a **Dashboard filters applied** tag appears in the corner of the report widget.
+1. In the **Show records where...** section, choose a condition for one or all the prompts displayed. The prompt is applied and a **Dashboard prompts applied** tag appears in the corner of the report widget.
 ![Select condition](assets/prompts-list.png)
 
 1. Click the **Close** icon ![Close icon](assets/close-icon.png) in the upper-right corner to hide the panel.
+
+
 
 

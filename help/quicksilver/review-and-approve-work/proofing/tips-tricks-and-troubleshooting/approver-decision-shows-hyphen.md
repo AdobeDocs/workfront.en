@@ -37,3 +37,5 @@ The Decision Date field still shows the date of the recipient's most recent deci
 For information about creating and using the Proof Approval report, see [Use the proof approval report](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md).
 
 
+
+
