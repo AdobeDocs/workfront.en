@@ -14,6 +14,10 @@ exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
 
 The top navigation bar — which appears at the top of your screen in [!DNL Adobe Workfront] — allows you to easily find and navigate to other areas of the platform.
 
+<span class="preview">Sample image in the Preview environment:</span>
+![Top navigation bar](assets/wf-top-navigation-070626.png)
+
+Sample image in the Production environment:
 ![Top navigation bar](assets/wf-top-navigation-2026.png)
 
 ## [!UICONTROL Home] icon
