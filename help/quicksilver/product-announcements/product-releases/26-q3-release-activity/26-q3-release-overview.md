@@ -383,6 +383,24 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Quarterly</strong></td>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Automated access control for Workfront Planning in Snowflake</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>This release introduces automated, entitlement-driven access management for Workfront Planning data in Snowflake as part of Workfront Data Connect.  </p>
+            </td>
+            <td><p>July 16, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+            <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Add custom data support for new objects</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>During the Second Quarter 2026, we added new objects to support the enterprise operations enhancements in Workfront.</p>
+            </td>
+            <td><p>July 7, 2026</p></td>
+            <td><p>July 7, 2026</p></td>
+            <td><p>July 7, 2026</p></td>
+        </tr>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Canvas Dashboard prompt defaults and user preference persistence</a>
                 <p>Dashboard managers can now define default prompt values for Canvas dashboards, automatically applied for all viewers. When a user updates prompts, their selections are saved and restored on refresh, reopen, or after navigating to a record and back.</p>
             </td>
