@@ -24,6 +24,8 @@ topic_v2:
 
 <!--Audited: 10/2024-->
 
+{{highlighted-preview}}
+
 Accessing [!DNL Workfront] through [!DNL Adobe CX Enterprise] gives you a seamless, unified experience for managing all of your [!DNL Adobe] applications. Single identity management gives you one place to log in, without multiple URLs or login IDs.
 
 ## Access requirements
@@ -96,6 +98,10 @@ Use the [!UICONTROL Main Menu] icon ![Main Menu icon](assets/main-menu-icon-left
 * **Layout template configurations**: To learn how a [!DNL Workfront] administrator can modify the [!UICONTROL Main Menu] from a layout template, see [Customize the [!UICONTROL Main Menu] using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 * **License type**: To learn the default configurations for different license types, see [Understand the navigation for a [!UICONTROL Light]-license user](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) or [Understand the navigation for a [!UICONTROL Work]-license user](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
+<span class="preview">Sample image in the Preview environment:</span>
+![Main menu](assets/main-menu-options-2026.png)
+
+Sample image in the Production environment:
 ![Main menu](assets/main-menu-options-left-nav.png)
 
 ## Access your profile and preferences
