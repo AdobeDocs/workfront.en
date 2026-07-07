@@ -87,6 +87,10 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | Search template by name | `approvals_search_template_by_name` | Finds approval templates by name (case-insensitive partial match). | Read |
 | Create approval template | `approvals_create_template` | Creates a new approval template with linear or graph-based stage dependencies. | Write |
 | Update approval template | `approvals_update_template` | Updates an existing template with structured modifications (add or remove participants, rename stages, set deadlines, etc.). | Write |
+| Remind stakeholders of approvals in bulk | `approvals_send_approval_reminder` | Send approval reminder emails to all pending approvers across an entire project, folder, campaign, or due-date window. | Write |
+| Update approval templates in bulk | `approvals_update_template` | Perform template updates to multiple templates, such as applying templates to assets, creating new templates from scratch or from existing approval flows, editing templates, and performing bulk operations across templates and assets. | Write |
+| Add or remove approval participants in bulk. | `approvals_update_approval_participants`  and `approvals__submit_update_approval_participants` | Add, remove, or replace participants across an entire portfolio, program, or project scope in one operation. | Write |
+
 
 ### Lookups and users
 

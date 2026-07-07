@@ -11,6 +11,17 @@ This page describes enhancements made with the Third Quarter 2026 release to the
 
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Interface update for global navigation icons
+
+>[!NOTE]
+>
+>Preview: July 7, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
+
+We have updated the look and feel of general navigation icons in Workfront, including the Main Menu and navigation bar icons, to provide a modern design and a consistent experience with other Adobe applications. Also, the experience of adding and removing pinned pages has been streamlined to require fewer clicks.
+
+For more information, see [Top navigation bar overview](/help/quicksilver/workfront-basics/the-new-workfront-experience/global-navigation-overview.md) and [Pin pages](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
 ## Updated look and feel for comment notification emails
 
