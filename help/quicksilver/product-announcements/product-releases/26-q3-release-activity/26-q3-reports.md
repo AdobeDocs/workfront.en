@@ -11,6 +11,37 @@ This page describes Reporting enhancements made with the Third Quarter 2026 rele
 
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Automated access control for Workfront Planning in Snowflake
+ 
+>[!NOTE]
+>
+>Preview and Production for all customers: July 16, 2026 
+>[!BADGE Off schedule]{type=Neutral}
+
+This release introduces automated, entitlement-driven access management for Workfront Planning data in Snowflake as part of Workfront Data Connect.  
+It starts by extending secure view generation to Planning tables  establishing the required foundation for downstream access control and making entitlement-based grants possible. 
+Building on this, reader account provisioning now checks TMS entitlements at creation time and automatically applies or withholds grants to the Planning database, ensuring correct.  
+Prior to this enhancement, this was available only for Workfront.  
+The update includes the following capabilities: 
+
+* An automated daily job detects entitlement changes for existing customers 
+* The new job grants, revokes, or preserves access based on entitlements 
+* Full lifecycle coverage across provisioning, account creation, and ongoing entitlement changes. 
+
+The [Workfront Data Connect data dictionary](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md) article will be updated after the release date.
+
+## Add custom data support for new objects
+
+>[!NOTE]
+>
+>Preview and Production for all customers: July 7, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+During the Second Quarter 2026, we added new objects to support the enterprise operations enhancements in Workfront.
+With the current release, we are also adding custom data support for several new objects in the Canvas Dashboard.
+
+For information, see [Canvas Dashboard Overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+
 ## Canvas Dashboard prompt defaults and user preference persistence
 
 >[!NOTE]
