@@ -285,6 +285,14 @@ Yes. A user can be assigned to multiple stages within the same approval workflow
 
 Yes. Multi-stage approval workflows are supported, allowing you to route assets through sequential rounds of review and approval with different participants at each stage.
 
+<div class="preview">
+
+**Can I configure parallel review paths in an approval workflow?**
+
+Yes. In Preview, approval workflows support parallel paths in addition to sequential stages. Each path runs independently and contains one or more sequential stages, so reviews on different paths can happen at the same time. You can configure up to 30 paths and 100 stages in a single approval. The same options are available in approval templates. For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) and [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
+</div>
+
 <!--
 **Can I modify the trigger for a later stage---for example, based on all approved versus the due date ending?**
 
