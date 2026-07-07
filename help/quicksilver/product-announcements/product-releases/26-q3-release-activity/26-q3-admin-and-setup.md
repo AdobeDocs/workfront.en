@@ -33,6 +33,8 @@ This phase of change tracking does not include MCP events. Those will be part of
 
 For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
 
+<!--
+
 ## Internal lookup field replacing Typeahead field type
 
 >[!NOTE]
@@ -53,6 +55,10 @@ The Internal lookup field type is replacing the Typeahead field type. You can qu
 
 For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
+-->
+
+<!--
+
 ## Default value logic supported on native reference fields
 
 >[!NOTE]
@@ -68,6 +74,10 @@ In custom forms, native reference fields now allow you to add default value logi
 This logic type on native reference fields is available only in the user interface and not in the Workfront API.
 
 For information, see [Add default value logic to a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md#add-default-value-logic-to-a-custom-form) in the article [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
+
+-->
+
+<!--
 
 ## Updates to native field filtering in custom forms
 
@@ -89,6 +99,10 @@ For example, when you use `?portfolioID={portfolio}.{ID}` in a Project field fil
 
 For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
+-->
+
+<!--
+
 ## Protect field names from accidental renaming
 
 >[!NOTE]
@@ -102,6 +116,8 @@ To protect integrations and data integrity, we've updated how field names can be
 Field names in the field settings panel are now read-only by default. You can still edit the field name, but renaming requires an explicit confirmation step. The field previously called **Name** has also been updated to **API Name** to better reflect its technical significance. The **Label** field remains editable.
 
 For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#notes-on-field-names-and-labels).
+
+-->
 
 ## View change history for Workfront objects
 
