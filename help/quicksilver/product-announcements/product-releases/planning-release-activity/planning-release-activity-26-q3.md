@@ -23,6 +23,30 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Automated access control for Workfront Planning in Snowflake
+
+>[!IMPORTANT]
+>
+>Preview and Production for all customers: July 16, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+
+This release introduces automated, entitlement-driven access management for Workfront Planning data in Snowflake as part of Workfront Data Connect. 
+
+It starts by extending secure view generation to Planning tables  establishing the required foundation for downstream access control and making entitlement-based grants possible. 
+
+Building on this, reader account provisioning now checks TMS entitlements at creation time and automatically applies or withholds grants to the Planning database, ensuring correct.  
+
+Prior to this enhancement, this was available only for Workfront. 
+
+The update includes the following capabilities:  
+
+* An automated daily job detects entitlement changes for existing customers 
+* The new job grants, revokes, or preserves access based on entitlements 
+* Full lifecycle coverage across provisioning, account creation, and ongoing entitlement changes. 
+
+The [Workfront Data Connect data dictionary](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md) article will be updated after the release date.
+
 
 ## Set default permissions for records
 
