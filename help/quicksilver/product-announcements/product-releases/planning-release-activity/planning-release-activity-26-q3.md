@@ -24,6 +24,43 @@ This article describes the features that are releasing for Workfront Planning du
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 
+## Set default permissions for records
+
+>[!NOTE]
+>
+>Preview: July 7, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
+
+Workspace managers can now set a default permission rule — Open or Restricted — for each record type, so newly created records are automatically protected without any manual steps.  
+
+When you select Restricted, only the record creator and any specifically selected users, groups, teams, roles, or companies can edit the record, while everyone else retains view-only access.  
+
+This rule applies automatically to new records, regardless of how the record is created (New record button, request forms, API, using a Fusion automation, or AI Assistant). Changes to the rule only affect records created going forward, never existing ones.  
+
+Once a record is created, its permissions can still be updated independently without impacting the default rule for future records. 
+
+For information, see [Set default permissions for records](/help/quicksilver/planning/access/set-default-record-permissions.md).  
+
+## Swimlane grouping layout for the timeline view
+
+>[!NOTE]
+>
+>Preview: July 7, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
+
+Timeline views that are grouped now support a swimlane layout, with groups rendering as a frozen left header column instead of scrolling horizontal bands. This grouping type is additional to the current stacked grouping.  
+
+Nested grouping levels show as indented sub-columns, and records within each lane stay sub-stacked and sorted. 
+
+You can drag and drop records in the grouped view to smoothly update their information and dates.  
+
+All users viewing the view can see the groupings applied.  
+
+For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
+
+
 ## Support for currency Planning fields in Canvas Dashboards
 
 >[!NOTE]
