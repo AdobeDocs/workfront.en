@@ -191,6 +191,11 @@ For information about creating a report, see [Create a custom report](../../../r
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
+
+
+1. Click **Apply** or **Done** to save your text mode changes and continue editing the report or the filter.
+1. Click **Save + Close** to save your report or **Save Filter** to save the filter in the list.
+
 <!--
 
 If this text is needed for July 7 release, add the snippet at the top of the article!
@@ -204,8 +209,3 @@ If this text is needed for July 7 release, add the snippet at the top of the art
    For example, when you use `?portfolioID={portfolio}.{ID}` in a Project field filter and a Portfolio native field is on the custom form, the Project field shows only projects that are in the selected portfolio. If the Portfolio field is left blank, then all projects are available in the Project field.
 
 -->
-
-1. Click **Apply** or **Done** to save your text mode changes and continue editing the report or the filter.
-1. Click **Save + Close** to save your report or **Save Filter** to save the filter in the list.
-
-
