@@ -91,6 +91,7 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | Update approval templates in bulk | `approvals_update_template` | Perform template updates to multiple templates, such as applying templates to assets, creating new templates from scratch or from existing approval flows, editing templates, and performing bulk operations across templates and assets. | Write |
 | Add or remove approval participants in bulk. | `approvals_update_approval_participants`  and `approvals__submit_update_approval_participants` | Add, remove, or replace participants across an entire portfolio, program, or project scope in one operation. | Write |
 
+
 ### Lookups and users
 
 | Title | Tool name | What it does | Action |
