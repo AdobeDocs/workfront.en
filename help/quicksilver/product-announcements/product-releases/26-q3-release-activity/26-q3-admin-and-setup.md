@@ -119,7 +119,7 @@ To make it easier for you to see the changes that have occurred in one central l
 
 Previously, Audit logs were available but did not cover objects.
 
-For more information see [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
 
 ## New system preference to convert legacy storage portfolios to Adobe cloud storage
 
