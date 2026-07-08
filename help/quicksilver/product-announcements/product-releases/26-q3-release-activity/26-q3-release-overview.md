@@ -115,7 +115,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Default value logic supported on native reference fields</a><p>[!BADGE Workflow Prime]{type=Informative}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Default value logic supported on native reference fields</a><p>[!BADGE Workflow Prime or higher]{type=Informative}</p>
                 <p>In custom forms, native reference fields now allow you to add default value logic. This logic type is available only in the user interface and not in the Workfront API.</p>
             </td>
             <td><p>July 7, 2026</p></td>
