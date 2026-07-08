@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: Organize documents: article index
+title: "Organize documents: article index"
 description: You can organize documents with folders. You can create traditional folders or smart folders.
 author: Courtney
 feature: Digital Content and Documents
