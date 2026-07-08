@@ -36,6 +36,7 @@ For more information, see [Create a document approval workflow](/help/quicksilve
 >Preview: N/A
 >Production fast release: July 8, 2026
 >Production for everyone: July 8, 2026
+>[!BADGE Off schedule]{type=Neutral}
 >This feature is only available to organizations on the Workflow Ultimate package, with Adobe cloud storage enabled.
 
 Adobe Cloud Drive is now available to organizations that are on a version of Workfront that supports Adobe cloud storage. Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer. Your changes sync automatically to Adobe cloud storage and are available to your team in Workfront and Frame.io.

@@ -143,7 +143,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">View change history for Workfront objects</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>To make it easier for you to see the changes that have occurred in one central list, we've create the Change History List. This list displays information such as the object, the operation, and the source of the change (such as a user or the Workfront system).</p>
+                <p>To make it easier for you to see the changes that have occurred in one central list, we've created the Change History List. This list displays information such as the object, the operation, and the source of the change (such as a user or the Workfront system).</p>
             </td>
             <td><p>June 11, 2026</p></td>
             <td><p>June 11, 2026</p></td>
