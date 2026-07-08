@@ -31,7 +31,7 @@ In addition to searching for help documentation, you can also access the followi
 
 {{step1-click-main-menu}}
 
-1. Click **[!UICONTROL Help]** ![Help icon](assets/help-icon.png).
+1. Click **[!UICONTROL Help]** ![Help icon](assets/help-icon-2026.png).
 
 >[!NOTE]
 >

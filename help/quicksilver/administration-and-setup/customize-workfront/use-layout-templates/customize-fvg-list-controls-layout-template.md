@@ -70,6 +70,13 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Customize Filter, View, and Grouping list controls
 
+
+>[!NOTE]
+>
+>Adding a view, filter, or grouping to a layout template controls layout only; it does not grant access. Users still need view access to each item. 
+>
+>Contributor, Requestor, and External license users can't see items shared system-wide, so views intended for them must be shared explicitly. For information, see [Share a filter, view, or grouping](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md). 
+
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Click the down arrow ![Down arrow](assets/down-arrow-blue.png) under **Customize what users see**, then click **Lists** in the drop-down menu that displays.
 
