@@ -48,8 +48,6 @@ For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documen
 
 -->
 
-## Request approval on Adobe Express templates with Workfront and Frame.io
-
 >[!NOTE]
 >
 >Preview: N/A
