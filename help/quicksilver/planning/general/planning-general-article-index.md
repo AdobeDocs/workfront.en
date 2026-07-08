@@ -36,6 +36,5 @@ Review the following articles:
 * [Adobe Workfront Planning implementation recommendations](/help/quicksilver/planning/general/planning-best-practices.md)
 * [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md)
 * [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md)
-* [View Workfront Planning information in reports](/help/quicksilver/planning/general/planning-information-in-reports.md)
 
 

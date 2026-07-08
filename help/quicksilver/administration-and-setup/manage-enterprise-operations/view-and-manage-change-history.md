@@ -3,8 +3,8 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-locations
 title: Change history
-description: Change history allows you to view a log of changes to Workfront objects
-author: Becky
+description: Change history allows you to view a log of changes to Workfront objects.
+author: Lisa and Becky
 feature: System Setup and Administration
 role: Admin
 ---
@@ -33,7 +33,7 @@ You can view change history, including audit logs, in the Change Tracking area o
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] package</td> 
-   <td>Workflow Ultimate</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] license</td> 
