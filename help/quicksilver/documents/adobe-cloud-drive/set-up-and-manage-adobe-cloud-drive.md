@@ -11,7 +11,7 @@ role: Admin
 
 As as administrator, you can set up Adobe Cloud Drive to give users direct desktop access to their project files in Adobe cloud storage, through Finder on macOS and File Explorer on Windows. This article covers how to enable access in the Adobe Admin Console, deploy the application to user devices, and manage access on an ongoing basis.
 
-Adobe Cloud Drive is available only to users with an eligible license for Workfront Ultimate.
+To use Adobe Cloud Drive, your organization must be on the Workflow Ultimate package, with Adobe cloud storage enabled.
 
 For information about what Adobe Cloud Drive is from a user's perspective, see [Adobe Cloud Drive overview](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md). For information about installing and using the application, see [Install Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/install-adobe-cloud-drive.md) and [Use Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md).
 
