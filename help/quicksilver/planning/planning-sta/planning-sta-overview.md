@@ -10,6 +10,10 @@ recommendations: noDisplay, noCatalog
 # Get started with Adobe Workfront Planning as a standalone product
 
 <!--
+This is linked from the "planning-important-intro" snippet and many other Planning integrated articles
+-->
+
+<!--
 
 Add the information from this document after Lilit has proofed it: https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.aspx?sourcedoc=%7B0EC828A2-7D86-42B5-B262-C79017BCF02A%7D&file=Without%20pricing_WFP_Standalone_Documentation.docx&action=default&mobileredirect=true 
 -->

@@ -43,9 +43,11 @@ topic_v2:
 >
 >Your company must purchase an additional package for Workfront Planning to access its capabilities. 
 >
->For more information, contact your account manager
+>For more information, contact your account manager. 
 >
 >For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>Workfront Planning is also available as a standalone product. For information about Workfront Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).
 
 There are license and sharing permission restrictions to use Adobe Workfront Planning. 
 

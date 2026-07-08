@@ -63,9 +63,9 @@ This article describes how you can share a view with others. For information abo
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and Planning package</p> 
+<p>Any Workfront or Workflow with a Planning package</p> 
 Or
-<p>Any Workflow and Planning package</p> 
+<p>Any Workfront Planning as a standalone product package</p> 
  </tr>
 <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
