@@ -1,5 +1,5 @@
 ---
-title: Workfront and Experience Manager Assets Integrations: article index
+title: "Workfront and Experience Manager Assets Integrations: article index"
 description: Workfront and Experience Manager Assets Integrations
 author: Courtney
 draft: Probably
