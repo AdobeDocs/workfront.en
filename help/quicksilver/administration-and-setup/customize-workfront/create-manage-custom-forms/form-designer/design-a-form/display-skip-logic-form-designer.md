@@ -29,6 +29,8 @@ topic_v2:
 ---
 # Add logic rules to custom forms and fields
 
+{{highlighted-preview}}
+
 Logic rules allow you to further customize the fields on your form.
 
 For example, you can display or skip fields or sections in a custom form based on the choices that a user makes when filling it out.
@@ -238,7 +240,7 @@ Skip logic defines custom form fields that are skipped when the user selects a s
 
 Default value logic allows you to configure default values for custom form fields, using formulas. The default value is displayed when the defined conditions are met. A default value can be a static value or a dynamic value that references other fields within the object. Although the default value can reference other fields, it will not change as other fields on the form change.
 
-You can apply advanced default value logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, multi-select external lookup. native field reference, typeahead, checkbox group, and radio buttons.
+You can apply advanced default value logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, multi-select external lookup, <span class="preview">native field reference</span>, typeahead, checkbox group, and radio buttons.
 
 >[!TIP]
 >
@@ -247,6 +249,8 @@ You can apply advanced default value logic to the following field types: single 
 >[!NOTE]
 >
 >Standard default value logic in the form designer still exists. If both types are applied on the same field, then the advanced logic takes precedence. For information on standard default value logic, see [Add radio buttons, checkbox groups, and drop-downs](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs) in [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>
+><span class="preview">For native reference fields, default value logic is available only in the user interface and not in the Workfront API.</span>
 
 ### Example
 

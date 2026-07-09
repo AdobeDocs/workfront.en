@@ -107,3 +107,4 @@ They are also are responsible for making final decisions to approve the content 
 Users must have at least Collaborator Workfront license to review and make a decision.
 
 For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+

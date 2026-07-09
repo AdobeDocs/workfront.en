@@ -43,6 +43,7 @@ The following articles contain information about what access your users need to 
 <div class="preview">
 
 * [Share records](/help/quicksilver/planning/access/share-records.md)
+* [Set default permissions for records](/help/quicksilver/planning/access/set-default-record-permissions.md)
 
 </div>
 

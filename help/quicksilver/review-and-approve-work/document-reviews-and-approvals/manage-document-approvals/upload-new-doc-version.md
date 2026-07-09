@@ -29,6 +29,8 @@ topic_v2:
 ---
 # Upload a new document version and request an approval
 
+{{highlighted-preview}}
+
 If a document is marked "Needs work" in a previous review, you can upload a new version to the original document and start another round of approvals. Once you upload a new version of the document, the previous versions are locked. 
 
 If the file name of the new version is different from the file name of the previous version, Workfront displays the document with the newer file name.
@@ -76,7 +78,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 
 
-## Use drag-and-drop to add a new version in the legacy documents area
+## Use drag-and-drop to add a new version in the legacy documents area in Production
 
 If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
@@ -94,8 +96,7 @@ To add a new version:
 1. Navigate to the document in Workfront.
 1. Drag and drop the new file on top of the previous document. This automatically creates a new version. 
 
-1. Once the document finishes uploading, select the document to open the Document Summary panel. Here you'll see the version number at the top of the panel. 
-    ![Open the document details page](assets/open-doc-details.png)
+1. Once the document finishes uploading, select the document to open the Document Summary panel. Here you'll see the version number at the top of the panel.
 
 
 1. Scroll down to the **Approvals** section.
@@ -143,3 +144,67 @@ To add a new version:
 
     ![request approval](assets/request-approval.png)
 <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
+
+<div class="preview">
+
+## Use drag-and-drop to add a new version in the legacy documents area in Preview
+
+If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
+
+>[!NOTE]
+>
+>Drag-and-drop does not work with Internet Explorer.
+
+If you need another round of review and approval on a document, you can create a new document version in Workfront. You can add the previous participants, new participants, or a mix of both. You can view information about previous versions and participants on the Document Details page.
+
+The Request approval dialog opens in Basic mode by default for a single-stage approval. Switch to Advanced mode to configure multi-stage approvals or parallel paths.
+
+To add a new version and request approval:
+
+1. Navigate to the document in Workfront.
+
+1. Drag and drop the new file on top of the previous document. Workfront automatically creates a new version.
+
+1. Once the document finishes uploading, select the document to open the Document Summary panel. The version number appears at the top of the panel.
+
+1. Scroll down to the **Approvals** section, then click **Create workflow**. The **Request approval** dialog opens in Basic mode.
+
+1. Configure the approval workflow. For field descriptions, the Advanced mode toggle, and the parallel paths flow, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+1. Click **Request approval**.
+
+   The approval workflow starts and the approvers receive a notification that their approval is needed on the new document version. The previous document version is locked and any outstanding approvals on the previous version are withdrawn.
+
+## Use drag-and-drop to add a new version in the new Documents area in Preview
+
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+>[!NOTE]
+>
+>Drag-and-drop does not work with Internet Explorer.
+
+If you need another round of review and approval on a document, you can create a new document version in Workfront. You can add an approval workflow to the new version of the document.
+
+<!--
+the previous participants, new participants, or a mix of both. You can view information about previous versions and participants on the Document Details page.
+-->
+
+The Request approval dialog opens in Basic mode by default for a single-stage approval. Switch to Advanced mode to configure multi-stage approvals or parallel paths.
+
+To add a new version and request approval:
+
+1. Navigate to the document in Workfront.
+
+1. Drag and drop the new file on top of the previous document. Workfront automatically creates a new version.
+
+1. Once the document finishes uploading, select the document to open the Summary panel. The latest version of the document is selected by default.
+
+1. Scroll down to the **Approvals** section, then click **Create workflow**. The **Request approval** dialog opens in Basic mode.
+
+1. Configure the approval workflow. For field descriptions, the Advanced mode toggle, and the parallel paths flow, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+1. Click **Request approval**.
+
+   The approval workflow starts and the approvers receive a notification that their approval is needed on the new document version. The previous document version is locked and any outstanding approvals on the previous version are withdrawn.
+
+</div>

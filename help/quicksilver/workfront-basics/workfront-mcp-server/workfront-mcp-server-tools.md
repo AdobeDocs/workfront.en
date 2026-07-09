@@ -87,6 +87,10 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | Search template by name | `approvals_search_template_by_name` | Finds approval templates by name (case-insensitive partial match). | Read |
 | Create approval template | `approvals_create_template` | Creates a new approval template with linear or graph-based stage dependencies. | Write |
 | Update approval template | `approvals_update_template` | Updates an existing template with structured modifications (add or remove participants, rename stages, set deadlines, etc.). | Write |
+| Remind stakeholders of approvals in bulk | `approvals_send_approval_reminder` | Send approval reminder emails to all pending approvers across an entire project, folder, campaign, or due-date window. | Write |
+| Update approval templates in bulk | `approvals_update_template` | Perform template updates to multiple templates, such as applying templates to assets, creating new templates from scratch or from existing approval flows, editing templates, and performing bulk operations across templates and assets. | Write |
+| Add or remove approval participants in bulk. | `approvals_update_approval_participants`  and `approvals__submit_update_approval_participants` | Add, remove, or replace participants across an entire portfolio, program, or project scope in one operation. | Write |
+
 
 ### Lookups and users
 
@@ -206,6 +210,8 @@ Insights tools retrieve information about Workfront objects.
 
 Workflow tools are the general-purpose actions the AI agentic platform uses to work with any Workfront object — projects, tasks, issues, hours, assignments, programs, portfolios, and so on.
 
+### Objects and fields
+
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
 | Search objects | `workflow_search_any_object` | Searches for Workfront objects with flexible filter parameters, ordering, and pagination. | Read |
@@ -213,6 +219,22 @@ Workflow tools are the general-purpose actions the AI agentic platform uses to w
 | Update object | `workflow_update_any_object` | Updates fields on an existing Workfront object. | Write |
 | Delete object | `workflow_delete_any_object` | Deletes a Workfront object by ID. Requires explicit user confirmation before the action is performed. | Write |
 | Resolve field names | `workflow_resolve_field_names_any_object` | Converts user-provided field names or labels to the underlying Workfront API field names so the AI agentic platform can build accurate requests. | Read |
+
+### Comments
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Query comments | `comment-stream_query_comments` | Query comments by object ID, with pagination. | Read |
+| Get comment | `comment-stream_get_comment` | Get a single comment by ID. | Read |
+| Get comments count | `comment-stream_get_comments_count` | Get the total top-level comment count for an object. | Read |
+| Create comment | `comment-stream_create_comment` | Create a new comment on an object. | Write |
+| Create reply | `comment-stream_create_reply` | Create a reply to an existing comment. | Write |
+| Update comment | `comment-stream_update_comment` | Update an existing comment or reply. | Write |
+| Delete comment | `comment-stream_delete_comment` | Delete a comment by its ID. | Write |
+| Add reaction | `comment-stream_add_reaction` | Add a reaction (like) to a comment. | Write |
+| Remove reaction | `comment-stream_remove_reaction` | Remove a reaction (like) from a comment. | Write |
+
+
 
 ## How tools are updated
 

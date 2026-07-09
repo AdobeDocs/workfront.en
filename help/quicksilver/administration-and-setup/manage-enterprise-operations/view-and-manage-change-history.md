@@ -35,7 +35,7 @@ You can view change history, including audit logs, in the Change Tracking area o
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] package</td> 
-   <td>Workflow Ultimate</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] license</td> 

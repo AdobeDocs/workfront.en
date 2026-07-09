@@ -81,7 +81,8 @@ The notifications listed in the following table alert you about events happening
 
 >[!NOTE]
 >
->Instant notifications for [!DNL Goals] are disabled by default. You cannot enable or disable daily notifications and you do not receive daily digest emails for the events in this category. You can enable or disable individual instant notifications for the [!DNL Goals] category.
+>* Instant notifications for [!DNL Goals] are disabled by default. You cannot enable or disable daily notifications and you do not receive daily digest emails for the events in this category. You can enable or disable individual instant notifications for the [!DNL Goals] category.
+>* You can still receive emails about goals updates, even when you don't have access to Goals in your access level, but someone assigns you a goal, result, or activity or comments on a goal assigned to you. 
 
 See also [Event notifications](../../workfront-basics/using-notifications/event-notifications.md).
 

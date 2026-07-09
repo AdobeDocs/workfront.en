@@ -109,7 +109,7 @@ Below is a list of the report types currently supported in the beta, as well as 
 * Workfront Planning reports 
 * AND/OR filtering 
 * Conditional formatting of table columns and rows 
-* Drilldown configuration for KPI and Chart reports  
+* Drill-down configuration for KPI and Chart reports  
 * Grouping table results 
 * Dashboard-level filters and user-applied overlay filters 
 * Run as User configuration for reports 
@@ -117,12 +117,16 @@ Below is a list of the report types currently supported in the beta, as well as 
 
 ### Features in development
 
+We are currently making the following features available in Canvas Dashboard in an iterative approach: 
+
 * Additional Workfront object types 
 * Usability enhancements 
 * Include Workfront Planning views as report block on a dashboard 
 * Using a dashboard as a Workfront Planning view 
 * Extended support to Azure and GCP customers
 * Performance optimization 
+
+For information on what features are added to the Canvas Dashboard, see [Product releases](/help/quicksilver/product-announcements/product-releases/product-releases.md). 
 
 ### Future roadmap features
 

@@ -444,6 +444,17 @@ To add a grouping in the timeline view:
 
 1. In the **Group records by** box, drag and drop the groupings in the correct order.
 
+1. <span class="preview"> In the **Layout** area of the **Group records by** box select one of the following options:</span>
+
+    <div class="preview">
+
+    * **Stacked**: Groupings display without a frozen left column and fit the width of their items' timelines.
+
+        ![Stacked grouping in timeline view](assets/stacked-grouping-in-timeline-view.png)
+    * **Swimlane**: Groupings display with a frozen left header column that lists the grouped items and the groupings fit the width of the timeline view. 
+
+        ![Swimlane grouping in timeline view](assets/swimlane-grouping-in-timeline-view.png)
+
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
     Or
@@ -451,6 +462,11 @@ To add a grouping in the timeline view:
     Click **Clear all** to remove all fields.  
 
 1. Click outside the **Group records by** box to close it. 
+1. (Optional) Drag and drop items in the timeline view to adjust their dates. 
+
+    >[!TIP]
+    >
+    >When you drag and drop records from one grouping to another, the fields that are selected in the grouping automatically update the values on the moved records.
 1. (Optional) Click **Settings**, then **Color** to color-code groupings. For more information, see the [Edit the timeline view settings](#edit-the-timeline-view-settings) section in this article. 
 
 <!-- 
