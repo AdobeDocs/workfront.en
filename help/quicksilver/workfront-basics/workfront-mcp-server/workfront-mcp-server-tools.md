@@ -103,21 +103,6 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | Get projects by owner | `approvals_get_projects_by_owner` | Lists Workfront projects where the calling user is the owner. | Read |
 | Get Adobe region | `approvals_get_adobe_region` | Returns the Adobe name of a cloud provider region. | Read |
 
-### Comments
-
-| Title | Tool name | What it does | Action |
-| --- | --- | --- | --- |
-| Query comments | `comment-stream_query_comments` | Query comments by object ID, with pagination. | Read |
-| Get comment | `comment-stream_get_comment` | Get a single comment by ID. | Read |
-| Get comments count | `comment-stream_get_comments_count` | Get the total top-level comment count for an object. | Read |
-| Create comment | `comment-stream_create_comment` | Create a new comment on an object. | Write |
-| Create reply | `comment-stream_create_reply` | Create a reply to an existing comment. | Write |
-| Update comment | `comment-stream_update_comment` | Update an existing comment or reply. | Write |
-| Delete comment | `comment-stream_delete_comment` | Delete a comment by its ID. | Write |
-| Add reaction | `comment-stream_add_reaction` | Add a reaction (like) to a comment. | Write |
-| Remove reaction | `comment-stream_remove_reaction` | Remove a reaction (like) from a comment. | Write |
-
-
 <!--
 
 ## Insights tools
@@ -232,6 +217,22 @@ Workflow tools are the general-purpose actions the AI agentic platform uses to w
 | Update object | `workflow_update_any_object` | Updates fields on an existing Workfront object. | Write |
 | Delete object | `workflow_delete_any_object` | Deletes a Workfront object by ID. Requires explicit user confirmation before the action is performed. | Write |
 | Resolve field names | `workflow_resolve_field_names_any_object` | Converts user-provided field names or labels to the underlying Workfront API field names so the AI agentic platform can build accurate requests. | Read |
+
+### Comments
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Query comments | `comment-stream_query_comments` | Query comments by object ID, with pagination. | Read |
+| Get comment | `comment-stream_get_comment` | Get a single comment by ID. | Read |
+| Get comments count | `comment-stream_get_comments_count` | Get the total top-level comment count for an object. | Read |
+| Create comment | `comment-stream_create_comment` | Create a new comment on an object. | Write |
+| Create reply | `comment-stream_create_reply` | Create a reply to an existing comment. | Write |
+| Update comment | `comment-stream_update_comment` | Update an existing comment or reply. | Write |
+| Delete comment | `comment-stream_delete_comment` | Delete a comment by its ID. | Write |
+| Add reaction | `comment-stream_add_reaction` | Add a reaction (like) to a comment. | Write |
+| Remove reaction | `comment-stream_remove_reaction` | Remove a reaction (like) from a comment. | Write |
+
+
 
 ## How tools are updated
 
