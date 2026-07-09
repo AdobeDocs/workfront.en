@@ -210,6 +210,8 @@ Insights tools retrieve information about Workfront objects.
 
 Workflow tools are the general-purpose actions the AI agentic platform uses to work with any Workfront object — projects, tasks, issues, hours, assignments, programs, portfolios, and so on.
 
+### Objects and fields
+
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
 | Search objects | `workflow_search_any_object` | Searches for Workfront objects with flexible filter parameters, ordering, and pagination. | Read |
