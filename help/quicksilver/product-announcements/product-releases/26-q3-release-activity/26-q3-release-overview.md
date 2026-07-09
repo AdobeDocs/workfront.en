@@ -93,17 +93,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
         </tr>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Change tracking for unified review and approval</a>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Change tracking for unified review and approval</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>The Change History page now captures activity across unified review and approval workflows, giving administrators a complete governance trail for approval, stage, and participant actions.</p>
             </td>
-            <td><p>July 7, 2026</p></td>
+            <td><p>July 10, 2026</p></td>
             <td><p>July 15, 2026</p></td>
             <td><p>July 16, 2026</p></td>
         </tr>
-        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Internal lookup field replacing Typeahead field type</a>
