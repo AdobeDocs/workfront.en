@@ -71,7 +71,7 @@ The **ACD user** role is only relevant when the org-level switch is off. If you 
 
 **Underlying requirement: Workflow Ultimate license**
 
-Both controls apply only to users who have a Workflow Ultimate license. A user without a Workfront Ultimate license can't access Adobe Cloud Drive, regardless of how the switch or role is configured.
+Both controls apply only to users who have a Workflow Ultimate license. A user without a Workflow Ultimate license can't access Adobe Cloud Drive, regardless of how the switch or role is configured.
 
 The license within the Workflow Ultimate package can be any license type: Standard, Light, or Contributor. For information about licenses, see [Licenses overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
@@ -205,7 +205,7 @@ To create the package in the Adobe Admin Console:
 
    ![Options steps in package wizard](assets/options-step-in-wizard.png)
 
-1. In the **Finalize** step, enter a name for the package and select **Flat package**.
+1. In the **Finalize** step, type a name for the package and select **Flat package**.
 1. Review the summary and click **Create package**.
 
    ![Finalize step in package wizard](assets/finalize-step-in-wizard.png)
@@ -254,7 +254,7 @@ After deploying, complete this verification on a test device:
 1. Open Workfront in a browser and confirm that the test file appears in the corresponding project.
 1. Delete the test file after verification.
 
-## Manage user access to Adobe Cloud Drive
+## Manage ongoing user access to Adobe Cloud Drive
 
 Once your organization is using Adobe Cloud Drive, follow these steps to add new users, or to remove users who no longer need access.
 
@@ -286,7 +286,7 @@ The user loses access to the mounted drive immediately. Files stored in Workfron
 >
 >Removing a user from the **ACD user** role doesn't remove them from Workfront or from any Workfront projects. Manage Workfront project access separately.
 
-## Manage project access
+## Manage Workfront project access
 
 Adobe Cloud Drive shows users the Workfront projects they have access to. Project access is managed in Workfront, not in the Adobe Admin Console. A user who has Adobe Cloud Drive access but belongs to no Workfront projects sees an empty mounted drive after sign-in. This is expected behavior.
 
