@@ -29,15 +29,14 @@ Approval workflows for documents now support parallel paths, helping teams run m
 
 For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) and [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
-<!--
-
 ## Adobe Cloud Drive
 
 >[!NOTE]
 >
 >Preview: N/A
->Production fast release: July 7, 2026
->Production for everyone: July 7, 2026
+>Production fast release: July 8, 2026
+>Production for everyone: July 8, 2026
+>[!BADGE Off schedule]{type=Neutral}
 >This feature is only available to organizations on the Workflow Ultimate package, with Adobe cloud storage enabled.
 
 Adobe Cloud Drive is now available to organizations that are on a version of Workfront that supports Adobe cloud storage. Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer. Your changes sync automatically to Adobe cloud storage and are available to your team in Workfront and Frame.io.
@@ -46,7 +45,7 @@ For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documen
 
 [View a video demonstration of this feature.](https://video.tv.adobe.com/v/3492492){target="_blank"}
 
--->
+## Request approval on Adobe Express templates with Workfront and Frame.io
 
 >[!NOTE]
 >
@@ -131,3 +130,4 @@ The Customer Info page in Setup now includes a new Storage Overview section with
 Workfront administrators automatically receive email notifications when storage usage reaches 75%, 85%, and 100% of the quota.
 
 For more information, see [Check document storage limits](/help/quicksilver/documents/managing-documents/check-document-storage.md).
+
