@@ -9,8 +9,6 @@ feature: Work Management
 ---
 # Attach a rate card to a template
 
-{{highlighted-preview-article-level}}
-
 When you assign a rate card to a template, the rate card is then attached to all projects created from the template. The rate card becomes the default on the project, but it can be overridden if needed.
 
 For information about rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
