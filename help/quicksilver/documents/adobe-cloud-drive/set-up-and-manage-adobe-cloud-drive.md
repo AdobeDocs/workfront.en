@@ -63,11 +63,11 @@ When you go to **Users** > **Roles**, you see two roles associated with the Work
 
 The **Member** role is automatically assigned to every user in your organization. Within this role, there is an **Adobe Cloud Drive** capability switch. When this switch is on, every user with a Workflow Ultimate license can access Adobe Cloud Drive. When it's off, no user can access Adobe Cloud Drive, regardless of their license.
 
-The toggle is on by default when Adobe activates Adobe Cloud Drive for your organization.
+The switch is on by default when Adobe activates Adobe Cloud Drive for your organization.
 
 **Control 2: ACD user role**
 
-The **ACD user** role is only relevant when the org-level toggle is off. If you turn off the org-level toggle to run a controlled pilot, you can still grant access to specific users by adding them to the **ACD user** role. Users in this role can access Adobe Cloud Drive even when the org-level switch is off. If the org-level switch is on, the **ACD user** role has no effect.
+The **ACD user** role is only relevant when the org-level switch is off. If you turn off the org-level switch to run a controlled pilot, you can still grant access to specific users by adding them to the **ACD user** role. Users in this role can access Adobe Cloud Drive even when the org-level switch is off. If the org-level switch is on, the **ACD user** role has no effect.
 
 **Underlying requirement: Workflow Ultimate license**
 
@@ -77,7 +77,7 @@ The license within the Workflow Ultimate package can be any license type: Standa
 
 The following table shows how these controls interact:
 
-| Org-level toggle | User in ACD user role | Workflow Ultimate license | Access result |
+| Org-level switch | User in ACD user role | Workflow Ultimate license | Access result |
 | --- | --- | --- | --- |
 | On | Not required | Yes | Granted |
 | On | Not required | No | Denied |
@@ -95,7 +95,7 @@ Verify the following before you start:
 
    >[!NOTE]
    >
-   >A user who has access enabled but doesn't have access to any Workfront projects sees an empty mounted drive after sign-in. This is expected. Workfront project membership is managed separately in Workfront. For information, see [Share a project](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+   >A user who has access enabled but doesn't have access to any Workfront projects sees an empty mounted drive after sign-in. This is expected. Workfront project access is managed separately in Workfront. For information, see [Share a project](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
 ## Configure access in the Adobe Admin Console
 
@@ -103,7 +103,7 @@ Adobe Cloud Drive access is configured in the Adobe Admin Console. Choose the op
 
 ### Option A: Enable access for your entire organization
 
-When Adobe activates Adobe Cloud Drive for your organization, the org-level capability switch is turned on by default, and all users have access immediately. Use this procedure to confirm the toggle is on before you deploy the application.
+When Adobe activates Adobe Cloud Drive for your organization, the org-level capability switch is turned on by default, and all users have access immediately. Use this procedure to confirm the switch is on before you deploy the application.
 
 1. Sign in to [adminconsole.adobe.com](https://adminconsole.adobe.com/).
 1. Click **Users** in the top navigation bar.
@@ -146,7 +146,7 @@ To add pilot users to the ACD user role:
 1. Enter the email address of each pilot user.
 1. Click **Save**.
 
-   Users added to the **ACD user** role gain access immediately. Users not in this role remain without access until you add them to the role or turn the org-level toggle back on.
+   Users added to the **ACD user** role gain access immediately. Users not in this role remain without access until you add them to the role or turn the org-level switch back on.
 
    >[!TIP]
    >
@@ -254,13 +254,15 @@ After deploying, complete this verification on a test device:
 1. Open Workfront in a browser and confirm that the test file appears in the corresponding project.
 1. Delete the test file after verification.
 
-## Manage user access
+## Manage user access to Adobe Cloud Drive
 
-### Add a user
+Once your organization is using Adobe Cloud Drive, follow these steps to add new users, or to remove users who no longer need access.
 
-If the org-level toggle is on, no Adobe Admin Console action is required. Any user with a Workfront Ultimate license already has access. Ask the user to download and install Adobe Cloud Drive. If a licensed user still can't access Adobe Cloud Drive, contact Adobe Support to confirm that their account was correctly migrated.
+### Add a new user
 
-If the org-level toggle is off:
+If the org-level switch is on, no Adobe Admin Console action is required. Any user with a Workflow Ultimate license already has access. Ask the user to download and install Adobe Cloud Drive. If a licensed user still can't access Adobe Cloud Drive, contact Adobe Support to confirm that their account was correctly migrated.
+
+If the org-level switch is off:
 
 1. Sign in to [adminconsole.adobe.com](https://adminconsole.adobe.com/).
 1. Click **Users** in the top navigation bar, then click **Roles** in the left panel.
@@ -269,9 +271,9 @@ If the org-level toggle is off:
 
 ### Remove a user
 
-If the org-level toggle is on, Adobe Cloud Drive access is tied to the Workfront Ultimate license. To remove access for a specific user without removing their Workfront license, turn the org-level toggle off and add all other users to the **ACD user** role, excluding the user you want to block. Alternatively, remove the user's Workfront license through your standard license management process.
+If the org-level switch is on, Adobe Cloud Drive access is tied to the Workflow Ultimate license. To remove access for a specific user without removing their Workfront license, turn the org-level switch off and add all other users to the **ACD user** role, excluding the user you want to block. Alternatively, you can remove the user's Workfront license through your standard license management process.
 
-If the org-level toggle is off and the user is in the **ACD user** role:
+If the org-level switch is off and the user is in the **ACD user** role:
 
 1. Sign in to [adminconsole.adobe.com](https://adminconsole.adobe.com/).
 1. Click **Users** in the top navigation bar, then click **Roles** in the left panel.
@@ -282,21 +284,17 @@ The user loses access to the mounted drive immediately. Files stored in Workfron
 
 >[!IMPORTANT]
 >
->Removing a user from the **ACD user** role doesn't remove them from Workfront or from any Workfront projects. Manage Workfront project membership separately.
+>Removing a user from the **ACD user** role doesn't remove them from Workfront or from any Workfront projects. Manage Workfront project access separately.
 
 ## Manage project access
 
-Adobe Cloud Drive shows users the Workfront projects they have access to. Project membership is managed in Workfront, not in the Adobe Admin Console. A user who has Adobe Cloud Drive access but belongs to no Workfront projects sees an empty mounted drive after sign-in. This is expected behavior.
+Adobe Cloud Drive shows users the Workfront projects they have access to. Project access is managed in Workfront, not in the Adobe Admin Console. A user who has Adobe Cloud Drive access but belongs to no Workfront projects sees an empty mounted drive after sign-in. This is expected behavior.
 
-For information about managing project membership, see [Manage projects](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-overview.md).
+For information about managing project access, see [Manage projects](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-overview.md) and [Share a project](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
 ## Network requirements
 
-### Required endpoints
-
 Adobe Cloud Drive requires outbound HTTPS (port 443) access to a set of Adobe endpoints. No inbound firewall rules are required. For the list of endpoints, see [Adobe network endpoints](https://helpx.adobe.com/in/enterprise/kb/network-endpoints.html).
-
-### Proxy support
 
 Adobe Cloud Drive reads the system-level proxy configuration on both macOS and Windows. Authenticated proxies are supported.
 
@@ -308,7 +306,7 @@ Adobe Cloud Drive authenticates users through Adobe IMS (Identity Management Sys
 
 >[!NOTE]
 >
->Adobe Cloud Drive doesn't support personal Adobe IDs (individually created, unmanaged accounts) in enterprise deployments. Users must sign in with an Enterprise ID or Federated ID in your organization's directory.
+>Adobe Cloud Drive does not support personal Adobe IDs (individually created, unmanaged accounts) in enterprise deployments. Users must sign in with an Enterprise ID or Federated ID in your organization's directory.
 
 ### Data in transit and at rest
 
@@ -318,46 +316,40 @@ Adobe Cloud Drive authenticates users through Adobe IMS (Identity Management Sys
 
 ### File access control
 
-File access follows Workfront project permissions. Users see and interact only with projects they're members of, at the permission level their Workfront project role allows.
+File access follows Workfront project permissions. Users see and interact only with projects they have permissions to, as their Workfront access level allows.
 
 The root folder of each Workfront project is read-only in the desktop view. Users can't rename, move, or delete a project root folder from Finder or File Explorer. They can create folders, subfolders, and files at any depth inside a project folder, subject to their Workfront permissions.
 
 ## Troubleshoot common issues
 
-For end-user troubleshooting steps, see [Troubleshoot Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md). The issues below are specific to administrators.
+For end-user troubleshooting steps, see [Troubleshoot Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md). The issues listed below are specific to administrators.
 
 ### User can't find the Adobe Cloud Drive installer in Software Distribution
 
-**Possible causes:**
+**Cause:** Adobe Cloud Drive access is not enabled for the user in the Adobe Admin Console.
 
-* Adobe Cloud Drive access isn't enabled for the user in the Adobe Admin Console.
-
-**Solutions:**
+**Resolution:**
 
 1. Sign in to [adminconsole.adobe.com](https://adminconsole.adobe.com/) and click **Users**.
 1. Search for the user and click their name.
-1. Click the **Roles** tab and check whether Adobe Cloud Drive shows as enabled.
+1. Click the **Roles** tab and verify whether Adobe Cloud Drive is enabled.
 
 ### User installed the application and signed in, but sees no folders in the drive
 
-**Possible causes:**
+**Cause:** The user doesn't have permissions to any Workfront projects.
 
-* The user doesn't have access to any Workfront projects.
+**Resolution:**
 
-**Solutions:**
-
-1. In Workfront, confirm the user has access to at least one project.
-1. If not, add them to a project, either directly or through inheritance.
+1. In Workfront, confirm the user has permissions to at least one project.
+1. If not, then share a project with the user.
 1. Ask the user to wait up to five minutes for the project folder to appear.
 1. If the folder still doesn't appear after five minutes, ask the user to quit Adobe Cloud Drive and relaunch it.
 
 ### User can't sign in to Adobe Cloud Drive
 
-**Possible causes:**
+**Cause:** The user's Adobe Admin Console account is inactive, or their identity isn't configured correctly.
 
-* The user's Adobe Admin Console account is inactive, or their identity isn't configured correctly.
-
-**Solutions:**
+**Resolution:**
 
 1. In the Adobe Admin Console, click **Users** and search for the user.
 1. Confirm the user's account status is **Active**.
@@ -365,13 +357,11 @@ For end-user troubleshooting steps, see [Troubleshoot Adobe Cloud Drive](/help/q
 1. If your organization uses SSO, confirm the user's account is active in your identity provider.
 1. Ask the user to try signing in again.
 
-### Files aren't syncing after the user saves
+### Files are not syncing after the user saves
 
-**Possible causes:**
+**Cause:** The file wasn't saved explicitly, or there is a network connectivity issue.
 
-* The file wasn't saved explicitly, or there's a network connectivity issue.
-
-**Solutions:**
+**Resolution:**
 
 1. Confirm with the user that they saved the file using **File** > **Save** in the application. Closing an application or relying on auto-save doesn't trigger sync.
 1. Confirm the user has internet access and can reach `*.adobe.com` and `*.workfront.com`.
@@ -384,21 +374,20 @@ For end-user troubleshooting steps, see [Troubleshoot Adobe Cloud Drive](/help/q
 
 ### A conflicted copy of a file appeared in the project folder
 
-**Possible causes:**
+**Cause:** Two users saved changes to the same file before either version synced to the cloud. Adobe Cloud Drive preserved both versions automatically.
 
-* Two users saved changes to the same file before either version synced to the cloud. Adobe Cloud Drive preserved both versions automatically.
+The conflicting copy uses this naming format: `filename (Conflicted copy from device_name on date_time).extension`
+For example: `project_brief (Conflicted copy from jsmith's MacBook Pro on 2026-06-15-10-45-19).docx`
 
-The conflicting copy uses this naming format: `filename (Conflicted copy from device_name on date_time).extension`. For example: `project_brief (Conflicted copy from jsmith's MacBook Pro on 2026-06-15-10-45-19).docx`.
-
-**Solutions:**
+**Resolution:**
 
 1. Ask both users which version is authoritative.
 1. Copy any needed content from the conflicted copy into the primary file.
 1. Delete the conflicted copy after reconciling the two versions.
 
->[!NOTE]
->
->Adobe Cloud Drive doesn't use file locking. To prevent conflicts when multiple users edit the same file, coordinate editing through Workfront task assignments or approval workflows before multiple users access the same file from the desktop.
+   >[!NOTE]
+   >
+   >Adobe Cloud Drive doesn't use file locking. To prevent conflicts when multiple users edit the same file, coordinate editing through Workfront task assignments or approval workflows before multiple users access the same file from the desktop.
 
 ### User can't create a folder or file in the project
 
@@ -409,9 +398,9 @@ The conflicting copy uses this naming format: `filename (Conflicted copy from de
 1. Ask the user to navigate into any existing subfolder within the project and create the file or folder there.
 1. If the user needs a new top-level folder inside the project, ask them to create it in Workfront first. It then appears in Adobe Cloud Drive.
 
-**Cause B:** The user doesn't have write permissions on the Workfront project.
+**Cause B:** The user doesn't have editing permissions on the Workfront project.
 
 **Resolution:**
 
-1. In Workfront, check the user's project role (**View**, **Contribute**, or **Manage**).
-1. Update the user's role to **Contribute** or **Manage** if they need to create or edit files.
+1. In Workfront, check the user's permissions on the project (**View**, **Contribute**, or **Manage**).
+1. Update the user's permissions to **Contribute** or **Manage** if they need to create or edit files.
