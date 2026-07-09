@@ -83,9 +83,13 @@ The Document Details page provides a more full-scale version of the Document Det
 
 The new Documents area is only available for if your organization is on Adobe cloud storage. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
+![new documents area](assets/new-doc-area.png)
+
 ### Use the summary panel
 
 When you select a document in the documents area, you can use the Summary panel on the right to view details about the document, add and edit attached custom forms, create and manage approval workflows, view versions of the document, and more. 
+
+![Sumary panel with document details open](assets/new-doc-details.png)
 
 #### Review and approve with Frame.io
 
@@ -93,11 +97,15 @@ You can review and approve documents in the new Documents area using the Frame.i
 
 For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
+![summary panel open to review and approvals](assets/new-doc-approvals.png)
+
 #### Manage versions
 
 You can upload new versions of a document in the new Documents area. When you upload a new version, the previous version is retained and can be accessed from the Summary panel. Versions are automatically named with the date and time of the upload, but can be renamed as needed. 
 
 You can also kick off a new approval workflow for a specific version of a document.
+
+![summary panel open to versions tab](assets/new-doc-versions.png)
 
 #### View document history
 
@@ -108,9 +116,15 @@ You can view a document's history in the new Documents area. The history include
 * When approval workflows were kicked off for the document
 * And more
 
+![summary panel open to history tab](assets/new-doc-history.png)
+
 ### System-level folders for document permissions
 
 Workfront automatically creates a system-level folder when the first document is uploaded to a task or issue. These folders inherit permissions from the task or issue and are visible in the project-level documents area. All documents uploaded to that task or issue are stored in that folder and inherit permissions from it. This is the primary way that permissions are managed for documents in the new Documents area. For more information, see [Object permissions and access level overview for the Adobe cloud storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+
+### Access documents from your desktop
+
+If your organization uses Adobe cloud storage, you can also access your documents from your Mac or Windows desktop using Adobe Cloud Drive. Adobe Cloud Drive mounts your Adobe cloud storage projects as a drive on your computer, so you can open and edit files in any application while keeping changes in sync with Workfront. For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 ## Considerations
 

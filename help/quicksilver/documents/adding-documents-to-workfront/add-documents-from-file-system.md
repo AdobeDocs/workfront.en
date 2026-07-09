@@ -185,6 +185,10 @@ If you need information about uploading new versions of a document to Workfront,
 
    A folder with the same name as the object you are uploading the document to is automatically created in the Documents section and the document is added to the folder. 
 
+### Add documents using Adobe Cloud Drive
+
+If your organization uses Adobe cloud storage, you can also add documents from your desktop using Adobe Cloud Drive. Adobe Cloud Drive mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer. Any files you save inside a project folder in the drive sync automatically to Workfront. For more information, see [Adobe Cloud Drive overview](../../documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
+
 ## Document security for Adobe cloud storage 
 
 Workfront prevents viruses and other malicious content from entering the site via documents in the following ways:

@@ -16,7 +16,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## Preview and fast release general {#preview-fast-release-general}
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -283,13 +283,6 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner of Adobe Workfront, then click **[!UICONTROL Planning]**.
 
    The Workfront Planning landing page opens. 
-    
-1. (Optional and conditional) If you are a Workfront administrator, click one of the following tabs:
-
-   * **My workspaces**: Displays workspaces you created.
-   * **Other workspaces**: Displays all workspaces in Workfront Planning, including the ones shared with you. 
-
-   For all other users, all workspaces you created or are shared with you display in the **Workspaces** area.
  
 ## Workfront Planning important intro - {#planning-important-intro}
 

@@ -23,27 +23,156 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Automated access control for Workfront Planning in Snowflake
+
+>[!IMPORTANT]
+>
+>Preview and Production for all customers: July 16, 2026
+>[!BADGE Off schedule]{type=Neutral}
 
 
-<!--
+This release introduces automated, entitlement-driven access management for Workfront Planning data in Snowflake as part of Workfront Data Connect. 
 
-## New Sample workspaces tab added to the Planning landing page
+It starts by extending secure view generation to Planning tables  establishing the required foundation for downstream access control and making entitlement-based grants possible. 
+
+Building on this, reader account provisioning now checks TMS entitlements at creation time and automatically applies or withholds grants to the Planning database, ensuring correct.  
+
+Prior to this enhancement, this was available only for Workfront. 
+
+The update includes the following capabilities:  
+
+* An automated daily job detects entitlement changes for existing customers 
+* The new job grants, revokes, or preserves access based on entitlements 
+* Full lifecycle coverage across provisioning, account creation, and ongoing entitlement changes. 
+
+The [Workfront Data Connect data dictionary](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md) article will be updated after the release date.
+
+
+## Set default permissions for records
 
 >[!NOTE]
 >
->Preview: May 28, 2026 
->Production fast release: June 11, 2026 
->Production for everyone: July 16, 2026 
+>Preview: July 7, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
 
-We have added the Sample workspaces tab in the Planning landing area where you can view example of best-practice workspaces. The workspaces are not editable and we recommend that you use them as examples to create your own.  
+Workspace managers can now set a default permission rule — Open or Restricted — for each record type, so newly created records are automatically protected without any manual steps.  
 
-We also recommend that you use the multi-workspace template to create, and edit and share workspaces that result as a use of that template.  The template contains the same workspaces as the Sample workspaces tab.   
+When you select Restricted, only the record creator and any specifically selected users, groups, teams, roles, or companies can edit the record, while everyone else retains view-only access.  
 
-Workspace managers can modify views in sample workspaces.     
+This rule applies automatically to new records, regardless of how the record is created (New record button, request forms, API, using a Fusion automation, or AI Assistant). Changes to the rule only affect records created going forward, never existing ones.  
 
-For information, see Workspaces overview (/help/quicksilver/planning/architecture/workspaces-overview.md). 
+Once a record is created, its permissions can still be updated independently without impacting the default rule for future records. 
 
--->
+For information, see [Set default permissions for records](/help/quicksilver/planning/access/set-default-record-permissions.md).  
+
+## Swimlane grouping layout for the timeline view
+
+>[!NOTE]
+>
+>Preview: July 7, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
+
+Timeline views that are grouped now support a swimlane layout, with groups rendering as a frozen left header column instead of scrolling horizontal bands. This grouping type is additional to the current stacked grouping.  
+
+Nested grouping levels show as indented sub-columns, and records within each lane stay sub-stacked and sorted. 
+
+You can drag and drop records in the grouped view to smoothly update their information and dates.  
+
+All users viewing the view can see the groupings applied.  
+
+For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
+
+
+## Support for currency Planning fields in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: June 25, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
+
+You can now include currency Planning fields, in table, KPI, and chart reports in Canvas Dashboards.  
+
+Prior to this enhancement, currency fields were not supported in Canvas Dashboards.  
+
+For information, see [Use currency fields in Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md). 
+
+## Row color controls interface improvement
+
+>[!NOTE]
+>
+>Preview: June 22, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
+
+We have updated the look and feel of the Row colors control in the table view. 
+
+For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+
+## Add default choices for select and People type fields 
+
+>[!NOTE]
+>
+>Preview: June 18, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
+
+When you create a single-, multi-select field or a People type field, you can now indicate a default value for these fields. The default values will always be applied when the field is visible on a record.  
+
+You can change the default settings of the field after it is saved. You can replace the default values of the fields when working with records.  
+
+For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+
+## Interface improvements in the table view
+
+>[!NOTE]
+>
+>Preview: June 11, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
+
+We have updated the look and feel of the table view for the following areas in Workfront Planning: 
+
+* All record type pages 
+
+* All connected record type pages, except for Projects 
+
+In addition to some navigation changes and design improvements, some improvements in this update include: 
+
+* The addition of an aggregation row at the bottom of the table that summarizes number, currency, percentage, and some formula fields using the following aggregators: SUM, AVG, MAX, MIN.
+
+* A simpler date format with fewer format types when adding a Date field. 
+
+* Ability to select a time zone visible to all users, regardless of their profile's time zone, when adding a Date field. 
+
+* Removal of row numbering for a cleaner look 
+
+* Persistent row selection box, instead of visible only when hovering on the row 
+
+* Persistent column separator lines for better readability 
+
+* A simpler sorting experience when sorting from a column header  
+
+For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).  
+
+
+## GenStudio for Performance Marketing Brands can now be added to Planning request forms
+
+>[!NOTE]
+>
+>Preview and Production for all customers: June 5, 2026
+>Available only for Adobe Workfront Planning customers that also have Adobe GenStudio for Performance Marketing.
+>[!BADGE Off schedule]{type=Neutral}
+
+
+To allow you to add brands to your campaigns starting with submitting a request, it's now possible for you to add the Brands connected record field to a Planning request form. 
+
+When a Planning record type is connected with the GenStudio Brands record type, you can add the Brands connected field to a Planning request form associated with the Planning record type.  
+
+For information, see [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).  
+
 
 ## New Sample workspaces tab added to the Planning landing page 
 
@@ -95,7 +224,13 @@ For Workfront Planning API specifications, see the [Workfront Planning API](http
 >Production fast release: June 11, 2026
 >Production for everyone: July 16, 2026
 
+
 You can now adjust individual record permissions to control who can manage them within a record type. 
+
+By default, users inherit record permissions from the workspace and record type. You can now override inherited permissions on specific records to grant View or Manage access to a subset of users. Permission overrides can be applied to individual records or updated in bulk across multiple records.
+
+<!-- 
+Laurel asked for this to be replaced with the above: 
 
 Users inherit record permissions from the workspace and record type by default. To give only select users with record type permissions Manage permissions to only certain records, you can disable inherited permissions on select records and grant only those users Manage access to those records. You can adjust permissions for one record, or for multiple records at the same time, in bulk.
 
@@ -103,6 +238,7 @@ You can give users the following permissions levels:
 
 * View 
 * Manage 
+-->
 
 >[!NOTE]
 >
@@ -149,9 +285,8 @@ For information, see [Get started with the Adobe Workfront Planning Designer](/h
  
 >[!NOTE]
 >
->Preview: May 28, 2026
->Production fast release: May 28, 2026
->Production for everyone: May 28, 2026
+>Preview and Production for everyone: May 28, 2026
+>Available only for Adobe Workfront Planning customers that also have Adobe GenStudio for Performance Marketing and Adobe Experience Manager.
 >[!BADGE Off schedule]{type=Neutral} 
 
 To improve data integrity, we've released seamless metadata synchronization between  GenStudio for Performance Marketing record types and AEM Assets when AEM Assets are linked to GenStudio record types in Workfront Planning. 
@@ -168,9 +303,8 @@ For information, see [Manage the GenStudio workspace in Adobe Workfront Planning
 
 >[!NOTE]
 >
->Preview: May 28, 2026
->Production fast release: May 28, 2026
->Production for everyone: May 28, 2026
+>Preview and Production for everyone: May 28, 2026
+>Available only for Adobe Workfront Planning customers that also have Adobe GenStudio for Performance Marketing and Adobe Experience Manager.
 >[!BADGE Off schedule]{type=Neutral}
 
 To improve data integrity, we've released seamless metadata synchronization between Planning record types in the GenStudio workspace and AEM Content Fragments when Content Fragments are linked to GenStudio for Performance Marketing campaigns.  
@@ -274,9 +408,7 @@ For more information, see [Submit Adobe Workfront Planning requests to create re
 
 >[!NOTE]
 >
->Preview: May 14, 2026
->Production fast release: May 14, 2026
->Production for everyone: May 14, 2026
+>Preview and Production for all customers: May 14, 2026
 >[!BADGE Off schedule]{type=Neutral}
 
 For better visibility when working with AEM content fragments that are connected to Workfront Planning records, we have added a preview window that displays information about the fragments in Workfront Planning.
@@ -289,9 +421,8 @@ For information, see [Connect records](/help/quicksilver/planning/records/connec
 
 >[!NOTE]
 >
->Preview: May 14, 2026
->Production fast release: May 14, 2026
->Production for everyone: May 14, 2026
+>Preview and Production for all customers: May 14, 2026
+>Available only for Adobe Workfront Planning customers that also have Adobe Experience Manager.
 >[!BADGE Off schedule]{type=Neutral}
 
 You can now add the following lookup fields when you connect a Planning record type to an AEM Content Fragment: 
@@ -334,3 +465,4 @@ For information, see [Manage the record page](/help/quicksilver/planning/records
 You can now group your information in the projects connected records page of a record in Workfront Planning. This capability did not exist in this area prior to this enhancement.
 
 For information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+

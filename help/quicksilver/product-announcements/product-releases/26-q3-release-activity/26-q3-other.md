@@ -11,12 +11,35 @@ This page describes enhancements made with the Third Quarter 2026 release to the
 
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Optimization of comment archiving
+
+
+>[!NOTE]
+>
+>Preview and Production for all customers: Starting with July 7, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+We are currently optimizing comment archiving for comments that are older than 1 year for all Workfront objects that display an Updates area. This is an internal effort and should not affect your experience with the Updates area. There are no visual changes to the Updates area for any object types, and there are no changes in functionality with this update. All comments remain visible for all object types.
+
+For information, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+## Interface update for global navigation icons
+
+>[!NOTE]
+>
+>Preview: July 7, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
+
+We have updated the look and feel of general navigation icons in Workfront, including the Main Menu and navigation bar icons, to provide a modern design and a consistent experience with other Adobe applications. Also, the experience of adding and removing pinned pages has been streamlined to require fewer clicks.
+
+For more information, see [Top navigation bar overview](/help/quicksilver/workfront-basics/the-new-workfront-experience/global-navigation-overview.md) and [Pin pages](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
 ## Updated look and feel for comment notification emails
 
 >[!NOTE]
 >
->Production release for customers: Phased rollout, start date to be announced
+>Production release for customers: Phased rollout beginning July 16, 2026
 
 Email notifications for comments in the Updates area have a new look and feel that aligns with the broader Adobe email design.
 
@@ -31,28 +54,6 @@ The thread of preceding comments is no longer included in the email body. To vie
 This change is rolling out to customers in phases. This page will be updated when the rollout schedule is confirmed.
 
 ![updated comment notification email.png](assets/email-look-and-feel-update.png)
-
-## Connect Workfront to your AI tools with the Workfront MCP Server
-
->[!NOTE]
->
->Preview: May 28, 2026
->Production fast release: June 11, 2026
->Production for everyone: July 16, 2026
-
-Your team's operational context lives in Workfront. Now, with the Workfront MCP Server, that context becomes actionable from within the AI tools your team already uses.
-
-Connect Workfront to any MCP-compatible AI platform, including Claude, ChatGPT, Copilot, Gemini, and more, and use natural language to find, create, update, and manage Workfront items without leaving your AI tool of choice. Ask for your overdue tasks, push a project's finish date, send a reminder to approvers, update a campaign budget--and your AI platform does the work for you in Workfront.
-
-And with Claude's AI skills and scheduled tasks, you can go even further--automating recurring workflows that run proactively against live Workfront data. For example, a Monday morning project briefing, a weekly capacity report, a monthly campaign health check -- set it once, and AI handles it automatically, grounded in the full context of your operation.
-
-This is the foundation of an agentic work management system--where AI is grounded in your richest operational data and humans and AI collaborate together to keep work moving at full velocity.
-
->[!IMPORTANT]
->
->Currently, the Workfront MCP server is available only to customers in the US region for customers using AWS.
-
-For more information, see [Adobe Workfront MCP server overview](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md).
 
 ## Enhanced list updates
 

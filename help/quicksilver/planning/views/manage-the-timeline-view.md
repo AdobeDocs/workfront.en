@@ -28,7 +28,7 @@ topic_v2:
 # Manage the timeline view
 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -70,12 +70,6 @@ For information about record views, see [Manage record views](/help/quicksilver/
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a view</p>  
    <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
-</td>
   </tr> 
 </tbody> 
 </table> 
@@ -450,6 +444,17 @@ To add a grouping in the timeline view:
 
 1. In the **Group records by** box, drag and drop the groupings in the correct order.
 
+1. <span class="preview"> In the **Layout** area of the **Group records by** box select one of the following options:</span>
+
+    <div class="preview">
+
+    * **Stacked**: Groupings display without a frozen left column and fit the width of their items' timelines.
+
+        ![Stacked grouping in timeline view](assets/stacked-grouping-in-timeline-view.png)
+    * **Swimlane**: Groupings display with a frozen left header column that lists the grouped items and the groupings fit the width of the timeline view. 
+
+        ![Swimlane grouping in timeline view](assets/swimlane-grouping-in-timeline-view.png)
+
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
     Or
@@ -457,6 +462,11 @@ To add a grouping in the timeline view:
     Click **Clear all** to remove all fields.  
 
 1. Click outside the **Group records by** box to close it. 
+1. (Optional) Drag and drop items in the timeline view to adjust their dates. 
+
+    >[!TIP]
+    >
+    >When you drag and drop records from one grouping to another, the fields that are selected in the grouping automatically update the values on the moved records.
 1. (Optional) Click **Settings**, then **Color** to color-code groupings. For more information, see the [Edit the timeline view settings](#edit-the-timeline-view-settings) section in this article. 
 
 <!-- 

@@ -63,12 +63,7 @@ To collaborate more efficiently with others that might not have a Workfront acco
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
   </tr> 
-  <tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
-</td>
-  </tr>  
+ 
 </tbody> 
 </table> 
 

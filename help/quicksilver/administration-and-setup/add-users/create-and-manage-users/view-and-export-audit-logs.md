@@ -99,7 +99,7 @@ Old:
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **System > Audit Logs**.
+1. In the left panel, click **Change Tracking > Audit Logs**.
 1. In the **Action Type** drop-down, select the type of audit you want to view. 
 
    >[!NOTE]
@@ -127,7 +127,7 @@ Old:
 
 {{step-1-to-setup}}  
 
-1. In the left panel, click **System** > **Audit Logs**.  
+1. In the left panel, click **Change Tracking** > **Audit Logs**.  
 
 1. In the **Log Type** drop-down menu, select an audit log.
 
