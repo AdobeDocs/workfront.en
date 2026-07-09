@@ -55,7 +55,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">New tools available in the Workfront MCP Connector</a>
-                <p>To expand the capabilities of the Workfront MCP Connector, we've added eight new tools and deprecated the Search objects and Resolve field name tools.</p>
+                <p>To expand the capabilities of the Workfront MCP Connector, we've added some new tools and deprecated the Search objects and Resolve field name tools.</p>
             </td>
             <td><p>July 7, 2026</p></td>
             <td><p>July 15, 2026</p></td>
