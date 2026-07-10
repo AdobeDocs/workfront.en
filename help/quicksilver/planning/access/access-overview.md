@@ -40,7 +40,7 @@ topic_v2:
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Workfront with Workfront Planning. >
+>The information in this article refers to Adobe Workfront with Workfront Planning. 
 >
 >Refer to this article when your company purchased an Adobe Workfront Workflow package in addition to an Adobe Workfront Planning package. 
 >
