@@ -53,12 +53,12 @@ You can add the following types of custom fields to a custom form in Workfront:
 
 * Single line text
 * Paragraph
-* Text with formatting
+* Rich text
 * Single-select dropdown
 * Multi-select dropdown
 * External lookup
+* Internal lookup
 * Native field reference
-* Typeahead
 * Planning field connection
 * Calculated
 * Date
@@ -96,6 +96,7 @@ Users can attach custom forms to the following object types:
 * Iteration
 * Billing Record
 * Rate Card
+* Assignment
 
 For more information about attaching custom forms to objects, see [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

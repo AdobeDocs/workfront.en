@@ -149,7 +149,7 @@ Display logic defines which custom fields appear on the form when the user selec
 
 ## Add advanced display logic to a custom form
 
-The advanced display logic for custom form fields allows you to build complex logic using formulas. You can apply this logic to the following field types: single line text, paragraph, text with formatting, single-select dropdown, multi-select dropdown, external lookup, multi-select external lookup, native field reference, typeahead, calculated, date, checkbox group, and radio buttons.
+The advanced display logic for custom form fields allows you to build complex logic using formulas. You can apply this logic to the following field types: single line text, paragraph, rich text, single-select dropdown, multi-select dropdown, external lookup, multi-select external lookup, native field reference, internal lookup, calculated, date, checkbox group, and radio buttons.
 
 >[!NOTE]
 >
@@ -238,7 +238,7 @@ Skip logic defines custom form fields that are skipped when the user selects a s
 
 Default value logic allows you to configure default values for custom form fields, using formulas. The default value is displayed when the defined conditions are met. A default value can be a static value or a dynamic value that references other fields within the object. Although the default value can reference other fields, it will not change as other fields on the form change.
 
-You can apply advanced default value logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, multi-select external lookup, native field reference, typeahead, checkbox group, and radio buttons.
+You can apply advanced default value logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, multi-select external lookup, native field reference, internal lookup, checkbox group, and radio buttons.
 
 >[!TIP]
 >
@@ -288,7 +288,7 @@ Validation logic is built using formulas, and you can make the logic as simple o
 
 If the field with the logic applied meets the defined validation conditions when a user fills out the custom form, the field is highlighted and the error message is displayed.
 
-You can apply validation logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, multi-select external lookup, typeahead, date, checkbox group, and radio buttons.
+You can apply validation logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, multi-select external lookup, internal lookup, date, checkbox group, and radio buttons.
 
 ### Examples
 
@@ -335,7 +335,7 @@ For additional examples of validation logic, see [Examples of advanced logic in 
 
 Formatting logic highlights a field value when it meets the defined conditions. The applied formatting will work on multiple fields at once.
 
-You can apply formatting logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, multi-select external lookup, typeahead, calculated, date, checkbox group, and radio buttons.
+You can apply formatting logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, multi-select external lookup, internal lookup, calculated, date, checkbox group, and radio buttons.
 
 Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
@@ -398,7 +398,7 @@ IF(
 
 Editability logic determines whether a custom form field can be edited or whether it is read-only. This logic is built using formulas, and when the field meets the defined conditions it can be set as editable or read-only.
 
-You can apply editability logic to the following field types: single line text, paragraph, text with formatting, single select dropdown, multi-select dropdown, external lookup, multi-select external lookup, typeahead, date, checkbox group, and radio buttons.
+You can apply editability logic to the following field types: single line text, paragraph, rich text, single select dropdown, multi-select dropdown, external lookup, multi-select external lookup, internal lookup, date, checkbox group, and radio buttons.
 
 ### Example
 

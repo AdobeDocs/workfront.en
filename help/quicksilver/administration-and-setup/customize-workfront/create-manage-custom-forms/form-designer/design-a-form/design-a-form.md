@@ -119,7 +119,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
     * [Add text fields](#add-text-fields)
     * [Add calculated fields](#add-calculated-fields)
     * [Add radio buttons, checkbox groups, and drop-downs](#add-radio-buttons-checkbox-groups-and-drop-downs)
-    * [Add typeahead and date fields](#add-typeahead-and-date-fields)
+    * [Add date fields](#add-date-fields)
     * [Add external lookup fields](#add-external-lookup-fields)
     * [Add images, PDFs, and videos](#add-images-pdfs-and-videos)
     * [Add Workfront native fields](#add-workfront-native-fields)
@@ -1166,7 +1166,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
        <p>Use dynamic filter syntax to narrow the list of items in this field based on the value of another field. For example, when you use <code>?portfolioID={portfolio}.{ID}</code> in a Project field filter and a Portfolio native field is on the custom form, the Project field shows only projects that are in the selected portfolio. If the Portfolio field is left blank, then all projects are available in the Project field.</p>
        <p><b>Note</b>:
        <ul> 
-        <li>The filter option is only available when you reference a native typeahead field, such as Portfolio, Company, or Owner.</li>
+        <li>The filter option is only available when you reference a native typeahead or internal lookup field, such as Portfolio, Company, or Owner.</li>
         <li>If you are editing an existing custom form, adding a filter to a native field doesn't remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
         <li>This filter isn't available on mobile devices. If you use the filter for a native field, the field will appear on users' mobile devices unaffected by the filter.</li> 
         </ul></p></td> 
