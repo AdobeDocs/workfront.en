@@ -10,6 +10,8 @@ feature: Get Started with Workfront
 
 # Adobe Workfront MCP server tools
 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 This article lists the tools that the [!DNL Adobe Workfront] MCP server exposes to a connected AI agentic platform. The platform calls these tools on your behalf when you ask it to find, create, update, or delete Workfront items.
 
 For information about how to use these tools through an AI agentic platform, see [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md). For information about how to set up the connection, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
