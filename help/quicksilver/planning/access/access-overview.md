@@ -67,8 +67,8 @@ You must have the following access to use Workfront Planning:
    <tr>
    <td role="rowheader"><p>Adobe Workfront package</p></td>
    <td>
-   <p>Any Workfront or Workflow Planning package</p>
-   <p>Any Planning package</p>
+   <p>Any Workfront or Workflow Planning package
+   and any Workfront Planning package</p>
    <p><b>NOTE</b></p>
    <p>For access to connectable record types:</p>
    <ul><li><p>Any Workfront package and a Planning package</p></li>
@@ -97,7 +97,7 @@ You must have the following access to use Workfront Planning:
    </tr>
    <tr>
    <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
+   <td> <p>Any Workflow and any Planning License Type in the access level</p>  
    </td>
    </tr>
    <tr>
