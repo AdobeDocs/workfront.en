@@ -27,8 +27,6 @@ topic_v2:
 ---
 # Share a custom form
 
-{{preview-fast-release-general}}
-
 You can configure access for a custom form to control who—person, role, group, team, company, business profile—can view, share, and edit it.
 
 ## Access requirements
@@ -63,9 +61,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 By default, when you create a new custom form and someone attaches it to an object, any user assigned to the object can view and fill out the form. This includes users with Contributor or Request licenses, and external users.
 
-However, on an object where the custom form is not already attached, a user (even if they have a Planner access level) cannot attach it from the Custom Forms drop-down menu unless one of the following is true:
+However, on an object where the custom form is not already attached, a user (even if they have a Standard or Planner access level) cannot attach it from the Custom Forms drop-down menu unless one of the following is true:
 
-* <span class="preview">Someone shared the custom form as "Everyone in the system can view and attach"</span>
+* Someone shared the custom form as "Everyone in the system can view and attach"
 * Someone shared the custom form with the user or with their team, job role, group, company, or business profile granting at least View permission with the Attach to Custom Data selected
 * The user has a Standard or Plan license and their access level allows administrative access to custom forms
 
@@ -179,13 +177,9 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
    >
    >* When you make a custom form visible system-wide, you allow users only to see and fill it out on objects they are assigned to, not to attach it to other objects. You can grant the ability to attach the custom form to objects using the option "Attach to custom data" explained under step 6.
    >* Most organizations want to ensure that everyone in the system can fill out a custom form when it's attached to objects they work on and view its data in reports. If this is true for your organization, we recommend that you use **Everyone in the system can view**.
-   >* <span class="preview">If you select **Everyone in the system can view and attach**, then all users can attach the form to other objects.</span>
+   >* If you select **Everyone in the system can view and attach**, then all users can attach the form to other objects.
    >
-   ><span class="preview">Sample image in the Preview environment:</span>
    >![Share custom form](assets/share-custom-forms-all-can-attach.png)
-   >   
-   >Sample image in the Production environment:
-   >![Share custom form](assets/share-custom-form-in-designer.png)
    >   
    >If you are concerned about a custom form where users might enter sensitive data when it is attached to certain objects, limiting sharing for those *objects* might be more effective rather than limiting access to the form itself.
 
