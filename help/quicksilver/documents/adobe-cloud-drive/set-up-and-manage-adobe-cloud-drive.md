@@ -35,7 +35,7 @@ For more information about Adobe Cloud Drive, see the following articles:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe administrator rights</td> 
-   <td>You must be a Product Profile Administrator for Workfront in the Adobe Admin Console</td> 
+   <td>You must be a System Administrator for Workfront in the Adobe Admin Console</td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +71,7 @@ The **ACD user** role is only relevant when the org-level switch is off. If you 
 
 **Underlying requirement: Workflow Ultimate license**
 
-Both controls apply only to users who have a Workflow Ultimate license. A user without a Workflow Ultimate license can't access Adobe Cloud Drive, regardless of how the switch or role is configured.
+Adobe Cloud Drive is only available on the Workflow Ultimate package. Role options are not available on any other package.
 
 The license within the Workflow Ultimate package can be any license type: Standard, Light, or Contributor. For information about licenses, see [Licenses overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
@@ -80,7 +80,7 @@ The following table shows how these controls interact:
 | Org-level switch | User in ACD user role | Workflow Ultimate license | Access result |
 | --- | --- | --- | --- |
 | On | Not required | Yes | Granted |
-| On | Not required | No | Denied |
+<!-- | On | Not required | No | Denied | -->
 | Off | Yes | Yes | Granted |
 | Off | No | Yes | Denied |
 | Either | Either | No | Denied |
@@ -89,13 +89,15 @@ The following table shows how these controls interact:
 
 Verify the following before you start:
 
-* The users you plan to provision have Workflow Ultimate licenses assigned.
+* The users you plan to provision have Workfront Workflow licenses assigned.
 * You've reviewed the [network requirements](#network-requirements) with your IT team.
 * You've drafted communication to send to users explaining what Adobe Cloud Drive shows (Workfront project assets only) and how to install it.
 
    >[!NOTE]
    >
    >A user who has access enabled but doesn't have access to any Workfront projects sees an empty mounted drive after sign-in. This is expected. Workfront project access is managed separately in Workfront. For information, see [Share a project](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+   >
+   >Also, Creative Cloud entitlement must be in the same IMS organization as Workfront for projects to appear in the drive.
 
 ## Configure access in the Adobe Admin Console
 
@@ -156,7 +158,7 @@ To add pilot users to the ACD user role:
 
 Configuring access in the Adobe Admin Console establishes entitlement. Deploying the application installs it on the user's device. These are two separate, required steps.
 
-Adobe Cloud Drive is a standalone application. It is not distributed through the Creative Cloud desktop application and does not appear in the Creative Cloud package manager.
+Adobe Cloud Drive is a standalone application. It is not distributed through the Creative Cloud desktop application and does not appear in the Creative Cloud package manager. However, the user profile for Adobe Cloud Drive is tied to Creative Cloud App entitlement. This means that for a user to access Workfront projects in the drive, Creative Cloud Apps must be entitled in the same IMS organization as Workfront.
 
 Choose the deployment method that matches your organization's device management practices.
 
@@ -260,7 +262,7 @@ Once your organization is using Adobe Cloud Drive, follow these steps to add new
 
 ### Add a new user
 
-If the org-level switch is on, no Adobe Admin Console action is required. Any user with a Workflow Ultimate license already has access. Ask the user to download and install Adobe Cloud Drive. If a licensed user still can't access Adobe Cloud Drive, contact Adobe Support to confirm that their account was correctly migrated.
+If the org-level switch is on, no Adobe Admin Console action is required. Ask the user to download and install Adobe Cloud Drive. If a licensed user still can't access Adobe Cloud Drive, contact Adobe Support to confirm that their account was correctly migrated.
 
 If the org-level switch is off:
 
@@ -271,7 +273,7 @@ If the org-level switch is off:
 
 ### Remove a user
 
-If the org-level switch is on, Adobe Cloud Drive access is tied to the Workflow Ultimate license. To remove access for a specific user without removing their Workfront license, turn the org-level switch off and add all other users to the **ACD user** role, excluding the user you want to block. Alternatively, you can remove the user's Workfront license through your standard license management process.
+If the org-level switch is on, any licensed user has access to Adobe Cloud Drive. To remove access for a specific user without removing their Workfront license, turn the org-level switch off and add all other users to the **ACD user** role, excluding the user you want to block.
 
 If the org-level switch is off and the user is in the **ACD user** role:
 
@@ -333,6 +335,14 @@ For end-user troubleshooting steps, see [Troubleshoot Adobe Cloud Drive](/help/q
 1. Sign in to [adminconsole.adobe.com](https://adminconsole.adobe.com/) and click **Users**.
 1. Search for the user and click their name.
 1. Click the **Roles** tab and verify whether Adobe Cloud Drive is enabled.
+
+<!--
+
+**Cause:** Creative Cloud All Apps is provisioned in a different IMS organization from Workfront.
+
+**Resolution:**
+
+-->
 
 ### User installed the application and signed in, but sees no folders in the drive
 
