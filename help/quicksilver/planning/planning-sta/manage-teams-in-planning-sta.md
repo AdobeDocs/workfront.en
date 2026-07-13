@@ -1,5 +1,5 @@
 ---
-title: Manage Users in Adobe Workfront Planning as a standalone product
+title: Manage Teams in Adobe Workfront Planning as a standalone product
 description: This article describes how you can manage users and teams in Adobe Workfront Planning when Planning is purchased as a standalone product. 
 author: Alina
 feature: Workfront Planning
@@ -7,7 +7,7 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 ---
 
-# Manage users in Adobe Workfront Planning as a standalone product
+# Manage teams in Adobe Workfront Planning as a standalone product
 
 >[!IMPORTANT]
 >
@@ -17,7 +17,7 @@ recommendations: noDisplay, noCatalog
 
 Managing users and teams in Adobe Workfront Planning is similar to managing them in Adobe Workfront with Workfront Planning, but there are some limitations. 
 
-For information about managing teams in Workfront Planning as a standalone product, see [Manage teams in Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/manage-teams-in-planning-sta.md). 
+For information about managing users in Workfront Planning when purchased as a standalone product, see [Manage Users in Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md).
 
 <!--
 Should we point above to another article that talks JUST about the licenses available for STA? This article is to be created
@@ -26,11 +26,6 @@ Should we point above to another article that talks JUST about the licenses avai
 ## Access requirements
 
 
-## Manage users in Adobe Workfront Planning
 
-Users in Workfront Planning as a standalone product might have one of the following access levels:
-
-* Planning Administrator
-* Planning Standard 
-
+## Manage teams in Adobe Workfront Planning
 
