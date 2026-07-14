@@ -182,11 +182,16 @@ For information, see [Get started with the Adobe Workfront Planning and Adobe Ge
 >Production fast release: June 11, 2026
 >Production for everyone: July 16, 2026
 
+
 We have added the Sample workspaces tab in the Planning landing area where you can view example of best-practice workspaces. The workspaces are not editable. Workspace managers can modify views in sample workspaces. The tab is visible for Standard and System Administrator users.  
 
 We recommend that you view the sample workspaces as examples, and use the multi-workspace template bundle to create, edit, and share workspaces that result as a use of that template.  The template bundle contains the same workspaces as the Sample workspaces tab.   
 
 For information, see [Workspaces overview](/help/quicksilver/planning/architecture/workspaces-overview.md). 
+
+>[!NOTE]
+>
+>Creating workspaces from template bundles is only available for organizations on the Workflow Prime or Ultimate packages.
 
 ## Workfront Planning API version 2 
 

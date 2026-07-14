@@ -10,6 +10,8 @@ feature: Get Started with Workfront
 
 # Use the Adobe Workfront MCP server
 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 The [!DNL Adobe Workfront] MCP server lets you find, create, update, and manage Workfront items by asking an AI agentic platform in natural language. The platform decides which Workfront actions to call and handles the conversation with Workfront for you.
 
 >[!IMPORTANT]
