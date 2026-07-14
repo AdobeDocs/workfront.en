@@ -32,8 +32,6 @@ topic_v2:
 ---
 # Understand the navigation for a [!UICONTROL Work]-license user
 
-{{highlighted-preview}}
-
 The [!UICONTROL Main Menu] changes with the access level you have been assigned by your [!DNL Adobe Workfront] administrator. By default, you are given access only to the areas that include functionality allowed by your access level. To understand the components of the default layout of each access level, see [About the default [!DNL Adobe Workfront] layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 ## Understand the default [!UICONTROL Main Menu] of a Worker
@@ -70,11 +68,7 @@ The following areas are included in the default layout of a [!UICONTROL Worker]:
 
 * **[!UICONTROL Boards]**: Work with flexibility and collaboration with your team members by using shared boards that contains columns and cards reflecting work you want to get done. For information, see [Get started with boards: article index](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
-<span class="preview">Sample image in the Preview environment:</span>
 ![Worker main menu](assets/worker-main-menu-070626.png)
-
-Sample image in the Production environment:
-![Worker main menu](assets/worker-main-menu-2026.png)
 
 ## Customize your default [!UICONTROL Main Menu]
 
