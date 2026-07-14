@@ -106,21 +106,6 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | Get Adobe region | `approvals_get_adobe_region` | Returns the Adobe name of a cloud provider region. | Read |
 
 
-## Insights tools
-
-Insights tools retrieve information about Workfront objects.
-
-| Title | Tool name | What it does | Action |
-| --- | --- | --- | --- |
-| Read documents | `insights_read_docs` | Load the Workfront playbook or domain documentation, such as conditions, status, dates, or field paths. This is the required first step before querying data. | Read |
-| Get current user | `insights_get_current_user` | Retrieve your own Workfront identity, including name, ID, and URL. | Read |
-| Search fields | `insights_search_fields` | Search for available fields (standard and custom) on projects, tasks, issues, users, portfolios, teams, and so on. | Read |
-| Get field paths | `insights_get_field_paths` | Resolve dot-notation field paths for entities, required by the data query tool. | Read |
-| Find ID by name | `insights_find_id_by_name` | Look up the ID of any Workfront object by name, such as projects, tasks, users, portfolios, and so on. | Read |
-| Find Workfront data | `insights_find_workfront_data` | Find, filter, count, sort, and aggregate Workfront data. This is the main query and report tool. | Read |
-| Summarize object | `insights_summarize_object` | Fetch and summarize a single Workfront object by ID. | Read |
-| List entities | `insights_list_entities` | List all Workfront object types available to query. | Read |
-
 ## Planning tools
 
 >[!IMPORTANT]
@@ -232,6 +217,22 @@ Workflow tools are the general-purpose actions the AI agentic platform uses to w
 | Delete comment | `comment-stream_delete_comment` | Delete a comment by its ID. | Write |
 | Add reaction | `comment-stream_add_reaction` | Add a reaction (like) to a comment. | Write |
 | Remove reaction | `comment-stream_remove_reaction` | Remove a reaction (like) from a comment. | Write |
+
+## Insights tools
+
+Insights tools retrieve information about Workfront objects.
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Read documents | `insights_read_docs` | Load the Workfront playbook or domain documentation, such as conditions, status, dates, or field paths. This is the required first step before querying data. | Read |
+| Get current user | `insights_get_current_user` | Retrieve your own Workfront identity, including name, ID, and URL. | Read |
+| Search fields | `insights_search_fields` | Search for available fields (standard and custom) on projects, tasks, issues, users, portfolios, teams, and so on. | Read |
+| Get field paths | `insights_get_field_paths` | Resolve dot-notation field paths for entities, required by the data query tool. | Read |
+| Find ID by name | `insights_find_id_by_name` | Look up the ID of any Workfront object by name, such as projects, tasks, users, portfolios, and so on. | Read |
+| Find Workfront data | `insights_find_workfront_data` | Find, filter, count, sort, and aggregate Workfront data. This is the main query and report tool. | Read |
+| Summarize object | `insights_summarize_object` | Fetch and summarize a single Workfront object by ID. | Read |
+| List entities | `insights_list_entities` | List all Workfront object types available to query. | Read |
+
 
 
 
