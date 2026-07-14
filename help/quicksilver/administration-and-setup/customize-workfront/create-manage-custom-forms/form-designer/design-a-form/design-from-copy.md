@@ -27,8 +27,6 @@ topic_v2:
 ---
 # Create a form from a copy
 
-<!--add preview tags and see below in comment out-->
-
 You can design a new custom form that is based on an existing one. You can attach custom forms to different Workfront objects to capture data about those objects.
 
 ## Access requirements
