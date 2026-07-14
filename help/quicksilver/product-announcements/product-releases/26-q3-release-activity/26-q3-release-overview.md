@@ -351,9 +351,9 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Convert a legacy storage task to an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
                 <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now convert a legacy storage task to an Adobe cloud storage project.</p>
             </td>
-            <td><p>July 11, 2026</p></td>
-            <td><p>July 11, 2026</p></td>
-            <td><p>July 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
         </tr>
         <tr>
             <td>
