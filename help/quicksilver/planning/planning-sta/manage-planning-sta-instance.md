@@ -1,11 +1,12 @@
 ---
-title: Manage Your Adobe Worfront Planning Instance
-description: This article describes how you can manage preferences and your customer's information for Adobe Workfront Planning.  
-hidefromtoc: yes
-hide: yes
+title: Manage Your Instance of Adobe Workfront Planning as a Standalone Product
+description: This article describes how you can manage preferences and your customer's information for Adobe Workfront Planning when your organization has purchased is as a standalone product.  
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 ---
 
-# Manage your Adobe Workfront Planning instance
+# Manage your instance of Adobe Workfront Planning as a standalone product
 
 <!--
 Add to this article the  "Administrator experience" section in this document, after Lilit proof it: https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.aspx?sourcedoc=%7B0EC828A2-7D86-42B5-B262-C79017BCF02A%7D&file=Without%20pricing_WFP_Standalone_Documentation.docx&action=default&mobileredirect=true
@@ -13,17 +14,25 @@ Add to this article the  "Administrator experience" section in this document, af
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Workfront Planning, when purchased as a standalone product. Refer to this article when your company purchased an Adobe Workfront Planning only package, and they did not purchase a Workfront package. 
+>The information in this article refers to Adobe Workfront Planning, when purchased as a standalone product. Refer to this article when your company purchased an Adobe Workfront Planning only package, and they did not purchase a Workfront Workflow package. 
 >
 >For information about Adobe Workfront Planning when purchased together with a Workfront package, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md). 
 
-Managing your Adobe Workfront Planning as a standalone product is similar to managing Adobe Workfront. 
+As a Workfront Planning Administrator, you can manage your Adobe Workfront Planning instance. 
 
-This article includes links to similar articles about managing Adobe Workfront. 
+You can configure the following settings for Workfront Planning:
 
->[!IMPORTANT]
->
->Not all configuration options available for setting up Workfront are available for setting up Workfront Planning as a stanadlone product.  
+* Custom Quarters
+* Customer Info
+* Preferences
+* Teams
+
+   For information, see [Manage teams in Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/manage-teams-in-planning-sta.md).
+* Users
+
+   For information, see [Manage users in Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md). 
+
+Configuring Workfront Planning as a standalone product is similar to configuring some of the settings in Adobe Workfront. However, there are limitations for what information is available in Workfront Planning. 
 
 ## Access requirements
 
@@ -43,16 +52,7 @@ This article includes links to similar articles about managing Adobe Workfront.
    <td> 
 <p>Any Workfront Planning as a standalone package</p>
 
-<p><b>NOTE</b></p>
-
-<p>To configure connectable or global record types:</p>
-
-<ul> 
-<li><p>Any Workfront Planning Prime or Ultimate package</p></li></ul>
-
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
-
-   </td> </tr>
+</td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td><p>Planning Administrator</p>
@@ -62,8 +62,7 @@ This article includes links to similar articles about managing Adobe Workfront.
 </tbody> 
 </table>
 
-For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
+For more information about access needed for Workfront as a standalone package, see [Access needed for Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/access-needed-for-planning-sta.md).
 +++    
 
 ## Log in as another user

@@ -102,7 +102,7 @@ Workfront Planning can answer questions like:
 * How many campaigns are we running in EMEA for Q4?
 * Do we have any audience overlaps between concurrent campaigns?
 * How well are the awareness programs doing right now?
-* What do the assets look like for a particular campaign? Which of them must still be approved?
+<!--* What do the assets look like for a particular campaign? Which of them must still be approved?-->
 
 To answer these questions, leadership needs a solution that can provide a holistic view of every stage of work from planning to execution, from delivery to measuring the results. Currently, organizations have tools that can cover some parts of the process, but many do not have good connections to all phases of work, nor can they reliably provide results.  
 
@@ -118,11 +118,9 @@ The following are some of the main capabilities:
 
 After your organization purchases a Workfront Planning package, as a Workfront administrator, you must ensure the following are in place before users can access Workfront Planning:
 
-* Assign the following users a layout template that includes Planning in the Main Menu:
+* Assign a layout template that includes Planning to users with a Contributor or Light access level.
 
-    * Assign the layout template to Light and Contribute users. 
-    
-        Standard users and System Administrators have Planning enabled by default.
+  Standard users and System Administrators have Planning enabled by default.
     
     For more information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) and [Assign users to a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md). 
 

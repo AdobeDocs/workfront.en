@@ -77,7 +77,7 @@ Depending on which Workfront Planning package combination your organization purc
 
 Each standalone Planning license maps to a role in the system and controls what areas of the product are accessible.
 
-The following table illustrates each license Planning type and their capabilities in Workfront Planning, when purchased as a standalone product: 
+The following table illustrates each Planning license type and its capabilities in Workfront Planning, when purchased as a standalone product: 
 
 | Feature / Access | Planning Administrator | Planning Standard |
 |---|---|---|
@@ -87,6 +87,7 @@ The following table illustrates each license Planning type and their capabilitie
 | Requests area in the Main Menu | ✔ | ✔ |
 | Setup area in the Main Menu | ✔ |   |
 | Manage Workspaces and their content | ✔ | ✔ |
+| Share Planning data with teams | ✔ | ✔ |
 | Submit requests | ✔ | ✔ |
 | Create or edit users | ✔ |   |
 | View users list | ✔ | View only |
@@ -138,7 +139,7 @@ A user with a Planning Administrator access level  has the following capabilitie
     * **Custom Quarters**: Configure custom fiscal quarters that appear in Planning timeline views.
     * System
 
-* Has the following sections in the Setup area:
+* Has the following sections in the System area:
 
     * **Customer Info**: View customer and organization details.
     * **Preferences**: Review and configure system-level preferences.
@@ -161,14 +162,18 @@ A user with a Planning Standard access level  has the following capabilities:
 
 ## Configure Access Levels for Planning as a standalone product
 
-You cannot configure access levels for Planning users, when it is purchased as as a standalone product. They are configured by Workfront. 
+Access levels are built-in when you purchase Planning as a standalone product and you cannot configure them for Planning users.
 
 To assign access levels to users, as a Planning Administrator: 
 
-* Create users in the Adobe Console to assign them a Planning Administrator access. 
-* Create users in Workfront Planning and assign them the Planning Standard access level. This is the only access available. 
+* Create users in the Adobe Console. 
 
-or more information, see [Manage users](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md). 
+    The following scenarios exist:
+
+    * Users added to the Adobe Console as Administrators receive a Planning Administrator access level in Workfront Planning. 
+    * Users added to the Adobe Console as users can be assigned a Planning Standard access level in Workfront Planning. This is the only access available to assign to new users in Workfront Planning as a standalone product. 
+
+For more information, see [Manage users](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md). 
 
 ## Grant permissions in Workfront Planning as a standalone product
 

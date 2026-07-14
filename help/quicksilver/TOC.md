@@ -2264,9 +2264,14 @@ feature-set: Workfront
     * [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
     * [Manage the GenStudio workspace in Adobe Workfront Planning](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
     * {hide-from-toc} [Promote a Workfront Planning workspace to GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
-  * Adobe Workfront Planning Standalone {#planning-standalone}
-    * {hide-from-toc} [Adobe Workfront Planning Standalone: article index](planning/planning-sta/planning-sta-article-index.md)
-    * {hide-from-toc} [Get started with Adobe Workfront Planning Standlone](planning/planning-sta/get-started-with-planning-sta.md)
+  * Adobe Workfront Planning as a standalone product {#planning-standalone}
+    * {hide-from-toc}[Adobe Workfront Planning as a standalone product: article index](planning/planning-sta/planning-sta-article-index.md)
+    * {hide-from-toc}[Get started with Adobe Workfront Planning as a standalone product](planning/planning-sta/planning-sta-overview.md)
+    * {hide-from-toc}[Access needed for Adobe Workfront Planning as a standalone product](planning/planning-sta/access-needed-for-planning-sta.md)
+    * {hide-from-toc}[Manage your instance of Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-planning-sta-instance.md)
+    * {hide-from-toc}[Manage users in Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-users-in-planning-sta.md)
+    * {hide-from-toc}[Manage teams in Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-teams-in-planning-sta.md)
+    * {hide-from-toc}[Manage request forms and requests in Adobe Workfront Planning as a standalone product](planning/planning-sta/planning-sta-requests.md)
 * Adobe Workfront Integrations {#adobe-workfront-integrations}
   * [Adobe Workfront integrations](workfront-integrations-and-apps/workfront-integrations.md)
   * [Adobe Workfront built-in integrations overview](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
