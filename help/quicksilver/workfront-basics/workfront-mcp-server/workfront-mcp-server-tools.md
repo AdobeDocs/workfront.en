@@ -218,7 +218,7 @@ Workflow tools are the general-purpose actions the AI agentic platform uses to w
 | Add reaction | `comment-stream_add_reaction` | Add a reaction (like) to a comment. | Write |
 | Remove reaction | `comment-stream_remove_reaction` | Remove a reaction (like) from a comment. | Write |
 
-## Insights tools
+### Insights tools
 
 Insights tools retrieve information about Workfront objects.
 
