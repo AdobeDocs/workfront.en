@@ -29,8 +29,6 @@ topic_v2:
 ---
 # Upload a new document version and request an approval
 
-{{highlighted-preview}}
-
 If a document is marked "Needs work" in a previous review, you can upload a new version to the original document and start another round of approvals. Once you upload a new version of the document, the previous versions are locked. 
 
 If the file name of the new version is different from the file name of the previous version, Workfront displays the document with the newer file name.
@@ -78,6 +76,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 
 
+<!--
 ## Use drag-and-drop to add a new version in the legacy documents area in Production
 
 If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
@@ -143,11 +142,11 @@ To add a new version:
    The approval workflow starts and the approvers receive a notification that their approval is needed on the new document version. The previous document version is locked and any outstanding approvals on the previous version are withdrawn.
 
     ![request approval](assets/request-approval.png)
+-->
+
 <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
 
-<div class="preview">
-
-## Use drag-and-drop to add a new version in the legacy documents area in Preview
+## Use drag-and-drop to add a new version in the legacy documents area
 
 If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
@@ -175,7 +174,7 @@ To add a new version and request approval:
 
    The approval workflow starts and the approvers receive a notification that their approval is needed on the new document version. The previous document version is locked and any outstanding approvals on the previous version are withdrawn.
 
-## Use drag-and-drop to add a new version in the new Documents area in Preview
+## Use drag-and-drop to add a new version in the new Documents area
 
 If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -206,5 +205,3 @@ To add a new version and request approval:
 1. Click **Request approval**.
 
    The approval workflow starts and the approvers receive a notification that their approval is needed on the new document version. The previous document version is locked and any outstanding approvals on the previous version are withdrawn.
-
-</div>

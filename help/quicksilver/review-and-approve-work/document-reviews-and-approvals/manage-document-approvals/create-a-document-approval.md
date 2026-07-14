@@ -29,8 +29,6 @@ topic_v2:
 ---
 # Create a document approval workflow
 
-{{highlighted-preview}}
-
 You can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.  
 
 >[!IMPORTANT]
@@ -72,6 +70,8 @@ You can request approval from other users or teams for a document in Adobe Workf
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
+
+<!--
 
 ## Create an approval workflow in the legacy documents area in Production
 
@@ -117,10 +117,9 @@ To create an approval workflow:
 
    ![Document details](assets/new-stage.png)
 
+-->
 
-<div class="preview">
-
-## Create an approval workflow in the legacy documents area in Preview
+## Create an approval workflow in the legacy documents area
 
 If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
@@ -226,8 +225,8 @@ To create an advanced approval workflow:
 
 1. Click **Request approval**.
 
-</div>
 
+<!--
 
 ## Create an approval workflow in the new Documents area in Production
 
@@ -269,11 +268,10 @@ To create an approval workflow:
    >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
    ![Document details](assets/new-stage.png)
+   
+-->
 
-
-<div class="preview">
-
-## Create an approval workflow in the new Documents area in Preview
+## Create an approval workflow in the new Documents area
 
 If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -385,10 +383,6 @@ To create an advanced approval workflow:
 1. (Optional) To clear all paths and stages and start over, click **Reset** in the top right.
 
 1. Click **Request approval**.
-
-</div>
-
-
 
 <!--
 ## Resubmit an approval on a new version
