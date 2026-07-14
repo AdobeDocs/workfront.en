@@ -336,13 +336,9 @@ For end-user troubleshooting steps, see [Troubleshoot Adobe Cloud Drive](/help/q
 1. Search for the user and click their name.
 1. Click the **Roles** tab and verify whether Adobe Cloud Drive is enabled.
 
-<!--
-
 **Cause:** Creative Cloud All Apps is provisioned in a different IMS organization from Workfront.
 
-**Resolution:**
-
--->
+**Resolution:** No resolution currently available.
 
 ### User installed the application and signed in, but sees no folders in the drive
 
