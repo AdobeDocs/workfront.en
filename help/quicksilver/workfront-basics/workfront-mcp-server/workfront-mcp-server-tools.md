@@ -137,7 +137,7 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | List global record types | `planning_list_global_record_types` | Lists all centrally-defined (global) record types visible to the current user. | Read |
 | List addable global record types | `planning_list_addable_global_record_types` | Lists global record types that can be added to a specific workspace. | Read |
 | Add global record type to workspace | `planning_add_global_record_type_to_workspace` | Links a global record type into a specified workspace. | Write |
-| Remove global record type from workspace | `planning_remove_global_record_type_from_workspace` | Unlinks a global record type from a workspace; deletes all its records in that workspace. | Write |
+| Remove global record type from workspace | `planning_remove_global_record_type_from_ws` | Unlinks a global record type from a workspace; deletes all its records in that workspace. | Write |
 | Get external record workspaces | `planning_get_external_record_workspaces` | Finds which workspaces and record types are connected to a specific external record. | Read |
 | Get record type sharing | `planning_get_record_type_sharing` | Returns the sharing and permissions for a specific record type. | Read |
 | Modify record type sharing | `planning_modify_record_type_sharing` | Updates who can access a record type and at what permission level. | Write |
