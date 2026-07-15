@@ -84,3 +84,24 @@ No longer the case - they match now:
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
 * There are limits on how many workspace objects you can create in your instance of Workfront Planning. For information, see [Adobe Workfront Planning object limitations overview](/help/quicksilver/planning/general/limitations-overview.md).
+
+## Overview of global search
+
+On the Planning landing page, you can use the global search box to search for the following Planning objects:
+
+* Workspaces
+* Record types
+* Views
+
+![Global search box](assets/global-search-box.png)
+
+Consider the following about using the global search:
+
+* You can access the search from the Planning landing page, or from any Planning page by pressing the following keyboard combination: 
+
+    * CTRL+K for Windows
+    * ⌘+K for Mac
+* The last 7 results from each object display in the search box. 
+* You can perform a general search or select an object and search individual lists. 
+    
+    

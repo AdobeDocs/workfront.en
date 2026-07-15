@@ -85,6 +85,20 @@ All users viewing the view can see the groupings applied.
 For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
 
 
+## Recently visited items in the global search box
+
+>[!NOTE]
+>
+>Preview and Production for all customers: June 30, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+The global search box in Planning now remembers your most recent searches: the last 7 visited workspaces, record types, and views are surfaced in dedicated, clearly labeled sections so you can access them quickly without re-running a query.  
+
+The recent results respect current permissions, and the list of most recent items is visually distinct from live search results. As before, you can access search from the Planning landing page or from any page by using a keyboard combination.  
+
+For more information, see [Workspace overview](/help/quicksilver/planning/architecture/workspaces-overview.md).
+
+
 ## Support for currency Planning fields in Canvas Dashboards
 
 >[!NOTE]
