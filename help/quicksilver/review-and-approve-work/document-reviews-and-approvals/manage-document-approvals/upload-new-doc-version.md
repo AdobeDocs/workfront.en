@@ -29,7 +29,7 @@ topic_v2:
 ---
 # Upload a new document version and request an approval
 
-If a document is marked "Needs work" in a previous review, you can upload a new version to the original document and start another round of approvals. Once you upload a new version of the document, the previous versions are locked. 
+If a document is marked "Needs work" in a previous review, you can upload a new version to the original document and start another round of approvals. Once you upload a new version of the document, the previous versions are locked.
 
 If the file name of the new version is different from the file name of the previous version, Workfront displays the document with the newer file name.
 
@@ -170,6 +170,7 @@ To add a new version and request approval:
 
 1. Configure the approval workflow. For field descriptions, the Advanced mode toggle, and the parallel paths flow, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
+1. To copy the same reviewers and approvers from the previous document version, click **Copy**.
 1. Click **Request approval**.
 
    The approval workflow starts and the approvers receive a notification that their approval is needed on the new document version. The previous document version is locked and any outstanding approvals on the previous version are withdrawn.
@@ -202,6 +203,7 @@ To add a new version and request approval:
 
 1. Configure the approval workflow. For field descriptions, the Advanced mode toggle, and the parallel paths flow, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
+1. To copy the same reviewers and approvers from the previous document version, click **Copy**.
 1. Click **Request approval**.
 
    The approval workflow starts and the approvers receive a notification that their approval is needed on the new document version. The previous document version is locked and any outstanding approvals on the previous version are withdrawn.
