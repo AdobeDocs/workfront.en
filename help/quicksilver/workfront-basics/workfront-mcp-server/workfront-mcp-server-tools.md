@@ -43,6 +43,8 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | Get document by version ID | `approvals_get_document_by_version_id` | Fetches document details (name, size, upload date, uploader) for a known document version ID. | Read |
 | Get documents by project | `approvals_get_documents_by_project` | Lists documents inside a Workfront project, with each document's current version ID. | Read |
 | Resolve document scope | `approvals_resolve_document_scope` | Expands a project or folder into the list of document version IDs it contains. Supports project, folder, and folder-by-name scopes. | Read |
+| Find a document | `approvals_find_document` | Look up a document by filename or document version ID | Read | 
+| Get documents by scope | approvals_get_documents_by_scope | List document inside a project or folder. | Read |
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
@@ -101,7 +103,7 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | Find team by name | `approvals_find_team_by_name` | Looks up a Workfront team's ID by name (fuzzy or partial match). | Read |
 | Find project by name | `approvals_find_project_by_name` | Looks up Workfront projects by partial name match across the system. | Read |
 | Get projects by owner | `approvals_get_projects_by_owner` | Lists Workfront projects where the calling user is the owner. | Read |
-| Get Adobe region | `approvals_get_adobe_region` | Returns the Adobe name of a cloud provider region. | Read |
+| Find projects | approvals_find_projects | Look up Workfront projects, optionally filtered by name and/or restricted to projects that the calling user owns. | Read |
 
 
 ## Planning tools
