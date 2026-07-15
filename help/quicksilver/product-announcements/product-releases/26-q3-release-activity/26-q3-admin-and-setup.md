@@ -127,6 +127,7 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 >
 >Preview: June 11, 2026
 >Production for everyone: June 11, 2026
+>[!BADGE Off schedule]{type=Neutral}
 
 Workfront administrators can now convert legacy storage portfolios to Adobe cloud storage directly from System Preferences. To convert portfolios, select them in the new Select portfolios to convert to enterprise storage field and save the page.
 

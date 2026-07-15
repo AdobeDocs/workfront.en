@@ -80,10 +80,11 @@ The following table shows how these controls interact:
 | Org-level switch | User in ACD user role | Workflow Ultimate license | Access result |
 | --- | --- | --- | --- |
 | On | Not required | Yes | Granted |
-<!-- | On | Not required | No | Denied | -->
 | Off | Yes | Yes | Granted |
 | Off | No | Yes | Denied |
 | Either | Either | No | Denied |
+
+<!-- Sarah said to delete the second line. Commenting it out within the table messed up the display for the rest of the table, so keeping the line here until I can delete it. | On | Not required | No | Denied | -->
 
 ## Prerequisites
 
