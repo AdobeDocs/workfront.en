@@ -43,7 +43,7 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | Get document by version ID | `approvals_get_document_by_version_id` | Fetches document details (name, size, upload date, uploader) for a known document version ID. | Read |
 | Get documents by project | `approvals_get_documents_by_project` | Lists documents inside a Workfront project, with each document's current version ID. | Read |
 | Resolve document scope | `approvals_resolve_document_scope` | Expands a project or folder into the list of document version IDs it contains. Supports project, folder, and folder-by-name scopes. | Read |
-| Find a document | `approvals_find_document` | Look up a document by filename or document version ID | Read | 
+| Find a document | `approvals_find_document` | Look up a document by filename or document version ID | Read |
 | Get documents by scope | approvals_get_documents_by_scope | List document inside a project or folder. | Read |
 
 <!--
