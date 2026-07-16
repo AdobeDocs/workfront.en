@@ -111,8 +111,8 @@ You must have the following access to use Workfront Planning:
    <li><p><span class="preview">Manage permissions to records to edit, share, or delete them.</p>
    <li><p>Contribute or higher permissions to views that you did not create, to edit, delete, and share them</p>
    </li>
-    <li><p>System Administrators can manage workspaces they did not create. </p></li>
-    <li><p>System Administrators cannot access views they did not create. </p></li></ul>
+    <li><p>Planning Administrators can manage workspaces they did not create. </p></li>
+    <li><p>Planning Administrators cannot access views they did not create. </p></li></ul>
    <p>For information about sharing permissions for Workfront Planning objects, see  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Overview of sharing permissions in Adobe Workfront Planning</a> 
    </td>
@@ -120,8 +120,8 @@ You must have the following access to use Workfront Planning:
    <tr>
    <td role="rowheader"><p>Layout template</p></td>
    <td> 
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p>
-   <p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
+   <p>Planning Standard users and Administrators have the Planning areas enabled by default.</p>
+   <p> Users with a Workflow Light or Planning Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
    <ul><li>Main Menu</li>
    <li>Left panel of projects, portfolios, and programs</li>
    </ul>   
@@ -135,11 +135,18 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 ## Workfront Planning access levels and licenses
 
-You can assign Workfront Planning licenses to access levels when you configure access levels in Workfront. 
+You can assign a user a Planning Administrator license when you add them to the Adobe Admin Console as an Administrator. 
 
-In addition, you can assign user Workflow licenses when you configure their access level as well.
+For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
-Users must have both license types assigned to their access level to access Workfront. 
+You cannot modify the Planning Administrator access level in Workfront Planning. 
+
+You can assign the following license types when you configure access levels in Workfront:
+
+* Workflow license types
+* Planning license types
+
+Users must have both license types assigned to their access level to access Workfront Planning. 
 
 You can assign the following Planning licenses to an Access Level:
 
@@ -154,6 +161,8 @@ You can assign the following Planning licenses to an Access Level:
 >You can give a user different levels of access between Workflow and Planning but the Workflow license cannot be lower than the Planning license. 
 >
 >For example, you can give a user a Workflow Standard license and a Planning Contributor license, but you cannot give them a Workflow Contributor license and a Planning Standard license.
+
+For more information, see [License type overview when using Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 ## Configure access level
 

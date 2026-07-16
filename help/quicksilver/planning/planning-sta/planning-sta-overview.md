@@ -133,7 +133,7 @@ For information about packages and licenses for Workfront Planning as a standalo
 
 ## Using Workfront Planning as a standalone product
 
-Using Workfront Planning as a standalone product is similar to using it as part of a Workfront package. 
+Using Workfront Planning as a standalone product is similar to using it as part of a Workfront with Workflow and Planning package. 
 
 The standalone Workfront Planning package includes the same functionality as the integrated version without any connections to Workfront object types and functions. 
 

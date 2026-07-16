@@ -23,6 +23,36 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## New license type fields for Access Levels 
+
+>[!IMPORTANT]
+>
+>Preview and Production for all customers: July 16, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+We have made the following field changes in the Access Level box:
+
+* We have renamed the License Type field to Workflow License Type. There are no functionality changes with this relabeling.
+    
+    For information, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+* We have added a new Planning License Type field to illustrate a user's license to Workfront Planning. 
+
+    The following license types are available for Planning: 
+
+    * Planning Standard
+    * Planning Contributor
+    * None
+
+>[!NOTE]
+>
+>You can assign users a mixed combination of licenses between Workflow and Planning but the Planning license type cannot be higher than the Workflow license type. For example, a Planning Standard license cannot be assigned to a Workflow Contributor user.
+
+For information, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md).  
+
+
+
 ## Automated access control for Workfront Planning in Snowflake
 
 >[!IMPORTANT]

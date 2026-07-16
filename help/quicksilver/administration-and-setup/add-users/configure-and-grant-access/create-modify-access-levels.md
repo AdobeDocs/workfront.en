@@ -109,7 +109,13 @@ For more detail about the information in this table, see [Access requirements in
       <li>Contributor</li>
       <li>None</li>
      </ul> 
-      For more information, see <a href="/help/quicksilver/planning/access/access-overview.md">Adobe Workfront Planning access overview</a> </td> 
+      For more information, see <a href="/help/quicksilver/planning/access/access-overview.md">Adobe Workfront Planning access overview</a> 
+      <p><b>IMPORTANT</b></p>
+      <p>Planning licenses and Workflow licenses work together to give users access to Workfront. </p>
+      <p>You can give a user different levels of license types between the Workflow and Planning license types, but the Workflow license cannot be lower than the Planning license. </p>
+      <p>For example, you can give a user a Workflow Standard license and a Planning Contributor license, but you cannot give them a Workflow Contributor license and a Planning Standard license.</p>
+      
+      </td> 
      </tr>
 
      <tr> 
@@ -124,10 +130,7 @@ For more detail about the information in this table, see [Access requirements in
       
       For more information, see <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">New licenses overview</a> or <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Licenses overview</a>.
       
-      <p><b>IMPORTANT</b></p>
-      <p>Planning licenses and Workflow licenses work together to give users access to Workfront. </p>
-      <p>You can give a user different levels of license types between the Workflow and Planning license types, but the Workflow license cannot be lower than the Planning license. </p>
-      <p>For example, you can give a user a Workflow Standard license and a Planning Contributor license, but you cannot give them a Workflow Contributor license and a Planning Standard license.</p>
+      
       
       </td> 
      </tr> 
