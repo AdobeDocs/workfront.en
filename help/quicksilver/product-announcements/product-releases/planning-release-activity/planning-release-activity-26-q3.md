@@ -29,7 +29,7 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 >[!NOTE]
 >
 >Preview and production for all customers: July 16, 2026
-[!BADGE Off schedule]{type=Neutral}
+>[!BADGE Off schedule]{type=Neutral}
 
 
 We have made the following field changes in the Access Level box:

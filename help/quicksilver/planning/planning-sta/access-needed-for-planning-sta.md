@@ -226,7 +226,8 @@ A user with a Planning Standard access level has the following capabilities:
 
 -->
 
-<!-- this was moved from the STA general article - some information is already above - take out here what is not needed or add above: 
+<!-- 
+this was moved from the STA general article - some information is already above - take out here what is not needed or add above: 
 
 ## Package overview
 
@@ -321,7 +322,8 @@ All users receive an email notification when they gain access to the additional 
 
 -->
 
-<!--I took out the last column on this table and added above:
+<!--
+I took out the last column on this table and added above:
 
 | Feature / Access | Planning Administrator | Planning Standard | Planning Contributor |
 |---|---|---|---|
