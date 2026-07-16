@@ -31,9 +31,11 @@ topic_v2:
 ---
 # Create workspaces
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -278,7 +280,6 @@ The templates included in the bundle contain workspaces, record types, records, 
       
       1. After opening the **Preview** box for each workspace template, click **Back** to go back to the **Create workspace** box, or click **Use templates** to use the templates including in the bundle and create workspaces. 
 
-   <div class="preview">
 
    * Click the **Sample workspaces** tab, then follow these steps:
 
@@ -290,8 +291,6 @@ The templates included in the bundle contain workspaces, record types, records, 
          >
          >Clicking a record type card in a template displays the fields of the record type in the right panel.
       1. Click **Use templates**.
-
-   </div>
 
    The 6 workspaces are created and display in the **Workspaces I'm** on and **All Workspaces** tabs for System administrators. All Standard-license users will see the workspaces in their Workspaces area after a System Administrator creates them and shares the new workspaces with them. 
 

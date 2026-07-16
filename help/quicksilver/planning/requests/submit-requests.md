@@ -33,10 +33,11 @@ topic_v2:
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
-
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -114,9 +115,7 @@ The following must be in place before you can submit a request to a Workfront Pl
 
 ## Considerations about submitting requests to Workfront Planning
 
-* In the Production environment, you cannot edit a request in Workfront after you submit it.
-
-   <span class="preview">In the Preview environment, you can edit a submitted request only before a record is created from it. After the record is created, you can no longer edit the submitted request. </span>
+* you can edit a submitted request only before a record is created from it. After the record is created, you can no longer edit the submitted request.
 * Each submitted request creates a record for the record type associated with the form you use, if the form is not associated with an approval, or if the approval has been granted by all approvers.
 * Records created by submitting request forms are identical to records added through any other method in Workfront Planning. 
 
@@ -227,18 +226,16 @@ Not sure how to change the request status, but dev also said: Changing the names
       ![Request page with comment](assets/new-request-page-with-comment.png)
     
 1. (Optional) Enter a comment in the **Comments** area.
-1. <span class="preview">(Optional and conditional) If the request is waiting approval and you opened the request, either click the **More** icon ![More menu](assets/more-menu.png) to the right of the request name then click **Edit** or double-click fields in the request to edit them. </span>
+1. (Optional and conditional) If the request is waiting approval and you opened the request, either click the **More** icon ![More menu](assets/more-menu.png) to the right of the request name then click **Edit** or double-click fields in the request to edit them.
 
    >[!NOTE]
    >
-   >  <div class="preview">
    >
    >* Editing a request is possible only when a record has not been created yet and the request is awaiting approval. 
    >* Some fields are read-only and you cannot edit them. 
    >* You can no longer edit a request after a record has been created from it. 
-   >
-   >  </div> 
-1. <span class="preview">(Optional) After editing the request, click **Submit changes**.</span>   
+   
+1. (Optional) After editing the request, click **Submit changes**.
 1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Created object** field. 
 
    The record's page opens in Workfront Planning. 

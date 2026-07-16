@@ -27,11 +27,11 @@ topic_v2:
 ---
 # Manage the timeline view
 
-
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+-->
 
 {{planning-important-intro}}
 
@@ -386,13 +386,13 @@ To add a filter to a timeline view:
     <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Optional) Click the **x** icon to remove a filter condition.
-1. <span class="preview">(Optional and conditional) If you added a breakdown structure to your timeline view, expand the record type in the following dropdown and repeat the same steps as above to add a filter for a record type included in the breakdown. </span>
+1. (Optional and conditional) If you added a breakdown structure to your timeline view, expand the record type in the following dropdown and repeat the same steps as above to add a filter for a record type included in the breakdown. 
 
-    <span class="preview"> Repeat for every record type in the breakdown.</span>
+    Repeat for every record type in the breakdown.
 
     ![Multi-tiered filter with breakdown for timeline view](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
 
-    <span class="preview">You can filter for breakdown record types only from the timeline view.</span>
+    You can filter for breakdown record types only from the timeline view.
 1. (Optional) Click **Filters** or anywhere else on the page to close the filters box. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
@@ -444,9 +444,7 @@ To add a grouping in the timeline view:
 
 1. In the **Group records by** box, drag and drop the groupings in the correct order.
 
-1. <span class="preview"> In the **Layout** area of the **Group records by** box select one of the following options:</span>
-
-    <div class="preview">
+1.  In the **Layout** area of the **Group records by** box select one of the following options:
 
     * **Stacked**: Groupings display without a frozen left column and fit the width of their items' timelines.
 
