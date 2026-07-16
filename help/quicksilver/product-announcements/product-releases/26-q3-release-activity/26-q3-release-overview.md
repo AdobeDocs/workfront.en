@@ -624,7 +624,7 @@ Some of the capabilities included in the Adobe Workfront Planning as a standalon
 * Automations for creating Planning records.  
 * Intake process using Planning request forms.
 
-For information, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/get-started-with-planning-sta.md). 
+For information, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
 
 ### API version 22
 
