@@ -127,5 +127,3 @@ Consider the following when working with access levels in Workfront Planning as 
 
     To keep historical records of your work, we recommend deactivating users, instead of deleting them.
 
-
-
