@@ -10,6 +10,8 @@ feature: Get Started with Workfront
 
 # Adobe Workfront MCP server tools
 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 This article lists the tools that the [!DNL Adobe Workfront] MCP server exposes to a connected AI agentic platform. The platform calls these tools on your behalf when you ask it to find, create, update, or delete Workfront items.
 
 For information about how to use these tools through an AI agentic platform, see [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md). For information about how to set up the connection, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
@@ -103,24 +105,6 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | Get projects by owner | `approvals_get_projects_by_owner` | Lists Workfront projects where the calling user is the owner. | Read |
 | Get Adobe region | `approvals_get_adobe_region` | Returns the Adobe name of a cloud provider region. | Read |
 
-<!--
-
-## Insights tools
-
-Insights tools retrieve information about Workfront objects.
-
-| Title | Tool name | What it does | Action |
-| --- | --- | --- | --- |
-| Read documents | `insights_read_docs` | Load the Workfront playbook or domain documentation, such as conditions, status, dates, or field paths. This is the required first step before querying data. | Read |
-| Get current user | `insights_get_current_user` | Retrieve your own Workfront identity, including name, ID, and URL. | Read |
-| Search fields | `insights_search_fields` | Search for available fields (standard and custom) on projects, tasks, issues, users, portfolios, teams, and so on. | Read |
-| Get field paths | `insights_get_field_paths` | Resolve dot-notation field paths for entities, required by the data query tool. | Read |
-| Find ID by name | `insights_find_id_by_name` | Look up the ID of any Workfront object by name, such as projects, tasks, users, portfolios, and so on. | Read |
-| Find Workfront data | `insights_find_workfront_data` | Find, filter, count, sort, and aggregate Workfront data. This is the main query and report tool. | Read |
-| Summarize object | `insights_summarize_object` | Fetch and summarize a single Workfront object by ID. | Read |
-| List entities | `insights_list_entities` | List all Workfront object types available to query. | Read |
-
--->
 
 ## Planning tools
 
@@ -210,6 +194,8 @@ Insights tools retrieve information about Workfront objects.
 
 Workflow tools are the general-purpose actions the AI agentic platform uses to work with any Workfront object — projects, tasks, issues, hours, assignments, programs, portfolios, and so on.
 
+### Objects and fields
+
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
 | Search objects | `workflow_search_any_object` | Searches for Workfront objects with flexible filter parameters, ordering, and pagination. | Read |
@@ -217,6 +203,38 @@ Workflow tools are the general-purpose actions the AI agentic platform uses to w
 | Update object | `workflow_update_any_object` | Updates fields on an existing Workfront object. | Write |
 | Delete object | `workflow_delete_any_object` | Deletes a Workfront object by ID. Requires explicit user confirmation before the action is performed. | Write |
 | Resolve field names | `workflow_resolve_field_names_any_object` | Converts user-provided field names or labels to the underlying Workfront API field names so the AI agentic platform can build accurate requests. | Read |
+
+### Comments
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Query comments | `comment-stream_query_comments` | Query comments by object ID, with pagination. | Read |
+| Get comment | `comment-stream_get_comment` | Get a single comment by ID. | Read |
+| Get comments count | `comment-stream_get_comments_count` | Get the total top-level comment count for an object. | Read |
+| Create comment | `comment-stream_create_comment` | Create a new comment on an object. | Write |
+| Create reply | `comment-stream_create_reply` | Create a reply to an existing comment. | Write |
+| Update comment | `comment-stream_update_comment` | Update an existing comment or reply. | Write |
+| Delete comment | `comment-stream_delete_comment` | Delete a comment by its ID. | Write |
+| Add reaction | `comment-stream_add_reaction` | Add a reaction (like) to a comment. | Write |
+| Remove reaction | `comment-stream_remove_reaction` | Remove a reaction (like) from a comment. | Write |
+
+### Insights tools
+
+Insights tools retrieve information about Workfront objects.
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Read documents | `insights_read_docs` | Load the Workfront playbook or domain documentation, such as conditions, status, dates, or field paths. This is the required first step before querying data. | Read |
+| Get current user | `insights_get_current_user` | Retrieve your own Workfront identity, including name, ID, and URL. | Read |
+| Search fields | `insights_search_fields` | Search for available fields (standard and custom) on projects, tasks, issues, users, portfolios, teams, and so on. | Read |
+| Get field paths | `insights_get_field_paths` | Resolve dot-notation field paths for entities, required by the data query tool. | Read |
+| Find ID by name | `insights_find_id_by_name` | Look up the ID of any Workfront object by name, such as projects, tasks, users, portfolios, and so on. | Read |
+| Find Workfront data | `insights_find_workfront_data` | Find, filter, count, sort, and aggregate Workfront data. This is the main query and report tool. | Read |
+| Summarize object | `insights_summarize_object` | Fetch and summarize a single Workfront object by ID. | Read |
+| List entities | `insights_list_entities` | List all Workfront object types available to query. | Read |
+
+
+
 
 ## How tools are updated
 
@@ -228,7 +246,6 @@ When Adobe releases a new version of the Workfront MCP server, the AI agentic pl
 
 We are working on adding the following tools to the Workfront MCP server in the future:
 
-* Comments
 * Boards
 
 

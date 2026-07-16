@@ -1197,6 +1197,7 @@ feature-set: Workfront
     * [Adobe Cloud Drive overview](documents/adobe-cloud-drive/adobe-cloud-drive-overview.md)
     * [Install Adobe Cloud Drive](documents/adobe-cloud-drive/install-adobe-cloud-drive.md)
     * [Use Adobe Cloud Drive](documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
+    * [Set up and manage Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/set-up-and-manage-adobe-cloud-drive.md)
     * [Troubleshoot Adobe Cloud Drive](documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)
   * Workfront and Experience Manager Assets Integrations {#wf-aem-integrations}
     * [Workfront and Experience Manager Assets Integrations](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
@@ -2048,6 +2049,7 @@ feature-set: Workfront
     * [Get started with the proofing and Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
     * [Get started with the proofing and GenStudio for Performance Marketing integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
     * [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
+    * [Get started with the Adobe Express and Workfront with Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
   * Tips, tricks, and troubleshooting for approvals {#ttt-approvals}
     * [Tips, tricks, and troubleshooting for approvals: article index](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
     * [Update Workfront Fusion scenarios for unified review and approval](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md)
@@ -2699,6 +2701,7 @@ feature-set: Workfront
   * [Create custom applications for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md)
 * {hide-from-toc} [Hidden test document](hidden-test.md)
 * {hide-from-toc} [Hide 2](hidden-test-2.md)
+
 
 
 <!--

@@ -55,7 +55,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">New tools available in the Workfront MCP Connector</a>
-                <p>To expand the capabilities of the Workfront MCP Connector, we've added eight new tools and deprecated the Search objects and Resolve field name tools.</p>
+                <p>To expand the capabilities of the Workfront MCP Connector, we've added some new tools and deprecated the Search objects and Resolve field name tools.</p>
             </td>
             <td><p>July 7, 2026</p></td>
             <td><p>July 15, 2026</p></td>
@@ -115,7 +115,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Default value logic supported on native reference fields</a><p>[!BADGE Workflow Prime]{type=Informative}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Default value logic supported on native reference fields</a><p>[!BADGE Workflow Prime or higher]{type=Informative}</p>
                 <p>In custom forms, native reference fields now allow you to add default value logic. This logic type is available only in the user interface and not in the Workfront API.</p>
             </td>
             <td><p>July 7, 2026</p></td>
@@ -352,8 +352,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now convert a legacy storage task to an Adobe cloud storage project.</p>
             </td>
             <td><p>June 11, 2026</p></td>
-            <td><p>June 12, 2026</p></td>
-            <td><p>June 12, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -465,8 +465,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Quarterly</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">Introducing new request statuses</a>
-                <p>To get more context about what state your requests are in, we are introducing new statuses for requests: New, On Hold, and Canceled. The "Completed" status has been renamed to "Complete".</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">Matching request statuses between the legacy and the new experience</a>
+                <p>To get more context about the correct state that your requests are in, we are updating statuses for requests in the new request experience.</p>
             </td>
             <td><p>May 27, 2026</p></td>
             <td><p>June 11, 2026</p></td>
@@ -516,6 +516,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Preview</strong></td>
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Optimization of comment archiving</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>We are currently optimizing comment archiving for comments that are older than 1 year for all Workfront objects that display an Updates area. This is an internal effort and should not affect your experience with the Updates area. There are no visual changes to the Updates area for any object types, and there are no changes in functionality with this update. All comments remain visible for all object types.</p>
+            </td>
+            <td><p>Phased rollout beginning July 7, 2026</p></td>
+            <td><p>Phased rollout beginning July 7, 2026</p></td>
+            <td><p>Phased rollout beginning July 7, 2026</p></td>
         </tr>
         <tr>
             <td>

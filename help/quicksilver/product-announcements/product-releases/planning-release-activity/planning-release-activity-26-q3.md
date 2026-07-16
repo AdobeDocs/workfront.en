@@ -85,6 +85,20 @@ All users viewing the view can see the groupings applied.
 For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
 
 
+## Recently visited items in the global search box
+
+>[!NOTE]
+>
+>Preview and Production for all customers: June 30, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+The global search box in Planning now remembers your most recent searches: the last 7 visited workspaces, record types, and views are surfaced in dedicated, clearly labeled sections so you can access them quickly without re-running a query.  
+
+The recent results respect current permissions, and the list of most recent items is visually distinct from live search results. As before, you can access search from the Planning landing page or from any page by using a keyboard combination.  
+
+For more information, see [Workspace overview](/help/quicksilver/planning/architecture/workspaces-overview.md).
+
+
 ## Support for currency Planning fields in Canvas Dashboards
 
 >[!NOTE]
@@ -182,11 +196,16 @@ For information, see [Get started with the Adobe Workfront Planning and Adobe Ge
 >Production fast release: June 11, 2026
 >Production for everyone: July 16, 2026
 
+
 We have added the Sample workspaces tab in the Planning landing area where you can view example of best-practice workspaces. The workspaces are not editable. Workspace managers can modify views in sample workspaces. The tab is visible for Standard and System Administrator users.  
 
 We recommend that you view the sample workspaces as examples, and use the multi-workspace template bundle to create, edit, and share workspaces that result as a use of that template.  The template bundle contains the same workspaces as the Sample workspaces tab.   
 
 For information, see [Workspaces overview](/help/quicksilver/planning/architecture/workspaces-overview.md). 
+
+>[!NOTE]
+>
+>Creating workspaces from template bundles is only available for organizations on the Workflow Prime or Ultimate packages.
 
 ## Workfront Planning API version 2 
 
