@@ -183,7 +183,7 @@ The system generates a Custom Field audit log entry when a user does one of the 
    
    * Changes the field size
 
-     This is available only if the field is a one of the following types: single line, paragraph, text with formatting
+     This is available only if the field is a one of the following types: single line, paragraph, rich text
    
    * Adds, removes, or hides a field choice
    * Edits a field choice label or value

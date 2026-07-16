@@ -46,6 +46,13 @@ You can add an existing custom form to any of the objects listed below. A custom
 * Iterations
 * Expenses
 * Billing records
+* Teams
+
+If you are on the Workflow Ultimate package, you can attach custom forms to these additional objects:
+
+* Job roles
+* Rate cards
+* Assignments
 
 You can add a custom form only to the types of objects for which the form was created.
 

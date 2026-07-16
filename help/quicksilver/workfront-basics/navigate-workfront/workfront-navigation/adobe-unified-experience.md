@@ -54,7 +54,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 Your organization's instance of [!DNL Workfront] must be onboarded to the [!DNL Adobe Business Platform] or the [!DNL Adobe Admin Console].
 
-If you have questions about onboarding to the [!DNL Adobe Admin Console], see the [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).
+If you have questions about onboarding to the [!DNL Adobe Admin Console], see the [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 ## Adobe Identity Management System (IMS)
 
