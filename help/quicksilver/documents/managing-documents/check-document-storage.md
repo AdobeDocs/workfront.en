@@ -1,4 +1,4 @@
-yes---
+---
 product-area: documents
 navigation-topic: manage-documents
 title: Check document storage limits
