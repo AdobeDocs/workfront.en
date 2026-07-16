@@ -37,6 +37,36 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 -->
 
+## New license type fields for Access Levels
+
+>[!NOTE]
+>
+>Preview and production for all customers: July 16, 2026
+>
+>[!BADGE Off schedule]{type=Neutral}
+ 
+We have made the following field changes in the Access Level box: 
+
+* We have renamed the License Type field in the Access Level box to Workflow License Type. There are no functionality changes with this relabeling.  
+   For information,[ see Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).  
+
+* For customers who also have purchased a Workfront Planning package, we have added a new Planning License Type field to illustrate a user's license to Workfront Planning. 
+   Customers who have purchased an equal number of Workflow and Planning licenses have the following license types available:  
+
+   * Planning Standard 
+   * Planning Contributor 
+   * None
+
+   >[!NOTE]
+   >
+   >You can assign users a mixed combination of licenses between Workflow and Planning but the Planning license type cannot be higher than the Workflow license type. 
+   >
+   >For example, a Planning Standard license cannot be assigned to a Workflow Contributor user. A user with a Workflow Light license can now be granted Standard license to Planning and thus manage workspaces and their content. Previously, they could only have view-only access to Planning data.
+   >
+   >New customers can purchase Planning and Workflow licenses in different quantities and use them with any combination. In this scenario the Planning Contributor license type is not available. 
+   >
+   >For information, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md).
+
 ## Internal lookup field replacing Typeahead field type
 
 >[!NOTE]
