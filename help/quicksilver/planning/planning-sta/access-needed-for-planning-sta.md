@@ -5,8 +5,8 @@ last-update: 2026-04-01T14:02:40-04:00
 git-commit-file: 8cc175490a6aa1db68b238edbdf9da9da7fbb258
 ---
 <!--
-Update metadata with this at release:
 
+Update metadata with this at release:
 ---
 title: Access Required for Planning Standalone
 description: This article describes how you can benefit from using the standalone version of Adobe Workfront Planning.

@@ -14,6 +14,7 @@ recommendations: noDisplay, noCatalog
 >The information in this article refers to Adobe Workfront Planning, when purchased as a standalone product. Refer to this article when your company purchased an Adobe Workfront Planning only package, and they did not purchase a Workfront Workflow package. 
 >
 >For information about Adobe Workfront Planning when purchased together with a Workfront package, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md). 
+>
 
 You can manage users in Adobe Workfront Planning as a standalone product in a similar way that you manage them in Adobe Workfront. 
 

@@ -42,7 +42,9 @@ topic_v2:
 # Get started with Adobe Workfront Planning
 
 <!--
+
 this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page
+
 -->
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
