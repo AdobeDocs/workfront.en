@@ -10,7 +10,9 @@ recommendations: noDisplay, noCatalog
 # Third Quarter 2026 release activity for Adobe Workfront Planning
 
 <!--
+
 take the next sentence out when we start listing features
+
 -->
 
 <!--

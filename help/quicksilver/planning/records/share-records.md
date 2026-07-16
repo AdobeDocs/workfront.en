@@ -45,6 +45,10 @@ You can share an Adobe Workfront Planning record in the following ways:
 
 * Copy a link to the record's page when viewing records in the record type's table view.   
 
+This article describes how you can share records by sharing a link. 
+
+Additionally, you can share records in the following ways: 
+
 * Share all records in a workspace with other users by sharing the workspace and the record type. By default, all records are also shared with the same users. 
 
    For more information see the following articles:

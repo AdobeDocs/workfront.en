@@ -15,9 +15,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 ---
-<!--
-Update metadata with this at release:
 
+<!--
+
+Update metadata with this at release:
 ---
 title: "Adobe Planning Standalone: Article Index"
 description: The articles in this section describe how you can benefit from using the standalone version of Adobe Workfront Planning.

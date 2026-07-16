@@ -10,7 +10,9 @@ recommendations: noDisplay, noCatalog
 # Get started with Adobe Workfront Planning as a standalone product
 
 <!--
+
 This is linked from the "planning-important-intro" snippet and many other Planning integrated articles
+
 -->
 
 <!--
