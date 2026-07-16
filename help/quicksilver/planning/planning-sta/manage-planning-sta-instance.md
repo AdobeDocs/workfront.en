@@ -102,5 +102,3 @@ Configuring your Workfront Planning system preferences is similar to configuring
 
 For information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md). 
 
-
-

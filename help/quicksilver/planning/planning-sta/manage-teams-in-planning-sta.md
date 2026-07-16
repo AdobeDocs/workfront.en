@@ -71,4 +71,3 @@ For more information about access needed for Workfront as a standalone package, 
     * Hover over the team name in the list, then click the **More** menu ![More menu](assets/more-menu.png) > **Delete Team**
     * Select the team in the list, then click **Delete Team** on the blue toolbar at the bottom of the page
 1. Click **Yes, Delete** it to confirm.
-
