@@ -43,4 +43,6 @@ The articles in this section describe how you can benefit from using the standal
 * [Manage your instance of Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/manage-planning-sta-instance.md)
 * [Manage users in Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
 * [Manage teams in Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/manage-teams-in-planning-sta.md)
+<!--
 * [Manage request forms and requests in Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-requests.md)
+-->

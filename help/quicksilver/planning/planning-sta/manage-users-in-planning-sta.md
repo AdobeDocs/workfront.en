@@ -63,16 +63,16 @@ Consider the following when working with access levels in Workfront Planning as 
 
 * You cannot create or modify access levels in Workfront Planning. They are preconfigured. 
 
-* After you add a user to the Adobe Admin Console as a Planning Administrator they are automatically assigned to this access level in Workfront Planning and their access level cannot be edited in Planning. 
-* You can only assign a Planning Standard access level to users in Planning. This is the only access level you can manually assign to a user. 
+* After you add a user to the Adobe Admin Console as an Administrator for the Workfront product, they are automatically assigned to this access level in Workfront Planning and their access level cannot be edited in Planning. 
+* You can only assign a Planning Standard access level to users in Planning, after you add the users to the Admin Console. This is the only access level you can manually assign to a user. 
 
 ## Manage users in Workfront Planning as a standalone product
 
 1. As a Planning Administrator, do one of the following:
 
-    * If you are a new Workfront Planning customer, you receive an email from Adobe Workfront alerting you that you now have an account in Adobe Workfront. Use the link in the email to log into the Admin Console. 
+    * If you are a new Workfront Planning customer, you receive an email from Adobe Workfront alerting you that you now have an account in Adobe Workfront. Use the link in the email to log in to the Admin Console. 
 
-    * If you are an existing Workfront Planning Administrator and you want to add others to your account, log into the Admin Console. 
+    * If you are an existing Workfront Planning Administrator and you want to add others to your account, log in to the Admin Console. 
 
     For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md). 
 
@@ -81,7 +81,10 @@ Consider the following when working with access levels in Workfront Planning as 
     * **Administrators**: Users are automatically created as a Planning Administrator user in Planning. 
     * **Users**: You must assign an Access Level in Workfront Planning. 
 
-1. (Conditional) Log into Workfront Planning and click **Main Menu** > **Users** > **New User**. 
+1. (Conditional) Log in to Workfront from the Adobe CX Enterprise Home.
+
+    Workfront Planning opens. 
+1. Click **Main Menu** > **Users** > **New User**. 
 
     ![New User box in Planning standalone](assets/new-user-box-planning-sta.png)
 

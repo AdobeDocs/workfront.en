@@ -40,12 +40,14 @@ topic_v2:
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Workfront with Workfront Planning. 
+>The information in this article refers to Adobe Workfront Planning. Workfront Planning is either a standalone product, or an additionally purchased capability of Adobe Workfront.  
 >
->Refer to this article when your company purchased an Adobe Workfront Workflow package in addition to an Adobe Workfront Planning package. 
 >
->For information about Adobe Workfront Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
+>This article contains general information about Workfront Planning when customers also purchase a Workfront or Workflow package. 
 >
+>For the complete list of articles that contain documentation for Workfront Planning, see [General information and article index for Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md). 
+>
+>For information Workfront Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
 
 This article describes the access and settings that you need to use the capabilities of Workfront Planning. 
 
@@ -131,6 +133,53 @@ You must have the following access to use Workfront Planning:
 For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
 
 
+## Workfront Planning access levels and licenses
+
+You can assign Workfront Planning licenses to access levels when you configure access levels in Workfront. 
+
+In addition, you can assign user Workflow licenses when you configure their access level as well.
+
+Users must have both license types assigned to their access level to access Workfront. 
+
+You can assign the following Planning licenses to an Access Level:
+
+* **Planning Standard**: Give users this access if they need to create and manage all Planning objects, without being an administrator.
+* **Planning Contributor**: Give users this access if they need to contribute to records but don't need to create Planning objects.
+* **None**: When you assign this Planning license type, you are specifically removing all Planning access to the users assigned to this access level. 
+
+>[!IMPORTANT]
+>
+>Planning licenses and Workflow licenses work together to give users access to Workfront. 
+>
+>You can give a user different levels of access between Workflow and Planning but the Workflow license cannot be lower than the Planning license. 
+>
+>For example, you can give a user a Workflow Standard license and a Planning Contributor license, but you cannot give them a Workflow Contributor license and a Planning Standard license.
+
+## Configure access level
+
+For information about configuring access in Workfront, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+## Assign licenses to users
+
+You can assign licenses to users when you assign them an  Access level while editing or creating them. 
+
+For information, see [Edit a user's profile](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+## Grant permissions
+
+You can grant permissions to the following entities in Workfront Planning:
+
+* Workspaces
+* Record types
+* Views
+* Records
+
+For more information, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+
+Your Adobe Workfront license type works with your Workfront Planning license type and Planning permissions to give you access to view, contribute, or manage Workfront Planning objects.
+
+For information about how license types affect permission levels for Workfront Planning objects, see [License type overview when using Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+
 ## Share the Planning area using a layout template
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning program.--> 
@@ -164,30 +213,5 @@ To add or remove Workfront Planning areas from users of your Workfront instance:
     All users assigned to the template can now access Workfront Planning in their Main Menu. 
     
     Users can start creating workspaces, records types, records, and fields.
-
-## Assign licenses to users
-
-You can assign licenses to users when you configure their Access level while editing or creating them. 
-
-For information, see [Edit a user's profile](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
-
-## Configure access level
-
-For information about configuring access in Workfront, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
-
-## Grant permissions
-
-You can grant permissions to the following entities in Workfront Planning:
-
-* Workspaces
-* Record types
-* Views
-* Records
-
-For more information, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
-
-Your Adobe Workfront license type works with your Workfront Planning license type and Planning permissions to give you access to view, contribute, or manage Workfront Planning objects.
-
-For information about how license types affect permission levels for Workfront Planning objects, see [License type overview when using Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 

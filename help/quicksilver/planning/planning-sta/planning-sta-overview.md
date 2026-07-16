@@ -44,7 +44,10 @@ To answer these questions, leadership needs a solution that can provide a holist
 
 ## Adobe Workfront Planning standalone vs Adobe Workfront with Planning
 
+<!--
 
+This list also exists here: \help\quicksilver\planning\access\license-type-overview.md
+-->
 Your organization can purchase Workfront Planning in several ways:
 
 * Together with a Workfront Workflow package, with equal numbers of licenses for Workflow and Planning. Users receive access to the full functionality to both Adobe Workfront Workflow and Planning. 
@@ -73,7 +76,7 @@ The following are capabilities included in Planning when you purchase it as a st
     For information, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md)
 * Use request forms for campaign intake
 
-    For information, see [Manage request forms and requests in Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-requests.md)
+    For information, see [Adobe Workfront Planning requests: article index](/help/quicksilver/planning/requests/requests-article-index.md)
 * Use cross-workspace capabilities for customers with Prime and Ultimate packages
 
 * Connect record types including connecting to AEM objects

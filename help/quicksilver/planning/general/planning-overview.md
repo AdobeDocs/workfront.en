@@ -55,21 +55,15 @@ this article is linked to the WF Planning landing page - do not change URL or mo
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Workfront Workfront Planning. Workfront Planning is either a standalone product, or an additionally purchased capability of Adobe Workfront.  
+>The information in this article refers to Adobe Workfront Planning. Workfront Planning is either a standalone product, or an additionally purchased capability of Adobe Workfront.  
 >
-
-This article contains general information about Workfront Planning when customers also purchase a Workfront or Workflow package. 
-
-For the complete list of articles that contain documentation for Workfront Planning, see [General information and article index for Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md). 
-
-<!--
-
->[!IMPORTANT]
 >
->The information in this article refers to Adobe Workfront with Workfront Planning. Refer to this article when your company purchased an Adobe Workfront Workflow package in addition to an Adobe Workfront Planning package. 
+>This article contains general information about Workfront Planning when customers also purchase a Workfront or Workflow package. 
 >
->For information about Adobe Workfront Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
--->
+>For the complete list of articles that contain documentation for Workfront Planning, see [General information and article index for Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md). 
+>
+>For information Workfront Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
+
 
 ## Workfront Planning availability
 
@@ -77,21 +71,15 @@ For the complete list of articles that contain documentation for Workfront Plann
 the bullets repeat in the "Access needed for Planning STA" article
 -->
 
-Depending on what products and what modules your company purchased, you can access Workfront Planning in the following ways: 
+Workfront Planning is accessible when your organization purchases one of the following Workfront packages: 
 
-* Workfront Workflow and Workfront Planning purchased together. Every user in the organization has a Workflow and a Planning license. This gives all users access to all Workfront's features for both modules. 
+* Workfront Workflow and Workfront Planning purchased together. Every user in the organization has a Workflow and a Planning license. This gives all users full access to all Workfront's features for both modules. 
 
-* Workfront Workflow for everyone in your organization and Workfront Planning only for some users in your organization. This gives users access to all Workflow's features and access to Planning features only to some users. 
+* Workfront Workflow for everyone in your organization and Workfront Planning only for some users in your organization. This gives users full access to all Workflow's features and a more limited access to Planning features for the users who are assigned a Planning license.   
 
-* Workfront Planning as a standalone product for some or all users in your organization. This gives users no access to any Workfront Workflow features and access to Planning features. 
+* Workfront Planning as a standalone product for users in your organization. This gives users no access to any Workfront Workflow features and access to Planning features.
 
->[!IMPORTANT]
->
->This article refers to Workfront Planning when your organization purchases both a Workflow and a Workfront license. 
->
->For information about the access granted for Workfront with both Workflow and Planning modules, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
->
->For information about the access granted for Workfront Planning as a standalone product, see [Access needed for Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/access-needed-for-planning-sta.md). 
+For information about capabilities included in Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
 
 ## Introduction to Adobe Workfront Planning 
 
@@ -111,8 +99,6 @@ The following are some of the main capabilities:
 * Solve the problem of managing work across all stages and for all the stakeholders that participate in the work process.  
 * Fully customize your workflows, from deciding what object types (or record types) your organization uses to configuring how these objects link to one another.  
 * Link to object types from other systems, creating a coherent framework for all your processes.  
-
-
 
 ## Enable Workfront Planning for the users in your Workfront instance
 

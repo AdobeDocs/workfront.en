@@ -50,7 +50,7 @@ For more information about access needed for Workfront as a standalone package, 
 
 ## Manage teams in Adobe Workfront Planning
 
-1. As a Planning Administrator, log into Workfront Planning. 
+1. As a Planning Administrator, log in to Workfront from the Adobe CX Enterprise Home. 
 1. Click **Main Menu** > **Setup** > Teams > **New Team**.
 
     ![new team box in Planning standalone](assets/new-team-planning-sta.png)

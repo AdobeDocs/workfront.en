@@ -2271,7 +2271,6 @@ feature-set: Workfront
     * {hide-from-toc}[Manage your instance of Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-planning-sta-instance.md)
     * {hide-from-toc}[Manage users in Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-users-in-planning-sta.md)
     * {hide-from-toc}[Manage teams in Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-teams-in-planning-sta.md)
-    * {hide-from-toc}[Manage request forms and requests in Adobe Workfront Planning as a standalone product](planning/planning-sta/planning-sta-requests.md)
 * Adobe Workfront Integrations {#adobe-workfront-integrations}
   * [Adobe Workfront integrations](workfront-integrations-and-apps/workfront-integrations.md)
   * [Adobe Workfront built-in integrations overview](workfront-integrations-and-apps/built-in-integrations-non-admin.md)

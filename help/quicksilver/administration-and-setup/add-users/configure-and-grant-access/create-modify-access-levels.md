@@ -99,12 +99,41 @@ For more detail about the information in this table, see [Access requirements in
       <td role="rowheader">Description </td> 
       <td>Type a description for the access level. It's helpful to list here what an user with this access level will be able to access.</td> 
      </tr> 
+
+      <tr> 
+      <td role="rowheader">Planning License Type</td> 
+      <td><p>This field is visible only for customers who also purchased a Workfront Planning package, in addition to a Workflow package.</p>
+      <p>The selected license determines what settings are available for users with this access level. </p>
+      <p>Choose from the following options:</p>
+      <ul><li>Standard</li>
+      <li>Contributor</li>
+      <li>None</li>
+     </ul> 
+      For more information, see <a href="/help/quicksilver/planning/access/access-overview.md">Adobe Workfront Planning access overview</a> </td> 
+     </tr>
+
      <tr> 
-      <td role="rowheader">License Type</td> 
-      <td>Make sure that the license selected here is the one that is most closely associated with the type of access level you are creating or editing. The selected license determines what settings are available for the access level. For more information, see <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">New licenses overview</a> or <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Licenses overview</a>.</td> 
+      <td role="rowheader">Workflow License Type</td> 
+      <td>Make sure that the license selected here is the one that is most closely associated with the type of access level you are creating or editing. The selected license determines what settings are available for the access level. 
+      
+      <p>Choose from the following options:</p>
+      <ul><li>Standard</li>
+      <li>Contributor</li>
+      <li>Light</li>
+     </ul> 
+      
+      For more information, see <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">New licenses overview</a> or <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Licenses overview</a>.
+      
+      <p><b>IMPORTANT</b></p>
+      <p>Planning licenses and Workflow licenses work together to give users access to Workfront. </p>
+      <p>You can give a user different levels of license types between the Workflow and Planning license types, but the Workflow license cannot be lower than the Planning license. </p>
+      <p>For example, you can give a user a Workflow Standard license and a Planning Contributor license, but you cannot give them a Workflow Contributor license and a Planning Standard license.</p>
+      
+      </td> 
      </tr> 
     </tbody> 
    </table>
+
 
 1. (Conditional) If **Standard** or **Plan** is selected in the **License Type** box, scroll to the section **Allow administrative access for** and select administrative access permissions for those who will have this access level.
 

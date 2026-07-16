@@ -46,40 +46,49 @@ The following table describes what is included in each package:
 | Global Record Types and cross-workspace connections | — | ✓ | ✓ |
 | Access to future features at release | Some | Some | Most |
 
-## Workfront Planning availability
+## Workfront Planning package availability
 
 <!--
 the bullets repeat in the "Planning overview" article
 -->
 
-Depending on what products and what modules your company purchased, you can access Workfront Planning in the following ways: 
+Workfront Planning is accessible when your organization purchases one of the following Workfront packages: 
 
-* Workfront Workflow and Workfront Planning purchased together. Every user in the organization has a Workflow and a Planning license. This gives all users access to all Workfront's features for both modules. 
+* Workfront Workflow and Workfront Planning purchased together. Every user in the organization has a Workflow and a Planning license. This gives all users full access to all Workfront's features for both modules. 
 
-* Workfront Workflow for everyone in your organization and Workfront Planning only for some users in your organization. This gives users access to all Workflow's features and access to Planning features only to some users. 
+* Workfront Workflow for everyone in your organization and Workfront Planning only for some users in your organization. This gives users full access to all Workflow's features and a more limited access to Planning features for the users who are assigned a Planning license.   
 
-* Workfront Planning as a standalone product for some or all users in your organization. This gives users no access to any Workfront Workflow features and access to Planning features.
+* Workfront Planning as a standalone product for users in your organization. This gives users no access to any Workfront Workflow features and access to Planning features.
 
 For information about capabilities included in Planning as a standalone product, see the section "Functionality included in Workfront Planning as a standalone product" in the article [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
 
-## User license and navigation
+## User license and access levels
 
 <!-- should this be moved to the Manage users in Planning article??-->
 
-Depending on which Workfront Planning package combination your organization purchases, you might have one of the following Planning license types available for your users' access levels: 
+Planning licenses are part of the access level assigned to users. 
 
-* Planning Administrator
-* Planning Standard
-* Planning Contributor. This license is only available for the following customers: 
+For Planning as a standalone product, you cannot assign licenses to the access levels - they are already hard coded to be included in the access levels assigned to users. 
+
+Depending on which Workfront Planning package combination your organization purchases, you might have one of the following access levels for your users: 
+
+* **Planning Administrator**: Available for Workfront Planning packages. Planning Administrators are automatically assigned when users are added to the Admin Console. 
+* **Planning Standard**: Available for all Workfront Planning packages. You can assign this access levels to users when you create them.
+
+<!--
+this is not available for Planning STA: 
+* **Planning Contributor**: Available for the following customers: 
 
     * Customers that purchase equal amounts of Workflow and Planning packages together. In this case, Planning Contributors have limited access to Planning objects.
-    * Customer that purchase unequal amounts of Workflow and Planning packages. In this case, Planning Contributors have read-only access to Planning objects. 
+    * Customer that purchase unequal amounts of Workflow and Planning packages. In this case, Planning Contributors have read-only access to Planning objects.
+
+--> 
 
 Each standalone Planning license maps to a role in the system and controls what areas of the product are accessible.
 
 The following table illustrates each Planning license type and its capabilities in Workfront Planning, when purchased as a standalone product: 
 
-| Feature / Access | Planning Administrator | Planning Standard |
+| Feature / License type | Planning Administrator | Planning Standard |
 |---|---|---|
 | Access level description | Full system access | Can manage workspaces and content |
 | Planning area in the Main Menu | ✔ | ✔ |
@@ -97,16 +106,17 @@ The following table illustrates each Planning license type and its capabilities 
 | Setup > System > Customer info | ✔ |   |
 | Setup > System > Preferences | ✔ |   |
 
-
 For information about assigning users access levels, see [Manage Users in Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md).
 
 ## Navigation areas and access level dependencies
 
 Depending on the Planning license, users might have different areas available in their global navigation. 
 
+<!--
 >[!NOTE]
 >
 >Workfront-specific toolbar actions (Search, Recents, Favorites, Notifications) are not available in the Workfront header for any Standalone user.
+-->
 
 ### Planning Administrator navigation overview
 
