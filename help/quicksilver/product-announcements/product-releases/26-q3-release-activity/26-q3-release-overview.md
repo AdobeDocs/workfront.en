@@ -106,6 +106,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
         -->
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">New license type fields for Access Levels<p>[!BADGE Off schedule]{type=Neutral}</p></a>
+                <p>We have made the following field changes in the Access Level box: <ul><li>We have renamed the License Type field in the Access Level box to Workflow License Type. There are no functionality changes with this relabeling.  </li><li>For customers who also have purchased a Workfront Planning package, we have added a new Planning License Type field to illustrate a user's license to Workfront Planning. </li><ul></p>
+            </td>
+            <td><p>July 16, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Internal lookup field replacing Typeahead field type</a>
                 <p>The new Internal lookup field type in custom forms provides dynamic filtering, multi-select support, and improved performance for large datasets. It is replacing the Typeahead field type.</p>
             </td>
@@ -591,6 +600,31 @@ The Desktop Proofing Viewer has been updated to from 2.1.54 to 2.1.55. This upda
 This update is for both Mac and Windows.
 
 ## Announcements
+
+### Adobe Workfront Planning as a standalone product
+
+>[!NOTE]
+>
+>Preview and production for all customers: Starting July 16, 2026
+>
+>[!BADGE New customers only]{type=Neutral}
+
+You can now buy Adobe Workfront Planning independently, without requiring a Workfront Workflow license. 
+
+Adobe Workfront Planning as a standalone product is designed for new customers and for teams that need campaign planning and metadata management capabilities without the full suite of Workflow features. 
+
+>[!IMPORTANT]
+>
+>This is available for new customers only. Contact your account representative for details.  
+
+Some of the capabilities included in the Adobe Workfront Planning as a standalone product are:
+
+* Full Workfront Planning functionality, with the ability to create and manage workspaces, record types, records, fields, and views. 
+* Ability to connect records including cross-workspace connections for Prime and Ultimate packages.  
+* Automations for creating Planning records.  
+* Intake process using Planning request forms.
+
+For information, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
 
 ### API version 22
 

@@ -33,8 +33,6 @@ topic_v2:
 ---
 # Configure basic information for your system
 
-{{highlighted-preview}}
-
 <!-- Audited: 2/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>-->
@@ -85,7 +83,7 @@ To access the Customer Info page:
    | Section | More information |
    |---------|-----------------|
    | **Basic Info** | For information about configuring basic information in Workfront, see [Configure Basic Info](#configure-basic-info). |
-   | <span class="preview">**Storage Overview**</span> | <span class="preview">For information about checking document storage usage and quota, see [Check document storage limits](../../documents/managing-documents/check-document-storage.md).</span> |
+   | **Storage Overview** | For information about checking document storage usage and quota, see [Check document storage limits](../../documents/managing-documents/check-document-storage.md). |
    | **API Key Settings** | For information about API key settings, see [Manage API keys](../../administration-and-setup/manage-workfront/security/manage-api-keys.md). |
    | **IP Allowlist** | For information about adding the IP addresses to your allowlist for where your users can access Workfront, see [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md). |
    | **Email Allowlist** | For information about adding emails to your allowlist, see [Configure your email allowlist](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md). |

@@ -39,6 +39,8 @@ at GA, check that the Workfront plans article linked below has Planning info
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <p>Any Workfront or Workflow with a Planning package</p> 
+Or
+<p>Any Workfront Planning as a standalone product package</p> 
 
  </tr>
    
