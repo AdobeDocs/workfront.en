@@ -16,15 +16,9 @@ role_v2:
 ---
 # Breadcrumbs overview
 
-{{highlighted-preview}}
-
 Breadcrumbs display the full navigational hierarchy for all object types. Each object in the breadcrumb path has a label that displays the object type. The page that you are currently on displays both in the page header and at the end of the breadcrumb path in italics. In the example below, this is the "[!UICONTROL Share with Brand Team]" task.
 
-<span class="preview">Sample image in the Preview environment:</span>
 ![Collapsed breadcrumb](assets/collapsed-breadcrumb-2026.png)
-
-Sample image in the Production environment:
-![Collapsed breadcrumb](assets/NWE-collapsed-breadcrumb.png)
 
 When there are too many objects in the breadcrumb path or the screen width prohibits the full navigational hierarchy from displaying, the path collapses some of the breadcrumbs and groups these objects at the beginning of the breadcrumb path. Both the project and the current object page are always visible in the breadcrumb path.
 
@@ -32,11 +26,7 @@ For example, "3 more" in the image above indicates that 3 objects are not displa
 
 Clicking "[!UICONTROL more]" allows you to expand the full hierarchy. You can click "[!UICONTROL Less]" to collapse the breadcrumb path again.
 
-<span class="preview">Sample image in the Preview environment:</span>
 ![Collapsed breadcrumb](assets/expanded-breadcrumb-2026.png)
-
-Sample image in the Production environment:
-![Expanded breadcrumb](assets/NWE-expanded-breadcrumb.png)
 
 You can also use the following keys to navigate the breadcrumbs:
 

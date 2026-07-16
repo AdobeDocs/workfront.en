@@ -176,7 +176,7 @@ Old:
     | Number-formatted single-line text        | Number                        |
     | Currency-formatted single-line text      | Currency                      |
     | Paragraph                                | Paragraph                     |
-    | Text with formatting                     | Paragraph                     |
+    | Rich text / Text with formatting         | Paragraph                     |
     | Single-select dropdown                   | Single-select                 |
     | Multi-select dropdown                    | Multi-select                  |
     | User typeahead Filters are not supported | People                        |

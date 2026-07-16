@@ -21,8 +21,6 @@ topic_v2:
 ---
 # Pin pages to customize your workspace
 
-{{highlighted-preview}}
-
 <!-- Audited: 4/2025 -->
 
 You can pin your most important work in [!DNL Adobe Workfront] for increased visibility, better organization, and quicker access. Pinned pages are always accessible from the top of any page in Workfront.
@@ -62,11 +60,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. In the upper-left corner of the page, click **[!UICONTROL Pin current page]**. The pinned page is now accessible from the top of any page in [!DNL Workfront].
 
-   <span class="preview">Sample image in the Preview environment:</span>
    ![Pin current page](assets/pin-current-page-button-2026.png)
-
-   Sample image in the Production environment:
-   ![Pin current page](assets/pin-current-page-button.png)
 
 ## Access a pinned page
 
@@ -80,15 +74,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    If you have many pages pinned, click the **[!UICONTROL More]**  icon ![Click the More icon](assets/more-icon.png) to view additional pinned pages.
 
-   <span class="preview">Sample image in the Preview environment:</span>
    ![Pin current page](assets/display-pinned-pages-2026.png)
 
-   Sample image in the Production environment:
-   ![View additional pinned pages](assets/display-pinned-pages.png)
-   
    The pinned page displays.
-
-<div class="preview">
 
 ## Manage pins
 
@@ -105,8 +93,7 @@ You can rename, reorder, and remove pinned pages in one place.
 
 1. Click **Close** when you are finished editing pins.
 
-</div>
-
+<!--
 ## Rename a pinned page
 
 1. Hover over the pinned page in the top navigation.
@@ -136,5 +123,5 @@ You can rearrange the order that pinned pages appear.
 1. Click **Remove pin**. The page is no longer accessible from the top of any page in [!DNL Workfront].
 
    ![Remove pin](assets/pin-menu.png)
+-->
 
-   
