@@ -11,8 +11,6 @@ exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
 ---
 # Manage rate cards
 
-{{highlighted-preview}}
-
 A rate card represents the contractual agreement with your client in which hourly rates are defined for the job roles that will complete the work. In a rate card, you can define multiple billing rates per job role, based on attributes such as agency, location, or cost center. Your unique rate attributes are configured in the Setup area. For more information, see [Define rate attributes](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
 For example, you could have a job role of Designer based in Paris for Agency A, another Designer based in Paris for Agency B, and a third Designer based in New York not assigned to an agency, each with different billing rates. However, attributes are not required for job roles on a rate card. The attributes serve as tools to establish more granular rates. A billing rate on a rate card can also be date effective, so that the rate starts and ends on specified dates.
@@ -136,13 +134,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >
    >Because each rate is associated with the combination of the role and attributes to create a unique rate, the role and the attributes cannot be changed when you edit a rate.
 
-<div class="preview">
-
 1. To add a rate in a specific place in the list of effective dated rates, hover over the rate and select the **More** menu to the right of the rate name. Then, choose **Insert row above** or **Insert row below**.
 
    The Edit Billing Rate box appears, with the line for the new billing rate added where you placed it. The rate that you selected for adding a row above or below is highlighted with a blue line. Add the new billing rate, adjust the effective dates on the existing billing rates as needed, and click **Save**.
-
-</div>
 
 1. To delete a billing rate from the rate card, select the check box next to the rate and click [!UICONTROL **Delete**] on the action bar.
 1. To lock a rate, select the check box next to the rate and click [!UICONTROL **Lock**] on the action bar.
