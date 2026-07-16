@@ -168,14 +168,14 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
     </tbody> 
    </table>
 
-1. (Optional) Repeat Steps 5-6 to add other names to the list and configure their options.
+1. (Optional) Repeat Steps 4-5 to add other names to the list and configure their options.
 1. (Optional) If you want to limit access to the custom form (on objects where it's attached) to those you have specified in the previous steps, click the dropdown arrow under **Who has access**, then select **Only invited people can access**.
 
    If you change your mind, you can select **Everyone in the system can view**.
 
    >[!NOTE]
    >
-   >* When you make a custom form visible system-wide, you allow users only to see and fill it out on objects they are assigned to, not to attach it to other objects. You can grant the ability to attach the custom form to objects using the option "Attach to custom data" explained under step 6.
+   >* When you make a custom form visible system-wide, you allow users only to see and fill it out on objects they are assigned to, not to attach it to other objects. You can grant the ability to attach the custom form to objects using the option "Attach to custom data" explained under step 5.
    >* Most organizations want to ensure that everyone in the system can fill out a custom form when it's attached to objects they work on and view its data in reports. If this is true for your organization, we recommend that you use **Everyone in the system can view**.
    >* If you select **Everyone in the system can view and attach**, then all users can attach the form to other objects.
    >

@@ -1056,66 +1056,65 @@ You can add Workfront native fields to your custom forms. When the custom form i
 
 +++ Expand to see the list of supported native fields.
 
-This table lists the available native fields for specific Workfront objects in a custom form.
+This list shows the available native fields for custom forms, and which object types you can use each field on.
 
-| Field name                 | Project | Task   | Issue  | Template | Template Task | Portfolio | Program | Group |
-|--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
-| Actual Benefit             | ✓       | &nbsp; | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Actual Completion Date     | ✓       | ✓      | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Actual Duration            | ✓       | &nbsp; | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Actual Hours               | ✓       | &nbsp; | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Actual Start Date          | ✓       | ✓      | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Budget                     | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | ✓         | &nbsp;  | &nbsp;|
-| Company                    | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Condition                  | ✓       | ✓      | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Condition Type             | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Currency                   | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Description                | ✓       | ✓      | ✓      | ✓        | ✓             | ✓        | ✓       | ✓ |
-| Duration                   | &nbsp;  | ✓      | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
-| Duration Type              | &nbsp;  | ✓      | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
-| Duration Unit              | &nbsp;  | ✓      | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
-| Entered By                 | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | ✓     |
-| Entry Date                 | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | ✓     |
-| Exchange Rate Date         | ✓       | &nbsp; | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Fixed Cost                 | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Fixed Revenue              | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Group                      | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | ✓        | ✓       | &nbsp; |
-| Last Updated By            | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp; |
-| Last Update Date           | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp; |
-| Name                       | ✓       | ✓      | ✓     | ✓        | ✓             | ✓        | ✓       | ✓     |
-| Owner                      | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | ✓        | ✓       | &nbsp; |
-| Performance Index Method   | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Planned Benefit            | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Planned Completion Date    | ✓       | ✓      | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Planned Duration           | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Planned Hours              | ✓       | ✓      | ✓      | &nbsp;   | ✓            | &nbsp;    | &nbsp;  | &nbsp;|
-| Planned Start Date         | ✓       | &nbsp; | &nbsp; | &nbsp;    | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Portfolio                  | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | ✓       | &nbsp; |
-| Priority                   | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp; |
-| Program                    | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Projected Completion Date  | ✓       | ✓     | &nbsp;  | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Projected Duration Minutes | &nbsp;   | ✓     | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Projected Start Date       | ✓       | ✓     | &nbsp;  | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Reference Number           | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp; |
-| Schedule Mode              | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Severity                   | &nbsp;   | &nbsp; | ✓     | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Sponsor                    | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Status                     | ✓       | ✓      | &nbsp;  | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Story Points               | &nbsp;  | ✓      | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Template                   | ✓       | &nbsp; | &nbsp;  | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Total Estimated Cost       | ✓       | &nbsp; | &nbsp; | ✓         | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Total Estimated Revenue    | ✓       | &nbsp; | &nbsp; | ✓         | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| URL                        | ✓       | ✓     | &nbsp;  | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
-
-{style="table-layout:auto"}
-
-These additional custom form object types also support native field references.
-
-* Billing Record: Fixed Revenue field
-* Document: Name, Description fields
-* Company: Name, Group fields
-* Rate Card: Name, Description, Company, Group fields
-* Job Role: Name, Description fields
+* **Actual Benefit**: Project
+* **Actual Completion Date**: Project, Task, Issue
+* **Actual Cost**: Project, Task, Issue
+* **Actual Duration**: Project, Task
+* **Actual Hours**: Project, Task, Issue
+* **Actual Start Date**: Project, Task, Issue
+* **Budget**: Project, Template, Portfolio
+* **Commit Date**: Task, Issue
+* **Company**: Project, Template, Rate Card
+* **Condition**: Project, Task, Issue
+* **Condition Type**: Project, Template
+* **Converted Issue Originator**: Project
+* **Currency**: Project, Template
+* **Description**: Project, Task, Issue, Template, Template Task, Portfolio, Program, Group, Document, Rate Card, Job Role
+* **Duration**: Task, Template Task
+* **Duration Type**: Task, Template Task
+* **Duration Unit**: Task, Template Task
+* **Entered By**: Project, Task, Issue, Template, Template Task, Group
+* **Entry Date**: Project, Task, Issue, Template, Template Task, Group
+* **Exchange Rate Date**: Project
+* **Fixed Cost**: Project, Template
+* **Fixed Revenue**: Project, Template, Billing Record
+* **Group**: Project, Template, Portfolio, Program, Company, Rate Card
+* **Issue Type**: Issue
+* **Iteration**: Task
+* **Last Updated By**: Project, Task, Issue, Template, Template Task
+* **Last Update Date**: Project, Task, Issue, Template, Template Task
+* **Name**: Project, Task, Issue, Template, Template Task, Portfolio, Program, Group, Document, Company, Rate Card, Job Role
+* **Owner**: Project, Template, Portfolio, Program
+* **Performance Index Method**: Project, Template
+* **Planned Benefit**: Project, Template
+* **Planned Completion Date**: Project, Task, Issue
+* **Planned Duration**: Project, Template
+* **Planned Hours**: Project, Task, Issue, Template Task
+* **Planned Start Date**: Project, Task, Issue
+* **Portfolio**: Project, Template, Program
+* **Priority**: Project, Task, Issue, Template, Template Task
+* **Program**: Project, Template
+* **Projected Completion Date**: Project, Task
+* **Projected Duration Minutes**: Task
+* **Projected Start Date**: Project, Task
+* **Queue Topic**: Issue
+* **Readiness**: Task
+* **Reference Number**: Project, Task, Issue, Template, Template Task
+* **Resource Managers**: Project
+* **Schedule Mode**: Project, Template
+* **Severity**: Issue
+* **Sponsor**: Project, Template
+* **Status**: Project, Task, Issue
+* **Story Points**: Task
+* **Task Constraint**: Task
+* **Template**: Project
+* **This Resolves**: Project, Task
+* **Total Estimated Cost**: Project, Template
+* **Total Estimated Revenue**: Project, Template
+* **URL**: Project, Task, Issue, Template, Template Task
+* **Work Effort**: Task
 
 <!--
 Non-Labor Resource: Name, Description, Home Group, Non-labor Category, Non-labor Group, Unique Identifier fields
