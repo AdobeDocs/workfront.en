@@ -76,7 +76,7 @@ For more detail about the information in this table, see [Access requirements in
     | **Normal**  | Normal is for routine work items that you will work on after Urgent and High-priority items are complete. This is the default for tasks and issues.        |
     | **Low**    |  Low is for work items that do not need immediate attention and can be deferred until all higher-priority work items are done.    |
 
-    ![My Focus](assets/my-focus-new.png)
+    ![My Focus](assets/my-focus-060226.png)
 
     >[!TIP]
     >

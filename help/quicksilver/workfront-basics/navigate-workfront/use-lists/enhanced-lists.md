@@ -26,8 +26,6 @@ topic_v2:
 ---
 # Use enhanced lists
 
-{{preview-fast-release-general}}
-
 Enhanced lists are available in some areas of Adobe Workfront. These lists use a table format for displaying the list items, and they have a different look and feel than the standard lists. The management of views is also enhanced, including filtering, grouping, managing columns, and searching.
 
 For information about the standard lists, see [Get started with lists in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
@@ -100,21 +98,17 @@ Depending on which enhanced list you are viewing, do one of the following:
    * Currency: You must enter information in a number format preceded by a currency symbol.
    * Date: Use the calendar to select a date.
    * Date and time: Use the calendar to select a date and time.
-   * Single- or multi-select drop-down: Select one or multiple options from a drop-down menu. <span class="preview">If supported on a list, you can create new options directly from the drop-down when no results are found.</span>
+   * Single- or multi-select drop-down: Select one or multiple options from a drop-down menu. If supported on a list, you can create new options directly from the drop-down when no results are found.
    * Typeahead: Type the name of an existing object (for example, the name of a group or a project) and choose the name from the list of suggestions.
    * Paragraph: You can enter multiple lines of alphanumeric information.
    * Assignee (one or multiple): Select one or more users as the assignee for the list item.
    * Color picker: Choose a color from the picker, or type a code such as a Hex or RGB.
-
-   <div class="preview">
    
    The Assignee, Single-select drop-down, and Multi-select drop-down fields support the following keyboard commands:
 
    * Use the up and down arrows on your keyboard to move through the list of items.
    * Press the space bar to select an item.
    * Press the Delete key to remove a selected item.
-
-   </div>
 
    >[!NOTE]
    >
