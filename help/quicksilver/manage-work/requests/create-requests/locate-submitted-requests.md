@@ -32,11 +32,13 @@ topic_v2:
 Remove production and preview references at release
 -->
 
+<!--
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+-->
 
 You can view the requests that you or someone else submitted, or requests you started but you never finished submitting. The unfinished requests are saved as drafts. 
 
@@ -157,7 +159,7 @@ To view requests that you or other users have submitted in the new requesting ex
 
    The following statuses are available in the new requesting experience:
 
-   * <span class="preview">**New**: The request is new and no one has started to work on it. </span>
+   * **New**: The request is new and no one has started to work on it. 
    * **Draft**: This request has not yet been submitted. This status is hard-coded. 
    * **Pending Review**: (Planning only) This request has approvers, and none of the approvers have opened the request. This status is hard-coded.
    * **In Review**: (Planning only) This request has approvers and at least one approver has opened the request, but no decision has been made. This status is hard-coded.
@@ -166,7 +168,7 @@ To view requests that you or other users have submitted in the new requesting ex
       * Workfront requests: The request has been converted and the work is ongoing.
       * Workfront Planning requests: The request completion is mapped to a specific Planning field, and the field value does not yet match the completion value. 
    * **On Hold**: This is available for Workfront requests. It can be manually set by the users.
-   * <span class="preview">**Complete**: The Planning record has been created which completes the request. (Planning only)</span>
+   * **Complete**: The Planning record has been created which completes the request. (Planning only)
    <!--
    This is not live yet; might be live for the unified intake process: 
    * <span class="preview">**Canceled**: This is for Workfront requests.</span> 

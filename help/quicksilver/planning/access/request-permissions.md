@@ -26,11 +26,11 @@ topic_v2:
 ---
 # Request permissions to a view or a workspace
 
-
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+-->
 
 <!-- 
 no longer needed: 
@@ -88,7 +88,7 @@ Or
    <ul><li><p>View or Manage for a view</p></li>
    <li><p>View, Contribute, or Manage for a workspace</p></li>
    <li><p>View, Contribute, or Manage for a record type</p></li>
-   <li><p><span class="preview">View or Manage for a record</span></p></li>
+   <li><p>View or Manage for a record</p></li>
    </ul>  
    <p>Only users with Manage permissions to a workspace and a view can share a view publicly.</p></td> 
   </tr> 
@@ -174,9 +174,9 @@ Or
 
 ## Request permissions 
 
-Requesting permissions to a view is similar to requesting permission to a workspace, a record type, or <span class="preview">a record</span>. 
+Requesting permissions to a view is similar to requesting permission to a workspace, a record type, or a record. 
 
-When someone shares with you a link to a workspace, record type, <span class="preview">record</span>, or a view where you do not have access:
+When someone shares with you a link to a workspace, record type, record, or a view where you do not have access:
 
 1. Click the link shared with you for the view or the workspace. 
     
@@ -186,7 +186,7 @@ When someone shares with you a link to a workspace, record type, <span class="pr
 
    >[!NOTE]
    >
-   >When you don't have access to a record type or <span class="preview">record</span>, the You have no access to page shows that you must have access to the workspace. 
+   >When you don't have access to a record type or record, the You have no access to page shows that you must have access to the workspace. 
 
 
 1. (Conditional) If the link shared is for a view for a workspace where you have access, click **Open with existing view**. If you have permissions to access the workspace, the record type page opens in the default view.

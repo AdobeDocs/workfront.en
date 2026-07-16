@@ -29,11 +29,12 @@ topic_v2:
 
 <!--you might need to add something about notifications and emails?!-->
 
-
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+-->
 
 After you configured and activated automations in Adobe Workfront Planning, you can use them to create objects in Adobe Workfront or records in Adobe Workfront Planning. 
 
@@ -88,7 +89,7 @@ You can create the following items using automations in Workfront Planning:
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td> <p>Contribute or higher permissions to the workspace and to the record type where you want to create objects using existing automations. </p>  
-   <p><span class="preview">Manage permissions to the record you are running the automation for.</span></p>
+   <p>Manage permissions to the record you are running the automation for.</p>
    <p>Manage permissions to Workfront objects (portfolios) to add children objects (programs or projects).</p>
    <p>System Administrators have Manage permissions to all workspaces, including the ones they did not create</p>
    </td> 

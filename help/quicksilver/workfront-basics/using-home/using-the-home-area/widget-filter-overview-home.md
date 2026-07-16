@@ -29,9 +29,11 @@ topic_v2:
 ---
 # Home widget filters overview
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 You can use filters on the following widgets to find and organize work:
 
@@ -262,6 +264,11 @@ You can use the following filters in the My Issues widget:
 
 ## My Requests
 
+The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR.
+
+For instructions on configuring the filter in the My Requests widget, see [Filter requests](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests) in the article Use the My Requests widget.
+
+<!--
 In the Production environment:
 
 <table style="table-layout:auto"> 
@@ -300,15 +307,10 @@ In the Production environment:
     </tbody> 
    </table>
 
-<div class="preview">
+
 
 In the Preview environment:
-
-The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR.
-
-For instructions on configuring the filter in the My Requests widget, see [Filter requests](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests) in the article Use the My Requests widget.
-
-</div>
+-->
 
 ## My Work
 
