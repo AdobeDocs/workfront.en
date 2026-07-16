@@ -10,8 +10,6 @@ feature: Get Started with Workfront
 
 # Configure the Adobe Workfront MCP server
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 The [!DNL Adobe Workfront] MCP server lets you work with your Workfront data through natural-language conversation in a supported AI agentic platform.
 
 Before you can connect an AI agentic platform to Workfront, a Workfront administrator must enable MCP server access in your Workfront instance. The exact steps to connect an AI agentic platform are different for each supported AI agentic platform. 
@@ -29,12 +27,11 @@ This article walks through the connection steps for:
 * [!DNL Claude]
 * [!DNL ChatGPT]
 
-If you use a different MCP-compatible AI agentic platform (for example, [!DNL Gemini] or [!DNL Microsoft Copilot]), follow the steps in that platform's documentation for adding a custom MCP server. When prompted for the MCP server URL, enter the URL for your region: 
+If you use a different MCP-compatible AI agentic platform (for example, [!DNL Gemini] or [!DNL Microsoft Copilot]), follow the steps in that platform's documentation for adding a custom MCP server. When prompted for the MCP server URL, enter:
 
-   | Region | URL |
-   | --- | --- |
-   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront
+```
 
 ## Prerequisites
 
@@ -112,12 +109,11 @@ To connect Workfront to [!DNL Claude] with a URL:
 1. In the left menu, select the **Customize** icon.
 1. Select **Connectors**, then select the **+** icon to add a connector.
 1. Select the **Create app** button.
-1. Give the connector a desired name (such as "Workfront") and enter the desired MCP Server URL: 
+1. Give the connector a desired name (such as "Workfront") and enter the MCP Server URL: 
 
-   | Region | URL |
-   | --- | --- |
-   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
    
 1. After the connector is created, a login window pops up. Authenticate using your Adobe ID credentials. Ensure that you select the desired Workfront instance if you belong to more than one.
 
@@ -143,12 +139,11 @@ To learn more about [!DNL Claude] skills, see the [Claude user documentation](ht
 1. In the lower left, select **your name** → **Settings**.
 1. Select **Apps**, then enable **Developer mode**.
 1. Select the **Create app** button.
-1. Give the app a desired name (such as "Workfront") and enter the desired MCP Server URL:  
+1. Give the app a desired name (such as "Workfront") and enter the MCP Server URL:  
 
-   | Region | URL |
-   | --- | --- |
-   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
    
 1. Ensure that Authentication is set to **OAuth** (set by default), and select the acceptance check box to continue.
 1. After the app is created, a login window pops up. Authenticate using your Adobe ID credentials. Ensure that you select the desired Workfront instance if you belong to more than one.
