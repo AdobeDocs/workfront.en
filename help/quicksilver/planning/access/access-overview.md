@@ -152,15 +152,23 @@ You can assign the following Planning licenses to an Access Level:
 
 * **Planning Standard**: Give users this access if they need to create and manage all Planning objects, without being an administrator.
 * **Planning Contributor**: Give users this access if they need to contribute to records but don't need to create Planning objects.
+
+  >[!TIP]
+  >
+  >The Planning Contributor license type is not available if your organization purchased unequal numbers of Workflow and Planning licenses. 
+  
+
 * **None**: When you assign this Planning license type, you are specifically removing all Planning access to the users assigned to this access level. 
 
->[!IMPORTANT]
->
->Planning licenses and Workflow licenses work together to give users access to Workfront. 
->
->You can give a user different levels of access between Workflow and Planning but the Workflow license cannot be lower than the Planning license. 
->
->For example, you can give a user a Workflow Standard license and a Planning Contributor license, but you cannot give them a Workflow Contributor license and a Planning Standard license.
+  >[!IMPORTANT]
+  >
+  >Planning licenses and Workflow licenses work together to give users access to Workfront. 
+  >
+  >You can give a user different levels of access between Workflow and Planning but the Workflow license cannot be lower than the Planning license. 
+  >
+  >For example, you can give a user a Workflow Standard license and a Planning Contributor license, but you cannot give them a Workflow Contributor license and a Planning Standard license.
+  >
+  >The Workflow license type cannot be blank if the user must access Workflow or Planning. 
 
 For more information, see [License type overview when using Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 

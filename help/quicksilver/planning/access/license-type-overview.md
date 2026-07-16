@@ -77,6 +77,8 @@ The table below describes the relationship between the Workflow and the Planning
 | Planning and Workflow - Equal number of licenses | Standard, Contributor, No Access | Standard, Light, Contributor | - Planning and Workflow license types are separate settings on access levels<br>- Planning license type allows Standard, Contributor, and blank options<br>- Planning license type can be left blank on any access level – users with this access level don't have access to Planning<br>- Workflow license type cannot be left blank<br>- Planning Standard with Workflow Contributor license combination is not allowed<br>- Planning Standard can be selected only with Workflow Light and Standard licenses |
 | Planning and Workflow – Uneven number of licenses | Standard, No Access | Standard, Light, Contributor | - Planning and Workflow license types are separate settings on access levels<br>- Planning license type allows only Standard or No Access options<br> - Planning Standard can be selected with any Workflow license type<br> - Planning license type can be None – users with this access level won't have access to Planning data at all<br>- Workflow license type cannot be left blank on any access level<br>- Users with Planning Contributor license can view connected Workflow objects in Planning but cannot connect or disconnect |
 
+For more information about licensing in Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md).
+
 <!--
 not sure if we need this anymore, this is before STA launched:
 
@@ -93,7 +95,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 -->
 
 
-### License types and permissions to workspaces and record types
+## License types and permissions to workspaces and record types
 
 Granting a user permissions to a workspace also grants them permissions to record types, records, and fields. 
 
@@ -108,8 +110,10 @@ Consider the following when working with record type permissions:
 
 Only users with a Planning Standard license can have Contribute or Manage permissions to workspaces and record types. The Contribute and Manage permissions to workspaces and record types also transfer to records and fields, by default. 
 
-Planning Administrators can view all workspaces in the system, including the ones they did not create.
+Administrators can view all workspaces in the system, including the ones they did not create.
 
+<!--
+Lilit asked for this to be removed as there is no Planning Admin license/ access for combos: 
 >[!TIP]
 >
 >Planning Administrator access is automatically assigned to users that you create as Administrators in the Adobe Admin Console. 
@@ -117,7 +121,7 @@ Planning Administrators can view all workspaces in the system, including the one
 >For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 Users with all other license types can have View permissions to workspaces and record types  shared with them, as well as to their records and fields. 
-
+-->
 
 >[!INFO]
 >
@@ -130,11 +134,11 @@ Users with all other license types can have View permissions to workspaces and r
 >![Permissions grayed out for contributor user on workspace](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
-### License types and permissions to views
+## License types and permissions to views
 
 Only users with a Planning Standard license can have Manage permissions to views. 
 
-Planning Administrators cannot access views they did not create. They must be shared with them. 
+Administrators cannot access views they did not create. They must be shared with them. 
 
 Users with all other license types can have View permissions to views shared with them. 
 

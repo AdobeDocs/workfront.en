@@ -288,11 +288,10 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Workfront Planning. 
-> Adobe Workfront Planning is either an additional capability from Adobe Workfront, or can be purchased as a standalone product.
+>The information in this article refers to Adobe Workfront Planning which your organization can purchase either as an Adobe Workfront package or a standalone product. 
 >
->For a list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
-> 
+>Not all capabilities included in the Planning package are available to Workfront Planning when it is purchased as standalone product. 
+>
 >For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 > 
 >For information about Workfront Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
