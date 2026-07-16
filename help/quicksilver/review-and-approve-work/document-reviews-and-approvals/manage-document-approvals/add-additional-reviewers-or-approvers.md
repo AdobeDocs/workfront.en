@@ -29,8 +29,6 @@ topic_v2:
 ---
 # Add additional approvers or reviewers to a document approval workflow
 
-{{highlighted-preview}}
-
 You can add additional approvers or reviewers to a document approval workflow that already has pending approvals.
 
 >[!IMPORTANT]
@@ -73,6 +71,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 
 
+<!--
 ## Add additional approvers or reviewers in the legacy documents area in Production
 
 If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
@@ -97,10 +96,9 @@ To add additional approvers or reviewers from the Document Summary:
 
 1. Repeat steps 5-6 to add additional approvers or reviewers.
  Once you save, the participants added receive an email notification that their approval or review is needed on the document.
+-->
 
-<div class="preview">
-
-## Add additional approvers or reviewers in the legacy documents area in Preview
+## Add additional approvers or reviewers in the legacy documents area
 
 If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
@@ -129,8 +127,7 @@ To add additional approvers or reviewers from the Document Summary:
 >
 >To restructure a Basic-mode approval into a multi-stage or multi-path approval, click **Go to advanced** in the upper-right corner. Your existing participants are preserved as Path 1, Stage 1. After you save, you can't switch back to Basic mode. For details, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
-</div>
-
+<!--
 ## Add additional approvers or reviewers in the new Documents area in Production
 
 If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
@@ -153,10 +150,9 @@ If your organization uses Adobe cloud storage, you will see the new Documents ar
 
 1. Repeat steps 5-6 to add additional approvers or reviewers.
  Once you save, the participants added receive an email notification that their approval or review is needed on the document.
+-->
 
-<div class="preview">
-
-## Add additional approvers or reviewers from the Document Summary in the new Documents area in Preview
+## Add additional approvers or reviewers from the Document Summary in the new Documents area
 
 If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -184,5 +180,3 @@ To add additional approvers or reviewers from the Document Summary:
 >[!TIP]
 >
 >To restructure a Basic-mode approval into a multi-stage or multi-path approval, click **Go to advanced** in the upper-right corner. Your existing participants are preserved as Path 1, Stage 1. After you save, you can't switch back to Basic mode. For details, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
-
-</div>

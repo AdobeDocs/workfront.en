@@ -29,8 +29,6 @@ topic_v2:
 ---
 # Create an approval workflow template for documents
 
-{{highlighted-preview}}
-
 In the Workfront Setup area, users with a Standard license can create reusable Approval Templates. Once created, Approval Templates can be applied to assets in the Documents area of an object. 
 >[!IMPORTANT]
 >
@@ -62,6 +60,7 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
+<!--
 ## Create an Approval Template in Production
 
 {{step-1-to-setup}}
@@ -105,10 +104,9 @@ For more detail about the information in this table, see [Access requirements in
 1. Click **Save**.
 
 Once the template is created, it can be applied to documents in the Documents area of an object to begin the formal review and approval process in Workfront.
+-->
 
-<div class="preview">
-
-## Create an approval template in Preview
+## Create an approval template
 
 The approval template dialog always opens in Advanced mode. There is no Basic mode for templates. You can configure up to 30 parallel paths in a template, with up to 100 stages total. Each path runs independently and can contain one or more sequential stages.
 
@@ -162,10 +160,6 @@ To create an approval template:
 1. Click **Save**.
 
 Once the template is created, it can be applied to documents in the Documents area of an object to begin the formal review and approval process in Workfront.
-
-</div>
-
-
 
 <!--
  Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
