@@ -92,7 +92,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## Step 1 - Getting to Setup {#step-1-to-setup}
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner of Adobe Workfront, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner of Adobe Workfront, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup-2026.png).
 
 ## Form designer to GA {#form-designer-default}
 
@@ -117,7 +117,7 @@ You can make sure you are associating the right group with the team by hovering 
 
 ## Step 1 - Getting to Users {#step-1-to-users}
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner of Adobe Workfront, then click **[!UICONTROL Users]** ![Users icon](/help/_includes/assets/users-icon-in-main-menu.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner of Adobe Workfront, then click **[!UICONTROL Users]** ![Users icon](/help/_includes/assets/users-icon-in-main-menu-2026.png).
 
 
 <!-- Agile -->
