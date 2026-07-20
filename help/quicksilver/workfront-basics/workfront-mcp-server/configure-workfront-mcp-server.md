@@ -139,6 +139,39 @@ ChatGPT supports user-created assistants called Custom GPTs. You can use a Custo
 
 To learn more about Custom GPTs, see the [ChatGPT user documentation](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts) or ask ChatGPT for help with Custom GPTs.
 
+## Connect Workfront to Copilot
+
+To build a custom Copilot agent that the Workfront MCP can connect to, use Copilot Studio.
+
+1. In Copilot Studio, click **Create blank agent**.
+1. Name the agent, and click **Create**.
+   The agent's window opens.
+
+1. In the **Instructions** field, describe what you want the agent to do. Include information such as your processes and how you use Workfront. We recommend providing a large amount of detail.
+1. In the top navigation, click **Tools**, then click **Add a tool**.
+1. Select the **Model context protocol** tile.
+1. In the panel that appears, enter a name and description for this connection.
+1. In the server URL field, enter the desired URL:
+
+   | Region | URL |
+   | --- | --- |
+   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
+   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+
+1. For Authorization, select **OAuth 2.0**, then select **Dynamic discovery**.
+1. Click **Create** at the bottom of the panel.
+   
+   The app is registered.
+
+1. After the app is registered, in the panel that appears, click **Not connected**, then click **Create a new connection**, then click **Create**.
+1. In the login panel that appears, log in to Workfront, then select **Continue** when it shows which Workfront instance you want to use.
+1. In the panel that displays your server, click **Add and configure**.
+
+   You can now begin using and configuring tools for your MCP server. 
+1. When a tool is configured and tested, click **Publish**. 
+
+   You may not have permissions to publish. If this is the case, contact your Copilot administrator.
+
 ## Verify your connection
 
 To confirm the AI agentic platform is connected to Workfront, ask the AI agentic platform to list the actions the Workfront MCP server makes available. For example:
