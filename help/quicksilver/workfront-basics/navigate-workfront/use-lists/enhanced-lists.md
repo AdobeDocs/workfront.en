@@ -208,11 +208,13 @@ To add and remove columns:
 
    The list updates the columns according to the choices you made.
 
-### Change the row height in a view
+## Customize rows
 
 >[!NOTE]
 >
 >Not all enhanced lists have all the elements described in this section.
+
+To change the row height in a view:
 
 1. Click the **Row height** icon ![Row height icon](assets/row-height-icon.png) in an enhanced list. 
 
@@ -221,6 +223,10 @@ To add and remove columns:
       * Standard. This is the default choice. 
       * Medium
       * Tall
+
+To change the order of rows:
+
+1. Drag and drop rows into your preferred order. (Not all lists allow dragging and dropping rows.)
 
 ## Update enhanced list elements
 
