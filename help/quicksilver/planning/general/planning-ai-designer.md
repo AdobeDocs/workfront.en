@@ -65,15 +65,20 @@ For information about Workfront Planning, see the following articles:
 <tr> 
    <td role="rowheader"><p>Adobe Workfront packages</p></td> 
    <td> 
-<p>Any Workfront and Planning package</p>
-<p>Any Workflow and Planning package</p>
+<p>Any Workfront or Workflow package with a Planning package</p>
+<p>Any Planning as a standalone product package</p>
    </td> </tr>
-
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td role="rowheader"><p>Workfront license</p></td> 
    <td><p>Standard</p> 
-   <p>System Administrator must enable the Planning Designer for your organization</p>
+   <p>Workfront Administrators must enable the Planning Designer for your organization</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Planning license</p></td> 
+   <td><p>Standard</p> 
+   <p>Workfront Administrators must enable the Planning Designer for your organization</p>
   </td> 
   </tr> 
   <tr> 
@@ -91,20 +96,25 @@ For information about Workfront Planning, see the following articles:
 
 ## Enable the Planning Designer for your organization
 
-As a System Administrator, you can turn on the Planning Beta for your organization. After this setting is turned on, everyone in your Workfront instance can view the Planning Designer's capabilities in their Planning area. 
+As a System Administrator, you can turn on the Planning Designer Beta for your organization. After this setting is turned on, everyone in your Workfront instance can view the Planning Designer's capabilities in their Planning area. 
 
-1. Log in as a Workfront administrator in Workfront. 
+1. Log in as a Workfront administrator. 
 1. Click the **Main Menu** ![Main Menu icon](assets/main-menu-shell.png), then click **Setup**.
 1. Go to **System** > **Preferences** > **AI Preferences**.
-1. Turn on **Enable AI**<!--and ensure you have a signed Gen AI Agreement with Adobe-->.
-    <!--1. Turn on the **Opt in to AI Beta** setting.-->
+1. Turn on **Enable AI**. 
+
+    >[!NOTE]
+    >
+    >Accepting the AI Agreement is not required for using the Planning Designer in beta.
+
+1. Turn on the **Opt in to AI Beta** setting. 
 1. Turn on the **Planning Designer** setting. 
-    <!-- add new screenshot-->
-    ![Planning Designer setting in System Preferences](assets/planning-designer-toggle-in-system-preferences.png) 
+    
+    ![Planning Designer setting in System Preferences](assets/ai-preferences-with-planning-designer-beta.png)
 
 1. Click **Save**.
 
-    The Planning Designer capabilities to create or edit workspaces is now available for all users in your organization who can access Planning.
+    The Planning Designer capabilities to create or edit workspaces are now available for all users in your organization who can access Planning.
 
 <!--
 
@@ -158,7 +168,7 @@ You can submit feedback about the Planning Designer during the beta program.
 
 * You do not need to enable AI agreement before you can access the Planning Designer. 
 
-<!--* You must sign the Beta agreement to access the Planning Designer.-->
+* You must sign the Beta agreement to access the Planning Designer.
 
 <!--
 Sargis and Ashot  said these are not required: 
@@ -178,7 +188,7 @@ Sargis and Ashot  said these are not required:
 -->
 
 * Your Workfront Administrator must turn on the Planning Designer for your organization. After this, the Planning Designer is available for all users, by default.
-* Actions performed by the Planning Designer can also be performed by the AI Assistant, when you use it in the Planning area, if your organization has signed th AI Agreement.
+* If your organization has signed an AI agreement, the actions performed by the Planning Designer can also be performed by the AI Assistant, when you use it in the Planning area.
 * The actions performed by the AI Assistant in the Planning area or those performed by the Planning Designer are in the context of your Workfront Planning permissions and your Workfront access level. 
 
     For information, see the following articles: 
@@ -202,7 +212,7 @@ You can use either the Planning Designer or the AI Assistant to perform any of t
 
 * Create and configure workspaces 
 
-<!--On March 2: * Edit workspaces-->
+* Edit workspaces
 
 * Create record types, including defining and adding global record types to workspaces
 
@@ -243,7 +253,7 @@ You can create or update objects in Workfront Planning either by using the Plann
 
     The **Planning** area opens. <!--update screen shot when they change the name of the button-->
 
-    ![Design with AI button on the Workspaces page](assets/design-with-ai-button-on-workspaces-page.png)
+    ![Create with AI button on the Workspaces page](assets/design-with-ai-button-on-workspaces-page.png)
 
 1. Click **Create with AI** or click **Create workspace**, then use the prompt window at the top to indicate what kind of workspace you'd like to create. <!--update this when they change it to Generate with AI--> 
 
@@ -294,6 +304,6 @@ You can create or update objects in Workfront Planning either by using the Plann
 1. (Optional) To edit a workspace, do one of the following:
 
     * Open the workspace and manually make changes to it. For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
-    * Click **Edit with AI**. This opens the Planning Designer. Repeat the steps above to use AI and make further changes to the workspace.
+    * Open the workspace and click **Edit with AI**. This opens the Planning Designer. Repeat the steps above to use AI and make further changes to the workspace.
 
 
