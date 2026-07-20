@@ -107,10 +107,16 @@ As a System Administrator, you can turn on the Planning Designer Beta for your o
     >
     >Accepting the AI Agreement is not required for using the Planning Designer in beta.
 
-1. Turn on the **Opt in to AI Beta** setting. 
-1. Turn on the **Planning Designer** setting. 
+1. Turn on the **Opt in to AI Betas** setting, if it is not enabled. 
+1. Turn on the **Planning Designer** setting, if it's not enabled. 
     
-    ![Planning Designer setting in System Preferences](assets/ai-preferences-with-planning-designer-beta.png)
+    ![Planning Designer setting in System Preferences](assets/ai-preferences-with-planning-designer-unaccepted-agreement.png).
+
+    >[!TIP]
+    >
+    >The **Opt in to AI Betas** and the **Planning Designer** options are turned on by default, but you must accept the Beta agreement to be able to use the Planning Designer. 
+
+1. (Conditional and mandatory) If you have not accepted the Beta Agreement, click **Review Beta Agreement** and read the agreement, then click **Accept**. 
 
 1. Click **Save**.
 
