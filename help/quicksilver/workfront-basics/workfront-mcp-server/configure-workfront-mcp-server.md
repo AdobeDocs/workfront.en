@@ -151,12 +151,11 @@ To build a custom Copilot agent that the Workfront MCP can connect to, use Copil
 1. In the top navigation, click **Tools**, then click **Add a tool**.
 1. Select the **Model context protocol** tile.
 1. In the panel that appears, enter a name and description for this connection.
-1. In the server URL field, enter the desired URL:
+1. In the server URL field, enter the URL:
 
-   | Region | URL |
-   | --- | --- |
-   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront`
+```
 
 1. For Authorization, select **OAuth 2.0**, then select **Dynamic discovery**.
 1. Click **Create** at the bottom of the panel.
@@ -198,12 +197,6 @@ To connect to a different Workfront instance:
 >[!NOTE]
 >
 >* Logging out alone doesn't switch the Workfront instance. You must disconnect and reconnect the connector.
->
->* Your Workfront instance must connect with the MCP server for the region for that instance. For example, an EU instance must connect to the EU MCP server. 
->
->   When selecting an instance, instances that are not compatible with the MCP server's region appear grayed out, and you cannot connect to them. 
->
->   To connect to an instance that is not compatible with the MCP server's region, set up a new MCP connection with the correct URL for that region.
 
 
 <!--
@@ -218,11 +211,8 @@ To connect to a different Workfront instance:
 To set up the connection between Gemini and the Workfront MCP server, follow the instructions provided by Google for [connecting Gemini to external tools using MCP](https://docs.cloud.google.com/gemini/enterprise/docs/connectors/custom-mcp-server/set-up-custom-mcp-server). 
 
 When prompted for the MCP Server URL, enter the following URL for your Workfront MCP server:  
-
-   | Region | URL |
-   | --- | --- |
-   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront|
    
 -->
 
@@ -266,7 +256,6 @@ What happens next
 | Authentication failed, or the connection stopped working. | Your auth session expired or there's a connection error. | Disconnect and reconnect the connector. |
 | You want to switch to a different Workfront instance. | A single connection ties you to one instance. | Disconnect, reconnect, and authenticate to the new instance. |
 | You can't connect to Workfront, or you see a message that MCP server access is disabled. | Your Workfront administrator has turned off MCP server access for your instance. | Contact your Workfront administrator and ask them to enable MCP server access in System Preferences. |
-| The Workfront instance that you want to connect to is grayed out, and you see a message that it is not available to connect in your region | Your MCP server is configured for a different region (EU or US) than your instance. | Set up the MCP server with the URL for the region that your Workfront instance is assigned to. |
 | The AI agentic platform can find your Workfront items but can't create, update, or delete them. | Your Workfront administrator has disabled write actions for the Workfront MCP server. | Contact your Workfront administrator and ask them to enable write actions in System Preferences. |
 
 For day-to-day troubleshooting after you're connected (for example, stale results or unexpected behavior), see [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
