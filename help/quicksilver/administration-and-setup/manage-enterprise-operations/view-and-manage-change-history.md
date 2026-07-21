@@ -23,7 +23,7 @@ You can view change history, including audit logs, in the Change Tracking area o
    * Type of change (operation)
    * Source of the change, such as specific users, APIs, Workfront Fusion, AI LLMs, or the Workfront system
 
-   <span class="preview">Unified review and approval workflow activity is tracked in Change History.</span>
+   <span class="preview">Unified review and approval workflow activity is tracked in Change History, including participants and decisions.</span>
 
 ## Access requirements
 
