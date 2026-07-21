@@ -92,7 +92,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## Step 1 - Getting to Setup {#step-1-to-setup}
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner of Adobe Workfront, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner of Adobe Workfront, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup-2026.png).
 
 ## Form designer to GA {#form-designer-default}
 
@@ -117,7 +117,7 @@ You can make sure you are associating the right group with the team by hovering 
 
 ## Step 1 - Getting to Users {#step-1-to-users}
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner of Adobe Workfront, then click **[!UICONTROL Users]** ![Users icon](/help/_includes/assets/users-icon-in-main-menu.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner of Adobe Workfront, then click **[!UICONTROL Users]** ![Users icon](/help/_includes/assets/users-icon-in-main-menu-2026.png).
 
 
 <!-- Agile -->
@@ -288,11 +288,14 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>The information in this article refers to Adobe Workfront Planning which your organization can purchase either as an Adobe Workfront package or a standalone product. 
 >
->For a list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
-> 
+>Not all capabilities included in the Planning package are available to Workfront Planning when it is purchased as a standalone product. 
+>
 >For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>For information about Workfront Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
+>
 
 <!--
 Old - before Oct. 15, 2025:

@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Add or Edit a Custom Field, Section Break, or Widget
-description: You can edit the properties of a custom field, section break, or widget that is used in custom form in your Adobe Workfront instance. These include the item's label, name, instructions, and so on.
+description: You can edit the properties of a custom field, section break, or widget that is used in custom form in your Adobe Workfront instance.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -31,7 +31,7 @@ topic_v2:
 
 You can add a new custom field or widget directly from the Fields area in Workfront, without opening a custom form to create the field.
 
-You can also edit the properties of a custom field, section break, or widget that is used in custom forms. These include the item's label, name, instructions, and so on.
+You can also edit the properties of a custom field, section break, or widget that is used in custom forms. These include the item's label, API name, instructions, and so on.
 
 Setting a custom field as Inactive excludes it from reports, filters, and views, and the field is no longer available in the custom forms field library. All new fields are set to Active by default.
 

@@ -43,6 +43,8 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | Get document by version ID | `approvals_get_document_by_version_id` | Fetches document details (name, size, upload date, uploader) for a known document version ID. | Read |
 | Get documents by project | `approvals_get_documents_by_project` | Lists documents inside a Workfront project, with each document's current version ID. | Read |
 | Resolve document scope | `approvals_resolve_document_scope` | Expands a project or folder into the list of document version IDs it contains. Supports project, folder, and folder-by-name scopes. | Read |
+| Find a document | `approvals_find_document` | Look up a document by filename or document version ID | Read |
+| Get documents by scope | approvals_get_documents_by_scope | List document inside a project or folder. | Read |
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
@@ -101,26 +103,8 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | Find team by name | `approvals_find_team_by_name` | Looks up a Workfront team's ID by name (fuzzy or partial match). | Read |
 | Find project by name | `approvals_find_project_by_name` | Looks up Workfront projects by partial name match across the system. | Read |
 | Get projects by owner | `approvals_get_projects_by_owner` | Lists Workfront projects where the calling user is the owner. | Read |
-| Get Adobe region | `approvals_get_adobe_region` | Returns the Adobe name of a cloud provider region. | Read |
+| Find projects | approvals_find_projects | Look up Workfront projects, optionally filtered by name and/or restricted to projects that the calling user owns. | Read |
 
-<!--
-
-## Insights tools
-
-Insights tools retrieve information about Workfront objects.
-
-| Title | Tool name | What it does | Action |
-| --- | --- | --- | --- |
-| Read documents | `insights_read_docs` | Load the Workfront playbook or domain documentation, such as conditions, status, dates, or field paths. This is the required first step before querying data. | Read |
-| Get current user | `insights_get_current_user` | Retrieve your own Workfront identity, including name, ID, and URL. | Read |
-| Search fields | `insights_search_fields` | Search for available fields (standard and custom) on projects, tasks, issues, users, portfolios, teams, and so on. | Read |
-| Get field paths | `insights_get_field_paths` | Resolve dot-notation field paths for entities, required by the data query tool. | Read |
-| Find ID by name | `insights_find_id_by_name` | Look up the ID of any Workfront object by name, such as projects, tasks, users, portfolios, and so on. | Read |
-| Find Workfront data | `insights_find_workfront_data` | Find, filter, count, sort, and aggregate Workfront data. This is the main query and report tool. | Read |
-| Summarize object | `insights_summarize_object` | Fetch and summarize a single Workfront object by ID. | Read |
-| List entities | `insights_list_entities` | List all Workfront object types available to query. | Read |
-
--->
 
 ## Planning tools
 
@@ -153,7 +137,7 @@ Insights tools retrieve information about Workfront objects.
 | List global record types | `planning_list_global_record_types` | Lists all centrally-defined (global) record types visible to the current user. | Read |
 | List addable global record types | `planning_list_addable_global_record_types` | Lists global record types that can be added to a specific workspace. | Read |
 | Add global record type to workspace | `planning_add_global_record_type_to_workspace` | Links a global record type into a specified workspace. | Write |
-| Remove global record type from workspace | `planning_remove_global_record_type_from_workspace` | Unlinks a global record type from a workspace; deletes all its records in that workspace. | Write |
+| Remove global record type from workspace | `planning_remove_global_record_type_from_ws` | Unlinks a global record type from a workspace; deletes all its records in that workspace. | Write |
 | Get external record workspaces | `planning_get_external_record_workspaces` | Finds which workspaces and record types are connected to a specific external record. | Read |
 | Get record type sharing | `planning_get_record_type_sharing` | Returns the sharing and permissions for a specific record type. | Read |
 | Modify record type sharing | `planning_modify_record_type_sharing` | Updates who can access a record type and at what permission level. | Write |
@@ -219,6 +203,7 @@ Workflow tools are the general-purpose actions the AI agentic platform uses to w
 | Update object | `workflow_update_any_object` | Updates fields on an existing Workfront object. | Write |
 | Delete object | `workflow_delete_any_object` | Deletes a Workfront object by ID. Requires explicit user confirmation before the action is performed. | Write |
 | Resolve field names | `workflow_resolve_field_names_any_object` | Converts user-provided field names or labels to the underlying Workfront API field names so the AI agentic platform can build accurate requests. | Read |
+| Read Workflow docs | `workflow_read_workflow_docs` | Loads the Workfront Workflow documentation, including tool usage guides and object-specific operations playbooks. This is the required first step before performing Workflow actions. | Read |
 
 ### Comments
 
@@ -234,6 +219,22 @@ Workflow tools are the general-purpose actions the AI agentic platform uses to w
 | Add reaction | `comment-stream_add_reaction` | Add a reaction (like) to a comment. | Write |
 | Remove reaction | `comment-stream_remove_reaction` | Remove a reaction (like) from a comment. | Write |
 
+### Insights tools
+
+Insights tools retrieve information about Workfront objects.
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Read documents | `insights_read_docs` | Load the Workfront playbook or domain documentation, such as conditions, status, dates, or field paths. This is the required first step before querying data. | Read |
+| Get current user | `insights_get_current_user` | Retrieve your own Workfront identity, including name, ID, and URL. | Read |
+| Search fields | `insights_search_fields` | Search for available fields (standard and custom) on projects, tasks, issues, users, portfolios, teams, and so on. | Read |
+| Get field paths | `insights_get_field_paths` | Resolve dot-notation field paths for entities, required by the data query tool. | Read |
+| Find ID by name | `insights_find_id_by_name` | Look up the ID of any Workfront object by name, such as projects, tasks, users, portfolios, and so on. | Read |
+| Find Workfront data | `insights_find_workfront_data` | Find, filter, count, sort, and aggregate Workfront data. This is the main query and report tool. | Read |
+| Summarize object | `insights_summarize_object` | Fetch and summarize a single Workfront object by ID. | Read |
+| List entities | `insights_list_entities` | List all Workfront object types available to query. | Read |
+
+
 
 
 ## How tools are updated
@@ -246,7 +247,6 @@ When Adobe releases a new version of the Workfront MCP server, the AI agentic pl
 
 We are working on adding the following tools to the Workfront MCP server in the future:
 
-* Comments
 * Boards
 
 

@@ -20,10 +20,6 @@ For example, you can ask:
 
 You don't need to know the Workfront API or how MCP servers work to use the Workfront MCP server.
 
->[!IMPORTANT]
->
->Currently, the Workfront MCP server is available only to customers using AWS.
-
 ## What an MCP server is
 
 An MCP server is a connection point that lets an AI agentic platform work with another system. The Workfront MCP server is what your AI agentic platform connects to so it can read and act on your Workfront data on your behalf.

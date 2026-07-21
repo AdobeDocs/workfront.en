@@ -31,11 +31,12 @@ topic_v2:
 ---
 # Add a Connected records page to a record
 
+<!--
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+-->
 
 You can view information from connected records or objects by adding a tab for a Connected records page to a record in Adobe Workfront Planning. This adds the connected records in a table view to the tab.
 
@@ -106,7 +107,7 @@ Consider the following when adding a Connected records page to a record:
   <tr>
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
-   <p>Contribute or higher permissions to a workspace, record type, and <span class="preview">manage permissions to a record</span> </p>  
+   <p>Contribute or higher permissions to a workspace, record type, and manage permissions to a record </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> 
   </td>
   </tr>   

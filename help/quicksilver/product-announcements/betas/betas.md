@@ -39,7 +39,7 @@ The following features are currently available in beta:
 
     For information, see [Get started with the Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* The Adobe Workfront Planning Designer is available in Closed Beta. 
+* The Adobe Workfront Planning Designer is available in beta for all customers. 
 
     For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md). 
 

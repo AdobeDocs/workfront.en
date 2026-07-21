@@ -33,10 +33,11 @@ topic_v2:
 
 <!--leave the choice value information in yellow till January 2026-->
 
-
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -153,8 +154,8 @@ You must consider the following before making changes to a field's configuration
 * You can edit the configuration of the following field elements, after you save the field:
 
     * The Name or the Description of any field
-    * The Options of a Single-select or a Multi-select field <span class="preview">and their default choices</span>.
-    * <span class="preview">The default choices of a People field.</span>
+    * The Options of a Single-select or a Multi-select field and their default choices.
+    * The default choices of a People field.
     * The expression of a Formula field.
 
     >[!WARNING]
@@ -210,15 +211,11 @@ this is not yet true, but it might come later:
     >
     >* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications.
 
-1. <span class="preview">(Conditional) If the field you are updating is part of a request form, the **Review field changes** box displays to indicate the forms that will be impacted by your changes. Do one of the following:</span>
-
-   <div class="preview">
+1. (Conditional) If the field you are updating is part of a request form, the **Review field changes** box displays to indicate the forms that will be impacted by your changes. Do one of the following:
 
    * Click the right-pointing arrow to display the forms impacted by the change, then click the form name to open the form in a new tab and decide whether you want to keep the field on the form or make additional changes to the form. 
    * Click **Keep changes** which will update the field in all areas where it displays. 
    
-   </div>
-
    The field information updates for everyone with access to view the workspace. 
 
 1. (Conditional) For connected record fields, click **Edit lookup fields** and add or remove any of the lookup fields from the connected record type.

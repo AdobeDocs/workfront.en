@@ -74,7 +74,7 @@ To create a task or issue in a project:
 {{step1-to-priorities}}
 
 1. Click **Create new** in the upper-right corner.
- ![Create new (production)](assets/create-new--.png)
+ ![Create new (production)](assets/create-new.png)
 1. Specify the following information:
 
     | Field         | Instructions       |
@@ -87,3 +87,4 @@ To create a task or issue in a project:
     | Due date (Optional)      |  Choose a due date.           |
 
 1. Click **Create**.
+

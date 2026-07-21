@@ -31,11 +31,11 @@ topic_v2:
 
 {{planning-important-intro}} 
 
-
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+-->
 
 As a workspace manager, you can add a record type that exists in another workspace to a workspace that you manage in Adobe Workfront Planning. 
 
@@ -149,7 +149,7 @@ And
 1. Click **Continue**.
 1. (Conditional) In the **Choose the record type** box, click the card for the record type that you want to add from an existing workspace, then click **Add**.
 
-   <span class="preview">If you are using the Preview environment, you can click to select multiple record types, then click **Add**. All global record types from all workspaces where they are available display in the list.</span>
+  If you are using the Preview environment, you can click to select multiple record types, then click **Add**. All global record types from all workspaces where they are available display in the list.
 
    The record type is added to the secondary workspace that you selected and the **global record type** icon ![Global record icon on the secondary workspace](assets/global-icon-secondary-workspace.png) displays on the record type's card. 
    The global record type icon includes an arrow when displayed on a record type in the secondary workspace, to indicate that the record type was added from an existing record type.

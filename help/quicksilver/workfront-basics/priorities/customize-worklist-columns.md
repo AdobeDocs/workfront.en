@@ -22,8 +22,6 @@ topic_v2:
 ---
 # Customize the Priorities worklist columns
 
-{{preview-fast-release-general}}
-
 <!--I think this article can point to the Enhanced lists article for managing the view-->
 
 <!--
@@ -86,12 +84,8 @@ For more detail about the information in this table, see [Access requirements in
 {{step1-to-priorities}}
 
 1. Click **Columns** on the left side of the screen.
-    
-    <span class="preview">Sample image in the Preview environment:</span>
-    ![Columns](assets/columns-new-060226.png)
 
-    Sample image in the Production environment:
-    ![Columns](assets/columns-new.png)
+   ![Columns](assets/columns-new-060226.png)
 
 1. Use the toggles to display or hide columns in the worklist. 
 
@@ -107,8 +101,6 @@ For more detail about the information in this table, see [Access requirements in
 >
 >The Name column is fixed and cannot be moved. 
 
-<div class="preview">
-
 ### Add and remove columns with the Column manager
 
 {{step1-to-priorities}}
@@ -121,8 +113,6 @@ For more detail about the information in this table, see [Access requirements in
    >You can add only existing fields to the list view. Both native and custom fields for tasks and issues are available to add as columns.
 
 For more information on the Column manager, see the section [Add and remove columns with the Column manager](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) in the article [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-
-</div>
 
 ### Change the row height in the priorities list
 
@@ -139,8 +129,6 @@ For more information on the Column manager, see the section [Add and remove colu
 
     The list updates immediately. 
 
-<div class="preview">
-
 ## Manage views for the priorities list
 
 A view defines the columns, filters, and groupings in the list with preset settings.
@@ -155,5 +143,3 @@ A default view is assigned to the priorities list. You can also create and share
    Changes to views are saved automatically. The next time you apply this view, the column and filter settings remain the way you set them.
 
 For more information on views, see the section [Update enhanced list elements](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#update-enhanced-list-elements) in the article [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-
-</div>

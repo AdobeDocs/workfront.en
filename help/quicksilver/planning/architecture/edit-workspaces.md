@@ -29,11 +29,11 @@ topic_v2:
 ---
 # Edit workspaces
 
-
+<!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+-->
 
 
 {{planning-important-intro}}
@@ -164,8 +164,7 @@ Old:
 
    >[!NOTE]
    >
-   ><span class="preview">You cannot edit the workspaces on the **Sample workspaces** tab. We recommend using the multi-workspace template bundle to create workspaces similar to those on the Sample workspace tab and edit your own. For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).</span> 
-  
+   >You cannot edit the workspaces on the **Sample workspaces** tab. We recommend using the multi-workspace template bundle to create workspaces similar to those on the Sample workspace tab and edit your own. For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
 1. (Optional) Click **Show all** to display additional workspaces. The **Show all** link displays only when you have more than two rows of workspace cards.
 1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
 1. To edit a workspace, do one of the following:

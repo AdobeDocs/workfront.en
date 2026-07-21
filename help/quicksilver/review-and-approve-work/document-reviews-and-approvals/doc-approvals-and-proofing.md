@@ -21,8 +21,6 @@ role_v2:
 ---
 # Use Unified Approvals and proofing together
 
-{{highlighted-preview}}
-
 Unified Approvals in Workfront introduces a new set of features to help you review and approve documents. You can use a Unified Approvals workflow with the existing proofing viewer to add comments and markup to documents in review.
 
 There are some key differences in the workflow when using Unified Approvals and proofing together:
@@ -46,6 +44,7 @@ Drag and drop the document into the document list.
 
 Users assigned as participants can use the proofing viewer to add comments and markup on the document. Continue to the next section to learn how to add review participants. 
 
+<!--
 ## Open the document Summary and assign participants in Production
 
 You have the option to assign reviewers, approvers, or a mix of both:
@@ -91,10 +90,9 @@ To assign participants:
    ![new stage](assets/new-stage.png)
 
 1. Once you've added all reviewers and approvers, click **Request approvals**. Participants are notified via email.
+-->
 
-<div class="preview">
-
-## Open the document Summary and assign participants in Preview
+## Open the document Summary and assign participants
 
 The Request approval dialog opens in Basic mode by default for a single-stage approval. Switch to Advanced mode to configure multi-stage approvals or parallel paths.
 
@@ -110,8 +108,7 @@ To assign participants:
 
 1. Click **Request approval**. Participants are notified via email.
 
-</div>
-
+<!--
 ## Create a new version as needed in Production
 
 If you need another round of review and approval, you can create a new proof version and add the previous participants, new participants, or a mix of both. You can view information about previous versions and participants in the document Summary.
@@ -158,10 +155,9 @@ To add a new version:
    ![new stage](assets/new-stage.png)
 
 1. Once you've added all reviewers and approvers, click **Request approvals**. Participants are notified via email.
+-->
 
-<div class="preview">
-
-## Create a new version as needed in Preview
+## Create a new version as needed
 
 If you need another round of review and approval, you can create a new proof version and add the previous participants, new participants, or a mix of both. You can view information about previous versions and participants in the document Summary.
 
@@ -182,8 +178,6 @@ To add a new version:
 1. Configure the approval workflow. For field descriptions, the Advanced mode toggle, and the parallel paths flow, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 1. Click **Request approval**. Participants are notified via email.
-
-</div>
 
 ## Review the proof and make a decision
 

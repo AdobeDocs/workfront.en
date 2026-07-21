@@ -29,10 +29,11 @@ topic_v2:
 ---
 # Delete records 
 
-
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -64,7 +65,7 @@ You can delete records that are no longer relevant in Adobe Workfront Planning. 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Contribute or higher permissions to a workspace, record type, and <span class="preview">manage permissions to a record</span> </p>   
+   <td>   <p>Contribute or higher permissions to a workspace, record type, and manage permissions to a record </p>   
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr>   
 </tbody> 

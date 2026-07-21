@@ -11,8 +11,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Get started with unified review and approval
 
-{{highlighted-preview}}
-
 Unified review and approval brings together Adobe Workfront and Adobe Frame.io into a single, deeply connected experience --- closing the gaps between marketing management, creative review, and content delivery. Project coordinators manage work in Workfront while creatives, marketers, and stakeholders review and approve assets in the professional-grade Frame.io viewer, all without moving files between disconnected tools.
 
 For more information about Frame.io, see [Getting Started with Frame.io](https://support.frame.io/en/collections/49298-getting-started).
@@ -58,11 +56,11 @@ Project coordinators can create one-time review and approvals or reusable approv
 
 Reviewers and approvers can be added to a single-use approval workflow or a reusable approval template:
 
-* **Single-use approvals**: In the project or task where the asset resides, the project coordinator can assign reviewers and approvers and set a completion deadline. Reviewers and approvers are reminded by email 72 hours before the deadline, 24 hours before the deadline, and then on the deadline itself. <span class="preview">In Preview, you can also configure multi-stage approvals and parallel paths so that multiple review tracks run at the same time.</span>
+* **Single-use approvals**: In the project or task where the asset resides, the project coordinator can assign reviewers and approvers and set a completion deadline. Reviewers and approvers are reminded by email 72 hours before the deadline, 24 hours before the deadline, and then on the deadline itself. You can also configure multi-stage approvals and parallel paths so that multiple review tracks run at the same time.
 
     For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area).
 
-* **Approval templates**: In the Workfront Setup area, project coordinators can create reusable Approval Templates. Within a template, users can add reviewers and approvers and specify a completion timeframe. When the approval template is applied to an asset, the deadline is calculated from the specified timeframe. <span class="preview">In Preview, approval templates support multi-stage approvals and parallel paths, matching the configuration options available in single-use approvals.</span>
+* **Approval templates**: In the Workfront Setup area, project coordinators can create reusable Approval Templates. Within a template, users can add reviewers and approvers and specify a completion timeframe. When the approval template is applied to an asset, the deadline is calculated from the specified timeframe. Approval templates support multi-stage approvals and parallel paths, matching the configuration options available in single-use approvals.
 
     Once a template is created, it can be applied to an asset to begin the formal review and approval process in Workfront.
 

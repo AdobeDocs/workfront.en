@@ -11,7 +11,11 @@ exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
 ---
 # Configure AI Collaborators
 
+<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -63,16 +67,16 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 * You must have configured a brand in Workfront before you can use it for a Reviewer-type AI Collaborator.
 
    For instructions, see [Create and manage brands for the Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
-* <span class="preview">To use Adobe Brand Intelligence for a Reviewer AI Collaborator, your organization must use the unified review and approval experience in Workfront. </span>
+* To use Adobe Brand Intelligence for a Reviewer AI Collaborator, your organization must use the unified review and approval experience in Workfront. </span>
 
-   <span class="preview">For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md). </span>
+   For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md). </span>
 
 ## Create a new Reviewer-type AI Collaborator
 
 Reviewer AI Collaborators can be configured to use Workfront brands, or Adobe Brand Intelligence.
 
 * **Brands**: Brands are created in Workfront. You can create brands in Workfront by uploading PDF files that contain your brand guidelines or by manually entering brand elements.
-* <span class="preview">**Adobe Brand Intelligence**: When an AI Collaborator reviews an asset using Adobe Brand Intelligence, you can view comments made by the Reviewer in Frame.io.  </span>
+* **Adobe Brand Intelligence**: When an AI Collaborator reviews an asset using Adobe Brand Intelligence, you can view comments made by the Reviewer in Frame.io.  </span>
 
 
 {{step-1-to-setup}}

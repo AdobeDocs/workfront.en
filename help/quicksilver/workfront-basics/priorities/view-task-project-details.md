@@ -81,7 +81,7 @@ For more information, see [Access requirements in Workfront documentation](/help
     * Add a file
     * Go directly to the project
 
-    ![project details](assets/project-details-new.png)
+    ![project details](assets/project-details-060226.png)
 
 ### View task details 
 
@@ -97,8 +97,7 @@ For more information, see [Access requirements in Workfront documentation](/help
     * Add a file
     * Add quick links
 
-
-   ![task details](assets/task-details-new.png)
+   ![task details](assets/task-details-060226.png)
 
 ### View issue details 
 
@@ -115,7 +114,7 @@ For more information, see [Access requirements in Workfront documentation](/help
         * Add a file
         * Add quick links
 
-   ![issue details](assets/issue-details.png)
+   ![issue details](assets/issue-details-060226.png)
 
 ## View details on the Details page
 

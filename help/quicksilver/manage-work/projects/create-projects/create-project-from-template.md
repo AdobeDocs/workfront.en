@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/FnHU08XS4oFb81ho0EOy1ymzulaVVIX10Jd----Hu4o
+TQID: https://experienceleague.adobe.com/FnHU08XS4oFb81ho0EOy1ymzulaVVIX10Jd%2D%2D%2D%2DHu4o
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -195,7 +195,8 @@ You can create a project from the Projects area in the Main Menu, or from the Pr
       > Your Workfront instance might not have both types of document storage. 
       >
       >For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md). 
-     
+   
+   1. (Conditional and optional) If you selected a legacy storage template, select the Create this project on Adobe cloud storage setting in the lower-right corner of the New project box. This will create an Adobe cloud storage project. Documents and document folders from the template will not be added to the project.      
    
    1. Review the following template details on the right:
    

@@ -41,10 +41,11 @@ topic_v2:
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
 <!--this articles used to be called "Adobe Workfront Planning: article index"-->
 
-
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -65,7 +66,7 @@ The following sections contain articles that describe in detail the features cur
     * Share views
     * Share workspaces (records and fields)
     * Share record types (records and fields)    
-    * <span class="preview">Share records</span>
+    * Share records
 
 * [Architecture: article index](/help/quicksilver/planning/architecture/architecture-information.md) contains the following information:
 
@@ -130,3 +131,7 @@ The following sections contain articles that describe in detail the features cur
 We are releasing new features to Workfront Planning regularly. 
 
 For an up-to-date list of released features, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md). 
+
+## Workfront Planning as a standalone product
+
+Customers can purchase Workfront Planning without purchasing a Workflow license. For information, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).

@@ -18,7 +18,9 @@ For a list of all changes available at this point in the Third Quarter 2026 rele
 >[!NOTE]
 >
 >Preview: June 11, 2026
->Production for everyone: June 12, 2026
+>Production for fast release: June 11, 2026
+>Production for quarterly release: June 11, 2026
+>[!BADGE Off schedule]{type=Neutral}
 
 If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now convert a legacy storage task to an Adobe cloud storage project.
 When you do this, documents and document approvals remain on the parent object rather than transferring to the newly created project.

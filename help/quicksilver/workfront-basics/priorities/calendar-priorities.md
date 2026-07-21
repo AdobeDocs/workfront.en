@@ -80,8 +80,10 @@ Priorities displays work items assigned to you. You cannot see work items assign
 
 {{step1-to-priorities}}
 
-1. Click the **Calendar** icon at the top of the worklist. 
+1. Click the **Calendar** icon at the top of the worklist.
+
     ![calendar icon](assets/calendar-tab.png)
+
 1. Select one or more filters to narrow down your work items.
 
     +++Expand to see detailed information about available filters
@@ -160,8 +162,10 @@ Priorities displays work items assigned to you. You cannot see work items assign
 
 {{step1-to-priorities}}
 
-1. Click the **Calendar** icon at the top of the worklist. 
+1. Click the **Calendar** icon at the top of the worklist.
+
     ![calendar icon](assets/calendar-tab.png)
+    
 1. Click the **Settings** icon in the right corner of the calendar. 
 
 1. On the **Bar style** tab, choose up to 5 fields to display on the work item bar in the calendar.

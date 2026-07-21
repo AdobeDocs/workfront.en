@@ -32,12 +32,9 @@ topic_v2:
 # Share records
 
 <!--
-this will NOT be available in Preview ever - find a way to add this in this article that is prominent
--->
-
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+-->
 
 {{planning-important-intro}}
 
@@ -86,9 +83,9 @@ at GA, check that the Workfront plans article linked below has Planning info
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and Planning package</p> 
+<p>Any Workfront or Workflow with a Planning package</p> 
 Or
-<p>Any Workflow and Planning package</p> 
+<p>Any Workfront Planning as a standalone product package</p> 
  </tr>
    
   <tr> 

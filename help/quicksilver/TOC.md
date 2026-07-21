@@ -240,6 +240,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Planning release activity{#planning-release-activity}
       * [Adobe Workfront Planning release activity](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+      * [Fourth Quarter 2026 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
       * [Third Quarter 2026 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)
       * [Second Quarter 2026 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
       * [First Quarter 2026 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
@@ -1197,6 +1198,7 @@ feature-set: Workfront
     * [Adobe Cloud Drive overview](documents/adobe-cloud-drive/adobe-cloud-drive-overview.md)
     * [Install Adobe Cloud Drive](documents/adobe-cloud-drive/install-adobe-cloud-drive.md)
     * [Use Adobe Cloud Drive](documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
+    * [Set up and manage Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/set-up-and-manage-adobe-cloud-drive.md)
     * [Troubleshoot Adobe Cloud Drive](documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)
   * Workfront and Experience Manager Assets Integrations {#wf-aem-integrations}
     * [Workfront and Experience Manager Assets Integrations](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
@@ -2041,7 +2043,7 @@ feature-set: Workfront
       * [Document name changed after upload and contains an invalid character](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
       * [Proof a PowerPoint with an embedded video](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
       * [Proof versions cannot be downloaded or previewed when an interactive proof is added as a new version](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
-     * [Approver Decision shows a hyphen in the Proof Approval report](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md)
+      * [Approver Decision shows a hyphen in the Proof Approval report](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md)
   * Native integrations {#native-integrations}
     * [Review and approval native integrations: article index](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
     * {hide-from-toc} [Get started with the GenStudio for Performance Marketing and Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
@@ -2265,9 +2267,13 @@ feature-set: Workfront
     * [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
     * [Manage the GenStudio workspace in Adobe Workfront Planning](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
     * {hide-from-toc} [Promote a Workfront Planning workspace to GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
-  * Adobe Workfront Planning Standalone {#planning-standalone}
-    * {hide-from-toc} [Adobe Workfront Planning Standalone: article index](planning/planning-sta/planning-sta-article-index.md)
-    * {hide-from-toc} [Get started with Adobe Workfront Planning Standlone](planning/planning-sta/get-started-with-planning-sta.md)
+  * Adobe Workfront Planning as a standalone product {#planning-standalone}
+    * [Adobe Workfront Planning as a standalone product: article index](planning/planning-sta/planning-sta-article-index.md)
+    * [Get started with Adobe Workfront Planning as a standalone product](planning/planning-sta/planning-sta-overview.md)
+    * [Access needed for Adobe Workfront Planning as a standalone product](planning/planning-sta/access-needed-for-planning-sta.md)
+    * [Manage your instance of Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-planning-sta-instance.md)
+    * [Manage users in Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-users-in-planning-sta.md)
+    * [Manage teams in Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-teams-in-planning-sta.md)
 * Adobe Workfront Integrations {#adobe-workfront-integrations}
   * [Adobe Workfront integrations](workfront-integrations-and-apps/workfront-integrations.md)
   * [Adobe Workfront built-in integrations overview](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
