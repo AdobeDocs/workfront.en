@@ -119,18 +119,45 @@ To learn more about [!DNL Claude] skills, see the [Claude user documentation](ht
 
 ## Connect to ChatGPT 
 
+The procedure to connect the Woorkfront MCP server with ChatGPT differs based on whether you are using ChatGPT Desktop or Codex, or ChatGPT on the web.
+
+### Connect to ChatGPT Desktop or ChatGPT Codex
+
+1. In ChatGPT, open **Settings**.
+1. Click **Plugins** in the left navigation.
+1. Click **Add server** near the upper-right of the window.
+1. Enter a name for the server.
+1. For the type, select **Streamable HTTP**.
+1. Set the MCP Server URL:  
+
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
+
+1. Click **Save**.
+1. In the list that appears, click **Authenticate** for the MCP server that you are adding.
+1. Log in to WOrkfront.
+1. In ChatGPT, in the MCP server list, ensure that the toggle to the right of the new MCP server remains toggled on.
+
+
+### Connect to ChatGPT on the web
+
 1. Log in to [ChatGPT](https://chatgpt.com) using your credentials.
-1. In the lower left, select **your name** → **Settings**.
-1. Select **Apps**, then enable **Developer mode**.
-1. Select the **Create app** button.
-1. Give the app a desired name (such as "Workfront") and enter the MCP Server URL:  
+1. In the lower left, select your name, then select **Settings**.
+1. In the left navigation, select **Security and login**.
+1. Go to the ChatGPT plugins page at https://chatgpt.com/plugins.
+1. Click the Plus icon near the upper-right of the Plugins page.
+1. In the **Name** field, enter a name for the MCP server.
+1. In the **Connection** field, select **Server URL** and enter the MCP Server URL:  
 
    ```
    https://mcp.workfront.adobe.com/mcp/v1/workfront
    ```
    
-1. Ensure that Authentication is set to **OAuth** (set by default), and select the acceptance check box to continue.
-1. After the app is created, a login window pops up. Authenticate using your Adobe ID credentials. Ensure that you select the desired Workfront instance if you belong to more than one.
+1. Ensure that Authentication is set to **OAuth** (set by default).
+1. Read the risk message and check the box to show that you have read it.
+1. Click **Create**.
+1. After the app is created, a Workfront login window appears. Authenticate using your Adobe ID credentials. Ensure that you select the desired Workfront instance if you belong to more than one.
 
 
 ### Customize ChatGPT behavior with Custom GPTs
