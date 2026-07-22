@@ -195,7 +195,208 @@ Examining the query from the inside out: 
 >`Join <above query> c on c.projectid = p.projectid  `
 >`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
- 
+## Planning: single record type query
+
+This example demonstrates how to query Workfront Planning data for a single record type stored in the Data Connect data lake.
+
+### Scenario
+
+Your organization uses Workfront Planning to track Campaigns. Each Campaign record includes a name, status, start date, end date, and owner. You want to pull a list of all active campaigns and their key details for use in a dashboard.
+
+* Planning record type data is stored in the PLANNINGRECORD_CURRENT view.
+* Each row represents a single record, and all field values are stored in a JSON column named FIELD_VALUES.
+* The record type is identified by the RECORDTYPEID column.
+* The record's workspace is identified by the WORKSPACEID column (or the WORKSPACENAME column for a human-readable filter).
+
+### Query
+
+```sql
+SELECT
+  recordid,
+  FIELD_VALUES:"Name"::text AS campaign_name,
+  FIELD_VALUES:"Status"::text AS campaign_status,
+  FIELD_VALUES:"Start Date"::date AS start_date,
+  FIELD_VALUES:"End Date"::date AS end_date,
+  FIELD_VALUES:"Owner"::text AS owner
+FROM PLANNINGRECORD_CURRENT
+WHERE WORKSPACEID = '<your_campaign_workspace_id>'
+AND RECORDTYPEID = '<your_campaign_record_type_id>'
+AND FIELD_VALUES:"Status"::text = 'Active'
+ORDER BY start_date ASC
+```
+
+### Response
+
+The above query returns the following data:
+
+* **recordid**: The unique Planning record ID for the campaign.
+* **campaign_name**: The name of the campaign, extracted from the FIELD_VALUES JSON object.
+* **campaign_status**: The current status of the campaign.
+* **start_date**: The campaign's start date, cast to a date data type.
+* **end_date**: The campaign's end date, cast to a date data type.
+* **owner**: The name of the user or team assigned as the campaign owner.
+
+### Explanation
+
+Planning records in Data Connect share a single table structure regardless of record type. The RECORDTYPEID column is used to scope the query to a specific record type — in this case, Campaigns. Replace `<your_campaign_record_type_id>` with the ID of the record type you want to query, which can be found in the Workfront Planning record type settings or by querying RECORDTYPE_CURRENT.
+
+Field values are stored as a JSON object in the FIELD_VALUES column and are accessed using the same colon-notation syntax used for custom form data:
+
+```
+<field_column>:"<field_name>"::<data_type> AS <alias>
+```
+
+Field name references must match exactly the field name defined in the Planning record type field configuration, including capitalization, spacing and emoji.
+
+>[!NOTE]
+>
+>Planning record type IDs can be found in the URL when viewing a record type in Workfront Planning. It is the path of the URL that begins with "Rt...". Record types can also be found with the following SQL call within Data Connect:
+>
+>
+>```sql
+>SELECT
+>ID AS recordtypeid,
+>DISPLAYNAME AS record_type_name,
+>WORKSPACEID
+>FROM RECORDTYPE_CURRENT
+>ORDER BY record_type_name ASC
+>```
+
+## Planning: connected record types query
+
+This example demonstrates how to query data across two connected Planning record types — a parent record type and a record type it is connected to.
+
+### Scenario
+
+Your organization connects Campaign records to Tactic records in Workfront Planning. You want to produce a report that shows each campaign alongside key details from its associated tactics. They specifically want to show the tactic name, strategic priority, and budget allocation so that leadership can review campaign activity organized by tactic.
+
+In Data Connect, connections between native Planning record types are stored directly in the FIELD_VALUES_RAW column of PLANNINGRECORD_CURRENT. For a reference field named "Tactics", the value is a JSON array of connected record objects, each containing an id property with the connected record's RECORDID. Use Snowflake's LATERAL FLATTEN to expand this array into rows and join to the connected record type.
+
+### Query
+
+```sql
+SELECT
+  c.RECORDID AS campaign_id,
+  c.FIELD_VALUES:"Name"::text AS campaign_name,
+  c.FIELD_VALUES:"Status"::text AS campaign_status,
+  t.FIELD_VALUES:"Name"::text AS tactic_name,
+  t.FIELD_VALUES:"Strategic Priority"::text AS strategic_priority,
+  t.FIELD_VALUES:"Budget Allocation"::float AS budget_allocation
+FROM PLANNINGRECORD_CURRENT c,
+INNER JOIN REFERENCE_CURRENT R 
+ON r.FROM_REFERENCEID = c.REFERENCE_IDS:"Tactics"::text
+INNER JOIN PLANNINGRECORD_CURRENT t
+-- Join to the Tactic record using the connected record ID from the array
+ON t.RECORDID = r.TO_RECORDID
+WHERE c.RECORDTYPEID = '<your_campaign_record_type_id>'
+ORDER BY tactic_name, campaign_name
+```
+
+### Response
+
+The above query returns the following data:
+
+* **campaign_id**: The unique Planning record ID for the campaign.
+* **campaign_name**: The name of the campaign record.
+* **campaign_status**: The current status of the campaign.
+* **tactic_name**: The name of the connected Tactic record.
+* **strategic_priority**: The Strategic Priority field value from the connected Tactic record.
+* **budget_allocation**: The Budget Allocation field value from the connected Tactic record, cast as a float.
+
+### Explanation - Modified KP
+
+Connections between native Planning record types are stored in a REFERENCE_CURRENT join table.  The REFERENCE_CURRENT join table is used for joins between RecordType.   When joining between RecordType, the TO_RECORDID field should be used. 
+
+The REFERENCE_ID column in the PLANNINGRECORD view contains a list of all REFERENCEID fields that are applicable to that planning record. You can access the id by utilizing the same JSON notation as a field_value.  
+
+```
+<reference_ids>:"<reference_name>"::text
+
+```
+The REFERENCE_CURRENT view contains one or more records where the TO_RECORDID points to other planning `recordId` fields in the PLANNINGRECORD_* views.
+
+To join another REFERENCE field to additional planning records the same pattern of joining to REFERENCE_CURRENT and the PLANNINGRECORD_* views would be added to the above query.
+
+
+## Planning: record type joined to Workfront Workflow data query
+
+This example demonstrates how to join a Workfront Planning record type to a native Workfront Workflow object — in this case, a Project — using Planning's native connection feature, which stores external object references in the REFERENCE_CURRENT view.
+
+### Scenario
+
+Your organization connects Campaign records in Workfront Planning to Workfront Projects using Planning's native connection feature. You want to produce a combined report showing campaign details alongside live execution data from the linked project — specifically the project's current Percent Complete, Planned Completion Date, and assigned Project Owner — so that campaign managers can track delivery progress without leaving their Planning workspace context.
+
+### Query
+
+```sql
+SELECT
+  c.RECORDID AS campaign_id,
+  c.FIELD_VALUES:"Name"::text AS campaign_name,
+  c.FIELD_VALUES:"Status"::text AS campaign_status,
+  conn.TO_EXTERNALID AS linked_project_id,
+  p.name AS project_name,
+  p.percentcomplete AS project_percent_complete,
+  p.plannedcompletiondate AS project_planned_completion,
+  p.ownerid AS project_owner_id,
+  u.name AS project_owner_name
+FROM WORKFRONT.PLANNING.PLANNINGRECORD_CURRENT c
+-- Join to the references table to find Workfront Project connections
+INNER JOIN WORKFRONT.PLANNING.REFERENCE_CURRENT conn
+ON conn.REFERENCE_ID = c.REFERENCE_IDS:"ProjectId"::text
+-- Join to the Workfront Projects table on the external ID
+INNER JOIN WORKFRONT.WF.PROJECTS_CURRENT p
+ON p.projectid = conn.TO_EXTERNALID
+-- Join to Users to resolve the project owner name
+LEFT JOIN WORKFRONT.WF.USERS_CURRENT u
+ON u.userid = p.ownerid
+WHERE c.RECORDTYPEID = '<your_campaign_record_type_id>'
+AND p.completiontype != 'CPL' -- Exclude completed projects
+ORDER BY campaign_name
+```
+
+### Response
+
+The above query returns the following data:
+
+* **campaign_id**: The unique Planning record ID for the campaign.
+* **campaign_name**: The name of the campaign record.
+* **campaign_status**: The current status of the campaign, from Planning.
+* **linked_project_id**: The Workfront Project ID from REFERENCE_CURRENT.TO_EXTERNALID, identifying the connected Workfront Project.
+* **project_name**: The native Workfront project name from PROJECTS_CURRENT.
+* **project_percent_complete**: The project's current percent complete value.
+* **project_planned_completion**: The planned completion date of the linked Workfront project.
+* **project_owner_id**: The Workfront user ID of the project owner.
+* **project_owner_name**: The display name of the project owner, resolved by joining to USERS_CURRENT.
+
+### Explanation
+
+Connections from a Planning record type to a native Workfront Workflow object are stored in REFERENCE_CURRENT. Each row in this view represents one directional link: TO_EXTERNALID holds the ID of the connected Workfront object. Rows representing Workfront connections are identified by `TO_EXTERNALCONNECTIONNAME = 'workfront'` and a TO_EXTERNALOBJECTNAME value that corresponds to the Workfront object type's API code — for example, PROJ for Projects.  
+
+The REFERENCE_ID column in the PLANNINGRECORD tables contains a list of all REFERENCEID fields that are applicable to that record.  You can access the id by utilizing the same JSON notation as a field_value.  
+A single REFERENCE_ID in the PLANNINGRECORD_CURRENT may contain one or more reference links in the REFERENCE_CURRENT table that link to objects of a specific object type in the Workfront table.
+
+```
+<reference_ids>:"<reference_name>"::text
+
+```
+Note that Planning views (PLANNINGRECORD_CURRENT, REFERENCE_CURRENT) reside in the WORKFRONT.PLANNING schema, while native Workfront Workflow views (PROJECTS_CURRENT, USERS_CURRENT, etc.) reside in the WORKFRONT.WF schema. Cross-schema joins require fully qualified table names.
+
+The query performs three joins:
+
+1. **Planning records to the references table:** REFERENCE_CURRENT is joined on `TO_RECORDID = c.RECORDID` to find all connections originating from each Campaign record. The filters on `TO_EXTERNALCONNECTIONNAME = 'workfront'` and `TO_EXTERNALOBJECTNAME = 'PROJ'` narrow the results to rows that represent connections to Workfront Projects specifically.
+1. **References table to Workfront Projects:** TO_EXTERNALID holds the native Workfront projectid for the connected Project. This is joined directly to `PROJECTS_CURRENT.projectid` to retrieve live project data.
+1. **Projects to Users:** A LEFT JOIN to USERS_CURRENT resolves the ownerid foreign key on the project to a human-readable name. A LEFT JOIN is used here so that projects with no assigned owner are still included in results.
+
+>[!NOTE]
+>
+>When joining to tables that are external to Planning, DO NOT use the TO_RECORDID field in the query.  It is not needed when joining to external tables.
+>
+>This pattern can be applied to any Workfront Workflow object that Planning supports connecting to — such as Projects, Portfolios, or Programs — by changing the TO_EXTERNALOBJECTNAME filter to the appropriate object API code (for example, PORT for Portfolios or PRGM for Programs) and joining to the corresponding WORKFRONT.WF table. Refer to the Workfront Data Connect data dictionary for the correct table and ID column names for each object type.
+
+To join another REFERENCE field to additional external records the same pattern of joining to REFERENCE_CURRENT and the Workfront Workflow views would be added to the above query.
+
+External and Planningrecord values can be joined in the same query by joining multiple times to the REFERENCE_CURRENT table an using the appropriate join pattern.
+
 
 <!--
 ## Task query 
