@@ -13,33 +13,33 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Customizable row colors and connection-based color-coding
+## Customizable record color and connection-based color-coding
 
 >[!NOTE]
->
+> 
 >Preview: July 23, 2026 
 >Production fast release: August 13, 2026 
 >Production for all: October 15, 2026 
 
-  
+Records now support customizable color palettes which allow you to update the colors automatically assigned to new records to standard or custom colors. 
 
-Records now support customizable color palettes which allow you to switch between standard system colors and custom colors automatically assigned to records as they are created. 
+The following changes are included in this enhancement:  
 
-With this change, we have updated the following areas: 
+* We added the Color option to the following areas: 
+   * The Fields icon in the table view.  
+   * The Bar style section in the Settings area of a timeline and a calendar view 
 
-*We added the Color option to the Fields icon in the table view. When enabled, the color automatically assigned to a new record displays everywhere where the record displays.  
+    When the Color setting is turned on, the color assigned to a new record displays everywhere where the record displays in these views.  
 
-For information, see Manage the table view(help/quicksilver/planning/views/manage-the-table-view.md). 
+* A color circle is added to the record's Details page.  
+* You can now add single-, multi-select and connected record fields to the color coding of bars in timeline and calendar views when coloring by Field values.  
+* You can enable to display the color, in addition to the name and image of a record when you create connected record fields.  
+* The Color section in the Settings area has also been streamlined by removing the "None" option.   
 
-*You can add connected records, as well as select fields to a timeline and calendar view in the Color section of the Settings area for the view and the record bars update with their respective color.  
+For information, see:
 
-The Color section in the Settings area has also been streamlined by removing the "None" option and adding image controls to the bar style for the additional fields.  
-
-For information, see:  
-
-*Manage the timeline view(help/quicksilver/planning/views/manage-the-timeline-view.md) 
-
-*Manage the calendar view(help/quicksilver/planning/views/manage-the-calendar-view.md)
+   * [Create records](/help/quicksilver/planning/records/create-records.md).  
+   * [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Planning Designer now requires Beta agreement acceptance 
 
