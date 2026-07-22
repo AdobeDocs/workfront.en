@@ -380,6 +380,7 @@ A single REFERENCE_ID in the PLANNINGRECORD_CURRENT may contain one or more refe
 <reference_ids>:"<reference_name>"::text
 
 ```
+
 Note that Planning views (PLANNINGRECORD_CURRENT, REFERENCE_CURRENT) reside in the WORKFRONT.PLANNING schema, while native Workfront Workflow views (PROJECTS_CURRENT, USERS_CURRENT, etc.) reside in the WORKFRONT.WF schema. Cross-schema joins require fully qualified table names.
 
 The query performs three joins:
