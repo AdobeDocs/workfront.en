@@ -449,6 +449,15 @@ Update the calendar view settings to indicate what and how information displays 
 
     If you do not have a field with color-coded options for the selected record type, this option is dimmed.
 
+    <!--
+        For July 23: add this note after the last sentence here
+        >[!NOTE]
+        >
+        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+        >    
+        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        -->
+
 
 1. Click **Save**.
 
