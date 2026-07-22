@@ -1,6 +1,6 @@
 ---
 title: Create Records
-description: When using Adobe Workfront Planning, a record is an instance of a record type. You can create unique records for each record type in Workfront Planning by manually adding them to the table view, importing them from a list, duplicating them, or creating them as you connect them to other records.
+description: When using Adobe Workfront Planning, a record is an instance of a record type. You can create unique records for each record type in Workfront Planning by manually adding them to the table view, importing them from a list, duplicating them, or creating them as you connect them to other records. Each record can be associated with a thumbnail, a cover image, and a unique color. 
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -178,6 +178,17 @@ Old:
     >
     >A workspace manager must create a request form for the record type in order for users with View permissions to add records using a request form. Otherwise, View-permission users cannot create records.
 
+<!--
+add this bullet for July 23 release:
+
+<div class="preview">
+
+* All records are automatically color-coded when they are created, regardless of the method you are using to create them. 
+
+    For more information, see the section [Color coding records](#color-coding-records) in this article. 
+
+</div>
+-->
 
 ## Create records using the New record or Request record button from any record type view
 
@@ -584,5 +595,52 @@ You can configure and activate the automation in the record's page in Workfront 
 
 For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
 
+<!--For July 23
+Move to its own article after preview release in 07/2026:
 
+<div class="preview">
 
+## Color coding records
+
+All records are automatically associated with a color when they are created. 
+
+1. Create a record using one of the methods described in this article. 
+
+    The color is immediately applied to the new record in the following areas:
+
+    * As a bar, to the left of the record name or primary field in the table, timeline and calendar views. 
+    * As a circle, to the left of the record name in the record's **Details** page. 
+
+        For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. (Conditional) To view the color of a record, do one of the following: 
+    
+    * From the table view, click the **Fields** icon in the toolbar at the top of a list of records, then turn on the **Color** setting. A bar is added to the left of the record's primary field.
+
+        ![Table view record color bar](assets/table-record-color-bar.png)
+
+        For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+    * From the timeline view, click **Settings** > **Bar style**, then turn on the **Color** setting. A bar is added to the left margin of the record's bar, when you select to color code the bar by **Record**. 
+
+        ![Timeline view record color bar](assets/timeline-record-color-bar.png)
+
+        For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+    * From the calendar view, click **Settings** > **Bar style**, then turn on the **Color** setting. The record bar color matches the record color and a darker shade of the same color is added to the left margin of the record's bar, when you select to color code the bar by **Record**.
+    
+        ![Calendar view record color bar](assets/calendar-record-color-bar.png)
+
+        For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+
+    The Color setting is turned off by default.
+
+1. To change the color associated with a record, do the following: 
+
+    1. From the table view, click the record color bar
+        Or 
+        From the record details preview or page, click the record color circle. 
+    1. Click the **Swatches** or the **Custom** tab to select a new color. 
+
+        Once selected, the new color is applied immediately. 
+
+</div>
+
+-->

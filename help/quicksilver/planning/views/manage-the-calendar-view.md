@@ -439,6 +439,10 @@ Update the calendar view settings to indicate what and how information displays 
     * **Field values**: The color of the records matches the color of a field that you specify. 
     * **None**: Records displays in a white bar. 
 
+    <!--
+    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
+    -->
+
 1. (Conditional) If you selected **Field values** for the record colors, select a field from the **Match the record color to** drop-down menu. 
 
     ![Field selector drop-down menu for calendar view](assets/field-selector-drop-down-menu-calendar-view.png)

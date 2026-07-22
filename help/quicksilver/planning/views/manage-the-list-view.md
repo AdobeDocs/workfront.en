@@ -18,16 +18,17 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 <!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
+<!--
 <span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+-->
 
 {{planning-important-intro}}
 
 You can view objects in the list view in the following areas of Workfront Planning:
 
-* A connected records page for projects in a record's details area <!--update screen shot for preview May 14 with Grouping icon and add the note at the top in yellow about preview-->
+* A connected records page for projects in a record's details area 
 
     ![Projects on connected records page in list view](assets/projects-on-connected-records-page-list-view.png)
 
@@ -248,9 +249,9 @@ Removed - more direct steps below:
 
 1. (Conditional) For select type fields, use your keyboard arrows to navigate the list of options, then press the space bar to select the correct choice. 
 
-    <span class="preview">Use the **Search** line in select field types to find the right option.</span>
+    Use the **Search** line in select field types to find the right option.
 
-    <span class="preview">You can add new options directly from the field cell when no results are found. This feature may not be available on all lists.</span>
+    You can add new options directly from the field cell when no results are found. This feature may not be available on all lists.
 
 1. Hover over an item's name in the list and click the **More** menu [More menu](assets/more-menu.png) and click **View** to open the item in another tab
      
