@@ -13,6 +13,34 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Customizable row colors and connection-based color-coding
+
+>[!NOTE]
+>
+>Preview: July 23, 2026 
+>Production fast release: August 13, 2026 
+>Production for all: October 15, 2026 
+
+  
+
+Records now support customizable color palettes which allow you to switch between standard system colors and custom colors automatically assigned to records as they are created. 
+
+With this change, we have updated the following areas: 
+
+*We added the Color option to the Fields icon in the table view. When enabled, the color automatically assigned to a new record displays everywhere where the record displays.  
+
+For information, see Manage the table view(help/quicksilver/planning/views/manage-the-table-view.md). 
+
+*You can add connected records, as well as select fields to a timeline and calendar view in the Color section of the Settings area for the view and the record bars update with their respective color.  
+
+The Color section in the Settings area has also been streamlined by removing the "None" option and adding image controls to the bar style for the additional fields.  
+
+For information, see:  
+
+*Manage the timeline view(help/quicksilver/planning/views/manage-the-timeline-view.md) 
+
+*Manage the calendar view(help/quicksilver/planning/views/manage-the-calendar-view.md)
+
 ## Planning Designer now requires Beta agreement acceptance 
 
 >[!NOTE]
