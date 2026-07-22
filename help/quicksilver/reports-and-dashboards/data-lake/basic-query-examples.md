@@ -313,6 +313,7 @@ The REFERENCE_ID column in the PLANNINGRECORD view contains a list of all REFERE
 <reference_ids>:"<reference_name>"::text
 
 ```
+
 The REFERENCE_CURRENT view contains one or more records where the TO_RECORDID points to other planning `recordId` fields in the PLANNINGRECORD_* views.
 
 To join another REFERENCE field to additional planning records the same pattern of joining to REFERENCE_CURRENT and the PLANNINGRECORD_* views would be added to the above query.

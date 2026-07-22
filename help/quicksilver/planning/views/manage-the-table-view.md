@@ -313,16 +313,13 @@ You can have up to 50,000 records (or rows) for a record type.
     
     For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-<!--For July 23:
+<!--
+For July 23: you might need to add some spacing below:
 1. <span class="preview">(Optional) Click **Fields** at the top of the table, then click **Color** to display the color of a record to the left of its primary field. Colors are assigned randomly by default for each new record. The **Color** setting is deselected by default.</span>
 1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
-
     <span class="preview">
-
     ![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
-
     </span>
-
 -->
 
 ### Add filters {#add-filters-1}
