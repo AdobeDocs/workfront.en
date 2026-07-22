@@ -36,10 +36,7 @@ The following changes are included in this enhancement: 
 * You can enable to display the color, in addition to the name and image of a record when you create connected record fields.  
 * The Color section in the Settings area has also been streamlined by removing the "None" option.   
 
-For information, see:
-
-   * [Create records](/help/quicksilver/planning/records/create-records.md).  
-   * [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+For information, see [Create records](/help/quicksilver/planning/records/create-records.md).  
 
 ## Planning Designer now requires Beta agreement acceptance 
 
