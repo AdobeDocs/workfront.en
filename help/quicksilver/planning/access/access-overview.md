@@ -108,7 +108,7 @@ You must have the following access to use Workfront Planning:
    <ul>
    <li><p>View or higher permissions to workspaces, record types and views that you did not create to access them and their objects.</p></li>
    <li><p>Contribute or higher permissions to workspaces and record types that you did not create to edit them and create, edit, or delete record types.</p></li>
-   <li><p><span class="preview">Manage permissions to records to edit, share, or delete them.</p>
+   <li><p>Manage permissions to records to edit, share, or delete them.</p>
    <li><p>Contribute or higher permissions to views that you did not create, to edit, delete, and share them</p>
    </li>
     <li><p>Planning Administrators can manage workspaces they did not create. </p></li>
