@@ -155,6 +155,7 @@ The procedure to connect the Woorkfront MCP server with ChatGPT differs based on
    ```
    
 1. Ensure that Authentication is set to **OAuth** (set by default).
+1. Read the risk message and check the box to show that you have read it.
 1. Click **Create**.
 1. After the app is created, a Workfront login window appears. Authenticate using your Adobe ID credentials. Ensure that you select the desired Workfront instance if you belong to more than one.
 
