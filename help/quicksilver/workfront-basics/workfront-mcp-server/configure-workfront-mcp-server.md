@@ -65,23 +65,17 @@ You connect to Workfront once per [!DNL Claude] account. The connection authenti
 To connect Workfront to [!DNL Claude]:
 
 1. Open [!DNL Claude].
-
-1. Navigate to the connectors area.
-
-
-
-1. Find **[!DNL Adobe Workfront]** in the connector list.
+1. Click on your icon in the lower-left corner of the screen and select **Settings**
+1. In the left navigation, click **Connectors**.1. Find **[!DNL Adobe Workfront]** in the connector list.
 
    If you don't see it, see [Admin prerequisites](#admin-prerequisites) in this article.
-
+1. Click **Customize**.
+1. Click the plus icon at the top of the list of connectors.
+1. In the window that opens, search for **Workfront**, then click it when it appears.
 1. Click **Connect**.
-
-
-
 1. When prompted, log in to your Workfront instance.
 
-
-1. After authentication completes, you're connected.
+   After authentication completes, the Workfront MCP server is connected.
 
 
 
