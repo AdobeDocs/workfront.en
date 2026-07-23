@@ -83,6 +83,8 @@ To connect Workfront to [!DNL Claude]:
 
 ### Connect to Claude with a URL
 
+<!--Becky start here-->
+
 +++ Expand to view step-by-step instructions for connecting Workfront to [!DNL Claude] with a URL.
 
 >[!NOTE]
