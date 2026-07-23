@@ -143,6 +143,21 @@ Common mistakes to avoid:
 - Linking to a different quarter's overview from the new product-area page (Step 3).
 - Inserting a new quarter's pages under the previous quarter's heading.
 
+### Step 7: Update the home page
+
+Whenever you create a **new quarter's overview page** (i.e., this is the first page of a new quarter, not just a new product-area page added to an existing quarter), update `help/quicksilver/home.md` in the same change:
+
+- In the `>[!TAB Latest release]` section, replace the release overview link with the new quarter's overview link.
+- Also in that section, update the Adobe Workfront Planning release activity link to point to the new quarter's planning file (`planning-release-activity-{YY}-q{N}.md`), if one exists.
+- In the `>[!TAB {YYYY} releases]` tab for the current year, add the new quarter's overview link at the top of the list, above the previous quarter's entry.
+
+Do not touch `home.md` when only adding a product-area page to a quarter that already has an overview page listed there.
+
+Common mistakes to avoid:
+
+- Creating a new quarter's overview page without updating `home.md`'s "Latest release" tab (it will keep pointing to the old quarter).
+- Forgetting to also add the new quarter to the current-year tab list.
+
 ## File Naming Conventions
 
 | Type | Pattern | Example |
@@ -162,6 +177,37 @@ Standard area slugs: `admin-and-setup`, `documents`, `projects`, `reports`, `req
 | Q3 | Third Quarter | Jul–Sep |
 | Q4 | Fourth Quarter | Oct–Dec |
 
+**Important — the doc quarter used in file names (`26-q3`, `26-q4`, etc.) is offset by one month from this calendar mapping.** It follows Workfront's internal release-calendar grouping instead, where each doc quarter = the two preceding monthly releases + the quarterly release month. For example, doc quarter `26-q3` covers the May/June/July 2026 monthly releases (quarterly release `2026.07`), and doc quarter `26-q4` covers the August/September/October 2026 monthly releases (quarterly release `2026.10`). Always check the release calendar below (or ask for an updated one) before assuming a file's quarter based on the calendar-quarter table above.
+
+## 2026 Release Calendar
+
+Source: "2026 Monthly Release Calendar" (Adobe corp wiki, AWF space — `wiki.corp.adobe.com`, space key AWF, title "2026 Monthly Release Calendar"). WebFetch cannot reach this page (requires Adobe SSO); ask the user to paste an updated PDF/table when dates are needed beyond what's captured here.
+
+| Release Month | Final Preview | Production | Monthly Release | Quarterly Release | Doc Quarter |
+|---|---|---|---|---|---|
+| Nov 2025 | 30-Oct-2025 | 13-Nov-2025 | 2025.11 | 2026.01 | 26-q1 |
+| Dec 2025 | 27-Nov-2025 | 11-Dec-2025 | 2025.12 | 2026.01 | 26-q1 |
+| Jan 2026 | 23-Dec-2025 | 15-Jan-2026 | 2026.01 | 2026.01 | 26-q1 |
+| Feb 2026 | 29-Jan-2026 | 12-Feb-2026 | 2026.02 | 2026.04 | 26-q2 |
+| Mar 2026 | 26-Feb-2026 | 12-Mar-2026 | 2026.03 | 2026.04 | 26-q2 |
+| Apr 2026 | 02-Apr-2026 | 16-Apr-2026 | 2026.04 | 2026.04 | 26-q2 |
+| May 2026 | 30-Apr-2026 | 14-May-2026 | 2026.05 | 2026.07 | 26-q3 |
+| Jun 2026 | 28-May-2026 | 11-Jun-2026 | 2026.06 | 2026.07 | 26-q3 |
+| Jul 2026 | 07-Jul-2026 | 16-Jul-2026 | 2026.07 | 2026.07 | 26-q3 |
+| Aug 2026 | 30-Jul-2026 | 13-Aug-2026 | 2026.08 | 2026.10 | 26-q4 |
+| Sep 2026 | 03-Sep-2026 | 17-Sep-2026 | 2026.09 | 2026.10 | 26-q4 |
+| Oct 2026 | 01-Oct-2026 | 15-Oct-2026 | 2026.10 | 2026.10 | 26-q4 |
+| Nov 2026 | 29-Oct-2026 | 12-Nov-2026 | 2026.11 | 2027.01 | 27-q1 |
+| Dec 2026 | 26-Nov-2026 | 10-Dec-2026 | 2026.12 | 2027.01 | 27-q1 |
+| Jan 2027 | 05-Jan-2027 | 14-Jan-2027 | 2027.01 | 2027.01 | 27-q1 |
+
+Notes on using this table:
+
+- **Final Preview** is the last date features may appear in Preview for that monthly release — use it for the overview page's "last date that features may appear in the Preview environment" bullet (quarter-ending month only).
+- **Production** is the official Production-for-everyone date for that monthly release.
+- For the quarter-ending month (the one matching the Quarterly Release column), the overview page's schedule table lists that month's release **twice**: once in the "Monthly release" column dated **one day before** the Production date (the fast-release date), and once in the "Quarterly release" column dated the actual Production date. Non-final months in a quarter use the same Production date in both the monthly listing and any "fast release" references — no adjustment needed.
+- This table only goes through January 2027. When later dates are needed, ask the user for an updated calendar rather than guessing.
+
 The quarterly production release typically lands on the Thursday of the second full week of the last month of the quarter.
 
 ## Validation Checklist
@@ -178,6 +224,7 @@ When reviewing a release note file, verify:
 - [ ] Anchor links in overview match H3 section IDs
 - [ ] Features are ordered newest-first (both product area pages and overview tables)
 - [ ] New release-note pages are listed in `help/quicksilver/TOC.md` under the correct quarter, with the overview first and product areas in alphabetical order (Other last)
+- [ ] If a new quarter's overview page was created, `help/quicksilver/home.md` "Latest release" tab and the current-year tab point to it
 
 ## Additional Resources
 
