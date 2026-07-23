@@ -226,7 +226,7 @@ There are two ways to connect:
 
 ### Connect with OAuth
 
-Self-service support for custom OAuth integrations is not yet available for Workfront.  If you need a redirect URL enabled for your organization, contact [!DNL Workfront] customer support.
+Self-service support for custom OAuth integrations is not yet available for Workfront. 
 
 ## Verify your connection
 
