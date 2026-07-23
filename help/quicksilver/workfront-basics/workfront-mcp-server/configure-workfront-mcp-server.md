@@ -54,7 +54,9 @@ MCP server access is gated by two separate administrators.
 
 You connect to Workfront once per [!DNL Claude] account. The connection authenticates you to a specific Workfront instance, and you stay connected until you choose to disconnect.
 
-
+* [Connect to Claude desktop from the connectors directory](#connect-to-claude-desktop-from-the-connectors-directory)
+* [Connect to Claude with a URL](#connect-to-claude-with-a-url)
+* [Customize Claude behavior with skills](#customize-claude-behavior-with-skills)
 
 ### Connect to Claude desktop from the connectors directory
 
@@ -120,6 +122,10 @@ To learn more about [!DNL Claude] skills, see the [Claude user documentation](ht
 ## Connect to ChatGPT 
 
 The procedure to connect the Woorkfront MCP server with ChatGPT differs based on whether you are using ChatGPT Desktop or Codex, or ChatGPT on the web.
+
+* [Connect to ChatGPT Desktop or ChatGPT Codex](#connect-to-chatgpt-desktop-or-chatgpt-codex)
+* [Connect to ChatGPT on the web](#connect-to-chatgpt-on-the-web)
+* [Customize ChatGPT behavior with Custom GPTs](#customize-chatgpt-behavior-with-custom-gpts)
 
 ### Connect to ChatGPT Desktop or ChatGPT Codex
 
@@ -197,6 +203,30 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront`
 1. When a tool is configured and tested, click **Publish**. 
 
    You may not have permissions to publish. If this is the case, contact your Copilot administrator.
+
+## Connect Workfront to a custom MCP solution
+
+If you're building your own custom application or agent, you can connect to the Workfront MCP server directly.
+
+There are two ways to connect:
+
+* [Connect with a service-to-service token](#connect-with-a-service-to-service-token)
+* [Connect with OAuth](#connect-with-oauth)
+
+### Connect with a service-to-service token
+
+1. Create a service credential using the Adobe Developer Console. For information, see [Server to Server authentication](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/).
+1. Connect to the Workfront MCP server using the following information:
+
+   * **URL**: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+   * **Headers**:
+
+      * `Authorization: Bearer <access_token>`
+      * `wf-url: <your_subdomain>.my.workfront.com` (Required if your credential has access to more than one Workfront instance, such as Preview and Production).
+
+### Connect with OAuth
+
+Self-service support for custom OAuth integrations is not yet available for Workfront. 
 
 ## Verify your connection
 
@@ -293,6 +323,10 @@ For day-to-day troubleshooting after you're connected (for example, stale result
 ## Frequently asked questions about setup
 
 +++ Expand to view frequently asked questions about setting up the Workfront MCP server.
+
+* [Can I connect to multiple Workfront instances at the same time?](#can-i-connect-to-multiple-workfront-instances-at-the-same-time)
+* [Which administrator enables this?](#which-administrator-enables-this)
+* [Can I use the Workfront MCP server if my Workfront instance isn't enabled on Adobe Identity Management System (IMS)?](#can-i-use-the-workfront-mcp-server-if-my-workfront-instance-isnt-enabled-on-adobe-identity-management-system-ims)
 
 ### Can I connect to multiple Workfront instances at the same time?
 
