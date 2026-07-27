@@ -89,3 +89,4 @@ After you have added the proof to your [!DNL Basecamp Classic] project, you will
 > If you do not have a [!DNL Basecamp Classic] session open in another browser window, you must sign in to your [!DNL Basecamp Classic] account before you can see the message in [!DNL Basecamp].
 
 See also [Review a Proof in [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md).
+

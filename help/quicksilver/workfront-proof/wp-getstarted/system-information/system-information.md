@@ -36,3 +36,4 @@ This section contains the following articles:
 * [Preview Sandbox Testing Environment- [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
 * [Language Settings in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/language-settings.md)
 * [Codecs in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/codecs.md)
+

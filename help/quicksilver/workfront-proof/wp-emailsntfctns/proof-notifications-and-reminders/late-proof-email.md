@@ -57,3 +57,4 @@ Consider the following about proof notifications:
    >The Creator of the proofs receives a separate [!UICONTROL Proof made] email for each of the proofs created. For more information, see [The [!UICONTROL Proof Made] email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md).
 
 * If you or your reviewers don't receive an expected email notification, see  [Configure [!DNL Workfront Proof] emails to avoid spam filters](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md).
+
