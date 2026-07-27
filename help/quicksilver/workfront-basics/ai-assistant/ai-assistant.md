@@ -15,6 +15,12 @@ role_v2:
 ---
 # AI Assistant: article index
 
+<!--
+>[!IMPORTANT]
+>
+>AI Assistant is transitioning to Adobe Coworker, a conversational interface for getting work done. For information on Adobe Coworker, see [Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+-->
+
 This section contains the following articles:
 
 * [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)

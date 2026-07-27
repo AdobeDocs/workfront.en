@@ -21,6 +21,12 @@ topic_v2:
 ---
 # Summarize using AI Assistant
 
+<!--
+>[!IMPORTANT]
+>
+>AI Assistant is transitioning to Adobe Coworker, a conversational interface for getting work done. For information on Adobe Coworker, see [Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+-->
+
 Workfront's AI Assistant can summarize some objects, giving you a high-level view of the object's intent or details. 
 
 For example, if you ask AI Assistant to summarize a project, it returns brief descriptions of the project's purpose and status, gives examples of tasks that are completed and that are still pending, and provides some additional details and notes.

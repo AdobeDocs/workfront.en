@@ -15,6 +15,12 @@ role_v2:
 ---
 # Auto-fill a request using AI
 
+<!--
+>[!IMPORTANT]
+>
+>AI Assistant is transitioning to Adobe Coworker, a conversational interface for getting work done. For information on Adobe Coworker, see [Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+-->
+
 AI can help you auto-fill request fields. It can suggest field values based on previous requests, or parse them from text such as emails ar uploaded documents. 
 
 You can approve or reject these suggestions before submitting the request.

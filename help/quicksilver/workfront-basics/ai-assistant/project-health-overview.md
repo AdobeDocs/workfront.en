@@ -23,6 +23,12 @@ topic_v2:
 ---
 # Project Health overview
 
+<!--
+>[!IMPORTANT]
+>
+>AI Assistant is transitioning to Adobe Coworker, a conversational interface for getting work done. For information on Adobe Coworker, see [Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+-->
+
 >[!IMPORTANT]
 >
 >The Project Health feature is currently only available for users participating in the beta stage.

@@ -26,6 +26,12 @@ topic_v2:
 ---
 # AI Assistant in Workfront
 
+<!--
+>[!IMPORTANT]
+>
+>AI Assistant is transitioning to Adobe Coworker, a conversational interface for getting work done. For information on Adobe Coworker, see [Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+-->
+
 Workfront's AI Assistant helps you accomplish your work by offering in-app information and suggestions in a natural-language conversation. AI Assistant can give you a smoother work experience by
 
 * Summarizing work items or documents

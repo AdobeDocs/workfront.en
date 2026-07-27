@@ -21,6 +21,12 @@ topic_v2:
 ---
 # Get help from AI Assistant
 
+<!--
+>[!IMPORTANT]
+>
+>AI Assistant is transitioning to Adobe Coworker, a conversational interface for getting work done. For information on Adobe Coworker, see [Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+-->
+
 AI Assistant can locate information from Workfront documentation, eliminating the need for you to visit Adobe Experience League to get the help you need. 
 
 For example, if you ask AI Assistant "How do I create a request queue," it returns instructions for creating the request, pulled from the article [Create and manage Request Queues](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).

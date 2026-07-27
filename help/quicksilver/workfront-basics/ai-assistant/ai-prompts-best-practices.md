@@ -15,6 +15,12 @@ role_v2:
 ---
 # AI Assistant prompts and best practices
 
+<!--
+>[!IMPORTANT]
+>
+>AI Assistant is transitioning to Adobe Coworker, a conversational interface for getting work done. For information on Adobe Coworker, see [Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+-->
+
 Workfront's AI Assistant is a powerful tool that can help you accomplish your work more effectively by offering useful information about your account data and specific object types. 
 
 In this article, you'll learn about the current best practices for AI Assistant, including how to write clear prompts, which object types you can ask for information on, and how to access additional resources to verify information when needed.
