@@ -95,3 +95,4 @@ For guests, the proofing viewer displays content in the language the proof owner
 >[!NOTE]
 >
 >If there are custom actions or decisions present in the account, these will be displayed in the language in which they were originally added regardless of the reviewers' language preferences.
+

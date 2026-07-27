@@ -43,3 +43,4 @@ You can also change the [!DNL Workfront Proof] email alerts you receive for a pr
 1. Click the [!UICONTROL Details page] icon in the lower left corner of the proofing viewer. ![Details_page_btn.png](assets/details-page-btn.png)
 
 1. In the [!UICONTROL Workflow] section of the [!UICONTROL Proof details] page that appears, under **[!UICONTROL Email alerts]**, click the option you want in the dropdown menu.
+
