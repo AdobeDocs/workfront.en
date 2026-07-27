@@ -209,7 +209,7 @@ When you assign or replace a resource using Bulk Assignments in the Workload Bal
 
 To bulk assign a resource:
 
-1. Select work items in the Workload Balancer bulk assignments area as described above and select **Replace resource**.
+1. Select work items in the Workload Balancer bulk assignments area as described above and select **Assign resource**.
 1. In the **Currently assigned resource** field, click the drop-down arrow to choose from a list of resources. Only resources currently assigned to incomplete work items within the specified projects are displayed. This is a required field.
 
    ![Replace resource](assets/bulk-assignments-workload-balancer-replace-selected.png)
@@ -222,7 +222,7 @@ To bulk assign a resource:
 
    The first resource is replaced by the second resource in all work items from the selected project or task.
 
-   You receive a confirmation about how many work items have had the original assignment replaced with the selected second resource.
+   A confirmation displays how many work items have had the original assignment replaced with the selected second resource.
 
 ### Unassign resource {#unassign-user}
 
@@ -248,7 +248,7 @@ To unassign a user from work items in the selected projects or for the selected 
    Workfront displays a note about the number of items where the currently assigned user will be unassigned.
 
 1. Click **Unassign**.  
-   You receive a confirmation about the number of work items where the specified user was removed.
+   A confirmation displays the number of work items where the specified user was removed.
 
  
 
