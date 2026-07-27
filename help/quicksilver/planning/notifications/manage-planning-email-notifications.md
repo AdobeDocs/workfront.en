@@ -42,8 +42,8 @@ You can receive email notifications from Workfront Planning when the following s
 * Someone tags you or your teams in a record comment
    
    For information about tagging others in a record comment, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
-* Someone asks for your permission to access a view, a workspace, or record type <!--or <span class="preview">or a record</span>-->
-* Someone confirms your access has been granted for a view, workspace, or record type <!--<span class="preview">or record</span> Isk confirmed that there is nno email for denying access but did not test-->
+* Someone asks for your permission to access a view, a workspace, record type or a record
+* Someone confirms your access has been granted for a view, workspace, record type or record
 * You submit a Workfront Planning request. For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * Someone approves or rejects a Workfront Planning request that you submitted. For information, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
 * The status changes to a Workfront Planning request that you submitted.

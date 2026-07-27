@@ -578,7 +578,10 @@ New features in Workfront Fusion are available in Production at a cadence outsid
 New features in Workfront Planning are available in Production.
 -->
 
-For more information about the latest features, see [Third Quarter 2026 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md).
+For more information about the latest features, see:
+
+* [Fourth Quarter 2026 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
+* [Third Quarter 2026 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md).
 
 
 ### Other Workfront enhancements
@@ -600,6 +603,16 @@ The Desktop Proofing Viewer has been updated to from 2.1.54 to 2.1.55. This upda
 This update is for both Mac and Windows.
 
 ## Announcements
+
+### Password-only authentication for Data Connect reader users ends August 8, 2026 
+
+Starting August 8, 2026, Workfront Data Connect / Snowflake reader users who authenticate with a password-only login will stop functioning unless multi-factor authentication (MFA) has been enabled. MFA cannot be added retroactively after this date — if a reader user is allowed to lapse without it, access can only be restored by creating a new user profile.  
+
+If you are a Workfront Administrator with Data Connect reader users who have not yet enabled MFA, please notify your users promptly of this change. 
+
+This change was first announced in the April 2026 Workfront release notes, and this is the final reminder before the deadline. Please ensure that all affected reader users enable MFA before August 8, 2026 to avoid disruption to their access. 
+
+For information, see [Create a reader account or connection for Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Adobe Workfront Planning as a standalone product
 

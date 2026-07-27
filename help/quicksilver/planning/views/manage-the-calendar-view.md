@@ -439,6 +439,10 @@ Update the calendar view settings to indicate what and how information displays 
     * **Field values**: The color of the records matches the color of a field that you specify. 
     * **None**: Records displays in a white bar. 
 
+    <!--
+    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
+    -->
+
 1. (Conditional) If you selected **Field values** for the record colors, select a field from the **Match the record color to** drop-down menu. 
 
     ![Field selector drop-down menu for calendar view](assets/field-selector-drop-down-menu-calendar-view.png)
@@ -448,6 +452,15 @@ Update the calendar view settings to indicate what and how information displays 
     For example, multi-select or single-select fields can have color-coded options.  
 
     If you do not have a field with color-coded options for the selected record type, this option is dimmed.
+
+    <!--
+        For July 23: add this note after the last sentence here
+        >[!NOTE]
+        >
+        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+        >    
+        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        -->
 
 
 1. Click **Save**.

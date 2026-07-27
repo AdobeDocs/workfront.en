@@ -552,8 +552,16 @@ Update the timeline view settings to indicate what and how information displays 
         >
         >    * You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
         >    
-        >    * You cannot match the color to lookup fields from linked record or object types. 
+        >    * You cannot match the color to connected records and their lookup fields.
 
+        <!--
+        For July 23: replace the note above with this note for the July 23 release:
+        >[!NOTE]
+        >
+        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+        >    
+        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        -->
 
     For example, multi-select or single-select fields can have color-coded options. 
 
@@ -569,6 +577,10 @@ Update the timeline view settings to indicate what and how information displays 
     * **Field values**: The color of the records matches the color of a field that you specify. Continue with step 10. <!--ensure this stays accurate-->
     * **Grouping**: The color of the records matches the color that you indicated for the groupings. This option is dimmed when you have no groupings applied to the timeline view. 
     * **None**: Records displays in a white bar. 
+
+    <!--
+    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
+    -->
 
 1. (Conditional) If you selected **Field values** for the record colors, select a field from the **Match the record color to** drop-down menu. 
 

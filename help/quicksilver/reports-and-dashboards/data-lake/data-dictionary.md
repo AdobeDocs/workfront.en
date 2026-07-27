@@ -14,7 +14,7 @@ This page contains information about the structure and content of the data in Wo
 
 >[!NOTE]
 >
->The data in Data Connect refreshes every 4 hours, so recent changes may not be immediately reflected.
+>The data in Data Connect refreshes every 4 hours, so recent changes might not be immediately reflected.
 
 ## View types
 
@@ -95,7 +95,7 @@ There are a number of date objects that provide information about when specific 
 * `DL_LOAD_TIMESTAMP`: This date is updated after a successful data refresh is completed and includes the timestamp of when the refresh job that supplied the latest version of a record began. 
 * `CALENDAR_DATE`: This date is present only in the Daily History view. The Daily History view provides a record of what the data looked like at 11:59 UTC for each date specified in `CALENDAR_DATE`.
 * `BEGIN_EFFECTIVE_TIMESTAMP`: This date is present in both Event and Daily History views, and represents the time that a record becomes the current value in the application.
-* `END_EFFECTIVE_TIMESTAMP`: This date is present in both Event and Daily History views, and records exactly when a record changed _from_ the value in the current row to a value in a different row. To allow for between queries on `BEGIN_EFFECTIVE_TIMESTAMP` and `END_EFFECTIVE_TIMESTAMP` this is value is never null, even if there is no new value. In the event a record is still valid (i.e., the value has not changed), `END_EFFECTIVE_TIMESTAMP` will have a value of 2300-01-01.
+* `END_EFFECTIVE_TIMESTAMP`: This date is present in both Event and Daily History views, and records exactly when a record changed _from_ the value in the current row to a value in a different row. To allow for between queries on `BEGIN_EFFECTIVE_TIMESTAMP` and `END_EFFECTIVE_TIMESTAMP` this value is never null, even if there is no new value. In the event a record is still valid (meaning that the value has not changed), `END_EFFECTIVE_TIMESTAMP` will have a value of 2300-01-01.
 
 ## Workfront terminology table and descriptions
 
@@ -8846,9 +8846,6 @@ Limited customer availability
     </tbody>
 </table>
 
-<!--
-for July 2026 release to Production, this does not go to Preview: 
-
 ## Planning view descriptions and relationships
 
 The following tables describe the data views available in the Planning schema in Data Connect. Unlike the Workflow data views, the Planning data views include a full column-by-column description for each view.
@@ -9904,5 +9901,3 @@ Contains the current definitions of all Workfront Planning workspaces. Each row 
         <td>—</td>
     </tr>
 </table>
-
--->
