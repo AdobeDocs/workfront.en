@@ -35,3 +35,4 @@ This section contains the following subsections:
 * [Email alerts](../../workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
 * [Send messages to reviewers](../../workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
 * [Proof notifications and reminders](../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-notifications-and-reminders.md)
+

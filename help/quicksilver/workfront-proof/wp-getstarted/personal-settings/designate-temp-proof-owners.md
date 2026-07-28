@@ -73,3 +73,4 @@ To designate temporary ownership of your proofs:
    >The delegated owner remains on the proof workflow unless you manually remove them.
 
    ![[!UICONTROL activity-section-taken-back].png](assets/activity-section-taken-back-350x99.png)
+
