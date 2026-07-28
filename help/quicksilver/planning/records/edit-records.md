@@ -29,11 +29,11 @@ topic_v2:
 ---
 # Edit records
 
-<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -372,6 +372,9 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
     >  * Lookup fields from other records that are created by connecting record types. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
     >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date, Formula fields.
 
+1. <span class="preview">(Optional) Click the color circle to the left of the record name to change the record color. </span>
+<span class="preview">Records are automatically assigned colors when they are created. Click **Swatches** or **Custom** to select a new color.</span>
+
 1. (Optional) Click **Add cover** to add a cover image to the record. For more information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md). 
 
 1. (Optional) Hover over the thumbnail icon, then click **More** ![More menu](assets/more-menu.png) > **Edit thumbnail** to add a thumbnail image. For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md). 
@@ -428,6 +431,11 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
     >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date, Formula fields.
 
 1. (Optional) Click the information icon to the right of any field that displays it to view the description of a field. 
+1. <span class="preview">(Optional) Click the color circle to the left of the record name to change the record color. </span>
+<span class="preview">Records are automatically assigned colors when they are created. Click **Swatches** or **Custom** to select a new color.</span>
+
+    ![Color picker box for record details box](assets/color-picker-box-for-record-color-in-details-page.png)
+
 1. (Optional) Click **Add cover** to add a cover image to the record
     
     Or

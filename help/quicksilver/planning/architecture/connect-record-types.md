@@ -281,7 +281,7 @@ Old:
 
         A New connection tab opens for your selected record or object type. 
 
-    * **Brands** from Adobe GenStudio for Performance Marketing from the **Adobe GenStudio** section
+    * **Brands** from Adobe GenStudio for Performance Marketing from the **Adobe Applications** section
 
         ![GenStudio Brand connection selection](assets/brand-genstudio-connection-selection.png)
 
@@ -339,13 +339,18 @@ Old:
     >Your Workfront administrator can map Workfront Planning fields to Experience Manager Assets fields through the Metadata mapping in Workfront. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). 
 
 
-1. (Conditional) When you select to connect to Experience Manager, to a Workfront Planning record type, or to a GenStudio Brand, choose one of the following options in the **Record appearance** area:
+1. (Optional) Choose one of the following options in the **Record appearance** area:
 
     * **Name and image**: Both the name and the thumbnail or icon of the connected records will display in the connected record field. This is the default option. 
     * **Name**: Only the name of the connected records will display in the connected record field.
     * **Image**: Only the thumbnail or icon of the connected records will display in the connected record field.
+    <div class="preview">
+    
+    * **Color and name**: When you connect Planning records, the color of each connected record displays as in a circle to the left of the record name. This is not available when you connect record types with object types from other applications.
+    
+    </div>
 
-    Records without a thumbnail image display the record type icon instead. An example of how the connected records will display shows in the **Record appearance** area. 
+    Records without a thumbnail image display the record type icon instead. 
 
     >[!NOTE]
     >
@@ -353,9 +358,9 @@ Old:
     >
     >* The name of a record is the primary field of the record. For more information, see [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md). 
     >
-    >* Selecting a record appearance is not available when selecting Workfront object types. 
+    >* Selecting a record appearance is not available when selecting object types from Workfront. 
     >
-    >* What you select in the Record appearance area determines how the records display in connections everywhere in the system, including all the views and details pages. 
+    >* What you select in the **Record appearance** area determines how the records display in connections everywhere in the system, including all the views and details pages. 
 
 1. Select the **Select lookup fields** to add fields from the  record type you are connecting to. The lookup fields are fields associated with the record or object type that you are linking to. Linking them displays information from the record or object you're linking to on the record you are linking from. This is selected by default.
 

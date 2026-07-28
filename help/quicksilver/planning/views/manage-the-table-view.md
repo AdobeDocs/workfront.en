@@ -27,11 +27,10 @@ topic_v2:
 ---
 # Manage the table view
 
-<!--
+
 <span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 
 {{planning-important-intro}}
@@ -308,19 +307,31 @@ You can have up to 50,000 records (or rows) for a record type.
 
     A default thumbnail image is also added to the new record.
 
+1. (Optional) Select one or multiple records or rows, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
+
+    >[!NOTE]
+    >
+    >You cannot reorder rows if you apply at least one sort or grouping to the table view. 
+    >
+    >The changes you make to the row order are visible to all users who access the record type in the same view. 
+
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to edit the thumbnail. 
 1. Click **Fields** at the top of the table, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
     
     For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-<!--
-For July 23: you might need to add some spacing below:
 1. <span class="preview">(Optional) Click **Fields** at the top of the table, then click **Color** to display the color of a record to the left of its primary field. Colors are assigned randomly by default for each new record. The **Color** setting is deselected by default.</span>
+
 1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
-    <span class="preview">
+
+    <div class="preview">
+
     ![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
-    </span>
--->
+
+    For more information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
+    </div>
+
 
 ### Add filters {#add-filters-1}
 
