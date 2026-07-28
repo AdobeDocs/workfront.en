@@ -39,8 +39,6 @@ topic_v2:
 ---
 # Configure system preferences
 
-{{preview-fast-release-general}}
-
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
