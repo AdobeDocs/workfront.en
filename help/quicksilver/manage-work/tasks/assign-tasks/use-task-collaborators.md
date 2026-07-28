@@ -1,16 +1,18 @@
 ---
-title: Use task collaborators
+title: Use Task Collaborators
 content-type: reference
 description: Learn how to use Task Collaborators, AI Collaborators that can be assigned to Workfront tasks.
 author: Becky
 feature: Work Management, Tasks
 
 ---
-# Use task collaborators
+# Use Task Collaborators
+
+{{highlighted-preview-article-level}}
 
 Task Collaborators are AI Collaborators that can be assigned directly to Workfront tasks, in addition to the existing Reviewer-type AI Collaborator used for document and asset reviews. Like other AI Collaborators, Task Collaborators are configured in the Setup area and assigned to tasks just like a user.
 
-Task collaborators connect to agents that you have configured, much like an MCP server. 
+Task Collaborators connect to agents that you have configured, much like an MCP server. 
 
 For information and instructions about creating a Task Collaborator in Workfront, see [Configure a Task Collaborator](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) in the article Configure AI Collaborators.
 
@@ -45,9 +47,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 * You must configure an agent in Copilot, Claude, or Writer.ai before you can use it as a Task Collaborator.
 
-## Task collaborator overview
+## Task Collaborator overview
 
-Task collaborators are a way to assign MCP agents to specific tasks in Workfront. You configure the agent in an app such as Copilot Studio, Claude, or Writer.ai, then connect that agent to Workfront as a Task Collaborator. You can then assign it to tasks as you would assign a user. 
+Task Collaborators are a way to assign MCP agents to specific tasks in Workfront. You configure the agent in an app such as Copilot Studio, Claude, or Writer.ai, then connect that agent to Workfront as a Task Collaborator. You can then assign it to tasks as you would assign a user. 
 
 Some example workflows may include:
 
@@ -63,6 +65,6 @@ Some example workflows may include:
 
 ## Assign a Task Collaborator to a task
 
-Task collaborators are assigned to tasks the same way users are assigned.
+Task Collaborators are assigned to tasks the same way users are assigned.
 
 For instructions, see [Assign tasks](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).

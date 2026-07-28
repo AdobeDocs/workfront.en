@@ -27,7 +27,7 @@ Available AI Collaborator types include:
 
 * Task Collaborator: Create a collaborator using Copilot or Writer.ai, then assign the collaborator to a task to complete task-level work.
 
-   For more information, see [Use task collaborators](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+   For more information, see [Use Task Collaborators](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
 
 ## Access requirements
@@ -91,9 +91,9 @@ Reviewer AI Collaborators can be configured to use Workfront brands, or Adobe Br
 
 ## Configure a Task Collaborator
 
-Task collaborators are MCP agents that you can assign to tasks in Workfront. You configure the task collaborator with a name, access level, and other details, and assign it as you would assign a user. 
+Task Collaborators are MCP agents that you can assign to tasks in Workfront. You configure the Task Collaborator with a name, access level, and other details, and assign it as you would assign a user. 
 
-Because task collaborators are MCP agents, their actions and abilities are configured where you configure your agents. Currently, agents used as task collaborators can be created in Copilot Studio, Claude, or Writer.ai.
+Because Task Collaborators are MCP agents, their actions and abilities are configured where you configure your agents. Currently, agents used as Task Collaborators can be created in Copilot Studio, Claude, or Writer.ai.
 
 {{step-1-to-setup}}
 
@@ -116,7 +116,7 @@ Because task collaborators are MCP agents, their actions and abilities are confi
 1. In the **After the Collaborator is finished with its work, it can** area, toggle on the actions that you want the collaborator to take.
 1. Click **Save**.
 
-For more information on task collaborators, including how to assign them to tasks, see [Use task collaborators](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+For more information on Task Collaborators, including how to assign them to tasks, see [Use Task Collaborators](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
 </div>
 
