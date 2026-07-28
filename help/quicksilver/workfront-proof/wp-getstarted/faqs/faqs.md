@@ -41,3 +41,4 @@ This section contains the following articles:
   -->
 
 * [Setting time zones in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)
+

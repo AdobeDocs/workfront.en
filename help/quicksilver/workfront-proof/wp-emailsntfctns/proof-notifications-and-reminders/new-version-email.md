@@ -39,3 +39,4 @@ New version emails are sent when you create a [!UICONTROL New version] of a proo
 >If the email notifications are disabled as a default in the [!UICONTROL Account settings], reviewers won't receive any [!UICONTROL New version] emails unless the [!UICONTROL Notify people by email] box is checked on the New version page.
 
 ![New_Version_Email.png](assets/new-version-email-350x212.png)
+

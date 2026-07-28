@@ -51,3 +51,4 @@ You can contact us at [!DNL support@proofhq.com] with your comments; all feedbac
 1. Enter your password to close your account. (6)
 
    ![Close_Account_-_password_pop-up.png](assets/close-account---password-pop-up-350x152.png)
+

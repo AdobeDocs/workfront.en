@@ -68,3 +68,4 @@ By creating Satellite accounts for your clients.
 |  Enhanced workflow for your client |  You can tailor the proofing process to meet the needs of the specific client  |
 |  Your client can upload proofs from the Satellite account and share these with you |  Your client can initiate their own proofs |
 |  Any proofs that have previously been shared with your client will automatically show in their account |  No need to re-share previous proofs  |
+

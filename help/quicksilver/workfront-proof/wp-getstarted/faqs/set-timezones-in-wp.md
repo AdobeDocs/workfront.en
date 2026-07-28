@@ -50,3 +50,4 @@ If you are an Account Administrators, you can set a default time zone for your o
 1. Click **[!UICONTROL Settings]** > **[!UICONTROL Personal settings]**, then open the **[!UICONTROL Settings]** tab.
 
 1. Under **[!UICONTROL Account details]**, click [!UICONTROL Edit] to the right of **[!UICONTROL Time zone default]** and make the change.
+
