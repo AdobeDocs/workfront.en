@@ -70,10 +70,8 @@ To connect Workfront to [!DNL Claude]:
 1. Find **[!DNL Adobe Workfront]** in the connector list.
 
    If you don't see it, see [Admin prerequisites](#admin-prerequisites) in this article.
-1. Click the plus icon at the top of the list of connectors.
-1. In the window that opens, search for **Workfront**, then click it when it appears.
 1. Click **Connect**.
-1. When prompted, log in to your Workfront instance.
+1. When prompted, log in to your Workfront instance. You may need to select a profile and a Workfront instance. The profile you select determines which workspace is connected.
 
    After authentication completes, the Workfront MCP server is connected.
 
@@ -106,7 +104,7 @@ To connect Workfront to [!DNL Claude] with a URL:
 1. Click **Connect**.
    A Workfront login window appears.
 1. Authenticate using your Adobe ID credentials. 
-   Ensure that you select the desired Workfront instance if you belong to more than one.
+   You may need to select a profile and a Workfront instance. The profile you select determines which workspace is connected.
 
 +++
 
@@ -141,7 +139,8 @@ The procedure to connect the Woorkfront MCP server with ChatGPT differs based on
 
 1. Click **Save**.
 1. In the list that appears, click **Authenticate** for the MCP server that you are adding.
-1. Log in to WOrkfront.
+1. Log in to Workfront.
+   You may need to select a profile and a Workfront instance. The profile you select determines which workspace is connected.
 1. In ChatGPT, in the MCP server list, ensure that the toggle to the right of the new MCP server remains toggled on.
 
 +++
@@ -165,7 +164,7 @@ The procedure to connect the Woorkfront MCP server with ChatGPT differs based on
 1. Ensure that Authentication is set to **OAuth** (set by default).
 1. Read the risk message and check the box to show that you have read it.
 1. Click **Create**.
-1. After the app is created, a Workfront login window appears. Authenticate using your Adobe ID credentials. Ensure that you select the desired Workfront instance if you belong to more than one.
+1. After the app is created, a Workfront login window appears. Authenticate using your Adobe ID credentials. You may need to select a profile and a Workfront instance. The profile you select determines which workspace is connected.
 
 +++
 
