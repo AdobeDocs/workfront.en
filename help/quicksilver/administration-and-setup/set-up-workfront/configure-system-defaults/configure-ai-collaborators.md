@@ -11,15 +11,9 @@ exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
 ---
 # Configure AI Collaborators
 
-<!--
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
--->
-
->[!IMPORTANT]
->
->Currently, Content Reviewer is the only available AI Collaborator type. More AI Collaborator capabilities will be available in the future.
 
 AI Collaborators are a way to onboard AI agents into your projects and tasks. You can configure an AI Collaborator, then assign it as you would a user.
 
@@ -30,6 +24,10 @@ Available AI Collaborator types include:
 * Reviewer: Create a collaborator using brands or Adobe Brand Intelligence, then assign the collaborator as a reviewer on assets.
 
    For more information, see [Get started with the Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+
+* Task Collaborator: Create a collaborator using Copilot or Writer.ai, then assign the collaborator to a task to complete task-level work.
+
+   For more information, see [Use task collaborators](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
 
 ## Access requirements
@@ -84,15 +82,43 @@ Reviewer AI Collaborators can be configured to use Workfront brands, or Adobe Br
 1. In the left navigation, click **AI Collaborators**.
 1. Click **New Collaborator** in the upper-right corner of the screen.
 1. Click **Reviewer**, then click **Continue**.
-
-   >[!NOTE]
-   >
-   >Currently, only the Reviewer type is available. More AI Collaborator types will be available in the future.
-
 1. In the Collaborator Name field, enter a name for the collaborator. This is the name that appears in the list of available assignees on a task.
-1. <span class="preview">Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.</span>
+1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.
 1. (Conditional) If the AI Collaborator will use a Brand, select the brand and brand guideline that it will use.
 1. Click **Save**.
+
+<div class="preview">
+
+## Configure a Task Collaborator
+
+Task collaborators are MCP agents that you can assign to tasks in Workfront. You configure the task collaborator with a name, access level, and other details, and assign it as you would assign a user. 
+
+Because task collaborators are MCP agents, their actions and abilities are configured where you configure your agents. Currently, agents used as task collaborators can be created in Copilot Studio, Claude, or Writer.ai.
+
+{{step-1-to-setup}}
+
+1. In the left navigation, click **AI Collaborators**.
+1. Click **New Collaborator** in the upper-right corner of the screen.
+1. Select **Task agents**, then click **Continue**.
+1. In the AI Collaborator Name field, enter a name for the collaborator. This is the name that appears in the list of available assignees on a task.
+1. In the AI Collaborator description field, enter a description of the collaborator's purpose or the actions it performs.
+1. In the Access Level field, select an access level for this collaborator. This access level controls what the collaborator can do, in the same way an access level controls what a user can do.
+1. In the **Choose agent's origin** area, select whether you want to connect an agent created in an common platform such as Copilot or Writer.ai, or use a custom agent.
+1. (Conditional) If you are using an agent from a common platform, enter authentication details for the agent's platform:
+
+   |Platform|Required authentication|
+   |---|---|
+   |Copilot Studio|Web channel secret|
+   |Claude Managed Agents|Anthropic API key<br>Agent ID<br>Environment ID|
+   |Writer.ai|API key<br>Application ID|
+
+1. (Optional) To test whether the credentials were set up correctly, click **Test connection**.
+1. In the **After the Collaborator is finished with its work, it can** area, toggle on the actions that you want the collaborator to take.
+1. Click **Save**.
+
+For more information on task collaborators, including how to assign them to tasks, see [Use task collaborators](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+
+</div>
 
 ## Manage AI Collaborators
 
