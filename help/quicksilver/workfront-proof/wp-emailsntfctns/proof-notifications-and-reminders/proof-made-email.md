@@ -64,3 +64,4 @@ If you don't want this link to appear on your recipient's email, you should disa
 
 1. See [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) for more detailed instructions.
 1. If the email notifications are disabled as a default in the [!UICONTROL Account settings], the Creator or Owner of the proof won't receive any [!UICONTROL Proof Made] or [!UICONTROL New Proof] emails, even if this is enabled in their Personal settings and the [!UICONTROL Notify people by email] box is checked on the [!UICONTROL New proof] page. 
+

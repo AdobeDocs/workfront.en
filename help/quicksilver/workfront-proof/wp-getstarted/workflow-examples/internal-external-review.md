@@ -68,3 +68,4 @@ This option illustrates a workflow where the proofing process is managed by the 
 1. **New version** (if required) - the designer amends the file and uploads it to [!DNL Workfront Proof] as a new version. For more information, see .
 
 You can repeat this process until the proof is approved.
+
