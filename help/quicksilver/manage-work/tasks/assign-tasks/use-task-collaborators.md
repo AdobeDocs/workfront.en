@@ -61,6 +61,7 @@ Some example workflows may include:
 >
 >* Specific details about an agent's responsibilities and abilities are configured in the application where the agent is created, not in Workfront. 
 >* Task Collaborators currently support agents created in Copilot Studio, Claude, and Writer.ai.
+>* When configuring an agent in Copilot Studio, you must set security to **No authentication**.
 >* For information and instructions about creating a Task Collaborator in Workfront, see [Configure a Task Collaborator](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) in the article Configure AI Collaborators.
 
 ## Assign a Task Collaborator to a task
