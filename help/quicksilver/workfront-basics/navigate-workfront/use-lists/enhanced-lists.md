@@ -229,7 +229,11 @@ To change the row height in a view:
 
 To change the order of rows:
 
-1. Drag and drop rows into your preferred order. (Not all lists allow dragging and dropping rows.)
+1. Drag and drop rows into your preferred order.
+
+   >[!NOTE]
+   >
+   >If you have a sort applied, you cannot change the row order manually.
 
 ## Update enhanced list elements
 
