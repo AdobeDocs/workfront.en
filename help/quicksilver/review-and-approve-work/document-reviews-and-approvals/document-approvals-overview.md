@@ -365,7 +365,7 @@ Yes. Assets can be shared externally. External users are notified via email and 
 
 **Can I attach images to comments on a document in Workfront?**
 
-If your organization uses Adobe cloud storage as part of Unified review and approval, you can attach image files directly to comments on a document. Attached images are stored in Adobe cloud storage, and all standard image file formats are supported.
+If your organization uses Adobe cloud storage as part of Unified review and approval, you can attach image files directly to comments on a document. Attached images are stored in Adobe cloud storage, and all media type image file formats are supported.
 
 These comments are Workfront-native and are separate from comments in the Frame.io viewer. Images attached to a comment are not accessible in Frame.io, and attaching an image does not add markup to the asset or route it for approval. Non-image file types cannot be attached to a comment.
 
