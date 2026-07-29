@@ -92,7 +92,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Layout template support for views on enhanced lists</a>
-                <p>Views for enhanced lists are now supported at the system level via a layout template, letting you hide system views, set a default view, and add custom views.</p>
+                <p>Views for enhanced lists are now supported at the system level via a layout template.</p>
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
@@ -260,7 +260,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">Enhanced list updates</a>
-                <p>You can now drag and drop columns in the Column manager's Selected section to place them in order, and the experience of dragging and dropping rows has been improved visually.</p>
+                <p>Multiple updates have been made to enhanced lists for the Column manager and the row drag-and-drop experience.</p>
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>

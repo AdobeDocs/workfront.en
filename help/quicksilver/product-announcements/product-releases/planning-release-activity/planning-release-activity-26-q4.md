@@ -25,6 +25,8 @@ The experience of dragging and dropping rows in the table view has been improved
 
 For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
 
+<!--
+
 ## Dependent connected record fields
 
 >[!NOTE]
@@ -44,6 +46,8 @@ The following features are included with this update:
 
 For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
+-->
+
 ## Show new comment indicator for a record in the table view
 
 >[!NOTE]
@@ -52,7 +56,7 @@ For information, see [Manage dependent connections](/help/quicksilver/planning/a
 >Production fast release: August 13, 2026
 >Production for everyone: October 15, 2026
 
-We have added a new indicator that there are unread comments on a record to the record's primary field in the table view.
+We have added a new indicator that shows when there are unread comments on a record. The indicator displays in the upper-right corner of the record's primary field in the table view.
 
 For more information, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md).
 
