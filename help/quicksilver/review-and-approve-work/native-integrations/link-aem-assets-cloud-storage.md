@@ -95,10 +95,12 @@ To link content:
          <td><strong>Apply Dynamic Media modifiers to renditions.</strong> Add modifiers to transform asset renditions in real time and preview the results before selecting a rendition for your host application.</td>
          <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Dynamic Media asset renditions available for use</a>.</td>
       </tr>
+      <!--
       <tr>
          <td><strong>Discover and browse Content Fragments.</strong> Search through Content Fragments, view live thumbnail previews, check status (Draft, Modified, or Published), and inspect detailed properties, references, and variations.</td>
          <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
       </tr>
+      -->
       <tr>
          <td><strong>Access asset metadata.</strong> Review asset properties such as title, description, format, size, and other metadata tabs (Product, Campaign, Tags) consistent with the Assets view.</td>
          <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Access asset metadata consistent with Assets view</a>.</td>
