@@ -15,9 +15,9 @@ For a list of all changes available at this point in the Fourth Quarter 2026 rel
 
 >[!NOTE]
 >
->Preview: July 24, 2026
->Production fast release: July 24, 2026
->Production for everyone: July 24, 2026
+>Preview: July 30, 2026
+>Production fast release: July 30, 2026
+>Production for everyone: July 30, 2026
 >[!BADGE Off schedule]{type=Neutral}
 
 On the Workload Balancer bulk assignment dialog, the **Replace** action has been renamed **Assign** to better describe what the action does. No functionality has changed.
