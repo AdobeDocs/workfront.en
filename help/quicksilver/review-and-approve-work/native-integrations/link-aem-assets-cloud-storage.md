@@ -143,8 +143,8 @@ Permissions to view individual assets inside of a folder rely on Experience Mana
 
 To link a folder:
 
-1. <!-- Placeholder: Add steps for navigating to the AEM asset picker from the documents area in the Adobe cloud storage context. -->
-
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
 1. Click **Assets** > **Files & Folders**.
 1. Click the **Filter** icon, then in the **Asset Type** section, choose **Folders**.
 1. Select the folder you want to link.
@@ -152,4 +152,5 @@ To link a folder:
 
 ## Considerations
 
+* Review and approval workflows are not supported for linked assets. If you need to use a review and approval workflow, you must first download the asset from Experience Manager Assets and then upload it to Workfront.
 * Metadata fields are first mapped when you send an asset from Workfront to Experience Manager Assets. If your Workfront administrator has enabled object metadata sync, fields remain up to date if they are changed in either application.
