@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 ---
 # Coworker overview
 
-Coworker Chat is a conversational interface for getting customer experience work done. You describe a goal in plain language, such as "build an audience for the spring yoga promotion," or "tell me why this audience shrank last week," and Coworker plans the work, executes it across your Adobe and connected systems, validates the results, and brings the finished work back to you for approval.
+Coworker Chat is a conversational interface for getting work done. You describe a goal in plain language, and Coworker plans the work, executes it across your Adobe and connected systems, validates the results, and brings the finished work back to you for approval.
 
 Coworker is replacing the current AI Assistant as a more powerful way to get work done. 
 
