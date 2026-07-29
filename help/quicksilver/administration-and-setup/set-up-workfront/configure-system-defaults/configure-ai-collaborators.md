@@ -25,7 +25,7 @@ Available AI Collaborator types include:
 
    For more information, see [Get started with the Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Task Collaborator: Create a collaborator using Copilot or Writer.ai, then assign the collaborator to a task to complete task-level work.
+* Task Collaborator: Create a collaborator using Copilot or Writer, then assign the collaborator to a task to complete task-level work.
 
    For more information, see [Use Task Collaborators](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
@@ -93,7 +93,11 @@ Reviewer AI Collaborators can be configured to use Workfront brands, or Adobe Br
 
 Task Collaborators are MCP agents that you can assign to tasks in Workfront. You configure the Task Collaborator with a name, access level, and other details, and assign it as you would assign a user. 
 
-Because Task Collaborators are MCP agents, their actions and abilities are configured where you configure your agents. Currently, agents used as Task Collaborators can be created in Copilot Studio, Claude, or Writer.ai.
+Because Task Collaborators are MCP agents, their actions and abilities are configured where you configure your agents. Currently, agents used as Task Collaborators can be created in Copilot Studio, Claude, or Writer.
+
+For a list of best practices when creating an agent to work as a Task Collaborator, see []().
+
+### Configure a task collaborator in Workfront
 
 {{step-1-to-setup}}
 
@@ -103,14 +107,14 @@ Because Task Collaborators are MCP agents, their actions and abilities are confi
 1. In the AI Collaborator Name field, enter a name for the collaborator. This is the name that appears in the list of available assignees on a task.
 1. In the AI Collaborator description field, enter a description of the collaborator's purpose or the actions it performs.
 1. In the Access Level field, select an access level for this collaborator. This access level controls what the collaborator can do, in the same way an access level controls what a user can do.
-1. In the **Choose agent's origin** area, select whether you want to connect an agent created in an common platform such as Copilot or Writer.ai, or use a custom agent.
+1. In the **Choose agent's origin** area, select whether you want to connect an agent created in an common platform such as Copilot or Writer, or use a custom agent.
 1. (Conditional) If you are using an agent from a common platform, enter authentication details for the agent's platform:
 
    |Platform|Required authentication|
    |---|---|
    |Copilot Studio|Web channel secret|
    |Claude Managed Agents|Anthropic API key<br>Agent ID<br>Environment ID|
-   |Writer.ai|API key<br>Application ID|
+   |Writer|API key<br>Application ID|
 
 1. (Optional) To test whether the credentials were set up correctly, click **Test connection**.
 1. In the **After the Collaborator is finished with its work, it can** area, toggle on the actions that you want the collaborator to take.
@@ -119,6 +123,42 @@ Because Task Collaborators are MCP agents, their actions and abilities are confi
 For more information on Task Collaborators, including how to assign them to tasks, see [Use Task Collaborators](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
 </div>
+
+### Best practices for creating an agent for a Task Collaborator
+
+You may find the following best practices helpful when creating an agent to use as a Task Collaborator in Workfront. To see best practices, click the section for the application where you are creating the agent.
+
++++ Claude
+
+
+
++++
+
++++ Copilot Studio
+
+
+
++++
+
++++ Writer
+
+When creating an agent for use as a Task Collaborator in Writer, we recommend the following workflow.
+
+More detailed information about creating agents can be found in the [Writer documentation](https://dev.writer.com/no-code/introduction).
+
+1. Create a no-code app in Writer AI Studio. 
+1. Add a single Text input field. You can use the default name "Text input."
+1. Add `@TextInput` to your Prompt. In the Prompts section of your app configuration, make sure your prompt template references the input variable. Without this, the model never sees the task data.
+1. Adjust your Prompt to generate output immediately. Remove any instructions that ask the user for clarification or additional context before responding. For example: "When you receive input, treat it as a content generation request and produce the output immediately. Do not ask for clarification."
+1. Copy your API key and Application ID. You will need both to configure the Task Collaborator in Workfront.
+
+   * For instructions on setting up an API key in Writer, see [Quickstart](https://dev.writer.com/home/quickstart) in the Writer documentation.
+   * For instructions on setting up an application ID in Writer, see [Invoke no-code agents via the API](https://dev.writer.com/home/applications) in the Writer documentation.
+ 
+1. Configure the Task Collaborator in Workfront. As part of the configuration, enter your API key and Application ID, then click **Test connection** to verify.
+1. Assign the Task Collaborator to a Workfront task. The Collaborator begins work when all of the task's predecessor tasks are complete.
+
++++
 
 ## Manage AI Collaborators
 
