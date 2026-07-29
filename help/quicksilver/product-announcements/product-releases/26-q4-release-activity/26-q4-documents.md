@@ -37,4 +37,4 @@ If your organization uses Adobe cloud storage, you can link individual assets or
 
 Linking is powered by Content Advisor, so you also get AI Search, smart suggestions, campaign brief analysis and more while selecting content.
 
-<!--TBD: link to help article missing-->
+For more information, see [Link content and folders from Experience Manager Assets with Adobe cloud storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).

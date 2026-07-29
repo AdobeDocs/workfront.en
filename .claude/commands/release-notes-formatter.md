@@ -18,6 +18,16 @@ Identify the page type from file path and content:
 | **Planning** | `planning-release-activity-{YY}-q{N}.md` | Similar to product area |
 | **Look and Feel** | `look-and-feel-updates-{YY}-q{N}.md` | See .claude/commands/_release-notes-formatter-reference.md#look-and-feel-page-template |
 
+## Step 0: Determine the Quarter (do this before anything else)
+
+>[!IMPORTANT]
+>
+>Never assign a feature to a doc-quarter using calendar-quarter math on its Preview or Production date. Doc-quarter is based on which **monthly release** the feature ships in, per Workfront's internal release-calendar grouping, which is offset from the calendar quarter — see the [2026 Release Calendar](#2026-release-calendar) table near the end of this file. For example, a feature with a Production date of August 13, 2026 belongs in doc-quarter `26-q4`, not `26-q3`, because the August monthly release maps to `26-q4`.
+>
+>The "Quarter Mapping" table further down (Written Form / Months) is for writing out quarter names in titles (e.g., "Third Quarter" for Q3) — it is **not** sufficient on its own for deciding which quarter's files a feature belongs in. Always cross-check against the Release Calendar table before creating or editing any file.
+>
+>If a feature's Production date doesn't appear in the Release Calendar table (e.g., it's beyond the table's date range), ask the user for an updated calendar rather than guessing.
+
 ## Formatting Workflow
 
 ### Step 1: Validate Frontmatter
@@ -169,6 +179,10 @@ Common mistakes to avoid:
 Standard area slugs: `admin-and-setup`, `documents`, `projects`, `reports`, `requests`, `other`
 
 ## Quarter Mapping
+
+>[!NOTE]
+>
+>This table is for writing out quarter names (e.g., in an H1 or title). It does NOT determine which quarter's files a feature belongs in — use the [2026 Release Calendar](#2026-release-calendar) table below for that, since doc-quarter is offset from calendar-quarter.
 
 | Quarter | Written Form | Months |
 |---------|-------------|--------|
