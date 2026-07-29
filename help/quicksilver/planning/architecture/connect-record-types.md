@@ -92,14 +92,19 @@ For an example of connecting record types and records, see [Example of connectin
    <td> 
 <p>To connect record types from the same workspace: </p>
 <ul> 
-<li><p>Any Workfront and any Planning package</p></li>
-<li><p>Any Workflow and any Planning package</li></ul>
+<li><p>Any Workfront or Workflow package with any Planning package</p></li>
+<p>Or</p>
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+</ul>
 
 <p>To connect record types from different workspaces:</p>
 
 <ul> 
-<li><p>Any Workfront and any Planning package</p></li>
-<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
+
+<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li>
+<p>Or</p>
+<li><p>Any Planning Prime or Ultimate package when purchased as a standalone product</p></li>
+</ul>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
 <tr> 
@@ -210,7 +215,7 @@ Old:
 1. Click the card of a record type to open the record type page. 
 1. Click the **+** icon in the upper-right corner of the table view, then click the **New connection** tab.
 
-    ![New conneection tab with Workfront, AEM and GenStudio Brands](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
+    ![New connection tab with Workfront, AEM and GenStudio Brands](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
 
     <!--
     Old shot:
@@ -301,7 +306,15 @@ Old:
     * **Multi-select**: Select this to allow one record from the current record type to connect with multiple records from the connection record type.
     * **Single-select**: Select this to allow one record from the current record type to connect with one record from the connection record type.
 
-1. Select the **Create corresponding field on linked record type**. When selected, a connection field is created on the record type you are connecting to, in addition to the connection field added to the current record type. This is disabled by default.
+1. Select the **Create corresponding field on linked record type** in the **Connection type** section <!--<span class="preview">, when connecting all object types but not Planning record types</span>-->.
+
+    <!--
+    >[!TIP]
+    >
+    ><span class="preview">The **Connection type** section has been replaced by the **Connection settings** section when connecting Planning record types. </span>
+    -->
+
+    When selected, a connection field is created on the record type you are connecting to, in addition to the connection field added to the current record type. This is disabled by default.
 
     >[!TIP]
     >
@@ -313,7 +326,7 @@ Old:
     >   * There is no field created for Workfront objects connected to Planning records. 
     >   * There is no field created for a Planning record type when it's connected to a record type from the GenStudio workspace. 
 
-1. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
+1. (Conditional) If you enabled **Create corresponding field on linked record type** in the **Connection type** section, choose from the following options to indicate how many records users can connect to and from:
 
     * Many to many
     * One to many
