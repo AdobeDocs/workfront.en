@@ -43,11 +43,9 @@ The following features are included with this update:
 * We added the new Connection settings section in the New connection tab, when connecting record types
 * We added a Make this connection dependent setting in the new section
 
-<!--
 
 For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
--->
 
 
 
