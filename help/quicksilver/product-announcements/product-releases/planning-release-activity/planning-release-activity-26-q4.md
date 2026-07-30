@@ -25,7 +25,6 @@ The experience of dragging and dropping rows in the table view has been improved
 
 For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-<!--
 
 ## Dependent connected record fields
 
@@ -46,7 +45,6 @@ The following features are included with this update:
 
 For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
--->
 
 ## Show new comment indicator for a record in the table view
 
