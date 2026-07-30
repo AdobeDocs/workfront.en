@@ -10,12 +10,15 @@ role: Admin
 ---
 # View and manage change history
 
+{{preview-fast-release-general}}
+
 You can view change history, including audit logs, in the Change Tracking area of Setup.
 
 * **Audit Logs** are changes triggered by users. 
-   For more information on Audit Logs and the Audit Logs area, see [Audit Logs overview](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+   For more information on Audit Logs and the Audit Logs area, see [Audit Logs overview](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md) and [View and export audit logs](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
 * **Configuration** displays which field are being tracked for the Change History List. 
-   Configuration is currently available only as information and cannot be changed. The ability to change which fields are tracked will be available in the near future.
+   <span class="preview">As a Workfront administrator, you can configure which object fields and actions Workfront tracks. For example, you could have Workfront track all changes users make to the names of issues throughout the system. Any issue name change then appears as an entry on the change history log.</span>
+
 * **Change History List** allows you to view a log of changes to Workfront objects, including attributes such as:
 
    * Object
@@ -43,7 +46,9 @@ You can view change history, including audit logs, in the Change Tracking area o
   </tr> 
   <tr> 
    <td>Access level configurations</td> 
-   <td>System administrator</td> 
+   <td><p>System administrator</p>
+       <p><span class="preview">To view change history: Administrative access to change history</span></p>
+       <p><span class="preview">To configure tracked fields: System administrator</span></p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,22 +57,55 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## View and manage Audit Logs
+<div class="preview">
 
-To view and manage audit logs, see [View and export audit logs](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
+## Add fields you want to track
+
+{{step-1-to-setup}}
+
+1. In the left panel, click **Change Tracking > Configuration**.
+1. On the Configuration screen, click **Add field**.
+1. In the **Add fields** box, select an object. You can begin typing the object name, then select it when it appears in the list.
+1. Next, select the field names that you want to track for that object. You can being typing the field name, then select it when it appears in the list.
+
+   Both custom fields and native fields are available for the object.
+   Fields already being tracked are shown as selected in the list.
+   
+   ![Add fields for change tracking](assets/change-history-config-add-fields.png)
+
+1. After selecting all of the fields you want to track, click **Add**.
+   
+   The fields are added to the Tracked Fields list.
+
+## Remove fields you no longer want tracked
+
+You can remove fields you don't want the system to track for a particular type of object throughout the Workfront interface.
+
+{{step-1-to-setup}}
+
+1. In the left panel, click **Change Tracking > Configuration**.
+1. On the Configuration screen, select the field or fields you want to stop tracking.
+
+   You might see the same field name more than once. The fields are grouped by object so you can locate the correct field. You can also use the search box at the top of the screen.
+
+1. Select **Delete** in the action bar at the bottom of the screen.
+1. Click **Remove** on the confirmation message.
+
+   The fields are removed from the Tracked Fields list.
+
+</div>
 
 ## View the Configuration area for change tracking
 
 >[!NOTE]
 >
->Configuration is currently available only as information and cannot be changed. The ability to change which fields are tracked will be available in the near future.
+>In the Production environment, Configuration is currently available only as information and cannot be changed. The ability to change which fields are tracked will be available in the near future.
 
 To view the types of changes that are tracked: 
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Change Tracking** ![Change history icon](assets/change-history-icon.png).
-1. Click **Configuration**.
+1. In the left panel, click **Change Tracking > **Configuration**.
    
    Fields are displayed grouped by object type.
 
@@ -81,8 +119,7 @@ The Change History List is an enhanced list, and features filters, columns, row 
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Change Tracking** ![Change history icon](assets/change-history-icon.png).
-1. Click **Change History List**.
+1. In the left panel, click **Change Tracking > Change History List**.
 
    The Change History List opens.
 
