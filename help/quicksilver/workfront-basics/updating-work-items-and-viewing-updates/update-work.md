@@ -452,7 +452,6 @@ You can enhance your comments by using Rich Text, or adding various items to it,
    
    >[!IMPORTANT]
    >
-   >
    >* You cannot add images to goals or ad-hoc cards on boards.
    >
    >* Your Workfront administrator must enable adding images in the Update Feeds Preferences section of the Workfront Interface area before you can see the Image or the Add attachment icons. For information, see [Configure preferences for user updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md). 
@@ -463,6 +462,8 @@ You can enhance your comments by using Rich Text, or adding various items to it,
    >* You can send an update with an image and no text.
    >* When you delete a comment that contains an image, the image is removed from the Updates section as well as from the Documents area. The image is also deleted from the Documents area when you edit a comment and delete the image.
    >* When someone deletes an image attached to a comment from the Documents area, it is also removed from the comment.
+   >* If your organization uses Adobe cloud storage as part of Unified review and approval, your Workfront administrator can enable the same preference to let you attach images to comments. All standard image formats are supported, and attached images are stored in Adobe cloud storage.
+   >* Images attached to comments on objects using Adobe cloud storage are not accessible in the Frame.io viewer.
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
 

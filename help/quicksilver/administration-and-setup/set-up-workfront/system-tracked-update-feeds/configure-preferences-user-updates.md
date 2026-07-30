@@ -94,13 +94,13 @@ By default, users cannot add images in updates. When you enable this preference,
 >
 >* Images saved in updates count toward the document storage limit. For information, see [Check document storage limits](../../../documents/managing-documents/check-document-storage.md).
 >* Images are accessible through the [!UICONTROL Updates] tab on an object and are also available in the [!UICONTROL Documents] area under the [!UICONTROL Main Menu].
->
+>* This preference also governs whether users can attach images to comments on objects using Adobe cloud storage. Attached images are stored in Adobe cloud storage.
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![Gear settings icon](assets/gear-icon-settings.png).
 1. In the left panel, select **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]**.
 1. Select the **[!UICONTROL Preferences]** tab.
 
-   ![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)
+<!--![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)-->
 
 1. Select the **[!UICONTROL Allow users to add images in updates]** check box.
 1. Select **[!UICONTROL Save]**.

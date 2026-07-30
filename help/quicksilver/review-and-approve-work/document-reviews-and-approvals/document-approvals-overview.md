@@ -359,6 +359,14 @@ For a full list of supported file types, see the Frame.io supported file types d
 
 Yes. Assets can be shared externally. External users are notified via email and will be prompted to create a Frame.io login to access the viewer and participate in the review.
 
+**Can I attach images to comments on a document in Workfront?**
+
+If your organization uses Adobe cloud storage as part of Unified review and approval, you can attach image files directly to comments on a document. Attached images are stored in Adobe cloud storage, and all media type image file formats are supported.
+
+These comments are Workfront-native and are separate from comments in the Frame.io viewer. Images attached to a comment are not accessible in Frame.io, and attaching an image does not add markup to the asset or route it for approval. Non-image file types cannot be attached to a comment.
+
+For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
 <!--
 **Before unified review and approval, is a reviewer just directed to a proof?**
 
