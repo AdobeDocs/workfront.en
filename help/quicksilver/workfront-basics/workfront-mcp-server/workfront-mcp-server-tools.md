@@ -10,6 +10,8 @@ feature: Get Started with Workfront
 
 # Adobe Workfront MCP server tools
 
+{{preview-fast-release-general}}
+
 This article lists the tools that the [!DNL Adobe Workfront] MCP server exposes to a connected AI agentic platform. The platform calls these tools on your behalf when you ask it to find, create, update, or delete Workfront items.
 
 For information about how to use these tools through an AI agentic platform, see [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md). For information about how to set up the connection, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
@@ -61,10 +63,15 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
-| Get approval workflow info | `approvals_get_approval_info` | Returns the current approval workflow (stages, participants, status) for a document version. | Read |
-| Create or update approval workflow | `approvals_create_or_update_approval_workflow` | Creates or updates the approval workflow stages for a document version. Supports linear and parallel (graph) stage dependencies. | Write |
-| Create approval from template | `approvals_create_approval_from_template` | Creates an approval workflow on a document using an existing template. | Write |
+| Get approval workflow info | `approvals_get_approval_info` | Returns the current approval workflow (stages, participants, status) for a document version. <span class="preview">For approvals with multiple paths, it shows each path and its stages.</span> | Read |
+| Create or update approval workflow | `approvals_create_or_update_approval_workflow` | Creates or updates the approval workflow stages for a document version. <span class="preview">Supports a single track of stages or multiple parallel review paths.</span> | Write |
+| Create approval from template | `approvals_create_approval_from_template` | Creates an approval workflow on a document using an existing template, <span class="preview">including templates that define multiple parallel paths.</span> | Write |
 | Delete approval stage | `approvals_delete_approval_stage` | Deletes a single stage from an approval workflow by name or position. Only not-started stages can be deleted. | Write |
+| <span class="preview">Add path to approval</span> | <span class="preview">`approvals_add_path_to_approval`</span> | <span class="preview">Adds a new parallel review path to an existing approval workflow, so multiple review tracks run at the same time on a document version.</span> | <span class="preview">Write</span> |
+| <span class="preview">Remove path from approval</span> | <span class="preview">`approvals_remove_path_from_approval`</span> | <span class="preview">Removes a parallel path from an approval workflow. The first path can't be removed, and paths that contain completed or locked stages are protected.</span> | <span class="preview">Write</span> |
+| <span class="preview">Add stage to path</span> | <span class="preview">`approvals_add_stage_to_path`</span> | <span class="preview">Adds a review stage to the end of a specific path within a parallel approval workflow.</span> | <span class="preview">Write</span> |
+| <span class="preview">Remove stage from path</span> | <span class="preview">`approvals_remove_stage_from_path`</span> | <span class="preview">Removes a not-started stage from a specific path in a parallel approval workflow. Each path must keep at least one stage.</span> | <span class="preview">Write</span> |
+| <span class="preview">Reorder stages in path</span> | <span class="preview">`approvals_reorder_stages_in_path`</span> | <span class="preview">Changes the order of stages within a single path of a parallel approval workflow.</span> | <span class="preview">Write</span> |
 
 <!--
 | Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |

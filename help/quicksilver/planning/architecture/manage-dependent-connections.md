@@ -105,6 +105,12 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 
     You receive an inline or toast message explaining why the dependent field was cleared.
 
+* Each dependent field can have up to 3 direct controlling fields. 
+
+* Dependency levels are limited to 6 connections. This means that up to 7 record types can be connected. 
+
+* For the dependency chain to work, all dependent fields must exist on the same record type at the same time. 
+
 ## Create a dependent connection
 
 1. As a workspace manager, go to a record type in Workfront Planning and open it in the table view. 

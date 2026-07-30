@@ -26,6 +26,8 @@ topic_v2:
 ---
 # Use enhanced lists
 
+{{preview-fast-release-general}}
+
 Enhanced lists are available in some areas of Adobe Workfront. These lists use a table format for displaying the list items, and they have a different look and feel than the standard lists. The management of views is also enhanced, including filtering, grouping, managing columns, and searching.
 
 For information about the standard lists, see [Get started with lists in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
@@ -202,17 +204,20 @@ To add and remove columns:
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
+1. <span class="preview">(Optional) To reorder the columns, hover over a column name in the **Selected** section and click the **Drag** icon ![Drag icon](assets/drag-icon.png). Move the columns vertically to place them in order.</span>
 1. Click **Save**.
 
    ![Column manager](assets/glist-column-manager.png)
 
    The list updates the columns according to the choices you made.
 
-### Change the row height in a view
+## Customize rows
 
 >[!NOTE]
 >
 >Not all enhanced lists have all the elements described in this section.
+
+To change the row height in a view:
 
 1. Click the **Row height** icon ![Row height icon](assets/row-height-icon.png) in an enhanced list. 
 
@@ -221,6 +226,14 @@ To add and remove columns:
       * Standard. This is the default choice. 
       * Medium
       * Tall
+
+To change the order of rows:
+
+1. Drag and drop rows into your preferred order.
+
+   >[!NOTE]
+   >
+   >If you have a sort applied, you cannot change the row order manually.
 
 ## Update enhanced list elements
 
