@@ -41,7 +41,7 @@ The following areas are included in the default layout of a [!UICONTROL Light us
 * **[!UICONTROL Boards]**: Work with flexibility and collaboration with your team members using shared boards that contains columns and cards reflecting work you want to get done. For information, see [Get started with boards: article index](../../../agile/get-started-with-boards/get-started-with-boards.md).
 * **[!UICONTROL Priorities]**: You can manage and prioritize work quickly. For information, see [Get started with Priorities](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md).
 
-![Light user default Main Menu](assets/light-user-main-menu.png)
+![Light user default Main Menu](assets/light-user-main-menu-2026.png)
 
 ## Customize your default [!UICONTROL Main Menu]
 

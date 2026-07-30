@@ -27,7 +27,8 @@ To support your work, you can add, view, organize, manage, or approve documents 
 
 For information about working with documents, view the articles in the following subsections:
 
-* [Add new documents to Adobe Workfront](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md) 
-* [Manage documents](../documents/managing-documents/manage-documents.md) 
-* [Organize documents](../documents/organizing-documents/organize-documents.md) 
-* [Workfront and Experience Manager Assets Integrations](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [Add new documents to Adobe Workfront: article index](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md) 
+* [Manage documents: article index](../documents/managing-documents/manage-documents.md) 
+* [Organize documents: article index](../documents/organizing-documents/organize-documents.md) 
+* [Adobe Cloud Drive: article index](../documents/adobe-cloud-drive/adobe-cloud-drive.md)
+* [Workfront and Experience Manager Assets Integrations: article index](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)

@@ -146,3 +146,4 @@ If you change your plan to one with a lower user limit (1), users exceeding the 
 ![Billing_Downgrade_log.png](assets/billing-downgrade-log-350x45.png)
 
   ![Account_Activity_-_Deleted_users.png](assets/account-activity---deleted-users-350x94.png)
+

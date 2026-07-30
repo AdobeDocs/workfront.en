@@ -14,10 +14,6 @@ The [!DNL Adobe Workfront] MCP server lets you work with your Workfront data thr
 
 Before you can connect an AI agentic platform to Workfront, a Workfront administrator must enable MCP server access in your Workfront instance. The exact steps to connect an AI agentic platform are different for each supported AI agentic platform. 
 
->[!IMPORTANT]
->
->Currently, the Workfront MCP server is available only to customers using AWS. Customers that use GCP or Azure will be able to use this functionality in the near future.
-
 ## Supported AI agentic platforms
 
 The Workfront MCP server works with any AI agentic platform that supports the Model Context Protocol (MCP).
@@ -27,12 +23,11 @@ This article walks through the connection steps for:
 * [!DNL Claude]
 * [!DNL ChatGPT]
 
-If you use a different MCP-compatible AI agentic platform (for example, [!DNL Gemini] or [!DNL Microsoft Copilot]), follow the steps in that platform's documentation for adding a custom MCP server. When prompted for the MCP server URL, enter the URL for your region: 
+If you use a different MCP-compatible AI agentic platform (for example, [!DNL Gemini] or [!DNL Microsoft Copilot]), follow the steps in that platform's documentation for adding a custom MCP server. When prompted for the MCP server URL, enter:
 
-   | Region | URL |
-   | --- | --- |
-   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront
+```
 
 ## Prerequisites
 
@@ -59,36 +54,26 @@ MCP server access is gated by two separate administrators.
 
 You connect to Workfront once per [!DNL Claude] account. The connection authenticates you to a specific Workfront instance, and you stay connected until you choose to disconnect.
 
-
+* [Connect to Claude desktop from the connectors directory](#connect-to-claude-desktop-from-the-connectors-directory)
+* [Connect to Claude with a URL](#connect-to-claude-with-a-url)
+* [Customize Claude behavior with skills](#customize-claude-behavior-with-skills)
 
 ### Connect to Claude desktop from the connectors directory
-
->[!IMPORTANT]
->
->Currently, the Claude Connector only supports connecting to the Workfront MCP server in the US region.  To connect to a Workfront instance in the EU region, see [Connect to Claude desktop with a URL](#connect-to-claude-desktop-with-a-url) in this article.
 
 +++ Expand to view step-by-step instructions for connecting Workfront to [!DNL Claude].
 
 To connect Workfront to [!DNL Claude]:
 
 1. Open [!DNL Claude].
-
-1. Navigate to the connectors area.
-
-
-
+1. Click **Customize**.
+1. In the left navigation, click **Connectors**.
 1. Find **[!DNL Adobe Workfront]** in the connector list.
 
    If you don't see it, see [Admin prerequisites](#admin-prerequisites) in this article.
-
 1. Click **Connect**.
+1. When prompted, log in to your Workfront instance. You may need to select a profile and a Workfront instance. The profile you select determines which workspace is connected.
 
-
-
-1. When prompted, log in to your Workfront instance.
-
-
-1. After authentication completes, you're connected.
+   After authentication completes, the Workfront MCP server is connected.
 
 
 
@@ -108,24 +93,18 @@ To connect Workfront to [!DNL Claude] with a URL:
 
 1. Log in to [Claude](https://claude.ai) using your credentials.
 1. In the left menu, select the **Customize** icon.
-1. Select **Connectors**, then select the **+** icon to add a connector.
-1. Select the **Create app** button.
-1. Give the connector a desired name (such as "Workfront") and enter the desired MCP Server URL: 
+1. In the left navigation select **Connectors**.
+1. Select the **+** icon, then select **Add custom connector**.
+1. Give the connector a desired name (such as "Workfront") and enter the MCP Server URL: 
 
-   | Region | URL |
-   | --- | --- |
-   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
    
-1. After the connector is created, a login window pops up. Authenticate using your Adobe ID credentials. Ensure that you select the desired Workfront instance if you belong to more than one.
-
-   >[!NOTE]
-   >
-   >Your Workfront instance must connect with the MCP server for the region for that instance. For example, an EU instance must connect to the EU MCP server. 
-   >
-   >When selecting an instance, instances that are not compatible with the MCP server's region appear grayed out, and you cannot connect to them. 
-   >
-   >To connect to an instance that is not compatible with the MCP server's region, set up a new MCP connection with the correct URL for that region.
+1. Click **Connect**.
+   A Workfront login window appears.
+1. Authenticate using your Adobe ID credentials. 
+   You may need to select a profile and a Workfront instance. The profile you select determines which workspace is connected.
 
 +++
 
@@ -137,34 +116,124 @@ To learn more about [!DNL Claude] skills, see the [Claude user documentation](ht
 
 ## Connect to ChatGPT 
 
+The procedure to connect the Woorkfront MCP server with ChatGPT differs based on whether you are using ChatGPT Desktop or Codex, or ChatGPT on the web.
+
+* [Connect to ChatGPT Desktop or ChatGPT Codex](#connect-to-chatgpt-desktop-or-chatgpt-codex)
+* [Connect to ChatGPT on the web](#connect-to-chatgpt-on-the-web)
+* [Customize ChatGPT behavior with Custom GPTs](#customize-chatgpt-behavior-with-custom-gpts)
+
+### Connect to ChatGPT Desktop or ChatGPT Codex
+
++++ Expand to view step-by-step instructions for connecting Workfront to ChatGPT Desktop or ChatGPT Codex.
+
+1. In ChatGPT, open **Settings**.
+1. Click **Plugins** in the left navigation.
+1. Click **Add server** near the upper-right of the window.
+1. Enter a name for the server.
+1. For the type, select **Streamable HTTP**.
+1. Set the MCP Server URL:  
+
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
+
+1. Click **Save**.
+1. In the list that appears, click **Authenticate** for the MCP server that you are adding.
+1. Log in to Workfront.
+   You may need to select a profile and a Workfront instance. The profile you select determines which workspace is connected.
+1. In ChatGPT, in the MCP server list, ensure that the toggle to the right of the new MCP server remains toggled on.
+
++++
+
+### Connect to ChatGPT on the web
+
++++ Expand to view step-by-step instructions for connecting Workfront to ChatGPT on the web.
+
 1. Log in to [ChatGPT](https://chatgpt.com) using your credentials.
-1. In the lower left, select **your name** → **Settings**.
-1. Select **Apps**, then enable **Developer mode**.
-1. Select the **Create app** button.
-1. Give the app a desired name (such as "Workfront") and enter the desired MCP Server URL:  
+1. In the lower left, select your name, then select **Settings**.
+1. In the left navigation, select **Security and login**.
+1. Go to the ChatGPT plugins page at https://chatgpt.com/plugins.
+1. Click the Plus icon near the upper-right of the Plugins page.
+1. In the **Name** field, enter a name for the MCP server.
+1. In the **Connection** field, select **Server URL** and enter the MCP Server URL:  
 
-   | Region | URL |
-   | --- | --- |
-   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
    
-1. Ensure that Authentication is set to **OAuth** (set by default), and select the acceptance check box to continue.
-1. After the app is created, a login window pops up. Authenticate using your Adobe ID credentials. Ensure that you select the desired Workfront instance if you belong to more than one.
+1. Ensure that Authentication is set to **OAuth** (set by default).
+1. Read the risk message and check the box to show that you have read it.
+1. Click **Create**.
+1. After the app is created, a Workfront login window appears. Authenticate using your Adobe ID credentials. You may need to select a profile and a Workfront instance. The profile you select determines which workspace is connected.
 
-   >[!NOTE]
-   >
-   >Your Workfront instance must connect with the MCP server for the region for that instance. For example, an EU instance must connect to the EU MCP server. 
-   >
-   >When selecting an instance, instances that are not compatible with the MCP server's region appear grayed out, and you cannot connect to them. 
-   >
-   >To connect to an instance that is not compatible with the MCP server's region, set up a new MCP connection with the correct URL for that region.
-
++++
 
 ### Customize ChatGPT behavior with Custom GPTs
 
 ChatGPT supports user-created assistants called Custom GPTs. You can use a Custom GPT to customize how ChatGPT behaves with your connector. For example, you can create a Custom GPT that tells ChatGPT to always fetch fresh data from your connected service instead of relying on earlier results.
 
 To learn more about Custom GPTs, see the [ChatGPT user documentation](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts) or ask ChatGPT for help with Custom GPTs.
+
+## Connect Workfront to Copilot
+
++++ Expand to view step-by-step instructions for connecting Workfront to Copilot.
+
+To build a custom Copilot agent that the Workfront MCP can connect to, use Copilot Studio.
+
+1. In Copilot Studio, click **Create blank agent**.
+1. Name the agent, and click **Create**.
+   The agent's window opens.
+
+1. In the **Instructions** field, describe what you want the agent to do. Include information such as your processes and how you use Workfront. We recommend providing a large amount of detail.
+1. In the top navigation, click **Tools**, then click **Add a tool**.
+1. Select the **Model context protocol** tile.
+1. In the panel that appears, enter a name and description for this connection.
+1. In the server URL field, enter the URL:
+
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront`
+   ```
+
+1. For Authentication, select **OAuth 2.0**, then select **Dynamic discovery**.
+1. Click **Create** at the bottom of the panel.
+   
+   The app is registered.
+
+1. After the app is registered, in the panel that appears, click **Not connected**, then click **Create a new connection**, then click **Create**.
+1. Set up a connection by clicking **Not connected**, then **Create new connection**, then **Create**.
+1. In the login panel that appears, log in to Workfront, select the instance that you want to use (if you have access to more than one instance), then click **Continue**.
+1. In the panel that displays your server, click **Add and configure**.
+
+   You can now begin using and configuring tools for your MCP server. 
+1. When a tool is configured and tested, click **Publish**. 
+
+   You may not have permissions to publish. If this is the case, contact your Copilot administrator.
+
++++
+
+## Connect Workfront to a custom MCP solution
+
+If you're building your own custom application or agent, you can connect to the Workfront MCP server directly.
+
+There are two ways to connect:
+
+* [Connect with a service-to-service token](#connect-with-a-service-to-service-token)
+* [Connect with OAuth](#connect-with-oauth)
+
+### Connect with a service-to-service token
+
+1. Create a service credential using the Adobe Developer Console. For information, see [Server to Server authentication](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/).
+1. Connect to the Workfront MCP server using the following information:
+
+   * **URL**: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+   * **Headers**:
+
+      * `Authorization: Bearer <access_token>`
+      * `wf-url: <your_subdomain>.my.workfront.com` (Required if your credential has access to more than one Workfront instance, such as Preview and Production).
+
+### Connect with OAuth
+
+Self-service support for custom OAuth integrations is not yet available for Workfront. 
 
 ## Verify your connection
 
@@ -192,12 +261,6 @@ To connect to a different Workfront instance:
 >[!NOTE]
 >
 >* Logging out alone doesn't switch the Workfront instance. You must disconnect and reconnect the connector.
->
->* Your Workfront instance must connect with the MCP server for the region for that instance. For example, an EU instance must connect to the EU MCP server. 
->
->   When selecting an instance, instances that are not compatible with the MCP server's region appear grayed out, and you cannot connect to them. 
->
->   To connect to an instance that is not compatible with the MCP server's region, set up a new MCP connection with the correct URL for that region.
 
 
 <!--
@@ -212,11 +275,8 @@ To connect to a different Workfront instance:
 To set up the connection between Gemini and the Workfront MCP server, follow the instructions provided by Google for [connecting Gemini to external tools using MCP](https://docs.cloud.google.com/gemini/enterprise/docs/connectors/custom-mcp-server/set-up-custom-mcp-server). 
 
 When prompted for the MCP Server URL, enter the following URL for your Workfront MCP server:  
-
-   | Region | URL |
-   | --- | --- |
-   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront|
    
 -->
 
@@ -260,7 +320,6 @@ What happens next
 | Authentication failed, or the connection stopped working. | Your auth session expired or there's a connection error. | Disconnect and reconnect the connector. |
 | You want to switch to a different Workfront instance. | A single connection ties you to one instance. | Disconnect, reconnect, and authenticate to the new instance. |
 | You can't connect to Workfront, or you see a message that MCP server access is disabled. | Your Workfront administrator has turned off MCP server access for your instance. | Contact your Workfront administrator and ask them to enable MCP server access in System Preferences. |
-| The Workfront instance that you want to connect to is grayed out, and you see a message that it is not available to connect in your region | Your MCP server is configured for a different region (EU or US) than your instance. | Set up the MCP server with the URL for the region that your Workfront instance is assigned to. |
 | The AI agentic platform can find your Workfront items but can't create, update, or delete them. | Your Workfront administrator has disabled write actions for the Workfront MCP server. | Contact your Workfront administrator and ask them to enable write actions in System Preferences. |
 
 For day-to-day troubleshooting after you're connected (for example, stale results or unexpected behavior), see [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
@@ -271,6 +330,10 @@ For day-to-day troubleshooting after you're connected (for example, stale result
 ## Frequently asked questions about setup
 
 +++ Expand to view frequently asked questions about setting up the Workfront MCP server.
+
+* [Can I connect to multiple Workfront instances at the same time?](#can-i-connect-to-multiple-workfront-instances-at-the-same-time)
+* [Which administrator enables this?](#which-administrator-enables-this)
+* [Can I use the Workfront MCP server if my Workfront instance isn't enabled on Adobe Identity Management System (IMS)?](#can-i-use-the-workfront-mcp-server-if-my-workfront-instance-isnt-enabled-on-adobe-identity-management-system-ims)
 
 ### Can I connect to multiple Workfront instances at the same time?
 
@@ -285,6 +348,4 @@ Both your Workfront administrator and the administrator for your AI agentic plat
 No. Your Workfront instance must be enabled on Adobe Identity Management System (IMS) to use the Workfront MCP server. If you're not sure whether your instance is enabled on IMS, contact your Workfront administrator.
 
 +++ 
-
-
 

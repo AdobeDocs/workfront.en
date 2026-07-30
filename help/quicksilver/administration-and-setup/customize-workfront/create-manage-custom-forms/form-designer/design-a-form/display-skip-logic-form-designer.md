@@ -29,6 +29,8 @@ topic_v2:
 ---
 # Add logic rules to custom forms and fields
 
+{{preview-fast-release-general}}
+
 Logic rules allow you to further customize the fields on your form.
 
 For example, you can display or skip fields or sections in a custom form based on the choices that a user makes when filling it out.
@@ -149,7 +151,7 @@ Display logic defines which custom fields appear on the form when the user selec
 
 ## Add advanced display logic to a custom form
 
-The advanced display logic for custom form fields allows you to build complex logic using formulas. You can apply this logic to the following field types: single line text, paragraph, text with formatting, single-select dropdown, multi-select dropdown, external lookup, multi-select external lookup, native field reference, typeahead, calculated, date, checkbox group, and radio buttons.
+The advanced display logic for custom form fields allows you to build complex logic using formulas. You can apply this logic to the following field types: single line text, paragraph, rich text, single-select dropdown, multi-select dropdown, external lookup, multi-select external lookup, native field reference, internal lookup, calculated, date, checkbox group, and radio buttons.
 
 >[!NOTE]
 >
@@ -202,7 +204,9 @@ Using the following condition, the Sold KPI field only becomes visible when the 
 
    >[!NOTE]
    >
-   >Advanced display logic is not supported in the form designer preview mode.
+   >In the Production environment, advanced display logic is not supported in the form designer preview mode.
+   >
+   ><span class="preview">In the Preview environment, all logic types are available in preview mode.</span>
 
 ## Add skip logic to a custom form
 
@@ -238,7 +242,7 @@ Skip logic defines custom form fields that are skipped when the user selects a s
 
 Default value logic allows you to configure default values for custom form fields, using formulas. The default value is displayed when the defined conditions are met. A default value can be a static value or a dynamic value that references other fields within the object. Although the default value can reference other fields, it will not change as other fields on the form change.
 
-You can apply advanced default value logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, multi-select external lookup. native field reference, typeahead, checkbox group, and radio buttons.
+You can apply advanced default value logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, multi-select external lookup, native field reference, internal lookup, checkbox group, and radio buttons.
 
 >[!TIP]
 >
@@ -247,6 +251,8 @@ You can apply advanced default value logic to the following field types: single 
 >[!NOTE]
 >
 >Standard default value logic in the form designer still exists. If both types are applied on the same field, then the advanced logic takes precedence. For information on standard default value logic, see [Add radio buttons, checkbox groups, and drop-downs](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs) in [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>
+>For native reference fields, default value logic is available only in the user interface and not in the Workfront API.
 
 ### Example
 
@@ -278,7 +284,9 @@ When the custom form is attached to a project and the project status is Planning
 
    >[!NOTE]
    >
-   >Default value logic is not supported in the form designer preview mode.
+   >In the Production environment, default value logic is not supported in the form designer preview mode.
+   >
+   ><span class="preview">In the Preview environment, all logic types are available in preview mode.</span>
 
 ## Add validation logic to a custom form
 
@@ -286,7 +294,7 @@ Validation logic is built using formulas, and you can make the logic as simple o
 
 If the field with the logic applied meets the defined validation conditions when a user fills out the custom form, the field is highlighted and the error message is displayed.
 
-You can apply validation logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, multi-select external lookup, typeahead, date, checkbox group, and radio buttons.
+You can apply validation logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, multi-select external lookup, internal lookup, date, checkbox group, and radio buttons.
 
 ### Examples
 
@@ -327,13 +335,15 @@ For additional examples of validation logic, see [Examples of advanced logic in 
 
    >[!NOTE]
    >
-   >Validation logic is not supported in the form designer preview mode.
+   >In the Production environment, validation logic is not supported in the form designer preview mode.
+   >
+   ><span class="preview">In the Preview environment, all logic types are available in preview mode.</span>
 
 ## Add formatting logic to a custom form
 
 Formatting logic highlights a field value when it meets the defined conditions. The applied formatting will work on multiple fields at once.
 
-You can apply formatting logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, multi-select external lookup, typeahead, calculated, date, checkbox group, and radio buttons.
+You can apply formatting logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, multi-select external lookup, internal lookup, calculated, date, checkbox group, and radio buttons.
 
 Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
@@ -390,13 +400,15 @@ IF(
 
    >[!NOTE]
    >
-   >Formatting logic is not supported in the form designer preview mode.
+   >In the Production environment, formatting logic is not supported in the form designer preview mode.
+   >
+   ><span class="preview">In the Preview environment, all logic types are available in preview mode.</span>
 
 ## Add editability logic to a custom form
 
 Editability logic determines whether a custom form field can be edited or whether it is read-only. This logic is built using formulas, and when the field meets the defined conditions it can be set as editable or read-only.
 
-You can apply editability logic to the following field types: single line text, paragraph, text with formatting, single select dropdown, multi-select dropdown, external lookup, multi-select external lookup, typeahead, date, checkbox group, and radio buttons.
+You can apply editability logic to the following field types: single line text, paragraph, rich text, single select dropdown, multi-select dropdown, external lookup, multi-select external lookup, internal lookup, date, checkbox group, and radio buttons.
 
 ### Example
 
@@ -440,4 +452,7 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 
    >[!NOTE]
    >
-   >Editability logic is not supported in the form designer preview mode.
+   >In the Production environment, editability logic is not supported in the form designer preview mode.
+   >
+   ><span class="preview">In the Preview environment, all logic types are available in preview mode.</span>
+

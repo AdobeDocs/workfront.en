@@ -27,8 +27,7 @@ topic_v2:
 ---
 # Manage the timeline view
 
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -386,13 +385,13 @@ To add a filter to a timeline view:
     <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Optional) Click the **x** icon to remove a filter condition.
-1. <span class="preview">(Optional and conditional) If you added a breakdown structure to your timeline view, expand the record type in the following dropdown and repeat the same steps as above to add a filter for a record type included in the breakdown. </span>
+1. (Optional and conditional) If you added a breakdown structure to your timeline view, expand the record type in the following dropdown and repeat the same steps as above to add a filter for a record type included in the breakdown. 
 
-    <span class="preview"> Repeat for every record type in the breakdown.</span>
+    Repeat for every record type in the breakdown.
 
     ![Multi-tiered filter with breakdown for timeline view](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
 
-    <span class="preview">You can filter for breakdown record types only from the timeline view.</span>
+    You can filter for breakdown record types only from the timeline view.
 1. (Optional) Click **Filters** or anywhere else on the page to close the filters box. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
@@ -444,6 +443,15 @@ To add a grouping in the timeline view:
 
 1. In the **Group records by** box, drag and drop the groupings in the correct order.
 
+1.  In the **Layout** area of the **Group records by** box select one of the following options:
+
+    * **Stacked**: Groupings display without a frozen left column and fit the width of their items' timelines.
+
+        ![Stacked grouping in timeline view](assets/stacked-grouping-in-timeline-view.png)
+    * **Swimlane**: Groupings display with a frozen left header column that lists the grouped items and the groupings fit the width of the timeline view. 
+
+        ![Swimlane grouping in timeline view](assets/swimlane-grouping-in-timeline-view.png)
+
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
     Or
@@ -451,6 +459,11 @@ To add a grouping in the timeline view:
     Click **Clear all** to remove all fields.  
 
 1. Click outside the **Group records by** box to close it. 
+1. (Optional) Drag and drop items in the timeline view to adjust their dates. 
+
+    >[!TIP]
+    >
+    >When you drag and drop records from one grouping to another, the fields that are selected in the grouping automatically update the values on the moved records.
 1. (Optional) Click **Settings**, then **Color** to color-code groupings. For more information, see the [Edit the timeline view settings](#edit-the-timeline-view-settings) section in this article. 
 
 <!-- 
@@ -534,12 +547,12 @@ Update the timeline view settings to indicate what and how information displays 
     * **Default (gray)**: The color of the groupings is set to gray. This is the default. 
     * **Field values**: The color of the groupings matches the color of the field you group by. 
     
-        >[!NOTE]
-        >
-        >    * You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
-        >    
-        >    * You cannot match the color to lookup fields from linked record or object types. 
-
+    >[!NOTE]
+    >
+    >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+    >    
+    >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        
 
     For example, multi-select or single-select fields can have color-coded options. 
 
@@ -554,7 +567,7 @@ Update the timeline view settings to indicate what and how information displays 
     * **Record type**: The color of the records match the color of the record type you selected. This is the default option. 
     * **Field values**: The color of the records matches the color of a field that you specify. Continue with step 10. <!--ensure this stays accurate-->
     * **Grouping**: The color of the records matches the color that you indicated for the groupings. This option is dimmed when you have no groupings applied to the timeline view. 
-    * **None**: Records displays in a white bar. 
+    * **None**: Records displays in a white bar. <span class="preview">The None option has been removed from the Preview environment.</span>
 
 1. (Conditional) If you selected **Field values** for the record colors, select a field from the **Match the record color to** drop-down menu. 
 

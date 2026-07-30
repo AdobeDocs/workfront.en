@@ -18,9 +18,11 @@ role_v2:
 ---
 # Workspaces overview
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -50,11 +52,14 @@ A workspace is a collection of record types used by an organizational unit and i
 
     * **Workspaces I'm on**: Displays workspaces you created or workspaces that are shared with you.
     * **Other workspaces**: Displays all other workspaces in the system. This is only available for System Administrators.
-    * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records or fields, but you can add, edit, and share views with others.</span>
+    * **Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records or fields, but you can add, edit, and share views with others.
 
     >[!NOTE]
     >
-    ><span class="preview">We recommend to not edit the sample workspaces, but instead to use them as a reference to create your own. Use the multi-workspace template bundle to create workspaces identical to the ones listed in the Sample workspaces tab. For information, see the section "Create multiple workspaces using a best-practice multi-workspace template bundle" in the article [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). </span>  
+    >We recommend to not edit the sample workspaces, but instead to use them as a reference to create your own. Use the multi-workspace template bundle to create workspaces identical to the ones listed in the Sample workspaces tab. 
+    >
+    >Only customers who have purchased a Prime or Ultimate Planning package can view the Sample workspaces tab. 
+    >For information, see the section "Create multiple workspaces using a best-practice multi-workspace template bundle" in the article [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
     
 <!--
 No longer the case - they match now: 
@@ -84,3 +89,24 @@ No longer the case - they match now:
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
 * There are limits on how many workspace objects you can create in your instance of Workfront Planning. For information, see [Adobe Workfront Planning object limitations overview](/help/quicksilver/planning/general/limitations-overview.md).
+
+## Overview of global search
+
+On the Planning landing page, you can use the global search box to search for the following Planning objects:
+
+* Workspaces
+* Record types
+* Views
+
+![Global search box](assets/global-search-box.png)
+
+Consider the following about using the global search:
+
+* You can access the search from the Planning landing page, or from any Planning page by pressing the following keyboard combination: 
+
+    * CTRL+K for Windows
+    * ⌘+K for Mac
+* The last 7 results from each object display in the search box. 
+* You can perform a general search or select an object and search individual lists. 
+    
+    

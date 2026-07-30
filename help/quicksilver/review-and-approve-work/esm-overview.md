@@ -86,6 +86,10 @@ At the project level, system-generated folders display a linked object. The fold
 
 For more information, see [How document permissions work](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
+#### Adobe Cloud Drive
+
+Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer. You can open, edit, and save files in any application while Adobe Cloud Drive keeps your work in sync with Adobe cloud storage. For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
+
 ## Workfront objects
 
 The table below compares the features of Adobe cloud storage and legacy Workfront storage for Workfront objects. 
@@ -98,9 +102,17 @@ Workfront objects include portfolios, programs, projects, templates, tasks, and 
 
 ### Move, copy, and convert objects
 
-You can move, copy, and convert Workfront objects between like storage models. For example, you can move a task from an Adobe cloud storage project to another Adobe cloud storage project. You cannot move a task from an Adobe cloud storage project to a legacy Workfront storage project.
+In most scenarios, you can move, copy, and convert Workfront objects between like storage models. For example, you can move a task from one Adobe cloud storage project to another Adobe cloud storage project.
 
-These actions are available from the More menu on a task or issue. Each action respects document integrity, permission inheritance, and Adobe cloud storage rules.
+In three specific cases, you can convert a legacy Workfront storage object to Adobe cloud storage:
+
+* Convert a legacy Workfront storage task to an Adobe cloud storage project.
+* Convert a legacy Workfront storage portfolio to an Adobe cloud storage portfolio.
+* Create an Adobe cloud storage project from a legacy Workfront storage template.
+
+Documents and document folders don't move from legacy Workfront storage to Adobe cloud storage during any of these conversions.
+
+For more information, see [Object portability](/help/quicksilver/review-and-approve-work/workfront-storage.md#object-portability) in [Move to Workfront on Adobe cloud storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
 ## Enable Adobe cloud storage
 

@@ -100,21 +100,17 @@ Depending on which enhanced list you are viewing, do one of the following:
    * Currency: You must enter information in a number format preceded by a currency symbol.
    * Date: Use the calendar to select a date.
    * Date and time: Use the calendar to select a date and time.
-   * Single- or multi-select drop-down: Select one or multiple options from a drop-down menu. <span class="preview">If supported on a list, you can create new options directly from the drop-down when no results are found.</span>
+   * Single- or multi-select drop-down: Select one or multiple options from a drop-down menu. If supported on a list, you can create new options directly from the drop-down when no results are found.
    * Typeahead: Type the name of an existing object (for example, the name of a group or a project) and choose the name from the list of suggestions.
    * Paragraph: You can enter multiple lines of alphanumeric information.
    * Assignee (one or multiple): Select one or more users as the assignee for the list item.
    * Color picker: Choose a color from the picker, or type a code such as a Hex or RGB.
-
-   <div class="preview">
    
    The Assignee, Single-select drop-down, and Multi-select drop-down fields support the following keyboard commands:
 
    * Use the up and down arrows on your keyboard to move through the list of items.
    * Press the space bar to select an item.
    * Press the Delete key to remove a selected item.
-
-   </div>
 
    >[!NOTE]
    >
@@ -208,17 +204,20 @@ To add and remove columns:
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
+1. <span class="preview">(Optional) To reorder the columns, hover over a column name in the **Selected** section and click the **Drag** icon ![Drag icon](assets/drag-icon.png). Move the columns vertically to place them in order.</span>
 1. Click **Save**.
 
    ![Column manager](assets/glist-column-manager.png)
 
    The list updates the columns according to the choices you made.
 
-### Change the row height in a view
+## Customize rows
 
 >[!NOTE]
 >
 >Not all enhanced lists have all the elements described in this section.
+
+To change the row height in a view:
 
 1. Click the **Row height** icon ![Row height icon](assets/row-height-icon.png) in an enhanced list. 
 
@@ -227,6 +226,14 @@ To add and remove columns:
       * Standard. This is the default choice. 
       * Medium
       * Tall
+
+To change the order of rows:
+
+1. Drag and drop rows into your preferred order.
+
+   >[!NOTE]
+   >
+   >If you have a sort applied, you cannot change the row order manually.
 
 ## Update enhanced list elements
 

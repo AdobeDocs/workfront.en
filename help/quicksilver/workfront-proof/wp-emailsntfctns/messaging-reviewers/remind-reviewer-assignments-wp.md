@@ -45,3 +45,4 @@ The email will replicate the notification email they were sent originally (and c
 1. On the **[!UICONTROL Send message]** box that appears, type a **[!UICONTROL Title]** and **[!UICONTROL Message],** then click **[!UICONTROL Send].**&#x200B;The contact receives an email containing information and personal links for all the proofs in a single email.
 
  
+

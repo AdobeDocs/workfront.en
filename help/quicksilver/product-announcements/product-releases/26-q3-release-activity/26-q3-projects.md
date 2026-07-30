@@ -11,14 +11,16 @@ This page describes Project enhancements made with the Third Quarter 2026 releas
 
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-<!--
+
 
 ## Convert a legacy storage task to an Adobe cloud storage project
 
 >[!NOTE]
 >
 >Preview: June 11, 2026
->Production for everyone: June 12, 2026
+>Production for fast release: June 11, 2026
+>Production for quarterly release: June 11, 2026
+>[!BADGE Off schedule]{type=Neutral}
 
 If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now convert a legacy storage task to an Adobe cloud storage project.
 When you do this, documents and document approvals remain on the parent object rather than transferring to the newly created project.
@@ -29,9 +31,9 @@ For more information, see [Convert a task to a project](/help/quicksilver/manage
 
 ## Use a legacy storage template to create an Adobe cloud storage project
 
--->
 
-<!--
+
+
 
 >[!NOTE]
 >
@@ -47,7 +49,7 @@ Previously, Legacy storage templates could only be used to create Legacy storage
 
 For more information, see [Create projects](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
--->
+
 
 
 

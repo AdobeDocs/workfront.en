@@ -11,6 +11,55 @@ This page describes Reporting enhancements made with the Third Quarter 2026 rele
 
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Automated access control for Workfront Planning in Snowflake
+ 
+>[!NOTE]
+>
+>Preview and Production for all customers: July 16, 2026 
+>[!BADGE Off schedule]{type=Neutral}
+
+This release introduces automated, entitlement-driven access management for Workfront Planning data in Snowflake as part of Workfront Data Connect.  
+It starts by extending secure view generation to Planning tables  establishing the required foundation for downstream access control and making entitlement-based grants possible. 
+Building on this, reader account provisioning now checks TMS entitlements at creation time and automatically applies or withholds grants to the Planning database, ensuring correct.  
+Prior to this enhancement, this was available only for Workfront.  
+The update includes the following capabilities: 
+
+* An automated daily job detects entitlement changes for existing customers 
+* The new job grants, revokes, or preserves access based on entitlements 
+* Full lifecycle coverage across provisioning, account creation, and ongoing entitlement changes. 
+
+The [Workfront Data Connect data dictionary](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md) article will be updated after the release date.
+
+## Add custom data support for new objects
+
+>[!NOTE]
+>
+>Preview and Production for all customers: July 7, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+During the Second Quarter 2026, we added new objects to support the enterprise operations enhancements in Workfront.
+With the current release, we are also adding custom data support for several new objects in the Canvas Dashboard.
+
+For information, see [Canvas Dashboard Overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+
+## Canvas Dashboard prompt defaults and user preference persistence
+
+>[!NOTE]
+>
+>Preview: June 25, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
+
+To improve efficiency for users moving between dashboards and records by preserving their working filter state, dashboard managers can now define default prompt values for Canvas dashboards. These defaults are automatically applied for all dashboard viewers.
+
+When a user updates prompts, their selections are saved and restored on refresh, reopen, or after navigating to a record and back.
+
+Managers can reset the dashboard's default state at any time. Users can also quickly revert to defaults via the three-dot menu.
+
+Prior to this enhancement, dashboard prompts did not have a configurable default or a saved user preference for the prompt status.
+
+For information, see [Filter a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md).
+
 ## Add multiple Power BI IP address ranges to the Data Connect allowlist at once
 
 >[!NOTE]
@@ -87,3 +136,4 @@ Canvas dashboards now structure report queries to prevent duplicate rows when fi
 Previously, a join between related records could repeat parent records once for each related record. For example, in a project report filtered to tasks assigned to a specific user, each project repeated once for every matching task. A KPI that summed project budget could show $6,000 instead of the correct $1,250.
 
 There are no changes to the Canvas dashboard interface. Existing reports automatically return accurate data after this release.
+

@@ -53,7 +53,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## View recent items
 
-1. Click the **[!UICONTROL Recents]** icon ![[!UICONTROL Recents]](assets/recents-icon-40x43.png) in the upper-right corner of any page.
+1. Click the **[!UICONTROL Recents]** icon ![[!UICONTROL Recents]](assets/recents-icon.png) in the upper-right corner of any page.
 
    ![Recents list](assets/recents-list.png)
 

@@ -28,7 +28,7 @@ topic_v2:
 # Manage Adobe Workfront Planning notification preferences 
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -40,8 +40,8 @@ This article describes how you can manage Adobe Workfront Planning notifications
 You may receive in-app or email notification when the following actions occur in Workfront Planning: 
 
 * Someone adds you or your teams to a comment on the record page
-* Someone asks for permission to access a view or a workspace <!--or <span class="preview">or a record</span>-->
-* Someone grants you permission to access a view or a workspace <!--or <span class="preview">or a record</span> I could not test this but Isk confirmed-->
+* Someone asks for permission to access a view or a workspace or a record
+* Someone grants you permission to access a view or a workspace or a record
 * You submit a Workfront Planning request.
 * Someone approves or rejects a Workfront Planning request that you submitted.
 * The status changes to a Workfront Planning request that you submitted.

@@ -14,6 +14,8 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Business profiles overview
 
+{{highlighted-preview}}
+
 Business profiles are an enhanced permission model that allows customers such as agencies to efficiently manage user access and ensure precise control over permissions at the group level. In a business profile, users have distinct permissions to group-specific objects. Additional objects can also be shared directly with the business profile.
 
 A business profile for a user is similar to that user having a specific role in a group, such as a financial controller or project manager, and receiving the permissions that go along with that role for the specified group. The business profile can be temporary, allowing the permissions for a period of time that is set to expire, and maintaining data restrictions for the group or agency.
@@ -25,13 +27,15 @@ The Workfront system administrator:
 * Defines effective dates for the business profile as needed
 * Assigns layout templates to the access levels
 
+<span class="preview">Group administrators can also create, edit, and delete business profiles, but only for the groups they administer.</span>
+
 Any user who has access to share objects can share them with the business profile, and all users with the profile will see the object.
 
 ## Business profile example
 
 >[!BEGINSHADEBOX]
 
-Sam needs different access to projects for Agency A and Agency B. Both agencies are set up as groups in Workfront. (For information about groups, see Groups overview.)
+Sam needs different access to projects for Agency A and Agency B. Both agencies are set up as groups in Workfront. (For information about groups, see [Groups overview](/help/quicksilver/administration-and-setup/manage-groups/groups-overview/groups-overview.md).)
 
 For Agency A, Sam is acting as a financial controller and needs access to see all of the financial fields on their projects. For Agency B, Sam is acting as a project manager and needs to manage the tasks and issues, but should not be able to view the financial information.
 
@@ -105,6 +109,7 @@ For information about how access levels and permissions work together, see [Acce
 
 ## Considerations about business profiles
 
+* Business profiles are available only to organizations that have a Workflow Ultimate package.
 * A user does not have to be a member of a group to be assigned a business profile for that group.
 * The access level on the business profile can only upgrade a user's "base" access level. The business profile cannot take away the base access level permissions.
 * In object lists and reports, the user has all of the permissions that are available to them from all of their assigned business profiles across the groups merged with their base access level. In other pages, the user has the base access level permissions.

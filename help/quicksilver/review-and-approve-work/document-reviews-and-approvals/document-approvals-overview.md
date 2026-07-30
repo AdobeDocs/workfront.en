@@ -25,8 +25,6 @@ topic_v2:
 ---
 # Unified review and approval overview
 
-{{highlighted-preview}}
-
 Unified review and approval brings together Adobe Workfront and Adobe Frame.io into a single, deeply connected experience--closing the gaps between marketing management, creative review, and content delivery. 
 Project coordinators manage work in Workfront while creatives, marketers, and stakeholders review and approve assets in the professional-grade Frame.io viewer, all without moving files between disconnected tools.
 
@@ -97,6 +95,12 @@ If your organization wants to take advantage of additional Frame.io functionalit
 
 Workfront Proofing functionality is not available with this integration.
 
+## Complete audit trail
+
+<span class="preview">Unified review and approval includes comprehensive audit logging that creates a complete governance trail across Workfront and Frame.io. Change tracking logs capture approval decisions made in the Frame.io viewer and document lifecycle. Each log entry includes source system attribution (Workfront or Frame.io) alongside the standard Workfront audit fields: date and time, log type, user name, action, and object name. Frame.io viewer comments are not included in audit logs.</span>
+
+<span class="preview">Change tracking logs appear in Workfront's Setup area and are available for export. For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).</span>
+
 ## Powerful project management in Workfront
 
 Project coordinators can leverage Workfront's powerful project management capabilities to plan, track, and manage work.
@@ -145,6 +149,8 @@ The following table shows how Workfront permissions map to Frame.io permissions:
 ### Document management in Workfront
 
 Documents uploaded to Workfront are stored in Adobe cloud storage and are accessible in both Workfront and Frame.io. When you upload a document to a task or issue in Workfront, a system-generated folder is created in Adobe cloud storage that inherits permissions from the task or issue. All documents uploaded to that task or issue are stored in that folder and inherit permissions from it. For more information about documents in Workfront, see [The new Documents area overview](/help/quicksilver/documents/managing-documents/documents-area.md) and [Object permissions and access level overview for the Adobe cloud storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+
+You can also access these same documents from your Mac or Windows desktop using Adobe Cloud Drive. Adobe Cloud Drive mounts your Adobe cloud storage projects as a drive on your computer, so you can open and edit files in any application while keeping changes in sync with Workfront and Frame.io. For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 ### Document experience limitations
 
@@ -285,6 +291,10 @@ Yes. A user can be assigned to multiple stages within the same approval workflow
 
 Yes. Multi-stage approval workflows are supported, allowing you to route assets through sequential rounds of review and approval with different participants at each stage.
 
+**Can I configure parallel review paths in an approval workflow?**
+
+Yes. Approval workflows support parallel paths in addition to sequential stages. Each path runs independently and contains one or more sequential stages, so reviews on different paths can happen at the same time. You can configure up to 30 paths and 100 stages in a single approval. The same options are available in approval templates. For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) and [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
 <!--
 **Can I modify the trigger for a later stage---for example, based on all approved versus the due date ending?**
 
@@ -311,9 +321,7 @@ Currently, approval templates support individual users and teams.
 
 Yes. Approvers and reviewers receive email notifications when they are assigned to a review or approval. Automated reminder emails are also sent 72 hours before the deadline, 24 hours before, and on the deadline itself.
 
-In Production, the ability to customize email notification messages is not currently available, but it is on the product roadmap.
-
-<span class="preview">In Preview, you can add a custom message to each stage of an approval workflow. The message appears in the approval email notification and in the Approvals tab in Workfront. You can use the same message for every stage or a different message per stage, and the message can include up to 500 characters. If you edit a custom message after the approval workflow is created, an updated email notification is sent to all existing participants. If you add a participant later, the custom message is included in their email notification. For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).</span>
+You can add a custom message to each stage of an approval workflow. The message appears in the approval email notification and in the Approvals tab in Workfront. You can use the same message for every stage or a different message per stage, and the message can include up to 500 characters. If you edit a custom message after the approval workflow is created, an updated email notification is sent to all existing participants. If you add a participant later, the custom message is included in their email notification. For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 <!--
 **Can I change the notification frequency for a unified approver or reviewer (for example, all comments, replies to my comments, or daily summaries)?**
@@ -356,6 +364,14 @@ For a full list of supported file types, see the Frame.io supported file types d
 **Can I share assets externally with stakeholders who don\'t have access to Workfront?**
 
 Yes. Assets can be shared externally. External users are notified via email and will be prompted to create a Frame.io login to access the viewer and participate in the review.
+
+**Can I attach images to comments on a document in Workfront?**
+
+If your organization uses Adobe cloud storage as part of Unified review and approval, you can attach image files directly to comments on a document. Attached images are stored in Adobe cloud storage, and all media type image file formats are supported.
+
+These comments are Workfront-native and are separate from comments in the Frame.io viewer. Images attached to a comment are not accessible in Frame.io, and attaching an image does not add markup to the asset or route it for approval. Non-image file types cannot be attached to a comment.
+
+For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 **Before unified review and approval, is a reviewer just directed to a proof?**

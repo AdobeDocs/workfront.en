@@ -36,8 +36,8 @@ You can receive in-app notifications from Workfront Planning when the following 
 * Someone tags you or your teams in a record comment
    
    For information about tagging others in a record comment, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
-* Someone asks for your permission to access a view or a workspace <!--<span class="preview">or record</span>-->
-* Someone confirms your access has been granted for a view or a workspace <!--<span class="preview">or record</span> Isk confirmed there is no notification for denying permissions - did not test-->
+* Someone asks for your permission to access a view, a workspace or record
+* Someone confirms your access has been granted for a view, a workspace, or record
 
 ## Access requirements
 

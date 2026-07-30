@@ -3,7 +3,7 @@ title: Configure Sharing for Custom Fields and Widgets
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: By default, when you add a new custom field or widget to a custom form, anyone in the system with access to custom forms can edit the properties for that item, such as its label and name. You can change this by controlling who it can be shared with.
+description: By default, when you add a new custom field or widget to a custom form, anyone in the system with access to custom forms can edit the properties for that item, such as its label and API name. You can change this by controlling who it can be shared with.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -27,7 +27,7 @@ topic_v2:
 ---
 # Configure sharing for custom fields and widgets
 
-By default, when you add a new custom field or widget to a custom form, anyone in the system with access to custom forms can edit the properties for that item, such as its label and name. You can change this by controlling who it can be shared with.
+By default, when you add a new custom field or widget to a custom form, anyone in the system with access to custom forms can edit the properties for that item, such as its label and API name. You can change this by controlling who it can be shared with.
 
 For information about custom fields and widgets in custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 

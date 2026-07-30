@@ -27,11 +27,9 @@ topic_v2:
 ---
 # Manage record comments
 
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
 
 {{planning-important-intro}}
 
@@ -68,7 +66,7 @@ The right panel of a record displays the following sections:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>View or higher permissions to a workspace, record type, and <span class="preview">record</span></p>  
+   <td>   <p>View or higher permissions to a workspace, record type, and record</p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
   </tr>   
@@ -203,11 +201,22 @@ Old:
    >
    >You cannot add images to a record comment.
 
-
 1. Continue adding comments to the record. 
 
    For more information about updating objects, including Workfront Planning records, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
+1. Click **Submit** to record the comment. 
+
+   The users you tagged in your message receive notifications that there is a new message. 
+   
+   <div class="preview">
+
+   Everyone with View permissions to the record type can see a **New comment** indicator in the table view for the record you added the comment to. 
+
+      ![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+
+   </div>
+  
 1. (Optional) Click the **More** icon ![More menu](assets/more-menu.png) in the upper-right corner of the comment, then click **Delete** to delete the comment. 
 1. (Optional) Click the **Hide Comments** icon ![Hide comments icon](assets/hide-comments-icon.png) to close the right panel. 
 

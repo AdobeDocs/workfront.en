@@ -163,11 +163,11 @@ Old:
 
    Click **New Template Task** to start adding tasks to your template in the **New Template Task** box.
 
-   The **Create Template Task** box opens in the new experience when you click **New Template Task**.
+   The **Create Template Task** box opens when you click **New Template Task**.
 
    ![New experience for New Template Task](assets/new-template-task-box-unshimmed.png)
 
-1. (Conditional) Using the new experience, update information in the following areas in the **Create Template Task** box:
+1. (Conditional) Update information in the following areas in the **Create Template Task** box:
 
    * Template Task Name
    * Overview
@@ -177,53 +177,29 @@ Old:
    * Documents
    * Settings 
 
-1. Click **Create template task**
+   Updating information for a template task is similar to editing template tasks. 
    
-   Or 
-   
-   Click **Switch back to old experience** at the bottom of the **Create Template Task** box.
-
-   The **New Template Task** opens in the old experience.
-
-   ![New Template Task box](assets/new-template-task-box.png)
-
-   >[!TIP]
-   >
-   >In Production, the old experience opens by default.
-
-1. Update information in the following areas in the **New Template Task** box:
-
-   * Overview
-   * Finance
-   * Settings
-   * Assignments
-   * Custom Forms
-   * Attach Document
-
-      Updating information for a template task is similar to editing tasks on a project. For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). <!--should this be relinked at preview/ prod release to say it's the same as Edit template tasks??-->
+   For more information, see [Edit template tasks](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md).
 
    >[!NOTE]
    >
    >You cannot add recurring tasks to a template.
 
-1. Click one of the following:
+1. Click **Create template task**.
 
-   * **Save Template Task** to save the current template task and closes the New Template Task box.
-   * **Save Template Task & Start Another** to save the current template task and open another **New Template Task** box to add another task.
-   * **Cancel** to close the box without saving the template task.
-1. (Optional) After adding the template tasks, in the Template Tasks section, click the **Gantt chart** icon in the upper-right corner of the Task List to see a visual representation of the template's task list.
+1. (Optional) After adding the template tasks, in the **Template Tasks** section, click the **Gantt chart**  icon ![Gantt icon](assets/gantt-icon.png) in the upper-right corner of the task list to see a visual representation of the template's task list.
 
    >[!TIP]
    >
-   >You cannot edit tasks directly from this Gantt chart.
+   >You cannot edit tasks directly from a template task Gantt chart.
 
-1. To add information to your new template, click the **More** menu ![More icon](assets/more-icon.png) to the left of the template name in the header, then click **Edit**.
+1. To add information to your new template, click the **More** menu ![More icon](assets/more-icon.png) to the right of the template name in the header, then click **Edit**.
 
    For information about editing a template, see [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
    >[!NOTE]
    >
-   >   A project template's association with a group (or lack of a group) affects how project, task, and issue preferences determine certain settings in the template. 
+   >A project template's association with a group (or lack of a group) affects how project, task, and issue preferences determine certain settings in the template. 
    >
    >For more information, see the section "How preferences apply to templates and template tasks" in the article [Create and modify a group's project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 

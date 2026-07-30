@@ -41,4 +41,4 @@ topic_v2:
 
 Your date preference is controlled by your language preference set in Adobe Unified Shell. The default language setting, and therefore the default date setting, is `en-US`. 
 
-For more information, see [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md/#access-your-profile-and-preferences). 
+For more information, see [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#access-your-profile-and-preferences). 

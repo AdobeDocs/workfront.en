@@ -12,7 +12,7 @@ exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
 
 The top navigation bar — which appears at the top of your screen in [!DNL Adobe Workfront] — allows you to easily find and navigate to other areas of the platform.
 
-![Top navigation bar](assets/wf-top-navigation-2026.png)
+![Top navigation bar](assets/wf-top-navigation-070626.png)
 
 ## [!UICONTROL Home] icon
 
@@ -24,7 +24,7 @@ Your Workfront administrator can customize the Home icon to open a different pag
 
 ## [!UICONTROL Main Menu]
 
-The **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon-left-nav.png) opens the [!UICONTROL Main Menu], from where you can navigate to a different area of Workfront.
+The **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon-left-nav.png) opens the [!UICONTROL Main Menu], where you can navigate to a different area of Workfront.
 
 The options that are available in the [!UICONTROL Main Menu] are dependent on:
 
@@ -120,13 +120,13 @@ To learn more about notifications and announcements, see [View and manage in-app
 
 ## [!UICONTROL Favorites] menu
 
-The **[!UICONTROL Favorites]** icon ![Favorites](assets/favorites-icon-62x55.png) opens a list of pages in the system that you have marked as favorites. You can add the page that you're currently on from within this menu.
+The **[!UICONTROL Favorites]** icon ![Favorites](assets/favorites-icon.png) opens a list of pages in the system that you have marked as favorites. You can add the page that you're currently on from within this menu.
 
 To learn more about favorites, see [View and manage favorites](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
 
 ## [!UICONTROL Recents] menu
 
-The **[!UICONTROL Recents]** icon ![[!UICONTROL Recents]](assets/recents-icon-40x43.png) opens a list of pages you have visited recently.
+The **[!UICONTROL Recents]** icon ![[!UICONTROL Recents]](assets/recents-icon.png) opens a list of pages you have visited recently.
 
 To learn more about recents, see [View recent items](../../workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md).
 
