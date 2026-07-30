@@ -35,3 +35,4 @@ This section contains the following articles:
 
 * [Designating Temporary Proof Owners in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md)
 * [Integrations - User Setup](../../../workfront-proof/wp-getstarted/personal-settings/integrations-user-setup.md)
+

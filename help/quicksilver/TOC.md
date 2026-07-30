@@ -2192,6 +2192,7 @@ feature-set: Workfront
     * [Add existing record types from another workspace](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [Connect record types overview](planning/architecture/connect-record-types-overview.md)
     * [Connect record types](planning/architecture/connect-record-types.md)
+    * {hide-from-toc} [Manage dependent connections](planning/architecture/manage-dependent-connections.md)
     * [Edit record types](planning/architecture/edit-record-types.md)
     * [Delete workspaces](planning/architecture/delete-workspaces.md)
     * [Edit workspaces](planning/architecture/edit-workspaces.md)
