@@ -48,10 +48,8 @@ The articles in the following sections describe how you can configure the Adobe 
 * [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
 * [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
 
-<!--
 <div class="preview">
 
 * [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md)
 
 </div>
--->

@@ -307,13 +307,11 @@ You can have up to 50,000 records (or rows) for a record type.
 
     A default thumbnail image <span class="preview">and color</span> are also added to the new record.
 
-    <!--
     >[!TIP]
     >
     ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
     >
     >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
-    -->
     
 1. (Optional) Select one or multiple records or rows, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
 
