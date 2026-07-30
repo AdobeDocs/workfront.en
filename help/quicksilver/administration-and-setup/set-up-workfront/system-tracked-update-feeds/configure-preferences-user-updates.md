@@ -100,9 +100,10 @@ By default, users cannot add images in updates. When you enable this preference,
 1. In the left panel, select **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]**.
 1. Select the **[!UICONTROL Preferences]** tab.
 
-<!--![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)-->
-
 1. Select the **[!UICONTROL Allow users to add images in updates]** check box.
 1. Select **[!UICONTROL Save]**.
 
    When this preference is enabled, you can disable it at any time. Any images already posted in updates will remain in the [!UICONTROL Updates] area on the object.
+
+
+<!--Note from Lisa: This image is old so I hid it. Was after step 3 (select the Prefs tab) but it broke the numbering when I commented it out. ![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)-->
