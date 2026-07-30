@@ -25,8 +25,6 @@ topic_v2:
 ---
 # Unified review and approval overview
 
-{{preview-fast-release-general}}
-
 Unified review and approval brings together Adobe Workfront and Adobe Frame.io into a single, deeply connected experience--closing the gaps between marketing management, creative review, and content delivery. 
 Project coordinators manage work in Workfront while creatives, marketers, and stakeholders review and approve assets in the professional-grade Frame.io viewer, all without moving files between disconnected tools.
 
@@ -361,8 +359,6 @@ For a full list of supported file types, see the Frame.io supported file types d
 
 Yes. Assets can be shared externally. External users are notified via email and will be prompted to create a Frame.io login to access the viewer and participate in the review.
 
-<div class="preview">
-
 **Can I attach images to comments on a document in Workfront?**
 
 If your organization uses Adobe cloud storage as part of Unified review and approval, you can attach image files directly to comments on a document. Attached images are stored in Adobe cloud storage, and all media type image file formats are supported.
@@ -370,8 +366,6 @@ If your organization uses Adobe cloud storage as part of Unified review and appr
 These comments are Workfront-native and are separate from comments in the Frame.io viewer. Images attached to a comment are not accessible in Frame.io, and attaching an image does not add markup to the asset or route it for approval. Non-image file types cannot be attached to a comment.
 
 For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
-</div>
 
 <!--
 **Before unified review and approval, is a reviewer just directed to a proof?**
