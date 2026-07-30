@@ -141,13 +141,14 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Attach images to comments on Adobe cloud storage objects</a>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Attach images to comments on Adobe cloud storage objects</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>Organizations using Adobe cloud storage as part of Unified review and approval can now attach image files directly to comments.</p>
             </td>
             <td><p>July 30, 2026</p></td>
-            <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>July 30, 2026</p></td>
+            <td><p>July 30, 2026</p></td>
         </tr>
+        <!--
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Link content and folders from Experience Manager Assets with Adobe cloud storage</a>
@@ -157,6 +158,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>August 13, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
+        -->
     </tbody>
 </table>
 
