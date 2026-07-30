@@ -3,11 +3,13 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Left navigation in [!DNL Adobe Workfront]
 description: The left navigation panel in [!DNL Workfront] makes it easy to navigate through the system.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
 ---
 # Left navigation in [!DNL Adobe Workfront]
+
+{{preview-fast-release-general}}
 
 Most areas and objects in WF use a simple navigation panel on the left side of the screen. The following are benefits of left panel navigation:
 
@@ -255,7 +257,11 @@ To learn what sections are available for specific areas, see [[!UICONTROL Defaul
 1. From the object page, click any of the sections in the left panel to view or edit the information in that section.
 
    You must have permissions to edit the object before you can edit the information.
+   
+   <span class="preview">Sample image in the Preview environment:</span>
+   ![Left panel sections](assets/left-navigation-panel-072326.png)
 
+   Sample image in the Production environment:
    ![Left panel sections](assets/left-navigation-panel.png)
 
 1. (Optional) To add a dashboard quick link, click **[!UICONTROL Add a Dashboard]** at the bottom of the left panel, then do the following:
@@ -266,12 +272,22 @@ To learn what sections are available for specific areas, see [[!UICONTROL Defaul
       >[!TIP]
       >
       >You must build the dashboard before it appears in the list.
+      >
+      >Not all objects allow a dashboard in the left panel. For information about which objects support dashboards, see [Add a dashboard in the left panel of a Workfront object or area](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
 1. (Optional) To remove a dashboard quick link, hover over the dashboard in the left navigation, then click the **Remove** icon ![Remove icon](assets/remove-dashboard-from-left.png) when it appears.
 
-1. (Optional) To change the order of a section in the left panel, click the **[!UICONTROL Drag]** icon ![](assets/drag-icon.png) next to a section and drag it up or down.
+1. (Optional) To change the order of a section in the left panel in the Production environment, click the **[!UICONTROL Drag]** icon ![Drag icon](assets/drag-icon.png) next to a section and drag it up or down.
 
    ![Drag a section](assets/drag-section.png)
+
+   <div class="preview">   
+
+   To change the order of a section in the left panel in the Preview environment, click and drag the section up or down into the correct position.
+
+   ![Drag a section](assets/click-drag-left-nav-section.png)
+
+   </div>   
 
 1. (Optional) To close the left panel, click the **[!UICONTROL Collapse]** icon ![](assets/left-panel-collapse-icon.png).
 
