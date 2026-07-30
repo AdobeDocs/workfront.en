@@ -125,6 +125,33 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>August 13, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Define a custom application as a landing page in the layout template</a>
+                <p>You can now set a custom application as the landing page in a layout template.</p>
+            </td>
+            <td><p>July 30, 2026</p></td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Configure tracked fields in change history</a>
+                <p>You can add fields you want to track for a particular type of object throughout Workfront. When users change information in that field, the system records information about the change as an entry in the change history.</p>
+            </td>
+            <td><p>July 30, 2026</p></td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Administrative access to change history added to access levels</a>
+                <p>On the Standard access level, you can now define whether users with that level should have access to the Change History List.</p>
+            </td>
+            <td><p>July 30, 2026</p></td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
     </tbody>
 </table>
 

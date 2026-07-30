@@ -88,3 +88,45 @@ Approval, stage, and participant actions are now tracked. These actions may incl
 Each entry includes the standard tracked fields: date and time, operation, user name (or "system generated"), and object name. MCP activities are captured, including which LLM (such as Claude) made the update. Frame.io viewer comments are not included.
 
 For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+
+## Define a custom application as a landing page in the layout template
+
+>[!NOTE]
+>
+>Preview: July 30, 2026
+>Production fast release: August 13, 2026
+>Production for everyone: October 15, 2026
+
+You can now set a custom application as the landing page in a layout template. Custom applications that have already been added to the Main Menu are available to use as a landing page.
+
+Custom applications must be created separately before they become available as Main Menu or landing page options. 
+
+For more information, see [Customize the landing page using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) and [Create custom applications for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
+
+## Configure tracked fields in change history
+
+>[!NOTE]
+>
+>Preview: July 30, 2026
+>Production fast release: August 13, 2026
+>Production for everyone: October 15, 2026
+
+You can add fields you want to track for a particular type of object throughout Workfront. When users change information in that field, the system records information about the change as an entry in the change history.
+
+Previously, the Configuration screen for defining the tracked fields was view-only.
+
+For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+
+## Administrative access to change history added to access levels
+
+>[!NOTE]
+>
+>Preview: July 30, 2026
+>Production fast release: August 13, 2026
+>Production for everyone: October 15, 2026
+
+On the Standard access level, you can now define whether users with that level should have access to the Change History List. The **Change history** option is available in the **Allow administrative access for** section on the access level.
+
+For more information, see [Grant users administrative access to certain areas](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) and [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+
+
