@@ -16,7 +16,7 @@ You can view change history, including audit logs, in the Change Tracking area o
 
 * **Audit Logs** are changes triggered by users. 
    For more information on Audit Logs and the Audit Logs area, see [Audit Logs overview](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md) and [View and export audit logs](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
-* **Configuration** displays which field are being tracked for the Change History List. 
+* **Configuration** displays which fields are being tracked for the Change History List. 
    <span class="preview">As a Workfront administrator, you can configure which object fields and actions Workfront tracks. For example, you could have Workfront track all changes users make to the names of issues throughout the system. Any issue name change then appears as an entry on the change history log.</span>
 
 * **Change History List** allows you to view a log of changes to Workfront objects, including attributes such as:
