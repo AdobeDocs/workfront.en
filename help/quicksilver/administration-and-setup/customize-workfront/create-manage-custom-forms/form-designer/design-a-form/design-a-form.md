@@ -1052,7 +1052,7 @@ The Workfront Mobile app
 
 ### Add Workfront native fields
 
-You can add Workfront native fields to your custom forms. When the custom form is attached to an object, the field is populated from the object data. For example, the Description field on a custom form attached to a project will pull in the project description. (The field may show "N/A" if no data is available.)
+You can add Workfront native fields to your custom forms. When the custom form is attached to an object, the field is populated from the object data. For example, if the custom field references the Description field and it is on a custom form attached to a project, it pulls in the project description. (The field may show "N/A" if no data is available.)
 
 +++ Expand to see the list of supported native fields.
 
