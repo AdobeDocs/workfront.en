@@ -69,7 +69,8 @@ To link content:
 
 1. Go to the Workfront object where you want to link content.
 1. Click the **Documents** section in the left panel.
-1. Click **New** on the right side of the page, then click **Link from Experience Manager** to link an individual asset or **Link AEM Folders** to link a folder.
+1. Click **New** on the right side of the page, then click **AEM files** to link an individual asset.
+   ![Add AEM files to the documents area](assets/aem-files.png)
 
 1. With Content Advisor, you can:
 
@@ -120,6 +121,7 @@ To link content:
    </tbody>
    </table>
 
+<!--
 ### Link a new version from Experience Manager Assets
 
 You can pull new content over from Experience Manager Assets and add it to an existing asset as a new version. If the document is already linked and a new version is added in Experience Manager Assets, the new version appears automatically in Workfront.
@@ -128,7 +130,6 @@ To link a new version:
 
 1. Go to the Workfront object where you want to link content.
 1. Click the **Documents** section in the left panel.
-
 1. Select the asset you want to replace with a new version. You can't create a new version of an asset in a linked folder.
 1. Select **Add New** > **Version**, then select the Experience Manager integration your administrator set up.
 
@@ -138,7 +139,9 @@ To link a new version:
 
 1. Select the content you want to link.
 1. Click **Select**.
+-->
 
+<!--
 ## Link a folder from Experience Manager Assets
 
 Permissions to view individual assets inside of a folder rely on Experience Manager Assets permissions.
@@ -151,8 +154,9 @@ To link a folder:
 1. Click the **Filter** icon, then in the **Asset Type** section, choose **Folders**.
 1. Select the folder you want to link.
 1. Click **Select**.
+-->
 
 ## Considerations
 
-* Review and approval workflows are not supported for linked assets. If you need to use a review and approval workflow, you must first download the asset from Experience Manager Assets and then upload it to Workfront.
+* Review and approval workflows are not supported for linked AEM assets.
 * Metadata fields are first mapped when you send an asset from Workfront to Experience Manager Assets. If your Workfront administrator has enabled object metadata sync, fields remain up to date if they are changed in either application.
