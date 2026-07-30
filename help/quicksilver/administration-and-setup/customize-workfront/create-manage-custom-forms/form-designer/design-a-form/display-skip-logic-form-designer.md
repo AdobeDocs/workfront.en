@@ -29,6 +29,8 @@ topic_v2:
 ---
 # Add logic rules to custom forms and fields
 
+{{preview-fast-release-general}}
+
 Logic rules allow you to further customize the fields on your form.
 
 For example, you can display or skip fields or sections in a custom form based on the choices that a user makes when filling it out.
@@ -202,7 +204,9 @@ Using the following condition, the Sold KPI field only becomes visible when the 
 
    >[!NOTE]
    >
-   >Advanced display logic is not supported in the form designer preview mode.
+   >In the Production environment, advanced display logic is not supported in the form designer preview mode.
+   >
+   ><span class="preview">In the Preview environment, all logic types are available in preview mode.</span>
 
 ## Add skip logic to a custom form
 
@@ -280,7 +284,9 @@ When the custom form is attached to a project and the project status is Planning
 
    >[!NOTE]
    >
-   >Default value logic is not supported in the form designer preview mode.
+   >In the Production environment, default value logic is not supported in the form designer preview mode.
+   >
+   ><span class="preview">In the Preview environment, all logic types are available in preview mode.</span>
 
 ## Add validation logic to a custom form
 
@@ -329,7 +335,9 @@ For additional examples of validation logic, see [Examples of advanced logic in 
 
    >[!NOTE]
    >
-   >Validation logic is not supported in the form designer preview mode.
+   >In the Production environment, validation logic is not supported in the form designer preview mode.
+   >
+   ><span class="preview">In the Preview environment, all logic types are available in preview mode.</span>
 
 ## Add formatting logic to a custom form
 
@@ -392,7 +400,9 @@ IF(
 
    >[!NOTE]
    >
-   >Formatting logic is not supported in the form designer preview mode.
+   >In the Production environment, formatting logic is not supported in the form designer preview mode.
+   >
+   ><span class="preview">In the Preview environment, all logic types are available in preview mode.</span>
 
 ## Add editability logic to a custom form
 
@@ -442,4 +452,7 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 
    >[!NOTE]
    >
-   >Editability logic is not supported in the form designer preview mode.
+   >In the Production environment, editability logic is not supported in the form designer preview mode.
+   >
+   ><span class="preview">In the Preview environment, all logic types are available in preview mode.</span>
+
