@@ -27,13 +27,9 @@ topic_v2:
 ---
 # Manage record comments
 
-<!--
-
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
 
 {{planning-important-intro}}
 
@@ -213,7 +209,6 @@ Old:
 
    The users you tagged in your message receive notifications that there is a new message. 
    
-   <!--
    <div class="preview">
 
    Everyone with View permissions to the record type can see a **New comment** indicator in the table view for the record you added the comment to. 
@@ -221,7 +216,7 @@ Old:
       ![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
 
    </div>
-   -->
+  
 1. (Optional) Click the **More** icon ![More menu](assets/more-menu.png) in the upper-right corner of the comment, then click **Delete** to delete the comment. 
 1. (Optional) Click the **Hide Comments** icon ![Hide comments icon](assets/hide-comments-icon.png) to close the right panel. 
 
