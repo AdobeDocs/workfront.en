@@ -116,7 +116,7 @@ For a list of best practices when creating an agent to work as a Task Collaborat
    |Claude Managed Agents|Anthropic API key<br>Agent ID<br>Environment ID|
    |Writer|API key<br>Application ID|
 
-1. (Optional) To test whether the credentials were set up correctly, click **Test connection**.
+1. Optional To test whether the credentials were set up correctly, click **Test connection**.
 1. In the **After the Collaborator is finished with its work, it can** area, toggle on the actions that you want the collaborator to take.
 1. Click **Save**.
 
@@ -154,13 +154,13 @@ You may find the following best practices helpful when creating an agent to use 
    1. The Task Collaborator fires after all predecessor tasks are complete.
 
 +++
-
+<!--
 +++ Copilot Studio
 
 
 
 +++
-
+-->
 +++ Writer
 
 When creating an agent for use as a Task Collaborator in Writer, we recommend the following workflow.
