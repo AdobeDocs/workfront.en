@@ -136,22 +136,22 @@ You may find the following best practices helpful when creating an agent to use 
    1. Copy the key and save it somewhere safe and secure. You will need this key to configure the Task Collaborator in Workfront.
 
 1. Create an environment.
-   1. Under M**anaged Agents** > **Environments**, click **Create Environment** in the upper-right corner.
+   1. Under **Managed Agents** > **Environments**, click **Create Environment** in the upper-right corner.
    1. Provide a name and hosting type as applicable.
    1. Configure shared packages and metadata as needed. Environments can be reused across multiple agents and allow for shared packages and metadata.
       The environment ID appears below the environment name in the upper-left corner.
 
-1. Create an agent
+1. Create an agent.
    1. Under Managed Agents > Agents, click **Create Agent** in the upper-right corner.
-   1. Provide a name, model, system prompt, skills, and tools as applicable.
-   1. Be descriptive: Workfront bots pass task context through to this agent, which then executes the work.
-   1. The agent ID appears below the agent name in the upper-left corner.
+   1. Provide a name, model, system prompt, skills, and tools as applicable. Be descriptive, because Task Collaborators pass task context through to this agent, which then executes the work.
+     The agent ID appears below the agent name in the upper-left corner.
 
-1. Configure the bot in Workfront
-   1. Enter your API key, environment ID, and agent ID, then click "Test Connection" to verify.
+1. Configure the Task Collaborator in Workfront.
+   1. Enter your API key, environment ID, and agent ID
+   1. Click **Test Connection** to verify.
 
-1. Assign the bot to a Workfront task
-   1. The bot fires when the task's canStart flag is true — once all predecessor tasks are complete.
+1. Assign the Task Collaborator to a Workfront task.
+   1. The Task Collaborator fires after all predecessor tasks are complete.
 
 +++
 
@@ -171,7 +171,7 @@ More detailed information about creating agents can be found in the [Writer docu
 1. Add a single Text input field. You can use the default name "Text input."
 1. Add `@TextInput` to your Prompt. In the Prompts section of your app configuration, make sure your prompt template references the input variable. Without this, the model never sees the task data.
 1. Adjust your Prompt to generate output immediately. Remove any instructions that ask the user for clarification or additional context before responding. For example: "When you receive input, treat it as a content generation request and produce the output immediately. Do not ask for clarification."
-1. Copy your API key and Application ID. You will need both to configure the Task Collaborator in Workfront.
+1. Copy your API key and Application ID. You will need Task Collaboratorh to configure the Task Collaborator in Workfront.
 
    * For instructions on setting up an API key in Writer, see [Quickstart](https://dev.writer.com/home/quickstart) in the Writer documentation.
    * For instructions on setting up an application ID in Writer, see [Invoke no-code agents via the API](https://dev.writer.com/home/applications) in the Writer documentation.
