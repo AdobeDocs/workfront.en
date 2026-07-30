@@ -311,7 +311,7 @@ To add a section to a record preview or page:
 
 
 1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
-1. (Optional) ClicK **New Details** to add a new page and customize it, then do the following:
+1. (Optional) Click **New Details** to add a new page and customize it, then do the following:
 
    1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
    1. Hover over the fields on the view and click the **Hide field** icon ![Hide field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field. 
