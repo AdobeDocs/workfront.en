@@ -95,7 +95,7 @@ Task Collaborators are MCP agents that you can assign to tasks in Workfront. You
 
 Because Task Collaborators are MCP agents, their actions and abilities are configured where you configure your agents. Currently, agents used as Task Collaborators can be created in Copilot Studio, Claude, or Writer.
 
-For a list of best practices when creating an agent to work as a Task Collaborator, see []().
+For a list of best practices when creating an agent to work as a Task Collaborator, see [Best practices for creating an agent for a Task Collaborator](#best-practices-for-creating-an-agent-for-a-task-collaborator).
 
 ### Configure a task collaborator in Workfront
 
