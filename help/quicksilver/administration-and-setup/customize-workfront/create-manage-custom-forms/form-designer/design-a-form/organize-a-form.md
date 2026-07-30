@@ -33,6 +33,8 @@ topic_v2:
 ---
 # Organize and preview a form
 
+{{preview-fast-release-general}}
+
 You can organize a custom form with the form designer, and preview it to verify that it is set up correctly.
 
 ## Access requirements
@@ -192,6 +194,8 @@ In a custom form with a section break configured with the Limited Edit permissio
 
    >[!NOTE]
    >
-   >Advanced logic is not supported in the form designer preview mode.
+   >In the Production environment, advanced logic is not supported in the form designer preview mode.
+   >
+   ><span class="preview">In the Preview environment, all logic types are available in preview mode.</span>
 
 
