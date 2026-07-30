@@ -95,6 +95,12 @@ If your organization wants to take advantage of additional Frame.io functionalit
 
 Workfront Proofing functionality is not available with this integration.
 
+## Complete audit trail
+
+<span class="preview">Unified review and approval includes comprehensive audit logging that creates a complete governance trail across Workfront and Frame.io. Change tracking logs capture approval decisions made in the Frame.io viewer and document lifecycle. Each log entry includes source system attribution (Workfront or Frame.io) alongside the standard Workfront audit fields: date and time, log type, user name, action, and object name. Frame.io viewer comments are not included in audit logs.</span>
+
+<span class="preview">Change tracking logs appear in Workfront's Setup area and are available for export. For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).</span>
+
 ## Powerful project management in Workfront
 
 Project coordinators can leverage Workfront's powerful project management capabilities to plan, track, and manage work.
