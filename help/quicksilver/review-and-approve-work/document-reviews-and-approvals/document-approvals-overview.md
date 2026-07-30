@@ -99,7 +99,7 @@ Workfront Proofing functionality is not available with this integration.
 
 <span class="preview">Unified review and approval includes comprehensive audit logging that creates a complete governance trail across Workfront and Frame.io. Change tracking logs capture approval decisions made in the Frame.io viewer and document lifecycle. Each log entry includes source system attribution (Workfront or Frame.io) alongside the standard Workfront audit fields: date and time, log type, user name, action, and object name. Frame.io viewer comments are not included in audit logs.</span>
 
-<span class="preview">Change tracking logs appear in Workfront's Setup area and are available for export. For more information, see [Audit logs overview](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md).</span>
+<span class="preview">Change tracking logs appear in Workfront's Setup area and are available for export. For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).</span>
 
 ## Powerful project management in Workfront
 
