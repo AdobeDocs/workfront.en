@@ -27,12 +27,9 @@ topic_v2:
 ---
 # Manage the calendar view
 
-<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
 
 {{planning-important-intro}}
 
@@ -437,7 +434,9 @@ Update the calendar view settings to indicate what and how information displays 
 
     * **Record type**: The color of the record bars in the calendar matches the color of the record type you selected. This is the default option. 
     * **Field values**: The color of the records matches the color of a field that you specify. 
-    * **None**: Records displays in a white bar. 
+    * **None**: Records displays in a white bar. <span class="preview">The None option has been removed from the Preview environment.</span>
+
+    
 
 1. (Conditional) If you selected **Field values** for the record colors, select a field from the **Match the record color to** drop-down menu. 
 
@@ -449,6 +448,13 @@ Update the calendar view settings to indicate what and how information displays 
 
     If you do not have a field with color-coded options for the selected record type, this option is dimmed.
 
+   
+    >[!NOTE]
+    >
+    >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+    >    
+    >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        
 
 1. Click **Save**.
 

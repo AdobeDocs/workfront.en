@@ -122,7 +122,7 @@ For information about connecting Planning records with Workfront objects, see [C
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td> <p>Contribute or higher permissions to the workspace and record type where you want to add records. </p>  
-   <p><span class="preview">Manage permissions to the record you are creating the Workfront object from.</span></p>
+   <p>Manage permissions to the record you are creating the Workfront object from.</p>
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
    <p>Manage permissions to Workfront objects (portfolios) to add children objects (projects).</p>
    </td> 

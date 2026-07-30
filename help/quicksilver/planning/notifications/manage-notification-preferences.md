@@ -40,8 +40,8 @@ This article describes how you can manage Adobe Workfront Planning notifications
 You may receive in-app or email notification when the following actions occur in Workfront Planning: 
 
 * Someone adds you or your teams to a comment on the record page
-* Someone asks for permission to access a view or a workspace <!--or <span class="preview">or a record</span>-->
-* Someone grants you permission to access a view or a workspace <!--or <span class="preview">or a record</span> I could not test this but Isk confirmed-->
+* Someone asks for permission to access a view or a workspace or a record
+* Someone grants you permission to access a view or a workspace or a record
 * You submit a Workfront Planning request.
 * Someone approves or rejects a Workfront Planning request that you submitted.
 * The status changes to a Workfront Planning request that you submitted.

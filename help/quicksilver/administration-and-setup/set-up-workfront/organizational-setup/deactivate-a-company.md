@@ -73,7 +73,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **[!UICONTROL Companies]** ![Companies icon](assets/companies-icon-left-panel.png).
+1. In the left panel, click **[!UICONTROL Companies]**.
 
 1. Select one or more companies to deactivate or reactivate.
 1. Click **[!UICONTROL Edit]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">(Conditional) In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
