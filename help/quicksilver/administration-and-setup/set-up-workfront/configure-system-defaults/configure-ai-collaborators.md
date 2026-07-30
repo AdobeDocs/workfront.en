@@ -1,7 +1,7 @@
 ---
 user-type: administrator
 product-area: system-administration;setup
-navigation-topic: configure-locations
+navigation-upperic: configure-locations
 title: Configure AI Collaborators
 description: As an Adobe Workfront administrator, you can configure AI Collaborators and assign them to projects and tasks.
 author: Becky
@@ -122,7 +122,6 @@ For a list of best practices when creating an agent to work as a Task Collaborat
 
 For more information on Task Collaborators, including how to assign them to tasks, see [Use Task Collaborators](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
-</div>
 
 ### Best practices for creating an agent for a Task Collaborator
 
@@ -137,16 +136,16 @@ You may find the following best practices helpful when creating an agent to use 
    1. Copy the key and save it somewhere safe and secure. You will need this key to configure the Task Collaborator in Workfront.
 
 1. Create an environment.
-   1. Under M**anaged Agents** > **Environments**, click **Create Environment** in the top-right corner.
+   1. Under M**anaged Agents** > **Environments**, click **Create Environment** in the upper-right corner.
    1. Provide a name and hosting type as applicable.
-   1. Environments can be reused across multiple agents and allow for shared packages and metadata — configure these as needed.
-   1. The environment ID appears below the environment name in the top-left corner.
+   1. Configure shared packages and metadata as needed. Environments can be reused across multiple agents and allow for shared packages and metadata.
+      The environment ID appears below the environment name in the upper-left corner.
 
 1. Create an agent
-   1. Under Managed Agents -> Agents, click "Create Agent" in the top-right corner.
+   1. Under Managed Agents > Agents, click **Create Agent** in the upper-right corner.
    1. Provide a name, model, system prompt, skills, and tools as applicable.
    1. Be descriptive: Workfront bots pass task context through to this agent, which then executes the work.
-   1. The agent ID appears below the agent name in the top-left corner.
+   1. The agent ID appears below the agent name in the upper-left corner.
 
 1. Configure the bot in Workfront
    1. Enter your API key, environment ID, and agent ID, then click "Test Connection" to verify.
@@ -181,6 +180,8 @@ More detailed information about creating agents can be found in the [Writer docu
 1. Assign the Task Collaborator to a Workfront task. The Collaborator begins work when all of the task's predecessor tasks are complete.
 
 +++
+
+</div>
 
 ## Manage AI Collaborators
 
