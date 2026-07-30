@@ -130,7 +130,29 @@ You may find the following best practices helpful when creating an agent to use 
 
 +++ Claude
 
+1. Navigate to the Claude Console at [platform.claude.com](https://platform.claude.com/).
+1. Create an API key.
+   1. Under API Keys, click **Create Key** in the upper-right corner.
+   1. Provide a name and expiration date.
+   1. Copy the key and save it somewhere safe and secure. You will need this key to configure the Task Collaborator in Workfront.
 
+1. Create an environment.
+   1. Under M**anaged Agents** > **Environments**, click **Create Environment** in the top-right corner.
+   1. Provide a name and hosting type as applicable.
+   1. Environments can be reused across multiple agents and allow for shared packages and metadata — configure these as needed.
+   1. The environment ID appears below the environment name in the top-left corner.
+
+1. Create an agent
+   1. Under Managed Agents -> Agents, click "Create Agent" in the top-right corner.
+   1. Provide a name, model, system prompt, skills, and tools as applicable.
+   1. Be descriptive: Workfront bots pass task context through to this agent, which then executes the work.
+   1. The agent ID appears below the agent name in the top-left corner.
+
+1. Configure the bot in Workfront
+   1. Enter your API key, environment ID, and agent ID, then click "Test Connection" to verify.
+
+1. Assign the bot to a Workfront task
+   1. The bot fires when the task's canStart flag is true — once all predecessor tasks are complete.
 
 +++
 
