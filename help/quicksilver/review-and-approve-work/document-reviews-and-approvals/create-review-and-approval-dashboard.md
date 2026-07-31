@@ -371,7 +371,7 @@ For more information on building a table report, see [Build a table report](/hel
     </tr>
     <tr>
     <td><strong>Document version</strong></td>
-    <td>Document Version > Document > Version</td>
+    <td>Document Version > Document > Current Version > Version</td>
     </tr>
     <tr>
     <td><strong>Deadline</strong></td>
