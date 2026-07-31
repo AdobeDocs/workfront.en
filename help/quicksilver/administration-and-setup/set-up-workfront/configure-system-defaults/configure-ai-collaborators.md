@@ -59,6 +59,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Prerequisites
 
+### For AI Reviewers:
+
 * Your organization must have a signed Adobe Gen AI Agreement on file. 
 
    For more information, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in the article AI Assistant in Workfront.
@@ -68,6 +70,14 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 * To use Adobe Brand Intelligence for a Reviewer AI Collaborator, your organization must use the unified review and approval experience in Workfront. </span>
 
    For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md). </span>
+
+<div class="preview">
+
+### For Task Collaborators
+
+You must configure an agent in Claude, Copilot Studio, or Writer before you can use it as a Task Collaborator. 
+
+</div>
 
 ## Create a new Reviewer-type AI Collaborator
 
