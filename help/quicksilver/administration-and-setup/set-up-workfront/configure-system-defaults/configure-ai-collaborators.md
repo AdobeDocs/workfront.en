@@ -181,7 +181,7 @@ More detailed information about creating agents can be found in the [Writer docu
 1. Add a single Text input field. You can use the default name "Text input."
 1. Add `@TextInput` to your Prompt. In the Prompts section of your app configuration, make sure your prompt template references the input variable. Without this, the model never sees the task data.
 1. Adjust your Prompt to generate output immediately. Remove any instructions that ask the user for clarification or additional context before responding. For example: "When you receive input, treat it as a content generation request and produce the output immediately. Do not ask for clarification."
-1. Copy your API key and Application ID. You will need Task Collaboratorh to configure the Task Collaborator in Workfront.
+1. Copy your API key and Application ID. You will need Task Collaborator to configure the Task Collaborator in Workfront.
 
    * For instructions on setting up an API key in Writer, see [Quickstart](https://dev.writer.com/home/quickstart) in the Writer documentation.
    * For instructions on setting up an application ID in Writer, see [Invoke no-code agents via the API](https://dev.writer.com/home/applications) in the Writer documentation.
