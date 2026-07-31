@@ -2,7 +2,7 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Assign Tasks
-description: You can assign tasks to users, roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
+description: You can assign tasks to users, roles, teams, or Task Collaborators to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
 author: Lisa
 feature: Work Management, Tasks
 role: User
@@ -46,7 +46,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 </div>
 -->
 
-You can assign tasks to users, job roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
+You can assign tasks to users, job roles, teams, or Task Collaborators to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
 
 >[!TIP]
 >
@@ -66,6 +66,7 @@ In addition to this article, we recommend that you read the following articles f
 * [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md) 
 * [Make smart assignments](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md) 
 * [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md) 
+* [Use task collaborators](../../../manage-work/tasks/assign-tasks/use-task-collaborators.md) 
 * [Modify multiple user assignments in a task list](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md) 
 * [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md) 
 * [Plan a project overview](../../../manage-work/projects/planning-a-project/plan-project.md) 
@@ -174,7 +175,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 
 1. Do one of the following:
 
-   * Start typing the name of a user, job role, or team that you want to assign, then click it when it appears in the list.
+   * Start typing the name of a user, job role, team, or Task Collaborator that you want to assign, then click it when it appears in the list.
     
       >[!TIP]
       >
@@ -203,7 +204,7 @@ Depending on which field is visible in the view, you can assign the following en
 |---|---|
 | **Assign To** |Assign one user  |
 | **Assigned** |Assign one user |
-| **Assignments** |Assign users, job roles, or teams |
+| **Assignments** |Assign users, job roles, teams, or Task Collaborators |
 
 To assign tasks in a list:
 
@@ -221,7 +222,7 @@ To assign tasks in a list:
 1. To assign tasks do one of the following:
 
    * Click inside the **Assigned To** or **Assigned** fields and start typing the name of an active user that you want to assign to the task, then click it when it displays in the list.
-   * Click inside the **Assignments** field and start typing the name of an active user, job role, or team that you want to assign to the task, then click it when it displays in the list.
+   * Click inside the **Assignments** field and start typing the name of an active user, job role, team, or Task Collaborator that you want to assign to the task, then click it when it displays in the list.
 
       >[!TIP]
       >
@@ -256,7 +257,7 @@ To assign tasks in a list:
 
    The **Edit Tasks** box opens.
 
-1. In the **Assignments** area, start typing the name of users, teams, or roles in the **Search people, roles, or teams** field provided, then click them when they display in the list
+1. In the **Assignments** area, start typing the name of users, teams, roles, or Task Collaborators in the **Search people, roles, or teams** field provided, then click them when they display in the list
 
    >[!IMPORTANT]
    >
