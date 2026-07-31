@@ -137,7 +137,7 @@ For more information, see [Build a KPI report](/help/quicksilver/reports-and-das
 
     1. Click into the empty condition filter, then click **Pick a Field**.
     
-    1. Select **Approval Stage** > **Deadline**.
+    1. Select **Approval Stages** > **Deadline**.
     1. Change the operator to **Less Than**.
     1. Toggle **Set relative date** to **ON**, then type _$$TODAY_ in the textbox.
     ![overdue kpi filter example](assets/overdue-kpi-filter.png)
@@ -319,13 +319,13 @@ For more information, see [Build a KPI report](/help/quicksilver/reports-and-das
     1. Click **Edit Filter**, then **Add condition**.
     1. Click into the empty condition filter, then click **Pick a Field**.
 
-    1. Select **Approval stage** > **Approval stage participants** > **Decision Date**.
+    1. Select **Approval stages** > **Approval stage participants** > **Decision Date**.
 
     1. Change the operator to **Is Null**.
     ![revisions chart filter example](assets/revision-chart-filter.png)
     1. Click **Add condition**.
     1. Click into the empty condition filter, then click **Pick a Field**.
-    1. Select **Approval stage** > **Deadline**.
+    1. Select **Approval stages** > **Deadline**.
     1. Change the operator to **Less Than or Equal**, then toggle **Set relative date** to **ON**.
     1. Type _$$TODAYem_ in the textbox.
     ![Revisions chart filter example](assets/revision-chart-filter-2.png)
@@ -357,7 +357,7 @@ For more information on building a table report, see [Build a table report](/hel
 
     1. In the left panel, click the **Table columns** ![Table columns icon](assets/drilldown-column.png) icon.
     1. Click **Add column**.
-    1. Scroll down and select **Document Approvals** > **Status**.
+    1. Scroll down and select **Document Approval** > **Status**.
     1. Add the following columns:
 
     <table>
@@ -375,19 +375,19 @@ For more information on building a table report, see [Build a table report](/hel
     </tr>
     <tr>
     <td><strong>Deadline</strong></td>
-    <td>Document Approval > Approval Stage > Deadline</td>
+    <td>Document Approval > Approval Stages > Deadline</td>
     </tr>
     <tr>
     <td><strong>Requested by</strong></td>
-    <td>Document Approval > Approval Stage > Approval Stage Participants* > Requester > type <em>Name</em> in the search box.</td>
+    <td>Document Approval > Approval Stages > Approval Stage Participants* > Requester > type <em>Name</em> in the search box.</td>
     </tr>
     <tr>
     <td><strong>Requested date</strong></td>
-    <td>Document Approval > Approval Stage > Approval Stage Participants* > Created at</td>
+    <td>Document Approval > Approval Stages > Approval Stage Participants* > Created at</td>
     </tr>
     <tr>
     <td><strong>Approver</strong></td>
-    <td>Document Approval > Approval Stage > Approval Stage Participants* > Participant User > type <em>Name</em> in the search box.</td>
+    <td>Document Approval > Approval Stages > Approval Stage Participants* > Participant User > type <em>Name</em> in the search box.</td>
     </tr>
     </table>
 
@@ -425,7 +425,7 @@ To view more specific information depending on your use case, you can add additi
 
 1. Click **Edit Filter** > **Add condition**:
     1. Click into the empty condition filter, click **Pick a Field**.
-    1. Select **Approval Stage** > **Approval Stage Participants** > **Requester** > type _Name_ in the search box. 
+    1. Select **Approval Stages** > **Approval Stage Participants** > **Requester** > type _Name_ in the search box. 
     1. Change the operator to **Equal**, then choose **Me (Logged in user)** to display projects in Workfront where you are marked as the project owner.
         ![pending approval table filter example](assets/pending-approvals-my-project-filter.png)
 1. Click **Save** in the top-right corner of the screen.
@@ -471,19 +471,19 @@ To view more specific information depending on your use case, you can add additi
         </tr>
         <tr>
         <td><strong>Deadline</strong></td>
-        <td>Document > Approval Stage > Deadline</td>
+        <td>Document > Approval Stages > Deadline</td>
         </tr>
         <tr>
         <td><strong>Requested by</strong></td>
-        <td>Document > Approval Stage > Approval Stage Participants* > Requester > type <em>Name</em> in the search box.</td>
+        <td>Document > Approval Stages > Approval Stage Participants* > Requester > type <em>Name</em> in the search box.</td>
         </tr>
         <tr>
         <td><strong>Requested date</strong></td>
-        <td>Document > Approval Stage > Approval Stage Participants* > Created at</td>
+        <td>Document > Approval Stages > Approval Stage Participants* > Created at</td>
         </tr>
         <tr>
         <td><strong>Approver</strong></td>
-        <td>Document > Approval Stage > Approval Stage Participants* > Participant User > type <em>Name</em> in the search box.</td>
+        <td>Document > Approval Stages > Approval Stage Participants* > Participant User > type <em>Name</em> in the search box.</td>
         </tr>
         </table>
 
@@ -493,7 +493,7 @@ To view more specific information depending on your use case, you can add additi
     1. In the left panel, click the **Filter** ![filter tab icon](assets/filter-tab.png) icon.
     1. Click **Edit Filter**, then **Add condition**.
     1. Click into the empty condition filter, then click **Pick a Field**.
-    1. Select **Approval Stage** > **Deadline**.
+    1. Select **Approval Stages** > **Deadline**.
     1. Change the operator to **Less than**, then toggle **Set relative date** to **ON**.
     1. Type _$$TODAY_ in the text field. 
         ![overdue approval table filter example](assets/overdue-approval.png)
@@ -521,7 +521,7 @@ To view more specific information depending on your use case, you can add additi
 
 1. Click **Edit Filter** > **Add condition**:
     1. Click into the empty condition filter, click **Pick a Field**.
-    1. Select **Approval Stage** > **Approval Stage Participants** > **Requester** > type _Name_ in the search box. 
+    1. Select **Approval Stages** > **Approval Stage Participants** > **Requester** > type _Name_ in the search box. 
     1. Change the operator to **Equal**, then choose **Me (Logged in User)** to display projects in Workfront in which you are marked as the project owner.
         ![pending approval table filter example](assets/pending-approvals-my-project-filter.png)
 1. Click **Save** in the top-right corner of the screen.
@@ -530,7 +530,7 @@ To view more specific information depending on your use case, you can add additi
 
 1. Click **Edit Filter** > **Add condition**:
     1. Click into the empty condition filter, click **Pick a Field**.
-    1. Select **Approval Stage** > **Approval Stage Participants** > **Participant Team** > type _Name_ in the search box. 
+    1. Select **Approval Stages** > **Approval Stage Participants** > **Participant Team** > type _Name_ in the search box. 
     1. Change the operator to **Equal**, then choose **My default teams (Logged in User)** or **My other teams (Logged in User)** to display projects assigned to either your default team or other teams you are on.
         ![pending approval table filter example](assets/approvals-ive-submitted-filter.png)
 1. Click **Save** in the top-right corner of the screen.
