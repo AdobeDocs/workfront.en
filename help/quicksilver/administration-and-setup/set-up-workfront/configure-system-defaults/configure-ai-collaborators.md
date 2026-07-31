@@ -116,7 +116,7 @@ For a list of best practices when creating an agent to work as a Task Collaborat
    |Claude Managed Agents|Anthropic API key<br>Agent ID<br>Environment ID|
    |Writer|API key<br>Application ID|
 
-1. Optional To test whether the credentials were set up correctly, click **Test connection**.
+1. Click **Test connection**. This lets you know whether the connection was set up correctly.
 1. In the **After the Collaborator is finished with its work, it can** area, toggle on the actions that you want the collaborator to take.
 1. Click **Save**.
 
