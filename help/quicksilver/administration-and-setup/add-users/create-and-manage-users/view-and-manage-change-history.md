@@ -18,7 +18,7 @@ Change history can track the following types of data that you define:
 * Activity in the Setup area such as creating or deleting an access level or a job role
 * Field-level updates such as editing a project description or changing a user's layout template
 * Object updates such as updating a project status or attaching a custom form to a task
-* <span class="preview">Unified review and approval workflow activity, including participants and decisions.</span>
+* <span class="preview">Unified review and approval workflow activity, including participants and decisions</span>
 
 For information about defining which objects and fields are tracked, see [Configure fields to track in change history](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md).
 
