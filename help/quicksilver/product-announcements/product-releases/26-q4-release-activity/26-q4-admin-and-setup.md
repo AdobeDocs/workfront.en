@@ -87,7 +87,7 @@ Approval, stage, and participant actions are now tracked. These actions may incl
 
 Each entry includes the standard tracked fields: date and time, operation, user name (or "system generated"), and object name. MCP activities are captured, including which LLM (such as Claude) made the update. Frame.io viewer comments are not included.
 
-For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Define a custom application as a landing page in the layout template
 
@@ -115,7 +115,7 @@ You can add fields you want to track for a particular type of object throughout 
 
 Previously, the Configuration screen for defining the tracked fields was view-only.
 
-For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+For more information, see [Configure fields to track in change history](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md).
 
 ## Administrative access to change history added to access levels
 
@@ -127,6 +127,6 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 On the Standard access level, you can now define whether users with that level should have access to the Change History List. The **Change history** option is available in the **Allow administrative access for** section on the access level.
 
-For more information, see [Grant users administrative access to certain areas](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) and [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+For more information, see [Grant users administrative access to certain areas](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) and [View and manage change history](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 

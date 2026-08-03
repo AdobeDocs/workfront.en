@@ -32,7 +32,7 @@ Each entry includes the standard tracked fields: date and time, operation, user 
 
 This phase of change tracking does not include MCP events. Those will be part of a future release.
 
-For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 -->
 
@@ -148,7 +148,7 @@ To make it easier for you to see the changes that have occurred in one central l
 
 Previously, Audit logs were available but did not cover objects.
 
-For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## New system preference to convert legacy storage portfolios to Adobe cloud storage
 
