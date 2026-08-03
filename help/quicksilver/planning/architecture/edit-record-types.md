@@ -55,29 +55,37 @@ Record types are the object types of Adobe Workfront Planning. You can edit the 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and Planning package</p>
-<p>Any Workfront and Planning package</p>
+<p>Any Workfront or Workflow with a Planning package</p>
+<p>Any Planning package when purchased as a standalone product</p>
 <p><b>NOTE</b></p>
 <p>To configure connectable record types: </p>
 <ul> 
 <li><p>Any Workfront package and any Planning package</p></li>
 Or
-<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
-
+<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li>
+Or
+<li>Any Planning Prime and Ultimate package</li>
+</ul>
 
 <p>To configure global record types:</p>
 
 <ul> 
-<li><p>Any Workfront package and a Planning Plus package</p></li>
+<li><p>Any Workfront package with a Planning Plus package</p></li>
 Or
-<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
-
+<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li>
+Or
+<li>Any Planning package when purchased as a standalone product</li>
+</ul>
    </td> </tr>
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p>
-   </td> 
+   <td role="rowheader"><p>Adobe Workfront and Planning licenses</p></td> 
+   <td><p>Any</p> 
+  </td> 
+  </tr>  
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
@@ -138,7 +146,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

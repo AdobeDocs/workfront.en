@@ -57,15 +57,23 @@ The user's commands and the AI's execution of those commands work together to en
 <tr> 
    <td role="rowheader"><p>Adobe Workfront packages</p></td> 
    <td> 
-<p>Any Workfront and Planning package</p>
-<p>Any Workflow and Planning package</p>
+<p>Any Workfront or Workflow with a Planning package</p>
+<p>Any Planning package when purchased as a standalone product</p>
    </td> </tr>
-
-  </tr> 
-  <tr> 
+ <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p> 
-  </td> 
+   <td><p>Workflow Standard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 

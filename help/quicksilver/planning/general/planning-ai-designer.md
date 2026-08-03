@@ -52,7 +52,7 @@ For information about Workfront Planning, see the following articles:
 * [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md)
 
 
-## Access requirements <!--edit theses??-->
+## Access requirements 
 
 +++ Expand to view access requirements for the functionality in this article. 
 
@@ -66,20 +66,25 @@ For information about Workfront Planning, see the following articles:
    <td role="rowheader"><p>Adobe Workfront packages</p></td> 
    <td> 
 <p>Any Workfront or Workflow package with a Planning package</p>
-<p>Any Planning as a standalone product package</p>
+<p>Any Planning when purchased as a standalone product</p>
    </td> </tr>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Workfront license</p></td> 
-   <td><p>Standard</p> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Workflow Standard</p> 
    <p>Workfront Administrators must enable the Planning Designer for your organization</p>
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Planning license</p></td> 
-   <td><p>Standard</p> 
+   <td><p>Planning Standard</p> 
    <p>Workfront Administrators must enable the Planning Designer for your organization</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 

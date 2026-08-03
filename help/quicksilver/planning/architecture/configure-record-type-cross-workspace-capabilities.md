@@ -79,22 +79,23 @@ For information, see one of the following articles:
    <td> 
 <p>To configure connectable record types: </p>
 <ul> 
-<li><p>Any Workfront package and any Planning package</p></li>
+<li>Any Workflow and a Planning Prime or Ultimate package</p></li>
 Or
-<li>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
-
+<li>A Workfront Planning Prime or Ultimate package as a standalone product</li>
+</ul>
 
 <p>To configure global record types:</p>
 
 <ul> 
-<li><p>Any Workfront package and a Planning Plus package</p></li>
+<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li>
+
 Or
-<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+<li>A Planning Prime or Ultimate package when purchased as a standalone product </li>
+</ul>
 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td role="rowheader"><p>Adobe Workfront and Planning license</p></td> 
    <td>
    <!--
    <p>In the Production environment: </p>
@@ -105,15 +106,17 @@ Or
    -->
 
    <p>To make a record global:</p>
-   <ul><li>Standard or higher</li></ul>
+   <ul><li>Workfront and Planning Standard or higher</li></ul>
    <p>To make a record connectable:</p>
      
-   <ul><li>Standard to make a record connectable from specific workspaces</li>
+   <ul><li>Workfront and Planning Standard to make a record connectable from specific workspaces</li>
    <li>System Administrator to make a record connectable from all workspaces</li></ul>
     
-   
    </td> 
   </tr> 
+  <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a workspace</p>  

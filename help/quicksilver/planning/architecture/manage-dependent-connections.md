@@ -13,6 +13,8 @@ recommendations: noDisplay, noCatalog
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+{{planning-important-intro}}
+
 As a workspace manager, you can define dependent connections when creating connection fields between record types in Adobe Workfront Planning. 
 
 When adding connected fields, you can turn on a setting that indicates that the values of the connected record type depend on the values of the source record type (the one where you're adding the connection), whenever both fields appear together on a third record type.
@@ -52,7 +54,6 @@ Once configured, any record type that references both fields (such as a Campaign
 <p>Or</p>
 <li><p>Any Planning Prime or Ultimate package when purchased as a standalone product</p></li>
 </ul>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
 <tr> 
 <td> 
@@ -67,8 +68,18 @@ Once configured, any record type that references both fields (such as a Campaign
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow Standard</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 

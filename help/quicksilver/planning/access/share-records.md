@@ -80,20 +80,30 @@ at GA, check that the Workfront plans article linked below has Planning info
 </col> 
 <tbody> 
     <tr> 
+
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <p>Any Workfront or Workflow with a Planning package</p> 
 Or
 <p>Any Workfront Planning as a standalone product package</p> 
- </tr>
-   
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td><p>Any</p> 
-   <p><b>NOTE</b></p>
-   <p>Only people with a Standard license can be granted Manage permissions to records. All other licenses can only have View permissions and the Manage option is dimmed for them.</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Any</p> 
+<p><b>NOTE</b></p>
+   <p>Only people with a Planning Standard license can be granted Manage permissions to records. All other licenses can only have View permissions and the Manage option is dimmed for them.</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>  
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
