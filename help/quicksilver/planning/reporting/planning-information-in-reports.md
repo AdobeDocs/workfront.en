@@ -34,16 +34,23 @@ You can view Adobe Workfront Planning information in reports when you use the Ca
 <tr> 
    <td role="rowheader"><p>Adobe Workfront packages</p></td> 
    <td> 
-<p>Any Workfront or Workflow package</p>
-<p>Any Planning package</p>
+<p>Any Workfront or Workflow with a Planning package</p>
+<p><b>NOTE</b></p>
+<p>Reports are not available for customers who purchased Workfront Planning as a standalone product</p>
    </td> </tr>
 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p> 
+   <td><p>Workflow Standard</p> 
   </td> 
   </tr>
+ <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p> 
+  </td> 
+  </tr>
+
    <tr> 
    <td role="rowheader"><p>Access level configurations</p></td> 
    <td><p>Edit access to Reports, Dashboards, and Calendars</p>
@@ -51,7 +58,9 @@ You can view Adobe Workfront Planning information in reports when you use the Ca
   </tr>  
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td><p>View permissions to a workspace</a> </p>  
+   <td>
+   <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+   <p>View permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  
    </td> 
   </tr>  

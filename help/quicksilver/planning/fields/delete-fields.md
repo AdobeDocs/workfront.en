@@ -60,23 +60,33 @@ You can delete Workfront Planning fields that are no longer relevant.
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <ul> 
-<li><p>Any Workfront and any Planning package</p></li>
+<li><p>Any Workfront or Workflow with a Planning package</p></li>
 Or
-<li><p>Any Workflow and any Planning package</p></li></ul>
+<li><p>Any Planning package when purchased as a standalone package</p></li></ul>
 
 <p>To delete fields from global record types:</p>
 <ul><li><p>Any Workfront package and a Planning Plus package</p></li>
 Or
-<li><p>Any Workflow and Planning Prime and Ultimate packages</p></li></ul>
-
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+<li><p>Any Workflow and Planning Prime and Ultimate packages</p></li>
+Or
+<li>Any Planning Primar and Ultimate package when purchased as a standalone product</li>
+</ul>
    </td> 
-  <tr> 
+ <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
-  <tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
+  </tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a workspace</p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
@@ -136,7 +146,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

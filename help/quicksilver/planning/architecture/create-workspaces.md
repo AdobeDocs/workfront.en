@@ -61,16 +61,28 @@ For general information about workspaces, see [Workspaces overview](/help/quicks
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront or Workflow package</p> 
-<p>Any Workfront Planning package</p>
+<p>Any Workfront or Workflow package with a Planning package</p> 
+<p>Any Planning package when purchased as as standalone product</p>
+
+<p><b>NOTE</b></p>
 <p>A Workfront Planning Prime or higher package to create multiple workspaces at a time</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
    <p>System Administrator to create multiple workspaces at one time using the best-practice template bundle</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
@@ -132,7 +144,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
