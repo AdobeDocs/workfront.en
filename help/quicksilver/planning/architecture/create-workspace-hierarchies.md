@@ -27,7 +27,7 @@ topic_v2:
 # Create workspace hierarchies
 
 <!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>    
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -64,7 +64,7 @@ For general information about hierarchies and breadcrumbs, see [Hierarchy and br
 <li><p>Any Workfront or Workflow with a Planning package</p></li>
 Or
 <li><p>Any Planning package when purchased as a standalone product</p></li></ul>
-   </td> 
+   </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td><p>Workflow Standard</p>

@@ -62,20 +62,28 @@ For information about submitting a request to a record type to create a record, 
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront packages</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront package and any Planning package</p>
+<ul> 
+<li><p>Any Workfront or Workflow with a Planning package</p></li>
 Or
-<p>Any Workflow package and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative.</p>
+<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
    </td> </tr>
-
-  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p> 
-  </td> 
+   <td><p>Workflow Standard</p>
+   </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a workspace or record type</a> </p>  

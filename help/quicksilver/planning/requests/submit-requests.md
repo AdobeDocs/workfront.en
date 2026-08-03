@@ -66,17 +66,26 @@ For information about how a workspace manager can create a request form and asso
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront packages</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront or Workflow package</p>
-<p>Any Workfront Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative.</p>
-   </td> </tr>
-  </tr> 
+<p>Any Workfront or Workflow with a Planning package</p> 
+Or
+<p>Any Workfront Planning when purchased as a standalone product</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td><p>Any</p> 
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Any</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
