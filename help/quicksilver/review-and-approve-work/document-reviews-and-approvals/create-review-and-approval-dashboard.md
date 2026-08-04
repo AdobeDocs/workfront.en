@@ -22,7 +22,7 @@ topic_v2:
 ---
 # Create a report dashboard for review and approvals
 
-You can create a report dashboard in the Canvas Dashboards area to display both high-level and detailed information about reviews and approvals with Unified Approvals functionality.  
+You can create a report dashboard in the Canvas Dashboards area to display both high-level and detailed information about reviews and approvals with Unified Approvals functionality.
 
 >[!IMPORTANT]
 >
@@ -38,9 +38,10 @@ You can create a report dashboard in the Canvas Dashboards area to display both 
 1. In the left panel, click **Canvas Dashboards**.
 1. Click **New Dashboard**. 
 1. Name your dashboard.
-1. (Optional) Add a description. 
+1. (Optional) Add a description.
+1. (Optional) If you have multiple currencies defined in your Workfront instance, you can also select a default currency for the dashboard.
 1. Click **Create**.
-    ![add dashboard name and description](assets/create-a-dashboard.png)
+    ![Add dashboard name and description](assets/create-a-dashboard.png)
 
 Once you create a dashboard, you can start adding KPIs, Charts, and Tables. See the following sections for more information:
 
