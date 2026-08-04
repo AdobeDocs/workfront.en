@@ -15,14 +15,20 @@ The new Documents area, the Frame.io viewer, and other Adobe cloud storage behav
 
 This article is for Workfront administrators preparing to roll out Workfront on Adobe cloud storage. It covers major differences on Adobe cloud storage objects, how to choose your rollout type, and what to think through before you enable Adobe cloud storage for your users.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >* You must be on a version of Workfront that supports Adobe cloud storage. If your organization is not already on a supported version, contact your Adobe account representative.
->* Moving to a version of Workfront that supports Adobe cloud storage moves *all* existing approval workflows from Legacy Document Approvals to Unified Approvals. See [Unified Approvals applies regardless of storage model](#unified-approvals-applies-regardless-of-storage-model) for more information.
 
 ## Unified Approvals applies regardless of storage model
 
-Moving to a version of Workfront that supports Adobe cloud storage moves *all* existing approval workflows from Legacy Document Approvals to Unified Approvals—for every object, whether it stays on legacy Workfront storage or moves to Adobe cloud storage. This is different from the storage rollout choices described in [Choose how Adobe cloud storage rolls out](#choose-how-adobe-cloud-storage-rolls-out): those choices control which storage model new objects use, not whether approval workflows move to Unified Approvals. There's no pilot group or gradual option for this change—it applies organization-wide as soon as you're on a supported version.
+Moving to a version of Workfront that supports Adobe cloud storage moves *all* existing approval workflows from Legacy Document Approvals to Unified Approvals—for every object, whether it stays on legacy Workfront storage or moves to Adobe cloud storage. 
+
+
+>[!IMPORTANT]
+>
+>This is different from the storage rollout choices described in [Choose how Adobe cloud storage rolls out](#choose-how-adobe-cloud-storage-rolls-out): those choices control which storage model new objects use, not whether approval workflows move to Unified Approvals.<br>
+>There's no pilot group or gradual option for this change—it applies organization-wide as soon as you're on a supported version.
+
 
 Before you roll out Adobe cloud storage, make sure the people who manage approvals know what to expect:
 
@@ -236,11 +242,13 @@ You decide how Adobe cloud storage appears to your users. There are two configur
 
 For step-by-step instructions, see [Enable Adobe cloud storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
+
+### Configuration options
+
 * **Adobe cloud storage only**: New projects use Adobe cloud storage by default. Users can't create legacy projects.
 * **Adobe cloud storage and legacy Workfront storage**: When users create a project, they choose between Adobe cloud storage (labeled "New project") and legacy Workfront storage (labeled "Legacy storage").
 
     ![choose a project type](assets/choose-project-type.png)
-
 
 
 >[!TIP]
