@@ -208,6 +208,10 @@ For information, see [Create record types](/help/quicksilver/planning/architectu
 
 ## Create fields by importing them from Workfront
 
+>[!IMPORTANT]
+>
+>Creating fields by importing them from Workfront is not available for customers who purchased Planning as a standalone product.
+
 You can import copies of existing Workfront fields. 
 
 Importing fields from Workfront creates a copy of each field for a Workfront Planning record type. 

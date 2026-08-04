@@ -60,14 +60,25 @@ If a row is absent from the Access requirements table in a given article, there 
   <p>Your organization may have purchased a Workfront package in one or more of these areas.</p>
   <p>Previously, Workfront offered Workfront Select, Workfront Prime, and Workfront Ultimate packages, without distinguishing between Workflow, Planning, and Automation and Integration. Your organization may be on one of these legacy packages. 
    <ul><li>To find out what Adobe Workfront package your organization uses, including whether your organization is under the current or legacy packaging model, contact your Workfront administrator.</li>
-   <li>For instructions on how a Workfront administrator can locate your organization's Workfront package, see <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">View your organization's cluster and Workfront package</a>.</li><li>For more information on the Workfront packages, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>.</li></ul> </td> 
+   <li>For instructions on how a Workfront administrator can locate your organization's Workfront package, see <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">View your organization's cluster and Workfront package</a>.</li><li>For more information on the Workfront packages, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>.</li></ul> 
+   
+   Your organization might purchase a Workfront Planning package in one of the following offerings:
+
+   <ul>
+    <li> Together with a Workflow package, with identical number of Workflow and Planning licenses. </li>
+    <li>Together with a Workflow package, with a mismatched number of licenses between Workflow and Planning. </li>
+    <li>As a standalone product.</li></ul>
+
+  Functionality may differ between the three Workfront Planning offerings. For information, see <a href="/help/quicksilver/planning/general/planning-overview.md" class="MCXref xref">Get started with Adobe Workfront Planning</a>.
+
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td> Adobe Workfront licenses refer to the set of Workfront features included with the license assigned to you. For example, one user might have a license that includes marking work items complete and logging time, while another user has a license that allows them only to approve assets or submit requests. <p> 
    <p>Adobe Workfront licenses can refer to the following types of licenses:</p>
-   <ul><li>Workfront Workflow licenses</li>
-  <li>Workfront Planning licenses</li></ul>
+   <ul><li><b>Workfront Workflow licenses</b>: Available for all customers who purchase Workfront. The Workflow licenses are: Workflow Standard, Light, Contributor.</li>
+  <li><b>Workfront Planning licenses</b>: Available to all customers who purchase any of the Workfront Planning offerings. The Planning licenses are: Standard, Contributor, No Access. Customers who purchase Workfront Planning as a standalone product do not have a Contributor license.  </li></ul>
    
    <p>To find out which license you are assigned, contact your Workfront administrator.</p>
    <p>For information about licenses see:</p>
