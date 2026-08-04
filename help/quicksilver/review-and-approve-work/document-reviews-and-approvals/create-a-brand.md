@@ -143,6 +143,8 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Best practices for writing brand guidelines
 
+Before writing your guidelines, review [what the Content Reviewer evaluates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-content-reviewer-evaluates) for image and brand voice guideline types. Guidelines outside of these evaluation areas will not be scored.
+
 *  Write brand guidelines that describe measurable criteria. The Content Reviewer evaluates content literally, so objective rules produce more consistent scores than subjective ones.
 
 * Look for words like "avoid," "keep," or "make sure" in your guidelines. These often signal a rule you can tighten. Replace the vague instruction with a specific list of words, formats, or limits. For example, replace "avoid common skiing clichés" with "do not use 'gnar,' 'pow,' or 'shred.'"

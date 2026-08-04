@@ -121,6 +121,14 @@ To link content:
    </tbody>
    </table>
 
+   >[!NOTE]
+   >
+   >Recommended Content in Content Advisor uses data from the following to determine suggested content in Workfront:
+   >
+   >* Workfront object name and description fields
+   >* Custom form fields marked as required
+   >* Data from attached documents
+
 <!--
 ### Link a new version from Experience Manager Assets
 
