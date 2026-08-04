@@ -9,37 +9,47 @@ role: Admin
 ---
 # Move from legacy document approvals to Unified Approvals
 
-Moving to a version of Workfront that supports Adobe cloud storage also moves your organization from Legacy Document Approvals to Unified Approvals—for every object, regardless of storage model. This article covers what changes for approval workflows already in place, and what to prepare before your organization upgrades.
+Moving to a version of Workfront that supports Adobe cloud storage also moves your organization from Legacy Document Approvals to Unified Approvals—for every object, regardless of storage model. This article provides information on which functionality will be available in Unified Approvals as well as recommendations for Workfront administrators moving users off legacy document approvals.
 
-This article is for Workfront administrators who manage approval workflows and need to plan for the cutover. For the full picture of what changes with Adobe cloud storage, see [Move to Workfront on Adobe cloud storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
 >[!IMPORTANT]
 >
->This change applies organization-wide as soon as you're on a supported version of Workfront. There's no pilot group or gradual rollout option for the move from Legacy Document Approvals to Unified Approvals—unlike the storage rollout choices described in [Choose how Adobe cloud storage rolls out](/help/quicksilver/review-and-approve-work/workfront-storage.md#choose-how-adobe-cloud-storage-rolls-out).
+>This change applies organization-wide as soon as you're on a version of Workfront that supports Adobe cloud storage. There's no pilot group or gradual rollout option for the move from Legacy Document Approvals to Unified Approvals.<br>
+>For the full picture of what changes with Adobe cloud storage, see [Move to Workfront on Adobe cloud storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
-## What happens to existing legacy approvals
+## Understand what is changing from legacy document approvals to Unified Approvals
+
+|  | Legacy document approvals | Unified Approvals |
+| --- | --- | --- |
+| Approvers and reviewers | Individual users only, as approvers | Individual users and teams, as approvers or reviewers |
+| Deadlines and reminders | No built-in deadline reminders | Due dates with automated reminders at 72 hours, 24 hours, and on the deadline |
+| Approval stages and paths | Single round of approval | [Multi-stage approvals and parallel review paths](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) |
+| Approval templates | Not supported—each approval is configured individually | [Reusable approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) configured in Workfront Setup |
+| Review and markup | Proofing viewer | [Proofing viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md) on legacy Workfront storage, or the [Frame.io viewer](/help/quicksilver/review-and-approve-work/workfront-storage.md#review-and-approval-viewer) on Adobe cloud storage |
+| AI-assisted review | Not available | [Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) for automated brand compliance checks |
+| Reporting | Legacy reporting | Home KPI widgets and [Canvas Dashboards](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) |
+| Workfront Fusion | N/A | Existing scenarios may need to be [edited, rebuilt, or retired](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md) |
+
+
+### What happens to approvals already in progress
 
 >[!NOTE]
 >
->PLACEHOLDER — confirm with Product/PM: What happens to legacy document approvals that are in progress (not yet fully approved) at the moment an org upgrades? Are they automatically migrated, closed/withdrawn and requiring re-creation, or left to complete on the legacy system? This determines the rest of this section.
+>PLACEHOLDER — confirm with Product/PM: What happens to legacy document approvals that are in progress (not yet fully approved) at the moment an org upgrades? Are they automatically migrated, closed/withdrawn and requiring re-creation, or left to complete on the legacy system?
 
-## Before you upgrade
+## Prepare for the upgrade
 
-* PLACEHOLDER — confirm: Should admins export/archive legacy approval reports before cutover? (Reporting moves to Canvas Dashboards; see [Create a report dashboard for review and approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).)
+* Share the [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md) article with your end users.
+* Review your existing Workfront Fusion scenarios against [Update Workfront Fusion scenarios for unified review and approval](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md) before your organization upgrades.
+* PLACEHOLDER — confirm: Should admins export or archive legacy approval reports before cutover, since they don't carry over to Canvas Dashboards?
 * PLACEHOLDER — confirm: Is there a recommended way to close out in-flight legacy approvals before upgrading?
-* PLACEHOLDER — confirm: Do legacy approval templates carry over, or must they be rebuilt as Unified Approvals templates?
 
-## What end users will notice
-
-Reviewers, approvers, and project owners who currently use legacy document approvals will see a new approvals experience — Unified Approvals adds multi-stage approvals, parallel review paths, and the Frame.io viewer in place of the legacy experience. Plan how you'll communicate this change so people aren't surprised by their next approval request. For more information, see:
+### Help articles for end users
 
 * [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
 * [Available functionality for document approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
-
-## Related articles
-
-* [Move to Workfront on Adobe cloud storage](/help/quicksilver/review-and-approve-work/workfront-storage.md)
 * [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
-* [Create a report dashboard for review and approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
-* [Update Workfront Fusion scenarios for unified review and approval](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md)
-
+* [Review and approve with the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
+* [Use Unified Approvals and proofing together](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
+* [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+* [Get started with the Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
