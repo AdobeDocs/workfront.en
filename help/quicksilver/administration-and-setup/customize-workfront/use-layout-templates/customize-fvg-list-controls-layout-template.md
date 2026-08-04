@@ -28,8 +28,6 @@ topic_v2:
 ---
 # Customize Filters, Views, and Groupings using a layout template
 
-{{preview-fast-release-general}}
-
 As an Adobe Workfront administrator, you can use a layout template to specify which list controls appear in the Filter, View, and Grouping drop-down menus. These menus appear above lists throughout Workfront, such as the list of tasks for a project:
 
 ![Filter view grouping layout templates](assets/filter-view-grouping-layout-templates.png)
@@ -81,9 +79,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Click the down arrow ![Down arrow](assets/down-arrow-blue.png) under **Customize what users see**, then click **Lists** in the drop-down menu that displays.
-
-   ![Customize what users see](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
-
 1. Click the down arrow ![Down arrow](assets/down-arrow-blue.png) under **Select a list to customize**, then select the type of Workfront object for which you want to customize the Filter, View, and Grouping list controls.
 
    ![Select a list to customize](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
@@ -100,7 +95,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >   
    >  ![Disable filters button](assets/disable-filter-pills.png)
 
-   <span class="preview">Some enhanced lists are available to choose from. These lists have a "New Experience" label next to the list controls. For information on enhanced lists, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).</span>
+   Some enhanced lists are available to choose from. These lists have a "New Experience" label next to the list controls. For information on enhanced lists, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 1. (Optional) If you want to change the default filter, view, or grouping for the layout template, hover over the filter, view, or grouping, then click **Set as default**.
 
