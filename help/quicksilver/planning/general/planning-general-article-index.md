@@ -27,6 +27,7 @@ As a marketing operations leader, you can use Adobe Workfront Planning to organi
 Review the following articles:
 
 * [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+* [Workfront Planning termonologi overview](/help/quicksilver/planning/general/planning-terminology.md)
 * [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
 * [Adobe Workfront Planning API basics](/help/quicksilver/planning/general/planning-api-basics.md)
 * [Adobe Workfront Planning object limitations overview](/help/quicksilver/planning/general/limitations-overview.md)

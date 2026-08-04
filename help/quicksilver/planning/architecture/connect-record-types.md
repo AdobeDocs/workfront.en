@@ -51,6 +51,10 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 You can connect record types to one another or you can connect record types with object types from other applications. 
 
+>[!IMPORTANT]
+>
+>When connecting Planning record types with object types from other applications you must also have a license and an account for those applications. 
+
 Connecting record types is helpful when you have several types of work objects affecting one another. For example, you might work with campaigns and each campaign might cater to multiple brands. To indicate this relationship, you can connect campaigns to brands. This creates a connection field for Brands on the Campaign record. 
 
 Additionally, the work for each campaign might be planned out in multiple projects in Workfront. To indicate this, you can connect the campaigns to the relevant projects. This creates a connection field for Projects on the Campaign record. 

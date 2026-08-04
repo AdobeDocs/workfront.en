@@ -108,6 +108,14 @@ For information about connecting Planning records with Workfront objects, see [C
 Or
 <li><p>Any Planning package when purchased as a standalone product</p></li></ul>
    </td> 
+
+<tr> 
+   <td role="rowheader"><p>Product</p></td> 
+   <td><p>If your organization purchased Workfront Planning as a standalone product, you must also purchase a Workflow package to create Workfront objects from Planning.</p>
+   </td> 
+  </tr> 
+
+
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td><p>Workflow Standard</p>

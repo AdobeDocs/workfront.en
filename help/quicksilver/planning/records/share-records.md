@@ -93,7 +93,7 @@ Or
    <td role="rowheader"><p>Adobe Planning license</p></td> 
    <td><p>Planning Contributor or higher</p>
    <p><b>NOTE</b></p>
-   <p>Not all customers have a Planning Contributor license</p>
+   <p>Not all customers have Planning Contributor licenses</p>
    </td> 
   </tr> 
   <tr> 
