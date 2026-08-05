@@ -173,6 +173,10 @@ You may find the following best practices helpful when creating an agent to use 
 -->
 +++ Writer
 
+>[!NOTE]
+>
+> You can use a Writer agent as a Task Collaborator, but Writer playbooks cannot be used as Task Collaborators.
+
 When creating an agent for use as a Task Collaborator in Writer, we recommend the following workflow.
 
 More detailed information about creating agents can be found in the [Writer documentation](https://dev.writer.com/no-code/introduction).
