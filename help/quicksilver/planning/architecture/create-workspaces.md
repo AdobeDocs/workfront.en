@@ -31,9 +31,11 @@ topic_v2:
 ---
 # Create workspaces
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -59,16 +61,28 @@ For general information about workspaces, see [Workspaces overview](/help/quicks
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront or Workflow package</p> 
-<p>Any Workfront Planning package</p>
+<p>Any Workfront or Workflow package with a Planning package</p> 
+<p>Any Planning package when purchased as as standalone product</p>
+
+<p><b>NOTE</b></p>
 <p>A Workfront Planning Prime or higher package to create multiple workspaces at a time</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
    <p>System Administrator to create multiple workspaces at one time using the best-practice template bundle</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
@@ -130,7 +144,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -278,7 +292,6 @@ The templates included in the bundle contain workspaces, record types, records, 
       
       1. After opening the **Preview** box for each workspace template, click **Back** to go back to the **Create workspace** box, or click **Use templates** to use the templates including in the bundle and create workspaces. 
 
-   <div class="preview">
 
    * Click the **Sample workspaces** tab, then follow these steps:
 
@@ -290,8 +303,6 @@ The templates included in the bundle contain workspaces, record types, records, 
          >
          >Clicking a record type card in a template displays the fields of the record type in the right panel.
       1. Click **Use templates**.
-
-   </div>
 
    The 6 workspaces are created and display in the **Workspaces I'm** on and **All Workspaces** tabs for System administrators. All Standard-license users will see the workspaces in their Workspaces area after a System Administrator creates them and shares the new workspaces with them. 
 

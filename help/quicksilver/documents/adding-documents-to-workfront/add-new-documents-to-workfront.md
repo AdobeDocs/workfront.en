@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: Add new documents to Adobe Workfront
+title: "Add new documents to Adobe Workfront: article index"
 description: Learn how to add new documents.
 author: Courtney
 feature: Digital Content and Documents
@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 ---
-# Add new documents to Adobe Workfront
+# Add new documents to Adobe Workfront: article index
 
 This section contains the following articles:
 

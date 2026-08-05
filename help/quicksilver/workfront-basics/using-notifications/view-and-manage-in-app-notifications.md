@@ -82,7 +82,8 @@ The numbered icon in the upper-right corner of [!DNL Workfront] displays the num
 
    * All other notifications are indicated by icons that suggest the type of work item they are associated with.
 
-      ![Notification icons](assets/ntfcntype&icon-350x330.png)
+      ![Notification icons](assets/ntfcntypeicon-350x330.png)
+
    The icon to the right of the blue dot displays one of the following:
 
    * The profile photo of the person who typed the information, usually an update about a [!DNL Workfront] object you're working on.

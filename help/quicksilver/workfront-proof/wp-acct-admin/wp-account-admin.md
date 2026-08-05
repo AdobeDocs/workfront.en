@@ -41,3 +41,4 @@ This section contains the following subsections:
 * [Partner accounts in [!DNL Workfront Proof]](../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
 * [Satellite accounts in [!DNL Workfront Proof]](../../workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
 * [Tips, tricks, and troubleshooting for [!DNL Workfront Proof] account administration](../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
+

@@ -35,7 +35,7 @@ This integration helps teams reduce duplicate content creation, speed up executi
 
 >[!VIDEO](https://video.tv.adobe.com/v/3483142/)
 
-## GenStudio Foundations Provisioning enabled to support AI Collaborators
+## GenStudio Foundation Provisioning enabled to support AI Collaborators
 
 >[!NOTE]
 >

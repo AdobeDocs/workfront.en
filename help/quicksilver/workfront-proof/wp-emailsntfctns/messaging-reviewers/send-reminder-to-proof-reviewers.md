@@ -73,3 +73,4 @@ You can also remind somebody about multiple proofs that have been shared with th
       The default message reminds the reviewers that they have been added to the proof and includes the proof's deadline.   
 
    * If you want to create your own custom message, type a **[!UICONTROL Subject]** and the **[!UICONTROL Message],** then click **[!UICONTROL Send].**&#x200B;A customized reminder email contains the same information as the default reminder email, but it also includes your custom subject line and custom message in the body of the email.
+

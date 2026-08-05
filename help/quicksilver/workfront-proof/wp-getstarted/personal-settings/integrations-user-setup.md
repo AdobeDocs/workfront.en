@@ -43,3 +43,4 @@ Current integration points are available for the following:
 * [!DNL WorkFront] (4)
 
 ![Integrations_tab_-_Personal_Settings.png](assets/integrations-tab---personal-settings-350x323.png)
+

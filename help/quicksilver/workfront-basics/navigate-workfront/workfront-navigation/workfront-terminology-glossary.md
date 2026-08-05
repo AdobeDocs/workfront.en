@@ -2616,7 +2616,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <p>The system uses this number to calculate the availability of the user for actual, project-related work. </p>
    <p> Schedule exceptions and time off might also affect the user capacity. </p>
    <p>For more information about creating schedules in Workfront, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Create a schedule</a>. </p>
-    <p>Workfront calculates a user's availability depending on the Resource Management preferences in the [!UICONTROL Setup] area. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Configure Resource Management preferences</a>. </p> 
+    <p>Workfront calculates a user's availability depending on the Resource Management preferences in the [!UICONTROL Setup] area. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configure Resource Management preferences</a>. </p> 
    <p>You can update the [!UICONTROL Work Time] of a user when you edit or create the user. For information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Edit a user's profile</a></p> 
    <b>TIP</b> 
    <p>Set the [!UICONTROL Work Time] value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.</p> 

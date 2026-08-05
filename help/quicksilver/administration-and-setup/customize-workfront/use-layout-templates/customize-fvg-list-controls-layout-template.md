@@ -28,6 +28,8 @@ topic_v2:
 ---
 # Customize Filters, Views, and Groupings using a layout template
 
+{{preview-fast-release-general}}
+
 As an Adobe Workfront administrator, you can use a layout template to specify which list controls appear in the Filter, View, and Grouping drop-down menus. These menus appear above lists throughout Workfront, such as the list of tasks for a project:
 
 ![Filter view grouping layout templates](assets/filter-view-grouping-layout-templates.png)
@@ -70,6 +72,13 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Customize Filter, View, and Grouping list controls
 
+
+>[!NOTE]
+>
+>Adding a view, filter, or grouping to a layout template controls layout only; it does not grant access. Users still need view access to each item. 
+>
+>Contributor, Requestor, and External license users can't see items shared system-wide, so views intended for them must be shared explicitly. For information, see [Share a filter, view, or grouping](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md). 
+
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Click the down arrow ![Down arrow](assets/down-arrow-blue.png) under **Customize what users see**, then click **Lists** in the drop-down menu that displays.
 
@@ -90,6 +99,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >* In the header on the Projects area header:
    >   
    >  ![Disable filters button](assets/disable-filter-pills.png)
+
+   <span class="preview">Some enhanced lists are available to choose from. These lists have a "New Experience" label next to the list controls. For information on enhanced lists, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).</span>
 
 1. (Optional) If you want to change the default filter, view, or grouping for the layout template, hover over the filter, view, or grouping, then click **Set as default**.
 

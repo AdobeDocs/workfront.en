@@ -42,12 +42,20 @@ For information about creating approval processes, see [Create an approval proce
 >[!NOTE]
 >
 >* When you edit a global approval process that is already in use, your changes affect all objects throughout the system that are already associated with it.
->* If you add a new approver to the current stage on an approval process that has already started on an object, the process for that object resets and the approvers have to start over.
 >
->  However, if you make the following changes in an approval process that has already started on an object, that process continues without interruption:
+>
+>However, if you make the following changes in an approval process that has already started on an object, that process continues without interruption:
 >
 >* Add a stage beyond the current stage
 >* Add an additional approver before the current stage
+
+<!--
+
+Note from Lisa: This was the second bullet in the note box above, below the bullet starting "When you edit a global approval process..." If you comment out bullet points in a note box, weird stuff happens. So I copied it below just in case.
+
+* If you add a new approver to the current stage on an approval process that has already started on an object, the process for that object resets and the approvers have to start over.
+
+-->
 
 ## Access requirements
 

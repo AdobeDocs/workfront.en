@@ -36,3 +36,4 @@ This section contains the following articles:
 * [Choosing Your Payment Method in [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
 * [Downloading Your [!DNL Workfront Proof] Invoice](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
 * [Close your [!DNL Workfront Proof] account](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
+

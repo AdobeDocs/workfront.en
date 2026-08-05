@@ -33,10 +33,6 @@ You can enable your email notifications for events occurring in [!DNL Adobe Work
 
 ## Access requirements
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
--->
-
 +++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
@@ -68,10 +64,14 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
+<!--
+Support asked for this to be removed: issue ref number 29111956
+
 ## Prerequisites
 
 * The user whose [!DNL Goals] notifications you want to update must have a Layout Template that includes the [!DNL Goals] area in the [!UICONTROL Main Menu].
 
+-->
 
 ## [!DNL Goals] notifications in the [!UICONTROL user profile] area
 
@@ -81,7 +81,8 @@ The notifications listed in the following table alert you about events happening
 
 >[!NOTE]
 >
->Instant notifications for [!DNL Goals] are disabled by default. You cannot enable or disable daily notifications and you do not receive daily digest emails for the events in this category. You can enable or disable individual instant notifications for the [!DNL Goals] category.
+>* Instant notifications for [!DNL Goals] are disabled by default. You cannot enable or disable daily notifications and you do not receive daily digest emails for the events in this category. You can enable or disable individual instant notifications for the [!DNL Goals] category.
+>* You can still receive emails about goals updates, even when you don't have access to Goals in your access level, but someone assigns you a goal, result, or activity or comments on a goal assigned to you. 
 
 See also [Event notifications](../../workfront-basics/using-notifications/event-notifications.md).
 

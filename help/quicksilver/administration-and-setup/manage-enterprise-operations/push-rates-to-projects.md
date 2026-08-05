@@ -62,6 +62,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    <!--and staffing plans -->
    <!--or staffing plan -->
 
+   >[!NOTE]
+   >
+   >Only projects with outdated rate card rates are displayed on the dialog. If a project uses this rate card and the rates are current on the project, it is not displayed.
+
 1. Click [!UICONTROL **Save**].
 
    The new rates are now reflected on the projects <!--and staffing plans -->that use the rate card.

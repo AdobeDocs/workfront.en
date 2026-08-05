@@ -42,7 +42,7 @@ Instead of assigning a license to a user, you assign them the access level attac
 
 This table and diagram show the main levels of access to Workfront:
 
-|License|Associated access level|
+|Workflow License|Associated access level|
 |--- |--- |
 |Standard|System Administrator, Standard|
 |Light|Light|
@@ -63,9 +63,9 @@ For more information, see [Access levels overview](/help/quicksilver/administrat
 
 ## License count
 
-When you assign an access level to a user, your available license count is reduced by 1.
+When you assign an access level associated with a license to a user, your available license count is reduced by 1.
 
-For example, if you assign the Standard access level to a user, your number of available Standard licenses is reduced by 1.
+For example, if you assign the Standard access level associated with a Workflow license of Standard to a user, your number of available Standard licenses is reduced by 1.
 
 You can view the licenses and access levels assigned to your users. For more information, see [List your users' access levels and licenses](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
 

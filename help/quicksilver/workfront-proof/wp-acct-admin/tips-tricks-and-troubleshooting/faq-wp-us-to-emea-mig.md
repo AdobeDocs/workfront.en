@@ -73,3 +73,4 @@ If you have another US account you partner with and you are required to maintain
 ## What if I'm using SSO on my account?
 
 If you're using SSO on your proof account, you will need to re-configure the account to use the new [!DNL proofhq.eu] domain.
+

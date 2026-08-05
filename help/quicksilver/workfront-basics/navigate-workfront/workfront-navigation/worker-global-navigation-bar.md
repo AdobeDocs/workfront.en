@@ -68,7 +68,7 @@ The following areas are included in the default layout of a [!UICONTROL Worker]:
 
 * **[!UICONTROL Boards]**: Work with flexibility and collaboration with your team members by using shared boards that contains columns and cards reflecting work you want to get done. For information, see [Get started with boards: article index](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
-![Worker main menu](assets/worker-main-menu-2026.png)
+![Worker main menu](assets/worker-main-menu-070626.png)
 
 ## Customize your default [!UICONTROL Main Menu]
 

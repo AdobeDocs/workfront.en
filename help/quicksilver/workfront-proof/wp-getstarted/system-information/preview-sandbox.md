@@ -72,3 +72,4 @@ To access the [!DNL Workfront Proof] Preview Sandbox:
 ## Receiving Emails from the Preview Sandbox
 
 Email notifications are never triggered from the [!DNL Workfront Proof] Preview environment. 
+

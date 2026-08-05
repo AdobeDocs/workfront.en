@@ -67,7 +67,7 @@ Validation logic is built using formulas, and you can make the logic as simple o
 
 If the field with the logic applied meets the defined validation conditions when a user fills out the custom form, the field is highlighted and the error message is displayed.
 
-You can apply validation logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, typeahead, date, checkbox group, and radio buttons.
+You can apply validation logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, internal lookup, date, checkbox group, and radio buttons.
 
 ### Only allow project owner to select "Rush" SLA
 
@@ -133,9 +133,9 @@ If a user who is not the project owner tries to type in the field, they see a me
 
 ![Only Claire Stevens can edit this field](assets/only-project-owner-can-edit.png)
 
-### Typeahead allows or rejects values based on other field values
+### Internal lookup allows or rejects values based on other field values
 
-In this example, a typeahead field dynamically allows or rejects values based on the value entered in another field on the form.
+In this example, an internal lookup field dynamically allows or rejects values based on the value entered in another field on the form.
 
 Validation expression:
 
@@ -145,7 +145,7 @@ IF({DE:DV - Text - Budget}>"10000",
 )
 ```
 
-If the value in the budget field is more than $10,000, then only users with a Director role can be selected from the typeahead, even if there is no role filter enabled on the typeahead configuration.
+If the value in the budget field is more than $10,000, then only users with a Director role can be selected from the internal lookup, even if there is no role filter enabled on the internal lookup  configuration.
 
 ![Budget amount requires director approval](assets/budget-director.png)
 

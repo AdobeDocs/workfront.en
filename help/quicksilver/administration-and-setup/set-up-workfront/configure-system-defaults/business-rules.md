@@ -160,6 +160,10 @@ The message appears in the localized language.
 
 For information on custom localization, see [Configure custom localization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
 
+>[!NOTE]
+>
+>Business rules are executed after the main process completes. In other words, business rules are intended to prevent actions that are not already handled by the main process. They do not override or replace exceptions thrown during the main execution—they run at the very end of the process.
+
 ## Scenarios for business rule automation
 
 >[!NOTE]
@@ -307,3 +311,4 @@ To activate a business rule:
 1. Select the business rule in the list of rules and click the Edit icon.
 1. Select **Yes** for **Is Active** in the business rule dialog.
 1. Click **Save**.
+

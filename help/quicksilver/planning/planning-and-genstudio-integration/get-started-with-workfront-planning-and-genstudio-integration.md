@@ -45,7 +45,7 @@ recommendations: noDisplay, noCatalog
 # Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration
 
 <!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -109,8 +109,10 @@ The following table describes the access and permissions requirements to use Ado
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p> <p>Any Workflow and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+<p>Any Workfront or Workflow and any Planning package</p> 
+Or
+<p>Any Planning package when purchased as a standalone product</p>
+
    </td> 
    <tr> 
 <td> 
@@ -120,9 +122,20 @@ The following table describes the access and permissions requirements to use Ado
   </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
+   </td> 
+  </tr>
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the Workfront access level when you have both a Workflow and a Planning package</p>   
+</td> 
+  </tr> 
+
   <tr> 
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>

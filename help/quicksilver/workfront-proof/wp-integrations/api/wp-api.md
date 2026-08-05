@@ -29,3 +29,4 @@ role_v2:
 This section contains the following articles:
 
 * [The [!DNL Workfront Proof] API](../../../workfront-proof/wp-integrations/api/workfront-proof-api.md)
+

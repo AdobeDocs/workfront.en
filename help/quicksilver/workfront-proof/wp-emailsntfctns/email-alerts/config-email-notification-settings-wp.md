@@ -240,3 +240,4 @@ If you are a [!DNL Workfront Proof] administrator, you can set proof defaults fo
      </tr> 
     </tbody> 
    </table>
+

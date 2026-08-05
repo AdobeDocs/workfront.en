@@ -28,3 +28,4 @@ This section contains the following articles:
 * [Internal Then External Review in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
 * [Working with Designers and Project Managers in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
 * [Working with Freelancers in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
+

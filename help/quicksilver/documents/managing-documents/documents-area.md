@@ -122,6 +122,10 @@ You can view a document's history in the new Documents area. The history include
 
 Workfront automatically creates a system-level folder when the first document is uploaded to a task or issue. These folders inherit permissions from the task or issue and are visible in the project-level documents area. All documents uploaded to that task or issue are stored in that folder and inherit permissions from it. This is the primary way that permissions are managed for documents in the new Documents area. For more information, see [Object permissions and access level overview for the Adobe cloud storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
+### Access documents from your desktop
+
+If your organization uses Adobe cloud storage, you can also access your documents from your Mac or Windows desktop using Adobe Cloud Drive. Adobe Cloud Drive mounts your Adobe cloud storage projects as a drive on your computer, so you can open and edit files in any application while keeping changes in sync with Workfront. For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
+
 ## Considerations
 
 * The new Documents area is optimized for screens 1024 pixels wide or larger. If you have a smaller screen, you may may have issues accessing the Summary panel. 

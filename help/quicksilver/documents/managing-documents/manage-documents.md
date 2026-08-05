@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: Manage documents
+title: "Manage documents: article index"
 description: You can organize and manage documents in Workfront in the Documents area.
 author: Courtney
 feature: Digital Content and Documents
@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 ---
-# Manage documents
+# Manage documents: article index
 
 You can organize and manage documents in Workfront in the Documents area.
 

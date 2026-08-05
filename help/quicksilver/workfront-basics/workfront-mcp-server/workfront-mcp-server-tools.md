@@ -10,6 +10,8 @@ feature: Get Started with Workfront
 
 # Adobe Workfront MCP server tools
 
+{{preview-fast-release-general}}
+
 This article lists the tools that the [!DNL Adobe Workfront] MCP server exposes to a connected AI agentic platform. The platform calls these tools on your behalf when you ask it to find, create, update, or delete Workfront items.
 
 For information about how to use these tools through an AI agentic platform, see [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md). For information about how to set up the connection, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
@@ -43,6 +45,8 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | Get document by version ID | `approvals_get_document_by_version_id` | Fetches document details (name, size, upload date, uploader) for a known document version ID. | Read |
 | Get documents by project | `approvals_get_documents_by_project` | Lists documents inside a Workfront project, with each document's current version ID. | Read |
 | Resolve document scope | `approvals_resolve_document_scope` | Expands a project or folder into the list of document version IDs it contains. Supports project, folder, and folder-by-name scopes. | Read |
+| Find a document | `approvals_find_document` | Look up a document by filename or document version ID | Read |
+| Get documents by scope | approvals_get_documents_by_scope | List document inside a project or folder. | Read |
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
@@ -59,10 +63,15 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
-| Get approval workflow info | `approvals_get_approval_info` | Returns the current approval workflow (stages, participants, status) for a document version. | Read |
-| Create or update approval workflow | `approvals_create_or_update_approval_workflow` | Creates or updates the approval workflow stages for a document version. Supports linear and parallel (graph) stage dependencies. | Write |
-| Create approval from template | `approvals_create_approval_from_template` | Creates an approval workflow on a document using an existing template. | Write |
+| Get approval workflow info | `approvals_get_approval_info` | Returns the current approval workflow (stages, participants, status) for a document version. <span class="preview">For approvals with multiple paths, it shows each path and its stages.</span> | Read |
+| Create or update approval workflow | `approvals_create_or_update_approval_workflow` | Creates or updates the approval workflow stages for a document version. <span class="preview">Supports a single track of stages or multiple parallel review paths.</span> | Write |
+| Create approval from template | `approvals_create_approval_from_template` | Creates an approval workflow on a document using an existing template, <span class="preview">including templates that define multiple parallel paths.</span> | Write |
 | Delete approval stage | `approvals_delete_approval_stage` | Deletes a single stage from an approval workflow by name or position. Only not-started stages can be deleted. | Write |
+| <span class="preview">Add path to approval</span> | <span class="preview">`approvals_add_path_to_approval`</span> | <span class="preview">Adds a new parallel review path to an existing approval workflow, so multiple review tracks run at the same time on a document version.</span> | <span class="preview">Write</span> |
+| <span class="preview">Remove path from approval</span> | <span class="preview">`approvals_remove_path_from_approval`</span> | <span class="preview">Removes a parallel path from an approval workflow. The first path can't be removed, and paths that contain completed or locked stages are protected.</span> | <span class="preview">Write</span> |
+| <span class="preview">Add stage to path</span> | <span class="preview">`approvals_add_stage_to_path`</span> | <span class="preview">Adds a review stage to the end of a specific path within a parallel approval workflow.</span> | <span class="preview">Write</span> |
+| <span class="preview">Remove stage from path</span> | <span class="preview">`approvals_remove_stage_from_path`</span> | <span class="preview">Removes a not-started stage from a specific path in a parallel approval workflow. Each path must keep at least one stage.</span> | <span class="preview">Write</span> |
+| <span class="preview">Reorder stages in path</span> | <span class="preview">`approvals_reorder_stages_in_path`</span> | <span class="preview">Changes the order of stages within a single path of a parallel approval workflow.</span> | <span class="preview">Write</span> |
 
 <!--
 | Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |
@@ -87,6 +96,10 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | Search template by name | `approvals_search_template_by_name` | Finds approval templates by name (case-insensitive partial match). | Read |
 | Create approval template | `approvals_create_template` | Creates a new approval template with linear or graph-based stage dependencies. | Write |
 | Update approval template | `approvals_update_template` | Updates an existing template with structured modifications (add or remove participants, rename stages, set deadlines, etc.). | Write |
+| Remind stakeholders of approvals in bulk | `approvals_send_approval_reminder` | Send approval reminder emails to all pending approvers across an entire project, folder, campaign, or due-date window. | Write |
+| Update approval templates in bulk | `approvals_update_template` | Perform template updates to multiple templates, such as applying templates to assets, creating new templates from scratch or from existing approval flows, editing templates, and performing bulk operations across templates and assets. | Write |
+| Add or remove approval participants in bulk. | `approvals_update_approval_participants`  and `approvals__submit_update_approval_participants` | Add, remove, or replace participants across an entire portfolio, program, or project scope in one operation. | Write |
+
 
 ### Lookups and users
 
@@ -97,7 +110,8 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | Find team by name | `approvals_find_team_by_name` | Looks up a Workfront team's ID by name (fuzzy or partial match). | Read |
 | Find project by name | `approvals_find_project_by_name` | Looks up Workfront projects by partial name match across the system. | Read |
 | Get projects by owner | `approvals_get_projects_by_owner` | Lists Workfront projects where the calling user is the owner. | Read |
-| Get Adobe region | `approvals_get_adobe_region` | Returns the Adobe name of a cloud provider region. | Read |
+| Find projects | approvals_find_projects | Look up Workfront projects, optionally filtered by name and/or restricted to projects that the calling user owns. | Read |
+
 
 ## Planning tools
 
@@ -130,7 +144,7 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | List global record types | `planning_list_global_record_types` | Lists all centrally-defined (global) record types visible to the current user. | Read |
 | List addable global record types | `planning_list_addable_global_record_types` | Lists global record types that can be added to a specific workspace. | Read |
 | Add global record type to workspace | `planning_add_global_record_type_to_workspace` | Links a global record type into a specified workspace. | Write |
-| Remove global record type from workspace | `planning_remove_global_record_type_from_workspace` | Unlinks a global record type from a workspace; deletes all its records in that workspace. | Write |
+| Remove global record type from workspace | `planning_remove_global_record_type_from_ws` | Unlinks a global record type from a workspace; deletes all its records in that workspace. | Write |
 | Get external record workspaces | `planning_get_external_record_workspaces` | Finds which workspaces and record types are connected to a specific external record. | Read |
 | Get record type sharing | `planning_get_record_type_sharing` | Returns the sharing and permissions for a specific record type. | Read |
 | Modify record type sharing | `planning_modify_record_type_sharing` | Updates who can access a record type and at what permission level. | Write |
@@ -187,6 +201,8 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 
 Workflow tools are the general-purpose actions the AI agentic platform uses to work with any Workfront object — projects, tasks, issues, hours, assignments, programs, portfolios, and so on.
 
+### Objects and fields
+
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
 | Search objects | `workflow_search_any_object` | Searches for Workfront objects with flexible filter parameters, ordering, and pagination. | Read |
@@ -194,6 +210,39 @@ Workflow tools are the general-purpose actions the AI agentic platform uses to w
 | Update object | `workflow_update_any_object` | Updates fields on an existing Workfront object. | Write |
 | Delete object | `workflow_delete_any_object` | Deletes a Workfront object by ID. Requires explicit user confirmation before the action is performed. | Write |
 | Resolve field names | `workflow_resolve_field_names_any_object` | Converts user-provided field names or labels to the underlying Workfront API field names so the AI agentic platform can build accurate requests. | Read |
+| Read Workflow docs | `workflow_read_workflow_docs` | Loads the Workfront Workflow documentation, including tool usage guides and object-specific operations playbooks. This is the required first step before performing Workflow actions. | Read |
+
+### Comments
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Query comments | `comment-stream_query_comments` | Query comments by object ID, with pagination. | Read |
+| Get comment | `comment-stream_get_comment` | Get a single comment by ID. | Read |
+| Get comments count | `comment-stream_get_comments_count` | Get the total top-level comment count for an object. | Read |
+| Create comment | `comment-stream_create_comment` | Create a new comment on an object. | Write |
+| Create reply | `comment-stream_create_reply` | Create a reply to an existing comment. | Write |
+| Update comment | `comment-stream_update_comment` | Update an existing comment or reply. | Write |
+| Delete comment | `comment-stream_delete_comment` | Delete a comment by its ID. | Write |
+| Add reaction | `comment-stream_add_reaction` | Add a reaction (like) to a comment. | Write |
+| Remove reaction | `comment-stream_remove_reaction` | Remove a reaction (like) from a comment. | Write |
+
+### Insights tools
+
+Insights tools retrieve information about Workfront objects.
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Read documents | `insights_read_docs` | Load the Workfront playbook or domain documentation, such as conditions, status, dates, or field paths. This is the required first step before querying data. | Read |
+| Get current user | `insights_get_current_user` | Retrieve your own Workfront identity, including name, ID, and URL. | Read |
+| Search fields | `insights_search_fields` | Search for available fields (standard and custom) on projects, tasks, issues, users, portfolios, teams, and so on. | Read |
+| Get field paths | `insights_get_field_paths` | Resolve dot-notation field paths for entities, required by the data query tool. | Read |
+| Find ID by name | `insights_find_id_by_name` | Look up the ID of any Workfront object by name, such as projects, tasks, users, portfolios, and so on. | Read |
+| Find Workfront data | `insights_find_workfront_data` | Find, filter, count, sort, and aggregate Workfront data. This is the main query and report tool. | Read |
+| Summarize object | `insights_summarize_object` | Fetch and summarize a single Workfront object by ID. | Read |
+| List entities | `insights_list_entities` | List all Workfront object types available to query. | Read |
+
+
+
 
 ## How tools are updated
 
@@ -205,6 +254,6 @@ When Adobe releases a new version of the Workfront MCP server, the AI agentic pl
 
 We are working on adding the following tools to the Workfront MCP server in the future:
 
-* Comments
 * Boards
+
 

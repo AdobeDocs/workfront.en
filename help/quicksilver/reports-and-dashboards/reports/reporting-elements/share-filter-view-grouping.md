@@ -122,7 +122,12 @@ Share a filter using the standard builder interface:
    </tr>
    <tr>
    <td role="rowheader"><strong>Shared with me</strong></td>
-   <td>Filters that others created and shared with you or that are shared system-wide.</td>
+   <td>Filters that others created and shared with you or that are shared system-wide.
+   <p><b>NOTE</b></p>
+   <p>Users with a Contributor, Requestor, or External license cannot see filters, views, or groupings that are shared system-wide. To make one available to these users, share it with them directly — via their user, job role, team, group, or company — rather than relying on system-wide visibility. This applies even when the filter, view, or grouping is included in their layout template.</p>
+   
+   
+   </td>
    </tr>
    </tbody>
    </table>

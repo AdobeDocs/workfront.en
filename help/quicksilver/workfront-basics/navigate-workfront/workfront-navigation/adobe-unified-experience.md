@@ -54,7 +54,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 Your organization's instance of [!DNL Workfront] must be onboarded to the [!DNL Adobe Business Platform] or the [!DNL Adobe Admin Console].
 
-If you have questions about onboarding to the [!DNL Adobe Admin Console], see the [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).
+If you have questions about onboarding to the [!DNL Adobe Admin Console], see the [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 ## Adobe Identity Management System (IMS)
 
@@ -96,7 +96,7 @@ Use the [!UICONTROL Main Menu] icon ![Main Menu icon](assets/main-menu-icon-left
 * **Layout template configurations**: To learn how a [!DNL Workfront] administrator can modify the [!UICONTROL Main Menu] from a layout template, see [Customize the [!UICONTROL Main Menu] using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 * **License type**: To learn the default configurations for different license types, see [Understand the navigation for a [!UICONTROL Light]-license user](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) or [Understand the navigation for a [!UICONTROL Work]-license user](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
-![Main menu](assets/main-menu-options-left-nav.png)
+![Main menu](assets/main-menu-options-2026.png)
 
 ## Access your profile and preferences
 
@@ -131,5 +131,3 @@ If your password is managed by [!DNL Adobe], you can change the password in your
 [See this article for changing your Adobe password.](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
 
 For more information on changing your password, contact your administrator.
-
-

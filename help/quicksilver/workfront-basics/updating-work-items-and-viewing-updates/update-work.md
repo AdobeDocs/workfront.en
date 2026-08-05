@@ -35,7 +35,7 @@ topic_v2:
 
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 -->
@@ -452,7 +452,6 @@ You can enhance your comments by using Rich Text, or adding various items to it,
    
    >[!IMPORTANT]
    >
-   >
    >* You cannot add images to goals or ad-hoc cards on boards.
    >
    >* Your Workfront administrator must enable adding images in the Update Feeds Preferences section of the Workfront Interface area before you can see the Image or the Add attachment icons. For information, see [Configure preferences for user updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md). 
@@ -463,6 +462,8 @@ You can enhance your comments by using Rich Text, or adding various items to it,
    >* You can send an update with an image and no text.
    >* When you delete a comment that contains an image, the image is removed from the Updates section as well as from the Documents area. The image is also deleted from the Documents area when you edit a comment and delete the image.
    >* When someone deletes an image attached to a comment from the Documents area, it is also removed from the comment.
+   >* If your organization uses Adobe cloud storage as part of Unified review and approval, your Workfront administrator can enable the same preference to let you attach images to comments. All standard image formats are supported, and attached images are stored in Adobe cloud storage.
+   >* Images attached to comments on objects using Adobe cloud storage are not accessible in the Frame.io viewer.
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
 
@@ -667,7 +668,7 @@ For more information about user and system updates and how they display in the U
 
 
 <!--
-After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>  
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 -->
 

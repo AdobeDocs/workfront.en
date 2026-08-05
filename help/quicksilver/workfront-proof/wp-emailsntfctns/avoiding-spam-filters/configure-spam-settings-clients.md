@@ -233,3 +233,4 @@ To check whether any [!DNL Workfront Proof] "[!UICONTROL from]" addresses are bl
 1. If **[!UICONTROL Block mail from addresses I specify]** is selected in the **[!UICONTROL Sender Filter]** field and any [!DNL Workfront Proof] addresses or domain names are included in the list of blocked addresses, delete each of those addresses from the list.
 
 1. Click **[!UICONTROL Save]**.
+

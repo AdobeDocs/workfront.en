@@ -34,3 +34,4 @@ This section contains the following articles:
 * [Satellite accounts in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
 * [Configure a satellite account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md)
 * [Manage a satellite account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/manage-sat-acct-in-wp.md)
+

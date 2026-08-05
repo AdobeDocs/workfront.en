@@ -22,8 +22,6 @@ topic_v2:
 ---
 # Use Canvas Dashboards
 
-{{highlighted-preview}}
-
 >[!IMPORTANT]
 >
 >The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.
@@ -48,9 +46,7 @@ To access Canvas Dashboards, navigate to the Dashboards section in Adobe Workfro
 1. Click the name of an existing dashboard to open it.
     ![Open a dashboard](assets/open-dashboard.png)
 
-<div class="preview">
-
-## Sort the Canvas Dashboards list in Preview
+## Sort the Canvas Dashboards list
 
 You can sort the Canvas Dashboards list by any of the following columns:
 
@@ -72,8 +68,6 @@ To sort the list:
 >
 >* Your sort order is preserved when you switch between tabs in the Canvas Dashboards list.
 
-
-</div>
 
 <!--
 ## Navigating the Dashboard

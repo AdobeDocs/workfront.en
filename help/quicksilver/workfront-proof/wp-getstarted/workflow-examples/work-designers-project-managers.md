@@ -61,3 +61,4 @@ When it is not necessary for the designer to be involved in the [!DNL Workfront 
 1. If necessary, the designer amends the file and uploads it to [!DNL Workfront Proof], where the project manager can create a new version for another round of proofing.
 
 
+

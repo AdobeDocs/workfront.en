@@ -29,10 +29,11 @@ topic_v2:
 
 # Manage record connections from Workfront objects 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
+-->
 
 {{planning-important-intro}}
 
@@ -57,19 +58,24 @@ You can display Workfront Planning records in Workfront in the following areas o
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p>
-<p>Any Workflow and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+<p>Any Workfront or Workflow with a Planning package</p>
+Or
+<p>Any Planning package when purchased as a standalone product</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
+   </td> 
+  </tr>
   <tr>
    <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>View or higher access to Projects, Programs, and Portfolios</p>  
-   <p>There is no access level configuration for Workfront Planning. </p>
+   <td><p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p> 
+   <p>View or higher access to Projects, Programs, and Portfolios</p> 
 </td>
   </tr>
 <tr>
@@ -79,7 +85,7 @@ You can display Workfront Planning records in Workfront in the following areas o
    <p>In Workfront Planning:</p>
    <ul><li>View permissions to a workspace and record type to view any connected records </li>
    Or
-   <li> Contribute or higher permissions to a workspace and record type and <span class="preview">Manage permissions to a record</span> to connect or disconnect records</a></li></ul> 
+   <li> Contribute or higher permissions to a workspace and record type and Manage permissions to a record to connect or disconnect records</a></li></ul> 
    <p>System Administrators have permissions to all Workfront Planning workspaces, including the ones they did not create</p> 
   </td>
   </tr>   

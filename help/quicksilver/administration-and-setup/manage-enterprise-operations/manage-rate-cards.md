@@ -134,6 +134,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >
    >Because each rate is associated with the combination of the role and attributes to create a unique rate, the role and the attributes cannot be changed when you edit a rate.
 
+1. To add a rate in a specific place in the list of effective dated rates, hover over the rate and select the **More** menu to the right of the rate name. Then, choose **Insert row above** or **Insert row below**.
+
+   The Edit Billing Rate box appears, with the line for the new billing rate added where you placed it. The rate that you selected for adding a row above or below is highlighted with a blue line. Add the new billing rate, adjust the effective dates on the existing billing rates as needed, and click **Save**.
+
 1. To delete a billing rate from the rate card, select the check box next to the rate and click [!UICONTROL **Delete**] on the action bar.
 1. To lock a rate, select the check box next to the rate and click [!UICONTROL **Lock**] on the action bar.
 
@@ -185,4 +189,6 @@ See the article [Import rate cards from a template](/help/quicksilver/administra
    >[!NOTE]
    >
    >A rate card attached to a project will be deleted from the project.
+
+
 

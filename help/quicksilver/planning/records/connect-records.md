@@ -33,11 +33,12 @@ topic_v2:
 ---
 # Connect records 
 
+<!--
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+-->
 
 {{planning-important-intro}}
 
@@ -113,25 +114,34 @@ You can connect the following:
    <p>For information, see <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p></li>
    <li><p> An Adobe GenStudio for Performance Marketing license to connect record types with GenStudio Brands or to have access to the GenStudio workspace</p>
    <p>For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Get started with Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+<p><b>NOTE</b></p>
+<p>You must purchase a Workfront Workflow package to connect Planning records with Workfront objects. </p>
+
    </td> 
   </tr>   
 <tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
+   </td> 
+  </tr> 
+
    <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p> 
    <p>View or higher access for the object types whose objects you want to connect to in Workfront and AEM Assets. </p>  
 </td> 
   </tr>
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Contribute or higher permissions to a workspace and record type to connect records.</p>
-   <p><span class="preview">Manage permissions to the record you are connecting from</span></p>
-   <p><span class="preview">View or higher permissions to the record you are connecting to</span></p>
+   <p>Manage permissions to the record you are connecting from</p>
+   <p>View or higher permissions to the record you are connecting to</p>
    <p>View or higher permissions to a workspace and record type to view all connections to objects and fields from other applications, regardless of your access in the other application. </p>
    <p>View or higher permissions to the objects you want to link from Workfront or Experience Manager Assets. </p>
    <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p> </td> 

@@ -28,6 +28,8 @@ topic_v2:
 ---
 # Grant users administrative access to certain areas
 
+{{preview-fast-release-general}}
+
 <!--Linked in several places, do not rename or change URL.-->
 
 As an Adobe Workfront administrator, you can use an access level to grant users with a Standard or Plan license administrative access to certain areas of the system.
@@ -85,6 +87,11 @@ For more detail about the information in this table, see [Access requirements in
      <tr> 
       <td role="rowheader">Approval Processes</td> 
       <td><p>Create and manage approval processes for use throughout the system and for specific groups.</p><p>Without this access, users can create only ad-hoc approval processes on items they have access to manage.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="preview">Change history</span></td> 
+      <td><p><span class="preview">View the Workfront change history logs in Setup > Change Tracking > Change History List.</span></p>
+      <p><span class="preview">Without this access, users do not have this option in the Setup area.</span></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Companies</td> 

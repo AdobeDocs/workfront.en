@@ -34,3 +34,4 @@ This section contains the following articles:
 * [Configure [!DNL Workfront Proof] emails to avoid spam filters](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)
 * [Configure spam settings for common email clients](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md)
 * [[!DNL Workfront Proof] SPF records](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
+

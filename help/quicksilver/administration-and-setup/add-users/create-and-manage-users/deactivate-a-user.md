@@ -131,17 +131,15 @@ To schedule a user for deactivation:
 1. In the left panel of the **Edit User** box, click **Resource Planning**.
 1. Click **Set deactivation date**.
 
-1. Select the date and the time for the **Deactivation Date**.
+1. Select the datefor the **Deactivation Date**.
 
    >[!NOTE]
    >
-   >* In the time box, you can select only whole hour increments, not minutes.
-   >* If you select a time for the current day that has passed, Workfront will schedule the deactivation for the following day at 12:00 AM. 
-   >* The time selected matches the computer timezone of the user who is scheduling the deactivation.
+   >* The date selected matches the computer timezone of the user who is scheduling the deactivation.
 
 1. Click **Save**.
 
-The user is deactivated on the selected day sometime after the selected time. If you selected multiple users to deactivate in bulk, all selected users are deactivated on the selected day sometime after the selected time.
+The user is deactivated at 12:00 AM on the selected date. If you selected multiple users to deactivate in bulk, all selected users are deactivated at 12:00 AM on the selected date.
 
 We recommend that you build a report for users that you have scheduled for deactivation to keep informed about what users are coming up to be deactivated. There is no confirmation that the deactivation has happened after the users are deactivated.
 

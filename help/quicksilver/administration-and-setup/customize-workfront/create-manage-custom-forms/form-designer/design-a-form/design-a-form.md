@@ -37,8 +37,6 @@ topic_v2:
 
 <!-- Audited: 6/2025 -->
 
-{{preview-fast-release-general}}
-
 You can design a custom form with the form designer in Adobe Workfront. You can attach custom forms to different Workfront objects to capture data about those objects.
 
 ## Access requirements
@@ -79,7 +77,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. Click **New Custom Form.**
 1. Select which object types you'd like to attach the custom form to, then click **Continue**.
 
-   ![Choose object types](assets/new-custom-form-select-objects-032526.png)
+   ![Choose object types](assets/new-custom-form-select-objects-new-spectrum-icons.png)
 
    +++ Expand to view the list of objects that support custom forms.
    
@@ -121,7 +119,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
     * [Add text fields](#add-text-fields)
     * [Add calculated fields](#add-calculated-fields)
     * [Add radio buttons, checkbox groups, and drop-downs](#add-radio-buttons-checkbox-groups-and-drop-downs)
-    * [Add typeahead and date fields](#add-typeahead-and-date-fields)
+    * [Add date fields](#add-date-fields)
     * [Add external lookup fields](#add-external-lookup-fields)
     * [Add images, PDFs, and videos](#add-images-pdfs-and-videos)
     * [Add Workfront native fields](#add-workfront-native-fields)
@@ -157,52 +155,57 @@ Custom forms are limited to 500 fields. A counter on the bottom left displays ho
 
     Click **Save and Close**. 
 
-### Notes on field names and labels {#notes-on-field-names-and-labels}
+### Notes on field API names and labels {#notes-on-field-names-and-labels}
 
-The label is available for most fields. It's a descriptive label that appears above the field or widget on the custom form. You can change the label at any time.
+* The label is available for most fields. It's a descriptive label that appears above the field or widget on the custom form. You can change the label at any time.
 
->[!NOTE]
->
->Avoid using special characters in this label as they don't display correctly in reports.
+   >[!NOTE]
+   >
+   >Avoid using special characters in this label as they don't display correctly in reports.
 
-A name is required for every field. This name is how the system identifies the custom field when you add it to various areas throughout Workfront, such as reports, Home, and API interactions. When you are configuring the field or widget for the first time and you type the label, the Name field populates automatically to match it. The Label and Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.
+* An API name is required for every field. This name is how the system identifies the custom field when you add it to various areas throughout Workfront, such as reports, Home, and API interactions. When you are configuring the field or widget for the first time and you type the label, API Name field populates automatically to match it. The Label and API Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.
 
-Each custom field name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form.
+* Each custom field API name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form.
 
->[!NOTE]
->
->Though it's possible to do so, we recommend that you don't change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront.
->For example, if you add the custom field to a report and later change its name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.
->
->We recommend that you don't type a name that is already used for built-in Workfront fields.
->
->We recommend that you don't use the period/dot character in the custom field name to prevent errors when using the field in different areas of Workfront.
+* Though it's possible to do so, we recommend that you don't change this API name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront.
 
-The following special characters are not supported in custom field labels and names.
+   For example, if you add the custom field to a report and later change its API name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.
 
-* \t
-* \n
-* \r
-* \f
-* `[`
-* `]`
-* (
-* )
-* :
-* `{`
-* `}`
+* API names are read-only by default. To make the API name editable, click the **Edit** icon next to the **API Name**. Then, type **confirm** in the confirmation box and click **Rename field**.
+
+* We recommend that you don't type an API name that is already used for built-in Workfront fields.
+
+* We recommend that you don't use the period/dot character in the custom field API name to prevent errors when using the field in different areas of Workfront.
+
+* The following special characters are not supported in custom field labels and API names.
+
+   * \t
+   * \n
+   * \r
+   * \f
+   * `[`
+   * `]`
+   * (
+   * )
+   * :
+   * `{`
+   * `}`
 
 ### Add text fields
 
- You can add several different text fields to a custom form. 
+ You can add several different text fields to a custom form.
 
 +++ Expand to see descriptions of available text fields.
 
 * **Single line text field**: Allows users to type a single line of text in the field.
 * **Paragraph field**: Allows users to type multiple lines of text in the field.
-* <span class="preview">**Rich text**: Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, subscript and superscript, hyperlinks, block quotes, headings, and tables. A character limit of 15,000 provides a large space for text and formatting.</span>
+* **Rich text**: Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, subscript and superscript, hyperlinks, block quotes, headings, and tables. A character limit of 15,000 provides a large space for text and formatting.
 
-  <span class="preview">The Rich text field type is replacing the Text with formatting field type. You can quickly convert existing Text with formatting fields to Rich text, by clicking the **Convert to rich text** button in the field options on the right.</span>
+   >[!NOTE]
+   >
+   >The Rich text field type is replacing the Text with formatting field type. You can quickly convert existing Text with formatting fields to Rich text, by clicking the **Convert to rich text** button in the field options on the right.
+
+<!--
 
 * **Text field with formatting**: Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. A character limit of 15,000 allows for plenty of text and formatting.
 
@@ -210,9 +213,7 @@ The following special characters are not supported in custom field labels and na
 
     For information about accessing this field through the API, see [Rich text field storage in the API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
 
-    >[!NOTE]
-    >
-    >Text fields with formatting are not available for Workfront mobile apps (available in coming releases).
+-->
 
 * **Descriptive text**: Allows you to include instructions and link to pages outside Workfront.
 
@@ -224,9 +225,9 @@ To add a text field:
 
     * Single line text
     * Paragraph
-    * <span class="preview">Rich text</span>
-    * Text with formatting
+    * Rich text
     * Descriptive text
+    <!--Text with formatting-->
 
     ![Drag field to section](assets/drag-field-to-section.png)
 
@@ -245,8 +246,7 @@ To add a text field:
     <td><ul>
     <li>Single line text</li>
     <li>Paragraph</li>
-    <li><span class="preview">Rich text</span></li>
-    <li>Text with formatting</li>
+    <li>Rich text</li>
     <li>Descriptive text</li>
     </ul></td>
     </tr>
@@ -257,20 +257,18 @@ To add a text field:
     <td><ul>
     <li>Single line text</li>
     <li>Paragraph</li>
-    <li><span class="preview">Rich text</span></li>
-    <li>Text with formatting</li>
+    <li>Rich text</li>
     </ul></td>
     </tr>
     <tr>
-     <td>Name</td>
-    <td><p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. The Label and Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p>
+     <td>API Name</td>
+    <td><p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the API Name field populates automatically to match it. The Label and API Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p>
     <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p>
     </td>
     <td><ul>
     <li>Single line text</li>
     <li>Paragraph</li>
-    <li><span class="preview">Rich text</span></li>
-    <li>Text with formatting</li>
+    <li>Rich text</li>
     <li>Descriptive text</li>
     </ul></td>
     </tr>
@@ -282,8 +280,7 @@ To add a text field:
     <td><ul>
     <li>Single line text</li>
     <li>Paragraph</li>
-    <li><span class="preview">Rich text</span></li>
-    <li>Text with formatting</li>
+    <li>Rich text</li>
     </ul></td>
     </tr>
     <tr>
@@ -334,8 +331,7 @@ To add a text field:
      <td><ul>
      <li>Single line text</li>
      <li>Paragraph</li>
-     <li><span class="preview">Rich text</span></li>
-     <li>Text with formatting</li>
+     <li>Rich text</li>
      <li>Descriptive text</li></ul></td>
     </tr>
     <tr> 
@@ -344,8 +340,7 @@ To add a text field:
     <td><ul>
     <li>Single line text</li>
     <li>Paragraph</li>
-    <li><span class="preview">Rich text</span></li>
-    <li>Text with formatting</li>
+    <li>Rich text</li>
     </ul></td> 
     </tr> 
    </table>
@@ -418,8 +413,8 @@ To add radio buttons, checkbox groups, and drop-downs:
     </ul></td>
      </tr> 
      <tr> 
-    <td role="rowheader">Name</td> 
-     <td> <p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. The Label and Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p> 
+    <td role="rowheader">API Name</td> 
+     <td> <p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the API Name field populates automatically to match it. The Label and API Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p> 
     <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td>
      <td><ul>
     <li>Radio buttons</li>
@@ -543,6 +538,8 @@ To add radio buttons, checkbox groups, and drop-downs:
 
     Click **Save and Close**.
 
+<!--
+
 ### Add typeahead and date fields
 
  You can add typeahead and date fields to a custom form.
@@ -640,7 +637,8 @@ To add typeahead and date fields:
        <ul> 
         <li>If you are editing an existing custom form, adding a filter to a typeahead field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
         <li>This filter is not available on mobile devices. If you use the filter for a typeahead field, the field will appear on users' mobile devices unaffected by the filter.</li> 
-        </ul></p></td> 
+        </ul></p>
+      </td>  
       <td>
        <ul>
        <li>Typeahead</li>
@@ -679,6 +677,65 @@ To add typeahead and date fields:
 
     Click **Save and Close**.
 
+-->
+
+### Add date fields
+
+A date field displays a calendar where users can select a date and time.
+
+To add date fields:
+
+1. In the **New field** tab on the left side of the screen, find **Date** and drag it to a section on the canvas.
+
+    ![Drag field to section](assets/drag-field-to-section.png)
+
+1. On the right side of the screen, configure the options for the custom field:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Label</td> 
+      <td> <p>(Required) Type a descriptive label to display above the widget. You can change the label at any time.</p> <p><b>Important</b>: Avoid using special characters in this label as they don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">API Name</td> 
+      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the API Name field populates automatically to match it. The Label and API Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p> <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Instructions</td> 
+      <td> <p>Type any additional information about the custom field. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.</p> </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Display Time of Day</td>
+      <td><p>Select this option if you want to show the time of day along with the date in the field.</p></td>
+     </tr> 
+     <tr>
+      <td>Active</td>
+      <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Make a required field</td>
+      <td><p>Select this option if you want the field to be required in order for the user to complete the custom form.</p></td>
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Optional) Repeat the previous step to add any other fields or widgets. 
+
+    Or
+
+    To copy a field, hover over a field, and click the copy icon.
+
+    ![copy icon](assets/copy-field.png)
+
+1. To save your changes, click **Apply** and move on to another section to continue building your form.
+
+    Or
+
+    Click **Save and Close**. 
+
 ### Add external lookup fields
 
 An external lookup field calls an external API and returns values as options in a drop-down field. Users who work with the object the custom form is attached to can select one or more of these options from the drop-down, depending on whether the external lookup field is a single or multi-select field. The external lookup fields are also available in lists and reports.
@@ -703,8 +760,8 @@ To add an external lookup:
       <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>Important</b>: Avoid using special characters in this label as they don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Name</td> 
-      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the option to change the label that your users see without having to change the name that the system sees.</p>
+      <td role="rowheader">API Name</td> 
+      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the field for the first time and you type the label, the API Name field populates automatically to match it. But the Label and API Name fields are not synchronized—this gives you the option to change the label that your users see without having to change the name that the system sees.</p>
       <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td>
      </tr> 
       <td role="rowheader">Instructions</td> 
@@ -797,6 +854,93 @@ To add an external lookup:
 >* Wait duration between retries: 500ms
 >* Expected response statuses: 2xx
 
+
+
+### Add internal lookup fields
+
+An internal lookup field allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing. For example, if the user is typing a user name then a list of matching names appears. The internal lookup field type is supported on the following objects:
+
+* User
+* Group
+* Job Role
+* Portfolio
+* Program
+* Project
+* Team
+* Template
+* Company
+* Task
+* Issue
+* Document
+* Location
+
+To add an internal lookup:
+
+1. In the **New field** tab on the left side of the screen, find **Internal lookup** or **Multi-select internal lookup**, and drag it to a section on the canvas.
+1. On the right side of the screen, configure the options for the custom field:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Label</td> 
+      <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>Important</b>: Avoid using special characters in this label as they don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">API Name</td> 
+      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the field for the first time and you type the label, the API Name field populates automatically to match it. But the Label and API Name fields are not synchronized—this gives you the option to change the label that your users see without having to change the name that the system sees.</p>
+      <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td>
+     </tr> 
+      <td role="rowheader">Instructions</td> 
+      <td> <p>Type any additional information about the custom field. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Referenced Object Type</td>
+      <td><p>Select the object type that you want to associate with the field.</p> <p>Once you have clicked <strong>Apply</strong> or <strong>Save and Close</strong>, you can't change the object type for the field.</p>
+      <p><strong>Note:</strong></p>
+      <ul><li>If your Workfront administrator customized the name for Portfolios, Programs, or Projects in the Workfront user interface, the default Workfront name for the object appears in this drop-down list, not the customized name. See your Workfront administrator if you need help with this.</li>
+      <li>The following object types are supported in the iOS and Android Workfront Mobile Apps: User, Company, Group, Job Role, Portfolio, Program, Project, and Template.</li>
+      </ul></td>
+     </tr> 
+     <tr>
+      <td>Add Filter</td>
+      <td><p>Add a filter for an object type to limit the objects users can choose when they are using the field. </p> <p>For example, you could limit a field so that usernames can be selected only if they meet the following criteria:</p> 
+       <ul> 
+        <li>They belong to a group or groups that you specify.</li> 
+        <li>They are associated with a role or job title you specify.</li> 
+        <li>They belong to the same group as the person using the field.</li> 
+       </ul>
+       <p>You must define the filter for the object type you selected using Text Mode syntax. For information about creating a filter using Text Mode, see <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Edit a filter using text mode</a>.</p>
+       <p><b>Tip:</b> You can create a report to test your filter before adding the filter directly to the internal lookup field. This will help you verify that the filter returns the correct objects. Then you can switch to text mode in the report, copy the text mode statement, and add it to the internal lookup filter.</p>
+       <p><b>Note</b>:
+       <ul> 
+        <li>If you are editing an existing custom form, adding a filter to an internal lookup field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
+        <li>This filter is not available on mobile devices. If you use the filter for an internal lookup field, the field will appear on users' mobile devices unaffected by the filter.</li> 
+        </ul></p>
+      </td>  
+     </tr>
+     <tr> 
+      <td role="rowheader">Multi-select dropdown</td>
+      <td><p>Select this option to allow the user to select more than one value in the drop-down.</p></td>
+     </tr>
+     <tr>
+      <td>Active</td>
+      <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Make a required field</td>
+      <td><p>Select this option if you want the field to be required in order for the user to complete the custom form.</p></td>
+     </tr>       
+    </tbody>
+   </table>
+
+1. To save your changes, click **Apply** and move on to another section to continue building your form.
+   
+   Or
+
+   Click **Save and Close**.
+
 ### Add images, PDFs, and videos
 
  You can add images, PDFs, and videos to a custom form. Users who work with the object the custom form is attached to can see the image, PDF, or video only in the following areas:
@@ -846,8 +990,8 @@ The Workfront Mobile app
       <td> <p>(Required) Type a descriptive label to display above the widget. You can change the label at any time.</p> <p><b>Important</b>: Avoid using special characters in this label as they don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Name</td> 
-      <td> <p>(Required) This name is how the system identifies the widget. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. The Label and Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p> <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
+      <td role="rowheader">API Name</td> 
+      <td> <p>(Required) This name is how the system identifies the widget. When you are configuring the widget for the first time and you type the label, the API Name field populates automatically to match it. The Label and API Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p> <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -908,74 +1052,69 @@ The Workfront Mobile app
 
 ### Add Workfront native fields
 
-You can add Workfront native fields to your custom forms. When the custom form is attached to an object, the field is populated from the object data. For example, the Description field on a custom form attached to a project will pull in the project description. (The field may show "N/A" if no data is available.)
+You can add Workfront native fields to your custom forms. When the custom form is attached to an object, the field is populated from the object data. For example, if the custom field references the Description field and it is on a custom form attached to a project, it pulls in the project description. (The field may show "N/A" if no data is available.)
 
 +++ Expand to see the list of supported native fields.
 
-This table lists the available native fields for specific Workfront objects in a custom form.
+This list shows the available native fields for custom forms, and which object types you can use each field on.
 
-| Field name                 | Project | Task   | Issue  | Template | Template Task | Portfolio | Program | Group |
-|--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
-| <span class="preview"> Actual Benefit </span> | <span class="preview">✓ </span> | &nbsp; | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Actual Completion Date     | ✓       | ✓      | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Actual Duration            | ✓       | &nbsp; | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Actual Hours               | ✓       | &nbsp; | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Actual Start Date          | ✓       | ✓      | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| <span class="preview"> Budget </span> | <span class="preview">✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span>       | &nbsp;        | <span class="preview"> ✓ </span>        | &nbsp;  | &nbsp;|
-| Company                    | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Condition                  | ✓       | ✓      | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Condition Type             | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| <span class="preview"> Currency </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Description                | ✓       | ✓      | ✓      | ✓        | ✓             | ✓        | ✓       | ✓ |
-| Duration                   | &nbsp;  | ✓      | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
-| Duration Type              | &nbsp;  | ✓      | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
-| Duration Unit              | &nbsp;  | ✓      | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
-| Entered By                 | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | ✓     |
-| Entry Date                 | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | ✓     |
-| <span class="preview"> Exchange Rate Date </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| <span class="preview"> Fixed Cost </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| <span class="preview"> Fixed Revenue </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Group                      | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | ✓        | ✓       | &nbsp; |
-| Last Updated By            | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp; |
-| Last Update Date           | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp; |
-| Name                       | ✓       | ✓      | ✓     | ✓        | ✓             | ✓        | ✓       | ✓     |
-| Owner                      | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | ✓        | ✓       | &nbsp; |
-| <span class="preview"> Performance Index Method </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| <span class="preview"> Planned Benefit </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Planned Completion Date    | ✓       | ✓      | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Planned Duration           | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Planned Hours              | ✓       | ✓      | ✓      | &nbsp;   | ✓            | &nbsp;    | &nbsp;  | &nbsp;|
-| Planned Start Date         | ✓       | &nbsp; | &nbsp; | &nbsp;    | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Portfolio                  | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | ✓       | &nbsp; |
-| Priority                   | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp; |
-| Program                    | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Projected Completion Date  | ✓       | ✓     | &nbsp;  | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Projected Duration Minutes | &nbsp;   | ✓     | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Projected Start Date       | ✓       | ✓     | &nbsp;  | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Reference Number           | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp; |
-| Schedule Mode              | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Severity                   | &nbsp;   | &nbsp; | ✓     | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Sponsor                    | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Status                     | ✓       | ✓     | &nbsp;  | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Story Points               | &nbsp;   | ✓     | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| Template                   | ✓       | &nbsp; | &nbsp;  | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| <span class="preview"> Total Estimated Cost </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| <span class="preview"> Total Estimated Revenue </span> | <span class="preview"> ✓ </span> | &nbsp; | &nbsp; | <span class="preview"> ✓ </span> | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
-| URL                        | ✓       | ✓     | &nbsp;  | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
-
-{style="table-layout:auto"}
-
-<div class="preview">
-
-These additional custom form object types also support native field references.
-
-* Billing Record: Fixed Revenue field
-* Document: Name, Description fields
-* Company: Name, Group fields
-* Rate Card: Name, Description, Company, Group fields
-* Job Role: Name, Description fields
-
-</div>
+* **Actual Benefit**: Project
+* **Actual Completion Date**: Project, Task, Issue
+* **Actual Cost**: Project, Task, Issue
+* **Actual Duration**: Project, Task
+* **Actual Hours**: Project, Task, Issue
+* **Actual Start Date**: Project, Task, Issue
+* **Budget**: Project, Template, Portfolio
+* **Commit Date**: Task, Issue
+* **Company**: Project, Template, Rate Card
+* **Condition**: Project, Task, Issue
+* **Condition Type**: Project, Template
+* **Converted Issue Originator**: Project
+* **Currency**: Project, Template
+* **Description**: Project, Task, Issue, Template, Template Task, Portfolio, Program, Group, Document, Rate Card, Job Role
+* **Duration**: Task, Template Task
+* **Duration Type**: Task, Template Task
+* **Duration Unit**: Task, Template Task
+* **Entered By**: Project, Task, Issue, Template, Template Task, Group
+* **Entry Date**: Project, Task, Issue, Template, Template Task, Group
+* **Exchange Rate Date**: Project
+* **Fixed Cost**: Project, Template
+* **Fixed Revenue**: Project, Template, Billing Record
+* **Group**: Project, Template, Portfolio, Program, Company, Rate Card
+* **Issue Type**: Issue
+* **Iteration**: Task
+* **Last Updated By**: Project, Task, Issue, Template, Template Task
+* **Last Update Date**: Project, Task, Issue, Template, Template Task
+* **Name**: Project, Task, Issue, Template, Template Task, Portfolio, Program, Group, Document, Company, Rate Card, Job Role
+* **Owner**: Project, Template, Portfolio, Program
+* **Performance Index Method**: Project, Template
+* **Planned Benefit**: Project, Template
+* **Planned Completion Date**: Project, Task, Issue
+* **Planned Duration**: Project, Template
+* **Planned Hours**: Project, Task, Issue, Template Task
+* **Planned Start Date**: Project, Task, Issue
+* **Portfolio**: Project, Template, Program
+* **Priority**: Project, Task, Issue, Template, Template Task
+* **Program**: Project, Template
+* **Projected Completion Date**: Project, Task
+* **Projected Duration Minutes**: Task
+* **Projected Start Date**: Project, Task
+* **Queue Topic**: Issue
+* **Readiness**: Task
+* **Reference Number**: Project, Task, Issue, Template, Template Task
+* **Resource Managers**: Project
+* **Schedule Mode**: Project, Template
+* **Severity**: Issue
+* **Sponsor**: Project, Template
+* **Status**: Project, Task, Issue
+* **Story Points**: Task
+* **Task Constraint**: Task
+* **Template**: Project
+* **This Resolves**: Project, Task
+* **Total Estimated Cost**: Project, Template
+* **Total Estimated Revenue**: Project, Template
+* **URL**: Project, Task, Issue, Template, Template Task
+* **Work Effort**: Task
 
 <!--
 Non-Labor Resource: Name, Description, Home Group, Non-labor Category, Non-labor Group, Unique Identifier fields
@@ -1001,8 +1140,8 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td> <p>(Required) Type a descriptive label to display above the field. You can change the label at any time.</p> <p><b>Important</b>: Avoid using special characters in this label as they don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Name</td>
-      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the field for the first time and you type the label, the Name field populates automatically to match it. The Label and Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p>
+      <td role="rowheader">API Name</td>
+      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the field for the first time and you type the label, the API Name field populates automatically to match it. The Label and API Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p>
       <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p></td> 
      </tr> 
      <tr> 
@@ -1021,10 +1160,12 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
         <li>They are associated with a role or job title you specify.</li> 
         <li>They belong to the same group as the person using the field.</li> 
        </ul>
+       <p>When a system filter exists on the field, it is applied by default if you do not add a custom filter. A custom filter overrides the system filter.</p>
        <p>You must define the filter for the reference field you selected using Text Mode syntax. For information, see <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Edit a filter using text mode</a>.</p>
+       <p>Use dynamic filter syntax to narrow the list of items in this field based on the value of another field. For example, when you use <code>?portfolioID={portfolio}.{ID}</code> in a Project field filter and a Portfolio native field is on the custom form, the Project field shows only projects that are in the selected portfolio. If the Portfolio field is left blank, then all projects are available in the Project field.</p>
        <p><b>Note</b>:
        <ul> 
-        <li>The filter option is only available when you reference a native typeahead field, such as Portfolio, Company, or Owner.</li>
+        <li>The filter option is only available when you reference a native typeahead or internal lookup field, such as Portfolio, Company, or Owner.</li>
         <li>If you are editing an existing custom form, adding a filter to a native field doesn't remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
         <li>This filter isn't available on mobile devices. If you use the filter for a native field, the field will appear on users' mobile devices unaffected by the filter.</li> 
         </ul></p></td> 
@@ -1072,8 +1213,8 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td> <p>(Required) Type a descriptive label to display above the widget. You can change the label at any time.</p> <p><b>Important</b>: Avoid using special characters in this label as they don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Name</td> 
-      <td> <p>(Required) This name is how the system identifies the widget. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. The Label and Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p>
+      <td role="rowheader">API Name</td> 
+      <td> <p>(Required) This name is how the system identifies the widget. When you are configuring the widget for the first time and you type the label, the API Name field populates automatically to match it. The Label and API Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p>
     <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p></td> 
      </tr> 
      <tr> 
@@ -1147,8 +1288,8 @@ To add a Planning connection field:
       <p>We recommend you choose a label that helps you easily identify where the Planning record is coming from. Add information like the name of the workspace or the name of the record type. </p>   </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Name</td>
-      <td> <p>(Required) The name is how the system identifies the field. When you are configuring the field for the first time and you type the label, the Name field populates automatically to match it. The Label and Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p></td> 
+      <td role="rowheader">API Name</td>
+      <td> <p>(Required) The name is how the system identifies the field. When you are configuring the field for the first time and you type the label, the API Name field populates automatically to match it. The Label and API Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 

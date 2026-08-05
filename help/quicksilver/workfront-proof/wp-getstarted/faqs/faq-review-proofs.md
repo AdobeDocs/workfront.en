@@ -88,3 +88,4 @@ If you are sending a proof to a group of reviewers, but you only need one person
 ## Can I generate a list of all comments that were made on a proof?
 
 Yes, you can generate a *[!UICONTROL Print summary]* of the comments left on the proof. This document can be generated either for a single version or across all versions that were shared with this reviewer. It shows you a list of all comments, markups and decisions that were made on the proof. For more information about this feature, please visit [Print and Export Comments in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
+

@@ -163,7 +163,7 @@ To reuse an existing calculated custom field:
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td>Type a label for the field. This is what users will see when they use the custom form. The field <b>Name</b>, which fills in automatically, is referenced by Workfront in reports.</td> 
+      <td>Type a label for the field. This is what users will see when they use the custom form. The field <b>API Name</b>, which fills in automatically, is referenced by Workfront in reports.</td> 
      </tr> 
      <tr> 
       <td role="rowheader" id="instructions">Instructions</td> 

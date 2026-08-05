@@ -41,10 +41,11 @@ topic_v2:
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
 <!--this articles used to be called "Adobe Workfront Planning: article index"-->
 
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -65,7 +66,7 @@ The following sections contain articles that describe in detail the features cur
     * Share views
     * Share workspaces (records and fields)
     * Share record types (records and fields)    
-    * <span class="preview">Share records</span>
+    * Share records
 
 * [Architecture: article index](/help/quicksilver/planning/architecture/architecture-information.md) contains the following information:
 
@@ -119,7 +120,7 @@ The following sections contain articles that describe in detail the features cur
 
 * [Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration: article index](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): You can manage records from GenStudio for Performance Marketing in the GenStudio workspace in Workfront Planning.
 
-* **Workfront Planning reporting capabilities**: You can view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+* **Workfront Planning reporting capabilities**: You can view Workfront Planning information in a report using the Workfront Canvas Dashboard, or in Workfront Data Connect which uses Snowflake technology. For information, see [Adobe Workfront Planning reporting: article index](/help/quicksilver/planning/reporting/reporting-in-planning-article-index.md).
 
 * [Adobe Workfront Planning best practices: article index](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md): Learn tips on how to roll out Adobe Workfront Planning in your organization using a strategy that prioritizes safety, minimizes disruption, and delivers quick wins.
 
@@ -130,3 +131,7 @@ The following sections contain articles that describe in detail the features cur
 We are releasing new features to Workfront Planning regularly. 
 
 For an up-to-date list of released features, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md). 
+
+## Workfront Planning as a standalone product
+
+Customers can purchase Workfront Planning without purchasing a Workflow license. For information, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).

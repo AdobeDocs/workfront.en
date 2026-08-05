@@ -18,16 +18,17 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 <!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+-->
 
 {{planning-important-intro}}
 
 You can view objects in the list view in the following areas of Workfront Planning:
 
-* A connected records page for projects in a record's details area <!--update screen shot for preview May 14 with Grouping icon and add the note at the top in yellow about preview-->
+* A connected records page for projects in a record's details area 
 
     ![Projects on connected records page in list view](assets/projects-on-connected-records-page-list-view.png)
 
@@ -41,6 +42,7 @@ This article describes how you can navigate, create, or edit a list view in Work
 
 +++ Expand to view the access requirements for the functionality in this article. 
 
+
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -53,15 +55,29 @@ This article describes how you can navigate, create, or edit a list view in Work
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p>
-<p>Any Workflow and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>Any Workfront or Workflow with a Planning package</p></li>
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
+   </td> </tr>
+
+   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p> Standard to create and delete views</p>
-   <p>Contributor or higher to update view elements</p>
+   <td><p>Workflow Light or higher</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p> Planning Standard to create and delete views</p>
+   <p>Planning Contributor or higher to update view elements</p>
+   <p><b>NOTE</b><p>
+   <p>Not all customers have Planning Contributor licenses</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
@@ -248,9 +264,9 @@ Removed - more direct steps below:
 
 1. (Conditional) For select type fields, use your keyboard arrows to navigate the list of options, then press the space bar to select the correct choice. 
 
-    <span class="preview">Use the **Search** line in select field types to find the right option.</span>
+    Use the **Search** line in select field types to find the right option.
 
-    <span class="preview">You can add new options directly from the field cell when no results are found. This feature may not be available on all lists.</span>
+    You can add new options directly from the field cell when no results are found. This feature may not be available on all lists.
 
 1. Hover over an item's name in the list and click the **More** menu [More menu](assets/more-menu.png) and click **View** to open the item in another tab
      

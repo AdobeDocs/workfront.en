@@ -12,10 +12,6 @@ feature: Get Started with Workfront
 
 The [!DNL Adobe Workfront] MCP server lets you find, create, update, and manage Workfront items by asking an AI agentic platform in natural language. The platform decides which Workfront actions to call and handles the conversation with Workfront for you.
 
->[!IMPORTANT]
->
->Currently, the Workfront MCP server is available only to customers using AWS.
-
 ## Prerequisites
 
 * You must set up the connection between your AI agentic platform and the Workfront MCP server. For setup instructions, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).

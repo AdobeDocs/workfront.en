@@ -75,7 +75,7 @@ This example demonstrates how to call the Workfront API and populate a list of p
 
 1. Open the custom form.
 1. On the left side of the screen, find **External lookup** and drag it to a section on the canvas.
-1. Enter the **Label** and **Name** for the field.
+1. Enter the **Label** and **API Name** for the field.
 1. Select the **Format** for the field.
 1. Enter the API call in the **Base API URL** field.
 
@@ -120,7 +120,7 @@ This example shows you how to call the Workfront API and bring data from a custo
 
 1. Open the custom form.
 1. On the left side of the screen, find **External lookup** and drag it to a section on the canvas.
-1. Enter the **Label** and **Name** for the field.
+1. Enter the **Label** and **API Name** for the field.
 1. Select the **Format** for the field.
 1. Enter the API URL call in the **Base API URL** field.
 
@@ -171,7 +171,7 @@ This example shows how to call an API of countries (such as <https://api.first.o
 
 1. Open the custom form.
 1. On the left side of the screen, find **External lookup** and drag it to a section on the canvas.
-1. Enter the **Label** and **Name** for the field.
+1. Enter the **Label** and **API Name** for the field.
 1. Select the **Format** for the field.
 1. Enter the API URL call in the **Base API URL** field.
 

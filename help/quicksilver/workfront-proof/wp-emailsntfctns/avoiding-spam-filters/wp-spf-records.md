@@ -40,3 +40,4 @@ To set up an SPF record, you will need to include the SPF record used for our pr
    >[!TIP]
    >
    >You can use the free tool at [[!DNL https://mxtoolbox.com/spf.aspx]](https://mxtoolbox.com/spf.aspx) to review [!DNL Workfront] SPF records.
+

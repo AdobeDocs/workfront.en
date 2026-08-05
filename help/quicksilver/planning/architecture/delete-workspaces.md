@@ -29,9 +29,11 @@ topic_v2:
 ---
 # Delete workspaces
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -57,17 +59,26 @@ We recommend recreating some or all of the record types, records, fields, and vi
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>Any Workfront and any Planning package</p></li>
+<p>Any Workfront or Workflow with a Planning package</p> 
 Or
-<li><p>Any Workflow and any Planning package</p></li></ul>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
-   </td> 
+<p>Any Workfront Planning when purchased as a standalone product</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p>
-   </td> 
+   <td><p>Any</p> 
+  </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Any</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
+  </tr> 
+
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a workspace</p>  
@@ -128,7 +139,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -156,7 +167,7 @@ Old:
 
    >[!NOTE]
    >
-   ><span class="preview">You cannot delete the workspaces on the **Sample workspaces** tab. We recommend using the multi-workspace template bundle to create workspaces similar to those on the Sample workspace tab. For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).</span> 
+   >You cannot delete the workspaces on the **Sample workspaces** tab. We recommend using the multi-workspace template bundle to create workspaces similar to those on the Sample workspace tab. For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 1. (Optional) Click **Show all** to display additional workspaces. The **Show all** link displays only when you have more than two rows of workspace cards.
 1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 

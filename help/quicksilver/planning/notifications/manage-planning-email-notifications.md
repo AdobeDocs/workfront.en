@@ -30,7 +30,7 @@ topic_v2:
 # Manage Adobe Workfront Planning email notifications
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -42,8 +42,8 @@ You can receive email notifications from Workfront Planning when the following s
 * Someone tags you or your teams in a record comment
    
    For information about tagging others in a record comment, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
-* Someone asks for your permission to access a view, a workspace, or record type <!--or <span class="preview">or a record</span>-->
-* Someone confirms your access has been granted for a view, workspace, or record type <!--<span class="preview">or record</span> Isk confirmed that there is nno email for denying access but did not test-->
+* Someone asks for your permission to access a view, a workspace, record type or a record
+* Someone confirms your access has been granted for a view, workspace, record type or record
 * You submit a Workfront Planning request. For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * Someone approves or rejects a Workfront Planning request that you submitted. For information, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
 * The status changes to a Workfront Planning request that you submitted.
@@ -64,13 +64,24 @@ You can receive email notifications from Workfront Planning when the following s
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p> <p>Any Workflow and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+<p>Any Workfront or Workflow with a Planning package</p> <p>Any Planning package when purchased as a standalone product</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Light or higher</p>
+   <td><p>Workflow Light or higher</p>
    </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Contributor or higher</p>
+<p><b>NOTE</b></p>
+<p>Not all customers have a Contributor license</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
@@ -133,7 +144,7 @@ OLD:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

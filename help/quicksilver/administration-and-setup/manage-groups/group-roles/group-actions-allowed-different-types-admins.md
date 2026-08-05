@@ -64,6 +64,12 @@ This table lists the administration activities available for:
    <td>✓*</td> 
   </tr> 
   <tr> 
+   <td>Create, edit, and delete business profiles</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
    <td>Create and manage subgroups</td>
    <td>✓ </td> 
    <td>✓***</td> 

@@ -34,7 +34,7 @@ topic_v2:
 # Create record types
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -61,29 +61,37 @@ For more information about record types, see [Record types overview](/help/quick
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and Planning package</p>
-<p>Any Workflow and Planning package</p>
+<p>Any Workfront or Workflow and a Planning package</p>
+Or
+<p>Any Planning package when purchased as a standalone product</p>
 <p><b>NOTE</b></p>
 <p>To configure connectable record types: </p>
 <ul> 
-<li><p>Any Workfront package and any Planning package</p></li>
+<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li>
 Or
-<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
+<li>A Planning Prime or Ultimate package when purchased as a standalone product</li>
+</ul>
 
 <p>To configure global record types:</p>
 
 <ul> 
 <li><p>Any Workfront package and a Planning Plus package</p></li>
 Or
-<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
-
+<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li>
+Or 
+<li>A Planning Prime or Ultimate package when purchased as a standalone product</li>
+</ul>
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
+   </td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a workspace</p>  
@@ -143,7 +151,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

@@ -68,11 +68,15 @@ To enable Adobe cloud storage for your organization:
     - **Entire organization**: This option applies the default storage provider to your entire Workfront environment. Any time a user creates a new project, the default storage provider will be used.
     - **Specific groups**: This option applies the default storage provider only to specific groups within your organization. Any time a user in the specified groups creates a new project, the default storage provider will be used
 
+    ![storage preference groups](assets/configure-storage-preference.png)
+
 1. Click **Save**.
 
     >[!NOTE]
     >
     >Existing projects keep the storage model they were created with. For example, projects that use Adobe cloud storage continue to use Adobe cloud storage after you change the default storage preference.
+
+
 
 ## Adobe cloud storage in sandbox environments
 

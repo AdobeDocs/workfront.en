@@ -114,3 +114,4 @@ You can select if a new reviewer added to an existing proof will be notified of 
 * If you choose to add a custom message, the box expands and you will be able to put in a custom subject line (4) and custom text in the body of the email (5). You can also discard the custom message by clicking on the link (6).
 
 ![Proof_Details_page_3.png](assets/proof-details-page-3-350x258.png)
+

@@ -34,3 +34,4 @@ This section contains the following subsections:
 * [Personal settings in [!DNL Workfront Proof]](../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
 * [System information in [!DNL Workfront Proof]](../../workfront-proof/wp-getstarted/system-information/system-information.md)
 * [[!DNL Workfront Proof] - frequently asked questions](../../workfront-proof/wp-getstarted/faqs/faqs.md)
+

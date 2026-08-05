@@ -13,8 +13,18 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 2026 Q4 Release {#release-26-q4}
+      * [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
+      * [Fourth Quarter 2026 AI enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
+      * [Fourth Quarter 2026 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
+      * [Fourth Quarter 2026 Documents enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md)
+      * [Fourth Quarter 2026 Project enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-projects.md)
+      * [Fourth Quarter 2026 Reporting enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md)
+      * [Fourth Quarter 2026 Resource Management enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md)
+      * [Fourth Quarter 2026 Other enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md)
     * 2026 Q3 Release {#release-26-q3}
       * [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
+      * [Third Quarter 2026 AI enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md)
       * [Third Quarter 2026 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md)
       * [Third Quarter 2026 Documents enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
       * [Third Quarter 2026 Financial Management enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md)
@@ -22,6 +32,7 @@ feature-set: Workfront
       * [Third Quarter 2026 Project enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md)
       * [Third Quarter 2026 Reporting enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md)
       * [Third Quarter 2026 Requesting enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md)
+      * [Third Quarter 2026 Resource Management enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-resource-mgmt.md)
       * [Third Quarter 2026 Other enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md)
     * 2026 Q2 Release {#release-26-q2}
       * [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
@@ -238,6 +249,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Planning release activity{#planning-release-activity}
       * [Adobe Workfront Planning release activity](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+      * [Fourth Quarter 2026 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
       * [Third Quarter 2026 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)
       * [Second Quarter 2026 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
       * [First Quarter 2026 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
@@ -525,6 +537,8 @@ feature-set: Workfront
       * [Delete users](administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
       * [Audit logs overview](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
       * [View and export audit logs](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
+      * [View and manage change history](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)
+      * [Configure fields to track in change history](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)
       * [View user login information](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
       * [Manage users in the Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
       * [Business profiles overview](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
@@ -802,8 +816,7 @@ feature-set: Workfront
     * [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)
     * [Import rate cards from a template](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
     * [Push rate changes to projects](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
-    * [Share a rate card](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)   
-    * [View and manage Change History](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)
+    * [Share a rate card](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
   * Configure integrations {#configure-integrations}
     * [Configure integrations](administration-and-setup/configure-integrations/workfront-integrations.md)
     * [Adobe Workfront integrations](administration-and-setup/configure-integrations/workfront-integrations-1.md)
@@ -1190,6 +1203,13 @@ feature-set: Workfront
     * [Organize documents](documents/organizing-documents/organize-documents.md)
     * [Create document folders](documents/organizing-documents/create-documents-folder.md)
     * [Create and Manage Smart Folders](documents/organizing-documents/create-manage-smart-folders.md)
+  * Adobe Cloud Drive {#adobe-cloud-drive}
+    * [Adobe Cloud Drive: article index](documents/adobe-cloud-drive/adobe-cloud-drive.md)
+    * [Adobe Cloud Drive overview](documents/adobe-cloud-drive/adobe-cloud-drive-overview.md)
+    * [Install Adobe Cloud Drive](documents/adobe-cloud-drive/install-adobe-cloud-drive.md)
+    * [Use Adobe Cloud Drive](documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
+    * [Set up and manage Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/set-up-and-manage-adobe-cloud-drive.md)
+    * [Troubleshoot Adobe Cloud Drive](documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)
   * Workfront and Experience Manager Assets Integrations {#wf-aem-integrations}
     * [Workfront and Experience Manager Assets Integrations](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
     * Workfront for Experience Manager enhanced connector {#wf-aem-enhanced-connector}
@@ -1305,6 +1325,7 @@ feature-set: Workfront
       * [Share project templates](manage-work/projects/create-and-manage-templates/share-project-template.md)
       * [Delete project templates](manage-work/projects/create-and-manage-templates/delete-templates.md)
       * [Remove template information from a project](manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
+      * [Attach a rate card to a template](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md)
       * [Overview of Start and Completion Days in a template](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
       * [Overview of attaching a template to a project](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
     * Define a Business Case {#define-business-case}
@@ -1394,6 +1415,7 @@ feature-set: Workfront
       * [Assign tasks](manage-work/tasks/assign-tasks/assign-tasks-1.md)
       * [Assign tasks](manage-work/tasks/assign-tasks/assign-tasks.md)
       * [Create advanced assignments](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+      * [Use task collaborators](manage-work/tasks/assign-tasks/use-task-collaborators.md)
       * [Smart assignments overview](manage-work/tasks/assign-tasks/smart-assignments.md)
       * [Overview of modifying task assignments](manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
       * [Modify multiple user assignments in a task list](manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
@@ -2032,13 +2054,14 @@ feature-set: Workfront
       * [Document name changed after upload and contains an invalid character](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
       * [Proof a PowerPoint with an embedded video](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
       * [Proof versions cannot be downloaded or previewed when an interactive proof is added as a new version](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
-     * [Approver Decision shows a hyphen in the Proof Approval report](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md)
+      * [Approver Decision shows a hyphen in the Proof Approval report](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md)
   * Native integrations {#native-integrations}
     * [Review and approval native integrations: article index](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
     * {hide-from-toc} [Get started with the GenStudio for Performance Marketing and Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
     * [Get started with the proofing and Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
     * [Get started with the proofing and GenStudio for Performance Marketing integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
     * [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
+    * [Get started with the Adobe Express and Workfront with Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
   * Tips, tricks, and troubleshooting for approvals {#ttt-approvals}
     * [Tips, tricks, and troubleshooting for approvals: article index](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
     * [Update Workfront Fusion scenarios for unified review and approval](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md)
@@ -2146,6 +2169,7 @@ feature-set: Workfront
   * Adobe Workfront Planning general information {#adobe-workfront-planning-general-information}
     * [Adobe Workfront Planning general information: article index](planning/general/planning-general-article-index.md)
     * [Get started with Adobe Workfront Planning](planning/general/planning-overview.md)
+    * [Workfront Planning terminology overview](planning/general/planning-terminology.md)
     * [Adobe Workfront Planning implementation recommendations](planning/general/planning-best-practices.md)
     * [Adobe Workfront Planning API basics](planning/general/planning-api-basics.md)
     * [Adobe Workfront Planning AI Assistant overview](planning/general/planning-ai-assistant-overview.md)
@@ -2154,6 +2178,10 @@ feature-set: Workfront
     * [Adobe Workfront Planning release activity for 2023](planning/general/release-activity-archives-2023.md)
     * [Adobe Workfront Planning object limitations overview](planning/general/limitations-overview.md)
     * [Get started with the Adobe Workfront Planning free trial](planning/general/trial-workfront-planning.md)
+  * Adobe Workfront Planning reporting {#adobe-workfront-planning-reporting}
+    * [Adobe Workfront Planning reporting: article index](planning/reporting/reporting-in-planning-article-index.md)
+    * [View Workfront Planning information in reports](planning/reporting/planning-information-in-reports.md)
+    * {hide-from-toc}[Workfront Data Connect for Workfront Planning](planning/reporting/planning-in-data-connect.md)
   * Adobe Workfront Planning best practices {#adobe-workfront-planning-best-practices}
     * [Adobe Workfront best practices: article index](planning/best-practices.md/best-practices-article-index.md)
     * [Roll out your strategic home: a 30-day launchpad](planning/best-practices.md/30-day-launchpad.md)
@@ -2176,6 +2204,7 @@ feature-set: Workfront
     * [Add existing record types from another workspace](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [Connect record types overview](planning/architecture/connect-record-types-overview.md)
     * [Connect record types](planning/architecture/connect-record-types.md)
+    * [Manage dependent connections](planning/architecture/manage-dependent-connections.md)
     * [Edit record types](planning/architecture/edit-record-types.md)
     * [Delete workspaces](planning/architecture/delete-workspaces.md)
     * [Edit workspaces](planning/architecture/edit-workspaces.md)
@@ -2200,6 +2229,7 @@ feature-set: Workfront
     * [Share record types](planning/access/share-record-types.md)
     * [Share views](planning/access/share-views.md)
     * [Share records](planning/access/share-records.md)
+    * [Set default permissions for records](planning/access/set-default-record-permissions.md)
     * [Request permissions to a view or a workspace](planning/access/request-permissions.md)
   * Adobe Workfront Planning records {#adobe-workfront-planning-records}
     * [Records: article index](planning/records/records-information.md) 
@@ -2250,9 +2280,13 @@ feature-set: Workfront
     * [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
     * [Manage the GenStudio workspace in Adobe Workfront Planning](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
     * {hide-from-toc} [Promote a Workfront Planning workspace to GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
-  * Adobe Workfront Planning Standalone {#planning-standalone}
-    * {hide-from-toc} [Adobe Workfront Planning Standalone: article index](planning/planning-sta/planning-sta-article-index.md)
-    * {hide-from-toc} [Get started with Adobe Workfront Planning Standlone](planning/planning-sta/get-started-with-planning-sta.md)
+  * Adobe Workfront Planning as a standalone product {#planning-standalone}
+    * [Adobe Workfront Planning as a standalone product: article index](planning/planning-sta/planning-sta-article-index.md)
+    * [Get started with Adobe Workfront Planning as a standalone product](planning/planning-sta/planning-sta-overview.md)
+    * [Access needed for Adobe Workfront Planning as a standalone product](planning/planning-sta/access-needed-for-planning-sta.md)
+    * [Manage your instance of Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-planning-sta-instance.md)
+    * [Manage users in Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-users-in-planning-sta.md)
+    * [Manage teams in Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-teams-in-planning-sta.md)
 * Adobe Workfront Integrations {#adobe-workfront-integrations}
   * [Adobe Workfront integrations](workfront-integrations-and-apps/workfront-integrations.md)
   * [Adobe Workfront built-in integrations overview](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
@@ -2681,6 +2715,7 @@ feature-set: Workfront
   * [Create custom applications for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md)
 * {hide-from-toc} [Hidden test document](hidden-test.md)
 * {hide-from-toc} [Hide 2](hidden-test-2.md)
+
 
 
 <!--

@@ -18,7 +18,7 @@ role_v2:
 
 Breadcrumbs display the full navigational hierarchy for all object types. Each object in the breadcrumb path has a label that displays the object type. The page that you are currently on displays both in the page header and at the end of the breadcrumb path in italics. In the example below, this is the "[!UICONTROL Share with Brand Team]" task.
 
-![Collapsed breadcrumb](assets/NWE-collapsed-breadcrumb.png)
+![Collapsed breadcrumb](assets/collapsed-breadcrumb-2026.png)
 
 When there are too many objects in the breadcrumb path or the screen width prohibits the full navigational hierarchy from displaying, the path collapses some of the breadcrumbs and groups these objects at the beginning of the breadcrumb path. Both the project and the current object page are always visible in the breadcrumb path.
 
@@ -26,7 +26,7 @@ For example, "3 more" in the image above indicates that 3 objects are not displa
 
 Clicking "[!UICONTROL more]" allows you to expand the full hierarchy. You can click "[!UICONTROL Less]" to collapse the breadcrumb path again.
 
-![Expanded breadcrumb](assets/NWE-expanded-breadcrumb.png)
+![Collapsed breadcrumb](assets/expanded-breadcrumb-2026.png)
 
 You can also use the following keys to navigate the breadcrumbs:
 
@@ -78,3 +78,22 @@ For information about parent objects in [!DNL Workfront], see [Understand object
 1. Click any object in the breadcrumb path to access that object.
 
    The object page opens.
+
+   If you are looking at a project that is connected to an object in Workfront Planning (for example, a campaign), you can switch between both the Planning and the Workfront object types from the breadcrumb. For more information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+<div class="preview">
+
+## Copy the name and link from a breadcrumb
+
+{{highlighted-preview}}
+
+You can copy an object's name and link together in one action from the breadcrumb path. 
+
+1. Hover over any object in the breadcrumb path.
+1. Click the **[!UICONTROL Copy link]** icon that appears next to the object name.
+
+   ![Copy link icon on a breadcrumb](assets/copy-breadcrumbs.png)
+
+   The object's name and link are copied together. When you paste the copied information, it appears as a clickable link with the object name as the link text.
+
+</div>

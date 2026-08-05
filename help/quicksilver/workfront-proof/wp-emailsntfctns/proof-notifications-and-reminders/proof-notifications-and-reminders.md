@@ -35,3 +35,4 @@ This section contains the following articles:
 * [[!UICONTROL New proof] email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
 * [The [!UICONTROL New Version] email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
 * [The [!UICONTROL Proof Made] email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
+

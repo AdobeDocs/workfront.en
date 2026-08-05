@@ -39,8 +39,6 @@ topic_v2:
 ---
 # Configure system preferences
 
-{{preview-fast-release-general}}
-
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
@@ -154,8 +152,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td>Lets you choose to enable or disable the Priorities worklist experience for your users. Users will still see the Priorities icons in Workfront, but they will not have access to the functionality. For more information about Priorities, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Get started with Priorities</a>.</td> 
      </tr>
      <tr>
-      <td><span class="preview">Always enforce required fields in bulk edit</span></td>
-      <td><span class="preview"><p>Lets you choose whether to force users to enter information in required fields when bulk editing objects.</p> <p>When this option is selected, required fields must have values before saving in bulk edit mode. If the required field is missing a value for at least one bulk selected object, saving is not permitted.</p> <p>When this option is not selected, required fields are only enforced when a user modifies the field. If a field is not modified, it is treated as optional and not validated.</p></span></td>
+      <td>Always enforce required fields in bulk edit</td>
+      <td><p>Lets you choose whether to force users to enter information in required fields when bulk editing objects.</p> <p>When this option is selected, required fields must have values before saving in bulk edit mode. If the required field is missing a value for at least one bulk selected object, saving is not permitted.</p> <p>When this option is not selected, required fields are only enforced when a user modifies the field. If a field is not modified, it is treated as optional and not validated.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Storage Preferences </td> 

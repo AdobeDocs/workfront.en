@@ -289,7 +289,7 @@ Workfront field types affect whether a given field can be auto-filled.
 <li>Radio buttons</li>
 <li>Single and Multi Select dropdowns</li>
 <li>External lookup</li>
-<!--<li>Internal lookup THIS FIELD TYPE IS NOT GA YET SO COMMENTING OUT - from Lisa</li>-->
+<li>Internal lookup</li>
 <li>Reference</li>
 <li>Workfront Planning embedded fields</li>
 </ul>

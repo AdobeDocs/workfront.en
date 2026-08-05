@@ -39,3 +39,4 @@ This example explains the basic workflow between a designer or project manager a
 * **New version** (if required): The designer or project manager amends the file and uploads it to [!DNL Workfront Proof] as a new version. 
 
 
+

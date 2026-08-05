@@ -32,12 +32,9 @@ topic_v2:
 # Share records
 
 <!--
-this will NOT be available in Preview ever - find a way to add this in this article that is prominent
--->
-
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+-->
 
 {{planning-important-intro}}
 
@@ -83,20 +80,30 @@ at GA, check that the Workfront plans article linked below has Planning info
 </col> 
 <tbody> 
     <tr> 
+
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and Planning package</p> 
+<p>Any Workfront or Workflow with a Planning package</p> 
 Or
-<p>Any Workflow and Planning package</p> 
- </tr>
-   
+<p>Any Workfront Planning as a standalone product package</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td><p>Any</p> 
-   <p><b>NOTE</b></p>
-   <p>Only people with a Standard license can be granted Manage permissions to records. All other licenses can only have View permissions and the Manage option is dimmed for them.</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Any</p> 
+<p><b>NOTE</b></p>
+   <p>Only people with a Planning Standard license can be granted Manage permissions to records. All other licenses can only have View permissions and the Manage option is dimmed for them.</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>  
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 

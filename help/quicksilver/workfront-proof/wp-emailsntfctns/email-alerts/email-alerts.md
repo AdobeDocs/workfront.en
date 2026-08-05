@@ -33,3 +33,4 @@ This section contains the following articles:
 
 * [Configure email notification settings in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)
 * [Change email alert settings for a proof in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md)
+

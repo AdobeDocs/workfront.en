@@ -33,3 +33,4 @@ This section contains the following articles:
 
 * [Remind a reviewer about assignments in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)
 * [Send a reminder message to the reviewers on a proof](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/send-reminder-to-proof-reviewers.md)
+

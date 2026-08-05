@@ -86,3 +86,4 @@ You can add multiple email addresses to your [!DNL Workfront Proof] account. You
 1. In the validation email you receive, click the confirmation link.\
    The email change is saved in your profile. You may need to refresh the browser where you are viewing [!DNL Workfront Proof] [!UICONTROL Personal settings] page to see that it is confirmed as an alias email.
 1. (Optional) To make the new email address your primary email address in [!DNL Workfront Proof], click the [!UICONTROL More] (three dot) button to the far-right of the address, then click **[!UICONTROL Make primary email]** in the menu that appears.
+
