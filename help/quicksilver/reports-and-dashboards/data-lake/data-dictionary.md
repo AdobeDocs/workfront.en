@@ -9461,6 +9461,8 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>—</td>
         <td>—</td>
         <td></td>
+     </tr>   
+     <tr>
         <td>PRIMARYFIELDID</td>
         <td>Varchar</td>
         <td>The identifier of the field designated as the primary (title) field for this record type. Foreign key to FIELD\_CURRENT.ID.</td>
