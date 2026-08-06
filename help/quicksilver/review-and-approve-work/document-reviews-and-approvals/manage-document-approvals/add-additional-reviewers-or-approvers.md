@@ -166,7 +166,7 @@ To add additional approvers or reviewers from the Document Summary:
 
 1. Click **Edit workflow**. The Request approval dialog opens in the mode the approval was last saved in: Basic for single-stage approvals, or Advanced for multi-stage approvals and approvals with parallel paths.
 
-1. Add the user, team, or email:
+1. Add the user or email:
 
    * In Basic mode, type the name or email in the **Add names or emails** field.
    * In Advanced mode, select the path that contains the stage you want to update, then type the name or email in the stage's **Add names or emails** field.

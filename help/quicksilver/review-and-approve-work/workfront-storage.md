@@ -11,15 +11,33 @@ role: Admin
 
 Workfront on Adobe cloud storage enables the full unified review and approval experience: reviews in the Frame.io viewer, powerful approval workflows, cross-product visibility of assets, and more.
 
-Your existing objects continue to work the way they do today. The new Documents area, the Frame.io viewer, and other Adobe cloud storage behaviors apply only to objects using Adobe cloud storage.
+The new Documents area, the Frame.io viewer, and other Adobe cloud storage behaviors described in this article apply only to objects using Adobe cloud storage.
 
 This article is for Workfront administrators preparing to roll out Workfront on Adobe cloud storage. It covers major differences on Adobe cloud storage objects, how to choose your rollout type, and what to think through before you enable Adobe cloud storage for your users.
 
+>[!NOTE]
+>
+>* You must be on a version of Workfront that supports Adobe cloud storage. If your organization is not already on a supported version, contact your Adobe account representative.
+
+## Unified Approvals applies regardless of storage model
+
+Moving to a version of Workfront that supports Adobe cloud storage moves *all* existing approval workflows from Legacy Document Approvals to Unified Approvals—for every object, whether it stays on legacy Workfront storage or moves to Adobe cloud storage. 
+
+
 >[!IMPORTANT]
 >
->You must be on a version of Workfront that supports Adobe cloud storage. If your organization is not already on a supported version, contact your Adobe account representative.
+>This is different from the storage rollout choices described in [Choose how Adobe cloud storage rolls out](#choose-how-adobe-cloud-storage-rolls-out): those choices control which storage model new objects use, not whether approval workflows move to Unified Approvals.<br>
+>There's no pilot group or gradual option for this change—it applies organization-wide as soon as you're on a supported version.
 
 
+Before you roll out Adobe cloud storage, make sure the people who manage approvals know what to expect:
+
+* **A new approvals experience** Reviewers and approvers move from the legacy document approval experience to Unified Approvals, which adds multi-stage approvals, parallel review paths, and more. For more information, see the following articles:
+
+    * [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
+    * [Available functionality for document approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+* **A new reporting location** Unified approval workflow data and reporting moves to Canvas Dashboards. Existing legacy approval reports don't carry over automatically. For more information, see [Create a report dashboard for review and approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+* **Possible Fusion scenario updates** Existing Fusion scenarios built on legacy document approvals may need to be edited, rebuilt, or retired to work with Unified Approvals. For more information, see [Update Workfront Fusion scenarios for unified review and approval](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md).
 
 ## Understand legacy Workfront storage and Adobe cloud storage
 
@@ -224,11 +242,13 @@ You decide how Adobe cloud storage appears to your users. There are two configur
 
 For step-by-step instructions, see [Enable Adobe cloud storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
+
+### Configuration options
+
 * **Adobe cloud storage only**: New projects use Adobe cloud storage by default. Users can't create legacy projects.
 * **Adobe cloud storage and legacy Workfront storage**: When users create a project, they choose between Adobe cloud storage (labeled "New project") and legacy Workfront storage (labeled "Legacy storage").
 
     ![choose a project type](assets/choose-project-type.png)
-
 
 
 >[!TIP]

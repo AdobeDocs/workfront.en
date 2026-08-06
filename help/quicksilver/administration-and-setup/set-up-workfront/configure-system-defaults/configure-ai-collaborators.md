@@ -40,7 +40,7 @@ Available AI Collaborator types include:
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] package</td> 
-   <td><p>Standard, Prime, or Ultimate</p></td> 
+   <td><p>Select, Prime, or Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] license</td> 
@@ -101,9 +101,11 @@ Reviewer AI Collaborators can be configured to use Workfront brands, or Adobe Br
 
 ## Configure a Task Collaborator
 
-Task Collaborators are MCP agents that you can assign to tasks in Workfront. You configure the Task Collaborator with a name, access level, and other details, and assign it as you would assign a user. 
+Task Collaborators are MCP agents that you can assign to tasks in Workfront. You configure the Task Collaborator with a name, access level, and other details, and assign it to a task as you would assign a user. 
 
 Because Task Collaborators are MCP agents, their actions and abilities are configured where you configure your agents. Currently, agents used as Task Collaborators can be created in Copilot Studio, Claude, or Writer.
+
+Task Collaborators can be assigned only to tasks, and cannot currently be assigned to issues.
 
 For a list of best practices when creating an agent to work as a Task Collaborator, see [Best practices for creating an agent for a Task Collaborator](#best-practices-for-creating-an-agent-for-a-task-collaborator).
 
@@ -172,6 +174,10 @@ You may find the following best practices helpful when creating an agent to use 
 +++
 -->
 +++ Writer
+
+>[!NOTE]
+>
+> You can use a Writer agent as a Task Collaborator, but Writer playbooks cannot be used as Task Collaborators.
 
 When creating an agent for use as a Task Collaborator in Writer, we recommend the following workflow.
 
