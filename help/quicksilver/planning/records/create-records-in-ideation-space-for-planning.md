@@ -94,31 +94,46 @@ The more details you share, the more useful the information provided by the idea
     
 1. Click **Start ideating**.
 
-    The Ideation space works through the following steps while it builds your idea:
+    The Ideation space works through the following steps while it builds your idea: <!--check some of these in the UI - there might have been UI text changes-->
 
     1. Understand your goal and context
-    2. Review your canvas and selected materials
+    2. Review your space and selected materials
     3. Gather evidence from documents, web, and data
     4. Synthesize findings into a research summary
     5. Create and refine cards with citations
 
-    During this process you'll see the Ideation space actively searching connected Workfront Planning data or information available on the web and generating content. For example, it might search for existing programs, products, personas, or regions, as well as for similar concepts available online. <!--check on this with Et-->    
+    During this process you'll see the Ideation space actively searching connected Workfront Planning data or information available on the web.
+    
+    For example, it might search for existing programs, products, personas, or regions, as well as for similar concepts available online. <!--check on this with Et-->    
 
-    When the ideation completes, a card for your new record idea is generated, and several cards with details branch off of it. 
+    When the ideation completes, the following things are added to the Ideation space: 
+    
+    * A summary of the AI findings which is linked to several cards with detailed information about things to consider. The details cards display in a new section. A connector indicates which card section belongs to which summary.  
 
-    A brief file is added to the Ideation space in the lower-left corner of the screen. The brief is a draft of the information that the future record might contain. 
+    * A **Brief** file in the lower-left corner of the ideation space. The brief is a draft of the future record and it displays as a record's Details page. 
 
     ![Ideation card with branches](assets/ideation-card-with-branched-off-additional-cards.png)         
 
-1. (Optional) Click **Sources** on each of the cards to display the sources used which can be either Workfront Planning data or web research. 
-<!--
-1. (Optional) Use the thumbs up or thumbs down icons on a card to give feedback.
--->
-1. Do one of the following to add more information to the brief: 
+1. (Optional) Click **Sources** on each of the cards to display the sources used which can be either Workfront Planning or the Web. 
+    <!--
+    1. (Optional) Use the thumbs up or thumbs down icons on a card to give feedback.
+    -->
+1.  Click the **Select** icon ![Select icon in Ideation space](assets/select-icon-ideation.png) in the upper-left corner of the page and click a card to select it, then either click **Add to brief** to add the card's information to the brief
 
-    * Click the **Select** icon to select which card to add to the brief.
-    * Click Add documents
-    * Add Add WF Taxonomy Card 
+    Or 
+
+    Click **Ask AI to ...** to choose additional ideas that AI might search for to add to the space. 
+
+
+1. Click **Add documents** ![Add documents to Ideation space](assets/add-documents-in-ideation-space.png) in the upper-left corner of the page to drag and drop, browse, or search for documents already uploaded to the ideation space. 
+
+   You can upload the following document types: PDF, CSV, Word, Excel, Powerpoint, any image file format. 
+
+1. Click **Add Add WF Taxonomy Card** ![Add records from Planning to Ideation space](assets/add-from-wf-planning-on-ideations-space.png) in the upper-left corner of the page to browse for records and add them to the ideation space. <!--double check the name of the UI element/ tooltip-->
+
+
+
+
 
 
 ## Step 5: Open the Workfront Planning Records panel
