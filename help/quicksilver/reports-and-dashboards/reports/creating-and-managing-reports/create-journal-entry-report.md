@@ -429,7 +429,7 @@ To see how custom fields changed over the course of a project's life cycle:
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">New Text Value</p> </td> 
-      <td> <p>The current text value in the custom field.</p> <p>If the custom field is a typeahead field, the <strong>New Text Value</strong> column displays the object ID.</p> </td> 
+      <td> <p>The current text value in the custom field.</p> <p>If the custom field is an internal lookup field, the <strong>New Text Value</strong> column displays the object ID.</p> </td> 
      </tr> 
     </tbody> 
    </table>
