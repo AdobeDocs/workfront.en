@@ -118,34 +118,34 @@ If you make an hour type available at the user level as described in this sectio
 
 To define the hour types that are available to a user:
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user avatar in the upper-left corner.
+{{step-1-to-users}}
 
-   Or
+1. Select the user, then click the **Edit** icon ![Edit icon](assets/edit-icon.png).   
 
-   Click the **Main Menu** icon ![Main Menu icon](assets/adobe-main-menu.png) in the upper-right corner, if available, then click **Workfront Profile**.
-
-1. Click the **More** icon ![More icon](assets/more-icon.png) next to the user name, then click **Edit**. The **Edit Person** box opens.
+1. Click the **More** icon ![More icon](assets/more-icon.png) next to the user name, then click **Edit**. The Edit User box opens.
 
       >[!IMPORTANT]
       >
-      >Only a system administrator can edit other users. If you have a Plan license, you can edit the hour types on your own profile.
+      >Only a system administrator can edit other users.
+      >If you have a Standard or Plan license, you can edit the hour types on your own profile. Click your profile picture in the top navigation area of Adobe Workfront, then click **Workfront Profile**. Click the **More** menu next to your name, then click **Edit**.
 
-
-1. In the **Resource Planning** section, in the **Available Hour Types** drop-down menu, do either of the following, depending on which hour types you want to make available when logging time on a project, task, or issue:
+1. In the **Resource Planning** section of the Edit User box, in the **Available Hour Types** drop-down menu, do either of the following, depending on which hour types you want to make available when logging time on a project, task, or issue:
 
    * **To make all hour types available for the user:** Select all the hour types.  
-     If you leave all hour types unselected, this is technically the same as selecting all hour types. However, in this case, all hour type are available for the user only on projects, tasks, and issues where **No** is selected in the **Filter Hour Types** option when editing the project, as described in [Define availability at the project level](#define-availability-at-the-project-level).
-   * **To make only a subset of the hour types available for the user:** Select only the hour types you want to make available.
+     If you leave all hour types unselected, this is technically the same as selecting all hour types. However, in this case, all hour types are available for the user only on projects, tasks, and issues where **No** is selected in the **Filter Hour Types** option when editing the project, as described in [Define availability at the project level](#define-availability-at-the-project-level).
 
+   * **To make only a subset of the hour types available for the user:** Select only the hour types you want to make available.
      In order for the hour types you select at the user level to be available on projects, tasks, and issues, these same hour types must also be selected in the **Filter Hour Types** option when editing the project, as described in [Define availability at the project level](#define-availability-at-the-project-level).
 
 1. (Optional) In the **Default Hour Type** drop-down menu, select one hour type. When the user Default Hour Type and a project Filtered Hour Type match, that hour type is selected by default when logging time.
 
-1. Click **Save Changes**. Now, when you log hours on a project, task, or issue, the hour types you select are available if those same hour types have been made available at the project level.
+1. Click **Save Changes**.
+
+   Now, when the user logs hours on a project, task, or issue, the hour types you select are available if those same hour types have been made available at the project level.
 
 ## How user-level and project-level hour types work together
 
-The following list describes what hour types display on an object after you have customized and filtered both the user-level and the project-level hour types when you log time on the object: 
+The following list describes which hour types display on an object after you have customized and filtered both the user-level and the project-level hour types when you log time on the object: 
 
 * After you customize the Default Hour Type for the user and the Filtered Project Hour Types, the Hour Type drop-down menu displays one of the following hour types:
 
@@ -157,14 +157,14 @@ The following list describes what hour types display on an object after you have
 
    * When the user has a Default Hour Type and the project has no Filtered Hour Types, the Project, Task, or Issue Time display as defaults when logging time on the objects, and no other Hour Types are available as options, including the user's Default Hour Type. 
 
-* After you customize Hour Types and define Available Hour Types for your user or filter the Hour Types for a project, the following scenarios exist: 
+* After you customize Hour Types and define Available Hour Types for the user or filter the Hour Types for a project, the following scenarios exist: 
 
-   * When you selected all the hour types for the Available Hour Type field in your user's profile and the project's Hour Types aren't filtered, you'll see all available hour types when you log time. 
-   * When you selected only a subset of hour types for the Available Hour Type field in your user's profile and the project's Hour Types aren't filtered, you'll see only the user's hour types when you log time.
-   * When you selected all the hour types for the Available Hour Type field in your user's profile and the project's Hour Types are filtered, you'll see only the project's hour types and the default hour types like Project Time, Task Time, Issue Time depending on the object. 
-   * When you selected only a subset of hour types for the Available Hour Type field in your user's profile and the project's Hour Types are filtered, you'll see only the hour types that are common to the user and the project. If no hour types are common to the user and the project, only the default hour types display (Project Time, Task Time, Issue Time). 
+   * If you selected all the hour types for the Available Hour Type field in the user's profile and the project's Hour Types aren't filtered, the user sees all available hour types when logging time. 
+   * If you selected only a subset of hour types for the Available Hour Type field in the user's profile and the project's Hour Types aren't filtered, the user sees only their hour types when logging time.
+   * If you selected all the hour types for the Available Hour Type field in the user's profile and the project's Hour Types are filtered, the user sees only the project's hour types and the default hour types like Project Time, Task Time, or Issue Time, depending on the object. 
+   * If you selected only a subset of hour types for the Available Hour Type field in the user's profile and the project's Hour Types are filtered, the user sees only the hour types that are common to the user and the project. If no hour types are common to the user and the project, only the default hour types display (Project Time, Task Time, Issue Time). 
 
 >[!TIP]
 >
->   If you select a different Hour Type other than the default hour type for an object, the hour type becomes sticky. Next time you log time on the same object, the Hour Type will automatically default to the one you last selected. 
+>If you select a different Hour Type other than the default hour type for an object, the hour type becomes sticky. The next time you log time on the same object, the Hour Type will automatically default to the one you last selected. 
     

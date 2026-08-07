@@ -11,9 +11,13 @@ exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
 ---
 # Push rate changes to projects
 
-When a rate card is attached to a project <!--or a staffing plan-->, the rates on the rate card can still be adjusted. Then, you can optionally push those rates to the projects that the rate card is attached to. If you do not push the new rates, then the original rates remain on the project.
+When a rate card is attached to a project<!--or a staffing plan-->, the rates on the rate card can still be adjusted. Then, you can optionally push those rates to the projects that the rate card is attached to. If you do not push the new rates, then the original rates remain on the project.
 <!-- and staffing plans -->
 <!-- or staffing plan -->
+
+>[!NOTE]
+>
+>If a job role or user billing rate is manually overridden at the project level, that rate remains on the project when the rate card changes are pushed to the project. Only the rates tied to the rate card are updated.
 
 For information about attaching a rate card to a project, see [Attach a rate card to a project](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
 

@@ -71,53 +71,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-<!--
-
-## Create an approval workflow in the legacy documents area in Production
-
-If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
-
-To create an approval workflow:
-
-1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
-
-1. Click on the document you need and the Document Summary panel for that document opens.
-
-1. Select the version of the document you would like to create an approval for in the version dropdown. The latest version is selected by default.
-
-1. Scroll down to the **Approvals** section, then click **Create workflow**.
-
-
-1. Fill in the following details:
-
-   <table>
-   <tr>
-   <td><strong>Stage name</strong></td>
-   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
-   </tr>
-   <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
-   </tr>
-   <tr>
-   <td><strong>One decision required (optional)</strong></td>
-   <td>The first person who makes a decision completes the stage.</td>
-   </tr>
-   <tr>
-   <td><strong>Due date (optional)</strong></td>
-   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
-   </tr>
-   </table>
-
-1. (Optional) Repeat the previous step to add additional stages as needed.
-
-   >[!NOTE]
-   >
-   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
-
-   ![Document details](assets/new-stage.png)
-
--->
 
 ## Create an approval workflow in the legacy documents area
 
@@ -226,51 +179,6 @@ To create an advanced approval workflow:
 1. Click **Request approval**.
 
 
-<!--
-
-## Create an approval workflow in the new Documents area in Production
-
-If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
-
-To create an approval workflow:
-
-1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
-
-1. Click on the document, then click the **Approvals** icon on the right side of the page.
-
-   ![Add approvers in document summary](assets/approvals-icon-new.png)
-
-1. Click **Create workflow**, then fill in the following details:
-
-   <table>
-   <tr>
-   <td><strong>Stage name</strong></td>
-   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
-   </tr>
-   <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
-   </tr>
-   <tr>
-   <td><strong>One decision required (optional)</strong></td>
-   <td>The first person who makes a decision completes the stage.</td>
-   </tr>
-   <tr>
-   <td><strong>Due date (optional)</strong></td>
-   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
-   </tr>
-   </table>
-
-1. (Optional) Repeat the previous step to add additional stages as needed.
-
-   >[!NOTE]
-   >
-   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
-
-   ![Document details](assets/new-stage.png)
-   
--->
-
 ## Create an approval workflow in the new Documents area
 
 If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
@@ -298,7 +206,7 @@ To create a single-stage approval workflow:
    </tr>
    <tr>
    <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
+   <td>Begin typing a user name or email to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
    <td><strong>Only one decision required (optional)</strong></td>
@@ -306,7 +214,7 @@ To create a single-stage approval workflow:
    </tr>
    <tr>
    <td><strong>Due on (optional)</strong></td>
-   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
+   <td>Set a due date for the approval. Users are notified by email 72 hours, then 24 hours before the specified due date.</td>
    </tr>
    <tr>
    <td><strong>Add Custom Message (optional)</strong></td>
@@ -355,7 +263,7 @@ To create an advanced approval workflow:
    </tr>
    <tr>
    <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made..<p>Note: A reviewer or approver can be assigned to only one open stage at a time on the same asset. If multiple parallel stages are open simultaneously, the same person can't be added to more than one.</p></td>
+   <td>Begin typing a user name or email to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made..<p>Note: A reviewer or approver can be assigned to only one open stage at a time on the same asset. If multiple parallel stages are open simultaneously, the same person can't be added to more than one.</p></td>
    </tr>
    <tr>
    <td><strong>Only one decision required (optional)</strong></td>
@@ -363,7 +271,7 @@ To create an advanced approval workflow:
    </tr>
    <tr>
    <td><strong>Due on (optional)</strong></td>
-   <td>The first stage of each path supports an absolute due date. Each subsequent stage in the path supports a relative due date — the number of days from when that stage opens. Users and teams are notified by email 72 hours, then 24 hours before the due date.</td>
+   <td>The first stage of each path supports an absolute due date. Each subsequent stage in the path supports a relative due date — the number of days from when that stage opens. Users are notified by email 72 hours, then 24 hours before the due date.</td>
    </tr>
    <tr>
    <td><strong>Add Custom Message (optional)</strong></td>

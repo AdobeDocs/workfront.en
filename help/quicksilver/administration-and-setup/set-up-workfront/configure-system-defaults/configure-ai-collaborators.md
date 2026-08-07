@@ -40,7 +40,7 @@ Available AI Collaborator types include:
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] package</td> 
-   <td><p>Standard, Prime, or Ultimate</p></td> 
+   <td><p>Select, Prime, or Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] license</td> 
