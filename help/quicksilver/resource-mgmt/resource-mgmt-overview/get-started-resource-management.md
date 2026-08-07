@@ -68,7 +68,7 @@ Workfront has several sets of tools used to manage resources. Each tool has an i
 
 * To schedule or assign resources to actual work (tasks and issues), use the following tool:
 
-  * **The Workload Balancer**: This belongs to a lower-level stage of resource management, where you can assign your resources to the actual work (tasks and issues) that they must complete, based on the amount of hours needed to complete them and their availability. Using the Workload Balancer you can assign users to actual work that is currently unassigned or assigned to job roles.
+  * **The Workload Balancer**: This belongs to a lower-level stage of resource management, where you can assign your resources to the actual work (tasks and issues) that they must complete, based on the amount of hours needed to complete them and their availability. Using the Workload Balancer you can assign users or Task Collaborators to actual work that is currently unassigned or assigned to job roles.
 
      For information about the Workfront Balancer, see [The Workload Balancer: article index](../../resource-mgmt/workload-balancer/workload-balancer.md). 
   
@@ -112,6 +112,9 @@ The process of managing resources in Workfront includes the following stages:
    
    * Job Roles  
      For more information about creating job roles, see the article [Create and manage job roles](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+
+   * Task Collaborators
+     For more information about creating Task Collaborators, see [Configure a Task Collaborator](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) in the article [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
    
    * Schedules  
      For more information about creating schedules, see the article [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
