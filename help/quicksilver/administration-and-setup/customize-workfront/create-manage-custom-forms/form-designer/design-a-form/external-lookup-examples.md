@@ -232,7 +232,7 @@ There are many other use cases for creating an External lookup.
    Example Base API URL for templates, to replace a typeahead field:
    `$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
 
-**Use case:** Create dropdown fields with more features (for example, there is line wrap in the External eookup field).
+**Use case:** Create dropdown fields with more features (for example, there is line wrap in the External lookup field).
 **Solution:** Use an API call to existing objects in the system, or create a new object and use an API call to this object.
 
 **Use case:** Define a way for users to maintain their own fields outside of the custom forms area. Set up the External lookup field and you can give users to the objects that comprise the field. This option is good for high maintenance fields and teams.

@@ -39,8 +39,6 @@ You can also reactivate job roles that have previously been deactivated.
 
 ## Access requirements
 
-## Access requirements
-
 +++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
@@ -80,7 +78,7 @@ If you deactivate a job role, it no longer displays in the following areas:
    >When you add a new role to a user, a deactivated job role doesn't display. But it does continue to display in the [!UICONTROL Primary Role] and [!UICONTROL Other Roles] fields if the user was associated with the job role before it was deactivated.
 
 * The [!UICONTROL Sharing] dialog box for objects, including layout template assignment
-* Typeahead fields in custom forms
+* Internal lookup and Typeahead fields in custom forms
 * The [!UICONTROL Pool Members] field in [!UICONTROL Resource Pools]
 * The [!UICONTROL Job Role] field of a [!UICONTROL Billing Rate] edit screen when a user is overriding billing rates for projects
 * The [!UICONTROL Add assignment to Kanban board] dialog box in a project

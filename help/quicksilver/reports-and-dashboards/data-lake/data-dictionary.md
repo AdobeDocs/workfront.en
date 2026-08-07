@@ -9174,12 +9174,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>Description</td>
         <td>Related Table</td>
         <td>Related Field</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ALIAS</td>
@@ -9187,12 +9181,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>An internal alias for the record type, used for system-level identification and API access. May be empty for record types that have not been assigned an alias.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>COLOR</td>
@@ -9200,12 +9188,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>A named color label associated with this record type in the Planning interface (e.g., `blue`, `green`, `purple`, `magenta`, `chartreuse`, `dark-gray`). Not a hex code.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>CREATED</td>
@@ -9213,25 +9195,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>A flag indicating the last operation type that affected this record type. A value of 1 indicates the record type was created in the most recent data refresh cycle; 0 indicates it was not. See CREATEDAT for the actual creation timestamp.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>CREATED</td>
-        <td>Number</td>
-        <td>A flag indicating the last operation type that affected this reference record. A value of 1 indicates the reference was created in the most recent data refresh cycle; 0 indicates it was not.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>CREATEDAT</td>
@@ -9239,25 +9202,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>The timestamp (no timezone) of when this record type was created.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>CREATEDAT</td>
-        <td>Timestamp\_NTZ</td>
-        <td>The timestamp (no timezone) of when this record type was created.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>CREATEDBY</td>
@@ -9265,25 +9209,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>The identifier of the user who created this record type.</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>CREATEDBY</td>
-        <td>Varchar</td>
-        <td>The identifier of the user who created this record type.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>DELETED</td>
@@ -9291,25 +9216,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>A flag indicating whether this record type has been soft-deleted. A value of 1 indicates deleted; 0 indicates active.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>DELETED</td>
-        <td>Number</td>
-        <td>A flag indicating whether this reference connection has been soft-deleted. A value of 1 indicates the reference is deleted; 0 indicates it is active.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>DESCRIPTION</td>
@@ -9317,12 +9223,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>A user-provided description of the record type&#39;s purpose.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>DISPLAYNAME</td>
@@ -9330,12 +9230,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>The display name of the record type as shown in the Planning interface (e.g., &quot;Campaign&quot;, &quot;Initiative&quot;).</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>DL_LOAD_TIMESTAMP</td>
@@ -9343,25 +9237,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>The timestamp of the data refresh job that last loaded this record type into the data lake. Updated after each successful data refresh cycle.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>DL_LOAD_TIMESTAMP</td>
-        <td>Timestamp\_NTZ</td>
-        <td>The timestamp of the data refresh job that last loaded this reference record into the data lake. Updated after each successful data refresh cycle.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>EXTERNALOPTIONS</td>
@@ -9369,12 +9244,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>A JSON object containing configuration details for record types connected to external systems. Includes `connectionName` (e.g., `workfront`), `objectName` (the Workfront API object code, e.g., `PROJ`), and `fields` (a map of standard field aliases to Planning field IDs for the synced fields). Null for natively created record types.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ID</td>
@@ -9382,12 +9251,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>The unique identifier for the record type. Primary key for this view.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ISEXTERNAL</td>
@@ -9395,12 +9258,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>A flag indicating whether this record type represents an externally connected object type rather than a native Planning record.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ISFUSION</td>
@@ -9408,12 +9265,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>A flag indicating whether this record type was created or managed through a Workfront Fusion integration. A value of `true` indicates Fusion management; `false` or an empty value indicates it is a natively created record type.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ISTAXONOMY</td>
@@ -9421,25 +9272,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>Indicates whether this record type is classified as a taxonomy type, used to organize and categorize other records. A value of `true` indicates a taxonomy type. May be empty for non-taxonomy record types.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>ISTAXONOMY</td>
-        <td>Varchar</td>
-        <td>Indicates whether this record type is classified as a taxonomy type, used to organize and categorize other records. A value of `true` indicates a taxonomy type. May be empty for non-taxonomy record types.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>PERMISSION</td>
@@ -9447,25 +9279,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>The permission level configured for access to this record type (e.g., `VIEW`, `CONTRIBUTE`, `MANAGE`). May be empty if no custom permission is set.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>PERMISSION</td>
-        <td>Varchar</td>
-        <td>The permission level configured for access to this record type (e.g., `VIEW`, `CONTRIBUTE`, `MANAGE`). May be empty if no custom permission is set.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td>PRIMARYFIELDID</td>
-        <td>Varchar</td>
-        <td>The identifier of the field designated as the primary (title) field for this record type. Foreign key to FIELD\_CURRENT.ID.</td>
-        <td>FIELD\_CURRENT</td>
-        <td>ID</td>
     </tr>
     <tr>
         <td>PRIMARYFIELDID</td>
@@ -9473,38 +9286,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>The identifier of the field designated as the primary (title) field for this record type. Foreign key to FIELD\_CURRENT.ID.</td>
         <td>FIELD\_CURRENT</td>
         <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>RECORDTYPEID</td>
-        <td>Varchar</td>
-        <td>The unique identifier of the Planning record type associated with the record that owns this reference. Foreign key to PLANNINGRECORD\_CURRENT.RECORDTYPEID.</td>
-        <td>RECORDTYPE\_CURRENT</td>
-        <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>REFERENCEVALUE</td>
-        <td>Varchar</td>
-        <td>The display name of the referenced external object as of the last data refresh (e.g., a Workfront project name like &quot;Beta&quot; or &quot;Canvas Dashboards Project&quot;). This value reflects the object&#39;s name at refresh time and may become stale if the object is renamed.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>RESTORED</td>
@@ -9512,64 +9293,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>A flag indicating whether this record type was restored after being soft-deleted.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>TO_EXTERNALCONNECTIONNAME</td>
-        <td>Varchar</td>
-        <td>The name of the external connection through which the referenced object is connected (e.g., the name of the Workfront connection configured in Planning).</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>TO_EXTERNALID</td>
-        <td>Varchar</td>
-        <td>The unique identifier of the external object being referenced (e.g., a Workfront project ID, task ID, or other connected object ID).</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>TO_EXTERNALOBJECTNAME</td>
-        <td>Varchar</td>
-        <td>The Workfront API object code for the type of external object being referenced (e.g., `PROJ` for Project, `TASK` for Task, `PORT` for Portfolio). Use this to determine which Workfront table to join when looking up the referenced object.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>TO_RECORDID</td>
-        <td>Varchar</td>
-        <td>The unique identifier of the Planning record that owns this reference connection. Foreign key to PLANNINGRECORD\_CURRENT.RECORDID.</td>
-        <td>PLANNINGRECORD\_CURRENT</td>
-        <td>RECORDID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>TRIGGEREDBYSERVICE</td>
@@ -9577,12 +9300,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>The name of the service or integration that triggered the last modification to this record type. A value of `Unknown` indicates the originating service could not be determined.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>UPDATED</td>
@@ -9590,25 +9307,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>A flag indicating the last operation type that affected this record type. A value of 1 indicates the record type was updated in the most recent data refresh cycle; 0 indicates it was not. See UPDATEDAT for the actual last-updated timestamp.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>UPDATED</td>
-        <td>Number</td>
-        <td>A flag indicating the last operation type that affected this reference record. A value of 1 indicates the reference was updated in the most recent data refresh cycle; 0 indicates it was not.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>UPDATEDAT</td>
@@ -9616,25 +9314,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>The timestamp (no timezone) of when this record type was last updated.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>UPDATEDAT</td>
-        <td>Timestamp\_NTZ</td>
-        <td>The timestamp (no timezone) of when this record type was last updated.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>UPDATEDBY</td>
@@ -9642,25 +9321,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>The identifier of the user who last updated this record type.</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>UPDATEDBY</td>
-        <td>Varchar</td>
-        <td>The identifier of the user who last updated this record type.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>USERID</td>
@@ -9668,25 +9328,6 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>The identifier of the user associated with this record type, typically the owner.</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>USERID</td>
-        <td>Varchar</td>
-        <td>The identifier of the user associated with this record type, typically the owner.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>WORKSPACEID</td>
@@ -9694,12 +9335,90 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td>The unique identifier of the workspace this record type belongs to. Use with WORKSPACE\_CURRENT to look up workspace details.</td>
         <td>WORKSPACE\_CURRENT</td>
         <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+    </tr>
+</table>
+
+### REFERENCE\_CURRENT
+
+Contains the current state of all cross-object reference connections between Workfront Planning records and Workfront (or other external) objects. Each row represents one reference connection. Use this view with PLANNINGRECORD\_CURRENT.REFERENCE\_IDS to resolve connected external objects.
+
+<table>
+    <tr>
+        <td>Column Name</td>
+        <td>Type</td>
+        <td>Description</td>
+        <td>Related Table</td>
+        <td>Related Field</td>
+    </tr>
+    <tr>
+        <td>CREATED</td>
+        <td>Number</td>
+        <td>A flag indicating the last operation type that affected this reference record. A value of 1 indicates the reference was created in the most recent data refresh cycle; 0 indicates it was not.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>DELETED</td>
+        <td>Number</td>
+        <td>A flag indicating whether this reference connection has been soft-deleted. A value of 1 indicates the reference is deleted; 0 indicates it is active.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
+        <td>Timestamp\_NTZ</td>
+        <td>The timestamp of the data refresh job that last loaded this reference record into the data lake. Updated after each successful data refresh cycle.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>RECORDTYPEID</td>
+        <td>Varchar</td>
+        <td>The unique identifier of the Planning record type associated with the record that owns this reference. Foreign key to PLANNINGRECORD\_CURRENT.RECORDTYPEID.</td>
+        <td>RECORDTYPE\_CURRENT</td>
+        <td>ID</td>
+    </tr>
+    <tr>
+        <td>REFERENCEVALUE</td>
+        <td>Varchar</td>
+        <td>The display name of the referenced external object as of the last data refresh (e.g., a Workfront project name like &quot;Beta&quot; or &quot;Canvas Dashboards Project&quot;). This value reflects the object&#39;s name at refresh time and may become stale if the object is renamed.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALCONNECTIONNAME</td>
+        <td>Varchar</td>
+        <td>The name of the external connection through which the referenced object is connected (e.g., the name of the Workfront connection configured in Planning).</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALID</td>
+        <td>Varchar</td>
+        <td>The unique identifier of the external object being referenced (e.g., a Workfront project ID, task ID, or other connected object ID).</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALOBJECTNAME</td>
+        <td>Varchar</td>
+        <td>The Workfront API object code for the type of external object being referenced (e.g., `PROJ` for Project, `TASK` for Task, `PORT` for Portfolio). Use this to determine which Workfront table to join when looking up the referenced object.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>TO_RECORDID</td>
+        <td>Varchar</td>
+        <td>The unique identifier of the Planning record that owns this reference connection. Foreign key to PLANNINGRECORD\_CURRENT.RECORDID.</td>
+        <td>PLANNINGRECORD\_CURRENT</td>
+        <td>RECORDID</td>
+    </tr>
+    <tr>
+        <td>UPDATED</td>
+        <td>Number</td>
+        <td>A flag indicating the last operation type that affected this reference record. A value of 1 indicates the reference was updated in the most recent data refresh cycle; 0 indicates it was not.</td>
+        <td>—</td>
+        <td>—</td>
     </tr>
 </table>
 
