@@ -13,6 +13,22 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Introducing the Workfront Planning Solution Architect Skill
+
+>[!NOTE]
+>
+>Preview: August 10, 2026
+>Production: August 10, 2026
+
+We are making available a new skill, the Workfront Planning Solution Architect, that brings best-practice, agentic guidance for Workfront Planning directly into Claude. Right in the Claude interface, you can now do the following:
+
+* Configure a new Planning workspace to match your business requirements, with the Workfront MCP server executing the setup in your environment.
+* Audit an existing configuration for antipatterns at scale.
+* Check usage against recommended limits.
+* Ask questions about Planning.
+
+For information, see [Skills available for direct install](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md).
+
 ## Drag and drop rows in the table view
 
 >[!NOTE]
