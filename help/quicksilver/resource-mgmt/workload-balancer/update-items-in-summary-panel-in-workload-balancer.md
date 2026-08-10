@@ -27,7 +27,7 @@ topic_v2:
 ---
 # Update work items in the Workload Balancer using the Summary
 
-You can use the Summary panel of a task or an issue to update important information for that item. in the Workload Balancer.
+You can use the Summary panel of a task or an issue to update important information for that item in the Workload Balancer.
 
 The Summary panel is available for tasks and issues in both the Assigned and Unassigned Work areas of the Workload Balancer.
 
@@ -96,7 +96,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    ![Summary panel](assets/summary-panel-task-wb-new-comments.png)
 
-1. Modify a number of fields for the work item, enter an update, or you navigate from here to other areas of Workfront to add documents or other information to the work item.
+1. Modify a number of fields for the work item, enter an update, or navigate from here to other areas of Workfront to add documents or other information to the work item.
 
    >[!CAUTION]
    >

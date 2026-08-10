@@ -24,7 +24,7 @@ role_v2:
 
 <!--Audited: 10/2024-->
 
-As a resource manager, you can manage your resources by adding users to resource pools.
+As a resource manager, you can manage your resources by adding users and Task Collaborators to resource pools.
 
 Efficient resource management cannot happen without populating your Resource Pools with users and attaching them to projects. This is a prerequisite for using the Resource Planning functionality.
 
@@ -39,11 +39,11 @@ For information about creating and managing resource pools, see the following ar
 
 ## Overview of Resource Pools
 
-* A Resource Pool is a collection of users that are needed at the same time for the completion of a project.
+* A Resource Pool is a collection of users and Task Collaborators that are needed at the same time for the completion of a project.
 * A Resource Pool can be shared across multiple projects, programs, or portfolios when it is associated with all the projects in the programs and portfolios. 
 * You can either create a Resource Pool and populate it with existing users upon its creation, or you can create the Resource Pool and associate it with an existing user or with a new user as you are creating or editing the user. 
 * After you populate your Resource Pools with users, you can associate them with projects and templates, and manage your user allocation to the projects more efficiently. 
-* You can associate as many Resource Pools as needed with a project, template, or user.
+* You can associate as many Resource Pools as needed with a project, template, user, or Task Collaborator.
 
 ## Criteria for associating users with a Resource Pool
 
