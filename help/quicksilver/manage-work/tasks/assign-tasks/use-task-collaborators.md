@@ -64,8 +64,28 @@ Some example workflows may include:
 >* When configuring an agent in Copilot Studio, you must set security to **No authentication**.
 >* For information and instructions about creating a Task Collaborator in Workfront, see [Configure a Task Collaborator](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) in the article Configure AI Collaborators.
 
+## Task Collaborator start triggers
+
+When a Task Collaborator is assigned to a task, it begins work when any of the following situations are met:
+
+* The Task Collaborator is assigned to a task that is ready to start. (For example, if the task has predecessors, the predecessors are complete.)
+* The Task Collaborator and a user are assigned to a task, and the Task Collaborator is assigned first.
+* A task to which a Task Collaborator is already assigned becomes ready to start. (For example, if the task has predecessors, the predecessors are complete.)
+* A task to which a Task Collaborator and a user are already assigned becomes ready to start. (For example, if the task has predecessors, the predecessors are complete.)
+* A user and a Task Collaborator are assigned to a task, and the user is removed.
+* A user and a Task Collaborator are assigned to a task, and the Task Collaborator is set as the Primary Assignee for the task.
+
+The following situations do not cause the Task Collaborator to begin work on the task:
+
+* A Task Collaborator is assigned to a task that already has a user assigned.
+* A Task Collaborator is @mentioned in a task.
+* A Task Collaborator is assigned to a task that already has a Task Collaborator assigned. In this case, only the first assigned Task Collaborator begins work on the task.
+* A Task Collaborator is assigned to a task that is not ready to start. (For example, if the task has predecessors, the predecessors are not yet complete.)
+
 ## Assign a Task Collaborator to a task
 
 Task Collaborators are assigned to tasks the same way users are assigned.
+
+When you are searching for a Task Collaborator in the list of available assignees, the name of the Task Collaborator is a first name only.
 
 For instructions, see [Assign tasks](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).
