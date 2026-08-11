@@ -29,6 +29,8 @@ topic_v2:
 ---
 # Report delivery overview
 
+{{highlighted-preview}}
+
 <!-- Audited: 11/2024 -->
 
 <!--
@@ -200,9 +202,9 @@ The name of the report in the email message is also a link.
 
 In Preview, delivered report emails include the report's expiration date.
 
-If the delivery repeats daily or weekly, and the expiration date is within 45 days of the message delivery, the email also includes a prompt to update the delivery rule if you want to continue receiving the report.
+If the delivery repeats daily, the email includes an expiration warning on every delivery once the expiration date is within 45 days.
 
-If the delivery repeats monthly, the email includes this prompt starting with the second-to-last scheduled delivery before the expiration date.
+If the delivery repeats weekly or monthly, the email includes an expiration warning during the last four scheduled deliveries before the expiration date.
 
 </div>
 
