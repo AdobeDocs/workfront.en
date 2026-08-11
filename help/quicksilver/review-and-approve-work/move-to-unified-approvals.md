@@ -21,29 +21,27 @@ Moving to a version of Workfront that supports Adobe cloud storage also moves yo
 
 |  | Legacy document approvals | Unified Approvals |
 | --- | --- | --- |
-| Approvers and reviewers | Only individual users can approve | Individual users or teams can approve or review |
-| Deadlines and reminders | No built-in reminders | Automated reminders 72 hours out, 24 hours out, and on the due date |
-| Approval stages and paths | One approval round | [Multiple stages and parallel review paths](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) |
-| Approval templates | Each approval configured from scratch | [Reusable templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) you set up once in Workfront Setup |
-| Review and markup | Proofing viewer | [Proofing viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md) on legacy Workfront storage, or the [Frame.io viewer](/help/quicksilver/review-and-approve-work/workfront-storage.md#review-and-approval-viewer) on Adobe cloud storage |
-| AI-assisted review | Not available | [Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) checks brand compliance automatically |
+| Approvers and reviewers | Approval by individual users only | Approval or review by individual users or teams |
+| Deadlines and reminders | No automated reminders | Automated reminders 72 hours out, 24 hours out, and on the due date |
+| Approval stages and paths | One approval stage, no parallel paths | [Multiple approval stages and parallel review paths](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) |
+| Approval templates | Each approval configured from scratch | [Reusable templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) available in Workfront Setup |
+| Review and markup | Proofing viewer | [Proofing viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md) on legacy Workfront storage objects, or the [Frame.io viewer](/help/quicksilver/review-and-approve-work/workfront-storage.md#review-and-approval-viewer) on Adobe cloud storage objects |
+| AI-assisted review | Not available | Automatic brand-compliance checks with [Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) |
 | Reporting | Legacy reporting | Home KPI widgets and [Canvas Dashboards](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) |
-| Workfront Fusion | Not applicable | Existing scenarios may need to be [edited, rebuilt, or retired](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md) |
+
 
 
 ### What happens to approvals already in progress
 
->[!NOTE]
->
->PLACEHOLDER — confirm with Product/PM: What happens to legacy document approvals that are in progress (not yet fully approved) at the moment an org upgrades? Are they automatically migrated, closed/withdrawn and requiring re-creation, or left to complete on the legacy system?
+In-flight approvals that were created in legacy document approvals will continue to function as they did before the upgrade. However, any new approvals created after the upgrade will use Unified Approvals.
+
 
 ## Prepare for the upgrade
 
 * Share the [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md) article with your end users.
 * Review your existing Workfront Fusion scenarios against [Update Workfront Fusion scenarios for unified review and approval](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md) before your organization upgrades.
 * Set up a review and approval dashboard in Canvas Dashboards to replace any legacy approval reports. See [Create a review and approval dashboard](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) for details.
-* PLACEHOLDER — confirm: Should admins export or archive legacy approval reports before cutover, since they don't carry over to Canvas Dashboards?
-* PLACEHOLDER — confirm: Is there a recommended way to close out in-flight legacy approvals before upgrading?
+
 
 ### Help articles for end users
 
