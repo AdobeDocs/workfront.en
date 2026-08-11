@@ -70,8 +70,8 @@ When a Task Collaborator is assigned to a task, it begins work when any of the f
 
 * The Task Collaborator is assigned to a task that is ready to start. (For example, if the task has predecessors, the predecessors are complete.)
 * The Task Collaborator and a user are assigned to a task, and the Task Collaborator is assigned first.
-* A task to which a Task Collaborator is already assigned becomes ready to start. (For example, if the task has predecessors, the predecessors are complete.)
-* A task to which a Task Collaborator and a user are already assigned becomes ready to start. (For example, if the task has predecessors, the predecessors are complete.)
+* A task to which a Task Collaborator is already assigned as becomes ready to start, and the Task Collaborator is the only or primary assignee. (For example, if the task has predecessors, the predecessors are complete.)
+* A task to which a Task Collaborator and a user are already assigned becomes ready to start, and the Task Collaborator was assigned first or is the primary assignee. (For example, if the task has predecessors, the predecessors are complete.)
 * A user and a Task Collaborator are assigned to a task, and the user is removed.
 * A user and a Task Collaborator are assigned to a task, and the Task Collaborator is set as the Primary Assignee for the task.
 
@@ -79,7 +79,7 @@ The following situations do not cause the Task Collaborator to begin work on the
 
 * A Task Collaborator is assigned to a task that already has a user assigned.
 * A Task Collaborator is @mentioned in a task.
-* A Task Collaborator is assigned to a task that already has a Task Collaborator assigned. In this case, only the first assigned Task Collaborator begins work on the task.
+* A Task Collaborator is assigned to a task that already has a Task Collaborator assigned. In this case, the first Task Collaborator assigned will have already begun the work, and the second Task Collaborator will do nothing.
 * A Task Collaborator is assigned to a task that is not ready to start. (For example, if the task has predecessors, the predecessors are not yet complete.)
 
 ## Assign a Task Collaborator to a task
