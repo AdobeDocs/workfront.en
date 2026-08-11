@@ -5,7 +5,7 @@ description: Cleans a raw Experience League / Adobe Analytics traffic CSV export
 
 # Clean Experience League traffic CSV
 
-Turns a raw Adobe Analytics Freeform-table export of Experience League page traffic into a clean, Workfront-only, deduplicated CSV sorted by Page Views, overwriting the original file.
+Turns a raw Adobe Analytics Freeform-table export of Experience League page traffic into a clean, Workfront-only, deduplicated CSV sorted by Page Views, overwriting the original file and also saving a dated copy to the Desktop.
 
 ## Input shapes
 
@@ -73,6 +73,18 @@ Final row order: date range row → header row → sorted data rows.
 ### Step 8: Save
 
 Overwrite the original input file in place with the cleaned result.
+
+### Step 9: Save a dated copy to the Desktop (raw export only, if a date range was captured in Step 0)
+
+Build a filename-safe version of the date range: strip commas, and replace any of `\ / : * ? " < > |` with `-` (these characters are invalid in Windows filenames and could otherwise appear in a date range depending on export locale/format).
+
+Save an additional copy of the cleaned CSV (same content as Step 8) to the current user's Desktop, named:
+
+`Documentation tracking report <filename-safe date range>.csv`
+
+Example: a captured range of `Apr 1, 2026 - Apr 30, 2026` becomes `Documentation tracking report Apr 1 2026 - Apr 30 2026.csv`.
+
+Skip this step for an already-clean CSV (shape 2) unless the user supplies a date range separately.
 
 ## Out of scope
 
@@ -151,6 +163,11 @@ $outLines += $newHeader
 $outLines += $sorted | ForEach-Object { "$($_.URL),$($_.UV),$($_.Visits),$($_.PV)" }
 
 Set-Content -Path $path -Value $outLines -Encoding UTF8
+
+# Step 9: also save a dated copy to the Desktop
+$safeDateRange = ($dateRange -replace ',', '') -replace '[\\/:*?"<>|]', '-'
+$desktopPath = Join-Path ([Environment]::GetFolderPath('Desktop')) "Documentation tracking report $safeDateRange.csv"
+Set-Content -Path $desktopPath -Value $outLines -Encoding UTF8
 ```
 
-For an already-clean CSV (input shape 2), skip the header-relocation and date-range logic — just run Steps 2–6 and 8 on the existing header/rows as-is.
+For an already-clean CSV (input shape 2), skip the header-relocation, date-range logic, and Step 9 — just run Steps 2–6 and 8 on the existing header/rows as-is.
