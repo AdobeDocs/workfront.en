@@ -89,3 +89,19 @@ Task Collaborators are assigned to tasks the same way users are assigned.
 When you are searching for a Task Collaborator in the list of available assignees, the name of the Task Collaborator is a first name only.
 
 For instructions, see [Assign tasks](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).
+
+## Troubleshooting Task Collaborators
+
+If your Task Collaborator does not return a response or output, please check the following:
+
+* Make sure your agent is published on the AI platform provider side.
+* Make sure you have sufficient AI credits with your agent's platform.
+* Make sure the the action taken on the task does not require a specific access level.
+* If you are using Copilot as the agent provider, ensure you are using the "no authentication" setting.
+* If you are using Copilot, make sure that your agent is configured on a global environment. Task Collaborator functionality does not currently support regional versions of Copilot Studio. 
+* Make sure that the Collaborator is the primary assignee on the task.
+* Make sure that the task that the Task Collaborator is assigned to Can Start. For example, check to see that all task predecessors to that task are complete.
+
+>[!TIP]
+>
+>You can also go to the agent provider platform and ask the agent to perform the task within the platform. If the agent cannot perform the task within the platform, then the Task Collaborator will also run into issues in Workfront.
