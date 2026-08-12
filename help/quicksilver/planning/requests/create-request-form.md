@@ -126,6 +126,10 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
    * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
    * The values of Paragraph fields display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
 
+* You cannot add request forms to global record types in their secondary workspace. 
+
+   For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
+
 ## Create a request form
 
 To create a request form, you must complete the following:

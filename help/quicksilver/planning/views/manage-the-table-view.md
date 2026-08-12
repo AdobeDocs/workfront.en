@@ -335,6 +335,8 @@ You can have up to 50,000 records (or rows) for a record type.
     >You cannot reorder rows if you apply at least one sort or grouping to the table view. 
     >
     >The changes you make to the row order are visible to all users who access the record type in the same view. 
+    >
+    ><!--<span class="preview">In the drag and drop line, a number indicator displays the number of records selected, if more than one. </span>-->
 
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to edit the thumbnail. 
 1. Click **Fields** at the top of the table, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
