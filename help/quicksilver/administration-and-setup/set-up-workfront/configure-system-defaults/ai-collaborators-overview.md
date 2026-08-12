@@ -16,4 +16,4 @@ AI Collaborators are AI agents that you can assign to tasks the same way you'd a
 
 Watch how an AI Collaborator picks up and completes tasks in Workfront.
 
->[!VIDEO]((URL HERE)/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3497105/?quality=12&learn=on)
