@@ -168,6 +168,27 @@ Common mistakes to avoid:
 - Creating a new quarter's overview page without updating `home.md`'s "Latest release" tab (it will keep pointing to the old quarter).
 - Forgetting to also add the new quarter to the current-year tab list.
 
+### Step 8: Update the product releases index page
+
+Whenever you create a **new quarter's overview page**, also update `help/quicksilver/product-announcements/product-releases/product-releases.md` in the same change:
+
+- Find the `<p>Releases in {year}</p>` block for the current year in the "Workfront releases" column.
+- Add a new `<li>` at the **top** of that year's list, linking to the new quarter's overview page, in the same format as the existing entries:
+
+  ```html
+  <li><a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md" class="MCXref xref" xrefformat="{para}">Fourth Quarter 2026 release overview</a></li>
+  ```
+
+- If a new quarter's Planning release-activity page exists (`planning-release-activity-{YY}-q{N}.md`), also add a matching `<li>` at the top of the same row's "Other product releases" column.
+- If the current year has no row yet (first quarter of a new year), add a new `<tr data-mc-conditions="">` above the previous year's row, following the existing row structure.
+
+Do not touch `product-releases.md` when only adding a product-area page to a quarter that already has an overview page listed there.
+
+Common mistakes to avoid:
+
+- Creating a new quarter's overview page without adding it to `product-releases.md` (the page will keep showing only prior quarters).
+- Adding the overview link but forgetting the corresponding Planning release-activity link.
+
 ## File Naming Conventions
 
 | Type | Pattern | Example |
@@ -239,6 +260,7 @@ When reviewing a release note file, verify:
 - [ ] Features are ordered newest-first (both product area pages and overview tables)
 - [ ] New release-note pages are listed in `help/quicksilver/TOC.md` under the correct quarter, with the overview first and product areas in alphabetical order (Other last)
 - [ ] If a new quarter's overview page was created, `help/quicksilver/home.md` "Latest release" tab and the current-year tab point to it
+- [ ] If a new quarter's overview page was created, `help/quicksilver/product-announcements/product-releases/product-releases.md` lists it at the top of the current year's "Workfront releases" list (plus the Planning link, if it exists)
 
 ## Additional Resources
 
