@@ -127,7 +127,24 @@ Apply these fixes when formatting:
 | HTML in product area pages | Keep as markdown (HTML is for overview tables only) |
 | Missing `exl-id` | Leave it out — do not generate one |
 
-### Step 6: Update the TOC
+### Step 6: Sync the overview page
+
+Whenever you add a **new feature** to a product-area page, add or update a matching row in that quarter's `{YY}-q{N}-release-overview.md` in the same change. A feature that exists only on the product-area page and not in the overview table will be invisible from the release-overview index.
+
+- Find the H3 section for that product area (e.g., `### Reporting enhancements`) and add a new `<tr>` row at the **top** of the table (after the header row), matching the existing row format (see .claude/commands/_release-notes-formatter-reference.md#overview-feature-table).
+- The dates in this row must match the `>[!NOTE]` block on the product-area page for that feature (Step 4).
+- If a feature is recategorized to a different product area (e.g., moved from Reporting to Administrator), move its row to the new area's H3 section — don't leave a stale copy behind in the old one.
+- Planning-only features are not added to the overview tables — Planning has its own release-activity page, linked once under "Release notes for other areas" (no per-feature row needed there).
+
+Do not touch the overview page when a feature already has a row there and its content/dates haven't changed.
+
+Common mistakes to avoid:
+
+- Adding a feature's H2 to a product-area page without adding the matching row to the overview table.
+- Leaving a stale overview row in the old product-area section after moving content to a different area's page.
+- Overview row dates that don't match the product-area page's `>[!NOTE]` block.
+
+### Step 7: Update the TOC
 
 Whenever you create a **new** release-note page (overview or product area), add it to `help/quicksilver/TOC.md` in the same change. A page that is not in the TOC will not appear in the published navigation, even if links in the overview table point to it.
 
@@ -153,7 +170,7 @@ Common mistakes to avoid:
 - Linking to a different quarter's overview from the new product-area page (Step 3).
 - Inserting a new quarter's pages under the previous quarter's heading.
 
-### Step 7: Update the home page
+### Step 8: Update the home page
 
 Whenever you create a **new quarter's overview page** (i.e., this is the first page of a new quarter, not just a new product-area page added to an existing quarter), update `help/quicksilver/home.md` in the same change:
 
@@ -168,7 +185,11 @@ Common mistakes to avoid:
 - Creating a new quarter's overview page without updating `home.md`'s "Latest release" tab (it will keep pointing to the old quarter).
 - Forgetting to also add the new quarter to the current-year tab list.
 
+<<<<<<< Updated upstream
 ### Step 8: Update the product releases index page
+=======
+### Step 9: Update the product releases index page
+>>>>>>> Stashed changes
 
 Whenever you create a **new quarter's overview page**, also update `help/quicksilver/product-announcements/product-releases/product-releases.md` in the same change:
 
