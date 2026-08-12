@@ -102,3 +102,6 @@ If your Task Collaborator does not return a response or output, please check the
 * Make sure that the Collaborator is the primary assignee on the task.
 * Make sure that the task that the Task Collaborator is assigned to Can Start. For example, check to see that all task predecessors to that task are complete.
 
+>[!TIP]
+>
+>You can also go to the agent provider platform and ask the agent to perform the task within the platform. If the agent cannot perform the task within the platform, then the Task Collaborator will also run into issues in Workfront.
