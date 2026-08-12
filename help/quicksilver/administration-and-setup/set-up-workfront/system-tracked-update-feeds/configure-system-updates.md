@@ -189,6 +189,8 @@ For example, you can have [!DNL Workfront] record an update every time a user ch
 
 The change then appears as a system update in the [!UICONTROL Updates] area for the task or issue.
 
+When you disable an action, any previously-recorded update about that action is preserved in the [!UICONTROL Updates] area where it was recorded. [!DNL Workfront] stops recording any new updates for the disabled action.
+
 The following table describes the actions you can track on objects in [!DNL Workfront]: 
 
 <table style="table-layout:auto"> 
@@ -198,8 +200,8 @@ The following table describes the actions you can track on objects in [!DNL Work
  <thead> 
   <tr> 
    <th><strong>Action</strong> </th> 
-   <th><strong>Objects</strong> </th> 
-   <th><strong>Default Status</strong> </th> 
+   <th><strong>Objects the action applies to</strong> </th> 
+   <th><strong>Default status</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -267,4 +269,6 @@ To configure which actions you want [!DNL Workfront] to track:
 1. Select an action's checkbox to enable it, or deselect it to disable it.
 1. Click **[!UICONTROL Save]**.
 
-   When you disable an action, any previously-recorded update about that action is preserved in the [!UICONTROL Updates] area where it was recorded. [!DNL Workfront] stops recording any new updates for the disabled action.
+   <!--<span class="preview">The **Save** button has been removed from the Preview environment and changes are saved automatically. </span>-->
+
+  

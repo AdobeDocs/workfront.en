@@ -194,8 +194,13 @@ These two capabilities will come later - and edit some of the bullets below afte
     * Edit it
 
         You cannot edit its appearance, cross-workspace capabilities, or the fields added from the original workspace. 
-    * Create and manage request forms
     * Create and manage automations
+    * Create and manage request forms
+
+        <!--
+        <span class="preview">You can create records for a secondary record type using a request form from the secondary record type page or by specifically indicating which workspace the record should be saved to when filling out a request form created for the primary global record type and updating the Workspace field. 
+        For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).</span>
+        -->
 
 * Records added in a secondary workspace are visible from the following workspaces, when you have View or higher permissions to these workspaces: 
 
