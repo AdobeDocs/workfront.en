@@ -90,6 +90,10 @@ When you are searching for a Task Collaborator in the list of available assignee
 
 For instructions, see [Assign tasks](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).
 
+>[!NOTE]
+>
+>Task Collaborators cannot be assigned to review or approve a document.
+
 ## Troubleshooting Task Collaborators
 
 If your Task Collaborator does not return a response or output, please check the following:
