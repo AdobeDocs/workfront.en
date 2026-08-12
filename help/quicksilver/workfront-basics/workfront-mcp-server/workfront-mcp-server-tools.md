@@ -207,10 +207,64 @@ Workflow tools are the general-purpose actions the AI agentic platform uses to w
 | --- | --- | --- | --- |
 | Search objects | `workflow_search_any_object` | Searches for Workfront objects with flexible filter parameters, ordering, and pagination. | Read |
 | Create object | `workflow_create_any_object` | Creates a new Workfront object such as a project, task, issue, hour, assignment, program, or portfolio. | Write |
-| Update object | `workflow_update_any_object` | Updates fields on an existing Workfront object. | Write |
+| Update object | `workflow_update_any_object` | Updates an existing object's fields. Also supports moving a task or issue to another project, converting a task or issue into a new project (or an issue into a task), and setting task predecessors (dependencies). | Write |
 | Delete object | `workflow_delete_any_object` | Deletes a Workfront object by ID. Requires explicit user confirmation before the action is performed. | Write |
 | Resolve field names | `workflow_resolve_field_names_any_object` | Converts user-provided field names or labels to the underlying Workfront API field names so the AI agentic platform can build accurate requests. | Read |
 | Read Workflow docs | `workflow_read_workflow_docs` | Loads the Workfront Workflow documentation, including tool usage guides and object-specific operations playbooks. This is the required first step before performing Workflow actions. | Read |
+
+### Update object tool abilities
+
+The Update object tool does more than change field values. It can also relocate work between projects, promote work items into new objects, and wire up task dependencies.
+
+#### Move a task or issue to another project
+
+Moving reparents a work item in place. The object keeps its identity and links, it just lives in a different project or parent task.
+
+>[!NOTE]
+>
+>Setting a Project field in a plain field update does not move a task or issue. Use the move capability instead.
+
+* **Move a task**: Moves the task to a target project, and optionally under a target parent task.
+* **Move an issue**: Moves the issue (request) to a target project.
+
+Example prompts:
+
+* "Move task *Wireframes* to the *Mobile App Redesign* project."
+* "Move this request under the *Q4 Launch* project."
+
+#### Convert an issue or task into a project
+
+>[!NOTE]
+>
+>Converting produces a new object. The source item is consumed in the process.
+
+* **Convert a task to a project**: Creates a new project from the task. You can optionally copy the task's custom data and base the new project on a project template.
+* **Convert an issue (request) to a project**: Creates a new project from the issue. You can optionally copy the issue's custom data, copy its native field values, and apply a project template.
+* **Convert an issue (request) to a task**: Creates a task on an existing project from the issue.
+
+Each conversion returns the newly created object, along with a link so you can open it directly in Workfront.
+
+Example prompts:
+
+* "Convert task *Website Refresh* into a project called *Website Refresh 2026* using our standard template."
+* "Turn this request into a project and copy over its custom fields."
+
+#### Set task predecessors (dependencies)
+
+You can define a task's predecessors. Predecessors support the following dependency types, plus optional lag time:
+
+* **Finish-Start (FS)**: The task starts when its predecessor finishes. (Default)
+* **Start-Start (SS)**: The task starts when its predecessor starts.
+* **Finish-Finish (FF)**: The task finishes when its predecessor finishes.
+* **Start-Finish (SF)**: The task finishes when its predecessor starts.
+
+You can add lag (a delay) or lead (a negative delay) in workdays, chain multiple predecessors on a single task, and reference a task in a different project.
+
+Example prompts:
+
+* "Make *Development* start after *Design* finishes."
+* "Set *QA* to start when *Development* starts, with a two-day lag."
+* "Add task #3 and task #5 as predecessors of *Launch*."
 
 ### Comments
 
