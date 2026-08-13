@@ -156,6 +156,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Send assets to Adobe Experience Manager and add custom messages for approvals using the Workfront MCP server</a>
+                <p>New MCP Connector tools let you send documents to an AEM-linked folder and request document approval with a custom message.</p>
+            </td>
+            <td><p>August 12, 2026</p></td>
+            <td><p>August 12, 2026</p></td>
+            <td><p>August 12, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Assign AI Task Collaborators to tasks in Workfront</a>
                 <p>Task Collaborators are AI Collaborators that can be assigned directly to tasks to complete task-level work.</p>
             </td>
