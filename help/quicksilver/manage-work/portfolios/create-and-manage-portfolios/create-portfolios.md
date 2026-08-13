@@ -158,6 +158,8 @@ You can create a portfolios in Workfront using one of the following methods:
 
       For Adobe cloud storage portfolios, a new document folder by the same name as the portfolio is automatically created in he Documents area.
 
+      For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 1. Replace the name of the portfolio with a new name in the portfolio header.
 
    The name can contain up to 255 characters.

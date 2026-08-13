@@ -5,6 +5,7 @@ navigation-topic: use-the-gantt-chart
 title: Configure How Information Displays on the [!UICONTROL Gantt] Chart
 description: You can configure what information displays in both the Task List Gantt Chart and the Project List Gantt Chart.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 465365a2-d94b-47b6-a393-16770fca2714
 last-update: 2026-04-01T18:03:50.000Z
