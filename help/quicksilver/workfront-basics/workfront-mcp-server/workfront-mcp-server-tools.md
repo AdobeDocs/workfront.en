@@ -43,10 +43,10 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | --- | --- | --- | --- |
 | Find document version by name | `approvals_find_document_version_by_name` | Looks up a document's current version ID by filename. Supports partial matches. | Read |
 | Get document by version ID | `approvals_get_document_by_version_id` | Fetches document details (name, size, upload date, uploader) for a known document version ID. | Read |
-| Get documents by project | `approvals_get_documents_by_project` | Lists documents inside a Workfront project, with each document's current version ID. | Read |
 | Resolve document scope | `approvals_resolve_document_scope` | Expands a project or folder into the list of document version IDs it contains. Supports project, folder, and folder-by-name scopes. | Read |
+| Get documents by scope | `approvals_get_documents_by_scope` | List document inside a project or folder. | Read |
+| List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
 | Find a document | `approvals_find_document` | Look up a document by filename or document version ID | Read |
-| Get documents by scope | approvals_get_documents_by_scope | List document inside a project or folder. | Read |
 | Send documents to AEM folder* | `approvals_send_documents_to_aem_folder` | Moves one or more Workfront documents to an AEM-linked folder. | Write |
 
 *You must have a native [!DNL Adobe Experience Manager] integration configured in your Workfront instance to use these tools. For more information, see [Overview of Adobe Experience Manager Assets integrations](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
@@ -105,13 +105,8 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
-| Get current user | `approvals_get_current_user` | Returns the calling user's Workfront identity, including name, user ID, home team name, and home team ID. | Read |
-| Find user by name | `approvals_find_user_by_name` | Looks up a Workfront user's ID by name (fuzzy or partial match). Returns name, ID, email, title, and avatar URL. | Read |
-| Find team by name | `approvals_find_team_by_name` | Looks up a Workfront team's ID by name (fuzzy or partial match). | Read |
 | Find project by name | `approvals_find_project_by_name` | Looks up Workfront projects by partial name match across the system. | Read |
 | Get projects by owner | `approvals_get_projects_by_owner` | Lists Workfront projects where the calling user is the owner. | Read |
-| Find projects | approvals_find_projects | Look up Workfront projects, optionally filtered by name and/or restricted to projects that the calling user owns. | Read |
-
 
 ## Planning tools
 
@@ -294,6 +289,7 @@ Insights tools retrieve information about Workfront objects.
 | Find Workfront data | `insights_find_workfront_data` | Find, filter, count, sort, and aggregate Workfront data. This is the main query and report tool. | Read |
 | Summarize object | `insights_summarize_object` | Fetch and summarize a single Workfront object by ID. | Read |
 | List entities | `insights_list_entities` | List all Workfront object types available to query. | Read |
+| Search users | `insights_search_users` | Find people in your Workfront instance by name. Type a full or partial name, and get back the top matching users. This can also optionally include AI-collaborator "bots" alongside regular users. | Read |
 
 
 
