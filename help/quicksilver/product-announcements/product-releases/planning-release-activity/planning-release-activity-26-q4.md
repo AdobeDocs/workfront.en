@@ -13,6 +13,66 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Table view enhancements when dragging and dropping multiple rows
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: August 13, 2026
+>Production for everyone: October 15, 2026
+
+There are new visual indicators when you drag and drop multiple rows in the table view. A more prominent plus sign and a number indicator now show how many rows are selected for the drag-and-drop action.
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+<!--
+
+## Collapse and expand all groupings in the timeline view
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+Timeline views now include Collapse all and Expand all options for grouped timelines. This makes it easier to navigate large roadmap views: you can quickly reduce the view to grouping headings, then expand only the sections you want to review.
+
+For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+-->
+
+## Route the submitted request object to the correct workspace when using global record types
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+Records created for global record types by submitting a request form are now automatically routed to the workspace from which they were submitted.
+
+Records created by submitting a request from a secondary workspace of a global record type are added to that secondary workspace. Records created by submitting a request from the original workspace, or from the main Requests area, are added to the original workspace.
+
+If the intake form includes a Workspace field and a user selects a workspace before submitting, the request is routed to the selected workspace regardless of where the form was launched. This ensures records are organized in the intended workspace from the moment they're created.
+
+For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+
+<!--
+
+## Updated column headers for dependent connected record fields
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+We've made visual improvements to the column headers for a dependent connected record field in the table view.
+
+For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+-->
+
 ## Introducing the Workfront Planning Solution Architect Skill
 
 >[!NOTE]
