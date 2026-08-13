@@ -33,11 +33,11 @@ topic_v2:
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
-<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -146,8 +146,6 @@ The following must be in place before you can submit a request to a Workfront Pl
 
    For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-<!--
-
 * When you submit a request form to create records from a global record type, the new records are saved either in the primary or the secondary record type, depending on where you submit them from.
 
    Depending on which environment you use to submit requests and create records, the following scenarios exist when you submit forms for request forms associated with global record types: 
@@ -163,9 +161,6 @@ The following must be in place before you can submit a request to a Workfront Pl
       * <span class="preview">If the **Workspace** field is available in the request form and the user manually chooses a specific workspace to add the record to, the record is saved in that space, regardless of whether the form was selected from the primary or the secondary record type pages.</span>
  
    For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
-
--->
-
 
 
 <!--
