@@ -47,9 +47,6 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | Resolve document scope | `approvals_resolve_document_scope` | Expands a project or folder into the list of document version IDs it contains. Supports project, folder, and folder-by-name scopes. | Read |
 | Find a document | `approvals_find_document` | Look up a document by filename or document version ID | Read |
 | Get documents by scope | approvals_get_documents_by_scope | List document inside a project or folder. | Read |
-
-<!--
-| List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
 | Send documents to AEM folder* | `approvals_send_documents_to_aem_folder` | Moves one or more Workfront documents to an AEM-linked folder. | Write |
 
 *You must have a native [!DNL Adobe Experience Manager] integration configured in your Workfront instance to use these tools. For more information, see [Overview of Adobe Experience Manager Assets integrations](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
@@ -57,6 +54,9 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 
 *Sending documents to an AEM folder is not yet supported for projects on Adobe cloud storage. Support is expected in a future release.
 
+
+<!--
+| List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
 -->
 
 ### Approval workflows
