@@ -89,8 +89,8 @@ To create an approval template:
    <td>Begin typing a user or team name to add as an approver or reviewer. Participants are optional in templates. You can add them when the template is applied to a document.<p>Note: A reviewer or approver can be assigned to only one open stage at a time on the same asset. If multiple parallel stages are open simultaneously, the same person can't be added to more than one.</p></td>
    </tr>
    <tr class="preview">
-   <td><span class="preview"><strong>Add people or teams in preview</strong></span></td>
-    <td><span class="preview">Begin typing a user name, team, or email address.<br>
+   <td><span class="preview"><strong>Add people or teams in preview (optional)</strong></span></td>
+    <td><span class="preview">Begin typing a user name, team, or email address. Participants are optional in templates. You can choose to add them when the template is applied to a document.<br>
     Note: If a user is already added, or belongs to more than one team you add, they're included once. Additionally, participants can be assigned only to one open stage at a time on the same asset.</span></td>
    </tr>
    <tr>
