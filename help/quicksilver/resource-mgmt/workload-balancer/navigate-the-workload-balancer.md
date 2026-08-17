@@ -140,7 +140,7 @@ To navigate the Workload Balancer for multiple projects:
 
 1. Click **Workload Balancer** in the left panel.
 
-    ![Workload Balancer](assets/nwe-balancer-global.png)
+    ![Workload Balancer](assets/wb-in-res-mgmt.png)
     
     The Workload Balancer displays work assignment information starting with the current week in the following two areas:
 
@@ -504,7 +504,7 @@ You can access the Workload Balancer on your own user profile.
 
    The Workload Balancer for the user displays.
 
-   ![Workload Balancer for a user](assets/workload-balancer-user.png)
+   ![Workload Balancer of a user](assets/workload-balancer-user.png)
 
    The Workload Balancer of a user displays the following by information, by default:
 
