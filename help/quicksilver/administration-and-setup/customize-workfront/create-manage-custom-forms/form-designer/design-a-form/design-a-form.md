@@ -876,7 +876,7 @@ An internal lookup field allows users to type the name of an object that exists 
 >
 >Typeahead fields are no longer available to add to custom forms. You can convert an existing typeahead to an internal lookup by clicking the button in the field options on the right. When you convert, historical data remains on the field and it is used the same way in reports.
 >&nbsp;
->Also note that if a typeahead field is included in an environment promotion package, the field is automatically converted an an internal lookup when the promotion takes place. For more information on environment promotion, see [Overview of moving objects between Workfront environments (Environment promotion)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+>Also note that if a typeahead field is included in an environment promotion package, the field is automatically converted to an internal lookup when the promotion takes place. For more information on environment promotion, see [Overview of moving objects between Workfront environments (Environment promotion)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 To add an internal lookup:
 
