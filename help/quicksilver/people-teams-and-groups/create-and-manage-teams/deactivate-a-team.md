@@ -20,7 +20,7 @@ You can deactivate teams you no longer use while retaining the associated histor
   <tr> 
    <td> 
     <ul> 
-     <li> <p>Typeahead fields in custom forms</p> </li> 
+     <li> <p>Internal lookup or Typeahead fields in custom forms</p> </li> 
     </ul> 
     <ul> 
      <li> <p>Sharing dialog for objects</p> </li> 

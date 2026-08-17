@@ -138,12 +138,19 @@ Consider the following when working with portfolios:
 
 * When you create an Adobe cloud storage portfolio, Workfront creates a folder in the Documents section of the portfolio where documents are saved. The folder name is the same name as the portfolio. You cannot delete or manually rename the folder. The folder is renamed if you change the name of the portfolio to match the portfolio's new name.
 
+<!--
+This is not possible anymore: 
 * When you add an Adobe cloud storage project to a legacy Workfront storage portfolio and the portfolio has no documents attached to it, the portfolio is converted to an Adobe cloud storage portfolio. 
 * When you add an Adobe cloud storage project to a legacy Workfront storage portfolio and the portfolio has documents attached to it, the portfolio documents storage remains on Workfront storage. However, the legacy Workfront storage icon for the portfolio ![Legacy portfolio storage icon](assets/legacy-storage-project-icon.png) is removed from the portfolio. 
+-->
 * You cannot add an Adobe cloud storage project to a Legacy storage portfolio or a Legacy storage project to an Adobe storage portfolio. 
 * Your administrator can convert a Legacy storage portfolio to Adobe cloud storage in the System Preferences area of Setup. All children objects (programs, projects, and documents) remain on Legacy storage. New projects will use Adobe cloud storage. New documents added to the portfolio will continue to be stored in Legacy storage.
   For information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+* <!-- this point also repeats for programs below-->If a portfolio is converted from legacy to Adobe cloud storage, and the program has Legacy storage, a project in the program is also using Legacy storage. 
 
+  You can no longer add existing Legacy storage projects to this portfolio.
+
+  All new projects have to be using Adobe cloud storage (because the portfolio now uses Adobe cloud storage). When one such Adobe cloud storage project is created for the program, then the program is auto-converted from legacy to Adobe cloud storage also and can no longer have any more Legacy storage projects added to it from that point forward. 
 * When you create portfolios using a Workfront Planning automation, Workfront uses your system's default storage preference for the portfolio. You must purchase the Planning package for access to Workfront Planning. 
 
 
@@ -158,6 +165,11 @@ Consider the following when working with programs:
 * You cannot add an Adobe cloud storage program to a Legacy storage portfolio, or a Legacy program to an Adobe cloud storage portfolio.
 * You cannot create a project from an Adobe cloud storage template in a Legacy storage program. 
 * You can create a project from a Legacy storage template in an Adobe cloud storage program, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
+* <!-- this point also repeats for portfolios above-->If a portfolio is converted from legacy to Adobe cloud storage, and the program has Legacy storage, a project in the program is also using Legacy storage. 
+
+  You can no longer add existing Legacy storage projects to this portfolio.
+
+  All new projects have to be using Adobe cloud storage (because the portfolio now uses Adobe cloud storage). When one such Adobe cloud storage project is created for the program, then the program is auto-converted from legacy to Adobe cloud storage also and can no longer have any more Legacy storage projects added to it from that point forward. 
 * When you create programs using a Workfront Planning automation, Workfront uses your system's default storage preference for the program. You must purchase the Planning package for access to Workfront Planning. 
 
 ### Document management for tasks

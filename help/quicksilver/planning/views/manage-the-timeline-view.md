@@ -441,6 +441,7 @@ To add a grouping in the timeline view:
 1. Click one of the suggested fields, or click **Choose a different field**, and search for a different field, then click it when it displays in the list. 
 
     The grouping is applied automatically to the timeline and records display inside the grouping box. 
+1. (Optional) Click **Add condition** to add up to three fields to group by.
 1. (Optional and conditional) Depending on the field type you selected to group by, select one of the following sorting options to sort the groupings either in ascending or descending order:  
 
     * **A -> Z** or **Z -> A** for Select fields, Text fields, Paragraph fields, Connected records or objects, People fields
@@ -457,6 +458,7 @@ To add a grouping in the timeline view:
 
 1. In the **Group records by** box, drag and drop the groupings in the correct order.
 
+
 1.  In the **Layout** area of the **Group records by** box select one of the following options:
 
     * **Stacked**: Groupings display without a frozen left column and fit the width of their items' timelines.
@@ -465,7 +467,9 @@ To add a grouping in the timeline view:
     * **Swimlane**: Groupings display with a frozen left header column that lists the grouped items and the groupings fit the width of the timeline view. 
 
         ![Swimlane grouping in timeline view](assets/swimlane-grouping-in-timeline-view.png)
-
+    <!--
+    1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png)  in the toolbar to open the **Group records by** box, then click **Expand all** to expand all the groupings, or **Collapse all** to collapse all the groupings and manually collapse only the ones you need. </span>
+    -->
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
     Or

@@ -3,6 +3,7 @@ navigation-topic: use-the-gantt-chart
 title: Export the Gantt Chart to PDF
 description: You can export the Gantt chart to a PDF. Afterward, you can print or attach it to an email to share it with other users.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
 last-update: 2026-04-01T18:03:50.000Z

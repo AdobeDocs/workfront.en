@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: Unlink Issues from Their Resolving Objects
 description: When you create a project or a task by converting an issue to the project or task, you have the option to keep the original issue. Your Adobe Workfront administrator must enable this preference for you to have this option during the conversion of the issue. For more information about converting issues to projects and tasks, see Overview of converting issues in Adobe Workfront.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: c18160e5-9f95-4575-a1b3-b4f7e5334844
 last-update: 2026-04-01T18:03:50.000Z
