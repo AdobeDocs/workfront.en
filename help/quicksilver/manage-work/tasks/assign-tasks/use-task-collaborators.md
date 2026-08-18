@@ -8,8 +8,6 @@ feature: Work Management, Tasks
 ---
 # Use Task Collaborators
 
-<span class="preview">The  information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
-
 Task Collaborators are AI Collaborators that can be assigned directly to Workfront tasks, in addition to the existing Reviewer-type AI Collaborator used for document and asset reviews. Like other AI Collaborators, Task Collaborators are configured in the Setup area and assigned to tasks just like a user.
 
 Task Collaborators connect to agents that you have configured, much like an MCP server. 
