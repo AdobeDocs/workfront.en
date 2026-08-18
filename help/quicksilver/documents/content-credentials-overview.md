@@ -39,6 +39,6 @@ Content credentials do not include any personally identifiable information (PII)
 
 ## How Workfront handles content credentials
 
-Adobe Workfront does not modify the metadata of the documents you work with. When you upload a document that already carries content credentials, Workfront preserves that information unchanged as the document is stored in and downloaded from Workfront.
+Adobe Workfront does not modify the metadata of the files you work with. When you upload a file that already carries content credentials, Workfront preserves that information unchanged as the file is stored in and downloaded from Workfront.
 
 Because the credentials are embedded in the file itself, they remain intact through your Workfront workflows, so the provenance information stays with the content when it leaves Workfront.
