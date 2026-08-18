@@ -9,8 +9,6 @@ exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
 ---
 # Left navigation in [!DNL Adobe Workfront]
 
-{{preview-fast-release-general}}
-
 Most areas and objects in WF use a simple navigation panel on the left side of the screen. The following are benefits of left panel navigation:
 
 * It allows better management of screen space.
@@ -258,11 +256,7 @@ To learn what sections are available for specific areas, see [[!UICONTROL Defaul
 
    You must have permissions to edit the object before you can edit the information.
    
-   <span class="preview">Sample image in the Preview environment:</span>
    ![Left panel sections](assets/left-navigation-panel-072326.png)
-
-   Sample image in the Production environment:
-   ![Left panel sections](assets/left-navigation-panel.png)
 
 1. (Optional) To add a dashboard quick link, click **[!UICONTROL Add a Dashboard]** at the bottom of the left panel, then do the following:
 
@@ -277,17 +271,9 @@ To learn what sections are available for specific areas, see [[!UICONTROL Defaul
 
 1. (Optional) To remove a dashboard quick link, hover over the dashboard in the left navigation, then click the **Remove** icon ![Remove icon](assets/remove-dashboard-from-left.png) when it appears.
 
-1. (Optional) To change the order of a section in the left panel in the Production environment, click the **[!UICONTROL Drag]** icon ![Drag icon](assets/drag-icon.png) next to a section and drag it up or down.
+1. (Optional) To change the order of a section in the left panel, click and drag the section up or down into the correct position.
 
-   ![Drag a section](assets/drag-section.png)
-
-   <div class="preview">   
-
-   To change the order of a section in the left panel in the Preview environment, click and drag the section up or down into the correct position.
-
-   ![Drag a section](assets/click-drag-left-nav-section.png)
-
-   </div>   
+   ![Drag a section](assets/click-drag-left-nav-section.png) 
 
 1. (Optional) To close the left panel, click the **[!UICONTROL Collapse]** icon ![](assets/left-panel-collapse-icon.png).
 
