@@ -190,6 +190,18 @@ Available relationships for additional columns, filter options, and grouping att
 
 When utilizing any of the parent-to-child relationships listed above, you will see a row in the table for each child record connected to the parent object.  
 
+### Exclude personal projects, tasks, and bot users from Canvas Dashboards reports
+
+>[!NOTE]
+>
+>If a Canvas Dashboards report returns more results than you expect compared to a similar classic report, personal projects, personal tasks, or bot users may be included by default. Add a filter condition to exclude them.
+
+In Canvas Dashboards Project and Task reports, the `isPersonal` filter is not automatically applied, so personal projects and personal tasks are included in the results by default. To exclude them, add a filter condition such as `isPersonal=false`.
+
+Similarly, Canvas Dashboards User reports include all users by default, including AI Collaborators (bot users). To exclude bot users, add a filter condition such as `isBot=false`.
+
+Classic Project and Task reports automatically exclude personal projects and personal tasks, and classic User reports automatically exclude bot users. To include them in a classic report instead, add a filter condition such as `isPersonal=true` (personal items only) or `isPersonal_Mod=notnull` (personal and non-personal items).
+
 ### Field operators by field type
 
 +++ Expand to view list of field operators by field type. 

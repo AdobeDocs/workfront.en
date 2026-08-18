@@ -23,11 +23,9 @@ topic_v2:
 ---
 # Cross-workspace record type overview
 
-<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
 
 {{planning-important-intro}}
 
@@ -194,8 +192,12 @@ These two capabilities will come later - and edit some of the bullets below afte
     * Edit it
 
         You cannot edit its appearance, cross-workspace capabilities, or the fields added from the original workspace. 
-    * Create and manage request forms
     * Create and manage automations
+    * Create and manage request forms
+       
+        <span class="preview">You can create records for a secondary record type using a request form from the secondary record type page or by specifically indicating which workspace the record should be saved to when filling out a request form created for the primary global record type and updating the Workspace field. 
+        For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).</span>
+       
 
 * Records added in a secondary workspace are visible from the following workspaces, when you have View or higher permissions to these workspaces: 
 

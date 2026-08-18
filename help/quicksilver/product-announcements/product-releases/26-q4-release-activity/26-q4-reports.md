@@ -11,6 +11,36 @@ This page describes Reporting enhancements made with the Fourth Quarter 2026 rel
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+## Enforcing end dates for scheduled reports
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+Scheduled reports now require an end date to prevent indefinite delivery. Schedules that pass their end date are automatically deactivated.
+
+Existing schedules have been updated with end dates to improve reliability and reduce unnecessary system usage. Workfront also provides added visibility and warnings to help you manage report schedule lifecycles as they approach their end date.
+
+For more information, see [Schedule an automatic report delivery](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+
+<!--
+
+## Updated column headers for dependent connected record fields
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+We've made visual improvements to the column headers for a dependent connected record field in the table view.
+
+For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+-->
+
 ## Native reference fields are available for lists and reports
 
 >[!NOTE]

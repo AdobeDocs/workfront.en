@@ -29,54 +29,13 @@ Live webinars are held for each quarterly release - these highlight the new feat
 
 ## Adobe Workfront enhancements
 
-* [AI enhancements](#ai-enhancements)
 * [Administrator enhancements](#administrator-enhancements)
+* [AI enhancements](#ai-enhancements)
 * [Documents enhancements](#documents-enhancements)
 * [Project enhancements](#project-enhancements)
 * [Reporting enhancements](#reporting-enhancements)
 * [Resource Management enhancements](#resource-management-enhancements)
 * [Other enhancements](#other-enhancements)
-
-### AI enhancements
-
-<table>
-    <tbody>
-        <tr>
-            <td><strong>Feature</strong>
-            </td>
-            <td><strong>Preview</strong></td>
-            <td><strong>Fast release</strong></td>
-            <td><strong>Quarterly</strong></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Assign AI Task Collaborators to tasks in Workfront</a>
-                <p>Task Collaborators are AI Collaborators that can be assigned directly to tasks to complete task-level work.</p>
-            </td>
-            <td><p>July 31, 2026</p></td>
-            <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">New Approvals tools available in the Workfront MCP Connector</a>
-                <p>To expand the capabilities of the Workfront MCP Connector, we've added new tools to manage approval paths and extended existing tools to support parallel approval paths.</p>
-            </td>
-            <td><p>July 30, 2026</p></td>
-            <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Board tools available in the Workfront MCP Connector</a>
-                <p>To expand the capabilities of the Workfront MCP Connector, we've added tools for working with Boards, cards, checklist items, and columns.</p>
-            </td>
-            <td><p>July 30, 2026</p></td>
-            <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-        </tr>
-    </tbody>
-</table>
 
 ### Administrator enhancements
 
@@ -89,7 +48,18 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
         </tr>
+<!--
         <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Interface improvements to the Actions list</a>
+                <p>The Actions list in the Update Feeds section of the Setup area has an updated look and feel.</p>
+            </td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+ -->  
+      <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Group administrators can manage business profiles</a>
                 <p>Group administrators can now create, edit, and delete business profiles for the groups they administer, without requiring System Administrator access.</p>
@@ -164,6 +134,65 @@ Live webinars are held for each quarterly release - these highlight the new feat
     </tbody>
 </table>
 
+### AI enhancements
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">New Search Users tool available in the Workfront MCP Connector</a>
+                <p>A new Search Users tool helps you find people in your Workfront instance faster; six older lookup tools were deprecated in favor of it and existing find/lookup tools.</p>
+            </td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>August 13, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Send assets to Adobe Experience Manager and add custom messages for approvals using the Workfront MCP server</a>
+                <p>New MCP Connector tools let you send documents to an AEM-linked folder and request document approval with a custom message.</p>
+            </td>
+            <td><p>August 12, 2026</p></td>
+            <td><p>August 12, 2026</p></td>
+            <td><p>August 12, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Assign AI Task Collaborators to tasks in Workfront</a>
+                <p>Task Collaborators are AI Collaborators that can be assigned directly to tasks to complete task-level work.</p>
+            </td>
+            <td><p>July 31, 2026</p></td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>August 13, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">New Approvals tools available in the Workfront MCP Connector</a>
+                <p>To expand the capabilities of the Workfront MCP Connector, we've added new tools to manage approval paths and extended existing tools to support parallel approval paths.</p>
+            </td>
+            <td><p>July 30, 2026</p></td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Board tools available in the Workfront MCP Connector</a>
+                <p>To expand the capabilities of the Workfront MCP Connector, we've added tools for working with Boards, cards, checklist items, and columns.</p>
+            </td>
+            <td><p>July 30, 2026</p></td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
 ### Documents enhancements
 
 <table>
@@ -230,6 +259,26 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
         </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Enforcing end dates for scheduled reports</a>
+                <p>Scheduled reports now require an end date to prevent indefinite delivery, with automatic deactivation once a schedule's end date passes.</p>
+            </td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Updated column headers for dependent connected record fields</a>
+                <p>Visual improvements have been made to the column headers for a dependent connected record field in the table view.</p>
+            </td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Native reference fields are available for lists and reports</a>

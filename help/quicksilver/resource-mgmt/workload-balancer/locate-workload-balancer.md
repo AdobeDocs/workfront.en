@@ -100,7 +100,7 @@ The following sections illustrate where you can access the Workload Balancer wit
 
 1. Click **Workload Balancer** in the left panel.
   
-    ![Workload Balancer](assets/nwe-balancer-global.png)
+    ![Workload Balancer](assets/wb-in-res-mgmt.png)
 
     The Workload Balancer displays the following by information in the Resourcing area, by default:
 
@@ -119,7 +119,7 @@ For more information on teams in Workfront, see [Teams overview](/help/quicksilv
   
 1. Click **Workload Balancer** in the left panel.
 
-   ![Workload Balancer for team](assets/nwe-balancer-team-350x172.png)
+   ![Workload Balancer of a team](assets/wb-on-team.png)
 
    The Workload Balancer of a team displays the following information, by default:
 
@@ -139,7 +139,7 @@ For more information on teams in Workfront, see [Teams overview](/help/quicksilv
 
    The Workload Balancer for the project displays.
 
-   ![Workload Balancer for Project](assets/nwe-balancer-project-350x152.png)
+   ![Workload Balancer of a project](assets/wb-on-project.png)
 
    The Workload Balancer of a project displays the following by information, by default:
 
@@ -162,7 +162,7 @@ All of the display settings are available for the Workload Balancer for a user. 
 
    The Workload Balancer for the user displays.
 
-   ![Workload Balancer for a user](assets/workload-balancer-user.png)
+   ![Workload Balancer of a user](assets/workload-balancer-user.png)
 
    The Workload Balancer of a user displays the following by information, by default:
 

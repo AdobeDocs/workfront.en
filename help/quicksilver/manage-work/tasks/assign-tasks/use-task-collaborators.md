@@ -8,8 +8,6 @@ feature: Work Management, Tasks
 ---
 # Use Task Collaborators
 
-{{highlighted-preview-article-level}}
-
 Task Collaborators are AI Collaborators that can be assigned directly to Workfront tasks, in addition to the existing Reviewer-type AI Collaborator used for document and asset reviews. Like other AI Collaborators, Task Collaborators are configured in the Setup area and assigned to tasks just like a user.
 
 Task Collaborators connect to agents that you have configured, much like an MCP server. 
@@ -64,8 +62,48 @@ Some example workflows may include:
 >* When configuring an agent in Copilot Studio, you must set security to **No authentication**.
 >* For information and instructions about creating a Task Collaborator in Workfront, see [Configure a Task Collaborator](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) in the article Configure AI Collaborators.
 
+## Task Collaborator start triggers
+
+When a Task Collaborator is assigned to a task, it begins work when any of the following situations are met:
+
+* The Task Collaborator is assigned to a task that is ready to start. (For example, if the task has predecessors, the predecessors are complete.)
+* The Task Collaborator and a user are assigned to a task, and the Task Collaborator is assigned first.
+* A task to which a Task Collaborator is already assigned as becomes ready to start, and the Task Collaborator is the only or primary assignee. (For example, if the task has predecessors, the predecessors are complete.)
+* A task to which a Task Collaborator and a user are already assigned becomes ready to start, and the Task Collaborator was assigned first or is the primary assignee. (For example, if the task has predecessors, the predecessors are complete.)
+* A user and a Task Collaborator are assigned to a task, and the user is removed.
+* A user and a Task Collaborator are assigned to a task, and the Task Collaborator is set as the Primary Assignee for the task.
+
+The following situations do not cause the Task Collaborator to begin work on the task:
+
+* A Task Collaborator is assigned to a task that already has a user assigned.
+* A Task Collaborator is @mentioned in a task.
+* A Task Collaborator is assigned to a task that already has a Task Collaborator assigned. In this case, the first Task Collaborator assigned will have already begun the work, and the second Task Collaborator will do nothing.
+* A Task Collaborator is assigned to a task that is not ready to start. (For example, if the task has predecessors, the predecessors are not yet complete.)
+
 ## Assign a Task Collaborator to a task
 
 Task Collaborators are assigned to tasks the same way users are assigned.
 
+When you are searching for a Task Collaborator in the list of available assignees, the name of the Task Collaborator is a first name only.
+
 For instructions, see [Assign tasks](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).
+
+>[!NOTE]
+>
+>Task Collaborators cannot be assigned to review or approve a document.
+
+## Troubleshooting Task Collaborators
+
+If your Task Collaborator does not return a response or output, please check the following:
+
+* Make sure your agent is published on the AI platform provider side.
+* Make sure you have sufficient AI credits with your agent's platform.
+* Make sure the the action taken on the task does not require a specific access level.
+* If you are using Copilot as the agent provider, ensure you are using the "no authentication" setting.
+* If you are using Copilot, make sure that your agent is configured on a global environment. Task Collaborator functionality does not currently support regional versions of Copilot Studio. 
+* Make sure that the Collaborator is the primary assignee on the task.
+* Make sure that the task that the Task Collaborator is assigned to Can Start. For example, check to see that all task predecessors to that task are complete.
+
+>[!TIP]
+>
+>You can also go to the agent provider platform and ask the agent to perform the task within the platform. If the agent cannot perform the task within the platform, then the Task Collaborator will also run into issues in Workfront.

@@ -124,8 +124,7 @@ To log time on a timesheet:
 {{step1-click-main-menu}}
 
 1. Click [!UICONTROL **Timesheets**]. Your current timesheet displays by default. 
-   ![Timesheet](assets/timesheet-redesigned-nwe.png)
-
+   ![Timesheet](assets/timesheet-layout-leftnav-updated.png)
 
 1. (Optional) Click the **full-screen** icon ![](assets/full-screen.png) to display the timesheet in full-screen mode, then click the **exit-full-screen** ![](assets/exit-full-screen.png) icon to return to the timesheet. 
 
@@ -287,7 +286,7 @@ To log time on a timesheet:
 
 1. (Optional) Click [!UICONTROL **Updates**] in the left panel, then add an update to the timesheet. For more information about Workfront updates, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   ![enter-an-update-in-redesigned-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
+   ![enter-an-update-in-redesigned-timesheet-left-panel](assets/timesheet-updates-with-all-tab.png)
 
 1. (Optional) Return to the **Timesheet** area to close or submit your timesheet.
 
