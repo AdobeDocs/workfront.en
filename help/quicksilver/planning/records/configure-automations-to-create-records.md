@@ -214,11 +214,11 @@ You must configure an automation for a record type in Workfront Planning before 
       >[!IMPORTANT]
       >
       >* The modifier in each condition changes with the type of fields you select.
-      >* Each condition can contribute more than one filter when a field has multiple selected values. The total number of filters across your conditions cannot exceed 5, and filter groups cannot be nested. If your configuration exceeds this limit, an inline error displays under the conditions and you cannot save the automation until you reduce the number of selected options or conditions.
+      >* Each condition can reference one or more values. Across all conditions, you can reference a maximum of 5 total values, regardless of how many conditions you create. For example, a configuration with 3 conditions that collectively reference 6 values exceeds the limit. Conditions cannot be nested. If your configuration exceeds the 5-value limit, an inline error appears below the conditions and you cannot save the automation until you reduce the number of referenced values.
       >
       >   If you need more conditions than the limit allows, split the work into two separate automations.
       >
-      >   For more information, see [Using filter groups](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups) in *Event Subscriptions*.
+      >   For more information, see [Using filter groups](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups) in the article Event subscriptions.
 
 1. Update the following fields in the **Actions** section: <!--submitted bugs for these fields - see if they need changing here-->
    * **Actions**: Select the action that you want Workfront to perform when triggering the automation. This is a required field. 
