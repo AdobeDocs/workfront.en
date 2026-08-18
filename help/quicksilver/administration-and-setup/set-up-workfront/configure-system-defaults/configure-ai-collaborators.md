@@ -11,10 +11,6 @@ exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
 ---
 # Configure AI Collaborators
 
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
-
-
 AI Collaborators are a way to onboard AI agents into your projects and tasks. You can configure an AI Collaborator, then assign it as you would a user.
 
 For example, you can configure a reviewer-type AI Collaborator with brand guidelines, then assign that collaborator to review a document.
@@ -67,24 +63,20 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 * You must have configured a brand in Workfront before you can use it for a Reviewer-type AI Collaborator.
 
    For instructions, see [Create and manage brands for the Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
-* To use Adobe Brand Intelligence for a Reviewer AI Collaborator, your organization must use the unified review and approval experience in Workfront. </span>
+* To use Adobe Brand Intelligence for a Reviewer AI Collaborator, your organization must use the unified review and approval experience in Workfront.
 
-   For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md). </span>
-
-<div class="preview">
+   For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 ### For Task Collaborators
 
 You must configure an agent in Claude, Copilot Studio, or Writer before you can use it as a Task Collaborator. 
-
-</div>
 
 ## Create a new Reviewer-type AI Collaborator
 
 Reviewer AI Collaborators can be configured to use Workfront brands, or Adobe Brand Intelligence.
 
 * **Brands**: Brands are created in Workfront. You can create brands in Workfront by uploading PDF files that contain your brand guidelines or by manually entering brand elements.
-* **Adobe Brand Intelligence**: When an AI Collaborator reviews an asset using Adobe Brand Intelligence, you can view comments made by the Reviewer in Frame.io.  </span>
+* **Adobe Brand Intelligence**: When an AI Collaborator reviews an asset using Adobe Brand Intelligence, you can view comments made by the Reviewer in Frame.io.
 
 
 {{step-1-to-setup}}
@@ -96,8 +88,6 @@ Reviewer AI Collaborators can be configured to use Workfront brands, or Adobe Br
 1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.
 1. (Conditional) If the AI Collaborator will use a Brand, select the brand and brand guideline that it will use.
 1. Click **Save**.
-
-<div class="preview">
 
 ## Configure a Task Collaborator
 
@@ -196,8 +186,6 @@ More detailed information about creating agents can be found in the [Writer docu
 1. Assign the Task Collaborator to a Workfront task. The Collaborator begins work when all of the task's predecessor tasks are complete.
 
 +++
-
-</div>
 
 ## Manage AI Collaborators
 

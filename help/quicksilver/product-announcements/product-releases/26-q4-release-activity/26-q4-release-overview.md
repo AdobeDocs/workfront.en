@@ -170,7 +170,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>July 31, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>August 13, 2026</p></td>
         </tr>
         <tr>
             <td>
