@@ -167,11 +167,11 @@ Custom forms are limited to 500 fields. A counter on the bottom left displays ho
 
 * Each custom field API name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form.
 
-* Though it's possible to do so, we recommend that you don't change this API name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront.
+* API names are read-only by default. Though it's possible to do so, we recommend that you don't change this API name after the custom form is used in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront.
 
    For example, if you add the custom field to a report and later change its API name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.
 
-* API names are read-only by default. To make the API name editable, click the **Edit** icon next to the **API Name**. Then, type **confirm** in the confirmation box and click **Rename field**.
+   You could also break existing integrations and calculations that depend on the field's API name.
 
 * We recommend that you don't type an API name that is already used for built-in Workfront fields.
 
