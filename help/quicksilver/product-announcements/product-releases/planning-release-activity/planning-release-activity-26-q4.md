@@ -13,6 +13,18 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Updated column headers for dependent connected record fields
+
+>[!NOTE]
+>
+>Preview: August 20, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+We've made visual improvements to the column headers for a dependent connected record field in the table view.
+
+For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
 ## Table view enhancements when dragging and dropping multiple rows
 
 >[!NOTE]
@@ -56,18 +68,6 @@ Records created by submitting a request from a secondary workspace of a global r
 If the intake form includes a Workspace field and a user selects a workspace before submitting, the request is routed to the selected workspace regardless of where the form was launched. This ensures records are organized in the intended workspace from the moment they're created.
 
 For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
-
-## Updated column headers for dependent connected record fields
-
->[!NOTE]
->
->Preview: August 20, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
-
-We've made visual improvements to the column headers for a dependent connected record field in the table view.
-
-For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
 ## Introducing the Workfront Planning Solution Architect Skill
 
