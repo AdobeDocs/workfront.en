@@ -39,7 +39,7 @@ In-flight approvals that were created in legacy document approvals will continue
 ## Prepare for the upgrade
 
 * Share the [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md) article with your end users.
-* Review your existing Workfront Fusion scenarios against [Update Workfront Fusion scenarios for unified review and approval](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md) before your organization upgrades.
+* Review your existing Workfront Fusion scenarios. If you use legacy document approvals with proofing, see [Update Workfront Fusion scenarios for unified review and approval](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md) before your organization upgrades.
 * Set up a review and approval dashboard in Canvas Dashboards to replace any legacy approval reports. See [Create a review and approval dashboard](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) for details.
 
 
