@@ -32,4 +32,4 @@ For information about working with documents, view the articles in the following
 * [Organize documents: article index](../documents/organizing-documents/organize-documents.md) 
 * [Adobe Cloud Drive: article index](../documents/adobe-cloud-drive/adobe-cloud-drive.md)
 * [Workfront and Experience Manager Assets Integrations: article index](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
-* [Content credentials in Adobe Workfront](../documents/content-credentials-overview.md)
+* [C2PA metadata in Adobe Workfront](../documents/c2pa-metadata-overview.md)
