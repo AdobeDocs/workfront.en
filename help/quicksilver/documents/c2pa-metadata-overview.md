@@ -22,10 +22,6 @@ C2PA metadata is secure, tamper-evident information that travels with a piece of
 
 C2PA metadata is based on the open [C2PA](https://c2pa.org/) standard.
 
-## Why C2PA metadata matters
-
-New laws are emerging around generative AI transparency, and Adobe is working to meet applicable requirements across jurisdictions. Adobe automatically attaches C2PA metadata to GenAI-created image, video, and audio produced in its GenAI products so that this information stays with the content wherever it goes.
-
 ## What C2PA metadata contains
 
 C2PA metadata includes:
