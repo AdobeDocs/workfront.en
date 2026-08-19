@@ -180,7 +180,21 @@ For more information about editing records in the table view, see [Edit records]
 *******************IF THEY REPLACE THE LIST VIEW (IN PROJECTS AND FORMS) WITH THE NEW LIST, THEN JUST UPDATE THAT ARTICLE - "MANAGE THE LIST VIEW" - AND ADD A LINK TO IT HERE; IF NOT, THEN ADD THE SPECIFICS OF THE VIEW HERE**************
 -->
 
-When creating a table view, all records of the selected type display in a table. Each row is a unique record and each column is a record field. All fields and all records display by default. 
+In a table view, all records of the selected record type display in a table format. Each row is a unique record and each column is a record field. 
+
+The following display in a table view by default: 
+
+* All fields and all records for the selected record type. 
+
+<!--
+<div class="preview">
+
+* 500 records upload automaticall. Additional records display as you scroll the view. 
+
+</div>
+-->
+
+500 records display by default
 
 To manage a table view: 
 
@@ -287,6 +301,12 @@ You can add up to 500 fields (or columns) in a table view.
         You can use any word or special character that is visible on the screen. 
     
         You cannot use keywords that are associated with fields that are hidden in the table view. 
+
+        <!--
+        >[!TIP]
+        >
+        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
+        -->    
 
     1. Press **Enter** on your keyboard to go to the next found field. 
 
@@ -577,6 +597,11 @@ Consider the following:
 * When you group by lookup fields with multiple values (that have not been summarized by an aggregator), records are grouped by each unique combination of field values.  
 * You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a grouping for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the grouping you are creating for the Activity record type. 
 * Groupings are listed in the alphabetical order of their values. 
+
+<!--
+* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. Additional records are added to the page as you scroll.</span>
+-->
+
 <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
 
 To add a grouping:

@@ -120,7 +120,7 @@ The system generates a Business Profile audit log entry when a user does one of 
 
 ### Business Rules
 
-Business Rules are only available for customers who have purchased an Ultimate Workfront Plan. For more information, see [Create and edit business rules](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md). 
+Business Rules are only available for customers who have purchased an Ultimate Workfront package. For more information, see [Create and edit business rules](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md). 
 
 The system generates a Business Rule audit log entry when a user does one of the following:
 
