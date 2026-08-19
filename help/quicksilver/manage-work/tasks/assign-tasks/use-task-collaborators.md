@@ -62,6 +62,24 @@ Some example workflows may include:
 >* When configuring an agent in Copilot Studio, you must set security to **No authentication**.
 >* For information and instructions about creating a Task Collaborator in Workfront, see [Configure a Task Collaborator](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) in the article Configure AI Collaborators.
 
+## Information a Task Collaborator reads
+
+When a Task Collaborator begins work on a task, it automatically reads the following task information as context:
+
+* Task title
+* Task description
+* Comments in the task's update stream
+* Information in any custom form attached to the task
+
+This information is always read and is not configurable as a Workfront setting.
+
+>[!TIP]
+>
+>For best results, we recommend:
+>
+>* Including any background information you want the agent to use directly in the task description or a relevant custom form field.
+>* Making sure the task matches what your agent is instructed to do. For example, if your agent is instructed to translate text from English to French, include the text you want translated in the task description.
+
 ## Task Collaborator start triggers
 
 When a Task Collaborator is assigned to a task, it begins work when any of the following situations are met:
