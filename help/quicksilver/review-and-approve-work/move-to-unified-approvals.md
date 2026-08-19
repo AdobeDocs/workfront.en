@@ -29,8 +29,6 @@ Moving to a version of Workfront that supports Adobe cloud storage also moves yo
 | AI-assisted review | Not available | Automatic brand-compliance checks with [Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) |
 | Reporting | Legacy reporting | Home KPI widgets and [Canvas Dashboards](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) |
 
-
-
 ### What happens to approvals already in progress
 
 In-flight approvals that were created in legacy document approvals will continue to function as they did before the upgrade. However, any new approvals created after the upgrade will use Unified Approvals.
