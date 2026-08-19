@@ -57,21 +57,17 @@ If the intake form includes a Workspace field and a user selects a workspace bef
 
 For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
 
-<!--
-
 ## Updated column headers for dependent connected record fields
 
 >[!NOTE]
 >
->Preview: August 13, 2026
+>Preview: August 20, 2026
 >Production fast release: September 17, 2026
 >Production for everyone: October 15, 2026
 
 We've made visual improvements to the column headers for a dependent connected record field in the table view.
 
 For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
-
--->
 
 ## Introducing the Workfront Planning Solution Architect Skill
 

@@ -11,13 +11,11 @@ This page describes Administrator enhancements made with the Fourth Quarter 2026
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
-<!--
-
 ## Interface improvements to the Actions list
 
 >[!NOTE]
 >
->Preview: August 13, 2026
+>Preview: August 20, 2026
 >Production fast release: September 17, 2026
 >Production for everyone: October 15, 2026
 
@@ -30,8 +28,6 @@ The following enhancements are included:
 * We removed the confirmation message that previously displayed when you saved changes in this area.
 
 For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-
--->
 
 ## Group administrators can manage business profiles
 

@@ -25,21 +25,17 @@ Existing schedules have been updated with end dates to improve reliability and r
 
 For more information, see [Schedule an automatic report delivery](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
-<!--
-
 ## Updated column headers for dependent connected record fields
 
 >[!NOTE]
 >
->Preview: August 13, 2026
+>Preview: August 20, 2026
 >Production fast release: September 17, 2026
 >Production for everyone: October 15, 2026
 
 We've made visual improvements to the column headers for a dependent connected record field in the table view.
 
 For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
-
--->
 
 ## Native reference fields are available for lists and reports
 
