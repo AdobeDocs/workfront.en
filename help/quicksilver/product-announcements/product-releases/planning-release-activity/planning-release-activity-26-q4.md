@@ -76,12 +76,14 @@ For information, see [Submit Adobe Workfront Planning requests to create records
 >Preview: August 10, 2026
 >Production: August 10, 2026
 
-We are making available a new skill, the Workfront Planning Solution Architect, that brings best-practice, agentic guidance for Workfront Planning directly into Claude. Right in the Claude interface, you can now do the following:
+We're releasing a new skill, the Workfront Planning Solution Architect, that brings agentic, best-practice guidance for Workfront Planning directly into Claude:
 
-* Configure a new Planning workspace to match your business requirements, with the Workfront MCP server executing the setup in your environment.
-* Audit an existing configuration for antipatterns at scale.
-* Check usage against recommended limits.
-* Ask questions about Planning.
+* **Configure** new Planning workspaces to spec, with the Workfront MCP server executing setup in your environment.
+* **Audit** existing configurations for antipatterns at scale.
+* **Check usage** against recommended limits (records, connections, hierarchy depth).
+* **Ask questions** about Planning anytime.
+
+Beyond initial setup, the skill supports ongoing governance by catching configuration drift before it causes friction, flagging approaching limits before they become blockers, enforcing consistent standards across every workspace regardless of who configures it, and giving anyone on the team accurate answers without waiting on a specialist. Together, this covers the full lifecycle of setting a workspace up correctly and keeping it that way as usage grows.
 
 For information, see [Skills available for direct install](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md).
 
