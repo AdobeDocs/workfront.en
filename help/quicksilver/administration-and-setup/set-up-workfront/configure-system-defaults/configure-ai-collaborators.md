@@ -195,5 +195,4 @@ You can edit, copy, and delete existing AI Collaborators.
 
 1. In the left navigation, click **AI Collaborators**.
 1. (Conditional) To edit a Collaborator, click the name of the Collaborator you want to edit, make any edits in the Edit Collaborator window, and click **Save**.
-1. (Conditional) To copy a Collaborator, click the Copy icon ![Copy icon](assets/copy-ai-collaborator.png) in the row of the AI Collaborator you want to copy, click the name of the copy, make any edits in the Edit Collaborator window, and click **Save**.
 1. (Conditional) To delete a Collaborator, click the Delete icon ![Delete icon](assets/delete-collaborator-icon.png) in the row of the AI Collaborator you want to delete, then click **Delete**.
