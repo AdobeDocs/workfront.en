@@ -31,7 +31,7 @@ topic_v2:
 
 <!-- Audited: 5/2025 -->
 
-As a resource manager, you can use the Adobe Workfront Workload Balancer to view work items that have not yet been assigned to users as well as assign these items to them.
+As a resource manager, you can use the Adobe Workfront Workload Balancer to view work items that have not yet been assigned to users and Task Collaborators, as well as assign these items to them.
 
 For general information about the Workload Balancer, see [Workload Balancer overview](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 

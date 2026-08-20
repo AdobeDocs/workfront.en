@@ -28,7 +28,7 @@ topic_v2:
 ---
 # Assign work manually using the Workload Balancer
 
-You can manually assign work items to users using the Adobe Workfront Workload Balancer.
+You can manually assign work items to users and Task Collaborators using the Adobe Workfront Workload Balancer.
 
 For general information about assigning work to users using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
