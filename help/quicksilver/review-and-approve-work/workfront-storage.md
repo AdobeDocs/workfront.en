@@ -32,6 +32,7 @@ Moving to a version of Workfront that supports Adobe cloud storage moves *all* e
 
 Before you roll out Adobe cloud storage, make sure the people who manage approvals know what to expect:
 
+* **What happens to existing approvals** Existing legacy approval workflows are affected by this change, whether in progress or completed. For more information, see [Move from legacy document approvals to Unified Approvals](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md).
 * **A new approvals experience** Reviewers and approvers move from the legacy document approval experience to Unified Approvals, which adds multi-stage approvals, parallel review paths, and more. For more information, see the following articles:
 
     * [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)

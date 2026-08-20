@@ -10,7 +10,7 @@ feature: Work Management, Tasks
 
 Task Collaborators are AI Collaborators that can be assigned directly to Workfront tasks, in addition to the existing Reviewer-type AI Collaborator used for document and asset reviews. Like other AI Collaborators, Task Collaborators are configured in the Setup area and assigned to tasks just like a user.
 
-Task Collaborators connect to agents that you have configured, much like an MCP server. 
+Task Collaborators connect to agents that you have configured in Copilot Studio, Claude, or Writer.
 
 For information and instructions about creating a Task Collaborator in Workfront, see [Configure a Task Collaborator](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) in the article Configure AI Collaborators.
 
@@ -58,9 +58,28 @@ Some example workflows may include:
 >[!NOTE]
 >
 >* Specific details about an agent's responsibilities and abilities are configured in the application where the agent is created, not in Workfront. 
+>* The Workfront MCP server does not need to be added to the agent used as a Task Collaborator, and does not need to be connected for the Task Collaborator to work.
 >* Task Collaborators currently support agents created in Copilot Studio, Claude, and Writer.ai.
 >* When configuring an agent in Copilot Studio, you must set security to **No authentication**.
 >* For information and instructions about creating a Task Collaborator in Workfront, see [Configure a Task Collaborator](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) in the article Configure AI Collaborators.
+
+## Information a Task Collaborator reads
+
+When a Task Collaborator begins work on a task, it automatically reads the following task information as context:
+
+* Task title
+* Task description
+* Comments in the task's update stream
+* Information in any custom form attached to the task
+
+This information is always read and is not configurable as a Workfront setting.
+
+>[!TIP]
+>
+>For best results, we recommend:
+>
+>* Including any background information you want the agent to use directly in the task description or a relevant custom form field.
+>* Making sure the task matches what your agent is instructed to do. For example, if your agent is instructed to translate text from English to French, include the text you want translated in the task description.
 
 ## Task Collaborator start triggers
 
