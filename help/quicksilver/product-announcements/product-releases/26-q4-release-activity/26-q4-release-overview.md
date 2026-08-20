@@ -215,8 +215,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Link content and folders from Experience Manager Assets with Adobe cloud storage</a>
-                <p>If your organization uses Adobe cloud storage, you can link individual assets or entire folders from Experience Manager Assets to any Workfront object that supports documents.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Link assets from Experience Manager Assets with Adobe cloud storage</a>
+                <p>If your organization uses Adobe cloud storage, you can link individual assets from Experience Manager Assets to any Workfront object that supports documents.</p>
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>

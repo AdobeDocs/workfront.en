@@ -26,7 +26,7 @@ All media type image formats are now supported for Adobe cloud storage organizat
 
 For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-## Link content and folders from Experience Manager Assets with Adobe cloud storage
+## Link assets from Experience Manager Assets with Adobe cloud storage
 
 >[!NOTE]
 >
@@ -34,8 +34,8 @@ For more information, see [Update work](/help/quicksilver/workfront-basics/updat
 >Production fast release: August 13, 2026
 >Production for everyone: October 15, 2026
 
-If your organization uses Adobe cloud storage, you can link individual assets or entire folders from Experience Manager Assets to any Workfront object that supports documents. Linked content stays in sync automatically: changes made in Experience Manager Assets appear in Workfront, and you can pull in new asset versions without leaving Workfront.
+If your organization uses Adobe cloud storage, you can link individual assets from Experience Manager Assets to any Workfront object that supports documents. Linked content stays in sync automatically: changes made in Experience Manager Assets appear in Workfront, and you can pull in new asset versions without leaving Workfront.
 
 Linking is powered by Content Advisor, so you also get AI Search, smart suggestions, campaign brief analysis and more while selecting content.
 
-For more information, see [Link content and folders from Experience Manager Assets with Adobe cloud storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
+For more information, see [Link content from Experience Manager Assets with Adobe cloud storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
