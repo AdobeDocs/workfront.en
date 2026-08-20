@@ -17,7 +17,7 @@ For a list of all changes available at this point in the Fourth Quarter 2026 rel
 
 >[!NOTE]
 >
->Preview: August 13, 2026
+>Preview: August 20, 2026
 >Production fast release: September 17, 2026
 >Production for everyone: October 15, 2026
 

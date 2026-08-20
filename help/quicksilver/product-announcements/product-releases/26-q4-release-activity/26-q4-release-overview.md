@@ -54,12 +54,12 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Interface improvements to the Actions list</a>
                 <p>The Actions list in the Update Feeds section of the Setup area has an updated look and feel.</p>
             </td>
-            <td><p>August 13, 2026</p></td>
+            <td><p>August 20, 2026</p></td>
             <td><p>September 17, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
- -->  
-      <tr>
+-->
+        <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Group administrators can manage business profiles</a>
                 <p>Group administrators can now create, edit, and delete business profiles for the groups they administer, without requiring System Administrator access.</p>
@@ -268,17 +268,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>September 17, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
-<!--
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Updated column headers for dependent connected record fields</a>
-                <p>Visual improvements have been made to the column headers for a dependent connected record field in the table view.</p>
-            </td>
-            <td><p>August 13, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-        </tr>
--->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Native reference fields are available for lists and reports</a>
