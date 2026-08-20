@@ -122,12 +122,12 @@ We recommend that you do the following before deactivating an unused job role:
 {{step-1-to-setup}}
 
 1. In the left panel, click&#x200B; **[!UICONTROL Job Roles].**
-1. (Optional) In the **[!UICONTROL Filter]** drop-down menu, select **[!UICONTROL Active]** to display only active job roles.
-1. Click the name of the job role that you want to deactivate.
-1. In the **[!UICONTROL Is Active]** drop-down menu, select **[!UICONTROL No]**.
+1. (Optional) In the **[!UICONTROL Filters]** list, select **[!UICONTROL Active]** to display only active job roles.
+1. Select the check box next to the job role you want to deactivate, and click the [!UICONTROL **Edit**] icon [Edit icon](assets/edit-icon.png).
+1. For the **[!UICONTROL Is Active]** field, select **[!UICONTROL No]**.
 
-   ![Deactivate job role](assets/deactivate-job-role-edit-role-box-nwe.png)
+   ![Deactivate job role](assets/edit-job-role.png)
 
-1. Click **[!UICONTROL Save Changes]**.
+1. Click **[!UICONTROL Save]**.
 
    The job role is deactivated and can no longer be assigned to work, associated with layout templates, and so on. For information about all uses of job roles in [!DNL Workfront], see [Job role overview](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
