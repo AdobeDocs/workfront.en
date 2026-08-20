@@ -1,33 +1,12 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Build a table report in a Canvas Dashboard
-description: You can add a table report to a Canvas Dashboard in order to visualize your data in a table format.
+title: Build a pivot table report in a Canvas Dashboard
+description: You can add a pivot table report to a Canvas Dashboard to see aggregated totals for your data in a table format.
 author: Courtney
 feature: Reports and Dashboards
-exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-last-update: 2026-04-01T18:03:50.000Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Xcq8aeqqH-JPYtfmbcf1gld93O6N93O9j0wqohss7oQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-    internal-label: Workfront
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-    internal-label: Administration
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-    internal-label: Approvals
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-    internal-label: Administration
 ---
-# Build a table report in a Canvas Dashboard
+# Build a pivot table report in a Canvas Dashboard
 
 >[!IMPORTANT]
 >
@@ -39,9 +18,9 @@ topic_v2:
 >* Azure
 >* Google Cloud Platform 
 
-You can add a table report to a Canvas Dashboard in order to visualize your data in a table format.  
+You can add a pivot table report to a Canvas Dashboard to see aggregated totals for your data—such as sums, counts, and averages—in a table format.  
 
-![Table report example](assets/table-example-main.png)
+![Pivot table report example](assets/pivot-table-example.png)
 
 ## Access Requirements
 
@@ -62,7 +41,7 @@ You can add a table report to a Canvas Dashboard in order to visualize your data
  <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td> 
-<p>Standard </p> 
+<p>Standard</p> 
 <p>Plan</p> 
    </td> 
    </tr> 
@@ -80,12 +59,11 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Prerequisites
 
-You must create a dashboard before you can build a table report. For more information, see [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
+You must create a dashboard before you can build a pivot table report. For more information, see [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
+## Build a pivot table report in a Canvas Dashboard
 
-## Build a table report in a Canvas Dashboard
-
-There are many configuration options available for building a table report. In this section, we'll walk you through the general process of creating one.
+There are many configuration options available for building a pivot table report. In this section, we'll walk you through the general process of creating one.
 
 {{step1-to-dashboards}}
 
@@ -95,12 +73,19 @@ There are many configuration options available for building a table report. In t
 
 1. In the **Add report** box, select **Create report**.  
 
-1. On the left side, select **Table**. 
+1. On the left side, select **Pivot Table**. 
 
 1. In the upper-right corner, click **Create report**. 
 
 1. (Optional) Follow the steps below to configure the **Details** section: 
+
+    1. Choose the **Root Entity** for the report. 
     
+        >[!NOTE]
+        >
+        > The Root Entity sets which object your fields come from. Once selected, every field selector you use later in this report starts from that object, so you can go straight to the field you want.
+
+
     1. Enter a report **Name**.
 
     1. Enter a report **Description**.
@@ -111,15 +96,25 @@ There are many configuration options available for building a table report. In t
         >
         >If the selected user is deactivated or loses access to the relevant workspaces or record types, the report may display incomplete data or fail to render. 
 
-1. Follow the steps below to configure the **Build table** section:
+1. Follow the steps below to configure the **Metrics** section:
 
-    1. In the left panel, click the **Table columns** ![Build table icon](assets/drilldown-column.png) icon. 
+    1. In the left panel, click the **Show metrics** ![Build KPI icon](assets/build-kpi-icon.png) icon. 
 
-    1. Click **Add column** and then select the field you want to display as a column in the table. The column appears in the preview section on the right.  
+    1. Click **Add metric** and then select the field you want. The field appears as a column in the preview section on the right.
 
-  
+    1. Enter a **Column label**. 
 
-    1. Repeat the above step for each column you want to add. 
+    1. In the **Aggregation type** drop-down, select how the data rolls up for that field: **Count** or **Count Distinct**. The options in this field vary depending on the type of field you selected.
+
+    1. Repeat the above two steps for each metric you want to add. 
+
+1. Follow the steps below to configure the **Segments** section: 
+
+    1. In the left panel, click the **Segments** ![Drilldown group icon](assets/drilldown-group-icon.png) icon.
+
+    1. Click **Add segment** and then select the segment you want. The field appears as a column in the preview section on the right.
+
+    1. Repeat the above two steps for each field you want to add.
 
 1. Follow the steps below to configure the **Filter** section: 
 
@@ -127,23 +122,21 @@ There are many configuration options available for building a table report. In t
 
     1. Select **Edit filter**. 
 
-    1. Click **Add condition** and then specify the field you want to filter by and the modifier that defines what kind of condition the field must meet. The column appears in the preview section on the right.
+    1. Click **Add condition** and then specify the field you want to filter by and the modifier that defines what kind of condition the field must meet.
 
-1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR. 
+    1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR. 
 
-1. Follow the steps below to configure the **Drilldown Group Settings** section: 
+1. Follow the steps below to configure the **Drilldown Column Settings** section: 
 
-    1. In the left panel, click the **Group Settings** ![Group settings icon](assets/drilldown-group-icon.png) icon. 
+    1. In the left panel, click the **Drilldown Columns** ![Drilldown columns icon](assets/drilldown-column.png) icon. 
 
-    1. Click the **Add grouping** button and then select the field you want to create as a grouping. The grouping column appears in the preview section on the right. 
+    1. Click **Add column** and then select the field you want to display as a column in the drilldown table. Repeat this process for each column you want to add.  
 
 1. Click **Save** to create the report and add it to the dashboard. 
 
-## Build a table report example
+## Build a pivot table report example
 
-In this section, we will go over the steps to create a table report that displays pending document approvals. 
-
-For more information on table report examples, see [Create a report dashboard for review and approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+In this section, we will go over the steps to create a pivot table report that summarizes task completion data.
 
 {{step1-to-dashboards}}
 
@@ -153,68 +146,46 @@ For more information on table report examples, see [Create a report dashboard fo
 
 1. In the **Add report** box, select **Create report**.  
 
-1. On the left side, select **Table**. 
+1. On the left side, select **Pivot Table**. 
 
 1. In the upper-right corner, click **Create report**. 
 
 1. Follow the steps below to configure the **Details** section: 
 
-    1. Type _Pending approvals_ in the **Name** field. 
-    1. Type a description in the **Description** field. This text displays as a tooltip next to the chart name. 
+    1. Choose **Task** as the **Root Entity**.
+    1. Type *Task completion summary* in the **Name** field. 
+    1. Type a description in the **Description** field. 
 
-1. Follow the steps below to configure the **Build table** section: 
+1. Follow the steps below to configure the **Metrics** section: 
 
-    1. In the left panel, click the **Table columns** ![Table columns icon](assets/drilldown-column.png) icon.
-    1. Click **Add column**.
-    1. Scroll down and select **Document Approvals** > **Status**.
-    1. Add the following columns:
+    1. In the left panel, click the **Show metrics** ![Build KPI icon](assets/build-kpi-icon.png) icon.
+    1. Click **Add metric**, then select **Name**. Type *Task count* in the **Column label** field. In the **Aggregation type** drop-down, select **Count**.
+    1. Click **Add metric**, then select **Percent Complete**. Type *Average % complete* in the **Column label** field. In the **Aggregation type** drop-down, select **Average**.
+    1. Click **Add metric**, then select **Planned Hours**. Type *Total planned hours* in the **Column label** field. In the **Aggregation type** drop-down, select **Sum**.
 
-    <table>
-    <tr>
-    <td><strong>Project name</strong></td>
-    <td>Document Version > Document > Project > Name</td>
-    </tr>
-    <tr>
-    <td><strong>Document name</strong></td>
-    <td>Document Version > Document > type <em>Name</em> in the search box.</td>
-    </tr>
-    <tr>
-    <td><strong>Document version</strong></td>
-    <td>Document Version > Document > Version</td>
-    </tr>
-    <tr>
-    <td><strong>Deadline</strong></td>
-    <td>Document Approval > Approval Stage > Deadline</td>
-    </tr>
-    <tr>
-    <td><strong>Requested by</strong></td>
-    <td>Document Approval > Approval Stage > Approval Stage Participants* > Requester > type <em>Name</em> in the search box.</td>
-    </tr>
-    <tr>
-    <td><strong>Requested date</strong></td>
-    <td>Document Approval > Approval Stage > Approval Stage Participants* > Created at</td>
-    </tr>
-    <tr>
-    <td><strong>Approver</strong></td>
-    <td>Document Approval > Approval Stage > Approval Stage Participants* > Participant User > type <em>Name</em> in the search box.</td>
-    </tr>
-    </table>
+1. Follow the steps below to configure the **Segments** section: 
 
-
-    *Approval Stage Participants is truncated to _Approval Stage Pa.._
-    
+    1. In the left panel, click the **Segments** ![Drilldown group icon](assets/drilldown-group-icon.png) icon.
+    1. Click **Add segment**, then select **Project** > **Name**.
 
 1. Follow the steps below to configure the **Filter** section: 
-    1. In the left panel, click the **Filter** ![filter tab icon](assets/filter-tab.png) icon.
-    1. Click **Edit Filter**, then **Add condition**.
+
+    1. In the left panel, click the **Filter** ![Filter icon](assets/filter-icon.png) icon.
+    1. Select **Edit filter**, then **Add condition**.
     1. Click into the empty condition filter, then click **Pick a Field**.
     1. Select **Status**.
-    1. Change the operator to **Equal**, then type _pending approval_ in the textbox.
-        ![pending approval table filter example](assets/pending-approval-table-filter.png) 
-    1. (Optional) Add additional filters as described in the **Optional filters** section below.
+    1. Change the operator to **Equal**, then choose *in progress*.
+
+1. Follow the steps below to configure the **Drilldown Column Settings** section: 
+
+    1. In the left panel, click the **Drilldown Columns** ![Drilldown columns icon](assets/drilldown-column.png) icon.
+    1. Click **Add column**, then select **Name**.
+    1. Click **Add column**, then select **Assigned To** > **Name**.
+    1. Click **Add column**, then select **Planned Completion Date**.
+
 1. Click **Save** in the top-right corner of the screen.
 
-## Considerations when building a table report
+## Considerations when building a pivot table report
 
 ### Reports with financial data
 
@@ -228,7 +199,7 @@ This is a known limit, and we plan to address it as quickly as possible.
 
 ### Utilizing the field selector
 
-The **Sections** drop-down in the **Build table** section is designed to narrow down the choices in a field selector to make an object easier to find when building a table report. To start, you would select a base entity object.
+The **Sections** drop-down in the **Build pivot table** section is designed to narrow down the choices in a field selector to make an object easier to find when building a pivot table report. To start, you would select a base entity object.
 
 * **All Sections**: All object types in Workfront and Workfront Planning.
 * **Workfront Objects**: Native Workfront objects.
