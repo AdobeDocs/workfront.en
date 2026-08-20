@@ -104,7 +104,7 @@ There are many configuration options available for building a pivot table report
 
     1. Enter a **Column label**. 
 
-    1. In the **Aggregation type** drop-down, select how the data rolls up for that field: **Count** or **Count Distinct**. The options in this field vary depending on the type of field you selected.
+    1. In the **Aggregation type** drop-down, select how the data rolls up for that field. The options in this field vary depending on the type of field you selected.
 
     1. Repeat the above two steps for each metric you want to add. 
 
