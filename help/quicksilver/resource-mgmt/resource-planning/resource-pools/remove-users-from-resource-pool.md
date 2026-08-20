@@ -26,7 +26,7 @@ topic_v2:
 ---
 # Remove users from resource pools
 
-Although there is no limit to how many users and Task Collaborators you can have in a resource pool, the list of users only displays the first 2000 users, listed alphabetically.
+Although there is no limit to how many users you can have in a resource pool, the list of users only displays the first 2000 users, listed alphabetically.
 
 We recommend that you remove users that have been deactivated or have moved roles or departments, to ensure you always have an accurate list of users in all resource pools.
 

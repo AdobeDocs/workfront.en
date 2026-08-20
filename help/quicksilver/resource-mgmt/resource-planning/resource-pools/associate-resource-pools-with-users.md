@@ -28,7 +28,7 @@ topic_v2:
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: The info about how to add resource pools to users, are duplicated from the articles listed in those sections (Creating Users, etc). I decided to keep the steps here because those articles are too long to rummage through for updating just this one field.)</p>
 -->
 
-Resource pools are collections of users and Task Collaborators that help you manage resources in Adobe Workfront.
+Resource pools are collections of users that help you manage resources in Adobe Workfront.
 
 You must create a resource pool before you can associate it with users.
 
