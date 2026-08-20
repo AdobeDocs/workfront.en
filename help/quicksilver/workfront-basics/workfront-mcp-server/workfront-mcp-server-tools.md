@@ -105,8 +105,8 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
-| Find project by name | `approvals_find_project_by_name` | Looks up Workfront projects by partial name match across the system. | Read |
-| Get projects by owner | `approvals_get_projects_by_owner` | Lists Workfront projects where the calling user is the owner. | Read |
+| Find project by name | `approvals_find_project_by_name` | Removed August 13, 2026. Use `insights_find_id_by_name` instead. This tool looked up Workfront projects by partial name match across the system. | Read |
+| Get projects by owner | `approvals_get_projects_by_owner` | Removed August 13, 2026. Use `insights_find_workfront_data` instead. This tool listed Workfront projects where the calling user was the owner. | Read |
 | Get current user | `approvals_get_current_user` | Removed August 13, 2026. This tool returned the calling user's Workfront identity, including name, user ID, home team name, and home team ID. For similar functionality, see [Get current user](#insights-tools) under Insights tools. | Read |
 | Find user by name | `approvals_find_user_by_name` | Deprecated. Use `insights_search_users` instead. This tool looked up a Workfront user's ID by name (fuzzy or partial match), returning name, ID, email, title, and avatar URL. | Read |
 | Find team by name | `approvals_find_team_by_name` | Deprecated. Use `insights_find_id_by_name` instead. This tool looked up a Workfront team's ID by name (fuzzy or partial match). | Read |
