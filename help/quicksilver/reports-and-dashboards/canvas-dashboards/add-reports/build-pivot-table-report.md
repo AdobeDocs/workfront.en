@@ -18,7 +18,7 @@ feature: Reports and Dashboards
 >* Azure
 >* Google Cloud Platform 
 
-You can add a pivot table report to a Canvas Dashboard to see aggregated totals for your data—such as sums, counts, and averages—in a table format.  
+You can add a pivot table report to a Canvas Dashboard to see aggregated totals for your data—such as sums, counts, and averages—in a table format. Pivot tables are useful when comparing multiple aggregated values or counts against multiple dimensions.
 
 ![Pivot table report example](assets/pivot-table-example.png)
 
@@ -102,6 +102,11 @@ There are many configuration options available for building a pivot table report
 
     1. Click **Add metric** and then select the field you want. The field appears as a column in the preview section on the right.
 
+        >[!NOTE]
+        >
+        > A metric (also called a measure) is a number field you want to add up or total. For example, you might add up all the costs, or count how many tasks there are.
+
+
     1. Enter a **Column label**. 
 
     1. In the **Aggregation type** drop-down, select how the data rolls up for that field. The options in this field vary depending on the type of field you selected.
@@ -114,7 +119,12 @@ There are many configuration options available for building a pivot table report
 
     1. Click **Add segment** and then select the segment you want. The field appears as a column in the preview section on the right.
 
-    1. Repeat the above two steps for each field you want to add.
+        >[!NOTE]
+        >
+        >A segment is the category you use to group your data, like grouping tasks by status or by owner. It's how your metrics get sorted and totaled.
+
+
+    1. Repeat the above two steps to add up to 2 segments.
 
 1. Follow the steps below to configure the **Filter** section: 
 
@@ -153,19 +163,20 @@ In this section, we will go over the steps to create a pivot table report that s
 1. Follow the steps below to configure the **Details** section: 
 
     1. Choose **Task** as the **Root Entity**.
-    1. Type *Task completion summary* in the **Name** field. 
+    1. Type *Task planned vs actual hours by portfolio and project* in the **Name** field. 
     1. Type a description in the **Description** field. 
 
 1. Follow the steps below to configure the **Metrics** section: 
 
     1. In the left panel, click the **Show metrics** ![Build KPI icon](assets/build-kpi-icon.png) icon.
     1. Click **Add metric**, then select **Name**. Type *Task count* in the **Column label** field. In the **Aggregation type** drop-down, select **Count**.
-    1. Click **Add metric**, then select **Percent Complete**. Type *Average % complete* in the **Column label** field. In the **Aggregation type** drop-down, select **Average**.
+    1. Click **Add metric**, then select **Actual hours**. Type *Actual hours* in the **Column label** field. In the **Aggregation type** drop-down, select **Sum**.
     1. Click **Add metric**, then select **Planned Hours**. Type *Total planned hours* in the **Column label** field. In the **Aggregation type** drop-down, select **Sum**.
 
 1. Follow the steps below to configure the **Segments** section: 
 
     1. In the left panel, click the **Segments** ![Drilldown group icon](assets/drilldown-group-icon.png) icon.
+    1. Click **Add segment**, then select **Project** > **Portfolio** > **Name**.
     1. Click **Add segment**, then select **Project** > **Name**.
 
 1. Follow the steps below to configure the **Filter** section: 
@@ -195,7 +206,7 @@ Users with View or Edit access to Financial Data in their access level will stil
 * Users who do see financial data are limited to records they already have permission to view (projects, tasks, issues, etc.). They will not see financial values for records they cannot access.
 * Report creators should exercise caution when including financial data in dashboards and be mindful of who they share dashboards with to prevent unintended access.
 
-This is a known limit, and we plan to address it as quickly as possible.
+This is a known limit, and we plan to address it in the future.
 
 ### Utilizing the field selector
 
@@ -217,12 +228,8 @@ Once the base entity object has been selected, the **Sections** drop-down then u
 
 ![Reportable objects selection](assets/reportable-objects-selection.png)
 
-### Referencing children objects
+### Referencing related objects
 
-Available relationships for additional columns, filter options, and grouping attributes are generally limited to objects higher in the Workfront object hierarchy or otherwise have a single selection on the report's base entity object. There are some exceptions to this, which include the following:
+We limit the access to choosing children objects as segments of a pivot table. Segment options can be attributes of the record itself or other related records that do not represent a 1:many or many:many relationship.
 
-* Project > Tasks
-* Document Approval > Document Approval Stages
-* Document Approval Stages > Document Approval Stage Participants 
-
-When utilizing any of the parent-to-child relationships listed above, you will see a row in the table for each child record connected to the parent object.  
+We also limit access to referencing any parent or child attribute as a metric to reduce the potential for double-counting or double-summarizing values, leading to a misrepresentation of the actual data.
