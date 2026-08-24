@@ -70,13 +70,13 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Edit timesheets
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Timesheets**.
+{{step1-to-timesheets}}
 
    The **All** filter is selected by default which displays all the timesheets that you have access to view.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+   ![Timesheets list with one timesheet selected](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (Optional) Click the **search** icon ![](assets/search-icon.png) and type a keyword and search for a specific timesheet. For example, you can search for a timesheet time frame or owner name. 
+1. (Optional) Click the **search** icon ![Search icon](assets/search-icon.png) and type a keyword and search for a specific timesheet. For example, you can search for a timesheet time frame or owner name. 
 
 1. (Optional) Do one of the following to update the filter in the list of timesheets:
 
@@ -88,9 +88,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
      This applies the My Timesheet Approvals or the My&nbsp;Timesheet filters to the list of timesheets.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![My timesheets filter buttons on the Timesheets list page](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Click the Filter icon ![](assets/filter-nwepng.png) to apply a different filter, or create a new one. For information about creating or updating filters, see [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Click the Filter icon ![Filter icon](assets/filter-nwepng.png) to apply a different filter, or create a new one. For information about creating or updating filters, see [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -102,7 +102,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >   
    >
 
-1. (Optional) Click the**View** ![](assets/view-icon.png) or **Grouping** ![](assets/grouping.png) icons to apply a different view or grouping or to create a new one.
+1. (Optional) Click the**View** ![View icon](assets/view-icon.png) or **Grouping** ![Grouping icon](assets/grouping.png) icons to apply a different view or grouping or to create a new one.
 
    For information about creating filters, views, or groupings, see the following articles:
 
@@ -110,7 +110,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    * [Create or edit views in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 
    * [Create groupings in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Select one or several timesheets, then click the **Edit** icon ![](assets/edit-icon.png) at the top of the timesheet list. 
+1. Select one or several timesheets, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) at the top of the timesheet list. 
 1. View or specify the following information:
 
    <table style="table-layout:auto"> 

@@ -78,11 +78,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Delete timesheets in a list
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Click **Timesheets**. The **All** filter is selected by default and it displays all timesheets that you have access to view.
+   The **All** filter is selected by default and it displays all timesheets that you have access to view.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+   ![Timesheets list with one timesheet selected](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Optional) Do one of the following to update the filter in the list of timesheets:
 
@@ -94,21 +94,15 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
      This applies the My Timesheet Approvals or the My&nbsp;Timesheet filters to the list of timesheets.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![My timesheets filter buttons on the Timesheets list page](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Click the Filter icon ![](assets/filter-nwepng.png) to apply a different filter, or create a new one. For information about creating or updating filters, see [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Click the Filter icon ![Filter icon](assets/filter-nwepng.png) to apply a different filter, or create a new one. For information about creating or updating filters, see [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
-   >The My Timesheet Approvals and My&nbsp;Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed the My&nbsp;Timesheet Approvals and the My&nbsp;Timesheets filters from either the List Controls in the Setup area or from your Layout Template.&nbsp;For more information see the following articles:
-   >
-   >   
-   >   
-   >   * [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
-   >   
-   >
+   >The My Timesheet Approvals and My Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed those filters from either the List Controls in the Setup area or from your Layout Template. For more information, see [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Optional) Click the **View** ![](assets/view-icon.png) or **Grouping** ![](assets/grouping.png) icons to apply a different view or grouping or to create a new one.
+1. (Optional) Click the **View** ![View icon](assets/view-icon.png) or **Grouping** ![Grouping icon](assets/grouping.png) icons to apply a different view or grouping or to create a new one.
 
    For information about creating filters, views, or groupings, see the following articles:
 
@@ -116,7 +110,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    * [Create or edit views in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 
    * [Create groupings in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Select one or several timesheets that you want to delete and click  the **Delete**  ![](assets/delete.png) icon  at the top of the list of timesheets.
+1. Select one or several timesheets that you want to delete and click  the **Delete**  ![Delete icon](assets/delete.png) icon  at the top of the list of timesheets.
 
 1. Click **Delete**.
 
@@ -132,9 +126,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Delete a timesheet from the timesheet page
 
-1. Click the [!UICONTROL **Main Menu**] icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+{{step1-to-timesheets}}
+
 1. Click the timesheet you want to delete to open it.
-1. Click the [!UICONTROL **More**] icon ![](assets/more-icon.png) to the right of the timesheet name, then click **Delete**.
+1. Click the [!UICONTROL **More**] icon ![More icon](assets/more-icon.png) to the right of the timesheet name, then click **Delete**.
 
    ![Delete timesheet from timesheet page](assets/delete-timesheet-from-timesheet-page.png)
 1. Click [!UICONTROL **Delete**] to confirm. 
