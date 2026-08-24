@@ -361,6 +361,14 @@ Users with a Standard or Plan license who can edit functionality in one area hav
    <td>System: Preferences</td> 
    <td>Full access</td> 
    <td>No access</td> 
+  <tr> 
+   <td>Change Tracking: Configuration</td> 
+   <td>Full access</td> 
+   <td>No access</td> 
+  <tr> 
+   <td>Change Tracking: Change History List</td> 
+   <td>Full access</td> 
+   <td>Full access</td> 
   </tr> 
  </tbody> 
 </table>
@@ -375,7 +383,7 @@ Users with a Standard or Plan license who can edit functionality in one area hav
   <tr> 
    <th>Area/object</th> 
    <th>Workfront administrator </th> 
-   <th>User with a Plan license and some administrative rights</th> 
+   <th>User with a Standard or Plan license and some administrative rights</th> 
   </tr> 
  </thead> 
  <tbody> 
