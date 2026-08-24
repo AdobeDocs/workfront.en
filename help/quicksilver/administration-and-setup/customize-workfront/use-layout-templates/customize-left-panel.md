@@ -41,7 +41,7 @@ In a layout template, you can customize what users see in the left panel area th
 
 For example, you can determine which of the following items users see in the left panel when viewing a project:
 
-![Left panel of a project](assets/left-panel-in-project.png)
+![Left panel of a project](assets/left-panel-in-project-072326.png)
 
 >[!IMPORTANT]
 >
@@ -152,7 +152,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
      </tr> 
      <tr> 
       <td>[!UICONTROL Projects]</td> 
-      <td>Projects <img src="assets/projects-in-main-menu.png"> in the [!UICONTROL Main Menu] <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>Projects in the [!UICONTROL Main Menu] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projects]</td> 
      </tr> 
      <tr> 

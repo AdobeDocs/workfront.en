@@ -27,13 +27,9 @@ topic_v2:
 ---
 # Manage record comments
 
-<!--
-
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
 
 {{planning-important-intro}}
 
@@ -60,13 +56,28 @@ The right panel of a record displays the following sections:
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p> <p>Any Workflow and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+<p>Any Workfront or Workflow with a Planning package</p> 
+Or
+<p>Any Planning package when purchased as a standalone product</p>
+ 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Contributor or higher</p>
+   <td><p>Workflow Light or higher</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Planning license</p></td> 
+   <td><p>Planning Contributor or higher</p>
+
+   <p><b>NOTE</b></p>
+   <p> Not all customers have the Planning Contributor license</p>
+   </td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
@@ -128,7 +139,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -205,11 +216,22 @@ Old:
    >
    >You cannot add images to a record comment.
 
-
 1. Continue adding comments to the record. 
 
    For more information about updating objects, including Workfront Planning records, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
+1. Click **Submit** to record the comment. 
+
+   The users you tagged in your message receive notifications that there is a new message. 
+   
+   <div class="preview">
+
+   Everyone with View permissions to the record type can see a **New comment** indicator in the table view for the record you added the comment to. 
+
+      ![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+
+   </div>
+  
 1. (Optional) Click the **More** icon ![More menu](assets/more-menu.png) in the upper-right corner of the comment, then click **Delete** to delete the comment. 
 1. (Optional) Click the **Hide Comments** icon ![Hide comments icon](assets/hide-comments-icon.png) to close the right panel. 
 

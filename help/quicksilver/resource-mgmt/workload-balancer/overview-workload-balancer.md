@@ -47,7 +47,7 @@ After project managers plan the work on projects by creating tasks and after res
 
 >[!IMPORTANT]
 >
->You can use the Workload Balancer to assign actual work (tasks and issues) to users. 
+>You can use the Workload Balancer to assign actual work (tasks and issues) to users and Task Collaborators. 
 >
 >You must use the Resource Planner and not the Workload Balancer to estimate job role allocations for your projects, at a high level. For more information about the Resource Planner, see [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
@@ -129,25 +129,21 @@ For information about creating and using filters in the Workload Balancer, see [
      
      For information about updating a user's Time Off calendar, see [Configure personal time off](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-     <!--   
-     <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     <p>(NOTE: Add another bullet for Costs, when this becomes available:</p>   
-     <p>If you want to budget your resources by Cost, you must associate Job Roles with Cost/ Hr. rates. The cost associated with Job Roles assigned to users in your Resource Pools is used to calculate the Budgeted Labor Cost and the Budgeted Cost of the project.For more information about associating job roles with rates, see the article Creating and Managing Job Roles in the new Adobe Workfront experience.For more information about calculating Budgeted Labor Cost, see the article Calculating Budgeted Labor Cost in the new Adobe Workfront experience.For more information about calculating Budgeted Cost, see the article Calculating Budgeted Cost in .) </p>   
-     </div>   
-     -->
-
 * The Workfront administrator must determine how Workfront calculates user availability. They can decide whether Workfront uses the System Default Schedule, or the user's schedule to calculate the time that the user is available to work by adjusting the Resource Management preferences in the Setup area of Workfront. 
   
   For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+* You can assign work to a Task Collaborator in all of the same ways you assign work to a user. The Task Collaborator must exist in Workfront before it can be assigned to tasks.
+
+  For information about creating Task Collaborators, see [Configure a Task Collaborator](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) in the article [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
 ### Best practices for setting up tasks and issues {#best-practices-for-setting-up-tasks-and-issues}
 
 Ensure the following task and issue setup exists before starting assigning work to users in the Workload Balancer:
 
-* Parent tasks are not assigned to users or roles. Parent tasks do not display in the Workload Balancer. 
-* Tasks and issues have a value for Planned Hours which is greater than zero. 
-
-* Tasks and issues have a value for their Duration which is greater than zero. 
+* Parent tasks are not assigned to users or roles. Parent tasks do not display in the Workload Balancer.
+* Tasks and issues have a value for Planned Hours that is greater than zero.
+* Tasks and issues have a value for their Duration that is greater than zero.
 * The Planned Dates of the issues are within the timeline of the project.
 
 ## Before you start to use the Workload Balancer

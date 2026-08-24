@@ -27,12 +27,9 @@ topic_v2:
 ---
 # Manage the calendar view
 
-<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
 
 {{planning-important-intro}}
 
@@ -56,15 +53,29 @@ For information about Adobe Workfront Planning views and how to manage them, see
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p>
-<p>Any Workflow and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>Any Workfront or Workflow with a Planning package</p></li>
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
+   </td> </tr>
+
+   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p> Standard to create and delete views</p>
-   <p>Contributor or higher to update view elements</p>
+   <td><p>Workflow Light or higher</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p> Planning Standard to create and delete views</p>
+   <p>Planning Contributor or higher to update view elements</p>
+   <p><b>NOTE</b><p>
+   <p>Not all customers have Planning Contributor licenses</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
@@ -74,7 +85,6 @@ For information about Adobe Workfront Planning views and how to manage them, see
 
 </tbody> 
 </table> 
-
 For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++ 
@@ -126,7 +136,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -437,11 +447,9 @@ Update the calendar view settings to indicate what and how information displays 
 
     * **Record type**: The color of the record bars in the calendar matches the color of the record type you selected. This is the default option. 
     * **Field values**: The color of the records matches the color of a field that you specify. 
-    * **None**: Records displays in a white bar. 
+    * **None**: Records displays in a white bar. <span class="preview">The None option has been removed from the Preview environment.</span>
 
-    <!--
-    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
-    -->
+    
 
 1. (Conditional) If you selected **Field values** for the record colors, select a field from the **Match the record color to** drop-down menu. 
 
@@ -453,15 +461,13 @@ Update the calendar view settings to indicate what and how information displays 
 
     If you do not have a field with color-coded options for the selected record type, this option is dimmed.
 
-    <!--
-        For July 23: add this note after the last sentence here
-        >[!NOTE]
-        >
-        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
-        >    
-        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
-        -->
-
+   
+    >[!NOTE]
+    >
+    >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+    >    
+    >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        
 
 1. Click **Save**.
 

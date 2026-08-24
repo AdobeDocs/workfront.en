@@ -27,7 +27,7 @@ topic_v2:
 ---
 # Unassign work in the Workload Balancer
 
-You can unassign users from work items in the Assigned Work area of the Adobe Workfront Workload Balancer, or reassign them to other users, roles, or teams.
+You can unassign users from work items in the Assigned Work area of the Adobe Workfront Workload Balancer, or reassign them to other users, Task Collaborators, roles, or teams.
 
 You can unassign users from work items manually, by dragging and dropping, or in bulk. This article describes how to unassign users manually.
 
@@ -75,7 +75,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Unassign work items in the Workload Balancer
 
-You can either unassign items from users and move them to the Unassigned Work area, or reassign them to other users.
+You can either unassign items from users and move them to the Unassigned Work area, or reassign them to other users or Task Collaborators.
 
 To unassign work items from users:
 

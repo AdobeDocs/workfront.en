@@ -58,19 +58,24 @@ You can display Workfront Planning records in Workfront in the following areas o
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p>
-<p>Any Workflow and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+<p>Any Workfront or Workflow with a Planning package</p>
+Or
+<p>Any Planning package when purchased as a standalone product</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
+   </td> 
+  </tr>
   <tr>
    <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>View or higher access to Projects, Programs, and Portfolios</p>  
-   <p>There is no access level configuration for Workfront Planning. </p>
+   <td><p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p> 
+   <p>View or higher access to Projects, Programs, and Portfolios</p> 
 </td>
   </tr>
 <tr>

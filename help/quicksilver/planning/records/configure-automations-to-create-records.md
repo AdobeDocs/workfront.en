@@ -66,15 +66,27 @@ For information about how you create records or objects using an existing automa
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p> <p>Any Workflow and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+<p>Any Workfront or Workflow with a Planning package</p> 
+Or
+<p>Any Planning package when purchased as a standalone package</p>
+
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p>
-   <p>System Administrator to have access to configure automations based on Field value change</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
+   <p>System Administrator to have access to configure automations based on Field value change</p>
+   </td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td> <p>Manage permissions to the workspace and to the record type where you want to create automations. </p>
@@ -135,7 +147,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p> 
    <p>Edit access with access to Create objects in Workfront for the object types that you want to create (projects, portfolios, programs). </p>  
 </td> 
   </tr> 
@@ -199,9 +211,14 @@ You must configure an automation for a record type in Workfront Planning before 
 
       ![Field value change trigger selected](assets/field-value-change-trigger-selected.png)
 
-      >[!TIP]
+      >[!IMPORTANT]
       >
-      >The modifier in each condition changes with the type of fields you select.
+      >* The modifier in each condition changes with the type of fields you select.
+      >* Each condition can reference one or more values. Across all conditions, you can reference a maximum of 5 total values, regardless of how many conditions you create. For example, a configuration with 3 conditions that collectively reference 6 values exceeds the limit. Conditions cannot be nested. If your configuration exceeds the 5-value limit, an inline error appears below the conditions and you cannot save the automation until you reduce the number of referenced values.
+      >
+      >   If you need more conditions than the limit allows, split the work into two separate automations.
+      >
+      >   For more information, see [Using filter groups](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups) in the article Event subscriptions.
 
 1. Update the following fields in the **Actions** section: <!--submitted bugs for these fields - see if they need changing here-->
    * **Actions**: Select the action that you want Workfront to perform when triggering the automation. This is a required field. 

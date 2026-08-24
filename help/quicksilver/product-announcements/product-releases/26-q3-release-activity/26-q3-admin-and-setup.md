@@ -11,13 +11,12 @@ This page describes Administrator enhancements made with the Third Quarter 2026 
 
 For a list of all changes available at this point in the Third Quarter 2026 release cycle, see [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-<!--
 
 ## Change tracking for unified review and approval
 
 >[!NOTE]
 >
->Preview: July 7, 2026
+>Preview: July 10, 2026
 >Production fast release: July 15, 2026
 >Production for everyone: July 16, 2026
 
@@ -33,7 +32,7 @@ Each entry includes the standard tracked fields: date and time, operation, user 
 
 This phase of change tracking does not include MCP events. Those will be part of a future release.
 
-For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 -->
 
@@ -149,7 +148,7 @@ To make it easier for you to see the changes that have occurred in one central l
 
 Previously, Audit logs were available but did not cover objects.
 
-For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## New system preference to convert legacy storage portfolios to Adobe cloud storage
 

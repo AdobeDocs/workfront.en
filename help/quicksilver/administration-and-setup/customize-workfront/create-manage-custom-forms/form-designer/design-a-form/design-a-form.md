@@ -167,11 +167,11 @@ Custom forms are limited to 500 fields. A counter on the bottom left displays ho
 
 * Each custom field API name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form.
 
-* Though it's possible to do so, we recommend that you don't change this API name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront.
+* API names are read-only by default. Though it's possible to do so, we recommend that you don't change this API name after the custom form is used in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront.
 
    For example, if you add the custom field to a report and later change its API name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.
 
-* API names are read-only by default. To make the API name editable, click the **Edit** icon next to the **API Name**. Then, type **confirm** in the confirmation box and click **Rename field**.
+   You could also break existing integrations and calculations that depend on the field's API name.
 
 * We recommend that you don't type an API name that is already used for built-in Workfront fields.
 
@@ -854,8 +854,6 @@ To add an external lookup:
 >* Wait duration between retries: 500ms
 >* Expected response statuses: 2xx
 
-
-
 ### Add internal lookup fields
 
 An internal lookup field allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing. For example, if the user is typing a user name then a list of matching names appears. The internal lookup field type is supported on the following objects:
@@ -873,6 +871,12 @@ An internal lookup field allows users to type the name of an object that exists 
 * Issue
 * Document
 * Location
+
+>[!NOTE]
+>
+>Typeahead fields are no longer available to add to custom forms. You can convert an existing typeahead to an internal lookup by clicking the button in the field options on the right. When you convert, historical data remains on the field and it is used the same way in reports.
+>&nbsp;
+>Also note that if a typeahead field is included in an environment promotion package, the field is automatically converted to an internal lookup when the promotion takes place. For more information on environment promotion, see [Overview of moving objects between Workfront environments (Environment promotion)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 To add an internal lookup:
 
@@ -1052,7 +1056,7 @@ The Workfront Mobile app
 
 ### Add Workfront native fields
 
-You can add Workfront native fields to your custom forms. When the custom form is attached to an object, the field is populated from the object data. For example, the Description field on a custom form attached to a project will pull in the project description. (The field may show "N/A" if no data is available.)
+You can add Workfront native fields to your custom forms. When the custom form is attached to an object, the field is populated from the object data. For example, if the custom field references the Description field and it is on a custom form attached to a project, it pulls in the project description. (The field may show "N/A" if no data is available.)
 
 +++ Expand to see the list of supported native fields.
 
@@ -1165,7 +1169,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
        <p>Use dynamic filter syntax to narrow the list of items in this field based on the value of another field. For example, when you use <code>?portfolioID={portfolio}.{ID}</code> in a Project field filter and a Portfolio native field is on the custom form, the Project field shows only projects that are in the selected portfolio. If the Portfolio field is left blank, then all projects are available in the Project field.</p>
        <p><b>Note</b>:
        <ul> 
-        <li>The filter option is only available when you reference a native typeahead or internal lookup field, such as Portfolio, Company, or Owner.</li>
+        <li>The filter option is only available when you reference a native internal lookup or typeahead field, such as Portfolio, Company, or Owner.</li>
         <li>If you are editing an existing custom form, adding a filter to a native field doesn't remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
         <li>This filter isn't available on mobile devices. If you use the filter for a native field, the field will appear on users' mobile devices unaffected by the filter.</li> 
         </ul></p></td> 

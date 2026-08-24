@@ -80,3 +80,20 @@ For information about parent objects in [!DNL Workfront], see [Understand object
    The object page opens.
 
    If you are looking at a project that is connected to an object in Workfront Planning (for example, a campaign), you can switch between both the Planning and the Workfront object types from the breadcrumb. For more information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+<div class="preview">
+
+## Copy the name and link from a breadcrumb
+
+{{highlighted-preview}}
+
+You can copy an object's name and link together in one action from the breadcrumb path. 
+
+1. Hover over any object in the breadcrumb path.
+1. Click the **[!UICONTROL Copy link]** icon that appears next to the object name.
+
+   ![Copy link icon on a breadcrumb](assets/copy-breadcrumbs.png)
+
+   The object's name and link are copied together. When you paste the copied information, it appears as a clickable link with the object name as the link text.
+
+</div>

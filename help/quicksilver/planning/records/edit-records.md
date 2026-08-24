@@ -29,11 +29,11 @@ topic_v2:
 ---
 # Edit records
 
-<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -63,12 +63,19 @@ For information about creating records, see [Create records](/help/quicksilver/p
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p> <p>Any Workflow and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+<ul> 
+<li><p>Any Workfront or Workflow with a Planning package</p></li>
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow Standard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
    </td> 
   </tr> 
   <tr> 
@@ -130,7 +137,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -372,6 +379,9 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
     >  * Lookup fields from other records that are created by connecting record types. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
     >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date, Formula fields.
 
+1. <span class="preview">(Optional) Click the color circle to the left of the record name to change the record color. </span>
+<span class="preview">Records are automatically assigned colors when they are created. Click **Swatches** or **Custom** to select a new color.</span>
+
 1. (Optional) Click **Add cover** to add a cover image to the record. For more information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md). 
 
 1. (Optional) Hover over the thumbnail icon, then click **More** ![More menu](assets/more-menu.png) > **Edit thumbnail** to add a thumbnail image. For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md). 
@@ -428,6 +438,11 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
     >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date, Formula fields.
 
 1. (Optional) Click the information icon to the right of any field that displays it to view the description of a field. 
+1. <span class="preview">(Optional) Click the color circle to the left of the record name to change the record color. </span>
+<span class="preview">Records are automatically assigned colors when they are created. Click **Swatches** or **Custom** to select a new color.</span>
+
+    ![Color picker box for record details box](assets/color-picker-box-for-record-color-in-details-page.png)
+
 1. (Optional) Click **Add cover** to add a cover image to the record
     
     Or

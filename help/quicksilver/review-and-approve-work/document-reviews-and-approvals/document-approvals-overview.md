@@ -95,6 +95,12 @@ If your organization wants to take advantage of additional Frame.io functionalit
 
 Workfront Proofing functionality is not available with this integration.
 
+## Complete audit trail
+
+<span class="preview">Unified review and approval includes comprehensive audit logging that creates a complete governance trail across Workfront and Frame.io. Change tracking logs capture approval decisions made in the Frame.io viewer and document lifecycle. Each log entry includes source system attribution (Workfront or Frame.io) alongside the standard Workfront audit fields: date and time, log type, user name, action, and object name. Frame.io viewer comments are not included in audit logs.</span>
+
+<span class="preview">Change tracking logs appear in Workfront's Setup area and are available for export. For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).</span>
+
 ## Powerful project management in Workfront
 
 Project coordinators can leverage Workfront's powerful project management capabilities to plan, track, and manage work.
@@ -358,6 +364,14 @@ For a full list of supported file types, see the Frame.io supported file types d
 **Can I share assets externally with stakeholders who don\'t have access to Workfront?**
 
 Yes. Assets can be shared externally. External users are notified via email and will be prompted to create a Frame.io login to access the viewer and participate in the review.
+
+**Can I attach images to comments on a document in Workfront?**
+
+If your organization uses Adobe cloud storage as part of Unified review and approval, you can attach image files directly to comments on a document. Attached images are stored in Adobe cloud storage, and all media type image file formats are supported.
+
+These comments are Workfront-native and are separate from comments in the Frame.io viewer. Images attached to a comment are not accessible in Frame.io, and attaching an image does not add markup to the asset or route it for approval. Non-image file types cannot be attached to a comment.
+
+For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 **Before unified review and approval, is a reviewer just directed to a proof?**

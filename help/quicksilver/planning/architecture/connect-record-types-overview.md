@@ -38,11 +38,18 @@ topic_v2:
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 -->
 
+{{planning-important-intro}}
+
 You can indicate that individual record types relate to one another or to objects from other applications by connecting them. 
 
 This article is an overview of record type connections and describes the types of connections you can establish between record and object types. 
 
 For information about you connect record types, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
+
+>[!IMPORTANT]
+>
+>When connecting Planning record types with object types from other applications you must also have a license and an account for those applications. 
+
 
 ## Considerations about connecting record types
 
@@ -74,6 +81,7 @@ For information about you connect record types, see [Connect record types](/help
             * Original request
 
                 The Original request connection field displays the name of the original request that creates a record after a request form is submitted for Workfront Planning. The request's name is visible in the Subject field of the request in Workfront. 
+
         
         * Adobe Experience Manager:
 

@@ -29,12 +29,10 @@ topic_v2:
 ---
 # Create records
 
-<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
 
 {{planning-important-intro}}
 
@@ -74,14 +72,26 @@ For information about managing records in the table or timeline views, see the f
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p> <p>Any Workflow and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+<ul> 
+<li><p>Any Workfront or Workflow with a Planning package</p></li>
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td> <p>Contribute or higher permissions to the workspace and record type where you want to add records. </p>
@@ -144,7 +154,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p> 
    <p>Edit access in Workfront for the object types that you want to create (projects, programs, and portfolios) as you connect the records to them. </p>  
 </td> 
   </tr> 
@@ -178,9 +188,6 @@ Old:
     >
     >A workspace manager must create a request form for the record type in order for users with View permissions to add records using a request form. Otherwise, View-permission users cannot create records.
 
-<!--
-add this bullet for July 23 release:
-
 <div class="preview">
 
 * All records are automatically color-coded when they are created, regardless of the method you are using to create them. 
@@ -188,7 +195,7 @@ add this bullet for July 23 release:
     For more information, see the section [Color coding records](#color-coding-records) in this article. 
 
 </div>
--->
+
 
 ## Create records using the New record or Request record button from any record type view
 
@@ -293,8 +300,8 @@ For information about editing record information, see [Edit records](/help/quick
         >
         >When you add a new record after the last record in a grouping or subgrouping, Workfront automatically populates the fields included in the groupings. You can manually edit these fields, if needed, and the records might be removed from the grouping.  
 
-    * Click **Shift + Enter** on your keyboard from any column or row of the table. This adds an empty row under the record you start from. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
-    * Hover over a record's primary field, click the **More** menu ![More menu](assets/more-menu.png) to the right of the field, then click **Insert record above** or **Insert record below**. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
+    * Click **Shift + Enter** on your keyboard from any column or row of the table. This adds an empty row under the record you start from.
+    * Hover over a record's primary field, click the **More** menu ![More menu](assets/more-menu.png) to the right of the field, then click **Insert record above** or **Insert record below**. 
 
     ![Adding a new campaign in table row](assets/adding-a-new-campaign-in-table-row.png)
 
@@ -596,8 +603,8 @@ You can configure and activate the automation in the record's page in Workfront 
 For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
 
 <!--
-For July 23
-Move to its own article after preview release in 07/2026:
+Move to its own article after production release in 10/2026:
+-->
 
 <div class="preview">
 
@@ -643,5 +650,3 @@ All records are automatically associated with a color when they are created.
         Once selected, the new color is applied immediately. 
 
 </div>
-
--->

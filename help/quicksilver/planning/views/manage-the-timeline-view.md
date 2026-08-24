@@ -27,11 +27,10 @@ topic_v2:
 ---
 # Manage the timeline view
 
-<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -55,22 +54,36 @@ For information about record views, see [Manage record views](/help/quicksilver/
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p>
+<ul> 
+<li><p>Any Workfront or Workflow with a Planning package</p></li>
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
+   </td> </tr>
 
-<p>Any Workflow and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
-   </td> 
-  <tr> 
+   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p> Standard to create and delete views</p>
-   <p>Contributor or higher to update view elements</p>
+   <td><p>Workflow Light or higher</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p> Planning Standard to create and delete views</p>
+   <p>Planning Contributor or higher to update view elements</p>
+   <p><b>NOTE</b><p>
+   <p>Not all customers have Planning Contributor licenses</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a view</p>  
    <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
   </tr> 
+
 </tbody> 
 </table> 
 
@@ -125,7 +138,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -428,6 +441,7 @@ To add a grouping in the timeline view:
 1. Click one of the suggested fields, or click **Choose a different field**, and search for a different field, then click it when it displays in the list. 
 
     The grouping is applied automatically to the timeline and records display inside the grouping box. 
+1. (Optional) Click **Add condition** to add up to three fields to group by.
 1. (Optional and conditional) Depending on the field type you selected to group by, select one of the following sorting options to sort the groupings either in ascending or descending order:  
 
     * **A -> Z** or **Z -> A** for Select fields, Text fields, Paragraph fields, Connected records or objects, People fields
@@ -444,6 +458,7 @@ To add a grouping in the timeline view:
 
 1. In the **Group records by** box, drag and drop the groupings in the correct order.
 
+
 1.  In the **Layout** area of the **Group records by** box select one of the following options:
 
     * **Stacked**: Groupings display without a frozen left column and fit the width of their items' timelines.
@@ -452,7 +467,9 @@ To add a grouping in the timeline view:
     * **Swimlane**: Groupings display with a frozen left header column that lists the grouped items and the groupings fit the width of the timeline view. 
 
         ![Swimlane grouping in timeline view](assets/swimlane-grouping-in-timeline-view.png)
-
+    <!--
+    1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png)  in the toolbar to open the **Group records by** box, then click **Expand all** to expand all the groupings, or **Collapse all** to collapse all the groupings and manually collapse only the ones you need. </span>
+    -->
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
     Or
@@ -548,20 +565,12 @@ Update the timeline view settings to indicate what and how information displays 
     * **Default (gray)**: The color of the groupings is set to gray. This is the default. 
     * **Field values**: The color of the groupings matches the color of the field you group by. 
     
-        >[!NOTE]
-        >
-        >    * You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
-        >    
-        >    * You cannot match the color to connected records and their lookup fields.
-
-        <!--
-        For July 23: replace the note above with this note for the July 23 release:
-        >[!NOTE]
-        >
-        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
-        >    
-        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
-        -->
+    >[!NOTE]
+    >
+    >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+    >    
+    >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        
 
     For example, multi-select or single-select fields can have color-coded options. 
 
@@ -576,11 +585,7 @@ Update the timeline view settings to indicate what and how information displays 
     * **Record type**: The color of the records match the color of the record type you selected. This is the default option. 
     * **Field values**: The color of the records matches the color of a field that you specify. Continue with step 10. <!--ensure this stays accurate-->
     * **Grouping**: The color of the records matches the color that you indicated for the groupings. This option is dimmed when you have no groupings applied to the timeline view. 
-    * **None**: Records displays in a white bar. 
-
-    <!--
-    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
-    -->
+    * **None**: Records displays in a white bar. <span class="preview">The None option has been removed from the Preview environment.</span>
 
 1. (Conditional) If you selected **Field values** for the record colors, select a field from the **Match the record color to** drop-down menu. 
 

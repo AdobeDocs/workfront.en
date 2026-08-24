@@ -10,6 +10,8 @@ feature: Get Started with Workfront
 
 # Adobe Workfront MCP server tools
 
+{{preview-fast-release-general}}
+
 This article lists the tools that the [!DNL Adobe Workfront] MCP server exposes to a connected AI agentic platform. The platform calls these tools on your behalf when you ask it to find, create, update, or delete Workfront items.
 
 For information about how to use these tools through an AI agentic platform, see [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md). For information about how to set up the connection, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
@@ -41,13 +43,10 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | --- | --- | --- | --- |
 | Find document version by name | `approvals_find_document_version_by_name` | Looks up a document's current version ID by filename. Supports partial matches. | Read |
 | Get document by version ID | `approvals_get_document_by_version_id` | Fetches document details (name, size, upload date, uploader) for a known document version ID. | Read |
-| Get documents by project | `approvals_get_documents_by_project` | Lists documents inside a Workfront project, with each document's current version ID. | Read |
 | Resolve document scope | `approvals_resolve_document_scope` | Expands a project or folder into the list of document version IDs it contains. Supports project, folder, and folder-by-name scopes. | Read |
-| Find a document | `approvals_find_document` | Look up a document by filename or document version ID | Read |
-| Get documents by scope | approvals_get_documents_by_scope | List document inside a project or folder. | Read |
-
-<!--
+| Get documents by scope | `approvals_get_documents_by_scope` | Deprecated. Use `insights_find_workfront_data` instead. This tool listed documents inside a project or folder. | Read |
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
+| Find a document | `approvals_find_document` | Deprecated. Use `insights_find_workfront_data` instead. This tool looked up a document by filename or document version ID. | Read |
 | Send documents to AEM folder* | `approvals_send_documents_to_aem_folder` | Moves one or more Workfront documents to an AEM-linked folder. | Write |
 
 *You must have a native [!DNL Adobe Experience Manager] integration configured in your Workfront instance to use these tools. For more information, see [Overview of Adobe Experience Manager Assets integrations](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
@@ -55,16 +54,24 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 
 *Sending documents to an AEM folder is not yet supported for projects on Adobe cloud storage. Support is expected in a future release.
 
+
+<!--
+| List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
 -->
 
 ### Approval workflows
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
-| Get approval workflow info | `approvals_get_approval_info` | Returns the current approval workflow (stages, participants, status) for a document version. | Read |
-| Create or update approval workflow | `approvals_create_or_update_approval_workflow` | Creates or updates the approval workflow stages for a document version. Supports linear and parallel (graph) stage dependencies. | Write |
-| Create approval from template | `approvals_create_approval_from_template` | Creates an approval workflow on a document using an existing template. | Write |
+| Get approval workflow info | `approvals_get_approval_info` | Returns the current approval workflow (stages, participants, status) for a document version. <span class="preview">For approvals with multiple paths, it shows each path and its stages.</span> | Read |
+| Create or update approval workflow | `approvals_create_or_update_approval_workflow` | Creates or updates the approval workflow stages for a document version. <span class="preview">Supports a single track of stages or multiple parallel review paths.</span> | Write |
+| Create approval from template | `approvals_create_approval_from_template` | Creates an approval workflow on a document using an existing template, <span class="preview">including templates that define multiple parallel paths.</span> | Write |
 | Delete approval stage | `approvals_delete_approval_stage` | Deletes a single stage from an approval workflow by name or position. Only not-started stages can be deleted. | Write |
+| <span class="preview">Add path to approval</span> | <span class="preview">`approvals_add_path_to_approval`</span> | <span class="preview">Adds a new parallel review path to an existing approval workflow, so multiple review tracks run at the same time on a document version.</span> | <span class="preview">Write</span> |
+| <span class="preview">Remove path from approval</span> | <span class="preview">`approvals_remove_path_from_approval`</span> | <span class="preview">Removes a parallel path from an approval workflow. The first path can't be removed, and paths that contain completed or locked stages are protected.</span> | <span class="preview">Write</span> |
+| <span class="preview">Add stage to path</span> | <span class="preview">`approvals_add_stage_to_path`</span> | <span class="preview">Adds a review stage to the end of a specific path within a parallel approval workflow.</span> | <span class="preview">Write</span> |
+| <span class="preview">Remove stage from path</span> | <span class="preview">`approvals_remove_stage_from_path`</span> | <span class="preview">Removes a not-started stage from a specific path in a parallel approval workflow. Each path must keep at least one stage.</span> | <span class="preview">Write</span> |
+| <span class="preview">Reorder stages in path</span> | <span class="preview">`approvals_reorder_stages_in_path`</span> | <span class="preview">Changes the order of stages within a single path of a parallel approval workflow.</span> | <span class="preview">Write</span> |
 
 <!--
 | Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |
@@ -98,13 +105,12 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
-| Get current user | `approvals_get_current_user` | Returns the calling user's Workfront identity, including name, user ID, home team name, and home team ID. | Read |
-| Find user by name | `approvals_find_user_by_name` | Looks up a Workfront user's ID by name (fuzzy or partial match). Returns name, ID, email, title, and avatar URL. | Read |
-| Find team by name | `approvals_find_team_by_name` | Looks up a Workfront team's ID by name (fuzzy or partial match). | Read |
-| Find project by name | `approvals_find_project_by_name` | Looks up Workfront projects by partial name match across the system. | Read |
-| Get projects by owner | `approvals_get_projects_by_owner` | Lists Workfront projects where the calling user is the owner. | Read |
-| Find projects | approvals_find_projects | Look up Workfront projects, optionally filtered by name and/or restricted to projects that the calling user owns. | Read |
-
+| Find project by name | `approvals_find_project_by_name` | Removed August 13, 2026. Use `insights_find_id_by_name` instead. This tool looked up Workfront projects by partial name match across the system. | Read |
+| Get projects by owner | `approvals_get_projects_by_owner` | Removed August 13, 2026. Use `insights_find_workfront_data` instead. This tool listed Workfront projects where the calling user was the owner. | Read |
+| Get current user | `approvals_get_current_user` | Removed August 13, 2026. This tool returned the calling user's Workfront identity, including name, user ID, home team name, and home team ID. For similar functionality, see [Get current user](#insights-tools) under Insights tools. | Read |
+| Find user by name | `approvals_find_user_by_name` | Deprecated. Use `insights_search_users` instead. This tool looked up a Workfront user's ID by name (fuzzy or partial match), returning name, ID, email, title, and avatar URL. | Read |
+| Find team by name | `approvals_find_team_by_name` | Deprecated. Use `insights_find_id_by_name` instead. This tool looked up a Workfront team's ID by name (fuzzy or partial match). | Read |
+| Find projects | `approvals_find_projects` | Deprecated. Use `insights_find_workfront_data` instead. This tool looked up Workfront projects, optionally filtered by name and/or restricted to projects the calling user owns. | Read |
 
 ## Planning tools
 
@@ -200,10 +206,64 @@ Workflow tools are the general-purpose actions the AI agentic platform uses to w
 | --- | --- | --- | --- |
 | Search objects | `workflow_search_any_object` | Searches for Workfront objects with flexible filter parameters, ordering, and pagination. | Read |
 | Create object | `workflow_create_any_object` | Creates a new Workfront object such as a project, task, issue, hour, assignment, program, or portfolio. | Write |
-| Update object | `workflow_update_any_object` | Updates fields on an existing Workfront object. | Write |
+| Update object | `workflow_update_any_object` | Updates an existing object's fields. Also supports moving a task or issue to another project, converting a task or issue into a new project (or an issue into a task), and setting task predecessors (dependencies). | Write |
 | Delete object | `workflow_delete_any_object` | Deletes a Workfront object by ID. Requires explicit user confirmation before the action is performed. | Write |
 | Resolve field names | `workflow_resolve_field_names_any_object` | Converts user-provided field names or labels to the underlying Workfront API field names so the AI agentic platform can build accurate requests. | Read |
 | Read Workflow docs | `workflow_read_workflow_docs` | Loads the Workfront Workflow documentation, including tool usage guides and object-specific operations playbooks. This is the required first step before performing Workflow actions. | Read |
+
+### Update object tool abilities
+
+The Update object tool does more than change field values. It can also relocate work between projects, promote work items into new objects, and wire up task dependencies.
+
+#### Move a task or issue to another project
+
+Moving reparents a work item in place. The object keeps its identity and links, it just lives in a different project or parent task.
+
+>[!NOTE]
+>
+>Setting a Project field in a plain field update does not move a task or issue. Use the move capability instead.
+
+* **Move a task**: Moves the task to a target project, and optionally under a target parent task.
+* **Move an issue**: Moves the issue (request) to a target project.
+
+Example prompts:
+
+* "Move task *Wireframes* to the *Mobile App Redesign* project."
+* "Move this request under the *Q4 Launch* project."
+
+#### Convert an issue or task into a project
+
+>[!NOTE]
+>
+>Converting produces a new object. The source item is consumed in the process.
+
+* **Convert a task to a project**: Creates a new project from the task. You can optionally copy the task's custom data and base the new project on a project template.
+* **Convert an issue (request) to a project**: Creates a new project from the issue. You can optionally copy the issue's custom data, copy its native field values, and apply a project template.
+* **Convert an issue (request) to a task**: Creates a task on an existing project from the issue.
+
+Each conversion returns the newly created object, along with a link so you can open it directly in Workfront.
+
+Example prompts:
+
+* "Convert task *Website Refresh* into a project called *Website Refresh 2026* using our standard template."
+* "Turn this request into a project and copy over its custom fields."
+
+#### Set task predecessors (dependencies)
+
+You can define a task's predecessors. Predecessors support the following dependency types, plus optional lag time:
+
+* **Finish-Start (FS)**: The task starts when its predecessor finishes. (Default)
+* **Start-Start (SS)**: The task starts when its predecessor starts.
+* **Finish-Finish (FF)**: The task finishes when its predecessor finishes.
+* **Start-Finish (SF)**: The task finishes when its predecessor starts.
+
+You can add lag (a delay) or lead (a negative delay) in workdays, chain multiple predecessors on a single task, and reference a task in a different project.
+
+Example prompts:
+
+* "Make *Development* start after *Design* finishes."
+* "Set *QA* to start when *Development* starts, with a two-day lag."
+* "Add task #3 and task #5 as predecessors of *Launch*."
 
 ### Comments
 
@@ -233,6 +293,7 @@ Insights tools retrieve information about Workfront objects.
 | Find Workfront data | `insights_find_workfront_data` | Find, filter, count, sort, and aggregate Workfront data. This is the main query and report tool. | Read |
 | Summarize object | `insights_summarize_object` | Fetch and summarize a single Workfront object by ID. | Read |
 | List entities | `insights_list_entities` | List all Workfront object types available to query. | Read |
+| Search users | `insights_search_users` | Find people in your Workfront instance by name. Type a full or partial name, and get back the top matching users. This can also optionally include AI-collaborator "bots" alongside regular users. | Read |
 
 
 

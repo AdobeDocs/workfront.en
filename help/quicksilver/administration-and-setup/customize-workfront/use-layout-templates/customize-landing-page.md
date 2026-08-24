@@ -33,6 +33,8 @@ topic_v2:
 ---
 # Customize the landing page using a layout template
 
+{{preview-fast-release-general}}
+
 As an Adobe Workfront administrator, you can use a layout template to specify the area you want users to see each time they log in to Workfront.
 
 Users can open one of the following: 
@@ -106,6 +108,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    * Users
    * Blueprints
    * Planning
+   * <span class="preview">Custom Application</span>
+
+     >[!NOTE]
+     >
+     ><span class="preview">Custom applications that have already been added to the Main Menu are available to use as a landing page. They must be created separately before they become available as Main Menu or landing page options. For more information, see [Create a custom application for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).</span>
 
    >[!IMPORTANT]
    >

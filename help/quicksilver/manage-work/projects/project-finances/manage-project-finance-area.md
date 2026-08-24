@@ -82,7 +82,7 @@ Consider the following when viewing or editing information in the Finance area:
 1. Click **Project Details** in the left panel.
 1. Click the **Edit** icon ![Edit icon](assets/edit-icon.png) in the upper-right corner of the Details section, then click **Finance**.
 
-   ![Finance area in details view](assets/finance-area-in-details-view-only-nwe-350x188.png)
+   ![Finance area in details view](assets/finance-area-in-details-view.png)
 
    >[!NOTE]
    >
@@ -148,15 +148,15 @@ Consider the following when viewing or editing information in the Finance area:
 
 ## Edit financial information on a project
 
-As a Project Owner, you can edit the information on the Finance subtab of a project.
+As a Project Owner, you can edit the information in the Finance area of a project.
 
-To edit information on the Project Finance subtab:
+To edit information in the Project Finance area:
 
-1. Go to a project which you are the owner of.
+1. Go to a project that you own.
 
    >[!NOTE]
    >
-   >You need Manage permissions to the project to perform the following steps. We also recommend that only the Project Owner should make changes to the Finance subtab of the project.
+   >You need Manage permissions to the project to perform the following steps. We also recommend that only the Project Owner should make changes to the Finance area of the project.
 
 1. Click **Project Details** in the left panel.
 1. Click the **Edit** icon ![Edit icon](assets/edit-icon.png) in the upper-right corner of the Details section, then click **Finance**. This opens the Finance area for editing.
@@ -166,13 +166,11 @@ To edit information on the Project Finance subtab:
    >
    >Fields are not available for editing if they are automatically calculated by Workfront or if you don't have editing permissions on them.
 
-   ![Edit finance area](assets/edit-finance-area-in-project-details-nwe-350x275.png)
-
-1. Update any of the fields below.
+1. Update any of the fields listed below.
 
    >[!NOTE]
    >
-   >Depending on how your Workfront administrator sets up our Layout Template, the fields in the Project Details section might be different in your environment. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Depending on how your Workfront administrator set up your layout template, the fields in the Project Details section might be different in your environment. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    <table style="table-layout:auto"> 
     <col> 

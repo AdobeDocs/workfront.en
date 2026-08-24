@@ -90,6 +90,40 @@ Content Reviewers can then be assigned to approval templates and individual revi
 
 For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
+## What Content Reviewer evaluates {#what-content-reviewer-evaluates}
+
+The Content Reviewer evaluates content differently depending on the guideline type: Image or Brand voice.
+
+### Image
+
+Content Reviewer evaluates:
+
+* **Composition**: Focal point, background, cropping, creative framing
+* **Lighting & mood**: Use of light, vibrancy, optimism
+* **Diversity & inclusion**: Representation of people (race, gender, age, ability)
+
+Content Reviewer does not evaluate:
+
+* **Logo usage**: Placement, clear space, sizing, correct logo version
+* **Color palette**: Brand color compliance, avoidance of unapproved colors
+* **Typography**: Font family, weights, spacing, alignment
+* **Illustration style**: Consistency with the brand's illustration approach
+* **Accessibility**: Contrast compliance, legibility
+
+### Brand voice
+
+Content Reviewer evaluates:
+
+* **Tone of voice**: Conversational, clear, human, aligned with brand personality
+* **Jargon/formality**: Avoidance of buzzwords, elitism, or excessive formality
+* **Messaging**: Encouragement, honesty, responsible positioning (for example, for AI topics)
+
+Content Reviewer does not evaluate:
+
+* **Legal/compliance**: Trademark usage, disclaimers, localization rules
+
+For guidance on writing brand guidelines that align with what the Content Reviewer evaluates, see [Create and manage brands for the Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
+
 ## Add Content Reviewers to review and approval requests
 
 Users can add Content Reviewers to existing approval templates or to individual review and approval requests. 

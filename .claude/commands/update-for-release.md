@@ -95,13 +95,15 @@ For each article in the user-confirmed list:
 
    For each "up for review" item, provide a one-sentence rationale ("Helps novices plan a longer message," "Helps users who don't see it on later stages know to expand it"). Include only the items the user picks. The default principle is "if the user can see it on screen as they're doing the task, don't restate it" — but the user gets the final call.
 
-5. **Propose edits.** Show before/after excerpts (or a focused diff-style description) for the article, covering: snippet placement, heading renames, new in-Preview content and where it sits, screenshot reference, and any inline `class="preview"` wraps.
+   **When drafting the actual sentences** for either bucket, apply `~/.cursor/skills/writing-quality/SKILL.md` voice and tone rules as you write — a plain field/behavior description, not a changelog entry ("has been removed," "has been added"), and don't restate an unchanged instruction just to attach a preview note to it. Draft it right the first time rather than fixing tone in a later pass.
 
-6. **Wait for explicit approval** ("okay", "apply", "yes") before writing the file.
+5. **Do a final writing-quality pass** on the drafted text before showing it. This is a safety net, not the first time these rules apply — catch anything step 4 missed (redundancy, tone, voice mismatch with surrounding rows).
 
-7. **Validate.** After writing, run `ReadLints` on the file and report any issues. Re-read the changed section to confirm structure.
+6. **Propose edits.** Show before/after excerpts (or a focused diff-style description) for the article, covering: snippet placement, heading renames, new in-Preview content and where it sits, screenshot reference, and any inline `class="preview"` wraps.
 
-8. **Defer prose-level edits** to the **writing-quality** skill. Don't redo voice, capitalization, bold rules, or link patterns here — read `~/.cursor/skills/writing-quality/SKILL.md` if a prose pass is requested.
+7. **Wait for explicit approval** ("okay", "apply", "yes") before writing the file.
+
+8. **Validate.** After writing, run `ReadLints` on the file and report any issues. Re-read the changed section to confirm structure.
 
 ### 5. After each article
 
@@ -179,10 +181,13 @@ Rules:
 
 ## Quality checks before presenting edits
 
+Run this full checklist for **every** article in the session — including secondary articles where you're "just adding a bullet," not only the first/primary one.
+
 - Snippet appears once, on its own line, after the H1, with blank lines above and below.
 - Existing section headings end with `in Production`.
 - New section headings end with `in Preview` and the section is inside `<div class="preview">`.
 - Inline additions are inside `<span class="preview">`.
+- New preview-marked prose reads like a plain field/behavior description, not a changelog entry, and doesn't redundantly restate an unchanged instruction.
 - `ReadLints` is clean on the edited file.
 - The article reads correctly in both states (with the preview content shown and hidden).
 
