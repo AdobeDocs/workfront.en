@@ -17,8 +17,6 @@ You can configure the default locations available to assign as attributes to job
 
 Rate cards allow your organization to easily manage billing rates for projects. For more information, see [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md) and [Define rate attributes](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
-The list of locations is an enhanced list. For more information about enhanced lists and their features, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
