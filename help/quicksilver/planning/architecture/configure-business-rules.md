@@ -80,6 +80,6 @@ Or
 
 1. Go to a record type. 
 1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click Business rules.
-1. 
+
 
 
