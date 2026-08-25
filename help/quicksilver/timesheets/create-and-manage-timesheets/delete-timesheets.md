@@ -110,7 +110,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    * [Create or edit views in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 
    * [Create groupings in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Select one or several timesheets that you want to delete and click  the **Delete**  ![Delete icon](assets/delete.png) icon  at the top of the list of timesheets.
+1. Select one or several timesheets that you want to delete and click the **Delete** icon ![Delete icon](assets/delete.png) at the top of the list of timesheets.
 
 1. Click **Delete**.
 
