@@ -17,4 +17,5 @@ role_v2:
 This section contains the following subsections:
 
 * [Acquire and install apps from Adobe Exchange](/help/quicksilver/app-builder/install-apps-on-exchange.md)
-* [Create custom applications for Workfront with Adobe App Builder](/help/quicksilver/app-builder/install-apps-on-exchange.md)
+* [Create custom applications for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md)
+* [Build App Builder apps with Claude Code skills](/help/quicksilver/app-builder/build-apps-with-claude-code-skills.md)
