@@ -105,7 +105,7 @@ If your organization uses Adobe cloud storage, you will see the new Documents ar
 
 <div class="preview">
 
-### View Frame.io comments in Preview
+### Frame.io comment indicator in Preview
 
 When an approval workflow is created for a document, users can leave comments and make annotations in the Frame.io viewer. These comments are not displayed in the Workfront Comments panel, but you can view them in the Frame.io viewer.
 
@@ -117,8 +117,5 @@ The Comments panel in Workfront displays a message letting you know when new com
 >
 >* If you have a Frame.io Enterprise license, you see this callout for any new comments on the document.
 >* If you don't have a Frame.io Enterprise license, you see this callout only once an approval workflow is created for the document.
-
-
-
 
 </div>
