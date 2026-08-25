@@ -24,6 +24,8 @@ topic_v2:
 ---
 # Add an update to a document
 
+{{highlighted-preview}}
+
 <!--Audited: April, 2024-->
 
 You can add or reply to updates on a document to communicate with collaborators and create an audit trail. For information about adding updates to work items, see see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
@@ -99,3 +101,24 @@ If your organization uses Adobe cloud storage, you will see the new Documents ar
 1. Find the document you need, then click the comment icon ![Comment icon](assets/new-doc-comment-icon.png) to open the Comments panel.
 1. Type your comment in the text box, then click **Submit**.
    ![New document comments panel](assets/comments-new-doc.png)
+
+
+<div class="preview">
+
+### View Frame.io comments in Preview
+
+When an approval workflow is created for a document, users can leave comments and make annotations in the Frame.io viewer. These comments are not displayed in the Workfront Comments panel, but you can view them in the Frame.io viewer.
+
+The Comments panel in Workfront displays a message letting you know when new comments are available in Frame.io.
+
+1. Click **Review comments** to open the document in the Frame.io viewer and view the comments there.
+
+>[!NOTE]
+>
+>* If you have a Frame.io Enterprise license, you see this callout for any new comments on the document.
+>* If you don't have a Frame.io Enterprise license, you see this callout only once an approval workflow is created for the document.
+
+
+
+
+</div>

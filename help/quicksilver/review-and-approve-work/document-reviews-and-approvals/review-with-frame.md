@@ -24,6 +24,8 @@ role_v2:
 ---
 # Review and approve with the Frame.io viewer
 
+{{highlighted-preview}}
+
 You can review and approve documents in Workfront using the Frame.io viewer.
 
 Reviewing Workfront documents with the Frame.io viewer allows you to leave comments or mark up specific sections of a document, image, or video to collaborate efficiently with your team and ensure that feedback is clear and actionable.
@@ -85,7 +87,7 @@ Go the Workfront Home page, find the My Approvals widget, then click **Open revi
     >You may have to add the My Approvals widget to your Home page. For more information, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 1. In Frame.io, use the commenting tools to leave feedback or ask questions.
-    Comments and asset markup is visible only in the Frame.io viewer. Comments do not display in Workfront. For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+    Comments and asset markup is visible only in the Frame.io viewer. Comments do not display in Workfront. <span class="preview">However, the comments panel for the document in Workfront shows a callout with a count of those comments, when a count is available, and a link to open the Frame.io viewer and read them.</span> For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 1. Once you're satisfied with the document, navigate back to the Document Details page in Workfront and mark your review as complete.
 
    ![Mark review complete](assets/mark-review-complete.png)
@@ -108,6 +110,12 @@ Go the Workfront Home page, find the My Approvals widget, then click **Open revi
 
 
 1. In Frame.io, use the commenting tools to leave feedback or ask questions. Comments and asset markup are visible only in the Frame.io viewer. For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+
+    >[!NOTE]
+    >
+    > <span class="preview">In preview, the Comments panel in Workfront displays a message letting you know when new comments are available in Frame.io.</span> 
+
+
 1. Once you're satisfied with the document, you can choose one of the following decisions in the Frame.io viewer:
 
     * **Approve**: The asset does not need changes and is ready for use.
