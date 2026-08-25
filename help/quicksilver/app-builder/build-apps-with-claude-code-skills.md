@@ -3,6 +3,7 @@ title: Build App Builder apps with Claude Code skills
 description: Use a set of Claude Code skills to build custom Adobe Workfront App Builder apps by describing what you want, instead of running the setup and deployment steps yourself.
 author: Becky
 feature: Digital Content and Documents
+hide: true
 ---
 
 # Build App Builder apps with Claude Code skills
@@ -52,4 +53,4 @@ Before you start, make sure you have:
 
    To check whether the Workfront MCP server is already connected, ask [!DNL Claude]: *"Can you see the Workfront MCP resources?"*
 
-  For more information and instructions, see [Connect Workfront to Claude](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-workfront-to-claude).
+  For more information and instructions, see [Connect Workfront to Claude](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-workfront-to-claude)in the article Configure the Adobe Workfront MCP server.
