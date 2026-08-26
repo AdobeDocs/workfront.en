@@ -333,6 +333,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
         </tr>
+           <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">C2PA metadata is preserved on your files</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Adobe Workfront preserves C2PA metadata on documents you upload, store, and download, without modifying it.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>N/A</p></td>
+            <td><p>August 26, 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">Interface update for left navigation panel icons</a><p>[!BADGE Off schedule]{type=Neutral}</p>
