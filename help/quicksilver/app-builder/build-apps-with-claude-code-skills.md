@@ -8,27 +8,24 @@ hide: true
 
 # Build App Builder apps with Claude Code skills
 
-A set of [!DNL Claude Code] skills allows [!DNL Claude] to build custom [!DNL Adobe App Builder] apps for [!DNL Workfront]. This means that you can build one by describing what you want in plain English, without being a developer or writing the setup steps yourself.
+A skill package lets [!DNL Claude] — or any AI coding harness that supports Claude-formatted skills, such as [!DNL Claude Code] or [!DNL OpenAI Codex] — build custom [!DNL Adobe App Builder] apps for [!DNL Workfront]. If you have access to one of these tools, building a UI Extension is as simple as describing what you want in plain English: no developer experience and no manual setup steps required.
 
 Workfront UI Extensions, powered by Adobe App Builder, allow customers and partners to create customized user experiences. UI Extensions allow you to modify your organization's Workfront experience to better meet the needs of the organization, which can enhance efficiency, deliver seamless, connected experiences, and significantly improve user satisfaction, and help your organization realize its unique vision.
 
 For more information about Workfront UI Extensions, see [Create custom applications for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
-## UI Extensibility skills for Claude
+## UI Extensibility skills
 
-Building on [!DNL Adobe App Builder] can be quite technical, which may create barriers if a user is not familiar with the procedure or techniques. The UI Extensibility skills simplify this process by using [!DNL Claude]. You describe the feature you want, and [!DNL Claude] does the hands-on work, such as setting up the tools, creating your project in [!DNL Adobe App Builder], building the app, deploying it to Adobe's cloud, and getting it running inside Workfront. You are involved in the process only when there is a decision or login that requires action from you.
+The UI Extensibility skills put an AI coding harness in the driver's seat. You describe the feature you want, and it does the hands-on work, such as setting up the tools, creating your project in [!DNL Adobe App Builder], building the app, deploying it to Adobe's cloud, and getting it running inside [!DNL Workfront]. You are involved in the process only when there is a decision or login that requires action from you. This article uses [!DNL Claude] as the example, but the instructions apply to any AI coding harness with Claude Skills support.
 
 ## Prerequisites
 
 Before you start, make sure you have:
 
-* **[!DNL Claude Code]** installed.
+* **An AI coding harness that supports Claude Skills**, such as [!DNL Claude Code]. See [What are Skills?](https://support.claude.com/en/articles/12512176-what-are-skills) for the official definition.
 * **Access to the skills**. 
 
-   * You can find the skills at [https://github.com/adobe/skills/blob/main/plugins/app-builder/skills/appbuilder-workfront/SKILL.md](https://github.com/adobe/skills/blob/main/plugins/app-builder/skills/appbuilder-workfront/SKILL.md).
-
-      If this link does not open for you, ask your administrator to give you access.
-   * After downloading the skills, run the following commands to set them up.
+   * The skills are published in Adobe's public skills marketplace ([adobe/skills](https://github.com/adobe/skills)). In [!DNL Claude Code], run:
 
       ```
       /plugin marketplace add adobe/skills
@@ -38,17 +35,12 @@ Before you start, make sure you have:
       /plugin install app-builder@adobe-skills
       ```
 
-* **[!DNL Adobe App Builder] access, with the Developer role**. Your Adobe organization needs an App Builder license, and you must be added as a Developer in it. This is what lets [!DNL Claude] open the Adobe Developer Console and create your project.
+      Once installed, the skill is available as `/app-builder:appbuilder-workfront`. If this fails, ask your administrator to give you access.
+   * Using a different AI coding harness? Point it at the skill file directly: [SKILL.md](https://github.com/adobe/skills/blob/main/plugins/app-builder/skills/appbuilder-workfront/SKILL.md).
 
-  To check that this prerequisite is met:
+* **[!DNL Adobe App Builder] access, with the Developer role**. Your Adobe organization needs an App Builder license, and you must have the Developer (or System Administrator) role for it in Adobe Admin Console. This is what lets [!DNL Claude] open the Adobe Developer Console and create your project — the skill creates the project for you, so you don't need to do this step yourself.
 
-  1. Open the [Adobe Developer Console](https://developer.adobe.com/console).
-  1. Confirm the organization shown in the top-right corner is correct.
-  1. Click **Create new project** > **Create project from template**.
-  1. Check whether **App Builder** appears in the list.
-
-     * If you see **App Builder** in the list, you have access.
-     * If there's no **Create project from template** option, or no **App Builder** option, you don't have access yet. Ask your Workfront or Adobe admin to add you as a Developer (in the Adobe Admin Console > Users > Developers) and confirm your organization has an App Builder license.
+  If you're not sure whether you have this access, ask your Workfront or Adobe admin to confirm your organization has an App Builder license and that you're assigned the Developer role for it (Adobe Admin Console > Products > App Builder > Users > Developers). For the exact steps admins use to grant this role, see [Set up access, environment, and tools](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/set-up) in the App Builder documentation.
 * **The Workfront MCP server connected**, so [!DNL Claude] uses the real Workfront API instead of guessing at data types, fields, and commands. 
 
    To check whether the Workfront MCP server is already connected, ask [!DNL Claude]: *"Can you see the Workfront MCP resources?"*
