@@ -261,6 +261,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Pivot table reports in Canvas Dashboards</a>
+                <p>The new pivot table report type in Canvas Dashboards aggregates data with accurate, complete roll-ups, with drill-down into underlying records.</p>
+            </td>
+            <td><p>August 27, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Enforcing end dates for scheduled reports</a>
                 <p>Scheduled reports now require an end date to prevent indefinite delivery, with automatic deactivation once a schedule's end date passes.</p>
             </td>

@@ -38,13 +38,11 @@ There are new visual indicators when you drag and drop multiple rows in the tabl
 
 For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-<!--
-
 ## Collapse and expand all groupings in the timeline view
 
 >[!NOTE]
 >
->Preview: August 13, 2026
+>Preview: August 27, 2026
 >Production fast release: September 17, 2026
 >Production for everyone: October 15, 2026
 
@@ -52,7 +50,19 @@ Timeline views now include Collapse all and Expand all options for grouped timel
 
 For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
--->
+## See full group names and resize the grouping panel in the timeline view
+
+>[!NOTE]
+>
+>Preview: August 27, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+In Timeline view, hovering over a truncated group label now shows the full text in a tooltip, in both the Swimlane and Stacked grouping display. Non-truncated labels show no tooltip.
+
+The grouping left panel in the Swimlane display is now resizable by dragging its divider. The view is updated in real time, which is consistent with the table view. Each user's panel width is saved across sessions, with a default width for first-time users.
+
+For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Route the submitted request object to the correct workspace when using global record types
 
