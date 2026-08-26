@@ -80,7 +80,7 @@ For more information, see [Build a KPI report](/help/quicksilver/reports-and-das
 
     1. Click **Select field**.  
 
-    1. Locate and select the **Document approval** folder.
+    1. Locate and select the **Approval** folder.
 
     1. Select **Status**.
 
@@ -122,7 +122,7 @@ For more information, see [Build a KPI report](/help/quicksilver/reports-and-das
 
     1. Click **Select field**.  
 
-    1. Locate and select the **Document approval** folder.
+    1. Locate and select the **Approval** folder.
 
     1. Select **Status**.
 
@@ -173,7 +173,7 @@ For more information, see [Build a KPI report](/help/quicksilver/reports-and-das
 
     1. Click **Select field**.  
 
-    1. Locate and select the **Document approval** folder.
+    1. Locate and select the **Approval** folder.
 
     1. Select **Status**.
 
@@ -223,7 +223,7 @@ For more information, see [Build a KPI report](/help/quicksilver/reports-and-das
 
     1. Click **Select field**.  
 
-    1. Locate and select the **Document approval stage** folder.
+    1. Locate and select the **Approval stage** folder.
 
     1. Select **Deadline**.
 
@@ -276,7 +276,7 @@ For more information, see [Build a KPI report](/help/quicksilver/reports-and-das
 
     1. In the **Chart type** drop-down menu, leave **Bar** selected. 
     1. In the **Bar type** drop-down menu, leave **Simple** selected.
-    1. Click **Update field** for the **Bottom (X) axis**, then select **Document Approval** > **Status**. 
+    1. Click **Update field** for the **Bottom (X) axis**, then select **Approval** > **Status**. 
     1. Set the **Aggregation type** to **Count**. 
     1. Click **Update field** for the **Left (Y) axis**, then select **Status**. 
 1. Follow the steps below to configure the **Filter** section: 
@@ -311,9 +311,9 @@ For more information, see [Build a KPI report](/help/quicksilver/reports-and-das
 
     1. In the **Chart type** drop-down menu, leave **Bar** selected. 
     1. In the **Bar type** drop-down menu, leave **Simple** selected.
-    1. Click **Update field** for the **Bottom (X) axis**, then select **Document Approval** > **Document Version** > **Version**. 
+    1. Click **Update field** for the **Bottom (X) axis**, then select **Approval** > **Document Version** > **Version**. 
     1. Set the **Aggregation type** to **Count**. 
-    1. Click **Update field** for the **Left (Y) axis**, then select **Document Approval** > **Document Version** > **Document** > **Name**. 
+    1. Click **Update field** for the **Left (Y) axis**, then select **Approval** > **Document Version** > **Document** > **Name**. 
 
 1. Follow the steps below to configure the **Filter** section: 
     1. In the left panel, click the **Filter** ![filter tab icon](assets/filter-tab.png) icon.
@@ -358,7 +358,7 @@ For more information on building a table report, see [Build a table report](/hel
 
     1. In the left panel, click the **Table columns** ![Table columns icon](assets/drilldown-column.png) icon.
     1. Click **Add column**.
-    1. Scroll down and select **Document Approval** > **Status**.
+    1. Scroll down and select **Approval** > **Status**.
     1. Add the following columns:
 
     <table>
@@ -376,19 +376,19 @@ For more information on building a table report, see [Build a table report](/hel
     </tr>
     <tr>
     <td><strong>Deadline</strong></td>
-    <td>Document Approval > Approval Stages > Deadline</td>
+    <td>Approval > Approval Stages > Deadline</td>
     </tr>
     <tr>
     <td><strong>Requested by</strong></td>
-    <td>Document Approval > Approval Stages > Approval Stage Participants* > Requester > type <em>Name</em> in the search box.</td>
+    <td>Approval > Approval Stages > Approval Stage Participants* > Requester > type <em>Name</em> in the search box.</td>
     </tr>
     <tr>
     <td><strong>Requested date</strong></td>
-    <td>Document Approval > Approval Stages > Approval Stage Participants* > Created at</td>
+    <td>Approval > Approval Stages > Approval Stage Participants* > Created at</td>
     </tr>
     <tr>
     <td><strong>Approver</strong></td>
-    <td>Document Approval > Approval Stages > Approval Stage Participants* > Participant User > type <em>Name</em> in the search box.</td>
+    <td>Approval > Approval Stages > Approval Stage Participants* > Participant User > type <em>Name</em> in the search box.</td>
     </tr>
     </table>
 
@@ -454,7 +454,7 @@ To view more specific information depending on your use case, you can add additi
 
     1. In the left panel, click the **Table columns** ![Table columns icon](assets/drilldown-column.png) icon.
     1. Click **Add column**.
-    1. Scroll down and select **Document Approvals** > **Status**.
+    1. Scroll down and select **Approvals** > **Status**.
     1. Add the following columns:
 
         <table>
@@ -472,19 +472,19 @@ To view more specific information depending on your use case, you can add additi
         </tr>
         <tr>
         <td><strong>Deadline</strong></td>
-        <td>Document > Approval Stages > Deadline</td>
+        <td>Approval > Approval Stages > Deadline</td>
         </tr>
         <tr>
         <td><strong>Requested by</strong></td>
-        <td>Document > Approval Stages > Approval Stage Participants* > Requester > type <em>Name</em> in the search box.</td>
+        <td>Approval > Approval Stages > Approval Stage Participants* > Requester > type <em>Name</em> in the search box.</td>
         </tr>
         <tr>
         <td><strong>Requested date</strong></td>
-        <td>Document > Approval Stages > Approval Stage Participants* > Created at</td>
+        <td>Approval > Approval Stages > Approval Stage Participants* > Created at</td>
         </tr>
         <tr>
         <td><strong>Approver</strong></td>
-        <td>Document > Approval Stages > Approval Stage Participants* > Participant User > type <em>Name</em> in the search box.</td>
+        <td>Approval > Approval Stages > Approval Stage Participants* > Participant User > type <em>Name</em> in the search box.</td>
         </tr>
         </table>
 
