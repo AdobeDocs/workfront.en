@@ -69,7 +69,10 @@ Or
 
 ## Considerations when configuring business rules
 
-* You can configure rules for when records can be edited or deleted. 
+* You can configure rules for when records can be edited or deleted, depending on conditions you define. 
+
+   For example, you can create conditions for requiring certain fields to have a value. If the value is missing from those fields, users cannot edit or delete that record. 
+* You cannot add business rules to global record types in their primary or secondary workspaces. 
 * You cannot configure rules for when records are created. Everyone with Manage permissions to the record type can create records.
 * You can create a condition for your business rule that references all field types except for the following:  
     * Formula fields 

@@ -464,11 +464,15 @@ To add a grouping in the timeline view:
     * **Stacked**: Groupings display without a frozen left column and fit the width of their items' timelines.
 
         ![Stacked grouping in timeline view](assets/stacked-grouping-in-timeline-view.png)
-    * **Swimlane**: Groupings display with a frozen left header column that lists the grouped items and the groupings fit the width of the timeline view. 
+    * **Swimlane**: Groupings display with a frozen left panel that lists the grouped items and the groupings fit the width of the timeline view. 
 
         ![Swimlane grouping in timeline view](assets/swimlane-grouping-in-timeline-view.png)
+
+    Groupings are applied immediately. 
     <!--
     1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png)  in the toolbar to open the **Group records by** box, then click **Expand all** to expand all the groupings, or **Collapse all** to collapse all the groupings and manually collapse only the ones you need. </span>
+    1. <span class="preview">(Optional and conditional) In the swimlane display, drag and drop the left panel separator to adjust its width. Each user's panel width is saved across sessions, with a default width for first-time users.</span>
+    1. <span class="preview">(Optional) For long grouping names, hover over a grouping's line to see the full name of the grouping in a tooltip.</span>
     -->
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
