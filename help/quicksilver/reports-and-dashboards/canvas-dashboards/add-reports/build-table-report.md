@@ -80,7 +80,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Prerequisites
 
-You must create a dashboard before you can build a table report. 
+You must create a dashboard before you can build a table report. For more information, see [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
 
 ## Build a table report in a Canvas Dashboard
@@ -89,13 +89,9 @@ There are many configuration options available for building a table report. In t
 
 {{step1-to-dashboards}}
 
-1. In the left panel, click **Canvas Dashboards**. 
+1. In the left panel, click **Canvas Dashboards**, then click the name of the dashboard you want to add the report to. 
 
-1. Click **New Dashboard** in the upper-right corner.  
-
-1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**.  
-
-1. Click **Create**. 
+1. Click **Add report** in the upper-right corner of the page. 
 
 1. In the **Add report** box, select **Create report**.  
 
@@ -151,13 +147,9 @@ For more information on table report examples, see [Create a report dashboard fo
 
 {{step1-to-dashboards}}
 
-1. In the left panel, click **Canvas Dashboards**. 
+1. In the left panel, click **Canvas Dashboards**, then click the name of the dashboard you want to add the report to. 
 
-1. Click **New Dashboard** in the upper-right corner.  
-
-1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**.  
-
-1. Click **Create**. 
+1. Click **Add report** in the upper-right corner of the page. 
 
 1. In the **Add report** box, select **Create report**.  
 
@@ -232,7 +224,7 @@ Users with View or Edit access to Financial Data in their access level will stil
 * Users who do see financial data are limited to records they already have permission to view (projects, tasks, issues, etc.). They will not see financial values for records they cannot access.
 * Report creators should exercise caution when including financial data in dashboards and be mindful of who they share dashboards with to prevent unintended access.
 
-This is a known limit, and we plan to address it as quickly as possible.
+This is a known limit, and we plan to address it in the future.
 
 ### Utilizing the field selector
 
