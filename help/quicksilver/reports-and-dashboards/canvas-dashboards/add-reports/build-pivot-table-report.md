@@ -233,3 +233,4 @@ Once the base entity object has been selected, the **Sections** drop-down then u
 We limit the access to choosing children objects as segments of a pivot table. Segment options can be attributes of the record itself or other related records that do not represent a 1:many or many:many relationship.
 
 We also limit access to referencing any parent or child attribute as a metric to reduce the potential for double-counting or double-summarizing values, leading to a misrepresentation of the actual data.
+

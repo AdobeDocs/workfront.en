@@ -255,3 +255,4 @@ Available relationships for additional columns, filter options, and grouping att
 * Document Approval Stages > Document Approval Stage Participants 
 
 When utilizing any of the parent-to-child relationships listed above, you will see a row in the table for each child record connected to the parent object.  
+
