@@ -13,6 +13,44 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Collapse and expand all groupings in the timeline view
+
+>[!NOTE]
+>
+>Preview: August 27, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+Timeline views now include Collapse all and Expand all options for grouped timelines. This makes it easier to navigate large roadmap views: you can quickly reduce the view to grouping headings, then expand only the sections you want to review.
+
+For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+## See full group names and resize the grouping panel in the timeline view
+
+>[!NOTE]
+>
+>Preview: August 27, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+In the timeline view, hovering over a truncated group label now shows the full text in a tooltip, in both the Swimlane and Stacked grouping display. Non-truncated labels show no tooltip.
+
+The grouping left panel in the Swimlane display is now resizable by dragging its divider. The view is updated in real time, which is consistent with the table view. Each user's panel width is saved across sessions, with a default width for first-time users.
+
+For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+## Improved calendar performance for large record sets in the week view
+
+>[!NOTE]
+>
+>Preview: August 27, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+The calendar week view now displays only the first 1,000 records across the visible week period. If there are more records, the following message displays at the bottom of the calendar indicating that additional records are available: "There are more records. Load more."
+
+For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+
 ## Updated column headers for dependent connected record fields
 
 >[!NOTE]
@@ -37,22 +75,6 @@ For information, see [Manage dependent connections](/help/quicksilver/planning/a
 There are new visual indicators when you drag and drop multiple rows in the table view. A more prominent plus sign and a number indicator now show how many rows are selected for the drag-and-drop action.
 
 For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
-
-<!--
-
-## Collapse and expand all groupings in the timeline view
-
->[!NOTE]
->
->Preview: August 13, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
-
-Timeline views now include Collapse all and Expand all options for grouped timelines. This makes it easier to navigate large roadmap views: you can quickly reduce the view to grouping headings, then expand only the sections you want to review.
-
-For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
-
--->
 
 ## Route the submitted request object to the correct workspace when using global record types
 
