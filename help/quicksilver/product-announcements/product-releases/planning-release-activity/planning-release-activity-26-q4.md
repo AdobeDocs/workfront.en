@@ -39,6 +39,18 @@ The grouping left panel in the Swimlane display is now resizable by dragging its
 
 For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
+## Improved calendar performance for large record sets in the week view
+
+>[!NOTE]
+>
+>Preview: August 27, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+The calendar week view now displays only the first 1,000 records across the visible week period. If there are more records, the following message displays at the bottom of the calendar indicating that additional records are available: "There are more records. Load more."
+
+For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+
 ## Updated column headers for dependent connected record fields
 
 >[!NOTE]
