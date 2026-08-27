@@ -1,15 +1,15 @@
 ---
-title: Workflow Optimization Agent (AI Assistant)
+title: CX Coworker prompts and best practices
 content-type: reference
-description: Workflow Optimization Agent is a next-generation AI Assistant with broad capabilities.
+description: Learn about the best practices for using Coworker in Workfront and view a list of prompt examples.
 author: Becky
 feature: Get Started with Workfront
 ---
-# Workflow Optimization Agent (AI Assistant)
+# CX Coworker prompts and best practices
 
-With Workflow Optimization Agent (WOA), you can use natural language to interact with Workfront Workflow and Workfront Planning. 
+With CX Coworker, you can use natural language to interact with Workfront Workflow and Workfront Planning. 
 
-Workflow Optimization Agent is part of the Adobe Experience Cloud Agent Orchestrator.
+Coworker is part of the Adobe Experience Cloud Agent Orchestrator.
 
 For more information on Agent Orchestrator, see [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator).
 
@@ -37,7 +37,7 @@ For more information on Agent Orchestrator, see [Adobe Experience Platform Agent
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td><p>You must have the appropriate permissions to interact with any object through the Workfront Optimization Agent.</p> <p>For example, to receive information about a project through the Workfront Optimization Agent, you must have at least View permission to that project.</p></td>
+   <td><p>You must have the appropriate permissions to interact with any object through Coworker.</p> <p>For example, to receive information about a project through Coworker, you must have at least View permission to that project.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -57,13 +57,13 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Considerations
 
-Consider the following constraints when using Workflow Optimization Agent:
+Consider the following constraints when using CX Coworker:
 
 ### Reversibility
 
 Some actions can be reversed. For example, if an object is created, that creation can be reversed. 
 
-However, some actions, such as object deletion, can **not** be reversed. We recommend keeping this in mind when performing actions on your data through Workflow Optimization Agent.
+However, some actions, such as object deletion, can **not** be reversed. We recommend keeping this in mind when performing actions on your data through Coworker.
 
 ### Data / object coverage constraints
 
@@ -71,13 +71,13 @@ However, some actions, such as object deletion, can **not** be reversed. We reco
 
 ### Interaction / UX limitations
 
-* Workflow Optimization Agent does not currently "learn" long-term from an individual user's style or preferences. Every chat uses only the current conversation and product knowledge.
+* CX Coworker does not currently "learn" long-term from an individual user's style or preferences. Every chat uses only the current conversation and product knowledge.
 * Conversation context is kept within a single chat session. Opening a new page or closing the assistant resets the conversation history.
-* If approval procedures live in an outside application like Confluence or SharePoint, and are only linked via URL fields, Workflow Optimization Agent does not currently fetch and reason over those pages.
+* If approval procedures live in an outside application like Confluence or SharePoint, and are only linked via URL fields, Coworker does not currently fetch and reason over those pages.
 
 ### Data storage / Customer managed keys
 
-* Because Workflow Optimization Agent is part of the Adobe Experience Platform Agent Orchestrator, data from your interactions with Workflow Optimization Agent are stored in Adobe Experience Platform, not in Workfront. Therefore, this data is not covered by Workfront Customer Managed Keys (BYOK) agreements.
+* Because CX Coworker is part of the Adobe Experience Platform Agent Orchestrator, data from your interactions with Coworker are stored in Adobe Experience Platform, not in Workfront. Therefore, this data is not covered by Workfront Customer Managed Keys (BYOK) agreements.
                                              
 ## General-use foundational AI skills
 
@@ -91,7 +91,7 @@ For best practices and prompts for these general-use skills, see [AI Assistant p
 
 ### Product knowledge
 
-Workflow Optimization Agent can provide instructions or reference information pulled from the Workfront documentation. 
+CX Coworker can provide instructions or reference information pulled from the Workfront documentation. 
 
 For more information about pulling information from Workfront documentation, see [Get help from AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
 
@@ -99,7 +99,7 @@ Example: How do I change task duration type?
 
 ### Project, task, and issue summarization
 
-Workflow Optimization Agent can summarize project, tasks, or issues<!--, or documents--> that have been uploaded to Workfront.
+CX Coworker can summarize project, tasks, or issues<!--, or documents--> that have been uploaded to Workfront.
 
 For more information about project, task, and issue summaries, see [Summarize using AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
 
@@ -109,7 +109,7 @@ Example: Summarize the project called Fall Campaign 2026.
 
 ### Locate work items
 
-Workflow Optimization Agent can find work items like projects, tasks, and issues
+CX Coworker can find work items like projects, tasks, and issues
 
 Example: Find all tasks assigned to me that are due this week.
 
@@ -139,7 +139,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 -->
 
-## Workflow Optimization Agent in Workfront
+## CX Coworker in Workfront
 
 * [Project, task, and issue information](#project-task-and-issue-information)
 * [Project and work management](#project-and-work-management)
@@ -147,7 +147,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 ### Project, task, and issue information
 
-WOA can give you information about project, tasks, and issues, including summaries and project health.
+CX Coworker can give you information about project, tasks, and issues, including summaries and project health.
 
 See example prompts for document and asset approvals in the following areas:
 
@@ -186,7 +186,7 @@ See example prompts for document and asset approvals in the following areas:
 
 ### Project and work management
 
-You can use WOA to create and manage projects, including tasks and assignments. 
+You can use CX Coworker to create and manage projects, including tasks and assignments. 
 
 See example prompts for project and work management in the following areas:
 
@@ -251,11 +251,11 @@ You can create, update, and delete user or job role assignments.
 
 ### Content and Approvals
 
-Workflow Optimization Agent can help manage document and asset approvals in Workfront. 
+CX Coworker can help manage document and asset approvals in Workfront. 
 
 Consider the following when working with document and asset approvals:
 
-* Content approvals must be enabled for your organization before you can use this functionality in WOA.
+* Content approvals must be enabled for your organization before you can use this functionality in Coworker.
 * AI cannot approve or reject on behalf of humans. Decisions rely on users, with the exception of the Workfront AI Reviewer.
 
    For more information on the Workfront AI Reviewer, see [Get started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
@@ -298,7 +298,7 @@ See example prompts for document and asset approvals in the following areas:
 * Update the 'Creative Review' template by removing Rick Kuvec and adding Karen Sterling to stage 2.
 
 
-## WOA in Workfront Planning
+## CX Coworker in Workfront Planning
 
 ### Work with Planning records
 
@@ -317,28 +317,28 @@ See example prompts for document and asset approvals in the following areas:
 * Can you delete record ID Rc123abc456?
 * Duplicate the Q1 Campaign record
 * Can you copy this campaign to create a new one?
-* Make a copy of the Holiday Promotion campaign
+* Make a copy of the Holiday Promotion campaign
 * Restore the campaign I accidentally deleted
 * Can you recover the deleted project record?
 * I accidentally deleted a record, can you restore it?
 
 #### Link records to other records
 
-* Link the Summer Campaign record to the Q2 Initiative
-* Can you connect this product to the related marketing campaigns?
-* I need to associate these three leads with the Enterprise Account record
+* Link the Summer Campaign record to the Q2 Initiative
+* Can you connect this product to the related marketing campaigns?
+* I need to associate these three leads with the Enterprise Account record
 
 #### Edit, update, or append a field to a record
 
-* Update the budget field in the Summer Campaign to $75,000
-* an you change the status of this project record to Completed?
-* Add John Doe to the team members field for this initiative
+* Update the budget field in the Summer Campaign to $75,000
+* an you change the status of this project record to Completed?
+* Add John Doe to the team members field for this initiative
 
 #### Access record change history
 
 * Show me the change history for the Summer Campaign record
-* Can you display who modified this project and what they changed?
-* I need to see all the updates made to this record in the last week
+* Can you display who modified this project and what they changed?
+* I need to see all the updates made to this record in the last week
 
 ### Use System Designer in Workfront Planning
 
@@ -350,28 +350,24 @@ See example prompts for document and asset approvals in the following areas:
 
 #### Create and configure workspaces
 
-* Create a new Planning workspace called Marketing Campaigns 2026
-* Update my Product Planning workspace to change the color to blue and add a description
-* Show me all the Planning workspaces I have access to
+* Create a new Planning workspace called Marketing Campaigns 2026
+* Update my Product Planning workspace to change the color to blue and add a description
+* Show me all the Planning workspaces I have access to
 
 #### Define record types
 
-* Create a new record type called Campaigns in my Planning workspace
-* Update the Initiatives record type to change its icon and description
-* Show me all the record types in my Marketing Planning workspace
+* Create a new record type called Campaigns in my Planning workspace
+* Update the Initiatives record type to change its icon and description
+* Show me all the record types in my Marketing Planning workspace
 
 #### Design fields and formula fields
 
-* Add a Budget field to my Planning Campaigns record type with currency type
-* Create a formula field in Planning that calculates days remaining until campaign end date
-* Update the Priority field in my Planning workspace to add more dropdown options
+* Add a Budget field to my Planning Campaigns record type with currency type
+* Create a formula field in Planning that calculates days remaining until campaign end date
+* Update the Priority field in my Planning workspace to add more dropdown options
 
 #### Build custom views
 
-* Create a timeline view in Planning to see my campaign schedule by start and end dates
-* Add a new table view to my Planning Initiatives that filters only active status
-* Duplicate my Planning Active Campaigns view and modify the sorting.
-
-
-
-
+* Create a timeline view in Planning to see my campaign schedule by start and end dates
+* Add a new table view to my Planning Initiatives that filters only active status
+* Duplicate my Planning Active Campaigns view and modify the sorting.

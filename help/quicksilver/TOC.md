@@ -962,10 +962,11 @@ feature-set: Workfront
     * [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
     * [Adobe Workfront MCP server tools](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
     * [Skills available for direct install](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
-  * Coworker in Workfront {#coworker-in-workfront}
-    * [Coworker in Workfront: article index](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
-    * [Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
-    * [Coworker skills](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+  * CX Coworker in Workfront {#coworker-in-workfront}
+    * [CX Coworker in Workfront: article index](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
+    * [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+    * [CX Coworker skills](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [CX Coworker prompts and best practices](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-prompts-and-best-practices.md)
   * Update work items and view updates {#update-work-items-view-updates}
     * [Update work items and view updates: article index](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [Updates section overview](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
