@@ -32,6 +32,7 @@ For information, see [Manage dependent connections](/help/quicksilver/planning/a
 >Preview: August 13, 2026
 >Production fast release: August 13, 2026
 >Production for everyone: October 15, 2026
+>[!BADGE Off schedule]{type=Neutral}
 
 There are new visual indicators when you drag and drop multiple rows in the table view. A more prominent plus sign and a number indicator now show how many rows are selected for the drag-and-drop action.
 

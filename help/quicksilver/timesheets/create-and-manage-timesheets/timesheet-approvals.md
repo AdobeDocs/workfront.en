@@ -95,17 +95,13 @@ If the following notification settings are in place, the user who submits the ti
 
    Select the **My Timesheet Approvals** filter at the top of the timesheet list.
 
-   ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+   ![My timesheets filter buttons on the Timesheets list page](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
    >[!NOTE]
    >
-   >The My Timesheet Approvals option does not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed the My Timesheet Approvals filter from either the List Controls in the Setup area or from your Layout Template. 
-   >
-   >For more information see [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
-   >   
-   >
+   >The My Timesheet Approvals and My Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed those filters from either the List Controls in the Setup area or from your Layout Template. For more information, see [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Optional) Click the **search** icon ![](assets/search-icon.png) at the top of the timesheet list and type a keyword to locate a specific timesheet. You can search for a time frame, or an owner or approver's name. 
+1. (Optional) Click the **search** icon ![Search icon](assets/search-icon.png) at the top of the timesheet list and type a keyword to locate a specific timesheet. You can search for a time frame, or an owner or approver's name. 
 1. Click the time frame for the timesheet you want to approve. The timesheet opens. 
 
    >[!TIP]
