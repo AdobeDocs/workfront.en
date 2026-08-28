@@ -189,8 +189,12 @@ To manage a calendar view:
 
         * **Week**: Records display in the following areas:
 
-            * Records that span over multiple days display at the top of the calendar.
+            * Records that span over multiple days display at the top of the calendar. 
             * Records that last a day or less, display in the lower half of the calendar view. If you selected to display the hour of he Start and End Dates, the record displays at the appropriate time within the day that it occurs.
+
+                <span class="preview">The calendar displays up to 1,000 records across the previous, current, and next weeks for both areas in the weekly view.</span>
+         
+1. <span class="preview">(Optional and conditional) Click **Load more** at the bottom of the calendar, if there are more than 1,000 records, and some of them do not display by default, when viewing the calendar by week.</span>    
          
 1. (Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  
 
@@ -447,7 +451,7 @@ Update the calendar view settings to indicate what and how information displays 
 
     * **Record type**: The color of the record bars in the calendar matches the color of the record type you selected. This is the default option. 
     * **Field values**: The color of the records matches the color of a field that you specify. 
-    * **None**: Records displays in a white bar. <span class="preview">The None option has been removed from the Preview environment.</span>
+    * **None**: Records displays in a white bar. <span class="preview">The **None** option has been removed from the Preview environment.</span>
 
     
 
