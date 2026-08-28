@@ -96,7 +96,15 @@ For more information, see [Build a KPI report](/help/quicksilver/reports-and-das
 
     1. Click into the empty condition filter, click **Pick a Field**, then choose **Status**.
     1. Leave the operator as **Equal**, then type _pending review_ in the textbox.
+
+    1. Click **Add condition**. 
+    1. Click into the empty condition filter, click **Pick a Field**, then choose **Approval Type**.
+    1. Leave the operator as **Equal**, then select **Document Version**.
+
     ![pending kpi filter example](assets/pending-kpi-filter.png)
+
+   
+
 1. Click **Save** in the top-right corner of the screen.
 
 
@@ -147,6 +155,11 @@ For more information, see [Build a KPI report](/help/quicksilver/reports-and-das
     1. Select **Status**.
     1. Change the operator to **Not Contains**, then type _approved_ in the textbox.
     ![overdue kpi filter example 2](assets/overdue-kpi-filter-2.png)
+
+    1. Click **Add condition**. 
+    1. Click into the empty condition filter, click **Pick a Field**, then choose **Approval Type**.
+    1. Leave the operator as **Equal**, then select **Document Version**.
+
 1. Click **Save** in the top-right corner of the screen.
 
 
@@ -199,6 +212,11 @@ For more information, see [Build a KPI report](/help/quicksilver/reports-and-das
     1. Select **Status**.
     1. Change the operator to **Equal**, then type _reviewed_ in the textbox.
     ![completed kpi filter example](assets/completed-kpi-filter-2.png)
+
+    1. Click **Add condition**. 
+    1. Click into the empty condition filter, click **Pick a Field**, then choose **Approval Type**.
+    1. Leave the operator as **Equal**, then select **Document Version**.
+
 1. Click **Save** in the top-right corner of the screen.
 
 #### Abandoned approvals
@@ -249,6 +267,11 @@ For more information, see [Build a KPI report](/help/quicksilver/reports-and-das
     1. Change the operator to **Less Than**, then toggle **Set relative date** to **ON**.
     1. Type _$$TODAY-2w_ in the textbox.
     ![abandoned kpi filter example](assets/abandoned-kpi-filter-2.png)
+
+    1. Click **Add condition**.
+    1. Click into the empty condition filter, click **Pick a Field**, then choose the **Approval relationship** and then **Approval Type**.
+    1. Leave the operator as **Equal**, then select **Document Version**.
+
 1. Click **Save** in the top-right corner of the screen.
 
 ### Charts
@@ -286,6 +309,11 @@ For more information, see [Build a KPI report](/help/quicksilver/reports-and-das
     1. Select **Document Version** > **Version**.
     1. Change the operator to **Is Not Null**.
     ![filter example](assets/approvals-by-decision-chart-filter.png)
+
+    1. Click **Add condition**. 
+    1. Click into the empty condition filter, click **Pick a Field**, then choose **Approval Type**.
+    1. Leave the operator as **Equal**, then select **Document Version**.
+
 1. Click **Save** in the top-right corner of the screen.
 
 
@@ -330,6 +358,11 @@ For more information, see [Build a KPI report](/help/quicksilver/reports-and-das
     1. Change the operator to **Less Than or Equal**, then toggle **Set relative date** to **ON**.
     1. Type _$$TODAYem_ in the textbox.
     ![Revisions chart filter example](assets/revision-chart-filter-2.png)
+
+    1. Click **Add condition**. 
+    1. Click into the empty condition filter, click **Pick a Field**, then choose **Approval Type**.
+    1. Leave the operator as **Equal**, then select **Document Version**.
+
 1. Click **Save** in the top-right corner of the screen.
 
 ## Add detailed review and approval information with Tables
@@ -403,6 +436,12 @@ For more information on building a table report, see [Build a table report](/hel
     1. Select **Status**.
     1. Change the operator to **Equal**, then type _pending approval_ in the textbox.
         ![pending approval table filter example](assets/pending-approval-table-filter.png)
+
+
+    1. Click **Add condition**. 
+    1. Click into the empty condition filter, click **Pick a Field**, then choose **Approval Type**.
+    1. Leave the operator as **Equal**, then select **Document Version**.
+
     1. (Optional) Add additional filters as described in the **Optional filters** section below.
 1. Click **Save** in the top-right corner of the screen.
 
@@ -534,5 +573,10 @@ To view more specific information depending on your use case, you can add additi
     1. Select **Approval Stages** > **Approval Stage Participants** > **Participant Team** > type _Name_ in the search box. 
     1. Change the operator to **Equal**, then choose **My default teams (Logged in User)** or **My other teams (Logged in User)** to display projects assigned to either your default team or other teams you are on.
         ![pending approval table filter example](assets/approvals-ive-submitted-filter.png)
+
+    1. Click **Add condition**.
+    1. Click into the empty condition filter, click **Pick a Field**, then choose the Approval relationship and then Approval Type.
+    1. Leave the operator as **Equal**, then select Document Version.
+
 1. Click **Save** in the top-right corner of the screen.
 +++
