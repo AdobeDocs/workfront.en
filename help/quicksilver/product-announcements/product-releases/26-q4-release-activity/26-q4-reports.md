@@ -11,6 +11,36 @@ This page describes Reporting enhancements made with the Fourth Quarter 2026 rel
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+## Approval Type field in Canvas Dashboards
+
+>[!NOTE]
+>
+>Production for everyone: August 28, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+The Approval entity now includes an **Approval Type** field, which lets users distinguish between proof approvals, document version approvals, intake approvals, and other approval kinds.
+
+## Approval terminology update in Canvas Dashboards
+
+>[!NOTE]
+>
+>Production for everyone: August 28, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+The following field names used in Canvas Dashboards for document and work approvals have been renamed for clarity:
+
+| Previous name | New name |
+| --- | --- |
+| Document Approval | Approval |
+| Document Approval Stage | Approval Stage |
+| Document Approval Stage Participant | Approval Stage Participant |
+| Approval Process | Work Approval Process |
+| Approval Stage | Work Approval Stage |
+| Approver Status | Work Approver Status |
+| Awaiting Approval | Awaiting Work Approval |
+
+This change does not impact the way current reports function.
+
 ## Enforcing end dates for scheduled reports
 
 >[!NOTE]
