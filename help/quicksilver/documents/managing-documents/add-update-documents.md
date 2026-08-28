@@ -115,7 +115,6 @@ The Comments panel in Workfront displays a message letting you know when new com
 
 >[!NOTE]
 >
->* If you have a Frame.io Enterprise license, you see this callout for any new comments on the document.
->* If you don't have a Frame.io Enterprise license, you see this callout only once an approval workflow is created for the document.
+>* If you have a Frame.io Enterprise license, you can view comments in the Frame.io viewer without an approval workflow.
 
 </div>
