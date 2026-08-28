@@ -41,6 +41,18 @@ The following field names used in Canvas Dashboards for document and work approv
 
 This change does not impact the way current reports function.
 
+## Pivot table reports in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: August 27, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+The new pivot table report type in Canvas Dashboards aggregates data with accurate, complete roll-ups. You can build metrics like counts, sums, and averages directly on your dashboard, then drill into the underlying records behind any total.
+
+For more information, see [Build a pivot table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
+
 ## Enforcing end dates for scheduled reports
 
 >[!NOTE]
