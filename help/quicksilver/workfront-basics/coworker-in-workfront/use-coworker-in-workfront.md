@@ -70,5 +70,5 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    For more information on artifacts in CX Coworker, see [Artifacts](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts) in the Adobe CX Coworker documentation.
 1. To manage settings for Coworker, click the Settings icon ![Settings](assets/coworker-settings-icon.png).
-1. To expand the Coworker panel, click the Expand icon [Expand icon](assets/coworker-expand-icon.png).
-1. To go into the Adobe CX Coworker interface,click the Apps icon [Apps icon](assets/apps-icon.png) at the upper-right corner of the page and select Coworker from the list of available apps.
+1. To expand the Coworker panel, click the Expand icon ![Expand icon](assets/coworker-expand-icon.png).
+1. To go into the Adobe CX Coworker interface, click the Apps icon ![Apps icon](assets/apps-icon.png) at the upper-right corner of the page and select Coworker from the list of available apps.
