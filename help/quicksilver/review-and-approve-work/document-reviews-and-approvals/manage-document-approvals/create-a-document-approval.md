@@ -93,7 +93,7 @@ To create a single-stage approval workflow:
    <table>
    <tr>
    <td><strong>Use an approval template (optional)</strong></td>
-   <td>Select a template from the drop-down menu. If the template has one path and one stage, it applies in Basic mode. If the template has more than one stage or more than one path, the dialog automatically switches to Advanced mode and any input you entered in Basic mode is replaced by the template's content.</td>
+   <td>Select a template from the drop-down menu. The menu only lists templates you created or that were shared with you — either with you specifically or with everyone in your organization. If the template has one path and one stage, it applies in Basic mode. If the template has more than one stage or more than one path, the dialog automatically switches to Advanced mode and any input you entered in Basic mode is replaced by the template's content.</td>
    </tr>
    <tr>
    <td><strong>Add names or emails</strong></td>
@@ -202,7 +202,7 @@ To create a single-stage approval workflow:
    <table>
    <tr>
    <td><strong>Use an approval template (optional)</strong></td>
-   <td>The templates field is collapsed by default. Click the field to expand it, then select a template from the drop-down menu. If the template has one path and one stage, it applies in Basic mode. If the template has more than one stage or more than one path, the dialog automatically switches to Advanced mode and any input you entered in Basic mode is replaced by the template's content.</td>
+   <td>The templates field is collapsed by default. Click the field to expand it, then select a template from the drop-down menu. The menu only lists templates you created or that were shared with you — either with you specifically or with everyone in your organization. If the template has one path and one stage, it applies in Basic mode. If the template has more than one stage or more than one path, the dialog automatically switches to Advanced mode and any input you entered in Basic mode is replaced by the template's content.</td>
    </tr>
    <tr>
    <td><strong>Add names or emails</strong></td>
