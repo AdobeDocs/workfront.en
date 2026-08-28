@@ -7,6 +7,10 @@ feature: Get Started with Workfront
 ---
 # CX Coworker prompts and best practices
 
+>[!IMPORTANT]
+>
+>CX Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is available to these organizations. For more information, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+
 With CX Coworker, you can use natural language to interact with Workfront Workflow and Workfront Planning. 
 
 Coworker is part of the Adobe Experience Cloud Agent Orchestrator.

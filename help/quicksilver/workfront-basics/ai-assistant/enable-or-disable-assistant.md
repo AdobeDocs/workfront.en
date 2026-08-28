@@ -23,11 +23,9 @@ topic_v2:
 ---
 # Enable or disable AI Assistant
 
-<!--
 >[!IMPORTANT]
 >
->AI Assistant is transitioning to Adobe Coworker, a conversational interface for getting work done. For information on Adobe Coworker, see [Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
--->
+>Beginning in September 2026, AI Assistant is transitioning to CX Coworker, a conversational interface for getting work done. For information on CX Coworker, see [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 As a Workfront Administrator, you can control which users in your organization have AI Assistant enabled. This is managed through access levels.
 

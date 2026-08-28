@@ -15,11 +15,9 @@ role_v2:
 ---
 # AI Assistant prompts and best practices
 
-<!--
 >[!IMPORTANT]
 >
->AI Assistant is transitioning to Adobe Coworker, a conversational interface for getting work done. For information on Adobe Coworker, see [Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
--->
+>Beginning in September 2026, AI Assistant is transitioning to CX Coworker, a conversational interface for getting work done. For information on CX Coworker, see [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 Workfront's AI Assistant is a powerful tool that can help you accomplish your work more effectively by offering useful information about your account data and specific object types. 
 

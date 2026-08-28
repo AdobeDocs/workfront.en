@@ -8,6 +8,10 @@ feature: Get Started with Workfront
 ---
 # CX Coworker skills
 
+>[!IMPORTANT]
+>
+>CX Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is available to these organizations. For more information, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+
 This article lists skills that are currently available to CX Coworker in Workfront.
 
 ## Workfront Planning skills
