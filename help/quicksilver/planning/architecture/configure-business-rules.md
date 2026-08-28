@@ -17,7 +17,12 @@ recommendations: noDisplay, noCatalog
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
-You can configure record type business rules that define how records of that type are managed in Adobe Workfront Planning. 
+You can configure business rules for Adobe Workfront Planning record types that define how records of that type are managed. 
+
+You can allow for the following actions on the records if the defined business rules are met: 
+
+* Edit a record
+* Delete a record
 
 ## Access requirements
 
@@ -69,7 +74,7 @@ Or
 
 ## Considerations when configuring business rules
 
-* You can configure rules for when records can be edited or deleted, depending on conditions you define. 
+* You can configure rules that indicate when records can be edited or deleted. 
 
    For example, you can create conditions for requiring certain fields to have a value. If the value is missing from those fields, users cannot edit or delete that record. 
 * You cannot add business rules to global record types in their primary or secondary workspaces. 
@@ -82,18 +87,17 @@ Or
 ## Configure business rules
 
 1. Go to a record type. 
-1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click Business rules.
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click **Business rules**.
 
+   The Business rules pages opens.
+1. Click **New business rule**.
+1. In the New business rule box, add a name for the business rule in the first available field. This is a required field
+1. (Optional) Add a description to define the business rule. 
+
+<!--
 
 ***********FROM CLAUDE - BELOW - MUST EDIT*******************
 
-## Setting Up Business Rules in Workfront Planning: A Step-by-Step Guide
-
-Ever had a record move to "Ready for Execution" only to find out later that half the required fields — Brand, Indication, launch dates — were never filled in? By the time someone notices, there's already a downstream project with missing data, and someone has to track down the details and backfill it by hand.
-
-Business rules fix this. They let you set up a simple checkpoint: **before a record can move to a specific status, certain fields must be filled in.** If they're not, the person making the change sees exactly what's missing and can't proceed until it's fixed.
-
-This guide walks through what business rules do, how to set one up, and what your team will experience once it's live.
 
 ### What business rules actually do
 
@@ -149,9 +153,10 @@ In other words: "When a Materials record's status is changed to **Ready for Exec
 You can add more than one rule for the same status. For example, you might require Brand, Therapeutic Area, Indication, and Estimated Launch Date all to be filled in before a record can move to "Ready for Execution" — each is its own rule, and all of them are checked together.
 
 **What fields can you require?**
-- Connected record fields (e.g., a linked Brand or Indication record) — the rule passes as soon as at least one record is linked.
-- Standard text fields (single-line or paragraph) — the rule passes once there's any value.
-- Date fields — the rule passes once a date is set.
+
+* Connected record fields (e.g., a linked Brand or Indication record) — the rule passes as soon as at least one record is linked.
+* Standard text fields (single-line or paragraph) — the rule passes once there's any value.
+* Date fields — the rule passes once a date is set.
 
 **What you can't use yet:** formula fields and lookup fields aren't supported as rule targets in this release, since they're calculated in the background rather than filled in directly by a person.
 
@@ -218,3 +223,5 @@ Keep in mind: editing or deleting a rule **only affects transitions going forwar
 8. Test it yourself: try changing a record's status with the field empty, confirm you see the expected message, fill in the field, and confirm the status change now goes through.
 
 That's it — from here on, anyone converting a record forward will get a clear nudge if something's missing, instead of a downstream project quietly showing up incomplete.
+
+-->
