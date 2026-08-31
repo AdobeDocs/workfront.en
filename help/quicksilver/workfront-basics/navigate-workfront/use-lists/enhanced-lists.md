@@ -74,11 +74,12 @@ Below are some types of Workfront object lists that use the enhanced list format
 | Priorities | <ul><li>Home &gt; select the Priorities icon in the left menu</li><li>Main Menu > Priorities</li></ul> |
 | List of requests | <ul><li>Requests (new experience only)</li><li>My Requests widget on Home</li></ul> |
 | Lists of statuses, priorities, severities, <span class="preview">conditions</span>, and exchange rates in Setup | <ul><li>Setup > Project Preferences > Statuses</li><li>Setup > Project Preferences > Priorities</li><li>Setup > Project Preferences > Severities</li><li><span class="preview">Setup > Project Preferences > Conditions</span></li><li>Setup > Project Preferences > Exchange Rates</li></ul> |
-| <span class="preview">List of actions and list of tracked fields in the Update Feeds</span> | <ul><li><span class="preview">Setup > Interface > Update Feeds > Tracked fields tab</span></li> <li><span class="preview">Setup > Interface > Update Feeds > Actions tab</span></li></ul> |
+| <span class="preview">Lists of actions and tracked fields in the Update Feeds</span> | <ul><li><span class="preview">Setup > Interface > Update Feeds > Tracked fields tab</span></li> <li><span class="preview">Setup > Interface > Update Feeds > Actions tab</span></li></ul> |
 | <span class="preview">List of scorecards</span> | <span class="preview">Setup > Scorecards</span> |
 | <span class="preview">List of risk types</span> | <span class="preview">Setup > Risk Types</span> |
 | List of job roles and rates on a rate card | Setup > Rate Cards > select a rate card > Job Roles and Rates |
 | <span class="preview">List of locations</span> | <span class="preview">Setup > Locations</span> |
+| <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
 | List of translations | Setup > Localization |
 | <span class="preview">Lists of integrations </span> | <ul><li><span class="preview">Setup > Documents > SharePoint Integration</span></li><li><span class="preview">Setup > Documents > Custom Integration</span></li><li><span class="preview">Setup > Documents > Experience Manager Assets</span></li></ul> |
 | List of reports | Reports (**Use shareable folders** must be turned on) |
@@ -88,7 +89,7 @@ Below are some types of Workfront object lists that use the enhanced list format
 | <span class="preview">All versions view of a document</span> | <span class="preview">Project > Documents > Document Details > All Versions</span> |
 | Boards Admin View | Boards > Admin View |
 | Documents on Adobe cloud storage | Project, task, issue, portfolio, program, template, template task > Documents |
-| <span class="preview">List of scenario plans</span> | <span class="preview">Main Menu > Scenarios</span> |
+| <span class="preview">Lists of scenario plans and initiatives</span> | <span class="preview">Main Menu > Scenarios</span> |
 | <span class="preview">Lists of goals and progress indicators</span> | <ul><li><span class="preview">Main Menu > Goals</span></li><li><span class="preview">Main Menu > Goals > Progress Indicators</span></li></ul> |
 
 

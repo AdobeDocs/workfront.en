@@ -31,6 +31,8 @@ topic_v2:
 
 <!--Audited: 06/2025-->
 
+{{preview-fast-release-general}}
+
 You can create, edit, and assign timesheet profiles that generate recurring timesheets for your users without any further intervention from you. This saves you time and ensures that the following are consistent between users:
 
 * Timesheet time frame 
