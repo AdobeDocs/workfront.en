@@ -209,6 +209,9 @@ Before you begin:
 
    ![Project icon and last published date](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
+    <!--
+    1. <span class="preview">(Optional) In the Publish initiatives page, hover over the project icon ![Project icon](assets/project-icon-sp.png), then click the **More** menu ![More menu](assets/more-menu.png) > **Open project**. The project opens in a new browser tab.</span>
+    -->
 1. (Optional and conditional) If you want to publish from an existing plan, click the **[!UICONTROL Filter]** icon ![Filter icon](assets/filter-nwepng.png) in the upper-right corner of the plan and select one of the following options:
 
    <table style="table-layout:auto"> 
