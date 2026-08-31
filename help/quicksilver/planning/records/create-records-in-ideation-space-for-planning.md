@@ -1,12 +1,12 @@
 ---
-title: Create Records Using the Ideation Space for Workfront Planning
+title: Create Planning Records from Ideation Space Briefs
 description: This article walks through how to use the Ideation space for Workfront Planning to brainstorm campaign ideas and connect them to real Workfront Planning records. 
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 ---
 
-# Create records using the Ideation space for Workfront Planning
+# Create Planning records from Ideation space briefs
 
 <!--
 Will this release JUST to preview? If not - hide the preview portion below
