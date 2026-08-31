@@ -28,9 +28,17 @@ topic_v2:
 
 As an [!DNL Adobe Workfront] administrator, you can view and manage the OAuth2 applications for your instance of [!DNL Workfront], which allow other applications to access [!UICONTROL Workfront].
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>* Custom OAuth2 applications are in the process of being deprecated. Please note the following dates:
+>
+>   * November 1, 2026: You will no longer be able to create new custom OAuth2 applications.
+>   * February 1, 2027: Existing custom OAuth2 applications will no longer work.
+>
+>   For more information, see [Migrate from Workfront OAuth2 to Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 >
 >* In the context of OAuth2, "Oauth2 application" refers to this sort of access link between an app and a server such as [!DNL Workfront]. For more information, see [Create OAuth2 applications for [!DNL Workfront] integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>
 >* You can have up to a total of ten OAuth2 Applications at one time.
 
 * For information, instructions, and details for creating custom OAuth2 applications, see [Create OAuth2 applications for [!DNL Workfront] integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
