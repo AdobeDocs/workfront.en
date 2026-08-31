@@ -12,6 +12,15 @@ author: Alina
 Will this release JUST to preview? If not - hide the preview portion below
 -->
 
+<!--
+I started with this under Records first but what if Ideation will be added to other products and it will generate record types in those products? keep it here so it can be moved, if needed, to a standalone product one day?
+-->
+
+<!--
+*********************** IMPORTANT ***************
+THIS ARTICLE HAS 2 DRAFTS IN 2 SEPARATE AREAS FROM CLAUDE - THEY WERE CREATED AT DIFFERENT TIMES - WHICH ONE WOULD YOU KEEP OR MERGE THEM INTO ONE ARTICLE
+-->
+
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
@@ -75,6 +84,8 @@ Or
 For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
+
+****************FIRST DRAFT FROM CLAUDE**************************
 
 ## Create records using the Ideation space for Workfront Planning
 
@@ -185,3 +196,91 @@ Zoom out to see the complete picture: your original campaign goal, all AI-genera
 - **Check citations** before trusting a generated fact — click **Sources** on any card.
 - **Mix AI cards with real records** — dragging in actual Products, Personas, Regions, etc. keeps the canvas tied to your real Planning data, not just AI speculation.
 - Responses are AI-generated and may be inaccurate — always verify against the linked sources before finalizing a record.
+
+***************SECOND DRAFT FROM CLAUDE*******************
+# Creating and Managing Records with Catalyze Ideation
+
+> This workflow reflects the Closed Beta experience and is expected to evolve before Open Beta and GA. Confirm current behavior before publishing to customers.
+
+This guide explains how to create and ideate on records using Catalyze within Workfront Planning. It covers all entry points, system behavior, data sync rules, and file-upload support.
+
+## Before you start
+
+- You must have access to a record list within Workfront Planning.
+- Catalyze always opens in a **new browser tab** — this is consistent across every entry point.
+- Any record created through Catalyze starts with **placeholder text** until you begin ideating.
+
+## Option 1: Create a record via the top-level "New Record" button
+
+1. Navigate to your record list in Workfront Planning.
+2. Click the **New Record** button at the top of the page.
+3. From the dropdown menu, select **Ideate in Catalyze**.
+4. A new browser tab opens automatically, launching the Catalyze canvas.
+5. A new record is created in Workfront Planning with placeholder text.
+6. Begin ideation directly in Catalyze.
+
+**Additional access from the record view:** Open the newly created record and, in its detail modal, click **Ideate in Catalyze**. This opens Catalyze in a new tab (same behavior as above).
+
+## Option 2: Create a record via inline record creation (bottom of table)
+
+1. Scroll to the bottom of the record table.
+2. Click **New Record**.
+3. The record is created immediately with placeholder text.
+4. A pop-up appears with these options:
+   - **Open Catalyze** — launches Catalyze in a new browser tab
+   - **Don't Show Again** — permanently dismisses the future prompt
+   - **X (Close)** — closes the pop-up; it will reappear next time
+5. Click **Open Catalyze** to begin ideation.
+
+## Working with existing records
+
+**Contextual actions (bottom selection bar)**
+- **Single record selected:** an "Ideate in Canvas" / "Open in Canvas" action appears.
+  - If a canvas already exists, it opens that canvas.
+  - If no canvas exists, it creates a new one.
+- **Multiple records selected:** the Ideate/Open in Canvas action is **not available** — bulk ideation is not supported.
+
+**Record detail panel**
+- If no canvas is connected, an **Ideate in Catalyze** button appears in the record header.
+- If a record is already linked to a Catalyze canvas, a link appears beneath the record title; clicking it opens the associated canvas.
+- If a linked canvas hasn't been exported/pushed back yet, the record shows a placeholder message ("This record has active Canvas...") even if the canvas itself has a real name in Catalyze.
+
+**When can you create a canvas for a record?**
+A canvas can be created for a record that is in Workfront Planning and still in **draft** state (not yet marked "ready").
+
+## Record deletion behavior
+
+If a Planning record linked to a Catalyze canvas is deleted:
+- The canvas remains intact in Catalyze.
+- No data is removed from Catalyze.
+
+## Data synchronization rules
+
+**Sync direction:** One-way only, from Catalyze → Workfront Planning. There is no reverse or automatic sync from Planning back to Catalyze.
+
+**Export process:**
+1. In Catalyze, click **Export to Planning**.
+2. Data is pushed to the connected Workfront Planning record.
+3. The export **overwrites all existing field data** in the record.
+
+**Important notes:**
+- Changes made directly in Workfront Planning do **not** sync back to Catalyze.
+- Data refresh in Workfront Planning is manual only (Beta behavior) — there is no scheduled/automatic sync.
+- Schema updates do sync one direction: once connected, Planning schema changes propagate to Catalyze daily — added fields appear empty, removed fields keep their prior values, and renamed fields update in place.
+
+## Uploading documents into the Catalyze canvas
+
+- Files can be added as a "document card" on the canvas — this works the same whether the file is an image or another document type.
+- You can drag and drop files directly from Workfront Planning onto the canvas, and they appear the same way as manually uploaded files.
+- All uploaded documents are converted to PDF on the backend for processing.
+- Supported file types (as of the Aug 2026 beta): **PDF, Excel, CSV, PNG (and likely other image formats), Word, PowerPoint.**
+- **Not supported:** video files.
+- You can include images directly in a prompt and Catalyze will recognize their content, though small-format legibility is still being refined.
+
+## Key takeaways
+
+- Use **Ideate in Catalyze** to connect records to the AI-assisted ideation workflow.
+- Catalyze always launches in a separate browser tab.
+- New records always start with placeholder content, regardless of entry point.
+- Data flow between Catalyze and Planning is manual and one-directional (Catalyze → Planning).
+- Deleting a Planning record does not delete its associated Catalyze canvas.
