@@ -39,12 +39,13 @@ The following articles contain information about what access your users need to 
 * [Share views](/help/quicksilver/planning/access/share-views.md)
 * [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
 * [Share record types](/help/quicksilver/planning/access/share-record-types.md)
-
-<div class="preview">
-
 * [Share records](/help/quicksilver/planning/access/share-records.md)
 * [Set default permissions for records](/help/quicksilver/planning/access/set-default-record-permissions.md)
 
+<!--
+<div class="preview">
+
+* [Share Workfront Planning fields](/help/quicksilver/planning/access/share-fields.md)
+
 </div>
-
-
+-->

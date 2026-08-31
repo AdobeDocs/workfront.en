@@ -3,7 +3,8 @@ filename: how-to-delegate-work
 navigation-topic: delegate-work
 title: Delegate Tasks and Issues
 description: You can temporarily delegate the work you are assigned to while you are out of the office. This article describes how to delegate task and issue assignments.
-author: Becky
+author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
 last-update: 2026-04-01T18:03:50.000Z

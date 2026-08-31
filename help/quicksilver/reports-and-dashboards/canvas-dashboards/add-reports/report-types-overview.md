@@ -24,4 +24,6 @@ There are a number of different reports you can add to a Canvas Dashboard that v
 * Chart reports (includes bar, column, line, and pie charts)
 * KPI reports 
 * Table reports
+* Pivot table reports
 * Pending approvals reports
+

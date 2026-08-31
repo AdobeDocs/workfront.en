@@ -27,7 +27,7 @@ topic_v2:
 ---
 # Assign work in the Workload Balancer by dragging and dropping
 
-You can assign work items using the Adobe Workfront Workload Balancer by dragging and dropping work items to the correct users.
+You can assign work items using the Adobe Workfront Workload Balancer by dragging and dropping work items to the correct users and Task Collaborators.
 
 For general information about assigning work to users using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 

@@ -140,7 +140,7 @@ To navigate the Workload Balancer for multiple projects:
 
 1. Click **Workload Balancer** in the left panel.
 
-    ![Workload Balancer](assets/nwe-balancer-global.png)
+    ![Workload Balancer](assets/wb-in-res-mgmt.png)
     
     The Workload Balancer displays work assignment information starting with the current week in the following two areas:
 
@@ -433,7 +433,7 @@ Navigating the Workload Balancer of a team is similar to how you navigate the Wo
 
 1. Click **Workload Balancer** in the left panel.
 
-    ![Workload Balancer of a team](assets/nwe-balancer-team-350x172.png)
+    ![Workload Balancer of a team](assets/wb-on-team.png)
 
     The Workload Balancer of a team displays the following information, by default:
 
@@ -449,9 +449,9 @@ Navigating the Workload Balancer of a team is similar to how you navigate the Wo
 1. Click the name of a project to open the project page.
 1. Click **Workload Balancer** in the left panel.
 
-    ![Workload Balancer of a project](assets/nwe-balancer-project-350x152.png)
+    ![Workload Balancer of a project](assets/wb-on-project.png)
 
-    The Workload Balancer for the project displays the following information, by default: 
+    The Workload Balancer for the project displays the following information, by default:
     
     * In the **Unassigned Work** area: Work items on the project that are assigned to roles or teams and are not assigned to users. Role assignments are displayed under work items in the Unassigned Work area when the Show Role Assignments setting is enabled.
     * In the **Assigned Work** area: Work items on the project that are assigned to at least one user.
@@ -504,7 +504,7 @@ You can access the Workload Balancer on your own user profile.
 
    The Workload Balancer for the user displays.
 
-   ![Workload Balancer for a user](assets/workload-balancer-user.png)
+   ![Workload Balancer of a user](assets/workload-balancer-user.png)
 
    The Workload Balancer of a user displays the following by information, by default:
 

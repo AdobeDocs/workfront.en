@@ -70,14 +70,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Create or edit a timesheet profile
 
-<!--
-Old info: 
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p style="color: #ff1493;">Alina drafted an Important note under this heading because Tracy/WorkEx said this is not working as designed - the changes WILL take effect the minute to make them for existing timesheets - see this issue - https://hub.workfront.com/issue/5dba59f600c401cca536567c368aa299/overview</p>
-<p style="color: #ff1493;">Important: The changes you make to an existing timesheet profile are not automatically applied to timesheets that have already been generated. The changes you make to a timesheet prile are applied only to the timesheets that are&nbsp;generated after the timesheet profiles changes are made. To&nbsp;apply your&nbsp;changes to the timesheet profile for the timesheets that are already generated, you must delete the existing timesheets and manually generate&nbsp;them.For more information about deleting and manually generating timesheets, see&nbsp;Delete and manually generating Timesheets.</p>
-</div>
--->
-
 >[!IMPORTANT]
 >
 >To enable timesheet profile changes in current timesheets, you have to delete the existing timesheets before making the changes to the timesheet profiles, and then generate new timesheets. For instructions, see [Delete timesheets in Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) and [Manually generate timesheets](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).

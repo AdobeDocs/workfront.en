@@ -33,7 +33,7 @@ You can build a custom form that users can attach to an Adobe Workfront object. 
 
 For example, you can attach a custom form called "Marketing Content Research" to attach to a project so that users on the project can request marketing content for the project:
 
-![Details page](assets/see-image-details-page.png)
+![Project Details page](assets/see-image-details-page.png)
 
 ## How to create a custom form
 

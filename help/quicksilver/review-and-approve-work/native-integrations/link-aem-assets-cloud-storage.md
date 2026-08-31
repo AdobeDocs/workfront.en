@@ -1,18 +1,18 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: native-integrations
-title: Link content and folders from Experience Manager Assets with Adobe cloud storage
-description: If your organization uses Adobe cloud storage, you can link content and folders from Experience Manager Assets to any Adobe Workfront object that supports documents.
+title: Link assets from Experience Manager Assets with Adobe cloud storage
+description: If your organization uses Adobe cloud storage, you can link assets from Experience Manager Assets to any Adobe Workfront object that supports documents.
 author: Courtney
 
 ---
-# Link content and folders from Experience Manager Assets with Adobe cloud storage
+# Link assets from Experience Manager Assets with Adobe cloud storage
 
-If your organization uses Adobe cloud storage, you can link content and folders from Experience Manager Assets to Workfront. Once linked, you can view and manage the content in Workfront, and any changes made to the content in Experience Manager Assets will be reflected in Workfront.
+If your organization uses Adobe cloud storage, you can link assets from Experience Manager Assets to Workfront. Once linked, you can view and manage the assets in Workfront, and any changes made to the assets in Experience Manager Assets will be reflected in Workfront.
 
 >[!IMPORTANT]
 >
->If your organization declines to sign the GenAI Rider agreement, you can still use Content Advisor to choose assets and folders in Experience Manager Assets, but you will not have access to AI-powered features such as AI Search, smart suggestions, or analyzing campaign briefs.
+>If your organization declines to sign the GenAI Rider agreement, you can still use Content Advisor to choose assets in Experience Manager Assets, but you will not have access to AI-powered features such as AI Search, smart suggestions, or analyzing campaign briefs.
 
 ## Access requirements
 

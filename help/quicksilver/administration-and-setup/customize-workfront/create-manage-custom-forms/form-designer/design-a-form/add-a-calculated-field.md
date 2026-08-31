@@ -262,9 +262,13 @@ To reuse an existing calculated custom field:
 
          >[!NOTE]
          >
-         >The syntax for a typeahead field is a bit different than it is for other types of fields because you need to add `:name` at the end.
+         >The syntax for an internal lookup field is a bit different than it is for other types of fields because you need to add `:name` at the end.
          >
-         >For example, to reference the selected option in a custom typeahead field named "Executive sponsor," you would type:
+         >For example, to reference the selected option in a custom internal lookup field named "Executive sponsor," you would type:
+         >
+         >`{DE:Executive sponsor}.{name}`
+         >
+         >For the same example using a typeahead field, you would type:
          >
          >`{DE:Executive sponsor:name}`
 

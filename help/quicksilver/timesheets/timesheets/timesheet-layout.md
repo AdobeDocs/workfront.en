@@ -44,7 +44,7 @@ Timesheet and hour preferences control what appears on a timesheet. This article
 
 For information about how to log time on a time sheet, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 
-![Timesheet layout](assets/timesheet-layout-unshimmed.png)
+![Timesheet layout](assets/timesheet-layout-leftnav-updated.png)
 
 The following are the areas of a timesheet:
 
@@ -178,7 +178,7 @@ You can add a comment for every hour entry that you add to your timesheet.
 
 The comments you enter in the hour entry comment box display in the timesheet, under each work item where you logged the time when the **Show Comments** setting is enabled in the toolbar.
 
-![](assets/hour-entry-comment-under-task-in-timesheet-unshimmed-redesign.png)
+![Hour entry comment](assets/hour-entry-comment-under-task-in-timesheet-unshimmed-redesign.png)
 
 ## Hours
 

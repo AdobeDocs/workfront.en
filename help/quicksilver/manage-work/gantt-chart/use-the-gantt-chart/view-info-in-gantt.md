@@ -3,6 +3,7 @@ navigation-topic: use-the-gantt-chart
 title: View Information in the [!UICONTROL Gantt Chart]
 description: The Adobe Workfront task and project [!UICONTROL Gantt Charts] display information about tasks and projects.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
 last-update: 2026-04-01T18:03:50.000Z

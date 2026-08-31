@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: Convert an Issue to a Task
 description: If more work must be done to complete an issue after the issue is submitted, you can convert the issue to a task in Adobe Workfront.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
 last-update: 2026-04-01T18:03:50.000Z

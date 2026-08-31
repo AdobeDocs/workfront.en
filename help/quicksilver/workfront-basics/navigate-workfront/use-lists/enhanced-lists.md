@@ -82,6 +82,10 @@ Below are some types of Workfront object lists that use the enhanced list format
 | New Advanced Assignments on a task | Task > Assignments > Advanced |
 | Boards Admin View | Boards > Admin View |
 | Documents on Adobe cloud storage | Project, task, issue, portfolio, program, template, template task > Documents |
+<!--
+Add this BEFORE a list of reports in the table above:
+| <span class="preview">List of actions in the Update Feeds</span> | <span class="preview">Setup > Interface > Update Feeds > Actions tab</span> |
+-->
 
 ## Add items to an enhanced list
 

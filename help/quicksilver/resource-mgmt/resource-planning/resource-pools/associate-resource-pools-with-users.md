@@ -28,7 +28,7 @@ topic_v2:
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: The info about how to add resource pools to users, are duplicated from the articles listed in those sections (Creating Users, etc). I decided to keep the steps here because those articles are too long to rummage through for updating just this one field.)</p>
 -->
 
-Resource pools are collections of users what help you manage resources in Adobe Workfront.
+Resource pools are collections of users that help you manage resources in Adobe Workfront.
 
 You must create a resource pool before you can associate it with users.
 
@@ -76,11 +76,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 {{step-1-to-users}}
 
-1. Check the box next to the name of a user from the list, then click **Edit**.
+1. Select the check box next to the name of a user on the list, then click **Edit**.
 1. Click **Resource Planning**.
 1. Start typing the name of a resource pool that you want to associate with the user in the **Resource Pools** field, then select it from the list, when it appears.  
    You can associate multiple resource pools with one user.  
-   ![add_resource_pool_to_user.png](assets/add-resource-pool-to-user-350x307.png)  
+   ![Add resource pool to user](assets/add-resource-pool-to-user.png)  
 
 1. Click **Save Changes**.
 

@@ -36,11 +36,11 @@ Old:
 >
 >* For the new plan and license structure:
 >
->   * The Ultimate Workfront plan 
+>   * The Ultimate Workfront package 
 >    
 >* For the current plan and license structure: 
 >
->   * A Pro or higher Workfront plan
+>   * A Pro or higher Workfront package
 >   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    

@@ -4,6 +4,7 @@ navigation-topic: use-the-gantt-chart
 title: Level Resources in the  [!UICONTROL Gantt Chart]
 description: If the same resource is assigned to two different tasks, you can use resource leveling to adjust the timeline of the tasks so they will not occur at the same time. This article provides information about how to level resources in the Gantt Chart.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
 last-update: 2026-04-01T18:03:50.000Z

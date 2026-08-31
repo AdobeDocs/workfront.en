@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: Convert an Issue to a Project
 description: If more work needs to be done to complete an issue after the issue is submitted, you can convert the issue to a project in Adobe Workfront.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50.000Z

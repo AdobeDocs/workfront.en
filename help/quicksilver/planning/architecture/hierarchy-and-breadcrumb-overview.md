@@ -94,7 +94,7 @@ Consider the following:
 * Breadcrumbs display in the preview area of a record, as well as in the records' details page. 
 * If a record type is part of multiple hierarchies, you can switch between hierarchies from the record's breadcrumb on the record's page.
 * If the record type in a hierarchy has multiple records, you can select records from the breadcrumb. 
-* Breadcrumbs work across Workfront and Planning. 
+* Breadcrumbs work across Workfront and Planning, if your company purchased both Workfront and Planning packages. 
 
     For example, when looking at a project which is connected to Planning campaigns and tactics, and also to Workfront portfolios and programs, you can switch between both the Planning and the Workfront object types from the breadcrumb. 
 

@@ -83,9 +83,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Click the down arrow ![Down arrow](assets/dropdown-arrow.png) under **Customize what users see**, then click **Summary panel**. 
 
-1. In the list that displays underneath, click the object type for which you want to customize the Summary panel. 
+1. In the list that displays underneath, click the object type for which you want to customize the Summary panel.
 
-   The table below explains what you can customize for each object
+   The table below explains what you can customize for each object:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -95,7 +95,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td role="rowheader">Tasks</td> 
       <td> <p>In a list of tasks, this setting affects the Summary panel that displays on the right side of the page when a user selects a task, then clicks the Open Summary icon <img src="assets/summary-panel-icon.png">.</p>
       
-      <p> <img src="assets/summary-details.jpg"> </p> </td> 
+      <p> <img src="assets/summary-area.png"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Issues</td> 
@@ -103,34 +103,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
      </tr> 
     </tbody> 
    </table>
-
-<!--
-These were removed with the new Home: 
-
-<tr> 
-      <td role="rowheader">Projects</td> 
-      <td><ul><li><p>In Home, when a user clicks a project approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
-      <p><b>IMPORTANT:</b> </p><p>This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
-      </ul> 
-      </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Documents</td> 
-      <td>
-     <ul><li><p>In Home, when a user clicks a document approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
-      <p><b>IMPORTANT:</b> </p><p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
-      </ul>
-      </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Document Versions</td> 
-      <td><ul><li><p>In Home, when a user clicks an approval assigned to them for a particular version of a document, your configuration for this setting affects the area to the right of the approval.</p>
-      <p><p><b>IMPORTANT:</b></p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
-      </ul>
-      </td> 
-     </tr>
-     -->
-
 
    >[!IMPORTANT]
    >
@@ -186,3 +158,32 @@ These were removed with the new Home:
    If you are finished customizing, click **Save and Close**.
 
 For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
+
+
+<!--
+These table rows were removed with the new Home: 
+
+<tr> 
+      <td role="rowheader">Projects</td> 
+      <td><ul><li><p>In Home, when a user clicks a project approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p>This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
+      </ul> 
+      </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Documents</td> 
+      <td>
+     <ul><li><p>In Home, when a user clicks a document approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
+      </ul>
+      </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Document Versions</td> 
+      <td><ul><li><p>In Home, when a user clicks an approval assigned to them for a particular version of a document, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><p><b>IMPORTANT:</b></p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
+      </ul>
+      </td> 
+     </tr>
+     -->

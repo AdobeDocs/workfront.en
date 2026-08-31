@@ -234,6 +234,18 @@ To manage a timeline view:
         >
         >The timeline view only displays fiscal weeks according to classic quarters. If your Workfront administrator turns on Custom Quarters in the Setup area, the week information does not display in the timeline view.
 
+        <!--
+        When we release custom weeks, replace the tip above with this:
+        >[!TIP]
+        >
+        >Depending on which environment you are using to access the timeline view, the following scenarios exist:
+        >
+        >* In the Production environment, the timeline view only displays fiscal weeks according to classic quarters. If your Workfront administrator turns on Custom Quarters in the Setup area, the week information does not display in the timeline view.
+        >
+        >* <span class="preview">In the Preview environment, the timeline view displays fiscal weeks according to classic quarters, by default. If your Workfront administrator turns on Custom Quarters and Custom weeks in the Setup area, the timeline view displays the custom quarters and weeks in the Quarter and Month displays. </span>
+        >
+        -->
+        
 1. (Optional) Click **Switch to Compact view** to display the records whose dates don't intersect on the same line. <!--check to see if they updated the name of the setting here--> 
 1. (Conditional) If you changed your mode to **Compact**, click **Switch to Standard** view to display records in separate lines. The **Standard** option is the default.  <!--check to see if they updated the name of the setting here--> 
 
@@ -441,6 +453,7 @@ To add a grouping in the timeline view:
 1. Click one of the suggested fields, or click **Choose a different field**, and search for a different field, then click it when it displays in the list. 
 
     The grouping is applied automatically to the timeline and records display inside the grouping box. 
+1. (Optional) Click **Add condition** to add up to three fields to group by.
 1. (Optional and conditional) Depending on the field type you selected to group by, select one of the following sorting options to sort the groupings either in ascending or descending order:  
 
     * **A -> Z** or **Z -> A** for Select fields, Text fields, Paragraph fields, Connected records or objects, People fields
@@ -457,15 +470,22 @@ To add a grouping in the timeline view:
 
 1. In the **Group records by** box, drag and drop the groupings in the correct order.
 
+
 1.  In the **Layout** area of the **Group records by** box select one of the following options:
 
     * **Stacked**: Groupings display without a frozen left column and fit the width of their items' timelines.
 
         ![Stacked grouping in timeline view](assets/stacked-grouping-in-timeline-view.png)
-    * **Swimlane**: Groupings display with a frozen left header column that lists the grouped items and the groupings fit the width of the timeline view. 
+    * **Swimlane**: Groupings display with a frozen left panel that lists the grouped items and the groupings fit the width of the timeline view. 
 
         ![Swimlane grouping in timeline view](assets/swimlane-grouping-in-timeline-view.png)
 
+    Groupings are applied immediately. 
+    
+1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png)  in the toolbar to open the **Group records by** box, then click **Expand all** to expand all the groupings, or **Collapse all** to collapse all the groupings and manually collapse only the ones you need. </span>
+1. <span class="preview">(Optional and conditional) In the swimlane display, drag and drop the left panel separator to adjust its width. Each user's panel width is saved across sessions, with a default width for first-time users.</span>
+1. <span class="preview">(Optional) For long grouping names, hover over a grouping's line to see the full name of the grouping in a tooltip.</span>
+    
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
     Or

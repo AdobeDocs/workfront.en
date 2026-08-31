@@ -81,9 +81,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Click the down arrow ![Down arrow](assets/down-arrow-blue.png) under **Customize what users see**, then click **Lists** in the drop-down menu that displays.
-
-   ![Customize what users see](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
-
 1. Click the down arrow ![Down arrow](assets/down-arrow-blue.png) under **Select a list to customize**, then select the type of Workfront object for which you want to customize the Filter, View, and Grouping list controls.
 
    ![Select a list to customize](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)

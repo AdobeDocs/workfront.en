@@ -105,6 +105,7 @@ Information can be exported in the following formats:
 * PDF (Landscape or Portrait)
 * Excel
 * Excel (.xlsx)
+* CSV
 * Tab Delimited
 
 >[!NOTE]

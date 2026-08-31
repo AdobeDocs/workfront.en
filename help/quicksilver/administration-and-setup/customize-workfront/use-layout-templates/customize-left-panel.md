@@ -35,19 +35,13 @@ topic_v2:
 ---
 # Customize the left panel using a layout template
 
-{{preview-fast-release-general}}
-
 <!--Audited: 10/2024-->
 
 In a layout template, you can customize what users see in the left panel area throughout [!DNL Adobe Workfront].
 
 For example, you can determine which of the following items users see in the left panel when viewing a project:
 
-<span class="preview">Sample image in the Preview environment:</span>
 ![Left panel of a project](assets/left-panel-in-project-072326.png)
-
-Sample image in the Production environment:
-![Left panel of a project](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
 >

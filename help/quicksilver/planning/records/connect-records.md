@@ -598,13 +598,17 @@ To connect records with Adobe Experience Manager objects:
     >
     >You must add connected records to the current record to view them in the connected records page.  
 
-1. Click **Connect** in a list of records or **Connect records** in a list of projects to add or remove existing records or projects.
+1. Click **Connect records** in the upper-right corner of the connected record page to add or remove existing records or projects.
 
+    <!--
+    this is gone:
     ![Connect button highlighted in connected record details tab](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+    -->
 
     For information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-1. Click **New row** in a list of projects to create a project without a template. The new projects are automatically connected to the current record. 
 1. (Optional) If you cannot find a connected record, click **+ Add** to create and connect them. 
+1. Click **New row** to create a record. The new records are automatically connected to the current record. 
+
 
 ## Connect records from Workfront objects
 

@@ -272,9 +272,13 @@ The subscription resource contains the following fields.
 
    * **String** - The URL of the endpoint to which subscription event payloads are sent via HTTP.
 
-* authToken (required)
+* authToken (required on create)
 
-   * **String** - The OAuth2 bearer token used to authenticate with the URL specified in the "URL" field. 
+   * **String** - The OAuth2 bearer token used to authenticate with the URL specified in the "URL" field. The subscription creation response does not include this field at all, and every later response that includes it shows it masked (only the last 4 characters). The full value is never returned after you submit it, so we recommend keeping a copy of what you send.
+
+>[!NOTE]
+>
+>`authToken` is always masked in responses, showing at most the last 4 characters (For example: `****1234`). If the token is 8 characters or shorter, it's fully masked instead, so masking never reveals half or more of a short token. This applies to every endpoint that returns subscription details, including the deprecated list endpoint.
 
 ## Creating event subscription API requests
 
@@ -429,7 +433,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
     "objCode": "PROJ",
     "url": "http://requestb.in/ua5hi2ua",
     "eventType": "UPDATE",
-    "authToken": "authTokenWorkfrontRocks1234_"
+    "authToken": "****234_"
     "subscription_url": {
         "url": "http://requestb.in/ua5hi2ua",
         "date_created": "2024-04-11T15:56:14.169489",
@@ -503,7 +507,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
     "objCode": "PROJ",
     "url": "http://requestb.in/ua5hi2ua",
     "eventType": "UPDATE",
-    "authToken": "authTokenWorkfrontRocks1234_"
+    "authToken": "****234_"
     "subscription_url": {
         "url": "http://requestb.in/ua5hi2ua",
         "date_created": "2024-04-11T15:56:14.169489",
@@ -1378,7 +1382,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
                 "obj_code": "TASK",
                 "url": "http://test.test.net/test/1234",
                 "event_type": "UPDATE",
-                "auth_token": "auth_token"
+                "auth_token": "****oken"
                 },
                 {
                 "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
@@ -1387,7 +1391,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
                 "obj_code": "PROJ",
                 "url": "http://requestb.in/ua5hi2ua",
                 "event_type": "UPDATE",
-                "auth_token": "authTokenWorkfrontRocks1234_"
+                "auth_token": "****234_"
                 }                
                 ]
 ```

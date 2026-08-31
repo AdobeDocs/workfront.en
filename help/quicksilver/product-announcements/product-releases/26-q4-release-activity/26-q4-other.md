@@ -11,6 +11,16 @@ This page describes enhancements made with the Fourth Quarter 2026 release to th
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+## C2PA metadata is preserved on your files
+
+>[!NOTE]
+>
+>Production for everyone: August 26, 2026
+
+Adobe Workfront preserves C2PA metadata on documents you upload, store, and download, without modifying it.
+
+For more information, see [C2PA metadata in Adobe Workfront](/help/quicksilver/documents/c2pa-metadata-overview.md).
+
 ## Interface update for left navigation panel icons
 
 >[!NOTE]

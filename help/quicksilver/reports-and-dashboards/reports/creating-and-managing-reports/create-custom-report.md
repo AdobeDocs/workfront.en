@@ -142,7 +142,7 @@ For more detail about the information in this table, see [Access requirements in
 
    For more information about the fields you see in the columns, see [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   ![Add column typeahead](assets/nwe-add-column-typeahead-350x459.png)
+   ![Add column](assets/nwe-add-column-typeahead-350x459.png)
 
 1. (Optional) In the **Column Settings** area, select **Sort by this column** to sort the values in the column either in ascending on descending alphabetical order, then indicate whether the list should use this column as its first sort.
 

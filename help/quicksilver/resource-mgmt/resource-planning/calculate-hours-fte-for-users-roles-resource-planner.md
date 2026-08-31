@@ -61,7 +61,7 @@ The Workfront administrator determines how the available time for a user is calc
 * The Default Schedule of the system and the user's FTE. 
 * The user's schedule. 
 
-![System setting for user schedules](assets/setup-resource-mgmt.png)
+![System setting for user schedules](assets/resource-management-preferences-section-in-setup.png)
 
 >[!NOTE]
 >
@@ -105,8 +105,9 @@ Based on how this setting is configured, the availability of the users in the Re
 
 You first have to calculate the user availability, and then you can calculate the availability of each of their job roles.
 
-The availability of job roles in the Resource Planner takes into account the total availability of the user, and the Percentage of FTE Availability associated with each role of the user.  
-![percent_of_fte_availability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level-350x144.png)
+The availability of job roles in the Resource Planner takes into account the total availability of the user, and the Percentage of FTE Availability associated with each role of the user.
+
+![percent_of_fte_availability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level.png)
 
 For more information about associating a Percentage of FTE Availability value with a job role for a user, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 

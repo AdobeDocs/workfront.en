@@ -64,6 +64,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
+## Configure time logging
+
 1. Do either of the following, depending on your objective and your access level in the system:
 
    * **Standard or Plan user configuring time logging for yourself:** Click your profile picture in the top navigation area, then click **[!UICONTROL Workfront Profile]**. Then, click the **More** icon next to your name and select **Edit**.

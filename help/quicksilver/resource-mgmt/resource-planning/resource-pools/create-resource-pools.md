@@ -88,7 +88,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
      </tr>
      <tr>
       <td role="rowheader"><strong>Pool Members</strong></td>
-      <td><p> Add users to the Resource Pool individually.<br>Or <br>To add a large amount of users to the Resource Pool at one time. You can add one of the following entities associated with users or collection of users:
+      <td><p> Add users to the Resource Pool individually.<br>Or <br>Add a large amount of users to the Resource Pool at one time. You can add one of the following entities associated with users or collection of users:
         <ul>
          <li><strong>Teams</strong>: all members of the team are added to the Resource Pool.</li>
          <li><strong>Groups</strong>: all members of the group are added to the Resource Pool.</li>

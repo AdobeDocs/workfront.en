@@ -30,8 +30,6 @@ To keep all your historical information about work assignments, we recommend tha
 
 ## Access requirements
 
-## Access requirements
-
 +++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 

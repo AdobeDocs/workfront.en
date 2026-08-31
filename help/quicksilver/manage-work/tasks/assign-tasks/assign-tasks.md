@@ -179,9 +179,10 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
     
       >[!TIP]
       >
-      >When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
+      >* When adding a Task Collaborator, the name of the Task Collaborator is a first name only. Last names for Task Collaborators are blank.
+      >* When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
       >
-      >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+      >   You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
    * (Conditional) Click one of the names in the **Users and teams** or **Job roles** lists when they display. For more information, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
