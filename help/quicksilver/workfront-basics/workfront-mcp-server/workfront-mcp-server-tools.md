@@ -295,8 +295,28 @@ Insights tools retrieve information about Workfront objects.
 | List entities | `insights_list_entities` | List all Workfront object types available to query. | Read |
 | Search users | `insights_search_users` | Find people in your Workfront instance by name. Type a full or partial name, and get back the top matching users. This can also optionally include AI-collaborator "bots" alongside regular users. | Read |
 
+## Reporting tools
 
+Reporting tools let you build and manage Canvas Dashboards through chat. Describe the report you want in plain language, and the AI agentic platform creates the dashboard and widgets for you using your Workfront data.
 
+### Canvas Dashboards
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| List Dashboards | `list_dashboards` | Lists Reporting dashboards visible to you. Filter by view: "my" (dashboards you created), "shared", "all", or "favorites". Returns dashboard metadata only (no widget detail), including a URL to open each. | Read |
+| Get Dashboard | `get_dashboard` | Fetches a Canvas Dashboard by ID, including metadata, layout, prompts, filter, and widget IDs. Widget data is not included. | Read |
+| Get Widget | `get_widget` | Fetches a widget and its configuration. Supports Table, KPI, and MultiSeries widget types. | Read |
+| Create Dashboard | `create_dashboard` | Creates an empty Reporting dashboard. | Write |
+| Update Dashboard | `update_dashboard` | Partially updates a dashboard's title, description, currency, prompt, filter, or per-widget settings. | Write |
+| Create Table Widget | `create_table_widget` | Creates a Table widget and its report configuration on a dashboard. | Write |
+| Update Table Widget | `update_table_widget` | Updates an existing Table widget and its report configuration. | Write |
+| Create KPI Widget | `create_kpi_widget` | Creates a KPI widget and its report configuration on a dashboard. | Write |
+| Update KPI Widget | `update_kpi_widget` | Updates an existing KPI widget and its report configuration. | Write |
+| Create Chart Widget | `create_chart_widget` | Creates a Chart widget and its report configuration. Supports bar, column, line, and pie charts, including simple, multi-series, and stacked sub-types. | Write |
+| Update Chart Widget | `update_chart_widget` | Updates an existing Chart widget and its report configuration. | Write |
+| Copy Widget | `copy_widget` | Copies an existing widget to the same or a different dashboard, including its report configuration. | Write |
+| Copy Dashboard | `copy_dashboard` | Copies a dashboard, including its widgets and report configurations. You can optionally copy a subset of widgets and choose whether to include the prompt and filter. | Write |
+| Delete object | `delete_object` | Permanently deletes a Reporting dashboard (and all its widgets) or a single widget. This action cannot be undone. | Write |
 
 ## How tools are updated
 
