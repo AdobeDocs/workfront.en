@@ -276,6 +276,9 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>N/A</p></td>
             <td><p>N/A</p></td>
             <td><p>August 28, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Pivot table reports in Canvas Dashboards</a>
                 <p>The new pivot table report type in Canvas Dashboards aggregates data with accurate, complete roll-ups, with drill-down into underlying records.</p>
             </td>
