@@ -80,7 +80,7 @@ Below are some types of Workfront object lists that use the enhanced list format
 | List of job roles and rates on a rate card | Setup > Rate Cards > select a rate card > Job Roles and Rates |
 | <span class="preview">List of locations</span> | <span class="preview">Setup > Locations</span> |
 | List of translations | Setup > Localization |
-| <span class="preview">Lists of SharePoint integrations and custom integrations </span> | <ul><li><span class="preview">Setup > Documents > SharePoint Integration</span></li><li><span class="preview">Setup > Documents > Custom Integration</span></li></ul> |
+| <span class="preview">Lists of integrations </span> | <ul><li><span class="preview">Setup > Documents > SharePoint Integration</span></li><li><span class="preview">Setup > Documents > Custom Integration</span></li><li><span class="preview">Setup > Documents > Experience Manager Assets</span></li></ul> |
 | List of reports | Reports (**Use shareable folders** must be turned on) |
 | List of snapshots | Project > Snapshots |
 | List of resources for billing | Project > Resource for Billing |
