@@ -79,9 +79,8 @@ Below are some types of Workfront object lists that use the enhanced list format
 | <span class="preview">List of risk types</span> | <span class="preview">Setup > Risk Types</span> |
 | List of job roles and rates on a rate card | Setup > Rate Cards > select a rate card > Job Roles and Rates |
 | <span class="preview">List of locations</span> | <span class="preview">Setup > Locations</span> |
-| <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
 | List of translations | Setup > Localization |
-| <span class="preview">Lists of integrations </span> | <ul><li><span class="preview">Setup > Documents > SharePoint Integration</span></li><li><span class="preview">Setup > Documents > Custom Integration</span></li><li><span class="preview">Setup > Documents > Experience Manager Assets</span></li></ul> |
+| <span class="preview">Lists of integrations </span> | <ul><li><span class="preview">Setup > Documents > SharePoint Integration</span></li><li><span class="preview">Setup > Documents > Custom Integration</span></li></ul> |
 | List of reports | Reports (**Use shareable folders** must be turned on) |
 | List of snapshots | Project > Snapshots |
 | List of resources for billing | Project > Resource for Billing |
@@ -92,6 +91,14 @@ Below are some types of Workfront object lists that use the enhanced list format
 | <span class="preview">Lists of scenario plans and initiatives</span> | <span class="preview">Main Menu > Scenarios</span> |
 | <span class="preview">Lists of goals and progress indicators</span> | <ul><li><span class="preview">Main Menu > Goals</span></li><li><span class="preview">Main Menu > Goals > Progress Indicators</span></li></ul> |
 
+<!--
+
+Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documents > Experience Manager Assets</span></li>
+
+Under Locations?
+| <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
+-->
 
 ## Add items to an enhanced list
 
