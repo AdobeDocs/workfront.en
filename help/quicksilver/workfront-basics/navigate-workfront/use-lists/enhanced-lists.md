@@ -169,9 +169,16 @@ Depending on which objects you are viewing in an enhanced list, you can hide, sh
 
 1. Click **Columns** above the list.
 
+   Sample image in the Production environment:
    ![Display columns example](assets/glist-display-move-columns.png)
 
+   <span class="preview">Sample image in the Preview environment:</span>
+   ![Display columns example](assets/display-columns-090126.png)
+
 1. Use the toggles to display or hide columns in the list.
+
+  <span class="preview">You can search for a column in the search box.</span>
+
 1. To reorder the columns, click the **Drag** icon ![Drag icon](assets/drag-icon.png) and move a column to your desired location. Moving columns changes the list automatically.
 
    >[!NOTE]
