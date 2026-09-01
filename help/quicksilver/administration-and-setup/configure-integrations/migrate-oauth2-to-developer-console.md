@@ -102,7 +102,7 @@ The legacy Workfront OAuth2 service (fount in **Setup** > **System** > **OAuth2 
 >
 >If you're a Workfront product administrator but not an Org administrator, you need to work with your Org administrator to complete this migration, or ask to be made one.
 
-1. Log in to [developer.adobe.com](developer.adobe.com) and create a new Project. Projects are how the console organizes different integrations or client apps.
+1. Log in to [developer.adobe.com](https://developer.adobe.com) and create a new Project. Projects are how the console organizes different integrations or client apps.
 1. From the Project, add an API, and select **Adobe Workfront**. This API is under the Experience Cloud category. All Workfront APIs, including Planning, Workflow, and Review and Approvals, share this single API.
 1. Select the **Server-to-Server** authentication option, then choose the correct instance if your IMS Org has more than one Workfront instance.
 
