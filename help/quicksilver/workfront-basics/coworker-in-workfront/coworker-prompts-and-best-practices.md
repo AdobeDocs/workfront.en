@@ -7,6 +7,8 @@ feature: Get Started with Workfront
 ---
 # CX Coworker prompts and best practices
 
+<!--DO NOT USE THIS--Link instead to the MCP example prompts article, make sure it's updated with the recent releases to MCP-->
+
 >[!IMPORTANT]
 >
 >CX Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is available to these organizations. For more information, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
@@ -157,7 +159,7 @@ See example prompts for document and asset approvals in the following areas:
 
 * [Find information about projects, tasks, or issues](#find-information-about-projects-tasks-or-issues)
 * [Summarize projects, tasks, or issues](#summarize-projects-tasks-or-issues)
-* [Show Project Health for projects, programs, or portfolios](#show-project-health-for-projects-programs-or-portfolios)
+* [Show Project Health for projects, programs, or portfolios](#show-project-health-for-projects-programs-or-portfolios) <!--remove any mention of project health-->
 
 #### Find information about projects, tasks, or issues
 
@@ -209,7 +211,6 @@ You can create projects from scratch or from templates, update projects, and del
 * Create a project called Website Redesign – EMEA starting March 1 and ending June 15. It's high priority, owned by EMEA Marketing, sponsored by the VP of Marketing, budgeted at $250K with about 1,200 planned hours, focused on Europe with the goal of improving conversions.
 * For the Lucent AI Launch – NA project, move it to Q2, change the objective to driving free trials, push the finish to mid-April, increase the budget to $150K, and mark it as urgent.
 * Show me all current marketing projects finishing in Q2 that are high or urgent priority, sorted by earliest end date.
-* Delete the project called Q1 Test Campaign.
 
 #### Add or edit tasks 
 
