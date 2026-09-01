@@ -56,9 +56,16 @@ For more information about built-in integrations, including a list of currently 
 
 Adobe [!DNL Workfront] administrators can create OAuth2 applications for your instance of [!DNL Workfront], which allow other applications to access [!DNL Workfront]. Your users can then give permission to those other applications to access their [!DNL Workfront] data. In this way, you can integrate Workfront with applications of your choice, including your own in-house applications.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->In the context of OAuth2, "creating an app" refers to the process of creating this sort of access link between an app and a server such as Workfront.
+>* Custom OAuth2 applications are in the process of being deprecated. Please note the following dates:
+>
+>   * November 1, 2026: You will no longer be able to create new custom OAuth2 applications.
+>   * February 1, 2027: Existing custom OAuth2 applications will no longer work.
+>
+>   For more information, see [Migrate from Workfront OAuth2 to Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
+>
+>* In the context of OAuth2, "creating an app" refers to the process of creating this sort of access link between an app and a server such as Workfront.
 
 Advantages of creating an [!UICONTROL OAuth2] application may include the following:
 
