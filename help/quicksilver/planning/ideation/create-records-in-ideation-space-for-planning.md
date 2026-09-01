@@ -27,7 +27,7 @@ THIS ARTICLE HAS 2 DRAFTS IN 2 SEPARATE AREAS FROM CLAUDE - THEY WERE CREATED AT
 
 {{planning-important-intro}}
 
-This article walks through how to use the Ideation space for Workfront Planning to brainstorm campaign ideas and connect them to real Workfront Planning records. 
+This article describes how to use the Ideation space for Workfront Planning to brainstorm ideas and connect them to real Workfront Planning records. 
 
 ## Access requirements
 
@@ -36,7 +36,6 @@ This article walks through how to use the Ideation space for Workfront Planning 
 <!--
 are there additional license restrictions or packages to be purchased to have access to Ideation space?? If yes, update the table below
 -->
-
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,6 +54,14 @@ are there additional license restrictions or packages to be purchased to have ac
 Or
 <li><p>Any Planning package when purchased as a standalone product</p></li></ul>
    </td> 
+
+<tr> 
+   <td role="rowheader"><p>Additional products</p></td> 
+   <td><ul>
+   <li><p>Adobe GenStudio for Performance Marketing</p></li>
+   <li><p>Adobe Customer Journey Analytics</p></li></ul>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td><p>Workflow Standard</p>
@@ -72,10 +79,9 @@ Or
   </tr>  
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td> <p>Contribute or higher permissions to the workspace and record type where you want to add records. </p>
-   <p>View or higher permissions to the workspace and record type to create records using the Request record button on the record page</p>
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-   <p>Manage permissions to Workfront objects (portfolios) to add children objects (projects).</p>
+   <td> <p>Contribute or higher permissions to the workspace and record type where you want to add records </p>
+      <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+      <p>View permissions to Workfront objects to add them to briefs</p>
    </td> 
   </tr>  
 </tbody> 
@@ -85,7 +91,33 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++   
 
-****************FIRST DRAFT FROM CLAUDE**************************
+<!--
+Internal info: 
+
+## The Ideation space and Adobe GenStudio
+
+Adobe GenStudio for Performance Marketing is Adobe's end-to-end content supply chain solution, spanning five stages:
+
+1. Strategy and Ideation
+2. Workflow and Planning
+3. Asset Management
+4. Creation and Production
+5. Delivery and Activation
+
+The Ideation space fits in the **Strategy and Ideation** stage — the front door of the content supply chain — and is designed to work natively with the rest of GenStudio, so the briefs and strategic direction it generates flow directly into Workfront Planning for execution.
+-->
+
+## Considerations about using the Ideation space to create records
+
+* You can launch the Ideation space from Workfront Planning, as you create or edit records. 
+
+* You do not need a separate login to access the Ideation space. 
+
+* You must have the following to access the Ideation space: 
+
+    * A workspace
+    * A record type
+
 
 ## Create records using the Ideation space for Workfront Planning
 
@@ -104,6 +136,10 @@ The more details you share, the more useful the information provided by the idea
     Type a description of the campaign you're planning — for example: "back to school campaign for a marketing agency". 
     
 1. Click **Start ideating**.
+
+
+
+*************** LEFT HERE - BUT MOST OF WHAT FOLLOWS WILL MOVE TO THIS NEW ARTICLE, SO JUST INCLUDE A LINK TO THAT: help/quicksilver/planning/ideation/configure-ideation-and-create-briefs-in-ideation-space.md **********************
 
     The Ideation space works through the following steps while it builds your idea: <!--check some of these in the UI - there might have been UI text changes-->
 
@@ -141,10 +177,6 @@ The more details you share, the more useful the information provided by the idea
    You can upload the following document types: PDF, CSV, Word, Excel, Powerpoint, any image file format. 
 
 1. Click **Add Add WF Taxonomy Card** ![Add records from Planning to Ideation space](assets/add-from-wf-planning-on-ideations-space.png) in the upper-left corner of the page to browse for records and add them to the ideation space. <!--double check the name of the UI element/ tooltip-->
-
-
-
-
 
 
 ## Step 5: Open the Workfront Planning Records panel
