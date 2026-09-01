@@ -25,6 +25,15 @@ topic_v2:
 ---
 # Configure and use your organization's custom OAuth 2 applications using authorization code flow
 
+>[!IMPORTANT]
+>
+>Custom OAuth2 applications are in the process of being deprecated. Please note the following dates:
+>
+>* November 1, 2026: You will no longer be able to create new custom OAuth2 applications.
+>* February 1, 2027: Existing custom OAuth2 applications will no longer work.
+>
+>For more information, see [Migrate from Workfront OAuth2 to Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
+
 In order to integrate with Workfront and allow your client app to communicate with Workfront on behalf of the user, you must:
 
 * Create an OAuth2 application

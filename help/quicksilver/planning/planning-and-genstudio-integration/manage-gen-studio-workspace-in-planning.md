@@ -375,6 +375,17 @@ CAN YOU DO THIS??
 
       For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
+   <!--
+   <div class="preview">
+
+   * Business rules
+
+      You can configure record type business rules to define what conditions must be met before users are allowed to edit or delete records of that type. 
+
+      For information, see [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).
+   </div>
+   -->
+   
 1. To share a view or the record type, do the following: 
 
    * Click **Share** in the upper-right corner of the record type page, then click one of the following:

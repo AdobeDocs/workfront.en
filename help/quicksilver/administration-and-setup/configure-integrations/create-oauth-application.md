@@ -36,9 +36,16 @@ As an [!DNL Adobe Workfront] administrator, you can create OAuth2 applications f
 
 When you create an [!UICONTROL OAuth2] application, you generate a Client ID and Client Secret. Your users can then use the Client ID in API calls to integrate with the application you have created.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->In the context of OAuth2, "creating an app" refers to the process of creating this sort of access link between an app and a server such as [!DNL Workfront].
+>* Custom OAuth2 applications are in the process of being deprecated. Please note the following dates:
+>
+>   * November 1, 2026: You will no longer be able to create new custom OAuth2 applications.
+>   * February 1, 2027: Existing custom OAuth2 applications will no longer work.
+>
+>   For more information, see [Migrate from Workfront OAuth2 to Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
+>
+>* In the context of OAuth2, "creating an app" refers to the process of creating this sort of access link between an app and a server such as [!DNL Workfront].
 
 * For instructions on configuring and using the OAuth2 application with user credentials (authorization code flow), see [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md).
 * For instructions on configuring and using the OAuth2 application using server authentication (JWT flow), see [Configure and use your organization's custom OAuth 2 applications using JWT flow](../../wf-api/api/oauth-app-jwt-flow.md).

@@ -1,6 +1,6 @@
 ---
 title: Configure Record Type Business Rules
-description: You can configure record type business rules that define how records of that type are managed in Adobe Workfront Planning. 
+description: You can configure record type business rules that can enforce certain actions on records according to field values. 
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -17,12 +17,12 @@ recommendations: noDisplay, noCatalog
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
-You can configure business rules for Adobe Workfront Planning record types that define how records of that type are managed. 
+You can configure business rules for Adobe Workfront Planning record types to indicate that certain fields are required before an action on a record of that type is allowed or prevented. 
 
-You can allow for the following actions on the records if the defined business rules are met: 
+Depending on how the rule is formulated, you can allow for the following actions on the records if the defined business rules are met: 
 
-* Edit a record
-* Delete a record
+* Edit or not edit a record
+* Delete or do not delete a record
 
 ## Access requirements
 
@@ -74,25 +74,88 @@ Or
 
 ## Considerations when configuring business rules
 
-* You can configure rules that indicate when records can be edited or deleted. 
+* Business rules attach a condition to a field change or a record deletion. The rule only comes into play at one specific, deliberate moment: when a field is about to change to a field value you configure in the rule. 
 
-   For example, you can create conditions for requiring certain fields to have a value. If the value is missing from those fields, users cannot edit or delete that record. 
+* A rule looks like this in plain language: "Before you can edit this record, the Campaign summary field must have a value".
+
+   If the field is empty, the record edit is blocked and the user receives a clear message explaining what they need to to address before moving forward. Once they update the required field and try again, the change is allowed. 
+
+* Rules don't block record creation. Users can still create  records but they must ensure that the required fields are not empty or contain the specified value. 
+* Rules don't automatically edit or delete records. The change must be deliberate and triggered by a user. 
+* Rules are not apply retroactively: old records are not affected. The rule check only runs the next time someone tries to edit or delete a record. 
 * You cannot add business rules to global record types in their primary or secondary workspaces. 
-* You cannot configure rules for when records are created. Everyone with Manage permissions to the record type can create records.
 * You can create a condition for your business rule that references all field types except for the following:  
     * Formula fields 
     * Lookup fields 
     * Reference fields  
+* Rules apply to everyone who can edit or delete records. 
+* You can have more that one business rule for a record type.  <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU-->
+
+   All the rules are checked together at the same time, and the error message displays all the fields that are missing in one statement. 
 
 ## Configure business rules
 
-1. Go to a record type. 
-1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click **Business rules**.
+1. Go to a record type page. 
+1. From any view, click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click **Business rules**.
 
    The Business rules pages opens.
 1. Click **New business rule**.
-1. In the New business rule box, add a name for the business rule in the first available field. This is a required field
-1. (Optional) Add a description to define the business rule. 
+1. In the **New business** rule box, add a name for the business rule in the first available field. This is a required field
+1. (Optional) Add a description to define the business rule, then click **Save**.
+1. In the **If** section of the business rule setup form, choose which actions you would like to restrict or allow based on a specific rule. Choose from the following: <!--check UI text-->
+   * **Record edit**: Users will be allowed to edit or not edit the record, if the condition defined in this rule is met. 
+   * **Record delete**: Users will be allowed to delete or not delete the record, if the condition defined in this rule is met.
+      <!--add screen shot when UI text is final-->
+1. In the **Formula field**, add the business rule. Choose an operator for your rule from the **Formula expressions** section in the right panel.
+   
+   For example, you can choose **IF** from the **Other** fields section, or start typing "IF", then click it when it displays in the suggestion list. 
+   
+      >[!TIP]
+      >
+      >Selecting the fields and operators from the suggestion list is recommended, to keep the syntax of the rule correct. 
+1. Choose and the field that you want to make mandatory to allow for the records of this record type to be either edited or deleted. 
+
+   For example, you can type the following statement to make the **Campaign summary** field required: 
+
+   ```
+      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary.")
+
+   ```
+   
+      >[!IMPORTANT]
+      >
+      >We strongly recommend that you include in the rule formula the following information to make it easy for users to understand when an action they are trying to perform on a record is not allowed: 
+      >
+      >* The exact fields that the rule is set up for. 
+      >* The exact consequence if the rule is not met. 
+
+   There are indicators in the **Formula** field when a field or an expression is wrong.  <!--add screen shot?-->
+
+   In the **Then** section of the business rule, you can view an explanation of what the rule does. 
+
+1. Click **Activate** to make the rule active for this record type, then click **Save**.
+
+   Rules are applied immediately after you activate them and all users who have permissions to edit or delete records in the selected record type must follow them. 
+1. (Optional and recommended) Click the back arrow to the left of the **Business rules** in the page header to display the record type page and go to a table view or open a record's page, then try editing or deleting a record, to test the rule you just created. 
+
+## Manage business rules
+
+You can edit, delete or deactivate existing business rules. 
+
+Editing an existing rule does not change existing records. The edited rule only applies to existing records when someone attempts to edit or delete them. 
+
+1. Go back to the **Business rules** configuration page for the record type.
+1. Find the rule you want to change.
+1. Hover over the rule name, then click the **More** menu ![More menu](assets/more-menu.png), then one of the following options:
+
+   * **Edit**: This opens the business rule setup page and you can edit information about the business rule. 
+   * **Deactivate**: <!--check this in the UI: right now, it says Disable--> This stop the rule from triggering but preserves for the future, it needed. 
+   * **Delete**: All the information about the rule is deleted. Deleted rules cannot be recovered. 
+
+   The edited rules or the deactivation of rules apply only for future records and they are not applied retroactively. 
+
+   <!--add screen shot if UI is fixed with Deactivate-->
+
 
 <!--
 
@@ -111,18 +174,9 @@ If the field is empty, the status change is blocked and the person gets a clear 
 
 A few important things this is *not*:
 
-* **It doesn't block record creation.** People can still create a new record instantly and fill it in over time, exactly like today.
+* **It doesn't block record creation.** People can still create a new record instantly and fill it in over time, exactly like today. 
 * **It doesn't auto-fill anything or auto-change statuses.** A person always has to make the status change themselves.
 * **It doesn't retroactively flag old records.** Records that are already sitting in the target status aren't affected — the check only runs the next time someone tries to move a record *into* that status.
-
-
-
-### Before you start
-
-A couple of things need to be true before you can configure rules:
-
-1. **The feature has to be turned on for your organization.** This is done on Adobe's side (via a feature flag), not something you enable yourself. If you don't see the business rules section described below, check with your Adobe contact to confirm it's been enabled for your tenant.
-2. **You need admin or workspace-configurator permissions.** Regular planners can't create or edit rules — only people managing the workspace setup can.
 
 ### Step 1: Open the business rules configuration area
 
@@ -135,8 +189,6 @@ Business rules live alongside your other admin setup — you won't need to hunt 
 ### Step 2: Choose the record type
 
 Rules are configured per record type, so pick the one you want to add a rule to. For example, if you want to make sure every Materials record has key fields filled in before execution, select **Materials**.
-
-
 
 ### Step 3: Create a new rule
 

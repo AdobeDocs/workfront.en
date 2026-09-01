@@ -213,3 +213,11 @@ Old:
    >* ⌘+K for Mac 
    >
    >![Global search box](assets/global-search-box.png)
+
+<!--
+1. <span class="preview">(Optional) To add, edit, deactivate or delete record type business rules, go to the record type page and click the More menu to the right of the record type name, then click **Business rules**. </span>
+
+   <span class="preview">Business rules are conditions set on the record type that define when records of that type can be edited or deleted. </span>
+
+   <span class="preview"> For information, see [Create record types business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).</span> 
+-->
