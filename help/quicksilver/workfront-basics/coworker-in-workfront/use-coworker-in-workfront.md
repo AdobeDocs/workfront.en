@@ -51,6 +51,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Prerequisites
 
+* You must have existing access and permissions to a Workfront object before you can interact with it in CX Coworker. For example, you must have at least View access to a project to see information about it in Coworker.
 * Your Workfront administrator must enable the Write MCP tools option in your organization's System Preferences before you can make any changes in Workfront through CX Coworker. By default, CX Coworker has Read-only capabilities.
 
    For information and instructions, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
