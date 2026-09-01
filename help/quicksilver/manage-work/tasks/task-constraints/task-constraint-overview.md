@@ -40,6 +40,8 @@ Task constraints determine when a task should start and end on a project.
 
 As you build your project plan, you make decisions on the sequence and time frame of your tasks on the project. Tasks can function independently of any task sequence but they might impact the project timeline. Task Constraints allow a project manager to plan when certain tasks can start or complete on a project.
 
+Task constraints apply identically to project tasks and template tasks. 
+
 Depending on the constraint you use, you might have to specify a Planned Start Date, a Planned Completion Date, or both for the task.
 
 Constraint types that require defined dates impact predecessor relationships.
@@ -48,7 +50,9 @@ Constraint types that require defined dates impact predecessor relationships.
 >
 >Consider using a constraint type that does not require specific dates if you are using predecessor relationships between tasks.
 
-The following table displays each constraint and its abbreviation. Abbreviations are used on task lists and when creating Kick-Start import files. Click the linked title of each task constraint for more information about that type of constraint.
+The following table displays each constraint and its abbreviation. 
+
+Abbreviations are used on task lists and when creating Kick-Start import files. Click the linked title of each task constraint for more information about that type of constraint.
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 

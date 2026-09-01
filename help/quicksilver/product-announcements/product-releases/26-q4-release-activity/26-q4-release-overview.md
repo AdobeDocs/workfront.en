@@ -261,6 +261,33 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Approval Type field in Canvas Dashboards</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>The Approval entity now includes an Approval Type field, which lets users distinguish between proof approvals, document version approvals, intake approvals, and other approval kinds.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>N/A</p></td>
+            <td><p>August 28, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Approval terminology update in Canvas Dashboards</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Several field names used in Canvas Dashboards for document and work approvals have been renamed for clarity.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>N/A</p></td>
+            <td><p>August 28, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Pivot table reports in Canvas Dashboards</a>
+                <p>The new pivot table report type in Canvas Dashboards aggregates data with accurate, complete roll-ups, with drill-down into underlying records.</p>
+            </td>
+            <td><p>August 27, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Enforcing end dates for scheduled reports</a>
                 <p>Scheduled reports now require an end date to prevent indefinite delivery, with automatic deactivation once a schedule's end date passes.</p>
             </td>
@@ -321,6 +348,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Preview</strong></td>
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
+        </tr>
+           <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">C2PA metadata is preserved on your files</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Adobe Workfront preserves C2PA metadata on documents you upload, store, and download, without modifying it.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>N/A</p></td>
+            <td><p>August 26, 2026</p></td>
         </tr>
         <tr>
             <td>

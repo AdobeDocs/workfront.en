@@ -226,6 +226,11 @@ The following table lists the fields available for event subscription resources:
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>realRequesterID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td> realUserID </td> 
   </tr> 
   <tr> 
@@ -404,6 +409,46 @@ The following table lists the fields available for event subscription resources:
    <td> </td> 
    <td>workRequired</td> 
   </tr> 
+  <tr> 
+   <td>Booking</td> 
+   <td>BOOKNG</td> 
+   <td>accessorIDs</td> 
+  </tr> 
+  <tr><td> </td><td> </td><td>actualCompletionDate</td></tr> 
+  <tr><td> </td><td> </td><td>actualCost</td></tr> 
+  <tr><td> </td><td> </td><td>actualHours</td></tr> 
+  <tr><td> </td><td> </td><td>actualRevenue</td></tr> 
+  <tr><td> </td><td> </td><td>actualStartDate</td></tr> 
+  <tr><td> </td><td> </td><td>categoryID</td></tr> 
+  <tr><td> </td><td> </td><td>customerID</td></tr> 
+  <tr><td> </td><td> </td><td>description</td></tr> 
+  <tr><td> </td><td> </td><td>enteredByID</td></tr> 
+  <tr><td> </td><td> </td><td>entryDate</td></tr> 
+  <tr><td> </td><td> </td><td>ID</td></tr> 
+  <tr><td> </td><td> </td><td>isBillable</td></tr> 
+  <tr><td> </td><td> </td><td>isClosed</td></tr> 
+  <tr><td> </td><td> </td><td>isOvertime</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdateDate</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdatedByID</td></tr> 
+  <tr><td> </td><td> </td><td>nlbrCategoryID</td></tr> 
+  <tr><td> </td><td> </td><td>nonLaborResourceID</td></tr> 
+  <tr><td> </td><td> </td><td>objCode</td></tr> 
+  <tr><td> </td><td> </td><td>overtimeRatio</td></tr> 
+  <tr><td> </td><td> </td><td>parameterValues</td></tr> 
+  <tr><td> </td><td> </td><td>plannedCompletionDate</td></tr> 
+  <tr><td> </td><td> </td><td>plannedCost</td></tr> 
+  <tr><td> </td><td> </td><td>plannedHours</td></tr> 
+  <tr><td> </td><td> </td><td>plannedRevenue</td></tr> 
+  <tr><td> </td><td> </td><td>plannedStartDate</td></tr> 
+  <tr><td> </td><td> </td><td>projectID</td></tr> 
+  <tr><td> </td><td> </td><td>referenceObjectName</td></tr> 
+  <tr><td> </td><td> </td><td>resourceAliasName</td></tr> 
+  <tr><td> </td><td> </td><td>securityRootID</td></tr> 
+  <tr><td> </td><td> </td><td>securityRootObjCode</td></tr> 
+  <tr><td> </td><td> </td><td>seriesID</td></tr> 
+  <tr><td> </td><td> </td><td>status</td></tr> 
+  <tr><td> </td><td> </td><td>statusEquatesWith</td></tr> 
+  <tr><td> </td><td> </td><td>taskID</td></tr> 
   <tr> 
    <td>Company</td> 
    <td>CMPY</td> 
@@ -817,6 +862,11 @@ The following table lists the fields available for event subscription resources:
    <td> </td> 
    <td> </td> 
    <td>project: portfolioID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>project:status</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1571,6 +1621,11 @@ The following table lists the fields available for event subscription resources:
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>plannedStartDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>priority</td> 
   </tr> 
   <tr> 
@@ -1581,7 +1636,27 @@ The following table lists the fields available for event subscription resources:
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>project:programID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>project: portfolioID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>project:status</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>queueDefID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>queueTopicBreadcrumb</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1668,6 +1743,49 @@ The following table lists the fields available for event subscription resources:
    <td> </td> 
    <td>workflowAutomationID</td> 
   </tr> 
+  <tr> 
+   <td>Non-Labor Category</td> 
+   <td>NLBRCY</td> 
+   <td>categoryID</td> 
+  </tr> 
+  <tr><td> </td><td> </td><td>customerID</td></tr> 
+  <tr><td> </td><td> </td><td>description</td></tr> 
+  <tr><td> </td><td> </td><td>enteredByID</td></tr> 
+  <tr><td> </td><td> </td><td>entryDate</td></tr> 
+  <tr><td> </td><td> </td><td>ID</td></tr> 
+  <tr><td> </td><td> </td><td>isActive</td></tr> 
+  <tr><td> </td><td> </td><td>isBookable</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdateDate</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdatedByID</td></tr> 
+  <tr><td> </td><td> </td><td>measurementUnit</td></tr> 
+  <tr><td> </td><td> </td><td>name</td></tr> 
+  <tr><td> </td><td> </td><td>objCode</td></tr> 
+  <tr><td> </td><td> </td><td>parameterValues</td></tr> 
+  <tr><td> </td><td> </td><td>scheduleID</td></tr> 
+  <tr><td> </td><td> </td><td>uniqueIdentifier</td></tr> 
+  <tr> 
+   <td>Non-Labor Resource</td> 
+   <td>NLBR</td> 
+   <td>avatarDate</td> 
+  </tr> 
+  <tr><td> </td><td> </td><td>avatarDownloadURL</td></tr> 
+  <tr><td> </td><td> </td><td>categoryID</td></tr> 
+  <tr><td> </td><td> </td><td>customerID</td></tr> 
+  <tr><td> </td><td> </td><td>description</td></tr> 
+  <tr><td> </td><td> </td><td>enteredByID</td></tr> 
+  <tr><td> </td><td> </td><td>entryDate</td></tr> 
+  <tr><td> </td><td> </td><td>homeGroupID</td></tr> 
+  <tr><td> </td><td> </td><td>ID</td></tr> 
+  <tr><td> </td><td> </td><td>isActive</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdateDate</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdatedByID</td></tr> 
+  <tr><td> </td><td> </td><td>measurementUnit</td></tr> 
+  <tr><td> </td><td> </td><td>name</td></tr> 
+  <tr><td> </td><td> </td><td>nlbrCategoryID</td></tr> 
+  <tr><td> </td><td> </td><td>objCode</td></tr> 
+  <tr><td> </td><td> </td><td>parameterValues</td></tr> 
+  <tr><td> </td><td> </td><td>scheduleID</td></tr> 
+  <tr><td> </td><td> </td><td>uniqueIdentifier</td></tr> 
   <tr> 
    <td>Note</td> 
    <td>NOTE</td> 
@@ -1822,6 +1940,11 @@ The following table lists the fields available for event subscription resources:
    <td> </td> 
    <td> </td> 
    <td>subject</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>tags</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2156,7 +2279,7 @@ The following table lists the fields available for event subscription resources:
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>lastUpatedByID</td> 
+   <td>lastUpdatedByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2187,6 +2310,11 @@ The following table lists the fields available for event subscription resources:
    <td> </td> 
    <td> </td> 
    <td>plannedCompletionDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>plannedStartDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -3148,6 +3276,11 @@ The following table lists the fields available for event subscription resources:
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>numberOfChildren</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>objCode</td> 
   </tr> 
   <tr> 
@@ -3164,6 +3297,11 @@ The following table lists the fields available for event subscription resources:
    <td> </td> 
    <td> </td> 
    <td>plannedCompletionDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>plannedStartDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -3245,6 +3383,21 @@ The following table lists the fields available for event subscription resources:
    <td> </td> 
    <td>workflowAutomationID</td> 
   </tr> 
+  <tr> 
+   <td>Team</td> 
+   <td>TEAMOB</td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr><td> </td><td> </td><td>description</td></tr> 
+  <tr><td> </td><td> </td><td>entryDate</td></tr> 
+  <tr><td> </td><td> </td><td>groupID</td></tr> 
+  <tr><td> </td><td> </td><td>ID</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdateDate</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdatedByID</td></tr> 
+  <tr><td> </td><td> </td><td>name</td></tr> 
+  <tr><td> </td><td> </td><td>objCode</td></tr> 
+  <tr><td> </td><td> </td><td>ownerID</td></tr> 
+  <tr><td> </td><td> </td><td>parameterValues</td></tr> 
   <tr> 
    <td>Template</td> 
    <td>TMPL</td> 

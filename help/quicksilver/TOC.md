@@ -833,6 +833,7 @@ feature-set: Workfront
     * [Create Adobe Workfront Creative Cloud packages for your users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
     * [Create OAuth2 applications for Workfront integrations](administration-and-setup/configure-integrations/create-oauth-application.md)
     * [View and manage custom OAuth2 applications](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
+    * [Migrate from Workfront OAuth2 to Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)
     * [Configure the JumpSeat integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
   * Blueprints {#blueprints}
     * [Blueprints](administration-and-setup/blueprints/blueprints.md)
@@ -1243,6 +1244,7 @@ feature-set: Workfront
     * [Uninstall the Workfront with Adobe Experience Manager legacy connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
     * [Uninstall the Workfront with Adobe Experience Manager enhanced connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
     * [Migrate linked folders and documents](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/workfront-document-link-updates.md)
+  * [C2PA metadata in Adobe Workfront](documents/c2pa-metadata-overview.md)
 * Manage Work {#manage-work}
   * [Manage work](manage-work/manage-work.md)
   * Projects {#projects}
@@ -1617,6 +1619,7 @@ feature-set: Workfront
       * [Build a KPI report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
       * [Build a chart report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
       * [Build a table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
+      * [Build a pivot table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)
     * Manage Canvas Dashboards {#manage-canvas-dashboards}
       * [Manage Canvas Dashboards: article index](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
       * [Share a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
@@ -2204,6 +2207,7 @@ feature-set: Workfront
     * [Create Record Types by importing information from a CSV or Excel file](planning/architecture/import-file-to-create-record-types.md)
     * [Cross-workspace record types overview](planning/architecture/cross-workspace-record-types-overview.md)
     * [Configure cross-workspace capabilities for record types](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+    * {hide-from-toc} [Configure record type business rules](planning/architecture/configure-business-rules.md)
     * [Configure the Settings area of a record type](planning/architecture/configure-record-type-settings.md)
     * [Add existing record types from another workspace](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [Connect record types overview](planning/architecture/connect-record-types-overview.md)
@@ -2233,6 +2237,7 @@ feature-set: Workfront
     * [Share record types](planning/access/share-record-types.md)
     * [Share views](planning/access/share-views.md)
     * [Share records](planning/access/share-records.md)
+    * {hide-from-toc} [Share Workfront Planning fields](planning/access/share-fields.md)
     * [Set default permissions for records](planning/access/set-default-record-permissions.md)
     * [Request permissions to a view or a workspace](planning/access/request-permissions.md)
   * Adobe Workfront Planning records {#adobe-workfront-planning-records}
@@ -2717,6 +2722,7 @@ feature-set: Workfront
   * [App Builder: article index](/help/quicksilver/app-builder/app-builder-toc.md)
   * [Acquire and install apps from Adobe Exchange](/help/quicksilver/app-builder/install-apps-on-exchange.md)
   * [Create custom applications for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md)
+  * {hide-from-toc} [Build App Builder apps with Claude Code skills](/help/quicksilver/app-builder/build-apps-with-claude-code-skills.md)
 * {hide-from-toc} [Hidden test document](hidden-test.md)
 * {hide-from-toc} [Hide 2](hidden-test-2.md)
 
