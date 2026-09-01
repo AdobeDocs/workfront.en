@@ -293,12 +293,18 @@ You can manually add record types in both the Operational Record Types and Taxon
 
     The changes are saved automatically.
 
-    For additional information about adding records, deleting or editing record types, or updating the view in the record type page, see the following articles:
+    For additional information about adding records, deleting or editing record types, <!--<span class="preview">creating business rules</span>--> or updating the view in the record type page, see the following articles:
 
       * [Create records](/help/quicksilver/planning/records/create-records.md)
       * [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md)
       * [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md)
       * [Manage record views](/help/quicksilver/planning/views/manage-record-views.md) 
+
+    <!--  
+    <div class="preview">
+    * [Create record types business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
+    </div>
+    -->
 
 ## Create record types by importing information from a CSV or Excel file
 
