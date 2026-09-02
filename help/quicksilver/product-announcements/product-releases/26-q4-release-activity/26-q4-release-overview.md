@@ -85,6 +85,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>September 17, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Large file support for custom document integrations</a>
+                <p>Custom document integrations now support chunked uploads, making uploads of files over 25 MB faster and more reliable.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
 <!--
         <tr>
             <td>

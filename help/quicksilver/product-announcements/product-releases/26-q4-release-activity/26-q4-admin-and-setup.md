@@ -113,6 +113,18 @@ Previously, custom applications were always the last items in the layout templat
 
 For more information on adding custom applications to the Main Menu, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
+## Large file support for custom document integrations
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+Custom document integrations now support chunked uploads for large files. When enabled, files over 25 MB are broken into smaller chunks and uploaded in parallel, making uploads of large files faster and more reliable. Admins can turn this on and set the maximum chunk size (up to 100 MB) per integration.
+
+For more information, see [Configure document integrations](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md).
+
 ## Group administrators can manage business profiles
 
 >[!NOTE]
