@@ -45,6 +45,11 @@ You cannot add business rules to global record types.
 
 For more information, see [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).
 
+NOTE: With this update, the following menu options in the More menu of a record type have also been updated:
+
+* **Create request forms** and **Manage request forms** has changed to **Request forms**
+* **Manage automations** has changed to **Automations**
+
 ## Introducing custom weeks for the timeline view
 
 >[!NOTE]
