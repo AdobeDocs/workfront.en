@@ -33,6 +33,86 @@ For information, see [Configure system updates](/help/quicksilver/administration
 
 -->
 
+## Set a default access level for users provisioned in the Adobe Admin Console
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+You can now set a default access level for users who are provisioned in Workfront through the Adobe Admin Console. A Workfront administrator can configure this default in System Preferences.
+
+Previously, Workfront would assign the user a Contributor or Requester access level.
+
+For more information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+## Custom weeks in addition to custom quarters for Workfront Planning customers
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+If your organization has purchased a Planning package, in addition to a Workflow package, you can now configure custom weeks in the same way you configure custom quarters as a Workfront administrator.
+
+Custom weeks are not visible in Workfront. They are only visible in the Workfront Planning timeline view.
+
+For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+## Multiple screens updated to enhanced lists
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+The following Workfront lists now use the enhanced list format:
+
+* Setup > Interface > Update Feeds > Actions
+* Setup > Interface > Update Feeds > Tracked Fields
+* Setup > Project Preferences > Conditions
+* Setup > Locations
+* Setup > Scorecards
+* Setup > Risk Types
+* Project > Documents > Document Details > All Versions
+* Setup > Documents > SharePoint Integration
+* Setup > Documents > Custom Integration
+* Main Menu > Scenarios > lists of scenario plans and initiatives
+* Main Menu > Goals > lists of goals and progress indicators
+
+Updates include the following for some or all the lists:
+
+* A new look and feel of the list, with updates to colors, formatting, and fonts.
+* The option to create a new object in the list was moved to the top right and displays as a blue button.
+* The toolbar was removed. Now, when you select one or more objects in the table, the action bar appears at the bottom of the list in blue.
+* Some columns might have been repositioned or removed, or new columns were added.
+* Some confirmations and warnings have been removed or changed.
+* Saving in some lists is now automatic, and the Save button might have been removed.
+* Some enhanced lists allow columns to be renamed or sorted.
+* Some enhanced lists include the Column manager, which allows you to add and arrange columns. You can select columns by native or custom fields in Workfront.
+* Icons within table cells have been replaced by More menus with multiple options.
+
+NOTE: Not all updates are available on all lists.
+
+For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+## Reorder custom applications in the Main Menu
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+When working in a layout template, you can now reposition custom applications to be in any order with the default Workfront menu options. This allows you to position each application in the most relevant place.
+
+Previously, custom applications were always the last items in the layout template's Main Menu options and could not be repositioned.
+
+For more information on adding custom applications to the Main Menu, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+
 ## Group administrators can manage business profiles
 
 >[!NOTE]

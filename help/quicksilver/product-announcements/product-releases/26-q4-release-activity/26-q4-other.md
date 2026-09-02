@@ -11,6 +11,21 @@ This page describes enhancements made with the Fourth Quarter 2026 release to th
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+## Enhanced list updates
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+In all enhanced lists, the following updates are now available:
+
+* The button to add a new row on a table has been moved inside the grid, instead of underneath the grid.
+* The **Columns** options above the list now includes a search field.
+
+For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
 ## C2PA metadata is preserved on your files
 
 >[!NOTE]
