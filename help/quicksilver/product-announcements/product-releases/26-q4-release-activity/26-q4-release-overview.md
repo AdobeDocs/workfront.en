@@ -32,6 +32,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
 * [Administrator enhancements](#administrator-enhancements)
 * [AI enhancements](#ai-enhancements)
 * [Documents enhancements](#documents-enhancements)
+* [Financial Management enhancements](#financial-management-enhancements)
 * [Project enhancements](#project-enhancements)
 * [Reporting enhancements](#reporting-enhancements)
 * [Resource Management enhancements](#resource-management-enhancements)
@@ -337,6 +338,29 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Financial Management enhancements
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Attribute hierarchies now stay connected automatically</a><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Selecting the lowest-level rate attribute now automatically assigns every parent level above it, instead of requiring each level to be linked manually.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
     </tbody>

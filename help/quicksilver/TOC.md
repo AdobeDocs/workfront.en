@@ -18,6 +18,7 @@ feature-set: Workfront
       * [Fourth Quarter 2026 AI enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
       * [Fourth Quarter 2026 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
       * [Fourth Quarter 2026 Documents enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md)
+      * [Fourth Quarter 2026 Financial Management enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md)
       * [Fourth Quarter 2026 Project enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-projects.md)
       * [Fourth Quarter 2026 Reporting enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md)
       * [Fourth Quarter 2026 Resource Management enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md)
