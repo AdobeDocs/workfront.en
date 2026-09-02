@@ -32,11 +32,10 @@ topic_v2:
 
 # Connected record types overview
 
-<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+
 
 {{planning-important-intro}}
 
@@ -195,6 +194,13 @@ For information about you connect record types, see [Connect record types](/help
     
     * You must connect record types to be able to create hierarchies in Workfront Planning. When record type connections don't exist, they are automatically created when you create a hierarchy. For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 
+    <div class="preview">
+
+    * You can make a connection field dependent on the corresponding connected field from the connected record type. When the two fields display on a third record type, the selections available for one field depend on the selections from the other field. 
+
+        For more information and additional considerations, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md). 
+    
+    </div>
 
 ## Connection types
 

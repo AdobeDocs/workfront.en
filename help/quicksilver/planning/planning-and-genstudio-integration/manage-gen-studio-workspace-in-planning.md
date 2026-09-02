@@ -366,10 +366,10 @@ CAN YOU DO THIS??
    * **Edit**
 
       For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md).
-   * **Manage automations**
+   * **Manage automations** <!--or <span preview="preview">Automations</span>-->
 
       For information, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
-   * **Manage request forms**
+   * **Manage request forms** <!--or <span class="preview">**Request forms**</span>-->
 
       You can create multiple request forms. The request forms will be available in the Requests area of Workfront and you can also share them publicly, or with a link. 
 

@@ -107,7 +107,7 @@ To change the sharing of a request form:
 
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
 
-1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms**.
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms** or <!--<span class="preview">Request forms</span>-->.
 
    All request forms associated with the record type display in a table view. 
 1. Hover over the name of a request form, then click the **More** menu ![More menu](assets/more-menu.png) to the right of its name, then click **Share**. 
@@ -134,7 +134,7 @@ When a request form becomes irrelevant and you don't want anyone to access it an
 
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
 
-1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms**.
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms** <!--<span class="preview">Request forms</span>-->.
 
    All request forms associated with the record type display in a table view. 
 1. Hover over the name of a request form, then click the **More** menu ![More menu](assets/more-menu.png) to the right of its name, then click **Unpublish**

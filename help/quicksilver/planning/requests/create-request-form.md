@@ -150,7 +150,7 @@ To create a request form, you must complete the following:
 
     The record type page opens in the view that you last accessed. By default, a record type page opens in the list view. 
 
-1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Create request form** or **Manage request forms**, if you already have a form and you want to create additional ones.
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Create request form** if you are creating the form for the first time. Click **Manage request forms**, if you already have a form and you want to create additional ones. <!--<span class="preview">In the Preview environment, click **Request forms**.</span>-->
 
    The **Request forms** page opens and the requests display in the list view. 
 
@@ -371,7 +371,7 @@ To configure form settings:
 
 1. Click a record type card. For information about creating a record type, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
 
-1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms**.
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms** <!--or <span class="preview">**Request forms**</span>-->.
 
    The **Request forms** page opens and all request forms associated with the record type display in a list view. 
 1. (Optional) Update the following view elements in the **Request forms** page to change how information displays in the table: 
