@@ -29,7 +29,6 @@ topic_v2:
 ---
 # Upload a new document version and request an approval
 
-{{highlighted-preview}}
 
 If a document is marked "Needs work" in a previous review, you can upload a new version to the original document and start another round of approvals. Once you upload a new version of the document, the previous versions are locked.
 
@@ -177,7 +176,7 @@ To add a new version and request approval:
 
    The approval workflow starts and the approvers receive a notification that their approval is needed on the new document version. The previous document version is locked and any outstanding approvals on the previous version are withdrawn.
 
-## Use drag-and-drop to add a new version in the new Documents area in Production
+## Use drag-and-drop to add a new version in the new Documents area
 
 If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -210,45 +209,6 @@ To add a new version and request approval:
 
    The approval workflow starts and the approvers receive a notification that their approval is needed on the new document version. The previous document version is locked and any outstanding approvals on the previous version are withdrawn.
 
-<div class="preview">
-
-## Use drag-and-drop to add a new version in the new Documents area in Preview
-
-If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
-
->[!NOTE]
->
->Drag-and-drop does not work with Internet Explorer.
-
-Dragging a new file onto a document updates the **Current file** instead of immediately creating a numbered version. The Current file always appears in the Versions panel, whether or not it has an approval yet. A version only receives a number, such as V1 or V2, when you request approval on it.
-
-To add a new version and request approval:
-
-1. Navigate to the document in Workfront.
-
-1. Drag and drop the new file on top of the previous document. The Current file updates and shows a **New updates** label with a cloud icon, indicating it has changes that haven't been sent for approval.
-
-1. Click the **More** menu next to **New updates**, then click **Request Approval**. The **Request approval** dialog opens in Basic mode by default for a single-stage approval. Switch to Advanced mode to configure multi-stage approvals or parallel paths.
-
-1. Configure the approval workflow. For field descriptions, the Advanced mode toggle, and the parallel paths flow, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
-
-1. To copy the same reviewers and approvers from the previous document version, click **Copy**.
-
-1. Click **Request approval**.
-
-   Workfront assigns the next version number to the file and moves it into Version history with an **In progress** status. If a previous version already had an approval workflow, that workflow is marked **Withdrawn** — it keeps its version number and prior decisions, but is no longer active. Deleting a version doesn't change the numbers of the other versions; the first version is always V1.
-
-</div>
-
-<div class="preview">
-
-## View version and approval history in the new Documents area in Preview
-
-The **Versions** panel shows the **Current file** at the top, followed by **Version history** — a list of numbered versions that have an approval workflow. Each version in Version history displays a status badge: **In progress**, **Approved**, **Withdrawn**, **Needs work**, or **Rejected**.
-
-* Click **Add new version** or **Download all** at the top of the panel to add a new version or download every version.
-* Click the **More** menu next to any version to request approval on it, view its details, or download it.
-
-The **Approvals** panel lists every version of the document that has an approval workflow. Select a version to expand it and see its stages, each approver's individual decision, the stage's decision rule (such as whether only one decision is required to complete the stage), and due dates. If a version's approval workflow was withdrawn, it stays visible, collapsed, so you can still review its prior decisions. You can move between versions' approval details without leaving the panel.
-
-</div>
+<!--
+   <span class="preview">The previous version keeps its version number and its approval history, but its status changes to "Withdrawn". For more information about version numbers and status, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md#view-and-manage-document-versions-in-the-new-documents-area-in-preview).</span>
+-->
