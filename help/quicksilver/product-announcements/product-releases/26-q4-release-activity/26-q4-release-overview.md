@@ -69,15 +69,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Multiple screens updated to enhanced lists</a>
-                <p>Several more Setup, Documents, and Main Menu lists now use the enhanced list format.</p>
-            </td>
-            <td><p>September 3, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-        </tr>
-        <tr>
-            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Reorder custom applications in the Main Menu</a>
                 <p>You can now reposition custom applications in a layout template's Main Menu instead of having them always appear last.</p>
             </td>
@@ -262,7 +253,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Frame comment visibility in Workfront</a>
-                <p>The Comments panel in Workfront now lets you know when new comments are available in the Frame.io viewer for a document under approval.</p>
+                <p>The Comments panel in Workfront now lets you know when new comments are available in the Frame.io viewer.</p>
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
@@ -512,6 +503,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">Enhanced list updates</a>
                 <p>The button to add a new row on a table has moved inside the grid, and the Columns options above a list now include a search field.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">Multiple screens updated to enhanced lists</a>
+                <p>Several lists in Setup, Documents, and the Scenario Planner now use the enhanced list format.</p>
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
