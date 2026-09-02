@@ -63,7 +63,7 @@ For more information, see:
 >Production fast release: September 17, 2026
 >Production for everyone: October 15, 2026
 
-If your organization uses Adobe cloud storage and you have a Frame.io Enterprise license, you can now choose a Frame.io workspace in the Project Details on a project template. Projects created from the template automatically use the workspace set on the template, so projects are routed to the correct Frame.io workspace with no extra action needed at project creation.
+If your organization uses Adobe cloud storage and you have a Frame.io Enterprise license, you can now choose a Frame.io workspace in the Project Details on a project template. Projects created from the template automatically use the workspace set on the template, so projects are routed to the desired Frame.io workspace with no extra action needed at project creation.
 
 The new field lists the Frame.io workspaces you have permission to assign projects to. The field remains editable on the template at any time; changes apply only to projects created after the update, so existing projects keep their original workspace.
 

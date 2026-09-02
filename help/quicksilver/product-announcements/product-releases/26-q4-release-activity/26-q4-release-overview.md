@@ -280,7 +280,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Set a Frame.io workspace on project templates</a>
-                <p>You can now set a Frame.io workspace on a project template so projects created from it are automatically routed to the correct workspace.</p>
+                <p>You can now set a Frame.io workspace on a project template so projects created from it are automatically routed to the desired workspace.</p>
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
@@ -316,7 +316,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Redesigned Approvals panel in the new documents area</a>
-                <p>The Approvals panel in the new Documents area now shows approval history across all versions, not just the current one.</p>
+                <p>The Approvals panel in the new Documents area now shows approval history across all versions, not just the current version.</p>
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
