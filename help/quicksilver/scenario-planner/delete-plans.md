@@ -127,8 +127,7 @@ To delete a plan:
 
    >[!TIP]
    >
-   ><span class="preview">You can also delete a plan in a list by selecting it, then clicking **Delete** at the bottom of the list to delete it.</span>
-
+   ><span class="preview">You can also delete a plan in a list by selecting it, then clicking **Delete** at the bottom of the list to delete it.</span> <!--move the tip as the main step when we release this??-->
 
    The plan is deleted and you return to the list of plans.
 

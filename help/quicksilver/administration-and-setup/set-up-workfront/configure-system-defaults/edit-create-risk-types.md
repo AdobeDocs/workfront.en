@@ -32,6 +32,12 @@ topic_v2:
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
+<!--remove preview and production references-->
+
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 Adobe Workfront has a number of default risk types that you can associate with projects in the planning phase to identify potential obstacles prior to the approval of any work. 
 
 Risks are possible events that could prevent completion of the project on time or within budget.
@@ -94,7 +100,7 @@ You can do the following to enhance the number of risk types in your Workfront i
 
 1. Click **[!UICONTROL Risk Types]**.
 1. Select the risk type you want to edit.
-1. Click the **[!UICONTROL Edit]** icon ![Edit icon](assets/edit-icon.png).
+1. Click the **[!UICONTROL Edit]** icon.
 
    The [!UICONTROL **Edit Risk Type**] box opens.
 
@@ -110,18 +116,29 @@ You can do the following to enhance the number of risk types in your Workfront i
 
 1. Click **[!UICONTROL Save Changes].**
 
-1. (Optional) To delete a risk type, select it in the list, then click the [!UICONTROL **Delete**] icon ![Delete icon](assets/delete.png), then click [!UICONTROL **Yes, Delete It**]. The risk type is deleted and cannot be recovered. 
+1. (Optional) To delete a risk type, select it in the list, then click the [!UICONTROL **Delete**] icon, then click [!UICONTROL **Yes, Delete It**]. The risk type is deleted and cannot be recovered. 
 
-1. (Optional) To export a list of risk types, click the [!UICONTROL **Export**] icon ![Export icon](assets/export-icon.png). You can export to the following file types:
+1. (Optional) To export a list of risk types, click the [!UICONTROL **Export**] icon. You can export to the following file types:
 
-   * PDF
-   * Excel
-   * Excel (xlsx)
-   * Tab Delimited
+    * In the Production environment:
 
-   >[!TIP]
-   >
-   >   You can first select a limited number of risk types, and then export them for a smaller list. 
+      * PDF
+      * Excel
+      * Excel (xlsx)
+      * Tab Delimited
+      * CSV
+
+    <div class="preview">
+
+    * In the Preview environment: 
+
+      * CSV
+      * XLSX 
+    </div>
+
+    >[!TIP]
+    >
+    >   In the Production environment, you can first select a limited number of risk types, and then export them for a smaller list. <!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
 
 ### Create risk types {#create-risk-types}
 
