@@ -24,6 +24,8 @@ topic_v2:
 ---
 # Delete a custom condition
 
+{{preview-fast-release-general}}
+
 You can delete a custom condition if it is no longer needed.
 
 ## Access requirements
@@ -61,8 +63,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. Click **Project Preferences** > **Conditions**.
 
 1. Select the tab of the object type (**Project**, **Task**, or **Issue**) where the condition that you want to delete is located.
+1. In the Production environment, click **Delete** next to the condition name you want to delete.
+   <span class="preview">In the Preview environment, select the check box next to the condition name you want to delete, and click **Delete** in the action bar at the bottom of the screen.</span>
 
-1. Click **Delete** next to the condition name you want to delete.
 1. In the **Delete condition** box that appears, select a new condition in the drop-down list for all projects, tasks, or issues that were using the condition you are deleting.
 
    Custom conditions are available in the drop-down list only if they equate with the same built-in condition as the one you are deleting. For example, if you are deleting a condition that equates with At Risk, only custom conditions that also equate with At Risk are available to select.
