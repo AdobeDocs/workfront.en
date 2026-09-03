@@ -66,7 +66,10 @@ The following Workfront objects are supported by event subscriptions.
 * Approval Stage
 * Approval Stage Participant
 * Assignment
+* Booking
 * Company
+* Custom Field
+* Custom Form
 * Dashboard
 * Document
 * Document Version
@@ -74,6 +77,8 @@ The following Workfront objects are supported by event subscriptions.
 * Field
 * Hour
 * Issue
+* Non-Labor Category
+* Non-Labor Resource
 * Note
 * Portfolio
 * Program
@@ -89,6 +94,8 @@ The following Workfront objects are supported by event subscriptions.
 * Staffing Plan Resource Attribute Value Set
 * Staffing Plan Resource Parameter Value
 * Task
+* Team
+* Team Member
 * Template
 * Timesheet
 * User
@@ -150,8 +157,20 @@ The subscription resource contains the following fields.
         <td scope="col"><p>ASSGN</p></td> 
        </tr> 
        <tr> 
+        <td scope="col">Booking</td> 
+        <td scope="col"><p>BOOKNG</p></td> 
+       </tr> 
+       <tr> 
         <td scope="col">Company </td> 
         <td scope="col"><p>CMPY</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Custom Field</td> 
+        <td scope="col"><p>PARAM</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Custom Form</td> 
+        <td scope="col"><p>CTGY</p></td> 
        </tr> 
        <tr> 
         <td scope="col">Dashboard</td> 
@@ -180,6 +199,14 @@ The subscription resource contains the following fields.
        <tr> 
         <td scope="col">Issue</td> 
         <td scope="col"><p>OPTASK</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Non-Labor Category</td> 
+        <td scope="col"><p>NLBRCY</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Non-Labor Resource</td> 
+        <td scope="col"><p>NLBR</p></td> 
        </tr> 
        <tr> 
         <td scope="col">Note</td> 
@@ -240,6 +267,14 @@ The subscription resource contains the following fields.
        <tr> 
         <td scope="col"><p>Task</p></td> 
         <td scope="col"><p>TASK</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Team</td> 
+        <td scope="col"><p>TEAMOB</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Team Member</td> 
+        <td scope="col"><p>TEAMMB</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Template</p></td> 
@@ -769,6 +804,8 @@ This filter allows messages to come through if the update on the specified `fiel
 
 This filter allows messages to come through if the change that occurred contains the `fieldValue` in the filter. The `fieldValue` value is case-sensitive
 
+If `fieldName` refers to an array of objects (for example, `tags`), `fieldValue` can be an object; the filter matches if any element in the array has matching values for the key(s) you specify. Other fields on that element are not considered — this is a partial match, not a full match on the whole object.
+
 ```
 {
     "objCode": "TASK",
@@ -784,6 +821,33 @@ This filter allows messages to come through if the change that occurred contains
     ]
 }
 ```
+
+**Example: filtering an array-of-objects field**
+
+```
+{
+    "objCode": "NOTE",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedNotes",
+    "filters": [
+        {
+            "fieldName": "tags",
+            "fieldValue": {
+                "objID": "6229be410016986cfc6eb4b37c618a17"
+            },
+            "state": "newState",
+            "comparison": "contains"
+        }
+    ]
+}
+```
+
+This filter matches NOTE events where the `tags` array contains at least one tag with `objID` equal to `6229be410016986cfc6eb4b37c618a17` — regardless of that tag's `objCode` or any other fields.
+
+>[!NOTE]
+>
+>When filtering an array-of-objects field (such as `tags`) with `contains` or `notContains`, `fieldValue` only needs to include the keys you care about — for example, `{"objID": "abc123"}` matches any tag with that ID, regardless of its other fields (like `objCode`). This is not a full-object equality check. `containsOnly` does not currently support array-of-object fields.
 
 #### containsOnly
 
@@ -818,6 +882,8 @@ This filter allows messages to come through only when the full set of selected v
 
 This filter allows messages to come through only when the specified field (`fieldName`) does not contain the specified value (`fieldValue`) .
 
+When used with an array of objects, this returns true only if no element matches the specified key(s).
+
 >[!NOTE]
 >
 >This is used for array-type (multi-select) or string fields. If the field is a string, we will check if the specified value is not contained in the string (for example, "New" is not in the string "Project - Updated"). If the field is an array and the specified field value is a string or integer, we will check if the array does not contain the specified value (for example, "Choice 1" not in ["Choice 2", "Choice 3"]). The example subscription below allows messages to come through only when the `groups` fields does not contain the string "Group 2".
@@ -838,6 +904,10 @@ This filter allows messages to come through only when the specified field (`fiel
     ]
 }
 ```
+
+>[!NOTE]
+>
+>When filtering an array-of-objects field (such as `tags`) with `contains` or `notContains`, `fieldValue` only needs to include the keys you care about — for example, `{"objID": "abc123"}` matches any tag with that ID, regardless of its other fields (like `objCode`). This is not a full-object equality check. `containsOnly` does not currently support array-of-object fields.
 
 #### change
 
