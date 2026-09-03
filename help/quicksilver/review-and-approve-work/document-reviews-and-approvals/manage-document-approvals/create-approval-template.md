@@ -30,6 +30,7 @@ topic_v2:
 # Create an approval workflow template for documents
 
 In the Workfront Setup area, users with a Standard license can create reusable Approval Templates. A template is visible only to the user who created it, unless the creator shares it with specific users or with everyone in the organization. Once created, Approval Templates can be applied to assets in the Documents area of an object. 
+
 >[!IMPORTANT]
 >
 >The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
@@ -163,34 +164,7 @@ Once the template is created, it can be applied to documents in the Documents ar
 
 >[!NOTE]
 >
->New templates are visible only to you. If you want other users to be able to select this template when requesting an approval, you must share it. For more information, see [Share a template](#share-a-template) in this article.
-
-## Share a template
-
-By default, a template is visible only to you, the creator. You can share it with specific users, or with everyone in your organization, so they can view and use it when requesting an approval.
-
-To share a template:
-
-1. In the left panel, click **Review and Approval** > **Approval Templates**.
-1. Select the checkbox next to the template you want to share. A bar appears at the bottom of the page.
-1. In the bar, click **Share**. The **Share approval template** dialog opens.
-1. Click the sharing drop-down, then select one of the following:
-
-   <table>
-   <tr>
-   <td><strong>Shared with everyone</strong></td>
-   <td>All users in your organization can view and use the template.</td>
-   </tr>
-   <tr>
-   <td><strong>Only invited people can access</strong></td>
-   <td>Only you and the users you add can view and use the template. This is the default for new templates.</td>
-   </tr>
-   </table>
-
-1. If you selected **Only invited people can access**, under **Give approval template access to**, use the **Search for people** field to add the users you want to give access to.
-1. Click **Share**.
-
-The **Shared with** column in the Approval Templates list shows who has access to each template. You are always listed as the template's creator and can't be removed.
+>New templates are visible only to you. To share, edit, or delete a template, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
 <!--
  Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
