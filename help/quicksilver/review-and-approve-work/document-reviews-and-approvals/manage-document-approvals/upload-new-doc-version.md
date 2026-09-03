@@ -29,6 +29,7 @@ topic_v2:
 ---
 # Upload a new document version and request an approval
 
+
 If a document is marked "Needs work" in a previous review, you can upload a new version to the original document and start another round of approvals. Once you upload a new version of the document, the previous versions are locked.
 
 If the file name of the new version is different from the file name of the previous version, Workfront displays the document with the newer file name.
@@ -207,3 +208,7 @@ To add a new version and request approval:
 1. Click **Request approval**.
 
    The approval workflow starts and the approvers receive a notification that their approval is needed on the new document version. The previous document version is locked and any outstanding approvals on the previous version are withdrawn.
+
+<!--
+   <span class="preview">The previous version keeps its version number and its approval history, but its status changes to "Withdrawn". For more information about version numbers and status, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md#view-and-manage-document-versions-in-the-new-documents-area-in-preview).</span>
+-->

@@ -29,6 +29,8 @@ topic_v2:
 ---
 # Create a document approval workflow
 
+{{highlighted-preview}}
+
 You can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.  
 
 >[!IMPORTANT]
@@ -291,6 +293,30 @@ To create an advanced approval workflow:
 1. (Optional) To clear all paths and stages and start over, click **Reset** in the top right.
 
 1. Click **Request approval**.
+
+<div class="preview">
+
+## View approval workflows for previous versions in the new Documents area in Preview
+
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+The Approvals panel lists only the versions of the document that have an approval workflow.
+
+To view approval workflows for previous versions:
+
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+1. Click on the document, then click the **Approvals** icon on the right side of the page.
+
+   ![Add approvers in document summary](assets/approvals-icon-new.png)
+
+1. Click a version to expand it. You can view its stages, each approver's decision, the stage's decision rule (such as whether only one decision is required to complete the stage), and due dates.
+1. Click another version to expand its approval workflow without leaving the panel.
+
+   >[!NOTE]
+   >
+   >If a version's approval workflow was withdrawn because a newer version's approval was requested, it stays in the list, collapsed, so you can still review its prior decisions.
+
+</div>
 
 <!--
 ## Resubmit an approval on a new version
