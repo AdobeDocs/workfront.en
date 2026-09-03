@@ -11,6 +11,8 @@ This page describes Documents enhancements made with the Fourth Quarter 2026 rel
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+<!--
+
 ## Frame comment visibility in Workfront
 
 >[!NOTE]
@@ -25,6 +27,8 @@ Now, the Comments panel in Workfront displays a message letting you know when ne
 
 For more information, see [Add an update to a document](/help/quicksilver/documents/managing-documents/add-update-documents.md).
 
+-->
+
 ## Direct proof access from approval email links
 
 >[!NOTE]
@@ -34,6 +38,8 @@ For more information, see [Add an update to a document](/help/quicksilver/docume
 >Production for everyone: October 15, 2026
 
 When a document has a proof attached, the "Go to review" link in approval emails now opens the proof viewer directly, so reviewers and approvers can start their review right away. If a document has no proof, the link continues to open the Approvals section of the document, as before.
+
+<!--
 
 ## Add teams to approvals for objects using Adobe cloud storage
 
@@ -55,6 +61,8 @@ For more information, see:
 * [Create an approval workflow in the legacy documents area](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-in-the-legacy-documents-area)
 * [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 
+-->
+
 ## Set a Frame.io workspace on project templates
 
 >[!NOTE]
@@ -72,6 +80,8 @@ Once a project is created from the template, its Frame.io workspace field is rea
 If you do not have a Frame.io enterprise license, projects continue to go to the default workspace for Workfront.
 
 For more information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md) and [Manage information in the project Overview area](/help/quicksilver/manage-work/projects/manage-projects/understand-project-overview-area.md).
+
+<!--
 
 ## Consistent review and approval buttons across documents
 
@@ -94,6 +104,8 @@ In addition to a new look and feel, some buttons have new names:
 
 For more information, see [Review and approve documents](/help/quicksilver/documents/review-and-approve-documents.md).
 
+-->
+
 ## Custom message in email subject line
 
 >[!NOTE]
@@ -105,6 +117,8 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 When you set a custom message on a document approval, that message now also appears in the subject line of the approval-request email, led by the due date when one is set. This lets reviewers see what needs attention and by when directly from their inbox, without opening the email.
 
 For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+<!--
 
 ## Redesigned Versions panel in the new documents area
 
@@ -141,6 +155,8 @@ If your organization uses Adobe cloud storage, the Approvals panel in the new Do
 Previously, the Approvals panel only showed the current version's workflow.
 
 For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+-->
 
 ## Attach images to comments on Adobe cloud storage objects
 
