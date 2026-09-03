@@ -13,6 +13,77 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Manage the visibility of records' thumbnails and colors from the primary field column in the table view
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+You can now manage the visibility of the records' thumbnails and colors when editing the primary field column in the table view.
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Create business rules for record types
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+As a workspace manager, you can now set business rules for record types that will later reflect on how records of that type are managed. You can define rules that allow users to edit or delete records only when certain conditions are met or certain fields are populated.
+
+You can create a condition for your business rule that references all field types except for the following:
+
+* Formula fields
+* Lookup fields
+* Reference fields
+
+You cannot add business rules to global record types.
+
+For more information, see [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).
+
+>[!NOTE]
+>
+>With this update, the following menu options in the More menu of a record type have also been updated:
+>
+>* **Create request forms** and **Manage request forms** has changed to **Request forms**
+>* **Manage automations** has changed to **Automations**
+
+## Introducing custom weeks for the timeline view
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+As a Workfront administrator, you can now configure custom weeks, in addition to custom quarters. Custom weeks, and quarters are visible from the Workfront Planning timeline view. Workfront generates sequential weeks starting from Week 1 at the beginning of Custom quarter 1.
+
+You can customize week labels which are visible in the timeline view. You can choose a predefined format or enter a custom one.
+
+Custom weeks are not visible in Workfront. They are only visible in the Workfront Planning timeline view.
+
+For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+## Filters for dependent connected record fields
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+You can now filter for certain record types that meet a filter criteria when you add dependent connections in Planning.
+
+Instead of all record types being available in dependent connected fields, only those that meet your filtering criteria will display.
+
+For this feature, we added a new Record filtering rules option in the New connection tab when connecting record types.
+
+For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
 ## Collapse and expand all groupings in the timeline view
 
 >[!NOTE]
