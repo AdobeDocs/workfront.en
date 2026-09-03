@@ -11,6 +11,10 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Delete plans in the [!DNL Scenario Planner]
 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 You can delete plans that you created. You cannot delete plans that are shared with you.
 
 ## Access requirements
@@ -120,6 +124,11 @@ To delete a plan:
 
 1. Click the name of a plan to open it.
 1. Click the **[!UICONTROL More menu]** ![More menu](assets/more-menu.png) to the right of the plan name, then click **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]**.
+
+   >[!TIP]
+   >
+   ><span class="preview">You can also delete a plan in a list by selecting it, then clicking **Delete** at the bottom of the list to delete it.</span>
+
 
    The plan is deleted and you return to the list of plans.
 

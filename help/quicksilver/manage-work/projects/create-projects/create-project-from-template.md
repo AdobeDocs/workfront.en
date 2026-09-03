@@ -240,6 +240,7 @@ You can create a project from the Projects area in the Main Menu, or from the Pr
    Edit the pre-populated values to better match your project. 
 
    For more information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+
 1. Click **Create project**.
 
    All details defined in the template associate automatically with the newly created project if you didn't change them in the previous step.
@@ -274,6 +275,7 @@ Instead of starting in the Projects area, you can create a project from a templa
    If a field is already populated in the template, the field is pre-populated in the **New Project** box. You can edit the pre-populated values to better match your project. 
    
    For information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+
 
 1. Click **Create project**.
 

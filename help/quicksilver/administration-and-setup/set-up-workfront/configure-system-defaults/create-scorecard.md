@@ -30,11 +30,12 @@ topic_v2:
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
--->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+
 
 A scorecard measures how well a project aligns with the previously established criteria of a portfolio. A scorecard often reflects an organization's mission, values, and strategic goals.
 
@@ -82,7 +83,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Click **[!UICONTROL Scorecards]**, then click **[!UICONTROL New Scorecard]**. 
 
-   The **New scorecard** box opens.
+   The **New Scorecard** box opens.
 
    ![New scorecard box](assets/new-scorecard-350x173.png)
 
@@ -126,6 +127,12 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    This creates the scorecard and project managers can now attach it to their project business case. 
 
+
+
+1. <span class="preview">(Optional) To edit a scorecard, select it in the list of scorecards, then click **Edit** ![Edit scorecard](assets/edit-scorecard-icon.png) at the bottom of the list. </span>
+
+1. <span class="preview">(Optional) To delete a scorecard, select it in the list of scorecards, then click **Delete** ![Delete scorecard](assets/delete-scorecard-icon.png) at the bottom of the list. </span>
+
 ## Copy an existing scorecard
 
 You can create a scorecard by copying and editing an existing one. 
@@ -133,11 +140,15 @@ You can create a scorecard by copying and editing an existing one.
 {{step-1-to-setup}}
 
 1. Click **[!UICONTROL Scorecards]** in the left panel. 
-1. Select a scorecard in the list, then click the **Copy** icon ![Copy scorecard icon](assets/copy-scorecard-icon.png) at the top of the scorecard list. 
+1. Select a scorecard in the list, then click **Copy** at the top of the scorecard list <span class="preview"> or **Copy** ![Copy scorecard icon](assets/copy-scorecard-icon.png) at the bottom of the list</span>. 
    
-   The **Copy Scorecard** box opens.
+   The **Copy** scorecard box opens.
 
    ![Copy scorecard box](assets/copy-scorecard-box.png)
+
+   >[!TIP]
+   >
+   >The name of the scorecard displays in the title of the box.
 
 1. Specify the following information:
 

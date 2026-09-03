@@ -39,6 +39,8 @@ topic_v2:
 ---
 # Edit project templates
 
+{{highlighted-preview}}
+
 <!-- Audited: 7/2025 -->
 
 <!--The Resource Pools part also duplicates in the "Working with Resource Pools" article-->
@@ -258,6 +260,15 @@ Old:
       <tr> 
       <td role="rowheader"><strong>Company</strong></td> 
       <td><p>Specify the Company that you want to associate with the template. Only active companies display in the list.</p></td> 
+      </tr> 
+      <tr>
+      <td role="rowheader"><span class="preview"><strong>Frame.io workspace (Conditional)</strong></span></td>
+      <td><span class="preview">
+      <p>In an Adobe cloud storage project, select the Frame.io workspace that you want projects created from this template to use. If your organization has multiple Frame.io workspaces, this determines which workspace the linked Frame.io project is created in.</p>
+      <p>The list includes only the Frame.io workspaces you have permission to assign projects to. The default workspace used when no workspace is selected or available.</p>
+      <p>You can change this field on the template at any time. Changes apply only to projects created after the change; projects already created from the template keep their existing Frame.io workspace.</p>
+      <p>Note: You must have Frame.io enterprise to use the Frame.io workspace field.</p>
+      </span></td>
       </tr> 
       <tr> 
       <td role="rowheader"><strong>Template Owner</strong></td> 

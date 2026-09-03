@@ -29,6 +29,11 @@ topic_v2:
 ---
 # Create and edit plans in the [!DNL Scenario Planner]
 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+
 You can create plans as part of using the [!DNL Workfront Scenario Planner], when prioritizing your company's higher-level strategy. For more information about plans, see [Plans overview in the [!DNL Scenario Planner]](../scenario-planner/plans-overview.md).
 
 <!--
@@ -136,7 +141,7 @@ To create or edit a plan:
 
    A list of existing plans that you created displays in the [!DNL Workfront Scenario Planner]. 
 
-1. (Optional) Click the **[!UICONTROL Filter]** icon ![Filter icon](assets/filter-icon-34x37.png)in the upper-right corner of the plan list, and select from the following:
+1. (Optional) Click the **[!UICONTROL Filter]** icon ![Filter icon](assets/filter-icon-34x37.png), <span class="preview">or the **Table** icon ![Table icon](assets/table-icon.png)</span> at the top of the list, and select from the following:
 
    | Filter |Description  |
    |---|---|
@@ -148,23 +153,13 @@ To create or edit a plan:
 
 1. (Optional) Click the **[!UICONTROL Search]** icon ![Search icon](assets/search-icon.png) to type a keyword and quickly locate a plan in the list. 
 
-1. Click the name of an existing plan to edit it and continue with step 7.
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate) </p>
-   -->
+1. Click the name of an existing plan to edit it and continue with step 7.<!--is the step still accurate)-->
 
    Or
 
-   Click **[!UICONTROL New Plan]** in the upper-left corner to create a plan and continue with step 5.
+   Click **[!UICONTROL New plan]** in the upper-left corner to create a plan and continue with step 5. <!--is the step still accurate-->
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
-   -->
-
-   ![New plan button](assets/new-plan-button.png)
-
-   The [!UICONTROL New Plan] box displays.
+   The [!UICONTROL **New plan**] box displays.
 
    ![New plan box](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
@@ -209,7 +204,7 @@ To create or edit a plan:
     </tbody> 
    </table>
 
-<!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
+   <!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
 
 1. (Conditional) Click **[!UICONTROL Next]**.
 

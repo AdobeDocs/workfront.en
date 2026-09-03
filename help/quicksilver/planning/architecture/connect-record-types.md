@@ -35,12 +35,10 @@ topic_v2:
 
 # Connect record types
 
-<!--
-
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 
 {{planning-important-intro}}
@@ -310,19 +308,16 @@ Old:
     
     ![New connection to record type from another workspace](assets/new-connection-allow-multiple-records-box.png)
     
-1. (Conditional) When you connect record types from the same workspace, or a Planning record type with a Workfront object type, select one of the following:
+1. <span class="preview">Select the **Make this connection dependent** to add dependencies between this connection field and the field created on the connected record type. </span>
 
-    * **Multi-select**: Select this to allow one record from the current record type to connect with multiple records from the connection record type.
-    * **Single-select**: Select this to allow one record from the current record type to connect with one record from the connection record type.
+    <span class="preview">For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).</span>
 
-1. Select the **Create corresponding field on linked record type** in the **Connection type** section <!--<span class="preview">, when connecting all object types but not Planning record types</span>-->.
+1. Select the **Create corresponding field on linked record type** in the **Connection type** section.
 
-    <!--
     >[!TIP]
     >
     ><span class="preview">The **Connection type** section has been replaced by the **Connection settings** section when connecting Planning record types. </span>
-    -->
-
+    
     When selected, a connection field is created on the record type you are connecting to, in addition to the connection field added to the current record type. This is disabled by default.
 
     >[!TIP]
@@ -334,6 +329,10 @@ Old:
     >* A linked record field is not created for objects from another application in their respective applications. For example:
     >   * There is no field created for Workfront objects connected to Planning records. 
     >   * There is no field created for a Planning record type when it's connected to a record type from the GenStudio workspace. 
+1. (Conditional) When you connect record types from the same workspace, or a Planning record type with a Workfront object type, select one of the following:
+
+    * **Multi-select**: Select this to allow one record from the current record type to connect with multiple records from the connection record type.
+    * **Single-select**: Select this to allow one record from the current record type to connect with one record from the connection record type.
 
 1. (Conditional) If you enabled **Create corresponding field on linked record type** in the **Connection type** section, choose from the following options to indicate how many records users can connect to and from:
 
@@ -360,7 +359,9 @@ Old:
     >
     >Your Workfront administrator can map Workfront Planning fields to Experience Manager Assets fields through the Metadata mapping in Workfront. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). 
 
+1. <span class="preview">(Optional and conditional) If you selected **Make this connection dependent**, click **Record filtering rules** to create a filter to limit the values of the connected field values when both connected record fields display on the same record type. </span>
 
+    <span class="preview">For more information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md). </span>
 1. (Optional) Choose one of the following options in the **Record appearance** area:
 
     * **Name and image**: Both the name and the thumbnail or icon of the connected records will display in the connected record field. This is the default option. 
@@ -384,7 +385,9 @@ Old:
     >
     >* What you select in the **Record appearance** area determines how the records display in connections everywhere in the system, including all the views and details pages. 
 
-1. Select the **Select lookup fields** to add fields from the  record type you are connecting to. The lookup fields are fields associated with the record or object type that you are linking to. Linking them displays information from the record or object you're linking to on the record you are linking from. This is selected by default.
+1. Select the **Select lookup fields** or <span class="preview">click the **Lookup fields** menu</span> to choose and add fields from the  record type you are connecting to. 
+
+    Lookup fields are fields associated with the record or object type that you are connecting to. Linking them displays information from the record or object you're linking to on the record you are linking from. <!--No more: This is selected by default.-->
 
     >[!NOTE]
     >

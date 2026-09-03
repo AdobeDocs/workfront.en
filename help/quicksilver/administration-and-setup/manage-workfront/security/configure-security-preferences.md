@@ -39,6 +39,8 @@ topic_v2:
 ---
 # Configure system preferences
 
+{{highlighted-preview}}
+
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
@@ -154,6 +156,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
      <tr>
       <td>Always enforce required fields in bulk edit</td>
       <td><p>Lets you choose whether to force users to enter information in required fields when bulk editing objects.</p> <p>When this option is selected, required fields must have values before saving in bulk edit mode. If the required field is missing a value for at least one bulk selected object, saving is not permitted.</p> <p>When this option is not selected, required fields are only enforced when a user modifies the field. If a field is not modified, it is treated as optional and not validated.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Access Level for Users Created in Admin Console</span></td>
+      <td><span class="preview">Lets you choose a default access level to automatically assign to users who are created in Workfront through the Adobe Admin Console. If you don't set a default, these users continue to receive a Contributor or Requester access level. System Administrator and External User access levels aren't available as a default, and this setting isn't available for organizations that have Workfront Planning as a standalone product.<p><b>NOTE</b>: You can't delete an access level while it's set as this default. To delete the default access level, select a different default access level first.</p></span></td>
      </tr>
      <tr> 
       <td role="rowheader">Storage Preferences </td> 
