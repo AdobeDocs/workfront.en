@@ -24,6 +24,8 @@ topic_v2:
 ---
 # Override job role billing rates at the company level
 
+{{preview-fast-release-general}}
+
 When a job role is created, you have the option to select an hourly billing rate for that role. You can create multiple hourly billing rates that are specific to a company. Each billing rate is effective for a specific date range.
 
 At the project level, you can enable an option to allow company-level billing rates to override project-level rates. For more information, see [Override Project-Level Billing Rates with Company-Level Billing Rates](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md).
@@ -38,7 +40,8 @@ At the project level, you can enable an option to allow company-level billing ra
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] package</td> 
-   <td><p>Any</p></td> 
+   <td><p>To add rate attributes to company-level billing rates: Workflow Ultimate</p>
+       <p>To create company-level billing rates and edit all other rate settings: Any Workfront or Workflow package</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] license</td> 
@@ -65,8 +68,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. Locate the company where the job role is assigned.
 1. Click the company name in the list.
 1. Click **[!UICONTROL Billing Rates]** in the left panel.
-1. Click **[!UICONTROL Add Billing Rate] > [!UICONTROL New Billing Rate]**, or choose an existing rate to edit.
+1. Click **[!UICONTROL Add Billing Rate] > [!UICONTROL New Billing Rate]**, or <span class="preview">**Add Billing Rate**</span>.
 1. In the [!UICONTROL New Billing Rate] dialog, select a [!UICONTROL **Job Role**] to define the billing rate for.
+
+### In the Production environment:
 
    The [!UICONTROL **Default Billing Rate**] displays the system-level rate for this job role.
 
@@ -91,3 +96,48 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >[!NOTE]
    >
    >Job role rates changed on the project will only impact only that project. Rates changed at the company level will impact all projects. For more information, see [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+
+<div class="preview">   
+
+### In the Preview environment:
+
+1. Select attributes for the rate such as Agency, Location, or Cost Center.
+
+   These attributes are defined separately and may affect revenue and cost calculations. For more information, see [Define rate attributes](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+
+   ![New Billing Rate dialog](assets/company-billing-rates-090326.png)
+
+1. Select the **Currency** for the rate. The Workfront administrator adds the Base Currency in the Setup area. You can change the selection to another available currency, and you can change the currency on effective dated time ranges.
+
+   >[!TIP]
+   >
+   >Only currencies available in the Exchange Rates area in your system are available in this field. If you only have one currency set up, only that currency is available.
+   
+   For information about setting up the Base Currency in Workfront, see [Set up exchange rates](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+   
+   For information about changing the currency of a project, see [Change the project currency](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
+
+1. In the [!DNL **Billing Rate**] field, enter the billing rate for the job role.
+
+   This is the billing per hour rate of the job role. This value calculates the planned and actual revenues of tasks and issues associated with the role, and ultimately the planned and actual revenues of the projects. Enter the rate using the selected currency.
+
+   If you use attributes, the attributes and the job role combine to define a unique rate. For example, a Designer role in New York for Agency A can have a separate rate from a Designer role in Paris for Agency B.
+
+   For date effective billing rates, click **Add date effective rate**. Enter the hourly billing rate for the time period, and assign a Start Date and End Date as needed. The first billing rate will not have a start date and the last billing rate will not have an end date.
+
+   Workfront allows you to leave gaps between date ranges, but you will receive a warning to confirm this is intentional.
+
+   For information about how Workfront calculates revenue, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+   >[!TIP]
+   >
+   >When editing an existing rate, you can sort the list to see the most recent start date at the top of the rate list.
+
+1. Click [!UICONTROL **Save**].
+
+   >[!NOTE]
+   >
+   >Job role rates changed on the project will only impact only that project. Rates changed at the company level will impact all projects that have the company assigned. For more information, see [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+
+</div>
+

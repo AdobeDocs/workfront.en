@@ -76,11 +76,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 {{step-1-to-setup}}
 
-1. To you create or edit a timesheet profile for use throughout the system, click **Timesheet & Hours > Timesheet Profiles**.
+1. To create or edit a timesheet profile for use throughout the system, click **Timesheet & Hours > Timesheet Profiles**.
 
    Or
 
-   To you create or edit a timesheet profile for a group, click **Groups**, click the group's name, then click **Timesheet Profiles** in the left panel.
+   To create or edit a timesheet profile for a group, click **Groups**, click the group's name, then click **Timesheet Profiles** in the left panel.
 
 1. To create a timesheet profile, click **New Profile**.
 
