@@ -27,6 +27,7 @@ topic_v2:
 ---
 # Manage the table view
 
+<!-- remove Production and Preview references at release-->
 
 <span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
 
@@ -189,7 +190,7 @@ The following display in a table view by default:
 <!--
 <div class="preview">
 
-* 500 records upload automaticall. Additional records display as you scroll the view. 
+* 500 records upload automatically. Additional records display as you scroll the view. 
 
 </div>
 -->
@@ -243,6 +244,8 @@ You can add up to 500 fields (or columns) in a table view.
     * Grab the column header and drag and drop it in the desired position. The column you moved briefly displays with a blue background until you make other adjustments to the table. 
 
     * Click **Fields** in the table's toolbar, then drag and drop the fields in the desired order, then click outside the **Fields visibility and order** box to close it.
+
+        <!--update the screen shot without Thumbnail at Production release-->
         
         ![Fields setting table view toolbar expanded](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -359,26 +362,31 @@ You can have up to 50,000 records (or rows) for a record type.
     ><span class="preview">In the drag and drop line, a number indicator displays the number of records selected, if more than one. </span>
 
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to edit the thumbnail. 
-1. Click **Fields** at the top of the table, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
+1. Click **Fields** at the top of the table in the Production environment
+
+    Or 
     
+    <span class="preview">Hover over the primary field header</span>, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
+
     For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. <span class="preview">(Optional) Click **Fields** at the top of the table, then click **Color** to display the color of a record to the left of its primary field. Colors are assigned randomly by default for each new record. The **Color** setting is deselected by default.</span>
+1. <span class="preview">Click **Fields** at the top of the table</span>
+   
+   Or 
+   <span class="preview">Hover over the primary field header, then select the toggle for the **Color** field to display it to the left of the primary field. It is deselected by default. </span>
 
 1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
 
-    <div class="preview">
+<div class="preview">
 
-    ![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
+![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
 
-    For more information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+For more information, see [Create records](/help/quicksilver/planning/records/create-records.md).
 
-    </div>
+</div>
 
 
 ### Add filters {#add-filters-1}
-
-Filters help you reduce the amount of information displayed on the screen.
 
 Filters help you reduce the amount of information displayed on the screen.
 

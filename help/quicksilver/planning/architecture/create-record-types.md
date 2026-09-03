@@ -33,11 +33,11 @@ topic_v2:
 
 # Create record types
 
-<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -293,18 +293,18 @@ You can manually add record types in both the Operational Record Types and Taxon
 
     The changes are saved automatically.
 
-    For additional information about adding records, deleting or editing record types, <!--<span class="preview">creating business rules</span>--> or updating the view in the record type page, see the following articles:
+    For additional information about adding records, deleting or editing record types, <span class="preview">creating business rules</span> or updating the view in the record type page, see the following articles:
 
       * [Create records](/help/quicksilver/planning/records/create-records.md)
       * [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md)
       * [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md)
       * [Manage record views](/help/quicksilver/planning/views/manage-record-views.md) 
 
-    <!--  
     <div class="preview">
+
     * [Create record types business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
+    
     </div>
-    -->
 
 ## Create record types by importing information from a CSV or Excel file
 
