@@ -152,9 +152,9 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
     * There is an indication in the column header of the connected record fields that explains that the field is in a dependent connection relationship. 
 
         ![Dependent icon tooltip in column header](assets/dependent-icon-tooltip-in-column-header.png)   
-1. (Optional) Click **Record filtering rules** and select fields from the record type you are connecting to to narrow down the options for that field's values, then click **Done**.
+1. (Optional) Click **Record filtering rules** and select fields from the record type you are connecting to to limit the options for that field's values, then click **Done**.
 
-    When the two fields are present on a third record type, the options for the connected field record type will be limited by the filter you select. 
+    When the two fields are present on a third record type, the options for the connected field record type will be limited by the filter you select here. 
 1. (Optional and recommended) Go to a third record type and add both the first and second record type as connected record fields. 
 
     ![Dependent connected field indicator on a third record type](assets/dependent-connected-field-indicator-on-a-third-record-type.png)

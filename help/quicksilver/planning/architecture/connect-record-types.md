@@ -359,7 +359,9 @@ Old:
     >
     >Your Workfront administrator can map Workfront Planning fields to Experience Manager Assets fields through the Metadata mapping in Workfront. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). 
 
+1. <span class="preview">(Optional and conditional) If you selected **Make this connection dependent**, click **Record filtering rules** to create a filter to limit the values of the connected field values when both connected record fields display on the same record type. </span>
 
+    <span class="preview">For more information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md). </span>
 1. (Optional) Choose one of the following options in the **Record appearance** area:
 
     * **Name and image**: Both the name and the thumbnail or icon of the connected records will display in the connected record field. This is the default option. 
@@ -383,7 +385,9 @@ Old:
     >
     >* What you select in the **Record appearance** area determines how the records display in connections everywhere in the system, including all the views and details pages. 
 
-1. Select the **Select lookup fields** to add fields from the  record type you are connecting to. The lookup fields are fields associated with the record or object type that you are linking to. Linking them displays information from the record or object you're linking to on the record you are linking from. This is selected by default.
+1. Select the **Select lookup fields** or <span class="preview">click the **Lookup fields** menu</span> to choose and add fields from the  record type you are connecting to. 
+
+    Lookup fields are fields associated with the record or object type that you are connecting to. Linking them displays information from the record or object you're linking to on the record you are linking from. <!--No more: This is selected by default.-->
 
     >[!NOTE]
     >

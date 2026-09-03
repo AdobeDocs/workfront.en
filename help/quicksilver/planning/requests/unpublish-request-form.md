@@ -32,13 +32,10 @@ topic_v2:
 
 <!--take Preview and Production references at Production time-->
 
-<!--
-
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 {{planning-important-intro}}
 
@@ -107,7 +104,7 @@ To change the sharing of a request form:
 
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
 
-1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms** or <!--<span class="preview">Request forms</span>-->.
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms** or <span class="preview">**Request forms**</span>.
 
    All request forms associated with the record type display in a table view. 
 1. Hover over the name of a request form, then click the **More** menu ![More menu](assets/more-menu.png) to the right of its name, then click **Share**. 
@@ -134,7 +131,7 @@ When a request form becomes irrelevant and you don't want anyone to access it an
 
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
 
-1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms** <!--<span class="preview">Request forms</span>-->.
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms** <span class="preview"> or **Request forms**</span>.
 
    All request forms associated with the record type display in a table view. 
 1. Hover over the name of a request form, then click the **More** menu ![More menu](assets/more-menu.png) to the right of its name, then click **Unpublish**
