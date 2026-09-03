@@ -19,7 +19,8 @@ role_v2:
 
 >[!IMPORTANT]
 >
->The functionality to generate formulas using AI Assistant has been removed from Adobe Workfront. 
+>* Beginning in September 2026, AI Assistant is transitioning to CX Coworker, a conversational interface for getting work done. For information on CX Coworker, see [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>* The functionality to generate formulas using AI Assistant has been removed from Adobe Workfront. 
 
 
 <!--

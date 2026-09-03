@@ -186,17 +186,17 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td role="rowheader">Intelligent Auto-complete in Request forms </td> 
       <td>Lets you choose to enable the ability to auto-complete request forms based on previous request data. For more information about Form Auto-Complete, see <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Auto-fill a request from previous data</a>.</td> 
      </tr>
+     <tr> 
+      <td role="rowheader">Opt in to AI Betas </td> 
+      <td>Lets you choose to enable AI features that are currently in Beta. If you enable this option, you can then select which AI Beta features to enable. For more information about each AI Beta feature, click the information icon next to that feature
     <tr> 
       <td role="rowheader">Planning Designer</td> 
       <td>This is available only to customers who have purchased a Workfront Planning package. Turning on this setting allows your users to create and edit workspaces using the Planning Designer. For information, see <a href="/help/quicksilver/planning/general/planning-ai-designer.md">Get started with the Adobe Workfront Planning Designer</a>.</td> 
-     </tr>
-     <tr> 
-      <td role="rowheader">Opt in to AI Betas </td> 
-      <td>Lets you choose to enable AI features that are currently in Beta. If you enable this option, you can then select which AI Beta features to enable. For more information about each AI Beta feature, click the information icon next to that feature.</td> 
+     </tr>.</td> 
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview">Read-only MCP tools</span></td> 
-      <td><span class="preview">Lets the Workfront MCP server perform read actions on Workfront data — for example, finding or listing projects, tasks, or other items. This option is enabled by default.<p>For more information about the Workfront MCP server, see <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configure the Adobe Workfront MCP server</a>.</p></span></td> 
+      <td><span class="preview">Lets the Workfront MCP server perform read actions on Workfront data, such as finding or listing projects, tasks, or other items. This option is enabled by default.<p>For more information about the Workfront MCP server, see <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configure the Adobe Workfront MCP server</a>.</p></span></td> 
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview">Write MCP tools</span></td> 
