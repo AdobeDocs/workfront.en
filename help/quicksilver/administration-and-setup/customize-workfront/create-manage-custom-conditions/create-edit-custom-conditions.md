@@ -82,7 +82,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    Sample image in the Production environment:
    ![Edit custom condition](assets/custom-conditions-0825.png)
 
-   Sample image in the Preview environment:
+   <span class="preview">Sample image in the Preview environment:</span>
    ![Edit custom condition](assets/edit-conditions-082526.png)
 
 1. Configure your custom condition using the following options:
