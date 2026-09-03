@@ -39,8 +39,6 @@ For more information, see [Add an update to a document](/help/quicksilver/docume
 
 When a document has a proof attached, the "Go to review" link in approval emails now opens the proof viewer directly, so reviewers and approvers can start their review right away. If a document has no proof, the link continues to open the Approvals section of the document, as before.
 
-<!--
-
 ## Add teams to approvals for objects using Adobe cloud storage
 
 >[!NOTE]
@@ -60,8 +58,6 @@ For more information, see:
 * [Create an approval workflow in the new Documents area](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-in-the-new-documents-area)
 * [Create an approval workflow in the legacy documents area](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-in-the-legacy-documents-area)
 * [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-
--->
 
 ## Set a Frame.io workspace on project templates
 
@@ -118,8 +114,6 @@ When you set a custom message on a document approval, that message now also appe
 
 For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
-<!--
-
 ## Redesigned Versions panel in the new documents area
 
 >[!NOTE]
@@ -155,8 +149,6 @@ If your organization uses Adobe cloud storage, the Approvals panel in the new Do
 Previously, the Approvals panel only showed the current version's workflow.
 
 For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
-
--->
 
 ## Attach images to comments on Adobe cloud storage objects
 
