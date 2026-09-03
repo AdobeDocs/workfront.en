@@ -23,6 +23,8 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 
 You can now manage the visibility of the records' thumbnails and colors when editing the primary field column in the table view.
 
+With this update, the Thumbnail and the Color settings will be removed from the Fields icon in the table view's toolbar.
+
 For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Create business rules for record types
