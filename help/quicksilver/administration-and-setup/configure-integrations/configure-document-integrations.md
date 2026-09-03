@@ -209,7 +209,7 @@ After the custom document integration is built, you can make it available to use
 
    [!DNL Workfront] uses this API key to make authorized API calls to the document provider.
 
-1. <span class="preview">(Optional) To enable large file support, select **[!UICONTROL Enable chunked upload for large files]** in the **[!UICONTROL Large File Support]** section, then enter the maximum chunk size, in MB, in the **[!UICONTROL Chunked Upload Threshold (MB)]** field. This field accepts values up to 100 MB. When enabled, files over 25 MB are uploaded in chunks of this size instead of in a single request.</span>
+1. (Optional) <span class="preview">To enable large file support, select **[!UICONTROL Enable chunked upload for large files]** in the **[!UICONTROL Large File Support]** section, then enter the maximum chunk size, in MB, in the **[!UICONTROL Chunked Upload Threshold (MB)]** field. This field accepts values up to 100 MB. When enabled, files over 25 MB are uploaded in chunks of this size instead of in a single request.</span>
 
 1. Click **[!UICONTROL Save]** to create the integration.
 
