@@ -89,7 +89,7 @@ Or
 * Rules apply to everyone who can edit or delete records. 
 * You can have more that one business rule for a record type.  <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU; I also logged a bug for this because it released with more than one per action - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/6a99add600001e9aa90435ec181dec3e/overview-->
 
-   All the rules are checked together at the same time, and the error message displays all the fields that are missing in one statement. 
+   All the rules are checked together at the same time. <!-- I have asked Syuzanna and Norayr multiple times HOW are the rules run/ prioritized and I got no answers; when I know, I will update here-->
 
 ## Configure business rules
 
