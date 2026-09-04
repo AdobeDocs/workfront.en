@@ -284,6 +284,8 @@ Old:
         >* [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
         >* [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
 
+        <!--see if they fixed the UI here and update the screen shot-->
+
         ![Original request connection selection](assets/original-request-connection-selection.png)
 
 

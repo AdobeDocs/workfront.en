@@ -194,6 +194,13 @@ For information about you connect record types, see [Connect record types](/help
     
     * You must connect record types to be able to create hierarchies in Workfront Planning. When record type connections don't exist, they are automatically created when you create a hierarchy. For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 
+    * If your organization purchased an Adobe GenStudio for Performance Marketing package, the following scenarios exist:
+    
+        * You cannot connect to GenStudio record types from Planning record types. 
+        * You can connect GenStudio record types in the GenStudio workspace. 
+        * You can connect GenStudio Brands from GenStudio record types and from Planning record types. 
+        * You cannot include GenStudio Brands in a hierarchy. 
+
     <div class="preview">
 
     * You can make a connection field dependent on the corresponding connected field from the connected record type. When the two fields display on a third record type, the selections available for one field depend on the selections from the other field. 

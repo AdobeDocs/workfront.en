@@ -280,10 +280,10 @@ Old:
    </table> 
 
 * Updating the workspace configuration, record types, views, and fields for a GenStudio workspace is identical with updating a Workfront Planning workspace with its elements. 
-<!--
-Is this just preview?? * You can build hierarchies for the record types in the GenStudio workspace. For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
-* You cannot include GenStudio Brands in a hierarchy.
--->
+* You can build hierarchies for the record types in the GenStudio workspace. 
+
+   For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+* You can connect a GenStudio record type to GenStudio BRands, but you cannot include GenStudio Brands in a hierarchy.
 
 <!--
 ## Manage GenStudio workspace from Workfront Planning
@@ -498,8 +498,7 @@ CAN YOU DO THIS??
    * Sort by it
    * Hide it 
    * Edit its settings
-   
-   <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
+   * Delete it 
 
       <!--GenStudio-native fields are note removed from GenStudio. -->
 
@@ -508,16 +507,9 @@ CAN YOU DO THIS??
       >* You can edit the configuration of a GenStudio field only when you have Manage permissions in GenStudio.
       >* You cannot delete a GenStudio field. 
 
-<!--
-Is this just Preview?? Or direct to Prod?? 
-
 ## Create workspace hierarchies in the GenStudio workspace
 
 Creating hierarchies in the GenStudio workspace is similar to creating hierarchies in any workspace. 
 
->[!NOTE]
->
->You cannot add GenStudio Brands to a hierarchy in the GenStudio workspace.
-
 For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
--->
+
