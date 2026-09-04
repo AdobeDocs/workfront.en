@@ -1,12 +1,12 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Duplicate a Canvas Dashboard
-description: You can duplicate a Canvas Dashboard to create a variation of it, such as an audience-specific copy, without rebuilding it from scratch.
+title: Copy a Canvas Dashboard
+description: You can Copy a Canvas Dashboard to create a variation of it, such as an audience-specific copy, without rebuilding it from scratch.
 author: Courtney
 feature: Reports and Dashboards
 ---
-# Duplicate a Canvas Dashboard
+# Copy a Canvas Dashboard
 
 {{highlighted-preview-article-level}}
 
@@ -20,7 +20,7 @@ feature: Reports and Dashboards
 >* Azure
 >* Google Cloud Platform
 
-You can duplicate a Canvas Dashboard to create a variation of it for a different audience, such as a director-level copy of an executive dashboard, without rebuilding it from scratch.
+You can copy a Canvas Dashboard to create a variation of it for a different audience, such as a director-level copy of an executive dashboard, without rebuilding it from scratch.
 
 ## Access Requirements
 
@@ -69,33 +69,33 @@ You must create a dashboard before it can be duplicated.
 
 For more information, see [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
-## Duplicate a dashboard
+## Copy a dashboard
 
 >[!NOTE]
 >
 >Sharing preferences are not copied to the new dashboard. If a widget has a **Run as user** configuration, that configuration is preserved on the copy only if you are the designated user or a System Administrator.
 
-To duplicate a dashboard:
+To copy a dashboard:
 
 {{step1-to-dashboards}}
 
 1. In the left panel, click **Canvas Dashboards**.
 
-1. On the **Canvas Dashboards** page, open the dashboard you want to duplicate.
+1. On the **Canvas Dashboards** page, open the dashboard you want to copy.
 
-1. In the upper-right corner, select the **More** ![More icon](assets/more-icon.png) icon, then select **Duplicate**.
-   ![Duplicate dashboard menu option](assets/duplicate-dashboard.png)
+1. In the upper-right corner, select the **More** ![More icon](assets/more-icon.png) icon, then select **Copy**.
+   ![Copy dashboard menu option](assets/duplicate-dashboard.png)
 
-1. In the **Duplicate dashboard** dialog box, enter a **Name** for the new dashboard, which defaults to the source dashboard's name followed by "(Copy)."
+1. In the **Copy dashboard** dialog box, enter a **Name** for the new dashboard, which defaults to the source dashboard's name followed by "(Copy)."
 
 1. (Optional) On the **Dashboard details** tab, update the **Description** or **Currency** for the new dashboard.
-   ![Duplicate dashboard - Dashboard details tab](assets/duplicate-details.png)
+   ![Copy dashboard - Dashboard details tab](assets/duplicate-details.png)
 
 1. (Optional) Click the **Widgets** tab, then deselect any widgets you don't want to include in the duplicate dashboard.
-   ![Duplicate dashboard - Widgets tab](assets/copy-widgets.png)
+   ![Copy dashboard - Widgets tab](assets/copy-widgets.png)
 
 1. (Optional) Click the **Filters & Prompts** tab, then turn off **Copy dashboard filters** or **Copy dashboard prompts** to exclude them from the duplicate dashboard.
-   ![Duplicate dashboard - Filters & Prompts tab](assets/copy-filters.png)
+   ![Copy dashboard - Filters & Prompts tab](assets/copy-filters.png)
 
 1. Click **Copy dashboard**.
 
