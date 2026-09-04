@@ -28,8 +28,6 @@ For more information, see [Manage approval templates](/help/quicksilver/review-a
 
 -->
 
-<!--
-
 ## Frame comment visibility in Workfront
 
 >[!NOTE]
@@ -43,8 +41,6 @@ When an approval workflow is created for a document, users can leave comments an
 Now, the Comments panel in Workfront displays a message letting you know when new comments are available in Frame.io.
 
 For more information, see [Add an update to a document](/help/quicksilver/documents/managing-documents/add-update-documents.md).
-
--->
 
 ## Direct proof access from approval email links
 
