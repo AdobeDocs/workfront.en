@@ -256,6 +256,17 @@ Live webinars are held for each quarterly release - these highlight the new feat
 <!--
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">System Administrators full access to approval templates</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it.</p>
+            </td>
+            <td><p>September 4, 2026</p></td>
+            <td><p>September 4, 2026</p></td>
+            <td><p>September 4, 2026</p></td>
+        </tr>
+-->
+<!--
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Frame comment visibility in Workfront</a>
                 <p>The Comments panel in Workfront now lets you know when new comments are available in the Frame.io viewer.</p>
             </td>
@@ -347,6 +358,18 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>August 13, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Approval workflow templates are private by default</a>
+                <p>Approval templates are now private by default, visible only to the user who created them unless shared.</p>
+            </td>
+            <td><p>July 30, 2026</p></td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
+
     </tbody>
 </table>
 
