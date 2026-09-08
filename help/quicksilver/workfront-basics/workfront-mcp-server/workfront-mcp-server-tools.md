@@ -295,6 +295,13 @@ Insights tools retrieve information about Workfront objects.
 | List entities | `insights_list_entities` | List all Workfront object types available to query. | Read |
 | Search users | `insights_search_users` | Find people in your Workfront instance by name. Type a full or partial name, and get back the top matching users. This can also optionally include AI-collaborator "bots" alongside regular users. | Read |
 
+## Feedback tools
+
+<span class="preview">Feedback tools let you report your experience with the Workfront MCP server directly from your AI agentic platform.</span>
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| <span class="preview">Share feedback</span> | <span class="preview">`share_feedback`</span> | <span class="preview">Records your reported sentiment and what happened during the conversation, so Workfront's MCP tools can be improved. Only used when you explicitly ask to share feedback (for example, "share feedback" or "report a bug").</span> | <span class="preview">Write</span> |
 
 
 
