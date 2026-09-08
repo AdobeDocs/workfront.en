@@ -448,8 +448,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Duplicate dashboards in Canvas Dashboards</a>
-                <p>You can now duplicate a Canvas Dashboard using the new Duplicate dashboard action, and choose what to carry over to the copy.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Copy dashboards in Canvas Dashboards</a>
+                <p>You can now copy a Canvas Dashboard using the new Copy dashboard action, and choose what to carry over to the copy.</p>
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
