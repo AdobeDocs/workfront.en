@@ -33,6 +33,8 @@ topic_v2:
 
 You can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.  
 
+By default, an approval template is visible only to its creator. Throughout this article, you can only select templates you created or that were shared with you. For more information, see [Share a template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) in Manage approval templates.
+
 >[!IMPORTANT]
 >
 >The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
@@ -95,7 +97,7 @@ To create a single-stage approval workflow:
    <table>
    <tr>
    <td><strong>Use an approval template (optional)</strong></td>
-   <td>Select a template from the drop-down menu. If the template has one path and one stage, it applies in Basic mode. If the template has more than one stage or more than one path, the dialog automatically switches to Advanced mode and any input you entered in Basic mode is replaced by the template's content.</td>
+   <td>Select a template from the drop-down menu. The menu only lists templates you created or that were shared with you — either with you specifically or with everyone in your organization. System Administrators see every template in the account here, regardless of who created or shared it. If the template has one path and one stage, it applies in Basic mode. If the template has more than one stage or more than one path, the dialog automatically switches to Advanced mode and any input you entered in Basic mode is replaced by the template's content.</td>
    </tr>
    <tr>
    <td><strong>Add names or emails</strong></td>
@@ -151,6 +153,14 @@ To create an advanced approval workflow:
    >[!TIP]
    >
    >While you're creating the approval, you can return to Basic mode by clicking **Go to basic** in the top right. After you click **Request approval**, the **Go to basic** option is no longer available.
+
+1. (Optional) To apply a template:
+
+   1. Toggle **Templates** On.
+   1. Click the filter icon, then select **All**, **My templates**, or **Shared with me** to narrow the list.
+   1. Click a template to apply it to the approval.
+
+   System Administrators see every template in the account here, regardless of who created or shared it.
 
 1. Fill in details for Stage 1 of Path 1:
 
@@ -222,7 +232,7 @@ To create a single-stage approval workflow:
    <table>
    <tr>
    <td><strong>Use an approval template (optional)</strong></td>
-   <td>The templates field is collapsed by default. Click the field to expand it, then select a template from the drop-down menu. If the template has one path and one stage, it applies in Basic mode. If the template has more than one stage or more than one path, the dialog automatically switches to Advanced mode and any input you entered in Basic mode is replaced by the template's content.</td>
+   <td>The templates field is collapsed by default. Click the field to expand it, then select a template from the drop-down menu. The menu only lists templates you created or that were shared with you — either with you specifically or with everyone in your organization. System Administrators see every template in the account here, regardless of who created or shared it. If the template has one path and one stage, it applies in Basic mode. If the template has more than one stage or more than one path, the dialog automatically switches to Advanced mode and any input you entered in Basic mode is replaced by the template's content.</td>
    </tr>
    <tr>
    <td><strong>Add names or emails</strong></td>
@@ -284,6 +294,14 @@ To create an advanced approval workflow:
    >[!TIP]
    >
    >While you're creating the approval, you can return to Basic mode by clicking **Go to basic** in the top right. After you click **Request approval**, the **Go to basic** option is no longer available.
+
+1. (Optional) To apply a template:
+
+   1. Toggle **Templates** On.
+   1. Click the filter icon, then select **All**, **My templates**, or **Shared with me** to narrow the list.
+   1. Click a template to apply it to the approval.
+
+   System Administrators see every template in the account here, regardless of who created or shared it.
 
 1. Fill in details for Stage 1 of Path 1:
 

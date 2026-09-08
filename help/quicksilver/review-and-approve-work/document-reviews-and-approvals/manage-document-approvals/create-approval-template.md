@@ -29,9 +29,7 @@ topic_v2:
 ---
 # Create an approval workflow template for documents
 
-{{highlighted-preview}}
-
-In the Workfront Setup area, users with a Standard license can create reusable Approval Templates. Once created, Approval Templates can be applied to assets in the Documents area of an object. 
+In the Workfront Setup area, users with a Standard license can create reusable Approval Templates. A template is visible only to the user who created it, unless the creator shares it with specific users or with everyone in the organization. Once created, Approval Templates can be applied to assets in the Documents area of an object. 
 
 >[!IMPORTANT]
 >
@@ -131,6 +129,10 @@ To create an approval template:
 1. Click **Save**.
 
 Once the template is created, it can be applied to documents in the Documents area of an object to begin the formal review and approval process in Workfront.
+
+>[!NOTE]
+>
+>New templates are visible only to you. To share, edit, or delete a template, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
 <!--
  Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.

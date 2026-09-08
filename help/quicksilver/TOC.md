@@ -1943,6 +1943,7 @@ feature-set: Workfront
       * [Add additional reviewers or approvers to an asset or document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [Remove approvers or reviewers from an asset or document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [Create an Approval Template for assets and documents](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+      * [Manage approval templates](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)
       * [Use Unified Approvals and proofing together](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
       * [Upload a new document version and request an approval](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
       * [Create a report dashboard for review and approvals](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)

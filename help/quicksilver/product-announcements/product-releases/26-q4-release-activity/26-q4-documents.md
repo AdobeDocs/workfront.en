@@ -11,6 +11,25 @@ This page describes Documents enhancements made with the Fourth Quarter 2026 rel
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+## Control who can see and use approval templates
+
+>[!NOTE]
+>
+>Preview: July 30, 2026
+>Production fast release: August 13, 2026
+>Production for everyone: October 15, 2026
+
+Approval templates are now private by default. Previously, every approval requester could see every template in the system, which made template lists long and hard to navigate. Now, a template is visible only to the user who created it, unless the creator shares it.
+
+Template creators can share a template with specific users or with everyone in their organization from the Approval Templates list in Workfront Setup. When requesting an approval, users only see templates they created or that were shared with them.
+
+This change applies to both new and existing templates, and access is enforced consistently no matter how a template is requested.
+
+For more information, see:
+
+* [Share a template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md#share-a-template) in Create an approval workflow template for documents
+* [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+
 <!--
 
 ## System Administrators full access to approval templates
