@@ -35,9 +35,8 @@ Contributors on the new license model must have an auto-upgrade option assigned.
 ## Add to a view on the Access Level page
 
 To view which access levels are assigned as auto-upgrade options: 
-<!--
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear icon](assets/gear-icon-settings.png.png).
--->
+
+{{step-1-to-setup}}
 
 1. In the right panel, click **Access Levels**.
 
@@ -47,12 +46,12 @@ To view which access levels are assigned as auto-upgrade options:
 
 1. Choose **Add Column** and search for **Upgrade to**.
 
-1.  Click **Save view**.
+1. Click **Save view**.
 
 ## Assign a new upgrade option to an access level
 
-To assign a new auto-upgrade option to an access levels: 
+To assign a new auto-upgrade option to an access level: 
 
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the right panel, click **Access Levels**.
