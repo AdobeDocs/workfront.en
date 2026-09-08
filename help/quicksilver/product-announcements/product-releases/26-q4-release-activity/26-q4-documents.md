@@ -30,22 +30,18 @@ For more information, see:
 * [Share a template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md#share-a-template) in Create an approval workflow template for documents
 * [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
 
-<!--
-
 ## System Administrators full access to approval templates
 
 >[!NOTE]
 >
->Preview: September 4, 2026
->Production fast release: September 4, 2026
->Production for everyone: September 4, 2026
+>Preview: September 8, 2026
+>Production fast release: September 8, 2026
+>Production for everyone: September 8, 2026
 >[!BADGE Off schedule]{type=Neutral}
 
 System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it. Previously, System Administrators were subject to the same sharing rules as other users, and could only see or manage templates they created or that were shared with them.
 
 For more information, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
-
--->
 
 ## Frame comment visibility in Workfront
 
