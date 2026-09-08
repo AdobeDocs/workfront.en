@@ -45,7 +45,7 @@ Or
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Workflow Standard</p>
+   <td><p>Workflow Contributor or higher</p>
    </td> 
   </tr> 
 <tr> 
@@ -139,6 +139,7 @@ Or
 1. Click **Activate** to make the rule active for this record type, then click **Save**.
 
    Rules are applied immediately after you activate them and all users who have permissions to edit or delete records in the selected record type must follow them. 
+1. (Optional) Click the **More** menu ![](assets/more-menu.png) to the name of the business rule in the page header to open the **Rule details** box and update information about the business rule.  
 1. (Optional and recommended) Click the back arrow to the left of the **Business rules** in the page header to display the record type page and go to a table view or open a record's page, then try editing or deleting a record, to test the rule you just created. 
 
 ## Manage business rules
@@ -148,18 +149,22 @@ You can edit, delete or deactivate existing business rules.
 Editing an existing rule does not change existing records. The edited rule only applies to existing records when someone attempts to edit or delete them. 
 
 1. Go back to the **Business rules** table page for the record type.
-1. Find the rule you want to change.
-1. Hover over the rule name, then click the **More** menu ![More menu](assets/more-menu.png), then one of the following options:
+1. Find the rule you want to change in the table view.
+1. Hover over the name of an active rule, then click the **More** menu ![More menu](assets/more-menu.png), then one of the following options:
 
    * **Edit**: This opens the business rule setup page and you can edit information about the business rule. 
-   * **Deactivate**: <!--check this in the UI: right now, it says Disable--> This stop the rule from triggering but preserves for the future, it needed. 
+   * **Deactivate**: This stop the rule from triggering but preserves for the future, it needed. 
    * **Delete**: All the information about the rule is deleted. Deleted rules cannot be recovered. 
 
+   ![Business rule More menu expanded](assets/business-rule-more-menu-in-table-expanded.png)
+    
    The edited rules or the deactivation of rules apply only for future records and they are not applied retroactively. 
+1. (Optional and conditional) Hover over the name of a deactivated business rule in the table, then click **More** > **Activate** to activate the rule. 
 
-   <!--add NEW screen shot below if UI is fixed with Deactivate at release; it was fixed in devTest-->
+   The rule is activated. 
 
-   <!--![Business rule more menu expanded](assets/business-rule-more-menu-in-table-expanded.png)-->
+ 
+   
 
 <!--
 
