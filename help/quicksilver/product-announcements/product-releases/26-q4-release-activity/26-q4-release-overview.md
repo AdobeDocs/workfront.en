@@ -262,17 +262,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
         </tr>
-<!--
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">System Administrators full access to approval templates</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it.</p>
             </td>
-            <td><p>September 4, 2026</p></td>
-            <td><p>September 4, 2026</p></td>
-            <td><p>September 4, 2026</p></td>
+            <td><p>September 8, 2026</p></td>
+            <td><p>September 8, 2026</p></td>
+            <td><p>September 8, 2026</p></td>
         </tr>
--->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Frame comment visibility in Workfront</a>
