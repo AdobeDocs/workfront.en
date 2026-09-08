@@ -24,6 +24,8 @@ topic_v2:
 ---
 # Register a Webhook Integration
 
+{{highlighted-preview}}
+
 Adobe Workfront administrators can add a custom webhook integration for their company by navigating to Setup > Documents > Custom Integrations within Workfront. From the Custom Integration page within Setup,&nbsp;administrators can view a list of existing document Webhook integrations. From this page, integrations can be added, edited, enabled, and disabled.
 
 To add an integration, click **Add Custom Integration**. 
@@ -83,6 +85,14 @@ When adding an integration, the administrator will enter values for the followin
   <tr> 
    <td>ApiKey</td> 
    <td> <p>(ApiKey Only) Used to make authorized API calls to the webhook provider. The API key issued by the webhook provider.</p> </td> 
+  </tr> 
+  <tr class="preview"> 
+   <td>Enable chunked upload for large files</td> 
+   <td> <p>Select this checkbox to enable multi-part (chunked) uploads for files over 25 MB. When not selected, files are uploaded in a single request regardless of size.</p> </td> 
+  </tr> 
+  <tr class="preview"> 
+   <td>Chunked Upload Threshold (MB)</td> 
+   <td> <p>The maximum size, in MB, of each chunk when a large file is split for upload. Accepts values up to 100 MB.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -39,6 +39,8 @@ topic_v2:
 ---
 # Configure system preferences
 
+{{highlighted-preview}}
+
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
@@ -155,6 +157,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td>Always enforce required fields in bulk edit</td>
       <td><p>Lets you choose whether to force users to enter information in required fields when bulk editing objects.</p> <p>When this option is selected, required fields must have values before saving in bulk edit mode. If the required field is missing a value for at least one bulk selected object, saving is not permitted.</p> <p>When this option is not selected, required fields are only enforced when a user modifies the field. If a field is not modified, it is treated as optional and not validated.</p></td>
      </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Access Level for Users Created in Admin Console</span></td>
+      <td><span class="preview">Lets you choose a default access level to automatically assign to users who are created in Workfront through the Adobe Admin Console. If you don't set a default, these users continue to receive a Contributor or Requester access level. System Administrator and External User access levels aren't available as a default, and this setting isn't available for organizations that have Workfront Planning as a standalone product.<p><b>NOTE</b>: You can't delete an access level while it's set as this default. To delete the default access level, select a different default access level first.</p></span></td>
+     </tr>
      <tr> 
       <td role="rowheader">Storage Preferences </td> 
       <td>In this section you can enable the Adobe cloud preferences. Lets you choose to enable or disable Adobe cloud storage for your entire organization or for specific groups. 
@@ -180,17 +186,17 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td role="rowheader">Intelligent Auto-complete in Request forms </td> 
       <td>Lets you choose to enable the ability to auto-complete request forms based on previous request data. For more information about Form Auto-Complete, see <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Auto-fill a request from previous data</a>.</td> 
      </tr>
+     <tr> 
+      <td role="rowheader">Opt in to AI Betas </td> 
+      <td>Lets you choose to enable AI features that are currently in Beta. If you enable this option, you can then select which AI Beta features to enable. For more information about each AI Beta feature, click the information icon next to that feature
     <tr> 
       <td role="rowheader">Planning Designer</td> 
       <td>This is available only to customers who have purchased a Workfront Planning package. Turning on this setting allows your users to create and edit workspaces using the Planning Designer. For information, see <a href="/help/quicksilver/planning/general/planning-ai-designer.md">Get started with the Adobe Workfront Planning Designer</a>.</td> 
-     </tr>
-     <tr> 
-      <td role="rowheader">Opt in to AI Betas </td> 
-      <td>Lets you choose to enable AI features that are currently in Beta. If you enable this option, you can then select which AI Beta features to enable. For more information about each AI Beta feature, click the information icon next to that feature.</td> 
+     </tr>.</td> 
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview">Read-only MCP tools</span></td> 
-      <td><span class="preview">Lets the Workfront MCP server perform read actions on Workfront data — for example, finding or listing projects, tasks, or other items. This option is enabled by default.<p>For more information about the Workfront MCP server, see <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configure the Adobe Workfront MCP server</a>.</p></span></td> 
+      <td><span class="preview">Lets the Workfront MCP server perform read actions on Workfront data, such as finding or listing projects, tasks, or other items. This option is enabled by default.<p>For more information about the Workfront MCP server, see <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configure the Adobe Workfront MCP server</a>.</p></span></td> 
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview">Write MCP tools</span></td> 

@@ -39,11 +39,11 @@ recommendations: noDisplay, noCatalog
 
 # Manage the GenStudio workspace in Adobe Workfront Planning
 
-<!--
+
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 The Adobe GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products and your instance of Workfront is integrated with your company's instance of GenStudio. 
 
@@ -280,10 +280,10 @@ Old:
    </table> 
 
 * Updating the workspace configuration, record types, views, and fields for a GenStudio workspace is identical with updating a Workfront Planning workspace with its elements. 
-<!--
-Is this just preview?? * You can build hierarchies for the record types in the GenStudio workspace. For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
-* You cannot include GenStudio Brands in a hierarchy.
--->
+* You can build hierarchies for the record types in the GenStudio workspace. 
+
+   For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+* You can connect a GenStudio record type to GenStudio BRands, but you cannot include GenStudio Brands in a hierarchy.
 
 <!--
 ## Manage GenStudio workspace from Workfront Planning
@@ -366,15 +366,24 @@ CAN YOU DO THIS??
    * **Edit**
 
       For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md).
-   * **Manage automations**
+   * **Manage automations** or <span preview="preview">**Automations**</span>
 
       For information, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
-   * **Manage request forms**
+   * **Manage request forms** or <span class="preview">**Request forms**</span>
 
       You can create multiple request forms. The request forms will be available in the Requests area of Workfront and you can also share them publicly, or with a link. 
 
       For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
+   <div class="preview">
+
+   * **Business rules**
+
+      You can configure record type business rules to define what conditions must be met before users are allowed to edit or delete records of that type. 
+
+      For information, see [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).
+   </div>
+   
 1. To share a view or the record type, do the following: 
 
    * Click **Share** in the upper-right corner of the record type page, then click one of the following:
@@ -489,8 +498,7 @@ CAN YOU DO THIS??
    * Sort by it
    * Hide it 
    * Edit its settings
-   
-   <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
+   * Delete it 
 
       <!--GenStudio-native fields are note removed from GenStudio. -->
 
@@ -499,16 +507,9 @@ CAN YOU DO THIS??
       >* You can edit the configuration of a GenStudio field only when you have Manage permissions in GenStudio.
       >* You cannot delete a GenStudio field. 
 
-<!--
-Is this just Preview?? Or direct to Prod?? 
-
 ## Create workspace hierarchies in the GenStudio workspace
 
 Creating hierarchies in the GenStudio workspace is similar to creating hierarchies in any workspace. 
 
->[!NOTE]
->
->You cannot add GenStudio Brands to a hierarchy in the GenStudio workspace.
-
 For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
--->
+

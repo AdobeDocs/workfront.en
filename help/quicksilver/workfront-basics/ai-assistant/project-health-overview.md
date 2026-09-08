@@ -25,7 +25,8 @@ topic_v2:
 
 >[!IMPORTANT]
 >
->The Project Health feature is currently only available for users participating in the beta stage.
+>* Beginning in September 2026, AI Assistant is transitioning to CX Coworker, a conversational interface for getting work done. For information on CX Coworker, see [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>* The Project Health feature is currently only available for users participating in the beta stage.
 
 Adobe Workfront's Project Health feature utilizes the power of AI Assistant to instantly give you an assessment of how your projects are performing, what areas need your attention, and how to avoid issues that can cost you time and money.  
 

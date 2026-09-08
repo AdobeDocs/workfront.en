@@ -95,7 +95,7 @@ For more information, see [Build a KPI report](/help/quicksilver/reports-and-das
     1. Click **Add condition**. 
 
     1. Click into the empty condition filter, click **Pick a Field**, then choose **Status**.
-    1. Leave the operator as **Equal**, then type _pending review_ in the textbox.
+    1. Leave the operator as **Equal**, then choose **Pending Review**.
 
     1. Click **Add condition**. 
     1. Click into the empty condition filter, click **Pick a Field**, then choose **Approval Type**.
@@ -153,7 +153,7 @@ For more information, see [Build a KPI report](/help/quicksilver/reports-and-das
     1. Click **Add condition**.
     1. Click into the empty condition filter, then click **Pick a Field**.
     1. Select **Status**.
-    1. Change the operator to **Not Contains**, then type _approved_ in the textbox.
+    1. Change the operator to **Not Contains**, then choose **Approved**.
     ![overdue kpi filter example 2](assets/overdue-kpi-filter-2.png)
 
     1. Click **Add condition**. 
@@ -204,13 +204,13 @@ For more information, see [Build a KPI report](/help/quicksilver/reports-and-das
     
     1. Select **Status**.
 
-    1. Change the operator to **Contains**, and type _approved_ in the textbox.
+    1. Change the operator to **Contains**, and choose **Approved**.
     ![completed kpi filter example](assets/completed-kpi-filter.png)
     1. Click **Add condition**. 
     1. Click **And** to change it to **Or**.
     1. Click into the empty condition filter, then click **Pick a Field**.
     1. Select **Status**.
-    1. Change the operator to **Equal**, then type _reviewed_ in the textbox.
+    1. Change the operator to **Equal**, then choose **Reviewed**.
     ![completed kpi filter example](assets/completed-kpi-filter-2.png)
 
     1. Click **Add condition**. 
@@ -259,7 +259,7 @@ For more information, see [Build a KPI report](/help/quicksilver/reports-and-das
     
     1. Select **Status**.
 
-    1. Change the operator to **Not Contains**, and type _approved_ in the textbox.
+    1. Change the operator to **Not Contains**, and choose **Approved**.
     ![abandoned kpi filter example](assets/abandoned-kpi-filter.png)
     1. Click **Add condition**.
     1. Click into the empty condition filter, then click **Pick a Field**.
@@ -434,7 +434,7 @@ For more information on building a table report, see [Build a table report](/hel
     1. Click **Edit Filter**, then **Add condition**.
     1. Click into the empty condition filter, then click **Pick a Field**.
     1. Select **Status**.
-    1. Change the operator to **Equal**, then type _pending approval_ in the textbox.
+    1. Change the operator to **Equal**, then choose **Pending Approval**.
         ![pending approval table filter example](assets/pending-approval-table-filter.png)
 
 
