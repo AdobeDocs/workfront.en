@@ -509,7 +509,7 @@ Users can launch the Frame.io viewer directly from Workfront. All review and app
 
 Yes. Once an asset completes the review and approval cycle, you can transfer it to Adobe Experience Manager Assets for final storage and distribution. This connects Workfront for work management, Frame.io for review, and AEM for digital asset management into a unified content supply chain.
 
-For more information, see For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+For more information, see [Use Adobe Experience Manager with Workfront and Adobe cloud storage](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 **How does unified review and approval fit into Adobe GenStudio?**
 

@@ -202,7 +202,7 @@ To link a folder:
 
 ## Considerations
 
-* Content Advisor functionality is not available for objects using Adobe cloud storage. If your organization uses Adobe cloud storage, you can still link assets and folders from Experience Manager Assets or Assets Essentials, but you won't have access to Content Advisor features such as AI Search, smart suggestions, or Dynamic Media renditions. For more information, see [Link content and folders from Experience Manager Assets with Adobe cloud storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
+* Content Advisor functionality is not available for objects using Adobe cloud storage. If your organization uses Adobe cloud storage, you can still link assets and folders from Experience Manager Assets or Assets Essentials, but you won't have access to Content Advisor features such as AI Search, smart suggestions, or Dynamic Media renditions. For more information, see [Link content and folders from Experience Manager Assets with Adobe cloud storage](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md#link-content-from-experience-manager-assets).
 
 * Content Advisor functionality is not available for Assets Essentials. To link assets and folders from Assets Essentials, see [Link assets and folders from Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md).
 
