@@ -239,6 +239,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>August 13, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">New Share Feedback tool available in the Workfront MCP Connector</a>
+                <p>A new Share Feedback tool lets you report your sentiment and what happened during the conversation, so Workfront's MCP tools can be improved.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
     </tbody>
 </table>
 
@@ -437,7 +446,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
         </tr>
-<!--
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Duplicate dashboards in Canvas Dashboards</a>
@@ -447,7 +455,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>September 17, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
--->
 
         <tr>
             <td>
