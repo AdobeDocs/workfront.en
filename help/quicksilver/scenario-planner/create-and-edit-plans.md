@@ -157,7 +157,7 @@ To create or edit a plan:
 
    Or
 
-   Click **[!UICONTROL New plan]** in the upper-left corner to create a plan and continue with step 5. <!--is the step still accurate-->
+   Click **[!UICONTROL New plan]** to create a plan and continue with step 5. <!--is the step still accurate-->
 
    The [!UICONTROL **New plan**] box displays.
 
