@@ -86,7 +86,7 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-setup}}
 
-1. Select  **Documents** ![documents icon](assets/document-icon.png) in the left panel, then select **Experience Manager Integration**.
+1. Select  **Documents** ![documents icon](assets/document-icon.png) in the left panel, then select **Experience Manager Assets**.
 1. Select **Add Experience Manager Integration**.
 1. Specify the following:
 
