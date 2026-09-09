@@ -51,7 +51,7 @@ Your Workfront access level must include the following to access Ideation space:
 
 * A Standard Workflow license, when your company purchased a Workflow package in addition to a Planning package. 
 * A Standard Planning license, when your company purchased with a Workflow and a Planning package, or a Workfront Planning as a standalone product. 
-* The Disable Ideation space setting in the Set additional restriction section of your access level must be unselected. <!--check the UI for this-->
+* The Disable Ideation space setting in the Set additional restriction section of your access level must be unselected. ***********check the UI for this***********
 
 ## Workfront Planning permissions requirements
 
@@ -65,6 +65,8 @@ The following table shows the connection between Workfront Planning record permi
 |---|---|
 | Manage permissions to a record | Can create a brief in the Ideation space of the record|
 | View permissions to a record | Can read the brief of that record in Ideation space, but cannot modify it|
+
+
 
 <!-- 
 Not sure if this is needed. Maybe all orgs have IMS for all Adobe?? - asking Becky: 

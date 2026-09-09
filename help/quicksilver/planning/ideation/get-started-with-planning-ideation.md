@@ -26,7 +26,7 @@ https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.
 
 The Adobe Ideation space is Adobe's AI-powered strategic ideation capability, built directly into Workfront Planning. It gives marketing teams a structured, data-informed starting point for campaign strategy, replacing manual research and guesswork with AI-generated briefs grounded in an organization's real performance history.
 
-Accessible from Workfront Planning, the Ideation space is located at the very front of the campaign lifecycle, before planning, production, and delivery, and feeding directly into the Workfront Planning workspace where teams plan and execute their work.
+Accessible only from Workfront Planning, the Ideation space is located at the very front of the campaign lifecycle, before planning, production, and delivery, and feeding directly into the Workfront Planning workspace where teams plan and execute their work.
 
 ## Product availability
 
@@ -38,12 +38,21 @@ The planned release timeline for Ideation space which is subject to change inclu
 
 ## Product requirements
 
-You can access the Ideation space if you have access to the following packages at the same time:
+You can access the Ideation space if your organization and you have access to the following packages at the same time:
 
 * An Adobe Workfront Workflow package with a Workfront Planning package
-* An Adobe Workfront Planning as a standalone product
+
+    Or
+    
+    An Adobe Workfront Planning as a standalone product
+
+    >[!NOTE]
+    >
+    >Ideation space is only accessible from Adobe Planning.
+    
 * Adobe GenStudio for Performance Marketing
 * Adobe Customer Journey Analytics
+
 
 For more information about the access required to use Ideation space, see [Access needed to use the Ideation space](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md). 
 
