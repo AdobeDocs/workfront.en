@@ -80,6 +80,7 @@ If the following notification settings are in place, the user who submits the ti
 
 * The Workfront administrator has enabled the Timesheet Approval to User and the Timesheet Rejection to User event handlers. For information about enabling event notifications, see [Event notification types](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 * The My timesheet is approved personal notification is enabled on the user's profile page. For more information, see [Modify your own email notifications](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). 
+* The user who submitted the timesheet has a Standard license. Users with a Light license or lower do not receive the timesheet approval email notification, even when the My timesheet is approved personal notification is enabled on their profile.
 
 ### Approve a timesheet from the Timesheets area
 
