@@ -72,9 +72,10 @@ For each article in the user-confirmed list:
 
 2. **Determine the highlighting pattern.** Ask the user which fits this article (the answer can differ per article):
 
-   - **Per-section duplication**: Append `in Production` to the existing section heading. Add a new section with `in Preview` appended, wrapped in `<div class="preview"> ... </div>`. Use when the new behavior changes the procedure meaningfully — extra steps, a new image, new table rows, or different wording. Typical for how-to procedures.
-   - **Per-line wrapping**: Add the new sentence(s) inline inside the existing section, wrapped in `<span class="preview"> ... </span>`. Use when the addition is a sentence or two that fits naturally in an existing paragraph, table cell, or FAQ answer.
-   - **Mixed**: Some sections in the same article use per-section duplication, others use per-line wrapping. Surface this option when the article has both procedural sections and FAQ-style sections.
+   - **Per-section duplication**: Append `in Production` to the existing section heading. Add a new section with `in Preview` appended, wrapped in `<div class="preview"> ... </div>`. Use when the new behavior changes the procedure itself meaningfully — extra or reordered steps, a new image, or different step wording. Typical for how-to procedures.
+   - **Per-row duplication**: For a table-based field description where only one row changes and the rest of the table/procedure is unchanged, leave the existing row byte-for-byte unchanged and add a new `<tr class="preview">` directly after it. Do not weave new sentences into the original row. See "Per-row duplication" under Content rules for the exact conventions.
+   - **Per-line wrapping**: Add the new sentence(s) inline inside the existing section, wrapped in `<span class="preview"> ... </span>`. Use when the addition is a sentence or two that fits naturally in an existing paragraph or FAQ answer (not a table row — use per-row duplication for those).
+   - **Mixed**: Some sections in the same article use different patterns for different content. Surface this option when the article mixes procedural tables, FAQ-style sections, and plain paragraphs.
 
 3. **Place the snippet** on its own line immediately after the H1 heading, with a blank line above and below. The snippet sits **before** the intro paragraph.
 
@@ -155,6 +156,25 @@ Rules:
 - **Inline (sentence-level)**: wrap in `<span class="preview"> ... </span>` inside the existing paragraph, table cell, or FAQ answer.
 - Never nest a `<span class="preview">` inside a `<div class="preview">`.
 
+### Per-row duplication
+
+For a table-based field description where only the field's *behavior* changes (not the surrounding procedure):
+
+- Leave the existing `<tr>` completely unchanged — it now stands for the current/production behavior. Never splice new sentences or spans into it.
+- Add a new row directly after it:
+
+  ```html
+  <tr class="preview">
+  <td><span class="preview"><strong>{new label} in preview</strong></span></td>
+  <td><span class="preview">{self-contained description}</span></td>
+  </tr>
+  ```
+
+- **Label**: don't just take the original field label and append `(in Preview)`. Write a short, natural label for the new capability itself (e.g., original label "Add names or emails" → new label "Add people or teams"), then append lowercase `in preview` with no parentheses: "Add people or teams in preview".
+- **Description**: write a fresh 1–3 sentence description of only the new behavior, in the article's existing voice. Don't reuse the original row's sentences as a base and insert additions into them — the new row must read as a complete, standalone description on its own.
+- **Supplementary notes**: append with a `<br>` line break followed by `Note:` on the next line, inside the same `<span class="preview">` — don't nest a `<p>Note: ...</p>`. Because the new row stands alone, restate any still-relevant fact from the original row's note briefly here rather than assuming the reader also saw it (e.g., an Advanced-mode "one open stage at a time" restriction that applies equally to the new row).
+- **Multiple variants**: if the same field is being updated in more than one procedure in the same article (Basic vs. Advanced, legacy vs. ESM, and so on) and the underlying behavior actually differs between them (e.g., legacy keeps an opt-in default while ESM always expands), write each row to match that variant's real behavior. Don't copy one variant's wording into another's row.
+
 ### Snippet placement
 
 - Snippet line goes immediately after the H1, with a blank line above and below.
@@ -166,6 +186,15 @@ Rules:
 - Save new screenshots to the article's `assets/` folder with a descriptive kebab-case filename.
 - Reference the new screenshot from within the new in-Preview section. If an in-Production section's screenshot no longer reflects the feature accurately, leave it in place — it still represents production behavior until GA.
 - Don't fabricate screenshot filenames; if no screenshot has been provided yet, ask the user.
+- **Placeholder for a screenshot that doesn't exist yet**: if the user wants to proceed without waiting for the asset, add an HTML comment directly after the existing (production) screenshot reference, reusing that filename with a `-v2` suffix:
+
+  ```html
+  <!--
+  preview screen![{same alt text}](assets/{existing-filename}-v2.png)
+  -->
+  ```
+
+  Swap in the real reference (and uncomment) once the screenshot is provided.
 
 ### Notes and tips
 
@@ -187,6 +216,8 @@ Run this full checklist for **every** article in the session — including secon
 - Existing section headings end with `in Production`.
 - New section headings end with `in Preview` and the section is inside `<div class="preview">`.
 - Inline additions are inside `<span class="preview">`.
+- Per-row duplications: the original `<tr>` is byte-for-byte unchanged; the new `<tr class="preview">` has both cells wrapped in `<span class="preview">`; the label is a fresh short label + lowercase "in preview" (not the original label + "(in Preview)"); any supplementary note uses `<br>` + `Note:` inline, not a nested `<p>`.
+- If the same field appears in more than one procedure variant (Basic/Advanced, legacy/ESM), each new row's wording matches that variant's actual behavior rather than being copy-pasted from another variant.
 - New preview-marked prose reads like a plain field/behavior description, not a changelog entry, and doesn't redundantly restate an unchanged instruction.
 - `ReadLints` is clean on the edited file.
 - The article reads correctly in both states (with the preview content shown and hidden).

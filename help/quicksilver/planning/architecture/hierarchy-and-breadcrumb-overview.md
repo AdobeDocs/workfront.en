@@ -80,7 +80,13 @@ The following are benefits of using hierarchies in your workspaces:
     * When connected record types are part of hierarchies, you can connect one record from a child record type to up to 10 records from a parent record type.
 
         For example, if you create a hierarchy between Campaigns as the parent and Persona as the child record, you can connect the same persona to up to 10 campaigns. 
+    * If your organization purchased an Adobe GenStudio for Performance Marketing package, the following scenarios exist:
     
+        * You cannot connect to GenStudio record types from Planning record types. 
+        * You can connect GenStudio record types in the GenStudio workspace. 
+        * You can connect GenStudio Brands to GenStudio record types and Planning record types. 
+        * You cannot include GenStudio Brands in a hierarchy. 
+
 ## Considerations when viewing breadcrumbs
 
 When you create hierarchies between record types, they generate breadcrumbs for records that belong to those record types. 

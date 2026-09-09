@@ -29,11 +29,11 @@ topic_v2:
 ---
 # Edit record types
 
-<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -214,10 +214,8 @@ Old:
    >
    >![Global search box](assets/global-search-box.png)
 
-<!--
-1. <span class="preview">(Optional) To add, edit, deactivate or delete record type business rules, go to the record type page and click the More menu to the right of the record type name, then click **Business rules**. </span>
+1. <span class="preview">(Optional) To add, edit, deactivate or delete record type business rules, go to the record type page and click the **More** menu to the right of the record type name, then click **Business rules**. </span>
 
    <span class="preview">Business rules are conditions set on the record type that define when records of that type can be edited or deleted. </span>
 
    <span class="preview"> For information, see [Create record types business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).</span> 
--->

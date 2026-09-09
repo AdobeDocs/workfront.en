@@ -11,15 +11,13 @@ recommendations: noDisplay, noCatalog
 
 {{planning-important-intro}}
 
-<!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 You can configure business rules for Adobe Workfront Planning record types to indicate that certain fields are required before an action on a record of that type is allowed or prevented. 
 
-Depending on how the rule is formulated, you can allow for the following actions on the records if the defined business rules are met: 
+Depending on how the rule is formulated, you can allow for or prohibit the following actions on the records if the defined business rules are met: 
 
 * Edit or not edit a record
 * Delete or do not delete a record
@@ -47,7 +45,7 @@ Or
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Workflow Standard</p>
+   <td><p>Workflow Contributor or higher</p>
    </td> 
   </tr> 
 <tr> 
@@ -89,19 +87,24 @@ Or
     * Lookup fields 
     * Reference fields  
 * Rules apply to everyone who can edit or delete records. 
-* You can have more that one business rule for a record type.  <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU-->
+* You can have more that one business rule for a record type.  <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU; I also logged a bug for this because it released with more than one per action - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/6a99add600001e9aa90435ec181dec3e/overview-->
 
-   All the rules are checked together at the same time, and the error message displays all the fields that are missing in one statement. 
+   All the rules are checked together at the same time. <!-- I have asked Syuzanna and Norayr multiple times HOW are the rules run/ prioritized and I got no answers; when I know, I will update here-->
 
 ## Configure business rules
 
 1. Go to a record type page. 
 1. From any view, click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click **Business rules**.
 
-   The Business rules pages opens.
+   The Business rules table page opens.
 1. Click **New business rule**.
 1. In the **New business** rule box, add a name for the business rule in the first available field. This is a required field
 1. (Optional) Add a description to define the business rule, then click **Save**.
+
+   The Business rule setup form opens. 
+
+   ![Business rule setup form](assets/business-rule-setup-form.png)
+
 1. In the **If** section of the business rule setup form, choose which actions you would like to restrict or allow based on a specific rule. Choose from the following: <!--check UI text-->
    * **Record edit**: Users will be allowed to edit or not edit the record, if the condition defined in this rule is met. 
    * **Record delete**: Users will be allowed to delete or not delete the record, if the condition defined in this rule is met.
@@ -118,7 +121,7 @@ Or
    For example, you can type the following statement to make the **Campaign summary** field required: 
 
    ```
-      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary.")
+      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary field.")
 
    ```
    
@@ -136,6 +139,7 @@ Or
 1. Click **Activate** to make the rule active for this record type, then click **Save**.
 
    Rules are applied immediately after you activate them and all users who have permissions to edit or delete records in the selected record type must follow them. 
+1. (Optional) Click the **More** menu ![](assets/more-menu.png) to the name of the business rule in the page header to open the **Rule details** box and update information about the business rule.  
 1. (Optional and recommended) Click the back arrow to the left of the **Business rules** in the page header to display the record type page and go to a table view or open a record's page, then try editing or deleting a record, to test the rule you just created. 
 
 ## Manage business rules
@@ -144,18 +148,23 @@ You can edit, delete or deactivate existing business rules.
 
 Editing an existing rule does not change existing records. The edited rule only applies to existing records when someone attempts to edit or delete them. 
 
-1. Go back to the **Business rules** configuration page for the record type.
-1. Find the rule you want to change.
-1. Hover over the rule name, then click the **More** menu ![More menu](assets/more-menu.png), then one of the following options:
+1. Go back to the **Business rules** table page for the record type.
+1. Find the rule you want to change in the table view.
+1. Hover over the name of an active rule, then click the **More** menu ![More menu](assets/more-menu.png), then one of the following options:
 
    * **Edit**: This opens the business rule setup page and you can edit information about the business rule. 
-   * **Deactivate**: <!--check this in the UI: right now, it says Disable--> This stop the rule from triggering but preserves for the future, it needed. 
+   * **Deactivate**: This stop the rule from triggering but preserves for the future, it needed. 
    * **Delete**: All the information about the rule is deleted. Deleted rules cannot be recovered. 
 
+   ![Business rule More menu expanded](assets/business-rule-more-menu-in-table-expanded.png)
+    
    The edited rules or the deactivation of rules apply only for future records and they are not applied retroactively. 
+1. (Optional and conditional) Hover over the name of a deactivated business rule in the table, then click **More** > **Activate** to activate the rule. 
 
-   <!--add screen shot if UI is fixed with Deactivate-->
+   The rule is activated. 
 
+ 
+   
 
 <!--
 

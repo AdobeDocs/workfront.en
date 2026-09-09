@@ -34,6 +34,8 @@ topic_v2:
 ---
 # Configure the [!DNL SharePoint] integration
 
+{{highlighted-preview}}
+
 <!--Audited: 12/2023-->
 
 <!--
@@ -129,6 +131,17 @@ To send a document to SharePoint:
 
 1. Click **Save**.
 
+## View and manage the SharePoint integration
+
+To view and manage your organization's [!DNL SharePoint] integrations:
+
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
+1. Select **[!UICONTROL Documents]** in the left navigation, then select **[!UICONTROL [!DNL SharePoint] Integration]**.
+
+   A list of your organization's [!DNL SharePoint] integrations appears.
+
+1. (Optional) To edit a [!DNL SharePoint] integration, select the checkbox next to it, then click **[!UICONTROL Edit]** <span class="preview">in the blue bar at the bottom of the screen</span>.
+1. <span class="preview">(Optional) To disable a [!DNL SharePoint] integration, select the checkbox next to it, then click **[!UICONTROL Disable]** in the blue bar at the bottom of the screen.</span>
 
 ## Security, access, and authorization information for the [!DNL SharePoint] integration
 

@@ -18,6 +18,10 @@ role_v2:
 ---
 # Example of connecting record types and records
 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
 This article describes an example of the following:
@@ -48,25 +52,42 @@ To do this:
     * **Record type**: Product <!--did they change the casing here?-->
     * **Name**: Give the new field a name. For example, "Product information." This is the name of the linked record field. 
     * **Description**: Add a description for the new field. For example, "These are the Products that I want my Campaigns associated with." The description of the field displays when hovering over the field in the column header. 
+    
+    <div class="preview">
+
+    * **Make this connection dependent**: When enabled and the two connected records display on a third record at the same time, the choices for one record type are dependent on the choices for the other. 
+        
+        For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md). 
+    * **Create corresponding field on linked record type**: When enabled, a connection field is also created on the record type you are connected to (Product). 
+
+    </div>
+
     * **Connection type**: Select from the following options:
         * **Many to many**: Users can connect one campaign to several products and one product to several campaigns. 
         * **One to many**: Users can connect one campaign to several products, and one product to one campaign.
         * **Many to one**: Users can connect one campaign to one product, and one product to many campaigns.
         * **One to one**: Users can connect one campaign to one product, and one product to one campaign. 
 
-        >[!NOTE]
-        >
-        >The **Connection type** option is not available when connecting records from different workspaces or when connecting Experience Manager assets or GenStudio Brands. For more information, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+    >[!NOTE]
+    >
+    >The **Connection type** option is not available when connecting records from different workspaces or when connecting Experience Manager assets or GenStudio Brands. For more information, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
         
     * **Record appearance**: Choose from the following options:
         * **Name and image**: Displays the name and the thumbnail or the icon of the connected records. This is selected by default.
         * **Name**: Displays only the name of the connected records.
         * **Image**: Displays only the thumbnail or the icon of the connected records.
-    * **Select lookup fields**: If you leave this option selected, the **Add lookup fields** box opens next, to allow you to link Product fields with the Campaign record type. You can click **Skip** to skip this step and add Product fields later. 
+
+        <div class="preview">
+
+        * **Color and name**: Displays only the color and the name of the connected records
+
+        </div>
+
+    * <span class="preview">**Lookup fields**: Expand this option to also connect lookup fields from the connected records. </span>The **Add lookup fields** box opens next, to allow you to link Product fields with the Campaign record type. You can click **Skip** to skip this step and add Product fields later. 
 
         ![New connection with product record type](assets/new-connection-with-product-record-type.png)
 
-1. (Conditional) If you selected the **Select lookup fields option** in the previous step, from the list of fields associated with the **Product** record type, click the **+** icon for the **Budget** field, then click **Add fields**. This creates a field called **Budget (from Product information)**, which is the name of the linked field. Any information for the Product Budget displays in this field for the Campaign records. 
+1. (Conditional) If you opened the **Add lookup fields** box, click the **+** icon for the **Budget** field, then click **Add fields**. This creates a field called **Budget (from Product information)**, which is the name of the linked field. Any information for the Product Budget displays in this field for the Campaign records. 
 
     ![Add fields for budget field for connection with record type](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
 

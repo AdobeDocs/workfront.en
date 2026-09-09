@@ -27,6 +27,8 @@ topic_v2:
 ---
 # Manage the timeline view
 
+<!--remove Production and Preview references at release-->
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
@@ -232,19 +234,13 @@ To manage a timeline view:
 
         >[!TIP]
         >
-        >The timeline view only displays fiscal weeks according to classic quarters. If your Workfront administrator turns on Custom Quarters in the Setup area, the week information does not display in the timeline view.
-
-        <!--
-        When we release custom weeks, replace the tip above with this:
-        >[!TIP]
-        >
         >Depending on which environment you are using to access the timeline view, the following scenarios exist:
         >
-        >* In the Production environment, the timeline view only displays fiscal weeks according to classic quarters. If your Workfront administrator turns on Custom Quarters in the Setup area, the week information does not display in the timeline view.
+        >* In the Production environment, the timeline view only displays custom weeks according to classic quarters. If your Workfront administrator turns on Custom Quarters in the Setup area, the week information does not display in the timeline view.
         >
-        >* <span class="preview">In the Preview environment, the timeline view displays fiscal weeks according to classic quarters, by default. If your Workfront administrator turns on Custom Quarters and Custom weeks in the Setup area, the timeline view displays the custom quarters and weeks in the Quarter and Month displays. </span>
+        >* <span class="preview">In the Preview environment, the timeline view displays custom weeks according to classic quarters, by default. If your Workfront administrator turns on Custom Quarters and Custom weeks in the Setup area, the timeline view displays the custom quarters and weeks in the Quarter and Month displays. </span>
         >
-        -->
+        
         
 1. (Optional) Click **Switch to Compact view** to display the records whose dates don't intersect on the same line. <!--check to see if they updated the name of the setting here--> 
 1. (Conditional) If you changed your mode to **Compact**, click **Switch to Standard** view to display records in separate lines. The **Standard** option is the default.  <!--check to see if they updated the name of the setting here--> 
