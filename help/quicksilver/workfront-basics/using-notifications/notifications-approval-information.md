@@ -65,7 +65,7 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>My timesheet is approved</strong> </p> <p>When your timesheet is approved, you receive an email notification.</p> <p>The subject of the instant notification email is: <em>[!UICONTROL Timesheet Approved]: &lt;Timesheet Start Date> - &lt;Timesheet End Date></em></p> <p> <p>Note:  You cannot configure this notification for a daily digest email.</p> </p> </td> 
+   <td> <p><strong>My timesheet is approved</strong> </p> <p>When your timesheet is approved, you receive an email notification.</p> <p>The subject of the instant notification email is: <em>[!UICONTROL Timesheet Approved]: &lt;Timesheet Start Date> - &lt;Timesheet End Date></em></p> <p> <p>Note:  You cannot configure this notification for a daily digest email.</p> </p> <p> <p>Note:  You must have a Standard license to receive this notification. Users with a Light license or lower do not receive the timesheet approval email notification, even when it is enabled.</p> </p> </td> 
    <td> Name of the user who approved your Timesheet<br>Date and Time when the Timesheet was approved<br>Status of Timesheet ([!UICONTROL Approved])<br>Start Date and End Date of Timesheet<br>Total hours logged in the Timesheet<br>Overtime hours logged in the Timesheet </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
