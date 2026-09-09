@@ -120,7 +120,7 @@ You can do the following to enhance the number of risk types in your Workfront i
 
 1. (Optional) To export a list of risk types, click the [!UICONTROL **Export**] icon. You can export to the following file types:
 
-    * In the Production environment:
+    <!--* In the Production environment:-->
 
       * PDF
       * Excel
@@ -128,6 +128,8 @@ You can do the following to enhance the number of risk types in your Workfront i
       * Tab Delimited
       * CSV
 
+    <!--
+    PM confirmed that these lists should be the same: https://workfront.slack.com/archives/C05DPT67BD3/p1788465805975249?thread_ts=1788436678.273019&cid=C05DPT67BD3 
     <div class="preview">
 
     * In the Preview environment: 
@@ -135,10 +137,13 @@ You can do the following to enhance the number of risk types in your Workfront i
       * CSV
       * XLSX 
     </div>
+    -->
 
     >[!TIP]
     >
-    >   In the Production environment, you can first select a limited number of risk types, and then export them for a smaller list. <!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
+    >   In the Production environment, you can first select a limited number of risk types, and then export them for a smaller list. 
+    >
+    > <span class="preview">This capability has been removed from the Preview environment.</span> <!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
 
 ### Create risk types {#create-risk-types}
 
