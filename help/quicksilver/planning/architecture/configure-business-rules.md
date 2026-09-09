@@ -17,7 +17,7 @@ recommendations: noDisplay, noCatalog
 
 You can configure business rules for Adobe Workfront Planning record types to indicate that certain fields are required before an action on a record of that type is allowed or prevented. 
 
-Depending on how the rule is formulated, you can allow for the following actions on the records if the defined business rules are met: 
+Depending on how the rule is formulated, you can allow for or prohibit the following actions on the records if the defined business rules are met: 
 
 * Edit or not edit a record
 * Delete or do not delete a record
