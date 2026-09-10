@@ -29,6 +29,8 @@ topic_v2:
 ---
 # Import data into Workfront using a Kick-Start template
 
+{{highlighted-preview}}
+
 <!--Audited: 12/2023-->
 
 Kick-Starts are specially formatted Excel workbooks that you can populate with data you want to import into Workfront. Adobe Workfront provides a Kick-Start template you can use to do this, as explained in [Kick-Starts data importer](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
@@ -75,7 +77,8 @@ You can import large numbers of objects into Workfront using a Kick-Start templa
 
 * Importing data this way doesn't update information on records that already exist in Workfront. 
 * You can import only new records and their information.  
-* Import no more than 2,000 records at a time to ensure that the import does not time out
+* Import no more than 2,000 records at a time to ensure that the import does not time out.
+* <span class="preview">In the Preview environment, Kick-Start imports run in the background, and there is no record limit tied to import timeouts.</span>
 
 ## Export a Kick-Start template as a spreadsheet file
 
@@ -84,10 +87,6 @@ When you export a Kick-Start template you receive a blank Excel spreadsheet work
 To export a Kick-Start template:
 
 {{step-1-to-setup}}
-
-<!--
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
--->
 
 1. Click **System** > **Import Data (Kick-Starts)**.
 
@@ -501,6 +500,8 @@ To import the template spreadsheet data into Workfront:
    The file uploads automatically, and a notification that the import was successful displays.
 
    If the Excel file takes longer than 5 minutes to upload to Workfront, the application times out and Workfront cannot upload the file. Try importing your data in smaller batches of objects.
+
+   <span class="preview">In the Preview environment, the import runs in the background. Wait until the import finishes before starting another import or navigating away from the page. If an import is taking too long, you can cancel it.</span>
 
 1. (Conditional) If the import was not successful, you receive an error message stating what the problem is. Try to identify the field, the sheet, and the row number in which the problem was encountered and correct the information in the Excel file. Then, try importing the file one more time.
 1. (Conditional) If you are using Workfront Fusion, you can now turn on your FLOs or scenarios when the import is complete.
