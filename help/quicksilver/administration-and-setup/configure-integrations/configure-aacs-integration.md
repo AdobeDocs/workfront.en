@@ -106,7 +106,7 @@ Before you begin,
 
 {{step-1-to-setup}}
 
-1. Select **[!UICONTROL Documents]** in the left panel, then select **[!UICONTROL [!DNL Experience Manager] Integration]**.
+1. Select **[!UICONTROL Documents]** in the left panel, then select **[!UICONTROL [!DNL Experience Manager] Assets]**.
 
     >[!NOTE]
     >
