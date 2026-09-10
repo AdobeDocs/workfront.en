@@ -6,6 +6,19 @@ description: In order to provide optimal security, Adobe Workfront is requiring 
 author: Luke
 feature: Product Announcements
 exl-id: 153668ae-0647-47fd-9153-ce45cd8c54ee
+TQID: https://experienceleague.adobe.com/23UVEvZitUFvhkTkgOnubLK76Lzl8QKiyz-R4svWcc8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # TLS 1.2 to be required in Adobe Workfront
 

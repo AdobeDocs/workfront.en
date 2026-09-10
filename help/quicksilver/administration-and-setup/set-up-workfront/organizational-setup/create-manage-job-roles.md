@@ -8,6 +8,26 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
+TQID: https://experienceleague.adobe.com/WbKK8Dt8LSyGVCHLzHXHsM-3DORpJXgzKzqf7Jos3Hw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create and manage job roles
 
@@ -19,7 +39,7 @@ exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
 >
 >With the 25.11 release, the Override Currency for job roles was deprecated in Production. (The deprecation took place on October 30 in the Preview environment.) Instead of having a base currency and override currencies, one currency is now available for job roles, and the cost and billing rates are defined using that currency.
 
-As an [!DNL Adobe Workfront] administrator or a user with administrative access to Job Roles, you can create job roles which can be assigned to users and delete default job roles that are not relevant to your organization. For information about administrative access in [!DNL Workfront], see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+As an [!DNL Adobe Workfront] administrator or a Standard user with Edit access to Job Roles, you can create job roles that can be assigned to users and delete default job roles that are not relevant to your organization. For information about administrative access in [!DNL Workfront], see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 >[!TIP]
 >
@@ -35,7 +55,8 @@ As an [!DNL Adobe Workfront] administrator or a user with administrative access 
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] package</td> 
-   <td><p>Any</p></td> 
+   <td><p>To create or edit a job role: Any Workfront or Workflow package</p>
+   <p>To apply rate attributes and add custom forms to the job role: Workflow Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] license</td> 
@@ -44,7 +65,7 @@ As an [!DNL Adobe Workfront] administrator or a user with administrative access 
   </tr> 
   <tr> 
    <td>Access level configurations</td> 
-   <td>Administrative access to Job Roles</td>
+   <td>Edit access to Job Roles</td>
   </tr> 
  </tbody> 
 </table>
@@ -59,9 +80,9 @@ To create a job role:
 
 {{step-1-to-setup}}
 
-1. In the left panel, click&#x200B; **[!UICONTROL Job Roles].**
-1. Click **[!UICONTROL New Job Role].**
-1. Configure the following fields:
+1. In the left panel, click **[!UICONTROL Job Roles]**.
+1. Click **[!UICONTROL New Job Role] > Create new job role**.
+1. Enter information in the following fields:
 
    * **Name**: Indicate a name for the job role. This is the name that displays everywhere in Workfront where the Job Role field displays.
 
@@ -73,6 +94,115 @@ To create a job role:
    * **Is Active**: Select **Yes** if you want the role to be active and available everywhere in Workfront to be associated with users, work items, etc. Select **No** if you want the role to be deactivated and not available to assign to users, work items, etc.
 
       For information about deactivating job roles, see [Deactivate job roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
+
+1. Click **[!UICONTROL Create Job Role]**. The job role is now available to be assigned to tasks, issues, approvals, or you can share layout templates or other objects with it. For information about all uses of job roles in [!DNL Workfront], see [Job role overview](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). For information about deleting a job role, see [Delete job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
+
+## Add rates and attributes to a job role
+
+Billing and cost rates on a job role are used in financial calculations.
+
+Rate attributes are supported in areas of Workfront where rates exist, such as job roles and users. When attributes are applied on a job role, their assignments resolve automatically to the correct rates.
+
+For more information, see [Define rate attributes](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+
+{{step-1-to-setup}}
+
+1. In the left panel, click **[!UICONTROL Job Roles]**.
+1. Click the name of an existing job role to edit it.
+1. To update the job role details, click **Details** in the left panel.
+1. (Optional) To attach a custom form to the job role, click the **Add custom form** field in the upper-right corner of the Details page, and select a custom form from the list that displays.
+
+   For more information on attaching a custom form, see [Add a custom form to an object](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+
+1. Click [!UICONTROL **Rates**] in the left panel.
+1. Click [!UICONTROL **Billing**] or [!UICONTROL **Cost**] to select the rate type.
+1. Click [!UICONTROL **Add Rates**] to add a new rate.
+
+   Or
+
+   Select an existing rate and click the **Edit** icon ![Edit icon](assets/edit-icon.png) to update it.
+
+   >[!NOTE]
+   >
+   >Because each rate is associated with the combination of the role and attributes to create a unique rate, the attributes cannot be changed when you edit a rate.
+
+1. On the **New Rate** box, select attributes for the rate such as Agency, Location, or Cost Center.
+
+   >[!NOTE]
+   >
+   >These attributes are defined separately and may affect revenue and cost calculations. For more information, see [Define rate attributes](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+
+1. Select the **Currency** for the rate. The Workfront administrator adds the Base Currency in the Setup area. You can change the selection to another available currency, and you can change the currency on effective dated time ranges.
+
+   >[!TIP]
+   >
+   >Only currencies available in the Exchange Rates area in your system are available in this field. If you only have one currency set up, only that currency is available.
+
+   For information about setting up the Base Currency in Workfront, see [Set up exchange rates](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+   For information about changing the currency of a project, see [Change the project currency](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
+
+1. (Conditional) For a billing rate, enter the **Billing Rate** for this job role.
+
+   This is the billing per hour rate of the job role. This value calculates the planned and actual revenues of tasks and issues associated with the role, and ultimately the planned and actual revenues of the projects. Enter the rate using the selected currency.
+
+   If you use attributes, the attributes and the job role combine to define a unique rate. For example, a Designer role in New York for Agency A can have a separate rate from a Designer role in Paris for Agency B.
+
+   For date effective billing rates, click **Add Rate**. Enter the value of the billing/hour for the time period, and assign a Start Date and End Date as needed. The first billing rate will not have a start date and the last billing rate will not have an end date.
+
+   <!-- Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, an end date of April 30 is added to the first billing rate so that no gaps exist.-->
+
+   Workfront allows you to leave gaps between date ranges, but you will receive a warning to confirm this is intentional.
+
+   For information about how Workfront calculates revenue, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+   >[!TIP]
+   >
+   >When editing an existing job role, you can sort the list to see the most recent start date at the top of the rate list.
+
+1. (Conditional) For a cost rate, enter the **Cost Rate** for this job role.
+
+   This is the cost per hour rate of the job role. This value calculates the planned and the actual costs of tasks and issues associated with the role, and ultimately the planned and actual costs of the projects. Enter the rate using the selected currency.
+
+   If you use attributes, the attributes and the job role combine to define a unique rate. For example, a Designer role in New York for Agency A can have a separate rate from a Designer role in Paris for Agency B.
+
+   For date effective cost rates, click **Add Rate**. Enter the value of the cost/hour for the time period, and assign a Start Date and End Date as needed. The first cost rate will not have a start date and the last cost rate will not have an end date.
+
+   Some dates are added automatically. For example, if the first cost rate does not have an end date, and you add a second cost rate with a start date of May 1, an end date of April 30 is added to the first cost rate so that no gaps exist.
+
+   For information about how Workfront calculates cost, see [Track costs](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+
+   >[!TIP]
+   >
+   >When editing an existing job role, you can sort the list to see the most recent start date at the top of the rate list.
+
+1. Click [!UICONTROL **Save**].
+
+<!--
+   * **Override Currency Cost Rate**: This is the cost per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role.
+
+     Enter the rate in the Override Currency specified above. This also updates the Cost Rate for this job role when using the Base Currency.
+
+     For information about how Workfront calculates cost, see [Track costs](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+
+     >[!TIP]
+     >
+     >When updating an existing job role that already has a cost rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Cost Rate, the cost rate of the job role also updates automatically.
+
+   * **Override Currency Billing Rate**: This is the billing per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual revenue of tasks and issues associated with the job role.
+
+      Enter the rate in the Override Currency specified above. This also updates the Billing Rate for this job role when using the Base Currency.
+
+      For information about how Workfront calculates revenue, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+     >[!TIP]
+     >
+     >When updating an existing job role that already has a billing rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Billing Rate, the billing rate of the job role also updates automatically.
+
+-->   
+
+
+<!--
 
    * **Currency**: The Base Currency is shown by default. The Workfront administrator adds the Base Currency in the Setup area. You can change the selection to another available currency, and you can change the currency on effective dated time ranges.
 
@@ -108,91 +238,7 @@ To create a job role:
       >
       >When editing an existing job role, you can sort the list to see the most recent start date at the top of the rate list.
 
-1. Click **[!UICONTROL Create Job Role]**. The job role is now available to be assigned to tasks, issues, approvals, or you can share layout templates or other objects with it. For information about all uses of job roles in [!DNL Workfront], see [Job role overview](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). For information about deleting a job role, see [Delete job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
-
-<!--
-   * **Override Currency Cost Rate**: This is the cost per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role.
-
-     Enter the rate in the Override Currency specified above. This also updates the Cost Rate for this job role when using the Base Currency.
-
-     For information about how Workfront calculates cost, see [Track costs](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
-
-     >[!TIP]
-     >
-     >When updating an existing job role that already has a cost rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Cost Rate, the cost rate of the job role also updates automatically.
-
-   * **Override Currency Billing Rate**: This is the billing per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual revenue of tasks and issues associated with the job role.
-
-      Enter the rate in the Override Currency specified above. This also updates the Billing Rate for this job role when using the Base Currency.
-
-      For information about how Workfront calculates revenue, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
-
-     >[!TIP]
-     >
-     >When updating an existing job role that already has a billing rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Billing Rate, the billing rate of the job role also updates automatically.
-
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Name]</td> 
-      <td> <p>Indicate a name for the job role. This is the name that displays everywhere in [!DNL Workfront] where the [!UICONTROL Job Role] field displays. </p> <p>Tip: The name of a job role may contain up to 255 characters. However, longer names might be truncated in certain areas of [!DNL Workfront]. </p> </td> 
-     </tr>
-     <tr> 
-      <td role="rowheader">[!UICONTROL Description]</td> 
-      <td>Enter a description for the role that indicates what is unique about it. </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Is Active]</span> </td> 
-      <td> 
-       <ul> 
-        <li> <p>Select <b>[!UICONTROL Yes]</b> if you want the role to be active and available everywhere in [!DNL Workfront] to be associated with users, work items, etc. </p> </li> 
-        <li> <p>Select <b>[!UICONTROL No]</b>, if you want the role to be deactivated and not available to assign to users, work items, etc. </p> </li> 
-       </ul> <p><span>For information about deactivating job roles, see</span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">Deactivate job roles</a>. </p> </td> 
-     </tr>
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Base Currency]</span> </td> 
-      <td> <p><span>This is the [!UICONTROL Base Currency], as set in the [!UICONTROL Setup] area by your Workfront administrator. For information, see</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a> .</p> <p>Tip: <span>You cannot edit the [!UICONTROL Base Currency] at the job role level. This field is dimmed and serves as a reminder for what the base currency is for your system.</span> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Cost Rate]</td> 
-      <td><p>This is the cost per hour rate of the job role. This value calculates the planned and the actual costs of tasks and issues associated with the role, and ultimately the planned and actual costs of the projects. Enter the rate using the [!UICONTROL Base Currency].</p> 
-      <p>For date effective cost rates, click <strong>[!UICONTROL Add Rate]</strong>. Enter the value of the cost/hour for the time period, and assign a [!UICONTROL Start Date] and [!UICONTROL End Date] as needed. The first cost rate will not have a start date and the last cost rate will not have an end date.</p> <p>Some dates are added automatically. For example, if the first cost rate does not have an end date, and you add a second cost rate with a start date of May 1, 2023, an end date of April 30, 2023 is added to the first cost rate so that no gaps exist.</p> <p>Tip: When editing an existing job role, you can select <strong>Sort by start date</strong> to see the most recent start date at the top of the rate list.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Billing Rate] </td> 
-      <td><p>This is the billing per hour rate of the job role. This value calculates the planned and actual revenues of tasks and issues associated with the role, and ultimately the planned and actual revenues of the projects. Enter the rate using the [!UICONTROL Base Currency].</p> <p>For date effective billing rates, click <strong>[!UICONTROL Add Rate]</strong>. Enter the value of the billing/hour for the time period, and assign a [!UICONTROL Start Date] and [!UICONTROL End Date] as needed. The first billing rate will not have a start date and the last billing rate will not have an end date.</p> <p>Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, 2023, an end date of April 30, 2023 is added to the first billing rate so that no gaps exist.</p> <p>Tip: When editing an existing job role, you can select <strong>Sort by start date</strong> to see the most recent start date at the top of the rate list.</p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Override Currency]</span> </td> 
-      <td>
-        <p>Select a currency associated with this job role. This is the currency that [!DNL Workfront] uses for calculating costs and revenue associated with this job role. </p> 
-        <p><span>This is different than the [!UICONTROL Base Currency] set up by your [!DNL Workfront] administrator in the [!UICONTROL Setup] area, and can be different than the currency associated with a project.</span> </p> 
-        <p>Tip: Only currencies available in the [!UICONTROL Exchange Rates] area in your system are available in this field. If you only have one currency set up, this field is does not appear.</p> 
-       <p><span>For information about setting up the [!UICONTROL Base Currency] in [!DNL Workfront], see</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p> <p><span>For information about changing the currency of a project, see</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Change the project currency</a>.</p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Override Currency Cost Rate]</span> </td> 
-      <td>
-        <p>This is the cost per hour rate of the job role using the selected [!UICONTROL Override Currency]. [!DNL Workfront] uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role. </p> 
-        <p><span>Enter the rate in the [!UICONTROL Override Currency] specified above. This also updates the Cost Rate for this job role when using the [!UICONTROL Base Currency].</span> </p> 
-        <p>For information about how [!DNL Workfront] calculates cost, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> 
-       <p>Tip: When updating an existing job role that already has a Cost Rate associated with it, [!DNL Workfront] calculates the [!UICONTROL Override Currency] rate based on the conversion rate in your system. If you update the [!UICONTROL Override Currency Cost Rate], the Cost Rate of the job role also updates automatically.</p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Override Currency Billing Rate]</span> </td> 
-      <td>
-        <p>This is the billing per hour rate of the job role using the selected [!UICONTROL Override Currency]. [!DNL Workfront] uses this value to calculate the planned and the actual revenue of tasks and issues associated with the job role. </p>
-        <p><span>Enter the rate in the [!UICONTROL Override Currency] specified above. This also updates the Billing Rateate for this job role when using the [!UICONTROL Base Currency].</span> </p>
-        <p>For information about how [!DNL Workfront] calculates revenue, see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>.</p>
-        <p>Tip: When updating an existing job role that already has a Billing Rate associated with it, [!DNL Workfront] calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Billing Rate, the Billing Rate of the job role also updates automatically. </p>
-       </td>
-     </tr> 
-    </tbody> 
-   </table>
--->   
+-->
 
 
 

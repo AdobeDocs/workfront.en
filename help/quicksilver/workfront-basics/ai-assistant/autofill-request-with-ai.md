@@ -5,8 +5,19 @@ description: You can use AI to auto-fill request fields.
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
+TQID: https://experienceleague.adobe.com/r7xItuLE1mQdQ8y9m08FrVszLE3CiwWd-ATqWmNO-hU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Auto-fill a request using AI
+
+>[!IMPORTANT]
+>
+>Beginning in September 2026, AI Assistant is transitioning to CX Coworker, a conversational interface for getting work done. For information on CX Coworker, see [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 AI can help you auto-fill request fields. It can suggest field values based on previous requests, or parse them from text such as emails ar uploaded documents. 
 

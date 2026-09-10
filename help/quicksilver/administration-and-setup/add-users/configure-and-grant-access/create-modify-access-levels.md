@@ -8,6 +8,28 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/C-en7a6FEP75vl3HwJC-uDI4tEKVCcEgMzhClAK5C8k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create and modify custom access levels
 
@@ -77,12 +99,44 @@ For more detail about the information in this table, see [Access requirements in
       <td role="rowheader">Description </td> 
       <td>Type a description for the access level. It's helpful to list here what an user with this access level will be able to access.</td> 
      </tr> 
+
+      <tr> 
+      <td role="rowheader">Planning License Type</td> 
+      <td><p>This field is visible only for customers who also purchased a Workfront Planning package, in addition to a Workflow package.</p>
+      <p>The selected license determines what settings are available for users with this access level. </p>
+      <p>Choose from the following options:</p>
+      <ul><li>Standard</li>
+      <li>Contributor</li>
+      <li>None</li>
+     </ul> 
+      For more information, see <a href="/help/quicksilver/planning/access/access-overview.md">Adobe Workfront Planning access overview</a> 
+      <p><b>IMPORTANT</b></p>
+      <p>Planning licenses and Workflow licenses work together to give users access to Workfront. </p>
+      <p>You can give a user different levels of license types between the Workflow and Planning license types, but the Workflow license cannot be lower than the Planning license. </p>
+      <p>For example, you can give a user a Workflow Standard license and a Planning Contributor license, but you cannot give them a Workflow Contributor license and a Planning Standard license.</p>
+      
+      </td> 
+     </tr>
+
      <tr> 
-      <td role="rowheader">License Type</td> 
-      <td>Make sure that the license selected here is the one that is most closely associated with the type of access level you are creating or editing. The selected license determines what settings are available for the access level. For more information, see <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">New licenses overview</a> or <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Licenses overview</a>.</td> 
+      <td role="rowheader">Workflow License Type</td> 
+      <td>Make sure that the license selected here is the one that is most closely associated with the type of access level you are creating or editing. The selected license determines what settings are available for the access level. 
+      
+      <p>Choose from the following options:</p>
+      <ul><li>Standard</li>
+      <li>Contributor</li>
+      <li>Light</li>
+     </ul> 
+      
+      For more information, see <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">New licenses overview</a> or <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Licenses overview</a>.
+      
+      
+      
+      </td> 
      </tr> 
     </tbody> 
    </table>
+
 
 1. (Conditional) If **Standard** or **Plan** is selected in the **License Type** box, scroll to the section **Allow administrative access for** and select administrative access permissions for those who will have this access level.
 
@@ -114,17 +168,6 @@ For more detail about the information in this table, see [Access requirements in
         <li>Their own expenses</li>
         <li>The expenses of their subordinates</li>
        </ul><p><b>NOTE</b>: This does not allow the user to create new Expense Types.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Job roles</td> 
-      <td> With this access, the user is allowed to do the following: 
-       <ul> 
-        <li>View and edit existing job roles</li> 
-        <li>Add new job roles</li> 
-        <li>Edit role billing and cost rates</li> 
-       </ul> 
-       <p>For important information about access to financial data that is available to a Standard or Planner user with administrative access to job roles, see <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Standard or Planner users with administrative access to job roles</a>.</p>
-      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Milestones in my group</td> 
@@ -185,8 +228,21 @@ For more detail about the information in this table, see [Access requirements in
       <td role="rowheader">Never allow users to delete announcements</td> 
       <td>Prevents users from deleting announcements in the Announcement Center. For more information, see <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Send announcements</a>.</td> 
      </tr> 
+     <tr>
+      <td role="rowheader">Allow users to access Brands</td> 
+      <td>Allows users to access and manage GenStudio Brands in Workfront. For more information, see <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">Grant access to brand permissions</a>.</td> 
+     </tr>
     </tbody> 
    </table>
+
+
+1. (Optional) To restrict users with this access level from seeing specific fields, add the fields in the Add restricted fields section.</span>
+ 
+   You can search for both native and custom fields in this section. There is a limit of 20 restricted fields.
+
+   The fields are restricted when the access level is assigned to a user as their primary access level or through a business profile. For more information on business profiles, see [Business profiles overview](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
+
+   A restricted field is still visible to the users in the system, but appears as blank or displays N/A instead of actual data.
 
 1. (Conditional and optional) If your Workfront system is set up for users that belong to multiple companies, restrict the visibility to other users based on what company they belong to in the section **People in other companies should only view users from**.
 
@@ -205,6 +261,8 @@ For more detail about the information in this table, see [Access requirements in
    
    For information about how an Adobe administrator assigns a System Administrator access level to a users, see [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
+<!--
+
 ## Standard or Planner users with administrative access to job roles {#planner-users}
 
 If you grant a Standard or Planner user administrative access to job roles, the Edit Role Billing &amp; Cost Rates setting is automatically enabled for the user automatically.
@@ -213,5 +271,19 @@ Later, if you disable administrative access to job roles for the user, job roles
 
 If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting. For instructions, see [Grant access to financial data](grant-access-financial.md).
 
+
+     <tr> 
+      <td role="rowheader">Job roles</td> 
+      <td> With this access, the user is allowed to do the following: 
+       <ul> 
+        <li>View and edit existing job roles</li> 
+        <li>Add new job roles</li> 
+        <li>Edit role billing and cost rates</li> 
+       </ul> 
+       <p>For important information about access to financial data that is available to a Standard or Planner user with administrative access to job roles, see <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Standard or Planner users with administrative access to job roles</a>.</p>
+      </td> 
+     </tr> 
+
+-->
 
 

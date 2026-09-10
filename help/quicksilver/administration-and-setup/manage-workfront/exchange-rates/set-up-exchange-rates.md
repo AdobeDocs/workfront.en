@@ -8,6 +8,21 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
+TQID: https://experienceleague.adobe.com/7D54XR0cFqGEbzYzRh9dWHVEKj0xZLR-GYLIe5-0NMo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Set up exchange rates
 
@@ -21,7 +36,7 @@ As an Adobe Workfront administrator, you can set up currency exchange rates in W
 * Updating exchange rates in Workfront to match current exchange rates
 * Configuring the exchange rates for multiple currencies (doing so enables users to choose a default currency for individual projects)
 
-Exchange rates impact all financial elements in Workfront. The base currency is the default currency for all projects throughout the system, unless it is overridden for a given project or job role. The current base or default currency is indicated with an icon ![Default currency icon](assets/default-icon.png) in the list. You can also select to display financial information in currencies available in your system that are different than the base currency or that of the project when viewing them in a report or list. For more information, see [Create financial data reports with unique exchange rates](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+Exchange rates impact all financial elements in Workfront. The base currency is the default currency for all projects and reports throughout the system, unless it is overridden for a given project or job role. The current base or default currency is indicated with an icon ![Default currency icon](assets/default-icon.png) in the list. You can also select to display financial information in currencies available in your system that are different than the base currency or that of the project when viewing them in a report or list. For more information, see [Create financial data reports with unique exchange rates](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
 For more information about overriding the base currency in Workfront for projects and job roles, see the following articles:
 
@@ -44,7 +59,8 @@ The way that you set up exchange rates affects whether users can modify exchange
  <tbody> 
   <tr> 
    <td>Adobe Workfront package</td> 
-   <td><p>Any</p></td> 
+   <td><p>To set up exchange rates: Any Workfront or Workflow package</p>
+       <p>To apply effective dates to exchange rates: Workflow Ultimate package</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront license</td> 
@@ -67,7 +83,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 {{step-1-to-setup}}
 
 1. Click **Project Preferences** > **Exchange Rates**.
-
 1. Click **Add currency**.
 1. In the **Add currency** box, begin typing the name of the currency, then click it when it appears in the drop-down list.
 1. In the **Exchange rate** field, enter the rate for the currency that you selected, compared to the currency that is set as the base currency in the system.
@@ -77,7 +92,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    * Select the check box next to the currency name and select **Make Default** in the action bar at the bottom of the screen.
    * Hover over the currency name and click the **More** menu that appears. Then, select **Make Default**.
 
-     The new default currency is updated with the icon.
+     The new default currency is updated with the icon ![Default currency icon](assets/default-icon.png).
 
      >[!NOTE]
      >
@@ -85,11 +100,33 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. (Optional) To delete a currency, select the check box next to the currency name and select **Delete** in the action bar at the bottom of the screen. You cannot delete the default currency.
 
+## Set effective dates on a currency's exchange rates
+
+Effective dates for a currency's exchange rates are configured so that a rate value ends on a specific date and another rate begins. The exchange rate for the correct date is then used in financial calculations.
+
+{{step-1-to-setup}}
+
+1. Click **Project Preferences** > **Exchange Rates**.
+1. Select a currency in the list, and click **Manage dates** on the action bar.
+1. On the **(currency name) date effective rates** dialog, choose an **End Date** for the current exchange rate.
+
+   Or
+
+   Choose a **Start Date** for the new exchange rate.
+
+   The first exchange rate will not have a start date and the last rate will not have an end date. Some dates are added automatically. For example, if the first rate does not have an end date, and you add an exchange rate with a start date of December 1, 2025, an end date of November 30, 2025 is added to the first rate so that no gaps exist.
+
+   ![Date effective exchange rates dialog](assets/euro-date-effective-rates.png)
+
+1. Type the new **Exchange rate** value.
+1. (Optional) Click **Add date effective rate** to add more exchange rates with effective dates for this currency.
+1. Click **Save**.
+
 ## Enable users to modify the default currency for a project
 
 Users can modify the default currency for a project when the following conditions are met:
 
-* The user has a Standard or Plan license with the administrative access to Exchange Rates.
+* The user has a Standard or Plan license with administrative access to Exchange Rates.
 
   For more information, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
@@ -110,4 +147,4 @@ Users can modify the currency for a job role when the following conditions are m
 For information about how users can change the default currency on a given job role, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 
-   <!--The default currency is the currency that is used as the default for all projects and reports throughout the system. The current default is indicated with an icon ![Default currency icon](assets/default-icon.png).-->
+

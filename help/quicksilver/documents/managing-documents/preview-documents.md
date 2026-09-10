@@ -6,10 +6,25 @@ description: You can preview a document from the Documents area. This is especia
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/7TZclka26BjInfR-bDfcQSkXJzE0aVaN7y4Je-VCoN8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Preview documents
 
-You can preview a&nbsp;document from the Documents area. This is especially useful for images.
+You can preview a document from the Documents area. This is especially useful for images.
 
 ## Access requirements
 
@@ -23,7 +38,8 @@ You can preview a&nbsp;document from the Documents area. This is especially usef
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p> Any</p> </td> 
+   <td> <p>Any Workfront package to manage documents using legacy Workfront storage</p>
+<p>Any Workflow package to manage documents using Adobe cloud storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses</td> 
@@ -44,9 +60,11 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Preview a document
+## Preview a document in the legacy documents area
 
-You can preview a document in Workfront. 
+If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe cloud storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+To preview a document:
 
 1. In a document list, hover over the row containing the document , then click **Document Details**.
 1. On the page that appears, click the document's thumbnail image.
@@ -54,12 +72,96 @@ You can preview a document in Workfront.
    * If you have not prepared the document for review, it displays in a new browser tab.
    * If you have prepared the document for review, the proofing viewer opens to display it.
 
-The following file formats are unable to display in the preview window:
+   The following file formats are unable to display in the preview window:
 
-* .mp4
-* .gif
-* .jpeg
-* .png
-* .tiff
-* .plain
-* .pdf
+   * .mp4
+   * .gif
+   * .jpeg
+   * .png
+   * .tiff
+   * .plain
+   * .pdf
+
+## Preview a document in the new Documents area
+
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Some file formats cannot be previewed.
+
++++Expand to view unsupported file formats for previewing documents.
+
+ The following file formats are unable to display in the preview window:
+
+<table style="border: none; width: 80%; margin: 0 auto;">
+<tr style="border: none;">
+<td style="border: none; width: 50%; padding-right: 20px;">
+
+<ul>
+<li>ai</li>
+<li>aic</li>
+<li>xls</li>
+<li>xlsx</li>
+<li>ppt</li>
+<li>pptx</li>
+<li>doc</li>
+<li>docx</li>
+<li>ase</li>
+<li>indd</li>
+<li>inddc</li>
+<li>pdf</li>
+<li>pdfl</li>
+<li>pdfs</li>
+<li>pdfp</li>
+<li>pub</li>
+<li>odp</li>
+<li>ods</li>
+<li>odt</li>
+<li>bmp</li>
+<li>dng</li>
+<li>gif</li>
+<li>heic</li>
+<li>heif</li>
+</ul>
+
+</td>
+<td style="border: none; width: 50%; padding-left: 20px;">
+
+<ul>
+<li>jp2</li>
+<li>jpg</li>
+<li>jpeg</li>
+<li>pjpeg</li>
+<li>png</li>
+<li>psd</li>
+<li>psdc</li>
+<li>raw</li>
+<li>svg</li>
+<li>tiff</li>
+<li>tif</li>
+<li>webp</li>
+<li>eps</li>
+<li>txt</li>
+<li>rtf</li>
+<li>ps</li>
+<li>avi</li>
+<li>mp4</li>
+<li>mpeg</li>
+<li>mov</li>
+<li>flv</li>
+<li>m4v</li>
+<li>wmv</li>
+</ul>
+
+</td>
+</tr>
+</table>
+ 
+ +++  
+
+To preview a document:
+
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+1. Find the document you need, then click the document name.
+   ![Document preview](assets/preview-new-doc.png)
+
+ 

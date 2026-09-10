@@ -3,9 +3,26 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Build a chart report in a Canvas Dashboard
 description: A chart report that visualizes your data as a bar, column, line, or pie chart can be added to a Canvas Dashboard.
-author: Courtney and Jenny 
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/9ZMHrzOvdpkdnbBapJ65HFLutu0lfYmSOCamto-AU0c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Build a chart report in a Canvas Dashboard
 
@@ -60,7 +77,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Prerequisites
 
-You must create a dashboard before you can build a chart report. 
+You must create a dashboard before you can build a chart report. For more information, see [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
 ## Build a chart report in a Canvas Dashboard
 
@@ -68,13 +85,9 @@ There are many configuration options available for building a chart report. In t
 
 {{step1-to-dashboards}}
 
-1. In the left panel, click **Canvas Dashboards**. 
+1. In the left panel, click **Canvas Dashboards**, then click the name of the dashboard you want to add the report to. 
 
-1. Click **New Dashboard** in the upper-right corner.  
-
-1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**.  
-
-1. Click **Create**. 
+1. Click **Add report** in the upper-right corner of the page. 
 
 1. In the **Add report** box, select **Create report**.  
 
@@ -93,6 +106,14 @@ There are many configuration options available for building a chart report. In t
         >[!NOTE]
         >
         >There is a maximum number of 60 series that can be displayed in a chart. When this box is checked, any series above the limit are consolidated into an **Other** grouping in the chart.  
+
+    1. (Optional) In the **Run this report with the access rights of** field, begin typing the name of the user whose permissions you want the report to use, then select the user when they appear in the list. When you configure a report to run as another user, all viewers of the dashboard see the same data, regardless of their own access level. If you don't select a user, each viewer sees data based on their own permissions.
+
+        >[!IMPORTANT]
+        >
+        >If the selected user is deactivated or loses access to the relevant workspaces or record types, the report may display incomplete data or fail to render.
+
+
 1. Choose which type of chart you want to create:
     * [Bar, column, or line chart](#bar-column-or-line-chart)
     * [Pie chart](#pie-chart)
@@ -186,13 +207,9 @@ In this section, we will go over the steps to create a column chart that display
 
 {{step1-to-dashboards}}
 
-1. In the left panel, click **Canvas Dashboards**. 
+1. In the left panel, click **Canvas Dashboards**, then click the name of the dashboard you want to add the report to. 
 
-1. Click **New Dashboard** in the upper-right corner.  
-
-1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**.  
-
-1. Click **Create**. 
+1. Click **Add report** in the upper-right corner of the page. 
 
 1. In the **Add report** box, select **Create report**.  
 
@@ -284,14 +301,14 @@ Users with View or Edit access to Financial Data in their access level will stil
 * Users who do see financial data are limited to records they already have permission to view (projects, tasks, issues, etc.). They will not see financial values for records they cannot access.
 * Report creators should exercise caution when including financial data in dashboards and be mindful of who they share dashboards with to prevent unintended access.
 
-This is a known limit, and we plan to address it as quickly as possible.
+This is a known limit, and we plan to address it in the future.
 
 ### Utilizing the field selector
 
 The **Sections** drop-down in the **Build chart** section is designed to narrow down the choices in a field selector to make an object easier to find when building a table report. To start, you would select a base entity object.
 
-* **All Sections**: All object types in Workfront Workflow and Workfront Planning.
-* **Workfront Objects**: Native Workfront Workflow objects.
+* **All Sections**: All object types in Workfront and Workfront Planning.
+* **Workfront Objects**: Native Workfront objects.
 * **Planning Record Types**: Custom record types defined in Workfront Planning.
 
 ![Sections drop-down](assets/sections-dropdown.png)

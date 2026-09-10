@@ -44,7 +44,7 @@ Only organizations that require time entry can use CPI. Furthermore, cost-based 
   </tr> 
   <tr> 
    <td>Object permissions</td> 
-   <td>View or higher permissions to the project with permissions to View Finance</td> 
+   <td>View or higher permissions to the project with permissions to View General Finance</td> 
   </tr> 
  </tbody> 
 </table>

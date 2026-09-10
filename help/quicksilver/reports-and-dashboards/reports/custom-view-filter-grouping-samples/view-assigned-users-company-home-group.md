@@ -4,9 +4,26 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: Assigned User's Company and Home Group"
 description: This task view displays the Company and Home Group of the Primary Owner of the task. These are values that are not available in the standard interface, but they are accessible through text mode.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 818c1f3a-4e82-4dc3-af86-4f9dcf5c11a4
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/oKVmqEBGER1baHmP5Epn8TVIPqM9pYuAyFhVvXyfOLg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # View: assigned user's Company and Home Group
 

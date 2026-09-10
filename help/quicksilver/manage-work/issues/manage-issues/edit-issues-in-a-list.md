@@ -6,19 +6,47 @@ description: You can edit an individual issue or you can edit issues in an issue
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/FrgqUt1XznfoAPP6d6KcAO-S8ZPUR-CASGL6H72wO5k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Edit issues in a list
 
 <!--Audited: 10/2025-->
 
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
  
 You can edit an individual issue or you can edit issues in an issue list or report. This article describes how to edit issues in lists.
 
@@ -62,7 +90,8 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,7 +114,8 @@ For more detail about the information in this table, see [Access requirements in
    <td> <p>Contribute or higher permissions to the issue</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Inline edit issues
 
@@ -140,10 +170,15 @@ You can edit an issue in a list using the Summary panel.
 
    | Icon  |Action |
    |---|---|
-   | Documents ![Documents icon](assets/documents-icon-in-summary.png) |Click **Click here to add** to add documents to the issue. |
+   | Documents* ![Documents icon](assets/documents-icon-in-summary.png) |Click **Click here to add** to add documents to the issue. |
    | Details ![Details icon](assets/details-icon-in-summary.png) |Click to update information about the issue. |
    | Hours ![Log time](assets/log-time-icon-in-summary.png)  |Click to log hours. |
    | Approvals ![Approvals icon](assets/approvals-icon-in-summary.png)  |Click to add issue approvals.  |
+
+   *If your organization uses Adobe cloud storage for documents, you cannot add documents to Adobe cloud storage issues in the Summary panel.
+   
+   For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 
 1. (Optional) Click the **Open Summary** icon again, or the **X icon** in the upper-right of the Summary to close the panel and edit the issue inline.
 

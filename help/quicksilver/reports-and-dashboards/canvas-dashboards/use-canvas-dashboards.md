@@ -7,6 +7,18 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 25f045d9-a291-423d-81ee-6fbd2fb12607
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/iUA66WzGxCmngVNSHJ1hcm6o-5lyfKDk6gQK3AdXBG0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Use Canvas Dashboards
 
@@ -34,7 +46,31 @@ To access Canvas Dashboards, navigate to the Dashboards section in Adobe Workfro
 1. Click the name of an existing dashboard to open it.
     ![Open a dashboard](assets/open-dashboard.png)
 
-<!--## Navigating the Dashboard
+## Sort the Canvas Dashboards list
+
+You can sort the Canvas Dashboards list by any of the following columns:
+
+* Name
+* Description
+* Created by
+* Create date
+
+To sort the list:
+
+1. In the left panel, click **Canvas Dashboards**.
+1. Click a column header to sort the list by that column. Click the same header again to reverse the sort direction.
+
+   By default, the list is sorted by the **Name** column from A to Z.
+
+   ![Sort the Canvas Dashboards list](assets/sort-canvas-dashboards-list.png)
+
+>[!NOTE]
+>
+>* Your sort order is preserved when you switch between tabs in the Canvas Dashboards list.
+
+
+<!--
+## Navigating the Dashboard
 
 Once you open a Canvas Dashboard, you can interact with the reports displayed on the dashboard. You can resize, drag, and drop reports to customize the layout according to your preferences.
 
@@ -66,6 +102,24 @@ You can temporarily customize table reports on dashboards. These changes only ap
     >[!IMPORTANT]
     >
     >These changes only apply to your current session and do not affect the original report configuration. To make permanent these changes, you need to edit the report.
+
+<div class="preview">
+
+### Drill down into pivot table data in Preview
+
+You can click a value in a pivot table report to drill down and see the individual records that make up that aggregated value.
+
+{{step1-to-dashboards}}
+
+1. In the left panel, click **Canvas Dashboards**.
+1. Click the name of an existing dashboard to open it.
+    ![Open a dashboard](assets/open-dashboard.png)
+1. Locate the pivot table report that you want to look at.
+1. Click a value in the pivot table to open the drilldown table.
+
+    The drilldown table displays the columns that the report creator configured in the Drilldown Column Settings. For more information, see [Build a pivot table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
+
+</div>
 
 
 <!--
@@ -106,7 +160,8 @@ When you sort by the same field that your report is grouped by, the group order 
 
 After customizing your Canvas Dashboard, you can save your changes. Additionally, you can share the dashboard with other users in your organization, provided you have the appropriate sharing permissions.
 
-For more detailed instructions on creating, managing, and customizing Canvas Dashboards, refer to the related articles in the [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) section.-->
+For more detailed instructions on creating, managing, and customizing Canvas Dashboards, refer to the related articles in the [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) section.
+-->
 
 ## View reports with grouped data
 
@@ -117,3 +172,4 @@ By default, the groupings themselves are sorted alphabetically or chronologicall
 You can click a column header to sort the data within each group. When you sort by a field that is different from the grouping field, the order of the groups does not change.
 
 However, when you sort by the same field that the report is grouped by, the group order can change. For example, a text-based grouping that normally runs A–Z may switch to Z–A.
+

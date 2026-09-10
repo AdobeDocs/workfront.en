@@ -2,10 +2,22 @@
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: Overview of Goal Progress and Condition in Adobe Workfront Goals
-description: Goal progress is driven by progress indicators like activities, results, or children goals. Goal condition is determined by the progress of the goal at the current moment in time. 
+description: Goal progress is driven by progress indicators like activities, results, or children goals. Goal condition is determined by the progress of the goal at the current moment in time.
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/HQ4-iyp5Tky-LQIhkjhXUJR9v-tZHA7PEmZvPGOYuPQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Overview of goal progress and condition in Adobe Workfront Goals
 
@@ -19,7 +31,8 @@ exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
 >
 >For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 >[!IMPORTANT]
 >
 >Your organization must have the following to use the functionality described in this article:
@@ -34,7 +47,8 @@ exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
 >   * A Pro or higher 
 >   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
-> Contact your Workfront account manager to learn about a Workfront Goals license.-->
+> Contact your Workfront account manager to learn about a Workfront Goals license.
+ -->
 
 
 Adobe Workfront calculates goal progress automatically, based on the progress of its progress indicators.

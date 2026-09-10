@@ -3,10 +3,22 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Text mode syntax overview
 description: You can use the text mode interface to create more complex views, filters, groupings, and customized prompts in lists and reports. By using text mode, you can access fields and their attributes that are not available in the standard mode interface.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/6-AohxGDArrxGsV8LUHHc0cQQd4ZWoTHqO3DWKRagP4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Text mode syntax overview
 

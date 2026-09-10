@@ -6,6 +6,22 @@ description: Event notifications are emails triggered by various types of events
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 09b70427-691d-437a-b9d2-86f78bd4d6a2
+TQID: https://experienceleague.adobe.com/HdkoEcw1ya8EgLaa5QnbUDtDxmgQCQEC3WTBhftyp-I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Event notifications
 

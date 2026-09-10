@@ -5,6 +5,13 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: def76c9c-d808-489b-82c7-b1f44c241116
+TQID: https://experienceleague.adobe.com/4aDDK3EIDecA-DcuB7wb3e6-NV5IvIUF7mKl-lhnY8I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Second Quarter 2026 Project enhancements
 

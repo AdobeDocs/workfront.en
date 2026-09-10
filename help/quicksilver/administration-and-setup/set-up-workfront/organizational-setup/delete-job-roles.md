@@ -8,14 +8,25 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b0e81d76-5227-4fda-9a58-68fbce3f5b94
+TQID: https://experienceleague.adobe.com/jJA7M34HwNyM-906Poo9-uTVmB4kQnXMv8iBWminjjg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Delete job roles
 
 You can delete job roles that your organization no longer uses. We recommend that you do not delete job roles if they have been associated with work items in the past.
 
 To keep all your historical information about work assignments, we recommend that you deactivate roles, rather than delete them when they become obsolete. For information about deactivating roles, see [Deactivate job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
-
-## Access requirements
 
 ## Access requirements
 

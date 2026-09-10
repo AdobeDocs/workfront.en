@@ -8,6 +8,16 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 0cd407f6-2593-4de8-9456-c26ba231e482
+TQID: https://experienceleague.adobe.com/fl-BzJ--JWaqu0Y9lZ5Ri-1cCA59VOrkPiZt8YBE4wI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # 21.1 Integration enhancements
 

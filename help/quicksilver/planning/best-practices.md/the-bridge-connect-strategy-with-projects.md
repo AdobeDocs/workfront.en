@@ -6,8 +6,23 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/VRJ1TnXYb7TSnXsBLThdW-PhxPc-sCFP1-SQI7JZaGo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
 ---
-
 # Build the bridge: connecting strategic intent to projects 
 
 >[!IMPORTANT]
@@ -139,7 +154,8 @@ By connecting intent to action, you can answer critical business questions at a 
 
 *   **Don't bypass the bridge:** If work starts in the Workflow module without a link to Planning, you've created a "Shadow Plan" that is invisible to leadership.
 
-<!--original content:
+<!--
+original content:
 
 # The Bridge: Connecting Strategic Intent to Projects 
 

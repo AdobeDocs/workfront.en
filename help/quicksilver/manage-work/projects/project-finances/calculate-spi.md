@@ -7,6 +7,24 @@ description: The Schedule Performance Index (SPI) describes the relationship bet
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
+TQID: https://experienceleague.adobe.com/WfZDTGfYIcngo8a3MQAh-Z7jnKm4nnBppV8hYSweygo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Calculate Schedule Performance Index (SPI)
 
@@ -40,7 +58,7 @@ The Schedule Performance Index (SPI) describes the relationship between the plan
   </tr> 
   <tr> 
    <td>Object permissions</td> 
-   <td>View or higher permissions to the project with permissions to View Finance</td> 
+   <td>View or higher permissions to the project with permissions to View General Finance</td> 
   </tr> 
  </tbody> 
 </table>

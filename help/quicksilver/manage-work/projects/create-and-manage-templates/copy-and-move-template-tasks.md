@@ -6,8 +6,36 @@ description: You can copy or move a template task to the same template or to ano
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/aOCabFAMwrIrdKvjbjYgGcVTV5tBPbCL-rIdjs3FB64
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Copy and move template tasks
+
+<!--Audited: 05/2026-->
 
 You can copy a template task from a template to another template, or you can move it either to another template or to another place in the same template. 
 
@@ -43,7 +71,8 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -66,7 +95,8 @@ For more detail about the information in this table, see [Access requirements in
    <td> <p>Manage permissions to a template.</p> <p>You cannot share a template task.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerations for copying or moving template tasks
 
@@ -98,6 +128,10 @@ Consider the following when moving template tasks:
 
    * Milestones.
 
+* You cannot copy or move a template task from a legacy Workfront storage template to an Adobe cloud storage template. The reverse is also true. Your Workfront instance might not have both types of document storage.
+
+   For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 ## Copy template tasks 
 
 You can copy a single template task or you can copy several template tasks in bulk. 
@@ -109,7 +143,7 @@ You can copy a single template task or you can copy several template tasks in bu
     * Select one or several template tasks in the list. 
 1. (Conditional) Click the **More** menu ![More icon](assets/more-icon.png) at the top of the template task list or to the right of the template task name if you opened the task, then click **Copy to** or **Copy**, depending where you are accessing the Copy option from. 
     The Copy Template Task box opens.
-    ![Copu template task box](assets/copy-template-task-box-unshimmed.png)
+    ![Copy template task box](assets/copy-template-task-box-unshimmed.png)
 1. (Optional) Rename the template task in the **Template Task Name** field.
 
    >[!TIP]
@@ -118,11 +152,18 @@ You can copy a single template task or you can copy several template tasks in bu
 
 1. Start typing the name of the **Destination Template** where you want to copy the template task in the **Select Destination Template** field, then select it when it displays in the list. 
 
-    The current template name displays by default. If you want to copy the template task within the same template, leave this field unchanged. 
-
    >[!TIP]
    >
    >You can also start typing the Reference Number or enter the ID of the template. This might help you distinguish between templates with identical names. 
+
+   The current template name displays by default. If you want to copy the template task within the same template, leave this field unchanged. 
+
+   >[!TIP]
+   >
+   >You must pick a template with a similar document storage type. You cannot copy template tasks to a template with a different storage type than the original template. Your Workfront instance might not have both types of document storage.
+   >
+   >For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 
 1. (Conditional) Click **request access** to request access to the destination template, if you don't have access to the selected template.
 1. (Conditional) Continue to copy the template task to the selected destination template without requesting access if you have access to add template tasks to one of the template tasks on the destination template.
@@ -244,7 +285,11 @@ You can move a template task either to another template task in the same templat
 
    >[!TIP]
    >
-   >You can also start typing the Reference Number or enter the ID of the template. This might help you distinguish between templates with identical names. 
+   >* You can also start typing the Reference Number or enter the ID of the template. This might help you distinguish between templates with identical names.
+   >
+   >* You must pick a template with a similar document storage type. You cannot copy template tasks to a template with a different storage type than the original template. Your Workfront instance might not have both types of document storage.
+   >
+   >For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. (Conditional) Click **request access** to request access to the template, if you don't have access to the destination template.
 1. (Conditional) Continue to move the template task to the selected destination template without requesting access if you have access to add template tasks to one of the template tasks on the destination template.
@@ -281,7 +326,6 @@ You can move a template task either to another template task in the same templat
       <li> Start No Earlier Than</li>
       <li> Start No Later Than</li>
       </ul>
-
 
      </td> 
      </tr> 
@@ -330,7 +374,6 @@ You can move a template task either to another template task in the same templat
      </tr>  
     </tbody> 
    </table>
-
 
 1. (Optional) Click **Select Parent** in the left panel, then select the template task in the destination template that you want to become the parent of the moved template task.
 

@@ -6,10 +6,10 @@ description: Use shareable report folders to organize the reports that you creat
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 65831f2e-9092-4e99-a86b-40df42c713bf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Use shareable report folders
-
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 <!-- This article is linked in the UI -->
 
@@ -87,7 +87,7 @@ You can create up to 3 levels of subfolders within a shareable report folder. Su
 
 ## Share a report folder with other users
 
-When you share a folder with users, they inherit access to all subfolders in that folder tree. Users must also have access to each report, either through folder permissions or direct report sharing.
+When you share a folder with users, they inherit access to all subfolders in that folder tree.
 
 {{step1-to-reports}}
 
@@ -129,3 +129,7 @@ Report permissions granted through the folder permissions are removed when the f
 ## New list experience for shareable folders
 
 When you access shareable folders in the Reports area, you will see a new list experience that allows you to easily view and manage your folders and reports. For more information about the new list experience, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+>[!NOTE]
+>
+>Advanced fields are not supported in the enhanced list experience. To work with these fields, you can create a report.

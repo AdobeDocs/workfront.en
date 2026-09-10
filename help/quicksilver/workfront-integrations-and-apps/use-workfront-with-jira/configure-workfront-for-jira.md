@@ -5,7 +5,32 @@ title: Configure [!DNL Adobe Workfront for Jira]
 description: You can use [!DNL Adobe Workfront for Jira] to integrate your [!DNL Jira] and [!DNL Workfront] systems.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/p7wo2oyVOoRGU8vE-PIjs20zxvbdBw-aoeykKtlraY0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: b8ea32d4-f1fe-4c71-8871-afe5a702a009
+    internal-label: Adobe Workfront for Jira
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure [!DNL Adobe Workfront for Jira]
 
@@ -14,7 +39,7 @@ exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
 
 >[!IMPORTANT]
 >
->To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Jira integration will not be available after **February 28, 2026**. 
+>To deliver more stable and scalable integrations, we've shifted to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Jira integration **is no longer available**. 
 >
 >We recommend using Workfront Automation and Integration for your organization's integration needs with Jira. 
 >
@@ -37,6 +62,8 @@ exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
 >For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
+
+<!--
 
 You can use [!DNL Adobe Workfront for Jira] to integrate your [!DNL Jira] and [!DNL Workfront] systems.
 
@@ -358,3 +385,5 @@ To resolve this error, try one of the following:
 
 * Ask your [!DNL Jira] administrator to update the affected [!DNL Jira] objects to ensure that they have a due date field.
 * Disable the synchronization of [!DNL Workfront]'s planned completion date in the Workfront [!UICONTROL Setup] page.
+
+-->

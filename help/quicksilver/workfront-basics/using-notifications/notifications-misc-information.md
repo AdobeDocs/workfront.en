@@ -1,11 +1,18 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Notifications: Miscellaneous information'
+title: "Notifications: Miscellaneous information"
 description: The following notifications alert you about activities happening on a project you are sponsoring.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
+TQID: https://experienceleague.adobe.com/hJWb3tzQP-84n8GB0I34kETVKlf-zKUVn2Hxa4pWKC0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Notifications: Miscellaneous information
 

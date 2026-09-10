@@ -6,13 +6,36 @@ title: Access [!DNL Adobe Workfront] Home content from Google Workspace
 description: You can access your [!DNL Adobe Workfront] Home content, including all tasks, issues, approvals, and access requests assigned to you, without leaving Google Workspace.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/Xsx0Yum-ZbXwr5XyN12oGPbuN00PJwblwjA7rWcLTZ4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: bbf3fe51-0066-4980-9062-f8005585ee10
+    internal-label: Adobe Workfront for Google Workspace
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Access [!DNL Adobe Workfront] [!UICONTROL Home] content from [!DNL Google Workspace]
 
 >[!IMPORTANT]
 >
->To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the following Workfront for Google Workspace functionality will not be available after **February 28, 2026**: 
+>To deliver more stable and scalable integrations, we've shifted to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the following Workfront for Google Workspace functionality **is no longer available**: 
 >
 >* Accessing Google Workspace functionality from within Workfront 
 >
@@ -23,6 +46,8 @@ exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
 >For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
 >For information about the specific capabilities of the Workfront Automation and Integration modules for Google Workspace, see [Gmail modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) and [Google Calendar modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules). 
+
+<!--
 
 You can access your [!DNL Adobe Workfront] [!UICONTROL Home] content, including all tasks, issues, approvals, and access requests assigned to you, without leaving Google Workspace.
 
@@ -82,3 +107,5 @@ Before you can access [!UICONTROL Home] content from [!DNL Google Workspace], yo
    * **Access requests** display the requester's name, object name, and submission date. The icon for the object type displays on the left.
 
 1. Click anywhere on a work item to see its details, updates, and documents.
+
+-->

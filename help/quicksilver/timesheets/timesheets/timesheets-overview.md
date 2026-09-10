@@ -7,6 +7,26 @@ description: You can use timesheets to track the time that you spend on work, bo
 author: Lisa
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
+TQID: https://experienceleague.adobe.com/VJQGCqYo3FZNceECWZrbsrTNX7jnKMZnIV1N4TQo9GA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Timesheets overview
 
@@ -49,17 +69,17 @@ To access a timesheet:
 
   All of your timesheets as well as timesheets you have access to display by default. For information about the timesheet layout in Adobe Workfront, see [Timesheet layout overview](../../timesheets/timesheets/timesheet-layout.md).
 
-  ![](assets/all-timesheets-list-nwe-350x68.png)
+  ![All Timesheets list](assets/all-timesheets-list-nwe-350x68.png)
 
 1. Click one of the following options in the upper-right corner to display your timesheets: 
 
     * **My Timesheets** to display only your timesheets. 
 
-    ![](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
+    ![My Timesheets list](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
 
     * **My Timesheet Approvals** to display only timesheets you approve. 
 
-      ![](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
+      ![Timesheets I Approve list](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
 
 
 1. (Optional) Update the view, filter, and grouping at the top of the list of timesheets. For more information, see [Reporting elements: filters, views, and groupings](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md). 

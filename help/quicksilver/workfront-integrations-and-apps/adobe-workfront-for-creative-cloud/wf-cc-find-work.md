@@ -6,6 +6,23 @@ description: Find the work assigned to you in Adobe Workfront without leaving Ad
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/kNA5u-MELdG4G4TzFgLRqQO7S5LWzdcucPoxsENV-uQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Find your work using the [!DNL Adobe Workfront] plugin
 
@@ -21,7 +38,8 @@ Find the work assigned to you in [!DNL Adobe Workfront] without leaving the foll
  <col> 
  <col> 
  <tbody> 
- <!-- <tr> 
+ <!--
+  <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> Any</td> 
   </tr> 
@@ -30,7 +48,8 @@ Find the work assigned to you in [!DNL Adobe Workfront] without leaving the foll
    <td> 
    <p>Standard</p>
    <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">Additional products</td> 
    <td>You must have an [!DNL Adobe Creative Cloud] license in addition to a [!DNL Workfront] license.</td> 

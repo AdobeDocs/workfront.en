@@ -6,10 +6,24 @@ description: You can unlink or delete items linked to Workfront from Adobe Exper
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f082be12-2adc-4234-a01a-7543c032a35a
+TQID: https://experienceleague.adobe.com/1AQ4PYnxsWtrNjptPfk9jPQ6wbKPSNvDqqOGfq0eNig
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Unlink or delete assets and folders from Experience Manager Assets or Assets Essentials
 
 You can unlink or delete items linked to Workfront from Adobe Experience Manager Assets. 
+
+>[!NOTE]
+>
+>This functionality is not available in the new Documents area.
 
 ## Delete a linked document or folder in Workfront
 

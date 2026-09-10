@@ -6,6 +6,24 @@ description: You can remove the alignment between two goals if it no longer make
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/y8RsDKHIo1QleZvD2Ys2-nn7WsYh51CsCzqQC6TSpDw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Remove goal alignment in Adobe Workfront Goals
 
@@ -37,7 +55,8 @@ For information about aligning goals, see the following articles:
  <tr>
   <td> <p>Adobe Workfront package</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTE</b></p>
+<p>Speak with your Workfront representative if you have a different Workfront package.</p>
    </td> 
   </tr> 
  <tr>
@@ -68,7 +87,8 @@ For information about aligning goals, see the following articles:
 For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -117,7 +137,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Prerequisites
 

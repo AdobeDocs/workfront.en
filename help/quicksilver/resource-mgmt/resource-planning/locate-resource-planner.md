@@ -6,6 +6,26 @@ description: You can use the Resource Planner to manage the allocation of your r
 author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
+TQID: https://experienceleague.adobe.com/-p17GWsoDlmbZtZW3T47YGxOmgSOsMddnFfFXpW36C4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Locate the Resource Planner
 
@@ -70,7 +90,7 @@ To access the Planner section in the Resourcing area:
 
    The Planner displays by default.  For information about budgeting resources in the Resource Planner, see the article [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-   ![Resource planner as default](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+   ![Resource planner as default](assets/default-resource-planner.png)
 
 1. Click **Resource Pools** in the left panel.
    For information about creating resource pools, see [Create resource pools](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
@@ -86,8 +106,8 @@ When using the Resource Planner for one project, the allocation numbers for your
 
    >[!TIP]
    >
-   >You can only add a resource pool in the Resource Budgeting area of the Business Case when the project has no resource pools associated with it. When the project already has a Resource Pool, the users in the pool and their job roles display in the Resource Budgeting area by default.
+   >You can only add a resource pool in the Resource Budgeting area of the Business Case when the project has no resource pools associated with it. <!--When the project already has a Resource Pool, the users in the pool and their job roles display in the Resource Budgeting area by default.-->
 
-   ![Resource budgeting](assets/resource-budgeting-area-on-project-350x70.png)
+   ![Resource budgeting](assets/resource-budgeting-area-on-project.png)
 
    For information about budgeting resources for one project, see the article [Budget resources in the Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).

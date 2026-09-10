@@ -1,10 +1,27 @@
 ---
 title: Report on the Updates Area with a Journal Entry Report
 description: The Journal Entry report surfaces system updates from the Updates area of projects, tasks, issues, and other objects that were previously only available through the Adobe Workfront API. While this is an advanced report intended for specific use cases, the more digestible format makes it easier for you to report on project activity and system updates within Workfront.
-author: Nolan
+author: Courtney
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/6z-6LTzYteh2Ydn9SyjYdagszzc0VEV-mSHAV7fnMAI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Report on the Updates area with a Journal Entry report
 
@@ -318,8 +335,10 @@ To see when a task or issue was deleted:
    * **Change Type** > **Equal** > **Delete**
    * **Project ID** > **Equal** > **< project name >**
 
-     <!--WRITER check link; this png file has spaces
-     [![Task or issue deleted](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
+     <!--
+     WRITER check link; this png file has spaces
+     [![Task or issue deleted](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)
+     -->
 
    For more information on adding filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -410,7 +429,7 @@ To see how custom fields changed over the course of a project's life cycle:
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">New Text Value</p> </td> 
-      <td> <p>The current text value in the custom field.</p> <p>If the custom field is a typeahead field, the <strong>New Text Value</strong> column displays the object ID.</p> </td> 
+      <td> <p>The current text value in the custom field.</p> <p>If the custom field is an internal lookup field, the <strong>New Text Value</strong> column displays the object ID.</p> </td> 
      </tr> 
     </tbody> 
    </table>

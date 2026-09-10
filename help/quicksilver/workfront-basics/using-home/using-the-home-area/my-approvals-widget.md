@@ -6,6 +6,24 @@ description: The My Approvals widget displays all of your pending, assigned, del
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 276a33f5-92de-440c-ae3a-8cd01731434f
+TQID: https://experienceleague.adobe.com/wfTP8CMqgTZtTLshO239HNrDAUbyrHNbOhs3ZKlMXGg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Manage your approvals with the My Approvals widget
 
@@ -65,9 +83,16 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >Approvals assigned to Job Roles or Groups don't display in Home. Approvals assigned to Teams display in the My Approvals widget for each team member.
 
 
+1. (Conditional) Click the **Sort** drop-down menu, then select **Newest first** to see the most recently added approvals.
+
+
+1. (Optional) Click the Full screen icon ![Full screen icon](assets/full-screen.png) to open the My Approvals widget in full screen.
+
 1. Select the item where you want to make an approval decision.
 
    ![My Approvals widget](assets/my-approvals-widget.png)
+
+   <!--update screenshot after production release-->
 
 1. Click one of the available options when making an approval decision in the right panel. The following options display in the upper-right corner of the page, depending on the type of item you are approving:
 

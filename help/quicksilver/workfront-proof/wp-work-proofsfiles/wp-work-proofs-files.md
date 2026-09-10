@@ -9,6 +9,13 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 31b97154-e506-4a1c-ab9a-92395156ed47
+TQID: https://experienceleague.adobe.com/2PTqpkp4ebKoK5ZDJVBa887auo8-qPjjfTSqDK7E67I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Work with proofs and files in [!DNL Workfront Proof]
 
@@ -25,7 +32,7 @@ This section contains the following subsections:
 * [Organize your work](../../workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)
 * [Review proofs in the Desktop Proofing Viewer](../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/review-proofs-in-the-lpv.md" class="MCXref xref" xrefformat="{para}">Review proofs in the Legacy Proofing Viewer</a> </li>
   -->
 

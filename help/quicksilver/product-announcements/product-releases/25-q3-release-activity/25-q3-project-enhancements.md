@@ -4,9 +4,15 @@ description: Third Quarter 2025 Project enhancements
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: yes
-hidefromtoc: yes
+hide: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
+TQID: https://experienceleague.adobe.com/DaxBkn2BAzxTm1LyIfts1KfghH2QmuOJGZj-XAl1VHA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Third Quarter 2025 Project enhancements
 

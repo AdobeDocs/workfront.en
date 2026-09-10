@@ -7,18 +7,37 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
+last-update: 2026-04-01T18:23:03.000Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+TQID: https://experienceleague.adobe.com/bEt6XmNNQWOPiLRuVx-clqtZtnk5APHetofcczNkXVw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Manage the Project Team
 
 <!--take preview and production references out at production - August 7-->
 
-<!--<div class="preview"> 
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 -->
 
@@ -72,7 +91,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-<!--Old access: 
+<!--
+Old access: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -135,7 +155,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
  For more information about what notifications can be enabled for users on the project team, see [Event notification types](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
 
- <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
+ drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
 >[!IMPORTANT]
 >
@@ -193,12 +213,13 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Select one or multiple users in the list, then click **Send Update to User**.
 
-   <!--update screen shot when they fix the bug - the text above the box needs to match the OLD box, below-->
+   update screen shot when they fix the bug - the text above the box needs to match the OLD box, below
 
    ![Send update to user box on the project](assets/send-update-to-user-on-project-box-2025.png)
 
-   <!--Old UI for projects but the text above the comment box is right and matches the functionality):
-   ![OLD Send update to user on a project](assets/send-update-to-user-on-project-box.png)-->
+   Old UI for projects but the text above the comment box is right and matches the functionality):
+   ![OLD Send update to user on a project](assets/send-update-to-user-on-project-box.png)
+-->
 
    The **Send update to user** box opens.
 

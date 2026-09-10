@@ -3,20 +3,44 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Commit Date Overview
-description: The Commit Date is the date a user assigned to task or an issue commits to complete the task or the issue. This is different than the Planned Completion Date as it's a more realistic estimate of the completion date given by the user who is directly in charge of the work. 
+description: The Commit Date is the date a user assigned to task or an issue commits to complete the task or the issue. This is different than the Planned Completion Date as it's a more realistic estimate of the completion date given by the user who is directly in charge of the work.
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/NPEnm3SBngFnVUZzqMD2aIOI46WpzDW8eKo6mv96IBA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Commit Date overview
 
 <!--Audited: 05/2025-->
 
-<!-- <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<!--
+ <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+-->
 
 The Commit Date is the date a user assigned to task or an issue commits to complete the task or the issue. This differs from the Planned Completion Date of a task or issue as it's a more realistic estimate of the completion date given only by the user in charge of the work. 
 
@@ -86,7 +110,8 @@ Manually setting the Commit Date for a task or issue triggers the following chan
   >* [Customize the Summary panel using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
   >* [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
 
-<!--this is no longer possible: 
+<!--
+this is no longer possible: 
 >[!NOTE]
 >
 >If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the task list where you can evaluate the date changes and the project timeline.

@@ -2,10 +2,28 @@
 product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
 title: Customize Adobe Workfront Goals terminology
-description: A Workfront or group administrator can customize the names of objects in Workfront Goals to better match your organization's terminology. 
+description: A Workfront or group administrator can customize the names of objects in Workfront Goals to better match your organization's terminology.
 author: Alina
 feature: Workfront Goals
 exl-id: a3b3e61e-c385-429b-856b-7579b02c9946
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/ULTc4SRqNf9M-3Ku4mWnEa-oeU3FfF0--l9fpyCaBKQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Customize Adobe Workfront Goals terminology
 
@@ -19,7 +37,8 @@ exl-id: a3b3e61e-c385-429b-856b-7579b02c9946
 >
 >For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -36,7 +55,8 @@ exl-id: a3b3e61e-c385-429b-856b-7579b02c9946
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).  --> 
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 A Workfront or group administrator can customize the names of objects in Workfront Goals to better match your organization's terminology. 
 

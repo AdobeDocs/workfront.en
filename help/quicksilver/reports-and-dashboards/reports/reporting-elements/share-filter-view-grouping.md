@@ -3,16 +3,35 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Share a filter, view, or grouping
 description: You can share filters, views, and groupings that you have access to view with other users.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/8pcOtwFrNqJrKYMzAgKEfRmHoJAkiimDVJxCav0NoiY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Share a filter, view, or grouping
 
 <!-- Audited: 11/2024 -->
 
-<!--(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
-(NOTE: This is linked from the TOC article in WF Basics > permissions section)-->
+<!--
+(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
+(NOTE: This is linked from the TOC article in WF Basics > permissions section)
+-->
 
 Your Adobe Workfront administrator grants users access to view or edit objects when they assign access levels. For more information about granting access to objects, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -103,7 +122,12 @@ Share a filter using the standard builder interface:
    </tr>
    <tr>
    <td role="rowheader"><strong>Shared with me</strong></td>
-   <td>Filters that others created and shared with you or that are shared system-wide.</td>
+   <td>Filters that others created and shared with you or that are shared system-wide.
+   <p><b>NOTE</b></p>
+   <p>Users with a Contributor, Requestor, or External license cannot see filters, views, or groupings that are shared system-wide. To make one available to these users, share it with them directly — via their user, job role, team, group, or company — rather than relying on system-wide visibility. This applies even when the filter, view, or grouping is included in their layout template.</p>
+   
+   
+   </td>
    </tr>
    </tbody>
    </table>
@@ -161,7 +185,7 @@ Sharing filters, views, and groupings in the legacy interface is identical.
 
 1. Complete either of the following, depending on who you want to share with:
 
-   **To share with individual users, teams, roles, groups, or companies:** In the provided field, begin typing the name of the user, team, role, group, or company you want to share with, then click the name when it appears in the drop-down list.  
+   **To share with individual users, teams, roles, groups, or companies:** In the provided field, begin typing the name of the user, team, role, group, company, or business profile you want to share with, then click the name when it appears in the drop-down list.  
    Repeat this process to share access with multiple users, teams, roles, groups, or companies.
 
       >[!TIP]

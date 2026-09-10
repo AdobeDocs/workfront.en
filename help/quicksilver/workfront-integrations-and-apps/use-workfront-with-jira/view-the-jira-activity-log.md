@@ -5,13 +5,36 @@ title: View the Jira Activity Log
 description: As a [!DNL Jira] administrator, you can view the exceptions and errors that occur during the synchronization or creation of the tickets between [!DNL Adobe Workfront] and [!DNL Jira] in an Activity Log.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 3e66c8e3-94b7-4153-abbb-32b872b9402b
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/1xS1rkxgESwQq38Zoo-lawkbTSOo-3TzdSeijAISaWU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: b8ea32d4-f1fe-4c71-8871-afe5a702a009
+    internal-label: Adobe Workfront for Jira
+  - id: bbf3fe51-0066-4980-9062-f8005585ee10
+    internal-label: Adobe Workfront for Google Workspace
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # View the [!UICONTROL [!DNL Jira] Activity Log]
 
 >[!IMPORTANT]
 >
->To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Jira integration will not be available after **February 28, 2026**. 
+>To deliver more stable and scalable integrations, we've shifted to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Jira integration **is no longer available**. 
 >
 >We recommend using Workfront Automation and Integration for your organization's integration needs with Jira. 
 >
@@ -34,6 +57,8 @@ exl-id: 3e66c8e3-94b7-4153-abbb-32b872b9402b
 >For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
+
+<!--
 
 As a [!DNL Jira] administrator, you can view the exceptions and errors that occur during the synchronization or creation of the tickets between [!DNL Adobe Workfront] and [!DNL Jira] in an [!UICONTROL Activity Log]. 
 
@@ -100,3 +125,5 @@ Before you can link items between [!DNL Workfront] and [!DNL Jira], you must
    * The name of the user in Jira
    * Jira issue number
    * A brief description of the error that occurred.
+
+-->

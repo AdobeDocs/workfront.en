@@ -6,12 +6,38 @@ description: Defining a Work Breakdown Structure (WBS) for a project is a set of
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
+TQID: https://experienceleague.adobe.com/iXd6BCTr1Cbysf-mamayrLzIm8v8WEt-clVZ05NC7MA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Determine Work Breakdown Structure in a project
 
 Defining a Work Breakdown Structure (WBS) for a project is a set of activities that ultimately outlines the project plan. The WBS divides the outcome of the project into manageable work elements, which can be used to define milestones and organize work assignments.
 
-You must have a Plan license with Edit access to Projects to build the Work Breakdown Structure of a project. Additional access to other areas of Adobe Workfront might be needed, depending on how many activities you perform while building the WBS.
+You must have a Standard or Plan license with Edit access to Projects to build the Work Breakdown Structure of a project. Additional access to other areas of Adobe Workfront might be needed, depending on how many activities you perform while building the WBS.
 
 We recommend that you keep the project in a Planning status while you make changes to the Work Breakdown Structure, to avoid notifications to trigger to users on the Project Team.
 
@@ -81,7 +107,7 @@ Consider the following:
 After you have defined the duration and constraints of each task, you can determine who has the time and skills to accomplish the work. You can assign tasks to the following entities in Workfront:
 
 * Users  
-  Only users with a Planner or Worker access level can be assigned to tasks. Although you can assign tasks to Requestors and Reviewers, they cannot complete them. For this reason, we do not recommend assigning them tasks.
+  Only users with a Standard, Planner, or Worker access level can be assigned to tasks. Although you can assign tasks to Requestors and Reviewers, they cannot complete them. For this reason, we do not recommend assigning them tasks.
 
   For information about the access levels and how they define what users can do with Workfront objects, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 

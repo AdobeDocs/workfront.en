@@ -6,6 +6,23 @@ description: Read this article to troubleshoot the Projects I'm On filter includ
 feature: Get Started with Workfront
 author: Alina
 exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
+TQID: https://experienceleague.adobe.com/xE5RW947MUFg5d2X6ikKhHSftQDUMxDJlC05un0oDH0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Projects I'm On filter includes unexpected results 
 
@@ -17,9 +34,7 @@ exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
   <tr>
    <td>Adobe Workfront package
    </td>
-   <td> <p>Prime or Ultimate</p>
-    <p>Workflow Ultimate</p>
-   </td>
+   <td>Any</td>
   </tr>
   <tr>
    <td>Adobe Workfront licenses

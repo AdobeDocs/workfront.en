@@ -6,6 +6,26 @@ description: You can add a custom form to a document or to a document version to
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/s1Xokz2ScQd6uSe-cf7h1op-GPHogcQtO2KAsLnBqeE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Add or edit a custom form to a document
 
@@ -21,7 +41,8 @@ You can add a custom form to a document or to a document version to capture addi
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p> Any</p> </td> 
+   <td> <p>Any Workfront package to manage documents using legacy Workfront storage</p>
+<p>Any Workflow package to manage documents using Adobe cloud storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses</td> 
@@ -48,7 +69,9 @@ For more detail about the information in this table, see [Access requirements in
 
 * The custom form must be shared with you
 
-## Add a custom form
+## Add a custom form in the legacy documents area
+
+If your organization is on legacy Workfront Storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront Storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 To add a custom form to a document:
 
@@ -62,7 +85,7 @@ To add a custom form to a document:
    >
    >Only active custom forms display in the drop-down menu. You can add up to 10 custom forms per document. If you need to create a custom form, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-## Edit a custom form
+## Edit a custom form in the legacy documents area
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
@@ -72,3 +95,26 @@ To add a custom form to a document:
 1. Make the needed changes, then click **Save**.
 
    ![Edit custom form](assets/edit-custom-form-350x265.png)
+
+## Add a custom form in the new Documents area
+
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+To add a custom form to a document:
+
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Select the document you need.
+1. In the **Details** section on the right, click **Edit**. 
+   ![edit button in details section](assets/edit-custom-form.png)
+1. In the **Custom Forms** field, begin typing and select a custom form. 
+1. Click **Save**. The custom form appears in the details section. 
+
+
+## Edit a custom form in the new Documents area
+
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Select the document you need.
+1. In the **Details** section on the right, click **Edit**. 
+   ![edit button in details section](assets/edit-custom-form.png)
+1. In the **Custom Forms** section, find the form you want to edit. 
+1. Make the needed changes, then click **Save**.

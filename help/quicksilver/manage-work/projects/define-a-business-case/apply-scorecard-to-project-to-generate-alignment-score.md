@@ -5,6 +5,28 @@ description: You can use a scorecard to measure how well a project aligns with t
 author: Becky
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/pnrFbV66FpvakGs6tbFKugVBy19bg-Xs8SUK2GSessQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Apply a scorecard to a project and generate an Alignment Score
 
@@ -94,7 +116,8 @@ To apply a scorecard to a project:
 
    The scorecard is now associated with the project and the project is scored.
 
-<!--This functionality was removed when we redesigned bulk editing projects with 23.2: 
+<!--
+This functionality was removed when we redesigned bulk editing projects with 23.2: 
 
 1. (Conditional) When changes occur in the values of scorecard questions, you must recalculate the scorecard to reflect the new values for the project score. To recaulate the scorecard, do the following: 
 

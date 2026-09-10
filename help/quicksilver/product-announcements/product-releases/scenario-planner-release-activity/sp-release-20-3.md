@@ -8,6 +8,16 @@ description: Workfront Scenario Planner is available with the 20.3 release to Pr
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 9f89b6d6-8ca7-4b03-a8fe-fddb4c0c750b
+TQID: https://experienceleague.adobe.com/EnH-8yrOK9Z3bsenHBWr7WPxUVCkSi3lvqoTbuFL9IM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
 # Workfront Scenario Planner with the 20.3 release - August 14, 2020
 

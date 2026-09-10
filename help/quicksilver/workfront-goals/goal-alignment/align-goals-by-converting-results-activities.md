@@ -6,6 +6,24 @@ description: You can manually align two goals or you can convert the results and
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/C-bvm-10957LPCDUXbNIYuZD8gpYd9Di9buEuSy-h5Q
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Align goals by converting results and activities to goals
 
@@ -31,7 +49,8 @@ For information about manually aligning two goals, see [Align goals by connectin
   
   <td> <p>Adobe Workfront package</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTE</b></p>
+<p>Speak with your Workfront representative if you have a different Workfront package.</p>
    </td> 
   </tr> 
   <tr> 
@@ -59,7 +78,8 @@ For information, see [Access requirements to Workfront documentation](/help/quic
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -110,7 +130,8 @@ For information, see [Access requirements to Workfront documentation](/help/quic
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Prerequisites
 

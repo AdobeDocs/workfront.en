@@ -8,6 +8,26 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
+TQID: https://experienceleague.adobe.com/Ujv4d5ITVkWkTP3E3oqjrlZ0dV0wjlX4Y1PLTuGRxRQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create or edit a status
 
@@ -61,13 +81,13 @@ When you create a custom status for the entire organization, you can configure i
 
 1. (Conditional) If you are creating or editing a status for use system wide, ensure that **System Statuses** is selected in the box in the upper-right corner.
 
-   ![System statuses](assets/system-statuses-in-upper-rt-corner-new.jpg)
+   ![System statuses](assets/system-statuses-in-upper-rt-corner-new-png.png)
 
    Or
 
    If the status is for a group or subgroup, start typing the name of the group in the upper-right corner, then select it when it appears.
 
-   ![System statuses for group](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![System statuses for group](assets/system-statuses-in-upper-rt-corner-group-new-png.png)
 
 1. Select the tab of the object type (**Project**, **Tasks**, or **Issues**) that you want to associate with the status.
 
@@ -75,9 +95,9 @@ When you create a custom status for the entire organization, you can configure i
 
    Or
 
-   If you are editing an existing status, hover over it, then click the **Edit** icon that displays to the far-right.
+   If you are editing an existing status, click the checkbox for that status, then click **Edit** in the banner at the bottom of the screen.
 
-   ![Edit custom status](assets/custom-status-edit.png)
+   ![Edit custom status](assets/edit-in-banner.png)
 
 1. Configure the status using the following options:
 

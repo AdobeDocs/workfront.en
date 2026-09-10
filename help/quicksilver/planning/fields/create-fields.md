@@ -6,22 +6,50 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
+last-update: 2026-04-01T18:23:03.000Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+TQID: https://experienceleague.adobe.com/S5Cb-wdfeCKuogJgIlfVZ-J3rUn0ca0NG1-SSD2SPJA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
+<!--
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
+-->
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
+<!--
+will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? 
+-->
 
-<!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
-
-<!--Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??-->
+<!--
+Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??
+-->
 
 # Create fields
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+-->
 
 {{planning-important-intro}}
 
@@ -57,16 +85,25 @@ For more information about Workfront Planning fields, see [Field overview](/help
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <ul> 
-<li><p>Any Workfront and any Planning package</p></li>
+<li><p>Any Workfront or Workflow with a Planning package</p></li>
 Or
-<li><p>Any Workflow and any Planning package</p></li></ul>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a workspace</p>  
@@ -79,8 +116,9 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++   
 
-<!--Old:
+<!--
 
+Old:
  <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -126,7 +164,7 @@ For more information about Workfront access requirements, see [Access requiremen
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -135,7 +173,8 @@ For more information about Workfront access requirements, see [Access requiremen
    <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Create fields by connecting record types 
 
@@ -143,9 +182,11 @@ You can create linked record fields when you add a new connection between two re
         
 For information about connecting Workfront Planning record types, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 
-<!--## Create fields by importing record types using an Excel or CSV file
+<!--
 
-For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
+## Create fields by importing record types using an Excel or CSV file
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+-->
 
 ## Create fields by creating a record type
 
@@ -166,6 +207,10 @@ You can import fields when you import record types using a CSV or Excel file.
 For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Create fields by importing them from Workfront
+
+>[!IMPORTANT]
+>
+>Creating fields by importing them from Workfront is not available for customers who purchased Planning as a standalone product.
 
 You can import copies of existing Workfront fields. 
 
@@ -232,16 +277,23 @@ For information, see [Import fields from Workfront](/help/quicksilver/planning/f
     * [Created date](#created-date)
     * [Last modified by](#last-modified-by)
     * [Last modified date](#last-modified-date)
+    * [Record ID](#record-id)
+    <!--
     * [Approved date](#approved-date)
     * [Approved by](#approved-by)
-    <!--* [Object](#object-field-type)-->
+    -->
+    <!--
+    * [Object](#object-field-type)
+    -->
     
     >[!IMPORTANT]
     >
     >You cannot change the Field type of the field after you save it. 
 
-    <!--Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
-    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.-->
+    <!--
+    Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
+    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.
+    -->
 
 1. Continue with adding each field, as described in the sections below.
 
@@ -316,7 +368,10 @@ You can use a multi-select field to capture additional information in any format
     Or
 
    Click **Custom** to select a custom color using a color picker or a Hex code. 
-1. Click outside the color box to close it.    
+1. Click outside the color box to close it.   
+    
+1. In the **Default choices** field, select the choices that you want to display in this field by default. You can choose more than one choice. Users can remove the default choices as they update this field.
+
 1. Click **Create**. 
 
     The new multi-select field is added as a column to the record type, and its values can be associated with records. 
@@ -364,6 +419,8 @@ Single-select fields capture additional information in any format by selecting o
 
     Click **Custom** to select a custom color using a color picker or a Hex code. 
 
+1. In the **Default choice** field, select the choice that you want to display in this field by default. You can choose only one choice. Users can remove the default choice as they update this field. 
+
 1. Click outside the color box to close it.
 1. Click **Create**. 
 
@@ -394,22 +451,21 @@ You can use a date field to capture additional information in date and time form
  
 
 1. Add the following information in the **New field** tab:
+     
      * **Name**: The name of the field, as it will appear in a table or the record page. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
-     * **Date Format**: The type of date format you want to display in this field. <!--update this casing - submitted bug for it-->
-        
-        Select from the following formats:
-        * **Locale**: Matches the locale of your browser.
-        * **Standard**: 05/16/2023
-        * **Long**: May 16, 2023
-        * **European**: 16/05/2023
-        * **ISO**: 2023-05-16
-     * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field. 
+     * **Date format**: The type of date format you want to display in this field. <!--update this casing - submitted bug for it-->
+     * Select from the following formats:
+        * **Short**: 6/9/26
+        * **Medium**: Jun 9, 2026
+        * **Long** June 9, 2026
+        * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field. 
     
-        Select from the following options:
-        
+    * Select from the following options:
+    
         * **24hr**: For example: 18:00
         * **12hr**: For example: 6:00 PM
+        * **Show the same time zone to all users**, then select a **Time zone**: Select this if you want to show the same time stamp for all people viewing the field, regardless of their user's time zone. The time zone selected is added to the column header for this field.
 
 1. Click **Create**. 
 
@@ -605,11 +661,13 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
 
 ### People
 
-You can use the People field type to add a user <!--, job role, or team--> to a record. This is a type-ahead field, and you can add only users<!--, roles, or teams--> that already exist in your Workfront instance.
+You can use the People field type to add a user to a record. This is a type-ahead field, and you can add only users<!--, roles, or teams--> that already exist in your Workfront instance.
 
 >[!TIP]
 >
->* When you add the name of a user in a People field, their primary job role <span class="preview">and their email</span> also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email.   
+>* When you add the name of a user in a People field, their primary job role and their email also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email.   
+>
+>* Only users who have been added to the Adobe Admin Console display in People fields. Workfront users do not display when trying to add them in a People field. 
 >
 >* People fields display as a reference (or connection) field type in a request form builder. 
 >
@@ -627,7 +685,17 @@ You can use the People field type to add a user <!--, job role, or team--> to a 
     >[!NOTE]
     >
     >    If you select Allow multiple values, and multiple users are stored on the records the field is attached to, then you can no longer deselect the setting in the future, when editing this field. 
+
+1. In the **Default user** or **Default users** field, select the users that you want to display in this field by default. 
     
+    You can choose more than one user if you also selected the **Allow multiple values** setting. 
+    
+    Users can remove the default users as they update this field.
+
+    >[!TIP]
+    >
+    >Deactivating users chosen as default users in this setting preserves the users's names as the default. It does not remove the deactivated user from the field value and there is no indication to others that the user was deactivated.   
+
 1. Click **Create**.
 
     The new People-type field is added as a column to the record type, and its values can be associated with records.   
@@ -730,6 +798,7 @@ You can use the Last modified date field type to add the date when a record was 
 1. Click **Create**.
 
     The new Last modified date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record was last modified.   
+<!--
 
 ### Approved date
 
@@ -790,6 +859,31 @@ You can use the Approved by field type to add the user who last approved the req
 1. Click **Create**.
 
     The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
+
+-->
+
+## Record ID
+
+You can use the Record ID field type to reveal a system-generated, read-only identifier for each record. 
+
+When created, the Record ID field auto-populates with an alpha-numeric value. You can use it in formula fields and in API integrations to uniquely identify each record. 
+
+You cannot manually modify the value of a Record ID field. 
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Record ID** field type.
+ 
+   ![Record ID field type](assets/record-id-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+    
+1. Click **Create**.
+
+    The new Record ID-type field is added as a column to the record type and its values are prefilled with an alpha-numeric value.  
+
+
 
 <!--
 

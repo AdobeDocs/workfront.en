@@ -6,6 +6,30 @@ description: You can delete issues or requests in Adobe Workfront if you have th
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
+TQID: https://experienceleague.adobe.com/SI4f-h7EqRRAZsaUgDLj-FwXZtZ61YoWy3Q1JDq2J90
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Delete issues
 
@@ -73,6 +97,8 @@ The following objects attached to an issue are also deleted when you delete an i
 
   You cannot delete an issue that has a document which has been checked out attached to it. For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
 
+  You cannot restore individual documents that were deleted when the issue was deleted from the Documents tab in the Recycle Bin. You can only restore the documents deleted when the issue was deleted when you restore the issue.
+
 * Notes
 * Approvals
 
@@ -84,9 +110,9 @@ Depending on how your Workfront or group administrator configures the Project, T
   This also applies when you try to delete projects that have tasks with hours logged on them.
 
   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   
   <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">(this is not possible in classic)</span>
-  </MadCap:conditionalText>
+   
   -->
 
   For more information about configuring the deletion preferences for hours logged on issues, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).

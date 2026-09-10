@@ -7,6 +7,24 @@ description: Your Adobe Workfront administrator must ensure certain conditions a
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/nTDQ-ziswPJQEpm9COvpXo8hMPt-Es3WzskydrjM3DQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Requirements to use Workfront Goals
 
@@ -14,7 +32,13 @@ exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
 
 Your Adobe Workfront administrator must ensure all of the following conditions are met before you can access Adobe Workfront Goals:
 
-* Your organization purchased an Adobe Workfront Goals package in the past. Adobe Workfront Goals is no longer available for purchase.
+* Your organization must have a Workfront Ultimate package. 
+
+  Workfront Goals is not available for Workfront Workflow packages. 
+  
+  Speak with your Workfront account representative if you are currently renewing Workfront and you would like to keep Workfront Goals. 
+
+  If you are a new customer, Workfront Goals is no longer available for purchase. 
 
   For more information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access) in this article.
 
@@ -31,7 +55,7 @@ Your Adobe Workfront administrator must ensure all of the following conditions a
     >By default, users get No Access to goals in their access level.
 
 
-* Assign you Layout Template that includes the Goals area in the Main Menu.
+* Assign you a Layout Template that includes the Goals area in the Main Menu.
 
   >[!NOTE]
   >
@@ -46,19 +70,23 @@ Your Adobe Workfront administrator must ensure all of the following conditions a
 ## Obtain Workfront Goals organization access {#obtain-workfront-goals-organization-access}
 
 The last Adobe Workfront package that included Workfront Goals was Adobe Workfront Ultimate. 
+
 Workfront Goals is no longer available for purchase for newer packages. 
+
 Speak with your account representative to inquire about Workfront Goals. 
 
-<!--Old: >
-Depending on which Workfront plan your company is currently on, the following scenarios exist: 
+<!--
+Old: >
+Depending on which Workfront package your company is currently on, the following scenarios exist: 
 
-* **A new Workfront plan**: You must have an Ultimate Workfront plan. Workfront Goals are included only in this plan. 
+* **A new Workfront package**: You must have an Ultimate Workfront package. Workfront Goals are included only in this plan. 
 
-* **A current Workfront plan**: Your organization must purchase an additional license, in addition to the Workfront license.
+* **A current Workfront package**: Your organization must purchase an additional license, in addition to the Workfront license.
 
   After your organization purchases the additional license, Workfront enables Workfront Goals for your account. For information about purchasing a license for Workfront Goals contact your Workfront account manager.
 
-For information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+For information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Update license types and access level settings  {#update-license-types-and-access-level-settings}
 
@@ -69,7 +97,8 @@ If your company has access to Workfront Goals from a previous purchase, your Wor
     * Contributor or higher
     * Request or higher
 
-<!--Old: 
+<!--
+Old: 
 * **The new access level model**: Your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals: 
 
   * Contributor

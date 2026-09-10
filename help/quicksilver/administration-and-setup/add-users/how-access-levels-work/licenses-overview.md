@@ -10,6 +10,19 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
+TQID: https://experienceleague.adobe.com/3C7cVwQbr8imqQsl3lQGT9u1XCiYAXGwZ3ruPFDqdu0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Licenses overview
 
@@ -29,7 +42,7 @@ Instead of assigning a license to a user, you assign them the access level attac
 
 This table and diagram show the main levels of access to Workfront:
 
-|License|Associated access level|
+|Workflow License|Associated access level|
 |--- |--- |
 |Standard|System Administrator, Standard|
 |Light|Light|
@@ -50,9 +63,9 @@ For more information, see [Access levels overview](/help/quicksilver/administrat
 
 ## License count
 
-When you assign an access level to a user, your available license count is reduced by 1.
+When you assign an access level associated with a license to a user, your available license count is reduced by 1.
 
-For example, if you assign the Standard access level to a user, your number of available Standard licenses is reduced by 1.
+For example, if you assign the Standard access level associated with a Workflow license of Standard to a user, your number of available Standard licenses is reduced by 1.
 
 You can view the licenses and access levels assigned to your users. For more information, see [List your users' access levels and licenses](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
 

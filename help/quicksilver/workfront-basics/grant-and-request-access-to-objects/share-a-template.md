@@ -6,10 +6,23 @@ description: As an Adobe Workfront administrator, you can grant users access to 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
+TQID: https://experienceleague.adobe.com/UdZkAKoT2k4LGePdElrTm1IlstQ1ayWesarebExA41E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Share a template
 
-As an Adobe Workfront administrator, you can grant users access to view or edit templates when you assign their access level. A user must have a Plan license to have access to Edit templates.
+As an Adobe Workfront administrator, you can grant users access to view or edit templates when you assign their access level. A user must have a Standard or Plan license to have access to Edit templates.
 
 For more information about granting access to templates, see [Grant access to templates](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
 
@@ -141,6 +154,36 @@ The following table displays what permissions you can grant users when allowing 
    <td>  </td> 
    <td>✓</td> 
   </tr> 
+  <tr> 
+   <td>View billing rates</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>View cost rates</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>View general finance</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Edit billing rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td>Edit cost rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr>
+  <tr> 
+   <td>Edit general finance</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr>
   <tr data-mc-conditions=""> 
    <td> <p>Add Documents</p> <p>Tip: Sometimes people add documents to a project template thinking that they're adding them to a project. You can prevent this for your recipients by disabling this setting.</p> </td> 
    <td>  </td> 

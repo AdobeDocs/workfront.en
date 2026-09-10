@@ -5,13 +5,34 @@ title: Install [!DNL Adobe Workfront] for [!DNL Jira]
 description: You can use [!DNL Adobe Workfront] for [!DNL Jira] to integrate your [!DNL Jira] and [!DNL Workfront] systems.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/oT8E-mg5qtw1pnTJ4sXuck6-Pf9QJDWJw-YxtbMomZY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: b8ea32d4-f1fe-4c71-8871-afe5a702a009
+    internal-label: Adobe Workfront for Jira
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Install [!DNL Adobe Workfront for Jira]
 
 >[!IMPORTANT]
 >
->To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Jira integration will not be available after **February 28, 2026**. 
+>To deliver more stable and scalable integrations, we've shifted to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Jira integration **is no longer available**. 
 >
 >We recommend using Workfront Automation and Integration for your organization's integration needs with Jira. 
 >
@@ -34,6 +55,8 @@ exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
 >For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
+
+<!--
 
 You can use [!DNL Adobe Workfront for Jira] to integrate your [!DNL Jira] and [!DNL Workfront] systems.
 
@@ -126,3 +149,5 @@ Although installing the [!DNL Workfront] add-on in the two [!DNL Jira] environme
    `18.205.251.4`
 
    For more information about configuring your firewall for optimal functionality with [!DNL Workfront], see [Configuring Your Firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+
+-->

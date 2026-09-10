@@ -5,6 +5,13 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 35e5309a-ad8d-44f0-af84-6070c20d06e1
+TQID: https://experienceleague.adobe.com/x7PmIGv1NMgZwUnPEs33hFwG1G79Qb2q7a9o6zEIDvg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Second Quarter 2025 Mobile enhancements
 

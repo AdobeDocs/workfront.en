@@ -8,10 +8,32 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/ZZMeRwrZeWgY8HVIHhp9aX-1wi64DCdiZgHsoNkP8ZI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Manage API keys
 
-<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
+<!--
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
 
 
@@ -97,6 +119,10 @@ You can generate, reset, or remove the API Key for your administrator user accou
 
    To remove the API Key: In the **API Key Settings** section, click **Remove**, then **Remove**. 
 
+<!--
+
+   Remove me October 2026
+
 ## Generate an API Key for Non-Admin Users
 
 You can generate and manage API Keys for users in roles other than Workfront administrator.
@@ -130,6 +156,8 @@ You can generate and manage API Keys for users in roles other than Workfront adm
    
    1. Select your SSO method in the **Type** drop down menu.
    1. Check the checkbox requiring SSO authentication.
+
+   -->
 
 ## Configure when API keys expire
 
@@ -166,13 +194,17 @@ If you are concerned about a particular security breach regarding your Workfront
 
 1. In the **API Key Settings** area, click **Remove all API keys**, then click **Remove** **All**.
 
+<!--
+
+Remove me October 2026
+
 ## Restricting API logins with an X.509 certificate
 
 >[!IMPORTANT]
 >
 >The procedure described in this section applies only to organizations that have not yet been onboarded to the Adobe Business Platform. Logging in to Workfront through the Workfront API is not available if your organization has been onboarded to the Adobe Business Platform.
 >
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >
@@ -220,3 +252,5 @@ Prior to configuring your instance of Workfront to require an X.509 certificate,
 After making the X.509 certificate a requirement via the customer info page in your instance of Workfront, make another login attempt. This time you will receive a 500 error response with the following message: "Untrusted request. Please contact your system administrator and attach certificate."
 
 After confirming that the X.509 certificate is required, perform the same login request with an additional parameter for apiCertificate set to the value of your certificate. If this operation was performed correctly you will receive a 200 response that contains a valid sessionID.
+
+-->

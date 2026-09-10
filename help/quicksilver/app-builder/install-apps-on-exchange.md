@@ -4,6 +4,19 @@ description: Workfront UI Extensions, powered by Adobe App Builder, allow custom
 author: Courtney
 feature: Digital Content and Documents
 exl-id: acbbd926-ca8f-4374-b1b3-297292b173bc
+TQID: https://experienceleague.adobe.com/Z48mL2K8rZ6YkPNAvfc3bnGNqjwpttBdwIgMECGzuxg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
 ---
 # Acquire and install apps from Adobe Exchange
 

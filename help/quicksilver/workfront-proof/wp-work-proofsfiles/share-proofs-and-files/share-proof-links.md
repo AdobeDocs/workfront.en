@@ -7,6 +7,13 @@ description: You can email the Proof URL and the Download URL for a proof to any
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: aa3fd399-6381-4118-a64a-a331784b4854
+TQID: https://experienceleague.adobe.com/Atbe7oIceQ6Rk0WKQjeFd1lgSWwR4gfPs18K1Q0qIzA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Share proof links in [!DNL Workfront Proof]
 

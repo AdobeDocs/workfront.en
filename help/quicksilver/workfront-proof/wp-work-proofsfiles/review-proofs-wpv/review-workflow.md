@@ -7,6 +7,13 @@ description: The Workflow panel displays the workflow of your proof as it appear
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4e6736bb-2859-4309-841b-67ed83dab6a0
+TQID: https://experienceleague.adobe.com/npnr8trMiVQ-Hv4I-cMCgQIaNbefbT8m4Yq8G7-SMc4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Review a Workflow in the proofing viewer
 

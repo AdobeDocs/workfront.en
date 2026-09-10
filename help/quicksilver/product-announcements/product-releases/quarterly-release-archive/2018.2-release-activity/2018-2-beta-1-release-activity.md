@@ -7,6 +7,18 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: cbe98ee2-f155-4d31-88c4-7f41b6f91eb2
+TQID: https://experienceleague.adobe.com/H5f7NknmUezFvDKRQJy4eDhvsnZIBjdyeneCqPh5Ico
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # 2018.2 Beta 1 release activity
 

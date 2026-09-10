@@ -9,6 +9,21 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/GCYA2gCPqH7WMG7n3Whi0VOzyzeZ-zz9mcezSVVfPbs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create and manage layout templates
 
@@ -26,7 +41,8 @@ As an Adobe Workfront administrator or a group administrator, you can create and
 * Summary panel
 * Views, filters, and groupings people use with lists and reports.
 * On-screen terminology
-* Project, task, and issue headers
+* Object headers
+* More menu (three-dot menu) for an object
 
 After you create or modify a layout template, you can assign it to individual users, teams, groups, or job roles.
 
@@ -65,14 +81,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 ## Considerations for creating and managing layout templates
 
 * Users can customize a few areas of their own layout. When you change a layout template, your changes merge with any customizations they have made, without overwriting or resetting them. This is also true if you assign users to a new layout template.
-* Group administrators and users with a Plan license who can edit other users can add system-level and group-level layout templates to the users they can manage when editing their profile.
+* Group administrators and users with a Standard or Plan license who can edit other users can add system-level and group-level layout templates to the users they can manage when editing their profile.
 * Group administrators cannot assign layout templates to job roles or teams.
 
 For more information about layout templates, see [Layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
-
-<!--removed this from above, but keeping it for a bit, in case it will be needed - known issue around old templates still visible at time:
-* Your older layout templates created in Adobe Workfront Classic have been automatically available in your instance of the new Adobe Workfront experience since they were migrated in early Fall 2019. Layout templates created in Adobe Workfront Classic after that time were migrated in April 2020. We recommend that you update these layout templates in the new Adobe Workfront experience to take advantage of new functionality and to make them even more useful in that environment.
--->
 
 ## Create or modify a layout template
 
@@ -90,14 +102,15 @@ For more information about layout templates, see [Layout templates](../../../adm
 
 1. Customize areas of the user interface, as described in the following articles:
 
-   * [Customize the Main Menu using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) 
-   * [Customize the left panel using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) 
+   * [Customize the Main Menu using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
+   * [Customize the left panel using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
+   * [Customize the More menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-more-menu.md)
    * [Customize pinned pages using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md) 
-   * [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md) 
-   * [Customize the Summary panel using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) 
+   * [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
+   * [Customize the Summary panel using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    * [Customize Home using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
-   * [Customize the landing page using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) 
-   * [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
+   * [Customize the landing page using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
+   * [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [Customize user interface terminology using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
 
 1. Continue to test your layout template and make it available to users, as described in the articles below:
@@ -108,5 +121,5 @@ For more information about layout templates, see [Layout templates](../../../adm
 
 >[!TIP]
 >
->You can also create a layout template by copying it and changing the copy. For more information, see [Copy a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+>You can also create a layout template by copying it and changing the copied version. For more information, see [Copy a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
 

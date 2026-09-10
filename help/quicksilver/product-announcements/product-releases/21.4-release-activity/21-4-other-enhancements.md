@@ -6,6 +6,13 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7afff4ec-a296-483c-819f-84932b6da4d8
+TQID: https://experienceleague.adobe.com/AzWZ6ApnTZv2pTlQKuzkwvQ52JLWMwz7hi5lIMWm9qk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # 21.4 Other enhancements
 

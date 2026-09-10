@@ -8,6 +8,16 @@ description: The permission profiles available in [!DNL Adobe] Workfront for pro
 feature: Get Started with Workfront
 auhor: Courtney
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
+TQID: https://experienceleague.adobe.com/JIdpxOQhSJGhnwl8iqZgeJ8esHq-Bb8x8HJuEJysxRI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # [!UICONTROL [!DNL Workfront] Proof Manager] permissions troubleshooting
 

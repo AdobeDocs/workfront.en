@@ -2,11 +2,31 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: 'Duration Type Overview: Calculated Work'
+title: "Duration Type Overview: Calculated Work"
 description: Calculated Work is a Duration Type that you can set for a task in Adobe Workfront. For general information about Duration Types in Workfront, see Overview of Task Duration and Duration Type.
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
+TQID: https://experienceleague.adobe.com/0gWFiCrvR2swVTt4Khio-PqL6xY97bouz-i88z-XQeE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Duration Type overview: Calculated Work
 

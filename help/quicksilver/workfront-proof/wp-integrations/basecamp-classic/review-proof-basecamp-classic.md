@@ -7,6 +7,16 @@ description: Basecamp is an online project management tool developed by 37signal
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b14f33dc-e059-4ee2-a429-9f1852a2b9bb
+TQID: https://experienceleague.adobe.com/H4oPVQW1kV-6efM04x0lIa1mUOrGfskjfcSVo8t8O2I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Review a Proof in [!DNL Basecamp] Classic
 

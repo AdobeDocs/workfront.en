@@ -9,6 +9,26 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
+TQID: https://experienceleague.adobe.com/R6F5ULNqGlQBbYQMh4Huh6Vcu7ZgXG6EgzQf42iZmdA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Access to objects and areas by licenses
 
@@ -99,6 +119,13 @@ The table below tells you the highest level of access (Edit or View) that each o
         <td>View</td>
     </tr>
     <tr>
+        <td>Job Roles</td>
+        <td>Edit</td>
+        <td>View</td>
+        <td>View</td>
+        <td>No access</td>
+    </tr>
+    <tr>
         <td>Teams</td>
         <td>Edit</td>
         <td>View</td>
@@ -128,6 +155,13 @@ The table below tells you the highest level of access (Edit or View) that each o
     </tr>
     <tr>
         <td>Scenario Planner</td>
+        <td>Edit</td>
+        <td>View</td>
+        <td>No access</td>
+        <td>No access</td>
+    </tr>
+    <tr>
+        <td>Rate Cards</td>
         <td>Edit</td>
         <td>View</td>
         <td>No access</td>
@@ -170,4 +204,5 @@ You can find detailed information about what the access levels allow for each ob
 * [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) 
 * [Grant access to Resource Management](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md) 
 * [Grant access to Scenario Planner](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) 
+* [Grant access to rate cards](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
 * [Grant access to Adobe Workfront Goals](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)

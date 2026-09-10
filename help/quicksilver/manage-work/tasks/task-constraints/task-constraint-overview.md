@@ -7,6 +7,28 @@ description: Task constraints determine when a task should start and end on a pr
 author: Alina
 feature: Work Management
 exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
+TQID: https://experienceleague.adobe.com/R38RC6-vr-nRp4R7W4WDdJk2KkAuegb6yOfmNLdn7Dc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Task Constraint overview
 
@@ -18,6 +40,8 @@ Task constraints determine when a task should start and end on a project.
 
 As you build your project plan, you make decisions on the sequence and time frame of your tasks on the project. Tasks can function independently of any task sequence but they might impact the project timeline. Task Constraints allow a project manager to plan when certain tasks can start or complete on a project.
 
+Task constraints apply identically to project tasks and template tasks. 
+
 Depending on the constraint you use, you might have to specify a Planned Start Date, a Planned Completion Date, or both for the task.
 
 Constraint types that require defined dates impact predecessor relationships.
@@ -26,7 +50,9 @@ Constraint types that require defined dates impact predecessor relationships.
 >
 >Consider using a constraint type that does not require specific dates if you are using predecessor relationships between tasks.
 
-The following table displays each constraint and its abbreviation. Abbreviations are used on task lists and when creating Kick-Start import files. Click the linked title of each task constraint for more information about that type of constraint.
+The following table displays each constraint and its abbreviation. 
+
+Abbreviations are used on task lists and when creating Kick-Start import files. Click the linked title of each task constraint for more information about that type of constraint.
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 

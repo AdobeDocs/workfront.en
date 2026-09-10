@@ -5,19 +5,42 @@ title: Submit [!DNL Adobe Workfront] requests from [!DNL Salesforce] objects
 description: After installing [!DNL Adobe Workfront] for [!DNL Salesforce], you can submit [!DNL Workfront] requests from [!DNL Salesforce] Opportunities and Accounts. This functionality exists in both the Classic and Lightning Experience frameworks.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/LrL186SHwcVbif4cM9gYK6RzMzu4C3x2RigeVBGoOZs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: f1b6c8ba-53d0-432b-b0f4-64800d4b376e
+    internal-label: Adobe Workfront for Salesforce
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Submit [!DNL Adobe Workfront] requests from [!DNL Salesforce] objects
 
 >[!IMPORTANT]
 >
->To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Salesforce integration will not be available after **February 28, 2026**. 
+>To deliver more stable and scalable integrations, we've shifted to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Salesforce integration **is no longer available**. 
 >
 >We recommend using Workfront Automation and Integration for your organization's integration needs with Salesforce. 
 >
 >For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
 >For information about the specific capabilities of the Workfront Automation and Integration modules for Salesforce, see [Salesforce modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules). 
+
+<!--
 
 After installing [!DNL Adobe Workfront for Salesforce], you can submit [!DNL Workfront] requests from [!DNL Salesforce] Opportunities and Accounts. This functionality exists in both the [!DNL Classic] and [!DNL Lightning Experience] frameworks.
 
@@ -120,3 +143,5 @@ To submit a [!DNL Workfront] request from a [!DNL Salesforce] Opportunity or Acc
    >[!NOTE]
    >
    >The [!UICONTROL Go to Salesforce] link is visible to all [!DNL Workfront] users who can view the issue. You must have a [!DNL Salesforce] account to be able to go to the [!DNL Salesforce] Opportunity or Account where the issue was logged.
+
+   -->

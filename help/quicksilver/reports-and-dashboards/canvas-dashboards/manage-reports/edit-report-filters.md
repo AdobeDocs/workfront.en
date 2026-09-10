@@ -3,9 +3,26 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Edit report filters in a Canvas Dashboard
 description: You can edit report filters after they've been applied to a Canvas Dashboard.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5205c342-7f63-438e-97c8-e74f7dfecfd0
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/IICvipFI1uZkMpwcdiFM9K9pweav2TL8zu-GdDB73bU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Edit report filters in a Canvas Dashboard
 
@@ -172,6 +189,18 @@ Available relationships for additional columns, filter options, and grouping att
 * Document Approval Stages > Document Approval Stage Participants 
 
 When utilizing any of the parent-to-child relationships listed above, you will see a row in the table for each child record connected to the parent object.  
+
+### Exclude personal projects, tasks, and bot users from Canvas Dashboards reports
+
+>[!NOTE]
+>
+>If a Canvas Dashboards report returns more results than you expect compared to a similar classic report, personal projects, personal tasks, or bot users may be included by default. Add a filter condition to exclude them.
+
+In Canvas Dashboards Project and Task reports, the `isPersonal` filter is not automatically applied, so personal projects and personal tasks are included in the results by default. To exclude them, add a filter condition such as `isPersonal=false`.
+
+Similarly, Canvas Dashboards User reports include all users by default, including AI Collaborators (bot users). To exclude bot users, add a filter condition such as `isBot=false`.
+
+Classic Project and Task reports automatically exclude personal projects and personal tasks, and classic User reports automatically exclude bot users. To include them in a classic report instead, add a filter condition such as `isPersonal=true` (personal items only) or `isPersonal_Mod=notnull` (personal and non-personal items).
 
 ### Field operators by field type
 

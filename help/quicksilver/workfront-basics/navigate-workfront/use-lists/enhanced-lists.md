@@ -1,10 +1,28 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Use Enhanced Lists
-description: Enhanced lists use a table format for displaying the list items, and they have a different look and feel than the standard lists
+description: Enhanced lists use a table format for displaying the list items, and they have a different look and feel than the standard lists.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Use enhanced lists
 
@@ -53,11 +71,36 @@ Below are some types of Workfront object lists that use the enhanced list format
 
 | Workfront list | Location of object list |
 | --- | --- |
-| Priorities | <ul><li>Home &gt; select the Priorities icon in the left menu</li><li>Main Menu &gt; Priorities</li></ul> |
+| Priorities | <ul><li>Home &gt; select the Priorities icon in the left menu</li><li>Main Menu > Priorities</li></ul> |
 | List of requests | <ul><li>Requests (new experience only)</li><li>My Requests widget on Home</li></ul> |
-| Lists of statuses, priorities, severities, and exchange rates in Setup | <ul><li>Setup &gt; Project Preferences &gt; Statuses</li><li>Setup &gt; Project Preferences &gt; Priorities</li><li>Setup &gt; Project Preferences &gt; Severities</li><li>Setup &gt; Project Preferences &gt; Exchange Rates</li></ul> |
+| Lists of statuses, priorities, severities, <span class="preview">conditions</span>, and exchange rates in Setup | <ul><li>Setup > Project Preferences > Statuses</li><li>Setup > Project Preferences > Priorities</li><li>Setup > Project Preferences > Severities</li><li><span class="preview">Setup > Project Preferences > Conditions</span></li><li>Setup > Project Preferences > Exchange Rates</li></ul> |
+| <span class="preview">Lists of actions and tracked fields in the Update Feeds</span> | <ul><li><span class="preview">Setup > Interface > Update Feeds > Tracked fields tab</span></li> <li><span class="preview">Setup > Interface > Update Feeds > Actions tab</span></li></ul> |
+| <span class="preview">List of scorecards</span> | <span class="preview">Setup > Scorecards</span> |
+| <span class="preview">List of risk types</span> | <span class="preview">Setup > Risk Types</span> |
+| List of job roles and rates on a rate card | Setup > Rate Cards > select a rate card > Job Roles and Rates |
+| <span class="preview">List of locations</span> | <span class="preview">Setup > Locations</span> |
+| List of translations | Setup > Localization |
+| <span class="preview">Lists of integrations </span> | <ul><li><span class="preview">Setup > Documents > SharePoint Integration</span></li><li><span class="preview">Setup > Documents > Custom Integration</span></li></ul> |
+| List of reports | Reports (**Use shareable folders** must be turned on) |
+| List of snapshots | Project > Snapshots |
+| List of resources for billing | Project > Resource for Billing |
+| New Advanced Assignments on a task | Task > Assignments > Advanced |
+| <span class="preview">All versions view of a document</span> | <span class="preview">Project > Documents > Document Details > All Versions</span> |
+| Boards Admin View | Boards > Admin View |
+| Documents on Adobe cloud storage | Project, task, issue, portfolio, program, template, template task > Documents |
+| <span class="preview">Lists of scenario plans and initiatives</span> | <span class="preview">Main Menu > Scenarios</span> |
 
-<!--|<span class="preview">List of reports</span> | <span class="preview">Main Menu &gt; Reports</span> <p><span class="preview">The enhanced list format is only applied when **Use shareable folders** is turned on. For information, see [Use shareable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).</span> |-->
+<!--
+
+Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documents > Experience Manager Assets</span></li>
+
+Under Locations?
+| <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
+Last, under Scenario Planner
+| <span class="preview">Lists of goals and progress indicators</span> | <ul><li><span class="preview">Main Menu > Goals</span></li><li><span class="preview">Main Menu > Goals > Progress Indicators</span></li></ul> |
+
+-->
 
 ## Add items to an enhanced list
 
@@ -71,20 +114,28 @@ Depending on which enhanced list you are viewing, do one of the following:
 
    Enhanced lists support these field types:
 
-   * Text
-   * Number
-   * Currency
-   * Date
-   * Date and time
-   * Single/multi select dropdowns
-   * Typeahead
-   * Paragraph
-   * Assignee (one or multiple)
-   * Color picker
+   * Single-line text: You can enter limited alphanumeric information.
+   * Number: You must enter information in a number format.
+   * Currency: You must enter information in a number format preceded by a currency symbol.
+   * Date: Use the calendar to select a date.
+   * Date and time: Use the calendar to select a date and time.
+   * Single- or multi-select drop-down: Select one or multiple options from a drop-down menu. If supported on a list, you can create new options directly from the drop-down when no results are found.
+   * Typeahead: Type the name of an existing object (for example, the name of a group or a project) and choose the name from the list of suggestions.
+   * Paragraph: You can enter multiple lines of alphanumeric information.
+   * Assignee (one or multiple): Select one or more users as the assignee for the list item.
+   * Color picker: Choose a color from the picker, or type a code such as a Hex or RGB.
+   
+   The Assignee, Single-select drop-down, and Multi-select drop-down fields support the following keyboard commands:
+
+   * Use the up and down arrows on your keyboard to move through the list of items.
+   * Press the space bar to select an item.
+   * Press the Delete key to remove a selected item.
 
    >[!NOTE]
    >
    >Each field type has its own editing options. Some fields might be read-only.
+   >
+   >Note that not all lists support all field types.
 
 ![Enhanced list example](assets/glist-exchange-rates.png)
 
@@ -105,6 +156,9 @@ You can use the action bar in an enhanced list to edit items in the list. Not al
    * View
    * Edit
    * Delete
+   * Copy
+   * Move to folder
+   * Share
 
    If no actions are available for the selected item, the action bar displays "No available actions."
 
@@ -124,9 +178,16 @@ Depending on which objects you are viewing in an enhanced list, you can hide, sh
 
 1. Click **Columns** above the list.
 
+   Sample image in the Production environment:
    ![Display columns example](assets/glist-display-move-columns.png)
 
+   <span class="preview">Sample image in the Preview environment:</span>
+   ![Display columns example](assets/display-columns-090126.png)
+
 1. Use the toggles to display or hide columns in the list.
+
+   <span class="preview">You can search for a column in the search box.</span>
+
 1. To reorder the columns, click the **Drag** icon ![Drag icon](assets/drag-icon.png) and move a column to your desired location. Moving columns changes the list automatically.
 
    >[!NOTE]
@@ -138,6 +199,8 @@ Depending on which objects you are viewing in an enhanced list, you can hide, sh
    An indicator appears on the **Columns** button when columns are hidden. The indicator does not appear when you reorder columns.
 
    ![Indicator for hidden columns](assets/glist-columns-hidden-indicator.png)
+
+   Some lists also allow you to drag and drop the columns themselves into the preferred order.
 
 ### Rename columns
 
@@ -151,7 +214,7 @@ Some columns allow you to save a customized name for the column title.
 
    The new column name appears on the list.
 
-## Add and remove columns with the Column manager
+### Add and remove columns with the Column manager
 
 You can use the **Column manager** in some enhanced lists to easily add and remove columns on the list. You can add or remove both system and custom fields that already exist in Workfront as columns to an enhanced list.
 
@@ -167,21 +230,46 @@ To add and remove columns:
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
+1. <span class="preview">(Optional) To reorder the columns, hover over a column name in the **Selected** section and click the **Drag** icon ![Drag icon](assets/drag-icon.png). Move the columns vertically to place them in order.</span>
 1. Click **Save**.
 
    ![Column manager](assets/glist-column-manager.png)
 
    The list updates the columns according to the choices you made.
 
+## Customize rows
+
+>[!NOTE]
+>
+>Not all enhanced lists have all the elements described in this section.
+
+To change the row height in a view:
+
+1. Click the **Row height** icon ![Row height icon](assets/row-height-icon.png) in an enhanced list. 
+
+   This updates the vertical length of a row. Choose from the following options: 
+      * Short
+      * Standard. This is the default choice. 
+      * Medium
+      * Tall
+
+To change the order of rows:
+
+1. Drag and drop rows into your preferred order.
+
+   >[!NOTE]
+   >
+   >If you have a sort applied, you cannot change the row order manually.
+
 ## Update enhanced list elements
 
 The following elements are components of an enhanced list: 
 
-* View: Defines the columns, filters, and groupings in the list with preset settings
-* Filters: Limits the amount of information displayed in the list
-* Groupings: Organize the list items according to common fields
-* Sort: Arranges the items in a list according to the order you identify for a given field
-* Search: Quickly finds an item using a search keyword
+* **View**: Defines the columns, filters, and groupings in the list with preset settings
+* **Filters**: Limits the amount of information displayed in the list
+* **Groupings**: Organize the list items according to common fields
+* **Sort**: Arranges the items in a list according to the order you identify for a given field
+* **Search**: Quickly finds an item using a search keyword
 
 ### Apply and create views
 
@@ -203,100 +291,6 @@ To apply or create a view:
 1. (Optional) Group the items in the list. For more information, see [Group items in an enhanced list](#group-items-in-an-enhanced-list).
 
    Changes to views are saved automatically. The next time you apply this view, the column and filter settings remain the way you set them.
-
-### Filter items in an enhanced list
-
->[!NOTE]
->
->Not all enhanced lists have all the elements described in this section.
-
-Filters help you reduce the amount of information you display in the list.
-
-1. Click **Filter** above the list.
-1. In the Filter box, click **Add condition**.
-1. Select a field to filter by.
-1. Select a filter modifier, such as "Has any of," "Has none of," "Is before," or "Is after." The modifier options are different depending on the type of field you are filtering by.
-1. Select the field value or values. Depending on the field type you are filtering by, you might be prompted to select the item from a list, search for it, or use a calendar to select a date range.
-    
-   ![Filter in enhanced lists](assets/glist-filter-with-options.png)
-
-   The filter is applied to the list automatically.
-
-   >[!TIP]
-   >
-   >To apply a current user wildcard, select **Me (logged in user)** as the field value. The filter will then apply to the user who is viewing the list. This wildcard is available in fields where the value is a user.
-
-1. Click **Add condition** to add another condition to the filter.
-
-   You can join multiple filters by an AND or an OR connector.
-
-1. When the filter is applied, you can open the **Filter** options again to change the filter options or clear all of the filters.
-
-   An indicator appears on the **Filter** button when a filter is applied to the list.
-
-   ![Filter applied indicator](assets/glist-filter-applied-indicator.png)
-
-### Group items in an enhanced list
-
->[!NOTE]
->
->Not all enhanced lists have all the elements described in this section.
-
-Groupings separate the objects on the list into areas based on specific criteria.
-
-Workfront provides a limited number of predefined groupings and you cannot modify them.
-
-1. Click **Group** above the list.
-1. Select a grouping to organize your list.
-
-   ![Select a grouping](assets/glist-grouping-choose-a-group-by.png)
-
-1. Click **Collapse all** to display the list with all the groupings collapsed. The default option is to display the list with all groupings expanded.
-1. When the grouping is applied, you can open the Group options again to collapse or expand all of the groupings at once, change the grouping to group by a different field, or clear all of the groupings.
-
-   ![Grouping in enhanced lists](assets/glist-group-by-due-date-priorities.png)
-
-   An indicator appears on the **Group** button when a grouping is applied to the list.
-
-   ![Grouping applied indicator](assets/glist-grouping-applied-indicator.png)
-
-### Sort in an enhanced list
-
->[!NOTE]
->
->Not all enhanced lists have all the elements described in this section.
-
-To sort individual columns:
-
-1. Hover over the column, then click the down arrow and select **Sort**.
-
-   An icon next to a column name indicates that the list is sorted by the values in that column, and the direction of the sort.
-
-   >[!NOTE]
-   >
-   >Some columns might not be sortable, depending on the list.
-
-   ![Sort by a column](assets/glist-sort-by-column.png)
-
-To sort your work within a grouping:
-
-1. Click **Group**, go to the line of the applied grouping, click on the sorter dropdown, and select an ascending or descending order.
-
-   ![Sort in a grouping](assets/sort-in-groups.png)
-
-### Search in an enhanced list
-
->[!NOTE]
->
->Not all enhanced lists have all the elements described in this section.
-
-1. type a keyword you want search by in the Search box in the upper-right corner of the list. The results are highlighted in the list as you type.
-
-   ![Search term highlighted](assets/glist-search-highlighted.png)
-
-   >[!NOTE]
-   >
-   >The search looks at all columns in all list items. If the list is long, the search includes items that you may need to scroll to see. When the list is filtered, the search only looks at what is currently displayed.
 
 ### Share a view
 
@@ -321,17 +315,15 @@ To share a view:
 
    * **View**: Users can apply the view to the list but not share it.
      
-     <span class="preview">When View access users update the view, those changes are saved to the user's personal preferences. A blue dot on the view name (in the user's **Shared Views**) shows that personal updates are applied to the view.</span>
+     When View access users update the view, those changes are saved to the user's personal preferences. A blue dot on the view name (in the user's **Shared Views**) shows that personal updates are applied to the view.
 
    * **Manage**: Users can rename, share, or delete the view, and edit the view's elements.
 
-      <span class="preview">When Manage access users make changes to the view, all users who have the view shared with them will see those updates when the view is applied to the list.</span>
+      When Manage access users make changes to the view, all users who have the view shared with them will see those updates when the view is applied to the list.
 
 1. Click **Save**.
 
-   <span class="preview">If you share a view with a user and then remove that access, the view is removed from the user's **Shared Views**. If the user had the shared view applied to the list when their access is removed, then the system default view is applied.</span>
-
-<div class="preview">
+   If you share a view with a user and then remove that access, the view is removed from the user's **Shared Views**. If the user had the shared view applied to the list when their access is removed, then the system default view is applied.
 
 ### Copy a view
 
@@ -339,21 +331,17 @@ To share a view:
 >
 >Not all enhanced lists have all the elements described in this section.
 
-When a view is shared with you that you do not have permission to edit, you can copy the view and save it with a new name. You must first make changes to the view before you can copy it.
+When a view is shared with you to which you do not have permission to edit, you can copy the view and save it with a new name. You must first make changes to the view before you can copy it.
 
-1. In the Views dropdown, hover over the view in **Shared Views** that you want to copy, click the **More** menu ![More menu](assets/more-icon.png), and click **Copy with preferences**.
+1. In the Views dropdown, hover over the view in **Shared Views** that you modified the settings of and which want to copy, click the **More** menu ![More menu](assets/more-icon.png), and click **Copy with preferences**.
 
-   A new view is created automatically. It uses the original view name with (copy) at the end, and it appears in the **My Views** section of views.
+   A new view is created automatically. The name of the copied view follows the following pattern: `Original view name (copy)`and it displays in the **My Views** section of views.
    
-   You are the owner of this view, and you can rename, edit, share, or delete it. If the owner of the original view removes your shared access to that view, you still have access to this view that you created.
+   You are the owner of this view, and you can rename, edit, share, or delete it. If the owner of the original view removes your shared access to that view, you still have access to the view that you created by copying the shared original.
 
    >[!NOTE]
    >
    >The **Copy with preferences** option is only available when you have made changes to a view that was shared with you.
-
-</div>
-
-<div class="preview">
 
 ### Reset a view
 
@@ -373,4 +361,156 @@ When a view is shared with you that you do not have permission to edit, and you 
 
    ![Copy and reset a view options](assets/glist-copy-view-shared-with-you.png)
 
-</div>
+### Apply conditional formatting in a view
+
+>[!NOTE]
+>
+>Not all enhanced lists have all the elements described in this section.
+
+Conditional formatting helps you highlight important information in the view based on common criteria. 
+
+1. Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens.
+
+1. Click **Add condition**.
+1. In the **If** line, select  a field and choose a field value and add a modifier. Modifiers change, depending on the field type you choose. 
+
+   >[!TIP]
+   >
+   >Only fields visible in the enhanced list are available for conditional formatting.
+
+1. (Optional) Instead of adding a field value, click the **Compare to another field** icon ![Compare to another field](assets/compare-to-another-field-icon.png) and choose a field whose value you want to compare to the value of your selected field. For example, you can compare the Subject and Description fields on request items.  
+
+   >[!TIP]
+   >
+   >Only fields visible in the list view are available for conditional formatting. The fields you compare must be of the same type. 
+
+1. (Optional) Click **Add condition** in the **If** line to add more conditions to the same rule.
+
+   >[!TIP]
+   >
+   >You can add up to 10 conditions in a conditioning rule and you can have up to 20 rules for a field.
+
+1. Click the **Or** connector between conditions to change to **And** and to indicate that multiple conditions must be met at the same time. **Or** is the default connector. 
+1. In the **Format** line, select a field to indicate which column will be formatted. 
+1. (Optional) Click the **color circle** icon ![Color format icon](assets/color-format-icon.png) next to the field selected, to expand it and choose another color in the **Cell fill** area to change the color of the background in a cell or pick a color from the **Text color** area to change the color of text in a cell.
+1. Click the **Text format** icon ![Text format icon](assets/text-format-icon.png) and select from the following options to format the text in a cell:
+   * Bold
+   * Italic
+
+1. Turn on the **Apply to row** setting to apply the formatting to the entire row of the field that meets the conditions.
+
+1. (Optional) Click **Add condition** in the **Format** box to add another rule for another field and the repeat the steps above.
+1. (Optional) Click **Clear all** to remove all formatting.
+1. Click outside the **Format** box to close it.
+
+   This returns you to the list view.
+   The formatting is applied immediately to the list view.
+   There is a blue dot next to the **Format cells** icon to indicate that the view has special formatting applied.
+
+### Filter items in an enhanced list
+
+>[!NOTE]
+>
+>Not all enhanced lists have all the elements described in this section.
+
+Filters help you reduce the amount of information you display in the list.
+
+1. Click **Filter** above the list.
+1. In the Filter box, click **Add condition**.
+1. Select a field to filter by.
+1. Select a filter modifier, such as "Has any of," "Has none of," "Is before," or "Is after." The modifier options are different depending on the type of field you are filtering by.
+1. Select the field value or values. Depending on the field type you are filtering by, you might be prompted to select the item from a list, search for it, or use a calendar to select a date range.
+    
+   ![Filter in enhanced lists](assets/glist-filter-with-options.png)
+
+   The filter is applied to the list automatically.
+
+   >[!TIP]
+   >
+   >To apply a personalized filter, select one of the following options for a field value:
+   >
+   >* **Me (logged in user)** to refer to the logged in user in fields referring to users. 
+   >
+   >* **My teams** or **My home team** to refer to your teams in fields referring to teams. 
+   >
+   >* **My groups** or **My home group** to refer to your groups in fields referring to groups.
+   >
+   >* **My company** to refer to your company in fields referring to companies.
+   > 
+   >* **My roles** or **My primary role** to refer to your job roles in fields referring to roles.
+
+1. Click **Add condition** to add another condition to the filter.
+
+   You can join multiple filters by an AND or an OR connector.
+
+1. When the filter is applied, you can open the **Filter** options again to change the filter options or clear all of the filters.
+
+   An indicator appears on the **Filter** button when a filter is applied to the list.
+
+   ![Filter applied indicator](assets/glist-filter-applied-indicator.png)
+
+### Group items in an enhanced list
+
+>[!NOTE]
+>
+>Not all enhanced lists have all the elements described in this section.
+
+Groupings separate the objects on the list into areas based on specific criteria.
+
+Workfront provides a limited number of predefined groupings and you cannot modify them.
+
+1. Click **Grouping** above the list.
+1. Select a grouping to organize your list.
+
+   ![Select a grouping](assets/glist-grouping-choose-a-group-by.png)
+
+1. Click **Collapse all** to display the list with all the groupings collapsed. The default option is to display the list with all groupings expanded.
+1. When the grouping is applied, you can open the Group options again to collapse or expand all of the groupings at once, change the grouping to group by a different field, or clear all of the groupings.
+
+   ![Grouping in enhanced lists](assets/glist-group-by-due-date-priorities.png)
+
+   An indicator appears on the **Grouping** button when a grouping is applied to the list.
+
+   ![Grouping applied indicator](assets/glist-grouping-applied-indicator.png)
+
+### Sort in an enhanced list
+
+>[!NOTE]
+>
+>Not all enhanced lists have all the elements described in this section.
+
+To sort individual columns:
+
+1. Hover over the column, then click the down arrow and select **Sort**.
+
+   An icon next to a column name indicates that the list is sorted by the values in that column, and the direction of the sort.
+
+   >[!NOTE]
+   >
+   >Some columns might not be sortable, depending on the list.
+
+   ![Sort by a column](assets/glist-sort-by-column.png)
+
+1. (Optional) To sort your work within a grouping, click **Grouping**, go to the line of the applied grouping, click on the sorter dropdown, and select an ascending or descending order.
+
+   ![Sort in a grouping](assets/sort-in-groups.png)
+
+   >[!TIP]
+   >
+   >The sorting order differs based on the field type you sort by. 
+
+### Search in an enhanced list
+
+>[!NOTE]
+>
+>Not all enhanced lists have all the elements described in this section.
+
+1. Type a keyword you want search by in the Search box in the upper-right corner of the list. The results are highlighted in the list as you type.
+
+   ![Search term highlighted](assets/glist-search-highlighted.png)
+
+   >[!NOTE]
+   >
+   >The search looks at all columns in all list items. If the list is long, the search includes items that you may need to scroll to see. When the list is filtered, the search only looks at what is currently displayed.
+
+

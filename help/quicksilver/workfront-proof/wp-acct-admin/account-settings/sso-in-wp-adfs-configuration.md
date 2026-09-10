@@ -2,11 +2,28 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
-title: 'Single Sign-On in [!DNL Workfront Proof]: AD FS configuration'
+title: "Single Sign-On in [!DNL Workfront Proof]: AD FS configuration"
 description: If you are an administrator on your AD server, you can install and configure AD FS.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
+TQID: https://experienceleague.adobe.com/SsCChdvLwy-i48BkLL8xbm7e0gUOVUStR-0XxcT3uXs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Single Sign-On in [!DNL Workfront Proof]: AD FS configuration
 

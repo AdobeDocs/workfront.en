@@ -6,6 +6,19 @@ description: Learn how to view content in a proof.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
+TQID: https://experienceleague.adobe.com/VPT5pfG61EX7ZiSIkod-E40GhRZ0RVhiunaxaYTAhls
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # View content in a proof
 
@@ -13,7 +26,7 @@ You can use the proofing viewer to view and markup files in Workfront.
 
 >[!NOTE]
 >
->If your Workfront instance is on the Unified Experience, the proofing viewer opens in a new tab.
+>The proofing viewer opens in a new tab.
 
 
 ## Access requirements

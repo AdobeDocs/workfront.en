@@ -6,19 +6,42 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/joK7ucGML7TB2coCslIa-T2EIocaeCJD5wQMRXRNQ9s
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Share workspaces
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 You can share a workspace with others to ensure collaboration when working in Adobe Workfront Planning. 
 
 <!--
-This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).
+-->
 
 >[!NOTE]
 >
@@ -40,14 +63,24 @@ This article describes how you can share a view with others. For information abo
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and Planning package</p> 
+<p>Any Workfront or Workflow with a Planning package</p> 
 Or
-<p>Any Workflow and Planning package</p> 
- </tr>
-<tr> 
+<p>Any Workfront Planning as a standalone product package</p> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p> 
+   <td><p>Workflow Standard</p> 
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
 
    <td role="rowheader"><p>Object permissions</p></td> 
@@ -61,7 +94,8 @@ Or
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -109,7 +143,7 @@ Or
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -118,7 +152,8 @@ Or
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerations about sharing workspaces
 
@@ -145,29 +180,21 @@ To share a workspace with others:
 
     ![Share button on workspace top right](assets/share-button-on-workspace-top-right.png)
 
-   <!--only for March 4: * <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>-->
+1. (Conditional) Depending on what access level you have, do one of the following: 
 
-1. <span class="preview">(Conditional) If you are a System Administrator, select from the following options:</span>
+   * If you are a System Administrator, select from the following options:
 
-   <div class="preview">
+      * **Only invited people can access**: You must select entities in the sharing box and choose their access to the workspace. This is the default selection.
+      * **Everyone in the system can view**: Everyone in the system with access to Planning can view the workspace in their **Workspaces** area in Planning.
+       
+   * (Conditional) If you are a workspace manager with a Standard license, you can see one of the following selections but you cannot change them:
 
-   * **Only invited people can access**: You must select entities in the sharing box and choose their access to the workspace. This is the default selection. 
-   * **Everyone in the system can view**: Everyone in the system with access to Planning can view the workspace in their **Workspaces** area in Planning.
-         
-   </div>
-   
-   <!--only  for March 4:
+      * **Only invited people can access**. This is the default setting.
+      * **Everyone in the system can view**
 
-      * <span class="preview">If you are a workspace manager with a Standard license, you can see one of the following selections but you cannot change them:</span>
+      You must ask a System Administrator to change a global permission for a workspace.
 
-         <div class="preview">
-         
-         * **Only invited people can access**
-         * **Everyone in the system can view**
-         
-         </div>-->
-
-1. In the **Grant access to this workspace** field, start typing the name of a user, group, team, company, or job role then click it when it displays in the list. <!--update screen shot at the release of system-wide permissions for workspaces-->
+1. In the **Grant access to this workspace** field, start typing the name of a user, group, team, company, or job role then click it when it displays in the list. 
 
    ![Sharing UI with groups](assets/sharing-ui-with-groups.png)
 
@@ -175,7 +202,11 @@ To share a workspace with others:
    >
    >* In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. You cannot add Workfront-only users. For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md). 
    >
-   >* When you share a workspace with a user, their primary job role <span class="preview">and their email</span> also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email.  
+   >* When you share a workspace with a user, their primary job role and their email also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email.  
+
+1. (Optional) When you share with a group, team, role, or company, hover over the name of the entity and click the right-pointing arrow to expand a list of users that are receiving the permissions.
+
+   ![Share workspace with a group](assets/share-workspace-role-expanding-arrow-highlighted.png)
 
 1. Select one of the following permission levels from the drop-down menu: 
     * View

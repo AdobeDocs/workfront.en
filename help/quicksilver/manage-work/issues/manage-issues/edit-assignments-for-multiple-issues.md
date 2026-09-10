@@ -6,6 +6,26 @@ description: Modify user assignments for multiple issues in a list
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/YPFjJTm07ToTBF3BDlZ8Okze1P-b73EsSh7BgXay1fs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Modify user assignments for multiple issues in a list
 
@@ -14,13 +34,15 @@ exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: similar article exists for tasks)</p>
 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 You can simultaneously modify user assignments to multiple issues. For information about editing issues or assigning them one at a time, also see the following articles:
 
@@ -126,7 +148,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. Click **Save**. 
 
 
-   <!--Old functionality for assignments for issues - before November 2025:
+   <!--
+   Old functionality for assignments for issues - before November 2025:
    1. (Conditional) In the Production environment, do the following: 
    1. Go to the **Assignments** section, then select **Assignee**.
       ![Assignments area](assets/classic-assignmens-area-on-edit-box-350x119.png)
@@ -153,7 +176,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
          1. (Optional) Modify any of the following options for the assignees you selected to associate with the issues:
           * **Issue Owner:**  Select the radio button to indicate which assignee is designated as the Issues Owner. If left unselected, Adobe Workfront designates the first assignee as the Issue Owner. This is not available for team assignments. 
             * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Workfront automatically selects the Primary Role of the user.
-      1. Click **Save Changes**.-->
+      1. Click **Save Changes**.
+      -->
 
 
 

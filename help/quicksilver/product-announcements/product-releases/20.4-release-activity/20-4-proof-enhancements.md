@@ -6,6 +6,19 @@ draft: Probably
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: 0469ac71-66d1-4651-918a-99f2b6038b7c
+TQID: https://experienceleague.adobe.com/IRPhk2-nibgfScgrDT-RhaJpnTzCuALw0A6KT9EeIPM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # 20.4 Proof enhancements
 

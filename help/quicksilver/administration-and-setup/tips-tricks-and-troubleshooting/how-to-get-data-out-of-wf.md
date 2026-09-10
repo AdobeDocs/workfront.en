@@ -9,6 +9,23 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/yakEEdCSzC0R9dJc6MV4N26MR7M-l09pOudfKiQvdSk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Export historical data from [!DNL Adobe Workfront]: Pros and cons
 
@@ -26,15 +43,7 @@ This article explains the pros and cons of 4 options you can use to export histo
 
 * **Costs:** For more information, go to [https://store.atappstore.com/product/workfront-snapshot/](https://store.atappstore.com/product/workfront-snapshot/).
 
-## Request a [!DNL Postgres] data dump file from our Database team
 
-You must submit a request to our Customer Support team, who will then submit a request to our Database team to export a database dump file (.dmp [!DNL Postgres] file) with your data. An additional request will go to our NOC team to retrieve all of your stored documents.
-
-* **Pros**: You get your entire data load, including custom fields, as well as documents that are stored in the system.  
-
-* **Cons**: There isn't a way to read this file unless you upload it to a [!DNL Postgres] database and re-establish the relationships between the tables. The documents are stored on a separate file server and must be extracted separately using a separate process by the NOC team. In doing so, there is no organization to the documents, and they are all referenced by their GUID.
-
-* **Cost**: There is a cost associated with this download depending on how long it takes the team to create the file. Check with your AE/ CAE for more information or to get this process started.
 
 ## Export via [!UICONTROL Kick-Starts]
 

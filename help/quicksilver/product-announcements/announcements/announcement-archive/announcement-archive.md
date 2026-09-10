@@ -7,13 +7,19 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d2962100-3a64-47a9-a67c-5ebf6a594711
+TQID: https://experienceleague.adobe.com/-DgrExWhbGoTQItADp-3qeEocgLdL52bkLNCpssk3m0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Announcement archive
 
 * [Custom form enhancements](custom-form-enhancements.md)
 * [Updated Mobile App for iOS and Android (Early August, 2017)](updated-mobile-app.md)
 * [TLS 1.2 to be required in Adobe Workfront](tls-1-disabled.md)
-* [Outlook 365 Add-In Is Now Available](../../outlook-365-add-in/outlook-365-add-in-now-available.md)
 * [Replacement of Flash-based tools in Adobe Workfront](replace-flash-tools.md) 
 * [New Adobe Workfront managed system to replace POP&nbsp;email for Request Queues with 21.1](pop-removal-request-queue.md) 
 * [New Adobe Workfront managed system to replace POP email for Request Queues with 21.1](pop-removal-request-queue.md)

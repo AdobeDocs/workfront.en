@@ -10,6 +10,30 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
+TQID: https://experienceleague.adobe.com/AaN6iuEnPjrGEJPcfRxPvNWj1RuF9L6OlgSiXMBKSpc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Access levels overview
 
@@ -85,22 +109,24 @@ Also attached to the Standard license, this access level is designed for users w
 
 The following are the highest access settings available for objects in the Standard access level:
 
-| Workfront object type |No access |View access |Edit access |
+|Workfront object type|No access|View access|Edit access|
 |---|---|---|---|
-| Projects |&nbsp; |&nbsp; |✓ |
-| Tasks |&nbsp; |&nbsp; |✓ |
-| Issues |&nbsp; |&nbsp; |✓ |
-| Portfolios |&nbsp; |&nbsp; |✓ |
-| Programs |&nbsp; |&nbsp; |✓ |
-| Reports (including dashboards and calendar reports) |&nbsp; |&nbsp; |✓ |
-| Filters, views, and groupings |&nbsp; |&nbsp; |✓ |
-| Documents |&nbsp; |&nbsp; |✓ |
-| Users |&nbsp; |&nbsp; |✓ |
-| Templates |&nbsp; |&nbsp; |✓ |
-| Financial data |&nbsp; |&nbsp; |✓ |
-| Resource Management |&nbsp; |&nbsp; |✓ |
-| Scenario Planner  |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
-| Goals  |&nbsp; |&nbsp; |✓ |
+|Projects|&nbsp;|&nbsp;|✓|
+|Tasks|&nbsp;|&nbsp;|✓|
+|Issues|&nbsp;|&nbsp;|✓|
+|Portfolios|&nbsp;|&nbsp;|✓|
+|Programs|&nbsp;|&nbsp;|✓|
+|Reports (including dashboards and calendar reports)|&nbsp;|&nbsp;|✓|
+|Filters, views, and groupings|&nbsp;|&nbsp;|✓|
+|Documents|&nbsp;|&nbsp;|✓|
+|Users|&nbsp;|&nbsp;|✓|
+|Job Roles|&nbsp;|&nbsp;|✓|
+|Teams|&nbsp;|&nbsp;|✓|
+|Templates|&nbsp;|&nbsp;|✓|
+|Financial data|&nbsp;|&nbsp;|✓|
+|Resource Management|&nbsp;|&nbsp;|✓|
+|Scenario Planner|&nbsp;|&nbsp;|✓ (The default setting is No Access.)|
+|Goals|&nbsp;|&nbsp;|✓|
 
 {style="table-layout:auto"}
 
@@ -120,6 +146,7 @@ Users with the Light access level:
 * Can access requests and documents in the Main Menu.
 * Have limited ability to create objects—they can't create projects, portfolios, programs, or reports.
 * Can only log time at the project level when Edit access is enabled. They cannot create, edit, delete, or share projects.
+* Can update custom forms on issues and documents only.
 
 >[!NOTE]
 >
@@ -197,7 +224,13 @@ The following are the highest access settings available for objects in the Light
    <td>✓</td> 
    <td>&nbsp;</td> 
   </tr> 
-    <tr> 
+  <tr> 
+   <td>Job Roles</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
    <td>Teams</td> 
    <td>&nbsp;</td> 
    <td>✓</td> 
@@ -212,7 +245,7 @@ The following are the highest access settings available for objects in the Light
   <tr> 
    <td>Financial data</td> 
    <td></td> 
-   <td> <p>✓(the default setting is No Access)</p> </td> 
+   <td> <p>✓ (The default setting is No Access)</p> </td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
@@ -256,6 +289,7 @@ Users with this built-in access level:
   >Contributors can participate in approvals but cannot access the Approvals tab to view or manage approval processes.
 
 * Can review the status of issues they have submitted
+* Can update custom forms on issues and documents only.
 * Can be assigned to work items but can't complete them
 * Can access requests only from the Main Menu. For more information about request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
@@ -267,23 +301,24 @@ Users with this built-in access level:
 
 The following are the highest access settings available for objects in the Contributor access level:
 
-| Workfront object type |No access |View access |Edit access |
+|Workfront object type|No access|View access|Edit access|
 |---|---|---|---|
-| Project |&nbsp; |✓ (limited) |&nbsp; |
-| Task |&nbsp; |✓(limited) |&nbsp; |
-| Issue |&nbsp; |&nbsp; |✓ |
-| Portfolios |&nbsp; |✓ |&nbsp; |
-| Programs |&nbsp; |✓ |&nbsp; |
-| Reports (including dashboards and calendar reports) |&nbsp; |✓ (Only the Details tab) |&nbsp; |
-| Filters, views, and groupings |&nbsp; |&nbsp; |✓ |
-| Document |&nbsp; |&nbsp; |✓ |
-| User |&nbsp; |✓ |&nbsp; |
-| Teams |&nbsp; |✓ |&nbsp; |
-| Templates |✓ |&nbsp; |&nbsp; |
-| Financial data |✓ |&nbsp; |&nbsp; |
-| Resource Management |✓ |&nbsp; |&nbsp; |
-| Scenario Planner  |✓ |&nbsp; |&nbsp; |
-| Goals  |&nbsp; |&nbsp; |✓ (The default setting is No Access) |
+|Project|&nbsp;|✓ (limited)|&nbsp;|
+|Task|&nbsp;|✓(limited)|&nbsp;|
+|Issue|&nbsp;|&nbsp;|✓|
+|Portfolios|&nbsp;|✓|&nbsp;|
+|Programs|&nbsp;|✓|&nbsp;|
+|Reports (including dashboards and calendar reports)|&nbsp;|✓ (Only the Details tab)|&nbsp;|
+|Filters, views, and groupings|&nbsp;|&nbsp;|✓|
+|Document|&nbsp;|&nbsp;|✓|
+|Users|&nbsp;|✓|&nbsp;|
+|Job Roles|&nbsp;|✓|&nbsp;|
+|Teams|&nbsp;|✓|&nbsp;|
+|Templates|✓|&nbsp;|&nbsp;|
+|Financial data|✓|&nbsp;|&nbsp;|
+|Resource Management|✓|&nbsp;|&nbsp;|
+|Scenario Planner|✓|&nbsp;|&nbsp;|
+|Goals|&nbsp;|&nbsp;|✓ (The default setting is No Access)|
 
 {style="table-layout:auto"}
 
@@ -316,23 +351,24 @@ You cannot modify this access level.
 
 The following are the highest access settings available for objects in the External User access level.
 
-| Workfront object type |No access |View access |Edit access |
+|Workfront object type|No access|View access|Edit access|
 |---|---|---|---|
-| Project |✓ |&nbsp; |&nbsp; |
-| Task |✓ |&nbsp; |&nbsp; |
-| Issue |✓ |&nbsp; |&nbsp; |
-| Portfolios |✓ |&nbsp; |&nbsp; |
-| Programs |✓ |&nbsp; |&nbsp; |
-| Reports (including dashboards and calendar reports) |&nbsp; |✓ (Only for calendar reports; no ability to share reports) |&nbsp; |
-| Filters, views, and groupings |✓ |&nbsp; |&nbsp; |
-| Document |&nbsp; |✓ (No ability to share documents) |&nbsp; |
-| User |&nbsp; |✓ |&nbsp; |
-| Teams |✓ |&nbsp; |&nbsp; |
-| Templates |✓ |&nbsp; |&nbsp; |
-| Financial data |✓ |&nbsp; |&nbsp; |
-| Resource Management |✓ |&nbsp; |&nbsp; |
-| Scenario Planner  |✓ |&nbsp; |&nbsp; |
-| Goals  |✓ |&nbsp; |&nbsp; |
+|Project|✓|&nbsp;|&nbsp;|
+|Task|✓|&nbsp;|&nbsp;|
+|Issue|✓|&nbsp;|&nbsp;|
+|Portfolios|✓|&nbsp;|&nbsp;|
+|Programs|✓|&nbsp;|&nbsp;|
+|Reports (including dashboards and calendar reports)|&nbsp;|✓ (Only for calendar reports; no ability to share reports)|&nbsp;|
+|Filters, views, and groupings|✓|&nbsp;|&nbsp;|
+|Document|&nbsp;|✓ (No ability to share documents)|&nbsp;|
+|Users|&nbsp;|✓|&nbsp;|
+|Job Roles|✓|&nbsp;|&nbsp;|
+|Teams|✓|&nbsp;|&nbsp;|
+|Templates|✓|&nbsp;|&nbsp;|
+|Financial data|✓|&nbsp;|&nbsp;|
+|Resource Management|✓|&nbsp;|&nbsp;|
+|Scenario Planner|✓|&nbsp;|&nbsp;|
+|Goals|✓|&nbsp;|&nbsp;|
 
 
 ## How access levels and permissions work together

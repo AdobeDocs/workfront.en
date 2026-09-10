@@ -6,10 +6,61 @@ description: Read this article to learn how to log in to Workfront.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/2YH5Y7yvmUdpuV-p5cnrVSmXBQTjix2pMyUP5o-WKpU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Log in to [!DNL Adobe Workfront]
 
 <!--Audited: 2024-->
+
+One login is used for Workfront and all of your Adobe CX Enterprise applications.
+
+For information, see [CX Enterprise interface and administration](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).
+
+## Access [!DNL Workfront]
+
+Once you are logged in to CX Enterprise, you can view all of the [!DNL Workfront] organizations and environments that you have access to by clicking the organization switcher in the top navigation area. Select the [!DNL Workfront] organization or environment that you want to work in. Environments could include [!UICONTROL Preview] and [!UICONTROL Sandbox] if your organization uses them.
+
+![View [!DNL Workfront] organizations and environments](assets/wf-org-instance-switcher-2026.png)
+
+>[!NOTE]
+>
+>The first time you log in to CX Enterprise, the organization defaults to the first one in the alphabetical list. The next time you log in, the organization defaults to the last one you visited.
+
+[!DNL Workfront] appears in the list of CX Enterprise products you have access to. You can choose [!DNL Workfront] in the quick access menu on the CX Enterprise home page, or use the product switcher ![Product switcher](assets/main-menu-icon.png) to change applications at any time.
+
+![Select [!DNL Workfront] to access the application](assets/cx-enterprise-home-2026.png)
+
+>[!NOTE]
+>
+>If a browser tab session expires in a page where you have Workfront open, and you have an active Workfront session in another browser tab, you can reload the expired tab to reopen the Workfront page.
+
+<!--
+>[!IMPORTANT]
+>
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
+>
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+-->
+
+<!--DELETE ME MARCH 2026-->
+
+<!--
 
 {{important-not-on-aec}}
 
@@ -104,9 +155,11 @@ To log in to [!DNL Workfront] using your SSO username and password:
 
    >[!TIP]
    >
-   >This is typically your company name. If you are unsure, contact your [!DNL Workfront] administrator.
+   >This is typically your company name. If you are unsure, contact your [!DNL Workfront] administrator
+-->
 
-<!--1. Specify the [!DNL Workfront] URL for your company or the link to your SAML authentication portal.
+<!--
+1. Specify the [!DNL Workfront] URL for your company or the link to your SAML authentication portal.
 
    The [!DNL Workfront] URL should display in the following format:
    **`yourDomain.my.workfront.com`**
@@ -121,8 +174,10 @@ To log in to [!DNL Workfront] using your SSO username and password:
 
 1. Tap **[!UICONTROL Continue in browser]**.
 1. Specify the **[!UICONTROL Username]** of your [!DNL Workfront] account or SAML user.
-1. Specify the **[!UICONTROL Password]** for your [!DNL Workfront] account or SAML user.-->
+1. Specify the **[!UICONTROL Password]** for your [!DNL Workfront] account or SAML user.
+-->
 
+<!--
 1. (Conditional) If you are logging in for the first time, a page requesting permission for the [!DNL Workfront] mobile app to access your account will display. Click **Allow access** to continue.
 
 1. You are redirected to a webpage that allows you to log in identically to the desktop site. This process varies depending on your organization's Workfront configuration, see [Log in to [!DNL Workfront] without SSO](#log-in-to-workfront-without-sso) or [Log in to [!DNL Workfront] with SSO](#log-in-to-workfront-with-sso) above for more information. 
@@ -150,3 +205,4 @@ To log in to [!DNL Workfront] using your SSO username and password:
 1. You are now signed in. Tap **[!UICONTROL Okay, got it]** or **[!UICONTROL GETTING STARTED]** to navigate through the tutorials displayed.
 
    These tutorials display only the first time you access the app. They display again only when you uninstall and reinstall the [!DNL Workfront] mobile app, or if you log in as another user. After closing out the tutorials, the area that displays is the one that you selected to show
+-->

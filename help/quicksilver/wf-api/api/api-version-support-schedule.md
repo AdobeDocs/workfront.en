@@ -7,6 +7,16 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
+TQID: https://experienceleague.adobe.com/Iw5I-qRBKS-KffRB3UP-PX4v-0ft9y7XlC9JPhxOabM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # API versioning and support schedule
 
@@ -35,6 +45,12 @@ The following table shows the release and support schedule for the Workfront API
   </tr> 
  </thead> 
  <tbody> 
+ <tr>
+   <td>22</td> 
+   <td> <p>May 8, 2026</p> </td> 
+   <td> <p>**during 2029</p> <p>(with the 29.4 release)</p> </td> 
+   <td></td> 
+  </tr> 
  <tr>
    <td>21</td> 
    <td> <p>October 23, 2025</p> </td> 

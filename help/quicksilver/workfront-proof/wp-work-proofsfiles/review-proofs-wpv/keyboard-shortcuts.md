@@ -7,6 +7,13 @@ description: The information described in this section is available in both the 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e134ac7a-7a9d-4923-8622-b602856e4925
+TQID: https://experienceleague.adobe.com/HTk9kA-ajjmSM55jlzkZMfjcK2k8AUJ0naYwZXvXXgc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Keyboard shortcuts in the [!DNL Workfront Proof] proofing viewer
 

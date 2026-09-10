@@ -7,6 +7,34 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/roM7lCswSeuhxKXc2Bf8S1wXr1thGzcQjFkqU5lCQCA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Edit tasks
 
@@ -22,13 +50,16 @@ exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
 </div>
 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
-</div> -->
+</div>
+-->
+
 
 You can edit information on tasks that you have created, or that you have Contribute or Manage permissions to.
 
@@ -42,7 +73,8 @@ You can edit information on tasks that you have created, or that you have Contri
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any</p> </td> 
+   <td>  <p>To use the User and Role Hourly Revenue and Cost Types and add an overtime ratio: Workflow Ultimate</p>
+      <p>To edit all other settings and use all other Revenue and Cost Types: Any Workfront or Workflow package</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -76,7 +108,8 @@ You can edit information on tasks that you have created, or that you have Contri
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -112,7 +145,8 @@ You can edit information on tasks that you have created, or that you have Contri
     </ul> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Limitations for editing tasks
 
@@ -566,6 +600,7 @@ You can define default custom forms to be automatically attached to tasks when t
         <li> <p>Fixed Hourly </p> </li> 
         <li> <p> User Hourly </p> </li> 
         <li> <p> Role Hourly</p> </li> 
+        <li> <p> User and Role Hourly</p> </li> 
        </ul> <p>For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a> . Your Workfront administrator or a group administrator selects the default Cost Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a> .</p> </td> 
      </tr> 
      <tr> 
@@ -575,14 +610,26 @@ You can define default custom forms to be automatically attached to tasks when t
       <li> <p> Not Billable </p> </li> 
       <li> <p>User Hourly </p> </li> 
       <li> <p>Role Hourly </p> </li> 
+      <li> <p>User and Role Hourly</p> </li> 
       <li> <p>Fixed Hourly </p> </li> 
       <li> <p>User Hourly w/Cap </p> </li> 
       <li> <p>Role Hourly w/Cap </p> </li> 
+      <li> <p>User and Role Hourly w/ Cap</p> </li> 
       <li> <p>User Hourly Plus Fixed </p> </li> 
       <li> <p>Role Hourly Plus Fixed </p> </li> 
+      <li> <p>User and Role Hourly Plus Fixed</p> </li> 
       <li> <p>Fixed Revenue </p> </li> 
-       </ul> <p>For more information about tracking revenue, see<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a> . </p> <p>Your Workfront administrator or group administrator selects the default Revenue Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </td> 
+       </ul> <p>For more information about tracking revenue, see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a> and <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Overview of revenue and cost hierarchy</a>. </p> <p>Your Workfront administrator or group administrator selects the default Revenue Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </td> 
      </tr> 
+     <tr>
+      <td>Overtime Ratio</td> 
+      <td><p>Enter the overtime multiplier for the task, for example, 1.5 or 2.0. The default is 1.0 (no multiplier). For more information, see <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Define an overtime ratio</a>.</p><p>To see the Overtime Ratio field:</p>
+       <ul>
+       <li>The Revenue Type on the task must be User and Role Hourly. For more information, see <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Overview of revenue and cost hierarchy</a>.</li>
+       <li>The field must be enabled on your layout template, for the Finance area in the task Details view. For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">Customize the Details view using a layout template</a>.</li>
+       </ul>
+      </td>
+     </tr>
     </tbody> 
    </table>
 
@@ -704,7 +751,8 @@ You can edit tasks in bulk in a list and update all their information at the sam
 
 For information about saving tasks in bulk, see the "Edit tasks in bulk" section in the article [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
-<!--Temporary content while changing Assignments area: 
+<!--
+Temporary content while changing Assignments area: 
 
 Editing assignments is different in the Edit Task box depending on which environment you choose.
 
@@ -842,7 +890,8 @@ Editing assignments is different in the Edit Task box depending on which environ
          </table>
       
    
-      <!--<tr> 
+      <!--
+      <tr> 
       <td role="rowheader">Allocation</td> 
       <td> <p>If your Task Constraint is Calculated Work or Effort Driven, specify the <strong>Allocation %</strong> (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. </p> <p>When the Task Constraint is Simple, you can specify the following:</p> 
          <ul> 
@@ -1013,4 +1062,5 @@ Editing assignments is different in the Edit Task box depending on which environ
 
 <div class="preview">
 
-#### Edit the Assignments area in the Preview environment-->
+#### Edit the Assignments area in the Preview environment
+-->

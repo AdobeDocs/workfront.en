@@ -7,6 +7,19 @@ description: Configure User Information using [!DNL Workfront Proof]
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ae8d3a96-ebf1-48ee-a7b7-50d69bffbd36
+TQID: https://experienceleague.adobe.com/1K7jdfa8Eccib8MbsUrrPwfL8MrhCkhA1y2ojYjVNV8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure User Information using [!DNL Workfront Proof]
 
@@ -42,9 +55,9 @@ exl-id: ae8d3a96-ebf1-48ee-a7b7-50d69bffbd36
       * **Only one decision required:** Requires only one decision on a proof.
       * **Download of original file:** Enables the user to download the original file for a proof. This option is enabled by default.
 
-         For more information on downloading original files, see [Download Files Stored in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
+        For more information on downloading original files, see [Download Files Stored in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
 
-         <!--      
+        <!--      
         <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Public sharing. The proof can be shared via a public URL or embedded code:</strong>Enables the user to share proofs via a public URL or embed code.<br>This option is enabled by default but is not available if the&nbsp;<strong>Login required</strong>option is selected.<br>For more information on sharing proofs, see "<a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md" class="MCXref xref" xrefformat="{para}">Share the Public URL in Workfront Proof</a>."</li>      
         -->
 

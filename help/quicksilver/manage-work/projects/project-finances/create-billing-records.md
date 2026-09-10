@@ -5,6 +5,28 @@ description: In addition to setting up revenue and tracking expenses, you can cr
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
+TQID: https://experienceleague.adobe.com/-xR9IOM9MUTEZocMM5eACEEz644JxOuErtG-FCdM4y4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create billing records
 
@@ -38,7 +60,7 @@ You can't create billing records for tasks; you can only create billing records 
   </tr> 
   <tr> 
    <td>Object permissions</td> 
-   <td>Manage permissions to the project with permissions to Manage Finance</td> 
+   <td>Manage permissions to the project with permissions to Edit Billing Rates and General Finance</td> 
   </tr> 
  </tbody> 
 </table>
@@ -138,7 +160,7 @@ You can add hours to a billing record when the following conditions are met:
      >[!NOTE]
      >
      >You can override billing rates for job roles at the project level.  
-     >For more information, see the section "Overriding job role billing rates at the project level" in the article [Overview of overriding Job Role Billing Rates and calculating Revenue on a project](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+     >For more information, see the section "Overriding job role billing rates at the project level" in the article [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 * If the Require time to be approved for this project option is selected under Project Settings, then the Project Owner must approve the logged hours.  
   For more information, see [Require time to be approved for a project](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).

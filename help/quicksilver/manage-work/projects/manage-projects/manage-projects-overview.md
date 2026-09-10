@@ -8,6 +8,19 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
+TQID: https://experienceleague.adobe.com/NWbirMbAY50OtY-lEvs956mdEO-BsM-nqZ3QlPLb-wk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Manage projects: article index
 
@@ -34,3 +47,4 @@ This section contains the following articles:
 * [Project limits overview](../../../manage-work/projects/manage-projects/project-maximums.md) 
 * [Understand project metrics](../../../manage-work/projects/manage-projects/project-metrics.md)
 * [Summarize updates with AI Assistant](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+* [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)

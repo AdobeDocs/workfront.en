@@ -2,25 +2,53 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Edit Project Templates
-description: You can edit project templates to reflect changes in the processes and settings of future projects. You can edit one template at a time, or you can edit multiple templates, in bulk. 
+description: You can edit project templates to reflect changes in the processes and settings of future projects. You can edit one template at a time, or you can edit multiple templates, in bulk.
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/36z25D3UWtmRwiOqdPOc3DCFXQcvSJHK2RvtuqFOvVU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Edit project templates
+
+{{highlighted-preview}}
 
 <!-- Audited: 7/2025 -->
 
 <!--The Resource Pools part also duplicates in the "Working with Resource Pools" article-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div> 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 -->
 
@@ -70,7 +98,8 @@ You can edit one template at a time, or you can edit templates in bulk.
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +130,8 @@ You can edit one template at a time, or you can edit templates in bulk.
    </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Edit a template {#edit-a-template}
 
@@ -128,7 +158,7 @@ You can edit one template at a time, or you can edit templates in bulk.
 
    * [Template Name](#template-name) 
    * [Overview](#overview-preview) 
-   * [Finance](#finance-preview) 
+   * [Finance](#finance)
    * [Custom Forms](#custom-forms-preview) 
    * [Template Settings](#template-settings) 
    * [Tasks Settings](#task-settings) 
@@ -227,6 +257,15 @@ You can edit one template at a time, or you can edit templates in bulk.
       <td role="rowheader"><strong>Company</strong></td> 
       <td><p>Specify the Company that you want to associate with the template. Only active companies display in the list.</p></td> 
       </tr> 
+      <tr>
+      <td role="rowheader"><span class="preview"><strong>Frame.io workspace (Conditional)</strong></span></td>
+      <td><span class="preview">
+      <p>In an Adobe cloud storage project, select the Frame.io workspace that you want projects created from this template to use. If your organization has multiple Frame.io workspaces, this determines which workspace the linked Frame.io project is created in.</p>
+      <p>The list includes only the Frame.io workspaces you have permission to assign projects to. The default workspace used when no workspace is selected or available.</p>
+      <p>You can change this field on the template at any time. Changes apply only to projects created after the change; projects already created from the template keep their existing Frame.io workspace.</p>
+      <p>Note: You must have Frame.io enterprise to use the Frame.io workspace field.</p>
+      </span></td>
+      </tr> 
       <tr> 
       <td role="rowheader"><strong>Template Owner</strong></td> 
       <td><p>The user who is designated as the Template Owner must be a Workfront active user. </p><p>Consider the following about the user designated as the Template Owner: </p> 
@@ -258,99 +297,49 @@ You can edit one template at a time, or you can edit templates in bulk.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Finance**.
 
-   ![Edit template box Finance section](assets/edit-template-box-finance-section.png)
+   ![Edit template box Finance section](assets/edit-template-finance-section-040626.png)
 
 1. Update the following fields:
 
-      <table style="table-layout:auto"> 
-       <col> 
-       <col> 
-       <tbody> 
-         <tr> 
-         <td role="rowheader"><strong>Description</strong></td> 
-         <td>Add additional information about the template.</td> 
-       </tr> 
-         <tr> 
-         <td role="rowheader"><strong>Priority</strong></td> 
-         <td><p>This is just a visual flag for you which allows you to prioritize your future projects. Select from the following options:</p> 
-         <ul> 
-         <li><p><strong>None</strong></p></li> 
-         <li><p><strong>Low</strong></p></li> 
-         <li><p><strong>Normal</strong></p></li> 
-         <li><p><strong>High</strong></p></li> 
-         <li><p><strong>Urgent</strong></p></li> 
-         </ul><p><p>Depending on the Project Preferences selected by your Workfront administrator, the names of priorities might be different for you. For more information about editing priorities, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Create and customize priorities</a>.</p></p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>URL</strong></td> 
-         <td>Specify a web link that relates to information about this template.</td> 
-       </tr>
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr>
+      <td><strong>Preserve project billing rates information</strong></td>
+      <td><p>When you enable this option, all assignment billing rates are permanently frozen to the highest applicable rate from the billing hierarchy. This is a one-time selection, and you cannot disable the option once the project has assignments or hours. After preservation, assignment billing rates cannot be changed, edited, or overridden anywhere on the project.</p></td>
+     </tr>
+     <tr>
+      <td><strong>Use date-effective exchange rates from the system</strong></td>
+      <td><p>When this option is selected, the system-level date-effective exchange rates are always used, and exchange rate overrides are not permitted on the project.</p> <p>You must also select the <strong>Exchange Rate Date</strong> to start from, when the option is selected.</p></td> 
+     </tr>
       <tr> 
-      <td role="rowheader"><strong>Is Active</strong></td> 
-      <td><p>Turn this option on, if you want the template to be active. Other users can find this template and attach it to projects when creating projects. Turn the option off, if you want to deactivate templates that are no longer used. Deactivated templates cannot be attached to projects. This is enabled by default. </p><p><b>TIP</b></p>
-      
-      <p>You can deactivate a template from the template header as described in the "Activate or deactivate a template" section in this article.</p></td> 
+      <td role="rowheader"><strong>Currency</strong></td> 
+      <td><p>Specify the currency for the future project, if it is different than the default currency of your system. This field is not visible if you have only the default currency in the system.<br>For more information about currency, see <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Budget</strong></td> 
+      <td><p>Specify a Budget for the projects that are created from this template.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Performance Index Method</strong></td> 
+      <td><p>Specify whether the Earned Value metrics of the future project are calculated using hours or costs. For more information about the Performance Index Method, see <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Set the Performance Index Method (PIM)</a>. </p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>Planned Benefit</strong></td> 
+      <td><p>Specify the Planned Benefit of the projects that are created from this template. The Planned Benefit is used in the Business Case of the project and the Portfolio Optimizer. </p><p>For more information about the Planned Benefit of a project, see <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Overview of project Planned Benefit</a>. The Planned Benefit of a project is taken into account when the Net Value of a project is calculated. </p><p>For more information about using the Portfolio Optimizer, see <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Manage projects in the Portfolio Optimizer</a>. </p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Fixed Cost</strong></td> 
+      <td><p>Specify the Fixed Cost for the projects that are created from this template. This is different than the Labor Cost which comes from the hours on the project and the Expense Cost which comes from the amount of expenses on the project. The Fixed Cost of a project is taken into account when calculating the Net Value of a project and it is part of the Budgeted Cost.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Fixed Revenue</strong></td> 
+      <td><p>Specify the Fixed Revenue for the projects that are created from this template.</p></td> 
      </tr> 
 
-      <tr> 
-      <td role="rowheader"><strong>Condition Type</strong></td> 
-      <td><p>Select between the following Condition Types:</p> 
-      <ul> 
-      <li><strong>Manual:</strong> The project owner sets the Condition of the project on the project manually. <strong></strong></li> 
-      <li><strong>Progress Status:</strong> Workfront automatically sets the Condition of the future project based on the Progress Status of tasks on the Critical Path. For more information about understanding Progress Status, see <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Task Progress Status overview</a>.</li> 
-      </ul>
-      </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Schedule Mode</strong></td> 
-      <td><p>Specify whether the project using this template is scheduled from the <strong>Start Date</strong>, or from the <strong>Completion Date</strong>. This selection determines the planned dates of the future tasks on the project using this template. </p><p>Select from the following: </p> 
-      <ul> 
-      <li><p><strong>Schedule From Start Date</strong>: The Start Date of the template is actually the Start Day. When you schedule a template from Start Date, Adobe Workfront calculates the Completion Day of the template based on the Duration of all the template tasks. The Start Day of the template becomes the Planned Start Date of the future project.</p></li> 
-      <li><p><strong>Schedule from Completion Date</strong>: The Completion Date of the template is actually the Completion Day. When you schedule a template from Completion Date, Workfront calculates the Start Day of the template based on the Duration of all the template tasks. The Completion Day of the template becomes the Planned Completion Date of the future project. </p></li> 
-      </ul><p>For more information about the Start and Completion Days of template tasks, see <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Overview of Start and Completion Days in a template</a>. </p><p>The Schedule From setting for templates is similar to that of projects. Your Workfront administrator selects the default Schedule From setting for the projects in your system. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p></td> 
-      </tr> 
-
-      <tr> 
-      <td role="rowheader"><strong>Portfolio</strong></td> 
-      <td><p>Specify a Portfolio for the projects that are created from this template. You must create a Portfolio first, before it appears in the drop-down list. </p><p>Only active portfolios display in the list. For more information about creating portfolios, see <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Create a portfolio </a>.</p></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Program</strong></td> 
-      <td><p>If you selected a Portfolio for the template, specify a <strong>Program</strong> for the future project. Some Portfolios might not have Programs. You must create a Program first, before it appears in this drop-down list. Only active programs display in the list.</p><p>For more information about creating programs, see <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Create a program</a>.</p></td> 
-      </tr>  
-      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader"><strong>Group</strong></td> 
-      <td><p>In the drop-down list, select the group that you want to be associated with projects created from the template. It can be a group of any level. </p><p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p><b>NOTES</b>
-      
-      <ul> 
-      <li><p>In the Projects area on a group's page, when someone creates a project using a template that doesn't have a group selected, the system associates the currently open group with the project.</p><p>This is different from other areas where the system associates a user's Home Group with the project when the user creates the project using a template that doesn't have a group selected.</p></li> 
-      <li><p>If a user selects a template that has a group selected while creating a project—or while converting a task or issue to a project—the user can choose a different group for the project.</p></li> 
-      <li>Though this field is available in templates only in the new Adobe Workfront experience, you can see it in lists and reports both there and in Adobe Workfront Classic. </li> 
-      </ul> </p></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Company</strong></td> 
-      <td><p>Specify the Company that you want to associate with the template. Only active companies display in the list.</p></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Template Owner</strong></td> 
-      <td><p>The user who is designated as the Template Owner must be a Workfront active user. </p><p>Consider the following about the user designated as the Template Owner: </p> 
-      <ul> 
-      <li>They are automatically given Manage permissions to the template. </li> 
-      <li>They are added to the project team and are automatically given Manage permissions to the project created from the template. </li> 
-      <li>They become the Project Owner, when the project is created from this template. </li> 
-      <li> If the user designated as the Template Owner has limited access to templates or projects from their access level, their Manage permissions on the template and on the projects will be limited. For example, if they have only View access for templates or projects in their access level, they will automatically receive View permissions on the template and the project when they are designated as the Template Owner.</li>
-      </ul></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Template Sponsor</strong></td> 
-      <td><p>The user specified in this field becomes the Project Sponsor, when the template is added to the project. This user is added to the project team and is automatically given view permissions to the project. The user who is designated as the Template Sponsor must be a Workfront active user. </p></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Resource Manager</strong></td> 
-      <td><p>The specified users are automatically given manage permissions to the future projects and can assign resources to the tasks and issues of the projects. You can specify more than one Resource Manager. </p></td> 
-      </tr> 
-      </table>
+    </tbody> 
+   </table>
 
 1. (Optional) Continue editing the following sections, depending on the information you want to modify.
 
@@ -637,12 +626,15 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    Now, when you use this template to create a project all these settings will transfer to the new project.
 
-<!--I don't think this note is valid anymore - this note was on Edit project when the section below was in that article, by mistake: 
+<!--
+I don't think this note is valid anymore - this note was on Edit project when the section below was in that article, by mistake: 
 >[!NOTE]
 >
->Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.-->
+>Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.
+-->
 
-<!-- This section is here by mistake - it should be maybe in layout templates?? 
+<!--
+ This section is here by mistake - it should be maybe in layout templates?? 
 
 ### Linked folders (conditional availability) {#linked-folders}
 
@@ -679,7 +671,8 @@ Editing templates in bulk differs depending on which environment you are using.
 
 ### Edit templates in bulk in the Production environment 
 
-*****************and hide the first line below************ -->
+*****************and hide the first line below************
+-->
 
 {{step1-to-templates}}
 
@@ -797,9 +790,11 @@ Adding the following items to a template is identical to adding them to a projec
 You can add the following items to the tasks in the template:
 
 * Documents
+
+   For more information, see [Edit template tasks](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md). 
 * Expenses
 
-  For more information about adding expenses, see [Manage project expenses](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+   For more information about adding expenses, see [Manage project expenses](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 * Approvals
 
@@ -808,7 +803,7 @@ You can add the following items to the tasks in the template:
 
 ## Activate or deactivate a template
 
-You can deactivate a template if you want users to not be able to find it and create proojects from it. You cannot attach a deactivated template to projects nor use it to create a project. 
+You can deactivate a template if you want users to not be able to find it and create projects from it. You cannot attach a deactivated template to projects nor use it to create a project. 
 
 Deactivated templates do not affect existing projects that were created using them. 
 
@@ -1316,7 +1311,8 @@ By editing issue settings, you can prevent users from adding issues inline in th
    Now, when you use this template to create a project all these settings will transfer to the new project.
 
 
-   <!--drafted section below for the edit template story: 
+   <!--
+   drafted section below for the edit template story: 
    remove this tag and add the Preview blurb at the top of this article in yellow, if it's not already there. Keep the "div class" tags below until 23.1 production: 
 
 

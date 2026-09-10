@@ -4,9 +4,26 @@ keywords: change,owner,shared,report,share,run,user,access,rights,entered,last,v
 navigation-topic: report-usage
 title: Create a report on reporting activities
 description: When you create a report about reports, you can identify specific report information, which can include if reports are assigned to deactivated users, if reports are set to run with access rights of a deactivated user, if users are accessing a report you plan to delete, and so forth.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/AQVPfsJqLBZ79tBCZY4E-eJTPpXh60EzHQ2cD5yygfA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create a report on reporting activities
 

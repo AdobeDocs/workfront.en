@@ -6,16 +6,35 @@ description: Without correct access or permissions, you may not be able to view 
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/qokl32bOcjAvfU4OmQHDVaKtf09q6iXdLKtWxgpr9bE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Access needed to manage resources in the Workload Balancer
-
-{{preview-fast-release-general}}
 
 Without correct access or permissions, you may not be able to view or manage your work assignments in the Workload Balancer.
 
 You must have access to view the users whose workload you want to view or manage in the Workload Balancer. In addition to this, you must have the correct access level and the correct permissions on the projects the work is associated with.
 
-<!--## Adobe Workfront package needed to use the Workload Balancer for different areas
+<!--
+## Adobe Workfront package needed to use the Workload Balancer for different areas
 
 The following table illustrates the connection between the Workfront plan your company has and where in the system you can use the Workload Balancer:
 
@@ -48,7 +67,8 @@ The following table illustrates the connection between the Workfront plan your c
 
 For information about the Workfront plans, see [Our Plans](https://business.adobe.com/products/workfront/pricing.html).
 
-For information about where you can locate the Workload Balancer in Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).-->
+For information about where you can locate the Workload Balancer in Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+-->
 
 ## Access needed to view the Workload Balancer
 
@@ -80,7 +100,7 @@ You must have the following access to view the Workload Balancer:
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<span class="preview">All users have access to view the Workload Balancer on their own profiles. This is not restricted by license or access level. Note that the Workload Balancer on a user profile is read-only, and assignments and allocations cannot be changed.</span>
+All users have access to view the Workload Balancer on their own profiles. This is not restricted by license or access level. Note that the Workload Balancer on a user profile is read-only, and assignments and allocations cannot be changed.
 
 ## Access needed to manage assignments in the Workload Balancer
 
@@ -114,7 +134,4 @@ You must have the following access to manage the Workload Balancer:
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--these notes were inside the table: for the Edit access to Res Management
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost (NOTE: this is not possible yet!)</p>    
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the Financial Data access level, see the article<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>. (NOTE: this is not possible yet!)</p>
-    -->
+

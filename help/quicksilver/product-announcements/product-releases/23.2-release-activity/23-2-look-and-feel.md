@@ -6,6 +6,13 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2120636a-9464-4121-b8ba-f9d0af022b37
+TQID: https://experienceleague.adobe.com/oDMI6qVkOVnVSLVKMJ5fSCD3B-xHrk1TAiflkOVzazc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Look and feel updates during the 23.2 release time frame
 

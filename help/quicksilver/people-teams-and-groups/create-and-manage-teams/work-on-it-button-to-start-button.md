@@ -3,9 +3,24 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Replace the Work On It Button with a Start Button
 description: Adobe Workfront's default configuration includes a Work On It button for tasks and issues that displays for items that you have been assigned to.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/NCVQgFJ7pyw6-6szjy0Z8NvwKca54gyXP3NDNpOg8ZU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Replace the [!UICONTROL Work On It] button with a [!UICONTROL Start] button
 

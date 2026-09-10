@@ -4,11 +4,21 @@ product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: integrations-workfront-proof
 title: Box
-description: Learn about integrating with Box. 
+description: Learn about integrating with Box.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: d49cfd97-1cd8-4d0b-997f-37013623da62
+TQID: https://experienceleague.adobe.com/0NRhzVI1MkdHB-TQeFxn6Afb82U3G2yQ1cMIVRSGv5w
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Box
 

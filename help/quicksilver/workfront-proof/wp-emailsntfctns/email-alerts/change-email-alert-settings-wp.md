@@ -7,6 +7,19 @@ description: You can also change the [!DNL Workfront Proof] email alerts you rec
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ac24a339-6f9f-4452-a37b-023752447700
+TQID: https://experienceleague.adobe.com/UcQqfm-X8HrPfZ6dzR3S7kBLtBUpLYpcvkq9RZG3Dwg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Change email alert settings for a proof in [!DNL Workfront Proof]
 
@@ -30,3 +43,4 @@ You can also change the [!DNL Workfront Proof] email alerts you receive for a pr
 1. Click the [!UICONTROL Details page] icon in the lower left corner of the proofing viewer. ![Details_page_btn.png](assets/details-page-btn.png)
 
 1. In the [!UICONTROL Workflow] section of the [!UICONTROL Proof details] page that appears, under **[!UICONTROL Email alerts]**, click the option you want in the dropdown menu.
+

@@ -2,18 +2,42 @@
 product-area: programs
 navigation-topic: create and manage programs
 title: Create a Program
-description: A program represents a collection of projects that share a common strategy, objective, or goal that transcends project boundaries. Programs are a subdivision of portfolios and they cannot exist outside of a portfolio. Programs typically share the same resources as other programs within the same portfolio. You can create programs to organize your portfolios when they become too large. 
+description: A program represents a collection of projects that share a common strategy, objective, or goal that transcends project boundaries. Programs are a subdivision of portfolios and they cannot exist outside of a portfolio. Programs typically share the same resources as other programs within the same portfolio. You can create programs to organize your portfolios when they become too large.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/v5hWK5R5IrLAzdg-lKtzmw-xyimiDCCCbVlCK7sBtyY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create a program
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 05/2026-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+-->
 
 A program represents a collection of projects that share a common strategy, objective, or goal that transcends project boundaries. 
 Programs are a subdivision of portfolios and they cannot exist outside of a portfolio. Programs typically share the same resources as other programs within the same portfolio. 
@@ -55,7 +79,8 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,7 +104,8 @@ For more detail about the information in this table, see [Access requirements in
    <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>After you create a program, you have [!UICONTROL Manage] permissions to it, by default.</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Ways to create programs
 
@@ -94,13 +120,18 @@ You can create a program in Workfront using one of the following methods:
    For information about importing data using kick-starts in Workfront, see [Import data into Adobe Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 
-* Add programs as you connect them from a record type in Workfront Planning. 
+* Create programs from Workfront Planning in the following ways: 
 
-   You must have an additional Workfront Planning package.
+   * As you connect them from a record type in Workfront Planning. 
 
-   For information about access to Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md).
+   For information about creating programs by adding them to records, see the section "Create records as you connect them" in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
+   * Using Workfront Planning automations. 
 
-   For information about creating portfolios by adding them to records, see the section "Create records as you connect them" in the article [Create records](/help/quicksilver/planning/records/create-records.md).
+   For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
+   You must have a new Workfront license and an additional Workfront Planning package for Workfront Planning.
+
+   For information about access to Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
 
 ## Create a program
 
@@ -110,17 +141,27 @@ You can create a program in Workfront using one of the following methods:
 
    * Create a program from the [!UICONTROL Programs] area:
 
-      1. Click **[!UICONTROL Programs]** in the Main Menu.
+      1. Click **[!UICONTROL Programs]** in the [!DNL **Main Menu**] ![Main Menu](assets/lines-main-menu.png).
       1. Click **[!UICONTROL New Program]**.
       1. In the box that displays, type the name of an existing Portfolio in the **[!UICONTROL Select Portfolio]** field.
       1. Type the name of the new program in the **[!UICONTROL Name]** field.
       1. Click **[!UICONTROL Save]**.
    * Create a program from the [!UICONTROL Portfolios] area:
 
-      1. Click **[!UICONTROL Portfolios]** in the [!UICONTROL Main Menu], then open a portfolio.
+      1. Click **[!UICONTROL Portfolios]** in the [!DNL **Main Menu**] ![Main Menu](assets/lines-main-menu.png), then open a portfolio.
       1. In the left panel, click **[!UICONTROL Programs]**.
       1. Click the **[!UICONTROL New Program]** drop-down menu, then **[!UICONTROL New Program]**.
+   * Add an existing program: 
+      1. Click **[!UICONTROL Portfolios]** in the [!DNL **Main Menu**] ![Main Menu](assets/lines-main-menu.png), then open a portfolio.
+      1. In the left panel, click **[!UICONTROL Programs]**.
+      1. Click the **[!UICONTROL New Program]** drop-down menu, then **[!UICONTROL Existing Program]**.
+      1. Start typing the name of an existing program or click the dropdown menu and select it from the list. 
 
+      >[!NOTE]
+      >
+      >When your organization uses both Workfront legacy and Adobe cloud document storages, you cannot add a project that has a different storage type than the program to a program. 
+      >Your Workfront instance might not have both types of document storage. 
+      >For information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md). 
 
 1. (Conditional) If you have created the program from a portfolio, specify the name for the Program in the **[!UICONTROL Untitled Program]** field.
 
@@ -155,13 +196,20 @@ You can specify the following information:
       <td role="rowheader">[!UICONTROL Program Manager]</td> 
       <td> <p>Begin typing the name of the user who you want to act as the Program Manager, then click the user's name when it appears in the drop-down list. This is the same as the [!UICONTROL Program Owner]. </p> <p>Tip: You can also update the Program Manager in the program header. </p> </td> 
      </tr> 
-     <tr data-mc-conditions=""> 
+     <tr> 
       <td role="rowheader">[!UICONTROL Group] </td> 
       <td> <p>Add the name of a single group if the group owns the program or has responsibility for completing it. </p> <p>You can make sure you are selecting the right group by hovering over it and clicking the [!UICONTROL information] icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> 
-       <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-        <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
-       </div> </td> 
+       <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
+        </td> 
      </tr> 
+
+   </tr> 
+   <tr> 
+   <td role="rowheader">[!UICONTROL Is Active] </td> 
+   <td> <p>Check this setting if you want this program to be active and for users to find it to associate it with projects.</p>
+   <p>When unchecked, the program does not display in the Program field for a project or a template. </p> 
+ </td> 
+   </tr> 
     </tbody> 
    </table>
 
@@ -180,7 +228,7 @@ You can specify the following information:
 1. Click **[!UICONTROL Save Changes]**.
 1. (Optional) Click the **[!UICONTROL More menu]** ![More menu](assets/more-icon.png) next to the program name and click **[!UICONTROL Deactivate Program]**.
 
-   When you deactivate a program, the program no longer displays in a list of program when users try to add it to a project. You can still access the program from the [!UICONTROL Programs] area.
+   When you deactivate a program, the program no longer displays in a list of programs when users try to add it to a project. You can still access the program from the [!UICONTROL Programs] area.
 
 ## Program header overview
 
@@ -193,7 +241,7 @@ The following information displays in the header of a program:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Header Information</td> 
+   <td role="rowheader"><strong>Header Information</strong></td> 
    <td> <strong>Notes</strong> </td> 
   </tr> 
   <tr> 
@@ -206,19 +254,20 @@ The following information displays in the header of a program:
   </tr> 
   <tr> 
    <td role="rowheader">Name of the object type and activation status</td> 
-   <td>The word "Program" displays with an orange icon when you view a program. The word "[!UICONTROL Deactivated]" displays next to it and the outline is gray if the program is not marked as [!UICONTROL Active]. </td> 
+   <td>The word "Program" displays with an orange icon when you view a program. The word "[!UICONTROL Deactivated]" displays next to it if the program is not marked as [!UICONTROL Is Active] in the [!UICONTROL **Program Details**] area. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the program </td> 
    <td> <p>Click any of the following to access more information or editing options for the program:</p> 
     <ul> 
      <li>The star icon to add the program to your list of Favorites</li> 
+     <li>The [!UICONTROL **Share**] button to share it with others</li> 
      <li> <p>The [!UICONTROL More] menu <img src="assets/qs-more-menu.png"> to do one of the following: </p> 
       <ul> 
        <li>Edit the program</li> 
        <li>Deactivate it. When a program is deactivated, you can no longer associate it with projects at the project level. </li> 
        <li> <p>Delete it. Deleting the program does not delete the projects in the program. It removes the association of the projects with the program. </p> </li> 
-       <li>Share it with others</li> 
+       <li>Recalculate Expressions for the program. This recalculates all calculated custom fields on the program's custom form. </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 

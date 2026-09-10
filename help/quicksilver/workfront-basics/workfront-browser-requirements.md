@@ -6,6 +6,16 @@ description: Both Adobe Workfront and Workfront Proof require the use of an inte
 feature: Get Started with Workfront
 author: Courtney
 exl-id: d5252675-ae87-4393-b05a-7810036e2f7d
+TQID: https://experienceleague.adobe.com/wvnnVO-fUD4E0t8Q63bV6zz2QOm2t7pP1MT2QBa2hTc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Adobe Workfront browser requirements
 

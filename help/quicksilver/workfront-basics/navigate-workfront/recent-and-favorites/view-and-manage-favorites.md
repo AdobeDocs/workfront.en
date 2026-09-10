@@ -6,6 +6,19 @@ description: The Favorites menu allows you to access items quickly. Items remain
 feature: Get Started with Workfront
 author: Courtney
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
+TQID: https://experienceleague.adobe.com/S0cPTosyBInMh-Pji9TY1JEtsHB7lyTNlMlM6-M-yNQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # View and manage favorites
 
@@ -57,7 +70,7 @@ You can add recent items or the current page to the [!UICONTROL Favorites] menu.
 
 ### Add recent items as a favorite
 
-1. Click the **[!UICONTROL Recents]** icon ![Recents icon](assets/recents-icon-40x43.png) in the upper-right corner of any page in the new [!DNL Adobe Workfront] experience.
+1. Click the **[!UICONTROL Recents]** icon ![Recents icon](assets/recents-icon.png) in the upper-right corner of any page in the new [!DNL Adobe Workfront] experience.
 1. Click the star in-line with the item you want to save as a favorite. The recent item displays in the **Favorites** menu.
 
    ![Favorite a recent item](assets/recents-section.png)
@@ -71,7 +84,7 @@ You can add recent items or the current page to the [!UICONTROL Favorites] menu.
 
    >[!NOTE]
    >
-   >If you click the **[!UICONTROL Favorites]** icon on an object that you have already added as a favorite, the object will be removed from the [!UICONTROL Favorites] menu.\
+   >If you click the **[!UICONTROL Favorites]** icon on an object that you have already added as a favorite, the object will be removed from the [!UICONTROL Favorites] menu.
    >![Remove from favorites](assets/nwe-remove-from-favorites-350x52.png)
 
 ## Remove an item from the [!UICONTROL Favorites] menu

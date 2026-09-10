@@ -5,6 +5,28 @@ description: Custom Forms are used to collect information that is not displayed 
 author: Becky
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/0yPDI-YkVjLL-IZiU5uXagoO8L9cd9pyFRDDd8EKKFI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Attach a Custom Form to a Business Case
 
@@ -75,7 +97,9 @@ To attach a custom form:
 
       ![Expand custom form details](assets/expand-custom-form-details.png)
 
-<!--1. (Optional) Select **Edit Custom Form**.  
+<!--
+1. (Optional) Select **Edit Custom Form**.  
   ![Edit custom form](assets/acf1-350x122.png)
 
-1. (Optional) Specify information in the fields of the custom form, then click **Save** . -->
+1. (Optional) Specify information in the fields of the custom form, then click **Save** .
+-->

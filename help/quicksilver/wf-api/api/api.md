@@ -9,6 +9,16 @@ feature: Workfront API
 recommendations: noDisplay, noCatalog
 role: Developer
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
+TQID: https://experienceleague.adobe.com/T-XaDpJdcTlcgMnHWPbluFacXAFhjuxWIGfieyIpF-o
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # API
 
@@ -28,6 +38,7 @@ This section contains the following articles:
 * [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md)
 * [Configure and use your organization's custom OAuth 2 applications using JWT flow](../../wf-api/api/oauth-app-jwt-flow.md)
 * [Configure and use your organization's custom OAuth 2 applications using PKCE flow](../../wf-api/api/oauth-app-pkce-flow.md)
+* [What's new in API version 22](../../wf-api/api/new-api-version-22.md) 
 * [What's new in API version 21](../../wf-api/api/new-api-version-21.md) 
 * [What's new in API version 20](../../wf-api/api/new-api-version-20.md) 
 * [What's new in API version 19](../../wf-api/api/new-api-version-19.md) 

@@ -6,6 +6,13 @@ description: The Adobe Workfront review tool is a browser extension that allows 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
+TQID: https://experienceleague.adobe.com/jwZKladWxKsiSvAjO8me1BWoxMx1UDB2TKl7k-jnjcY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Review interactive content with the Adobe Workfront review tool
 

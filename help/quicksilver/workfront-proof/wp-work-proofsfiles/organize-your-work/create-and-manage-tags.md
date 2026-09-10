@@ -7,6 +7,13 @@ description: You can create and edit tags and apply them to your proofs and file
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb720a1b-5136-4158-9ea0-bcb5755e1761
+TQID: https://experienceleague.adobe.com/sIZ53VhqzZxlud-4OEFP-voJIjJXjNd2x2hog8UHmzs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Create and Manage Tags in [!DNL Workfront Proof]
 

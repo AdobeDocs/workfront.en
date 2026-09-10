@@ -6,6 +6,27 @@ description: You can view the utilization of your resources in the Utilization r
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/5fqDtEMgNA2MD8W7VGBvmbxjCsKkVzkVWhxXsmOlHKM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # View resource utilization information {#view-resource-utilization-information}
 
@@ -62,12 +83,12 @@ You can view the utilization of your resources in the Utilization report.
      <li> <p>Projects</p> </li> 
      <li> <p>Portfolios</p> </li> 
      <li> <p>Programs</p> </li> 
-     <li> <p>Financial Data, if you want to view information by Cost</p> </li> 
+     <li> <p>Financial Data that includes access to View Cost Rates and View General Finance, if you want to view information by Cost</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Object permissions</td> 
-   <td> <p>View access to projects, portfolios, and programs to access the Utilization  section in the  Resourcing area</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-highloighted-350x145.png" style="width: 350;height: 145;"> </p> <p>Manage access to a project to access the Utilization section of the project</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-on-project-highloighted-350x289.png" style="width: 350;height: 289;"> </td> 
+   <td> <p>View access to projects, portfolios, and programs to access the Utilization section in the  Resourcing area</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-highloighted-350x145.png" style="width: 350;height: 145;"> </p> <p>Manage access to a project to access the Utilization section of the project</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-on-project-highloighted-350x289.png" style="width: 350;height: 289;"> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -361,11 +382,13 @@ For information on the specific fields and how Workfront calculates them, also s
  </tbody> 
 </table>
 
-<!--Note from the table about Actual revenue: 
+<!--
+Note from the table about Actual revenue: 
      <p>Actual Revenue is displayed in the Utilization report only after the task is marked as Complete or Done (or a status that equates with Complete).</p>
     -->
 
-<!--More notes from the table: 
+<!--
+More notes from the table: 
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;the note below is duplicated in this article: /Content/Manage work/Projects/Project Finances/billing-and-revenue-overview.html and in the glossary)</p>
    -->
 
@@ -420,7 +443,8 @@ The following information is available in the Utilization report when comparing 
  </tbody> 
 </table>
 
-<!--Note from the table from above "Function" header in the middle of the table; right after the "Planned Revenue"/"Margin" definition: 
+<!--
+Note from the table from above "Function" header in the middle of the table; right after the "Planned Revenue"/"Margin" definition: 
      <p scope="col" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This needs to be either split in two tables of formatted differently)</p>
     -->
     

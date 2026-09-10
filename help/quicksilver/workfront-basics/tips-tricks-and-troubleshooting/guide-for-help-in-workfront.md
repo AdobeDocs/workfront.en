@@ -6,6 +6,32 @@ description: Your quick guide to finding help in [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 author: Becky
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/iBp-i2UxWo1qoDv6z-dWI8gF5ILCBRPWbYlQVWtkHpo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Your quick guide to finding help in [!DNL Adobe Workfront]
 
@@ -20,9 +46,9 @@ Welcome to [!DNL Adobe Workfront!] We know you have questions and are not always
 >We encourage you to bookmark this page. We'll be updating it with added resources as they become available. >
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
+ >
 (NOTE: from Luke: I wonder who added this. This article does containa lot of good information. I wonder if we should update the TOC so that it appears in a more prominent section?)>
-</MadCap:conditionalText>>
+ >
 -->
 
 ## How can I get questions answered and learn about [!DNL Workfront?]
@@ -150,7 +176,8 @@ To learn more about the [!DNL Workfront] Status site, see [The [!DNL Adobe Workf
 
 To learn what has been fixed in a weekly Maintenance Update, see [Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
-<!-- the links in this section don't work anymore and I am not sure who would have the content?! Made a note to update this but will have to do some searching - October 26, 2023: 
+<!--
+ the links in this section don't work anymore and I am not sure who would have the content?! Made a note to update this but will have to do some searching - October 26, 2023: 
 
 ## What are best practices for maintaining and tuning up [!DNL Workfront?]
 

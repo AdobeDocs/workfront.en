@@ -8,6 +8,26 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/bAHZFeyzwdwfL5DtWep5THlkv2t5MqhcIIq-pmuj4ps
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Edit documents in bulk
 
@@ -38,7 +58,8 @@ Consider the following when editing document custom forms in bulk:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p> Any</p> </td> 
+   <td> <p>Any Workfront package to manage documents using legacy Workfront storage</p>
+<p>Any Workflow package to manage documents using Adobe cloud storage</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses*</td> 
@@ -60,7 +81,9 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Edit documents in bulk
+## Edit documents in bulk in the legacy documents area
+
+If your organization is on legacy Workfront Storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront Storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 To edit documents in bulk:
 
@@ -87,6 +110,31 @@ To edit documents in bulk:
     </table>
 1. Click **Save**.
 
+## Edit documents in bulk in the new Documents area
+
+
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+To edit documents in bulk:
+
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Press ctrl or cmd on your keyboard, and select the documents you want to edit. 
+1. Click Edit at the bottom of the page.
+    ![edit multiple documents](assets/bulk-edit-documents.png)
+1. (Optional) Add or edit the **Description**. If the description on each document is different, you will see _Multiple values_ in the description box. You can add the same description for all documents, but you cannot edit individual document descriptions when editing in bulk.
+1. Make the following changes with custom forms:
+
+    <table>
+    <tr>
+    <td><strong>Add forms</strong></td>
+    <td>In the <strong>Custom form</strong> section, you can add a new custom form to the selected documents. Custom forms attached to all selected documents display in the <strong>Custom forms in common</strong> section.  </td>
+    </tr>
+    <tr>
+    <td><strong>Edit forms</strong></td>
+    <td>Edit any attached custom forms. The information you change overwrites the existing information on individual documents. Fields with different values across documents display as "Multiple values". </td>
+    </tr>
+    </table>
+1. Click **Save**.
 
 ## Edit documents in bulk in a Document report
 
@@ -95,7 +143,6 @@ or
 Create a document report as described in [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Select the documents you want to edit.
 1. Click the Edit icon ![edit icon](assets/edit-icon.png).
-    ![edit icon location on page](assets/edit-multiple-documents.png)
 1. (Optional) Add or edit the **Description**. If the description on each document is different, you will see _Multiple values_ in the description box. You can add the same description for all documents, but you cannot edit individual document descriptions when editing in bulk.
 1. Make the following changes with custom forms:
 

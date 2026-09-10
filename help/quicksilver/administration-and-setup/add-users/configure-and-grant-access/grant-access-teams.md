@@ -5,6 +5,19 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
+TQID: https://experienceleague.adobe.com/Z9KMDwzTwBZLGjLtfxd3H42jd12-7ob3RCn0-IXN-Hc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Grant access to teams
 
@@ -38,7 +51,7 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Configure users' access to edit users using a custom access level
+## Configure users' access to edit teams using a custom access level
 
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Click the gear icon ![](assets/gear-icon-settings.png) on the **View** or **Edit** button to the right of Teams, then select the abilities you want to grant under **Fine-tune your settings**.
@@ -65,7 +78,7 @@ For more detail about the information in this table, see [Access requirements in
        </tbody>
       </table>
 
-   * **Edit**: If you are configuring how users with a Plan license and Work license can manage teams, change any of the following options:
+   * **Edit**: If you are configuring how users with a Standard, Plan, or Work license can manage teams, change any of the following options:
 
       <table style="table-layout:auto">
        <col>
@@ -73,19 +86,19 @@ For more detail about the information in this table, see [Access requirements in
        <tbody>
         <tr>
          <td role="rowheader">Create</td>
-         <td><p>Allows users with a Plan license or Work license to create teams.</p><p>This option is enabled by default.</p></td>
+         <td><p>Allows users with a Standard, Plan, or Work license to create teams.</p><p>This option is enabled by default.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Delete</td>
-         <td><p> Allows users with a Plan license to delete the teams that they have access to edit (unavailable for users with a Work license).</p><p>This option is enabled by default.</p></td>
+         <td><p> Allows users with a Standard or Plan license to delete the teams that they have access to edit (unavailable for users with a Work license).</p><p>This option is enabled by default.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Edit teams in groups I manage (Group Admins only)</td>
-         <td><p>Allows Plan license users who are designated as group administrators to edit teams associated with the groups they manage.</p><p>This option is enabled by default.</p></td>
+         <td><p>Allows Standard or Plan license users who are designated as group administrators to edit teams associated with the groups they manage.</p><p>This option is enabled by default.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Edit teams I'm on</td>
-         <td><p>Allows users Plan license or Work license to edit teams where they are a member.</p><p>This option is disabled by default.</p></td>
+         <td><p>Allows users with a Standard, Plan, or Work license to edit teams where they are a member.</p><p>This option is disabled by default.</p></td>
         </tr>
         <tr>
          <td role="rowheader">View teams associated with my groups</td>
@@ -119,4 +132,4 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Access to teams by license type
 
-For information about what users in each access level can do with issues, see the section [Teams](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams) in the article [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+For information about what users in each access level can do with teams, see the section [Teams](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#teams) in the article [Functionality available for each object type](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).

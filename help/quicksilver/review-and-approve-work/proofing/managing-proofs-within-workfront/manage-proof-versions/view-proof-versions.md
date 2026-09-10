@@ -6,6 +6,19 @@ description: You can view past versions of a proof.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 909b8924-c0f6-47a6-ba30-fbff7c2e0d55
+TQID: https://experienceleague.adobe.com/wh0aQ5IGno99FVXE8mxcu8m9HrZCQ-9qTdOxJUchweI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # View proof versions
 

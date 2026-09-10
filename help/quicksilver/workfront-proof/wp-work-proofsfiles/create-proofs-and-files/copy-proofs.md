@@ -7,6 +7,13 @@ description: Reviewers with edit rights on a proof can create a copy of the proo
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7d2db918-ebf0-4c52-9039-54c3eb5515f0
+TQID: https://experienceleague.adobe.com/PS4LlvkS0KTleGJj-6aNtOjbTtRpqQTXoKKFdcSZb-8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Copying Proofs in [!DNL Workfront Proof]
 

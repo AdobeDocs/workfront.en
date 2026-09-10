@@ -6,6 +6,26 @@ description: As a Resource Manager, you can assign work to users and manage thei
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
+last-update: 2026-04-01T18:23:03.000Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+TQID: https://experienceleague.adobe.com/XyWVRXfAEOZppXJVTWL4jFX9UoB2s1uzXEebHrlY0xw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Manage user allocations in the Workload Balancer
 
@@ -68,7 +88,8 @@ The task Planned Hours are distributed equally between all the days within the D
 
 >[!CAUTION]
 >
->The Workload Balancer only displays <!--up to 1000 Planned Hours per work item per user, and--> up to 1000 days of an item's duration. The allocations in the Workload Balancer display as zero after the 1000 day limit is reached. We recommend dividing tasks in smaller subtasks <!--to accommodate a larger number of Planned Hours or--> for durations of more than 1000 days.
+>The Workload Balancer only displays <!--up to 1000 Planned Hours per work item per user, and--> up to 1000 days of an item's duration. The allocations in the Workload Balancer display as zero after the 1000 day limit is reached. We recommend dividing tasks in smaller subtasks for durations of more than 1000 days.
+<!--to accommodate a larger number of Planned Hours or--> 
 
 Consider the following when locating daily, weekly or monthly allocations for tasks or issues in the Workload Balancer:
 

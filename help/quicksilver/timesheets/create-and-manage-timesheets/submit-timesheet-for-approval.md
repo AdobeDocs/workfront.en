@@ -6,6 +6,28 @@ description: Submitting your timesheet for approval provides your manager with v
 author: Lisa
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
+TQID: https://experienceleague.adobe.com/uxfkWowkcyC9zeX1vNaZaY-i3AFCHMngvflZ8-REnac
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Submit a timesheet for approval
 
@@ -60,7 +82,7 @@ To submit a timesheet for approval:
 1. Log time, as described in [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 1. Click **Submit for approval** to launch the timesheet approval process.
 
-   ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
+   ![Submit for approval button](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
    The **Submit for approval** button is replaced by the **Approve**, **Reject**, and **Recall** buttons. The status of the timesheet changes to **Submitted**.
 
@@ -81,10 +103,11 @@ Without these notifications, you can learn about the status of your submitted ti
 
 To view the status of a timesheet:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-1. Click **Timesheets**. The **All** filter is selected by default.
+{{step1-to-timesheets}}
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+   The **All** filter is selected by default.
+
+   ![Timesheets list with one timesheet selected](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Optional) Do one of the following to update the filter in the list of timesheets:
 
@@ -96,19 +119,13 @@ To view the status of a timesheet:
 
      This applies the My Timesheet Approvals or the My Timesheet filters to the list of timesheets.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![My timesheets filter buttons on the Timesheets list page](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Click the Filter icon ![](assets/filter-nwepng.png) to apply a different filter, or create a new one. For information about creating or updating filters, see [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Click the Filter icon ![Filter icon](assets/filter-nwepng.png) to apply a different filter, or create a new one. For information about creating or updating filters, see [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
-   >The My Timesheet Approvals and My Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed the My Timesheet Approvals and the My Timesheets filters from either the List Controls in the Setup area or from your Layout Template. For more information see the following articles:
-   >
-   >   
-   >   
-   >   * [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
-   >   
-   >
+   >The My Timesheet Approvals and My Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed those filters from either the List Controls in the Setup area or from your Layout Template. For more information, see [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 1. (Conditional) If you selected **My Timesheets**, ensure that the **Standard** view is applied and notice the **Status** column.
 
@@ -147,10 +164,9 @@ You can recall a timesheet that has already been submitted for approval. Only ti
 
 To recall a timesheet:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Click **Timesheets**.
-1. Click **My Timesheets** in the upper-right corner of the screen or select **My Timesheets** from the **Filter** ![](assets/filter-nwepng.png) drop-down menu.
+1. Click **My Timesheets** in the upper-right corner of the screen or select **My Timesheets** from the **Filter** ![Filter icon](assets/filter-nwepng.png) drop-down menu.
 1. Click the time frame for a timesheet with a status of **Submitted**.
 1. Click **Recall**.
 

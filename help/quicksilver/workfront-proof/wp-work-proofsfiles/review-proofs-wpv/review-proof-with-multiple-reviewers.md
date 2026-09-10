@@ -7,6 +7,13 @@ description: Multiple reviewers can review a proof at the same time. When you ar
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4f55af53-0ca8-4f50-b539-b93d13655f0c
+TQID: https://experienceleague.adobe.com/KffxDWcUyQRnEQkBmUXXAKwMDDFjKy6l5Wj-psTaFZ0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Review a proof simultaneously with multiple reviewers
 

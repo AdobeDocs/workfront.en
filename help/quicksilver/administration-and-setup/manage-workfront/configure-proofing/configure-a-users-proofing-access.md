@@ -8,6 +8,21 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
+TQID: https://experienceleague.adobe.com/L-AMDvQYgtXJwxmtwekimbEA9OQQN72QHIcoQ2iKzGU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure a user's proofing access
 
@@ -43,19 +58,6 @@ You must have the following access to perform the steps in this article:
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 +++
-
-## Enable and disable proofing for a user (legacy plans only) {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
-
-If your organization is using a legacy Select or Premium Workfront Plan, as a Workfront administrator, you can enable and disable proofing functionality for the user.
-
-When you enable proofing for a user, Workfront enables the option for the user's proofs to generate automatically.
-
-Though you can enable a user as a proofing user, he or she must have Administrator permissions in order to navigate directly to the Workfront Proof interface from the Workfront Main Menu. For information about how you can enable this option for all proofing users in your Workfront system, see [Configure Workfront Proof access via Workfront Main Menu for all users](#configure-workfront-proof-access-via-workfront-main-menu-for-all-users).
-
-1. In the **Main Menu**, select **Users**.
-
-1. Select a user, then click the **Edit** icon.
-1. In the **Access** section, select or deselect **User can generate proofs**.
 
 ## Configure a user's proof permission profile
 

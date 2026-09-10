@@ -5,10 +5,20 @@ title: New commenting experience release activity
 description: Review the weekly release activity for the Adobe Workfront new commenting experience.
 author: Alina
 feature: Product Announcements
-hide: yes
-hidefromtoc: yes
+hide: true
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/vQxq09j6G2hcey1yZqWXV4V2t-2ko76Bu4WnFAAGUQc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # New commenting experience release activity
 
@@ -18,7 +28,8 @@ exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
 * <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+-->
 
 
 >[!IMPORTANT]

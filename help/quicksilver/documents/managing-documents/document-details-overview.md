@@ -3,26 +3,33 @@ content-type: overview
 product-area: documents
 navigation-topic: manage-documents
 title: Document Details overview
-description: The Document Details page lets you view, communicate about, and manage the properties of a document attached to a Adobe Workfront object.
+description: The Document Details page lets you view, communicate about, and manage the properties of a document attached to an Adobe Workfront object.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/k4qFA-R7MGSh5NBTbJCeOEac5Z30PVxzO8rxLRJi23Q
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Document Details overview
 
-The Document Details page lets you view, communicate about, and manage the properties of a document attached to a Adobe Workfront object.
+The Document Details page lets you view, communicate about, and manage the properties of a document attached to an Adobe Workfront object.
 
-## Open the Document Details page
+## Legacy documents area
 
-{{step1-to-documents}}
+If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe cloud storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-1. Hover over the document, then click **Document Details**.
 
-   ![Document details](assets/document-details-350x179.png)
 
-## Perform basic actions for documents and proofs
+### Perform basic actions for documents and proofs
 
-You can perform the following actions for both documents and proofsfrom the Document Details page:
+You can perform the following actions for both documents and proofs from the Document Details page:
 
 * Create a simple or advanced Proof
 * Create a new version
@@ -39,9 +46,9 @@ In addition, you can use the More icon ![More menu](assets/more-icon.png) next t
 * Download
 * Send
 
-## Perform actions specific to proofs
+### Perform actions specific to proofs
 
-You can perform the following actions from the document details page if your on the proof workflow:
+You can perform the following actions from the document details page if you are on the proof workflow:
 
 * View Sent, Opened, Comment, Decision (SOCD) details
 * Open a proof
@@ -50,3 +57,68 @@ You can perform the following actions from the document details page if your on 
 * Edit Proofing Custom Fields
 
   Proofing Custom Fields must be set up in Workfront Proof. For more information, see [Create and manage custom fields in Workfront Proof](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md).
+
+![Document details](assets/doc-details-full-legacy.png)
+
+### Open the Document Details page in the legacy documents area
+
+{{step1-to-documents}}
+
+1. Hover over the document, then click **Document Details**.
+
+   ![Document details](assets/doc-details-legacy.png)
+
+
+## New Documents area
+
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+You can perform the following actions for documents from the Document Details page:
+
+<table style="border: none; width: 80%; margin: 0 auto;">
+<tr style="border: none;">
+<td style="border: none; width: 50%; padding-right: 20px;">
+<ul>
+<li>Open in Frame.io. <br>You must have a Frame.io enterprise license to use this feature.</li>
+<li>Delete a document</li>
+<li>Edit a document</li>
+</ul>
+</td>
+<td style="border: none; width: 50%; padding-left: 20px;">
+<ul>
+<li>Move a document</li>
+<li>Send a document to Experience Manager Access</li>
+<li>Share a document</li>
+</ul>
+</td>
+</tr>
+</table>
+
+![Document details more menu icon](assets/more-menu-new-doc.png)
+
+
+
+### Open the Document Details panel in the new Documents area
+
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+1. Select the document, then click **Show Details** in the left sidebar.
+
+   ![Document details](assets/doc-details.png)
+
+
+### View the Print Summary in the new Documents area
+
+After a document has an approval, you can open the Frame.io Print Comments page to view the asset preview, comments, and approval decisions in a printable format.
+
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+1. Select the document, then click **Show Details** in the left sidebar.
+
+   ![Document details](assets/doc-details.png)
+
+1. In the **Overview** section, click **Open Print Summary**.
+
+
+>[!NOTE]
+>
+>The Print summary link only appears after an approval has been added to the document.
+

@@ -8,8 +8,27 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
+TQID: https://experienceleague.adobe.com/UJTrVSvxhzjNAhbV6TkLv6XYDQeHSCT9KU-BZFVukGA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Customize Filters, Views, and Groupings using a layout template
+
+{{preview-fast-release-general}}
 
 As an Adobe Workfront administrator, you can use a layout template to specify which list controls appear in the Filter, View, and Grouping drop-down menus. These menus appear above lists throughout Workfront, such as the list of tasks for a project:
 
@@ -53,11 +72,15 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Customize Filter, View, and Grouping list controls
 
+
+>[!NOTE]
+>
+>Adding a view, filter, or grouping to a layout template controls layout only; it does not grant access. Users still need view access to each item. 
+>
+>Contributor, Requestor, and External license users can't see items shared system-wide, so views intended for them must be shared explicitly. For information, see [Share a filter, view, or grouping](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md). 
+
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Click the down arrow ![Down arrow](assets/down-arrow-blue.png) under **Customize what users see**, then click **Lists** in the drop-down menu that displays.
-
-   ![Customize what users see](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
-
 1. Click the down arrow ![Down arrow](assets/down-arrow-blue.png) under **Select a list to customize**, then select the type of Workfront object for which you want to customize the Filter, View, and Grouping list controls.
 
    ![Select a list to customize](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
@@ -73,6 +96,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >* In the header on the Projects area header:
    >   
    >  ![Disable filters button](assets/disable-filter-pills.png)
+
+   <span class="preview">Some enhanced lists are available to choose from. These lists have a "New Experience" label next to the list controls. For information on enhanced lists, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).</span>
 
 1. (Optional) If you want to change the default filter, view, or grouping for the layout template, hover over the filter, view, or grouping, then click **Set as default**.
 

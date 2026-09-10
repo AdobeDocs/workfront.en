@@ -6,6 +6,21 @@ description: You can download documents from Adobe Workfront either individually
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/m2PJssYSK-ig8PgPS7o5ZyYuvcQJueGVzDtRA9uv6lU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Download documents
 
@@ -21,7 +36,8 @@ You can download documents from Adobe Workfront either individually or in bulk. 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any</p> </td> 
+   <td> <p>Any Workfront package to manage documents using legacy Workfront storage</p>
+<p>Any Workflow package to manage documents using Adobe cloud storage</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -44,16 +60,22 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Download an individual document
+## Download documents in the legacy documents area
+
+If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe cloud storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Download an individual document in the legacy documents area
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
 
 1. Click the **Download Selected** icon ![Download Selected icon](assets/download-icon.png).
 
-## Download multiple documents simultaneously
+![download an individual document](assets/legacy-doc-download.png)
 
-You can download multiple documents simultaneously.&nbsp;
+### Download multiple documents simultaneously in the legacy documents area
+
+You can download multiple documents simultaneously.
 
 1. Go to the Documents area containing the documents you want to download.
 1. (Optional) Select the individual documents that you want to download from the list of documents.
@@ -66,3 +88,12 @@ You can download multiple documents simultaneously.&nbsp;
 1. Click the Download Selected icon ![Download Selected icon](assets/download-icon.png).
 
    Folders are downloaded as .zip files and are limited to 4GB.
+
+## Download documents in the new Documents area
+
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+1. Find the documents you need, then click **Download**.
+
+![Download document](assets/download-new-doc.png)

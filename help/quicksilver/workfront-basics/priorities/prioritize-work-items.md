@@ -6,6 +6,19 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
+TQID: https://experienceleague.adobe.com/oAAjiUwY1-ktNuwMHyKbvfbTvSYqdXC4vidLD4qCh-Q
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Prioritize important work items
 
@@ -63,7 +76,7 @@ For more detail about the information in this table, see [Access requirements in
     | **Normal**  | Normal is for routine work items that you will work on after Urgent and High-priority items are complete. This is the default for tasks and issues.        |
     | **Low**    |  Low is for work items that do not need immediate attention and can be deferred until all higher-priority work items are done.    |
 
-    ![My Focus](assets/my-focus-new.png)
+    ![My Focus](assets/my-focus-060226.png)
 
     >[!TIP]
     >

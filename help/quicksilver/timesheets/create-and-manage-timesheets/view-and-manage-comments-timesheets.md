@@ -2,10 +2,26 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: View and Manage Comments on a Timesheet
-description: You can make comments on timesheets, the work items included in the timesheets, as well as on every hour entry that you log. 
+description: You can make comments on timesheets, the work items included in the timesheets, as well as on every hour entry that you log.
 author: Lisa
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
+TQID: https://experienceleague.adobe.com/Lx-CI6hjj-YXrxIus0Kicsa7Gx84xjiuKDUJWPpUVqc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # View and manage comments on a timesheet
 
@@ -80,9 +96,8 @@ To show comments on a timesheet:
 
 You can make general comments about the timesheet. Commenting on the overall timesheet is similar to commenting on other objects. 
 
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** icon ![Lines main menu](assets/lines-main-menu.png) in the upper-left corner or Workfront, if available.
+{{step1-to-timesheets}}
 
-1. Click **Timesheets**.
 1. Go to the timesheet where you want to make a comment.
 1. Click **Updates** in the left panel, then click the **Comments** tab.
 1. Start adding new comments or reply to existing ones, as described in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
@@ -112,9 +127,8 @@ You can make general comments about the timesheet. Commenting on the overall tim
 
 ### Comment on an individual hour entry in a timesheet {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Click **Timesheets**.
 1. Go to the timesheet where you want to make a comment and click **Timesheet** in the left panel.
 1. Click in the hour entry field where you want to make a comment and click **Comment** to add a comment for your hour entry. 
 
@@ -151,8 +165,8 @@ You can make general comments about the timesheet. Commenting on the overall tim
 
 You can comment only on tasks and issues in a timesheet. You cannot comment on projects or general time. 
 
-1. Click the [!UICONTROL **Main Menu**] icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-1. Click [!UICONTROL **Timesheets**].
+{{step1-to-timesheets}}
+
 1. Go to the timesheet where you want to make a comment, and click [!UICONTROL **Timesheet**] in the left panel.
 1. Click the row of a task or an issue, then click [!UICONTROL **Open Summary**]. 
 1. Start typing an update in the [!UICONTROL **Updates**] area of the Summary panel, then click [!UICONTROL **Submit**].

@@ -7,6 +7,13 @@ description: You can upload files to [!DNL Workfront Proof] without creating a p
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 88693211-b5f5-4f99-97a9-5c29039f4f01
+TQID: https://experienceleague.adobe.com/uF6cyqGq5aWa9OL5OJW3-Adry0NZ628zn8IqfjaYx9E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Upload Files and Web Content to [!DNL Workfront Proof]
 

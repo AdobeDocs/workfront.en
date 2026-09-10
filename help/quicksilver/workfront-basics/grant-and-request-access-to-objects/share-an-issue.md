@@ -6,6 +6,19 @@ description: Your Adobe Workfront administrator grants users access to view or e
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
+TQID: https://experienceleague.adobe.com/APJfLfTk7gg-Tyi6wWhzLgXqFDnuRuv5hjKpr0IwwsU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Share an issue
 
@@ -161,7 +174,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
     ![Share issue button](assets/share-issue-button.png)
 
-1. In the **Grant issue access to** field, begin typing the name of the user, team, role, group, or company you want to share the issue with, then click the name when it appears in the drop-down list.
+1. In the **Grant issue access to** field, begin typing the name of the user, team, role, group, company, or business profile you want to share the issue with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
@@ -195,7 +208,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
     ![Bulk share issues](assets/bulk-share-issues.png)
 
-1. In the **Grant issue access to** field, begin typing the name of the user, team, role, group, or company you want to share the issues with, then click the name when it appears in the drop-down list.
+1. In the **Grant issue access to** field, begin typing the name of the user, team, role, group, company, or business profile you want to share the issues with, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
@@ -338,6 +351,24 @@ The following table displays what permissions you can grant users when allowing 
    <td>  </td> 
    <td>✓</td> 
   </tr> 
+  <tr> 
+   <td> <p>View Billing Rates*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>View Cost Rates*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>View General Finance*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
  </tbody> 
 </table>
 

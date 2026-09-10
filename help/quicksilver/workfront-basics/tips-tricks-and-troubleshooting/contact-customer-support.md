@@ -6,6 +6,23 @@ description: As an Adobe Workfront customer, you can contact the Workfront Custo
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/x2Xcq-cSCBA-SjFQ-DBp4v3RIPJorZs8oBdSOTdTKFs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Contact Customer Support
 
@@ -59,7 +76,8 @@ You can contact [!DNL Workfront Customer Support] 7 days a week, 24 hours a day,
 * EMEA: +44 800 169 0454
 * Australia: +61 180 035 8683
 
-<!--Old numbers - before 2/10/2025:
+<!--
+Old numbers - before 2/10/2025:
 
 * US: 844-306-HELP(4357)
 * EMEA: +44 1256 274200
@@ -131,7 +149,8 @@ If you have any questions or problems submitting a request, call the Customer Su
 1. (Optional) To close the case, click the **[!UICONTROL Close case]** button.
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
+<!--
+drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

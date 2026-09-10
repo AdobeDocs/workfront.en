@@ -7,6 +7,19 @@ description: If you are a [!DNL Workfront Proof] administrator and you have one 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a7cf8086-8291-4a27-abd1-afd8217f1fcc
+TQID: https://experienceleague.adobe.com/WnZLS4iV-4W05UukPr7-uKYGbtoj49ol-W0kJSWy9R4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Move Users Between Accounts using [!DNL Workfront Proof]
 

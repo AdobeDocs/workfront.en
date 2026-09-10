@@ -7,6 +7,18 @@ description: Various features are being phased out of the Adobe Workfront produc
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/UWIgItczhaLrXRwcE39PHyx7-SD3QmBhs2-JfmURLa8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Schedule of features no longer supported
 
@@ -46,19 +58,24 @@ Various features are being phased out of the Adobe Workfront product. Following 
    <td> <p>Flash</p> <p>Various tools are now available in Workfront to as replacements for each Flash-based tool. For more detailed information, see <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Replacement of Flash-based tools in Adobe Workfront</a>.</p> </td> 
    <td>&nbsp;</td> 
    <td> <p>&nbsp;</p> <p>Removed from the Workfront platform on November 19, 2020</p> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>Enhanced Authentication 1.0</p> <p>The method of migrating to the new Enhanced Authentication 2.0 depends on whether you are using Legacy Authentication or Enhanced Authentication 1.0. For more information, see <a href="../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md" class="MCXref xref">Enhanced Authentication overview</a>.</p> </td> 
     <td>&nbsp;</td> 
     <td>2021</td> 
    </tr>
-  --> <!--
+  -->
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p>Allowlist updates </p> <!--
+    <td> <p>Allowlist updates </p>
+    <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Split</p>
-     --> <!--
+     -->
+     <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Email Service updated (MailGun)</p>
-     --> </td> 
+     -->
+     </td>
     
    </tr>
   

@@ -7,6 +7,26 @@ description: Overview of calculating hours and FTE for users and roles in the Re
 author: Lisa
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
+TQID: https://experienceleague.adobe.com/plzNKZEP3YSHuUZt2MrWb9Q--QemkwCEJD3JxWlB6x4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Overview of calculating hours and FTE for users and roles in the Resource Planner
 
@@ -41,7 +61,7 @@ The Workfront administrator determines how the available time for a user is calc
 * The Default Schedule of the system and the user's FTE. 
 * The user's schedule. 
 
-![System setting for user schedules](assets/setup-resource-mgmt.png)
+![System setting for user schedules](assets/resource-management-preferences-section-in-setup.png)
 
 >[!NOTE]
 >
@@ -85,8 +105,9 @@ Based on how this setting is configured, the availability of the users in the Re
 
 You first have to calculate the user availability, and then you can calculate the availability of each of their job roles.
 
-The availability of job roles in the Resource Planner takes into account the total availability of the user, and the Percentage of FTE Availability associated with each role of the user.  
-![percent_of_fte_availability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level-350x144.png)
+The availability of job roles in the Resource Planner takes into account the total availability of the user, and the Percentage of FTE Availability associated with each role of the user.
+
+![percent_of_fte_availability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level.png)
 
 For more information about associating a Percentage of FTE Availability value with a job role for a user, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 

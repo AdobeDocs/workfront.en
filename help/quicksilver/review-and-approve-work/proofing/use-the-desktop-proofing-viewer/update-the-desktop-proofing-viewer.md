@@ -6,6 +6,21 @@ description: Occasionally, new software updates containing improvements and bug 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b29ce9d0-9203-49aa-aa4c-70dee121cd17
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/Rmijt-VqAizDoR1TgrlifnkS-wtRDBZbO9hqJJRTBck
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Update the Desktop Proofing Viewer
 
@@ -14,7 +29,8 @@ Occasionally, new software updates containing improvements and bug fixes become 
 <!--
 >[!IMPORTANT]
 >
->Windows users must manually reinstall the Desktop Proofing Viewer to support Chrome version 91. After manually reinstalling, the Desktop Proofing Viewer upgrades to the latest version (2.0.15). Future updates to the Desktop Proofing Viewer will be automatic. For information in reinstalling, see [Install the Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md). -->
+>Windows users must manually reinstall the Desktop Proofing Viewer to support Chrome version 91. After manually reinstalling, the Desktop Proofing Viewer upgrades to the latest version (2.0.15). Future updates to the Desktop Proofing Viewer will be automatic. For information in reinstalling, see [Install the Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+-->
 
 ## Access requirements
 

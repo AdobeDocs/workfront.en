@@ -8,12 +8,25 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c8e6af1b-8cf3-4522-b0eb-7e5f2d34f5a9
+TQID: https://experienceleague.adobe.com/1YcWwn-lgWF1WvnWPx98DaTgDU8YexQ9mI-ug451sFM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Grant access to templates
 
 As an Adobe Workfront administrator, you can use an access level to define a user's access to templates, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). 
 
-Only users with a Plan license can have full access to templates.
+Only users with a Standard or Plan license can have full access to templates.
 
 For information about using custom access levels to manage users' access to other object types in Workfront, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -59,7 +72,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Access to templates by license type
 
-For information about what users in each access level can do with templates, see the section [Templates](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#template) in the article [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+For information about what users in each access level can do with templates, see the section [Templates](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#templates) in the article [Functionality available for each object type](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
 
 ## Access to shared templates
 

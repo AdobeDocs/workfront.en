@@ -6,6 +6,19 @@ description: Do I have to use [!DNL Adobe Workfront Fusion?]
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bbc24834-8e96-44ce-8098-63765d86ccc2
+TQID: https://experienceleague.adobe.com/e-IZiEvF2GkA5uS3QA-J8LQYCeV9dU698hPcSnCqR3Q
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # [!DNL Adobe Workfront with Anaplan] Integration FAQs
 

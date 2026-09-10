@@ -7,6 +7,13 @@ feature: Get Started with Workfront
 author: Courtney
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
+TQID: https://experienceleague.adobe.com/NdEAmkWrFDjyyP1XQ9mTwR9WRKvTKF3wMONn7Zynu1U
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Navigate [!DNL Adobe Workfront]: article index
 
@@ -33,4 +40,4 @@ This section contains the following subsections and articles:
 * [Access [!DNL Adobe Workfront] help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
 * [Overview of the Project, Task, and Issue dates in [!DNL Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
 * [Understand the navigation for a [!UICONTROL Work]-license user](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
-* [Understand the navigation for a [!UICONTROL Review]-license user](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
+* [Understand the navigation for a [!UICONTROL Light]-license user](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)

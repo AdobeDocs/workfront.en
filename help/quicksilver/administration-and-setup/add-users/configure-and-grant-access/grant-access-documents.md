@@ -8,6 +8,19 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba1d9a9b-7a1f-498b-a6e5-c548a11ac87c
+TQID: https://experienceleague.adobe.com/lUBBvEEWEU-w0X2VbzPP34Int3VBE1tyV5aCdlloaFM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Grant access to documents
 

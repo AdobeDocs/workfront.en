@@ -9,6 +9,28 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
+TQID: https://experienceleague.adobe.com/JRpv3D6jvXaCCi3GZJ--rGphpZ13AjMIDSP1jJL4UUs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Active and deactivated objects
 
@@ -96,11 +118,11 @@ For information about deactivating users, see [Deactivate or reactivate a user](
 
 >[!IMPORTANT]
 >
->If your organization has been onboarded to the [!DNL Adobe Business Platform], you must deactivate users through the [!UICONTROL Adobe Admin Console].
+>After your organization has been onboarded to the [!DNL Adobe Business Platform], you must deactivate users through the [!UICONTROL Adobe Admin Console].
 >
 >For instructions on deactivating a user in the [!UICONTROL Adobe Admin Console], see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your [!UICONTROL Adobe Admin Console] Administrator.
 >
->For a list of procedures that differ based on whether your organization has been onboarded to the [!DNL Adobe Business Platform], see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the [!DNL Adobe Business Platform], see [Administration differences between Adobe Workfront and Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Teams
 

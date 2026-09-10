@@ -6,6 +6,24 @@ description: You can budget your resources in the Adobe Workfront Resource Plann
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
+TQID: https://experienceleague.adobe.com/k8gK4CEKv7EatW5tFiS0ebNDQXfryINmjGi-hZVP2d4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Calculate costs in the Resource Planner
 
@@ -15,7 +33,7 @@ exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
 
 <!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
-You can budget your resources in the Adobe Workfront Resource Planner by using Cost values, instead of Hours or FTE values. Cost values are not available for the**View by User** view in the Resource Planner.
+You can budget your resources in the Adobe Workfront Resource Planner by using Cost values, instead of Hours or FTE values. Cost values are not available for the **View by User** view in the Resource Planner.
 
 >[!IMPORTANT]
 >
@@ -45,11 +63,12 @@ For more information about understanding the information in the Resource Planner
   </tr> 
   <tr> 
    <td>Access level configurations</td> 
-   <td> <p>Edit access to Resource Management that includes access to Edit priorities and budget hours in the Resource Planner</p> <p>Edit access to Financial Data, Projects, and Users</p></td> 
+   <td> <p>Edit access to Resource Management that includes access to Edit priorities and budget hours in the Resource Planner</p> <p>Edit access to Financial Data that includes access to Edit Cost Rates and Edit General Finance</p>
+   <p>Edit access to Projects and Users</p></td> 
   </tr> 
   <tr> 
    <td>Object permissions</td> 
-   <td> <p>Manage permissions to the projects you want to budget information for with ability to Manage Finances</p></td>
+   <td> <p>Manage permissions to the projects you want to budget information for with the ability to Edit Cost Rates and Edit General Finance</p></td>
   </tr> 
  </tbody> 
 </table>

@@ -7,6 +7,13 @@ description: This page provides information about functionality for Adobe Workfr
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: d6a3e048-3f55-4954-9b65-f7f55c77d1a3
+TQID: https://experienceleague.adobe.com/AAXtDn2kVEUtnoYxpzsGQmpZpPtwCi82Tl8QIJbBOho
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Adobe Workfront Goals with the 23.1 release
 

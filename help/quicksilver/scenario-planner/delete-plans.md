@@ -6,8 +6,14 @@ description: You can delete plans that you created. You cannot delete plans that
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Delete plans in the [!DNL Scenario Planner]
+
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 You can delete plans that you created. You cannot delete plans that are shared with you.
 
@@ -49,7 +55,8 @@ For information about Workfront access requirements, see [Access requirements to
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -84,7 +91,8 @@ For information about Workfront access requirements, see [Access requirements to
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Delete plans
 
@@ -116,6 +124,10 @@ To delete a plan:
 
 1. Click the name of a plan to open it.
 1. Click the **[!UICONTROL More menu]** ![More menu](assets/more-menu.png) to the right of the plan name, then click **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]**.
+
+   >[!TIP]
+   >
+   ><span class="preview">You can also delete a plan in a list by selecting it, then clicking **Delete** at the bottom of the list to delete it.</span> <!--move the tip as the main step when we release this??-->
 
    The plan is deleted and you return to the list of plans.
 

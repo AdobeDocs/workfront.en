@@ -6,6 +6,32 @@ description: You can view information at a glance about objects in [!DNL Adobe W
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
+last-update: 2026-04-01T18:03:50.000Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/TmMmBW3KGYiabGLEiJ40fnBBo8EEpr6PBAaEaddTGq8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Object headers overview
 
@@ -26,12 +52,14 @@ For example, to access the header of a project:
 
    ![](assets/project-header-350x18.png)
 
-<!--## [!UICONTROL Home] header overview 
+<!--
+## [!UICONTROL Home] header overview 
 
 The following headers are available in Home:
 
 * Task: For more information on how you can use this header, see the [Task header overview](#task-header-overview) in this article.
-* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.-->
+* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.
+-->
 
 ## Customizable headers
 
@@ -528,7 +556,8 @@ The user header displays the following information:
   <tr> 
    <td role="rowheader">Name of the user and title</td> 
    <td> <p> The title of the user displays in all capital letters above their name. You cannot edit the name of the user in the header.</p> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr> 
     <td role="rowheader">Name of the object type</td> 
     <td> <p>The name of the object type does not display.</p> </td> 
@@ -689,7 +718,7 @@ The group header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Licenses in use] </td> 
-   <td> <p>The [!UICONTROL Licenses in use] box displays the number of [!UICONTROL Plan] and [!UICONTROL Work] license users in the group and its subgroups. You can click the numbers to see this information for all 5 license types.</p> <p>For more information, see <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">View the number of licenses allocated and used in a group in the new [!DNL Adobe Workfront] experience</a>.</p> </td> 
+   <td> <p>The [!UICONTROL Licenses in use] box displays the number of [!UICONTROL Standard] or [!UICONTROL Plan] and [!UICONTROL Work] license users in the group and its subgroups. You can click the numbers to see this information for all of the license types.</p> <p>For more information, see <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">View the number of licenses allocated and used in a group</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Group Administrators]</td> 
