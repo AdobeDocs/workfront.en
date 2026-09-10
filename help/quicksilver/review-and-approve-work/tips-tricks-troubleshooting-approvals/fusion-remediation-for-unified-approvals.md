@@ -13,12 +13,6 @@ Workfront Fusion scenarios built on legacy Workfront Proofing don't automaticall
 
 Scenarios scoped to legacy Workfront projects continue to work as they do today. The remediation work described in this article applies to scenarios you intend to run against Adobe cloud storage projects.
 
->[!IMPORTANT]
->
->The Adobe Workfront Unified Review and Approvals connector is now available in Workfront Fusion. We recommend using this connector for simpler and more reliable scenarios when using Fusion with Adobe cloud storage.
->
->For information and instructions, see [Adobe Workfront Unified Review and Approvals modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) in the Workfront Fusion documentation.
-
 Use this article to inventory and classify scenarios to understand the best way to upgrade your Fusion scenarios to account for Adobe cloud storage.
 
 For a high-level summary of what changes when your organization moves to Workfront on Adobe cloud storage, see [Move to Workfront on Adobe cloud storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
@@ -49,6 +43,12 @@ The work each scenario requires depends on what it does and what's available in 
 Review each scenario against your specific business logic to decide its classification.
 
 ## Remediation approach
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Unified Review and Approvals connector is now available in Workfront Fusion. We recommend using this connector for simpler and more reliable scenarios when using Fusion with Adobe cloud storage.
+>
+>For information and instructions, see [Adobe Workfront Unified Review and Approvals modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) in the Workfront Fusion documentation.
 
 Use the following approach to plan and execute Fusion remediation:
 
