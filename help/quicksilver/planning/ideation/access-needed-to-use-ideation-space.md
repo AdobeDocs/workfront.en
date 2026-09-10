@@ -1,5 +1,5 @@
 ---
-title: Access Needed to Use The Ideation Space 
+title: Access Needed to Use the Ideation Space 
 description: Adobe Workfront Planning now offers an additional capability to ideate before you launch your campaigns. Leverage the power of AI to transform data and direct inputs into tangible plans and give teams an informed starting point instead of a blank page with Adobe Ideation space. 
 author: Alina
 feature: Workfront Planning
@@ -9,13 +9,7 @@ recommendations: noDisplay, noCatalog
 
 # Access needed to use The Ideation space
 
-<!--
-REWRITE THIS AND MAKE IT IDENTICAL TO "Adobe Workfront Planning access overview"
--->
-
 <!--add to TOC-->
-
-<!--information about choice values must stay in yellow till Jan 2026-->
 
 <!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
@@ -29,11 +23,13 @@ Adobe Workfront Planning now offers an additional capability to ideate before yo
 
 This article describes the access and permissions you must have to access the Ideation space from Workfront Planning. 
 
+For general information about the Ideation space, see [Get started with The Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md). 
+
 ## Product requirements
 
 The Ideation space is not a standalone product. It requires a Workfront Planning package and it is only accessible from Workfront Planning. It also requires additional products. 
 
-The following products are required to access the Ideation space: 
+Your organization must purchase a package for the following products to access the Ideation space: 
 
 * An Adobe Workfront Workflow package in addition to a Planning package
 
@@ -41,7 +37,13 @@ The following products are required to access the Ideation space:
     
     An Adobe Workfront Planning purchased as a standalone product. 
 * An Adobe GenStudio for Performance Marketing license
-* An Adobe Customer Journey Analytics license that includes campaign tracking
+
+    >[!TIP]
+    >
+    >GenStudio for Performance Marketing is needed to have access to the correct font entitlements. 
+
+
+<!--only required for closed beta:* An Adobe Customer Journey Analytics license that includes campaign tracking-->
 
 ## Workfront Planning access level requirements
 
@@ -51,7 +53,7 @@ Your Workfront access level must include the following to access Ideation space:
 
 * A Standard Workflow license, when your company purchased a Workflow package in addition to a Planning package. 
 * A Standard Planning license, when your company purchased with a Workflow and a Planning package, or a Workfront Planning as a standalone product. 
-* The Disable Ideation space setting in the Set additional restriction section of your access level must be unselected. ***********check the UI for this***********
+* The Disable Ideation space setting in the Set additional restriction section of your access level must be unselected. <!--***********check the UI for this***********-->
 
 ## Workfront Planning permissions requirements
 
@@ -61,11 +63,12 @@ Ideation space brief permissions are inherited from Workfront Planning record pe
 
 The following table shows the connection between Workfront Planning record permissions and Ideation space brief permissions:
 
-| Planning record-level permission  | Brief-level permissions in Ideation space |
+| Planning record-level permission  | Ideation space brief-level permissions |
 |---|---|
 | Manage permissions to a record | Can create a brief in the Ideation space of the record|
 | View permissions to a record | Can read the brief of that record in Ideation space, but cannot modify it|
 
+<!--there is no additional setup for Workfront layout template assignment because Contributors an below cannot access Ideation space; only Standard users-->
 
 
 <!-- 

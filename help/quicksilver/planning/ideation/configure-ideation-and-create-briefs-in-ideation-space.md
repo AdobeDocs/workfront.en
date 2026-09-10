@@ -1,12 +1,12 @@
 ---
-title: Configure the Ideation Space and Create Briefs
-description: This article walks describes how you can configure the Ideation space and how you can create briefs which later could be saved as Adobe Workfront Planning records. 
+title: Configure the Ideation Space 
+description: This article describes how to configure the Ideation space.  
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 ---
 
-# Configure the Ideation space and create briefs
+# Configure the Ideation space
 
 <!-- add to TOC and miniTOC-->
 
@@ -16,10 +16,7 @@ author: Alina
 
 {{planning-important-intro}}
 
-This article walks describes the following: 
-
-* How to configure the Ideation space
-* How you create briefs which later could be saves as Adobe Workfront Planning records. 
+This article describes how to configure the Ideation space. 
 
 ## Access requirements
 
