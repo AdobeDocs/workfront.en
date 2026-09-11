@@ -125,14 +125,19 @@ Or
 
    ```
    
+      >[!TIP]
+      >
+      >You can add connected fields to business rules, but be careful to use statements that are looking for an array, rather than a field value. For example, instead of `ISBLANK` use `ARRAYLENGTH(field)=0`.
+
+
+   There are indicators in the **Formula** field when a field or an expression is wrong.  <!--add screen shot?-->
+
       >[!IMPORTANT]
       >
       >We strongly recommend that you include in the rule formula the following information to make it easy for users to understand when an action they are trying to perform on a record is not allowed: 
       >
       >* The exact fields that the rule is set up for. 
       >* The exact consequence if the rule is not met. 
-
-   There are indicators in the **Formula** field when a field or an expression is wrong.  <!--add screen shot?-->
 
    In the **Then** section of the business rule, you can view an explanation of what the rule does. 
 
