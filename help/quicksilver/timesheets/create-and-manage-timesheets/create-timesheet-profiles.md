@@ -172,7 +172,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. At the top of the timesheet profile list, click the **More** icon ![More icon](assets/more-icon.png), then click **Generate timesheets**.
 
-   A confirmation displays at the bottom of the screen that timesheets have been successfully generated. New timesheets are generated based on the new profiles you created. 
+   A confirmation displays at the bottom of the screen that timesheets have been successfully generated. New timesheets are generated based on the new profiles you created.
 
    For more information, see [Manually generate timesheets](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md). 
 
