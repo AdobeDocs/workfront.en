@@ -73,7 +73,7 @@ To create an approval template:
 
 1. Click **New Template** on the right side of the page.
 
-1. Add a **Template name**.
+1. Add a **Template name**. This field has a character limit of 255.
 
 1. Fill in details for Stage 1 of Path 1:
 

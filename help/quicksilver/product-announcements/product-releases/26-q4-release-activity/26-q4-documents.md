@@ -43,11 +43,11 @@ System Administrators can now view, edit, delete, and bulk-delete every approval
 
 For more information, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
-## Frame comment visibility in Workfront
+## Frame.io comment visibility in Workfront
 
 >[!NOTE]
 >
->Preview: September 3, 2026
+>Preview: N/A
 >Production fast release: September 17, 2026
 >Production for everyone: October 15, 2026
 

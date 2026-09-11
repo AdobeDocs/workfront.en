@@ -271,10 +271,10 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Frame comment visibility in Workfront</a>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Frame.io comment visibility in Workfront</a>
                 <p>The Comments panel in Workfront now lets you know when new comments are available in the Frame.io viewer.</p>
             </td>
-            <td><p>September 3, 2026</p></td>
+            <td><p>N/A</p></td>
             <td><p>September 17, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
