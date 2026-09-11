@@ -78,7 +78,7 @@ You can import large numbers of objects into Workfront using a Kick-Start templa
 * Importing data this way doesn't update information on records that already exist in Workfront. 
 * You can import only new records and their information.  
 * Import no more than 2,000 records at a time to ensure that the import does not time out.
-* <span class="preview">In the Preview environment, Kick-Start imports run in the background, and there is no record limit tied to import timeouts.</span>
+* <span class="preview">In the Preview environment, Kick-Start imports run in the background, and there is no record limit.</span>
 
 ## Export a Kick-Start template as a spreadsheet file
 
