@@ -9,13 +9,10 @@ recommendations: noDisplay, noCatalog
 
 # Access needed to use The Ideation space
 
-<!--add to TOC-->
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only as part of the **Ideation space Beta** program. </span>   
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">For more information, see [Get started with the Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 {{planning-important-intro}}
 
@@ -59,7 +56,11 @@ Your Workfront access level must include the following to access Ideation space:
 
 Each Planning record is connected to one brief in Ideation space. 
 
-Ideation space brief permissions are inherited from Workfront Planning record permissions. 
+Ideation space brief permissions are inherited from Workfront Planning record permissions. <!--not sure if this is right, because now you can share the ideation with others??-->
+
+You must have Manage permissions for a record type in Planning to create records in order to create or edit a record in the ideation space.
+
+Planning users with View permissions on records can view the ideation space of a record. 
 
 The following table shows the connection between Workfront Planning record permissions and Ideation space brief permissions:
 
@@ -67,6 +68,30 @@ The following table shows the connection between Workfront Planning record permi
 |---|---|
 | Manage permissions to a record | Can create a brief in the Ideation space of the record|
 | View permissions to a record | Can read the brief of that record in Ideation space, but cannot modify it|
+
+## Ideation space permissions
+
+<!--this is also duplicated in the intro of the Share an ideation space article-->
+
+Planning permissions are transferred to the ideation space of a record. 
+
+In addition, you can give other users permissions to use the ideation space and add ideas to it. 
+
+Consider the following: 
+
+* Creators of ideations always have Editor permissions on their own ideations. 
+
+* You must have Editor permissions on an ideation space to create briefs and export them to other applications. 
+
+The following are ideation space permissions and the capabilities they offer:  
+
+| Ideation space permission  | Capabilities |
+|---|---|
+| Editor | Can edit, download and share the ideation space|
+| Commenter | Can view and comment on the ideation space|
+| Viewer | Can view the ideation space|
+
+For more information about sharing an ideation space, see [Share an Ideation space](/help/quicksilver/planning/ideation/share-the-ideation-space.md). 
 
 <!--there is no additional setup for Workfront layout template assignment because Contributors an below cannot access Ideation space; only Standard users-->
 

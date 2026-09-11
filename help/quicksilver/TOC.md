@@ -2303,6 +2303,13 @@ feature-set: Workfront
     * [Manage your instance of Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-planning-sta-instance.md)
     * [Manage users in Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-users-in-planning-sta.md)
     * [Manage teams in Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-teams-in-planning-sta.md)
+  * {hide-from-toc}The Ideation space in Workfront Planning {#ideation}
+    * {hide-from-toc}[Ideation space for Adobe Workfront Planning: article index](planning/ideation/planning-ideation-article-index.md)
+    * {hide-from-toc}[Get started with the Ideation space for Adobe Workfront Planning](planning/ideation/get-started-with-planning-ideation.md)
+    * {hide-from-toc}[Create briefs in the Ideation space](planning/ideation/create-briefs-in-ideation-space.md)
+    * {hide-from-toc}[Create Planning records from Ideation space briefs](planning/ideation/create-records-in-ideation-space-for-planning.md)
+    * {hide-from-toc}[Share an Ideation space with others](planning/ideation/share-the-ideation-space.md)
+
 * Adobe Workfront Integrations {#adobe-workfront-integrations}
   * [Adobe Workfront integrations](workfront-integrations-and-apps/workfront-integrations.md)
   * [Adobe Workfront built-in integrations overview](workfront-integrations-and-apps/built-in-integrations-non-admin.md)

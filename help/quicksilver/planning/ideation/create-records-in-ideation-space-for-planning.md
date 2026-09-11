@@ -1,7 +1,6 @@
 ---
 title: Create Planning Records from Ideation Space Briefs
-description: This article walks through how to use the Ideation space for Workfront Planning to brainstorm campaign ideas and connect them to real Workfront Planning records. 
-feature: Workfront Planning
+description: Using the Ideation Space, a new capability from Adobe Workfront Planning, you can turn briefs into Planning records. Exported briefs create new records or update existing ones. This article describes how you can create or edit exiting Planning records using the Ideation space. 
 role: User, Admin
 author: Alina
 ---
@@ -21,13 +20,15 @@ I started with this under Records first but what if Ideation will be added to ot
 THIS ARTICLE HAS 2 DRAFTS IN 2 SEPARATE AREAS FROM CLAUDE - THEY WERE CREATED AT DIFFERENT TIMES - WHICH ONE WOULD YOU KEEP OR MERGE THEM INTO ONE ARTICLE
 -->
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only as part of the **Ideation space Beta** program. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For more information, see [Get started with the Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
 
 {{planning-important-intro}}
 
-This article describes how to use the Ideation space for Workfront Planning to brainstorm ideas, create briefs and either generate Planning records or connect them to existing ones. 
+Using the Ideation Space, a new capability from Adobe Workfront Planning, you can turn briefs into Planning records. Exported briefs create new records or update existing ones.
+
+This article describes how you can create or edit exiting Planning records using the Ideation space. 
 
 ## Access requirements
 
@@ -87,7 +88,8 @@ Or
    <td role="rowheader"><p>Object permissions</p></td> 
    <td> <p>Contribute or higher permissions to the workspace and record type where you want to add records </p>
       <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-      <p>View permissions to Workfront objects to add them to briefs</p>
+      <p>View permissions to Workfront objects to add them to briefs <!--not sure if this is available--></p>
+      <p>Editor permissions on the Ideation space to create briefs</p>
    </td> 
   </tr>  
    <tr> 
@@ -103,7 +105,7 @@ Or
 
 For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++  
 
 ## Considerations about using the Ideation space to create records
 
@@ -173,51 +175,16 @@ For more information about Workfront access requirements, see [Access requiremen
 
     * A **Brief** file in the lower-left corner of the ideation space. The brief is a draft of the future record and it displays as a record's Details page. 
 
-    ![Ideation card with branches](assets/ideation-card-with-branched-off-additional-cards.png)         
+    ![Ideation card with branches](assets/ideation-card-with-branched-off-additional-cards.png)      
 
-1. (Optional) Click **Sources** on each of the cards to view where information was imported from. Information can be imported either from Workfront Planning or the Web. 
+1. Continue to add information to the ideation space to complete creating your brief. 
 
-1. (Optional) Use the thumbs up or thumbs down icons on a card to give feedback.<!--is this still available??-->
-1. Click the **Select** icon ![Select icon in Ideation space](assets/select-icon-ideation.png) in the upper-left corner of the page and click a card to select it, then either click **Add to brief** to add the card's information to the brief
+1. (Conditional) When the brief is completed, click the preview image in the lower-left corner, then click one of the following: 
 
-    Or 
+    * **Export to file** to create a file
+    * **Export to Workfront Planning** to create a Planning record 
 
-    Click **Ask AI to ...** to prompt for additional ideas that AI might generate to add to the space. 
-
-1. Click **Add documents** ![Add documents to Ideation space](assets/add-documents-in-ideation-space.png) in the upper-left corner of the page to drag and drop, browse, or search for documents already uploaded to the ideation space. 
-
-   You can upload the following document types: PDF, CSV, Word, Excel, PowerPoint, any image file format. 
-
-1. Click **Add WF Taxonomy Card** ![Add records from Planning to Ideation space](assets/add-from-wf-planning-on-ideations-space.png) in the upper-left corner of the page to browse for records in Workfront Planning and add them to the ideation space. <!--double check the name of the UI element/ tooltip-->
-
-    Records are listed under their respective record type. Each type shows a count of existing records. Click a record type to expand it and view the individual records available. 
-
-    <!--replace the shot-->
-
-    <!--![Workfront Planning Records panel](images/04_planning_records_panel.png)-->
-
-1. Search or browse for records within a record type, then drag and drop the record you want directly onto the canvas. 
-
-    This lets you visually connect your AI-generated ideas to the actual records that already exist in Workfront Planning.
-
-    <!--replace the shot-->
-
-    <!--![Dragging a persona record onto the canvas](images/05_drag_persona_record.png)-->
-
-1. (Optional) Use the **Ask anything** box in the bottom-right corner at any time to refine your ideation.
-
-    For example, type `regenerate` for a specific card to have AI redo that card using updated context. The ideation space reruns its reasoning steps (searching, synthesizing, citing) and updates the affected cards.
-
-1. Zoom out to see the complete picture: your original campaign goal, all AI-generated concept cards with citations, the real Workfront Planning records you've pulled in (Products, Personas, etc.). The **Brief** summary card in the lower-left corner pulls it all together.
-
-1. Click the brief preview image in the lower-left corner and review the brief, then click one of the following options: 
-
-    * Export to file. You can export the brief to the following file types:
-
-        * PDF
-        * Word
-        * PowerPoint (with or without a template)
-    * **Export to Workfront Planning**. The export overwrites all existing field data in the record in Workfront Planning.
+    For information about adding items to the brief and exporting it, see [Create briefs in the Ideation space](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md). 
 
     This finishes creating the record with the additional information and it adds it to the record type you originally selected.
 

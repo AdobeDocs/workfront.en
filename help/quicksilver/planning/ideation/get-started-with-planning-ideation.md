@@ -18,9 +18,8 @@ Should we add a new Feature to ExL for "Strategic Ideation"?
 https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.aspx?sourcedoc=%7B513DE769-B70B-4040-8C9E-6A9B8E3167BB%7D&file=getting-started-catalyze.docx&action=default&mobileredirect=true
 -->
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only as part of the **Ideation space Beta** program. </span>   
+</span>
 
 {{planning-important-intro}}
 
@@ -108,7 +107,7 @@ For more information about using the Ideation space, also see the following arti
 
 * [Access needed to use The Ideation space](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
 * [Create Planning records from Ideation space briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-* [Configure the Ideation space and create briefs](/help/quicksilver/planning/ideation/configure-ideation-and-create-briefs-in-ideation-space.md)
+* [Create briefs in Ideation space](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
 
 ## Ideation space overview
 
