@@ -70,7 +70,7 @@ Custom weeks are not visible in Workfront. They are only visible in the Workfron
 
 For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
-## Filters for dependent connected record fields
+## Filters for connected record fields
 
 >[!NOTE]
 >
@@ -78,9 +78,9 @@ For information, see [Enable custom quarters](/help/quicksilver/administration-a
 >Production fast release: September 17, 2026
 >Production for everyone: October 15, 2026
 
-You can now filter for certain record types that meet a filter criteria when you add dependent connections in Planning.
+You can now filter for certain record types that meet a filter criteria when you add connections in Planning.
 
-Instead of all record types being available in dependent connected fields, only those that meet your filtering criteria will display.
+Only those records that meet your filtering criteria will display as options in connected fields.
 
 For this feature, we added a new Record filtering rules option in the New connection tab when connecting record types.
 
