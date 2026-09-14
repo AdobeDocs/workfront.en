@@ -138,26 +138,19 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       >
       > Custom applications must be created separately before they become available as Main Menu options. For more information, see [Create a custom application for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
-In the Preview environment:
-
-1. Do any of the following for the **Native** items:
+1. Do any of the following<!-- for the **Native** items-->:
 
    * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) items that you don't want to display on the Main Menu.
    * Show ![Show icon](assets/add-icon-plus-in-circle.png) items that you do want to display on the Main Menu.
    * Drag ![Drag icon](assets/move-icon---dots.png) items to change their display order on the Main Menu.
 
-1. Do any of the following for the **System** items:
-
-   * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) items that you don't want to display on the Main Menu.
-   * Show ![Show icon](assets/add-icon-plus-in-circle.png) items that you do want to display on the Main Menu.
-
-   >[!NOTE]
-   >
-   >You can't change the order of system items. These items always display at the bottom of the Main Menu when they are active.
+     >[!NOTE]
+     >
+     >You can't change the order of system items. These items always display at the bottom of the Main Menu when they are active.
 
 1. Click **Done**.
 
-   You can also click **Cancel** at any time if you want to discard your changes.
+   You can also click **Cancel** at any time to discard your changes.
 
 1. Continue customizing the layout template. You can click **Apply** at any time to save your progress.
 
@@ -166,3 +159,18 @@ In the Preview environment:
    If you are finished customizing, click **Save and Close**.
 
 For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
+<!--
+
+MOVE TO LINE 151 or thereabouts:
+
+<div class="preview">
+
+1. Do any of the following for the **System** items:
+
+   * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) items that you don't want to display on the Main Menu.
+   * Show ![Show icon](assets/add-icon-plus-in-circle.png) items that you do want to display on the Main Menu.
+
+</div>
+
+-->
