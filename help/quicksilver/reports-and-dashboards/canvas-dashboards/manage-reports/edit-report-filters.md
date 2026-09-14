@@ -26,6 +26,8 @@ topic_v2:
 ---
 # Edit report filters in a Canvas Dashboard
 
+{{highlighted-preview}}
+
 >[!IMPORTANT]
 >
 >The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.<br>
@@ -189,6 +191,24 @@ Available relationships for additional columns, filter options, and grouping att
 * Document Approval Stages > Document Approval Stage Participants 
 
 When utilizing any of the parent-to-child relationships listed above, you will see a row in the table for each child record connected to the parent object.  
+
+<div class="preview">
+
+### Filter on collection relationships in Preview
+
+When you build a filter, the Select a field panel includes a Sections list. You can select Collections to filter on 1:many or many:many relationships. 
+
+For example, you can filter projects by the participants assigned to an approval stage without switching to text mode. The Collections section lists only collection relationships; single-record relationships stay under Relationships.
+
+Collection filters follow these rules so conditions stay precise:
+
+* Inside a collection, you can filter on the collection's own fields and its single-record relationships, but not on collections nested within it. For example, from a portfolio you can reach its projects and their fields, but not the tasks on those projects.
+* You can follow one single-record relationship out of a collection, after which only fields are available. For example, from a user you can reach group members and then the group, but not the group's business owner.
+* The relationship that points back to the object you started from doesn't appear, so you can't build a circular condition. Inside a portfolio's projects collection, the project-to-portfolio relationship is hidden.
+
+The Collections section appears only when you build a filter. Other field choosers, such as those for table columns, groupings, and chart fields, don't include a Collections section.
+
+</div>
 
 ### Exclude personal projects, tasks, and bot users from Canvas Dashboards reports
 
