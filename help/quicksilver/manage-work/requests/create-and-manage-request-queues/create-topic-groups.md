@@ -33,6 +33,8 @@ topic_v2:
 ---
 # Create Topic Groups
 
+{{highlighted-preview}}
+
 <!-- Audited: 2/2024 -->
 
 Topic Groups are associated with Request Queues. You can layer your Request Queues in multiple categories, depending on the nature of the requests by using topic groups.
@@ -107,4 +109,4 @@ To create a Topic Group:
 1. Click **Save**.  
    This creates a new Topic Group in your Request Queue. You can now select additional categories from the first drop-down menu under a Request Queue.  
    For more information about submitting requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
-1. To edit an existing Topic Group, select the Topic Group from the Topic Groups list, then edit the details in the window that opens. Click **Save** to save the changes.
+1. To edit an existing Topic Group, select the Topic Group in the Topic Groups list, <span class="preview">click **Edit** in the blue action bar at the bottom of the screen,</span> then edit the details in the window that opens. Click **Save** to save the changes.
