@@ -38,6 +38,8 @@ topic_v2:
 ---
 # Create Queue Topics
 
+{{highlighted-preview}}
+
 <!-- Audited: 12/2023 -->
 
 Queue Topics work in conjunction with Routing Rules to automatically assign incoming work to a user, job role, team, or to place it on a project. Queue Topics define the conditions that need to exist for the Routing Rule to be implemented.
@@ -198,9 +200,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 To edit an existing Queue Topic:
 
-1. Go to the project or template that contains the Queue Topic you want to edit. 
-1. Click **Queue Topics** in the left panel. 
-1. Click the queue topic that you want to edit. 
+1. Go to the project or template that contains the Queue Topic you want to edit.
+1. Click **Queue Topics** in the left panel.
+1. Click the queue topic that you want to edit.
+   <span class="preview">Select the check box next to the queue topic that you want to edit, and click **Edit** in the blue action bar at the bottom of the screen.</span>
 
 For information about available edit options, see [Create a Queue Topic](#create-a-queue-topic) in this article.
 
@@ -208,8 +211,9 @@ For information about available edit options, see [Create a Queue Topic](#create
 
 You can delete one or more queue topics at the same time.
 
-1. Go to the project or template that contains the Queue Topic you want to Delete. 
-1. Click **Queue Topics** in the left panel. 
+1. Go to the project or template that contains the Queue Topic you want to Delete.
+1. Click **Queue Topics** in the left panel.
 1. Click the box next to the name of each Queue Topic that you want to delete. A checkmark appears in the box.
-1. Click the **Delete** icon ![Delete icon](assets/delete-icon.png) at the top of the page. 
+1. Click the **Delete** icon ![Delete icon](assets/delete-icon.png) at the top of the page.
+   <span class="preview">Click **Delete** in the blue action bar at the bottom of the screen.</span>
 
