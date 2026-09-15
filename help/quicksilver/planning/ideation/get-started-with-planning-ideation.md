@@ -124,7 +124,7 @@ The following are some examples of how to make the most out of your ideation whe
 
 * Upload documents or social listening insights
 * Access web content pertinent to the brief you are building
-* Define a campaign goal
+* Define a campaign goal 
 * Get a summary of audience insights
 * Generate audience personas
 * Ideate campaign messaging
