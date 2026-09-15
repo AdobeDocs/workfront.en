@@ -212,17 +212,20 @@ When utilizing any of the parent-to-child relationships listed above, you will s
 
 ## Filter on collection relationships in Preview
 
-When you build a filter, the Select a field panel includes a Sections list. You can select Collections to filter on 1:many or many:many relationships. 
+A collection is a field that links to a group of related records rather than to a single record. For example, the participants on a project's approval stages are a collection. When you build a filter, you can filter on collections directly, without switching to text mode.
 
-For example, you can filter projects by the participants assigned to an approval stage without switching to text mode. The Collections section lists only collection relationships; single-record relationships stay under Relationships.
+To filter on a collection, open the Select a field panel, then select Collections. This section lists only collection relationships. Single-record relationships stay under Relationships.
 
-Collection filters follow these rules so conditions stay precise:
+![collection relationships](assets/collections.png)
 
-* Inside a collection, you can filter on the collection's own fields and its single-record relationships, but not on collections nested within it. For example, from a portfolio you can reach its projects and their fields, but not the tasks on those projects.
-* You can follow one single-record relationship out of a collection, after which only fields are available. For example, from a user you can reach group members and then the group, but not the group's business owner.
-* The relationship that points back to the object you started from doesn't appear, so you can't build a circular condition. Inside a portfolio's projects collection, the project-to-portfolio relationship is hidden.
+After you select a collection, you can do two things:
 
-The Collections section appears only when you build a filter. Other field choosers, such as those for table columns, groupings, and chart fields, don't include a Collections section.
+* Filter on the collection's own fields. For example, from a portfolio's projects, you can filter on a project's status.
+* Follow one single-record relationship out of the collection. For example, from a portfolio's projects, you can reach the project owner.
+
+Collections don't support deeper navigation. You can't open a collection nested inside another collection, follow more than one relationship, or select the relationship that leads back to where you started.
+
+The Collections section appears only when you build a filter. It doesn't appear in other field choosers, such as those for table columns, groupings, or chart fields.
 
 </div>
 

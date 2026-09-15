@@ -80,9 +80,7 @@ You must have a report on a dashboard, or be building one, before you can filter
 
 ## Add or edit a report filter
 
->[!NOTE]
->
->For the full list of fields, operators, wildcards, and special filtering rules, see [Report filter reference for Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
+To add or edit a filter on a report:
 
 1. Open the report's filter panel:
 
@@ -102,5 +100,9 @@ You must have a report on a dashboard, or be building one, before you can filter
 1. (Optional) Repeat the previous step to add more conditions.
 
 1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR.
+
+>[!NOTE]
+>
+>For the full list of fields, operators, wildcards, and special filtering rules, see [Report filter reference for Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
 
 1. Click **Save**.
