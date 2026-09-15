@@ -13,7 +13,8 @@ recommendations: noDisplay, noCatalog
 Should we add a new Feature to ExL for "Strategic Ideation"?
 -->
 
-<!--information in this article come from this document, in addition to my notes for this project up to August 31, 2026:
+<!--
+information in this article come from this document, in addition to my notes for this project up to August 31, 2026:
 
 https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.aspx?sourcedoc=%7B513DE769-B70B-4040-8C9E-6A9B8E3167BB%7D&file=getting-started-catalyze.docx&action=default&mobileredirect=true
 -->
@@ -35,7 +36,7 @@ The planned release timeline for Ideation space which is subject to change inclu
 * **Open Beta:** Targeted for October 2026. This will be an opt-in offering, where customers must actively turn the option on and configure it, instead of actively opting out of it. 
 * **General availability:** Targeted for later in the second half of 2026. 
 
- ## Product requirements
+## Product requirements
 
 You can access the Ideation space if your organization and you have access to the following packages, depending when you access the Ideation space:
 
