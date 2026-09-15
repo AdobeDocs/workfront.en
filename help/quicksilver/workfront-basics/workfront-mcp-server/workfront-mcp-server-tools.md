@@ -303,20 +303,13 @@ Reporting tools let you build and manage Canvas Dashboards through chat. Describ
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
-| List Dashboards | `list_dashboards` | Lists Reporting dashboards visible to you. Filter by view: "my" (dashboards you created), "shared", "all", or "favorites". Returns dashboard metadata only (no widget detail), including a URL to open each. | Read |
-| Get Dashboard | `get_dashboard` | Fetches a Canvas Dashboard by ID, including metadata, layout, prompts, filter, and widget IDs. Widget data is not included. | Read |
-| Get Widget | `get_widget` | Fetches a widget and its configuration. Supports Table, KPI, and MultiSeries widget types. | Read |
-| Create Dashboard | `create_dashboard` | Creates an empty Reporting dashboard. | Write |
-| Update Dashboard | `update_dashboard` | Partially updates a dashboard's title, description, currency, prompt, filter, or per-widget settings. | Write |
-| Create Table Widget | `create_table_widget` | Creates a Table widget and its report configuration on a dashboard. | Write |
-| Update Table Widget | `update_table_widget` | Updates an existing Table widget and its report configuration. | Write |
-| Create KPI Widget | `create_kpi_widget` | Creates a KPI widget and its report configuration on a dashboard. | Write |
-| Update KPI Widget | `update_kpi_widget` | Updates an existing KPI widget and its report configuration. | Write |
-| Create Chart Widget | `create_chart_widget` | Creates a Chart widget and its report configuration. Supports bar, column, line, and pie charts, including simple, multi-series, and stacked sub-types. | Write |
-| Update Chart Widget | `update_chart_widget` | Updates an existing Chart widget and its report configuration. | Write |
-| Copy Widget | `copy_widget` | Copies an existing widget to the same or a different dashboard, including its report configuration. | Write |
-| Copy Dashboard | `copy_dashboard` | Copies a dashboard, including its widgets and report configurations. You can optionally copy a subset of widgets and choose whether to include the prompt and filter. | Write |
-| Delete object | `delete_object` | Permanently deletes a Reporting dashboard (and all its widgets) or a single widget. This action cannot be undone. | Write |
+| Read | `read` | Reads Reporting data in three modes selected by the IDs passed: lists the dashboards visible to you, fetches a single dashboard's structure, or fetches one widget's full configuration. | Read |
+| Create Dashboard | `create_dashboard` | Creates a new, empty Reporting dashboard and returns it, with a link to open it. | Write |
+| Update Dashboard | `update_dashboard` | Partially updates a dashboard's metadata, prompt, filter, and per-widget placement. Omitted fields are left unchanged. | Write |
+| Create Widget | `create_widget` | Creates a widget and its report configuration on a dashboard. One tool handles all three widget types: chart, KPI, and table. | Write |
+| Update Widget | `update_widget` | Partially updates an existing widget's configuration. The widget type is inferred automatically, so you only send the fields you want to change. | Write |
+| Copy Object | `copy_object` | Copies a whole dashboard, including its widgets, prompt, and filter, onto a new dashboard, or copies a single widget within or across dashboards. | Write |
+| Delete Object | `delete_object` | Permanently deletes a Reporting dashboard, and all its widgets, or a single widget. This action cannot be undone. | Write |
 
 ## How tools are updated
 
