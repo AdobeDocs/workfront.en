@@ -44,7 +44,8 @@ For information about the stages of release for the Ideation space, see [Get sta
 >
 >Ideation space is only accessible from the Adobe Workfront Main Menu or from Workfront Planning. You do not need a separate login to access Ideation space. It is immediately available if you can log in to Workfront. 
 
-<!--No longer the case: 
+<!--
+No longer the case: 
 
 Your organization must purchase a package for the following products to access the Ideation space: 
 
@@ -114,7 +115,9 @@ The following are ideation space permissions and the capabilities they offer:
 
 For more information about sharing an ideation space, see [Share an Ideation space](/help/quicksilver/planning/ideation/share-the-ideation-space.md). 
 
-<!--there is no additional setup for Workfront layout template assignment because Contributors an below cannot access Ideation space; only Standard users-->
+<!--
+there is no additional setup for Workfront layout template assignment because Contributors an below cannot access Ideation space; only Standard users
+-->
 
 
 <!-- 

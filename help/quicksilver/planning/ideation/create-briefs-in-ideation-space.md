@@ -8,7 +8,7 @@ author: Alina
 
 # Create briefs in the Ideation space
 
-<!-- add to TOC and miniTOC-->
+<!--add to TOC and miniTOC-->
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only as part of the **Ideation space Beta** program. </span>   
 
@@ -81,16 +81,16 @@ Or
       <p>Editor permissions on the Ideation space to create briefs</p>
    </td> 
   </tr>  
-  <!--
-<tr> 
-<td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
-<td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
-<li>GenStudio System Manager to access Activations and Events</li></ul>
-For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
-</p>
-</td> 
-</tr> 
--->
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+    <li>GenStudio System Manager to access Activations and Events</li></ul>
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    </p>
+    </td> 
+    </tr> 
+    -->
 </tbody> 
 </table> 
 
