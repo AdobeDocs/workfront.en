@@ -150,7 +150,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Add to Topic Group</strong> </td> 
-      <td> If there are no Topic Groups on the project, the name of the project defaults as a Topic Group.<br>If you want to create additional Topic Groups from here, select <strong>Create New Topic Group</strong> from the drop-down menu.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
+      <td> If there are no Topic Groups on the project, the name of the project defaults as a Topic Group.<br>If you want to create additional Topic Groups from here, select <strong>Create New Topic Group</strong> from the drop-down menu.<br><img src="assets/create-new-topic-group-within-queue-topic.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Custom Forms</strong> </td> 
@@ -215,5 +215,5 @@ You can delete one or more queue topics at the same time.
 1. Click **Queue Topics** in the left panel.
 1. Click the box next to the name of each Queue Topic that you want to delete. A checkmark appears in the box.
 1. Click the **Delete** icon ![Delete icon](assets/delete-icon.png) at the top of the page.
-   <span class="preview">Click **Delete** in the blue action bar at the bottom of the screen.</span>
+   <span class="preview">Click **Delete** in the action bar at the bottom of the screen.</span>
 
