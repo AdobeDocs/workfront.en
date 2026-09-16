@@ -171,16 +171,31 @@ To set approval rules for a request form:
 
    ![Default approval rule area](assets/default-approvers.png)
 
-1. (Optional) Start adding approval rules. For each  custom approval rule, do the following:
+<!--
 
-   1. Click **Add approval rule**
+<div class="preview">
+
+1. (Optional) To add more stages to the default approval, do the following:
+
+   1. Click **Add stage**.
+   1. On the xxxxxxxxxxxxxxxxx box, do xxxxxx.
+
+   image
+
+</div>
+-->
+
+1. (Optional) Start adding approval rules. For each custom approval rule, do the following:
+
+   1. Click **Add approval rule**.
    1. Click the placeholder title **Untitled approval rule** and enter a name for the approval rule.
    1. Click **Select a field** and select the field that activates the rule.
    1. Select the operator for the rule. Operators vary based on the type of field.
    1. If the selected operator requires a value, click the plus icon and add one or more values.
    1. (Optional) Click **Add condition** to add more conditions and connect them by **And** or **Or** statements by configuring the additional conditions as in steps C-E.
    1. In the **Actions** area of the approval rule, in the **Approvers** field, add at least one user or team to be set at the approver when the condition is met.
-   1. (Conditional and optional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox. Otherwise, all approvers must decide on the approval before the request is accepted or rejected. 
+   1. (Conditional and optional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox. Otherwise, all approvers must decide on the approval before the request is accepted or rejected.
+   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
 
    >[!NOTE]
    >
