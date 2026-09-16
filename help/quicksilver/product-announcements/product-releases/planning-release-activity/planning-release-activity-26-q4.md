@@ -50,7 +50,7 @@ In preparation for the launch of the Adobe CX Coworker in Workfront, we have rem
 
 For information, see [CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
 
-## Improved experience when duplicating records that have connected fields with a One-to-one or Many-to-one connection type
+## Improved experience when duplicating records that have connected fields with a One-to-one or One-to-many connection type
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ For information, see [CX Coworker in Workfront](/help/quicksilver/workfront-basi
 >Production fast release: October 14, 2026
 >Production for everyone: October 15, 2026
 
-Records can now be duplicated even when one-to-one or many-to-one connected records exist. After duplication, users can choose to keep the connected record on the original record or connect it to the new record. Keep on the original is the default choice.
+Records can now be duplicated even when One-to-one or One-to-many connected records exist. After duplication, users can choose to keep the connected record on the original record or connect it to the new record. Keep on the original is the default choice.
 
 The connection conflict resolution dialog has been updated to reflect this new behavior and provide greater flexibility when managing connected records.
 
