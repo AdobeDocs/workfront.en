@@ -32,6 +32,15 @@ topic_v2:
 # Adobe Workfront Planning AI Assistant overview
 
 <!--
+Change title to:
+
+Adobe Workfront Planning AI agents overview
+-->
+
+<!--
+Update the name of this link from ALL the articles that it is linked from-->
+
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
@@ -40,7 +49,7 @@ topic_v2:
 
 {{planning-important-intro}}
 
-You can use the AI Assistant to generate, update, or remove records based on the current page context and record structure. 
+You can use the AI Assistant <!--agents--> to generate, update, or remove records based on the current page context and record structure. 
 
 The user's commands and the AI's execution of those commands work together to ensure that changes made by the AI are accurately reflected in your environment. 
 
@@ -58,21 +67,37 @@ The user's commands and the AI's execution of those commands work together to en
    <td role="rowheader"><p>Adobe Workfront packages</p></td> 
    <td> 
 <p>Any Workfront or Workflow with a Planning package</p>
+Or
 <p>Any Planning package when purchased as a standalone product</p>
    </td> </tr>
  <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Workflow Standard</p>
+   <td><p>Standard</p>
    </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Adobe Planning license</p></td> 
-   <td><p>Planning Standard</p>
+   <td><p>Standard</p>
    </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+   <td>    
+   <p><!--In the Production environment,--> Your administrator do the following to allow access to the AI Assistant:</p>
+   <ul>
+   <li><p>Add both a Workflow and a Planning license type to your access level when you have both a Workflow and a Planning package</p></li>
+   <li><p>Deselect Disable the Workfront AI Assistant setting in your access level</p></li></ul>
+
+<!--
+<p>
+<div class="preview">
+In the Preview environment, your administrator do the following to allow access to the CX Coworker:</p>
+   <ul>
+   <li><p>Add both a Workflow and a Planning license type to your access level when you have both a Workflow and a Planning package</p></li>
+   <li><p>Deselect 
+Disable the CX Coworker panel in Workfront setting in your access level</p></li></ul>
+</div>
+-->
 </td> 
   </tr> 
   <tr> 
@@ -80,6 +105,12 @@ The user's commands and the AI's execution of those commands work together to en
    <td>   <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
+
+  <tr> 
+   <td role="rowheader"><p>System settings</p></td> 
+   <td>   <p>Your Workfront administrator must select the Enable AI setting in the System Preferences area of Setup and sign the AI to have access to the AI Assistant</p>  <!--this is not required for Coworker-->
+    </td> 
+  </tr> 
 </tbody> 
 </table> 
 
