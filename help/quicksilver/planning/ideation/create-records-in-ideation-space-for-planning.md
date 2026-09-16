@@ -220,7 +220,7 @@ You cannot bulk-edit records in the Ideation space.
 
 
 
-<!-- 
+<!--
 this is from Claude, but rephrased and included most of this above: 
 
 ## Step 5: Open the Workfront Planning Records panel
