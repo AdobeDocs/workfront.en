@@ -68,6 +68,8 @@ For information, see [Enable custom quarters](/help/quicksilver/administration-a
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
 >Production for everyone: October 15, 2026
+>
+>This feature was temporarily removed from the Preview environment on September 14, 2026.
 
 When working in a layout template, you can now reposition custom applications to be in any order with the default Workfront menu options. This allows you to position each application in the most relevant place.
 

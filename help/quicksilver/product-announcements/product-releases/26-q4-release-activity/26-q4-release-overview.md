@@ -70,6 +70,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Reorder custom applications in the Main Menu</a>
+                <p><strong>NOTE:</strong> This feature was temporarily removed from the Preview environment on September 14, 2026.</p>
                 <p>You can now reposition custom applications in a layout template's Main Menu instead of having them always appear last.</p>
             </td>
             <td><p>September 3, 2026</p></td>
