@@ -111,7 +111,7 @@ This field has a character limit of 255.
 
     ![add a stage](assets/add-stage.png)
 
-<!-- 
+<!--
 screen for preview
 ![add a stage](assets/add-stage-v2.png)
 -->
@@ -123,7 +123,7 @@ screen for preview
 
    ![add parallel paths](assets/add-path.png)
 
-<!-- 
+<!--
 screen for preview
 ![add parallel paths](assets/add-path-v2.png)
 -->
