@@ -352,6 +352,20 @@ To create an advanced approval workflow:
 
 <div class="preview">
 
+## Request approval on a web link in Preview
+
+In the new Documents area, you can request approval on a web link the same way you request approval on an uploaded file. A web link is a web URL that you add as a document from the + New menu.
+
+To create the approval, select the web link, click the Approvals icon, then follow the basic or advanced steps in this article.
+
+A web link supports the same approval options as any other document, including multiple stages, parallel paths, participants, due dates, and all three decision options. Reviewers open the live web page to add their comments and make a decision.
+
+Choose a web link that reviewers can open without signing in. A web link behind single sign-on or a login page can't be displayed for review.
+
+</div>
+
+<div class="preview">
+
 ## View approval workflows for previous versions in the new Documents area in Preview
 
 If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
