@@ -208,6 +208,7 @@ Available relationships for additional columns, filter options, and grouping att
 
 When utilizing any of the parent-to-child relationships listed above, you will see a row in the table for each child record connected to the parent object.  
 
+<!--
 <div class="preview">
 
 ## Filter on collection relationships in Preview
@@ -228,6 +229,8 @@ Collections don't support deeper navigation. You can't open a collection nested 
 The Collections section appears only when you build a filter. It doesn't appear in other field choosers, such as those for table columns, groupings, or chart fields.
 
 </div>
+
+-->
 
 ## Exclude personal projects, tasks, and bot users
 
