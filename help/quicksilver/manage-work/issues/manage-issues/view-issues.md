@@ -108,11 +108,18 @@ To view issues on a project, task, or iteration:
 
 1. Open a project, task, or iteration that contains issues, then click **Issues** in the left panel.   
 
-1.  To display all, open, or closed issues, click any of the filters listed below from the **Filter** drop-down menu.
+    >[!NOTE]
+    >
+    >The number next to the Issues section link represents the number of open (non-resolved) issues listed in the section. 
 
-   >[!TIP]
-   >
-   >The list of filters varies depending on what your system or group administrator selected to display in it.
+
+1.  To display open or closed issues, click any of the filters listed below from the **Filter** drop-down menu.
+
+    >[!TIP]
+    >
+    >The list of filters varies depending on what your system or group administrator selected to display in it.
+    >
+    >Not applying any filter to the issue list displays all issues, regardless of their status. 
 
 * **Open:** Displays issues that are open.
 
@@ -120,8 +127,8 @@ To view issues on a project, task, or iteration:
 
      For information about Resolving Objects, see [Overview of Resolving and Resolvable Objects](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
    
-* **Completed:** Displays all issues that have an Actual Completion Date. 
-* **All** Displays all issues.
+* **Complete:** Displays all issues that have an Actual Completion Date. 
+
 
 ## Understand information about issues
 

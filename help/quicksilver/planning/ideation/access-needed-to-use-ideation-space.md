@@ -24,7 +24,28 @@ For general information about the Ideation space, see [Get started with The Idea
 
 ## Product requirements
 
-The Ideation space is not a standalone product. It requires a Workfront Planning package and it is only accessible from Workfront Planning. It also requires additional products. 
+
+The Ideation space is not a standalone product, but rather an additional capability from Adobe Workfront Planning. 
+
+You can access the Ideation space if your organization and you have access to the following packages, depending when you access the Ideation space:
+
+* During the Open Beta release, you must have the following: 
+
+    * An Adobe Workfront Workflow package with a Workfront Planning package
+
+* After the General Availability release, you may have one of the following:
+
+    * An Adobe Workfront Workflow package with a Workfront Planning package
+    * An Adobe Workfront Planning as a standalone product
+
+For information about the stages of release for the Ideation space, see [Get started with the Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md). 
+
+>[!NOTE]
+>
+>Ideation space is only accessible from the Adobe Workfront Main Menu or from Workfront Planning. You do not need a separate login to access Ideation space. It is immediately available if you can log in to Workfront. 
+
+<!--
+No longer the case: 
 
 Your organization must purchase a package for the following products to access the Ideation space: 
 
@@ -39,6 +60,7 @@ Your organization must purchase a package for the following products to access t
     >
     >GenStudio for Performance Marketing is needed to have access to the correct font entitlements. 
 
+-->
 
 <!--only required for closed beta:* An Adobe Customer Journey Analytics license that includes campaign tracking-->
 
@@ -93,7 +115,9 @@ The following are ideation space permissions and the capabilities they offer:
 
 For more information about sharing an ideation space, see [Share an Ideation space](/help/quicksilver/planning/ideation/share-the-ideation-space.md). 
 
-<!--there is no additional setup for Workfront layout template assignment because Contributors an below cannot access Ideation space; only Standard users-->
+<!--
+there is no additional setup for Workfront layout template assignment because Contributors an below cannot access Ideation space; only Standard users
+-->
 
 
 <!-- 

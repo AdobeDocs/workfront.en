@@ -128,7 +128,7 @@ To create a single-stage approval workflow:
 
    ![Request approval in Basic mode](assets/request-approval-basic.jpeg)
 
-     <!-- 
+   <!-- 
    preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
    -->
 
@@ -200,8 +200,9 @@ To create an advanced approval workflow:
 
    ![Advanced mode with parallel paths](assets/request-approval-parallel-paths.jpeg)
 
-<!-- preview screen
-   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+<!-- 
+preview screen
+![Advanced mode with parallel paths](assets/parallel-path-v2.png)
 -->
 
 1. (Optional) To clear all paths and stages and start over, click **Reset** in the top right.
@@ -342,7 +343,8 @@ To create an advanced approval workflow:
 
    ![Advanced mode with parallel paths](assets/request-approval-advanced.jpeg)
 
-   <!-- preview screen
+   <!-- 
+   preview screen
    ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
    -->
 

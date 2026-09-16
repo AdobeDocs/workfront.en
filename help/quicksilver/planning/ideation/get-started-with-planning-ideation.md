@@ -13,7 +13,8 @@ recommendations: noDisplay, noCatalog
 Should we add a new Feature to ExL for "Strategic Ideation"?
 -->
 
-<!--information in this article come from this document, in addition to my notes for this project up to August 31, 2026:
+<!--
+information in this article come from this document, in addition to my notes for this project up to August 31, 2026:
 
 https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.aspx?sourcedoc=%7B513DE769-B70B-4040-8C9E-6A9B8E3167BB%7D&file=getting-started-catalyze.docx&action=default&mobileredirect=true
 -->
@@ -25,35 +26,41 @@ https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.
 
 The Adobe Ideation space is Adobe's AI-powered strategic ideation capability, built directly into Workfront Planning. It gives marketing teams a structured, data-informed starting point for campaign strategy, replacing manual research and guesswork with AI-generated briefs grounded in an organization's real performance history.
 
-Accessible only from Workfront Planning, the Ideation space is located at the very front of the campaign lifecycle, before planning, production, and delivery, and feeding directly into the Workfront Planning workspace where teams plan and execute their work.
+Accessible only from Workfront Planning or the Workfront Main Menu, the Ideation space is located at the very front of the campaign lifecycle, before planning, production, and delivery, and feeding directly into the Workfront Planning workspace where teams plan and execute their work.
 
 ## Product availability
 
 The planned release timeline for Ideation space which is subject to change includes the following milestones: 
 
 * **Closed Beta:** Launched July 2026, with a small number of customers.
-* **Open Beta:** Targeted for September 2026. This will be an opt-in offering, where customers must actively turn the option on and configure it, instead of actively opting out of it. 
+* **Open Beta:** Targeted for October 2026. This will be an opt-in offering, where customers must actively turn the option on and configure it, instead of actively opting out of it. 
 * **General availability:** Targeted for later in the second half of 2026. 
 
- ## Product requirements
+## Product requirements
 
-You can access the Ideation space if your organization and you have access to the following packages at the same time:
+You can access the Ideation space if your organization and you have access to the following packages, depending when you access the Ideation space:
 
-* An Adobe Workfront Workflow package with a Workfront Planning package
+* During the Open Beta release, you must have the following: 
 
-    Or
+    * An Adobe Workfront Workflow package with a Workfront Planning package
+
+* After the General Availability release, you may have one of the following:
+
+    * An Adobe Workfront Workflow package with a Workfront Planning package
+    * An Adobe Workfront Planning as a standalone product
+
+>[!NOTE]
+>
+>Ideation space is only accessible from the Adobe Workfront Main Menu or from Workfront Planning. You do not need a separate login to access Ideation space. It is immediately available if you can log in to Workfront. 
     
-    An Adobe Workfront Planning as a standalone product
-
-    >[!NOTE]
-    >
-    >Ideation space is only accessible from Adobe Planning. You do not need a separate login to access Ideation space. It is immediately available if you can log in to Workfront Planning. 
-    
-* Adobe GenStudio for Performance Marketing
+<!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
 <!-- only required for closed beta, see below: * Adobe Customer Journey Analytics-->
 
 For more information about the access required to use Ideation space, see [Access needed to use the Ideation space](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md). 
+
+<!--
+No longer required or recommended, per Et:
 
 In addition to above requirements, you must also meet the following criteria to participate in the Closed Beta program: 
 
@@ -61,6 +68,7 @@ In addition to above requirements, you must also meet the following criteria to 
 * Have multi-channel campaigns with a repeatable planning process
 * Actively use Workfront Planning for marketing operations
 * Have at least one identified strategist or ideation user who will be the primary Ideation space user
+-->
 
 ## Audience and use cases 
 
@@ -111,13 +119,13 @@ For more information about using the Ideation space, also see the following arti
 
 ## Ideation space overview
 
-The Ideation space is a strategic marketing ideation tool for brand and product marketers to build stronger campaigns faster and with better team alignment. It grounds AI suggestions in real-marketing context — past briefs, performance data, audience insights, brand guidelines, and existing campaign assets — so results are relevant, not generic.
+The Ideation space is a collaborative strategic marketing ideation tool for brand and product marketers to build stronger campaigns faster and with better team alignment. It grounds AI suggestions in real-marketing context — past briefs, performance data, audience insights, brand guidelines, and existing campaign assets — so results are relevant, not generic.
 
 The following are some examples of how to make the most out of your ideation when creating briefs: 
 
 * Upload documents or social listening insights
 * Access web content pertinent to the brief you are building
-* Define a campaign goal
+* Define a campaign goal 
 * Get a summary of audience insights
 * Generate audience personas
 * Ideate campaign messaging
@@ -136,7 +144,7 @@ The Ideation space also supports a conversational, back-and-forth mode via Adobe
 
 Users can ask follow-up questions and refine a brief conversationally rather than getting a single one-shot result. 
 
-When a brief is tied to a live Workfront Planning connection, Coworker holds back from overwriting it so the underlying plan stays intact.
+When a brief is tied to a live Workfront Planning connection, Coworker holds back from overwriting it so the underlying plan stays intact. <!--Et to check on this, it might be overwritten. -->
 
 <!--
 **************** CONSIDER INCLUDING THIS INFORMATION FROM JESH BARLOW ABOUT COWORKER IN CATALYZE?? - https://adobecorpdev.slack.com/archives/C091C0Y735W/p1788917610365089?thread_ts=1788917251.550099&cid=C091C0Y735W
