@@ -188,9 +188,9 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker now available in Workfront</a>
                 <p>CX Coworker is a new conversational interface for getting work done in Workfront and connected Adobe systems, replacing the current AI Assistant.</p>
             </td>
-            <td><p>September 3, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>Phased rollout beginning on September 3, 2026</p></td>
+            <td><p>Phased rollout beginning on September 17, 2026</p></td>
+            <td><p>Phased rollout beginning on October 15, 2026</p></td>
         </tr>
 
         <tr>
