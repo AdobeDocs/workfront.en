@@ -55,17 +55,16 @@ are there additional license restrictions or packages to be purchased to have ac
 Or
 <li><p>Any Planning package when purchased as a standalone product</p></li></ul>
    </td> 
-
-<tr> 
-   <td role="rowheader"><p>Additional products</p></td> 
-   <td><ul>
-   <li><p>Adobe GenStudio for Performance Marketing</p></li>
-   <!--
-   <li><p>Adobe Customer Journey Analytics</p></li>
-   -->
-   </ul>
-   </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Additional products</p></td> 
+    <td><ul>
+    <li><p>Adobe GenStudio for Performance Marketing</p></li>
+    <li><p>Adobe Customer Journey Analytics</p></li>
+    </ul>
+    </td> 
+    </tr> 
+    -->
   <tr> 
    <td role="rowheader"><p>Adobe Workflow license</p></td> 
    <td><p>Standard</p>
@@ -92,24 +91,26 @@ Or
       <p>Editor permissions on the Ideation space to create briefs</p>
    </td> 
   </tr>  
-   <tr> 
-   <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
-   <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
-   <li>GenStudio System Manager to access Activations <!--and Events--></li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
-   </p>
-  </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+    <li>GenStudio System Manager to access Activations and Events</li></ul>
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    </p>
+    </td> 
+    </tr> 
+    -->
 </tbody> 
 </table> 
 
 For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++  
++++   
 
 ## Considerations about using the Ideation space to create records
 
-* You can only launch the Ideation space from Workfront Planning, as you create or edit records. The Ideation space does not exist outside of Workfront Planning. 
+* You can only launch the Ideation space from Workfront Planning or from the Main Menu of Workfront, as you create or edit records. The Ideation space does not exist outside of Workfront. 
 * To access the Ideation space, you must have a workspace and a record type in Workfront Planning.
 * New records always start with placeholder content, regardless of how you create them. 
 * When you delete a Planning record linked to an Ideation brief, the brief remains in the Ideation space, and its associated canvas in the Ideation space is not deleted.
@@ -145,7 +146,7 @@ For more information about Workfront access requirements, see [Access requiremen
 
     The record is created immediately with placeholder text.
 
-1. (Optional) Click **Use existing brief** in the prompt box to browse and add an existing document which the Ideation space will use to create the brief and the future record. 
+1. (Optional) Click **Use existing brief** in the prompt box to browse and add an existing document which the Ideation space will use to create the brief and the future record. <!--CORRECT THIS PART: this is possible ONLY when you launch Ideation from the Main Menu, not from a record-->
 
     ![Empty ideation brief prompt](assets/empty-ideation-prompt.png)
 
@@ -219,7 +220,8 @@ You cannot bulk-edit records in the Ideation space.
 
 
 
-<!-- this is from Claude, but rephrased and included most of this above: 
+<!--
+this is from Claude, but rephrased and included most of this above: 
 
 ## Step 5: Open the Workfront Planning Records panel
 
