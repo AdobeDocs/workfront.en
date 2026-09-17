@@ -35,6 +35,8 @@ Coworker is replacing the current AI Assistant as a more powerful way to get wor
 
 For more information, see [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
+<!--
+
 ## Removed the AI Assistant icon in the Details preview box in preparation for the CX Coworker launch
 
 >[!NOTE]
@@ -49,6 +51,8 @@ This change is available for customers who have the CX Coworker in Workfront.
 In preparation for the launch of the Adobe CX Coworker in Workfront, we have removed the AI Assistant icon from the Details preview page. The icon still exists on the Details page, when opened in full screen. Clicking it will open the CX Coworker.
 
 For information, see [CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+
+-->
 
 ## Improved experience when duplicating records that have connected fields with a One-to-one or One-to-many connection type
 
