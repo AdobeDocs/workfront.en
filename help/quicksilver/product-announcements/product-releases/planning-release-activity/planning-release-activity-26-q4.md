@@ -17,9 +17,9 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Preview: Phased rollout beginning on September 3, 2026
+>Production fast release: Phased rollout beginning on September 17, 2026
+>Production for everyone: Phased rollout beginning on October 15, 2026
 
 CX Coworker is now available inside Workfront Planning. Now, you can access CX Coworker in a panel that is available throughout Workfront Planning.
 
@@ -31,28 +31,28 @@ Coworker is replacing the current AI Assistant as a more powerful way to get wor
 
 >[!IMPORTANT]
 >
->CX Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is available to these organizations.
+>CX Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is still available to these organizations.
 
 For more information, see [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
-
-<!--
 
 ## Removed the AI Assistant icon in the Details preview box in preparation for the CX Coworker launch
 
 >[!NOTE]
 >
->Preview: September 16, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Preview: Phased rollout beginning on September 16, 2026
+>Production fast release: Phased rollout beginning on September 17, 2026
+>Production for everyone: Phased rollout beginning on October 15, 2026
 >[!BADGE Off schedule]{type=Neutral}
 
 This change is available for customers who have the CX Coworker in Workfront.
 
 In preparation for the launch of the Adobe CX Coworker in Workfront, we have removed the AI Assistant icon from the Details preview page. The icon still exists on the Details page, when opened in full screen. Clicking it will open the CX Coworker.
 
-For information, see [CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+>[!IMPORTANT]
+>
+>CX Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is still available to these organizations.
 
--->
+For information, see [CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
 
 ## Improved experience when duplicating records that have connected fields with a One-to-one or One-to-many connection type
 
