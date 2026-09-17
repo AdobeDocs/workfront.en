@@ -1219,6 +1219,10 @@ feature-set: Workfront
     * [Use Adobe Cloud Drive](documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
     * [Set up and manage Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/set-up-and-manage-adobe-cloud-drive.md)
     * [Troubleshoot Adobe Cloud Drive](documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)
+  * Adobe Creative Cloud Projects {#adobe-creative-cloud-projects}
+    * [Adobe Creative Cloud Projects: article index](documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects.md)
+    * [Adobe Creative Cloud Projects overview](documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
+    * [Use Workfront documents in Creative Cloud apps](documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
   * Workfront and Experience Manager Assets Integrations {#wf-aem-integrations}
     * [Workfront and Experience Manager Assets Integrations](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
     * Workfront for Experience Manager enhanced connector {#wf-aem-enhanced-connector}

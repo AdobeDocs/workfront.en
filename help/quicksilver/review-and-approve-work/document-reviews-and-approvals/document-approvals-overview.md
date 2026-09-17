@@ -41,16 +41,18 @@ Project coordinators manage work in Workfront while creatives, marketers, and st
 
 ## Built on Adobe cloud storage
 
-Unified review and approval is built on Adobe cloud storage—a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products, including Workfront and Frame.io. <!--, and Creative Cloud.-->
+Unified review and approval is built on Adobe cloud storage—a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products, including Workfront, Frame.io, and Creative Cloud.
 
 Key benefits of Adobe cloud storage include:
 
 * Unified storage layer for creative and work management assets
 * Centralized permissions with Adobe Identity Management system (IMS) for secure access control
-* End-to-end asset visibility across Workfront and Frame.io <!--, and Creative Cloud apps -->
+* End-to-end asset visibility across Workfront, Frame.io, and Creative Cloud apps
 * Scalable storage and quota management for enterprise needs
 
 For more details, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Creative Cloud apps (Photoshop, Illustrator, and InDesign) can also access Workfront projects directly. For more information, see [Adobe Creative Cloud Projects overview](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
 
 ## Unified review and approval 
 

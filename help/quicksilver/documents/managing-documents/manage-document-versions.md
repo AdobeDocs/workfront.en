@@ -231,3 +231,11 @@ Workfront numbers each version in the order you upload it (for example, V1, V2, 
    >Deleting a version doesn't change the numbers of the other versions. For example, if you delete V3 from a document with versions V1 through V5, the remaining versions keep their original numbers, and there is no V3 afterward. The next version you upload becomes V6.
 
 </div>
+
+### View the current file during an approval
+
+If a document is a Creative Cloud file (for example, a Photoshop cloud document) and someone edits it while an approval is in progress, Workfront shows a **Current file** section with a badge indicating that new updates exist on the live document, separate from the version under approval.
+
+>[!IMPORTANT]
+>
+>**Open question:** Does the Current file section stay visible permanently once it first appears, or only while there are unreviewed updates on the live document? Confirm with Product before publishing.
