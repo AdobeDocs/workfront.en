@@ -499,3 +499,16 @@ For information on creating automations in other areas of Workfront Planning, se
 </div>
 
 -->
+
+<!--
+
+ADD AT LINE 291, before "Continue to publish form."
+
+<div class="preview">
+
+1. Click **Permissions** on the left panel.
+1. Select permission levels for the requesters and other users.
+1. Click **Save**.
+
+</div>
+
