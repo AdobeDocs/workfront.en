@@ -13,6 +13,61 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## CX Coworker now available in Workfront Planning
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+CX Coworker is now available inside Workfront Planning. Now, you can access CX Coworker in a panel that is available throughout Workfront Planning.
+
+CX Coworker Chat is a conversational interface for getting work done. Describe a goal in plain language, and Coworker plans the work, executes it across Workfront Planning and your connected Adobe systems, validates the results, and brings the finished work back to you for approval. 
+
+Coworker respects your organization's existing access controls, with read-only access by default, and system admins control when users get write access.
+
+Coworker is replacing the current AI Assistant as a more powerful way to get work done. Coworker is part of the Adobe ecosystem, and is not limited to Workfront Planning.
+
+>[!IMPORTANT]
+>
+>CX Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is available to these organizations.
+
+For more information, see [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+
+<!--
+
+## Removed the AI Assistant icon in the Details preview box in preparation for the CX Coworker launch
+
+>[!NOTE]
+>
+>Preview: September 16, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+This change is available for customers who have the CX Coworker in Workfront.
+
+In preparation for the launch of the Adobe CX Coworker in Workfront, we have removed the AI Assistant icon from the Details preview page. The icon still exists on the Details page, when opened in full screen. Clicking it will open the CX Coworker.
+
+For information, see [CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+
+-->
+
+## Improved experience when duplicating records that have connected fields with a One-to-one or One-to-many connection type
+
+>[!NOTE]
+>
+>Preview: September 17, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+Records can now be duplicated even when One-to-one or One-to-many connected records exist. After duplication, users can choose to keep the connected record on the original record or connect it to the new record. Keep on the original is the default choice.
+
+The connection conflict resolution dialog has been updated to reflect this new behavior and provide greater flexibility when managing connected records.
+
+For information, see [Duplicate records](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
+
 ## Manage the visibility of records' thumbnails and colors from the primary field column in the table view
 
 >[!NOTE]
