@@ -614,6 +614,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
 * [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Adobe Workfront Planning Fourth Quarter 2026 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
 
+<!--
 ## Desktop proofing viewer updates
 
 ### Version 2.2.1
@@ -630,6 +631,7 @@ The Desktop Proofing Viewer has been updated to version 2.2.1. This update inclu
 * Updated the underlying framework (Electron) for performance and security improvements.
 
 For information on downloading and updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+-->
 
 ## Announcements
 
