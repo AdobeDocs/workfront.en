@@ -15,7 +15,6 @@ Should we add a new Feature to ExL for "Strategic Ideation"?
 
 <!--
 information in this article come from this document, in addition to my notes for this project up to August 31, 2026:
-
 https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.aspx?sourcedoc=%7B513DE769-B70B-4040-8C9E-6A9B8E3167BB%7D&file=getting-started-catalyze.docx&action=default&mobileredirect=true
 -->
 
