@@ -201,12 +201,12 @@ To create a request form, you must complete the following:
    * **Label**: This is the name of the field as it will appear on the request form. This does not change the name of the record field.
    * **Instructions**: Add more information about the field.
    * **Make a required field**: When selected, the field must have a value. Otherwise, the form cannot be submitted. 
-   * **Add logic**: Define what conditions must be met in order for the field to display or be hidden.
+   * **Add logic**: Define what conditions must be met in order for the field to display or be hidden. <!--<span class="preview">In addition to display and skip logic, validation logic is also available.</span> For information on field logic, see [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).-->
 
    >[!TIP]
    >
-   >   The field type of each field displays at the top of the right panel, after you select the field on the form. 
-   >     
+   >The field type of each field displays at the top of the right panel, after you select the field on the form.
+
 1. (Optional) Long-click a field and drag it and drop it in another position on the form.
 1. (Optional) Click the **Content elements** tab on the left side of the form, and add any of the following elements:
 
