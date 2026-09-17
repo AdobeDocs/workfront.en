@@ -1,49 +1,27 @@
 ---
-title: Adobe Workfront Planning AI Assistant Overview
-description: You can use the AI assistant to generate, update, or remove records based on the current page context and record structure. The user's commands and the AI's execution of those commands work together to ensure that changes made by the AI are accurately reflected in your environment.
+title: Adobe Workfront Planning CX Coworker Overview
+description: You can use the CX Coworker in Workfront Planning to perform similar actions to records and other objects in Planning that you would normally perform in the interface. The user's commands and the AI's execution of those commands work together to ensure that changes made by the AI are accurately reflected in your environment.
 author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-last-update: 2026-04-01T18:03:50.000Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/3I5y7eTZml-nkAiAYnBFuaw72DyXgNG12D-EVYVourA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-    internal-label: Workfront
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-    internal-label: Administration
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-    internal-label: Get started
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-    internal-label: Admin
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-    internal-label: Customer experience
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-    internal-label: Administration
 ---
-# Adobe Workfront Planning AI Assistant overview
+
+# Adobe Workfront Planning CX Coworker overview
 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 
 {{planning-important-intro}}
 
-You can use the AI Assistant to make changes or updates to records and other objects in Adobe Workfront Planning  based on the current page context. 
+The CX Coworker is a conversational interface where you describe a goal in plain language, and then it plans, executes, and validates the work across your Adobe and connected systems before bringing it back for your approval. 
 
-The user's commands and the AI's execution of those commands work together to ensure that changes made by the AI are accurately reflected in your environment. 
+The CX Coworker preserves everything AI Assistant does today while adding more powerful end-to-end capabilities in both a new full-screen experience and the Workfront right rail. 
+
+It operates within your organization's existing product-level access controls, so users can only take actions they're already permitted to in Workfront, with read-only access by default and write access controlled by Workfront administrators.
 
 ## Access requirements
 
@@ -75,11 +53,10 @@ Or
 <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
    <td>  
-     <p>Your administrator must do the following to allow access to the AI Assistant:</p>
+   <p>Your administrator must do the following to allow access to the CX Coworker in Planning:</p>
    <ul>
    <li><p>Add both a Workflow and a Planning license type to your access level when you have both a Workflow and a Planning package</p></li>
-   <li><p>Deselect Disable the Workfront AI Assistant setting in your access level</p></li></ul>
-
+   <li><p>Deselect Disable the CX Coworker panel in Workfront setting in your access level. It is selected by default.</p></li></ul>
 </td> 
   </tr> 
   <tr> 
@@ -90,7 +67,7 @@ Or
 
   <tr> 
    <td role="rowheader"><p>System settings</p></td> 
-   <td>   <p>Your Workfront administrator must select the Enable AI setting in the System Preferences area of Setup and sign the AI to have access to the AI Assistant</p>  
+   <td>   <p>Your Workfront administrator must select the Read-only and Write-only MCP tools in the System Preferences area of Setup. The Read-only MCP tools is selected by default.</p> 
     </td> 
   </tr> 
 </tbody> 
@@ -101,11 +78,11 @@ Or
 +++
 
 
-## Considerations about the AI Assistant 
+## Considerations for the the CX Coworker
 
-* The AI Assistant must be enabled for your organization before it is available for users in your company. 
+* The CX Coworker must be enabled for your organization before  it is available for users in your company. 
 
-  For information, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md). 
+  For information, see [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md). 
 
 * After Workfront has enabled the agent for your organization, it is available for the main Workfront administrator. For information, see [Configure basic information for your system](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md). 
 

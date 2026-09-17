@@ -27,11 +27,12 @@ topic_v2:
 ---
 # Duplicate records
 
-<!--
+<!--Remove Prod and Preview references-->
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -177,11 +178,12 @@ You can create records in the table view of a record type page by duplicating an
         ![Duplicate icon in toolbar in table view](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
     An identical record with an identical name is created underneath the original record. All fields of the new record are populated with the same information as in the original record.
-    <!--
-    1. (Conditional) If the record you are duplicating is connected to a record in a One to one or a One to many connection type, click one of the following, depending on the environment you are using; 
+   
+  1. (Conditional) If the record you are duplicating is connected to a record in a One to one or a One to many connection type, click one of the following, depending on the environment you are using:
+
       * In the Production environment, click **Connect** to remove the connected record from the original and add it to the duplicated record, or click **Cancel** if you do not want to continue duplicating the record. 
       * <span class="preview">In the Preview environment, click **Connect to the new record** if you want the connected record to be moved to the new record, or click **Keep on the original** if you want the connected record to remain on the original. The duplicated record will not have a connected record in that field.</span> 
-    -->
+    
 1. (Optional) Start updating information about the new record in the fields available in the table view, or click the record and update information in the record preview or page. 
 
     >[!NOTE]
