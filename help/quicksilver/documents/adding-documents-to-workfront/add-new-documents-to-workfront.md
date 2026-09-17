@@ -21,6 +21,7 @@ role_v2:
 This section contains the following articles:
 
 * [Add documents to Adobe Workfront from your file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) 
+* [Add a web link as a document](../../documents/adding-documents-to-workfront/add-live-url.md) 
 * [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md) 
 * [Remove links between Adobe Workfront and external document storage providers](../../documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md) 
 * [Request a Document](../../documents/adding-documents-to-workfront/request-a-document.md)

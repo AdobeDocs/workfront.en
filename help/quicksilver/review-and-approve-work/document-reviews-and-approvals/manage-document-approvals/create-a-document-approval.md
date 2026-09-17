@@ -31,7 +31,7 @@ topic_v2:
 
 {{highlighted-preview}}
 
-You can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.  
+You can request approval from other users or teams for a document or a live website in Adobe Workfront, or request they review it without needing to approve it.  
 
 By default, an approval template is visible only to its creator. Throughout this article, you can only select templates you created or that were shared with you. For more information, see [Share a template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) in Manage approval templates.
 
@@ -352,19 +352,6 @@ To create an advanced approval workflow:
 
 1. Click **Request approval**.
 
-<div class="preview">
-
-## Request approval on a web link in Preview
-
-In the new Documents area, you can request approval on a web link the same way you request approval on an uploaded file. A web link is a web URL that you add as a document from the + New menu.
-
-To create the approval, select the web link, click the Approvals icon, then follow the basic or advanced steps in this article.
-
-A web link supports the same approval options as any other document, including multiple stages, parallel paths, participants, due dates, and all three decision options. Reviewers open the live web page to add their comments and make a decision.
-
-Choose a web link that reviewers can open without signing in. A web link behind single sign-on or a login page can't be displayed for review.
-
-</div>
 
 <div class="preview">
 
