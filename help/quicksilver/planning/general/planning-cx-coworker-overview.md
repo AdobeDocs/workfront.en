@@ -9,6 +9,7 @@ recommendations: noDisplay, noCatalog
 
 # Adobe Workfront Planning CX Coworker overview
 
+<!--replaced information from the AI Assistant for Planning article with CX Coworker-->
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
@@ -17,11 +18,18 @@ recommendations: noDisplay, noCatalog
 
 {{planning-important-intro}}
 
-The CX Coworker is a conversational interface where you describe a goal in plain language, and then it plans, executes, and validates the work across your Adobe and connected systems before bringing it back for your approval. 
+The CX Coworker is a conversational interface where you describe a goal in plain language, and then it plans, executes, and validates the work across your Workfront Planning and other connected Adobe systems before bringing it back for your approval. 
 
 The CX Coworker preserves everything AI Assistant does today while adding more powerful end-to-end capabilities in both a new full-screen experience and the Workfront right rail. 
 
 It operates within your organization's existing product-level access controls, so users can only take actions they're already permitted to in Workfront, with read-only access by default and write access controlled by Workfront administrators.
+
+>[!IMPORTANT]
+>
+>CX Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is available to these organizations. 
+>
+>For more information, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+
 
 ## Access requirements
 
@@ -77,87 +85,90 @@ Or
 
 +++
 
+## Considerations for the CX Coworker
 
-## Considerations for the the CX Coworker
-
-* The CX Coworker must be enabled for your organization before  it is available for users in your company. 
+* The CX Coworker must be enabled for your organization before it is available for users in your company. 
 
   For information, see [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md). 
 
-* After Workfront has enabled the agent for your organization, it is available for the main Workfront administrator. For information, see [Configure basic information for your system](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md). 
+* After Workfront has enabled the agent for your Workfront instance, it is available for the main Workfront administrator and they can enable it for your organization. For information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
-* The Workfront administrator must enable the AI Assistant for all other users. For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md). 
+* The Workfront administrator must also enable the CX Coworker for you, in your access level. For information, see [Create and modify access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* The AI Assistant works in the context of each page. The requests you are submitting for the AI Assistant must reference functionality that is available in the page that you have open. 
+* The CX Coworker works with information and objects that are in Workfront or Workfront Planning and that you have permission to access. In the Planning right rail, the Coworker panel operates in the context of the workspace, record type, or record page that you have open. 
 
-* The actions performed by the AI Assistant in the Planning area are in the context of your Workfront Planning permissions and your Workfront access level. For information, see the following articles: 
+* The actions performed by the CX Coworker in the Planning area are in the context of your Workfront Planning permissions and your Workfront access level. For information, see the following articles: 
 
     * [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
     * [License type overview when using Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
 
-* Changes made by the AI Assistant on the user's behalf are tracked in the record's history panel. 
+* Changes made by the CX Coworker on the user's behalf are tracked in the record's history panel. 
 
-* Actions done by the AI Assistant are permanent and could be irreversible. For example, deleting a field cannot be reversed. Review all actions that are proposed by the AI Assistant before accepting them.
+* Actions done by the CX Coworker are permanent and could be irreversible. For example, deleting a field cannot be reversed. Review all actions that are proposed by the CX Coworker before accepting them.
 
-* When creating, updating, or deleting an object through AI Assistant, AI Assistant displays the intended actions and asks for confirmation. You can then confirm or cancel the actions. 
+* When creating, updating, or deleting an object through the CX Coworker, the CX Coworker displays the intended actions and asks for confirmation. You can then confirm or cancel the actions. 
 
-## Functionality currently available for the AI Assistant
+## Functionality currently available for the CX Coworker
 
-Currently, the AI Assistant is available in the Planning area of Workfront for the following pages:
+Currently, the CX Coworker is available in the Planning area of Workfront and it uses a set of skills to access and manipulate information for Planning objects. For more information, see [CX Coworker skills](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md). 
 
-* Workspace page
-* Record type page
-* Record page
-
-You can use the AI Assistant to perform the following actions, at this time:
+You can use the CX Coworker to perform the following actions:
 
 * Search for records. You can search by information contained in any record fields. 
 * Create records. An ID with a link to the new record displays after the record is created. You can specify the fields you want to update during the creation process, like dates or description. 
-* Create records based on a document that you upload. Workfront supports the following document formats for the AI Assistant:
+* Create records based on a document that you upload. Workfront supports the following document formats for the CX Coworker:
 
     PPTX, PDF, DOCX, XLSX, PPT, DOC, TXT, and most image formats
 * Update fields for the records you see on the screen
-* Delete records
-* Restore records that you just deleted
+* Delete, duplicate, or restore records
+* Link records to other records
+* View a record's change history
 
 
-## Locate the AI Assistant in Workfront Planning
+## Locate the CX Coworker in Workfront Planning
 
-You can locate the AI Assistant in the following areas of Workfront Planning:
+You can locate the CX Coworker in the following areas of Workfront Planning:
 
 * The main navigation bar, in the upper-right corner of the screen.
-* Inside the details area of a record, after you opened the record in the preview or after you opened the record's page.
+* Inside the details area of a record when you open it in a new tab.
 
-## Access the AI Assistant in the Planning area
+## Access the CX Coworker in the Planning area
+
 
 1. Log in to Workfront, then click the **Main Menu** icon ![Lines main menu](assets/lines-main-menu.png) in the upper-left corner, then click **Planning**. 
 
     The Planning area opens. 
 
+    Locate the **AI icon** ![AI icon](assets/ai-icon.png) in the upper-right corner of the page, or continue to the steps below. 
+
 1. Click a **workspace card**. 
 
-1. (Optional) Click a **record type card**. 
+1. Click a **record type card**. 
 
-1. (Optional) Click a **record** to open the record's **Details** page.
+1. Click a **record** to open the record's **Details** page, then click the open in .
 
-1. Click the **AI Assistant icon** in the upper-right corner of the screen in the global navigation bar or in the upper-right corner of the record's preview or page.
+1. Click the **CX Coworker icon** in the upper-right corner of the screen.
 
-    ![AI Assistant icon](assets/ai-assistant-icon-highlighted.png)
+1. In the space provided, start typing commands for the CX Coworker, then click Enter when you are done. 
 
-1. In the space provided, start typing commands for the AI Assistant, then click Enter when you are done. 
-
-    ![AI Assistant panel with empty command box](assets/ai-assistant-panel-with-empty-command-box.png)
+    ![CX Coworker panel with empty command box](assets/cx-coworker-right-rail.png)
 
     For example, you may type one of the following:
 
-    * Create a campaign with a start date of July 4 and end date of July 30
-    * Update the Description field of the Summer Campaign record with date to be determined
-    * Delete the last record
-    * Restore the record 
+      * Create a new campaign record called Summer Sale 2026
+      * Update the budget field in the Summer Campaign record to $75,000
+      * Delete the campaign record named Old Promo
+      * Restore the campaign I accidentally deleted
 
-    A visual indicator displays while the AI Assistant processes commands, setting expectations for response time.
+    >[!TIP]
+    >
+    >Ensure your Workfront administrator enabled Write-only MCP Tools in your System Preferences before asking the CX Coworker to perform editing actions on objects.
+
+    A visual indicator displays while the CX Coworker processes commands, setting expectations for response time.
     
     After receiving a successful response, follow the links provided or notice the changes on the left.
-
+    
+  
+1. (Optional) Click the **Expand full screen** icon ![Expand full screen icon](assets/expand-full-screen-icon.png) to open the Coworker chat box in a full browser tab.
 
 

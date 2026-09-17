@@ -29,6 +29,13 @@ Review the following articles:
 * [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 * [Workfront Planning termonologi overview](/help/quicksilver/planning/general/planning-terminology.md)
 * [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
+
+<div class="preview">
+
+* [Adobe Workfront Planning CX Coworker overview](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
+
+</div>
+
 * [Adobe Workfront Planning API basics](/help/quicksilver/planning/general/planning-api-basics.md)
 * [Adobe Workfront Planning object limitations overview](/help/quicksilver/planning/general/limitations-overview.md)
 * [Adobe Workfront Planning release activity for 2024](/help/quicksilver/planning/general/release-activity.md)
@@ -37,5 +44,6 @@ Review the following articles:
 * [Adobe Workfront Planning implementation recommendations](/help/quicksilver/planning/general/planning-best-practices.md)
 * [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md)
 * [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md)
+
 
 
