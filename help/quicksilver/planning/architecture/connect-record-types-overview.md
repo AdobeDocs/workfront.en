@@ -209,6 +209,14 @@ For information about you connect record types, see [Connect record types](/help
     
     </div>
 
+* The following scenarios exist when duplicating records with a connected record in a One to one or One to many connection type: 
+
+    * In the Production environment, the connected record moves to the duplicated record, or you must manually remove it from the original before you duplicate the record, and then add it back.
+    * <span class="preview">In the Preview environment, you can select whether the connected record stays on the original or moves to the duplicated record.</span> 
+
+    For more information, see [Duplicate records](/help/quicksilver/planning/records/copy-or-duplicate-records.md). 
+
+
 ## Connection types
 
 After you establish a connection between two record types or between a record and an object type from another application, you can add records in the connected record fields. 
