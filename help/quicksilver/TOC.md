@@ -263,6 +263,7 @@ feature-set: Workfront
       * {hide-from-toc} [Adobe Workfront limited availability features release activity](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
       * {hide-from-toc} [First Quarter 2026 release activity for Adobe Workfront limited availability features](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
       * {hide-from-toc} [Second Quarter 2026 release activity for Adobe Workfront limited availability features](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+      * {hide-from-toc} [Fourth Quarter 2026 release activity for Adobe Workfront limited availability features](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
     * Adobe Workfront Scenario Planner release activity {#scenario-planner-release}
       * [Adobe Workfront Scenario Planner release activity](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
       * [Adobe Workfront Scenario Planner with the 21.3 release](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
