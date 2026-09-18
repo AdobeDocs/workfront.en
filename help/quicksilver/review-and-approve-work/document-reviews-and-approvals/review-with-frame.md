@@ -7,10 +7,24 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/0ZlRTte93Fl8omBRbQH5ZkA-pr533lkPA9QvWY3d5H4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Review and approve with the Frame.io viewer
+
+{{highlighted-preview}}
 
 You can review and approve documents in Workfront using the Frame.io viewer.
 
@@ -33,7 +47,7 @@ For more information on the Frame.io integration with Workfront, see [Unified re
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any Workfront package to manage approvals using legacy Workfront storage</p>
-<p>Any Workflow package to manage approvals using Adobe enterprise storage</p> </td> 
+<p>Any Workflow package to manage approvals using Adobe cloud storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses</td> 
@@ -73,7 +87,7 @@ Go the Workfront Home page, find the My Approvals widget, then click **Open revi
     >You may have to add the My Approvals widget to your Home page. For more information, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 1. In Frame.io, use the commenting tools to leave feedback or ask questions.
-    Comments and asset markup is visible only in the Frame.io viewer. Comments do not display in Workfront. For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+    Comments and asset markup is visible only in the Frame.io viewer. Comments do not display in Workfront. <span class="preview">However, the comments panel for the document in Workfront shows a callout with a count of those comments, when a count is available, and a link to open the Frame.io viewer and read them.</span> For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 1. Once you're satisfied with the document, navigate back to the Document Details page in Workfront and mark your review as complete.
 
    ![Mark review complete](assets/mark-review-complete.png)
@@ -96,6 +110,12 @@ Go the Workfront Home page, find the My Approvals widget, then click **Open revi
 
 
 1. In Frame.io, use the commenting tools to leave feedback or ask questions. Comments and asset markup are visible only in the Frame.io viewer. For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+
+    >[!NOTE]
+    >
+    > <span class="preview">In preview, the Comments panel in Workfront displays a message letting you know when new comments are available in Frame.io.</span> 
+
+
 1. Once you're satisfied with the document, you can choose one of the following decisions in the Frame.io viewer:
 
     * **Approve**: The asset does not need changes and is ready for use.

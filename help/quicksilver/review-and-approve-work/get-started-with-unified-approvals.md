@@ -11,7 +11,6 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 ---
 # Get started with unified review and approval
 
-
 Unified review and approval brings together Adobe Workfront and Adobe Frame.io into a single, deeply connected experience --- closing the gaps between marketing management, creative review, and content delivery. Project coordinators manage work in Workfront while creatives, marketers, and stakeholders review and approve assets in the professional-grade Frame.io viewer, all without moving files between disconnected tools.
 
 For more information about Frame.io, see [Getting Started with Frame.io](https://support.frame.io/en/collections/49298-getting-started).
@@ -23,18 +22,18 @@ For more information about Frame.io, see [Getting Started with Frame.io](https:/
 
 ## Access requirements
 
-* You must be on a version of Workfront that supports unified review and approval. If your organization is not already on a supported version, contact your Adobe account representative.
+* You must be on a version of Workfront that supports Adobe cloud storage. If your organization is not already on a supported version, contact your Adobe account representative.
 
 ## Work initiation and planning in Workfront
 
-Project coordinators can create projects and plan work in Workfront. Projects created in an instance with the Frame.io integration enabled utilize Adobe enterprise storage, which allows assets to be stored and managed within the Adobe ecosystem.
+Project coordinators can create projects and plan work in Workfront. Projects created in an instance with the Frame.io integration enabled utilize Adobe cloud storage, which allows assets to be stored and managed within the Adobe ecosystem.
 
-If your organization has a Frame.io Enterprise license, projects created in Workfront are also visible in Frame.io, allowing users to interact and upload assets in either product. 
+If your organization has a Frame.io Enterprise license, projects created in Workfront are also visible in Frame.io, allowing users to interact and upload assets in either product. In Frame.io, all Workfront-linked projects are grouped into a single Workspace called **Workfront Linked Projects**. For details on how linked projects appear and behave in Frame.io, see [Adobe Workfront Integration Overview](https://help.frame.io/en/articles/12242607-adobe-workfront-integration-overview) in the Frame.io documentation.
 
-For information about Adobe enterprise storage or projects in Frame.io, see
+For information about Adobe cloud storage or projects in Frame.io, see
 
 * [Workspace Overview: Projects](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
-* [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md)
+* [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md)
 
 ## Review and approve assets
 
@@ -57,11 +56,11 @@ Project coordinators can create one-time review and approvals or reusable approv
 
 Reviewers and approvers can be added to a single-use approval workflow or a reusable approval template:
 
-* **Single-use approvals**: In the project or task where the asset resides, the project coordinator can assign reviewers and approvers and set a completion deadline. Reviewers and approvers are reminded by email 72 hours before the deadline, 24 hours before the deadline, and then on the deadline itself.
+* **Single-use approvals**: In the project or task where the asset resides, the project coordinator can assign reviewers and approvers and set a completion deadline. Reviewers and approvers are reminded by email 72 hours before the deadline, 24 hours before the deadline, and then on the deadline itself. You can also configure multi-stage approvals and parallel paths so that multiple review tracks run at the same time.
 
     For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area).
 
-* **Approval templates**: In the Workfront Setup area, project coordinators can create reusable Approval Templates. Within a template, users can add reviewers and approvers and specify a completion timeframe. When the approval template is applied to an asset, the deadline is calculated from the specified timeframe. 
+* **Approval templates**: In the Workfront Setup area, project coordinators can create reusable Approval Templates. Within a template, users can add reviewers and approvers and specify a completion timeframe. When the approval template is applied to an asset, the deadline is calculated from the specified timeframe. Approval templates support multi-stage approvals and parallel paths, matching the configuration options available in single-use approvals.
 
     Once a template is created, it can be applied to an asset to begin the formal review and approval process in Workfront.
 
@@ -117,5 +116,5 @@ Project coordinators can monitor progress on all in-flight approvals in the Work
 
 You can use the [!DNL Experience Manager Assets]​​ to manage and store your digital assets that have gone through the review and approval cycle. This integration allows you to leverage the capabilities of Adobe Experience Manager, Frame.io, and Workfront to streamline your content management and collaboration processes.
 
-For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+For more information, see [Use Adobe Experience Manager with Workfront and Adobe cloud storage](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 

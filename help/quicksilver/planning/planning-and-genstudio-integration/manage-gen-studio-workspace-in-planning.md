@@ -6,11 +6,23 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/K9tDDGCuZRkOa3FjqgdojUv6njW4-AzVRsh4a0mG6ww
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
-
 <!--
+
 Better metadata, at publishing:
 ---
 title: Manage the GenStudio Workspace in Adobe Workfront Planning
@@ -20,17 +32,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 ---
+
 -->
 
 <!--MUST update the access requirements below - not complete!!!!!!!!!-->
 
 # Manage the GenStudio workspace in Adobe Workfront Planning
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 The Adobe GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products and your instance of Workfront is integrated with your company's instance of GenStudio. 
 
@@ -63,9 +76,10 @@ For general information about the GenStudio to Workfront Planning integration, s
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p>
-<p>Any Workflow and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+<p>Any Workfront or Workflow and any Planning package</p> 
+Or
+<p>Any Planning package when purchased as a standalone product</p>
+
    </td> 
    <tr> 
 <td> 
@@ -75,9 +89,20 @@ For general information about the GenStudio to Workfront Planning integration, s
   </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
+   </td> 
+  </tr>
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the Workfront access level when you have both a Workflow and a Planning package</p>   
+</td> 
+  </tr> 
+
   <tr> 
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
@@ -107,7 +132,66 @@ For information about Adobe Workfront Planning access, see [Adobe Workfront Plan
 
 For more information about Adobe GenStudio for Performance Marketing, see [Adobe GenStudio for Performance Marketing User Guide](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
 
-+++   
++++ 
+
+<!--
+
+Old, before Planning STA: 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Workfront and any Planning package</p>
+<p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+   <tr> 
+<td> 
+   <p> Additional products</p> </td> 
+   <td> 
+   <p> Adobe GenStudio for Performance Marketing</p></td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+   <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+   <li>GenSudio System Manager to access Activations </li></ul>
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   </p>
+  </td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  
+   <p>In Workfront Planning: </p>
+   <ul>
+   <li><p>Manage permissions to the GenStudio workspace to add new fields or record types to the GenStudio workspace</p></li>
+   <li><p>Contribute permissions to the GenStudio workspace to add, update, or delete records in the GenStudio workspace</p> </li>  
+   </ul>
+   <p>No users can remove GenStudio for Performance Marketing record types or fields from the GenStudio workspace in Workfront Planning</p>
+   <p>In Adobe GenStudio for Performance Marketing: <p>
+   <ul>
+   <li><p> Any permissions in Adobe GenStudio for Performance Marketing</p></li>
+   <li><p> Create permissions in Adobe GenStudio for Performance Marketing to create items</p></li></ul>
+   </td>  
+</tbody> 
+</table> 
+
+-->
+
 
 <!--
 Old:
@@ -196,10 +280,10 @@ Old:
    </table> 
 
 * Updating the workspace configuration, record types, views, and fields for a GenStudio workspace is identical with updating a Workfront Planning workspace with its elements. 
-<!--
-Is this just preview?? * You can build hierarchies for the record types in the GenStudio workspace. For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
-* You cannot include GenStudio Brands in a hierarchy.
--->
+* You can build hierarchies for the record types in the GenStudio workspace. 
+
+   For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+* You can connect a GenStudio record type to GenStudio BRands, but you cannot include GenStudio Brands in a hierarchy.
 
 <!--
 ## Manage GenStudio workspace from Workfront Planning
@@ -282,15 +366,24 @@ CAN YOU DO THIS??
    * **Edit**
 
       For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md).
-   * **Manage automations**
+   * **Manage automations** or <span preview="preview">**Automations**</span>
 
       For information, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
-   * **Manage request forms**
+   * **Manage request forms** or <span class="preview">**Request forms**</span>
 
       You can create multiple request forms. The request forms will be available in the Requests area of Workfront and you can also share them publicly, or with a link. 
 
       For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
+   <div class="preview">
+
+   * **Business rules**
+
+      You can configure record type business rules to define what conditions must be met before users are allowed to edit or delete records of that type. 
+
+      For information, see [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).
+   </div>
+   
 1. To share a view or the record type, do the following: 
 
    * Click **Share** in the upper-right corner of the record type page, then click one of the following:
@@ -371,25 +464,41 @@ CAN YOU DO THIS??
 
       Fields created from the GenStudio workspace are visible in the following areas:
 
-      * Workfront Planning views
-      * Workfront Planning record details 
-      * GenStudio record details
+      * Workfront Planning views in Workfront Planning
+      * Workfront Planning record details in Workfront Planning
+      * GenStudio record details in GenStudio for Performance Marketing
 
       >[!NOTE]
       >
-      >* You can add more fields only when you have Manage permissions in GenStudio.
+      >* You can add fields only when you have Manage permissions in GenStudio.
       >* Fields created in Workfront Planning are not visible in the list view in GenStudio.
       >
       >* You can connect any GenStudio record type to the Brands GenStudio record type. 
       >  Products and Personas are connected to Brands by default. 
+      >
+      >* You can connect GenStudio record types in Planning with AEM Assets or Content Fragments in Adobe Experience Manager. You must have an AEM license to be able to connect to AEM objects. 
+      >
+   
+1. (Conditional) If you connected GenStudio record types from the GenStudio workspace in Planning with AEM assets or content fragments, do the following to navigate to AEM and view GenStudio record information: 
+
+   1. (Conditional) From a connected AEM asset in the GenStudio workspace, click the name of the asset, then click the **Open in AEM** icon ![Open in AEM icon](assets/open-in-aem-icon.png) to open the asset in AEM. 
+   1. Click to select the **Campaign** tab in the right panel. 
+
+      The name of the campaign connected to the asset display in the **Campaign** field. This is a read-only field. 
+      If the asset is also connected to a **Region**, **Persona**, **Product** or **Channel** in the GenStudio workspace in Planning, the respective fields for these record types display their names in the **Campaign** tab of the asset in read-only mode. 
+   1. (Conditional) From a connected AEM content fragment in the GenStudio workspace in Planning, click the name of the content fragment, then click the **Open in AEM** icon ![Open in AEM icon](assets/open-in-aem-icon.png) to open the content fragment in AEM.  
+   1. Click the **Home** icon ![Home icon in AEM](assets/home-icon-in-aem.png) to go to a list of content fragments, then click the **information** icon ![Information icon in AEM](assets/info-icon-in-aem.png) to the right of the content fragment's name.
+   1. Click the **Metadata** tab in the right panel. 
+
+      The name of the campaign connected to the content fragment display in the **xdm: campaignName** field. This is a read-only field. <!--tried to log a bug to rename this field-->
+      If the asset is also connected to a **Region**, **Persona**, **Product** or **Channel** in the GenStudio workspace in Planning, the respective fields for these record types display their names in the **Metadata** tab on the content fragment in read-only mode. 
 
 1. Hover over a field in the table view, then click the drop-down menu to do one of the following:
 
    * Sort by it
    * Hide it 
    * Edit its settings
-   
-   <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
+   * Delete it 
 
       <!--GenStudio-native fields are note removed from GenStudio. -->
 
@@ -398,16 +507,9 @@ CAN YOU DO THIS??
       >* You can edit the configuration of a GenStudio field only when you have Manage permissions in GenStudio.
       >* You cannot delete a GenStudio field. 
 
-<!--
-Is this just Preview?? Or direct to Prod?? 
-
 ## Create workspace hierarchies in the GenStudio workspace
 
 Creating hierarchies in the GenStudio workspace is similar to creating hierarchies in any workspace. 
 
->[!NOTE]
->
->You cannot add GenStudio Brands to a hierarchy in the GenStudio workspace.
-
 For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
--->
+

@@ -1,13 +1,22 @@
 ---
-title: 'Adobe Workfront Planning Best Practices: Article Index'
+title: "Adobe Workfront Planning Best Practices: Article Index"
 description: In the following articles, learn tips on how to roll out Adobe Workfront Planning in your organization using a strategy that prioritizes safety, minimizes disruption, and delivers quick wins.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 699bc34b-98c8-4620-9fdc-992d1ab9f501
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/TWSPc9CPjKQtpOLzKWuW-Lm-40CdO-27RhwddE0PhYc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Adobe Workfront Planning best practices: article index
 

@@ -6,8 +6,25 @@ description: You can edit a filter in a list or report using text mode to access
 author: Courtney
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/WQpqpUKMkGJRmYkVUhVP4SP2NfTfJMvgMFG-r97CmoM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Edit a filter using text mode
 
@@ -174,7 +191,21 @@ For information about creating a report, see [Create a custom report](../../../r
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
+
+
 1. Click **Apply** or **Done** to save your text mode changes and continue editing the report or the filter.
 1. Click **Save + Close** to save your report or **Save Filter** to save the filter in the list.
 
+<!--
 
+If this text is needed for July 7 release, add the snippet at the top of the article!
+
+1. (Optional) Use a dynamic filter to narrow the list of items in this field based on the value of another field.
+
+   >[!NOTE]
+   >
+   >The `?` prefix for dynamic filtering is only available for native reference field filters.
+
+   For example, when you use `?portfolioID={portfolio}.{ID}` in a Project field filter and a Portfolio native field is on the custom form, the Project field shows only projects that are in the selected portfolio. If the Portfolio field is left blank, then all projects are available in the Project field.
+
+-->

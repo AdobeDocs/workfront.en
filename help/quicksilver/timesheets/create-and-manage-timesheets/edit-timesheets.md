@@ -6,6 +6,28 @@ description: As a user with administrative access to Timesheets, you can edit in
 author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
+TQID: https://experienceleague.adobe.com/--QshuygnTfcEJtt6-Tx-2QtNT-5p9TrTWaQTMBZNAg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Edit timesheet information
 
@@ -48,13 +70,13 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Edit timesheets
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Timesheets**.
+{{step1-to-timesheets}}
 
    The **All** filter is selected by default which displays all the timesheets that you have access to view.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+   ![Timesheets list with one timesheet selected](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (Optional) Click the **search** icon ![](assets/search-icon.png) and type a keyword and search for a specific timesheet. For example, you can search for a timesheet time frame or owner name. 
+1. (Optional) Click the **search** icon ![Search icon](assets/search-icon.png) and type a keyword and search for a specific timesheet. For example, you can search for a timesheet time frame or owner name. 
 
 1. (Optional) Do one of the following to update the filter in the list of timesheets:
 
@@ -66,21 +88,15 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
      This applies the My Timesheet Approvals or the My&nbsp;Timesheet filters to the list of timesheets.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![My timesheets filter buttons on the Timesheets list page](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Click the Filter icon ![](assets/filter-nwepng.png) to apply a different filter, or create a new one. For information about creating or updating filters, see [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Click the Filter icon ![Filter icon](assets/filter-nwepng.png) to apply a different filter, or create a new one. For information about creating or updating filters, see [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
-   >The My Timesheet Approvals and My&nbsp;Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed the My&nbsp;Timesheet Approvals and the My&nbsp;Timesheets filters from either the List Controls in the Setup area or from your Layout Template.&nbsp;For more information see the following articles:
-   >
-   >   
-   >   
-   >   * [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
-   >   
-   >
+   >The My Timesheet Approvals and My Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed those filters from either the List Controls in the Setup area or from your Layout Template. For more information, see [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Optional) Click the**View** ![](assets/view-icon.png) or **Grouping** ![](assets/grouping.png) icons to apply a different view or grouping or to create a new one.
+1. (Optional) Click the**View** ![View icon](assets/view-icon.png) or **Grouping** ![Grouping icon](assets/grouping.png) icons to apply a different view or grouping or to create a new one.
 
    For information about creating filters, views, or groupings, see the following articles:
 
@@ -88,7 +104,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    * [Create or edit views in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 
    * [Create groupings in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Select one or several timesheets, then click the **Edit** icon ![](assets/edit-icon.png) at the top of the timesheet list. 
+1. Select one or several timesheets, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) at the top of the timesheet list. 
 1. View or specify the following information:
 
    <table style="table-layout:auto"> 
@@ -126,7 +142,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td> <p>Select this option if you want to allow approvers to edit hours on the timesheet.</p> <p>This option is not available when you select multiple timesheets. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">Overtime</span> </td> 
+      <td role="rowheader"><strong>Overtime</strong> </td> 
       <td> <p>You can choose to hide the Overtime box on the timesheet.</p> <p>This option is disabled by default.</p> </td> 
      </tr> 
     </tbody> 

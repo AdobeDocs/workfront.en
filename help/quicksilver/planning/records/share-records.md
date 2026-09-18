@@ -6,18 +6,31 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/Ct6I5wnivCVr3V86Zj4F7stm2IVUJVH50yvTRyWFuUA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 <!--should this move to the Access folder when we have sharing for ALL the objects???-->
-
-<!--take out preview and production references at release-->
 
 # Share records using a link
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -32,7 +45,11 @@ You can share an Adobe Workfront Planning record in the following ways:
 
 * Copy a link to the record's page when viewing records in the record type's table view.   
 
-* You can share all records in a workspace with other users by sharing the workspace and the record type.
+This article describes how you can share records by sharing a link. 
+
+Additionally, you can share records in the following ways: 
+
+* Share all records in a workspace with other users by sharing the workspace and the record type. By default, all records are also shared with the same users. 
 
    For more information see the following articles:
 
@@ -40,37 +57,10 @@ You can share an Adobe Workfront Planning record in the following ways:
 
    * [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
 
-<!--
-When we release record-level permissions, replace the bullets above with these:
+* You can share individual records with people, teams, roles, groups, or companies, by turning off Inherited permissions when the records are shared with workspaces or record types. 
 
-You can share an Adobe Workfront Planning record in the following ways: 
+   For information, see [Share records](/help/quicksilver/planning/access/share-records.md). 
 
-* Copy the link of the record page from your browser when the page is open. 
-
-* Copy a link to the record's page when viewing records in the record type's table view.   
-
-* In the Production environment: 
-
-   * You can share all records in a workspace with other users by sharing the workspace and the record type.
-
-      For more information see the following articles:
-
-      * [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
-
-      * [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
-
-<div class="preview">
-
-* In the Preview environment: 
-
-   * You can share individual records with people, teams, roles, groups, or companies.
-
-</div>
--->
-
-<!--take out the sentence below when we release record-level sharing-->  
-
-This article describes how you can copy a link to a record's page from the table view of a record type. 
 
 ## Access requirements
 
@@ -88,25 +78,34 @@ This article describes how you can copy a link to a record's page from the table
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p> <p>Any Workflow and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+<ul> 
+<li><p>Any Workfront or Workflow with a Planning package</p></li>
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
    </td> 
   <tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Contributor or higher</p>
+   <td><p>Workflow Contributor or higher</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Contributor or higher</p>
+   <p><b>NOTE</b></p>
+   <p>Not all customers have Planning Contributor licenses</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>  <p>View or higher permissions to a workspace and record type to share a record using a link</p>
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
-</td>
-  </tr> 
+  </tr>  
 </tbody> 
 </table> 
 
@@ -162,7 +161,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -219,7 +218,7 @@ Old:
 
 You can share all records in a workspace when you share the workspace with others. 
 
-Record types and records inherit the same permissions from the workspace. 
+Record types and records inherit the same permissions from the workspace, by default. 
 
 Only users with Manage permissions to a workspace can share it with others. 
 
@@ -227,16 +226,28 @@ For more information, see [Share a workspace](/help/quicksilver/planning/access/
 
 ## Share all records in a record type by sharing the record type
 
-Records inherit permissions from the record type. 
+Records inherit permissions from the record type, by default. 
 
 By default, record types inherit permissions from the workspace. 
 
 However, you can do any of the following:
 
 * Disable inherited permissions from the workspace on a record type. This removes higher permissions to the records, but keeps View permissions to the workspace, record type, and records. 
-* Manually grant permissions to users to a record type, even when they have no permissions to the workspace. This automatically gives them View permissions to the workspace. This grants permissions to users to the records. 
+* Manually grant permissions to users to a record type, even when they have no permissions to the workspace. This automatically gives them View permissions to the workspace. This grants View permissions to users to the records, by default. 
 
 Only users with Manage permissions to a workspace can share its record types and records with others. 
 
 For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+
+## Share individual records
+
+Users inherit record permissions from the workspace and record type by default. 
+
+To give only select users with record type permissions Manage permissions to only certain records, you can disable inherited permissions on select records and grant only those users Manage access to those records. 
+
+You can adjust permissions for one record, or for multiple records at the same time, in bulk. 
+
+For more information, see [Share records](/help/quicksilver/planning/access/share-records.md). 
+
+
 

@@ -8,6 +8,13 @@ description: Folders are the best way to organize your work in your [!DNL Workfr
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 2969d8f8-387f-403c-87e7-a1ff041f5089
+TQID: https://experienceleague.adobe.com/SwRT0YaqVLihsuxAVQuNJ5Hds4QToUz3-rfYLKszBKU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Folders in [!DNL Workfront Proof]
 

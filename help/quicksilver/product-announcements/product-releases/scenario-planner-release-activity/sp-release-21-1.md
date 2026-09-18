@@ -8,6 +8,13 @@ description: Adobe Workfront Scenario Planner is available only with the new Ado
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 2e507c0c-76e2-4335-9682-df4f1940ff88
+TQID: https://experienceleague.adobe.com/laKQ-IUN1C0aWrebrazc46GUozygx-n0jcBu2-eCccY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Adobe Workfront Scenario Planner with the 21.1 release
 

@@ -6,6 +6,21 @@ description: For security reasons, it is important to log out of [!DNL Adobe Wor
 author: Becky
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
+TQID: https://experienceleague.adobe.com/TL-sc7xerkROX1uDg9KpPYmgxPHpTbJeDn9lGdkk6Rw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Log out of [!DNL Adobe Workfront]
 

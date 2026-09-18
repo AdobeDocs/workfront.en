@@ -6,6 +6,22 @@ description: To enable changes that you made to the timesheet profiles to reflec
 author: Lisa
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
+TQID: https://experienceleague.adobe.com/0hU3VlHM8l5TXee6K3lJaV9-W3ZKujDYf9-f1NXH-Nc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Manually generate timesheets
 
@@ -53,7 +69,7 @@ When you manually generate timesheets:
 
 You can manually generate system-level or group-level timesheets from the Timesheets & Hours area in Setup.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. If you are generating timesheets in use throughout the system, click **Timesheets & Hours.**
 
@@ -62,7 +78,7 @@ You can manually generate system-level or group-level timesheets from the Timesh
    If you are generating timesheets used by a specific group, click **Groups**, then click the group's name.
 
 1. Click **Timesheet Profiles**.
-1. Click the more icon ![more icon](assets/more-icon.png), then **Generate Timesheets**.
+1. Click the **More** icon ![More icon](assets/more-icon.png), then **Generate Timesheets**.
 
 1. At the top of the timesheet profile list, click the **More** icon ![More icon](assets/more-icon.png) for system-level timesheet profiles, or **More**, for group timesheet profiles, then click **Generate timesheets**. 
 
@@ -72,9 +88,8 @@ You can manually generate system-level or group-level timesheets from the Timesh
 
 You can manually generate system-level timesheets from the Diagnostics area in Setup.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Expand **System**, then click **Diagnostics**.
-
 1. Click **Conduct Diagnostics**.
 1. Click **Generate Timesheets**.

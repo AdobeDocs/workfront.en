@@ -8,6 +8,19 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 64fbad12-ce16-449f-8991-62af31e595b2
+TQID: https://experienceleague.adobe.com/116yMWr2nrjNevF337A7eAMxypT3b9RxFkCmuDoz6bM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Create and manage project templates: article index
 
@@ -27,5 +40,6 @@ You can use project templates to capture most of the repeatable processes, infor
 * [Create template from project](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md) 
 * [Share project templates](../../../manage-work/projects/create-and-manage-templates/share-project-template.md) 
 * [Remove template information from a project](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md) 
-* [Delete project templates](../../../manage-work/projects/create-and-manage-templates/delete-templates.md) 
+* [Delete project templates](../../../manage-work/projects/create-and-manage-templates/delete-templates.md)
+* [Attach a rate card to a template](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md)
 * [Overview of Start and Completion Days in a template](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)

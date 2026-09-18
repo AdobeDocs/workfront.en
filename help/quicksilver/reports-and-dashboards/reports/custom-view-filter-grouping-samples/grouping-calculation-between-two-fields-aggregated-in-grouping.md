@@ -3,13 +3,28 @@ content-type: reference
 product-area: reporting;projects
 keywords: calculated,aggregates,advanced,views
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Grouping: Display the Result of Aggregating Multiple Calculated Values in a Grouping'
+title: "Grouping: Display the Result of Aggregating Multiple Calculated Values in a Grouping"
 description: You can use text mode in a column to display a calculation between two fields in the view of a report or list. Each line displays the calculation for each object in the report or list.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/4kniXqVDr1HKcFoH6LloYToLlG-8-4i8QVP3E06QPig
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Grouping: display the result of aggregating multiple calculated values in a grouping
 

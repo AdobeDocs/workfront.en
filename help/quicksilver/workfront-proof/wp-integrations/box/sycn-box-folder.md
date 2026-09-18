@@ -7,6 +7,19 @@ description: You can synchronize a Box folder with a folder in Workfront Proof. 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d85577f5-6aa0-40a3-a6e3-45555a3124db
+TQID: https://experienceleague.adobe.com/sJxqocTWlV--ZrYQ9OrcqW8udhfRBk9ujGyaDxmcAZw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Sync [!DNL Box] Folders With [!DNL Workfront Proof]
 

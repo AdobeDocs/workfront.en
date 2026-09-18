@@ -4,12 +4,30 @@ product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 title: Edit an Approval Process
 description: If you are an Adobe Workfront administrator, or you have administrative access to approval processes, you can see and edit all approval processes in the system.
-author: Alina
+author: Courtney
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/Zfi1GowI6IVjCJaTHqxSoy25iq8GcUVGbA-a8RQlv7w
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Edit an approval process
 
@@ -24,12 +42,20 @@ For information about creating approval processes, see [Create an approval proce
 >[!NOTE]
 >
 >* When you edit a global approval process that is already in use, your changes affect all objects throughout the system that are already associated with it.
->* If you add a new approver to the current stage on an approval process that has already started on an object, the process for that object resets and the approvers have to start over.
 >
->  However, if you make the following changes in an approval process that has already started on an object, that process continues without interruption:
+>
+>However, if you make the following changes in an approval process that has already started on an object, that process continues without interruption:
 >
 >* Add a stage beyond the current stage
 >* Add an additional approver before the current stage
+
+<!--
+
+Note from Lisa: This was the second bullet in the note box above, below the bullet starting "When you edit a global approval process..." If you comment out bullet points in a note box, weird stuff happens. So I copied it below just in case.
+
+* If you add a new approver to the current stage on an approval process that has already started on an object, the process for that object resets and the approvers have to start over.
+
+-->
 
 ## Access requirements
 
@@ -40,7 +66,7 @@ For information about creating approval processes, see [Create an approval proce
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront package*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td><p>For system-level or single-use approval process:</p><ul><li><p>Any package</p></li></ul>
    <p>For group-level approval process:</p>
    <ul><li><p>Workflow Prime or Ultimate</p></li>
@@ -62,7 +88,7 @@ For information about creating approval processes, see [Create an approval proce
  </tbody> 
 </table>
 
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

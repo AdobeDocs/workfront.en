@@ -6,8 +6,26 @@ description: A KPI report that prominently displays a single aggregated KPI can 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/5tFfjJfCZzD-xA4YgFpz9V3jIVG2etiYJ-KAwPLI-Sk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Build a KPI report in a Canvas Dashboard
 
@@ -62,7 +80,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Prerequisites
 
-You must create a dashboard before you can build a KPI report. 
+You must create a dashboard before you can build a KPI report. For more information, see [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
 ## Build a KPI report in a Canvas Dashboard
 
@@ -70,13 +88,9 @@ There are many configuration options available for building a KPI report. In thi
 
 {{step1-to-dashboards}}
 
-1. In the left panel, click **Canvas Dashboards**. 
+1. In the left panel, click **Canvas Dashboards**, then click the name of the dashboard you want to add the report to. 
 
-1. Click **New Dashboard** in the upper-right corner.  
-
-1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**.  
-
-1. Click **Create**. 
+1. Click **Add report** in the upper-right corner of the page. 
 
 1. In the **Add report** box, select **Create report**.  
 
@@ -107,17 +121,9 @@ There are many configuration options available for building a KPI report. In thi
 
     1. In the **Aggregation type** drop-down, select how the data rolls up to produce the KPI output. The options in this field will vary depending on the type of field that was selected in the previous step. 
 
-1. Follow the steps below to configure the **Filter** section: 
+1. In the left panel, click the **Filter** ![Filter icon](assets/filter-icon.png) icon, then configure the conditions that determine which data displays.
 
-    1. In the left panel, click the **Filter** ![Filter icon](assets/filter-icon.png) icon. 
-
-    1. Select **Edit filter**. 
-
-    1. Click **Add condition** and then specify the field you want to filter by and the modifier that defines what kind of condition the field must meet.   
-
-    1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR. 
-
-        For more information on filters, see [Edit report filters in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
+    For more information, see [Filter a report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md).
 
 1. Follow the steps below to configure the **Drilldown Column Settings** section: 
 
@@ -127,11 +133,9 @@ There are many configuration options available for building a KPI report. In thi
 
     1. Click **Add column** and then select the field you want to display as a column in the table. Repeat this process for each column you want to add.  
 
-1. Follow the steps below to configure the **Drilldown Group Settings** section: 
+1. In the left panel, click the **Drilldown Group Settings** ![Drilldown group icon](assets/drilldown-group-icon.png) icon, then add groupings for the drilldown table.
 
-    1. In the left panel, click the **Group Settings** ![Drilldown group icon](assets/drilldown-group-icon.png) icon. 
-
-    1. Click the **Add grouping** button and then select the field you want to create as a grouping.  
+    For more information, see [Configure drilldown groupings in chart and KPI reports](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports) in [Group report data in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md).
 
 1. Click **Save** to create the report and add it to the dashboard. 
 
@@ -143,13 +147,9 @@ For more information on KPI report examples, see [Create a report dashboard for 
 
 {{step1-to-dashboards}}
 
-1. In the left panel, click **Canvas Dashboards**. 
+1. In the left panel, click **Canvas Dashboards**, then click the name of the dashboard you want to add the report to. 
 
-1. Click **New Dashboard** in the upper-right corner.  
-
-1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**.  
-
-1. Click **Create**. 
+1. Click **Add report** in the upper-right corner of the page. 
 
 1. In the **Add report** box, select **Create report**.  
 
@@ -197,14 +197,14 @@ Users with View or Edit access to Financial Data in their access level will stil
 * Users who do see financial data are limited to records they already have permission to view (projects, tasks, issues, etc.). They will not see financial values for records they cannot access.
 * Report creators should exercise caution when including financial data in dashboards and be mindful of who they share dashboards with to prevent unintended access.
 
-This is a known limit, and we plan to address it as quickly as possible.
+This is a known limit, and we plan to address it in the future.
 
 ### Utilizing the field selector
 
 The **Sections** drop-down in the **Build KPI** section is designed to narrow down the choices in a field selector to make an object easier to find when building a table report. To start, you would select a base entity object.
 
-* **All Sections**: All object types in Workfront Workflow and Workfront Planning.
-* **Workfront Objects**: Native Workfront Workflow objects.
+* **All Sections**: All object types in Workfront and Workfront Planning.
+* **Workfront Objects**: Native Workfront objects.
 * **Planning Record Types**: Custom record types defined in Workfront Planning.
 
 ![Sections drop-down](assets/sections-dropdown.png)

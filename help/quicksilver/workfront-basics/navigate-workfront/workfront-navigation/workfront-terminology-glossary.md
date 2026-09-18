@@ -6,15 +6,68 @@ description: The [!DNL Adobe Workfront] glossary lists commonly-used terms in [!
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/Nwg9J4XQcWv8PsTyUu9iHRHGd5anfcDJT9FKGt5rwy8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 # Glossary of [!DNL Adobe Workfront] terminology
 
 <!--Audited: 04/2026-->
 
-Bob: 4-30
+<!--Bob: 4-30-->
 
 >[!IMPORTANT]
 >
@@ -63,7 +116,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Hours]</td> 
-   <td> <p>In a project, task, or issue report, [!UICONTROL Actual Hours] are the sum of all hours logged on the project, task, or issue after May 2021.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If from the [!UICONTROL Updates] tab for Task 1, you click 'Log Time' and enter 25 hours, the Actual Hours of Task 1 = 25 hours. </p> <p>[!DNL Workfront] calculates [!UICONTROL Actual Hours] for parent tasks or projects using the following formulas:</p> 
+   <td> <p>In a project, task, or issue report, [!UICONTROL Actual Hours] are the sum of all hours logged on the project, task, or issue after May 2021. It is strongly recommended to use Actual Hours in all reports and not use Legacy Actual Hours.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If from the [!UICONTROL Updates] tab for Task 1, you click 'Log Time' and enter 25 hours, the Actual Hours of Task 1 = 25 hours. </p> <p>[!DNL Workfront] calculates [!UICONTROL Actual Hours] for parent tasks or projects using the following formulas:</p> 
     <ul> 
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project + [!UICONTROL Actual Hours] logged on issues in the project</code>  </p> </li> 
@@ -680,6 +733,10 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>A menu, located on the left side of the screen, on which the items change to correlate with the active content. For example, when a user is viewing a project, the [!UICONTROL Contextual Menu] will display links to project-related information and tools.</td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL Contributor]</td> 
+   <td><p>Typically a license type. A user with a [!UICONTROL Contributor] license can submit requests for new work to occur in the system.</p> <p>For more information, see <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Access levels overview</a>.</p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Converted Issue Originator]</td> 
    <td>A field in a project or task report that displays information about the user who is the [!UICONTROL Primary Contact] of an issue when the issue is converted into a project or task. The field also displays in the [!UICONTROL Project Details]  section  where it displays the name of the [!UICONTROL Primary Contact] of the converted issue. See also "[!UICONTROL Primary Contact]" in this article.</td> 
   </tr> 
@@ -1254,7 +1311,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Legacy Actual Hours]</td> 
-   <td> <p>In a project, task, or issue report, [!UICONTROL Legacy Actual Hours] are the sum of all hours logged on the project, task, or issue any time, including before May 2021.</p>  
+   <td> <p>In a project, task, or issue report, [!UICONTROL Legacy Actual Hours] are the sum of all hours logged on the project, task, or issue any time, including before May 2021. It is strongly recommended to use Actual Hours in all reports and not use Legacy Actual Hours.</p>  
    <p>Legacy Actual Hours display as Actual Hours in a project, task, or issue Details area. </p>
    <p>See also <strong>Actual Hours</strong>.
     <p>For more information, see <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">View Actual Hours</a>.</p>
@@ -1265,11 +1322,15 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL License Limit Plan]</td> 
-   <td> <p>In a [!UICONTROL Group] view or report, this field shows the maximum number of [!UICONTROL Plan] licenses that can be assigned to users who have the respective group designated as their [!UICONTROL Home Group].</p> </td> 
+   <td> <p>In a [!UICONTROL Group] view or report, this field shows the maximum number of [!UICONTROL Standard] or [!UICONTROL Plan] licenses that can be assigned to users who have the respective group designated as their [!UICONTROL Home Group].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL License Limit Work]</td> 
    <td> <p>In a [!UICONTROL Group] view or report, this field shows the maximum number of [!UICONTROL Work] licenses that can be assigned to users who have the respective group designated as their [!UICONTROL Home Group].</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Light]</td> 
+   <td><p>Typically a license type. A user with a [!UICONTROL Light] license has the ability to review and approve work items in the system.</p> <p>For more information, see <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Access levels overview</a>.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Limited User]</td> 
@@ -1430,6 +1491,27 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL On Change Only]</td> 
    <td> <p>One of the [!UICONTROL Project Update] Types. When this is selected, the [!UICONTROL Project Projected] and [!UICONTROL Planned] timelines update only when an update or change is made to the project or to a task within the project. It does not update the project every night.</p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p> </td> 
+  </tr> 
+
+</tr>
+  <tr> 
+   <td>[!UICONTROL On legacy Workfront storage]</td> 
+   <td>  <p>The legacy Workfront storage icon <img src="assets/legacy-storage-project-icon.png"> indicates that an object is associated with Workfront document storage. </p> 
+   <p>The icon displays near the name of an object, in the object header or in some lists. </p>
+   <p>Some customers have both legacy Workfront and Adobe cloud document storage. Documents can be stored in either of these environments for customers that have both types of storage.</p>
+   <p>The following objects can have either Workfront or Adobe cloud document storage:</p>
+   <ul><li>Projects</li>
+   <li>Portfolios</li>
+   <li>Programs</li>
+   <li>Templates</li>
+   <li>Tasks</li>
+   <li>Issues</li>
+   <li>Template tasks</li></ul>
+   <p>Only projects, portfolios, programs, and templates can display the On legacy Workfront storage icon. </p>
+   <p>Your Workfront instance might not have both types of document storage. 
+  <p>For more information, see <a href="/help/quicksilver/review-and-approve-work/esm-overview.md">Adobe cloud storage overview</a>. </p>
+   
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Op Task]</td> 
@@ -2120,7 +2202,11 @@ The designated full time equivalency for users. A full-time user should have 100
     <li>The Project Name or Task Name columns to an issue report. </li> </ul>
     For more information, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">Run and deliver a report with the access rights of another user</a> 
    </td> 
-  </tr> 
+  </tr>
+  <tr>
+   <td>[!UICONTROL Standard]</td> 
+   <td> <p>This is a full license type in the [!DNL Workfront] system. Users must have this to access all of the features in [!DNL Workfront].</p><p>For licenses in this model, there is no equivalent of Work. Users who previously had a Work license become Standard users with all the functionality of that license.</p> <p>For more information, see <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Access levels overview</a>.</p> </td> 
+  </tr>  
   <tr> 
    <td>[!UICONTROL Start Date]</td> 
    <td> <p>The Date when the work on an item is set to start. There are several Start Dates in [!DNL Workfront]: </p> 
@@ -2530,7 +2616,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <p>The system uses this number to calculate the availability of the user for actual, project-related work. </p>
    <p> Schedule exceptions and time off might also affect the user capacity. </p>
    <p>For more information about creating schedules in Workfront, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Create a schedule</a>. </p>
-    <p>Workfront calculates a user's availability depending on the Resource Management preferences in the [!UICONTROL Setup] area. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Configure Resource Management preferences</a>. </p> 
+    <p>Workfront calculates a user's availability depending on the Resource Management preferences in the [!UICONTROL Setup] area. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configure Resource Management preferences</a>. </p> 
    <p>You can update the [!UICONTROL Work Time] of a user when you edit or create the user. For information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Edit a user's profile</a></p> 
    <b>TIP</b> 
    <p>Set the [!UICONTROL Work Time] value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.</p> 
@@ -2557,3 +2643,4 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
  </tbody> 
 </table>
+

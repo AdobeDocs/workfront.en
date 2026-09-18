@@ -6,6 +6,13 @@ description: You can review and resolve existing comments on a proof, and add ne
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5124144e-b613-46c4-8697-b40caf22af04
+TQID: https://experienceleague.adobe.com/ZLVGe0gYBjB-gMr2bNBJPXxTVaabN5ELhaEL4uMASYY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Comment on proofs in [!DNL Android]
 

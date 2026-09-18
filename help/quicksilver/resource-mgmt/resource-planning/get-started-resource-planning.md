@@ -7,6 +7,21 @@ description: You can use resource planning tools to manage your job roles, their
 author: Lisa
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
+TQID: https://experienceleague.adobe.com/a1BAY-ZUWgGlg96Cq7RKPbg3m-OfT-c106ttm2goj-k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Get started with Resource Planning
 
@@ -23,11 +38,11 @@ You can use the Adobe Workfront Resource Management tools to forecast the alloca
 
 You can use resource planning tools to manage your job roles, their availability, and general allocation to projects based on this availability.
 
-Budgeting users' general allocation to projects does not assign them to actual work (tasks and issues). You must assign your resources to work by using the Workload Balancer.
+Budgeting users' general allocation to projects does not assign them to actual work (tasks and issues). You must assign your resources to work using the Workload Balancer.
 
 For more information about scheduling resources in Workfront using the Workload Balancer, see [Workload Balancer overview](../workload-balancer/overview-workload-balancer.md). 
 
-## Resource planning tools in&nbsp;Workfront
+## Resource planning tools in Workfront
 
 To budget time for your resources for the projects you plan to assign them to, you can use the following tools:
 
@@ -39,7 +54,7 @@ To budget time for your resources for the projects you plan to assign them to, y
 
 * For budgeting allocations for a single project: use the project-level Resource Planner in the Resource Budgeting area of the Business Case of a the project. For information about budgeting resources for one project, see the article [Budget resources in the Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-  To manage users and organize them in pools based on common skills or departmental structure and then manage their allocations for the projects they are assigned to, you must create resource pools.&nbsp;For more information about creating resource pools, see [Create resource pools](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+  To manage users, organize them in pools based on common skills or departmental structure, and then manage their allocations for the projects they are assigned to, you must create resource pools. For more information about creating resource pools, see [Create resource pools](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
   >[!TIP]
   >

@@ -7,6 +7,13 @@ description: You can share a proof by providing the desired recipient with the P
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b5fceaf9-f812-4368-8a13-d7fadebb7d28
+TQID: https://experienceleague.adobe.com/Sfs5JDtvASnydNXgW1QZhtsyLnFJ4BYXX-ueo27Fr-k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Share the Public URL in [!DNL Workfront Proof]
 

@@ -7,8 +7,24 @@ description: You can add an existing custom form to any of the objects listed be
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/WAbOTHu3HSXint2fJ-hH4bP6wfJHJtsGb1tstLa6O08
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Add a custom form to an object
 
@@ -30,6 +46,13 @@ You can add an existing custom form to any of the objects listed below. A custom
 * Iterations
 * Expenses
 * Billing records
+* Teams
+
+If you are on the Workflow Ultimate package, you can attach custom forms to these additional objects:
+
+* Job roles
+* Rate cards
+* Assignments
 
 You can add a custom form only to the types of objects for which the form was created.
 
@@ -100,7 +123,7 @@ Old:
 
 ## Prerequisites
 
-Your Workfront administrator or a user with a Plan license and administrative access to custom forms must create custom forms in your environment before you can add them to objects. For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Your Workfront administrator or a user with a Standard or Plan license and administrative access to custom forms must create custom forms in your environment before you can add them to objects. For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Add a custom form to an object
 

@@ -7,6 +7,13 @@ description: Managing feedback across multiple versions or revisions of a piece 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d1bee64d-c091-40d3-a9c1-847c7f645b96
+TQID: https://experienceleague.adobe.com/8dEKTMfZ6-nhdjvY4Ar-m29jxGJV8q4FysGAqIl6nEs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Managing Proof Versions in [!DNL Workfront Proof]
 

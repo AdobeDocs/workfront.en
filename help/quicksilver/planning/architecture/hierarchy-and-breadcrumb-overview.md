@@ -6,13 +6,22 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: de066d44-d214-47cc-8483-37c2623585ea
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/5fAVg3RVgnHdJraHxLwM-u4rrUwzou9wDzR6KUKW1xY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Hierarchy and breadcrumb overview
 
 <!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -71,7 +80,13 @@ The following are benefits of using hierarchies in your workspaces:
     * When connected record types are part of hierarchies, you can connect one record from a child record type to up to 10 records from a parent record type.
 
         For example, if you create a hierarchy between Campaigns as the parent and Persona as the child record, you can connect the same persona to up to 10 campaigns. 
+    * If your organization purchased an Adobe GenStudio for Performance Marketing package, the following scenarios exist:
     
+        * You cannot connect to GenStudio record types from Planning record types. 
+        * You can connect GenStudio record types in the GenStudio workspace. 
+        * You can connect GenStudio Brands to GenStudio record types and Planning record types. 
+        * You cannot include GenStudio Brands in a hierarchy. 
+
 ## Considerations when viewing breadcrumbs
 
 When you create hierarchies between record types, they generate breadcrumbs for records that belong to those record types. 
@@ -85,7 +100,7 @@ Consider the following:
 * Breadcrumbs display in the preview area of a record, as well as in the records' details page. 
 * If a record type is part of multiple hierarchies, you can switch between hierarchies from the record's breadcrumb on the record's page.
 * If the record type in a hierarchy has multiple records, you can select records from the breadcrumb. 
-* Breadcrumbs work across Workfront and Planning. 
+* Breadcrumbs work across Workfront and Planning, if your company purchased both Workfront and Planning packages. 
 
     For example, when looking at a project which is connected to Planning campaigns and tactics, and also to Workfront portfolios and programs, you can switch between both the Planning and the Workfront object types from the breadcrumb. 
 

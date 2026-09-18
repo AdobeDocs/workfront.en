@@ -6,8 +6,30 @@ description: A project is a large unit of work in Adobe Workfront. You can creat
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/ftDbs1BguO-wdhSEzFe318xKOV86cbfBbyHkm0FPmqM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create a project
 
@@ -16,7 +38,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 <!-- Audited: 110/2025 -->
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -117,7 +139,15 @@ You can create a project in Workfront using one of the following methods:
 
   For information about access to Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
 
-  For information about creating projects by adding them to records, see the section "Create projects when connecting them with records from Workfront Planning" in the article [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+  For information about creating projects by adding them to records, see the section "Create projects when connecting them with records from Workfront Planning" in the article [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+
+* Add projects using Workfront Planning automations. 
+
+  For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
+
+   You must have a new Workfront license and an additional Workfront Planning package for Workfront Planning.
+
+   For information about access to Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
 
 ## Prerequisites
 
@@ -164,15 +194,15 @@ Consider the following:
 * Where documents are stored for a project and for its children objects (tasks and issues) depends on what your Workfront administrator chooses as the default for Storage Preferences in the System Preferences area of Setup. Depending on where you store documents in your Workfront instance, you can create the following types of projects:
 
   * Legacy Workfront storage projects
-  * Adobe enterprise storage projects.
+  * Adobe cloud storage projects.
 
-  For more information, see [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md). 
+  For more information, see [Enable Adobe cloud storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md). 
 
   >[!TIP]
   >
   > Your Workfront instance might not have both types of document storage.
 
-* When you create an enterprise-storage project, a document folder with the same name of the project is created in the **Documents** section of the project. After you add tasks to the project, folders with the task's name are added to the **Documents** section of each task. 
+* When you create an Adobe cloud storage project, a document folder with the same name of the project is created in the **Documents** section of the project. After you add tasks to the project, folders with the task's name are added to the **Documents** section of each task. 
 
 For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -193,29 +223,29 @@ For more information, see [Document management overview for projects and related
 
 1. (Conditional) Depending on which document storage your organization is using, click one of the following:
 
-    * **New project**, when the Workfront administrator chooses either **Adobe Enterprise**, or **Legacy Workfront**, and they did or did not select the **Allow user to select storage provider** setting. 
-    * **New project (Legacy storage)**, when the Workfront administrator chooses either **Adobe Enterprise**, or **Legacy Workfront**, and they also selected the **Allow user to select storage provider** setting. 
+    * **New project**, when the Workfront administrator chooses either **Adobe cloud storage**, or **Legacy Workfront**, and they did or did not select the **Allow user to select storage provider** setting. 
+    * **New project (Legacy storage)**, when the Workfront administrator chooses either **Adobe cloud storage**, or **Legacy Workfront**, and they also selected the **Allow user to select storage provider** setting. 
 
       This option displays only when the **Allow user to select storage provider** setting is selected in the Setup area.
 
-      For more information, see [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md). 
+      For more information, see [Enable Adobe cloud storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md). 
 
       >[!NOTE]
       >
-      >* When you create an enterprise-storage project from a Workfront-storage portfolio or program, the portfolio or program are also converted to enterprise-storage objects. All other Workfront-storage projects under the same portfolio or program remain unchanged. 
+      >* When you create an Adobe cloud storage project from a legacy Workfront storage portfolio or program, the portfolio or program are also converted to Adobe cloud storage objects. All other legacy Workfront storage projects under the same portfolio or program remain unchanged. 
       >* Your Workfront instance might not have both types of document storage.
 
       A project is created and its default name follows the following patterns, depending on which storage Workfront uses for documents: 
 
-      * `Untitled Project` for a Workfront-storage project.
+      * `Untitled Project` for a legacy Workfront storage project.
 
-        A Workfront-storage project displays a **Legacy Workfront storage** icon ![Legacy-storage project icon](assets/legacy-storage-project-icon.png) next to its name. 
+        A legacy Workfront storage project displays a **Legacy Workfront storage** icon ![Legacy-storage project icon](assets/legacy-storage-project-icon.png) next to its name. 
 
-      * `Untitled Project - < Month day, year hour.minute.second >` for an Adobe-storage project
+      * `Untitled Project - < Month day, year hour.minute.second >` for an Adobe cloud storage project
 
         >[!IMPORTANT]
         >
-        >Projects using Adobe enterprise storage must have unique names.    
+        >Projects using Adobe cloud storage must have unique names.    
 
 
 1. In the project's header, update the name of the project. Press Enter to save the name.

@@ -5,6 +5,19 @@ description: You can pin your most important work [!DNL Adobe Workfront] for inc
 feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
+TQID: https://experienceleague.adobe.com/xXHYO3esg0zhwMvdpQEXitxMBnwWDLWEQvLhHeIhXkw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Pin pages to customize your workspace
 
@@ -47,7 +60,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. In the upper-left corner of the page, click **[!UICONTROL Pin current page]**. The pinned page is now accessible from the top of any page in [!DNL Workfront].
 
-   ![Pin current page](assets/pin-current-page-button.png)
+   ![Pin current page](assets/pin-current-page-button-2026.png)
 
 ## Access a pinned page
 
@@ -59,12 +72,28 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    Or
 
-   If you have many pages pinned, click the **[!UICONTROL More]**  icon ![Click the More icon](assets/more-icon.png) to view additional pinned pages. 
+   If you have many pages pinned, click the **[!UICONTROL More]**  icon ![Click the More icon](assets/more-icon.png) to view additional pinned pages.
 
-   ![View additional pinned pages](assets/display-pinned-pages.png)
-   
+   ![Pin current page](assets/display-pinned-pages-2026.png)
+
    The pinned page displays.
 
+## Manage pins
+
+You can rename, reorder, and remove pinned pages in one place.
+
+1. Click the **[!UICONTROL More]**  icon ![Click the More icon](assets/more-icon.png) in the row of pins and select **Manage Pins**.
+1. In the **Manage Pins** box, do one or more of the following:
+
+   * Click the **Edit** icon to rename a pinned page. Type the new name and click the check mark icon to confirm.
+   * Drag and drop the pinned pages in the order you want them to appear.
+   * Click the **Delete** icon to remove a pinned page from the list.
+
+   ![Manage Pins box](assets/manage-pins.png)
+
+1. Click **Close** when you are finished editing pins.
+
+<!--
 ## Rename a pinned page
 
 1. Hover over the pinned page in the top navigation.
@@ -75,7 +104,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. Type the new pin name, then click **Save**.
 
    ![Click the check mark to rename pin](assets/rename-pin-dialog-box.png)
-
 
 ## Reorder pinned pages
 
@@ -95,5 +123,5 @@ You can rearrange the order that pinned pages appear.
 1. Click **Remove pin**. The page is no longer accessible from the top of any page in [!DNL Workfront].
 
    ![Remove pin](assets/pin-menu.png)
+-->
 
-   

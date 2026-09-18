@@ -9,6 +9,13 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0cfac975-a561-4e0a-8703-8173b50957ca
+TQID: https://experienceleague.adobe.com/W-jGfq-Nt5n7-l6PiZhCuhlffk9QE57Ao7OW3q9bazw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Review proofs in the Web Proofing Viewer
 

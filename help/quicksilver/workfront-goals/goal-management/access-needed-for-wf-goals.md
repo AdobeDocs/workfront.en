@@ -7,8 +7,24 @@ description: Your Adobe Workfront administrator must ensure certain conditions a
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/nTDQ-ziswPJQEpm9COvpXo8hMPt-Es3WzskydrjM3DQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Requirements to use Workfront Goals
 
@@ -61,11 +77,11 @@ Speak with your account representative to inquire about Workfront Goals.
 
 <!--
 Old: >
-Depending on which Workfront plan your company is currently on, the following scenarios exist: 
+Depending on which Workfront package your company is currently on, the following scenarios exist: 
 
-* **A new Workfront plan**: You must have an Ultimate Workfront plan. Workfront Goals are included only in this plan. 
+* **A new Workfront package**: You must have an Ultimate Workfront package. Workfront Goals are included only in this plan. 
 
-* **A current Workfront plan**: Your organization must purchase an additional license, in addition to the Workfront license.
+* **A current Workfront package**: Your organization must purchase an additional license, in addition to the Workfront license.
 
   After your organization purchases the additional license, Workfront enables Workfront Goals for your account. For information about purchasing a license for Workfront Goals contact your Workfront account manager.
 

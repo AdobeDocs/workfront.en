@@ -8,8 +8,24 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/zHLRYheTPbZUMzGm93gmS4iL-tbYlV9x3a0rWJq1ozo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Deactivate or reactivate a user {#deactivate-or-reactivate-a-user}
 
@@ -115,17 +131,15 @@ To schedule a user for deactivation:
 1. In the left panel of the **Edit User** box, click **Resource Planning**.
 1. Click **Set deactivation date**.
 
-1. Select the date and the time for the **Deactivation Date**.
+1. Select the datefor the **Deactivation Date**.
 
    >[!NOTE]
    >
-   >* In the time box, you can select only whole hour increments, not minutes.
-   >* If you select a time for the current day that has passed, Workfront will schedule the deactivation for the following day at 12:00 AM. 
-   >* The time selected matches the computer timezone of the user who is scheduling the deactivation.
+   >* The date selected matches the computer timezone of the user who is scheduling the deactivation.
 
 1. Click **Save**.
 
-The user is deactivated on the selected day sometime after the selected time. If you selected multiple users to deactivate in bulk, all selected users are deactivated on the selected day sometime after the selected time.
+The user is deactivated at 12:00 AM on the selected date. If you selected multiple users to deactivate in bulk, all selected users are deactivated at 12:00 AM on the selected date.
 
 We recommend that you build a report for users that you have scheduled for deactivation to keep informed about what users are coming up to be deactivated. There is no confirmation that the deactivation has happened after the users are deactivated.
 

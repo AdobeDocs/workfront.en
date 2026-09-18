@@ -9,6 +9,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
+TQID: https://experienceleague.adobe.com/IqwSI0BtN-tIZkT-TVZaR2nS5ZAZH7-8uGHuyygnHK4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # The [!DNL Adobe Workfront] Preview Sandbox Environment
 
@@ -188,4 +203,4 @@ For the Preview environment, the nightly recalculation is disabled, and the proj
 
 * Any outage to a [!DNL Workfront] Preview environment on weekends (Saturdays and Sundays) will be addressed so that the environment is running for business hours on Monday.
 
-* Proofing is not available in the Preview environment.
+* The Frame.io viewer is not available in the Preview environment. Adobe cloud storage is available so you can test it in the sandbox, but the full unified review and approval experience must be validated in production. For more information, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).

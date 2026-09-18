@@ -16,8 +16,10 @@ git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
 -->
 
+<!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
+
 <!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -26,7 +28,7 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 You can view objects in the list view in the following areas of Workfront Planning:
 
-* A connected records page for projects in a record's details area
+* A connected records page for projects in a record's details area 
 
     ![Projects on connected records page in list view](assets/projects-on-connected-records-page-list-view.png)
 
@@ -40,6 +42,7 @@ This article describes how you can navigate, create, or edit a list view in Work
 
 +++ Expand to view the access requirements for the functionality in this article. 
 
+
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -52,27 +55,36 @@ This article describes how you can navigate, create, or edit a list view in Work
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p>
-<p>Any Workflow and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>Any Workfront or Workflow with a Planning package</p></li>
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
+   </td> </tr>
+
+   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p> Standard to create and delete views</p>
-   <p>Contributor or higher to update view elements</p>
+   <td><p>Workflow Light or higher</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p> Planning Standard to create and delete views</p>
+   <p>Planning Contributor or higher to update view elements</p>
+   <p><b>NOTE</b><p>
+   <p>Not all customers have Planning Contributor licenses</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a view</p>  
    <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
   </tr> 
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
-</td>
-  </tr> 
+
 </tbody> 
 </table> 
 
@@ -176,17 +188,15 @@ Removed - more direct steps below:
     1. Hover over the name of a column, then click the down-pointing arrow to the left of the column name, then click one of the following:
         * **Rename**, to add a **Custom label** for the column. The name of the original field in Workfront does not change. 
         * **Sort**, to sort the list by the selected field. A sorting icon indicating the direction of the sorting is added to the column header. 
+    1. Click the header of a column, then drag and drop it in another position in the list. 
+
+        You cannot move the first column. 
     1. Click the **+** icon in the upper-right corner of the list to add or remove columns to the list, then click **Save**. 
 
         The **Column manager** opens. 
     
         You can add only existing fields to the list view. 
-        You cannot remove the primary field in the list view which displays in the first column. 
-
-        <!-- 
-        update indent here: 
-        1. <span class="preview">Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) to choose fields to group items by, then sort them in an ascending or descending order. </span>
-        -->
+        You cannot remove the primary field in the list view which displays in the first column.
 
     1. Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens. <!--change the name of the box when they update it-->
         Do the following:
@@ -226,7 +236,7 @@ Removed - more direct steps below:
             The formatting is applied immediately to the list view.
             There is a blue dot next to the **Format cells** icon to indicate that the view has special formatting applied.
     
-    1. (Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) <!--have they updated this to "Grouping"??--> to group items in the list by a common field. Select one of the options, or use the search bar to find a field.
+    1. (Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) to group items in the list by a common field. Select one of the options, or use the search bar to find a field.
 
         The field must be a column in the list before you can group by it. Not all field types can be used for groupings.
 
@@ -237,7 +247,7 @@ Removed - more direct steps below:
         * Medium
         * Tall
 
-    <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
+        <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 
 1. (Optional) Add a keyword in the search box in the upper-right corner of the list to search for an item. 
 
@@ -247,19 +257,27 @@ Removed - more direct steps below:
 
     * Click **Connect records** in the upper-right corner of the list to add existing items.
     * Click **New row** at the bottom of the list to add new items. 
-1. Click the name of a connected item in the list to open it in another browser tab. 
+1. Click the name of an item in the list to open it in another browser tab. 
 1. Double-click inside of a cell in the list to edit the information of a field, then press Enter to save your changes. 
 
     Some fields are read-only. For example, the percent complete of a project is a field calculated by the system and you cannot manually edit it. 
 
-1. Hover over an item's name in the list and click the **More** menu [More menu](assets/more-menu.png) and click **View** to open the project in another tab
+1. (Conditional) For select type fields, use your keyboard arrows to navigate the list of options, then press the space bar to select the correct choice. 
+
+    Use the **Search** line in select field types to find the right option.
+
+    You can add new options directly from the field cell when no results are found. This feature may not be available on all lists.
+
+1. Hover over an item's name in the list and click the **More** menu [More menu](assets/more-menu.png) and click **View** to open the item in another tab
      
       Or
 
-      Select one or more items, and notice the actions bar at the bottom of the list, then click one of the following, when available. Depending on which area you access the list view from, click on one of the following options: 
+      Select one or more items, and notice the actions bar at the bottom of the list, then click one of the following, when available. 
+      
+      Depending on which area you access the list view from, click on one of the following options: 
       
     * **Delete** to delete the item. Deleting a project disconnects it from the record and moves it to the Workfront's Recycle Bin. Workfront administrators can recover deleted projects up to 30 days after they were deleted. Deleting a form does not delete the requests or records created when the form was submitted. 
-    * **Disconnect** to disconnect the project from the record. Disconnecting a project removes it and all the values of its lookup fields from the current record. 
+    * **Disconnect** in the projects connected page, to disconnect a project from the record. Disconnecting a project removes it and all the values of its lookup fields from the current record. 
 
         ![Actions bar in Connected records page List view](assets/actions-bar-connected-records-page-list-view.png)
 

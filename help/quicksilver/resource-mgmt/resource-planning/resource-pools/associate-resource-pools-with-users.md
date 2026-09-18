@@ -6,6 +6,21 @@ description: You must create a resource pool before you can associate it with us
 author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
+TQID: https://experienceleague.adobe.com/OQBqFxBx-VGQsWF-2yGgcZk1EO-ZQ0MAlMsSH3fiMZo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Associate resource pools with users
 
@@ -13,7 +28,7 @@ exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: The info about how to add resource pools to users, are duplicated from the articles listed in those sections (Creating Users, etc). I decided to keep the steps here because those articles are too long to rummage through for updating just this one field.)</p>
 -->
 
-Resource pools are collections of users what help you manage resources in Adobe Workfront.
+Resource pools are collections of users that help you manage resources in Adobe Workfront.
 
 You must create a resource pool before you can associate it with users.
 
@@ -61,11 +76,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 {{step-1-to-users}}
 
-1. Check the box next to the name of a user from the list, then click **Edit**.
+1. Select the check box next to the name of a user on the list, then click **Edit**.
 1. Click **Resource Planning**.
 1. Start typing the name of a resource pool that you want to associate with the user in the **Resource Pools** field, then select it from the list, when it appears.  
    You can associate multiple resource pools with one user.  
-   ![add_resource_pool_to_user.png](assets/add-resource-pool-to-user-350x307.png)  
+   ![Add resource pool to user](assets/add-resource-pool-to-user.png)  
 
 1. Click **Save Changes**.
 

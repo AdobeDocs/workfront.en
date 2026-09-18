@@ -8,6 +8,13 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1c8fd07d-fb86-4d64-8a3d-4148ced6659b
 recommendations: noDisplay, noCatalog
+TQID: https://experienceleague.adobe.com/wxbf8nypJ1ltTW2XNAcVpixK6VQY2hcGv5ShMEmFXhA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Basic features in [!DNL Workfront Proof]
 

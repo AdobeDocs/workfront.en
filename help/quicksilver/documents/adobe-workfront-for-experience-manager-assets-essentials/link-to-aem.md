@@ -6,6 +6,23 @@ description: You can use Content Advisor to link content or folders from Experie
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
+TQID: https://experienceleague.adobe.com/0qWQcRcAeOK7SfQTqHfSrxvyTf2h9piCwwJ9Tg2rCWQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Link content and folders with Experience Manager Assets' Content Advisor
 
@@ -129,6 +146,14 @@ To link content:
    </tbody>
    </table>
 
+   >[!NOTE]
+   >
+   >Recommended Content in Content Advisor uses data from the following to determine suggested content in Workfront:
+   >
+   >* Workfront object name and description fields
+   >* Custom form fields marked as required
+   >* Data from attached documents
+
 
 ### Link a new version from Experience Manager Assets with Content Advisor
 
@@ -177,7 +202,7 @@ To link a folder:
 
 ## Considerations
 
-* Content Advisor functionality is not available for objects using Adobe Enterprise Storage. If your organization uses Adobe Enterprise Storage, you can still link assets and folders from Experience Manager Assets or Assets Essentials, but you won't have access to Content Advisor features such as AI Search, smart suggestions, or Dynamic Media renditions. For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+* Content Advisor functionality is not available for objects using Adobe cloud storage. If your organization uses Adobe cloud storage, you can still link assets and folders from Experience Manager Assets or Assets Essentials, but you won't have access to Content Advisor features such as AI Search, smart suggestions, or Dynamic Media renditions. For more information, see [Link content and folders from Experience Manager Assets with Adobe cloud storage](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md#link-content-from-experience-manager-assets).
 
 * Content Advisor functionality is not available for Assets Essentials. To link assets and folders from Assets Essentials, see [Link assets and folders from Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md).
 

@@ -8,6 +8,13 @@ description: You can enhance the proofing workflow for the project manager (the 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 582cdb22-fd7f-4872-b173-910471b8e745
+TQID: https://experienceleague.adobe.com/n2bbDNgKjdExrAzRAGW5I-rTtf1gw-1VNOWZHDeXVSE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Working with Designers and Project Managers in [!DNL Workfront Proof]
 
@@ -52,5 +59,6 @@ When it is not necessary for the designer to be involved in the [!DNL Workfront 
 1. The project manager receives an email with a summary of the client's review and their decision. For more information, see [Configure email notification settings in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 1. The project manager lets the designer know about the change requests using [!UICONTROL Print comments]. For more information, see [Print and Export Comments in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
 1. If necessary, the designer amends the file and uploads it to [!DNL Workfront Proof], where the project manager can create a new version for another round of proofing.
+
 
 

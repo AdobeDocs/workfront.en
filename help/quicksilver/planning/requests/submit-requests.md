@@ -6,18 +6,38 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/-ksnbkmFi7s42lp3Fnb6uVaO3JCseU48W9VSacVY-GI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Submit Adobe Workfront Planning requests to create records
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -46,17 +66,26 @@ For information about how a workspace manager can create a request form and asso
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront packages</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront or Workflow package</p>
-<p>Any Workfront Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative.</p>
-   </td> </tr>
-  </tr> 
+<p>Any Workfront or Workflow with a Planning package</p> 
+Or
+<p>Any Workfront Planning when purchased as a standalone product</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td><p>Any</p> 
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Any</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
@@ -95,7 +124,7 @@ The following must be in place before you can submit a request to a Workfront Pl
 
 ## Considerations about submitting requests to Workfront Planning
 
-* You cannot edit a request in Workfront after you submit it.
+* you can edit a submitted request only before a record is created from it. After the record is created, you can no longer edit the submitted request.
 * Each submitted request creates a record for the record type associated with the form you use, if the form is not associated with an approval, or if the approval has been granted by all approvers.
 * Records created by submitting request forms are identical to records added through any other method in Workfront Planning. 
 
@@ -116,6 +145,23 @@ The following must be in place before you can submit a request to a Workfront Pl
 * There are limitations in how certain field types display in a request form, or the request details page after a form is submitted. 
 
    For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+* When you submit a request form to create records from a global record type, the new records are saved either in the primary or the secondary record type, depending on where you submit them from.
+
+   Depending on which environment you use to submit requests and create records, the following scenarios exist when you submit forms for request forms associated with global record types: 
+  
+   * In the Production environment:
+   
+      * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+
+   * <span class="preview"> In the Preview environment, the following scenarios exist: </span>
+   
+      * <span class="preview">When you submit a request form from a secondary global record type's page, the record displays in the secondary record type page. Users will also see the new record on the primary record type's page, if they have access to view the secondary workspace. </span>
+      * <span class="preview">When you submit a request form from the primary record type page or using any other method described in this article, the records display in the primary record type page.</span>
+      * <span class="preview">If the **Workspace** field is available in the request form and the user manually chooses a specific workspace to add the record to, the record is saved in that space, regardless of whether the form was selected from the primary or the secondary record type pages.</span>
+ 
+   For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
+
 
 <!--
 Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.
@@ -172,7 +218,7 @@ Not sure how to change the request status, but dev also said: Changing the names
       * **Subject**: The name of the original request as added in the Requests area. You cannot hide or remove the **Subject** field from the request list. The name has a link that opens the request page in Planning. 
       * **Created object**: The name of the record that was created from the request as it displays in Planning. The Created object name has a link that opens the record created from the request.
       * **Object type**: The name of the workspace and record type where there records was created from the request in Planning. 
-      * **Status**: The status of the request object. 
+      * **Status**: The status of the request object. For more information about request statuses, see [View submitted requests](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
       * **Request form**: The name of the request form associated with the record type in Planning. 
       * **Created object status**: The status of the created record.
    
@@ -187,7 +233,7 @@ Not sure how to change the request status, but dev also said: Changing the names
 
       There is a link to the request in the email confirmation or approval notification.
 
-1. (Optional) Click **View your request** in the confirmation message, to open the request, or click the **X** icon to close the confirmation.
+1. (Optional) Click **View your request** in the confirmation message or the name of the request in the list to open the request, or click the **X** icon to close the confirmation.
 1. (Optional) To manage the way the information displays in the requests list, update the following view elements for the list: 
 
    * View
@@ -199,28 +245,6 @@ Not sure how to change the request status, but dev also said: Changing the names
 
    For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). 
 
-   <!-- 
-   Removing this as this is covered at a higher level in the Use enhanced lists article: 
-   1. (Optional) From the requests list, do any of the following:
-      * Click **Filters** and start adding conditions for what requests you want to view in the Requests list. 
-         ![Editing filters in the Requests area](assets/filters-editing-box-in-requests-planning-tab.png)
-         You can filter by the following fields:  
-         * **Workspace**: The workspace the request form is associated with.
-         * **Object type**: The record type the request form is associated with.
-         * **Entry date**: The date when the request was submitted.
-         * **Request form**: The name of the request form used to submit the request.
-         * **Status**: The status of the request.
-         * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
-        You can have multiple filters joined by either **And** or **Or**.
-         The request list is filtered automatically, as you add the filter conditions. 
-      * Click **Columns** to open the **Fields visibility and order** box, then hide, show, or rearrange the columns in the request list. 
-         >[!TIP]
-         >
-         >You cannot add any more columns. 
-         ![Columns editing box in Requests area](assets/columns-editing-box-in-requests-planning-tab.png)
-      * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
-   -->
-
 1. Click the name of a request in the list. 
 
       The request details page opens. 
@@ -228,6 +252,16 @@ Not sure how to change the request status, but dev also said: Changing the names
       ![Request page with comment](assets/new-request-page-with-comment.png)
     
 1. (Optional) Enter a comment in the **Comments** area.
+1. (Optional and conditional) If the request is waiting approval and you opened the request, either click the **More** icon ![More menu](assets/more-menu.png) to the right of the request name then click **Edit** or double-click fields in the request to edit them.
+
+   >[!NOTE]
+   >
+   >
+   >* Editing a request is possible only when a record has not been created yet and the request is awaiting approval. 
+   >* Some fields are read-only and you cannot edit them. 
+   >* You can no longer edit a request after a record has been created from it. 
+   
+1. (Optional) After editing the request, click **Submit changes**.
 1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Created object** field. 
 
    The record's page opens in Workfront Planning. 
@@ -237,10 +271,68 @@ Not sure how to change the request status, but dev also said: Changing the names
    >* If the record's primary field was not updated in the request form, the name of the record in the Record field of the request displays as **Untitled**. 
    >
    >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. The record is not created until the approval is granted. 
+   >  For information about approving requests, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md). 
 
 1. (Optional) Click the name of the **Record type**. 
 
    The record type page opens in Workfront Planning. 
+
+<!-- 
+Moved from line 223, just after the "For information, see [Use enhanced lists]..." This is due to rendering bug.
+Removing this as this is covered at a higher level in the Use enhanced lists article: 
+1. (Optional) From the requests list, do any of the following:
+   * Click **Filters** and start adding conditions for what requests you want to view in the Requests list. 
+      ![Editing filters in the Requests area](assets/filters-editing-box-in-requests-planning-tab.png)
+      You can filter by the following fields:  
+      * **Workspace**: The workspace the request form is associated with.
+      * **Object type**: The record type the request form is associated with.
+      * **Entry date**: The date when the request was submitted.
+      * **Request form**: The name of the request form used to submit the request.
+      * **Status**: The status of the request.
+      * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
+      You can have multiple filters joined by either **And** or **Or**.
+      The request list is filtered automatically, as you add the filter conditions.  
+   * Click **Columns** to open the **Fields visibility and order** box, then hide, show, or rearrange the columns in the request list. 
+      >[!TIP]
+      >
+      >You cannot add any more columns. 
+      ![Columns editing box in Requests area](assets/columns-editing-box-in-requests-planning-tab.png)
+   * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
+-->
+
+## Submit a Planning request from a record type page
+
+You can submit a request when you add new records from a record type page. 
+
+{{step1-to-planning}}
+
+1. Click the card for a workspace, then the card for a record type where you have access to create records.
+1. From any view on the record type page, click New record, then click **Submit a request**.
+
+   >[!TIP]
+   >
+   >Request forms must be created and published before the **Submit a request** option is added to the **New record** capability.
+
+1. Click **Continue**. 
+
+1. (Conditional) If the record type has more than one request form, click the request form you want to use in the **New request** box.
+
+   The request form opens. 
+1. Start entering all the information in all the available fields
+
+   Or click **Fill form** to have AI fill out the form for you. 
+1. Click **Submit request**.
+
+   The request is submitted. 
+   
+1. (Optional) Click one of the following:
+
+   * **Submit another request** to open a new form. 
+   * **View your request** to open your new request. 
+   * The **X** icon in the upper-right corner of the box to return to the record type page. 
+
+   If there is no approval associated with your request, a record has been added to the record type you selected in Step 2. <!--accurate??--> 
+
 
 ## Submit a request to Workfront Planning from a shared link to a request form
 
@@ -283,9 +375,9 @@ External people cannot access Workfront internal areas, like **Requests** or **H
 
 1. (Optional) Click **View your request** to open the request in Workfront.
 
-Or
+   Or
 
-Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.
+   Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.
 
    The request details page opens. 
 
@@ -334,9 +426,17 @@ When you delete a Planning request, the following things occur:
 * The record created from the request is not deleted. 
 * Deleted drafts cannot be recovered. There are no records associated with drafts.
 
-Deleting Planning requests is similar to deleting Workfront requests. 
+Deleting Planning requests from a list is similar to deleting Workfront requests. 
 
 For information, see [Delete a submitted request or request draft](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md). 
+
+To delete a Planning request after opening the request:
+
+1. Open a Planning request by clicking its name in the Requests list. 
+1. Click the **More** icon ![More menu](assets/more-menu.png) to the right of the request name then click **Delete**. 
+1. Click **Delete** in the **Permanently delete** box to confirm.
+
+   The request is deleted and cannot be recovered. 
 
 
 

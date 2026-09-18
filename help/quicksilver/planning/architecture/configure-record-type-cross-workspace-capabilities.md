@@ -1,15 +1,32 @@
 ---
 title: Configure Cross-workspace Capabilities for Record Types
-description: You can enable a record type to either be added to another workspace or be connected from another workspace in Adobe Workfront Planning. 
+description: You can enable a record type to either be added to another workspace or be connected from another workspace in Adobe Workfront Planning.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/Erl28TyQUAOJR3XcK9J1FnL4Sdr-kMCHUjz5pAN-zzs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 <!--
 *******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTICLE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************
 -->
@@ -23,7 +40,7 @@ this article is linked to the UI in the Advanced settings/ Cross-workspace setti
 {{planning-important-intro}}
 
 <!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -62,22 +79,23 @@ For information, see one of the following articles:
    <td> 
 <p>To configure connectable record types: </p>
 <ul> 
-<li><p>Any Workfront package and any Planning package</p></li>
+<li>Any Workflow and a Planning Prime or Ultimate package</p></li>
 Or
-<li>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
-
+<li>A Workfront Planning Prime or Ultimate package as a standalone product</li>
+</ul>
 
 <p>To configure global record types:</p>
 
 <ul> 
-<li><p>Any Workfront package and a Planning Plus package</p></li>
+<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li>
+
 Or
-<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+<li>A Planning Prime or Ultimate package when purchased as a standalone product </li>
+</ul>
 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td role="rowheader"><p>Adobe Workfront and Planning license</p></td> 
    <td>
    <!--
    <p>In the Production environment: </p>
@@ -88,15 +106,17 @@ Or
    -->
 
    <p>To make a record global:</p>
-   <ul><li>Standard or higher</li></ul>
+   <ul><li>Workfront and Planning Standard or higher</li></ul>
    <p>To make a record connectable:</p>
      
-   <ul><li>Standard to make a record connectable from specific workspaces</li>
+   <ul><li>Workfront and Planning Standard to make a record connectable from specific workspaces</li>
    <li>System Administrator to make a record connectable from all workspaces</li></ul>
     
-   
    </td> 
   </tr> 
+  <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a workspace</p>  

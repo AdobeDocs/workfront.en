@@ -7,6 +7,13 @@ description: As a [!DNL Workfront Proof] administrator, you can list and restore
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 23f2b370-6b9c-46f9-b715-560f6a074715
+TQID: https://experienceleague.adobe.com/-r00sXOPGnKpxuX1Ebsj3BUHR5kUN0xFNpF6PIkI1vk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Restore and Empty the Trash in [!DNL Workfront Proof]
 

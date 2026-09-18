@@ -6,6 +6,26 @@ description: You can assign resources to multiple tasks and issues in bulk using
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
+TQID: https://experienceleague.adobe.com/6QlIfRh94tpLTZF6x5LU2BueTjShzNsaKxb45CEylqA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Assign work in bulk using the Workload Balancer
 
@@ -13,7 +33,7 @@ exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 
 You can assign resources to multiple tasks and issues in bulk using the Adobe Workfront Workload Balancer.
 
-For general information about assigning work to users using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+For general information about assigning work to users and Task Collaborators using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Access requirements
 
@@ -56,18 +76,17 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Considerations for making bulk assignments in the Workload Balancer
 
-* You can quickly manage user assignments for multiple tasks and issues across one or more projects. Changes in assignments are visible in the Workload Balancer immediately. 
+* You can quickly manage resource assignments for multiple tasks and issues across one or more projects. Changes in assignments are visible in the Workload Balancer immediately. 
 * You cannot assign resources to work items that are completed, or to items that are on a completed project. 
-* You can do the following when assigning users in bulk:
+* You can do the following when assigning job roles and users in bulk:
 
-   * Assign a user to all work items currently assigned to a job role.
-   * Replace user assignments between users.
+   * Make assignments between users and roles in all valid combinations.
    * Unassign a user from all their work items.
 
 **EXAMPLES** 
 
 * You are responsible for making user assignments on several new projects. The projects were originally created from templates and job roles are already assigned to the various tasks within the projects. You want to assign a specific user, Jackie Simms, to all tasks that are currently assigned to a job role. You can use the Assign function to assign these tasks to Jackie Simms.
-* 45 tasks across 3 different projects are assigned to Jackie Simms. Jackie leaves the organization, and now you need to reassign her tasks to another user. You can use the Replace function to assign these tasks to the new person. 
+* 45 tasks across 3 different projects are assigned to Jackie Simms. Jackie leaves the organization, and now you need to reassign her tasks to another user. You can use the Assign function to assign these tasks to the new person. 
 * 10 tasks across 2 different projects are assigned to another user, Rick Kuvec. You realize that Rick was assigned to these tasks in error, but you are not sure who they need to be assigned to at this time. You need to unassign Rick to all the tasks at the same time. You can use the Unassign function to remove Rick from these tasks.
 
 ## Assign work in bulk in the Workload Balancer
@@ -89,7 +108,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >
    >The Project Name is selected by default when you access the Workload Balancer for a project.
 
-   ![Project name in bulk assignments](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
+   ![Project name in bulk assignments](assets/project-name-status-dropdown-bulk-assignments-wb.png)
 
 1. (Optional) Click **Select project tasks** to select the task or tasks that you want to make assignments for, then in the **Task: Name** drop-down menu, select tasks by Name (this is the default option) or Status and use the filter modifiers to search for specific tasks. 
 
@@ -99,7 +118,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >
    >You cannot select tasks in a Complete status.
 
-   ![Task status in bulk assignments](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
+   ![Task status in bulk assignments](assets/task-name-status-dropdown-bulk-assignments-wb.png)
 
    >[!TIP]
    >
@@ -113,13 +132,14 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Select one of the following options and continue with the steps described below:
 
-   * [Assign user](#assign-user) 
-   * [Replace user](#replace-user) 
-   * [Unassign user](#unassign-user)
+   * [Assign resource](#replace-user) 
+   * [Unassign resource](#unassign-user)
 
    >[!TIP]
    >
    >If no items match the selected filters, these options are dimmed.
+
+<!--
 
 ### Assign user {#assign-user}
 
@@ -139,7 +159,7 @@ To assign a user to work items previously assigned to job roles:
 
 1. In the **Role assignment** field, click the drop-down arrow to choose from a list of roles. Only roles currently assigned within the specified projects are displayed. This is a required field. 
 
-   ![Role assignment](assets/bulk-assignments-workload-balancer-assign-selected.png)
+   IMAGE
 
 1. In the **User to assign** field, click the drop-down arrow to choose from a list of suggested users or to type another user's name.
 
@@ -166,64 +186,66 @@ To assign a user to work items previously assigned to job roles:
 
    You receive a confirmation about how many work items have had the selected role replaced with the selected user.
 
-   ![Bulk assignment confirmation](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
+   IMAGE
 
-### Replace user {#replace-user}
+-->
 
-You can replace a user who is already assigned to work items with another user in the selected projects.
+### Assign resource {#replace-user}
 
-When you replace a user with another user using Bulk Assignments in the Workload Balancer, the following things occur:
+You can assign or replace resources in the selected projects.
 
-* The replacement user is assigned to all work items currently assigned to an original user within the selected projects.
+The resource assignment can be:
 
-* The new user is not assigned to any work items that are already marked Complete.
-* If the role associated with the first user does not match any of the roles of the second user, the second user is assigned in their Primary Role.
+* Role to role
+* User to user
+* User to role
+* Role to user
 
-To replace a user with another user:
+When you assign or replace a resource using Bulk Assignments in the Workload Balancer, the following things occur:
 
-1. Start assigning work items in the Workload Balancer as described above and select **Replace**. 
-1. In the **Currently assigned user** field, click the drop-down arrow to choose from a list of users. Only users currently assigned to incomplete work items within the specified projects are displayed. This is a required field.
+* The new resource is assigned to all work items currently assigned to the original resource within the selected projects.
+* The new resource is not assigned to any work items that are already marked Complete.
+* For user to user replacement, if the role associated with the first user does not match any of the roles of the second user, the second user is assigned in their Primary Role.
 
-   ![Replace user](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
+To bulk assign a resource:
 
-1. In the **User to assign** field, click the drop-down arrow to choose from a list of suggested users or to type another user name. Users listed in the list by default match the criteria for Smart Assignments. For more information, see [Smart assignments overview](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+1. Select work items in the Workload Balancer bulk assignments area as described above and select **Assign resource**.
+1. In the **Currently assigned resource** field, click the drop-down arrow to choose from a list of resources. Only resources currently assigned to incomplete work items within the specified projects are displayed. This is a required field.
 
-   Workfront displays a note about the number of items where the currently assigned user will replace the second user and which roles they will replace.
+   ![Replace resource](assets/bulk-assignments-workload-balancer-replace-selected.png)
 
-   ![Bulk replace user confirmation](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
+1. In the **Resource to assign** field, click the drop-down arrow to choose from a list of suggested resources or to type another job role or user name. Resources listed first by default match the criteria for Smart Assignments. For more information, see [Smart assignments overview](../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
-1. Click **Replace**.
+   Workfront displays a note about the number of items where the currently assigned resource will replace the second resource.
 
-   The first user selected is replaced by the second user in all work items from the selected project.
+1. Click **Assign**.
 
-   You receive a confirmation about how many work items have had the original user assignment replaced with the selected second user.
+   The first resource is replaced by the second resource in all work items from the selected project or task.
 
-### Unassign user {#unassign-user}
+   A confirmation displays how many work items have had the original assignment replaced with the selected second resource.
 
-You can unassign a user from all work items that the user is assigned to in the selected projects.
+### Unassign resource {#unassign-user}
+
+You can unassign a resource from all work items that they are assigned to in the selected projects.
 
 When you unassign a user from all their assignments using Bulk Assignments in the Workload Balancer, the following things occur:
 
 * The specified user is removed from all the work items that they are assigned to.
 * If the unassigned user is associated with job roles, the job roles remain assigned to the work items when the user is removed.
-
 * If the specified user is assigned to work items that are completed, the user remains assigned to those work items.
 
 For more information about user and job role assignments, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 To unassign a user from work items in the selected projects or for the selected tasks or issues where they are assigned:
 
-1. Start assigning work items in the Workload Balancer as described above and select **Unassign**.  
+1. Select work items in the Workload Balancer bulk assignments area as described above and select **Unassign resource**.  
 
 1. In the **User to unassign** field, click the drop-down arrow to choose from a list of users. Only users currently assigned to incomplete work items within the specified projects display. This is a required field.
 
-   ![Unassign user](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png)
+   ![Unassign user](assets/bulk-assignments-workload-balancer-unassign-selected.png)
 
    Workfront displays a note about the number of items where the currently assigned user will be unassigned.
 
-   ![Bulk unassign confirmation](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
-
 1. Click **Unassign**.  
-   You receive a confirmation about the number of work items where the specified user was removed.
+   A confirmation displays the number of work items where the specified user was removed.
 
- 

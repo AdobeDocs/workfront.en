@@ -2,14 +2,21 @@
 product-area: betas
 navigation-topic: new-commenting-experience-beta
 title: New commenting experience
-description: An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
+description: An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects.
 author: Alina
 feature: Product Announcements
 role: User
 hide: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/3PkUo43qZPf0xRIZgxpEPIYNLnxhzuvT9yvzVVLg1uw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # New commenting experience
 

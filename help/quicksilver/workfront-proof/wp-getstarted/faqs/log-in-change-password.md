@@ -8,6 +8,21 @@ description: The Workfront Proof administrator can set up personalized branding 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
+TQID: https://experienceleague.adobe.com/VegCU8Bt-m-loHvC41n5njkRi5TpqbJBLZlemtAaOnI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Logging in and changing your password and email for Workfront Proof
 
@@ -71,3 +86,4 @@ You can add multiple email addresses to your [!DNL Workfront Proof] account. You
 1. In the validation email you receive, click the confirmation link.\
    The email change is saved in your profile. You may need to refresh the browser where you are viewing [!DNL Workfront Proof] [!UICONTROL Personal settings] page to see that it is confirmed as an alias email.
 1. (Optional) To make the new email address your primary email address in [!DNL Workfront Proof], click the [!UICONTROL More] (three dot) button to the far-right of the address, then click **[!UICONTROL Make primary email]** in the menu that appears.
+

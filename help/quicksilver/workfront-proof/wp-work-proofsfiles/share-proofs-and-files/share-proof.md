@@ -7,6 +7,13 @@ description: If you have editing rights on a proof, you can easily share the pro
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bc145c50-9ab5-4ee8-9ed7-d307da6b0e8f
+TQID: https://experienceleague.adobe.com/wL1b-NeZg34ePbcEXn3wO3YzbdztS19SRZ7GinuuQ88
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Share a Proof in [!DNL Workfront Proof]
 

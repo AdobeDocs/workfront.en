@@ -8,8 +8,21 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/67OfYPIrN7Tzciapa37YHviFI4uptaGgkWkMMREgw-k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure preferences for user updates
 
@@ -81,15 +94,16 @@ By default, users cannot add images in updates. When you enable this preference,
 >
 >* Images saved in updates count toward the document storage limit. For information, see [Check document storage limits](../../../documents/managing-documents/check-document-storage.md).
 >* Images are accessible through the [!UICONTROL Updates] tab on an object and are also available in the [!UICONTROL Documents] area under the [!UICONTROL Main Menu].
->
+>* This preference also governs whether users can attach images to comments on objects using Adobe cloud storage. Attached images are stored in Adobe cloud storage.
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![Gear settings icon](assets/gear-icon-settings.png).
 1. In the left panel, select **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]**.
 1. Select the **[!UICONTROL Preferences]** tab.
 
-   ![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)
-
 1. Select the **[!UICONTROL Allow users to add images in updates]** check box.
 1. Select **[!UICONTROL Save]**.
 
    When this preference is enabled, you can disable it at any time. Any images already posted in updates will remain in the [!UICONTROL Updates] area on the object.
+
+
+<!--Note from Lisa: This image is old so I hid it. Was after step 3 (select the Prefs tab) but it broke the numbering when I commented it out. ![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)-->

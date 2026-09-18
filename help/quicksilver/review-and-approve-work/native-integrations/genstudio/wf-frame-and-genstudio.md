@@ -64,7 +64,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 * Workfront and GenStudio for Performance Marketing must be deployed to the same Identity Management system (IMS) organization.
 
-* The Workfront instance must have Adobe enterprise storage enabled. For more information, see [Enable Adobe enterprise storage](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+* The Workfront instance must have Adobe cloud storage enabled. For more information, see [Enable Adobe cloud storage](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 
 ## Use Workfront unified approval templates to define approval workflows

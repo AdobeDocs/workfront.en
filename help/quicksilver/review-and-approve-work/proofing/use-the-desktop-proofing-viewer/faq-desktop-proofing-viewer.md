@@ -7,6 +7,13 @@ description: No. The Desktop Proofing Viewer is specifically designed for real-t
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e5c9f039-2a6e-47be-a125-f0ce23cfaeaa
+TQID: https://experienceleague.adobe.com/1gc-y9JRhPoWI2jpVRsQoe05Vi9mzHYVu5Bo7pydfbw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # FAQ - Desktop Proofing Viewer
 

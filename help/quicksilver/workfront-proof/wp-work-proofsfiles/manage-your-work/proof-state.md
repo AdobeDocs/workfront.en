@@ -7,6 +7,13 @@ description: In [!DNL Workfront Proof], proofs exist in different states. These 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cd120e53-d6c2-4929-904f-a9f72903f074
+TQID: https://experienceleague.adobe.com/hfrduMjWqBcyeqrHM5PTmCYY6jzwBCQwgQWzCqGDlls
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Understand Proof State in Workfront Proof
 

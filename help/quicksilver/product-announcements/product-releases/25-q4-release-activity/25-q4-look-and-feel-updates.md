@@ -5,6 +5,13 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1acb64b8-b215-408e-93b0-6301b63d7880
+TQID: https://experienceleague.adobe.com/sSpBQ-B-wyf-JM49O00vZz06fGi4slLe0vkrpLFMMHU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Look-and-feel updates during the Fourth Quarter 2025 release timeframe
 

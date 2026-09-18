@@ -9,6 +9,23 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
+TQID: https://experienceleague.adobe.com/0orzAcBft4J52M4nMDMxk6Kupagmn81V3qHB-M5YkvY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # The [!DNL Adobe Workfront] Custom Refresh Sandbox environment
 
@@ -61,6 +78,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 The Custom Refresh Sandbox contains your actual production data, and it does not refresh until you schedule it to do so. You can schedule a refresh any time is convenient for you, as frequently as once a week.
 
+>[!IMPORTANT]
+>
+>Custom Refresh Sandbox environments are refreshed from your Production environment only. There is no process to perform a point-in-time restore for sandbox environments. To update your sandbox data, schedule a standard refresh from Production.
+
 >[!NOTE]
 >
 >* You cannot schedule a refresh for the current day. For example, if today is June 1, the earliest day when you can schedule a refresh is June 2.
@@ -75,6 +96,12 @@ The Custom Refresh Sandbox contains your actual production data, and it does not
 If you are a Workfront Goals customer, Workfront Goals data does not transfer to the Custom Refresh Sandbox when you schedule a refresh. The ability to sync this data from your production environment to your Custom Refresh Sandbox will be available after September 2020.
 </note>
 -->
+
+## Adobe cloud storage in the Custom Refresh Sandbox
+
+Adobe cloud storage is available in the Custom Refresh Sandbox so you can test it before enabling it in production. However, the Frame.io viewer is not available in sandbox environments, so the full unified review and approval experience must be validated in production.
+
+After you upgrade to a version of Workfront that supports Adobe cloud storage, you must refresh your Custom Refresh Sandbox to access Adobe cloud storage functionality in the sandbox. Once the refresh completes, you can begin testing Adobe cloud storage. For more information, see [Enable Adobe cloud storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 ## Access the Custom Refresh Sandbox from your Production environment {#access-the-custom-refresh-sandbox-from-your-production-environment}
 
@@ -224,7 +251,16 @@ For the Custom Refresh Sandbox environment, the nightly recalculation is disable
 
 * Proofing is not available in the Custom Refresh Sandbox environments.
 
-* The following notifications are not avaiilable for use in the Custom Refresh Sandbox environments:
+* The following notifications are not available for use in the Custom Refresh Sandbox environments:
 
    * Reminder notifications
    * Automatic late or early reminder notifications
+
+### Note on Business Rules
+
+Business Rules are intentionally excluded from Workfront Preview and Sandbox environment refreshes. Unlike most data, Business Rules are treated as environment-specific configuration, similar to Users. Each environment can maintain a distinct set of rules tailored to its purpose (for example, testing, development, or production).
+
+Including Business Rules in a refresh would overwrite these configurations, potentially disrupting rules that administrators have intentionally set up in non-production environments.
+
+If you need to move Business Rules between environments, use Environment Promotion, which allows you to selectively transfer configuration objects with control over timing and scope. For more information, see [Overview of moving objects between Workfront environments](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+

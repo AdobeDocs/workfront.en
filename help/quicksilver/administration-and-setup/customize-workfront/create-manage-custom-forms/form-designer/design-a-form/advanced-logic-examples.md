@@ -8,6 +8,22 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: caf889d6-08a3-4186-9d9c-3cea3a0e4548
+TQID: https://experienceleague.adobe.com/cco-UwmTpDJ4bc6KvTM2BgRmvudLZveRY5WmpbhsnqM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Examples of advanced logic in custom forms
 
@@ -51,7 +67,7 @@ Validation logic is built using formulas, and you can make the logic as simple o
 
 If the field with the logic applied meets the defined validation conditions when a user fills out the custom form, the field is highlighted and the error message is displayed.
 
-You can apply validation logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, typeahead, date, checkbox group, and radio buttons.
+You can apply validation logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, internal lookup, date, checkbox group, and radio buttons.
 
 ### Only allow project owner to select "Rush" SLA
 
@@ -117,9 +133,9 @@ If a user who is not the project owner tries to type in the field, they see a me
 
 ![Only Claire Stevens can edit this field](assets/only-project-owner-can-edit.png)
 
-### Typeahead allows or rejects values based on other field values
+### Internal lookup allows or rejects values based on other field values
 
-In this example, a typeahead field dynamically allows or rejects values based on the value entered in another field on the form.
+In this example, an internal lookup field dynamically allows or rejects values based on the value entered in another field on the form.
 
 Validation expression:
 
@@ -129,7 +145,7 @@ IF({DE:DV - Text - Budget}>"10000",
 )
 ```
 
-If the value in the budget field is more than $10,000, then only users with a Director role can be selected from the typeahead, even if there is no role filter enabled on the typeahead configuration.
+If the value in the budget field is more than $10,000, then only users with a Director role can be selected from the internal lookup, even if there is no role filter enabled on the internal lookup  configuration.
 
 ![Budget amount requires director approval](assets/budget-director.png)
 

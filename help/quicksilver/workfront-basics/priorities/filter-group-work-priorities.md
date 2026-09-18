@@ -6,6 +6,22 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
+TQID: https://experienceleague.adobe.com/PNUMhekotNpz3n3bmmwWdH6fRL1-6b0T0PNwQIeR8Eg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Filter, group, and sort your work with Priorities
 
@@ -59,67 +75,68 @@ You can filter tasks and issues assigned to you.
 
 1. Click **Filters** in the top left of the worklist.
 1. In the **Standard filters** section, select one or more filters to narrow down your work items.
-  ![Filter](assets/filter-new.png)
+   ![Filter](assets/filter-060226.png)
 
-+++Expand to see detailed information about available filters
-<table>
-  <tbody>
-   <tr>
-   <th>Filter</th>
-   <th>Description</th>
-   </tr>
-    <tr>
-      <td>Working on it</td>
-      <td>Displays items that you are currently working on</td>
-    </tr>
-    <tr>
-      <td>Ready to start</td>
-      <td>Displays items with 
-      <ul>
-      <li>No incomplete predecessors or task constraints</li>
-      <p>and</p>
-      <li>The Planned Start Date is in the past or up to two weeks in the future</li>
-      </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Not ready</td>
-      <td>Displays items that have
-       <ul>
-      <li>Incomplete predecessors or task constraints that prevent the item from being worked on</li></ul>
-      <p>or</p>
-      <ul>
-      <li>The Planned Start Date more than two weeks in the future</li>
-      </ul>
-       </td>
-    </tr>
-    <tr>
-      <td>Requested</td>
-      <td>Displays issues that you have not started work on</td>
-    </tr>
-      <td>Done</td>
-      <td>Displays work completed within the last two weeks. This filter option does not include approvals.</td>
-    </tr>
-    <tr>
-    <td>Project</td>
-    <td>Displays projects that contain tasks or issues you've been assigned to</td>
-    </tr>
-    <tr>
-    <td>Due date</td>
-    <td>Displays work by Planned Completion Date</td>
-    </tr>
-    <tr>
-    <td>My Focus</td>
-    <td>Displays tasks or issues that have assigned focus levels. Focus levels are assigned and managed by the individual user.</td>
-    </tr>
-    <tr>
-    <td>Status</td>
-    <td>Displays tasks or issues in new, in progress, and complete statuses.</td>
-    </tr>
-  </tbody>
-</table>
-
-+++
+   +++Expand to see detailed information about available filters
+   <table>
+     <tbody>
+      <tr>
+      <th>Filter</th>
+      <th>Description</th>
+      </tr>
+       <tr>
+         <td>Working on it</td>
+         <td>Displays items that you are currently working on</td>
+       </tr>
+       <tr>
+         <td>Ready to start</td>
+         <td>Displays items with 
+         <ul>
+         <li>No incomplete predecessors or task constraints</li>
+         <p>and</p>
+         <li>The Planned Start Date is in the past or up to two weeks in the future</li>
+         </ul>
+         </td>
+       </tr>
+       <tr>
+         <td>Not ready</td>
+         <td>Displays items that have
+          <ul>
+         <li>Incomplete predecessors or task constraints that prevent the item from being worked on</li></ul>
+         <p>or</p>
+         <ul>
+         <li>The Planned Start Date more than two weeks in the future</li>
+         </ul>
+          </td>
+       </tr>
+       <tr>
+         <td>Requested</td>
+         <td>Displays issues that you have not started work on</td>
+       </tr>
+       <tr>
+         <td>Done</td>
+         <td>Displays work completed within the last two weeks. This filter option does not include approvals.</td>
+       </tr>
+       <tr>
+          <td>Project</td>
+          <td>Displays projects that contain tasks or issues you've been assigned to</td>
+       </tr>
+       <tr>
+          <td>Due date</td>
+          <td>Displays work by Planned Completion Date</td>
+       </tr>
+       <tr>
+          <td>My Focus</td>
+          <td>Displays tasks or issues that have assigned focus levels. Focus levels are assigned and managed by the individual user.</td>
+       </tr>
+       <tr>
+          <td>Status</td>
+          <td>Displays tasks or issues in new, in progress, and complete statuses.</td>
+       </tr>
+     </tbody>
+   </table>
+   
+   +++
 
 1. (Optional) Click **Back to default** to reset your selection.
 
@@ -150,18 +167,18 @@ Use natural language to quickly filter work.
 1. Click **Grouping** in the top left of the worklist.
 1. Select a grouping to organize your worklist.
   
-  ![Groups](assets/groups-new.png)
+  ![Groups](assets/groupings-060226.png)
 
-  +++Expand to see detailed information about available groups
+  +++ Expand to see detailed information about available groups
 
-| Group     | Description |
-|-----------|-------------|
-| Project   |   This groups items by project.          |
-| Due date  |   This groups items based on when they are due. Due dates are determined by the Planned Completion Date.           |
-| My Focus  |   This groups items based on the focus level you assign.           |
-| Status    |   This groups items by the following statuses: New, In progress, Complete. <br><b>Note</b>: You can't use custom statuses in Priorities at this time.          |
-
-+++
+   | Group     | Description |
+   |-----------|-------------|
+   | Project   |   This groups items by project.          |
+   | Due date  |   This groups items based on when they are due. Due dates are determined by the Planned Completion Date.           |
+   | My Focus  |   This groups items based on the focus level you assign.           |
+   | Status    |   This groups items by the following statuses: New, In progress, Complete. <br><b>Note</b>: You can't use custom statuses in Priorities at this time.          |
+   
+   +++
 
 ### Drag and drop work items when grouping by My Priority or Status
 

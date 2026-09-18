@@ -6,6 +6,19 @@ description: Announcement Center messages are messages that are sent from Adobe 
 author: Luke
 feature: Product Announcements
 exl-id: a9922e91-c58c-4c25-968c-ab70fa8d8916
+TQID: https://experienceleague.adobe.com/2bKYtYhiGw8dEAx07-yHofb-jxx-dLlP6IjuHsukRQA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Unsubscribe from Announcement Center Messages
 
@@ -19,16 +32,19 @@ Announcement Center messages are messages that are sent from Adobe Workfront to 
 
 To unsubscribe from receiving Announcement Center messages:
 
-1. Click the numbered icon ![Notifications icon](assets/notifications-icon-jewel.jpg) in the upper-right corner of Workfront to open your list of notifications.
-1. Click **All Announcements** at the bottom of the list.
+1. Click the numbered icon in the upper-right corner of Workfront to open your list of notifications, then click **All Announcements** at the bottom of the list.
 
-   The **Announcements** page appears, listing all of your announcements.
+    ![Notifications icon](assets/notifications-icon-jewel.png)
 
-   ![Announcements page](assets/announcements-page-qs-350x210.png)
 
-1. Click **Settings** in the upper-right corner of the Announcements page, then select **New Releases** or **Training**, depending on the type of announcements you no longer want to receive.
+1. Click **Settings** in the upper-right corner of the Announcements page,
 
-   ![Announcement center settings](assets/announcementcenter-settings-350x187.png)
+   ![Announcements page](assets/ac-page.png)
+
+
+1. In the **Announcement Center Settings** dialog, deselect the check box for the type of Announcement Center messages you want to unsubscribe from.
+
+   ![Announcement center settings](assets/ac-settings.png)
 
 1. Click **Save Settings**.
 

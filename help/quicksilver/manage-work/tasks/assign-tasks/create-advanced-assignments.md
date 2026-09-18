@@ -7,8 +7,35 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+autotag-review: '2026-06-18T17:43:58.800Z'
+TQID: 'https://experienceleague.adobe.com/qZvXwTMlCd5p08duYVqbyHpkML4oXtbijHuCzlukywg'
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create advanced assignments
 
@@ -41,17 +68,6 @@ You can adjust the following assignment information when making advanced assignm
 >[!NOTE]
 >
 >When assigning users to work, their availability according to their schedules affects the Planned and Projected Dates of tasks and issues. For information about schedules, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
-
-## Areas of Adobe Workfront where you can make advanced assignments
-
-This article describes how to access Advanced Assignments in the task or issue's header.
-
-In addition, you can make advanced assignments in the following areas of Workfront:
-
-* In lists and reports when the Assignments field displays in the view.
-* In the Assignments section when editing a task. For more information, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md). <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
-* In the task or issue header, in the Assignments area.
-* In the Workload Balancer. For more information, see [Assign work manually using the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
 ## Access requirements
 
@@ -86,14 +102,27 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Create Advanced Assignments – Workflow Ultimate package
+## Areas of Adobe Workfront where you can make advanced assignments
 
-This layout of Advanced Assignments applies to tasks only. For issues, see [Create Advanced Assignments – all other packages](#create-advanced-assignments--all-other-packages).
+This article describes how to access Advanced Assignments in the task or issue's header.
+
+In addition, you can make advanced assignments in the following areas of Workfront:
+
+* In lists and reports when the Assignments field displays in the view.
+* In the Assignments section when editing a task. For more information, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md). <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
+* In the task or issue header, in the Assignments area.
+* In the Workload Balancer. For more information, see [Assign work manually using the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+
+Creating advanced assignments differs depending on which Workfront package your organization has purchased. 
+
+## Create Advanced Assignments for Workflow Ultimate packages
+
+This layout of Advanced Assignments applies to tasks only. For issues, see the section [Create Advanced Assignments for all other packages](#create-advanced-assignments-for-all-other-packages) in this article.
 
 >[!NOTE]
 >
 >The old Advanced Assignments experience is the default. You must manually turn on the new experience with the button on the top right of the Advanced Assignments window.
->For information about the old experience, see [Create Advanced Assignments – all other packages](#create-advanced-assignments--all-other-packages), below.
+>For information about the old experience, see the section [Create Advanced Assignments for all other packages](#create-advanced-assignments-for-all-other-packages) in this article.
 
 1. Go to the project where you want to assign a task.
 1. Click **Tasks** or **Issues** in the left panel, then click the name of a task in the list.
@@ -113,7 +142,7 @@ This layout of Advanced Assignments applies to tasks only. For issues, see [Crea
 
    ![Click Advanced](assets/assignments-from-task-header-0825.png)
 
-   The Advanced Assignments window appears.
+   The Advanced Assignments window opens.
 
    ![Advanced Assignments window](assets/advanced-assignments-031826.png)
 
@@ -309,7 +338,7 @@ You can only view assignment data by dates for a single user or role.
  
    When you are finished reviewing the data, click the arrow on the top left to return to the Advanced Assignments window.
 
-## Create Advanced Assignments – all other packages
+## Create Advanced Assignments for all other packages
 
 This layout of Advanced Assignments applies to both tasks and issues.
 

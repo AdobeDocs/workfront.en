@@ -3,17 +3,35 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Add or Edit a Custom Field, Section Break, or Widget
-description: You can edit the properties of a custom field, section break, or widget that is used in custom form in your Adobe Workfront instance. These include the item's label, name, instructions, and so on.
+description: You can edit the properties of a custom field, section break, or widget that is used in custom form in your Adobe Workfront instance.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
+TQID: https://experienceleague.adobe.com/ShPo7xQopsQS5j61ofqDw1UUohRdtzgxCmzm1KrFuYg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Add or edit a custom field, section break, or widget
 
 You can add a new custom field or widget directly from the Fields area in Workfront, without opening a custom form to create the field.
 
-You can also edit the properties of a custom field, section break, or widget that is used in custom forms. These include the item's label, name, instructions, and so on.
+You can also edit the properties of a custom field, section break, or widget that is used in custom forms. These include the item's label, API name, instructions, and so on.
 
 Setting a custom field as Inactive excludes it from reports, filters, and views, and the field is no longer available in the custom forms field library. All new fields are set to Active by default.
 

@@ -3,11 +3,18 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Create proofs
-description: You can create proofs of documents in Adobe Workfront. You can create proofs of documents in Adobe Workfront. You can create proofs for documents, interactive content, and websites. Learn how to create proofs in the following articles. 
+description: You can create proofs of documents in Adobe Workfront. You can create proofs of documents in Adobe Workfront. You can create proofs for documents, interactive content, and websites. Learn how to create proofs in the following articles.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c8cdde5a-75c3-48ae-ad22-0ee4fed591fc
+TQID: https://experienceleague.adobe.com/YAFCBhna7-xGQweBBOOFiHFfG04ICxHbOvSokkq6GEU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Create proofs: article index
 

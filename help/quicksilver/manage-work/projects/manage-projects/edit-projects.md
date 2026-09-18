@@ -2,20 +2,46 @@
 product-area: projects
 navigation-topic: manage-projects
 title: Edit Projects
-description: You can edit a project in Adobe Workfront as often as needed. Ideally, you should edit a project when the project is in the Planning status. This article describes how you can search for, find, and edit a project, if you have the permissions to do so. 
+description: You can edit a project in Adobe Workfront as often as needed. Ideally, you should edit a project when the project is in the Planning status. This article describes how you can search for, find, and edit a project, if you have the permissions to do so.
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/MnBBlX0pGftQLRqy6tLxUpIezwXo9zPczxo65FpxneI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Edit projects
 
 <!--Audited: 07/2024-->
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -147,11 +173,12 @@ For information about creating a project from a template, see [Create a project 
    >
    >Depending on how your Workfront administrator or Group administrator modified your Layout Template, the fields in the Project Details area might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-   To edit information in the Details section, do the following:
+   To edit information in the **Details** section, do the following:
 
    1. (Optional) Click the **Collapse All** icon ![Collapse all icon](assets/collapse-icon.png)  in the upper-right corner to collapse all areas. 
-   1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![Right pointing arrow](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. 
-   1. For more information about editing information in the Project Details tab, see the following articles:
+   1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![Right pointing arrow](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. Or, click the **right pointing arrow** in the upper-right corner to expand all areas. 
+   
+      For more information about editing information in the Project Details tab, see the following articles:
 
       * [Manage information in the project Overview area](../../../manage-work/projects/manage-projects/understand-project-overview-area.md) 
       * [Manage information in the project Finance area](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
@@ -281,7 +308,9 @@ For information about creating a project from a template, see [Create a project 
       <p><b>NOTES</b></p>
       <ul>
       <li>You must have Manage permissions to the portfolio to be able to add or remove it to the project.</li>
-      <li>If your organization uses both legacy Workfront and Adobe enterprise storage, you can't copy tasks between projects that use different storage types. Your Workfront instance might not have both types of document storage.</li></ul> 
+      <li>When your organization uses both legacy Workfront and Adobe cloud storage, you can't copy tasks between projects that use different storage types. </li>
+      <li>You cannot move a Legacy storage project to an Adobe cloud storage portfolio or program, or an Adobe cloud storage project to a Legacy portfolio or program.</li>
+      </ul> <p>Your Workfront instance might not have both types of document storage.</p>
       For more information, see <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Document management overview for projects and related objects</a>. 
       </td> 
       </tr> 
@@ -291,7 +320,7 @@ For information about creating a project from a template, see [Create a project 
       <p><b>NOTES</b></p>
       <ul>
       <li>You must have Manage permissions to the program to be able to add or remove it to the project.</li>
-      <li>If your organization uses both Workfront and Adobe document storage types, you cannot associate a Workfront-storage project with an Adobe-storage program. The reverse is also true. Your Workfront instance might not have both types of document storage. Programs inherit the storage type from the portfolio they belong to. </li></ul> 
+      <li>If your organization uses both Workfront and Adobe cloud storage for documents, you cannot associate a legacy Workfront storage project with an Adobe cloud storage program. The reverse is also true. Your Workfront instance might not have both types of document storage. Programs inherit the storage type from the portfolio they belong to. </li></ul> 
 
       For more information, see <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Document management overview for projects and related objects</a>. 
 
@@ -798,7 +827,7 @@ Consider the following when editing projects in bulk:
 
 * When you select multiple projects that belong to different groups, the statuses that display in the Status field are system-level statuses and not group-level statuses. 
 
-* When you select multiple projects that have different types of document storages and you want to update the Portfolio or the Program for the selected projects, you cannot associate a Workfront-storage project with an Adobe-storage portfolio. The reverse is also true. In this case, ensure you select only projects that have similar storage types at a time. 
+* When you select multiple projects that have different types of document storages and you want to update the Portfolio or the Program for the selected projects, you cannot associate a legacy Workfront storage project with an Adobe cloud storage portfolio. The reverse is also true. In this case, ensure you select only projects that have similar storage types at a time. 
 
    Your Workfront instance might not have both types of document storage.
 

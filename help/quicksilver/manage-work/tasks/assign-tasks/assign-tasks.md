@@ -2,13 +2,33 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Assign Tasks
-description: You can assign tasks to users, roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
+description: You can assign tasks to users, roles, teams, or Task Collaborators to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
 author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/r3jT-ief9Sfqh7RgQRWJ77fgHR9tkgTBBuo-iEok9lE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Assign tasks
 
@@ -26,7 +46,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 </div>
 -->
 
-You can assign tasks to users, job roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
+You can assign tasks to users, job roles, teams, or Task Collaborators to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
 
 >[!TIP]
 >
@@ -46,6 +66,7 @@ In addition to this article, we recommend that you read the following articles f
 * [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md) 
 * [Make smart assignments](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md) 
 * [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md) 
+* [Use task collaborators](../../../manage-work/tasks/assign-tasks/use-task-collaborators.md) 
 * [Modify multiple user assignments in a task list](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md) 
 * [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md) 
 * [Plan a project overview](../../../manage-work/projects/planning-a-project/plan-project.md) 
@@ -154,13 +175,14 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 
 1. Do one of the following:
 
-   * Start typing the name of a user, job role, or team that you want to assign, then click it when it appears in the list.
+   * Start typing the name of a user, job role, team, or Task Collaborator that you want to assign, then click it when it appears in the list.
     
       >[!TIP]
       >
-      >When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
+      >* When adding a Task Collaborator, the name of the Task Collaborator is a first name only. Last names for Task Collaborators are blank.
+      >* When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
       >
-      >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+      >   You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
    * (Conditional) Click one of the names in the **Users and teams** or **Job roles** lists when they display. For more information, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
@@ -183,7 +205,7 @@ Depending on which field is visible in the view, you can assign the following en
 |---|---|
 | **Assign To** |Assign one user  |
 | **Assigned** |Assign one user |
-| **Assignments** |Assign users, job roles, or teams |
+| **Assignments** |Assign users, job roles, teams, or Task Collaborators |
 
 To assign tasks in a list:
 
@@ -201,7 +223,7 @@ To assign tasks in a list:
 1. To assign tasks do one of the following:
 
    * Click inside the **Assigned To** or **Assigned** fields and start typing the name of an active user that you want to assign to the task, then click it when it displays in the list.
-   * Click inside the **Assignments** field and start typing the name of an active user, job role, or team that you want to assign to the task, then click it when it displays in the list.
+   * Click inside the **Assignments** field and start typing the name of an active user, job role, team, or Task Collaborator that you want to assign to the task, then click it when it displays in the list.
 
       >[!TIP]
       >
@@ -209,7 +231,7 @@ To assign tasks in a list:
       >
       >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
 
-      <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
+      <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).</span>-->
 
 
 1. (Conditional) In the Assignments field, click **Advanced** at the bottom of the list, or the **People icon** ![People icon](assets/teams.png) in the upper-right corner of the assignments box, to open the **Advanced Assignments** box and create advanced assignments.
@@ -236,7 +258,7 @@ To assign tasks in a list:
 
    The **Edit Tasks** box opens.
 
-1. In the **Assignments** area, start typing the name of users, teams, or roles in the **Search people, roles, or teams** field provided, then click them when they display in the list
+1. In the **Assignments** area, start typing the name of users, teams, roles, or Task Collaborators in the **Search people, roles, or teams** field provided, then click them when they display in the list
 
    >[!IMPORTANT]
    >

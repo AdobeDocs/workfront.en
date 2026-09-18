@@ -6,8 +6,38 @@ description: Planned work is represented in Adobe Workfront by projects and task
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/6meiGiiAKIASHWC5a8p7WnQ9W1JY0xL71LsUqbAAukY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create and submit requests
 
@@ -303,10 +333,10 @@ To create a request in the Workfront web app:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Documents</strong> </td> 
-      <td> <p>Add documents to your request. </p> <p> Depending on how the request queue was set up, the Documents section might display before or after the custom fields. </p> <p>Documents that you upload to Workfront are stored for 24 hours in a drafted request. After that, you must reattach them when you return to edit and submit the draft. Documents that are linked from other drives are saved on the draft permanently. </p> 
+      <td> <p>Add documents to your request. </p> <p> Depending on how the request queue was set up, the Documents section might display before or after the custom fields. </p> <p>Documents that you upload to Workfront are stored for 24 hours in a drafted request. After that, you must reattach them when you return to edit and submit the draft. Documents that are linked from external drives are saved on the draft permanently. </p> 
       <p>Depending on which document storage type your Workfront administrator selected for your environment, documents attached to requests are added to the following:</p>
       <ul><li>For requests using Workfront storage, documents are added to the Documents section of the newly created request.</li>
-      <li>For requests using Adobe enterprise storage, documents are added to a newly created folder by the same name as the request, automatically added to the request during the submission process. </li></ul>
+      <li>For requests using Adobe cloud storage, documents are added to a newly created folder by the same name as the request, automatically added to the request during the submission process. </li></ul>
       <p>Your Workfront instance might not have both types of document storage.</p>
       <p>Issue and request storage type is inherited from the project. </p>
       <p>For more information, see <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Document management overview for projects and related objects</a>.</p> 

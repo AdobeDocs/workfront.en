@@ -4,10 +4,26 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: As an Adobe Workfront administrator, you can track user-changes triggered in the system during the past 90 days using audit logs.
-author: Alina 
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
+TQID: https://experienceleague.adobe.com/b8KE8bhRtjvjNMP7PITNODthh1ihA-RufLVZZFo427A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Audit logs overview
 
@@ -104,7 +120,7 @@ The system generates a Business Profile audit log entry when a user does one of 
 
 ### Business Rules
 
-Business Rules are only available for customers who have purchased an Ultimate Workfront Plan. For more information, see [Create and edit business rules](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md). 
+Business Rules are only available for customers who have purchased an Ultimate Workfront package. For more information, see [Create and edit business rules](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md). 
 
 The system generates a Business Rule audit log entry when a user does one of the following:
 
@@ -160,14 +176,14 @@ The system generates a Custom Field audit log entry when a user does one of the 
 * Creates a custom field
 * Changes a custom field:
 
-   * Changes the name, label, instructions, or format
+   * Changes the API name, label, instructions, or format
    * Changes the display type
 
      This is available only if the field is a one of the following types: single line, paragraph, drop-down, checkbox, radio button
    
    * Changes the field size
 
-     This is available only if the field is a one of the following types: single line, paragraph, text with formatting
+     This is available only if the field is a one of the following types: single line, paragraph, rich text
    
    * Adds, removes, or hides a field choice
    * Edits a field choice label or value
@@ -194,7 +210,7 @@ The system generates a Custom Forms audit log entry when a user does one of the 
    * Changes a calculation in a custom field
    * Hides or displays the formula associated with a calculated field in the Instructions hover text
    * Enables or disables Update previous calculations
-   * Adds or changes skip logic or display logic
+   * Adds or changes field logic
 
      <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>   

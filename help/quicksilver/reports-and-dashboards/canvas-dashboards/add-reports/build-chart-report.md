@@ -6,8 +6,23 @@ description: A chart report that visualizes your data as a bar, column, line, or
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/9ZMHrzOvdpkdnbBapJ65HFLutu0lfYmSOCamto-AU0c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Build a chart report in a Canvas Dashboard
 
@@ -62,7 +77,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Prerequisites
 
-You must create a dashboard before you can build a chart report. 
+You must create a dashboard before you can build a chart report. For more information, see [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
 ## Build a chart report in a Canvas Dashboard
 
@@ -70,13 +85,9 @@ There are many configuration options available for building a chart report. In t
 
 {{step1-to-dashboards}}
 
-1. In the left panel, click **Canvas Dashboards**. 
+1. In the left panel, click **Canvas Dashboards**, then click the name of the dashboard you want to add the report to. 
 
-1. Click **New Dashboard** in the upper-right corner.  
-
-1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**.  
-
-1. Click **Create**. 
+1. Click **Add report** in the upper-right corner of the page. 
 
 1. In the **Add report** box, select **Create report**.  
 
@@ -163,12 +174,9 @@ There are many configuration options available for building a chart report. In t
 
 ### Filters
 
-Follow the steps below to configure the  **Filter** section: 
+In the left panel, click the **Filter** ![Filter icon](assets/filter-icon.png) icon, then configure the conditions that determine which data displays.
 
-1. In the left panel, click the  **Filter**![Filter icon](assets/filter-icon.png) icon.
-1. Select **Edit filter**. 
-1. Click **Add condition** and then specify the field you want to filter by and the modifier that defines what kind of condition the field must meet.  
-1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR. 
+For more information, see [Filter a report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md).
 
 ### Drilldown settings
 
@@ -182,13 +190,11 @@ Follow the steps below to configure the **Drilldown Column Settings** section:
 
 ### Drilldown group settings
 
-Follow the steps below to configure the **Drilldown Group Settings** section: 
+In the left panel, click the **Drilldown Group Settings** ![Group Settings](assets/drilldown-group-icon.png) icon, then add groupings for the drilldown table.
 
-1. In the left panel, click the **Group Settings** ![Group Settings](assets/drilldown-group-icon.png) icon. 
+For more information, see [Configure drilldown groupings in chart and KPI reports](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports) in [Group report data in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md).
 
-1. Click the **Add grouping** button and then select the field you want to create as a grouping.  
-
-1. Click **Save** to create the report and add it to the dashboard. 
+Click **Save** to create the report and add it to the dashboard.
  
 ## Build a chart report example
 
@@ -196,13 +202,9 @@ In this section, we will go over the steps to create a column chart that display
 
 {{step1-to-dashboards}}
 
-1. In the left panel, click **Canvas Dashboards**. 
+1. In the left panel, click **Canvas Dashboards**, then click the name of the dashboard you want to add the report to. 
 
-1. Click **New Dashboard** in the upper-right corner.  
-
-1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**.  
-
-1. Click **Create**. 
+1. Click **Add report** in the upper-right corner of the page. 
 
 1. In the **Add report** box, select **Create report**.  
 
@@ -258,7 +260,7 @@ In this section, we will go over the steps to create a column chart that display
 
     1. Enter *$$TODAY* in the evaluator field. 
 
-        For more information on wildcards, see the section Date-based wildcards filter variables in the [Edit report filters in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md) article.
+        For more information, see [Date-based wildcard filter variables](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#date-based-wildcard-filter-variables) in [Report filter reference for Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
 
         ![Evaluator field](assets/add-condition.png)
 
@@ -294,14 +296,14 @@ Users with View or Edit access to Financial Data in their access level will stil
 * Users who do see financial data are limited to records they already have permission to view (projects, tasks, issues, etc.). They will not see financial values for records they cannot access.
 * Report creators should exercise caution when including financial data in dashboards and be mindful of who they share dashboards with to prevent unintended access.
 
-This is a known limit, and we plan to address it as quickly as possible.
+This is a known limit, and we plan to address it in the future.
 
 ### Utilizing the field selector
 
 The **Sections** drop-down in the **Build chart** section is designed to narrow down the choices in a field selector to make an object easier to find when building a table report. To start, you would select a base entity object.
 
-* **All Sections**: All object types in Workfront Workflow and Workfront Planning.
-* **Workfront Objects**: Native Workfront Workflow objects.
+* **All Sections**: All object types in Workfront and Workfront Planning.
+* **Workfront Objects**: Native Workfront objects.
 * **Planning Record Types**: Custom record types defined in Workfront Planning.
 
 ![Sections drop-down](assets/sections-dropdown.png)
@@ -318,10 +320,4 @@ Once the base entity object has been selected, the **Sections** drop-down then u
 
 ### Referencing children objects
 
-Available relationships for additional columns, filter options, and grouping attributes are generally limited to objects higher in the Workfront object hierarchy or otherwise have a single selection on the report's base entity object. There are some exceptions to this, which include the following:
-
-* Project > Tasks
-* Document Approval > Document Approval Stages
-* Document Approval Stages > Document Approval Stage Participants 
-
-When utilizing any of the parent-to-child relationships listed above, you will see a row in the table for each child record connected to the parent object.  
+Some parent-to-child relationships are available for columns, filters, and groupings. For more information, see [Referencing children objects](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#referencing-children-objects) in [Report filter reference for Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).

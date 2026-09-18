@@ -6,10 +6,33 @@ description: You can create plans as part of using the Workfront Scenario Planne
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/i0-G-8KxjFmKp0R4oFPsELMmD6cS06HFKRROeosApYM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create and edit plans in the [!DNL Scenario Planner]
+
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 You can create plans as part of using the [!DNL Workfront Scenario Planner], when prioritizing your company's higher-level strategy. For more information about plans, see [Plans overview in the [!DNL Scenario Planner]](../scenario-planner/plans-overview.md).
 
@@ -118,7 +141,7 @@ To create or edit a plan:
 
    A list of existing plans that you created displays in the [!DNL Workfront Scenario Planner]. 
 
-1. (Optional) Click the **[!UICONTROL Filter]** icon ![Filter icon](assets/filter-icon-34x37.png)in the upper-right corner of the plan list, and select from the following:
+1. (Optional) Click the **[!UICONTROL Filter]** icon ![Filter icon](assets/filter-icon-34x37.png), <span class="preview">or the **Table** icon ![Table icon](assets/table-icon.png)</span> at the top of the list, and select from the following:
 
    | Filter |Description  |
    |---|---|
@@ -130,23 +153,13 @@ To create or edit a plan:
 
 1. (Optional) Click the **[!UICONTROL Search]** icon ![Search icon](assets/search-icon.png) to type a keyword and quickly locate a plan in the list. 
 
-1. Click the name of an existing plan to edit it and continue with step 7.
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate) </p>
-   -->
+1. Click the name of an existing plan to edit it and continue with step 7.<!--is the step still accurate)-->
 
    Or
 
-   Click **[!UICONTROL New Plan]** in the upper-left corner to create a plan and continue with step 5.
+   Click **[!UICONTROL New plan]** to create a plan and continue with step 5. <!--is the step still accurate-->
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
-   -->
-
-   ![New plan button](assets/new-plan-button.png)
-
-   The [!UICONTROL New Plan] box displays.
+   The [!UICONTROL **New plan**] box displays.
 
    ![New plan box](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
@@ -191,7 +204,7 @@ To create or edit a plan:
     </tbody> 
    </table>
 
-<!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
+   <!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
 
 1. (Conditional) Click **[!UICONTROL Next]**.
 

@@ -8,10 +8,29 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/3GEaVitQ5ATF7lE4cNeuSqbL6vMVg-WGKOeh8T66T8w
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create or edit a custom condition
+
+{{preview-fast-release-general}}
 
 As an Adobe Workfront administrator, you can create or edit a custom condition for projects, tasks, and issues to match the needs of your organization.
 
@@ -55,9 +74,16 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    Or
 
-   To edit an existing condition, click **Edit** next to the condition name.
+   To edit an existing condition:
+   
+   * In the Production environment, click **Edit** next to the condition name.
+   * <span class="preview">In the Preview environment, select the check box next to the condition name you want to delete, and click **Edit** in the action bar at the bottom of the screen.</span>
 
+   Sample image in the Production environment:
    ![Edit custom condition](assets/custom-conditions-0825.png)
+
+   <span class="preview">Sample image in the Preview environment:</span>
+   ![Edit custom condition](assets/edit-conditions-082526.png)
 
 1. Configure your custom condition using the following options:
 

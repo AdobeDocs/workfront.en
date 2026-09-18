@@ -8,6 +8,24 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
+TQID: https://experienceleague.adobe.com/y3cDoyu3OELK9IQjRPrN4-n8kVdOLQlIHhI7yS6p6OU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Examples of the External lookup field in a custom form
 
@@ -57,7 +75,7 @@ This example demonstrates how to call the Workfront API and populate a list of p
 
 1. Open the custom form.
 1. On the left side of the screen, find **External lookup** and drag it to a section on the canvas.
-1. Enter the **Label** and **Name** for the field.
+1. Enter the **Label** and **API Name** for the field.
 1. Select the **Format** for the field.
 1. Enter the API call in the **Base API URL** field.
 
@@ -102,7 +120,7 @@ This example shows you how to call the Workfront API and bring data from a custo
 
 1. Open the custom form.
 1. On the left side of the screen, find **External lookup** and drag it to a section on the canvas.
-1. Enter the **Label** and **Name** for the field.
+1. Enter the **Label** and **API Name** for the field.
 1. Select the **Format** for the field.
 1. Enter the API URL call in the **Base API URL** field.
 
@@ -153,7 +171,7 @@ This example shows how to call an API of countries (such as <https://api.first.o
 
 1. Open the custom form.
 1. On the left side of the screen, find **External lookup** and drag it to a section on the canvas.
-1. Enter the **Label** and **Name** for the field.
+1. Enter the **Label** and **API Name** for the field.
 1. Select the **Format** for the field.
 1. Enter the API URL call in the **Base API URL** field.
 
@@ -214,7 +232,7 @@ There are many other use cases for creating an External lookup.
    Example Base API URL for templates, to replace a typeahead field:
    `$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
 
-**Use case:** Create dropdown fields with more features (for example, there is line wrap in the External eookup field).
+**Use case:** Create dropdown fields with more features (for example, there is line wrap in the External lookup field).
 **Solution:** Use an API call to existing objects in the system, or create a new object and use an API call to this object.
 
 **Use case:** Define a way for users to maintain their own fields outside of the custom forms area. Set up the External lookup field and you can give users to the objects that comprise the field. This option is good for high maintenance fields and teams.

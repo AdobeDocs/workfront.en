@@ -1,14 +1,32 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Use Enhanced Lists
-description: Enhanced lists use a table format for displaying the list items, and they have a different look and feel than the standard lists
+description: Enhanced lists use a table format for displaying the list items, and they have a different look and feel than the standard lists.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Use enhanced lists
+
+{{preview-fast-release-general}}
 
 Enhanced lists are available in some areas of Adobe Workfront. These lists use a table format for displaying the list items, and they have a different look and feel than the standard lists. The management of views is also enhanced, including filtering, grouping, managing columns, and searching.
 
@@ -53,16 +71,36 @@ Below are some types of Workfront object lists that use the enhanced list format
 
 | Workfront list | Location of object list |
 | --- | --- |
-| Priorities | <ul><li>Home &gt; select the Priorities icon in the left menu</li><li>Main Menu &gt; Priorities</li></ul> |
+| Priorities | <ul><li>Home &gt; select the Priorities icon in the left menu</li><li>Main Menu > Priorities</li></ul> |
 | List of requests | <ul><li>Requests (new experience only)</li><li>My Requests widget on Home</li></ul> |
-| Lists of statuses, priorities, severities, and exchange rates in Setup | <ul><li>Setup &gt; Project Preferences &gt; Statuses</li><li>Setup &gt; Project Preferences &gt; Priorities</li><li>Setup &gt; Project Preferences &gt; Severities</li><li>Setup &gt; Project Preferences &gt; Exchange Rates</li></ul> |
-| List of reports | Reports (**Use shareable folders** must be turned on) |
+| Lists of statuses, priorities, severities, <span class="preview">conditions</span>, and exchange rates in Setup | <ul><li>Setup > Project Preferences > Statuses</li><li>Setup > Project Preferences > Priorities</li><li>Setup > Project Preferences > Severities</li><li><span class="preview">Setup > Project Preferences > Conditions</span></li><li>Setup > Project Preferences > Exchange Rates</li></ul> |
+| <span class="preview">Lists of actions and tracked fields in the Update Feeds</span> | <ul><li><span class="preview">Setup > Interface > Update Feeds > Tracked fields tab</span></li> <li><span class="preview">Setup > Interface > Update Feeds > Actions tab</span></li></ul> |
+| <span class="preview">List of scorecards</span> | <span class="preview">Setup > Scorecards</span> |
+| <span class="preview">List of risk types</span> | <span class="preview">Setup > Risk Types</span> |
 | List of job roles and rates on a rate card | Setup > Rate Cards > select a rate card > Job Roles and Rates |
+| <span class="preview">List of locations</span> | <span class="preview">Setup > Locations</span> |
 | List of translations | Setup > Localization |
+| <span class="preview">Lists of integrations </span> | <ul><li><span class="preview">Setup > Documents > SharePoint Integration</span></li><li><span class="preview">Setup > Documents > Custom Integration</span></li></ul> |
+| List of reports | Reports (**Use shareable folders** must be turned on) |
 | List of snapshots | Project > Snapshots |
 | List of resources for billing | Project > Resource for Billing |
 | New Advanced Assignments on a task | Task > Assignments > Advanced |
-| Documents on Adobe enterprise storage | Project, task, issue, portfolio, program, template, template task > Documents |
+| <span class="preview">All versions view of a document</span> | <span class="preview">Project > Documents > Document Details > All Versions</span> |
+| Boards Admin View | Boards > Admin View |
+| Documents on Adobe cloud storage | Project, task, issue, portfolio, program, template, template task > Documents |
+| <span class="preview">Lists of scenario plans and initiatives</span> | <span class="preview">Main Menu > Scenarios</span> |
+
+<!--
+
+Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documents > Experience Manager Assets</span></li>
+
+Under Locations?
+| <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
+Last, under Scenario Planner
+| <span class="preview">Lists of goals and progress indicators</span> | <ul><li><span class="preview">Main Menu > Goals</span></li><li><span class="preview">Main Menu > Goals > Progress Indicators</span></li></ul> |
+
+-->
 
 ## Add items to an enhanced list
 
@@ -76,20 +114,28 @@ Depending on which enhanced list you are viewing, do one of the following:
 
    Enhanced lists support these field types:
 
-   * Text
-   * Number
-   * Currency
-   * Date
-   * Date and time
-   * Single/multi select dropdowns
-   * Typeahead
-   * Paragraph
-   * Assignee (one or multiple)
-   * Color picker
+   * Single-line text: You can enter limited alphanumeric information.
+   * Number: You must enter information in a number format.
+   * Currency: You must enter information in a number format preceded by a currency symbol.
+   * Date: Use the calendar to select a date.
+   * Date and time: Use the calendar to select a date and time.
+   * Single- or multi-select drop-down: Select one or multiple options from a drop-down menu. If supported on a list, you can create new options directly from the drop-down when no results are found.
+   * Typeahead: Type the name of an existing object (for example, the name of a group or a project) and choose the name from the list of suggestions.
+   * Paragraph: You can enter multiple lines of alphanumeric information.
+   * Assignee (one or multiple): Select one or more users as the assignee for the list item.
+   * Color picker: Choose a color from the picker, or type a code such as a Hex or RGB.
+   
+   The Assignee, Single-select drop-down, and Multi-select drop-down fields support the following keyboard commands:
+
+   * Use the up and down arrows on your keyboard to move through the list of items.
+   * Press the space bar to select an item.
+   * Press the Delete key to remove a selected item.
 
    >[!NOTE]
    >
    >Each field type has its own editing options. Some fields might be read-only.
+   >
+   >Note that not all lists support all field types.
 
 ![Enhanced list example](assets/glist-exchange-rates.png)
 
@@ -132,9 +178,16 @@ Depending on which objects you are viewing in an enhanced list, you can hide, sh
 
 1. Click **Columns** above the list.
 
+   Sample image in the Production environment:
    ![Display columns example](assets/glist-display-move-columns.png)
 
+   <span class="preview">Sample image in the Preview environment:</span>
+   ![Display columns example](assets/display-columns-090126.png)
+
 1. Use the toggles to display or hide columns in the list.
+
+   <span class="preview">You can search for a column in the search box.</span>
+
 1. To reorder the columns, click the **Drag** icon ![Drag icon](assets/drag-icon.png) and move a column to your desired location. Moving columns changes the list automatically.
 
    >[!NOTE]
@@ -146,6 +199,8 @@ Depending on which objects you are viewing in an enhanced list, you can hide, sh
    An indicator appears on the **Columns** button when columns are hidden. The indicator does not appear when you reorder columns.
 
    ![Indicator for hidden columns](assets/glist-columns-hidden-indicator.png)
+
+   Some lists also allow you to drag and drop the columns themselves into the preferred order.
 
 ### Rename columns
 
@@ -175,17 +230,20 @@ To add and remove columns:
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
+1. <span class="preview">(Optional) To reorder the columns, hover over a column name in the **Selected** section and click the **Drag** icon ![Drag icon](assets/drag-icon.png). Move the columns vertically to place them in order.</span>
 1. Click **Save**.
 
    ![Column manager](assets/glist-column-manager.png)
 
    The list updates the columns according to the choices you made.
 
-### Change the row height in a view
+## Customize rows
 
 >[!NOTE]
 >
 >Not all enhanced lists have all the elements described in this section.
+
+To change the row height in a view:
 
 1. Click the **Row height** icon ![Row height icon](assets/row-height-icon.png) in an enhanced list. 
 
@@ -194,6 +252,14 @@ To add and remove columns:
       * Standard. This is the default choice. 
       * Medium
       * Tall
+
+To change the order of rows:
+
+1. Drag and drop rows into your preferred order.
+
+   >[!NOTE]
+   >
+   >If you have a sort applied, you cannot change the row order manually.
 
 ## Update enhanced list elements
 

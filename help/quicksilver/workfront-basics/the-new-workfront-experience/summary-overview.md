@@ -5,8 +5,15 @@ description: You can use the Summary panel to review and update work item inform
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/cJBIqyDvl1wPpYWy4mFvJrcAOr52kRzyHDTCWyD8LdE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # [!UICONTROL Summary] overview
 

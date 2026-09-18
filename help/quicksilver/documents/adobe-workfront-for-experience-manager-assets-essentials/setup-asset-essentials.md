@@ -6,6 +6,23 @@ description: Connect your work with your content in Experience Manager Assets Es
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
+TQID: https://experienceleague.adobe.com/4ZNz4MKc5hvipk8bFpnPZIuWMrDLHjH-UdNiaJuY5WA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure the Experience Manager Assets Essentials integration
 
@@ -54,7 +71,7 @@ Connect your work with your content in Experience Manager Assets Essentials​:
   <tr>
    <td><strong>Access level configurations</strong>
    </td>
-   <td>You must be a Workfront administrator to configure an Experience Manager integration. After it is configured, users with a Plan license can set up linked folders on individual projects.
+   <td>You must be a Workfront administrator to configure an Experience Manager integration. After it is configured, users with a Standard or Plan license can set up linked folders on individual projects.
    </td>
   </tr>
 </table>
@@ -69,7 +86,7 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-setup}}
 
-1. Select  **Documents** ![documents icon](assets/document-icon.png) in the left panel, then select **Experience Manager Integration**.
+1. Select  **Documents** ![documents icon](assets/document-icon.png) in the left panel, then select **Experience Manager Assets**.
 1. Select **Add Experience Manager Integration**.
 1. Specify the following:
 

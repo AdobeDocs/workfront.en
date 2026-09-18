@@ -7,8 +7,15 @@ description: Team requests are found in the Teams area in the Main Menu.
 author: Courtney
 feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/usIfdIZm77U8ltA5lj37cqAp7uHoSSnRD4wuPx863ZM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Team requests overview
 
@@ -20,7 +27,7 @@ Team requests are found in the [!UICONTROL Teams] area in the [!UICONTROL Main M
 >
 >Agile teams do not have team requests.
 
-The [!UICONTROL Team Requests] tab shows the requests awaiting assignment for the team that is currently selected in the drop-down list. The number in parentheses indicates how many items are ready to be worked on.
+The [!UICONTROL Team Requests] tab shows the requests awaiting assignment for the team that is currently selected in the drop-down list. The number in parentheses indicates how many items are ready to be worked on. The [!UICONTROL Team Requests] tab can display up to 2,000 requests for a team.
 
 A team request represents a pending work item that is not assigned to a specific user. Instead, it is assigned to a team, and any member of that team can volunteer to accept responsibility for the item. If a user volunteers to work on a team request, the user is accepting the work assignment as their own. The task is assigned to the individual user in addition to the team.
 

@@ -8,14 +8,37 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
+TQID: https://experienceleague.adobe.com/nN-7cw-IwnuQ-7wjyjyp3wUifEvk2eNmo9zqyHDjfV0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # View and manage custom OAuth2 applications
 
 As an [!DNL Adobe Workfront] administrator, you can view and manage the OAuth2 applications for your instance of [!DNL Workfront], which allow other applications to access [!UICONTROL Workfront].
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>* Custom OAuth2 applications are in the process of being deprecated. Please note the following dates:
+>
+>   * November 1, 2026: You will no longer be able to create new custom OAuth2 applications.
+>   * February 1, 2027: Existing custom OAuth2 applications will no longer work.
+>
+>   For more information, see [Migrate from Workfront OAuth2 to Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 >
 >* In the context of OAuth2, "Oauth2 application" refers to this sort of access link between an app and a server such as [!DNL Workfront]. For more information, see [Create OAuth2 applications for [!DNL Workfront] integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>
 >* You can have up to a total of ten OAuth2 Applications at one time.
 
 * For information, instructions, and details for creating custom OAuth2 applications, see [Create OAuth2 applications for [!DNL Workfront] integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)

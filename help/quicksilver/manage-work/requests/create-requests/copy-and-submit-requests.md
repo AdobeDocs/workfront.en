@@ -6,8 +6,30 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/dYXyT3P6CTlVSpiUYhMmB5gZEWILGP6g-WUhVE0SdCM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Copy and submit requests
 
@@ -258,7 +280,7 @@ If your company purchased a Workfront Planning package, you cannot copy and subm
       Depending on how the request queue was set up, the Documents section might display before or after the custom fields.</p> <p> </p>
       <p>Depending on which document storage type your Workfront administrator selected for your environment, documents attached to requests are added to the following:</p>
       <ul><li>For requests using Workfront storage, documents are added to the Documents section of the newly created request.</li>
-      <li>For requests using Adobe enterprise storage, documents are added to a newly created folder by the same name as the request, automatically added to the request during the submission process. </li></ul>
+      <li>For requests using Adobe cloud storage, documents are added to a newly created folder by the same name as the request, automatically added to the request during the submission process. </li></ul>
       <p>Your Workfront instance might not have both types of document storage.</p>
       <p>Issue and request storage type is inherited from the project. </p>
       <p>For more information, see <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Document management overview for projects and related objects</a>.</p>

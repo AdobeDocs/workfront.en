@@ -7,8 +7,15 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/-YeUwYEIFG4Uj80hXLy6hXGqJVYfQMeW2DrNlS6zjRs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Second Quarter 2026 release activity for Adobe Workfront Planning
 
@@ -367,6 +374,19 @@ For example, if a request form has the field "Campaign type," a rule can be crea
 Approval rules are created on the request form.
 
 For information and instructions, see [Add approval rules to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md#add-approval-rules-to-a-request-form) in the article Add an approval to a request form in Adobe Workfront Planning.
+
+## Removal of Approved date and Approved by field types
+
+>[!NOTE]
+>
+>Preview: January 29, 2026
+>Production fast release: February 12, 2026
+>Production for everyone: April 16, 2026
+
+We have removed the Approved date and Approved by field types. 
+Existing information in the former Approved date and Approved by fields has been moved to the Original Request Approved date and Approved by fields. 
+
+For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Display emails in user typeahead fields in Workfront Planning 
 

@@ -1,12 +1,23 @@
 ---
-title: 'AI Assistant: article index'
+title: "AI Assistant: article index"
 content-type: reference
 description: See a list of articles available regarding AI Assistant in Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: 3f83dd91-d7de-4050-89b7-f53cbc4389a0
+TQID: https://experienceleague.adobe.com/5HbISpj4fGX8Lq-nhJQp0hPWGZGcOYW-cqGwcOksrJo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # AI Assistant: article index
+
+>[!IMPORTANT]
+>
+>Beginning in September 2026, AI Assistant is transitioning to CX Coworker, a conversational interface for getting work done. For information on CX Coworker, see [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 This section contains the following articles:
 

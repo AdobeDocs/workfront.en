@@ -5,8 +5,19 @@ description: Learn about the best practices for using AI Assistant and view a li
 author: Jenny
 feature: Get Started with Workfront
 exl-id: 34a60482-e060-49f9-bbaf-8aed85845e26
+TQID: https://experienceleague.adobe.com/FTfet4al9-gwRXHYFzVlC3qrDfW8HUJA22sHN00eKOM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # AI Assistant prompts and best practices
+
+>[!IMPORTANT]
+>
+>Beginning in September 2026, AI Assistant is transitioning to CX Coworker, a conversational interface for getting work done. For information on CX Coworker, see [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 Workfront's AI Assistant is a powerful tool that can help you accomplish your work more effectively by offering useful information about your account data and specific object types. 
 

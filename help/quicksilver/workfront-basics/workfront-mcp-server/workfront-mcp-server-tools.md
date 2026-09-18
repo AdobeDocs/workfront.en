@@ -1,0 +1,324 @@
+---
+product-area: workfront-basics
+navigation-topic: workfront-mcp-server
+title: Adobe Workfront MCP server tools
+description: Reference list of the tools available through the Adobe Workfront MCP server, grouped by Workfront area.
+author: Courtney
+feature: Get Started with Workfront
+
+---
+
+# Adobe Workfront MCP server tools
+
+{{preview-fast-release-general}}
+
+This article lists the tools that the [!DNL Adobe Workfront] MCP server exposes to a connected AI agentic platform. The platform calls these tools on your behalf when you ask it to find, create, update, or delete Workfront items.
+
+For information about how to use these tools through an AI agentic platform, see [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md). For information about how to set up the connection, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+
+>[!IMPORTANT]
+>
+>The AI agentic platform acts in Workfront using your Workfront account, access level, and object permissions. A tool only works if you have the corresponding access in Workfront. Adobe is not responsible for changes the AI agentic platform makes to your Workfront data.
+
+
+## Read and write actions
+
+Each tool in the following tables is classified in the Action column as either a Read or Write action:
+
+* **Read**: Retrieves information from Workfront without changing your data. For example, finding a project, listing documents, or getting a record's details.
+* **Write**: Creates, updates, or deletes Workfront data. For example, creating a project, updating a record, or deleting a view. 
+
+Your Workfront administrator controls which categories of tools the AI agentic platform can use through two toggles in System Preferences:
+
+* **Read-only MCP tools** (enabled by default)
+* **Write MCP tools** (disabled by default)
+
+If the AI agentic platform can find Workfront items but can't create, update, or delete them, ask your Workfront administrator to enable write actions. For more information, see [Admin prerequisites](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#admin-prerequisites) in *Configure the Adobe Workfront MCP server*.
+
+## Approvals tools
+
+### Documents
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Find document version by name | `approvals_find_document_version_by_name` | Looks up a document's current version ID by filename. Supports partial matches. | Read |
+| Get document by version ID | `approvals_get_document_by_version_id` | Fetches document details (name, size, upload date, uploader) for a known document version ID. | Read |
+| Resolve document scope | `approvals_resolve_document_scope` | Expands a project or folder into the list of document version IDs it contains. Supports project, folder, and folder-by-name scopes. | Read |
+| Get documents by scope | `approvals_get_documents_by_scope` | Deprecated. Use `insights_find_workfront_data` instead. This tool listed documents inside a project or folder. | Read |
+| List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
+| Find a document | `approvals_find_document` | Deprecated. Use `insights_find_workfront_data` instead. This tool looked up a document by filename or document version ID. | Read |
+| Send documents to AEM folder* | `approvals_send_documents_to_aem_folder` | Moves one or more Workfront documents to an AEM-linked folder. | Write |
+
+*You must have a native [!DNL Adobe Experience Manager] integration configured in your Workfront instance to use these tools. For more information, see [Overview of Adobe Experience Manager Assets integrations](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
+
+
+*Sending documents to an AEM folder is not yet supported for projects on Adobe cloud storage. Support is expected in a future release.
+
+
+<!--
+| List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
+-->
+
+### Approval workflows
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Get approval workflow info | `approvals_get_approval_info` | Returns the current approval workflow (stages, participants, status) for a document version. <span class="preview">For approvals with multiple paths, it shows each path and its stages.</span> | Read |
+| Create or update approval workflow | `approvals_create_or_update_approval_workflow` | Creates or updates the approval workflow stages for a document version. <span class="preview">Supports a single track of stages or multiple parallel review paths.</span> | Write |
+| Create approval from template | `approvals_create_approval_from_template` | Creates an approval workflow on a document using an existing template, <span class="preview">including templates that define multiple parallel paths.</span> | Write |
+| Delete approval stage | `approvals_delete_approval_stage` | Deletes a single stage from an approval workflow by name or position. Only not-started stages can be deleted. | Write |
+| <span class="preview">Add path to approval</span> | <span class="preview">`approvals_add_path_to_approval`</span> | <span class="preview">Adds a new parallel review path to an existing approval workflow, so multiple review tracks run at the same time on a document version.</span> | <span class="preview">Write</span> |
+| <span class="preview">Remove path from approval</span> | <span class="preview">`approvals_remove_path_from_approval`</span> | <span class="preview">Removes a parallel path from an approval workflow. The first path can't be removed, and paths that contain completed or locked stages are protected.</span> | <span class="preview">Write</span> |
+| <span class="preview">Add stage to path</span> | <span class="preview">`approvals_add_stage_to_path`</span> | <span class="preview">Adds a review stage to the end of a specific path within a parallel approval workflow.</span> | <span class="preview">Write</span> |
+| <span class="preview">Remove stage from path</span> | <span class="preview">`approvals_remove_stage_from_path`</span> | <span class="preview">Removes a not-started stage from a specific path in a parallel approval workflow. Each path must keep at least one stage.</span> | <span class="preview">Write</span> |
+| <span class="preview">Reorder stages in path</span> | <span class="preview">`approvals_reorder_stages_in_path`</span> | <span class="preview">Changes the order of stages within a single path of a parallel approval workflow.</span> | <span class="preview">Write</span> |
+
+<!--
+| Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |
+-->
+
+<!--
+| Request document approval | `approvals_request_document_approval` | Opens a guided form for requesting approval on a document version (title, approvers/reviewers, optional due date and message). | Write |
+-->
+
+### Reminders
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Send reminder to participants | `approvals_send_reminder_to_participants` | Sends reminder emails to specific participants in an approval stage. Works only for started, not-completed, not-locked stages. | Write |
+| Send reminder to undecided participants | `approvals_send_reminder_to_undecided` | Sends reminder emails to all undecided participants (notified, opened, or commented) in an approval stage. | Write |
+
+### Approval templates
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| List approval templates | `approvals_list_templates` | Lists approval templates available in this Workfront instance. Supports filtering by creator, participant, and sorting by usage. | Read |
+| Search template by name | `approvals_search_template_by_name` | Finds approval templates by name (case-insensitive partial match). | Read |
+| Create approval template | `approvals_create_template` | Creates a new approval template with linear or graph-based stage dependencies. | Write |
+| Update approval template | `approvals_update_template` | Updates an existing template with structured modifications (add or remove participants, rename stages, set deadlines, etc.). | Write |
+| Remind stakeholders of approvals in bulk | `approvals_send_approval_reminder` | Send approval reminder emails to all pending approvers across an entire project, folder, campaign, or due-date window. | Write |
+| Update approval templates in bulk | `approvals_update_template` | Perform template updates to multiple templates, such as applying templates to assets, creating new templates from scratch or from existing approval flows, editing templates, and performing bulk operations across templates and assets. | Write |
+| Add or remove approval participants in bulk. | `approvals_update_approval_participants`  and `approvals__submit_update_approval_participants` | Add, remove, or replace participants across an entire portfolio, program, or project scope in one operation. | Write |
+
+
+### Lookups and users
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Find project by name | `approvals_find_project_by_name` | Removed August 13, 2026. Use `insights_find_id_by_name` instead. This tool looked up Workfront projects by partial name match across the system. | Read |
+| Get projects by owner | `approvals_get_projects_by_owner` | Removed August 13, 2026. Use `insights_find_workfront_data` instead. This tool listed Workfront projects where the calling user was the owner. | Read |
+| Get current user | `approvals_get_current_user` | Removed August 13, 2026. This tool returned the calling user's Workfront identity, including name, user ID, home team name, and home team ID. For similar functionality, see [Get current user](#insights-tools) under Insights tools. | Read |
+| Find user by name | `approvals_find_user_by_name` | Deprecated. Use `insights_search_users` instead. This tool looked up a Workfront user's ID by name (fuzzy or partial match), returning name, ID, email, title, and avatar URL. | Read |
+| Find team by name | `approvals_find_team_by_name` | Deprecated. Use `insights_find_id_by_name` instead. This tool looked up a Workfront team's ID by name (fuzzy or partial match). | Read |
+| Find projects | `approvals_find_projects` | Deprecated. Use `insights_find_workfront_data` instead. This tool looked up Workfront projects, optionally filtered by name and/or restricted to projects the calling user owns. | Read |
+
+## Planning tools
+
+>[!IMPORTANT]
+>
+>* To use MCP with Workfront Planning, your organization must be on a Workfront package that includes Adobe Workfront Planning.
+
+### Workspaces
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Get workspace | `planning_get_workspace` | Retrieves full details of a workspace by ID or alias. | Read |
+| Get workspace list | `planning_get_workspace_list` | Lists all available workspaces with cursor-based pagination. | Read |
+| Create workspace | `planning_create_workspace` | Creates a new empty workspace to organize record types, fields, and data. | Write |
+| Create workspace from template | `planning_create_workspace_from_template` | Creates a new workspace pre-populated using an existing template. | Write |
+| Update workspace | `planning_update_workspace` | Partially updates a workspace — name, description, icon, sections, or owner. | Write |
+| Delete workspace | `planning_delete_workspace` | Permanently deletes a workspace and all its data. | Write |
+| Convert workspace to template | `planning_convert_workspace_to_template` | Saves an existing workspace as a reusable template (requires admin). | Write |
+| Get workspace sharing | `planning_get_workspace_sharing` | Returns the current sharing and permissions configuration for a workspace. | Read |
+| Modify workspace sharing | `planning_modify_workspace_sharing` | Updates who has access to a workspace and at what permission level. | Write |
+
+### Record types
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Get record type | `planning_get_record_type` | Fetches full details of a record type including its fields and views. | Read |
+| Create record types | `planning_create_record_types` | Creates one or more record types within a workspace section. | Write |
+| Update record type | `planning_update_record_type` | Partially updates a record type's name, description, icon, or color. | Write |
+| Delete record type | `planning_delete_record_type` | Permanently deletes a record type and all its records, fields, and views. | Write |
+| List global record types | `planning_list_global_record_types` | Lists all centrally-defined (global) record types visible to the current user. | Read |
+| List addable global record types | `planning_list_addable_global_record_types` | Lists global record types that can be added to a specific workspace. | Read |
+| Add global record type to workspace | `planning_add_global_record_type_to_workspace` | Links a global record type into a specified workspace. | Write |
+| Remove global record type from workspace | `planning_remove_global_record_type_from_ws` | Unlinks a global record type from a workspace; deletes all its records in that workspace. | Write |
+| Get external record workspaces | `planning_get_external_record_workspaces` | Finds which workspaces and record types are connected to a specific external record. | Read |
+| Get record type sharing | `planning_get_record_type_sharing` | Returns the sharing and permissions for a specific record type. | Read |
+| Modify record type sharing | `planning_modify_record_type_sharing` | Updates who can access a record type and at what permission level. | Write |
+
+### Records
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Get record | `planning_get_record` | Retrieves full details of a single record by ID. | Read |
+| Search records | `planning_search_records` | Searches and filters records within a record type. | Read |
+| Bulk record actions | `planning_bulk_record_actions` | Creates, updates, deletes, or restores multiple records in a single request. | Write |
+| Create connection record | `planning_create_connection_record` | Creates a new record in a connected external system (for example, a Workfront project). | Write |
+| Update records order | `planning_update_records_order` | Changes the display order of records within a record type. | Write |
+| Get record change log | `planning_get_record_change_log` | Returns the field-level edit history for a record. | Read |
+| Get record sharing | `planning_get_record_sharing` | Returns the sharing configuration for a specific record. | Read |
+| Modify records sharing | `planning_modify_records_sharing` | Updates who can access one or more records and at what permission level. | Write |
+
+### Fields
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Get field | `planning_get_field` | Retrieves full details and value schema for a field by ID. | Read |
+| Create fields | `planning_create_fields` | Adds one or more fields (columns) to a record type. | Write |
+| Update field | `planning_update_field` | Partially updates a field's name, description, options, or configuration. | Write |
+| Delete field | `planning_delete_field` | Permanently removes a field and all its data from a record type. | Write |
+
+### Views
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Get view | `planning_get_view` | Returns complete details of a view by ID. | Read |
+| Create view | `planning_create_view` | Creates a new table, timeline, or calendar view for a record type. | Write |
+| Update view | `planning_update_view` | Partially updates an existing view's configuration, filters, or sorting. | Write |
+| Delete view | `planning_delete_view` | Permanently deletes a view (records are not affected). | Write |
+| Get view sharing | `planning_get_view_sharing` | Returns the sharing configuration for a specific view. | Read |
+| Modify view sharing | `planning_modify_view_sharing` | Updates who can access a view and at what permission level. | Write |
+
+### Templates
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Get template list | `planning_get_template_list` | Lists all available workspace templates with summary info. | Read |
+| Get template | `planning_get_template` | Retrieves full details of a specific template by ID. | Read |
+
+### Search & utilities
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Search resources | `planning_search_resources` | Searches across workspaces, record types, and views by name. | Read |
+| Search sharing data | `planning_search_sharing_data` | Finds users, groups, teams, roles, and companies by name for sharing and permissions. | Read |
+| Search users | `planning_search_users` | Searches for users with pagination support. | Read |
+
+## Workflow tools
+
+Workflow tools are the general-purpose actions the AI agentic platform uses to work with any Workfront object — projects, tasks, issues, hours, assignments, programs, portfolios, and so on.
+
+### Objects and fields
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Search objects | `workflow_search_any_object` | Searches for Workfront objects with flexible filter parameters, ordering, and pagination. | Read |
+| Create object | `workflow_create_any_object` | Creates a new Workfront object such as a project, task, issue, hour, assignment, program, or portfolio. | Write |
+| Update object | `workflow_update_any_object` | Updates an existing object's fields. Also supports moving a task or issue to another project, converting a task or issue into a new project (or an issue into a task), and setting task predecessors (dependencies). | Write |
+| Delete object | `workflow_delete_any_object` | Deletes a Workfront object by ID. Requires explicit user confirmation before the action is performed. | Write |
+| Resolve field names | `workflow_resolve_field_names_any_object` | Converts user-provided field names or labels to the underlying Workfront API field names so the AI agentic platform can build accurate requests. | Read |
+| Read Workflow docs | `workflow_read_workflow_docs` | Loads the Workfront Workflow documentation, including tool usage guides and object-specific operations playbooks. This is the required first step before performing Workflow actions. | Read |
+
+### Update object tool abilities
+
+The Update object tool does more than change field values. It can also relocate work between projects, promote work items into new objects, and wire up task dependencies.
+
+#### Move a task or issue to another project
+
+Moving reparents a work item in place. The object keeps its identity and links, it just lives in a different project or parent task.
+
+>[!NOTE]
+>
+>Setting a Project field in a plain field update does not move a task or issue. Use the move capability instead.
+
+* **Move a task**: Moves the task to a target project, and optionally under a target parent task.
+* **Move an issue**: Moves the issue (request) to a target project.
+
+Example prompts:
+
+* "Move task *Wireframes* to the *Mobile App Redesign* project."
+* "Move this request under the *Q4 Launch* project."
+
+#### Convert an issue or task into a project
+
+>[!NOTE]
+>
+>Converting produces a new object. The source item is consumed in the process.
+
+* **Convert a task to a project**: Creates a new project from the task. You can optionally copy the task's custom data and base the new project on a project template.
+* **Convert an issue (request) to a project**: Creates a new project from the issue. You can optionally copy the issue's custom data, copy its native field values, and apply a project template.
+* **Convert an issue (request) to a task**: Creates a task on an existing project from the issue.
+
+Each conversion returns the newly created object, along with a link so you can open it directly in Workfront.
+
+Example prompts:
+
+* "Convert task *Website Refresh* into a project called *Website Refresh 2026* using our standard template."
+* "Turn this request into a project and copy over its custom fields."
+
+#### Set task predecessors (dependencies)
+
+You can define a task's predecessors. Predecessors support the following dependency types, plus optional lag time:
+
+* **Finish-Start (FS)**: The task starts when its predecessor finishes. (Default)
+* **Start-Start (SS)**: The task starts when its predecessor starts.
+* **Finish-Finish (FF)**: The task finishes when its predecessor finishes.
+* **Start-Finish (SF)**: The task finishes when its predecessor starts.
+
+You can add lag (a delay) or lead (a negative delay) in workdays, chain multiple predecessors on a single task, and reference a task in a different project.
+
+Example prompts:
+
+* "Make *Development* start after *Design* finishes."
+* "Set *QA* to start when *Development* starts, with a two-day lag."
+* "Add task #3 and task #5 as predecessors of *Launch*."
+
+### Comments
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Query comments | `comment-stream_query_comments` | Query comments by object ID, with pagination. | Read |
+| Get comment | `comment-stream_get_comment` | Get a single comment by ID. | Read |
+| Get comments count | `comment-stream_get_comments_count` | Get the total top-level comment count for an object. | Read |
+| Create comment | `comment-stream_create_comment` | Create a new comment on an object. | Write |
+| Create reply | `comment-stream_create_reply` | Create a reply to an existing comment. | Write |
+| Update comment | `comment-stream_update_comment` | Update an existing comment or reply. | Write |
+| Delete comment | `comment-stream_delete_comment` | Delete a comment by its ID. | Write |
+| Add reaction | `comment-stream_add_reaction` | Add a reaction (like) to a comment. | Write |
+| Remove reaction | `comment-stream_remove_reaction` | Remove a reaction (like) from a comment. | Write |
+
+### Insights tools
+
+Insights tools retrieve information about Workfront objects.
+
+>[!NOTE]
+>
+>Insights data is near real-time, with an SLA of up to approximately 15 minutes. Changes made in Workfront may not appear immediately in Insights results.
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Read documents | `insights_read_docs` | Load the Workfront playbook or domain documentation, such as conditions, status, dates, or field paths. This is the required first step before querying data. | Read |
+| Get current user | `insights_get_current_user` | Retrieve your own Workfront identity, including name, ID, and URL. | Read |
+| Search fields | `insights_search_fields` | Search for available fields (standard and custom) on projects, tasks, issues, users, portfolios, teams, and so on. | Read |
+| Get field paths | `insights_get_field_paths` | Resolve dot-notation field paths for entities, required by the data query tool. | Read |
+| Find ID by name | `insights_find_id_by_name` | Look up the ID of any Workfront object by name, such as projects, tasks, users, portfolios, and so on. | Read |
+| Find Workfront data | `insights_find_workfront_data` | Find, filter, count, sort, and aggregate Workfront data. This is the main query and report tool. | Read |
+| Summarize object | `insights_summarize_object` | Fetch and summarize a single Workfront object by ID. | Read |
+| List entities | `insights_list_entities` | List all Workfront object types available to query. | Read |
+| Search users | `insights_search_users` | Find people in your Workfront instance by name. Type a full or partial name, and get back the top matching users. This can also optionally include AI-collaborator "bots" alongside regular users. | Read |
+
+## Feedback tools
+
+<span class="preview">Feedback tools let you report your experience with the Workfront MCP server directly from your AI agentic platform.</span>
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| <span class="preview">Share feedback</span> | <span class="preview">`share_feedback`</span> | <span class="preview">Records your reported sentiment and what happened during the conversation, so Workfront's MCP tools can be improved. Only used when you explicitly ask to share feedback (for example, "share feedback" or "report a bug").</span> | <span class="preview">Write</span> |
+
+
+
+## How tools are updated
+
+When Adobe releases a new version of the Workfront MCP server, the AI agentic platform uses the updated tool set automatically. You don't need to reconnect or change anything on your side.
+
+
+
+## Additional tools coming soon
+
+We are working on adding the following tools to the Workfront MCP server in the future:
+
+* Boards
+
+

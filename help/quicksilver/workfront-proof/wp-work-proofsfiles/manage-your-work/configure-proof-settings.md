@@ -7,6 +7,16 @@ description: You can configure a proof you are creating or editing in proofs.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba
+TQID: https://experienceleague.adobe.com/TmIsFRFe5aBI4M9Qv430PwZSpNNPvqojV-S4OVG0ZyI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Configure Proof Settings in [!DNL Workfront Proof]
 

@@ -6,6 +6,24 @@ description: The process of approving timesheets provides managers with visibili
 author: Lisa
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
+TQID: https://experienceleague.adobe.com/qp-mum3AisU5J1qYW6qsb-Kq9M3-7RpBaUStpmtwSGM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Approve a timesheet
 
@@ -50,7 +68,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 Typically, timesheets are approved by functional managers or human resources personnel. Timesheets are not usually approved by project managers. Project managers may approve time logged on projects, but team or human resource managers should approve timesheets. 
 
-A timesheet approver is defined when creating the Timesheet Profile. You must have a Plan license to be designated as an approver.
+A timesheet approver is defined when creating the Timesheet Profile. You must have a Standard or Plan license to be designated as an approver.
 
 For more information about designating timesheet approvers, see the section [Create or edit a timesheet profile](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) in the article [Create, edit, and assign timesheet profiles](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
@@ -62,6 +80,7 @@ If the following notification settings are in place, the user who submits the ti
 
 * The Workfront administrator has enabled the Timesheet Approval to User and the Timesheet Rejection to User event handlers. For information about enabling event notifications, see [Event notification types](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 * The My timesheet is approved personal notification is enabled on the user's profile page. For more information, see [Modify your own email notifications](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). 
+* The user who submitted the timesheet has a Standard license. Users with a Light license or lower do not receive the timesheet approval email notification, even when the My timesheet is approved personal notification is enabled on their profile.
 
 ### Approve a timesheet from the Timesheets area
 
@@ -77,17 +96,13 @@ If the following notification settings are in place, the user who submits the ti
 
    Select the **My Timesheet Approvals** filter at the top of the timesheet list.
 
-   ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+   ![My timesheets filter buttons on the Timesheets list page](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
    >[!NOTE]
    >
-   >The My Timesheet Approvals option does not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed the My Timesheet Approvals filter from either the List Controls in the Setup area or from your Layout Template. 
-   >
-   >For more information see [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
-   >   
-   >
+   >The My Timesheet Approvals and My Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed those filters from either the List Controls in the Setup area or from your Layout Template. For more information, see [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Optional) Click the **search** icon ![](assets/search-icon.png) at the top of the timesheet list and type a keyword to locate a specific timesheet. You can search for a time frame, or an owner or approver's name. 
+1. (Optional) Click the **search** icon ![Search icon](assets/search-icon.png) at the top of the timesheet list and type a keyword to locate a specific timesheet. You can search for a time frame, or an owner or approver's name. 
 1. Click the time frame for the timesheet you want to approve. The timesheet opens. 
 
    >[!TIP]

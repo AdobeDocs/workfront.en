@@ -8,8 +8,28 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/C-en7a6FEP75vl3HwJC-uDI4tEKVCcEgMzhClAK5C8k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create and modify custom access levels
 
@@ -79,12 +99,44 @@ For more detail about the information in this table, see [Access requirements in
       <td role="rowheader">Description </td> 
       <td>Type a description for the access level. It's helpful to list here what an user with this access level will be able to access.</td> 
      </tr> 
+
+      <tr> 
+      <td role="rowheader">Planning License Type</td> 
+      <td><p>This field is visible only for customers who also purchased a Workfront Planning package, in addition to a Workflow package.</p>
+      <p>The selected license determines what settings are available for users with this access level. </p>
+      <p>Choose from the following options:</p>
+      <ul><li>Standard</li>
+      <li>Contributor</li>
+      <li>None</li>
+     </ul> 
+      For more information, see <a href="/help/quicksilver/planning/access/access-overview.md">Adobe Workfront Planning access overview</a> 
+      <p><b>IMPORTANT</b></p>
+      <p>Planning licenses and Workflow licenses work together to give users access to Workfront. </p>
+      <p>You can give a user different levels of license types between the Workflow and Planning license types, but the Workflow license cannot be lower than the Planning license. </p>
+      <p>For example, you can give a user a Workflow Standard license and a Planning Contributor license, but you cannot give them a Workflow Contributor license and a Planning Standard license.</p>
+      
+      </td> 
+     </tr>
+
      <tr> 
-      <td role="rowheader">License Type</td> 
-      <td>Make sure that the license selected here is the one that is most closely associated with the type of access level you are creating or editing. The selected license determines what settings are available for the access level. For more information, see <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">New licenses overview</a> or <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Licenses overview</a>.</td> 
+      <td role="rowheader">Workflow License Type</td> 
+      <td>Make sure that the license selected here is the one that is most closely associated with the type of access level you are creating or editing. The selected license determines what settings are available for the access level. 
+      
+      <p>Choose from the following options:</p>
+      <ul><li>Standard</li>
+      <li>Contributor</li>
+      <li>Light</li>
+     </ul> 
+      
+      For more information, see <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">New licenses overview</a> or <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Licenses overview</a>.
+      
+      
+      
+      </td> 
      </tr> 
     </tbody> 
    </table>
+
 
 1. (Conditional) If **Standard** or **Plan** is selected in the **License Type** box, scroll to the section **Allow administrative access for** and select administrative access permissions for those who will have this access level.
 

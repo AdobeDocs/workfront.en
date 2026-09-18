@@ -6,6 +6,13 @@ description: We're replacing the POP email option for request queues with a new 
 author: Luke
 feature: Product Announcements
 exl-id: d7147641-ba36-422b-a9b2-3c2f4ab609d8
+TQID: https://experienceleague.adobe.com/zzr53eiyA6o-VpZQnFQt-xCXZBKaScZUz8jDmOgX-Ns
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # New Adobe Workfront managed system to replace POP&nbsp;email for Request Queues with 21.1
 

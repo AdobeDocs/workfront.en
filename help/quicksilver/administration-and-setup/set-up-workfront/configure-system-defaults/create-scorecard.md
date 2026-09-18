@@ -4,12 +4,25 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Create a Scorecard
 description: A scorecard measures how well a project aligns with the previously established criteria of a portfolio. A scorecard often reflects an organization's mission, values, and strategic goals.Portfolio managers usually define the scorecard questions and answers to ensure they are meaningful and valuable during project prioritization and selection. An [!DNL Adobe Workfront] administrator builds the scorecards based on the recommendations from portfolio managers.
-author: Becky
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/Moddac2gKcXbmssSrzrMMcxuj-7al8Md76Vkjw-CSoY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create a scorecard
 
@@ -17,11 +30,12 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
--->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+
 
 A scorecard measures how well a project aligns with the previously established criteria of a portfolio. A scorecard often reflects an organization's mission, values, and strategic goals.
 
@@ -69,7 +83,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Click **[!UICONTROL Scorecards]**, then click **[!UICONTROL New Scorecard]**. 
 
-   The **New scorecard** box opens.
+   The **New Scorecard** box opens.
 
    ![New scorecard box](assets/new-scorecard-350x173.png)
 
@@ -113,6 +127,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    This creates the scorecard and project managers can now attach it to their project business case. 
 
+
+1. <span class="preview">(Optional) To edit a scorecard, select it in the list of scorecards, then click **Edit** ![Edit scorecard](assets/edit-scorecard-icon.png) at the bottom of the list. </span>
+
+1. <span class="preview">(Optional) To delete a scorecard, select it in the list of scorecards, then click **Delete** ![Delete scorecard](assets/delete-scorecard-icon.png) at the bottom of the list. </span>
+
 ## Copy an existing scorecard
 
 You can create a scorecard by copying and editing an existing one. 
@@ -120,11 +139,15 @@ You can create a scorecard by copying and editing an existing one.
 {{step-1-to-setup}}
 
 1. Click **[!UICONTROL Scorecards]** in the left panel. 
-1. Select a scorecard in the list, then click the **Copy** icon ![Copy scorecard icon](assets/copy-scorecard-icon.png) at the top of the scorecard list. 
+1. Select a scorecard in the list, then click **Copy** at the top of the scorecard list <span class="preview"> or **Copy** ![Copy scorecard icon](assets/copy-scorecard-icon.png) at the bottom of the list</span>. 
    
-   The **Copy Scorecard** box opens.
+   The **Copy** scorecard box opens.
 
    ![Copy scorecard box](assets/copy-scorecard-box.png)
+
+   >[!TIP]
+   >
+   >The name of the scorecard displays in the title of the box.
 
 1. Specify the following information:
 

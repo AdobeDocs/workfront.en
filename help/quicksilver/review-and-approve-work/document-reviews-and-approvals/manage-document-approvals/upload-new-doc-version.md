@@ -6,12 +6,31 @@ description: You can upload a new document version and request approval from oth
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/grwYgMUQc-Ft08jC1Fb1n7y18cLi1HNcXvJ3wPX0URg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Upload a new document version and request an approval
 
-If a document is marked "Needs work" in a previous review, you can upload a new version to the original document and start another round of approvals. Once you upload a new version of the document, the previous versions are locked. 
+
+If a document is marked "Needs work" in a previous review, you can upload a new version to the original document and start another round of approvals. Once you upload a new version of the document, the previous versions are locked.
 
 If the file name of the new version is different from the file name of the previous version, Workfront displays the document with the newer file name.
 
@@ -32,7 +51,7 @@ If the newest document version is deleted, the previous versions remain locked. 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any Workfront package to manage approvals using legacy Workfront storage</p>
-<p>Any Workflow package to manage approvals using Adobe enterprise storage</p> </td> 
+<p>Any Workflow package to manage approvals using Adobe cloud storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses</td> 
@@ -58,9 +77,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 
 
-## Use drag-and-drop to add a new version in the legacy documents area
+<!--
+## Use drag-and-drop to add a new version in the legacy documents area in Production
 
-If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 >[!NOTE]
 >
@@ -76,8 +96,7 @@ To add a new version:
 1. Navigate to the document in Workfront.
 1. Drag and drop the new file on top of the previous document. This automatically creates a new version. 
 
-1. Once the document finishes uploading, select the document to open the Document Summary panel. Here you'll see the version number at the top of the panel. 
-    ![Open the document details page](assets/open-doc-details.png)
+1. Once the document finishes uploading, select the document to open the Document Summary panel. Here you'll see the version number at the top of the panel.
 
 
 1. Scroll down to the **Approvals** section.
@@ -124,4 +143,72 @@ To add a new version:
    The approval workflow starts and the approvers receive a notification that their approval is needed on the new document version. The previous document version is locked and any outstanding approvals on the previous version are withdrawn.
 
     ![request approval](assets/request-approval.png)
+-->
+
 <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
+
+## Use drag-and-drop to add a new version in the legacy documents area
+
+If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
+
+>[!NOTE]
+>
+>Drag-and-drop does not work with Internet Explorer.
+
+If you need another round of review and approval on a document, you can create a new document version in Workfront. You can add the previous participants, new participants, or a mix of both. You can view information about previous versions and participants on the Document Details page.
+
+The Request approval dialog opens in Basic mode by default for a single-stage approval. Switch to Advanced mode to configure multi-stage approvals or parallel paths.
+
+To add a new version and request approval:
+
+1. Navigate to the document in Workfront.
+
+1. Drag and drop the new file on top of the previous document. Workfront automatically creates a new version.
+
+1. Once the document finishes uploading, select the document to open the Document Summary panel. The version number appears at the top of the panel.
+
+1. Scroll down to the **Approvals** section, then click **Create workflow**. The **Request approval** dialog opens in Basic mode.
+
+1. Configure the approval workflow. For field descriptions, the Advanced mode toggle, and the parallel paths flow, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+1. To copy the same reviewers and approvers from the previous document version, click **Copy**.
+1. Click **Request approval**.
+
+   The approval workflow starts and the approvers receive a notification that their approval is needed on the new document version. The previous document version is locked and any outstanding approvals on the previous version are withdrawn.
+
+## Use drag-and-drop to add a new version in the new Documents area
+
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+>[!NOTE]
+>
+>Drag-and-drop does not work with Internet Explorer.
+
+If you need another round of review and approval on a document, you can create a new document version in Workfront. You can add an approval workflow to the new version of the document.
+
+<!--
+the previous participants, new participants, or a mix of both. You can view information about previous versions and participants on the Document Details page.
+-->
+
+The Request approval dialog opens in Basic mode by default for a single-stage approval. Switch to Advanced mode to configure multi-stage approvals or parallel paths.
+
+To add a new version and request approval:
+
+1. Navigate to the document in Workfront.
+
+1. Drag and drop the new file on top of the previous document. Workfront automatically creates a new version.
+
+1. Once the document finishes uploading, select the document to open the Summary panel. The latest version of the document is selected by default.
+
+1. Scroll down to the **Approvals** section, then click **Create workflow**. The **Request approval** dialog opens in Basic mode.
+
+1. Configure the approval workflow. For field descriptions, the Advanced mode toggle, and the parallel paths flow, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+1. To copy the same reviewers and approvers from the previous document version, click **Copy**.
+1. Click **Request approval**.
+
+   The approval workflow starts and the approvers receive a notification that their approval is needed on the new document version. The previous document version is locked and any outstanding approvals on the previous version are withdrawn.
+
+<!--
+   <span class="preview">The previous version keeps its version number and its approval history, but its status changes to "Withdrawn". For more information about version numbers and status, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md#view-and-manage-document-versions-in-the-new-documents-area-in-preview).</span>
+-->

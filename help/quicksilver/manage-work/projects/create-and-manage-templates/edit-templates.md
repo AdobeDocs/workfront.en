@@ -2,27 +2,53 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Edit Project Templates
-description: You can edit project templates to reflect changes in the processes and settings of future projects. You can edit one template at a time, or you can edit multiple templates, in bulk. 
+description: You can edit project templates to reflect changes in the processes and settings of future projects. You can edit one template at a time, or you can edit multiple templates, in bulk.
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/36z25D3UWtmRwiOqdPOc3DCFXQcvSJHK2RvtuqFOvVU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Edit project templates
+
+{{highlighted-preview}}
 
 <!-- Audited: 7/2025 -->
 
 <!--The Resource Pools part also duplicates in the "Working with Resource Pools" article-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div> 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 -->
 
@@ -132,7 +158,7 @@ Old:
 
    * [Template Name](#template-name) 
    * [Overview](#overview-preview) 
-   * [Finance](#finance-preview) 
+   * [Finance](#finance)
    * [Custom Forms](#custom-forms-preview) 
    * [Template Settings](#template-settings) 
    * [Tasks Settings](#task-settings) 
@@ -230,6 +256,15 @@ Old:
       <tr> 
       <td role="rowheader"><strong>Company</strong></td> 
       <td><p>Specify the Company that you want to associate with the template. Only active companies display in the list.</p></td> 
+      </tr> 
+      <tr>
+      <td role="rowheader"><span class="preview"><strong>Frame.io workspace (Conditional)</strong></span></td>
+      <td><span class="preview">
+      <p>In an Adobe cloud storage project, select the Frame.io workspace that you want projects created from this template to use. If your organization has multiple Frame.io workspaces, this determines which workspace the linked Frame.io project is created in.</p>
+      <p>The list includes only the Frame.io workspaces you have permission to assign projects to. The default workspace used when no workspace is selected or available.</p>
+      <p>You can change this field on the template at any time. Changes apply only to projects created after the change; projects already created from the template keep their existing Frame.io workspace.</p>
+      <p>Note: You must have Frame.io enterprise to use the Frame.io workspace field.</p>
+      </span></td>
       </tr> 
       <tr> 
       <td role="rowheader"><strong>Template Owner</strong></td> 

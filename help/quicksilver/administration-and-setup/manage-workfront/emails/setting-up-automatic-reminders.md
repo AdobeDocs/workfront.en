@@ -8,16 +8,31 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/sxv8RUKwTr-SABLfOrmTa0J9ToM62-1tF5rFEnu41UI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Set up automatic reminders
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-As an Adobe Workfront administrator, you can set up automatic reminders to trigger email notifications when all tasks or issues are due, late, or near the planned completion date. After you configure these settings, users cannot disable automatic reminders.
+As an Adobe Workfront administrator, you can set up automatic reminders to trigger email notifications when all tasks, issues, or other assigned work items are due, late, or near the planned completion date. 
 
-For late notifications, the email is sent nightly until the task or issue is completed.
+After you configure these settings, users cannot disable automatic reminders. Automatic reminders will be sent regardless of a user's notification settings in their My Settings area.
+
+For late notifications, the email is sent nightly until the task or issue is completed. This means that the user will receive a notification each day while the task or issue is not completed.
 
 An automatic reminder can be sent to one or more of the following:
 
@@ -57,6 +72,25 @@ An automatic reminder can be sent to one or more of the following:
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
+
+## Details of automatic reminder functionality
+
+### Distinction from other types of reminders
+
+Automatic reminders are the Setup-level reminder feature for Workfront tasks and issues, and are separate from the object-level Reminder notifications feature. For information on the difference between automatic reminders and reminder notifications, see [Automatic reminders vs. reminder notifications](/help/quicksilver/administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md).
+
+Proofing and proof decisions are also not handled by automatic reminders, and follow a separate reminder process. For details on proofing and proof decision reminders, see the articles under [Proof notifications and reminders](/help/quicksilver/workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md).
+
+## Considerations when using automatic reminders
+
+Consider the following when using automatic reminders:
+
+* Overdue emails are send as one digest email per recipient per day, not as separate emails per item. 
+* Enabling automatic reminders can cause issues or tasks that are already overdue to appear in the next Overdue digest email, regardless of how long the item has been overdue.
+* Reminders apply only to projects in Current/Active status.
+* "Days" in the automatic reminder setup refers to schedule-aware business days, not elapsed days or calendar time.
+
+
 
 ## Set up automatic reminders
 

@@ -6,8 +6,28 @@ description: You can add an update on an Adobe Workfront object (project, task, 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/y6gIjeP-4NXrR-itk9Ohr8h6LVutIN7AH0Kr1RJBfTA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Update work
 
@@ -15,7 +35,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 -->
@@ -432,7 +452,6 @@ You can enhance your comments by using Rich Text, or adding various items to it,
    
    >[!IMPORTANT]
    >
-   >
    >* You cannot add images to goals or ad-hoc cards on boards.
    >
    >* Your Workfront administrator must enable adding images in the Update Feeds Preferences section of the Workfront Interface area before you can see the Image or the Add attachment icons. For information, see [Configure preferences for user updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md). 
@@ -443,6 +462,8 @@ You can enhance your comments by using Rich Text, or adding various items to it,
    >* You can send an update with an image and no text.
    >* When you delete a comment that contains an image, the image is removed from the Updates section as well as from the Documents area. The image is also deleted from the Documents area when you edit a comment and delete the image.
    >* When someone deletes an image attached to a comment from the Documents area, it is also removed from the comment.
+   >* If your organization uses Adobe cloud storage as part of Unified review and approval, your Workfront administrator can enable the same preference to let you attach images to comments. All standard image formats are supported, and attached images are stored in Adobe cloud storage.
+   >* Images attached to comments on objects using Adobe cloud storage are not accessible in the Frame.io viewer.
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
 
@@ -647,7 +668,7 @@ For more information about user and system updates and how they display in the U
 
 
 <!--
-After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>  
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 -->
 

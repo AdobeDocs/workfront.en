@@ -6,22 +6,46 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/E9LEGJ8T822JuvIO3s8nn6UkLbX-j4ffwaKSviKxl0o
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Add an approval to a request form in Adobe Workfront Planning
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 {{planning-important-intro}}
 
-You can add an approval process to an Adobe Workfront Planning request form, to initiate an approval for every submitted request, before it creates a record. 
+You can add an approval process to an Adobe Workfront Planning request form, to initiate an approval for every submitted request, before it creates a record.
+
+<!--<span class="preview">Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
 
 This article describes how a workspace manager can add an approval to a request form associated with a record type. 
 
@@ -40,21 +64,28 @@ For information about submitting a request to a record type to create a record, 
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront packages</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront package and any Planning package</p>
+<ul> 
+<li><p>Any Workfront or Workflow with a Planning package</p></li>
 Or
-<p>Any Workflow package and any Planning package</p>
-
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative.</p>
+<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
    </td> </tr>
-
-  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p> 
-  </td> 
+   <td><p>Workflow Standard</p>
+   </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a workspace and  record type</a> </p>  
@@ -142,16 +173,18 @@ To set approval rules for a request form:
 
    ![Default approval rule area](assets/default-approvers.png)
 
-1. (Optional) Start adding approval rules. For each  custom approval rule, do the following:
+1. (Optional) Start adding approval rules. For each custom approval rule, do the following:
 
-   1. Click **Add approval rule**
+   1. Click **Add approval rule**.
    1. Click the placeholder title **Untitled approval rule** and enter a name for the approval rule.
    1. Click **Select a field** and select the field that activates the rule.
    1. Select the operator for the rule. Operators vary based on the type of field.
    1. If the selected operator requires a value, click the plus icon and add one or more values.
    1. (Optional) Click **Add condition** to add more conditions and connect them by **And** or **Or** statements by configuring the additional conditions as in steps C-E.
-   1. In the **Actions** area of the approval rule, in the **Approvers** field, add at least one user or team to be set at the approver when the condition is met.
-   1. (Conditional and optional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox. Otherwise, all approvers must decide on the approval before the request is accepted or rejected. 
+   1. In the **Actions** area of the approval rule, in the **Approvers** field, add at least one user or team to be set as the approver when the condition is met.
+   1. (Conditional and optional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox. Otherwise, all approvers must decide on the approval before the request is accepted or rejected.
+
+   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
 
    >[!NOTE]
    >
@@ -163,3 +196,35 @@ To set approval rules for a request form:
 
 1. Click **Save** to save the approval rules.
 1. (Optional) Click **Publish** if you have never shared the request form before.
+
+
+
+
+<!--
+
+MOVE THIS SECTION UNDER LINE 172 FOR PREVIEW RELEASE
+
+<div class="preview">
+
+1. (Optional) To add more stages to the approval, do the following:
+
+   1. Click **Add stage**.
+   
+      The **Multi-stage approval** box appears. If you already created a default approval action, those approvers are automatically added to Stage 1.
+
+   1. In the **Add people or teams** field, add at least one user or team to be set as the approver for the stage.
+   1. (Conditional and optional) If you want the record to advance to the next stage after any one of the approvers has approved it, check the **Only one decision is required** checkbox. Otherwise, all approvers must decide on the approval before the request moves to the next stage.
+   1. Click **Add stage** and repeat from step B to add more stages to the approval.
+
+      When two or more stages exist, you can click the **Drag** icon ![Drag icon](assets/drag-icon.png) to drag and drop them in order.
+
+      Click **Delete this stage** to delete a stage from the approval, or click the **Delete** icon ![Delete icon](assets/delete.png) next to an approver to delete the user or team from the list of approvers in a stage.
+
+      ![Multi-stage approval box](assets/planning-request-multi-stage-approval-box.png)
+
+   1. When you are finished building the approval workflow, click **Save**.
+
+      You can edit or delete the multi-stage approval from the Approvals page.
+
+</div>
+-->

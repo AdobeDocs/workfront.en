@@ -6,17 +6,34 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/yrm4kF5GdUGyOaR1AraNwLk3HHpEm1lEkT6r9HQsd4Q
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 # Edit records
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -46,17 +63,24 @@ For information about creating records, see [Create records](/help/quicksilver/p
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p> <p>Any Workflow and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+<ul> 
+<li><p>Any Workfront or Workflow with a Planning package</p></li>
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow Standard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Contribute or higher permissions to a workspace and record type  </p>  
+   <td>   <p>Contribute or higher permissions to a workspace, record type, and manage permissions to a record</p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr>   
 </tbody> 
@@ -113,7 +137,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -186,7 +210,19 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 1. (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last.
 
     The records associated with the selected record type display in the table view. 
+
 1. (Optional) Click the search box and add a keyword to find a record you want to edit. 
+
+    <!--
+    >[!TIP]
+    >
+    >You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for records:
+    >
+    >* CTRL+K for Windows
+    >* ⌘+K for Mac
+    >
+    >![Global search box](assets/global-search-box.png)
+    -->
 
 1. Click inside the row of a record to start editing information about the record inline.
 
@@ -196,7 +232,7 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
     >
     >  You cannot edit information for the following fields, as they are read-only and Workfront updates them automatically: 
     >  
-    >  * Linked fields that are created by connecting record types. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+    >  * Connection lookup fields that are created by connecting record types and added lookup fields. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
     >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date, Formula fields.
 
 1. (Optional and conditional) When you edit a Paragraph-type field, use the following **Rich Text** formatting options: 
@@ -213,24 +249,30 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 1. (Optional) Double-click a connected record field to add connected records or objects to another record. For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
 1. Press **Enter** on your keyboard or click outside of a row to save your changes. The changes are saved automatically. A **Saved** indicator displays briefly in the upper-right corner of the table view to show that the changes were saved. 
 
-
 1. (Optional) To copy and paste information from one field to another, do one of the following:       
 
     * Copy one or multiple existing values of one field, then paste them into a field of the same type on another record
     * Click the column header of a column to select it and copy it, then click the column header of another column and paste the contents of the copied column. The columns must contain similar field types. 
-    * With your Shift key pressed, click to select several rows in a table, copy the information in the selected rows, then click a different row and paste the selected information in the new row and the following rows after that. 
+    * With your Shift key pressed, click to select several rows in a table, copy the information in the selected rows, then click a different row and paste the selected information in the new row and the following rows after that. This is not possible in the Preview environment.
     * Copy the information from one cell, then select multiple cells and paste the same information in multiple cells. You can select multiple cells and paste the same information in multiple cells from adjacent rows and columns. 
     * Select the lower-right corner of an existing cell that contains the information you want to copy, then drag and drop it across the adjacent cells where you want to paste the same information. All cells must contain the same type of information. 
 
         ![Dragable lower-right corner for copy paste in table view](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
     
-  
     * Copy one or multiple cells from an external source (for example, an Excel file), then paste them in one of the the following fields types:
 
-        * Workfront Planning connection fields.  
         * People fields. Only fields with one value are supported. 
-
-        You cannot copy information from an external source and paste it in any other field types, including Workfront or other applications' connections fields.
+        * Text fields.
+        * Select fields.
+        * Number, percentage and currency fields.
+    
+    You cannot copy information from an external source and paste it in any other field types, including Workfront or other applications' connections fields.
+    
+    <!--
+    * Workfront Planning connection fields.  
+        This is not possible in the Preview environment.
+    -->
+   
 
     >[!NOTE]
     >
@@ -240,11 +282,12 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
     >   * Copy: CTRL + C (⌘ + C for Mac)
     >   * Paste: CTRL + V (⌘ + V for Mac) 
     >
-    >* You cannot copy and paste field values in the record page. This functionality is supported only in the table view of a record type.  
+    >* You cannot copy and paste field values in the record details page. This functionality is supported only in the table view of a record type.  
     >* You cannot copy and paste field values for the following field types:   
     >
     >    * Lookup fields that are created when connecting record types. You can copy and paste linked record fields. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
     >    * Fields of the following types: Created by, Created date, Last modified by, Last Modified date 
+    >* When you copy and paste connection fields, or select field values, the values you copy must first exist in Workfront Planning. 
     
 1. (Optional) Use the following keyboard shortcuts to undo or redo editing or copying and pasting record information: 
 
@@ -253,9 +296,17 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 
     >[!TIP]
     >
-    >    You can use the keyboard shortcuts multiple times in a row to undo multiple changes.
+    >You can use the keyboard shortcuts multiple times in a row to undo multiple changes.
 
-1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record name and choose from the following options: 
+
+    * **View** or **Open in new tab**: This opens the record page.
+    * **Copy link**: To copy a link to the record's page.
+    * **Edit thumbnail**: To add a thumbnail to a record. 
+        For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+    * **Duplicate**: This creates an identical duplicate of the record. 
+    * **Insert record above/ Insert record below**: Adds a new row so you can add a new record. This is not possible in the Preview environment.
+    * **Delete**: To delete the record. Deleted records are saved in the Recently deleted box for up to 30 days.
 
 
 ### Edit a record in the timeline view of a record type
@@ -328,6 +379,9 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
     >  * Lookup fields from other records that are created by connecting record types. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
     >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date, Formula fields.
 
+1. <span class="preview">(Optional) Click the color circle to the left of the record name to change the record color. </span>
+<span class="preview">Records are automatically assigned colors when they are created. Click **Swatches** or **Custom** to select a new color.</span>
+
 1. (Optional) Click **Add cover** to add a cover image to the record. For more information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md). 
 
 1. (Optional) Hover over the thumbnail icon, then click **More** ![More menu](assets/more-menu.png) > **Edit thumbnail** to add a thumbnail image. For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md). 
@@ -384,6 +438,11 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
     >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date, Formula fields.
 
 1. (Optional) Click the information icon to the right of any field that displays it to view the description of a field. 
+1. <span class="preview">(Optional) Click the color circle to the left of the record name to change the record color. </span>
+<span class="preview">Records are automatically assigned colors when they are created. Click **Swatches** or **Custom** to select a new color.</span>
+
+    ![Color picker box for record details box](assets/color-picker-box-for-record-color-in-details-page.png)
+
 1. (Optional) Click **Add cover** to add a cover image to the record
     
     Or
@@ -445,3 +504,4 @@ To add a new choice to an existing select field when editing a record:
 
     A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 
+ 

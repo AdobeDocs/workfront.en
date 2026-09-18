@@ -7,6 +7,13 @@ description: One of the benefits of organizing your projects and proofs into fol
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
+TQID: https://experienceleague.adobe.com/vCYBMO0HLxXG73qV-3g6I8OHTX32ELjZbIIOO2rtidU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Manage Folders and their Contents in [!DNL Workfront Proof]
 

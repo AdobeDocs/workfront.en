@@ -6,17 +6,34 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/PNC5GvQItDhcmQ0TSup8vbJJ3uWn2k-v-lKBZJBhakw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 # Edit record types
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -38,29 +55,37 @@ Record types are the object types of Adobe Workfront Planning. You can edit the 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and Planning package</p>
-<p>Any Workfront and Planning package</p>
+<p>Any Workfront or Workflow with a Planning package</p>
+<p>Any Planning package when purchased as a standalone product</p>
 <p><b>NOTE</b></p>
 <p>To configure connectable record types: </p>
 <ul> 
 <li><p>Any Workfront package and any Planning package</p></li>
 Or
-<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
-
+<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li>
+Or
+<li>Any Planning Prime and Ultimate package</li>
+</ul>
 
 <p>To configure global record types:</p>
 
 <ul> 
-<li><p>Any Workfront package and a Planning Plus package</p></li>
+<li><p>Any Workfront package with a Planning Plus package</p></li>
 Or
-<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
-
+<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li>
+Or
+<li>Any Planning package when purchased as a standalone product</li>
+</ul>
    </td> </tr>
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p>
-   </td> 
+   <td role="rowheader"><p>Adobe Workfront and Planning licenses</p></td> 
+   <td><p>Any</p> 
+  </td> 
+  </tr>  
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
@@ -121,7 +146,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -188,3 +213,9 @@ Old:
    >* ⌘+K for Mac 
    >
    >![Global search box](assets/global-search-box.png)
+
+1. <span class="preview">(Optional) To add, edit, deactivate or delete record type business rules, go to the record type page and click the **More** menu to the right of the record type name, then click **Business rules**. </span>
+
+   <span class="preview">Business rules are conditions set on the record type that define when records of that type can be edited or deleted. </span>
+
+   <span class="preview"> For information, see [Create record types business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).</span> 

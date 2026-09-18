@@ -6,21 +6,36 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/-xaaNM0baja057DScjEerl-CqAhqwrqNkESARt6ChCo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Unpublish a request form in Adobe Workfront Planning
 
 
 <!--take Preview and Production references at Production time-->
 
-<!--
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 {{planning-important-intro}}
 
@@ -39,20 +54,28 @@ You can also change the entities you share a request form with, if you want to k
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront packages</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront package and any Planning package</p>
+<ul> 
+<li><p>Any Workfront or Workflow with a Planning package</p></li>
 Or
-<p>Any Workflow package and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative.</p>
+<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
    </td> </tr>
-
-  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p> 
-  </td> 
+   <td><p>Workflow Standard</p>
+   </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a workspace and record type</a> </p>  
@@ -81,7 +104,7 @@ To change the sharing of a request form:
 
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
 
-1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms**.
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms** or <span class="preview">**Request forms**</span>.
 
    All request forms associated with the record type display in a table view. 
 1. Hover over the name of a request form, then click the **More** menu ![More menu](assets/more-menu.png) to the right of its name, then click **Share**. 
@@ -108,7 +131,7 @@ When a request form becomes irrelevant and you don't want anyone to access it an
 
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
 
-1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms**.
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms** <span class="preview"> or **Request forms**</span>.
 
    All request forms associated with the record type display in a table view. 
 1. Hover over the name of a request form, then click the **More** menu ![More menu](assets/more-menu.png) to the right of its name, then click **Unpublish**

@@ -1,21 +1,38 @@
 ---
 title: Manage the timeline view
-description: Access and edit records in a timeline view on the Adobe Workfront Planning record type page. This article describes how you can create a timeline view and edit or delete an existing one. Customize the timeline with filters, groupings, and settings. Use the Breakdown feature to display connected records. 
+description: Access and edit records in a timeline view on the Adobe Workfront Planning record type page. This article describes how you can create a timeline view and edit or delete an existing one. Customize the timeline with filters, groupings, and settings. Use the Breakdown feature to display connected records.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Manage the timeline view
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--remove Production and Preview references at release-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -39,28 +56,36 @@ For information about record views, see [Manage record views](/help/quicksilver/
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p>
+<ul> 
+<li><p>Any Workfront or Workflow with a Planning package</p></li>
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
+   </td> </tr>
 
-<p>Any Workflow and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
-   </td> 
-  <tr> 
+   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p> Standard to create and delete views</p>
-   <p>Contributor or higher to update view elements</p>
+   <td><p>Workflow Light or higher</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p> Planning Standard to create and delete views</p>
+   <p>Planning Contributor or higher to update view elements</p>
+   <p><b>NOTE</b><p>
+   <p>Not all customers have Planning Contributor licenses</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a view</p>  
    <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
   </tr> 
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
-</td>
-  </tr> 
+
 </tbody> 
 </table> 
 
@@ -115,7 +140,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -209,8 +234,14 @@ To manage a timeline view:
 
         >[!TIP]
         >
-        >The timeline view only displays fiscal weeks according to classic quarters. If your Workfront administrator turns on Custom Quarters in the Setup area, the week information does not display in the timeline view.
-
+        >Depending on which environment you are using to access the timeline view, the following scenarios exist:
+        >
+        >* In the Production environment, the timeline view only displays custom weeks according to classic quarters. If your Workfront administrator turns on Custom Quarters in the Setup area, the week information does not display in the timeline view.
+        >
+        >* <span class="preview">In the Preview environment, the timeline view displays custom weeks according to classic quarters, by default. If your Workfront administrator turns on Custom Quarters and Custom weeks in the Setup area, the timeline view displays the custom quarters and weeks in the Quarter and Month displays. </span>
+        >
+        
+        
 1. (Optional) Click **Switch to Compact view** to display the records whose dates don't intersect on the same line. <!--check to see if they updated the name of the setting here--> 
 1. (Conditional) If you changed your mode to **Compact**, click **Switch to Standard** view to display records in separate lines. The **Standard** option is the default.  <!--check to see if they updated the name of the setting here--> 
 
@@ -280,11 +311,13 @@ Consider the following when working with filters in the timeline view:
 
 * You can filter by connected record fields or lookup fields. 
 * You can filter by lookup fields that display multiple values. 
+* <span class>You can filter for the record types in the timeline view or any connected record types that are part of the breakdown structure in the view. </span>
 
 To add a filter to a timeline view: 
 
 1. Create a timeline view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Select a timeline view, then click **Filters** in the upper-right corner of the table.    
+1. Select a timeline view, then click **Filters** in the upper-left corner of the table.  
+1. <span class>(Conditional)If you added a breakdown structure to the timeline view, expand the record type in first drop-down in the filter box. This is the record type whose timeline view you are displaying. </span>
 1. Click **Add condition** and add the following information: 
 
     * **Select a field** to search for a field and select it from the list.
@@ -368,14 +401,19 @@ To add a filter to a timeline view:
     * **OR**: Any of the specified conditions must be met. 
         This is the default option. 
 
-    1. (Optional) Add additional filter groupings and join them by **AND** or **OR** operators. 
-
-        ![Multi-tiered filters in views](assets/multi-tiered-filters-in-views.png)
+1. (Optional) Add additional filter groupings and join them by **AND** or **OR** operators. 
 
     The list of records is filtered automatically based on your filter criteria.  <!--at this time, you can't name and save the filter - but will this change?!-->
     <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Optional) Click the **x** icon to remove a filter condition.
+1. (Optional and conditional) If you added a breakdown structure to your timeline view, expand the record type in the following dropdown and repeat the same steps as above to add a filter for a record type included in the breakdown. 
+
+    Repeat for every record type in the breakdown.
+
+    ![Multi-tiered filter with breakdown for timeline view](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
+
+    You can filter for breakdown record types only from the timeline view.
 1. (Optional) Click **Filters** or anywhere else on the page to close the filters box. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
@@ -411,6 +449,7 @@ To add a grouping in the timeline view:
 1. Click one of the suggested fields, or click **Choose a different field**, and search for a different field, then click it when it displays in the list. 
 
     The grouping is applied automatically to the timeline and records display inside the grouping box. 
+1. (Optional) Click **Add condition** to add up to three fields to group by.
 1. (Optional and conditional) Depending on the field type you selected to group by, select one of the following sorting options to sort the groupings either in ascending or descending order:  
 
     * **A -> Z** or **Z -> A** for Select fields, Text fields, Paragraph fields, Connected records or objects, People fields
@@ -427,6 +466,22 @@ To add a grouping in the timeline view:
 
 1. In the **Group records by** box, drag and drop the groupings in the correct order.
 
+
+1.  In the **Layout** area of the **Group records by** box select one of the following options:
+
+    * **Stacked**: Groupings display without a frozen left column and fit the width of their items' timelines.
+
+        ![Stacked grouping in timeline view](assets/stacked-grouping-in-timeline-view.png)
+    * **Swimlane**: Groupings display with a frozen left panel that lists the grouped items and the groupings fit the width of the timeline view. 
+
+        ![Swimlane grouping in timeline view](assets/swimlane-grouping-in-timeline-view.png)
+
+    Groupings are applied immediately. 
+    
+1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png)  in the toolbar to open the **Group records by** box, then click **Expand all** to expand all the groupings, or **Collapse all** to collapse all the groupings and manually collapse only the ones you need. </span>
+1. <span class="preview">(Optional and conditional) In the swimlane display, drag and drop the left panel separator to adjust its width. Each user's panel width is saved across sessions, with a default width for first-time users.</span>
+1. <span class="preview">(Optional) For long grouping names, hover over a grouping's line to see the full name of the grouping in a tooltip.</span>
+    
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
     Or
@@ -434,6 +489,11 @@ To add a grouping in the timeline view:
     Click **Clear all** to remove all fields.  
 
 1. Click outside the **Group records by** box to close it. 
+1. (Optional) Drag and drop items in the timeline view to adjust their dates. 
+
+    >[!TIP]
+    >
+    >When you drag and drop records from one grouping to another, the fields that are selected in the grouping automatically update the values on the moved records.
 1. (Optional) Click **Settings**, then **Color** to color-code groupings. For more information, see the [Edit the timeline view settings](#edit-the-timeline-view-settings) section in this article. 
 
 <!-- 
@@ -517,12 +577,12 @@ Update the timeline view settings to indicate what and how information displays 
     * **Default (gray)**: The color of the groupings is set to gray. This is the default. 
     * **Field values**: The color of the groupings matches the color of the field you group by. 
     
-        >[!NOTE]
-        >
-        >    * You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
-        >    
-        >    * You cannot match the color to lookup fields from linked record or object types. 
-
+    >[!NOTE]
+    >
+    >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+    >    
+    >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        
 
     For example, multi-select or single-select fields can have color-coded options. 
 
@@ -537,7 +597,7 @@ Update the timeline view settings to indicate what and how information displays 
     * **Record type**: The color of the records match the color of the record type you selected. This is the default option. 
     * **Field values**: The color of the records matches the color of a field that you specify. Continue with step 10. <!--ensure this stays accurate-->
     * **Grouping**: The color of the records matches the color that you indicated for the groupings. This option is dimmed when you have no groupings applied to the timeline view. 
-    * **None**: Records displays in a white bar. 
+    * **None**: Records displays in a white bar. <span class="preview">The None option has been removed from the Preview environment.</span>
 
 1. (Conditional) If you selected **Field values** for the record colors, select a field from the **Match the record color to** drop-down menu. 
 

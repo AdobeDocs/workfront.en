@@ -6,27 +6,44 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-last-update: 2026-04-01T11:23:03-07:00
+last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+TQID: https://experienceleague.adobe.com/sFguOXM4KmnumOPmMdueqTMyH-UNFq01TsJG6L53fAM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 # Manage the record page layout
 
 <!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 {{planning-important-intro}}
 
-You can edit the layout of the record preview and page in Adobe Workfront Planning. 
+You can edit the layout of the record preview and page in Adobe Workfront Planning.
 
-The record preview is a smaller view of the record page that displays in the view of a record type. 
+The record preview is a smaller view of the record page that displays in the view of a record type.
 
-When you change the layout of a record  preview and page, the changes affect the preview boxes and details pages of all records of the same type. 
+When you change the layout of a record  preview and page, the changes affect the preview boxes and details pages of all records of the same type.
 
-This article describes how you can change the layout and appearance of a record preview box or a record page. For information about editing records, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+This article describes how you can change the layout and appearance of a record preview box or a record page. For information about editing records, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 
 You must create record types and records before you can start editing record pages. 
 
@@ -52,19 +69,30 @@ For information, see the following articles:
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p>
-<p>Any Workflow and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+<ul> 
+<li><p>Any Workfront or Workflow with a Planning package</p></li>
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow Standard</p>
    </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
   <tr>
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
-   <p>Contribute or higher permissions to a workspace and record type </p>  
+   <p>Contribute or higher permissions to a workspace and record type and Manage permissions to a record </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> 
   </td>
   </tr>   
@@ -127,7 +155,7 @@ Old:
   </tr>
   <tr>
    <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>  
 </td>
   </tr>
 <tr>
@@ -199,9 +227,9 @@ To add a section to a record preview or page:
 
 1. (Optional) Click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record preview  to open the record's page in a new tab. 
 
-    The record page opens. The Details tab opens by default.
+   The record page opens. The Details tab opens by default.
 
-    ![Details page](assets/details-page.png)
+   ![Details page](assets/details-page.png)
 
 1. In the **Details** tab of the record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![Add section icon](assets/add-section-icon.png) to add a section. 
 1. Click inside the section's name and replace **Untitled section** with a name, then click Enter. The fields displayed under the section are automatically part of the new section. 
@@ -276,44 +304,43 @@ To add a section to a record preview or page:
 
     ![Details box](assets/details-box.png) 
 
-1. (Optional and conditional) <!--If you are using the Production environment,--> Depending on which fields you want to display in the Details page, do one of the following:
+   <!--
+   1. (Optional and conditional) If you are using the Production environment, depending on which fields you want to display in the Details page, do one of the following:
+      * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+      * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
+         >[!TIP]
+         >
+         >* The **Show all fields** setting is available only in the record's Details preview box. It is not available when the record's Details page opens in a browser window.
+         >* You cannot add sections to a record's page when you exclude hidden fields in the Details preview box. 
+   1. (Optional and conditional) If you are using the Preview environment, the details area opens by default in the **Selected table view fields** view. This displays only the fields that are visible in the table view. 
+      >[!TIP]
+      >
+      >The **Selected table view fields** view is only available when you view records in the table view in the record's details preview page. 
+      >The **Selected table view fields** is not available for any other record type view or for the record's details page that opens in a browser window. 
+   -->
 
+
+
+1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
+1. (Optional) Click **New Details** to add a new page and customize it, then do the following:
+
+   1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
+   1. Hover over the fields on the view and click the **Hide field** icon ![Hide field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field. 
    
-   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
-   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
-
       >[!TIP]
       >
-      >* The **Show all fields** setting is available only in the record's Details preview box. It is not available when the record's Details page opens in a browser window.
-      >* You cannot add sections to a record's page when you exclude hidden fields in the Details preview box. 
-
-
-   <!--
-   1. <span class="preview">(Optional and conditional) If you are using the Preview environment, the details area opens by default in the **Selected table view fields** view. This displays only the fields that are visible in the table view. </span>
+      >* Custom pages are visible by everyone who accesses the record. 
+      >* The last page view you choose will be the one that opens by default when you open another record of the same type.
+   
+   1. (Optional) Click the **Fields icon** ![Fields icon](assets/fields-icon.png) at the top of the details page, then hide or show fields on the Details page. 
+   
       >[!TIP]
       >
-      > <span class="preview">The **Selected table view fields** view is only available when you view records in the table view.</span>
-   -->
-   <!--
-   <div class="preview">
-   In the Preview environment, continue with the following: 
-   1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
-   1. (Optional) ClicK **New Details** to add a new page and customize it, then do the following:
-      1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
-      1. Hover over the fields on the view and click the **Hide and drag field** icon ![Hide and drag field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field or place it in another spot on the page. 
-         >[!TIP]
-         >
-         >* Custom pages are visible by everyone who accesses the record. 
-         >* The last page view you choose will be the one that opens by default when you open another record of the same type.
-      1. (Optional) Click the **Fields icon** ![Fields icon](assets/fields-icon.png) at the top of the details page, then hide or show fields on the Details page. 
-         >[!TIP]
-         >
-         >The **Fields** icon is not available when you display the details page in the **Selected table view** or the **All fields** views. 
-      1. (Optional) To edit the name of a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png) , then click **Edit**. 
-      1. (Optional) To delete a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png), then click **Delete**, then **Delete** to confirm. Deleted details page views cannot be recovered. 
-   </div>
-   -->
+      >The **Fields** icon is not available when you display the details page in the **Selected table view** or the **All fields** views.
 
+   1. (Optional) To edit the name of a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png) , then click **Edit**. 
+   1. (Optional) To delete a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png), then click **Delete**, then **Delete** to confirm. Deleted details page views cannot be recovered. 
+      
 1. (Optional) If you want to navigate to a connected record, click the name of that record in the breadcrumb at the top of the details page. 
 
    If you cannot see the name of a record in the breadcrumb, click **More**. This displays the breadcrumb on multiple rows. Click **Less** to shorten the breadcrumb and display it on one row.
@@ -324,7 +351,7 @@ To add a section to a record preview or page:
 
 1. (Optional) Click the **Open in new tab** icon ![Open details box in a new tab icon](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
 
-    The record **Details** page opens in a new tab. 
+   The record **Details** page opens in a new tab.
 
    ![Details page](assets/details-page.png)
 

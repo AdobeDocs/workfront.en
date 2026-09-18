@@ -6,8 +6,28 @@ description: You can use templates as a framework to create projects in Adobe Wo
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/FnHU08XS4oFb81ho0EOy1ymzulaVVIX10Jd%2D%2D%2D%2DHu4o
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create a project using a template
 
@@ -153,27 +173,31 @@ You can create a project from the Projects area in the Main Menu, or from the Pr
    1. (Optional) In the **Search Templates** field, start typing the name of a template and click it when it displays in the list.
    1. Click the name of one of the following types of templates to choose them: 
 
-      * A Workfront-storage template
+      * A legacy Workfront storage template
 
-         Workfront-storage templates display a legacy-storage icon ![Legacy storage icon](assets/legacy-storage-project-icon.png) next to their name. 
+         Legacy Workfront storage templates display a legacy-storage icon ![Legacy storage icon](assets/legacy-storage-project-icon.png) next to their name. 
 
          Documents on the template and on the future projects will be stored in Workfront storage.
-      * An Adobe-storage template
+      * An Adobe cloud storage template
 
-         Documents on the template and on the future projects will be stored in Adobe enterprise storage.
+         Documents on the template and on the future projects will be stored in Adobe cloud storage.
 
       >[!NOTE]
       >
-      >* Using an Adobe enterprise-storage template creates an Adobe enterprise-storage project. 
+      >* Using an Adobe cloud storage template creates an Adobe cloud storage project. 
       >
-      >* Using a Workfront-storage template creates a Workfront-storage project. 
+      >* Using a legacy Workfront storage template creates a legacy Workfront storage project. 
       >
-      >* When you use an Adobe enterprise-storage template from a Workfront-storage portfolio or program, the project is an Adobe enterprise-storage project and the portfolio or program are also converted to Adobe enterprise-storage objects. All other Workfront-storage projects under the same portfolio or program remain unchanged. 
+      >* When creating projects using templates from a portfolio or program, the following scenarios exist: 
+      >     * You cannot use an Adobe cloud storage template from a legacy Workfront storage portfolio or program to create a project.
+      >     * You can create an Adobe cloud storage project for an Adobe storage portfolio or program using a Legacy storage template. Any template documents and folders are not attached to the new project. 
       >
       > Your Workfront instance might not have both types of document storage. 
       >
       >For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md). 
-
+   
+   1. (Conditional and optional) If you selected a legacy storage template, select the **Create this project on Adobe cloud storage** setting in the lower-right corner of the New project box. This will create an Adobe cloud storage project. Documents and document folders from the template will not be added to the project.      
+   
    1. Review the following template details on the right:
    
       * Template duration
@@ -216,11 +240,12 @@ You can create a project from the Projects area in the Main Menu, or from the Pr
    Edit the pre-populated values to better match your project. 
 
    For more information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+
 1. Click **Create project**.
 
    All details defined in the template associate automatically with the newly created project if you didn't change them in the previous step.
 
-   A document folder with the same name as the project is automatically created for Adobe-storage projects in the Documents section of the project. 
+   A document folder with the same name as the project is automatically created for Adobe cloud storage projects in the Documents section of the project. 
 
 ## Create a project from a template in the Templates area
 
@@ -228,7 +253,7 @@ Instead of starting in the Projects area, you can create a project from a templa
 
 >[!NOTE]
 >
->Templates associated with Workfront document storage create legacy Workfront-storage projects. Templates associated with Adobe enterprise document storage create Adobe-storage projects. Your Workfront instance might not have both types of document storage.
+>Templates associated with Workfront document storage create legacy Workfront storage projects. Templates associated with Adobe cloud storage for documents create Adobe cloud storage projects. Your Workfront instance might not have both types of document storage.
 >
 >For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md). 
 
@@ -251,8 +276,9 @@ Instead of starting in the Projects area, you can create a project from a templa
    
    For information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
+
 1. Click **Create project**.
 
    All details defined in the template associate automatically with the newly created project if you didn't change them in the previous step.
 
-   A document folder with the same name as the project is automatically created for Adobe-storage projects in the Documents section of the project. 
+   A document folder with the same name as the project is automatically created for Adobe cloud storage projects in the Documents section of the project. 

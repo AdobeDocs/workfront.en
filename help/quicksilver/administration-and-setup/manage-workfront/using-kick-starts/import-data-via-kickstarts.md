@@ -9,8 +9,23 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/eDTZB36f13CgQ5HSrp5MGqHDnhMi-SVA9ygsfxRjh-M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Import data into Workfront using a Kick-Start template
 
@@ -59,8 +74,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 You can import large numbers of objects into Workfront using a Kick-Start template. However, consider the following limitations:
 
 * Importing data this way doesn't update information on records that already exist in Workfront. 
-* You can import only new records and their information.  
-* Import no more than 2,000 records at a time to ensure that the import does not time out
+* You can import only new records and their information.
+* Kick-Start imports run in the background, and there is no record limit.
+
+<!--THIS IS OLD. The background run was added September 2026, can delete this text at the end of the year * Import no more than 2,000 records at a time to ensure that the import does not time out.-->
 
 ## Export a Kick-Start template as a spreadsheet file
 
@@ -69,10 +86,6 @@ When you export a Kick-Start template you receive a blank Excel spreadsheet work
 To export a Kick-Start template:
 
 {{step-1-to-setup}}
-
-<!--
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
--->
 
 1. Click **System** > **Import Data (Kick-Starts)**.
 
@@ -475,8 +488,6 @@ The Kick-Start import supports the following file types:
 
 To import the template spreadsheet data into Workfront:
 
-<!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
-
 {{step-1-to-setup}}
 
 1. Click **System** > **Import Data (Kick-Starts)**.
@@ -485,7 +496,9 @@ To import the template spreadsheet data into Workfront:
    
    The file uploads automatically, and a notification that the import was successful displays.
 
-   If the Excel file takes longer than 5 minutes to upload to Workfront, the application times out and Workfront cannot upload the file. Try importing your data in smaller batches of objects.
+   <!--If the Excel file takes longer than 5 minutes to upload to Workfront, the application times out and Workfront cannot upload the file. Try importing your data in smaller batches of objects.-->
+
+   The import runs in the background so that it will not time out. Wait until the import finishes before starting another import or navigating away from the page. If an import is taking too long, you can cancel it.
 
 1. (Conditional) If the import was not successful, you receive an error message stating what the problem is. Try to identify the field, the sheet, and the row number in which the problem was encountered and correct the information in the Excel file. Then, try importing the file one more time.
 1. (Conditional) If you are using Workfront Fusion, you can now turn on your FLOs or scenarios when the import is complete.

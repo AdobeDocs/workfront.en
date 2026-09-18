@@ -7,6 +7,13 @@ description: You can view side-by-side comparisons of two proofs. These can be t
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d4ec0c53-1451-4475-aa38-2319c6432936
+TQID: https://experienceleague.adobe.com/WqMIoCFL-uqoaiZN59IyGljdSPb1sn0Py3RaVgjuuKM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Compare proofs in the proofing viewer
 

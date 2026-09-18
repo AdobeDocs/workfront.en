@@ -6,6 +6,21 @@ description: If you are creating a project through Workfront Fusion and want to 
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
+TQID: https://experienceleague.adobe.com/Hegf4kJc65Le5-PttBh6pLzyR8zvydUbbjidxrK0se0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Use Workfront Fusion to convert a Workfront issue to a project that includes Adobe Experience Manager workflows
 
@@ -160,3 +175,52 @@ You must set up an OAuth application in Workfront for this module's connection. 
 You will use this Client ID and Client secret when configuring the module's connection in Fusion.
 
 For instructions on creating a connection, see [Connect [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) in the article Workfront modules.
+
+## Troubleshooting
+
+**Problem**: Custom forms unexpectedly attach to the Fusion-created project
+
+**Workaround**:
+ 
+Move `categoryID` out of the advanced project JSON and into `project_new.categoryID` (using the structured field in the Fusion UI).
+ 
+Concretely, change the mapper to:
+ 
+```
+// project_new — set just this one field via the structured UI
+{
+    "categoryID": "5d3a292300b69eb5d80c37e8ce6269d3"
+}
+
+```
+
+```
+// project (advanced JSON) — remove categoryID from here
+{
+    "aemNativeFolderTreeIDs": ["693c40280e09eb1bd4085a5e"],
+    "aemNativeFolderWorkflowEnabled": "true",
+    "name": "{{1.name}}",
+    "templateID": "{{if(...)}}",
+    "ownerID": "{{1.ownerID}}",
+    "sponsorID": "{{1.ownerID}}",
+    "priority": "2",
+    "programID": "{{ifempty(7.ID; null)}}",
+    "description": "test",
+    "portfolioID": "{{ifempty(8.ID; null)}}",
+    "scheduleMode": "S",
+    "completionType": "AUT"
+}
+```
+ 
+**Why this works**:
+ 
+1. `isCtgyIDsGive`n now sees `project_new.categoryID = "5d3a292300b69eb5d80c37e8ce6269d3"` → returns truthy → `temp.isCtgyIDsGiven = true`
+2. The step (`getAttachedAndAttachableCategoryID`s) is skipped — its condition is `!temp.isCtgyIDsGiven`
+3. Instead, this step fires: `ctgyIds = split(parameters.project_new.categoryID, ',')` → ["5d3a292300b69eb5d80c37e8ce6269d3"]
+4. `prepareMiscActionData` still uses the advanced project JSON for all the AEM-specific fields (it takes precedence over `project_new`), then overlays `objectCategories: [{ categoryID: "5d3a292300b69eb5d80c37e8ce6269d3" }]`, only their intended form, no unexpected ones
+5. The steps that copy custom field values from source OPTASK to the new project still run as expected with `isCopyCustomData: true`
+ 
+The AEM fields (`aemNativeFolderTreeIDs`, `aemNativeFolderWorkflowEnabled`) stay in the advanced field unaffected. This process changes only where `categoryID` is found.
+
+
+

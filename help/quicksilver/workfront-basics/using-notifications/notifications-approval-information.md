@@ -1,13 +1,20 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Notifications: Approval information'
+title: "Notifications: Approval information"
 description: The following notifications alert you about approval activities happening on a work item you are involved with. For information about configuring which notifications you receive, see Modify your own email notifications.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/P2AOhU62RdYgN1vJCky27ZjE9X6VWmDfJF4E-5M-dgo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Notifications: Approval information
 
@@ -58,7 +65,7 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>My timesheet is approved</strong> </p> <p>When your timesheet is approved, you receive an email notification.</p> <p>The subject of the instant notification email is: <em>[!UICONTROL Timesheet Approved]: &lt;Timesheet Start Date> - &lt;Timesheet End Date></em></p> <p> <p>Note:  You cannot configure this notification for a daily digest email.</p> </p> </td> 
+   <td> <p><strong>My timesheet is approved</strong> </p> <p>When your timesheet is approved, you receive an email notification.</p> <p>The subject of the instant notification email is: <em>[!UICONTROL Timesheet Approved]: &lt;Timesheet Start Date> - &lt;Timesheet End Date></em></p> <p> <p>Note:  You cannot configure this notification for a daily digest email.</p> </p> <p> <p>Note:  You must have a Standard license to receive this notification. Users with a Light license or lower do not receive the timesheet approval email notification, even when it is enabled.</p> </p> </td> 
    <td> Name of the user who approved your Timesheet<br>Date and Time when the Timesheet was approved<br>Status of Timesheet ([!UICONTROL Approved])<br>Start Date and End Date of Timesheet<br>Total hours logged in the Timesheet<br>Overtime hours logged in the Timesheet </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 

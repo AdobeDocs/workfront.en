@@ -1,11 +1,18 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Notifications: Delegation'
+title: "Notifications: Delegation"
 description: The following notifications let you know about task and issue delegations you have made or others made for you in Adobe Workfront.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bd329c5a-4440-4bb7-96f1-30e83c213851
+TQID: https://experienceleague.adobe.com/c5WDbyvlVudvdpdKqcjSrqqKLn4Y-kecu5Lb0pmm0vM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Notifications: Delegation
 

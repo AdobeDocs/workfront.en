@@ -8,6 +8,24 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
+TQID: https://experienceleague.adobe.com/d3g9LMxOraNxlMT7xN8LY5y84bd-6K5yNnFTxjxYM8k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Grant access to filters, views, and groupings
 
@@ -50,7 +68,7 @@ For more detail about the information in this table, see [Access requirements in
 
    ![](assets/gear-icon-filters-dashboards-groupings.png)
 
-   By default, users with a Plan, Work, Reviewer, or Request license have full View and Edit abilities. Users with an External User license do not access to filters, views, and groupings.
+   By default, users with a Standard, Plan, Work, Light, Reviewer, Contributor, or Request license have full View and Edit abilities. Users with an External User license do not have access to filters, views, and groupings.
 
    <!--
    If this changes, undraft section with table below
@@ -61,11 +79,14 @@ For more detail about the information in this table, see [Access requirements in
 
    After the access level is created, you can assign it to a user. For more information, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-<!--
 ## Access to filters, views, and groupings by license type
 
-Drafting out this section for now because the table is redundant since all four license types can do everything.</span>
--->
+For information about what users in each access level can do with filters, views, and groupings, see the section [Filters, views, and groupings](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#filters-views-and-groupings) in the article [Functionality available for each object type](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
+
+<!--
+
+Drafting out this section for now because the table is redundant since all four license types can do everything.
+
 
 This table lists what a Workfront administrator can allow users with each license type to do with filter, views, and groupings. For information about the Workfront license types, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
@@ -129,3 +150,5 @@ This table lists what a Workfront administrator can allow users with each licens
 </tr>
 </tbody>
 </table>
+
+-->

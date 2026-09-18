@@ -9,6 +9,28 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
+TQID: https://experienceleague.adobe.com/DP4cAQiJdCpE59ppP-EvU3UcJomEd9TUxza6DIB1cDg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Access requirements in Workfront documentation
 
@@ -38,20 +60,33 @@ If a row is absent from the Access requirements table in a given article, there 
   <p>Your organization may have purchased a Workfront package in one or more of these areas.</p>
   <p>Previously, Workfront offered Workfront Select, Workfront Prime, and Workfront Ultimate packages, without distinguishing between Workflow, Planning, and Automation and Integration. Your organization may be on one of these legacy packages. 
    <ul><li>To find out what Adobe Workfront package your organization uses, including whether your organization is under the current or legacy packaging model, contact your Workfront administrator.</li>
-   <li>For instructions on how a Workfront administrator can locate your organization's Workfront package, see <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">View your organization's cluster and Workfront package</a>.</li><li>For more information on the Workfront packages, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>.</li></ul> </td> 
+   <li>For instructions on how a Workfront administrator can locate your organization's Workfront package, see <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">View your organization's cluster and Workfront package</a>.</li><li>For more information on the Workfront packages, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>.</li></ul> 
+   
+   Your organization might purchase a Workfront Planning package in one of the following offerings:
+
+   <ul>
+    <li> Together with a Workflow package, with identical number of Workflow and Planning licenses. </li>
+    <li>Together with a Workflow package, with a mismatched number of licenses between Workflow and Planning. </li>
+    <li>As a standalone product.</li></ul>
+
+  Functionality may differ between the three Workfront Planning offerings. For information, see <a href="/help/quicksilver/planning/general/planning-overview.md" class="MCXref xref">Get started with Adobe Workfront Planning</a>.
+
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td> Adobe Workfront licenses refer to the set of Workfront features included with the license assigned to you. For example, one user might have a license that includes marking work items complete and logging time, while another user has a license that allows them only to approve assets or submit requests. <p> 
+   <p>Adobe Workfront licenses can refer to the following types of licenses:</p>
+   <ul><li><b>Workfront Workflow licenses</b>: Available for all customers who purchase Workfront. The Workflow licenses are: Workflow Standard, Light, Contributor.</li>
+  <li><b>Workfront Planning licenses</b>: Available to all customers who purchase any of the Workfront Planning offerings. The Planning licenses are: Standard, Contributor, No Access. Customers who purchase Workfront Planning as a standalone product do not have a Contributor license.  </li></ul>
+   
+   <p>To find out which license you are assigned, contact your Workfront administrator.</p>
+   <p>For information about licenses see:</p>
    <ul>
-   <li>To find out which license you are assigned, contact your Workfront administrator.</li>
-   <li>For information about licenses see:
-   <ul>
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md">Create and modify custom access levels</a></li>
    <li><a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">New licenses overview</a></li>
-   <li><a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Licenses overview</a></li></ul></li>
-   <li>If you have the correct access level and still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Create or modify custom access levels</a>.
-   </ul>
-      </p> </td> 
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Licenses overview</a></li></ul>
+   <p>If you have the correct access level and still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 

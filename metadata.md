@@ -3,7 +3,8 @@ cloud: Experience Cloud
 solution: Workfront
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-    label: "Workfront"
+    internal-label: "Workfront"
+usetq: true
 landing-page-name: workfront
 landing-page-breadcrumb-title: Workfront
 product-previous: experience cloud

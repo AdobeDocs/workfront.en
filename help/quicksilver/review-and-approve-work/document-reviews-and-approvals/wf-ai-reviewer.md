@@ -7,8 +7,25 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/5nwapHAbb8wRWqen7a49QfpsAMLPZNEfJUJ2vm4R7SA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Get started with the Workfront Content Reviewer
 
@@ -72,6 +89,40 @@ Once at least one brand is set up, Workfront administrators can begin creating C
 Content Reviewers can then be assigned to approval templates and individual review and approval requests.
 
 For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+
+## What Content Reviewer evaluates {#what-content-reviewer-evaluates}
+
+The Content Reviewer evaluates content differently depending on the guideline type: Image or Brand voice.
+
+### Image
+
+Content Reviewer evaluates:
+
+* **Composition**: Focal point, background, cropping, creative framing
+* **Lighting & mood**: Use of light, vibrancy, optimism
+* **Diversity & inclusion**: Representation of people (race, gender, age, ability)
+
+Content Reviewer does not evaluate:
+
+* **Logo usage**: Placement, clear space, sizing, correct logo version
+* **Color palette**: Brand color compliance, avoidance of unapproved colors
+* **Typography**: Font family, weights, spacing, alignment
+* **Illustration style**: Consistency with the brand's illustration approach
+* **Accessibility**: Contrast compliance, legibility
+
+### Brand voice
+
+Content Reviewer evaluates:
+
+* **Tone of voice**: Conversational, clear, human, aligned with brand personality
+* **Jargon/formality**: Avoidance of buzzwords, elitism, or excessive formality
+* **Messaging**: Encouragement, honesty, responsible positioning (for example, for AI topics)
+
+Content Reviewer does not evaluate:
+
+* **Legal/compliance**: Trademark usage, disclaimers, localization rules
+
+For guidance on writing brand guidelines that align with what the Content Reviewer evaluates, see [Create and manage brands for the Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 ## Add Content Reviewers to review and approval requests
 

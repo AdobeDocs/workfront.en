@@ -7,8 +7,20 @@ author: Becky
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
+TQID: https://experienceleague.adobe.com/EQ1zHPVOqW-2yZU8pvPTmBJ-q-PMKotGBuDB1G7hc7A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
-
 # Add advanced proofing options when creating a proof through the Adobe Workfront API
 
 When creating a proof in the Workfront API, you can add advanced proofing options.

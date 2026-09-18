@@ -6,8 +6,26 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/YZRzcl8ymUo85jplCgKOx-qI83Gqa4CUI6saxfijtec
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Get started with the Adobe Workfront Planning Designer
 
@@ -15,7 +33,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 
 >[!IMPORTANT]
 >
->The Planning Designer is currently only available for users participating in the Closed Beta program.
+>The Planning Designer is currently available to all customers in a Beta state. 
 >
 >The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
 >
@@ -34,7 +52,7 @@ For information about Workfront Planning, see the following articles:
 * [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md)
 
 
-## Access requirements <!--edit theses??-->
+## Access requirements 
 
 +++ Expand to view access requirements for the functionality in this article. 
 
@@ -47,20 +65,32 @@ For information about Workfront Planning, see the following articles:
 <tr> 
    <td role="rowheader"><p>Adobe Workfront packages</p></td> 
    <td> 
-<p>Any Workfront and Planning package</p>
-<p>Any Workflow and Planning package</p>
+<p>Any Workfront or Workflow package with a Planning package</p>
+<p>Any Planning when purchased as a standalone product</p>
    </td> </tr>
-
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p> 
+   <td><p>Workflow Standard</p> 
+   <p>Workfront Administrators must enable the Planning Designer for your organization</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Planning license</p></td> 
+   <td><p>Planning Standard</p> 
+   <p>Workfront Administrators must enable the Planning Designer for your organization</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  
+   </td> 
   </tr>  
 </tbody> 
 </table> 
@@ -68,6 +98,54 @@ For information about Workfront Planning, see the following articles:
  For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Enable the Planning Designer for your organization
+
+As a System Administrator, you can turn on the Planning Designer Beta for your organization. After this setting is turned on, everyone in your Workfront instance can view the Planning Designer's capabilities in their Planning area. 
+
+1. Log in as a Workfront administrator. 
+1. Click the **Main Menu** ![Main Menu icon](assets/main-menu-shell.png), then click **Setup**.
+1. Go to **System** > **Preferences** > **AI Preferences**.
+1. Turn on **Enable AI**. 
+
+    >[!NOTE]
+    >
+    >Accepting the AI Agreement is not required for using the Planning Designer in beta.
+
+1. Turn on the **Opt in to AI Betas** setting, if it is not enabled. 
+1. Turn on the **Planning Designer** setting, if it's not enabled. 
+    
+    ![Planning Designer setting in System Preferences](assets/ai-preferences-with-planning-designer-unaccepted-agreement.png).
+
+    >[!TIP]
+    >
+    >The **Opt in to AI Betas** and the **Planning Designer** options are turned on by default, but you must accept the Beta agreement to be able to use the Planning Designer. 
+
+1. (Conditional and mandatory) If you have not accepted the Beta Agreement, click **Review Beta Agreement** and read the agreement, then click **Accept**. 
+
+1. Click **Save**.
+
+    The Planning Designer capabilities to create or edit workspaces are now available for all users in your organization who can access Planning.
+
+<!--
+
+## Turn off the Planing Designer for your organization
+
+After your Workfront administrator accepts the AI Assistant agreement, the Planning Designer is turned on for everyone in your organization, by default. 
+
+To turn it off: 
+
+1. Log in to Workfront as a System Administrator. 
+1. Click **Main Menu** ![Main menu icon](assets/main-menu-shell.png) in the upper-left corner of the screen, then click **Setup**.
+1. Click **System** >  in the left panel, then go to the **AI preferences** area.
+1. Turn off the **Planning Onboarding** setting.
+1. Click **Save**.
+
+    This removes the Planning Designer for all users in the system.
+
+-->
+
+<!--
 
 ## Enroll in the Closed Beta program for the Planning Designer
 
@@ -78,6 +156,8 @@ After we receive the email, our Engineering team will turn on the Planning Desig
 >[!IMPORTANT]
 >
 >Your company must first accept the AI Assistant agreement before the Planning Designer is available in your system. 
+
+-->
 
 ## Submit feedback about the Planning Designer
 
@@ -97,19 +177,29 @@ You can submit feedback about the Planning Designer during the beta program.
 
 ## Considerations about the Planning Designer
 
-* To use the Planning Designer, you first need to turn on the AI Assistant for your organization. The following must be in place for the AI Assistant to be available to everyone in your organization:
+* You do not need to enable AI agreement before you can access the Planning Designer. 
 
-    * Workfront must make the AI Assistant available for your organization.
+* You must sign the Beta agreement to access the Planning Designer.
+
+<!--
+Sargis and Ashot  said these are not required: 
+
+* To use the Planning Designer, you first need to enable AI for your organization. The following must be in place for the AI features to be available to everyone in your organization:
+
+    * Workfront must make the AI features available for your organization.
 
         For details, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
-    * After Workfront makes the AI Assistant available for your organization, the main Workfront administrator can access it. 
+    * After Workfront makes the AI features available for your organization, the main Workfront administrator can access it. 
 
         For information, see [Configure basic information for your system](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md). 
-    * The Workfront administrator must accept the AI Assistant agreement, and then turn on the AI Assistant for all other users.
+    * The Workfront administrator must accept the Gen AI agreement, and then turn on AI and the Planning Designer for your organization. 
 
         For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md). 
-* After your System Administrator turned on the AI Assistant for your organization, the Planning Designer is available for all users, by default, if it has been made available for your organization.
-* Actions performed by the Planning Designer can also be performed by the AI Assistant, when you use it in the Planning area.
+
+-->
+
+* Your Workfront Administrator must turn on the Planning Designer for your organization. After this, the Planning Designer is available for all users, by default.
+* If your organization has signed an AI agreement, the actions performed by the Planning Designer can also be performed by the AI Assistant, when you use it in the Planning area.
 * The actions performed by the AI Assistant in the Planning area or those performed by the Planning Designer are in the context of your Workfront Planning permissions and your Workfront access level. 
 
     For information, see the following articles: 
@@ -133,7 +223,7 @@ You can use either the Planning Designer or the AI Assistant to perform any of t
 
 * Create and configure workspaces 
 
-<!--On March 2: * Edit workspaces-->
+* Edit workspaces
 
 * Create record types, including defining and adding global record types to workspaces
 
@@ -174,7 +264,7 @@ You can create or update objects in Workfront Planning either by using the Plann
 
     The **Planning** area opens. <!--update screen shot when they change the name of the button-->
 
-    ![Design with AI button on the Workspaces page](assets/design-with-ai-button-on-workspaces-page.png)
+    ![Create with AI button on the Workspaces page](assets/design-with-ai-button-on-workspaces-page.png)
 
 1. Click **Create with AI** or click **Create workspace**, then use the prompt window at the top to indicate what kind of workspace you'd like to create. <!--update this when they change it to Generate with AI--> 
 
@@ -225,20 +315,6 @@ You can create or update objects in Workfront Planning either by using the Plann
 1. (Optional) To edit a workspace, do one of the following:
 
     * Open the workspace and manually make changes to it. For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
-    * Click **Edit with AI**. This opens the Planning Designer. Repeat the steps above to use AI and make further changes to the workspace.
+    * Open the workspace and click **Edit with AI**. This opens the Planning Designer. Repeat the steps above to use AI and make further changes to the workspace.
 
-## Turn off the Planing Designer for your organization
 
-After your Workfront administrator accepts the AI Assistant agreement, the Planning Designer is turned on for everyone in your organization, by default. 
-
-To turn it off: 
-
-1. Log in to Workfront as a System Administrator. 
-1. Click **Main Menu** ![Main menu icon](assets/main-menu-shell.png) in the upper-left corner of the screen, then click **Setup**.
-1. Click **System** >  in the left panel, then go to the **AI preferences** area.
-1. Turn off the **Planning Onboarding** setting. <!--add new screen shot with info icon and new name of the toggle; ensure you don't show the AI Reviewer if it is not in Prod yet-->
-
-    ![Planning Designer setting in System Preferences](assets/planning-designer-toggle-in-system-preferences.png) 
-1. Click **Save**.
-
-    This removes the Planning Designer for all users in the system.

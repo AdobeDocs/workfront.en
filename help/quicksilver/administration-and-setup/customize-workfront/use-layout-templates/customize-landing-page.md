@@ -8,8 +8,32 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
+TQID: https://experienceleague.adobe.com/mZG3AgBJta1RtzQAIrXv-3jfkxS67SY-l-jhgeLZFVM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Customize the landing page using a layout template
+
+{{preview-fast-release-general}}
 
 As an Adobe Workfront administrator, you can use a layout template to specify the area you want users to see each time they log in to Workfront.
 
@@ -84,6 +108,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    * Users
    * Blueprints
    * Planning
+   * <span class="preview">Custom Application</span>
+
+     >[!NOTE]
+     >
+     ><span class="preview">Custom applications that have already been added to the Main Menu are available to use as a landing page. They must be created separately before they become available as Main Menu or landing page options. For more information, see [Create a custom application for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).</span>
 
    >[!IMPORTANT]
    >

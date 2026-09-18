@@ -6,6 +6,13 @@ description: Review this article to become an Android beta tester for the [!DNL 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 84188dec-301b-40f6-a2a3-5e7befae1dc9
+TQID: https://experienceleague.adobe.com/arOfto6GhoowpA9jfSqDUMyT-sPqyKYYOAFltwDwBFY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Be an [!DNL Android] beta tester
 

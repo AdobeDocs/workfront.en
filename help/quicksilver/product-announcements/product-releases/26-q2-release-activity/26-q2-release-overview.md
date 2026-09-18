@@ -5,8 +5,32 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/m4amFCjnBO9g2tk87JujNSdAQ4g4TPzkL-OXgcye-2w
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Second Quarter 2026 release overview
 
@@ -59,6 +83,14 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <td><p>April 2, 2026</p></td>
         <td><p>April 15, 2026</p></td>
         <td><p>April 16, 2026</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Updated time zone names</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>We've updated the time zones available in Workfront to follow IANA standards. This ensures compatibility with other systems and accuracy over time.</p>
+        </td>
+        <td><p>March 27, 2026</p></td>
+        <td><p>March 27, 2026</p></td>
+        <td><p>March 27, 2026</p></td>
     </tr>
     <tr>
         <td>
@@ -137,7 +169,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
     </tr>
    <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">GenStudio Foundations Provisioning enabled to support AI Collaborators </a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">GenStudio Foundation Provisioning enabled to support AI Collaborators </a><p></p>
             <p>On March 31, 2026, all Workfront customers were provisioned for GenStudio Foundation, and Admin Console System Admins will have received an email informing them of this addition. This product is provisioned only so Workfront customers can give Brands access to Workfront customers as needed for the release of AI Collaborators. The product itself is only an access mechanism for Brands, and there is no additional functionality available in the GenStudio Foundation product.</p><p>Customers will not be charged for this new product.</p>
         </td>
         <td><p>March 31, 2026</p></td>

@@ -8,8 +8,15 @@ author: Becky and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/yBJa1km1L7-DnwPLDLUZgN-zqUeWgRO6Fg04sghMUWo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Work On It and Done button overview
 
@@ -19,7 +26,7 @@ Using the contextual button to accept or complete work items, you can let Adobe 
 
 The Work On It and Done buttons are visible to users who have:
 
-* A Standard license (new), or a Plan or Work license (current)
+* A Standard license, or a Plan or Work license
 * Limited edit access or higher on the task or issue
 
 >[!NOTE]

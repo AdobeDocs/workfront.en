@@ -8,6 +8,13 @@ description: This article explains the basic workflow between a designer or proj
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fcbbd2d2-dc27-4456-901f-5b1a15d023f8
+TQID: https://experienceleague.adobe.com/G2va4OSUSSOv3GJNY6AyZxEBz8SH-nb7rlKSkbHup-I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Basic Proofing Process in [!DNL Workfront Proof]
 
@@ -30,5 +37,6 @@ This example explains the basic workflow between a designer or project manager a
 * **Email alert**: The designer or project manager receives an email with a summary of the client's review, depending on the email alerts they have set. For information, see [Configure email notification settings in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
 * **New version** (if required): The designer or project manager amends the file and uploads it to [!DNL Workfront Proof] as a new version. 
+
 
 

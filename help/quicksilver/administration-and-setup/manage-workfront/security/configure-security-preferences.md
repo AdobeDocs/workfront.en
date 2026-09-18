@@ -8,10 +8,38 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/46D3BBajFk39FP-dMDk0SuSSGM5nYPKas11Bs159R9Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure system preferences
+
+{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -97,7 +125,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
         <li>Document request<br></li>
         <li>Document approval</li>
         <li>Calendar</li>
-       </ul><p>This option is enabled by default.</p> <p><b>Important</b>: The External User access level is unavailable in your Workfront instance if this option is disabled. For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Built-in access levels</a>.</p> </td> 
+       </ul><p>This option is enabled by default.</p> <p><b>IMPORTANT</b>: The External User access level is unavailable in your Workfront instance if this option is disabled. For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Built-in access levels</a>.</p> </td> 
      </tr> 
      <!--
      <tr> 
@@ -117,25 +145,62 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td role="rowheader">Custom Help URL</td> 
       <td>Lets you define an internal custom help site for the Main Menu help icon to go to. For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">Configure a custom help URL</a>.</p></td> 
      </tr>
+    <tr> 
+      <td role="rowheader">Disable auto-upgrade within Access Levels</td> 
+      <td>You can disable the auto-upgrade process for Contributor access levels. When this setting is checked, Contributor-license users who have exceeded their approval decision limit must be manually upgraded to a new license by the administrator.</p></td> 
+     </tr>
      <tr> 
       <td role="rowheader">Enable the Priorities worklist </td> 
       <td>Lets you choose to enable or disable the Priorities worklist experience for your users. Users will still see the Priorities icons in Workfront, but they will not have access to the functionality. For more information about Priorities, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Get started with Priorities</a>.</td> 
      </tr>
-      <tr> 
-      <td role="rowheader">Enable Adobe Enterprise Storage </td> 
-      <td>Lets you choose to enable or disable Adobe Enterprise Storage for your entire organization or for specific groups. For more information about Adobe Enterprise Storage, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Enable Adobe enterprise storage for your organization</a>.</td> 
+     <tr>
+      <td>Always enforce required fields in bulk edit</td>
+      <td><p>Lets you choose whether to force users to enter information in required fields when bulk editing objects.</p> <p>When this option is selected, required fields must have values before saving in bulk edit mode. If the required field is missing a value for at least one bulk selected object, saving is not permitted.</p> <p>When this option is not selected, required fields are only enforced when a user modifies the field. If a field is not modified, it is treated as optional and not validated.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Access Level for Users Created in Admin Console</span></td>
+      <td><span class="preview">Lets you choose a default access level to automatically assign to users who are created in Workfront through the Adobe Admin Console. If you don't set a default, these users continue to receive a Contributor or Requester access level. System Administrator and External User access levels aren't available as a default, and this setting isn't available for organizations that have Workfront Planning as a standalone product.<p><b>NOTE</b>: You can't delete an access level while it's set as this default. To delete the default access level, select a different default access level first.</p></span></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Storage Preferences </td> 
+      <td>In this section you can enable the Adobe cloud preferences. Lets you choose to enable or disable Adobe cloud storage for your entire organization or for specific groups. 
+      <p>Update the following information:</p>
+      <ul><li><b>Default</b>: Choose Legacy Workfront storage or Adobe cloud storage</li>
+      <li><b>Allow users to select storage provider</b>: This allows users to choose between the two storage types when creating Workfront objects.</li>
+      <li><b>Applies to</b>: Choose whether the default settings apply to the entire organization or to specific groups</li>
+      <li><b>Select portfolios to convert to Adobe cloud storage</b>: Select portfolios that you would like to convert automatically from Workfront legacy storage to Adobe cloud storage. The portfolios are converted when you save the System Preferences.</li></ul>     
+    For more information about Adobe cloud storage, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Enable Adobe cloud storage for your organization</a>.</td></tr>
+    <tr> 
+      <td role="rowheader">Select portfolios to convert to Adobe cloud storage </td> 
+      <td>Lets you convert existing legacy Workfront storage portfolios to Adobe cloud storage. For more information, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md">Convert legacy portfolios to Adobe cloud storage</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Enable AI </td> 
-      <td>Lets you choose to enable AI, including AI Assistant. <p><b>Note</b>: Your organization must meet specific requirements to enable AI. For more information about AI, including the requirements, see <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI Assistant overview</a>.</p></td> 
+      <td>By turning on the settings in the AI preferences area, you can enable AI, including AI Assistant. <p><b>NOTE</b>: Your organization must meet specific requirements to enable AI. For more information about AI, including the requirements, see <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI Assistant overview</a>.</p></td> 
+     </tr>
+    <tr> 
+      <td role="rowheader">AI Form Fill </td> 
+      <td>Allow people to use Form Fill with AI to automatically fill a request form. For more information, see <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md">Use Form Fill powered by AI to fill in a request using prompts or documents</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Form Auto-complete </td> 
+      <td role="rowheader">Intelligent Auto-complete in Request forms </td> 
       <td>Lets you choose to enable the ability to auto-complete request forms based on previous request data. For more information about Form Auto-Complete, see <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Auto-fill a request from previous data</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Opt in to AI Betas </td> 
-      <td>>Lets you choose to enable AI features that are currently in Beta. If you enable this option, you can then select which AI Beta features to enable. For more information about each AI Beta feature, click the information icon next to that feature.</td> 
+      <td>Lets you choose to enable AI features that are currently in Beta. If you enable this option, you can then select which AI Beta features to enable. For more information about each AI Beta feature, click the information icon next to that feature
+    <tr> 
+      <td role="rowheader">Planning Designer</td> 
+      <td>This is available only to customers who have purchased a Workfront Planning package. Turning on this setting allows your users to create and edit workspaces using the Planning Designer. For information, see <a href="/help/quicksilver/planning/general/planning-ai-designer.md">Get started with the Adobe Workfront Planning Designer</a>.</td> 
+     </tr>.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><span class="preview">Read-only MCP tools</span></td> 
+      <td><span class="preview">Lets the Workfront MCP server perform read actions on Workfront data, such as finding or listing projects, tasks, or other items. This option is enabled by default.<p>For more information about the Workfront MCP server, see <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configure the Adobe Workfront MCP server</a>.</p></span></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><span class="preview">Write MCP tools</span></td> 
+      <td><span class="preview">Lets the Workfront MCP server perform create, update, and delete actions on Workfront data. This option is disabled by default.<p>For more information about the Workfront MCP server, see <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configure the Adobe Workfront MCP server</a>.</p></span></td> 
      </tr>
      <tr> 
       <td role="rowheader">Test Environments</td> 

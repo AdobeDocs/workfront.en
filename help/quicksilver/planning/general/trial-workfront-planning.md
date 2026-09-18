@@ -5,26 +5,39 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/B2qrBL5KaVw9ihUW2qxDoK0WWpV0S-iFwhkwz30E06Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 # Get started with the Adobe Workfront Planning free trial
-
-<!-- are we still calling the tab "Best practice workspaces"? If not, reword below-->
 
 <!--add screen shots-->
 <!--check the names of areas, buttons, and links: Learn more, Open Planning, Review trial agreement, etc-->
 
-<!--
-and remove the IMPORTANT below - it conflicts with this one: 
 >[!IMPORTANT]
 >
->The Adobe Workfront Planning trial period concludes on May 15, 2026. This article will remain active for a period of time but will be retired soon. We recommend that you update your bookmarks for the future.
--->
+>The Adobe Workfront Planning trial period concludes on May 15, 2026. This article will remain active for a period of time, but it will be retired soon. We recommend that you update your bookmarks for the future.
+
+The information in this article describes the functionality that was available during the Workfront Planning trial period. 
 
 Adobe Workfront Planning provides centralized visibility into your marketing lifecycle, enabling better collaboration across teams, real-time tracking of campaigns, and automated workflows. You can create custom workspaces and visualize work with interactive timelines and calendars.
 
+<!--
 >[!IMPORTANT]
 >
 >* Adobe Workfront is offering a 60-day free trial of Adobe Workfront Planning to all Adobe Workfront customers who are not also Workfront Planning customers. 
@@ -35,6 +48,7 @@ Adobe Workfront Planning provides centralized visibility into your marketing lif
 >
 >* Note that the trial is available for 60 days from its launch, and not for 60 days from when you joined it.
 >
+-->
 
 With this trial, you will see firsthand how Planning helps align daily work with strategic objectives, streamlines execution, and drives measurable results for your organization. 
 

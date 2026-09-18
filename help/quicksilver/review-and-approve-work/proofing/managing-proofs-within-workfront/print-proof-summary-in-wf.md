@@ -6,6 +6,19 @@ description: You can print a proof summary, save it as a PDF, or export it as an
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
+TQID: https://experienceleague.adobe.com/T9kZNcZIRr9-plzZqQip2SQhe3KLj0cojG4F1mAK-CE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Print a proof summary within Adobe Workfront
 

@@ -5,10 +5,33 @@ navigation-topic: convert-issues
 title: Overview of Resolving and Resolvable Objects
 description: A Resolvable Object is an issue whose resolution is tied to a Resolving Object. A Resolving Object is a project, task, or another issue.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/hJjssjxhgj3-0qndsIKMN5ygISRlv2GlE1HRKW68kdQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Overview of Resolving and Resolvable Objects
 
@@ -169,11 +192,15 @@ When you change the status of the task or project to a custom status, the issue 
 
 * The custom status of the project or task has the same three-letter code as the issue custom status.
 
-You can create custom statuses with the same key for both issues and projects or tasks. When the project or task (as a Resolving Object) are changed to the custom status, the change also reflects on the issue status. The status key must be the same for the issue and project or task statuses.
+Consider the following: 
 
-For example, imagine you create a project custom status named Launched with the three-letter code LCD, which equates with Current. Next, you create an issue custom status named Project Launched, also with the letter code LCD, which equates with In Progress. When you mark the project as Launched, the issue will automatically change the status to Project Launched. If the Automatically update Resolvable Issue status when the status of the Resolving Object changes setting was not enabled, the issue status would change to In Progress instead.
+* You can create custom statuses with the same key for both issues and projects or tasks. When the project or task (as a Resolving Object) are changed to the custom status, the change also reflects on the issue status. The status key must be the same for the issue and project or task statuses.
 
-For more information about creating a custom status, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+  For example, you can create a project custom status named Launched with the three-letter code LCD, which equates with Current. Next, you create an issue custom status named Project Launched, also with the letter code LCD, which equates with In Progress. When you mark the project as Launched, the issue will automatically change the status to Project Launched. If the Automatically update Resolvable Issue status when the status of the Resolving Object changes setting was not enabled, the issue status would change to In Progress instead.
+
+* When a Resolving Object is set to a system status that maps to a Complete status, the Resolvable Issue is set to its own group's default status for that state. The three-letter status key match applies only to the custom-status path, and not to system statuses configured by Workfront.
+
+  For more information about creating a custom status, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 ## Synchronize the percent complete of a Resolving Object with that of the Resolvable Object
 

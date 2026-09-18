@@ -6,8 +6,23 @@ description: With Canvas Dashboards, you can create and add reports to a customi
 author: Courtney
 feature: Reports and Dashboards
 exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/-s26q39f6l5lix-8JuSaHvvdpqeqpw3ve5Gn2ZNnHfM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create a Canvas Dashboard
 
@@ -72,9 +87,7 @@ Canvas Dashboards offer a wide variety of options and configurations that you ca
 
 1. Click **New Dashboard** in the top-right corner.  
 
-1. In the **Create dashboard** box, 
-
-1. Specify the following: 
+1. In the **Create dashboard** box, specify the following: 
 
    <table style="table-layout:auto">
     <col>
@@ -90,13 +103,14 @@ Canvas Dashboards offer a wide variety of options and configurations that you ca
      </tr>
       <tr>
       <td role="rowheader"><strong>Currency</strong></td>
-      <td>Choose the default currency type for the dashboard. <br>
-      <br>Users can toggle between different currency types when filtering the dashboard. For more information, see <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filter a dashboard by currency type</a>.</td>
+      <td><p>Choose the default currency type for the dashboard.</p>
+      <p>You can toggle between different currency types when filtering the dashboard. For more information, see <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filter a dashboard by currency type</a>.</p>
+      <p><strong>Note:</strong> If you only have one currency defined in your Workfront instance, you will not see the Currency field when creating a dashboard.</p></td>
      </tr>
     </tbody>
    </table> 
 
-1. Click **Create**. The **Add report box** opens. From here, you can create a new report or add an existing report to the dashboard. 
+1. Click **Create**. The **Add report box** opens. From here, you can create a new report or add an existing report to the dashboard.
 
 ## Add a report to a dashboard 
 

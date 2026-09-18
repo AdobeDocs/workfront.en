@@ -7,8 +7,28 @@ description: The Workload Balancer is available for multiple projects in the Res
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/MePbnMO9YHsyUXI3D0K2dMDeAAv3Rae-QKlXaS26aMk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Locate the Workload Balancer
 
@@ -80,7 +100,7 @@ The following sections illustrate where you can access the Workload Balancer wit
 
 1. Click **Workload Balancer** in the left panel.
   
-    ![Workload Balancer](assets/nwe-balancer-global.png)
+    ![Workload Balancer](assets/wb-in-res-mgmt.png)
 
     The Workload Balancer displays the following by information in the Resourcing area, by default:
 
@@ -99,7 +119,7 @@ For more information on teams in Workfront, see [Teams overview](/help/quicksilv
   
 1. Click **Workload Balancer** in the left panel.
 
-   ![Workload Balancer for team](assets/nwe-balancer-team-350x172.png)
+   ![Workload Balancer of a team](assets/wb-on-team.png)
 
    The Workload Balancer of a team displays the following information, by default:
 
@@ -119,7 +139,7 @@ For more information on teams in Workfront, see [Teams overview](/help/quicksilv
 
    The Workload Balancer for the project displays.
 
-   ![Workload Balancer for Project](assets/nwe-balancer-project-350x152.png)
+   ![Workload Balancer of a project](assets/wb-on-project.png)
 
    The Workload Balancer of a project displays the following by information, by default:
 
@@ -142,7 +162,7 @@ All of the display settings are available for the Workload Balancer for a user. 
 
    The Workload Balancer for the user displays.
 
-   ![Workload Balancer for a user](assets/workload-balancer-user.png)
+   ![Workload Balancer of a user](assets/workload-balancer-user.png)
 
    The Workload Balancer of a user displays the following by information, by default:
 

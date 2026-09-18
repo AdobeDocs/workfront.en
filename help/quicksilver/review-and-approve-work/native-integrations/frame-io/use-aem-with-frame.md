@@ -1,16 +1,40 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Use the Adobe Experience Manager with the Frame.io integration
-description: Use the Adobe Experience Manager with the Frame.io integration
+title: Use Adobe Experience Manager with Workfront and Adobe cloud storage
+description: Use Adobe Experience Manager with Workfront and Adobe cloud storage
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 04d0f295-5206-4c5d-8003-bdf333150903
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/Riv4jrZbD1vLx6eLq9utk2TIMRJh6ekBxE5ZBVc7D9c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-# Use the Adobe Experience Manager with the Frame.io integration 
+# Use Adobe Experience Manager with Workfront and Adobe cloud storage
 
 You can use the [!DNL Experience Manager Assets]​​ to manage and store your digital assets that have gone through the review and approval cycle. This integration allows you to leverage the capabilities of Adobe Experience Manager, Frame.io, and Workfront to streamline your content management and collaboration processes.
 
@@ -82,7 +106,7 @@ For more detail about the information in this table, see [Access requirements in
 Before you begin,
 
 * You must have [!DNL Workfront] and [!DNL Adobe Experience Manager Assets] associated with an Organization ID in the [!DNL Adobe Admin Console]. For more information see, [Platform-based administration differences ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
-* Your Workfront instance must be using Adobe enterprise storage. 
+* Your Workfront instance must be using Adobe cloud storage. 
 
 
 ## Set up the integration information
@@ -247,6 +271,109 @@ To send a document:
 
 1. Choose where you want the asset to go, then click **Select Folder**.
 
+## Link content from Experience Manager Assets
+
+To link content:
+
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Click **New** on the right side of the page, then click **AEM files** to link an individual asset.
+   ![Add AEM files to the documents area](assets/aem-files.png)
+
+1. With Content Advisor, you can:
+
+   <table style="table-layout:auto">
+   <tbody>
+      <tr>
+         <td><strong>Search for assets using AI Search.</strong> Use AI-powered search that understands meaning and intent behind queries, supporting multiple languages, typos, and synonyms.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">AI Search for smarter asset discovery</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>View smart suggestions based on context and intent.</strong> Discover assets that align with your content needs using context-aware recommendations from the host Adobe application.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">Smart suggestions based on context and intent</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Upload a campaign brief to discover relevant assets.</strong> Upload a PDF, DOCX, or TXT campaign brief document so Content Advisor can analyze it and recommend relevant assets.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">Campaign briefs to discover relevant assets</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>View and select Dynamic Media asset renditions.</strong> Browse channel-optimized renditions including image presets, Smart Crops, and format types, and apply Dynamic Media modifiers to preview adjustments in real time.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Dynamic Media asset renditions available for use</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Apply Dynamic Media modifiers to renditions.</strong> Add modifiers to transform asset renditions in real time and preview the results before selecting a rendition for your host application.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Dynamic Media asset renditions available for use</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Discover and browse Content Fragments.</strong> Search through Content Fragments, view live thumbnail previews, check status (Draft, Modified, or Published), and inspect detailed properties, references, and variations.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Access asset metadata.</strong> Review asset properties such as title, description, format, size, and other metadata tabs (Product, Campaign, Tags) consistent with the Assets view.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Access asset metadata consistent with Assets view</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Filter assets using predefined filters.</strong> Refine asset results using filters such as File Type, File Format, Asset Status, File Size, Image Width, Image Height, Modified Date, and Created Date.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">Access filters consistent with Assets view</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Save and reuse searches.</strong> Create saved searches by specifying a search term and filter options, then reuse them across Experience Manager Assets and other Adobe applications.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">Access and reuse recent and saved searches</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Search for assets across and within collections.</strong> Search for assets or collections across all collections, or limit your search to a specific collection.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">Search for assets across and within collections</a>.</td>
+      </tr>
+   </tbody>
+   </table>
+
+   >[!NOTE]
+   >
+   >Recommended Content in Content Advisor uses data from the following to determine suggested content in Workfront:
+   >
+   >* Workfront object name and description fields
+   >* Custom form fields marked as required
+   >* Data from attached documents
+
+<!--
+### Link a new version from Experience Manager Assets
+
+You can pull new content over from Experience Manager Assets and add it to an existing asset as a new version. If the document is already linked and a new version is added in Experience Manager Assets, the new version appears automatically in Workfront.
+
+To link a new version:
+
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Select the asset you want to replace with a new version. You can't create a new version of an asset in a linked folder.
+1. Select **Add New** > **Version**, then select the Experience Manager integration your administrator set up.
+
+   >[!NOTE]
+   >
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Experience Manager Assets.
+
+1. Select the content you want to link.
+1. Click **Select**.
+-->
+
+<!--
+## Link a folder from Experience Manager Assets
+
+Permissions to view individual assets inside of a folder rely on Experience Manager Assets permissions.
+
+To link a folder:
+
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Click **Assets** > **Files & Folders**.
+1. Click the **Filter** icon, then in the **Asset Type** section, choose **Folders**.
+1. Select the folder you want to link.
+1. Click **Select**.
+-->
+
+## Considerations
+
+* Review and approval workflows are not supported for linked AEM assets.
+* Metadata fields are first mapped when you send an asset from Workfront to Experience Manager Assets. If your Workfront administrator has enabled object metadata sync, fields remain up to date if they are changed in either application.
 
 <!--
  not sure if this is in yet

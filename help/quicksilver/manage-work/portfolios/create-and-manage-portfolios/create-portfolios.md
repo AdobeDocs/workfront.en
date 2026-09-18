@@ -6,8 +6,28 @@ description: A Portfolio is a collection of projects competing for the same reso
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/p47W1Seb-Ew-p-ogdb-ebjLAuxvY-0rdRHLMQtWCH30
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create a portfolio
 
@@ -113,12 +133,12 @@ You can create a portfolios in Workfront using one of the following methods:
 
 1. (Conditional) Depending on which document storage your organization is using, click one of the following:
 
-    * **New portfolio**, when the Workfront administrator chooses either **Adobe Enterprise**, or **Legacy Workfront**, and they did or did not select the **Allow user to select storage provider** setting. 
-    * **New portfolio (Legacy storage)**, when the Workfront administrator chooses either **Adobe Enterprise**, or **Legacy Workfront**, and they also selected the **Allow user to select storage provider** setting. 
+    * **New portfolio**, when the Workfront administrator chooses either **Adobe cloud storage**, or **Legacy Workfront**, and they did or did not select the **Allow user to select storage provider** setting. 
+    * **New portfolio (Legacy storage)**, when the Workfront administrator chooses either **Adobe cloud storage**, or **Legacy Workfront**, and they also selected the **Allow user to select storage provider** setting. 
 
       This option displays only when the **Allow user to select storage provider** setting is selected in the Setup area.
 
-      For more information, see [Enable Adobe enterprise storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md). 
+      For more information, see [Enable Adobe cloud storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md). 
 
       >[!NOTE]
       >
@@ -126,17 +146,19 @@ You can create a portfolios in Workfront using one of the following methods:
 
       A portfolio is created and its default name follows the following patterns, depending on which storage Workfront uses for documents: 
 
-      * `Untitled Portfolio` for a Workfront-storage portfolio.
+      * `Untitled Portfolio` for a legacy Workfront storage portfolio.
 
-        A Workfront-storage portfolio displays a **Legacy Workfront storage** icon ![Legacy-storage portfolio icon](assets/legacy-storage-project-icon.png) next to its name. 
+        A legacy Workfront storage portfolio displays a **Legacy Workfront storage** icon ![Legacy-storage portfolio icon](assets/legacy-storage-project-icon.png) next to its name. 
 
-      * `Untitled Portfolio - < Month day, year hour.minute.second >` for an Adobe-storage portfolio
+      * `Untitled Portfolio - < Month day, year hour.minute.second >` for an Adobe cloud storage portfolio
 
         >[!IMPORTANT]
         >
-        >Portfolios using Adobe enterprise storage must have unique names.  
+        >Portfolios using Adobe cloud storage must have unique names.  
 
-      For Adobe-storage portfolios, a new document folder by the same name as the portfolio is automatically created in he Documents area.
+      For Adobe cloud storage portfolios, a new document folder by the same name as the portfolio is automatically created in he Documents area.
+
+      For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. Replace the name of the portfolio with a new name in the portfolio header.
 

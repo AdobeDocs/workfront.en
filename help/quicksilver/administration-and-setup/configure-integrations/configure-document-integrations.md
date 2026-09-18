@@ -8,8 +8,30 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
+TQID: https://experienceleague.adobe.com/RUHFPYpCgZq0qAMGB8-Na2olK7uHVtViIcygLUiTkSo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
+    internal-label: Adobe Workfront for Outlook
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure document integrations
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -186,6 +208,8 @@ After the custom document integration is built, you can make it available to use
 1. (Conditional) If you selected **[!UICONTROL ApiKey]** authentication for the **[!UICONTROL Authentication Type]**, enter the API key that was issued by the custom document provider.
 
    [!DNL Workfront] uses this API key to make authorized API calls to the document provider.
+
+1. (Optional) <span class="preview">To enable large file support, select **[!UICONTROL Enable chunked upload for large files]** in the **[!UICONTROL Large File Support]** section, then enter the maximum chunk size, in MB, in the **[!UICONTROL Chunked Upload Threshold (MB)]** field. This field accepts values up to 100 MB. When enabled, files over 25 MB are uploaded in chunks of this size instead of in a single request.</span>
 
 1. Click **[!UICONTROL Save]** to create the integration.
 

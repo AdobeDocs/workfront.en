@@ -6,10 +6,27 @@ description: You can manage multiple versions of a document in Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
+TQID: https://experienceleague.adobe.com/rCnj3Gx1SB3-UziuppQfifv2hJ6q3OjepNO9FcEEHEk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Manage document versions
 
 <!-- Audited: 5/2025 -->
+
+{{highlighted-preview}}
 
 You can manage multiple versions of a document in Workfront.
 
@@ -24,7 +41,7 @@ You can manage multiple versions of a document in Workfront.
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any Workfront package to manage documents using legacy Workfront storage</p>
-<p>Any Workflow package to manage documents using Adobe enterprise storage</p></td> 
+<p>Any Workflow package to manage documents using Adobe cloud storage</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses</td> 
@@ -54,7 +71,9 @@ For more detail about the information in this table, see [Access requirements in
 
   If you need information about uploading new versions of a document to Workfront, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md).
 
-## View a list of all versions of a document
+## Manage document versions in the legacy documents area
+
+### View a list of all versions of a document
 
 {{step1-to-documents}}
 
@@ -64,7 +83,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Scroll down to the **Versions** section to view all the document versions.
 
-## View and manage details for a previous document version
+### View and manage details for a previous document version
 
 {{step1-to-documents}}
 
@@ -76,7 +95,7 @@ For more detail about the information in this table, see [Access requirements in
 
    Along with viewing the version's details, you can make changes to the version, such as its name, metadata, and proofing settings (if it's a document proof).
 
-## Download a single document version
+### Download a single document version
 
 {{step1-to-documents}}
 
@@ -88,7 +107,7 @@ For more detail about the information in this table, see [Access requirements in
 
    ![Download a single document](assets/more-versions-350x143.png)
 
-## Download all versions of a document
+### Download all versions of a document
 
 {{step1-to-documents}}
 
@@ -98,7 +117,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Scroll down to the **Versions** section and then click **Download All**.
 
-## Delete a document version
+### Delete a document version
 
 If you upload a version of a document by mistake, or a version is no longer needed, you can delete the version and maintain the original document.
 
@@ -133,3 +152,82 @@ To delete a document version:
    >* If the document is linked to an outside source, that link is deleted and the document is no longer accessible through Workfront.
 
    ![Delete the document version](assets/more-versions-350x143.png)
+
+<div class="preview">
+
+## Manage document versions in the new Documents area in Preview
+
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Workfront numbers each version in the order you upload it (for example, V1, V2, V3) to match the version numbers in Frame.io.
+
+### View a list of all versions of a document
+
+{{step1-to-documents}}
+
+1. On the **Documents** page, select a document in the list.
+
+1. Click the **Versions** icon ![Versions icon](assets/versions-icon.png) on the right side of the page. The Versions panel opens and lists every version of the document under Version history.
+
+   >[!NOTE]
+   >
+   >If a version has an approval workflow, its status, such as "Approved" or "Withdrawn", appears next to it. Versions without an approval workflow don't display a status.
+
+### Request approval on a version
+
+{{step1-to-documents}}
+
+1. On the **Documents** page, select a document in the list.
+1. Click the **Versions** icon ![Versions icon](assets/versions-icon.png) on the right side of the page.
+1. Click the **More** menu next to the version, then click **Request Approval**.
+1. Configure the approval workflow. For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+   >[!NOTE]
+   >
+   >If a previous version already has an open approval workflow, requesting approval on this version withdraws it. The previous version keeps its version number and its approval history, but its status changes to "Withdrawn".
+
+### View and manage details for a previous document version
+
+{{step1-to-documents}}
+
+1. On the **Documents** page, select a document in the list.
+1. Click the **Versions** icon ![Versions icon](assets/versions-icon.png) on the right side of the page.
+1. Click the **More** menu next to the version, then click **View Details**.
+
+### Download a single document version
+
+{{step1-to-documents}}
+
+1. On the **Documents** page, select a document in the list.
+
+1. Click the **Versions** icon ![Versions icon](assets/versions-icon.png) on the right side of the page.
+
+1. Click the **More** menu next to the version, then click **Download**.
+
+### Download all versions of a document
+
+{{step1-to-documents}}
+
+1. On the **Documents** page, select a document in the list.
+
+1. Click the **Versions** icon ![Versions icon](assets/versions-icon.png) on the right side of the page.
+
+1. Click **Download all** at the top of the Versions panel.
+
+    ![download all versions of a document](assets/download-all-versions.png)
+
+### Delete a document version
+
+{{step1-to-documents}}
+
+1. On the **Documents** page, select a document in the list.
+
+1. Click the **Versions** icon ![Versions icon](assets/versions-icon.png) on the right side of the page.
+
+1. Click the **More** menu next to the version, then click **Delete**.
+
+   >[!NOTE]
+   >
+   >Deleting a version doesn't change the numbers of the other versions. For example, if you delete V3 from a document with versions V1 through V5, the remaining versions keep their original numbers, and there is no V3 afterward. The next version you upload becomes V6.
+
+</div>

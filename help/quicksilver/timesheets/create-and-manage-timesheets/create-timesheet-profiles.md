@@ -6,8 +6,26 @@ description: You can create, edit, and assign timesheet profiles that generate r
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+TQID: https://experienceleague.adobe.com/yxgLrUYYpVo-DhroRvE3zUP4zLYdDDg-1Ni3yXj06Ms
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create, edit, and assign timesheet profiles
 
@@ -52,27 +70,18 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Create or edit a timesheet profile
 
-<!--
-Old info: 
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p style="color: #ff1493;">Alina drafted an Important note under this heading because Tracy/WorkEx said this is not working as designed - the changes WILL take effect the minute to make them for existing timesheets - see this issue - https://hub.workfront.com/issue/5dba59f600c401cca536567c368aa299/overview</p>
-<p style="color: #ff1493;">Important: The changes you make to an existing timesheet profile are not automatically applied to timesheets that have already been generated. The changes you make to a timesheet prile are applied only to the timesheets that are&nbsp;generated after the timesheet profiles changes are made. To&nbsp;apply your&nbsp;changes to the timesheet profile for the timesheets that are already generated, you must delete the existing timesheets and manually generate&nbsp;them.For more information about deleting and manually generating timesheets, see&nbsp;Delete and manually generating Timesheets.</p>
-</div>
--->
-
 >[!IMPORTANT]
 >
 >To enable timesheet profile changes in current timesheets, you have to delete the existing timesheets before making the changes to the timesheet profiles, and then generate new timesheets. For instructions, see [Delete timesheets in Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) and [Manually generate timesheets](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
 {{step-1-to-setup}}
 
-1. If you create or edit a timesheet profile for use throughout the system, click **Timesheet & Hours**.
+1. To create or edit a timesheet profile for use throughout the system, click **Timesheet & Hours > Timesheet Profiles**.
 
    Or
 
-   If you create or edit a timesheet profile for a group, click **Groups**, then click the group's name.
+   To create or edit a timesheet profile for a group, click **Groups**, click the group's name, then click **Timesheet Profiles** in the left panel.
 
-1. Click **Timesheet Profiles**.
 1. To create a timesheet profile, click **New Profile**.
 
    Or
@@ -163,7 +172,7 @@ Old info:
 
 1. At the top of the timesheet profile list, click the **More** icon ![More icon](assets/more-icon.png), then click **Generate timesheets**.
 
-   A confirmation displays at the bottom of the screen that timesheets have been successfully generated. New timesheets are generated based on the new profiles you created. 
+   A confirmation displays at the bottom of the screen that timesheets have been successfully generated. New timesheets are generated based on the new profiles you created.
 
    For more information, see [Manually generate timesheets](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md). 
 

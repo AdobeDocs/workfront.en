@@ -6,6 +6,19 @@ description: You can download files from an existing proof. Comments and other i
 author: Courtney
 feature: Digital Content and Documents
 exl-id: dae3e083-3ad4-4a59-9e04-b017d078a89b
+TQID: https://experienceleague.adobe.com/F-dmG4OLmu1-22fjkkF0HYSeEmOfzD2Jrb4aUA-KFHg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Downloading a Proof in the proofing viewer
 
@@ -55,3 +68,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    ![Proofing_Viewer_toolbar_button_-_Download.png](assets/proofing-viewer-toolbar-button---download.png)
 
 1. Browse to the location on your file system where you want to download the proof, then click **Save**.
+
+   >[!NOTE]
+   >
+   >When a proof contains multiple files, Workfront generates a .zip file. If two or more files in the proof share the same filename, the .zip includes only one copy of that file. As a result, the number of files in the .zip can be lower than the number of files shown in the proofing viewer. For example, a proof with 5 files where 2 are named `document.pdf` produces a .zip that contains 4 files.
