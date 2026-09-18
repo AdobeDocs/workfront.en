@@ -83,9 +83,15 @@ Or
 * Access to a field comes from combining the following settings:
 
     * **Inherited permissions**: By default, a field inherits the same access someone has on the record type. You can turn off Inherited permissions and give users a lower access to the field than they have for the record type. 
-    * The **Everyone in the workspace can view** or **Only invited people can access** selection. You can either allow everyone with permissions to the workspace to view the field or give permissions only to individual entities. 
+    * The **Everyone with access to the record type can view** or **Only invited people can access** selection. You can either allow everyone with permissions to the workspace to view the field or give permissions only to individual entities. 
 
     If multiple rules apply to the same person, they receive the highest permission available to them from one of the rules.
+   
+* To make a field view-only for everyone in a workspace, ensure the following setup exists: 
+
+   * Turn off inherited permissions
+   * Keep the **Everyone with access to the record type can view** setting
+   * Do not add any individual entities. 
 
 * Depending on the record type permissions, users can receive the following field permissions:
 
@@ -154,7 +160,7 @@ As a workspace manager, you can adjust permissions to individual fields.
 
    The **Share** box opens.
 
-1. (Optional) In the **Grant access** area, the **Everyone in the workspace can view** option is selected by default. All users that have **View** or higher permissions to the workspace and record type have the same permissions to the field.
+1. (Optional) In the **Grant access** area, the **Everyone with access to the record type can view** option is selected by default. All users that have **View** or higher permissions to the workspace and record type have the same permissions to the field.
 
 1. (Optional) Click the avatars of users under the **Inherited permissions from** option to view users, teams, groups, companies, or job roles that inherit permissions from the workspace. 
 
@@ -173,6 +179,13 @@ As a workspace manager, you can adjust permissions to individual fields.
       >[!TIP]
       >
       >Workspace managers continue to have Manage permissions to the record type and the field.
+
+   1. (Optional) Click the **Everyone with access to the record type can view** dropdown menu and select **Only invited people can access**. 
+
+      >[!IMPORTANT]
+      >
+      >This change together with turning off **Inherited permissions** removes the access for all the people who can view the record type and only give access to designated people. Workspace managers and administrators will always have access to all the fields. 
+
 
    1. In the **Grant access** box, add the users, teams, groups, companies, or job roles that you want to grant a different permission level to than they have for the workspace or the record type.
 
