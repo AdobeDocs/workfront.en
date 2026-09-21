@@ -420,7 +420,7 @@ Filters help you reduce the amount of information you display in the list.
 1. Click **Filter** above the list.
 1. In the Filter box, click **Add condition**.
 1. Select a field to filter by.
-1. Select a filter modifier, such as "Has any of," "Has none of," "Is before," or "Is after." The modifier options are different depending on the type of field you are filtering by.
+1. Select a filter modifier, such as "Is any of," "Is none of," "Is before," or "Is after." The modifier options are different depending on the type of field you are filtering by.
 1. Select the field value or values. Depending on the field type you are filtering by, you might be prompted to select the item from a list, search for it, or use a calendar to select a date range.
     
    ![Filter in enhanced lists](assets/glist-filter-with-options.png)
@@ -467,7 +467,7 @@ Workfront provides a limited number of predefined groupings and you cannot modif
    ![Select a grouping](assets/glist-grouping-choose-a-group-by.png)
 
 1. Click **Collapse all** to display the list with all the groupings collapsed. The default option is to display the list with all groupings expanded.
-1. When the grouping is applied, you can open the Group options again to collapse or expand all of the groupings at once, change the grouping to group by a different field, or clear all of the groupings.
+1. When the grouping is applied, you can open the Grouping options again to collapse or expand all of the groupings at once, change the grouping to group by a different field, or clear all of the groupings.
 
    ![Grouping in enhanced lists](assets/glist-group-by-due-date-priorities.png)
 
