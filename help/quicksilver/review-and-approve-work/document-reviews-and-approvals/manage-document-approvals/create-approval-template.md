@@ -74,6 +74,7 @@ To create an approval template:
 1. Click **New Template** on the right side of the page.
 
 1. Add a **Template name**. 
+
 <!--
 This field has a character limit of 255.
 -->
@@ -110,8 +111,9 @@ This field has a character limit of 255.
 
     ![add a stage](assets/add-stage.png)
 
-<!-- screen for preview
-    ![add a stage](assets/add-stage-v2.png)
+<!--
+screen for preview
+![add a stage](assets/add-stage-v2.png)
 -->
 
 
@@ -121,8 +123,9 @@ This field has a character limit of 255.
 
    ![add parallel paths](assets/add-path.png)
 
-<!-- screen for preview
-   ![add parallel paths](assets/add-path-v2.png)
+<!--
+screen for preview
+![add parallel paths](assets/add-path-v2.png)
 -->
 
 1. (Optional) To rename a path, hover the path label, click the pencil icon, then type a new name. To remove a path, hover the path label and click the trash icon. **Path 1** can't be removed, and other paths can be removed only if no stage within the path is locked or completed.

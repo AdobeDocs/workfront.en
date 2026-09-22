@@ -283,6 +283,10 @@ Example prompts:
 
 Insights tools retrieve information about Workfront objects.
 
+>[!NOTE]
+>
+>Insights data is near real-time, with an SLA of up to approximately 15 minutes. Changes made in Workfront may not appear immediately in Insights results.
+
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
 | Read documents | `insights_read_docs` | Load the Workfront playbook or domain documentation, such as conditions, status, dates, or field paths. This is the required first step before querying data. | Read |

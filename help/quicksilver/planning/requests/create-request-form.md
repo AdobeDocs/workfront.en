@@ -201,12 +201,12 @@ To create a request form, you must complete the following:
    * **Label**: This is the name of the field as it will appear on the request form. This does not change the name of the record field.
    * **Instructions**: Add more information about the field.
    * **Make a required field**: When selected, the field must have a value. Otherwise, the form cannot be submitted. 
-   * **Add logic**: Define what conditions must be met in order for the field to display or be hidden.
+   * **Add logic**: Define what conditions must be met in order for the field to display or be hidden. <!--<span class="preview">In addition to display and skip logic, validation logic is also available.</span> For information on field logic, see [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).-->
 
    >[!TIP]
    >
-   >   The field type of each field displays at the top of the right panel, after you select the field on the form. 
-   >     
+   >The field type of each field displays at the top of the right panel, after you select the field on the form.
+
 1. (Optional) Long-click a field and drag it and drop it in another position on the form.
 1. (Optional) Click the **Content elements** tab on the left side of the form, and add any of the following elements:
 
@@ -239,8 +239,9 @@ Consider the following when adding approval rules:
 * If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
 * If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
 * If a team is set as an approver, only one decision is required from the team.
+<!--<span class="preview">* Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
 
-For more information about adding approvals, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
+For more information about adding approvals, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 Completion options allow you to set whether a request is marked complete when the requested object is created, or when the created object is completed. You define when the object is complete based on a specified condition.
 
@@ -257,11 +258,13 @@ To configure form settings:
 
    ![Default approval rule area](assets/default-approvers.png)
 
+   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval. Add the approvers for each stage, and save the multi-stage approval.</span> FIX INDENT WHEN YOU UNCOMMENT THIS, SHOULD BE FLUSH LEFT-->
+
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
 1. (Optional) For each additional approval rule, do the following:
 
-   1. Click **Add approval rule**
+   1. Click **Add approval rule**.
    1. Click the placeholder title "Untitled approval rule" and enter a name for the approval rule.
    1. Click **Select a field** and select the field that activates the rule.
    1. Select the operator for the rule. Operators vary based on the type of field.
@@ -269,6 +272,8 @@ To configure form settings:
    1. (Optional) Add more conditions using AND or OR by clicking Add condition and configuring the additional condition.
    1. In the Actions area of the approval rule, in the **Approvers** field, add at lease one user or team to be set at the approver when the condition is met.
    1. (Conditional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox.
+
+   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
 
 1. (Optional) To reorder routing rules, click the drag handle on the left side of the rule and drag the rule to the desired location.
 
@@ -494,3 +499,23 @@ For information on creating automations in other areas of Workfront Planning, se
 </div>
 
 -->
+
+<!--
+
+ADD AT LINE 291, before "Continue to publish form."
+
+<div class="preview">
+
+1. Click **Permissions** on the left panel.
+1. Select the permission level for the users submitting requests through this form:
+
+   * **View**: All requesters can comment on and share the form.
+   * **Contribute**: All requesters can comment on, share, and edit the form.
+   * **Manage**: All requesters can comment on, share, edit, and delete the form.
+
+1. Click **Save**.
+
+</div>
+
+-->
+

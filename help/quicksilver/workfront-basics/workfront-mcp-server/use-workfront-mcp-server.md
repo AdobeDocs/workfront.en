@@ -133,6 +133,12 @@ To force the AI agentic platform to fetch fresh data, ask for it explicitly. For
 
 * *Get the latest data from Workfront. Don't use cached results.*
 
+### Insights data is near real-time, not instant
+
+The Insights tools that are used to find, filter, and report on Workfront data reflect changes on a near real-time basis, with a service level agreement (SLA) of up to approximately 15 minutes. If you make a change in Workfront and immediately ask about it, the response may not reflect that change.
+
+If you need to confirm a very recent change, wait a few minutes and ask again, or check directly in Workfront.
+
 ### Check for updates to the Workfront MCP server
 
 You might want to periodically refresh your connection to the Workfront MCP server to ensure that you have the latest tools and capabilities.
@@ -162,6 +168,7 @@ Workfront does not have control over how the AI agentic platform provider handle
 | Problem | Likely cause | Fix |
 | --- | --- | --- |
 | The AI agentic platform is giving you outdated information. | The AI agentic platform is reusing data from earlier in the conversation. | Ask for fresh data from Workfront. |
+| Data you just changed in Workfront doesn't show up yet. | Insights data is near real-time, with an SLA of up to about 15 minutes. | Wait a few minutes and ask again, or check directly in Workfront. |
 | The AI agentic platform returned data from the wrong Workfront items. | The AI agentic platform picked the wrong items based on ambiguous wording. | Ask again with more specific names, IDs, or filters. |
 | An update or delete didn't take effect in Workfront. | Your Workfront administrator has disabled write actions for the Workfront MCP server, or you don't have permission to perform the action on the specific item. | Confirm with the AI agentic platform that the action ran. Then check that write actions are enabled for the Workfront MCP server and that you have permission to change the item. |
 

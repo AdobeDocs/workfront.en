@@ -130,6 +130,8 @@ For more information, see [Create a Canvas dashboard](/help/quicksilver/reports-
 
     For more information on these sections, see [Build a table report](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
 
+    To edit filters or groupings, see [Filter a report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md) and [Group report data in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md).
+
 1. Click **Save** to update the report. 
 
 ## Edit an existing report

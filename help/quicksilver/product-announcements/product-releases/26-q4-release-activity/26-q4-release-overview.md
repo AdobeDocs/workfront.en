@@ -188,9 +188,9 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker now available in Workfront</a>
                 <p>CX Coworker is a new conversational interface for getting work done in Workfront and connected Adobe systems, replacing the current AI Assistant.</p>
             </td>
-            <td><p>September 3, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>Phased rollout beginning on September 3, 2026</p></td>
+            <td><p>Phased rollout beginning on September 17, 2026</p></td>
+            <td><p>Phased rollout beginning on October 15, 2026</p></td>
         </tr>
 
         <tr>
@@ -614,18 +614,24 @@ Live webinars are held for each quarterly release - these highlight the new feat
 * [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Adobe Workfront Planning Fourth Quarter 2026 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
 
+<!--
 ## Desktop proofing viewer updates
 
-### Version 2.1.59
+### Version 2.2.1
 
-Production release for all customers: September 9, 2026
+Production release for all customers: September 16, 2026
 
-The Desktop Proofing Viewer has been updated to version 2.1.59. This update includes the following changes:
+The Desktop Proofing Viewer has been updated to version 2.2.1. This update includes the following changes:
 
-* The Desktop Proofing Viewer is now available as a native build for Macs with Apple silicon.
-* Updated the underlying application framework (Electron) to a newer version, which brings performance and security improvements.
+* You can now open proofs from any environment (Production, Preview, Sandbox, and others) in the same viewer, without reinstalling when you switch.
+* Resolved an issue with opening proofs from a URL on non-US regions.
+* The viewer now keeps your 10 most recent proofs.
+* Updated the Workfront logo to the current branding.
+* Added more detail to the About Workfront Proof screen to speed up troubleshooting.
+* Updated the underlying framework (Electron) for performance and security improvements.
 
 For information on downloading and updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+-->
 
 ## Announcements
 
