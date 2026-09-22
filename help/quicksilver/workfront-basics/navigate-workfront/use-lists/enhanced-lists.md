@@ -77,11 +77,12 @@ Below are some types of Workfront object lists that use the enhanced list format
 | <span class="preview">Lists of actions and tracked fields in the Update Feeds</span> | <ul><li><span class="preview">Setup > Interface > Update Feeds > Tracked fields tab</span></li> <li><span class="preview">Setup > Interface > Update Feeds > Actions tab</span></li></ul> |
 | <span class="preview">List of scorecards</span> | <span class="preview">Setup > Scorecards</span> |
 | <span class="preview">List of risk types</span> | <span class="preview">Setup > Risk Types</span> |
-| <span class="preview">List of event notifications</span> | <span class="preview">Setup > Email > Notifications > Event Notifications, and Group Detail page > Event Notifications</span> |
+| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 | List of job roles and rates on a rate card | Setup > Rate Cards > select a rate card > Job Roles and Rates |
 | <span class="preview">List of locations</span> | <span class="preview">Setup > Locations</span> |
 | List of translations | Setup > Localization |
 | <span class="preview">Lists of integrations </span> | <ul><li><span class="preview">Setup > Documents > SharePoint Integration</span></li><li><span class="preview">Setup > Documents > Custom Integration</span></li><li><span class="preview">Setup > Documents > Experience Manager Assets</span></li></ul> |
+| <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
 | List of reports | Main Menu > Reports (**Use shareable folders** must be turned on) |
 | <span class="preview">Lists of queue topics, topic groups, and routing rules</span> | <ul><li><span class="preview">Project or Template > Queue Topics</span></li><li><span class="preview">Project or Template > Topic Groups</span></li><li><span class="preview">Project or Template > Routing Rules</span></li></ul> |
 | List of snapshots | Project > Snapshots |
