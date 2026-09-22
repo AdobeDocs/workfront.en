@@ -296,6 +296,17 @@ For information, see [Import fields from Workfront](/help/quicksilver/planning/f
     -->
 
 1. Continue with adding each field, as described in the sections below.
+1. (Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Edit field** to edit the field. 
+
+    For information, see [Edit fields](/help/quicksilver/planning/fields/edit-fields.md). 
+1. (Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Delete** to delete the field. 
+
+    For information, see [Delete fields](/help/quicksilver/planning/fields/delete-fields.md). 
+<!--
+1. <span class="preview">(Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Share field** to share the field. </span>
+
+    </span>For information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). </span>
+--> 
 
 ### Single-line text {#single-line-text}
 

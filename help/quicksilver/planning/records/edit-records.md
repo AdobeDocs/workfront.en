@@ -224,6 +224,8 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
     >![Global search box](assets/global-search-box.png)
     -->
 
+    <!--update the screen shot above-->
+
 1. Click inside the row of a record to start editing information about the record inline.
 
     ![Edit record paragraph field with formatting table view](assets/edit-record-paragraph-field-with-formatting-table-view.png)

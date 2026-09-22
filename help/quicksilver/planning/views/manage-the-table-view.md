@@ -190,12 +190,10 @@ The following display in a table view by default:
 <!--
 <div class="preview">
 
-* 500 records upload automatically. Additional records display as you scroll the view. 
+* 500 records upload by default. Additional records display as you scroll the view. 
 
 </div>
 -->
-
-500 records display by default
 
 To manage a table view: 
 
@@ -306,6 +304,7 @@ You can add up to 500 fields (or columns) in a table view.
         You cannot use keywords that are associated with fields that are hidden in the table view. 
 
         <!--
+        this might change at the release of table lazy loading:
         >[!TIP]
         >
         ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
@@ -317,12 +316,19 @@ You can add up to 500 fields (or columns) in a table view.
 
     1. Click the **x** icon in the search box to clear the search keyword. 
   
-1. For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+1. (Conditional) For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
     * **SUM**: Displays the total of all cells in the column. This is the default selection. 
     * **MIN**: Displays the lowest value from all the cells in the column. 
     * **MAX**: Displays the highest value from all the cells in the column. 
-    * **AVG**: Displays the average value of all the cells in the column. 
+    * **AVG**: Displays the average value of all the cells in the column.  
+
+    <!--    <div class="preview"> 
+
+    * **NONE**: The values of the column are not aggregated.This is the default option. 
+    
+    </div> 
+    -->
 
     Consider the following when working with aggregators: 
     
@@ -330,6 +336,61 @@ You can add up to 500 fields (or columns) in a table view.
     * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
     * As a viewer, you can modify the aggregator, but it does not save with the view. 
     * Public shared views are shared with the saved aggregators which cannot be modified. 
+
+<!--
+At preview release, replace the last procedure step with this:
+
+1. (Conditional) Depending on the types of fields you are viewing, do one of the following; 
+
+    * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+        * **MIN**: Displays the lowest value from all the cells in the column. 
+        * **MAX**: Displays the highest value from all the cells in the column. 
+        * **AVG**: Displays the average value of all the cells in the column.  
+
+        <div class="preview">
+
+        * **NONE**: The values of the column are not aggregated.This is the default option. 
+    
+        </div> 
+   
+    <div class="preview">
+
+    * For date fields, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **NONE**: The values of the column are not aggregated.This is the default option.
+        * **EMPTY**: Displays a count of the fields that have no values. 
+        * **NOT EMPTY**: Displays a count of the fields that have values. 
+        * **MIN**: Displays the earliest date.
+        * **MAX**: Displays the latest date. 
+    
+    * For text, select, boolean, People fields expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **NONE**: The values of the column are not aggregated.This is the default option.
+        * **EMPTY**: Displays a count of the fields that have no values. 
+        * **NOT EMPTY**: Displays a count of the fields that have values.  
+
+    </div>
+        
+    Consider the following when working with aggregators: 
+    
+    * The aggregator row in the column is frozen when it displays values, and is part of the view settings. 
+    * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
+    * As a viewer, you can modify the aggregator, but it does not save with the view. 
+    * Public shared views are shared with the saved aggregators which cannot be modified. 
+
+    <div class="preview">
+
+    * The following field types do not have an aggregator: 
+
+        * Created by
+        * Last modified by
+        * Record ID
+    * Formula fields and look up fields have the aggregators that correspond to their field format. 
+
+    </div>
+    -->
 
 ### Add rows (or records) {#add-rows-1}
 
@@ -447,10 +508,10 @@ To add a filter to a table view:
         </tr>
         <tr>
             <td>Multi-select, People</td>
-            <td><p>Has any of</p>
+            <td><p>Has any of</p> <!--or <span class="preview"><p>Is any of</p></span>-->
             <p>Has all of</p>
             <p>Is exactly</p>
-            <p>Has none of</p>
+            <p>Has none of</p> <!--or <span class="preview"><p>Is none of</p></span>-->
             <p>Is empty</p>
             <p>Is not empty</p></td>
         </tr>
@@ -607,7 +668,7 @@ Consider the following:
 * Groupings are listed in the alphabetical order of their values. 
 
 <!--
-* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. Additional records are added to the page as you scroll.</span>
+* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. More records might belong to the visible groupings but might not be loaded by default. Additional records are added to the page as you scroll.</span>
 -->
 
 <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
@@ -622,6 +683,14 @@ To add a grouping:
 1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list.
 
     The grouping is applied automatically to the table and records display under the grouping separation line.
+
+    <!--
+    <div class="preview">
+
+    500 records display by default. There might be more records that belong to the visible groupings that are not uploaded by default. Continue to scroll to upload all records. 
+
+    </div>
+    --> 
     
 1. (Optional) Click **Add condition** and repeat the above steps to add up to 3 groupings. 
 

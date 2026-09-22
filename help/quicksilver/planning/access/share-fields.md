@@ -73,19 +73,22 @@ Or
 ## Considerations about sharing fields
 
 * You can share fields with users, job roles, groups, teams, or companies. 
+* Field sharing controls access to values, not field settings. Only workspace managers can change a field's configuration. 
+* You cannot remove access to a field from someone with access to the record type. 
 * You can only share fields from the table view of a record type. 
 * You cannot share the following types of fields:
 
     * System fields (for example, Created By, Record ID)
     * Primary fields 
     * Lookup fields. They always inherit the permissions of their source object fields. 
+* Formula fields always show the correctly calculated value regardless of the viewer's access to referenced fields. You must share the formula field separately to restrict its output.
 * Access to a field comes from combining the following settings:
 
     * **Inherited permissions**: By default, a field inherits the same access someone has on the record type. You can turn off Inherited permissions and give users a lower access to the field than they have for the record type. 
     * The **Everyone with access to the record type can view** or **Only invited people can access** selection. You can either allow everyone with permissions to the workspace to view the field or give permissions only to individual entities. 
 
     If multiple rules apply to the same person, they receive the highest permission available to them from one of the rules.
-   
+* You must have both record and field permissions to see the values of a field for one record.    
 * To make a field view-only for everyone in a workspace, ensure the following setup exists: 
 
    * Turn off inherited permissions
@@ -98,14 +101,17 @@ Or
     * Contribute or Manage record type permissions give a user permissions to manage field values
 
 * Only workspace owners and managers can adjust field permissions. Workspace managers always retain Manage access to all fields and this cannot be lowered.
-* Field sharing controls access to values, not field settings. Only workspace managers can change a field's configuration. 
 * Adding someone to a field's sharing list does not grant them workspace or record-type access. If they lack that access, a warning icon indicates the permission will only take effect once they're added to the record type.
-* Fields with restricted permissions are enforced everywhere where the field displays. This includes all the views, record details pages, request forms, connections and lookup fields, Canvas dashboards, the API, and MCP tools. 
+* Fields with restricted permissions are enforced everywhere where the field displays. This includes all the views, record details pages, connections and lookup fields, Canvas dashboards, the API, and MCP tools. 
+* Fields on request forms are open to anyone submitting the form, regardless of field sharing.
+* Restricted fields are also not visible in exported files as well as files you import. 
 * Public views remain fully visible and read-only to anyone that can access them. 
 <!--Not sure if this is right - right now, it allows me to duplicate with the values in the new record - checking with Lilit: * When you duplicate a record, the restricted values are not copied to the new records.-->
 * Restricted field value changes are not recorded in the History of a record. 
 * Permission changes for fields don't trigger notifications.
 * For global record types, field permissions apply across all secondary workspaces and can't be adjusted locally.
+* When someone adds a field to a global record typ in the main workspace, this creates a private view.  This view is not accessible from the secondary global record workspace. You must open the global record in the secondary workspace with a new view where the added field, if the permissions are not restricted, displays as a hidden field. 
+
 
 <!--
 From Claude: 
@@ -179,7 +185,7 @@ As a workspace manager, you can adjust permissions to individual fields.
       >
       >Workspace managers continue to have Manage permissions to the record type and the field.
 
-   1. (Optional) Click the **Everyone with access to the record type can view** dropdown menu and select **Only invited people can access**. 
+   1. (Optional) Click the **Everyone with access to the record type can view** dropdown menu and select **Only invited people can access**. The **Only invited people can access** option is not available for primary fields. 
 
       >[!IMPORTANT]
       >

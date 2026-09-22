@@ -98,6 +98,16 @@ On the Planning landing page, you can use the global search box to search for th
 * Record types
 * Views
 
+<!--
+<div class="preview">
+
+* Records
+
+</div>
+
+Update screen shot below
+-->
+
 ![Global search box](assets/global-search-box.png)
 
 Consider the following about using the global search:
