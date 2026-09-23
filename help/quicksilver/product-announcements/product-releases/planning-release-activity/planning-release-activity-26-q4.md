@@ -39,7 +39,7 @@ Workspace administrators can now build single- or multi-stage approval processes
 
 For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-## Enhancements to display logic and field editing in Planning intake forms
+## Enhancements to display logic and field editing in Planning requests forms
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ For information, see [Create and manage a request form in Adobe Workfront Planni
 >Preview and production: September 22, 2026
 >[!BADGE Off schedule]{type=Neutral}
 
-AI Form Fill can now retrieve field data directly from a referenced Planning record and use it as context when populating a form. Simply paste the direct URL of the record or object into the prompt, and its details will be pulled in automatically to suggest form values.
+AI Form Fill can now retrieve field data directly from a Planning record referenced by its link and use it as context when populating a form. Simply paste the direct URL of the record into the prompt, and its details will be pulled in automatically to suggest form values.
 
 For information, see [Use Form Fill powered by AI to fill in a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 

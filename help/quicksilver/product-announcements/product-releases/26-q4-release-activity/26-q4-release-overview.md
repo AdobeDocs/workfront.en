@@ -568,7 +568,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">AI Form Fill now pulls data from records referenced with a link</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>AI Form Fill can now retrieve field data directly from a referenced Workfront object and use it as context when populating a form.</p>
+                <p>AI Form Fill can now retrieve field data directly from a Workfront object referenced by its link and use it as context when populating a form.</p>
             </td>
             <td><p>September 22, 2026</p></td>
             <td><p>September 22, 2026</p></td>

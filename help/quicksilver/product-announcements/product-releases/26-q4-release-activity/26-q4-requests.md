@@ -30,6 +30,6 @@ For information, see [View submitted requests](/help/quicksilver/manage-work/req
 >Preview and production: September 22, 2026
 >[!BADGE Off schedule]{type=Neutral}
 
-AI Form Fill can now retrieve field data directly from a referenced Workfront object (issue, task, project, program, or portfolio) and use it as context when populating a form. Simply paste the direct URL of the record or object into the prompt, and its details will be pulled in automatically to suggest form values.
+AI Form Fill can now retrieve field data directly from a Workfront object (issue, task, project, program, or portfolio) referenced by its link and use it as context when populating a form. Simply paste the direct URL of the object into the prompt, and its details will be pulled in automatically to suggest form values.
 
 For information, see [Use Form Fill powered by AI to fill in a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
