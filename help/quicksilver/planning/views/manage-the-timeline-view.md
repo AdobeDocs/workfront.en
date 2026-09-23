@@ -496,13 +496,53 @@ To add a grouping in the timeline view:
     >When you drag and drop records from one grouping to another, the fields that are selected in the grouping automatically update the values on the moved records.
 1. (Optional) Click **Settings**, then **Color** to color-code groupings. For more information, see the [Edit the timeline view settings](#edit-the-timeline-view-settings) section in this article. 
 
-<!-- 
+<!--
+
+<div class="preview">
 
 ### Add sort
 
-this is not possible right now; if this is the same functionality as the table view, document it there and link from here. 
+You can sort records and groupings in the timeline view. 
 
+Consider the following when working with record sorting in the timeline view: 
+
+* You can apply sorting both in the table and timeline views. The sorting of the table view is independent from that in the timeline view of the same record type.
+* You can apply 10 sorting conditions for records and as many sorting conditions as you have groupings in the timeline view (you can have up to 3 groupings conditions in the timeline view). 
+
+* The sortings are unique to the view that you select. Two timeline views of the same record type can have different sortings applied to them. Two users looking at the same timeline view see the same sorting that is currently applied. 
+* You cannot name the sorting you build for a timeline view.
+* Removing sorting removes it from anyone accessing the same record type as you and who displays the same view as you do. 
+
+* You can sort by connected record fields or lookup fields.  
+
+To add a sort in the timeline view:
+
+1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. Click **Sort** in the view's toolbar. 
+
+    The sorting box opens. 
+
+    ![Sort in timeline with grouping sort](assets/sort-in-timeline.png)
+1. From the drop-down menu, select **Sort records**, then either click a field listed in the **Start with a suggested field** list, or click **Choose a different field**, then search for field and click it when it displays in the list.
+1. Select the order you want the sorting to be applied (alphabetical, reverse descendent etc). The order a sorting is applied depends on the format of the field you selected. 
+1. (Optional) Click **Add condition** to add up to 10 conditions. 
+1. (Optional) Click **Clear all** to remove all conditions.
+1. From the drop-down menu in the upper-left corner of the sorting box, select **Sort groupings**. 
+
+    >[!TIP]
+    >
+    >If there are no groupings applied to the timeline view, the Sort groupings option is not available.
+1. To reorder the sorting order of the fields, click **Grouping** in the toolbar and reorder the groupings. Sorting field order also changes. 
+1. (Optional) To remove grouping sorting, remove the groupings from the timeline view. 
+
+    Sorting is applied immediately.
+1. Click anywhere on the page to close the sorting box. 
+
+</div>
 -->
+
+<!--this ("To remove grouping sorting, remove the groupings from the timeline view. ") might change at production - we have a button here called Reset all but right now it's not functioning - I logged a bug for this-->
+
 
 ### Edit the timeline view settings {#edit-the-timeline-view-settings}
 

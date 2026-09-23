@@ -162,11 +162,19 @@ The following must be in place before you can submit a request to a Workfront Pl
  
    For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
 
+<!--
+<div class="preview">
+
+* You can share a request with others after it's been submitted. 
+
+   For information, see [Share Planning requests](/help/quicksilver/planning/requests/share-requests.md).
+
+</div>
+-->
 
 <!--
 Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.
 -->
-
 
 ## Submit a request to Workfront Planning in the Requests area of Workfront
 

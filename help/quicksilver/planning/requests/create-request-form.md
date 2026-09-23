@@ -288,6 +288,29 @@ To configure form settings:
    * **The request is completed when the requested object is completed**: This will complete the request when the record is marked as completed. 
   
 1. (Conditional) If you have selected for the request to be marked complete when the requested object is completed, select the field and the value that indicates when the object is complete. For example, you could select the field Status and the value Complete to complete the request when the created object's status is set to Complete.
+
+
+   <!--
+   1. <span class="preview">Click **Permissions** on the left panel.</span>
+   1. <span class="preview">Select the permission level for the users submitting requests through this form:</span>
+      <div class="preview">
+      * **View**: All requesters can comment on and share the form.
+      * **Contribute**: All requesters can comment on, share, and edit the form.
+      * **Manage**: All requesters can comment on, share, edit, and delete the form.
+      </div>
+   1. <span class="preview"> (Optional) Deselect any of the granular permissions for each permission level to prevent requestors to perform the following actions:</span>
+      <div class="preview">
+      * Comment
+      * Share
+      * Edit. Not available for View. 
+      * Delete. Not available for Contribute and View. 
+      </div>
+      >[!TIP]
+      >
+      ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page. </span>
+   1. <span class="preview">Click **Save**.</span>
+   -->
+
 1. Continue to [Publish form](#publish-form). 
 
 ### Publish form
@@ -502,20 +525,5 @@ For information on creating automations in other areas of Workfront Planning, se
 
 <!--
 
-ADD AT LINE 291, before "Continue to publish form."
 
-<div class="preview">
-
-1. Click **Permissions** on the left panel.
-1. Select the permission level for the users submitting requests through this form:
-
-   * **View**: All requesters can comment on and share the form.
-   * **Contribute**: All requesters can comment on, share, and edit the form.
-   * **Manage**: All requesters can comment on, share, edit, and delete the form.
-
-1. Click **Save**.
-
-</div>
-
--->
 
