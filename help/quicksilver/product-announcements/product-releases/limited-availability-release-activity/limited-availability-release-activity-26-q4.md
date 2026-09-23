@@ -29,7 +29,9 @@ This section includes the release notes for new functionality.
 
 Time Phased Reports are migrating to the enhanced list format, which provides enhanced view management. In an enhanced list, you can quickly set preferences to filter and group data, and display or hide columns. These preferences are combined as a "view" that you can save and share with other users. You can create reports from general templates and use views to organize the report structure and narrow the scope of data.
 
-When the migration is completed, a system view is automatically created for your existing reports based on the current report configurations. A default view is also created for each report type. On a task report, for example, the default is named "Time Phased Task Default View." The system administrator can set which view is the default for each report type in the layout templates.
+When the migration is complete, a system view is automatically created for your existing reports based on the current report configurations. Anyone with access to the report will have that view shared with them automatically.
+
+A default view is also created for each report type. On a task report, for example, the default is named "Time Phased Task Default View." The system administrator can set which view is the default for each report type in the layout templates.
 
 >[!NOTE]
 >
