@@ -499,3 +499,23 @@ For information on creating automations in other areas of Workfront Planning, se
 </div>
 
 -->
+
+<!--
+
+ADD AT LINE 291, before "Continue to publish form."
+
+<div class="preview">
+
+1. Click **Permissions** on the left panel.
+1. Select the permission level for the users submitting requests through this form:
+
+   * **View**: All requesters can comment on and share the form.
+   * **Contribute**: All requesters can comment on, share, and edit the form.
+   * **Manage**: All requesters can comment on, share, edit, and delete the form.
+
+1. Click **Save**.
+
+</div>
+
+-->
+
