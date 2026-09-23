@@ -49,6 +49,8 @@ MCP server access is gated by two separate administrators.
 
 * If you use an enterprise version of an AI agentic platform, your administrator for that platform must enable the [!DNL Adobe Workfront] connector for your organization or give you custom URL access to connect to the Workfront MCP server.
 
+* <span class="preview">If you're connecting a custom application or agentic platform with a unique, per-customer OAuth callback URL, your Workfront administrator must add that URL to the **Authorized redirect URLs** list in **System Preferences > MCP preferences**. Without this, authentication is rejected. For more information, see [Connect with OAuth](#connect-with-oauth) in this article.</span>
+
 
 ## Connect Workfront to Claude
 
@@ -233,7 +235,33 @@ There are two ways to connect:
 
 ### Connect with OAuth
 
-Self-service support for custom OAuth integrations is not yet available for Workfront. 
+<div class="preview">
+
+If the AI agentic platform or custom application you're connecting has a unique OAuth callback (redirect) URL per customer, such as a URL that contains a connection or tenant ID, your Workfront administrator must add that URL to your organization's list of authorized redirect URLs before you can authenticate.
+
+>[!NOTE]
+>
+>This is required only for integrations that aren't one of the natively supported platforms, such as Claude or Copilot. If you use a natively supported platform, see the section for that platform in this article.
+
+Your Workfront administrator adds authorized redirect URLs in System Preferences.
+
+For instructions on adding redirect URLs for MCP servers, see [Add or remove an authorized redirect URL](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md#add-or-remove-an-authorized-redirect-url).
+
+After the URL is added, you can connect your custom application or agentic platform to the Workfront MCP server URL:
+
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront
+```
+
+When connecting, you will be asked to authenticate using your Adobe ID credentials.
+
+>[!IMPORTANT]
+>
+>Callback URLs must match exactly. Workfront doesn't support wildcard or prefix matching for custom callback URLs. Only URLs on this list can complete login for your MCP agents — remove a URL right away if the associated agent is retired or compromised.
+
+If your callback URL isn't on the list, the authentication request is rejected. Ask your Workfront administrator to confirm the URL is entered exactly as your integration provides it.
+
+</div>
 
 ## Verify your connection
 
