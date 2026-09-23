@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
-title: Second Quarter 2026 Release Activity for Adobe Workfront Limited Availability Features
-description: This is the release activity for limited availability features in Adobe Workfront for the Third Quarter 2026.
+title: Fourth Quarter 2026 Release Activity for Adobe Workfront Limited Availability Features
+description: This is the release activity for limited availability features in Adobe Workfront for the Fourth Quarter 2026.
 author: Lisa
 feature: Product Announcements
 role: Admin
@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 hide: yes
 hidefromtoc: yes
 ---
-# Third Quarter 2026 release activity for Adobe Workfront limited availability features
+# Fourth Quarter 2026 release activity for Adobe Workfront limited availability features
 
 This article describes the limited availability Workfront features that are releasing during the Third Quarter of 2026.
 
@@ -29,7 +29,7 @@ This section includes the release notes for new functionality.
 
 Time Phased Reports are migrating to the enhanced list format, which provides enhanced view management. In an enhanced list, you can quickly set preferences to filter and group data, and display or hide columns. These preferences are combined as a "view" that you can save and share with other users. You can create reports from general templates and use views to organize the report structure and narrow the scope of data.
 
-When the migration is completed, views are automatically created for your existing reports based on the current report configurations.
+When the migration is completed, a system view is automatically created for your existing reports based on the current report configurations. A default view is also created for each report type. On a task report, for example, the default is named "Time Phased Task Default View." The system administrator can set which view is the default for each report type in the layout templates.
 
 >[!NOTE]
 >
