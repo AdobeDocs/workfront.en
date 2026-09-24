@@ -2249,7 +2249,7 @@ feature-set: Workfront
     * [Share record types](planning/access/share-record-types.md)
     * [Share views](planning/access/share-views.md)
     * [Share records](planning/access/share-records.md)
-    * {hide-from-toc} [Share Workfront Planning fields](planning/access/share-fields.md)
+    * [Share Workfront Planning fields](planning/access/share-fields.md)
     * [Set default permissions for records](planning/access/set-default-record-permissions.md)
     * [Request permissions to a view or a workspace](planning/access/request-permissions.md)
   * Adobe Workfront Planning records {#adobe-workfront-planning-records}
