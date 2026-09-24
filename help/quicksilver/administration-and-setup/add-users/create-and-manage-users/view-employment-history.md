@@ -3,7 +3,7 @@ title: View User Employment history
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: You can see how often users log in to Workfront, as well as the last time they logged in, by indicating that you want to include this information in the view of a list of users, or in a report for users.
+description: You can view a user's employment history, including changes to job roles, agencies, cost centers, cost and billing rates, and schedules over time.
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -50,6 +50,7 @@ You can view employment history from the Users list, or you can view a single us
    When viewing employment history from the Users list, you can view history for the three years before the current date.
 1. To filter results, click **Filter** and enter the field, operator, and value that you want to filter by. Results are filtered automatically.
 1. To add or remove columns, click the Add icon ![Add icon](assets/add-column.png)  at the right of the table and click the plus icon next to each column that you want to add, or click the minus icon next to each column that you want to remove from the view. 
+1. To export employment history, click **Export**. You can export the employment history as a CSV or XLSX file.
 
 ### View employment history from a user's page
 
@@ -62,12 +63,8 @@ You can view employment history from the Users list, or you can view a single us
    When viewing employment history from a user's page, you can view the user's entire employment history.
 1. To filter results, click **Filter** and enter the field, operator, and value that you want to filter by. Results are filtered automatically.
 1. To add or remove columns, click the Add icon ![Add icon](assets/add-column.png) at the right of the table and click the plus icon next to each column that you want to add, or click the minus icon next to each column that you want to remove from the view.
+1. To export employment history, click **Export**. You can export the employment history as a CSV or XLSX file.
 
-<!--
-
-## Export employment history
-
--->
 
 
 
