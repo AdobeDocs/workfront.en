@@ -316,30 +316,6 @@ You can add up to 500 fields (or columns) in a table view.
 
     1. Click the **x** icon in the search box to clear the search keyword. 
   
-1. (Conditional) For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
-
-    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
-    * **MIN**: Displays the lowest value from all the cells in the column. 
-    * **MAX**: Displays the highest value from all the cells in the column. 
-    * **AVG**: Displays the average value of all the cells in the column.  
-
-    <!--    <div class="preview"> 
-
-    * **NONE**: The values of the column are not aggregated.This is the default option. 
-    
-    </div> 
-    -->
-
-    Consider the following when working with aggregators: 
-    
-    * The aggregator row in the column is frozen and is part of the view settings. 
-    * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
-    * As a viewer, you can modify the aggregator, but it does not save with the view. 
-    * Public shared views are shared with the saved aggregators which cannot be modified. 
-
-<!--
-At preview release, replace the last procedure step with this:
-
 1. (Conditional) Depending on the types of fields you are viewing, do one of the following; 
 
     * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
@@ -389,8 +365,7 @@ At preview release, replace the last procedure step with this:
         * Record ID
     * Formula fields and look up fields have the aggregators that correspond to their field format. 
 
-    </div>
-    -->
+    </div> 
 
 ### Add rows (or records) {#add-rows-1}
 
