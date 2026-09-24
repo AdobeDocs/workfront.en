@@ -402,7 +402,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>October 15, 2026</p></td>
         </tr>
 -->
-
     </tbody>
 </table>
 
@@ -678,12 +677,11 @@ Live webinars are held for each quarterly release - these highlight the new feat
 * [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Adobe Workfront Planning Fourth Quarter 2026 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
 
-<!--
 ## Desktop proofing viewer updates
 
 ### Version 2.2.1
 
-Production release for all customers: September 16, 2026
+Production release for all customers: September 17, 2026
 
 The Desktop Proofing Viewer has been updated to version 2.2.1. This update includes the following changes:
 
@@ -695,7 +693,6 @@ The Desktop Proofing Viewer has been updated to version 2.2.1. This update inclu
 * Updated the underlying framework (Electron) for performance and security improvements.
 
 For information on downloading and updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
--->
 
 ## Announcements
 
@@ -707,12 +704,14 @@ With the January 2027 release, the legacy fields **Billing Per Hour** and **Cost
 
 As a replacement in reports, you can use the recommended Text Mode code (use `costRates` or `billingRates` as needed):
 
+    ```
     displayname=Test
     listdelimiter=<br>
     listmethod=nested(costRates).lists
     type=iterate
     valueexpression=CONCAT({startDate}," - ",{endDate},": ",{value})
     valueformat=HTML
+    ```
 
 To manage and review rates, use the dedicated rate management experiences:
 
