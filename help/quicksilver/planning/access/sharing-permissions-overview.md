@@ -96,7 +96,7 @@ You can manually share the following objects in Workfront Planning:
     * You must give users, including System Administrators, permissions to access views separately from their permissions to accessing workspaces. 
     * When you share a view, all view elements are shared, including filters, grouping, sort, or Settings. 
     * When you share a view, the records visible in the view are not shared. Records must be shared by sharing workspaces.
-    * You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.
+    * You can share a view publicly, with people outside your organization when you generate a public link for a view. People accessing the record page from a public link can view all records and their fields, including connected records and fields.
 
     For more information, see [Share views](/help/quicksilver/planning/access/share-views.md).
 
@@ -291,11 +291,11 @@ You can manage permissions to the values of individual fields and restrict field
 
 You can grant the following permissions to the field values by sharing a field: 
 
-|        | Manage | View       | 
-|--------|--------|------------|
-| Delete | ✓      |            |       
-| Edit   | ✓      |            |       
-| View   | ✓      | ✓          |  
+|        | Manage | View | 
+|--------|--------|------|
+| Delete | ✓      |      |       
+| Edit   | ✓      |      |       
+| View   | ✓      | ✓    |  
 
 Users must have at least View permissions to the record type to access the fields. 
 
