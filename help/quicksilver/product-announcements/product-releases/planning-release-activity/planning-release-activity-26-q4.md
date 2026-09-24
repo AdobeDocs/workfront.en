@@ -13,6 +13,22 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Sharing fields in Workfront Planning
+
+>[!NOTE]
+>
+>Preview: September 24, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+Workspace managers can now control access to individual fields, allowing specific users and teams to view, edit, or be completely restricted from sensitive data within the same record type.
+
+Field-level permissions are enforced consistently across views, record details, request forms, connections, APIs, and dashboards, helping organizations securely manage confidential information.
+
+Users without access do not see restricted fields, while administrators can configure permissions without restructuring records or creating separate workspaces.
+
+For information, see [Share Workfront Planning fields](/help/quicksilver/planning/access/share-fields.md).
+
 <!--
 
 ## Share a Planning request

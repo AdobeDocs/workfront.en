@@ -699,7 +699,7 @@ For information on downloading and updating the Desktop Proofing Viewer, see [Up
 
 Over time, we have introduced enhanced rate management capabilities and dedicated Job Role experiences that provide a more complete and scalable approach to maintaining rate information. As a result, rate administration is moving toward these dedicated experiences rather than list-based management workflows.
 
-On October 15, 2026, the legacy fields **Billing Per Hour** and **Cost Per Hour** will no longer be available in the Workfront API or in User and Job Role list views, including Filter / View / Grouping configurations (both direct references and text mode calculated columns).
+With the January 2027 release, the legacy fields **Billing Per Hour** and **Cost Per Hour** will no longer be available in the Workfront API or in User and Job Role list views, including Filter / View / Grouping configurations (both direct references and text mode calculated columns).
 
 As a replacement in reports, you can use the recommended Text Mode code (use `costRates` or `billingRates` as needed):
 
