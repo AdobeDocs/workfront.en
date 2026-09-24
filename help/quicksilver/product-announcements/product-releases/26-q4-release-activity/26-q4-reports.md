@@ -11,6 +11,8 @@ This page describes Reporting enhancements made with the Fourth Quarter 2026 rel
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+<!--
+
 ## Filter on collection relationships in Canvas Dashboards
 
 >[!NOTE]
@@ -24,6 +26,8 @@ When you build a filter in a Canvas Dashboard, you can now filter on collection 
 Previously, filtering on collection relationships required text mode.
 
 For more information, see [Report filter reference for Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
+
+-->
 
 ## Copy dashboards in Canvas Dashboards
 
