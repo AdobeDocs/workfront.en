@@ -43,13 +43,10 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 # Create fields
 
-<!--information about choice values must stay in yellow till Jan 2026-->
-
-<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -296,6 +293,10 @@ For information, see [Import fields from Workfront](/help/quicksilver/planning/f
     -->
 
 1. Continue with adding each field, as described in the sections below.
+
+1. <span class="preview">(Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Share field** to share the field. </span>
+
+    </span>For information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). </span>
 
 ### Single-line text {#single-line-text}
 
