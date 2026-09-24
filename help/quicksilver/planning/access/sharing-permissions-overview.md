@@ -291,11 +291,11 @@ You can manage permissions to the values of individual fields and restrict field
 
 You can grant the following permissions to the field values by sharing a field: 
 
-|        | Manage | View | 
+|        | Manage | View |
 |--------|--------|------|
-| Delete | ✓      |      |       
-| Edit   | ✓      |      |       
-| View   | ✓      | ✓    |  
+| Delete | ✓      |      |
+| Edit   | ✓      |      |
+| View   | ✓      | ✓    |
 
 Users must have at least View permissions to the record type to access the fields. 
 
