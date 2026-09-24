@@ -157,14 +157,14 @@ The following are the levels of permissions for workspaces:
 
 |        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| Edit | ✓      |            |       |
+| Edit   | ✓      |            |       |
 | Share  | ✓      |            |       |
-| Delete   | ✓      |            |       |
+| Delete | ✓      |            |       |
 | View   | ✓      | ✓          | ✓     |
 
-<!--
-<span class="permissions">In addition to the permissions described in the above table, you can also change the owner of a workspace when sharing it. For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).</span>
--->
+
+<span class="preview">In addition to the permissions described in the above table, you can also change the owner of a workspace when sharing it. For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).</span>
+
 
 ### Permissions to record types
 
