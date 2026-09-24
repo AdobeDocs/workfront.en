@@ -59,7 +59,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 The Documents folder structure in a Workfront project is mirrored in the Projects panel. When you open a document from a project folder, edit it, and save, your changes appear in Workfront.
 
-Legacy Workfront storage projects are not supported in the Projects panel—only Adobe cloud storage projects.
+>[!NOTE]
+>
+>Legacy Workfront storage projects are not supported in the Projects panel—only Adobe cloud storage projects.
+
 
 
 To access a Workfront project in Photoshop, Illustrator, or InDesign:
