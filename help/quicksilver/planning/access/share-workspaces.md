@@ -167,7 +167,7 @@ Old:
 
 <div class="preview">
 
-* You can change the owner of a workspace to an active, Standard-licensed user. You cannot make a group, team, company, or job role he owner of a workspace.
+* You can change the owner of a workspace to an active, Standard-licensed user. You cannot make a group, team, company, or job role the owner of a workspace.
 
 </div>
 
