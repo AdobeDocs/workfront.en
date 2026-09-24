@@ -279,10 +279,10 @@ To add a filter to a calendar view:
         </tr>
         <tr>
             <td>Multi-select, People</td>
-            <td><p>Has any of</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <td><p>Has any of</p> or <span class="preview"><p>Is any of</p></span>
             <p>Has all of</p>
             <p>Is exactly</p>
-            <p>Has none of</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <p>Has none of</p> or <span class="preview"><p>Is any of</p></span>
             <p>Is empty</p>
             <p>Is not empty</p></td>
         </tr>
