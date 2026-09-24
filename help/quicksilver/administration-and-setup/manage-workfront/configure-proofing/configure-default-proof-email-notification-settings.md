@@ -67,9 +67,9 @@ To configure proof email notification settings that are sent from Workfront:
 
 1. Expand **Email**, then click **Review and Approval**.  
 
-1. In the **Proof Notifications in Workfront** section, decide whether to enable or disable the option, Send emails from Workfront when a comment is made on a proof.
+1. In the **Proof Notifications in Workfront** section, decide whether to enable or disable the option, **Send notifications from Workfront when a comment is made on a proof**.
 
-   * When this setting is enabled, users receive an email from Workfront when a comment is made on a proof.
-   * When this setting is disabled, users do not receive an email from Workfront when a comment is made on a proof.
+   * When this setting is enabled, users receive an email from Workfront when a comment is made on a proof. A Workfront in-app notification is also displayed.
+   * When this setting is disabled, users do not receive an email or in-app notification from Workfront when a comment is made on a proof.
 
 1. Click **Save**.

@@ -11,6 +11,18 @@ This page describes Administrator enhancements made with the Fourth Quarter 2026
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+## Add authorized redirect URLs for MCP integrations
+
+>[!NOTE]
+>
+>Preview: September 22, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+To make the Workfront MCP servers more flexible and customizable to your organization, we've added the ability to add custom OAuth callback URLs. Workfront administrators can now maintain their own organization's allowlist of trusted OAuth callback URLs for MCP integrations. This lets you connect custom AI agentic platforms whose OAuth callback URL is unique to your organization, beyond the platforms that Workfront supports natively.
+
+For more information, see [Add or remove an authorized redirect URL](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md#add-or-remove-an-authorized-redirect-url) in [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
 <!--
 
 ## Interface improvements to the Actions list

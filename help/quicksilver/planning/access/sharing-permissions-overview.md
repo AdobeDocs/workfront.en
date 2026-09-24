@@ -24,11 +24,11 @@ role_v2:
 
 # Overview of sharing permissions in Adobe Workfront Planning 
 
-<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -96,7 +96,7 @@ You can manually share the following objects in Workfront Planning:
     * You must give users, including System Administrators, permissions to access views separately from their permissions to accessing workspaces. 
     * When you share a view, all view elements are shared, including filters, grouping, sort, or Settings. 
     * When you share a view, the records visible in the view are not shared. Records must be shared by sharing workspaces.
-    * You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.
+    * You can share a view publicly, with people outside your organization when you generate a public link for a view. People accessing the record page from a public link can view all records and their fields, including connected records and fields.
 
     For more information, see [Share views](/help/quicksilver/planning/access/share-views.md).
 
@@ -253,9 +253,9 @@ The following scenarios exist:
 
 ### Permissions to record fields
 
-<!--
+
 #### Permissions to record fields in the Production environment
--->
+
 
 Permissions to edit field settings are inherited from the record type, when you grant permissions to the workspace and the record type.
 
@@ -268,7 +268,7 @@ The following permissions refer to the fields settings and not to the values ass
 | Edit   | ✓      |            |       |
 | View   | ✓      | ✓          | ✓     |
 
-<!--
+
 <div class="preview">
 
 #### Permissions to record fields in the Preview environment
@@ -287,20 +287,20 @@ The following permissions refer to the fields settings and not to the values ass
 
 Permissions to field values are inherited from the record type and work in conjunction with permissions to the records. 
 
-You can manage permissions to individual fields and restrict fields that might contain confidential information. 
+You can manage permissions to the values of individual fields and restrict fields that might contain confidential information. 
 
 You can grant the following permissions to the field values by sharing a field: 
 
-|        | Manage | View | 
-|--------|--------|------------|
-| Delete | ✓      |            |       
-| Edit   | ✓      |            |       
-| View   | ✓      | ✓          |  
+|        | Manage | View |
+|--------|--------|------|
+| Delete | ✓      |      |
+| Edit   | ✓      |      |
+| View   | ✓      | ✓    |
 
 Users must have at least View permissions to the record type to access the fields. 
 
 </div>
--->
+
 ### Permissions to views
 
 You must grant separate permissions to record views. Granting permissions to the workspace does not grant permissions to the record views in the workspace. 
