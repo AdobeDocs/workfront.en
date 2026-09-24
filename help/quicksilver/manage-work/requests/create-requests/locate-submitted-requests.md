@@ -55,8 +55,9 @@ The Requests area displays the following requests, depending on how you choose t
    >[!NOTE]
    >
    >* You can only view your own draft requests.
-   >* In the new requesting experience, submitted requests and drafts are found in the same list. 
+   >* In the new request experience, submitted requests and drafts are found in the same list. 
    >* Drafts created in the legacy experience do not display in the new Requesting experience.
+   >* In the new request experience, you can see old Workfront requests only from July 2025 to the present day. <!--replace this bullet with this: In the Production environment, in the new request experience, you can see old Workfront requests only from July 2025 to the present day. <span class="preview">In the Preview environment, in the new request experience, you can see old Workfront requests only from 2023 to the present day. You can see all Workfront requests in the legacy experience.</span>-->  
 
 ## Access requirements
 
