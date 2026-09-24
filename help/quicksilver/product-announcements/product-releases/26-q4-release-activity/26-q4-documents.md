@@ -11,6 +11,8 @@ This page describes Documents enhancements made with the Fourth Quarter 2026 rel
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+<!--
+
 ## Access Workfront projects in Adobe Creative Cloud apps
 
 >[!NOTE]
@@ -27,6 +29,8 @@ For more information, see:
 
 * [Adobe Creative Cloud Projects overview](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
 * [Use Workfront documents in Creative Cloud apps](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
+
+-->
 
 ## Control who can see and use approval templates
 
