@@ -11,6 +11,8 @@ This page describes Requests enhancements made with the Fourth Quarter 2026 rele
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+<!--
+
 ## View historical requests from up to 3 years in the new request experience
 
 >[!NOTE]
@@ -22,6 +24,8 @@ For a list of all changes available at this point in the Fourth Quarter 2026 rel
 You can now access Workfront issue requests submitted up to 3 years before July 2025 from the new request experience. Previously, you only had access to requests submitted after July 2025.
 
 For information, see [View submitted requests](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
+
+-->
 
 ## AI Form Fill now pulls data from records referenced with a link
 

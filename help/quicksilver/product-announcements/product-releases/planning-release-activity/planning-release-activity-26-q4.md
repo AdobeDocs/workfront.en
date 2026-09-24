@@ -13,6 +13,8 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+<!--
+
 ## Share a Planning request
 
 >[!NOTE]
@@ -25,7 +27,7 @@ You can now share a Planning request with others from the Requests area in the n
 
 You can give others one of the following permissions to the request: View, Contribute, or Manage.
 
-For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+For information, see [Share Planning records](/help/quicksilver/planning/requests/share-requests.md).
 
 ## Set up multi-stage approvals for Planning requests
 
@@ -66,6 +68,8 @@ Workfront and workspace administrators can now indicate the level of permissions
 Requesters can get the following permissions to a request they submitted: View, Contribute, or Manage. Users can comment, edit, share, or view a request, and the capabilities that are not shared with them are dimmed when viewing the sharing box from a request.
 
 For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+-->
 
 ## AI Form Fill now pulls data from records referenced with a link
 

@@ -556,6 +556,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
         </tr>
+<!--
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">View historical requests from up to 3 years in the new request experience</a>
@@ -565,6 +566,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>October 14, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
+-->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">AI Form Fill now pulls data from records referenced with a link</a><p>[!BADGE Off schedule]{type=Neutral}</p>
