@@ -20,11 +20,11 @@ role_v2:
 ---
 # Adobe Workfront Planning access information: article index
 
-<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -42,10 +42,9 @@ The following articles contain information about what access your users need to 
 * [Share records](/help/quicksilver/planning/access/share-records.md)
 * [Set default permissions for records](/help/quicksilver/planning/access/set-default-record-permissions.md)
 
-<!--
 <div class="preview">
 
 * [Share Workfront Planning fields](/help/quicksilver/planning/access/share-fields.md)
 
 </div>
--->
+

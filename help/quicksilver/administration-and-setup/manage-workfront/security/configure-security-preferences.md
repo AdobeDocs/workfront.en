@@ -203,6 +203,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td><span class="preview">Lets the Workfront MCP server perform create, update, and delete actions on Workfront data. This option is disabled by default.<p>For more information about the Workfront MCP server, see <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configure the Adobe Workfront MCP server</a>.</p></span></td> 
      </tr>
      <tr> 
+      <td role="rowheader"><span class="preview">Authorized redirect URLs</span></td> 
+      <td><span class="preview">Controls which callback (redirect) URLs can complete login for your organization's MCP agents connecting through custom AI agentic platforms.<p>For instructions on adding redirect URLs for MCP servers, see <a href="#add-or-remove-an-authorized-redirect-url">Add or remove an authorized redirect URL</a> in this article.</p></span></td> 
+     </tr>
+     <tr> 
       <td role="rowheader">Test Environments</td> 
       <td>Lets you access your Workfront test environments. For more information, see <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">The Adobe Workfront Preview Sandbox Environment</a>.</p></td> 
     </tbody> 
@@ -211,3 +215,30 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. Click **Save**.
 
    The changes that you saved here affect the experience of all the users in Workfront and anyone who interacts with the system as an external user.
+
+## Add or remove an authorized redirect URL
+
+<div class="preview">
+
+Authorized redirect URLs let you connect a custom AI agentic platform whose OAuth callback URL is unique to your organization — for example, a URL that contains a connection or tenant ID. For more information about when this is needed, see [Connect with OAuth](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth) in [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+
++++ Expand to view step-by-step instructions for managing authorized redirect URLs for MCP.
+
+To add a URL:
+
+1. If you're not already on the System Preferences page, click the **Main Menu** icon in the upper-left corner of Workfront, click **Setup**, then in the left panel, click **System** > **Preferences**.
+1. In the **MCP preferences** area, next to **Authorized redirect URLs**, click **Manage URLs**.
+1. Enter a **Label** to identify the integration.
+1. Enter the callback **URL**.
+1. Click **Add**.
+1. Click **Save**.
+
+>[!IMPORTANT]
+>
+>Callback URLs must match exactly. Workfront doesn't support wildcard or prefix matching for custom callback URLs.
+
+To remove a URL — for example, if the associated integration is retired or compromised — open **Manage URLs**, remove the entry, then click **Save**.
+
++++
+
+</div>
