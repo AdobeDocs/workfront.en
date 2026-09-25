@@ -25,7 +25,7 @@ This section includes the release notes for new functionality.
 
 >[!NOTE]
 >
->Production release date: MONTH DAY, 2026
+>Production release date: TBD
 
 Time Phased Reports are migrating to the enhanced list format, which provides enhanced view management. In an enhanced list, you can quickly set preferences to filter and group data, and display or hide columns. These preferences are combined as a "view" that you can save and share with other users. You can create reports from general templates and use views to organize the report structure and narrow the scope of data.
 
