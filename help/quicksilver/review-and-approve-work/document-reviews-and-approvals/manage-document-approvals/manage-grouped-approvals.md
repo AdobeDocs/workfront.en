@@ -129,3 +129,15 @@ To remove an asset from a grouped approval:
 1. Click **Save**.
 
    The asset's approval status stays visible and unchanged from the moment it was removed. The grouped approval view updates to reflect the remaining assets in the group.
+
+## Resolve a "Needs work" decision in a multi-stage grouped approval
+
+In a multi-stage grouped approval, all the assets in a stage must reach a decision before the group can advance to the next stage. If an asset is marked **Needs work**, it can't move forward with the rest of the group, so it must be removed from the group for the stage to progress.
+
+To resolve a "Needs work" decision:
+
+1. Remove the asset that was marked **Needs work** from the group. For more information, see [Remove assets from a grouped approval](#remove-assets-from-a-grouped-approval). The removed asset becomes its own standalone approval and keeps its existing decisions, comments, and history.
+
+1. After the asset is updated, request approval on it again, either as a single asset or as part of a new group. Because the asset already carries an approval decision, you can't add it back to the original group.
+
+   For more information, see [Create a document approval workflow](create-a-document-approval.md) and [Create a grouped approval](create-a-grouped-approval.md).
