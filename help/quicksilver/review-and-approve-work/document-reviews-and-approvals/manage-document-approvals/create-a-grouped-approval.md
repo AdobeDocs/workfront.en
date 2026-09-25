@@ -11,7 +11,9 @@ feature: Work Management, Digital Content and Documents
 
 {{highlighted-preview-article-level}}
 
-A grouped approval bundles multiple assets under a single approval workflow, so all the assets move through the same stages together instead of requiring a separate approval per asset. Grouped approvals support Basic and Advanced mode, multiple stages, and parallel paths the same way single-asset approvals do.
+A grouped approval bundles multiple assets under a single approval workflow, so all the assets move through the same stages together instead of requiring a separate approval per asset. 
+
+Grouped approvals support Basic and Advanced mode, multiple stages, and parallel paths the same way single-asset approvals do.
 
 After you create a grouped approval, you can add or remove participants and assets without recreating the workflow. For more information, see [Manage grouped approvals](manage-grouped-approvals.md).
 
