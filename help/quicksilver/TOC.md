@@ -2280,6 +2280,7 @@ feature-set: Workfront
     * [Adobe Workfront Planning requests: article index](planning/requests/requests-article-index.md)
     * [Create and manage a request form in Adobe Workfront Planning](planning/requests/create-request-form.md)
     * [Submit Adobe Workfront Planning requests to create records](planning/requests/submit-requests.md)
+    * [Share Planning requests](planning/requests/share-requests.md)
     * [Unpublish a request form in Adobe Workfront Planning](planning/requests/unpublish-request-form.md)
     * [Add an approval to a request form in Adobe Workfront Planning](planning/requests/add-approval-to-request-form.md)
     * [Approve a request in Adobe Workfront Planning](planning/requests/approve-request.md)

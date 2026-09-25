@@ -156,13 +156,16 @@ The following must be in place before you can submit a request to a Workfront Pl
 
    * <span class="preview"> In the Preview environment, the following scenarios exist: </span>
    
-      * <span class="preview">When you submit a request form from a secondary global record type's page, the record displays in the secondary record type page. Users will also see the new record on the primary record type's page, if they have access to view the secondary workspace. </span>
-      * <span class="preview">When you submit a request form from the primary record type page or using any other method described in this article, the records display in the primary record type page.</span>
-      * <span class="preview">If the **Workspace** field is available in the request form and the user manually chooses a specific workspace to add the record to, the record is saved in that space, regardless of whether the form was selected from the primary or the secondary record type pages.</span>
+      <div class="preview">
+
+      * When you submit a request form from a secondary global record type's page, the record displays in the secondary record type page. Users will also see the new record on the primary record type's page, if they have access to view the secondary workspace. 
+      * When you submit a request form from the primary record type page or using any other method described in this article, the records display in the primary record type page.
+      * If the **Workspace** field is available in the request form and the user manually chooses a specific workspace to add the record to, the record is saved in that space, regardless of whether the form was selected from the primary or the secondary record type pages.
+
+      </div>
  
    For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
 
-<!--
 <div class="preview">
 
 * You can share a request with others after it's been submitted. 
@@ -170,7 +173,7 @@ The following must be in place before you can submit a request to a Workfront Pl
    For information, see [Share Planning requests](/help/quicksilver/planning/requests/share-requests.md).
 
 </div>
--->
+
 
 <!--
 Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.
