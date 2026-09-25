@@ -5,7 +5,7 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 70e1b54b-2bf9-498a-8a77-9b220543e385
-TQID: https://experienceleague.adobe.com/KMXgsaCTJiJ-C2XKN8TN2d-iihG6byUJ2ranYC4COQI
+TQID: 'https://experienceleague.adobe.com/KMXgsaCTJiJ-C2XKN8TN2d-iihG6byUJ2ranYC4COQI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -15,6 +15,8 @@ feature_v2:
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
     internal-label: Workfront Scenario Planner
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

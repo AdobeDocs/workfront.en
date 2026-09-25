@@ -8,7 +8,7 @@ feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/mCDsQnauBC-wEon8PpzGLfl5c5Ujp2A-Cq7IfLgic-c
+TQID: 'https://experienceleague.adobe.com/mCDsQnauBC-wEon8PpzGLfl5c5Ujp2A-Cq7IfLgic-c'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -17,6 +17,8 @@ feature_v2:
     internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 subfeature_v2:
   - id: be65ef36-43e4-48e1-a062-caa3778e15be
     internal-label: Agile

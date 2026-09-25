@@ -5,10 +5,20 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Agile
 exl-id: 2c59b8b2-7239-4d20-a8c6-5938c2c4db93
-TQID: https://experienceleague.adobe.com/Y-y7BSMD-4NVL4G5hleSgZZmXKRjir4voenmbggO-AU
+TQID: 'https://experienceleague.adobe.com/Y-y7BSMD-4NVL4G5hleSgZZmXKRjir4voenmbggO-AU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

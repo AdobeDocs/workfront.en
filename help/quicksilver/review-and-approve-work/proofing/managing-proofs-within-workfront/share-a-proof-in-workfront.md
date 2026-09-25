@@ -6,16 +6,20 @@ description: You can share a proofed document within Adobe Workfront by sharing 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-TQID: https://experienceleague.adobe.com/2fQRZtOWmMXOPEq-NDvyHTVsM6SQuOj-V8UtrAys6y8
+TQID: 'https://experienceleague.adobe.com/2fQRZtOWmMXOPEq-NDvyHTVsM6SQuOj-V8UtrAys6y8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
     internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

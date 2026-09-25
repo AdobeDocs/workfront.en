@@ -10,7 +10,7 @@ author: Courtney, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/e2uZM6ICiPOrupfHh0rQHmh--rDWxjwpend11THYdh4
+TQID: 'https://experienceleague.adobe.com/e2uZM6ICiPOrupfHh0rQHmh--rDWxjwpend11THYdh4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -19,6 +19,10 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

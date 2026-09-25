@@ -6,7 +6,7 @@ description: Each widget contains its own worklist. Worklists display all work i
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-TQID: https://experienceleague.adobe.com/fITdY6-HlQ-4527-RiI9m52-Kg3nRUxsk32vjpw-A-g
+TQID: 'https://experienceleague.adobe.com/fITdY6-HlQ-4527-RiI9m52-Kg3nRUxsk32vjpw-A-g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -15,6 +15,8 @@ feature_v2:
     internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
     internal-label: Approvals

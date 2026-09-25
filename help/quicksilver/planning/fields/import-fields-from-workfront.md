@@ -1,6 +1,6 @@
 ---
 title: Import Fields from Adobe Workfront
-description: In Adobe Workfront Planning, you can add existing fields from Adobe Workfront. You can then associate them with Planning records. You cannot import Workfront existing fields if your organization has purchased Planning as a standalone product. 
+description: In Adobe Workfront Planning, you can add existing fields from Adobe Workfront. You can then associate them with Planning records. You cannot import Workfront existing fields if your organization has purchased Planning as a standalone product.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -8,18 +8,22 @@ recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/uyoOkZ9Yd48O9Sur9YMal4cBZD9e45bTbwc6TQ2fAds
+TQID: 'https://experienceleague.adobe.com/uyoOkZ9Yd48O9Sur9YMal4cBZD9e45bTbwc6TQ2fAds'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
     internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

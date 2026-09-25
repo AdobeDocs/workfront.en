@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: efe05da7-ec25-4fbd-a7f9-645364d3e2a8
-TQID: https://experienceleague.adobe.com/z0JBeUHKkpRiFG4QCOD9zpV0Y1WK7y5SBUcl6BLBRKo
+TQID: 'https://experienceleague.adobe.com/z0JBeUHKkpRiFG4QCOD9zpV0Y1WK7y5SBUcl6BLBRKo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -17,6 +17,8 @@ feature_v2:
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

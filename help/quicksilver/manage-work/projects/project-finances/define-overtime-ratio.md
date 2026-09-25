@@ -7,6 +7,12 @@ description: You can define an overtime ratio on a task to adjust the Planned Re
 author: Lisa
 feature: Work Management
 exl-id: 832d3aab-3e09-4d83-91a6-be0145ce3554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 ---
 # Define an overtime ratio
 

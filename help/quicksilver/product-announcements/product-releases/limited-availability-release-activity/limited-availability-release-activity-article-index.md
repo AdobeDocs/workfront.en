@@ -1,6 +1,6 @@
 ---
 content-type: release-notes
-title: "Adobe Workfront Limited Availability Release Activity: Article Index"
+title: 'Adobe Workfront Limited Availability Release Activity: Article Index'
 description: This is the release activity for limited availability features in Adobe Workfront.
 author: Lisa
 feature: Product Announcements
@@ -8,10 +8,16 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 exl-id: 1f24affa-1d3a-4bbf-a044-f8e5ca98b0e2
-TQID: https://experienceleague.adobe.com/ZaVw0dZ-3LuDqjgXHgHZ6kDAaVA2NX1Jkxq6o3sZjdE
+TQID: 'https://experienceleague.adobe.com/ZaVw0dZ-3LuDqjgXHgHZ6kDAaVA2NX1Jkxq6o3sZjdE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

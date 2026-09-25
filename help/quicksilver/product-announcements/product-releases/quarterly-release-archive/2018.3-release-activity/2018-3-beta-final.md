@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4411916-7f58-4174-b9a5-f19cde181d8b
-TQID: https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To
+TQID: 'https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -19,6 +19,8 @@ feature_v2:
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
     internal-label: Adobe Workfront for Microsoft Teams
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

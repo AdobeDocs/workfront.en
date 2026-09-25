@@ -2,12 +2,21 @@
 product-area: requests
 navigation-topic: create-requests
 title: Delete a Submitted Request or Request Draft
-description: You can delete submitted requests or request drafts in Adobe Workfront. 
+description: You can delete submitted requests or request drafts in Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Delete a submitted request or request draft
 
