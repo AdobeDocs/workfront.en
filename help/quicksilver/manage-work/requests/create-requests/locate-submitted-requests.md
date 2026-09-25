@@ -32,13 +32,11 @@ topic_v2:
 Remove production and preview references at release
 -->
 
-<!--
-
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
+
 
 You can view the requests that you or someone else submitted, or requests you started but you never finished submitting. The unfinished requests are saved as drafts. 
 
@@ -57,7 +55,7 @@ The Requests area displays the following requests, depending on how you choose t
    >* You can only view your own draft requests.
    >* In the new request experience, submitted requests and drafts are found in the same list. 
    >* Drafts created in the legacy experience do not display in the new Requesting experience.
-   >* In the new request experience, you can see old Workfront requests only from July 2025 to the present day. <!--replace this bullet with this: In the Production environment, in the new request experience, you can see old Workfront requests only from July 2025 to the present day. <span class="preview">In the Preview environment, in the new request experience, you can see old Workfront requests only from 2023 to the present day. You can see all Workfront requests in the legacy experience.</span>-->  
+   >* In the Production environment, in the new request experience, you can find Workfront requests submitted only from July 2025 to the present day. <span class="preview">In the Preview environment, in the new request experience, you can fiend Workfront requests submitted only from 2023 to the present day. You can see all Workfront requests in the legacy experience.</span>
 
 ## Access requirements
 
