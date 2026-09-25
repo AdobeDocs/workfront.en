@@ -29,7 +29,7 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 
 >[!NOTE]
 >
->Preview: September 24, 2026
+>Preview: September 25, 2026
 >Production fast release: October 14, 2026
 >Production for everyone: October 15, 2026
 
@@ -45,7 +45,7 @@ For information, see [Share Workfront Planning fields](/help/quicksilver/plannin
 
 >[!NOTE]
 >
->Preview: September 24, 2026
+>Preview: September 25, 2026
 >Production fast release: October 14, 2026
 >Production for everyone: October 15, 2026
 
@@ -59,7 +59,7 @@ For information, see [Share Planning records](/help/quicksilver/planning/request
 
 >[!NOTE]
 >
->Preview: September 24, 2026
+>Preview: September 25, 2026
 >Production fast release: October 14, 2026
 >Production for everyone: October 15, 2026
 
@@ -71,7 +71,7 @@ For information, see [Create and manage a request form in Adobe Workfront Planni
 
 >[!NOTE]
 >
->Preview: September 24, 2026
+>Preview: September 25, 2026
 >Production fast release: October 14, 2026
 >Production for everyone: October 15, 2026
 
@@ -81,11 +81,11 @@ In addition, you can now edit a field's options directly from the request form. 
 
 For information, see [Create request form](/help/quicksilver/planning/requests/create-request-form.md).
 
-## Configure capabilities for each access tier per request form
+## Configure default permissions for requestors on Planning request forms
 
 >[!NOTE]
 >
->Preview: September 24, 2026
+>Preview: September 25, 2026
 >Production fast release: October 14, 2026
 >Production for everyone: October 15, 2026
 
@@ -95,7 +95,7 @@ Requesters can get the following permissions to a request they submitted: View, 
 
 For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-## AI Form Fill now pulls data from records referenced with a link
+## AI Form Fill pulls data from records referenced with a link
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ AI Form Fill can now retrieve field data directly from a Planning record referen
 
 For information, see [Use Form Fill powered by AI to fill in a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
-## CX Coworker now available in Workfront Planning
+## CX Coworker available in Workfront Planning
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ Coworker is replacing the current AI Assistant as a more powerful way to get wor
 
 For more information, see [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
-## Removed the AI Assistant icon in the Details preview box in preparation for the CX Coworker launch
+## AI Assistant icon removed from the record Details preview box in preparation for the CX Coworker launch
 
 >[!NOTE]
 >
@@ -202,7 +202,7 @@ For more information, see [Configure record type business rules](/help/quicksilv
 >* **Create request forms** and **Manage request forms** has changed to **Request forms**
 >* **Manage automations** has changed to **Automations**
 
-## Introducing custom weeks for the timeline view
+## Custom weeks for the timeline view
 
 >[!NOTE]
 >
@@ -246,7 +246,7 @@ Timeline views now include Collapse all and Expand all options for grouped timel
 
 For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
-## See full group names and resize the grouping panel in the timeline view
+## Display full group names and resize the grouping panel in the timeline view
 
 >[!NOTE]
 >
@@ -339,7 +339,7 @@ For information, see [Skills available for direct install](/help/quicksilver/wor
 >Production fast release: August 13, 2026
 >Production for all: October 15, 2026
 
-The experience of dragging and dropping rows in the table view has been improved visually.
+The experience of dragging and dropping single rows in the table view has been improved visually.
 
 For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
 
@@ -364,9 +364,6 @@ The following features are included with this update:
 
 
 For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
-
-
-
 
 ## Show new comment indicator for a record in the table view
 
