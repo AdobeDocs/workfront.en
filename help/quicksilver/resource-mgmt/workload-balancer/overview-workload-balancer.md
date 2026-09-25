@@ -47,7 +47,7 @@ After project managers plan the work on projects by creating tasks and after res
 
 >[!IMPORTANT]
 >
->You can use the Workload Balancer to assign actual work (tasks and issues) to users and Task Collaborators. 
+>You can use the Workload Balancer to assign actual work (tasks and issues) to users and Work Agents. 
 >
 >You must use the Resource Planner and not the Workload Balancer to estimate job role allocations for your projects, at a high level. For more information about the Resource Planner, see [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
@@ -133,9 +133,9 @@ For information about creating and using filters in the Workload Balancer, see [
   
   For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-* You can assign work to a Task Collaborator in all of the same ways you assign work to a user. The Task Collaborator must exist in Workfront before it can be assigned to tasks.
+* You can assign work to a Work Agent in all of the same ways you assign work to a user. The Work Agent must exist in Workfront before it can be assigned to tasks.
 
-  For information about creating Task Collaborators, see [Configure a Task Collaborator](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) in the article [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+  For information about creating Work Agents, see [Configure a Work Agent](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent) in the article [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
 ### Best practices for setting up tasks and issues {#best-practices-for-setting-up-tasks-and-issues}
 

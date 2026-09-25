@@ -33,7 +33,7 @@ topic_v2:
 
 You can assign resources to multiple tasks and issues in bulk using the Adobe Workfront Workload Balancer.
 
-For general information about assigning work to users and Task Collaborators using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+For general information about assigning work to users and Work Agents using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Access requirements
 

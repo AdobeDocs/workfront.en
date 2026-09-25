@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Create and manage brands for the Content Reviewer
-description: Create and manage brands for the Content Reviewer
+title: Create and manage brands for the AI Reviewer
+description: Create and manage brands for the AI Reviewer
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -32,9 +32,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 ---
-# Create and manage brands for the Content Reviewer
+# Create and manage brands for the AI Reviewer
 
-The Content Reviewer uses brand guidelines to evaluate content during the review process. You can create brands in Workfront by uploading PDF files that contain your brand guidelines or by manually entering brand elements.
+The AI Reviewer uses brand guidelines to evaluate content during the review process. You can create brands in Workfront by uploading PDF files that contain your brand guidelines or by manually entering brand elements.
 
 ## Access requirements
 
@@ -73,7 +73,7 @@ For more detail about the information in this table, see [Access requirements in
 * Your Workfront instance must have Unified Approvals enabled. 
 
 * Your organization must have GenStudio Foundation. 
-    * Content Reviewer in Workfront provides the functionality available in GenStudio Foundation for asset review and approval workflows. You do not need to access GenStudio Foundation directly to complete your work. Your access to GenStudio Foundation functionality through Content Reviewer falls under the terms of your Workfront contract.
+    * AI Reviewer in Workfront provides the functionality available in GenStudio Foundation for asset review and approval workflows. You do not need to access GenStudio Foundation directly to complete your work. Your access to GenStudio Foundation functionality through AI Reviewer falls under the terms of your Workfront contract.
 * Adobe must have a signed Adobe Gen AI agreement on file.
     For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
@@ -100,7 +100,7 @@ For more detail about the information in this table, see [Access requirements in
     >
     >Guidelines are generated using your files and generative AI technology and may be inaccurate. Review extracted guidelines for missing or incorrect details and edit them before you publish this brand.
 
-1. When finished, click **Publish** to make the brand available for the Content Reviewer.
+1. When finished, click **Publish** to make the brand available for the AI Reviewer.
 
 ## Create a brand manually
 
@@ -142,14 +142,14 @@ For more detail about the information in this table, see [Access requirements in
     ![add brand elements manually](assets/brand-elements.png)
 
 
-1. When finished, click **Publish** to make the brand available for the Content Reviewer.
+1. When finished, click **Publish** to make the brand available for the AI Reviewer.
 
 
 ## Best practices for writing brand guidelines
 
-Before writing your guidelines, review [what the Content Reviewer evaluates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-content-reviewer-evaluates) for image and brand voice guideline types. Guidelines outside of these evaluation areas will not be scored.
+Before writing your guidelines, review [what the AI Reviewer evaluates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-ai-reviewer-evaluates) for image and brand voice guideline types. Guidelines outside of these evaluation areas will not be scored.
 
-*  Write brand guidelines that describe measurable criteria. The Content Reviewer evaluates content literally, so objective rules produce more consistent scores than subjective ones.
+*  Write brand guidelines that describe measurable criteria. The AI Reviewer evaluates content literally, so objective rules produce more consistent scores than subjective ones.
 
 * Look for words like "avoid," "keep," or "make sure" in your guidelines. These often signal a rule you can tighten. Replace the vague instruction with a specific list of words, formats, or limits. For example, replace "avoid common skiing clichés" with "do not use 'gnar,' 'pow,' or 'shred.'"
 
