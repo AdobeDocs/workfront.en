@@ -73,6 +73,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 ## Prerequisites
 
 * You must have the Workfront and Frame.io integration set up in your Workfront instance. For more information, see [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
+* To review a web link document, you need the [Frame.io Chrome extension](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen) installed. If it isn't installed, you're prompted to download it the first time you open the Frame.io viewer for a web link document in Workfront.
 
 ## Review a document
 
