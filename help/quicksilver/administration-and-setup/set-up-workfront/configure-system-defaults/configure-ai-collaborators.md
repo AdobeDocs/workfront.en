@@ -100,9 +100,9 @@ Reviewer AI Collaborators can be configured to use Workfront brands, or Adobe Br
 
 ## Configure a Task Collaborator
 
-Task Collaborators are MCP agents that you can assign to tasks in Workfront. You configure the Task Collaborator with a name, access level, and other details, and assign it to a task as you would assign a user. 
+Task Collaborators are agents that you can assign to tasks in Workfront. You configure the Task Collaborator with a name, access level, and other details, and assign it to a task as you would assign a user. 
 
-Because Task Collaborators are MCP agents, their actions and abilities are configured where you configure your agents. Currently, agents used as Task Collaborators can be created in Copilot Studio, Claude, or Writer.
+Because Task Collaborators are agents, their actions and abilities are configured where you configure your agents. Currently, agents used as Task Collaborators can be created in Copilot Studio, Claude, or Writer.
 
 Task Collaborators can be assigned only to tasks, and cannot currently be assigned to issues.
 
