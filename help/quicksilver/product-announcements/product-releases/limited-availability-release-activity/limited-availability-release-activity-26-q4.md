@@ -6,8 +6,7 @@ author: Lisa
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-hide: yes
-hidefromtoc: yes
+hide: true
 ---
 # Fourth Quarter 2026 release activity for Adobe Workfront limited availability features
 
