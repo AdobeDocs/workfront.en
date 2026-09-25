@@ -82,6 +82,7 @@ For more information about Workfront access requirements, see [Access requiremen
 
 * Different people and teams can hold different levels of access on the same request.
 * Permissions could be assigned through multiple entities. If a user has Contribute permissions to a request but their group or job role has View permissions, they retain the highest level of permissions which is Contribute. 
+* Requests inherit permissions from the workspace and the record type. You cannot remove or edit Inherited permissions for Planning requests.
 
 ## Share a request
 
@@ -106,7 +107,14 @@ Ensure you are using the new request experience.
 1. (Optional) For each permission level, click the granular permission icon and select or deselect any granular permissions, like **Edit**, **Comment**, **Share**, or **Delete**. 
 
     ![Granular permissions on requests](assets/granular-permissions-on-requests.png)
+1. (Optional) Expand the Inherited permissions line to view who gains permissions from the workspace and the record type.
+
+    >[!TIP]
+    >
+    >You cannot remove or edit Inherited permissions for Planning requests.
+
 1. Click **Save**.
+
 
     The request is shared with the entities you selected. 
 
