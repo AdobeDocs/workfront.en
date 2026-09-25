@@ -35,6 +35,8 @@ topic_v2:
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
+<!--this article needs to be re-built - the structure is odd; some of the information needs to move to other articles - like the approval information - there is a standalone approval article - move there-->
+
 <!--take Preview and Production references at Production time-->
 
 
@@ -66,7 +68,7 @@ For information about submitting a request to a record type to create a record, 
    <td> 
 <ul> 
 <li><p>Any Workfront or Workflow with a Planning package</p></li>
-Or
+   Or
 <li><p>Any Planning package when purchased as a standalone product</p></li></ul>
    </td> </tr>
   <tr> 
@@ -86,7 +88,7 @@ Or
   </tr>  
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Manage permissions to a workspace or record type</a> </p>  
+   <td>   <p>Manage permissions to a workspace or record type</p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
 </tbody> 
@@ -116,7 +118,7 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
 
    * Currency, Number, and Percentage fields display as a Single-line text field type in the form builder. 
 
-      However, the field format is preserved and the field values will display as as currency, numbers, and percentages after the request is submitted, on the record type and in the request details page.
+      However, the field format is preserved and the field values will display as currency, numbers, and percentages after the request is submitted, on the record type and in the request details page.
 
 * The following describe how some field values display on request forms and the request details pages: 
 
@@ -198,14 +200,53 @@ To create a request form, you must complete the following:
    1. Click the **x** icon to remove the **Default Section**. 
 1. Click any field, then use the controls in the right panel in the form to define their size, or any of the following information:
 
+   * **Size**: Controls the space that the field occupies on the form. Not available for all field types. 
    * **Label**: This is the name of the field as it will appear on the request form. This does not change the name of the record field.
    * **Instructions**: Add more information about the field.
-   * **Make a required field**: When selected, the field must have a value. Otherwise, the form cannot be submitted. 
-   * **Add logic**: Define what conditions must be met in order for the field to display or be hidden. <!--<span class="preview">In addition to display and skip logic, validation logic is also available.</span> For information on field logic, see [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).-->
+
+   <div class="preview">
+
+   * **Choices**: This is available only for select fields. Do one of the following: 
+
+      * Click **Sort Choices A-Z** to order them automatically. 
+      * Drag and drop the choices or order them manually. 
+      * Click the **Settings** icon ![Settings icon](assets/settings-icon.png), then **Select by Default** to indicate which choice is the default option, or **Hide choice** to hide it.
+
+   </div>
 
    >[!TIP]
    >
-   >The field type of each field displays at the top of the right panel, after you select the field on the form.
+   ><span class="preview">You cannot rename or remove choices on a Planning request form. You must edit the field choices in the table view of the record type.</span>
+      
+
+1. In the **Advanced settings** area, select from the options listed below. Not all options are available to all field types. 
+
+   * **Make a required field**: When selected, the field must have a value. Otherwise, the form cannot be submitted. 
+   * **Add logic**: Define what conditions must be met in order for the field to display or be hidden. Add logic is available only when fields are, or are preceded by, single- and multi-select fields. <span class="preview">Validation and default value rules are not available for all field types.</span>
+
+      In the Production environment, select from the following options: 
+
+      * **Display Logic**: The field you selected must be preceded by a multi-select or a single-select field. 
+      * **Skip Logic**: Add skip rules for when users should skip the field and leave it blank.
+
+      <div class="preview">
+
+      In the Preview environment, select from the following options: 
+
+      * **Display**
+      * **Skip**
+      * **Default value**
+      * **Validation**
+      * **Formatting**
+      * **Editability**
+
+      </div> 
+
+      For more information, see [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
+
+      >[!TIP]
+      >
+      ><span class="preview">The field type of each field displays at the top of the right panel, after you select the field on the form.</span>
 
 1. (Optional) Long-click a field and drag it and drop it in another position on the form.
 1. (Optional) Click the **Content elements** tab on the left side of the form, and add any of the following elements:
@@ -225,25 +266,19 @@ To create a request form, you must complete the following:
 
 ### Configure form settings
 
-On the Settings tab, you can set approval rules and configure when a request created from this form will be marked as Completed.
+On the Settings tab, you can set approval rules, configure when a request created from this form will be marked as Completed, and <span class="preview">assign default permissions to users interacting with future requests submitted using the form.</span>
 
 Approval rules define the approval process based on field values in the submitted requests. 
 
 For example, if a request form has the field "Campaign type," a rule can be created that sends the request to one person when the field has the value "Digital", and a different person when it has the value "Print."
 
-Consider the following when adding approval rules:
-
-* Rules are prioritized by order. If the first rule conditions are met, then that rule is applied, even if conditions for rules further down the list are also met. 
-* If no conditions are met, then the default rule is applied.
-* You can add one or several approvers to an approval rule.
-* If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
-* If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
-* If a team is set as an approver, only one decision is required from the team.
-<!--<span class="preview">* Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
+<span class="preview">Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>
 
 For more information about adding approvals, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 Completion options allow you to set whether a request is marked complete when the requested object is created, or when the created object is completed. You define when the object is complete based on a specified condition.
+
+<span class="preview">Use the Permissions section in the Settings area of a request form to define the default permissions of requestors <!--and non-requestors--> to the requests created using the form.</span>
 
 To configure form settings: 
 
@@ -252,35 +287,12 @@ To configure form settings:
     The request form for the selected record type opens in the Form tab. 
 1. (Optional) Set up any form details, as described in [Set up Form details](#set-up-form-details).   
 
-1. To begin configuring approval rules, click Approvals ![Approvals icon](assets/approvals-icon-on-form.png) in the left navigation.
+1. To begin configuring approval rules, click **Approvals** ![Approvals icon](assets/approvals-icon-on-form.png) in the left navigation.
 
-1. (Optional) If you want to set a default approval process, add at least one user or team to the **Approvers** field of the Default approval rule area, then click the **Only one decision is required** checkbox if you want the record to be created after any one of the default approvers has approved it.  
+   You can create single <span class="preview"> or multi stage approval rules </span> and assign users or teams to an approval. 
 
-   ![Default approval rule area](assets/default-approvers.png)
+   For more information about adding approvals, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval. Add the approvers for each stage, and save the multi-stage approval.</span> FIX INDENT WHEN YOU UNCOMMENT THIS, SHOULD BE FLUSH LEFT-->
-
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
-
-1. (Optional) For each additional approval rule, do the following:
-
-   1. Click **Add approval rule**.
-   1. Click the placeholder title "Untitled approval rule" and enter a name for the approval rule.
-   1. Click **Select a field** and select the field that activates the rule.
-   1. Select the operator for the rule. Operators vary based on the type of field.
-   1. If the selected operator requires a value, click the plus icon and add one or more values.
-   1. (Optional) Add more conditions using AND or OR by clicking Add condition and configuring the additional condition.
-   1. In the Actions area of the approval rule, in the **Approvers** field, add at lease one user or team to be set at the approver when the condition is met.
-   1. (Conditional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox.
-
-   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
-
-1. (Optional) To reorder routing rules, click the drag handle on the left side of the rule and drag the rule to the desired location.
-
-   The default rule cannot be reordered.
-   
-1. (Optional)To delete a routing rule, click the **X** to the right of the rule.
-1. Click **Save** to save the approval rules.
 1. Click **Request completion options** on the left panel.
 1. Select from the following options:
 
@@ -289,27 +301,34 @@ To configure form settings:
   
 1. (Conditional) If you have selected for the request to be marked complete when the requested object is completed, select the field and the value that indicates when the object is complete. For example, you could select the field Status and the value Complete to complete the request when the created object's status is set to Complete.
 
+1. <span class="preview">Click **Permissions** on the left panel.</span>
+1. <span class="preview">Select the permission level for the users submitting requests through this form:</span>
 
-   <!--
-   1. <span class="preview">Click **Permissions** on the left panel.</span>
-   1. <span class="preview">Select the permission level for the users submitting requests through this form:</span>
-      <div class="preview">
-      * **View**: All requesters can comment on and share the form.
-      * **Contribute**: All requesters can comment on, share, and edit the form.
-      * **Manage**: All requesters can comment on, share, edit, and delete the form.
-      </div>
-   1. <span class="preview"> (Optional) Deselect any of the granular permissions for each permission level to prevent requestors to perform the following actions:</span>
-      <div class="preview">
-      * Comment
-      * Share
-      * Edit. Not available for View. 
-      * Delete. Not available for Contribute and View. 
-      </div>
-      >[!TIP]
-      >
-      ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page. </span>
-   1. <span class="preview">Click **Save**.</span>
-   -->
+   <div class="preview">
+
+   * **View**: All requesters can comment on and share the form.
+   * **Contribute**: All requesters can comment on, share, and edit the form.
+   * **Manage**: All requesters can comment on, share, edit, and delete the form.
+
+   </div>
+
+1. <span class="preview"> (Optional) Deselect any of the granular permissions for each permission level to prevent requestors to perform the following actions:</span>
+
+   <div class="preview">
+
+   * Comment
+   * Share
+   * Edit. Not available for View. 
+   * Delete. Not available for Contribute and View. 
+
+   </div>
+
+   >[!TIP]
+   >
+   ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page. </span>
+
+1. <span class="preview">Click **Save**.</span>
+
 
 1. Continue to [Publish form](#publish-form). 
 
@@ -330,7 +349,7 @@ To configure form settings:
    For information about sharing a request form, see the [Share a request form](#share-a-request-form) section in this article
 1. Click the left-pointing arrow to the left of the form's name in the header to close the form. 
 
-   The **Request forms** list opens and the the form displays in the list. 
+   The **Request forms** list opens and the form displays in the list. 
 
 ## Share a request form
 
@@ -357,7 +376,7 @@ To configure form settings:
 
       ![Share box for request form](assets/share-box-for-request-form.png)
 
-1. (Optional) Click **Copy link** to share the link to the form with people who have access to access the form and submit requests. The link is copied to your clipboard and you can share it with others.
+1. (Optional) Click **Copy link** to share the link to the form with people who have access to the form and submit requests. The link is copied to your clipboard and you can share it with others.
 1. To share the form publicly, select the **Public sharing** tab, then turn on the **Create public link** setting. It is turned off by default. 
 
    ![Public sharing for request form](assets/share-request-form-publicly-tab.png)
@@ -410,7 +429,7 @@ To configure form settings:
 
    For more information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md). 
    
-1. (Optional) Hover over the name of a request form in the list view, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the form name, and click one of he following:
+1. (Optional) Hover over the name of a request form in the list view, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the form name, and click one of the following:
 
    * **Edit form**: Click this to further edit information on the form.
    * **Unpublish**: Click this to unpublish the form which removes it from the Requests area in Workfront.
@@ -434,6 +453,8 @@ To configure form settings:
 1. (Optional) Go to the **Requests** area in Workfront and find the shared form to submit a request. For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
 
 <!--
+
+This information is for unified intake process: 
 
 <div class="preview">
 
