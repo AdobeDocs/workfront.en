@@ -29,8 +29,6 @@ Users without access do not see restricted fields, while administrators can conf
 
 For information, see [Share Workfront Planning fields](/help/quicksilver/planning/access/share-fields.md).
 
-<!--
-
 ## Share a Planning request
 
 >[!NOTE]
@@ -84,8 +82,6 @@ Workfront and workspace administrators can now indicate the level of permissions
 Requesters can get the following permissions to a request they submitted: View, Contribute, or Manage. Users can comment, edit, share, or view a request, and the capabilities that are not shared with them are dimmed when viewing the sharing box from a request.
 
 For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
-
--->
 
 ## AI Form Fill now pulls data from records referenced with a link
 
