@@ -26,13 +26,13 @@ For example, you can configure a reviewer-type AI Collaborator with brand guidel
 
 Available AI Collaborator types include:
 
-* Reviewer: Create a collaborator using brands or Adobe Brand Intelligence, then assign the collaborator as a reviewer on assets.
+* AI Reviewer: Create a collaborator using brands or Adobe Brand Intelligence, then assign the collaborator as a reviewer on assets.
 
-   For more information, see [Get started with the Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+   For more information, see [Get started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Task Collaborator: Create a collaborator using Copilot or Writer, then assign the collaborator to a task to complete task-level work.
+* Work Agent: Create a collaborator using Copilot or Writer, then assign the collaborator to a task to complete task-level work.
 
-   For more information, see [Use Task Collaborators](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+   For more information, see [Use Work Agents](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
 
 ## Access requirements
@@ -69,23 +69,23 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 * Your organization must have a signed Adobe Gen AI Agreement on file. 
 
    For more information, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in the article AI Assistant in Workfront.
-* You must have configured a brand in Workfront before you can use it for a Reviewer-type AI Collaborator.
+* You must have configured a brand in Workfront before you can use it for an AI Reviewer.
 
-   For instructions, see [Create and manage brands for the Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
-* To use Adobe Brand Intelligence for a Reviewer AI Collaborator, your organization must use the unified review and approval experience in Workfront.
+   For instructions, see [Create and manage brands for the AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
+* To use Adobe Brand Intelligence for an AI Reviewer, your organization must use the unified review and approval experience in Workfront.
 
    For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
-### For Task Collaborators
+### For Work Agents
 
-You must configure an agent in Claude, Copilot Studio, or Writer before you can use it as a Task Collaborator. 
+You must configure an agent in Claude, Copilot Studio, or Writer before you can use it as a Work Agent. 
 
-## Create a new Reviewer-type AI Collaborator
+## Create a new AI Reviewer
 
-Reviewer AI Collaborators can be configured to use Workfront brands, or Adobe Brand Intelligence.
+AI Reviewers can be configured to use Workfront brands, or Adobe Brand Intelligence.
 
 * **Brands**: Brands are created in Workfront. You can create brands in Workfront by uploading PDF files that contain your brand guidelines or by manually entering brand elements.
-* **Adobe Brand Intelligence**: When an AI Collaborator reviews an asset using Adobe Brand Intelligence, you can view comments made by the Reviewer in Frame.io.
+* **Adobe Brand Intelligence**: When an AI Collaborator reviews an asset using Adobe Brand Intelligence, you can view comments made by the AI Reviewer in Frame.io.
 
 
 {{step-1-to-setup}}
@@ -98,23 +98,23 @@ Reviewer AI Collaborators can be configured to use Workfront brands, or Adobe Br
 1. (Conditional) If the AI Collaborator will use a Brand, select the brand and brand guideline that it will use.
 1. Click **Save**.
 
-## Configure a Task Collaborator
+## Configure a Work Agent
 
-Task Collaborators are agents that you can assign to tasks in Workfront. You configure the Task Collaborator with a name, access level, and other details, and assign it to a task as you would assign a user. 
+Work Agents are agents that you can assign to tasks in Workfront. You configure the Work Agent with a name, access level, and other details, and assign it to a task as you would assign a user. 
 
-Because Task Collaborators are agents, their actions and abilities are configured where you configure your agents. Currently, agents used as Task Collaborators can be created in Copilot Studio, Claude, or Writer.
+Because Work Agents are agents, their actions and abilities are configured where you configure your agents. Currently, agents used as Work Agents can be created in Copilot Studio, Claude, or Writer.
 
-Task Collaborators can be assigned only to tasks, and cannot currently be assigned to issues.
+Work Agents can be assigned only to tasks, and cannot currently be assigned to issues.
 
-For a list of best practices when creating an agent to work as a Task Collaborator, see [Best practices for creating an agent for a Task Collaborator](#best-practices-for-creating-an-agent-for-a-task-collaborator).
+For a list of best practices when creating an agent to work as a Work Agent, see [Best practices for creating an agent for a Work Agent](#best-practices-for-creating-an-agent-for-a-work-agent).
 
-### Configure a task collaborator in Workfront
+### Configure a Work Agent in Workfront
 
 {{step-1-to-setup}}
 
 1. In the left navigation, click **AI Collaborators**.
 1. Click **New Collaborator** in the upper-right corner of the screen.
-1. Select **Task agents**, then click **Continue**.
+1. Select **Work agents**, then click **Continue**.
 1. In the AI Collaborator Name field, enter a name for the collaborator. This is the name that appears in the list of available assignees on a task.
 1. In the AI Collaborator description field, enter a description of the collaborator's purpose or the actions it performs.
 1. In the Access Level field, select an access level for this collaborator. This access level controls what the collaborator can do, in the same way an access level controls what a user can do.
@@ -131,12 +131,12 @@ For a list of best practices when creating an agent to work as a Task Collaborat
 1. In the **After the Collaborator is finished with its work, it can** area, toggle on the actions that you want the collaborator to take.
 1. Click **Save**.
 
-For more information on Task Collaborators, including how to assign them to tasks, see [Use Task Collaborators](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+For more information on Work Agents, including how to assign them to tasks, see [Use Work Agents](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
 
-### Best practices for creating an agent for a Task Collaborator
+### Best practices for creating an agent for a Work Agent
 
-You may find the following best practices helpful when creating an agent to use as a Task Collaborator in Workfront. To see best practices, click the section for the application where you are creating the agent.
+You may find the following best practices helpful when creating an agent to use as a Work Agent in Workfront. To see best practices, click the section for the application where you are creating the agent.
 
 +++ Claude
 
@@ -144,7 +144,7 @@ You may find the following best practices helpful when creating an agent to use 
 1. Create an API key.
    1. Under API Keys, click **Create Key** in the upper-right corner.
    1. Provide a name and expiration date.
-   1. Copy the key and save it somewhere safe and secure. You will need this key to configure the Task Collaborator in Workfront.
+   1. Copy the key and save it somewhere safe and secure. You will need this key to configure the Work Agent in Workfront.
 
 1. Create an environment.
    1. Under **Managed Agents** > **Environments**, click **Create Environment** in the upper-right corner.
@@ -154,15 +154,15 @@ You may find the following best practices helpful when creating an agent to use 
 
 1. Create an agent.
    1. Under Managed Agents > Agents, click **Create Agent** in the upper-right corner.
-   1. Provide a name, model, system prompt, skills, and tools as applicable. Be descriptive, because Task Collaborators pass task context through to this agent, which then executes the work.
+   1. Provide a name, model, system prompt, skills, and tools as applicable. Be descriptive, because Work Agents pass task context through to this agent, which then executes the work.
      The agent ID appears below the agent name in the upper-left corner.
 
-1. Configure the Task Collaborator in Workfront.
+1. Configure the Work Agent in Workfront.
    1. Enter your API key, environment ID, and agent ID
    1. Click **Test Connection** to verify.
 
-1. Assign the Task Collaborator to a Workfront task.
-   1. The Task Collaborator fires after all predecessor tasks are complete.
+1. Assign the Work Agent to a Workfront task.
+   1. The Work Agent fires after all predecessor tasks are complete.
 
 +++
 <!--
@@ -176,9 +176,9 @@ You may find the following best practices helpful when creating an agent to use 
 
 >[!NOTE]
 >
-> You can use a Writer agent as a Task Collaborator, but Writer playbooks cannot be used as Task Collaborators.
+> You can use a Writer agent as a Work Agent, but Writer playbooks cannot be used as Work Agents.
 
-When creating an agent for use as a Task Collaborator in Writer, we recommend the following workflow.
+When creating an agent for use as a Work Agent in Writer, we recommend the following workflow.
 
 More detailed information about creating agents can be found in the [Writer documentation](https://dev.writer.com/no-code/introduction).
 
@@ -186,13 +186,13 @@ More detailed information about creating agents can be found in the [Writer docu
 1. Add a single Text input field. You can use the default name "Text input."
 1. Add `@TextInput` to your Prompt. In the Prompts section of your app configuration, make sure your prompt template references the input variable. Without this, the model never sees the task data.
 1. Adjust your Prompt to generate output immediately. Remove any instructions that ask the user for clarification or additional context before responding. For example: "When you receive input, treat it as a content generation request and produce the output immediately. Do not ask for clarification."
-1. Copy your API key and Application ID. You will need Task Collaborator to configure the Task Collaborator in Workfront.
+1. Copy your API key and Application ID. You will need them to configure the Work Agent in Workfront.
 
    * For instructions on setting up an API key in Writer, see [Quickstart](https://dev.writer.com/home/quickstart) in the Writer documentation.
    * For instructions on setting up an application ID in Writer, see [Invoke no-code agents via the API](https://dev.writer.com/home/applications) in the Writer documentation.
  
-1. Configure the Task Collaborator in Workfront. As part of the configuration, enter your API key and Application ID, then click **Test connection** to verify.
-1. Assign the Task Collaborator to a Workfront task. The Collaborator begins work when all of the task's predecessor tasks are complete.
+1. Configure the Work Agent in Workfront. As part of the configuration, enter your API key and Application ID, then click **Test connection** to verify.
+1. Assign the Work Agent to a Workfront task. The Work Agent begins work when all of the task's predecessor tasks are complete.
 
 +++
 
