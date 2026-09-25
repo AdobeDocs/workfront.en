@@ -2,19 +2,21 @@
 content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
-title: "Grant and request permissions to objects: article index"
+title: 'Grant and request permissions to objects: article index'
 description: Review these articles to learn how to grant and request permission to objects in Workfront.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: b7b3de2c-8537-49c5-8674-a7a0f3691db3
-TQID: https://experienceleague.adobe.com/aq2JBrZH5AQfyWMLKxhKHmvOiksEQ2Eaw-97heza-3Y
+TQID: 'https://experienceleague.adobe.com/aq2JBrZH5AQfyWMLKxhKHmvOiksEQ2Eaw-97heza-3Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
     internal-label: Workfront Scenario Planner

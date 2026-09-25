@@ -2,20 +2,22 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Grouping: Home Group of Project Owner in a List of Hours"
+title: 'Grouping: Home Group of Project Owner in a List of Hours'
 description: You can display the name of the Home Group of the Project Owner in an Hour list or report.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6491ab9b-c09e-4bdb-99c2-56bb44f66947
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/R8bSZeCHD0MDm7SP3V6s61CP2vUg6HxaFusG-WrCnLo
+TQID: 'https://experienceleague.adobe.com/R8bSZeCHD0MDm7SP3V6s61CP2vUg6HxaFusG-WrCnLo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

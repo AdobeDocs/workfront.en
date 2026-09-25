@@ -6,13 +6,15 @@ description: When a [!DNL Workfront] administrator creates a new user, the new u
 author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-TQID: https://experienceleague.adobe.com/QhcEeZDvfIbdcXpkYyWoPBP1GP4VXSEbK7nE3RZEddI
+TQID: 'https://experienceleague.adobe.com/QhcEeZDvfIbdcXpkYyWoPBP1GP4VXSEbK7nE3RZEddI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

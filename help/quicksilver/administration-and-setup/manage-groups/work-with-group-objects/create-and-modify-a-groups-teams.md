@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-TQID: https://experienceleague.adobe.com/y4osIytJeWgPtxz6fhWksmVS4uLV1n6Z-w2UiwwQRLs
+TQID: 'https://experienceleague.adobe.com/y4osIytJeWgPtxz6fhWksmVS4uLV1n6Z-w2UiwwQRLs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -17,6 +17,10 @@ feature_v2:
     internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
     internal-label: Tasks

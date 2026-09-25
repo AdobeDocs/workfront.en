@@ -1,8 +1,14 @@
 ---
 title: Access Needed for Adobe Workfront Planning as a Standalone Product
-description: This article describes licenses, access levels and user capabilities for the Adobe Workfront Planning as a standalone product. 
-last-update: 2026-04-01T14:02:40-04:00
+description: This article describes licenses, access levels and user capabilities for the Adobe Workfront Planning as a standalone product.
+last-update: 2026-04-01T18:02:40.000Z
 git-commit-file: 8cc175490a6aa1db68b238edbdf9da9da7fbb258
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 <!--
 

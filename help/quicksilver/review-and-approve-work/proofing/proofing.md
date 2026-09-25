@@ -2,16 +2,22 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: "Proofing: article index"
+title: 'Proofing: article index'
 description: Review and comment in the same document where creative teams work. With Workfront Proofing, you can request feedback, see comments, and get notifications for pending and completed approvals –– all while maintaining an audit trail of comments and versions.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-TQID: https://experienceleague.adobe.com/UksmFm4KpGWzL-3S4HvnDAwD5raaU-OOOlmKWl6BNis
+TQID: 'https://experienceleague.adobe.com/UksmFm4KpGWzL-3S4HvnDAwD5raaU-OOOlmKWl6BNis'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -7,6 +7,12 @@ description: This article outlines the step-by-step process for determining the 
 author: Lisa
 feature: Work Management
 exl-id: 623828fb-e1ac-4cae-8b9f-567a6f8cb7ae
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 ---
 # Overview of revenue and cost hierarchy
 

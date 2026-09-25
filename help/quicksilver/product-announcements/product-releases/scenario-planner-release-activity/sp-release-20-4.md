@@ -8,10 +8,18 @@ description: Workfront Scenario Planner is available only with the new Adobe Wor
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 32e124fe-81ea-42b3-b4aa-069aed78263e
-TQID: https://experienceleague.adobe.com/hZeSLglCZ8Y-IAbfRJ53ALc3lLLGOUV4sl0M7mt37uY
+TQID: 'https://experienceleague.adobe.com/hZeSLglCZ8Y-IAbfRJ53ALc3lLLGOUV4sl0M7mt37uY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

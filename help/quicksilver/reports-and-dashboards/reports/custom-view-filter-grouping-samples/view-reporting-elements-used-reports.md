@@ -2,20 +2,22 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: Reporting Elements Used in Reports"
+title: 'View: Reporting Elements Used in Reports'
 description: This view displays the View, Filter, and Grouping used to build each report in Adobe Workfront when you use it in a list of reports.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 67f86523-e136-4768-af93-586a107b106f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/11BO8sGeF16PUkzl9ZkBz0Q-X-ho9RqrIy6qunsj090
+TQID: 'https://experienceleague.adobe.com/11BO8sGeF16PUkzl9ZkBz0Q-X-ho9RqrIy6qunsj090'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

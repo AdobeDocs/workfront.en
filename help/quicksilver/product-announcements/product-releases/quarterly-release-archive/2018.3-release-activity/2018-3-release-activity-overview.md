@@ -2,12 +2,12 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.3 release activity overview
-description: "Note: The 2018.3 release was made available in the Production environment on the following dates (for detailed dates and times, see trust.workfront.com)"
+description: 'Note: The 2018.3 release was made available in the Production environment on the following dates (for detailed dates and times, see trust.workfront.com)'
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 55787c1e-45af-4b9f-bdbc-10cfacb326e6
-TQID: https://experienceleague.adobe.com/A8tWEEc2s9q0bcSRx3o4JPJ1qBn27iEf6sl-stLtrW0
+TQID: 'https://experienceleague.adobe.com/A8tWEEc2s9q0bcSRx3o4JPJ1qBn27iEf6sl-stLtrW0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -15,7 +15,7 @@ feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-    internal-label: Resource Management
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
 subfeature_v2:
@@ -27,6 +27,8 @@ subfeature_v2:
     internal-label: Resource Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

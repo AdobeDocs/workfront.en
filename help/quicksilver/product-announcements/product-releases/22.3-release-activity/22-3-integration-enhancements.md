@@ -2,11 +2,11 @@
 title: 22.3 Integration enhancements
 description: 22.3 Integration enhancements
 author: Luke
-draft: No
+draft: 'No'
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: caaef6a2-a554-4a2c-a86d-df3f19a4f40c
-TQID: https://experienceleague.adobe.com/1Htz1VQzgsbRxs0PnoQqRDvWbF1WexWohgpDynsHfKQ
+TQID: 'https://experienceleague.adobe.com/1Htz1VQzgsbRxs0PnoQqRDvWbF1WexWohgpDynsHfKQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -18,6 +18,8 @@ feature_v2:
 subfeature_v2:
   - id: d1807669-3cb9-4c7d-8433-600aa390c92f
     internal-label: Adobe Workfront for Creative Cloud Plugin
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

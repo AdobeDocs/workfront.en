@@ -7,10 +7,13 @@ description: Adobe [!DNL Workfront] has partnered with a few Mobile Device Manag
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 6f989fb8-5e33-4626-92cf-1d3a629698b0
-TQID: https://experienceleague.adobe.com/S3gpFnGwPy1SEaFAlN-fs7eXPGkG8NX63hQNzUTlalU
+TQID: 'https://experienceleague.adobe.com/S3gpFnGwPy1SEaFAlN-fs7eXPGkG8NX63hQNzUTlalU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

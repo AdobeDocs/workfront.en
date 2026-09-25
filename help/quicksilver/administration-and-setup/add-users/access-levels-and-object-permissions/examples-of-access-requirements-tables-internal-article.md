@@ -1,9 +1,12 @@
 ---
-title: "Examples of access requirements tables - internal article"
-description: This is an internal article for our team to keep an inventory of the tables we use for Access Requirements. This should not publish. 
-author: Alina 
+title: Examples of access requirements tables - internal article
+description: This is an internal article for our team to keep an inventory of the tables we use for Access Requirements. This should not publish.
+author: Alina
 hide: true
-hidefromtoc: yes
+hidefromtoc: 'yes'
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 ---
 
 # Examples of access requirements tables - internal article

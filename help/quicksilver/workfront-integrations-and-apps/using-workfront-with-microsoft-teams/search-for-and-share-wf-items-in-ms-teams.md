@@ -6,7 +6,7 @@ description: You can search for [!DNL Workfront] items in any [!DNL Adobe Workfr
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-TQID: https://experienceleague.adobe.com/LR2Je81cHRzkXMS9cyaLF4b01bN8PGmu2zC6aAqptrM
+TQID: 'https://experienceleague.adobe.com/LR2Je81cHRzkXMS9cyaLF4b01bN8PGmu2zC6aAqptrM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -15,6 +15,8 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
     internal-label: Adobe Workfront for Microsoft Teams

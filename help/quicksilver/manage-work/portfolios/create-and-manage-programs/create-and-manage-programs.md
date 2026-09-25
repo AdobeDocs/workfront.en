@@ -2,19 +2,21 @@
 content-type: reference
 product-area: programs
 navigation-topic: portfolios-navigation-topic
-title: "Create and Manage Programs: article index"
+title: 'Create and Manage Programs: article index'
 description: Programs are a collection of projects that contribute to a common strategy, objective, or goal. Programs are a subdivision of portfolios, and they can't exist outside of a portfolio.
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
-TQID: https://experienceleague.adobe.com/dx62x2kT8-w-H6CbpPV936jG7MKEP0P6Kj1JaBhRoj8
+TQID: 'https://experienceleague.adobe.com/dx62x2kT8-w-H6CbpPV936jG7MKEP0P6Kj1JaBhRoj8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
     internal-label: Work management
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
     internal-label: Projects

@@ -1,7 +1,7 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
-title: "Manage Canvas Dashboards: article index"
+title: 'Manage Canvas Dashboards: article index'
 description: View the articles in this section.
 author: Courtney
 feature: Reports and Dashboards
@@ -9,10 +9,13 @@ recommendations: noDisplay, noCatalog
 exl-id: 3e36ddc8-2552-4449-9c3a-3720e0af590b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/TpPiROUIMs1tDz3BCYNOA-Zr6RkIttxQSmj-dIAKQrY
+TQID: 'https://experienceleague.adobe.com/TpPiROUIMs1tDz3BCYNOA-Zr6RkIttxQSmj-dIAKQrY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

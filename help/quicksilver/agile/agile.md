@@ -2,7 +2,7 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: "Agile: Article Index"
+title: 'Agile: Article Index'
 description: Review the articles in these areas to learn how to use Agile in Adobe Workfront.
 author: Courtney
 feature: Agile
@@ -10,10 +10,16 @@ recommendations: noDisplay, noCatalog
 exl-id: c9bce921-0aee-42ba-9d6d-dd855762dc76
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ec4O8vicOeWoBdsyf2CQl1Q0z4LwGJZUexBDA2uc61M
+TQID: 'https://experienceleague.adobe.com/ec4O8vicOeWoBdsyf2CQl1Q0z4LwGJZUexBDA2uc61M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

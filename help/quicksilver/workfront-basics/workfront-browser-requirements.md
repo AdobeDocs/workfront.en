@@ -6,10 +6,13 @@ description: Both Adobe Workfront and Workfront Proof require the use of an inte
 feature: Get Started with Workfront
 author: Courtney
 exl-id: d5252675-ae87-4393-b05a-7810036e2f7d
-TQID: https://experienceleague.adobe.com/wvnnVO-fUD4E0t8Q63bV6zz2QOm2t7pP1MT2QBa2hTc
+TQID: 'https://experienceleague.adobe.com/wvnnVO-fUD4E0t8Q63bV6zz2QOm2t7pP1MT2QBa2hTc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -2,16 +2,19 @@
 content-type: reference;overview
 product-area: reporting;dashboards
 navigation-topic: reports-and-dashboards
-title: "Reports and Dashboards: article index"
+title: 'Reports and Dashboards: article index'
 description: You can organize information in reports in Adobe Workfront. You can place multiple reports on a dashboard. You can share both reports and dashboards with others for better collaboration.
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 618c9dda-ad7d-4a05-960b-3ad14c14d605
-TQID: https://experienceleague.adobe.com/nDWTF3rh4rsoxFgugBawRQBVyASElXxorDEHGnwJnLc
+TQID: 'https://experienceleague.adobe.com/nDWTF3rh4rsoxFgugBawRQBVyASElXxorDEHGnwJnLc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
