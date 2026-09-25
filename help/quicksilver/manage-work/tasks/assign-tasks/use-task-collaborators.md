@@ -21,7 +21,7 @@ role_v2:
 
 Task Collaborators are AI Collaborators that can be assigned directly to Workfront tasks, in addition to the existing Reviewer-type AI Collaborator used for document and asset reviews. Like other AI Collaborators, Task Collaborators are configured in the Setup area and assigned to tasks just like a user.
 
-Task Collaborators connect to agents that you have configured in Copilot Studio, Claude, or Writer.
+Task Collaborators connect to agents that you have configured in Copilot Studio, Claude, or Writer. Starting in the October release, you can also connect agents configured in OpenAI and IBM. <!-- BECKY: confirm exact platform names and October ship date. -->
 
 For information and instructions about creating a Task Collaborator in Workfront, see [Configure a Task Collaborator](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) in the article Configure AI Collaborators.
 
@@ -54,7 +54,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Prerequisites
 
-* You must configure an agent in Copilot, Claude, or Writer.ai before you can use it as a Task Collaborator.
+* You must configure an agent in Copilot, Claude, Writer.ai, OpenAI, or IBM before you can use it as a Task Collaborator. <!-- BECKY: confirm OpenAI/IBM naming and October availability. -->
 
 ## Task Collaborator overview
 
@@ -70,7 +70,7 @@ Some example workflows may include:
 >
 >* Specific details about an agent's responsibilities and abilities are configured in the application where the agent is created, not in Workfront. 
 >* The Workfront MCP server does not need to be added to the agent used as a Task Collaborator, and does not need to be connected for the Task Collaborator to work.
->* Task Collaborators currently support agents created in Copilot Studio, Claude, and Writer.ai.
+>* Task Collaborators currently support agents created in Copilot Studio, Claude, and Writer.ai. Starting in the October release, Task Collaborators also support agents created in OpenAI and IBM. <!-- BECKY: confirm naming and date. -->
 >* When configuring an agent in Copilot Studio, you must set security to **No authentication**.
 >* For information and instructions about creating a Task Collaborator in Workfront, see [Configure a Task Collaborator](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) in the article Configure AI Collaborators.
 
@@ -85,12 +85,20 @@ When a Task Collaborator begins work on a task, it automatically reads the follo
 
 This information is always read and is not configurable as a Workfront setting.
 
+### Attach a document for additional context
+
+Starting in the October release, you can attach a document directly to a task to pass along as additional context to a Task Collaborator. <!-- BECKY: confirm exact steps (standard task document attachment vs. a dedicated field), file type/size limits, and whether the Collaborator reads it automatically or only when referenced. -->
+
 >[!TIP]
 >
 >For best results, we recommend:
 >
 >* Including any background information you want the agent to use directly in the task description or a relevant custom form field.
 >* Making sure the task matches what your agent is instructed to do. For example, if your agent is instructed to translate text from English to French, include the text you want translated in the task description.
+
+## What a Task Collaborator can write
+
+Task Collaborators can read and write Task and Project fields as part of completing their work, keeping project data accurate and up to date. <!-- BECKY: confirm which fields are supported, whether this requires enabling a toggle when configuring the Collaborator (see "After the Collaborator is finished with its work, it can" in Configure AI Collaborators), and whether Project field write access requires the Collaborator to be assigned to that project. -->
 
 ## Task Collaborator start triggers
 
@@ -121,6 +129,15 @@ For instructions, see [Assign tasks](/help/quicksilver/manage-work/tasks/assign-
 >[!NOTE]
 >
 >Task Collaborators cannot be assigned to review or approve a document.
+
+## Assign a Task Collaborator to an issue
+
+Task Collaborators can also be assigned directly to issues. <!-- BECKY: confirm whether issue assignment works the same as task assignment (start triggers, primary assignee behavior, information read as context) or differs enough to document separately. -->
+
+## Considerations
+
+* Assignors and project managers are automatically notified about Task Collaborator activity, so the right people stay informed. <!-- BECKY: confirm exact trigger (start, finish, or both) and notification channel (in-app, email, or both). -->
+* Changes made by a Task Collaborator appear in the browser in real time, without needing a hard refresh. <!-- BECKY: confirm scope — just the task the Collaborator is working on, or broader project views too. -->
 
 ## Troubleshooting Task Collaborators
 

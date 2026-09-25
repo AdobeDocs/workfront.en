@@ -34,6 +34,10 @@ Available AI Collaborator types include:
 
    For more information, see [Use Task Collaborators](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
+* Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.
+
+   For more information, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
+
 
 ## Access requirements
 
@@ -102,9 +106,9 @@ Reviewer AI Collaborators can be configured to use Workfront brands, or Adobe Br
 
 Task Collaborators are MCP agents that you can assign to tasks in Workfront. You configure the Task Collaborator with a name, access level, and other details, and assign it to a task as you would assign a user. 
 
-Because Task Collaborators are MCP agents, their actions and abilities are configured where you configure your agents. Currently, agents used as Task Collaborators can be created in Copilot Studio, Claude, or Writer.
+Because Task Collaborators are MCP agents, their actions and abilities are configured where you configure your agents. Currently, agents used as Task Collaborators can be created in Copilot Studio, Claude, or Writer. Starting in the October release, you can also connect agents created in OpenAI and IBM. <!-- BECKY: confirm exact platform names as they should appear here, and confirm the October ship date. -->
 
-Task Collaborators can be assigned only to tasks, and cannot currently be assigned to issues.
+Task Collaborators can be assigned to tasks, and can also be assigned directly to issues. <!-- BECKY: confirm — this reverses the previous "tasks only" limitation. Confirm whether issue assignment behaves the same as task assignment (start triggers, primary assignee rules) or differs, and update use-task-collaborators.md accordingly. -->
 
 For a list of best practices when creating an agent to work as a Task Collaborator, see [Best practices for creating an agent for a Task Collaborator](#best-practices-for-creating-an-agent-for-a-task-collaborator).
 
@@ -126,9 +130,11 @@ For a list of best practices when creating an agent to work as a Task Collaborat
    |Copilot Studio|Web channel secret|
    |Claude Managed Agents|Anthropic API key<br>Agent ID<br>Environment ID|
    |Writer|API key<br>Application ID|
+   |OpenAI|<!-- BECKY: confirm required authentication fields for OpenAI -->|
+   |IBM|<!-- BECKY: confirm required authentication fields for IBM -->|
 
 1. Click **Test connection**. This lets you know whether the connection was set up correctly.
-1. In the **After the Collaborator is finished with its work, it can** area, toggle on the actions that you want the collaborator to take.
+1. In the **After the Collaborator is finished with its work, it can** area, toggle on the actions that you want the collaborator to take. This can include reading and writing Task and Project fields. <!-- BECKY: confirm exact toggle label(s) for reading/writing Task and Project fields, and whether this applies to Task Collaborators only or also the Project Coordinator. -->
 1. Click **Save**.
 
 For more information on Task Collaborators, including how to assign them to tasks, see [Use Task Collaborators](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
