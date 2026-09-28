@@ -73,7 +73,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Prerequisites
 
-Before you begin, you must set up image brand guidelines in Workfront. For more information, see [Create and manage brands for the Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
+Before you begin, you must set up image brand guidelines in Workfront. For more information, see [Create and manage brands for the AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 ## Add an AI Reviewer
 
@@ -81,11 +81,11 @@ Before you begin, you must set up image brand guidelines in Workfront. For more 
 >
 >The AI Reviewer is not designed to be a decision-maker in the review and approval workflow. It only provides a score and recommendations to align the asset with the specified brand requirements. 
 
-To add a Content Reviewer:
+To add an AI Reviewer:
 
 {{step-1-to-setup}}
 
-1. In the left panel, go to **Review and Approval** > **AI Reviewers**.
+1. In the left panel, go to **Review and Approval** > **Reviewer**.
 1. Click **Add new**.
 1. Name the reviewer.
 1. Select a **Brand**.
