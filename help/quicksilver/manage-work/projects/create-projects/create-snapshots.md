@@ -6,6 +6,15 @@ description: Snapshots in Adobe Workfront give you a way to see differences betw
 author: Lisa
 feature: Work Management
 exl-id: 9ff84f9a-46bd-46e8-a58d-7dafbc333507
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Create and view project snapshots
 

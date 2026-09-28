@@ -4,6 +4,15 @@ description: This page provides information about functionality that is included
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 ---
 # Fourth Quarter 2026 release overview
 
@@ -35,6 +44,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
 * [Financial Management enhancements](#financial-management-enhancements)
 * [Project enhancements](#project-enhancements)
 * [Reporting enhancements](#reporting-enhancements)
+* [Requests enhancements](#requests-enhancements)
 * [Resource Management enhancements](#resource-management-enhancements)
 * [Other enhancements](#other-enhancements)
 
@@ -48,6 +58,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Preview</strong></td>
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Add authorized redirect URLs for MCP integrations</a>
+                <p>Workfront administrators can now maintain an allowlist of trusted OAuth callback URLs, so custom AI agentic platforms can connect to Workfront MCP servers.</p>
+            </td>
+            <td><p>September 22, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -188,11 +207,10 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker now available in Workfront</a>
                 <p>CX Coworker is a new conversational interface for getting work done in Workfront and connected Adobe systems, replacing the current AI Assistant.</p>
             </td>
-            <td><p>September 3, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>Phased rollout beginning on September 3, 2026</p></td>
+            <td><p>Phased rollout beginning on September 17, 2026</p></td>
+            <td><p>Phased rollout beginning on October 15, 2026</p></td>
         </tr>
-
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">New Search Users tool available in the Workfront MCP Connector</a>
@@ -261,6 +279,17 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
         </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Access Workfront projects in Adobe Creative Cloud apps</a>
+                <p>You can now access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign using the Projects panel.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>[DATE]</p></td>
+            <td><p>[DATE]</p></td>
+        </tr>
+-->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">System Administrators full access to approval templates</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -382,7 +411,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>October 15, 2026</p></td>
         </tr>
 -->
-
     </tbody>
 </table>
 
@@ -452,6 +480,17 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
         </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Filter on collection relationships in Canvas Dashboards</a>
+                <p>You can now filter on collection relationships, which are fields that link to a group of related records rather than a single record.</p>
+            </td>
+            <td><p>September 24, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Copy dashboards in Canvas Dashboards</a>
@@ -461,7 +500,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>September 17, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
-
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Approval Type field in Canvas Dashboards</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -515,6 +553,38 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
             <td><p>October 15, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Requests enhancements
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">View historical requests from up to 3 years in the new request experience</a>
+                <p>You can now access Workfront issue requests submitted up to 3 years before July 2025 from the new request experience.</p>
+            </td>
+            <td><p>September 24, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">AI Form Fill now pulls data from records referenced with a link</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>AI Form Fill can now retrieve field data directly from a Workfront object referenced by its link and use it as context when populating a form.</p>
+            </td>
+            <td><p>September 22, 2026</p></td>
+            <td><p>September 22, 2026</p></td>
+            <td><p>September 22, 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -616,18 +686,49 @@ Live webinars are held for each quarterly release - these highlight the new feat
 
 ## Desktop proofing viewer updates
 
-### Version 2.1.59
+### Version 2.2.1
 
-Production release for all customers: September 9, 2026
+Production release for all customers: September 17, 2026
 
-The Desktop Proofing Viewer has been updated to version 2.1.59. This update includes the following changes:
+The Desktop Proofing Viewer has been updated to version 2.2.1. This update includes the following changes:
 
-* The Desktop Proofing Viewer is now available as a native build for Macs with Apple silicon.
-* Updated the underlying application framework (Electron) to a newer version, which brings performance and security improvements.
+* You can now open proofs from any environment (Production, Preview, Sandbox, and others) in the same viewer, without reinstalling when you switch.
+* Resolved an issue with opening proofs from a URL on non-US regions.
+* The viewer now keeps your 10 most recent proofs.
+* Updated the Workfront logo to the current branding.
+* Added more detail to the About Workfront Proof screen to speed up troubleshooting.
+* Updated the underlying framework (Electron) for performance and security improvements.
 
 For information on downloading and updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
 
 ## Announcements
+
+### Deprecation of legacy billing and cost rate fields
+
+Over time, we have introduced enhanced rate management capabilities and dedicated Job Role experiences that provide a more complete and scalable approach to maintaining rate information. As a result, rate administration is moving toward these dedicated experiences rather than list-based management workflows.
+
+With the January 2027 release, the legacy fields **Billing Per Hour** and **Cost Per Hour** will no longer be available in the Workfront API or in User and Job Role list views, including Filter / View / Grouping configurations (both direct references and text mode calculated columns).
+
+As a replacement in reports, you can use the recommended Text Mode code (use `costRates` or `billingRates` as needed):
+
+    ```
+    displayname=Test
+    listdelimiter=<br>
+    listmethod=nested(costRates).lists
+    type=iterate
+    valueexpression=CONCAT({startDate}," - ",{endDate},": ",{value})
+    valueformat=HTML
+    ```
+
+To manage and review rates, use the dedicated rate management experiences:
+
+* Access user rates directly from the user profile.
+* Access and manage job role rates directly from the Job Role > Rates page.
+* Use Rate Reports to review, analyze, and report on rate information across users and job roles.
+
+No action is required to prepare for the change. However, administrators who currently display **Billing Per Hour** and **Cost Per Hour** fields in User or Job Role list views should update their workflows to use the recommended rate management experiences described above.
+
+For information on job role and user rates, see [Create and manage job roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) and [Edit a user's profile](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ### Password-only authentication for Data Connect reader users ends August 8, 2026 
 

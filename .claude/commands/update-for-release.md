@@ -96,9 +96,9 @@ For each article in the user-confirmed list:
 
    For each "up for review" item, provide a one-sentence rationale ("Helps novices plan a longer message," "Helps users who don't see it on later stages know to expand it"). Include only the items the user picks. The default principle is "if the user can see it on screen as they're doing the task, don't restate it" — but the user gets the final call.
 
-   **When drafting the actual sentences** for either bucket, apply `~/.cursor/skills/writing-quality/SKILL.md` voice and tone rules as you write — a plain field/behavior description, not a changelog entry ("has been removed," "has been added"), and don't restate an unchanged instruction just to attach a preview note to it. Draft it right the first time rather than fixing tone in a later pass.
+   **Before drafting the actual sentences** for either bucket, **invoke the `writing-quality` skill (Skill tool)** and apply its voice and tone rules as you write — a plain field/behavior description, not a changelog entry ("has been removed," "has been added"), and don't restate an unchanged instruction just to attach a preview note to it. Draft it right the first time rather than fixing tone in a later pass.
 
-5. **Do a final writing-quality pass** on the drafted text before showing it. This is a safety net, not the first time these rules apply — catch anything step 4 missed (redundancy, tone, voice mismatch with surrounding rows).
+5. **Run the `writing-quality` skill (Skill tool) as a final pass** on the drafted text before showing it — required for every article, not optional. It re-catches anything step 4 missed (redundancy, tone, voice mismatch with surrounding rows).
 
 6. **Propose edits.** Show before/after excerpts (or a focused diff-style description) for the article, covering: snippet placement, heading renames, new in-Preview content and where it sits, screenshot reference, and any inline `class="preview"` wraps.
 
@@ -219,12 +219,13 @@ Run this full checklist for **every** article in the session — including secon
 - Per-row duplications: the original `<tr>` is byte-for-byte unchanged; the new `<tr class="preview">` has both cells wrapped in `<span class="preview">`; the label is a fresh short label + lowercase "in preview" (not the original label + "(in Preview)"); any supplementary note uses `<br>` + `Note:` inline, not a nested `<p>`.
 - If the same field appears in more than one procedure variant (Basic/Advanced, legacy/ESM), each new row's wording matches that variant's actual behavior rather than being copy-pasted from another variant.
 - New preview-marked prose reads like a plain field/behavior description, not a changelog entry, and doesn't redundantly restate an unchanged instruction.
+- The `writing-quality` skill was invoked on this article's drafted prose (both buckets).
 - `ReadLints` is clean on the edited file.
 - The article reads correctly in both states (with the preview content shown and hidden).
 
 ## References
 
-- Workfront documentation style: see the **writing-quality** skill at `~/.cursor/skills/writing-quality/SKILL.md`.
+- Workfront documentation style: **invoke the `writing-quality` skill** via the Skill tool (source: `.cursor/skills/writing-quality/`).
 - Snippet catalog: `help/_includes/snippets.md` in the docs repo.
 - GA cleanup (inverse workflow): see the **remove-preview-highlighting** skill at `.cursor/skills/remove-preview-highlighting/SKILL.md`.
 - Adobe Wiki MCP for PRDs: server `user-Adobe Wiki Confluence`, tool `get_wiki_content`.

@@ -1,10 +1,24 @@
 ---
 title: Share an Ideation Space with Others
-description: Adobe Workfront Planning now offers an additional capability to ideate before you launch your campaigns. Leverage the power of AI to create and collaborate on ideas with others before they become planning records. 
+description: Adobe Workfront Planning now offers an additional capability to ideate before you launch your campaigns. Leverage the power of AI to create and collaborate on ideas with others before they become planning records.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 
 # Share an Ideation space with others
@@ -17,7 +31,9 @@ recommendations: noDisplay, noCatalog
 
 {{planning-important-intro}}
 
-<!--ome of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article-->
+<!--
+Some of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article
+-->
 
 Workfront Planning record permissions are transferred to the ideation space of a record. 
 
@@ -54,17 +70,16 @@ are there additional license restrictions or packages to be purchased to have ac
 Or
 <li><p>Any Planning package when purchased as a standalone product</p></li></ul>
    </td> 
-
-<tr> 
-   <td role="rowheader"><p>Additional products</p></td> 
-   <td><ul>
-   <li><p>Adobe GenStudio for Performance Marketing</p></li>
-   <!--
-   <li><p>Adobe Customer Journey Analytics</p></li>
-   -->
-   </ul>
-   </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Additional products</p></td> 
+    <td><ul>
+    <li><p>Adobe GenStudio for Performance Marketing</p></li>
+    <li><p>Adobe Customer Journey Analytics</p></li>
+    </ul>
+    </td> 
+    </tr> 
+    -->
   <tr> 
    <td role="rowheader"><p>Adobe Workflow license</p></td> 
    <td><p>Standard</p>
@@ -91,14 +106,16 @@ Or
       <p>Editor permissions on the Ideation space to create briefs</p>
    </td> 
   </tr>  
-   <tr> 
-   <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
-   <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
-   <li>GenStudio System Manager to access Activations <!--and Events--></li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
-   </p>
-  </td> 
-  </tr> 
+  <!--
+    <tr> 
+    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+    <li>GenStudio System Manager to access Activations and Events</li></ul>
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    </p>
+    </td> 
+    </tr> 
+    -->
 </tbody> 
 </table> 
 

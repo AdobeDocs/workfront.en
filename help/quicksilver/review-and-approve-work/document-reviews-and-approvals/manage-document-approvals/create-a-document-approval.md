@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA
+TQID: 'https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -17,9 +17,13 @@ feature_v2:
     internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
     internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -128,9 +132,9 @@ To create a single-stage approval workflow:
 
    ![Request approval in Basic mode](assets/request-approval-basic.jpeg)
 
-     <!-- 
-   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
-   -->
+<!--
+preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+-->
 
 ### Create an advanced approval workflow 
 
@@ -200,8 +204,9 @@ To create an advanced approval workflow:
 
    ![Advanced mode with parallel paths](assets/request-approval-parallel-paths.jpeg)
 
-<!-- preview screen
-   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+<!--
+preview screen
+![Advanced mode with parallel paths](assets/parallel-path-v2.png)
 -->
 
 1. (Optional) To clear all paths and stages and start over, click **Reset** in the top right.
@@ -261,9 +266,9 @@ To create a single-stage approval workflow:
 
    ![Request approval in Basic mode](assets/request-approval-basic.jpeg)
 
-   <!-- 
-   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
-   -->
+<!--
+preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+-->
 
    
 
@@ -342,9 +347,10 @@ To create an advanced approval workflow:
 
    ![Advanced mode with parallel paths](assets/request-approval-advanced.jpeg)
 
-   <!-- preview screen
-   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
-   -->
+<!--
+preview screen
+![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+-->
 
 1. (Optional) To clear all paths and stages and start over, click **Reset** in the top right.
 
