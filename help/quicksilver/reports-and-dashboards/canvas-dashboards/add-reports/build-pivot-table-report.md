@@ -8,6 +8,8 @@ feature: Reports and Dashboards
 ---
 # Build a pivot table report in a Canvas Dashboard
 
+{{highlighted-preview-article-level}}
+
 >[!IMPORTANT]
 >
 >The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.<br>
