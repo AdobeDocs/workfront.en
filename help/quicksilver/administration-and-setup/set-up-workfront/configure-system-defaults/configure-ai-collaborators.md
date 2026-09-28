@@ -20,6 +20,8 @@ role_v2:
 ---
 # Configure AI Collaborators
 
+{{preview-fast-release-general}}
+
 AI Collaborators are a way to onboard AI agents into your projects and tasks. You can configure an AI Collaborator, then assign it as you would a user.
 
 For example, you can configure a reviewer-type AI Collaborator with brand guidelines, then assign that collaborator to review a document.
@@ -34,9 +36,9 @@ Available AI Collaborator types include:
 
    For more information, see [Use Work Agents](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
-* Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.
+* <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
 
-   For more information, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
+   <span class="preview">For more information, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).</span>
 
 
 ## Access requirements
@@ -57,7 +59,7 @@ Available AI Collaborator types include:
   </tr> 
   <tr> 
    <td>Access level configurations</td> 
-   <td>[!UICONTROL System Administrator]</td> 
+   <td>[!UICONTROL System Administrator] <span class="preview">or Group Administrator</span></td> 
   </tr> 
   </tbody> 
 </table>
@@ -106,9 +108,9 @@ AI Reviewers can be configured to use Workfront brands, or Adobe Brand Intellige
 
 Work Agents are agents that you can assign to tasks in Workfront. You configure the Work Agent with a name, access level, and other details, and assign it to a task as you would assign a user. 
 
-Because Work Agents are MCP agents, their actions and abilities are configured where you configure your agents. Currently, agents used as Work Agents can be created in Copilot Studio, Claude, or Writer. Starting in the October release, you can also connect agents created in OpenAI and IBM. <!-- BECKY: confirm exact platform names as they should appear here, and confirm the October ship date. -->
+Because Work Agents are MCP agents, their actions and abilities are configured where you configure your agents. Currently, agents used as Work Agents can be created in Copilot Studio, Claude, or Writer. Starting in the October release, you can also connect agents created in OpenAI and IBM.
 
-Work Agents can be assigned to tasks, and can also be assigned directly to issues. <!-- BECKY: confirm — this reverses the previous "tasks only" limitation. Confirm whether issue assignment behaves the same as task assignment (start triggers, primary assignee rules) or differs, and update use-task-collaborators.md accordingly. -->
+Work Agents can be assigned to tasks or issues.
 
 For a list of best practices when creating an agent to work as a Work Agent, see [Best practices for creating an agent for a Work Agent](#best-practices-for-creating-an-agent-for-a-work-agent).
 
@@ -122,6 +124,12 @@ For a list of best practices when creating an agent to work as a Work Agent, see
 1. In the AI Collaborator Name field, enter a name for the collaborator. This is the name that appears in the list of available assignees on a task.
 1. In the AI Collaborator description field, enter a description of the collaborator's purpose or the actions it performs.
 1. In the Access Level field, select an access level for this collaborator. This access level controls what the collaborator can do, in the same way an access level controls what a user can do.
+1. (Optional) In the Groups field, select the groups that the Work Agent will be associated with.
+
+   >[!NOTE]
+   >
+   ><span class="preview">If you are a group administrator, this field displays only groups that you are an administrator for. Group administrators must select at least one group.</span>
+
 1. In the **Choose agent's origin** area, select whether you want to connect an agent created in an common platform such as Copilot or Writer, or use a custom agent.
 1. (Conditional) If you are using an agent from a common platform, enter authentication details for the agent's platform:
 
@@ -130,11 +138,17 @@ For a list of best practices when creating an agent to work as a Work Agent, see
    |Copilot Studio|Web channel secret|
    |Claude Managed Agents|Anthropic API key<br>Agent ID<br>Environment ID|
    |Writer|API key<br>Application ID|
-   |OpenAI|<!-- BECKY: confirm required authentication fields for OpenAI -->|
-   |IBM|<!-- BECKY: confirm required authentication fields for IBM -->|
+   |OpenAI||
+   |IBM||
 
 1. Click **Test connection**. This lets you know whether the connection was set up correctly.
-1. In the **After the Collaborator is finished with its work, it can** area, toggle on the actions that you want the collaborator to take. This can include reading and writing Task and Project fields. <!-- BECKY: confirm exact toggle label(s) for reading/writing Task and Project fields, and whether this applies to Task Collaborators only or also the Project Coordinator. -->
+1. In the **After the Collaborator is finished with its work, it can** area, toggle on the actions that you want the collaborator to take. 
+   
+   * <span class="preview">Send notification: The Agent makes a comment in the update stream, tagging the user that requested the work, assigned the Agent, or that owns the project. </span>
+   * <span class="preview">Upload a document</span>
+   * <span class="preview">Mark task complete</span>
+   * Write task fields: Select the forms and fields that the Agent can write to. 
+
 1. Click **Save**.
 
 For more information on Work Agents, including how to assign them to tasks, see [Use Work Agents](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
@@ -204,7 +218,11 @@ More detailed information about creating agents can be found in the [Writer docu
 
 ## Manage AI Collaborators
 
-You can edit, copy, and delete existing AI Collaborators.   
+You can edit, copy, and delete existing AI Collaborators. 
+
+>[!NOTE]
+>
+><span class="preview">Group administrators can view and interact with only AI Collaborators associated with groups that they are administrators for. If other groups are also associated with a given AI Collaborator, a group administrator can view but not edit it.</span>
 
 {{step-1-to-setup}}
 
