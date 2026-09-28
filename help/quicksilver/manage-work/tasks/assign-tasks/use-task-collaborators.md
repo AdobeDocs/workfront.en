@@ -97,7 +97,9 @@ This information is always read and is not configurable as a Workfront setting.
 
 ## Work Agent start triggers
 
-When a Work Agent is assigned to a task, it begins work when any of the following situations are met:
+When a Work Agent is assigned to a task <span class="preview">or issue</span>, it begins work when any of the following situations are met:
+
+<!--update wording to include issues when this goes to production-->
 
 * The Work Agent is assigned to a task that is ready to start. (For example, if the task has predecessors, the predecessors are complete.)
 * The Work Agent and a user are assigned to a task, and the Work Agent is assigned first.

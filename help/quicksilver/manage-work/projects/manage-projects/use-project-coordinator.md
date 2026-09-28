@@ -57,33 +57,19 @@ The Project Coordinator is a Virtual Project Manager (VPM) that monitors your pr
 
 Behavior is configurable, including which actions the collaborator performs and how frequently it checks project status.
 
-<!-- BECKY CHECK ME: Copilot made this edit - Updated with capabilities from epic. Notifications appear in project updates. Need to verify: (1) roles/access for configuration, (2) if behavior settings visible to users or admin-only, (3) deactivation workflow. -->
-
 ## Add the Project Coordinator to a project
 
 The Project Coordinator field appears by default in the project header. To assign a Project Coordinator to a project:
 
-1. Open the project.
-1. In the project header, locate the **Project Coordinator** field.
+1. Go to the project for which you want to assign a Project Coordinator.
+1. In the project header, Click the **Project Coordinator** field.
 1. Select the Project Coordinator you want to assign.
 
-The Project Coordinator becomes the project owner and begins monitoring the project immediately.
-
-<!-- BECKY CHECK ME: Copilot made this edit - Epic confirms field appears in header by default and in templates. Need to verify exact UI steps and deactivation workflow. -->
+   The window displays a description of the selected Project Coordinator, as well as the actions that the Project Coordinator performs.
+1. Click **Apply**.
 
 For general AI Collaborator setup and configuration, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
-## Configure Project Coordinator behavior
+## Configure the Project Coordinator
 
-Administrators and Group Admins can configure how the Project Coordinator behaves:
-
-1. Go to [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
-1. Select the Project Coordinator from the list.
-1. Designate which actions it may perform (chase status updates, send reminders, flag missing information).
-1. Set how frequently it checks project status.
-
->[!NOTE]
->
->Group Admins see only the groups they administer. <!-- BECKY CHECK ME: Need to confirm this applies to Project Coordinators (currently confirmed for Work Agents). -->
-
-<!-- BECKY CHECK ME: Copilot made this edit - Epic confirms admin designate actions and frequency. Need to verify: exact UI labels, if during creation or edit flow, if preset profiles or fully customizable. -->
+For instructions on configuring the Project Coordinator, see [Configure the Project Coordinator](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-the-project-coordinator) in the article Configure AI Collaborators.

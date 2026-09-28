@@ -153,7 +153,6 @@ For a list of best practices when creating an agent to work as a Work Agent, see
 
 For more information on Work Agents, including how to assign them to tasks, see [Use Work Agents](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
-
 ### Best practices for creating an agent for a Work Agent
 
 You may find the following best practices helpful when creating an agent to use as a Work Agent in Workfront. To see best practices, click the section for the application where you are creating the agent.
@@ -215,6 +214,47 @@ More detailed information about creating agents can be found in the [Writer docu
 1. Assign the Work Agent to a Workfront task. The Work Agent begins work when all of the task's predecessor tasks are complete.
 
 +++
+
+<div class="preview">
+
+## Configure a Project Coordinator
+
+<!--BECKY CHECK ME-->
+
+The Project Coordinator is an out-of-the-box collaborator that monitors project status and helps keep work on track. Unlike Work Agents, the Project Coordinator does not require you to configure an external agent.
+
+{{step-1-to-setup}}
+
+1. In the left navigation, click **AI Collaborators**.
+1. Click **New Collaborator** in the upper-right corner of the screen.
+1. Select **Project Coordinator**, then click **Continue**.
+1. In the **AI Collaborator name** field, enter a name for the Project Coordinator. This is the name that appears as the collaborator in your project.
+1. In the **AI Collaborator description** field, enter a description of what the Project Coordinator does or its purpose.
+1. In the **Access level** field, select an access level for the Project Coordinator. This access level controls what the collaborator can do on projects.
+1. (Optional) In the **Send project updates** section, toggle **Allow** to enable project update notifications.
+   * Select which types of information to include in updates: Summary of progress, Project health, Overdue or at risk tasks or approvals, and/or Missing fields or assignments.
+   * In the **Cadence** field, select how often the coordinator sends updates (Daily, Weekly, etc.).
+   * In the **Time (MST)** field, select the time to send updates.
+   * In the **How to send** field, select how the coordinator delivers the update (Project comment, Email, etc.).
+   * In the **Who gets the update** field, select who receives the notification (Project owner, etc.).
+   * (Optional) Check **Send additional update immediately when coordinator is assigned** to notify on assignment.
+   * (Optional) Check **Send additional update when a date is missed** to send notifications when dates are missed.
+1. (Optional) In the **Notify task assignees** section, toggle **Allow** to enable task notifications.
+   * (Optional) Check **When their task is overdue** to notify assignees of overdue tasks.
+   * (Optional) Check **When their task is due the next day but not complete** to notify assignees of upcoming due dates.
+1. (Optional) In the **Remind reviewers and approvers** section, toggle **Allow** to enable reminders for reviewers.
+   * (Optional) Check **When the review/approval is overdue** to remind reviewers of overdue reviews.
+   * (Optional) Check **When the review/approval is due the next day but not complete** to remind reviewers of upcoming review due dates.
+1. (Optional) In the **Update the content of project and task fields** section, toggle **Allow** to enable the coordinator to update project and task field values.
+1. Click **Save**.
+
+>[!NOTE]
+>
+>Group Admins see only the groups they administer. <!-- BECKY CHECK ME: Need to confirm this applies to Project Coordinators (currently confirmed for Work Agents). -->
+
+For more information on the Project Coordinator, including how to assign it to projects, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
+
+</div>
 
 ## Manage AI Collaborators
 
