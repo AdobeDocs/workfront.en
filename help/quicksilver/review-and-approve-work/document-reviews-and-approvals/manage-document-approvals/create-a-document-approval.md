@@ -66,7 +66,7 @@ By default, an approval template is visible only to its creator. Throughout this
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, Templates, Portfolios, Programs, Reports, Dashboards, and Calendars, Documents</p> </td> 
+   <td> <p>View or higher access to Projects, Tasks, Issues, Templates, Portfolios, Programs, Reports, Dashboards, Calendars, and Documents</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -317,7 +317,7 @@ To create an advanced approval workflow:
    </tr>
    <tr>
    <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user name or email to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made..<p>Note: A reviewer or approver can be assigned to only one open stage at a time on the same asset. If multiple parallel stages are open simultaneously, the same person can't be added to more than one.</p></td>
+   <td>Begin typing a user name or email to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.<p>Note: A reviewer or approver can be assigned to only one open stage at a time on the same asset. If multiple parallel stages are open simultaneously, the same person can't be added to more than one.</p></td>
    </tr>
    <tr class="preview">
    <td><strong>Add people or teams in preview</strong></td>
