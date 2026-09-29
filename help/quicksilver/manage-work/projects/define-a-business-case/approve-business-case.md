@@ -146,9 +146,9 @@ To build a report for projects which are pending approval of their Business Case
 
    The project status is changed to **Rejected** if the Business case is rejected.
 
-   >[!NOTE]
-   >
-   >There are no notifications that alert the user who submitted the approval of the business case whether their project request was approved or rejected.
+>[!NOTE]
+>
+>There are no notifications that alert the user who submitted the approval of the business case whether their project request was approved or rejected.
 
 ## Approve the Business Case by accessing Requested projects in a portfolio
 
