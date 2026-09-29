@@ -8,10 +8,16 @@ recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/eF7kBTsursbrsXr8Lo6ql6U5JBLQDvi6nw4JDpRxClw
+TQID: 'https://experienceleague.adobe.com/eF7kBTsursbrsXr8Lo6ql6U5JBLQDvi6nw4JDpRxClw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -24,11 +30,11 @@ role_v2:
 
 # Overview of sharing permissions in Adobe Workfront Planning 
 
-<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -46,7 +52,7 @@ You can manually share the following objects in Workfront Planning:
 
 * Workspaces
 
-    * You can share workspaces with people inside your organization.
+    * You can share workspaces inside your organization, with users, groups, teams, companies, and job roles.
     * When you share a workspace, all record types, records, and fields associated with the workspaces are also shared. 
     * When you share a workspace, views are not shared. Views are shared separately. 
 
@@ -54,7 +60,7 @@ You can manually share the following objects in Workfront Planning:
 
 * Record types
 
-    * You can share record types with people inside your organization.
+    * You can share record types inside your organization, with users, groups, teams, companies, and job roles.
     * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
     * You cannot share a record type with a higher permission level than the user has on the workspace. 
 
@@ -62,20 +68,41 @@ You can manually share the following objects in Workfront Planning:
 
 * Records
     
-    * You can share records with people inside your organization.
+    * You can share records with people inside your organization, with users, groups, teams, companies, and job roles.
     * Users inherit permissions from the workspace and the record type by default. 
     * You cannot share a record with a higher or lower permission level than the user has on the record type. 
 
     For more information, see [Share records](/help/quicksilver/planning/access/share-records.md).
 
+<!--
+* Fields
 
+    * In the Production environment, field permissions are inherited from record types. 
+
+    * Field permissions grant access to field values, and not to field settings. 
+    * You must have both permissions to a record and to a field to see the values of that field for a record. 
+
+    <div class="preview">
+
+    * In the Preview environment, consider the following: 
+
+        * You can share fields inside your organization, with users, groups, teams, companies, and job roles. 
+        * Access to a field comes from combining the following settings:
+
+            * **Inherited permissions**: By default, a field inherits the same access someone has on the record type. You can turn off Inherited permissions and give users a lower access to the field than they have for the record type. 
+            * The **Everyone with access to the record type can view** or **Only invited people can access** selection. You can either allow everyone with permissions to the workspace to view the field or give permissions only to individual entities. 
+    
+    For more information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). 
+
+    </div>
+-->
 
 * Views
 
     * You must give users, including System Administrators, permissions to access views separately from their permissions to accessing workspaces. 
     * When you share a view, all view elements are shared, including filters, grouping, sort, or Settings. 
     * When you share a view, the records visible in the view are not shared. Records must be shared by sharing workspaces.
-    * You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.
+    * You can share a view publicly, with people outside your organization when you generate a public link for a view. People accessing the record page from a public link can view all records and their fields, including connected records and fields.
 
     For more information, see [Share views](/help/quicksilver/planning/access/share-views.md).
 
@@ -140,6 +167,10 @@ The following are the levels of permissions for workspaces:
 | Share  | ✓      |            |       |
 | Delete   | ✓      |            |       |
 | View   | ✓      | ✓          | ✓     |
+
+<!--
+<span class="permissions">In addition to the permissions described in the above table, you can also change the owner of a workspace when sharing it. For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).</span>
+-->
 
 ### Permissions to record types
 
@@ -228,9 +259,13 @@ The following scenarios exist:
 
 ### Permissions to record fields
 
-Field permissions are inherited from the record type, when you grant permissions to the workspace and the record type.
 
-The following permissions refer to the fields themselves and not to the values associated with each field. To edit field values you must have permissions to edit records. 
+#### Permissions to record fields in the Production environment
+
+
+Permissions to edit field settings are inherited from the record type, when you grant permissions to the workspace and the record type.
+
+The following permissions refer to the fields settings and not to the values associated with each field. To edit field values you must have permissions to edit records. 
 
 |        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
@@ -239,6 +274,38 @@ The following permissions refer to the fields themselves and not to the values a
 | Edit   | ✓      |            |       |
 | View   | ✓      | ✓          | ✓     |
 
+
+<div class="preview">
+
+#### Permissions to record fields in the Preview environment
+
+Permissions to field settings are inherited from the record type, when you grant permissions to the workspace and the record type.
+
+The following permissions refer to the fields settings and not to the values associated with each field. 
+
+|        | Manage | Contribute | View  |
+|--------|--------|------------|-------|
+| Create | ✓      |            |       |
+| Delete | ✓      |            |       |
+| Edit   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
+
+
+Permissions to field values are inherited from the record type and work in conjunction with permissions to the records. 
+
+You can manage permissions to the values of individual fields and restrict fields that might contain confidential information. 
+
+You can grant the following permissions to the field values by sharing a field: 
+
+|        | Manage | View |
+|--------|--------|------|
+| Delete | ✓      |      |
+| Edit   | ✓      |      |
+| View   | ✓      | ✓    |
+
+Users must have at least View permissions to the record type to access the fields. 
+
+</div>
 
 ### Permissions to views
 

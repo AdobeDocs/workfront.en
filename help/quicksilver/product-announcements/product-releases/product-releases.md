@@ -9,10 +9,16 @@ recommendations: noDisplay, noCatalog
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/69b0htgpFAye-6FeaFxEKrMKeUzMPOGm6tFh1T6a2IQ
+TQID: 'https://experienceleague.adobe.com/69b0htgpFAye-6FeaFxEKrMKeUzMPOGm6tFh1T6a2IQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -128,6 +134,7 @@ For information on helping your organization adjust smoothly to new releases, se
       <td>
         <p>Releases in 2026</p>
         <ul>
+          <li><a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md" class="MCXref xref" xrefformat="{para}">Fourth Quarter 2026 release overview</a></li>
           <li><a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md" class="MCXref xref" xrefformat="{para}">Third Quarter 2026 release overview</a></li>
           <li><a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md" class="MCXref xref" xrefformat="{para}">Second Quarter 2026 release overview</a></li>
           <li><a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">First Quarter 2026 release overview</a></li>
@@ -136,6 +143,7 @@ For information on helping your organization adjust smoothly to new releases, se
       <td>
         <ul>
           <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion release activity</a></li>
+          <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning Fourth Quarter 2026 release activity</a></li>
           <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning release activity: article index</a></li>
         </ul>
       </td>

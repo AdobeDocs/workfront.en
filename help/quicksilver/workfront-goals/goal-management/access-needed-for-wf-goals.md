@@ -77,11 +77,11 @@ Speak with your account representative to inquire about Workfront Goals.
 
 <!--
 Old: >
-Depending on which Workfront plan your company is currently on, the following scenarios exist: 
+Depending on which Workfront package your company is currently on, the following scenarios exist: 
 
-* **A new Workfront plan**: You must have an Ultimate Workfront plan. Workfront Goals are included only in this plan. 
+* **A new Workfront package**: You must have an Ultimate Workfront package. Workfront Goals are included only in this plan. 
 
-* **A current Workfront plan**: Your organization must purchase an additional license, in addition to the Workfront license.
+* **A current Workfront package**: Your organization must purchase an additional license, in addition to the Workfront license.
 
   After your organization purchases the additional license, Workfront enables Workfront Goals for your account. For information about purchasing a license for Workfront Goals contact your Workfront account manager.
 

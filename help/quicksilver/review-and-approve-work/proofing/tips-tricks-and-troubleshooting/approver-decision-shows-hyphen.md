@@ -5,6 +5,9 @@ navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: Approver Decision shows a hyphen in the Proof Approval report
 description: A hyphen in the Approver Decision field of the Proof Approval report indicates that a recipient is no longer in a decision-making role on the proof.
 author: Courtney
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

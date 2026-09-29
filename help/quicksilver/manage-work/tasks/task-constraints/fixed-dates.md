@@ -34,6 +34,10 @@ Consider the following when using the Fixed Dates constraint:
 * When you select the Fixed Dates (FIXT) task constraint, you must specify the Planned Start Date and Planned Completion Date of the task. In this case, the predecessor relationship of the task is ignored. 
 * The Duration field of the task is not editable when using the FIXT constraint. Duration is calculated as the difference between the Planned Start and Planned Completion Dates of the task. 
 * If the Duration Type of the task is Effort Driven, the number of assignees on the task also affect the Duration of the task.
+* The Fixed Dates constraint has no effect on a task with subtasks. A task with subtasks always has its own Planned Start, Planned Completion, and Duration rolled up from the earliest subtask Start and latest subtask Completion Dates, regardless of the constraint applied to it. You must associate the Fixed Dates constraint directly with the subtask that needs the fixed date instead. The parent will continue to roll up automatically.
+
+ For more information, also see [Task Duration and Duration Type](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-duration-type.md). 
+ 
 * When you move or copy a task with a FIXT constraint to another project, the constraint of the task or the dates of the project might change depending on what the constraint dates are and what the Start and Completion Dates of the project are. The following scenarios exist:
 
    * When the destination project is scheduled From Start:

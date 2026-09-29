@@ -10,13 +10,15 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
+TQID: 'https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
     internal-label: Custom forms
@@ -167,11 +169,11 @@ Custom forms are limited to 500 fields. A counter on the bottom left displays ho
 
 * Each custom field API name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form.
 
-* Though it's possible to do so, we recommend that you don't change this API name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront.
+* API names are read-only by default. Though it's possible to do so, we recommend that you don't change this API name after the custom form is used in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront.
 
    For example, if you add the custom field to a report and later change its API name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.
 
-* API names are read-only by default. To make the API name editable, click the **Edit** icon next to the **API Name**. Then, type **confirm** in the confirmation box and click **Rename field**.
+   You could also break existing integrations and calculations that depend on the field's API name.
 
 * We recommend that you don't type an API name that is already used for built-in Workfront fields.
 
@@ -854,8 +856,6 @@ To add an external lookup:
 >* Wait duration between retries: 500ms
 >* Expected response statuses: 2xx
 
-
-
 ### Add internal lookup fields
 
 An internal lookup field allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing. For example, if the user is typing a user name then a list of matching names appears. The internal lookup field type is supported on the following objects:
@@ -873,6 +873,12 @@ An internal lookup field allows users to type the name of an object that exists 
 * Issue
 * Document
 * Location
+
+>[!NOTE]
+>
+>Typeahead fields are no longer available to add to custom forms. You can convert an existing typeahead to an internal lookup by clicking the button in the field options on the right. When you convert, historical data remains on the field and it is used the same way in reports.
+>&nbsp;
+>Also note that if a typeahead field is included in an environment promotion package, the field is automatically converted to an internal lookup when the promotion takes place. For more information on environment promotion, see [Overview of moving objects between Workfront environments (Environment promotion)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 To add an internal lookup:
 

@@ -7,13 +7,15 @@ feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Z2t6RQBsQZK6MNRd3w2gWEY8k9YU48Jsco7pev7papM
+TQID: 'https://experienceleague.adobe.com/Z2t6RQBsQZK6MNRd3w2gWEY8k9YU48Jsco7pev7papM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -31,7 +33,13 @@ topic_v2:
 >
 >To use this functionality, your organization must meet the requirements to use the Workfront AI Assistant. For details, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
-AI Form Fill can help you auto-fill request fields based on a prompt you enter. It can also fill fields based on text such as emails or uploaded documents. You can approve or reject these suggestions before submitting the request.
+AI Form Fill can help you auto-fill request fields based on a prompt you enter. It can also fill fields based on the following information you add to the prompt:
+
+* An email
+* Uploaded documents
+* A link to a project, task or issue. 
+
+You can approve or reject these suggestions before submitting the request.
 
 This functionality is available when creating a request in the Workfront Requests area, for both Workfront and Workfront Planning requests. 
 
@@ -155,6 +163,7 @@ To use suggestions based on a pasted text prompt:
    >[!NOTE]
    >
    >Any unreviewed suggestions will be automatically accepted when you submit the request.
+1. Click **Submit** to submit the request.
 
 ### Text prompt examples
 
@@ -342,6 +351,43 @@ You can upload a document to be applied to the entire form, or to a single secti
    >[!NOTE]
    >
    >Any unreviewed suggestions will be automatically accepted when you submit the request.
+1. Click **Submit** to submit the request.
+
+### Add a link to another object to auto-fill a request
+
+You can add a link to an existing project, task or issue to your prompt to be applied to the entire form, or to a single section of the form. 
+
+1. Go to a project, task, or issue whose information you would like included in a new request and copy the link of the object from the browser address line to your clipboard. 
+
+   The project, task, or issue must be in the same instance of Workfront as your request. 
+
+1. Begin creating a request.
+
+   For instructions, see [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+1. To apply information from a linked object to the entire form, click the **AI icon** ![AI icon](assets/request-prompt-icon.png) under the form name.
+
+   Or
+
+   To apply the information from the linked object for a single section, click the **AI icon** ![AI icon](assets/request-prompt-icon.png) next to the section name.
+
+1. Start adding your prompt, then paste the link you copied from the project, task, or issue in the prompt window. 
+1. (Conditional) Click **Apply to form** or **Apply to section**.
+1. Click **Fill the form** or **Fill the section**.
+
+   Workfront generates suggestions for the form.
+1. For each field suggestion, click the **Accept suggestion** or **Reject suggestion** icons for that field.
+
+   ![Accept or reject suggestion](assets/accept-reject-suggestion.png)
+
+   Or
+
+   Select **Accept all** or **Reject all** at the top of the page to accept or reject all suggestions. 
+
+   >[!NOTE]
+   >
+   >Any unreviewed suggestions will be automatically accepted when you submit the request.
+1. Click **Submit** to submit the request.
 
 ## Troubleshooting
 

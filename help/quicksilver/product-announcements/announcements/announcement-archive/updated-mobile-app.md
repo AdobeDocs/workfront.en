@@ -7,10 +7,16 @@ description: The Adobe Workfront mobile app should be updated in the Apple App a
 author: Luke
 feature: Product Announcements
 exl-id: bcd61b1f-1566-404d-8c73-f05173b90a8d
-TQID: https://experienceleague.adobe.com/sE7pN79NbcvuQmZ6obdo63gF40IPvEkgg08-EUzUDPI
+TQID: 'https://experienceleague.adobe.com/sE7pN79NbcvuQmZ6obdo63gF40IPvEkgg08-EUzUDPI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

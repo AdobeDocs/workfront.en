@@ -6,14 +6,23 @@ description: Change history allows you to view a log of changes to Workfront obj
 author: Lisa
 feature: System Setup and Administration
 role: Admin
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # View and manage change history
 
 {{preview-fast-release-general}}
 
-Change history allows you to configure and track changes to objects and specific fields in Adobe Workfront. The flexible configuration lets you set up which exactly which objects and fields you want to track.
+Change history allows the system administrator to configure and track changes to objects and specific fields in Adobe Workfront. The flexible configuration lets the administrator set up which exactly which objects and fields are tracked.
 
-Change history can track the following types of data that you define:
+Change history can track the following types of defined data:
 
 * Activity in the Setup area such as creating or deleting an access level or a job role
 * Field-level updates such as editing a project description or changing a user's layout template
@@ -29,6 +38,11 @@ On the Change History List, you can view the log of changes to Workfront objects
    * Type of change (operation)
    * Date and time of the change
    * Source of the change, such as specific users, APIs, Workfront Fusion, AI LLMs, or the Workfront system
+
+>[!NOTE]
+>
+>When you access Change History, you will see the tracked changes only for fields you have permissions to view.
+>For example, if financial data is tracked on projects and you do not have access to financial data, you will not see the financial fields in the Change History List.
 
 ## Access requirements
 
@@ -56,25 +70,6 @@ On the Change History List, you can view the log of changes to Workfront objects
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--
-## View the Configuration area for change tracking
-
->[!NOTE]
->
->In the Production environment, Configuration is currently available only as information and cannot be changed. The ability to change which fields are tracked will be available in the near future.
-
-To view the types of changes that are tracked: 
-
-{{step-1-to-setup}}
-
-1. In the left panel, click **Change Tracking > Configuration**.
-   
-   Fields are displayed grouped by object type.
-
-1. To display fields under a specific object, click the dropdown arrow next to the object type.
--->
-
 
 ## View the Change History List
 

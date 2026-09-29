@@ -4,12 +4,83 @@ description: Other enhancements during the Fourth Quarter 2026 release time fram
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 ---
 # Other enhancements during the Fourth Quarter 2026 release timeframe
 
 This page describes enhancements made with the Fourth Quarter 2026 release to the Preview environment. These enhancements will be made available in the Production environment as noted.
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Enhanced list updates
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+In all enhanced lists, the following updates are now available:
+
+* The button to add a new row on a table has been moved inside the grid, instead of underneath the grid.
+* The **Columns** options above the list now includes a search field.
+
+For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+## Multiple screens updated to enhanced lists
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+The following Workfront lists now use the enhanced list format:
+
+* Setup > Interface > Update Feeds > Actions
+* Setup > Interface > Update Feeds > Tracked Fields
+* Setup > Project Preferences > Conditions
+* Setup > Locations
+* Setup > Scorecards
+* Setup > Risk Types
+* Project > Documents > Document Details > All Versions
+* Setup > Documents > SharePoint Integration
+* Setup > Documents > Custom Integration
+* Main Menu > Scenarios > lists of scenario plans and initiatives
+
+Updates include the following for some or all the lists:
+
+* A new look and feel of the list, with updates to colors, formatting, and fonts.
+* The option to create a new object in the list was moved to the top right and displays as a blue button.
+* The toolbar was removed. Now, when you select one or more objects in the table, the action bar appears at the bottom of the list in blue.
+* Some columns might have been repositioned or removed, or new columns were added.
+* Some confirmations and warnings have been removed or changed.
+* Saving in some lists is now automatic, and the Save button might have been removed.
+* Some enhanced lists allow columns to be renamed or sorted.
+* Some enhanced lists include the Column manager, which allows you to add and arrange columns. You can select columns by native or custom fields in Workfront.
+* Icons within table cells have been replaced by More menus with multiple options.
+
+NOTE: Not all updates are available on all lists.
+
+For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+## C2PA metadata is preserved on your files
+
+>[!NOTE]
+>
+>Production for everyone: August 26, 2026
+
+Adobe Workfront preserves C2PA metadata on documents you upload, store, and download, without modifying it.
+
+For more information, see [C2PA metadata in Adobe Workfront](/help/quicksilver/documents/c2pa-metadata-overview.md).
 
 ## Interface update for left navigation panel icons
 

@@ -80,7 +80,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Prerequisites
 
-You must create a dashboard before you can build a KPI report. 
+You must create a dashboard before you can build a KPI report. For more information, see [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
 ## Build a KPI report in a Canvas Dashboard
 
@@ -88,13 +88,9 @@ There are many configuration options available for building a KPI report. In thi
 
 {{step1-to-dashboards}}
 
-1. In the left panel, click **Canvas Dashboards**. 
+1. In the left panel, click **Canvas Dashboards**, then click the name of the dashboard you want to add the report to. 
 
-1. Click **New Dashboard** in the upper-right corner.  
-
-1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**.  
-
-1. Click **Create**. 
+1. Click **Add report** in the upper-right corner of the page. 
 
 1. In the **Add report** box, select **Create report**.  
 
@@ -125,17 +121,9 @@ There are many configuration options available for building a KPI report. In thi
 
     1. In the **Aggregation type** drop-down, select how the data rolls up to produce the KPI output. The options in this field will vary depending on the type of field that was selected in the previous step. 
 
-1. Follow the steps below to configure the **Filter** section: 
+1. In the left panel, click the **Filter** ![Filter icon](assets/filter-icon.png) icon, then configure the conditions that determine which data displays.
 
-    1. In the left panel, click the **Filter** ![Filter icon](assets/filter-icon.png) icon. 
-
-    1. Select **Edit filter**. 
-
-    1. Click **Add condition** and then specify the field you want to filter by and the modifier that defines what kind of condition the field must meet.   
-
-    1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR. 
-
-        For more information on filters, see [Edit report filters in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
+    For more information, see [Filter a report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md).
 
 1. Follow the steps below to configure the **Drilldown Column Settings** section: 
 
@@ -145,11 +133,9 @@ There are many configuration options available for building a KPI report. In thi
 
     1. Click **Add column** and then select the field you want to display as a column in the table. Repeat this process for each column you want to add.  
 
-1. Follow the steps below to configure the **Drilldown Group Settings** section: 
+1. In the left panel, click the **Drilldown Group Settings** ![Drilldown group icon](assets/drilldown-group-icon.png) icon, then add groupings for the drilldown table.
 
-    1. In the left panel, click the **Group Settings** ![Drilldown group icon](assets/drilldown-group-icon.png) icon. 
-
-    1. Click the **Add grouping** button and then select the field you want to create as a grouping.  
+    For more information, see [Configure drilldown groupings in chart and KPI reports](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports) in [Group report data in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md).
 
 1. Click **Save** to create the report and add it to the dashboard. 
 
@@ -161,13 +147,9 @@ For more information on KPI report examples, see [Create a report dashboard for 
 
 {{step1-to-dashboards}}
 
-1. In the left panel, click **Canvas Dashboards**. 
+1. In the left panel, click **Canvas Dashboards**, then click the name of the dashboard you want to add the report to. 
 
-1. Click **New Dashboard** in the upper-right corner.  
-
-1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**.  
-
-1. Click **Create**. 
+1. Click **Add report** in the upper-right corner of the page. 
 
 1. In the **Add report** box, select **Create report**.  
 
@@ -215,7 +197,7 @@ Users with View or Edit access to Financial Data in their access level will stil
 * Users who do see financial data are limited to records they already have permission to view (projects, tasks, issues, etc.). They will not see financial values for records they cannot access.
 * Report creators should exercise caution when including financial data in dashboards and be mindful of who they share dashboards with to prevent unintended access.
 
-This is a known limit, and we plan to address it as quickly as possible.
+This is a known limit, and we plan to address it in the future.
 
 ### Utilizing the field selector
 

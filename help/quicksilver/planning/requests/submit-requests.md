@@ -8,18 +8,22 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/-ksnbkmFi7s42lp3Fnb6uVaO3JCseU48W9VSacVY-GI
+TQID: 'https://experienceleague.adobe.com/-ksnbkmFi7s42lp3Fnb6uVaO3JCseU48W9VSacVY-GI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
     internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -33,11 +37,11 @@ topic_v2:
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
-<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -146,10 +150,38 @@ The following must be in place before you can submit a request to a Workfront Pl
 
    For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
+* When you submit a request form to create records from a global record type, the new records are saved either in the primary or the secondary record type, depending on where you submit them from.
+
+   Depending on which environment you use to submit requests and create records, the following scenarios exist when you submit forms for request forms associated with global record types: 
+  
+   * In the Production environment:
+   
+      * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+
+   * <span class="preview"> In the Preview environment, the following scenarios exist: </span>
+   
+      <div class="preview">
+
+      * When you submit a request form from a secondary global record type's page, the record displays in the secondary record type page. Users will also see the new record on the primary record type's page, if they have access to view the secondary workspace. 
+      * When you submit a request form from the primary record type page or using any other method described in this article, the records display in the primary record type page.
+      * If the **Workspace** field is available in the request form and the user manually chooses a specific workspace to add the record to, the record is saved in that space, regardless of whether the form was selected from the primary or the secondary record type pages.
+
+      </div>
+ 
+   For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
+
+<div class="preview">
+
+* You can share a request with others after it's been submitted. 
+
+   For information, see [Share Planning requests](/help/quicksilver/planning/requests/share-requests.md).
+
+</div>
+
+
 <!--
 Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.
 -->
-
 
 ## Submit a request to Workfront Planning in the Requests area of Workfront
 
@@ -283,6 +315,40 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
    * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
 -->
 
+## Submit a Planning request from a record type page
+
+You can submit a request when you add new records from a record type page. 
+
+{{step1-to-planning}}
+
+1. Click the card for a workspace, then the card for a record type where you have access to create records.
+1. From any view on the record type page, click New record, then click **Submit a request**.
+
+   >[!TIP]
+   >
+   >Request forms must be created and published before the **Submit a request** option is added to the **New record** capability.
+
+1. Click **Continue**. 
+
+1. (Conditional) If the record type has more than one request form, click the request form you want to use in the **New request** box.
+
+   The request form opens. 
+1. Start entering all the information in all the available fields
+
+   Or click **Fill form** to have AI fill out the form for you. 
+1. Click **Submit request**.
+
+   The request is submitted. 
+   
+1. (Optional) Click one of the following:
+
+   * **Submit another request** to open a new form. 
+   * **View your request** to open your new request. 
+   * The **X** icon in the upper-right corner of the box to return to the record type page. 
+
+   If there is no approval associated with your request, a record has been added to the record type you selected in Step 2. <!--accurate??--> 
+
+
 ## Submit a request to Workfront Planning from a shared link to a request form
 
 Information in this section applies only for people who submit a request from a shared link and who might not have a Workfront account. 
@@ -324,9 +390,9 @@ External people cannot access Workfront internal areas, like **Requests** or **H
 
 1. (Optional) Click **View your request** to open the request in Workfront.
 
-Or
+   Or
 
-Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.
+   Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.
 
    The request details page opens. 
 
@@ -383,7 +449,7 @@ To delete a Planning request after opening the request:
 
 1. Open a Planning request by clicking its name in the Requests list. 
 1. Click the **More** icon ![More menu](assets/more-menu.png) to the right of the request name then click **Delete**. 
-1. Click D**e**lete in the **Permanently delete** box to confirm.
+1. Click **Delete** in the **Permanently delete** box to confirm.
 
    The request is deleted and cannot be recovered. 
 

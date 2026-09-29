@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
-TQID: https://experienceleague.adobe.com/8aay3Ew3jFaxu2L-uvvlW-aqGo7ZT5Jj5TvrTCg96gM
+TQID: 'https://experienceleague.adobe.com/8aay3Ew3jFaxu2L-uvvlW-aqGo7ZT5Jj5TvrTCg96gM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -16,6 +16,8 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
     internal-label: Workfront Scenario Planner

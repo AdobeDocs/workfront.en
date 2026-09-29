@@ -9,13 +9,18 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
+TQID: 'https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
     internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -24,6 +29,8 @@ topic_v2:
     internal-label: Reporting
 ---
 # Unified review and approval overview
+
+{{highlighted-preview}}
 
 Unified review and approval brings together Adobe Workfront and Adobe Frame.io into a single, deeply connected experience--closing the gaps between marketing management, creative review, and content delivery. 
 Project coordinators manage work in Workfront while creatives, marketers, and stakeholders review and approve assets in the professional-grade Frame.io viewer, all without moving files between disconnected tools.
@@ -347,6 +354,18 @@ The Frame.io viewer includes a full set of visual markup tools, including freeha
 
 Comments and annotations remain within the Frame.io viewer so that they retain their full context, including timestamps and visual markups. This may evolve in future releases.
 
+<span class="preview">
+
+In preview, the Comments panel in Workfront displays a message letting you know when new comments are available in Frame.io.</span>
+
+<div class="preview">
+
+**Who can see the Frame.io comment indicator in Workfront?**
+
+Only users who could already see those comments in Frame.io can see the indicator. If you have a Frame.io Enterprise license, you see it for any comments on the document. If you don't have a Frame.io Enterprise license, you see it only once an approval exists for the document. Approvals make all prior comments on the document visible to you as well.
+
+</div>
+
 **Is it possible to add comments to a downloaded version of an asset (e.g., a PDF)?**
 
 This is not currently supported, but it is a commonly requested feature that is under consideration for a future release.
@@ -495,7 +514,7 @@ Users can launch the Frame.io viewer directly from Workfront. All review and app
 
 Yes. Once an asset completes the review and approval cycle, you can transfer it to Adobe Experience Manager Assets for final storage and distribution. This connects Workfront for work management, Frame.io for review, and AEM for digital asset management into a unified content supply chain.
 
-For more information, see For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+For more information, see [Use Adobe Experience Manager with Workfront and Adobe cloud storage](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 **How does unified review and approval fit into Adobe GenStudio?**
 

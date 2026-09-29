@@ -5,13 +5,15 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-TQID: https://experienceleague.adobe.com/tvmgfR5y2QbHo-ikCGHuJR-AbNzxikQtNqpHRNv7za0
+TQID: 'https://experienceleague.adobe.com/tvmgfR5y2QbHo-ikCGHuJR-AbNzxikQtNqpHRNv7za0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
     internal-label: Approvals
@@ -361,6 +363,14 @@ Users with a Standard or Plan license who can edit functionality in one area hav
    <td>System: Preferences</td> 
    <td>Full access</td> 
    <td>No access</td> 
+  <tr> 
+   <td>Change Tracking: Configuration</td> 
+   <td>Full access</td> 
+   <td>No access</td> 
+  <tr> 
+   <td>Change Tracking: Change History List</td> 
+   <td>Full access</td> 
+   <td>Full access</td> 
   </tr> 
  </tbody> 
 </table>
@@ -375,7 +385,7 @@ Users with a Standard or Plan license who can edit functionality in one area hav
   <tr> 
    <th>Area/object</th> 
    <th>Workfront administrator </th> 
-   <th>User with a Plan license and some administrative rights</th> 
+   <th>User with a Standard or Plan license and some administrative rights</th> 
   </tr> 
  </thead> 
  <tbody> 

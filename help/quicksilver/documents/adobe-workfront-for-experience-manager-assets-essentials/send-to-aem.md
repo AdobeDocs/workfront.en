@@ -6,7 +6,7 @@ description: You can send documents from Workfront to Experience Manager Assets 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-TQID: https://experienceleague.adobe.com/PWMvkf9X10rwGjTtiUPxlPir--rKK-hO8Wgli9oAAAA
+TQID: 'https://experienceleague.adobe.com/PWMvkf9X10rwGjTtiUPxlPir--rKK-hO8Wgli9oAAAA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -15,6 +15,13 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -35,7 +42,7 @@ In the Preview environment, Assets sent to Experience Manager through this integ
 >[!NOTE]
 >
 >This functionality is not available in the new Documents area.<br>
->If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. From there, you can send assets to Experience Manager Assets. For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+>If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. From there, you can send assets to Experience Manager Assets. For more information, see [Use Adobe Experience Manager with Workfront and Adobe cloud storage](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 ## Metadata
 

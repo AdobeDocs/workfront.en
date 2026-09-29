@@ -35,6 +35,8 @@ topic_v2:
 ---
 # Manage information in the project Overview area
 
+{{highlighted-preview}}
+
 <!--
 <p>(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
 -->
@@ -230,6 +232,7 @@ Old:
    | Last Update Date |The date and time when the project was last updated.  |
    | Last Updated By |The name of the user who last updated the project.  |
    | Template |  |
+   | Frame.io workspace |<span class="preview">The Frame.io workspace is inherited from the template used to create it. You can't change this field after the project is created.</span> |
 
   
 1. If your company has purchased an additional license for the Adobe Workfront Scenario Planner, and the project has information published from a linked initiative, review the following initiative information in the Scenario Planner area:

@@ -8,13 +8,15 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-TQID: https://experienceleague.adobe.com/UJTrVSvxhzjNAhbV6TkLv6XYDQeHSCT9KU-BZFVukGA
+TQID: 'https://experienceleague.adobe.com/UJTrVSvxhzjNAhbV6TkLv6XYDQeHSCT9KU-BZFVukGA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -81,9 +83,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Click the down arrow ![Down arrow](assets/down-arrow-blue.png) under **Customize what users see**, then click **Lists** in the drop-down menu that displays.
-
-   ![Customize what users see](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
-
 1. Click the down arrow ![Down arrow](assets/down-arrow-blue.png) under **Select a list to customize**, then select the type of Workfront object for which you want to customize the Filter, View, and Grouping list controls.
 
    ![Select a list to customize](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)

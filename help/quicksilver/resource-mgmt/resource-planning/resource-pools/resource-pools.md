@@ -30,4 +30,3 @@ The following articles describe the functionality when using resource pools to m
 * [Associate resource pools with users](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md) 
 * [Remove users from resource pools](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
 
-&nbsp;

@@ -10,7 +10,7 @@ role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/wQAqAplnYGWGCSSb1oVg2wIUK7Pn-Q0k4YIJIPJlqaQ
+TQID: 'https://experienceleague.adobe.com/wQAqAplnYGWGCSSb1oVg2wIUK7Pn-Q0k4YIJIPJlqaQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -19,6 +19,15 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -33,6 +42,8 @@ topic_v2:
     internal-label: Administration
 ---
 # Configure the [!DNL SharePoint] integration
+
+{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -129,6 +140,17 @@ To send a document to SharePoint:
 
 1. Click **Save**.
 
+## View and manage the SharePoint integration
+
+To view and manage your organization's [!DNL SharePoint] integrations:
+
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
+1. Select **[!UICONTROL Documents]** in the left navigation, then select **[!UICONTROL [!DNL SharePoint] Integration]**.
+
+   A list of your organization's [!DNL SharePoint] integrations appears.
+
+1. (Optional) To edit a [!DNL SharePoint] integration, select the checkbox next to it, then click **[!UICONTROL Edit]** <span class="preview">in the blue bar at the bottom of the screen</span>.
+1. <span class="preview">(Optional) To disable a [!DNL SharePoint] integration, select the checkbox next to it, then click **[!UICONTROL Disable]** in the blue bar at the bottom of the screen.</span>
 
 ## Security, access, and authorization information for the [!DNL SharePoint] integration
 
