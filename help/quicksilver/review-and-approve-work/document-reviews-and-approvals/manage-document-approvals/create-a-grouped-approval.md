@@ -11,11 +11,9 @@ feature: Work Management, Digital Content and Documents
 
 {{highlighted-preview-article-level}}
 
-A grouped approval bundles multiple assets under a single approval workflow, so all the assets move through the same stages together instead of requiring a separate approval per asset. 
+A grouped approval bundles multiple assets under a single approval workflow. You can use Basic and Advanced mode, multiple stages, and parallel paths with grouped approvals, just as you can with single-asset approvals.
 
-Grouped approvals support Basic and Advanced mode, multiple stages, and parallel paths the same way single-asset approvals do.
-
-After you create a grouped approval, you can add or remove participants and assets without recreating the workflow. For more information, see [Manage grouped approvals](manage-grouped-approvals.md).
+Grouped approvals are available only in the new Documents area, which appears when your organization uses Adobe cloud storage. For more information, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 >[!IMPORTANT]
 >
@@ -56,9 +54,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Select the assets for the group
+## Create a basic grouped approval
 
-Grouped approvals are available only in the new Documents area, which appears when your organization uses Adobe cloud storage. For more information, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+To create a single-stage grouped approval:
 
 1. Go to the project, task, or issue that contains the documents, then select **Documents** in the left panel.
 
@@ -66,15 +64,7 @@ Grouped approvals are available only in the new Documents area, which appears wh
 
 1. Click the first asset you want to include, then Shift+click the additional assets to select multiple assets.
 
-1. With the assets selected, click the **Approvals** icon, then click **Create workflow**.
-
-The **Request approval** dialog opens in **Basic** mode by default. Basic mode is a single stage with one set of approvers or reviewers. Switch to **Advanced** mode to configure multi-stage approvals or parallel paths.
-
-## Create a basic grouped approval
-
-To create a single-stage grouped approval:
-
-1. With your assets selected, click the **Approvals** icon, then click **Create workflow**. The **Request approval** dialog opens in Basic mode.
+1. With the assets selected, click the **Approvals** icon, then click **Create workflow**. The **Request approval** dialog opens in Basic mode.
 
 1. Fill in the following details:
 
@@ -85,7 +75,7 @@ To create a single-stage grouped approval:
    </tr>
    <tr>
    <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user name or email to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
+   <td>Type a user name or email to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
    <td><strong>Only one decision required (optional)</strong></td>
@@ -101,7 +91,7 @@ To create a single-stage grouped approval:
    </tr>
    </table>
 
-1. (Optional) Click the **Documents** tab to confirm the assets included in the group.
+1. (Optional) Click the **Documents** tab to review the assets included in this approval.
 
 1. Click **Request approval**.
 
@@ -113,7 +103,13 @@ A "Needs work" decision stops the path it's on but does not affect the approval 
 
 To create an advanced grouped approval:
 
-1. With your assets selected, click the **Approvals** icon, then click **Create workflow**.
+1. Go to the project, task, or issue that contains the documents, then select **Documents** in the left panel.
+
+1. Switch to **List** or **Card** view.
+
+1. Click the first asset you want to include, then Shift+click the additional assets to select multiple assets.
+
+1. With the assets selected, click the **Approvals** icon, then click **Create workflow**.
 
 1. In the top right of the **Request approval** dialog, click **Go to advanced**. Any input you entered in Basic mode is preserved and applied to **Path 1**, **Stage 1**.
 
@@ -130,7 +126,7 @@ To create an advanced grouped approval:
    </tr>
    <tr>
    <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user name or email to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.<p>Note: A reviewer or approver can be assigned to only one open stage at a time on the same asset. If multiple parallel stages are open simultaneously, the same person can't be added to more than one.</p></td>
+   <td>Type a user name or email to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.<p>Note: A reviewer or approver can be assigned to only one open stage at a time on the same asset. If multiple parallel stages are open simultaneously, the same person can't be added to more than one.</p></td>
    </tr>
    <tr>
    <td><strong>Only one decision required (optional)</strong></td>
@@ -138,7 +134,7 @@ To create an advanced grouped approval:
    </tr>
    <tr>
    <td><strong>Due on (optional)</strong></td>
-   <td>The first stage of each path supports an absolute due date. Each subsequent stage in the path supports a relative due date — the number of days from when that stage opens. Users are notified by email 72 hours, then 24 hours before the due date.</td>
+   <td>The first stage of each path supports an absolute due date. Each subsequent stage in the path supports a relative due date (the number of days from when that stage opens). Users are notified by email 72 hours, then 24 hours before the due date.</td>
    </tr>
    <tr>
    <td><strong>Add Custom Message (optional)</strong></td>
@@ -154,6 +150,6 @@ To create an advanced grouped approval:
 
 1. (Optional) To clear all paths and stages and start over, click **Reset** in the top right.
 
-1. (Optional) Click the **Documents** tab to confirm the assets included in the group.
+1. (Optional) Click the **Documents** tab to review the assets included in this approval.
 
 1. Click **Request approval**.
