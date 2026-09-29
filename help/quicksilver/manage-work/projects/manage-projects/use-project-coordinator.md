@@ -10,9 +10,11 @@ feature: Work Management, Projects
 
 {{highlighted-preview-article-level}}
 
-The Project Coordinator is an out-of-the-box AI Collaborator that monitors your project for overdue tasks, follows up directly with task owners, and keeps the project owner informed — automatically, without configuring an external agent.
+The Project Coordinator is an out-of-the-box AI Collaborator that monitors your project and notifies stakeholders about important status information.
 
 Using a Project Coordinator does not require you to configure an agent outside of Workfront.
+
+For instructions on configuring a Project Coordinator, see [Configure a Project Coordinator](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-project-coordinator) in the article Configure AI Collaborators.
 
 For information about AI Collaborators generally, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
@@ -67,8 +69,6 @@ The Project Coordinator field appears by default in the project header. To assig
 
    The window displays a description of the selected Project Coordinator, as well as the actions that the Project Coordinator performs.
 1. Click **Apply**.
-
-For general AI Collaborator setup and configuration, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
 ## Configure the Project Coordinator
 

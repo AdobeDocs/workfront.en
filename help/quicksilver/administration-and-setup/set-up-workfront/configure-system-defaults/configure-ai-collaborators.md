@@ -108,7 +108,7 @@ AI Reviewers can be configured to use Workfront brands, or Adobe Brand Intellige
 
 Work Agents are agents that you can assign to tasks in Workfront. You configure the Work Agent with a name, access level, and other details, and assign it to a task as you would assign a user. 
 
-Because Work Agents are MCP agents, their actions and abilities are configured where you configure your agents. Currently, agents used as Work Agents can be created in Copilot Studio, Claude, or Writer. Starting in the October release, you can also connect agents created in OpenAI and IBM.
+Because Work Agents are MCP agents, their actions and abilities are configured where you configure your agents. Currently, agents used as Work Agents can be created in Copilot Studio, Claude, or Writer, OpenAI, and IBM.
 
 Work Agents can be assigned to tasks or issues.
 
@@ -137,9 +137,9 @@ For a list of best practices when creating an agent to work as a Work Agent, see
    |---|---|
    |Copilot Studio|Web channel secret|
    |Claude Managed Agents|Anthropic API key<br>Agent ID<br>Environment ID|
-   |Writer|API key<br>Application ID|
-   |OpenAI||
-   |IBM||
+   |Writer Agent|API key<br>Application ID|
+   |<span class="preview">OpenAI Agents</span>|<span class="preview">API key <br>Agent ID</span>|
+   |<span class="preview">IBM watsonx Orchestrate</span>|<span class="preview">Service URL<br>API Key<br> Agent ID</span>|
 
 1. Click **Test connection**. This lets you know whether the connection was set up correctly.
 1. In the **After the Collaborator is finished with its work, it can** area, toggle on the actions that you want the collaborator to take. 
@@ -219,38 +219,28 @@ More detailed information about creating agents can be found in the [Writer docu
 
 ## Configure a Project Coordinator
 
-<!--BECKY CHECK ME-->
-
 The Project Coordinator is an out-of-the-box collaborator that monitors project status and helps keep work on track. Unlike Work Agents, the Project Coordinator does not require you to configure an external agent.
 
 {{step-1-to-setup}}
 
 1. In the left navigation, click **AI Collaborators**.
 1. Click **New Collaborator** in the upper-right corner of the screen.
-1. Select **Project Coordinator**, then click **Continue**.
+1. Select **Project Coordinator**.
 1. In the **AI Collaborator name** field, enter a name for the Project Coordinator. This is the name that appears as the collaborator in your project.
 1. In the **AI Collaborator description** field, enter a description of what the Project Coordinator does or its purpose.
 1. In the **Access level** field, select an access level for the Project Coordinator. This access level controls what the collaborator can do on projects.
-1. (Optional) In the **Send project updates** section, toggle **Allow** to enable project update notifications.
-   * Select which types of information to include in updates: Summary of progress, Project health, Overdue or at risk tasks or approvals, and/or Missing fields or assignments.
-   * In the **Cadence** field, select how often the coordinator sends updates (Daily, Weekly, etc.).
+1. (Optional) In the **Send project updates** section, toggle **Allow** to enable project update notifications, then specify update details.
+   * In the **Cadence** field, select whether the Coordinator sends updates daily or weekly.
+   * If the Coordinator sends updates weekly, in the **Day of week** field, select the day of the week that updates are sent.
    * In the **Time (MST)** field, select the time to send updates.
-   * In the **How to send** field, select how the coordinator delivers the update (Project comment, Email, etc.).
-   * In the **Who gets the update** field, select who receives the notification (Project owner, etc.).
+   * In the **How to send** field, select whether the Coordinator sends updates as an update on the project, or as an email
+   * In the **Who gets the update** field, select whether the update is sent only to the project owner, or to all project stakeholders.
    * (Optional) Check **Send additional update immediately when coordinator is assigned** to notify on assignment.
    * (Optional) Check **Send additional update when a date is missed** to send notifications when dates are missed.
-1. (Optional) In the **Notify task assignees** section, toggle **Allow** to enable task notifications.
-   * (Optional) Check **When their task is overdue** to notify assignees of overdue tasks.
-   * (Optional) Check **When their task is due the next day but not complete** to notify assignees of upcoming due dates.
-1. (Optional) In the **Remind reviewers and approvers** section, toggle **Allow** to enable reminders for reviewers.
-   * (Optional) Check **When the review/approval is overdue** to remind reviewers of overdue reviews.
-   * (Optional) Check **When the review/approval is due the next day but not complete** to remind reviewers of upcoming review due dates.
+1. (Optional) In the **Notify task assignees** section, toggle **Allow** to enable task notifications, then check the boxes for the situations that you want to notify assignees about.
+1. (Optional) In the **Remind reviewers and approvers** section, toggle **Allow** to enable reminders for reviewers, then check the boxes for the situations that you want to remind reviewers and approvers about.
 1. (Optional) In the **Update the content of project and task fields** section, toggle **Allow** to enable the coordinator to update project and task field values.
 1. Click **Save**.
-
->[!NOTE]
->
->Group Admins see only the groups they administer. <!-- BECKY CHECK ME: Need to confirm this applies to Project Coordinators (currently confirmed for Work Agents). -->
 
 For more information on the Project Coordinator, including how to assign it to projects, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
 
