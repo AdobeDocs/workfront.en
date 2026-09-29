@@ -89,9 +89,9 @@ To schedule a report for automatic delivery:​
 
 {{step1-to-reports}}
 
-   >[!NOTE]
-   >
-   >Report deliveries do not contain prompts. If you wish to limit data in a report delivery, we recommend applying filters to the report that you want to send.
+>[!NOTE]
+>
+>Report deliveries do not contain prompts. If you wish to limit data in a report delivery, we recommend applying filters to the report that you want to send.
 
 1. On the **Reports** page, select a report.
 1. At the top of the screen, click **Report Actions**, then **Send Report** from the drop-down that appears. The **Send Report** dialog box displays.

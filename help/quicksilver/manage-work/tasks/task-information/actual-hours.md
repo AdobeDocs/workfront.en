@@ -251,11 +251,11 @@ Since October 2025, with the API Version 21, Actual Hours are stored in the foll
 
 For information about API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-  >[!IMPORTANT]
-  >
-  >The Actual Cost of the project uses Legacy Actual Hours to calculate. 
+>[!IMPORTANT]
+>
+>The Actual Cost of the project uses Legacy Actual Hours to calculate. 
 
-  For information about using Actual Hours in calculated columns or fields, see [Report FAQs](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md). 
+For information about using Actual Hours in calculated columns or fields, see [Report FAQs](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md). 
 
 ## Log time
 
