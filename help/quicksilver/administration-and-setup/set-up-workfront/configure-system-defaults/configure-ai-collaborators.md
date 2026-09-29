@@ -70,6 +70,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Prerequisites
 
+* [For AI Reviewers](#for-ai-reviewers)
+* [For Work Agents](#for-work-agents)
+
 ### For AI Reviewers:
 
 * Your organization must have a signed Adobe Gen AI Agreement on file. 
@@ -113,6 +116,9 @@ Because Work Agents are MCP agents, their actions and abilities are configured w
 Work Agents can be assigned to tasks or issues.
 
 For a list of best practices when creating an agent to work as a Work Agent, see [Best practices for creating an agent for a Work Agent](#best-practices-for-creating-an-agent-for-a-work-agent).
+
+* [Configure a Work Agent in Workfront](#configure-a-work-agent-in-workfront)
+* [Best practices for creating an agent for a Work Agent](#best-practices-for-creating-an-agent-for-a-work-agent)
 
 ### Configure a Work Agent in Workfront
 
