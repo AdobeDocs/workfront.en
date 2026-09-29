@@ -174,7 +174,7 @@ To schedule a report for automatic delivery:​
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Never</p> </td> 
-      <td><p>Select <strong>Never</strong> if you want the scheduled delivery to last indefinitely.</p> <p class="preview">In Preview, this option is no longer available.</p></td> 
+      <td><p>Select <strong>Never</strong> if you want the scheduled delivery to last indefinitely.</p> <p class="preview">This option is no longer available in Preview or fast-release environments.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><div class="preview"><p>Active</p></div></td> 
