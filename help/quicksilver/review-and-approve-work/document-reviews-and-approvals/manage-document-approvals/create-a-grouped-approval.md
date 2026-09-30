@@ -9,7 +9,10 @@ feature: Work Management, Digital Content and Documents
 
 # Create a grouped approval
 
-{{highlighted-preview-article-level}}
+
+<span class="preview">The information on this page is not currently available in the Preview Sandbox environment because Frame.io does not support the Workfront's Preview Sandbox environment. This functionality will be available in Production environments on October 14th and 15th, 2026.</span>
+
+<span class="preview">The information on this page is not available in the Preview Sandbox environment because the Frame.io integration is not available there. This functionality will be available in Production environments on October 14 and 15, 2026.</span>
 
 A grouped approval bundles multiple assets under a single approval workflow. You can use Basic and Advanced mode, multiple stages, and parallel paths with grouped approvals, just as you can with single-asset approvals.
 
@@ -32,7 +35,7 @@ Grouped approvals are available only in the new Documents area, which appears wh
    <td>
    <p>Contributor or higher</p>
    <p>Review or higher</p>
-   <p>For objects using Adobe cloud s, you must have a Standard license to create approval workflows.</p>
+   <p>For objects using Adobe cloud storage, you must have a Standard license to create approval workflows.</p>
    </td>
   </tr>
   <tr>
@@ -182,3 +185,7 @@ To add an additional document to a grouped approval:
 1. Once you add all of the documents, click **Edit approval**. The new documents are added to the grouped approval and all participants are notified of the change.
 
 -->
+
+## Known limitations 
+
+* Currently, you can't add or remove documents from a grouped approval workflow once it's created. This functionality is planned for a future release.
