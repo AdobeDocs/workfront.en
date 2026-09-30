@@ -32,7 +32,7 @@ Grouped approvals are available only in the new Documents area, which appears wh
    <td>
    <p>Contributor or higher</p>
    <p>Review or higher</p>
-   <p>For objects using Adobe cloud storage, you must have a Standard license to create approval workflows.</p>
+   <p>For objects using Adobe cloud s, you must have a Standard license to create approval workflows.</p>
    </td>
   </tr>
   <tr>
@@ -70,8 +70,9 @@ To create a single-stage grouped approval:
    <td>The templates field is collapsed by default. Click the field to expand it, then select a template from the drop-down menu. If the template has one path and one stage, it applies in Basic mode. If the template has more than one stage or more than one path, the dialog automatically switches to Advanced mode and any input you entered in Basic mode is replaced by the template's content.</td>
    </tr>
    <tr>
-   <td><strong>Add people or teams</strong></td>
-   <td>Type a user name or email to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
+   <td><strong>Add people or teams in preview</strong></td>
+   <td><p>Begin typing a user name, team, or email address, then choose if they are an <strong>Approver</strong> or <strong>Reviewer</strong>. Workfront adds each active member of a team individually.</p>
+   <p>Note: If a user is already added, or belongs to more than one team you add, they're included once.</p></td>
    </tr>
    <tr>
    <td><strong>Only one decision required (optional)</strong></td>
@@ -113,7 +114,7 @@ To create an advanced grouped approval:
 
    >[!TIP]
    >
-   >While you're creating the approval, you can return to Basic mode by clicking **Go to basic** in the top right. After you click **Request approval**, the **Go to basic** option is no longer available.
+   >While you're creating the approval, you can return to Basic mode by clicking **Go to basic** in the top right. Once you submit the approval request, the **Go to basic** option is no longer available.
 
 1. Fill in details for Stage 1 of Path 1:
 
@@ -123,8 +124,9 @@ To create an advanced grouped approval:
    <td>Stages are named <em>Stage 1</em>, <em>Stage 2</em>, and so on by default. Rename the stage to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Type a user name or email to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.<p>Note: A reviewer or approver can be assigned to only one open stage at a time on the same asset. If multiple parallel stages are open simultaneously, the same person can't be added to more than one.</p></td>
+   <td><strong>Add people or teams in preview</strong></td>
+   <td><p>Begin typing a user name, team, or email address, then choose if they are an <strong>Approver</strong> or <strong>Reviewer</strong>. Workfront adds each active member of a team individually.</p>
+   <p>Note: If a user is already added, or belongs to more than one team you add, they're included once.</p></td>
    </tr>
    <tr>
    <td><strong>Only one decision required (optional)</strong></td>
