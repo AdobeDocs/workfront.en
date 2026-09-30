@@ -42,9 +42,9 @@ For more information, see:
 
 >[!NOTE]
 >
->Preview: This feature is not available in preview due to limitations with Frame.io
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+> Preview: This feature isn't available in preview because Frame.io doesn't currently offer a preview environment.
+> Production fast release: October 14, 2026
+> Production for everyone: October 15, 2026
 
 You can now add a website to Adobe Workfront as a web link in the new Documents area. After you add it, you can request approval on the live web page the same way you request approval on an uploaded file.
 
