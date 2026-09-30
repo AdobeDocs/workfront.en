@@ -60,11 +60,11 @@ To create a single-stage grouped approval:
 
 1. Go to the project, task, or issue that contains the documents, then select **Documents** in the left panel.
 
-1. Switch to **List** or **Card** view.
-
 1. Click the first asset you want to include, then Shift+click the additional assets to select multiple assets.
 
-1. With the assets selected, click the **Approvals** icon, then click **Create workflow**. The **Request approval** dialog opens in Basic mode.
+1. With the assets selected, click **Request Approval** in the bottom menu. The **Request approval** dialog opens in Basic mode.
+
+   ![create a grouped approval](assets/requeset-grouped-approval.png)
 
 1. Fill in the following details:
 
@@ -95,6 +95,8 @@ To create a single-stage grouped approval:
 
 1. Click **Request approval**.
 
+   ![basic grouped approval](assets/basic-group-approval.png)
+
 ## Create an advanced grouped approval
 
 Advanced mode supports parallel paths. Each path runs independently and contains one or more sequential stages. When all required decisions in a stage are made, the next stage in that path begins, the previous stage is locked, and the new stage's reviewers and approvers receive an email notification.
@@ -105,11 +107,11 @@ To create an advanced grouped approval:
 
 1. Go to the project, task, or issue that contains the documents, then select **Documents** in the left panel.
 
-1. Switch to **List** or **Card** view.
-
 1. Click the first asset you want to include, then Shift+click the additional assets to select multiple assets.
 
-1. With the assets selected, click the **Approvals** icon, then click **Create workflow**.
+1. With the assets selected, click **Request Approval** in the bottom menu. 
+
+   ![create a grouped approval](assets/requeset-grouped-approval.png)
 
 1. In the top right of the **Request approval** dialog, click **Go to advanced**. Any input you entered in Basic mode is preserved and applied to **Path 1**, **Stage 1**.
 
@@ -142,14 +144,43 @@ To create an advanced grouped approval:
    </tr>
    </table>
 
-1. (Optional) Click **Add stage** to add another stage to the path. Stages within a path run sequentially in the order they're listed. You can reorder stages within a path, but you can't move a stage from one path to another. Each path can have a different number of stages.
+1. (Optional) Add additional stages to Path 1:
+   1. Click **Add stage** to add another stage to the current path. Stages within a path run sequentially in the order they're listed. 
+   1. Fill in details for the new stage, then repeat this step to add more stages as needed.
 
-1. (Optional) Under **Parallel paths**, click **Add path** to add another path. The new path starts with one empty stage and becomes the selected path. To rename a path, hover the path label, click the pencil icon, then type a new name.
+      >[!NOTE]
+      >
+      >You can reorder stages within a path, but you can't move a stage from one path to another. Each path can have a different number of stages.
+
+
+1. (Optional) Add a parallel path:
+   1. Under **Parallel paths** on the left side of the screen, click **Add path** to add another path. 
+   1. Follow the same steps to add stages and participants to the new path. Each path runs independently, so you can have different numbers of stages and different participants in each path.
 
 1. (Optional) To remove a path, hover the path label and click the trash icon. **Path 1** can't be removed, and paths can't be reordered. Other paths can be removed only if no stage within the path is locked or completed.
 
-1. (Optional) To clear all paths and stages and start over, click **Reset** in the top right.
+1. (Optional) To clear all paths and stages and start over, click **Reset** in the top-right corner.
 
 1. (Optional) Click the **Documents** tab to review the assets included in this approval.
 
 1. Click **Request approval**.
+
+   ![advanced grouped approval](assets/advanced-group-approval.png)
+
+
+<!--
+
+## Add additional documents to a grouped approval
+
+You can add additional documents to a grouped approval after the approval has been created as long as the first stage has not been completed. 
+
+To add an additional document to a grouped approval:
+
+1. Click any document in the grouped approval, then click **Manage Approval** in the bottom menu.
+1. Click **Documents on this approval**, then click **Add**.
+
+   ![add document grouped approval](assets/add-document-to-grouped-approval.png)
+1. Choose the documents you want to add, then click **Add to approval**. 
+1. Once you add all of the documents, click **Edit approval**. The new documents are added to the grouped approval and all participants are notified of the change.
+
+-->
