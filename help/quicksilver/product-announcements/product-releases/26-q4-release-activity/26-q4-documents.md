@@ -20,6 +20,25 @@ This page describes Documents enhancements made with the Fourth Quarter 2026 rel
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+## Group multiple documents into a single approval workflow
+
+>[!NOTE]
+>
+>Preview: This feature is not available in the Preview Sandbox environment because the Frame.io integration is unavailable there.
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+You can now group multiple documents under a single approval workflow, so they move through the same stages together. 
+
+Grouped approvals support Basic and Advanced modes, multiple stages, and parallel paths.
+
+Grouped approvals are available only in the new Documents area, which appears when your organization uses a version of Workfront that supports Adobe cloud storage.
+
+<!--
+For more information, see [Create a grouped approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md).
+-->
+
+<!--
 ## Access Workfront projects in Adobe Creative Cloud apps
 
 >[!NOTE]
@@ -48,6 +67,8 @@ For more information, see:
 You can now add a website to Adobe Workfront as a web link in the new Documents area. After you add it, you can request approval on the live web page the same way you request approval on an uploaded file.
 
 For more information, see [Add a web link as a document](/help/quicksilver/documents/adding-documents-to-workfront/add-live-url.md) and [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+-->
 
 ## Control who can see and use approval templates
 
