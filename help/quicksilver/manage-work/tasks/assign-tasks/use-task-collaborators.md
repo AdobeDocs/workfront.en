@@ -21,9 +21,15 @@ role_v2:
 
 {{preview-fast-release-general}}
 
-Work Agents are AI Collaborators that can be assigned directly to Workfront tasks, in addition to the existing AI Reviewer used for document and asset reviews. Like other AI Collaborators, Work Agents are configured in the Setup area and assigned to tasks just like a user.
+Work Agents are AI Collaborators that can be assigned directly to Workfront tasks and issues. Like other AI Collaborators, Work Agents are configured in the Setup area and assigned to tasks just like a user.
 
 Work Agents connect to agents that you have configured in Copilot Studio, Claude, Writer,  <span class="preview">OpenAI or IBM. </span>
+
+>[!IMPORTANT]
+>
+>Writer is deprecating their use of agents. Work Agents configured using Writer agents will not work after October 9. 2026.
+>
+>For information on the deprecation, see [Agent Library migration & deprecation](https://support.writer.com/articles/8335689949-migrating-no-code-agents) in the Writer documentation.
 
 For information and instructions about creating a Work Agent in Workfront, see [Configure a Work Agent](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent) in the article Configure AI Collaborators.
 
@@ -56,11 +62,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Prerequisites
 
-* You must configure an agent in Copilot, Claude, Writer.ai, OpenAI, or IBM before you can use it as a Work Agent.
+* You must configure an agent in Copilot, Claude, Writer.ai, OpenAI, or IBM before you can use it as a Work Agent in Workfront.
 
 ## Work Agent overview
 
-Work Agents are a way to assign MCP agents to specific tasks in Workfront. You configure the agent in an app such as Copilot Studio, Claude, or Writer.ai, then connect that agent to Workfront as a Work Agent. You can then assign it to tasks as you would assign a user. 
+Work Agents are a way to assign agents to specific tasks in Workfront. You configure the agent in an app such as Copilot Studio, Claude, or Writer.ai, then connect that agent to Workfront as a Work Agent. You can then assign it to tasks as you would assign a user. 
 
 Some example workflows may include:
 

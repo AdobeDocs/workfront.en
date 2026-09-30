@@ -35,8 +35,8 @@ For information about AI Collaborators generally, see [Configure AI Collaborator
    <td><p>[!UICONTROL Standard]</p></td>
   </tr> 
   <tr> 
-   <td>Access level configurations</td> 
-   <td><!-- BECKY CHECK ME: Copilot made this edit - Epic states Admin/Group Admin configure with Manage access. Need to confirm: which access level do users need to assign to projects? --></td> 
+   <td>Object permissions</td> 
+   <td>You must have Manage permission to projects to assign a Product Coordinator.</td> 
   </tr>
   </tbody> 
 </table>

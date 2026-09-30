@@ -22,7 +22,7 @@ role_v2:
 
 {{preview-fast-release-general}}
 
-AI Collaborators are a way to onboard AI agents into your projects and tasks. You can configure an AI Collaborator, then assign it as you would a user.
+AI Collaborators are a way to onboard AI agents into your projects, tasks, and issues. You can configure an AI Collaborator, then assign it as you would a user.
 
 For example, you can configure a reviewer-type AI Collaborator with brand guidelines, then assign that collaborator to review a document.
 
@@ -32,7 +32,7 @@ Available AI Collaborator types include:
 
    For more information, see [Get started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Work Agent: Create a collaborator using Copilot or Writer, then assign the collaborator to a task to complete task-level work.
+* Work Agent: Create a collaborator using a standard AI platform like Claude, OpenAI, Copilot, or Writer, then assign the collaborator to a task or issue to complete work items.
 
    For more information, see [Use Work Agents](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
@@ -87,7 +87,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ### For Work Agents
 
-You must configure an agent in Claude, Copilot Studio, or Writer before you can use it as a Work Agent. 
+You must configure an agent in Claude, Copilot Studio, Writer, OpenAI, or IBM before you can use it as a Work Agent. 
+
+>[!NOTE]
+>
+>We aim to connect with any agent provider, so if the provider you are using is not currently compatible with Work Agents, please reach out to your account team for assistance.
 
 ## Create a new AI Reviewer
 
@@ -109,9 +113,9 @@ AI Reviewers can be configured to use Workfront brands, or Adobe Brand Intellige
 
 ## Configure a Work Agent
 
-Work Agents are agents that you can assign to tasks in Workfront. You configure the Work Agent with a name, access level, and other details, and assign it to a task as you would assign a user. 
+Work Agents are agents that you can assign to tasks or issues in Workfront. You configure the Work Agent with a name, access level, and other details, and assign it to a task as you would assign a user. 
 
-Because Work Agents are MCP agents, their actions and abilities are configured where you configure your agents. Currently, agents used as Work Agents can be created in Copilot Studio, Claude, or Writer, OpenAI, and IBM.
+Because Work Agents are agents, their actions and abilities are configured where you configure your agents. Currently, agents used as Work Agents can be created in Copilot Studio, Claude, or Writer, OpenAI, and IBM.
 
 Work Agents can be assigned to tasks or issues.
 
