@@ -79,6 +79,17 @@ When working with drop-down fields, radio buttons, and check boxes in the form d
 
 For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs).
 
+## Create and manage event subscriptions within the Workfront interface
+
+To make it easier for you to create and manage your organization's event subscriptions, we've added the Event Subscriptions area to Setup. Now, you can:
+
+* View a list of existing event subscriptions:
+* Create new event subscriptions, including filtering by criteria you specify:
+* Delete event subscriptions.
+
+<!--ADD LINK WHEN READY-->
+
+
 ## Add authorized redirect URLs for MCP integrations
 
 >[!NOTE]
