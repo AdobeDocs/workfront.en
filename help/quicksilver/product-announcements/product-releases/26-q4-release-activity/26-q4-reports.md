@@ -20,6 +20,30 @@ This page describes Reporting enhancements made with the Fourth Quarter 2026 rel
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+## Canvas Dashboards now available on Google Cloud Platform and Microsoft Azure
+
+>[!NOTE]
+>
+>Preview: N/A
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+Workfront instances on Google Cloud Platform (GCP) and Azure can now opt in to the Canvas Dashboards open beta. For more information, see [Use Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
+
+## Register a Snowflake private listing for Workfront Data Connect
+
+>[!NOTE]
+>
+>Preview: N/A
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+You can now share your Workfront Data Connect data directly with your organization's Snowflake account by registering a private listing. This connection method uses Snowflake's private listing capability to securely share data between organizations without exposing it publicly, and it works across regions and hosting platforms.
+
+A private listing is useful when you want to join your Workfront data with other data in your enterprise data warehouse. Because the data lands in your own Snowflake account, you can query it alongside the rest of your data.
+
+For more information, see [Register a private listing for Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/register-a-private-listing.md).
+
 ## Reporting MCP Tools now available for Canvas Dashboards
 
 >[!NOTE]
