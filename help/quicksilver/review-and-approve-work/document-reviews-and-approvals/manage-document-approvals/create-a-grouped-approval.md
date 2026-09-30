@@ -15,10 +15,6 @@ A grouped approval bundles multiple assets under a single approval workflow. You
 
 Grouped approvals are available only in the new Documents area, which appears when your organization uses Adobe cloud storage. For more information, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
->[!IMPORTANT]
->
->The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
-
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
@@ -36,7 +32,7 @@ Grouped approvals are available only in the new Documents area, which appears wh
    <td>
    <p>Contributor or higher</p>
    <p>Review or higher</p>
-   <p>If you are using the Frame.io integration, you must have a Standard license to create approval workflows.</p>
+   <p>For objects using Adobe cloud storage, you must have a Standard license to create approval workflows.</p>
    </td>
   </tr>
   <tr>
@@ -74,7 +70,7 @@ To create a single-stage grouped approval:
    <td>The templates field is collapsed by default. Click the field to expand it, then select a template from the drop-down menu. If the template has one path and one stage, it applies in Basic mode. If the template has more than one stage or more than one path, the dialog automatically switches to Advanced mode and any input you entered in Basic mode is replaced by the template's content.</td>
    </tr>
    <tr>
-   <td><strong>Add names or emails</strong></td>
+   <td><strong>Add people or teams</strong></td>
    <td>Type a user name or email to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
