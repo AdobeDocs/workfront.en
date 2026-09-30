@@ -121,12 +121,12 @@ You can log time to the following items in the timesheet:
 
 To log time on a timesheet: 
 
-{{step1-click-main-menu}}
+{{step1-to-timesheets}}
 
-1. Click [!UICONTROL **Timesheets**]. Your current timesheet displays by default. 
+   Your current timesheet displays by default. 
    ![Timesheet](assets/timesheet-layout-leftnav-updated.png)
 
-1. (Optional) Click the **full-screen** icon ![](assets/full-screen.png) to display the timesheet in full-screen mode, then click the **exit-full-screen** ![](assets/exit-full-screen.png) icon to return to the timesheet. 
+1. (Optional) Click the **full-screen** icon ![Full-screen icon](assets/full-screen.png) to display the timesheet in full-screen mode, then click the **exit-full-screen** ![Exit full-screen icon](assets/exit-full-screen.png) icon to return to the timesheet.
 
    <!-- drafted for the resize columns in timesheet story: 1. (optional) Click on the separator lines between weeks or between the time frame area and the work item area to resize the columns of the timesheet.-->
 
@@ -163,7 +163,7 @@ To log time on a timesheet:
 
    <!--(ensure this stays accurate)-->
 
-1. (Optional) Click the **Collapse** ![](assets/collapse-icon.png) or **Expand** ![](assets/expand-icon.png) icons next to the project name  to either display or hide the list of tasks and issues for the project.   
+1. (Optional) Click the **Collapse** ![Collapse icon](assets/collapse-icon.png) or **Expand** ![Expand icon](assets/expand-icon.png) icons next to the project name  to either display or hide the list of tasks and issues for the project.   
 
 
    >[!TIP]
@@ -177,7 +177,7 @@ To log time on a timesheet:
    >     * Shift + Option + Down arrow for Mac computers.
   
    
-1. (Optional) To manually pin an item that displays on the timesheet automatically, hover over the name of the item, then click the **pin** icon ![](assets/empty-pin-icon.png).
+1. (Optional) To manually pin an item that displays on the timesheet automatically, hover over the name of the item, then click the **pin** icon ![Pin icon](assets/empty-pin-icon.png).
 
    >[!TIP]
    >
@@ -185,7 +185,7 @@ To log time on a timesheet:
    >   * Option + P for both Windows and Mac computers. 
    
 
-1. (Optional) Click the search icon ![](assets/search-icon.png) and start typing a keyword to find a project, task, or an issue on the timesheet. 
+1. (Optional) Click the search icon ![Search icon](assets/search-icon.png) and start typing a keyword to find a project, task, or an issue on the timesheet. 
 
 1. (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -213,7 +213,7 @@ To log time on a timesheet:
    >
    >Consider adding a new line for the work item you want to log additional time  for and selecting a new hour type, if you want to keep the deactivated hour type associated with the past logged time. 
 
-1. Click the **delete** icon  ![](assets/delete.png) next to the job role to remove it. Any time logged for the role is also removed. 
+1. Click the **delete** icon  ![Delete icon](assets/delete.png) next to the job role to remove it. Any time logged for the role is also removed. 
 
    >[!TIP]
    >
@@ -248,7 +248,7 @@ To log time on a timesheet:
 
 1. (Optional) Click **Comment** to add a comment for your hour entry. 
 
-   ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+   ![Comment button on hour log redesigned timesheet](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
    >
@@ -351,7 +351,7 @@ Additionally, to log time for an item in the My Work widget:
 1. Go to the **Home** area. 
 1. Add the **My Work** widget to your Home. 
 1. (Optional) Select a task, issue, or request in a list, then click **Work On It**.
-1. Hover over the task or issue you want to log time for, then click the **Log Time** icon ![](assets/log-time-icon-in-new-home.png) to the right of the task information.
+1. Hover over the task or issue you want to log time for, then click the **Log Time** icon ![Log Time icon](assets/log-time-icon-in-new-home.png) to the right of the task information.
 
    The **Log time** box displays.
 
@@ -486,7 +486,7 @@ To log time in the Hours section of a project, task, or issue:
 You can log time for tasks and issues in the Summary panel. 
 For more information, see [Summary overview](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-![](assets/summary-hour-log.png)
+![Summary panel](assets/summary-hour-log.png)
 
 ### Boards {#boards}
 
@@ -530,7 +530,7 @@ Depending on what type of hour entries you edit, the following fields are availa
    * The Description of the hour entry. 
 
 
-   ![](assets/edit-hour-box-project-hour-type.png)
+   ![Project hour edit box](assets/edit-hour-box-project-hour-type.png)
 
 * When you edit general hours: 
 
@@ -544,7 +544,7 @@ Depending on what type of hour entries you edit, the following fields are availa
 
 <!--update the screen shot at production - we should not see the job role field for general hours-->
 
-![](assets/edit-hour-box-general-overhead-hour-type.png)
+![General hour edit box](assets/edit-hour-box-general-overhead-hour-type.png)
 
 
 * When you edit a mix of general and project-specific hours, in bulk: 
@@ -560,13 +560,13 @@ Depending on what type of hour entries you edit, the following fields are availa
 
 <!--update the screen shot at production - we should not see the job role and the hour type fields for mixed hour types-->
 
-![](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
+![Mixed hour edit box](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
 
 To edit hour types in an hour report or list:
 
 1. Go to an hour list or report. 
 1. Click the box to the left of one or multiple hour entries to select them. 
-1. Click the **Edit icon** ![](assets/edit-icon.png) at the top of the list.
+1. Click the **Edit icon** ![Edit icon](assets/edit-icon.png) at the top of the list.
 
    The **Edit Hour** or **Edit Hours** box opens. 
 1. Update any of the following available fields:

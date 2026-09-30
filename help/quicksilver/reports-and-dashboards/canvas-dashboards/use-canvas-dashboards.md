@@ -9,10 +9,13 @@ recommendations: noDisplay, noCatalog
 exl-id: 25f045d9-a291-423d-81ee-6fbd2fb12607
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/iUA66WzGxCmngVNSHJ1hcm6o-5lyfKDk6gQK3AdXBG0
+TQID: 'https://experienceleague.adobe.com/iUA66WzGxCmngVNSHJ1hcm6o-5lyfKDk6gQK3AdXBG0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -103,6 +106,24 @@ You can temporarily customize table reports on dashboards. These changes only ap
     >
     >These changes only apply to your current session and do not affect the original report configuration. To make permanent these changes, you need to edit the report.
 
+<div class="preview">
+
+### Drill down into pivot table data in Preview
+
+You can click a value in a pivot table report to drill down and see the individual records that make up that aggregated value.
+
+{{step1-to-dashboards}}
+
+1. In the left panel, click **Canvas Dashboards**.
+1. Click the name of an existing dashboard to open it.
+    ![Open a dashboard](assets/open-dashboard.png)
+1. Locate the pivot table report that you want to look at.
+1. Click a value in the pivot table to open the drilldown table.
+
+    The drilldown table displays the columns that the report creator configured in the Drilldown Column Settings. For more information, see [Build a pivot table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
+
+</div>
+
 
 <!--
 
@@ -154,3 +175,4 @@ By default, the groupings themselves are sorted alphabetically or chronologicall
 You can click a column header to sort the data within each group. When you sort by a field that is different from the grouping field, the order of the groups does not change.
 
 However, when you sort by the same field that the report is grouped by, the group order can change. For example, a text-based grouping that normally runs A–Z may switch to Z–A.
+

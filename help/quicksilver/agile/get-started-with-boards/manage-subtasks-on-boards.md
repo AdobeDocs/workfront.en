@@ -8,13 +8,18 @@ feature: Agile
 exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/tP75wPqPCzTwe5PW7WG4S-K6GEcitinQzrHm8xnUIqg
+TQID: 'https://experienceleague.adobe.com/tP75wPqPCzTwe5PW7WG4S-K6GEcitinQzrHm8xnUIqg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -26,7 +31,6 @@ topic_v2:
 
 Using subtasks on cards allows you to establish a parent-child relationship between tasks and create a hierarchy of work. A subtask you add to a card on a Workfront board is also added to the task in the Workfront project. For more information on subtasks and tasks at the project level, see [Create subtasks](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
-Subtasks are only available on connected cards, and they are not available on issues. For information on connected cards, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Access requirements
 
@@ -55,6 +59,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 +++
 
 ## Add a subtask to a card
+
+>[!IMPORTANT]
+>
+>Subtasks are only available on connected cards, and they are not available on issues. For information on connected cards, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
 
 {{step1-to-boards}}
 

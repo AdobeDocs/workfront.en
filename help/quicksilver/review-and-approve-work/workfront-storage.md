@@ -6,6 +6,22 @@ description: Plan your rollout of Workfront on Adobe cloud storage. Learn what's
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Move to Workfront on Adobe cloud storage
 
@@ -32,6 +48,7 @@ Moving to a version of Workfront that supports Adobe cloud storage moves *all* e
 
 Before you roll out Adobe cloud storage, make sure the people who manage approvals know what to expect:
 
+* **What happens to existing approvals** Existing legacy approval workflows are affected by this change, whether in progress or completed. For more information, see [Move from legacy document approvals to Unified Approvals](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md).
 * **A new approvals experience** Reviewers and approvers move from the legacy document approval experience to Unified Approvals, which adds multi-stage approvals, parallel review paths, and more. For more information, see the following articles:
 
     * [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)

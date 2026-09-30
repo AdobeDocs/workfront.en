@@ -4,6 +4,15 @@ description: This page provides information about functionality that is included
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 ---
 # Fourth Quarter 2026 release overview
 
@@ -32,8 +41,10 @@ Live webinars are held for each quarterly release - these highlight the new feat
 * [Administrator enhancements](#administrator-enhancements)
 * [AI enhancements](#ai-enhancements)
 * [Documents enhancements](#documents-enhancements)
+* [Financial Management enhancements](#financial-management-enhancements)
 * [Project enhancements](#project-enhancements)
 * [Reporting enhancements](#reporting-enhancements)
+* [Requests enhancements](#requests-enhancements)
 * [Resource Management enhancements](#resource-management-enhancements)
 * [Other enhancements](#other-enhancements)
 
@@ -48,18 +59,64 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
         </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Add authorized redirect URLs for MCP integrations</a>
+                <p>Workfront administrators can now maintain an allowlist of trusted OAuth callback URLs, so custom AI agentic platforms can connect to Workfront MCP servers.</p>
+            </td>
+            <td><p>September 22, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Set a default access level for users provisioned in the Adobe Admin Console</a>
+                <p>You can now set a default access level for users who are provisioned in Workfront through the Adobe Admin Console.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Custom weeks in addition to custom quarters for Workfront Planning customers</a>
+                <p>If your organization has a Planning package, you can now configure custom weeks in the same way you configure custom quarters.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Reorder custom applications in the Main Menu</a>
+                <p><strong>NOTE:</strong> This feature was temporarily removed from the Preview environment on September 14, 2026.</p>
+                <p>You can now reposition custom applications in a layout template's Main Menu instead of having them always appear last.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Large file support for custom document integrations</a>
+                <p>Custom document integrations now support chunked uploads, making uploads of files over 25 MB faster and more reliable.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
 <!--
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Interface improvements to the Actions list</a>
                 <p>The Actions list in the Update Feeds section of the Setup area has an updated look and feel.</p>
             </td>
-            <td><p>August 13, 2026</p></td>
+            <td><p>August 20, 2026</p></td>
             <td><p>September 17, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
- -->  
-      <tr>
+-->
+        <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Group administrators can manage business profiles</a>
                 <p>Group administrators can now create, edit, and delete business profiles for the groups they administer, without requiring System Administrator access.</p>
@@ -147,6 +204,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker now available in Workfront</a>
+                <p>CX Coworker is a new conversational interface for getting work done in Workfront and connected Adobe systems, replacing the current AI Assistant.</p>
+            </td>
+            <td><p>Phased rollout beginning on September 3, 2026</p></td>
+            <td><p>Phased rollout beginning on September 17, 2026</p></td>
+            <td><p>Phased rollout beginning on October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">New Search Users tool available in the Workfront MCP Connector</a>
                 <p>A new Search Users tool helps you find people in your Workfront instance faster; six older lookup tools were deprecated in favor of it and existing find/lookup tools.</p>
             </td>
@@ -190,6 +256,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>August 13, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">New Share Feedback tool available in the Workfront MCP Connector</a>
+                <p>A new Share Feedback tool lets you report your sentiment and what happened during the conversation, so Workfront's MCP tools can be improved.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
     </tbody>
 </table>
 
@@ -204,6 +279,109 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
         </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Access Workfront projects in Adobe Creative Cloud apps</a>
+                <p>You can now access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign using the Projects panel.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>[DATE]</p></td>
+            <td><p>[DATE]</p></td>
+        </tr>
+-->
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">System Administrators full access to approval templates</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it.</p>
+            </td>
+            <td><p>September 8, 2026</p></td>
+            <td><p>September 8, 2026</p></td>
+            <td><p>September 8, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Frame.io comment visibility in Workfront</a>
+                <p>The Comments panel in Workfront now lets you know when new comments are available in the Frame.io viewer.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Direct proof access from approval email links</a>
+                <p>The "Go to review" link in approval emails now opens the proof viewer directly when a document has a proof attached.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Add teams to approvals for objects using Adobe cloud storage</a>
+                <p>You can now add a Workfront Team as an approver or reviewer on a document approval or approval template instead of adding people individually.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Set a Frame.io workspace on project templates</a>
+                <p>You can now set a Frame.io workspace on a project template so projects created from it are automatically routed to the desired workspace.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Consistent review and approval buttons across documents</a>
+                <p>Review and approval buttons now look and work the same everywhere you review documents, and some buttons have new names.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Custom message in email subject line</a>
+                <p>A custom message set on a document approval now also appears in the subject line of the approval-request email.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Redesigned Versions panel in the new documents area</a>
+                <p>The Versions panel in the new Documents area has a new design, with versions numbered and approval status shown directly in the list.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Redesigned Approvals panel in the new documents area</a>
+                <p>The Approvals panel in the new Documents area now shows approval history across all versions, not just the current version.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Control who can see and use approval templates</a>
+                <p>Approval templates are now private by default, and creators can share them with specific users or with everyone in their organization.</p>
+            </td>
+            <td><p>July 30, 2026</p></td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Attach images to comments on Adobe cloud storage objects</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -215,11 +393,54 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Link content and folders from Experience Manager Assets with Adobe cloud storage</a>
-                <p>If your organization uses Adobe cloud storage, you can link individual assets or entire folders from Experience Manager Assets to any Workfront object that supports documents.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Link assets from Experience Manager Assets with Adobe cloud storage</a>
+                <p>If your organization uses Adobe cloud storage, you can link individual assets from Experience Manager Assets to any Workfront object that supports documents.</p>
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Approval workflow templates are private by default</a>
+                <p>Approval templates are now private by default, visible only to the user who created them unless shared.</p>
+            </td>
+            <td><p>July 30, 2026</p></td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
+    </tbody>
+</table>
+
+### Financial Management enhancements
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhancements to company billing rates</a>
+                <p>Company billing rate dialogs have a modern redesign, override behavior is more reliable, and Workflow Ultimate customers can apply rate attributes and effective dates to company rates.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Attribute hierarchies now stay connected automatically</a><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Selecting the lowest-level rate attribute now automatically assigns every parent level above it, instead of requiring each level to be linked manually.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
     </tbody>
@@ -259,6 +480,53 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
         </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Filter on collection relationships in Canvas Dashboards</a>
+                <p>You can now filter on collection relationships, which are fields that link to a group of related records rather than a single record.</p>
+            </td>
+            <td><p>September 24, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Copy dashboards in Canvas Dashboards</a>
+                <p>You can now copy a Canvas Dashboard using the new Copy dashboard action, and choose what to carry over to the copy.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Approval Type field in Canvas Dashboards</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>The Approval entity now includes an Approval Type field, which lets users distinguish between proof approvals, document version approvals, intake approvals, and other approval kinds.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>N/A</p></td>
+            <td><p>August 28, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Approval terminology update in Canvas Dashboards</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Several field names used in Canvas Dashboards for document and work approvals have been renamed for clarity.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>N/A</p></td>
+            <td><p>August 28, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Pivot table reports in Canvas Dashboards</a>
+                <p>The new pivot table report type in Canvas Dashboards aggregates data with accurate, complete roll-ups, with drill-down into underlying records.</p>
+            </td>
+            <td><p>August 27, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Enforcing end dates for scheduled reports</a>
@@ -268,17 +536,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>September 17, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
-<!--
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Updated column headers for dependent connected record fields</a>
-                <p>Visual improvements have been made to the column headers for a dependent connected record field in the table view.</p>
-            </td>
-            <td><p>August 13, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-        </tr>
--->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Native reference fields are available for lists and reports</a>
@@ -296,6 +553,38 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
             <td><p>October 15, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Requests enhancements
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">View historical requests from up to 3 years in the new request experience</a>
+                <p>You can now access Workfront issue requests submitted up to 3 years before July 2025 from the new request experience.</p>
+            </td>
+            <td><p>September 24, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">AI Form Fill now pulls data from records referenced with a link</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>AI Form Fill can now retrieve field data directly from a Workfront object referenced by its link and use it as context when populating a form.</p>
+            </td>
+            <td><p>September 22, 2026</p></td>
+            <td><p>September 22, 2026</p></td>
+            <td><p>September 22, 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -335,6 +624,33 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">Enhanced list updates</a>
+                <p>The button to add a new row on a table has moved inside the grid, and the Columns options above a list now include a search field.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">Multiple screens updated to enhanced lists</a>
+                <p>Several lists in Setup, Documents, and the Scenario Planner now use the enhanced list format.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+           <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">C2PA metadata is preserved on your files</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Adobe Workfront preserves C2PA metadata on documents you upload, store, and download, without modifying it.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>N/A</p></td>
+            <td><p>August 26, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">Interface update for left navigation panel icons</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>We have updated the look and feel of the left navigation panel icons in Workfront to provide a modern design and a consistent experience with other Adobe applications.</p>
             </td>
@@ -368,7 +684,50 @@ Live webinars are held for each quarterly release - these highlight the new feat
 * [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Adobe Workfront Planning Fourth Quarter 2026 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
 
+## Desktop proofing viewer updates
+
+### Version 2.2.1
+
+Production release for all customers: September 17, 2026
+
+The Desktop Proofing Viewer has been updated to version 2.2.1. This update includes the following changes:
+
+* You can now open proofs from any environment (Production, Preview, Sandbox, and others) in the same viewer, without reinstalling when you switch.
+* Resolved an issue with opening proofs from a URL on non-US regions.
+* The viewer now keeps your 10 most recent proofs.
+* Updated the Workfront logo to the current branding.
+* Added more detail to the About Workfront Proof screen to speed up troubleshooting.
+* Updated the underlying framework (Electron) for performance and security improvements.
+
+For information on downloading and updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+
 ## Announcements
+
+### Deprecation of legacy billing and cost rate fields in job role list views
+
+Over time, we have introduced enhanced rate management capabilities and dedicated Job Role experiences that provide a more complete and scalable approach to maintaining rate information. As a result, rate administration is moving toward these dedicated experiences rather than list-based management workflows.
+
+With the January 2027 release, the legacy fields **Billing Per Hour** and **Cost Per Hour** will no longer be available in the Workfront API or in Job Role list views, including Filter / View / Grouping configurations (both direct references and text mode calculated columns).
+
+As a replacement in reports, you can use the recommended Text Mode code (use `costRates` or `billingRates` as needed):
+
+    ```
+    displayname=Test
+    listdelimiter=<br>
+    listmethod=nested(costRates).lists
+    type=iterate
+    valueexpression=CONCAT({startDate}," - ",{endDate},": ",{value})
+    valueformat=HTML
+    ```
+
+To manage and review job role rates, use the dedicated rate management experiences:
+
+* Access and manage job role rates directly from the Job Role > Rates page.
+* Use Rate Reports to review, analyze, and report on rate information across job roles.
+
+No action is required to prepare for the change. However, administrators who currently display **Billing Per Hour** and **Cost Per Hour** fields in Job Role list views should update their workflows to use the recommended rate management experiences described above.
+
+For information on job role rates, see [Create and manage job roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ### Password-only authentication for Data Connect reader users ends August 8, 2026 
 

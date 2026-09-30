@@ -10,7 +10,7 @@ role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/wMgemSCv9tLMKy9AdIW5HDpGFbYKNmrnV07PsjwA6-4
+TQID: 'https://experienceleague.adobe.com/wMgemSCv9tLMKy9AdIW5HDpGFbYKNmrnV07PsjwA6-4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -19,6 +19,10 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -36,9 +40,16 @@ As an [!DNL Adobe Workfront] administrator, you can create OAuth2 applications f
 
 When you create an [!UICONTROL OAuth2] application, you generate a Client ID and Client Secret. Your users can then use the Client ID in API calls to integrate with the application you have created.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->In the context of OAuth2, "creating an app" refers to the process of creating this sort of access link between an app and a server such as [!DNL Workfront].
+>* Custom OAuth2 applications are in the process of being deprecated. Please note the following dates:
+>
+>   * November 1, 2026: You will no longer be able to create new custom OAuth2 applications.
+>   * February 1, 2027: Existing custom OAuth2 applications will no longer work.
+>
+>   For more information, see [Migrate from Workfront OAuth2 to Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
+>
+>* In the context of OAuth2, "creating an app" refers to the process of creating this sort of access link between an app and a server such as [!DNL Workfront].
 
 * For instructions on configuring and using the OAuth2 application with user credentials (authorization code flow), see [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md).
 * For instructions on configuring and using the OAuth2 application using server authentication (JWT flow), see [Configure and use your organization's custom OAuth 2 applications using JWT flow](../../wf-api/api/oauth-app-jwt-flow.md).

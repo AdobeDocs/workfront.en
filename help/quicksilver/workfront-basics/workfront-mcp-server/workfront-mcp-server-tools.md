@@ -5,7 +5,12 @@ title: Adobe Workfront MCP server tools
 description: Reference list of the tools available through the Adobe Workfront MCP server, grouped by Workfront area.
 author: Courtney
 feature: Get Started with Workfront
-
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 ---
 
 # Adobe Workfront MCP server tools
@@ -44,9 +49,9 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | Find document version by name | `approvals_find_document_version_by_name` | Looks up a document's current version ID by filename. Supports partial matches. | Read |
 | Get document by version ID | `approvals_get_document_by_version_id` | Fetches document details (name, size, upload date, uploader) for a known document version ID. | Read |
 | Resolve document scope | `approvals_resolve_document_scope` | Expands a project or folder into the list of document version IDs it contains. Supports project, folder, and folder-by-name scopes. | Read |
-| Get documents by scope | `approvals_get_documents_by_scope` | List document inside a project or folder. | Read |
+| Get documents by scope | `approvals_get_documents_by_scope` | Deprecated. Use `insights_find_workfront_data` instead. This tool listed documents inside a project or folder. | Read |
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
-| Find a document | `approvals_find_document` | Look up a document by filename or document version ID | Read |
+| Find a document | `approvals_find_document` | Deprecated. Use `insights_find_workfront_data` instead. This tool looked up a document by filename or document version ID. | Read |
 | Send documents to AEM folder* | `approvals_send_documents_to_aem_folder` | Moves one or more Workfront documents to an AEM-linked folder. | Write |
 
 *You must have a native [!DNL Adobe Experience Manager] integration configured in your Workfront instance to use these tools. For more information, see [Overview of Adobe Experience Manager Assets integrations](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
@@ -105,8 +110,12 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
-| Find project by name | `approvals_find_project_by_name` | Looks up Workfront projects by partial name match across the system. | Read |
-| Get projects by owner | `approvals_get_projects_by_owner` | Lists Workfront projects where the calling user is the owner. | Read |
+| Find project by name | `approvals_find_project_by_name` | Removed August 13, 2026. Use `insights_find_id_by_name` instead. This tool looked up Workfront projects by partial name match across the system. | Read |
+| Get projects by owner | `approvals_get_projects_by_owner` | Removed August 13, 2026. Use `insights_find_workfront_data` instead. This tool listed Workfront projects where the calling user was the owner. | Read |
+| Get current user | `approvals_get_current_user` | Removed August 13, 2026. This tool returned the calling user's Workfront identity, including name, user ID, home team name, and home team ID. For similar functionality, see [Get current user](#insights-tools) under Insights tools. | Read |
+| Find user by name | `approvals_find_user_by_name` | Deprecated. Use `insights_search_users` instead. This tool looked up a Workfront user's ID by name (fuzzy or partial match), returning name, ID, email, title, and avatar URL. | Read |
+| Find team by name | `approvals_find_team_by_name` | Deprecated. Use `insights_find_id_by_name` instead. This tool looked up a Workfront team's ID by name (fuzzy or partial match). | Read |
+| Find projects | `approvals_find_projects` | Deprecated. Use `insights_find_workfront_data` instead. This tool looked up Workfront projects, optionally filtered by name and/or restricted to projects the calling user owns. | Read |
 
 ## Planning tools
 
@@ -279,6 +288,10 @@ Example prompts:
 
 Insights tools retrieve information about Workfront objects.
 
+>[!NOTE]
+>
+>Insights data is near real-time, with an SLA of up to approximately 15 minutes. Changes made in Workfront may not appear immediately in Insights results.
+
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
 | Read documents | `insights_read_docs` | Load the Workfront playbook or domain documentation, such as conditions, status, dates, or field paths. This is the required first step before querying data. | Read |
@@ -291,6 +304,13 @@ Insights tools retrieve information about Workfront objects.
 | List entities | `insights_list_entities` | List all Workfront object types available to query. | Read |
 | Search users | `insights_search_users` | Find people in your Workfront instance by name. Type a full or partial name, and get back the top matching users. This can also optionally include AI-collaborator "bots" alongside regular users. | Read |
 
+## Feedback tools
+
+<span class="preview">Feedback tools let you report your experience with the Workfront MCP server directly from your AI agentic platform.</span>
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| <span class="preview">Share feedback</span> | <span class="preview">`share_feedback`</span> | <span class="preview">Records your reported sentiment and what happened during the conversation, so Workfront's MCP tools can be improved. Only used when you explicitly ask to share feedback (for example, "share feedback" or "report a bug").</span> | <span class="preview">Write</span> |
 
 
 

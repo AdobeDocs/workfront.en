@@ -4,6 +4,15 @@ description: Fourth Quarter 2026 Administrator enhancements
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 ---
 # Fourth Quarter 2026 Administrator enhancements
 
@@ -11,13 +20,25 @@ This page describes Administrator enhancements made with the Fourth Quarter 2026
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+## Add authorized redirect URLs for MCP integrations
+
+>[!NOTE]
+>
+>Preview: September 22, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+To make the Workfront MCP servers more flexible and customizable to your organization, we've added the ability to add custom OAuth callback URLs. Workfront administrators can now maintain their own organization's allowlist of trusted OAuth callback URLs for MCP integrations. This lets you connect custom AI agentic platforms whose OAuth callback URL is unique to your organization, beyond the platforms that Workfront supports natively.
+
+For more information, see [Add or remove an authorized redirect URL](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md#add-or-remove-an-authorized-redirect-url) in [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
 <!--
 
 ## Interface improvements to the Actions list
 
 >[!NOTE]
 >
->Preview: August 13, 2026
+>Preview: August 20, 2026
 >Production fast release: September 17, 2026
 >Production for everyone: October 15, 2026
 
@@ -32,6 +53,62 @@ The following enhancements are included:
 For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 -->
+
+## Set a default access level for users provisioned in the Adobe Admin Console
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+You can now set a default access level for users who are provisioned in Workfront through the Adobe Admin Console. A Workfront administrator can configure this default in System Preferences.
+
+Previously, Workfront would assign the user a Contributor or Requester access level.
+
+For more information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+## Custom weeks in addition to custom quarters for Workfront Planning customers
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+If your organization has purchased a Planning package, in addition to a Workflow package, you can now configure custom weeks in the same way you configure custom quarters as a Workfront administrator.
+
+Custom weeks are not visible in Workfront. They are only visible in the Workfront Planning timeline view.
+
+For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+## Reorder custom applications in the Main Menu
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+>
+>This feature was temporarily removed from the Preview environment on September 14, 2026.
+
+When working in a layout template, you can now reposition custom applications to be in any order with the default Workfront menu options. This allows you to position each application in the most relevant place.
+
+Previously, custom applications were always the last items in the layout template's Main Menu options and could not be repositioned.
+
+For more information on adding custom applications to the Main Menu, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+
+## Large file support for custom document integrations
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+Custom document integrations now support chunked uploads for large files. When enabled, files over 25 MB are broken into smaller chunks and uploaded in parallel, making uploads of large files faster and more reliable. Admins can turn this on and set the maximum chunk size (up to 100 MB) per integration.
+
+For more information, see [Configure document integrations](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 ## Group administrators can manage business profiles
 

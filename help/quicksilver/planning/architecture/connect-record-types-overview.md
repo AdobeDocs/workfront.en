@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-TQID: https://experienceleague.adobe.com/yX-p5GzLd4EMOdWDrw3gAHqZfRvPCUaYXCjEnGxcwc4
+TQID: 'https://experienceleague.adobe.com/yX-p5GzLd4EMOdWDrw3gAHqZfRvPCUaYXCjEnGxcwc4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -15,6 +15,11 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -32,11 +37,10 @@ topic_v2:
 
 # Connected record types overview
 
-<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+
 
 {{planning-important-intro}}
 
@@ -194,6 +198,28 @@ For information about you connect record types, see [Connect record types](/help
             >For example, if a project's Planned Start Date displays as 3:00 PM in Workfront, it will display as 15:00 in Workfront Planning in an imported lookup field. 
     
     * You must connect record types to be able to create hierarchies in Workfront Planning. When record type connections don't exist, they are automatically created when you create a hierarchy. For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+
+    * If your organization purchased an Adobe GenStudio for Performance Marketing package, the following scenarios exist:
+    
+        * You cannot connect to GenStudio record types from Planning record types. 
+        * You can connect GenStudio record types in the GenStudio workspace. 
+        * You can connect GenStudio Brands from GenStudio record types and from Planning record types. 
+        * You cannot include GenStudio Brands in a hierarchy. 
+
+    <div class="preview">
+
+    * You can make a connection field dependent on the corresponding connected field from the connected record type. When the two fields display on a third record type, the selections available for one field depend on the selections from the other field. 
+
+        For more information and additional considerations, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md). 
+    
+    </div>
+
+* The following scenarios exist when duplicating records with a connected record in a One to one or One to many connection type: 
+
+    * In the Production environment, the connected record moves to the duplicated record, or you must manually remove it from the original before you duplicate the record, and then add it back.
+    * <span class="preview">In the Preview environment, you can select whether the connected record stays on the original or moves to the duplicated record.</span> 
+
+    For more information, see [Duplicate records](/help/quicksilver/planning/records/copy-or-duplicate-records.md). 
 
 
 ## Connection types
