@@ -51,6 +51,34 @@ You can edit this access when editing a specific access level, or edit access to
 
 For more information, see [Grant access to MCP Tools](help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-mcp-tools.md).
 
+## Enhancements to layout templates
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+Several enhancements have been made to layout templates:
+
+* System and group administrators can now choose to hide or display system items in the Main Menu, within the layout template. System items include the Setup and Help buttons.
+* You can now reposition custom applications to be in any order with the default Workfront menu options. This allows you to position each application in the most relevant place. Previously, custom applications were always the last items in the layout template's Main Menu options and could not be repositioned.
+* You can now hide an object's Details page from the left navigation panel. An object must have at least one item displayed in the left panel. If all other items are hidden, then you cannot hide the last remaining item.
+
+For more information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) and[Customize the left panel using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+
+## Improved experience for updating field choices in the custom form designer
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+When working with drop-down fields, radio buttons, and check boxes in the form designer, you can now add, edit, and delete field choices in a single dialog. Previously, you would add and edit choices in the right panel of the designer and there was not a lot of space if you created a long list of choices.
+
+For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs).
+
 ## Add authorized redirect URLs for MCP integrations
 
 >[!NOTE]
@@ -112,22 +140,6 @@ If your organization has purchased a Planning package, in addition to a Workflow
 Custom weeks are not visible in Workfront. They are only visible in the Workfront Planning timeline view.
 
 For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
-
-## Reorder custom applications in the Main Menu
-
->[!NOTE]
->
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
->
->This feature was temporarily removed from the Preview environment on September 14, 2026.
-
-When working in a layout template, you can now reposition custom applications to be in any order with the default Workfront menu options. This allows you to position each application in the most relevant place.
-
-Previously, custom applications were always the last items in the layout template's Main Menu options and could not be repositioned.
-
-For more information on adding custom applications to the Main Menu, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Large file support for custom document integrations
 

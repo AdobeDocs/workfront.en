@@ -25,6 +25,82 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## See the total record count in table views
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view.
+
+The record count always reflects your full filtered results, not just the rows on screen, and respects your permissions so you only count records you can access.
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Clearer filter operator labels for multi-value fields
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+The multi-value filter operators in all Planning views have been updated to "Is any of" and "Is none of" instead of "Has any of" and "Has none of," giving you clearer and more consistent wording across the Workfront filter builders.
+
+This is a label-only update. Your existing filters are automatically migrated and continue to behave exactly as before.
+
+The changes are visible in filters across all Planning views. For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Addition of aggregators for non-number fields in the table view
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+We have introduced aggregators for additional field types in the table view. Prior to this enhancement, only number-related fields displayed aggregators at the bottom of columns.
+
+The aggregators differ depending on the field type:
+
+* Text, select, checkbox, and people fields: NONE, EMPTY, NOT EMPTY
+* Date fields: NONE, MAX, MIN
+* Formula fields: aggregators corresponding to their format
+
+We added NONE to the number-related field types, and NONE is the default for all field types.
+
+Aggregators for the following system fields are not supported: Created by, Last Modified by, and Record ID.
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Change a workspace owner
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+Workspace creators are currently assigned as the default owner. With this update, workspace managers can transfer ownership to another Standard-license user from the sharing dialog.
+
+The new owner is highlighted as the workspace owner in the sharing list and Planning home, while the previous owner retains Manage access to the workspace.
+
+For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).
+
+## Sort records and groupings in the timeline view
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+You can now sort records and groupings in the timeline view. Prior to this enhancement, this functionality was not available.
+
+For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
 ## Sharing fields in Workfront Planning
 
 >[!NOTE]
