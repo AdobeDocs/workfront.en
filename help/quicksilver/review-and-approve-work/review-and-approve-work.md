@@ -8,7 +8,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c88c09aa-166f-4ae1-bcfc-89b678590f51
-TQID: https://experienceleague.adobe.com/q-70Q5GsSgR3cxMVEfSia9gDcMgq-MvPeAr8sKI-VWA
+TQID: 'https://experienceleague.adobe.com/q-70Q5GsSgR3cxMVEfSia9gDcMgq-MvPeAr8sKI-VWA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -17,9 +17,13 @@ feature_v2:
     internal-label: Work management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
     internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

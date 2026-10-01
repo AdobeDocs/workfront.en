@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1affe1ae-571e-4026-8ba7-8ce7104e1b89
-TQID: https://experienceleague.adobe.com/R3wSSgj2kfPhGFa2qga9vWBdk0HKouiIDjXP7QzeLUc
+TQID: 'https://experienceleague.adobe.com/R3wSSgj2kfPhGFa2qga9vWBdk0HKouiIDjXP7QzeLUc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -16,9 +16,11 @@ feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
     internal-label: Work management
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-    internal-label: Resource Management
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
     internal-label: Tasks
@@ -26,12 +28,12 @@ subfeature_v2:
     internal-label: Requests
   - id: c33d85a1-be85-4290-854c-87408c10aa80
     internal-label: Workload Balancer
-  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
-    internal-label: Workfront Fusion
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
     internal-label: Resource Planner
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
     internal-label: Projects
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

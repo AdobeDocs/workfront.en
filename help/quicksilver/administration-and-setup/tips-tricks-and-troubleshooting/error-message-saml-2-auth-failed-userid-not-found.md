@@ -3,19 +3,21 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Error Message: SAML 2.0 Authentication Failed: User Identifier Not Found"
+title: 'Error Message: SAML 2.0 Authentication Failed: User Identifier Not Found'
 description: When you are using SAML 2.0, the error "SAML 2.0 Authentication Failed-User Identifier Not Found" means that a UID or NAME ID is not passed from the ADFS Claim rules.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 9467cdff-7965-49ba-ac13-ed79c496a725
-TQID: https://experienceleague.adobe.com/YxLEE1OvD-Wo3FSd5ewXMfijsTaCjjCjzAx-EWWlBPE
+TQID: 'https://experienceleague.adobe.com/YxLEE1OvD-Wo3FSd5ewXMfijsTaCjjCjzAx-EWWlBPE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

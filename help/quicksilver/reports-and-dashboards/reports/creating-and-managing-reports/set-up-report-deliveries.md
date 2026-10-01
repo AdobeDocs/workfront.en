@@ -8,13 +8,15 @@ feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0V06HBLIE0zUGInshtWbZu2F8-R96YbNitv5viQzFhs
+TQID: 'https://experienceleague.adobe.com/0V06HBLIE0zUGInshtWbZu2F8-R96YbNitv5viQzFhs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
     internal-label: Data export
@@ -28,6 +30,8 @@ topic_v2:
     internal-label: Administration
 ---
 # Report delivery overview
+
+{{highlighted-preview}}
 
 <!-- Audited: 11/2024 -->
 
@@ -52,6 +56,7 @@ Consider the following when scheduling reports for delivery:
 
 * You can schedule up to 10 repeating report deliveries for any given report.
 * You can schedule a report to be delivered only if you are the creator of the report. If you need to send a report that you did not create, you can send it on a manual basis.
+* <span class="preview">In Preview, every scheduled report delivery must have a defined end date. If a delivery was previously set to Never, Workfront automatically sets the end date to 13 months from the next date the report is sent.</span>
 
 ## Export limits
 
@@ -140,6 +145,7 @@ For more information about how to apply a special view to a report, see the arti
 * [Branding](#branding) 
 * [Formatting](#formatting) 
 * [Links](#links)
+* [Report expiration notices](#report-expiration-notices)
 
 ### Subject line, attachment name, and report title {#subject-line-attachment-name-and-report-title}
 
@@ -191,6 +197,18 @@ For more information about selecting the default tab of a report and about speci
 When you send a report from Workfront to PDF or Excel format, any working links that exist in the original document remain live in the sent file. Links can point to any object in Workfront that supports linking.
 
 The name of the report in the email message is also a link.
+
+<div class="preview">
+
+### Report expiration notices {#report-expiration-notices}
+
+In Preview, delivered report emails include the report's expiration date.
+
+If the delivery repeats daily, the email includes an expiration warning on every delivery once the expiration date is within 45 days.
+
+If the delivery repeats weekly or monthly, the email includes an expiration warning during the last four scheduled deliveries before the expiration date.
+
+</div>
 
 ## Report on scheduled reports
 

@@ -9,10 +9,13 @@ role: Developer
 exl-id: 2cf9d708-ce62-4434-8352-31dd8440ecb9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/68EwYY0fktdR0x0e3tR8V0MJ2QkmmpL3nkxZ9CBnEn8
+TQID: 'https://experienceleague.adobe.com/68EwYY0fktdR0x0e3tR8V0MJ2QkmmpL3nkxZ9CBnEn8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

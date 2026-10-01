@@ -6,7 +6,7 @@ description: This integration scenario syncs any budget allocations that have be
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 9b8add8f-1978-4ab4-87ac-f1159e7d6cbb
-TQID: https://experienceleague.adobe.com/Fk6ZthLrr8GEmMu7WhFmYN7w7WR0UrnWosgvuHZ9nIc
+TQID: 'https://experienceleague.adobe.com/Fk6ZthLrr8GEmMu7WhFmYN7w7WR0UrnWosgvuHZ9nIc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -17,6 +17,10 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

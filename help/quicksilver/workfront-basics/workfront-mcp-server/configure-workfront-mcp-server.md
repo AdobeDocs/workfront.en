@@ -5,7 +5,12 @@ title: Configure the Adobe Workfront MCP server
 description: Configure your Workfront instance and your AI agentic platform so you can work with Workfront through natural-language conversation.
 author: Courtney
 feature: Get Started with Workfront
-
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 ---
 
 # Configure the Adobe Workfront MCP server

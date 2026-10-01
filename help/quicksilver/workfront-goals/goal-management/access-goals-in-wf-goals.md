@@ -147,10 +147,9 @@ Old:
 
    The Goal List displays.
 
-   
-   >[!IMPORTANT]
-   >
-   >   When you have the correct access to Workfront Goals, you can view goals that you or anyone else created in the Goal List, by default.    
+>[!IMPORTANT]
+>
+>When you have the correct access to Workfront Goals, you can view goals that you or anyone else created in the Goal List, by default.    
    
    <!--   
    (NOTE: This might change when sharing is in place; right now, with sharing in place, they can VIEW all goals in the system but they cannot EDIT the ones others created!)
