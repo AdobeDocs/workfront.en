@@ -19,9 +19,17 @@ role_v2:
 ---
 # Use Work Agents
 
-Work Agents are AI Collaborators that can be assigned directly to Workfront tasks, in addition to the existing AI Reviewer used for document and asset reviews. Like other AI Collaborators, Work Agents are configured in the Setup area and assigned to tasks just like a user.
+{{preview-fast-release-general}}
 
-Work Agents connect to agents that you have configured in Copilot Studio, Claude, or Writer.
+Work Agents are AI Collaborators that can be assigned directly to Workfront tasks and issues. Like other AI Collaborators, Work Agents are configured in the Setup area and assigned to tasks just like a user.
+
+Work Agents connect to agents that you have configured in Copilot Studio, Claude, Writer,  <span class="preview">OpenAI or IBM. </span>
+
+>[!IMPORTANT]
+>
+>Writer is deprecating their use of agents. Work Agents configured using Writer agents will not work after October 9. 2026.
+>
+>For information on the deprecation, see [Agent Library migration & deprecation](https://support.writer.com/articles/8335689949-migrating-no-code-agents) in the Writer documentation.
 
 For information and instructions about creating a Work Agent in Workfront, see [Configure a Work Agent](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent) in the article Configure AI Collaborators.
 
@@ -54,7 +62,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Prerequisites
 
-* You must configure an agent in Copilot, Claude, or Writer.ai before you can use it as a Work Agent.
+* You must configure an agent in Copilot, Claude, Writer.ai, OpenAI, or IBM before you can use it as a Work Agent in Workfront.
 
 ## Work Agent overview
 
@@ -70,7 +78,7 @@ Some example workflows may include:
 >
 >* Specific details about an agent's responsibilities and abilities are configured in the application where the agent is created, not in Workfront. 
 >* The Workfront MCP server does not need to be added to the agent used as a Work Agent, and does not need to be connected for the Work Agent to work.
->* Work Agents currently support agents created in Copilot Studio, Claude, and Writer.ai.
+>* Work Agents currently support agents created in Copilot Studio, Claude, and Writer.ai, <span class="preview">OpenAI, and IBM. </span>
 >* When configuring an agent in Copilot Studio, you must set security to **No authentication**.
 >* For information and instructions about creating a Work Agent in Workfront, see [Configure a Work Agent](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent) in the article Configure AI Collaborators.
 
@@ -82,6 +90,7 @@ When a Work Agent begins work on a task, it automatically reads the following ta
 * Task description
 * Comments in the task's update stream
 * Information in any custom form attached to the task
+* <span class="preview"> Attached documents</span>
 
 This information is always read and is not configurable as a Workfront setting.
 
@@ -94,7 +103,9 @@ This information is always read and is not configurable as a Workfront setting.
 
 ## Work Agent start triggers
 
-When a Work Agent is assigned to a task, it begins work when any of the following situations are met:
+When a Work Agent is assigned to a task <span class="preview">or issue</span>, it begins work when any of the following situations are met:
+
+<!--update wording to include issues when this goes to production-->
 
 * The Work Agent is assigned to a task that is ready to start. (For example, if the task has predecessors, the predecessors are complete.)
 * The Work Agent and a user are assigned to a task, and the Work Agent is assigned first.
@@ -110,9 +121,9 @@ The following situations do not cause the Work Agent to begin work on the task:
 * A Work Agent is assigned to a task that already has a Work Agent assigned. In this case, the first Work Agent assigned will have already begun the work, and the second Work Agent will do nothing.
 * A Work Agent is assigned to a task that is not ready to start. (For example, if the task has predecessors, the predecessors are not yet complete.)
 
-## Assign a Work Agent to a task
+## Assign a Work Agent to a task <span class="preview">or issue</span>
 
-Work Agents are assigned to tasks the same way users are assigned.
+Work Agents are assigned to tasks <span class="preview">or issues</span> the same way users are assigned.
 
 When you are searching for a Work Agent in the list of available assignees, the name of the Work Agent is a first name only.
 

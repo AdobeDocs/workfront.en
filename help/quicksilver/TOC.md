@@ -1320,6 +1320,7 @@ feature-set: Workfront
       * [Understand project metrics](manage-work/projects/manage-projects/project-metrics.md)
       * [Project limits overview](manage-work/projects/manage-projects/project-maximums.md)
       * [Summarize updates with AI Assistant](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+      * {hide-from-toc} [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)
       * [Document management overview for projects and related objects](manage-work/projects/manage-projects/manage-documents-on-projects.md)
     * Create and manage project templates {#create-and-manage-project-templates}
       * [Create and manage project templates: article index](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
@@ -1427,7 +1428,7 @@ feature-set: Workfront
       * [Assign tasks](manage-work/tasks/assign-tasks/assign-tasks-1.md)
       * [Assign tasks](manage-work/tasks/assign-tasks/assign-tasks.md)
       * [Create advanced assignments](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-      * [Use task collaborators](manage-work/tasks/assign-tasks/use-task-collaborators.md)
+      * [Use Work Agents](manage-work/tasks/assign-tasks/use-task-collaborators.md)
       * [Smart assignments overview](manage-work/tasks/assign-tasks/smart-assignments.md)
       * [Overview of modifying task assignments](manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
       * [Modify multiple user assignments in a task list](manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)

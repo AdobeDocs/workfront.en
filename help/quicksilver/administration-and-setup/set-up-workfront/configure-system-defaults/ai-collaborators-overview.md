@@ -19,7 +19,11 @@ role_v2:
 ---
 # AI Collaborators
 
+{{preview-fast-release-general}}
+
 AI Collaborators are AI agents that you can assign to tasks the same way you'd assign a person. You can fit AI Collaborators into your existing workflows, freeing up your team to focus on what matters most. 
+
+Available AI Collaborator types include AI Reviwers and Work Agents.<!--<span class="preview">and Project Coordinators.</span>-->
 
 ## AI Collaborators at work
 

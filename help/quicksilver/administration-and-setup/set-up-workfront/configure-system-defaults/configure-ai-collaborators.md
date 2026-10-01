@@ -20,7 +20,9 @@ role_v2:
 ---
 # Configure AI Collaborators
 
-AI Collaborators are a way to onboard AI agents into your projects and tasks. You can configure an AI Collaborator, then assign it as you would a user.
+{{preview-fast-release-general}}
+
+AI Collaborators are a way to onboard AI agents into your projects, tasks, and issues. You can configure an AI Collaborator, then assign it as you would a user.
 
 For example, you can configure a reviewer-type AI Collaborator with brand guidelines, then assign that collaborator to review a document.
 
@@ -30,9 +32,15 @@ Available AI Collaborator types include:
 
    For more information, see [Get started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Work Agent: Create a collaborator using Copilot or Writer, then assign the collaborator to a task to complete task-level work.
+* Work Agent: Create a collaborator using a standard AI platform like Claude, OpenAI, Copilot, or Writer, then assign the collaborator to a task or issue to complete work items.
 
    For more information, see [Use Work Agents](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+
+<!--
+* <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
+
+   <span class="preview">For more information, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).</span>
+-->
 
 
 ## Access requirements
@@ -53,7 +61,7 @@ Available AI Collaborator types include:
   </tr> 
   <tr> 
    <td>Access level configurations</td> 
-   <td>[!UICONTROL System Administrator]</td> 
+   <td>[!UICONTROL System Administrator] <span class="preview">or Group Administrator</span></td> 
   </tr> 
   </tbody> 
 </table>
@@ -63,6 +71,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 +++
 
 ## Prerequisites
+
+* [For AI Reviewers](#for-ai-reviewers)
+* [For Work Agents](#for-work-agents)
 
 ### For AI Reviewers:
 
@@ -78,7 +89,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ### For Work Agents
 
-You must configure an agent in Claude, Copilot Studio, or Writer before you can use it as a Work Agent. 
+You must configure an agent in Claude, Copilot Studio, Writer, OpenAI, or IBM before you can use it as a Work Agent. 
+
+>[!NOTE]
+>
+>We aim to connect with any agent provider, so if the provider you are using is not currently compatible with Work Agents, please reach out to your account team for assistance.
 
 ## Create a new AI Reviewer
 
@@ -100,13 +115,16 @@ AI Reviewers can be configured to use Workfront brands, or Adobe Brand Intellige
 
 ## Configure a Work Agent
 
-Work Agents are agents that you can assign to tasks in Workfront. You configure the Work Agent with a name, access level, and other details, and assign it to a task as you would assign a user. 
+Work Agents are agents that you can assign to tasks or issues in Workfront. You configure the Work Agent with a name, access level, and other details, and assign it to a task as you would assign a user. 
 
-Because Work Agents are agents, their actions and abilities are configured where you configure your agents. Currently, agents used as Work Agents can be created in Copilot Studio, Claude, or Writer.
+Because Work Agents are agents, their actions and abilities are configured where you configure your agents. Currently, agents used as Work Agents can be created in Copilot Studio, Claude, or Writer, OpenAI, and IBM.
 
-Work Agents can be assigned only to tasks, and cannot currently be assigned to issues.
+Work Agents can be assigned to tasks or issues.
 
 For a list of best practices when creating an agent to work as a Work Agent, see [Best practices for creating an agent for a Work Agent](#best-practices-for-creating-an-agent-for-a-work-agent).
+
+* [Configure a Work Agent in Workfront](#configure-a-work-agent-in-workfront)
+* [Best practices for creating an agent for a Work Agent](#best-practices-for-creating-an-agent-for-a-work-agent)
 
 ### Configure a Work Agent in Workfront
 
@@ -118,6 +136,12 @@ For a list of best practices when creating an agent to work as a Work Agent, see
 1. In the AI Collaborator Name field, enter a name for the collaborator. This is the name that appears in the list of available assignees on a task.
 1. In the AI Collaborator description field, enter a description of the collaborator's purpose or the actions it performs.
 1. In the Access Level field, select an access level for this collaborator. This access level controls what the collaborator can do, in the same way an access level controls what a user can do.
+1. (Optional) In the Groups field, select the groups that the Work Agent will be associated with.
+
+   >[!NOTE]
+   >
+   ><span class="preview">If you are a group administrator, this field displays only groups that you are an administrator for. Group administrators must select at least one group.</span>
+
 1. In the **Choose agent's origin** area, select whether you want to connect an agent created in an common platform such as Copilot or Writer, or use a custom agent.
 1. (Conditional) If you are using an agent from a common platform, enter authentication details for the agent's platform:
 
@@ -125,14 +149,21 @@ For a list of best practices when creating an agent to work as a Work Agent, see
    |---|---|
    |Copilot Studio|Web channel secret|
    |Claude Managed Agents|Anthropic API key<br>Agent ID<br>Environment ID|
-   |Writer|API key<br>Application ID|
+   |Writer Agent|API key<br>Application ID|
+   |<span class="preview">OpenAI Agents</span>|<span class="preview">API key <br>Agent ID</span>|
+   |<span class="preview">IBM watsonx Orchestrate</span>|<span class="preview">Service URL<br>API Key<br> Agent ID</span>|
 
 1. Click **Test connection**. This lets you know whether the connection was set up correctly.
-1. In the **After the Collaborator is finished with its work, it can** area, toggle on the actions that you want the collaborator to take.
+1. In the **After the Collaborator is finished with its work, it can** area, toggle on the actions that you want the collaborator to take. 
+   
+   * <span class="preview">Send notification: The Agent makes a comment in the update stream, tagging the user that requested the work, assigned the Agent, or that owns the project. </span>
+   * <span class="preview">Upload a document</span>
+   * <span class="preview">Mark task complete</span>
+   * Write task fields: Select the forms and fields that the Agent can write to. 
+
 1. Click **Save**.
 
 For more information on Work Agents, including how to assign them to tasks, see [Use Work Agents](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
-
 
 ### Best practices for creating an agent for a Work Agent
 
@@ -196,9 +227,46 @@ More detailed information about creating agents can be found in the [Writer docu
 
 +++
 
+<div class="preview">
+
+<!--
+## Configure a Project Coordinator
+
+The Project Coordinator is an out-of-the-box collaborator that monitors project status and helps keep work on track. Unlike Work Agents, the Project Coordinator does not require you to configure an external agent.
+
+{{step-1-to-setup}}
+
+1. In the left navigation, click **AI Collaborators**.
+1. Click **New Collaborator** in the upper-right corner of the screen.
+1. Select **Project Coordinator**.
+1. In the **AI Collaborator name** field, enter a name for the Project Coordinator. This is the name that appears as the collaborator in your project.
+1. In the **AI Collaborator description** field, enter a description of what the Project Coordinator does or its purpose.
+1. In the **Access level** field, select an access level for the Project Coordinator. This access level controls what the collaborator can do on projects.
+1. (Optional) In the **Send project updates** section, toggle **Allow** to enable project update notifications, then specify update details.
+   * In the **Cadence** field, select whether the Coordinator sends updates daily or weekly.
+   * If the Coordinator sends updates weekly, in the **Day of week** field, select the day of the week that updates are sent.
+   * In the **Time (MST)** field, select the time to send updates.
+   * In the **How to send** field, select whether the Coordinator sends updates as an update on the project, or as an email
+   * In the **Who gets the update** field, select whether the update is sent only to the project owner, or to all project stakeholders.
+   * (Optional) Check **Send additional update immediately when coordinator is assigned** to notify on assignment.
+   * (Optional) Check **Send additional update when a date is missed** to send notifications when dates are missed.
+1. (Optional) In the **Notify task assignees** section, toggle **Allow** to enable task notifications, then check the boxes for the situations that you want to notify assignees about.
+1. (Optional) In the **Remind reviewers and approvers** section, toggle **Allow** to enable reminders for reviewers, then check the boxes for the situations that you want to remind reviewers and approvers about.
+1. (Optional) In the **Update the content of project and task fields** section, toggle **Allow** to enable the coordinator to update project and task field values.
+1. Click **Save**.
+
+For more information on the Project Coordinator, including how to assign it to projects, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
+-->
+
+</div>
+
 ## Manage AI Collaborators
 
-You can edit, copy, and delete existing AI Collaborators.   
+You can edit, copy, and delete existing AI Collaborators. 
+
+>[!NOTE]
+>
+><span class="preview">Group administrators can view and interact with only AI Collaborators associated with groups that they are administrators for. If other groups are also associated with a given AI Collaborator, a group administrator can view but not edit it.</span>
 
 {{step-1-to-setup}}
 
