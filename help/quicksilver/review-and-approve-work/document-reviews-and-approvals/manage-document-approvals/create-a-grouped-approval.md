@@ -9,10 +9,7 @@ feature: Work Management, Digital Content and Documents
 
 # Create a grouped approval
 
-
-<span class="preview">The information on this page is not currently available in the Preview Sandbox environment because Frame.io does not support the Workfront's Preview Sandbox environment. This functionality will be available in Production environments on October 14th and 15th, 2026.</span>
-
-<span class="preview">The information on this page is not available in the Preview Sandbox environment because the Frame.io integration is not available there. This functionality will be available in Production environments on October 14 and 15, 2026.</span>
+<span class="preview">The information on this page is not available in the Preview Sandbox environment because the Frame.io integration is unavailable there. This functionality will be available in Production environments on October 14 and 15, 2026.</span>
 
 A grouped approval bundles multiple assets under a single approval workflow. You can use Basic and Advanced mode, multiple stages, and parallel paths with grouped approvals, just as you can with single-asset approvals.
 
@@ -101,7 +98,11 @@ To create a single-stage grouped approval:
 
 Advanced mode supports parallel paths. Each path runs independently and contains one or more sequential stages. When all required decisions in a stage are made, the next stage in that path begins, the previous stage is locked, and the new stage's reviewers and approvers receive an email notification.
 
-A "Needs work" decision stops the path it's on but does not affect the approval workflow on other paths. You can configure up to 30 paths and 100 stages total.
+A "Needs work" decision stops the path it's on but does not affect the approval workflow on other paths. 
+
+<!--
+You can configure up to 30 paths and 100 stages total.
+-->
 
 To create an advanced grouped approval:
 
@@ -189,3 +190,4 @@ To add an additional document to a grouped approval:
 ## Known limitations 
 
 * Currently, you can't add or remove documents from a grouped approval workflow once it's created. This functionality is planned for a future release.
+* Grouped approvals are temporarily limited to 3 paths and 25 assets per group.
