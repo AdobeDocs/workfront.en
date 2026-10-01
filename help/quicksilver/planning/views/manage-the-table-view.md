@@ -327,10 +327,10 @@ You can add up to 500 fields (or columns) in a table view.
     * **MAX**: Displays the highest value from all the cells in the column. 
     * **AVG**: Displays the average value of all the cells in the column.  
 
-    <!-- 
+    <!--    
     <div class="preview"> 
 
-    * **NONE**: The values of the column are not aggregated. This is the default option. 
+    * **NONE**: The values of the column are not aggregated.This is the default option. 
     
     </div> 
     -->
@@ -394,8 +394,7 @@ At preview release, replace the last procedure step with this:
         * Record ID
     * Formula fields and look up fields have the aggregators that correspond to their field format. 
 
-    </div>
-    -->
+    </div> 
 
 ### Add rows (or records) {#add-rows-1}
 
@@ -457,6 +456,8 @@ For more information, see [Create records](/help/quicksilver/planning/records/cr
 Filters help you reduce the amount of information displayed on the screen.
 
 Consider the following when working with filters in the table view: 
+
+-->
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
