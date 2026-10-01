@@ -327,9 +327,10 @@ You can add up to 500 fields (or columns) in a table view.
     * **MAX**: Displays the highest value from all the cells in the column. 
     * **AVG**: Displays the average value of all the cells in the column.  
 
-    <!--    <div class="preview"> 
+    <!-- 
+    <div class="preview"> 
 
-    * **NONE**: The values of the column are not aggregated.This is the default option. 
+    * **NONE**: The values of the column are not aggregated. This is the default option. 
     
     </div> 
     -->
