@@ -4,12 +4,115 @@ description: Fourth Quarter 2026 Reporting enhancements
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 ---
 # Fourth Quarter 2026 Reporting enhancements
 
 This page describes Reporting enhancements made with the Fourth Quarter 2026 release to the Preview environment. These enhancements will be made available in the Production environment as noted.
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Canvas Dashboards now available on Google Cloud Platform and Microsoft Azure
+
+>[!NOTE]
+>
+>Preview: N/A
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+Workfront instances on Google Cloud Platform (GCP) and Azure can now opt in to the Canvas Dashboards open beta. For more information, see [Use Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
+
+## Register a Snowflake private listing for Workfront Data Connect
+
+>[!NOTE]
+>
+>Preview: N/A
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+You can now share your Workfront Data Connect data directly with your organization's Snowflake account by registering a private listing. This connection method uses Snowflake's private listing capability to securely share data between organizations without exposing it publicly, and it works across regions and hosting platforms.
+
+A private listing is useful when you want to join your Workfront data with other data in your enterprise data warehouse. Because the data lands in your own Snowflake account, you can query it alongside the rest of your data.
+
+For more information, see [Register a private listing for Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/register-a-private-listing.md).
+
+## Reporting MCP Tools now available for Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+To make it easier to use Canvas Dashboards, we've added tools to the Workfront MCP. Now, you can build and manage Canvas Dashboards through chat, and the dashboard and widgets are created for you using your Workfront data. This works from MCP clients like Claude and Cursor.
+
+For example, you can:
+
+* Create reports by asking. Describe a dashboard or a chart in natural language instead of building it manually.
+* Edit in place. Ask to rename a widget, change a filter, swap a chart type, or resize, and the changes apply to the live dashboard.
+* Reuse what you have. Duplicate an existing dashboard or widget as a starting point instead of rebuilding from scratch.
+
+### Supported features
+
+**Dashboards**
+
+* Create a new dashboard
+* List your dashboards (yours, shared with you, all, or favorites) and search by title
+* Open or view a dashboard's structure
+* Update title, description, currency, filters, and prompts
+* Duplicate a dashboard (with or without its widgets, prompts, and filters)
+* Delete a dashboard
+
+**Widgets**
+
+* KPI — a single aggregated number (sum, average, count, min, max, etc.)
+* Chart — bar, column, line, and pie; supports simple, multi-series, and stacked charts
+* Table — multi-column tables with row grouping
+* View a widget's configuration, and update, copy, resize or reposition, or delete it
+
+**Reporting options**
+
+* Filter data with conditions and AND/OR groups
+* Group and aggregate by any field
+* Drill down from a KPI or chart into the underlying records
+* Custom column labels, number, date, and currency formatting, and conditional cell styling
+* Dashboard-level prompts and filters
+
+For more information, see [Use Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
+
+## Copy or move widgets between Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+You can now copy a widget to the same dashboard, to another dashboard you have edit access to, or to a new dashboard. You can also move a widget to another dashboard you have edit access to or to a new dashboard. 
+
+When you copy a widget, a dialog box now opens where you select the destination dashboard and whether to copy or move the widget. Previously, the report builder opened immediately.
+
+## Filter on collection relationships in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+When you build a filter in a Canvas Dashboard, you can now filter on collection relationships, which are fields that link to a group of related records rather than to a single record. For example, you can filter on the status of tasks belonging to a project to show a list of projects that have tasks in the "New" status.
+
+Previously, filtering on collection relationships required text mode.
+
+For more information, see [Report filter reference for Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
 
 ## Copy dashboards in Canvas Dashboards
 

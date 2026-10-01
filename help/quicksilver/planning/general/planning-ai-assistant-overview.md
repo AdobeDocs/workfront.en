@@ -8,16 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/3I5y7eTZml-nkAiAYnBFuaw72DyXgNG12D-EVYVourA
+TQID: 'https://experienceleague.adobe.com/3I5y7eTZml-nkAiAYnBFuaw72DyXgNG12D-EVYVourA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -32,11 +36,11 @@ topic_v2:
 # Adobe Workfront Planning AI Assistant overview
 
 
-<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 
 {{planning-important-intro}}
@@ -44,6 +48,10 @@ topic_v2:
 You can use the AI Assistant to make changes or updates to records and other objects in Adobe Workfront Planning  based on the current page context. 
 
 The user's commands and the AI's execution of those commands work together to ensure that changes made by the AI are accurately reflected in your environment. 
+
+>[!IMPORTANT]
+>
+><span class="preview">In some organizations, the AI Assistant was replaced by the CX Coworker. For information, see [Adobe Workfront Planning CX Coworker overview](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
 
 ## Access requirements
 
@@ -107,7 +115,7 @@ Or
 
   For information, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md). 
 
-* After Workfront has enabled the agent for your organization, it is available for the main Workfront administrator. For information, see [Configure basic information for your system](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md). 
+* After Workfront has enabled the agent for your organization, it is available for the main Workfront administrator. For information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 * The Workfront administrator must enable the AI Assistant for all other users. For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md). 
 
@@ -146,12 +154,17 @@ You can use the AI Assistant to perform the following actions, at this time:
 
 ## Locate the AI Assistant in Workfront Planning
 
+>[!NOTE]
+>
+><span class="preview">If your organization has received access to the CX Coworker, locating the CX Coworker is similar to locating the AI Assistant. For information, see [Adobe Workfront Planning CX Coworker overview](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
+
+
 You can locate the AI Assistant in the following areas of Workfront Planning:
 
 * The main navigation bar, in the upper-right corner of the screen.
 * Inside the details area of a record, after you opened the record in the preview or after you opened the record's page.
 
-## Access the AI Assistant in the Planning area
+### Access the AI Assistant in the Planning area
 
 1. Log in to Workfront, then click the **Main Menu** icon ![Lines main menu](assets/lines-main-menu.png) in the upper-left corner, then click **Planning**. 
 

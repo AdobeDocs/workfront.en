@@ -6,13 +6,15 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-TQID: https://experienceleague.adobe.com/NCFVKM2w48sXJ6UhT13372feWIxLhyUz7on6cyJLUO4
+TQID: 'https://experienceleague.adobe.com/NCFVKM2w48sXJ6UhT13372feWIxLhyUz7on6cyJLUO4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

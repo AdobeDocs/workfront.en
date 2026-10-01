@@ -5,7 +5,12 @@ title: Adobe Workfront MCP server tools
 description: Reference list of the tools available through the Adobe Workfront MCP server, grouped by Workfront area.
 author: Courtney
 feature: Get Started with Workfront
-
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 ---
 
 # Adobe Workfront MCP server tools
@@ -41,6 +46,7 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
+| Upload Document to Workfront** | `upload_document_ui` | It lets you upload a file to a project, task, issue, program, portfolio or template, and optionally into a folder. | Write |
 | Find document version by name | `approvals_find_document_version_by_name` | Looks up a document's current version ID by filename. Supports partial matches. | Read |
 | Get document by version ID | `approvals_get_document_by_version_id` | Fetches document details (name, size, upload date, uploader) for a known document version ID. | Read |
 | Resolve document scope | `approvals_resolve_document_scope` | Expands a project or folder into the list of document version IDs it contains. Supports project, folder, and folder-by-name scopes. | Read |
@@ -53,7 +59,7 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 
 
 *Sending documents to an AEM folder is not yet supported for projects on Adobe cloud storage. Support is expected in a future release.
-
+**This tool opens an interactive upload panel in the chat, so it only works in tools that support MCP Apps. Currently, only Claude is supported for this tool. It appears under "Interactive tools" in the tool permissions and asks for approval by default.
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
@@ -283,6 +289,10 @@ Example prompts:
 
 Insights tools retrieve information about Workfront objects.
 
+>[!NOTE]
+>
+>Insights data is near real-time, with an SLA of up to approximately 15 minutes. Changes made in Workfront may not appear immediately in Insights results.
+
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
 | Read documents | `insights_read_docs` | Load the Workfront playbook or domain documentation, such as conditions, status, dates, or field paths. This is the required first step before querying data. | Read |
@@ -303,7 +313,22 @@ Insights tools retrieve information about Workfront objects.
 | --- | --- | --- | --- |
 | <span class="preview">Share feedback</span> | <span class="preview">`share_feedback`</span> | <span class="preview">Records your reported sentiment and what happened during the conversation, so Workfront's MCP tools can be improved. Only used when you explicitly ask to share feedback (for example, "share feedback" or "report a bug").</span> | <span class="preview">Write</span> |
 
+## Reporting tools
 
+Reporting tools let you build and manage Canvas Dashboards through chat. Describe the report you want in plain language, and the AI agentic platform creates the dashboard and widgets for you using your Workfront data.
+
+
+### Canvas Dashboards
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Read | `read` | Reads Reporting data in three modes selected by the IDs passed: lists the dashboards visible to you, fetches a single dashboard's structure, or fetches one widget's full configuration. | Read |
+| Create Dashboard | `create_dashboard` | Creates a new, empty Reporting dashboard and returns it, with a link to open it. | Write |
+| Update Dashboard | `update_dashboard` | Partially updates a dashboard's metadata, prompt, filter, and per-widget placement. Omitted fields are left unchanged. | Write |
+| Create Widget | `create_widget` | Creates a widget and its report configuration on a dashboard. One tool handles all three widget types: chart, KPI, and table. | Write |
+| Update Widget | `update_widget` | Partially updates an existing widget's configuration. The widget type is inferred automatically, so you only send the fields you want to change. | Write |
+| Copy Object | `copy_object` | Copies a whole dashboard, including its widgets, prompt, and filter, onto a new dashboard, or copies a single widget within or across dashboards. | Write |
+| Delete Object | `delete_object` | Permanently deletes a Reporting dashboard, and all its widgets, or a single widget. This action cannot be undone. | Write |
 
 ## How tools are updated
 
@@ -316,5 +341,6 @@ When Adobe releases a new version of the Workfront MCP server, the AI agentic pl
 We are working on adding the following tools to the Workfront MCP server in the future:
 
 * Boards
+
 
 
