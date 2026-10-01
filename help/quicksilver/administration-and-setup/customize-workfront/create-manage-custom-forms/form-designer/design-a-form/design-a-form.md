@@ -37,6 +37,8 @@ topic_v2:
 ---
 # Create a custom form
 
+{{highlighted-preview}}
+
 <!-- Audited: 6/2025 -->
 
 You can design a custom form with the form designer in Adobe Workfront. You can attach custom forms to different Workfront objects to capture data about those objects.
@@ -479,7 +481,8 @@ To add radio buttons, checkbox groups, and drop-downs:
     <li>Single-select dropdown</li>
     <li>Multi-select dropdown</li>
     </ul></td>
-    </tr> 
+    </tr>
+    <tr>
     <td role="rowheader">Choices </td> 
     <td> 
     <p>Select any of the following options:</p> 
@@ -503,6 +506,36 @@ To add radio buttons, checkbox groups, and drop-downs:
     </ul>
     </td>
      </tr>
+    <tr>
+    <td role="rowheader"><span class="preview">Choices</span></td> 
+    <td>
+    <div class="preview">
+    <p>Click <strong>Edit choices</strong> to add or edit choices for the field.</p>
+    <p>To add a new choice in the Edit choices dialog:</p>
+    <ol>
+    <li><p>Click <strong>New row</strong> at the bottom of the table.</p> <p><b>Note:</b> There is no limit for how many choices you can add.</p></li>
+    <li>Type the <strong>Choice name</strong> and <strong>Choice value</strong>. These are usually the same, just like the field API name and label.</li>
+    <li>(Optional) Select <strong>Select by Default</strong> to have the choice selected by default in the field.</li> 
+    </ol>
+    <p>For additional actions:</p>
+    <ul>
+    <li>To edit an existing choice, double-click in the area you want to change.</li>
+    <li> To hide a choice in the field, select it and click <strong>Hide Choice</strong> in the action bar at the bottom of the screen. Hidden choices remain accessible in reports.</li> 
+    <li> <p>To delete a choice from the field, select it and click <strong>Remove Choice</strong> in the action bar at the bottom of the screen.</p> <p><b>Warning</b>:  If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p> </li> 
+    <li>Use the <strong>Drag</strong> icon <img src="assets/drag-icon.png"> to sort the choices manually.</li>
+    <li>Click <strong>Sort Choices A-Z</strong> to sorts the choices alphabetically in the field.</li>
+    </ul>
+    <p>Click <strong>Save</strong> when you are finished editing choices.</p>
+    </div>
+    </td> 
+    <td><ul>
+    <li><span class="preview">Radio buttons</span></li>
+    <li><span class="preview">Checkbox group</span></li>
+    <li><span class="preview">Single-select dropdown</span></li>
+    <li><span class="preview">Multi-select dropdown</span></li>
+    </ul>
+    </td>
+    </tr> 
     <tr>
      <td>Active</td>
      <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
