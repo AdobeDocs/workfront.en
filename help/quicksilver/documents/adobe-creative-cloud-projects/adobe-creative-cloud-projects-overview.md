@@ -19,27 +19,28 @@ role_v2:
 ---
 # Adobe Creative Cloud Projects overview
 
-You can access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign, using the Projects panel on the left side of the app window.
+You can access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign. In the Projects panel on the left side of the Creative Cloud app's window, you can open, edit, and save documents in a Workfront project without leaving the app. You can also save new files directly to a Workfront project.
 
-Projects that use Adobe cloud storage appear in the Projects panel. From there, you can open, edit, and save documents in a Workfront project without leaving Photoshop, Illustrator, or InDesign.
+Only projects that use Adobe cloud storage appear in the Projects panel alongside your other Creative Cloud projects. The panel mirrors the folder structure of the documents in Workfront.
 
-## What you can do from the Projects panel in Photoshop, Illustrator, or InDesign
-
-* Open Workfront project folders and documents directly in Photoshop, Illustrator, or InDesign.
-* Edit an asset and save your changes back to the Workfront project.
-
-For more information, see [Use Workfront documents in Creative Cloud apps](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md).
+When you save a document that has an approval workflow, Workfront creates a new version and preserves the approval history. When you save a document that doesn't have an approval workflow, Workfront updates the latest version.
 
 ## Prerequisites
 
-* Your organization must be on a version of Workfront that supports the Adobe Creative Cloud integration.
-* Workfront and Photoshop, Illustrator, or InDesign must be connected to the same Adobe Identity Management System (IMS) organization.
-* Your organization must have Adobe cloud storage enabled.
-* Legacy Workfront storage projects are not supported in the Projects panel—only Adobe cloud storage projects.
+* Your organization must be on a version of Workfront that supports Adobe cloud storage.
+* Workfront and Photoshop, Illustrator, or InDesign must be entitled in the same Adobe Identity Management System (IMS) organization.
 
->[!IMPORTANT]
+
+## What you can do from the Projects panel in Photoshop, Illustrator, or InDesign
+
+* Open Workfront project folders and documents directly in Photoshop, Illustrator, or InDesign. Any Workfront project you have access to appears in the Projects panel.
+* Edit a file and save your changes back to the Workfront project.
+
+For more information, see [Use Workfront documents in Creative Cloud apps](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md).
+
+>[!NOTE]
 >
->**Open question:** What determines whether a Workfront project appears in the Projects panel? Is project-level sharing in Workfront sufficient on its own, or is an additional setup step (for example, in the Admin Console) required to connect Workfront and Creative Cloud? Confirm with Product/Engineering before publishing.
+>Legacy Workfront storage projects are not supported in the Projects panel.
 
 ## Related integrations
 

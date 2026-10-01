@@ -21,13 +21,8 @@ After a Workfront project is available in the Creative Cloud Projects panel, you
 
 ## Prerequisites
 
-* Your organization must be on a version of Workfront that supports the Adobe Creative Cloud integration.
-* Workfront and Photoshop, Illustrator, or InDesign must be connected to the same Adobe Identity Management System (IMS) organization.
-* Your organization must have Adobe cloud storage enabled.
-
->[!IMPORTANT]
->
->**Open question:** Confirm exact access requirements (Workfront package, license, object permissions) for this feature before publishing. Not yet documented in the source material for this article.
+* Your organization must be on a version of Workfront that supports Adobe cloud storage.
+* Workfront and Photoshop, Illustrator, or InDesign must be entitled in the same Adobe Identity Management System (IMS) organization.
 
 ## Access requirements
 
@@ -61,8 +56,7 @@ The Documents folder structure in a Workfront project is mirrored in the Project
 
 >[!NOTE]
 >
->Legacy Workfront storage projects are not supported in the Projects panel—only Adobe cloud storage projects.
-
+>Legacy Workfront storage projects are not supported in the Projects panel—-only Adobe cloud storage projects.
 
 
 To access a Workfront project in Photoshop, Illustrator, or InDesign:
@@ -83,4 +77,7 @@ To access a Workfront project in Photoshop, Illustrator, or InDesign:
 
 You can add a document approval in Workfront to any document you uploaded from Photoshop, Illustrator, or InDesign, or from Adobe Cloud Drive, the same as any other document. For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
+<!--
+need to verify
 Creating an approval on a Creative Cloud document also creates a new version of the document. For more information, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md#view-the-current-file-during-an-approval).
+-->
