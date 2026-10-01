@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: "Custom view, filter, and grouping samples: article index"
+title: 'Custom view, filter, and grouping samples: article index'
 description: This section provides examples of custom views, filters, and groupings that you can use in your Adobe Workfront account.
 author: Courtney
 feature: Reports and Dashboards
@@ -10,10 +10,13 @@ recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9wGE8romOLvmwbmf-EZiDcktbtge8quP65CK7Iw-4ys
+TQID: 'https://experienceleague.adobe.com/9wGE8romOLvmwbmf-EZiDcktbtge8quP65CK7Iw-4ys'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

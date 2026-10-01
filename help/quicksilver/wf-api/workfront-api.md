@@ -6,7 +6,7 @@ feature: Workfront API
 recommendations: noDisplay, noCatalog
 role: Developer
 exl-id: 4ff63ad4-19b8-4436-9747-31d6a08c8c80
-TQID: https://experienceleague.adobe.com/sO1uV5DvNtPR-g3-Yp-LwQP7R-n9y0RNVDQ8ZFwP7J4
+TQID: 'https://experienceleague.adobe.com/sO1uV5DvNtPR-g3-Yp-LwQP7R-n9y0RNVDQ8ZFwP7J4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -15,6 +15,8 @@ feature_v2:
     internal-label: APIs
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

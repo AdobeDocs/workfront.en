@@ -6,7 +6,7 @@ description: When work tasks and issues are assigned to you, they are listed in 
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-TQID: https://experienceleague.adobe.com/NmvefgKn8ASoQwTJkOGcFVKUCWG0JLo4g5evg36FT9Y
+TQID: 'https://experienceleague.adobe.com/NmvefgKn8ASoQwTJkOGcFVKUCWG0JLo4g5evg36FT9Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -15,6 +15,8 @@ feature_v2:
     internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
     internal-label: Tasks

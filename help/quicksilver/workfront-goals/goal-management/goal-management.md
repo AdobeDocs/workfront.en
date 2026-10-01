@@ -2,7 +2,7 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: "Goal Management in Adobe Workfront Goals: Article Index"
+title: 'Goal Management in Adobe Workfront Goals: Article Index'
 description: Review the following articles to learn where you start with Workfront Goals, the importance of using goals, how to create, edit, comment, and manage goals, as well as how to filter and print goal information.
 author: Alina
 feature: Workfront Goals
@@ -10,10 +10,16 @@ recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/nLGWKgaHAwwBs-kMzT74QtbgKYB30XLk2Mkj8p9Y-Mc
+TQID: 'https://experienceleague.adobe.com/nLGWKgaHAwwBs-kMzT74QtbgKYB30XLk2Mkj8p9Y-Mc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
