@@ -350,6 +350,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
          <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Access Workfront projects from Creative Cloud apps</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>You can now access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign. Workfront projects that use Adobe cloud storage appear in the Projects panel on the left side of the app window, alongside your other Creative Cloud projects.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>October 1, 2026</p></td>
+            <td><p>October 1, 2026</p></td>
+        </tr>
+         <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Group multiple documents into a single approval workflow</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>You can now group multiple documents under a single approval workflow, so they move through the same stages together.</p>
             </td>

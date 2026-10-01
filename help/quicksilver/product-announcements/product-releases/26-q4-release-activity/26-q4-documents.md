@@ -20,6 +20,30 @@ This page describes Documents enhancements made with the Fourth Quarter 2026 rel
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+## Access Workfront projects from Creative Cloud apps
+
+>[!NOTE]  
+>  
+>Preview: N/A  
+>Production fast release: October 1, 2026  
+>Production for everyone: October 1, 2026    
+
+You can now access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign. Workfront projects that use Adobe cloud storage appear in the Projects panel on the left side of the app window, alongside your other Creative Cloud projects.
+
+You can open a document from a project folder, edit it, and save it. Your changes are saved back to Workfront. You can also save new files directly to a Workfront project.
+
+When you save a document that has an approval workflow, Workfront creates a new version and preserves the approval history. When you save a document that doesn't have an approval workflow, Workfront updates the latest version.
+
+To use this integration:
+
+* Your organization must be on a version of Workfront that supports Adobe cloud storage.
+* Workfront and Photoshop, Illustrator, or InDesign must be entitled in the same Adobe Identity Management System (IMS) organization.
+
+For more information, see:
+
+* [Adobe Creative Cloud Projects overview](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
+* [Use Workfront documents in Creative Cloud apps](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
+
 ## Group multiple documents into a single approval workflow
 
 >[!NOTE]
@@ -34,27 +58,9 @@ Grouped approvals support Basic and Advanced modes, multiple stages, and paralle
 
 Grouped approvals are available only in the new Documents area, which appears when your organization uses a version of Workfront that supports Adobe cloud storage.
 
-<!--
 For more information, see [Create a grouped approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md).
--->
 
 <!--
-## Access Workfront projects in Adobe Creative Cloud apps
-
->[!NOTE]
->
->Preview: N/A
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
-
-You can now access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign, using the Projects panel. Projects that use Adobe cloud storage appear in the panel, allowing you to open, edit, and save documents in a Workfront project without leaving the app.
-
-The Documents folder structure in a Workfront project is mirrored in the Projects panel. When you open a document from a project folder, edit it, and save, your changes appear in Workfront. You can also request a document approval on any document connected with Photoshop, Illustrator, or InDesign from Workfront.
-
-For more information, see:
-
-* [Adobe Creative Cloud Projects overview](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
-* [Use Workfront documents in Creative Cloud apps](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
 
 ## Add a web link as a document
 

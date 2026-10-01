@@ -34,7 +34,7 @@ topic_v2:
 
 Adobe cloud storage is a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products. The Workfront and Frame.io integration is built on Adobe cloud storage, enabling seamless collaboration and asset management between these platforms.
 
-This storage option also paves the way for future asset management integrations with other Adobe products, such as Adobe Creative Cloud.
+This storage option also enables asset management integrations with other Adobe products, including Adobe Creative Cloud apps. For more information, see [Adobe Creative Cloud Projects overview](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
 
 ## Key Features
 

@@ -213,6 +213,10 @@ To add a new version and request approval:
 
    The approval workflow starts and the approvers receive a notification that their approval is needed on the new document version. The previous document version is locked and any outstanding approvals on the previous version are withdrawn.
 
+>[!NOTE]
+>
+>If the document is a Creative Cloud file (for example, a Photoshop, Illustrator, or InDesign cloud document), creating an approval on it from the Creative Cloud app automatically creates a new version in Workfront, the same as dragging and dropping a new version here. For more information, see [Use Workfront documents in Creative Cloud apps](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md).
+
 <!--
    <span class="preview">The previous version keeps its version number and its approval history, but its status changes to "Withdrawn". For more information about version numbers and status, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md#view-and-manage-document-versions-in-the-new-documents-area-in-preview).</span>
 -->
