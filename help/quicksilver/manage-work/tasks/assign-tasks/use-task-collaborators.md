@@ -58,7 +58,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Work Agent overview
 
-Work Agents are a way to assign MCP agents to specific tasks in Workfront. You configure the agent in an app such as Copilot Studio, Claude, or Writer.ai, then connect that agent to Workfront as a Work Agent. You can then assign it to tasks as you would assign a user. 
+Work Agents are a way to assign agents to specific tasks in Workfront. You configure the agent in an app such as Copilot Studio, Claude, or Writer.ai, then connect that agent to Workfront as a Work Agent. You can then assign it to tasks as you would assign a user. 
 
 Some example workflows may include:
 

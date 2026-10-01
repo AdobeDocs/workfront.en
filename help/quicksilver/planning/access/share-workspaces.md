@@ -33,11 +33,11 @@ topic_v2:
 ---
 # Share workspaces
 
-<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -169,6 +169,15 @@ Old:
 * When you share a workspace, views are not shared. You must share views separately.
 * Workspace permissions display as Inherited permissions on record types. 
 
+<div class="preview">
+
+* You can change the owner of a workspace to an active, Standard-licensed user. You cannot make a group, team, company, or job role the owner of a workspace.
+
+</div>
+
+
+<!--check on the above at production: do you HAVE TO replace it with an ACTIVE user?? Or inactive is also OK -- did not have an environment-->
+
 ## Share permissions to a workspace
 
 The following users can share a workspace with other users:
@@ -198,7 +207,7 @@ To share a workspace with others:
 
       You must ask a System Administrator to change a global permission for a workspace.
 
-1. In the **Grant access to this workspace** field, start typing the name of a user, group, team, company, or job role then click it when it displays in the list. 
+1. In the **Grant access to this workspace** field, start typing the name of a user, group, team, company, or job role then click it when it displays in the list. <!--update screen shot at production-->
 
    ![Sharing UI with groups](assets/sharing-ui-with-groups.png)
 
@@ -208,7 +217,7 @@ To share a workspace with others:
    >
    >* When you share a workspace with a user, their primary job role and their email also display in the field. You must have the View Contact Info setting enabled for the Users object in your access level to be able to see the user's email.  
 
-1. (Optional) When you share with a group, team, role, or company, hover over the name of the entity and click the right-pointing arrow to expand a list of users that are receiving the permissions.
+1. (Optional) When you share with a group, team, role, or company, hover over the name of the entity and click the right-pointing arrow to expand a list of users that are receiving the permissions. <!--update screen shot at preview-->
 
    ![Share workspace with a group](assets/share-workspace-role-expanding-arrow-highlighted.png)
 
@@ -218,6 +227,18 @@ To share a workspace with others:
     * Manage
 
         For information about permission levels and what actions users can perform for each level, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+
+   <div class="preview">
+
+   * Owner
+
+      You can only make another active, Standard-license user the owner of a workspace. The original owner remains on the workspace with Manage permissions. 
+
+   </div>
+
+1. <span class="preview">(Conditional) If you chose to change the workspace Owner, click **Change owner** to confirm.</span>
+   
+
 1. Click **Copy link** to copy a link to the workspace to your clipboard. 
 1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the workspace. 
 1. Click **Save**.
@@ -250,7 +271,6 @@ Users who access a link to a workspace to which they do not have permissions can
 1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
 
    If you approved the request, the users are added to the sharing box of the workspace. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
-
 
 ## Remove permissions to a workspace
 
