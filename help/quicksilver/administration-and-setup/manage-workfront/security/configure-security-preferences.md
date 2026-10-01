@@ -240,7 +240,7 @@ To add a URL:
 
 >[!IMPORTANT]
 >
->Callback URLs must match exactly. Workfront doesn't support wildcard or prefix matching for custom callback URLs.
+>Callback URLs must match exactly, including any URL parameters. Workfront doesn't support wildcard or prefix matching for custom callback URLs.
 
 +++
 
