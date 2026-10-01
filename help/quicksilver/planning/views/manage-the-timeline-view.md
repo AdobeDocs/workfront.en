@@ -188,11 +188,16 @@ To manage a timeline view:
 
     ![Timeline view example](assets/timeline-view-example.png)
 
-    The records associated with the record type you selected display as bars in a timeline and are sorted in chronological order of their Start Date, by default. 
+    The records associated with the record type you selected display as bars in a timeline and are automatically sorted in chronological order of their Start Date, by default. 
+
+    <!--
+    <span class="preview">First 500 records display by default. Additional records continue to display as you scroll the page.</span> 
+    -->
+    <!-- must check here to see if the timeline is not getting the same button at the bottom of the page that says "Load more" like the calendar view-->
 
     >[!TIP]
     >
-    >    The sorting of the records in the timeline is not visible in the Compact view.
+    >    The automatic sorting of the records in the timeline is not visible in the Compact view.
 
 1. (Conditional) If your administrator has enabled custom quarters, and Workfront detects problems with the way the custom quarters are configured, you might receive a warning when opening the timeline view. 
 
@@ -259,6 +264,14 @@ To manage a timeline view:
         You can use any word or special character that is visible on the screen.
 
         You cannot use keywords that are associated with fields that do not display in the timeline view.
+
+        <!--
+        this might change at the release of table lazy loading:
+        >[!TIP]
+        >
+        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
+        -->    
+        <!--see if additional records load after you click Load more - not sure what the functionality is here-->
 
     1. Press Enter on your keyboard to go to the next found field.
     1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table.
@@ -357,10 +370,10 @@ To add a filter to a timeline view:
         </tr>
         <tr>
             <td>Multi-select, People</td>
-            <td><p>Has any of</p>
+            <td><p>Has any of</p> <!--or <span class="preview"><p>Is any of</p></span>-->
             <p>Has all of</p>
             <p>Is exactly</p>
-            <p>Has none of</p>
+            <p>Has none of</p> <!--or <span class="preview"><p>Is none of</p></span>-->
             <p>Is empty</p>
             <p>Is not empty</p></td>
         </tr>
@@ -481,7 +494,17 @@ To add a grouping in the timeline view:
         ![Swimlane grouping in timeline view](assets/swimlane-grouping-in-timeline-view.png)
 
     Groupings are applied immediately. 
-    
+
+    <!--
+    <div class="preview">
+    *** Not sure which one will be released: 
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Continue to scroll to upload all records. 
+
+    OR
+
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Click **Load more** to load all records. 
+    </div>
+    --> 
 1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png)  in the toolbar to open the **Group records by** box, then click **Expand all** to expand all the groupings, or **Collapse all** to collapse all the groupings and manually collapse only the ones you need. </span>
 1. <span class="preview">(Optional and conditional) In the swimlane display, drag and drop the left panel separator to adjust its width. Each user's panel width is saved across sessions, with a default width for first-time users.</span>
 1. <span class="preview">(Optional) For long grouping names, hover over a grouping's line to see the full name of the grouping in a tooltip.</span>
