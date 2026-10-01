@@ -312,7 +312,22 @@ Insights tools retrieve information about Workfront objects.
 | --- | --- | --- | --- |
 | <span class="preview">Share feedback</span> | <span class="preview">`share_feedback`</span> | <span class="preview">Records your reported sentiment and what happened during the conversation, so Workfront's MCP tools can be improved. Only used when you explicitly ask to share feedback (for example, "share feedback" or "report a bug").</span> | <span class="preview">Write</span> |
 
+## Reporting tools
 
+Reporting tools let you build and manage Canvas Dashboards through chat. Describe the report you want in plain language, and the AI agentic platform creates the dashboard and widgets for you using your Workfront data.
+
+
+### Canvas Dashboards
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Read | `read` | Reads Reporting data in three modes selected by the IDs passed: lists the dashboards visible to you, fetches a single dashboard's structure, or fetches one widget's full configuration. | Read |
+| Create Dashboard | `create_dashboard` | Creates a new, empty Reporting dashboard and returns it, with a link to open it. | Write |
+| Update Dashboard | `update_dashboard` | Partially updates a dashboard's metadata, prompt, filter, and per-widget placement. Omitted fields are left unchanged. | Write |
+| Create Widget | `create_widget` | Creates a widget and its report configuration on a dashboard. One tool handles all three widget types: chart, KPI, and table. | Write |
+| Update Widget | `update_widget` | Partially updates an existing widget's configuration. The widget type is inferred automatically, so you only send the fields you want to change. | Write |
+| Copy Object | `copy_object` | Copies a whole dashboard, including its widgets, prompt, and filter, onto a new dashboard, or copies a single widget within or across dashboards. | Write |
+| Delete Object | `delete_object` | Permanently deletes a Reporting dashboard, and all its widgets, or a single widget. This action cannot be undone. | Write |
 
 ## How tools are updated
 
@@ -325,5 +340,6 @@ When Adobe releases a new version of the Workfront MCP server, the AI agentic pl
 We are working on adding the following tools to the Workfront MCP server in the future:
 
 * Boards
+
 
 

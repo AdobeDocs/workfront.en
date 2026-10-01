@@ -156,6 +156,10 @@ You can manage what information users can view and edit for other users using a 
       <td> Allows users to view cost rates on user profiles.</td> 
      </tr> 
      <tr> 
+      <td role="rowheader"><strong>View Employment History</strong> </td> 
+      <td> Allows users to view employment history on user profiles.</td> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>View General Finance</strong> </td> 
       <td> Allows users to view general finance fields (not related to billing or cost rates) on user profiles.</td>
      </tr>

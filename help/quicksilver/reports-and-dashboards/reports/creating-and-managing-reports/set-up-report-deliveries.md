@@ -31,6 +31,8 @@ topic_v2:
 ---
 # Report delivery overview
 
+{{highlighted-preview}}
+
 <!-- Audited: 11/2024 -->
 
 <!--
@@ -54,6 +56,7 @@ Consider the following when scheduling reports for delivery:
 
 * You can schedule up to 10 repeating report deliveries for any given report.
 * You can schedule a report to be delivered only if you are the creator of the report. If you need to send a report that you did not create, you can send it on a manual basis.
+* <span class="preview">In Preview, every scheduled report delivery must have a defined end date. If a delivery was previously set to Never, Workfront automatically sets the end date to 13 months from the next date the report is sent.</span>
 
 ## Export limits
 
@@ -142,6 +145,7 @@ For more information about how to apply a special view to a report, see the arti
 * [Branding](#branding) 
 * [Formatting](#formatting) 
 * [Links](#links)
+* [Report expiration notices](#report-expiration-notices)
 
 ### Subject line, attachment name, and report title {#subject-line-attachment-name-and-report-title}
 
@@ -193,6 +197,18 @@ For more information about selecting the default tab of a report and about speci
 When you send a report from Workfront to PDF or Excel format, any working links that exist in the original document remain live in the sent file. Links can point to any object in Workfront that supports linking.
 
 The name of the report in the email message is also a link.
+
+<div class="preview">
+
+### Report expiration notices {#report-expiration-notices}
+
+In Preview, delivered report emails include the report's expiration date.
+
+If the delivery repeats daily, the email includes an expiration warning on every delivery once the expiration date is within 45 days.
+
+If the delivery repeats weekly or monthly, the email includes an expiration warning during the last four scheduled deliveries before the expiration date.
+
+</div>
 
 ## Report on scheduled reports
 
