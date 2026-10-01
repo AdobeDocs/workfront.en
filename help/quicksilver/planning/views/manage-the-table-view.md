@@ -325,7 +325,7 @@ You can add up to 500 fields (or columns) in a table view.
 
     * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
-        * **SUM**: Displays the total of all cells in the column. This is the default selection.
+        * **SUM**: Displays the total of all cells in the column.
         * **MIN**: Displays the lowest value from all the cells in the column.
         * **MAX**: Displays the highest value from all the cells in the column.
         * **AVG**: Displays the average value of all the cells in the column.
