@@ -58,7 +58,7 @@ For more detail about the information in this table, see [Access requirements in
 * Your Workfront instance must have Unified Approvals enabled. 
 
 * Your organization must have GenStudio Foundation. 
-    * Content Reviewer in Workfront provides the functionality available in GenStudio Foundation for asset review and approval workflows. You do not need to access GenStudio Foundation directly to complete your work. Your access to GenStudio Foundation functionality through Content Reviewer falls under the terms of your Workfront contract.
+    * AI Reviewer in Workfront provides the functionality available in GenStudio Foundation for asset review and approval workflows. You do not need to access GenStudio Foundation directly to complete your work. Your access to GenStudio Foundation functionality through AI Reviewer falls under the terms of your Workfront contract.
 * Adobe must have a signed Adobe Gen AI agreement on file.
     For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
@@ -150,4 +150,4 @@ To grant access to Brands in Workfront access levels:
     ![allow access to brands setting](assets/access-for-brands.png)
 1. Click **Save**.
 
-Once you have configured Brands, you can create a Content Reviewer to review assets against brand guidelines in the review and approval workflow. For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+Once you have configured Brands, you can create an AI Reviewer to review assets against brand guidelines in the review and approval workflow. For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
