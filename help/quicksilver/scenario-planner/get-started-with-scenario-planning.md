@@ -59,9 +59,9 @@ The following are benefits of the [!DNL Workfront Scenario Planner] to help you 
 
    The [!DNL Workfront Scenario Planner] displays.
 
-   >[!IMPORTANT]
-   >
-   >The [!DNL Workfront Scenario Planner] contains the plans you created. If you need to see another user's plan, they must share the URL of that plan with you.
+>[!IMPORTANT]
+>
+>The [!DNL Workfront Scenario Planner] contains the plans you created. If you need to see another user's plan, they must share the URL of that plan with you.
 
 1. (Optional) Click the name of a plan to open it and see the details.
 

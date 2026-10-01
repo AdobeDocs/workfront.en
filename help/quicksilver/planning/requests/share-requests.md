@@ -1,10 +1,24 @@
 ---
 title: Share Planning requests
-description: You can share a Workfront Planning request with others after it's been submitted. 
+description: You can share a Workfront Planning request with others after it's been submitted.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Share Planning requests
 
@@ -82,6 +96,7 @@ For more information about Workfront access requirements, see [Access requiremen
 
 * Different people and teams can hold different levels of access on the same request.
 * Permissions could be assigned through multiple entities. If a user has Contribute permissions to a request but their group or job role has View permissions, they retain the highest level of permissions which is Contribute. 
+* Requests inherit permissions from the workspace and the record type. You cannot remove or edit Inherited permissions for Planning requests.
 
 ## Share a request
 
@@ -106,7 +121,14 @@ Ensure you are using the new request experience.
 1. (Optional) For each permission level, click the granular permission icon and select or deselect any granular permissions, like **Edit**, **Comment**, **Share**, or **Delete**. 
 
     ![Granular permissions on requests](assets/granular-permissions-on-requests.png)
+1. (Optional) Expand the Inherited permissions line to view who gains permissions from the workspace and the record type.
+
+    >[!TIP]
+    >
+    >You cannot remove or edit Inherited permissions for Planning requests.
+
 1. Click **Save**.
+
 
     The request is shared with the entities you selected. 
 

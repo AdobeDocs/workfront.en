@@ -8,16 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
+TQID: 'https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -316,6 +320,31 @@ You can add up to 500 fields (or columns) in a table view.
 
     1. Click the **x** icon in the search box to clear the search keyword. 
   
+1. (Conditional) For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+    * **MIN**: Displays the lowest value from all the cells in the column. 
+    * **MAX**: Displays the highest value from all the cells in the column. 
+    * **AVG**: Displays the average value of all the cells in the column.  
+
+    <!--    
+    <div class="preview"> 
+
+    * **NONE**: The values of the column are not aggregated.This is the default option. 
+    
+    </div> 
+    -->
+
+    Consider the following when working with aggregators: 
+    
+    * The aggregator row in the column is frozen and is part of the view settings. 
+    * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
+    * As a viewer, you can modify the aggregator, but it does not save with the view. 
+    * Public shared views are shared with the saved aggregators which cannot be modified. 
+
+<!--
+At preview release, replace the last procedure step with this:
+
 1. (Conditional) Depending on the types of fields you are viewing, do one of the following; 
 
     * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
@@ -483,10 +512,10 @@ To add a filter to a table view:
         </tr>
         <tr>
             <td>Multi-select, People</td>
-            <td><p>Has any of</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <td><p>Has any of</p> or <span class="preview"><p>Is any of</p></span>
             <p>Has all of</p>
             <p>Is exactly</p>
-            <p>Has none of</p> <!--or <span class="preview"><p>Is none of</p></span>-->
+            <p>Has none of</p> or <span class="preview"><p>Is none of</p></span>
             <p>Is empty</p>
             <p>Is not empty</p></td>
         </tr>

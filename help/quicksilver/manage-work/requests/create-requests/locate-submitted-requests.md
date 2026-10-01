@@ -10,13 +10,18 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/wph4vcZj6iJCRSWrh6CHLwRhspLqbV-HL0qoZEwV-OI
+TQID: 'https://experienceleague.adobe.com/wph4vcZj6iJCRSWrh6CHLwRhspLqbV-HL0qoZEwV-OI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -32,13 +37,11 @@ topic_v2:
 Remove production and preview references at release
 -->
 
-<!--
-
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
+
 
 You can view the requests that you or someone else submitted, or requests you started but you never finished submitting. The unfinished requests are saved as drafts. 
 
@@ -57,7 +60,7 @@ The Requests area displays the following requests, depending on how you choose t
    >* You can only view your own draft requests.
    >* In the new request experience, submitted requests and drafts are found in the same list. 
    >* Drafts created in the legacy experience do not display in the new Requesting experience.
-   >* In the new request experience, you can see old Workfront requests only from July 2025 to the present day. <!--replace this bullet with this: In the Production environment, in the new request experience, you can see old Workfront requests only from July 2025 to the present day. <span class="preview">In the Preview environment, in the new request experience, you can see old Workfront requests only from 2023 to the present day. You can see all Workfront requests in the legacy experience.</span>-->  
+   >* In the Production environment, in the new request experience, you can find Workfront requests submitted only from July 2025 to the present day. <span class="preview">In the Preview environment, in the new request experience, you can fiend Workfront requests submitted only from 2023 to the present day. You can see all Workfront requests in the legacy experience.</span>
 
 ## Access requirements
 

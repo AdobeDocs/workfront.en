@@ -8,10 +8,13 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 584a4195-150c-42a6-88be-7a0509545859
-TQID: https://experienceleague.adobe.com/tBEFTpLFqWMNPTMVips1I1ganZIRVPTaOxXypmFIouE
+TQID: 'https://experienceleague.adobe.com/tBEFTpLFqWMNPTMVips1I1ganZIRVPTaOxXypmFIouE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
