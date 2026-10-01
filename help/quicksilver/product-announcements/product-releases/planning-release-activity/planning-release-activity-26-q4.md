@@ -25,6 +25,8 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+<!--
+
 ## See the total record count in table views
 
 >[!NOTE]
@@ -38,6 +40,8 @@ The table view now shows the total number of records, with no setup required, an
 The record count always reflects your full filtered results, not just the rows on screen, and respects your permissions so you only count records you can access.
 
 For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+-->
 
 ## Clearer filter operator labels for multi-value fields
 
