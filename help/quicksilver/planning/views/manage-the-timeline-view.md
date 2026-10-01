@@ -523,8 +523,6 @@ To add a grouping in the timeline view:
     >When you drag and drop records from one grouping to another, the fields that are selected in the grouping automatically update the values on the moved records.
 1. (Optional) Click **Settings**, then **Color** to color-code groupings. For more information, see the [Edit the timeline view settings](#edit-the-timeline-view-settings) section in this article. 
 
-<!--
-
 <div class="preview">
 
 ### Add sort
@@ -551,14 +549,16 @@ To add a sort in the timeline view:
 
     ![Sort in timeline with grouping sort](assets/sort-in-timeline.png)
 1. From the drop-down menu, select **Sort records**, then either click a field listed in the **Start with a suggested field** list, or click **Choose a different field**, then search for field and click it when it displays in the list.
-1. Select the order you want the sorting to be applied (alphabetical, reverse descendent etc). The order a sorting is applied depends on the format of the field you selected. 
+1. Select the direction you want the record sorting to be applied (alphabetical, reverse descendent etc). The direction a sorting is applied depends on the format of the field you selected. 
 1. (Optional) Click **Add condition** to add up to 10 conditions. 
 1. (Optional) Click **Clear all** to remove all conditions.
 1. From the drop-down menu in the upper-left corner of the sorting box, select **Sort groupings**. 
 
     >[!TIP]
     >
-    >If there are no groupings applied to the timeline view, the Sort groupings option is not available.
+    >If there are no groupings applied to the timeline view, the **Sort groupings** option is not available.
+1. (Optional) Select the direction you want the grouping sorting to be applied (alphabetical, reverse descendent etc). The direction a sorting is applied depends on the format of the field you selected. 
+1. (Conditional) Click **Reset all** to reset the sorting direction, if you modified it from the default. 
 1. To reorder the sorting order of the fields, click **Grouping** in the toolbar and reorder the groupings. Sorting field order also changes. 
 1. (Optional) To remove grouping sorting, remove the groupings from the timeline view. 
 
@@ -566,7 +566,7 @@ To add a sort in the timeline view:
 1. Click anywhere on the page to close the sorting box. 
 
 </div>
--->
+
 
 <!--this ("To remove grouping sorting, remove the groupings from the timeline view. ") might change at production - we have a button here called Reset all but right now it's not functioning - I logged a bug for this-->
 
