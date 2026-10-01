@@ -20,6 +20,8 @@ This page describes Administrator enhancements made with the Fourth Quarter 2026
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+<!--
+
 ## Use AI to generate custom localization
 
 >[!NOTE]
@@ -31,6 +33,10 @@ For a list of all changes available at this point in the Fourth Quarter 2026 rel
 To help you save time translating custom terms and field labels, we've added the ability to generate AI translations for custom localization. Now, Workfront administrators can use AI to generate translations for untranslated custom text, or fill in additional language translations for a previously localized term, then review and adjust the results before saving.
 
 For more information, see [Configure custom localization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
+
+-->
+
+<!--
 
 ## Grant access to MCP Tools
 
@@ -50,6 +56,8 @@ To make it easier to control secure access to Workfront data, we've added the ab
 You can edit this access when editing a specific access level, or edit access to MCP tools for multiple access levels at once.
 
 For more information, see [Grant access to MCP Tools](help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-mcp-tools.md).
+
+-->
 
 ## Enhancements to layout templates
 

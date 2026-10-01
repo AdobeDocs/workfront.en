@@ -20,6 +20,8 @@ This page describes Financial Management enhancements made with the Fourth Quart
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+<!--
+
 ## Enhancements to billing rates on templates
 
 >[!NOTE]
@@ -41,6 +43,8 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
 Rate attributes are now available to apply to job role billing rates on the template.
 
 For more information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md#add-more-items-to-a-template) and [Override Job Role Billing Rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+
+-->
 
 ## Enhancements to company billing rates
 
