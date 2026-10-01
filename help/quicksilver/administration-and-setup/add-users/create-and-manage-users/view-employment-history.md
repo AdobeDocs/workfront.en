@@ -3,7 +3,7 @@ title: View User Employment history
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: You can view a user's employment history, including changes to job roles, agencies, cost centers, cost and billing rates, and schedules over time.
+description: You can view a user's employment history, including changes to attributes, cost and billing rates, and schedules over time.
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -12,9 +12,7 @@ role: Admin
 
 You can view a user's employment history, including details about the following:
 
-* Job roles
-* Agencies
-* Cost centers
+* Attributes
 * Cost and billing rates
 * Schedules
 
