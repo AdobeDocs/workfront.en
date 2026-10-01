@@ -5,6 +5,20 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 
 # Adobe Workfront Planning CX Coworker overview
@@ -134,20 +148,19 @@ You can locate the CX Coworker in the following areas of Workfront Planning:
 
 ## Access the CX Coworker in the Planning area
 
-
 1. Log in to Workfront, then click the **Main Menu** icon ![Lines main menu](assets/lines-main-menu.png) in the upper-left corner, then click **Planning**. 
 
     The Planning area opens. 
 
-    Locate the **AI icon** ![AI icon](assets/ai-icon.png) in the upper-right corner of the page, or continue to the steps below. 
+    Locate the **Coworker** icon ![Coworker icon](assets/coworker-icon.png) in the upper-right corner of the page, or continue to the steps below. 
 
 1. Click a **workspace card**. 
 
 1. Click a **record type card**. 
 
-1. Click a **record** to open the record's **Details** page, then click the open in .
+1. Click a **record** to open the record's **Details** page, then click the **Open in new tab** icon ![Open in new tab](assets/open-workspace-on-new-tab-icon.png) .
 
-1. Click the **CX Coworker icon** in the upper-right corner of the screen.
+1. Click the **CX Coworker icon** ![Coworker icon](assets/coworker-icon.png) in the upper-right corner of the screen.
 
 1. In the space provided, start typing commands for the CX Coworker, then click Enter when you are done. 
 

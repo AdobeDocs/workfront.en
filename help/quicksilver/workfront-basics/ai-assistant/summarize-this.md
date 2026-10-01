@@ -5,13 +5,15 @@ description: You can quickly summarize work items and documents using the Summar
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-TQID: https://experienceleague.adobe.com/rE6-LoIb9rlLjYMvVWOwpCDAsdYI-YcrrYXq4hcEUP4
+TQID: 'https://experienceleague.adobe.com/rE6-LoIb9rlLjYMvVWOwpCDAsdYI-YcrrYXq4hcEUP4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -1,8 +1,16 @@
 ---
 title: Create Planning Records from Ideation Space Briefs
-description: Using the Ideation Space, a new capability from Adobe Workfront Planning, you can turn briefs into Planning records. Exported briefs create new records or update existing ones. This article describes how you can create or edit exiting Planning records using the Ideation space. 
+description: Using the Ideation Space, a new capability from Adobe Workfront Planning, you can turn briefs into Planning records. Exported briefs create new records or update existing ones. This article describes how you can create or edit exiting Planning records using the Ideation space.
 role: User, Admin
 author: Alina
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 
 # Create Planning records from Ideation space briefs

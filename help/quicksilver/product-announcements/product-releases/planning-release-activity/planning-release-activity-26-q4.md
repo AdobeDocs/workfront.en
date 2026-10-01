@@ -6,6 +6,18 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Fourth Quarter 2026 release activity for Adobe Workfront Planning
 
@@ -13,7 +25,88 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## CX Coworker now available in Workfront Planning
+## Sharing fields in Workfront Planning
+
+>[!NOTE]
+>
+>Preview: September 25, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+Workspace managers can now control access to individual fields, allowing specific users and teams to view, edit, or be completely restricted from sensitive data within the same record type.
+
+Field-level permissions are enforced consistently across views, record details, request forms, connections, APIs, and dashboards, helping organizations securely manage confidential information.
+
+Users without access do not see restricted fields, while administrators can configure permissions without restructuring records or creating separate workspaces.
+
+For information, see [Share Workfront Planning fields](/help/quicksilver/planning/access/share-fields.md).
+
+## Share a Planning request
+
+>[!NOTE]
+>
+>Preview: September 25, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+You can now share a Planning request with others from the Requests area in the new request experience.
+
+You can give others one of the following permissions to the request: View, Contribute, or Manage.
+
+For information, see [Share Planning records](/help/quicksilver/planning/requests/share-requests.md).
+
+## Set up multi-stage approvals for Planning requests
+
+>[!NOTE]
+>
+>Preview: September 25, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+Workspace administrators can now build single- or multi-stage approval processes for each Planning request form, assigning one or more approvers or teams to every stage and reusing existing approval templates to speed up setup. Requests advance automatically once all required approvers in a stage sign off, and each approver is notified when a request reaches their stage. Requesters and approvers can track which stage a request is in and see which approvals are still pending.
+
+For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Enhancements to display logic and field editing in Planning requests forms
+
+>[!NOTE]
+>
+>Preview: September 25, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+You can now create advanced display logic in Planning request forms based on connection field values, so forms adapt to what requesters select. All Planning fields, including connection fields, are supported when building this logic.
+
+In addition, you can now edit a field's options directly from the request form. For example, for select-field types, you can update the field choices, their order, and their default value from the request form. Previously, this capability was not available.
+
+For information, see [Create request form](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Configure default permissions for requestors on Planning request forms
+
+>[!NOTE]
+>
+>Preview: September 25, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+Workfront and workspace administrators can now indicate the level of permissions a requester receives on their requests when they configure the request form.
+
+Requesters can get the following permissions to a request they submitted: View, Contribute, or Manage. Users can comment, edit, share, or view a request, and the capabilities that are not shared with them are dimmed when viewing the sharing box from a request.
+
+For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+## AI Form Fill pulls data from records referenced with a link
+
+>[!NOTE]
+>
+>Preview and production: September 22, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+AI Form Fill can now retrieve field data directly from a Planning record referenced by its link and use it as context when populating a form. Simply paste the direct URL of the record into the prompt, and its details will be pulled in automatically to suggest form values.
+
+For information, see [Use Form Fill powered by AI to fill in a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+
+## CX Coworker available in Workfront Planning
 
 >[!NOTE]
 >
@@ -35,7 +128,7 @@ Coworker is replacing the current AI Assistant as a more powerful way to get wor
 
 For more information, see [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
-## Removed the AI Assistant icon in the Details preview box in preparation for the CX Coworker launch
+## AI Assistant icon removed from the record Details preview box in preparation for the CX Coworker launch
 
 >[!NOTE]
 >
@@ -109,7 +202,7 @@ For more information, see [Configure record type business rules](/help/quicksilv
 >* **Create request forms** and **Manage request forms** has changed to **Request forms**
 >* **Manage automations** has changed to **Automations**
 
-## Introducing custom weeks for the timeline view
+## Custom weeks for the timeline view
 
 >[!NOTE]
 >
@@ -153,7 +246,7 @@ Timeline views now include Collapse all and Expand all options for grouped timel
 
 For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
-## See full group names and resize the grouping panel in the timeline view
+## Display full group names and resize the grouping panel in the timeline view
 
 >[!NOTE]
 >
@@ -246,7 +339,7 @@ For information, see [Skills available for direct install](/help/quicksilver/wor
 >Production fast release: August 13, 2026
 >Production for all: October 15, 2026
 
-The experience of dragging and dropping rows in the table view has been improved visually.
+The experience of dragging and dropping single rows in the table view has been improved visually.
 
 For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
 
@@ -271,9 +364,6 @@ The following features are included with this update:
 
 
 For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
-
-
-
 
 ## Show new comment indicator for a record in the table view
 

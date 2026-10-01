@@ -7,13 +7,15 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk
+TQID: 'https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started
@@ -71,28 +73,33 @@ Below are some types of Workfront object lists that use the enhanced list format
 
 | Workfront list | Location of object list |
 | --- | --- |
-| Priorities | <ul><li>Home &gt; select the Priorities icon in the left menu</li><li>Main Menu > Priorities</li></ul> |
-| List of requests | <ul><li>Requests (new experience only)</li><li>My Requests widget on Home</li></ul> |
+| Priorities | <ul><li>Home > select the Priorities icon in the left menu</li><li>Main Menu > Priorities</li></ul> |
+| List of requests | <ul><li>Main Menu > Requests (new experience only)</li><li>My Requests widget on Home</li></ul> |
 | Lists of statuses, priorities, severities, <span class="preview">conditions</span>, and exchange rates in Setup | <ul><li>Setup > Project Preferences > Statuses</li><li>Setup > Project Preferences > Priorities</li><li>Setup > Project Preferences > Severities</li><li><span class="preview">Setup > Project Preferences > Conditions</span></li><li>Setup > Project Preferences > Exchange Rates</li></ul> |
 | <span class="preview">Lists of actions and tracked fields in the Update Feeds</span> | <ul><li><span class="preview">Setup > Interface > Update Feeds > Tracked fields tab</span></li> <li><span class="preview">Setup > Interface > Update Feeds > Actions tab</span></li></ul> |
 | <span class="preview">List of scorecards</span> | <span class="preview">Setup > Scorecards</span> |
 | <span class="preview">List of risk types</span> | <span class="preview">Setup > Risk Types</span> |
+| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 | List of job roles and rates on a rate card | Setup > Rate Cards > select a rate card > Job Roles and Rates |
 | <span class="preview">List of locations</span> | <span class="preview">Setup > Locations</span> |
 | List of translations | Setup > Localization |
-| <span class="preview">Lists of integrations </span> | <ul><li><span class="preview">Setup > Documents > SharePoint Integration</span></li><li><span class="preview">Setup > Documents > Custom Integration</span></li></ul> |
-| List of reports | Reports (**Use shareable folders** must be turned on) |
+| <span class="preview">Lists of integrations </span> | <ul><li><span class="preview">Setup > Documents > SharePoint Integration</span></li><li><span class="preview">Setup > Documents > Custom Integration</span></li><li><span class="preview">Setup > Documents > Experience Manager Assets</span></li></ul> |
+| List of reports | Main Menu > Reports (**Use shareable folders** must be turned on) |
+| <span class="preview">Lists of queue topics, topic groups, and routing rules</span> | <ul><li><span class="preview">Project or Template > Queue Topics</span></li><li><span class="preview">Project or Template > Topic Groups</span></li><li><span class="preview">Project or Template > Routing Rules</span></li></ul> |
 | List of snapshots | Project > Snapshots |
 | List of resources for billing | Project > Resource for Billing |
+| <span class="preview">List of predecessors</span> | <span class="preview">Setup > Task or Template Task > Predecessors</span> |
 | New Advanced Assignments on a task | Task > Assignments > Advanced |
 | <span class="preview">All versions view of a document</span> | <span class="preview">Project > Documents > Document Details > All Versions</span> |
 | Boards Admin View | Boards > Admin View |
 | Documents on Adobe cloud storage | Project, task, issue, portfolio, program, template, template task > Documents |
 | <span class="preview">Lists of scenario plans and initiatives</span> | <span class="preview">Main Menu > Scenarios</span> |
+| <span class="preview">Lists of goals and progress indicators</span> | <ul><li><span class="preview">Main Menu > Goals</span></li><li><span class="preview">Main Menu > Goals > Progress Indicators</span></li></ul> |
 
 <!--
 
-Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documents > Experience Manager Assets</span></li>
+Under integrations?
+| <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
@@ -418,7 +425,7 @@ Filters help you reduce the amount of information you display in the list.
 1. Click **Filter** above the list.
 1. In the Filter box, click **Add condition**.
 1. Select a field to filter by.
-1. Select a filter modifier, such as "Has any of," "Has none of," "Is before," or "Is after." The modifier options are different depending on the type of field you are filtering by.
+1. Select a filter modifier, such as "Is any of," "Is none of," "Is before," or "Is after." The modifier options are different depending on the type of field you are filtering by.
 1. Select the field value or values. Depending on the field type you are filtering by, you might be prompted to select the item from a list, search for it, or use a calendar to select a date range.
     
    ![Filter in enhanced lists](assets/glist-filter-with-options.png)
@@ -465,7 +472,7 @@ Workfront provides a limited number of predefined groupings and you cannot modif
    ![Select a grouping](assets/glist-grouping-choose-a-group-by.png)
 
 1. Click **Collapse all** to display the list with all the groupings collapsed. The default option is to display the list with all groupings expanded.
-1. When the grouping is applied, you can open the Group options again to collapse or expand all of the groupings at once, change the grouping to group by a different field, or clear all of the groupings.
+1. When the grouping is applied, you can open the Grouping options again to collapse or expand all of the groupings at once, change the grouping to group by a different field, or clear all of the groupings.
 
    ![Grouping in enhanced lists](assets/glist-group-by-due-date-priorities.png)
 

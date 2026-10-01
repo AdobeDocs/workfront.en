@@ -3,18 +3,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: List Objects with a Pending Approval Process Using a Certain Status
-description: If you try to delete a status, an error message might tell you that it can't be deleted because it's being used in pending approval processes on objects in your system. If you want to find and review those objects to decide what you need to do, you can run a report that lists them.
+description: "If you try to delete a status, an error message might tell you that it can't be deleted because it's being used in pending approval processes on objects in your system.\_If you want to find and review those objects to decide what you need to do, you can run a report that lists them."
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-TQID: https://experienceleague.adobe.com/TfNnHDPjT1M9XlpBiXQw3vP9izeRWArYuhDuXqA0Cbw
+TQID: 'https://experienceleague.adobe.com/TfNnHDPjT1M9XlpBiXQw3vP9izeRWArYuhDuXqA0Cbw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
