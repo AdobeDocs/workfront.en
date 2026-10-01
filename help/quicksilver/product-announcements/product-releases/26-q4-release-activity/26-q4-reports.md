@@ -88,6 +88,18 @@ For example, you can:
 
 For more information, see [Use Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
 
+## Copy or move widgets between Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+You can now copy a widget to the same dashboard, to another dashboard you have edit access to, or to a new dashboard. You can also move a widget to another dashboard you have edit access to or to a new dashboard. 
+
+When you copy a widget, a dialog box now opens where you select the destination dashboard and whether to copy or move the widget. Previously, the report builder opened immediately.
+
 ## Filter on collection relationships in Canvas Dashboards
 
 >[!NOTE]
