@@ -325,22 +325,17 @@ You can add up to 500 fields (or columns) in a table view.
 
     * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
-        * **SUM**: Displays the total of all cells in the column. This is the default selection. 
-        * **MIN**: Displays the lowest value from all the cells in the column. 
-        * **MAX**: Displays the highest value from all the cells in the column. 
-        * **AVG**: Displays the average value of all the cells in the column.  
-
-        <div class="preview">
-
-        * **NONE**: The values of the column are not aggregated.This is the default option. 
-    
-        </div> 
+        * **SUM**: Displays the total of all cells in the column. This is the default selection.
+        * **MIN**: Displays the lowest value from all the cells in the column.
+        * **MAX**: Displays the highest value from all the cells in the column.
+        * **AVG**: Displays the average value of all the cells in the column.
+        * <span class="preview">**NONE**: The values of the column are not aggregated. This is the default option.</span> 
    
     <div class="preview">
 
     * For date fields, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
-        * **NONE**: The values of the column are not aggregated.This is the default option.
+        * **NONE**: The values of the column are not aggregated. This is the default option.
         * **EMPTY**: Displays a count of the fields that have no values. 
         * **NOT EMPTY**: Displays a count of the fields that have values. 
         * **MIN**: Displays the earliest date.
@@ -348,7 +343,7 @@ You can add up to 500 fields (or columns) in a table view.
     
     * For text, select, boolean, People fields expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
-        * **NONE**: The values of the column are not aggregated.This is the default option.
+        * **NONE**: The values of the column are not aggregated. This is the default option.
         * **EMPTY**: Displays a count of the fields that have no values. 
         * **NOT EMPTY**: Displays a count of the fields that have values.  
 
