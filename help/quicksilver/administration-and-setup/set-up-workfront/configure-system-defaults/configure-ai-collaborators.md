@@ -36,9 +36,11 @@ Available AI Collaborator types include:
 
    For more information, see [Use Work Agents](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
+<!--
 * <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
 
    <span class="preview">For more information, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).</span>
+-->
 
 
 ## Access requirements
@@ -227,6 +229,7 @@ More detailed information about creating agents can be found in the [Writer docu
 
 <div class="preview">
 
+<!--
 ## Configure a Project Coordinator
 
 The Project Coordinator is an out-of-the-box collaborator that monitors project status and helps keep work on track. Unlike Work Agents, the Project Coordinator does not require you to configure an external agent.
@@ -253,6 +256,7 @@ The Project Coordinator is an out-of-the-box collaborator that monitors project 
 1. Click **Save**.
 
 For more information on the Project Coordinator, including how to assign it to projects, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
+-->
 
 </div>
 
