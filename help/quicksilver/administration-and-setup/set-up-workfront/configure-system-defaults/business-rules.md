@@ -293,9 +293,9 @@ You can use wildcards in business rule actions, as described in the section [Sce
 
 ### Business rule automation options
 
-   >[!NOTE]
-   >
-   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+>[!NOTE]
+>
+>Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
 
 You can set these actions to automate when the business rule is triggered. Available actions depend on the selected object type.
 

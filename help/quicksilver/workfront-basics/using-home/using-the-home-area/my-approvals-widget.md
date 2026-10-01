@@ -78,7 +78,14 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add the **My Approvals** widget.
-1. (Conditional) Click the **Filter** drop-down menu, then select **All** to see approvals assigned and delegated to you.
+1. (Optional) Adjust the filter options in the My Approvals widget to choose which approvals to display. The following filter options are available:
+
+   | Filter option | Description |
+   |--------|-------------|
+   | All | Displays all approvals assigned to you, delegated to you by other users, and submitted by you. |
+   | My approvals | Displays approvals assigned to you. This is the default option. |
+   | Delegated approvals | Displays approvals that have been delegated to you by other users. |
+   | Approvals I've submitted | Displays approvals that you have submitted to other users. |
 
    >[!NOTE]
    >
