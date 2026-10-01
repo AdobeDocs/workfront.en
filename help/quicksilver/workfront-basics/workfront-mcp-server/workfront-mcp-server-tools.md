@@ -5,7 +5,12 @@ title: Adobe Workfront MCP server tools
 description: Reference list of the tools available through the Adobe Workfront MCP server, grouped by Workfront area.
 author: Courtney
 feature: Get Started with Workfront
-
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 ---
 
 # Adobe Workfront MCP server tools
@@ -283,6 +288,10 @@ Example prompts:
 
 Insights tools retrieve information about Workfront objects.
 
+>[!NOTE]
+>
+>Insights data is near real-time, with an SLA of up to approximately 15 minutes. Changes made in Workfront may not appear immediately in Insights results.
+
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
 | Read documents | `insights_read_docs` | Load the Workfront playbook or domain documentation, such as conditions, status, dates, or field paths. This is the required first step before querying data. | Read |
@@ -295,9 +304,18 @@ Insights tools retrieve information about Workfront objects.
 | List entities | `insights_list_entities` | List all Workfront object types available to query. | Read |
 | Search users | `insights_search_users` | Find people in your Workfront instance by name. Type a full or partial name, and get back the top matching users. This can also optionally include AI-collaborator "bots" alongside regular users. | Read |
 
+## Feedback tools
+
+<span class="preview">Feedback tools let you report your experience with the Workfront MCP server directly from your AI agentic platform.</span>
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| <span class="preview">Share feedback</span> | <span class="preview">`share_feedback`</span> | <span class="preview">Records your reported sentiment and what happened during the conversation, so Workfront's MCP tools can be improved. Only used when you explicitly ask to share feedback (for example, "share feedback" or "report a bug").</span> | <span class="preview">Write</span> |
+
 ## Reporting tools
 
 Reporting tools let you build and manage Canvas Dashboards through chat. Describe the report you want in plain language, and the AI agentic platform creates the dashboard and widgets for you using your Workfront data.
+
 
 ### Canvas Dashboards
 

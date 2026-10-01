@@ -6,13 +6,15 @@ description: Adobe Workfront sends email notifications, in-app notifications, an
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-TQID: https://experienceleague.adobe.com/-sN5x6OFqN9NJN0J8yR8uuV-R3XCNWQ5Q5R-qYrvTzY
+TQID: 'https://experienceleague.adobe.com/-sN5x6OFqN9NJN0J8yR8uuV-R3XCNWQ5Q5R-qYrvTzY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
     internal-label: Timesheets

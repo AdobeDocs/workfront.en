@@ -1,15 +1,21 @@
 ---
-title: "Architecture: Article Index"
+title: 'Architecture: Article Index'
 description: The following articles describe how you can configure the architecture of Adobe Workfront Planning. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Workfront Planning.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-TQID: https://experienceleague.adobe.com/EQBOcWZ90EDMHab3XDXJDwNN97-b019ciwr2srvCvrQ
+TQID: 'https://experienceleague.adobe.com/EQBOcWZ90EDMHab3XDXJDwNN97-b019ciwr2srvCvrQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -44,16 +50,6 @@ The articles in the following sections describe how you can configure the Adobe 
 * [Cross-workspace record types overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 * [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 
-<!--
-
-<div class="preview">
-
-* [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
-
-</div>
-
--->
-
 * [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 * [Configure the Settings area of a record type](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
 * [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
@@ -62,5 +58,6 @@ The articles in the following sections describe how you can configure the Adobe 
 <div class="preview">
 
 * [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md)
+* [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
 
 </div>

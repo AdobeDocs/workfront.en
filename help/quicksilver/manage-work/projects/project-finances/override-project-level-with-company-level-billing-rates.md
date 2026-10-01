@@ -66,21 +66,21 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Enable the Company-level Billing Rates override option
+## Turn on the Company-level Billing Rates override option
 
-When a company is associated with a project and this option is enabled, changes made to the company-level billing rates override the billing rate set on the project.
+When a company is associated with a project and this option is turned on, changes made to the company-level billing rates override the billing rate set on the project.
 
 When a user manually recalculates finances on the project, any changes to the company-level billing rates are applied. Historical revenue calculations are also overridden unless they are marked as billed.
 
 1. Go to a project. 
 1. Click the **More** menu ![More menu](assets/qs-more-icon-on-an-object.png) next to the name of the project in the header, then click **Edit**. 
-1. In the **Finance** section, enable the **Allow company-level billing rates to override project-level billing rates**.
+1. In the **Finance** section, select **Allow company-level billing rates to override project-level billing rates**.
 
    >[!CAUTION]
    >
-   >Enabling this option overrides historical revenue calculations unless they are marked as billed. You can preserve the historical revenue calculations by creating a billing record. For more information, see the article [Create billing records](../../../manage-work/projects/project-finances/create-billing-records.md)
+   >Enabling this option overrides historical revenue calculations unless they are marked as billed. You can preserve the historical revenue calculations by creating a billing record. For more information, see the article [Create billing records](../../../manage-work/projects/project-finances/create-billing-records.md).
 
-1. Click **Save Changes**.
+1. Click **Save**.
 
 ## Update Company-level Billing Rates and apply them to a project
 
@@ -93,23 +93,24 @@ After you have enabled the company-level billing rates override option on a proj
 {{step-1-to-setup}}
 
 1. Click **Companies**.
-1. Click the name of the company that is associated with the project for which you enabled company-level billing rates override.
+1. Click the name of the company that is associated with the project for which you turned on the company-level billing rates override.
 1. Click **Billing Rates** in the left panel.
-1. Update the **Company Billing Rate** and start/end dates for an existing job role, then press Enter.
+1. Select the job role rate to update and click the **Edit** icon ![Edit icon](assets/edit-icon.png).
 
-   To add a new date effective company billing rate, select a billing rate for the job role and click **Edit**. For more information on date effective company billing rates, see [Override job role billing rates at the company level](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
+   Update the billing rate and effective dates as needed, and click **Save**. For more information on date effective company billing rates, see [Override job role billing rates at the company level](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 1. To update company rates for one or more projects, do one of the following:
 
    * Multiple projects:
 
      1. Go to a list of projects. 
-     1. Select the checkbox in line with the projects you want to update.
-     1. Click **Edit**.
-     1. In the Settings section, enable the **Recalculate Costs And Revenues** option. 
-     1. Click **Save Changes**.
+     1. Select the check boxes for the projects you want to update.
+     1. Click the **More** menu ![More menu](assets/qs-more-icon-on-an-object.png) at the top of the list, then click **Recalculate Finance**.
 
    * Single project:
 
      1. Go to the project for which you enabled company-level billing rates override.
      1. Click the **More** menu ![More menu](assets/qs-more-icon-on-an-object.png) next to the project name in the header, then click **Recalculate Finance**.
+
+     For more information on recalculating finance for one or more projects, see [Recalculate project finances](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md).
+     

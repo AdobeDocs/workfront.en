@@ -76,13 +76,12 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 {{step-1-to-setup}}
 
-1. If you create or edit a timesheet profile for use throughout the system, click **Timesheet & Hours**.
+1. To create or edit a timesheet profile for use throughout the system, click **Timesheet & Hours > Timesheet Profiles**.
 
    Or
 
-   If you create or edit a timesheet profile for a group, click **Groups**, then click the group's name.
+   To create or edit a timesheet profile for a group, click **Groups**, click the group's name, then click **Timesheet Profiles** in the left panel.
 
-1. Click **Timesheet Profiles**.
 1. To create a timesheet profile, click **New Profile**.
 
    Or
@@ -173,7 +172,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. At the top of the timesheet profile list, click the **More** icon ![More icon](assets/more-icon.png), then click **Generate timesheets**.
 
-   A confirmation displays at the bottom of the screen that timesheets have been successfully generated. New timesheets are generated based on the new profiles you created. 
+   A confirmation displays at the bottom of the screen that timesheets have been successfully generated. New timesheets are generated based on the new profiles you created.
 
    For more information, see [Manually generate timesheets](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md). 
 

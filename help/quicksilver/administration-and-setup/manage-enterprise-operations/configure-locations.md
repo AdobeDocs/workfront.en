@@ -8,12 +8,23 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 69233499-fbcb-44a4-a247-d5051f9bc8b9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Configure locations
 
+{{preview-fast-release-general}}
+
 You can configure the default locations available to assign as attributes to job roles in rate cards. This ensures that the rate cards accurately reflect the market rates in each location.
 
-Rate cards allow your organization to easily manage billing rates for projects. For more information, see [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+Rate cards allow your organization to easily manage billing rates for projects. For more information, see [Manage rate cards](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md) and [Define rate attributes](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
 ## Access requirements
 
@@ -47,10 +58,13 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 {{step-1-to-setup}}
 
 1. In the left panel, click [!UICONTROL **Locations**].
-1. Click [!UICONTROL **Add more Locations**] at the bottom of the list.
+1. In the Production environment, click [!UICONTROL **Add more Locations**] at the bottom of the list.
+   <span class="preview">In the Preview environment, click [!UICONTROL **New row**] at the bottom of the list.</span>
+
 1. Enter the location name and description.
-1. Click outside of the entry area to save the location.
-1. To delete a location, select it in the list and click the **Delete** icon ![Delete icon](assets/delete.png).
+1. Click outside of the row to save the location.
+1. To delete a location in the Production environment, select it in the list and click the **Delete** icon ![Delete icon](assets/delete.png).
+   <span class="preview">To delete a location in the Preview environment, select it in the list and click [!UICONTROL **Delete**] in the action bar at the bottom of the screen.</span>
 
 >[!NOTE]
 >
@@ -67,12 +81,18 @@ Each sub-location can be added as an attribute on a rate card in the same way as
 {{step-1-to-setup}}
 
 1. In the left panel, click [!UICONTROL **Locations**].
-1. Select an existing location in the list and click **Add sub location**.
+1. In the Production environment, select an existing location in the list and click [!UICONTROL **Add sub location**].
+   <span class="preview">In the Preview environment, select an existing location in the list and click [!UICONTROL **Add sub location**] in the action bar at the bottom of the screen.</span>
+
 1. Enter the location name and description.
 1. Click outside of the entry area to save the location.
 
    The sub-location is indented under the top level location.
 
+   Sample image in the Production environment:
    ![Locations and sub-locations](assets/locations-sublocations.png)
+
+   <span class="preview">Sample image in the Preview environment:</span>
+   ![Locations and sub-locations](assets/locations-sublocations-082526.png)
 
 

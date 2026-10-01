@@ -8,10 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Define rate attributes
 
 Rate attributes extend Adobe Workfront's rate card and rates functionality by allowing you to add additional dimensions to rates beyond the job role. This is critical for agencies and enterprises where rates vary not only by job role but also by factors such as agency, location, brand, cost center, or others.
+
 By combining these attributes, Workfront can automatically select the correct rate for assignments, ensuring financial accuracy and consistency across projects.
 
 Rate attributes are intended to be a one-time foundational setup.

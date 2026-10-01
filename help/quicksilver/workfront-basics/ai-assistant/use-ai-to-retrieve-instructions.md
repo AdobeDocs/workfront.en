@@ -5,13 +5,15 @@ description: You can quickly summarize work items and documents using the Summar
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-TQID: https://experienceleague.adobe.com/sVulqIEiWIz7ItrQgGV-79JI-Sng-7oM9mmoK-I6Olk
+TQID: 'https://experienceleague.adobe.com/sVulqIEiWIz7ItrQgGV-79JI-Sng-7oM9mmoK-I6Olk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -20,6 +22,10 @@ topic_v2:
     internal-label: Administration
 ---
 # Get help from AI Assistant
+
+>[!IMPORTANT]
+>
+>Beginning in September 2026, AI Assistant is transitioning to CX Coworker, a conversational interface for getting work done. For information on CX Coworker, see [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 AI Assistant can locate information from Workfront documentation, eliminating the need for you to visit Adobe Experience League to get the help you need. 
 
