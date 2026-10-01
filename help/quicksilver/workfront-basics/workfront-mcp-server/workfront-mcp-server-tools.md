@@ -46,6 +46,7 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
+| Upload Document to Workfront** | `upload_document_ui` | It lets you upload a file to a project, task, issue, program, portfolio or template, and optionally into a folder. | Write |
 | Find document version by name | `approvals_find_document_version_by_name` | Looks up a document's current version ID by filename. Supports partial matches. | Read |
 | Get document by version ID | `approvals_get_document_by_version_id` | Fetches document details (name, size, upload date, uploader) for a known document version ID. | Read |
 | Resolve document scope | `approvals_resolve_document_scope` | Expands a project or folder into the list of document version IDs it contains. Supports project, folder, and folder-by-name scopes. | Read |
@@ -58,7 +59,7 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 
 
 *Sending documents to an AEM folder is not yet supported for projects on Adobe cloud storage. Support is expected in a future release.
-
+**This tool opens an interactive upload panel in the chat, so it only works in tools that support MCP Apps. Currently, only Claude is supported for this tool. It appears under "Interactive tools" in the tool permissions and asks for approval by default.
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
