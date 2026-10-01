@@ -20,13 +20,91 @@ This page describes Reporting enhancements made with the Fourth Quarter 2026 rel
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
-<!--
+## Canvas Dashboards now available on Google Cloud Platform and Microsoft Azure
+
+>[!NOTE]
+>
+>Preview: N/A
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+Workfront instances on Google Cloud Platform (GCP) and Azure can now opt in to the Canvas Dashboards open beta. For more information, see [Use Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
+
+## Register a Snowflake private listing for Workfront Data Connect
+
+>[!NOTE]
+>
+>Preview: N/A
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+You can now share your Workfront Data Connect data directly with your organization's Snowflake account by registering a private listing. This connection method uses Snowflake's private listing capability to securely share data between organizations without exposing it publicly, and it works across regions and hosting platforms.
+
+A private listing is useful when you want to join your Workfront data with other data in your enterprise data warehouse. Because the data lands in your own Snowflake account, you can query it alongside the rest of your data.
+
+For more information, see [Register a private listing for Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/register-a-private-listing.md).
+
+## Reporting MCP Tools now available for Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+To make it easier to use Canvas Dashboards, we've added tools to the Workfront MCP. Now, you can build and manage Canvas Dashboards through chat, and the dashboard and widgets are created for you using your Workfront data. This works from MCP clients like Claude and Cursor.
+
+For example, you can:
+
+* Create reports by asking. Describe a dashboard or a chart in natural language instead of building it manually.
+* Edit in place. Ask to rename a widget, change a filter, swap a chart type, or resize, and the changes apply to the live dashboard.
+* Reuse what you have. Duplicate an existing dashboard or widget as a starting point instead of rebuilding from scratch.
+
+### Supported features
+
+**Dashboards**
+
+* Create a new dashboard
+* List your dashboards (yours, shared with you, all, or favorites) and search by title
+* Open or view a dashboard's structure
+* Update title, description, currency, filters, and prompts
+* Duplicate a dashboard (with or without its widgets, prompts, and filters)
+* Delete a dashboard
+
+**Widgets**
+
+* KPI — a single aggregated number (sum, average, count, min, max, etc.)
+* Chart — bar, column, line, and pie; supports simple, multi-series, and stacked charts
+* Table — multi-column tables with row grouping
+* View a widget's configuration, and update, copy, resize or reposition, or delete it
+
+**Reporting options**
+
+* Filter data with conditions and AND/OR groups
+* Group and aggregate by any field
+* Drill down from a KPI or chart into the underlying records
+* Custom column labels, number, date, and currency formatting, and conditional cell styling
+* Dashboard-level prompts and filters
+
+For more information, see [Use Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
+
+## Copy or move widgets between Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+You can now copy a widget to the same dashboard, to another dashboard you have edit access to, or to a new dashboard. You can also move a widget to another dashboard you have edit access to or to a new dashboard. 
+
+When you copy a widget, a dialog box now opens where you select the destination dashboard and whether to copy or move the widget. Previously, the report builder opened immediately.
 
 ## Filter on collection relationships in Canvas Dashboards
 
 >[!NOTE]
 >
->Preview: September 24, 2026
+>Preview: October 1, 2026
 >Production fast release: October 14, 2026
 >Production for everyone: October 15, 2026
 
@@ -35,8 +113,6 @@ When you build a filter in a Canvas Dashboard, you can now filter on collection 
 Previously, filtering on collection relationships required text mode.
 
 For more information, see [Report filter reference for Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
-
--->
 
 ## Copy dashboards in Canvas Dashboards
 
