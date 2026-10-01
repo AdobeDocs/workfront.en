@@ -457,6 +457,8 @@ Filters help you reduce the amount of information displayed on the screen.
 
 Consider the following when working with filters in the table view: 
 
+-->
+
 <!-- this list is almost identical to the one for the table view - update both-->
 
 * The filters you create for the table view work independently from the filters in the timeline view when applied to the same record type. 
