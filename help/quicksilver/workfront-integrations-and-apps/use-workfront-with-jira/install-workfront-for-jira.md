@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/oT8E-mg5qtw1pnTJ4sXuck6-Pf9QJDWJw-YxtbMomZY
+TQID: 'https://experienceleague.adobe.com/oT8E-mg5qtw1pnTJ4sXuck6-Pf9QJDWJw-YxtbMomZY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -18,6 +18,8 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: b8ea32d4-f1fe-4c71-8871-afe5a702a009
     internal-label: Adobe Workfront for Jira

@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/N2DV4OpcwawQInVKDxPgOgg-Rf6Vk9fSxLqmCyXhGuI
+TQID: 'https://experienceleague.adobe.com/N2DV4OpcwawQInVKDxPgOgg-Rf6Vk9fSxLqmCyXhGuI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -27,6 +27,8 @@ subfeature_v2:
     internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
     internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
