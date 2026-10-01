@@ -6,13 +6,15 @@ description: In the Portfolio Optimizer, the [!UICONTROL Risk to Net Value] indi
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 9e86f6eb-dd82-4731-aebb-ce8da1df5614
-TQID: https://experienceleague.adobe.com/mClkaUv0y-Y9wiqg4oJivWYtmJDuKG701nOr5TU5rCA
+TQID: 'https://experienceleague.adobe.com/mClkaUv0y-Y9wiqg4oJivWYtmJDuKG701nOr5TU5rCA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
     internal-label: Work management
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
     internal-label: Requests

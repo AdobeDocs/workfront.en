@@ -10,7 +10,7 @@ hide: true
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/sfM3OtA-DVqywr3Up8VGjcycLRs5WtF22dcpXzRlnvQ
+TQID: 'https://experienceleague.adobe.com/sfM3OtA-DVqywr3Up8VGjcycLRs5WtF22dcpXzRlnvQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -19,11 +19,15 @@ feature_v2:
     internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
     internal-label: Approvals
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
     internal-label: Requests
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -69,7 +73,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Prerequisites
 
-Before you begin, you must set up image brand guidelines in Workfront. For more information, see [Create and manage brands for the Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
+Before you begin, you must set up image brand guidelines in Workfront. For more information, see [Create and manage brands for the AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 ## Add an AI Reviewer
 
@@ -77,11 +81,11 @@ Before you begin, you must set up image brand guidelines in Workfront. For more 
 >
 >The AI Reviewer is not designed to be a decision-maker in the review and approval workflow. It only provides a score and recommendations to align the asset with the specified brand requirements. 
 
-To add a Content Reviewer:
+To add an AI Reviewer:
 
 {{step-1-to-setup}}
 
-1. In the left panel, go to **Review and Approval** > **AI Reviewers**.
+1. In the left panel, go to **Review and Approval** > **Reviewer**.
 1. Click **Add new**.
 1. Name the reviewer.
 1. Select a **Brand**.

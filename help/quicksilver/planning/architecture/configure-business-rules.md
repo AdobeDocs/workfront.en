@@ -1,10 +1,24 @@
 ---
 title: Configure Record Type Business Rules
-description: You can configure record type business rules that can enforce certain actions on records according to field values. 
+description: You can configure record type business rules that can enforce certain actions on records according to field values.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 
 # Configure record type business rules
@@ -125,14 +139,19 @@ Or
 
    ```
    
+      >[!TIP]
+      >
+      >You can add connected fields to business rules, but be careful to use statements that are looking for an array, rather than a field value. For example, instead of `ISBLANK` use `ARRAYLENGTH(field)=0`.
+
+
+   There are indicators in the **Formula** field when a field or an expression is wrong.  <!--add screen shot?-->
+
       >[!IMPORTANT]
       >
       >We strongly recommend that you include in the rule formula the following information to make it easy for users to understand when an action they are trying to perform on a record is not allowed: 
       >
       >* The exact fields that the rule is set up for. 
       >* The exact consequence if the rule is not met. 
-
-   There are indicators in the **Formula** field when a field or an expression is wrong.  <!--add screen shot?-->
 
    In the **Then** section of the business rule, you can view an explanation of what the rule does. 
 

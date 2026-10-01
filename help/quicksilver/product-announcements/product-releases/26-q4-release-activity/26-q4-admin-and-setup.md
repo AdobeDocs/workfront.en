@@ -4,12 +4,33 @@ description: Fourth Quarter 2026 Administrator enhancements
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 ---
 # Fourth Quarter 2026 Administrator enhancements
 
 This page describes Administrator enhancements made with the Fourth Quarter 2026 release to the Preview environment. These enhancements will be made available in the Production environment as noted.
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Add authorized redirect URLs for MCP integrations
+
+>[!NOTE]
+>
+>Preview: September 22, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+To make the Workfront MCP servers more flexible and customizable to your organization, we've added the ability to add custom OAuth callback URLs. Workfront administrators can now maintain their own organization's allowlist of trusted OAuth callback URLs for MCP integrations. This lets you connect custom AI agentic platforms whose OAuth callback URL is unique to your organization, beyond the platforms that Workfront supports natively.
+
+For more information, see [Add or remove an authorized redirect URL](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md#add-or-remove-an-authorized-redirect-url) in [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 <!--
 
@@ -68,6 +89,8 @@ For information, see [Enable custom quarters](/help/quicksilver/administration-a
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
 >Production for everyone: October 15, 2026
+>
+>This feature was temporarily removed from the Preview environment on September 14, 2026.
 
 When working in a layout template, you can now reposition custom applications to be in any order with the default Workfront menu options. This allows you to position each application in the most relevant place.
 

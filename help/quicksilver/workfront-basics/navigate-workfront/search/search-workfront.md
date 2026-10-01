@@ -5,13 +5,15 @@ description: You can easily locate items in [!DNL Adobe Workfront] by searching 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-TQID: https://experienceleague.adobe.com/3dFbIhQzzlEcbHdb3lO0R0-2eAZ2GkDmVo1g5i0z5gI
+TQID: 'https://experienceleague.adobe.com/3dFbIhQzzlEcbHdb3lO0R0-2eAZ2GkDmVo1g5i0z5gI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

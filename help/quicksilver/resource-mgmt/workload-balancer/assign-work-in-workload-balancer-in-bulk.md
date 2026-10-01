@@ -33,7 +33,7 @@ topic_v2:
 
 You can assign resources to multiple tasks and issues in bulk using the Adobe Workfront Workload Balancer.
 
-For general information about assigning work to users and Task Collaborators using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+For general information about assigning work to users and Work Agents using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Access requirements
 
@@ -159,7 +159,7 @@ To assign a user to work items previously assigned to job roles:
 
 1. In the **Role assignment** field, click the drop-down arrow to choose from a list of roles. Only roles currently assigned within the specified projects are displayed. This is a required field. 
 
-   ![Role assignment](assets/bulk-assignments-workload-balancer-assign-selected.png)
+   IMAGE
 
 1. In the **User to assign** field, click the drop-down arrow to choose from a list of suggested users or to type another user's name.
 
@@ -186,7 +186,7 @@ To assign a user to work items previously assigned to job roles:
 
    You receive a confirmation about how many work items have had the selected role replaced with the selected user.
 
-   ![Bulk assignment confirmation](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
+   IMAGE
 
 -->
 
@@ -248,7 +248,4 @@ To unassign a user from work items in the selected projects or for the selected 
 
 1. Click **Unassign**.  
    A confirmation displays the number of work items where the specified user was removed.
-
- 
-
 

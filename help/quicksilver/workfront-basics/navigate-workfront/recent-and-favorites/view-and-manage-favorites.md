@@ -6,13 +6,15 @@ description: The Favorites menu allows you to access items quickly. Items remain
 feature: Get Started with Workfront
 author: Courtney
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
-TQID: https://experienceleague.adobe.com/S0cPTosyBInMh-Pji9TY1JEtsHB7lyTNlMlM6-M-yNQ
+TQID: 'https://experienceleague.adobe.com/S0cPTosyBInMh-Pji9TY1JEtsHB7lyTNlMlM6-M-yNQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

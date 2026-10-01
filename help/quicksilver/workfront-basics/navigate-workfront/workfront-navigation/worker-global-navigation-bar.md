@@ -7,13 +7,15 @@ description: The Main Menu changes with the access level you have been assigned 
 author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-TQID: https://experienceleague.adobe.com/3VM5YoTkx242vVP-xMPVF06pBnnlJ843fXLQv8zW13c
+TQID: 'https://experienceleague.adobe.com/3VM5YoTkx242vVP-xMPVF06pBnnlJ843fXLQv8zW13c'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: c549503a-6440-4802-9525-ceb73a00feff
     internal-label: Create and manage teams

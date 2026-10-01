@@ -8,13 +8,15 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-TQID: https://experienceleague.adobe.com/g6y6RsDNuEDBGZBrZXxhyFZ2-z1EUr5yflGDQQ7AhdQ
+TQID: 'https://experienceleague.adobe.com/g6y6RsDNuEDBGZBrZXxhyFZ2-z1EUr5yflGDQQ7AhdQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
     internal-label: Timesheets
@@ -32,6 +34,8 @@ topic_v2:
     internal-label: Administration
 ---
 # Customize the Main Menu using a layout template
+
+{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -138,26 +142,28 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       >
       > Custom applications must be created separately before they become available as Main Menu options. For more information, see [Create a custom application for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
-In the Preview environment:
-
 1. Do any of the following for the **Native** items:
 
    * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) items that you don't want to display on the Main Menu.
    * Show ![Show icon](assets/add-icon-plus-in-circle.png) items that you do want to display on the Main Menu.
    * Drag ![Drag icon](assets/move-icon---dots.png) items to change their display order on the Main Menu.
 
+     >[!NOTE]
+     >
+     >You can't change the order of system items. These items always display at the bottom of the Main Menu when they are active. <!-- REMOVE THIS NOTE AT PROD RELEASE October 2026 -->
+
+<div class="preview">
+
 1. Do any of the following for the **System** items:
 
    * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) items that you don't want to display on the Main Menu.
    * Show ![Show icon](assets/add-icon-plus-in-circle.png) items that you do want to display on the Main Menu.
 
-   >[!NOTE]
-   >
-   >You can't change the order of system items. These items always display at the bottom of the Main Menu when they are active.
+</div>
 
 1. Click **Done**.
 
-   You can also click **Cancel** at any time if you want to discard your changes.
+   You can also click **Cancel** at any time to discard your changes.
 
 1. Continue customizing the layout template. You can click **Apply** at any time to save your progress.
 
@@ -166,3 +172,4 @@ In the Preview environment:
    If you are finished customizing, click **Save and Close**.
 
 For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+

@@ -8,13 +8,20 @@ description: Our integration with the Box online file sharing and content manage
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 0050a478-30a9-4400-9854-9d6339114243
-TQID: https://experienceleague.adobe.com/2E60Y2iwE12qd8ofXwjXcuBj83lSZc9RqkhnKI-ydrs
+TQID: 'https://experienceleague.adobe.com/2E60Y2iwE12qd8ofXwjXcuBj83lSZc9RqkhnKI-ydrs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

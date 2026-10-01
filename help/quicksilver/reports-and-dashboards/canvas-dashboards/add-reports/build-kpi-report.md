@@ -121,17 +121,9 @@ There are many configuration options available for building a KPI report. In thi
 
     1. In the **Aggregation type** drop-down, select how the data rolls up to produce the KPI output. The options in this field will vary depending on the type of field that was selected in the previous step. 
 
-1. Follow the steps below to configure the **Filter** section: 
+1. In the left panel, click the **Filter** ![Filter icon](assets/filter-icon.png) icon, then configure the conditions that determine which data displays.
 
-    1. In the left panel, click the **Filter** ![Filter icon](assets/filter-icon.png) icon. 
-
-    1. Select **Edit filter**. 
-
-    1. Click **Add condition** and then specify the field you want to filter by and the modifier that defines what kind of condition the field must meet.   
-
-    1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR. 
-
-        For more information on filters, see [Edit report filters in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
+    For more information, see [Filter a report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md).
 
 1. Follow the steps below to configure the **Drilldown Column Settings** section: 
 
@@ -141,11 +133,9 @@ There are many configuration options available for building a KPI report. In thi
 
     1. Click **Add column** and then select the field you want to display as a column in the table. Repeat this process for each column you want to add.  
 
-1. Follow the steps below to configure the **Drilldown Group Settings** section: 
+1. In the left panel, click the **Drilldown Group Settings** ![Drilldown group icon](assets/drilldown-group-icon.png) icon, then add groupings for the drilldown table.
 
-    1. In the left panel, click the **Group Settings** ![Drilldown group icon](assets/drilldown-group-icon.png) icon. 
-
-    1. Click the **Add grouping** button and then select the field you want to create as a grouping.  
+    For more information, see [Configure drilldown groupings in chart and KPI reports](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports) in [Group report data in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md).
 
 1. Click **Save** to create the report and add it to the dashboard. 
 

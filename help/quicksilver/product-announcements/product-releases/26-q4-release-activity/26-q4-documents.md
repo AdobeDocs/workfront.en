@@ -4,12 +4,42 @@ description: Fourth Quarter 2026 Documents enhancements
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 ---
 # Fourth Quarter 2026 Documents enhancements
 
 This page describes Documents enhancements made with the Fourth Quarter 2026 release to the Preview environment. These enhancements will be made available in the Production environment as noted.
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+<!--
+
+## Access Workfront projects in Adobe Creative Cloud apps
+
+>[!NOTE]
+>
+>Preview: N/A
+>Production fast release: [DATE]
+>Production for everyone: [DATE]
+
+You can now access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign, using the Projects panel. Projects that use Adobe cloud storage appear in the panel, allowing you to open, edit, and save documents in a Workfront project without leaving the app.
+
+The Documents folder structure in a Workfront project is mirrored in the Projects panel. When you open a document from a project folder, edit it, and save, your changes appear in Workfront. You can also request a document approval on any document connected with Photoshop, Illustrator, or InDesign from Workfront.
+
+For more information, see:
+
+* [Adobe Creative Cloud Projects overview](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
+* [Use Workfront documents in Creative Cloud apps](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
+
+-->
 
 ## Control who can see and use approval templates
 
@@ -43,11 +73,11 @@ System Administrators can now view, edit, delete, and bulk-delete every approval
 
 For more information, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
-## Frame comment visibility in Workfront
+## Frame.io comment visibility in Workfront
 
 >[!NOTE]
 >
->Preview: September 3, 2026
+>Preview: N/A
 >Production fast release: September 17, 2026
 >Production for everyone: October 15, 2026
 

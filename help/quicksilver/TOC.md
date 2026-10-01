@@ -15,12 +15,13 @@ feature-set: Workfront
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
     * 2026 Q4 Release {#release-26-q4}
       * [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
-      * [Fourth Quarter 2026 AI enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
       * [Fourth Quarter 2026 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
+      * [Fourth Quarter 2026 AI enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
       * [Fourth Quarter 2026 Documents enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md)
       * [Fourth Quarter 2026 Financial Management enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md)
       * [Fourth Quarter 2026 Project enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-projects.md)
       * [Fourth Quarter 2026 Reporting enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md)
+      * [Fourth Quarter 2026 Requesting enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md)
       * [Fourth Quarter 2026 Resource Management enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md)
       * [Fourth Quarter 2026 Other enhancements](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md)
     * 2026 Q3 Release {#release-26-q3}
@@ -263,6 +264,7 @@ feature-set: Workfront
       * {hide-from-toc} [Adobe Workfront limited availability features release activity](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
       * {hide-from-toc} [First Quarter 2026 release activity for Adobe Workfront limited availability features](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
       * {hide-from-toc} [Second Quarter 2026 release activity for Adobe Workfront limited availability features](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+      * {hide-from-toc} [Fourth Quarter 2026 release activity for Adobe Workfront limited availability features](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
     * Adobe Workfront Scenario Planner release activity {#scenario-planner-release}
       * [Adobe Workfront Scenario Planner release activity](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
       * [Adobe Workfront Scenario Planner with the 21.3 release](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -1639,7 +1641,9 @@ feature-set: Workfront
     * Manage reports {#manage-reports}
       * [Manage reports: article index](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
       * [Edit a report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
-      * [Edit report filters in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+      * [Filter a report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)
+      * [Report filter reference for Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)
+      * [Group report data in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)
       * [Duplicate a report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
       * [Delete a report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
   * Reports {#reports}
@@ -1843,6 +1847,7 @@ feature-set: Workfront
     * [Create a reader account or connection for Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
     * [Establish a connection to Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Workfront Data Connect data dictionary](reports-and-dashboards/data-lake/data-dictionary.md)
+    * {hide-from-toc} [Register a private listing for Workfront Data Connect](reports-and-dashboards/data-lake/register-a-private-listing.md)
     * {hide-from-toc} [data dictionary test](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Workfront Data Connect query examples](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [View Workfront Data Connect usage metrics](reports-and-dashboards/data-lake/view-usage-metrics.md)
@@ -1932,13 +1937,13 @@ feature-set: Workfront
     * [Unified document approvals: article index](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
     * [Available functionality for document approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
     * [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-    * [Get Started with the Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+    * [Get Started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
     * [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md)
     * [Object permissions and access level overview for the Adobe cloud storage model](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
     * [Move from legacy document approvals to Unified Approvals](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md)
     * Set up and manage asset and document approvals {#manage-asset-review-and-approval}
       * [Set up and manage unified approvals: article index](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
-      * [Create and manage brands for the Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
+      * [Create and manage brands for the AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
       * [Create a document review or approval request](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
       * [Add additional reviewers or approvers to an asset or document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [Remove approvers or reviewers from an asset or document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
@@ -1949,7 +1954,7 @@ feature-set: Workfront
       * [Create a report dashboard for review and approvals](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
     * Review and approve assets and documents {#review-and-approve-documents}
       * [Review and approve documents: article index](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-      * [View Content Reviewer score and feedback](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
+      * [View AI Reviewer score and feedback](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
       * [Review a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
       * [Approve a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
       * [Review and approve a document in the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
@@ -2187,6 +2192,7 @@ feature-set: Workfront
     * [Adobe Workfront Planning implementation recommendations](planning/general/planning-best-practices.md)
     * [Adobe Workfront Planning API basics](planning/general/planning-api-basics.md)
     * [Adobe Workfront Planning AI Assistant overview](planning/general/planning-ai-assistant-overview.md)
+    * [Adobe Workfront Planning CX Coworker overview](planning/general/planning-cx-coworker-overview.md)
     * [Get started with the Adobe Workfront Planning Designer](planning/general/planning-ai-designer.md)
     * [Adobe Workfront Planning release activity for 2024](planning/general/release-activity.md)
     * [Adobe Workfront Planning release activity for 2023](planning/general/release-activity-archives-2023.md)
@@ -2244,7 +2250,7 @@ feature-set: Workfront
     * [Share record types](planning/access/share-record-types.md)
     * [Share views](planning/access/share-views.md)
     * [Share records](planning/access/share-records.md)
-    * {hide-from-toc} [Share Workfront Planning fields](planning/access/share-fields.md)
+    * [Share Workfront Planning fields](planning/access/share-fields.md)
     * [Set default permissions for records](planning/access/set-default-record-permissions.md)
     * [Request permissions to a view or a workspace](planning/access/request-permissions.md)
   * Adobe Workfront Planning records {#adobe-workfront-planning-records}
@@ -2274,6 +2280,7 @@ feature-set: Workfront
     * [Adobe Workfront Planning requests: article index](planning/requests/requests-article-index.md)
     * [Create and manage a request form in Adobe Workfront Planning](planning/requests/create-request-form.md)
     * [Submit Adobe Workfront Planning requests to create records](planning/requests/submit-requests.md)
+    * [Share Planning requests](planning/requests/share-requests.md)
     * [Unpublish a request form in Adobe Workfront Planning](planning/requests/unpublish-request-form.md)
     * [Add an approval to a request form in Adobe Workfront Planning](planning/requests/add-approval-to-request-form.md)
     * [Approve a request in Adobe Workfront Planning](planning/requests/approve-request.md)
@@ -2303,6 +2310,13 @@ feature-set: Workfront
     * [Manage your instance of Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-planning-sta-instance.md)
     * [Manage users in Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-users-in-planning-sta.md)
     * [Manage teams in Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-teams-in-planning-sta.md)
+  * {hide-from-toc}The Ideation space in Workfront Planning {#ideation}
+    * {hide-from-toc}[Ideation space for Adobe Workfront Planning: article index](planning/ideation/planning-ideation-article-index.md)
+    * {hide-from-toc}[Get started with the Ideation space for Adobe Workfront Planning](planning/ideation/get-started-with-planning-ideation.md)
+    * {hide-from-toc}[Create briefs in the Ideation space](planning/ideation/create-briefs-in-ideation-space.md)
+    * {hide-from-toc}[Create Planning records from Ideation space briefs](planning/ideation/create-records-in-ideation-space-for-planning.md)
+    * {hide-from-toc}[Share an Ideation space with others](planning/ideation/share-the-ideation-space.md)
+
 * Adobe Workfront Integrations {#adobe-workfront-integrations}
   * [Adobe Workfront integrations](workfront-integrations-and-apps/workfront-integrations.md)
   * [Adobe Workfront built-in integrations overview](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
