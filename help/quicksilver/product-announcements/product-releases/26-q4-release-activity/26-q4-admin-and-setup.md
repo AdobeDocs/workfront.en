@@ -91,7 +91,7 @@ To make it easier for you to create and manage your organization's event subscri
 * Create new event subscriptions, including filtering by criteria you specify:
 * Delete event subscriptions.
 
-<!--ADD LINK WHEN READY-->
+For information, see [Configure event subscriptions in Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
 
 
 ## Add authorized redirect URLs for MCP integrations
