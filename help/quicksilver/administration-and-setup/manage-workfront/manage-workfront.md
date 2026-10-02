@@ -32,6 +32,7 @@ topic_v2:
 
 This section contains the following subsections:
 
+* [Configure event subscriptions in Workfront](../../administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)
 * [Configure proofing functionality](../../administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md) 
 * [Configure reports](../../administration-and-setup/manage-workfront/configure-reports/configure-reports.md) 
 * [Emails](../../administration-and-setup/manage-workfront/emails/emails.md) 

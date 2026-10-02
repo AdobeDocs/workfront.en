@@ -22,6 +22,10 @@ role_v2:
 
 Following are various resources on Event Subscriptions in Adobe Workfront:
 
+>[!NOTE]
+>
+>To work with event subscriptions within the Workfront application, see [Configure event subscriptions in Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
+
 * [Event Subscription API](../../wf-api/general/event-subs-api.md) 
 * [Event subscription best practices](../../wf-api/general/event-sub-best-practice.md) 
 * [Event Subscription delivery requirements](../../wf-api/general/setup-event-sub-endpoint.md) 
