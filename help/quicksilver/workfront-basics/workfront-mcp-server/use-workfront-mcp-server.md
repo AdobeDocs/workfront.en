@@ -30,6 +30,8 @@ This article assumes you've already set up the connection. For information about
 
 The Workfront MCP server exposes a set of tools that the AI agentic platform calls on your behalf. For example, tools to search Workfront, create items, update fields, and manage approvals. For the full reference list, see [Adobe Workfront MCP server tools](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md).
 
+Tool availability depends on your organization's product entitlements, in addition to your Workfront access level, object permissions, and any MCP admin controls.
+
 >[!IMPORTANT]
 >
 >When you connect an AI agentic platform to Workfront, it acts in Workfront using your Workfront account and permissions. The platform's actions have the same effect as actions you take directly in the Workfront interface.<br>
@@ -38,6 +40,29 @@ The Workfront MCP server exposes a set of tools that the AI agentic platform cal
 >
 >Before you let the AI agentic platform proceed with a request, confirm that you understand what it intends to do, especially for actions that change or delete data.
 
+## How product entitlements affect available tools
+
+The Workfront MCP server shows only the tools that your organization is entitled to use.
+
+The following scenarios apply:
+
+* If your organization has Workfront Planning only, the AI agentic platform shows Planning tools, but not Workflow tools.
+* If your organization has Workfront Workflow only, the AI agentic platform shows Workflow tools, but not Planning tools.
+* If your organization has both Workfront Workflow and Workfront Planning, the AI agentic platform shows both sets of tools.
+* Insights and context tools are available to all customers.
+
+If a tool is not available for your organization's entitlements, it does not appear in the tool list for that connection. If an AI agentic platform tries to call that tool directly anyway, the request is blocked and returns an entitlement-related error.
+
+For agent builders and advanced users, keep the following in mind:
+
+* The available tool list can differ between customers.
+* The tool list is established when the connection starts.
+* If a customer's entitlements change, the updated tool list appears the next time that customer starts a new connection to the Workfront MCP server.
+
+>[!NOTE]
+>
+>Workfront Workflow is currently treated as the baseline product area for MCP tool availability. Planning tools are filtered by entitlement. There are currently no entitlement limitations on approvals tools.
+
 
 ## Examples of what to ask
 
@@ -45,7 +70,7 @@ After you're connected, type natural-language requests in your AI agentic platfo
 
 >[!NOTE]
 >
->Some actions might not be available because of admin controls in the Workfront Setup area. For example, you might not be able to create items if your Workfront administrator has disabled write actions for the MCP server. 
+>Some actions might not be available because of admin controls in the Workfront Setup area or because your organization is not entitled to the related product area. For example, you might not be able to create items if your Workfront administrator has disabled write actions for the MCP server, or you might not see Planning tools if your organization is not licensed for Workfront Planning.
 
 
 ### Find and view your work
@@ -176,6 +201,7 @@ Workfront does not have control over how the AI agentic platform provider handle
 | Data you just changed in Workfront doesn't show up yet. | Insights data is near real-time, with an SLA of up to about 15 minutes. | Wait a few minutes and ask again, or check directly in Workfront. |
 | The AI agentic platform returned data from the wrong Workfront items. | The AI agentic platform picked the wrong items based on ambiguous wording. | Ask again with more specific names, IDs, or filters. |
 | An update or delete didn't take effect in Workfront. | Your Workfront administrator has disabled write actions for the Workfront MCP server, or you don't have permission to perform the action on the specific item. | Confirm with the AI agentic platform that the action ran. Then check that write actions are enabled for the Workfront MCP server and that you have permission to change the item. |
+| A tool another customer can use does not appear for me. | Your organization is not entitled to that product area, or you started the connection before an entitlement change took effect. | Confirm which Workfront products your organization is licensed for. If entitlements were changed recently, start a new MCP connection and check the tool list again. |
 
 For more information about setup and authentication issues, see [Troubleshoot setup and authentication](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#troubleshoot-setup-and-authentication) in [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
@@ -265,6 +291,12 @@ article.
 ### What happens when a new version of the Workfront MCP server releases?
 
 The MCP server generally updates automatically, but you may need to refresh your connection to the MCP server at times to see the latest tools and capabilities.
+
+### Why don't I see the same MCP tools that another customer sees?
+
+The available MCP tools can differ by customer because the Workfront MCP server filters some tools based on product entitlements. For example, customers licensed for Workfront Planning can see Planning tools, while customers without that entitlement do not. Customers licensed for Workfront Workflow can see Workflow tools.
+
+The tool list is set when the connection starts. If your organization's entitlements change, start a new connection to see the updated list.
 
 ### Can I use the Workfront MCP server if my Workfront instance isn't enabled on Adobe Identity Management System (IMS)?
 
