@@ -337,7 +337,6 @@ To reuse an existing calculated custom field:
       >* Find calculation errors, underlined in red, as you go. You can hover over a highlighted error to display a brief description of its cause.
       >  ![Error help](assets/error-help.png) 
       >* In the area below your calculation, preview the results on an existing Workfront object.
-      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
       >  ![Preview calculation](assets/preview-calc.png)
       >* Reference expressions in a long calculation using the line numbers that display on the left.
 
