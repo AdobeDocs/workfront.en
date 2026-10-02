@@ -143,7 +143,5 @@ For information on what features are added to the Canvas Dashboard, see [Product
 * Resource management reports 
 * Additional Home screen widgets 
 * Sending dashboard summaries 
-* Copying reports 
-* Copying dashboards 
 
 
