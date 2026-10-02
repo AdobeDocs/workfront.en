@@ -25,6 +25,19 @@ For information about how to use these tools through an AI agentic platform, see
 >
 >The AI agentic platform acts in Workfront using your Workfront account, access level, and object permissions. A tool only works if you have the corresponding access in Workfront. Adobe is not responsible for changes the AI agentic platform makes to your Workfront data.
 
+## How product entitlements affect the tool list
+
+The tools that appear in your AI agentic platform depend on your organization's Workfront product entitlements.
+
+* Customers licensed only for Workfront Planning see Planning tools, but not Workflow tools.
+* Customers licensed only for Workfront Workflow see Workflow tools, but not Planning tools.
+* Customers licensed for both Workfront Workflow and Workfront Planning see both sets of tools.
+* Insights and context tools are available to all customers.
+
+If your organization is not entitled to a product area, the related tools do not appear in the tool list for that connection. If an AI agentic platform attempts to call a tool that is not available for your entitlements, the request is blocked.
+
+The following tables identify the product area each tool belongs to.
+
 
 ## Read and write actions
 
@@ -41,6 +54,10 @@ Your Workfront administrator controls which categories of tools the AI agentic p
 If the AI agentic platform can find Workfront items but can't create, update, or delete them, ask your Workfront administrator to enable write actions. For more information, see [Admin prerequisites](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#admin-prerequisites) in *Configure the Adobe Workfront MCP server*.
 
 ## Approvals tools
+
+Product requirement: All customers
+
+There are currently no entitlement limitations on approvals tools.
 
 ### Documents
 
@@ -119,6 +136,8 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | Find projects | `approvals_find_projects` | Deprecated. Use `insights_find_workfront_data` instead. This tool looked up Workfront projects, optionally filtered by name and/or restricted to projects the calling user owns. | Read |
 
 ## Planning tools
+
+Product requirement: Workfront Planning
 
 >[!IMPORTANT]
 >
@@ -204,6 +223,8 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 
 ## Workflow tools
 
+Product requirement: Workfront Workflow
+
 Workflow tools are the general-purpose actions the AI agentic platform uses to work with any Workfront object — projects, tasks, issues, hours, assignments, programs, portfolios, and so on.
 
 ### Objects and fields
@@ -287,6 +308,8 @@ Example prompts:
 
 ### Insights tools
 
+Product requirement: Workfront Workflow or Workfront Planning.
+
 Insights tools retrieve information about Workfront objects.
 
 >[!NOTE]
@@ -307,6 +330,8 @@ Insights tools retrieve information about Workfront objects.
 
 ## Feedback tools
 
+Product requirement: Workfront Workflow or Workfront Planning.
+
 <span class="preview">Feedback tools let you report your experience with the Workfront MCP server directly from your AI agentic platform.</span>
 
 | Title | Tool name | What it does | Action |
@@ -314,6 +339,8 @@ Insights tools retrieve information about Workfront objects.
 | <span class="preview">Share feedback</span> | <span class="preview">`share_feedback`</span> | <span class="preview">Records your reported sentiment and what happened during the conversation, so Workfront's MCP tools can be improved. Only used when you explicitly ask to share feedback (for example, "share feedback" or "report a bug").</span> | <span class="preview">Write</span> |
 
 ## Reporting tools
+
+Product requirement: All customers
 
 Reporting tools let you build and manage Canvas Dashboards through chat. Describe the report you want in plain language, and the AI agentic platform creates the dashboard and widgets for you using your Workfront data.
 
@@ -332,7 +359,9 @@ Reporting tools let you build and manage Canvas Dashboards through chat. Describ
 
 ## How tools are updated
 
-When Adobe releases a new version of the Workfront MCP server, the AI agentic platform uses the updated tool set automatically. You don't need to reconnect or change anything on your side.
+When Adobe releases a new version of the Workfront MCP server, the AI agentic platform uses the updated tool set automatically.
+
+The tool list is set when the connection starts. If your organization's product entitlements change, the updated tool list appears the next time you start a new connection to the Workfront MCP server.
 
 
 
