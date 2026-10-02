@@ -1,8 +1,8 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Duplicate a report in a Canvas Dashboard
-description: You can duplicate a report in a Canvas dashboard.
+title: Copy and move reports in Canvas Dashboards
+description: You can copy or move a report between Canvas Dashboards.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e0f9d091-bb89-4c5b-a18d-b1e339084e67
@@ -26,7 +26,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 ---
-# Duplicate a report in a Canvas Dashboard
+# Copy and move reports in Canvas Dashboards
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -87,7 +89,7 @@ You must add a report to a dashboard before it can be duplicated.
 
 For more information, see [Create a Canvas dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
-## Duplicate a report
+## Duplicate a report in Production
 
 {{step1-to-dashboards}}
 
@@ -105,3 +107,53 @@ For more information, see [Create a Canvas dashboard](/help/quicksilver/reports-
     >These tabs will vary depending on if you duplicated a KPI, table, or chart report.  For more, see [Build a KPI report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Build a chart report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md), and [Build a table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md). 
  
 1. Click **Save**. The duplicated report appears on the dashboard.
+
+<div class="preview">
+
+## Copy or move a report in Preview
+
+You can copy a report to the current dashboard, copy it to another dashboard, or move it to another dashboard. Copying creates a duplicate of the report at the destination; moving relocates it off its current dashboard.
+
+>[!IMPORTANT]
+>
+>* To copy a report, you need Manage permissions for the destination dashboard. 
+>* To move a report, you need Manage access to both the source and destination dashboards. 
+>* If the report has a Run as User configured and you aren't a System Administrator or the Run as User, you can still copy or move it, but the Run as User is removed from the resulting report.
+
+
+To copy or move a report:
+
+{{step1-to-dashboards}}
+
+1. In the left panel, click **Canvas Dashboards**.
+1. Open the dashboard that contains the report.
+1. Click the **More** ![More button](assets/more-icon.png) icon in the upper-right corner of the report, then select **Copy report**.
+
+    ![Copy report option](assets/copy-report-button.png)
+
+1. In the **Copy report** dialog box, choose one of the following options:
+
+   <table>
+   <tr>
+   <td><strong>Copy</strong></td>
+   <td>Click <strong>Copy</strong> at the bottom of the screen to copy the report. The current dashboard is selected by default. You need Manage access to the dashboard to copy a report.</td>
+   </tr>
+   <tr>
+   <td><strong>Copy and move</strong></td>
+   <td>Select a different destination dashboard to copy the report and move it to a new dashboard. The original report stays on the current dashboard.You need Manage access to the destination dashboard to copy and move a report. </td>
+   </tr>
+   <tr>
+   <td><strong>Move</strong></td>
+   <td>Select a different destination dashboard to move the report to. This relocates the report to the destination dashboard and removes it from the current one. You need Manage access to both the source and destination dashboards to move a report.</td>
+   </tr>
+   </table>
+
+   >[!NOTE]
+   >
+   >If the report has a Run as User configured, and you are not a System Administrator or the user set as the Run as User, you can still copy or move the report. The Run as User is removed from the resulting report.
+
+1. Click **Save**.
+
+    ![copy and move](assets/copy-and-move.png)
+
+</div>
