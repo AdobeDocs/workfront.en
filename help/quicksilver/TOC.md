@@ -690,6 +690,7 @@ feature-set: Workfront
       * [Delete a custom condition](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
   * Manage Adobe Workfront {#manage-wf}
     * [Manage Workfront](administration-and-setup/manage-workfront/manage-workfront.md)
+    * [Configure event subscriptions in Workfront](administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)
     * Configure proofing functionality {#configure-proofing}
       * [Configure proofing](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
       * [Proof settings](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)

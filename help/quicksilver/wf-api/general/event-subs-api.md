@@ -39,6 +39,10 @@ When an action occurs on a Adobe Workfront object that is supported by event sub
 
 Because event subscriptions send data to another service, they are manage through commands instead of through the Workfront application.
 
+>[!NOTE]
+>
+>To work with event subscriptions within the Workfront application, see [Configure event subscriptions in Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
+
 In order to receive event subscriptions payloads through your firewall, you must add the following IP addresses to your allowlist:
 
 **For customers in Europe:**
