@@ -448,7 +448,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>A custom message set on a document approval now also appears in the subject line of the approval-request email.</p>
             </td>
             <td><p>N/A</p></td>
-            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
         <tr>

@@ -200,8 +200,8 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >[!NOTE]
 >
 >Preview: N/A
->Production fast release: September 17, 2026
 >Production for everyone: October 15, 2026
+>This feature did not release in the Production fast release on September 17, 2026, as originally planned. It will now be available in Production for everyone on October 15, 2026.
 
 When you set a custom message on a document approval, that message now also appears in the subject line of the approval-request email, led by the due date when one is set. This lets reviewers see what needs attention and by when directly from their inbox, without opening the email.
 
