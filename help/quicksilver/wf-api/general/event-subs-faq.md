@@ -76,12 +76,12 @@ Some of the following scenarios might be responsible:
 
      This behavior can be perceived as inconsistent or delayed deliveries, but it simply follows our policies for how Event Subscription messages are handled.
    
-   * An Event Subscription URL&nbsp;will be hard disabled if either of the following conditions are met:
+   * An Event Subscription URL will be hard disabled if either of the following conditions are met:
 
-      * The Subscription URL has failed to deliver for 7 days and has failed at least 2000 consecutive delivery attempts in the last 72 hours.
+      * The Subscription URL has failed to deliver for at least 72 hours and has failed more than 2,000 consecutive delivery attempts.
       * The Subscription URL failed to deliver 50,000 consecutive attempts.
 
-## What should I&nbsp;do if I'm receiving a 500 response status when I attempt to call the Event Subscription API?
+## What should I do if I'm receiving a 500 response status when I attempt to call the Event Subscription API?
 
 Please contact Workfront Support. To learn how to contact support, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
