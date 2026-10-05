@@ -27,10 +27,11 @@ Coworker respects your organization's existing product-level access controls. Us
 
 Coworker is part of the Adobe ecosystem, and is not just limited to Workfront. 
 
-For information on using CX Coworker in Workfront, see [Use CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
+For information on using Coworker in Workfront, see [Use CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
 
 For more information on Coworker and its capabilities, see [Adobe CX Enterprise Coworker Chat overview](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview).
 
 For skills available in Coworker in Workfront, see [CX Coworker skills](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
 For example prompts, see the prompts in the article [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
+

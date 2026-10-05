@@ -51,11 +51,11 @@ The user's commands and the AI's execution of those commands work together to en
 
 >[!IMPORTANT]
 >
-><span class="preview">In some organizations, the AI Assistant was replaced by the CX Coworker. For information, see [Adobe Workfront Planning CX Coworker overview](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
+><span class="preview">In some organizations, the AI Assistant was replaced by CX Coworker. For information, see [Adobe Workfront Planning CX Coworker overview](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -156,7 +156,7 @@ You can use the AI Assistant to perform the following actions, at this time:
 
 >[!NOTE]
 >
-><span class="preview">If your organization has received access to the CX Coworker, locating the CX Coworker is similar to locating the AI Assistant. For information, see [Adobe Workfront Planning CX Coworker overview](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
+><span class="preview">If your organization has received access to CX Coworker, locating Coworker is similar to locating the AI Assistant. For information, see [Adobe Workfront Planning CX Coworker overview](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
 
 
 You can locate the AI Assistant in the following areas of Workfront Planning:
