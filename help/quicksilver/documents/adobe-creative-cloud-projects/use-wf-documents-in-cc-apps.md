@@ -75,7 +75,7 @@ To access a Workfront project in Photoshop, Illustrator, or InDesign:
 
 ## Save a new document to Workfront from a Creative Cloud App
 
-1. Open Photoshop, Illustrator, or InDesign.
+1. Open Photoshop, Illustrator, or InDesign, and create a new file.
 1. In the top menu, select **File > Save As**.
 1. In the **Save As** dialog, select **Save to cloud documents**, then choose the Workfront project you need. 
 
@@ -90,16 +90,28 @@ To access a Workfront project in Photoshop, Illustrator, or InDesign:
 
     ![choose folder to save new document in workfront](assets/save-to-folder.png)
 
-## Manage versions of a document in Workfront from a Creative Cloud app
-
-When you save a document to Workfront from Photoshop, Illustrator, or InDesign, it is saved as the current version of the document. You can also manage versions of a document in Workfront from these apps.
-
-
 ## Request an approval on a document
 
 You can add a document approval in Workfront to any document you uploaded from Photoshop, Illustrator, or InDesign, or from Adobe Cloud Drive, the same as any other document. For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
-<!--
-need to verify
-Creating an approval on a Creative Cloud document also creates a new version of the document. For more information, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md#view-the-current-file-during-an-approval).
--->
+
+
+## Manage versions of a document in Workfront from a Creative Cloud app
+
+When you save a document from Photoshop, Illustrator, or InDesign to Workfront, the changes you save appear in the Current file on the Versions tab and are marked with a "New changes" badge.
+
+You can request an approval on the Current file rather than uploading a new versionof the document. For more information, see [Request an approval on the Current file](#request-approval-on-the-current-file).
+
+![current file with new changes badge](assets/current-file.png)
+
+### Request approval on the Current file
+
+To request an approval on the Current file of a document in Workfront:
+
+1. Go to the project in Workfront that contains the document you want to request an approval on.
+1. Open the document and go to the **Versions** tab.
+1. On the Current file, click **More** menu, then click **Request Approval**.
+1. In the **Request Approval** dialog, follow the steps in [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) to create the approval.
+
+   ![request approval on current file](assets/request-update-on-current-file.png)
+
