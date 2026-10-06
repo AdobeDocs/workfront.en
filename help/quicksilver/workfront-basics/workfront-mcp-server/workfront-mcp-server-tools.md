@@ -365,11 +365,15 @@ The tool list is set when the connection starts. If your organization's product 
 
 
 
+## Intent telemetry
+
+Workfront MCP server tracks user intent for customers. Intent data gathered is generic for telemetry purposes, and only ever gathered for the intent of a user as it relates to the Workfront product. Prompt intent telemetry is only used to improve existing MCP tools in order to provide more accurate responses. 
+
+Users can disable telemetry collection by reaching out to customer support to file a request.
+
+
 ## Additional tools coming soon
 
 We are working on adding the following tools to the Workfront MCP server in the future:
 
 * Boards
-
-
-
