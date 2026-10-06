@@ -1,7 +1,7 @@
 ---
-title: Use CX Coworker in Workfront
+title: Use CX Enterprise Coworker in Workfront
 content-type: reference
-description: Learn how to use CX Coworker in Workfront.
+description: Learn how to use CX Enterprise Coworker in Workfront.
 author: Becky
 feature: Get Started with Workfront
 product_v2:
@@ -11,15 +11,15 @@ feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
 ---
-# Use CX Coworker in Workfront
+# Use CX Enterprise Coworker in Workfront
 
 {{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
->CX Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is available to these organizations. For more information, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>CX Enterprise Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is available to these organizations. For more information, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-You can access CX Coworker inside of Workfront.
+You can access CX Enterprise Coworker inside of Workfront.
 
 When using Coworker in Workfront, it can work with information and objects that:
  
@@ -78,14 +78,14 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    * **Microphone**: Dictate your message with voice input. Select again to stop recording.
    * **Send**: Send the message. While Coworker Chat is responding, this becomes a Stop control you can use to interrupt.
 
-   For details on these actions, see [The chat input box](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#the-chat-input-box) in the Adobe CX Coworker documentation.
+   For details on these actions, see [The chat input box](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#the-chat-input-box) in the Adobe CX Enterprise Coworker documentation.
 
 1. To view and manage previous chats, click the Chats icon ![Chats icon](assets/ai-icon.png) in the Coworker panel.
 
-   For details on Chats, see [Manage your chats](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) in the Adobe CX Coworker documentation.
+   For details on Chats, see [Manage your chats](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) in the Adobe CX Enterprise Coworker documentation.
 1. To view and manage chat artifacts, such as output lists, click the Artifacts icon ![Artifacts icon](assets/artifacts-icon.png).
 
-   For more information on artifacts in Coworker, see [Artifacts](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts) in the Adobe CX Coworker documentation.
+   For more information on artifacts in Coworker, see [Artifacts](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts) in the Adobe CX Enterprise Coworker documentation.
 1. To manage settings for Coworker, click the Settings icon ![Settings](assets/coworker-settings-icon.png).
 1. To expand the Coworker panel, click the Expand icon ![Expand icon](assets/coworker-expand-icon.png).
-1. To go into the Adobe CX Coworker interface, click the Apps icon ![Apps icon](assets/apps-icon.png) at the upper-right corner of the page and select Coworker from the list of available apps.
+1. To go into the Adobe CX Enterprise Coworker interface, click the Apps icon ![Apps icon](assets/apps-icon.png) at the upper-right corner of the page and select Coworker from the list of available apps.

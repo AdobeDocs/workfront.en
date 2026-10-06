@@ -25,7 +25,7 @@ topic_v2:
 
 >[!IMPORTANT]
 >
->Beginning in September 2026, AI Assistant is transitioning to CX Coworker, a conversational interface for getting work done. For information on Coworker, see [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>Beginning in September 2026, AI Assistant is transitioning to CX Enterprise Coworker, a conversational interface for getting work done. For information on Coworker, see [CX Enterprise Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 Workfront's AI Assistant can summarize some objects, giving you a high-level view of the object's intent or details. 
 
