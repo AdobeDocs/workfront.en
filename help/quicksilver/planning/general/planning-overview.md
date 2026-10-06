@@ -182,7 +182,7 @@ To locate Workfront Planning:
 
 <div class="preview">
 
-* [Adobe Workfront Planning CX Coworker overview](/help/quicksilver/planning/general/planning-cx-coworker-overview.md): A conversational interface where you describe a goal in plain language, and then it plans, executes, and validates the work across your Workfront Planning and other connected Adobe systems before bringing it back for your approval. CX Coworker preserves everything AI Assistant does today while adding more powerful end-to-end capabilities in both a new full-screen experience and the Workfront right rail.
+* [Adobe Workfront Planning CX Enterprise Coworker overview](/help/quicksilver/planning/general/planning-cx-coworker-overview.md): A conversational interface where you describe a goal in plain language, and then it plans, executes, and validates the work across your Workfront Planning and other connected Adobe systems before bringing it back for your approval. CX Enterprise Coworker preserves everything AI Assistant does today while adding more powerful end-to-end capabilities in both a new full-screen experience and the Workfront right rail.
 
 </div>
 

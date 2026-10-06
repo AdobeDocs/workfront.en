@@ -967,11 +967,11 @@ feature-set: Workfront
     * [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
     * [Adobe Workfront MCP server tools](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
     * [Skills available for direct install](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
-  * CX Coworker in Workfront {#coworker-in-workfront}
-    * [CX Coworker in Workfront: article index](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
-    * [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
-    * [CX Coworker skills](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
-    * [Use CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
+  * CX Enterprise Coworker in Workfront {#coworker-in-workfront}
+    * [CX Enterprise Coworker in Workfront: article index](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
+    * [CX Enterprise Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+    * [CX Enterprise Coworker skills](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [Use CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * Update work items and view updates {#update-work-items-view-updates}
     * [Update work items and view updates: article index](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [Updates section overview](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -2201,7 +2201,7 @@ feature-set: Workfront
     * [Adobe Workfront Planning implementation recommendations](planning/general/planning-best-practices.md)
     * [Adobe Workfront Planning API basics](planning/general/planning-api-basics.md)
     * [Adobe Workfront Planning AI Assistant overview](planning/general/planning-ai-assistant-overview.md)
-    * [Adobe Workfront Planning CX Coworker overview](planning/general/planning-cx-coworker-overview.md)
+    * [Adobe Workfront Planning CX Enterprise Coworker overview](planning/general/planning-cx-coworker-overview.md)
     * [Get started with the Adobe Workfront Planning Designer](planning/general/planning-ai-designer.md)
     * [Adobe Workfront Planning release activity for 2024](planning/general/release-activity.md)
     * [Adobe Workfront Planning release activity for 2023](planning/general/release-activity-archives-2023.md)

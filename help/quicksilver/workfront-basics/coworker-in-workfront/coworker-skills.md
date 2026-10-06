@@ -1,5 +1,5 @@
 ---
-title: CX Coworker skills
+title: CX Enterprise Coworker skills
 content-type: reference
 description: Learn about the skills available for Coworker in Adobe Workfront.
 author: Becky
@@ -11,15 +11,15 @@ feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
 ---
-# CX Coworker skills
+# CX Enterprise Coworker skills
 
 {{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
->CX Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is available to these organizations. For more information, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>CX Enterprise Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is available to these organizations. For more information, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-This article lists skills that are currently available to CX Coworker in Workfront.
+This article lists skills that are currently available to CX Enterprise Coworker in Workfront.
 
 The abilities covered by these skills is available in Coworker through the conversational interface, and you do not need to call these skills directly. However, if you do want to call the skills directly, you can do so in the Coworker panel by entering a slash `/` and typing the name of the skill.
 

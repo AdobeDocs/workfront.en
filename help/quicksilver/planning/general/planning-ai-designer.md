@@ -1,6 +1,6 @@
 ---
 title: Get Started with the Adobe Workfront Planning Designer
-description: You can use the Adobe Planning Designer powered by AI to configure your workspaces and data structures with ease. The Planning Designer supports everything from creating and configuring workspaces to defining fields and formulas, managing records, reviewing change history and building custom views. Whether used directly or through the AI Assistant or CX Coworker, the Planning Designer provides a flexible, powerful environment for building and maintaining structured, connected information.
+description: You can use the Adobe Planning Designer powered by AI to configure your workspaces and data structures with ease. The Planning Designer supports everything from creating and configuring workspaces to defining fields and formulas, managing records, reviewing change history and building custom views. Whether used directly or through the AI Assistant or CX Enterprise Coworker, the Planning Designer provides a flexible, powerful environment for building and maintaining structured, connected information.
 recommendations: noDisplay, noCatalog
 author: Alina, Becky
 feature: Workfront Planning
@@ -51,7 +51,7 @@ topic_v2:
 
 You can use the Adobe Planning Designer powered by AI to configure your workspaces and data structures with ease. The Planning Designer supports everything from creating and configuring workspaces to defining fields and formulas, managing records, reviewing change history and building custom views. 
 
-Whether used directly, through the AI Assistant, or <span class="preview"> CX Coworker</span>, the Planning Designer provides a flexible, powerful environment for building and maintaining structured, connected information.
+Whether used directly, through the AI Assistant, or <span class="preview"> CX Enterprise Coworker</span>, the Planning Designer provides a flexible, powerful environment for building and maintaining structured, connected information.
 
 For information about Workfront Planning, see the following articles:
 
@@ -62,7 +62,7 @@ For information about Workfront Planning, see the following articles:
 For information about AI Assistant and Coworker in Planning, see the following articles:
 
 * [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
-* [Adobe Workfront Planning CX Coworker overview](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
+* [Adobe Workfront Planning CX Enterprise Coworker overview](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
 
 ## Access requirements 
 

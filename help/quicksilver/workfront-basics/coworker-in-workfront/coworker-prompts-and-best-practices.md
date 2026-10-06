@@ -1,5 +1,5 @@
 ---
-title: CX Coworker prompts and best practices
+title: CX Enterprise Coworker prompts and best practices
 content-type: reference
 description: Learn about the best practices for using Coworker in Workfront and view a list of prompt examples.
 author: Becky
@@ -11,15 +11,15 @@ feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
 ---
-# CX Coworker prompts and best practices
+# CX Enterprise Coworker prompts and best practices
 
 <!--DO NOT USE THIS--Link instead to the MCP example prompts article, make sure it's updated with the recent releases to MCP-->
 
 >[!IMPORTANT]
 >
->CX Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is available to these organizations. For more information, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>CX Enterprise Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is available to these organizations. For more information, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-With CX Coworker, you can use natural language to interact with Workfront Workflow and Workfront Planning.
+With CX Enterprise Coworker, you can use natural language to interact with Workfront Workflow and Workfront Planning.
 
 Coworker is part of the Adobe Experience Cloud Agent Orchestrator.
 

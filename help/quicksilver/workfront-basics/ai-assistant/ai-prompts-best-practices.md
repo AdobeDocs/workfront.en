@@ -20,7 +20,7 @@ role_v2:
 
 >[!IMPORTANT]
 >
->Beginning in September 2026, AI Assistant is transitioning to CX Coworker, a conversational interface for getting work done. For information on Coworker, see [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>Beginning in September 2026, AI Assistant is transitioning to CX Enterprise Coworker, a conversational interface for getting work done. For information on Coworker, see [CX Enterprise Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 Workfront's AI Assistant is a powerful tool that can help you accomplish your work more effectively by offering useful information about your account data and specific object types.
 
