@@ -2,7 +2,7 @@
 product-area: documents
 navigation-topic: approvals
 title: Create a grouped approval
-description: You can bundle multiple assets into a single approval workflow so they move through the same stages together.
+description: You can bundle multiple documents into a single approval workflow so they move through the same stages together.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 ---
@@ -11,7 +11,7 @@ feature: Work Management, Digital Content and Documents
 
 <span class="preview">The information on this page is not available in the Preview Sandbox environment because the Frame.io integration is unavailable there. This functionality will be available in Production environments on October 14 and 15, 2026.</span>
 
-A grouped approval bundles multiple assets under a single approval workflow. You can use Basic and Advanced mode, multiple stages, and parallel paths with grouped approvals, just as you can with single-asset approvals.
+A grouped approval bundles multiple documents under a single approval workflow. You can use Basic and Advanced mode, multiple stages, and parallel paths with grouped approvals, just as you can with single-document approvals.
 
 Grouped approvals are available only in the new Documents area, which appears when your organization uses Adobe cloud storage. For more information, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -56,9 +56,9 @@ To create a single-stage grouped approval:
 
 1. Go to the project, task, or issue that contains the documents, then select **Documents** in the left panel.
 
-1. Click the first asset you want to include, then Shift+click the additional assets to select multiple assets.
+1. Click the first document you want to include, then Shift+click the additional documents to select multiple documents.
 
-1. With the assets selected, click **Request Approval** in the bottom menu. The **Request approval** dialog opens in Basic mode.
+1. With the documents selected, click **Request Approval** in the bottom menu. The **Request approval** dialog opens in Basic mode.
 
    ![create a grouped approval](assets/requeset-grouped-approval.png)
 
@@ -88,7 +88,7 @@ To create a single-stage grouped approval:
    </tr>
    </table>
 
-1. (Optional) Click the **Documents** tab to review the assets included in this approval.
+1. (Optional) Click the **Documents** tab to review the documents included in this approval.
 
 1. Click **Request approval**.
 
@@ -98,7 +98,7 @@ To create a single-stage grouped approval:
 
 Advanced mode supports parallel paths. Each path runs independently and contains one or more sequential stages. When all required decisions in a stage are made, the next stage in that path begins, the previous stage is locked, and the new stage's reviewers and approvers receive an email notification.
 
-A "Needs work" decision stops the path it's on but does not affect the approval workflow on other paths. 
+A "Needs work" decision stops the path it's on but does not affect the approval workflow on other paths.
 
 <!--
 You can configure up to 30 paths and 100 stages total.
@@ -108,9 +108,9 @@ To create an advanced grouped approval:
 
 1. Go to the project, task, or issue that contains the documents, then select **Documents** in the left panel.
 
-1. Click the first asset you want to include, then Shift+click the additional assets to select multiple assets.
+1. Click the first document you want to include, then Shift+click the additional documents to select multiple documents.
 
-1. With the assets selected, click **Request Approval** in the bottom menu. 
+1. With the documents selected, click **Request Approval** in the bottom menu.
 
    ![create a grouped approval](assets/requeset-grouped-approval.png)
 
@@ -163,7 +163,7 @@ To create an advanced grouped approval:
 
 1. (Optional) To clear all paths and stages and start over, click **Reset** in the top-right corner.
 
-1. (Optional) Click the **Documents** tab to review the assets included in this approval.
+1. (Optional) Click the **Documents** tab to review the documents included in this approval.
 
 1. Click **Request approval**.
 
@@ -187,7 +187,7 @@ To add an additional document to a grouped approval:
 
 -->
 
-## Known limitations 
+## Known limitations
 
 * Currently, you can't add or remove documents from a grouped approval workflow once it's created. This functionality is planned for a future release.
-* Grouped approvals are temporarily limited to 3 paths and 25 assets per group.
+* Grouped approvals are temporarily limited to 3 paths and 25 documents per group.
