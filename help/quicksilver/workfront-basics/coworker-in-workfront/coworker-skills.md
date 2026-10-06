@@ -21,7 +21,7 @@ feature_v2:
 
 This article lists skills that are currently available to CX Coworker in Workfront.
 
-The abilities covered by these skills is available in CX Coworker through the conversational interface, and you do not need to call these skills directly. However, if you do want to call the skills directly, you can do so in the Coworker panel by entering a slash `/` and typing the name of the skill.
+The abilities covered by these skills is available in Coworker through the conversational interface, and you do not need to call these skills directly. However, if you do want to call the skills directly, you can do so in the Coworker panel by entering a slash `/` and typing the name of the skill.
 
 For example prompts, see the prompts in the article [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
 

@@ -19,7 +19,7 @@ feature_v2:
 >
 >CX Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is available to these organizations. For more information, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-With CX Coworker, you can use natural language to interact with Workfront Workflow and Workfront Planning. 
+With CX Coworker, you can use natural language to interact with Workfront Workflow and Workfront Planning.
 
 Coworker is part of the Adobe Experience Cloud Agent Orchestrator.
 
@@ -69,7 +69,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Considerations
 
-Consider the following constraints when using CX Coworker:
+Consider the following constraints when using Coworker:
 
 ### Reversibility
 
@@ -83,13 +83,13 @@ However, some actions, such as object deletion, can **not** be reversed. We reco
 
 ### Interaction / UX limitations
 
-* CX Coworker does not currently "learn" long-term from an individual user's style or preferences. Every chat uses only the current conversation and product knowledge.
+* Coworker does not currently "learn" long-term from an individual user's style or preferences. Every chat uses only the current conversation and product knowledge.
 * Conversation context is kept within a single chat session. Opening a new page or closing the assistant resets the conversation history.
 * If approval procedures live in an outside application like Confluence or SharePoint, and are only linked via URL fields, Coworker does not currently fetch and reason over those pages.
 
 ### Data storage / Customer managed keys
 
-* Because CX Coworker is part of the Adobe Experience Platform Agent Orchestrator, data from your interactions with Coworker are stored in Adobe Experience Platform, not in Workfront. Therefore, this data is not covered by Workfront Customer Managed Keys (BYOK) agreements.
+* Because Coworker is part of the Adobe Experience Platform Agent Orchestrator, data from your interactions with Coworker are stored in Adobe Experience Platform, not in Workfront. Therefore, this data is not covered by Workfront Customer Managed Keys (BYOK) agreements.
                                              
 ## General-use foundational AI skills
 
@@ -103,7 +103,7 @@ For best practices and prompts for these general-use skills, see [AI Assistant p
 
 ### Product knowledge
 
-CX Coworker can provide instructions or reference information pulled from the Workfront documentation. 
+Coworker can provide instructions or reference information pulled from the Workfront documentation. 
 
 For more information about pulling information from Workfront documentation, see [Get help from AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
 
@@ -111,7 +111,7 @@ Example: How do I change task duration type?
 
 ### Project, task, and issue summarization
 
-CX Coworker can summarize project, tasks, or issues<!--, or documents--> that have been uploaded to Workfront.
+Coworker can summarize project, tasks, or issues<!--, or documents--> that have been uploaded to Workfront.
 
 For more information about project, task, and issue summaries, see [Summarize using AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
 
@@ -121,7 +121,7 @@ Example: Summarize the project called Fall Campaign 2026.
 
 ### Locate work items
 
-CX Coworker can find work items like projects, tasks, and issues
+Coworker can find work items like projects, tasks, and issues
 
 Example: Find all tasks assigned to me that are due this week.
 
@@ -151,7 +151,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 -->
 
-## CX Coworker in Workfront
+## Coworker in Workfront
 
 * [Project, task, and issue information](#project-task-and-issue-information)
 * [Project and work management](#project-and-work-management)
@@ -159,7 +159,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 ### Project, task, and issue information
 
-CX Coworker can give you information about project, tasks, and issues, including summaries and project health.
+Coworker can give you information about project, tasks, and issues, including summaries and project health.
 
 See example prompts for document and asset approvals in the following areas:
 
@@ -198,7 +198,7 @@ See example prompts for document and asset approvals in the following areas:
 
 ### Project and work management
 
-You can use CX Coworker to create and manage projects, including tasks and assignments. 
+You can use Coworker to create and manage projects, including tasks and assignments. 
 
 See example prompts for project and work management in the following areas:
 
@@ -262,7 +262,7 @@ You can create, update, and delete user or job role assignments.
 
 ### Content and Approvals
 
-CX Coworker can help manage document and asset approvals in Workfront. 
+Coworker can help manage document and asset approvals in Workfront. 
 
 Consider the following when working with document and asset approvals:
 
@@ -309,7 +309,7 @@ See example prompts for document and asset approvals in the following areas:
 * Update the 'Creative Review' template by removing Rick Kuvec and adding Karen Sterling to stage 2.
 
 
-## CX Coworker in Workfront Planning
+## Coworker in Workfront Planning
 
 ### Work with Planning records
 
