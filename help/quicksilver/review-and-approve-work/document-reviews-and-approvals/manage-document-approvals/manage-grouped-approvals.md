@@ -2,16 +2,14 @@
 product-area: documents
 navigation-topic: approvals
 title: Manage grouped approvals
-description: You can add or remove participants and assets in a grouped approval without disrupting the workflow for the rest of the group.
+description: You can add or remove participants and documents in a grouped approval without disrupting the workflow for the rest of the group.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 ---
 
 # Manage grouped approvals
 
-{{highlighted-preview-article-level}}
-
-A grouped approval bundles multiple assets under a single approval workflow, so all the assets move through the same stages together instead of requiring a separate approval per asset. You can add or remove participants and assets in an active grouped approval without recreating the workflow.
+A grouped approval bundles multiple documents under a single approval workflow, so all the documents move through the same stages together instead of requiring a separate approval per document. You can add or remove participants and documents in an active grouped approval without recreating the workflow.
 
 Grouped approvals support Basic and Advanced mode, multiple stages, and parallel paths the same way as single-asset approvals. For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
@@ -86,19 +84,19 @@ To remove participants from an active grouped approval:
 
 1. Click any document in the group, then click the **Approvals** icon on the right side of the page.
 
+   ![Remove approvers in document summary](assets/approvals-icon-new.png)
+
 1. Click **Edit workflow**.
 
 1. Locate the participant you want to remove from the active stage, then click the **Remove** icon next to their name.
 
 1. Click **Save**.
 
-   The remaining participants' approval status is re-evaluated to account for the change.
+## Add documents to a grouped approval
 
-## Add assets to a grouped approval
+You can add documents to a grouped approval until its first stage is locked. Once the first stage locks, you can no longer add documents, because the participants in that stage wouldn't have had the chance to review them.
 
-You can add assets to a grouped approval until its first stage is locked. Once the first stage locks, you can no longer add assets, because the participants in that stage wouldn't have had the chance to review them.
-
-To add an asset to a grouped approval:
+To add a document to a grouped approval:
 
 1. Go to the project, task, or issue that contains the grouped approval, then select **Documents** in the left panel.
 
@@ -106,17 +104,17 @@ To add an asset to a grouped approval:
 
 1. Click **Edit workflow**, then click the **Documents** tab.
 
-1. Select the asset or assets you want to add to the group.
+1. Select the document or documents you want to add to the group.
 
 1. Click **Save**.
 
-   All participants in the group are notified that an additional asset was added for them to review.
+   All participants in the group are notified that an additional document was added for them to review.
 
-## Remove assets from a grouped approval
+## Remove documents from a grouped approval
 
-You can remove an asset from a grouped approval at any point in the workflow. The removed asset becomes its own standalone approval and keeps all of its existing decisions, comments, and history without restarting. Because the asset already carries an approval decision, you can't add it back to a grouped approval afterward.
+You can remove a document from a grouped approval at any point in the workflow. The removed document becomes its own standalone approval and keeps all of its existing decisions, comments, and history without restarting. Because the document already carries an approval decision, you can't add it back to a grouped approval afterward.
 
-To remove an asset from a grouped approval:
+To remove a document from a grouped approval:
 
 1. Go to the project, task, or issue that contains the grouped approval, then select **Documents** in the left panel.
 
@@ -128,16 +126,18 @@ To remove an asset from a grouped approval:
 
 1. Click **Save**.
 
-   The asset's approval status stays visible and unchanged from the moment it was removed. The grouped approval view updates to reflect the remaining assets in the group.
+   The document's approval status stays visible and unchanged from the moment it was removed. The grouped approval view updates to reflect the remaining documents in the group.
 
-## Resolve a "Needs work" decision in a multi-stage grouped approval
+## Resolve a "Needs work" decision on a single document in a multi-stage grouped approval
 
-In a multi-stage grouped approval, all the assets in a stage must reach a decision before the group can advance to the next stage. If an asset is marked **Needs work**, it can't move forward with the rest of the group, so it must be removed from the group for the stage to progress.
+In a multi-stage grouped approval, all the documents in a stage must reach a decision before the group can advance to the next stage. If a document is marked **Needs work**, it can't move forward with the rest of the group, so it must be removed from the group for the stage to progress.
+
+^ before the stage can progress?
 
 To resolve a "Needs work" decision:
 
-1. Remove the asset that was marked **Needs work** from the group. For more information, see [Remove assets from a grouped approval](#remove-assets-from-a-grouped-approval). The removed asset becomes its own standalone approval and keeps its existing decisions, comments, and history.
+1. Remove the document that was marked **Needs work** from the group. For more information, see [Remove documents from a grouped approval](#remove-documents-from-a-grouped-approval). The removed document becomes its own standalone approval and keeps its existing decisions, comments, and history.
 
-1. After the asset is updated, request approval on it again, either as a single asset or as part of a new group. Because the asset already carries an approval decision, you can't add it back to the original group.
+1. After the document is updated, request approval on it again, either as a single document or as part of a new group. Because the document already carries an approval decision, you can't add it back to the original group.
 
    For more information, see [Create a document approval workflow](create-a-document-approval.md) and [Create a grouped approval](create-a-grouped-approval.md).
