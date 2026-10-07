@@ -134,6 +134,8 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 
 * For the dependency chain to work, all dependent fields must exist on the same record type at the same time. 
 
+* Dependent fields are supported for all areas where the connected records fields display, including the Details areas of a record or request forms. 
+
 ## Create a dependent connection
 
 1. As a workspace manager, go to a record type in Workfront Planning and open it in the table view. 
