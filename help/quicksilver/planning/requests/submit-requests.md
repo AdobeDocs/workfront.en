@@ -216,6 +216,12 @@ Not sure how to change the request status, but dev also said: Changing the names
    >The **Name** field is unique to your organization and it might display a different label in your Workfront instance. The field is the primary field of the record. 
 
 1. Update the remaining fields in the request form. Fields with a red asterisk are required. 
+
+   >[!TIP]
+   >
+   >The values for dependent connected record fields are limited by the dependecy rules between the records. For more information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md). 
+   
+
 1. (Conditional) If your organization allows **Form Fill** powered by AI, you can upload documents as prompts. AI uses these documents to fill in the form, and you can accept or reject the AI suggestions before you submit the request.
 
 
