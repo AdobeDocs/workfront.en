@@ -116,6 +116,7 @@ For information about custom fields and widgets in custom forms, see [Create a c
   * Custom fields not included in a display logic statement show on a custom form, by default.
   * You can create multi-field display logic statements.
   * If all of the fields under a section break have display logic applied to them and they are all hidden as a result of the logic, the entire section will be hidden on the custom form.
+  * Fields hidden by display logic keep their values, and they are still included in expressions such as CONCAT.
 
 ## Add display logic to a custom form
 
