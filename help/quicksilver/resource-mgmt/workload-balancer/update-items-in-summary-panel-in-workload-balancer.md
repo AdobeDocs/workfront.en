@@ -6,7 +6,7 @@ description: You can open the Summary panel in the Workload Balancer to update w
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-TQID: https://experienceleague.adobe.com/eO2UAKzj1TjLfpJKNZ5jewp-S3aNVgxucSUJdu7jaC0
+TQID: 'https://experienceleague.adobe.com/eO2UAKzj1TjLfpJKNZ5jewp-S3aNVgxucSUJdu7jaC0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -14,7 +14,7 @@ feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-    internal-label: Resource Management
+    internal-label: Resource management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
     internal-label: Workload Balancer

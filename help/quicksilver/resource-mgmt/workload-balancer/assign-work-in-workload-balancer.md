@@ -6,7 +6,7 @@ description: As a resource manager, you can use the Adobe Workfront Workload Bal
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-TQID: https://experienceleague.adobe.com/V48Ew1abmm8Qkf2qwpO-9aERwltZq-3L0l2EEsNa8do
+TQID: 'https://experienceleague.adobe.com/V48Ew1abmm8Qkf2qwpO-9aERwltZq-3L0l2EEsNa8do'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -14,7 +14,7 @@ feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-    internal-label: Resource Management
+    internal-label: Resource management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
     internal-label: Workload Balancer

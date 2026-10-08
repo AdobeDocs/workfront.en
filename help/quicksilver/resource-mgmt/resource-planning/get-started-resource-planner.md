@@ -7,7 +7,7 @@ description: You can estimate and budget the allocation of your resources to the
 author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-TQID: https://experienceleague.adobe.com/C5riEXuyMjR6aL1vjXuMVdT2Ehbm78z03BtwcxoyysQ
+TQID: 'https://experienceleague.adobe.com/C5riEXuyMjR6aL1vjXuMVdT2Ehbm78z03BtwcxoyysQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -15,7 +15,7 @@ feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-    internal-label: Resource Management
+    internal-label: Resource management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
     internal-label: Workload Balancer
