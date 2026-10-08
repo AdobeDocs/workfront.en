@@ -26,8 +26,6 @@ topic_v2:
 ---
 # Override job role billing rates at the company level
 
-{{preview-fast-release-general}}
-
 When a job role is created, you have the option to select an hourly billing rate for that role. You can create multiple hourly billing rates that are specific to a company. Each billing rate is effective for a specific date range.
 
 At the project level, you can enable an option to allow company-level billing rates to override project-level rates. For more information, see [Override Project-Level Billing Rates with Company-Level Billing Rates](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md).
@@ -70,38 +68,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. Locate the company where the job role is assigned.
 1. Click the company name in the list.
 1. Click **[!UICONTROL Billing Rates]** in the left panel.
-1. Click **[!UICONTROL Add Billing Rate] > [!UICONTROL New Billing Rate]**, or <span class="preview">**Add Billing Rate**</span>.
+1. Click **[!UICONTROL Add Billing Rate]**.
 1. In the [!UICONTROL New Billing Rate] dialog, select a [!UICONTROL **Job Role**] to define the billing rate for.
-
-### In the Production environment:
-
-   The [!UICONTROL **Default Billing Rate**] displays the system-level rate for this job role.
-
-   ![New Billing Rate dialog](assets/date-effective-billing-rates-for-company.png)
-
-1. In the [!DNL **Billing Rates 1**] field, enter the billing rate. Then, click [!UICONTROL **Save**] to override the billing rate one time.
-
-   Or
-
-   Click [!UICONTROL **Add Rate**] to add more billing rates with effective dates.
-
-1. (Conditional) If you are adding more than one billing rate, enter the following information:
-
-   * **[!UICONTROL Billing Rates 1], 2, etc.**: The value of the billing rate for the time period.
-   * **[!UICONTROL Start Date]**: The date when the rate becomes effective.
-   * **[!UICONTROL End Date]**: The date when the rate ends.
-
-     Billing Rate 1 will not have a start date and the last billing rate will not have an end date. Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add Billing Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.
-
-1. Click [!UICONTROL **Save**].
-
-   >[!NOTE]
-   >
-   >Job role rates changed on the project will only impact only that project. Rates changed at the company level will impact all projects. For more information, see [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
-
-<div class="preview">   
-
-### In the Preview environment:
 
 1. Select attributes for the rate such as Agency, Location, or Cost Center.
 
@@ -141,5 +109,35 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >
    >Job role rates changed on the project will only impact only that project. Rates changed at the company level will impact all projects that have the company assigned. For more information, see [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-</div>
+
+
+
+<!--
+
+   The [!UICONTROL **Default Billing Rate**] displays the system-level rate for this job role.
+
+   ![New Billing Rate dialog](assets/date-effective-billing-rates-for-company.png)
+
+1. In the [!DNL **Billing Rates 1**] field, enter the billing rate. Then, click [!UICONTROL **Save**] to override the billing rate one time.
+
+   Or
+
+   Click [!UICONTROL **Add Rate**] to add more billing rates with effective dates.
+
+1. (Conditional) If you are adding more than one billing rate, enter the following information:
+
+   * **[!UICONTROL Billing Rates 1], 2, etc.**: The value of the billing rate for the time period.
+   * **[!UICONTROL Start Date]**: The date when the rate becomes effective.
+   * **[!UICONTROL End Date]**: The date when the rate ends.
+
+     Billing Rate 1 will not have a start date and the last billing rate will not have an end date. Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add Billing Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.
+
+1. Click [!UICONTROL **Save**].
+
+   >[!NOTE]
+   >
+   >Job role rates changed on the project will only impact only that project. Rates changed at the company level will impact all projects. For more information, see [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+
+-->
+
 
