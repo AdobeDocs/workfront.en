@@ -20,6 +20,22 @@ This page describes Administrator enhancements made with the Fourth Quarter 2026
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+## View a user's employment history
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+To help you track how a user's job role, agency, cost center, and billing rates have changed over time, we've added Employment History.
+
+Employment history displays a chronological view of these details for one or more users. Each line represents a specific set of values and the date range during which they applied.
+
+You can view employment history for multiple users, or view a single user's complete history. From either view, you can filter results, customize which columns display, and export the data as a CSV or XLSX file.
+
+For more information, see [View user employment history](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-employment-history.md).
+
 ## Use AI to generate custom localization
 
 >[!NOTE]

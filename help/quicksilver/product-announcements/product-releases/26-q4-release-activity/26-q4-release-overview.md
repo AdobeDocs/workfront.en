@@ -61,6 +61,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">View a user's employment history</a>
+                <p>Workfront administrators can now track changes to a user's job role, agency, cost center, and billing rates over time in a single, filterable Employment History view.</p>
+            </td>
+            <td><p>October 1, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Use AI to generate custom localization</a>
                 <p>Workfront administrators can now use AI to generate translations for custom localization text and review or adjust the results before saving.</p>
             </td>
