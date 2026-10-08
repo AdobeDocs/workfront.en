@@ -44,6 +44,21 @@ For more information, see:
 * [Adobe Creative Cloud Projects overview](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
 * [Use Workfront documents in Creative Cloud apps](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
 
+## Delegate unified document approvals
+
+>[!NOTE]
+>
+>Preview: October 8, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period. Delegated decisions show both names in the approval workflow, so it's clear who made each decision.
+
+Legacy document and proof approvals remain unsupported.
+
+For more information, see [Delegate approval request](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+
 ## Group multiple documents into a single approval workflow
 
 >[!NOTE]
