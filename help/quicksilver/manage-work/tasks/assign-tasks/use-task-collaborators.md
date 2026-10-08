@@ -1,7 +1,7 @@
 ---
 title: Use Work Agents
 content-type: reference
-description: Learn how to use Work Agents, AI Collaborators that can be assigned to Workfront tasks.
+description: Learn how to use Work Agents, AI Collaborators that can be assigned to Workfront tasks, issues, and requests.
 author: Becky
 feature: Work Management, Tasks
 product_v2:
@@ -21,7 +21,7 @@ role_v2:
 
 {{preview-fast-release-general}}
 
-Work Agents are AI Collaborators that can be assigned directly to Workfront tasks and issues. Like other AI Collaborators, Work Agents are configured in the Setup area and assigned to tasks just like a user.
+Work Agents are AI Collaborators that can be assigned directly to Workfront tasks, issues, and requests. Like other AI Collaborators, Work Agents are configured in the Setup area and assigned to work items just like a user.
 
 Work Agents connect to agents that you have configured in Copilot Studio, Claude, Writer,  <span class="preview">OpenAI or IBM. </span>
 
@@ -121,13 +121,13 @@ The following situations do not cause the Work Agent to begin work on the task:
 * A Work Agent is assigned to a task that already has a Work Agent assigned. In this case, the first Work Agent assigned will have already begun the work, and the second Work Agent will do nothing.
 * A Work Agent is assigned to a task that is not ready to start. (For example, if the task has predecessors, the predecessors are not yet complete.)
 
-## Assign a Work Agent to a task <span class="preview">or issue</span>
+## Assign a Work Agent to a task, issue, or request
 
-Work Agents are assigned to tasks <span class="preview">or issues</span> the same way users are assigned.
+Work Agents are assigned to tasks, issues, or requests the same way users are assigned.
 
 When you are searching for a Work Agent in the list of available assignees, the name of the Work Agent is a first name only.
 
-For instructions, see [Assign tasks](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).
+For instructions, see [Assign tasks](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) and [Manage work and team requests](/help/quicksilver/people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
 >[!NOTE]
 >
