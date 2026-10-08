@@ -44,6 +44,21 @@ For more information, see:
 * [Adobe Creative Cloud Projects overview](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
 * [Use Workfront documents in Creative Cloud apps](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
 
+## Delegate unified document approvals
+
+>[!NOTE]
+>
+>Preview: October 8, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period. Delegated decisions show both names in the approval workflow, so it's clear who made each decision.
+
+Legacy document and proof approvals remain unsupported.
+
+For more information, see [Delegate approval request](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+
 ## Group multiple documents into a single approval workflow
 
 >[!NOTE]
@@ -60,21 +75,18 @@ Grouped approvals are available only in the new Documents area, which appears wh
 
 For more information, see [Create a grouped approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md).
 
-<!--
-
 ## Add a web link as a document
 
 >[!NOTE]
 >
-> Preview: This feature isn't available in preview because Frame.io doesn't currently offer a preview environment.
-> Production fast release: October 14, 2026
-> Production for everyone: October 15, 2026
+>Preview: This feature is not available in the Preview Sandbox environment because the Frame.io integration is unavailable there.
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+>[!BADGE Off schedule]{type=Neutral}
 
 You can now add a website to Adobe Workfront as a web link in the new Documents area. After you add it, you can request approval on the live web page the same way you request approval on an uploaded file.
 
-For more information, see [Add a web link as a document](/help/quicksilver/documents/adding-documents-to-workfront/add-live-url.md) and [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
-
--->
+For more information, see <!-- [Add a web link as a document](/help/quicksilver/documents/adding-documents-to-workfront/add-live-url.md) and  -->[Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 ## Control who can see and use approval templates
 
