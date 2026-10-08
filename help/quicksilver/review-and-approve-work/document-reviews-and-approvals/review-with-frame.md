@@ -81,7 +81,7 @@ As a reviewer, you can add comments to and mark up assets. Once finished, you ca
 
 1. Go to your review email notification, and click **Go to review**.
 or
-Go the Workfront Home page, find the My Approvals widget, then click **Open review**.
+Go to the Workfront Home page, find the My Approvals widget, then click **Open review**.
 
     >[!NOTE]
     > 
@@ -103,12 +103,11 @@ To make a decision on a document:
 
 1. Go to your review email notification, and click **Go to review**.
 or
-Go the Workfront Home page, find the My Approvals widget, then click **Open review**.
+Go to the Workfront Home page, find the My Approvals widget, then click **Open review**.
 
     >[!NOTE]
     > 
     >You may have to add the My Approvals widget to your Home page. For more information, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
-
 
 1. In Frame.io, use the commenting tools to leave feedback or ask questions. Comments and asset markup are visible only in the Frame.io viewer. For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 
@@ -127,7 +126,3 @@ Go the Workfront Home page, find the My Approvals widget, then click **Open revi
     For more information about decisions in Workfront, see [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md). 
 
     ![Frame viewer and decision](assets/make-decision-frame.png)
-
-
-
-<!--is document owner the correct term?-->
